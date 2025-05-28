@@ -13,7 +13,7 @@ abbreviation_to_name = {
     "DC": "District of Columbia",
     "FL": "Florida",
     "GA": "Georgia",
-    "GU": "Guam GU",
+    "GU": "Guam",
     "HI": "Hawaii",
     "IA": "Iowa",
     "ID": "Idaho",
@@ -171,10 +171,30 @@ def shift_color_toward(base_color, shift_color, amount=0.5):
 def lighten(base_color):
    return shift_color_toward(base_color, "FFFFFF")
 
+def modify_by_one(color_code):
+    r, g, b = hex_to_rgb(color_code)
+    
+    # Try modifying each component by 1 until we get a valid color
+    if r > 0:
+        r -= 1
+    elif g > 0:
+        g -= 1
+    elif b > 0:
+        b -= 1
+    else:
+        # If we can't decrease, try increasing
+        if r < 255:
+            r += 1
+        elif g < 255:
+            g += 1
+        elif b < 255:
+            b += 1
+            
+    return rgb_to_hex((r, g, b))
+
 colors: List[str] = []
 def calculate_counties_colors():
     global counties_colors
-    clashes = []
     for state in states_counties.keys():
         shift_color = states_colors[name_to_abbreviation[state]]
         num_counties = len(states_counties[state])
@@ -182,14 +202,12 @@ def calculate_counties_colors():
         i = 0
         for county in states_counties[state]:
             calculated = shift_color_toward(colors[i], shift_color)
-            if calculated in colors:
-               clashes.append(county + ", " + state)
-            else:
-               colors.append(calculated)
+            while calculated in colors:
+                print("Encountered color code clash with " + county + ", " + state)
+                calculated = modify_by_one(calculated)
+            colors.append(calculated)
             counties_colors[fips[county + ", " + state]] = calculated
             i += 1
-    print(str(len(clashes)) + " clashes:")
-    print(clashes)
 
 def write_output():
     with open("src\\main\\resources\\counties_colors.txt", "w") as out:
