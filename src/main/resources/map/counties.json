@@ -94397,7 +94397,7 @@
 		"full_name" : "Carson Independent City",
 		"common_name" : "",
 		"state" : "Nevada",
-		"county_seat" : "Independent city (United States)",
+		"county_seat" : "Carson City",
 		"population" : 57491,
 		"population_desity" : 365.9,
 		"pop_change_rate" : 221.7,
@@ -169810,5 +169810,785 @@
 		"county_seat" : "Stamford",
 		"population" : 637013,
 		"land_area" : 532.1
+	},
+	"Adjuntas Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72001",
+		"full_name" : "Adjuntas Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Adjuntas",
+		"population" : 18020,
+		"land_area" : 66.69
+	},
+	"Aguada Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72003",
+		"full_name" : "Aguada Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Aguada",
+		"population" : 38136,
+		"land_area" : 30.85
+	},
+	"Aguadilla Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72005",
+		"full_name" : "Aguadilla Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Aguadilla",
+		"population" : 55101,
+		"land_area" : 36.53
+	},
+	"Aguas Buenas Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72007",
+		"full_name" : "Aguas Buenas Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Aguas Buenas",
+		"population" : 24223,
+		"land_area" : 30.08
+	},
+	"Aibonito Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72009",
+		"full_name" : "Aibonito Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Aibonito",
+		"population" : 24637,
+		"land_area" : 31.31
+	},
+	"Añasco Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72011",
+		"full_name" : "Añasco Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Añasco",
+		"population" : 25596,
+		"land_area" : 39.29
+	},
+	"Arecibo Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72013",
+		"full_name" : "Arecibo Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Arecibo",
+		"population" : 87754,
+		"land_area" : 125.95
+	},
+	"Arroyo Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72015",
+		"full_name" : "Arroyo Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Arroyo",
+		"population" : 15843,
+		"land_area" : 15.01
+	},
+	"Barceloneta Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72017",
+		"full_name" : "Barceloneta Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Barceloneta",
+		"population" : 22657,
+		"land_area" : 18.69
+	},
+	"Barranquitas Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72019",
+		"full_name" : "Barranquitas Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Barranquitas",
+		"population" : 28983,
+		"land_area" : 34.25
+	},
+	"Bayamón Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72021",
+		"full_name" : "Bayamón Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Bayamón",
+		"population" : 185187,
+		"land_area" : 44.32
+	},
+	"Cabo Rojo Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72023",
+		"full_name" : "Cabo Rojo Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Cabo Rojo",
+		"population" : 47158,
+		"land_area" : 70.37
+	},
+	"Caguas Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72025",
+		"full_name" : "Caguas Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Caguas",
+		"population" : 127244,
+		"land_area" : 58.6
+	},
+	"Camuy Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72027",
+		"full_name" : "Camuy Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Camuy",
+		"population" : 32827,
+		"land_area" : 46.35
+	},
+	"Canóvanas Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72029",
+		"full_name" : "Canóvanas Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Canóvanas",
+		"population" : 42337,
+		"land_area" : 32.87
+	},
+	"Carolina Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72031",
+		"full_name" : "Carolina Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Carolina",
+		"population" : 154815,
+		"land_area" : 45.32
+	},
+	"Cataño Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72033",
+		"full_name" : "Cataño Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Cataño",
+		"population" : 23155,
+		"land_area" : 4.84
+	},
+	"Cayey Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72035",
+		"full_name" : "Cayey Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Cayey",
+		"population" : 41652,
+		"land_area" : 51.93
+	},
+	"Ceiba Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72037",
+		"full_name" : "Ceiba Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Ceiba",
+		"population" : 11307,
+		"land_area" : 29.04
+	},
+	"Ciales Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72039",
+		"full_name" : "Ciales Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Ciales",
+		"population" : 16984,
+		"land_area" : 66.53
+	},
+	"Cidra Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72041",
+		"full_name" : "Cidra Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Cidra",
+		"population" : 39970,
+		"land_area" : 36.02
+	},
+	"Coamo Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72043",
+		"full_name" : "Coamo Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Coamo",
+		"population" : 34668,
+		"land_area" : 78.1
+	},
+	"Comerío Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72045",
+		"full_name" : "Comerío Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Comerío",
+		"population" : 18883,
+		"land_area" : 28.4
+	},
+	"Corozal Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72047",
+		"full_name" : "Corozal Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Corozal",
+		"population" : 34571,
+		"land_area" : 42.57
+	},
+	"Culebra Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72049",
+		"full_name" : "Culebra Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Culebra",
+		"population" : 1792,
+		"land_area" : 11.62
+	},
+	"Dorado Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72051",
+		"full_name" : "Dorado Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Dorado",
+		"population" : 35879,
+		"land_area" : 23.09
+	},
+	"Fajardo Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72053",
+		"full_name" : "Fajardo Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Fajardo",
+		"population" : 32124,
+		"land_area" : 29.86
+	},
+	"Florida Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72054",
+		"full_name" : "Florida Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Florida",
+		"population" : 11692,
+		"land_area" : 15.21
+	},
+	"Guánica Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72055",
+		"full_name" : "Guánica Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Guánica",
+		"population" : 13787,
+		"land_area" : 37.05
+	},
+	"Guayama Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72057",
+		"full_name" : "Guayama Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Guayama",
+		"population" : 36614,
+		"land_area" : 64.99
+	},
+	"Guayanilla Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72059",
+		"full_name" : "Guayanilla Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Guayanilla",
+		"population" : 17784,
+		"land_area" : 42.27
+	},
+	"Guaynabo Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72061",
+		"full_name" : "Guaynabo Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Guaynabo",
+		"population" : 89780,
+		"land_area" : 27.58
+	},
+	"Gurabo Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72063",
+		"full_name" : "Gurabo Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Gurabo",
+		"population" : 40622,
+		"land_area" : 27.89
+	},
+	"Hatillo Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72065",
+		"full_name" : "Hatillo Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Hatillo",
+		"population" : 38486,
+		"land_area" : 41.78
+	},
+	"Hormigueros Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72067",
+		"full_name" : "Hormigueros Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Hormigueros",
+		"population" : 15654,
+		"land_area" : 11.34
+	},
+	"Humacao Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72069",
+		"full_name" : "Humacao Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Humacao",
+		"population" : 50896,
+		"land_area" : 44.75
+	},
+	"Isabela Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72071",
+		"full_name" : "Isabela Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Isabela",
+		"population" : 42943,
+		"land_area" : 55.3
+	},
+	"Jayuya Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72073",
+		"full_name" : "Jayuya Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Jayuya",
+		"population" : 14779,
+		"land_area" : 44.53
+	},
+	"Juana Díaz Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72075",
+		"full_name" : "Juana Díaz Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Juana Díaz",
+		"population" : 46538,
+		"land_area" : 60.28
+	},
+	"Juncos Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72077",
+		"full_name" : "Juncos Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Juncos",
+		"population" : 37012,
+		"land_area" : 26.49
+	},
+	"Lajas Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72079",
+		"full_name" : "Lajas Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Lajas",
+		"population" : 23334,
+		"land_area" : 59.95
+	},
+	"Lares Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72081",
+		"full_name" : "Lares Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Lares",
+		"population" : 28105,
+		"land_area" : 61.45
+	},
+	"Las Marías Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72083",
+		"full_name" : "Las Marías Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Las Marías",
+		"population" : 8874,
+		"land_area" : 46.36
+	},
+	"Las Piedras Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72085",
+		"full_name" : "Las Piedras Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Las Piedras",
+		"population" : 35180,
+		"land_area" : 33.88
+	},
+	"Loíza Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72087",
+		"full_name" : "Loíza Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Loíza",
+		"population" : 23693,
+		"land_area" : 19.37
+	},
+	"Luquillo Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72089",
+		"full_name" : "Luquillo Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Luquillo",
+		"population" : 17781,
+		"land_area" : 25.81
+	},
+	"Manatí Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72091",
+		"full_name" : "Manatí Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Manatí",
+		"population" : 39492,
+		"land_area" : 46.13
+	},
+	"Maricao Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72093",
+		"full_name" : "Maricao Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Maricao",
+		"population" : 4755,
+		"land_area" : 36.62
+	},
+	"Maunabo Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72095",
+		"full_name" : "Maunabo Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Maunabo",
+		"population" : 10589,
+		"land_area" : 21.07
+	},
+	"Mayagüez Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72097",
+		"full_name" : "Mayagüez Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Mayagüez",
+		"population" : 73077,
+		"land_area" : 77.65
+	},
+	"Moca Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72099",
+		"full_name" : "Moca Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Moca",
+		"population" : 37460,
+		"land_area" : 50.34
+	},
+	"Morovis Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72101",
+		"full_name" : "Morovis Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Morovis",
+		"population" : 28727,
+		"land_area" : 38.87
+	},
+	"Naguabo Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72103",
+		"full_name" : "Naguabo Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Naguabo",
+		"population" : 23386,
+		"land_area" : 51.66
+	},
+	"Naranjito Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72105",
+		"full_name" : "Naranjito Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Naranjito",
+		"population" : 29241,
+		"land_area" : 27.4
+	},
+	"Orocovis Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72107",
+		"full_name" : "Orocovis Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Orocovis",
+		"population" : 21434,
+		"land_area" : 63.62
+	},
+	"Patillas Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72109",
+		"full_name" : "Patillas Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Patillas",
+		"population" : 15985,
+		"land_area" : 46.7
+	},
+	"Peñuelas Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72111",
+		"full_name" : "Peñuelas Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Peñuelas",
+		"population" : 20399,
+		"land_area" : 44.62
+	},
+	"Ponce Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72113",
+		"full_name" : "Ponce Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Ponce",
+		"population" : 137491,
+		"land_area" : 114.76
+	},
+	"Quebradillas Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72115",
+		"full_name" : "Quebradillas Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Quebradillas",
+		"population" : 23638,
+		"land_area" : 22.68
+	},
+	"Rincón Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72117",
+		"full_name" : "Rincón Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Rincón",
+		"population" : 15187,
+		"land_area" : 14.29
+	},
+	"Río Grande Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72119",
+		"full_name" : "Río Grande Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Río Grande",
+		"population" : 47060,
+		"land_area" : 60.62
+	},
+	"Sabana Grande Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72121",
+		"full_name" : "Sabana Grande Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Sabana Grande",
+		"population" : 22729,
+		"land_area" : 35.83
+	},
+	"Salinas Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72123",
+		"full_name" : "Salinas Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Salinas",
+		"population" : 25789,
+		"land_area" : 69.37
+	},
+	"San Germán Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72125",
+		"full_name" : "San Germán Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "San Germán",
+		"population" : 31879,
+		"land_area" : 54.5
+	},
+	"San Juan Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72127",
+		"full_name" : "San Juan Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "San Juan",
+		"population" : 342259,
+		"land_area" : 47.85
+	},
+	"San Lorenzo Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72129",
+		"full_name" : "San Lorenzo Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "San Lorenzo",
+		"population" : 37693,
+		"land_area" : 53.11
+	},
+	"San Sebastián Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72131",
+		"full_name" : "San Sebastián Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "San Sebastián",
+		"population" : 39345,
+		"land_area" : 70.42
+	},
+	"Santa Isabel Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72133",
+		"full_name" : "Santa Isabel Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Santa Isabel",
+		"population" : 20281,
+		"land_area" : 34.02
+	},
+	"Toa Alta Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72135",
+		"full_name" : "Toa Alta Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Toa Alta",
+		"population" : 66852,
+		"land_area" : 27.02
+	},
+	"Toa Baja Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72137",
+		"full_name" : "Toa Baja Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Toa Baja",
+		"population" : 75293,
+		"land_area" : 23.24
+	},
+	"Trujillo Alto Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72139",
+		"full_name" : "Trujillo Alto Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Trujillo Alto",
+		"population" : 67740,
+		"land_area" : 20.76
+	},
+	"Utuado Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72141",
+		"full_name" : "Utuado Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Utuado",
+		"population" : 28287,
+		"land_area" : 113.53
+	},
+	"Vega Alta Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72143",
+		"full_name" : "Vega Alta Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Vega Alta",
+		"population" : 35395,
+		"land_area" : 27.73
+	},
+	"Vega Baja Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72145",
+		"full_name" : "Vega Baja Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Vega Baja",
+		"population" : 54414,
+		"land_area" : 45.86
+	},
+	"Vieques Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72147",
+		"full_name" : "Vieques Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Vieques",
+		"population" : 8249,
+		"land_area" : 50.77
+	},
+	"Villalba Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72149",
+		"full_name" : "Villalba Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Villalba",
+		"population" : 22093,
+		"land_area" : 35.64
+	},
+	"Yabucoa Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72151",
+		"full_name" : "Yabucoa Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Yabucoa",
+		"population" : 30412,
+		"land_area" : 55.21
+	},
+	"Yauco Municipality, Puerto Rico" : {
+		"descriptors" : [],
+		"FIPS" : "72153",
+		"full_name" : "Yauco Municipality",
+		"common_name" : "",
+		"state" : "Puerto Rico",
+		"county_seat" : "Yauco",
+		"population" : 34172,
+		"land_area" : 68.19
 	}
 }
