@@ -1,3 +1,4 @@
+src/main/resources/gfx/textures/inspirations/*.png filter=lfs diff=lfs merge=lfs -text
 src/main/resources/gfx/textures/inspirations/oval_office_collage.png filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
 *.pdn filter=lfs diff=lfs merge=lfs -text
