@@ -20,7 +20,6 @@ import java.util.Set;
 
 // Internal Imports
 import core.JSONObject;
-import main.core.Engine;
 import main.core.Logger;
 import main.core.Main;
 import main.core.Repr;
@@ -172,7 +171,7 @@ public class PoliticalActor extends Character implements HasPersonality {
         this.personality = (Personality) other.personality.clone();
         this.roles       = new HashSet<PoliticalRole>() {{ add(PoliticalRole.NONE); }};
 
-        if (addToCharacterList) CharacterManager.addCharacter(this);
+        if (addToCharacterList) Main.Engine().CharacterManager().addCharacter(this);
     }
 
     /**
@@ -204,7 +203,7 @@ public class PoliticalActor extends Character implements HasPersonality {
         this.personality = new Personality();
         this.roles       = new HashSet<PoliticalRole>() {{ add(PoliticalRole.NONE); }};
 
-        if (addToCharacterList) CharacterManager.addCharacter(this);
+        if (addToCharacterList) Main.Engine().CharacterManager().addCharacter(this);
     }
 
     /**
@@ -226,7 +225,7 @@ public class PoliticalActor extends Character implements HasPersonality {
             throw new IllegalArgumentException("The given buildstring was null, and a " + getClass().getSimpleName() + " object could not be created.");
         }
         fromRepr(buildstring);
-        if (addToCharacterList) CharacterManager.addCharacter(this);
+        if (addToCharacterList) Main.Engine().CharacterManager().addCharacter(this);
     }
 
     public PoliticalActor(JSONObject json) {
@@ -234,7 +233,7 @@ public class PoliticalActor extends Character implements HasPersonality {
             throw new IllegalArgumentException("The passed JSONObject was null, and a " + getClass().getSimpleName() + " object could not be created.");
         }
         fromJson(json);
-        CharacterManager.addCharacter(this);
+        Main.Engine().CharacterManager().addCharacter(this);
     }
 
     /**

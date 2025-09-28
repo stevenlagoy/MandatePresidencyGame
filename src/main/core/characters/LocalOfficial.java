@@ -4,12 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import core.JSONObject;
-import main.core.Engine;
 import main.core.Main;
-import main.core.characters.StateOfficial.StateRole;
 import main.core.characters.attributes.Role;
 import main.core.map.MapEntity;
-import main.core.map.Municipality;
 
 public class LocalOfficial extends PoliticalActor {
 

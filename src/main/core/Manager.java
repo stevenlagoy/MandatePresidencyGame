@@ -1,7 +1,5 @@
 package main.core;
 
-import core.JSONObject;
-
 /**
  * Abstract class for game Managers, like MapManager, CharacterManager, etc.
  * Managers should hold an internal ManagerState which tracks the state of the Manager.

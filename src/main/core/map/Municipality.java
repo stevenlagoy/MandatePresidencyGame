@@ -20,14 +20,12 @@ import java.util.TimeZone;
 
 // Internal Imports
 import core.JSONObject;
-import main.core.Engine;
 import main.core.Jsonic;
 import main.core.Logger;
 import main.core.Main;
 import main.core.Repr;
 import main.core.characters.LocalOfficial;
 import main.core.characters.LocalOfficial.LocalRole;
-import main.core.demographics.DemographicsManager;
 import main.core.demographics.Bloc;
 
 /**
@@ -348,8 +346,27 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
 
     @Override
     public JSONObject toJson() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'toJson'");
+        List<JSONObject> fields = new ArrayList<>();
+        fields.add(new JSONObject("FIPS", FIPS));
+        fields.add(new JSONObject("population", population));
+        fields.add(new JSONObject("land_area", landArea));
+        fields.add(new JSONObject("name", name));
+        if (this.typeClass != null) fields.add(new JSONObject("type_class", typeClass.toString()));
+        fields.add(new JSONObject("standard_time_zone", standardTimeZone.toString()));
+        fields.add(new JSONObject("daylight_time_zone", daylightTimeZone.toString()));
+        List<String> countiesNames = new ArrayList<>();
+        for (County county : counties) {
+            countiesNames.add(county.getName());
+        }
+        fields.add(new JSONObject("counties", countiesNames));
+        fields.add(new JSONObject("state", state.getName()));
+        if (mayor != null) fields.add(new JSONObject("mayor", mayor.getName().getBiographicalName()));
+        fields.add(new JSONObject("descriptors", List.copyOf(descriptors)));
+        // Demographics are derived from descriptors
+        if (contractLocation != null) fields.add(new JSONObject("contract_location", contractLocation.getName()));
+        fields.add(new JSONObject("connectivity", connectivity));
+
+        return new JSONObject(this.getName(), fields);
     }
 
     @Override

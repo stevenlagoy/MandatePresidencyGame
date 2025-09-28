@@ -4,7 +4,6 @@ import core.JSONObject;
 import main.core.Jsonic;
 import main.core.Main;
 import main.core.Repr;
-import main.core.map.MapManager;
 import main.core.map.Municipality;
 
 public class Airport implements Repr<Airport>, Jsonic<Airport> {

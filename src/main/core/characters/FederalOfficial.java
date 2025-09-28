@@ -13,9 +13,7 @@ import java.util.List;
 import java.util.Set;
 
 import core.JSONObject;
-import main.core.Engine;
 import main.core.Main;
-import main.core.characters.StateOfficial.StateRole;
 import main.core.characters.attributes.Role;
 import main.core.map.MapEntity;
 
@@ -45,7 +43,7 @@ public class FederalOfficial extends PoliticalActor {
 
     public FederalOfficial(){
         this(new PoliticalActor());
-        CharacterManager.addCharacter(this);
+        Main.Engine().CharacterManager().addCharacter(this);
     }
     
     public FederalOfficial(FederalOfficial other) {
@@ -55,18 +53,18 @@ public class FederalOfficial extends PoliticalActor {
     public FederalOfficial(FederalOfficial other, boolean addToCharacterList) {
         super(other, false);
 
-        if (addToCharacterList) CharacterManager.addCharacter(this);
+        if (addToCharacterList) Main.Engine().CharacterManager().addCharacter(this);
     }
 
     public FederalOfficial(Character character) {
         super(character, false);
-        CharacterManager.addCharacter(this);
+        Main.Engine().CharacterManager().addCharacter(this);
     }
 
     public FederalOfficial(PoliticalActor politicalActor) {
         super(politicalActor, false);
         this.roles = new HashSet<>();
-        CharacterManager.addCharacter(this);
+        Main.Engine().CharacterManager().addCharacter(this);
     } 
 
     public FederalOfficial(String buildstring){
@@ -76,7 +74,7 @@ public class FederalOfficial extends PoliticalActor {
     public FederalOfficial(String buildstring, boolean addToCharacterList) {
         super(buildstring, false);
         fromRepr(buildstring);
-        if (addToCharacterList) CharacterManager.addCharacter(this);
+        if (addToCharacterList) Main.Engine().CharacterManager().addCharacter(this);
     }
 
     public FederalOfficial(JSONObject json) {
@@ -84,7 +82,7 @@ public class FederalOfficial extends PoliticalActor {
             throw new IllegalArgumentException("The passed JSONObject was null, and a " + getClass().getSimpleName() + " object could not be created.");
         }
         fromJson(json);
-        CharacterManager.addCharacter(this);
+        Main.Engine().CharacterManager().addCharacter(this);
     }
 
     // GETTERS AND SETTERS ------------------------------------------------------------------------

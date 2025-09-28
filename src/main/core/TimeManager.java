@@ -84,7 +84,7 @@ public class TimeManager extends Manager {
     public static final long leapYearDuration = 366 * dayDuration;
     /** Duration in milliseconds of one standard year. */
     public static final long yearDuration = 365 * dayDuration;
-    /** Number of days in a year. TODO */
+    /** Number of days in a year. TODO Think about leap years */
     public static final int daysInYear = 366;
 
     /** Duration in milliseconds of each month between January 2027 and January 2029. Index by ordinal month value. */
@@ -360,6 +360,9 @@ public class TimeManager extends Manager {
     public Date getCurrentDate() {
         return currentGameDate;
     }
+    /**
+     * Get current game date and time in YY-MM-DD-HH-MM-SS format.
+     */
     public String getFormattedCurrentDate() {
         StringBuilder dateString = new StringBuilder();
         Calendar calendar = Calendar.getInstance();
@@ -391,6 +394,9 @@ public class TimeManager extends Manager {
     }
 
     // Current Time
+    /**
+     * Get current game date day time in HH:MM:SS format.
+     */
     public String getFormattedCurrentTime() {
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(currentGameDate);
@@ -549,7 +555,7 @@ public class TimeManager extends Manager {
                 Field field = getClass().getDeclaredField(fieldName);
                 fields.add(new JSONObject(fieldName, field.get(this)));
             }
-            return new JSONObject(this.getClass().getSimpleName(), fields);
+            return new JSONObject("time_manager", fields);
         }
         catch (NoSuchFieldException | IllegalAccessException e) {
             currentState = ManagerState.ERROR;

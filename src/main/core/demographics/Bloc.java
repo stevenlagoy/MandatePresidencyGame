@@ -3,12 +3,9 @@ package main.core.demographics;
 import java.util.List;
 
 import core.JSONObject;
-import main.core.Engine;
 import main.core.Jsonic;
 import main.core.Main;
 import main.core.Repr;
-import main.core.characters.CharacterManager;
-import main.core.characters.attributes.Skills;
 import main.core.demographics.DemographicsManager.DemographicCategory;
 
 import java.util.ArrayList;

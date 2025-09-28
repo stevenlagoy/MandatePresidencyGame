@@ -16,7 +16,6 @@ import core.JSONObject;
 import main.core.Engine;
 import main.core.NumberOperations;
 import main.core.characters.attributes.Personality;
-import main.core.demographics.Demographics;
 
 /**
  * A Character subclass which extends PoliticalActor and models a Candidate in the Presidential race.

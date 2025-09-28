@@ -2,7 +2,6 @@ package main.core.politics;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-import java.util.HashMap;
 
 public class Issue {
     public static List<Issue> instances = new ArrayList<>();

@@ -7,19 +7,21 @@
 
 package main.core.map;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
 import core.JSONObject;
 import main.core.Jsonic;
 import main.core.Main;
+import main.core.NumberOperations;
 import main.core.Repr;
 import main.core.characters.FederalOfficial;
 import main.core.characters.FederalOfficial.FederalRole;
 import main.core.demographics.Bloc;
-import main.core.demographics.DemographicsManager;
 
 public class CongressionalDistrict implements MapEntity, Repr<State>, Jsonic<State> {
 
@@ -88,9 +90,17 @@ public class CongressionalDistrict implements MapEntity, Repr<State>, Jsonic<Sta
 
     // Name : string
 
+    @Override
     public String getName() {
+        if (this.districtNum == 0) {
+            return this.state.getCommonName() + "'s At-Large Congressional District";
+        }
+        return this.state.getCommonName() + "'s " + NumberOperations.toOrdinal(districtNum) + " Congressional District";
+    }
+    public String getSimpleName() {
         return name;
     }
+    
     public void setName(String name) {
         this.name = name;
     }
@@ -181,7 +191,7 @@ public class CongressionalDistrict implements MapEntity, Repr<State>, Jsonic<Sta
     @Override
     public void evaluateDemographics() {
         this.descriptors.addAll(state.getDescriptors());
-        // TODO this.demographics = Main.Engine().DemographicsManager().demographicsFromDescriptors(descriptors);
+        this.demographics = Main.Engine().DemographicsManager().demographicsFromDescriptors(descriptors);
     }
 
     // Representative : FederalOfficial
@@ -201,8 +211,23 @@ public class CongressionalDistrict implements MapEntity, Repr<State>, Jsonic<Sta
 
     @Override
     public JSONObject toJson() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'toJson'");
+        List<JSONObject> fields = new ArrayList<>();
+        fields.add(new JSONObject("office_id", officeID));
+        fields.add(new JSONObject("population", population));
+        fields.add(new JSONObject("land_area", landArea));
+        fields.add(new JSONObject("name", name));
+        fields.add(new JSONObject("state", state.getName()));
+        fields.add(new JSONObject("district_num", districtNum));
+        fields.add(new JSONObject("representative", representative.getName().getBiographicalName()));
+        fields.add(new JSONObject("descriptors", List.copyOf(descriptors)));
+        // Demographics are derived from Descriptors
+        // List<JSONObject> demographicsJsons = new ArrayList<>();
+        // for (Bloc bloc : demographics.keySet()) {
+        //     demographicsJsons.add(new JSONObject(bloc.getName(), demographics.get(bloc));
+        // }
+        // fields.add(new JSONObject("demographics", demographicsJsons));
+
+        return new JSONObject(this.getName(), fields);
     }
 
     @Override

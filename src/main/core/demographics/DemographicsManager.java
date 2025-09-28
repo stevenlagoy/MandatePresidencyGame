@@ -19,10 +19,10 @@ import core.JSONObject;
 import core.JSONProcessor;
 import main.core.FilePaths;
 import main.core.Logger;
+import main.core.Main;
 import main.core.Manager;
 import main.core.NumberOperations;
 import main.core.characters.Character;
-import main.core.characters.CharacterManager;
 
 /**
  * DemographicsManager is responsible for generating, storing, and calculating demographic data.
@@ -149,7 +149,7 @@ public class DemographicsManager extends Manager {
                     blocs.add(parent);
                 }
             }
-        }    
+        }
         return blocs;
     }
 
@@ -158,7 +158,7 @@ public class DemographicsManager extends Manager {
         // given that bloc's overlap, select the most underrepresented of the rest of the blocs
         // return those together
 
-        if (CharacterManager.getNumCharacters() == 0) {
+        if (Main.Engine().CharacterManager().getNumCharacters() == 0) {
             return getMostCommonDemographics();
         }
 
@@ -229,19 +229,19 @@ public class DemographicsManager extends Manager {
     public Demographics randomDemographics() {
         Bloc generation, religion, raceEthnicity, presentation;
         try {
-            generation = demographicBlocs.get(DemographicCategory.GENERATION).get(NumberOperations.randInt(demographicBlocs.get("Generation").size() - 1));
+            generation = demographicBlocs.get(DemographicCategory.GENERATION).get(NumberOperations.randInt(demographicBlocs.get(DemographicCategory.GENERATION).size() - 1));
             while (generation.getSubBlocs().size() != 0) {
                 generation = generation.getSubBlocs().get(NumberOperations.randInt(generation.getSubBlocs().size() - 1));
             }
-            religion = demographicBlocs.get(DemographicCategory.RELIGION).get(NumberOperations.randInt(demographicBlocs.get("Religion").size() - 1));
+            religion = demographicBlocs.get(DemographicCategory.RELIGION).get(NumberOperations.randInt(demographicBlocs.get(DemographicCategory.RELIGION).size() - 1));
             while (religion.getSubBlocs().size() != 0) {
                 religion = religion.getSubBlocs().get(NumberOperations.randInt(religion.getSubBlocs().size() - 1));
             }
-            raceEthnicity = demographicBlocs.get(DemographicCategory.RACE_ETHNICITY).get(NumberOperations.randInt(demographicBlocs.get("Race / Ethnicity").size() - 1));
+            raceEthnicity = demographicBlocs.get(DemographicCategory.RACE_ETHNICITY).get(NumberOperations.randInt(demographicBlocs.get(DemographicCategory.RACE_ETHNICITY).size() - 1));
             while (raceEthnicity.getSubBlocs().size() != 0) {
                 raceEthnicity = raceEthnicity.getSubBlocs().get(NumberOperations.randInt(raceEthnicity.getSubBlocs().size() - 1));
             }
-            presentation = demographicBlocs.get(DemographicCategory.PRESENTATION).get(NumberOperations.randInt(demographicBlocs.get("Presentation").size() - 1));
+            presentation = demographicBlocs.get(DemographicCategory.PRESENTATION).get(NumberOperations.randInt(demographicBlocs.get(DemographicCategory.PRESENTATION).size() - 1));
             while (presentation.getSubBlocs().size() != 0) {
                 presentation = presentation.getSubBlocs().get(NumberOperations.randInt(presentation.getSubBlocs().size() - 1));
             }
@@ -333,9 +333,9 @@ public class DemographicsManager extends Manager {
         // Returns ratio of actual character membership to expected membership
         // <1 if underrepresented, >1 if overrepresented, =1 if perfectly represented
         try {
-            if(CharacterManager.getNumCharacters() == 0) return 1.0f; // if there are no characters, every bloc is perfectly represented
+            if(Main.Engine().CharacterManager().getNumCharacters() == 0) return 1.0f; // if there are no characters, every bloc is perfectly represented
             float expectedRepresentation = bloc.getPercentageVoters();
-            float actualRepresentation = bloc.getMembers().size() * 1.0f / CharacterManager.getNumCharacters();
+            float actualRepresentation = bloc.getMembers().size() * 1.0f / Main.Engine().CharacterManager().getNumCharacters();
             float representationRatio = actualRepresentation / expectedRepresentation;
 
             return (representationRatio);
@@ -393,6 +393,9 @@ public class DemographicsManager extends Manager {
             List<Bloc> blocs = demographicBlocs.get(category);
             List<JSONObject> blocsJsons = new ArrayList<>();
             for (Bloc bloc : blocs) {
+                for (Bloc subBloc : bloc.getSubBlocs()) { // Loop through sub-blocs
+                    blocsJsons.add(subBloc.toJson());
+                }
                 blocsJsons.add(bloc.toJson());
             }
             String categoryJsonLabel = category.label.replace(" ","_").toLowerCase();

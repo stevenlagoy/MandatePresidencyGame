@@ -1,13 +1,10 @@
 package main.core.map.travel;
 
-import java.sql.Date;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import javax.xml.crypto.Data;
 
 import main.core.TimeManager;
 import main.core.Main;
@@ -131,7 +128,7 @@ public class Travel {
         @Override
         public double getDistance() {
             if (distance < 0)
-                distance = Main.Engine().MapManager().getTrainDistance(start, destination);
+                distance = MapManager.getTrainDistance(start, destination);
             return distance;
         }
 
@@ -177,7 +174,7 @@ public class Travel {
         @Override
         public double getDistance() {
             if (distance < 0)
-                distance = Main.Engine().MapManager().getAirDistance(start, destination);
+                distance = MapManager.getAirDistance(start, destination);
             return distance;
         }
 
@@ -223,7 +220,7 @@ public class Travel {
         @Override
         public double getDistance() {
             if (distance < 0)
-                distance = Main.Engine().MapManager().getWaterDistance(start, destination);
+                distance = MapManager.getWaterDistance(start, destination);
             return distance;
         }
 

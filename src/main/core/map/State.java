@@ -19,7 +19,6 @@ import java.util.Set;
 
 // Internal Imports
 import core.JSONObject;
-import main.core.Engine;
 import main.core.Jsonic;
 import main.core.Logger;
 import main.core.Main;
@@ -30,7 +29,6 @@ import main.core.characters.StateOfficial;
 import main.core.characters.FederalOfficial.FederalRole;
 import main.core.characters.StateOfficial.StateRole;
 import main.core.demographics.Bloc;
-import main.core.demographics.DemographicsManager;
 
 /**
  * Map entity for the second-largest geographical division, including States, Commonwealths, District, and Territories.
@@ -384,8 +382,8 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
         fields.add(new JSONObject("senators", List.of(getSenators().get(0).getName().getBiographicalName(), getSenators().get(1).getName().getBiographicalName())));
         fields.add(new JSONObject("governor", getGovernor().getName().getBiographicalName()));
         fields.add(new JSONObject("lieutenant_governor", getLieutenantGovernor().getName().getBiographicalName()));
-        String fullNameJson = this.getFullName().replace(" ", "_").toLowerCase();
-        return new JSONObject(fullNameJson, fields);
+        
+        return new JSONObject(this.getName(), fields);
     }
 
     // OBJECT METHODS -----------------------------------------------------------------------------

@@ -5,8 +5,9 @@ import org.joml.Vector3f;
 import org.joml.Vector4f;
 import org.lwjgl.glfw.GLFW;
 
-import main.core.Engine;
+import main.core.Main;
 import main.core.graphics.Camera;
+import main.core.graphics.GraphicsManager;
 import main.core.graphics.ILogic;
 import main.core.graphics.MouseInput;
 import main.core.graphics.ObjectLoader;
@@ -23,7 +24,6 @@ import main.core.graphics.entity.terrain.Terrain;
 import main.core.graphics.entity.terrain.TerrainTexture;
 import main.core.graphics.lighting.DirectionalLight;
 import main.core.graphics.rendering.RenderManager;
-import main.core.graphics.utils.Consts;
 
 public class TestGame implements ILogic {
 
@@ -36,7 +36,7 @@ public class TestGame implements ILogic {
 
     public TestGame() {
         renderer = new RenderManager();
-        window = Engine.getWindow();
+        window = Main.Engine().GraphicsManager().getWindow();
         sceneManager = new SceneManager(-90);
         camera = new Camera(new Vector3f(0, 100, 300), new Vector3f(0, 0, 0));
         cameraInc = new Vector3f(0, 0, 0);
@@ -158,11 +158,11 @@ public class TestGame implements ILogic {
 
     @Override
     public void update(float interval, MouseInput mouse) {
-        camera.movePosition(cameraInc.x * Consts.CAMERA_MOVE_SPEED, cameraInc.y * Consts.CAMERA_MOVE_SPEED, cameraInc.z * Consts.CAMERA_MOVE_SPEED);
+        camera.movePosition(cameraInc.x * GraphicsManager.CAMERA_MOVE_SPEED, cameraInc.y * GraphicsManager.CAMERA_MOVE_SPEED, cameraInc.z * GraphicsManager.CAMERA_MOVE_SPEED);
 
         if (mouse.isRightButtonPress()) {
             Vector2f rotVec = mouse.getDisplVec();
-            camera.moveRotation(rotVec.x * Consts.MOUSE_SENSITIVITY, rotVec.y * Consts.MOUSE_SENSITIVITY, 0);
+            camera.moveRotation(rotVec.x * GraphicsManager.MOUSE_SENSITIVITY, rotVec.y * GraphicsManager.MOUSE_SENSITIVITY, 0);
         }
 
         sceneManager.getEntities().get(0).incRotation(0, 0.5f, 0);

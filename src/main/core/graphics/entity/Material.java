@@ -2,7 +2,7 @@ package main.core.graphics.entity;
 
 import org.joml.Vector4f;
 
-import main.core.graphics.utils.Consts;
+import main.core.graphics.GraphicsManager;
 
 public class Material {
     
@@ -22,9 +22,9 @@ public class Material {
     }
 
     public Material() {
-        this.ambientColor = Consts.DEFAULT_COLOR;
-        this.diffuseColor = Consts.DEFAULT_COLOR;
-        this.specularColor = Consts.DEFAULT_COLOR;
+        this.ambientColor = GraphicsManager.DEFAULT_COLOR;
+        this.diffuseColor = GraphicsManager.DEFAULT_COLOR;
+        this.specularColor = GraphicsManager.DEFAULT_COLOR;
         this.reflectance = 0;
         this.texture = null;
         this.disableCulling = false;
@@ -48,15 +48,15 @@ public class Material {
     }
 
     public Material(Texture texture) {
-        this(Consts.DEFAULT_COLOR, Consts.DEFAULT_COLOR, Consts.DEFAULT_COLOR, 0, texture, false);
+        this(GraphicsManager.DEFAULT_COLOR, GraphicsManager.DEFAULT_COLOR, GraphicsManager.DEFAULT_COLOR, 0, texture, false);
     }
 
     public Material(Texture texture, boolean hasTransparency) {
-        this(Consts.DEFAULT_COLOR, Consts.DEFAULT_COLOR, Consts.DEFAULT_COLOR, 0, texture, hasTransparency);
+        this(GraphicsManager.DEFAULT_COLOR, GraphicsManager.DEFAULT_COLOR, GraphicsManager.DEFAULT_COLOR, 0, texture, hasTransparency);
     }
 
     public Material(Texture texture, float reflectance) {
-        this(Consts.DEFAULT_COLOR, Consts.DEFAULT_COLOR, Consts.DEFAULT_COLOR, reflectance, texture, false);
+        this(GraphicsManager.DEFAULT_COLOR, GraphicsManager.DEFAULT_COLOR, GraphicsManager.DEFAULT_COLOR, reflectance, texture, false);
     }
 
     public Vector4f getAmbientColor() {

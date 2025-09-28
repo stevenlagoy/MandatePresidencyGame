@@ -6,9 +6,9 @@ import org.joml.Vector2f;
 import org.joml.Vector3f;
 import org.lwjgl.glfw.GLFW;
 
-import main.core.Engine;
 import main.core.Main;
 import main.core.graphics.Camera;
+import main.core.graphics.GraphicsManager;
 import main.core.graphics.ILogic;
 import main.core.graphics.MouseInput;
 import main.core.graphics.Window;
@@ -21,7 +21,6 @@ import main.core.graphics.rendering.RenderManager;
 import main.core.graphics.ui.Button;
 import main.core.graphics.ui.Container;
 import main.core.graphics.ui.Quad;
-import main.core.graphics.utils.Consts;
 import main.core.graphics.entity.Entity.EntityType;
 import main.core.graphics.entity.Model;
 
@@ -73,7 +72,7 @@ public class TitleScreen implements ILogic {
     private boolean startGame;
 
     public TitleScreen() {
-        window = Engine.getWindow();
+        window = Main.Engine().GraphicsManager().getWindow();
         camera = new Camera();
         scene = new SceneManager();
         renderer = new RenderManager();
@@ -115,15 +114,10 @@ public class TitleScreen implements ILogic {
             () -> {}
         };
 
-        try {
-            Engine.loadTextures();
-        }
-        catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
+        Main.Engine().GraphicsManager().loadTextures();
 
-        scene.setAmbientLight(Consts.AMBIENT_LIGHT);
-        scene.setSpecularPower(Consts.SPECULAR_POWER);
+        scene.setAmbientLight(GraphicsManager.AMBIENT_LIGHT);
+        scene.setSpecularPower(GraphicsManager.SPECULAR_POWER);
 
         // Initialize directional light
         Vector3f lightColor = new Vector3f(1.0f, 1.0f, 1.0f);
@@ -144,7 +138,7 @@ public class TitleScreen implements ILogic {
         for (int i : layers) max = i > max ? i : max;
         layersDimensions = new float[max+1][];
         for (int i = 0; i <= max; i++) {
-            layersDimensions[i] = Engine.calculateQuadDimensions(i);
+            layersDimensions[i] = Main.Engine().GraphicsManager().calculateQuadDimensions(i);
         }
 
         for (int i = 0; i < XYArrays.length; i++) {
@@ -248,12 +242,12 @@ public class TitleScreen implements ILogic {
 
     @Override
     public void update(float interval, MouseInput mouse) {
-        camera.movePosition(cameraInc.x * Consts.CAMERA_MOVE_SPEED, cameraInc.y * Consts.CAMERA_MOVE_SPEED, cameraInc.z * Consts.CAMERA_MOVE_SPEED);
+        camera.movePosition(cameraInc.x * GraphicsManager.CAMERA_MOVE_SPEED, cameraInc.y * GraphicsManager.CAMERA_MOVE_SPEED, cameraInc.z * GraphicsManager.CAMERA_MOVE_SPEED);
 
         if (Main.Engine().DEBUG_MODE) {
             if (mouse.isRightButtonPress()) {
                 Vector2f rotVec = mouse.getDisplVec();
-                camera.moveRotation(rotVec.x * Consts.MOUSE_SENSITIVITY, rotVec.y * Consts.MOUSE_SENSITIVITY, 0);
+                camera.moveRotation(rotVec.x * GraphicsManager.MOUSE_SENSITIVITY, rotVec.y * GraphicsManager.MOUSE_SENSITIVITY, 0);
             }
         }
 

@@ -9,8 +9,6 @@ import org.lwjgl.opengl.GL;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.system.MemoryUtil;
 
-import main.core.graphics.utils.Consts;
-
 public class Window {
     
     private final String title;
@@ -169,8 +167,8 @@ public class Window {
         return projectionMatrix.identity().perspective(
             FOV,
             getAspectRatio(),
-            Consts.Z_NEAR,
-            Consts.Z_FAR
+            GraphicsManager.Z_NEAR,
+            GraphicsManager.Z_FAR
         );
     }
 
@@ -178,8 +176,8 @@ public class Window {
         return matrix.identity().perspective(
             FOV,
             getAspectRatio(),
-            Consts.Z_NEAR,
-            Consts.Z_FAR
+            GraphicsManager.Z_NEAR,
+            GraphicsManager.Z_FAR
         );
     }
 

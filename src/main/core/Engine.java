@@ -9,38 +9,21 @@ package main.core;
 
 // IMPORTS ----------------------------------------------------------------------------------------
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.io.StringWriter;
 import java.lang.reflect.Field;
-import java.nio.file.Path;
-import java.sql.Time;
+import java.sql.Date;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
+import java.util.Calendar;
 import java.util.List;
 import java.util.Map;
-import java.util.Random;
-import java.util.Scanner;
-
-import org.lwjgl.glfw.GLFW;
-import org.lwjgl.glfw.GLFWErrorCallback;
 
 import core.JSONObject;
-import main.core.Manager.ManagerState;
 import main.core.characters.CharacterManager;
 import main.core.characters.attributes.names.NameManager;
 import main.core.demographics.DemographicsManager;
-import main.core.graphics.ILogic;
-import main.core.graphics.MouseInput;
-import main.core.graphics.Window;
-import main.core.graphics.scenes.TestGame;
-import main.core.graphics.utils.Consts;
+import main.core.graphics.GraphicsManager;
 import main.core.map.MapManager;
 import main.core.politics.EventManager;
 
@@ -53,20 +36,31 @@ import main.core.politics.EventManager;
  */
 public final class Engine extends Manager {
 
+    // Language Manager
     private final LanguageManager LANGUAGE_MANAGER;
     public LanguageManager LanguageManager() { return LANGUAGE_MANAGER; }
+    // Time Manager
     private final TimeManager TIME_MANAGER;
     public TimeManager TimeManager() { return TIME_MANAGER; }
+    // Event Manager
     private final EventManager EVENT_MANAGER;
     public EventManager EventManager() { return EVENT_MANAGER; }
+    // Demographics Manager
     private final DemographicsManager DEMOGRAPHICS_MANAGER;
     public DemographicsManager DemographicsManager() { return DEMOGRAPHICS_MANAGER; }
+    // Map Manager
     private final MapManager MAP_MANAGER;
     public MapManager MapManager() { return MAP_MANAGER; }
+    // Name Manager
     private final NameManager NAME_MANAGER;
     public NameManager NameManager() { return NAME_MANAGER; }
+    // Character Manager
     private final CharacterManager CHARACTER_MANAGER;
     public CharacterManager CharacterManager() { return CHARACTER_MANAGER; }
+    // Graphics Manager
+    private final GraphicsManager GRAPHICS_MANAGER;
+    public GraphicsManager GraphicsManager() { return GRAPHICS_MANAGER; }
+    
     private final List<Manager> managers;
 
     public final boolean DEBUG_MODE = true;
@@ -81,6 +75,7 @@ public final class Engine extends Manager {
         MAP_MANAGER = new MapManager();
         NAME_MANAGER = new NameManager();
         CHARACTER_MANAGER = new CharacterManager();
+        GRAPHICS_MANAGER = new GraphicsManager();
         managers = List.of(
             LANGUAGE_MANAGER,
             TIME_MANAGER,
@@ -88,7 +83,8 @@ public final class Engine extends Manager {
             DEMOGRAPHICS_MANAGER,
             MAP_MANAGER,
             NAME_MANAGER,
-            CHARACTER_MANAGER
+            CHARACTER_MANAGER,
+            GRAPHICS_MANAGER
         );
         for (Manager manager : managers) {
             if (manager.getState().equals(ManagerState.ERROR)) {
@@ -132,19 +128,6 @@ public final class Engine extends Manager {
     ///////////////////////////////////////////////////////////////////////////////////////////////
     //                                    CONSTANTS AND ENUMS                                    //
     ///////////////////////////////////////////////////////////////////////////////////////////////
-
-    // GRAPHICS CONSTANTS -------------------------------------------------------------------------
-
-    public static final long NANOSECOND = 1_000_000_000;
-    public static final float FRAMERATE = 1000;
-    public static int fps;
-    private static float frametime = 1.0f / FRAMERATE;
-    private static boolean isRunning;
-    private static Window window;
-    public static Window getWindow() { return window; }
-    private static GLFWErrorCallback errorCallback;
-    private static MouseInput mouse;
-    private static ILogic gameLogic;
     
     // DIFFICULTY ---------------------------------------------------------------------------------
 
@@ -291,22 +274,8 @@ public final class Engine extends Manager {
     //     Logger.writeErrorToLog();
     // }
 
-    private void input() {
-        gameLogic.input();
-        mouse.input();
-    }
-
-    private void render() {
-        gameLogic.render();
-        window.update();
-    }
-
-    private void update(float interval) {
-        gameLogic.update(interval, mouse);
-    }
-
     public boolean tick() {
-        input();
+        GRAPHICS_MANAGER.input();
         boolean active = true;
 
         //System.out.println(DateManager.currentGameDate);
@@ -389,7 +358,8 @@ public final class Engine extends Manager {
         "DEMOGRAPHICS_MANAGER", "demographics_manager",
         "MAP_MANAGER", "map_manager",
         "NAME_MANAGER", "name_manager",
-        "CHARACTER_MANAGER", "character_manager"
+        "CHARACTER_MANAGER", "character_manager",
+        "GRAPHICS_MANAGER", "graphics_manager"
     );
 
     @Override
@@ -420,6 +390,34 @@ public final class Engine extends Manager {
             }
         }
         return this;
+    }
+
+    public void writeGameState() {
+        // Get name for the file
+        String fileName;
+        try {
+            String playerCharacterName = CHARACTER_MANAGER.getPlayer().getName().getCommonName();
+            String currentTime = TIME_MANAGER.getFormattedCurrentDate();
+            fileName = String.format("%s %s", playerCharacterName, currentTime);
+        }
+        catch (NullPointerException e) {
+            // No player character. Use current real time
+            fileName = new SimpleDateFormat("MM-dd-yy_HH-mm-ss").format(Calendar.getInstance().getTime());
+        }
+
+        // Generate savestring
+        String saveString = String.format("{%n%t%s%n}", this.toJson().toString().replace("\n","\n\t"));
+
+        // Write to save file with name, or to output file if unsuccessful.
+        try {
+            PrintWriter saveWriter = IOUtil.createWriter(FilePaths.SAVES_DIR.resolve(fileName + IOUtil.Extension.JSON.extension).toFile());
+            saveWriter.print(saveString);
+            saveWriter.close(); // Flush and close
+        }
+        catch (IOException e) {
+            IOUtil.stdout.print(saveString);
+            Logger.log("EXCEPTION DURING SAVE WRITE", "An exception occurred while writing a save. The save data has been written to the standard output file.", e);
+        }
     }
 
 }
