@@ -1,0 +1,69 @@
+{
+    "language" : {
+        "EN" : {
+            "name" : "English",
+            "descriptions" : "EN_descriptions.json",
+            "system_text" : "EN_system_text.json"
+        },
+        "ZH" : {
+            "name" : "简体中文",
+            "descriptions" : "ZH_descriptions.json",
+            "system_text" : "ZH_system_text.json"
+        },
+        "RU" : {
+            "name" : "Русский",
+            "descriptions" : "RU_descriptions.json",
+            "system_text" : "RU_system_text.json"
+        },
+        "ES" : {
+            "name" : "Español",
+            "descriptions" : "ES_descriptions.json",
+            "system_text" : "ES_system_text.json"
+        },
+        "PT" : {
+            "name" : "Português",
+            "descriptions" : "PT_descriptions.json",
+            "system_text" : "PT_system_text.json"
+        },
+        "DE" : {
+            "name" : "Deutsch",
+            "descriptions" : "DE_descriptions.json",
+            "system_text" : "DE_system_text.json"
+        },
+        "FR" : {
+            "name" : "Français",
+            "descriptions" : "FR_descriptions.json",
+            "system_text" : "FR_system_text.json"
+        },
+        "JA" : {
+            "name" : "日本語",
+            "descriptions" : "JA_descriptions.json",
+            "system_text" : "JA_system_text.json"
+        },
+        "PL" : {
+            "name" : "Polski",
+            "descriptions" : "PL_descriptions.json",
+            "system_text" : "PL_system_text.json"
+        },
+        "TR" : {
+            "name" : "Türkçe",
+            "descriptions" : "TR_descriptions.json",
+            "system_text" : "TR_system_text.json"
+        }
+    },
+    "color_mode" : {
+
+    },
+    "resolution" : [
+        "1920 × 1080",
+        "2560 × 1440",
+        "3840 × 2160"
+    ],
+    "volume" : {
+        "master" : "",
+        "ui" : "",
+        "voices" : "",
+        "ambient" : "",
+        "music" : ""
+    }
+}
