@@ -6,7 +6,7 @@ import java.util.List;
 import org.joml.Vector3f;
 import org.lwjgl.opengl.GL11;
 
-import main.core.Engine;
+import main.core.Main;
 import main.core.graphics.Camera;
 import main.core.graphics.ShaderManager;
 import main.core.graphics.Window;
@@ -26,7 +26,7 @@ public class RenderManager {
     private static boolean isCulling = false;
     
     public RenderManager() {
-        window = Engine.getWindow();
+        window = Main.Engine().GraphicsManager().getWindow();
     }
 
     public void init() throws Exception {
@@ -63,7 +63,7 @@ public class RenderManager {
     }
 
     public void render(Camera camera, SceneManager scene) {
-        window = Engine.getWindow();
+        window = Main.Engine().GraphicsManager().getWindow();
         GL11.glClearColor(0, 0, 0.1f, 1);
         clear();
 

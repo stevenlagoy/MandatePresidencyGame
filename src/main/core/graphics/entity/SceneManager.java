@@ -5,11 +5,11 @@ import java.util.List;
 
 import org.joml.Vector3f;
 
+import main.core.graphics.GraphicsManager;
 import main.core.graphics.entity.terrain.Terrain;
 import main.core.graphics.lighting.DirectionalLight;
 import main.core.graphics.lighting.PointLight;
 import main.core.graphics.lighting.SpotLight;
-import main.core.graphics.utils.Consts;
 
 public class SceneManager {
     
@@ -34,8 +34,8 @@ public class SceneManager {
         entities = new ArrayList<>();
         terrains = new ArrayList<>();
         models = new ArrayList<>();
-        ambientLight = Consts.AMBIENT_LIGHT;
-        specularPower = Consts.SPECULAR_POWER;
+        ambientLight = GraphicsManager.AMBIENT_LIGHT;
+        specularPower = GraphicsManager.SPECULAR_POWER;
         this.lightAngle = lightAngle;
     }
 

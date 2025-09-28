@@ -7,7 +7,6 @@
 
 package main.core.characters;
 
-import java.lang.management.ManagementPermission;
 import java.util.ArrayList;
 
 // IMPORTS ----------------------------------------------------------------------------------------
@@ -20,7 +19,6 @@ import java.util.Set;
 
 import core.JSONObject;
 import core.JSONProcessor;
-import main.core.Engine;
 import main.core.FilePaths;
 import main.core.Main;
 import main.core.Manager;
@@ -30,8 +28,6 @@ import main.core.characters.FederalOfficial.FederalRole;
 import main.core.characters.attributes.CharacterModel;
 import main.core.characters.attributes.HasPersonality;
 import main.core.characters.attributes.Personality;
-import main.core.characters.attributes.names.Name;
-import main.core.characters.attributes.names.NameManager;
 import main.core.demographics.Bloc;
 import main.core.demographics.Demographics;
 import main.core.demographics.DemographicsManager;
@@ -92,48 +88,48 @@ public final class CharacterManager extends Manager {
 
     // GETTERS AND SETTERS ------------------------------------------------------------------------
 
-    public static Player getPlayer() {
+    public Player getPlayer() {
         return playerCandidate;
     }
 
-    public static Set<Character> getCharacters() {
+    public Set<Character> getCharacters() {
         return characters;
     }
 
-    public static int getNumCharacters() {
+    public int getNumCharacters() {
         return characters.size();
     }
 
-    public static boolean addCharacter(Character character) {
+    public boolean addCharacter(Character character) {
         boolean added = true;
         added = added && characters.add(character);
         Main.Engine().DemographicsManager().addCharacterToBlocs(character, character.getDemographics());
         return added;
     }
 
-    public static boolean removeCharacter(Character character) {
+    public boolean removeCharacter(Character character) {
         boolean removed = true;
         removed = removed && characters.remove(character);
         Main.Engine().DemographicsManager().removeCharacterFromBlocs(character, character.getDemographics());
         return removed;
     }
 
-    public static Set<Candidate> getCandidates() {
+    public Set<Candidate> getCandidates() {
         return candidates;
     }
 
-    public static int getNumCandidates() {
+    public int getNumCandidates() {
         return candidates.size();
     }
 
-    public static boolean addCandidate(Candidate candidate) {
+    public boolean addCandidate(Candidate candidate) {
         boolean added = true;
         added = added && candidates.add(candidate);
         addCharacter(candidate);
         return added;
     }
 
-    public static boolean removeCandidate(Candidate candidate) {
+    public boolean removeCandidate(Candidate candidate) {
         boolean removed = true;
         removed = removed && candidates.remove(candidate);
         removeCharacter(candidate);
@@ -345,7 +341,7 @@ public final class CharacterManager extends Manager {
         return Main.Engine().DemographicsManager().matchBlocName("Woman");
     }
 
-    public static void generateBlocsReport() {
+    public void generateBlocsReport() {
         int differenceValue = 5;
         System.out.println("TOTAL # CHARACTERS : " + getNumCharacters());
         for (List<Bloc> category : Main.Engine().DemographicsManager().getDemographicBlocs().values()) {
@@ -353,11 +349,11 @@ public final class CharacterManager extends Manager {
                 if (bloc.getSubBlocs().isEmpty()) {
                     if (!DemographicsManager.isCharacterBlocCategory(bloc.getDemographicGroup())) continue;
                     float expectedRepresentation = bloc.getPercentageVoters();
-                    float actualRepresentation = bloc.getMembers().size() * 1.0f / CharacterManager.getNumCharacters();
+                    float actualRepresentation = bloc.getMembers().size() * 1.0f / getNumCharacters();
                     float representationRatio = actualRepresentation / expectedRepresentation;
                     System.out.printf("Bloc Name : %70s,\tMember Count : %8d,\tExpected Count : %8d,\tExpected %% : %f,\tActual %% : %f,\tRatio : %f\t%s%n",
-                        bloc.getName(), bloc.getMembers().size(), (int) (CharacterManager.getNumCharacters() * expectedRepresentation), expectedRepresentation, actualRepresentation, representationRatio, 
-                        (bloc.getMembers().size() > (int) (CharacterManager.getNumCharacters() * expectedRepresentation) + differenceValue ? "EXCESS" : (bloc.getMembers().size() < (int) (CharacterManager.getNumCharacters() * expectedRepresentation) - differenceValue ? "LACK" : ""))
+                        bloc.getName(), bloc.getMembers().size(), (int) (getNumCharacters() * expectedRepresentation), expectedRepresentation, actualRepresentation, representationRatio, 
+                        (bloc.getMembers().size() > (int) (getNumCharacters() * expectedRepresentation) + differenceValue ? "EXCESS" : (bloc.getMembers().size() < (int) (getNumCharacters() * expectedRepresentation) - differenceValue ? "LACK" : ""))
                     );
                 }
             }

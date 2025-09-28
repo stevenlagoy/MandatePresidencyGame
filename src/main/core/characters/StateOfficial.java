@@ -13,7 +13,6 @@ import java.util.List;
 import java.util.Set;
 
 import core.JSONObject;
-import main.core.Engine;
 import main.core.Main;
 import main.core.characters.attributes.Role;
 import main.core.map.MapEntity;
@@ -47,7 +46,7 @@ public class StateOfficial extends PoliticalActor {
     public StateOfficial(){
         this(new PoliticalActor());
         this.jurisdiction = null;
-        CharacterManager.addCharacter(this);
+        Main.Engine().CharacterManager().addCharacter(this);
     }
 
     public StateOfficial(StateOfficial other) {
@@ -57,17 +56,17 @@ public class StateOfficial extends PoliticalActor {
     public StateOfficial(StateOfficial other, boolean addToCharacterList) {
         super(other, false);
         this.jurisdiction = other.jurisdiction;
-        if (addToCharacterList) CharacterManager.addCharacter(this);
+        if (addToCharacterList) Main.Engine().CharacterManager().addCharacter(this);
     }
 
     public StateOfficial(Character character) {
         super(character, false);
-        CharacterManager.addCharacter(this);
+        Main.Engine().CharacterManager().addCharacter(this);
     }
 
     public StateOfficial(PoliticalActor politicalActor) {
         super(politicalActor, false);
-        CharacterManager.addCharacter(this);
+        Main.Engine().CharacterManager().addCharacter(this);
     }
 
     public StateOfficial(String buildstring){
@@ -77,7 +76,7 @@ public class StateOfficial extends PoliticalActor {
     public StateOfficial(String buildstring, boolean addToCharacterList) {
         super(buildstring);
         fromRepr(buildstring);
-        if (addToCharacterList) CharacterManager.addCharacter(this);
+        if (addToCharacterList) Main.Engine().CharacterManager().addCharacter(this);
     }
 
     public StateOfficial(JSONObject json) {
@@ -85,7 +84,7 @@ public class StateOfficial extends PoliticalActor {
             throw new IllegalArgumentException("The passed JSONObject was null, and a " + getClass().getSimpleName() + " object could not be created.");
         }
         fromJson(json);
-        CharacterManager.addCharacter(this);
+        Main.Engine().CharacterManager().addCharacter(this);
     }
 
     public StateOfficial(State state){

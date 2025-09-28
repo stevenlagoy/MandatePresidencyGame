@@ -23,7 +23,6 @@ import main.core.Manager;
 import main.core.NumberOperations;
 import main.core.demographics.Bloc;
 import main.core.demographics.Demographics;
-import main.core.demographics.DemographicsManager;
 import main.core.map.travel.route.Airport;
 
 public final class MapManager extends Manager {
@@ -180,8 +179,8 @@ public final class MapManager extends Manager {
                         FIPS, population, landArea, fullName, commonName, abbreviation, nickname, motto, citiesLoaded ? capital : "", descriptors
                     ));
                 }
-                catch (NumberFormatException e) {
-                    Logger.log("INVALID STATE ENTRY", "The parsed state either lacked necessary values or had malformed numbers. State: " + stateJson.getKey(), e);
+                catch (NumberFormatException | ClassCastException e) {
+                    Logger.log("INVALID STATE ENTRY", "The parsed state either lacked necessary values or had malformed members. State: " + stateJson.getKey(), e);
                 }
             }
         }
@@ -552,7 +551,23 @@ public final class MapManager extends Manager {
         }
         fields.add(new JSONObject("states", statesJsons));
 
+        List<JSONObject> districtsJsons = new ArrayList<>();
+        for (CongressionalDistrict district : congressionalDistricts) {
+            districtsJsons.add(district.toJson());
+        }
+        fields.add(new JSONObject("congressional_districts", districtsJsons));
 
+        List<JSONObject> countiesJsons = new ArrayList<>();
+        for (County county : counties) {
+            countiesJsons.add(county.toJson());
+        }
+        fields.add(new JSONObject("counties", countiesJsons));
+
+        List<JSONObject> municipalitiesJsons = new ArrayList<>();
+        for (Municipality municipality : municipalities) {
+            municipalitiesJsons.add(municipality.toJson());
+        }
+        fields.add(new JSONObject("municipalities", municipalitiesJsons));
 
         return new JSONObject("map_manager", fields);
 

@@ -9,9 +9,10 @@ import org.lwjgl.opengl.GL13;
 import org.lwjgl.opengl.GL20;
 import org.lwjgl.opengl.GL30;
 
-import main.core.Engine;
 import main.core.FilePaths;
+import main.core.Main;
 import main.core.graphics.Camera;
+import main.core.graphics.GraphicsManager;
 import main.core.graphics.ShaderManager;
 import main.core.graphics.Transformation;
 import main.core.graphics.entity.Material;
@@ -20,7 +21,6 @@ import main.core.graphics.entity.terrain.Terrain;
 import main.core.graphics.lighting.DirectionalLight;
 import main.core.graphics.lighting.PointLight;
 import main.core.graphics.lighting.SpotLight;
-import main.core.graphics.utils.Consts;
 import main.core.graphics.utils.Utils;
 
 public class TerrainRenderer implements IRenderer<Object> {
@@ -50,14 +50,14 @@ public class TerrainRenderer implements IRenderer<Object> {
         shader.createMaterialUniform("material");
         shader.createUniform("specularPower");
         shader.createDirectionalLightUniform("directionalLight");
-        shader.createPointLightListUniform("pointLights", Consts.MAX_POINT_LIGHTS);
-        shader.createSpotLightListUniform("spotLights", Consts.MAX_SPOT_LIGHTS);
+        shader.createPointLightListUniform("pointLights", GraphicsManager.MAX_POINT_LIGHTS);
+        shader.createSpotLightListUniform("spotLights", GraphicsManager.MAX_SPOT_LIGHTS);
     }
 
     @Override
     public void render(Camera camera, PointLight[] pointLights, SpotLight[] spotLights, DirectionalLight directionalLight, Vector3f ambientLight, float specularPower) {
         shader.bind();
-        shader.setUniform("projectionMatrix", Engine.getWindow().updateProjectionMatrix());
+        shader.setUniform("projectionMatrix", Main.Engine().GraphicsManager().getWindow().updateProjectionMatrix());
         RenderManager.renderLights(pointLights, spotLights, directionalLight, shader, ambientLight, specularPower);
 
         terrains.sort((t1, t2) -> {

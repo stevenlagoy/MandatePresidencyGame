@@ -9,7 +9,6 @@ package main.core.map;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -22,14 +21,12 @@ import core.Jsonic;
 // IMPORTS ----------------------------------------------------------------------------------------
 
 // Internal Imports
-import main.core.Engine;
 import main.core.Logger;
 import main.core.Main;
 import main.core.Repr;
 import main.core.characters.CharacterManager;
 import main.core.characters.FederalOfficial;
 import main.core.demographics.Bloc;
-import main.core.demographics.DemographicsManager;
 
 /**
  * Singleton class holding values for the Nation, or the United States.
@@ -277,7 +274,7 @@ public class Nation implements MapEntity, Repr<Nation>, Jsonic<Nation> {
     }
     @Override
     public void evaluateDemographics() {
-        // TODO this.demographics = Main.Engine().DemographicsManager().demographicsFromDescriptors(descriptors);
+        this.demographics = Main.Engine().DemographicsManager().demographicsFromDescriptors(descriptors);
     }
 
     // REPRESENTATION METHODS ---------------------------------------------------------------------

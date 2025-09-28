@@ -4,7 +4,7 @@ import org.joml.Matrix4f;
 import org.joml.Vector2d;
 import org.joml.Vector3f;
 
-import main.core.Engine;
+import main.core.Main;
 import main.core.graphics.Camera;
 import main.core.graphics.MouseInput;
 import main.core.graphics.Transformation;
@@ -16,59 +16,70 @@ public class Button extends Entity {
 
     private Entity entity;
 
-    private Texture normalTexture;
+    private Texture regularTexture;
     private Texture hoverTexture;
     private Texture leftClickTexture;
     private Texture rightClickTexture;
 
     private Runnable onHover;
+    private Runnable onUnHover;
     private Runnable onLeftClick;
+    private Runnable onLeftRelease;
     private Runnable onRightClick;
+    private Runnable onRightRelease;
 
     private boolean isLeftClick;
     private boolean isRightClick;
     private boolean isHover;
 
-    public Button(Entity entity, Texture normalTexture, Texture hoverTexture, Runnable onHover, Texture leftClickTexture, Runnable onLeftClick, Texture rightClickTexture, Runnable onRightClick) {
+    public Button(Entity entity, Texture regularTexture, Texture hoverTexture, Runnable onHover, Runnable onUnHover, Texture leftClickTexture, Runnable onLeftClick, Runnable onLeftRelease, Texture rightClickTexture, Runnable onRightClick, Runnable onRightRelease) {
         super(entity.getModel(), entity.getPos(), entity.getRotation(), entity.getScale());
         this.entity = entity;
-        this.normalTexture = normalTexture;
+        this.regularTexture = regularTexture;
         this.hoverTexture = hoverTexture;
         this.onHover = onHover;
+        this.onUnHover = onUnHover;
         this.leftClickTexture = leftClickTexture;
         this.onLeftClick = onLeftClick;
+        this.onLeftRelease = onLeftRelease;
         this.rightClickTexture = rightClickTexture;
         this.onRightClick = onRightClick;
+        this.onRightRelease = onRightRelease;
 
         this.isLeftClick = false;
         this.isRightClick = false;
         this.isHover = false;
     }
 
-    public Button(Entity entity, String normalTextureName, String hoverTextureName, Runnable onHover, String leftClickTextureName, Runnable onLeftClick, String rightClickTextureName, Runnable onRightClick) {
+    public Button(Entity entity, String regularTextureName, String hoverTextureName, Runnable onHover, Runnable onUnHover, String leftClickTextureName, Runnable onLeftClick, Runnable onLeftRelease, String rightClickTextureName, Runnable onRightClick, Runnable onRightRelease) {
         this(
             entity,
-            TextureManager.getTexture(normalTextureName),
+            TextureManager.getTexture(regularTextureName),
             TextureManager.getTexture(hoverTextureName),
             onHover,
+            onUnHover,
             TextureManager.getTexture(leftClickTextureName),
             onLeftClick,
+            onLeftRelease,
             TextureManager.getTexture(rightClickTextureName),
-            onRightClick
+            onRightClick,
+            onRightRelease
         );
     }
+
+    // TODO: this needs to be able to un onUnHover, onLeftRelease, onRightRelease
 
     public void update(MouseInput mouse, Camera camera) {
         Vector2d mousePos = mouse.getCurrentPosition();
 
-        float ndcX = (float) ((2.0 * mousePos.x) / Engine.getWindow().getWidth() - 1.0);
-        float ndcY = (float) (1.0 - (2.0 * mousePos.y) / Engine.getWindow().getHeight());
+        float ndcX = (float) ((2.0 * mousePos.x) / Main.Engine().GraphicsManager().getWindow().getWidth() - 1.0);
+        float ndcY = (float) (1.0 - (2.0 * mousePos.y) / Main.Engine().GraphicsManager().getWindow().getHeight());
         float ndcZ = -1.0f; // near plane
 
         Matrix4f viewMatrix = Transformation.getViewMatrix(camera);
 
         Vector3f rayOrigin = new Vector3f(camera.getPosition());
-        Vector3f rayDirection = Engine.getWindow().calculateRayDirection(ndcX, ndcY, viewMatrix);
+        Vector3f rayDirection = Main.Engine().GraphicsManager().getWindow().calculateRayDirection(ndcX, ndcY, viewMatrix);
 
         isHover = entity.intersects(rayOrigin, rayDirection);
 
@@ -88,7 +99,7 @@ public class Button extends Entity {
             if (hoverTexture != null) entity.getModel().setTexture(hoverTexture);
         }
         else {
-            entity.getModel().setTexture(normalTexture);
+            entity.getModel().setTexture(regularTexture);
         }
     }
 
@@ -112,12 +123,24 @@ public class Button extends Entity {
         if (onHover != null) onHover.run();
     }
 
+    public void runOnUnHover() {
+        if (onUnHover != null) onUnHover.run();
+    }
+
     public void runOnLeftClick() {
         if (onLeftClick != null) onLeftClick.run();
     }
 
+    public void runOnLeftRelease() {
+        if (onLeftRelease != null) onLeftRelease.run();
+    }
+
     public void runOnRightClick() {
         if (onRightClick != null) onRightClick.run();
+    }
+
+    public void runOnRightRelease() {
+        if (onRightRelease != null) onRightRelease.run();
     }
 
 }

@@ -17,11 +17,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import javax.print.attribute.standard.JobName;
-
 import core.JSONObject;
 import core.JSONProcessor;
-import core.Jsonic;
 import main.core.FilePaths;
 import main.core.Logger;
 import main.core.Main;
@@ -31,6 +28,7 @@ import main.core.characters.attributes.names.Name.DisplayOption;
 import main.core.characters.attributes.names.Name.NameForm;
 import main.core.demographics.Bloc;
 import main.core.demographics.Demographics;
+import main.core.demographics.DemographicsManager.DemographicCategory;
 
 /**
  * NameManager manages the generation of Name objects.
@@ -171,12 +169,12 @@ public final class NameManager extends Manager {
         return bestMatch;
     }
 
-    private Set<Bloc> refineBlocsKey(Set<Bloc> blocs, String... avoidCategories) {
+    private Set<Bloc> refineBlocsKey(Set<Bloc> blocs, DemographicCategory... avoidCategories) {
         Set<Bloc> candidate = new HashSet<>();
         for (Bloc bloc : blocs) {
             boolean avoid = false;
-            for (String category : avoidCategories) {
-                if (bloc.getNestedNames().contains(category) || bloc.getDemographicGroup().equals(category))
+            for (DemographicCategory category : avoidCategories) {
+                if (bloc.getDemographicGroup().equals(category))
                     avoid = true;
             }
             if (!avoid) candidate.add(bloc);
@@ -632,7 +630,7 @@ public final class NameManager extends Manager {
 
     public String selectFamilyName(Collection<Bloc> blocs) {
         Set<Bloc> key = Set.of(blocs.toArray(new Bloc[0]));
-        key = refineBlocsKey(key, "Presentation");
+        key = refineBlocsKey(key, DemographicCategory.PRESENTATION);
         return NumberOperations.weightedRandSelect(getLastNameDistribution(key));
     }
 

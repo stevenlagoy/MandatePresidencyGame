@@ -2,7 +2,7 @@ package main.core.graphics.ui;
 
 import org.joml.Vector2d;
 
-import main.core.Engine;
+import main.core.Main;
 import main.core.graphics.MouseInput;
 
 public class ClickableArea {
@@ -27,8 +27,8 @@ public class ClickableArea {
     public boolean update(MouseInput mouse) {
         Vector2d pos = mouse.getCurrentPosition();
 
-        float ndcX = (2.0f * (float) pos.x / Engine.getWindow().getWidth()) - 1.0f;
-        float ndcY = 1.0f - (2.0f * (float) pos.y / Engine.getWindow().getHeight());
+        float ndcX = (2.0f * (float) pos.x / Main.Engine().GraphicsManager().getWindow().getWidth()) - 1.0f;
+        float ndcY = 1.0f - (2.0f * (float) pos.y / Main.Engine().GraphicsManager().getWindow().getHeight());
 
         System.out.printf("Screen: (%.2f, %.2f) -> NDC: (%.2f, %.2f)%n", 
                 pos.x, pos.y, ndcX, ndcY);
@@ -62,6 +62,6 @@ public class ClickableArea {
     }
 
     private boolean containsPoint(float x, float y) {
-        return Engine.containsPoint(x, y, x1, y1, x2, y2);
+        return Main.Engine().GraphicsManager().containsPoint(x, y, x1, y1, x2, y2);
     }
 }

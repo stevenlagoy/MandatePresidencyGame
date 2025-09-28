@@ -23,11 +23,8 @@ import main.core.Main;
 import main.core.Repr;
 import main.core.characters.attributes.CharacterModel;
 import main.core.characters.attributes.names.Name;
-import main.core.characters.attributes.names.NameManager;
 import main.core.demographics.Demographics;
-import main.core.demographics.DemographicsManager;
 import main.core.map.Municipality;
-import main.core.map.MapManager;
 
 /**
  * The most basic form of Character, from which other types of Characters inherit.
@@ -94,7 +91,7 @@ public class Character implements Repr<Character>, Jsonic<Character> {
         this.birthday                    = (Date) other.birthday.clone();
         this.appearance                  = new CharacterModel(other.appearance);
 
-        if (addToCharacterList) CharacterManager.addCharacter(this);
+        if (addToCharacterList) Main.Engine().CharacterManager().addCharacter(this);
     }
 
     /**
@@ -116,7 +113,7 @@ public class Character implements Repr<Character>, Jsonic<Character> {
             throw new IllegalArgumentException("The given buildstring was null, and a " + getClass().getSimpleName() + " object could not be created.");
         }
         fromRepr(buildstring);
-        if (addToCharacterList) CharacterManager.addCharacter(this);
+        if (addToCharacterList) Main.Engine().CharacterManager().addCharacter(this);
     }
 
     /**
@@ -128,7 +125,7 @@ public class Character implements Repr<Character>, Jsonic<Character> {
             throw new IllegalArgumentException("The passed JSONObject was null, and a " + getClass().getSimpleName() + " object could not be created.");
         }
         fromJson(json);
-        CharacterManager.addCharacter(this);
+        Main.Engine().CharacterManager().addCharacter(this);
     }
 
     /**
@@ -165,7 +162,7 @@ public class Character implements Repr<Character>, Jsonic<Character> {
         this.birthday                    = birthday                    != null ? birthday                    : CharacterManager.generateBirthday(this.demographics);
         this.appearance                  = appearance                  != null ? appearance                  : CharacterManager.generateCharacterModel(this.demographics, this.birthday);
         
-        CharacterManager.addCharacter(this);
+        Main.Engine().CharacterManager().addCharacter(this);
     }
     
     // GETTERS AND SETTERS ------------------------------------------------------------------------
@@ -267,36 +264,43 @@ public class Character implements Repr<Character>, Jsonic<Character> {
     public Character fromJson(JSONObject json) {
         if (json == null)
             return null;
+        // Demographics
         Object demographicsObj = json.get("demographics");
         if (demographicsObj == null)
             this.demographics = Main.Engine().DemographicsManager().generateWeightedDemographics();
         else if (demographicsObj instanceof JSONObject demographicsJson)
             this.demographics = new Demographics(demographicsJson);
+        // Name
         Object nameObj = json.get("name");
         if (nameObj == null)
             this.name = Main.Engine().NameManager().generateName(demographics);
         else if (nameObj instanceof JSONObject nameJson)
             this.name = new Name(nameJson);
+        // Birthplace
         Object birthplaceObj = json.get("birthplace");
         if (birthplaceObj == null)
             this.birthplaceMunicipality = Main.Engine().MapManager().selectMunicipality(demographics);
         else if (birthplaceObj instanceof JSONObject birthplaceJson)
             this.birthplaceMunicipality = Main.Engine().MapManager().matchMunicipality(birthplaceJson.getAsString());
+        // Current Location
         Object currentLocationObj = json.get("current_location");
         if (currentLocationObj == null)
             this.currentLocationMunicipality = Main.Engine().MapManager().selectMunicipality(demographics);
         else if (currentLocationObj instanceof JSONObject currentLocationJson)
             this.currentLocationMunicipality = Main.Engine().MapManager().matchMunicipality(currentLocationJson.getAsString());
+        // Residence
         Object residenceObj = json.get("residence");
         if (residenceObj == null)
             this.currentLocationMunicipality = Main.Engine().MapManager().selectMunicipality(demographics);
         else if (residenceObj instanceof JSONObject residenceJson)
             this.currentLocationMunicipality = Main.Engine().MapManager().matchMunicipality(residenceJson.getAsString());
+        // Birthday
         Object birthdayObj = json.get("birthday");
         if (birthdayObj == null)
             this.birthday = CharacterManager.generateBirthday(demographics);
         else if (birthdayObj instanceof JSONObject birthdayJson)
             this.birthday = TimeManager.dateFromString(birthdayJson.getAsString());
+        // Appearance
         Object appearanceObj = json.get("appearance");
         if (appearanceObj == null)
             this.appearance = CharacterManager.generateAppearance(this);
@@ -321,7 +325,6 @@ public class Character implements Repr<Character>, Jsonic<Character> {
         fields.add(appearance.toJson());
         return new JSONObject(getName().getBiographicalName(), fields);
     }
-
     
     /**
      * @see #toRepr()

@@ -3,7 +3,6 @@ package main.core.graphics;
 import java.util.HashMap;
 import java.util.Map;
 
-import main.core.Engine;
 import main.core.Logger;
 import main.core.graphics.entity.TextureManager;
 

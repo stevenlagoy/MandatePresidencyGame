@@ -7,8 +7,10 @@
 
 package main.core.map;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -17,7 +19,6 @@ import main.core.Jsonic;
 import main.core.Main;
 import main.core.Repr;
 import main.core.demographics.Bloc;
-import main.core.demographics.DemographicsManager;
 
 public class County implements MapEntity, Repr<County>, Jsonic<County> {
 
@@ -106,7 +107,7 @@ public class County implements MapEntity, Repr<County>, Jsonic<County> {
     }
 
     public String getNameWithState() {
-        return getFullName() + getState().getName();
+        return getFullName() + ", " + getState().getName();
     }
 
     // Common Name : String
@@ -195,7 +196,7 @@ public class County implements MapEntity, Repr<County>, Jsonic<County> {
     @Override
     public void evaluateDemographics() {
         this.descriptors.addAll(state.getDescriptors());
-        // TODO this.demographics = Main.Engine().DemographicsManager().demographicsFromDescriptors(descriptors);
+        this.demographics = Main.Engine().DemographicsManager().demographicsFromDescriptors(descriptors);
     }
 
 
@@ -203,8 +204,23 @@ public class County implements MapEntity, Repr<County>, Jsonic<County> {
 
     @Override
     public JSONObject toJson() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'toJson'");
+        List<JSONObject> fields = new ArrayList<>();
+        fields.add(new JSONObject("state", state.getName()));
+        fields.add(new JSONObject("FIPS", FIPS));
+        fields.add(new JSONObject("population", population));
+        fields.add(new JSONObject("land_area", landArea));
+        fields.add(new JSONObject("full_name", fullName));
+        fields.add(new JSONObject("common_name", commonName));
+        if (countySeat != null) fields.add(new JSONObject("county_seat", countySeat.getName()));
+        fields.add(new JSONObject("descriptors", List.copyOf(descriptors)));
+        // Demographics are derived from Descriptors
+        // List<JSONObject> demographicsJsons = new ArrayList<>();
+        // for (Bloc bloc : demographics.keySet()) {
+        //     demographicsJsons.add(new JSONObject(bloc.getName(), demographics.get(bloc)));
+        // }
+        // fields.add(new JSONObject("demographics", demographicsJsons));
+        
+        return new JSONObject(this.getName(), fields);
     }
 
     @Override
@@ -227,8 +243,7 @@ public class County implements MapEntity, Repr<County>, Jsonic<County> {
 
     @Override
     public String toString() {
-        return "";
-        // TODO
+        return this.toRepr();
     }
     
     // OBJECT METHODS -----------------------------------------------------------------------------
