@@ -1,0 +1,744 @@
+{
+    "Alabama" : {
+        "republican_type" : "open primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Alaska" : {
+        "republican_type" : "closed primary",
+        "republican_district_allocation_rule" : "proportional",
+        "republican_at_large_allocation_rule" : "proportional",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.13,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed party primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "American Samoa" : {
+        "republican_type" : "convention",
+        "republican_district_allocation_rule" : "convention",
+        "republican_at_large_allocation_rule" : "convention",
+        "republican_automatic_allocation_rule" : "unpledged",
+        "republican qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "open caucus",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Arizona" : {
+        "republican_type" : "closed primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Arkansas" : {
+        "republican_type" : "open primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.15,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "California" : {
+        "republican_type" : "partially-closed primary",
+        "republican_district_allocation_rule" : "proportional",
+        "republican_at_large_allocation_rule" : "proportional",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "partially-closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Colorado" : {
+        "republican_type" : "open-unaffiliated primary",
+        "republican_district_allocation_rule" : "proportional",
+        "republican_at_large_allocation_rule" : "proportional",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "open-unaffiliated primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Connecticut" : {
+        "republican_type" : "closed primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "proportional",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Delaware" : {
+        "republican_type" : "closed primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Democrats Abroad" : {
+        "democratic_type" : "open party primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "District of Columbia" : {
+        "republican_type" : "party primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.15,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Florida" : {
+        "republican_type" : "closed primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Georgia" : {
+        "republican_type" : "open primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Guam" : {
+        "republican_type" : "convention",
+        "republican_district_allocation_rule" : "unallocated",
+        "republican_at_large_allocation_rule" : "unallocated",
+        "republican_automatic_allocation_rule" : "unpledged",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed caucus",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Hawaii" : {
+        "republican_type" : "closed caucus",
+        "republican_district_allocation_rule" : "proportional",
+        "republican_at_large_allocation_rule" : "proportional",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed caucus",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Idaho" : {
+        "republican_type" : "partially-closed caucus",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "partially-closed caucus",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Illinois" : {
+        "republican_type" : "partially-open primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "proportional loophole",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Indiana" : {
+        "republican_type" : "partially-open primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "proportional loophole",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Iowa" : {
+        "republican_carveout" : true,
+        "republican_type" : "partially-open caucus",
+        "republican_district_allocation_rule" : "proportional",
+        "republican_at_large_allocation_rule" : "proportional",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed party primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Kansas" : {
+        "republican_type" : "partially-open primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.1,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Kentucky" : {
+        "republican_type" : "closed primary",
+        "republican_district_allocation_rule" : "proportional",
+        "republican_at_large_allocation_rule" : "proportional",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.05,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Louisiana" : {
+        "republican_type" : "partially-closed primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Maine" : {
+        "republican_type" : "open-unaffiliated primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.1,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open-unaffiliated primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Maryland" : {
+        "republican_type" : "partially-closed primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Massachusetts" : {
+        "republican_type" : "open-unaffiliated primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.05,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open-unaffiliated primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Michigan" : {
+        "republican_type" : "open hybrid",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.15,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_prewindow" : true,
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Minnesota" : {
+        "republican_type" : "open primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.1,
+        "republican_winner_take_all_threshold" : 0.85,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Mississippi" : {
+        "republican_type" : "open primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.15,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Missouri" : {
+        "republican_type" : "open caucus",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open party primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Montana" : {
+        "republican_type" : "convention",
+        "republican_district_allocation_rule" : "unallocated",
+        "republican_at_large_allocation_rule" : "unallocated",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Nebraska" : {
+        "republican_type" : "partially-closed primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "partially-closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Nevada" : {
+        "republican_carveout" : true,
+        "republican_type" : "closed caucus",
+        "republican_district_allocation_rule" : "proportional",
+        "republican_at_large_allocation_rule" : "proportional",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_prewindow" : true,
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "New Hampshire" : {
+        "republican_carveout" : true,
+        "republican_type" : "open-unaffiliated primary",
+        "republican_district_allocation_rule" : "proportional",
+        "republican_at_large_allocation_rule" : "proportional",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.1,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_prewindow" : true,
+        "democratic_type" : "open-unaffiliated party primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "New Jersey" : {
+        "republican_type" : "closed primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "partially-closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "New Mexico" : {
+        "republican_type" : "convention",
+        "republican_district_allocation_rule" : "unallocated",
+        "republican_at_large_allocation_rule" : "unallocated",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.15,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "New York" : {
+        "republican_type" : "closed primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "North Carolina" : {
+        "republican_type" : "open-unaffiliated primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open-unaffiliated primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "North Dakota" : {
+        "republican_type" : "closed caucus",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "unpledged",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open party primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Northern Mariana Islands" : {
+        "republican_type" : "closed caucus",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "unpledged",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed party primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Ohio" : {
+        "republican_type" : "partially-open primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "partially-open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Oklahoma" : {
+        "republican_type" : "partially-closed primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.15,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "partially-closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Oregon" : {
+        "republican_type" : "convention",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.0357,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Pennsylvania" : {
+        "republican_type" : "closed primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "proportional loophole",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Puerto Rico" : {
+        "republican_type" : "party primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Rhode Island" : {
+        "republican_type" : "open-unaffiliated primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.1,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "open-unaffiliated primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "South Carolina" : {
+        "republican_carveout" : true,
+        "republican_type" : "open primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "proportional loophole",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_prewindow" : true,
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "South Dakota" : {
+        "republican_type" : "convention",
+        "republican_district_allocation_rule" : "unallocated",
+        "republican_at_large_allocation_rule" : "unallocated",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "partially-closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Tennessee" : {
+        "republican_type" : "closed primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.67,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Texas" : {
+        "republican_type" : "open primary",
+        "republican_district_allocation_rule" : "proportional",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Utah" : {
+        "republican_type" : "partially-closed caucus",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.15,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Vermont" : {
+        "republican_type" : "open primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Virgin Islands" : {
+        "republican_type" : "closed caucus",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "unpledged",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed party primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Virginia" : {
+        "republican_type" : "open primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Washington" : {
+        "republican_type" : "open primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "West Virginia" : {
+        "republican_type" : "partially-closed primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "partially-closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Wisconsin" : {
+        "republican_type" : "open primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "proportional",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Wyoming" : {
+        "republican_type" : "convention",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "unpledged",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed caucus",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    }
+}
