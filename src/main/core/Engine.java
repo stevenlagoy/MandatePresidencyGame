@@ -12,7 +12,6 @@ package main.core;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.lang.reflect.Field;
-import java.sql.Date;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -29,10 +28,8 @@ import main.core.politics.EventManager;
 
 // ENGINE -----------------------------------------------------------------------------------------
 /**
- * Engine is the main driver of the game engine, facilitating the initialization and function
+ * {@code Engine} is the main driver of the game engine, facilitating the initialization and function
  * of the game by tracking critical details for game settings and other information.
- * <p>
- * This class is final and has no instance variables, and is not designed to be instantiated.
  */
 public final class Engine extends Manager {
 
@@ -66,7 +63,15 @@ public final class Engine extends Manager {
     public final boolean DEBUG_MODE = true;
     private ManagerState currentState;
 
+    /** Start time for the program. Get current program time with Main.Engine().getProgramTime() */
+    public final long t_zero;
+    /** Get the current elapsed program time in seconds. Equivalent to: {@code (System.nanoTime() - Main.Engine().t_zero) / 1e-9;}*/
+    public double getProgramTime() {
+        return (System.nanoTime() - t_zero) * 1e-9;
+    }
+
     public Engine() {
+        t_zero = System.nanoTime();
         currentState = ManagerState.INACTIVE;
         LANGUAGE_MANAGER = new LanguageManager();
         TIME_MANAGER = new TimeManager();
@@ -100,10 +105,14 @@ public final class Engine extends Manager {
     @Override
     public boolean init() {
         boolean successFlag = true;
+        double startTime = Main.Engine().getProgramTime();
+        Logger.log(String.format("%s starting at %f", this.getClass().getSimpleName(), startTime));
         for (Manager manager : managers) {
             if (!manager.init()) successFlag = false;
         }
         currentState = successFlag ? ManagerState.ACTIVE : ManagerState.ERROR;
+        double endTime = Main.Engine().getProgramTime();
+        Logger.log(String.format("%s initialized %s at %f. Elapsed: %f", this.getClass().getSimpleName(), successFlag ? "successfully" : "unsuccessfully", endTime, endTime - startTime));
         return successFlag;
     }
 
@@ -402,11 +411,11 @@ public final class Engine extends Manager {
         }
         catch (NullPointerException e) {
             // No player character. Use current real time
-            fileName = new SimpleDateFormat("MM-dd-yy_HH-mm-ss").format(Calendar.getInstance().getTime());
+            fileName = new SimpleDateFormat("yyyy-MMM-dd_HH-mm-ss").format(Calendar.getInstance().getTime());
         }
 
         // Generate savestring
-        String saveString = String.format("{%n%t%s%n}", this.toJson().toString().replace("\n","\n\t"));
+        String saveString = String.format("{%n\t%s%n}", this.toJson().toString().replace("\n","\n\t"));
 
         // Write to save file with name, or to output file if unsuccessful.
         try {

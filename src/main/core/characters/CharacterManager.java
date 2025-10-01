@@ -20,6 +20,7 @@ import java.util.Set;
 import core.JSONObject;
 import core.JSONProcessor;
 import main.core.FilePaths;
+import main.core.Logger;
 import main.core.Main;
 import main.core.Manager;
 import main.core.NumberOperations;
@@ -67,10 +68,14 @@ public final class CharacterManager extends Manager {
     // MANAGER METHODS ----------------------------------------------------------------------------
 
     @Override
-    public boolean init(){
+    public boolean init() {
         boolean successFlag = true;
+        double startTime = Main.Engine().getProgramTime();
+        Logger.log(String.format("%s starting at %f", this.getClass().getSimpleName(), startTime));
         successFlag = successFlag && characterSetup();
         currentState = successFlag ? ManagerState.ACTIVE : ManagerState.ERROR;
+        double endTime = Main.Engine().getProgramTime(); 
+        Logger.log(String.format("%s initialized %s at %f. Elapsed: %f", this.getClass().getSimpleName(), successFlag ? "successfully" : "unsuccessfully", endTime, endTime - startTime));
         return successFlag;
     }
 

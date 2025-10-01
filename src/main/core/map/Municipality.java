@@ -352,8 +352,8 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
         fields.add(new JSONObject("land_area", landArea));
         fields.add(new JSONObject("name", name));
         if (this.typeClass != null) fields.add(new JSONObject("type_class", typeClass.toString()));
-        fields.add(new JSONObject("standard_time_zone", standardTimeZone.toString()));
-        fields.add(new JSONObject("daylight_time_zone", daylightTimeZone.toString()));
+        fields.add(new JSONObject("standard_time_zone", standardTimeZone.getDisplayName()));
+        fields.add(new JSONObject("daylight_time_zone", daylightTimeZone.getDisplayName()));
         List<String> countiesNames = new ArrayList<>();
         for (County county : counties) {
             countiesNames.add(county.getName());
