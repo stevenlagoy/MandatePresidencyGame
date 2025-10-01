@@ -8,6 +8,8 @@
 package main.core.politics;
 
 import core.JSONObject;
+import main.core.Logger;
+import main.core.Main;
 import main.core.Manager;
 
 public class EventManager extends Manager {
@@ -23,7 +25,11 @@ public class EventManager extends Manager {
     @Override
     public boolean init() {
         boolean successFlag = true;
+        double startTime = Main.Engine().getProgramTime();
+        Logger.log(String.format("%s starting at %f", this.getClass().getSimpleName(), startTime));
         currentState = successFlag ? ManagerState.ACTIVE : ManagerState.ERROR;
+        double endTime = Main.Engine().getProgramTime(); 
+        Logger.log(String.format("%s initialized %s at %f. Elapsed: %f", this.getClass().getSimpleName(), successFlag ? "successfully" : "unsuccessfully", endTime, endTime - startTime));
         return successFlag;
     }
 

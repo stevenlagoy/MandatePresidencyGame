@@ -100,9 +100,13 @@ public class DemographicsManager extends Manager {
     @Override
     public boolean init() {
         boolean successFlag = true;
+        double startTime = Main.Engine().getProgramTime();
+        Logger.log(String.format("%s starting at %f", this.getClass().getSimpleName(), startTime));
         numVoters = GAME_START_VOTERS;
         createDemographicBlocs();
         currentState = successFlag ? ManagerState.ACTIVE : ManagerState.ERROR;
+        double endTime = Main.Engine().getProgramTime(); 
+        Logger.log(String.format("%s initialized %s at %f. Elapsed: %f", this.getClass().getSimpleName(), successFlag ? "successfully" : "unsuccessfully", endTime, endTime - startTime));
         return successFlag;
     }
 

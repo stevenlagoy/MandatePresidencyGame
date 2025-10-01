@@ -5,9 +5,11 @@ import org.joml.Vector4f;
 import org.lwjgl.glfw.GLFWErrorCallback;
 
 import core.JSONObject;
+import main.core.Logger;
+import main.core.Main;
 import main.core.Manager;
 
-public class GraphicsManager extends Manager {
+public final class GraphicsManager extends Manager {
 
     // GRAPHICS CONSTANTS -------------------------------------------------------------------------
 
@@ -54,7 +56,11 @@ public class GraphicsManager extends Manager {
     @Override
     public boolean init() {
         boolean successFlag = true;
+        double startTime = Main.Engine().getProgramTime();
+        Logger.log(String.format("%s starting at %f", this.getClass().getSimpleName(), startTime));
         currentState = successFlag ? ManagerState.ACTIVE : ManagerState.ERROR;
+        double endTime = Main.Engine().getProgramTime(); 
+        Logger.log(String.format("%s initialized %s at %f. Elapsed: %f", this.getClass().getSimpleName(), successFlag ? "successfully" : "unsuccessfully", endTime, endTime - startTime));
         return successFlag;
     }
 
@@ -128,8 +134,7 @@ public class GraphicsManager extends Manager {
 
     @Override
     public JSONObject toJson() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'toJson'");
+        return new JSONObject(this.getClass().getSimpleName());
     }
 
     @Override
