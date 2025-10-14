@@ -31,6 +31,9 @@ public class Button extends Entity {
     private boolean isLeftClick;
     private boolean isRightClick;
     private boolean isHover;
+    private boolean wasHover;
+    private boolean wasLeftClick;
+    private boolean wasRightClick;
 
     public Button(Entity entity, Texture regularTexture, Texture hoverTexture, Runnable onHover, Runnable onUnHover, Texture leftClickTexture, Runnable onLeftClick, Runnable onLeftRelease, Texture rightClickTexture, Runnable onRightClick, Runnable onRightRelease) {
         super(entity.getModel(), entity.getPos(), entity.getRotation(), entity.getScale());
@@ -49,6 +52,9 @@ public class Button extends Entity {
         this.isLeftClick = false;
         this.isRightClick = false;
         this.isHover = false;
+        this.wasHover = false;
+        this.wasLeftClick = false;
+        this.wasRightClick = false;
     }
 
     public Button(Entity entity, String regularTextureName, String hoverTextureName, Runnable onHover, Runnable onUnHover, String leftClickTextureName, Runnable onLeftClick, Runnable onLeftRelease, String rightClickTextureName, Runnable onRightClick, Runnable onRightRelease) {
@@ -100,6 +106,16 @@ public class Button extends Entity {
         }
         else {
             entity.getModel().setTexture(regularTexture);
+        }
+
+        if (wasHover) {
+
+        }
+        else if (wasLeftClick) {
+
+        }
+        else if (wasRightClick) {
+
         }
     }
 
