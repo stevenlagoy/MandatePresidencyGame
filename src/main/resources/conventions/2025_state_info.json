@@ -1,0 +1,1469 @@
+{
+    "Alabama" : {
+        "legislature" : {
+            "name" : "Alabama Legislature",
+            "lower_house" : {
+                "name" : "Alabama House of Representatives",
+                "title" : "Representative",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 105,
+                "republican_seats" : 72,
+                "democrat_seats" : 29
+            },
+            "upper_house" : {
+                "name" : "Alabama State Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 35,
+                "republican_seats" : 27,
+                "democrat_seats" : 8
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Alabama",
+            "party" : "Republican"
+        }
+    },
+    "Alaska" : {
+        "legislature" : {
+            "name" : "Alaska State Legislature",
+            "lower_house" : {
+                "name" : "Alabama House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 40,
+                "republican_seats" : 21,
+                "democrat_seats" : 14
+            },
+            "upper_house" : {
+                "name" : "Alaska State Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "stagger" : 2,
+                "next_election" : 2026,
+                "total_seats" : 20,
+                "republican_seats" : 11,
+                "democrat_seats" : 9
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Alaska",
+            "party" : "Republican"
+        }
+    },
+    "American Samoa" : {
+        "legislature" : {
+            "name" : "American Samoa Fono",
+            "lower_house" : {
+                "name" : "American Samoa House of Representatives",
+                "title" : "Member",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 21,
+                "republican_seats" : 0,
+                "democrat_seats" : 0
+            },
+            "upper_house" : {
+                "name" : "American Samoa Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2028,
+                "total_seats" : 18,
+                "republican_seats" : 0,
+                "democrat_seats" : 0
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of American Samoa",
+            "party" : "Republican"
+        }
+    },
+    "Arizona" : {
+        "legislature" : {
+            "name" : "Arizona State Legislature",
+            "lower_house" : {
+                "name" : "Arizona House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 60,
+                "republican_seats" : 33,
+                "democrat_seats" : 27
+            },
+            "upper_house" : {
+                "name" : "Arizona State Senate",
+                "title" : "Senator",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 30,
+                "republican_seats" : 17,
+                "democrat_seats" : 13
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Arizona",
+            "party" : "Democrat"
+        }
+    },
+    "Arkansas" : {
+        "legislature" : {
+            "name" : "General Assembly of Arkansas",
+            "lower_house" : {
+                "name" : "Arkansas House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 100,
+                "republican_seats" : 81,
+                "democrat_seats" : 19
+            },
+            "upper_house" : {
+                "name" : "Arkansas State Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 35,
+                "republican_seats" : 29,
+                "democrat_seats" : 6
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Arkansas",
+            "party" : "Republican"
+        }
+    },
+    "California" : {
+        "legislature" : {
+            "name" : "California State Legislature",
+            "lower_house" : {
+                "name" : "California State Assembly",
+                "title" : "Member",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 80,
+                "republican_seats" : 20,
+                "democrat_seats" : 60
+            },
+            "upper_house" : {
+                "name" : "California State Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 40,
+                "republican_seats" : 10,
+                "democrat_seats" : 30
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of California",
+            "party" : "Democrat"
+        }
+    },
+    "Colorado" : {
+        "legislature" : {
+            "name" : "Colorado General Assembly",
+            "lower_house" : {
+                "name" : "Colorado House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 65,
+                "republican_seats" : 43,
+                "democrat_seats" : 22
+            },
+            "upper_house" : {
+                "name" : "Colorado State Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 35,
+                "republican_seats" : 23,
+                "democrat_seats" : 12
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Colorado",
+            "party" : "Democrat"
+        }
+    },
+    "Connecticut" : {
+        "legislature" : {
+            "name" : "Connecticut General Assembly",
+            "lower_house" : {
+                "name" : "Connecticut House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 151,
+                "republican_seats" : 49,
+                "democrat_seats" : 102
+            },
+            "upper_house" : {
+                "name" : "Connecticut State Senate",
+                "title" : "Senator",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 36,
+                "republican_seats" : 11,
+                "democrat_seats" : 25
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Connecticut",
+            "party" : "Democrat"
+        }
+    },
+    "Delaware" : {
+        "legislature" : {
+            "name" : "Delaware General Assembly",
+            "lower_house" : {
+                "name" : "Delaware State House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 41,
+                "republican_seats" : 14,
+                "democrat_seats" : 27
+            },
+            "upper_house" : {
+                "name" : "Delaware State Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 21,
+                "republican_seats" : 6,
+                "democrat_seats" : 15
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Delaware",
+            "party" : "Democrat"
+        }
+    },
+    "District of Columbia" : {
+        "legislature" : {
+            "name" : "Council of the District of Columbia",
+            "title" : "Member",
+            "term" : 4,
+            "stagger" : 2,
+            "next_election" : 2026,
+            "total_seats" : 13,
+            "republican_seats" : 0,
+            "democrat_seats" : 11
+        },
+        "governorship" : {
+            "title" : "Mayor of the District of Columbia",
+            "party" : "Democrat"
+        }
+    },
+    "Florida" : {
+        "legislature" : {
+            "name" : "Florida Legislature",
+            "lower_house" : {
+                "name" : "Florida House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 120,
+                "republican_seats" : 87,
+                "democrat_seats" : 33
+            },
+            "upper_house" : {
+                "name" : "Florida Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 40,
+                "republican_seats" : 28,
+                "democrat_seats" : 11
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Florida",
+            "party" : "Republican"
+        }
+    },
+    "Georgia" : {
+        "legislature" : {
+            "name" : "Georgia General Assembly",
+            "lower_house" : {
+                "name" : "Georgia House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 180,
+                "republican_seats" : 100,
+                "democrat_seats" : 80
+            },
+            "upper_house" : {
+                "name" : "Georgia State Senate",
+                "title" : "Senator",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 56,
+                "republican_seats" : 33,
+                "democrat_seats" : 23
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Georgia",
+            "party" : "Republican"
+        }
+    },
+    "Guam" : {
+        "legislature" : {
+            "name" : "Legislature of Guam",
+            "title" : "Senator",
+            "term" : 2,
+            "next_election" : 2026,
+            "total_seats" : 15,
+            "republican_seats" : 9,
+            "democrat_seats" : 6
+        },
+        "governorship" : {
+            "title" : "Governor of Guam",
+            "party" : "Democrat"
+        }
+    },
+    "Hawaii" : {
+        "legislature" : {
+            "name" : "Hawaii State Legislature",
+            "lower_house" : {
+                "name" : "Hawaii House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 51,
+                "republican_seats" : 9,
+                "democrat_seats" : 42
+            },
+            "upper_house" : {
+                "name" : "Hawaii State Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 25,
+                "republican_seats" : 3,
+                "democrat_seats" : 22
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Hawaii",
+            "party" : "Democrat"
+        }
+    },
+    "Idaho" : {
+        "legislature" : {
+            "name" : "Idaho Legislature",
+            "lower_house" : {
+                "name" : "Idaho House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 70,
+                "republican_seats" : 61,
+                "democrat_seats" : 9
+            },
+            "upper_house" : {
+                "name" : "Idaho State Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 35,
+                "republican_seats" : 29,
+                "democrat_seats" : 6
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Idaho",
+            "party" : "Republican"
+        }
+    },
+    "Illinois" : {
+        "legislature" : {
+            "name" : "Illinois General Assembly",
+            "lower_house" : {
+                "name" : "Illinois House of Representatives",
+                "title" : "Representative",
+                "term" : 4,
+                "stagger" : 2,
+                "next_election" : 2026,
+                "total_seats" : 118,
+                "republican_seats" : 40,
+                "democrat_seats" : 78
+            },
+            "upper_house" : {
+                "name" : "Illinois Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 59,
+                "republican_seats" : 19,
+                "democrat_seats" : 40
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Illinois",
+            "party" : "Democrat"
+        }
+    },
+    "Indiana" : {
+        "legislature" : {
+            "name" : "Indiana General Assembly",
+            "lower_house" : {
+                "name" : "Indiana House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 100,
+                "republican_seats" : 70,
+                "democrat_seats" : 30
+            },
+            "upper_house" : {
+                "name" : "Indiana State Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 50,
+                "republican_seats" : 40,
+                "democrat_seats" : 10
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Indiana",
+            "party" : "Republican"
+        }
+    },
+    "Iowa" : {
+        "legislature" : {
+            "name" : "Iowa General Assembly",
+            "lower_house" : {
+                "name" : "Iowa House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 100,
+                "republican_seats" : 67,
+                "democrat_seats" : 33
+            },
+            "upper_house" : {
+                "name" : "Iowa Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 50,
+                "republican_seats" : 33,
+                "democrat_seats" : 17
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Iowa",
+            "party" : "Republican"
+        }
+    },
+    "Kansas" : {
+        "legislature" : {
+            "name" : "Kansas Legislature",
+            "lower_house" : {
+                "name" : "Kansas House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 125,
+                "republican_seats" : 88,
+                "democrat_seats" : 37
+            },
+            "upper_house" : {
+                "name" : "Kansas Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2028,
+                "total_seats" : 40,
+                "republican_seats" : 31,
+                "democrat_seats" : 9
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Kansas",
+            "party" : "Democrat"
+        }
+    },
+    "Kentucky" : {
+        "legislature" : {
+            "name" : "Kentucky General Assembly",
+            "lower_house" : {
+                "name" : "Kentucky House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 100,
+                "republican_seats" : 80,
+                "democrat_seats" : 20
+            },
+            "upper_house" : {
+                "name" : "Kentucky Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 38,
+                "republican_seats" : 32,
+                "democrat_seats" : 6
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Kentucky",
+            "party" : "Democrat"
+        }
+    },
+    "Louisiana" : {
+        "legislature" : {
+            "name" : "Louisiana State Legislature",
+            "lower_house" : {
+                "name" : "Louisiana House of Representatives",
+                "title" : "Representative",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 105,
+                "republican_seats" : 73,
+                "democrat_seats" : 32
+            },
+            "upper_house" : {
+                "name" : "Louisiana State Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2027,
+                "total_seats" : 39,
+                "republican_seats" : 28,
+                "democrat_seats" : 11
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Louisiana",
+            "party" : "Republican"
+        }
+    },
+    "Maine" : {
+        "legislature" : {
+            "name" : "Maine State Legislature",
+            "lower_house" : {
+                "name" : "Maine House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 151,
+                "republican_seats" : 73,
+                "democrat_seats" : 75
+            },
+            "upper_house" : {
+                "name" : "Maine Senate",
+                "title" : "Senator",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 35,
+                "republican_seats" : 14,
+                "democrat_seats" : 20
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Maine",
+            "party" : "Democrat"
+        }
+    },
+    "Maryland" : {
+        "legislature" : {
+            "name" : "Maryland General Assembly",
+            "lower_house" : {
+                "name" : "Maryland House of Delegates",
+                "title" : "Delegate",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 141,
+                "republican_seats" : 39,
+                "democrat_seats" : 102
+            },
+            "upper_house" : {
+                "name" : "Maryland Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 47,
+                "republican_seats" : 13,
+                "democrat_seats" : 34
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Maryland",
+            "party" : "Democrat"
+        }
+    },
+    "Massachusetts" : {
+        "legislature" : {
+            "name" : "General Court of Massachusetts",
+            "lower_house" : {
+                "name" : "Massachusetts House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 160,
+                "republican_seats" : 25,
+                "democrat_seats" : 134
+            },
+            "upper_house" : {
+                "name" : "Massachusetts Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 40,
+                "republican_seats" : 5,
+                "democrat_seats" : 35
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Massachusetts",
+            "party" : "Democrat"
+        }
+    },
+    "Michigan" : {
+        "legislature" : {
+            "name" : "Michigan Legislature",
+            "lower_house" : {
+                "name" : "Michigan House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 110,
+                "republican_seats" : 58,
+                "democrat_seats" : 52
+            },
+            "upper_house" : {
+                "name" : "Michigan Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 38,
+                "republican_seats" : 20,
+                "democrat_seats" : 18
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Michigan",
+            "party" : "Democrat"
+        }
+    },
+    "Minnesota" : {
+        "legislature" : {
+            "name" : "Minnesota Legislature",
+            "lower_house" : {
+                "name" : "Minnesota House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 134,
+                "republican_seats" : 67,
+                "democrat_seats" : 67
+            },
+            "upper_house" : {
+                "name" : "Minnesota Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 67,
+                "republican_seats" : 34,
+                "democrat_seats" : 33
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Minnesota",
+            "party" : "Democrat"
+        }
+    },
+    "Mississippi" : {
+        "legislature" : {
+            "name" : "Mississippi Legislature",
+            "lower_house" : {
+                "name" : "Mississippi House of Representatives",
+                "title" : "Representative",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 122,
+                "republican_seats" : 79,
+                "democrat_seats" : 41
+            },
+            "upper_house" : {
+                "name" : "Mississippi State Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2027,
+                "total_seats" : 52,
+                "republican_seats" : 36,
+                "democrat_seats" : 16
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Mississippi",
+            "party" : "Republican"
+        }
+    },
+    "Missouri" : {
+        "legislature" : {
+            "name" : "Missouri General Assembly",
+            "lower_house" : {
+                "name" : "Missouri House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 163,
+                "republican_seats" : 111,
+                "democrat_seats" : 52
+            },
+            "upper_house" : {
+                "name" : "Missouri Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 34,
+                "republican_seats" : 24,
+                "democrat_seats" : 10
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Missouri",
+            "party" : "Republican"
+        }
+    },
+    "Montana" : {
+        "legislature" : {
+            "name" : "Montana State Legislature",
+            "lower_house" : {
+                "name" : "Montana House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 100,
+                "republican_seats" : 58,
+                "democrat_seats" : 42
+            },
+            "upper_house" : {
+                "name" : "Montana State Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 50,
+                "republican_seats" : 32,
+                "democrat_seats" : 18
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Montana",
+            "party" : "Republican"
+        }
+    },
+    "Nebraska" : {
+        "legislature" : {
+            "name" : "Nebraska Legislature",
+            "title" : "Senator",
+            "term" : 4,
+            "next_election" : 2026,
+            "total_seats" : 49,
+            "republican_seats" : 33,
+            "democrat_seats" : 15
+        },
+        "governorship" : {
+            "title" : "Governor of Nebraska",
+            "party" : "Republican"
+        }
+    },
+    "Nevada" : {
+        "legislature" : {
+            "name" : "Nevada Legislature",
+            "lower_house" : {
+                "name" : "Nevada Assembly",
+                "title" : "Member",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 42,
+                "republican_seats" : 15,
+                "democrat_seats" : 27
+            },
+            "upper_house" : {
+                "name" : "Nevada Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 21,
+                "republican_seats" : 8,
+                "democrat_seats" : 13
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Nevada",
+            "party" : "Republican"
+        }
+    },
+    "New Hampshire" : {
+        "legislature" : {
+            "name" : "General Court of New Hampshire",
+            "lower_house" : {
+                "name" : "New Hampshire House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 400,
+                "republican_seats" : 220,
+                "democrat_seats" : 178
+            },
+            "upper_house" : {
+                "name" : "New Hampshire State Senate",
+                "title" : "Senator",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 24,
+                "republican_seats" : 16,
+                "democrat_seats" : 8
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of New Hampshire",
+            "party" : "Republican"
+        }
+    },
+    "New Jersey" : {
+        "legislature" : {
+            "name" : "New Jersey Legislature",
+            "lower_house" : {
+                "name" : "New Jersey General Assembly",
+                "title" : "Member",
+                "term" : 2,
+                "next_election" : 2025,
+                "total_seats" : 80,
+                "republican_seats" : 28,
+                "democrat_seats" : 52
+            },
+            "upper_house" : {
+                "name" : "New Jersey Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2027,
+                "total_seats" : 40,
+                "republican_seats" : 15,
+                "democrat_seats" : 25
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of New Jersey",
+            "party" : "Democrat"
+        }
+    },
+    "New Mexico" : {
+        "legislature" : {
+            "name" : "New Mexico Legislature",
+            "lower_house" : {
+                "name" : "New Mexico House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 70,
+                "republican_seats" : 26,
+                "democrat_seats" : 44
+            },
+            "upper_house" : {
+                "name" : "New Mexico Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2028,
+                "total_seats" : 42,
+                "republican_seats" : 16,
+                "democrat_seats" : 26
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of New Mexico",
+            "party" : "Democrat"
+        }
+    },
+    "New York" : {
+        "legislature" : {
+            "name" : "New York State Legislature",
+            "lower_house" : {
+                "name" : "New York State Assembly",
+                "title" : "Member",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 150,
+                "republican_seats" : 47,
+                "democrat_seats" : 103
+            },
+            "upper_house" : {
+                "name" : "New York State Senate",
+                "title" : "Senator",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 63,
+                "republican_seats" : 41,
+                "democrat_seats" : 22
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of New York",
+            "party" : "Democrat"
+        }
+    },
+    "North Carolina" : {
+        "legislature" : {
+            "name" : "North Carolina General Assembly",
+            "lower_house" : {
+                "name" : "North Carolina House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 120,
+                "republican_seats" : 71,
+                "democrat_seats" : 49
+            },
+            "upper_house" : {
+                "name" : "North Carolina Senate",
+                "title" : "Senator",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 50,
+                "republican_seats" : 30,
+                "democrat_seats" : 20
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of North Carolina",
+            "party" : "Democrat"
+        }
+    },
+    "North Dakota" : {
+        "legislature" : {
+            "name" : "North Dakota Legislative Assembly",
+            "lower_house" : {
+                "name" : "North Dakota House of Representatives",
+                "title" : "Representative",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 94,
+                "republican_seats" : 83,
+                "democrat_seats" : 11
+            },
+            "upper_house" : {
+                "name" : "North Dakota State Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 47,
+                "republican_seats" : 42,
+                "democrat_seats" : 5
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of North Dakota",
+            "party" : "Republican"
+        }
+    },
+    "Northern Mariana Islands" : {
+        "legislature" : {
+            "name" : "Northern Mariana Islands Commonwealth Legislature",
+            "lower_house" : {
+                "name" : "Nothern Mariana Islands House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 20,
+                "republican_seats" : 2,
+                "democrat_seats" : 2
+            },
+            "upper_house" : {
+                "name" : "Northern Mariana Islands Senate",
+                "title" : "Senators",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 9,
+                "republican_seats" : 4,
+                "democrat_seats" : 2
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of the Northern Mariana Islands",
+            "party" : "Independent"
+        }
+    },
+    "Ohio" : {
+        "legislature" : {
+            "name" : "Ohio General Assembly",
+            "lower_house" : {
+                "name" : "Ohio House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 99,
+                "republican_seats" : 65,
+                "democrat_seats" : 34
+            },
+            "upper_house" : {
+                "name" : "Ohio Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 33,
+                "republican_seats" : 24,
+                "democrat_seats" : 9
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Ohio",
+            "party" : "Republican"
+        }
+    },
+    "Oklahoma" : {
+        "legislature" : {
+            "name" : "Legislature of the State of Oklahoma",
+            "lower_house" : {
+                "name" : "Oklahoma House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 101,
+                "republican_seats" : 81,
+                "democrat_seats" : 20
+            },
+            "upper_house" : {
+                "name" : "Oklahoma Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 48,
+                "republican_seats" : 40,
+                "democrat_seats" : 8
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Oklahoma",
+            "party" : "Republican"
+        }
+    },
+    "Oregon" : {
+        "legislature" : {
+            "name" : "Oregon Legislative Assembly",
+            "lower_house" : {
+                "name" : "Oregon House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 60,
+                "republican_seats" : 23,
+                "democrat_seats" : 37
+            },
+            "upper_house" : {
+                "name" : "Oregon State Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 30,
+                "republican_seats" : 12,
+                "democrat_seats" : 18
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Oregon",
+            "party" : "Democrat"
+        }
+    },
+    "Pennsylvania" : {
+        "legislature" : {
+            "name" : "Pennsylvania General Assembly",
+            "lower_house" : {
+                "name" : "Pennsylvania House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 203,
+                "republican_seats" : 101,
+                "democrat_seats" : 102
+            },
+            "upper_house" : {
+                "name" : "Pennsylvania State Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 50,
+                "republican_seats" : 27,
+                "democrat_seats" : 23
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Pennsylvania",
+            "party" : "Democrat"
+        }
+    },
+    "Puerto Rico" : {
+        "legislature" : {
+            "name" : "Legislative Assembly of Puerto Rico",
+            "lower_house" : {
+                "name" : "House of Representatives of Puerto Rico",
+                "title" : "Representative",
+                "term" : 4,
+                "next_election" : 2028,
+                "total_seats" : 51,
+                "republican_seats" : 0,
+                "democrat_seats" : 0
+            },
+            "upper_house" : {
+                "name" : "Senate of Puerto Rico",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2028,
+                "total_seats" : 20,
+                "republican_seats" : 0,
+                "democrat_seats" : 0
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Puerto Rico",
+            "party" : "New Progressive"
+        }
+    },
+    "Rhode Island" : {
+        "legislature" : {
+            "name" : "State of Rhode Island General Assembly",
+            "lower_house" : {
+                "name" : "Rhode Island House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 75,
+                "republican_seats" : 10,
+                "democrat_seats" : 64
+            },
+            "upper_house" : {
+                "name" : "Rhode Island Senate",
+                "title" : "Senator",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 38,
+                "republican_seats" : 4,
+                "democrat_seats" : 34
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Rhode Island",
+            "party" : "Democrat"
+        }
+    },
+    "South Carolina" : {
+        "legislature" : {
+            "name" : "South Carolina General Assembly",
+            "lower_house" : {
+                "name" : "South Carolina House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 124,
+                "republican_seats" : 88,
+                "democrat_seats" : 36
+            },
+            "upper_house" : {
+                "name" : "South Carolina State Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2028,
+                "total_seats" : 46,
+                "republican_seats" : 34,
+                "democrat_seats" : 12
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of South Carolina",
+            "party" : "Republican"
+        }
+    },
+    "South Dakota" : {
+        "legislature" : {
+            "name" : "South Dakota Legislature",
+            "lower_house" : {
+                "name" : "South Dakota House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 70,
+                "republican_seats" : 65,
+                "democrat_seats" : 5
+            },
+            "upper_house" : {
+                "name" : "South Dakota Senate",
+                "title" : "Senator",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 35,
+                "republican_seats" : 32,
+                "democrat_seats" : 3
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of South Dakota",
+            "party" : "Republican"
+        }
+    },
+    "Tennessee" : {
+        "legislature" : {
+            "name" : "Tennessee General Assembly",
+            "lower_house" : {
+                "name" : "Tennessee House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 99,
+                "republican_seats" : 75,
+                "democrat_seats" : 24
+            },
+            "upper_house" : {
+                "name" : "Tennessee Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 33,
+                "republican_seats" : 27,
+                "democrat_seats" : 6
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Tennessee",
+            "party" : "Republican"
+        }
+    },
+    "Texas" : {
+        "legislature" : {
+            "name" : "Texas State Legislature",
+            "lower_house" : {
+                "name" : "Texas House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 150,
+                "republican_seats" : 88,
+                "democrat_seats" : 62
+            },
+            "upper_house" : {
+                "name" : "Texas Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 31,
+                "republican_seats" : 20,
+                "democrat_seats" : 11
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Texas",
+            "party" : "Republican"
+        }
+    },
+    "U.S. Virgin Islands" : {
+        "legislature" : {
+            "name" : "Legislature of the United States Virgin Islands",
+            "title" : "Senator",
+            "term" : 2,
+            "next_election" : 2026,
+            "total_seats" : 15,
+            "republican_seats" : 0,
+            "democrat_seats" : 12
+        },
+        "governorship" : {
+            "title" : "Governor of the United States Virgin Islands",
+            "party" : "Democrat"
+        }
+    },
+    "Utah" : {
+        "legislature" : {
+            "name" : "Utah State Legislature",
+            "lower_house" : {
+                "name" : "Utah House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 75,
+                "republican_seats" : 61,
+                "democrat_seats" : 14
+            },
+            "upper_house" : {
+                "name" : "Utah State Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 29,
+                "republican_seats" : 22,
+                "democrat_seats" : 6
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Utah",
+            "party" : "Republican"
+        }
+    },
+    "Vermont" : {
+        "legislature" : {
+            "name" : "Vermont General Assembly",
+            "lower_house" : {
+                "name" : "Vermont House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 150,
+                "republican_seats" : 56,
+                "democrat_seats" : 87
+            },
+            "upper_house" : {
+                "name" : "Vermont Senate",
+                "title" : "Senator",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 30,
+                "republican_seats" : 13,
+                "democrat_seats" : 16
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Vermont",
+            "party" : "Republican"
+        }
+    },
+    "Virginia" : {
+        "legislature" : {
+            "name" : "Virginia General Assembly",
+            "lower_house" : {
+                "name" : "Virginia House of Delegates",
+                "title" : "Member",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 100,
+                "republican_seats" : 49,
+                "democrat_seats" : 51
+            },
+            "upper_house" : {
+                "name" : "Virginia Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2027,
+                "total_seats" : 40,
+                "republican_seats" : 19,
+                "democrat_seats" : 21
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Virginia",
+            "party" : "Republican"
+        }
+    },
+    "Washington" : {
+        "legislature" : {
+            "name" : "Washington State Legislature",
+            "lower_house" : {
+                "name" : "Washington House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 98,
+                "republican_seats" : 39,
+                "democrat_seats" : 59
+            },
+            "upper_house" : {
+                "name" : "Washington State Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 49,
+                "republican_seats" : 19,
+                "democrat_seats" : 30
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Washington",
+            "party" : "Democrat"
+        }
+    },
+    "West Virginia" : {
+        "legislature" : {
+            "name" : "West Virginia Legislature",
+            "lower_house" : {
+                "name" : "West Virginia House of Delegates",
+                "title" : "Member",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 100,
+                "republican_seats" : 91,
+                "democrat_seats" : 9
+            },
+            "upper_house" : {
+                "name" : "West Virginia Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 34,
+                "republican_seats" : 32,
+                "democrat_seats" : 2
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of West Virginia",
+            "party" : "Republican"
+        }
+    },
+    "Wisconsin" : {
+        "legislature" : {
+            "name" : "Wisconsin Legislature",
+            "lower_house" : {
+                "name" : "Wisconsin State Assembly",
+                "title" : "Member",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 99,
+                "republican_seats" : 54,
+                "democrat_seats" : 45
+            },
+            "upper_house" : {
+                "name" : "Wisconsin Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 33,
+                "republican_seats" : 18,
+                "democrat_seats" : 15
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Wisconsin",
+            "party" : "Democrat"
+        }
+    },
+    "Wyoming" : {
+        "legislature" : {
+            "name" : "Wyoming State Legislature",
+            "lower_house" : {
+                "name" : "Wyoming House of Representatives",
+                "title" : "Representative",
+                "term" : 2,
+                "next_election" : 2026,
+                "total_seats" : 62,
+                "republican_seats" : 56,
+                "democrat_seats" : 6
+            },
+            "upper_house" : {
+                "name" : "Wyoming Senate",
+                "title" : "Senator",
+                "term" : 4,
+                "next_election" : 2026,
+                "total_seats" : 31,
+                "republican_seats" : 29,
+                "democrat_seats" : 2
+            }
+        },
+        "governorship" : {
+            "title" : "Governor of Wyoming",
+            "party" : "Republican"
+        }
+    }
+}
