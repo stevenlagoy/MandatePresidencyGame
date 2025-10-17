@@ -30,7 +30,7 @@
         "democratic_qualification_threshold" : 0.15
     },
     "American Samoa" : {
-        "neighbors" : ["Guam", "Puerto Rico", "Virgin Islands"],
+        "neighbors" : ["Guam", "Puerto Rico", "U.S. Virgin Islands"],
 
         "republican_type" : "convention",
         "republican_district_allocation_rule" : "convention",
@@ -188,7 +188,7 @@
         "democratic_qualification_threshold" : 0.15
     },
     "Guam" : {
-        "neighbors" : ["American Samoa", "Puerto Rico", "Virgin Islands"],
+        "neighbors" : ["American Samoa", "Puerto Rico", "U.S. Virgin Islands"],
 
         "republican_type" : "convention",
         "republican_district_allocation_rule" : "unallocated",
@@ -273,6 +273,7 @@
         "republican_qualification_threshold" : 0,
         "republican_winner_take_all_threshold" : 1,
 
+        "democratic_prewindow" : true,
         "democratic_type" : "closed party primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
@@ -645,7 +646,7 @@
         "democratic_qualification_threshold" : 0.15
     },
     "Puerto Rico" : {
-        "neighbors" : ["American Samoa", "Guam", "Virgin Islands"],
+        "neighbors" : ["American Samoa", "Guam", "U.S. Virgin Islands"],
 
         "republican_type" : "party primary",
         "republican_district_allocation_rule" : "proportional triggered",
@@ -767,7 +768,7 @@
         "democratic_at_large_allocation_rule" : "proportional",
         "democratic_qualification_threshold" : 0.15
     },
-    "Virgin Islands" : {
+    "U.S. Virgin Islands" : {
         "neighbors" : ["American Samoa", "Guam", "Puerto Rico"],
 
         "republican_type" : "closed caucus",
