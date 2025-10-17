@@ -24,6 +24,15 @@
         "governorship" : {
             "title" : "Governor of Alabama",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 7,
+            "republican_representatives" : 5,
+            "democrat_representatives" : 2
         }
     },
     "Alaska" : {
@@ -52,6 +61,15 @@
         "governorship" : {
             "title" : "Governor of Alaska",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 1,
+            "republican_representatives" : 1,
+            "democrat_representatives" : 0
         }
     },
     "American Samoa" : {
@@ -79,6 +97,11 @@
         "governorship" : {
             "title" : "Governor of American Samoa",
             "party" : "Republican"
+        },
+        "delegates" : {
+            "delegates" : 1,
+            "republican_delegates" : 1,
+            "democrat_delegates" : 0
         }
     },
     "Arizona" : {
@@ -106,6 +129,15 @@
         "governorship" : {
             "title" : "Governor of Arizona",
             "party" : "Democrat"
+        },
+        "senators" : {
+            "republican_senators" : 0,
+            "democrat_senators" : 2
+        },
+        "representatives" : {
+            "representatives" : 9,
+            "republican_representatives" : 6,
+            "democrat_representatives" : 3
         }
     },
     "Arkansas" : {
@@ -133,6 +165,15 @@
         "governorship" : {
             "title" : "Governor of Arkansas",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 4,
+            "republican_representatives" : 4,
+            "democrat_representatives" : 0
         }
     },
     "California" : {
@@ -160,6 +201,15 @@
         "governorship" : {
             "title" : "Governor of California",
             "party" : "Democrat"
+        },
+        "senators" : {
+            "republican_senators" : 0,
+            "democrat_senators" : 2
+        },
+        "representatives" : {
+            "representatives" : 52,
+            "republican_representatives" : 9,
+            "democrat_representatives" : 43
         }
     },
     "Colorado" : {
@@ -187,6 +237,15 @@
         "governorship" : {
             "title" : "Governor of Colorado",
             "party" : "Democrat"
+        },
+        "senators" : {
+            "republican_senators" : 0,
+            "democrat_senators" : 2
+        },
+        "representatives" : {
+            "representatives" : 8,
+            "republican_representatives" : 4,
+            "democrat_representatives" : 4
         }
     },
     "Connecticut" : {
@@ -214,6 +273,15 @@
         "governorship" : {
             "title" : "Governor of Connecticut",
             "party" : "Democrat"
+        },
+        "senators" : {
+            "republican_senators" : 0,
+            "democrat_senators" : 2
+        },
+        "representatives" : {
+            "representatives" : 5,
+            "republican_representatives" : 0,
+            "democrat_representatives" : 5
         }
     },
     "Delaware" : {
@@ -241,6 +309,15 @@
         "governorship" : {
             "title" : "Governor of Delaware",
             "party" : "Democrat"
+        },
+        "senators" : {
+            "republican_senators" : 0,
+            "democrat_senators" : 2
+        },
+        "representatives" : {
+            "representatives" : 1,
+            "republican_representatives" : 0,
+            "democrat_representatives" : 1
         }
     },
     "District of Columbia" : {
@@ -257,6 +334,11 @@
         "governorship" : {
             "title" : "Mayor of the District of Columbia",
             "party" : "Democrat"
+        },
+        "delegates" : {
+            "delegates" : 1,
+            "republican_delegates" : 0,
+            "democrat_delegates" : 1
         }
     },
     "Florida" : {
@@ -284,6 +366,15 @@
         "governorship" : {
             "title" : "Governor of Florida",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 28,
+            "republican_representatives" : 20,
+            "democrat_representatives" : 8
         }
     },
     "Georgia" : {
@@ -311,6 +402,15 @@
         "governorship" : {
             "title" : "Governor of Georgia",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 0,
+            "democrat_senators" : 2
+        },
+        "representatives" : {
+            "representatives" : 14,
+            "republican_representatives" : 9,
+            "democrat_representatives" : 5
         }
     },
     "Guam" : {
@@ -326,6 +426,11 @@
         "governorship" : {
             "title" : "Governor of Guam",
             "party" : "Democrat"
+        },
+        "delegates" : {
+            "delegates" : 1,
+            "republican_delegates" : 1,
+            "democrat_delegates" : 0
         }
     },
     "Hawaii" : {
@@ -353,6 +458,15 @@
         "governorship" : {
             "title" : "Governor of Hawaii",
             "party" : "Democrat"
+        },
+        "senators" : {
+            "republican_senators" : 0,
+            "democrat_senators" : 2
+        },
+        "representatives" : {
+            "representatives" : 2,
+            "republican_representatives" : 0,
+            "democrat_representatives" : 2
         }
     },
     "Idaho" : {
@@ -380,6 +494,15 @@
         "governorship" : {
             "title" : "Governor of Idaho",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 2,
+            "republican_representatives" : 2,
+            "democrat_representatives" : 0
         }
     },
     "Illinois" : {
@@ -408,6 +531,15 @@
         "governorship" : {
             "title" : "Governor of Illinois",
             "party" : "Democrat"
+        },
+        "senators" : {
+            "republican_senators" : 0,
+            "democrat_senators" : 2
+        },
+        "representatives" : {
+            "representatives" : 17,
+            "republican_representatives" : 3,
+            "democrat_representatives" : 14
         }
     },
     "Indiana" : {
@@ -435,6 +567,15 @@
         "governorship" : {
             "title" : "Governor of Indiana",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 9,
+            "republican_representatives" : 7,
+            "democrat_representatives" : 2
         }
     },
     "Iowa" : {
@@ -462,6 +603,15 @@
         "governorship" : {
             "title" : "Governor of Iowa",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 4,
+            "republican_representatives" : 4,
+            "democrat_representatives" : 0
         }
     },
     "Kansas" : {
@@ -489,6 +639,15 @@
         "governorship" : {
             "title" : "Governor of Kansas",
             "party" : "Democrat"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 4,
+            "republican_representatives" : 3,
+            "democrat_representatives" : 1
         }
     },
     "Kentucky" : {
@@ -516,6 +675,15 @@
         "governorship" : {
             "title" : "Governor of Kentucky",
             "party" : "Democrat"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 6,
+            "republican_representatives" : 5,
+            "democrat_representatives" : 1
         }
     },
     "Louisiana" : {
@@ -543,6 +711,15 @@
         "governorship" : {
             "title" : "Governor of Louisiana",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 6,
+            "republican_representatives" : 4,
+            "democrat_representatives" : 2
         }
     },
     "Maine" : {
@@ -570,6 +747,15 @@
         "governorship" : {
             "title" : "Governor of Maine",
             "party" : "Democrat"
+        },
+        "senators" : {
+            "republican_senators" : 1,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 2,
+            "republican_representatives" : 0,
+            "democrat_representatives" : 2
         }
     },
     "Maryland" : {
@@ -597,6 +783,15 @@
         "governorship" : {
             "title" : "Governor of Maryland",
             "party" : "Democrat"
+        },
+        "senators" : {
+            "republican_senators" : 0,
+            "democrat_senators" : 2
+        },
+        "representatives" : {
+            "representatives" : 8,
+            "republican_representatives" : 1,
+            "democrat_representatives" : 7
         }
     },
     "Massachusetts" : {
@@ -624,6 +819,15 @@
         "governorship" : {
             "title" : "Governor of Massachusetts",
             "party" : "Democrat"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 9,
+            "republican_representatives" : 0,
+            "democrat_representatives" : 9
         }
     },
     "Michigan" : {
@@ -651,6 +855,15 @@
         "governorship" : {
             "title" : "Governor of Michigan",
             "party" : "Democrat"
+        },
+        "senators" : {
+            "republican_senators" : 0,
+            "democrat_senators" : 2
+        },
+        "representatives" : {
+            "representatives" : 13,
+            "republican_representatives" : 7,
+            "democrat_representatives" : 6
         }
     },
     "Minnesota" : {
@@ -678,6 +891,15 @@
         "governorship" : {
             "title" : "Governor of Minnesota",
             "party" : "Democrat"
+        },
+        "senators" : {
+            "republican_senators" : 0,
+            "democrat_senators" : 2
+        },
+        "representatives" : {
+            "representatives" : 8,
+            "republican_representatives" : 4,
+            "democrat_representatives" : 4
         }
     },
     "Mississippi" : {
@@ -705,6 +927,15 @@
         "governorship" : {
             "title" : "Governor of Mississippi",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 4,
+            "republican_representatives" : 3,
+            "democrat_representatives" : 1
         }
     },
     "Missouri" : {
@@ -732,6 +963,15 @@
         "governorship" : {
             "title" : "Governor of Missouri",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 8,
+            "republican_representatives" : 6,
+            "democrat_representatives" : 2
         }
     },
     "Montana" : {
@@ -759,6 +999,15 @@
         "governorship" : {
             "title" : "Governor of Montana",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 2,
+            "republican_representatives" : 2,
+            "democrat_representatives" : 0
         }
     },
     "Nebraska" : {
@@ -774,6 +1023,15 @@
         "governorship" : {
             "title" : "Governor of Nebraska",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 3,
+            "republican_representatives" : 3,
+            "democrat_representatives" : 0
         }
     },
     "Nevada" : {
@@ -801,6 +1059,15 @@
         "governorship" : {
             "title" : "Governor of Nevada",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 0,
+            "democrat_senators" : 2
+        },
+        "representatives" : {
+            "representatives" : 4,
+            "republican_representatives" : 1,
+            "democrat_representatives" : 3
         }
     },
     "New Hampshire" : {
@@ -828,6 +1095,15 @@
         "governorship" : {
             "title" : "Governor of New Hampshire",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 0,
+            "democrat_senators" : 2
+        },
+        "representatives" : {
+            "representatives" : 2,
+            "republican_representatives" : 0,
+            "democrat_representatives" : 2
         }
     },
     "New Jersey" : {
@@ -855,6 +1131,15 @@
         "governorship" : {
             "title" : "Governor of New Jersey",
             "party" : "Democrat"
+        },
+        "senators" : {
+            "republican_senators" : 0,
+            "democrat_senators" : 2
+        },
+        "representatives" : {
+            "representatives" : 12,
+            "republican_representatives" : 3,
+            "democrat_representatives" : 9
         }
     },
     "New Mexico" : {
@@ -882,6 +1167,15 @@
         "governorship" : {
             "title" : "Governor of New Mexico",
             "party" : "Democrat"
+        },
+        "senators" : {
+            "republican_senators" : 0,
+            "democrat_senators" : 2
+        },
+        "representatives" : {
+            "representatives" : 3,
+            "republican_representatives" : 0,
+            "democrat_representatives" : 3
         }
     },
     "New York" : {
@@ -909,6 +1203,15 @@
         "governorship" : {
             "title" : "Governor of New York",
             "party" : "Democrat"
+        },
+        "senators" : {
+            "republican_senators" : 0,
+            "democrat_senators" : 2
+        },
+        "representatives" : {
+            "representatives" : 26,
+            "republican_representatives" : 7,
+            "democrat_representatives" : 19
         }
     },
     "North Carolina" : {
@@ -936,6 +1239,15 @@
         "governorship" : {
             "title" : "Governor of North Carolina",
             "party" : "Democrat"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 14,
+            "republican_representatives" : 10,
+            "democrat_representatives" : 4
         }
     },
     "North Dakota" : {
@@ -963,6 +1275,15 @@
         "governorship" : {
             "title" : "Governor of North Dakota",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 1,
+            "republican_representatives" : 1,
+            "democrat_representatives" : 0
         }
     },
     "Northern Mariana Islands" : {
@@ -990,6 +1311,11 @@
         "governorship" : {
             "title" : "Governor of the Northern Mariana Islands",
             "party" : "Independent"
+        },
+        "delegates" : {
+            "delegates" : 1,
+            "republican_delegates" : 1,
+            "democrat_delegates" : 0
         }
     },
     "Ohio" : {
@@ -1017,6 +1343,15 @@
         "governorship" : {
             "title" : "Governor of Ohio",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 15,
+            "republican_representatives" : 10,
+            "democrat_representatives" : 5
         }
     },
     "Oklahoma" : {
@@ -1044,6 +1379,15 @@
         "governorship" : {
             "title" : "Governor of Oklahoma",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 5,
+            "republican_representatives" : 5,
+            "democrat_representatives" : 0
         }
     },
     "Oregon" : {
@@ -1071,6 +1415,15 @@
         "governorship" : {
             "title" : "Governor of Oregon",
             "party" : "Democrat"
+        },
+        "senators" : {
+            "republican_senators" : 0,
+            "democrat_senators" : 2
+        },
+        "representatives" : {
+            "representatives" : 6,
+            "republican_representatives" : 1,
+            "democrat_representatives" : 5
         }
     },
     "Pennsylvania" : {
@@ -1098,6 +1451,15 @@
         "governorship" : {
             "title" : "Governor of Pennsylvania",
             "party" : "Democrat"
+        },
+        "senators" : {
+            "republican_senators" : 1,
+            "democrat_senators" : 1
+        },
+        "representatives" : {
+            "representatives" : 17,
+            "republican_representatives" : 10,
+            "democrat_representatives" : 7
         }
     },
     "Puerto Rico" : {
@@ -1125,6 +1487,11 @@
         "governorship" : {
             "title" : "Governor of Puerto Rico",
             "party" : "New Progressive"
+        },
+        "delegates" : {
+            "delegates" : 1,
+            "republican_delegates" : 0,
+            "democrat_delegates" : 1
         }
     },
     "Rhode Island" : {
@@ -1152,6 +1519,15 @@
         "governorship" : {
             "title" : "Governor of Rhode Island",
             "party" : "Democrat"
+        },
+        "senators" : {
+            "republican_senators" : 0,
+            "democrat_senators" : 2
+        },
+        "representatives" : {
+            "representatives" : 2,
+            "republican_representatives" : 0,
+            "democrat_representatives" : 2
         }
     },
     "South Carolina" : {
@@ -1179,6 +1555,15 @@
         "governorship" : {
             "title" : "Governor of South Carolina",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 7,
+            "republican_representatives" : 6,
+            "democrat_representatives" : 1
         }
     },
     "South Dakota" : {
@@ -1206,6 +1591,15 @@
         "governorship" : {
             "title" : "Governor of South Dakota",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 1,
+            "republican_representatives" : 1,
+            "democrat_representatives" : 0
         }
     },
     "Tennessee" : {
@@ -1233,6 +1627,15 @@
         "governorship" : {
             "title" : "Governor of Tennessee",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 9,
+            "republican_representatives" : 8,
+            "democrat_representatives" : 1
         }
     },
     "Texas" : {
@@ -1260,6 +1663,15 @@
         "governorship" : {
             "title" : "Governor of Texas",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 38,
+            "republican_representatives" : 25,
+            "democrat_representatives" : 13
         }
     },
     "U.S. Virgin Islands" : {
@@ -1275,6 +1687,11 @@
         "governorship" : {
             "title" : "Governor of the United States Virgin Islands",
             "party" : "Democrat"
+        },
+        "delegates" : {
+            "delegates" : 1,
+            "republican_delegates" : 0,
+            "democrat_delegates" : 1
         }
     },
     "Utah" : {
@@ -1302,6 +1719,15 @@
         "governorship" : {
             "title" : "Governor of Utah",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 4,
+            "republican_representatives" : 4,
+            "democrat_representatives" : 0
         }
     },
     "Vermont" : {
@@ -1329,6 +1755,15 @@
         "governorship" : {
             "title" : "Governor of Vermont",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 0,
+            "democrat_senators" : 1
+        },
+        "representatives" : {
+            "representatives" : 1,
+            "republican_representatives" : 0,
+            "democrat_representatives" : 1
         }
     },
     "Virginia" : {
@@ -1356,6 +1791,15 @@
         "governorship" : {
             "title" : "Governor of Virginia",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 0,
+            "democrat_senators" : 2
+        },
+        "representatives" : {
+            "representatives" : 11,
+            "republican_representatives" : 5,
+            "democrat_representatives" : 6
         }
     },
     "Washington" : {
@@ -1383,6 +1827,15 @@
         "governorship" : {
             "title" : "Governor of Washington",
             "party" : "Democrat"
+        },
+        "senators" : {
+            "republican_senators" : 0,
+            "democrat_senators" : 2
+        },
+        "representatives" : {
+            "representatives" : 10,
+            "republican_representatives" : 2,
+            "democrat_representatives" : 8
         }
     },
     "West Virginia" : {
@@ -1410,6 +1863,15 @@
         "governorship" : {
             "title" : "Governor of West Virginia",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 2,
+            "republican_representatives" : 2,
+            "democrat_representatives" : 0
         }
     },
     "Wisconsin" : {
@@ -1437,6 +1899,15 @@
         "governorship" : {
             "title" : "Governor of Wisconsin",
             "party" : "Democrat"
+        },
+        "senators" : {
+            "republican_senators" : 1,
+            "democrat_senators" : 1
+        },
+        "representatives" : {
+            "representatives" : 8,
+            "republican_representatives" : 6,
+            "democrat_representatives" : 2
         }
     },
     "Wyoming" : {
@@ -1464,6 +1935,15 @@
         "governorship" : {
             "title" : "Governor of Wyoming",
             "party" : "Republican"
+        },
+        "senators" : {
+            "republican_senators" : 2,
+            "democrat_senators" : 0
+        },
+        "representatives" : {
+            "representatives" : 1,
+            "republican_representatives" : 1,
+            "democrat_representatives" : 0
         }
     }
 }
