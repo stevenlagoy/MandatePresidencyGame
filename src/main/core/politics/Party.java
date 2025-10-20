@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Set;
 
 import main.core.characters.Character;
+import main.core.politics.conventions.Convention;
 
 import java.util.HashSet;
 
