@@ -2,17 +2,17 @@
  * Character.java
  * Steven LaGoy
  * Created: 28 August 2024 at 1:07 PM
- * Modified: 31 May 2025
+ * Modified: 20 October 2025
  */
 
 package main.core.characters;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 
 // IMPORTS ----------------------------------------------------------------------------------------
 
 // Standard Library Imports
-import java.util.Date;
 import java.util.List;
 
 // Internal Imports
@@ -53,7 +53,7 @@ public class Character implements Repr<Character>, Jsonic<Character> {
     /** Municipality in which this Character currently resides (primary residence). */
     private Municipality residenceMunicipality;
     /** Date on which this character was born. @see #getAge() */
-    private Date birthday;
+    private LocalDate birthday;
     /** CharacterModel object to be rendered for this Character. */
     private CharacterModel appearance;
 
@@ -88,7 +88,7 @@ public class Character implements Repr<Character>, Jsonic<Character> {
         this.birthplaceMunicipality      = other.birthplaceMunicipality;
         this.currentLocationMunicipality = other.currentLocationMunicipality;
         this.residenceMunicipality       = other.residenceMunicipality;
-        this.birthday                    = (Date) other.birthday.clone();
+        this.birthday                    = other.birthday;
         this.appearance                  = new CharacterModel(other.appearance);
 
         if (addToCharacterList) Main.Engine().CharacterManager().addCharacter(this);
@@ -138,7 +138,7 @@ public class Character implements Repr<Character>, Jsonic<Character> {
      * @param birthday Date on which this character was born.
      * @param appearance CharacterModel object to be rendered for this Character.
      */
-    public Character(Demographics demographics, Name name, Municipality birthplaceMunicipality, Municipality residenceMunicipality, Date birthday, CharacterModel appearance) {
+    public Character(Demographics demographics, Name name, Municipality birthplaceMunicipality, Municipality residenceMunicipality, LocalDate birthday, CharacterModel appearance) {
         this(demographics, name, birthplaceMunicipality, residenceMunicipality, residenceMunicipality, birthday, appearance);
     }
 
@@ -153,7 +153,7 @@ public class Character implements Repr<Character>, Jsonic<Character> {
      * @param birthday Date on which this character was born.
      * @param appearance CharacterModel object to be rendered for this Character.
      */
-    public Character(Demographics demographics, Name name, Municipality birthplaceMunicipality, Municipality currentLocationMunicipality, Municipality residenceMunicipality, Date birthday, CharacterModel appearance) {
+    public Character(Demographics demographics, Name name, Municipality birthplaceMunicipality, Municipality currentLocationMunicipality, Municipality residenceMunicipality, LocalDate birthday, CharacterModel appearance) {
         this.demographics                = demographics                != null ? demographics                : Main.Engine().DemographicsManager().generateWeightedDemographics();
         this.name                        = name                        != null ? name                        : Main.Engine().NameManager().generateName(this.demographics);
         this.birthplaceMunicipality      = birthplaceMunicipality      != null ? birthplaceMunicipality      : Main.Engine().MapManager().selectMunicipality(this.demographics);
@@ -208,14 +208,11 @@ public class Character implements Repr<Character>, Jsonic<Character> {
     }
 
     // Birthday Date, Age
-    public Date getBirthday() {
+    public LocalDate getBirthday() {
         return this.birthday;
     }
-    public void setBirthday(Date birthday) {
+    public void setBirthday(LocalDate birthday) {
         this.birthday = birthday;
-    }
-    public void setBirthday(long milliseconds) {
-        this.birthday = new Date(milliseconds);
     }
     public int getAge() {
         return Main.Engine().TimeManager().yearsAgo(this.birthday);
@@ -251,7 +248,7 @@ public class Character implements Repr<Character>, Jsonic<Character> {
             this.birthplaceMunicipality.getNameWithState(),
             this.currentLocationMunicipality.getNameWithState(),
             this.residenceMunicipality.getNameWithState(),
-            this.birthday.getTime(),
+            this.birthday.toString(),
             this.appearance.toRepr()
             );
         return repr;

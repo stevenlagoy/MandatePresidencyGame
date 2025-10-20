@@ -2,15 +2,17 @@
  * TimeManager.java
  * Steven LaGoy
  * Created: 10 December 2024 at 8:21 AM
- * Modified: 26 August 2025
+ * Modified: 20 October 2025
  */
 
 package main.core;
 
 import java.lang.reflect.Field;
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
 import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
@@ -26,9 +28,17 @@ public class TimeManager extends Manager {
     public static final int MAX_SAFE_YEAR = 292_278_994;
     
     /** Date on which the game starts. Wednesday, January 20, 2027 12:00:00 PM GMT-05:00 */
-    public static final Date startDate = new Date(1800464400000L);
+    public static final ZonedDateTime startDate = ZonedDateTime.of(
+        LocalDate.of(2027, 1, 20),
+        LocalTime.of(12, 0),
+        ZoneId.of("America/New_York")
+    );
     /** Date on which the game ends. Saturday, January 20, 2029 12:00:00 PM GMT-05:00 */
-    public static final Date endDate = new Date(1863622800000L);
+    public static final ZonedDateTime endDate = ZonedDateTime.of(
+        LocalDate.of(2029, 1, 20),
+        LocalTime.of(12, 0),
+        ZoneId.of("America/New_York")
+    );
     
     /** The Epoch, 1970. */
     public static final int epochYear = 1970;
@@ -99,6 +109,7 @@ public class TimeManager extends Manager {
         31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31,
         31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31
     };
+    public static final String[] dayNames = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
     /** Names of each month. Lookup from LANG_system_text. */
     public static final String[] monthNames = {"january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"};
     /** Abbreviations of each month. Lookup from LANG_system_text. */
@@ -164,21 +175,14 @@ public class TimeManager extends Manager {
      * @param dateString The String to parse into a Date.
      * @return Parsed date, or {@code null} if unsuccessful.
      */
-    public static Date dateFromString(String dateString) {
+    public static LocalDate dateFromString(String dateString) {
         String[] dateParts = dateString.split("[-//]", 3);
         if (dateParts.length < 3) return null;
         int year = Integer.parseInt(dateParts[0]);
         int month = Integer.parseInt(dateParts[1]);
         int day = Integer.parseInt(dateParts[2]);
-        Calendar calendar = Calendar.getInstance();
-        calendar.set(Calendar.YEAR, year);
-        calendar.set(Calendar.MONTH, month - 1); // Calendar months are 0-indexed
-        calendar.set(Calendar.DAY_OF_MONTH, day);
-        calendar.set(Calendar.HOUR_OF_DAY, 0);
-        calendar.set(Calendar.MINUTE, 0);
-        calendar.set(Calendar.SECOND, 0);
-        calendar.set(Calendar.MILLISECOND, 0);
-        return calendar.getTime();
+
+        return LocalDate.of(year, month, day);
     }
 
     /**
@@ -242,26 +246,6 @@ public class TimeManager extends Manager {
 
         return result;
     }
-
-    /**
-     * Calculates the month index for the given time. (1-12)
-     * @param time The time to calculate the month index for.
-     * @return The month index for the given time.
-     */
-    public static int calculateMonthIndex(long time) {
-        long elapsed = time - startDate.getTime();
-        long totalMonths = 0;
-
-        for(int i = 0; i < monthsDurationsMillis.length; i++) {
-            if (elapsed < monthsDurationsMillis[i]) {
-                return i;
-            }
-            elapsed -= monthsDurationsMillis[i];
-            totalMonths++;
-        }
-
-        return totalMonths >= monthsDurationsMillis.length ? monthsDurationsMillis.length - 1 : (int) totalMonths;
-    }
     
     /**
      * Calculates the amount of time in between two dates.
@@ -269,8 +253,8 @@ public class TimeManager extends Manager {
      * @param endDate The end date to calculate the time unil.
      * @return The amount of time in milliseconds between the two dates.
      */
-    public static long millisecondsBetween(Date startDate, Date endDate) {
-        return Math.abs(endDate.getTime() - startDate.getTime());
+    public static long millisecondsBetween(ZonedDateTime startDate, ZonedDateTime endDate) {
+        return Math.abs(endDate.toInstant().toEpochMilli() - startDate.toInstant().toEpochMilli());
     }
 
     /**
@@ -278,42 +262,95 @@ public class TimeManager extends Manager {
      * @param date The date to calculate the time since.
      * @return The amount of time in milliseconds between the current game date and the given date.
      */
-    public long millisecondsAgo(Date date) {
+    public long millisecondsAgo(ZonedDateTime date) {
         return millisecondsBetween(currentGameDate, date);
     }
 
+    public int yearsBetween(LocalDate startDate, LocalDate endDate) {
+        return Math.abs(startDate.getYear() - endDate.getYear());
+    }
     /**
      * Calculates the number of years between the current game date and the given date.
      * @param date A past date to use in the calculation.
      * @return The number of years (whole number) ago which the date represents.
      * @see #millisecondsAgo(Date)
      */
-    public int yearsAgo(Date date) {
-        return (int) (millisecondsAgo(date) / yearDuration);
+    public int yearsAgo(LocalDate date) {
+        return yearsBetween(date, currentGameDate.toLocalDate());
     }
 
-    /**
-     * Calculates the number of full years in between the current game date and the given year.
-     * @param yearsAgo The year to calculate the time since.
-     * @return The number of years between the current game date and the given year.
-     */
-    public int yearYearsAgo(double yearsAgo) {
-        Calendar calendar = Calendar.getInstance();
-        calendar.setTime(currentGameDate);
 
-        // Subtract the number of years (rounded to an integer)
-        int targetYear = calendar.get(Calendar.YEAR) - (int) Math.floor(yearsAgo);
-        if (targetYear < MIN_SAFE_YEAR || targetYear > MAX_SAFE_YEAR) {
-            Logger.log("DATE OUT OF BOUNDS", String.format("The year requested, %s, is out of the accurate bounds of [1583,292278994].", targetYear), new Exception());
-            return -1;
+    /**
+     * Determine a date from a year, month, and day of the month.
+     * @param year Complete year (2020, 2028, etc) 
+     * @param month 1-indexed month (Jan = 1, Feb = 2, ..., Dec = 12)
+     * @param date Day of the month (1, 2, 3, ...)
+     * @return LocalDate with the year, month, and day of the month.
+     */
+    public LocalDate determineDate(int year, int month, int date) { 
+        return LocalDate.of(year, month, date);
+    }
+    /**
+     * Determine a date from a month and date. The Year is inferred to be the current game year.
+     * @param month 1-indexed month (Jan = 1, Feb = 2, ..., Dec = 12)
+     * @param date Day of the month (1, 2, 3, ...)
+     * @return LocalDate with the current game year, passed month, and passed day of the month.
+     */
+    public LocalDate determineDate(int month, int date) {
+        return LocalDate.of(currentGameDate.getYear(), month, date);
+    }
+    /**
+     * Get the date based on a year, month, day, and the order of the day in the month. I.E. "3rd Tuesday in April 2025"
+     * @param year
+     * @param month
+     * @param day Day of the week (Monday = 1, Tuesday = 2, ..., Sunday = 7)
+     * @param order
+     * @return
+     */
+    public LocalDate determineDate(int year, int month, int day, int order) {
+        int count = 0;
+
+        if (order == 0) {
+            throw new IllegalArgumentException("Cannot get date with an order of zero.");
         }
-        return targetYear;
+
+        // Loop forwards or backwards depending on sign of order
+        for (
+            int i = order > 0 ? 1 : monthsDurationsDays[month-1];
+            order > 0 ? i <= monthsDurationsDays[month-1] : i >= 1;
+            i = i + (order > 0 ? 1 : -1)
+        ) {
+            if (LocalDate.of(year, month, i).getDayOfWeek().getValue() == day) {
+                if (++count == Math.abs(order)) {
+                    return LocalDate.of(year, month, i);
+                }
+            }
+        }
+        throw new IllegalArgumentException("There is no " + NumberOperations.toOrdinal(order) + " " + dayNames[day] + " of " + monthNames[month] + " in " + year);
+    }
+
+    public LocalDate determineDateRelative(LocalDate relativeTo, int day, int order) {
+        if (order == 0) {
+            throw new IllegalArgumentException("Cannot get date with an order of zero.");
+        }
+        int count = 0;
+        for (
+            LocalDate candidate = LocalDate.of(relativeTo.getYear(), relativeTo.getMonthValue(), relativeTo.getDayOfMonth());
+            ;
+            candidate = candidate.plusDays(order > 0 ? 1 : -1)
+        ) {
+            if (candidate.getDayOfWeek().getValue() == day) {
+                if (++count == Math.abs(order)) {
+                    return candidate;
+                }
+            }
+        }
     }
 
     // INSTANCE VARIABLES -------------------------------------------------------------------------
 
     /** Current Date of Gameplay. */
-    private Date currentGameDate;
+    private ZonedDateTime currentGameDate;
 
     /** State of the Manager. */
     private ManagerState currentState;
@@ -323,7 +360,7 @@ public class TimeManager extends Manager {
     /** Create a new inactive DateManager. */
     public TimeManager() {
         currentState = ManagerState.INACTIVE;
-        currentGameDate = new Date(0);
+        currentGameDate = ZonedDateTime.of(startDate.toLocalDate(), startDate.toLocalTime(), startDate.getZone());
     }
 
     // MANAGER METHODS ----------------------------------------------------------------------------
@@ -334,8 +371,8 @@ public class TimeManager extends Manager {
         boolean successFlag = true;
         double startTime = Main.Engine().getProgramTime();
         Logger.log(String.format("%s starting at %f", this.getClass().getSimpleName(), startTime));
-        if (currentGameDate == null || currentGameDate.getTime() < startDate.getTime())
-            currentGameDate = new Date(startDate.getTime());
+        if (currentGameDate == null || !currentGameDate.equals(startDate))
+            currentGameDate = ZonedDateTime.of(startDate.toLocalDate(), startDate.toLocalTime(), startDate.getZone());
         currentState = successFlag ? ManagerState.ACTIVE : ManagerState.ERROR;
         double endTime = Main.Engine().getProgramTime(); 
         Logger.log(String.format("%s initialized %s at %f. Elapsed: %f", this.getClass().getSimpleName(), successFlag ? "successfully" : "unsuccessfully", endTime, endTime - startTime));
@@ -361,7 +398,7 @@ public class TimeManager extends Manager {
     // GETTERS AND SETTERS ------------------------------------------------------------------------
 
     // Current Date : Date
-    public Date getCurrentDate() {
+    public ZonedDateTime getCurrentDate() {
         return currentGameDate;
     }
     /**
@@ -369,32 +406,24 @@ public class TimeManager extends Manager {
      */
     public String getFormattedCurrentDate() {
         StringBuilder dateString = new StringBuilder();
-        Calendar calendar = Calendar.getInstance();
-        calendar.setTime(currentGameDate);
-        
+
         dateString.append(getCurrentYear()).append("-").append(getCurrentMonth()).append("-").append(getCurrentDay()).append("-").append(getFormattedCurrentTime().replace(":","-"));
         return dateString.toString();
     }
 
     // Current Year : int
     public int getCurrentYear() {
-        Calendar calendar = Calendar.getInstance();
-        calendar.setTime(currentGameDate);
-        return calendar.get(Calendar.YEAR);
+        return currentGameDate.getYear();
     }
 
     // Current Month : int
     public int getCurrentMonth() {
-        Calendar calendar = Calendar.getInstance();
-        calendar.setTime(currentGameDate);
-        return calendar.get(Calendar.MONTH) + 1; // Adding 1 since Calendar months are 0-based
+        return currentGameDate.getMonthValue();
     }
 
     // Current Day : int
     public int getCurrentDay() {
-        Calendar calendar = Calendar.getInstance();
-        calendar.setTime(currentGameDate);
-        return calendar.get(Calendar.DAY_OF_MONTH);
+        return currentGameDate.getDayOfMonth();
     }
 
     // Current Time
@@ -402,12 +431,11 @@ public class TimeManager extends Manager {
      * Get current game date day time in HH:MM:SS format.
      */
     public String getFormattedCurrentTime() {
-        Calendar calendar = Calendar.getInstance();
-        calendar.setTime(currentGameDate);
         return String.format("%02d:%02d:%02d", 
-            calendar.get(Calendar.HOUR_OF_DAY),
-            calendar.get(Calendar.MINUTE),
-            calendar.get(Calendar.SECOND));
+            currentGameDate.getHour(),
+            currentGameDate.getMinute(),
+            currentGameDate.getSecond()
+        );
     }
 
     // INCREMENT METHODS --------------------------------------------------------------------------
@@ -416,121 +444,85 @@ public class TimeManager extends Manager {
      * Increments the current game date by one second.
      */
     public boolean incrementSecond() {
-        long currentTime = currentGameDate.getTime();
-        long newTime = currentTime + secondDuration;
+        currentGameDate = currentGameDate.plusSeconds(1);
 
-        if (newTime > endDate.getTime()) return false;
-
-        currentGameDate.setTime(newTime);
-        return true;
+        return isPastEndDate();
     }
     /**
      * Increments the current game date by a quarter minute (15 secs).
      */
     public boolean incrementQuarterMinute() {
-        long currentTime = currentGameDate.getTime();
-        long newTime = currentTime + 15*secondDuration;
+        currentGameDate = currentGameDate.plusSeconds(15);
 
-        if (newTime > endDate.getTime()) return false;
-
-        currentGameDate.setTime(newTime);
-        return true;
+        return isPastEndDate();
     }
     /**
      * Increments the current game date by half a minute (30 secs).
      */
     public boolean incrementHalfMinute() {
-        long currentTime = currentGameDate.getTime();
-        long newTime = currentTime + 30*secondDuration;
+        currentGameDate = currentGameDate.plusSeconds(30);
 
-        if (newTime > endDate.getTime()) return false;
-
-        currentGameDate.setTime(newTime);
-        return true;
+        return isPastEndDate();
     }
     /**
      * Increments the current game date by one minute (60 secs).
      */
     public boolean incrementMinute() {
-        long currentTime = currentGameDate.getTime();
-        long newTime = currentTime + minuteDuration;
+        currentGameDate = currentGameDate.plusMinutes(1);
 
-        if (newTime > endDate.getTime()) return false;
-
-        currentGameDate.setTime(newTime);
-        return true;
+        return isPastEndDate();
     }
     /**
      * Increments the current game date by a quarter hour (15 mins).
      */
     public boolean incrementQuarterHour() {
-        long currentTime = currentGameDate.getTime();
-        long newTime = currentTime + 15*minuteDuration;
+        currentGameDate = currentGameDate.plusMinutes(15);
 
-        if (newTime > endDate.getTime()) return false;
-
-        currentGameDate.setTime(newTime);
-        return true;
+        return isPastEndDate();
     }
     /**
      * Increments the current game date by half an hour (30 mins).
      */
     public boolean incrementHalfHour() {
-        long currentTime = currentGameDate.getTime();
-        long newTime = currentTime + 30*minuteDuration;
+        currentGameDate = currentGameDate.plusMinutes(30);
 
-        if (newTime > endDate.getTime()) return false;
-
-        currentGameDate.setTime(newTime);
-        return true;
+        return isPastEndDate();
     }
     /**
      * Increments the current game date by one hour (60 mins).
      */
     public boolean incrementHour() {
-        long currentTime = currentGameDate.getTime();
-        long newTime = currentTime + hourDuration;
+        currentGameDate = currentGameDate.plusHours(1);
 
-        if (newTime > endDate.getTime()) return false;
-
-        currentGameDate.setTime(newTime);
-        return true;
+        return isPastEndDate();
     }
     /**
      * Increments the current game date by a quarter day (6 hours).
      */
     public boolean incrementQuarterDay() {
-        long currentTime = currentGameDate.getTime();
-        long newTime = currentTime + 3*hourDuration;
+        currentGameDate = currentGameDate.plusHours(6);
 
-        if (newTime > endDate.getTime()) return false;
-
-        currentGameDate.setTime(newTime);
-        return true;
+        return isPastEndDate();
     }
     /**
      * Increments the current game date by half a day (12 hours).
      */
     public boolean incrementHalfDay() {
-        long currentTime = currentGameDate.getTime();
-        long newTime = currentTime + 6*hourDuration;
+        currentGameDate = currentGameDate.plusHours(12);
 
-        if (newTime > endDate.getTime()) return false;
-
-        currentGameDate.setTime(newTime);
-        return true;
+        return isPastEndDate();
     }
     /**
      * Increments the current game date by one day (24 hours).
      */
     public boolean incrementDay() {
-        long currentTime = currentGameDate.getTime();
-        long newTime = currentTime + dayDuration;
+        currentGameDate = currentGameDate.plusDays(1);
 
-        if (newTime > endDate.getTime()) return false;
+        return isPastEndDate();
+    }
 
-        currentGameDate.setTime(newTime);
-        return true;
+    public boolean isPastEndDate() {
+        return currentGameDate.compareTo(endDate) > 0;
     }
 
     // REPRESENTATION METHODS ---------------------------------------------------------------------
