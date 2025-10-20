@@ -1,8 +1,8 @@
-package main.core.politics;
+package main.core.politics.conventions;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Caucus implements Convention {
+public class Caucus extends Convention {
     public static List<Primary> instances = new ArrayList<>();
 
     public boolean isClosed;
