@@ -2,21 +2,22 @@
  * PoliticalActor.java
  * Steven LaGoy
  * Created: 11 October 2024 at 5:16 PM
- * Modified: 31 May 2025
+ * Modified: 20 October 2025
  */
 
 package main.core.characters;
 
- // IMPORTS ---------------------------------------------------------------------------------------
+
+// IMPORTS ---------------------------------------------------------------------------------------
 
  // Standard Library Imports
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+ import java.time.LocalDate;
 
 // Internal Imports
 import core.JSONObject;
@@ -286,7 +287,7 @@ public class PoliticalActor extends Character implements HasPersonality {
      * @see Character#Character(Demographics, Name, Municipality, Municipality, Municipality, Date, CharacterModel)
      * @see #PoliticalActor(Character, int, Education, int[], List, Skills, List, Personality, Role)
      */
-    public PoliticalActor(Demographics demographics, Name name, Municipality birthplaceMunicipality, Municipality currentLocationMunicipality, Municipality residenceMunicipality, Date birthday, CharacterModel appearance, int cash, Education education, int[] alignments, List<Experience> experiences, Skills skills, List<Position> positions, Personality personality, Set<PoliticalRole> roles) {
+    public PoliticalActor(Demographics demographics, Name name, Municipality birthplaceMunicipality, Municipality currentLocationMunicipality, Municipality residenceMunicipality, LocalDate birthday, CharacterModel appearance, int cash, Education education, int[] alignments, List<Experience> experiences, Skills skills, List<Position> positions, Personality personality, Set<PoliticalRole> roles) {
         this(
             new Character(demographics, name, birthplaceMunicipality, currentLocationMunicipality, residenceMunicipality, birthday, appearance),
             cash, education, alignments, experiences, skills, positions, personality, roles

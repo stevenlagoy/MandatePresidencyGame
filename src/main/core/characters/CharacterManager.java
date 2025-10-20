@@ -2,20 +2,21 @@
  * CharacterManager.java
  * Steven LaGoy
  * Created: March 14, 2025 at 1:13 AM
- * Modified: 30 May 2025
+ * Modified: 20 October 2025
  */
 
 package main.core.characters;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 
 // IMPORTS ----------------------------------------------------------------------------------------
 
-import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.IntStream;
 
 import core.JSONObject;
 import core.JSONProcessor;
@@ -222,7 +223,7 @@ public final class CharacterManager extends Manager {
         return proximity;
     }
     private static Player createPlayerCharacter(){
-        return new Player();
+        return Player.getInstance();
     }
     private static void createPlayerFamily(){
         
@@ -374,24 +375,24 @@ public final class CharacterManager extends Manager {
         return saveString.toString();
     }
 
-    public static Date generateBirthday(Demographics demographics) {
+    public static LocalDate generateBirthday(Demographics demographics) {
         return generateBirthday(demographics, Character.MIN_AGE, Character.MAX_AGE);
     }
 
-    public static Date generateBirthday(Demographics demographics, int minAge, int maxAge) {
-        Integer year;
-        long birthdate;
+    public static LocalDate generateBirthday(Demographics demographics, int minAge, int maxAge) {
+        int year, month, day;
+
         // Select a year
         HashMap<Integer, Double> ageDistribution = CharacterManager.getAgeDistribution(demographics);
         year = NumberOperations.weightedRandSelect(ageDistribution);
-        // Select a valid day of the year
-        do {
-            birthdate = TimeManager.dateFormatToOrdinal(NumberOperations.weightedRandSelect(CharacterManager.getBirthdateDistribution())) * TimeManager.dayDuration;
-        }
-        while (TimeManager.timeToYears(birthdate) < minAge || TimeManager.timeToYears(birthdate) > maxAge ||
-            (birthdate == 60 * TimeManager.dayDuration && !TimeManager.isLeapYear(year)));
+        
+        // Select a month
+        month = NumberOperations.randSelect(IntStream.rangeClosed(1, 12).boxed().toArray(Integer[]::new));
 
-        return new Date(TimeManager.yearToMillis(year) + birthdate);
+        // Select a day
+        day = NumberOperations.randSelect(IntStream.rangeClosed(1, TimeManager.monthsDurationsDays[month]).boxed().toArray(Integer[]::new));
+
+        return LocalDate.of(year, month, day);
     }
 
     /**
@@ -401,7 +402,7 @@ public final class CharacterManager extends Manager {
      * @return A character model which looks like a person with the demographics and age.
      * @see #generateCharacterModel(Demographics, int)
      */
-    public static CharacterModel generateCharacterModel(Demographics demographics, Date birthdate) {
+    public static CharacterModel generateCharacterModel(Demographics demographics, LocalDate birthdate) {
         return generateCharacterModel(demographics, Main.Engine().TimeManager().yearsAgo(birthdate));
     }
 
