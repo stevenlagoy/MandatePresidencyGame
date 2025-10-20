@@ -1,3 +1,10 @@
+/*
+ * Player.java
+ * Steven LaGoy
+ * Created: 11 October 2024
+ * Modified: 20 October 2025
+ */
+
 package main.core.characters;
 
 import java.util.ArrayList;
@@ -5,29 +12,37 @@ import java.util.List;
 
 import core.JSONObject;
 
-public class Player extends Candidate
-{
+public class Player extends Candidate {
     
-    public Player(){
+    private static Player instance;
+
+    public static Player getInstance() {
+        if (instance == null) {
+            instance = new Player();
+        }
+        return instance;
+    }
+
+    private Player() {
         super();
     }
 
-    public void setNameInput(){
+    public void setNameInput() {
 
     }
-    public void setAgeInput(){
+    public void setAgeInput() {
 
     }
-    public void setPresentationInput(){
+    public void setPresentationInput() {
 
     }
-    public void setOriginInput(){
+    public void setOriginInput() {
 
     }
-    public void setEducationInput(){
+    public void setEducationInput() {
 
     }
-    public void setAlignmentInput(){
+    public void setAlignmentInput() {
 
     }
 
@@ -47,11 +62,11 @@ public class Player extends Candidate
         return new JSONObject(getName().getBiographicalName(), fields);
     }
 
+    /**
+     * As this is a Singleton class, {@link #equals(Object)} compares with the object addresses of {@code other} and {@code this}.
+     */
     @Override
     public boolean equals(Object other){
-        if (!(other instanceof Player)) return false;
-        Player playerOther = (Player) other;
-        if(!super.equals(playerOther)) return false;
-        return true;
+        return other == this;
     }
 }
