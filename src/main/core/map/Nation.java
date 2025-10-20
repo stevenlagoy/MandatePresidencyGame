@@ -50,10 +50,11 @@ public class Nation implements MapEntity, Repr<Nation>, Jsonic<Nation> {
      * Get the singleton Nation instance.
      */
     public static Nation getInstance() {
-        if (instance == null)
+        if (instance == null) {
             instance = new Nation();
             instance.descriptors = new HashSet<>();
             instance.demographics = new HashMap<>();
+        }
         return instance;
     }
 
