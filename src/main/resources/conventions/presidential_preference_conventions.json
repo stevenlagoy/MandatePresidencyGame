@@ -12,7 +12,13 @@
         "democratic_type" : "open primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "order" : 1,
+            "day" : "Tuesday",
+            "month" : "March"
+        }
     },
     "Alaska" : {
         "neighbors" : ["Washington", "Oregon"],
@@ -57,7 +63,17 @@
         "democratic_type" : "closed primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March",
+            "after" : {
+                "date" : 15,
+                "month" : "March"
+            }
+        }
     },
     "Arkansas" : {
         "neighbors" : ["Missouri", "Tennessee", "Mississippi", "Louisiana", "Texas", "Oklahoma"],
@@ -72,7 +88,18 @@
         "democratic_type" : "open primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March",
+            "after" : {
+                "day" : "Monday",
+                "order" : 1,
+                "month" : "March"
+            }
+        }
     },
     "California" : {
         "neighbors" : ["Oregon", "Nevada", "Arizona"],
@@ -87,7 +114,18 @@
         "democratic_type" : "partially-closed primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March",
+            "after" : {
+                "day" : "Monday",
+                "order" : 1,
+                "month" : "March"
+            }
+        }
     },
     "Colorado" : {
         "neighbors" : ["Wyoming", "Nebraska", "Kansas", "Oklahoma", "New Mexico", "Arizona", "Utah"],
@@ -102,7 +140,15 @@
         "democratic_type" : "open-unaffiliated primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "latest" : {
+                "day" : "Tuesday",
+                "order" : 3,
+                "month" : "March"
+            }
+        }
     },
     "Connecticut" : {
         "neighbors" : ["Massachusetts", "Rhode Island", "New York"],
@@ -117,7 +163,13 @@
         "democratic_type" : "primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "April"
+        }
     },
     "Delaware" : {
         "neighbors" : ["Pennsylvania", "New Jersey", "Maryland"],
@@ -132,7 +184,13 @@
         "democratic_type" : "closed primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "April"
+        }
     },
     "Democrats Abroad" : {
         "neighbors" : [],
@@ -170,7 +228,13 @@
         "democratic_type" : "closed primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 3,
+            "month" : "March"
+        }
     },
     "Georgia" : {
         "neighbors" : ["Tennessee", "North Carolina", "South Carolina", "Florida", "Alabama"],
@@ -185,7 +249,15 @@
         "democratic_type" : "open primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "latest" : {
+                "day" : "Tuesday",
+                "order" : 2,
+                "month" : "June"
+            }
+        }
     },
     "Guam" : {
         "neighbors" : ["American Samoa", "Puerto Rico", "U.S. Virgin Islands"],
@@ -230,7 +302,13 @@
         "democratic_type" : "partially-closed caucus",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 3,
+            "month" : "May"
+        }
     },
     "Illinois" : {
         "neighbors" : ["Wisconsin", "Indiana", "Kentucky", "Missouri", "Iowa"],
@@ -260,7 +338,18 @@
         "democratic_type" : "open primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "May",
+            "after" : {
+                "day" : "Monday",
+                "order" : 1,
+                "month" : "May"
+            }
+        }
     },
     "Iowa" : {
         "neighbors" : ["Minnesota", "Wisconsin", "Illinois", "Missouri", "Nebraska", "South Dakota"],
@@ -277,7 +366,18 @@
         "democratic_type" : "closed party primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "June",
+            "after" : {
+                "day" : "Monday",
+                "order" : 1,
+                "month" : "June"
+            }
+        }
     },
     "Kansas" : {
         "neighbors" : ["Nebraska", "Missouri", "Oklahoma", "Colorado"],
@@ -307,7 +407,18 @@
         "democratic_type" : "closed primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "May",
+            "after" : {
+                "day" : "Monday",
+                "order" : 3,
+                "month" : "May"
+            }
+        }
     },
     "Louisiana" : {
         "neighbors" : ["Arkansas", "Mississippi", "Texas"],
@@ -323,7 +434,13 @@
         "democratic_type" : "closed primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+        
+        "date" : {
+            "day" : "Saturday",
+            "order" : -1,
+            "month" : "March"
+        }
     },
     "Maine" : {
         "neighbors" : ["New Hampshire", "Massachusetts", "Vermont"],
@@ -338,7 +455,18 @@
         "democratic_type" : "open-unaffiliated primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March",
+            "after" : {
+                "day" : "Monday",
+                "order" : 1,
+                "month" : "March"
+            }
+        }
     },
     "Maryland" : {
         "neighbors" : ["Pennsylvania", "Delaware", "Virginia", "District of Columbia", "West Virginia"],
@@ -353,7 +481,13 @@
         "democratic_type" : "closed primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 4,
+            "month" : "April"
+        }
     },
     "Massachusetts" : {
         "neighbors" : ["Vermont", "New Hampshire", "Rhode Island", "Connecticut", "New York", "Maine"],
@@ -368,7 +502,13 @@
         "democratic_type" : "open-unaffiliated primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March"
+        }
     },
     "Michigan" : {
         "neighbors" : ["Ohio", "Indiana", "Wisconsin"],
@@ -384,7 +524,13 @@
         "democratic_type" : "open primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 4,
+            "month" : "February"
+        }
     },
     "Minnesota" : {
         "neighbors" : ["Wisconsin", "Iowa", "South Dakota", "North Dakota"],
@@ -399,7 +545,15 @@
         "democratic_type" : "closed primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "latest" : {
+                "day" : "Tuesday",
+                "order" : 1,
+                "month" : "March"
+            }
+        }
     },
     "Mississippi" : {
         "neighbors" : ["Tennessee", "Alabama", "Louisiana", "Arkansas"],
@@ -414,7 +568,13 @@
         "democratic_type" : "open primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 2,
+            "month" : "March"
+        }
     },
     "Missouri" : {
         "neighbors" : ["Iowa", "Illinois", "Kentucky", "Tennessee", "Arkansas", "Oklahoma", "Kansas", "Nebraska"],
@@ -444,7 +604,18 @@
         "democratic_type" : "open primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "June",
+            "after" : {
+                "day" : "Monday",
+                "order" : 1,
+                "month" : "June"
+            }
+        }
     },
     "Nebraska" : {
         "neighbors" : ["South Dakota", "Iowa", "Missouri", "Kansas", "Colorado", "Wyoming"],
@@ -459,7 +630,18 @@
         "democratic_type" : "partially-closed primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "May",
+            "after" : {
+                "day" : "Monday",
+                "order" : 2,
+                "month" : "May"
+            }
+        }
     },
     "Nevada" : {
         "neighbors" : ["Oregon", "Idaho", "Utah", "Arizona", "California"],
@@ -476,7 +658,13 @@
         "democratic_type" : "open primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "February"
+        }
     },
     "New Hampshire" : {
         "neighbors" : ["Maine", "Massachusetts", "Vermont"],
@@ -493,7 +681,15 @@
         "democratic_type" : "open-unaffiliated party primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "latest" : {
+                "day" : "Tuesday",
+                "order" : 2,
+                "month" : "March"
+            }
+        }
     },
     "New Jersey" : {
         "neighbors" : ["New York", "Delaware", "Pennsylvania"],
@@ -508,7 +704,18 @@
         "democratic_type" : "partially-closed primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "June",
+            "after" : {
+                "day" : "Monday",
+                "order" : 1,
+                "month" : "June"
+            }
+        }
     },
     "New Mexico" : {
         "neighbors" : ["Colorado", "Oklahoma", "Texas", "Arizona", "Utah"],
@@ -523,7 +730,18 @@
         "democratic_type" : "closed primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "June",
+            "after" : {
+                "day" : "Monday",
+                "order" : 1,
+                "month" : "June"
+            }
+        }
     },
     "New York" : {
         "neighbors" : ["New Hampshire", "Massachusetts", "Connecticut", "New Jersey", "Pennsylvania"],
@@ -538,7 +756,13 @@
         "democratic_type" : "closed primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 4,
+            "month" : "June"
+        }
     },
     "North Carolina" : {
         "neighbors" : ["Virginia", "South Carolina", "Georgia", "Tennessee"],
@@ -553,7 +777,18 @@
         "democratic_type" : "open-unaffiliated primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March",
+            "after" : {
+                "day" : "Monday",
+                "order" : 1,
+                "month" : "March"
+            }
+        }
     },
     "North Dakota" : {
         "neighbors" : ["Minnesota", "South Dakota", "Montana"],
@@ -568,7 +803,14 @@
         "democratic_type" : "open party primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "latest" : {
+                "date" : 15,
+                "month" : "May"
+            }
+        }
     },
     "Northern Mariana Islands" : {
         "neighbors" : [],
@@ -598,7 +840,18 @@
         "democratic_type" : "partially-open primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 3,
+            "month" : "March",
+            "after" : {
+                "day" : "Monday",
+                "order" : 1,
+                "month" : "March"
+            }
+        }
     },
     "Oklahoma" : {
         "neighbors" : ["Colorado", "Kansas", "Missouri", "Arkansas", "Texas", "New Mexico"],
@@ -613,7 +866,13 @@
         "democratic_type" : "partially-closed primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March"
+        }
     },
     "Oregon" : {
         "neighbors" : ["Washington", "Idaho", "Nevada", "California", "Alaska", "Hawaii"],
@@ -628,7 +887,13 @@
         "democratic_type" : "closed primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 3,
+            "month" : "May"
+        }
     },
     "Pennsylvania" : {
         "neighbors" : ["New York", "New Jersey", "Delaware", "Maryland", "West Virginia", "Ohio"],
@@ -643,7 +908,13 @@
         "democratic_type" : "closed primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 4,
+            "month" : "April"
+        }
     },
     "Puerto Rico" : {
         "neighbors" : ["American Samoa", "Guam", "U.S. Virgin Islands"],
@@ -673,7 +944,13 @@
         "democratic_type" : "open-unaffiliated primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 4,
+            "month" : "April"
+        }
     },
     "South Carolina" : {
         "neighbors" : ["North Carolina", "Georgia"],
@@ -706,7 +983,18 @@
         "democratic_type" : "partially-closed primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "June",
+            "after" : {
+                "day" : "Monday",
+                "order" : 1,
+                "month" : "June"
+            }
+        }
     },
     "Tennessee" : {
         "neighbors" : ["Kentucky", "Virginia", "North Carolina", "Georgia", "Alabama", "Mississippi", "Arkansas", "Missouri"],
@@ -721,7 +1009,13 @@
         "democratic_type" : "open primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March"
+        }
     },
     "Texas" : {
         "neighbors" : ["New Mexico", "Oklahoma", "Arkansas", "Louisiana"],
@@ -736,7 +1030,13 @@
         "democratic_type" : "open primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March"
+        }
     },
     "Utah" : {
         "neighbors" : ["Idaho", "Wyoming", "Colorado", "New Mexico", "Arizona", "Nevada"],
@@ -751,7 +1051,13 @@
         "democratic_type" : "open primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March"
+        }
     },
     "Vermont" : {
         "neighbors" : ["New Hampshire", "Massachusetts", "New York", "Maine"],
@@ -766,7 +1072,13 @@
         "democratic_type" : "open primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March"
+        }
     },
     "U.S. Virgin Islands" : {
         "neighbors" : ["American Samoa", "Guam", "Puerto Rico"],
@@ -796,7 +1108,13 @@
         "democratic_type" : "open primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March"
+        }
     },
     "Washington" : {
         "neighbors" : ["Idaho", "Oregon", "Alaska", "Hawaii"],
@@ -811,7 +1129,13 @@
         "democratic_type" : "closed primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 2,
+            "month" : "March"
+        }
     },
     "West Virginia" : {
         "neighbors" : ["Ohio", "Pennsylvania", "Maryland", "Virginia", "Kentucky"],
@@ -826,7 +1150,13 @@
         "democratic_type" : "partially-closed primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 2,
+            "month" : "May"
+        }
     },
     "Wisconsin" : {
         "neighbors" : ["Michigan", "Illinois", "Iowa", "Minnesota"],
@@ -841,7 +1171,13 @@
         "democratic_type" : "open primary",
         "democratic_district_allocation_rule" : "proportional",
         "democratic_at_large_allocation_rule" : "proportional",
-        "democratic_qualification_threshold" : 0.15
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "April"
+        }
     },
     "Wyoming" : {
         "neighbors" : ["Montana", "South Dakota", "Nebraska", "Colorado", "Utah", "Idaho"],
