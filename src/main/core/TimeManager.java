@@ -13,8 +13,10 @@ import java.time.LocalTime;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
+import java.util.TimeZone;
 
 import core.JSONObject;
 
@@ -45,40 +47,6 @@ public class TimeManager extends Manager {
     /** Milliseconds since the year zero corresponding to the epoch. */
     public static final long epochMillis = epochYear * TimeManager.yearDuration;
 
-    /**
-     * Time Zones define the number of hours before or ahead of UTC an area of the world is. Use the correction value to get the number of hours to correct for.
-     */
-    public static enum TimeZone {
-        EST(5L), // Default, since it is the time in Washington, DC.
-        EDT(4L),
-        CST(6L),
-        CDT(5L),
-        MST(7L),
-        MDT(6L),
-        PST(8L),
-        PDT(7L),
-        AKST(9L),
-        AKDT(8L),
-        HST(10L),
-        HDT(9L);
-
-        public final long correction;
-        private TimeZone(long correction) { this.correction = correction; }
-
-        /**
-         * Matches the given time zone string to a time zone object.
-         * @param timeZoneString The time zone string to match.
-         * @return The time zone object that matches the given string.
-         */
-        public TimeZone fromString(String timeZoneString) {
-            for(TimeZone tz : TimeZone.values()) {
-                if (timeZoneString.equals(tz.toString())) return tz;
-            }
-            Logger.log("INVALID TIMEZONE", String.format("The supplied time zone name, %s, does not match any accepted time zone.", timeZoneString), new Exception());
-            return null;
-        }
-    }
-
     /** Duration in milliseconds of one second. */
     public static final long secondDuration = 1000L;
     /** Duration in milliseconds of one minute. */
@@ -97,24 +65,27 @@ public class TimeManager extends Manager {
     /** Number of days in a year. TODO Think about leap years */
     public static final int daysInYear = 366;
 
-    /** Duration in milliseconds of each month between January 2027 and January 2029. Index by ordinal month value. */
-    public static final long[] monthsDurationsMillis = {
-        31L*dayDuration, 28L*dayDuration, 31L*dayDuration, 30L*dayDuration, 31L*dayDuration, 30L*dayDuration, 31L*dayDuration, 31L*dayDuration, 30L*dayDuration, 31L*dayDuration, 30L*dayDuration, 31L*dayDuration,
-        31L*dayDuration, 29L*dayDuration, 31L*dayDuration, 30L*dayDuration, 31L*dayDuration, 30L*dayDuration, 31L*dayDuration, 31L*dayDuration, 30L*dayDuration, 31L*dayDuration, 30L*dayDuration, 31L*dayDuration,
-        31L*dayDuration, 28L*dayDuration, 31L*dayDuration, 30L*dayDuration, 31L*dayDuration, 30L*dayDuration, 31L*dayDuration, 31L*dayDuration, 30L*dayDuration, 31L*dayDuration, 30L*dayDuration, 31L*dayDuration
-    };
     /** Lengths in days of each month between January 2027 and January 2029. Index by ordinal month value. */
     public static final int[] monthsDurationsDays = {
         31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31,
         31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31,
         31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31
     };
-    public static final String[] dayNames = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
-    /** Names of each month. Lookup from LANG_system_text. */
+    /** Duration in milliseconds of each month between January 2027 and January 2029. Index by ordinal month value. */
+    public static final long[] monthsDurationsMillis = Arrays.stream(monthsDurationsDays).mapToLong(d -> d*dayDuration).toArray();
+    /** Name of each day. Lookup from LANG_system_text. */
+    public static final String[] dayNames = {"monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"};
+    /** Three-letter abbrviation of each day. Lookup from LANG_system_text. */
+    public static final String[] day3Abbreviations = {"mon_abbreviation", "tue_abbreviation", "wed_abbreviation", "thu_abbreviation", "fri_abbreviation", "sat_abbreviation", "sun_abbreviation"};
+    /** Two-letter abbreviation of each day. Lookup from LANG_system_text. */
+    public static final String[] day2Abbreviations = {"mo_abbreviation", "tu_abbreviation", "we_abbreviation", "th_abbreviation", "fr_abbreviation", "sa_abbreviation", "su_abbreviation"};
+    /** One-letter initialization of each day. Lookup from LANG_system_text. */
+    public static final String[] dayInitializations = {"mon_initial", "tue_initial", "wed_initial", "thu_initial", "fri_initial", "sat_initial", "sun_initial"};
+    /** Name of each month. Lookup from LANG_system_text. */
     public static final String[] monthNames = {"january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"};
-    /** Abbreviations of each month. Lookup from LANG_system_text. */
+    /** Abbreviation of each month. Lookup from LANG_system_text. */
     public static final String[] monthAbbreviations = {"jan_abbreviation", "feb_abbreviation", "mar_abbreviation", "apr_abbreviation", "may_abbreviation", "jun_abbreviation", "jul_abbreviation", "aug_abbreviation", "sep_abbreviation", "oct_abbreviation", "nov_abbreviation", "dec_abbreviation"};
-    /** Numbers of each year between 2027 and 2029. */
+    /** Number of each year between 2027 and 2029. */
     public static final String[] yearNumbers = {"2027", "2028", "2029"};
 
     // STATIC CLASS FUNCTIONS ---------------------------------------------------------------------
@@ -141,7 +112,7 @@ public class TimeManager extends Manager {
             if (isLeapYear(i)) numberLeapYears--;
         }
         // no calculation required if year == epochYear
-        millis += (numberLeapYears * dayDuration) + (TimeZone.EST.correction * hourDuration);
+        millis += (numberLeapYears * dayDuration) + (TimeZone.getTimeZone("America/New_York").getRawOffset());
         return millis;
     }
 
