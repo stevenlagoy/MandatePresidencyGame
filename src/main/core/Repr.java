@@ -1,13 +1,13 @@
-package main.core;
-
-import java.util.Collection;
-
 /*
  * Repr.java
  * Steven LaGoy
  * Created: 06 January 2025 at 12:09 AM
  * Modified: 29 May 2025 at 5:40 PM
  */
+
+package main.core;
+
+import java.util.Collection;
 
 /**
  * Interface allowing Repr methods to be used to create or store Repr Strings
