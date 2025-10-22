@@ -1,11 +1,11 @@
-package main.core;
-
 /*
  * Jsonic.java
  * Steven LaGoy
  * Created: 29 May 2025 at 12:15 AM
  * Modified: 29 May 2025 at 5:42 PM
  */
+
+package main.core;
 
 import core.JSONObject;
 
