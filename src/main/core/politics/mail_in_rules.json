@@ -1,0 +1,432 @@
+{
+    "Alabama" : {
+        "polls_open" : "7:00",
+        "polls_close" : "19:00",
+        "mail_in_receipt_by" : "12:00, 0",
+        "overseas_receipt_by" : "23:59, 7"
+    },
+    "Alaska" : {
+        "early_voting_begin" : "-15",
+        "early_voting_end" : "-1",
+        "polls_open" : "7:00",
+        "polls_close" : "20:00",
+        "mail_in_receipt_by" : "23:59, 10",
+        "overseas_receipt_by" : "17:00, 15"
+    },
+    "Arizona" : {
+        "early_voting_begin" : "-27",
+        "early_voting_end" : "-4",
+        "polls_open" : "6:00",
+        "polls_close" : "19:00",
+        "mail_in_receipt_by" : "19:00, 0",
+        "overseas_receipt_by" : "19:00, 0"
+    },
+    "Arkansas" : {
+        "early_voting_begin" : "-15",
+        "early_voting_end" : "-1",
+        "polls_open" : "7:30",
+        "polls_close" : "19:30",
+        "mail_in_receipt_by" : "19:30, 0",
+        "overseas_receipt_by" : "17:00, 10"
+    },
+    "California" : {
+        "early_voting_begin" : "-29",
+        "early_voting_end" : "-1",
+        "polls_open" : "7:00",
+        "polls_close" : "20:00",
+        "mail_in_receipt_by" : "23:59, 7",
+        "overseas_receipt_by" : "23:59, 7"
+    },
+    "Colorado" : {
+        "early_voting_begin" : "-15",
+        "early_voting_end" : "-1",
+        "polls_open" : "7:00",
+        "polls_close" : "19:00",
+        "mail_in_receipt_by" : "19:00, 0",
+        "overseas_receipt_by" : "17:00, 8"
+    },
+    "Connecticut" : {
+        "early_voting_begin" : "-15",
+        "early_voting_end" : "-2",
+        "polls_open" : "6:00",
+        "polls_close" : "20:00",
+        "mail_in_receipt_by" : "20:00, 0",
+        "overseas_receipt_by" : "20:00, 0"
+    },
+    "Delaware" : {
+        "early_voting_begin" : "-10",
+        "early_voting_end" : "-2",
+        "polls_open" : "7:00",
+        "polls_close" : "20:00",
+        "mail_in_receipt_by" : "20:00, 0",
+        "overseas_receipt_by" : "20:00, 0"
+    },
+    "District of Columbia" : {
+        "early_voting_begin" : "-12",
+        "early_voting_end" : "-1",
+        "polls_open" : "7:00",
+        "polls_close" : "20:00",
+        "mail_in_receipt_by" : "23:59, 10",
+        "overseas_receipt_by" : "23:59, 10"
+    },
+    "Florida" : {
+        "early_voting_begin" : "-10",
+        "early_voting_end" : "-2",
+        "polls_open" : "7:00",
+        "polls_close" : "19:00",
+        "mail_in_receipt_by" : "19:00, 0",
+        "overseas_receipt_by" : "23:59, 10"
+    },
+    "Georgia" : {
+        "early_voting_begin" : "-22",
+        "early_voting_end" : "-4",
+        "polls_open" : "7:00",
+        "polls_close" : "19:00",
+        "mail_in_receipt_by" : "19:00, 0",
+        "overseas_receipt_by" : "23:59, 3"
+    },
+    "Guam" : {
+        "early_voting_begin" : "",
+        "early_voting_end" : "",
+        "polls_open" : "",
+        "polls_close" : "",
+        "mail_in_receipt_by" : "17:00, 10"
+    },
+    "Hawaii" : {
+        "early_voting_begin" : "-10",
+        "early_voting_end" : "-1",
+        "polls_open" : "7:00",
+        "polls_close" : "19:00",
+        "mail_in_receipt_by" : "19:00, 0",
+        "overseas_receipt_by" : "19:00, 0"
+    },
+    "Idaho" : {
+        "early_voting_begin" : "-22",
+        "early_voting_end" : "-4",
+        "polls_open" : "8:00",
+        "polls_close" : "20:00",
+        "mail_in_receipt_by" : "20:00, 0",
+        "overseas_receipt_by" : "20:00, 0"
+    },
+    "Illinois" : {
+        "early_voting_begin" : "-40",
+        "early_voting_end" : "-1",
+        "polls_open" : "6:00",
+        "polls_close" : "19:00",
+        "mail_in_receipt_by" : "23:59, 14",
+        "overseas_receipt_by" : "23:59, 14"
+    },
+    "Indiana" : {
+        "early_voting_begin" : "-28",
+        "early_voting_end" : "-1",
+        "polls_open" : "6:00",
+        "polls_close" : "18:00",
+        "mail_in_receipt_by" : "18:00, 0",
+        "overseas_receipt_by" : "12:00, 10"
+    },
+    "Iowa" : {
+        "early_voting_begin" : "-20",
+        "early_voting_end" : "-1",
+        "polls_open" : "7:00",
+        "polls_close" : "20:00",
+        "mail_in_receipt_by" : "20:00, 0",
+        "overseas_receipt_by" : "12:00, 6"
+    },
+    "Kansas" : {
+        "early_voting_begin" : "-7",
+        "early_voting_end" : "-1",
+        "polls_open" : "7:00",
+        "polls_close" : "19:00",
+        "mail_in_receipt_by" : "19:00, 0",
+        "overseas_receipt_by" : "19:00, 0"
+    },
+    "Kentucky" : {
+        "early_voting_begin" : "-5",
+        "early_voting_end" : "-3",
+        "polls_open" : "6:00",
+        "polls_close" : "18:00",
+        "mail_in_receipt_by" : "18:00, 0",
+        "overseas_receipt_by" : "18:00, 0"
+    },
+    "Louisiana" : {
+        "early_voting_begin" : "-18",
+        "early_voting_end" : "-7",
+        "polls_open" : "6:00",
+        "polls_close" : "20:00",
+        "mail_in_receipt_by" : "16:30, -1",
+        "overseas_receipt_by" : "20:00, 0"
+    },
+    "Maine" : {
+        "early_voting_begin" : "-30",
+        "early_voting_end" : "-5",
+        "polls_open" : "6:00",
+        "polls_close" : "20:00",
+        "mail_in_receipt_by" : "20:00, 0",
+        "overseas_receipt_by" : "20:00, 0"
+    },
+    "Maryland" : {
+        "early_voting_begin" : "-12",
+        "early_voting_end" : "-5",
+        "polls_open" : "7:00",
+        "polls_close" : "20:00",
+        "mail_in_receipt_by" : "10:00, 10",
+        "overseas_receipt_by" : "10:00, 10"
+    },
+    "Massachusetts" : {
+        "early_voting_begin" : "-17",
+        "early_voting_end" : "-4",
+        "polls_open" : "7:00",
+        "polls_close" : "20:00",
+        "mail_in_receipt_by" : "17:00, 3",
+        "overseas_receipt_by" : "17:00, 10"
+    },
+    "Michigan" : {
+        "early_voting_begin" : "-10",
+        "early_voting_end" : "-2",
+        "polls_open" : "7:00",
+        "polls_close" : "20:00",
+        "mail_in_receipt_by" : "20:00, 0",
+        "overseas_receipt_by" : "23:59, 6"
+    },
+    "Minnesota" : {
+        "early_voting_begin" : "-46",
+        "early_voting_end" : "-1",
+        "polls_open" : "7:00",
+        "polls_close" : "20:00",
+        "mail_in_receipt_by" : "20:00, 0",
+        "overseas_receipt_by" : "20:00, 0"
+    },
+    "Mississippi" : {
+        "early_voting_begin" : "-45",
+        "early_voting_end" : "-3",
+        "polls_open" : "7:00",
+        "polls_close" : "19:00",
+        "mail_in_receipt_by" : "23:59, 7",
+        "overseas_receipt_by" : "23:59, 7"
+    },
+    "Missouri" : {
+        "early_voting_begin" : "-14",
+        "early_voting_end" : "-1",
+        "polls_open" : "6:00",
+        "polls_close" : "19:00",
+        "mail_in_receipt_by" : "19:00, 0",
+        "overseas_receipt_by" : "23:59, 3"
+    },
+    "Montana" : {
+        "early_voting_begin" : "-30",
+        "early_voting_end" : "-1",
+        "polls_open" : "7:00",
+        "polls_close" : "20:00",
+        "mail_in_receipt_by" : "20:00, 0",
+        "overseas_receipt_by" : "17:00, 1"
+    },
+    "Nebraska" : {
+        "early_voting_begin" : "-30",
+        "early_voting_end" : "-1",
+        "polls_open" : "8:00",
+        "polls_close" : "20:00",
+        "mail_in_receipt_by" : "20:00, 0",
+        "overseas_receipt_by" : "20:00, 0"
+    },
+    "Nevada" : {
+        "early_voting_begin" : "-17",
+        "early_voting_end" : "-4",
+        "polls_open" : "7:00",
+        "polls_close" : "19:00",
+        "mail_in_receipt_by" : "17:00, 4",
+        "overseas_receipt_by" : "23:59, 4"
+    },
+    "New Hampshire" : {
+        "polls_open" : "11:00",
+        "polls_close" : "19:00",
+        "mail_in_receipt_by" : "17:00, 0",
+        "overseas_receipt_by" : "17:00, 0"
+    },
+    "New Jersey" : {
+        "early_voting_begin" : "-10",
+        "early_voting_end" : "-2",
+        "polls_open" : "6:00",
+        "polls_close" : "20:00",
+        "mail_in_receipt_by" : "20:00, 6",
+        "overseas_receipt_by" : "20:00, 6"
+    },
+    "New Mexico" : {
+        "early_voting_begin" : "-28",
+        "early_voting_end" : "-2",
+        "polls_open" : "7:00",
+        "polls_close" : "19:00",
+        "mail_in_receipt_by" : "19:00, 0",
+        "overseas_receipt_by" : "19:00, 0"
+    },
+    "New York" : {
+        "early_voting_begin" : "-10",
+        "early_voting_end" : "-2",
+        "polls_open" : "6:00",
+        "polls_close" : "21:00",
+        "mail_in_receipt_by" : "23:59, 7",
+        "overseas_receipt_by" : "23:59, 13"
+    },
+    "North Carolina" : {
+        "early_voting_begin" : "-28",
+        "early_voting_end" : "-3",
+        "polls_open" : "6:30",
+        "polls_close" : "19:30",
+        "mail_in_receipt_by" : "19:30, 0",
+        "overseas_receipt_by" : "17:00, 9"
+    },
+    "North Dakota" : {
+        "early_voting_begin" : "-15",
+        "early_voting_end" : "-1",
+        "polls_open" : "9:00",
+        "polls_close" : "19:00",
+        "mail_in_receipt_by" : "19:00, 0",
+        "overseas_receipt_by" : "23:59, 12"
+    },
+    "Northern Mariana Islands" : {
+        "early_voting_begin" : "",
+        "early_voting_end" : "",
+        "polls_open" : "",
+        "polls_close" : "",
+        "mail_in_receipt_by" : "23:59, 0"
+    },
+    "Ohio" : {
+        "early_voting_begin" : "-29",
+        "early_voting_end" : "-2",
+        "polls_open" : "6:30",
+        "polls_close" : "19:30",
+        "mail_in_receipt_by" : "23:59, 4",
+        "overseas_receipt_by" : "23:59, 4"
+    },
+    "Oklahoma" : {
+        "early_voting_begin" : "-6",
+        "early_voting_end" : "-2",
+        "polls_open" : "7:00",
+        "polls_close" : "19:00",
+        "mail_in_receipt_by" : "19:00, 0",
+        "overseas_receipt_by" : "19:00, 0"
+    },
+    "Oregon" : {
+        "polls_open" : "7:00",
+        "polls_close" : "20:00",
+        "mail_in_receipt_by" : "23:59, 7",
+        "overseas_receipt_by" : "23:59, 7"
+    },
+    "Pennsylvania" : {
+        "early_voting_begin" : "-50",
+        "early_voting_end" : "-1",
+        "polls_open" : "7:00",
+        "polls_close" : "20:00",
+        "mail_in_receipt_by" : "20:00, 0",
+        "overseas_receipt_by" : "17:00, 7"
+    },
+    "Puerto Rico" : {
+        "early_voting_begin" : "",
+        "early_voting_end" : "",
+        "polls_open" : "",
+        "polls_close" : "",
+        "mail_in_receipt_by" : "23:59, 0"
+    },
+    "Rhode Island" : {
+        "early_voting_begin" : "-20",
+        "early_voting_end" : "-1",
+        "polls_open" : "7:00",
+        "polls_close" : "20:00",
+        "mail_in_receipt_by" : "20:00, 0",
+        "overseas_receipt_by" : "16:00, 7"
+    },
+    "South Carolina" : {
+        "early_voting_begin" : "-15",
+        "early_voting_end" : "-3",
+        "polls_open" : "7:00",
+        "polls_close" : "19:00",
+        "mail_in_receipt_by" : "19:00, 0",
+        "overseas_receipt_by" : "17:00, 2"
+    },
+    "South Dakota" : {
+        "early_voting_begin" : "-46",
+        "early_voting_end" : "-1",
+        "polls_open" : "7:00",
+        "polls_close" : "19:00",
+        "mail_in_receipt_by" : "19:00, 0",
+        "overseas_receipt_by" : "19:00, 0"
+    },
+    "Tennessee" : {
+        "early_voting_begin" : "-20",
+        "early_voting_end" : "-5",
+        "polls_open" : "8:00",
+        "polls_close" : "19:00",
+        "mail_in_receipt_by" : "19:00, 0",
+        "overseas_receipt_by" : "19:00, 0"
+    },
+    "Texas" : {
+        "early_voting_begin" : "-17",
+        "early_voting_end" : "-4",
+        "polls_open" : "7:00",
+        "polls_close" : "19:00",
+        "mail_in_receipt_by" : "17:00, 1",
+        "overseas_receipt_by" : "23:59, 5"
+    },
+    "Utah" : {
+        "early_voting_begin" : "-14",
+        "early_voting_end" : "-4",
+        "polls_open" : "7:00",
+        "polls_close" : "20:00",
+        "mail_in_receipt_by" : "20:00, 0",
+        "overseas_receipt_by" : "20:00, 0"
+    },
+    "Vermont" : {
+        "early_voting_begin" : "-45",
+        "early_voting_end" : "-1",
+        "polls_open" : "10:00",
+        "polls_close" : "19:00",
+        "mail_in_receipt_by" : "19:00, 0",
+        "overseas_receipt_by" : "19:00, 0"
+    },
+    "U.S. Virgin Islands" : {
+        "early_voting_begin" : "",
+        "early_voting_end" : "",
+        "polls_open" : "",
+        "polls_close" : "",
+        "mail_in_receipt_by" : "23:59, 10"
+    },
+    "Virginia" : {
+        "early_voting_begin" : "-45",
+        "early_voting_end" : "-3",
+        "polls_open" : "6:00",
+        "polls_close" : "19:00",
+        "mail_in_receipt_by" : "12:00, 3",
+        "overseas_receipt_by" : "12:00, 3"
+    },
+    "Washington" : {
+        "early_voting_begin" : "-18",
+        "early_voting_end" : "-1",
+        "polls_open" : "8:00",
+        "polls_close" : "20:00",
+        "mail_in_receipt_by" : "23:59, 20",
+        "overseas_receipt_by" : "23:59, 20"
+    },
+    "West Virginia" : {
+        "early_voting_begin" : "-13",
+        "early_voting_end" : "-3",
+        "polls_open" : "6:30",
+        "polls_close" : "19:30",
+        "mail_in_receipt_by" : "23:59, 4",
+        "overseas_receipt_by" : "8:00, 5"
+    },
+    "Wisconsin" : {
+        "early_voting_begin" : "-14",
+        "early_voting_end" : "-2",
+        "polls_open" : "7:00",
+        "polls_close" : "20:00",
+        "mail_in_receipt_by" : "20:00, 0",
+        "overseas_receipt_by" : "20:00, 0"
+    },
+    "Wyoming" : {
+        "early_voting_begin" : "-28",
+        "early_voting_end" : "-1",
+        "polls_open" : "7:00",
+        "polls_close" : "19:00",
+        "mail_in_receipt_by" : "19:00, 0",
+        "overseas_receipt_by" : "19:00, 0"
+    }
+}
