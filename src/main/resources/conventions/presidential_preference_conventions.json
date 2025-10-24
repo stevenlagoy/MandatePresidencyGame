@@ -369,13 +369,14 @@
         "democratic_qualification_threshold" : 0.15,
 
         "date" : {
-            "day" : "Tuesday",
-            "order" : 1,
-            "month" : "June",
-            "after" : {
+            "latest" : {
                 "day" : "Monday",
-                "order" : 1,
-                "month" : "June"
+                "order" : 4,
+                "month" : "February"
+            },
+            "days_before_next" : {
+                "type" : "any",
+                "days" : 8
             }
         }
     },
@@ -688,6 +689,10 @@
                 "day" : "Tuesday",
                 "order" : 2,
                 "month" : "March"
+            },
+            "days_before_next" : {
+                "type" : "primary",
+                "days" : 7
             }
         }
     },
