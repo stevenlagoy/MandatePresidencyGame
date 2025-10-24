@@ -12,6 +12,7 @@ package main.core.map;
 // Standard Library Imports
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
@@ -29,6 +30,9 @@ import main.core.characters.StateOfficial;
 import main.core.characters.FederalOfficial.FederalRole;
 import main.core.characters.StateOfficial.StateRole;
 import main.core.demographics.Bloc;
+import main.core.politics.ElectionResult;
+import main.core.politics.Legislature;
+import main.core.politics.Party;
 
 /**
  * Map entity for the second-largest geographical division, including States, Commonwealths, District, and Territories.
@@ -61,8 +65,13 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
     private Set<String> descriptors;
     private Map<Bloc, Float> demographics;
     private List<FederalOfficial> senators;
+    private List<FederalOfficial> representatives;
+    private List<Legislature> stateHouses;
+    private String stateLegislatureName;
     private StateOfficial governor;
     private StateOfficial lieutenantGovernor;
+
+    private List<ElectionResult> pastResults;
 
     // CONSTRUCTORS -------------------------------------------------------------------------------
 
@@ -78,6 +87,9 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
         this.nickname = nickname;
         this.motto = motto;
         this.capital = capitalName.isEmpty() ? null : Main.Engine().MapManager().matchMunicipality(capitalName, abbreviation);
+        this.senators = new ArrayList<>();
+        this.representatives = new ArrayList<>();
+        this.stateHouses = new ArrayList<>();
         setDescriptors(descriptors);
     }
 
@@ -287,6 +299,37 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
         return senators.remove(senator);
     }
 
+    // Representatives : List of Federal Official
+    public List<FederalOfficial> getRepresentatives() {
+        return representatives;
+    }
+    public int getNumberRepresentatives() {
+        return representatives.size();
+    }
+    public FederalOfficial setRepresentative(int index, FederalOfficial representative) {
+        representative.addRole(FederalRole.REPRESENTATIVE);
+        return representatives.set(index, representative);
+    }
+
+    public List<Legislature> getStateHouses() {
+        return stateHouses;
+    }
+    public Legislature getStateUpperHouse() {
+        for (Legislature house : stateHouses) {
+            if (house.isUpperHouse()) return house;
+        }
+        return null;
+    }
+    public Legislature getStateLowerHouse() {
+        for (Legislature house : stateHouses) {
+            if (house.isLowerHouse()) return house;
+        }
+        return null;
+    }
+    public String getStateLegislatureName() {
+        return stateLegislatureName;
+    }
+
     // Governor State Official
     public StateOfficial getGovernor() {
         return governor;
@@ -311,6 +354,123 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
             this.lieutenantGovernor.setJurisdiction(this);
         }
         else this.lieutenantGovernor = lieutenantGovernor;
+    }
+
+    // Past Results : List of Election Result
+    public List<ElectionResult> getPastResults() {
+        return pastResults;
+    }
+    public void addPastResult(ElectionResult result) {
+        pastResults.add(result);
+    }
+    public List<ElectionResult> getResultsInYear(int year) {
+        List<ElectionResult> response = new ArrayList<>();
+        for (ElectionResult result : pastResults) {
+            if (result.getElectionDate().getYear() == year) {
+                response.add(result);
+            }
+        }
+        return response;
+    }
+    public int getTotalVotesInYear(int year) {
+        int response = 0;
+        for (ElectionResult result : pastResults) {
+            if (result.getElectionDate().getYear() == year) {
+                response += result.getCandidateVotes().values().stream().mapToInt(Integer::intValue).sum();
+            }
+        }
+        return response;
+    }
+    /** Get the sum of all votes for a party sorted by year. Keys are years, values are total votes for all candidates from the party cast that year. */
+    public Map<Integer, Integer> getTotalResultsForPartyByYear(Party party) {
+        Map<Integer, Integer> response = new HashMap<>();
+        for (ElectionResult result : pastResults) {
+            int year = result.getElectionDate().getYear();
+            for (String candidateName : result.getCandidateParties().keySet()) {
+                if (result.getCandidateParties().get(candidateName).equals(party)) {
+                    response.put(year, response.getOrDefault(year, 0) + result.getVotesForCandidate(candidateName));
+                }
+            }
+        }
+        return response;
+    }
+
+    /**
+     * Returns a double value representing the level of control of a party, based on control of the
+     * state legislature, governor, and previous electoral results. Higher values mean more control.
+    */
+    public double getPartyControl(Party party) {
+        double control = 0.0;
+
+        /*
+            State:
+                Legislature
+                    Same party seats
+                    Same party majority
+                Governor
+                Lieutenant Governor
+                Trifecta (Legislature and Governor)
+            Federal:
+                Senators
+                    Same party
+                    Bonus for both same party
+                Representatives
+                    Same party
+                    Same party majority
+            Electoral History:
+                Number of same party victories
+                Margin of same party victories
+                Bonus for more recent elections
+         */
+
+        
+        boolean trifecta = true;
+        // Control from legislature
+        for (Legislature house : stateHouses) {
+            // Percentage of the houses controlled by party
+            control += house.getPartySeats(party) / house.getTotalSeats() * 0.75;
+            // Party control
+            if (house.isPartyControlled(party))
+                control += 0.25;
+            else trifecta = false; 
+        }
+        // Control from governorship
+        if (governor.getPartyAlignment().equals(party))
+            control += 0.65;
+        else trifecta = false;
+        // Add bonus control if trifecta
+        if (trifecta) control += 1.0;
+        // Control from lieutenant governorship
+        if (lieutenantGovernor != null && lieutenantGovernor.getPartyAlignment().equals(party))
+            control += 0.1;
+        
+        // Control from senators
+        if (senators.get(0).getPartyAlignment().equals(party))
+            control += 0.25;
+        if (senators.get(1).getPartyAlignment().equals(party))
+            control += 0.25;
+        if (senators.get(0).getPartyAlignment().equals(party) && senators.get(1).getPartyAlignment().equals(party))
+            control += 0.25;
+        // Control from representatives
+        int samePartyReps = 0;
+        for (FederalOfficial representative : representatives) {
+            if (representative.getPartyAlignment().equals(party)) samePartyReps++;
+        }
+        control += samePartyReps / getNumberRepresentatives() * 0.60;
+        control += samePartyReps > getNumberRepresentatives() / 2 ? 0.15 : 0.0;
+        
+        // Control from electoral history
+        for (ElectionResult result : pastResults) {
+            int year = result.getElectionDate().getYear();
+            int currentYear = Main.Engine().TimeManager().getCurrentYear();
+            if (year >= currentYear - 20) {
+                control += getTotalResultsForPartyByYear(party).get(year) / getTotalVotesInYear(year)
+                    * (1 / (currentYear - year)) * 0.125; // Weight recent elections higher
+                control += getTotalResultsForPartyByYear(party).get(year) > getTotalVotesInYear(year) / 2 ? 0.1 : 0.0;
+            }
+        }
+
+        return control;
     }
 
     // REPRESENTATION METHODS ---------------------------------------------------------------------
