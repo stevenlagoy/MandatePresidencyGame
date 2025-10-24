@@ -390,7 +390,8 @@ public final class CharacterManager extends Manager {
         month = NumberOperations.randSelect(IntStream.rangeClosed(1, 12).boxed().toArray(Integer[]::new));
 
         // Select a day
-        day = NumberOperations.randSelect(IntStream.rangeClosed(1, TimeManager.monthsDurationsDays[month]).boxed().toArray(Integer[]::new));
+        // TODO monthsDurationsDays does not hold historical data, only data for 2027-29
+        day = NumberOperations.randSelect(IntStream.rangeClosed(1, TimeManager.monthsDurationsDays[month-1]).boxed().toArray(Integer[]::new));
 
         return LocalDate.of(year, month, day);
     }
