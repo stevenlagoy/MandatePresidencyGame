@@ -276,7 +276,7 @@ public class TimeManager extends Manager {
      * @param month
      * @param day Day of the week (Monday = 1, Tuesday = 2, ..., Sunday = 7)
      * @param order
-     * @return
+     * @return LocalDate
      */
     public LocalDate determineDate(int year, int month, int day, int order) {
         int count = 0;
@@ -306,7 +306,7 @@ public class TimeManager extends Manager {
         }
         int count = 0;
         for (
-            LocalDate candidate = LocalDate.of(relativeTo.getYear(), relativeTo.getMonthValue(), relativeTo.getDayOfMonth());
+            LocalDate candidate = LocalDate.of(relativeTo.getYear(), relativeTo.getMonthValue(), relativeTo.getDayOfMonth() + (order > 0 ? 1 : -1));
             ;
             candidate = candidate.plusDays(order > 0 ? 1 : -1)
         ) {
