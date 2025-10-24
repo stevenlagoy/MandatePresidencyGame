@@ -34,6 +34,7 @@ import main.core.characters.attributes.names.Name;
 import main.core.demographics.Demographics;
 import main.core.map.Municipality;
 import main.core.politics.Issue;
+import main.core.politics.Party;
 import main.core.politics.Position;
 
 /**
@@ -121,6 +122,7 @@ public class PoliticalActor extends Character implements HasPersonality {
      * the standard political compass model in Cartesian space.
      */
     private int[] alignments;
+    private Party partyAlignment;
     /** A List of Experiences representing the experiences of this PoliticalActor. */
     private List<Experience> experiences;
     /** A Skills object representing the legislative, executive, and judicial skills (and aptitude) of this PoliticalActor. */
@@ -340,6 +342,13 @@ public class PoliticalActor extends Character implements HasPersonality {
         if (alignment < -100 || alignment > 100)
             throw new IllegalArgumentException("Alignment values must be between -100 and +100, not " + String.valueOf(alignment));
         this.alignments[1] = alignment;
+    }
+
+    public Party getPartyAlignment() {
+        return partyAlignment;
+    }
+    public void setPartyAlignment(Party party) {
+        this.partyAlignment = party;
     }
 
     // Experiences
