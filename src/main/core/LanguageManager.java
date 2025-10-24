@@ -115,7 +115,6 @@ public final class LanguageManager extends Manager {
     
     // Game Language : Language
     public Language getGameLanguage() {
-        if (currentState != ManagerState.ACTIVE) throw new IllegalStateException(this.getClass().getSimpleName() + " has not been initialized.");
         return gameLanguage;
     }
     /**
@@ -123,7 +122,6 @@ public final class LanguageManager extends Manager {
      * @return {@code true} if successfully loaded and set language, {@code false} otherwise.
      */
     public boolean setGameLanguage(Language language) {
-        if (currentState != ManagerState.ACTIVE) throw new IllegalStateException(this.getClass().getSimpleName() + " has not been initialized.");
         if (loadLocalizations(language)) {
             gameLanguage = language;
             return true;
@@ -137,7 +135,6 @@ public final class LanguageManager extends Manager {
      * @see #getLocalization(String, Language)
     */
     public String getLocalization(String tag) {
-        if (currentState != ManagerState.ACTIVE) throw new IllegalStateException(this.getClass().getSimpleName() + " has not been initialized.");
         if (gameLanguage == null) {
             Logger.log("UNINITIALIZED GAME LANGUAGE", String.format("The game language was never initialized or was set to null."), new Exception());
             return null;
@@ -151,7 +148,6 @@ public final class LanguageManager extends Manager {
      * be returned and the failure will be logged.
      */
     public String getLocalization(String tag, Language language) {
-        if (currentState != ManagerState.ACTIVE) throw new IllegalStateException(this.getClass().getSimpleName() + " has not been initialized.");
         if (!loadLocalizations(language)) {
             return "INVALID LANGUAGE";
         }
@@ -184,8 +180,6 @@ public final class LanguageManager extends Manager {
 
     /** Load the localizations for a given language. */
     public boolean loadLocalizations(Language language) {
-        if (currentState != ManagerState.ACTIVE) throw new IllegalStateException(this.getClass().getSimpleName() + " has not been initialized.");
-
         if (localizations.containsKey(language)) return true;
         
         boolean successFlag = true;
@@ -209,7 +203,6 @@ public final class LanguageManager extends Manager {
     
     @Override
     public String toRepr() {
-        if (currentState != ManagerState.ACTIVE) throw new IllegalStateException(this.getClass().getSimpleName() + " has not been initialized.");
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'toRepr'");
     }
