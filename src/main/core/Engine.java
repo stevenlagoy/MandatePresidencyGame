@@ -340,6 +340,17 @@ public final class Engine extends Manager {
         throw new UnsupportedOperationException("Unimplemented method 'fromRepr'");
     }
 
+    private static final Map<String, String> fieldsJsons = Map.of(
+        "LANGUAGE_MANAGER", "language_manager",
+        "TIME_MANAGER", "time_manager",
+        "EVENT_MANAGER", "event_manager",
+        "DEMOGRAPHICS_MANAGER", "demographics_manager",
+        "MAP_MANAGER", "map_manager",
+        "NAME_MANAGER", "name_manager",
+        "CHARACTER_MANAGER", "character_manager",
+        "GRAPHICS_MANAGER", "graphics_manager"
+    );
+
     @Override
     public JSONObject toJson() {
         try {
@@ -359,17 +370,6 @@ public final class Engine extends Manager {
             return null;
         }
     }
-
-    private static final Map<String, String> fieldsJsons = Map.of(
-        "LANGUAGE_MANAGER", "language_manager",
-        "TIME_MANAGER", "time_manager",
-        "EVENT_MANAGER", "event_manager",
-        "DEMOGRAPHICS_MANAGER", "demographics_manager",
-        "MAP_MANAGER", "map_manager",
-        "NAME_MANAGER", "name_manager",
-        "CHARACTER_MANAGER", "character_manager",
-        "GRAPHICS_MANAGER", "graphics_manager"
-    );
 
     @Override
     public Manager fromJson(JSONObject json) {
