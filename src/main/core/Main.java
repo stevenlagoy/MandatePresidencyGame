@@ -6,6 +6,8 @@
 package main.core;
 
 import main.core.characters.Character;
+import main.core.characters.CharacterManager;
+import main.core.characters.attributes.names.NameManager;
 
 public class Main {
 

@@ -132,14 +132,21 @@ public final class MapManager extends Manager {
 
         // Create Map data
         successFlag = successFlag && createStates(false);
+        Logger.log(String.format("States complete"));
         successFlag = successFlag && createCongressionalDistricts();
+        Logger.log(String.format("Congressional districts complete"));
         successFlag = successFlag && createCounties(false);
+        Logger.log(String.format("Counties complete"));
         successFlag = successFlag && createMunicipalities();
+        Logger.log(String.format("Municipalities complete"));
 
         // Resolve location fields
         successFlag = successFlag && resolveCapitals();
+        Logger.log(String.format("Capitals resolved"));
         successFlag = successFlag && resolveCountySeats();
+        Logger.log(String.format("County seats resolved"));
         successFlag = successFlag && resolveGovernmentOfficials();
+        Logger.log(String.format("Government officials resolved"));
 
         currentState = successFlag ? ManagerState.ACTIVE : ManagerState.ERROR;
         double endTime = Main.Engine().getProgramTime(); 
@@ -274,18 +281,22 @@ public final class MapManager extends Manager {
         boolean successFlag = true;
         successFlag = successFlag && nation.getPresident() != null;
         successFlag = successFlag && nation.getVicePresident() != null;
+        Logger.log(String.format("President and VP generated"));
         for (State state : states) {
             state.setSenators(state.getSenators());
             state.setGovernor(state.getGovernor());
             state.setLieutenantGovernor(state.getLieutenantGovernor());
         }
+        Logger.log(String.format("State officials generated"));
         for (CongressionalDistrict district : congressionalDistricts) {
             district.setRepresentative(district.getRepresentative());
         }
+        Logger.log(String.format("District officials generated"));
         for (Municipality municipality : municipalities) {
             // municipality.setMayor(municipality.getMayor()); // not all municipalities in the United States have a mayor, this varies by state. Also generating a character for EVERY municipality introduces massiave bloat
-            if (municipality.getPopulation() >= 100000) municipality.setMayor(municipality.getMayor());
+            if (municipality.getPopulation() >= 1000000) municipality.setMayor(municipality.getMayor());
         }
+        Logger.log(String.format("Municipal officials generated"));
         return successFlag;
     }
 
