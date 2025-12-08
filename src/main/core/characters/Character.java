@@ -320,7 +320,7 @@ public class Character implements Repr<Character>, Jsonic<Character> {
         fields.add(new JSONObject("residence", residenceMunicipality.getNameWithCountyAndState()));
         fields.add(new JSONObject("birthday", birthday.toString()));
         fields.add(appearance.toJson());
-        return new JSONObject(getName().getBiographicalName(), fields);
+        return new JSONObject(String.format("%d", hashCode()), fields);
     }
     
     /**
