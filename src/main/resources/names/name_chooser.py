@@ -1,11 +1,12 @@
 from typing import Any, List, Dict, Tuple, Set
 import itertools
 import json
+import random
 
 DIR = "src\\main\\resources\\names\\"
-FIRSTNAMES_FILE = DIR + "test_firstnames.json"
-MIDDLENAMES_FILE = DIR + "middlename_distribution.json"
-LASTNAMES_FILE = DIR + "lastname_distribution.json"
+FIRSTNAMES_FILE = DIR + "given_names.json"
+MIDDLENAMES_FILE = DIR + "given_names.json"
+LASTNAMES_FILE = DIR + "family_names.json"
 
 def load_resources() -> Tuple[Dict[str, Dict[str, Any]], Dict[str, Dict[str, Any]], Dict[str, Any]]:
     firstnames: Dict[str, Dict[str, Any]] = {}
@@ -21,82 +22,96 @@ def load_resources() -> Tuple[Dict[str, Dict[str, Any]], Dict[str, Dict[str, Any
     return (firstnames, middlenames, lastnames)
 
 
-def get_possible_names(namespace: Dict[str, Any], *keys: str) -> Set[str]:
+def most_specific_paths(tree: Dict, targets: List[str] | Set[str]) -> List[List[str]]:
     '''
-    get_possible_names() searches a namespace based on a list of keys and finds the most specific possible set of names which fulfil all those keys.
-    Recursive function.
+    Docstring for most_specific_paths
     
-    :param namespace: Nested map of string bloc to name:popularity pairs or to same-type submaps.
-    :type namespace: Dict[str, Any]
-    :param keys: Strings to fulfill as keys in the namespace. All keys will be fulfilled with greatest possible specificity in the namespace.
-    :type keys: str
-    :return: List of names based on the bloc keys.
-    :rtype: List[str]
+    :param tree: A tree-shaped dictionary (nested `dict[str, dict]`)
+    :type tree: Dict
+    :param targets: Target key strings in the tree
+    :type targets: List[str]
+    :return: The most specific paths (ordered list of keys) which cover all target keys
+    :rtype: List[List[str]]
     '''
-    res: Set[str] = set()
-    
-    # Find fewest number of lists which fulfill all the keys
-    # (Man + White + Christian) & (Man + White + Boomer) fulfills [Man, White, Christian, Boomer]
+    targets = set(targets)
 
-    # Generate key permutations. Each is a reordering of the keys
-    combinations: List[Tuple[str, ...]] = []
-    for r in range(len(keys) + 1):
-        for combo in itertools.combinations(keys, r):
-            combinations.append(combo)
+    # Collect all root-to-node paths
+    all_paths: List[List[str]] = []
 
-    working_combos: List[Tuple[str, ...]] = []
-    for combo in combinations:
-        works = True
-        it = namespace
-        for key in combo:
-            if key not in it:
-                works = False
-            if not works:
-                continue
-            it = it[key]
-        if works:
-            working_combos.append(combo)
+    def dfs(node: Dict, path: List[str] | None = None):
+        nonlocal all_paths
+        if path is None: path = []
+        for k, v in node.items():
+            if isinstance(v, dict):
+                new_path = path + [k]
+                all_paths.append(new_path)
+                dfs(v, new_path)
+    dfs(tree)
 
-    # Find the most specific combination of working combinations which fulfills all the keys
-    working_combo_combos: List[Tuple[Tuple[str, ...], ...]] = []
-    for r in range(len(working_combos) + 1):
-        for combo in itertools.combinations(working_combos, r):
-            working_combo_combos.append(combo)
-    
-    working_working_combo_combos = []
-    for working_combo_combo in working_combo_combos:
-        contained: List[str] = []
-        for working_combo in working_combo_combo:
-            for key in working_combo:
-                contained.append(key)
-        if all([key in contained for key in keys]):
-            # found one
-            working_working_combo_combos.append(working_combo_combo)
+    # For each path, compute covered targets
+    path_covers: List[Tuple[List[str], Set[str]]] = [ # Much data structures very wow
+        (p, set(p) & targets)
+        for p in all_paths
+        if set(p) & targets
+    ]
 
-    if len(working_working_combo_combos) < 1:
-        return res
-    # Find the shortest
-    shortest_idxs: List[int] = [0]
-    shortest_len = len(working_working_combo_combos[shortest_idxs[0]])
-    for i in range(len(working_working_combo_combos)):
-        if len(working_working_combo_combos[i]) < shortest_len:
-            shortest_idxs = [i]
-            shortest_len = len(working_working_combo_combos[i])
-        elif len(working_working_combo_combos[i]) == shortest_len:
-            shortest_idxs.append(i)
+    best_solution = None
+    best_score = None
 
-    bests = [working_working_combo_combos[shortest_idxs[i]] for i in shortest_idxs]
-    print(bests)
+    # Backtrack set cover with pruning
+    def backtrack(remaining: Set[str], chosen: List[List[str]] | None = None):
+        if chosen is None: chosen = []
+        nonlocal best_solution, best_score
 
+        score = (len(targets) - len(remaining), -len(chosen), -sum(len(p) for p in chosen))
+        if best_score is None or score > best_score:
+            best_score = score
+            best_solution = chosen[:] # shallow copy
+
+        # Prune if current sol'n cannot improve best score
+        if best_score and (len(targets) - len(remaining) + len(chosen) > best_score[0]):
+            return
+        
+        for path, covers in path_covers:
+            if covers & remaining:
+                backtrack(
+                    remaining - covers,
+                    chosen + [path]
+                )
+    backtrack(targets)
+
+    return best_solution or []
+
+def get_names(tree: Dict, paths: List[List[str]]) -> List[str]:
+    res: List[str] = []
+    for path in paths:
+        current = tree
+        for key in path:
+            current = current[key] # May throw KeyError
+        for name in current:
+            res.append(name)
     return res
+
+def choose_name(names: List[str]) -> str | None:
+    if len(names) == 0: return None
+    return random.choice(names)
 
 def main() -> None:
     (firstnames, middlenames, lastnames) = load_resources()
 
-    keys = ["Man", "White", "Christian", "Boomer"]
-    keys = get_possible_names(firstnames, *keys)
+    keys = ["Man", "White", "Anglo", "Christian", "Baby Boomer"]
+    given_keys = most_specific_paths(firstnames, keys)
+    family_keys = most_specific_paths(lastnames, keys)
+    first_names = get_names(firstnames, given_keys)
+    middle_names = get_names(middlenames, given_keys)
+    last_names = get_names(lastnames, family_keys)
 
-    print(keys)
+    for _ in range(100):
+        firstname = choose_name(first_names)
+        middlename = choose_name(middle_names)
+        lastname = choose_name(last_names)
+
+        print(f"{firstname} {middlename} {lastname}")
 
 if __name__ == "__main__":
     main()
