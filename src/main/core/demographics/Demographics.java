@@ -5,10 +5,10 @@ import java.util.List;
 
 import core.JSONObject;
 import main.core.Jsonic;
-import main.core.Logger;
 import main.core.Main;
 import main.core.Repr;
 import main.core.demographics.DemographicsManager.DemographicCategory;
+import main.core.utils.Logger;
 
 public class Demographics implements Repr<Demographics>, Jsonic<Demographics> {
     

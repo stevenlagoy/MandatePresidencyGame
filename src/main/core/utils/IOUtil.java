@@ -7,7 +7,7 @@
  * Modified: 01 June 2025
  */
 
-package main.core;
+package main.core.utils;
 
 // IMPORTS ----------------------------------------------------------------------------------------
 

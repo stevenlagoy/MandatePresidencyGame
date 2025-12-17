@@ -1,6 +1,7 @@
 package main.core.demographics;
 
 import java.util.List;
+import java.util.Objects;
 
 import core.JSONObject;
 import main.core.Jsonic;
@@ -78,6 +79,7 @@ public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
         Bloc.instances.add(this);
         if(!demographics.containsKey(category))
             demographics.put(category, new HashSet<Bloc>());
+        System.out.println(name);
         demographics.get(category).add(this);
     }
 
@@ -211,5 +213,20 @@ public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
     public Bloc fromJson(JSONObject json) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'fromJson'");
+    }
+
+    // OBJECT METHODS -----------------------------------------------------------------------------
+
+    @Override
+    public boolean equals(Object o) {
+        if (!(o instanceof Bloc b)) return false;
+        return this.name.equals(b.name) &&
+               this.numVoters == b.numVoters &&
+               this.superBloc.equals(b.superBloc);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(numVoters, name, superBloc);
     }
 }

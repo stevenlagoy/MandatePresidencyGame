@@ -5,9 +5,9 @@ import org.joml.Vector4f;
 import org.lwjgl.glfw.GLFWErrorCallback;
 
 import core.JSONObject;
-import main.core.Logger;
 import main.core.Main;
 import main.core.Manager;
+import main.core.utils.Logger;
 
 public final class GraphicsManager extends Manager {
 

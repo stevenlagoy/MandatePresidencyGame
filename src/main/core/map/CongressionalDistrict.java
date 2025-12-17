@@ -17,11 +17,11 @@ import java.util.Set;
 import core.JSONObject;
 import main.core.Jsonic;
 import main.core.Main;
-import main.core.NumberOperations;
 import main.core.Repr;
 import main.core.characters.FederalOfficial;
 import main.core.characters.FederalOfficial.FederalRole;
 import main.core.demographics.Bloc;
+import main.core.utils.NumberOperations;
 
 public class CongressionalDistrict implements MapEntity, Repr<State>, Jsonic<State> {
 

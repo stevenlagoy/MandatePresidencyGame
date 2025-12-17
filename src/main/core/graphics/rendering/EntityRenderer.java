@@ -11,8 +11,6 @@ import org.lwjgl.opengl.GL15;
 import org.lwjgl.opengl.GL20;
 import org.lwjgl.opengl.GL30;
 
-import main.core.FilePaths;
-import main.core.Logger;
 import main.core.Main;
 import main.core.graphics.Camera;
 import main.core.graphics.GraphicsManager;
@@ -27,6 +25,8 @@ import main.core.graphics.lighting.PointLight;
 import main.core.graphics.lighting.SpotLight;
 import main.core.graphics.ui.Container;
 import main.core.graphics.utils.Utils;
+import main.core.utils.FilePaths;
+import main.core.utils.Logger;
 
 public class EntityRenderer implements IRenderer<Object> {
 

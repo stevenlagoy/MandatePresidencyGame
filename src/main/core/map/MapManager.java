@@ -16,14 +16,14 @@ import java.util.Set;
 import core.JSONObject;
 import core.JSONProcessor;
 import core.StringOperations;
-import main.core.FilePaths;
-import main.core.Logger;
 import main.core.Main;
 import main.core.Manager;
-import main.core.NumberOperations;
 import main.core.demographics.Bloc;
 import main.core.demographics.Demographics;
 import main.core.map.travel.route.Airport;
+import main.core.utils.FilePaths;
+import main.core.utils.Logger;
+import main.core.utils.RandomOperations;
 
 public final class MapManager extends Manager {
 
@@ -499,7 +499,7 @@ public final class MapManager extends Manager {
         for (Municipality municipality : municipalities) {
             populations.put(municipality, municipality.getPopulation());
         }
-        Municipality selected = NumberOperations.weightedRandSelect(populations);
+        Municipality selected = RandomOperations.weightedRandSelect(populations);
         return selected;
     }
     public Municipality selectMunicipality(Demographics demographics) {
@@ -511,7 +511,7 @@ public final class MapManager extends Manager {
             }
             populations.put(municipality, blocsPop);
         }
-        Municipality selected = NumberOperations.weightedRandSelect(populations);
+        Municipality selected = RandomOperations.weightedRandSelect(populations);
         return selected;
     }
 

@@ -16,6 +16,8 @@ import java.util.Map;
 
 import core.JSONObject;
 import core.JSONProcessor;
+import main.core.utils.FilePaths;
+import main.core.utils.Logger;
 
 /** 
  * The LanguageManager tracks the current game language and provides localization for tags.

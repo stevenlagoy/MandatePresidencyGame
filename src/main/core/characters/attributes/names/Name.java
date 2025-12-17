@@ -18,10 +18,10 @@ import java.util.Set;
 
 // Internal Imports
 import core.JSONObject;
-import main.core.IOUtil;
 import main.core.Jsonic;
-import main.core.Logger;
 import main.core.Repr;
+import main.core.utils.IOUtil;
+import main.core.utils.Logger;
 
 /** Models the Personal Name of a Character, with options for several Name Forms, Patterns, and Display Options.
  * <p>

@@ -3,9 +3,9 @@ package main.core.graphics.entity;
 import java.util.HashMap;
 import java.util.Map;
 
-import main.core.FilePaths;
-import main.core.IOUtil;
 import main.core.graphics.ObjectLoader;
+import main.core.utils.FilePaths;
+import main.core.utils.IOUtil;
 
 public class TextureManager {
     

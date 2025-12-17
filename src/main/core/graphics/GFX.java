@@ -3,8 +3,8 @@ package main.core.graphics;
 import java.util.HashMap;
 import java.util.Map;
 
-import main.core.Logger;
 import main.core.graphics.entity.TextureManager;
+import main.core.utils.Logger;
 
 public class GFX {
 

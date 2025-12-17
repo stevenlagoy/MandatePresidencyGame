@@ -17,16 +17,12 @@ import java.util.Set;
 
 import core.JSONObject;
 import core.Jsonic;
-
-// IMPORTS ----------------------------------------------------------------------------------------
-
-// Internal Imports
-import main.core.Logger;
 import main.core.Main;
 import main.core.Repr;
 import main.core.characters.CharacterManager;
 import main.core.characters.FederalOfficial;
 import main.core.demographics.Bloc;
+import main.core.utils.Logger;
 
 /**
  * Singleton class holding values for the Nation, or the United States.

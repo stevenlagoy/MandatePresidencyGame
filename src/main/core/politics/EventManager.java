@@ -8,9 +8,9 @@
 package main.core.politics;
 
 import core.JSONObject;
-import main.core.Logger;
 import main.core.Main;
 import main.core.Manager;
+import main.core.utils.Logger;
 
 public class EventManager extends Manager {
 

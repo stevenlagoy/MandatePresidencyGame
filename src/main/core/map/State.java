@@ -21,7 +21,6 @@ import java.util.Set;
 // Internal Imports
 import core.JSONObject;
 import main.core.Jsonic;
-import main.core.Logger;
 import main.core.Main;
 import main.core.Repr;
 import main.core.characters.FederalOfficial;
@@ -33,6 +32,7 @@ import main.core.demographics.Bloc;
 import main.core.politics.ElectionResult;
 import main.core.politics.Legislature;
 import main.core.politics.Party;
+import main.core.utils.Logger;
 
 /**
  * Map entity for the second-largest geographical division, including States, Commonwealths, District, and Territories.

@@ -1,4 +1,4 @@
-package main.core;
+package main.core.utils;
 
 import java.util.List;
 import java.nio.file.Path;
@@ -33,9 +33,8 @@ public abstract class FilePaths {
     // CHARACTER MANAGER PATHS
     public static final Path BIRTHDATE_DISTR            = DATES_RESOURCES.resolve("birthdate_popularities.json");
     public static final Path BIRTHYEAR_DISTR            = DATES_RESOURCES.resolve("birthyear_percentages.json");
-    public static final Path FIRSTNAME_DISTR            = NAMES_RESOURCES.resolve("firstname_distributions.json");
-    public static final Path MIDDLENAME_DISTR           = NAMES_RESOURCES.resolve("middlename_distribution.json");
-    public static final Path LASTNAME_DISTR             = NAMES_RESOURCES.resolve("lastname_distribution.json");
+    public static final Path GIVEN_NAMES                = NAMES_RESOURCES.resolve("given_names.json");
+    public static final Path FAMILY_NAMES               = NAMES_RESOURCES.resolve("family_names.json");
     public static final Path NICKNAMES                  = NAMES_RESOURCES.resolve("nicknames.json");
 
     // MAP MANAGER FILES

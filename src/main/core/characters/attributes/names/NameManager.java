@@ -19,16 +19,17 @@ import java.util.Set;
 
 import core.JSONObject;
 import core.JSONProcessor;
-import main.core.FilePaths;
-import main.core.Logger;
 import main.core.Main;
 import main.core.Manager;
-import main.core.NumberOperations;
 import main.core.characters.attributes.names.Name.DisplayOption;
 import main.core.characters.attributes.names.Name.NameForm;
 import main.core.demographics.Bloc;
 import main.core.demographics.Demographics;
 import main.core.demographics.DemographicsManager.DemographicCategory;
+import main.core.utils.FilePaths;
+import main.core.utils.Logger;
+import main.core.utils.NumberOperations;
+import main.core.utils.RandomOperations;
 
 /**
  * NameManager manages the generation of Name objects.
@@ -590,7 +591,7 @@ public final class NameManager extends Manager {
 
     public NameForm selectNameForm(Demographics demographics) {
         if (demographics.getRaceEthnicity().getNestedNames().contains("Asian")) {
-            if (NumberOperations.randPercent() <= asianEasternNamePercent) {
+            if (RandomOperations.randPercent() <= asianEasternNamePercent) {
                 return NameForm.EASTERN;
             }
         }
@@ -598,12 +599,12 @@ public final class NameManager extends Manager {
             if (demographics.getRaceEthnicity().getNestedNames().contains("Argentinian")) {
                 return NameForm.WESTERN; // Only the paternal apellido is inherited in the Argentinian custom
             }
-            if (NumberOperations.randPercent() <= hispanicHispanicNamePercent) {
+            if (RandomOperations.randPercent() <= hispanicHispanicNamePercent) {
                 return NameForm.HISPANIC;
             }
         }
         else if (demographics.getRaceEthnicity().getNestedNames().contains("Native / Indian")) {
-            if (NumberOperations.randPercent() <= nativeNativeNamePercent) {
+            if (RandomOperations.randPercent() <= nativeNativeNamePercent) {
                 return NameForm.NATIVE_AMERICAN;
             }
         }
@@ -621,7 +622,7 @@ public final class NameManager extends Manager {
     public String selectGivenName(Collection<Bloc> blocs) {
         Set<Bloc> key = Set.of(blocs.toArray(new Bloc[0]));
         key = refineBlocsKey(key);
-        return NumberOperations.weightedRandSelect(getFirstNamesDistribution(key));
+        return RandomOperations.weightedRandSelect(getFirstNamesDistribution(key));
     }
 
     public String selectFamilyName(Demographics demographics) {
@@ -635,7 +636,7 @@ public final class NameManager extends Manager {
     public String selectFamilyName(Collection<Bloc> blocs) {
         Set<Bloc> key = Set.of(blocs.toArray(new Bloc[0]));
         key = refineBlocsKey(key, DemographicCategory.PRESENTATION);
-        return NumberOperations.weightedRandSelect(getLastNameDistribution(key));
+        return RandomOperations.weightedRandSelect(getLastNameDistribution(key));
     }
 
     @SuppressWarnings("unused")
@@ -644,21 +645,21 @@ public final class NameManager extends Manager {
         // (with their preferred first name being most commonly nicked)
         // or may be completely separate from their actual names.
         List<String> allNicknames;
-        if (NumberOperations.randPercent() <= nicknameNotFromNamesPercent && false) {
+        if (RandomOperations.randPercent() <= nicknameNotFromNamesPercent && false) {
             // Disabled this because names from other blocs were being chosen too frequently: unrealistic numbers of women with masculine nicknames
             // Nickname not based on given names
             allNicknames = new ArrayList<>();
             for (List<String> nicksList : nicknames.values()) {
                     allNicknames.addAll(nicksList);
             }
-            return NumberOperations.randSelect(allNicknames);
+            return RandomOperations.randSelect(allNicknames);
         }
         else {
             // Nickname is based on given names
-            String n = NumberOperations.randSelect(names); // Select a name to nick
+            String n = RandomOperations.randSelect(names); // Select a name to nick
             allNicknames = nicknames.get(n);
             if (allNicknames != null)
-                return NumberOperations.randSelect(allNicknames);
+                return RandomOperations.randSelect(allNicknames);
         }
         return "";
     }
@@ -667,19 +668,19 @@ public final class NameManager extends Manager {
         int[] counts = {0, 0, 0};
         switch (form) {
             case WESTERN :
-                counts[0] = NumberOperations.probabilisticCount(multipleFirstNamesPercent) + 1;
-                counts[1] = NumberOperations.randPercent() <= hasMiddleNamePercent ? 1 : 0;
-                if (counts[1] == 1) counts[1] += NumberOperations.probabilisticCount(multipleMiddleNamesPercent);
-                counts[2] = NumberOperations.probabilisticCount(doubleBarrelledNamePercent) + 1;
+                counts[0] = RandomOperations.probabilisticCount(multipleFirstNamesPercent) + 1;
+                counts[1] = RandomOperations.randPercent() <= hasMiddleNamePercent ? 1 : 0;
+                if (counts[1] == 1) counts[1] += RandomOperations.probabilisticCount(multipleMiddleNamesPercent);
+                counts[2] = RandomOperations.probabilisticCount(doubleBarrelledNamePercent) + 1;
                 break;
             case EASTERN :
                 counts[0] = 1;
-                counts[1] = NumberOperations.randPercent() <= hasGenerationNamePercent ? 1 : 0;
+                counts[1] = RandomOperations.randPercent() <= hasGenerationNamePercent ? 1 : 0;
                 counts[2] = 1;
                 break;
             case HISPANIC :
-                counts[0] = NumberOperations.probabilisticCount(hispanicMultipleForenamesPercent) + 1;
-                counts[2] = NumberOperations.probabilisticCount(hispanicCompositeSurnamePercent) + 2;
+                counts[0] = RandomOperations.probabilisticCount(hispanicMultipleForenamesPercent) + 1;
+                counts[2] = RandomOperations.probabilisticCount(hispanicCompositeSurnamePercent) + 2;
                 break;
             case NATIVE_AMERICAN :
                 counts[0] = 1;
@@ -717,7 +718,7 @@ public final class NameManager extends Manager {
                 break;
             case HISPANIC:
                 String[] conjoiners = {" y ", " de ", "-"};
-                int divide = NumberOperations.randInt(1, familyNames.length - 1);
+                int divide = RandomOperations.randInt(1, familyNames.length - 1);
                 String[] paternalNames = Arrays.copyOfRange(familyNames, 0, divide);
                 String[] maternalNames = Arrays.copyOfRange(familyNames, divide, familyNames.length);
                 String paternalName = "";
@@ -726,7 +727,7 @@ public final class NameManager extends Manager {
                         paternalName = n;
                         continue;
                     }
-                    paternalName = paternalName + NumberOperations.randSelect(conjoiners) + n;
+                    paternalName = paternalName + RandomOperations.randSelect(conjoiners) + n;
                 }
                 String maternalName = "";
                 for (String n : maternalNames) {
@@ -734,7 +735,7 @@ public final class NameManager extends Manager {
                         maternalName = n;
                         continue;
                     }
-                    maternalName = maternalName + NumberOperations.randSelect(conjoiners) + n;
+                    maternalName = maternalName + RandomOperations.randSelect(conjoiners) + n;
                 }
                 if (demographics.getRaceEthnicity().getNestedNames().contains("Brazilian")) {
                     // Brazilian names list the Maternal surname first
@@ -744,14 +745,14 @@ public final class NameManager extends Manager {
                 }
                 name.setPaternalName(paternalName);
                 name.setMaternalName(maternalName);
-                if (NumberOperations.randPercent() <= maternalNameFirstPercent)
+                if (RandomOperations.randPercent() <= maternalNameFirstPercent)
                     name.addDisplayOption(DisplayOption.MATERNAL_FIRST);
                 else
                     name.addDisplayOption(DisplayOption.PATERNAL_FIRST);
                 break;
             case NATIVE_AMERICAN:
             case WESTERN:
-                if (NumberOperations.randPercent() <= hyphenatedNamePercent)
+                if (RandomOperations.randPercent() <= hyphenatedNamePercent)
                     name.setFamilyName(String.join("-", familyNames));
                 else
                     name.setFamilyName(String.join(" ", familyNames));
@@ -801,7 +802,7 @@ public final class NameManager extends Manager {
         
         // Western Name
         if (form != NameForm.WESTERN && form != NameForm.HISPANIC) {
-            if (NumberOperations.randPercent() <= hasWesternNamePercent) {
+            if (RandomOperations.randPercent() <= hasWesternNamePercent) {
                 String westernName = selectGivenName(demographics.getPresentation(), Main.Engine().DemographicsManager().matchBlocName("White"));
                 name.setWesternName(westernName);
                 name.addDisplayOption(DisplayOption.INCLUDE_WESTERN);
@@ -820,14 +821,14 @@ public final class NameManager extends Manager {
 
         // Abbreviation
         if (form.equals(NameForm.WESTERN)) {
-            if (NumberOperations.randPercent() <= abbreviateBothNamesPercent) {
+            if (RandomOperations.randPercent() <= abbreviateBothNamesPercent) {
                 name.addDisplayOption(DisplayOption.ABBREVIATE_FIRST);
                 name.addDisplayOption(DisplayOption.ABBREVIATE_MIDDLE);
             }
-            else if (NumberOperations.randPercent() <= abbreviateFirstNamesPercent) {
+            else if (RandomOperations.randPercent() <= abbreviateFirstNamesPercent) {
                 name.addDisplayOption(DisplayOption.ABBREVIATE_FIRST);
             }
-            else if (NumberOperations.randPercent() <= abbreviateMiddleNamesPercent) {
+            else if (RandomOperations.randPercent() <= abbreviateMiddleNamesPercent) {
                 name.addDisplayOption(DisplayOption.ABBREVIATE_MIDDLE);
             }
         }

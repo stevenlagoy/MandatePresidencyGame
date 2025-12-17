@@ -20,11 +20,8 @@ import java.util.stream.IntStream;
 
 import core.JSONObject;
 import core.JSONProcessor;
-import main.core.FilePaths;
-import main.core.Logger;
 import main.core.Main;
 import main.core.Manager;
-import main.core.NumberOperations;
 import main.core.TimeManager;
 import main.core.characters.FederalOfficial.FederalRole;
 import main.core.characters.attributes.CharacterModel;
@@ -34,6 +31,10 @@ import main.core.demographics.Bloc;
 import main.core.demographics.Demographics;
 import main.core.demographics.DemographicsManager;
 import main.core.map.Nation;
+import main.core.utils.FilePaths;
+import main.core.utils.Logger;
+import main.core.utils.NumberOperations;
+import main.core.utils.RandomOperations;
 
 /**
  * CharacterManager manages the generation, access, control, and interaction of Character classes (including the Player).
@@ -384,14 +385,14 @@ public final class CharacterManager extends Manager {
 
         // Select a year
         HashMap<Integer, Double> ageDistribution = CharacterManager.getAgeDistribution(demographics);
-        year = NumberOperations.weightedRandSelect(ageDistribution);
+        year = RandomOperations.weightedRandSelect(ageDistribution);
         
         // Select a month
-        month = NumberOperations.randSelect(IntStream.rangeClosed(1, 12).boxed().toArray(Integer[]::new));
+        month = RandomOperations.randSelect(IntStream.rangeClosed(1, 12).boxed().toArray(Integer[]::new));
 
         // Select a day
         // TODO monthsDurationsDays does not hold historical data, only data for 2027-29
-        day = NumberOperations.randSelect(IntStream.rangeClosed(1, TimeManager.monthsDurationsDays[month-1]).boxed().toArray(Integer[]::new));
+        day = RandomOperations.randSelect(IntStream.rangeClosed(1, TimeManager.monthsDurationsDays[month-1]).boxed().toArray(Integer[]::new));
 
         return LocalDate.of(year, month, day);
     }

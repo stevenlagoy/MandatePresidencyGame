@@ -21,7 +21,6 @@ import java.util.Set;
 
 // Internal Imports
 import core.JSONObject;
-import main.core.Logger;
 import main.core.Main;
 import main.core.Repr;
 import main.core.characters.attributes.CharacterModel;
@@ -36,6 +35,7 @@ import main.core.map.Municipality;
 import main.core.politics.Issue;
 import main.core.politics.Party;
 import main.core.politics.Position;
+import main.core.utils.Logger;
 
 /**
  * A Character subclass which represents a Character who may interact with political systems, like leaders, lobbyists, or candidates.
