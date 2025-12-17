@@ -24,8 +24,6 @@ def load_resources() -> Tuple[Dict[str, Dict[str, Any]], Dict[str, Dict[str, Any
 
 def most_specific_paths(tree: Dict, targets: List[str] | Set[str]) -> List[List[str]]:
     '''
-    Docstring for most_specific_paths
-    
     :param tree: A tree-shaped dictionary (nested `dict[str, dict]`)
     :type tree: Dict
     :param targets: Target key strings in the tree
@@ -58,7 +56,7 @@ def most_specific_paths(tree: Dict, targets: List[str] | Set[str]) -> List[List[
     best_solution = None
     best_score = None
 
-    # Backtrack set cover with pruning
+    # Backtrack set cover
     def backtrack(remaining: Set[str], chosen: List[List[str]] | None = None):
         if chosen is None: chosen = []
         nonlocal best_solution, best_score
@@ -67,11 +65,10 @@ def most_specific_paths(tree: Dict, targets: List[str] | Set[str]) -> List[List[
         if best_score is None or score > best_score:
             best_score = score
             best_solution = chosen[:] # shallow copy
-
-        # Prune if current sol'n cannot improve best score
-        if best_score and (len(targets) - len(remaining) + len(chosen) > best_score[0]):
-            return
         
+        # Pruning was removed to explore all combinations:
+        # Observed that a tree { A: {C: {...}, ...}, B: {C: {...}, ...}} was returning [[A, C], [B]] instead of [[A, C], [B, C]].
+
         for path, covers in path_covers:
             if covers & remaining:
                 backtrack(
