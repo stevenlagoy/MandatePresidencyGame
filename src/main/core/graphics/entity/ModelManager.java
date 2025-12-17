@@ -9,9 +9,9 @@ import org.lwjgl.opengl.GL15;
 import org.lwjgl.opengl.GL20;
 import org.lwjgl.opengl.GL30;
 
-import main.core.FilePaths;
-import main.core.IOUtil;
 import main.core.graphics.ObjectLoader;
+import main.core.utils.FilePaths;
+import main.core.utils.IOUtil;
 
 public class ModelManager {
     

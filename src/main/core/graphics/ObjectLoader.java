@@ -21,11 +21,11 @@ import org.lwjgl.opengl.GL30;
 import org.lwjgl.stb.STBImage;
 import org.lwjgl.system.MemoryStack;
 
-import main.core.FilePaths;
-import main.core.IOUtil;
 import main.core.graphics.entity.AnimatedTexture;
 import main.core.graphics.entity.Model;
 import main.core.graphics.utils.Utils;
+import main.core.utils.FilePaths;
+import main.core.utils.IOUtil;
 
 import org.joml.Vector2f;
 import org.joml.Vector3f;

@@ -17,12 +17,13 @@ import java.util.Set;
 
 import core.JSONObject;
 import core.JSONProcessor;
-import main.core.FilePaths;
-import main.core.Logger;
 import main.core.Main;
 import main.core.Manager;
-import main.core.NumberOperations;
 import main.core.characters.Character;
+import main.core.utils.FilePaths;
+import main.core.utils.Logger;
+import main.core.utils.NumberOperations;
+import main.core.utils.RandomOperations;
 
 /**
  * DemographicsManager is responsible for generating, storing, and calculating demographic data.
@@ -198,7 +199,7 @@ public class DemographicsManager extends Manager {
             for (Bloc bloc : blocs) {
                 blocsWeights.put(bloc, bloc.getPercentageVoters());
             }
-            Bloc selected = NumberOperations.weightedRandSelect(blocsWeights);
+            Bloc selected = RandomOperations.weightedRandSelect(blocsWeights);
             switch (selected.getDemographicGroup()) {
                 case GENERATION :
                     demographics.setGeneration(selected);
@@ -233,21 +234,21 @@ public class DemographicsManager extends Manager {
     public Demographics randomDemographics() {
         Bloc generation, religion, raceEthnicity, presentation;
         try {
-            generation = demographicBlocs.get(DemographicCategory.GENERATION).get(NumberOperations.randInt(demographicBlocs.get(DemographicCategory.GENERATION).size() - 1));
+            generation = demographicBlocs.get(DemographicCategory.GENERATION).get(RandomOperations.randInt(demographicBlocs.get(DemographicCategory.GENERATION).size() - 1));
             while (generation.getSubBlocs().size() != 0) {
-                generation = generation.getSubBlocs().get(NumberOperations.randInt(generation.getSubBlocs().size() - 1));
+                generation = generation.getSubBlocs().get(RandomOperations.randInt(generation.getSubBlocs().size() - 1));
             }
-            religion = demographicBlocs.get(DemographicCategory.RELIGION).get(NumberOperations.randInt(demographicBlocs.get(DemographicCategory.RELIGION).size() - 1));
+            religion = demographicBlocs.get(DemographicCategory.RELIGION).get(RandomOperations.randInt(demographicBlocs.get(DemographicCategory.RELIGION).size() - 1));
             while (religion.getSubBlocs().size() != 0) {
-                religion = religion.getSubBlocs().get(NumberOperations.randInt(religion.getSubBlocs().size() - 1));
+                religion = religion.getSubBlocs().get(RandomOperations.randInt(religion.getSubBlocs().size() - 1));
             }
-            raceEthnicity = demographicBlocs.get(DemographicCategory.RACE_ETHNICITY).get(NumberOperations.randInt(demographicBlocs.get(DemographicCategory.RACE_ETHNICITY).size() - 1));
+            raceEthnicity = demographicBlocs.get(DemographicCategory.RACE_ETHNICITY).get(RandomOperations.randInt(demographicBlocs.get(DemographicCategory.RACE_ETHNICITY).size() - 1));
             while (raceEthnicity.getSubBlocs().size() != 0) {
-                raceEthnicity = raceEthnicity.getSubBlocs().get(NumberOperations.randInt(raceEthnicity.getSubBlocs().size() - 1));
+                raceEthnicity = raceEthnicity.getSubBlocs().get(RandomOperations.randInt(raceEthnicity.getSubBlocs().size() - 1));
             }
-            presentation = demographicBlocs.get(DemographicCategory.PRESENTATION).get(NumberOperations.randInt(demographicBlocs.get(DemographicCategory.PRESENTATION).size() - 1));
+            presentation = demographicBlocs.get(DemographicCategory.PRESENTATION).get(RandomOperations.randInt(demographicBlocs.get(DemographicCategory.PRESENTATION).size() - 1));
             while (presentation.getSubBlocs().size() != 0) {
-                presentation = presentation.getSubBlocs().get(NumberOperations.randInt(presentation.getSubBlocs().size() - 1));
+                presentation = presentation.getSubBlocs().get(RandomOperations.randInt(presentation.getSubBlocs().size() - 1));
             }
             return new Demographics(generation, religion, raceEthnicity, presentation);
         }

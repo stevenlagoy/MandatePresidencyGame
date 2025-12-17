@@ -21,12 +21,12 @@ import java.util.TimeZone;
 // Internal Imports
 import core.JSONObject;
 import main.core.Jsonic;
-import main.core.Logger;
 import main.core.Main;
 import main.core.Repr;
 import main.core.characters.LocalOfficial;
 import main.core.characters.LocalOfficial.LocalRole;
 import main.core.demographics.Bloc;
+import main.core.utils.Logger;
 
 /**
  * Municipalities are various types of inhabited places in the United States. This is the broadest

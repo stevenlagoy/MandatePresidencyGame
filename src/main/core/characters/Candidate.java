@@ -14,8 +14,9 @@ import java.util.List;
 
 import core.JSONObject;
 import main.core.Engine;
-import main.core.NumberOperations;
 import main.core.characters.attributes.Personality;
+import main.core.utils.NumberOperations;
+import main.core.utils.RandomOperations;
 
 /**
  * A Character subclass which extends PoliticalActor and models a Candidate in the Presidential race.
@@ -87,26 +88,26 @@ public class Candidate extends PoliticalActor {
         int numCategories = 4;
         switch(Engine.getGameDifficulty()){
             case LEVEL_1 :
-                totalPoints = NumberOperations.randInt(400, 500);
+                totalPoints = RandomOperations.randInt(400, 500);
                 break;
             case LEVEL_2 :
-                totalPoints = NumberOperations.randInt(400, 500);
+                totalPoints = RandomOperations.randInt(400, 500);
                 break;
             case LEVEL_3 :
-                totalPoints = NumberOperations.randInt(400, 500);
+                totalPoints = RandomOperations.randInt(400, 500);
                 break;
             case LEVEL_4 : 
-                totalPoints = NumberOperations.randInt(400, 500);
+                totalPoints = RandomOperations.randInt(400, 500);
                 break;
             case LEVEL_5 :
-                totalPoints = NumberOperations.randInt(400, 500);
+                totalPoints = RandomOperations.randInt(400, 500);
                 break;
         }
         int allocations[] = new int[numCategories];
         int allocatedPoints = 0;
         int i = 0;
         while(allocatedPoints < totalPoints){
-            int value = NumberOperations.randInt((int) Math.round((totalPoints - allocatedPoints)*1.0 / numCategories));
+            int value = RandomOperations.randInt((int) Math.round((totalPoints - allocatedPoints)*1.0 / numCategories));
             allocations[i++] += value;
             allocatedPoints += value;
             i %= numCategories;
@@ -143,12 +144,12 @@ public class Candidate extends PoliticalActor {
         int totalPoints = points, refund = 0;
         int[] pointsAllotments = {0, 0, 0};
 
-        int evenApportionment = Math.round(NumberOperations.randPercent(0.4f, 0.8f) * points);
+        int evenApportionment = Math.round(RandomOperations.randPercent(0.4f, 0.8f) * points);
         points -= evenApportionment;
-        int selection = NumberOperations.randInt(2);
-        pointsAllotments[selection] += Math.round(NumberOperations.randPercent(0.5f, 0.9f) * points);
+        int selection = RandomOperations.randInt(2);
+        pointsAllotments[selection] += Math.round(RandomOperations.randPercent(0.5f, 0.9f) * points);
         points -= pointsAllotments[selection];
-        selection = (selection + NumberOperations.randInt(1)) % 3;
+        selection = (selection + RandomOperations.randInt(1)) % 3;
         pointsAllotments[selection] += Math.round(1.0 * points);
         points -= pointsAllotments[selection];
 
@@ -164,7 +165,7 @@ public class Candidate extends PoliticalActor {
     protected int generateTraits(int points){
         // Select traits with 25% to 75% of the points. Use the remaining points to upgrade traits.
         int pointsForSelection, pointsForUpgrade, refund = 0;
-        pointsForSelection = (int) Math.floor(NumberOperations.randPercent(0.25f, 0.75f) * points);
+        pointsForSelection = (int) Math.floor(RandomOperations.randPercent(0.25f, 0.75f) * points);
         pointsForUpgrade = points - pointsForSelection;
 
         while (pointsForUpgrade > 0) {

@@ -13,8 +13,8 @@ import java.util.Scanner;
 
 import org.lwjgl.system.MemoryUtil;
 
-import main.core.IOUtil;
 import main.core.Main;
+import main.core.utils.IOUtil;
 
 public class Utils {
     
