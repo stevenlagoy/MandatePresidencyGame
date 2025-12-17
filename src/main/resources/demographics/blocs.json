@@ -60,7 +60,7 @@
             "Orthodox Christian" :    0.005,
             "Unspecified Christian" : 0.001
         },
-        "Unaffiliated" : {
+        "Irreligious" : {
             "Unaffiliated" : 0.161,
             "Agnostic" :     0.041,
             "Atheist" :      0.031
@@ -121,7 +121,7 @@
                 "Belgian" :            316493,
                 "Pennsylvania Dutch" : 228634,
                 "Cajun" :              91706,
-                "Afrikaner" :          0
+                "Afrikaaner" :          0
             },
             "Eastern European" : {
                 "Polish" :             8249491,
@@ -225,6 +225,9 @@
                 "Colville" :                            10549,
                 "Yuman" :                               10089,
                 "Tsimshian" :                           3755,
+                "Shawnee" :                             0,
+                "Mohawk" :                              0,
+                "Powhatan" :                            0,
                 "American Indian" :                     663949
             },
             "Alaska Native" : {
@@ -233,17 +236,29 @@
                 "Tlingit-Haida" :                       26080,
                 "Alaskan Athabaskan" :                  22484,
                 "Aleut" :                               19282,
+                "Inuit" :                               0,
                 "Alaska Native" :                       168783
             },
             "Canadian / French American Indian" : {
                 "Ojibwe" :                              170742,
                 "Cree" :                                7983,
+                "Siksika" :                             0,
+                "Algonquin" :                           0,
+                "Nuu-chah-nulth" :                      0,
                 "Canadian / French American Indian" :   14822
             },
             "Spanish American Indian" : {
                 "Yaqui" :                               32595,
                 "Central American Indian" :             27844,
-                "Spanish American Indian" :             19951
+                "Spanish American Indian" :             19951,
+                "Aymara" :                              0,
+                "Mapuche" :                             0,
+                "Mayan" :                               0,
+                "Nahuatl" :                             0,
+                "Quechua" :                             0,
+                "Tupi" :                                0,
+                "Zapotec" :                             0,
+                "Guarani" :                             0
             }
         },
         "Asian / Pacific Islander" : {
@@ -309,7 +324,7 @@
                     "Micronesian American" : 0
                 },
                 "Polynesian" : {
-                    "Native Hawaiian" : 0,
+                    "Hawaiian" : 0,
                     "Samoan" : 0,
                     "Tongan" : 0,
                     "French Polynesian American" : 0,
