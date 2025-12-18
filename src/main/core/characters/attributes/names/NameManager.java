@@ -1,13 +1,5 @@
-/*
- * NameManager.java
- * Steven LaGoy
- * Created: 1 June 2025 at 1:04 AM
- * Modified: 3 June 2025
- */
-
 package main.core.characters.attributes.names;
 
-import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -25,87 +17,98 @@ import main.core.characters.attributes.names.Name.DisplayOption;
 import main.core.characters.attributes.names.Name.NameForm;
 import main.core.demographics.Bloc;
 import main.core.demographics.Demographics;
-import main.core.demographics.DemographicsManager.DemographicCategory;
+import main.core.utils.CollectionOperations;
 import main.core.utils.FilePaths;
 import main.core.utils.Logger;
-import main.core.utils.NumberOperations;
 import main.core.utils.RandomOperations;
 
-/**
- * NameManager manages the generation of Name objects.
- * <p>
- * This class is final and has no instance variables, and is not designed to be instantiated. All members and functions should be accessed in a static way.
- */
 public final class NameManager extends Manager {
 
-    // STATIC CLASS VARIABLES ---------------------------------------------------------------------
-
-    /** Percentage of Asian people who should have an Eastern nameform. */
-    private static final float asianEasternNamePercent = 0.50f;
-    /** Percentage of Hispanic/Latino people who should have a Hispanic name. */
-    private static final float hispanicHispanicNamePercent = 0.80f;
-    /** Percentage of Native American people who should have a Native American name. */
-    private static final float nativeNativeNamePercent = 0.25f;
-    /** Percentage of people with a middle name. */
-    private static final float hasMiddleNamePercent = 0.80f;
-    /** Percentage of people with a generational name given they have an Eastern-style name. */
-    private static final float hasGenerationNamePercent = 0.60f;
-    /** Percentage of people who have a Generation name but choose not to use it. */
-    private static final float latentGenerationNamePercent = 0.30f;
-    /** Percentage of people with mupltiple first names. */
-    private static final float multipleFirstNamesPercent = 0.10f;
-    /** Percentage of people with two forenames (nombres) given they have a Hispanic-style name. */
-    private static final float hispanicMultipleForenamesPercent = 0.35f;
-    /** Liklihood that a person with a Hispanic-style name has multuple surnames in either the maternal or paternal apellido. */
-    private static final float hispanicCompositeSurnamePercent = 0.30f;
-    /** Percentage of people with more middle names. 11% of people have 2, 0.121% have 3 etc. */
-    private static final float multipleMiddleNamesPercent = 0.11f;
+    // CONSTANTS ----------------------------------------------------------------------------------
+    
+    // Percentages controlling Western-style names
+    /** Percentage of people with multiple first names. Percentage for three first names is this value squared, and so on. */
+    public static final float multipleFirstNamesPercent = 0.01f;
+    /** Percentage of people who have one or more middle names. */
+    public static final float middleNamePercent = 0.90f;
+    /** Percentage of people with multiple middle names. Percentage for three middle names is this value squared, and so on. */
+    public static final float multipleMiddleNamesPercent = 0.05f;
+    /** Percentage of people who include their middle name in their common name. */
+    public static final float includeMiddleNameInCommonPercent = 0.15f;
     /** Percentage of people who commonly use a nickname. */
-    private static final float hasNicknamePercent = 0.23f;
-    /** Percentage of people with a nickname which does not resemble any of their given names. */
-    private static final float nicknameNotFromNamesPercent = 0.05f;
-    /** Percentage of people with a double-barreled or multiple last/family names. */
-    private static final float doubleBarrelledNamePercent = 0.11f;
-    /** Percentage of people whose first family name is their maternal family name. */
-    private static final float maternalNameFirstPercent = 0.05f;
-    /** Percentage of people with a non-Western-style name who also use a Western name. */
-    private static final float hasWesternNamePercent = 0.20f;
-    /** Percentage of people who hyphenate their last names. */
-    private static final float hyphenatedNamePercent = 0.06f;
-    /** Percentage of people who abbreviate only their First Name(s) in their Common Name. */
-    private static final float abbreviateFirstNamesPercent = 0.04f;
-    /** Percentage of people who abbreviate only their Middle Name(s) in their Common Name. */
-    private static final float abbreviateMiddleNamesPercent = 0.38f;
-    /** Percentage of people who abbreviate their First and Middle Names in their Common Name. */
-    private static final float abbreviateBothNamesPercent = 0.08f;
-    /** Percentage of people who include their Middle Name in their Common Name. */
-    private static final float useMiddleNicknamePercent = 0.04f;
-    /** Percentage of people with the I or Senior ordination. */
-    private static final float srOrdinationPercent = 0.04f;
-    /** Percentage of people with the II or Junior ordination. */
-    private static final float jrOrdinationPercent = 0.08f;
-    /** Percentage of people with the II or Second ordination (applied repeatedly to choose higher ordinations). */
-    private static final float iiOrdinationPercent = 0.06f;
+    public static final float nicknamePercent = 0.33f;
+    /** Percentage of people with a nickname based on the abbreviations of their names, like Thomas James -> TJ. */
+    public static final float nicknameFromAbbreviationPercent = 0.15f;
+    /** Percentage of people who commonly use a nickname which is not based on one of their given names. */
+    public static final float nicknameNotFromGivenNamesPercent = 0.05f;
+    /** Percentage of people who have a double-barreled surname or multiple surnames. */
+    public static final float doubleBarrelledSurnamePercent = 0.055f;
+    /** Percentage of people with multiple surnames who hyphenate one or more of those surnames. */
+    public static final float hyphenatedSurnamePercent = 0.30f;
+    /** Percentage of people with the Senior ordination. */
+    public static final float srOrdinationPercent = 0.04f;
+    /** Percentage of people with the Junior ordination. */
+    public static final float jrOrdinationPercent = 0.08f;
+    /** Percentage of people with the I ordination. */
+    public static final float iOrdinationPercent = 0.005f;
+    /** Percentage of people with the II ordination. */
+    public static final float iiOrdinationPercent = 0.025f;
+    /** Percentage of people with the III ordination. */
+    public static final float iiiOrdinationPercent = 0.02f;
+    /** Percentage of people with the MD suffix. */
+    public static final float MDSuffixPercent = 0.001f;
+    /** Percentage of people with the PhD suffix. */
+    public static final float PhDSuffixPercent = 0.0075f;
+    /** Percentage of people with the Esq suffix. */
+    public static final float esqSuffixPercent = 0.0025f;
+    /** Percentage of people who commonly abbreviate their first name(s). */
+    public static final float abbreviateFirstNamesPercent = 0.06f;
+    /** Percentage of people who commonly abbreviate their middle name(s). */
+    public static final float abbreviateMiddleNamesPercent = 0.38f;
+    /** Percentage of people who commonly abbreviate all their given names. */
+    public static final float abbreviateBothNamesPercent = 0.08f;
+
+    public static final float manMrHonorificPercent = 0.95f;
+    public static final float womanMrsHonorificPercent = 0.80f;// Treat this as pct woman who are not Ms. are this likely to be Mrs.
+    public static final float womanMsHonorificPercent = 0.30f; 
+    public static final float drHonorificPercent = 0.12f;
+
+    // Percentages controlling Hispanic-style names
+    /** Percentage of Hispanic people who have a Hispanic-style name. */
+    public static final float hispanicHispanicNamePercent = 0.80f;
+    /** Percentage of Hispanic people with multiple forenames. Percentage for three forenames is this value squared, and so on. */
+    public static final float hispanicMultipleForenamesPercent = 0.25f;
+    /** Odds that one part of a hispanic surname is composite. */
+    public static final float hispanicCompositeSurnamePercent = 0.33f;
+
+    // Percentages controlling Eastern-style names
+    /** Percentage of Asian people who have an Eastern-style name. */
+    public static final float asianEasternNamePercent = 0.30f;
+    /** Percentage of people with a generational name. */
+    public static final float generationalNamePercent = 0.60f;
+    /** Percentage of people with an additional Western-style name. */
+    public static final float westernNamePercent = 0.50f;
+    /** Percentage of people who place their western name before their traditional name. */
+    public static final float westernNameFirstPercent = 0.33f;
+
+    // Percentages controlling Native-American-style names
+    public static final float nativeNativeNamePercent = 0.25f;
+
 
     // INSTANCE VARIABLES -------------------------------------------------------------------------
 
-    /** Map of first / given names and frequency weights, keyed with the blocs those names are associated with. Names can be accessed through a set containing the applicable blocs. */
-    private Map<Set<Bloc>, Map<String, Double>> firstNamesDistribution;
-    /** Map of middle names and frequency weights, keyed with the blocs those names are associated with. Names can be accessed through a set containing the applicable blocs. */
-    private Map<Set<Bloc>, Map<String, Double>> middleNamesDistribution;
-    /** Map of last` / family names and frequency weights, keyed with the blocs those names are associated with. Names can be accessed through a set containing the applicable blocs. */
-    private Map<Set<Bloc>, HashMap<String, Double>> lastNamesDistribution;
-    /** Map of names and Lists of nicknames associated with their key name. */
+    private Map<Set<Bloc>, Map<String, Double>> givenNamesDistribution;
+    private Map<Set<Bloc>, Map<String, Double>> familyNamesDistribution;
     private Map<String, List<String>> nicknames;
 
     ManagerState currentState;
 
     // CONSTRUCTORS -------------------------------------------------------------------------------
+
     public NameManager() {
         currentState = ManagerState.INACTIVE;
-        firstNamesDistribution = new HashMap<>();
-        middleNamesDistribution = new HashMap<>();
-        lastNamesDistribution = new HashMap<>();
+        givenNamesDistribution = new HashMap<>();
+        familyNamesDistribution = new HashMap<>();
         nicknames = new HashMap<>();
     }
 
@@ -116,12 +119,11 @@ public final class NameManager extends Manager {
         boolean successFlag = true;
         double startTime = Main.Engine().getProgramTime();
         Logger.log(String.format("%s starting at %f", this.getClass().getSimpleName(), startTime));
-        successFlag = successFlag && readFirstNamesFile();
-        successFlag = successFlag && readMiddleNamesFile();
-        successFlag = successFlag && readLastNamesFile();
+        successFlag = successFlag && readGivenNamesFile();
+        successFlag = successFlag && readFamilyNamesFile();
         successFlag = successFlag && readNicknamesFile();
         currentState = successFlag ? ManagerState.ACTIVE : ManagerState.ERROR;
-        double endTime = Main.Engine().getProgramTime(); 
+        double endTime = Main.Engine().getProgramTime();
         Logger.log(String.format("%s initialized %s at %f. Elapsed: %f", this.getClass().getSimpleName(), successFlag ? "successfully" : "unsuccessfully", endTime, endTime - startTime));
         return successFlag;
     }
@@ -134,460 +136,150 @@ public final class NameManager extends Manager {
     @Override
     public boolean cleanup() {
         boolean successFlag = true;
-
         if (!successFlag) currentState = ManagerState.ERROR;
         return successFlag;
     }
-
-    // INSTANCE METHODS ---------------------------------------------------------------------------
-
-    /**
-     * Refines a Set of Blocs to be used as a key in name distributions. Determines whether the passed blocs are expected
-     * to have an entry in the distribution maps and permutes them through their superblocs until a valid set of Blocs is found.
-     * @param blocs Set of Blocs to refine.
-     * @return Set of Blocs relatively close to the original key but which is expected to have a value in the distribution map.
-     */
-    private Set<Bloc> refineBlocsKey(Set<Bloc> blocs) {
-
-        // Base case: check if the set is empty or null
-        if (blocs == null || blocs.isEmpty())
-            return new HashSet<>();
-
-        // Check if this set exists in any distribution map
-        if (hasMatchingKey(blocs)) return blocs;
-
-        Set<Bloc> bestMatch = null;
-        int bestScore = -1; // higher score is closer to original
-
-        Set<Set<Bloc>> candidates = generateKeyCandidates(blocs);
-
-        for (Set<Bloc> candidate : candidates) {
-            if (hasMatchingKey(candidate)) {
-                int score = calculateScore(blocs, candidate);
-                if (score > bestScore) {
-                    bestScore = score;
-                    bestMatch = candidate;
-                }
-            }
-        }
-
-        return bestMatch;
-    }
-
-    private Set<Bloc> refineBlocsKey(Set<Bloc> blocs, DemographicCategory... avoidCategories) {
-        Set<Bloc> candidate = new HashSet<>();
-        for (Bloc bloc : blocs) {
-            boolean avoid = false;
-            for (DemographicCategory category : avoidCategories) {
-                if (bloc.getDemographicGroup().equals(category))
-                    avoid = true;
-            }
-            if (!avoid) candidate.add(bloc);
-        }
-        return refineBlocsKey(candidate);
-    }
-
-    private boolean hasMatchingKey(Set<Bloc> blocs) {
-        return firstNamesDistribution.containsKey(blocs) ||
-               middleNamesDistribution.containsKey(blocs) ||
-               lastNamesDistribution.containsKey(blocs);
-    }
-
-    private Set<Set<Bloc>> generateKeyCandidates(Set<Bloc> originalBlocs) {
-        Set<Set<Bloc>> candidates = new HashSet<>();
-        List<Bloc> blocsList = new ArrayList<>(originalBlocs);
-        
-        // For each bloc, get all possible alternatives (original + all superblocs + removal)
-        List<List<Bloc>> allAlternatives = new ArrayList<>();
-        
-        for (Bloc bloc : blocsList) {
-            List<Bloc> alternatives = new ArrayList<>();
-            alternatives.add(null); // Option to remove this bloc
-            alternatives.add(bloc); // Option to keep original bloc
-            
-            // Add all nested superblocs
-            List<Bloc> superBlocs = bloc.getNestedSuperBlocs();
-            if (superBlocs != null) {
-                alternatives.addAll(superBlocs);
-            }
-            
-            allAlternatives.add(alternatives);
-        }
-        
-        // Generate all combinations using recursive approach
-        generateCombinations(allAlternatives, 0, new ArrayList<>(), candidates, originalBlocs);
-        
-        return candidates;
-    }
-
-    private void generateCombinations(List<List<Bloc>> allAlternatives, int index, List<Bloc> currentCombination, Set<Set<Bloc>> candidates, Set<Bloc> originalBlocs) {
-        if (index == allAlternatives.size()) {
-            // Create candidate set from current combination (excluding nulls)
-            Set<Bloc> candidate = new HashSet<>();
-            for (Bloc bloc : currentCombination) {
-                if (bloc != null) {
-                    candidate.add(bloc);
-                }
-            }
-            
-            // Only add non-empty candidates that are different from original
-            if (!candidate.isEmpty() && !candidate.equals(originalBlocs)) {
-                candidates.add(candidate);
-            }
-            return;
-        }
-        
-        // Try each alternative for the current bloc
-        List<Bloc> alternatives = allAlternatives.get(index);
-        for (Bloc alternative : alternatives) {
-            currentCombination.add(alternative);
-            generateCombinations(allAlternatives, index + 1, currentCombination, candidates, originalBlocs);
-            currentCombination.remove(currentCombination.size() - 1); // backtrack
-        }
-    }
-
-    private int calculateScore(Set<Bloc> original, Set<Bloc> candidate) {
-        int score = 0;
-
-        // Count preserved original blocs
-        for (Bloc bloc : original) {
-            if (candidate.contains(bloc)) {
-                score += 100;
-            }
-        }
-
-        // Count superblocs
-        for (Bloc originalBloc : original) {
-            if (!candidate.contains(originalBloc)) {
-                List<Bloc> superBlocs = originalBloc.getNestedSuperBlocs();
-                if (superBlocs != null) {
-                    for (int i = 0; i < superBlocs.size(); i++) {
-                        Bloc superBloc = superBlocs.get(i);
-                        if (candidate.contains(superBloc)) {
-                            // Closer superblocs get higher scores
-                            // First superbloc gets 500, second gets 400, etc.
-                            score += (500 - (i * 100));
-                            break; // Only count the closest matching superbloc
-                        }
-                    }
-                }
-            }
-        }
-
-        // Prefer larger sets
-        score += candidate.size();
-
-        return score;
-    }
-
-    /**
-     * Get the distribution of first / given names.
-     * @return Map of first / given names and frequency weights, keyed with the blocs those names are associated with. Names can be accessed through a set containing the applicable blocs.
-     */
-    public Map<Set<Bloc>, Map<String, Double>> getFirstNamesDistribution() {
-        if (firstNamesDistribution == null || firstNamesDistribution.size() == 0) readFirstNamesFile();
-        return firstNamesDistribution;
-    }
-
-    /** Get the distribution of first / given names for a particular demographic.
-     * @param demographics Demographics with which to filter the distributions. Only names matching <i>all</i> of the Blocs will be returned.
-     * @return Map of String to Double giving names and the relative frequencies of those names.
-     * @see #getFirstNamesDistribution(Bloc[])
-     * @see #getFirstNamesDistribution(Collection)
-    */
-    public Map<String, Double> getFirstNamesDistribution(Demographics demographics) {
-        return getFirstNamesDistribution(demographics.toBlocsArray());
-    }
     
+    // INSTANCE METHODS ----
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+    //                                     INSTANCE METHODS                                      //
+    ///////////////////////////////////////////////////////////////////////////////////////////////
+
+    // SELECTING FROM DISTRIBUTIONS ---------------------------------------------------------------
+
     /**
-     * Get the distribution of first / given names for a particular set of Blocs.
-     * @param blocs Blocs with which to filter the distributions. Only names matching <i>all</i> of the Blocs will be returned.
-     * @return Map of String to Double giving names and the relative frequencies of those names.
-     * @see #getFirstNamesDistribution(Demographics)
-     * @see #getFirstNamesDistribution(Collection)
+     * Find the most specific bloc set which covers as many of the passed blocs as possible.
+     * Accepts any number of any kind of blocs (do not have to be solely leaf blocs, do not have
+     * to be explicitly accompanied by superblocs). Assume little about how set refinement works:
+     * (A, B) may be turned to [(A) & (B)] or to [(A & B)]; (A, B) may result in (A) alone being
+     * returned; (A, B, C) may result in [(A & C) & (B & C)] or any other combination.
+     * @param targets Collection of Blocs to refine into a key bloc set.
+     * @return List of bloc sets which were determined as the best key for
+     * {@code givenNamesDistribution} while covering as many as possible of the passed blocs.
      */
-    public Map<String, Double> getFirstNamesDistribution(Bloc... blocs) {
-        return getFirstNamesDistribution(Set.of(blocs));
+    private Set<Set<Bloc>> refineGivenNamesBlocsKey(Collection<Bloc> targets) {
+        return refineNamesBlocsKey(targets, getGivenNamesDistribution().keySet());
     }
 
-    /**
-     * Get the distribution of first / given names for a particular set of Blocs.
-     * @param blocs Blocs with which to filter the distributions. Only names matching <i>all</i> of the Blocs will be returned.
-     * @return Map of String to Double giving names and the relative frequencies of those names.
-     * @see #getFirstNamesDistribution(Demographics)
-     * @see #getFirstNamesDistribution(Bloc[])
-     */
-    public Map<String, Double> getFirstNamesDistribution(Collection<Bloc> blocs) {
-        if (firstNamesDistribution == null && !readFirstNamesFile()) {
-            Logger.log("FIRST NAMES UNREADABLE", "The first names file was unable to be read properly.", new Exception());
-            return null;
-        }
-        Set<Bloc> key = new HashSet<>(blocs);
-        return firstNamesDistribution.get(key);
+    private Set<Set<Bloc>> refineFamilyNamesBlocsKey(Collection<Bloc> targets) {
+        return refineNamesBlocsKey(targets, getFamilyNamesDistribution().keySet());
     }
 
-    /**
-     * Read in the first names file.
-     * @return {@code true} if successful, {@code false} otherwise.
-    */
-    private boolean readFirstNamesFile() {
-        JSONObject json = JSONProcessor.processJson(FilePaths.FIRSTNAME_DISTR);
-        firstNamesDistribution = new HashMap<>();
+    private Set<Set<Bloc>> refineNamesBlocsKey(Collection<Bloc> targets, Set<Set<Bloc>> realkeys) {
+        Set<Bloc> targs = new HashSet<>(targets);
 
-        processFirstNameStructure(json, new HashSet<>());
-        return true;
-    }
-
-    private Map<String, Double> processFirstNameStructure(JSONObject json, Set<Bloc> currentBlocs) {
-        Map<String, Double> distributions = new HashMap<String,Double>();
-
-        for (Object obj : json.getAsList()) {
-            if (!(obj instanceof JSONObject entry)) continue;
-            
-            String key = entry.getKey();
-            Object value = entry.getValue();
-
-            if (value instanceof Number) {
-                // This is a name-number pair
-                // Add or update the name distribution for all current blocs
-                if (!currentBlocs.isEmpty()) {
-                    distributions.put(key, ((Number) value).doubleValue());
-                    Map<String, Double> existingDistributions = firstNamesDistribution
-                        .computeIfAbsent(currentBlocs, k -> new HashMap<>());
-                    existingDistributions.put(key, ((Number) value).doubleValue());
+        // Repeatedly find and add superblocs until no more can be found
+        boolean superblocsUnrepresented = true;
+        while (superblocsUnrepresented) {
+            superblocsUnrepresented = false;
+            Set<Bloc> newTargs = new HashSet<>(targs);
+            for (Bloc b : targs) {
+                Bloc sb = b.getSuperBloc();
+                if (sb != null) {
+                    if (newTargs.add(sb))
+                        superblocsUnrepresented = true;
                 }
             }
-            else if (value instanceof ArrayList<?>) {
-                // This is a nested structure
-
-                // If key is a valid bloc name, add it to the current set of blocs
-                Bloc bloc = Main.Engine().DemographicsManager().matchBlocName(key);
-                Set<Bloc> updatedBlocs = new HashSet<>(currentBlocs);
-                if (bloc != null) {
-                    updatedBlocs.add(bloc);
-                }
-
-                // Recurse with updated bloc set
-                Map<String, Double> nestedDistributions = processFirstNameStructure(new JSONObject(key, (ArrayList<?>) value), updatedBlocs);
-                distributions.putAll(nestedDistributions);
-            }
+            targs = newTargs;
         }
-        return distributions;
-    }
 
-    /**
-     * Get the distribution of middle names.
-     * @return Map of middle names and frequency weights, keyed with the blocs those names are associated with. Names can be accessed through a set containing the applicable blocs.
-     */
-    public Map<Set<Bloc>, Map<String, Double>> getMiddleNamesDistribution() {
-        if (middleNamesDistribution == null || middleNamesDistribution.size() == 0) readMiddleNamesFile();
-        return middleNamesDistribution;
-    }
+        // Generate combinations of the targets
+        Set<Set<Bloc>> combinations = CollectionOperations.combinations(targs);
 
-    /** Get the distribution of middle names for a particular demographic.
-     * @param demographics Demographics with which to filter the distributions. Only names matching <i>all</i> of the Blocs will be returned.
-     * @return Map of String to Double giving names and the relative frequencies of those names.
-     * @see #getMiddleNamesDistribution(Bloc[])
-     * @see #getMiddleNamesDistribution(Collection)
-    */
-    public Map<String, Double> getMiddleNamesDistribution(Demographics demographics) {
-        return getMiddleNamesDistribution(demographics.toBlocsArray());
-    }
-    
-    /**
-     * Get the distribution of middle names for a particular set of Blocs.
-     * @param blocs Blocs with which to filter the distributions. Only names matching <i>all</i> of the Blocs will be returned.
-     * @return Map of String to Double giving names and the relative frequencies of those names.
-     * @see #getMiddleNamesDistribution(Demographics)
-     * @see #getMiddleNamesDistribution(Collection)
-     */
-    public Map<String, Double> getMiddleNamesDistribution(Bloc... blocs) {
-        return getMiddleNamesDistribution(Set.of(blocs));
-    }
-
-    /**
-     * Get the distribution of middle names for a particular set of Blocs.
-     * @param blocs Blocs with which to filter the distributions. Only names matching <i>all</i> of the Blocs will be returned.
-     * @return Map of String to Double giving names and the relative frequencies of those names.
-     * @see #getMiddleNamesDistribution(Demographics)
-     * @see #getMiddleNamesDistribution(Bloc[])
-     */
-    public Map<String, Double> getMiddleNamesDistribution(Collection<Bloc> blocs) {
-        if (middleNamesDistribution == null && !readMiddleNamesFile()) {
-            Logger.log("MIDDLE NAMES UNREADABLE", "The middle names file was unable to be read properly.", new Exception());
-            return null;
+        // Sort out invalid combinations (not part of the real keyset)
+        Set<Set<Bloc>> validCombos = new HashSet<>();
+        for (Set<Bloc> combo : combinations) {
+            if (realkeys.contains(combo)) validCombos.add(combo);
         }
-        Set<Bloc> key = new HashSet<>(blocs);
-        return middleNamesDistribution.get(key);
+
+        // // Find maximum coverage from combinations
+        // Set<Set<Bloc>> result = new HashSet<>();
+        // Set<Bloc> covered = new HashSet<>();
+
+        // // Sort valid combinations by size to prioritize specificity
+        // List<Set<Bloc>> sortedCombos = new ArrayList<>(validCombos);
+        // sortedCombos.sort((a, b) -> Integer.compare(b.size(), a.size()));
+        
+        // // Select combos greedily to maximize coverage
+        // for (Set<Bloc> combo : sortedCombos) {
+        //     if (!covered.containsAll(combo)) {
+        //         result.add(combo);
+        //         covered.addAll(combo);
+        //         if (covered.containsAll(targs)) break;
+        //     }
+        // }
+
+        // Perform backtracking to find most specific solution
+        Set<Set<Bloc>> result = new HashSet<>();
+        backtrack(new ArrayList<>(validCombos), new HashSet<>(), targs, new HashSet<>(), result);
+        
+        return result;
     }
 
     /**
-     * Read in the middle names file.
-     * @return {@code true} if successful, {@code false} otherwise.
-    */
-    private boolean readMiddleNamesFile() {
-        JSONObject json = JSONProcessor.processJson(FilePaths.FIRSTNAME_DISTR);
-        middleNamesDistribution = new HashMap<>();
-
-        processMiddleNameStructure(json, new HashSet<>());
-        return true;
-    }
-
-    private Map<String, Double> processMiddleNameStructure(JSONObject json, Set<Bloc> currentBlocs) {
-        Map<String, Double> distributions = new HashMap<String,Double>();
-
-        for (Object obj : json.getAsList()) {
-            if (!(obj instanceof JSONObject entry)) continue;
-            
-            String key = entry.getKey();
-            Object value = entry.getValue();
-
-            if (value instanceof Number) {
-                // This is a name-number pair
-                // Add or update the name distribution for all current blocs
-                if (!currentBlocs.isEmpty()) {
-                    distributions.put(key, ((Number) value).doubleValue());
-                    Map<String, Double> existingDistributions = middleNamesDistribution
-                        .computeIfAbsent(currentBlocs, k -> new HashMap<>());
-                    existingDistributions.put(key, ((Number) value).doubleValue());
-                }
-            }
-            else if (value instanceof ArrayList<?>) {
-                // This is a nested structure
-
-                // If key is a valid bloc name, add it to the current set of blocs
-                Bloc bloc = Main.Engine().DemographicsManager().matchBlocName(key);
-                Set<Bloc> updatedBlocs = new HashSet<>(currentBlocs);
-                if (bloc != null) {
-                    updatedBlocs.add(bloc);
-                }
-
-                // Recurse with updated bloc set
-                Map<String, Double> nestedDistributions = processFirstNameStructure(new JSONObject(key, (ArrayList<?>) value), updatedBlocs);
-                distributions.putAll(nestedDistributions);
-            }
-        }
-        return distributions;
-    }
-
-    /**
-     * Get the distribution of last / family names.
-     * @return Map of last / family names and frequency weights, keyed with the blocs those names are associated with. Names can be accessed through a set containing the applicable blocs.
+     * Backtracking helper method to find the most specific solution.
+     *
+     * @param validCombos List of valid combinations of blocs.
+     * @param current Current set of selected combinations.
+     * @param targets Set of target blocs to cover.
+     * @param covered Set of blocs already covered.
+     * @param bestResult The best result found so far.
      */
-    public Map<Set<Bloc>, HashMap<String, Double>> getLastNameDistribution() {
-        if (lastNamesDistribution == null || lastNamesDistribution.size() == 0) readLastNamesFile();
-        return lastNamesDistribution;
-    }
+    private void backtrack(
+        List<Set<Bloc>> validCombos,
+        Set<Set<Bloc>> current,
+        Set<Bloc> targets,
+        Set<Bloc> covered,
+        Set<Set<Bloc>> bestResult
+    ) {
+        // Check if the current solution is better than the best result
+        if (isBetterSolution(current, bestResult)) {
+                bestResult.clear();
+                bestResult.addAll(current);
+        }
 
-    /** Get the distribution of last / family names for a particular demographic.
-     * @param demographics Demographics with which to filter the distributions. Only names matching <i>all</i> of the Blocs will be returned.
-     * @return Map of String to Double giving names and the relative frequencies of those names.
-     * @see #getLastNamesDistribution(Bloc[])
-     * @see #getLastNamesDistribution(Collection)
-    */
-    public Map<String, Double> getLastNameDistribution(Demographics demographics) {
-        return getLastNameDistribution(demographics.toBlocsArray());
+        // Try each valid combination
+        for (int i = 0; i < validCombos.size(); i++) {
+            Set<Bloc> combo = validCombos.get(i);
+
+            // Skip if combo is already in current
+            if (current.contains(combo)) continue;
+
+            // Add combo to current
+            current.add(combo);
+            Set<Bloc> newCovered = new HashSet<>(covered);
+            newCovered.addAll(combo);
+
+            // Recurse with new solution
+            backtrack(validCombos, current, targets, newCovered, bestResult);
+
+            // Backtrack: remove combo from current solution
+            current.remove(combo);
+        }
     }
 
     /**
-     * Get the distribution of last / family names for a particular set of Blocs.
-     * @param blocs Blocs with which to filter the distributions. Only names matching <i>all</i> of the Blocs will be returned.
-     * @return Map of String to Double giving names and the relative frequencies of those names.
-     * @see #getLastNamesDistribution(Demographics)
-     * @see #getLastNamesDistribution(Collection)
+     * Determines if the current solution is better than the best result.
+     * A solution is better if it uses fewer sets or is more specific.
+     *
+     * @param current The current solution being evaluated.
+     * @param bestResult The best solution found so far.
+     * @return True if the current solution is better, false otherwise.
      */
-    public Map<String, Double> getLastNameDistribution(Bloc... blocs) {
-        return getLastNameDistribution(Set.of(blocs));
-    }
+    private boolean isBetterSolution(Set<Set<Bloc>> current, Set<Set<Bloc>> bestResult) {
+        // Prefer fewer sets
+        if (bestResult.isEmpty() || current.size() < bestResult.size()) return true;
 
-    /**
-     * Get the distribution of last / family names for a particular set of Blocs.
-     * @param blocs Blocs with which to filter the distributions. Only names matching <i>all</i> of the Blocs will be returned.
-     * @return Map of String to Double giving names and the relative frequencies of those names.
-     * @see #getLastNamesDistribution(Demographics)
-     * @see #getLastNamesDistribution(Bloc[])
-     */
-    public Map<String, Double> getLastNameDistribution(Collection<Bloc> blocs) {
-        if (lastNamesDistribution == null && !readLastNamesFile()) {
-            Logger.log("LAST NAMES UNREADABLE", "The last names file was unable to be read properly.", new Exception());
-            return null;
+        // If num sets is the same, prefer specificity
+        if (current.size() == bestResult.size()) {
+            int currentSpecificity = current.stream().mapToInt(Set::size).sum();
+            int bestSpecificity = bestResult.stream().mapToInt(Set::size).sum();
+            return currentSpecificity > bestSpecificity;
         }
-        Set<Bloc> key = new HashSet<>(blocs);
-        return lastNamesDistribution.get(key);
+        return false;
     }
 
-    /**
-     * Read in the last names file.
-     * @return {@code true} if successful, {@code false} otherwise.
-    */
-    private boolean readLastNamesFile() {
-        JSONObject json = JSONProcessor.processJson(FilePaths.LASTNAME_DISTR);
-        lastNamesDistribution = new HashMap<>();
-
-        processLastNameStructure(json, new HashSet<>());
-        return true;
-    }
-
-    private Map<String, Double> processLastNameStructure(JSONObject json, Set<Bloc> currentBlocs) {
-        Map<String, Double> distributions = new HashMap<>();
-
-        for (Object obj : json.getAsList()) {
-            if (!(obj instanceof JSONObject entry)) continue;
-            
-            String key = entry.getKey();
-            Object value = entry.getValue();
-
-            if (value instanceof Number) {
-                // This is a name-number pair
-                // Add or update the name distribution for all current blocs
-                if (!currentBlocs.isEmpty()) {
-                    distributions.put(key, ((Number) value).doubleValue());
-                    HashMap<String, Double> existingDistributions = lastNamesDistribution
-                        .computeIfAbsent(currentBlocs, k -> new HashMap<>());
-                    existingDistributions.put(key, ((Number) value).doubleValue());
-                }
-            }
-            else if (value instanceof ArrayList<?>) {
-                // This is a nested structure
-                // If key is a valid bloc name, add it to the current set of blocs
-                Bloc bloc = Main.Engine().DemographicsManager().matchBlocName(key);
-                Set<Bloc> updatedBlocs = new HashSet<>(currentBlocs);
-                if (bloc != null) {
-                    updatedBlocs.add(bloc);
-                }
-
-                // Recurse with updated bloc set
-                Map<String, Double> nestedDistributions = processLastNameStructure(
-                    new JSONObject(key, (ArrayList<?>) value), 
-                    updatedBlocs
-                );
-                distributions.putAll(nestedDistributions);
-            }
-        }
-        return distributions;
-    }
-
-    /**
-     * Read in the nicknames file.
-     * @return {@code true} if successful, {@code false} otherwise.
-    */
-    private boolean readNicknamesFile() {
-        JSONObject json = JSONProcessor.processJson(FilePaths.NICKNAMES);
-        nicknames = new HashMap<String, List<String>>();
-
-        for (Object nicknameObj : json.getAsList()) {
-            if (nicknameObj instanceof JSONObject nicknameJson) {
-                String name = nicknameJson.getKey();
-                List<?> rawNicks = nicknameJson.getAsList();
-                List<String> nicks = new ArrayList<>();
-                for (Object obj : rawNicks) {
-                    if (obj != null) nicks.add(obj.toString());
-                }
-                nicknames.put(name, nicks);
-            }
-        }
-        return true;
-    }
+    // GENERATING NAMES ---------------------------------------------------------------------------
 
     public NameForm selectNameForm(Demographics demographics) {
         if (demographics.getRaceEthnicity().getNestedNames().contains("Asian")) {
@@ -616,13 +308,15 @@ public final class NameManager extends Manager {
     }
 
     public String selectGivenName(Bloc... blocs) {
-        return selectGivenName(Set.of(blocs));
+        return selectGivenName(Arrays.asList(blocs));
     }
 
     public String selectGivenName(Collection<Bloc> blocs) {
-        Set<Bloc> key = Set.of(blocs.toArray(new Bloc[0]));
-        key = refineBlocsKey(key);
-        return RandomOperations.weightedRandSelect(getFirstNamesDistribution(key));
+        return RandomOperations.weightedRandSelect(getGivenNamesDistribution(blocs));
+    }
+
+    public String selectGenerationalName() {
+        return "";
     }
 
     public String selectFamilyName(Demographics demographics) {
@@ -630,57 +324,82 @@ public final class NameManager extends Manager {
     }
 
     public String selectFamilyName(Bloc... blocs) {
-        return selectGivenName(Set.of(blocs));
+        return selectFamilyName(Arrays.asList(blocs));
     }
 
     public String selectFamilyName(Collection<Bloc> blocs) {
-        Set<Bloc> key = Set.of(blocs.toArray(new Bloc[0]));
-        key = refineBlocsKey(key, DemographicCategory.PRESENTATION);
-        return RandomOperations.weightedRandSelect(getLastNameDistribution(key));
+        return RandomOperations.weightedRandSelect(getFamilyNamesDistribution(blocs));
     }
 
-    @SuppressWarnings("unused")
-    public String selectNickName(String... names) {
+    public String selectNickname(Demographics demographics, String... names) {
+        return selectNickname(Arrays.asList(demographics.toBlocsArray()), Arrays.asList(names));
+    }
+
+    public String selectNickname(Demographics demographics, Collection<String> names) {
+        return selectNickname(Arrays.asList(demographics.toBlocsArray()), names);
+    }
+
+    public String selectNickname(Collection<Bloc> blocs, String... names) {
+        return selectNickname(blocs, Arrays.asList(names));
+    }
+
+    /**
+     * Select a nickname given blocs and a collection of names.
+     * @param blocs Blocs to possibly choose another name or nickname based on.
+     * @param names Given (first or middle) names to possibly choose a nickname based on.
+     * @return String semi-random nickname which may or may not be based on the passed names.
+     *         May be empty if none of the names have a known nickname.
+     */
+    public String selectNickname(Collection<Bloc> blocs, Collection<String> names) {
         // Nicknames may be based on one of a person's actual names
         // (with their preferred first name being most commonly nicked)
         // or may be completely separate from their actual names.
-        List<String> allNicknames;
-        if (RandomOperations.randPercent() <= nicknameNotFromNamesPercent && false) {
-            // Disabled this because names from other blocs were being chosen too frequently: unrealistic numbers of women with masculine nicknames
-            // Nickname not based on given names
-            allNicknames = new ArrayList<>();
-            for (List<String> nicksList : nicknames.values()) {
-                    allNicknames.addAll(nicksList);
-            }
-            return RandomOperations.randSelect(allNicknames);
+        List<String> allNicknames = new ArrayList<>();
+        if (RandomOperations.randPercent() <= nicknameNotFromGivenNamesPercent) {
+            // Nickname not based on the given names, but on the blocs instead
+            String newname = selectGivenName(blocs);
+            allNicknames.add(newname);
+            if (nicknames.containsKey(newname)) allNicknames.addAll(nicknames.get(newname));
         }
         else {
             // Nickname is based on given names
-            String n = RandomOperations.randSelect(names); // Select a name to nick
-            allNicknames = nicknames.get(n);
-            if (allNicknames != null)
-                return RandomOperations.randSelect(allNicknames);
+            for (String name : names) {
+                if (!nicknames.containsKey(name)) continue;
+                for (String nick : nicknames.get(name)) {
+                    allNicknames.add(nick);
+                }
+            }
         }
-        return "";
+        // Choose one of the possible nicknames
+        if (!allNicknames.isEmpty()) {
+            return RandomOperations.randSelect(allNicknames);
+        }
+        return ""; // Failed to select, return pool empty string
     }
 
+    /**
+     * Select the number of each part of a name.
+     * @param form NameForm of the name
+     * @return int[3] with {firstnames, middlenames, surnames} or {givennames, generationnames, familynames}
+     */
     private int[] selectPartsCounts(NameForm form) {
         int[] counts = {0, 0, 0};
-        switch (form) {
+        switch(form) {
             case WESTERN :
-                counts[0] = RandomOperations.probabilisticCount(multipleFirstNamesPercent) + 1;
-                counts[1] = RandomOperations.randPercent() <= hasMiddleNamePercent ? 1 : 0;
-                if (counts[1] == 1) counts[1] += RandomOperations.probabilisticCount(multipleMiddleNamesPercent);
-                counts[2] = RandomOperations.probabilisticCount(doubleBarrelledNamePercent) + 1;
+                counts[0] = 1 + RandomOperations.probabilisticCount(multipleFirstNamesPercent);
+                counts[1] = RandomOperations.randPercent() <= middleNamePercent
+                            ? 1 + RandomOperations.probabilisticCount(multipleMiddleNamesPercent)
+                            : 0;
+                counts[2] = 1 + RandomOperations.probabilisticCount(doubleBarrelledSurnamePercent);
                 break;
             case EASTERN :
                 counts[0] = 1;
-                counts[1] = RandomOperations.randPercent() <= hasGenerationNamePercent ? 1 : 0;
+                counts[1] = RandomOperations.randPercent() <= generationalNamePercent ? 1 : 0;
                 counts[2] = 1;
                 break;
             case HISPANIC :
-                counts[0] = RandomOperations.probabilisticCount(hispanicMultipleForenamesPercent) + 1;
-                counts[2] = RandomOperations.probabilisticCount(hispanicCompositeSurnamePercent) + 2;
+                counts[1] = 1 + RandomOperations.probabilisticCount(hispanicMultipleForenamesPercent);
+                counts[2] = 2 + RandomOperations.probabilisticCount(hispanicCompositeSurnamePercent);
                 break;
             case NATIVE_AMERICAN :
                 counts[0] = 1;
@@ -691,149 +410,387 @@ public final class NameManager extends Manager {
         return counts;
     }
 
-    public void assignGivenName(Name name, String[] givenNames) {
-        switch (name.getNameForm()) {
-            case EASTERN:
-            case HISPANIC:
-            case NATIVE_AMERICAN:
-            case WESTERN:
-                name.setGivenName(String.join(" ", givenNames));
-                break;
-        }
-    }
-    public void assignMiddleName(Name name, String[] middleNames) {
-        switch (name.getNameForm()) {
-            case EASTERN:
-            case HISPANIC:
-            case NATIVE_AMERICAN:
-            case WESTERN:
-                name.setMiddleName(String.join(" ", middleNames));
-                break;
-        }
-    }
-    public void assignFamilyName(Name name, String[] familyNames, Demographics demographics) {
-        switch (name.getNameForm()) {
-            case EASTERN:
-                name.setFamilyName(familyNames[0]);
-                break;
-            case HISPANIC:
-                String[] conjoiners = {" y ", " de ", "-"};
+    /**
+     * Combines family names according to rules of the given name form.
+     * @param form Name form to provide rules for combination. <br>
+     *             EASTERN -> First passed family name; <br>
+     *             HISPANIC -> combine in some pattern with "y", "de", "-", " "; <br>
+     *             NATIVE_AMERICAN | WESTERN -> combine with "-", " ";
+     * @param demographics Demographics to provide additional rules (like "e" instead of "y" for Portuguese or Brazilian)
+     * @param familyNames Family names to be combined
+     * @return Combined string family name following the rules of the form and demographics
+     */
+    private String combineFamilyNames(NameForm form, Demographics demographics, String... familyNames) {
+        if (familyNames.length < 1) return ""; // No names to combine
+        switch(form) {
+            case EASTERN : 
+                return familyNames[0];
+            case HISPANIC :
+                final String[] conjoiners = {" y ", " de ", "-", " "};
+                // Choose the location of the divide between the maternal and paternal family names
                 int divide = RandomOperations.randInt(1, familyNames.length - 1);
                 String[] paternalNames = Arrays.copyOfRange(familyNames, 0, divide);
                 String[] maternalNames = Arrays.copyOfRange(familyNames, divide, familyNames.length);
                 String paternalName = "";
-                for (String n : paternalNames) {
-                    if (paternalName.isEmpty()) {
-                        paternalName = n;
+                for (String s : paternalNames) {
+                    if (paternalName == null || paternalName.isBlank()) {
+                        paternalName = s;
                         continue;
                     }
-                    paternalName = paternalName + RandomOperations.randSelect(conjoiners) + n;
+                    paternalName += RandomOperations.randSelect(conjoiners) + s;
                 }
                 String maternalName = "";
-                for (String n : maternalNames) {
-                    if (maternalName.isEmpty()) {
-                        maternalName = n;
+                for (String s : maternalNames) {
+                    if (maternalName == null || maternalName.isBlank()) {
+                        maternalName = s;
                         continue;
                     }
-                    maternalName = maternalName + RandomOperations.randSelect(conjoiners) + n;
+                    maternalName += RandomOperations.randSelect(conjoiners) + s;
                 }
+                // Apply rules from demographics
                 if (demographics.getRaceEthnicity().getNestedNames().contains("Brazilian")) {
-                    // Brazilian names list the Maternal surname first
-                    name.setMaternalName(maternalName.replace(" y ", " e "));
-                    name.setPaternalName(paternalName.replace(" y ", " e "));
-                    name.addDisplayOption(DisplayOption.MATERNAL_FIRST);
+                    paternalName = paternalName.replace(" y ", " e ");
+                    paternalName = paternalName.replace(" de ", " do "); // 'do' or 'dos' for masculine, or 'da' or 'das' for feminine - consider later
+                    maternalName = maternalName.replace(" y ", " e ");
+                    maternalName = maternalName.replace(" de ", " da "); // 'do' or 'dos' for masculine, or 'da' or 'das' for feminine - consider later
                 }
-                name.setPaternalName(paternalName);
-                name.setMaternalName(maternalName);
-                if (RandomOperations.randPercent() <= maternalNameFirstPercent)
-                    name.addDisplayOption(DisplayOption.MATERNAL_FIRST);
-                else
-                    name.addDisplayOption(DisplayOption.PATERNAL_FIRST);
-                break;
-            case NATIVE_AMERICAN:
-            case WESTERN:
-                if (RandomOperations.randPercent() <= hyphenatedNamePercent)
-                    name.setFamilyName(String.join("-", familyNames));
-                else
-                    name.setFamilyName(String.join(" ", familyNames));
+                if (demographics.getRaceEthnicity().getNestedNames().contains("Catalan")) {
+                    paternalName = paternalName.replace(" y ", " i");
+                    paternalName = paternalName.replace(" de ", "d'");
+                    maternalName = maternalName.replace(" y ", " i ");
+                    maternalName = maternalName.replace(" de ", " d'");
+                }
+                paternalName = paternalName.replace(" de el ", " del ");
+                paternalName = paternalName.replace(" d'el ", " del ");
+                maternalName = maternalName.replace(" de el ", " del ");
+                maternalName = maternalName.replace(" d'el ", " del ");
+                
+                // Combine paternal and maternal name
+                return String.join(" ", paternalName, maternalName);
+
+            case NATIVE_AMERICAN :
+            case WESTERN :
+                String surname = "";
+                for (String s : familyNames) {
+                    if (RandomOperations.randPercent() <= hyphenatedSurnamePercent)
+                        surname += (surname.isBlank() ? "" : "-") + s;
+                    else surname += " " + s;
+                }
+                return surname;
+            default : return familyNames[0];
         }
     }
 
+    // THE NAME GENERATOR -------------------------------------------------------------------------
+
     public Name generateName(Demographics demographics) {
-
-        if (firstNamesDistribution == null || firstNamesDistribution.size() == 0) readFirstNamesFile();
-        if (middleNamesDistribution == null || middleNamesDistribution.size() == 0) readMiddleNamesFile();
-        if (lastNamesDistribution == null || lastNamesDistribution.size() == 0) readLastNamesFile();
-        if (nicknames == null || nicknames.size() == 0) readNicknamesFile();
-
         Name name = new Name();
         NameForm form = selectNameForm(demographics);
         name.setNameForm(form);
 
         // Basic name parts
         int[] partsCounts = selectPartsCounts(form);
-        String[] givenNames = new String[partsCounts[0]];
+        String[] firstOrGivenNames = new String[partsCounts[0]];
         for (int i = 0; i < partsCounts[0]; i++) {
-            givenNames[i] = selectGivenName(demographics);
+            firstOrGivenNames[i] = selectGivenName(demographics);
         }
-        String[] middleNames = new String[partsCounts[1]];
+        String[] middleOrGenerationalNames = new String[partsCounts[1]];
         for (int i = 0; i < partsCounts[1]; i++) {
-            middleNames[i] = selectGivenName(demographics);
+            middleOrGenerationalNames[i] = form == NameForm.EASTERN
+                ? selectGenerationalName()
+                : selectGivenName(demographics);
         }
         String[] familyNames = new String[partsCounts[2]];
         for (int i = 0; i < partsCounts[2]; i++) {
             familyNames[i] = selectFamilyName(demographics);
         }
-        assignGivenName(name, givenNames);
-        assignMiddleName(name, middleNames);
-        assignFamilyName(name, familyNames, demographics);
-        
+        String firstOrGivenName = String.join(" ", firstOrGivenNames);
+        String middleOrGenerationalName = String.join(" ", middleOrGenerationalNames);
+        String familyName = combineFamilyNames(form, demographics, familyNames);
+        name.setGivenName(firstOrGivenName);
+        name.setMiddleName(middleOrGenerationalName);
+        name.setFamilyName(familyName);
+
         // Extra name parts
-        
+
         // Nicknames
-        String[] allGivens = new String[givenNames.length + middleNames.length];
-        System.arraycopy(givenNames, 0, allGivens, 0, givenNames.length);
-        System.arraycopy(middleNames, 0, allGivens, givenNames.length, middleNames.length);
-        String nickname = selectNickName(allGivens); 
-        if (nickname != null && !nickname.isBlank()) {
+        if (form != NameForm.EASTERN && RandomOperations.randPercent() <= nicknamePercent) {
+            List<String> allGivens = new ArrayList<>(Arrays.asList(firstOrGivenNames));
+            allGivens.addAll(Arrays.asList(middleOrGenerationalNames));
+            String nickname;
+            if (allGivens.size() == 2 && RandomOperations.randPercent() <= nicknameFromAbbreviationPercent) {
+                nickname = Character.toString(allGivens.get(0).charAt(0)) + Character.toString(allGivens.get(1).charAt(0));
+            }
+            else {
+                allGivens.addAll(Arrays.asList(middleOrGenerationalNames));
+                nickname = selectNickname(demographics, allGivens);
+            }
             name.setNickname(nickname);
             name.addDisplayOption(DisplayOption.INCLUDE_NICKNAME);
         }
-        
+
         // Western Name
-        if (form != NameForm.WESTERN && form != NameForm.HISPANIC) {
-            if (RandomOperations.randPercent() <= hasWesternNamePercent) {
-                String westernName = selectGivenName(demographics.getPresentation(), Main.Engine().DemographicsManager().matchBlocName("White"));
-                name.setWesternName(westernName);
-                name.addDisplayOption(DisplayOption.INCLUDE_WESTERN);
+        if ((form == NameForm.EASTERN || form == NameForm.NATIVE_AMERICAN) && RandomOperations.randPercent() <= westernNamePercent) {
+            String westernName = selectGivenName(demographics.getPresentation(), demographics.getGeneration(), Main.Engine().DemographicsManager().matchBlocName("Anglo"));
+            name.setWesternName(westernName);
+            name.addDisplayOption(DisplayOption.INCLUDE_WESTERN);
+            if (RandomOperations.randPercent() <= westernNameFirstPercent)
+                name.addDisplayOption(DisplayOption.WESTERN_FIRST);
+            else name.addDisplayOption(DisplayOption.TRADITIONAL_FIRST);
+        }
+
+        // Religious or Baptismal name
+
+        // Honorific
+        // Some will be based on being President, being Governor, being Senator, etc. and should be done by the character
+        boolean isMan = demographics.getPresentation().getNestedNames().contains("Man");
+        boolean isWoman = demographics.getPresentation().getNestedNames().contains("Woman");
+        if (RandomOperations.randPercent() <= drHonorificPercent) {
+            name.setHonorific("Dr.");
+            name.addDisplayOption(DisplayOption.INCLUDE_HONORIFIC);
+        }
+        if (isMan && RandomOperations.randPercent() <= manMrHonorificPercent) {
+            name.setHonorific("Mr.");
+            name.addDisplayOption(DisplayOption.INCLUDE_HONORIFIC);
+        }
+        if (isWoman && RandomOperations.randPercent() <= womanMrsHonorificPercent) {
+            name.setHonorific("Mrs.");
+            name.addDisplayOption(DisplayOption.INCLUDE_HONORIFIC);
+        }
+        if (isWoman && RandomOperations.randPercent() <= womanMsHonorificPercent) {
+            name.setHonorific("Ms.");
+            name.addDisplayOption(DisplayOption.INCLUDE_HONORIFIC);
+        }
+
+        // Ordinal
+        if (form == NameForm.WESTERN) {
+            boolean aa = demographics.getRaceEthnicity().getNestedNames().contains("Black");
+            if (RandomOperations.randPercent() <= srOrdinationPercent) {
+                name.setOrdinal("Sr.");
+            }
+            else if (RandomOperations.randPercent() <= jrOrdinationPercent * (aa ? 2 : 1)) {
+                name.setOrdinal("Jr.");
+            }
+            else if (RandomOperations.randPercent() <= iOrdinationPercent * (aa ? 2 : 1)) {
+                name.setOrdinal("I");
+            }
+            else if (RandomOperations.randPercent() <= iiOrdinationPercent * (aa ? 2 : 1)) {
+                name.setOrdinal("II");
+            }
+            else if (RandomOperations.randPercent() <= iiiOrdinationPercent * (aa ? 2 : 1)) {
+                name.setOrdinal("III");
             }
         }
 
-        // Religious (Baptismal) Name
-
-        // Honorific
-
-        // Ordinal
-
         // Suffixes
-
-        // DISPLAY OPTIONS
+        // Only people with a PhD should have that suffix. Consider how to make the character do this.
+        if (RandomOperations.randPercent() <= esqSuffixPercent) {
+            // name.addSuffix("Esq.");
+            name.addDisplayOption(DisplayOption.INCLUDE_SUFFIX);
+        }
 
         // Abbreviation
-        if (form.equals(NameForm.WESTERN)) {
+        if (form == NameForm.WESTERN) {
+            // Abbreviate first name(s)?
+            if (RandomOperations.randPercent() <= abbreviateFirstNamesPercent) {
+                name.addDisplayOption(DisplayOption.ABBREVIATE_FIRST);
+            }
+            // Abbreviate middle name(s)?
+            if (RandomOperations.randPercent() <= abbreviateMiddleNamesPercent) {
+                name.addDisplayOption(DisplayOption.ABBREVIATE_MIDDLE);
+            }
+            // Abbreviate all given names?
             if (RandomOperations.randPercent() <= abbreviateBothNamesPercent) {
                 name.addDisplayOption(DisplayOption.ABBREVIATE_FIRST);
                 name.addDisplayOption(DisplayOption.ABBREVIATE_MIDDLE);
             }
-            else if (RandomOperations.randPercent() <= abbreviateFirstNamesPercent) {
-                name.addDisplayOption(DisplayOption.ABBREVIATE_FIRST);
-            }
-            else if (RandomOperations.randPercent() <= abbreviateMiddleNamesPercent) {
-                name.addDisplayOption(DisplayOption.ABBREVIATE_MIDDLE);
+        }
+
+        // Display Options
+        if (form == NameForm.WESTERN && !middleOrGenerationalName.isEmpty()) {
+            if (RandomOperations.randPercent() <= includeMiddleNameInCommonPercent) {
+                name.addDisplayOption(DisplayOption.INCLUDE_MIDDLE);
             }
         }
 
         return name;
+    }
+
+    // GETTERS AND SETTERS ------------------------------------------------------------------------
+
+    public Map<Set<Bloc>, Map<String, Double>> getGivenNamesDistribution() {
+        if (givenNamesDistribution == null || givenNamesDistribution.isEmpty()) readGivenNamesFile();
+        return givenNamesDistribution;
+    }
+
+    /**
+     * Return the given names distribution for a person who is a member of all the passed blocs.
+     * @param blocs Any number of blocs. This set will be refined and as many as possible will be covered.
+     * @return Map of names to weights.
+     */
+    public Map<String, Double> getGivenNamesDistribution(Bloc... blocs) {
+        return getGivenNamesDistribution(Arrays.asList(blocs));
+    }
+
+    public Map<String, Double> getGivenNamesDistribution(Demographics demographics) {
+        return getGivenNamesDistribution(demographics.toBlocsArray());
+    }
+
+    /**
+     * Return the given names distribution for a person who is a member of all the passed blocs.
+     * @param blocs Any number of blocs. This set will be refined and as many as possible will be covered.
+     * @return Map of names to weights.
+     */
+    public Map<String, Double> getGivenNamesDistribution(Collection<Bloc> blocs) {
+        Set<Set<Bloc>> blocsets = refineGivenNamesBlocsKey(blocs);
+        Map<String, Double> res = new HashMap<>();
+        for (Set<Bloc> blocset : blocsets) {
+            Map<String, Double> distribution = getGivenNamesDistribution().get(blocset);
+            for (String name : distribution.keySet()) {
+                double prev = res.containsKey(name) ? res.get(name) : 0;
+                res.put(name, prev + distribution.get(name));
+            }
+        }
+        return res;
+    }
+
+    public Map<Set<Bloc>, Map<String, Double>> getFamilyNamesDistribution() {
+        if (familyNamesDistribution == null || familyNamesDistribution.isEmpty()) readFamilyNamesFile();
+        return familyNamesDistribution;
+    }
+
+    public Map<String, Double> getFamilyNamesDistribution(Bloc... blocs) {
+        return getFamilyNamesDistribution(Arrays.asList(blocs));
+    }
+
+    public Map<String, Double> getFamilyNamesDistribution(Demographics demographics) {
+        return getFamilyNamesDistribution(demographics.toBlocsArray());
+    }
+
+    public Map<String, Double> getFamilyNamesDistribution(Collection<Bloc> blocs) {
+        Set<Set<Bloc>> blocsets = refineFamilyNamesBlocsKey(blocs);
+        Map<String, Double> res = new HashMap<>();
+        for (Set<Bloc> blocset : blocsets) {
+            Map<String, Double> distribution = getFamilyNamesDistribution().get(blocset);
+            for (String name : distribution.keySet()) {
+                double prev = res.containsKey(name) ? res.get(name) : 0;
+                res.put(name, prev + distribution.get(name));
+            }
+        }
+        return res;
+    }
+
+    public Map<String, List<String>> getNicknames() {
+        if (nicknames == null || nicknames.isEmpty()) readNicknamesFile();
+        return nicknames;
+    }
+
+    /**
+     * Get all known nicknames for the given full name.
+     * @param fullname Full name for which to get all nicknames.
+     * @return List of all known nicknames.
+     * @see #getNicknameFor(String)
+     */
+    public List<String> getNicknamesFor(String fullname) {
+        return getNicknames().get(fullname);
+    }
+
+    /**
+     * Get one randomly selected nickname for the given full name.
+     * @param fullname Full name for which to choose a nickname.
+     * @return One randomly selected nickname.
+     * @see #getNicknamesFor(String)
+     */
+    public String getNicknameFor(String fullname) {
+        return RandomOperations.randSelect(getNicknamesFor(fullname));
+    }
+
+    // DATA READING AND PROCESSING METHODS --------------------------------------------------------
+
+    /** Read the given names file ({@code FilePaths.GIVEN_NAMES}) into {@code givenNamesDistribution}. */
+    private boolean readGivenNamesFile() {
+        JSONObject json = JSONProcessor.processJson(FilePaths.GIVEN_NAMES);
+        givenNamesDistribution = processNamesStructure(json);
+        return true;
+    }
+
+    /** Read the family names file ({@code FilePaths.FAMILY_NAMES}) into {@code familyNamesDistribution}. */
+    private boolean readFamilyNamesFile() {
+        JSONObject json = JSONProcessor.processJson(FilePaths.FAMILY_NAMES);
+        familyNamesDistribution = processNamesStructure(json);
+        return true;
+    }
+
+    /** Read the nicknames file ({@code FilePaths.NICKNAMES}) into {@code nicknames} */
+    private boolean readNicknamesFile() {
+        JSONObject json = JSONProcessor.processJson(FilePaths.NICKNAMES);
+        nicknames = new HashMap<>();
+        for (Object obj : json.getAsList()) {
+            if (!(obj instanceof JSONObject entry)) continue;
+
+            String key = entry.getKey();
+            List<?> value = entry.getAsList();
+            List<String> nnames = new ArrayList<>();
+
+            for (Object nickname : value) {
+                nnames.add((String) nickname);
+            }
+            nicknames.put(key, nnames);
+        }
+        return true;
+    }
+
+    /**
+     * Process the structure of a names file.
+     * @param json The JSON data to parse for names distribution.
+     * @return Mapping of bloc sets to weighted names.
+     * @see #processNamesStructure(JSONObject, Set)
+     */
+    private Map<Set<Bloc>, Map<String, Double>> processNamesStructure(JSONObject json) {
+        return processNamesStructure(json, new HashSet<>());
+    }
+
+    /**
+     * Process the structure of a names file. Recurses when a subobject exists in the json.
+     * @param json The JSON data to parse for names distribution.
+     * @param currentBlocs Set of blocs to use when recursing.
+     * @return Mapping of bloc sets to weighted names.
+     * @see #processNamesStructure(JSONObject)
+     */
+    private Map<Set<Bloc>, Map<String, Double>> processNamesStructure(JSONObject json, Set<Bloc> currentBlocs) {
+        Map<Set<Bloc>, Map<String, Double>> distributions = new HashMap<>();
+        
+        for (Object obj : json.getAsList()) {
+            if (!(obj instanceof JSONObject entry)) continue;
+
+            String key = entry.getKey();
+            Object value = entry.getValue();
+
+            if (value instanceof Number) {
+                // This is a name-number pair
+                // Add the name and value to the distributions with the current blocs keyset
+                Map<String, Double> d = distributions.get(currentBlocs);
+                if (d == null) d = new HashMap<>();
+                d.put(key, ((Number) value).doubleValue());
+                distributions.put(currentBlocs, d);
+            }
+            else if (value instanceof List<?>) {
+                // This is a nested structure
+                // If key is valid bloc, add it to a new bloc set
+                Bloc bloc = Main.Engine().DemographicsManager().matchBlocName(key);
+                Set<Bloc> updatedBlocs = new HashSet<>(currentBlocs);
+                if (bloc != null) {
+                    updatedBlocs.add(bloc);
+                }
+                // Recurse with updated bloc set
+                Map<Set<Bloc>, Map<String, Double>> subDistr = processNamesStructure(entry, updatedBlocs);
+                for (Set<Bloc> k : subDistr.keySet()) {
+                    Map<String, Double> v = subDistr.get(k);
+                    distributions.put(k, v);
+                }
+            }
+        }
+        return distributions;
     }
 
     // REPRESENTATION METHODS ---------------------------------------------------------------------
@@ -850,139 +807,15 @@ public final class NameManager extends Manager {
         throw new UnsupportedOperationException("Unimplemented method 'fromRepr'");
     }
 
-    private static final Map<String, String> fieldsJsons = Map.of(
-        "firstNamesDistribution", "first_names_distribution",
-        "middleNamesDistribution", "middle_names_distribution",
-        "lastNamesDistribution", "last_names_distribution",
-        "nicknames", "nicknames"
-    );
-
     @Override
     public JSONObject toJson() {
-        List<JSONObject> fields = new ArrayList<>();
-
-        List<JSONObject> firstNamesDistributionJson = new ArrayList<>();
-        for (Set<Bloc> blocSet : firstNamesDistribution.keySet()) {
-            Map<String, Double> namesDistribution = firstNamesDistribution.get(blocSet);
-            
-            // Create the list of blocs as key
-            List<String> keyBlocs = new ArrayList<>();
-            for (Bloc bloc : blocSet) {
-                keyBlocs.add(bloc.getName());
-            }
-            JSONObject blocsKey = new JSONObject("blocs", keyBlocs);
-
-            // Create the list of JSONObject as value
-            List<JSONObject> distribution = new ArrayList<>();
-            for (String name : namesDistribution.keySet()) {
-                distribution.add(new JSONObject(name, namesDistribution.get(name)));
-            }
-            JSONObject namesValue = new JSONObject("names", distribution);
-            
-            // Create a unique key for this pair
-            String distributionJsonName = String.valueOf(blocSet.hashCode());
-            // Add the pair to the first names distribution
-            firstNamesDistributionJson.add(new JSONObject(distributionJsonName, List.of(blocsKey, namesValue)));
-        }
-        fields.add(new JSONObject("first_names_distribution", firstNamesDistributionJson));
-
-        List<JSONObject> middleNamesDistributionJson = new ArrayList<>();
-        for (Set<Bloc> blocSet : middleNamesDistribution.keySet()) {
-            Map<String, Double> namesDistribution = middleNamesDistribution.get(blocSet);
-
-            // Create the list of blocs as key
-            List<String> keyBlocs = new ArrayList<>();
-            for (Bloc bloc : blocSet) {
-                keyBlocs.add(bloc.getName());
-            }
-            JSONObject blocsKey = new JSONObject("blocs", keyBlocs);
-
-            // Create the list of JSONObject as value
-            List<JSONObject> distribution = new ArrayList<>();
-            for (String name : namesDistribution.keySet()) {
-                distribution.add(new JSONObject(name, namesDistribution.get(name)));
-            }
-            JSONObject namesValue = new JSONObject("names", distribution);
-            
-            // Create a unique key for this pair
-            String distributionJsonName = String.valueOf(blocSet.hashCode());
-            // Add the pair to the middle names distribution
-            middleNamesDistributionJson.add(new JSONObject(distributionJsonName, List.of(blocsKey, namesValue)));
-        }
-        fields.add(new JSONObject("middle_names_distribution", middleNamesDistributionJson));
-
-        List<JSONObject> lastNamesDistributionJson = new ArrayList<>();
-        for (Set<Bloc> blocSet : lastNamesDistribution.keySet()) {
-            Map<String, Double> namesDistribution = lastNamesDistribution.get(blocSet);
-
-            // Create the list of blocs as key
-            List<String> keyBlocs = new ArrayList<>();
-            for (Bloc bloc : blocSet) {
-                keyBlocs.add(bloc.getName());
-            }
-            JSONObject blocsKey = new JSONObject("blocs", keyBlocs);
-
-            // Create the list of JSONObject as value
-            List<JSONObject> distribution = new ArrayList<>();
-            for (String name : namesDistribution.keySet()) {
-                distribution.add(new JSONObject(name, namesDistribution.get(name)));
-            }
-            JSONObject namesValue = new JSONObject("names", distribution);
-            
-            // Create a unique key for this pair
-            String distributionJsonName = String.valueOf(blocSet.hashCode());
-            // Add the pair to the last names distribution
-            lastNamesDistributionJson.add(new JSONObject(distributionJsonName, List.of(blocsKey, namesValue)));
-        }
-        fields.add(new JSONObject("last_names_distribution", lastNamesDistributionJson));
-
-        return new JSONObject("name_manager", fields);
-
-
-
-        // try {
-        //     List<JSONObject> fields = new ArrayList<>();
-        //     for (String fieldName : fieldsJsons.keySet()) {
-        //         Field field = getClass().getDeclaredField(fieldName);
-        //         fields.add(new JSONObject(fieldName, field.get(this)));
-        //     }
-        //     return new JSONObject(this.getClass().getSimpleName(), fields);
-        // }
-        // catch (NoSuchFieldException | IllegalAccessException e) {
-        //     currentState = ManagerState.ERROR;
-        //     Logger.log("JSON SERIALIZATION ERROR", "Failed to serialize " + getClass().getSimpleName() + " to JSON.", e);
-        //     return null;
-        // }
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'toJson'");
     }
 
     @Override
     public Manager fromJson(JSONObject json) {
-        currentState = ManagerState.INACTIVE;
-        for (String fieldName : fieldsJsons.keySet()) {
-            String jsonKey = fieldsJsons.get(fieldName);
-            Object value = json.get(jsonKey);
-            if (value == null) continue;
-            try {
-                Field field = getClass().getDeclaredField(fieldName);
-                field.setAccessible(true);
-                Class<?> type = field.getType();
-                if (type.isEnum()) {
-                    // For enums, convert string to enum constant
-                    @SuppressWarnings({ "unchecked", "rawtypes" })
-                    Object enumValue = Enum.valueOf((Class<Enum>) type, value.toString());
-                    field.set(this, enumValue);
-                }
-                else {
-                    // For other types, set directly (may need conversion for complex types)
-                    field.set(this, value);
-                }
-            }
-            catch (Exception e) {
-                currentState = ManagerState.ERROR;
-                Logger.log("JSON DESERIALIZATION ERROR", "Failed to set field " + fieldName + " in LanguageManager from JSON.", e);
-            }
-        }
-        return this;
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'fromJson'");
     }
-    
 }

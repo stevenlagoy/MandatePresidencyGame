@@ -5,10 +5,17 @@
 
 package main.core;
 
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 import main.core.characters.Character;
-import main.core.characters.attributes.names.NameManager2;
+import main.core.characters.attributes.names.Name;
+import main.core.characters.attributes.names.NameManager;
 import main.core.demographics.Bloc;
+import main.core.demographics.Demographics;
 import main.core.demographics.DemographicsManager;
+import main.core.utils.CollectionOperations;
 import main.core.utils.IOUtil;
 import main.core.utils.Logger;
 
@@ -22,28 +29,25 @@ public class Main {
 
     public static Engine Engine() { return engine; }
 
-    private static DemographicsManager dm = new DemographicsManager();
-    public static DemographicsManager DemographicsManager() { return dm; }
-
     public static void main(String[] args) {
         int errorCode = 0;
         
         // Initialize the engine
         engine = new Engine();
 
-        NameManager2 nm = new NameManager2();
-        dm.init();
-        nm.init();
+        engine.DemographicsManager().init();
+        engine.NameManager().init();
 
-        Bloc[] blocs = {
-            dm.matchBlocName("Man"),
-            dm.matchBlocName("Anglo"),
-            dm.matchBlocName("Christian"),
-            dm.matchBlocName("Baby Boomer")
-        };
-        nm.getGivenNamesDistribution(blocs);
+        Demographics d = new Demographics("Generation Z", "Christian", "Anglo", "Woman");
+
+        System.out.printf("| %40s | %40s | %40s | %40s | %40s |%n", "LEGAL", "FORMAL", "BIOGRAPHICAL", "COMMON", "INFORMAL");
+        for (int i = 0; i < 100; i++) {
+            Name n = engine.NameManager().generateName(d);
+            System.out.printf("| %40s | %40s | %40s | %40s | %40s |%n", n.getLegalName(), n.getFormalName(), n.getBiographicalName(), n.getCommonName(), n.getInformalName());
+        }
 
         System.exit(0);
+
         if (!engine.init()) return;
 
         // Create some characters
