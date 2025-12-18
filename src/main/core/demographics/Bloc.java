@@ -79,7 +79,6 @@ public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
         Bloc.instances.add(this);
         if(!demographics.containsKey(category))
             demographics.put(category, new HashSet<Bloc>());
-        System.out.println(name);
         demographics.get(category).add(this);
     }
 

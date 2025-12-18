@@ -52,30 +52,35 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
 
     /** Enum for styles of writing a name, and patterns for that style. */
     private static enum NameStyle {
+        /** Name as it would appear on government documents. */
         LEGAL (Map.of(
             NameForm.WESTERN, List.of(NamePart.GIVEN_NAME, NamePart.MIDDLE_NAME, NamePart.FAMILY_NAME, NamePart.ORDINAL),
             NameForm.EASTERN, List.of(NamePart.GENERATION, NamePart.GIVEN_NAME, NamePart.FAMILY_NAME),
             NameForm.HISPANIC, List.of(NamePart.GIVEN_NAME, NamePart.APELLIDO_1, NamePart.APELLIDO_2),
             NameForm.NATIVE_AMERICAN, List.of(NamePart.GIVEN_NAME, NamePart.FAMILY_NAME)
             )),
+        /** Name for formally addressing, like on a diploma or award. */
         FORMAL (Map.of(
             NameForm.WESTERN, List.of(NamePart.HONORIFIC, NamePart.GIVEN_NAME, NamePart.MIDDLE_NAME, NamePart.FAMILY_NAME, NamePart.ORDINAL),
             NameForm.EASTERN, List.of(NamePart.HONORIFIC, NamePart.FAMILY_NAME, NamePart.GENERATION, NamePart.GIVEN_NAME),
             NameForm.HISPANIC, List.of(NamePart.HONORIFIC, NamePart.GIVEN_NAME, NamePart.APELLIDO_1, NamePart.APELLIDO_2, NamePart.ORDINAL),
             NameForm.NATIVE_AMERICAN, List.of(NamePart.HONORIFIC, NamePart.GIVEN_NAME, NamePart.FAMILY_NAME)
             )),
+        /** Name that would be used in a biography, including nickname. */
         BIOGRAPHICAL (Map.of(
-            NameForm.WESTERN, List.of(NamePart.HONORIFIC, NamePart.GIVEN_NAME, NamePart.MIDDLE_NAME, NamePart.NICKNAME_QUOTED, NamePart.FAMILY_NAME, NamePart.ORDINAL, NamePart.SUFFIXES),
-            NameForm.EASTERN, List.of(NamePart.HONORIFIC, NamePart.WESTERN_NAME, NamePart.FAMILY_NAME, NamePart.GENERATION, NamePart.GIVEN_NAME, NamePart.SUFFIXES),
-            NameForm.HISPANIC, List.of(NamePart.HONORIFIC, NamePart.GIVEN_NAME, NamePart.NICKNAME_QUOTED, NamePart.APELLIDO_1, NamePart.APELLIDO_2, NamePart.SUFFIXES),
-            NameForm.NATIVE_AMERICAN, List.of(NamePart.HONORIFIC, NamePart.GIVEN_NAME, NamePart.FAMILY_NAME, NamePart.SUFFIXES)
+            NameForm.WESTERN, List.of(NamePart.GIVEN_NAME, NamePart.MIDDLE_NAME, NamePart.NICKNAME_QUOTED, NamePart.FAMILY_NAME, NamePart.ORDINAL, NamePart.SUFFIXES),
+            NameForm.EASTERN, List.of(NamePart.WESTERN_NAME, NamePart.FAMILY_NAME, NamePart.GENERATION, NamePart.GIVEN_NAME, NamePart.SUFFIXES),
+            NameForm.HISPANIC, List.of(NamePart.GIVEN_NAME, NamePart.NICKNAME_QUOTED, NamePart.APELLIDO_1, NamePart.APELLIDO_2, NamePart.SUFFIXES),
+            NameForm.NATIVE_AMERICAN, List.of(NamePart.GIVEN_NAME, NamePart.FAMILY_NAME, NamePart.SUFFIXES)
             )),
+        /** Most preferred name as would be used for a signature. */
         COMMON (Map.of(
             NameForm.WESTERN, List.of(NamePart.PREFERRED_FIRST, NamePart.PREFERRED_MIDDLE, NamePart.FAMILY_NAME),
             NameForm.EASTERN, List.of(NamePart.FAMILY_NAME, NamePart.PREFERRED_GENERATION, NamePart.GIVEN_NAME),
             NameForm.HISPANIC, List.of(NamePart.PREFERRED_NAME, NamePart.APELLIDO_1, NamePart.APELLIDO_2),
             NameForm.NATIVE_AMERICAN, List.of(NamePart.PREFERRED_FIRST, NamePart.FAMILY_NAME)
             )),
+        /** Name that would be used by friends. */
         INFORMAL (Map.of(
             NameForm.WESTERN, List.of(NamePart.PREFERRED_NAME, NamePart.FAMILY_NAME),
             NameForm.EASTERN, List.of(NamePart.FAMILY_NAME, NamePart.PREFERRED_GENERATION, NamePart.GIVEN_NAME),
@@ -99,20 +104,34 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
 
     /** Options for displaying a name. */
     public static enum DisplayOption {
-        ABBREVIATE_FIRST,
-        ABBREVIATE_MIDDLE,
-        PREFER_MIDDLE,
-        WESTERN_FIRST,
-        EASTERN_FIRST,
-        LATENT_GENERATION,
-        NATIVE_FIRST,
-        PATERNAL_FIRST,
-        MATERNAL_FIRST,
-        INCLUDE_WESTERN,
-        INCLUDE_NICKNAME,
-        INCLUDE_ORDINAL,
-        INCLUDE_HONORIFIC,
-        INCLUDE_SUFFIXES;
+        /** Abbreviate the first name(s) */
+        ABBREVIATE_FIRST,  
+        /** Abbreviate the middle name(s) */
+        ABBREVIATE_MIDDLE, 
+        /** Prefer the middle name over the first name */
+        PREFER_MIDDLE,     
+        /** Include the middle name in the common name */
+        INCLUDE_MIDDLE,    
+        /** Place the Western name before the Traditional name  */
+        WESTERN_FIRST,     
+        /** Place the Traditional name before the Western name */
+        TRADITIONAL_FIRST, 
+        /** The generational name is latent, not clan-based */
+        LATENT_GENERATION, 
+        /** Place the paternal surname before the maternal surname */
+        PATERNAL_FIRST,    
+        /** Place the maternal surname before the paternal surname */
+        MATERNAL_FIRST,    
+        /** Include the additional Western name */
+        INCLUDE_WESTERN,   
+        /** Include the nickname */
+        INCLUDE_NICKNAME,  
+        /** Include the ordinal */
+        INCLUDE_ORDINAL,   
+        /** Include the honorific(s) */
+        INCLUDE_HONORIFIC, 
+        /** Include the suffix(es) */
+        INCLUDE_SUFFIX;    
     }
 
     // INSTANCE VARIABLES -------------------------------------------------------------------------
@@ -429,11 +448,6 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
             sb.append(getNamePart(part));
         }
         String name = sb.toString().replaceAll("\\s+", " ").trim();
-        if (name.split("\\s+").length < 2) {
-            for (NamePart part : style.pattern.get(nameForm)) {
-                IOUtil.stdout.println(getNamePart(part));
-            }
-        }
         return name;
     }
 
@@ -540,6 +554,10 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
         return displayOptions.contains(DisplayOption.ABBREVIATE_MIDDLE) ? abbreviate(middleName) : middleName;
     }
     
+    public void setHonorific(String honorific) {
+        this.honorific = honorific;
+    }
+
     private String getHonorific() {
         return honorific;
     }
