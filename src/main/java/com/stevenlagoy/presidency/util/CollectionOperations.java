@@ -8,8 +8,7 @@ import java.util.Set;
 
 public final class CollectionOperations {
 
-    private CollectionOperations() {
-    }
+    private CollectionOperations() {}
 
     /**
      * Generates all unique combinations of the given items.
@@ -35,8 +34,6 @@ public final class CollectionOperations {
      * @param <T>   Element type
      * @param items the source collection of distinct items
      * @return a collection containing every possible combination of the input items
-     * @throws NullPointerException if {@code items} is {@code null} or contains
-     *                              {@code null}
      */
     public static <T> Set<Set<T>> combinations(Collection<T> items) {
         List<T> list = new ArrayList<>(items);

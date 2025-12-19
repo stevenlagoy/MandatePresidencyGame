@@ -103,7 +103,8 @@ public class RenderManager {
         List<Entity> entityList = entityRenderer.getEntities().get(entity.getModel());
         if (entityList != null) {
             entityList.add(entity);
-        } else {
+        }
+        else {
             List<Entity> newEntityList = new ArrayList<>();
             newEntityList.add(entity);
             entityRenderer.getEntities().put(entity.getModel(), newEntityList);

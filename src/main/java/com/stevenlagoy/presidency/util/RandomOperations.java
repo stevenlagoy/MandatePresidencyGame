@@ -1,10 +1,59 @@
 package com.stevenlagoy.presidency.util;
 
+import java.util.Arrays;
 import java.util.Collection;
+import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
 public final class RandomOperations {
+
+    private RandomOperations() {}
+
+    /**
+     * Returns {@code true} or {@code false} with equal liklihood.
+     * @return {@code true} 50% of the time and {@code false} 50% of the time.
+     * @see #randChance(float)
+     */
+    public static boolean randBool() {
+        return randChance(0.5f);
+    }
+
+    /** Flips a coin and returns {@code true} if heads, {@code false} if tails. */
+    public static boolean flipACoin() {
+        return randBool();
+    }
+
+    /** Rolls a die with the given number of sides and returns the result. */
+    public static int rollDie(int numSides) {
+        return randInt(1, numSides);
+    }
+
+    /** Rolls the given number of dice with the given number of sides on each and returns an array with the results. */
+    public static int[] rollDice(int numDice, int numSidesPer) {
+        int[] dice = new int[numDice];
+        Arrays.fill(dice, numSidesPer);
+        return rollDice(dice);
+    }
+
+    /** Rolls dice with the given numbers of sides and returns an array with the results. */
+    public static int[] rollDice(int[] diceSides) {
+        int[] res = new int[diceSides.length];
+        for (int i = 0; i < diceSides.length; i++) {
+            res[i] = rollDie(diceSides[i]);
+        }
+        return res;
+    }
+
+    /** Rolls the given number of dice with the given number of sides and returns the sum. */
+    public static int rollDiceSum(int numDice, int numSidesPer) {
+        return Arrays.stream(rollDice(numDice, numSidesPer)).sum();
+    }
+
+    /** Rolls dice with the given numbers of sides and returns the sum. */
+    public static int rollDiceSum(int[] diceSides) {
+        return Arrays.stream(rollDice(diceSides)).sum();
+    }
 
     /**
      * Selects a float between 0.0 and 1.0 which can be used as a percentage.
@@ -13,7 +62,17 @@ public final class RandomOperations {
      * @see #randPercent(float, float)
      */
     public static float randPercent() {
-        return randPercent(0.0f, 1.0f);
+        return randFloat(0.0f, 1.0f);
+    }
+
+    /**
+     * Selects a float between 0.0 and 1.0.
+     * 
+     * @return A pseudorandomly selected float in the range [0.0, 1.0)
+     * @see #randFloat(float, float)
+     */
+    public static float randFloat() {
+        return randFloat(0.0f, 1.0f);
     }
 
     /**
@@ -26,10 +85,29 @@ public final class RandomOperations {
      * @return A pseudorandomly selected float in the range [min, max)
      */
     public static float randPercent(float min, float max) {
+        return randFloat(min, max);
+    }
+
+    /**
+     * Selects a float between the min and the max.
+     * <p>
+     * <i>If min is a larger value than max, their values will be swapped.</i>
+     * 
+     * @param min The minimum value which can be selected (inclusive)
+     * @param max The maximum value which can be selected (exclusive)
+     * @return A pseudorandomly selected float in the range [min, max)
+     */
+    public static float randFloat(float min, float max) {
         // will perform the same if min and max are flipped
         Random rand = new Random();
-        return (max - min) * rand.nextFloat() + min; // return a float between min and max (exclusive), equally
-                                                     // distributed
+        // return a float between min and max (exclusive), equally distributed
+        return (max - min) * rand.nextFloat() + min;
+    }
+
+    public static boolean randChance(float chance) {
+        if (chance <= 0.0f) return false;
+        else if (chance >= 1.0f) return true;
+        else return randPercent() <= chance;
     }
 
     /**
@@ -161,10 +239,8 @@ public final class RandomOperations {
      * the weights array. The arrays must have the same length.
      * 
      * @param <T>     Object
-     * @param items   Collection of selectable values. Must have same size as
-     *                weights array.
-     * @param weights Collection of weights for each value. Must have same size as
-     *                items array.
+     * @param items   Ordered collection of selectable values. Must have same size as weights array.
+     * @param weights Ordered collection of weights for each value. Must have same size as items array.
      *                For any index n within the items of either collection,
      *                {@code items[n]} corresponds to {@code weights[n]}.
      *                The probability that any item i will be selected is given by
@@ -172,7 +248,7 @@ public final class RandomOperations {
      * @return One value selected from the items collection, or {@code null} if
      *         unsuccessful.
      */
-    public static <T> T weightedRandSelect(Collection<T> items, Collection<Number> weights) {
+    public static <T> T weightedRandSelect(List<T> items, List<Number> weights) {
         if (items.size() < 1 || weights.size() < 1) {
             Logger.log("INVALID SELECTION FROM EMPTY ARRAY",
                     String.format("Unable to select an item from an array with length < 1."), new Exception());
@@ -184,7 +260,6 @@ public final class RandomOperations {
                     new Exception());
             return null;
         }
-
         double totalWeight = 0;
         for (Number weight : weights)
             totalWeight += weight.doubleValue();
@@ -193,10 +268,10 @@ public final class RandomOperations {
         double randomNumber = rand.nextDouble() * totalWeight;
 
         double cumulativeWeight = 0;
-        for (T item : items) {
-            cumulativeWeight += weights.iterator().next().doubleValue();
+        for (int i = 0; i < items.size(); i++) {
+            cumulativeWeight += weights.get(i).doubleValue();
             if (randomNumber < cumulativeWeight) {
-                return item;
+                return items.get(i);
             }
         }
         Logger.log("FAILURE TO SELECT", String.format("The weighted selection failed to select an item."),

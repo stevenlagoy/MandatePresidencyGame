@@ -317,9 +317,9 @@ public final class CharacterManager extends Manager {
             }
         // normalize the values
         for (int i = 0; i < result.size(); i++) {
-            if (totalPercentages == 0) {
+            if (totalPercentages == 0)
                 result.put(i + startYear, 0.0);
-            } else
+            else
                 result.put(i + startYear, result.get(i + startYear) / totalPercentages);
         }
         return result;

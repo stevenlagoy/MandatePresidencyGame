@@ -106,27 +106,25 @@ public class Button extends Entity {
                 onLeftClick.run();
             if (leftClickTexture != null)
                 entity.getModel().setTexture(leftClickTexture);
-        } else if (isRightClick) {
+        }
+        else if (isRightClick) {
             if (onRightClick != null)
                 onRightClick.run();
             if (rightClickTexture != null)
                 entity.getModel().setTexture(rightClickTexture);
-        } else if (isHover) {
+        }
+        else if (isHover) {
             if (onHover != null)
                 onHover.run();
             if (hoverTexture != null)
                 entity.getModel().setTexture(hoverTexture);
-        } else {
+        }
+        else {
             entity.getModel().setTexture(regularTexture);
         }
-
-        if (wasHover) {
-
-        } else if (wasLeftClick) {
-
-        } else if (wasRightClick) {
-
-        }
+        if (wasHover) {}
+        else if (wasLeftClick) {}
+        else if (wasRightClick) {}
     }
 
     public Entity getEntity() {

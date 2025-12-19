@@ -182,7 +182,8 @@ public class Vote {
     public int removeRecipient(Character toRemove, Character toEndorse) {
         if (toEndorse == null) {
             return recipients.remove(toRemove);
-        } else {
+        }
+        else {
             int removedVotes = recipients.remove(toRemove);
             recipients.put(toEndorse, recipients.get(toEndorse) + removedVotes);
             return removedVotes;

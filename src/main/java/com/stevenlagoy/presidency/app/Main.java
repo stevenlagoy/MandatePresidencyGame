@@ -21,8 +21,7 @@ public class Main {
      * This class is non-instantiable. The {@code main()} entry point should be
      * accessed in a static way.
      */
-    private Main() {
-    } // Non-Instantiable
+    private Main() {} // Non-Instantiable
 
     private static Engine engine;
 

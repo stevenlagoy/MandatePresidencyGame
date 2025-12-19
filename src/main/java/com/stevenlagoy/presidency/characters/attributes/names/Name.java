@@ -367,7 +367,19 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
         return displayOptions;
     }
 
-    private List<String> getSuffixes() {
+    public void setSuffix(String suffix) {
+        this.suffixes = List.of(suffix);
+    }
+
+    public boolean addSuffix(String suffix) {
+        return this.suffixes.add(suffix);
+    }
+
+    public boolean removeSuffix(String suffix) {
+        return this.suffixes.remove(suffix);
+    }
+
+    public List<String> getSuffixes() {
         return suffixes;
     }
 

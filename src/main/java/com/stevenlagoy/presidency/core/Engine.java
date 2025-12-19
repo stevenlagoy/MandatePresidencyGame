@@ -439,13 +439,14 @@ public final class Engine extends Manager {
             List<JSONObject> fields = new ArrayList<>();
             for (String fieldName : fieldsJsons.keySet()) {
                 Field field = getClass().getDeclaredField(fieldName);
-                if (field.get(this) instanceof Jsonic jvalue) {
+                if (field.get(this) instanceof Jsonic jvalue)
                     fields.add(new JSONObject(fieldName, jvalue.toJson()));
-                } else
+                else
                     fields.add(new JSONObject(fieldName, field.get(this)));
             }
             return new JSONObject(this.getClass().getSimpleName(), fields);
-        } catch (NoSuchFieldException | IllegalAccessException e) {
+        }
+        catch (NoSuchFieldException | IllegalAccessException e) {
             currentState = ManagerState.ERROR;
             Logger.log("JSON SERIALIZATION ERROR", "Failed to serialize " + getClass().getSimpleName() + " to JSON.",
                     e);
@@ -470,11 +471,13 @@ public final class Engine extends Manager {
                     @SuppressWarnings({ "unchecked", "rawtypes" })
                     Object enumValue = Enum.valueOf((Class<Enum>) type, value.toString());
                     field.set(this, enumValue);
-                } else {
+                }
+                else {
                     // For other types, set directly (may need conversion for complex types)
                     field.set(this, value);
                 }
-            } catch (Exception e) {
+            }
+            catch (Exception e) {
                 currentState = ManagerState.ERROR;
                 Logger.log("JSON DESERIALIZATION ERROR",
                         "Failed to set field " + fieldName + " in LanguageManager from JSON.", e);
@@ -490,7 +493,8 @@ public final class Engine extends Manager {
             String playerCharacterName = CHARACTER_MANAGER.getPlayer().getName().getCommonName();
             String currentTime = TIME_MANAGER.getFormattedCurrentDate();
             fileName = String.format("%s %s", playerCharacterName, currentTime);
-        } catch (NullPointerException e) {
+        }
+        catch (NullPointerException e) {
             // No player character. Use current real time
             fileName = new SimpleDateFormat("yyyy-MMM-dd_HH-mm-ss").format(Calendar.getInstance().getTime());
         }
@@ -504,7 +508,8 @@ public final class Engine extends Manager {
                     .createWriter(FilePaths.SAVES_DIR.resolve(fileName + IOUtil.Extension.JSON.extension).toFile());
             saveWriter.print(saveString);
             saveWriter.close(); // Flush and close
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             IOUtil.stdout.print(saveString);
             Logger.log("EXCEPTION DURING SAVE WRITE",
                     "An exception occurred while writing a save. The save data has been written to the standard output file.",

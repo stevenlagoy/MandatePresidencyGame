@@ -49,7 +49,8 @@ public class GFX {
         for (String graphic : gfx.keySet()) {
             try {
                 TextureManager.addTexture(graphic, gfx.get(graphic));
-            } catch (Exception e) {
+            }
+            catch (Exception e) {
                 Logger.log(e);
             }
         }

@@ -158,13 +158,15 @@ public class DemographicsManager extends Manager {
                     if (percentageOrCount == (int) percentageOrCount) { // Count
                         parent = new Bloc(blocName, category, (int) percentageOrCount,
                                 ENGINE.DemographicsManager().getNumberVoters());
-                    } else { // Percentage
+                    }
+                    else { // Percentage
                         parent = new Bloc(blocName, category,
                                 (int) (ENGINE.DemographicsManager().getNumberVoters() * percentageOrCount),
                                 ENGINE.DemographicsManager().getNumberVoters());
                     }
                     blocs.add(parent);
-                } else if (value instanceof List<?>) {
+                }
+                else if (value instanceof List<?>) {
                     // Recursive case: nested blocs
                     parent = new Bloc(blocName, category);
                     parent.addSubBlocs(createBlocs(category, keyObj));
@@ -278,7 +280,8 @@ public class DemographicsManager extends Manager {
                         .get(RandomOperations.randInt(presentation.getSubBlocs().size() - 1));
             }
             return new Demographics(generation, religion, raceEthnicity, presentation);
-        } catch (IndexOutOfBoundsException e) {
+        }
+        catch (IndexOutOfBoundsException e) {
             e.printStackTrace();
             return null;
         }
@@ -349,7 +352,8 @@ public class DemographicsManager extends Manager {
                     // System.out.printf("Found %s with ratio %f.%n",
                     // underrepresentedBloc.getName(), underrepresentedValue);
                 }
-            } else {
+            }
+            else {
                 Bloc candidate = findMostUnderrepresentedBloc(bloc.getSubBlocs());
                 float candidateRatio = determineRepresentationRatio(candidate);
                 if (Float.isNaN(underrepresentedValue) || candidateRatio < underrepresentedValue ||
@@ -378,7 +382,8 @@ public class DemographicsManager extends Manager {
             float representationRatio = actualRepresentation / expectedRepresentation;
 
             return (representationRatio);
-        } catch (ArithmeticException e) {
+        }
+        catch (ArithmeticException e) {
             return 1.0f;
         }
     }
@@ -476,11 +481,13 @@ public class DemographicsManager extends Manager {
                     @SuppressWarnings({ "unchecked", "rawtypes" })
                     Object enumValue = Enum.valueOf((Class<Enum>) type, value.toString());
                     field.set(this, enumValue);
-                } else {
+                }
+                else {
                     // For other types, set directly (may need conversion for complex types)
                     field.set(this, value);
                 }
-            } catch (Exception e) {
+            }
+            catch (Exception e) {
                 currentState = ManagerState.ERROR;
                 Logger.log("JSON DESERIALIZATION ERROR",
                         "Failed to set field " + fieldName + " in LanguageManager from JSON.", e);

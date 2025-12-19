@@ -599,7 +599,8 @@ public class TimeManager extends Manager {
                 fields.add(new JSONObject(fieldName, field.get(this)));
             }
             return new JSONObject("time_manager", fields);
-        } catch (NoSuchFieldException | IllegalAccessException e) {
+        }
+        catch (NoSuchFieldException | IllegalAccessException e) {
             currentState = ManagerState.ERROR;
             Logger.log("JSON SERIALIZATION ERROR", "Failed to serialize " + getClass().getSimpleName() + " to JSON.",
                     e);
@@ -624,11 +625,13 @@ public class TimeManager extends Manager {
                     @SuppressWarnings({ "unchecked", "rawtypes" })
                     Object enumValue = Enum.valueOf((Class<Enum>) type, value.toString());
                     field.set(this, enumValue);
-                } else {
+                }
+                else {
                     // For other types, set directly (may need conversion for complex types)
                     field.set(this, value);
                 }
-            } catch (Exception e) {
+            }
+            catch (Exception e) {
                 currentState = ManagerState.ERROR;
                 Logger.log("JSON DESERIALIZATION ERROR",
                         "Failed to set field " + fieldName + " in LanguageManager from JSON.", e);

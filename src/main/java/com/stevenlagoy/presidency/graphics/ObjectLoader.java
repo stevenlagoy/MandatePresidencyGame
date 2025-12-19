@@ -46,7 +46,8 @@ public class ObjectLoader {
             for (Path path : paths) {
                 models.add(loadOBJModel(path));
             }
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             e.printStackTrace();
         }
         return models;
@@ -62,7 +63,8 @@ public class ObjectLoader {
         List<String> lines = new ArrayList<>();
         try {
             lines = IOUtil.readAllLines(filePath.toFile());
-        } catch (Exception e) {
+        }
+        catch (Exception e) {
             e.printStackTrace();
         }
 

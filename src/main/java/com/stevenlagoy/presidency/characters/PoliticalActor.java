@@ -659,7 +659,8 @@ public class PoliticalActor extends Character implements HasPersonality {
             roleString += role.getTitle();
             if (i < roles.size() - 2) {
                 roleString += ", ";
-            } else if (i == roles.size() - 2) {
+            }
+            else if (i == roles.size() - 2) {
                 roleString += ", and ";
             }
             i++;

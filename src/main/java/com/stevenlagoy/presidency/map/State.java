@@ -331,11 +331,13 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
                     engine.MapManager(), engine.NameManager()));
             addSenator(new FederalOfficial(engine.CharacterManager(), engine.DemographicsManager(),
                     engine.MapManager(), engine.NameManager()));
-        } else if (senators.size() == 1) {
+        }
+        else if (senators.size() == 1) {
             addSenator(senators.get(0));
             addSenator(new FederalOfficial(engine.CharacterManager(), engine.DemographicsManager(),
                     engine.MapManager(), engine.NameManager()));
-        } else {
+        }
+        else {
             addSenator(senators.get(0));
             addSenator(senators.get(1));
         }
@@ -405,8 +407,8 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
                     engine.MapManager(), engine.NameManager(), this);
             this.governor.addRole(StateRole.GOVERNOR);
             this.governor.setJurisdiction(this);
-        } else
-            this.governor = governor;
+        }
+        else this.governor = governor;
     }
 
     // Lieutenant Governor State Official
@@ -421,8 +423,8 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
                     engine.MapManager(), engine.NameManager(), this);
             this.lieutenantGovernor.addRole(StateRole.LIEUTENANT_GOVERNOR);
             this.lieutenantGovernor.setJurisdiction(this);
-        } else
-            this.lieutenantGovernor = lieutenantGovernor;
+        }
+        else this.lieutenantGovernor = lieutenantGovernor;
     }
 
     // Past Results : List of Election Result

@@ -223,7 +223,8 @@ public final class MapManager extends Manager {
                     Set<String> descriptors = Set.copyOf((ArrayList<String>) stateJson.get("descriptors"));
                     this.states.add(new State(ENGINE.DemographicsManager(), this, FIPS, population, landArea, fullName, commonName, abbreviation, nickname,
                             motto, citiesLoaded ? capital : "", descriptors));
-                } catch (NumberFormatException | ClassCastException e) {
+                }
+                catch (NumberFormatException | ClassCastException e) {
                     Logger.log("INVALID STATE ENTRY","The parsed state either lacked necessary values or had malformed members. State: " + stateJson.getKey(),
                             e);
                 }
@@ -247,7 +248,8 @@ public final class MapManager extends Manager {
                     Set<String> descriptors = Set.copyOf((ArrayList<String>) districtJson.get("descriptors"));
                     this.congressionalDistricts.add(new CongressionalDistrict(ENGINE.DemographicsManager(), this, officeID, population, landArea, name,
                             stateName, districtNum, descriptors));
-                } catch (NumberFormatException e) {
+                }
+                catch (NumberFormatException e) {
                     Logger.log("INVALID CONGRESSIONAL DISTRICT ENTRY",
                             "The parsed congressional district either lacked necessary values or had malformed numbers. District: " + districtJson.getKey(),e);
                 }
@@ -305,8 +307,8 @@ public final class MapManager extends Manager {
                 // Handle null county seats
                 if (countyJson.get("county_seat").getClass() == Object.class) {
                     countySeat = null;
-                } else
-                    countySeat = countyJson.get("county_seat").toString();
+                }
+                else countySeat = countyJson.get("county_seat").toString();
                 this.matchCounty(FIPS).setCountySeat(this.matchMunicipality(countySeat,state));
             }
         }
@@ -362,7 +364,8 @@ public final class MapManager extends Manager {
                     this.municipalities.add(new Municipality(ENGINE.DemographicsManager(), this, FIPS, population, landArea, name, typeClass, standardTimeZone,
                             daylightTimeZone, stateName, countiesNames, descriptors));
                 }
-            } catch (NullPointerException e) {
+            }
+            catch (NullPointerException e) {
                 System.out.println(municipalityObj.toString());
                 throw e;
             }
@@ -690,11 +693,13 @@ public final class MapManager extends Manager {
                     @SuppressWarnings({ "unchecked", "rawtypes" })
                     Object enumValue = Enum.valueOf((Class<Enum>) type,value.toString());
                     field.set(this,enumValue);
-                } else {
+                }
+                else {
                     // For other types, set directly (may need conversion for complex types)
                     field.set(this,value);
                 }
-            } catch (Exception e) {
+            }
+            catch (Exception e) {
                 currentState = ManagerState.ERROR;
                 Logger.log("JSON DESERIALIZATION ERROR","Failed to set field " + fieldName + " in LanguageManager from JSON.",e);
             }

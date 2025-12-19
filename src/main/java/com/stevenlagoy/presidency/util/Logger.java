@@ -39,7 +39,8 @@ public final class Logger {
             IOUtil.stdout.printf("%s : %s%n", getDate(), logline);
             logWriter.close();
             return;
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             IOUtil.stdout.println(e);
             System.exit(-1);
         }
@@ -68,7 +69,8 @@ public final class Logger {
             IOUtil.stdout.printf("%s : %s %n", getDate(), stackTrace);
             logWriter.close();
             return;
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             IOUtil.stdout.println(e);
             System.exit(-1);
         }
@@ -95,7 +97,8 @@ public final class Logger {
             IOUtil.stdout.printf("%s : %s: %s%n", getDate(), context.toUpperCase(), logline);
             logWriter.close();
             return;
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             IOUtil.stdout.println(e);
             System.exit(-1);
         }
@@ -126,7 +129,8 @@ public final class Logger {
             IOUtil.stdout.printf("%s : %s: %s @ %s%n", getDate(), context.toUpperCase(), logline, stackTrace);
             logWriter.close();
             return;
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             IOUtil.stdout.println(e);
             System.exit(-1);
         }
@@ -155,18 +159,21 @@ public final class Logger {
             try (Scanner scanner = IOUtil.createScanner(errorFile)) {
                 while (scanner.hasNext())
                     contents.add(scanner.nextLine());
-            } catch (FileNotFoundException e) {
+            }
+            catch (FileNotFoundException e) {
                 log("ERROR FILE NOT FOUND", "The error file was unable to be found.", e);
                 successFlag = false;
             }
             try (PrintWriter writer = IOUtil.createWriter(logFile, true)) {
                 for (String line : contents)
                     writer.println(line);
-            } catch (IOException e) {
+            }
+            catch (IOException e) {
                 log("LOG FILE NOT FOUND", "The log file was unable to be found.", e);
                 successFlag = false;
             }
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             log("ERROR/LOG FILE NOT FOUND", "The error file or log file was unable to be found.", e);
             successFlag = false;
         }
@@ -183,7 +190,8 @@ public final class Logger {
             errorFile.createNewFile();
             FileOutputStream errorStream = new FileOutputStream(errorFile, false);
             errorStream.close();
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             log("ERROR/LOG FILE NOT FOUND", "Somehow, the error file or log file was unable to be found.", e);
             successFlag = false;
         }

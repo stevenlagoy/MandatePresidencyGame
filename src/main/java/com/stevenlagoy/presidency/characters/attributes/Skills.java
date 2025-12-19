@@ -299,10 +299,12 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
             if (lDiff >= eDiff && lDiff >= jDiff) {
                 l++;
                 remainder--;
-            } else if (eDiff >= jDiff) {
+            }
+            else if (eDiff >= jDiff) {
                 e++;
                 remainder--;
-            } else {
+            }
+            else {
                 j++;
                 remainder--;
             }
