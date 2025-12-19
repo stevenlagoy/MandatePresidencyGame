@@ -1,0 +1,233 @@
+package com.stevenlagoy.presidency.characters.attributes.names;
+import org.junit.Test;
+
+import com.stevenlagoy.presidency.core.Engine;
+import com.stevenlagoy.presidency.core.Manager.ManagerState;
+import com.stevenlagoy.presidency.demographics.Demographics;
+
+import static org.junit.Assert.*;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.Before; // Add this import for JUnit 4
+
+public final class NameTest {
+
+    public final Engine ENGINE = new Engine();
+    public List<Name> names;
+
+    public void createNames(int numNames) {
+        createNames(numNames, ENGINE.DemographicsManager().getMostCommonDemographics());
+    }
+
+    public void createNames(int numNames, Demographics demographics) {
+        if (names == null)
+            names = new ArrayList<>();
+        if (names != null && names.size() == numNames)
+            return;
+        if (numNames > names.size()) {
+            while(names.size() < numNames) names.addLast(ENGINE.NameManager().generateName(demographics));
+        }
+        else {
+            while(names.size() > numNames) names.removeFirst();
+        }
+    }
+
+    @Before
+    public void initNameManager() {
+        if (ENGINE.DemographicsManager().getState() != ManagerState.ACTIVE) {
+            if (!ENGINE.DemographicsManager().init()) {
+                fail("Failed to initialize DemographicsManager, necessary for testing.");
+            }
+        }
+        if (ENGINE.NameManager().getState() != ManagerState.ACTIVE) {
+            if (!ENGINE.NameManager().init()) {
+                fail("Failed to initialize NameManager, necessary for testing.");
+            }
+        }
+    }
+
+    @Test
+    public void namesAreGenerated() {
+        int numNames = 100;
+        createNames(numNames);
+        assertEquals(names.size(), numNames);
+    }
+
+    @Test
+    public void namesHaveGivenAndFamilyName() {
+        createNames(100);
+        for (Name name : names) {
+            assertNotNull(name.getGivenName());
+            assertNotNull(name.getFamilyName());
+            assertFalse(name.getGivenName().isBlank());
+            assertFalse(name.getFamilyName().isBlank());
+            assertTrue(name.getGivenName().matches("[a-zA-Z' -]+"));
+            assertTrue(name.getFamilyName().matches("[a-zA-Z' -]+"));
+        }
+    }
+
+    @Test
+    public void namesCanHaveMiddleNames() {
+        createNames(100);
+        boolean found = false;
+        for (Name name : names) {
+            if (name.getMiddleName() != null && !name.getMiddleName().isBlank()) {
+                found = true;
+                assertTrue(name.getMiddleName().matches("[a-zA-Z' -]+"));
+            }
+        }
+        assertTrue("At least one name has a middle name", found);
+    }
+
+    @Test
+    public void namesCanHaveMultipleFirstNames() {
+        createNames(500);
+        boolean found = false;
+        for (Name name : names) {
+            if (name.getGivenName().trim().split("\\s+").length > 1) {
+                found = true;
+                break;
+            }
+        }
+        assertTrue("At least one name should have multiple first names", found);
+    }
+
+    @Test
+    public void namesCanHaveMultipleLastNames() {
+        createNames(500);
+        boolean found = false;
+        for (Name name : names) {
+            if (name.getFamilyName().trim().split("\\s+").length > 1) {
+                found = true;
+                break;
+            }
+        }
+        assertTrue("At least one name should have multiple last names", found);
+    }
+
+    @Test
+    public void namesCanHaveNicknames() {
+        createNames(200);
+        boolean found = false;
+        for (Name name : names) {
+            if (name.getNickname() != null && !name.getNickname().isBlank()) {
+                found = true;
+                assertTrue(name.getNickname().matches("[\\p{L}'\\-\\. ]+"));
+            }
+        }
+        assertTrue("At least one name should have a nickname", found);
+    }
+
+    @Test
+    public void namesCanHaveHonorifics() {
+        createNames(200);
+        boolean found = false;
+        for (Name name : names) {
+            String formal = name.getFormalName();
+            if (formal.startsWith("Mr.") || formal.startsWith("Mrs.") || formal.startsWith("Ms.") || formal.startsWith("Dr.")) {
+                found = true;
+                break;
+            }
+        }
+        assertTrue("At least one name should have an honorific", found);
+    }
+
+    @Test
+    public void namesCanHaveOrdinals() {
+        createNames(200);
+        boolean found = false;
+        for (Name name : names) {
+            String ord = name.getOrdinal();
+            if (ord != null && !ord.isBlank()) {
+                assertTrue(ord.matches("(Sr\\.|Jr\\.|I|II|III)"));
+                found = true;
+            }
+        }
+        assertTrue("At least one name should have an ordinal", found);
+    }
+
+    @Test
+    public void namesCanHaveSuffixes() {
+        createNames(500);
+        boolean found = false;
+        for (Name name : names) {
+            List<String> suffixes = name.getSuffixes();
+            if (suffixes != null && !suffixes.isEmpty()) {
+                for (String suffix : suffixes) {
+                    assertTrue(suffix.matches("(PhD|MD|Esq\\.)"));
+                }
+                found = true;
+            }
+        }
+        assertTrue("At least one name should have a suffix", found);
+    }
+
+    @Test
+    public void namesCanBeAbbreviated() {
+        createNames(200);
+        boolean found = false;
+        for (Name name : names) {
+            name.addDisplayOption(Name.DisplayOption.ABBREVIATE_FIRST);
+            String abbreviated = name.getCommonName();
+            if (abbreviated.matches("[A-Z](\\.| )+.*")) {
+                found = true;
+                break;
+            }
+        }
+        assertTrue("At least one name should have an abbreviated first name", found);
+    }
+
+    @Test
+    public void namesCanPreferMiddleName() {
+        createNames(200);
+        boolean found = false;
+        for (Name name : names) {
+            if (name.getMiddleName() != null && !name.getMiddleName().isBlank()) {
+                name.addDisplayOption(Name.DisplayOption.PREFER_MIDDLE);
+                String preferred = name.getCommonName();
+                if (preferred.contains(name.getMiddleName())) {
+                    found = true;
+                    break;
+                }
+            }
+        }
+        assertTrue("At least one name should prefer the middle name", found);
+    }
+
+    @Test
+    public void namesDependOnDemographics() {
+        String[] generations = {"Silent Generation", "Boomer", "Generation X", "Millennial", "Generation Z", "Generation Alpha", "Generation Beta"};
+        String[] religions = {
+            "Christian", "Evangelical", "Baptist", "Lutheran", "Black Protestant",
+            "Catholic", "Hispanic Catholic", "Mormon", "Irreligious", "Agnostic",
+            "Jewish", "Muslim", "Buddhist", "Hindu"
+        };
+        String[] ethnicities = {
+            "White", "Anglo", "Irish", "Australian", "American",
+            "Norwegian", "Italian", "Spanish", "Portuguese", "German", "French",
+            "Polish", "Ukrainian", "Black", "African American", "Native / Indian",
+            "Cherokee", "Navajo", "Inuit", "Cree", "Nahuatl", "Chinese", "Japanese",
+            "Korean", "Filipino", "Indonesian", "Indian", "Hawaiian",
+            "Hispanic / Latino", "Mexican", "Brazilian", "Salvadoran", "Puerto Rican",
+            "Arab", "Egyptian", "Lebanese", "Iranian", "Israeli"
+        };
+        String[] genders = {"Man", "Woman"};
+        for (String gen : generations) {
+            for (String rel : religions) {
+                for (String eth : ethnicities) {
+                    for (String gender : genders) {
+                        Demographics demographics = new Demographics(ENGINE.DemographicsManager(), gen, rel, eth, gender);
+                        createNames(5, demographics);
+                        for (Name name : names) {
+                            assertNotNull(name.getGivenName());
+                            assertNotNull(name.getFamilyName());
+                        }
+                        names.clear();
+                    }
+                }
+            }
+        }
+    }
+}
