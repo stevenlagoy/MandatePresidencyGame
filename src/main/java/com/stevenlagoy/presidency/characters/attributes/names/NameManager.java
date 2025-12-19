@@ -288,7 +288,8 @@ public final class NameManager extends Manager {
             if (RandomOperations.randPercent() <= asianEasternNamePercent) {
                 return NameForm.EASTERN;
             }
-        } else if (demographics.getRaceEthnicity().getNestedNames().contains("Hispanic / Latino")) {
+        }
+        else if (demographics.getRaceEthnicity().getNestedNames().contains("Hispanic / Latino")) {
             if (demographics.getRaceEthnicity().getNestedNames().contains("Argentinian")) {
                 return NameForm.WESTERN; // Only the paternal apellido is inherited in the
                                          // Argentinian custom
@@ -296,7 +297,8 @@ public final class NameManager extends Manager {
             if (RandomOperations.randPercent() <= hispanicHispanicNamePercent) {
                 return NameForm.HISPANIC;
             }
-        } else if (demographics.getRaceEthnicity().getNestedNames().contains("Native / Indian")) {
+        }
+        else if (demographics.getRaceEthnicity().getNestedNames().contains("Native / Indian")) {
             if (RandomOperations.randPercent() <= nativeNativeNamePercent) {
                 return NameForm.NATIVE_AMERICAN;
             }
@@ -365,7 +367,8 @@ public final class NameManager extends Manager {
             allNicknames.add(newname);
             if (nicknames.containsKey(newname))
                 allNicknames.addAll(nicknames.get(newname));
-        } else {
+        }
+        else {
             // Nickname is based on given names
             for (String name : names) {
                 if (!nicknames.containsKey(name))
@@ -537,7 +540,8 @@ public final class NameManager extends Manager {
             String nickname;
             if (allGivens.size() == 2 && RandomOperations.randPercent() <= nicknameFromAbbreviationPercent) {
                 nickname = Character.toString(allGivens.get(0).charAt(0)) + Character.toString(allGivens.get(1).charAt(0));
-            } else {
+            }
+            else {
                 allGivens.addAll(Arrays.asList(middleOrGenerationalNames));
                 nickname = selectNickname(demographics,allGivens);
             }
@@ -584,24 +588,23 @@ public final class NameManager extends Manager {
         // Ordinal
         if (form == NameForm.WESTERN) {
             boolean aa = demographics.getRaceEthnicity().getNestedNames().contains("Black");
-            if (RandomOperations.randPercent() <= srOrdinationPercent) {
+            if (RandomOperations.randPercent() <= srOrdinationPercent)
                 name.setOrdinal("Sr.");
-            } else if (RandomOperations.randPercent() <= jrOrdinationPercent * (aa ? 2 : 1)) {
+            else if (RandomOperations.randPercent() <= jrOrdinationPercent * (aa ? 2 : 1))
                 name.setOrdinal("Jr.");
-            } else if (RandomOperations.randPercent() <= iOrdinationPercent * (aa ? 2 : 1)) {
+            else if (RandomOperations.randPercent() <= iOrdinationPercent * (aa ? 2 : 1))
                 name.setOrdinal("I");
-            } else if (RandomOperations.randPercent() <= iiOrdinationPercent * (aa ? 2 : 1)) {
+            else if (RandomOperations.randPercent() <= iiOrdinationPercent * (aa ? 2 : 1))
                 name.setOrdinal("II");
-            } else if (RandomOperations.randPercent() <= iiiOrdinationPercent * (aa ? 2 : 1)) {
+            else if (RandomOperations.randPercent() <= iiiOrdinationPercent * (aa ? 2 : 1))
                 name.setOrdinal("III");
-            }
         }
 
         // Suffixes
         // Only people with a PhD should have that suffix. Consider how to make the
         // character do this.
         if (RandomOperations.randPercent() <= esqSuffixPercent) {
-            // name.addSuffix("Esq.");
+            name.addSuffix("Esq.");
             name.addDisplayOption(DisplayOption.INCLUDE_SUFFIX);
         }
 
@@ -814,7 +817,8 @@ public final class NameManager extends Manager {
                     d = new HashMap<>();
                 d.put(key,((Number) value).doubleValue());
                 distributions.put(currentBlocs,d);
-            } else if (value instanceof List<?>) {
+            }
+            else if (value instanceof List<?>) {
                 // This is a nested structure
                 // If key is valid bloc, add it to a new bloc set
                 Bloc bloc = ENGINE.DemographicsManager().matchBlocName(key);

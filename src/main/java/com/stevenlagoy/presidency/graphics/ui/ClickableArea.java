@@ -50,8 +50,8 @@ public class ClickableArea {
                     onRightClick.run();
             }
             return true;
-        } else
-            isHover = false;
+        }
+        else isHover = false;
         return false;
     }
 

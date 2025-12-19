@@ -85,7 +85,8 @@ public class IOUtil {
         PrintWriter tempLogout;
         try {
             tempLogout = IOUtil.createWriter(FilePaths.OUTPUT_LOG_PATH.toFile());
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             e.printStackTrace();
             tempLogout = new PrintWriter(System.out, true); // fallback to stdout
         }
@@ -116,7 +117,8 @@ public class IOUtil {
         if (c != null)
             try {
                 c.close();
-            } catch (IOException ignored) {
+            }
+            catch (IOException ignored) {
             }
     }
 
@@ -143,7 +145,8 @@ public class IOUtil {
         try {
             Set<Path> pathSet = listFiles(dir, Extension.ALL);
             return pathSet;
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             throw e;
         }
     }
@@ -184,7 +187,8 @@ public class IOUtil {
                 }
             }
             return pathSet;
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             System.err.println("Error accessing directory: " + dir + " - " + e.getMessage());
             throw e;
         }
@@ -205,7 +209,8 @@ public class IOUtil {
             if (extension.extension.equals("*") || path.toString().endsWith(extension.extension)) {
                 try {
                     Files.delete(path);
-                } catch (IOException e) {
+                }
+                catch (IOException e) {
                     System.err.println("Failed to delete file: " + path.toString());
                     throw e;
                 }
@@ -227,7 +232,8 @@ public class IOUtil {
                 result.add(scanner.nextLine());
             }
             return result;
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             e.printStackTrace();
             return null;
         }
@@ -284,7 +290,8 @@ public class IOUtil {
                     writer.println(line);
                 }
             }
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             e.printStackTrace();
         }
     }

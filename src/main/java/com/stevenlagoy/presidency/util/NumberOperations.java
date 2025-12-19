@@ -5,6 +5,8 @@ import java.util.Map;
 
 public final class NumberOperations {
 
+    private NumberOperations() {}
+
     private static Map<Integer, Boolean> primeCache = new HashMap<>();
 
     public static boolean isPrime(int value) {
@@ -28,8 +30,7 @@ public final class NumberOperations {
             return 1;
         else if (value == 1)
             return 2;
-        while (!isPrime(value++))
-            ;
+        while (!isPrime(++value)) {}
         return value;
     }
 

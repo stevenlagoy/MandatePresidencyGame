@@ -59,7 +59,8 @@ public class Window {
 
         if (maximized) {
             GLFW.glfwMaximizeWindow(window);
-        } else {
+        }
+        else {
             GLFWVidMode vidMode = GLFW.glfwGetVideoMode(GLFW.glfwGetPrimaryMonitor());
             GLFW.glfwSetWindowPos(window, (vidMode.width() - width) / 2, (vidMode.height() - height) / 2);
         }

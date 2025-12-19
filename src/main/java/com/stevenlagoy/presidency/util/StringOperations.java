@@ -5,8 +5,7 @@ import java.util.List;
 
 public final class StringOperations {
 
-    private StringOperations() {
-    }
+    private StringOperations() {}
 
     /**
      * Determines whether a given position in a line of text is currently inside a

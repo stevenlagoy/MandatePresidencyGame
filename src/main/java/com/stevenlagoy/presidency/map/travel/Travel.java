@@ -487,9 +487,11 @@ public class Travel {
         // Determine highest priority, apply algorithm accordingly
         if (distancePriority > costPriority && distancePriority > timePriority) {
             // Reducing distance most important
-        } else if (costPriority > timePriority) {
+        }
+        else if (costPriority > timePriority) {
             // Reducing cost most important
-        } else {
+        }
+        else {
             // Reducing time most important
 
             // Rank available vehicles by speed

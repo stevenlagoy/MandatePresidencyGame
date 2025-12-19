@@ -140,7 +140,8 @@ public class EntityRenderer implements IRenderer<Object> {
 
                 try {
                     GL11.glDrawElements(GL11.GL_TRIANGLES, vertexCount, GL11.GL_UNSIGNED_INT, 0);
-                } catch (Exception e) {
+                }
+                catch (Exception e) {
                     Logger.log("Draw call failed");
                     Logger.log(e);
                 }
@@ -232,7 +233,8 @@ public class EntityRenderer implements IRenderer<Object> {
             shader.setUniform("material", material);
             if (material.hasTransparency() || material.isDisableCulling()) {
                 RenderManager.disableCulling();
-            } else {
+            }
+            else {
                 // RenderManager.enableCulling();
             }
         }

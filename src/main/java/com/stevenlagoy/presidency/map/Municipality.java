@@ -131,7 +131,8 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
         this.counties = counties != null ? counties : new ArrayList<>();
         try {
             this.state = this.counties.get(0).getState();
-        } catch (ArrayIndexOutOfBoundsException e) {
+        }
+        catch (ArrayIndexOutOfBoundsException e) {
             Logger.log("NO COUNTIES OR STATE",
                     String.format("A Municipality was created without counties or state. Name: %s", name), e);
         }
@@ -384,8 +385,8 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
                     engine.MapManager(), engine.NameManager());
             this.mayor.addRole(LocalRole.MAYOR);
             this.mayor.setJurisdiction(this);
-        } else
-            this.mayor = mayor;
+        }
+        else this.mayor = mayor;
     }
 
     // Contract Location : Municipality

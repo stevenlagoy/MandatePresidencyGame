@@ -235,8 +235,8 @@ public class CongressionalDistrict implements MapEntity, Repr<State>, Jsonic<Sta
             this.representative = new FederalOfficial(Main.Engine().CharacterManager(), Main.Engine().DemographicsManager(), Main.Engine().MapManager(),
                     Main.Engine().NameManager());
             this.representative.addRole(FederalRole.REPRESENTATIVE);
-        } else
-            this.representative = representative;
+        }
+        else this.representative = representative;
     }
 
     // REPRESENTATION METHODS

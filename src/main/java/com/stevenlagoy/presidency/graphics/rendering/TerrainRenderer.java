@@ -89,7 +89,8 @@ public class TerrainRenderer implements IRenderer<Object> {
         Material material = model.getMaterial();
         if (material.hasTransparency()) {
             RenderManager.disableCulling();
-        } else {
+        }
+        else {
             RenderManager.enableCulling();
         }
 
