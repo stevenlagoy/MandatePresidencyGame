@@ -4,7 +4,7 @@ import org.joml.Vector2d;
 import org.joml.Vector2f;
 import org.lwjgl.glfw.GLFW;
 
-import com.stevenlagoy.presidency.app.Main;
+import com.stevenlagoy.presidency.core.Engine;
 
 public class MouseInput {
 
@@ -13,23 +13,26 @@ public class MouseInput {
 
     private boolean inWindow = false, leftButtonPress = false, rightButtonPress = false;
 
-    public MouseInput() {
+    private final Engine ENGINE;
+
+    public MouseInput(Engine engine) {
+        this.ENGINE = engine;
         previousPos = new Vector2d(-1, -1);
         currentPos = new Vector2d(0, 0);
         displVec = new Vector2f();
     }
 
     public void init() {
-        GLFW.glfwSetCursorPosCallback(Main.Engine().GraphicsManager().getWindow().getWindow(), (window, xpos, ypos) -> {
+        GLFW.glfwSetCursorPosCallback(ENGINE.GraphicsManager().getWindow().getWindow(), (window, xpos, ypos) -> {
             currentPos.x = xpos;
             currentPos.y = ypos;
         });
 
-        GLFW.glfwSetCursorEnterCallback(Main.Engine().GraphicsManager().getWindow().getWindow(), (window, entered) -> {
+        GLFW.glfwSetCursorEnterCallback(ENGINE.GraphicsManager().getWindow().getWindow(), (window, entered) -> {
             inWindow = entered;
         });
 
-        GLFW.glfwSetMouseButtonCallback(Main.Engine().GraphicsManager().getWindow().getWindow(),
+        GLFW.glfwSetMouseButtonCallback(ENGINE.GraphicsManager().getWindow().getWindow(),
                 (window, button, action, mods) -> {
                     leftButtonPress = button == GLFW.GLFW_MOUSE_BUTTON_1 && action == GLFW.GLFW_PRESS;
                     rightButtonPress = button == GLFW.GLFW_MOUSE_BUTTON_2 && action == GLFW.GLFW_PRESS;

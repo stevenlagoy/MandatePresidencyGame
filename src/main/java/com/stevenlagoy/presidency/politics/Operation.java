@@ -3,7 +3,6 @@ package com.stevenlagoy.presidency.politics;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
-
 import com.stevenlagoy.presidency.characters.Character;
 
 import java.util.HashSet;

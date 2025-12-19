@@ -3,7 +3,6 @@ package com.stevenlagoy.presidency.politics;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-
 import com.stevenlagoy.presidency.characters.FederalOfficial;
 import com.stevenlagoy.presidency.characters.LocalOfficial;
 import com.stevenlagoy.presidency.characters.PoliticalActor;

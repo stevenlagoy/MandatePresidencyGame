@@ -17,13 +17,17 @@ import java.util.List;
 
 // Internal Imports
 import core.JSONObject;
+import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.TimeManager;
 import com.stevenlagoy.presidency.data.Jsonic;
-import com.stevenlagoy.presidency.app.Main;
 import com.stevenlagoy.presidency.data.Repr;
+import com.stevenlagoy.presidency.app.Main;
 import com.stevenlagoy.presidency.characters.attributes.CharacterModel;
 import com.stevenlagoy.presidency.characters.attributes.names.Name;
+import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
 import com.stevenlagoy.presidency.demographics.Demographics;
+import com.stevenlagoy.presidency.demographics.DemographicsManager;
+import com.stevenlagoy.presidency.map.MapManager;
 import com.stevenlagoy.presidency.map.Municipality;
 
 /**
@@ -74,18 +78,9 @@ public class Character implements Repr<Character>, Jsonic<Character> {
      * @see #Character(Demographics, Name, Municipality, Municipality, Municipality,
      *      Date, CharacterModel)
      */
-    public Character() {
+    public Character(CharacterManager cm, DemographicsManager dm, MapManager mm, NameManager nm) {
         // Have builder constructor generate all fields
-        this(null, null, null, null, null, null, null);
-    }
-
-    /**
-     * Deep-copies the existing fields of another Character object.
-     * 
-     * @param other Character to copy fields from.
-     */
-    public Character(Character other) {
-        this(other, true);
+        this(cm, dm, mm, nm, null, null, null, null, null, null, null);
     }
 
     /**
@@ -96,7 +91,7 @@ public class Character implements Repr<Character>, Jsonic<Character> {
      * @param addToCharacterList Boolean indicating whether to add the created
      *                           object to the CharacterManager's list.
      */
-    public Character(Character other, boolean addToCharacterList) {
+    public Character(Character other) {
         this.demographics = new Demographics(other.demographics);
         this.name = new Name(other.name);
         this.birthplaceMunicipality = other.birthplaceMunicipality;
@@ -104,19 +99,6 @@ public class Character implements Repr<Character>, Jsonic<Character> {
         this.residenceMunicipality = other.residenceMunicipality;
         this.birthday = other.birthday;
         this.appearance = new CharacterModel(other.appearance);
-
-        if (addToCharacterList)
-            Main.Engine().CharacterManager().addCharacter(this);
-    }
-
-    /**
-     * Creates a Character parsed from the Repr buildstring.
-     * 
-     * @param buildstring Valid Repr-format buildstring.
-     * @see #Character(String, boolean)
-     */
-    public Character(String buildstring) {
-        this(buildstring, true);
     }
 
     /**
@@ -126,14 +108,12 @@ public class Character implements Repr<Character>, Jsonic<Character> {
      * @param addToCharacterList Boolean indicating whether to add the created
      *                           object to the CharacterManager's list.
      */
-    public Character(String buildstring, boolean addToCharacterList) {
+    public Character(String buildstring) {
         if (buildstring == null || buildstring.isBlank()) {
             throw new IllegalArgumentException("The given buildstring was null, and a " + getClass().getSimpleName()
                     + " object could not be created.");
         }
         fromRepr(buildstring);
-        if (addToCharacterList)
-            Main.Engine().CharacterManager().addCharacter(this);
     }
 
     /**
@@ -147,7 +127,6 @@ public class Character implements Repr<Character>, Jsonic<Character> {
                     + " object could not be created.");
         }
         fromJson(json);
-        Main.Engine().CharacterManager().addCharacter(this);
     }
 
     /**
@@ -165,11 +144,15 @@ public class Character implements Repr<Character>, Jsonic<Character> {
      * @param appearance             CharacterModel object to be rendered for this
      *                               Character.
      */
-    public Character(Demographics demographics, Name name, Municipality birthplaceMunicipality,
+    public Character(CharacterManager cm, DemographicsManager dm, MapManager mm, NameManager nm,
+            Demographics demographics, Name name, Municipality birthplaceMunicipality,
             Municipality residenceMunicipality, LocalDate birthday, CharacterModel appearance) {
-        this(demographics, name, birthplaceMunicipality, residenceMunicipality, residenceMunicipality, birthday,
-                appearance);
+        this(cm, dm, mm, nm, demographics, name, birthplaceMunicipality, residenceMunicipality, residenceMunicipality,
+                birthday, appearance);
     }
+
+    // TODO This should be in the CharacterManager, not here. Holding an Engine
+    // reference is an antipattern
 
     /**
      * Creates a Character with the passed values. The CharacterManager will
@@ -190,24 +173,23 @@ public class Character implements Repr<Character>, Jsonic<Character> {
      * @param appearance                  CharacterModel object to be rendered for
      *                                    this Character.
      */
-    public Character(Demographics demographics, Name name, Municipality birthplaceMunicipality,
+    public Character(CharacterManager cm, DemographicsManager dm, MapManager mm, NameManager nm,
+            Demographics demographics, Name name, Municipality birthplaceMunicipality,
             Municipality currentLocationMunicipality, Municipality residenceMunicipality, LocalDate birthday,
             CharacterModel appearance) {
         this.demographics = demographics != null ? demographics
-                : Main.Engine().DemographicsManager().generateWeightedDemographics();
-        this.name = name != null ? name : Main.Engine().NameManager().generateName(this.demographics);
+                : dm.generateWeightedDemographics();
+        this.name = name != null ? name : nm.generateName(this.demographics);
         this.birthplaceMunicipality = birthplaceMunicipality != null ? birthplaceMunicipality
-                : Main.Engine().MapManager().selectMunicipality(this.demographics);
+                : mm.selectMunicipality(this.demographics);
         this.residenceMunicipality = residenceMunicipality != null ? residenceMunicipality
-                : Main.Engine().MapManager().selectMunicipality(this.demographics);
+                : mm.selectMunicipality(this.demographics);
         this.currentLocationMunicipality = currentLocationMunicipality != null ? currentLocationMunicipality
                 : residenceMunicipality != null ? residenceMunicipality
-                        : Main.Engine().MapManager().selectMunicipality(this.demographics);
-        this.birthday = birthday != null ? birthday : CharacterManager.generateBirthday(this.demographics);
+                        : mm.selectMunicipality(this.demographics);
+        this.birthday = birthday != null ? birthday : cm.generateBirthday(this.demographics);
         this.appearance = appearance != null ? appearance
-                : CharacterManager.generateCharacterModel(this.demographics, this.birthday);
-
-        Main.Engine().CharacterManager().addCharacter(this);
+                : cm.generateCharacterModel(this.demographics, this.birthday);
     }
 
     // GETTERS AND SETTERS
@@ -268,7 +250,7 @@ public class Character implements Repr<Character>, Jsonic<Character> {
     }
 
     public int getAge() {
-        return Main.Engine().TimeManager().yearsAgo(this.birthday);
+        return Main.Engine().TimeManager().yearsAgo(this.birthday); // TODO how to do this without Engine reference?
     }
 
     // Appearance CharacterModel
@@ -313,6 +295,7 @@ public class Character implements Repr<Character>, Jsonic<Character> {
      */
     @Override
     public Character fromJson(JSONObject json) {
+
         if (json == null)
             return null;
         // Demographics
@@ -350,7 +333,7 @@ public class Character implements Repr<Character>, Jsonic<Character> {
         // Birthday
         Object birthdayObj = json.get("birthday");
         if (birthdayObj == null)
-            this.birthday = CharacterManager.generateBirthday(demographics);
+            this.birthday = Main.Engine().CharacterManager().generateBirthday(demographics);
         else if (birthdayObj instanceof JSONObject birthdayJson)
             this.birthday = TimeManager.dateFromString(birthdayJson.getAsString());
         // Appearance

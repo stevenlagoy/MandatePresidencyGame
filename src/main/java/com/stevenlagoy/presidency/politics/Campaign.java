@@ -2,7 +2,6 @@ package com.stevenlagoy.presidency.politics;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import com.stevenlagoy.presidency.characters.Character;
 
 public class Campaign extends Operation {

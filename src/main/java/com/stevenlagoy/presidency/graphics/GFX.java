@@ -2,7 +2,6 @@ package com.stevenlagoy.presidency.graphics;
 
 import java.util.HashMap;
 import java.util.Map;
-
 import com.stevenlagoy.presidency.graphics.entity.TextureManager;
 import com.stevenlagoy.presidency.util.Logger;
 

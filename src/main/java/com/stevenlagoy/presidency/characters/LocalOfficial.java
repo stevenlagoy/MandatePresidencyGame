@@ -2,11 +2,12 @@ package com.stevenlagoy.presidency.characters;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import core.JSONObject;
-import com.stevenlagoy.presidency.app.Main;
 import com.stevenlagoy.presidency.characters.attributes.Role;
+import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
+import com.stevenlagoy.presidency.demographics.DemographicsManager;
 import com.stevenlagoy.presidency.map.MapEntity;
+import com.stevenlagoy.presidency.map.MapManager;
 
 public class LocalOfficial extends PoliticalActor {
 
@@ -18,7 +19,7 @@ public class LocalOfficial extends PoliticalActor {
 
         @Override
         public String getTitle() {
-            return Main.Engine().LanguageManager().getLocalization(this.name());
+            return this.name(); // TODO Remember to localize in the caller
         }
     }
 
@@ -26,8 +27,8 @@ public class LocalOfficial extends PoliticalActor {
 
     private List<LocalRole> roles;
 
-    public LocalOfficial() {
-        super();
+    public LocalOfficial(CharacterManager cm, DemographicsManager dm, MapManager mm, NameManager nm) {
+        super(cm, dm, mm, nm);
         this.roles = new ArrayList<>();
     }
 

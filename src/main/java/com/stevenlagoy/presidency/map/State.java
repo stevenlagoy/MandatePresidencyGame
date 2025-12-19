@@ -21,14 +21,16 @@ import java.util.Set;
 // Internal Imports
 import core.JSONObject;
 import com.stevenlagoy.presidency.data.Jsonic;
-import com.stevenlagoy.presidency.app.Main;
+
 import com.stevenlagoy.presidency.data.Repr;
 import com.stevenlagoy.presidency.characters.FederalOfficial;
 import com.stevenlagoy.presidency.characters.PoliticalActor;
 import com.stevenlagoy.presidency.characters.StateOfficial;
 import com.stevenlagoy.presidency.characters.FederalOfficial.FederalRole;
 import com.stevenlagoy.presidency.characters.StateOfficial.StateRole;
+import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.demographics.Bloc;
+import com.stevenlagoy.presidency.demographics.DemographicsManager;
 import com.stevenlagoy.presidency.politics.ElectionResult;
 import com.stevenlagoy.presidency.politics.Legislature;
 import com.stevenlagoy.presidency.politics.Party;
@@ -80,7 +82,9 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
     // -------------------------------------------------------------------------------
 
     /** To be used before Characters are ready to be generated. */
-    public State(String FIPS, int population, double landArea, String fullName, String commonName, String abbreviation,
+    public State(DemographicsManager dm, MapManager mm, String FIPS, int population, double landArea, String fullName,
+            String commonName,
+            String abbreviation,
             String nickname, String motto, String capitalName, Set<String> descriptors) {
         nation = Nation.getInstance();
         setFIPS(FIPS);
@@ -92,22 +96,27 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
         this.nickname = nickname;
         this.motto = motto;
         this.capital = capitalName.isEmpty() ? null
-                : Main.Engine().MapManager().matchMunicipality(capitalName, abbreviation);
+                : mm.matchMunicipality(capitalName, abbreviation);
         this.senators = new ArrayList<>();
         this.representatives = new ArrayList<>();
         this.stateHouses = new ArrayList<>();
-        setDescriptors(descriptors);
+        setDescriptors(dm, descriptors);
     }
 
-    public State(String FIPS, int population, double landArea, String fullName, String commonName, String abbreviation,
+    public State(Engine engine, String FIPS, int population, double landArea, String fullName,
+            String commonName,
+            String abbreviation,
             String nickname, String motto, String capitalName, Set<String> descriptors, List<FederalOfficial> senators,
             StateOfficial governor, StateOfficial lieutenantGovernor) {
-        this(FIPS, population, landArea, fullName, commonName, abbreviation, nickname, motto,
-                capitalName.isEmpty() ? null : Main.Engine().MapManager().matchMunicipality(capitalName, abbreviation),
+        this(engine, FIPS, population, landArea, fullName, commonName, abbreviation, nickname, motto,
+                capitalName.isEmpty() ? null : engine.MapManager().matchMunicipality(capitalName, abbreviation),
                 descriptors, senators, governor, lieutenantGovernor);
     }
 
-    public State(String FIPS, int population, double landArea, String fullName, String commonName, String abbreviation,
+    public State(Engine engine, String FIPS, int population, double landArea,
+            String fullName,
+            String commonName,
+            String abbreviation,
             String nickname, String motto, Municipality capital, Set<String> descriptors,
             List<FederalOfficial> senators, StateOfficial governor, StateOfficial lieutenantGovernor) {
         nation = Nation.getInstance();
@@ -120,10 +129,14 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
         this.nickname = nickname;
         this.motto = motto;
         this.capital = capital;
-        setDescriptors(descriptors);
-        setSenators(senators);
-        this.governor = governor != null ? governor : new StateOfficial(this);
-        this.lieutenantGovernor = lieutenantGovernor != null ? lieutenantGovernor : new StateOfficial(this);
+        setDescriptors(engine.DemographicsManager(), descriptors);
+        setSenators(engine, senators);
+        this.governor = governor != null ? governor
+                : new StateOfficial(engine.CharacterManager(), engine.DemographicsManager(),
+                        engine.MapManager(), engine.NameManager(), this);
+        this.lieutenantGovernor = lieutenantGovernor != null ? lieutenantGovernor
+                : new StateOfficial(engine.CharacterManager(), engine.DemographicsManager(),
+                        engine.MapManager(), engine.NameManager(), this);
     }
 
     // GETTERS AND SETTERS
@@ -177,7 +190,7 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
 
     // Full Name : String
     public String getFullName() {
-        return Main.Engine().LanguageManager().getLocalization(fullName);
+        return fullName;
     }
 
     public void setFullName(String name) {
@@ -204,7 +217,7 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
 
     // Nickname : String
     public String getNickname() {
-        return Main.Engine().LanguageManager().getLocalization(nickname);
+        return nickname;
     }
 
     public void setNickname(String nickname) {
@@ -213,7 +226,7 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
 
     // Motto : String
     public String getMotto() {
-        return Main.Engine().LanguageManager().getLocalization(motto);
+        return motto;
     }
 
     public void setMotto(String motto) {
@@ -236,9 +249,9 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
     }
 
     @Override
-    public void setDescriptors(Set<String> descriptors) {
+    public void setDescriptors(DemographicsManager dm, Set<String> descriptors) {
         this.descriptors = new HashSet<>(descriptors);
-        evaluateDemographics();
+        evaluateDemographics(dm);
     }
 
     @Override
@@ -247,34 +260,34 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
     }
 
     @Override
-    public boolean addDescriptor(String descriptor) {
+    public boolean addDescriptor(DemographicsManager dm, String descriptor) {
         boolean modified = this.descriptors.add(descriptor);
         if (modified)
-            evaluateDemographics();
+            evaluateDemographics(dm);
         return modified;
     }
 
     @Override
-    public boolean addAllDescriptors(Collection<String> descriptors) {
+    public boolean addAllDescriptors(DemographicsManager dm, Collection<String> descriptors) {
         boolean modified = this.descriptors.addAll(descriptors);
         if (modified)
-            evaluateDemographics();
+            evaluateDemographics(dm);
         return modified;
     }
 
     @Override
-    public boolean removeDescriptor(String descriptor) {
+    public boolean removeDescriptor(DemographicsManager dm, String descriptor) {
         boolean modified = this.descriptors.remove(descriptor);
         if (modified)
-            evaluateDemographics();
+            evaluateDemographics(dm);
         return modified;
     }
 
     @Override
-    public boolean removeAllDescriptors(Collection<String> descriptors) {
+    public boolean removeAllDescriptors(DemographicsManager dm, Collection<String> descriptors) {
         boolean modified = this.descriptors.removeAll(descriptors);
         if (modified)
-            evaluateDemographics();
+            evaluateDemographics(dm);
         return modified;
     }
 
@@ -296,10 +309,9 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
     }
 
     @Override
-    public void evaluateDemographics() {
+    public void evaluateDemographics(DemographicsManager dm) {
         this.descriptors.addAll(nation.getDescriptors());
-        // TODO this.demographics =
-        // Main.Engine().MapManager().demographicsFromDescriptors(descriptors);
+        this.demographics = dm.demographicsFromDescriptors(descriptors);
     }
 
     // Senators : List of Federal Official
@@ -312,14 +324,17 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
      * and generates any necessary.
      * Pass with an empty list or {@code null} to have both senators generated.
      */
-    public void setSenators(List<FederalOfficial> senators) {
+    public void setSenators(Engine engine, List<FederalOfficial> senators) {
         this.senators = new ArrayList<>();
         if (senators == null || senators.isEmpty()) {
-            addSenator(new FederalOfficial());
-            addSenator(new FederalOfficial());
+            addSenator(new FederalOfficial(engine.CharacterManager(), engine.DemographicsManager(),
+                    engine.MapManager(), engine.NameManager()));
+            addSenator(new FederalOfficial(engine.CharacterManager(), engine.DemographicsManager(),
+                    engine.MapManager(), engine.NameManager()));
         } else if (senators.size() == 1) {
             addSenator(senators.get(0));
-            addSenator(new FederalOfficial());
+            addSenator(new FederalOfficial(engine.CharacterManager(), engine.DemographicsManager(),
+                    engine.MapManager(), engine.NameManager()));
         } else {
             addSenator(senators.get(0));
             addSenator(senators.get(1));
@@ -384,9 +399,10 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
         return governor;
     }
 
-    public void setGovernor(StateOfficial governor) {
+    public void setGovernor(Engine engine, StateOfficial governor) {
         if (governor == null) {
-            this.governor = new StateOfficial(this);
+            this.governor = new StateOfficial(engine.CharacterManager(), engine.DemographicsManager(),
+                    engine.MapManager(), engine.NameManager(), this);
             this.governor.addRole(StateRole.GOVERNOR);
             this.governor.setJurisdiction(this);
         } else
@@ -398,9 +414,11 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
         return lieutenantGovernor;
     }
 
-    public void setLieutenantGovernor(StateOfficial lieutenantGovernor) {
+    public void setLieutenantGovernor(Engine engine, StateOfficial lieutenantGovernor) {
         if (lieutenantGovernor == null) {
-            this.lieutenantGovernor = new StateOfficial(this);
+            this.lieutenantGovernor = new StateOfficial(engine.CharacterManager(),
+                    engine.DemographicsManager(),
+                    engine.MapManager(), engine.NameManager(), this);
             this.lieutenantGovernor.addRole(StateRole.LIEUTENANT_GOVERNOR);
             this.lieutenantGovernor.setJurisdiction(this);
         } else
@@ -459,7 +477,7 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
      * state legislature, governor, and previous electoral results. Higher values
      * mean more control.
      */
-    public double getPartyControl(Party party) {
+    public double getPartyControl(Party party, Engine engine) {
         double control = 0.0;
 
         /*
@@ -525,7 +543,7 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
         // Control from electoral history
         for (ElectionResult result : pastResults) {
             int year = result.getElectionDate().getYear();
-            int currentYear = Main.Engine().TimeManager().getCurrentYear();
+            int currentYear = engine.TimeManager().getCurrentYear();
             if (year >= currentYear - 20) {
                 control += getTotalResultsForPartyByYear(party).get(year) / getTotalVotesInYear(year)
                         * (1 / (currentYear - year)) * 0.125; // Weight recent elections higher

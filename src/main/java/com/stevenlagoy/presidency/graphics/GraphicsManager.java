@@ -5,7 +5,7 @@ import org.joml.Vector4f;
 import org.lwjgl.glfw.GLFWErrorCallback;
 
 import core.JSONObject;
-import com.stevenlagoy.presidency.app.Main;
+import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.util.Logger;
 
@@ -49,12 +49,14 @@ public final class GraphicsManager extends Manager {
     private MouseInput mouse;
     private ILogic gameLogic;
 
+    private final Engine ENGINE;
     private ManagerState currentState;
 
     // CONSTRUCTORS
     // -------------------------------------------------------------------------------
 
-    public GraphicsManager() {
+    public GraphicsManager(Engine engine) {
+        this.ENGINE = engine;
         currentState = ManagerState.INACTIVE;
     }
 
@@ -64,10 +66,10 @@ public final class GraphicsManager extends Manager {
     @Override
     public boolean init() {
         boolean successFlag = true;
-        double startTime = Main.Engine().getProgramTime();
+        double startTime = ENGINE.getProgramTime();
         Logger.log(String.format("%s starting at %f", this.getClass().getSimpleName(), startTime));
         currentState = successFlag ? ManagerState.ACTIVE : ManagerState.ERROR;
-        double endTime = Main.Engine().getProgramTime();
+        double endTime = ENGINE.getProgramTime();
         Logger.log(String.format("%s initialized %s at %f. Elapsed: %f", this.getClass().getSimpleName(),
                 successFlag ? "successfully" : "unsuccessfully", endTime, endTime - startTime));
         return successFlag;

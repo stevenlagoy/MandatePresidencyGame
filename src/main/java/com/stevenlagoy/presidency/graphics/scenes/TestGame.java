@@ -5,7 +5,7 @@ import org.joml.Vector3f;
 import org.joml.Vector4f;
 import org.lwjgl.glfw.GLFW;
 
-import com.stevenlagoy.presidency.app.Main;
+import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.graphics.Camera;
 import com.stevenlagoy.presidency.graphics.GraphicsManager;
 import com.stevenlagoy.presidency.graphics.ILogic;
@@ -34,9 +34,12 @@ public class TestGame implements ILogic {
     private Camera camera;
     Vector3f cameraInc;
 
-    public TestGame() {
-        renderer = new RenderManager();
-        window = Main.Engine().GraphicsManager().getWindow();
+    private final Engine ENGINE;
+
+    public TestGame(Engine engine) {
+        this.ENGINE = engine;
+        renderer = new RenderManager(ENGINE);
+        window = ENGINE.GraphicsManager().getWindow();
         sceneManager = new SceneManager(-90);
         camera = new Camera(new Vector3f(0, 100, 300), new Vector3f(0, 0, 0));
         cameraInc = new Vector3f(0, 0, 0);

@@ -17,9 +17,6 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 import java.util.Map;
-
-import com.stevenlagoy.presidency.app.Main;
-
 import com.stevenlagoy.presidency.characters.CharacterManager;
 import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
 import com.stevenlagoy.presidency.data.Jsonic;
@@ -120,14 +117,14 @@ public final class Engine extends Manager {
     public Engine() {
         t_zero = System.nanoTime();
         currentState = ManagerState.INACTIVE;
-        LANGUAGE_MANAGER = new LanguageManager();
-        TIME_MANAGER = new TimeManager();
-        EVENT_MANAGER = new EventManager();
-        DEMOGRAPHICS_MANAGER = new DemographicsManager();
-        MAP_MANAGER = new MapManager();
+        LANGUAGE_MANAGER = new LanguageManager(this);
+        TIME_MANAGER = new TimeManager(this);
+        EVENT_MANAGER = new EventManager(this);
+        DEMOGRAPHICS_MANAGER = new DemographicsManager(this);
+        MAP_MANAGER = new MapManager(this);
         NAME_MANAGER = new NameManager(this);
-        CHARACTER_MANAGER = new CharacterManager();
-        GRAPHICS_MANAGER = new GraphicsManager();
+        CHARACTER_MANAGER = new CharacterManager(this);
+        GRAPHICS_MANAGER = new GraphicsManager(this);
         managers = List.of(
                 LANGUAGE_MANAGER,
                 TIME_MANAGER,
@@ -153,14 +150,14 @@ public final class Engine extends Manager {
     @Override
     public boolean init() {
         boolean successFlag = true;
-        double startTime = Main.Engine().getProgramTime();
+        double startTime = getProgramTime();
         Logger.log(String.format("%s starting at %f", this.getClass().getSimpleName(), startTime));
         for (Manager manager : managers) {
             if (!manager.init())
                 successFlag = false;
         }
         currentState = successFlag ? ManagerState.ACTIVE : ManagerState.ERROR;
-        double endTime = Main.Engine().getProgramTime();
+        double endTime = getProgramTime();
         Logger.log(String.format("%s initialized %s at %f. Elapsed: %f", this.getClass().getSimpleName(),
                 successFlag ? "successfully" : "unsuccessfully", endTime, endTime - startTime));
         return successFlag;

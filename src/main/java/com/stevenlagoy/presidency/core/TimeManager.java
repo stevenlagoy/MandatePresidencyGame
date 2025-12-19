@@ -17,9 +17,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.TimeZone;
-
-import com.stevenlagoy.presidency.app.Main;
-
 import core.JSONObject;
 import com.stevenlagoy.presidency.util.Logger;
 import com.stevenlagoy.presidency.util.NumberOperations;
@@ -384,6 +381,7 @@ public class TimeManager extends Manager {
     /** Current Date of Gameplay. */
     private ZonedDateTime currentGameDate;
 
+    private final Engine ENGINE;
     /** State of the Manager. */
     private ManagerState currentState;
 
@@ -391,7 +389,8 @@ public class TimeManager extends Manager {
     // -------------------------------------------------------------------------------
 
     /** Create a new inactive DateManager. */
-    public TimeManager() {
+    public TimeManager(Engine engine) {
+        this.ENGINE = engine;
         currentState = ManagerState.INACTIVE;
         currentGameDate = ZonedDateTime.of(startDate.toLocalDate(), startDate.toLocalTime(), startDate.getZone());
     }
@@ -403,12 +402,12 @@ public class TimeManager extends Manager {
     @Override
     public boolean init() {
         boolean successFlag = true;
-        double startTime = Main.Engine().getProgramTime();
+        double startTime = ENGINE.getProgramTime();
         Logger.log(String.format("%s starting at %f", this.getClass().getSimpleName(), startTime));
         if (currentGameDate == null || !currentGameDate.equals(startDate))
             currentGameDate = ZonedDateTime.of(startDate.toLocalDate(), startDate.toLocalTime(), startDate.getZone());
         currentState = successFlag ? ManagerState.ACTIVE : ManagerState.ERROR;
-        double endTime = Main.Engine().getProgramTime();
+        double endTime = ENGINE.getProgramTime();
         Logger.log(String.format("%s initialized %s at %f. Elapsed: %f", this.getClass().getSimpleName(),
                 successFlag ? "successfully" : "unsuccessfully", endTime, endTime - startTime));
         return successFlag;

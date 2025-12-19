@@ -2,8 +2,9 @@ package com.stevenlagoy.presidency.map.travel.route;
 
 import core.JSONObject;
 import com.stevenlagoy.presidency.data.Jsonic;
-import com.stevenlagoy.presidency.app.Main;
+
 import com.stevenlagoy.presidency.data.Repr;
+import com.stevenlagoy.presidency.map.MapManager;
 import com.stevenlagoy.presidency.map.Municipality;
 
 public class Airport implements Repr<Airport>, Jsonic<Airport> {
@@ -62,8 +63,9 @@ public class Airport implements Repr<Airport>, Jsonic<Airport> {
         this.enplanement = enplanement;
     }
 
-    public Airport(String fullName, String commonName, String IATA, String locationName, String size, int enplanement) {
-        this(fullName, commonName, IATA, Main.Engine().MapManager().matchMunicipality(locationName),
+    public Airport(MapManager mm, String fullName, String commonName, String IATA, String locationName, String size,
+            int enplanement) {
+        this(fullName, commonName, IATA, mm.matchMunicipality(locationName),
                 AirportSize.fromString(size), enplanement);
     }
 

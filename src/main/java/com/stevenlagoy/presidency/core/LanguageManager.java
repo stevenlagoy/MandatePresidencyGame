@@ -13,9 +13,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import com.stevenlagoy.presidency.app.Main;
-
 import core.JSONObject;
 import core.JSONProcessor;
 import com.stevenlagoy.presidency.util.FilePaths;
@@ -76,6 +73,7 @@ public final class LanguageManager extends Manager {
     /** For each language, stores tag : sentence pairs for localization tags. */
     public Map<Language, Map<String, String>> localizations;
 
+    private final Engine ENGINE;
     /** State of the Manager. */
     private ManagerState currentState;
 
@@ -83,7 +81,8 @@ public final class LanguageManager extends Manager {
     // -------------------------------------------------------------------------------
 
     /** Create an inactive LanguageManager with default values. */
-    public LanguageManager() {
+    public LanguageManager(Engine engine) {
+        this.ENGINE = engine;
         currentState = ManagerState.INACTIVE;
         gameLanguage = Language.defaultLanguage;
         localizations = new HashMap<>();
@@ -96,7 +95,7 @@ public final class LanguageManager extends Manager {
     @Override
     public boolean init() {
         boolean successFlag = true;
-        double startTime = Main.Engine().getProgramTime();
+        double startTime = ENGINE.getProgramTime();
         Logger.log(String.format("%s starting at %f", this.getClass().getSimpleName(), startTime));
         if (gameLanguage == null)
             gameLanguage = Language.defaultLanguage;
@@ -104,7 +103,7 @@ public final class LanguageManager extends Manager {
             localizations = new HashMap<>();
         successFlag = successFlag && loadLocalizations(gameLanguage);
         currentState = successFlag ? ManagerState.ACTIVE : ManagerState.ERROR;
-        double endTime = Main.Engine().getProgramTime();
+        double endTime = ENGINE.getProgramTime();
         Logger.log(String.format("%s initialized %s at %f. Elapsed: %f", this.getClass().getSimpleName(),
                 successFlag ? "successfully" : "unsuccessfully", endTime, endTime - startTime));
         return successFlag;

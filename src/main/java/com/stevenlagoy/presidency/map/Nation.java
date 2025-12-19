@@ -14,14 +14,14 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-
 import core.JSONObject;
 import core.Jsonic;
-import com.stevenlagoy.presidency.app.Main;
 import com.stevenlagoy.presidency.data.Repr;
 import com.stevenlagoy.presidency.characters.CharacterManager;
 import com.stevenlagoy.presidency.characters.FederalOfficial;
+import com.stevenlagoy.presidency.core.LanguageManager;
 import com.stevenlagoy.presidency.demographics.Bloc;
+import com.stevenlagoy.presidency.demographics.DemographicsManager;
 import com.stevenlagoy.presidency.util.Logger;
 
 /**
@@ -165,7 +165,7 @@ public class Nation implements MapEntity, Repr<Nation>, Jsonic<Nation> {
      * @return String name.
      */
     public String getFullName() {
-        return Main.Engine().LanguageManager().getLocalization(fullName);
+        return fullName; // TODO remember to localize in caller
     }
 
     // Commmon Name : String
@@ -178,7 +178,7 @@ public class Nation implements MapEntity, Repr<Nation>, Jsonic<Nation> {
      * @return
      */
     public String getCommonName() {
-        return Main.Engine().LanguageManager().getLocalization(commonName);
+        return commonName;
     }
 
     // Motto : String
@@ -191,7 +191,7 @@ public class Nation implements MapEntity, Repr<Nation>, Jsonic<Nation> {
      * @return String motto.
      */
     public String getMotto() {
-        return Main.Engine().LanguageManager().getLocalization(motto);
+        return motto;
     }
 
     // Abbreviation : String
@@ -204,14 +204,14 @@ public class Nation implements MapEntity, Repr<Nation>, Jsonic<Nation> {
      * @return String abbreviation.
      */
     public String getAbbreviation() {
-        return Main.Engine().LanguageManager().getLocalization(abbreviation);
+        return abbreviation;
     }
 
     // Capital : Municipality
 
-    public Municipality getCapital() {
+    public Municipality getCapital(MapManager mm) {
         if (capital == null) {
-            capital = Main.Engine().MapManager().matchMunicipality(capitalString);
+            capital = mm.matchMunicipality(capitalString);
             if (capital == null) {
                 Logger.log("NATIONAL CAPITAL UNFOUND",
                         String.format("The national capital, %s, was unable to be found.", capitalString),
@@ -223,17 +223,17 @@ public class Nation implements MapEntity, Repr<Nation>, Jsonic<Nation> {
 
     // President : FederalOfficial
 
-    public FederalOfficial getPresident() {
+    public FederalOfficial getPresident(CharacterManager cm) {
         if (president == null)
-            president = CharacterManager.getPresident();
+            president = cm.getPresident();
         return president;
     }
 
     // Vice President : FederalOfficial
 
-    public FederalOfficial getVicePresident() {
+    public FederalOfficial getVicePresident(CharacterManager cm) {
         if (vicePresident == null)
-            vicePresident = CharacterManager.getVicePresident();
+            vicePresident = cm.getVicePresident();
         return vicePresident;
     }
 
@@ -245,9 +245,9 @@ public class Nation implements MapEntity, Repr<Nation>, Jsonic<Nation> {
     }
 
     @Override
-    public void setDescriptors(Set<String> descriptors) {
+    public void setDescriptors(DemographicsManager dm, Set<String> descriptors) {
         this.descriptors = descriptors != null ? descriptors : new HashSet<>();
-        evaluateDemographics();
+        evaluateDemographics(dm);
     }
 
     @Override
@@ -256,35 +256,35 @@ public class Nation implements MapEntity, Repr<Nation>, Jsonic<Nation> {
     }
 
     @Override
-    public boolean addDescriptor(String descriptor) {
+    public boolean addDescriptor(DemographicsManager dm, String descriptor) {
         boolean modified = this.descriptors.add(descriptor);
         if (modified)
-            evaluateDemographics();
+            evaluateDemographics(dm);
         return modified;
     }
 
     @Override
-    public boolean addAllDescriptors(Collection<String> descriptors) {
+    public boolean addAllDescriptors(DemographicsManager dm, Collection<String> descriptors) {
         boolean modified = false;
         for (String descriptor : descriptors) {
-            modified = addDescriptor(descriptor) || modified;
+            modified = addDescriptor(dm, descriptor) || modified;
         }
         return modified;
     }
 
     @Override
-    public boolean removeDescriptor(String descriptor) {
+    public boolean removeDescriptor(DemographicsManager dm, String descriptor) {
         boolean modified = this.descriptors.add(descriptor);
         if (modified)
-            evaluateDemographics();
+            evaluateDemographics(dm);
         return modified;
     }
 
     @Override
-    public boolean removeAllDescriptors(Collection<String> descriptors) {
+    public boolean removeAllDescriptors(DemographicsManager dm, Collection<String> descriptors) {
         boolean modified = descriptors.removeAll(descriptors);
         if (modified)
-            evaluateDemographics();
+            evaluateDemographics(dm);
         return modified;
     }
 
@@ -306,8 +306,8 @@ public class Nation implements MapEntity, Repr<Nation>, Jsonic<Nation> {
     }
 
     @Override
-    public void evaluateDemographics() {
-        this.demographics = Main.Engine().DemographicsManager().demographicsFromDescriptors(descriptors);
+    public void evaluateDemographics(DemographicsManager dm) {
+        this.demographics = dm.demographicsFromDescriptors(descriptors);
     }
 
     // REPRESENTATION METHODS

@@ -11,11 +11,12 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-
 import core.JSONObject;
-import com.stevenlagoy.presidency.app.Main;
 import com.stevenlagoy.presidency.characters.attributes.Role;
+import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
+import com.stevenlagoy.presidency.demographics.DemographicsManager;
 import com.stevenlagoy.presidency.map.MapEntity;
+import com.stevenlagoy.presidency.map.MapManager;
 
 public class FederalOfficial extends PoliticalActor {
 
@@ -31,7 +32,7 @@ public class FederalOfficial extends PoliticalActor {
 
         @Override
         public String getTitle() {
-            return Main.Engine().LanguageManager().getLocalization(this.name());
+            return this.name(); // TODO Remember to localize in the caller
         }
     }
 
@@ -42,51 +43,31 @@ public class FederalOfficial extends PoliticalActor {
     // CONSTRUCTORS
     // -------------------------------------------------------------------------------
 
-    public FederalOfficial() {
-        this(new PoliticalActor());
-        Main.Engine().CharacterManager().addCharacter(this);
-    }
-
-    public FederalOfficial(FederalOfficial other) {
-        this(other, true);
-    }
-
-    public FederalOfficial(FederalOfficial other, boolean addToCharacterList) {
-        super(other, false);
-
-        if (addToCharacterList)
-            Main.Engine().CharacterManager().addCharacter(this);
+    public FederalOfficial(CharacterManager cm, DemographicsManager dm, MapManager mm, NameManager nm) {
+        this(new PoliticalActor(cm, dm, mm, nm));
     }
 
     public FederalOfficial(Character character) {
-        super(character, false);
-        Main.Engine().CharacterManager().addCharacter(this);
+        super(character);
     }
 
     public FederalOfficial(PoliticalActor politicalActor) {
-        super(politicalActor, false);
+        super(politicalActor);
         this.roles = new HashSet<>();
-        Main.Engine().CharacterManager().addCharacter(this);
     }
 
     public FederalOfficial(String buildstring) {
-        this(buildstring, true);
-    }
-
-    public FederalOfficial(String buildstring, boolean addToCharacterList) {
-        super(buildstring, false);
+        super(buildstring);
         fromRepr(buildstring);
-        if (addToCharacterList)
-            Main.Engine().CharacterManager().addCharacter(this);
     }
 
     public FederalOfficial(JSONObject json) {
+        super(json);
         if (json == null) {
             throw new IllegalArgumentException("The passed JSONObject was null, and a " + getClass().getSimpleName()
                     + " object could not be created.");
         }
         fromJson(json);
-        Main.Engine().CharacterManager().addCharacter(this);
     }
 
     // GETTERS AND SETTERS

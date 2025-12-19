@@ -2,9 +2,7 @@ package com.stevenlagoy.presidency.graphics.entity;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import org.joml.Vector3f;
-
 import com.stevenlagoy.presidency.graphics.GraphicsManager;
 import com.stevenlagoy.presidency.graphics.entity.terrain.Terrain;
 import com.stevenlagoy.presidency.graphics.lighting.DirectionalLight;

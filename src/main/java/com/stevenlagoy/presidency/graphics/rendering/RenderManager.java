@@ -2,11 +2,10 @@ package com.stevenlagoy.presidency.graphics.rendering;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import org.joml.Vector3f;
 import org.lwjgl.opengl.GL11;
 
-import com.stevenlagoy.presidency.app.Main;
+import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.graphics.Camera;
 import com.stevenlagoy.presidency.graphics.ShaderManager;
 import com.stevenlagoy.presidency.graphics.Window;
@@ -25,13 +24,16 @@ public class RenderManager {
 
     private static boolean isCulling = false;
 
-    public RenderManager() {
-        window = Main.Engine().GraphicsManager().getWindow();
+    private final Engine ENGINE;
+
+    public RenderManager(Engine engine) {
+        this.ENGINE = engine;
+        window = ENGINE.GraphicsManager().getWindow();
     }
 
     public void init() throws Exception {
-        entityRenderer = new EntityRenderer();
-        terrainRenderer = new TerrainRenderer();
+        entityRenderer = new EntityRenderer(ENGINE);
+        terrainRenderer = new TerrainRenderer(ENGINE);
         entityRenderer.init();
         terrainRenderer.init();
 
@@ -64,7 +66,7 @@ public class RenderManager {
     }
 
     public void render(Camera camera, SceneManager scene) {
-        window = Main.Engine().GraphicsManager().getWindow();
+        window = ENGINE.GraphicsManager().getWindow();
         GL11.glClearColor(0, 0, 0.1f, 1);
         clear();
 

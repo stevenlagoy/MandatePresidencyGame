@@ -5,9 +5,8 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 import com.stevenlagoy.presidency.core.TimeManager;
-import com.stevenlagoy.presidency.app.Main;
+
 import com.stevenlagoy.presidency.characters.Character;
 import com.stevenlagoy.presidency.map.MapManager;
 import com.stevenlagoy.presidency.map.Municipality;
@@ -27,11 +26,13 @@ public class Travel {
         private Vehicle vehicle;
         private List<Character> travelers;
 
-        public Leg(Municipality start, Municipality destination, Vehicle vehicle, Character... travelers) {
+        public Leg(Municipality start, Municipality destination, Vehicle vehicle,
+                Character... travelers) {
             this(start, destination, vehicle, List.of(travelers));
         }
 
-        public Leg(Municipality start, Municipality destination, Vehicle vehicle, Collection<Character> travelers) {
+        public Leg(Municipality start, Municipality destination, Vehicle vehicle,
+                Collection<Character> travelers) {
             this.start = start;
             this.destination = destination;
             this.travelers = new ArrayList<Character>(travelers);
@@ -70,12 +71,14 @@ public class Travel {
 
         private Roadway roadway;
 
-        public RoadLeg(Municipality start, Municipality destination, RoadVehicle vehicle, Roadway roadway,
+        public RoadLeg(Municipality start, Municipality destination, RoadVehicle vehicle,
+                Roadway roadway,
                 Character... travelers) {
             this(start, destination, vehicle, roadway, List.of(travelers));
         }
 
-        public RoadLeg(Municipality start, Municipality destination, RoadVehicle vehicle, Roadway roadway,
+        public RoadLeg(Municipality start, Municipality destination, RoadVehicle vehicle,
+                Roadway roadway,
                 Collection<Character> travelers) {
             super(start, destination, vehicle, travelers);
             this.roadway = roadway;
@@ -99,7 +102,7 @@ public class Travel {
         @Override
         public double getDistance() {
             if (distance < 0)
-                distance = Main.Engine().MapManager().getRoadDistance(start, destination);
+                distance = MapManager.getRoadDistance(start, destination);
             return distance;
         }
 
@@ -125,7 +128,8 @@ public class Travel {
         private double distance;
         private double cost;
 
-        public TrainLeg(Municipality start, Municipality destination, TrainVehicle vehicle, Character... travelers) {
+        public TrainLeg(Municipality start, Municipality destination, TrainVehicle vehicle,
+                Character... travelers) {
             this(start, destination, vehicle, List.of(travelers));
         }
 

@@ -16,7 +16,8 @@ import java.util.Set;
 import core.JSONObject;
 import core.JSONProcessor;
 import core.StringOperations;
-import com.stevenlagoy.presidency.app.Main;
+
+import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.demographics.Bloc;
 import com.stevenlagoy.presidency.demographics.Demographics;
@@ -70,22 +71,22 @@ public final class MapManager extends Manager {
     // DISTANCE FUNCTIONS
     // -------------------------------------------------------------------------
 
-    public static double getRoadDistance(Municipality start, Municipality destination) {
+    public static double getRoadDistance(Municipality start,Municipality destination) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getRoadDistance'");
     }
 
-    public static double getTrainDistance(Municipality start, Municipality destination) {
+    public static double getTrainDistance(Municipality start,Municipality destination) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getTrainDistance'");
     }
 
-    public static double getAirDistance(Municipality start, Municipality destination) {
+    public static double getAirDistance(Municipality start,Municipality destination) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getAirDistance'");
     }
 
-    public static double getWaterDistance(Municipality start, Municipality destination) {
+    public static double getWaterDistance(Municipality start,Municipality destination) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getWaterDistance'");
     }
@@ -127,13 +128,14 @@ public final class MapManager extends Manager {
     private List<Airport> airports;
     private List<University> universities;
 
+    private final Engine ENGINE;
     private ManagerState currentState;
 
     // CONSTRUCTORS
     // -------------------------------------------------------------------------------
 
-    public MapManager() {
-
+    public MapManager(Engine engine) {
+        this.ENGINE = engine;
         currentState = ManagerState.INACTIVE;
 
         nation = Nation.getInstance();
@@ -151,8 +153,8 @@ public final class MapManager extends Manager {
     @Override
     public boolean init() {
         boolean successFlag = true;
-        double startTime = Main.Engine().getProgramTime();
-        Logger.log(String.format("%s starting at %f", this.getClass().getSimpleName(), startTime));
+        double startTime = ENGINE.getProgramTime();
+        Logger.log(String.format("%s starting at %f",this.getClass().getSimpleName(),startTime));
         // setMapMode(MapMode.DEFAULT);
         // centerCamera();
         // resetZoom();
@@ -176,9 +178,9 @@ public final class MapManager extends Manager {
         Logger.log(String.format("Government officials resolved"));
 
         currentState = successFlag ? ManagerState.ACTIVE : ManagerState.ERROR;
-        double endTime = Main.Engine().getProgramTime();
-        Logger.log(String.format("%s initialized %s at %f. Elapsed: %f", this.getClass().getSimpleName(),
-                successFlag ? "successfully" : "unsuccessfully", endTime, endTime - startTime));
+        double endTime = ENGINE.getProgramTime();
+        Logger.log(String.format("%s initialized %s at %f. Elapsed: %f",this.getClass().getSimpleName(),successFlag ? "successfully" : "unsuccessfully",endTime,
+                endTime - startTime));
         return successFlag;
     }
 
@@ -219,13 +221,10 @@ public final class MapManager extends Manager {
                     String motto = stateJson.get("motto").toString();
                     String capital = stateJson.get("capital").toString();
                     Set<String> descriptors = Set.copyOf((ArrayList<String>) stateJson.get("descriptors"));
-                    this.states.add(new State(
-                            FIPS, population, landArea, fullName, commonName, abbreviation, nickname, motto,
-                            citiesLoaded ? capital : "", descriptors));
+                    this.states.add(new State(ENGINE.DemographicsManager(), this, FIPS, population, landArea, fullName, commonName, abbreviation, nickname,
+                            motto, citiesLoaded ? capital : "", descriptors));
                 } catch (NumberFormatException | ClassCastException e) {
-                    Logger.log("INVALID STATE ENTRY",
-                            "The parsed state either lacked necessary values or had malformed members. State: "
-                                    + stateJson.getKey(),
+                    Logger.log("INVALID STATE ENTRY","The parsed state either lacked necessary values or had malformed members. State: " + stateJson.getKey(),
                             e);
                 }
             }
@@ -246,13 +245,11 @@ public final class MapManager extends Manager {
                     String stateName = districtJson.get("state").toString();
                     int districtNum = Integer.parseInt(districtJson.get("district_num").toString());
                     Set<String> descriptors = Set.copyOf((ArrayList<String>) districtJson.get("descriptors"));
-                    this.congressionalDistricts.add(new CongressionalDistrict(
-                            officeID, population, landArea, name, stateName, districtNum, descriptors));
+                    this.congressionalDistricts.add(new CongressionalDistrict(ENGINE.DemographicsManager(), this, officeID, population, landArea, name,
+                            stateName, districtNum, descriptors));
                 } catch (NumberFormatException e) {
                     Logger.log("INVALID CONGRESSIONAL DISTRICT ENTRY",
-                            "The parsed congressional district either lacked necessary values or had malformed numbers. District: "
-                                    + districtJson.getKey(),
-                            e);
+                            "The parsed congressional district either lacked necessary values or had malformed numbers. District: " + districtJson.getKey(),e);
                 }
             }
         }
@@ -276,9 +273,8 @@ public final class MapManager extends Manager {
                 String commonName = countyJson.get("common_name").toString();
                 String countySeatName = countyJson.get("county_seat").toString();
                 Set<String> descriptors = Set.copyOf((ArrayList<String>) countyJson.get("descriptors"));
-                this.counties.add(new County(
-                        FIPS, population, landArea, fullName, commonName, stateName, citiesLoaded ? countySeatName : "",
-                        descriptors));
+                this.counties.add(new County(ENGINE.DemographicsManager(), this, FIPS, population, landArea, fullName, commonName, stateName,
+                        citiesLoaded ? countySeatName : "", descriptors));
             }
         }
         return true;
@@ -292,7 +288,7 @@ public final class MapManager extends Manager {
                 String FIPS = stateJson.get("FIPS").toString();
                 String stateAbbr = stateJson.get("abbreviation").toString();
                 String capital = stateJson.get("capital").toString();
-                this.matchState(stateAbbr).setCapital(this.matchMunicipality(capital, stateAbbr));
+                this.matchState(stateAbbr).setCapital(this.matchMunicipality(capital,stateAbbr));
             }
         }
         return true;
@@ -311,7 +307,7 @@ public final class MapManager extends Manager {
                     countySeat = null;
                 } else
                     countySeat = countyJson.get("county_seat").toString();
-                this.matchCounty(FIPS).setCountySeat(this.matchMunicipality(countySeat, state));
+                this.matchCounty(FIPS).setCountySeat(this.matchMunicipality(countySeat,state));
             }
         }
         return true;
@@ -319,13 +315,13 @@ public final class MapManager extends Manager {
 
     private boolean resolveGovernmentOfficials() {
         boolean successFlag = true;
-        successFlag = successFlag && nation.getPresident() != null;
-        successFlag = successFlag && nation.getVicePresident() != null;
+        successFlag = successFlag && nation.getPresident(ENGINE.CharacterManager()) != null;
+        successFlag = successFlag && nation.getVicePresident(ENGINE.CharacterManager()) != null;
         Logger.log(String.format("President and VP generated"));
         for (State state : states) {
-            state.setSenators(state.getSenators());
-            state.setGovernor(state.getGovernor());
-            state.setLieutenantGovernor(state.getLieutenantGovernor());
+            state.setSenators(ENGINE,state.getSenators());
+            state.setGovernor(ENGINE,state.getGovernor());
+            state.setLieutenantGovernor(ENGINE, state.getLieutenantGovernor());
         }
         Logger.log(String.format("State officials generated"));
         for (CongressionalDistrict district : congressionalDistricts) {
@@ -337,7 +333,7 @@ public final class MapManager extends Manager {
             // the United States have a mayor, this varies by state. Also generating a
             // character for EVERY municipality introduces massiave bloat
             if (municipality.getPopulation() >= 1000000)
-                municipality.setMayor(municipality.getMayor());
+                municipality.setMayor(ENGINE,municipality.getMayor());
         }
         Logger.log(String.format("Municipal officials generated"));
         return successFlag;
@@ -363,9 +359,8 @@ public final class MapManager extends Manager {
                     String stateName = municipalityJson.get("state").toString();
                     List<String> countiesNames = (ArrayList<String>) municipalityJson.get("counties");
                     Set<String> descriptors = Set.copyOf((ArrayList<String>) municipalityJson.get("descriptors"));
-                    this.municipalities.add(new Municipality(
-                            FIPS, population, landArea, name, typeClass, standardTimeZone, daylightTimeZone, stateName,
-                            countiesNames, descriptors));
+                    this.municipalities.add(new Municipality(ENGINE.DemographicsManager(), this, FIPS, population, landArea, name, typeClass, standardTimeZone,
+                            daylightTimeZone, stateName, countiesNames, descriptors));
                 }
             } catch (NullPointerException e) {
                 System.out.println(municipalityObj.toString());
@@ -389,7 +384,7 @@ public final class MapManager extends Manager {
             if (state.getCommonName().equals(stateName) || state.getAbbreviation().equals(stateName))
                 return state;
         }
-        Logger.log("INVALID STATE", String.format("The state, %s, could not be matched.", stateName), new Exception());
+        Logger.log("INVALID STATE",String.format("The state, %s, could not be matched.",stateName),new Exception());
         return null;
     }
 
@@ -398,25 +393,22 @@ public final class MapManager extends Manager {
             if (district.getOfficeID().equals(officeID))
                 return district;
         }
-        Logger.log("INVALID OFFICE ID", String.format("The office ID, %s, could not be matched.", officeID),
-                new Exception());
+        Logger.log("INVALID OFFICE ID",String.format("The office ID, %s, could not be matched.",officeID),new Exception());
         return null;
     }
 
-    public CongressionalDistrict matchCongressionalDistrict(State state, int districtNum) {
+    public CongressionalDistrict matchCongressionalDistrict(State state,int districtNum) {
         for (CongressionalDistrict district : congressionalDistricts) {
             if (district.getState().equals(state) && district.getDistrictNum() == districtNum)
                 return district;
         }
         Logger.log("INVALID STATE OR DISTRICT",
-                String.format("The state, %s, or the district number, %s, could not be matched.", state.getCommonName(),
-                        districtNum),
-                new Exception());
+                String.format("The state, %s, or the district number, %s, could not be matched.",state.getCommonName(),districtNum),new Exception());
         return null;
     }
 
-    public CongressionalDistrict matchCongressionalDistrict(String stateName, int districtNum) {
-        return matchCongressionalDistrict(matchState(stateName), districtNum);
+    public CongressionalDistrict matchCongressionalDistrict(String stateName,int districtNum) {
+        return matchCongressionalDistrict(matchState(stateName),districtNum);
     }
 
     public County matchCounty(String FIPS) {
@@ -424,34 +416,31 @@ public final class MapManager extends Manager {
             if (county.getFIPS().equals(FIPS))
                 return county;
         }
-        Logger.log("INVALID COUNTY", String.format("The county FIPS, %s, could not be matched.", FIPS),
-                new Exception());
+        Logger.log("INVALID COUNTY",String.format("The county FIPS, %s, could not be matched.",FIPS),new Exception());
         return null;
     }
 
-    public County matchCounty(String countyName, String stateName) {
-        return matchCounty(countyName, matchState(stateName));
+    public County matchCounty(String countyName,String stateName) {
+        return matchCounty(countyName,matchState(stateName));
     }
 
-    public County matchCounty(String name, State state) {
+    public County matchCounty(String name,State state) {
         for (County county : counties) {
-            if (county.getState().equals(state) && county.getFullName().equals(name)
-                    || county.getCommonName().equals(name))
+            if (county.getState().equals(state) && county.getFullName().equals(name) || county.getCommonName().equals(name))
                 return county;
         }
-        Logger.log("INVALID COUNTY", String.format("The county name, %s, could not be matched to a county in %s.", name,
-                state.getCommonName()), new Exception());
+        Logger.log("INVALID COUNTY",String.format("The county name, %s, could not be matched to a county in %s.",name,state.getCommonName()),new Exception());
         return null;
     }
 
-    public List<County> matchCounties(Collection<String> countiesNames, String stateName) {
-        return matchCounties(countiesNames, matchState(stateName));
+    public List<County> matchCounties(Collection<String> countiesNames,String stateName) {
+        return matchCounties(countiesNames,matchState(stateName));
     }
 
-    public List<County> matchCounties(Collection<String> names, State state) {
+    public List<County> matchCounties(Collection<String> names,State state) {
         List<County> result = new ArrayList<>();
         for (String name : names) {
-            County matched = matchCounty(name, state);
+            County matched = matchCounty(name,state);
             if (matched != null)
                 result.add(matched);
         }
@@ -470,20 +459,20 @@ public final class MapManager extends Manager {
      */
     public Municipality matchMunicipality(String municipalityAndStateName) {
         String[] nameParts;
-        if (StringOperations.containsUnquotedChar(municipalityAndStateName, ',')) {
-            nameParts = StringOperations.splitByUnquotedString(municipalityAndStateName, ",");
+        if (StringOperations.containsUnquotedChar(municipalityAndStateName,',')) {
+            nameParts = StringOperations.splitByUnquotedString(municipalityAndStateName,",");
         }
         // Assume the last word in the string is a state name or abbreviation. Will not
         // work for state names with more than one word.
         else {
-            nameParts = municipalityAndStateName.split("(?s)\\s(?=[^\\s]*$)", 2);
+            nameParts = municipalityAndStateName.split("(?s)\\s(?=[^\\s]*$)",2);
         }
         String municipalityName = nameParts[0];
         String stateNameOrAbbr = nameParts[1];
-        return matchMunicipality(municipalityName, stateNameOrAbbr);
+        return matchMunicipality(municipalityName,stateNameOrAbbr);
     }
 
-    public Municipality matchMunicipality(String municipalityName, State state) {
+    public Municipality matchMunicipality(String municipalityName,State state) {
         if (municipalityName == null)
             return null;
         for (Municipality municipality : municipalities) {
@@ -491,9 +480,7 @@ public final class MapManager extends Manager {
                 return municipality;
         }
         Logger.log("INVALID MUNICIPALITY",
-                String.format("The municipality name, %s, or the state, %s, could not be matched.", municipalityName,
-                        state.getCommonName()),
-                new Exception());
+                String.format("The municipality name, %s, or the state, %s, could not be matched.",municipalityName,state.getCommonName()),new Exception());
         return null;
     }
 
@@ -505,23 +492,21 @@ public final class MapManager extends Manager {
      * @param state            Either the name or abbreviation of a state.
      * @return The found municipality, or {@code null} if not found.
      */
-    public Municipality matchMunicipality(String municipalityName, String state) {
-        return matchMunicipality(municipalityName, matchState(state));
+    public Municipality matchMunicipality(String municipalityName,String state) {
+        return matchMunicipality(municipalityName,matchState(state));
     }
 
     /**
      * This method to be used before cities have assigned states. Assumes all cities
      * are unique by (name, population, area)
      */
-    public Municipality matchMunicipality(String municipalityName, int population, double area) {
+    public Municipality matchMunicipality(String municipalityName,int population,double area) {
         for (Municipality municipality : municipalities) {
-            if (municipality.getCommonName().equals(municipalityName) && municipality.getPopulation() == population
-                    && municipality.getLandArea() == area)
+            if (municipality.getCommonName().equals(municipalityName) && municipality.getPopulation() == population && municipality.getLandArea() == area)
                 return municipality;
         }
         Logger.log("INVALID MUNICIPALITY",
-                String.format("No municipality exists with the name %s, a population of %d, and an area of %f.",
-                        municipalityName, population, area),
+                String.format("No municipality exists with the name %s, a population of %d, and an area of %f.",municipalityName,population,area),
                 new Exception());
         return null;
     }
@@ -535,12 +520,10 @@ public final class MapManager extends Manager {
      */
     public Airport matchAirport(String airportName) {
         for (Airport airport : airports) {
-            if (airport.getFullName().equals(airportName) || airport.getCommonName().equals(airportName)
-                    || airport.getIATA().equals(airportName))
+            if (airport.getFullName().equals(airportName) || airport.getCommonName().equals(airportName) || airport.getIATA().equals(airportName))
                 return airport;
         }
-        Logger.log("INVALID AIRPORT",
-                String.format("No airport exists with a name or IATA code matching %s.", airportName));
+        Logger.log("INVALID AIRPORT",String.format("No airport exists with a name or IATA code matching %s.",airportName));
         return null;
     }
 
@@ -556,8 +539,7 @@ public final class MapManager extends Manager {
             if (university.getFullName().equals(universityName) || university.getCommonName().equals(universityName))
                 return university;
         }
-        Logger.log("INVALID UNIVERSITY",
-                String.format("No university exists with a name matching %s.", universityName));
+        Logger.log("INVALID UNIVERSITY",String.format("No university exists with a name matching %s.",universityName));
         return null;
     }
 
@@ -590,7 +572,7 @@ public final class MapManager extends Manager {
     public Municipality selectMunicipality() {
         Map<Municipality, Integer> populations = new HashMap<>();
         for (Municipality municipality : municipalities) {
-            populations.put(municipality, municipality.getPopulation());
+            populations.put(municipality,municipality.getPopulation());
         }
         Municipality selected = RandomOperations.weightedRandSelect(populations);
         return selected;
@@ -603,7 +585,7 @@ public final class MapManager extends Manager {
             for (Bloc bloc : demographics.toBlocsArray()) {
                 blocsPop += (int) (municipality.getDemographicPopulation(bloc));
             }
-            populations.put(municipality, blocsPop);
+            populations.put(municipality,blocsPop);
         }
         Municipality selected = RandomOperations.weightedRandSelect(populations);
         return selected;
@@ -618,9 +600,9 @@ public final class MapManager extends Manager {
 
         // Must create default demographics
         defaultDemographics = new HashMap<>();
-        for (List<Bloc> blocs : Main.Engine().DemographicsManager().getDemographicBlocs().values()) {
+        for (List<Bloc> blocs : ENGINE.DemographicsManager().getDemographicBlocs().values()) {
             for (Bloc bloc : blocs) {
-                defaultDemographics.put(bloc, bloc.getPercentageVoters());
+                defaultDemographics.put(bloc,(float) bloc.getNumVoters() / ENGINE.DemographicsManager().getNumberVoters());
             }
         }
 
@@ -642,14 +624,8 @@ public final class MapManager extends Manager {
         throw new UnsupportedOperationException("Unimplemented method 'fromRepr'");
     }
 
-    private static final Map<String, String> fieldsJsons = Map.of(
-            "nation", "nation",
-            "states", "states",
-            "congressionalDistricts", "congressional_districts",
-            "counties", "counties",
-            "municipalities", "municipalities",
-            "airports", "airports",
-            "universities", "universities");
+    private static final Map<String, String> fieldsJsons = Map.of("nation","nation","states","states","congressionalDistricts","congressional_districts",
+            "counties","counties","municipalities","municipalities","airports","airports","universities","universities");
 
     @Override
     public JSONObject toJson() {
@@ -712,16 +688,15 @@ public final class MapManager extends Manager {
                 if (type.isEnum()) {
                     // For enums, convert string to enum constant
                     @SuppressWarnings({ "unchecked", "rawtypes" })
-                    Object enumValue = Enum.valueOf((Class<Enum>) type, value.toString());
-                    field.set(this, enumValue);
+                    Object enumValue = Enum.valueOf((Class<Enum>) type,value.toString());
+                    field.set(this,enumValue);
                 } else {
                     // For other types, set directly (may need conversion for complex types)
-                    field.set(this, value);
+                    field.set(this,value);
                 }
             } catch (Exception e) {
                 currentState = ManagerState.ERROR;
-                Logger.log("JSON DESERIALIZATION ERROR",
-                        "Failed to set field " + fieldName + " in LanguageManager from JSON.", e);
+                Logger.log("JSON DESERIALIZATION ERROR","Failed to set field " + fieldName + " in LanguageManager from JSON.",e);
             }
         }
         return this;

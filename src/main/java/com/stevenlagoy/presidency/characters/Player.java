@@ -10,6 +10,11 @@ package com.stevenlagoy.presidency.characters;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.stevenlagoy.presidency.app.Main;
+import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
+import com.stevenlagoy.presidency.demographics.DemographicsManager;
+import com.stevenlagoy.presidency.map.MapManager;
+
 import core.JSONObject;
 
 public class Player extends Candidate {
@@ -18,13 +23,14 @@ public class Player extends Candidate {
 
     public static Player getInstance() {
         if (instance == null) {
-            instance = new Player();
+            instance = new Player(Main.Engine().CharacterManager(), Main.Engine().DemographicsManager(),
+                    Main.Engine().MapManager(), Main.Engine().NameManager());
         }
         return instance;
     }
 
-    private Player() {
-        super();
+    private Player(CharacterManager cm, DemographicsManager dm, MapManager mm, NameManager nm) {
+        super(cm, dm, mm, nm);
     }
 
     public void setNameInput() {

@@ -1,7 +1,5 @@
 package com.stevenlagoy.presidency.map;
 
-import com.stevenlagoy.presidency.app.Main;
-
 public class University {
 
     private Municipality location;
@@ -9,8 +7,9 @@ public class University {
     private String commonName;
     private int graduationSize;
 
-    public University(String locationName, String state, String fullName, String commonName, int graduationSize) {
-        this(Main.Engine().MapManager().matchMunicipality(locationName, state), fullName, commonName, graduationSize);
+    public University(MapManager mm, String locationName, String state, String fullName, String commonName,
+            int graduationSize) {
+        this(mm.matchMunicipality(locationName, state), fullName, commonName, graduationSize);
     }
 
     public University(Municipality location, String fullName, String commonName, int graduationSize) {

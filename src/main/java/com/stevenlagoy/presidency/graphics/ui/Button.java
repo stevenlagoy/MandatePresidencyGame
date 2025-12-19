@@ -4,7 +4,7 @@ import org.joml.Matrix4f;
 import org.joml.Vector2d;
 import org.joml.Vector3f;
 
-import com.stevenlagoy.presidency.app.Main;
+import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.graphics.Camera;
 import com.stevenlagoy.presidency.graphics.MouseInput;
 import com.stevenlagoy.presidency.graphics.Transformation;
@@ -35,10 +35,14 @@ public class Button extends Entity {
     private boolean wasLeftClick;
     private boolean wasRightClick;
 
-    public Button(Entity entity, Texture regularTexture, Texture hoverTexture, Runnable onHover, Runnable onUnHover,
+    private final Engine ENGINE;
+
+    public Button(Engine engine, Entity entity, Texture regularTexture, Texture hoverTexture, Runnable onHover,
+            Runnable onUnHover,
             Texture leftClickTexture, Runnable onLeftClick, Runnable onLeftRelease, Texture rightClickTexture,
             Runnable onRightClick, Runnable onRightRelease) {
         super(entity.getModel(), entity.getPos(), entity.getRotation(), entity.getScale());
+        this.ENGINE = engine;
         this.entity = entity;
         this.regularTexture = regularTexture;
         this.hoverTexture = hoverTexture;
@@ -59,10 +63,11 @@ public class Button extends Entity {
         this.wasRightClick = false;
     }
 
-    public Button(Entity entity, String regularTextureName, String hoverTextureName, Runnable onHover,
+    public Button(Engine engine, Entity entity, String regularTextureName, String hoverTextureName, Runnable onHover,
             Runnable onUnHover, String leftClickTextureName, Runnable onLeftClick, Runnable onLeftRelease,
             String rightClickTextureName, Runnable onRightClick, Runnable onRightRelease) {
         this(
+                engine,
                 entity,
                 TextureManager.getTexture(regularTextureName),
                 TextureManager.getTexture(hoverTextureName),
@@ -81,14 +86,14 @@ public class Button extends Entity {
     public void update(MouseInput mouse, Camera camera) {
         Vector2d mousePos = mouse.getCurrentPosition();
 
-        float ndcX = (float) ((2.0 * mousePos.x) / Main.Engine().GraphicsManager().getWindow().getWidth() - 1.0);
-        float ndcY = (float) (1.0 - (2.0 * mousePos.y) / Main.Engine().GraphicsManager().getWindow().getHeight());
+        float ndcX = (float) ((2.0 * mousePos.x) / ENGINE.GraphicsManager().getWindow().getWidth() - 1.0);
+        float ndcY = (float) (1.0 - (2.0 * mousePos.y) / ENGINE.GraphicsManager().getWindow().getHeight());
         float ndcZ = -1.0f; // near plane
 
         Matrix4f viewMatrix = Transformation.getViewMatrix(camera);
 
         Vector3f rayOrigin = new Vector3f(camera.getPosition());
-        Vector3f rayDirection = Main.Engine().GraphicsManager().getWindow().calculateRayDirection(ndcX, ndcY,
+        Vector3f rayDirection = ENGINE.GraphicsManager().getWindow().calculateRayDirection(ndcX, ndcY,
                 viewMatrix);
 
         isHover = entity.intersects(rayOrigin, rayDirection);

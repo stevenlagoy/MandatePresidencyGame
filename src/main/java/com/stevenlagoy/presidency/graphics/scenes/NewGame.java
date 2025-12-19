@@ -1,12 +1,11 @@
 package com.stevenlagoy.presidency.graphics.scenes;
 
 import java.util.Arrays;
-
 import org.joml.Vector2f;
 import org.joml.Vector3f;
 import org.lwjgl.glfw.GLFW;
 
-import com.stevenlagoy.presidency.app.Main;
+import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.graphics.Camera;
 import com.stevenlagoy.presidency.graphics.GraphicsManager;
 import com.stevenlagoy.presidency.graphics.ILogic;
@@ -64,11 +63,14 @@ public class NewGame implements ILogic {
 
     private boolean goBack;
 
-    public NewGame() {
-        window = Main.Engine().GraphicsManager().getWindow();
+    private final Engine ENGINE;
+
+    public NewGame(Engine engine) {
+        this.ENGINE = engine;
+        window = ENGINE.GraphicsManager().getWindow();
         camera = new Camera();
         scene = new SceneManager();
-        renderer = new RenderManager();
+        renderer = new RenderManager(ENGINE);
         cameraInc = new Vector3f(0);
 
         goBack = false;
@@ -91,7 +93,7 @@ public class NewGame implements ILogic {
                 }
         };
 
-        Main.Engine().GraphicsManager().loadTextures();
+        ENGINE.GraphicsManager().loadTextures();
 
         scene.setAmbientLight(GraphicsManager.AMBIENT_LIGHT);
         scene.setSpecularPower(GraphicsManager.SPECULAR_POWER);
@@ -118,7 +120,7 @@ public class NewGame implements ILogic {
             max = i > max ? i : max;
         layersDimensions = new float[max + 1][];
         for (int i = 0; i <= max; i++) {
-            layersDimensions[i] = Main.Engine().GraphicsManager().calculateQuadDimensions(i);
+            layersDimensions[i] = ENGINE.GraphicsManager().calculateQuadDimensions(i);
         }
 
         for (int i = 0; i < XYArrays.length; i++) {
@@ -163,7 +165,7 @@ public class NewGame implements ILogic {
                     entities[i].getModel().setTexture(textureNames[i][0]);
                     break;
                 case BUTTON:
-                    entities[i] = new Button(
+                    entities[i] = new Button(ENGINE,
                             new Entity(models[i], position),
                             textureNames[i][0], textureNames[i][1], runnables[i][0], runnables[i][1],
                             textureNames[i][2], runnables[i][2], runnables[i][3], textureNames[i][3], runnables[i][4],
@@ -194,7 +196,7 @@ public class NewGame implements ILogic {
     @Override
     public void input() {
         cameraInc.set(0, 0, 0);
-        if (Main.Engine().DEBUG_MODE) {
+        if (ENGINE.DEBUG_MODE) {
             if (window.isKeyPressed(GLFW.GLFW_KEY_W))
                 cameraInc.z = -10;
             if (window.isKeyPressed(GLFW.GLFW_KEY_S))
@@ -223,7 +225,7 @@ public class NewGame implements ILogic {
         camera.movePosition(cameraInc.x * GraphicsManager.CAMERA_MOVE_SPEED,
                 cameraInc.y * GraphicsManager.CAMERA_MOVE_SPEED, cameraInc.z * GraphicsManager.CAMERA_MOVE_SPEED);
 
-        if (Main.Engine().DEBUG_MODE) {
+        if (ENGINE.DEBUG_MODE) {
             if (mouse.isRightButtonPress()) {
                 Vector2f rotVec = mouse.getDisplVec();
                 camera.moveRotation(rotVec.x * GraphicsManager.MOUSE_SENSITIVITY,

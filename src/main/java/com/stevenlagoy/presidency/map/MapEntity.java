@@ -10,8 +10,8 @@ package com.stevenlagoy.presidency.map;
 import java.util.Collection;
 import java.util.Map;
 import java.util.Set;
-
 import com.stevenlagoy.presidency.demographics.Bloc;
+import com.stevenlagoy.presidency.demographics.DemographicsManager;
 
 /**
  * Any Entity (Nation, State, Municipality, &c) which appears on the Map is a
@@ -60,17 +60,17 @@ public interface MapEntity {
 
     public Set<String> getDescriptors();
 
-    public void setDescriptors(Set<String> descriptors);
+    public void setDescriptors(DemographicsManager dm,Set<String> descriptors);
 
     public boolean hasDescriptor(String descriptor);
 
-    public boolean addDescriptor(String descriptor);
+    public boolean addDescriptor(DemographicsManager dm,String descriptor);
 
-    public boolean addAllDescriptors(Collection<String> descriptors);
+    public boolean addAllDescriptors(DemographicsManager dm,Collection<String> descriptors);
 
-    public boolean removeDescriptor(String descriptor);
+    public boolean removeDescriptor(DemographicsManager dm,String descriptor);
 
-    public boolean removeAllDescriptors(Collection<String> descriptors);
+    public boolean removeAllDescriptors(DemographicsManager dm,Collection<String> descriptors);
 
     public Map<Bloc, Float> getDemographics();
 
@@ -93,6 +93,6 @@ public interface MapEntity {
      */
     public int getDemographicPopulation(Bloc bloc);
 
-    public void evaluateDemographics();
+    public void evaluateDemographics(DemographicsManager dm);
 
 }

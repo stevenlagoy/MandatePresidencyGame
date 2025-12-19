@@ -1,7 +1,6 @@
 package com.stevenlagoy.presidency.graphics.entity.terrain;
 
 import org.joml.Vector3f;
-
 import com.stevenlagoy.presidency.graphics.ObjectLoader;
 import com.stevenlagoy.presidency.graphics.entity.Material;
 import com.stevenlagoy.presidency.graphics.entity.Model;

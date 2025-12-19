@@ -2,7 +2,7 @@ package com.stevenlagoy.presidency.graphics.ui;
 
 import org.joml.Vector2d;
 
-import com.stevenlagoy.presidency.app.Main;
+import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.graphics.MouseInput;
 
 public class ClickableArea {
@@ -12,7 +12,11 @@ public class ClickableArea {
     private boolean isHover;
     private Runnable onLeftClick, onRightClick;
 
-    public ClickableArea(float x1, float y1, float x2, float y2, Runnable onLeftClick, Runnable onRightClick) {
+    private final Engine ENGINE;
+
+    public ClickableArea(Engine engine, float x1, float y1, float x2, float y2, Runnable onLeftClick,
+            Runnable onRightClick) {
+        this.ENGINE = engine;
         this.x1 = x1;
         this.y1 = y1;
         this.x2 = x2;
@@ -27,8 +31,8 @@ public class ClickableArea {
     public boolean update(MouseInput mouse) {
         Vector2d pos = mouse.getCurrentPosition();
 
-        float ndcX = (2.0f * (float) pos.x / Main.Engine().GraphicsManager().getWindow().getWidth()) - 1.0f;
-        float ndcY = 1.0f - (2.0f * (float) pos.y / Main.Engine().GraphicsManager().getWindow().getHeight());
+        float ndcX = (2.0f * (float) pos.x / ENGINE.GraphicsManager().getWindow().getWidth()) - 1.0f;
+        float ndcY = 1.0f - (2.0f * (float) pos.y / ENGINE.GraphicsManager().getWindow().getHeight());
 
         System.out.printf("Screen: (%.2f, %.2f) -> NDC: (%.2f, %.2f)%n",
                 pos.x, pos.y, ndcX, ndcY);
@@ -64,6 +68,6 @@ public class ClickableArea {
     }
 
     private boolean containsPoint(float x, float y) {
-        return Main.Engine().GraphicsManager().containsPoint(x, y, x1, y1, x2, y2);
+        return ENGINE.GraphicsManager().containsPoint(x, y, x1, y1, x2, y2);
     }
 }

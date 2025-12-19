@@ -2,10 +2,8 @@ package com.stevenlagoy.presidency.demographics;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import core.JSONObject;
 import com.stevenlagoy.presidency.data.Jsonic;
-import com.stevenlagoy.presidency.app.Main;
 import com.stevenlagoy.presidency.data.Repr;
 import com.stevenlagoy.presidency.demographics.DemographicsManager.DemographicCategory;
 import com.stevenlagoy.presidency.util.Logger;
@@ -35,8 +33,9 @@ public class Demographics implements Repr<Demographics>, Jsonic<Demographics> {
         fromJson(demographicsJson);
     }
 
-    public Demographics(String generation, String religion, String raceEthnicity, String presentation) {
-        this.generation = Main.Engine().DemographicsManager().matchBlocName(generation);
+    public Demographics(DemographicsManager dm, String generation, String religion, String raceEthnicity,
+            String presentation) {
+        this.generation = dm.matchBlocName(generation);
         if (!this.generation.getDemographicGroup().equals(DemographicCategory.GENERATION)) {
             Logger.log("INVALID BLOC GROUP",
                     String.format("The bloc \"%s\" of type %s was assigned to a demographic category of type %s.",
@@ -44,7 +43,7 @@ public class Demographics implements Repr<Demographics>, Jsonic<Demographics> {
                     new Exception());
             this.generation = null;
         }
-        this.religion = Main.Engine().DemographicsManager().matchBlocName(religion);
+        this.religion = dm.matchBlocName(religion);
         if (!this.religion.getDemographicGroup().equals(DemographicCategory.RELIGION)) {
             Logger.log("INVALID BLOC GROUP",
                     String.format("The bloc %s of type %s was assigned to a demographic category of type %s.", religion,
@@ -52,7 +51,7 @@ public class Demographics implements Repr<Demographics>, Jsonic<Demographics> {
                     new Exception());
             this.religion = null;
         }
-        this.raceEthnicity = Main.Engine().DemographicsManager().matchBlocName(raceEthnicity);
+        this.raceEthnicity = dm.matchBlocName(raceEthnicity);
         if (!this.raceEthnicity.getDemographicGroup().equals(DemographicCategory.RACE_ETHNICITY)) {
             Logger.log("INVALID BLOC GROUP",
                     String.format("The bloc %s of type %s was assigned to a demographic category of type %s.",
@@ -60,7 +59,7 @@ public class Demographics implements Repr<Demographics>, Jsonic<Demographics> {
                     new Exception());
             this.raceEthnicity = null;
         }
-        this.presentation = Main.Engine().DemographicsManager().matchBlocName(presentation);
+        this.presentation = dm.matchBlocName(presentation);
         if (!this.presentation.getDemographicGroup().equals(DemographicCategory.PRESENTATION)) {
             Logger.log("INVALID BLOC GROUP",
                     String.format("The bloc %s of type %s was assigned to a demographic category of type %s.",
