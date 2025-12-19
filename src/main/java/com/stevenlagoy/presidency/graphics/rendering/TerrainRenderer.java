@@ -2,14 +2,13 @@ package com.stevenlagoy.presidency.graphics.rendering;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import org.joml.Vector3f;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL13;
 import org.lwjgl.opengl.GL20;
 import org.lwjgl.opengl.GL30;
 
-import com.stevenlagoy.presidency.app.Main;
+import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.graphics.Camera;
 import com.stevenlagoy.presidency.graphics.GraphicsManager;
 import com.stevenlagoy.presidency.graphics.ShaderManager;
@@ -28,7 +27,10 @@ public class TerrainRenderer implements IRenderer<Object> {
     ShaderManager shader;
     private List<Terrain> terrains;
 
-    public TerrainRenderer() throws Exception {
+    private final Engine ENGINE;
+
+    public TerrainRenderer(Engine engine) throws Exception {
+        this.ENGINE = engine;
         terrains = new ArrayList<>();
         shader = new ShaderManager();
     }
@@ -58,7 +60,7 @@ public class TerrainRenderer implements IRenderer<Object> {
     public void render(Camera camera, PointLight[] pointLights, SpotLight[] spotLights,
             DirectionalLight directionalLight, Vector3f ambientLight, float specularPower) {
         shader.bind();
-        shader.setUniform("projectionMatrix", Main.Engine().GraphicsManager().getWindow().updateProjectionMatrix());
+        shader.setUniform("projectionMatrix", ENGINE.GraphicsManager().getWindow().updateProjectionMatrix());
         RenderManager.renderLights(pointLights, spotLights, directionalLight, shader, ambientLight, specularPower);
 
         terrains.sort((t1, t2) -> {

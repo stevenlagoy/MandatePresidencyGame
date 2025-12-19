@@ -1,6 +1,5 @@
 package com.stevenlagoy.presidency.politics.conventions;
 
-import com.stevenlagoy.presidency.app.Main;
 import com.stevenlagoy.presidency.map.CongressionalDistrict;
 import com.stevenlagoy.presidency.map.Municipality;
 import com.stevenlagoy.presidency.map.State;
@@ -87,13 +86,6 @@ public class ConventionCall {
     }
 
     public void apportion() {
-
-        for (State state : Main.Engine().MapManager().getStates()) {
-
-        }
-        for (CongressionalDistrict district : Main.Engine().MapManager().getCongressionalDistricts()) {
-
-        }
 
     }
 

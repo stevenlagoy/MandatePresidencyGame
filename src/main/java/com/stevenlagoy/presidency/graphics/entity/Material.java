@@ -1,7 +1,6 @@
 package com.stevenlagoy.presidency.graphics.entity;
 
 import org.joml.Vector4f;
-
 import com.stevenlagoy.presidency.graphics.GraphicsManager;
 
 public class Material {

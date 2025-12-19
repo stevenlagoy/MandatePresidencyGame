@@ -39,7 +39,8 @@ public class Main {
         engine.DemographicsManager().init();
         engine.NameManager().init();
 
-        Demographics d = new Demographics("Generation Z", "Christian", "African American", "Man");
+        Demographics d = new Demographics(Engine().DemographicsManager(), "Generation Z", "Christian",
+                "African American", "Man");
 
         System.out.printf("| %40s | %40s | %40s | %40s | %40s |%n", "LEGAL", "FORMAL", "BIOGRAPHICAL", "COMMON",
                 "INFORMAL");
@@ -56,7 +57,8 @@ public class Main {
 
         // Create some characters
         for (int i = 0; i < 100; i++) {
-            Character c = new Character();
+            Character c = new Character(Engine().CharacterManager(), Engine().DemographicsManager(),
+                    Engine().MapManager(), Engine().NameManager());
             IOUtil.stdout.println(c.getName().getBiographicalName());
         }
 

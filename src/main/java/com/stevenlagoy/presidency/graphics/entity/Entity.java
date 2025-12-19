@@ -2,7 +2,6 @@ package com.stevenlagoy.presidency.graphics.entity;
 
 import org.joml.Matrix4f;
 import org.joml.Vector3f;
-
 import com.stevenlagoy.presidency.graphics.entity.ModelManager.ModelInfo;
 
 public class Entity {

@@ -11,7 +11,6 @@ import java.time.LocalDate;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
-
 import com.stevenlagoy.presidency.characters.Candidate;
 import com.stevenlagoy.presidency.characters.StateOfficial;
 import com.stevenlagoy.presidency.map.State;

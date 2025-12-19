@@ -1,7 +1,6 @@
 package com.stevenlagoy.presidency.graphics.ui;
 
 import org.joml.Vector3f;
-
 import com.stevenlagoy.presidency.graphics.entity.Entity;
 import com.stevenlagoy.presidency.graphics.entity.QuadModel;
 

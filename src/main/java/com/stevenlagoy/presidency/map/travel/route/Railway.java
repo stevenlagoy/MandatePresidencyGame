@@ -3,7 +3,6 @@ package com.stevenlagoy.presidency.map.travel.route;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-
 import core.JSONObject;
 import com.stevenlagoy.presidency.data.Jsonic;
 import com.stevenlagoy.presidency.data.Repr;

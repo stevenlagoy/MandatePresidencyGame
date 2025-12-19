@@ -2,7 +2,6 @@ package com.stevenlagoy.presidency.graphics.entity;
 
 import java.util.HashMap;
 import java.util.Map;
-
 import com.stevenlagoy.presidency.graphics.ObjectLoader;
 import com.stevenlagoy.presidency.util.FilePaths;
 import com.stevenlagoy.presidency.util.IOUtil;

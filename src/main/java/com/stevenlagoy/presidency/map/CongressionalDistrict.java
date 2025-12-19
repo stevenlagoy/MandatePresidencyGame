@@ -13,14 +13,15 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-
 import core.JSONObject;
 import com.stevenlagoy.presidency.data.Jsonic;
-import com.stevenlagoy.presidency.app.Main;
+
 import com.stevenlagoy.presidency.data.Repr;
+import com.stevenlagoy.presidency.app.Main;
 import com.stevenlagoy.presidency.characters.FederalOfficial;
 import com.stevenlagoy.presidency.characters.FederalOfficial.FederalRole;
 import com.stevenlagoy.presidency.demographics.Bloc;
+import com.stevenlagoy.presidency.demographics.DemographicsManager;
 import com.stevenlagoy.presidency.util.NumberOperations;
 
 public class CongressionalDistrict implements MapEntity, Repr<State>, Jsonic<State> {
@@ -52,21 +53,20 @@ public class CongressionalDistrict implements MapEntity, Repr<State>, Jsonic<Sta
     // CONSTRUCTORS
     // -------------------------------------------------------------------------------
 
-    public CongressionalDistrict(String officeID, int population, double landArea, String name, String stateName,
+    public CongressionalDistrict(DemographicsManager dm, MapManager mm, String officeID, int population, double landArea, String name, String stateName,
             int districtNum, Set<String> descriptors) {
-        this(officeID, population, landArea, name, Main.Engine().MapManager().matchState(stateName), districtNum,
-                descriptors);
+        this(dm, officeID, population, landArea, name, mm.matchState(stateName), districtNum, descriptors);
     }
 
-    public CongressionalDistrict(String officeID, int population, double landArea, String name, State state,
-            int districtNum, Set<String> descriptors) {
+    public CongressionalDistrict(DemographicsManager dm, String officeID, int population, double landArea, String name, State state, int districtNum,
+            Set<String> descriptors) {
         this.officeID = officeID;
         this.population = population;
         this.landArea = landArea;
         this.name = name;
         this.state = state;
         this.districtNum = districtNum;
-        setDescriptors(descriptors);
+        setDescriptors(dm,descriptors);
     }
 
     // GETTERS AND SETTERS
@@ -80,12 +80,12 @@ public class CongressionalDistrict implements MapEntity, Repr<State>, Jsonic<Sta
 
     @Override
     public void setPopulation(int population) {
-        this.population = Math.max(0, population);
+        this.population = Math.max(0,population);
     }
 
     @Override
     public void addPopulation(int population) {
-        this.population = Math.max(0, this.population + population);
+        this.population = Math.max(0,this.population + population);
     }
 
     // Land Area : double
@@ -97,7 +97,7 @@ public class CongressionalDistrict implements MapEntity, Repr<State>, Jsonic<Sta
 
     @Override
     public void setLandArea(double area) {
-        this.landArea = Math.max(0.0, area);
+        this.landArea = Math.max(0.0,area);
     }
 
     // Name : string
@@ -159,9 +159,9 @@ public class CongressionalDistrict implements MapEntity, Repr<State>, Jsonic<Sta
     }
 
     @Override
-    public void setDescriptors(Set<String> descriptors) {
+    public void setDescriptors(DemographicsManager dm,Set<String> descriptors) {
         this.descriptors = new HashSet<>(descriptors);
-        evaluateDemographics();
+        evaluateDemographics(dm);
     }
 
     @Override
@@ -170,34 +170,34 @@ public class CongressionalDistrict implements MapEntity, Repr<State>, Jsonic<Sta
     }
 
     @Override
-    public boolean addDescriptor(String descriptor) {
+    public boolean addDescriptor(DemographicsManager dm,String descriptor) {
         boolean modified = this.descriptors.add(descriptor);
         if (modified)
-            evaluateDemographics();
+            evaluateDemographics(dm);
         return modified;
     }
 
     @Override
-    public boolean addAllDescriptors(Collection<String> descriptors) {
+    public boolean addAllDescriptors(DemographicsManager dm,Collection<String> descriptors) {
         boolean modified = this.descriptors.addAll(descriptors);
         if (modified)
-            evaluateDemographics();
+            evaluateDemographics(dm);
         return modified;
     }
 
     @Override
-    public boolean removeDescriptor(String descriptor) {
+    public boolean removeDescriptor(DemographicsManager dm,String descriptor) {
         boolean modified = this.descriptors.remove(descriptor);
         if (modified)
-            evaluateDemographics();
+            evaluateDemographics(dm);
         return modified;
     }
 
     @Override
-    public boolean removeAllDescriptors(Collection<String> descriptors) {
+    public boolean removeAllDescriptors(DemographicsManager dm,Collection<String> descriptors) {
         boolean modified = this.descriptors.removeAll(descriptors);
         if (modified)
-            evaluateDemographics();
+            evaluateDemographics(dm);
         return modified;
     }
 
@@ -219,9 +219,9 @@ public class CongressionalDistrict implements MapEntity, Repr<State>, Jsonic<Sta
     }
 
     @Override
-    public void evaluateDemographics() {
+    public void evaluateDemographics(DemographicsManager dm) {
         this.descriptors.addAll(state.getDescriptors());
-        this.demographics = Main.Engine().DemographicsManager().demographicsFromDescriptors(descriptors);
+        this.demographics = dm.demographicsFromDescriptors(descriptors);
     }
 
     // Representative : FederalOfficial
@@ -232,7 +232,8 @@ public class CongressionalDistrict implements MapEntity, Repr<State>, Jsonic<Sta
 
     public void setRepresentative(FederalOfficial representative) {
         if (representative == null) {
-            this.representative = new FederalOfficial();
+            this.representative = new FederalOfficial(Main.Engine().CharacterManager(), Main.Engine().DemographicsManager(), Main.Engine().MapManager(),
+                    Main.Engine().NameManager());
             this.representative.addRole(FederalRole.REPRESENTATIVE);
         } else
             this.representative = representative;

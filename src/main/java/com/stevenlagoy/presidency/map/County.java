@@ -13,12 +13,14 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-
 import core.JSONObject;
-import com.stevenlagoy.presidency.data.Jsonic;
+
 import com.stevenlagoy.presidency.app.Main;
+import com.stevenlagoy.presidency.data.Jsonic;
+
 import com.stevenlagoy.presidency.data.Repr;
 import com.stevenlagoy.presidency.demographics.Bloc;
+import com.stevenlagoy.presidency.demographics.DemographicsManager;
 
 public class County implements MapEntity, Repr<County>, Jsonic<County> {
 
@@ -48,15 +50,13 @@ public class County implements MapEntity, Repr<County>, Jsonic<County> {
     // CONSTRUCTORS
     // -------------------------------------------------------------------------------
 
-    public County(String FIPS, int population, double landArea, String fullName, String commonName, String stateName,
+    public County(DemographicsManager dm, MapManager mm, String FIPS, int population, double landArea, String fullName, String commonName, String stateName,
             String countySeatName, Set<String> descriptors) {
-        this(FIPS, population, landArea, fullName, commonName, Main.Engine().MapManager().matchState(stateName),
-                countySeatName.isEmpty() ? null
-                        : Main.Engine().MapManager().matchMunicipality(countySeatName, stateName),
-                descriptors);
+        this(dm, FIPS, population, landArea, fullName, commonName, mm.matchState(stateName),
+                countySeatName.isEmpty() ? null : mm.matchMunicipality(countySeatName,stateName), descriptors);
     }
 
-    public County(String FIPS, int population, double landArea, String fullName, String commonName, State state,
+    public County(DemographicsManager dm, String FIPS, int population, double landArea, String fullName, String commonName, State state,
             Municipality countySeat, Set<String> descriptors) {
         this.FIPS = FIPS;
         setPopulation(population);
@@ -65,7 +65,7 @@ public class County implements MapEntity, Repr<County>, Jsonic<County> {
         this.commonName = commonName;
         this.state = state;
         this.countySeat = countySeat;
-        setDescriptors(descriptors);
+        setDescriptors(dm,descriptors);
     }
 
     // GETTERS AND SETTERS
@@ -160,7 +160,7 @@ public class County implements MapEntity, Repr<County>, Jsonic<County> {
     }
 
     public void setCountySeat(String countySeat) {
-        this.countySeat = Main.Engine().MapManager().matchMunicipality(countySeat, this.state);
+        this.countySeat = Main.Engine().MapManager().matchMunicipality(countySeat,this.state);
     }
 
     // Descriptors : List of Strings
@@ -170,9 +170,9 @@ public class County implements MapEntity, Repr<County>, Jsonic<County> {
     }
 
     @Override
-    public void setDescriptors(Set<String> descriptors) {
+    public void setDescriptors(DemographicsManager dm,Set<String> descriptors) {
         this.descriptors = new HashSet<>(descriptors);
-        evaluateDemographics();
+        evaluateDemographics(dm);
     }
 
     @Override
@@ -181,34 +181,34 @@ public class County implements MapEntity, Repr<County>, Jsonic<County> {
     }
 
     @Override
-    public boolean addDescriptor(String descriptor) {
+    public boolean addDescriptor(DemographicsManager dm,String descriptor) {
         boolean modified = this.descriptors.add(descriptor);
         if (modified)
-            evaluateDemographics();
+            evaluateDemographics(dm);
         return modified;
     }
 
     @Override
-    public boolean addAllDescriptors(Collection<String> descriptors) {
+    public boolean addAllDescriptors(DemographicsManager dm,Collection<String> descriptors) {
         boolean modified = this.descriptors.addAll(descriptors);
         if (modified)
-            evaluateDemographics();
+            evaluateDemographics(dm);
         return modified;
     }
 
     @Override
-    public boolean removeDescriptor(String descriptor) {
+    public boolean removeDescriptor(DemographicsManager dm,String descriptor) {
         boolean modified = this.descriptors.remove(descriptor);
         if (modified)
-            evaluateDemographics();
+            evaluateDemographics(dm);
         return modified;
     }
 
     @Override
-    public boolean removeAllDescriptors(Collection<String> descriptors) {
+    public boolean removeAllDescriptors(DemographicsManager dm,Collection<String> descriptors) {
         boolean modified = this.descriptors.removeAll(descriptors);
         if (modified)
-            evaluateDemographics();
+            evaluateDemographics(dm);
         return modified;
     }
 
@@ -230,9 +230,9 @@ public class County implements MapEntity, Repr<County>, Jsonic<County> {
     }
 
     @Override
-    public void evaluateDemographics() {
+    public void evaluateDemographics(DemographicsManager dm) {
         this.descriptors.addAll(state.getDescriptors());
-        this.demographics = Main.Engine().DemographicsManager().demographicsFromDescriptors(descriptors);
+        this.demographics = dm.demographicsFromDescriptors(descriptors);
     }
 
     // REPRESENTATION METHODS

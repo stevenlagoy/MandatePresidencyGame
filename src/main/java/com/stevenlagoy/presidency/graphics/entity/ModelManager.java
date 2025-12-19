@@ -2,7 +2,6 @@ package com.stevenlagoy.presidency.graphics.entity;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import org.joml.Vector3f;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL15;

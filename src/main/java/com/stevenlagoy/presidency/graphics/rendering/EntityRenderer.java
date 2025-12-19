@@ -3,7 +3,6 @@ package com.stevenlagoy.presidency.graphics.rendering;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 import org.joml.Vector3f;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL13;
@@ -11,7 +10,7 @@ import org.lwjgl.opengl.GL15;
 import org.lwjgl.opengl.GL20;
 import org.lwjgl.opengl.GL30;
 
-import com.stevenlagoy.presidency.app.Main;
+import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.graphics.Camera;
 import com.stevenlagoy.presidency.graphics.GraphicsManager;
 import com.stevenlagoy.presidency.graphics.ShaderManager;
@@ -33,7 +32,10 @@ public class EntityRenderer implements IRenderer<Object> {
     ShaderManager shader;
     private Map<Model, List<Entity>> entities;
 
-    public EntityRenderer() throws Exception {
+    private final Engine ENGINE;
+
+    public EntityRenderer(Engine engine) throws Exception {
+        this.ENGINE = engine;
         entities = new HashMap<>();
         shader = new ShaderManager();
     }
@@ -60,7 +62,7 @@ public class EntityRenderer implements IRenderer<Object> {
             DirectionalLight directionalLight, Vector3f ambientLight, float specularPower) {
 
         shader.bind();
-        shader.setUniform("projectionMatrix", Main.Engine().GraphicsManager().getWindow().updateProjectionMatrix());
+        shader.setUniform("projectionMatrix", ENGINE.GraphicsManager().getWindow().updateProjectionMatrix());
         shader.setUniform("viewMatrix", Transformation.getViewMatrix(camera));
         RenderManager.renderLights(pointLights, spotLights, directionalLight, shader, ambientLight, specularPower);
 

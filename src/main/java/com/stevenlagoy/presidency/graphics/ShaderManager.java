@@ -2,7 +2,6 @@ package com.stevenlagoy.presidency.graphics;
 
 import java.util.HashMap;
 import java.util.Map;
-
 import org.joml.Matrix4f;
 import org.joml.Vector4f;
 import org.lwjgl.opengl.GL20;

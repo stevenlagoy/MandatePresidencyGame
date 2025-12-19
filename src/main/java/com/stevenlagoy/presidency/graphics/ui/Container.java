@@ -2,7 +2,6 @@ package com.stevenlagoy.presidency.graphics.ui;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import com.stevenlagoy.presidency.graphics.entity.Entity;
 import com.stevenlagoy.presidency.graphics.entity.QuadModel;
 import com.stevenlagoy.presidency.graphics.entity.Texture;

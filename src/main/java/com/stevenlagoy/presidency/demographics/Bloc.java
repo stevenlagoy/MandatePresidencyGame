@@ -2,12 +2,11 @@ package com.stevenlagoy.presidency.demographics;
 
 import java.util.List;
 import java.util.Objects;
-
 import core.JSONObject;
 import com.stevenlagoy.presidency.data.Jsonic;
-import com.stevenlagoy.presidency.app.Main;
 import com.stevenlagoy.presidency.data.Repr;
 import com.stevenlagoy.presidency.demographics.DemographicsManager.DemographicCategory;
+import com.stevenlagoy.presidency.characters.Character;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -36,9 +35,9 @@ public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
     // -------------------------------------------------------------------------
 
     private String name;
-    private int numVoters;
-    private List<com.stevenlagoy.presidency.characters.Character> members;
-    private float percentageVoters;
+    private long numVoters;
+    private float percentVoters;
+    private List<Character> members;
     private DemographicCategory category;
     private HashMap<Bloc, Double> overlaps = new HashMap<Bloc, Double>();
     private Bloc superBloc;
@@ -47,7 +46,7 @@ public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
     public Bloc(String name, DemographicCategory category) {
         this.name = name;
         this.numVoters = 0;
-        this.percentageVoters = 0.0f;
+        this.percentVoters = 0;
         this.category = category;
         this.superBloc = null;
         this.members = new ArrayList<>();
@@ -61,24 +60,10 @@ public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
     // CONSTRUCTORS
     // -------------------------------------------------------------------------------
 
-    public Bloc(String name, DemographicCategory category, int numVoters) {
+    public Bloc(String name, DemographicCategory category, long numVoters, long totalVoters) {
         this.name = name;
         this.numVoters = numVoters;
-        this.percentageVoters = numVoters * 1.0f / Main.Engine().DemographicsManager().getNumberVoters();
-        this.category = category;
-        this.superBloc = null;
-        this.members = new ArrayList<>();
-
-        Bloc.instances.add(this);
-        if (!demographics.containsKey(category))
-            demographics.put(category, new HashSet<Bloc>());
-        demographics.get(category).add(this);
-    }
-
-    public Bloc(String name, DemographicCategory category, float percentageVoters) {
-        this.name = name;
-        this.numVoters = Math.round(percentageVoters * Main.Engine().DemographicsManager().getNumberVoters());
-        this.percentageVoters = percentageVoters;
+        this.percentVoters = 1.0f * numVoters / totalVoters;
         this.category = category;
         this.superBloc = null;
         this.members = new ArrayList<>();
@@ -92,22 +77,22 @@ public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
     // INSTANCE METHODS
     // ---------------------------------------------------------------------------
 
-    public int getNumVoters() {
+    public long getNumVoters() {
         return numVoters;
     }
 
-    public void setNumVoters(int numVoters) {
+    public void setNumVoters(long numVoters, long totalVoters) {
         this.numVoters = numVoters;
-        this.percentageVoters = numVoters * 1.0f / Main.Engine().DemographicsManager().getNumberVoters();
+        this.percentVoters = 1.0f * numVoters / totalVoters;
     }
 
-    public float getPercentageVoters() {
-        return percentageVoters;
+    public float getPercentVoters() {
+        return percentVoters;
     }
 
-    public void setPercentageVoters(float percentageVoters) {
-        this.percentageVoters = percentageVoters;
-        this.numVoters = Math.round(percentageVoters * Main.Engine().DemographicsManager().getNumberVoters());
+    public void setPercentVoters(float percentVoters, long totalVoters) {
+        this.percentVoters = percentVoters;
+        this.numVoters = (long) percentVoters * totalVoters;
     }
 
     public List<com.stevenlagoy.presidency.characters.Character> getMembers() {
@@ -212,11 +197,10 @@ public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
 
     public String toRepr() {
         String repr = String.format(
-                "%s:[name:\"%s\";numVoters=%d;percentageVoters=%ff;category=\"%s\";];",
+                "%s:[name:\"%s\";numVoters=%d;category=\"%s\";];",
                 this.getClass().toString().replace("class ", ""),
                 this.name,
                 this.numVoters,
-                this.percentageVoters,
                 this.category);
         return repr;
     }
@@ -227,7 +211,6 @@ public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
 
         fields.add(new JSONObject("name", name));
         fields.add(new JSONObject("number_voters", numVoters));
-        fields.add(new JSONObject("percentage_voters", percentageVoters));
         fields.add(new JSONObject("category", category));
         fields.add(new JSONObject("super_bloc", superBloc != null ? superBloc.getName() : null));
         // List<String> subBlocsNames = new ArrayList<>();

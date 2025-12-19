@@ -11,10 +11,12 @@ package com.stevenlagoy.presidency.characters;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import core.JSONObject;
 import com.stevenlagoy.presidency.core.Engine;
+import com.stevenlagoy.presidency.demographics.DemographicsManager;
+import com.stevenlagoy.presidency.map.MapManager;
 import com.stevenlagoy.presidency.characters.attributes.Personality;
+import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
 import com.stevenlagoy.presidency.util.RandomOperations;
 
 /**
@@ -46,44 +48,12 @@ public class Candidate extends PoliticalActor {
     private int numDelegates;
     private double influence;
 
-    public Candidate() {
-        this(new PoliticalActor());
+    public Candidate(CharacterManager cm, DemographicsManager dm, MapManager mm, NameManager nm) {
+        this(new PoliticalActor(cm, dm, mm, nm));
     }
 
-    public Candidate(Candidate other) {
-
-    }
-
-    public Candidate(Candidate other, boolean addToCharacterList) {
-
-    }
-
-    public Candidate(Character character) {
-        super(character);
-    }
-
-    public Candidate(PoliticalActor actor) {
-        super(actor, false);
-    }
-
-    public Candidate(String buildstring) {
-
-    }
-
-    public Candidate(JSONObject json) {
-
-    }
-
-    public Candidate(Character character, String fields) {
-
-    }
-
-    public Candidate(PoliticalActor actor, String fields) {
-
-    }
-
-    public Candidate(String fields, int field) {
-
+    public Candidate(PoliticalActor politicalActor) {
+        super(politicalActor);
     }
 
     protected void generateProfile() {
@@ -205,8 +175,8 @@ public class Candidate extends PoliticalActor {
         CharacterManager.generateAppearance(this);
     }
 
-    protected void genPresentation() {
-        this.getDemographics().setPresentation(CharacterManager.generatePresentation(this.getDemographics()));
+    protected void genPresentation(CharacterManager cm) {
+        this.getDemographics().setPresentation(cm.generatePresentation(this.getDemographics()));
     }
 
     public int getNumDelegates() {

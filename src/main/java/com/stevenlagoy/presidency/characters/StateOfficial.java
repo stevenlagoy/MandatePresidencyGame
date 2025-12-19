@@ -11,11 +11,12 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-
 import core.JSONObject;
-import com.stevenlagoy.presidency.app.Main;
 import com.stevenlagoy.presidency.characters.attributes.Role;
+import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
+import com.stevenlagoy.presidency.demographics.DemographicsManager;
 import com.stevenlagoy.presidency.map.MapEntity;
+import com.stevenlagoy.presidency.map.MapManager;
 import com.stevenlagoy.presidency.map.State;
 
 public class StateOfficial extends PoliticalActor {
@@ -31,7 +32,7 @@ public class StateOfficial extends PoliticalActor {
 
         @Override
         public String getTitle() {
-            return Main.Engine().LanguageManager().getLocalization(this.name());
+            return this.name();
         }
     }
 
@@ -45,55 +46,40 @@ public class StateOfficial extends PoliticalActor {
     // CONSTRUCTORS
     // -------------------------------------------------------------------------------
 
-    public StateOfficial() {
-        this(new PoliticalActor());
+    public StateOfficial(CharacterManager cm, DemographicsManager dm, MapManager mm, NameManager nm) {
+        this(new PoliticalActor(cm, dm, mm, nm));
         this.jurisdiction = null;
-        Main.Engine().CharacterManager().addCharacter(this);
     }
 
     public StateOfficial(StateOfficial other) {
-        this(other, true);
-    }
-
-    public StateOfficial(StateOfficial other, boolean addToCharacterList) {
-        super(other, false);
+        super(other);
         this.jurisdiction = other.jurisdiction;
-        if (addToCharacterList)
-            Main.Engine().CharacterManager().addCharacter(this);
     }
 
     public StateOfficial(Character character) {
-        super(character, false);
-        Main.Engine().CharacterManager().addCharacter(this);
+        super(character);
     }
 
     public StateOfficial(PoliticalActor politicalActor) {
-        super(politicalActor, false);
-        Main.Engine().CharacterManager().addCharacter(this);
+        super(politicalActor);
     }
 
     public StateOfficial(String buildstring) {
-        this(buildstring, true);
-    }
-
-    public StateOfficial(String buildstring, boolean addToCharacterList) {
         super(buildstring);
         fromRepr(buildstring);
-        if (addToCharacterList)
-            Main.Engine().CharacterManager().addCharacter(this);
     }
 
     public StateOfficial(JSONObject json) {
+        super(json);
         if (json == null) {
             throw new IllegalArgumentException("The passed JSONObject was null, and a " + getClass().getSimpleName()
                     + " object could not be created.");
         }
         fromJson(json);
-        Main.Engine().CharacterManager().addCharacter(this);
     }
 
-    public StateOfficial(State state) {
-        super();
+    public StateOfficial(CharacterManager cm, DemographicsManager dm, MapManager mm, NameManager nm, State state) {
+        super(cm, dm, mm, nm);
         this.jurisdiction = state;
     }
 

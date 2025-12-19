@@ -17,7 +17,8 @@ import java.util.Set;
 
 import core.JSONObject;
 import core.JSONProcessor;
-import com.stevenlagoy.presidency.app.Main;
+
+import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.characters.Character;
 import com.stevenlagoy.presidency.util.FilePaths;
@@ -95,12 +96,14 @@ public class DemographicsManager extends Manager {
     // public final static Bloc EVERYONE = new Bloc("Everyone", null, 1.0f);
     // public final static Bloc VOTERS = new Bloc("Voters", null, 0.7083f);
 
+    private static Engine ENGINE;
     private ManagerState currentState;
 
     // CONSTRUCTORS
     // -------------------------------------------------------------------------------
 
-    public DemographicsManager() {
+    public DemographicsManager(Engine engine) {
+        this.ENGINE = engine;
         currentState = ManagerState.INACTIVE;
         numVoters = -1;
         demographicBlocs = new HashMap<>();
@@ -112,12 +115,12 @@ public class DemographicsManager extends Manager {
     @Override
     public boolean init() {
         boolean successFlag = true;
-        double startTime = Main.Engine().getProgramTime();
+        double startTime = ENGINE.getProgramTime();
         Logger.log(String.format("%s starting at %f", this.getClass().getSimpleName(), startTime));
         numVoters = GAME_START_VOTERS;
         createDemographicBlocs();
         currentState = successFlag ? ManagerState.ACTIVE : ManagerState.ERROR;
-        double endTime = Main.Engine().getProgramTime();
+        double endTime = ENGINE.getProgramTime();
         Logger.log(String.format("%s initialized %s at %f. Elapsed: %f", this.getClass().getSimpleName(),
                 successFlag ? "successfully" : "unsuccessfully", endTime, endTime - startTime));
         return successFlag;
@@ -153,9 +156,12 @@ public class DemographicsManager extends Manager {
                     // Base case: numerical value represents percentage
                     float percentageOrCount = numVal.floatValue();
                     if (percentageOrCount == (int) percentageOrCount) { // Count
-                        parent = new Bloc(blocName, category, (int) percentageOrCount);
+                        parent = new Bloc(blocName, category, (int) percentageOrCount,
+                                ENGINE.DemographicsManager().getNumberVoters());
                     } else { // Percentage
-                        parent = new Bloc(blocName, category, percentageOrCount);
+                        parent = new Bloc(blocName, category,
+                                (int) (ENGINE.DemographicsManager().getNumberVoters() * percentageOrCount),
+                                ENGINE.DemographicsManager().getNumberVoters());
                     }
                     blocs.add(parent);
                 } else if (value instanceof List<?>) {
@@ -175,7 +181,7 @@ public class DemographicsManager extends Manager {
         // the blocs
         // return those together
 
-        if (Main.Engine().CharacterManager().getNumCharacters() == 0) {
+        if (ENGINE.CharacterManager().getNumCharacters() == 0) {
             return getMostCommonDemographics();
         }
 
@@ -210,7 +216,7 @@ public class DemographicsManager extends Manager {
             List<Bloc> blocs = demographicBlocs.get(category);
             Map<Bloc, Float> blocsWeights = new HashMap<>();
             for (Bloc bloc : blocs) {
-                blocsWeights.put(bloc, bloc.getPercentageVoters());
+                blocsWeights.put(bloc, bloc.getPercentVoters());
             }
             Bloc selected = RandomOperations.weightedRandSelect(blocsWeights);
             switch (selected.getDemographicGroup()) {
@@ -313,7 +319,7 @@ public class DemographicsManager extends Manager {
     public Demographics getMostCommonDemographics() {
         // generation, presentation, raceEthnicity, religion
         // should make this adaptive to the current population
-        return new Demographics("Millennial", "White Catholic", "English", "Woman");
+        return new Demographics(this, "Millennial", "White Catholic", "English", "Woman");
     }
 
     public Map<DemographicCategory, List<Bloc>> getDemographicBlocs() {
@@ -337,7 +343,7 @@ public class DemographicsManager extends Manager {
                 float representationRatio = determineRepresentationRatio(bloc);
                 if (representationRatio < underrepresentedValue ||
                         (representationRatio == underrepresentedValue &&
-                                bloc.getPercentageVoters() > underrepresentedBloc.getPercentageVoters())) {
+                                bloc.getPercentVoters() > underrepresentedBloc.getPercentVoters())) {
                     underrepresentedBloc = bloc;
                     underrepresentedValue = representationRatio;
                     // System.out.printf("Found %s with ratio %f.%n",
@@ -348,7 +354,7 @@ public class DemographicsManager extends Manager {
                 float candidateRatio = determineRepresentationRatio(candidate);
                 if (Float.isNaN(underrepresentedValue) || candidateRatio < underrepresentedValue ||
                         (candidateRatio == underrepresentedValue &&
-                                bloc.getPercentageVoters() > underrepresentedBloc.getPercentageVoters())) {
+                                bloc.getPercentVoters() > underrepresentedBloc.getPercentVoters())) {
                     underrepresentedBloc = candidate;
                     underrepresentedValue = candidateRatio;
                     // System.out.printf("Found %s with ratio %f.%n",
@@ -364,11 +370,11 @@ public class DemographicsManager extends Manager {
         // Returns ratio of actual character membership to expected membership
         // <1 if underrepresented, >1 if overrepresented, =1 if perfectly represented
         try {
-            if (Main.Engine().CharacterManager().getNumCharacters() == 0)
+            if (ENGINE.CharacterManager().getNumCharacters() == 0)
                 return 1.0f; // if there are no characters, every bloc is perfectly represented
-            float expectedRepresentation = bloc.getPercentageVoters();
+            float expectedRepresentation = bloc.getPercentVoters();
             float actualRepresentation = bloc.getMembers().size() * 1.0f
-                    / Main.Engine().CharacterManager().getNumCharacters();
+                    / ENGINE.CharacterManager().getNumCharacters();
             float representationRatio = actualRepresentation / expectedRepresentation;
 
             return (representationRatio);

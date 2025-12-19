@@ -1,7 +1,6 @@
 package com.stevenlagoy.presidency.graphics.rendering;
 
 import org.joml.Vector3f;
-
 import com.stevenlagoy.presidency.graphics.Camera;
 import com.stevenlagoy.presidency.graphics.entity.Model;
 import com.stevenlagoy.presidency.graphics.lighting.DirectionalLight;

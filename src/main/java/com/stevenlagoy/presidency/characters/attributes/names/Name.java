@@ -56,45 +56,33 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
     private static enum NameStyle {
         /** Name as it would appear on government documents. */
         LEGAL(Map.of(
-                NameForm.WESTERN,
-                List.of(NamePart.GIVEN_NAME, NamePart.MIDDLE_NAME, NamePart.FAMILY_NAME, NamePart.ORDINAL),
-                NameForm.EASTERN, List.of(NamePart.GENERATION, NamePart.GIVEN_NAME, NamePart.FAMILY_NAME),
-                NameForm.HISPANIC, List.of(NamePart.GIVEN_NAME, NamePart.APELLIDO_1, NamePart.APELLIDO_2),
+                NameForm.WESTERN,         List.of(NamePart.GIVEN_NAME, NamePart.MIDDLE_NAME, NamePart.FAMILY_NAME, NamePart.ORDINAL),
+                NameForm.EASTERN,         List.of(NamePart.GENERATION, NamePart.GIVEN_NAME, NamePart.FAMILY_NAME),
+                NameForm.HISPANIC,        List.of(NamePart.GIVEN_NAME, NamePart.APELLIDO_1, NamePart.APELLIDO_2),
                 NameForm.NATIVE_AMERICAN, List.of(NamePart.GIVEN_NAME, NamePart.FAMILY_NAME))),
         /** Name for formally addressing, like on a diploma or award. */
         FORMAL(Map.of(
-                NameForm.WESTERN,
-                List.of(NamePart.HONORIFIC, NamePart.GIVEN_NAME, NamePart.MIDDLE_NAME, NamePart.FAMILY_NAME,
-                        NamePart.ORDINAL),
-                NameForm.EASTERN,
-                List.of(NamePart.HONORIFIC, NamePart.FAMILY_NAME, NamePart.GENERATION, NamePart.GIVEN_NAME),
-                NameForm.HISPANIC,
-                List.of(NamePart.HONORIFIC, NamePart.GIVEN_NAME, NamePart.APELLIDO_1, NamePart.APELLIDO_2,
-                        NamePart.ORDINAL),
+                NameForm.WESTERN,         List.of(NamePart.HONORIFIC, NamePart.GIVEN_NAME, NamePart.MIDDLE_NAME, NamePart.FAMILY_NAME, NamePart.ORDINAL),
+                NameForm.EASTERN,         List.of(NamePart.HONORIFIC, NamePart.FAMILY_NAME, NamePart.GENERATION, NamePart.GIVEN_NAME),
+                NameForm.HISPANIC,        List.of(NamePart.HONORIFIC, NamePart.GIVEN_NAME, NamePart.APELLIDO_1, NamePart.APELLIDO_2, NamePart.ORDINAL),
                 NameForm.NATIVE_AMERICAN, List.of(NamePart.HONORIFIC, NamePart.GIVEN_NAME, NamePart.FAMILY_NAME))),
         /** Name that would be used in a biography, including nickname. */
         BIOGRAPHICAL(Map.of(
-                NameForm.WESTERN,
-                List.of(NamePart.GIVEN_NAME, NamePart.MIDDLE_NAME, NamePart.NICKNAME_QUOTED, NamePart.FAMILY_NAME,
-                        NamePart.ORDINAL, NamePart.SUFFIXES),
-                NameForm.EASTERN,
-                List.of(NamePart.WESTERN_NAME, NamePart.FAMILY_NAME, NamePart.GENERATION, NamePart.GIVEN_NAME,
-                        NamePart.SUFFIXES),
-                NameForm.HISPANIC,
-                List.of(NamePart.GIVEN_NAME, NamePart.NICKNAME_QUOTED, NamePart.APELLIDO_1, NamePart.APELLIDO_2,
-                        NamePart.SUFFIXES),
+                NameForm.WESTERN,         List.of(NamePart.GIVEN_NAME, NamePart.MIDDLE_NAME, NamePart.NICKNAME_QUOTED, NamePart.FAMILY_NAME, NamePart.ORDINAL, NamePart.SUFFIXES),
+                NameForm.EASTERN,         List.of(NamePart.WESTERN_NAME, NamePart.FAMILY_NAME, NamePart.GENERATION, NamePart.GIVEN_NAME, NamePart.SUFFIXES),
+                NameForm.HISPANIC,        List.of(NamePart.GIVEN_NAME, NamePart.NICKNAME_QUOTED, NamePart.APELLIDO_1, NamePart.APELLIDO_2, NamePart.SUFFIXES),
                 NameForm.NATIVE_AMERICAN, List.of(NamePart.GIVEN_NAME, NamePart.FAMILY_NAME, NamePart.SUFFIXES))),
         /** Most preferred name as would be used for a signature. */
         COMMON(Map.of(
-                NameForm.WESTERN, List.of(NamePart.PREFERRED_FIRST, NamePart.PREFERRED_MIDDLE, NamePart.FAMILY_NAME),
-                NameForm.EASTERN, List.of(NamePart.FAMILY_NAME, NamePart.PREFERRED_GENERATION, NamePart.GIVEN_NAME),
-                NameForm.HISPANIC, List.of(NamePart.PREFERRED_NAME, NamePart.APELLIDO_1, NamePart.APELLIDO_2),
+                NameForm.WESTERN,         List.of(NamePart.PREFERRED_FIRST, NamePart.PREFERRED_MIDDLE, NamePart.FAMILY_NAME),
+                NameForm.EASTERN,         List.of(NamePart.FAMILY_NAME, NamePart.PREFERRED_GENERATION, NamePart.GIVEN_NAME),
+                NameForm.HISPANIC,        List.of(NamePart.PREFERRED_NAME, NamePart.APELLIDO_1, NamePart.APELLIDO_2),
                 NameForm.NATIVE_AMERICAN, List.of(NamePart.PREFERRED_FIRST, NamePart.FAMILY_NAME))),
         /** Name that would be used by friends. */
         INFORMAL(Map.of(
-                NameForm.WESTERN, List.of(NamePart.PREFERRED_NAME, NamePart.FAMILY_NAME),
-                NameForm.EASTERN, List.of(NamePart.FAMILY_NAME, NamePart.PREFERRED_GENERATION, NamePart.GIVEN_NAME),
-                NameForm.HISPANIC, List.of(NamePart.PREFERRED_NAME, NamePart.APELLIDO_1, NamePart.APELLIDO_2),
+                NameForm.WESTERN,         List.of(NamePart.PREFERRED_NAME, NamePart.FAMILY_NAME),
+                NameForm.EASTERN,         List.of(NamePart.FAMILY_NAME, NamePart.PREFERRED_GENERATION, NamePart.GIVEN_NAME),
+                NameForm.HISPANIC,        List.of(NamePart.PREFERRED_NAME, NamePart.APELLIDO_1, NamePart.APELLIDO_2),
                 NameForm.NATIVE_AMERICAN, List.of(NamePart.PREFERRED_FIRST, NamePart.FAMILY_NAME)));
 
         public final Map<NameForm, List<NamePart>> pattern;
@@ -146,36 +134,29 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
         INCLUDE_SUFFIX;
     }
 
-    // INSTANCE VARIABLES
-    // -------------------------------------------------------------------------
+    // INSTANCE VARIABLES -------------------------------------------------------------------------------------------------------------------------------------
 
     private NameForm nameForm;
 
-    /** First or Given Name */
-    private String givenName;
-    /** Middle or Generation Name */
-    private String middleName;
-    /** Last or Family Name */
-    private String familyName;
-    private String birthSurname;
-    private String paternalName;
-    private String maternalName;
-    /** Nicknames */
-    private String nickname;
+    /** First or Given Name */       private String givenName;
+    /** Middle or Generation Name */ private String middleName;
+    /** Last or Family Name */       private String familyName;
+    /** */                           private String birthSurname;
+    /** */                           private String paternalName;
+    /** */                           private String maternalName;
+    /** Nicknames */                 private String nickname;
     // Other Names
-    private String religiousName;
-    private String westernName;
-    private String legalName;
-    private String informalName;
+    /** */                           private String religiousName;
+    /** */                           private String westernName;
+    /** */                           private String legalName;
+    /** */                           private String informalName;
     // Additional Name Parts
-    private String honorific;
-    private String ordinal;
-    private List<String> suffixes;
+    /** */                           private String honorific;
+    /** */                           private String ordinal;
+    /** */                           private List<String> suffixes;
+    /** */                           private Set<DisplayOption> displayOptions;
 
-    private Set<DisplayOption> displayOptions;
-
-    // CONSTRUCTORS
-    // -------------------------------------------------------------------------------
+    // CONSTRUCTORS -------------------------------------------------------------------------------------------------------------------------------------------
 
     /**
      * Creates a Name with all fields default. The nameform will be
@@ -186,56 +167,54 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
      *      String, String, List)
      */
     public Name() {
-        this.nameForm = NameForm.defaultForm;
-        this.givenName = "";
-        this.middleName = "";
-        this.familyName = "";
-        this.birthSurname = "";
-        this.paternalName = "";
-        this.maternalName = "";
-        this.nickname = "";
+        this.nameForm      = NameForm.defaultForm;
+        this.givenName     = "";
+        this.middleName    = "";
+        this.familyName    = "";
+        this.birthSurname  = "";
+        this.paternalName  = "";
+        this.maternalName  = "";
+        this.nickname      = "";
         this.religiousName = "";
-        this.westernName = "";
-        this.legalName = "";
-        this.informalName = "";
-        this.honorific = "";
-        this.ordinal = "";
+        this.westernName   = "";
+        this.legalName     = "";
+        this.informalName  = "";
+        this.honorific     = "";
+        this.ordinal       = "";
         this.suffixes = new ArrayList<>();
         this.displayOptions = new HashSet<>();
     }
 
     public Name(String buildstring) {
         if (buildstring == null || buildstring.isBlank()) {
-            throw new IllegalArgumentException(
-                    "The given buildstring was null, and a Name object could not be created.");
+            throw new IllegalArgumentException("The given buildstring was null, and a Name object could not be created.");
         }
         fromRepr(buildstring);
     }
 
     public Name(JSONObject json) {
         if (json == null) {
-            throw new IllegalArgumentException(
-                    "The passed JSON Object was null, and a Character object could not be created.");
+            throw new IllegalArgumentException("The passed JSON Object was null, and a Character object could not be created.");
         }
         fromJson(json);
     }
 
     public Name(Name other) {
         this();
-        this.nameForm = other.getNameForm();
-        this.givenName = other.getGivenName();
-        this.middleName = other.getMiddleName();
-        this.familyName = other.getFamilyName();
-        this.birthSurname = other.getBirthSurname();
-        this.paternalName = other.getPaternalName();
-        this.maternalName = other.getMaternalName();
-        this.nickname = other.getNickname();
+        this.nameForm      = other.getNameForm();
+        this.givenName     = other.getGivenName();
+        this.middleName    = other.getMiddleName();
+        this.familyName    = other.getFamilyName();
+        this.birthSurname  = other.getBirthSurname();
+        this.paternalName  = other.getPaternalName();
+        this.maternalName  = other.getMaternalName();
+        this.nickname      = other.getNickname();
         this.religiousName = other.religiousName;
-        this.westernName = other.getWesternName();
-        this.legalName = other.legalName;
-        this.informalName = other.informalName;
-        this.honorific = other.honorific;
-        this.ordinal = other.ordinal;
+        this.westernName   = other.getWesternName();
+        this.legalName     = other.legalName;
+        this.informalName  = other.informalName;
+        this.honorific     = other.honorific;
+        this.ordinal       = other.ordinal;
         for (String suffix : other.getSuffixes())
             this.suffixes.add(suffix);
         for (DisplayOption option : other.getDisplayOptions())
@@ -255,25 +234,25 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
         this.nameForm = nameform;
         switch (nameform) {
             case WESTERN:
-                this.givenName = givenName != null ? givenName : "";
-                this.middleName = middleName != null ? middleName : "";
-                this.familyName = familyName != null ? familyName : "";
+                this.givenName    = givenName  != null ? givenName  : "";
+                this.middleName   = middleName != null ? middleName : "";
+                this.familyName   = familyName != null ? familyName : "";
                 this.birthSurname = familyName != null ? familyName : "";
                 break;
             case EASTERN:
-                this.familyName = familyName != null ? familyName : "";
-                this.middleName = middleName != null ? middleName : "";
-                this.givenName = givenName != null ? givenName : "";
+                this.familyName   = familyName != null ? familyName : "";
+                this.middleName   = middleName != null ? middleName : "";
+                this.givenName    = givenName  != null ? givenName  : "";
                 break;
             case HISPANIC:
-                this.givenName = givenName != null ? givenName : "";
-                this.middleName = middleName != null ? middleName : "";
-                this.paternalName = familyName.split("\s+")[0];
-                this.maternalName = familyName.split("\s+")[1];
+                this.givenName    = givenName  != null ? givenName  : "";
+                this.middleName   = middleName != null ? middleName : "";
+                this.paternalName = familyName.split("\s+")[0]; // This doesn't work, because there might be spaces inside an apalledo
+                this.maternalName = familyName.split("\s+")[1]; // TODO
                 break;
             case NATIVE_AMERICAN:
-                this.givenName = givenName != null ? givenName : "";
-                this.familyName = familyName != null ? familyName : "";
+                this.givenName    = givenName  != null ? givenName  : "";
+                this.familyName   = familyName != null ? familyName : "";
                 break;
         }
         this.suffixes = new ArrayList<>();
@@ -295,18 +274,18 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
             String ordinal,
             List<String> suffixes,
             Set<DisplayOption> displayOptions) {
-        this.nameForm = nameForm;
-        this.givenName = givenName != null ? givenName : "";
-        this.middleName = middleName != null ? middleName : "";
-        this.familyName = familyName != null ? familyName : "";
-        this.birthSurname = birthSurname != null ? birthSurname : "";
-        this.paternalName = paternalName != null ? paternalName : "";
-        this.maternalName = maternalName != null ? maternalName : "";
-        this.nickname = nickname != null ? nickname : "";
-        this.religiousName = religiousName != null ? religiousName : "";
-        this.honorific = honorific;
-        this.ordinal = ordinal;
-        this.suffixes = suffixes;
+        this.nameForm       = nameForm;
+        this.givenName      = givenName     != null ? givenName     : "";
+        this.middleName     = middleName    != null ? middleName    : "";
+        this.familyName     = familyName    != null ? familyName    : "";
+        this.birthSurname   = birthSurname  != null ? birthSurname  : "";
+        this.paternalName   = paternalName  != null ? paternalName  : "";
+        this.maternalName   = maternalName  != null ? maternalName  : "";
+        this.nickname       = nickname      != null ? nickname      : "";
+        this.religiousName  = religiousName != null ? religiousName : "";
+        this.honorific      = honorific;
+        this.ordinal        = ordinal;
+        this.suffixes       = suffixes;
         this.displayOptions = displayOptions;
     }
 
@@ -423,7 +402,8 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
                 nickname,
                 honorific,
                 ordinal,
-                suffixesRepr);
+                suffixesRepr
+        );
         return repr;
     }
 
@@ -439,7 +419,7 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
     public int hashCode() {
         final int prime = 31;
         int hash = 7;
-        hash = prime * hash + (givenName == null ? 0 : givenName.hashCode());
+        hash = prime * hash + (givenName  == null ? 0 : givenName.hashCode());
         hash = prime * hash + (middleName == null ? 0 : middleName.hashCode());
         hash = prime * hash + (familyName == null ? 0 : familyName.hashCode());
         return hash;
@@ -551,16 +531,22 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
 
     public String getNamePart(NamePart part) {
         return switch (part) {
-            case HONORIFIC -> getHonorific() + " ";
-            case GIVEN_NAME -> getGivenName() + " ";
-            case PREFERRED_NAME -> getPreferredName() + " ";
-            case PREFERRED_FIRST -> getPreferredFirst() + " ";
-            case MIDDLE_NAME -> getMiddleName() + " ";
-            case PREFERRED_MIDDLE -> getPreferredMiddle() + " ";
-            case NICKNAME -> getNickname() + " ";
-            case NICKNAME_QUOTED -> ("\"" + getNickname() + "\"").replace("\"\"", "").trim() + " ";
-            case FAMILY_NAME -> getFamilyName() + " ";
-            case APELLIDO_1 -> {
+            case HONORIFIC            -> getHonorific() + " ";
+            case GIVEN_NAME           -> getGivenName() + " ";
+            case PREFERRED_NAME       -> getPreferredName() + " ";
+            case PREFERRED_FIRST      -> getPreferredFirst() + " ";
+            case MIDDLE_NAME          -> getMiddleName() + " ";
+            case PREFERRED_MIDDLE     -> getPreferredMiddle() + " ";
+            case NICKNAME             -> getNickname() + " ";
+            case NICKNAME_QUOTED      -> ("\"" + getNickname() + "\"").replace("\"\"", "").trim() + " ";
+            case FAMILY_NAME          -> getFamilyName() + " ";
+            case ORDINAL              -> getOrdinal() + " ";
+            case SUFFIXES             -> getFormattedSuffixes() + " ";
+            case GENERATION           -> getMiddleName(); // No space following generation name
+            case PREFERRED_GENERATION -> displayOptions.contains(DisplayOption.LATENT_GENERATION) ? "" : getMiddleName();
+            case WESTERN_NAME         -> getWesternName() + " ";
+            case WESTERN_NAME_QUOTED  -> ("\"" + getWesternName() + "\"").replace("\"\"", "").trim() + " ";
+            case APELLIDO_1           -> {
                 if (displayOptions.contains(DisplayOption.MATERNAL_FIRST))
                     yield getMaternalName() + " ";
                 else if (displayOptions.contains(DisplayOption.PATERNAL_FIRST))
@@ -568,7 +554,7 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
                 else
                     yield "";
             }
-            case APELLIDO_2 -> {
+            case APELLIDO_2           -> {
                 if (displayOptions.contains(DisplayOption.MATERNAL_FIRST))
                     yield getPaternalName() + " ";
                 else if (displayOptions.contains(DisplayOption.PATERNAL_FIRST))
@@ -576,29 +562,15 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
                 else
                     yield "";
             }
-            case ORDINAL -> getOrdinal() + " ";
-            case SUFFIXES -> getFormattedSuffixes() + " ";
-            case GENERATION -> getMiddleName(); // No space following generation name
-            case PREFERRED_GENERATION -> {
-                if (displayOptions.contains(DisplayOption.LATENT_GENERATION))
-                    yield "";
-                else
-                    yield getMiddleName();
-            }
-            case WESTERN_NAME -> getWesternName() + " ";
-            case WESTERN_NAME_QUOTED -> ("\"" + getWesternName() + "\"").replace("\"\"", "").trim() + " ";
         };
     }
 
     private String getPreferredName() {
-        if (displayOptions.contains(DisplayOption.INCLUDE_NICKNAME)) {
+        if (displayOptions.contains(DisplayOption.INCLUDE_NICKNAME))
             return nickname;
-        }
-        if (displayOptions.contains(DisplayOption.PREFER_MIDDLE)) {
+        if (displayOptions.contains(DisplayOption.PREFER_MIDDLE))
             return middleName;
-        } else {
-            return givenName;
-        }
+        else return givenName;
     }
 
     private String getPreferredFirst() {

@@ -20,7 +20,7 @@ import java.util.stream.IntStream;
 
 import core.JSONObject;
 import core.JSONProcessor;
-import com.stevenlagoy.presidency.app.Main;
+import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.core.TimeManager;
 import com.stevenlagoy.presidency.characters.FederalOfficial.FederalRole;
@@ -65,12 +65,14 @@ public final class CharacterManager extends Manager {
 
     private static FederalOfficial houseSpeaker;
 
+    private final Engine ENGINE;
     private ManagerState currentState;
 
     // CONSTRUCTORS
     // -------------------------------------------------------------------------------
 
-    public CharacterManager() {
+    public CharacterManager(Engine engine) {
+        this.ENGINE = engine;
         currentState = ManagerState.INACTIVE;
     }
 
@@ -80,11 +82,11 @@ public final class CharacterManager extends Manager {
     @Override
     public boolean init() {
         boolean successFlag = true;
-        double startTime = Main.Engine().getProgramTime();
+        double startTime = ENGINE.getProgramTime();
         Logger.log(String.format("%s starting at %f", this.getClass().getSimpleName(), startTime));
         successFlag = successFlag && characterSetup();
         currentState = successFlag ? ManagerState.ACTIVE : ManagerState.ERROR;
-        double endTime = Main.Engine().getProgramTime();
+        double endTime = ENGINE.getProgramTime();
         Logger.log(String.format("%s initialized %s at %f. Elapsed: %f", this.getClass().getSimpleName(),
                 successFlag ? "successfully" : "unsuccessfully", endTime, endTime - startTime));
         return successFlag;
@@ -121,14 +123,14 @@ public final class CharacterManager extends Manager {
     public boolean addCharacter(Character character) {
         boolean added = true;
         added = added && characters.add(character);
-        Main.Engine().DemographicsManager().addCharacterToBlocs(character, character.getDemographics());
+        ENGINE.DemographicsManager().addCharacterToBlocs(character, character.getDemographics());
         return added;
     }
 
     public boolean removeCharacter(Character character) {
         boolean removed = true;
         removed = removed && characters.remove(character);
-        Main.Engine().DemographicsManager().removeCharacterFromBlocs(character, character.getDemographics());
+        ENGINE.DemographicsManager().removeCharacterFromBlocs(character, character.getDemographics());
         return removed;
     }
 
@@ -154,62 +156,44 @@ public final class CharacterManager extends Manager {
         return removed;
     }
 
-    private static FederalOfficial generatePresident() {
-        Demographics presidentDemographics = Main.Engine().DemographicsManager().getMostCommonDemographics(); // Change
-                                                                                                              // later
-                                                                                                              // to
-                                                                                                              // select
-                                                                                                              // Demographics
-                                                                                                              // from a
-                                                                                                              // special
-                                                                                                              // weighted
-                                                                                                              // map
-        president = new FederalOfficial(new Character(presidentDemographics, null, null, null, null, null));
+    private FederalOfficial generatePresident() {
+        // Change later to select Demographics from a special weighted map
+        Demographics presidentDemographics = ENGINE.DemographicsManager().getMostCommonDemographics();
+        president = new FederalOfficial(new Character(ENGINE.CharacterManager(), ENGINE.DemographicsManager(),
+                ENGINE.MapManager(), ENGINE.NameManager(), presidentDemographics, null, null, null, null, null));
         president.addRole(FederalRole.PRESIDENT);
         president.setJurisdiction(Nation.getInstance());
         return president;
     }
 
-    public static FederalOfficial getPresident() {
+    public FederalOfficial getPresident() {
         return president != null ? president : generatePresident();
     }
 
-    private static FederalOfficial generateVicePresident() {
-        Demographics vicePresidentDemographics = Main.Engine().DemographicsManager().getMostCommonDemographics(); // Change
-                                                                                                                  // later
-                                                                                                                  // to
-                                                                                                                  // select
-                                                                                                                  // Demographics
-                                                                                                                  // from
-                                                                                                                  // a
-                                                                                                                  // special
-                                                                                                                  // weighted
-                                                                                                                  // map
-        vicePresident = new FederalOfficial(new Character(vicePresidentDemographics, null, null, null, null, null));
+    private FederalOfficial generateVicePresident() {
+        // Change later to select Demographics from a special weighted map
+        Demographics vicePresidentDemographics = ENGINE.DemographicsManager().getMostCommonDemographics();
+        vicePresident = new FederalOfficial(new Character(ENGINE.CharacterManager(), ENGINE.DemographicsManager(),
+                ENGINE.MapManager(), ENGINE.NameManager(), vicePresidentDemographics, null, null, null, null, null));
         vicePresident.addRole(FederalRole.VICE_PRESIDENT);
         vicePresident.setJurisdiction(Nation.getInstance());
         return vicePresident;
     }
 
-    public static FederalOfficial getVicePresident() {
+    public FederalOfficial getVicePresident() {
         return vicePresident != null ? vicePresident : generateVicePresident();
     }
 
-    private static FederalOfficial generateHouseSpeaker() {
-        Demographics speakerDemographics = Main.Engine().DemographicsManager().getMostCommonDemographics(); // Change
-                                                                                                            // later to
-                                                                                                            // select
-                                                                                                            // Demographics
-                                                                                                            // from a
-                                                                                                            // special
-                                                                                                            // weighted
-                                                                                                            // map
-        houseSpeaker = new FederalOfficial(new Character(speakerDemographics, null, null, null, null, null));
+    private FederalOfficial generateHouseSpeaker() {
+        // Change later to select Demographics from a special weighted map
+        Demographics speakerDemographics = ENGINE.DemographicsManager().getMostCommonDemographics();
+        houseSpeaker = new FederalOfficial(new Character(ENGINE.CharacterManager(), ENGINE.DemographicsManager(),
+                ENGINE.MapManager(), ENGINE.NameManager(), speakerDemographics, null, null, null, null, null));
         houseSpeaker.addRole(FederalRole.HOUSE_SPEAKER);
         return houseSpeaker;
     }
 
-    public static FederalOfficial getHouseSpeaker() {
+    public FederalOfficial getHouseSpeaker() {
         return houseSpeaker != null ? houseSpeaker : generateHouseSpeaker();
     }
 
@@ -293,9 +277,9 @@ public final class CharacterManager extends Manager {
     /** Assume that the first year will be 1900. */
     private static int startYear = 1900;
 
-    public static HashMap<Integer, Double> getAgeDistribution(Demographics demographics) {
+    public HashMap<Integer, Double> getAgeDistribution(Demographics demographics) {
         if (demographics == null)
-            demographics = Main.Engine().DemographicsManager().getMostCommonDemographics();
+            demographics = ENGINE.DemographicsManager().getMostCommonDemographics();
 
         HashMap<Integer, Double> result = new HashMap<Integer, Double>();
         for (int i = 0; i < numberOfYears; i++) {
@@ -403,21 +387,21 @@ public final class CharacterManager extends Manager {
         return model;
     }
 
-    public static Bloc generatePresentation(Demographics demographics) {
+    public Bloc generatePresentation(Demographics demographics) {
         // Using the other fields of the demographics object, select a presentation.
 
-        return Main.Engine().DemographicsManager().matchBlocName("Woman");
+        return ENGINE.DemographicsManager().matchBlocName("Woman");
     }
 
     public void generateBlocsReport() {
         int differenceValue = 5;
         System.out.println("TOTAL # CHARACTERS : " + getNumCharacters());
-        for (List<Bloc> category : Main.Engine().DemographicsManager().getDemographicBlocs().values()) {
+        for (List<Bloc> category : ENGINE.DemographicsManager().getDemographicBlocs().values()) {
             for (Bloc bloc : category) {
                 if (bloc.getSubBlocs().isEmpty()) {
                     if (!DemographicsManager.isCharacterBlocCategory(bloc.getDemographicGroup()))
                         continue;
-                    float expectedRepresentation = bloc.getPercentageVoters();
+                    float expectedRepresentation = bloc.getPercentVoters();
                     float actualRepresentation = bloc.getMembers().size() * 1.0f / getNumCharacters();
                     float representationRatio = actualRepresentation / expectedRepresentation;
                     System.out.printf(
@@ -445,15 +429,15 @@ public final class CharacterManager extends Manager {
         return saveString.toString();
     }
 
-    public static LocalDate generateBirthday(Demographics demographics) {
+    public LocalDate generateBirthday(Demographics demographics) {
         return generateBirthday(demographics, Character.MIN_AGE, Character.MAX_AGE);
     }
 
-    public static LocalDate generateBirthday(Demographics demographics, int minAge, int maxAge) {
+    public LocalDate generateBirthday(Demographics demographics, int minAge, int maxAge) {
         int year, month, day;
 
         // Select a year
-        HashMap<Integer, Double> ageDistribution = CharacterManager.getAgeDistribution(demographics);
+        HashMap<Integer, Double> ageDistribution = getAgeDistribution(demographics);
         year = RandomOperations.weightedRandSelect(ageDistribution);
 
         // Select a month
@@ -477,8 +461,8 @@ public final class CharacterManager extends Manager {
      *         age.
      * @see #generateCharacterModel(Demographics, int)
      */
-    public static CharacterModel generateCharacterModel(Demographics demographics, LocalDate birthdate) {
-        return generateCharacterModel(demographics, Main.Engine().TimeManager().yearsAgo(birthdate));
+    public CharacterModel generateCharacterModel(Demographics demographics, LocalDate birthdate) {
+        return generateCharacterModel(demographics, ENGINE.TimeManager().yearsAgo(birthdate));
     }
 
     /**
@@ -490,7 +474,7 @@ public final class CharacterManager extends Manager {
      * @return A character model which looks like a person with the demographics and
      *         age.
      */
-    public static CharacterModel generateCharacterModel(Demographics demographics, int age) {
+    public CharacterModel generateCharacterModel(Demographics demographics, int age) {
         return new CharacterModel();
     }
 
