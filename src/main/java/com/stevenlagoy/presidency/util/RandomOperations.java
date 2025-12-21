@@ -202,8 +202,8 @@ public final class RandomOperations {
      */
     public static <T> T weightedRandSelect(T[] items, double[] weights) {
         if (items.length < 1 || weights.length < 1) {
-            Logger.log("INVALID SELECTION FROM EMPTY ARRAY",
-                    String.format("Unable to select an item from an array with length < 1."), new Exception());
+            Logger.log("INVALID SELECTION FROM EMPTY COLLECTION",
+                    String.format("Unable to select an item from an empty collection."), new Exception());
             return null;
         }
         if (items.length != weights.length) {
