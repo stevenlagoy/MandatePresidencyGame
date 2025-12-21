@@ -1,13 +1,14 @@
 {
     "Generation" : {
+        "Lost Generation" :     0.0,
         "Greatest Generation" : 0.0020,
         "Silent Generation" :   0.0549,
-        "Baby Boomer" :        0.2058,
+        "Baby Boomer" :         0.2058,
         "Generation X" :        0.1961,
         "Millennial" :          0.2167,
         "Generation Z" :        0.2088,
         "Generation Alpha" :    0.1157,
-        "Generation Beta" :     0.0001
+        "Generation Beta" :     0.0426
     },
     "Marital Status" : {
         "Single" :   0.3409,
@@ -59,7 +60,7 @@
             "Orthodox Christian" :    0.005,
             "Unspecified Christian" : 0.001
         },
-        "Unaffiliated" : {
+        "Irreligious" : {
             "Unaffiliated" : 0.161,
             "Agnostic" :     0.041,
             "Atheist" :      0.031
@@ -79,7 +80,7 @@
     },
     "Race / Ethnicity" : {
         "White" : {
-            "British" : {
+            "Anglo" : {
                 "English" :            31380620,
                 "Irish" :              30655612,
                 "American" :           17786214,
@@ -102,6 +103,8 @@
             "Southern European" : {
                 "Italian" :            16009774,
                 "Spanish" :            1926228,
+                "Catalan" :            0,
+                "Galician" :           0,
                 "Portuguese" :         1350442,
                 "Greek" :              1200706,
                 "Basque" :             62731
@@ -109,13 +112,16 @@
             "Western European" : {
                 "German" :             41137168,
                 "French" :             6310548,
-                "Dutch" :              3019465,
+                "Breton" :             0,
+                "Occitan" :            0,
                 "Quebecois" :          1626456,
+                "Dutch" :              3019465,
                 "Swiss" :              847247,
                 "Austrian" :           584517,
                 "Belgian" :            316493,
                 "Pennsylvania Dutch" : 228634,
-                "Cajun" :              91706
+                "Cajun" :              91706,
+                "Afrikaaner" :          0
             },
             "Eastern European" : {
                 "Polish" :             8249491,
@@ -140,7 +146,48 @@
             "European" :               4819541
         },
         "Black" : {
-            "African American" : 46936733
+            "African American" : 46936733,
+            "Afro-Asiatic" : {
+                "Amhara" : 0,
+                "Hausa" : 0,
+                "Oromo" : 0,
+                "Somali" : 0,
+                "Tigrayan" : 0
+            },
+            "Niger-Congo" : {
+                "Akan" : 0,
+                "Chewa" : 0,
+                "Fulani" : 0,
+                "Hutu" : 0,
+                "Igbo" : 0,
+                "Kongo" : 0,
+                "Luba" : 0,
+                "Mandé" : 0,
+                "Mongo" : 0,
+                "Mossi" : 0,
+                "Shona" : 0,
+                "Yoruba" : 0,
+                "Zulu" : 0,
+                "Subsaharan African" : 0,
+                "Western African" : 0,
+                "Bantu" : 0
+            },
+            "Nilo-Saharan" : {
+                "Dinka" : 0,
+                "Kanuri" : 0,
+                "Luo" : 0,
+                "Maasai" : 0,
+                "Nuer" : 0,
+                "Songhai" : 0
+            },
+            "Khoisan" : {
+                "Nama" : 0,
+                "San" : 0,
+                "Sandawe" : 0
+            },
+            "Austronesian" : {
+                "Malagasy" : 0
+            }
         },
         "Native / Indian" : {
             "American Indian" : {
@@ -178,100 +225,184 @@
                 "Colville" :                            10549,
                 "Yuman" :                               10089,
                 "Tsimshian" :                           3755,
-                "Other / Unspecified American Indian" : 663949
+                "Shawnee" :                             0,
+                "Mohawk" :                              0,
+                "Powhatan" :                            0,
+                "American Indian" :                     663949
             },
             "Alaska Native" : {
                 "Yup'ik" :                              33889,
                 "Inupiat" :                             33360,
                 "Tlingit-Haida" :                       26080,
-                "Alaskan Athabaskan" :                 22484,
+                "Alaskan Athabaskan" :                  22484,
                 "Aleut" :                               19282,
-                "Other Alaska Native" :                 168783
+                "Inuit" :                               0,
+                "Alaska Native" :                       168783
             },
-            "Canadian / French Indian" : {
+            "Canadian / French American Indian" : {
                 "Ojibwe" :                              170742,
                 "Cree" :                                7983,
+                "Siksika" :                             0,
+                "Algonquin" :                           0,
+                "Nuu-chah-nulth" :                      0,
                 "Canadian / French American Indian" :   14822
             },
             "Spanish American Indian" : {
                 "Yaqui" :                               32595,
                 "Central American Indian" :             27844,
-                "Spanish American Indian" :             19951
+                "Spanish American Indian" :             19951,
+                "Aymara" :                              0,
+                "Mapuche" :                             0,
+                "Mayan" :                               0,
+                "Nahuatl" :                             0,
+                "Quechua" :                             0,
+                "Tupi" :                                0,
+                "Zapotec" :                             0,
+                "Guarani" :                             0
             }
         },
-        "Asian" : {
-            "Chinese" :              5471628,
-            "Indian" :               4946910,
-            "Filipino" :             4466918,
-            "Vietnamese" :           2301868,
-            "Korean" :               2051572,
-            "Japanese" :             1587040,
-            "Pakistani" :            625570,
-            "Cambodian" :            376096,
-            "Hmong" :                362244,
-            "Central Asian" :        343472,
-            "Thai" :                 328176,
-            "Taiwanese" :            324389,
-            "Bangladeshi" :          272338,
-            "Nepalese / Bhutanese" : 282507,
-            "Laotian" :              245220,
-            "Burmese" :              244086,
-            "Afghan" :               189493,
-            "Indonesian" :           155304,
-            "Malaysian" :            44277,
-            "Mongolian" :            36863,
-            "Sikh" :                 34023,
-            "Okinawan" :             23206,
-            "Mien" :                 22340,
-            "Asian" :                636816
+        "Asian / Pacific Islander" : {
+            "East Asian" : {
+                "Chinese" :              5471628,
+                "Japanese" :             1587040,
+                "Okinawan" :             23206,
+                "Mongolian" :            36863,
+                "Korean" :               2051572,
+                "Taiwanese" :            324389,
+                "Ryukyuan" :             0,
+                "Tibetan" :              0
+            },
+            "Central Asian" : {
+                "Afghan" :               189493,
+                "Baloch" :               0,
+                "Kazakh" :               0,
+                "Kyrgyz" :               0,
+                "Tajik" :                0,
+                "Turkmen" :              0,
+                "Uyghur" :               0,
+                "Uzbek" :                0,
+                "Bukharan" :             0,
+                "Central Asian" :        343472
+            },
+            "Southeast Asian" : {
+                "Filipino" :             4466918,
+                "Vietnamese" :           2301868,
+                "Cambodian" :            376096,
+                "Hmong" :                362244,
+                "Thai" :                 328176,
+                "Karen" :                0,
+                "Singaporean" :          0,
+                "Laotian" :              245220,
+                "Burmese" :              244086,
+                "Malaysian" :            44277,
+                "Indonesian" :           155304,
+                "Mien" :                 22340
+            },
+            "South Asian" : {
+                "Indian" :               4946910,
+                "Pakistani" :            625570,
+                "Bangladeshi" :          272338,
+                "Nepalese / Bhutanese" : 282507,
+                "Sikh" :                 34023,
+                "Maldivian" :            0
+            },
+            "Pacific Islander" : {
+                "Melanesian" : {
+                    "Fijian" : 0,
+                    "New Caledonian" : 0,
+                    "Papuan" : 0,
+                    "Vanuatuan" : 0,
+                    "Solomon Islander" : 0,
+                    "Melanesian American" : 0
+                },
+                "Micronesian" : {
+                    "Palauan" : 0,
+                    "Marshallese" : 0,
+                    "I-Kiribati" : 0,
+                    "Nauruan" : 0,
+                    "Chamorro" : 0,
+                    "Micronesian American" : 0
+                },
+                "Polynesian" : {
+                    "Hawaiian" : 0,
+                    "Samoan" : 0,
+                    "Tongan" : 0,
+                    "French Polynesian American" : 0,
+                    "Māori" : 0,
+                    "Polynesian American" : 0
+                },
+                "Pacific Islander American" : 0
+            },
+            "Asian" :                    636816
         },
         "Hispanic / Latino" : {
             "Mexican" :           37145956,
-            "Puerto Rican" :      5902402,
-            "Cuban" :             2405080,
-            "Salvadoran" :        2389469,
-            "Dominican" :         2267142,
-            "Brazilian" :         1905000,
-            "Guatemalan" :        1669094,
-            "Colombian" :         1357798,
-            "Honduran" :          1068265,
-            "Ecuadorian" :        803854,
-            "Peruvian" :          712740,
-            "Venezuelan" :        627961,
-            "Nicaraguan" :        441378,
-            "Argentinian" :       304672,
-            "Panamanian" :        224385,
-            "Chilean" :           182671,
-            "Costa Rican" :       173375,
-            "Bolivian" :          128584,
-            "Uruguayan" :         71984,
-            "Paraguayan" :        27522,
+            "Central American" : {
+                "Salvadoran" :    2389469,
+                "Guatemalan" :    1669094,
+                "Honduran" :      1068265,
+                "Nicaraguan" :    441378,
+                "Costa Rican" :   173375,
+                "Panamanian" :    224385,
+                "Belizean" :      0
+            },
+            "South American" : {
+                "Brazilian" :     1905000,
+                "Colombian" :     1357798,
+                "Ecuadorian" :    803854,
+                "Peruvian" :      712740,
+                "Venezuelan" :    627961,
+                "Argentinian" :   304672,
+                "Chilean" :       182671,
+                "Bolivian" :      128584,
+                "Uruguayan" :     71984,
+                "Paraguayan" :    27522
+            },
+            "Caribbean" : {
+                "Puerto Rican" :  5902402,
+                "Cuban" :         2405080,
+                "Dominican" :     2267142
+            },
             "Hispanic / Latino" : 190353
         },
         "Middle Eastern / North African" : {
-            "Lebanese" :                       685672,
+            "Arab" : {
+                "North African" : {
+                    "Egyptian" :                       396854,
+                    "Algerian" :                       38186,
+                    "Tunisian" :                       15270,
+                    "Libyan" :                         13681,
+                    "Moroccan" :                       147528,
+                    "Sudanese" : 0,
+                    "Mauritanian" : 0
+                },
+                "Middle Eastern" : {
+                    "Lebanese" :                       685672,
+                    "Syrian" :                         222193,
+                    "Iraqi" :                          212875,
+                    "Palestinian" :                    174887,
+                    "Jordanian" :                      121917,
+                    "Yemeni" :                         91288,
+                    "Saudi" :                          30563,
+                    "Kuwaiti" :                        6923,
+                    "Emirati" :                        2480,
+                    "Omani" :                          1336,
+                    "Bahraini" :                       973,
+                    "Qatari" :                         650
+                },
+                "Arab American" : 0
+            },
+            "Coptic" : 0,
+            "Kurdish" : 0,
             "Iranian" :                        519658,
             "Armenian" :                       458841,
-            "Egyptian" :                       396854,
             "Turkish" :                        239667,
-            "Syrian" :                         222193,
-            "Iraqi" :                          212875,
-            "Palestinian" :                    174887,
-            "Moroccan" :                       147528,
             "Israeli" :                        144202,
-            "Jordanian" :                      121917,
             "Assyrian" :                       93542,
-            "Yemeni" :                         91288,
-            "Algerian" :                       38186,
-            "Saudi" :                          30563,
-            "Tunisian" :                       15270,
-            "Libyan" :                         13681,
-            "Kuwaiti" :                        6923,
-            "Emirati" :                        2480,
-            "Omani" :                          1336,
-            "Bahraini" :                       973,
-            "Qatari" :                         650,
-            "Middle Eastern / North African" : 531533
+            "Amazigh" :                        0,
+            "Middle Eastern American" : 0,
+            "North African American" : 0,
+            "Middle Eastern / North African American" : 531533
         }
     },
     "Employment" : {

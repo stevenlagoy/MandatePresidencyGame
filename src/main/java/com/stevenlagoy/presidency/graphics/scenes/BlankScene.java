@@ -1,0 +1,234 @@
+package com.stevenlagoy.presidency.graphics.scenes;
+
+import java.util.Arrays;
+import org.joml.Vector2f;
+import org.joml.Vector3f;
+import org.lwjgl.glfw.GLFW;
+
+import com.stevenlagoy.presidency.core.Engine;
+import com.stevenlagoy.presidency.graphics.Camera;
+import com.stevenlagoy.presidency.graphics.GraphicsManager;
+import com.stevenlagoy.presidency.graphics.ILogic;
+import com.stevenlagoy.presidency.graphics.MouseInput;
+import com.stevenlagoy.presidency.graphics.Window;
+import com.stevenlagoy.presidency.graphics.entity.Entity;
+import com.stevenlagoy.presidency.graphics.entity.SceneManager;
+import com.stevenlagoy.presidency.graphics.entity.Entity.EntityType;
+import com.stevenlagoy.presidency.graphics.entity.Model;
+import com.stevenlagoy.presidency.graphics.entity.ModelManager;
+import com.stevenlagoy.presidency.graphics.entity.QuadModel;
+import com.stevenlagoy.presidency.graphics.lighting.DirectionalLight;
+import com.stevenlagoy.presidency.graphics.rendering.RenderManager;
+import com.stevenlagoy.presidency.graphics.ui.Button;
+import com.stevenlagoy.presidency.graphics.ui.Container;
+import com.stevenlagoy.presidency.graphics.ui.Quad;
+
+public class BlankScene implements ILogic {
+
+    private final Window window;
+    private Camera camera;
+    private SceneManager scene;
+    private RenderManager renderer;
+    private DirectionalLight light;
+    private Vector3f cameraInc;
+
+    // Layers
+
+    // Entities
+
+    private final float screenWidth = 2560f, screenHeight = 1440f; // Not the actual expected values of width and
+                                                                   // height, just to use for positioning elements
+
+    // REMEMBER TO PUT TEXTURES IN GFX.java FILE
+    private Entity[] entities = {};
+    private EntityType[] entityTypes = {};
+    private float[][] XYArrays = {};
+    private int[] layers = {};
+    private Model[] models = {};
+    private String[][] textureNames = {};
+
+    private Runnable[][] runnables = new Runnable[entities.length][];
+    private float[][] layersDimensions = new float[layers.length][];
+    private float[][] WHArrays = new float[XYArrays.length][];
+
+    private final Engine ENGINE;
+
+    public BlankScene(Engine engine) {
+        this.ENGINE = engine;
+        window = ENGINE.GraphicsManager().getWindow();
+        camera = new Camera();
+        scene = new SceneManager();
+        renderer = new RenderManager(ENGINE);
+        cameraInc = new Vector3f(0);
+
+        // Set runnables
+
+        runnables[0] = new Runnable[] {
+                () -> {
+                }
+        };
+        // Set for all needed buttons
+
+        ENGINE.GraphicsManager().loadTextures();
+
+        scene.setAmbientLight(GraphicsManager.AMBIENT_LIGHT);
+        scene.setSpecularPower(GraphicsManager.SPECULAR_POWER);
+
+        // Initialize directional light
+        Vector3f lightColor = new Vector3f(1.0f, 1.0f, 1.0f);
+        Vector3f lightDirection = new Vector3f(0.0f, 1.0f, -1.0f).normalize();
+        float lightIntensity = 1.5f;
+        light = new DirectionalLight(lightColor, lightDirection, lightIntensity);
+        scene.setDirectionalLight(light);
+    }
+
+    @Override
+    public void init() throws Exception {
+
+        if (entities.length != XYArrays.length || entities.length != layers.length
+                || entities.length != models.length) {
+            throw new IndexOutOfBoundsException(
+                    "The entities array, XY/WH arrays, and layer array must have the same length");
+        }
+
+        int max = -1;
+        for (int i : layers)
+            max = i > max ? i : max;
+        layersDimensions = new float[max + 1][];
+        for (int i = 0; i <= max; i++) {
+            layersDimensions[i] = ENGINE.GraphicsManager().calculateQuadDimensions(i);
+        }
+
+        for (int i = 0; i < XYArrays.length; i++) {
+            XYArrays[i] = new float[] { XYArrays[i][0] / screenWidth, XYArrays[i][1] / screenHeight,
+                    XYArrays[i][2] / screenWidth, XYArrays[i][3] / screenHeight };
+            WHArrays[i] = new float[] { Math.abs(XYArrays[i][0] - XYArrays[i][2]),
+                    Math.abs(XYArrays[i][1] - XYArrays[i][3]) };
+        }
+
+        renderer.init();
+
+        // Create quads for background and text
+
+        for (int i = 0; i < WHArrays.length; i++) {
+            models[i] = ModelManager.createQuad(
+                    WHArrays[i][0] * layersDimensions[layers[i]][0],
+                    WHArrays[i][1] * layersDimensions[layers[i]][1]);
+        }
+
+        // Create entities
+
+        for (int i = 0; i < entities.length; i++) {
+
+            float left = Math.min(XYArrays[i][0], XYArrays[i][2]);
+            float right = Math.max(XYArrays[i][0], XYArrays[i][2]);
+            float top = Math.min(XYArrays[i][1], XYArrays[i][3]);
+            float bottom = Math.max(XYArrays[i][1], XYArrays[i][3]);
+
+            float centerX = (left + right) / 2.0f;
+            float centerY = (top + bottom) / 2.0f;
+
+            float glX = (centerX - 0.5f) * layersDimensions[layers[i]][0];
+            float glY = (0.5f - centerY) * layersDimensions[layers[i]][1];
+
+            Vector3f position = new Vector3f(glX, glY, -layers[i]);
+
+            switch (entityTypes[i]) {
+                case QUAD:
+                    entities[i] = new Quad((QuadModel) models[i], position);
+                    entities[i].getModel().setTexture(textureNames[i][0]);
+                    break;
+                case BUTTON:
+                    entities[i] = new Button(ENGINE,
+                            new Entity(models[i], position),
+                            textureNames[i][0], textureNames[i][1], runnables[i][0], runnables[i][1],
+                            textureNames[i][2], runnables[i][2], runnables[i][3], textureNames[i][3], runnables[i][4],
+                            runnables[i][5]);
+                    break;
+                case CONTAINER:
+                    entities[i] = new Container(new Entity(models[i], position), textureNames[i][0]);
+                    break;
+                case ENTITY:
+                    entities[i] = new Entity(models[i], position);
+                    entities[i].getModel().setTexture(textureNames[i][0]);
+                    break;
+            }
+        }
+
+        // Change draw order to ensure back-to-front
+        Arrays.sort(entities, (a, b) -> Float.compare(a.getPos().z, b.getPos().z));
+
+        // Add entities to scene
+        for (Entity entity : entities) {
+            scene.addEntity(entity);
+        }
+
+        camera.setPosition(0);
+        camera.setRotation(0);
+    }
+
+    @Override
+    public void input() {
+        cameraInc.set(0, 0, 0);
+        if (ENGINE.DEBUG_MODE) {
+            if (window.isKeyPressed(GLFW.GLFW_KEY_W))
+                cameraInc.z = -10;
+            if (window.isKeyPressed(GLFW.GLFW_KEY_S))
+                cameraInc.z = 10;
+            if (window.isKeyPressed(GLFW.GLFW_KEY_A))
+                cameraInc.x = -10;
+            if (window.isKeyPressed(GLFW.GLFW_KEY_D))
+                cameraInc.x = 10;
+            if (window.isKeyPressed(GLFW.GLFW_KEY_LEFT_SHIFT))
+                cameraInc.y = -10;
+            if (window.isKeyPressed(GLFW.GLFW_KEY_SPACE))
+                cameraInc.y = 10;
+            if (window.isKeyPressed(GLFW.GLFW_KEY_Q))
+                camera.moveRotation(0.0f, 0.0f, -0.5f);
+            if (window.isKeyPressed(GLFW.GLFW_KEY_E))
+                camera.moveRotation(0.0f, 0.0f, 0.5f);
+            if (window.isKeyPressed(GLFW.GLFW_KEY_R))
+                camera.setRotation(0);
+            if (window.isKeyPressed(GLFW.GLFW_KEY_T))
+                camera.setPosition(0);
+        }
+    }
+
+    @Override
+    public void update(float interval, MouseInput mouse) {
+        camera.movePosition(cameraInc.x * GraphicsManager.CAMERA_MOVE_SPEED,
+                cameraInc.y * GraphicsManager.CAMERA_MOVE_SPEED, cameraInc.z * GraphicsManager.CAMERA_MOVE_SPEED);
+
+        if (ENGINE.DEBUG_MODE) {
+            if (mouse.isRightButtonPress()) {
+                Vector2f rotVec = mouse.getDisplVec();
+                camera.moveRotation(rotVec.x * GraphicsManager.MOUSE_SENSITIVITY,
+                        rotVec.y * GraphicsManager.MOUSE_SENSITIVITY, 0);
+            }
+        }
+
+        for (Entity entity : scene.getEntities()) {
+            renderer.processEntity(entity);
+
+            if (entity instanceof Button button) {
+                button.update(mouse, camera);
+            }
+        }
+    }
+
+    @Override
+    public void render() {
+        renderer.render(camera, scene);
+    }
+
+    @Override
+    public void cleanup() {
+        renderer.cleanup();
+    }
+
+    @Override
+    public Camera getCamera() {
+        return camera;
+    }
+
+}

@@ -29,6 +29,15 @@
     </dependencyManagement>
 
     <dependencies>
+        <!-- JUnit Testing -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+
+
         <!-- LWJGL core -->
         <dependency>
             <groupId>org.lwjgl</groupId>
@@ -89,7 +98,6 @@
     </dependencies>
 
     <build>
-        <sourceDirectory>src</sourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
