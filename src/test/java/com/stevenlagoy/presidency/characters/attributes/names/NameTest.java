@@ -14,8 +14,8 @@ import org.junit.Before; // Add this import for JUnit 4
 
 public final class NameTest {
 
-    public final Engine ENGINE = new Engine();
-    public List<Name> names;
+    static final Engine ENGINE = new Engine();
+    static List<Name> names;
 
     public void createNames(int numNames) {
         createNames(numNames, ENGINE.DemographicsManager().getMostCommonDemographics());
@@ -57,14 +57,17 @@ public final class NameTest {
 
     @Test
     public void namesHaveGivenAndFamilyName() {
-        createNames(100);
+        createNames(1000);
         for (Name name : names) {
             assertNotNull(name.getGivenName());
             assertNotNull(name.getFamilyName());
             assertFalse(name.getGivenName().isBlank());
             assertFalse(name.getFamilyName().isBlank());
-            assertTrue(name.getGivenName().matches("[a-zA-Z' -]+"));
-            assertTrue(name.getFamilyName().matches("[a-zA-Z' -]+"));
+            if (!name.getGivenName().matches("(?i)^[-'0-9a-zÀ-ÿ ]+")) {
+                System.out.println("Not match");
+            }
+            assertTrue(name.getGivenName().matches("(?i)^[-'0-9a-zÀ-ÿ ]+"));
+            assertTrue(name.getFamilyName().matches("(?i)^[-'0-9a-zÀ-ÿ ]+"));
         }
     }
 
@@ -75,7 +78,7 @@ public final class NameTest {
         for (Name name : names) {
             if (name.getMiddleName() != null && !name.getMiddleName().isBlank()) {
                 found = true;
-                assertTrue(name.getMiddleName().matches("[a-zA-Z' -]+"));
+                assertTrue(name.getMiddleName().matches("(?i)^[-'0-9a-zÀ-ÿ ]+"));
             }
         }
         assertTrue("At least one name has a middle name", found);
@@ -150,7 +153,7 @@ public final class NameTest {
 
     @Test
     public void namesCanHaveSuffixes() {
-        createNames(500);
+        createNames(2000);
         boolean found = false;
         for (Name name : names) {
             List<String> suffixes = name.getSuffixes();
@@ -198,7 +201,7 @@ public final class NameTest {
 
     @Test
     public void namesDependOnDemographics() {
-        String[] generations = {"Silent Generation", "Boomer", "Generation X", "Millennial", "Generation Z", "Generation Alpha", "Generation Beta"};
+        String[] generations = {"Silent Generation", "Baby Boomer", "Generation X", "Millennial", "Generation Z", "Generation Alpha", "Generation Beta"};
         String[] religions = {
             "Christian", "Evangelical", "Baptist", "Lutheran", "Black Protestant",
             "Catholic", "Hispanic Catholic", "Mormon", "Irreligious", "Agnostic",

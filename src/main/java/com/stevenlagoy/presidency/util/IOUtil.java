@@ -182,7 +182,7 @@ public class IOUtil {
                 }
                 Path fileName = path.getFileName();
                 if (!Files.isDirectory(path) && !FilePaths.IGNORED_PATHS.contains(path)
-                        && fileName.endsWith(extension.extension)) {
+                        && fileName.toString().endsWith(extension.extension)) {
                     pathSet.add(dir.resolve(fileName));
                 }
             }
@@ -267,7 +267,7 @@ public class IOUtil {
      * @see #writeFile(File, List)
      */
     public static void writeFile(String filename, Extension extension, Path destination, List<String> content) {
-        Path filePath = destination.resolve(filename + extension);
+        Path filePath = destination.resolve(filename + extension.extension);
         File file = filePath.toFile();
         writeFile(file, content);
     }

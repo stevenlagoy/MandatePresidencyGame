@@ -96,7 +96,7 @@ public class DemographicsManager extends Manager {
     // public final static Bloc EVERYONE = new Bloc("Everyone", null, 1.0f);
     // public final static Bloc VOTERS = new Bloc("Voters", null, 0.7083f);
 
-    private static Engine ENGINE;
+    private Engine ENGINE;
     private ManagerState currentState;
 
     // CONSTRUCTORS

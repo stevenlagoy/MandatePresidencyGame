@@ -17,7 +17,6 @@ import java.util.List;
 
 // Internal Imports
 import core.JSONObject;
-import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.TimeManager;
 import com.stevenlagoy.presidency.data.Jsonic;
 import com.stevenlagoy.presidency.data.Repr;

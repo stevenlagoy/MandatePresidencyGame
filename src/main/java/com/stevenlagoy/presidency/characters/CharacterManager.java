@@ -33,7 +33,6 @@ import com.stevenlagoy.presidency.demographics.DemographicsManager;
 import com.stevenlagoy.presidency.map.Nation;
 import com.stevenlagoy.presidency.util.FilePaths;
 import com.stevenlagoy.presidency.util.Logger;
-import com.stevenlagoy.presidency.util.NumberOperations;
 import com.stevenlagoy.presidency.util.RandomOperations;
 
 /**
