@@ -32,9 +32,7 @@ class Name {
 const names = [];
 for (let n of data) {
     if (n[0] === 'NAME') continue;
-    console.log(n)
     names.push(new Name(n[0], n[1], n[2], n[3], n[4], n[5], n[6], n[7], n[8]));
-    console.log(names[names.length - 1])
 }
 
 const americanIndianAlaskaNativeLastnames = {};
