@@ -5,7 +5,7 @@ import java.nio.file.*;
 import java.io.*;
 import java.util.*;
 
-public class IOUtilTest {
+public final class IOUtilTest {
     private static Path tempDir;
 
     @BeforeClass
