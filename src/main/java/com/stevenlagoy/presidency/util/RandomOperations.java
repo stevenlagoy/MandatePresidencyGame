@@ -178,12 +178,10 @@ public final class RandomOperations {
         int randomNumber = rand.nextInt(items.size());
         int i = 0;
         for (T item : items) {
-            if (i == randomNumber) {
-                return item;
-            }
+            if (i == randomNumber) return item;
             i++;
         }
-        return null; // Should never reach here if items.size() > 0
+        return null; // Never reached when items.size() > 0
     }
 
     /**

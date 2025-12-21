@@ -12,9 +12,7 @@ import com.stevenlagoy.presidency.util.IOUtil;
 import com.stevenlagoy.presidency.util.Logger;
 import com.stevenlagoy.presidency.core.Engine;
 
-/**
- * Main entry point and relative root of the game engine and engine submanagers.
- */
+/** Main entry point */
 public class Main {
 
     /**

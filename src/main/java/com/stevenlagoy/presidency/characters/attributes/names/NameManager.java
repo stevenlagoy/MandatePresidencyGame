@@ -108,7 +108,7 @@ public final class NameManager extends Manager {
     public NameManager(Engine engine) {
         ENGINE                  = engine;
         currentState            = ManagerState.INACTIVE;
-        givenNamesDistribution  = new HashMap<>();
+        givenNamesDistribution = new HashMap<>();
         familyNamesDistribution = new HashMap<>();
         nicknames               = new HashMap<>();
     }
@@ -119,13 +119,13 @@ public final class NameManager extends Manager {
     public boolean init() {
         boolean successFlag = true;
         double startTime = ENGINE.getProgramTime();
-        Logger.log(String.format("%s starting at %f",this.getClass().getSimpleName(),startTime));
+        Logger.log(String.format("%s starting at %f", this.getClass().getSimpleName(), startTime));
         successFlag = successFlag && readGivenNamesFile();
         successFlag = successFlag && readFamilyNamesFile();
         successFlag = successFlag && readNicknamesFile();
         currentState = successFlag ? ManagerState.ACTIVE : ManagerState.ERROR;
         double endTime = ENGINE.getProgramTime();
-        Logger.log(String.format("%s initialized %s at %f. Elapsed: %f",this.getClass().getSimpleName(),successFlag ? "successfully" : "unsuccessfully",endTime,
+        Logger.log(String.format("%s initialized %s at %f. Elapsed: %f", this.getClass().getSimpleName(), successFlag ? "successfully" : "unsuccessfully", endTime, 
                 endTime - startTime));
         return successFlag;
     }
@@ -163,14 +163,14 @@ public final class NameManager extends Manager {
      *         the passed blocs.
      */
     private Set<Set<Bloc>> refineGivenNamesBlocsKey(Collection<Bloc> targets) {
-        return refineNamesBlocsKey(targets,getGivenNamesDistribution().keySet());
+        return refineNamesBlocsKey(targets, getGivenNamesDistribution().keySet());
     }
 
     private Set<Set<Bloc>> refineFamilyNamesBlocsKey(Collection<Bloc> targets) {
-        return refineNamesBlocsKey(targets,getFamilyNamesDistribution().keySet());
+        return refineNamesBlocsKey(targets, getFamilyNamesDistribution().keySet());
     }
 
-    private Set<Set<Bloc>> refineNamesBlocsKey(Collection<Bloc> targets,Set<Set<Bloc>> realkeys) {
+    private Set<Set<Bloc>> refineNamesBlocsKey(Collection<Bloc> targets, Set<Set<Bloc>> realkeys) {
         Set<Bloc> targs = new HashSet<>(targets);
 
         // Repeatedly find and add superblocs until no more can be found
@@ -198,6 +198,16 @@ public final class NameManager extends Manager {
                 validCombos.add(combo);
         }
 
+        if (validCombos.size() == 0) {
+            String targsNames = "";
+            for (Bloc target : targets) {
+                targsNames += target.getName() + ", ";
+            }
+            targsNames = targsNames.substring(0, targsNames.length() - 2);
+            Logger.log("NO VALID NAMES", String.format("Could not find any valid names with these target demographics: %s", targsNames), new Exception());
+            return new HashSet<>();
+        }
+
         // // Find maximum coverage from combinations
         // Set<Set<Bloc>> result = new HashSet<>();
         // Set<Bloc> covered = new HashSet<>();
@@ -217,7 +227,7 @@ public final class NameManager extends Manager {
 
         // Perform backtracking to find most specific solution
         Set<Set<Bloc>> result = new HashSet<>();
-        backtrack(new ArrayList<>(validCombos),new HashSet<>(),targs,new HashSet<>(),result);
+        backtrack(new ArrayList<>(validCombos), new HashSet<>(), targs, new HashSet<>(), result);
 
         return result;
     }
@@ -229,11 +239,11 @@ public final class NameManager extends Manager {
      * @param current     Current set of selected combinations.
      * @param targets     Set of target blocs to cover.
      * @param covered     Set of blocs already covered.
-     * @param bestResult  The best result found so far.
+     * @param bestResult The best result found so far.
      */
-    private void backtrack(List<Set<Bloc>> validCombos,Set<Set<Bloc>> current,Set<Bloc> targets,Set<Bloc> covered,Set<Set<Bloc>> bestResult) {
+    private void backtrack(List<Set<Bloc>> validCombos, Set<Set<Bloc>> current, Set<Bloc> targets, Set<Bloc> covered, Set<Set<Bloc>> bestResult) {
         // Check if the current solution is better than the best result
-        if (isBetterSolution(current,bestResult)) {
+        if (isBetterSolution(current, bestResult)) {
             bestResult.clear();
             bestResult.addAll(current);
         }
@@ -252,7 +262,7 @@ public final class NameManager extends Manager {
             newCovered.addAll(combo);
 
             // Recurse with new solution
-            backtrack(validCombos,current,targets,newCovered,bestResult);
+            backtrack(validCombos, current, targets, newCovered, bestResult);
 
             // Backtrack: remove combo from current solution
             current.remove(combo);
@@ -267,7 +277,7 @@ public final class NameManager extends Manager {
      * @param bestResult The best solution found so far.
      * @return True if the current solution is better, false otherwise.
      */
-    private boolean isBetterSolution(Set<Set<Bloc>> current,Set<Set<Bloc>> bestResult) {
+    private boolean isBetterSolution(Set<Set<Bloc>> current, Set<Set<Bloc>> bestResult) {
         // Prefer fewer sets
         if (bestResult.isEmpty() || current.size() < bestResult.size())
             return true;
@@ -334,16 +344,16 @@ public final class NameManager extends Manager {
         return RandomOperations.weightedRandSelect(getFamilyNamesDistribution(blocs));
     }
 
-    public String selectNickname(Demographics demographics,String... names) {
-        return selectNickname(Arrays.asList(demographics.toBlocsArray()),Arrays.asList(names));
+    public String selectNickname(Demographics demographics, String... names) {
+        return selectNickname(Arrays.asList(demographics.toBlocsArray()), Arrays.asList(names));
     }
 
-    public String selectNickname(Demographics demographics,Collection<String> names) {
-        return selectNickname(Arrays.asList(demographics.toBlocsArray()),names);
+    public String selectNickname(Demographics demographics, Collection<String> names) {
+        return selectNickname(Arrays.asList(demographics.toBlocsArray()), names);
     }
 
-    public String selectNickname(Collection<Bloc> blocs,String... names) {
-        return selectNickname(blocs,Arrays.asList(names));
+    public String selectNickname(Collection<Bloc> blocs, String... names) {
+        return selectNickname(blocs, Arrays.asList(names));
     }
 
     /**
@@ -356,7 +366,7 @@ public final class NameManager extends Manager {
      *         passed names. May be empty if none of the names have a known
      *         nickname.
      */
-    public String selectNickname(Collection<Bloc> blocs,Collection<String> names) {
+    public String selectNickname(Collection<Bloc> blocs, Collection<String> names) {
         // Nicknames may be based on one of a person's actual names
         // (with their preferred first name being most commonly nicked)
         // or may be completely separate from their actual names.
@@ -389,7 +399,7 @@ public final class NameManager extends Manager {
      * Select the number of each part of a name.
      * 
      * @param form NameForm of the name
-     * @return int[3] with {firstnames, middlenames, surnames} or {givennames,
+     * @return int[3] with {firstnames, middlenames, surnames} or {givennames, 
      *         generationnames, familynames}
      */
     private int[] selectPartsCounts(NameForm form) {
@@ -423,16 +433,16 @@ public final class NameManager extends Manager {
      * 
      * @param form         Name form to provide rules for combination. <br>
      *                     EASTERN -> First passed family name; <br>
-     *                     HISPANIC -> combine in some pattern with "y", "de", "-",
+     *                     HISPANIC -> combine in some pattern with "y", "de", "-", 
      *                     " "; <br>
      *                     NATIVE_AMERICAN | WESTERN -> combine with "-", " ";
      * @param demographics Demographics to provide additional rules (like "e"
      *                     instead of "y" for Portuguese or Brazilian)
-     * @param familyNames  Family names to be combined
+     * @param familyNames Family names to be combined
      * @return Combined string family name following the rules of the form and
      *         demographics
      */
-    private String combineFamilyNames(NameForm form,Demographics demographics,String... familyNames) {
+    private String combineFamilyNames(NameForm form, Demographics demographics, String... familyNames) {
         if (familyNames.length < 1)
             return ""; // No names to combine
         switch (form) {
@@ -442,9 +452,9 @@ public final class NameManager extends Manager {
             final String[] conjoiners = { " y ", " de ", "-", " " };
             // Choose the location of the divide between the maternal and paternal family
             // names
-            int divide = RandomOperations.randInt(1,familyNames.length - 1);
-            String[] paternalNames = Arrays.copyOfRange(familyNames,0,divide);
-            String[] maternalNames = Arrays.copyOfRange(familyNames,divide,familyNames.length);
+            int divide = RandomOperations.randInt(1, familyNames.length - 1);
+            String[] paternalNames = Arrays.copyOfRange(familyNames, 0, divide);
+            String[] maternalNames = Arrays.copyOfRange(familyNames, divide, familyNames.length);
             String paternalName = "";
             for (String s : paternalNames) {
                 if (paternalName == null || paternalName.isBlank()) {
@@ -463,30 +473,30 @@ public final class NameManager extends Manager {
             }
             // Apply rules from demographics
             if (demographics.getRaceEthnicity().getNestedNames().contains("Brazilian")) {
-                paternalName = paternalName.replace(" y "," e ");
-                paternalName = paternalName.replace(" de "," do "); // 'do' or 'dos' for masculine,
+                paternalName = paternalName.replace(" y ", " e ");
+                paternalName = paternalName.replace(" de ", " do "); // 'do' or 'dos' for masculine, 
                                                                     // or 'da' or
                                                                     // 'das' for feminine - consider
                                                                     // later
-                maternalName = maternalName.replace(" y "," e ");
-                maternalName = maternalName.replace(" de "," da "); // 'do' or 'dos' for masculine,
+                maternalName = maternalName.replace(" y ", " e ");
+                maternalName = maternalName.replace(" de ", " da "); // 'do' or 'dos' for masculine, 
                                                                     // or 'da' or
                                                                     // 'das' for feminine - consider
                                                                     // later
             }
             if (demographics.getRaceEthnicity().getNestedNames().contains("Catalan")) {
-                paternalName = paternalName.replace(" y "," i");
-                paternalName = paternalName.replace(" de ","d'");
-                maternalName = maternalName.replace(" y "," i ");
-                maternalName = maternalName.replace(" de "," d'");
+                paternalName = paternalName.replace(" y ", " i");
+                paternalName = paternalName.replace(" de ", "d'");
+                maternalName = maternalName.replace(" y ", " i ");
+                maternalName = maternalName.replace(" de ", " d'");
             }
-            paternalName = paternalName.replace(" de el "," del ");
-            paternalName = paternalName.replace(" d'el "," del ");
-            maternalName = maternalName.replace(" de el "," del ");
-            maternalName = maternalName.replace(" d'el "," del ");
+            paternalName = paternalName.replace(" de el ", " del ");
+            paternalName = paternalName.replace(" d'el ", " del ");
+            maternalName = maternalName.replace(" de el ", " del ");
+            maternalName = maternalName.replace(" d'el ", " del ");
 
             // Combine paternal and maternal name
-            return String.join(" ",paternalName,maternalName);
+            return String.join(" ", paternalName, maternalName).trim();
 
         case NATIVE_AMERICAN:
         case WESTERN:
@@ -515,18 +525,26 @@ public final class NameManager extends Manager {
         String[] firstOrGivenNames = new String[partsCounts[0]];
         for (int i = 0; i < partsCounts[0]; i++) {
             firstOrGivenNames[i] = selectGivenName(demographics);
+            if (firstOrGivenNames[i] == null) {
+                System.out.println("First or given name is null");
+                selectGivenName(demographics);
+            }
         }
         String[] middleOrGenerationalNames = new String[partsCounts[1]];
         for (int i = 0; i < partsCounts[1]; i++) {
             middleOrGenerationalNames[i] = form == NameForm.EASTERN ? selectGenerationalName() : selectGivenName(demographics);
+            if (middleOrGenerationalNames[i] == null) {
+                System.out.println("Middle or generational name is null");
+                selectGivenName(demographics);
+            }
         }
         String[] familyNames = new String[partsCounts[2]];
         for (int i = 0; i < partsCounts[2]; i++) {
             familyNames[i] = selectFamilyName(demographics);
         }
-        String firstOrGivenName = String.join(" ",firstOrGivenNames);
-        String middleOrGenerationalName = String.join(" ",middleOrGenerationalNames);
-        String familyName = combineFamilyNames(form,demographics,familyNames);
+        String firstOrGivenName = String.join(" ", firstOrGivenNames);
+        String middleOrGenerationalName = String.join(" ", middleOrGenerationalNames);
+        String familyName = combineFamilyNames(form, demographics, familyNames);
         name.setGivenName(firstOrGivenName);
         name.setMiddleName(middleOrGenerationalName);
         name.setFamilyName(familyName);
@@ -539,11 +557,14 @@ public final class NameManager extends Manager {
             allGivens.addAll(Arrays.asList(middleOrGenerationalNames));
             String nickname;
             if (allGivens.size() == 2 && RandomOperations.randPercent() <= nicknameFromAbbreviationPercent) {
+                if (allGivens.size() < 2 || allGivens.get(0) == null || allGivens.get(1) == null) {
+                    System.out.println("allGivens has size less than 2");
+                }
                 nickname = Character.toString(allGivens.get(0).charAt(0)) + Character.toString(allGivens.get(1).charAt(0));
             }
             else {
                 allGivens.addAll(Arrays.asList(middleOrGenerationalNames));
-                nickname = selectNickname(demographics,allGivens);
+                nickname = selectNickname(demographics, allGivens);
             }
             name.setNickname(nickname);
             name.addDisplayOption(DisplayOption.INCLUDE_NICKNAME);
@@ -551,7 +572,7 @@ public final class NameManager extends Manager {
 
         // Western Name
         if ((form == NameForm.EASTERN || form == NameForm.NATIVE_AMERICAN) && RandomOperations.randPercent() <= westernNamePercent) {
-            String westernName = selectGivenName(demographics.getPresentation(),demographics.getGeneration(),
+            String westernName = selectGivenName(demographics.getPresentation(), demographics.getGeneration(), 
                     ENGINE.DemographicsManager().matchBlocName("Anglo"));
             name.setWesternName(westernName);
             name.addDisplayOption(DisplayOption.INCLUDE_WESTERN);
@@ -674,7 +695,7 @@ public final class NameManager extends Manager {
             Map<String, Double> distribution = getGivenNamesDistribution().get(blocset);
             for (String name : distribution.keySet()) {
                 double prev = res.containsKey(name) ? res.get(name) : 0;
-                res.put(name,prev + distribution.get(name));
+                res.put(name, prev + distribution.get(name));
             }
         }
         return res;
@@ -701,7 +722,7 @@ public final class NameManager extends Manager {
             Map<String, Double> distribution = getFamilyNamesDistribution().get(blocset);
             for (String name : distribution.keySet()) {
                 double prev = res.containsKey(name) ? res.get(name) : 0;
-                res.put(name,prev + distribution.get(name));
+                res.put(name, prev + distribution.get(name));
             }
         }
         return res;
@@ -774,7 +795,7 @@ public final class NameManager extends Manager {
             for (Object nickname : value) {
                 nnames.add((String) nickname);
             }
-            nicknames.put(key,nnames);
+            nicknames.put(key, nnames);
         }
         return true;
     }
@@ -787,7 +808,7 @@ public final class NameManager extends Manager {
      * @see #processNamesStructure(JSONObject, Set)
      */
     private Map<Set<Bloc>, Map<String, Double>> processNamesStructure(JSONObject json) {
-        return processNamesStructure(json,new HashSet<>());
+        return processNamesStructure(json, new HashSet<>());
     }
 
     /**
@@ -799,7 +820,7 @@ public final class NameManager extends Manager {
      * @return Mapping of bloc sets to weighted names.
      * @see #processNamesStructure(JSONObject)
      */
-    private Map<Set<Bloc>, Map<String, Double>> processNamesStructure(JSONObject json,Set<Bloc> currentBlocs) {
+    private Map<Set<Bloc>, Map<String, Double>> processNamesStructure(JSONObject json, Set<Bloc> currentBlocs) {
         Map<Set<Bloc>, Map<String, Double>> distributions = new HashMap<>();
 
         for (Object obj : json.getAsList()) {
@@ -815,8 +836,8 @@ public final class NameManager extends Manager {
                 Map<String, Double> d = distributions.get(currentBlocs);
                 if (d == null)
                     d = new HashMap<>();
-                d.put(key,((Number) value).doubleValue());
-                distributions.put(currentBlocs,d);
+                d.put(key, ((Number) value).doubleValue());
+                distributions.put(currentBlocs, d);
             }
             else if (value instanceof List<?>) {
                 // This is a nested structure
@@ -827,10 +848,10 @@ public final class NameManager extends Manager {
                     updatedBlocs.add(bloc);
                 }
                 // Recurse with updated bloc set
-                Map<Set<Bloc>, Map<String, Double>> subDistr = processNamesStructure(entry,updatedBlocs);
+                Map<Set<Bloc>, Map<String, Double>> subDistr = processNamesStructure(entry, updatedBlocs);
                 for (Set<Bloc> k : subDistr.keySet()) {
                     Map<String, Double> v = subDistr.get(k);
-                    distributions.put(k,v);
+                    distributions.put(k, v);
                 }
             }
         }

@@ -2,6 +2,8 @@ package com.stevenlagoy.presidency.util;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public final class StringOperations {
 
@@ -381,10 +383,18 @@ public final class StringOperations {
      * @see String#replaceFirst(String, String)
      */
     public static String replaceLast(String text, String regex, String replacement) {
-        String reversedText = new StringBuilder(text).reverse().toString();
-        String reversedResult = reversedText.replaceFirst(regex, replacement);
-        String result = new StringBuilder(reversedResult).reverse().toString();
-        return result;
+        Pattern pattern = Pattern.compile(regex);
+        Matcher matcher = pattern.matcher(text);
+        int lastStart = -1;
+        int lastEnd = -1;
+        while (matcher.find()) {
+            lastStart = matcher.start();
+            lastEnd = matcher.end();
+        }
+        if (lastStart != -1) {
+            return text.substring(0, lastStart) + replacement + text.substring(lastEnd);
+        }
+        return text;
     }
 
     /**
@@ -448,9 +458,22 @@ public final class StringOperations {
      * @see #isInString(String, int)
      */
     public static String replaceAllNotInString(String text, String regex, String replacement) {
-        String[] split = splitByUnquotedString(text, regex);
-        String result = String.join(replacement, split);
-        return result;
+        Pattern pattern = Pattern.compile(regex);
+        Matcher matcher = pattern.matcher(text);
+        StringBuilder result = new StringBuilder();
+        int lastEnd = 0;
+        while (matcher.find()) {
+            int start = matcher.start();
+            int end = matcher.end();
+            // Only replace if the match is not inside a string literal
+            if (!isInString(text, start)) {
+                result.append(text, lastEnd, start);
+                result.append(replacement);
+                lastEnd = end;
+            }
+        }
+        result.append(text.substring(lastEnd));
+        return result.toString();
     }
 
     /**
