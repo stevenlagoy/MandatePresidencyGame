@@ -449,7 +449,7 @@ public final class NameManager extends Manager {
         case EASTERN:
             return familyNames[0];
         case HISPANIC:
-            final String[] conjoiners = { " y ", " de ", "-", " " };
+            final String[] conjoiners = { " y ", " de ", " " };
             // Choose the location of the divide between the maternal and paternal family
             // names
             int divide = RandomOperations.randInt(1, familyNames.length - 1);
@@ -474,15 +474,11 @@ public final class NameManager extends Manager {
             // Apply rules from demographics
             if (demographics.getRaceEthnicity().getNestedNames().contains("Brazilian")) {
                 paternalName = paternalName.replace(" y ", " e ");
-                paternalName = paternalName.replace(" de ", " do "); // 'do' or 'dos' for masculine, 
-                                                                    // or 'da' or
-                                                                    // 'das' for feminine - consider
-                                                                    // later
+                paternalName = paternalName.replace(" de ", " do ");
+                // 'do' or 'dos' for masculine, or 'da' or 'das' for feminine - consider later
                 maternalName = maternalName.replace(" y ", " e ");
-                maternalName = maternalName.replace(" de ", " da "); // 'do' or 'dos' for masculine, 
-                                                                    // or 'da' or
-                                                                    // 'das' for feminine - consider
-                                                                    // later
+                maternalName = maternalName.replace(" de ", " da ");
+                // 'do' or 'dos' for masculine, or 'da' or 'das' for feminine - consider later
             }
             if (demographics.getRaceEthnicity().getNestedNames().contains("Catalan")) {
                 paternalName = paternalName.replace(" y ", " i");

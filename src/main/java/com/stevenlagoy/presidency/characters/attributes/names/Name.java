@@ -227,12 +227,8 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
 
     public Name(NameForm nameform, String givenName, String middleName, String familyName) {
         this();
-        if (nameform == null) {
-            Logger.log("INVALID NAMEFORM: ", String.format("Invalid nameform supplied: %s", nameform), new Exception());
-            throw new IllegalArgumentException(String.format("Invalid nameform supplied: %s", nameform));
-        }
-        this.nameForm = nameform;
-        switch (nameform) {
+        this.nameForm = nameform != null ? nameform : NameForm.defaultForm;
+        switch (this.nameForm) {
             case WESTERN:
                 this.givenName    = givenName  != null ? givenName  : "";
                 this.middleName   = middleName != null ? middleName : "";
@@ -247,8 +243,7 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
             case HISPANIC:
                 this.givenName    = givenName  != null ? givenName  : "";
                 this.middleName   = middleName != null ? middleName : "";
-                this.paternalName = familyName.split("\s+")[0]; // This doesn't work, because there might be spaces inside an apalledo
-                this.maternalName = familyName.split("\s+")[1]; // TODO
+                splitApellidos(familyName != null ? familyName : "");
                 break;
             case NATIVE_AMERICAN:
                 this.givenName    = givenName  != null ? givenName  : "";
@@ -287,6 +282,28 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
         this.ordinal        = ordinal;
         this.suffixes       = suffixes;
         this.displayOptions = displayOptions;
+    }
+
+    private void splitApellidos(String familyName) {
+        // Should normally result in two names
+        // Separated by spaces, but not by " y ", " de ", " do ", " da ", " del ", " de la ", " e ", " i ", " d'", " d'el "
+        String[] separators = {"y", "e", "i", "de", "do", "da", "d'", "del", "d'el", "de"};
+        String joined = String.join("|", separators);
+        String regex = String.format("(?<!%s) (?!%s)", joined, joined);
+        String[] apellidos = familyName.split(regex);
+        if (apellidos.length == 1) {
+            setFamilyName(apellidos[0]);
+        }
+        else if (apellidos.length == 2) {
+            if (hasDisplayOption(DisplayOption.PATERNAL_FIRST)) {
+                setPaternalName(apellidos[0]);
+                setMaternalName(apellidos[1]);
+            }
+            else {
+                setMaternalName(apellidos[0]);
+                setPaternalName(apellidos[1]);
+            }
+        }
     }
 
     public NameForm getNameForm() {
@@ -367,8 +384,13 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
         return displayOptions;
     }
 
+    private boolean hasDisplayOption(DisplayOption displayOption) {
+        return displayOptions.contains(displayOption);
+    }
+
     public void setSuffix(String suffix) {
-        this.suffixes = List.of(suffix);
+        this.suffixes = new ArrayList<>();
+        addSuffix(suffix);
     }
 
     public boolean addSuffix(String suffix) {
@@ -474,14 +496,20 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
             }
             fields.add(new JSONObject("display_options", displayOptionsWords));
         }
-        return new JSONObject("name", fields);
-
+        return new JSONObject(String.format("%s (%d)", getLegalName(), hashCode()), fields);
     }
 
     public String getNameInStyle(NameStyle style) {
         StringBuilder sb = new StringBuilder();
         for (NamePart part : style.pattern.get(nameForm)) {
-            sb.append(getNamePart(part));
+            String namePart = getNamePart(part);
+            if (!namePart.isBlank()
+                && !namePart.startsWith(",")
+                && !(part == NamePart.GIVEN_NAME && nameForm == NameForm.EASTERN && !middleName.isBlank())
+            ) {
+                sb.append(" ");
+            }
+            sb.append(namePart);
         }
         String name = sb.toString().replaceAll("\\s+", " ").trim();
         return name;
@@ -543,34 +571,34 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
 
     public String getNamePart(NamePart part) {
         return switch (part) {
-            case HONORIFIC            -> getHonorific() + " ";
-            case GIVEN_NAME           -> getGivenName() + " ";
-            case PREFERRED_NAME       -> getPreferredName() + " ";
-            case PREFERRED_FIRST      -> getPreferredFirst() + " ";
-            case MIDDLE_NAME          -> getMiddleName() + " ";
-            case PREFERRED_MIDDLE     -> getPreferredMiddle() + " ";
-            case NICKNAME             -> getNickname() + " ";
-            case NICKNAME_QUOTED      -> ("\"" + getNickname() + "\"").replace("\"\"", "").trim() + " ";
-            case FAMILY_NAME          -> getFamilyName() + " ";
-            case ORDINAL              -> getOrdinal() + " ";
-            case SUFFIXES             -> getFormattedSuffixes() + " ";
-            case GENERATION           -> getMiddleName(); // No space following generation name
+            case HONORIFIC            -> getHonorific();
+            case GIVEN_NAME           -> getGivenName();
+            case PREFERRED_NAME       -> getPreferredName();
+            case PREFERRED_FIRST      -> getPreferredFirst();
+            case MIDDLE_NAME          -> getMiddleName();
+            case PREFERRED_MIDDLE     -> getPreferredMiddle();
+            case NICKNAME             -> getNickname();
+            case NICKNAME_QUOTED      -> ("\"" + getNickname() + "\"").replace("\"\"", "").trim();
+            case FAMILY_NAME          -> getFamilyName();
+            case ORDINAL              -> getOrdinal();
+            case SUFFIXES             -> getFormattedSuffixes();
+            case GENERATION           -> getMiddleName();
             case PREFERRED_GENERATION -> displayOptions.contains(DisplayOption.LATENT_GENERATION) ? "" : getMiddleName();
-            case WESTERN_NAME         -> getWesternName() + " ";
-            case WESTERN_NAME_QUOTED  -> ("\"" + getWesternName() + "\"").replace("\"\"", "").trim() + " ";
+            case WESTERN_NAME         -> getWesternName();
+            case WESTERN_NAME_QUOTED  -> ("\"" + getWesternName() + "\"").replace("\"\"", "").trim();
             case APELLIDO_1           -> {
                 if (displayOptions.contains(DisplayOption.MATERNAL_FIRST))
-                    yield getMaternalName() + " ";
+                    yield getMaternalName();
                 else if (displayOptions.contains(DisplayOption.PATERNAL_FIRST))
-                    yield getPaternalName() + " ";
+                    yield getPaternalName();
                 else
                     yield "";
             }
             case APELLIDO_2           -> {
                 if (displayOptions.contains(DisplayOption.MATERNAL_FIRST))
-                    yield getPaternalName() + " ";
+                    yield getPaternalName();
                 else if (displayOptions.contains(DisplayOption.PATERNAL_FIRST))
-                    yield getMaternalName() + " ";
+                    yield getMaternalName();
                 else
                     yield "";
             }
