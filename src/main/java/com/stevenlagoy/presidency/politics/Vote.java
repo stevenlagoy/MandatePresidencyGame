@@ -35,15 +35,8 @@ public class Vote {
 
     public Vote(Collection<Character> recipients, LocalDate date) {
         this.turnout = 0;
-        this.recipients = recipients.stream().collect(Collectors.toMap(k -> k, v -> 0, (a, b) -> a, HashMap::new)); // Turn
-                                                                                                                    // collection
-                                                                                                                    // into
-                                                                                                                    // a
-                                                                                                                    // map
-                                                                                                                    // of
-                                                                                                                    // Character
-                                                                                                                    // to
-                                                                                                                    // 0.
+        // Turn collection into a map of Character to 0.
+        this.recipients = recipients.stream().collect(Collectors.toMap(k -> k, v -> 0, (a, b) -> a, HashMap::new));
         this.earlyDateTime = LocalDateTime.of(date, LocalTime.of(23, 59));
         this.closeDateTime = LocalDateTime.of(date, LocalTime.of(23, 59));
         this.overseasCloseDateTime = LocalDateTime.of(date, LocalTime.of(23, 59));
