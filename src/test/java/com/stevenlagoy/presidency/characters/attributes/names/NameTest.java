@@ -1,16 +1,18 @@
 package com.stevenlagoy.presidency.characters.attributes.names;
-import org.junit.Test;
-
-import com.stevenlagoy.presidency.core.Engine;
-import com.stevenlagoy.presidency.core.Manager.ManagerState;
-import com.stevenlagoy.presidency.demographics.Demographics;
-
-import static org.junit.Assert.*;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.junit.Before; // Add this import for JUnit 4
+import org.junit.*;
+import static org.junit.Assert.*;
+
+import com.stevenlagoy.presidency.characters.attributes.names.Name.DisplayOption;
+import com.stevenlagoy.presidency.characters.attributes.names.Name.NameForm;
+import com.stevenlagoy.presidency.core.Engine;
+import com.stevenlagoy.presidency.core.Manager.ManagerState;
+import com.stevenlagoy.presidency.demographics.Demographics;
+
+import core.JSONObject;
 
 public final class NameTest {
 
@@ -232,5 +234,113 @@ public final class NameTest {
                 }
             }
         }
+    }
+
+    @Test
+    public void testNameConstructors() {
+        createNames(1);
+        Name name1 = names.get(0);
+        name1.addSuffix("PhD");
+        Name name2 = new Name(name1);
+        name2 = new Name("Dwight", "David", "Eisenhower");
+        NameForm nf = name2.getNameForm();
+        assertEquals(NameForm.defaultForm, nf);
+    }
+
+    @Test
+    public void testNameEasternForm() {
+        Name name = new Name(NameForm.EASTERN, "Bo", "Dian", "Wang");
+        String fullname = name.getLegalName();
+        assertEquals("Dianbo Wang", fullname);
+        name = new Name(NameForm.EASTERN, "Jian", null, "Duanmu");
+        fullname = name.getCommonName();
+        assertEquals("Duanmu Jian", fullname);
+    }
+
+    @Test
+    public void testNameHispanicForm() {
+        Name name = new Name(NameForm.HISPANIC, "Ramón", null, "Marciano Yáñez");
+        name.addDisplayOption(DisplayOption.PATERNAL_FIRST);
+        String fullname = name.getFormalName();
+        assertEquals("Ramón Yáñez Marciano", fullname);
+        assertEquals("Yáñez", name.getPaternalName());
+        assertEquals("Marciano", name.getMaternalName());
+        name = new Name(NameForm.HISPANIC, "Simón Tomás", "Darío", "Alvarez y Valentín Ramírez");
+        name.addDisplayOption(DisplayOption.MATERNAL_FIRST);
+        fullname = name.getCommonName();
+        assertEquals("Simón Tomás Alvarez y Valentín Ramírez", fullname);
+        assertEquals("Alvarez y Valentín", name.getMaternalName());
+        assertEquals("Ramírez", name.getPaternalName());
+    }
+
+    @Test
+    public void testNameNativeAmericanForm() {
+        Name name = new Name(NameForm.NATIVE_AMERICAN, "Daniel", "Hiawatha", "Lees");
+        String fullname = name.getInformalName();
+        assertEquals("Daniel Lees", fullname);
+    }
+
+    @Test
+    public void testSuffixes() {
+        Name name = new Name("James", "Joseph", "Baker");
+        name.setSuffix("PhD");
+        List<String> suffixes = name.getSuffixes();
+        assertTrue(suffixes.contains("PhD") && suffixes.size() == 1);
+        boolean removed = name.removeSuffix("PhD");
+        suffixes = name.getSuffixes();
+        assertTrue(removed && suffixes.size() == 0);
+        name.addSuffix("Esq.");
+        String fullname = name.getBiographicalName();
+        assertEquals("James Joseph Baker, Esq.", fullname);
+    }
+
+    @Test
+    public void testNameToRepr() {
+        Name name = new Name("Julia", "Theresa", "White");
+        name.addSuffix("PhD");
+        String repr = name.toRepr();
+        assertTrue(repr.contains("nameForm=\"WESTERN\";"));
+        assertTrue(repr.contains("givenName=\"Julia\";"));
+        assertTrue(repr.contains("middleName=\"Theresa\";"));
+        assertTrue(repr.contains("familyName=\"White\";"));
+        assertTrue(repr.contains("suffixes=[0:\"PhD\";];"));
+    }
+
+    @Test
+    public void testNameToJson() {
+        createNames(500);
+        for (Name name : names) {
+            JSONObject json = name.toJson();
+            String key = json.getKey();
+            String expectedKey = String.format("%s (%d)", name.getLegalName(), name.hashCode());
+            assertEquals(expectedKey, key);
+        }
+    }
+
+    @Test
+    public void testNameHashCode() {
+        Name name1 = new Name("Eli", null, "Johnson");
+        Name name2 = new Name("Mary", "Josephine", "Bilodeau");
+        int hash1 = name1.hashCode();
+        int hash2 = name2.hashCode();
+        assertNotEquals(hash1, hash2);
+    }
+
+    @Test
+    public void testNamesWithNullValues() {
+        new Name(null, null, null, null);
+        new Name(NameForm.WESTERN, null, null, null);
+        new Name(NameForm.EASTERN, null, null, null);
+        new Name(NameForm.HISPANIC, null, null, null);
+        new Name(NameForm.NATIVE_AMERICAN, null, null, null);
+    }
+
+    @Test
+    public void testNicknames() {
+        Name name = new Name("Tobias", "Edwin", "Jacobs");
+        name.setNickname("Toby");
+        assertEquals("Toby", name.getNickname());
+        String fullname = name.toString();
+        assertEquals("Tobias Edwin \"Toby\" Jacobs", fullname);
     }
 }
