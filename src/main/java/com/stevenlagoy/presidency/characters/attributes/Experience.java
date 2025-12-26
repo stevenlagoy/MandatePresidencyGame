@@ -2,6 +2,10 @@ package com.stevenlagoy.presidency.characters.attributes;
 
 public class Experience {
 
+    public Experience() {
+        
+    }
+
     public String toRepr() {
         String repr = String.format("%s:[];",
                 this.getClass().getName().replace("class ", ""));

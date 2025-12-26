@@ -6,6 +6,10 @@ import com.stevenlagoy.presidency.data.Repr;
 
 public class Personality implements Repr<Personality>, Jsonic<Personality> {
 
+    public Personality() {
+        
+    }
+
     @Override
     public String toRepr() {
         String repr = String.format("%s:[];",
