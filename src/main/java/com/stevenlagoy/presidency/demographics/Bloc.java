@@ -1,18 +1,32 @@
+/*
+ * Bloc.java
+ * Steven LaGoy
+ * Created: 28 August 2024 at 11:25 PM
+ * Modified: 28 December 2025
+ */
+
 package com.stevenlagoy.presidency.demographics;
+
+// IMPORTS ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 import java.util.List;
 import java.util.Objects;
-import core.JSONObject;
-import com.stevenlagoy.presidency.data.Jsonic;
-import com.stevenlagoy.presidency.data.Repr;
-import com.stevenlagoy.presidency.demographics.DemographicsManager.DemographicCategory;
-import com.stevenlagoy.presidency.characters.Character;
-
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.HashMap;
 
+import com.stevenlagoy.presidency.data.Jsonic;
+import com.stevenlagoy.presidency.data.Repr;
+import com.stevenlagoy.presidency.demographics.DemographicsManager.DemographicCategory;
+import com.stevenlagoy.presidency.characters.Character;
+
+import core.JSONObject;
+
+/**
+ * Bloc is a group defined by membership of a demographic subset, which could be Race & Ethnicity,
+ * Religion, Generation, or many other common groupings of voters in the United States.
+ */
 public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
 
     private static List<Bloc> instances = new ArrayList<>();
@@ -31,8 +45,7 @@ public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
         return demographics.size();
     }
 
-    // INSTANCE VARIABLES
-    // -------------------------------------------------------------------------
+    // INSTANCE VARIABLES -------------------------------------------------------------------------------------------------------------------------------------
 
     private String name;
     private long numVoters;
@@ -57,8 +70,7 @@ public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
         demographics.get(category).add(this);
     }
 
-    // CONSTRUCTORS
-    // -------------------------------------------------------------------------------
+    // CONSTRUCTORS -------------------------------------------------------------------------------------------------------------------------------------------
 
     public Bloc(String name, DemographicCategory category, long numVoters, long totalVoters) {
         this.name = name;
@@ -74,8 +86,7 @@ public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
         demographics.get(category).add(this);
     }
 
-    // INSTANCE METHODS
-    // ---------------------------------------------------------------------------
+    // INSTANCE METHODS ---------------------------------------------------------------------------------------------------------------------------------------
 
     public long getNumVoters() {
         return numVoters;
@@ -230,8 +241,7 @@ public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
         throw new UnsupportedOperationException("Unimplemented method 'fromJson'");
     }
 
-    // OBJECT METHODS
-    // -----------------------------------------------------------------------------
+    // OBJECT METHODS -----------------------------------------------------------------------------------------------------------------------------------------
 
     @Override
     public boolean equals(Object o) {

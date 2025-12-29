@@ -1,4 +1,14 @@
+/*
+ * Name Manager
+ * ~/characters/attributes/names/NameManager.java
+ * Steven LaGoy
+ * Created: 04 June 2025 at 12:55 AM
+ * Modified: 28 December 2025
+ */
+
 package com.stevenlagoy.presidency.characters.attributes.names;
+
+// IMPORTS ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,12 +18,14 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+
 import core.JSONObject;
 import core.JSONProcessor;
-import com.stevenlagoy.presidency.core.Engine;
-import com.stevenlagoy.presidency.core.Manager;
+
 import com.stevenlagoy.presidency.characters.attributes.names.Name.DisplayOption;
 import com.stevenlagoy.presidency.characters.attributes.names.Name.NameForm;
+import com.stevenlagoy.presidency.core.Engine;
+import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.demographics.Bloc;
 import com.stevenlagoy.presidency.demographics.Demographics;
 import com.stevenlagoy.presidency.util.CollectionOperations;
@@ -21,6 +33,14 @@ import com.stevenlagoy.presidency.util.FilePaths;
 import com.stevenlagoy.presidency.util.Logger;
 import com.stevenlagoy.presidency.util.RandomOperations;
 
+///////////////////////////////////////////////////////////////////////////////////////////////////
+//                                         NAME MANAGER                                          //
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+/**
+ * NameManager is responsible for reading and storing data relating to the creation of names.
+ * NameManager depends on no other Managers.
+ */
 public final class NameManager extends Manager {
 
     // CONSTANTS ----------------------------------------------------------------------------------------------------------------------------------------------
