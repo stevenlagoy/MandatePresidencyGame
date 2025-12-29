@@ -44,8 +44,7 @@ import com.stevenlagoy.presidency.util.RandomOperations;
  */
 public final class CharacterManager extends Manager {
 
-    // INSTANCE VARIABLES
-    // -------------------------------------------------------------------------
+    // INSTANCE VARIABLES -------------------------------------------------------------------------------------------------------------------------------------
 
     /** The Player Character */
     private static Player playerCandidate;
@@ -67,16 +66,14 @@ public final class CharacterManager extends Manager {
     private final Engine ENGINE;
     private ManagerState currentState;
 
-    // CONSTRUCTORS
-    // -------------------------------------------------------------------------------
+    // CONSTRUCTORS -------------------------------------------------------------------------------------------------------------------------------------------
 
     public CharacterManager(Engine engine) {
         this.ENGINE = engine;
         currentState = ManagerState.INACTIVE;
     }
 
-    // MANAGER METHODS
-    // ----------------------------------------------------------------------------
+    // MANAGER METHODS ----------------------------------------------------------------------------------------------------------------------------------------
 
     @Override
     public boolean init() {
@@ -104,8 +101,7 @@ public final class CharacterManager extends Manager {
         return successFlag;
     }
 
-    // GETTERS AND SETTERS
-    // ------------------------------------------------------------------------
+    // GETTERS AND SETTERS ------------------------------------------------------------------------------------------------------------------------------------
 
     public Player getPlayer() {
         return playerCandidate;
@@ -196,8 +192,7 @@ public final class CharacterManager extends Manager {
         return houseSpeaker != null ? houseSpeaker : generateHouseSpeaker();
     }
 
-    // INSTANCE METHODS
-    // ---------------------------------------------------------------------------
+    // INSTANCE METHODS ---------------------------------------------------------------------------------------------------------------------------------------
 
     private static boolean characterSetup() {
 
@@ -477,8 +472,7 @@ public final class CharacterManager extends Manager {
         return new CharacterModel();
     }
 
-    // REPRESENTATION METHODS
-    // ---------------------------------------------------------------------
+    // REPRESENTATION METHODS ---------------------------------------------------------------------------------------------------------------------------------
 
     @Override
     public String toRepr() {
