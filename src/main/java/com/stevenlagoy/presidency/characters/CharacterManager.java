@@ -1,17 +1,17 @@
 /*
- * CharacterManager.java
+ * Character Manager
+ * ~/characters/CharacterManager.java
  * Steven LaGoy
  * Created: March 14, 2025 at 1:13 AM
- * Modified: 20 October 2025
+ * Modified: 29 December 2025
  */
 
 package com.stevenlagoy.presidency.characters;
 
-import java.time.LocalDate;
-import java.util.ArrayList;
-
 // IMPORTS ----------------------------------------------------------------------------------------
 
+import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -20,6 +20,7 @@ import java.util.stream.IntStream;
 
 import core.JSONObject;
 import core.JSONProcessor;
+
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.core.TimeManager;
@@ -34,6 +35,10 @@ import com.stevenlagoy.presidency.map.Nation;
 import com.stevenlagoy.presidency.util.FilePaths;
 import com.stevenlagoy.presidency.util.Logger;
 import com.stevenlagoy.presidency.util.RandomOperations;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                       CHARACTER MANAGER                                        //
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /**
  * CharacterManager manages the generation, access, control, and interaction of
