@@ -11,6 +11,10 @@ package com.stevenlagoy.presidency.app;
 import com.stevenlagoy.presidency.util.Logger;
 import com.stevenlagoy.presidency.core.Engine;
 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                              MAIN                                              //
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
 /** Main entry point */
 public class Main {
 
