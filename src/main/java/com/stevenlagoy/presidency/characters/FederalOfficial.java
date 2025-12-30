@@ -1,8 +1,9 @@
 /*
- * FederalOfficial.java
+ * Federal Official
+ * ~/characters/FederalOfficial.java
  * Steven LaGoy
  * Created: 07 November 2024 at 11:11 PM
- * Modified: 10 June 2025
+ * Modified: 29 December 2025
  */
 
 package com.stevenlagoy.presidency.characters;
