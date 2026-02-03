@@ -1,0 +1,22 @@
+{
+    "editor.codeLens" : true,
+    "[java]" : {
+        "java.configuration.updateBuildConfiguration" : "interactive",
+        "java.debug.settings.onBuildFailureProceed" : true,
+        "editor.formatOnSave" : false,
+        "editor.defaultFormatter": "redhat.java",
+        "editor.tabSize" : 4,
+        "editor.insertSpaces" : true,
+        "editor.autoIndent" : "advanced",
+    },
+    "java.format.settings.url" : ".vscode/StevenStyle.xml",
+    "java.format.settings.profile": "StevenStyle",
+    "java.project.sourcePaths": [
+        "src/main/core"
+    ],
+    "diffEditor.codeLens": true,
+    "java.implementationCodeLens": "all",
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.settings.url": ".vscode/settings.json"
+}
