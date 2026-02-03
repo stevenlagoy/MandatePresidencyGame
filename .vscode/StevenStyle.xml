@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile version="21" name="StevenStyle">
+    <setting id="org.eclipse.jdt.core.formatter.tabulation.char" value="space"/>
+    <setting id="org.eclipse.jdt.core.formatter.tabulation.size" value="4"/>
+    <setting id="org.eclipse.jdt.core.formatter.indent_switchstatements_compare_to_cases" value="true"/>
+    <setting id="org.eclipse.jdt.core.formatter.indent_method_declaration_parameters" value="true"/>
+    
+    <!-- Braces on same line -->
+    <setting id="org.eclipse.jdt.core.formatter.brace_position_for_type_declaration" value="end_of_line"/>
+    <setting id="org.eclipse.jdt.core.formatter.brace_position_for_method_declaration" value="end_of_line"/>
+    <setting id="org.eclipse.jdt.core.formatter.brace_position_for_constructor_declaration" value="end_of_line"/>
+    <setting id="org.eclipse.jdt.core.formatter.brace_position_for_block" value="end_of_line"/>
+    <setting id="org.eclipse.jdt.core.formatter.brace_position_for_if_else_statement" value="end_of_line"/>
+    <setting id="org.eclipse.jdt.core.formatter.brace_position_for_try_catch" value="end_of_line"/>
+    <setting id="org.eclipse.jdt.core.formatter.brace_position_for_do_statement" value="end_of_line"/>
+    
+    <!-- Line wrapping -->
+    <setting id="org.eclipse.jdt.core.formatter.lineSplit" value="160"/>
+    <setting id="org.eclipse.jdt.core.formatter.wrap_before_operator" value="true"/>
+    <setting id="org.eclipse.jdt.core.formatter.alignment_for_parameters_in_method_declaration" value="16"/>
+    
+    <!-- Spaces -->
+    <setting id="org.eclipse.jdt.core.formatter.insert_space_around_operators" value="true"/>
+    <setting id="org.eclipse.jdt.core.formatter.insert_space_after_comma_in_method_invocation_arguments" value="true"/>
+    <setting id="org.eclipse.jdt.core.formatter.insert_space_after_comma_in_method_declaration_parameters" value="true"/>
+    <setting id="org.eclipse.jdt.core.formatter.insert_space_after_keyword_in_control_statement" value="true"/>
+    
+    <!-- Blank lines -->
+    <setting id="org.eclipse.jdt.core.formatter.blank_lines_before_method" value="1"/>
+    <setting id="org.eclipse.jdt.core.formatter.blank_lines_after_fields" value="1"/>
+    <setting id="org.eclipse.jdt.core.formatter.blank_lines_between_imports" value="0"/>
+    <setting id="org.eclipse.jdt.core.formatter.blank_lines_before_type" value="1"/>
+    
+    <!-- Modifier order -->
+    <setting id="org.eclipse.jdt.core.formatter.modifier_order_public_static_final" value="true"/>
+    
+    <!-- Misc -->
+    <setting id="org.eclipse.jdt.core.formatter.align_fields_in_columns" value="true"/>
+    <setting id="org.eclipse.jdt.core.formatter.remove_trailing_whitespace" value="true"/>
+    <setting id="org.eclipse.jdt.core.formatter.insert_new_line_at_end_of_file_if_missing" value="true"/>
+    <setting id="org.eclipse.jdt.core.formatter.remove_unused_imports" value="true"/>
+</profile>

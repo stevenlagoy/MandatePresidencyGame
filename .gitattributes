@@ -1,3 +1,5 @@
+* text=auto eol=lf
+*.bat text=auto eol=crlf
 *.png filter=lfs diff=lfs merge=lfs -text
 *.pdn filter=lfs diff=lfs merge=lfs -text
 *.shp filter=lfs diff=lfs merge=lfs -text
