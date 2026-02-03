@@ -1,0 +1,1202 @@
+{
+    "Alabama" : {
+        "neighbors" : ["Tennessee", "Georgia", "Florida", "Mississippi"],
+
+        "republican_type" : "open primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "order" : 1,
+            "day" : "Tuesday",
+            "month" : "March"
+        }
+    },
+    "Alaska" : {
+        "neighbors" : ["Washington", "Oregon"],
+
+        "republican_type" : "closed primary",
+        "republican_district_allocation_rule" : "proportional",
+        "republican_at_large_allocation_rule" : "proportional",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.13,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed party primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "American Samoa" : {
+        "neighbors" : ["Guam", "Puerto Rico", "U.S. Virgin Islands"],
+
+        "republican_type" : "convention",
+        "republican_district_allocation_rule" : "convention",
+        "republican_at_large_allocation_rule" : "convention",
+        "republican_automatic_allocation_rule" : "unpledged",
+        "republican qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "open caucus",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Arizona" : {
+        "neighbors" : ["Utah", "Colorado", "New Mexico", "California", "Nevada"],
+
+        "republican_type" : "closed primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March",
+            "after" : {
+                "date" : 15,
+                "month" : "March"
+            }
+        }
+    },
+    "Arkansas" : {
+        "neighbors" : ["Missouri", "Tennessee", "Mississippi", "Louisiana", "Texas", "Oklahoma"],
+
+        "republican_type" : "open primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.15,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March",
+            "after" : {
+                "day" : "Monday",
+                "order" : 1,
+                "month" : "March"
+            }
+        }
+    },
+    "California" : {
+        "neighbors" : ["Oregon", "Nevada", "Arizona"],
+
+        "republican_type" : "partially-closed primary",
+        "republican_district_allocation_rule" : "proportional",
+        "republican_at_large_allocation_rule" : "proportional",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "partially-closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March",
+            "after" : {
+                "day" : "Monday",
+                "order" : 1,
+                "month" : "March"
+            }
+        }
+    },
+    "Colorado" : {
+        "neighbors" : ["Wyoming", "Nebraska", "Kansas", "Oklahoma", "New Mexico", "Arizona", "Utah"],
+
+        "republican_type" : "open-unaffiliated primary",
+        "republican_district_allocation_rule" : "proportional",
+        "republican_at_large_allocation_rule" : "proportional",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "open-unaffiliated primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "latest" : {
+                "day" : "Tuesday",
+                "order" : 3,
+                "month" : "March"
+            }
+        }
+    },
+    "Connecticut" : {
+        "neighbors" : ["Massachusetts", "Rhode Island", "New York"],
+
+        "republican_type" : "closed primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "proportional",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "April"
+        }
+    },
+    "Delaware" : {
+        "neighbors" : ["Pennsylvania", "New Jersey", "Maryland"],
+
+        "republican_type" : "closed primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "April"
+        }
+    },
+    "Democrats Abroad" : {
+        "neighbors" : [],
+
+        "democratic_type" : "open party primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "District of Columbia" : {
+        "neighbors" : ["Maryland", "Virginia"],
+
+        "republican_type" : "party primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.15,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Florida" : {
+        "neighbors" : ["Alabama", "Georgia"],
+
+        "republican_type" : "closed primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 3,
+            "month" : "March"
+        }
+    },
+    "Georgia" : {
+        "neighbors" : ["Tennessee", "North Carolina", "South Carolina", "Florida", "Alabama"],
+
+        "republican_type" : "open primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "latest" : {
+                "day" : "Tuesday",
+                "order" : 2,
+                "month" : "June"
+            }
+        }
+    },
+    "Guam" : {
+        "neighbors" : ["American Samoa", "Puerto Rico", "U.S. Virgin Islands"],
+
+        "republican_type" : "convention",
+        "republican_district_allocation_rule" : "unallocated",
+        "republican_at_large_allocation_rule" : "unallocated",
+        "republican_automatic_allocation_rule" : "unpledged",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed caucus",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Hawaii" : {
+        "neighbors" : ["Washington", "Oregon"],
+
+        "republican_type" : "closed caucus",
+        "republican_district_allocation_rule" : "proportional",
+        "republican_at_large_allocation_rule" : "proportional",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed caucus",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Idaho" : {
+        "neighbors" : ["Montana", "Wyoming", "Utah", "Nevada", "Oregon", "Washington"],
+
+        "republican_type" : "partially-closed caucus",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "partially-closed caucus",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 3,
+            "month" : "May"
+        }
+    },
+    "Illinois" : {
+        "neighbors" : ["Wisconsin", "Indiana", "Kentucky", "Missouri", "Iowa"],
+
+        "republican_type" : "partially-open primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "proportional loophole",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Indiana" : {
+        "neighbors" : ["Michigan", "Ohio", "Kentucky", "Illinois"],
+
+        "republican_type" : "partially-open primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "proportional loophole",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "May",
+            "after" : {
+                "day" : "Monday",
+                "order" : 1,
+                "month" : "May"
+            }
+        }
+    },
+    "Iowa" : {
+        "neighbors" : ["Minnesota", "Wisconsin", "Illinois", "Missouri", "Nebraska", "South Dakota"],
+
+        "republican_carveout" : true,
+        "republican_type" : "partially-open caucus",
+        "republican_district_allocation_rule" : "proportional",
+        "republican_at_large_allocation_rule" : "proportional",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_prewindow" : true,
+        "democratic_type" : "closed party primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "latest" : {
+                "day" : "Monday",
+                "order" : 4,
+                "month" : "February"
+            },
+            "days_before_next" : {
+                "type" : "any",
+                "days" : 8
+            }
+        }
+    },
+    "Kansas" : {
+        "neighbors" : ["Nebraska", "Missouri", "Oklahoma", "Colorado"],
+
+        "republican_type" : "partially-open primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.1,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Kentucky" : {
+        "neighbors" : ["Illinois", "Indiana", "Ohio", "West Virginia", "Virginia", "Tennessee", "Missouri"],
+
+        "republican_type" : "closed primary",
+        "republican_district_allocation_rule" : "proportional",
+        "republican_at_large_allocation_rule" : "proportional",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.05,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "May",
+            "after" : {
+                "day" : "Monday",
+                "order" : 3,
+                "month" : "May"
+            }
+        }
+    },
+    "Louisiana" : {
+        "neighbors" : ["Arkansas", "Mississippi", "Texas"],
+        "preferred_day" : "Saturday",
+
+        "republican_type" : "partially-closed primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+        
+        "date" : {
+            "day" : "Saturday",
+            "order" : -1,
+            "month" : "March"
+        }
+    },
+    "Maine" : {
+        "neighbors" : ["New Hampshire", "Massachusetts", "Vermont"],
+
+        "republican_type" : "open-unaffiliated primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.1,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open-unaffiliated primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March",
+            "after" : {
+                "day" : "Monday",
+                "order" : 1,
+                "month" : "March"
+            }
+        }
+    },
+    "Maryland" : {
+        "neighbors" : ["Pennsylvania", "Delaware", "Virginia", "District of Columbia", "West Virginia"],
+
+        "republican_type" : "partially-closed primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 4,
+            "month" : "April"
+        }
+    },
+    "Massachusetts" : {
+        "neighbors" : ["Vermont", "New Hampshire", "Rhode Island", "Connecticut", "New York", "Maine"],
+
+        "republican_type" : "open-unaffiliated primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.05,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open-unaffiliated primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March"
+        }
+    },
+    "Michigan" : {
+        "neighbors" : ["Ohio", "Indiana", "Wisconsin"],
+
+        "republican_type" : "open hybrid",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.15,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_prewindow" : true,
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 4,
+            "month" : "February"
+        }
+    },
+    "Minnesota" : {
+        "neighbors" : ["Wisconsin", "Iowa", "South Dakota", "North Dakota"],
+
+        "republican_type" : "open primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.1,
+        "republican_winner_take_all_threshold" : 0.85,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "latest" : {
+                "day" : "Tuesday",
+                "order" : 1,
+                "month" : "March"
+            }
+        }
+    },
+    "Mississippi" : {
+        "neighbors" : ["Tennessee", "Alabama", "Louisiana", "Arkansas"],
+
+        "republican_type" : "open primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.15,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 2,
+            "month" : "March"
+        }
+    },
+    "Missouri" : {
+        "neighbors" : ["Iowa", "Illinois", "Kentucky", "Tennessee", "Arkansas", "Oklahoma", "Kansas", "Nebraska"],
+
+        "republican_type" : "open caucus",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open party primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Montana" : {
+        "neighbors" : ["North Dakota", "South Dakota", "Wyoming", "Idaho"],
+
+        "republican_type" : "convention",
+        "republican_district_allocation_rule" : "unallocated",
+        "republican_at_large_allocation_rule" : "unallocated",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "June",
+            "after" : {
+                "day" : "Monday",
+                "order" : 1,
+                "month" : "June"
+            }
+        }
+    },
+    "Nebraska" : {
+        "neighbors" : ["South Dakota", "Iowa", "Missouri", "Kansas", "Colorado", "Wyoming"],
+
+        "republican_type" : "partially-closed primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "partially-closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "May",
+            "after" : {
+                "day" : "Monday",
+                "order" : 2,
+                "month" : "May"
+            }
+        }
+    },
+    "Nevada" : {
+        "neighbors" : ["Oregon", "Idaho", "Utah", "Arizona", "California"],
+
+        "republican_carveout" : true,
+        "republican_type" : "closed caucus",
+        "republican_district_allocation_rule" : "proportional",
+        "republican_at_large_allocation_rule" : "proportional",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_prewindow" : true,
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "February"
+        }
+    },
+    "New Hampshire" : {
+        "neighbors" : ["Maine", "Massachusetts", "Vermont"],
+
+        "republican_carveout" : true,
+        "republican_type" : "open-unaffiliated primary",
+        "republican_district_allocation_rule" : "proportional",
+        "republican_at_large_allocation_rule" : "proportional",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.1,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_prewindow" : true,
+        "democratic_type" : "open-unaffiliated party primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "latest" : {
+                "day" : "Tuesday",
+                "order" : 2,
+                "month" : "March"
+            },
+            "days_before_next" : {
+                "type" : "primary",
+                "days" : 7
+            }
+        }
+    },
+    "New Jersey" : {
+        "neighbors" : ["New York", "Delaware", "Pennsylvania"],
+
+        "republican_type" : "closed primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "partially-closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "June",
+            "after" : {
+                "day" : "Monday",
+                "order" : 1,
+                "month" : "June"
+            }
+        }
+    },
+    "New Mexico" : {
+        "neighbors" : ["Colorado", "Oklahoma", "Texas", "Arizona", "Utah"],
+
+        "republican_type" : "convention",
+        "republican_district_allocation_rule" : "unallocated",
+        "republican_at_large_allocation_rule" : "unallocated",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.15,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "June",
+            "after" : {
+                "day" : "Monday",
+                "order" : 1,
+                "month" : "June"
+            }
+        }
+    },
+    "New York" : {
+        "neighbors" : ["New Hampshire", "Massachusetts", "Connecticut", "New Jersey", "Pennsylvania"],
+
+        "republican_type" : "closed primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 4,
+            "month" : "June"
+        }
+    },
+    "North Carolina" : {
+        "neighbors" : ["Virginia", "South Carolina", "Georgia", "Tennessee"],
+
+        "republican_type" : "open-unaffiliated primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open-unaffiliated primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March",
+            "after" : {
+                "day" : "Monday",
+                "order" : 1,
+                "month" : "March"
+            }
+        }
+    },
+    "North Dakota" : {
+        "neighbors" : ["Minnesota", "South Dakota", "Montana"],
+
+        "republican_type" : "closed caucus",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "unpledged",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open party primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "latest" : {
+                "date" : 15,
+                "month" : "May"
+            }
+        }
+    },
+    "Northern Mariana Islands" : {
+        "neighbors" : [],
+
+        "republican_type" : "closed caucus",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "unpledged",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed party primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Ohio" : {
+        "neighbors" : ["Michigan", "Pennsylvania", "West Virginia", "Kentucky", "Indiana"],
+
+        "republican_type" : "partially-open primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "partially-open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 3,
+            "month" : "March",
+            "after" : {
+                "day" : "Monday",
+                "order" : 1,
+                "month" : "March"
+            }
+        }
+    },
+    "Oklahoma" : {
+        "neighbors" : ["Colorado", "Kansas", "Missouri", "Arkansas", "Texas", "New Mexico"],
+
+        "republican_type" : "partially-closed primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.15,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "partially-closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March"
+        }
+    },
+    "Oregon" : {
+        "neighbors" : ["Washington", "Idaho", "Nevada", "California", "Alaska", "Hawaii"],
+
+        "republican_type" : "convention",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.0357,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 3,
+            "month" : "May"
+        }
+    },
+    "Pennsylvania" : {
+        "neighbors" : ["New York", "New Jersey", "Delaware", "Maryland", "West Virginia", "Ohio"],
+
+        "republican_type" : "closed primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "proportional loophole",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 4,
+            "month" : "April"
+        }
+    },
+    "Puerto Rico" : {
+        "neighbors" : ["American Samoa", "Guam", "U.S. Virgin Islands"],
+
+        "republican_type" : "party primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Rhode Island" : {
+        "neighbors" : [],
+
+        "republican_type" : "open-unaffiliated primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.1,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "open-unaffiliated primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 4,
+            "month" : "April"
+        }
+    },
+    "South Carolina" : {
+        "neighbors" : ["North Carolina", "Georgia"],
+        "preferred_day" : "Saturday",
+
+        "republican_carveout" : true,
+        "republican_type" : "open primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "proportional loophole",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_prewindow" : true,
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "South Dakota" : {
+        "neighbors" : ["North Dakota", "Minnesota", "Iowa", "Nebraska", "Wyoming", "Montana"],
+
+        "republican_type" : "convention",
+        "republican_district_allocation_rule" : "unallocated",
+        "republican_at_large_allocation_rule" : "unallocated",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "partially-closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "June",
+            "after" : {
+                "day" : "Monday",
+                "order" : 1,
+                "month" : "June"
+            }
+        }
+    },
+    "Tennessee" : {
+        "neighbors" : ["Kentucky", "Virginia", "North Carolina", "Georgia", "Alabama", "Mississippi", "Arkansas", "Missouri"],
+
+        "republican_type" : "closed primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.67,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March"
+        }
+    },
+    "Texas" : {
+        "neighbors" : ["New Mexico", "Oklahoma", "Arkansas", "Louisiana"],
+
+        "republican_type" : "open primary",
+        "republican_district_allocation_rule" : "proportional",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March"
+        }
+    },
+    "Utah" : {
+        "neighbors" : ["Idaho", "Wyoming", "Colorado", "New Mexico", "Arizona", "Nevada"],
+
+        "republican_type" : "partially-closed caucus",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.15,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March"
+        }
+    },
+    "Vermont" : {
+        "neighbors" : ["New Hampshire", "Massachusetts", "New York", "Maine"],
+
+        "republican_type" : "open primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March"
+        }
+    },
+    "U.S. Virgin Islands" : {
+        "neighbors" : ["American Samoa", "Guam", "Puerto Rico"],
+
+        "republican_type" : "closed caucus",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "unpledged",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed party primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    },
+    "Virginia" : {
+        "neighbors" : ["West Virginia", "Maryland", "District of Columbia", "North Carolina", "Tennessee", "Kentucky"],
+
+        "republican_type" : "open primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "March"
+        }
+    },
+    "Washington" : {
+        "neighbors" : ["Idaho", "Oregon", "Alaska", "Hawaii"],
+
+        "republican_type" : "open primary",
+        "republican_district_allocation_rule" : "proportional triggered",
+        "republican_at_large_allocation_rule" : "proportional triggered",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0.2,
+        "republican_winner_take_all_threshold" : 0.5,
+
+        "democratic_type" : "closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 2,
+            "month" : "March"
+        }
+    },
+    "West Virginia" : {
+        "neighbors" : ["Ohio", "Pennsylvania", "Maryland", "Virginia", "Kentucky"],
+
+        "republican_type" : "partially-closed primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "partially-closed primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 2,
+            "month" : "May"
+        }
+    },
+    "Wisconsin" : {
+        "neighbors" : ["Michigan", "Illinois", "Iowa", "Minnesota"],
+
+        "republican_type" : "open primary",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "proportional",
+        "republican_automatic_allocation_rule" : "bound",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "open primary",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15,
+
+        "date" : {
+            "day" : "Tuesday",
+            "order" : 1,
+            "month" : "April"
+        }
+    },
+    "Wyoming" : {
+        "neighbors" : ["Montana", "South Dakota", "Nebraska", "Colorado", "Utah", "Idaho"],
+
+        "republican_type" : "convention",
+        "republican_district_allocation_rule" : "winner-take-all",
+        "republican_at_large_allocation_rule" : "winner-take-all",
+        "republican_automatic_allocation_rule" : "unpledged",
+        "republican_qualification_threshold" : 0,
+        "republican_winner_take_all_threshold" : 1,
+
+        "democratic_type" : "closed caucus",
+        "democratic_district_allocation_rule" : "proportional",
+        "democratic_at_large_allocation_rule" : "proportional",
+        "democratic_qualification_threshold" : 0.15
+    }
+}

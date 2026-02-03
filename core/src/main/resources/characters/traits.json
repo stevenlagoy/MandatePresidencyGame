@@ -1,0 +1,86 @@
+{
+    "charisma" : {
+        "repellant" : -2,
+        "aloof" : -1,
+        "approachable" : 0,
+        "charming" : 1,
+        "magnetic" : 2
+    },
+    "integrity" : {
+        "corrupt" : -2,
+        "opportunist" : -1,
+        "principled" : 0,
+        "trustworthy" : 1,
+        "saintly" : 2
+    },
+    "resilience" : {
+        "frail" : -2,
+        "fragile" : -1,
+        "composed" : 0,
+        "enduring" : 1,
+        "unshakable" : 2
+    },
+    "decisiveness" : {
+        "hesitant" : -2,
+        "cautious" : -1,
+        "balanced" : 0,
+        "confident" : 1,
+        "bold" : 2
+    },
+    "diplomacy" : {
+        "combative" : -2,
+        "argumentative" : -1,
+        "negotiative" : 0,
+        "diplomatic" : 1,
+        "stately" : 2
+    },
+    "planning" : {
+        "doomed" : -2,
+        "short_sighted" : -1,
+        "practical" : 0,
+        "innovative" : 1,
+        "visionary" : 2
+    },
+    "adaptability" : {
+        "stagnant" : -2,
+        "slow_learner" : -1,
+        "flexible" : 0,
+        "quick_witted" : 1,
+        "pioneering" : 2
+    },
+    "oratory" : {
+        "inarticulate" : -2,
+        "mumbling" : -1,
+        "persuasive" : 0,
+        "inspirational" : 1,
+        "captivating" : 2
+    },
+    "strategy" : {
+        "chaotic" : -2,
+        "impulsive" : -1,
+        "organized" : 0,
+        "tactical" : 1,
+        "mastermind" : 2
+    },
+    "reputation" : {
+        "treacherous" : -2,
+        "dubious" : -1,
+        "questionable" : 0,
+        "honest" : 1,
+        "unquestionable" : 2
+    },
+    "notability" : {
+        "unknown" : -2,
+        "obscure" : -1,
+        "recognized" : 0,
+        "influential" : 1,
+        "famous" : 2
+    },
+    "luck" : {
+        "cursed" : -2,
+        "unfortunate" :-1,
+        "neutral" : 0,
+        "lucky" : 1,
+        "favored" : 2
+    }
+}
