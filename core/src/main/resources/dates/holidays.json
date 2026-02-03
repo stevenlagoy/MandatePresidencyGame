@@ -1,0 +1,277 @@
+{
+    "new_years_day" : {
+        "date" : 1,
+        "month" : "January"
+    },
+    "epiphany" : {
+        "date" : 6,
+        "month" : "January",
+        "celebrators" : ["Catholic", "Lutheran", "Episcopalian", "Orthodox Christian", "Anabaptist"]
+    },
+    "orthodox_christmas" : {
+        "date" : 7,
+        "month" : "January",
+        "celebrators" : ["Orthodox Christian"]
+    },
+    "mlk_day" : {
+        "day" : "Monday",
+        "order" : 3,
+        "month" : "January"
+    },
+    "inauguration_day" : {
+        "date" : 20,
+        "month" : "January"
+    },
+    "lunar_new_year" : {
+        "dates" : ["February 6 2027", "January 26 2028"],
+        "celebrators" : ["Chinese", "Vietnamese", "Korean", "Malaysian", "Singaporean"]
+    },
+    "ramadan" : {
+        "dates" : ["7 February 2027", "27 January 2028"],
+        "celebrators" : ["Muslim"]
+    },
+    "groundhog_day" : {
+        "date" : 2,
+        "month" : "February"
+    },
+    "mardi_gras" : {
+        "dates" : ["February 9 2027", "February 29 2028"],
+        "area" : ["Texas", "Louisiana", "Mississippi", "Alabama", "Florida"]
+    },
+    "ash_wednesday" : {
+        "dates" : ["February 10 2027", "March 1 2028"],
+        "celebrators" : ["Catholic", "Mainline Protestant"]
+    },
+    "valentines_day" : {
+        "date" : 14,
+        "month" : "February"
+    },
+    "presidents_day" : {
+        "day" : "Monday",
+        "order" : 3,
+        "month" : "February"
+    },
+    "eid_al_fitr" : {
+        "dates" : ["9 March 2027", "26 Feb 2028"],
+        "celebrators" : ["Muslim"]
+    },
+    "holi" : {
+        "dates" : ["22 March 2027", "11 March 2028"],
+        "celebrators" : ["Hindu"]
+    },
+    "st_patricks_day" : {
+        "date" : 17,
+        "month" : "March"
+    },
+    "palm_sunday" : {
+        "dates" : ["March 21 2027", "April 9 2028"],
+        "celebrators" : ["Christian"]
+    },
+    "good_friday" : {
+        "dates" : ["26 March 2027", "14 April 2028"],
+        "celebrators" : ["Christian"]
+    },
+    "navratri" : {
+        "dates" : ["April 7 2027", "March 27 2028"],
+        "celebrators" : ["Hindu"]
+    },
+    "easter" : {
+        "dates" : ["28 March 2027", "16 April 2028"],
+        "celebrators" : ["Christian"]
+    },
+    "april_fools_day" : {
+        "date" : 1,
+        "month" : "April"
+    },
+    "passover" : {
+        "dates" : ["21 April 2027", "10 April 2028"],
+        "celebrators" : ["Jewish"]
+    },
+    "tax_day" : {
+        "date" : 15,
+        "month" : "April"
+    },
+    "earth_day" : {
+        "date" : 22,
+        "month" : "April"
+    },
+    "arbor_day" : {
+        "day" : "Friday",
+        "order" : -1,
+        "month" : "April"
+    },
+    "may_day" : {
+        "date" : 1,
+        "month" : "May"
+    },
+    "eid_al_adha" : {
+        "dates" : ["16 May 2027", "4 May 2028"],
+        "celebrators" : ["Muslim"]
+    },
+    "cinco_de_mayo" : {
+        "date" : 5,
+        "month" : "May"
+    },
+    "ascension" : {
+        "dates" : ["May 6 2027", "May 25 2028"],
+        "celebrators" : ["Catholic", "Lutheran", "Episcopalian", "Methodist", "Orthodox Christian"]
+    },
+    "vesak" : {
+        "dates" : ["May 20 2027", "May 8 2028"],
+        "celebrators" : ["Buddhist"]
+    },
+    "mothers_day" : {
+        "day" : "Sunday",
+        "order" : 2,
+        "month" : "May"
+    },
+    "pentecost" : {
+        "dates" : ["May 16 2027", "June 4 2028"],
+        "celebrators" : ["Catholic", "Lutheran", "Episcopalian", "Orthodox Christian", "Anabaptist"]
+    },
+    "armed_forces_day" : {
+        "day" : "Saturday",
+        "order" : 3,
+        "month" : "May",
+        "celebrators" : ["Military"]
+    },
+    "memorial_day" : {
+        "day" : "Monday",
+        "order" : -1,
+        "month" : "May"
+    },
+    "ashura" : {
+        "dates" : ["June 14 2027", "June 2 2028"],
+        "celebrators" : ["Muslim"]
+    },
+    "flag_day" : {
+        "date" : 14,
+        "month" : "June"
+    },
+    "fathers_day" : {
+        "day" : "Sunday",
+        "order" : 3,
+        "month" : "June"
+    },
+    "juneteenth" : {
+        "date" : 19,
+        "month" : "June"
+    },
+    "pride" : {
+        "date" : 28,
+        "month" : "June"
+    },
+    "independence_day" : {
+        "date" : 4,
+        "month" : "July"
+    },
+    "mawlid" : {
+        "dates" : ["14 August 2027", "2 August 2028"],
+        "celebrators" : ["Muslim"]
+    },
+    "ganesh_chaturthi" : {
+        "dates" : ["September 4 2027", "Aug 22 2028"],
+        "celebrators" : ["Hindu"]
+    },
+    "labor_day" : {
+        "day" : "Monday",
+        "order" : 1,
+        "month" : "September"
+    },
+    "patriot_day" : {
+        "date" : 11,
+        "month" : "September"
+    },
+    "constitution_day" : {
+        "date" : 17,
+        "month" : "September"
+    },
+    "rosh_hashanah" : {
+        "dates" : ["1 October 2027", "20 September 2028"],
+        "celebrators" : ["Jewish"]
+    },
+    "yom_kippur" : {
+        "dates" : ["10 October 2027", "29 September 2028"],
+        "celebrators" : ["Jewish"]
+    },
+    "columbus_day" : {
+        "day" : "Monday",
+        "order" : 2,
+        "month" : "October"
+    },
+    "indigenous_peoples_day" : {
+        "day" : "Monday",
+        "order" : 2,
+        "month" : "October"
+    },
+    "diwali" : {
+        "dates" : ["29 October 2027", "17 October 2028"],
+        "celebrators" : ["Hindu"]
+    },
+    "halloween" : {
+        "date" : 31,
+        "month" : "October"
+    },
+    "day_of_the_dead" : {
+        "date" : 1,
+        "month" : "November",
+        "celebrators" : ["Hispanic / Latino"]
+    },
+    "all_saints_day" : {
+        "date" : 1,
+        "month" : "November",
+        "celebrators" : ["Catholic", "Lutheran", "Episcopalian", "Methodist"]
+    },
+    "election_day" : {
+        "dates" : ["7 November 2028"]
+    },
+    "veterans_day" : {
+        "date" : 11,
+        "month" : "November"
+    },
+    "thanksgiving" : {
+        "day" : "Tuesday",
+        "order" : 4,
+        "month" : "November"
+    },
+    "black_friday" : {
+        "dates" : ["26 November 2027", "25 November 2028"]
+    },
+    "small_business_saturday" : {
+        "dates" : ["27 November 2027", "26 November 2028"]
+    },
+    "cyber_monday" : {
+        "dates" : ["29 November 2027", "28 November 2028"]
+    },    
+    "pearl_harbor_day" : {
+        "date" : 7,
+        "month" : "December"
+    },
+    "immaculate_conception" : {
+        "date" : 8,
+        "month" : "December",
+        "celebrators" : ["Catholic"]
+    },
+    "hanukkah" : {
+        "dates" : ["24 December 2027", "12 December 2028"],
+        "celebrators" : ["Jewish"]
+    },
+    "christmas_eve" : {
+        "date" : 24,
+        "month" : "December",
+        "celebrators" : ["Christian"]
+    },
+    "christmas_day" : {
+        "date" : 25,
+        "month" : "December"
+    },
+    "kwanzaa" : {
+        "date" : 26,
+        "month" : "December",
+        "celebrators" : ["Black"]
+    },
+    "new_years_eve" : {
+        "date" : 31,
+        "month" : "December"
+    }
+}
