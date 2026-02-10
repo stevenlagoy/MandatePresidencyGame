@@ -4,7 +4,7 @@ eclipse.project.name = appName + '-core'
 dependencies {
   api "com.badlogicgames.gdx:gdx:$gdxVersion"
 
-  implementation("io.github.stevenlagoy:jsonic:1.0.7")
+  implementation("io.github.stevenlagoy:jsonic:1.0.8")
   
   testImplementation("org.junit.jupiter:junit-jupiter-api:6.1.0-M1")
   testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:6.1.0-M1")

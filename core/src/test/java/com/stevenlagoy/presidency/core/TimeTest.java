@@ -15,13 +15,19 @@ public final class TimeTest {
     
     public static final Engine ENGINE = new Engine();
 
-    @BeforeAll
+    @BeforeEach
     public void initTimeManager() {
         if (ENGINE.TimeManager().getState() != ManagerState.ACTIVE) {
             if (!ENGINE.TimeManager().init()) {
                 fail("Failed to initialize TimeManager, necessary for testing.");
             }
         }
+    }
+
+    @AfterEach
+    public void resetTimeManager() {
+        ENGINE.TimeManager().cleanup();
+        ENGINE.TimeManager().init();
     }
 
     @Test

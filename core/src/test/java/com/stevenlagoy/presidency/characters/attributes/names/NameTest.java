@@ -14,7 +14,6 @@ import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager.ManagerState;
 import com.stevenlagoy.presidency.demographics.Demographics;
 
-
 public final class NameTest {
 
     static final Engine ENGINE = new Engine();
@@ -30,15 +29,15 @@ public final class NameTest {
         if (names != null && names.size() == numNames)
             return;
         if (numNames > names.size()) {
-            while(names.size() < numNames) names.addLast(ENGINE.NameManager().generateName(demographics));
+            while(names.size() < numNames) names.add(ENGINE.NameManager().generateName(demographics));
         }
         else {
-            while(names.size() > numNames) names.removeFirst();
+            while(names.size() > numNames) names.remove(0);
         }
     }
 
     @BeforeAll
-    public void initNameManager() {
+    public static void initNameManager() {
         if (ENGINE.DemographicsManager().getState() != ManagerState.ACTIVE) {
             if (!ENGINE.DemographicsManager().init()) {
                 fail("Failed to initialize DemographicsManager, necessary for testing.");

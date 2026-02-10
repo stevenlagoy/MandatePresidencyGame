@@ -13,8 +13,8 @@ package com.stevenlagoy.presidency.characters.attributes;
 import java.util.ArrayList;
 import java.util.List;
 
-
 import com.stevenlagoy.presidency.data.Repr;
+import com.stevenlagoy.presidency.util.NumberUtils;
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.Jsonic;
 import com.stevenlagoy.presidency.characters.PoliticalActor;
@@ -163,22 +163,22 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
     }
 
     public void setBaseLegislativeSkill(int skill) {
-        this.baseLegislativeSkill = Math.clamp(skill, 0, 100);
+        this.baseLegislativeSkill = NumberUtils.clamp(skill, 0, 100);
         calculateAptitude();
     }
 
     public void addBaseLegislativeSkill(int skill) {
-        this.baseLegislativeSkill = Math.clamp(baseLegislativeSkill + skill, 0, 100);
+        this.baseLegislativeSkill = NumberUtils.clamp(baseLegislativeSkill + skill, 0, 100);
         calculateAptitude();
     }
 
     public void multiplyBaseLegislativeSkill(float factor) {
-        this.baseLegislativeSkill = Math.clamp((long) (baseLegislativeSkill * factor), 0, 100);
+        this.baseLegislativeSkill = (int) NumberUtils.clamp((baseLegislativeSkill * factor), 0, 100);
     }
 
     // Legislative Skill
     public int getLegislativeSkill() {
-        return Math.clamp(Math.round(baseLegislativeSkill * legMult + legAdd), 0, 100);
+        return NumberUtils.clamp(Math.round(baseLegislativeSkill * legMult + legAdd), 0, 100);
     }
 
     public void addLegislativeSkillAdditive(int skill) {
@@ -195,22 +195,22 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
     }
 
     public void setBaseExecutiveSkill(int skill) {
-        this.baseExecutiveSkill = Math.clamp(skill, 0, 100);
+        this.baseExecutiveSkill = NumberUtils.clamp(skill, 0, 100);
         calculateAptitude();
     }
 
     public void addBaseExecutiveSkill(int skill) {
-        this.baseExecutiveSkill = Math.clamp(baseExecutiveSkill + skill, 0, 100);
+        this.baseExecutiveSkill = NumberUtils.clamp(baseExecutiveSkill + skill, 0, 100);
         calculateAptitude();
     }
 
     public void multiplyBaseExecutiveSkill(float factor) {
-        this.baseExecutiveSkill = Math.clamp((long) (baseExecutiveSkill * factor), 0, 100);
+        this.baseExecutiveSkill = (int) NumberUtils.clamp((long) (baseExecutiveSkill * factor), 0, 100);
     }
 
     // Executive Skill
     public int getExecutiveSkill() {
-        return Math.clamp(Math.round(baseExecutiveSkill * execMult + execAdd), 0, 100);
+        return NumberUtils.clamp(Math.round(baseExecutiveSkill * execMult + execAdd), 0, 100);
     }
 
     public void addExecutiveSkillAdditive(int skill) {
@@ -227,22 +227,22 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
     }
 
     public void setBaseJudicialSkill(int skill) {
-        this.baseJudicialSkill = Math.clamp(skill, 0, 100);
+        this.baseJudicialSkill = NumberUtils.clamp(skill, 0, 100);
         calculateAptitude();
     }
 
     public void addBaseJudicialSkill(int skill) {
-        this.baseJudicialSkill = Math.clamp(baseJudicialSkill + skill, 0, 100);
+        this.baseJudicialSkill = NumberUtils.clamp(baseJudicialSkill + skill, 0, 100);
         calculateAptitude();
     }
 
     public void multiplyBaseJudicialSkill(float factor) {
-        this.baseJudicialSkill = Math.clamp((long) (baseJudicialSkill * factor), 0, 100);
+        this.baseJudicialSkill = (int) NumberUtils.clamp((long) (baseJudicialSkill * factor), 0, 100);
     }
 
     // Judicial Skill
     public int getJudicialSkill() {
-        return Math.clamp(Math.round(baseJudicialSkill * judMult + judAdd), 0, 100);
+        return NumberUtils.clamp(Math.round(baseJudicialSkill * judMult + judAdd), 0, 100);
     }
 
     public void addJudicialSkillAdditive(int skill) {

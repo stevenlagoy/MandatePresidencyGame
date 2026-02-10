@@ -1,22 +1,22 @@
 package com.stevenlagoy.presidency.util;
 
-import java.lang.module.ResolvedModule;
 import java.nio.file.FileSystems;
 import java.nio.file.Path;
 import java.util.List;
 
 public final class FilePaths {
 
-    public static final Path ROOT                       = FileSystems.getDefault().getPath("MandatePresidencyGame");
-    public static final Path MAIN                       = ROOT.resolve("core").resolve("src").resolve("main");
+    public static final Path CORE                       = FileSystems.getDefault().getPath(".");
+    public static final Path SRC                        = CORE.resolve("src");
+    public static final Path MAIN                       = SRC.resolve("main");
     public static final Path PROJECT                    = MAIN.resolve("java").resolve("com").resolve("stevenlagoy").resolve("presidency");
     public static final Path RESOURCES                  = MAIN.resolve("resources");
 
-    public static final Path LOGS_DIR                   = ROOT.resolve("logs");
+    public static final Path LOGS_DIR                   = CORE.resolve("logs");
     public static final Path LOG_FILE                   = LOGS_DIR.resolve("log.txt");
     public static final Path ERROR_FILE                 = LOGS_DIR.resolve("error.txt");
     public static final Path OUTPUT_FILE                = LOGS_DIR.resolve("output.txt");
-    public static final Path SAVES_DIR                  = ROOT.resolve("saves");
+    public static final Path SAVES_DIR                  = CORE.resolve("saves");
 
     public static final Path CHARACTERS_RESOURCES       = RESOURCES.resolve("characters");
 

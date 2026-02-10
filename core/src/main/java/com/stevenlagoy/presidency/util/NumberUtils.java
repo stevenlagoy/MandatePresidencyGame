@@ -67,4 +67,23 @@ public final class NumberUtils {
         }
         return (value < 0 ? "negative " : "") + String.valueOf(Math.abs(value)) + suffixes[index];
     }
+
+    /** Clamp the value between min and max (inclusive). */
+    public static int clamp(int value, int min, int max) {
+        return Math.min(Math.max(min, value), max);
+    }
+
+    /** Clamp the value between min and max (inclusive). */
+    public static long clamp(long value, long min, long max) {
+        return Math.min(Math.max(min, value), max);
+    }
+
+    /** Clamp the value between min and max (inclusive). */
+    public static double clamp(double value, double min, double max) {
+        return Math.min(Math.max(min, value), max);
+    }
+
+    public static double clamp(double value, Number min, Number max) {
+        return Math.min(Math.max((double) min, value), (double) max);
+    }
 }
