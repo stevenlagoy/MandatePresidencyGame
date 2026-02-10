@@ -1,11 +1,10 @@
-package com.stevenlagoy.presidency.map.map.travel.route;
+package com.stevenlagoy.presidency.map.travel.route;
 
 import java.util.List;
-
-import main.core.map.Municipality;
+import com.stevenlagoy.presidency.map.Municipality;
 
 public abstract class Route {
-    
+
     protected List<Municipality> connections;
 
     public List<Municipality> getConnections() {

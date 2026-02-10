@@ -1,4 +1,4 @@
-package com.stevenlagoy.presidency.map.map.travel.vehicle;
+package com.stevenlagoy.presidency.map.travel.vehicle;
 
 public class RoadVehicle extends Vehicle {
 
@@ -10,6 +10,8 @@ public class RoadVehicle extends Vehicle {
     }
 
     @Override
-    public String getType() { return type; }
+    public String getType() {
+        return type;
+    }
 
 }

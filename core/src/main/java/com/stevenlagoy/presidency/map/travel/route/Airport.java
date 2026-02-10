@@ -1,15 +1,15 @@
-package com.stevenlagoy.presidency.map.map.travel.route;
+package com.stevenlagoy.presidency.map.travel.route;
 
-import core.JSONObject;
-import main.core.Jsonic;
-import main.core.Main;
-import main.core.Repr;
-import main.core.map.MapManager;
-import main.core.map.Municipality;
+import com.stevenlagoy.jsonic.JSONObject;
+import com.stevenlagoy.jsonic.Jsonic;
+import com.stevenlagoy.presidency.data.Repr;
+import com.stevenlagoy.presidency.map.MapManager;
+import com.stevenlagoy.presidency.map.Municipality;
 
 public class Airport implements Repr<Airport>, Jsonic<Airport> {
-    
-    // STATIC VARIABLES ---------------------------------------------------------------------------
+
+    // STATIC VARIABLES
+    // ---------------------------------------------------------------------------
 
     public static enum AirportSize {
         LARGE,
@@ -17,8 +17,8 @@ public class Airport implements Repr<Airport>, Jsonic<Airport> {
         SMALL;
 
         public static AirportSize fromString(String str) {
-            str = str.toUpperCase().replaceAll("\\s+","").trim();
-            return switch(str) {
+            str = str.toUpperCase().replaceAll("\\s+", "").trim();
+            return switch (str) {
                 case "LARGE" -> LARGE;
                 case "L" -> LARGE;
                 case "MEDIUM" -> MEDIUM;
@@ -30,7 +30,8 @@ public class Airport implements Repr<Airport>, Jsonic<Airport> {
         }
     }
 
-    // INSTANCE VARIABLES -------------------------------------------------------------------------
+    // INSTANCE VARIABLES
+    // -------------------------------------------------------------------------
 
     private String fullName;
     private String commonName;
@@ -39,7 +40,8 @@ public class Airport implements Repr<Airport>, Jsonic<Airport> {
     private AirportSize size;
     private int enplanement;
 
-    // CONSTRUCTORS -------------------------------------------------------------------------------
+    // CONSTRUCTORS
+    // -------------------------------------------------------------------------------
 
     public Airport() {
         fullName = "";
@@ -50,7 +52,8 @@ public class Airport implements Repr<Airport>, Jsonic<Airport> {
         enplanement = 0;
     }
 
-    public Airport(String fullName, String commonName, String IATA, Municipality location, AirportSize size, int enplanement) {
+    public Airport(String fullName, String commonName, String IATA, Municipality location, AirportSize size,
+            int enplanement) {
         this.fullName = fullName;
         this.commonName = commonName;
         this.IATA = IATA;
@@ -59,23 +62,38 @@ public class Airport implements Repr<Airport>, Jsonic<Airport> {
         this.enplanement = enplanement;
     }
 
-    public Airport(String fullName, String commonName, String IATA, String locationName, String size, int enplanement) {
-        this(fullName, commonName, IATA, Main.Engine().MapManager().matchMunicipality(locationName), AirportSize.fromString(size), enplanement);
+    public Airport(MapManager mm, String fullName, String commonName, String IATA, String locationName, String size,
+            int enplanement) {
+        this(fullName, commonName, IATA, mm.matchMunicipality(locationName),
+                AirportSize.fromString(size), enplanement);
     }
 
-    public String getFullName() { return fullName; }
+    public String getFullName() {
+        return fullName;
+    }
 
-    public String getCommonName() { return commonName; }
+    public String getCommonName() {
+        return commonName;
+    }
 
-    public String getIATA() { return IATA; }
+    public String getIATA() {
+        return IATA;
+    }
 
-    public Municipality getMunicipality() { return location; }
+    public Municipality getMunicipality() {
+        return location;
+    }
 
-    public AirportSize getSize() { return size; }
+    public AirportSize getSize() {
+        return size;
+    }
 
-    public int getEnplanement() { return enplanement; }
+    public int getEnplanement() {
+        return enplanement;
+    }
 
-    // REPRESENTATION METHODS ---------------------------------------------------------------------
+    // REPRESENTATION METHODS
+    // ---------------------------------------------------------------------
 
     @Override
     public JSONObject toJson() {

@@ -1,28 +1,24 @@
-package com.stevenlagoy.presidency.map.map.travel;
+package com.stevenlagoy.presidency.map.travel;
 
-import java.sql.Date;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import com.stevenlagoy.presidency.core.TimeManager;
 
-import javax.xml.crypto.Data;
-
-import main.core.TimeManager;
-import main.core.Main;
-import main.core.characters.Character;
-import main.core.map.MapManager;
-import main.core.map.Municipality;
-import main.core.map.travel.route.Roadway;
-import main.core.map.travel.vehicle.AirVehicle;
-import main.core.map.travel.vehicle.RoadVehicle;
-import main.core.map.travel.vehicle.TrainVehicle;
-import main.core.map.travel.vehicle.Vehicle;
-import main.core.map.travel.vehicle.WaterVehicle;
+import com.stevenlagoy.presidency.characters.Character;
+import com.stevenlagoy.presidency.map.MapManager;
+import com.stevenlagoy.presidency.map.Municipality;
+import com.stevenlagoy.presidency.map.travel.route.Roadway;
+import com.stevenlagoy.presidency.map.travel.vehicle.AirVehicle;
+import com.stevenlagoy.presidency.map.travel.vehicle.RoadVehicle;
+import com.stevenlagoy.presidency.map.travel.vehicle.RailVehicle;
+import com.stevenlagoy.presidency.map.travel.vehicle.Vehicle;
+import com.stevenlagoy.presidency.map.travel.vehicle.WaterVehicle;
 
 public class Travel {
-    
+
     public abstract class Leg {
 
         protected Municipality start;
@@ -30,22 +26,33 @@ public class Travel {
         private Vehicle vehicle;
         private List<Character> travelers;
 
-        public Leg(Municipality start, Municipality destination, Vehicle vehicle, Character... travelers) {
+        public Leg(Municipality start, Municipality destination, Vehicle vehicle,
+                Character... travelers) {
             this(start, destination, vehicle, List.of(travelers));
         }
-        public Leg(Municipality start, Municipality destination, Vehicle vehicle, Collection<Character> travelers) {
+
+        public Leg(Municipality start, Municipality destination, Vehicle vehicle,
+                Collection<Character> travelers) {
             this.start = start;
             this.destination = destination;
             this.travelers = new ArrayList<Character>(travelers);
         }
 
-        public Municipality getStart() { return start; }
-        
-        public Municipality getDestination() { return destination; }
+        public Municipality getStart() {
+            return start;
+        }
 
-        public Vehicle getVehicle() { return vehicle; }
-        
-        public List<Character> getTravelers() { return travelers; }
+        public Municipality getDestination() {
+            return destination;
+        }
+
+        public Vehicle getVehicle() {
+            return vehicle;
+        }
+
+        public List<Character> getTravelers() {
+            return travelers;
+        }
 
         public abstract double getDistance();
 
@@ -64,10 +71,15 @@ public class Travel {
 
         private Roadway roadway;
 
-        public RoadLeg(Municipality start, Municipality destination, RoadVehicle vehicle, Roadway roadway, Character... travelers) {
+        public RoadLeg(Municipality start, Municipality destination, RoadVehicle vehicle,
+                Roadway roadway,
+                Character... travelers) {
             this(start, destination, vehicle, roadway, List.of(travelers));
         }
-        public RoadLeg(Municipality start, Municipality destination, RoadVehicle vehicle, Roadway roadway, Collection<Character> travelers) {
+
+        public RoadLeg(Municipality start, Municipality destination, RoadVehicle vehicle,
+                Roadway roadway,
+                Collection<Character> travelers) {
             super(start, destination, vehicle, travelers);
             this.roadway = roadway;
             distance = -1.0;
@@ -78,15 +90,19 @@ public class Travel {
             getTravelTime();
         }
 
-        public Roadway getRoadway() { return roadway; }
+        public Roadway getRoadway() {
+            return roadway;
+        }
 
         @Override
-        public RoadVehicle getVehicle() { return vehicle; }
+        public RoadVehicle getVehicle() {
+            return vehicle;
+        }
 
         @Override
         public double getDistance() {
             if (distance < 0)
-                distance = Main.Engine().MapManager().getRoadDistance(start, destination);
+                distance = MapManager.getRoadDistance(start, destination);
             return distance;
         }
 
@@ -106,16 +122,19 @@ public class Travel {
 
     }
 
-    public class TrainLeg extends Leg {
+    public class RailLeg extends Leg {
 
-        private TrainVehicle vehicle;
+        private RailVehicle vehicle;
         private double distance;
         private double cost;
 
-        public TrainLeg(Municipality start, Municipality destination, TrainVehicle vehicle, Character... travelers) {
+        public RailLeg(Municipality start, Municipality destination, RailVehicle vehicle,
+                Character... travelers) {
             this(start, destination, vehicle, List.of(travelers));
         }
-        public TrainLeg(Municipality start, Municipality destination, TrainVehicle vehicle, Collection<Character> travelers) {
+
+        public RailLeg(Municipality start, Municipality destination, RailVehicle vehicle,
+                Collection<Character> travelers) {
             super(start, destination, vehicle, travelers);
             distance = -1.0;
             getDistance();
@@ -126,12 +145,14 @@ public class Travel {
         }
 
         @Override
-        public TrainVehicle getVehicle() { return vehicle; }
+        public RailVehicle getVehicle() {
+            return vehicle;
+        }
 
         @Override
         public double getDistance() {
             if (distance < 0)
-                distance = Main.Engine().MapManager().getTrainDistance(start, destination);
+                distance = MapManager.getTrainDistance(start, destination);
             return distance;
         }
 
@@ -161,7 +182,9 @@ public class Travel {
         public AirLeg(Municipality start, Municipality destination, AirVehicle vehicle, Character... travelers) {
             this(start, destination, vehicle, List.of(travelers));
         }
-        public AirLeg(Municipality start, Municipality destination, AirVehicle vehicle, Collection<Character> travelers) {
+
+        public AirLeg(Municipality start, Municipality destination, AirVehicle vehicle,
+                Collection<Character> travelers) {
             super(start, destination, vehicle, travelers);
             distance = -1.0;
             getDistance();
@@ -172,12 +195,14 @@ public class Travel {
         }
 
         @Override
-        public AirVehicle getVehicle() { return vehicle; }
+        public AirVehicle getVehicle() {
+            return vehicle;
+        }
 
         @Override
         public double getDistance() {
             if (distance < 0)
-                distance = Main.Engine().MapManager().getAirDistance(start, destination);
+                distance = MapManager.getAirDistance(start, destination);
             return distance;
         }
 
@@ -207,7 +232,9 @@ public class Travel {
         public WaterLeg(Municipality start, Municipality destination, WaterVehicle vehicle, Character... travelers) {
             this(start, destination, vehicle, List.of(travelers));
         }
-        public WaterLeg(Municipality start, Municipality destination, WaterVehicle vehicle, Collection<Character> travelers) {
+
+        public WaterLeg(Municipality start, Municipality destination, WaterVehicle vehicle,
+                Collection<Character> travelers) {
             super(start, destination, vehicle, travelers);
             distance = -1.0;
             getDistance();
@@ -218,12 +245,14 @@ public class Travel {
         }
 
         @Override
-        public WaterVehicle getVehicle() { return vehicle; }
+        public WaterVehicle getVehicle() {
+            return vehicle;
+        }
 
         @Override
         public double getDistance() {
             if (distance < 0)
-                distance = Main.Engine().MapManager().getWaterDistance(start, destination);
+                distance = MapManager.getWaterDistance(start, destination);
             return distance;
         }
 
@@ -254,6 +283,7 @@ public class Travel {
     public Travel(Leg... legs) {
         this(List.of(legs));
     }
+
     public Travel(Collection<Leg> legs) {
         this.legs = new ArrayList<>();
         this.legs.addAll(legs);
@@ -263,7 +293,9 @@ public class Travel {
 
     // Legs : List of Leg
 
-    public List<Leg> getLegs() { return legs; }
+    public List<Leg> getLegs() {
+        return legs;
+    }
 
     public void addLeg(Leg leg) {
         this.legs.add(leg);
@@ -312,10 +344,13 @@ public class Travel {
     }
 
     /**
-     * Adds a traveler with a destination to the Travel. Can be used to add or set a traveler's location.
-     * @param traveler Character to add as a traveler on the Travel.
+     * Adds a traveler with a destination to the Travel. Can be used to add or set a
+     * traveler's location.
+     * 
+     * @param traveler    Character to add as a traveler on the Travel.
      * @param destination Destination of the traveler.
-     * @return Municipality previously set as the destination of the traveler, or {@code null} if no current destination.
+     * @return Municipality previously set as the destination of the traveler, or
+     *         {@code null} if no current destination.
      */
     public Municipality putTraveler(Character traveler, Municipality destination) {
         return travelersDestinations.put(traveler, destination);
@@ -331,36 +366,50 @@ public class Travel {
         return availableVehicles;
     }
 
-    // Private Methods ----------------------------------------------------------------------------
+    // Private Methods
+    // ----------------------------------------------------------------------------
 
     /**
-     * Calculates the Legs of this Travel, with equal priority for distance, cost, and time.
-     * @return {@code true} if a route was successfully calculated, {@code false} otherwise.
+     * Calculates the Legs of this Travel, with equal priority for distance, cost,
+     * and time.
+     * 
+     * @return {@code true} if a route was successfully calculated, {@code false}
+     *         otherwise.
      * @see #calculateLegs(float, float, float)
      */
     private boolean calculateLegs() {
         return calculateLegs(1.0f, 1.0f, 1.0f);
     }
+
     /**
-     * Calculates the Legs of this Travel, with the passed priorities for distance, cost, and time.
-     * Priorities are relative, where equal priorities of any value equally prioritize each factor,
-     * and where one priority being double the other two will result in that being weighted twice as high as the others.
-     * @param distancePriority Priority to place on reducing the total distance of the travel.
-     * @param costPriority Priority to place on reducing the total cost of the travel.
-     * @param timePriority Priority to place on the reducing the total time of the travel.
-     * @return {@code true} if a route was successfully calculated, {@code false} otherwise.
+     * Calculates the Legs of this Travel, with the passed priorities for distance,
+     * cost, and time.
+     * Priorities are relative, where equal priorities of any value equally
+     * prioritize each factor,
+     * and where one priority being double the other two will result in that being
+     * weighted twice as high as the others.
+     * 
+     * @param distancePriority Priority to place on reducing the total distance of
+     *                         the travel.
+     * @param costPriority     Priority to place on reducing the total cost of the
+     *                         travel.
+     * @param timePriority     Priority to place on the reducing the total time of
+     *                         the travel.
+     * @return {@code true} if a route was successfully calculated, {@code false}
+     *         otherwise.
      */
     private boolean calculateLegs(float distancePriority, float costPriority, float timePriority) {
-        // Start with the largest chunk possible of the journey, and then work to the smallest distances
+        // Start with the largest chunk possible of the journey, and then work to the
+        // smallest distances
 
         final double acceptableConnectivity = 8.0;
-        
+
         /*
          * Goal is to get all travelers to their destinations
          * Approach 1:
-         *      For each traveler, determine journey from start to end.
-         *      Determine largest possible leg first, then do smaller ones
-         *      See if any traveler is taking the same leg as another, and merge if they are.
+         * For each traveler, determine journey from start to end.
+         * Determine largest possible leg first, then do smaller ones
+         * See if any traveler is taking the same leg as another, and merge if they are.
          * PROS: Faster, simpler
          * CONS: May result in suboptimal pathing, overlapping legs
          */
@@ -382,7 +431,8 @@ public class Travel {
             timePriority -= timePriority;
         }
         float totalPriority = distancePriority + costPriority + timePriority;
-        if (totalPriority == 0) totalPriority = 1.0f;
+        if (totalPriority == 0)
+            totalPriority = 1.0f;
         distancePriority /= totalPriority;
         costPriority /= totalPriority;
         timePriority /= totalPriority;
@@ -412,25 +462,25 @@ public class Travel {
 
         // Score available routes by start location, end location, and vehicle
 
-
         for (Character traveler : travelersDestinations.keySet()) {
 
-            // Select acceptable proxies for start and destination through contracted municipality hierarchy search
+            // Select acceptable proxies for start and destination through contracted
+            // municipality hierarchy search
             // Start location proxy
             Municipality start = traveler.getCurrentLocationMunicipality(), startProxy = start;
             do {
                 startProxy = startProxy.getContractLocation();
-                if (startProxy == null) break;
+                if (startProxy == null)
+                    break;
             } while (startProxy.getConnectivity() < acceptableConnectivity);
-            
+
             // Destination location proxy
             Municipality destination = travelersDestinations.get(traveler), destinationProxy = destination;
             do {
                 destinationProxy = destinationProxy.getContractLocation();
-                if (destinationProxy == null) break;
+                if (destinationProxy == null)
+                    break;
             } while (destinationProxy.getConnectivity() < acceptableConnectivity);
-
-
 
         }
 
@@ -443,7 +493,7 @@ public class Travel {
         }
         else {
             // Reducing time most important
-            
+
             // Rank available vehicles by speed
             Map<Vehicle, Double> speedRanks = new HashMap<>();
             for (Vehicle vehicle : availableVehicles) {
@@ -454,12 +504,15 @@ public class Travel {
         return true;
     }
 
-    private boolean calculateLegs(float distancePriority, float costPriority, float timePriority, boolean allowRoadTravel, boolean allowTrainTravel, boolean allowBoatTravel, boolean allowAirTravel) {
+    private boolean calculateLegs(float distancePriority, float costPriority, float timePriority,
+            boolean allowRoadTravel, boolean allowTrainTravel, boolean allowBoatTravel, boolean allowAirTravel) {
         // TODO
         return true;
     }
 
-    // Should check capacity of vehicles to determine how many needed to transport all travelers
-    // Two vehicles taking the same route at the same time should be counted as two different legs
+    // Should check capacity of vehicles to determine how many needed to transport
+    // all travelers
+    // Two vehicles taking the same route at the same time should be counted as two
+    // different legs
 
 }

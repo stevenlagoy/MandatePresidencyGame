@@ -1,12 +1,11 @@
-package com.stevenlagoy.presidency.map.map.travel.route;
+package com.stevenlagoy.presidency.map.travel.route;
 
-import core.JSONObject;
-import main.core.Jsonic;
-import main.core.Repr;
-import main.core.map.Municipality;
+import com.stevenlagoy.jsonic.JSONObject;
+import com.stevenlagoy.jsonic.Jsonic;
+import com.stevenlagoy.presidency.data.Repr;
+import com.stevenlagoy.presidency.map.Municipality;
 
 public class Seaport extends Route implements Repr<Seaport>, Jsonic<Seaport> {
-    
 
     private String fullName;
     private String commonName;
@@ -27,6 +26,7 @@ public class Seaport extends Route implements Repr<Seaport>, Jsonic<Seaport> {
     public String getFullName() {
         return fullName;
     }
+
     public void setFullName(String name) {
         this.fullName = name;
     }
@@ -34,6 +34,7 @@ public class Seaport extends Route implements Repr<Seaport>, Jsonic<Seaport> {
     public String getCommonName() {
         return commonName;
     }
+
     public void setCommonName(String name) {
         this.commonName = name;
     }
@@ -41,11 +42,13 @@ public class Seaport extends Route implements Repr<Seaport>, Jsonic<Seaport> {
     public Municipality getMunicipality() {
         return location;
     }
+
     public void setMunicipality(Municipality location) {
         this.location = location;
     }
 
-    // REPRESENTATION METHODS ---------------------------------------------------------------------
+    // REPRESENTATION METHODS
+    // ---------------------------------------------------------------------
 
     @Override
     public JSONObject toJson() {

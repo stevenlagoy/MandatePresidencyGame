@@ -1,4 +1,4 @@
-package com.stevenlagoy.presidency.map.map.travel.vehicle;
+package com.stevenlagoy.presidency.map.travel.vehicle;
 
 public abstract class Vehicle {
     static String type = "Vehicle";

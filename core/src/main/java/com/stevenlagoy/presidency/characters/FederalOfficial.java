@@ -1,20 +1,32 @@
 /*
- * FederalOfficial.java
+ * Federal Official
+ * ~/characters/FederalOfficial.java
  * Steven LaGoy
  * Created: 07 November 2024 at 11:11 PM
- * Modified: 10 June 2025
+ * Modified: 29 December 2025
  */
 
 package com.stevenlagoy.presidency.characters;
 
+// IMPORTS ----------------------------------------------------------------------------------------------------------------------------------------------------
+
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
-import core.JSONObject;
-import main.core.Engine;
-import main.core.characters.StateOfficial.StateRole;
-import main.core.map.MapEntity;
+import com.stevenlagoy.jsonic.JSONObject;
+import com.stevenlagoy.presidency.characters.attributes.Role;
+import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
+import com.stevenlagoy.presidency.demographics.DemographicsManager;
+import com.stevenlagoy.presidency.map.MapEntity;
+import com.stevenlagoy.presidency.map.MapManager;
 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                        FEDERAL OFFICIAL                                        //
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/** FederalOfficial is a {@code Character} with a Role at the federal level */
 public class FederalOfficial extends PoliticalActor {
 
     public static enum FederalRole implements Role {
@@ -29,68 +41,72 @@ public class FederalOfficial extends PoliticalActor {
 
         @Override
         public String getTitle() {
-            return Engine.getLocalization(this.name());
+            return this.name(); // TODO Remember to localize in the caller
         }
     }
 
-
     private Set<FederalRole> roles;
-    
+
     private MapEntity jurisdiction;
-    
-    public FederalOfficial(){
-        this(new PoliticalActor());
-        CharacterManager.addCharacter(this);
-    }
-    
-    public FederalOfficial(FederalOfficial other) {
-        this(other, true);
+
+    // CONSTRUCTORS -------------------------------------------------------------------------------------------------------------------------------------------
+
+    public FederalOfficial() {
+        super();
     }
 
-    public FederalOfficial(FederalOfficial other, boolean addToCharacterList) {
-        super(other, false);
-
-        if (addToCharacterList) CharacterManager.addCharacter(this);
+    public FederalOfficial(CharacterManager cm, DemographicsManager dm, MapManager mm, NameManager nm) {
+        this(new PoliticalActor(cm, dm, mm, nm));
     }
 
     public FederalOfficial(Character character) {
-        super(character, false);
-        CharacterManager.addCharacter(this);
+        super(character);
     }
 
     public FederalOfficial(PoliticalActor politicalActor) {
-        super(politicalActor, false);
+        super(politicalActor);
         this.roles = new HashSet<>();
-        CharacterManager.addCharacter(this);
-    } 
-
-    public FederalOfficial(String buildstring){
-        this(buildstring, true);
     }
 
-    public FederalOfficial(String buildstring, boolean addToCharacterList) {
-        super(buildstring, false);
+    public FederalOfficial(String buildstring) {
+        super(buildstring);
         fromRepr(buildstring);
-        if (addToCharacterList) CharacterManager.addCharacter(this);
     }
 
     public FederalOfficial(JSONObject json) {
+        super(json);
         if (json == null) {
-            throw new IllegalArgumentException("The passed JSONObject was null, and a " + getClass().getSimpleName() + " object could not be created.");
+            throw new IllegalArgumentException("The passed JSONObject was null, and a " + getClass().getSimpleName()
+                    + " object could not be created.");
         }
         fromJson(json);
-        CharacterManager.addCharacter(this);
     }
 
+    // GETTERS AND SETTERS ------------------------------------------------------------------------------------------------------------------------------------
+
+    // Roles : List of Role
+
     public boolean addRole(FederalRole role) {
-        if (this.roles == null) this.roles = new HashSet<>();
+        if (this.roles == null)
+            this.roles = new HashSet<>();
         return this.roles.add(role);
     }
+
     public boolean removeRole(FederalRole role) {
         return this.roles.remove(role);
     }
 
-    // REPRESENTATION METHODS ---------------------------------------------------------------------
+    // Jurisdiction : MapEntity
+
+    public MapEntity getJurisdiction() {
+        return jurisdiction;
+    }
+
+    public void setJurisdiction(MapEntity jurisdiction) {
+        this.jurisdiction = jurisdiction;
+    }
+
+    // REPRESENTATION METHODS ---------------------------------------------------------------------------------------------------------------------------------
 
     @Override
     public PoliticalActor fromRepr(String repr) {
@@ -102,8 +118,7 @@ public class FederalOfficial extends PoliticalActor {
     public String toRepr() {
         String superRepr = super.toRepr();
         String repr = String.format("%s:[];",
-            this.getClass().getName().split("\\.")[this.getClass().getName().split("\\.").length - 1]
-        );
+                this.getClass().getName().split("\\.")[this.getClass().getName().split("\\.").length - 1]);
         return repr;
     }
 
@@ -115,21 +130,34 @@ public class FederalOfficial extends PoliticalActor {
 
     @Override
     public JSONObject toJson() {
-        // TODO Auto-generated method stub
-        return super.toJson();
+        List<JSONObject> fields = new ArrayList<>();
+
+        List<String> rolesStrings = new ArrayList<>();
+        for (FederalRole role : roles) {
+            rolesStrings.add(role.getTitle());
+        }
+        fields.add(new JSONObject("federal_roles", rolesStrings));
+        if (jurisdiction != null)
+            fields.add(new JSONObject("jurisdiction", jurisdiction.getName()));
+
+        List<?> superFields = super.toJson().getAsList();
+        for (Object obj : superFields) {
+            if (obj instanceof JSONObject jsonObj) {
+                fields.add(jsonObj);
+            }
+        }
+
+        return new JSONObject(getName().getBiographicalName(), fields);
     }
 
+
+    // OBJECT METHODS -----------------------------------------------------------------------------------------------------------------------------------------
 
     @Override
     public String toString() {
         return this.toRepr();
     }
-
-    // OBJECT METHODS -----------------------------------------------------------------------------
-
-    /**
-     * {@inheritDoc}
-     */
+    
     @Override
     public boolean equals(Object obj) {
         if (this == obj)
@@ -140,9 +168,6 @@ public class FederalOfficial extends PoliticalActor {
         return this.toString().equals(other.toString());
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public int hashCode() {
         final int prime = 61;
@@ -151,9 +176,6 @@ public class FederalOfficial extends PoliticalActor {
         return hash;
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public FederalOfficial clone() {
         return new FederalOfficial(this);

@@ -1,9 +1,9 @@
 package com.stevenlagoy.presidency.politics;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
-
-import main.core.characters.Character;
+import com.stevenlagoy.presidency.characters.Character;
 
 import java.util.HashSet;
 
@@ -13,34 +13,40 @@ public class Operation {
     private Character operator;
     private Set<Character> agents;
 
-    public Operation(Character operator){
+    public Operation(Character operator) {
         this.operator = operator;
         this.agents = new HashSet<Character>();
     }
-    public Operation(Character operator, Character[] agents){
+
+    public Operation(Character operator, Character[] agents) {
         this.operator = operator;
         this.agents = new HashSet<Character>();
-        for(Character c : agents){
+        for (Character c : agents) {
             this.agents.add(c);
         }
     }
 
-    public Character getOperator(){
+    public Character getOperator() {
         return this.operator;
     }
-    public void setOperator(Character c){
+
+    public void setOperator(Character c) {
         this.operator = c;
     }
-    public Set<Character> getAgents(){
+
+    public Set<Character> getAgents() {
         return this.agents;
     }
-    public void addAgent(Character c){
+
+    public void addAgent(Character c) {
         this.agents.add(c);
     }
-    public void removeAgent(Character c){
+
+    public void removeAgent(Character c) {
         this.agents.remove(c);
     }
-    public void resetAgents(){
+
+    public void resetAgents() {
         this.agents.clear();
     }
 }

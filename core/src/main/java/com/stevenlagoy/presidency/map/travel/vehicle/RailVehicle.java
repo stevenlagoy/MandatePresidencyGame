@@ -1,10 +1,10 @@
 package com.stevenlagoy.presidency.map.travel.vehicle;
 
-public class WaterVehicle extends Vehicle {
+public class RailVehicle extends Vehicle {
 
     public String type;
 
-    public WaterVehicle(double speed, double costPerMile, String type) {
+    public RailVehicle(double speed, double costPerMile, String type) {
         super(speed, costPerMile);
         this.type = type;
     }
