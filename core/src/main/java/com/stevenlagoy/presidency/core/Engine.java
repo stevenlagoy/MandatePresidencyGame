@@ -28,6 +28,7 @@ import com.stevenlagoy.presidency.politics.EventManager;
 import com.stevenlagoy.presidency.util.FilePaths;
 import com.stevenlagoy.presidency.util.IOUtils;
 import com.stevenlagoy.presidency.util.Logger;
+import com.stevenlagoy.presidency.util.NumberUtils;
 
 // ENGINE -----------------------------------------------------------------------------------------
 /**
@@ -246,7 +247,7 @@ public final class Engine extends Manager {
     }
 
     public static void setSpeedSetting(int speed) {
-        speedSetting = Math.clamp(speed, 0, speedSettings.length - 1);
+        speedSetting = NumberUtils.clamp(speed, 0, speedSettings.length - 1);
         tickSpeed = speedSettings[speedSetting];
     }
 

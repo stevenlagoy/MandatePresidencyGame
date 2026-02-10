@@ -11,13 +11,19 @@ public final class LanguageTest {
     
     static final Engine ENGINE = new Engine();
 
-    @BeforeAll
+    @BeforeEach
     public void initLanguageManager() {
         if (ENGINE.LanguageManager().getState() != ManagerState.ACTIVE) {
             if (!ENGINE.LanguageManager().init()) {
                 fail("Failed to initialize LanguageManager, necessary for testing");
             }
         }
+    }
+
+    @AfterEach
+    public void resetLanguageManager() {
+        ENGINE.LanguageManager().cleanup();
+        ENGINE.LanguageManager().init();
     }
 
     @Test

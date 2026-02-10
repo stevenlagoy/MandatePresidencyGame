@@ -125,6 +125,11 @@ public final class IOUtils {
     }
 
     public static PrintWriter createWriter(File file) throws IOException {
+        // Ensure parent directories exist
+        File parent = file.getParentFile();
+        if (parent != null && !parent.exists()) {
+            parent.mkdirs();
+        }
         return createWriter(file, false);
     }
 
