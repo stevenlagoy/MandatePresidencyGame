@@ -1,5 +1,9 @@
 package com.stevenlagoy.presidency.politics;
+public class Position
+{
+    private Issue rootIssue;
 
-public class Position {
-
+    public Issue getRootIssue(){
+        return rootIssue;
+    }
 }
