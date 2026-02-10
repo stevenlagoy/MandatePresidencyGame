@@ -1,5 +1,4 @@
 package com.stevenlagoy.presidency.politics.conventions;
-
-public class Convention {
-
+public interface Convention {
+    public void convene();
 }

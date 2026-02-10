@@ -1,0 +1,24 @@
+-classpath
+'C:/Users/LaGoySM/.m2/repository/org/lwjgl/lwjgl/3.3.2/lwjgl-3.3.2.jar;C:/Users/LaGoySM/.m2/repository/org/lwjgl/lwjgl-glfw/3.3.2/lwjgl-glfw-3.3.2.jar;C:/Users/LaGoySM/.m2/repository/org/lwjgl/lwjgl-opengl/3.3.2/lwjgl-opengl-3.3.2.jar;C:/Users/LaGoySM/.m2/repository/org/lwjgl/lwjgl-stb/3.3.2/lwjgl-stb-3.3.2.jar;C:/Users/LaGoySM/.m2/repository/org/joml/joml/1.10.5/joml-1.10.5.jar;C:/Users/LaGoySM/.m2/repository/com/github/stevenlagoy/json-java-objectifier/1.0.6a/json-java-objectifier-1.0.6a.jar;C:/Users/LaGoySM/.m2/repository/org/json/json/20230227/json-20230227.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'21'
+-sourcepath
+'C:/Users/LaGoySM/Documents/GitHub/MandatePresidencyGame/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/LaGoySM/Documents/GitHub/MandatePresidencyGame/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'presidency-game 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'presidency-game 1.0-SNAPSHOT API'
