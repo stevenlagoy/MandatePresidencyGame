@@ -23,6 +23,11 @@ allprojects {
       testOutputDir = file('build/classes/java/test')
     }
   }
+
+  repositories {
+    mavenCentral()
+    google()
+  }
 }
 
 configure(subprojects) {

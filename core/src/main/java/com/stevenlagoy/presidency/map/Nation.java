@@ -7,20 +7,23 @@
 
 package com.stevenlagoy.presidency.map;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-// IMPORTS ----------------------------------------------------------------------------------------
-
-// Internal Imports
-import main.core.Engine;
-import main.core.characters.CharacterManager;
-import main.core.characters.FederalOfficial;
-import main.core.demographics.Bloc;
-import main.core.demographics.DemographicsManager;
+import com.stevenlagoy.presidency.data.Repr;
+import com.stevenlagoy.jsonic.JSONObject;
+import com.stevenlagoy.jsonic.Jsonic;
+import com.stevenlagoy.presidency.characters.CharacterManager;
+import com.stevenlagoy.presidency.characters.FederalOfficial;
+import com.stevenlagoy.presidency.core.LanguageManager;
+import com.stevenlagoy.presidency.demographics.Bloc;
+import com.stevenlagoy.presidency.demographics.DemographicsManager;
+import com.stevenlagoy.presidency.util.Logger;
 
 /**
  * Singleton class holding values for the Nation, or the United States.
@@ -28,30 +31,39 @@ import main.core.demographics.DemographicsManager;
  * Most important field is population, but other values like the name, capital,
  * and president can also be accessed through this class.
  * <p>
- * This is a Singleton class. It cannot be instantiated, and access to the single
+ * This is a Singleton class. It cannot be instantiated, and access to the
+ * single
  * class instance is achieved through the {@link #getInstance()} method.
  */
-public class Nation implements MapEntity {
+public class Nation implements MapEntity, Repr<Nation>, Jsonic<Nation> {
 
-    // SINGLETON PATTERN --------------------------------------------------------------------------
+    // SINGLETON PATTERN
+    // --------------------------------------------------------------------------
 
     /** Singleton instance of the Nation */
     private static Nation instance;
-    /**  This is a Singleton class. It cannot be instantiated, and access to the single class instance is achieved through the {@link #getInstance()} method. */
-    private Nation() {} // Non-Instantiable
+
+    /**
+     * This is a Singleton class. It cannot be instantiated, and access to the
+     * single class instance is achieved through the {@link #getInstance()} method.
+     */
+    private Nation() {
+    } // Non-Instantiable
 
     /**
      * Get the singleton Nation instance.
      */
     public static Nation getInstance() {
-        if (instance == null)
+        if (instance == null) {
             instance = new Nation();
             instance.descriptors = new HashSet<>();
             instance.demographics = new HashMap<>();
+        }
         return instance;
     }
 
-    // INSTANCE VARIABLES -------------------------------------------------------------------------
+    // INSTANCE VARIABLES
+    // -------------------------------------------------------------------------
 
     /** Population of the Nation */
     private int population;
@@ -79,7 +91,15 @@ public class Nation implements MapEntity {
     /** Descriptors shared by every geographic division of the Nation. */
     private Set<String> descriptors;
 
-    // GETTERS AND SETTERS ------------------------------------------------------------------------
+    // GETTERS AND SETTERS
+    // ------------------------------------------------------------------------
+
+    // Name : String
+
+    @Override
+    public String getName() {
+        return getFullName();
+    }
 
     // Population : int
 
@@ -88,20 +108,26 @@ public class Nation implements MapEntity {
     public int getPopulation() {
         return population;
     }
+
     /**
      * Set the total population of the Nation.
      * <p>
-     * Minimum population is zero. If the population is found to be lower, it will be set to zero.
+     * Minimum population is zero. If the population is found to be lower, it will
+     * be set to zero.
+     * 
      * @param population New population of the Nation.
      */
     @Override
     public void setPopulation(int population) {
         this.population = Math.max(0, population);
     }
+
     /**
      * Add to the total population of the Nation.
      * <p>
-     * Minimum population is zero. If the population is found to be lower, it will be set to zero.
+     * Minimum population is zero. If the population is found to be lower, it will
+     * be set to zero.
+     * 
      * @param population Amount of population to be added.
      */
     @Override
@@ -116,10 +142,13 @@ public class Nation implements MapEntity {
     public double getLandArea() {
         return landArea;
     }
+
     /**
      * Set the total land area of the Nation.
      * <p>
-     * Minimum land area is zero. If the land area is found to be lower, it will be set to zero.
+     * Minimum land area is zero. If the land area is found to be lower, it will be
+     * set to zero.
+     * 
      * @param area New land area of the Nation.
      */
     @Override
@@ -133,10 +162,11 @@ public class Nation implements MapEntity {
      * Get the localized full name of the Nation.
      * <p>
      * In English, "United States of America"
+     * 
      * @return String name.
      */
     public String getFullName() {
-        return Engine.getLocalization(fullName);
+        return fullName; // TODO remember to localize in caller
     }
 
     // Commmon Name : String
@@ -145,10 +175,11 @@ public class Nation implements MapEntity {
      * Get the localized common name of the Nation.
      * <p>
      * In English, "United States"
+     * 
      * @return
      */
     public String getCommonName() {
-        return Engine.getLocalization(commonName);
+        return commonName;
     }
 
     // Motto : String
@@ -157,10 +188,11 @@ public class Nation implements MapEntity {
      * Get the localized motto of the Nation.
      * <p>
      * In English, "In God We Trust"
+     * 
      * @return String motto.
      */
     public String getMotto() {
-        return Engine.getLocalization(motto);
+        return motto;
     }
 
     // Abbreviation : String
@@ -169,19 +201,22 @@ public class Nation implements MapEntity {
      * Get the localized abbreviation of the Nation.
      * <p>
      * In English, "U.S."
+     * 
      * @return String abbreviation.
      */
     public String getAbbreviation() {
-        return Engine.getLocalization(abbreviation);
+        return abbreviation;
     }
 
     // Capital : Municipality
 
-    public Municipality getCapital () {
+    public Municipality getCapital(MapManager mm) {
         if (capital == null) {
-            capital = MapManager.matchMunicipality(capitalString);
+            capital = mm.matchMunicipality(capitalString);
             if (capital == null) {
-                Engine.log("NATIONAL CAPITAL UNFOUND", String.format("The national capital, %s, was unable to be found.", capitalString), new Exception());
+                Logger.log("NATIONAL CAPITAL UNFOUND",
+                        String.format("The national capital, %s, was unable to be found.", capitalString),
+                        new Exception());
             }
         }
         return capital;
@@ -189,17 +224,17 @@ public class Nation implements MapEntity {
 
     // President : FederalOfficial
 
-    public FederalOfficial getPresident() {
+    public FederalOfficial getPresident(CharacterManager cm) {
         if (president == null)
-            president = CharacterManager.getPresident();
+            president = cm.getPresident();
         return president;
     }
 
     // Vice President : FederalOfficial
 
-    public FederalOfficial getVicePresident() {
+    public FederalOfficial getVicePresident(CharacterManager cm) {
         if (vicePresident == null)
-            vicePresident = CharacterManager.getVicePresident();
+            vicePresident = cm.getVicePresident();
         return vicePresident;
     }
 
@@ -209,39 +244,48 @@ public class Nation implements MapEntity {
     public Set<String> getDescriptors() {
         return descriptors;
     }
+
     @Override
-    public void setDescriptors(Set<String> descriptors) {
+    public void setDescriptors(DemographicsManager dm, Set<String> descriptors) {
         this.descriptors = descriptors != null ? descriptors : new HashSet<>();
-        evaluateDemographics();
+        evaluateDemographics(dm);
     }
+
     @Override
     public boolean hasDescriptor(String descriptor) {
         return this.descriptors.contains(descriptor);
     }
+
     @Override
-    public boolean addDescriptor(String descriptor) {
+    public boolean addDescriptor(DemographicsManager dm, String descriptor) {
         boolean modified = this.descriptors.add(descriptor);
-        if (modified) evaluateDemographics();
+        if (modified)
+            evaluateDemographics(dm);
         return modified;
     }
+
     @Override
-    public boolean addAllDescriptors(Collection<String> descriptors) {
+    public boolean addAllDescriptors(DemographicsManager dm, Collection<String> descriptors) {
         boolean modified = false;
         for (String descriptor : descriptors) {
-            modified = addDescriptor(descriptor) || modified;
+            modified = addDescriptor(dm, descriptor) || modified;
         }
         return modified;
     }
+
     @Override
-    public boolean removeDescriptor(String descriptor) {
+    public boolean removeDescriptor(DemographicsManager dm, String descriptor) {
         boolean modified = this.descriptors.add(descriptor);
-        if (modified) evaluateDemographics();
+        if (modified)
+            evaluateDemographics(dm);
         return modified;
     }
+
     @Override
-    public boolean removeAllDescriptors(Collection<String> descriptors) {
+    public boolean removeAllDescriptors(DemographicsManager dm, Collection<String> descriptors) {
         boolean modified = descriptors.removeAll(descriptors);
-        if (modified) evaluateDemographics();
+        if (modified)
+            evaluateDemographics(dm);
         return modified;
     }
 
@@ -251,26 +295,32 @@ public class Nation implements MapEntity {
     public Map<Bloc, Float> getDemographics() {
         return demographics;
     }
+
     @Override
     public float getDemographicPercentage(Bloc bloc) {
         return this.demographics.get(bloc) != null ? this.demographics.get(bloc) : 0.0f;
     }
+
     @Override
     public int getDemographicPopulation(Bloc bloc) {
         return Math.round(getDemographicPercentage(bloc) * population);
     }
+
     @Override
-    public void evaluateDemographics() {
-        this.demographics = DemographicsManager.demographicsFromDescriptors(descriptors);
+    public void evaluateDemographics(DemographicsManager dm) {
+        this.demographics = dm.demographicsFromDescriptors(descriptors);
     }
 
-    // REPRESENTATION METHODS ---------------------------------------------------------------------
+    // REPRESENTATION METHODS
+    // ---------------------------------------------------------------------
 
+    @Override
     public String toRepr() {
         return "";
     }
 
-    public Nation fromRepr() {
+    @Override
+    public Nation fromRepr(String repr) {
         return this;
     }
 
@@ -279,7 +329,28 @@ public class Nation implements MapEntity {
         return fullName;
     }
 
-    // OBJECT METHODS -----------------------------------------------------------------------------
+    @Override
+    public JSONObject toJson() {
+        List<JSONObject> fields = new ArrayList<>();
+        // static finals do not need to be saved
+        // fields.add(new JSONObject("capital",
+        // getCapital().getNameWithCountyAndState()));
+        // capital is a derived field from a static final
+        fields.add(new JSONObject("president", president.getName().getBiographicalName()));
+        fields.add(new JSONObject("vice_president", vicePresident.getName().getBiographicalName()));
+        // demographics are a derived field from descriptors
+        fields.add(new JSONObject("descriptors", List.copyOf(descriptors)));
+        return new JSONObject("nation", fields);
+    }
+
+    @Override
+    public Nation fromJson(JSONObject json) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'fromJson'");
+    }
+
+    // OBJECT METHODS
+    // -----------------------------------------------------------------------------
 
     @Override
     public boolean equals(Object obj) {

@@ -1,16 +1,16 @@
-package com.stevenlagoy.presidency.map.map.travel.route;
+package com.stevenlagoy.presidency.map.travel.route;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import core.JSONObject;
-import main.core.Jsonic;
-import main.core.Repr;
-import main.core.map.Municipality;
+import com.stevenlagoy.jsonic.JSONObject;
+import com.stevenlagoy.jsonic.Jsonic;
+import com.stevenlagoy.presidency.data.Repr;
+import com.stevenlagoy.presidency.map.Municipality;
 
 public class Railway extends Route implements Repr<Railway>, Jsonic<Railway> {
-    
+
     private String name;
     private List<Municipality> connections;
 
@@ -22,6 +22,7 @@ public class Railway extends Route implements Repr<Railway>, Jsonic<Railway> {
     public Railway(String name, Municipality... connections) {
         this(name, List.of(connections));
     }
+
     public Railway(String name, Collection<Municipality> connections) {
         this.name = name;
         this.connections = new ArrayList<>(connections);
@@ -31,6 +32,7 @@ public class Railway extends Route implements Repr<Railway>, Jsonic<Railway> {
         return name;
     }
 
+    @Override
     public List<Municipality> getConnections() {
         return connections;
     }
@@ -39,7 +41,8 @@ public class Railway extends Route implements Repr<Railway>, Jsonic<Railway> {
         return connections.contains(connection);
     }
 
-    // REPRESENTATION METHODS ---------------------------------------------------------------------
+    // REPRESENTATION METHODS
+    // ---------------------------------------------------------------------
 
     @Override
     public JSONObject toJson() {

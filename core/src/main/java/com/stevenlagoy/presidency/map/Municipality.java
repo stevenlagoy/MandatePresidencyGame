@@ -19,46 +19,59 @@ import java.util.Set;
 import java.util.TimeZone;
 
 // Internal Imports
-import core.JSONObject;
-import main.core.Engine;
-import main.core.Jsonic;
-import main.core.Repr;
-import main.core.characters.LocalOfficial;
-import main.core.characters.LocalOfficial.LocalRole;
-import main.core.demographics.DemographicsManager;
-import main.core.demographics.Bloc;
+
+import com.stevenlagoy.presidency.data.Repr;
+import com.stevenlagoy.jsonic.JSONObject;
+import com.stevenlagoy.jsonic.Jsonic;
+import com.stevenlagoy.presidency.characters.LocalOfficial;
+import com.stevenlagoy.presidency.characters.LocalOfficial.LocalRole;
+import com.stevenlagoy.presidency.core.Engine;
+import com.stevenlagoy.presidency.demographics.Bloc;
+import com.stevenlagoy.presidency.demographics.DemographicsManager;
+import com.stevenlagoy.presidency.util.Logger;
 
 /**
- * Municipalities are various types of inhabited places in the United States. This is the broadest
- * term used to describe Cities, Villages, Towns, and other kinds of Census-Designated populated areas.
+ * Municipalities are various types of inhabited places in the United States.
+ * This is the broadest
+ * term used to describe Cities, Villages, Towns, and other kinds of
+ * Census-Designated populated areas.
  */
 public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Municipality> {
 
-    /** TypeClass describes the various classes or levels of local government, which vary by state. */
+    /**
+     * TypeClass describes the various classes or levels of local government, which
+     * vary by state.
+     */
     public static enum TypeClass {
-        CITY ("City"),
-        TOWN ("Town"),
-        VILLAGE ("Village"),
-        FIRST_CLASS ("First Class"),
-        SECOND_CLASS ("Second Class"),
-        THIRD_CLASS ("Third Class"),
-        HOME_RULE ("Home Rule");
+        CITY("City"),
+        TOWN("Town"),
+        VILLAGE("Village"),
+        FIRST_CLASS("First Class"),
+        SECOND_CLASS("Second Class"),
+        THIRD_CLASS("Third Class"),
+        HOME_RULE("Home Rule");
 
         public final String title;
-        private TypeClass(String title) { this.title = title; }
+
+        private TypeClass(String title) {
+            this.title = title;
+        }
 
         public static final TypeClass defaultTypeClass = TypeClass.CITY;
+
         public static TypeClass matchTypeClass(String typeClass) {
-            String target = typeClass.toUpperCase().trim().replaceAll("\\s+","_");
+            String target = typeClass.toUpperCase().trim().replaceAll("\\s+", "_");
             for (TypeClass tc : TypeClass.values()) {
-                if (tc.toString().equals(target)) return tc;
+                if (tc.toString().equals(target))
+                    return tc;
             }
             return null;
         }
     }
 
-    // INSTANCE VARIABLES -------------------------------------------------------------------------
-    
+    // INSTANCE VARIABLES
+    // -------------------------------------------------------------------------
+
     /** Unique FIPS code, including the State (and possibly County) FIPS. */
     private String FIPS;
     /** Population of the Municipality. */
@@ -81,9 +94,17 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
     /** Percentages of the municipality which belong to each Bloc. */
     private Map<Bloc, Float> demographics;
 
-    // CONSTRUCTORS -------------------------------------------------------------------------------
+    // For contract / proxy calculations in Travel
+    private Municipality contractLocation;
+    private double connectivity;
 
-    public Municipality(String FIPS, int population, double landArea, String name, String typeClass, String standardTimeZone, String daylightTimeZone, String stateName, List<String> countiesNames, Set<String> descriptors) {
+    // CONSTRUCTORS
+    // -------------------------------------------------------------------------------
+
+    public Municipality(DemographicsManager dm, MapManager mm, String FIPS, int population, double landArea,
+            String name, String typeClass,
+            String standardTimeZone, String daylightTimeZone, String stateName, List<String> countiesNames,
+            Set<String> descriptors) {
         this.FIPS = FIPS;
         setPopulation(population);
         setLandArea(landArea);
@@ -92,12 +113,14 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
         this.standardTimeZone = TimeZone.getTimeZone(standardTimeZone);
         this.daylightTimeZone = TimeZone.getTimeZone(daylightTimeZone);
         this.counties = new ArrayList<>();
-        setState(MapManager.matchState(stateName));
-        setCountiesByNames(countiesNames);
-        setDescriptors(descriptors);
+        setState(mm.matchState(stateName));
+        setCountiesByNames(mm, countiesNames);
+        setDescriptors(dm, descriptors);
     }
 
-    public Municipality(String FIPS, int population, double landArea, String name, TypeClass typeClass, TimeZone standardTimeZone, TimeZone daylightTimeZone, List<County> counties, Set<String> descriptors) {
+    public Municipality(DemographicsManager dm, MapManager mm, String FIPS, int population, double landArea,
+            String name, TypeClass typeClass,
+            TimeZone standardTimeZone, TimeZone daylightTimeZone, List<County> counties, Set<String> descriptors) {
         this.FIPS = FIPS;
         this.population = population;
         this.landArea = landArea;
@@ -110,15 +133,19 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
             this.state = this.counties.get(0).getState();
         }
         catch (ArrayIndexOutOfBoundsException e) {
-            Engine.log("NO COUNTIES OR STATE", String.format("A Municipality was created without counties or state. Name: %s", name), e);
+            Logger.log("NO COUNTIES OR STATE",
+                    String.format("A Municipality was created without counties or state. Name: %s", name), e);
         }
-        setDescriptors(descriptors);
-        evaluateDemographics();
+        setDescriptors(dm, descriptors);
+        evaluateDemographics(dm);
 
-        MapManager.municipalities.add(this);
+        mm.addMunicipality(this);
     }
 
-    public Municipality(String FIPS, int population, double landArea, String name, String nickname, TypeClass typeClass, TimeZone standardTimeZone, TimeZone daylightTimeZone, State state, Set<String> descriptors) {
+    public Municipality(DemographicsManager dm, MapManager mm, String FIPS, int population, double landArea,
+            String name, String nickname,
+            TypeClass typeClass,
+            TimeZone standardTimeZone, TimeZone daylightTimeZone, State state, Set<String> descriptors) {
         this.FIPS = FIPS;
         this.population = population;
         this.landArea = landArea;
@@ -127,32 +154,36 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
         this.standardTimeZone = standardTimeZone;
         this.daylightTimeZone = daylightTimeZone;
         this.state = state;
-        setDescriptors(getDescriptors());
-        evaluateDemographics();
+        setDescriptors(dm, getDescriptors());
+        evaluateDemographics(dm);
 
-        MapManager.municipalities.add(this);
+        mm.addMunicipality(this);
     }
 
-    // GETTERS AND SETTERS ------------------------------------------------------------------------
+    // GETTERS AND SETTERS
+    // ------------------------------------------------------------------------
 
     // FIPS : String
-    
+
     public String getFIPS() {
         return FIPS;
     }
+
     public void setFIPS(String FIPS) {
         this.FIPS = FIPS;
     }
 
     // Population : int
 
-    public int getPopulation(){
+    public int getPopulation() {
         return this.population;
     }
-    public void setPopulation(int population){
+
+    public void setPopulation(int population) {
         this.population = population;
     }
-    public void addPopulation(int population){
+
+    public void addPopulation(int population) {
         this.population += population;
     }
 
@@ -161,21 +192,37 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
     public double getLandArea() {
         return landArea;
     }
+
     public void setLandArea(double area) {
         this.landArea = Math.max(0, area);
     }
 
     // Name : String
 
+    /**
+     * Return identifying name of this Municipality.
+     * <p>
+     * To get the simple name of this Municipality, use {@link #getCommonName()}
+     * 
+     * @see #getNameWithCountyAndState()
+     */
+    @Override
     public String getName() {
+        return getNameWithCountyAndState();
+    }
+
+    public String getCommonName() {
         return name;
     }
+
     public String getNameWithState() {
         return name + ", " + state.getCommonName();
     }
+
     public String getNameWithCountyAndState() {
         return name + ", " + counties.get(0).getFullName() + ", " + state.getCommonName();
     }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -185,6 +232,7 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
     public TypeClass getTypeClass() {
         return typeClass;
     }
+
     public void setTypeClass(TypeClass typeClass) {
         this.typeClass = typeClass;
     }
@@ -194,6 +242,7 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
     public TimeZone getStandardTimeZone() {
         return standardTimeZone;
     }
+
     public void setStandardTimeZone(TimeZone timeZone) {
         this.standardTimeZone = timeZone;
     }
@@ -203,6 +252,7 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
     public TimeZone getDaylightTimeZone() {
         return daylightTimeZone;
     }
+
     public void setDaylightTimeZone(TimeZone timeZone) {
         this.daylightTimeZone = timeZone;
     }
@@ -212,34 +262,42 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
     public List<County> getCounties() {
         return counties;
     }
+
     public void setCounties(List<County> counties) {
         this.counties = counties;
     }
+
     public void SetCounties(County county) {
         this.counties = List.of(county);
     }
-    public void setCountiesByNames(List<String> countiesNames) {
-        this.counties = MapManager.matchCounties(countiesNames, this.state.getAbbreviation());
+
+    public void setCountiesByNames(MapManager mm, List<String> countiesNames) {
+        this.counties = mm.matchCounties(countiesNames, this.state.getAbbreviation());
     }
+
     public boolean addCounty(County county) {
         return this.counties.add(county);
     }
+
     public boolean addAllCounties(Collection<County> counties) {
         return this.counties.addAll(counties);
     }
+
     public boolean removeCounty(County county) {
         return this.counties.remove(county);
     }
+
     public boolean removeAllCounties(Collection<County> counties) {
         return this.counties.removeAll(counties);
     }
 
     // State : State
 
-    public State getState(){
+    public State getState() {
         return this.state;
     }
-    public void setState(State state){
+
+    public void setState(State state) {
         this.state = state;
     }
 
@@ -249,40 +307,49 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
     public Set<String> getDescriptors() {
         return descriptors;
     }
+
     @Override
     public boolean hasDescriptor(String descriptor) {
         return this.descriptors.contains(descriptor);
     }
+
     @Override
-    public void setDescriptors(Set<String> descriptors) {
+    public void setDescriptors(DemographicsManager dm, Set<String> descriptors) {
         this.descriptors = descriptors != null ? descriptors : new HashSet<>();
-        evaluateDemographics();
+        evaluateDemographics(dm);
     }
+
     @Override
-    public boolean addDescriptor(String descriptor) {
+    public boolean addDescriptor(DemographicsManager dm, String descriptor) {
         boolean modified = this.descriptors.add(descriptor);
-        if (modified) evaluateDemographics();
-        return modified;
-    }
-    @Override
-    public boolean addAllDescriptors(Collection<String> descriptors) {
-        boolean modified = this.descriptors.addAll(descriptors);
-        if (modified) evaluateDemographics();
-        return modified;
-    }
-    @Override
-    public boolean removeDescriptor(String descriptor) {
-        boolean modified = this.descriptors.remove(descriptor);
-        if (modified) evaluateDemographics();
-        return modified;
-    }
-    @Override
-    public boolean removeAllDescriptors(Collection<String> descriptors) {
-        boolean modified = this.descriptors.removeAll(descriptors);
-        if (modified) evaluateDemographics();
+        if (modified)
+            evaluateDemographics(dm);
         return modified;
     }
 
+    @Override
+    public boolean addAllDescriptors(DemographicsManager dm, Collection<String> descriptors) {
+        boolean modified = this.descriptors.addAll(descriptors);
+        if (modified)
+            evaluateDemographics(dm);
+        return modified;
+    }
+
+    @Override
+    public boolean removeDescriptor(DemographicsManager dm, String descriptor) {
+        boolean modified = this.descriptors.remove(descriptor);
+        if (modified)
+            evaluateDemographics(dm);
+        return modified;
+    }
+
+    @Override
+    public boolean removeAllDescriptors(DemographicsManager dm, Collection<String> descriptors) {
+        boolean modified = this.descriptors.removeAll(descriptors);
+        if (modified)
+            evaluateDemographics(dm);
+        return modified;
+    }
 
     // Demographics : Map of Bloc to Float
 
@@ -290,17 +357,20 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
     public Map<Bloc, Float> getDemographics() {
         return this.demographics;
     }
+
     @Override
     public float getDemographicPercentage(Bloc bloc) {
         return this.demographics.get(bloc) != null ? this.demographics.get(bloc) : 0.0f;
     }
+
     @Override
     public int getDemographicPopulation(Bloc bloc) {
         return Math.round(getDemographicPercentage(bloc) * population);
     }
+
     @Override
-    public void evaluateDemographics() {
-        this.demographics = DemographicsManager.demographicsFromDescriptors(descriptors);
+    public void evaluateDemographics(DemographicsManager dm) {
+        this.demographics = dm.demographicsFromDescriptors(descriptors);
     }
 
     // Mayor : LocalOfficial
@@ -308,20 +378,56 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
     public LocalOfficial getMayor() {
         return mayor;
     }
-    public void setMayor(LocalOfficial mayor) {
+
+    public void setMayor(Engine engine, LocalOfficial mayor) {
         if (mayor == null) {
-            this.mayor = new LocalOfficial();
+            this.mayor = new LocalOfficial(engine.CharacterManager(), engine.DemographicsManager(),
+                    engine.MapManager(), engine.NameManager());
             this.mayor.addRole(LocalRole.MAYOR);
+            this.mayor.setJurisdiction(this);
         }
         else this.mayor = mayor;
     }
 
-    // REPRESENATION METHODS ----------------------------------------------------------------------
+    // Contract Location : Municipality
+    public Municipality getContractLocation() {
+        return contractLocation;
+    }
+
+    // Connectivity : double
+    public double getConnectivity() {
+        return connectivity;
+    }
+
+    // REPRESENATION METHODS
+    // ----------------------------------------------------------------------
 
     @Override
     public JSONObject toJson() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'toJson'");
+        List<JSONObject> fields = new ArrayList<>();
+        fields.add(new JSONObject("FIPS", FIPS));
+        fields.add(new JSONObject("population", population));
+        fields.add(new JSONObject("land_area", landArea));
+        fields.add(new JSONObject("name", name));
+        if (this.typeClass != null)
+            fields.add(new JSONObject("type_class", typeClass.toString()));
+        fields.add(new JSONObject("standard_time_zone", standardTimeZone.getDisplayName()));
+        fields.add(new JSONObject("daylight_time_zone", daylightTimeZone.getDisplayName()));
+        List<String> countiesNames = new ArrayList<>();
+        for (County county : counties) {
+            countiesNames.add(county.getName());
+        }
+        fields.add(new JSONObject("counties", countiesNames));
+        fields.add(new JSONObject("state", state.getName()));
+        if (mayor != null)
+            fields.add(new JSONObject("mayor", mayor.getName().getBiographicalName()));
+        fields.add(new JSONObject("descriptors", List.copyOf(descriptors)));
+        // Demographics are derived from descriptors
+        if (contractLocation != null)
+            fields.add(new JSONObject("contract_location", contractLocation.getName()));
+        fields.add(new JSONObject("connectivity", connectivity));
+
+        return new JSONObject(this.getName(), fields);
     }
 
     @Override
@@ -348,10 +454,11 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
         return super.toString();
     }
 
-    // OBJECT METHODS -----------------------------------------------------------------------------
+    // OBJECT METHODS
+    // -----------------------------------------------------------------------------
 
     @Override
-    public boolean equals(Object other){
+    public boolean equals(Object other) {
         return this.toString().equals(other.toString());
         // TODO
     }
