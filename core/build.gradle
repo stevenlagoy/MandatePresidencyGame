@@ -3,11 +3,14 @@ eclipse.project.name = appName + '-core'
 
 dependencies {
   api "com.badlogicgames.gdx:gdx:$gdxVersion"
+  api "com.github.mgsx-dev.gdx-gltf:gltf:$gltfVersion"
 
   implementation("io.github.stevenlagoy:jsonic:1.0.8")
+  implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
   
   testImplementation("org.junit.jupiter:junit-jupiter-api:6.1.0-M1")
   testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:6.1.0-M1")
+  testRuntimeOnly("org.junit.platform:junit-platform-launcher:1.10.2")
   testImplementation("com.badlogicgames.gdx:gdx-backend-headless:$gdxVersion")
 
   if(enableGraalNative == 'true') {

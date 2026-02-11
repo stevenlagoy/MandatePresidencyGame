@@ -21,7 +21,6 @@ import com.stevenlagoy.presidency.core.TimeManager;
 import com.stevenlagoy.presidency.data.Repr;
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.Jsonic;
-import com.stevenlagoy.presidency.Main;
 import com.stevenlagoy.presidency.characters.attributes.CharacterModel;
 import com.stevenlagoy.presidency.characters.attributes.names.Name;
 import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
