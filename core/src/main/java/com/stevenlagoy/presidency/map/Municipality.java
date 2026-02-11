@@ -9,7 +9,6 @@ package com.stevenlagoy.presidency.map;
 
 // IMPORTS ----------------------------------------------------------------------------------------
 
-// Standard Library Imports
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;
@@ -17,8 +16,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.TimeZone;
-
-// Internal Imports
 
 import com.stevenlagoy.presidency.data.Repr;
 import com.stevenlagoy.jsonic.JSONObject;
@@ -42,7 +39,7 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
      * TypeClass describes the various classes or levels of local government, which
      * vary by state.
      */
-    public static enum TypeClass {
+    public enum TypeClass {
         CITY("City"),
         TOWN("Town"),
         VILLAGE("Village"),
@@ -53,7 +50,7 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
 
         public final String title;
 
-        private TypeClass(String title) {
+        TypeClass(String title) {
             this.title = title;
         }
 
@@ -203,7 +200,7 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
      * Return identifying name of this Municipality.
      * <p>
      * To get the simple name of this Municipality, use {@link #getCommonName()}
-     * 
+     *
      * @see #getNameWithCountyAndState()
      */
     @Override

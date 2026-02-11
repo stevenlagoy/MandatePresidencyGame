@@ -1,10 +1,3 @@
-/*
- * Engine.java
- * Steven LaGoy
- * Created: 26 September 2024 at 12:21 AM
- * Modified: 28 December 2025
- */
-
 package com.stevenlagoy.presidency.core;
 
 // IMPORTS ----------------------------------------------------------------------------------------
@@ -18,10 +11,11 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.Map;
 
-import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.Jsonic;
-import com.stevenlagoy.presidency.characters.CharacterManager;
+import com.stevenlagoy.jsonic.JSONObject;
+
 import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
+import com.stevenlagoy.presidency.characters.CharacterManager;
 import com.stevenlagoy.presidency.demographics.DemographicsManager;
 import com.stevenlagoy.presidency.map.MapManager;
 import com.stevenlagoy.presidency.politics.EventManager;
@@ -30,60 +24,119 @@ import com.stevenlagoy.presidency.util.IOUtils;
 import com.stevenlagoy.presidency.util.Logger;
 import com.stevenlagoy.presidency.util.NumberUtils;
 
-// ENGINE -----------------------------------------------------------------------------------------
 /**
- * {@code Engine} is the main driver of the game engine, facilitating the
- * initialization and function
- * of the game by tracking critical details for game settings and other
- * information.
+ * <h1>ENGINE</h1>
+ * {@code ~/core/Engine.java}
+ * <p>
+ * <b>Author:</b>
+ * Steven LaGoy
+ * <br>
+ * <b>Created:</b>
+ * 26 September 2024 at 12:21 AM
+ * <br>
+ * <b>Modified:</b>
+ * 10 February 2026 
+ * <br>
+ * </p>
+ * 
+ * Engine is the main driver of the game engine, facilitating the initialization and function of
+ * the game by tracking critical details for game settings and other information.
  */
 public final class Engine extends Manager {
 
     // Language Manager
     private final LanguageManager LANGUAGE_MANAGER;
+    /**
+     * Get the Language Manager held by this Engine.
+     * @return Language Manager
+     * @apiNote Successful initialization of this Engine will also initialize the managers, but it
+     * is possible that the returned Language Manager is uninitialized following other actions.
+     */
     public LanguageManager LanguageManager() {
         return LANGUAGE_MANAGER;
     }
 
     // Time Manager
     private final TimeManager TIME_MANAGER;
+    /**
+     * Get the Time Manager held by this Engine.
+     * @return Time Manager
+     * @apiNote Successful initialization of this Engine will also initialize the managers, but it
+     * is possible that the returned Time Manager is uninitialized following other actions.
+     */
     public TimeManager TimeManager() {
         return TIME_MANAGER;
     }
 
     // Event Manager
     private final EventManager EVENT_MANAGER;
+    /**
+     * Get the Event Manager held by this Engine.
+     * @return Time Manager
+     * @apiNote Successful initialization of this Engine will also initialize the managers, but it
+     * is possible that the returned Event Manager is uninitialized following other actions.
+     */
     public EventManager EventManager() {
         return EVENT_MANAGER;
     }
 
     // Demographics Manager
     private final DemographicsManager DEMOGRAPHICS_MANAGER;
+    /**
+     * Get the Demographics Manager held by this Engine.
+     * @return Demographics Manager
+     * @apiNote Successful initialization of this Engine will also initialize the managers, but it
+     * is possible that the returned Demographics Manager is uninitialized following other actions.
+     */
     public DemographicsManager DemographicsManager() {
         return DEMOGRAPHICS_MANAGER;
     }
 
     // Map Manager
     private final MapManager MAP_MANAGER;
+    /**
+     * Get the Map Manager held by this Engine.
+     * @return Map Manager
+     * @apiNote Successful initialization of this Engine will also initialize the managers, but it
+     * is possible that the returned Map Manager is uninitialized following other actions.
+     */
     public MapManager MapManager() {
         return MAP_MANAGER;
     }
 
     // Name Manager
     private final NameManager NAME_MANAGER;
+    /**
+     * Get the Name Manager held by this Engine.
+     * @return Name Manager
+     * @apiNote Successful initialization of this Engine will also initialize the managers, but it
+     * is possible that the returned Name Manager is uninitialized following other actions.
+     */
     public NameManager NameManager() {
         return NAME_MANAGER;
     }
 
     // Character Manager
     private final CharacterManager CHARACTER_MANAGER;
+    /**
+     * Get the Character Manager held by this Engine.
+     * @return Character Manager
+     * @apiNote Successful initialization of this Engine will also initialize the managers, but it
+     * is possible that the returned Character Manager is uninitialized following other actions.
+     */
     public CharacterManager CharacterManager() {
         return CHARACTER_MANAGER;
     }
 
+    /** List of Managers held by this Engine. Order of managers should be treated as arbitrary. */
     private final List<Manager> managers;
 
+    /** Whether this Engine is runnning in debug mode. {@code true} means debug mode is active and
+     * additional debug logging and logic will be enabled.
+     */
     public final boolean DEBUG_MODE;
+
+    /** Current state of this Engine. */
     private ManagerState currentState;
 
     /**
@@ -95,15 +148,26 @@ public final class Engine extends Manager {
     /**
      * Get the current elapsed program time in seconds. Equivalent to:
      * {@code (System.nanoTime() - Main.Engine().t_zero) / 1e-9;}
+     * @return Elapsed program time in seconds
      */
     public double getProgramTime() {
         return (System.nanoTime() - t_zero) * 1e-9;
     }
 
+    /**
+     * Create an Engine in normal (not debug) mode.
+     * @see #Engine(boolean)
+     */
     public Engine() {
         this(false);
     }
 
+    /**
+     * Create an Engine with the given mode. Create but do not initialize all managers. If an error
+     * is encountered while constructing a manager, {@link #getState()} will return
+     * {@code ManagerState.ERROR}.
+     * @param debug Start in debug mode when {@code true}, start in normal mode when {@code false}.
+     */
     public Engine(boolean debug) {
         t_zero = System.nanoTime();
         currentState = ManagerState.INACTIVE;
@@ -135,7 +199,11 @@ public final class Engine extends Manager {
 
     // MANAGER METHODS ----------------------------------------------------------------------------------------------------------------------------------------
 
-    /** Initialize and Activate this Engine, and its Managers. */
+    /**
+     * Initialize and Activate this Engine, and its Managers.
+     * @return {@code true} if successfully initialized this Engine and its Managers, {@code false}
+     * otherwise.
+     */
     @Override
     public boolean init() {
         boolean successFlag = true;
@@ -152,38 +220,45 @@ public final class Engine extends Manager {
         return successFlag;
     }
 
-    /** Get the current State of this Engine. */
+    /**
+     * Get the current Manager State of this Engine.
+     * @return Current Manager State
+     */
     @Override
     public ManagerState getState() {
         return currentState;
     }
 
-    /** Deactivate and clean up the data of this Engine, and its Managers. */
+    /**
+     * Deactivate and clean up the data of this Engine, and its Managers.
+     * @return {@code true} if successfully deactivated each held Manager and this Engine,
+     * {@code false} otherwise. In the case of failure, {@link #getState()} will return
+     * {@code ManagerState.ERROR}.
+     */
     @Override
     public boolean cleanup() {
         boolean successFlag = true;
-        currentState = ManagerState.INACTIVE;
         for (Manager manager : managers) {
             if (!manager.cleanup())
                 successFlag = false;
         }
+        currentState = ManagerState.INACTIVE;
         if (!successFlag)
             currentState = ManagerState.ERROR;
         return successFlag;
     }
 
     ///////////////////////////////////////////////////////////////////////////////////////////////
-    // CONSTANTS AND ENUMS //
+    //                                    CONSTANTS AND ENUMS                                    //
     ///////////////////////////////////////////////////////////////////////////////////////////////
 
     // DIFFICULTY ---------------------------------------------------------------------------------------------------------------------------------------------
 
     /**
-     * Dificulty values impact some calculations, impacting the difficulty of the
-     * game.
+     * Dificulty values impact player-facing calculations, impacting the difficulty of the game.
      */
     public static enum Difficulty {
-
+        
         LEVEL_1(1, "Aspiring Politician"),
         LEVEL_2(2, "Fledgling Politician"),
         LEVEL_3(3, "Hometown Hero"),
@@ -257,98 +332,6 @@ public final class Engine extends Manager {
         return tickSpeed;
     }
 
-    ///////////////////////////////////////////////////////////////////////////////////////////////
-    //                                        GAME SETUP                                         //
-    ///////////////////////////////////////////////////////////////////////////////////////////////
-
-    // public boolean init() {
-    // boolean successFlag = true;
-    // try {
-    // long startTime = System.nanoTime();
-    // GLFW.glfwSetErrorCallback(errorCallback =
-    // GLFWErrorCallback.createPrint(System.err));
-    // reset();
-    // window = new Window(Consts.TITLE, 0, 0, false);
-    // gameLogic = new TestGame();
-    // mouse = new MouseInput();
-    // window.init();
-    // gameLogic.init();
-    // mouse.init();
-
-    // long elapsedTime = System.nanoTime() - startTime;
-    // Logger.log("Engine initialization complete in " + String.valueOf(elapsedTime
-    // / 1000000) + " miliseconds.");
-    // }
-    // catch (Exception e) {
-    // // Engine.cleanup();
-    // Logger.log("Failed to initialize game engine.");
-    // Logger.log(e);
-    // successFlag = false;
-    // }
-    // return successFlag;
-    // }
-
-    // public void run() {
-    // Engine.isRunning = true;
-    // int frames = 0;
-    // long frameCounter = 0;
-    // long lastTime = System.nanoTime();
-    // double unprocessedTime = 0;
-
-    // while (isRunning) {
-    // boolean render = false;
-    // long startTime = System.nanoTime();
-    // long passedTime = startTime - lastTime;
-    // lastTime = startTime;
-
-    // unprocessedTime += passedTime / (double) NANOSECOND;
-    // frameCounter += passedTime;
-
-    // Engine.input();
-
-    // while (unprocessedTime > frametime) {
-    // render = true;
-    // unprocessedTime -= frametime;
-
-    // if (window.windowShouldClose())
-    // stop();
-
-    // if (frameCounter >= NANOSECOND) {
-    // fps = frames;
-    // window.setTitle(Consts.TITLE + " - FPS: " + fps);
-    // frames = 0;
-    // frameCounter = 0;
-    // }
-    // }
-
-    // if (render) {
-    // update(frametime);
-    // render();
-    // frames++;
-    // }
-    // }
-    // cleanup();
-    // }
-
-    // public boolean reset() {
-    // boolean successFlag = true;
-    // successFlag = successFlag && Logger.writeErrorToLog();
-    // successFlag = successFlag && Logger.clearErrorFile();
-    // log("RESET", "Reset Engine");
-    // return successFlag;
-    // }
-
-    // public void stop() {
-    // if(!isRunning) return;
-    // window.cleanup();
-    // gameLogic.cleanup();
-    // errorCallback.free();
-    // GLFW.glfwTerminate();
-    // Engine.isRunning = false;
-    // Logger.log("DONE");
-    // Logger.writeErrorToLog();
-    // }
-
     public boolean tick() {
         boolean active = true;
 
@@ -378,13 +361,6 @@ public final class Engine extends Manager {
     // catch (IOException e) {
     // e.printStackTrace();
     // }
-    // }
-
-    // public void cleanup() {
-    // window.cleanup();
-    // gameLogic.cleanup();
-    // errorCallback.free();
-    // GLFW.glfwTerminate();
     // }
 
     public static List<String> listSaveNames() {
