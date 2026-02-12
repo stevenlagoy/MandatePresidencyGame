@@ -1,7 +1,9 @@
 package com.stevenlagoy.presidency.util;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -50,9 +52,9 @@ public final class StringUtils {
      * inside a JSON array.
      *
      * <p>
-     * This method traverses the line up to (but not including) the given position,
+     * This method traverses the line of text up to (but not including) the given position,
      * tracking array nesting depth.
-     * It increments depth when encountering a non-escaped '[' character outside of
+     * It increments depth when encountering a non-escaped '[' character outside
      * a string, and decrements it for ']'.
      * If the resulting depth is greater than 0 at the given position, the position
      * is considered to be inside an array.
@@ -76,7 +78,7 @@ public final class StringUtils {
             else if (line.charAt(i) == ']' && !isInString(line, i - 1))
                 depth--;
         }
-        return depth == 0 ? false : true;
+        return depth != 0;
     }
 
     public static boolean isInObject(String line, int position) {
@@ -87,7 +89,7 @@ public final class StringUtils {
             else if (line.charAt(i) == '}' && !isInString(line, i))
                 depth--;
         }
-        return depth == 0 ? false : true;
+        return depth != 0;
     }
 
     /**
@@ -105,7 +107,7 @@ public final class StringUtils {
      * @param target
      *               The character to look for.
      *
-     * @return {@code true} if the character appears outside of a string,
+     * @return {@code true} if the character appears outside a string,
      *         {@code false} otherwise.
      *
      * @see #countUnquotedChar(String, char)
@@ -144,7 +146,7 @@ public final class StringUtils {
     }
 
     /**
-     * Finds the first instance of the target character outside of a string literal.
+     * Finds the first instance of the target character outside a string literal.
      *
      * @param line
      *               The {@code string} through which to search
@@ -334,10 +336,11 @@ public final class StringUtils {
      * Splits a string by a separator only when it is not inside an object or an
      * array.
      *
-     * @param string
-     * @param separator
+     * @param string String to split.
+     * @param separator String use as separator where it appears outside a nested object.
      *
-     * @return
+     * @return Array of Strings split using the separator, which will not appear in the array
+     *         unless it is in a nested object.
      */
     public static String[] splitByStringNotNested(String string, String separator) {
         List<String> parts = new ArrayList<>();
@@ -443,8 +446,7 @@ public final class StringUtils {
 
     /**
      * Replaces all occurrences of a specified regular expression where it appears
-     * outside of a quotated string in the
-     * input text with a replacement string.
+     * outside a quoted string in the input text with a replacement string.
      *
      * @param text
      *                    The input string in which the replacements will be made.
@@ -453,7 +455,7 @@ public final class StringUtils {
      * @param replacement
      *                    The string to replace the matched regex
      *
-     * @return A new string with all occurrences of the regex outside of a string
+     * @return A new string with all occurrences of the regex outside a string
      *         replaced by the replacement string
      *
      * @see #isInString(String, int)
@@ -555,6 +557,88 @@ public final class StringUtils {
         }
 
         return result.toString();
+    }
+
+    /**
+     * Capitalizes the first letter of each word in the given text. Other letters which are
+     * already capitalized will keep their case.
+     * @param text String text to turn to title case.
+     * @return Passed text with at least the first letter of each word capitalized.
+     * @see #toTitleCase(String, boolean)
+     */
+    public static String toTitleCase(String text) {
+        return toTitleCase(text, false);
+    }
+
+    /**
+     * Capitalizes the first letter of each word in the given text, optionally skipping articles
+     * like 'the', 'and', 'of', 'in', etc. Other letters which are already capitalized will keep
+     * their case.
+     * @param text String text to turn to title case.
+     * @param ignoreArticles Whether to ignore articles when capitalizing.
+     * @return Passed text with at least the first letter of each word capitalized.
+     */
+    public static String toTitleCase(String text, boolean ignoreArticles) {
+        Set<String> ignore = Set.of(
+            "a", "an", "the", "for", "and", "nor", "but", "or", "yet", "so", "at", "by", "in", "of",
+            "on", "to", "up", "with", "until", "while", "as", "off", "per", "via", "that"
+        );
+        return toTitleCase(text, ignoreArticles ? ignore : List.of());
+    }
+
+    /**
+     * Capitalizes the first letter of each word in the given text, skipping any words present
+     * in the ignore list. These ignored words will be treated as case-insensitive when matching
+     * to words in the given text, but a complete word in the text must match a complete word in
+     * the ignore list for it to be skipped. Additionally, the first and last words of each sentence
+     * or clause in the text will always be title-cased. Other letters which are already capitalized
+     * will keep their case.
+     * @param text String text to turn to title case.
+     * @param ignore Collection of String words to ignore title casing.
+     * @return Passed text with at least the first letter of each word, except those present in the
+     * ignore list, capitalized.
+     */
+    public static String toTitleCase(String text, Collection<String> ignore) {
+        StringBuilder res = new StringBuilder();
+        for (String word : text.split(" ")) {
+            // Determine if is first or last word in clause
+            boolean isFirstOrLast = false; // TODO
+
+            // Determine whether to ignore
+            if (ignore.contains(word) && !isFirstOrLast) continue;
+
+            // Find the first letter in the word
+            int firstLetterIdx = 0;
+            while (!Character.isAlphabetic(word.charAt(firstLetterIdx))) firstLetterIdx++;
+            char first = word.charAt(firstLetterIdx);
+
+            // Build the title-cased word
+            String titleCased = "";
+            if (firstLetterIdx != 0) {
+                titleCased += word.substring(0, firstLetterIdx);
+            }
+            titleCased += Character.toTitleCase(first);
+            if (firstLetterIdx < word.length() - 1) {
+                titleCased += word.substring(firstLetterIdx + 1);
+            }
+
+            // Add to res
+            res.append(titleCased).append(" ");
+        }
+        return res.toString();
+    }
+
+    public static String[] splitClauses(String text) {
+        /*
+        Split by period, question mark, exclamation mark, colon, and semicolon which is proceeded
+        by a non-whitespace character, followed immediately by some whitespace and then a capital
+        letter or number OR a semicolon proceeded by a non-whitespace character, followed
+        immediately by some whitespace and then any non-whitespace character.
+        */
+        /* Test Sentence:
+        This is a sentence. This is another sentence. Do questions work? Wow, they do! Here is one example of a vexing sentence to split: Dr. Jim is my dentist. Things that do work are numbers, like 12.54 and 13.2. 11 is the first token in this sentence. Now I'm thinking about ellipses... The last sentence in this paragraph is not captured; this can be disregarded for the purpose of splitting clauses.
+         */
+        return text.split("(?<=\\S)[.?!:;]\\s+(?=[A-Z0-9])|(?<=.);\\s+(?=\\S)");
     }
 
 }

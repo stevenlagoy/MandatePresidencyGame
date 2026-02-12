@@ -115,7 +115,7 @@ public class TimeManager extends Manager {
     /**
      * Calculates and returns the number of milliseconds since epoch for Jan 1
      * 00:00:00 in a given year, adjusted to the EST timezone.
-     * 
+     *
      * @param year The year to calculate (1900, 1970, 2000)
      * @return The number of milliseconds since epoch.
      */
@@ -174,7 +174,7 @@ public class TimeManager extends Manager {
 
     /**
      * Creates a date from a formatted string.
-     * 
+     *
      * @param dateString The String to parse into a Date.
      * @return Parsed date, or {@code null} if unsuccessful.
      */
@@ -192,7 +192,7 @@ public class TimeManager extends Manager {
     /**
      * Returns the date in the format MM/DD for the given day ordinal. Includes leap
      * years (i = 59).
-     * 
+     *
      * @param dayOrdinal Day ordinal to convert to a date.
      * @return Date in the format MM/DD.
      */
@@ -233,7 +233,7 @@ public class TimeManager extends Manager {
     /**
      * Returns the day ordinal for the given date in the format MM/DD. Includes leap
      * years (i = 59).
-     * 
+     *
      * @param dateFormat Date in the format MM/DD to convert to a day ordinal.
      * @return Day ordinal for the given date.
      */
@@ -276,7 +276,7 @@ public class TimeManager extends Manager {
 
     /**
      * Calculates the amount of time in between two dates.
-     * 
+     *
      * @param startDate The start date to calculate the time from.
      * @param endDate   The end date to calculate the time unil.
      * @return The amount of time in milliseconds between the two dates.
@@ -288,7 +288,7 @@ public class TimeManager extends Manager {
     /**
      * Calculates the amount of time in between the current game date and the given
      * date.
-     * 
+     *
      * @param date The date to calculate the time since.
      * @return The amount of time in milliseconds between the current game date and
      *         the given date.
@@ -304,7 +304,7 @@ public class TimeManager extends Manager {
     /**
      * Calculates the number of years between the current game date and the given
      * date.
-     * 
+     *
      * @param date A past date to use in the calculation.
      * @return The number of years (whole number) ago which the date represents.
      * @see #millisecondsAgo(Date)
@@ -314,8 +314,17 @@ public class TimeManager extends Manager {
     }
 
     /**
+     * Determines the date it was yearsAgo years before the current game date.
+     * @param yearsAgo Number of years to step backwards from the current game date.
+     * @return LocalDate it was the given number of years ago.
+     */
+    public LocalDate dateYearsAgo(long yearsAgo) {
+        return currentGameDate.toLocalDate().minusYears(yearsAgo);
+    }
+
+    /**
      * Determine a date from a year, month, and day of the month.
-     * 
+     *
      * @param year  Complete year (2020, 2028, etc)
      * @param month 1-indexed month (Jan = 1, Feb = 2, ..., Dec = 12)
      * @param date  Day of the month (1, 2, 3, ...)
@@ -328,7 +337,7 @@ public class TimeManager extends Manager {
     /**
      * Determine a date from a month and date. The Year is inferred to be the
      * current game year.
-     * 
+     *
      * @param month 1-indexed month (Jan = 1, Feb = 2, ..., Dec = 12)
      * @param date  Day of the month (1, 2, 3, ...)
      * @return LocalDate with the current game year, passed month, and passed day of
@@ -341,7 +350,7 @@ public class TimeManager extends Manager {
     /**
      * Get the date based on a year, month, day, and the order of the day in the
      * month. I.E. "3rd Tuesday in April 2025"
-     * 
+     *
      * @param year
      * @param month
      * @param day   Day of the week (Monday = 1, Tuesday = 2, ..., Sunday = 7)
