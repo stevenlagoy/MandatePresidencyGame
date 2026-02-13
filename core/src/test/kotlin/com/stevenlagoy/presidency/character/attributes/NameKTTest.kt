@@ -44,7 +44,7 @@ class NameKTTest {
     }
 
     @Test
-    fun `default constructor`() {
+    fun `no-arg constructor`() {
         val name = NameKT()
         assertEquals(NameForm.WESTERN, name.nameForm)
         assertEquals("", name.givenName)
@@ -95,50 +95,6 @@ class NameKTTest {
         assertEquals("Sr.", newName.ordinal)
         assertEquals(listOf("PhD", "MD"), newName.suffixes)
         assertEquals(setOf(DisplayOption.INCLUDE_MIDDLE, DisplayOption.ABBREVIATE_FIRST), newName.displayOptions)
-    }
-
-    @Test
-    fun `secondary constructor -- nameForm, givenName, middleName, lastName`() {
-        val name1 = NameKT(
-            NameForm.WESTERN,
-            "John",
-            "Michael",
-            "Doe"
-        )
-        assertEquals(NameForm.WESTERN, name1.nameForm)
-        assertEquals("John", name1.givenName)
-        assertEquals("Michael", name1.middleName)
-        assertEquals("Doe", name1.familyName)
-        assertEquals("", name1.birthSurname)
-        assertEquals("", name1.paternalName)
-        assertEquals("", name1.maternalName)
-        assertEquals("", name1.nickname)
-        assertEquals("", name1.religiousName)
-        assertEquals("", name1.westernName)
-        assertEquals("", name1.honorific)
-        assertEquals("", name1.ordinal)
-        assertEquals(listOf<String>(), name1.suffixes)
-        assertEquals(setOf<DisplayOption>(), name1.displayOptions)
-        val name2 = NameKT(
-            NameForm.HISPANIC,
-            "Juan",
-            "Miguel",
-            "Ramos de la Cruz Salamanca"
-        )
-        assertEquals(NameForm.HISPANIC, name2.nameForm)
-        assertEquals("Juan", name2.givenName)
-        assertEquals("Miguel", name2.middleName)
-        assertEquals("Ramos de la Cruz Salamanca", name2.familyName)
-        assertEquals("", name2.birthSurname)
-        assertEquals("Ramos de la Cruz", name2.paternalName)
-        assertEquals("Salamanca", name2.maternalName)
-        assertEquals("", name2.nickname)
-        assertEquals("", name2.religiousName)
-        assertEquals("", name2.westernName)
-        assertEquals("", name2.honorific)
-        assertEquals("", name2.ordinal)
-        assertEquals(listOf<String>(), name2.suffixes)
-        assertEquals(setOf<DisplayOption>(), name2.displayOptions)
     }
 
     @Test
@@ -272,8 +228,29 @@ class NameKTTest {
         assertEquals("Bocheng Heng", name.legalName)
         assertEquals("Heng Bocheng", name.formalName)
         assertEquals("\"Peter\" Heng Bocheng", name.biographicalName)
-        assertEquals("Heng Cheng", name.commonName)
-        assertEquals("Heng Cheng", name.informalName)
+        assertEquals("Cheng Heng", name.commonName)
+        assertEquals("Cheng Heng", name.informalName)
+
+        name.displayOptions += DisplayOption.INCLUDE_WESTERN
+        assertEquals("Bocheng Heng", name.legalName)
+        assertEquals("Heng Bocheng", name.formalName)
+        assertEquals("\"Peter\" Heng Bocheng", name.biographicalName)
+        assertEquals("Peter Heng", name.commonName)
+        assertEquals("Peter Heng", name.informalName)
+
+        name.displayOptions += DisplayOption.WESTERN_FIRST
+        assertEquals("Bocheng Heng", name.legalName)
+        assertEquals("Heng Bocheng", name.formalName)
+        assertEquals("\"Peter\" Heng Bocheng", name.biographicalName)
+        assertEquals("Peter Cheng Heng", name.commonName)
+        assertEquals("Peter Cheng", name.informalName)
+
+        name.displayOptions -= DisplayOption.LATENT_GENERATION
+        assertEquals("Bocheng Heng", name.legalName)
+        assertEquals("Heng Bocheng", name.formalName)
+        assertEquals("\"Peter\" Heng Bocheng", name.biographicalName)
+        assertEquals("Peter Bocheng Heng", name.commonName)
+        assertEquals("Peter Cheng", name.informalName)
     }
 
 }

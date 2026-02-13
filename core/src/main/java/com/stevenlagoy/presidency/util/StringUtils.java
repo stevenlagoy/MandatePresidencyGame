@@ -603,6 +603,7 @@ public final class StringUtils {
         for (String word : text.split(" ")) {
             // Determine if is first or last word in clause
             boolean isFirstOrLast = false; // TODO
+            
 
             // Determine whether to ignore
             if (ignore.contains(word) && !isFirstOrLast) continue;
