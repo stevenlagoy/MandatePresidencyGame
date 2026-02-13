@@ -36,39 +36,22 @@ import com.stevenlagoy.presidency.data.Repr
  * @author Steven LaGoy
  */
 class NameKT(
-    var nameForm: NameForm,
-    givenName: String,
-    var middleName: String,
-    familyName: String,
-    var birthSurname: String,
-    var paternalName: String,
-    var maternalName: String,
-    var nickname: String,
-    var religiousName: String,
-    var westernName: String,
-    var honorific: String,
-    var ordinal: String,
-    var suffixes: List<String>,
-    var displayOptions: Set<DisplayOption>
+    var nameForm: NameForm = NameForm.WESTERN,
+    givenName: String = "",
+    var middleName: String = "",
+    familyName: String = "",
+    var birthSurname: String = "",
+    paternalName: String = "",
+    maternalName: String = "",
+    var nickname: String = "",
+    var religiousName: String = "",
+    var westernName: String = "",
+    var honorific: String = "",
+    var ordinal: String = "",
+    var suffixes: List<String> = listOf(),
+    var displayOptions: Set<DisplayOption> = setOf()
 ) : Repr<NameKT>, Jsonic<NameKT>
 {
-    /** Default-construct a name with empty names, lists, and default [NameForm.WESTERN].*/
-    constructor() : this(
-        NameForm.WESTERN,
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        listOf(),
-        setOf()
-    )
 
     /** Create a name based on the Repr string. See [fromRepr]. */
     constructor(repr: String) : this() { fromRepr(repr) }
@@ -93,24 +76,6 @@ class NameKT(
         other.suffixes,
         other.displayOptions
     )
-
-    /** Create a name with the given properties, with others being default-constructed. */
-    constructor(nameForm: NameForm, givenName: String, middleName: String, lastName: String) : this(
-        nameForm,
-        givenName,
-        middleName,
-        lastName,
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        listOf(),
-        setOf()
-    ) { if (nameForm == NameForm.HISPANIC) splitApellidos() }
 
     /** Create a name with the given properties, with others being default-constructed. */
     constructor(firstName: String, middleName: String, lastName: String) : this(NameForm.WESTERN, firstName, middleName, lastName)
@@ -233,12 +198,24 @@ class NameKT(
         get() = if (nameForm == NameForm.EASTERN && !middleName.isBlank() && !displayOptions.contains((DisplayOption.LATENT_GENERATION))) field.lowercase() else field
 
     val givenNames: String
-        get() = if (nameForm == NameForm.EASTERN) "$middleName$givenName" else "$givenName $middleName".trim()
+        get() = if (nameForm == NameForm.EASTERN) "$middleName${givenName.lowercase()}" else "$givenName $middleName".trim()
 
     var familyName: String = familyName
-        set(value: String) {
+        set(value) {
             field = value
             if (nameForm == NameForm.HISPANIC) splitApellidos()
+        }
+
+    var paternalName = paternalName
+        get() {
+            if (field.isBlank() && nameForm == NameForm.HISPANIC) splitApellidos()
+            return field
+        }
+
+    var maternalName = maternalName
+        get() {
+            if (field.isBlank() && nameForm == NameForm.HISPANIC) splitApellidos()
+            return field
         }
 
     /** Split [familyName] and set [paternalName] and [maternalName] based on [displayOptions]. */
