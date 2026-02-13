@@ -9,33 +9,33 @@ import com.stevenlagoy.presidency.data.Repr;
 import com.stevenlagoy.presidency.demographics.DemographicsManager.DemographicCategory;
 import com.stevenlagoy.presidency.util.Logger;
 
-public class Demographics implements Repr<Demographics>, Jsonic<Demographics> {
+public class DemographicsJava implements Repr<DemographicsJava>, Jsonic<DemographicsJava> {
 
-    private Bloc generation;
-    private Bloc religion;
-    private Bloc raceEthnicity;
-    private Bloc presentation;
+    private BlocJava generation;
+    private BlocJava religion;
+    private BlocJava raceEthnicity;
+    private BlocJava presentation;
 
-    public Demographics() {
+    public DemographicsJava() {
         this.generation = null;
         this.religion = null;
         this.raceEthnicity = null;
         this.presentation = null;
     }
 
-    public Demographics(Demographics other) {
+    public DemographicsJava(DemographicsJava other) {
         this.generation = other.getGeneration();
         this.religion = other.getReligion();
         this.raceEthnicity = other.getRaceEthnicity();
         this.presentation = other.getPresentation();
     }
 
-    public Demographics(JSONObject demographicsJson) {
+    public DemographicsJava(JSONObject demographicsJson) {
         fromJson(demographicsJson);
     }
 
-    public Demographics(DemographicsManager dm, String generation, String religion, String raceEthnicity,
-            String presentation) {
+    public DemographicsJava(DemographicsManager dm, String generation, String religion, String raceEthnicity,
+                            String presentation) {
         this.generation = dm.matchBlocName(generation);
         if (!this.generation.getDemographicGroup().equals(DemographicCategory.GENERATION)) {
             Logger.log("INVALID BLOC GROUP",
@@ -70,7 +70,7 @@ public class Demographics implements Repr<Demographics>, Jsonic<Demographics> {
         }
     }
 
-    public Demographics(Bloc generation, Bloc religion, Bloc raceEthnicity, Bloc presentation) {
+    public DemographicsJava(BlocJava generation, BlocJava religion, BlocJava raceEthnicity, BlocJava presentation) {
         this.generation = generation;
         if (!this.generation.getDemographicGroup().equals(DemographicCategory.GENERATION)) {
             Logger.log("INVALID BLOC GROUP",
@@ -105,15 +105,15 @@ public class Demographics implements Repr<Demographics>, Jsonic<Demographics> {
         }
     }
 
-    public Demographics(String buildstring) {
+    public DemographicsJava(String buildstring) {
         this.fromRepr(buildstring);
     }
 
-    public Bloc getGeneration() {
+    public BlocJava getGeneration() {
         return this.generation;
     }
 
-    public void setGeneration(Bloc generation) {
+    public void setGeneration(BlocJava generation) {
         this.generation = generation;
         if (!this.generation.getDemographicGroup().equals(DemographicCategory.GENERATION)) {
             Logger.log("INVALID BLOC GROUP",
@@ -124,11 +124,11 @@ public class Demographics implements Repr<Demographics>, Jsonic<Demographics> {
         }
     }
 
-    public Bloc getReligion() {
+    public BlocJava getReligion() {
         return this.religion;
     }
 
-    public void setReligion(Bloc religion) {
+    public void setReligion(BlocJava religion) {
         this.religion = religion;
         if (!this.religion.getDemographicGroup().equals(DemographicCategory.RELIGION)) {
             Logger.log("INVALID BLOC GROUP",
@@ -139,11 +139,11 @@ public class Demographics implements Repr<Demographics>, Jsonic<Demographics> {
         }
     }
 
-    public Bloc getRaceEthnicity() {
+    public BlocJava getRaceEthnicity() {
         return this.raceEthnicity;
     }
 
-    public void setRaceEthnicity(Bloc raceEthnicity) {
+    public void setRaceEthnicity(BlocJava raceEthnicity) {
         this.raceEthnicity = raceEthnicity;
         if (!this.raceEthnicity.getDemographicGroup().equals(DemographicCategory.RACE_ETHNICITY)) {
             Logger.log("INVALID BLOC GROUP",
@@ -154,11 +154,11 @@ public class Demographics implements Repr<Demographics>, Jsonic<Demographics> {
         }
     }
 
-    public Bloc getPresentation() {
+    public BlocJava getPresentation() {
         return this.presentation;
     }
 
-    public void setPresentation(Bloc presentation) {
+    public void setPresentation(BlocJava presentation) {
         this.presentation = presentation;
         if (!this.presentation.getDemographicGroup().equals(DemographicCategory.PRESENTATION)) {
             Logger.log("INVALID BLOC GROUP",
@@ -169,8 +169,8 @@ public class Demographics implements Repr<Demographics>, Jsonic<Demographics> {
         }
     }
 
-    public Bloc[] toBlocsArray() {
-        return new Bloc[] { generation, religion, raceEthnicity, presentation };
+    public BlocJava[] toBlocsArray() {
+        return new BlocJava[] { generation, religion, raceEthnicity, presentation };
     }
 
     public String toRepr() {
@@ -184,7 +184,7 @@ public class Demographics implements Repr<Demographics>, Jsonic<Demographics> {
         return repr;
     }
 
-    public Demographics fromRepr(String repr) {
+    public DemographicsJava fromRepr(String repr) {
         return this;
     }
 
@@ -199,7 +199,7 @@ public class Demographics implements Repr<Demographics>, Jsonic<Demographics> {
     }
 
     @Override
-    public Demographics fromJson(JSONObject demographicsJson) {
+    public DemographicsJava fromJson(JSONObject demographicsJson) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'fromJson'");
     }

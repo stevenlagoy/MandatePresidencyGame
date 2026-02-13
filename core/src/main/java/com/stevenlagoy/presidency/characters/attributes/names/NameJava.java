@@ -18,7 +18,6 @@ import java.util.Set;
 
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.Jsonic;
-import com.stevenlagoy.presidency.characters.attributes.names.Name.NameForm;
 import com.stevenlagoy.presidency.data.Repr;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -32,7 +31,7 @@ import com.stevenlagoy.presidency.data.Repr;
  * Contains fields and methods for basic parts of a person's name, data about
  * the way those parts are used, and various forms of displaying that name.
  */
-public final class Name implements Repr<Name>, Jsonic<Name> {
+public final class NameJava implements Repr<NameJava>, Jsonic<NameJava> {
 
     /** Enum for parts of a name. */
     private static enum NamePart {
@@ -164,12 +163,12 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
     /**
      * Creates a Name with all fields default. The nameform will be
      * {@code NameForm.defaultForm}
-     * 
+     *
      * @see #Name(NameForm, String, boolean, boolean, String, boolean, boolean,
      *      String, String, String, String, List, boolean, String, String, String,
      *      String, String, List)
      */
-    public Name() {
+    public NameJava() {
         this.nameForm      = NameForm.defaultForm;
         this.givenName     = "";
         this.middleName    = "";
@@ -188,21 +187,21 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
         this.displayOptions = new HashSet<>();
     }
 
-    public Name(String buildstring) {
+    public NameJava(String buildstring) {
         if (buildstring == null || buildstring.isBlank()) {
             throw new IllegalArgumentException("The given buildstring was null, and a Name object could not be created.");
         }
         fromRepr(buildstring);
     }
 
-    public Name(JSONObject json) {
+    public NameJava(JSONObject json) {
         if (json == null) {
             throw new IllegalArgumentException("The passed JSON Object was null, and a Character object could not be created.");
         }
         fromJson(json);
     }
 
-    public Name(Name other) {
+    public NameJava(NameJava other) {
         this();
         this.nameForm      = other.getNameForm();
         this.givenName     = other.getGivenName();
@@ -224,11 +223,11 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
             this.displayOptions.add(option);
     }
 
-    public Name(String firstName, String middleName, String lastName) {
+    public NameJava(String firstName, String middleName, String lastName) {
         this(NameForm.defaultForm, firstName, middleName, lastName);
     }
 
-    public Name(NameForm nameform, String givenName, String middleName, String familyName) {
+    public NameJava(NameForm nameform, String givenName, String middleName, String familyName) {
         this();
         this.nameForm = nameform != null ? nameform : NameForm.defaultForm;
         switch (this.nameForm) {
@@ -256,7 +255,7 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
         this.suffixes = new ArrayList<>();
     }
 
-    public Name(
+    public NameJava(
             NameForm nameForm,
             String givenName,
             String middleName,
@@ -447,7 +446,7 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
      * Get this name in the Legal Style: Given Middle Family Ordinal
      * <p>
      * Example: Joseph Robinette Biden Jr.
-     * 
+     *
      * @return Name in Legal Style
      */
     public String getLegalName() {
@@ -468,7 +467,7 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
      * Family Ordinal
      * <p>
      * Example: Pres. James Earl "Jimmy" Carter Jr.
-     * 
+     *
      * @return Name in Biographical Style
      */
     public String getBiographicalName() {
@@ -479,7 +478,7 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
      * Get this name in the Common Style: First Middle Family
      * <p>
      * Example: George W. Bush
-     * 
+     *
      * @return Name in Common Style
      */
     public String getCommonName() {
@@ -490,7 +489,7 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
      * Get this name in the Informal Style: First/Nickname Family
      * <p>
      * Example: Bill Clinton
-     * 
+     *
      * @return Name in Informal Style
      */
     public String getInformalName() {
@@ -602,11 +601,11 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
         return repr;
     }
 
-    public Name fromRepr(String repr) {
+    public NameJava fromRepr(String repr) {
         return this;
     }
 
-    public Name fromJson(JSONObject nameJson) {
+    public NameJava fromJson(JSONObject nameJson) {
         return this;
     }
 

@@ -23,7 +23,7 @@ import com.stevenlagoy.jsonic.Jsonic;
 import com.stevenlagoy.presidency.characters.LocalOfficial;
 import com.stevenlagoy.presidency.characters.LocalOfficial.LocalRole;
 import com.stevenlagoy.presidency.core.Engine;
-import com.stevenlagoy.presidency.demographics.Bloc;
+import com.stevenlagoy.presidency.demographics.BlocJava;
 import com.stevenlagoy.presidency.demographics.DemographicsManager;
 import com.stevenlagoy.presidency.util.Logger;
 
@@ -89,7 +89,7 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
     /** Geographic descriptors. County and State descriptors will be inherited. */
     private Set<String> descriptors;
     /** Percentages of the municipality which belong to each Bloc. */
-    private Map<Bloc, Float> demographics;
+    private Map<BlocJava, Float> demographics;
 
     // For contract / proxy calculations in Travel
     private Municipality contractLocation;
@@ -351,17 +351,17 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
     // Demographics : Map of Bloc to Float
 
     @Override
-    public Map<Bloc, Float> getDemographics() {
+    public Map<BlocJava, Float> getDemographics() {
         return this.demographics;
     }
 
     @Override
-    public float getDemographicPercentage(Bloc bloc) {
+    public float getDemographicPercentage(BlocJava bloc) {
         return this.demographics.get(bloc) != null ? this.demographics.get(bloc) : 0.0f;
     }
 
     @Override
-    public int getDemographicPopulation(Bloc bloc) {
+    public int getDemographicPopulation(BlocJava bloc) {
         return Math.round(getDemographicPercentage(bloc) * population);
     }
 

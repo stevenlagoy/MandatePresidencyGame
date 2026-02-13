@@ -24,12 +24,12 @@ import com.stevenlagoy.presidency.data.Repr;
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.Jsonic;
 import com.stevenlagoy.presidency.characters.FederalOfficial;
-import com.stevenlagoy.presidency.characters.PoliticalActor;
+import com.stevenlagoy.presidency.characters.PoliticalActorJava;
 import com.stevenlagoy.presidency.characters.StateOfficial;
 import com.stevenlagoy.presidency.characters.FederalOfficial.FederalRole;
 import com.stevenlagoy.presidency.characters.StateOfficial.StateRole;
 import com.stevenlagoy.presidency.core.Engine;
-import com.stevenlagoy.presidency.demographics.Bloc;
+import com.stevenlagoy.presidency.demographics.BlocJava;
 import com.stevenlagoy.presidency.demographics.DemographicsManager;
 import com.stevenlagoy.presidency.politics.ElectionResult;
 import com.stevenlagoy.presidency.politics.Legislature;
@@ -68,7 +68,7 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
     /** Capital municipality of the state. */
     private Municipality capital;
     private Set<String> descriptors;
-    private Map<Bloc, Float> demographics;
+    private Map<BlocJava, Float> demographics;
     private List<FederalOfficial> senators;
     private List<FederalOfficial> representatives;
     private List<Legislature> stateHouses;
@@ -294,17 +294,17 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
     // Demographics : Map of Bloc to Float
 
     @Override
-    public Map<Bloc, Float> getDemographics() {
+    public Map<BlocJava, Float> getDemographics() {
         return demographics;
     }
 
     @Override
-    public float getDemographicPercentage(Bloc bloc) {
+    public float getDemographicPercentage(BlocJava bloc) {
         return this.demographics.get(bloc) != null ? this.demographics.get(bloc) : 0.0f;
     }
 
     @Override
-    public int getDemographicPopulation(Bloc bloc) {
+    public int getDemographicPopulation(BlocJava bloc) {
         return Math.round(getDemographicPercentage(bloc) * population);
     }
 
@@ -343,7 +343,7 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
         }
     }
 
-    public boolean hasSenator(PoliticalActor senator) {
+    public boolean hasSenator(PoliticalActorJava senator) {
         return senators.contains(senator);
     }
 

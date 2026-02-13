@@ -3,46 +3,46 @@ package com.stevenlagoy.presidency.politics;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
-import com.stevenlagoy.presidency.characters.Character;
+import com.stevenlagoy.presidency.characters.CharacterJava;
 
 import java.util.HashSet;
 
 public class Operation {
     public static List<Operation> instances = new ArrayList<>();
 
-    private Character operator;
-    private Set<Character> agents;
+    private CharacterJava operator;
+    private Set<CharacterJava> agents;
 
-    public Operation(Character operator) {
+    public Operation(CharacterJava operator) {
         this.operator = operator;
-        this.agents = new HashSet<Character>();
+        this.agents = new HashSet<CharacterJava>();
     }
 
-    public Operation(Character operator, Character[] agents) {
+    public Operation(CharacterJava operator, CharacterJava[] agents) {
         this.operator = operator;
-        this.agents = new HashSet<Character>();
-        for (Character c : agents) {
+        this.agents = new HashSet<CharacterJava>();
+        for (CharacterJava c : agents) {
             this.agents.add(c);
         }
     }
 
-    public Character getOperator() {
+    public CharacterJava getOperator() {
         return this.operator;
     }
 
-    public void setOperator(Character c) {
+    public void setOperator(CharacterJava c) {
         this.operator = c;
     }
 
-    public Set<Character> getAgents() {
+    public Set<CharacterJava> getAgents() {
         return this.agents;
     }
 
-    public void addAgent(Character c) {
+    public void addAgent(CharacterJava c) {
         this.agents.add(c);
     }
 
-    public void removeAgent(Character c) {
+    public void removeAgent(CharacterJava c) {
         this.agents.remove(c);
     }
 

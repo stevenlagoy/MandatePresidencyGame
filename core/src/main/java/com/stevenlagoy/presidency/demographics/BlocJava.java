@@ -16,23 +16,23 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.HashMap;
 
+import com.stevenlagoy.presidency.characters.CharacterJava;
 import com.stevenlagoy.presidency.data.Repr;
 import com.stevenlagoy.presidency.demographics.DemographicsManager.DemographicCategory;
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.Jsonic;
-import com.stevenlagoy.presidency.characters.Character;
 
 /**
  * Bloc is a group defined by membership of a demographic subset, which could be Race & Ethnicity,
  * Religion, Generation, or many other common groupings of voters in the United States.
  */
-public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
+public class BlocJava implements Repr<BlocJava>, Jsonic<BlocJava> {
 
-    private static List<Bloc> instances = new ArrayList<>();
+    private static List<BlocJava> instances = new ArrayList<>();
 
-    private static HashMap<DemographicCategory, HashSet<Bloc>> demographics = new HashMap<DemographicCategory, HashSet<Bloc>>();
+    private static HashMap<DemographicCategory, HashSet<BlocJava>> demographics = new HashMap<DemographicCategory, HashSet<BlocJava>>();
 
-    public static List<Bloc> getInstances() {
+    public static List<BlocJava> getInstances() {
         return instances;
     }
 
@@ -49,13 +49,13 @@ public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
     private String name;
     private long numVoters;
     private float percentVoters;
-    private List<Character> members;
+    private List<CharacterJava> members;
     private DemographicCategory category;
-    private HashMap<Bloc, Double> overlaps = new HashMap<Bloc, Double>();
-    private Bloc superBloc;
-    private List<Bloc> subBlocs = new ArrayList<>();
+    private HashMap<BlocJava, Double> overlaps = new HashMap<BlocJava, Double>();
+    private BlocJava superBloc;
+    private List<BlocJava> subBlocs = new ArrayList<>();
 
-    public Bloc(String name, DemographicCategory category) {
+    public BlocJava(String name, DemographicCategory category) {
         this.name = name;
         this.numVoters = 0;
         this.percentVoters = 0;
@@ -63,15 +63,15 @@ public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
         this.superBloc = null;
         this.members = new ArrayList<>();
 
-        Bloc.instances.add(this);
+        BlocJava.instances.add(this);
         if (!demographics.containsKey(category))
-            demographics.put(category, new HashSet<Bloc>());
+            demographics.put(category, new HashSet<BlocJava>());
         demographics.get(category).add(this);
     }
 
     // CONSTRUCTORS -------------------------------------------------------------------------------------------------------------------------------------------
 
-    public Bloc(String name, DemographicCategory category, long numVoters, long totalVoters) {
+    public BlocJava(String name, DemographicCategory category, long numVoters, long totalVoters) {
         this.name = name;
         this.numVoters = numVoters;
         this.percentVoters = 1.0f * numVoters / totalVoters;
@@ -79,9 +79,9 @@ public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
         this.superBloc = null;
         this.members = new ArrayList<>();
 
-        Bloc.instances.add(this);
+        BlocJava.instances.add(this);
         if (!demographics.containsKey(category))
-            demographics.put(category, new HashSet<Bloc>());
+            demographics.put(category, new HashSet<BlocJava>());
         demographics.get(category).add(this);
     }
 
@@ -105,15 +105,15 @@ public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
         this.numVoters = (long) percentVoters * totalVoters;
     }
 
-    public List<com.stevenlagoy.presidency.characters.Character> getMembers() {
+    public List<CharacterJava> getMembers() {
         return members;
     }
 
-    public void addMember(com.stevenlagoy.presidency.characters.Character member) {
+    public void addMember(CharacterJava member) {
         this.members.add(member);
     }
 
-    public void removeMember(com.stevenlagoy.presidency.characters.Character member) {
+    public void removeMember(CharacterJava member) {
         this.members.remove(member);
     }
 
@@ -128,7 +128,7 @@ public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
     public List<String> getNestedNames() {
         // return a list of the names of this bloc and all superblocs
         List<String> names = new ArrayList<>();
-        Bloc bloc = this;
+        BlocJava bloc = this;
         do {
             names.add(bloc.getName());
             bloc = bloc.getSuperBloc();
@@ -136,9 +136,9 @@ public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
         return names;
     }
 
-    public List<Bloc> getNestedSuperBlocs() {
-        List<Bloc> blocs = new ArrayList<>();
-        Bloc bloc = this;
+    public List<BlocJava> getNestedSuperBlocs() {
+        List<BlocJava> blocs = new ArrayList<>();
+        BlocJava bloc = this;
         do {
             blocs.add(bloc);
             bloc = bloc.getSuperBloc();
@@ -154,36 +154,36 @@ public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
         this.category = category;
     }
 
-    public Bloc getSuperBloc() {
+    public BlocJava getSuperBloc() {
         return superBloc;
     }
 
-    public void setSuperBloc(Bloc superBloc) {
+    public void setSuperBloc(BlocJava superBloc) {
         this.superBloc = superBloc;
     }
 
-    public List<Bloc> getSubBlocs() {
+    public List<BlocJava> getSubBlocs() {
         return this.subBlocs;
     }
 
-    public void addSubBloc(Bloc bloc) {
+    public void addSubBloc(BlocJava bloc) {
         bloc.setSuperBloc(this);
         this.subBlocs.add(bloc);
     }
 
-    public void addSubBlocs(Bloc[] blocs) {
-        for (Bloc bloc : blocs) {
+    public void addSubBlocs(BlocJava[] blocs) {
+        for (BlocJava bloc : blocs) {
             this.addSubBloc(bloc);
         }
     }
 
-    public <T extends Collection<Bloc>> void addSubBlocs(T blocs) {
-        for (Bloc bloc : blocs) {
+    public <T extends Collection<BlocJava>> void addSubBlocs(T blocs) {
+        for (BlocJava bloc : blocs) {
             this.addSubBloc(bloc);
         }
     }
 
-    public void removeSubBloc(Bloc bloc) {
+    public void removeSubBloc(BlocJava bloc) {
         bloc.setSuperBloc(null);
         this.subBlocs.remove(bloc);
     }
@@ -195,13 +195,13 @@ public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
     /**
      * Calculates how over- or under-represented a bloc is among all Character
      * instances. Ratio of actual membership to expected membership. O(1)
-     * 
+     *
      * @param bloc The bloc to be evaluated for representation.
      * @return A float value for representation. <1 indicates the bloc is
      *         under-represented, while >1 indicates the bloc is over-represented.
      */
     @Override
-    public Bloc fromRepr(String repr) {
+    public BlocJava fromRepr(String repr) {
         return this;
     }
 
@@ -235,7 +235,7 @@ public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
     }
 
     @Override
-    public Bloc fromJson(JSONObject json) {
+    public BlocJava fromJson(JSONObject json) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'fromJson'");
     }
@@ -244,7 +244,7 @@ public class Bloc implements Repr<Bloc>, Jsonic<Bloc> {
 
     @Override
     public boolean equals(Object o) {
-        if (!(o instanceof Bloc b))
+        if (!(o instanceof BlocJava b))
             return false;
         return this.name.equals(b.name) &&
                 this.numVoters == b.numVoters &&

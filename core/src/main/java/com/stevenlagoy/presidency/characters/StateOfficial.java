@@ -28,7 +28,7 @@ import com.stevenlagoy.presidency.map.State;
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /** StateOfficial is a {@code Character} with a role at the State level. */
-public class StateOfficial extends PoliticalActor {
+public class StateOfficial extends PoliticalActorJava {
 
     public static enum StateRole implements Role {
         GOVERNOR,
@@ -54,7 +54,7 @@ public class StateOfficial extends PoliticalActor {
     // CONSTRUCTORS -------------------------------------------------------------------------------------------------------------------------------------------
 
     public StateOfficial(CharacterManager cm, DemographicsManager dm, MapManager mm, NameManager nm) {
-        this(new PoliticalActor(cm, dm, mm, nm));
+        this(new PoliticalActorJava(cm, dm, mm, nm));
         this.jurisdiction = null;
     }
 
@@ -63,11 +63,11 @@ public class StateOfficial extends PoliticalActor {
         this.jurisdiction = other.jurisdiction;
     }
 
-    public StateOfficial(Character character) {
+    public StateOfficial(CharacterJava character) {
         super(character);
     }
 
-    public StateOfficial(PoliticalActor politicalActor) {
+    public StateOfficial(PoliticalActorJava politicalActor) {
         super(politicalActor);
     }
 

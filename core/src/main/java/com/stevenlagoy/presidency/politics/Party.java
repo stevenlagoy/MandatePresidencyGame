@@ -4,7 +4,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
-import com.stevenlagoy.presidency.characters.Character;
+import com.stevenlagoy.presidency.characters.CharacterJava;
 import com.stevenlagoy.presidency.politics.conventions.Convention;
 
 import java.util.HashSet;
@@ -21,7 +21,7 @@ public class Party {
     // private ??? symbol like the animal that represents the party
     private File iconFile;
 
-    private Set<Character> members = new HashSet<>();
+    private Set<CharacterJava> members = new HashSet<>();
     private Set<Convention> conventions = new HashSet<>();
     // list for issues and stances as well
 
@@ -76,15 +76,15 @@ public class Party {
         }
     }
 
-    public Set<Character> getMembers() {
+    public Set<CharacterJava> getMembers() {
         return this.members;
     }
 
-    public void addMember(Character c) {
+    public void addMember(CharacterJava c) {
         this.members.add(c);
     }
 
-    public void removeMember(Character c) {
+    public void removeMember(CharacterJava c) {
         this.members.remove(c);
     }
 

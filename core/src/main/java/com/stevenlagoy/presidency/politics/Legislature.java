@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 import com.stevenlagoy.presidency.characters.FederalOfficial;
 import com.stevenlagoy.presidency.characters.LocalOfficial;
-import com.stevenlagoy.presidency.characters.PoliticalActor;
+import com.stevenlagoy.presidency.characters.PoliticalActorJava;
 import com.stevenlagoy.presidency.characters.StateOfficial;
 import com.stevenlagoy.presidency.characters.FederalOfficial.FederalRole;
 import com.stevenlagoy.presidency.characters.LocalOfficial.LocalRole;
@@ -31,7 +31,7 @@ public class Legislature {
     private int nextElectionYear;
     private int totalSeats;
     private Map<Party, Integer> partyControlledSeats;
-    private List<PoliticalActor> members;
+    private List<PoliticalActorJava> members;
 
     public Legislature(String name, String title, GovernmentLevel governmentLevel, boolean isUpperHouse, int termLength,
             int nextElectionYear, int totalSeats) {
@@ -95,11 +95,11 @@ public class Legislature {
      * Return the members list of this House. Between 0 and {@code totalSeats}
      * characters are generated for any house.
      */
-    public List<PoliticalActor> getMembers() {
+    public List<PoliticalActorJava> getMembers() {
         return members;
     }
 
-    public void addMember(PoliticalActor member) {
+    public void addMember(PoliticalActorJava member) {
         switch (governmentLevel) {
             case LOCAL:
                 if (member instanceof LocalOfficial)

@@ -25,7 +25,7 @@ import com.stevenlagoy.presidency.map.MapManager;
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /** LocalOfficial is a PoliticalActor character with a {@code Role} at the local level. */
-public class LocalOfficial extends PoliticalActor {
+public class LocalOfficial extends PoliticalActorJava {
 
     public static enum LocalRole implements Role {
         MAYOR,

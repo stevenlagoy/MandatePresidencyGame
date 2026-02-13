@@ -10,7 +10,7 @@ package com.stevenlagoy.presidency.map;
 import java.util.Collection;
 import java.util.Map;
 import java.util.Set;
-import com.stevenlagoy.presidency.demographics.Bloc;
+import com.stevenlagoy.presidency.demographics.BlocJava;
 import com.stevenlagoy.presidency.demographics.DemographicsManager;
 
 /**
@@ -30,7 +30,7 @@ public interface MapEntity {
      * <p>
      * Minimum population is zero. If the population is found to be lower, it will
      * be set to zero.
-     * 
+     *
      * @param population New population.
      */
     public void setPopulation(int population);
@@ -40,7 +40,7 @@ public interface MapEntity {
      * <p>
      * Minimum population is zero. If the population is found to be lower, it will
      * be set to zero.
-     * 
+     *
      * @param population Amount of population to be added.
      */
     public void addPopulation(int population);
@@ -53,7 +53,7 @@ public interface MapEntity {
      * <p>
      * Minimum land area is zero. If the land area is found to be lower, it will be
      * set to zero.
-     * 
+     *
      * @param area New land area
      */
     public void setLandArea(double area);
@@ -72,26 +72,26 @@ public interface MapEntity {
 
     public boolean removeAllDescriptors(DemographicsManager dm,Collection<String> descriptors);
 
-    public Map<Bloc, Float> getDemographics();
+    public Map<BlocJava, Float> getDemographics();
 
     /**
      * Get the percentage of a demographic bloc's share within its category.
-     * 
+     *
      * @param bloc The bloc to evaluate.
      * @return Float between 0.0 and 1.0 for the bloc's category share.
-     * @see #getDemographicPopulation(Bloc)
+     * @see #getDemographicPopulation(BlocJava)
      */
-    public float getDemographicPercentage(Bloc bloc);
+    public float getDemographicPercentage(BlocJava bloc);
 
     /**
      * Get the population of a demographic bloc's membership.
-     * 
+     *
      * @param bloc The bloc to evaluate.
      * @return int between zero and the population.
      * @see #getPopulation()
-     * @see #getDemographicPercentage(Bloc)
+     * @see #getDemographicPercentage(BlocJava)
      */
-    public int getDemographicPopulation(Bloc bloc);
+    public int getDemographicPopulation(BlocJava bloc);
 
     public void evaluateDemographics(DemographicsManager dm);
 

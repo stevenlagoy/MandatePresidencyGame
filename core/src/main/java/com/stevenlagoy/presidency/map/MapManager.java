@@ -10,22 +10,18 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Random;
 import java.util.Set;
 
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.JSONProcessor;
 import com.stevenlagoy.jsonic.StringOperations;
-import com.stevenlagoy.presidency.characters.CharacterManager;
-import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
 
 // Internal Imports
 
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
-import com.stevenlagoy.presidency.demographics.Bloc;
-import com.stevenlagoy.presidency.demographics.Demographics;
-import com.stevenlagoy.presidency.demographics.DemographicsManager;
+import com.stevenlagoy.presidency.demographics.BlocJava;
+import com.stevenlagoy.presidency.demographics.DemographicsJava;
 import com.stevenlagoy.presidency.map.travel.route.Airport;
 import com.stevenlagoy.presidency.util.FilePaths;
 import com.stevenlagoy.presidency.util.Logger;
@@ -377,7 +373,7 @@ public final class MapManager extends Manager {
 
     /**
      * Finds and returns a state which matches the passed name.
-     * 
+     *
      * @param stateName The name or abbreviation of the state.
      * @return The matched state, if found, or {@code null} otherwise.
      */
@@ -452,7 +448,7 @@ public final class MapManager extends Manager {
     /**
      * Finds and matches a municipality from a string containing the name of the
      * municipality and the name or abbreviation of a state.
-     * 
+     *
      * @param municipalityAndStateName A String contining the municipality name and
      *                                 and state names or abbreviation, separated by
      *                                 a comma {@code ,}
@@ -488,7 +484,7 @@ public final class MapManager extends Manager {
 
     /**
      * Finds and returns the municipality that matches the passed values.
-     * 
+     *
      * @param municipalityName Name of the municipality, without a state
      *                         abbreviation.
      * @param state            Either the name or abbreviation of a state.
@@ -516,7 +512,7 @@ public final class MapManager extends Manager {
     /**
      * Finds and returns the airport with a full name, common name, or IATA code
      * matching the passed string.
-     * 
+     *
      * @param airportName Full or Common name, or IATA code, of an airport.
      * @return Matched airport, if found, or {@code null} otherwise.
      */
@@ -532,7 +528,7 @@ public final class MapManager extends Manager {
     /**
      * Finds and returns the university with a full name or common name matching the
      * passed string.
-     * 
+     *
      * @param universityName Full or Common name of a university.
      * @return Matched university, if found, or {@code null} otherwise.
      */
@@ -578,11 +574,11 @@ public final class MapManager extends Manager {
         return selected;
     }
 
-    public Municipality selectMunicipality(Demographics demographics) {
+    public Municipality selectMunicipality(DemographicsJava demographics) {
         Map<Municipality, Integer> populations = new HashMap<>();
         for (Municipality municipality : municipalities) {
             int blocsPop = 0;
-            for (Bloc bloc : demographics.toBlocsArray()) {
+            for (BlocJava bloc : demographics.toBlocsArray()) {
                 blocsPop += (int) (municipality.getDemographicPopulation(bloc));
             }
             populations.put(municipality, blocsPop);
@@ -591,17 +587,17 @@ public final class MapManager extends Manager {
         return selected;
     }
 
-    private Map<Bloc, Float> defaultDemographics;
+    private Map<BlocJava, Float> defaultDemographics;
 
-    public Map<Bloc, Float> getDefaultDemographics() {
+    public Map<BlocJava, Float> getDefaultDemographics() {
         if (defaultDemographics != null) {
             return defaultDemographics;
         }
 
         // Must create default demographics
         defaultDemographics = new HashMap<>();
-        for (List<Bloc> blocs : ENGINE.DemographicsManager().getDemographicBlocs().values()) {
-            for (Bloc bloc : blocs) {
+        for (List<BlocJava> blocs : ENGINE.DemographicsManager().getDemographicBlocs().values()) {
+            for (BlocJava bloc : blocs) {
                 defaultDemographics.put(bloc, (float) bloc.getNumVoters() / ENGINE.DemographicsManager().getNumberVoters());
             }
         }

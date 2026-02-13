@@ -27,7 +27,7 @@ import com.stevenlagoy.presidency.map.MapManager;
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /** FederalOfficial is a {@code Character} with a Role at the federal level */
-public class FederalOfficial extends PoliticalActor {
+public class FederalOfficial extends PoliticalActorJava {
 
     public static enum FederalRole implements Role {
         PRESIDENT,
@@ -56,14 +56,14 @@ public class FederalOfficial extends PoliticalActor {
     }
 
     public FederalOfficial(CharacterManager cm, DemographicsManager dm, MapManager mm, NameManager nm) {
-        this(new PoliticalActor(cm, dm, mm, nm));
+        this(new PoliticalActorJava(cm, dm, mm, nm));
     }
 
-    public FederalOfficial(Character character) {
+    public FederalOfficial(CharacterJava character) {
         super(character);
     }
 
-    public FederalOfficial(PoliticalActor politicalActor) {
+    public FederalOfficial(PoliticalActorJava politicalActor) {
         super(politicalActor);
         this.roles = new HashSet<>();
     }
@@ -109,7 +109,7 @@ public class FederalOfficial extends PoliticalActor {
     // REPRESENTATION METHODS ---------------------------------------------------------------------------------------------------------------------------------
 
     @Override
-    public PoliticalActor fromRepr(String repr) {
+    public PoliticalActorJava fromRepr(String repr) {
         // TODO Auto-generated method stub
         return super.fromRepr(repr);
     }
@@ -123,7 +123,7 @@ public class FederalOfficial extends PoliticalActor {
     }
 
     @Override
-    public PoliticalActor fromJson(JSONObject json) {
+    public PoliticalActorJava fromJson(JSONObject json) {
         // TODO Auto-generated method stub
         return super.fromJson(json);
     }
@@ -157,7 +157,7 @@ public class FederalOfficial extends PoliticalActor {
     public String toString() {
         return this.toRepr();
     }
-    
+
     @Override
     public boolean equals(Object obj) {
         if (this == obj)

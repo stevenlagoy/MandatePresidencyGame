@@ -20,8 +20,7 @@ import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.Jsonic;
 import com.stevenlagoy.presidency.characters.CharacterManager;
 import com.stevenlagoy.presidency.characters.FederalOfficial;
-import com.stevenlagoy.presidency.core.LanguageManager;
-import com.stevenlagoy.presidency.demographics.Bloc;
+import com.stevenlagoy.presidency.demographics.BlocJava;
 import com.stevenlagoy.presidency.demographics.DemographicsManager;
 import com.stevenlagoy.presidency.util.Logger;
 
@@ -87,7 +86,7 @@ public class Nation implements MapEntity, Repr<Nation>, Jsonic<Nation> {
     /** Vice President of the Nation. */
     private FederalOfficial vicePresident;
     /** Demographics of the whole Nation. */
-    private Map<Bloc, Float> demographics;
+    private Map<BlocJava, Float> demographics;
     /** Descriptors shared by every geographic division of the Nation. */
     private Set<String> descriptors;
 
@@ -114,7 +113,7 @@ public class Nation implements MapEntity, Repr<Nation>, Jsonic<Nation> {
      * <p>
      * Minimum population is zero. If the population is found to be lower, it will
      * be set to zero.
-     * 
+     *
      * @param population New population of the Nation.
      */
     @Override
@@ -127,7 +126,7 @@ public class Nation implements MapEntity, Repr<Nation>, Jsonic<Nation> {
      * <p>
      * Minimum population is zero. If the population is found to be lower, it will
      * be set to zero.
-     * 
+     *
      * @param population Amount of population to be added.
      */
     @Override
@@ -148,7 +147,7 @@ public class Nation implements MapEntity, Repr<Nation>, Jsonic<Nation> {
      * <p>
      * Minimum land area is zero. If the land area is found to be lower, it will be
      * set to zero.
-     * 
+     *
      * @param area New land area of the Nation.
      */
     @Override
@@ -162,7 +161,7 @@ public class Nation implements MapEntity, Repr<Nation>, Jsonic<Nation> {
      * Get the localized full name of the Nation.
      * <p>
      * In English, "United States of America"
-     * 
+     *
      * @return String name.
      */
     public String getFullName() {
@@ -175,7 +174,7 @@ public class Nation implements MapEntity, Repr<Nation>, Jsonic<Nation> {
      * Get the localized common name of the Nation.
      * <p>
      * In English, "United States"
-     * 
+     *
      * @return
      */
     public String getCommonName() {
@@ -188,7 +187,7 @@ public class Nation implements MapEntity, Repr<Nation>, Jsonic<Nation> {
      * Get the localized motto of the Nation.
      * <p>
      * In English, "In God We Trust"
-     * 
+     *
      * @return String motto.
      */
     public String getMotto() {
@@ -201,7 +200,7 @@ public class Nation implements MapEntity, Repr<Nation>, Jsonic<Nation> {
      * Get the localized abbreviation of the Nation.
      * <p>
      * In English, "U.S."
-     * 
+     *
      * @return String abbreviation.
      */
     public String getAbbreviation() {
@@ -292,17 +291,17 @@ public class Nation implements MapEntity, Repr<Nation>, Jsonic<Nation> {
     // Demographics : Map of Bloc to Float
 
     @Override
-    public Map<Bloc, Float> getDemographics() {
+    public Map<BlocJava, Float> getDemographics() {
         return demographics;
     }
 
     @Override
-    public float getDemographicPercentage(Bloc bloc) {
+    public float getDemographicPercentage(BlocJava bloc) {
         return this.demographics.get(bloc) != null ? this.demographics.get(bloc) : 0.0f;
     }
 
     @Override
-    public int getDemographicPopulation(Bloc bloc) {
+    public int getDemographicPopulation(BlocJava bloc) {
         return Math.round(getDemographicPercentage(bloc) * population);
     }
 
