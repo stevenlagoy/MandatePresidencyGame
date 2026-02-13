@@ -6,10 +6,10 @@ import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.Jsonic
 
 import com.stevenlagoy.presidency.characters.attributes.CharacterModel
-import com.stevenlagoy.presidency.characters.attributes.names.Name
+import com.stevenlagoy.presidency.characters.attributes.names.NameJava
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.data.Repr
-import com.stevenlagoy.presidency.demographics.Demographics
+import com.stevenlagoy.presidency.demographics.DemographicsJava
 import com.stevenlagoy.presidency.map.Municipality
 
 /**
@@ -33,8 +33,8 @@ import com.stevenlagoy.presidency.map.Municipality
  * @author Steven LaGoy
  */
 open class CharacterKT(
-    val demographics: Demographics,
-    val name: Name,
+    val demographics: DemographicsJava,
+    val name: NameJava,
     val origin: Municipality,
     var location: Municipality,
     var residence: Municipality,

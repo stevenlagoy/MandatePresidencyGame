@@ -21,12 +21,12 @@ import java.util.Set;
 
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.JSONProcessor;
-import com.stevenlagoy.presidency.characters.attributes.names.Name.DisplayOption;
-import com.stevenlagoy.presidency.characters.attributes.names.Name.NameForm;
+import com.stevenlagoy.presidency.characters.attributes.names.NameJava.DisplayOption;
+import com.stevenlagoy.presidency.characters.attributes.names.NameJava.NameForm;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
-import com.stevenlagoy.presidency.demographics.Bloc;
-import com.stevenlagoy.presidency.demographics.Demographics;
+import com.stevenlagoy.presidency.demographics.BlocJava;
+import com.stevenlagoy.presidency.demographics.DemographicsJava;
 import com.stevenlagoy.presidency.util.CollectionUtils;
 import com.stevenlagoy.presidency.util.FilePaths;
 import com.stevenlagoy.presidency.util.Logger;
@@ -115,8 +115,8 @@ public final class NameManager extends Manager {
 
     // INSTANCE VARIABLES -------------------------------------------------------------------------------------------------------------------------------------
 
-    private Map<Set<Bloc>, Map<String, Double>> givenNamesDistribution;
-    private Map<Set<Bloc>, Map<String, Double>> familyNamesDistribution;
+    private Map<Set<BlocJava>, Map<String, Double>> givenNamesDistribution;
+    private Map<Set<BlocJava>, Map<String, Double>> familyNamesDistribution;
     private Map<String, List<String>> nicknames;
 
     private final Engine ENGINE;
@@ -144,7 +144,7 @@ public final class NameManager extends Manager {
         successFlag = successFlag && readNicknamesFile();
         currentState = successFlag ? ManagerState.ACTIVE : ManagerState.ERROR;
         double endTime = ENGINE.getProgramTime();
-        Logger.log(String.format("%s initialized %s at %f. Elapsed: %f", this.getClass().getSimpleName(), successFlag ? "successfully" : "unsuccessfully", endTime, 
+        Logger.log(String.format("%s initialized %s at %f. Elapsed: %f", this.getClass().getSimpleName(), successFlag ? "successfully" : "unsuccessfully", endTime,
                 endTime - startTime));
         return successFlag;
     }
@@ -175,30 +175,30 @@ public final class NameManager extends Manager {
      * little about how set refinement works: (A, B) may be turned to [(A) & (B)] or
      * to [(A & B)]; (A, B) may result in (A) alone being returned; (A, B, C) may
      * result in [(A & C) & (B & C)] or any other combination.
-     * 
+     *
      * @param targets Collection of Blocs to refine into a key bloc set.
      * @return List of bloc sets which were determined as the best key for
      *         {@code givenNamesDistribution} while covering as many as possible of
      *         the passed blocs.
      */
-    private Set<Set<Bloc>> refineGivenNamesBlocsKey(Collection<Bloc> targets) {
+    private Set<Set<BlocJava>> refineGivenNamesBlocsKey(Collection<BlocJava> targets) {
         return refineNamesBlocsKey(targets, getGivenNamesDistribution().keySet());
     }
 
-    private Set<Set<Bloc>> refineFamilyNamesBlocsKey(Collection<Bloc> targets) {
+    private Set<Set<BlocJava>> refineFamilyNamesBlocsKey(Collection<BlocJava> targets) {
         return refineNamesBlocsKey(targets, getFamilyNamesDistribution().keySet());
     }
 
-    private Set<Set<Bloc>> refineNamesBlocsKey(Collection<Bloc> targets, Set<Set<Bloc>> realkeys) {
-        Set<Bloc> targs = new HashSet<>(targets);
+    private Set<Set<BlocJava>> refineNamesBlocsKey(Collection<BlocJava> targets, Set<Set<BlocJava>> realkeys) {
+        Set<BlocJava> targs = new HashSet<>(targets);
 
         // Repeatedly find and add superblocs until no more can be found
         boolean superblocsUnrepresented = true;
         while (superblocsUnrepresented) {
             superblocsUnrepresented = false;
-            Set<Bloc> newTargs = new HashSet<>(targs);
-            for (Bloc b : targs) {
-                Bloc sb = b.getSuperBloc();
+            Set<BlocJava> newTargs = new HashSet<>(targs);
+            for (BlocJava b : targs) {
+                BlocJava sb = b.getSuperBloc();
                 if (sb != null) {
                     if (newTargs.add(sb))
                         superblocsUnrepresented = true;
@@ -208,18 +208,18 @@ public final class NameManager extends Manager {
         }
 
         // Generate combinations of the targets
-        Set<Set<Bloc>> combinations = CollectionUtils.combinations(targs);
+        Set<Set<BlocJava>> combinations = CollectionUtils.combinations(targs);
 
         // Sort out invalid combinations (not part of the real keyset)
-        Set<Set<Bloc>> validCombos = new HashSet<>();
-        for (Set<Bloc> combo : combinations) {
+        Set<Set<BlocJava>> validCombos = new HashSet<>();
+        for (Set<BlocJava> combo : combinations) {
             if (realkeys.contains(combo))
                 validCombos.add(combo);
         }
 
         if (validCombos.size() == 0) {
             String targsNames = "";
-            for (Bloc target : targets) {
+            for (BlocJava target : targets) {
                 targsNames += target.getName() + ", ";
             }
             targsNames = targsNames.substring(0, targsNames.length() - 2);
@@ -245,7 +245,7 @@ public final class NameManager extends Manager {
         // }
 
         // Perform backtracking to find most specific solution
-        Set<Set<Bloc>> result = new HashSet<>();
+        Set<Set<BlocJava>> result = new HashSet<>();
         backtrack(new ArrayList<>(validCombos), new HashSet<>(), targs, new HashSet<>(), result);
 
         return result;
@@ -260,7 +260,7 @@ public final class NameManager extends Manager {
      * @param covered     Set of blocs already covered.
      * @param bestResult The best result found so far.
      */
-    private void backtrack(List<Set<Bloc>> validCombos, Set<Set<Bloc>> current, Set<Bloc> targets, Set<Bloc> covered, Set<Set<Bloc>> bestResult) {
+    private void backtrack(List<Set<BlocJava>> validCombos, Set<Set<BlocJava>> current, Set<BlocJava> targets, Set<BlocJava> covered, Set<Set<BlocJava>> bestResult) {
         // Check if the current solution is better than the best result
         if (isBetterSolution(current, bestResult)) {
             bestResult.clear();
@@ -269,7 +269,7 @@ public final class NameManager extends Manager {
 
         // Try each valid combination
         for (int i = 0; i < validCombos.size(); i++) {
-            Set<Bloc> combo = validCombos.get(i);
+            Set<BlocJava> combo = validCombos.get(i);
 
             // Skip if combo is already in current
             if (current.contains(combo))
@@ -277,7 +277,7 @@ public final class NameManager extends Manager {
 
             // Add combo to current
             current.add(combo);
-            Set<Bloc> newCovered = new HashSet<>(covered);
+            Set<BlocJava> newCovered = new HashSet<>(covered);
             newCovered.addAll(combo);
 
             // Recurse with new solution
@@ -296,7 +296,7 @@ public final class NameManager extends Manager {
      * @param bestResult The best solution found so far.
      * @return True if the current solution is better, false otherwise.
      */
-    private boolean isBetterSolution(Set<Set<Bloc>> current, Set<Set<Bloc>> bestResult) {
+    private boolean isBetterSolution(Set<Set<BlocJava>> current, Set<Set<BlocJava>> bestResult) {
         // Prefer fewer sets
         if (bestResult.isEmpty() || current.size() < bestResult.size())
             return true;
@@ -312,7 +312,7 @@ public final class NameManager extends Manager {
 
     // GENERATING NAMES ---------------------------------------------------------------------------
 
-    public NameForm selectNameForm(Demographics demographics) {
+    public NameForm selectNameForm(DemographicsJava demographics) {
         if (demographics.getRaceEthnicity().getNestedNames().contains("Asian")) {
             if (RandomUtils.randPercent() <= asianEasternNamePercent) {
                 return NameForm.EASTERN;
@@ -335,15 +335,15 @@ public final class NameManager extends Manager {
         return NameForm.WESTERN;
     }
 
-    public String selectGivenName(Demographics demographics) {
+    public String selectGivenName(DemographicsJava demographics) {
         return selectGivenName(demographics.toBlocsArray());
     }
 
-    public String selectGivenName(Bloc... blocs) {
+    public String selectGivenName(BlocJava... blocs) {
         return selectGivenName(Arrays.asList(blocs));
     }
 
-    public String selectGivenName(Collection<Bloc> blocs) {
+    public String selectGivenName(Collection<BlocJava> blocs) {
         return RandomUtils.weightedRandSelect(getGivenNamesDistribution(blocs));
     }
 
@@ -351,33 +351,33 @@ public final class NameManager extends Manager {
         return "";
     }
 
-    public String selectFamilyName(Demographics demographics) {
+    public String selectFamilyName(DemographicsJava demographics) {
         return selectFamilyName(demographics.toBlocsArray());
     }
 
-    public String selectFamilyName(Bloc... blocs) {
+    public String selectFamilyName(BlocJava... blocs) {
         return selectFamilyName(Arrays.asList(blocs));
     }
 
-    public String selectFamilyName(Collection<Bloc> blocs) {
+    public String selectFamilyName(Collection<BlocJava> blocs) {
         return RandomUtils.weightedRandSelect(getFamilyNamesDistribution(blocs));
     }
 
-    public String selectNickname(Demographics demographics, String... names) {
+    public String selectNickname(DemographicsJava demographics, String... names) {
         return selectNickname(Arrays.asList(demographics.toBlocsArray()), Arrays.asList(names));
     }
 
-    public String selectNickname(Demographics demographics, Collection<String> names) {
+    public String selectNickname(DemographicsJava demographics, Collection<String> names) {
         return selectNickname(Arrays.asList(demographics.toBlocsArray()), names);
     }
 
-    public String selectNickname(Collection<Bloc> blocs, String... names) {
+    public String selectNickname(Collection<BlocJava> blocs, String... names) {
         return selectNickname(blocs, Arrays.asList(names));
     }
 
     /**
      * Select a nickname given blocs and a collection of names.
-     * 
+     *
      * @param blocs Blocs to possibly choose another name or nickname based on.
      * @param names Given (first or middle) names to possibly choose a nickname
      *              based on.
@@ -385,7 +385,7 @@ public final class NameManager extends Manager {
      *         passed names. May be empty if none of the names have a known
      *         nickname.
      */
-    public String selectNickname(Collection<Bloc> blocs, Collection<String> names) {
+    public String selectNickname(Collection<BlocJava> blocs, Collection<String> names) {
         // Nicknames may be based on one of a person's actual names
         // (with their preferred first name being most commonly nicked)
         // or may be completely separate from their actual names.
@@ -416,9 +416,9 @@ public final class NameManager extends Manager {
 
     /**
      * Select the number of each part of a name.
-     * 
+     *
      * @param form NameForm of the name
-     * @return int[3] with {firstnames, middlenames, surnames} or {givennames, 
+     * @return int[3] with {firstnames, middlenames, surnames} or {givennames,
      *         generationnames, familynames}
      */
     private int[] selectPartsCounts(NameForm form) {
@@ -449,10 +449,10 @@ public final class NameManager extends Manager {
 
     /**
      * Combines family names according to rules of the given name form.
-     * 
+     *
      * @param form         Name form to provide rules for combination. <br>
      *                     EASTERN -> First passed family name; <br>
-     *                     HISPANIC -> combine in some pattern with "y", "de", "-", 
+     *                     HISPANIC -> combine in some pattern with "y", "de", "-",
      *                     " "; <br>
      *                     NATIVE_AMERICAN | WESTERN -> combine with "-", " ";
      * @param demographics Demographics to provide additional rules (like "e"
@@ -461,7 +461,7 @@ public final class NameManager extends Manager {
      * @return Combined string family name following the rules of the form and
      *         demographics
      */
-    private String combineFamilyNames(NameForm form, Demographics demographics, String... familyNames) {
+    private String combineFamilyNames(NameForm form, DemographicsJava demographics, String... familyNames) {
         if (familyNames.length < 1)
             return ""; // No names to combine
         switch (form) {
@@ -530,8 +530,8 @@ public final class NameManager extends Manager {
 
     // NAME GENERATOR -----------------------------------------------------------------------------------------------------------------------------------------
 
-    public Name generateName(Demographics demographics) {
-        Name name = new Name();
+    public NameJava generateName(DemographicsJava demographics) {
+        NameJava name = new NameJava();
         NameForm form = selectNameForm(demographics);
         name.setNameForm(form);
 
@@ -587,7 +587,7 @@ public final class NameManager extends Manager {
 
         // Western Name
         if ((form == NameForm.EASTERN || form == NameForm.NATIVE_AMERICAN) && RandomUtils.randPercent() <= westernNamePercent) {
-            String westernName = selectGivenName(demographics.getPresentation(), demographics.getGeneration(), 
+            String westernName = selectGivenName(demographics.getPresentation(), demographics.getGeneration(),
                     ENGINE.DemographicsManager().matchBlocName("Anglo"));
             name.setWesternName(westernName);
             name.addDisplayOption(DisplayOption.INCLUDE_WESTERN);
@@ -673,7 +673,7 @@ public final class NameManager extends Manager {
 
     // GETTERS AND SETTERS ------------------------------------------------------------------------------------------------------------------------------------
 
-    public Map<Set<Bloc>, Map<String, Double>> getGivenNamesDistribution() {
+    public Map<Set<BlocJava>, Map<String, Double>> getGivenNamesDistribution() {
         if (givenNamesDistribution == null || givenNamesDistribution.isEmpty())
             readGivenNamesFile();
         return givenNamesDistribution;
@@ -682,31 +682,31 @@ public final class NameManager extends Manager {
     /**
      * Return the given names distribution for a person who is a member of all the
      * passed blocs.
-     * 
+     *
      * @param blocs Any number of blocs. This set will be refined and as many as
      *              possible will be covered.
      * @return Map of names to weights.
      */
-    public Map<String, Double> getGivenNamesDistribution(Bloc... blocs) {
+    public Map<String, Double> getGivenNamesDistribution(BlocJava... blocs) {
         return getGivenNamesDistribution(Arrays.asList(blocs));
     }
 
-    public Map<String, Double> getGivenNamesDistribution(Demographics demographics) {
+    public Map<String, Double> getGivenNamesDistribution(DemographicsJava demographics) {
         return getGivenNamesDistribution(demographics.toBlocsArray());
     }
 
     /**
      * Return the given names distribution for a person who is a member of all the
      * passed blocs.
-     * 
+     *
      * @param blocs Any number of blocs. This set will be refined and as many as
      *              possible will be covered.
      * @return Map of names to weights.
      */
-    public Map<String, Double> getGivenNamesDistribution(Collection<Bloc> blocs) {
-        Set<Set<Bloc>> blocsets = refineGivenNamesBlocsKey(blocs);
+    public Map<String, Double> getGivenNamesDistribution(Collection<BlocJava> blocs) {
+        Set<Set<BlocJava>> blocsets = refineGivenNamesBlocsKey(blocs);
         Map<String, Double> res = new HashMap<>();
-        for (Set<Bloc> blocset : blocsets) {
+        for (Set<BlocJava> blocset : blocsets) {
             Map<String, Double> distribution = getGivenNamesDistribution().get(blocset);
             for (String name : distribution.keySet()) {
                 double prev = res.containsKey(name) ? res.get(name) : 0;
@@ -716,24 +716,24 @@ public final class NameManager extends Manager {
         return res;
     }
 
-    public Map<Set<Bloc>, Map<String, Double>> getFamilyNamesDistribution() {
+    public Map<Set<BlocJava>, Map<String, Double>> getFamilyNamesDistribution() {
         if (familyNamesDistribution == null || familyNamesDistribution.isEmpty())
             readFamilyNamesFile();
         return familyNamesDistribution;
     }
 
-    public Map<String, Double> getFamilyNamesDistribution(Bloc... blocs) {
+    public Map<String, Double> getFamilyNamesDistribution(BlocJava... blocs) {
         return getFamilyNamesDistribution(Arrays.asList(blocs));
     }
 
-    public Map<String, Double> getFamilyNamesDistribution(Demographics demographics) {
+    public Map<String, Double> getFamilyNamesDistribution(DemographicsJava demographics) {
         return getFamilyNamesDistribution(demographics.toBlocsArray());
     }
 
-    public Map<String, Double> getFamilyNamesDistribution(Collection<Bloc> blocs) {
-        Set<Set<Bloc>> blocsets = refineFamilyNamesBlocsKey(blocs);
+    public Map<String, Double> getFamilyNamesDistribution(Collection<BlocJava> blocs) {
+        Set<Set<BlocJava>> blocsets = refineFamilyNamesBlocsKey(blocs);
         Map<String, Double> res = new HashMap<>();
-        for (Set<Bloc> blocset : blocsets) {
+        for (Set<BlocJava> blocset : blocsets) {
             Map<String, Double> distribution = getFamilyNamesDistribution().get(blocset);
             for (String name : distribution.keySet()) {
                 double prev = res.containsKey(name) ? res.get(name) : 0;
@@ -751,7 +751,7 @@ public final class NameManager extends Manager {
 
     /**
      * Get all known nicknames for the given full name.
-     * 
+     *
      * @param fullname Full name for which to get all nicknames.
      * @return List of all known nicknames.
      * @see #getNicknameFor(String)
@@ -762,7 +762,7 @@ public final class NameManager extends Manager {
 
     /**
      * Get one randomly selected nickname for the given full name.
-     * 
+     *
      * @param fullname Full name for which to choose a nickname.
      * @return One randomly selected nickname.
      * @see #getNicknamesFor(String)
@@ -817,26 +817,26 @@ public final class NameManager extends Manager {
 
     /**
      * Process the structure of a names file.
-     * 
+     *
      * @param json The JSON data to parse for names distribution.
      * @return Mapping of bloc sets to weighted names.
      * @see #processNamesStructure(JSONObject, Set)
      */
-    private Map<Set<Bloc>, Map<String, Double>> processNamesStructure(JSONObject json) {
+    private Map<Set<BlocJava>, Map<String, Double>> processNamesStructure(JSONObject json) {
         return processNamesStructure(json, new HashSet<>());
     }
 
     /**
      * Process the structure of a names file. Recurses when a subobject exists in
      * the json.
-     * 
+     *
      * @param json         The JSON data to parse for names distribution.
      * @param currentBlocs Set of blocs to use when recursing.
      * @return Mapping of bloc sets to weighted names.
      * @see #processNamesStructure(JSONObject)
      */
-    private Map<Set<Bloc>, Map<String, Double>> processNamesStructure(JSONObject json, Set<Bloc> currentBlocs) {
-        Map<Set<Bloc>, Map<String, Double>> distributions = new HashMap<>();
+    private Map<Set<BlocJava>, Map<String, Double>> processNamesStructure(JSONObject json, Set<BlocJava> currentBlocs) {
+        Map<Set<BlocJava>, Map<String, Double>> distributions = new HashMap<>();
 
         for (Object obj : json.getAsList()) {
             if (!(obj instanceof JSONObject entry))
@@ -857,14 +857,14 @@ public final class NameManager extends Manager {
             else if (value instanceof List<?>) {
                 // This is a nested structure
                 // If key is valid bloc, add it to a new bloc set
-                Bloc bloc = ENGINE.DemographicsManager().matchBlocName(key);
-                Set<Bloc> updatedBlocs = new HashSet<>(currentBlocs);
+                BlocJava bloc = ENGINE.DemographicsManager().matchBlocName(key);
+                Set<BlocJava> updatedBlocs = new HashSet<>(currentBlocs);
                 if (bloc != null) {
                     updatedBlocs.add(bloc);
                 }
                 // Recurse with updated bloc set
-                Map<Set<Bloc>, Map<String, Double>> subDistr = processNamesStructure(entry, updatedBlocs);
-                for (Set<Bloc> k : subDistr.keySet()) {
+                Map<Set<BlocJava>, Map<String, Double>> subDistr = processNamesStructure(entry, updatedBlocs);
+                for (Set<BlocJava> k : subDistr.keySet()) {
                     Map<String, Double> v = subDistr.get(k);
                     distributions.put(k, v);
                 }

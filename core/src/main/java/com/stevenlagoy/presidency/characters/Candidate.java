@@ -30,18 +30,18 @@ import com.stevenlagoy.presidency.util.RandomUtils;
  * <p>
  * Contains fields and methods particular to a Candidate's campaign details and
  * information.
- * 
- * @see Character
- * @see PoliticalActor
+ *
+ * @see CharacterJava
+ * @see PoliticalActorJava
  */
-public class Candidate extends PoliticalActor {
+public class Candidate extends PoliticalActorJava {
 
     // STATIC VARIABLES ---------------------------------------------------------------------------------------------------------------------------------------
 
     /** Minimum age of a Candidate for the Presidency */
     public static final int MIN_AGE = 35;
     /** Maximum age of a Candidate */
-    public static final int MAX_AGE = PoliticalActor.MAX_AGE;
+    public static final int MAX_AGE = PoliticalActorJava.MAX_AGE;
 
     final static int SKILLS_BONUS_EDUCATION = 10;
     final static double EDUCATION_SCALER = 1.25;
@@ -55,10 +55,10 @@ public class Candidate extends PoliticalActor {
     // CONSTRUCTORS -------------------------------------------------------------------------------------------------------------------------------------------
 
     public Candidate(CharacterManager cm, DemographicsManager dm, MapManager mm, NameManager nm) {
-        this(new PoliticalActor(cm, dm, mm, nm));
+        this(new PoliticalActorJava(cm, dm, mm, nm));
     }
 
-    public Candidate(PoliticalActor politicalActor) {
+    public Candidate(PoliticalActorJava politicalActor) {
         super(politicalActor);
     }
 

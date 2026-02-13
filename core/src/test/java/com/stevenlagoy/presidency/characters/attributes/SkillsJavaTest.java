@@ -6,20 +6,20 @@ import org.junit.jupiter.api.Test;
 
 import com.stevenlagoy.jsonic.JSONObject;
 
-public final class SkillsTest {
-    
+public final class SkillsJavaTest {
+
     @Test
     public void testCreateSkills() {
-        Skills s = new Skills();
-        s = new Skills(s);
-        s = new Skills(100, 100, 100);
-        s = new Skills(60, 60, 60, 150);
-        s = new Skills(25, 35, 50, 61, 44, 40);
+        SkillsJava s = new SkillsJava();
+        s = new SkillsJava(s);
+        s = new SkillsJava(100, 100, 100);
+        s = new SkillsJava(60, 60, 60, 150);
+        s = new SkillsJava(25, 35, 50, 61, 44, 40);
     }
 
     @Test
     public void testLegislativeSkills() {
-        Skills s = new Skills();
+        SkillsJava s = new SkillsJava();
         s.setBaseLegislativeSkill(75);
         assertEquals(75, s.getBaseLegislativeSkill());
         s.addBaseLegislativeSkill(5);
@@ -36,7 +36,7 @@ public final class SkillsTest {
 
     @Test
     public void testExecutiveSkills() {
-        Skills s = new Skills();
+        SkillsJava s = new SkillsJava();
         s.setBaseExecutiveSkill(75);
         assertEquals(75, s.getBaseExecutiveSkill());
         s.addBaseExecutiveSkill(5);
@@ -53,7 +53,7 @@ public final class SkillsTest {
 
     @Test
     public void testJudicialSkills() {
-        Skills s = new Skills();
+        SkillsJava s = new SkillsJava();
         s.setBaseJudicialSkill(75);
         assertEquals(75, s.getBaseJudicialSkill());
         s.addBaseJudicialSkill(5);
@@ -70,20 +70,20 @@ public final class SkillsTest {
 
     @Test
     public void testAptitude() {
-        Skills s = new Skills(60, 60, 60, 150);
+        SkillsJava s = new SkillsJava(60, 60, 60, 150);
         assertEquals(150, s.getAptitude());
     }
 
     @Test
     public void testInvalidAptitude() {
         assertThrows(IllegalStateException.class, () -> {
-            new Skills(50, 50, 50, -100);
+            new SkillsJava(50, 50, 50, -100);
         });
     }
 
     @Test
     public void testCalcBaseSkillsZeroes() {
-        Skills s = new Skills(0, 0, 0, 30);
+        SkillsJava s = new SkillsJava(0, 0, 0, 30);
         assertEquals(10, s.getLegislativeSkill());
         assertEquals(10, s.getExecutiveSkill());
         assertEquals(10, s.getJudicialSkill());
@@ -91,7 +91,7 @@ public final class SkillsTest {
 
     @Test
     public void testCalcBaseSkillsRemainder() {
-        Skills s = new Skills(50, 50, 50, 152);
+        SkillsJava s = new SkillsJava(50, 50, 50, 152);
         assertEquals(51, s.getBaseLegislativeSkill());
         assertEquals(50, s.getLegislativeSkill());
         assertEquals(51, s.getBaseExecutiveSkill());
@@ -102,7 +102,7 @@ public final class SkillsTest {
 
     @Test
     public void testSkillsToRepr() {
-        Skills s = new Skills(75, 33, 52);
+        SkillsJava s = new SkillsJava(75, 33, 52);
         String repr = s.toRepr();
         assertTrue(repr.contains("baseLegislativeSkill:75;"));
         assertTrue(repr.contains("baseExecutiveSkill:33;"));
@@ -112,7 +112,7 @@ public final class SkillsTest {
 
     @Test
     public void testSkillsToJson() {
-        Skills s = new Skills(75, 33, 52);
+        SkillsJava s = new SkillsJava(75, 33, 52);
         JSONObject json = s.toJson();
         assertEquals(json.getKey(), "skills");
         assertEquals(75, json.get("base_legislative_skill"));
@@ -122,15 +122,15 @@ public final class SkillsTest {
 
     @Test
     public void testSkillsEqualsAndHashCode() {
-        Skills s1 = new Skills(10, 10, 10);
+        SkillsJava s1 = new SkillsJava(10, 10, 10);
         assertEquals(s1, s1);
         assertNotEquals(s1, null);
         assertNotEquals(s1, new Object());
-        Skills s2 = new Skills(50, 50, 50);
+        SkillsJava s2 = new SkillsJava(50, 50, 50);
         int hash1 = s1.hashCode();
         int hash2 = s2.hashCode();
         assertNotEquals(hash1, hash2);
-        Skills s3 = s1.clone();
+        SkillsJava s3 = s1.clone();
         boolean addressesDifferent = s1 == s2;
         assertFalse(addressesDifferent);
         int hash3 = s3.hashCode();
@@ -140,9 +140,9 @@ public final class SkillsTest {
 
     @Test
     public void testSkillsFromJson() {
-        Skills s1 = new Skills(50, 20, 70);
+        SkillsJava s1 = new SkillsJava(50, 20, 70);
         JSONObject json = s1.toJson();
-        Skills s2 = new Skills(json);
+        SkillsJava s2 = new SkillsJava(json);
         assertEquals(s1, s2);
     }
 }

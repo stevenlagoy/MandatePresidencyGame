@@ -16,9 +16,8 @@ import java.util.Set;
 
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.Jsonic;
-import com.stevenlagoy.presidency.Main;
 import com.stevenlagoy.presidency.data.Repr;
-import com.stevenlagoy.presidency.demographics.Bloc;
+import com.stevenlagoy.presidency.demographics.BlocJava;
 import com.stevenlagoy.presidency.demographics.DemographicsManager;
 
 public class County implements MapEntity, Repr<County>, Jsonic<County> {
@@ -44,7 +43,7 @@ public class County implements MapEntity, Repr<County>, Jsonic<County> {
     private Municipality countySeat;
 
     private Set<String> descriptors;
-    private Map<Bloc, Float> demographics;
+    private Map<BlocJava, Float> demographics;
 
     // CONSTRUCTORS
     // -------------------------------------------------------------------------------
@@ -214,17 +213,17 @@ public class County implements MapEntity, Repr<County>, Jsonic<County> {
     // Demographics : Map of Bloc to Float
 
     @Override
-    public Map<Bloc, Float> getDemographics() {
+    public Map<BlocJava, Float> getDemographics() {
         return demographics;
     }
 
     @Override
-    public float getDemographicPercentage(Bloc bloc) {
+    public float getDemographicPercentage(BlocJava bloc) {
         return this.demographics.get(bloc) != null ? this.demographics.get(bloc) : 0.0f;
     }
 
     @Override
-    public int getDemographicPopulation(Bloc bloc) {
+    public int getDemographicPopulation(BlocJava bloc) {
         return Math.round(getDemographicPercentage(bloc) * population);
     }
 

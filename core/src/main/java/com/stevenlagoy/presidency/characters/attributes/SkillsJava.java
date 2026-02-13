@@ -17,7 +17,7 @@ import com.stevenlagoy.presidency.data.Repr;
 import com.stevenlagoy.presidency.util.NumberUtils;
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.Jsonic;
-import com.stevenlagoy.presidency.characters.PoliticalActor;
+import com.stevenlagoy.presidency.characters.PoliticalActorJava;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                             SKILLS                                             //
@@ -26,10 +26,10 @@ import com.stevenlagoy.presidency.characters.PoliticalActor;
 /**
  * Tracks the base and modified Legislative, Executive, and Judicial skills of a
  * PoliticalActor (or subclass), as well as their Aptitude.
- * 
- * @see PoliticalActor#skills
+ *
+ * @see PoliticalActorJava#skills
  */
-public class Skills implements Repr<Skills>, Jsonic<Skills> {
+public class SkillsJava implements Repr<SkillsJava>, Jsonic<SkillsJava> {
 
     // INSTANCE VARIABLES -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -89,11 +89,11 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
 
     // CONSTRUCTORS -------------------------------------------------------------------------------------------------------------------------------------------
 
-    public Skills() {
+    public SkillsJava() {
         this(50, 50, 50);
     }
 
-    public Skills(Skills other) {
+    public SkillsJava(SkillsJava other) {
         this.baseLegislativeSkill = other.baseLegislativeSkill;
         this.legAdd = other.legAdd;
         this.legMult = other.legMult;
@@ -106,7 +106,7 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
         this.aptitude = other.aptitude;
     }
 
-    public Skills(String buildstring) {
+    public SkillsJava(String buildstring) {
         if (buildstring == null || buildstring.isBlank()) {
             throw new IllegalArgumentException(
                     "The given buildstring was null, and a Skills object could not be created.");
@@ -114,7 +114,7 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
         fromRepr(buildstring);
     }
 
-    public Skills(JSONObject json) {
+    public SkillsJava(JSONObject json) {
         if (json == null) {
             throw new IllegalArgumentException(
                     "The passed JSON Object was null, and a Skills object could not be created.");
@@ -122,7 +122,7 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
         fromJson(json);
     }
 
-    public Skills(int baseLegislativeSkill, int baseExecutiveSkill, int baseJudicialSkill) {
+    public SkillsJava(int baseLegislativeSkill, int baseExecutiveSkill, int baseJudicialSkill) {
         this.baseLegislativeSkill = baseLegislativeSkill;
         this.legAdd = 0;
         this.legMult = 1;
@@ -135,7 +135,7 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
         this.aptitude = calculateAptitude();
     }
 
-    public Skills(int legislativeSkill, int executiveSkill, int judicialSkill, int aptitude) {
+    public SkillsJava(int legislativeSkill, int executiveSkill, int judicialSkill, int aptitude) {
         this.aptitude = aptitude;
         this.legMult = 1;
         this.execMult = 1;
@@ -143,7 +143,7 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
         calculateBaseSkills(legislativeSkill, executiveSkill, judicialSkill, aptitude);
     }
 
-    public Skills(
+    public SkillsJava(
         int baseLegislativeSkill,
         int legislativeSkill,
         int baseExecutiveSkill,
@@ -326,7 +326,7 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
      * {@inheritDoc}
      */
     @Override
-    public Skills fromRepr(String repr) {
+    public SkillsJava fromRepr(String repr) {
         return this;
     }
 
@@ -348,7 +348,7 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
     /**
      * {@inheritDoc}
      */
-    public Skills fromJson(JSONObject json) {
+    public SkillsJava fromJson(JSONObject json) {
         if (json == null)
             return null;
         Object baseLegislativeObj = json.get("base_legislative_skill");
@@ -418,7 +418,7 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
             return true;
         if (obj == null || this.getClass() != obj.getClass())
             return false;
-        Skills other = (Skills) obj;
+        SkillsJava other = (SkillsJava) obj;
         return this.toString().equals(other.toString());
     }
 
@@ -441,8 +441,8 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
      * {@inheritDoc}
      */
     @Override
-    public Skills clone() {
-        return new Skills(this);
+    public SkillsJava clone() {
+        return new SkillsJava(this);
     }
 
 }

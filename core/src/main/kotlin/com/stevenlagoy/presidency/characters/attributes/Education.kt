@@ -1,8 +1,5 @@
 package com.stevenlagoy.presidency.characters.attributes
 
-import com.stevenlagoy.presidency.characters.PoliticalActor
-import java.util.*
-
 enum class Education(val value: Int) {
 
     /**

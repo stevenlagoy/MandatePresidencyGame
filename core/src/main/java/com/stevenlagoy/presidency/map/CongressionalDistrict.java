@@ -17,12 +17,9 @@ import java.util.Set;
 import com.stevenlagoy.presidency.data.Repr;
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.Jsonic;
-import com.stevenlagoy.presidency.Main;
-import com.stevenlagoy.presidency.characters.CharacterManager;
 import com.stevenlagoy.presidency.characters.FederalOfficial;
 import com.stevenlagoy.presidency.characters.FederalOfficial.FederalRole;
-import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
-import com.stevenlagoy.presidency.demographics.Bloc;
+import com.stevenlagoy.presidency.demographics.BlocJava;
 import com.stevenlagoy.presidency.demographics.DemographicsManager;
 import com.stevenlagoy.presidency.util.NumberUtils;
 
@@ -50,7 +47,7 @@ public class CongressionalDistrict implements MapEntity, Repr<State>, Jsonic<Sta
     private FederalOfficial representative;
 
     private Set<String> descriptors;
-    private Map<Bloc, Float> demographics;
+    private Map<BlocJava, Float> demographics;
 
     // CONSTRUCTORS
     // -------------------------------------------------------------------------------
@@ -206,17 +203,17 @@ public class CongressionalDistrict implements MapEntity, Repr<State>, Jsonic<Sta
     // Demographics : Map of Bloc to Float
 
     @Override
-    public Map<Bloc, Float> getDemographics() {
+    public Map<BlocJava, Float> getDemographics() {
         return demographics;
     }
 
     @Override
-    public float getDemographicPercentage(Bloc bloc) {
+    public float getDemographicPercentage(BlocJava bloc) {
         return this.demographics.get(bloc) != null ? this.demographics.get(bloc) : 0.0f;
     }
 
     @Override
-    public int getDemographicPopulation(Bloc bloc) {
+    public int getDemographicPopulation(BlocJava bloc) {
         return Math.round(getDemographicPercentage(bloc) * population);
     }
 

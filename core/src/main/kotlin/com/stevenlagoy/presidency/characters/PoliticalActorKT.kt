@@ -6,10 +6,10 @@ import com.stevenlagoy.presidency.characters.attributes.Education
 import com.stevenlagoy.presidency.characters.attributes.Experience
 import com.stevenlagoy.presidency.characters.attributes.Personality
 import com.stevenlagoy.presidency.characters.attributes.RoleKT
-import com.stevenlagoy.presidency.characters.attributes.Skills
-import com.stevenlagoy.presidency.characters.attributes.names.Name
+import com.stevenlagoy.presidency.characters.attributes.SkillsJava
+import com.stevenlagoy.presidency.characters.attributes.names.NameJava
 import com.stevenlagoy.presidency.core.Engine
-import com.stevenlagoy.presidency.demographics.Demographics
+import com.stevenlagoy.presidency.demographics.DemographicsJava
 import com.stevenlagoy.presidency.map.Municipality
 import com.stevenlagoy.presidency.politics.Party
 import com.stevenlagoy.presidency.politics.Position
@@ -18,8 +18,8 @@ import kotlin.math.E
 import kotlin.math.pow
 
 class PoliticalActorKT(
-    demographics: Demographics,
-    name: Name,
+    demographics: DemographicsJava,
+    name: NameJava,
     birthplace: Municipality,
     currentLocation: Municipality,
     residence: Municipality,
@@ -31,7 +31,7 @@ class PoliticalActorKT(
     alignments: IntArray,
     var partyAlignment: Party,
     var experiences: List<Experience>,
-    val skills: Skills,
+    val skills: SkillsJava,
     val positions: List<Position>,
     var personality: Personality,
     val roles: Set<RoleKT>
