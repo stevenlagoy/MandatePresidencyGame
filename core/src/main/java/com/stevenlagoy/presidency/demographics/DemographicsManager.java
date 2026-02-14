@@ -398,7 +398,7 @@ public class DemographicsManager extends Manager {
     }
 
     public BlocJava matchBlocName(String name) {
-        for (BlocJava bloc : BlocJava.getInstances()) {
+        for (BlocKT bloc : blocInstances) {
             if (bloc.getName().equals(name))
                 return bloc;
         }

@@ -20,12 +20,12 @@ import com.stevenlagoy.presidency.data.Repr;
 import com.stevenlagoy.presidency.demographics.BlocJava;
 import com.stevenlagoy.presidency.demographics.DemographicsManager;
 
-public class County implements MapEntity, Repr<County>, Jsonic<County> {
+public class County implements MapEntityJava, Repr<County>, Jsonic<County> {
 
     // INSTANCE VARIABLES
 
     /** State the County is within. */
-    private State state;
+    private StateJava state;
     /** Unique 5-digit FIPS code, including the State FIPS. */
     private String FIPS;
     /** Population of the County. */
@@ -54,7 +54,7 @@ public class County implements MapEntity, Repr<County>, Jsonic<County> {
                 countySeatName.isEmpty() ? null : mm.matchMunicipality(countySeatName,stateName), descriptors);
     }
 
-    public County(DemographicsManager dm, String FIPS, int population, double landArea, String fullName, String commonName, State state,
+    public County(DemographicsManager dm, String FIPS, int population, double landArea, String fullName, String commonName, StateJava state,
             Municipality countySeat, Set<String> descriptors) {
         this.FIPS = FIPS;
         setPopulation(population);
@@ -136,11 +136,11 @@ public class County implements MapEntity, Repr<County>, Jsonic<County> {
     }
 
     // State : State
-    public State getState() {
+    public StateJava getState() {
         return state;
     }
 
-    public void setState(State state) {
+    public void setState(StateJava state) {
         this.state = state;
     }
 

@@ -19,9 +19,9 @@ import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.presidency.characters.attributes.Role;
 import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
 import com.stevenlagoy.presidency.demographics.DemographicsManager;
-import com.stevenlagoy.presidency.map.MapEntity;
+import com.stevenlagoy.presidency.map.MapEntityJava;
 import com.stevenlagoy.presidency.map.MapManager;
-import com.stevenlagoy.presidency.map.State;
+import com.stevenlagoy.presidency.map.StateJava;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                         STATE OFFICIAL                                         //
@@ -49,7 +49,7 @@ public class StateOfficial extends PoliticalActorJava {
 
     private Set<StateRole> roles;
 
-    private MapEntity jurisdiction;
+    private MapEntityJava jurisdiction;
 
     // CONSTRUCTORS -------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -85,7 +85,7 @@ public class StateOfficial extends PoliticalActorJava {
         fromJson(json);
     }
 
-    public StateOfficial(CharacterManager cm, DemographicsManager dm, MapManager mm, NameManager nm, State state) {
+    public StateOfficial(CharacterManager cm, DemographicsManager dm, MapManager mm, NameManager nm, StateJava state) {
         super(cm, dm, mm, nm);
         this.jurisdiction = state;
     }
@@ -102,11 +102,11 @@ public class StateOfficial extends PoliticalActorJava {
 
     // Jurisdiction : Map Entity
 
-    public MapEntity getJurisdiction() {
+    public MapEntityJava getJurisdiction() {
         return jurisdiction;
     }
 
-    public void setJurisdiction(MapEntity jurisdiction) {
+    public void setJurisdiction(MapEntityJava jurisdiction) {
         this.jurisdiction = jurisdiction;
     }
 

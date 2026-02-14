@@ -43,12 +43,12 @@ import com.stevenlagoy.presidency.util.Logger;
  * Holds values describing information about the state, its demographics and
  * voting patterns, and leadership.
  */
-public class State implements MapEntity, Repr<State>, Jsonic<State> {
+public class StateJava implements MapEntityJava, Repr<StateJava>, Jsonic<StateJava> {
 
     // INSTANCE VARIABLES
     // -------------------------------------------------------------------------
 
-    private Nation nation;
+    private NationJava nation;
     /** Unique state FIPS code between 01 and 56. */
     private String FIPS;
     /** Total population of the State. */
@@ -82,11 +82,11 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
     // -------------------------------------------------------------------------------
 
     /** To be used before Characters are ready to be generated. */
-    public State(DemographicsManager dm, MapManager mm, String FIPS, int population, double landArea, String fullName,
-            String commonName,
-            String abbreviation,
-            String nickname, String motto, String capitalName, Set<String> descriptors) {
-        nation = Nation.getInstance();
+    public StateJava(DemographicsManager dm, MapManager mm, String FIPS, int population, double landArea, String fullName,
+                     String commonName,
+                     String abbreviation,
+                     String nickname, String motto, String capitalName, Set<String> descriptors) {
+        nation = NationJava.getInstance();
         setFIPS(FIPS);
         setPopulation(population);
         setLandArea(landArea);
@@ -103,23 +103,23 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
         setDescriptors(dm, descriptors);
     }
 
-    public State(Engine engine, String FIPS, int population, double landArea, String fullName,
-            String commonName,
-            String abbreviation,
-            String nickname, String motto, String capitalName, Set<String> descriptors, List<FederalOfficial> senators,
-            StateOfficial governor, StateOfficial lieutenantGovernor) {
+    public StateJava(Engine engine, String FIPS, int population, double landArea, String fullName,
+                     String commonName,
+                     String abbreviation,
+                     String nickname, String motto, String capitalName, Set<String> descriptors, List<FederalOfficial> senators,
+                     StateOfficial governor, StateOfficial lieutenantGovernor) {
         this(engine, FIPS, population, landArea, fullName, commonName, abbreviation, nickname, motto,
                 capitalName.isEmpty() ? null : engine.MapManager().matchMunicipality(capitalName, abbreviation),
                 descriptors, senators, governor, lieutenantGovernor);
     }
 
-    public State(Engine engine, String FIPS, int population, double landArea,
-            String fullName,
-            String commonName,
-            String abbreviation,
-            String nickname, String motto, Municipality capital, Set<String> descriptors,
-            List<FederalOfficial> senators, StateOfficial governor, StateOfficial lieutenantGovernor) {
-        nation = Nation.getInstance();
+    public StateJava(Engine engine, String FIPS, int population, double landArea,
+                     String fullName,
+                     String commonName,
+                     String abbreviation,
+                     String nickname, String motto, Municipality capital, Set<String> descriptors,
+                     List<FederalOfficial> senators, StateOfficial governor, StateOfficial lieutenantGovernor) {
+        nation = NationJava.getInstance();
         setFIPS(FIPS);
         setPopulation(population);
         setLandArea(landArea);
@@ -562,7 +562,7 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
     /**
      * {@inheritDoc}
      */
-    public State fromRepr(String repr) {
+    public StateJava fromRepr(String repr) {
         return this;
     }
 
@@ -599,7 +599,7 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
      * {@inheritDoc}
      */
     @Override
-    public State fromJson(JSONObject json) {
+    public StateJava fromJson(JSONObject json) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'fromJson'");
     }
@@ -642,7 +642,7 @@ public class State implements MapEntity, Repr<State>, Jsonic<State> {
             return true;
         if (obj == null || this.getClass() != obj.getClass())
             return false;
-        State other = (State) obj;
+        StateJava other = (StateJava) obj;
         return this.toString().equals(other.toString());
     }
 

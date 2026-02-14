@@ -119,8 +119,8 @@ public final class MapManager extends Manager {
 
     // INSTANCE VARIABLES -------------------------------------------------------------------------------------------------------------------------------------
 
-    private Nation nation;
-    private List<State> states;
+    private NationJava nation;
+    private List<StateJava> states;
     private List<CongressionalDistrict> congressionalDistricts;
     private List<County> counties;
     private List<Municipality> municipalities;
@@ -136,7 +136,7 @@ public final class MapManager extends Manager {
         this.ENGINE = engine;
         currentState = ManagerState.INACTIVE;
 
-        nation = Nation.getInstance();
+        nation = NationJava.getInstance();
         states = new ArrayList<>();
         congressionalDistricts = new ArrayList<>();
         counties = new ArrayList<>();
@@ -217,7 +217,7 @@ public final class MapManager extends Manager {
                     String motto = stateJson.get("motto").toString();
                     String capital = stateJson.get("capital").toString();
                     Set<String> descriptors = Set.copyOf((ArrayList<String>) stateJson.get("descriptors"));
-                    this.states.add(new State(ENGINE.DemographicsManager(), this, FIPS, population, landArea, fullName, commonName, abbreviation, nickname,
+                    this.states.add(new StateJava(ENGINE.DemographicsManager(), this, FIPS, population, landArea, fullName, commonName, abbreviation, nickname,
                             motto, citiesLoaded ? capital : "", descriptors));
                 }
                 catch (NumberFormatException | ClassCastException e) {
@@ -316,7 +316,7 @@ public final class MapManager extends Manager {
         successFlag = successFlag && nation.getPresident(ENGINE.CharacterManager()) != null;
         successFlag = successFlag && nation.getVicePresident(ENGINE.CharacterManager()) != null;
         Logger.log(String.format("President and VP generated"));
-        for (State state : states) {
+        for (StateJava state : states) {
             state.setSenators(ENGINE, state.getSenators());
             state.setGovernor(ENGINE, state.getGovernor());
             state.setLieutenantGovernor(ENGINE, state.getLieutenantGovernor());
@@ -377,8 +377,8 @@ public final class MapManager extends Manager {
      * @param stateName The name or abbreviation of the state.
      * @return The matched state, if found, or {@code null} otherwise.
      */
-    public State matchState(String stateName) {
-        for (State state : states) {
+    public StateJava matchState(String stateName) {
+        for (StateJava state : states) {
             if (state.getCommonName().equals(stateName) || state.getAbbreviation().equals(stateName))
                 return state;
         }
@@ -395,7 +395,7 @@ public final class MapManager extends Manager {
         return null;
     }
 
-    public CongressionalDistrict matchCongressionalDistrict(State state, int districtNum) {
+    public CongressionalDistrict matchCongressionalDistrict(StateJava state, int districtNum) {
         for (CongressionalDistrict district : congressionalDistricts) {
             if (district.getState().equals(state) && district.getDistrictNum() == districtNum)
                 return district;
@@ -422,7 +422,7 @@ public final class MapManager extends Manager {
         return matchCounty(countyName, matchState(stateName));
     }
 
-    public County matchCounty(String name, State state) {
+    public County matchCounty(String name, StateJava state) {
         for (County county : counties) {
             if (county.getState().equals(state) && county.getFullName().equals(name) || county.getCommonName().equals(name))
                 return county;
@@ -435,7 +435,7 @@ public final class MapManager extends Manager {
         return matchCounties(countiesNames, matchState(stateName));
     }
 
-    public List<County> matchCounties(Collection<String> names, State state) {
+    public List<County> matchCounties(Collection<String> names, StateJava state) {
         List<County> result = new ArrayList<>();
         for (String name : names) {
             County matched = matchCounty(name, state);
@@ -470,7 +470,7 @@ public final class MapManager extends Manager {
         return matchMunicipality(municipalityName, stateNameOrAbbr);
     }
 
-    public Municipality matchMunicipality(String municipalityName, State state) {
+    public Municipality matchMunicipality(String municipalityName, StateJava state) {
         if (municipalityName == null)
             return null;
         for (Municipality municipality : municipalities) {
@@ -543,7 +543,7 @@ public final class MapManager extends Manager {
 
     // GETTERS AND SETTERS ------------------------------------------------------------------------------------------------------------------------------------
 
-    public List<State> getStates() {
+    public List<StateJava> getStates() {
         return states;
     }
 
@@ -627,7 +627,7 @@ public final class MapManager extends Manager {
         List<JSONObject> fields = new ArrayList<>();
         fields.add(nation.toJson());
         List<JSONObject> statesJsons = new ArrayList<>();
-        for (State state : states) {
+        for (StateJava state : states) {
             statesJsons.add(state.toJson());
         }
         fields.add(new JSONObject("states", statesJsons));

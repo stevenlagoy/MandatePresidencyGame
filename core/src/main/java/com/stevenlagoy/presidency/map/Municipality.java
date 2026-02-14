@@ -33,7 +33,7 @@ import com.stevenlagoy.presidency.util.Logger;
  * term used to describe Cities, Villages, Towns, and other kinds of
  * Census-Designated populated areas.
  */
-public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Municipality> {
+public class Municipality implements MapEntityJava, Repr<Municipality>, Jsonic<Municipality> {
 
     /**
      * TypeClass describes the various classes or levels of local government, which
@@ -82,7 +82,7 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
     private TimeZone standardTimeZone;
     private TimeZone daylightTimeZone;
     private List<County> counties;
-    private State state;
+    private StateJava state;
 
     private LocalOfficial mayor;
 
@@ -140,9 +140,9 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
     }
 
     public Municipality(DemographicsManager dm, MapManager mm, String FIPS, int population, double landArea,
-            String name, String nickname,
-            TypeClass typeClass,
-            TimeZone standardTimeZone, TimeZone daylightTimeZone, State state, Set<String> descriptors) {
+                        String name, String nickname,
+                        TypeClass typeClass,
+                        TimeZone standardTimeZone, TimeZone daylightTimeZone, StateJava state, Set<String> descriptors) {
         this.FIPS = FIPS;
         this.population = population;
         this.landArea = landArea;
@@ -290,11 +290,11 @@ public class Municipality implements MapEntity, Repr<Municipality>, Jsonic<Munic
 
     // State : State
 
-    public State getState() {
+    public StateJava getState() {
         return this.state;
     }
 
-    public void setState(State state) {
+    public void setState(StateJava state) {
         this.state = state;
     }
 

@@ -34,27 +34,27 @@ import com.stevenlagoy.presidency.util.Logger;
  * single
  * class instance is achieved through the {@link #getInstance()} method.
  */
-public class Nation implements MapEntity, Repr<Nation>, Jsonic<Nation> {
+public class NationJava implements MapEntityJava, Repr<NationJava>, Jsonic<NationJava> {
 
     // SINGLETON PATTERN
     // --------------------------------------------------------------------------
 
     /** Singleton instance of the Nation */
-    private static Nation instance;
+    private static NationJava instance;
 
     /**
      * This is a Singleton class. It cannot be instantiated, and access to the
      * single class instance is achieved through the {@link #getInstance()} method.
      */
-    private Nation() {
+    private NationJava() {
     } // Non-Instantiable
 
     /**
      * Get the singleton Nation instance.
      */
-    public static Nation getInstance() {
+    public static NationJava getInstance() {
         if (instance == null) {
-            instance = new Nation();
+            instance = new NationJava();
             instance.descriptors = new HashSet<>();
             instance.demographics = new HashMap<>();
         }
@@ -319,7 +319,7 @@ public class Nation implements MapEntity, Repr<Nation>, Jsonic<Nation> {
     }
 
     @Override
-    public Nation fromRepr(String repr) {
+    public NationJava fromRepr(String repr) {
         return this;
     }
 
@@ -343,7 +343,7 @@ public class Nation implements MapEntity, Repr<Nation>, Jsonic<Nation> {
     }
 
     @Override
-    public Nation fromJson(JSONObject json) {
+    public NationJava fromJson(JSONObject json) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'fromJson'");
     }
