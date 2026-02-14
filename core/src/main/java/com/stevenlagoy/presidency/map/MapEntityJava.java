@@ -17,7 +17,7 @@ import com.stevenlagoy.presidency.demographics.DemographicsManager;
  * Any Entity (Nation, State, Municipality, &c) which appears on the Map is a
  * MapEntity. This is a blank interface to allow for polymorphism.
  */
-public interface MapEntity {
+public interface MapEntityJava {
 
     /** Get a descriptive identifying name for the MapEntity. */
     public String getName();

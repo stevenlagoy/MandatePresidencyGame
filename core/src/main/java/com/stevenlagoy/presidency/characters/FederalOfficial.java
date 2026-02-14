@@ -19,7 +19,7 @@ import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.presidency.characters.attributes.Role;
 import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
 import com.stevenlagoy.presidency.demographics.DemographicsManager;
-import com.stevenlagoy.presidency.map.MapEntity;
+import com.stevenlagoy.presidency.map.MapEntityJava;
 import com.stevenlagoy.presidency.map.MapManager;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -47,7 +47,7 @@ public class FederalOfficial extends PoliticalActorJava {
 
     private Set<FederalRole> roles;
 
-    private MapEntity jurisdiction;
+    private MapEntityJava jurisdiction;
 
     // CONSTRUCTORS -------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -98,11 +98,11 @@ public class FederalOfficial extends PoliticalActorJava {
 
     // Jurisdiction : MapEntity
 
-    public MapEntity getJurisdiction() {
+    public MapEntityJava getJurisdiction() {
         return jurisdiction;
     }
 
-    public void setJurisdiction(MapEntity jurisdiction) {
+    public void setJurisdiction(MapEntityJava jurisdiction) {
         this.jurisdiction = jurisdiction;
     }
 

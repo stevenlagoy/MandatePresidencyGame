@@ -29,7 +29,7 @@ import com.stevenlagoy.presidency.characters.attributes.Personality;
 import com.stevenlagoy.presidency.demographics.BlocJava;
 import com.stevenlagoy.presidency.demographics.DemographicsJava;
 import com.stevenlagoy.presidency.demographics.DemographicsManager;
-import com.stevenlagoy.presidency.map.Nation;
+import com.stevenlagoy.presidency.map.NationJava;
 import com.stevenlagoy.presidency.util.FilePaths;
 import com.stevenlagoy.presidency.util.Logger;
 import com.stevenlagoy.presidency.util.RandomUtils;
@@ -160,7 +160,7 @@ public final class CharacterManager extends Manager {
         president = new FederalOfficial(new CharacterJava(ENGINE.CharacterManager(), ENGINE.DemographicsManager(),
                 ENGINE.MapManager(), ENGINE.NameManager(), presidentDemographics, null, null, null, null, null));
         president.addRole(FederalRole.PRESIDENT);
-        president.setJurisdiction(Nation.getInstance());
+        president.setJurisdiction(NationJava.getInstance());
         return president;
     }
 
@@ -174,7 +174,7 @@ public final class CharacterManager extends Manager {
         vicePresident = new FederalOfficial(new CharacterJava(ENGINE.CharacterManager(), ENGINE.DemographicsManager(),
                 ENGINE.MapManager(), ENGINE.NameManager(), vicePresidentDemographics, null, null, null, null, null));
         vicePresident.addRole(FederalRole.VICE_PRESIDENT);
-        vicePresident.setJurisdiction(Nation.getInstance());
+        vicePresident.setJurisdiction(NationJava.getInstance());
         return vicePresident;
     }
 

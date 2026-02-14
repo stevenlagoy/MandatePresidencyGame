@@ -26,6 +26,7 @@ import com.stevenlagoy.presidency.characters.attributes.names.NameJava.NameForm;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.demographics.BlocJava;
+import com.stevenlagoy.presidency.demographics.BlocKT;
 import com.stevenlagoy.presidency.demographics.DemographicsJava;
 import com.stevenlagoy.presidency.util.CollectionUtils;
 import com.stevenlagoy.presidency.util.FilePaths;
@@ -115,8 +116,8 @@ public final class NameManager extends Manager {
 
     // INSTANCE VARIABLES -------------------------------------------------------------------------------------------------------------------------------------
 
-    private Map<Set<BlocJava>, Map<String, Double>> givenNamesDistribution;
-    private Map<Set<BlocJava>, Map<String, Double>> familyNamesDistribution;
+    private Map<Set<BlocKT>, Map<String, Double>> givenNamesDistribution;
+    private Map<Set<BlocKT>, Map<String, Double>> familyNamesDistribution;
     private Map<String, List<String>> nicknames;
 
     private final Engine ENGINE;
@@ -822,7 +823,7 @@ public final class NameManager extends Manager {
      * @return Mapping of bloc sets to weighted names.
      * @see #processNamesStructure(JSONObject, Set)
      */
-    private Map<Set<BlocJava>, Map<String, Double>> processNamesStructure(JSONObject json) {
+    private Map<Set<BlocKT>, Map<String, Double>> processNamesStructure(JSONObject json) {
         return processNamesStructure(json, new HashSet<>());
     }
 
@@ -835,8 +836,8 @@ public final class NameManager extends Manager {
      * @return Mapping of bloc sets to weighted names.
      * @see #processNamesStructure(JSONObject)
      */
-    private Map<Set<BlocJava>, Map<String, Double>> processNamesStructure(JSONObject json, Set<BlocJava> currentBlocs) {
-        Map<Set<BlocJava>, Map<String, Double>> distributions = new HashMap<>();
+    private Map<Set<BlocKT>, Map<String, Double>> processNamesStructure(JSONObject json, Set<BlocKT> currentBlocs) {
+        Map<Set<BlocKT>, Map<String, Double>> distributions = new HashMap<>();
 
         for (Object obj : json.getAsList()) {
             if (!(obj instanceof JSONObject entry))
@@ -857,11 +858,9 @@ public final class NameManager extends Manager {
             else if (value instanceof List<?>) {
                 // This is a nested structure
                 // If key is valid bloc, add it to a new bloc set
-                BlocJava bloc = ENGINE.DemographicsManager().matchBlocName(key);
-                Set<BlocJava> updatedBlocs = new HashSet<>(currentBlocs);
-                if (bloc != null) {
-                    updatedBlocs.add(bloc);
-                }
+                BlocKT bloc = ENGINE.DemographicsManager().matchBlocName(key);
+                Set<BlocKT> updatedBlocs = new HashSet<>(currentBlocs);
+                updatedBlocs.add(bloc);
                 // Recurse with updated bloc set
                 Map<Set<BlocJava>, Map<String, Double>> subDistr = processNamesStructure(entry, updatedBlocs);
                 for (Set<BlocJava> k : subDistr.keySet()) {
