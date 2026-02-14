@@ -23,7 +23,7 @@ import com.stevenlagoy.presidency.demographics.BlocJava;
 import com.stevenlagoy.presidency.demographics.DemographicsManager;
 import com.stevenlagoy.presidency.util.NumberUtils;
 
-public class CongressionalDistrict implements MapEntity, Repr<State>, Jsonic<State> {
+public class CongressionalDistrict implements MapEntityJava, Repr<StateJava>, Jsonic<StateJava> {
 
     // INSTANCE VARIBALES
     // -------------------------------------------------------------------------
@@ -40,7 +40,7 @@ public class CongressionalDistrict implements MapEntity, Repr<State>, Jsonic<Sta
     /** Name of the District, I.E.: "Congressional District 1". */
     private String name;
     /** State which the District is within. */
-    private State state;
+    private StateJava state;
     /** Number of the District. At-large districts are 0. */
     private int districtNum;
 
@@ -57,8 +57,8 @@ public class CongressionalDistrict implements MapEntity, Repr<State>, Jsonic<Sta
         this(dm, officeID, population, landArea, name, mm.matchState(stateName), districtNum, descriptors);
     }
 
-    public CongressionalDistrict(DemographicsManager dm, String officeID, int population, double landArea, String name, State state, int districtNum,
-            Set<String> descriptors) {
+    public CongressionalDistrict(DemographicsManager dm, String officeID, int population, double landArea, String name, StateJava state, int districtNum,
+                                 Set<String> descriptors) {
         this.officeID = officeID;
         this.population = population;
         this.landArea = landArea;
@@ -119,11 +119,11 @@ public class CongressionalDistrict implements MapEntity, Repr<State>, Jsonic<Sta
 
     // State : State
 
-    public State getState() {
+    public StateJava getState() {
         return state;
     }
 
-    public void setState(State state) {
+    public void setState(StateJava state) {
         this.state = state;
     }
 
@@ -262,7 +262,7 @@ public class CongressionalDistrict implements MapEntity, Repr<State>, Jsonic<Sta
     }
 
     @Override
-    public State fromJson(JSONObject json) {
+    public StateJava fromJson(JSONObject json) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'fromJson'");
     }
@@ -274,7 +274,7 @@ public class CongressionalDistrict implements MapEntity, Repr<State>, Jsonic<Sta
     }
 
     @Override
-    public State fromRepr(String repr) {
+    public StateJava fromRepr(String repr) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'fromRepr'");
     }
