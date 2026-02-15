@@ -1,0 +1,25 @@
+{
+    "FIPS" : "15", 
+    "common_name" : "Hawaii", 
+    "full_name" : "State of Hawaii", 
+    "map_color" : "#FF325E", 
+    "flag_loc" : "hawaii_flag.png", 
+    "population" : 1455271, 
+    "land_area" : 10932, 
+    "abbreviation" : "HI", 
+    "motto" : "hawaii_motto", 
+    "nickname" : "hawaii_nickname", 
+    "capital" : "Honolulu", 
+    "descriptors" : [
+        "HAWAII", 
+        "WEST", 
+        "PACIFIC"
+    ], 
+    "counties" : [
+        "15001", 
+        "15003", 
+        "15005", 
+        "15007", 
+        "15009"
+    ]
+}

@@ -523,8 +523,8 @@
 		"full_name" : "Commonwealth of the Northern Mariana Islands",
 		"map_color" : "#AEFF32",
 		"flag_loc" : "northern_mariana_islands_flag.png",
-		"population": 49587,
-		"land_area" : 1976,
+		"population": 55560,
+		"land_area" : 179,
 		"abbreviation": "MP",
 		"motto" : "northern_mariana_islands_motto",
 		"nickname" : "northern_mariana_islands_nickname",
@@ -782,5 +782,61 @@
 		"nickname" : "wyoming_nickname",
 		"capital" : "Cheyenne",
 		"descriptors" : ["WYOMING", "WEST", "MOUNTAIN"]
-	}
+	},
+    "Micronesia" : {
+      "FIPS" : "64",
+      "common_name" : "Micronesia",
+      "full_name" : "Federated States of Micronesia",
+      "map_color" : "#000000",
+      "flag_loc" : "micronesia_flag.png",
+      "population" : 104468,
+      "land_area" : 271,
+      "abbreviation" : "FM",
+      "motto" : "Peace, Unity, Liberty",
+      "nickname" : "",
+      "capital" : "Palikir",
+      "descriptors" : []
+    },
+    "Marshall Islands" : {
+      "FIPS" : "68",
+      "common_name" : "Marshall Islands",
+      "full_name" : "Republic of the Marshall Islands",
+      "map_color" : "#000000",
+      "flag_loc" : "marshall_islands_flag.png",
+      "population" : 42418,
+      "land_area" : 70,
+      "abbreviation" : "MH",
+      "motto" : "Jepilpilin ke ejukaan",
+      "nickname" : "",
+      "capital" : "Majuro",
+      "descriptors" : []
+    },
+    "Palau" : {
+      "FIPS" : "70",
+      "common_name" : "Palau",
+      "full_name" : "Republic of Palau",
+      "map_color" : "#000000",
+      "flag_loc" : "palau_flag.png",
+      "population" : 17663,
+      "land_area" : 177,
+      "abbreviation" : "PW",
+      "motto" : "",
+      "nickname" : "",
+      "capital" : "Ngerulmud",
+      "descriptors" : []
+    },
+    "U.S. Minor Outlying Islands" : {
+      "FIPS" : "74",
+      "full_name" : "United States Minor Outlying Islands",
+      "common_name" : "U.S. Minor Outlying Islands",
+      "map_color" : "#000000",
+      "flag_loc" : "united_states_flag.png",
+      "population" : 300,
+      "land_area" : 19,
+      "abbreviation" : "UM",
+      "motto" : "In God We Trust",
+      "nickname" : "",
+      "capital" : "Washington, DC",
+      "descriptors" : []
+    }
 }

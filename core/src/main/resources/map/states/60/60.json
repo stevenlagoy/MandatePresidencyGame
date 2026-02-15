@@ -1,0 +1,19 @@
+{
+    "FIPS" : "60", 
+    "common_name" : "American Samoa", 
+    "full_name" : "Unincorporated Territory of American Samoa", 
+    "map_color" : "#FF1616", 
+    "flag_loc" : "american_samoa_flag.png", 
+    "population" : 46189, 
+    "land_area" : 581, 
+    "abbreviation" : "AS", 
+    "motto" : "american_samoa_motto", 
+    "nickname" : "american_samoa_nickname", 
+    "capital" : "Pago Pago", 
+    "descriptors" : [
+        "SAMOA"
+    ], 
+    "counties" : [
+        "60030"
+    ]
+}

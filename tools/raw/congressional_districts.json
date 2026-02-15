@@ -1,0 +1,3971 @@
+{
+	"AL01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Alabama",
+		"district_num" : "01",
+		"office_ID" : "0101",
+		"descriptors" : []
+	},
+	"AL02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Alabama",
+		"district_num" : "02",
+		"office_ID" : "0102",
+		"descriptors" : []
+	},
+	"AL03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Alabama",
+		"district_num" : "03",
+		"office_ID" : "0103",
+		"descriptors" : []
+	},
+	"AL04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Alabama",
+		"district_num" : "04",
+		"office_ID" : "0104",
+		"descriptors" : []
+	},
+	"AL05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Alabama",
+		"district_num" : "05",
+		"office_ID" : "0105",
+		"descriptors" : []
+	},
+	"AL06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "Alabama",
+		"district_num" : "06",
+		"office_ID" : "0106",
+		"descriptors" : []
+	},
+	"AL07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "Alabama",
+		"district_num" : "07",
+		"office_ID" : "0107",
+		"descriptors" : []
+	},
+	"AK00" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District (at Large)",
+		"state" : "Alaska",
+		"district_num" : "00",
+		"office_ID" : "0200",
+		"descriptors" : []
+	},
+	"AZ01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Arizona",
+		"district_num" : "01",
+		"office_ID" : "0401",
+		"descriptors" : []
+	},
+	"AZ02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Arizona",
+		"district_num" : "02",
+		"office_ID" : "0402",
+		"descriptors" : []
+	},
+	"AZ03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Arizona",
+		"district_num" : "03",
+		"office_ID" : "0403",
+		"descriptors" : []
+	},
+	"AZ04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Arizona",
+		"district_num" : "04",
+		"office_ID" : "0404",
+		"descriptors" : []
+	},
+	"AZ05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Arizona",
+		"district_num" : "05",
+		"office_ID" : "0405",
+		"descriptors" : []
+	},
+	"AZ06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "Arizona",
+		"district_num" : "06",
+		"office_ID" : "0406",
+		"descriptors" : []
+	},
+	"AZ07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "Arizona",
+		"district_num" : "07",
+		"office_ID" : "0407",
+		"descriptors" : []
+	},
+	"AZ08" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 8",
+		"state" : "Arizona",
+		"district_num" : "08",
+		"office_ID" : "0408",
+		"descriptors" : []
+	},
+	"AZ09" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 9",
+		"state" : "Arizona",
+		"district_num" : "09",
+		"office_ID" : "0409",
+		"descriptors" : []
+	},
+	"AR01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Arkansas",
+		"district_num" : "01",
+		"office_ID" : "0501",
+		"descriptors" : []
+	},
+	"AR02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Arkansas",
+		"district_num" : "02",
+		"office_ID" : "0502",
+		"descriptors" : []
+	},
+	"AR03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Arkansas",
+		"district_num" : "03",
+		"office_ID" : "0503",
+		"descriptors" : []
+	},
+	"AR04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Arkansas",
+		"district_num" : "04",
+		"office_ID" : "0504",
+		"descriptors" : []
+	},
+	"CA50" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 50",
+		"state" : "California",
+		"district_num" : "50",
+		"office_ID" : "0650",
+		"descriptors" : []
+	},
+	"CA52" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 52",
+		"state" : "California",
+		"district_num" : "52",
+		"office_ID" : "0652",
+		"descriptors" : []
+	},
+	"CA10" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 10",
+		"state" : "California",
+		"district_num" : "10",
+		"office_ID" : "0610",
+		"descriptors" : []
+	},
+	"CA11" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 11",
+		"state" : "California",
+		"district_num" : "11",
+		"office_ID" : "0611",
+		"descriptors" : []
+	},
+	"CA12" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 12",
+		"state" : "California",
+		"district_num" : "12",
+		"office_ID" : "0612",
+		"descriptors" : []
+	},
+	"CA15" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 15",
+		"state" : "California",
+		"district_num" : "15",
+		"office_ID" : "0615",
+		"descriptors" : []
+	},
+	"CA14" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 14",
+		"state" : "California",
+		"district_num" : "14",
+		"office_ID" : "0614",
+		"descriptors" : []
+	},
+	"CA16" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 16",
+		"state" : "California",
+		"district_num" : "16",
+		"office_ID" : "0616",
+		"descriptors" : []
+	},
+	"CA19" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 19",
+		"state" : "California",
+		"district_num" : "19",
+		"office_ID" : "0619",
+		"descriptors" : []
+	},
+	"CA20" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 20",
+		"state" : "California",
+		"district_num" : "20",
+		"office_ID" : "0620",
+		"descriptors" : []
+	},
+	"CA18" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 18",
+		"state" : "California",
+		"district_num" : "18",
+		"office_ID" : "0618",
+		"descriptors" : []
+	},
+	"CA23" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 23",
+		"state" : "California",
+		"district_num" : "23",
+		"office_ID" : "0623",
+		"descriptors" : []
+	},
+	"CA25" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 25",
+		"state" : "California",
+		"district_num" : "25",
+		"office_ID" : "0625",
+		"descriptors" : []
+	},
+	"CA26" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 26",
+		"state" : "California",
+		"district_num" : "26",
+		"office_ID" : "0626",
+		"descriptors" : []
+	},
+	"CA22" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 22",
+		"state" : "California",
+		"district_num" : "22",
+		"office_ID" : "0622",
+		"descriptors" : []
+	},
+	"CA29" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 29",
+		"state" : "California",
+		"district_num" : "29",
+		"office_ID" : "0629",
+		"descriptors" : []
+	},
+	"CA31" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 31",
+		"state" : "California",
+		"district_num" : "31",
+		"office_ID" : "0631",
+		"descriptors" : []
+	},
+	"CA27" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 27",
+		"state" : "California",
+		"district_num" : "27",
+		"office_ID" : "0627",
+		"descriptors" : []
+	},
+	"CA30" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 30",
+		"state" : "California",
+		"district_num" : "30",
+		"office_ID" : "0630",
+		"descriptors" : []
+	},
+	"CA35" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 35",
+		"state" : "California",
+		"district_num" : "35",
+		"office_ID" : "0635",
+		"descriptors" : []
+	},
+	"CA32" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 32",
+		"state" : "California",
+		"district_num" : "32",
+		"office_ID" : "0632",
+		"descriptors" : []
+	},
+	"CA33" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 33",
+		"state" : "California",
+		"district_num" : "33",
+		"office_ID" : "0633",
+		"descriptors" : []
+	},
+	"CA36" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 36",
+		"state" : "California",
+		"district_num" : "36",
+		"office_ID" : "0636",
+		"descriptors" : []
+	},
+	"CA41" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 41",
+		"state" : "California",
+		"district_num" : "41",
+		"office_ID" : "0641",
+		"descriptors" : []
+	},
+	"CA39" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 39",
+		"state" : "California",
+		"district_num" : "39",
+		"office_ID" : "0639",
+		"descriptors" : []
+	},
+	"CA37" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 37",
+		"state" : "California",
+		"district_num" : "37",
+		"office_ID" : "0637",
+		"descriptors" : []
+	},
+	"CA42" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 42",
+		"state" : "California",
+		"district_num" : "42",
+		"office_ID" : "0642",
+		"descriptors" : []
+	},
+	"CA43" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 43",
+		"state" : "California",
+		"district_num" : "43",
+		"office_ID" : "0643",
+		"descriptors" : []
+	},
+	"CA44" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 44",
+		"state" : "California",
+		"district_num" : "44",
+		"office_ID" : "0644",
+		"descriptors" : []
+	},
+	"CA01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "California",
+		"district_num" : "01",
+		"office_ID" : "0601",
+		"descriptors" : []
+	},
+	"CA02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "California",
+		"district_num" : "02",
+		"office_ID" : "0602",
+		"descriptors" : []
+	},
+	"CA03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "California",
+		"district_num" : "03",
+		"office_ID" : "0603",
+		"descriptors" : []
+	},
+	"CA04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "California",
+		"district_num" : "04",
+		"office_ID" : "0604",
+		"descriptors" : []
+	},
+	"CA05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "California",
+		"district_num" : "05",
+		"office_ID" : "0605",
+		"descriptors" : []
+	},
+	"CA06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "California",
+		"district_num" : "06",
+		"office_ID" : "0606",
+		"descriptors" : []
+	},
+	"CA07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "California",
+		"district_num" : "07",
+		"office_ID" : "0607",
+		"descriptors" : []
+	},
+	"CA08" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 8",
+		"state" : "California",
+		"district_num" : "08",
+		"office_ID" : "0608",
+		"descriptors" : []
+	},
+	"CA09" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 9",
+		"state" : "California",
+		"district_num" : "09",
+		"office_ID" : "0609",
+		"descriptors" : []
+	},
+	"CA13" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 13",
+		"state" : "California",
+		"district_num" : "13",
+		"office_ID" : "0613",
+		"descriptors" : []
+	},
+	"CA17" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 17",
+		"state" : "California",
+		"district_num" : "17",
+		"office_ID" : "0617",
+		"descriptors" : []
+	},
+	"CA21" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 21",
+		"state" : "California",
+		"district_num" : "21",
+		"office_ID" : "0621",
+		"descriptors" : []
+	},
+	"CA24" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 24",
+		"state" : "California",
+		"district_num" : "24",
+		"office_ID" : "0624",
+		"descriptors" : []
+	},
+	"CA28" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 28",
+		"state" : "California",
+		"district_num" : "28",
+		"office_ID" : "0628",
+		"descriptors" : []
+	},
+	"CA34" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 34",
+		"state" : "California",
+		"district_num" : "34",
+		"office_ID" : "0634",
+		"descriptors" : []
+	},
+	"CA38" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 38",
+		"state" : "California",
+		"district_num" : "38",
+		"office_ID" : "0638",
+		"descriptors" : []
+	},
+	"CA40" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 40",
+		"state" : "California",
+		"district_num" : "40",
+		"office_ID" : "0640",
+		"descriptors" : []
+	},
+	"CA45" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 45",
+		"state" : "California",
+		"district_num" : "45",
+		"office_ID" : "0645",
+		"descriptors" : []
+	},
+	"CA46" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 46",
+		"state" : "California",
+		"district_num" : "46",
+		"office_ID" : "0646",
+		"descriptors" : []
+	},
+	"CA47" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 47",
+		"state" : "California",
+		"district_num" : "47",
+		"office_ID" : "0647",
+		"descriptors" : []
+	},
+	"CA48" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 48",
+		"state" : "California",
+		"district_num" : "48",
+		"office_ID" : "0648",
+		"descriptors" : []
+	},
+	"CA49" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 49",
+		"state" : "California",
+		"district_num" : "49",
+		"office_ID" : "0649",
+		"descriptors" : []
+	},
+	"CA51" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 51",
+		"state" : "California",
+		"district_num" : "51",
+		"office_ID" : "0651",
+		"descriptors" : []
+	},
+	"CO01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Colorado",
+		"district_num" : "01",
+		"office_ID" : "0801",
+		"descriptors" : []
+	},
+	"CO02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Colorado",
+		"district_num" : "02",
+		"office_ID" : "0802",
+		"descriptors" : []
+	},
+	"CO03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Colorado",
+		"district_num" : "03",
+		"office_ID" : "0803",
+		"descriptors" : []
+	},
+	"CO04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Colorado",
+		"district_num" : "04",
+		"office_ID" : "0804",
+		"descriptors" : []
+	},
+	"CO05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Colorado",
+		"district_num" : "05",
+		"office_ID" : "0805",
+		"descriptors" : []
+	},
+	"CO06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "Colorado",
+		"district_num" : "06",
+		"office_ID" : "0806",
+		"descriptors" : []
+	},
+	"CO07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "Colorado",
+		"district_num" : "07",
+		"office_ID" : "0807",
+		"descriptors" : []
+	},
+	"CO08" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 8",
+		"state" : "Colorado",
+		"district_num" : "08",
+		"office_ID" : "0808",
+		"descriptors" : []
+	},
+	"CT01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Connecticut",
+		"district_num" : "01",
+		"office_ID" : "0901",
+		"descriptors" : []
+	},
+	"CT02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Connecticut",
+		"district_num" : "02",
+		"office_ID" : "0902",
+		"descriptors" : []
+	},
+	"CT03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Connecticut",
+		"district_num" : "03",
+		"office_ID" : "0903",
+		"descriptors" : []
+	},
+	"CT04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Connecticut",
+		"district_num" : "04",
+		"office_ID" : "0904",
+		"descriptors" : []
+	},
+	"CT05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Connecticut",
+		"district_num" : "05",
+		"office_ID" : "0905",
+		"descriptors" : []
+	},
+	"DE00" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District (at Large)",
+		"state" : "Delaware",
+		"district_num" : "00",
+		"office_ID" : "1000",
+		"descriptors" : []
+	},
+	"DC00" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Delegate District (at Large)",
+		"state" : "District of Columbia",
+		"district_num" : "98",
+		"office_ID" : "1198",
+		"descriptors" : []
+	},
+	"FL01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Florida",
+		"district_num" : "01",
+		"office_ID" : "1201",
+		"descriptors" : []
+	},
+	"FL02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Florida",
+		"district_num" : "02",
+		"office_ID" : "1202",
+		"descriptors" : []
+	},
+	"FL03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Florida",
+		"district_num" : "03",
+		"office_ID" : "1203",
+		"descriptors" : []
+	},
+	"FL04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Florida",
+		"district_num" : "04",
+		"office_ID" : "1204",
+		"descriptors" : []
+	},
+	"FL05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Florida",
+		"district_num" : "05",
+		"office_ID" : "1205",
+		"descriptors" : []
+	},
+	"FL06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "Florida",
+		"district_num" : "06",
+		"office_ID" : "1206",
+		"descriptors" : []
+	},
+	"FL07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "Florida",
+		"district_num" : "07",
+		"office_ID" : "1207",
+		"descriptors" : []
+	},
+	"FL08" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 8",
+		"state" : "Florida",
+		"district_num" : "08",
+		"office_ID" : "1208",
+		"descriptors" : []
+	},
+	"FL09" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 9",
+		"state" : "Florida",
+		"district_num" : "09",
+		"office_ID" : "1209",
+		"descriptors" : []
+	},
+	"FL10" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 10",
+		"state" : "Florida",
+		"district_num" : "10",
+		"office_ID" : "1210",
+		"descriptors" : []
+	},
+	"FL11" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 11",
+		"state" : "Florida",
+		"district_num" : "11",
+		"office_ID" : "1211",
+		"descriptors" : []
+	},
+	"FL12" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 12",
+		"state" : "Florida",
+		"district_num" : "12",
+		"office_ID" : "1212",
+		"descriptors" : []
+	},
+	"FL13" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 13",
+		"state" : "Florida",
+		"district_num" : "13",
+		"office_ID" : "1213",
+		"descriptors" : []
+	},
+	"FL14" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 14",
+		"state" : "Florida",
+		"district_num" : "14",
+		"office_ID" : "1214",
+		"descriptors" : []
+	},
+	"FL15" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 15",
+		"state" : "Florida",
+		"district_num" : "15",
+		"office_ID" : "1215",
+		"descriptors" : []
+	},
+	"FL16" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 16",
+		"state" : "Florida",
+		"district_num" : "16",
+		"office_ID" : "1216",
+		"descriptors" : []
+	},
+	"FL20" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 20",
+		"state" : "Florida",
+		"district_num" : "20",
+		"office_ID" : "1220",
+		"descriptors" : []
+	},
+	"FL22" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 22",
+		"state" : "Florida",
+		"district_num" : "22",
+		"office_ID" : "1222",
+		"descriptors" : []
+	},
+	"FL23" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 23",
+		"state" : "Florida",
+		"district_num" : "23",
+		"office_ID" : "1223",
+		"descriptors" : []
+	},
+	"FL24" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 24",
+		"state" : "Florida",
+		"district_num" : "24",
+		"office_ID" : "1224",
+		"descriptors" : []
+	},
+	"FL25" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 25",
+		"state" : "Florida",
+		"district_num" : "25",
+		"office_ID" : "1225",
+		"descriptors" : []
+	},
+	"FL26" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 26",
+		"state" : "Florida",
+		"district_num" : "26",
+		"office_ID" : "1226",
+		"descriptors" : []
+	},
+	"FL27" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 27",
+		"state" : "Florida",
+		"district_num" : "27",
+		"office_ID" : "1227",
+		"descriptors" : []
+	},
+	"FL28" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 28",
+		"state" : "Florida",
+		"district_num" : "28",
+		"office_ID" : "1228",
+		"descriptors" : []
+	},
+	"FL17" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 17",
+		"state" : "Florida",
+		"district_num" : "17",
+		"office_ID" : "1217",
+		"descriptors" : []
+	},
+	"FL19" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 19",
+		"state" : "Florida",
+		"district_num" : "19",
+		"office_ID" : "1219",
+		"descriptors" : []
+	},
+	"FL21" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 21",
+		"state" : "Florida",
+		"district_num" : "21",
+		"office_ID" : "1221",
+		"descriptors" : []
+	},
+	"FL18" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 18",
+		"state" : "Florida",
+		"district_num" : "18",
+		"office_ID" : "1218",
+		"descriptors" : []
+	},
+	"GA01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Georgia",
+		"district_num" : "01",
+		"office_ID" : "1301",
+		"descriptors" : []
+	},
+	"GA02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Georgia",
+		"district_num" : "02",
+		"office_ID" : "1302",
+		"descriptors" : []
+	},
+	"GA03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Georgia",
+		"district_num" : "03",
+		"office_ID" : "1303",
+		"descriptors" : []
+	},
+	"GA04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Georgia",
+		"district_num" : "04",
+		"office_ID" : "1304",
+		"descriptors" : []
+	},
+	"GA05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Georgia",
+		"district_num" : "05",
+		"office_ID" : "1305",
+		"descriptors" : []
+	},
+	"GA06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "Georgia",
+		"district_num" : "06",
+		"office_ID" : "1306",
+		"descriptors" : []
+	},
+	"GA07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "Georgia",
+		"district_num" : "07",
+		"office_ID" : "1307",
+		"descriptors" : []
+	},
+	"GA08" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 8",
+		"state" : "Georgia",
+		"district_num" : "08",
+		"office_ID" : "1308",
+		"descriptors" : []
+	},
+	"GA09" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 9",
+		"state" : "Georgia",
+		"district_num" : "09",
+		"office_ID" : "1309",
+		"descriptors" : []
+	},
+	"GA10" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 10",
+		"state" : "Georgia",
+		"district_num" : "10",
+		"office_ID" : "1310",
+		"descriptors" : []
+	},
+	"GA12" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 12",
+		"state" : "Georgia",
+		"district_num" : "12",
+		"office_ID" : "1312",
+		"descriptors" : []
+	},
+	"GA13" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 13",
+		"state" : "Georgia",
+		"district_num" : "13",
+		"office_ID" : "1313",
+		"descriptors" : []
+	},
+	"GA14" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 14",
+		"state" : "Georgia",
+		"district_num" : "14",
+		"office_ID" : "1314",
+		"descriptors" : []
+	},
+	"GA11" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 11",
+		"state" : "Georgia",
+		"district_num" : "11",
+		"office_ID" : "1311",
+		"descriptors" : []
+	},
+	"HI01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Hawaii",
+		"district_num" : "01",
+		"office_ID" : "1501",
+		"descriptors" : []
+	},
+	"HI02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Hawaii",
+		"district_num" : "02",
+		"office_ID" : "1502",
+		"descriptors" : []
+	},
+	"ID01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Idaho",
+		"district_num" : "01",
+		"office_ID" : "1601",
+		"descriptors" : []
+	},
+	"ID02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Idaho",
+		"district_num" : "02",
+		"office_ID" : "1602",
+		"descriptors" : []
+	},
+	"IL01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Illinois",
+		"district_num" : "01",
+		"office_ID" : "1701",
+		"descriptors" : []
+	},
+	"IL02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Illinois",
+		"district_num" : "02",
+		"office_ID" : "1702",
+		"descriptors" : []
+	},
+	"IL03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Illinois",
+		"district_num" : "03",
+		"office_ID" : "1703",
+		"descriptors" : []
+	},
+	"IL04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Illinois",
+		"district_num" : "04",
+		"office_ID" : "1704",
+		"descriptors" : []
+	},
+	"IL05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Illinois",
+		"district_num" : "05",
+		"office_ID" : "1705",
+		"descriptors" : []
+	},
+	"IL06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "Illinois",
+		"district_num" : "06",
+		"office_ID" : "1706",
+		"descriptors" : []
+	},
+	"IL07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "Illinois",
+		"district_num" : "07",
+		"office_ID" : "1707",
+		"descriptors" : []
+	},
+	"IL08" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 8",
+		"state" : "Illinois",
+		"district_num" : "08",
+		"office_ID" : "1708",
+		"descriptors" : []
+	},
+	"IL09" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 9",
+		"state" : "Illinois",
+		"district_num" : "09",
+		"office_ID" : "1709",
+		"descriptors" : []
+	},
+	"IL10" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 10",
+		"state" : "Illinois",
+		"district_num" : "10",
+		"office_ID" : "1710",
+		"descriptors" : []
+	},
+	"IL11" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 11",
+		"state" : "Illinois",
+		"district_num" : "11",
+		"office_ID" : "1711",
+		"descriptors" : []
+	},
+	"IL12" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 12",
+		"state" : "Illinois",
+		"district_num" : "12",
+		"office_ID" : "1712",
+		"descriptors" : []
+	},
+	"IL13" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 13",
+		"state" : "Illinois",
+		"district_num" : "13",
+		"office_ID" : "1713",
+		"descriptors" : []
+	},
+	"IL14" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 14",
+		"state" : "Illinois",
+		"district_num" : "14",
+		"office_ID" : "1714",
+		"descriptors" : []
+	},
+	"IL15" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 15",
+		"state" : "Illinois",
+		"district_num" : "15",
+		"office_ID" : "1715",
+		"descriptors" : []
+	},
+	"IL16" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 16",
+		"state" : "Illinois",
+		"district_num" : "16",
+		"office_ID" : "1716",
+		"descriptors" : []
+	},
+	"IL17" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 17",
+		"state" : "Illinois",
+		"district_num" : "17",
+		"office_ID" : "1717",
+		"descriptors" : []
+	},
+	"IN01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Indiana",
+		"district_num" : "01",
+		"office_ID" : "1801",
+		"descriptors" : []
+	},
+	"IN02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Indiana",
+		"district_num" : "02",
+		"office_ID" : "1802",
+		"descriptors" : []
+	},
+	"IN03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Indiana",
+		"district_num" : "03",
+		"office_ID" : "1803",
+		"descriptors" : []
+	},
+	"IN04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Indiana",
+		"district_num" : "04",
+		"office_ID" : "1804",
+		"descriptors" : []
+	},
+	"IN05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Indiana",
+		"district_num" : "05",
+		"office_ID" : "1805",
+		"descriptors" : []
+	},
+	"IN06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "Indiana",
+		"district_num" : "06",
+		"office_ID" : "1806",
+		"descriptors" : []
+	},
+	"IN07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "Indiana",
+		"district_num" : "07",
+		"office_ID" : "1807",
+		"descriptors" : []
+	},
+	"IN08" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 8",
+		"state" : "Indiana",
+		"district_num" : "08",
+		"office_ID" : "1808",
+		"descriptors" : []
+	},
+	"IN09" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 9",
+		"state" : "Indiana",
+		"district_num" : "09",
+		"office_ID" : "1809",
+		"descriptors" : []
+	},
+	"IA01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Iowa",
+		"district_num" : "01",
+		"office_ID" : "1901",
+		"descriptors" : []
+	},
+	"IA02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Iowa",
+		"district_num" : "02",
+		"office_ID" : "1902",
+		"descriptors" : []
+	},
+	"IA03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Iowa",
+		"district_num" : "03",
+		"office_ID" : "1903",
+		"descriptors" : []
+	},
+	"IA04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Iowa",
+		"district_num" : "04",
+		"office_ID" : "1904",
+		"descriptors" : []
+	},
+	"KS01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Kansas",
+		"district_num" : "01",
+		"office_ID" : "2001",
+		"descriptors" : []
+	},
+	"KS02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Kansas",
+		"district_num" : "02",
+		"office_ID" : "2002",
+		"descriptors" : []
+	},
+	"KS03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Kansas",
+		"district_num" : "03",
+		"office_ID" : "2003",
+		"descriptors" : []
+	},
+	"KS04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Kansas",
+		"district_num" : "04",
+		"office_ID" : "2004",
+		"descriptors" : []
+	},
+	"KY01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Kentucky",
+		"district_num" : "01",
+		"office_ID" : "2101",
+		"descriptors" : []
+	},
+	"KY02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Kentucky",
+		"district_num" : "02",
+		"office_ID" : "2102",
+		"descriptors" : []
+	},
+	"KY03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Kentucky",
+		"district_num" : "03",
+		"office_ID" : "2103",
+		"descriptors" : []
+	},
+	"KY04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Kentucky",
+		"district_num" : "04",
+		"office_ID" : "2104",
+		"descriptors" : []
+	},
+	"KY05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Kentucky",
+		"district_num" : "05",
+		"office_ID" : "2105",
+		"descriptors" : []
+	},
+	"KY06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "Kentucky",
+		"district_num" : "06",
+		"office_ID" : "2106",
+		"descriptors" : []
+	},
+	"LA01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Louisiana",
+		"district_num" : "01",
+		"office_ID" : "2201",
+		"descriptors" : []
+	},
+	"LA02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Louisiana",
+		"district_num" : "02",
+		"office_ID" : "2202",
+		"descriptors" : []
+	},
+	"LA03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Louisiana",
+		"district_num" : "03",
+		"office_ID" : "2203",
+		"descriptors" : []
+	},
+	"LA04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Louisiana",
+		"district_num" : "04",
+		"office_ID" : "2204",
+		"descriptors" : []
+	},
+	"LA05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Louisiana",
+		"district_num" : "05",
+		"office_ID" : "2205",
+		"descriptors" : []
+	},
+	"LA06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "Louisiana",
+		"district_num" : "06",
+		"office_ID" : "2206",
+		"descriptors" : []
+	},
+	"ME01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Maine",
+		"district_num" : "01",
+		"office_ID" : "2301",
+		"descriptors" : []
+	},
+	"ME02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Maine",
+		"district_num" : "02",
+		"office_ID" : "2302",
+		"descriptors" : []
+	},
+	"MD01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Maryland",
+		"district_num" : "01",
+		"office_ID" : "2401",
+		"descriptors" : []
+	},
+	"MD02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Maryland",
+		"district_num" : "02",
+		"office_ID" : "2402",
+		"descriptors" : []
+	},
+	"MD03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Maryland",
+		"district_num" : "03",
+		"office_ID" : "2403",
+		"descriptors" : []
+	},
+	"MD04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Maryland",
+		"district_num" : "04",
+		"office_ID" : "2404",
+		"descriptors" : []
+	},
+	"MD05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Maryland",
+		"district_num" : "05",
+		"office_ID" : "2405",
+		"descriptors" : []
+	},
+	"MD06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "Maryland",
+		"district_num" : "06",
+		"office_ID" : "2406",
+		"descriptors" : []
+	},
+	"MD07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "Maryland",
+		"district_num" : "07",
+		"office_ID" : "2407",
+		"descriptors" : []
+	},
+	"MD08" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 8",
+		"state" : "Maryland",
+		"district_num" : "08",
+		"office_ID" : "2408",
+		"descriptors" : []
+	},
+	"MA01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Massachusetts",
+		"district_num" : "01",
+		"office_ID" : "2501",
+		"descriptors" : []
+	},
+	"MA02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Massachusetts",
+		"district_num" : "02",
+		"office_ID" : "2502",
+		"descriptors" : []
+	},
+	"MA03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Massachusetts",
+		"district_num" : "03",
+		"office_ID" : "2503",
+		"descriptors" : []
+	},
+	"MA04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Massachusetts",
+		"district_num" : "04",
+		"office_ID" : "2504",
+		"descriptors" : []
+	},
+	"MA05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Massachusetts",
+		"district_num" : "05",
+		"office_ID" : "2505",
+		"descriptors" : []
+	},
+	"MA06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "Massachusetts",
+		"district_num" : "06",
+		"office_ID" : "2506",
+		"descriptors" : []
+	},
+	"MA07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "Massachusetts",
+		"district_num" : "07",
+		"office_ID" : "2507",
+		"descriptors" : []
+	},
+	"MA08" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 8",
+		"state" : "Massachusetts",
+		"district_num" : "08",
+		"office_ID" : "2508",
+		"descriptors" : []
+	},
+	"MA09" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 9",
+		"state" : "Massachusetts",
+		"district_num" : "09",
+		"office_ID" : "2509",
+		"descriptors" : []
+	},
+	"MI01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Michigan",
+		"district_num" : "01",
+		"office_ID" : "2601",
+		"descriptors" : []
+	},
+	"MI02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Michigan",
+		"district_num" : "02",
+		"office_ID" : "2602",
+		"descriptors" : []
+	},
+	"MI03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Michigan",
+		"district_num" : "03",
+		"office_ID" : "2603",
+		"descriptors" : []
+	},
+	"MI04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Michigan",
+		"district_num" : "04",
+		"office_ID" : "2604",
+		"descriptors" : []
+	},
+	"MI05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Michigan",
+		"district_num" : "05",
+		"office_ID" : "2605",
+		"descriptors" : []
+	},
+	"MI06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "Michigan",
+		"district_num" : "06",
+		"office_ID" : "2606",
+		"descriptors" : []
+	},
+	"MI07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "Michigan",
+		"district_num" : "07",
+		"office_ID" : "2607",
+		"descriptors" : []
+	},
+	"MI08" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 8",
+		"state" : "Michigan",
+		"district_num" : "08",
+		"office_ID" : "2608",
+		"descriptors" : []
+	},
+	"MI09" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 9",
+		"state" : "Michigan",
+		"district_num" : "09",
+		"office_ID" : "2609",
+		"descriptors" : []
+	},
+	"MI10" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 10",
+		"state" : "Michigan",
+		"district_num" : "10",
+		"office_ID" : "2610",
+		"descriptors" : []
+	},
+	"MI11" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 11",
+		"state" : "Michigan",
+		"district_num" : "11",
+		"office_ID" : "2611",
+		"descriptors" : []
+	},
+	"MI12" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 12",
+		"state" : "Michigan",
+		"district_num" : "12",
+		"office_ID" : "2612",
+		"descriptors" : []
+	},
+	"MI13" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 13",
+		"state" : "Michigan",
+		"district_num" : "13",
+		"office_ID" : "2613",
+		"descriptors" : []
+	},
+	"MN01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Minnesota",
+		"district_num" : "01",
+		"office_ID" : "2701",
+		"descriptors" : []
+	},
+	"MN02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Minnesota",
+		"district_num" : "02",
+		"office_ID" : "2702",
+		"descriptors" : []
+	},
+	"MN03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Minnesota",
+		"district_num" : "03",
+		"office_ID" : "2703",
+		"descriptors" : []
+	},
+	"MN04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Minnesota",
+		"district_num" : "04",
+		"office_ID" : "2704",
+		"descriptors" : []
+	},
+	"MN05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Minnesota",
+		"district_num" : "05",
+		"office_ID" : "2705",
+		"descriptors" : []
+	},
+	"MN06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "Minnesota",
+		"district_num" : "06",
+		"office_ID" : "2706",
+		"descriptors" : []
+	},
+	"MN07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "Minnesota",
+		"district_num" : "07",
+		"office_ID" : "2707",
+		"descriptors" : []
+	},
+	"MN08" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 8",
+		"state" : "Minnesota",
+		"district_num" : "08",
+		"office_ID" : "2708",
+		"descriptors" : []
+	},
+	"MS01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Mississippi",
+		"district_num" : "01",
+		"office_ID" : "2801",
+		"descriptors" : []
+	},
+	"MS02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Mississippi",
+		"district_num" : "02",
+		"office_ID" : "2802",
+		"descriptors" : []
+	},
+	"MS03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Mississippi",
+		"district_num" : "03",
+		"office_ID" : "2803",
+		"descriptors" : []
+	},
+	"MS04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Mississippi",
+		"district_num" : "04",
+		"office_ID" : "2804",
+		"descriptors" : []
+	},
+	"MO01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Missouri",
+		"district_num" : "01",
+		"office_ID" : "2901",
+		"descriptors" : []
+	},
+	"MO02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Missouri",
+		"district_num" : "02",
+		"office_ID" : "2902",
+		"descriptors" : []
+	},
+	"MO03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Missouri",
+		"district_num" : "03",
+		"office_ID" : "2903",
+		"descriptors" : []
+	},
+	"MO04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Missouri",
+		"district_num" : "04",
+		"office_ID" : "2904",
+		"descriptors" : []
+	},
+	"MO05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Missouri",
+		"district_num" : "05",
+		"office_ID" : "2905",
+		"descriptors" : []
+	},
+	"MO06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "Missouri",
+		"district_num" : "06",
+		"office_ID" : "2906",
+		"descriptors" : []
+	},
+	"MO07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "Missouri",
+		"district_num" : "07",
+		"office_ID" : "2907",
+		"descriptors" : []
+	},
+	"MO08" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 8",
+		"state" : "Missouri",
+		"district_num" : "08",
+		"office_ID" : "2908",
+		"descriptors" : []
+	},
+	"MT01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Montana",
+		"district_num" : "01",
+		"office_ID" : "3001",
+		"descriptors" : []
+	},
+	"MT02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Montana",
+		"district_num" : "02",
+		"office_ID" : "3002",
+		"descriptors" : []
+	},
+	"NE01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Nebraska",
+		"district_num" : "01",
+		"office_ID" : "3101",
+		"descriptors" : []
+	},
+	"NE02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Nebraska",
+		"district_num" : "02",
+		"office_ID" : "3102",
+		"descriptors" : []
+	},
+	"NE03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Nebraska",
+		"district_num" : "03",
+		"office_ID" : "3103",
+		"descriptors" : []
+	},
+	"NV01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Nevada",
+		"district_num" : "01",
+		"office_ID" : "3201",
+		"descriptors" : []
+	},
+	"NV02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Nevada",
+		"district_num" : "02",
+		"office_ID" : "3202",
+		"descriptors" : []
+	},
+	"NV03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Nevada",
+		"district_num" : "03",
+		"office_ID" : "3203",
+		"descriptors" : []
+	},
+	"NV04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Nevada",
+		"district_num" : "04",
+		"office_ID" : "3204",
+		"descriptors" : []
+	},
+	"NH01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "New Hampshire",
+		"district_num" : "01",
+		"office_ID" : "3301",
+		"descriptors" : []
+	},
+	"NH02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "New Hampshire",
+		"district_num" : "02",
+		"office_ID" : "3302",
+		"descriptors" : []
+	},
+	"NJ01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "New Jersey",
+		"district_num" : "01",
+		"office_ID" : "3401",
+		"descriptors" : []
+	},
+	"NJ02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "New Jersey",
+		"district_num" : "02",
+		"office_ID" : "3402",
+		"descriptors" : []
+	},
+	"NJ03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "New Jersey",
+		"district_num" : "03",
+		"office_ID" : "3403",
+		"descriptors" : []
+	},
+	"NJ04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "New Jersey",
+		"district_num" : "04",
+		"office_ID" : "3404",
+		"descriptors" : []
+	},
+	"NJ05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "New Jersey",
+		"district_num" : "05",
+		"office_ID" : "3405",
+		"descriptors" : []
+	},
+	"NJ06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "New Jersey",
+		"district_num" : "06",
+		"office_ID" : "3406",
+		"descriptors" : []
+	},
+	"NJ07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "New Jersey",
+		"district_num" : "07",
+		"office_ID" : "3407",
+		"descriptors" : []
+	},
+	"NJ08" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 8",
+		"state" : "New Jersey",
+		"district_num" : "08",
+		"office_ID" : "3408",
+		"descriptors" : []
+	},
+	"NJ09" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 9",
+		"state" : "New Jersey",
+		"district_num" : "09",
+		"office_ID" : "3409",
+		"descriptors" : []
+	},
+	"NJ10" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 10",
+		"state" : "New Jersey",
+		"district_num" : "10",
+		"office_ID" : "3410",
+		"descriptors" : []
+	},
+	"NJ11" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 11",
+		"state" : "New Jersey",
+		"district_num" : "11",
+		"office_ID" : "3411",
+		"descriptors" : []
+	},
+	"NJ12" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 12",
+		"state" : "New Jersey",
+		"district_num" : "12",
+		"office_ID" : "3412",
+		"descriptors" : []
+	},
+	"NM01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "New Mexico",
+		"district_num" : "01",
+		"office_ID" : "3501",
+		"descriptors" : []
+	},
+	"NM02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "New Mexico",
+		"district_num" : "02",
+		"office_ID" : "3502",
+		"descriptors" : []
+	},
+	"NM03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "New Mexico",
+		"district_num" : "03",
+		"office_ID" : "3503",
+		"descriptors" : []
+	},
+	"NY21" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 21",
+		"state" : "New York",
+		"district_num" : "21",
+		"office_ID" : "3621",
+		"descriptors" : []
+	},
+	"NY01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "New York",
+		"district_num" : "01",
+		"office_ID" : "3601",
+		"descriptors" : []
+	},
+	"NY02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "New York",
+		"district_num" : "02",
+		"office_ID" : "3602",
+		"descriptors" : []
+	},
+	"NY03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "New York",
+		"district_num" : "03",
+		"office_ID" : "3603",
+		"descriptors" : []
+	},
+	"NY04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "New York",
+		"district_num" : "04",
+		"office_ID" : "3604",
+		"descriptors" : []
+	},
+	"NY05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "New York",
+		"district_num" : "05",
+		"office_ID" : "3605",
+		"descriptors" : []
+	},
+	"NY06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "New York",
+		"district_num" : "06",
+		"office_ID" : "3606",
+		"descriptors" : []
+	},
+	"NY07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "New York",
+		"district_num" : "07",
+		"office_ID" : "3607",
+		"descriptors" : []
+	},
+	"NY08" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 8",
+		"state" : "New York",
+		"district_num" : "08",
+		"office_ID" : "3608",
+		"descriptors" : []
+	},
+	"NY09" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 9",
+		"state" : "New York",
+		"district_num" : "09",
+		"office_ID" : "3609",
+		"descriptors" : []
+	},
+	"NY10" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 10",
+		"state" : "New York",
+		"district_num" : "10",
+		"office_ID" : "3610",
+		"descriptors" : []
+	},
+	"NY11" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 11",
+		"state" : "New York",
+		"district_num" : "11",
+		"office_ID" : "3611",
+		"descriptors" : []
+	},
+	"NY12" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 12",
+		"state" : "New York",
+		"district_num" : "12",
+		"office_ID" : "3612",
+		"descriptors" : []
+	},
+	"NY13" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 13",
+		"state" : "New York",
+		"district_num" : "13",
+		"office_ID" : "3613",
+		"descriptors" : []
+	},
+	"NY14" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 14",
+		"state" : "New York",
+		"district_num" : "14",
+		"office_ID" : "3614",
+		"descriptors" : []
+	},
+	"NY15" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 15",
+		"state" : "New York",
+		"district_num" : "15",
+		"office_ID" : "3615",
+		"descriptors" : []
+	},
+	"NY16" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 16",
+		"state" : "New York",
+		"district_num" : "16",
+		"office_ID" : "3616",
+		"descriptors" : []
+	},
+	"NY17" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 17",
+		"state" : "New York",
+		"district_num" : "17",
+		"office_ID" : "3617",
+		"descriptors" : []
+	},
+	"NY18" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 18",
+		"state" : "New York",
+		"district_num" : "18",
+		"office_ID" : "3618",
+		"descriptors" : []
+	},
+	"NY19" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 19",
+		"state" : "New York",
+		"district_num" : "19",
+		"office_ID" : "3619",
+		"descriptors" : []
+	},
+	"NY20" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 20",
+		"state" : "New York",
+		"district_num" : "20",
+		"office_ID" : "3620",
+		"descriptors" : []
+	},
+	"NY22" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 22",
+		"state" : "New York",
+		"district_num" : "22",
+		"office_ID" : "3622",
+		"descriptors" : []
+	},
+	"NY23" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 23",
+		"state" : "New York",
+		"district_num" : "23",
+		"office_ID" : "3623",
+		"descriptors" : []
+	},
+	"NY24" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 24",
+		"state" : "New York",
+		"district_num" : "24",
+		"office_ID" : "3624",
+		"descriptors" : []
+	},
+	"NY25" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 25",
+		"state" : "New York",
+		"district_num" : "25",
+		"office_ID" : "3625",
+		"descriptors" : []
+	},
+	"NY26" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 26",
+		"state" : "New York",
+		"district_num" : "26",
+		"office_ID" : "3626",
+		"descriptors" : []
+	},
+	"NC01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "North Carolina",
+		"district_num" : "01",
+		"office_ID" : "3701",
+		"descriptors" : []
+	},
+	"NC02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "North Carolina",
+		"district_num" : "02",
+		"office_ID" : "3702",
+		"descriptors" : []
+	},
+	"NC03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "North Carolina",
+		"district_num" : "03",
+		"office_ID" : "3703",
+		"descriptors" : []
+	},
+	"NC04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "North Carolina",
+		"district_num" : "04",
+		"office_ID" : "3704",
+		"descriptors" : []
+	},
+	"NC05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "North Carolina",
+		"district_num" : "05",
+		"office_ID" : "3705",
+		"descriptors" : []
+	},
+	"NC06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "North Carolina",
+		"district_num" : "06",
+		"office_ID" : "3706",
+		"descriptors" : []
+	},
+	"NC07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "North Carolina",
+		"district_num" : "07",
+		"office_ID" : "3707",
+		"descriptors" : []
+	},
+	"NC08" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 8",
+		"state" : "North Carolina",
+		"district_num" : "08",
+		"office_ID" : "3708",
+		"descriptors" : []
+	},
+	"NC09" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 9",
+		"state" : "North Carolina",
+		"district_num" : "09",
+		"office_ID" : "3709",
+		"descriptors" : []
+	},
+	"NC10" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 10",
+		"state" : "North Carolina",
+		"district_num" : "10",
+		"office_ID" : "3710",
+		"descriptors" : []
+	},
+	"NC11" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 11",
+		"state" : "North Carolina",
+		"district_num" : "11",
+		"office_ID" : "3711",
+		"descriptors" : []
+	},
+	"NC12" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 12",
+		"state" : "North Carolina",
+		"district_num" : "12",
+		"office_ID" : "3712",
+		"descriptors" : []
+	},
+	"NC13" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 13",
+		"state" : "North Carolina",
+		"district_num" : "13",
+		"office_ID" : "3713",
+		"descriptors" : []
+	},
+	"NC14" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 14",
+		"state" : "North Carolina",
+		"district_num" : "14",
+		"office_ID" : "3714",
+		"descriptors" : []
+	},
+	"ND00" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District (at Large)",
+		"state" : "North Dakota",
+		"district_num" : "00",
+		"office_ID" : "3800",
+		"descriptors" : []
+	},
+	"OH01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Ohio",
+		"district_num" : "01",
+		"office_ID" : "3901",
+		"descriptors" : []
+	},
+	"OH02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Ohio",
+		"district_num" : "02",
+		"office_ID" : "3902",
+		"descriptors" : []
+	},
+	"OH03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Ohio",
+		"district_num" : "03",
+		"office_ID" : "3903",
+		"descriptors" : []
+	},
+	"OH04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Ohio",
+		"district_num" : "04",
+		"office_ID" : "3904",
+		"descriptors" : []
+	},
+	"OH05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Ohio",
+		"district_num" : "05",
+		"office_ID" : "3905",
+		"descriptors" : []
+	},
+	"OH06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "Ohio",
+		"district_num" : "06",
+		"office_ID" : "3906",
+		"descriptors" : []
+	},
+	"OH07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "Ohio",
+		"district_num" : "07",
+		"office_ID" : "3907",
+		"descriptors" : []
+	},
+	"OH08" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 8",
+		"state" : "Ohio",
+		"district_num" : "08",
+		"office_ID" : "3908",
+		"descriptors" : []
+	},
+	"OH09" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 9",
+		"state" : "Ohio",
+		"district_num" : "09",
+		"office_ID" : "3909",
+		"descriptors" : []
+	},
+	"OH10" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 10",
+		"state" : "Ohio",
+		"district_num" : "10",
+		"office_ID" : "3910",
+		"descriptors" : []
+	},
+	"OH11" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 11",
+		"state" : "Ohio",
+		"district_num" : "11",
+		"office_ID" : "3911",
+		"descriptors" : []
+	},
+	"OH12" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 12",
+		"state" : "Ohio",
+		"district_num" : "12",
+		"office_ID" : "3912",
+		"descriptors" : []
+	},
+	"OH13" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 13",
+		"state" : "Ohio",
+		"district_num" : "13",
+		"office_ID" : "3913",
+		"descriptors" : []
+	},
+	"OH14" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 14",
+		"state" : "Ohio",
+		"district_num" : "14",
+		"office_ID" : "3914",
+		"descriptors" : []
+	},
+	"OH15" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 15",
+		"state" : "Ohio",
+		"district_num" : "15",
+		"office_ID" : "3915",
+		"descriptors" : []
+	},
+	"OK01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Oklahoma",
+		"district_num" : "01",
+		"office_ID" : "4001",
+		"descriptors" : []
+	},
+	"OK02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Oklahoma",
+		"district_num" : "02",
+		"office_ID" : "4002",
+		"descriptors" : []
+	},
+	"OK03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Oklahoma",
+		"district_num" : "03",
+		"office_ID" : "4003",
+		"descriptors" : []
+	},
+	"OK04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Oklahoma",
+		"district_num" : "04",
+		"office_ID" : "4004",
+		"descriptors" : []
+	},
+	"OK05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Oklahoma",
+		"district_num" : "05",
+		"office_ID" : "4005",
+		"descriptors" : []
+	},
+	"OR01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Oregon",
+		"district_num" : "01",
+		"office_ID" : "4101",
+		"descriptors" : []
+	},
+	"OR02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Oregon",
+		"district_num" : "02",
+		"office_ID" : "4102",
+		"descriptors" : []
+	},
+	"OR03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Oregon",
+		"district_num" : "03",
+		"office_ID" : "4103",
+		"descriptors" : []
+	},
+	"OR04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Oregon",
+		"district_num" : "04",
+		"office_ID" : "4104",
+		"descriptors" : []
+	},
+	"OR05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Oregon",
+		"district_num" : "05",
+		"office_ID" : "4105",
+		"descriptors" : []
+	},
+	"OR06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "Oregon",
+		"district_num" : "06",
+		"office_ID" : "4106",
+		"descriptors" : []
+	},
+	"PA01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Pennsylvania",
+		"district_num" : "01",
+		"office_ID" : "4201",
+		"descriptors" : []
+	},
+	"PA02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Pennsylvania",
+		"district_num" : "02",
+		"office_ID" : "4202",
+		"descriptors" : []
+	},
+	"PA03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Pennsylvania",
+		"district_num" : "03",
+		"office_ID" : "4203",
+		"descriptors" : []
+	},
+	"PA04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Pennsylvania",
+		"district_num" : "04",
+		"office_ID" : "4204",
+		"descriptors" : []
+	},
+	"PA05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Pennsylvania",
+		"district_num" : "05",
+		"office_ID" : "4205",
+		"descriptors" : []
+	},
+	"PA06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "Pennsylvania",
+		"district_num" : "06",
+		"office_ID" : "4206",
+		"descriptors" : []
+	},
+	"PA07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "Pennsylvania",
+		"district_num" : "07",
+		"office_ID" : "4207",
+		"descriptors" : []
+	},
+	"PA08" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 8",
+		"state" : "Pennsylvania",
+		"district_num" : "08",
+		"office_ID" : "4208",
+		"descriptors" : []
+	},
+	"PA09" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 9",
+		"state" : "Pennsylvania",
+		"district_num" : "09",
+		"office_ID" : "4209",
+		"descriptors" : []
+	},
+	"PA10" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 10",
+		"state" : "Pennsylvania",
+		"district_num" : "10",
+		"office_ID" : "4210",
+		"descriptors" : []
+	},
+	"PA11" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 11",
+		"state" : "Pennsylvania",
+		"district_num" : "11",
+		"office_ID" : "4211",
+		"descriptors" : []
+	},
+	"PA12" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 12",
+		"state" : "Pennsylvania",
+		"district_num" : "12",
+		"office_ID" : "4212",
+		"descriptors" : []
+	},
+	"PA13" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 13",
+		"state" : "Pennsylvania",
+		"district_num" : "13",
+		"office_ID" : "4213",
+		"descriptors" : []
+	},
+	"PA14" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 14",
+		"state" : "Pennsylvania",
+		"district_num" : "14",
+		"office_ID" : "4214",
+		"descriptors" : []
+	},
+	"PA15" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 15",
+		"state" : "Pennsylvania",
+		"district_num" : "15",
+		"office_ID" : "4215",
+		"descriptors" : []
+	},
+	"PA16" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 16",
+		"state" : "Pennsylvania",
+		"district_num" : "16",
+		"office_ID" : "4216",
+		"descriptors" : []
+	},
+	"PA17" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 17",
+		"state" : "Pennsylvania",
+		"district_num" : "17",
+		"office_ID" : "4217",
+		"descriptors" : []
+	},
+	"RI01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Rhode Island",
+		"district_num" : "01",
+		"office_ID" : "4401",
+		"descriptors" : []
+	},
+	"RI02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Rhode Island",
+		"district_num" : "02",
+		"office_ID" : "4402",
+		"descriptors" : []
+	},
+	"SC01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "South Carolina",
+		"district_num" : "01",
+		"office_ID" : "4501",
+		"descriptors" : []
+	},
+	"SC02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "South Carolina",
+		"district_num" : "02",
+		"office_ID" : "4502",
+		"descriptors" : []
+	},
+	"SC03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "South Carolina",
+		"district_num" : "03",
+		"office_ID" : "4503",
+		"descriptors" : []
+	},
+	"SC04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "South Carolina",
+		"district_num" : "04",
+		"office_ID" : "4504",
+		"descriptors" : []
+	},
+	"SC05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "South Carolina",
+		"district_num" : "05",
+		"office_ID" : "4505",
+		"descriptors" : []
+	},
+	"SC06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "South Carolina",
+		"district_num" : "06",
+		"office_ID" : "4506",
+		"descriptors" : []
+	},
+	"SC07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "South Carolina",
+		"district_num" : "07",
+		"office_ID" : "4507",
+		"descriptors" : []
+	},
+	"SD00" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District (at Large)",
+		"state" : "South Dakota",
+		"district_num" : "00",
+		"office_ID" : "4600",
+		"descriptors" : []
+	},
+	"TN01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Tennessee",
+		"district_num" : "01",
+		"office_ID" : "4701",
+		"descriptors" : []
+	},
+	"TN02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Tennessee",
+		"district_num" : "02",
+		"office_ID" : "4702",
+		"descriptors" : []
+	},
+	"TN03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Tennessee",
+		"district_num" : "03",
+		"office_ID" : "4703",
+		"descriptors" : []
+	},
+	"TN04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Tennessee",
+		"district_num" : "04",
+		"office_ID" : "4704",
+		"descriptors" : []
+	},
+	"TN05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Tennessee",
+		"district_num" : "05",
+		"office_ID" : "4705",
+		"descriptors" : []
+	},
+	"TN06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "Tennessee",
+		"district_num" : "06",
+		"office_ID" : "4706",
+		"descriptors" : []
+	},
+	"TN07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "Tennessee",
+		"district_num" : "07",
+		"office_ID" : "4707",
+		"descriptors" : []
+	},
+	"TN08" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 8",
+		"state" : "Tennessee",
+		"district_num" : "08",
+		"office_ID" : "4708",
+		"descriptors" : []
+	},
+	"TN09" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 9",
+		"state" : "Tennessee",
+		"district_num" : "09",
+		"office_ID" : "4709",
+		"descriptors" : []
+	},
+	"TX01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Texas",
+		"district_num" : "01",
+		"office_ID" : "4801",
+		"descriptors" : []
+	},
+	"TX03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Texas",
+		"district_num" : "03",
+		"office_ID" : "4803",
+		"descriptors" : []
+	},
+	"TX04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Texas",
+		"district_num" : "04",
+		"office_ID" : "4804",
+		"descriptors" : []
+	},
+	"TX05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Texas",
+		"district_num" : "05",
+		"office_ID" : "4805",
+		"descriptors" : []
+	},
+	"TX06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "Texas",
+		"district_num" : "06",
+		"office_ID" : "4806",
+		"descriptors" : []
+	},
+	"TX07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "Texas",
+		"district_num" : "07",
+		"office_ID" : "4807",
+		"descriptors" : []
+	},
+	"TX08" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 8",
+		"state" : "Texas",
+		"district_num" : "08",
+		"office_ID" : "4808",
+		"descriptors" : []
+	},
+	"TX09" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 9",
+		"state" : "Texas",
+		"district_num" : "09",
+		"office_ID" : "4809",
+		"descriptors" : []
+	},
+	"TX10" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 10",
+		"state" : "Texas",
+		"district_num" : "10",
+		"office_ID" : "4810",
+		"descriptors" : []
+	},
+	"TX11" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 11",
+		"state" : "Texas",
+		"district_num" : "11",
+		"office_ID" : "4811",
+		"descriptors" : []
+	},
+	"TX14" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 14",
+		"state" : "Texas",
+		"district_num" : "14",
+		"office_ID" : "4814",
+		"descriptors" : []
+	},
+	"TX15" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 15",
+		"state" : "Texas",
+		"district_num" : "15",
+		"office_ID" : "4815",
+		"descriptors" : []
+	},
+	"TX18" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 18",
+		"state" : "Texas",
+		"district_num" : "18",
+		"office_ID" : "4818",
+		"descriptors" : []
+	},
+	"TX19" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 19",
+		"state" : "Texas",
+		"district_num" : "19",
+		"office_ID" : "4819",
+		"descriptors" : []
+	},
+	"TX22" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 22",
+		"state" : "Texas",
+		"district_num" : "22",
+		"office_ID" : "4822",
+		"descriptors" : []
+	},
+	"TX23" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 23",
+		"state" : "Texas",
+		"district_num" : "23",
+		"office_ID" : "4823",
+		"descriptors" : []
+	},
+	"TX24" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 24",
+		"state" : "Texas",
+		"district_num" : "24",
+		"office_ID" : "4824",
+		"descriptors" : []
+	},
+	"TX25" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 25",
+		"state" : "Texas",
+		"district_num" : "25",
+		"office_ID" : "4825",
+		"descriptors" : []
+	},
+	"TX26" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 26",
+		"state" : "Texas",
+		"district_num" : "26",
+		"office_ID" : "4826",
+		"descriptors" : []
+	},
+	"TX27" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 27",
+		"state" : "Texas",
+		"district_num" : "27",
+		"office_ID" : "4827",
+		"descriptors" : []
+	},
+	"TX28" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 28",
+		"state" : "Texas",
+		"district_num" : "28",
+		"office_ID" : "4828",
+		"descriptors" : []
+	},
+	"TX29" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 29",
+		"state" : "Texas",
+		"district_num" : "29",
+		"office_ID" : "4829",
+		"descriptors" : []
+	},
+	"TX30" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 30",
+		"state" : "Texas",
+		"district_num" : "30",
+		"office_ID" : "4830",
+		"descriptors" : []
+	},
+	"TX31" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 31",
+		"state" : "Texas",
+		"district_num" : "31",
+		"office_ID" : "4831",
+		"descriptors" : []
+	},
+	"TX12" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 12",
+		"state" : "Texas",
+		"district_num" : "12",
+		"office_ID" : "4812",
+		"descriptors" : []
+	},
+	"TX33" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 33",
+		"state" : "Texas",
+		"district_num" : "33",
+		"office_ID" : "4833",
+		"descriptors" : []
+	},
+	"TX32" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 32",
+		"state" : "Texas",
+		"district_num" : "32",
+		"office_ID" : "4832",
+		"descriptors" : []
+	},
+	"TX34" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 34",
+		"state" : "Texas",
+		"district_num" : "34",
+		"office_ID" : "4834",
+		"descriptors" : []
+	},
+	"TX13" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 13",
+		"state" : "Texas",
+		"district_num" : "13",
+		"office_ID" : "4813",
+		"descriptors" : []
+	},
+	"TX35" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 35",
+		"state" : "Texas",
+		"district_num" : "35",
+		"office_ID" : "4835",
+		"descriptors" : []
+	},
+	"TX36" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 36",
+		"state" : "Texas",
+		"district_num" : "36",
+		"office_ID" : "4836",
+		"descriptors" : []
+	},
+	"TX37" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 37",
+		"state" : "Texas",
+		"district_num" : "37",
+		"office_ID" : "4837",
+		"descriptors" : []
+	},
+	"TX38" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 38",
+		"state" : "Texas",
+		"district_num" : "38",
+		"office_ID" : "4838",
+		"descriptors" : []
+	},
+	"TX17" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 17",
+		"state" : "Texas",
+		"district_num" : "17",
+		"office_ID" : "4817",
+		"descriptors" : []
+	},
+	"TX16" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 16",
+		"state" : "Texas",
+		"district_num" : "16",
+		"office_ID" : "4816",
+		"descriptors" : []
+	},
+	"TX20" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 20",
+		"state" : "Texas",
+		"district_num" : "20",
+		"office_ID" : "4820",
+		"descriptors" : []
+	},
+	"TX21" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 21",
+		"state" : "Texas",
+		"district_num" : "21",
+		"office_ID" : "4821",
+		"descriptors" : []
+	},
+	"TX02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Texas",
+		"district_num" : "02",
+		"office_ID" : "4802",
+		"descriptors" : []
+	},
+	"UT01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Utah",
+		"district_num" : "01",
+		"office_ID" : "4901",
+		"descriptors" : []
+	},
+	"UT02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Utah",
+		"district_num" : "02",
+		"office_ID" : "4902",
+		"descriptors" : []
+	},
+	"UT03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Utah",
+		"district_num" : "03",
+		"office_ID" : "4903",
+		"descriptors" : []
+	},
+	"UT04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Utah",
+		"district_num" : "04",
+		"office_ID" : "4904",
+		"descriptors" : []
+	},
+	"VT00" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District (at Large)",
+		"state" : "Vermont",
+		"district_num" : "00",
+		"office_ID" : "5000",
+		"descriptors" : []
+	},
+	"VA07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "Virginia",
+		"district_num" : "07",
+		"office_ID" : "5107",
+		"descriptors" : []
+	},
+	"VA09" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 9",
+		"state" : "Virginia",
+		"district_num" : "09",
+		"office_ID" : "5109",
+		"descriptors" : []
+	},
+	"VA10" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 10",
+		"state" : "Virginia",
+		"district_num" : "10",
+		"office_ID" : "5110",
+		"descriptors" : []
+	},
+	"VA01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Virginia",
+		"district_num" : "01",
+		"office_ID" : "5101",
+		"descriptors" : []
+	},
+	"VA02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Virginia",
+		"district_num" : "02",
+		"office_ID" : "5102",
+		"descriptors" : []
+	},
+	"VA03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Virginia",
+		"district_num" : "03",
+		"office_ID" : "5103",
+		"descriptors" : []
+	},
+	"VA05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Virginia",
+		"district_num" : "05",
+		"office_ID" : "5105",
+		"descriptors" : []
+	},
+	"VA06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "Virginia",
+		"district_num" : "06",
+		"office_ID" : "5106",
+		"descriptors" : []
+	},
+	"VA08" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 8",
+		"state" : "Virginia",
+		"district_num" : "08",
+		"office_ID" : "5108",
+		"descriptors" : []
+	},
+	"VA11" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 11",
+		"state" : "Virginia",
+		"district_num" : "11",
+		"office_ID" : "5111",
+		"descriptors" : []
+	},
+	"VA04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Virginia",
+		"district_num" : "04",
+		"office_ID" : "5104",
+		"descriptors" : []
+	},
+	"WA07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "Washington",
+		"district_num" : "07",
+		"office_ID" : "5307",
+		"descriptors" : []
+	},
+	"WA10" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 10",
+		"state" : "Washington",
+		"district_num" : "10",
+		"office_ID" : "5310",
+		"descriptors" : []
+	},
+	"WA01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Washington",
+		"district_num" : "01",
+		"office_ID" : "5301",
+		"descriptors" : []
+	},
+	"WA02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Washington",
+		"district_num" : "02",
+		"office_ID" : "5302",
+		"descriptors" : []
+	},
+	"WA03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Washington",
+		"district_num" : "03",
+		"office_ID" : "5303",
+		"descriptors" : []
+	},
+	"WA05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Washington",
+		"district_num" : "05",
+		"office_ID" : "5305",
+		"descriptors" : []
+	},
+	"WA06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "Washington",
+		"district_num" : "06",
+		"office_ID" : "5306",
+		"descriptors" : []
+	},
+	"WA08" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 8",
+		"state" : "Washington",
+		"district_num" : "08",
+		"office_ID" : "5308",
+		"descriptors" : []
+	},
+	"WA09" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 9",
+		"state" : "Washington",
+		"district_num" : "09",
+		"office_ID" : "5309",
+		"descriptors" : []
+	},
+	"WA04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Washington",
+		"district_num" : "04",
+		"office_ID" : "5304",
+		"descriptors" : []
+	},
+	"WV01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "West Virginia",
+		"district_num" : "01",
+		"office_ID" : "5401",
+		"descriptors" : []
+	},
+	"WV02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "West Virginia",
+		"district_num" : "02",
+		"office_ID" : "5402",
+		"descriptors" : []
+	},
+	"WI01" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 1",
+		"state" : "Wisconsin",
+		"district_num" : "01",
+		"office_ID" : "5501",
+		"descriptors" : []
+	},
+	"WI02" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 2",
+		"state" : "Wisconsin",
+		"district_num" : "02",
+		"office_ID" : "5502",
+		"descriptors" : []
+	},
+	"WI03" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 3",
+		"state" : "Wisconsin",
+		"district_num" : "03",
+		"office_ID" : "5503",
+		"descriptors" : []
+	},
+	"WI04" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 4",
+		"state" : "Wisconsin",
+		"district_num" : "04",
+		"office_ID" : "5504",
+		"descriptors" : []
+	},
+	"WI05" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 5",
+		"state" : "Wisconsin",
+		"district_num" : "05",
+		"office_ID" : "5505",
+		"descriptors" : []
+	},
+	"WI06" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 6",
+		"state" : "Wisconsin",
+		"district_num" : "06",
+		"office_ID" : "5506",
+		"descriptors" : []
+	},
+	"WI07" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 7",
+		"state" : "Wisconsin",
+		"district_num" : "07",
+		"office_ID" : "5507",
+		"descriptors" : []
+	},
+	"WI08" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District 8",
+		"state" : "Wisconsin",
+		"district_num" : "08",
+		"office_ID" : "5508",
+		"descriptors" : []
+	},
+	"WY00" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Congressional District (at Large)",
+		"state" : "Wyoming",
+		"district_num" : "00",
+		"office_ID" : "5600",
+		"descriptors" : []
+	},
+	"AQ00" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Delegate District (at Large)",
+		"state" : "American Samoa",
+		"district_num" : "98",
+		"office_ID" : "6098",
+		"descriptors" : []
+	},
+	"GU00" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Delegate District (at Large)",
+		"state" : "Guam",
+		"district_num" : "98",
+		"office_ID" : "6698",
+		"descriptors" : []
+	},
+	"MP00" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Delegate District (at Large)",
+		"state" : "Northern Mariana Islands",
+		"district_num" : "98",
+		"office_ID" : "6998",
+		"descriptors" : []
+	},
+	"PR00" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Resident Commissioner District (at Large)",
+		"state" : "Puerto Rico",
+		"district_num" : "98",
+		"office_ID" : "7298",
+		"descriptors" : []
+	},
+	"VI00" : {
+		"population" : 0,
+		"land_area" : 0.0,
+		"name" : "Delegate District (at Large)",
+		"state" : "U.S. Virgin Islands",
+		"district_num" : "98",
+		"office_ID" : "7898",
+		"descriptors" : []
+	}
+}

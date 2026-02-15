@@ -1,0 +1,19 @@
+{
+    "FIPS" : "78", 
+    "common_name" : "U.S. Virgin Islands", 
+    "full_name" : "Virgin Islands of the United States", 
+    "map_color" : "#4132FF", 
+    "flag_loc" : "virgin_islands_flag.png", 
+    "population" : 106290, 
+    "land_area" : 733, 
+    "abbreviation" : "VI", 
+    "motto" : "virgin_islands_motto", 
+    "nickname" : "virgin_islands_nickname", 
+    "capital" : "Charlotte Amalie", 
+    "descriptors" : [
+        "VIRGIN_ISLANDS"
+    ], 
+    "counties" : [
+        "78030"
+    ]
+}

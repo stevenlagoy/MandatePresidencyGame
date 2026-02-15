@@ -1,0 +1,41 @@
+{
+    "FIPS" : "34", 
+    "common_name" : "New Jersey", 
+    "full_name" : "State of New Jersey", 
+    "map_color" : "#9932FF", 
+    "flag_loc" : "new_jersey_flag.png", 
+    "population" : 9288994, 
+    "land_area" : 8723, 
+    "abbreviation" : "NJ", 
+    "motto" : "new_jersey_motto", 
+    "nickname" : "new_jersey_nickname", 
+    "capital" : "Trenton", 
+    "descriptors" : [
+        "NEW_JERSEY", 
+        "NORTHEAST", 
+        "MID-ATLANTIC"
+    ], 
+    "counties" : [
+        "34001", 
+        "34003", 
+        "34005", 
+        "34007", 
+        "34009", 
+        "34011", 
+        "34013", 
+        "34015", 
+        "34017", 
+        "34019", 
+        "34021", 
+        "34023", 
+        "34025", 
+        "34027", 
+        "34029", 
+        "34031", 
+        "34033", 
+        "34035", 
+        "34037", 
+        "34039", 
+        "34041"
+    ]
+}
