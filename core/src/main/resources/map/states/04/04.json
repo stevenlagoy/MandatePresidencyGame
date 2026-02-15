@@ -1,0 +1,35 @@
+{
+    "FIPS" : "04", 
+    "common_name" : "Arizona", 
+    "full_name" : "State of Arizona", 
+    "map_color" : "#3265FF", 
+    "flag_loc" : "arizona_flag.png", 
+    "population" : 7151502, 
+    "land_area" : 113990, 
+    "abbreviation" : "AZ", 
+    "motto" : "arizona_motto", 
+    "nickname" : "arizona_nickname", 
+    "capital" : "Phoenix", 
+    "descriptors" : [
+        "ARIZONA", 
+        "WEST", 
+        "MOUNTAIN"
+    ], 
+    "counties" : [
+        "04001", 
+        "04003", 
+        "04005", 
+        "04007", 
+        "04009", 
+        "04011", 
+        "04012", 
+        "04013", 
+        "04015", 
+        "04017", 
+        "04019", 
+        "04021", 
+        "04023", 
+        "04025", 
+        "04027"
+    ]
+}

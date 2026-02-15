@@ -1,0 +1,34 @@
+{
+    "FIPS" : "50", 
+    "common_name" : "Vermont", 
+    "full_name" : "State of Vermont", 
+    "map_color" : "#8332FF", 
+    "flag_loc" : "vermont_flag.png", 
+    "population" : 643077, 
+    "land_area" : 9616, 
+    "abbreviation" : "VT", 
+    "motto" : "vermont_motto", 
+    "nickname" : "vermont_nickname", 
+    "capital" : "Montpelier", 
+    "descriptors" : [
+        "VERMONT", 
+        "NORTHEAST", 
+        "NEW_ENGLAND"
+    ], 
+    "counties" : [
+        "50001", 
+        "50003", 
+        "50005", 
+        "50007", 
+        "50009", 
+        "50011", 
+        "50013", 
+        "50015", 
+        "50017", 
+        "50019", 
+        "50021", 
+        "50023", 
+        "50025", 
+        "50027"
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "FIPS" : "56", 
+    "common_name" : "Wyoming", 
+    "full_name" : "State of Wyoming", 
+    "map_color" : "#FF328A", 
+    "flag_loc" : "wyoming_flag.png", 
+    "population" : 576851, 
+    "land_area" : 97813, 
+    "abbreviation" : "WY", 
+    "motto" : "wyoming_motto", 
+    "nickname" : "wyoming_nickname", 
+    "capital" : "Cheyenne", 
+    "descriptors" : [
+        "WYOMING", 
+        "WEST", 
+        "MOUNTAIN"
+    ], 
+    "counties" : [
+        "56001", 
+        "56003", 
+        "56005", 
+        "56007", 
+        "56009", 
+        "56011", 
+        "56013", 
+        "56015", 
+        "56017", 
+        "56019", 
+        "56021", 
+        "56023", 
+        "56025", 
+        "56027", 
+        "56029", 
+        "56031", 
+        "56033", 
+        "56035", 
+        "56037", 
+        "56039", 
+        "56041", 
+        "56043", 
+        "56045"
+    ]
+}
