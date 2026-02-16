@@ -1,10 +1,10 @@
 {
-    "descriptors" : [], 
-    "FIPS" : "78030", 
-    "full_name" : "Saint Thomas Island", 
-    "common_name" : "Saint Thomas", 
-    "state" : "U.S. Virgin Islands", 
-    "county_seat" : "Charlotte Amalie", 
-    "population" : 42261, 
-    "land_area" : 32.0
+    "FIPS" : "78030",
+    "full_name" : "Saint Thomas",
+    "common_name" : "St. Thomas",
+    "state" : "U.S. Virgin Islands",
+    "county_seat" : "Charlotte Amalie",
+    "population" : 42261,
+    "land_area" : 32.0,
+    "descriptors" : []
 }

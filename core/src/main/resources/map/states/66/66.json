@@ -1,18 +1,18 @@
 {
-    "FIPS" : "66", 
-    "common_name" : "Guam", 
-    "full_name" : "Unincorporated Territory of Guam", 
-    "map_color" : "#5732FF", 
-    "flag_loc" : "guam_flag.png", 
-    "population" : 169231, 
-    "land_area" : 571, 
-    "abbreviation" : "GU", 
-    "motto" : "guam_motto", 
-    "nickname" : "guam_nickname", 
-    "capital" : "Hag\u00e5t\u00f1a", 
+    "FIPS" : "66",
+    "common_name" : "Guam",
+    "full_name" : "Unincorporated Territory of Guam",
+    "map_color" : "#5732FF",
+    "flag_loc" : "guam_flag.png",
+    "population" : 169231,
+    "land_area" : 571,
+    "abbreviation" : "GU",
+    "motto" : "guam_motto",
+    "nickname" : "guam_nickname",
+    "capital" : "Hagåtña",
     "descriptors" : [
         "GUAM"
-    ], 
+    ],
     "counties" : [
         "66010"
     ]
