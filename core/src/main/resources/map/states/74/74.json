@@ -1,14 +1,24 @@
 {
-    "FIPS" : "74", 
-    "full_name" : "United States Minor Outlying Islands", 
-    "common_name" : "U.S. Minor Outlying Islands", 
-    "map_color" : "#000000", 
-    "flag_loc" : "united_states_flag.png", 
-    "population" : 300, 
-    "land_area" : 19, 
-    "abbreviation" : "UM", 
-    "motto" : "In God We Trust", 
-    "nickname" : "", 
-    "capital" : "Washington, DC", 
-    "descriptors" : []
+    "FIPS" : "74",
+    "full_name" : "United States Minor Outlying Islands",
+    "common_name" : "U.S. Minor Outlying Islands",
+    "map_color" : "#000000",
+    "flag_loc" : "united_states_flag.png",
+    "population" : 300,
+    "land_area" : 19,
+    "abbreviation" : "UM",
+    "motto" : "In God We Trust",
+    "nickname" : "",
+    "capital" : "Washington, DC",
+    "descriptors" : [
+        "74050",
+        "74100",
+        "74150",
+        "74200",
+        "74250",
+        "74300",
+        "74350",
+        "74400",
+        "74450"
+    ]
 }
