@@ -1,0 +1,4617 @@
+{
+    "Fargo, Cass County, ND" : {
+        "name" : "Fargo",
+        "state" : "North Dakota",
+        "FIPS" : "38-25700",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 125990,
+        "population_2020" : 125990,
+        "population_2027" : 130921,
+        "land_area_2020" : 0.0
+    },
+    "Bismarck, Burleigh County, ND" : {
+        "name" : "Bismarck",
+        "state" : "North Dakota",
+        "FIPS" : "38-07200",
+        "counties" : [
+            "Burleigh County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 73622,
+        "population_2020" : 73622,
+        "population_2027" : 76504,
+        "land_area_2020" : 0.0
+    },
+    "Grand Forks, Grand Forks County, ND" : {
+        "name" : "Grand Forks",
+        "state" : "North Dakota",
+        "FIPS" : "38-32060",
+        "counties" : [
+            "Grand Forks County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 59166,
+        "population_2020" : 59166,
+        "population_2027" : 61482,
+        "land_area_2020" : 0.0
+    },
+    "Minot, Ward County, ND" : {
+        "name" : "Minot",
+        "state" : "North Dakota",
+        "FIPS" : "38-53380",
+        "counties" : [
+            "Ward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 48377,
+        "population_2020" : 48377,
+        "population_2027" : 50271,
+        "land_area_2020" : 0.0
+    },
+    "West Fargo, Cass County, ND" : {
+        "name" : "West Fargo",
+        "state" : "North Dakota",
+        "FIPS" : "38-84780",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 38626,
+        "population_2020" : 38626,
+        "population_2027" : 40138,
+        "land_area_2020" : 0.0
+    },
+    "Williston, Williams County, ND" : {
+        "name" : "Williston",
+        "state" : "North Dakota",
+        "FIPS" : "38-86220",
+        "counties" : [
+            "Williams County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 29160,
+        "population_2020" : 29160,
+        "population_2027" : 30301,
+        "land_area_2020" : 0.0
+    },
+    "Dickinson, Stark County, ND" : {
+        "name" : "Dickinson",
+        "state" : "North Dakota",
+        "FIPS" : "38-19620",
+        "counties" : [
+            "Stark County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 25679,
+        "population_2020" : 25679,
+        "population_2027" : 26684,
+        "land_area_2020" : 0.0
+    },
+    "Mandan, Morton County, ND" : {
+        "name" : "Mandan",
+        "state" : "North Dakota",
+        "FIPS" : "38-49900",
+        "counties" : [
+            "Morton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 24206,
+        "population_2020" : 24206,
+        "population_2027" : 25153,
+        "land_area_2020" : 0.0
+    },
+    "Jamestown, Stutsman County, ND" : {
+        "name" : "Jamestown",
+        "state" : "North Dakota",
+        "FIPS" : "38-40580",
+        "counties" : [
+            "Stutsman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15849,
+        "population_2020" : 15849,
+        "population_2027" : 16469,
+        "land_area_2020" : 0.0
+    },
+    "Wahpeton, Richland County, ND" : {
+        "name" : "Wahpeton",
+        "state" : "North Dakota",
+        "FIPS" : "38-82660",
+        "counties" : [
+            "Richland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8007,
+        "population_2020" : 8007,
+        "population_2027" : 8320,
+        "land_area_2020" : 0.0
+    },
+    "Devils Lake, Ramsey County, ND" : {
+        "name" : "Devils Lake",
+        "state" : "North Dakota",
+        "FIPS" : "38-19420",
+        "counties" : [
+            "Ramsey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7192,
+        "population_2020" : 7192,
+        "population_2027" : 7474,
+        "land_area_2020" : 0.0
+    },
+    "Valley City, Barnes County, ND" : {
+        "name" : "Valley City",
+        "state" : "North Dakota",
+        "FIPS" : "38-81180",
+        "counties" : [
+            "Barnes County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6575,
+        "population_2020" : 6575,
+        "population_2027" : 6832,
+        "land_area_2020" : 0.0
+    },
+    "Horace, Cass County, ND" : {
+        "name" : "Horace",
+        "state" : "North Dakota",
+        "FIPS" : "38-38900",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3085,
+        "population_2020" : 3085,
+        "population_2027" : 3206,
+        "land_area_2020" : 0.0
+    },
+    "Watford City, McKenzie County, ND" : {
+        "name" : "Watford City",
+        "state" : "North Dakota",
+        "FIPS" : "38-83860",
+        "counties" : [
+            "McKenzie County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6207,
+        "population_2020" : 6207,
+        "population_2027" : 6450,
+        "land_area_2020" : 0.0
+    },
+    "Lincoln, Burleigh County, ND" : {
+        "name" : "Lincoln",
+        "state" : "North Dakota",
+        "FIPS" : "38-46640",
+        "counties" : [
+            "Burleigh County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4257,
+        "population_2020" : 4257,
+        "population_2027" : 4424,
+        "land_area_2020" : 0.0
+    },
+    "Grafton, Walsh County, ND" : {
+        "name" : "Grafton",
+        "state" : "North Dakota",
+        "FIPS" : "38-31820",
+        "counties" : [
+            "Walsh County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4170,
+        "population_2020" : 4170,
+        "population_2027" : 4333,
+        "land_area_2020" : 0.0
+    },
+    "Beulah, Mercer County, ND" : {
+        "name" : "Beulah",
+        "state" : "North Dakota",
+        "FIPS" : "38-06660",
+        "counties" : [
+            "Mercer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3058,
+        "population_2020" : 3058,
+        "population_2027" : 3178,
+        "land_area_2020" : 0.0
+    },
+    "New Town, Mountrail County, ND" : {
+        "name" : "New Town",
+        "state" : "North Dakota",
+        "FIPS" : "38-56740",
+        "counties" : [
+            "Mountrail County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2764,
+        "population_2020" : 2764,
+        "population_2027" : 2872,
+        "land_area_2020" : 0.0
+    },
+    "Casselton, Cass County, ND" : {
+        "name" : "Casselton",
+        "state" : "North Dakota",
+        "FIPS" : "38-12700",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2479,
+        "population_2020" : 2479,
+        "population_2027" : 2576,
+        "land_area_2020" : 0.0
+    },
+    "Rugby, Pierce County, ND" : {
+        "name" : "Rugby",
+        "state" : "North Dakota",
+        "FIPS" : "38-68860",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2509,
+        "population_2020" : 2509,
+        "population_2027" : 2607,
+        "land_area_2020" : 0.0
+    },
+    "Hazen, Mercer County, ND" : {
+        "name" : "Hazen",
+        "state" : "North Dakota",
+        "FIPS" : "38-36780",
+        "counties" : [
+            "Mercer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2281,
+        "population_2020" : 2281,
+        "population_2027" : 2370,
+        "land_area_2020" : 0.0
+    },
+    "Stanley, Mountrail County, ND" : {
+        "name" : "Stanley",
+        "state" : "North Dakota",
+        "FIPS" : "38-75380",
+        "counties" : [
+            "Mountrail County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2321,
+        "population_2020" : 2321,
+        "population_2027" : 2412,
+        "land_area_2020" : 0.0
+    },
+    "Bottineau, Bottineau County, ND" : {
+        "name" : "Bottineau",
+        "state" : "North Dakota",
+        "FIPS" : "38-08460",
+        "counties" : [
+            "Bottineau County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2194,
+        "population_2020" : 2194,
+        "population_2027" : 2280,
+        "land_area_2020" : 0.0
+    },
+    "Tioga, Williams County, ND" : {
+        "name" : "Tioga",
+        "state" : "North Dakota",
+        "FIPS" : "38-78940",
+        "counties" : [
+            "Williams County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2202,
+        "population_2020" : 2202,
+        "population_2027" : 2288,
+        "land_area_2020" : 0.0
+    },
+    "Lisbon, Ransom County, ND" : {
+        "name" : "Lisbon",
+        "state" : "North Dakota",
+        "FIPS" : "38-47100",
+        "counties" : [
+            "Ransom County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2204,
+        "population_2020" : 2204,
+        "population_2027" : 2290,
+        "land_area_2020" : 0.0
+    },
+    "Carrington, Foster County, ND" : {
+        "name" : "Carrington",
+        "state" : "North Dakota",
+        "FIPS" : "38-12340",
+        "counties" : [
+            "Foster County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2080,
+        "population_2020" : 2080,
+        "population_2027" : 2161,
+        "land_area_2020" : 0.0
+    },
+    "Langdon, Cavalier County, ND" : {
+        "name" : "Langdon",
+        "state" : "North Dakota",
+        "FIPS" : "38-44780",
+        "counties" : [
+            "Cavalier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1909,
+        "population_2020" : 1909,
+        "population_2027" : 1984,
+        "land_area_2020" : 0.0
+    },
+    "Mayville, Traill County, ND" : {
+        "name" : "Mayville",
+        "state" : "North Dakota",
+        "FIPS" : "38-51500",
+        "counties" : [
+            "Traill County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1854,
+        "population_2020" : 1854,
+        "population_2027" : 1927,
+        "land_area_2020" : 0.0
+    },
+    "Oakes, Dickey County, ND" : {
+        "name" : "Oakes",
+        "state" : "North Dakota",
+        "FIPS" : "38-58740",
+        "counties" : [
+            "Dickey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1798,
+        "population_2020" : 1798,
+        "population_2027" : 1868,
+        "land_area_2020" : 0.0
+    },
+    "Hillsboro, Traill County, ND" : {
+        "name" : "Hillsboro",
+        "state" : "North Dakota",
+        "FIPS" : "38-38100",
+        "counties" : [
+            "Traill County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1649,
+        "population_2020" : 1649,
+        "population_2027" : 1714,
+        "land_area_2020" : 0.0
+    },
+    "Harvey, Wells County, ND" : {
+        "name" : "Harvey",
+        "state" : "North Dakota",
+        "FIPS" : "38-35900",
+        "counties" : [
+            "Wells County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1650,
+        "population_2020" : 1650,
+        "population_2027" : 1715,
+        "land_area_2020" : 0.0
+    },
+    "Mapleton, Cass County, ND" : {
+        "name" : "Mapleton",
+        "state" : "North Dakota",
+        "FIPS" : "38-50580",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1320,
+        "population_2020" : 1320,
+        "population_2027" : 1372,
+        "land_area_2020" : 0.0
+    },
+    "Garrison, McLean County, ND" : {
+        "name" : "Garrison",
+        "state" : "North Dakota",
+        "FIPS" : "38-29460",
+        "counties" : [
+            "McLean County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1462,
+        "population_2020" : 1462,
+        "population_2027" : 1519,
+        "land_area_2020" : 0.0
+    },
+    "Surrey, Ward County, ND" : {
+        "name" : "Surrey",
+        "state" : "North Dakota",
+        "FIPS" : "38-77180",
+        "counties" : [
+            "Ward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1357,
+        "population_2020" : 1357,
+        "population_2027" : 1410,
+        "land_area_2020" : 0.0
+    },
+    "Bowman, Bowman County, ND" : {
+        "name" : "Bowman",
+        "state" : "North Dakota",
+        "FIPS" : "38-08700",
+        "counties" : [
+            "Bowman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1470,
+        "population_2020" : 1470,
+        "population_2027" : 1528,
+        "land_area_2020" : 0.0
+    },
+    "Park River, Walsh County, ND" : {
+        "name" : "Park River",
+        "state" : "North Dakota",
+        "FIPS" : "38-60900",
+        "counties" : [
+            "Walsh County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1424,
+        "population_2020" : 1424,
+        "population_2027" : 1480,
+        "land_area_2020" : 0.0
+    },
+    "Burlington, Ward County, ND" : {
+        "name" : "Burlington",
+        "state" : "North Dakota",
+        "FIPS" : "38-10940",
+        "counties" : [
+            "Ward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1291,
+        "population_2020" : 1291,
+        "population_2027" : 1342,
+        "land_area_2020" : 0.0
+    },
+    "New Rockford, Eddy County, ND" : {
+        "name" : "New Rockford",
+        "state" : "North Dakota",
+        "FIPS" : "38-56620",
+        "counties" : [
+            "Eddy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1361,
+        "population_2020" : 1361,
+        "population_2027" : 1414,
+        "land_area_2020" : 0.0
+    },
+    "Washburn, McLean County, ND" : {
+        "name" : "Washburn",
+        "state" : "North Dakota",
+        "FIPS" : "38-83700",
+        "counties" : [
+            "McLean County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1300,
+        "population_2020" : 1300,
+        "population_2027" : 1351,
+        "land_area_2020" : 0.0
+    },
+    "Larimore, Grand Forks County, ND" : {
+        "name" : "Larimore",
+        "state" : "North Dakota",
+        "FIPS" : "38-45020",
+        "counties" : [
+            "Grand Forks County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1260,
+        "population_2020" : 1260,
+        "population_2027" : 1309,
+        "land_area_2020" : 0.0
+    },
+    "Cavalier, Pembina County, ND" : {
+        "name" : "Cavalier",
+        "state" : "North Dakota",
+        "FIPS" : "38-12940",
+        "counties" : [
+            "Pembina County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1246,
+        "population_2020" : 1246,
+        "population_2027" : 1295,
+        "land_area_2020" : 0.0
+    },
+    "Rolla, Rolette County, ND" : {
+        "name" : "Rolla",
+        "state" : "North Dakota",
+        "FIPS" : "38-67820",
+        "counties" : [
+            "Rolette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1223,
+        "population_2020" : 1223,
+        "population_2027" : 1271,
+        "land_area_2020" : 0.0
+    },
+    "Ellendale, Dickey County, ND" : {
+        "name" : "Ellendale",
+        "state" : "North Dakota",
+        "FIPS" : "38-23220",
+        "counties" : [
+            "Dickey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1125,
+        "population_2020" : 1125,
+        "population_2027" : 1169,
+        "land_area_2020" : 0.0
+    },
+    "Thompson, Grand Forks County, ND" : {
+        "name" : "Thompson",
+        "state" : "North Dakota",
+        "FIPS" : "38-78660",
+        "counties" : [
+            "Grand Forks County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1101,
+        "population_2020" : 1101,
+        "population_2027" : 1144,
+        "land_area_2020" : 0.0
+    },
+    "New Salem, Morton County, ND" : {
+        "name" : "New Salem",
+        "state" : "North Dakota",
+        "FIPS" : "38-56700",
+        "counties" : [
+            "Morton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 973,
+        "population_2020" : 973,
+        "population_2027" : 1011,
+        "land_area_2020" : 0.0
+    },
+    "Cando, Towner County, ND" : {
+        "name" : "Cando",
+        "state" : "North Dakota",
+        "FIPS" : "38-11860",
+        "counties" : [
+            "Towner County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1117,
+        "population_2020" : 1117,
+        "population_2027" : 1161,
+        "land_area_2020" : 0.0
+    },
+    "Hettinger, Adams County, ND" : {
+        "name" : "Hettinger",
+        "state" : "North Dakota",
+        "FIPS" : "38-37700",
+        "counties" : [
+            "Adams County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1074,
+        "population_2020" : 1074,
+        "population_2027" : 1116,
+        "land_area_2020" : 0.0
+    },
+    "Velva, McHenry County, ND" : {
+        "name" : "Velva",
+        "state" : "North Dakota",
+        "FIPS" : "38-81620",
+        "counties" : [
+            "McHenry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1086,
+        "population_2020" : 1086,
+        "population_2027" : 1129,
+        "land_area_2020" : 0.0
+    },
+    "Linton, Emmons County, ND" : {
+        "name" : "Linton",
+        "state" : "North Dakota",
+        "FIPS" : "38-46980",
+        "counties" : [
+            "Emmons County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1071,
+        "population_2020" : 1071,
+        "population_2027" : 1113,
+        "land_area_2020" : 0.0
+    },
+    "Crosby, Divide County, ND" : {
+        "name" : "Crosby",
+        "state" : "North Dakota",
+        "FIPS" : "38-16940",
+        "counties" : [
+            "Divide County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1065,
+        "population_2020" : 1065,
+        "population_2027" : 1107,
+        "land_area_2020" : 0.0
+    },
+    "Kindred, Cass County, ND" : {
+        "name" : "Kindred",
+        "state" : "North Dakota",
+        "FIPS" : "38-42780",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 889,
+        "population_2020" : 889,
+        "population_2027" : 924,
+        "land_area_2020" : 0.0
+    },
+    "Beach, Golden Valley County, ND" : {
+        "name" : "Beach",
+        "state" : "North Dakota",
+        "FIPS" : "38-05420",
+        "counties" : [
+            "Golden Valley County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 981,
+        "population_2020" : 981,
+        "population_2027" : 1019,
+        "land_area_2020" : 0.0
+    },
+    "Belfield, Stark County, ND" : {
+        "name" : "Belfield",
+        "state" : "North Dakota",
+        "FIPS" : "38-05820",
+        "counties" : [
+            "Stark County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 996,
+        "population_2020" : 996,
+        "population_2027" : 1035,
+        "land_area_2020" : 0.0
+    },
+    "Cooperstown, Griggs County, ND" : {
+        "name" : "Cooperstown",
+        "state" : "North Dakota",
+        "FIPS" : "38-15900",
+        "counties" : [
+            "Griggs County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 983,
+        "population_2020" : 983,
+        "population_2027" : 1021,
+        "land_area_2020" : 0.0
+    },
+    "Northwood, Grand Forks County, ND" : {
+        "name" : "Northwood",
+        "state" : "North Dakota",
+        "FIPS" : "38-58300",
+        "counties" : [
+            "Grand Forks County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 982,
+        "population_2020" : 982,
+        "population_2027" : 1020,
+        "land_area_2020" : 0.0
+    },
+    "Hankinson, Richland County, ND" : {
+        "name" : "Hankinson",
+        "state" : "North Dakota",
+        "FIPS" : "38-34900",
+        "counties" : [
+            "Richland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 921,
+        "population_2020" : 921,
+        "population_2027" : 957,
+        "land_area_2020" : 0.0
+    },
+    "Kenmare, Ward County, ND" : {
+        "name" : "Kenmare",
+        "state" : "North Dakota",
+        "FIPS" : "38-42020",
+        "counties" : [
+            "Ward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 961,
+        "population_2020" : 961,
+        "population_2027" : 999,
+        "land_area_2020" : 0.0
+    },
+    "Killdeer, Dunn County, ND" : {
+        "name" : "Killdeer",
+        "state" : "North Dakota",
+        "FIPS" : "38-42700",
+        "counties" : [
+            "Dunn County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 939,
+        "population_2020" : 939,
+        "population_2027" : 976,
+        "land_area_2020" : 0.0
+    },
+    "Parshall, Mountrail County, ND" : {
+        "name" : "Parshall",
+        "state" : "North Dakota",
+        "FIPS" : "38-60940",
+        "counties" : [
+            "Mountrail County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 949,
+        "population_2020" : 949,
+        "population_2027" : 986,
+        "land_area_2020" : 0.0
+    },
+    "Gwinner, Sargent County, ND" : {
+        "name" : "Gwinner",
+        "state" : "North Dakota",
+        "FIPS" : "38-34020",
+        "counties" : [
+            "Sargent County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 924,
+        "population_2020" : 924,
+        "population_2027" : 960,
+        "land_area_2020" : 0.0
+    },
+    "Walhalla, Pembina County, ND" : {
+        "name" : "Walhalla",
+        "state" : "North Dakota",
+        "FIPS" : "38-82980",
+        "counties" : [
+            "Pembina County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 893,
+        "population_2020" : 893,
+        "population_2027" : 928,
+        "land_area_2020" : 0.0
+    },
+    "Reile's Acres, Cass County, ND" : {
+        "name" : "Reile's Acres",
+        "state" : "North Dakota",
+        "FIPS" : "38-66040",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 703,
+        "population_2020" : 703,
+        "population_2027" : 731,
+        "land_area_2020" : 0.0
+    },
+    "Enderlin, Ransom County, ND" : {
+        "name" : "Enderlin",
+        "state" : "North Dakota",
+        "FIPS" : "38-24260",
+        "counties" : [
+            "Ransom County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 881,
+        "population_2020" : 881,
+        "population_2027" : 915,
+        "land_area_2020" : 0.0
+    },
+    "Harwood, Cass County, ND" : {
+        "name" : "Harwood",
+        "state" : "North Dakota",
+        "FIPS" : "38-35940",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 794,
+        "population_2020" : 794,
+        "population_2027" : 825,
+        "land_area_2020" : 0.0
+    },
+    "Wishek, McIntosh County, ND" : {
+        "name" : "Wishek",
+        "state" : "North Dakota",
+        "FIPS" : "38-87020",
+        "counties" : [
+            "McIntosh County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 864,
+        "population_2020" : 864,
+        "population_2027" : 898,
+        "land_area_2020" : 0.0
+    },
+    "Hebron, Morton County, ND" : {
+        "name" : "Hebron",
+        "state" : "North Dakota",
+        "FIPS" : "38-36860",
+        "counties" : [
+            "Morton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 794,
+        "population_2020" : 794,
+        "population_2027" : 825,
+        "land_area_2020" : 0.0
+    },
+    "Underwood, McLean County, ND" : {
+        "name" : "Underwood",
+        "state" : "North Dakota",
+        "FIPS" : "38-80660",
+        "counties" : [
+            "McLean County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 784,
+        "population_2020" : 784,
+        "population_2027" : 815,
+        "land_area_2020" : 0.0
+    },
+    "Ray, Williams County, ND" : {
+        "name" : "Ray",
+        "state" : "North Dakota",
+        "FIPS" : "38-65580",
+        "counties" : [
+            "Williams County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 740,
+        "population_2020" : 740,
+        "population_2027" : 769,
+        "land_area_2020" : 0.0
+    },
+    "Napoleon, Logan County, ND" : {
+        "name" : "Napoleon",
+        "state" : "North Dakota",
+        "FIPS" : "38-55420",
+        "counties" : [
+            "Logan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 749,
+        "population_2020" : 749,
+        "population_2027" : 778,
+        "land_area_2020" : 0.0
+    },
+    "LaMoure, LaMoure County, ND" : {
+        "name" : "LaMoure",
+        "state" : "North Dakota",
+        "FIPS" : "38-44540",
+        "counties" : [
+            "LaMoure County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 764,
+        "population_2020" : 764,
+        "population_2027" : 794,
+        "land_area_2020" : 0.0
+    },
+    "Drayton, Pembina County, ND" : {
+        "name" : "Drayton",
+        "state" : "North Dakota",
+        "FIPS" : "38-20340",
+        "counties" : [
+            "Pembina County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 757,
+        "population_2020" : 757,
+        "population_2027" : 787,
+        "land_area_2020" : 0.0
+    },
+    "Mohall, Renville County, ND" : {
+        "name" : "Mohall",
+        "state" : "North Dakota",
+        "FIPS" : "38-53780",
+        "counties" : [
+            "Renville County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 694,
+        "population_2020" : 694,
+        "population_2027" : 721,
+        "land_area_2020" : 0.0
+    },
+    "Hatton, Traill County, ND" : {
+        "name" : "Hatton",
+        "state" : "North Dakota",
+        "FIPS" : "38-36100",
+        "counties" : [
+            "Traill County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 712,
+        "population_2020" : 712,
+        "population_2027" : 740,
+        "land_area_2020" : 0.0
+    },
+    "Wilton, McLean County, ND" : {
+        "name" : "Wilton",
+        "state" : "North Dakota",
+        "FIPS" : "38-86580",
+        "counties" : [
+            "McLean County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 718,
+        "population_2020" : 718,
+        "population_2027" : 746,
+        "land_area_2020" : 0.0
+    },
+    "Glen Ullin, Morton County, ND" : {
+        "name" : "Glen Ullin",
+        "state" : "North Dakota",
+        "FIPS" : "38-30860",
+        "counties" : [
+            "Morton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 732,
+        "population_2020" : 732,
+        "population_2027" : 761,
+        "land_area_2020" : 0.0
+    },
+    "New England, Hettinger County, ND" : {
+        "name" : "New England",
+        "state" : "North Dakota",
+        "FIPS" : "38-56180",
+        "counties" : [
+            "Hettinger County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 683,
+        "population_2020" : 683,
+        "population_2027" : 710,
+        "land_area_2020" : 0.0
+    },
+    "Lakota, Nelson County, ND" : {
+        "name" : "Lakota",
+        "state" : "North Dakota",
+        "FIPS" : "38-44300",
+        "counties" : [
+            "Nelson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 683,
+        "population_2020" : 683,
+        "population_2027" : 710,
+        "land_area_2020" : 0.0
+    },
+    "Richardton, Stark County, ND" : {
+        "name" : "Richardton",
+        "state" : "North Dakota",
+        "FIPS" : "38-66500",
+        "counties" : [
+            "Stark County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 692,
+        "population_2020" : 692,
+        "population_2027" : 719,
+        "land_area_2020" : 0.0
+    },
+    "Steele, Kidder County, ND" : {
+        "name" : "Steele",
+        "state" : "North Dakota",
+        "FIPS" : "38-75780",
+        "counties" : [
+            "Kidder County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 665,
+        "population_2020" : 665,
+        "population_2027" : 691,
+        "land_area_2020" : 0.0
+    },
+    "Mott, Hettinger County, ND" : {
+        "name" : "Mott",
+        "state" : "North Dakota",
+        "FIPS" : "38-54620",
+        "counties" : [
+            "Hettinger County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 653,
+        "population_2020" : 653,
+        "population_2027" : 679,
+        "land_area_2020" : 0.0
+    },
+    "Minto, Walsh County, ND" : {
+        "name" : "Minto",
+        "state" : "North Dakota",
+        "FIPS" : "38-53540",
+        "counties" : [
+            "Walsh County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 616,
+        "population_2020" : 616,
+        "population_2027" : 640,
+        "land_area_2020" : 0.0
+    },
+    "Dunseith, Rolette County, ND" : {
+        "name" : "Dunseith",
+        "state" : "North Dakota",
+        "FIPS" : "38-21020",
+        "counties" : [
+            "Rolette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 632,
+        "population_2020" : 632,
+        "population_2027" : 657,
+        "land_area_2020" : 0.0
+    },
+    "Milnor, Sargent County, ND" : {
+        "name" : "Milnor",
+        "state" : "North Dakota",
+        "FIPS" : "38-52940",
+        "counties" : [
+            "Sargent County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 624,
+        "population_2020" : 624,
+        "population_2027" : 648,
+        "land_area_2020" : 0.0
+    },
+    "Ashley, McIntosh County, ND" : {
+        "name" : "Ashley",
+        "state" : "North Dakota",
+        "FIPS" : "38-03540",
+        "counties" : [
+            "McIntosh County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 613,
+        "population_2020" : 613,
+        "population_2027" : 637,
+        "land_area_2020" : 0.0
+    },
+    "Lidgerwood, Richland County, ND" : {
+        "name" : "Lidgerwood",
+        "state" : "North Dakota",
+        "FIPS" : "38-46460",
+        "counties" : [
+            "Richland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 600,
+        "population_2020" : 600,
+        "population_2027" : 623,
+        "land_area_2020" : 0.0
+    },
+    "Center, Oliver County, ND" : {
+        "name" : "Center",
+        "state" : "North Dakota",
+        "FIPS" : "38-13180",
+        "counties" : [
+            "Oliver County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 588,
+        "population_2020" : 588,
+        "population_2027" : 611,
+        "land_area_2020" : 0.0
+    },
+    "Portland, Traill County, ND" : {
+        "name" : "Portland",
+        "state" : "North Dakota",
+        "FIPS" : "38-63900",
+        "counties" : [
+            "Traill County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 578,
+        "population_2020" : 578,
+        "population_2027" : 601,
+        "land_area_2020" : 0.0
+    },
+    "Edgeley, LaMoure County, ND" : {
+        "name" : "Edgeley",
+        "state" : "North Dakota",
+        "FIPS" : "38-22140",
+        "counties" : [
+            "LaMoure County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 585,
+        "population_2020" : 585,
+        "population_2027" : 608,
+        "land_area_2020" : 0.0
+    },
+    "Turtle Lake, McLean County, ND" : {
+        "name" : "Turtle Lake",
+        "state" : "North Dakota",
+        "FIPS" : "38-79940",
+        "counties" : [
+            "McLean County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 542,
+        "population_2020" : 542,
+        "population_2027" : 563,
+        "land_area_2020" : 0.0
+    },
+    "Elgin, Grant County, ND" : {
+        "name" : "Elgin",
+        "state" : "North Dakota",
+        "FIPS" : "38-23020",
+        "counties" : [
+            "Grant County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 543,
+        "population_2020" : 543,
+        "population_2027" : 564,
+        "land_area_2020" : 0.0
+    },
+    "Pembina, Pembina County, ND" : {
+        "name" : "Pembina",
+        "state" : "North Dakota",
+        "FIPS" : "38-61580",
+        "counties" : [
+            "Pembina County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 512,
+        "population_2020" : 512,
+        "population_2027" : 532,
+        "land_area_2020" : 0.0
+    },
+    "Forman, Sargent County, ND" : {
+        "name" : "Forman",
+        "state" : "North Dakota",
+        "FIPS" : "38-27260",
+        "counties" : [
+            "Sargent County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 509,
+        "population_2020" : 509,
+        "population_2027" : 529,
+        "land_area_2020" : 0.0
+    },
+    "Argusville, Cass County, ND" : {
+        "name" : "Argusville",
+        "state" : "North Dakota",
+        "FIPS" : "38-03020",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 480,
+        "population_2020" : 480,
+        "population_2027" : 499,
+        "land_area_2020" : 0.0
+    },
+    "Berthold, Ward County, ND" : {
+        "name" : "Berthold",
+        "state" : "North Dakota",
+        "FIPS" : "38-06460",
+        "counties" : [
+            "Ward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 490,
+        "population_2020" : 490,
+        "population_2027" : 509,
+        "land_area_2020" : 0.0
+    },
+    "Rolette, Rolette County, ND" : {
+        "name" : "Rolette",
+        "state" : "North Dakota",
+        "FIPS" : "38-67780",
+        "counties" : [
+            "Rolette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 484,
+        "population_2020" : 484,
+        "population_2027" : 503,
+        "land_area_2020" : 0.0
+    },
+    "Towner, McHenry County, ND" : {
+        "name" : "Towner",
+        "state" : "North Dakota",
+        "FIPS" : "38-79420",
+        "counties" : [
+            "McHenry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 479,
+        "population_2020" : 479,
+        "population_2027" : 498,
+        "land_area_2020" : 0.0
+    },
+    "Emerado, Grand Forks County, ND" : {
+        "name" : "Emerado",
+        "state" : "North Dakota",
+        "FIPS" : "38-24060",
+        "counties" : [
+            "Grand Forks County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 443,
+        "population_2020" : 443,
+        "population_2027" : 460,
+        "land_area_2020" : 0.0
+    },
+    "Fessenden, Wells County, ND" : {
+        "name" : "Fessenden",
+        "state" : "North Dakota",
+        "FIPS" : "38-26180",
+        "counties" : [
+            "Wells County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 462,
+        "population_2020" : 462,
+        "population_2027" : 480,
+        "land_area_2020" : 0.0
+    },
+    "Wyndmere, Richland County, ND" : {
+        "name" : "Wyndmere",
+        "state" : "North Dakota",
+        "FIPS" : "38-87740",
+        "counties" : [
+            "Richland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 454,
+        "population_2020" : 454,
+        "population_2027" : 472,
+        "land_area_2020" : 0.0
+    },
+    "Leeds, Benson County, ND" : {
+        "name" : "Leeds",
+        "state" : "North Dakota",
+        "FIPS" : "38-45580",
+        "counties" : [
+            "Benson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 442,
+        "population_2020" : 442,
+        "population_2027" : 459,
+        "land_area_2020" : 0.0
+    },
+    "Glenburn, Renville County, ND" : {
+        "name" : "Glenburn",
+        "state" : "North Dakota",
+        "FIPS" : "38-30580",
+        "counties" : [
+            "Renville County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 404,
+        "population_2020" : 404,
+        "population_2027" : 420,
+        "land_area_2020" : 0.0
+    },
+    "South Heart, Stark County, ND" : {
+        "name" : "South Heart",
+        "state" : "North Dakota",
+        "FIPS" : "38-74185",
+        "counties" : [
+            "Stark County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 394,
+        "population_2020" : 394,
+        "population_2027" : 409,
+        "land_area_2020" : 0.0
+    },
+    "Finley, Steele County, ND" : {
+        "name" : "Finley",
+        "state" : "North Dakota",
+        "FIPS" : "38-26420",
+        "counties" : [
+            "Steele County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 401,
+        "population_2020" : 401,
+        "population_2027" : 417,
+        "land_area_2020" : 0.0
+    },
+    "McVille, Nelson County, ND" : {
+        "name" : "McVille",
+        "state" : "North Dakota",
+        "FIPS" : "38-49580",
+        "counties" : [
+            "Nelson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 392,
+        "population_2020" : 392,
+        "population_2027" : 407,
+        "land_area_2020" : 0.0
+    },
+    "Maddock, Benson County, ND" : {
+        "name" : "Maddock",
+        "state" : "North Dakota",
+        "FIPS" : "38-49620",
+        "counties" : [
+            "Benson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 402,
+        "population_2020" : 402,
+        "population_2027" : 418,
+        "land_area_2020" : 0.0
+    },
+    "Powers Lake, Burke County, ND" : {
+        "name" : "Powers Lake",
+        "state" : "North Dakota",
+        "FIPS" : "38-64140",
+        "counties" : [
+            "Burke County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 385,
+        "population_2020" : 385,
+        "population_2027" : 400,
+        "land_area_2020" : 0.0
+    },
+    "Oxbow, Cass County, ND" : {
+        "name" : "Oxbow",
+        "state" : "North Dakota",
+        "FIPS" : "38-60480",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 381,
+        "population_2020" : 381,
+        "population_2027" : 396,
+        "land_area_2020" : 0.0
+    },
+    "Westhope, Bottineau County, ND" : {
+        "name" : "Westhope",
+        "state" : "North Dakota",
+        "FIPS" : "38-85020",
+        "counties" : [
+            "Bottineau County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 374,
+        "population_2020" : 374,
+        "population_2027" : 389,
+        "land_area_2020" : 0.0
+    },
+    "Manvel, Grand Forks County, ND" : {
+        "name" : "Manvel",
+        "state" : "North Dakota",
+        "FIPS" : "38-50420",
+        "counties" : [
+            "Grand Forks County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 377,
+        "population_2020" : 377,
+        "population_2027" : 392,
+        "land_area_2020" : 0.0
+    },
+    "Kulm, LaMoure County, ND" : {
+        "name" : "Kulm",
+        "state" : "North Dakota",
+        "FIPS" : "38-43580",
+        "counties" : [
+            "LaMoure County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 368,
+        "population_2020" : 368,
+        "population_2027" : 382,
+        "land_area_2020" : 0.0
+    },
+    "Stanton, Mercer County, ND" : {
+        "name" : "Stanton",
+        "state" : "North Dakota",
+        "FIPS" : "38-75420",
+        "counties" : [
+            "Mercer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 368,
+        "population_2020" : 368,
+        "population_2027" : 382,
+        "land_area_2020" : 0.0
+    },
+    "Strasburg, Emmons County, ND" : {
+        "name" : "Strasburg",
+        "state" : "North Dakota",
+        "FIPS" : "38-76500",
+        "counties" : [
+            "Emmons County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 379,
+        "population_2020" : 379,
+        "population_2027" : 394,
+        "land_area_2020" : 0.0
+    },
+    "Buxton, Traill County, ND" : {
+        "name" : "Buxton",
+        "state" : "North Dakota",
+        "FIPS" : "38-11340",
+        "counties" : [
+            "Traill County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 348,
+        "population_2020" : 348,
+        "population_2027" : 362,
+        "land_area_2020" : 0.0
+    },
+    "Neche, Pembina County, ND" : {
+        "name" : "Neche",
+        "state" : "North Dakota",
+        "FIPS" : "38-55620",
+        "counties" : [
+            "Pembina County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 344,
+        "population_2020" : 344,
+        "population_2027" : 357,
+        "land_area_2020" : 0.0
+    },
+    "Fairmount, Richland County, ND" : {
+        "name" : "Fairmount",
+        "state" : "North Dakota",
+        "FIPS" : "38-25300",
+        "counties" : [
+            "Richland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 343,
+        "population_2020" : 343,
+        "population_2027" : 356,
+        "land_area_2020" : 0.0
+    },
+    "Hunter, Cass County, ND" : {
+        "name" : "Hunter",
+        "state" : "North Dakota",
+        "FIPS" : "38-39460",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 332,
+        "population_2020" : 332,
+        "population_2027" : 345,
+        "land_area_2020" : 0.0
+    },
+    "Arthur, Cass County, ND" : {
+        "name" : "Arthur",
+        "state" : "North Dakota",
+        "FIPS" : "38-03300",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 328,
+        "population_2020" : 328,
+        "population_2027" : 341,
+        "land_area_2020" : 0.0
+    },
+    "Max, McLean County, ND" : {
+        "name" : "Max",
+        "state" : "North Dakota",
+        "FIPS" : "38-51380",
+        "counties" : [
+            "McLean County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 331,
+        "population_2020" : 331,
+        "population_2027" : 344,
+        "land_area_2020" : 0.0
+    },
+    "Alexander, McKenzie County, ND" : {
+        "name" : "Alexander",
+        "state" : "North Dakota",
+        "FIPS" : "38-01180",
+        "counties" : [
+            "McKenzie County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 319,
+        "population_2020" : 319,
+        "population_2027" : 331,
+        "land_area_2020" : 0.0
+    },
+    "McClusky, Sheridan County, ND" : {
+        "name" : "McClusky",
+        "state" : "North Dakota",
+        "FIPS" : "38-49020",
+        "counties" : [
+            "Sheridan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 322,
+        "population_2020" : 322,
+        "population_2027" : 335,
+        "land_area_2020" : 0.0
+    },
+    "St. John, Rolette County, ND" : {
+        "name" : "St. John",
+        "state" : "North Dakota",
+        "FIPS" : "38-69980",
+        "counties" : [
+            "Rolette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 322,
+        "population_2020" : 322,
+        "population_2027" : 335,
+        "land_area_2020" : 0.0
+    },
+    "Sawyer, Ward County, ND" : {
+        "name" : "Sawyer",
+        "state" : "North Dakota",
+        "FIPS" : "38-70980",
+        "counties" : [
+            "Ward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 319,
+        "population_2020" : 319,
+        "population_2027" : 331,
+        "land_area_2020" : 0.0
+    },
+    "St. Thomas, Pembina County, ND" : {
+        "name" : "St. Thomas",
+        "state" : "North Dakota",
+        "FIPS" : "38-70260",
+        "counties" : [
+            "Pembina County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 323,
+        "population_2020" : 323,
+        "population_2027" : 336,
+        "land_area_2020" : 0.0
+    },
+    "Arnegard, McKenzie County, ND" : {
+        "name" : "Arnegard",
+        "state" : "North Dakota",
+        "FIPS" : "38-03220",
+        "counties" : [
+            "McKenzie County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 282,
+        "population_2020" : 282,
+        "population_2027" : 293,
+        "land_area_2020" : 0.0
+    },
+    "Bowbells, Burke County, ND" : {
+        "name" : "Bowbells",
+        "state" : "North Dakota",
+        "FIPS" : "38-08500",
+        "counties" : [
+            "Burke County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 301,
+        "population_2020" : 301,
+        "population_2027" : 313,
+        "land_area_2020" : 0.0
+    },
+    "Gackle, Logan County, ND" : {
+        "name" : "Gackle",
+        "state" : "North Dakota",
+        "FIPS" : "38-28860",
+        "counties" : [
+            "Logan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 281,
+        "population_2020" : 281,
+        "population_2027" : 292,
+        "land_area_2020" : 0.0
+    },
+    "Gladstone, Stark County, ND" : {
+        "name" : "Gladstone",
+        "state" : "North Dakota",
+        "FIPS" : "38-30460",
+        "counties" : [
+            "Stark County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 271,
+        "population_2020" : 271,
+        "population_2027" : 282,
+        "land_area_2020" : 0.0
+    },
+    "Drake, McHenry County, ND" : {
+        "name" : "Drake",
+        "state" : "North Dakota",
+        "FIPS" : "38-20300",
+        "counties" : [
+            "McHenry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 292,
+        "population_2020" : 292,
+        "population_2027" : 303,
+        "land_area_2020" : 0.0
+    },
+    "Hope, Steele County, ND" : {
+        "name" : "Hope",
+        "state" : "North Dakota",
+        "FIPS" : "38-38860",
+        "counties" : [
+            "Steele County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 272,
+        "population_2020" : 272,
+        "population_2027" : 283,
+        "land_area_2020" : 0.0
+    },
+    "Tower City, Cass County, ND" : {
+        "name" : "Tower City",
+        "state" : "North Dakota",
+        "FIPS" : "38-79340",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 268,
+        "population_2020" : 268,
+        "population_2027" : 278,
+        "land_area_2020" : 0.0
+    },
+    "Reynolds, Traill County, ND" : {
+        "name" : "Reynolds",
+        "state" : "North Dakota",
+        "FIPS" : "38-66260",
+        "counties" : [
+            "Traill County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 277,
+        "population_2020" : 277,
+        "population_2027" : 288,
+        "land_area_2020" : 0.0
+    },
+    "Walcott, Richland County, ND" : {
+        "name" : "Walcott",
+        "state" : "North Dakota",
+        "FIPS" : "38-82780",
+        "counties" : [
+            "Richland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 262,
+        "population_2020" : 262,
+        "population_2027" : 272,
+        "land_area_2020" : 0.0
+    },
+    "Medina, Stutsman County, ND" : {
+        "name" : "Medina",
+        "state" : "North Dakota",
+        "FIPS" : "38-51860",
+        "counties" : [
+            "Stutsman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 264,
+        "population_2020" : 264,
+        "population_2027" : 274,
+        "land_area_2020" : 0.0
+    },
+    "Michigan City, Nelson County, ND" : {
+        "name" : "Michigan City",
+        "state" : "North Dakota",
+        "FIPS" : "38-52740",
+        "counties" : [
+            "Nelson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 263,
+        "population_2020" : 263,
+        "population_2027" : 273,
+        "land_area_2020" : 0.0
+    },
+    "Abercrombie, Richland County, ND" : {
+        "name" : "Abercrombie",
+        "state" : "North Dakota",
+        "FIPS" : "38-00100",
+        "counties" : [
+            "Richland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 244,
+        "population_2020" : 244,
+        "population_2027" : 254,
+        "land_area_2020" : 0.0
+    },
+    "Davenport, Cass County, ND" : {
+        "name" : "Davenport",
+        "state" : "North Dakota",
+        "FIPS" : "38-18180",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 256,
+        "population_2020" : 256,
+        "population_2027" : 266,
+        "land_area_2020" : 0.0
+    },
+    "Scranton, Bowman County, ND" : {
+        "name" : "Scranton",
+        "state" : "North Dakota",
+        "FIPS" : "38-71500",
+        "counties" : [
+            "Bowman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 258,
+        "population_2020" : 258,
+        "population_2027" : 268,
+        "land_area_2020" : 0.0
+    },
+    "Carson, Grant County, ND" : {
+        "name" : "Carson",
+        "state" : "North Dakota",
+        "FIPS" : "38-12460",
+        "counties" : [
+            "Grant County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 254,
+        "population_2020" : 254,
+        "population_2027" : 264,
+        "land_area_2020" : 0.0
+    },
+    "Leonard, Cass County, ND" : {
+        "name" : "Leonard",
+        "state" : "North Dakota",
+        "FIPS" : "38-45980",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 248,
+        "population_2020" : 248,
+        "population_2027" : 258,
+        "land_area_2020" : 0.0
+    },
+    "Gilby, Grand Forks County, ND" : {
+        "name" : "Gilby",
+        "state" : "North Dakota",
+        "FIPS" : "38-30180",
+        "counties" : [
+            "Grand Forks County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 243,
+        "population_2020" : 243,
+        "population_2027" : 253,
+        "land_area_2020" : 0.0
+    },
+    "Hoople, Walsh County, ND" : {
+        "name" : "Hoople",
+        "state" : "North Dakota",
+        "FIPS" : "38-38780",
+        "counties" : [
+            "Walsh County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 247,
+        "population_2020" : 247,
+        "population_2027" : 257,
+        "land_area_2020" : 0.0
+    },
+    "Aneta, Nelson County, ND" : {
+        "name" : "Aneta",
+        "state" : "North Dakota",
+        "FIPS" : "38-02380",
+        "counties" : [
+            "Nelson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 234,
+        "population_2020" : 234,
+        "population_2027" : 243,
+        "land_area_2020" : 0.0
+    },
+    "Lansford, Bottineau County, ND" : {
+        "name" : "Lansford",
+        "state" : "North Dakota",
+        "FIPS" : "38-44900",
+        "counties" : [
+            "Bottineau County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 238,
+        "population_2020" : 238,
+        "population_2027" : 247,
+        "land_area_2020" : 0.0
+    },
+    "Halliday, Dunn County, ND" : {
+        "name" : "Halliday",
+        "state" : "North Dakota",
+        "FIPS" : "38-34340",
+        "counties" : [
+            "Dunn County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 241,
+        "population_2020" : 241,
+        "population_2027" : 250,
+        "land_area_2020" : 0.0
+    },
+    "Granville, McHenry County, ND" : {
+        "name" : "Granville",
+        "state" : "North Dakota",
+        "FIPS" : "38-32660",
+        "counties" : [
+            "McHenry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 240,
+        "population_2020" : 240,
+        "population_2027" : 249,
+        "land_area_2020" : 0.0
+    },
+    "Flasher, Morton County, ND" : {
+        "name" : "Flasher",
+        "state" : "North Dakota",
+        "FIPS" : "38-26660",
+        "counties" : [
+            "Morton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 217,
+        "population_2020" : 217,
+        "population_2027" : 225,
+        "land_area_2020" : 0.0
+    },
+    "Dunn Center, Dunn County, ND" : {
+        "name" : "Dunn Center",
+        "state" : "North Dakota",
+        "FIPS" : "38-20940",
+        "counties" : [
+            "Dunn County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 227,
+        "population_2020" : 227,
+        "population_2027" : 236,
+        "land_area_2020" : 0.0
+    },
+    "Taylor, Stark County, ND" : {
+        "name" : "Taylor",
+        "state" : "North Dakota",
+        "FIPS" : "38-78180",
+        "counties" : [
+            "Stark County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 230,
+        "population_2020" : 230,
+        "population_2027" : 239,
+        "land_area_2020" : 0.0
+    },
+    "Zap, Mercer County, ND" : {
+        "name" : "Zap",
+        "state" : "North Dakota",
+        "FIPS" : "38-88140",
+        "counties" : [
+            "Mercer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 221,
+        "population_2020" : 221,
+        "population_2027" : 230,
+        "land_area_2020" : 0.0
+    },
+    "Riverdale, McLean County, ND" : {
+        "name" : "Riverdale",
+        "state" : "North Dakota",
+        "FIPS" : "38-66980",
+        "counties" : [
+            "McLean County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 223,
+        "population_2020" : 223,
+        "population_2027" : 232,
+        "land_area_2020" : 0.0
+    },
+    "Grenora, Williams County, ND" : {
+        "name" : "Grenora",
+        "state" : "North Dakota",
+        "FIPS" : "38-33500",
+        "counties" : [
+            "Williams County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 221,
+        "population_2020" : 221,
+        "population_2027" : 230,
+        "land_area_2020" : 0.0
+    },
+    "Hazelton, Emmons County, ND" : {
+        "name" : "Hazelton",
+        "state" : "North Dakota",
+        "FIPS" : "38-36700",
+        "counties" : [
+            "Emmons County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 223,
+        "population_2020" : 223,
+        "population_2027" : 232,
+        "land_area_2020" : 0.0
+    },
+    "Anamoose, McHenry County, ND" : {
+        "name" : "Anamoose",
+        "state" : "North Dakota",
+        "FIPS" : "38-02220",
+        "counties" : [
+            "McHenry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 230,
+        "population_2020" : 230,
+        "population_2027" : 239,
+        "land_area_2020" : 0.0
+    },
+    "Tappen, Kidder County, ND" : {
+        "name" : "Tappen",
+        "state" : "North Dakota",
+        "FIPS" : "38-77980",
+        "counties" : [
+            "Kidder County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 217,
+        "population_2020" : 217,
+        "population_2027" : 225,
+        "land_area_2020" : 0.0
+    },
+    "Colfax, Richland County, ND" : {
+        "name" : "Colfax",
+        "state" : "North Dakota",
+        "FIPS" : "38-15180",
+        "counties" : [
+            "Richland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 172,
+        "population_2020" : 172,
+        "population_2027" : 179,
+        "land_area_2020" : 0.0
+    },
+    "New Leipzig, Grant County, ND" : {
+        "name" : "New Leipzig",
+        "state" : "North Dakota",
+        "FIPS" : "38-56420",
+        "counties" : [
+            "Grant County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 218,
+        "population_2020" : 218,
+        "population_2027" : 227,
+        "land_area_2020" : 0.0
+    },
+    "Plaza, Mountrail County, ND" : {
+        "name" : "Plaza",
+        "state" : "North Dakota",
+        "FIPS" : "38-62980",
+        "counties" : [
+            "Mountrail County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 211,
+        "population_2020" : 211,
+        "population_2027" : 219,
+        "land_area_2020" : 0.0
+    },
+    "Fordville, Walsh County, ND" : {
+        "name" : "Fordville",
+        "state" : "North Dakota",
+        "FIPS" : "38-27060",
+        "counties" : [
+            "Walsh County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 207,
+        "population_2020" : 207,
+        "population_2027" : 215,
+        "land_area_2020" : 0.0
+    },
+    "Sherwood, Renville County, ND" : {
+        "name" : "Sherwood",
+        "state" : "North Dakota",
+        "FIPS" : "38-72540",
+        "counties" : [
+            "Renville County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 194,
+        "population_2020" : 194,
+        "population_2027" : 202,
+        "land_area_2020" : 0.0
+    },
+    "Frontier, Cass County, ND" : {
+        "name" : "Frontier",
+        "state" : "North Dakota",
+        "FIPS" : "38-28720",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 195,
+        "population_2020" : 195,
+        "population_2027" : 203,
+        "land_area_2020" : 0.0
+    },
+    "Grandin, Cass County, ND" : {
+        "name" : "Grandin",
+        "state" : "North Dakota",
+        "FIPS" : "38-32300",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 186,
+        "population_2020" : 186,
+        "population_2027" : 193,
+        "land_area_2020" : 0.0
+    },
+    "Edinburg, Walsh County, ND" : {
+        "name" : "Edinburg",
+        "state" : "North Dakota",
+        "FIPS" : "38-22260",
+        "counties" : [
+            "Walsh County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 199,
+        "population_2020" : 199,
+        "population_2027" : 207,
+        "land_area_2020" : 0.0
+    },
+    "Buffalo, Cass County, ND" : {
+        "name" : "Buffalo",
+        "state" : "North Dakota",
+        "FIPS" : "38-10420",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 195,
+        "population_2020" : 195,
+        "population_2027" : 203,
+        "land_area_2020" : 0.0
+    },
+    "Golden Valley, Mercer County, ND" : {
+        "name" : "Golden Valley",
+        "state" : "North Dakota",
+        "FIPS" : "38-31180",
+        "counties" : [
+            "Mercer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 191,
+        "population_2020" : 191,
+        "population_2027" : 198,
+        "land_area_2020" : 0.0
+    },
+    "Minnewaukan, Benson County, ND" : {
+        "name" : "Minnewaukan",
+        "state" : "North Dakota",
+        "FIPS" : "38-53220",
+        "counties" : [
+            "Benson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 199,
+        "population_2020" : 199,
+        "population_2027" : 207,
+        "land_area_2020" : 0.0
+    },
+    "Page, Cass County, ND" : {
+        "name" : "Page",
+        "state" : "North Dakota",
+        "FIPS" : "38-60500",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 190,
+        "population_2020" : 190,
+        "population_2027" : 197,
+        "land_area_2020" : 0.0
+    },
+    "Munich, Cavalier County, ND" : {
+        "name" : "Munich",
+        "state" : "North Dakota",
+        "FIPS" : "38-55020",
+        "counties" : [
+            "Cavalier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 190,
+        "population_2020" : 190,
+        "population_2027" : 197,
+        "land_area_2020" : 0.0
+    },
+    "Sheyenne, Eddy County, ND" : {
+        "name" : "Sheyenne",
+        "state" : "North Dakota",
+        "FIPS" : "38-72580",
+        "counties" : [
+            "Eddy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 186,
+        "population_2020" : 186,
+        "population_2027" : 193,
+        "land_area_2020" : 0.0
+    },
+    "Wimbledon, Barnes County, ND" : {
+        "name" : "Wimbledon",
+        "state" : "North Dakota",
+        "FIPS" : "38-86620",
+        "counties" : [
+            "Barnes County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 178,
+        "population_2020" : 178,
+        "population_2027" : 185,
+        "land_area_2020" : 0.0
+    },
+    "Des Lacs, Ward County, ND" : {
+        "name" : "Des Lacs",
+        "state" : "North Dakota",
+        "FIPS" : "38-19300",
+        "counties" : [
+            "Ward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 185,
+        "population_2020" : 185,
+        "population_2027" : 192,
+        "land_area_2020" : 0.0
+    },
+    "Mooreton, Richland County, ND" : {
+        "name" : "Mooreton",
+        "state" : "North Dakota",
+        "FIPS" : "38-54220",
+        "counties" : [
+            "Richland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 177,
+        "population_2020" : 177,
+        "population_2027" : 184,
+        "land_area_2020" : 0.0
+    },
+    "Fort Yates, Sioux County, ND" : {
+        "name" : "Fort Yates",
+        "state" : "North Dakota",
+        "FIPS" : "38-27860",
+        "counties" : [
+            "Sioux County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 176,
+        "population_2020" : 176,
+        "population_2027" : 183,
+        "land_area_2020" : 0.0
+    },
+    "Litchville, Barnes County, ND" : {
+        "name" : "Litchville",
+        "state" : "North Dakota",
+        "FIPS" : "38-47140",
+        "counties" : [
+            "Barnes County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 169,
+        "population_2020" : 169,
+        "population_2027" : 176,
+        "land_area_2020" : 0.0
+    },
+    "Regent, Hettinger County, ND" : {
+        "name" : "Regent",
+        "state" : "North Dakota",
+        "FIPS" : "38-66020",
+        "counties" : [
+            "Hettinger County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 170,
+        "population_2020" : 170,
+        "population_2027" : 177,
+        "land_area_2020" : 0.0
+    },
+    "Sanborn, Barnes County, ND" : {
+        "name" : "Sanborn",
+        "state" : "North Dakota",
+        "FIPS" : "38-70380",
+        "counties" : [
+            "Barnes County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 161,
+        "population_2020" : 161,
+        "population_2027" : 167,
+        "land_area_2020" : 0.0
+    },
+    "Binford, Griggs County, ND" : {
+        "name" : "Binford",
+        "state" : "North Dakota",
+        "FIPS" : "38-07020",
+        "counties" : [
+            "Griggs County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 170,
+        "population_2020" : 170,
+        "population_2027" : 177,
+        "land_area_2020" : 0.0
+    },
+    "Medora, Billings County, ND" : {
+        "name" : "Medora",
+        "state" : "North Dakota",
+        "FIPS" : "38-51900",
+        "counties" : [
+            "Billings County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 121,
+        "population_2020" : 121,
+        "population_2027" : 126,
+        "land_area_2020" : 0.0
+    },
+    "Petersburg, Nelson County, ND" : {
+        "name" : "Petersburg",
+        "state" : "North Dakota",
+        "FIPS" : "38-61860",
+        "counties" : [
+            "Nelson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 162,
+        "population_2020" : 162,
+        "population_2027" : 168,
+        "land_area_2020" : 0.0
+    },
+    "Rhame, Bowman County, ND" : {
+        "name" : "Rhame",
+        "state" : "North Dakota",
+        "FIPS" : "38-66300",
+        "counties" : [
+            "Bowman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 158,
+        "population_2020" : 158,
+        "population_2027" : 164,
+        "land_area_2020" : 0.0
+    },
+    "Rutland, Sargent County, ND" : {
+        "name" : "Rutland",
+        "state" : "North Dakota",
+        "FIPS" : "38-69340",
+        "counties" : [
+            "Sargent County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 163,
+        "population_2020" : 163,
+        "population_2027" : 169,
+        "land_area_2020" : 0.0
+    },
+    "Streeter, Stutsman County, ND" : {
+        "name" : "Streeter",
+        "state" : "North Dakota",
+        "FIPS" : "38-76620",
+        "counties" : [
+            "Stutsman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 149,
+        "population_2020" : 149,
+        "population_2027" : 155,
+        "land_area_2020" : 0.0
+    },
+    "Kensal, Stutsman County, ND" : {
+        "name" : "Kensal",
+        "state" : "North Dakota",
+        "FIPS" : "38-42180",
+        "counties" : [
+            "Stutsman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 146,
+        "population_2020" : 146,
+        "population_2027" : 152,
+        "land_area_2020" : 0.0
+    },
+    "Christine, Richland County, ND" : {
+        "name" : "Christine",
+        "state" : "North Dakota",
+        "FIPS" : "38-14100",
+        "counties" : [
+            "Richland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 151,
+        "population_2020" : 151,
+        "population_2027" : 157,
+        "land_area_2020" : 0.0
+    },
+    "Willow City, Bottineau County, ND" : {
+        "name" : "Willow City",
+        "state" : "North Dakota",
+        "FIPS" : "38-86380",
+        "counties" : [
+            "Bottineau County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 149,
+        "population_2020" : 149,
+        "population_2027" : 155,
+        "land_area_2020" : 0.0
+    },
+    "Makoti, Ward County, ND" : {
+        "name" : "Makoti",
+        "state" : "North Dakota",
+        "FIPS" : "38-49820",
+        "counties" : [
+            "Ward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 148,
+        "population_2020" : 148,
+        "population_2027" : 154,
+        "land_area_2020" : 0.0
+    },
+    "Carpio, Ward County, ND" : {
+        "name" : "Carpio",
+        "state" : "North Dakota",
+        "FIPS" : "38-12260",
+        "counties" : [
+            "Ward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 144,
+        "population_2020" : 144,
+        "population_2027" : 150,
+        "land_area_2020" : 0.0
+    },
+    "Wing, Burleigh County, ND" : {
+        "name" : "Wing",
+        "state" : "North Dakota",
+        "FIPS" : "38-86780",
+        "counties" : [
+            "Burleigh County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 132,
+        "population_2020" : 132,
+        "population_2027" : 137,
+        "land_area_2020" : 0.0
+    },
+    "Edmore, Ramsey County, ND" : {
+        "name" : "Edmore",
+        "state" : "North Dakota",
+        "FIPS" : "38-22340",
+        "counties" : [
+            "Ramsey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 139,
+        "population_2020" : 139,
+        "population_2027" : 144,
+        "land_area_2020" : 0.0
+    },
+    "Bowdon, Wells County, ND" : {
+        "name" : "Bowdon",
+        "state" : "North Dakota",
+        "FIPS" : "38-08580",
+        "counties" : [
+            "Wells County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 137,
+        "population_2020" : 137,
+        "population_2027" : 142,
+        "land_area_2020" : 0.0
+    },
+    "Lignite, Burke County, ND" : {
+        "name" : "Lignite",
+        "state" : "North Dakota",
+        "FIPS" : "38-46540",
+        "counties" : [
+            "Burke County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 141,
+        "population_2020" : 141,
+        "population_2027" : 147,
+        "land_area_2020" : 0.0
+    },
+    "Noonan, Divide County, ND" : {
+        "name" : "Noonan",
+        "state" : "North Dakota",
+        "FIPS" : "38-57220",
+        "counties" : [
+            "Divide County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 137,
+        "population_2020" : 137,
+        "population_2027" : 142,
+        "land_area_2020" : 0.0
+    },
+    "Tolna, Nelson County, ND" : {
+        "name" : "Tolna",
+        "state" : "North Dakota",
+        "FIPS" : "38-79180",
+        "counties" : [
+            "Nelson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 136,
+        "population_2020" : 136,
+        "population_2027" : 141,
+        "land_area_2020" : 0.0
+    },
+    "Columbus, Burke County, ND" : {
+        "name" : "Columbus",
+        "state" : "North Dakota",
+        "FIPS" : "38-15460",
+        "counties" : [
+            "Burke County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 139,
+        "population_2020" : 139,
+        "population_2027" : 144,
+        "land_area_2020" : 0.0
+    },
+    "Pick City, Mercer County, ND" : {
+        "name" : "Pick City",
+        "state" : "North Dakota",
+        "FIPS" : "38-62260",
+        "counties" : [
+            "Mercer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 123,
+        "population_2020" : 123,
+        "population_2027" : 128,
+        "land_area_2020" : 0.0
+    },
+    "Upham, McHenry County, ND" : {
+        "name" : "Upham",
+        "state" : "North Dakota",
+        "FIPS" : "38-80860",
+        "counties" : [
+            "McHenry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 135,
+        "population_2020" : 135,
+        "population_2027" : 140,
+        "land_area_2020" : 0.0
+    },
+    "Mercer, McLean County, ND" : {
+        "name" : "Mercer",
+        "state" : "North Dakota",
+        "FIPS" : "38-52340",
+        "counties" : [
+            "McLean County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 88,
+        "population_2020" : 88,
+        "population_2027" : 91,
+        "land_area_2020" : 0.0
+    },
+    "Gardner, Cass County, ND" : {
+        "name" : "Gardner",
+        "state" : "North Dakota",
+        "FIPS" : "38-29220",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 129,
+        "population_2020" : 129,
+        "population_2027" : 134,
+        "land_area_2020" : 0.0
+    },
+    "Marion, LaMoure County, ND" : {
+        "name" : "Marion",
+        "state" : "North Dakota",
+        "FIPS" : "38-50780",
+        "counties" : [
+            "LaMoure County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 125,
+        "population_2020" : 125,
+        "population_2027" : 130,
+        "land_area_2020" : 0.0
+    },
+    "Reeder, Adams County, ND" : {
+        "name" : "Reeder",
+        "state" : "North Dakota",
+        "FIPS" : "38-65900",
+        "counties" : [
+            "Adams County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 125,
+        "population_2020" : 125,
+        "population_2027" : 130,
+        "land_area_2020" : 0.0
+    },
+    "Adams, Walsh County, ND" : {
+        "name" : "Adams",
+        "state" : "North Dakota",
+        "FIPS" : "38-00340",
+        "counties" : [
+            "Walsh County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 127,
+        "population_2020" : 127,
+        "population_2027" : 132,
+        "land_area_2020" : 0.0
+    },
+    "Palermo, Mountrail County, ND" : {
+        "name" : "Palermo",
+        "state" : "North Dakota",
+        "FIPS" : "38-60620",
+        "counties" : [
+            "Mountrail County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 125,
+        "population_2020" : 125,
+        "population_2027" : 130,
+        "land_area_2020" : 0.0
+    },
+    "Selfridge, Sioux County, ND" : {
+        "name" : "Selfridge",
+        "state" : "North Dakota",
+        "FIPS" : "38-71660",
+        "counties" : [
+            "Sioux County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 127,
+        "population_2020" : 127,
+        "population_2027" : 132,
+        "land_area_2020" : 0.0
+    },
+    "Portal, Burke County, ND" : {
+        "name" : "Portal",
+        "state" : "North Dakota",
+        "FIPS" : "38-63740",
+        "counties" : [
+            "Burke County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 125,
+        "population_2020" : 125,
+        "population_2027" : 130,
+        "land_area_2020" : 0.0
+    },
+    "Hannaford, Griggs County, ND" : {
+        "name" : "Hannaford",
+        "state" : "North Dakota",
+        "FIPS" : "38-35020",
+        "counties" : [
+            "Griggs County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 126,
+        "population_2020" : 126,
+        "population_2027" : 131,
+        "land_area_2020" : 0.0
+    },
+    "Galesburg, Traill County, ND" : {
+        "name" : "Galesburg",
+        "state" : "North Dakota",
+        "FIPS" : "38-28980",
+        "counties" : [
+            "Traill County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 118,
+        "population_2020" : 118,
+        "population_2027" : 123,
+        "land_area_2020" : 0.0
+    },
+    "Oriska, Barnes County, ND" : {
+        "name" : "Oriska",
+        "state" : "North Dakota",
+        "FIPS" : "38-59660",
+        "counties" : [
+            "Barnes County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 114,
+        "population_2020" : 114,
+        "population_2027" : 118,
+        "land_area_2020" : 0.0
+    },
+    "Wildrose, Williams County, ND" : {
+        "name" : "Wildrose",
+        "state" : "North Dakota",
+        "FIPS" : "38-86020",
+        "counties" : [
+            "Williams County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 115,
+        "population_2020" : 115,
+        "population_2027" : 120,
+        "land_area_2020" : 0.0
+    },
+    "Crary, Ramsey County, ND" : {
+        "name" : "Crary",
+        "state" : "North Dakota",
+        "FIPS" : "38-16580",
+        "counties" : [
+            "Ramsey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 113,
+        "population_2020" : 113,
+        "population_2027" : 117,
+        "land_area_2020" : 0.0
+    },
+    "Crystal, Pembina County, ND" : {
+        "name" : "Crystal",
+        "state" : "North Dakota",
+        "FIPS" : "38-17060",
+        "counties" : [
+            "Pembina County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 116,
+        "population_2020" : 116,
+        "population_2027" : 121,
+        "land_area_2020" : 0.0
+    },
+    "Forest River, Walsh County, ND" : {
+        "name" : "Forest River",
+        "state" : "North Dakota",
+        "FIPS" : "38-27100",
+        "counties" : [
+            "Walsh County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 109,
+        "population_2020" : 109,
+        "population_2027" : 113,
+        "land_area_2020" : 0.0
+    },
+    "Goodrich, Sheridan County, ND" : {
+        "name" : "Goodrich",
+        "state" : "North Dakota",
+        "FIPS" : "38-31500",
+        "counties" : [
+            "Sheridan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 106,
+        "population_2020" : 106,
+        "population_2027" : 110,
+        "land_area_2020" : 0.0
+    },
+    "Ryder, Ward County, ND" : {
+        "name" : "Ryder",
+        "state" : "North Dakota",
+        "FIPS" : "38-69460",
+        "counties" : [
+            "Ward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 108,
+        "population_2020" : 108,
+        "population_2027" : 112,
+        "land_area_2020" : 0.0
+    },
+    "Lankin, Walsh County, ND" : {
+        "name" : "Lankin",
+        "state" : "North Dakota",
+        "FIPS" : "38-44860",
+        "counties" : [
+            "Walsh County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 102,
+        "population_2020" : 102,
+        "population_2027" : 106,
+        "land_area_2020" : 0.0
+    },
+    "Bisbee, Towner County, ND" : {
+        "name" : "Bisbee",
+        "state" : "North Dakota",
+        "FIPS" : "38-07180",
+        "counties" : [
+            "Towner County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 110,
+        "population_2020" : 110,
+        "population_2027" : 114,
+        "land_area_2020" : 0.0
+    },
+    "Fort Ransom, Ransom County, ND" : {
+        "name" : "Fort Ransom",
+        "state" : "North Dakota",
+        "FIPS" : "38-27580",
+        "counties" : [
+            "Ransom County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 91,
+        "population_2020" : 91,
+        "population_2027" : 95,
+        "land_area_2020" : 0.0
+    },
+    "Sykeston, Wells County, ND" : {
+        "name" : "Sykeston",
+        "state" : "North Dakota",
+        "FIPS" : "38-77660",
+        "counties" : [
+            "Wells County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 105,
+        "population_2020" : 105,
+        "population_2027" : 109,
+        "land_area_2020" : 0.0
+    },
+    "Almont, Morton County, ND" : {
+        "name" : "Almont",
+        "state" : "North Dakota",
+        "FIPS" : "38-01700",
+        "counties" : [
+            "Morton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 100,
+        "population_2020" : 100,
+        "population_2027" : 104,
+        "land_area_2020" : 0.0
+    },
+    "Starkweather, Ramsey County, ND" : {
+        "name" : "Starkweather",
+        "state" : "North Dakota",
+        "FIPS" : "38-75580",
+        "counties" : [
+            "Ramsey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 100,
+        "population_2020" : 100,
+        "population_2027" : 104,
+        "land_area_2020" : 0.0
+    },
+    "Glenfield, Foster County, ND" : {
+        "name" : "Glenfield",
+        "state" : "North Dakota",
+        "FIPS" : "38-30660",
+        "counties" : [
+            "Foster County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 94,
+        "population_2020" : 94,
+        "population_2027" : 98,
+        "land_area_2020" : 0.0
+    },
+    "Osnabrock, Cavalier County, ND" : {
+        "name" : "Osnabrock",
+        "state" : "North Dakota",
+        "FIPS" : "38-60100",
+        "counties" : [
+            "Cavalier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 105,
+        "population_2020" : 105,
+        "population_2027" : 109,
+        "land_area_2020" : 0.0
+    },
+    "Marmarth, Slope County, ND" : {
+        "name" : "Marmarth",
+        "state" : "North Dakota",
+        "FIPS" : "38-50860",
+        "counties" : [
+            "Slope County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 101,
+        "population_2020" : 101,
+        "population_2027" : 105,
+        "land_area_2020" : 0.0
+    },
+    "Newburg, Bottineau County, ND" : {
+        "name" : "Newburg",
+        "state" : "North Dakota",
+        "FIPS" : "38-56020",
+        "counties" : [
+            "Bottineau County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 96,
+        "population_2020" : 96,
+        "population_2027" : 100,
+        "land_area_2020" : 0.0
+    },
+    "Spiritwood Lake, Stutsman County, ND" : {
+        "name" : "Spiritwood Lake",
+        "state" : "North Dakota",
+        "FIPS" : "38-74740",
+        "counties" : [
+            "Stutsman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 97,
+        "population_2020" : 97,
+        "population_2027" : 101,
+        "land_area_2020" : 0.0
+    },
+    "White Earth, Mountrail County, ND" : {
+        "name" : "White Earth",
+        "state" : "North Dakota",
+        "FIPS" : "38-85540",
+        "counties" : [
+            "Mountrail County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 100,
+        "population_2020" : 100,
+        "population_2027" : 104,
+        "land_area_2020" : 0.0
+    },
+    "Oberon, Benson County, ND" : {
+        "name" : "Oberon",
+        "state" : "North Dakota",
+        "FIPS" : "38-59020",
+        "counties" : [
+            "Benson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 101,
+        "population_2020" : 101,
+        "population_2027" : 105,
+        "land_area_2020" : 0.0
+    },
+    "Deering, McHenry County, ND" : {
+        "name" : "Deering",
+        "state" : "North Dakota",
+        "FIPS" : "38-18620",
+        "counties" : [
+            "McHenry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 94,
+        "population_2020" : 94,
+        "population_2027" : 98,
+        "land_area_2020" : 0.0
+    },
+    "Sheldon, Ransom County, ND" : {
+        "name" : "Sheldon",
+        "state" : "North Dakota",
+        "FIPS" : "38-72180",
+        "counties" : [
+            "Ransom County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 95,
+        "population_2020" : 95,
+        "population_2027" : 99,
+        "land_area_2020" : 0.0
+    },
+    "Douglas, Ward County, ND" : {
+        "name" : "Douglas",
+        "state" : "North Dakota",
+        "FIPS" : "38-20020",
+        "counties" : [
+            "Ward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 93,
+        "population_2020" : 93,
+        "population_2027" : 97,
+        "land_area_2020" : 0.0
+    },
+    "Fingal, Barnes County, ND" : {
+        "name" : "Fingal",
+        "state" : "North Dakota",
+        "FIPS" : "38-26380",
+        "counties" : [
+            "Barnes County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 92,
+        "population_2020" : 92,
+        "population_2027" : 96,
+        "land_area_2020" : 0.0
+    },
+    "Golva, Golden Valley County, ND" : {
+        "name" : "Golva",
+        "state" : "North Dakota",
+        "FIPS" : "38-31420",
+        "counties" : [
+            "Golden Valley County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 84,
+        "population_2020" : 84,
+        "population_2027" : 87,
+        "land_area_2020" : 0.0
+    },
+    "Rocklake, Towner County, ND" : {
+        "name" : "Rocklake",
+        "state" : "North Dakota",
+        "FIPS" : "38-67500",
+        "counties" : [
+            "Towner County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 94,
+        "population_2020" : 94,
+        "population_2027" : 98,
+        "land_area_2020" : 0.0
+    },
+    "Esmond, Benson County, ND" : {
+        "name" : "Esmond",
+        "state" : "North Dakota",
+        "FIPS" : "38-24780",
+        "counties" : [
+            "Benson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 91,
+        "population_2020" : 91,
+        "population_2027" : 95,
+        "land_area_2020" : 0.0
+    },
+    "Ross, Mountrail County, ND" : {
+        "name" : "Ross",
+        "state" : "North Dakota",
+        "FIPS" : "38-68540",
+        "counties" : [
+            "Mountrail County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 95,
+        "population_2020" : 95,
+        "population_2027" : 99,
+        "land_area_2020" : 0.0
+    },
+    "Amenia, Cass County, ND" : {
+        "name" : "Amenia",
+        "state" : "North Dakota",
+        "FIPS" : "38-01940",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 85,
+        "population_2020" : 85,
+        "population_2027" : 88,
+        "land_area_2020" : 0.0
+    },
+    "Epping, Williams County, ND" : {
+        "name" : "Epping",
+        "state" : "North Dakota",
+        "FIPS" : "38-24540",
+        "counties" : [
+            "Williams County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 84,
+        "population_2020" : 84,
+        "population_2027" : 87,
+        "land_area_2020" : 0.0
+    },
+    "Maxbass, Bottineau County, ND" : {
+        "name" : "Maxbass",
+        "state" : "North Dakota",
+        "FIPS" : "38-51420",
+        "counties" : [
+            "Bottineau County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 89,
+        "population_2020" : 89,
+        "population_2027" : 92,
+        "land_area_2020" : 0.0
+    },
+    "Sharon, Steele County, ND" : {
+        "name" : "Sharon",
+        "state" : "North Dakota",
+        "FIPS" : "38-71940",
+        "counties" : [
+            "Steele County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 86,
+        "population_2020" : 86,
+        "population_2027" : 89,
+        "land_area_2020" : 0.0
+    },
+    "Pisek, Walsh County, ND" : {
+        "name" : "Pisek",
+        "state" : "North Dakota",
+        "FIPS" : "38-62780",
+        "counties" : [
+            "Walsh County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 89,
+        "population_2020" : 89,
+        "population_2027" : 92,
+        "land_area_2020" : 0.0
+    },
+    "Buchanan, Stutsman County, ND" : {
+        "name" : "Buchanan",
+        "state" : "North Dakota",
+        "FIPS" : "38-10060",
+        "counties" : [
+            "Stutsman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 87,
+        "population_2020" : 87,
+        "population_2027" : 90,
+        "land_area_2020" : 0.0
+    },
+    "Karlsruhe, McHenry County, ND" : {
+        "name" : "Karlsruhe",
+        "state" : "North Dakota",
+        "FIPS" : "38-41380",
+        "counties" : [
+            "McHenry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 87,
+        "population_2020" : 87,
+        "population_2027" : 90,
+        "land_area_2020" : 0.0
+    },
+    "Montpelier, Stutsman County, ND" : {
+        "name" : "Montpelier",
+        "state" : "North Dakota",
+        "FIPS" : "38-53980",
+        "counties" : [
+            "Stutsman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 85,
+        "population_2020" : 85,
+        "population_2027" : 88,
+        "land_area_2020" : 0.0
+    },
+    "Dodge, Dunn County, ND" : {
+        "name" : "Dodge",
+        "state" : "North Dakota",
+        "FIPS" : "38-19820",
+        "counties" : [
+            "Dunn County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 89,
+        "population_2020" : 89,
+        "population_2027" : 92,
+        "land_area_2020" : 0.0
+    },
+    "Mountain, Pembina County, ND" : {
+        "name" : "Mountain",
+        "state" : "North Dakota",
+        "FIPS" : "38-54740",
+        "counties" : [
+            "Pembina County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 80,
+        "population_2020" : 80,
+        "population_2027" : 83,
+        "land_area_2020" : 0.0
+    },
+    "Zeeland, McIntosh County, ND" : {
+        "name" : "Zeeland",
+        "state" : "North Dakota",
+        "FIPS" : "38-88180",
+        "counties" : [
+            "McIntosh County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 82,
+        "population_2020" : 82,
+        "population_2027" : 85,
+        "land_area_2020" : 0.0
+    },
+    "Dwight, Richland County, ND" : {
+        "name" : "Dwight",
+        "state" : "North Dakota",
+        "FIPS" : "38-21220",
+        "counties" : [
+            "Richland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 80,
+        "population_2020" : 80,
+        "population_2027" : 83,
+        "land_area_2020" : 0.0
+    },
+    "Lehr, Logan County, ND" : {
+        "name" : "Lehr",
+        "state" : "North Dakota",
+        "FIPS" : "38-45740",
+        "counties" : [
+            "Logan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 81,
+        "population_2020" : 81,
+        "population_2027" : 84,
+        "land_area_2020" : 0.0
+    },
+    "Dawson, Kidder County, ND" : {
+        "name" : "Dawson",
+        "state" : "North Dakota",
+        "FIPS" : "38-18260",
+        "counties" : [
+            "Kidder County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 74,
+        "population_2020" : 74,
+        "population_2027" : 77,
+        "land_area_2020" : 0.0
+    },
+    "Pekin, Nelson County, ND" : {
+        "name" : "Pekin",
+        "state" : "North Dakota",
+        "FIPS" : "38-61460",
+        "counties" : [
+            "Nelson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 75,
+        "population_2020" : 75,
+        "population_2027" : 78,
+        "land_area_2020" : 0.0
+    },
+    "Dazey, Barnes County, ND" : {
+        "name" : "Dazey",
+        "state" : "North Dakota",
+        "FIPS" : "38-18340",
+        "counties" : [
+            "Barnes County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 78,
+        "population_2020" : 78,
+        "population_2027" : 81,
+        "land_area_2020" : 0.0
+    },
+    "Donnybrook, Ward County, ND" : {
+        "name" : "Donnybrook",
+        "state" : "North Dakota",
+        "FIPS" : "38-19900",
+        "counties" : [
+            "Ward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 75,
+        "population_2020" : 75,
+        "population_2027" : 78,
+        "land_area_2020" : 0.0
+    },
+    "Butte, McLean County, ND" : {
+        "name" : "Butte",
+        "state" : "North Dakota",
+        "FIPS" : "38-11180",
+        "counties" : [
+            "McLean County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 70,
+        "population_2020" : 70,
+        "population_2027" : 73,
+        "land_area_2020" : 0.0
+    },
+    "Cleveland, Stutsman County, ND" : {
+        "name" : "Cleveland",
+        "state" : "North Dakota",
+        "FIPS" : "38-14660",
+        "counties" : [
+            "Stutsman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 57,
+        "population_2020" : 57,
+        "population_2027" : 59,
+        "land_area_2020" : 0.0
+    },
+    "Sentinel Butte, Golden Valley County, ND" : {
+        "name" : "Sentinel Butte",
+        "state" : "North Dakota",
+        "FIPS" : "38-71780",
+        "counties" : [
+            "Golden Valley County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 61,
+        "population_2020" : 61,
+        "population_2027" : 63,
+        "land_area_2020" : 0.0
+    },
+    "Cogswell, Sargent County, ND" : {
+        "name" : "Cogswell",
+        "state" : "North Dakota",
+        "FIPS" : "38-15100",
+        "counties" : [
+            "Sargent County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 73,
+        "population_2020" : 73,
+        "population_2027" : 76,
+        "land_area_2020" : 0.0
+    },
+    "Mantador, Richland County, ND" : {
+        "name" : "Mantador",
+        "state" : "North Dakota",
+        "FIPS" : "38-50380",
+        "counties" : [
+            "Richland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 67,
+        "population_2020" : 67,
+        "population_2027" : 70,
+        "land_area_2020" : 0.0
+    },
+    "Solen, Sioux County, ND" : {
+        "name" : "Solen",
+        "state" : "North Dakota",
+        "FIPS" : "38-73820",
+        "counties" : [
+            "Sioux County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 70,
+        "population_2020" : 70,
+        "population_2027" : 73,
+        "land_area_2020" : 0.0
+    },
+    "Benedict, McLean County, ND" : {
+        "name" : "Benedict",
+        "state" : "North Dakota",
+        "FIPS" : "38-05980",
+        "counties" : [
+            "McLean County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 68,
+        "population_2020" : 68,
+        "population_2027" : 71,
+        "land_area_2020" : 0.0
+    },
+    "Hague, Emmons County, ND" : {
+        "name" : "Hague",
+        "state" : "North Dakota",
+        "FIPS" : "38-34180",
+        "counties" : [
+            "Emmons County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 70,
+        "population_2020" : 70,
+        "population_2027" : 73,
+        "land_area_2020" : 0.0
+    },
+    "Kathryn, Barnes County, ND" : {
+        "name" : "Kathryn",
+        "state" : "North Dakota",
+        "FIPS" : "38-41500",
+        "counties" : [
+            "Barnes County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 66,
+        "population_2020" : 66,
+        "population_2027" : 69,
+        "land_area_2020" : 0.0
+    },
+    "Jud, LaMoure County, ND" : {
+        "name" : "Jud",
+        "state" : "North Dakota",
+        "FIPS" : "38-41180",
+        "counties" : [
+            "LaMoure County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 65,
+        "population_2020" : 65,
+        "population_2027" : 68,
+        "land_area_2020" : 0.0
+    },
+    "Balta, Pierce County, ND" : {
+        "name" : "Balta",
+        "state" : "North Dakota",
+        "FIPS" : "38-04580",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 66,
+        "population_2020" : 66,
+        "population_2027" : 69,
+        "land_area_2020" : 0.0
+    },
+    "Havana, Sargent County, ND" : {
+        "name" : "Havana",
+        "state" : "North Dakota",
+        "FIPS" : "38-36140",
+        "counties" : [
+            "Sargent County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 67,
+        "population_2020" : 67,
+        "population_2027" : 70,
+        "land_area_2020" : 0.0
+    },
+    "McHenry, Foster County, ND" : {
+        "name" : "McHenry",
+        "state" : "North Dakota",
+        "FIPS" : "38-49260",
+        "counties" : [
+            "Foster County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 64,
+        "population_2020" : 64,
+        "population_2027" : 67,
+        "land_area_2020" : 0.0
+    },
+    "Coleharbor, McLean County, ND" : {
+        "name" : "Coleharbor",
+        "state" : "North Dakota",
+        "FIPS" : "38-15140",
+        "counties" : [
+            "McLean County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 59,
+        "population_2020" : 59,
+        "population_2027" : 61,
+        "land_area_2020" : 0.0
+    },
+    "Verona, LaMoure County, ND" : {
+        "name" : "Verona",
+        "state" : "North Dakota",
+        "FIPS" : "38-81900",
+        "counties" : [
+            "LaMoure County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 59,
+        "population_2020" : 59,
+        "population_2027" : 61,
+        "land_area_2020" : 0.0
+    },
+    "Martin, Sheridan County, ND" : {
+        "name" : "Martin",
+        "state" : "North Dakota",
+        "FIPS" : "38-51060",
+        "counties" : [
+            "Sheridan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 63,
+        "population_2020" : 63,
+        "population_2027" : 65,
+        "land_area_2020" : 0.0
+    },
+    "Flaxton, Burke County, ND" : {
+        "name" : "Flaxton",
+        "state" : "North Dakota",
+        "FIPS" : "38-26700",
+        "counties" : [
+            "Burke County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 60,
+        "population_2020" : 60,
+        "population_2027" : 62,
+        "land_area_2020" : 0.0
+    },
+    "Hurdsfield, Wells County, ND" : {
+        "name" : "Hurdsfield",
+        "state" : "North Dakota",
+        "FIPS" : "38-39580",
+        "counties" : [
+            "Wells County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 64,
+        "population_2020" : 64,
+        "population_2027" : 67,
+        "land_area_2020" : 0.0
+    },
+    "Tuttle, Kidder County, ND" : {
+        "name" : "Tuttle",
+        "state" : "North Dakota",
+        "FIPS" : "38-80140",
+        "counties" : [
+            "Kidder County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 60,
+        "population_2020" : 60,
+        "population_2027" : 62,
+        "land_area_2020" : 0.0
+    },
+    "Fullerton, Dickey County, ND" : {
+        "name" : "Fullerton",
+        "state" : "North Dakota",
+        "FIPS" : "38-28780",
+        "counties" : [
+            "Dickey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 62,
+        "population_2020" : 62,
+        "population_2027" : 64,
+        "land_area_2020" : 0.0
+    },
+    "Pettibone, Kidder County, ND" : {
+        "name" : "Pettibone",
+        "state" : "North Dakota",
+        "FIPS" : "38-62060",
+        "counties" : [
+            "Kidder County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 60,
+        "population_2020" : 60,
+        "population_2027" : 62,
+        "land_area_2020" : 0.0
+    },
+    "Rogers, Barnes County, ND" : {
+        "name" : "Rogers",
+        "state" : "North Dakota",
+        "FIPS" : "38-67620",
+        "counties" : [
+            "Barnes County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 49,
+        "population_2020" : 49,
+        "population_2027" : 51,
+        "land_area_2020" : 0.0
+    },
+    "Alamo, Williams County, ND" : {
+        "name" : "Alamo",
+        "state" : "North Dakota",
+        "FIPS" : "38-00940",
+        "counties" : [
+            "Williams County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 53,
+        "population_2020" : 53,
+        "population_2027" : 55,
+        "land_area_2020" : 0.0
+    },
+    "North River, Cass County, ND" : {
+        "name" : "North River",
+        "state" : "North Dakota",
+        "FIPS" : "38-58120",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 55,
+        "population_2020" : 55,
+        "population_2027" : 57,
+        "land_area_2020" : 0.0
+    },
+    "Great Bend, Richland County, ND" : {
+        "name" : "Great Bend",
+        "state" : "North Dakota",
+        "FIPS" : "38-32900",
+        "counties" : [
+            "Richland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 49,
+        "population_2020" : 49,
+        "population_2027" : 51,
+        "land_area_2020" : 0.0
+    },
+    "Briarwood, Cass County, ND" : {
+        "name" : "Briarwood",
+        "state" : "North Dakota",
+        "FIPS" : "38-09320",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 57,
+        "population_2020" : 57,
+        "population_2027" : 59,
+        "land_area_2020" : 0.0
+    },
+    "Grace City, Foster County, ND" : {
+        "name" : "Grace City",
+        "state" : "North Dakota",
+        "FIPS" : "38-31740",
+        "counties" : [
+            "Foster County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 53,
+        "population_2020" : 53,
+        "population_2027" : 55,
+        "land_area_2020" : 0.0
+    },
+    "Prairie Rose, Cass County, ND" : {
+        "name" : "Prairie Rose",
+        "state" : "North Dakota",
+        "FIPS" : "38-64320",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 56,
+        "population_2020" : 56,
+        "population_2027" : 58,
+        "land_area_2020" : 0.0
+    },
+    "Nome, Barnes County, ND" : {
+        "name" : "Nome",
+        "state" : "North Dakota",
+        "FIPS" : "38-57180",
+        "counties" : [
+            "Barnes County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 51,
+        "population_2020" : 51,
+        "population_2027" : 53,
+        "land_area_2020" : 0.0
+    },
+    "Warwick, Benson County, ND" : {
+        "name" : "Warwick",
+        "state" : "North Dakota",
+        "FIPS" : "38-83580",
+        "counties" : [
+            "Benson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 55,
+        "population_2020" : 55,
+        "population_2027" : 57,
+        "land_area_2020" : 0.0
+    },
+    "Bathgate, Pembina County, ND" : {
+        "name" : "Bathgate",
+        "state" : "North Dakota",
+        "FIPS" : "38-05260",
+        "counties" : [
+            "Pembina County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 47,
+        "population_2020" : 47,
+        "population_2027" : 49,
+        "land_area_2020" : 0.0
+    },
+    "Dickey, LaMoure County, ND" : {
+        "name" : "Dickey",
+        "state" : "North Dakota",
+        "FIPS" : "38-19580",
+        "counties" : [
+            "LaMoure County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 42,
+        "population_2020" : 42,
+        "population_2027" : 44,
+        "land_area_2020" : 0.0
+    },
+    "Barney, Richland County, ND" : {
+        "name" : "Barney",
+        "state" : "North Dakota",
+        "FIPS" : "38-04940",
+        "counties" : [
+            "Richland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 40,
+        "population_2020" : 40,
+        "population_2027" : 42,
+        "land_area_2020" : 0.0
+    },
+    "Woodworth, Stutsman County, ND" : {
+        "name" : "Woodworth",
+        "state" : "North Dakota",
+        "FIPS" : "38-87580",
+        "counties" : [
+            "Stutsman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 44,
+        "population_2020" : 44,
+        "population_2027" : 46,
+        "land_area_2020" : 0.0
+    },
+    "Alice, Cass County, ND" : {
+        "name" : "Alice",
+        "state" : "North Dakota",
+        "FIPS" : "38-01420",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 41,
+        "population_2020" : 41,
+        "population_2027" : 43,
+        "land_area_2020" : 0.0
+    },
+    "Pingree, Stutsman County, ND" : {
+        "name" : "Pingree",
+        "state" : "North Dakota",
+        "FIPS" : "38-62620",
+        "counties" : [
+            "Stutsman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 41,
+        "population_2020" : 41,
+        "population_2027" : 43,
+        "land_area_2020" : 0.0
+    },
+    "Tolley, Renville County, ND" : {
+        "name" : "Tolley",
+        "state" : "North Dakota",
+        "FIPS" : "38-79140",
+        "counties" : [
+            "Renville County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 41,
+        "population_2020" : 41,
+        "population_2027" : 43,
+        "land_area_2020" : 0.0
+    },
+    "Voltaire, McHenry County, ND" : {
+        "name" : "Voltaire",
+        "state" : "North Dakota",
+        "FIPS" : "38-82380",
+        "counties" : [
+            "McHenry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 46,
+        "population_2020" : 46,
+        "population_2027" : 48,
+        "land_area_2020" : 0.0
+    },
+    "Hamilton, Pembina County, ND" : {
+        "name" : "Hamilton",
+        "state" : "North Dakota",
+        "FIPS" : "38-34620",
+        "counties" : [
+            "Pembina County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 46,
+        "population_2020" : 46,
+        "population_2027" : 48,
+        "land_area_2020" : 0.0
+    },
+    "Niagara, Grand Forks County, ND" : {
+        "name" : "Niagara",
+        "state" : "North Dakota",
+        "FIPS" : "38-56780",
+        "counties" : [
+            "Grand Forks County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 46,
+        "population_2020" : 46,
+        "population_2027" : 48,
+        "land_area_2020" : 0.0
+    },
+    "Wolford, Pierce County, ND" : {
+        "name" : "Wolford",
+        "state" : "North Dakota",
+        "FIPS" : "38-87180",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 43,
+        "population_2020" : 43,
+        "population_2027" : 45,
+        "land_area_2020" : 0.0
+    },
+    "Milton, Cavalier County, ND" : {
+        "name" : "Milton",
+        "state" : "North Dakota",
+        "FIPS" : "38-53020",
+        "counties" : [
+            "Cavalier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 39,
+        "population_2020" : 39,
+        "population_2027" : 41,
+        "land_area_2020" : 0.0
+    },
+    "Cayuga, Sargent County, ND" : {
+        "name" : "Cayuga",
+        "state" : "North Dakota",
+        "FIPS" : "38-13020",
+        "counties" : [
+            "Sargent County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 40,
+        "population_2020" : 40,
+        "population_2027" : 42,
+        "land_area_2020" : 0.0
+    },
+    "Souris, Bottineau County, ND" : {
+        "name" : "Souris",
+        "state" : "North Dakota",
+        "FIPS" : "38-74020",
+        "counties" : [
+            "Bottineau County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 37,
+        "population_2020" : 37,
+        "population_2027" : 38,
+        "land_area_2020" : 0.0
+    },
+    "Courtenay, Stutsman County, ND" : {
+        "name" : "Courtenay",
+        "state" : "North Dakota",
+        "FIPS" : "38-16380",
+        "counties" : [
+            "Stutsman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 36,
+        "population_2020" : 36,
+        "population_2027" : 37,
+        "land_area_2020" : 0.0
+    },
+    "Forbes, Dickey County, ND" : {
+        "name" : "Forbes",
+        "state" : "North Dakota",
+        "FIPS" : "38-26980",
+        "counties" : [
+            "Dickey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 36,
+        "population_2020" : 36,
+        "population_2027" : 37,
+        "land_area_2020" : 0.0
+    },
+    "Landa, Bottineau County, ND" : {
+        "name" : "Landa",
+        "state" : "North Dakota",
+        "FIPS" : "38-44700",
+        "counties" : [
+            "Bottineau County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 41,
+        "population_2020" : 41,
+        "population_2027" : 43,
+        "land_area_2020" : 0.0
+    },
+    "Inkster, Grand Forks County, ND" : {
+        "name" : "Inkster",
+        "state" : "North Dakota",
+        "FIPS" : "38-39980",
+        "counties" : [
+            "Grand Forks County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 38,
+        "population_2020" : 38,
+        "population_2027" : 39,
+        "land_area_2020" : 0.0
+    },
+    "Fredonia, Logan County, ND" : {
+        "name" : "Fredonia",
+        "state" : "North Dakota",
+        "FIPS" : "38-28380",
+        "counties" : [
+            "Logan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 38,
+        "population_2020" : 38,
+        "population_2027" : 39,
+        "land_area_2020" : 0.0
+    },
+    "Springbrook, Williams County, ND" : {
+        "name" : "Springbrook",
+        "state" : "North Dakota",
+        "FIPS" : "38-74780",
+        "counties" : [
+            "Williams County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 37,
+        "population_2020" : 37,
+        "population_2027" : 38,
+        "land_area_2020" : 0.0
+    },
+    "Regan, Burleigh County, ND" : {
+        "name" : "Regan",
+        "state" : "North Dakota",
+        "FIPS" : "38-65980",
+        "counties" : [
+            "Burleigh County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 35,
+        "population_2020" : 35,
+        "population_2027" : 36,
+        "land_area_2020" : 0.0
+    },
+    "Robinson, Kidder County, ND" : {
+        "name" : "Robinson",
+        "state" : "North Dakota",
+        "FIPS" : "38-67180",
+        "counties" : [
+            "Kidder County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 36,
+        "population_2020" : 36,
+        "population_2027" : 37,
+        "land_area_2020" : 0.0
+    },
+    "Ardoch, Walsh County, ND" : {
+        "name" : "Ardoch",
+        "state" : "North Dakota",
+        "FIPS" : "38-02860",
+        "counties" : [
+            "Walsh County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 31,
+        "population_2020" : 31,
+        "population_2027" : 32,
+        "land_area_2020" : 0.0
+    },
+    "Berlin, LaMoure County, ND" : {
+        "name" : "Berlin",
+        "state" : "North Dakota",
+        "FIPS" : "38-06300",
+        "counties" : [
+            "LaMoure County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 31,
+        "population_2020" : 31,
+        "population_2027" : 32,
+        "land_area_2020" : 0.0
+    },
+    "Brocket, Ramsey County, ND" : {
+        "name" : "Brocket",
+        "state" : "North Dakota",
+        "FIPS" : "38-09700",
+        "counties" : [
+            "Ramsey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 34,
+        "population_2020" : 34,
+        "population_2027" : 35,
+        "land_area_2020" : 0.0
+    },
+    "Canton City, Pembina County, ND" : {
+        "name" : "Canton City",
+        "state" : "North Dakota",
+        "FIPS" : "None",
+        "counties" : [
+            "Pembina County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 31,
+        "population_2020" : 31,
+        "population_2027" : 32,
+        "land_area_2020" : 0.0
+    },
+    "Egeland, Towner County, ND" : {
+        "name" : "Egeland",
+        "state" : "North Dakota",
+        "FIPS" : "38-22540",
+        "counties" : [
+            "Towner County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 32,
+        "population_2020" : 32,
+        "population_2027" : 33,
+        "land_area_2020" : 0.0
+    },
+    "Clifford, Traill County, ND" : {
+        "name" : "Clifford",
+        "state" : "North Dakota",
+        "FIPS" : "38-14740",
+        "counties" : [
+            "Traill County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 30,
+        "population_2020" : 30,
+        "population_2027" : 31,
+        "land_area_2020" : 0.0
+    },
+    "Alsen, Cavalier County, ND" : {
+        "name" : "Alsen",
+        "state" : "North Dakota",
+        "FIPS" : "38-01740",
+        "counties" : [
+            "Cavalier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 32,
+        "population_2020" : 32,
+        "population_2027" : 33,
+        "land_area_2020" : 0.0
+    },
+    "Fortuna, Divide County, ND" : {
+        "name" : "Fortuna",
+        "state" : "North Dakota",
+        "FIPS" : "38-27820",
+        "counties" : [
+            "Divide County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 30,
+        "population_2020" : 30,
+        "population_2027" : 31,
+        "land_area_2020" : 0.0
+    },
+    "Hampden, Ramsey County, ND" : {
+        "name" : "Hampden",
+        "state" : "North Dakota",
+        "FIPS" : "38-34860",
+        "counties" : [
+            "Ramsey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 29,
+        "population_2020" : 29,
+        "population_2027" : 30,
+        "land_area_2020" : 0.0
+    },
+    "Monango, Dickey County, ND" : {
+        "name" : "Monango",
+        "state" : "North Dakota",
+        "FIPS" : "38-53820",
+        "counties" : [
+            "Dickey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 30,
+        "population_2020" : 30,
+        "population_2027" : 31,
+        "land_area_2020" : 0.0
+    },
+    "Nekoma, Cavalier County, ND" : {
+        "name" : "Nekoma",
+        "state" : "North Dakota",
+        "FIPS" : "38-55740",
+        "counties" : [
+            "Cavalier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 31,
+        "population_2020" : 31,
+        "population_2027" : 32,
+        "land_area_2020" : 0.0
+    },
+    "Brinsmade, Benson County, ND" : {
+        "name" : "Brinsmade",
+        "state" : "North Dakota",
+        "FIPS" : "38-09460",
+        "counties" : [
+            "Benson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 30,
+        "population_2020" : 30,
+        "population_2027" : 31,
+        "land_area_2020" : 0.0
+    },
+    "Fairdale, Walsh County, ND" : {
+        "name" : "Fairdale",
+        "state" : "North Dakota",
+        "FIPS" : "38-25180",
+        "counties" : [
+            "Walsh County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 30,
+        "population_2020" : 30,
+        "population_2027" : 31,
+        "land_area_2020" : 0.0
+    },
+    "Luverne, Steele County, ND" : {
+        "name" : "Luverne",
+        "state" : "North Dakota",
+        "FIPS" : "38-48580",
+        "counties" : [
+            "Steele County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 28,
+        "population_2020" : 28,
+        "population_2027" : 29,
+        "land_area_2020" : 0.0
+    },
+    "Leal, Barnes County, ND" : {
+        "name" : "Leal",
+        "state" : "North Dakota",
+        "FIPS" : "38-45460",
+        "counties" : [
+            "Barnes County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 27,
+        "population_2020" : 27,
+        "population_2027" : 28,
+        "land_area_2020" : 0.0
+    },
+    "Leith, Grant County, ND" : {
+        "name" : "Leith",
+        "state" : "North Dakota",
+        "FIPS" : "38-45860",
+        "counties" : [
+            "Grant County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 28,
+        "population_2020" : 28,
+        "population_2027" : 29,
+        "land_area_2020" : 0.0
+    },
+    "Kramer, Bottineau County, ND" : {
+        "name" : "Kramer",
+        "state" : "North Dakota",
+        "FIPS" : "38-43500",
+        "counties" : [
+            "Bottineau County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 24,
+        "population_2020" : 24,
+        "population_2027" : 25,
+        "land_area_2020" : 0.0
+    },
+    "Gardena, Bottineau County, ND" : {
+        "name" : "Gardena",
+        "state" : "North Dakota",
+        "FIPS" : "38-29180",
+        "counties" : [
+            "Bottineau County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 24,
+        "population_2020" : 24,
+        "population_2027" : 25,
+        "land_area_2020" : 0.0
+    },
+    "Amidon, Slope County, ND" : {
+        "name" : "Amidon",
+        "state" : "North Dakota",
+        "FIPS" : "38-02060",
+        "counties" : [
+            "Slope County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 24,
+        "population_2020" : 24,
+        "population_2027" : 25,
+        "land_area_2020" : 0.0
+    },
+    "Antler, Bottineau County, ND" : {
+        "name" : "Antler",
+        "state" : "North Dakota",
+        "FIPS" : "38-02660",
+        "counties" : [
+            "Bottineau County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 22,
+        "population_2020" : 22,
+        "population_2027" : 23,
+        "land_area_2020" : 0.0
+    },
+    "Elliott, Ransom County, ND" : {
+        "name" : "Elliott",
+        "state" : "North Dakota",
+        "FIPS" : "38-23340",
+        "counties" : [
+            "Ransom County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 24,
+        "population_2020" : 24,
+        "population_2027" : 25,
+        "land_area_2020" : 0.0
+    },
+    "Knox, Benson County, ND" : {
+        "name" : "Knox",
+        "state" : "North Dakota",
+        "FIPS" : "38-43260",
+        "counties" : [
+            "Benson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 22,
+        "population_2020" : 22,
+        "population_2027" : 23,
+        "land_area_2020" : 0.0
+    },
+    "Sarles, Cavalier County, ND" : {
+        "name" : "Sarles",
+        "state" : "North Dakota",
+        "FIPS" : "38-70780",
+        "counties" : [
+            "Cavalier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16,
+        "population_2020" : 16,
+        "population_2027" : 17,
+        "land_area_2020" : 0.0
+    },
+    "Gascoyne, Bowman County, ND" : {
+        "name" : "Gascoyne",
+        "state" : "North Dakota",
+        "FIPS" : "38-29540",
+        "counties" : [
+            "Bowman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 21,
+        "population_2020" : 21,
+        "population_2027" : 22,
+        "land_area_2020" : 0.0
+    },
+    "Mylo, Rolette County, ND" : {
+        "name" : "Mylo",
+        "state" : "North Dakota",
+        "FIPS" : "38-55220",
+        "counties" : [
+            "Rolette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 21,
+        "population_2020" : 21,
+        "population_2027" : 22,
+        "land_area_2020" : 0.0
+    },
+    "Sibley, Barnes County, ND" : {
+        "name" : "Sibley",
+        "state" : "North Dakota",
+        "FIPS" : "38-72820",
+        "counties" : [
+            "Barnes County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 19,
+        "population_2020" : 19,
+        "population_2027" : 20,
+        "land_area_2020" : 0.0
+    },
+    "Venturia, McIntosh County, ND" : {
+        "name" : "Venturia",
+        "state" : "North Dakota",
+        "FIPS" : "38-81700",
+        "counties" : [
+            "McIntosh County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 21,
+        "population_2020" : 21,
+        "population_2027" : 22,
+        "land_area_2020" : 0.0
+    },
+    "Cathay, Wells County, ND" : {
+        "name" : "Cathay",
+        "state" : "North Dakota",
+        "FIPS" : "38-12820",
+        "counties" : [
+            "Wells County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 20,
+        "population_2020" : 20,
+        "population_2027" : 21,
+        "land_area_2020" : 0.0
+    },
+    "Ludden, Dickey County, ND" : {
+        "name" : "Ludden",
+        "state" : "North Dakota",
+        "FIPS" : "38-48460",
+        "counties" : [
+            "Dickey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15,
+        "population_2020" : 15,
+        "population_2027" : 16,
+        "land_area_2020" : 0.0
+    },
+    "Braddock, Emmons County, ND" : {
+        "name" : "Braddock",
+        "state" : "North Dakota",
+        "FIPS" : "38-08900",
+        "counties" : [
+            "Emmons County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 18,
+        "population_2020" : 18,
+        "population_2027" : 19,
+        "land_area_2020" : 0.0
+    },
+    "Haynes, Adams County, ND" : {
+        "name" : "Haynes",
+        "state" : "North Dakota",
+        "FIPS" : "38-36540",
+        "counties" : [
+            "Adams County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15,
+        "population_2020" : 15,
+        "population_2027" : 16,
+        "land_area_2020" : 0.0
+    },
+    "Ambrose, Divide County, ND" : {
+        "name" : "Ambrose",
+        "state" : "North Dakota",
+        "FIPS" : "38-01860",
+        "counties" : [
+            "Divide County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 24,
+        "population_2020" : 24,
+        "population_2027" : 25,
+        "land_area_2020" : 0.0
+    },
+    "Balfour, McHenry County, ND" : {
+        "name" : "Balfour",
+        "state" : "North Dakota",
+        "FIPS" : "38-04460",
+        "counties" : [
+            "McHenry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 20,
+        "population_2020" : 20,
+        "population_2027" : 21,
+        "land_area_2020" : 0.0
+    },
+    "Bucyrus, Adams County, ND" : {
+        "name" : "Bucyrus",
+        "state" : "North Dakota",
+        "FIPS" : "38-10300",
+        "counties" : [
+            "Adams County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 18,
+        "population_2020" : 18,
+        "population_2027" : 19,
+        "land_area_2020" : 0.0
+    },
+    "Hansboro, Towner County, ND" : {
+        "name" : "Hansboro",
+        "state" : "North Dakota",
+        "FIPS" : "38-35140",
+        "counties" : [
+            "Towner County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15,
+        "population_2020" : 15,
+        "population_2027" : 16,
+        "land_area_2020" : 0.0
+    },
+    "Lawton, Ramsey County, ND" : {
+        "name" : "Lawton",
+        "state" : "North Dakota",
+        "FIPS" : "38-45300",
+        "counties" : [
+            "Ramsey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15,
+        "population_2020" : 15,
+        "population_2027" : 16,
+        "land_area_2020" : 0.0
+    },
+    "York, Benson County, ND" : {
+        "name" : "York",
+        "state" : "North Dakota",
+        "FIPS" : "38-87860",
+        "counties" : [
+            "Benson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 17,
+        "population_2020" : 17,
+        "population_2027" : 18,
+        "land_area_2020" : 0.0
+    },
+    "Conway, Walsh County, ND" : {
+        "name" : "Conway",
+        "state" : "North Dakota",
+        "FIPS" : "38-15820",
+        "counties" : [
+            "Walsh County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15,
+        "population_2020" : 15,
+        "population_2027" : 16,
+        "land_area_2020" : 0.0
+    },
+    "Calvin, Cavalier County, ND" : {
+        "name" : "Calvin",
+        "state" : "North Dakota",
+        "FIPS" : "38-11700",
+        "counties" : [
+            "Cavalier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15,
+        "population_2020" : 15,
+        "population_2027" : 16,
+        "land_area_2020" : 0.0
+    },
+    "Ayr, Cass County, ND" : {
+        "name" : "Ayr",
+        "state" : "North Dakota",
+        "FIPS" : "38-04020",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11,
+        "population_2020" : 11,
+        "population_2027" : 11,
+        "land_area_2020" : 0.0
+    },
+    "Hamberg, Wells County, ND" : {
+        "name" : "Hamberg",
+        "state" : "North Dakota",
+        "FIPS" : "38-34460",
+        "counties" : [
+            "Wells County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11,
+        "population_2020" : 11,
+        "population_2027" : 11,
+        "land_area_2020" : 0.0
+    },
+    "Pillsbury, Barnes County, ND" : {
+        "name" : "Pillsbury",
+        "state" : "North Dakota",
+        "FIPS" : "38-62540",
+        "counties" : [
+            "Barnes County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12,
+        "population_2020" : 12,
+        "population_2027" : 12,
+        "land_area_2020" : 0.0
+    },
+    "Bergen, McHenry County, ND" : {
+        "name" : "Bergen",
+        "state" : "North Dakota",
+        "FIPS" : "38-06180",
+        "counties" : [
+            "McHenry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10,
+        "population_2020" : 10,
+        "population_2027" : 10,
+        "land_area_2020" : 0.0
+    },
+    "Overly, Bottineau County, ND" : {
+        "name" : "Overly",
+        "state" : "North Dakota",
+        "FIPS" : "38-60380",
+        "counties" : [
+            "Bottineau County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10,
+        "population_2020" : 10,
+        "population_2027" : 10,
+        "land_area_2020" : 0.0
+    },
+    "Grano, Renville County, ND" : {
+        "name" : "Grano",
+        "state" : "North Dakota",
+        "FIPS" : "38-32580",
+        "counties" : [
+            "Renville County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9,
+        "population_2020" : 9,
+        "population_2027" : 9,
+        "land_area_2020" : 0.0
+    },
+    "Hannah, Cavalier County, ND" : {
+        "name" : "Hannah",
+        "state" : "North Dakota",
+        "FIPS" : "38-35060",
+        "counties" : [
+            "Cavalier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8,
+        "population_2020" : 8,
+        "population_2027" : 8,
+        "land_area_2020" : 0.0
+    },
+    "Loma, Cavalier County, ND" : {
+        "name" : "Loma",
+        "state" : "North Dakota",
+        "FIPS" : "38-47660",
+        "counties" : [
+            "Cavalier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10,
+        "population_2020" : 10,
+        "population_2027" : 10,
+        "land_area_2020" : 0.0
+    },
+    "Loraine, Renville County, ND" : {
+        "name" : "Loraine",
+        "state" : "North Dakota",
+        "FIPS" : "38-48020",
+        "counties" : [
+            "Renville County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9,
+        "population_2020" : 9,
+        "population_2027" : 9,
+        "land_area_2020" : 0.0
+    },
+    "Wales, Cavalier County, ND" : {
+        "name" : "Wales",
+        "state" : "North Dakota",
+        "FIPS" : "38-82940",
+        "counties" : [
+            "Cavalier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10,
+        "population_2020" : 10,
+        "population_2027" : 10,
+        "land_area_2020" : 0.0
+    },
+    "Kief, McHenry County, ND" : {
+        "name" : "Kief",
+        "state" : "North Dakota",
+        "FIPS" : "38-42660",
+        "counties" : [
+            "McHenry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8,
+        "population_2020" : 8,
+        "population_2027" : 8,
+        "land_area_2020" : 0.0
+    },
+    "Calio, Cavalier County, ND" : {
+        "name" : "Calio",
+        "state" : "North Dakota",
+        "FIPS" : "38-11580",
+        "counties" : [
+            "Cavalier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8,
+        "population_2020" : 8,
+        "population_2027" : 8,
+        "land_area_2020" : 0.0
+    },
+    "Perth, Towner County, ND" : {
+        "name" : "Perth",
+        "state" : "North Dakota",
+        "FIPS" : "38-61780",
+        "counties" : [
+            "Towner County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6,
+        "population_2020" : 6,
+        "population_2027" : 6,
+        "land_area_2020" : 0.0
+    },
+    "Ruso, McLean County, ND" : {
+        "name" : "Ruso",
+        "state" : "North Dakota",
+        "FIPS" : "38-69140",
+        "counties" : [
+            "McLean County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1,
+        "population_2020" : 1,
+        "population_2027" : 1,
+        "land_area_2020" : 0.0
+    }
+}

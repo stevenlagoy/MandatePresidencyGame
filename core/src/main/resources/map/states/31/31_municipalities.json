@@ -1,0 +1,6876 @@
+{
+    "Omaha, Douglas County, NE" : {
+        "name" : "Omaha",
+        "state" : "Nebraska",
+        "FIPS" : "31-37000",
+        "counties" : [
+            "Douglas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 486051,
+        "population_2020" : 486051,
+        "population_2027" : 505076,
+        "land_area_2020" : 0.0
+    },
+    "Lincoln, Lancaster County, NE" : {
+        "name" : "Lincoln",
+        "state" : "Nebraska",
+        "FIPS" : "31-28000",
+        "counties" : [
+            "Lancaster County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 291082,
+        "population_2020" : 291082,
+        "population_2027" : 302475,
+        "land_area_2020" : 0.0
+    },
+    "Bellevue, Sarpy County, NE" : {
+        "name" : "Bellevue",
+        "state" : "Nebraska",
+        "FIPS" : "31-03950",
+        "counties" : [
+            "Sarpy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 64176,
+        "population_2020" : 64176,
+        "population_2027" : 66688,
+        "land_area_2020" : 0.0
+    },
+    "Grand Island, Hall County, NE" : {
+        "name" : "Grand Island",
+        "state" : "Nebraska",
+        "FIPS" : "31-19595",
+        "counties" : [
+            "Hall County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 53131,
+        "population_2020" : 53131,
+        "population_2027" : 55211,
+        "land_area_2020" : 0.0
+    },
+    "Kearney, Buffalo County, NE" : {
+        "name" : "Kearney",
+        "state" : "Nebraska",
+        "FIPS" : "31-25055",
+        "counties" : [
+            "Buffalo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 33790,
+        "population_2020" : 33790,
+        "population_2027" : 35113,
+        "land_area_2020" : 0.0
+    },
+    "Fremont, Dodge County, NE" : {
+        "name" : "Fremont",
+        "state" : "Nebraska",
+        "FIPS" : "31-17670",
+        "counties" : [
+            "Dodge County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 27141,
+        "population_2020" : 27141,
+        "population_2027" : 28203,
+        "land_area_2020" : 0.0
+    },
+    "Norfolk, Madison County, NE" : {
+        "name" : "Norfolk",
+        "state" : "Nebraska",
+        "FIPS" : "31-34615",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 24955,
+        "population_2020" : 24955,
+        "population_2027" : 25932,
+        "land_area_2020" : 0.0
+    },
+    "Hastings, Adams County, NE" : {
+        "name" : "Hastings",
+        "state" : "Nebraska",
+        "FIPS" : "31-21415",
+        "counties" : [
+            "Adams County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 25152,
+        "population_2020" : 25152,
+        "population_2027" : 26136,
+        "land_area_2020" : 0.0
+    },
+    "Columbus, Platte County, NE" : {
+        "name" : "Columbus",
+        "state" : "Nebraska",
+        "FIPS" : "31-10110",
+        "counties" : [
+            "Platte County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 24028,
+        "population_2020" : 24028,
+        "population_2027" : 24968,
+        "land_area_2020" : 0.0
+    },
+    "Papillion, Sarpy County, NE" : {
+        "name" : "Papillion",
+        "state" : "Nebraska",
+        "FIPS" : "31-38295",
+        "counties" : [
+            "Sarpy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 24159,
+        "population_2020" : 24159,
+        "population_2027" : 25105,
+        "land_area_2020" : 0.0
+    },
+    "North Platte, Lincoln County, NE" : {
+        "name" : "North Platte",
+        "state" : "Nebraska",
+        "FIPS" : "31-35000",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23390,
+        "population_2020" : 23390,
+        "population_2027" : 24306,
+        "land_area_2020" : 0.0
+    },
+    "La Vista, Sarpy County, NE" : {
+        "name" : "La Vista",
+        "state" : "Nebraska",
+        "FIPS" : "31-26385",
+        "counties" : [
+            "Sarpy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16746,
+        "population_2020" : 16746,
+        "population_2027" : 17401,
+        "land_area_2020" : 0.0
+    },
+    "Scottsbluff, Scotts Bluff County, NE" : {
+        "name" : "Scottsbluff",
+        "state" : "Nebraska",
+        "FIPS" : "31-44245",
+        "counties" : [
+            "Scotts Bluff County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14436,
+        "population_2020" : 14436,
+        "population_2027" : 15001,
+        "land_area_2020" : 0.0
+    },
+    "South Sioux City, Dakota County, NE" : {
+        "name" : "South Sioux City",
+        "state" : "Nebraska",
+        "FIPS" : "31-46030",
+        "counties" : [
+            "Dakota County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14043,
+        "population_2020" : 14043,
+        "population_2027" : 14593,
+        "land_area_2020" : 0.0
+    },
+    "Beatrice, Gage County, NE" : {
+        "name" : "Beatrice",
+        "state" : "Nebraska",
+        "FIPS" : "31-03390",
+        "counties" : [
+            "Gage County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12261,
+        "population_2020" : 12261,
+        "population_2027" : 12741,
+        "land_area_2020" : 0.0
+    },
+    "Lexington, Dawson County, NE" : {
+        "name" : "Lexington",
+        "state" : "Nebraska",
+        "FIPS" : "31-26910",
+        "counties" : [
+            "Dawson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10348,
+        "population_2020" : 10348,
+        "population_2027" : 10753,
+        "land_area_2020" : 0.0
+    },
+    "Gretna, Sarpy County, NE" : {
+        "name" : "Gretna",
+        "state" : "Nebraska",
+        "FIPS" : "31-20260",
+        "counties" : [
+            "Sarpy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5083,
+        "population_2020" : 5083,
+        "population_2027" : 5282,
+        "land_area_2020" : 0.0
+    },
+    "Gering, Scotts Bluff County, NE" : {
+        "name" : "Gering",
+        "state" : "Nebraska",
+        "FIPS" : "31-18580",
+        "counties" : [
+            "Scotts Bluff County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8564,
+        "population_2020" : 8564,
+        "population_2027" : 8899,
+        "land_area_2020" : 0.0
+    },
+    "York, York County, NE" : {
+        "name" : "York",
+        "state" : "Nebraska",
+        "FIPS" : "31-54045",
+        "counties" : [
+            "York County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8066,
+        "population_2020" : 8066,
+        "population_2027" : 8382,
+        "land_area_2020" : 0.0
+    },
+    "Alliance, Box Butte County, NE" : {
+        "name" : "Alliance",
+        "state" : "Nebraska",
+        "FIPS" : "31-00905",
+        "counties" : [
+            "Box Butte County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8151,
+        "population_2020" : 8151,
+        "population_2027" : 8470,
+        "land_area_2020" : 0.0
+    },
+    "Blair, Washington County, NE" : {
+        "name" : "Blair",
+        "state" : "Nebraska",
+        "FIPS" : "31-05350",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7790,
+        "population_2020" : 7790,
+        "population_2027" : 8095,
+        "land_area_2020" : 0.0
+    },
+    "Seward, Seward County, NE" : {
+        "name" : "Seward",
+        "state" : "Nebraska",
+        "FIPS" : "31-44420",
+        "counties" : [
+            "Seward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7643,
+        "population_2020" : 7643,
+        "population_2027" : 7942,
+        "land_area_2020" : 0.0
+    },
+    "Crete, Saline County, NE" : {
+        "name" : "Crete",
+        "state" : "Nebraska",
+        "FIPS" : "31-11370",
+        "counties" : [
+            "Saline County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7099,
+        "population_2020" : 7099,
+        "population_2027" : 7377,
+        "land_area_2020" : 0.0
+    },
+    "Nebraska City, Otoe County, NE" : {
+        "name" : "Nebraska City",
+        "state" : "Nebraska",
+        "FIPS" : "31-33705",
+        "counties" : [
+            "Otoe County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7222,
+        "population_2020" : 7222,
+        "population_2027" : 7505,
+        "land_area_2020" : 0.0
+    },
+    "McCook, Red Willow County, NE" : {
+        "name" : "McCook",
+        "state" : "Nebraska",
+        "FIPS" : "31-29925",
+        "counties" : [
+            "Red Willow County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7446,
+        "population_2020" : 7446,
+        "population_2027" : 7737,
+        "land_area_2020" : 0.0
+    },
+    "Plattsmouth, Cass County, NE" : {
+        "name" : "Plattsmouth",
+        "state" : "Nebraska",
+        "FIPS" : "31-39345",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6544,
+        "population_2020" : 6544,
+        "population_2027" : 6800,
+        "land_area_2020" : 0.0
+    },
+    "Schuyler, Colfax County, NE" : {
+        "name" : "Schuyler",
+        "state" : "Nebraska",
+        "FIPS" : "31-44035",
+        "counties" : [
+            "Colfax County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6547,
+        "population_2020" : 6547,
+        "population_2027" : 6803,
+        "land_area_2020" : 0.0
+    },
+    "Sidney, Cheyenne County, NE" : {
+        "name" : "Sidney",
+        "state" : "Nebraska",
+        "FIPS" : "31-45295",
+        "counties" : [
+            "Cheyenne County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6410,
+        "population_2020" : 6410,
+        "population_2027" : 6661,
+        "land_area_2020" : 0.0
+    },
+    "Ralston, Douglas County, NE" : {
+        "name" : "Ralston",
+        "state" : "Nebraska",
+        "FIPS" : "31-40605",
+        "counties" : [
+            "Douglas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6494,
+        "population_2020" : 6494,
+        "population_2027" : 6748,
+        "land_area_2020" : 0.0
+    },
+    "Wayne, Wayne County, NE" : {
+        "name" : "Wayne",
+        "state" : "Nebraska",
+        "FIPS" : "31-51840",
+        "counties" : [
+            "Wayne County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5973,
+        "population_2020" : 5973,
+        "population_2027" : 6207,
+        "land_area_2020" : 0.0
+    },
+    "Holdrege, Phelps County, NE" : {
+        "name" : "Holdrege",
+        "state" : "Nebraska",
+        "FIPS" : "31-22640",
+        "counties" : [
+            "Phelps County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5515,
+        "population_2020" : 5515,
+        "population_2027" : 5731,
+        "land_area_2020" : 0.0
+    },
+    "Chadron, Dawes County, NE" : {
+        "name" : "Chadron",
+        "state" : "Nebraska",
+        "FIPS" : "31-08605",
+        "counties" : [
+            "Dawes County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5206,
+        "population_2020" : 5206,
+        "population_2027" : 5410,
+        "land_area_2020" : 0.0
+    },
+    "Wahoo, Saunders County, NE" : {
+        "name" : "Wahoo",
+        "state" : "Nebraska",
+        "FIPS" : "31-50965",
+        "counties" : [
+            "Saunders County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4818,
+        "population_2020" : 4818,
+        "population_2027" : 5007,
+        "land_area_2020" : 0.0
+    },
+    "Aurora, Hamilton County, NE" : {
+        "name" : "Aurora",
+        "state" : "Nebraska",
+        "FIPS" : "31-02690",
+        "counties" : [
+            "Hamilton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4678,
+        "population_2020" : 4678,
+        "population_2027" : 4861,
+        "land_area_2020" : 0.0
+    },
+    "Ogallala, Keith County, NE" : {
+        "name" : "Ogallala",
+        "state" : "Nebraska",
+        "FIPS" : "31-35980",
+        "counties" : [
+            "Keith County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4878,
+        "population_2020" : 4878,
+        "population_2027" : 5069,
+        "land_area_2020" : 0.0
+    },
+    "Waverly, Lancaster County, NE" : {
+        "name" : "Waverly",
+        "state" : "Nebraska",
+        "FIPS" : "31-51770",
+        "counties" : [
+            "Lancaster County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4279,
+        "population_2020" : 4279,
+        "population_2027" : 4446,
+        "land_area_2020" : 0.0
+    },
+    "Falls City, Richardson County, NE" : {
+        "name" : "Falls City",
+        "state" : "Nebraska",
+        "FIPS" : "31-16655",
+        "counties" : [
+            "Richardson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4133,
+        "population_2020" : 4133,
+        "population_2027" : 4295,
+        "land_area_2020" : 0.0
+    },
+    "Cozad, Dawson County, NE" : {
+        "name" : "Cozad",
+        "state" : "Nebraska",
+        "FIPS" : "31-11020",
+        "counties" : [
+            "Dawson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3988,
+        "population_2020" : 3988,
+        "population_2027" : 4144,
+        "land_area_2020" : 0.0
+    },
+    "Fairbury, Jefferson County, NE" : {
+        "name" : "Fairbury",
+        "state" : "Nebraska",
+        "FIPS" : "31-16410",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3970,
+        "population_2020" : 3970,
+        "population_2027" : 4125,
+        "land_area_2020" : 0.0
+    },
+    "O'Neill, Holt County, NE" : {
+        "name" : "O'Neill",
+        "state" : "Nebraska",
+        "FIPS" : "31-37105",
+        "counties" : [
+            "Holt County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3581,
+        "population_2020" : 3581,
+        "population_2027" : 3721,
+        "land_area_2020" : 0.0
+    },
+    "Broken Bow, Custer County, NE" : {
+        "name" : "Broken Bow",
+        "state" : "Nebraska",
+        "FIPS" : "31-06610",
+        "counties" : [
+            "Custer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3506,
+        "population_2020" : 3506,
+        "population_2027" : 3643,
+        "land_area_2020" : 0.0
+    },
+    "Auburn, Nemaha County, NE" : {
+        "name" : "Auburn",
+        "state" : "Nebraska",
+        "FIPS" : "31-02655",
+        "counties" : [
+            "Nemaha County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3470,
+        "population_2020" : 3470,
+        "population_2027" : 3606,
+        "land_area_2020" : 0.0
+    },
+    "West Point, Cuming County, NE" : {
+        "name" : "West Point",
+        "state" : "Nebraska",
+        "FIPS" : "31-52575",
+        "counties" : [
+            "Cuming County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3500,
+        "population_2020" : 3500,
+        "population_2027" : 3637,
+        "land_area_2020" : 0.0
+    },
+    "Gothenburg, Dawson County, NE" : {
+        "name" : "Gothenburg",
+        "state" : "Nebraska",
+        "FIPS" : "31-19385",
+        "counties" : [
+            "Dawson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3478,
+        "population_2020" : 3478,
+        "population_2027" : 3614,
+        "land_area_2020" : 0.0
+    },
+    "Ashland, Saunders County, NE" : {
+        "name" : "Ashland",
+        "state" : "Nebraska",
+        "FIPS" : "31-02305",
+        "counties" : [
+            "Saunders County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3086,
+        "population_2020" : 3086,
+        "population_2027" : 3207,
+        "land_area_2020" : 0.0
+    },
+    "Valley, Douglas County, NE" : {
+        "name" : "Valley",
+        "state" : "Nebraska",
+        "FIPS" : "31-50020",
+        "counties" : [
+            "Douglas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3037,
+        "population_2020" : 3037,
+        "population_2027" : 3156,
+        "land_area_2020" : 0.0
+    },
+    "Hickman, Lancaster County, NE" : {
+        "name" : "Hickman",
+        "state" : "Nebraska",
+        "FIPS" : "31-22325",
+        "counties" : [
+            "Lancaster County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2607,
+        "population_2020" : 2607,
+        "population_2027" : 2709,
+        "land_area_2020" : 0.0
+    },
+    "Minden, Kearney County, NE" : {
+        "name" : "Minden",
+        "state" : "Nebraska",
+        "FIPS" : "31-32340",
+        "counties" : [
+            "Kearney County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3118,
+        "population_2020" : 3118,
+        "population_2027" : 3240,
+        "land_area_2020" : 0.0
+    },
+    "Central City, Merrick County, NE" : {
+        "name" : "Central City",
+        "state" : "Nebraska",
+        "FIPS" : "31-08535",
+        "counties" : [
+            "Merrick County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3039,
+        "population_2020" : 3039,
+        "population_2027" : 3158,
+        "land_area_2020" : 0.0
+    },
+    "David City, Butler County, NE" : {
+        "name" : "David City",
+        "state" : "Nebraska",
+        "FIPS" : "31-12315",
+        "counties" : [
+            "Butler County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2995,
+        "population_2020" : 2995,
+        "population_2027" : 3112,
+        "land_area_2020" : 0.0
+    },
+    "Valentine, Cherry County, NE" : {
+        "name" : "Valentine",
+        "state" : "Nebraska",
+        "FIPS" : "31-49950",
+        "counties" : [
+            "Cherry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2633,
+        "population_2020" : 2633,
+        "population_2027" : 2736,
+        "land_area_2020" : 0.0
+    },
+    "St. Paul, Howard County, NE" : {
+        "name" : "St. Paul",
+        "state" : "Nebraska",
+        "FIPS" : "31-43265",
+        "counties" : [
+            "Howard County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2416,
+        "population_2020" : 2416,
+        "population_2027" : 2511,
+        "land_area_2020" : 0.0
+    },
+    "Milford, Seward County, NE" : {
+        "name" : "Milford",
+        "state" : "Nebraska",
+        "FIPS" : "31-32060",
+        "counties" : [
+            "Seward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2155,
+        "population_2020" : 2155,
+        "population_2027" : 2239,
+        "land_area_2020" : 0.0
+    },
+    "Kimball, Kimball County, NE" : {
+        "name" : "Kimball",
+        "state" : "Nebraska",
+        "FIPS" : "31-25475",
+        "counties" : [
+            "Kimball County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2290,
+        "population_2020" : 2290,
+        "population_2027" : 2380,
+        "land_area_2020" : 0.0
+    },
+    "Madison, Madison County, NE" : {
+        "name" : "Madison",
+        "state" : "Nebraska",
+        "FIPS" : "31-30240",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2283,
+        "population_2020" : 2283,
+        "population_2027" : 2372,
+        "land_area_2020" : 0.0
+    },
+    "Geneva, Fillmore County, NE" : {
+        "name" : "Geneva",
+        "state" : "Nebraska",
+        "FIPS" : "31-18405",
+        "counties" : [
+            "Fillmore County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2136,
+        "population_2020" : 2136,
+        "population_2027" : 2220,
+        "land_area_2020" : 0.0
+    },
+    "Ord, Valley County, NE" : {
+        "name" : "Ord",
+        "state" : "Nebraska",
+        "FIPS" : "31-37280",
+        "counties" : [
+            "Valley County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2113,
+        "population_2020" : 2113,
+        "population_2027" : 2196,
+        "land_area_2020" : 0.0
+    },
+    "Dakota City, Dakota County, NE" : {
+        "name" : "Dakota City",
+        "state" : "Nebraska",
+        "FIPS" : "31-12000",
+        "counties" : [
+            "Dakota County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2081,
+        "population_2020" : 2081,
+        "population_2027" : 2162,
+        "land_area_2020" : 0.0
+    },
+    "Syracuse, Otoe County, NE" : {
+        "name" : "Syracuse",
+        "state" : "Nebraska",
+        "FIPS" : "31-48235",
+        "counties" : [
+            "Otoe County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1941,
+        "population_2020" : 1941,
+        "population_2027" : 2017,
+        "land_area_2020" : 0.0
+    },
+    "Imperial, Chase County, NE" : {
+        "name" : "Imperial",
+        "state" : "Nebraska",
+        "FIPS" : "31-23690",
+        "counties" : [
+            "Chase County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2068,
+        "population_2020" : 2068,
+        "population_2027" : 2149,
+        "land_area_2020" : 0.0
+    },
+    "Bennington, Douglas County, NE" : {
+        "name" : "Bennington",
+        "state" : "Nebraska",
+        "FIPS" : "31-04405",
+        "counties" : [
+            "Douglas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2026,
+        "population_2020" : 2026,
+        "population_2027" : 2105,
+        "land_area_2020" : 0.0
+    },
+    "Wilber, Saline County, NE" : {
+        "name" : "Wilber",
+        "state" : "Nebraska",
+        "FIPS" : "31-52960",
+        "counties" : [
+            "Saline County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1937,
+        "population_2020" : 1937,
+        "population_2027" : 2013,
+        "land_area_2020" : 0.0
+    },
+    "Gibbon, Buffalo County, NE" : {
+        "name" : "Gibbon",
+        "state" : "Nebraska",
+        "FIPS" : "31-18615",
+        "counties" : [
+            "Buffalo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1878,
+        "population_2020" : 1878,
+        "population_2027" : 1952,
+        "land_area_2020" : 0.0
+    },
+    "Superior, Nuckolls County, NE" : {
+        "name" : "Superior",
+        "state" : "Nebraska",
+        "FIPS" : "31-47815",
+        "counties" : [
+            "Nuckolls County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1825,
+        "population_2020" : 1825,
+        "population_2027" : 1896,
+        "land_area_2020" : 0.0
+    },
+    "Pierce, Pierce County, NE" : {
+        "name" : "Pierce",
+        "state" : "Nebraska",
+        "FIPS" : "31-39100",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1845,
+        "population_2020" : 1845,
+        "population_2027" : 1917,
+        "land_area_2020" : 0.0
+    },
+    "Tekamah, Burt County, NE" : {
+        "name" : "Tekamah",
+        "state" : "Nebraska",
+        "FIPS" : "31-48515",
+        "counties" : [
+            "Burt County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1714,
+        "population_2020" : 1714,
+        "population_2027" : 1781,
+        "land_area_2020" : 0.0
+    },
+    "Albion, Boone County, NE" : {
+        "name" : "Albion",
+        "state" : "Nebraska",
+        "FIPS" : "31-00555",
+        "counties" : [
+            "Boone County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1699,
+        "population_2020" : 1699,
+        "population_2027" : 1766,
+        "land_area_2020" : 0.0
+    },
+    "Tecumseh, Johnson County, NE" : {
+        "name" : "Tecumseh",
+        "state" : "Nebraska",
+        "FIPS" : "31-48480",
+        "counties" : [
+            "Johnson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1694,
+        "population_2020" : 1694,
+        "population_2027" : 1760,
+        "land_area_2020" : 0.0
+    },
+    "Ainsworth, Brown County, NE" : {
+        "name" : "Ainsworth",
+        "state" : "Nebraska",
+        "FIPS" : "31-00415",
+        "counties" : [
+            "Brown County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1616,
+        "population_2020" : 1616,
+        "population_2027" : 1679,
+        "land_area_2020" : 0.0
+    },
+    "Mitchell, Scotts Bluff County, NE" : {
+        "name" : "Mitchell",
+        "state" : "Nebraska",
+        "FIPS" : "31-32410",
+        "counties" : [
+            "Scotts Bluff County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1548,
+        "population_2020" : 1548,
+        "population_2027" : 1609,
+        "land_area_2020" : 0.0
+    },
+    "Stanton, Stanton County, NE" : {
+        "name" : "Stanton",
+        "state" : "Nebraska",
+        "FIPS" : "31-46800",
+        "counties" : [
+            "Stanton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1520,
+        "population_2020" : 1520,
+        "population_2027" : 1579,
+        "land_area_2020" : 0.0
+    },
+    "Neligh, Antelope County, NE" : {
+        "name" : "Neligh",
+        "state" : "Nebraska",
+        "FIPS" : "31-33775",
+        "counties" : [
+            "Antelope County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1536,
+        "population_2020" : 1536,
+        "population_2027" : 1596,
+        "land_area_2020" : 0.0
+    },
+    "Springfield, Sarpy County, NE" : {
+        "name" : "Springfield",
+        "state" : "Nebraska",
+        "FIPS" : "31-46520",
+        "counties" : [
+            "Sarpy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1501,
+        "population_2020" : 1501,
+        "population_2027" : 1560,
+        "land_area_2020" : 0.0
+    },
+    "Wakefield, Dixon County, NE" : {
+        "name" : "Wakefield",
+        "state" : "Nebraska",
+        "FIPS" : "31-51070",
+        "counties" : [
+            "Dixon County",
+            "Wayne County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1522,
+        "population_2020" : 1522,
+        "population_2027" : 1582,
+        "land_area_2020" : 0.0
+    },
+    "Hartington, Cedar County, NE" : {
+        "name" : "Hartington",
+        "state" : "Nebraska",
+        "FIPS" : "31-21275",
+        "counties" : [
+            "Cedar County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1517,
+        "population_2020" : 1517,
+        "population_2027" : 1576,
+        "land_area_2020" : 0.0
+    },
+    "Sutton, Clay County, NE" : {
+        "name" : "Sutton",
+        "state" : "Nebraska",
+        "FIPS" : "31-47955",
+        "counties" : [
+            "Clay County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1447,
+        "population_2020" : 1447,
+        "population_2027" : 1504,
+        "land_area_2020" : 0.0
+    },
+    "Bridgeport, Morrill County, NE" : {
+        "name" : "Bridgeport",
+        "state" : "Nebraska",
+        "FIPS" : "31-06295",
+        "counties" : [
+            "Morrill County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1454,
+        "population_2020" : 1454,
+        "population_2027" : 1511,
+        "land_area_2020" : 0.0
+    },
+    "Gordon, Sheridan County, NE" : {
+        "name" : "Gordon",
+        "state" : "Nebraska",
+        "FIPS" : "31-19350",
+        "counties" : [
+            "Sheridan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1504,
+        "population_2020" : 1504,
+        "population_2027" : 1563,
+        "land_area_2020" : 0.0
+    },
+    "Yutan, Saunders County, NE" : {
+        "name" : "Yutan",
+        "state" : "Nebraska",
+        "FIPS" : "31-54115",
+        "counties" : [
+            "Saunders County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1347,
+        "population_2020" : 1347,
+        "population_2027" : 1400,
+        "land_area_2020" : 0.0
+    },
+    "Louisville, Cass County, NE" : {
+        "name" : "Louisville",
+        "state" : "Nebraska",
+        "FIPS" : "31-29260",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1319,
+        "population_2020" : 1319,
+        "population_2027" : 1371,
+        "land_area_2020" : 0.0
+    },
+    "Hebron, Thayer County, NE" : {
+        "name" : "Hebron",
+        "state" : "Nebraska",
+        "FIPS" : "31-21905",
+        "counties" : [
+            "Thayer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1458,
+        "population_2020" : 1458,
+        "population_2027" : 1515,
+        "land_area_2020" : 0.0
+    },
+    "Ravenna, Buffalo County, NE" : {
+        "name" : "Ravenna",
+        "state" : "Nebraska",
+        "FIPS" : "31-40710",
+        "counties" : [
+            "Buffalo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1441,
+        "population_2020" : 1441,
+        "population_2027" : 1497,
+        "land_area_2020" : 0.0
+    },
+    "Oakland, Burt County, NE" : {
+        "name" : "Oakland",
+        "state" : "Nebraska",
+        "FIPS" : "31-35490",
+        "counties" : [
+            "Burt County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1369,
+        "population_2020" : 1369,
+        "population_2027" : 1423,
+        "land_area_2020" : 0.0
+    },
+    "Wymore, Gage County, NE" : {
+        "name" : "Wymore",
+        "state" : "Nebraska",
+        "FIPS" : "31-53835",
+        "counties" : [
+            "Gage County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1377,
+        "population_2020" : 1377,
+        "population_2027" : 1431,
+        "land_area_2020" : 0.0
+    },
+    "Arlington, Washington County, NE" : {
+        "name" : "Arlington",
+        "state" : "Nebraska",
+        "FIPS" : "31-01990",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 1300,
+        "population_2020" : 1300,
+        "population_2027" : 1351,
+        "land_area_2020" : 0.0
+    },
+    "Atkinson, Holt County, NE" : {
+        "name" : "Atkinson",
+        "state" : "Nebraska",
+        "FIPS" : "31-02550",
+        "counties" : [
+            "Holt County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1306,
+        "population_2020" : 1306,
+        "population_2027" : 1357,
+        "land_area_2020" : 0.0
+    },
+    "Plainview, Pierce County, NE" : {
+        "name" : "Plainview",
+        "state" : "Nebraska",
+        "FIPS" : "31-39170",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1282,
+        "population_2020" : 1282,
+        "population_2027" : 1332,
+        "land_area_2020" : 0.0
+    },
+    "North Bend, Dodge County, NE" : {
+        "name" : "North Bend",
+        "state" : "Nebraska",
+        "FIPS" : "31-34720",
+        "counties" : [
+            "Dodge County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1279,
+        "population_2020" : 1279,
+        "population_2027" : 1329,
+        "land_area_2020" : 0.0
+    },
+    "Sutherland, Lincoln County, NE" : {
+        "name" : "Sutherland",
+        "state" : "Nebraska",
+        "FIPS" : "31-47920",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 1313,
+        "population_2020" : 1313,
+        "population_2027" : 1364,
+        "land_area_2020" : 0.0
+    },
+    "Wisner, Cuming County, NE" : {
+        "name" : "Wisner",
+        "state" : "Nebraska",
+        "FIPS" : "31-53450",
+        "counties" : [
+            "Cuming County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1239,
+        "population_2020" : 1239,
+        "population_2027" : 1287,
+        "land_area_2020" : 0.0
+    },
+    "Fullerton, Nance County, NE" : {
+        "name" : "Fullerton",
+        "state" : "Nebraska",
+        "FIPS" : "31-17810",
+        "counties" : [
+            "Nance County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1244,
+        "population_2020" : 1244,
+        "population_2027" : 1293,
+        "land_area_2020" : 0.0
+    },
+    "Eagle, Cass County, NE" : {
+        "name" : "Eagle",
+        "state" : "Nebraska",
+        "FIPS" : "31-14100",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 1065,
+        "population_2020" : 1065,
+        "population_2027" : 1107,
+        "land_area_2020" : 0.0
+    },
+    "Battle Creek, Madison County, NE" : {
+        "name" : "Battle Creek",
+        "state" : "Nebraska",
+        "FIPS" : "31-03250",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1194,
+        "population_2020" : 1194,
+        "population_2027" : 1241,
+        "land_area_2020" : 0.0
+    },
+    "Wood River, Hall County, NE" : {
+        "name" : "Wood River",
+        "state" : "Nebraska",
+        "FIPS" : "31-53660",
+        "counties" : [
+            "Hall County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1172,
+        "population_2020" : 1172,
+        "population_2027" : 1218,
+        "land_area_2020" : 0.0
+    },
+    "Stromsburg, Polk County, NE" : {
+        "name" : "Stromsburg",
+        "state" : "Nebraska",
+        "FIPS" : "31-47465",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1143,
+        "population_2020" : 1143,
+        "population_2027" : 1188,
+        "land_area_2020" : 0.0
+    },
+    "Grant, Perkins County, NE" : {
+        "name" : "Grant",
+        "state" : "Nebraska",
+        "FIPS" : "31-19910",
+        "counties" : [
+            "Perkins County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1197,
+        "population_2020" : 1197,
+        "population_2027" : 1244,
+        "land_area_2020" : 0.0
+    },
+    "Bayard, Morrill County, NE" : {
+        "name" : "Bayard",
+        "state" : "Nebraska",
+        "FIPS" : "31-03285",
+        "counties" : [
+            "Morrill County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1140,
+        "population_2020" : 1140,
+        "population_2027" : 1185,
+        "land_area_2020" : 0.0
+    },
+    "Creighton, Knox County, NE" : {
+        "name" : "Creighton",
+        "state" : "Nebraska",
+        "FIPS" : "31-11230",
+        "counties" : [
+            "Knox County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1147,
+        "population_2020" : 1147,
+        "population_2027" : 1192,
+        "land_area_2020" : 0.0
+    },
+    "Fort Calhoun, Washington County, NE" : {
+        "name" : "Fort Calhoun",
+        "state" : "Nebraska",
+        "FIPS" : "31-17145",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1108,
+        "population_2020" : 1108,
+        "population_2027" : 1151,
+        "land_area_2020" : 0.0
+    },
+    "Henderson, York County, NE" : {
+        "name" : "Henderson",
+        "state" : "Nebraska",
+        "FIPS" : "31-22080",
+        "counties" : [
+            "York County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1080,
+        "population_2020" : 1080,
+        "population_2027" : 1122,
+        "land_area_2020" : 0.0
+    },
+    "Bennet, Lancaster County, NE" : {
+        "name" : "Bennet",
+        "state" : "Nebraska",
+        "FIPS" : "31-04300",
+        "counties" : [
+            "Lancaster County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 1082,
+        "population_2020" : 1082,
+        "population_2027" : 1124,
+        "land_area_2020" : 0.0
+    },
+    "Cambridge, Furnas County, NE" : {
+        "name" : "Cambridge",
+        "state" : "Nebraska",
+        "FIPS" : "31-07730",
+        "counties" : [
+            "Furnas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1071,
+        "population_2020" : 1071,
+        "population_2027" : 1113,
+        "land_area_2020" : 0.0
+    },
+    "Loup City, Sherman County, NE" : {
+        "name" : "Loup City",
+        "state" : "Nebraska",
+        "FIPS" : "31-29470",
+        "counties" : [
+            "Sherman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1053,
+        "population_2020" : 1053,
+        "population_2027" : 1094,
+        "land_area_2020" : 0.0
+    },
+    "Weeping Water, Cass County, NE" : {
+        "name" : "Weeping Water",
+        "state" : "Nebraska",
+        "FIPS" : "31-52015",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1029,
+        "population_2020" : 1029,
+        "population_2027" : 1069,
+        "land_area_2020" : 0.0
+    },
+    "Burwell, Garfield County, NE" : {
+        "name" : "Burwell",
+        "state" : "Nebraska",
+        "FIPS" : "31-07345",
+        "counties" : [
+            "Garfield County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1087,
+        "population_2020" : 1087,
+        "population_2027" : 1130,
+        "land_area_2020" : 0.0
+    },
+    "Pender, Thurston County, NE" : {
+        "name" : "Pender",
+        "state" : "Nebraska",
+        "FIPS" : "31-38750",
+        "counties" : [
+            "Thurston County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 1115,
+        "population_2020" : 1115,
+        "population_2027" : 1159,
+        "land_area_2020" : 0.0
+    },
+    "Shelton, Buffalo County, NE" : {
+        "name" : "Shelton",
+        "state" : "Nebraska",
+        "FIPS" : "31-44700",
+        "counties" : [
+            "Buffalo County",
+            "Hall County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 1034,
+        "population_2020" : 1034,
+        "population_2027" : 1074,
+        "land_area_2020" : 0.0
+    },
+    "Terrytown, Scotts Bluff County, NE" : {
+        "name" : "Terrytown",
+        "state" : "Nebraska",
+        "FIPS" : "31-48585",
+        "counties" : [
+            "Scotts Bluff County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1057,
+        "population_2020" : 1057,
+        "population_2027" : 1098,
+        "land_area_2020" : 0.0
+    },
+    "Alma, Harlan County, NE" : {
+        "name" : "Alma",
+        "state" : "Nebraska",
+        "FIPS" : "31-00975",
+        "counties" : [
+            "Harlan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1043,
+        "population_2020" : 1043,
+        "population_2027" : 1084,
+        "land_area_2020" : 0.0
+    },
+    "Tilden, Madison County, NE" : {
+        "name" : "Tilden",
+        "state" : "Nebraska",
+        "FIPS" : "31-48935",
+        "counties" : [
+            "Madison County",
+            "Antelope County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 992,
+        "population_2020" : 992,
+        "population_2027" : 1031,
+        "land_area_2020" : 0.0
+    },
+    "Elm Creek, Buffalo County, NE" : {
+        "name" : "Elm Creek",
+        "state" : "Nebraska",
+        "FIPS" : "31-15360",
+        "counties" : [
+            "Buffalo County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 979,
+        "population_2020" : 979,
+        "population_2027" : 1017,
+        "land_area_2020" : 0.0
+    },
+    "Ceresco, Saunders County, NE" : {
+        "name" : "Ceresco",
+        "state" : "Nebraska",
+        "FIPS" : "31-08570",
+        "counties" : [
+            "Saunders County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 919,
+        "population_2020" : 919,
+        "population_2027" : 955,
+        "land_area_2020" : 0.0
+    },
+    "Arapahoe, Furnas County, NE" : {
+        "name" : "Arapahoe",
+        "state" : "Nebraska",
+        "FIPS" : "31-01780",
+        "counties" : [
+            "Furnas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1002,
+        "population_2020" : 1002,
+        "population_2027" : 1041,
+        "land_area_2020" : 0.0
+    },
+    "Bloomfield, Knox County, NE" : {
+        "name" : "Bloomfield",
+        "state" : "Nebraska",
+        "FIPS" : "31-05455",
+        "counties" : [
+            "Knox County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 986,
+        "population_2020" : 986,
+        "population_2027" : 1025,
+        "land_area_2020" : 0.0
+    },
+    "Laurel, Cedar County, NE" : {
+        "name" : "Laurel",
+        "state" : "Nebraska",
+        "FIPS" : "31-26350",
+        "counties" : [
+            "Cedar County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 972,
+        "population_2020" : 972,
+        "population_2027" : 1010,
+        "land_area_2020" : 0.0
+    },
+    "Red Cloud, Webster County, NE" : {
+        "name" : "Red Cloud",
+        "state" : "Nebraska",
+        "FIPS" : "31-40920",
+        "counties" : [
+            "Webster County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 962,
+        "population_2020" : 962,
+        "population_2027" : 1000,
+        "land_area_2020" : 0.0
+    },
+    "Harvard, Clay County, NE" : {
+        "name" : "Harvard",
+        "state" : "Nebraska",
+        "FIPS" : "31-21345",
+        "counties" : [
+            "Clay County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 951,
+        "population_2020" : 951,
+        "population_2027" : 988,
+        "land_area_2020" : 0.0
+    },
+    "Friend, Saline County, NE" : {
+        "name" : "Friend",
+        "state" : "Nebraska",
+        "FIPS" : "31-17775",
+        "counties" : [
+            "Saline County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 954,
+        "population_2020" : 954,
+        "population_2027" : 991,
+        "land_area_2020" : 0.0
+    },
+    "Morrill, Scotts Bluff County, NE" : {
+        "name" : "Morrill",
+        "state" : "Nebraska",
+        "FIPS" : "31-32830",
+        "counties" : [
+            "Scotts Bluff County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 934,
+        "population_2020" : 934,
+        "population_2027" : 971,
+        "land_area_2020" : 0.0
+    },
+    "Kenesaw, Adams County, NE" : {
+        "name" : "Kenesaw",
+        "state" : "Nebraska",
+        "FIPS" : "31-25160",
+        "counties" : [
+            "Adams County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 919,
+        "population_2020" : 919,
+        "population_2027" : 955,
+        "land_area_2020" : 0.0
+    },
+    "Waterloo, Douglas County, NE" : {
+        "name" : "Waterloo",
+        "state" : "Nebraska",
+        "FIPS" : "31-51665",
+        "counties" : [
+            "Douglas County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 935,
+        "population_2020" : 935,
+        "population_2027" : 972,
+        "land_area_2020" : 0.0
+    },
+    "Franklin, Franklin County, NE" : {
+        "name" : "Franklin",
+        "state" : "Nebraska",
+        "FIPS" : "31-17530",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 941,
+        "population_2020" : 941,
+        "population_2027" : 978,
+        "land_area_2020" : 0.0
+    },
+    "Ponca, Dixon County, NE" : {
+        "name" : "Ponca",
+        "state" : "Nebraska",
+        "FIPS" : "31-39695",
+        "counties" : [
+            "Dixon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 907,
+        "population_2020" : 907,
+        "population_2027" : 943,
+        "land_area_2020" : 0.0
+    },
+    "Winnebago, Thurston County, NE" : {
+        "name" : "Winnebago",
+        "state" : "Nebraska",
+        "FIPS" : "31-53275",
+        "counties" : [
+            "Thurston County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 916,
+        "population_2020" : 916,
+        "population_2027" : 952,
+        "land_area_2020" : 0.0
+    },
+    "Randolph, Cedar County, NE" : {
+        "name" : "Randolph",
+        "state" : "Nebraska",
+        "FIPS" : "31-40675",
+        "counties" : [
+            "Cedar County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 879,
+        "population_2020" : 879,
+        "population_2027" : 913,
+        "land_area_2020" : 0.0
+    },
+    "Osceola, Polk County, NE" : {
+        "name" : "Osceola",
+        "state" : "Nebraska",
+        "FIPS" : "31-37525",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 875,
+        "population_2020" : 875,
+        "population_2027" : 909,
+        "land_area_2020" : 0.0
+    },
+    "Genoa, Nance County, NE" : {
+        "name" : "Genoa",
+        "state" : "Nebraska",
+        "FIPS" : "31-18475",
+        "counties" : [
+            "Nance County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 894,
+        "population_2020" : 894,
+        "population_2027" : 929,
+        "land_area_2020" : 0.0
+    },
+    "Humphrey, Platte County, NE" : {
+        "name" : "Humphrey",
+        "state" : "Nebraska",
+        "FIPS" : "31-23480",
+        "counties" : [
+            "Platte County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 857,
+        "population_2020" : 857,
+        "population_2027" : 891,
+        "land_area_2020" : 0.0
+    },
+    "Chappell, Deuel County, NE" : {
+        "name" : "Chappell",
+        "state" : "Nebraska",
+        "FIPS" : "31-08885",
+        "counties" : [
+            "Deuel County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 844,
+        "population_2020" : 844,
+        "population_2027" : 877,
+        "land_area_2020" : 0.0
+    },
+    "Pawnee City, Pawnee County, NE" : {
+        "name" : "Pawnee City",
+        "state" : "Nebraska",
+        "FIPS" : "31-38575",
+        "counties" : [
+            "Pawnee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 865,
+        "population_2020" : 865,
+        "population_2027" : 899,
+        "land_area_2020" : 0.0
+    },
+    "Utica, Seward County, NE" : {
+        "name" : "Utica",
+        "state" : "Nebraska",
+        "FIPS" : "31-49915",
+        "counties" : [
+            "Seward County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 840,
+        "population_2020" : 840,
+        "population_2027" : 873,
+        "land_area_2020" : 0.0
+    },
+    "Crawford, Dawes County, NE" : {
+        "name" : "Crawford",
+        "state" : "Nebraska",
+        "FIPS" : "31-11195",
+        "counties" : [
+            "Dawes County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 840,
+        "population_2020" : 840,
+        "population_2027" : 873,
+        "land_area_2020" : 0.0
+    },
+    "Curtis, Frontier County, NE" : {
+        "name" : "Curtis",
+        "state" : "Nebraska",
+        "FIPS" : "31-11825",
+        "counties" : [
+            "Frontier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 806,
+        "population_2020" : 806,
+        "population_2027" : 838,
+        "land_area_2020" : 0.0
+    },
+    "Lyons, Burt County, NE" : {
+        "name" : "Lyons",
+        "state" : "Nebraska",
+        "FIPS" : "31-29855",
+        "counties" : [
+            "Burt County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 824,
+        "population_2020" : 824,
+        "population_2027" : 856,
+        "land_area_2020" : 0.0
+    },
+    "Doniphan, Hall County, NE" : {
+        "name" : "Doniphan",
+        "state" : "Nebraska",
+        "FIPS" : "31-13365",
+        "counties" : [
+            "Hall County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 809,
+        "population_2020" : 809,
+        "population_2027" : 841,
+        "land_area_2020" : 0.0
+    },
+    "Scribner, Dodge County, NE" : {
+        "name" : "Scribner",
+        "state" : "Nebraska",
+        "FIPS" : "31-44280",
+        "counties" : [
+            "Dodge County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 843,
+        "population_2020" : 843,
+        "population_2027" : 876,
+        "land_area_2020" : 0.0
+    },
+    "Emerson, Dixon County, NE" : {
+        "name" : "Emerson",
+        "state" : "Nebraska",
+        "FIPS" : "31-15710",
+        "counties" : [
+            "Dixon County",
+            "Dakota County",
+            "Thurston County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 840,
+        "population_2020" : 840,
+        "population_2027" : 873,
+        "land_area_2020" : 0.0
+    },
+    "Cairo, Hall County, NE" : {
+        "name" : "Cairo",
+        "state" : "Nebraska",
+        "FIPS" : "31-07625",
+        "counties" : [
+            "Hall County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 822,
+        "population_2020" : 822,
+        "population_2027" : 854,
+        "land_area_2020" : 0.0
+    },
+    "Osmond, Pierce County, NE" : {
+        "name" : "Osmond",
+        "state" : "Nebraska",
+        "FIPS" : "31-37595",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 794,
+        "population_2020" : 794,
+        "population_2027" : 825,
+        "land_area_2020" : 0.0
+    },
+    "Blue Hill, Webster County, NE" : {
+        "name" : "Blue Hill",
+        "state" : "Nebraska",
+        "FIPS" : "31-05560",
+        "counties" : [
+            "Webster County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 805,
+        "population_2020" : 805,
+        "population_2027" : 837,
+        "land_area_2020" : 0.0
+    },
+    "Humboldt, Richardson County, NE" : {
+        "name" : "Humboldt",
+        "state" : "Nebraska",
+        "FIPS" : "31-23445",
+        "counties" : [
+            "Richardson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 800,
+        "population_2020" : 800,
+        "population_2027" : 831,
+        "land_area_2020" : 0.0
+    },
+    "Hooper, Dodge County, NE" : {
+        "name" : "Hooper",
+        "state" : "Nebraska",
+        "FIPS" : "31-23025",
+        "counties" : [
+            "Dodge County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 857,
+        "population_2020" : 857,
+        "population_2027" : 891,
+        "land_area_2020" : 0.0
+    },
+    "Rushville, Sheridan County, NE" : {
+        "name" : "Rushville",
+        "state" : "Nebraska",
+        "FIPS" : "31-42775",
+        "counties" : [
+            "Sheridan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 816,
+        "population_2020" : 816,
+        "population_2027" : 848,
+        "land_area_2020" : 0.0
+    },
+    "Oshkosh, Garden County, NE" : {
+        "name" : "Oshkosh",
+        "state" : "Nebraska",
+        "FIPS" : "31-37560",
+        "counties" : [
+            "Garden County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 809,
+        "population_2020" : 809,
+        "population_2027" : 841,
+        "land_area_2020" : 0.0
+    },
+    "Benkelman, Dundy County, NE" : {
+        "name" : "Benkelman",
+        "state" : "Nebraska",
+        "FIPS" : "31-04230",
+        "counties" : [
+            "Dundy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 821,
+        "population_2020" : 821,
+        "population_2027" : 853,
+        "land_area_2020" : 0.0
+    },
+    "Hemingford, Box Butte County, NE" : {
+        "name" : "Hemingford",
+        "state" : "Nebraska",
+        "FIPS" : "31-22045",
+        "counties" : [
+            "Box Butte County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 787,
+        "population_2020" : 787,
+        "population_2027" : 818,
+        "land_area_2020" : 0.0
+    },
+    "Axtell, Kearney County, NE" : {
+        "name" : "Axtell",
+        "state" : "Nebraska",
+        "FIPS" : "31-02830",
+        "counties" : [
+            "Kearney County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 732,
+        "population_2020" : 732,
+        "population_2027" : 761,
+        "land_area_2020" : 0.0
+    },
+    "Crofton, Knox County, NE" : {
+        "name" : "Crofton",
+        "state" : "Nebraska",
+        "FIPS" : "31-11440",
+        "counties" : [
+            "Knox County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 756,
+        "population_2020" : 756,
+        "population_2027" : 786,
+        "land_area_2020" : 0.0
+    },
+    "Juniata, Adams County, NE" : {
+        "name" : "Juniata",
+        "state" : "Nebraska",
+        "FIPS" : "31-24950",
+        "counties" : [
+            "Adams County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 748,
+        "population_2020" : 748,
+        "population_2027" : 777,
+        "land_area_2020" : 0.0
+    },
+    "Shelby, Polk County, NE" : {
+        "name" : "Shelby",
+        "state" : "Nebraska",
+        "FIPS" : "31-44595",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 710,
+        "population_2020" : 710,
+        "population_2027" : 738,
+        "land_area_2020" : 0.0
+    },
+    "Clay Center, Clay County, NE" : {
+        "name" : "Clay Center",
+        "state" : "Nebraska",
+        "FIPS" : "31-09375",
+        "counties" : [
+            "Clay County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 735,
+        "population_2020" : 735,
+        "population_2027" : 764,
+        "land_area_2020" : 0.0
+    },
+    "Deshler, Thayer County, NE" : {
+        "name" : "Deshler",
+        "state" : "Nebraska",
+        "FIPS" : "31-12840",
+        "counties" : [
+            "Thayer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 752,
+        "population_2020" : 752,
+        "population_2027" : 781,
+        "land_area_2020" : 0.0
+    },
+    "Bertrand, Phelps County, NE" : {
+        "name" : "Bertrand",
+        "state" : "Nebraska",
+        "FIPS" : "31-04615",
+        "counties" : [
+            "Phelps County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 709,
+        "population_2020" : 709,
+        "population_2027" : 737,
+        "land_area_2020" : 0.0
+    },
+    "St. Edward, Boone County, NE" : {
+        "name" : "St. Edward",
+        "state" : "Nebraska",
+        "FIPS" : "31-43055",
+        "counties" : [
+            "Boone County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 725,
+        "population_2020" : 725,
+        "population_2027" : 753,
+        "land_area_2020" : 0.0
+    },
+    "Minatare, Scotts Bluff County, NE" : {
+        "name" : "Minatare",
+        "state" : "Nebraska",
+        "FIPS" : "31-32305",
+        "counties" : [
+            "Scotts Bluff County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 715,
+        "population_2020" : 715,
+        "population_2027" : 743,
+        "land_area_2020" : 0.0
+    },
+    "Elgin, Antelope County, NE" : {
+        "name" : "Elgin",
+        "state" : "Nebraska",
+        "FIPS" : "31-14730",
+        "counties" : [
+            "Antelope County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 717,
+        "population_2020" : 717,
+        "population_2027" : 745,
+        "land_area_2020" : 0.0
+    },
+    "Oxford, Furnas County, NE" : {
+        "name" : "Oxford",
+        "state" : "Nebraska",
+        "FIPS" : "31-37910",
+        "counties" : [
+            "Furnas County",
+            "Harlan County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 718,
+        "population_2020" : 718,
+        "population_2027" : 746,
+        "land_area_2020" : 0.0
+    },
+    "Elmwood, Cass County, NE" : {
+        "name" : "Elmwood",
+        "state" : "Nebraska",
+        "FIPS" : "31-15430",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 654,
+        "population_2020" : 654,
+        "population_2027" : 680,
+        "land_area_2020" : 0.0
+    },
+    "Walthill, Thurston County, NE" : {
+        "name" : "Walthill",
+        "state" : "Nebraska",
+        "FIPS" : "31-51245",
+        "counties" : [
+            "Thurston County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 682,
+        "population_2020" : 682,
+        "population_2027" : 709,
+        "land_area_2020" : 0.0
+    },
+    "Firth, Lancaster County, NE" : {
+        "name" : "Firth",
+        "state" : "Nebraska",
+        "FIPS" : "31-16935",
+        "counties" : [
+            "Lancaster County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 649,
+        "population_2020" : 649,
+        "population_2027" : 674,
+        "land_area_2020" : 0.0
+    },
+    "Alda, Hall County, NE" : {
+        "name" : "Alda",
+        "state" : "Nebraska",
+        "FIPS" : "31-00625",
+        "counties" : [
+            "Hall County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 647,
+        "population_2020" : 647,
+        "population_2027" : 672,
+        "land_area_2020" : 0.0
+    },
+    "Newman Grove, Madison County, NE" : {
+        "name" : "Newman Grove",
+        "state" : "Nebraska",
+        "FIPS" : "31-34230",
+        "counties" : [
+            "Madison County",
+            "Platte County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 667,
+        "population_2020" : 667,
+        "population_2027" : 693,
+        "land_area_2020" : 0.0
+    },
+    "Beemer, Cuming County, NE" : {
+        "name" : "Beemer",
+        "state" : "Nebraska",
+        "FIPS" : "31-03635",
+        "counties" : [
+            "Cuming County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 611,
+        "population_2020" : 611,
+        "population_2027" : 635,
+        "land_area_2020" : 0.0
+    },
+    "Elwood, Gosper County, NE" : {
+        "name" : "Elwood",
+        "state" : "Nebraska",
+        "FIPS" : "31-15570",
+        "counties" : [
+            "Gosper County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 658,
+        "population_2020" : 658,
+        "population_2027" : 684,
+        "land_area_2020" : 0.0
+    },
+    "Clarkson, Colfax County, NE" : {
+        "name" : "Clarkson",
+        "state" : "Nebraska",
+        "FIPS" : "31-09200",
+        "counties" : [
+            "Colfax County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 641,
+        "population_2020" : 641,
+        "population_2027" : 666,
+        "land_area_2020" : 0.0
+    },
+    "Mead, Saunders County, NE" : {
+        "name" : "Mead",
+        "state" : "Nebraska",
+        "FIPS" : "31-31395",
+        "counties" : [
+            "Saunders County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 617,
+        "population_2020" : 617,
+        "population_2027" : 641,
+        "land_area_2020" : 0.0
+    },
+    "Hershey, Lincoln County, NE" : {
+        "name" : "Hershey",
+        "state" : "Nebraska",
+        "FIPS" : "31-22290",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 649,
+        "population_2020" : 649,
+        "population_2027" : 674,
+        "land_area_2020" : 0.0
+    },
+    "Cedar Bluffs, Saunders County, NE" : {
+        "name" : "Cedar Bluffs",
+        "state" : "Nebraska",
+        "FIPS" : "31-08150",
+        "counties" : [
+            "Saunders County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 615,
+        "population_2020" : 615,
+        "population_2027" : 639,
+        "land_area_2020" : 0.0
+    },
+    "Adams, Gage County, NE" : {
+        "name" : "Adams",
+        "state" : "Nebraska",
+        "FIPS" : "31-00240",
+        "counties" : [
+            "Gage County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 604,
+        "population_2020" : 604,
+        "population_2027" : 628,
+        "land_area_2020" : 0.0
+    },
+    "Greenwood, Cass County, NE" : {
+        "name" : "Greenwood",
+        "state" : "Nebraska",
+        "FIPS" : "31-20190",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 595,
+        "population_2020" : 595,
+        "population_2027" : 618,
+        "land_area_2020" : 0.0
+    },
+    "Dorchester, Saline County, NE" : {
+        "name" : "Dorchester",
+        "state" : "Nebraska",
+        "FIPS" : "31-13435",
+        "counties" : [
+            "Saline County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 610,
+        "population_2020" : 610,
+        "population_2027" : 634,
+        "land_area_2020" : 0.0
+    },
+    "Boys Town, Douglas County, NE" : {
+        "name" : "Boys Town",
+        "state" : "Nebraska",
+        "FIPS" : "31-06015",
+        "counties" : [
+            "Douglas County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 410,
+        "population_2020" : 410,
+        "population_2027" : 426,
+        "land_area_2020" : 0.0
+    },
+    "Valparaiso, Saunders County, NE" : {
+        "name" : "Valparaiso",
+        "state" : "Nebraska",
+        "FIPS" : "31-50125",
+        "counties" : [
+            "Saunders County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 595,
+        "population_2020" : 595,
+        "population_2027" : 618,
+        "land_area_2020" : 0.0
+    },
+    "Peru, Nemaha County, NE" : {
+        "name" : "Peru",
+        "state" : "Nebraska",
+        "FIPS" : "31-38960",
+        "counties" : [
+            "Nemaha County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 648,
+        "population_2020" : 648,
+        "population_2027" : 673,
+        "land_area_2020" : 0.0
+    },
+    "Arnold, Custer County, NE" : {
+        "name" : "Arnold",
+        "state" : "Nebraska",
+        "FIPS" : "31-02095",
+        "counties" : [
+            "Custer County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 592,
+        "population_2020" : 592,
+        "population_2027" : 615,
+        "land_area_2020" : 0.0
+    },
+    "Overton, Dawson County, NE" : {
+        "name" : "Overton",
+        "state" : "Nebraska",
+        "FIPS" : "31-37770",
+        "counties" : [
+            "Dawson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 607,
+        "population_2020" : 607,
+        "population_2027" : 631,
+        "land_area_2020" : 0.0
+    },
+    "Fairmont, Fillmore County, NE" : {
+        "name" : "Fairmont",
+        "state" : "Nebraska",
+        "FIPS" : "31-16550",
+        "counties" : [
+            "Fillmore County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 592,
+        "population_2020" : 592,
+        "population_2027" : 615,
+        "land_area_2020" : 0.0
+    },
+    "Wausa, Knox County, NE" : {
+        "name" : "Wausa",
+        "state" : "Nebraska",
+        "FIPS" : "31-51735",
+        "counties" : [
+            "Knox County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 592,
+        "population_2020" : 592,
+        "population_2027" : 615,
+        "land_area_2020" : 0.0
+    },
+    "Dodge, Dodge County, NE" : {
+        "name" : "Dodge",
+        "state" : "Nebraska",
+        "FIPS" : "31-13295",
+        "counties" : [
+            "Dodge County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 611,
+        "population_2020" : 611,
+        "population_2027" : 635,
+        "land_area_2020" : 0.0
+    },
+    "Hay Springs, Sheridan County, NE" : {
+        "name" : "Hay Springs",
+        "state" : "Nebraska",
+        "FIPS" : "31-21730",
+        "counties" : [
+            "Sheridan County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 599,
+        "population_2020" : 599,
+        "population_2027" : 622,
+        "land_area_2020" : 0.0
+    },
+    "Callaway, Custer County, NE" : {
+        "name" : "Callaway",
+        "state" : "Nebraska",
+        "FIPS" : "31-07660",
+        "counties" : [
+            "Custer County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 563,
+        "population_2020" : 563,
+        "population_2027" : 585,
+        "land_area_2020" : 0.0
+    },
+    "Palmyra, Otoe County, NE" : {
+        "name" : "Palmyra",
+        "state" : "Nebraska",
+        "FIPS" : "31-38190",
+        "counties" : [
+            "Otoe County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 534,
+        "population_2020" : 534,
+        "population_2027" : 555,
+        "land_area_2020" : 0.0
+    },
+    "Howells, Colfax County, NE" : {
+        "name" : "Howells",
+        "state" : "Nebraska",
+        "FIPS" : "31-23340",
+        "counties" : [
+            "Colfax County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 561,
+        "population_2020" : 561,
+        "population_2027" : 583,
+        "land_area_2020" : 0.0
+    },
+    "Bassett, Rock County, NE" : {
+        "name" : "Bassett",
+        "state" : "Nebraska",
+        "FIPS" : "31-03215",
+        "counties" : [
+            "Rock County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 538,
+        "population_2020" : 538,
+        "population_2027" : 559,
+        "land_area_2020" : 0.0
+    },
+    "Verdigre, Knox County, NE" : {
+        "name" : "Verdigre",
+        "state" : "Nebraska",
+        "FIPS" : "31-50370",
+        "counties" : [
+            "Knox County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 554,
+        "population_2020" : 554,
+        "population_2027" : 576,
+        "land_area_2020" : 0.0
+    },
+    "Beaver City, Furnas County, NE" : {
+        "name" : "Beaver City",
+        "state" : "Nebraska",
+        "FIPS" : "31-03495",
+        "counties" : [
+            "Furnas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 537,
+        "population_2020" : 537,
+        "population_2027" : 558,
+        "land_area_2020" : 0.0
+    },
+    "Wauneta, Chase County, NE" : {
+        "name" : "Wauneta",
+        "state" : "Nebraska",
+        "FIPS" : "31-51700",
+        "counties" : [
+            "Chase County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 549,
+        "population_2020" : 549,
+        "population_2027" : 570,
+        "land_area_2020" : 0.0
+    },
+    "Exeter, Fillmore County, NE" : {
+        "name" : "Exeter",
+        "state" : "Nebraska",
+        "FIPS" : "31-16340",
+        "counties" : [
+            "Fillmore County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 523,
+        "population_2020" : 523,
+        "population_2027" : 543,
+        "land_area_2020" : 0.0
+    },
+    "Indianola, Red Willow County, NE" : {
+        "name" : "Indianola",
+        "state" : "Nebraska",
+        "FIPS" : "31-23830",
+        "counties" : [
+            "Red Willow County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 524,
+        "population_2020" : 524,
+        "population_2027" : 545,
+        "land_area_2020" : 0.0
+    },
+    "Culbertson, Hitchcock County, NE" : {
+        "name" : "Culbertson",
+        "state" : "Nebraska",
+        "FIPS" : "31-11615",
+        "counties" : [
+            "Hitchcock County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 534,
+        "population_2020" : 534,
+        "population_2027" : 555,
+        "land_area_2020" : 0.0
+    },
+    "Homer, Dakota County, NE" : {
+        "name" : "Homer",
+        "state" : "Nebraska",
+        "FIPS" : "31-22920",
+        "counties" : [
+            "Dakota County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 532,
+        "population_2020" : 532,
+        "population_2027" : 553,
+        "land_area_2020" : 0.0
+    },
+    "Coleridge, Cedar County, NE" : {
+        "name" : "Coleridge",
+        "state" : "Nebraska",
+        "FIPS" : "31-09865",
+        "counties" : [
+            "Cedar County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 537,
+        "population_2020" : 537,
+        "population_2027" : 558,
+        "land_area_2020" : 0.0
+    },
+    "Cortland, Gage County, NE" : {
+        "name" : "Cortland",
+        "state" : "Nebraska",
+        "FIPS" : "31-10635",
+        "counties" : [
+            "Gage County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 504,
+        "population_2020" : 504,
+        "population_2027" : 524,
+        "land_area_2020" : 0.0
+    },
+    "De Witt, Saline County, NE" : {
+        "name" : "De Witt",
+        "state" : "Nebraska",
+        "FIPS" : "31-13015",
+        "counties" : [
+            "Saline County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 530,
+        "population_2020" : 530,
+        "population_2027" : 551,
+        "land_area_2020" : 0.0
+    },
+    "Paxton, Keith County, NE" : {
+        "name" : "Paxton",
+        "state" : "Nebraska",
+        "FIPS" : "31-38610",
+        "counties" : [
+            "Keith County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 516,
+        "population_2020" : 516,
+        "population_2027" : 536,
+        "land_area_2020" : 0.0
+    },
+    "Stuart, Holt County, NE" : {
+        "name" : "Stuart",
+        "state" : "Nebraska",
+        "FIPS" : "31-47500",
+        "counties" : [
+            "Holt County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 486,
+        "population_2020" : 486,
+        "population_2027" : 505,
+        "land_area_2020" : 0.0
+    },
+    "Trenton, Hitchcock County, NE" : {
+        "name" : "Trenton",
+        "state" : "Nebraska",
+        "FIPS" : "31-49145",
+        "counties" : [
+            "Hitchcock County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 516,
+        "population_2020" : 516,
+        "population_2027" : 536,
+        "land_area_2020" : 0.0
+    },
+    "Murray, Cass County, NE" : {
+        "name" : "Murray",
+        "state" : "Nebraska",
+        "FIPS" : "31-33425",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 480,
+        "population_2020" : 480,
+        "population_2027" : 499,
+        "land_area_2020" : 0.0
+    },
+    "Bancroft, Cuming County, NE" : {
+        "name" : "Bancroft",
+        "state" : "Nebraska",
+        "FIPS" : "31-03005",
+        "counties" : [
+            "Cuming County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 496,
+        "population_2020" : 496,
+        "population_2027" : 515,
+        "land_area_2020" : 0.0
+    },
+    "Sargent, Custer County, NE" : {
+        "name" : "Sargent",
+        "state" : "Nebraska",
+        "FIPS" : "31-43685",
+        "counties" : [
+            "Custer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 500,
+        "population_2020" : 500,
+        "population_2027" : 520,
+        "land_area_2020" : 0.0
+    },
+    "McCool Junction, York County, NE" : {
+        "name" : "McCool Junction",
+        "state" : "Nebraska",
+        "FIPS" : "31-29960",
+        "counties" : [
+            "York County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 453,
+        "population_2020" : 453,
+        "population_2027" : 471,
+        "land_area_2020" : 0.0
+    },
+    "Cedar Creek, Cass County, NE" : {
+        "name" : "Cedar Creek",
+        "state" : "Nebraska",
+        "FIPS" : "31-08185",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 465,
+        "population_2020" : 465,
+        "population_2027" : 483,
+        "land_area_2020" : 0.0
+    },
+    "Malcolm, Lancaster County, NE" : {
+        "name" : "Malcolm",
+        "state" : "Nebraska",
+        "FIPS" : "31-30345",
+        "counties" : [
+            "Lancaster County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 457,
+        "population_2020" : 457,
+        "population_2027" : 475,
+        "land_area_2020" : 0.0
+    },
+    "Sterling, Johnson County, NE" : {
+        "name" : "Sterling",
+        "state" : "Nebraska",
+        "FIPS" : "31-47150",
+        "counties" : [
+            "Johnson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 480,
+        "population_2020" : 480,
+        "population_2027" : 499,
+        "land_area_2020" : 0.0
+    },
+    "Ansley, Custer County, NE" : {
+        "name" : "Ansley",
+        "state" : "Nebraska",
+        "FIPS" : "31-01535",
+        "counties" : [
+            "Custer County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 459,
+        "population_2020" : 459,
+        "population_2027" : 477,
+        "land_area_2020" : 0.0
+    },
+    "Mullen, Hooker County, NE" : {
+        "name" : "Mullen",
+        "state" : "Nebraska",
+        "FIPS" : "31-33250",
+        "counties" : [
+            "Hooker County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 500,
+        "population_2020" : 500,
+        "population_2027" : 520,
+        "land_area_2020" : 0.0
+    },
+    "Nelson, Nuckolls County, NE" : {
+        "name" : "Nelson",
+        "state" : "Nebraska",
+        "FIPS" : "31-33880",
+        "counties" : [
+            "Nuckolls County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 456,
+        "population_2020" : 456,
+        "population_2027" : 474,
+        "land_area_2020" : 0.0
+    },
+    "Palmer, Merrick County, NE" : {
+        "name" : "Palmer",
+        "state" : "Nebraska",
+        "FIPS" : "31-38160",
+        "counties" : [
+            "Merrick County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 439,
+        "population_2020" : 439,
+        "population_2027" : 456,
+        "land_area_2020" : 0.0
+    },
+    "Leigh, Colfax County, NE" : {
+        "name" : "Leigh",
+        "state" : "Nebraska",
+        "FIPS" : "31-26560",
+        "counties" : [
+            "Colfax County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 435,
+        "population_2020" : 435,
+        "population_2027" : 452,
+        "land_area_2020" : 0.0
+    },
+    "Hampton, Hamilton County, NE" : {
+        "name" : "Hampton",
+        "state" : "Nebraska",
+        "FIPS" : "31-20785",
+        "counties" : [
+            "Hamilton County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 432,
+        "population_2020" : 432,
+        "population_2027" : 449,
+        "land_area_2020" : 0.0
+    },
+    "Edgar, Clay County, NE" : {
+        "name" : "Edgar",
+        "state" : "Nebraska",
+        "FIPS" : "31-14450",
+        "counties" : [
+            "Clay County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 428,
+        "population_2020" : 428,
+        "population_2027" : 445,
+        "land_area_2020" : 0.0
+    },
+    "Spalding, Greeley County, NE" : {
+        "name" : "Spalding",
+        "state" : "Nebraska",
+        "FIPS" : "31-46135",
+        "counties" : [
+            "Greeley County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 408,
+        "population_2020" : 408,
+        "population_2027" : 424,
+        "land_area_2020" : 0.0
+    },
+    "Santee, Knox County, NE" : {
+        "name" : "Santee",
+        "state" : "Nebraska",
+        "FIPS" : "31-43475",
+        "counties" : [
+            "Knox County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 424,
+        "population_2020" : 424,
+        "population_2027" : 441,
+        "land_area_2020" : 0.0
+    },
+    "Giltner, Hamilton County, NE" : {
+        "name" : "Giltner",
+        "state" : "Nebraska",
+        "FIPS" : "31-18825",
+        "counties" : [
+            "Hamilton County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 406,
+        "population_2020" : 406,
+        "population_2027" : 422,
+        "land_area_2020" : 0.0
+    },
+    "Decatur, Burt County, NE" : {
+        "name" : "Decatur",
+        "state" : "Nebraska",
+        "FIPS" : "31-12525",
+        "counties" : [
+            "Burt County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 410,
+        "population_2020" : 410,
+        "population_2027" : 426,
+        "land_area_2020" : 0.0
+    },
+    "Bellwood, Butler County, NE" : {
+        "name" : "Bellwood",
+        "state" : "Nebraska",
+        "FIPS" : "31-04020",
+        "counties" : [
+            "Butler County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 407,
+        "population_2020" : 407,
+        "population_2027" : 423,
+        "land_area_2020" : 0.0
+    },
+    "Greeley Center, Greeley County, NE" : {
+        "name" : "Greeley Center",
+        "state" : "Nebraska",
+        "FIPS" : "31-20050",
+        "counties" : [
+            "Greeley County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 402,
+        "population_2020" : 402,
+        "population_2027" : 418,
+        "land_area_2020" : 0.0
+    },
+    "Big Springs, Deuel County, NE" : {
+        "name" : "Big Springs",
+        "state" : "Nebraska",
+        "FIPS" : "31-04895",
+        "counties" : [
+            "Deuel County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 394,
+        "population_2020" : 394,
+        "population_2027" : 409,
+        "land_area_2020" : 0.0
+    },
+    "Eustis, Frontier County, NE" : {
+        "name" : "Eustis",
+        "state" : "Nebraska",
+        "FIPS" : "31-16165",
+        "counties" : [
+            "Frontier County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 389,
+        "population_2020" : 389,
+        "population_2027" : 404,
+        "land_area_2020" : 0.0
+    },
+    "Loomis, Phelps County, NE" : {
+        "name" : "Loomis",
+        "state" : "Nebraska",
+        "FIPS" : "31-29085",
+        "counties" : [
+            "Phelps County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 391,
+        "population_2020" : 391,
+        "population_2027" : 406,
+        "land_area_2020" : 0.0
+    },
+    "Duncan, Platte County, NE" : {
+        "name" : "Duncan",
+        "state" : "Nebraska",
+        "FIPS" : "31-13890",
+        "counties" : [
+            "Platte County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 392,
+        "population_2020" : 392,
+        "population_2027" : 407,
+        "land_area_2020" : 0.0
+    },
+    "Spencer, Boyd County, NE" : {
+        "name" : "Spencer",
+        "state" : "Nebraska",
+        "FIPS" : "31-46275",
+        "counties" : [
+            "Boyd County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 408,
+        "population_2020" : 408,
+        "population_2027" : 424,
+        "land_area_2020" : 0.0
+    },
+    "Pleasanton, Buffalo County, NE" : {
+        "name" : "Pleasanton",
+        "state" : "Nebraska",
+        "FIPS" : "31-39450",
+        "counties" : [
+            "Buffalo County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 361,
+        "population_2020" : 361,
+        "population_2027" : 375,
+        "land_area_2020" : 0.0
+    },
+    "Cedar Rapids, Boone County, NE" : {
+        "name" : "Cedar Rapids",
+        "state" : "Nebraska",
+        "FIPS" : "31-08220",
+        "counties" : [
+            "Boone County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 382,
+        "population_2020" : 382,
+        "population_2027" : 397,
+        "land_area_2020" : 0.0
+    },
+    "Ewing, Holt County, NE" : {
+        "name" : "Ewing",
+        "state" : "Nebraska",
+        "FIPS" : "31-16270",
+        "counties" : [
+            "Holt County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 373,
+        "population_2020" : 373,
+        "population_2027" : 388,
+        "land_area_2020" : 0.0
+    },
+    "Kennard, Washington County, NE" : {
+        "name" : "Kennard",
+        "state" : "Nebraska",
+        "FIPS" : "31-25230",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 381,
+        "population_2020" : 381,
+        "population_2027" : 396,
+        "land_area_2020" : 0.0
+    },
+    "Winside, Wayne County, NE" : {
+        "name" : "Winside",
+        "state" : "Nebraska",
+        "FIPS" : "31-53380",
+        "counties" : [
+            "Wayne County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 379,
+        "population_2020" : 379,
+        "population_2027" : 394,
+        "land_area_2020" : 0.0
+    },
+    "Beaver Crossing, Seward County, NE" : {
+        "name" : "Beaver Crossing",
+        "state" : "Nebraska",
+        "FIPS" : "31-03530",
+        "counties" : [
+            "Seward County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 375,
+        "population_2020" : 375,
+        "population_2027" : 390,
+        "land_area_2020" : 0.0
+    },
+    "Brady, Lincoln County, NE" : {
+        "name" : "Brady",
+        "state" : "Nebraska",
+        "FIPS" : "31-06085",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 383,
+        "population_2020" : 383,
+        "population_2027" : 398,
+        "land_area_2020" : 0.0
+    },
+    "Hildreth, Franklin County, NE" : {
+        "name" : "Hildreth",
+        "state" : "Nebraska",
+        "FIPS" : "31-22430",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 377,
+        "population_2020" : 377,
+        "population_2027" : 392,
+        "land_area_2020" : 0.0
+    },
+    "Inglewood, Dodge County, NE" : {
+        "name" : "Inglewood",
+        "state" : "Nebraska",
+        "FIPS" : "31-23970",
+        "counties" : [
+            "Dodge County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 380,
+        "population_2020" : 380,
+        "population_2027" : 395,
+        "land_area_2020" : 0.0
+    },
+    "Niobrara, Knox County, NE" : {
+        "name" : "Niobrara",
+        "state" : "Nebraska",
+        "FIPS" : "31-34370",
+        "counties" : [
+            "Knox County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 365,
+        "population_2020" : 365,
+        "population_2027" : 379,
+        "land_area_2020" : 0.0
+    },
+    "Rising City, Butler County, NE" : {
+        "name" : "Rising City",
+        "state" : "Nebraska",
+        "FIPS" : "31-41480",
+        "counties" : [
+            "Butler County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 356,
+        "population_2020" : 356,
+        "population_2027" : 370,
+        "land_area_2020" : 0.0
+    },
+    "Plymouth, Jefferson County, NE" : {
+        "name" : "Plymouth",
+        "state" : "Nebraska",
+        "FIPS" : "31-39590",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 364,
+        "population_2020" : 364,
+        "population_2027" : 378,
+        "land_area_2020" : 0.0
+    },
+    "Allen, Dixon County, NE" : {
+        "name" : "Allen",
+        "state" : "Nebraska",
+        "FIPS" : "31-00870",
+        "counties" : [
+            "Dixon County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 355,
+        "population_2020" : 355,
+        "population_2027" : 369,
+        "land_area_2020" : 0.0
+    },
+    "Orchard, Antelope County, NE" : {
+        "name" : "Orchard",
+        "state" : "Nebraska",
+        "FIPS" : "31-37210",
+        "counties" : [
+            "Antelope County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 363,
+        "population_2020" : 363,
+        "population_2027" : 377,
+        "land_area_2020" : 0.0
+    },
+    "Brainard, Butler County, NE" : {
+        "name" : "Brainard",
+        "state" : "Nebraska",
+        "FIPS" : "31-06120",
+        "counties" : [
+            "Butler County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 336,
+        "population_2020" : 336,
+        "population_2027" : 349,
+        "land_area_2020" : 0.0
+    },
+    "Merna, Custer County, NE" : {
+        "name" : "Merna",
+        "state" : "Nebraska",
+        "FIPS" : "31-31780",
+        "counties" : [
+            "Custer County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 343,
+        "population_2020" : 343,
+        "population_2027" : 356,
+        "land_area_2020" : 0.0
+    },
+    "Shickley, Fillmore County, NE" : {
+        "name" : "Shickley",
+        "state" : "Nebraska",
+        "FIPS" : "31-45085",
+        "counties" : [
+            "Fillmore County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 347,
+        "population_2020" : 347,
+        "population_2027" : 361,
+        "land_area_2020" : 0.0
+    },
+    "Polk, Polk County, NE" : {
+        "name" : "Polk",
+        "state" : "Nebraska",
+        "FIPS" : "31-39660",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 346,
+        "population_2020" : 346,
+        "population_2027" : 360,
+        "land_area_2020" : 0.0
+    },
+    "Potter, Cheyenne County, NE" : {
+        "name" : "Potter",
+        "state" : "Nebraska",
+        "FIPS" : "31-39870",
+        "counties" : [
+            "Cheyenne County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 342,
+        "population_2020" : 342,
+        "population_2027" : 355,
+        "land_area_2020" : 0.0
+    },
+    "Clarks, Merrick County, NE" : {
+        "name" : "Clarks",
+        "state" : "Nebraska",
+        "FIPS" : "31-09165",
+        "counties" : [
+            "Merrick County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 344,
+        "population_2020" : 344,
+        "population_2027" : 357,
+        "land_area_2020" : 0.0
+    },
+    "Fairfield, Clay County, NE" : {
+        "name" : "Fairfield",
+        "state" : "Nebraska",
+        "FIPS" : "31-16445",
+        "counties" : [
+            "Clay County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 330,
+        "population_2020" : 330,
+        "population_2027" : 343,
+        "land_area_2020" : 0.0
+    },
+    "Orleans, Harlan County, NE" : {
+        "name" : "Orleans",
+        "state" : "Nebraska",
+        "FIPS" : "31-37420",
+        "counties" : [
+            "Harlan County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 341,
+        "population_2020" : 341,
+        "population_2027" : 354,
+        "land_area_2020" : 0.0
+    },
+    "Platte Center, Platte County, NE" : {
+        "name" : "Platte Center",
+        "state" : "Nebraska",
+        "FIPS" : "31-39310",
+        "counties" : [
+            "Platte County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 333,
+        "population_2020" : 333,
+        "population_2027" : 346,
+        "land_area_2020" : 0.0
+    },
+    "Wilcox, Kearney County, NE" : {
+        "name" : "Wilcox",
+        "state" : "Nebraska",
+        "FIPS" : "31-52995",
+        "counties" : [
+            "Kearney County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 330,
+        "population_2020" : 330,
+        "population_2027" : 343,
+        "land_area_2020" : 0.0
+    },
+    "Phillips, Hamilton County, NE" : {
+        "name" : "Phillips",
+        "state" : "Nebraska",
+        "FIPS" : "31-39030",
+        "counties" : [
+            "Hamilton County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 320,
+        "population_2020" : 320,
+        "population_2027" : 333,
+        "land_area_2020" : 0.0
+    },
+    "Clearwater, Antelope County, NE" : {
+        "name" : "Clearwater",
+        "state" : "Nebraska",
+        "FIPS" : "31-09445",
+        "counties" : [
+            "Antelope County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 320,
+        "population_2020" : 320,
+        "population_2027" : 333,
+        "land_area_2020" : 0.0
+    },
+    "Petersburg, Boone County, NE" : {
+        "name" : "Petersburg",
+        "state" : "Nebraska",
+        "FIPS" : "31-38995",
+        "counties" : [
+            "Boone County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 332,
+        "population_2020" : 332,
+        "population_2027" : 345,
+        "land_area_2020" : 0.0
+    },
+    "Silver Creek, Merrick County, NE" : {
+        "name" : "Silver Creek",
+        "state" : "Nebraska",
+        "FIPS" : "31-45400",
+        "counties" : [
+            "Merrick County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 320,
+        "population_2020" : 320,
+        "population_2027" : 333,
+        "land_area_2020" : 0.0
+    },
+    "Lodgepole, Cheyenne County, NE" : {
+        "name" : "Lodgepole",
+        "state" : "Nebraska",
+        "FIPS" : "31-28420",
+        "counties" : [
+            "Cheyenne County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 312,
+        "population_2020" : 312,
+        "population_2027" : 324,
+        "land_area_2020" : 0.0
+    },
+    "Johnson, Nemaha County, NE" : {
+        "name" : "Johnson",
+        "state" : "Nebraska",
+        "FIPS" : "31-24670",
+        "counties" : [
+            "Nemaha County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 309,
+        "population_2020" : 309,
+        "population_2027" : 321,
+        "land_area_2020" : 0.0
+    },
+    "Brule, Keith County, NE" : {
+        "name" : "Brule",
+        "state" : "Nebraska",
+        "FIPS" : "31-06785",
+        "counties" : [
+            "Keith County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 331,
+        "population_2020" : 331,
+        "population_2027" : 344,
+        "land_area_2020" : 0.0
+    },
+    "Cook, Johnson County, NE" : {
+        "name" : "Cook",
+        "state" : "Nebraska",
+        "FIPS" : "31-10390",
+        "counties" : [
+            "Johnson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 319,
+        "population_2020" : 319,
+        "population_2027" : 331,
+        "land_area_2020" : 0.0
+    },
+    "Davenport, Thayer County, NE" : {
+        "name" : "Davenport",
+        "state" : "Nebraska",
+        "FIPS" : "31-12245",
+        "counties" : [
+            "Thayer County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 319,
+        "population_2020" : 319,
+        "population_2027" : 331,
+        "land_area_2020" : 0.0
+    },
+    "Stratton, Hitchcock County, NE" : {
+        "name" : "Stratton",
+        "state" : "Nebraska",
+        "FIPS" : "31-47395",
+        "counties" : [
+            "Hitchcock County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 310,
+        "population_2020" : 310,
+        "population_2027" : 322,
+        "land_area_2020" : 0.0
+    },
+    "Waco, York County, NE" : {
+        "name" : "Waco",
+        "state" : "Nebraska",
+        "FIPS" : "31-50895",
+        "counties" : [
+            "York County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 296,
+        "population_2020" : 296,
+        "population_2027" : 308,
+        "land_area_2020" : 0.0
+    },
+    "Wallace, Lincoln County, NE" : {
+        "name" : "Wallace",
+        "state" : "Nebraska",
+        "FIPS" : "31-51175",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 318,
+        "population_2020" : 318,
+        "population_2027" : 330,
+        "land_area_2020" : 0.0
+    },
+    "Unadilla, Otoe County, NE" : {
+        "name" : "Unadilla",
+        "state" : "Nebraska",
+        "FIPS" : "31-49530",
+        "counties" : [
+            "Otoe County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 296,
+        "population_2020" : 296,
+        "population_2027" : 308,
+        "land_area_2020" : 0.0
+    },
+    "Nickerson, Dodge County, NE" : {
+        "name" : "Nickerson",
+        "state" : "Nebraska",
+        "FIPS" : "31-34300",
+        "counties" : [
+            "Dodge County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 312,
+        "population_2020" : 312,
+        "population_2027" : 324,
+        "land_area_2020" : 0.0
+    },
+    "Scotia, Greeley County, NE" : {
+        "name" : "Scotia",
+        "state" : "Nebraska",
+        "FIPS" : "31-44070",
+        "counties" : [
+            "Greeley County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 301,
+        "population_2020" : 301,
+        "population_2027" : 313,
+        "land_area_2020" : 0.0
+    },
+    "Long Pine, Brown County, NE" : {
+        "name" : "Long Pine",
+        "state" : "Nebraska",
+        "FIPS" : "31-29050",
+        "counties" : [
+            "Brown County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 305,
+        "population_2020" : 305,
+        "population_2027" : 317,
+        "land_area_2020" : 0.0
+    },
+    "Prague, Saunders County, NE" : {
+        "name" : "Prague",
+        "state" : "Nebraska",
+        "FIPS" : "31-39975",
+        "counties" : [
+            "Saunders County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 291,
+        "population_2020" : 291,
+        "population_2027" : 302,
+        "land_area_2020" : 0.0
+    },
+    "Hadar, Pierce County, NE" : {
+        "name" : "Hadar",
+        "state" : "Nebraska",
+        "FIPS" : "31-20470",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 280,
+        "population_2020" : 280,
+        "population_2027" : 291,
+        "land_area_2020" : 0.0
+    },
+    "Hallam, Lancaster County, NE" : {
+        "name" : "Hallam",
+        "state" : "Nebraska",
+        "FIPS" : "31-20610",
+        "counties" : [
+            "Lancaster County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 268,
+        "population_2020" : 268,
+        "population_2027" : 278,
+        "land_area_2020" : 0.0
+    },
+    "Dalton, Cheyenne County, NE" : {
+        "name" : "Dalton",
+        "state" : "Nebraska",
+        "FIPS" : "31-12070",
+        "counties" : [
+            "Cheyenne County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 284,
+        "population_2020" : 284,
+        "population_2027" : 295,
+        "land_area_2020" : 0.0
+    },
+    "Monroe, Platte County, NE" : {
+        "name" : "Monroe",
+        "state" : "Nebraska",
+        "FIPS" : "31-32585",
+        "counties" : [
+            "Platte County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 296,
+        "population_2020" : 296,
+        "population_2027" : 308,
+        "land_area_2020" : 0.0
+    },
+    "Chambers, Holt County, NE" : {
+        "name" : "Chambers",
+        "state" : "Nebraska",
+        "FIPS" : "31-08675",
+        "counties" : [
+            "Holt County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 288,
+        "population_2020" : 288,
+        "population_2027" : 299,
+        "land_area_2020" : 0.0
+    },
+    "Lindsay, Platte County, NE" : {
+        "name" : "Lindsay",
+        "state" : "Nebraska",
+        "FIPS" : "31-28105",
+        "counties" : [
+            "Platte County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 283,
+        "population_2020" : 283,
+        "population_2027" : 294,
+        "land_area_2020" : 0.0
+    },
+    "Palisade, Hitchcock County, NE" : {
+        "name" : "Palisade",
+        "state" : "Nebraska",
+        "FIPS" : "31-38130",
+        "counties" : [
+            "Hitchcock County",
+            "Hayes County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 294,
+        "population_2020" : 294,
+        "population_2027" : 306,
+        "land_area_2020" : 0.0
+    },
+    "Bradshaw, York County, NE" : {
+        "name" : "Bradshaw",
+        "state" : "Nebraska",
+        "FIPS" : "31-06050",
+        "counties" : [
+            "York County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 273,
+        "population_2020" : 273,
+        "population_2027" : 284,
+        "land_area_2020" : 0.0
+    },
+    "Arcadia, Valley County, NE" : {
+        "name" : "Arcadia",
+        "state" : "Nebraska",
+        "FIPS" : "31-01850",
+        "counties" : [
+            "Valley County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 283,
+        "population_2020" : 283,
+        "population_2027" : 294,
+        "land_area_2020" : 0.0
+    },
+    "Murdock, Cass County, NE" : {
+        "name" : "Murdock",
+        "state" : "Nebraska",
+        "FIPS" : "31-33320",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 270,
+        "population_2020" : 270,
+        "population_2027" : 281,
+        "land_area_2020" : 0.0
+    },
+    "Dannebrog, Howard County, NE" : {
+        "name" : "Dannebrog",
+        "state" : "Nebraska",
+        "FIPS" : "31-12140",
+        "counties" : [
+            "Howard County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 273,
+        "population_2020" : 273,
+        "population_2027" : 284,
+        "land_area_2020" : 0.0
+    },
+    "Blue Springs, Gage County, NE" : {
+        "name" : "Blue Springs",
+        "state" : "Nebraska",
+        "FIPS" : "31-05630",
+        "counties" : [
+            "Gage County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 282,
+        "population_2020" : 282,
+        "population_2027" : 293,
+        "land_area_2020" : 0.0
+    },
+    "Butte, Boyd County, NE" : {
+        "name" : "Butte",
+        "state" : "Nebraska",
+        "FIPS" : "31-07485",
+        "counties" : [
+            "Boyd County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 286,
+        "population_2020" : 286,
+        "population_2027" : 297,
+        "land_area_2020" : 0.0
+    },
+    "Meadow Grove, Madison County, NE" : {
+        "name" : "Meadow Grove",
+        "state" : "Nebraska",
+        "FIPS" : "31-31465",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 287,
+        "population_2020" : 287,
+        "population_2027" : 298,
+        "land_area_2020" : 0.0
+    },
+    "Bruning, Thayer County, NE" : {
+        "name" : "Bruning",
+        "state" : "Nebraska",
+        "FIPS" : "31-06820",
+        "counties" : [
+            "Thayer County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 281,
+        "population_2020" : 281,
+        "population_2027" : 292,
+        "land_area_2020" : 0.0
+    },
+    "Hoskins, Wayne County, NE" : {
+        "name" : "Hoskins",
+        "state" : "Nebraska",
+        "FIPS" : "31-23235",
+        "counties" : [
+            "Wayne County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 263,
+        "population_2020" : 263,
+        "population_2027" : 273,
+        "land_area_2020" : 0.0
+    },
+    "Lawrence, Nuckolls County, NE" : {
+        "name" : "Lawrence",
+        "state" : "Nebraska",
+        "FIPS" : "31-26420",
+        "counties" : [
+            "Nuckolls County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 272,
+        "population_2020" : 272,
+        "population_2027" : 283,
+        "land_area_2020" : 0.0
+    },
+    "Oakdale, Antelope County, NE" : {
+        "name" : "Oakdale",
+        "state" : "Nebraska",
+        "FIPS" : "31-35385",
+        "counties" : [
+            "Antelope County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 276,
+        "population_2020" : 276,
+        "population_2027" : 287,
+        "land_area_2020" : 0.0
+    },
+    "Glenvil, Clay County, NE" : {
+        "name" : "Glenvil",
+        "state" : "Nebraska",
+        "FIPS" : "31-19070",
+        "counties" : [
+            "Clay County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 260,
+        "population_2020" : 260,
+        "population_2027" : 270,
+        "land_area_2020" : 0.0
+    },
+    "Maywood, Frontier County, NE" : {
+        "name" : "Maywood",
+        "state" : "Nebraska",
+        "FIPS" : "31-31325",
+        "counties" : [
+            "Frontier County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 262,
+        "population_2020" : 262,
+        "population_2027" : 272,
+        "land_area_2020" : 0.0
+    },
+    "Newcastle, Dixon County, NE" : {
+        "name" : "Newcastle",
+        "state" : "Nebraska",
+        "FIPS" : "31-34090",
+        "counties" : [
+            "Dixon County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 272,
+        "population_2020" : 272,
+        "population_2027" : 283,
+        "land_area_2020" : 0.0
+    },
+    "Bartley, Red Willow County, NE" : {
+        "name" : "Bartley",
+        "state" : "Nebraska",
+        "FIPS" : "31-03180",
+        "counties" : [
+            "Red Willow County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 270,
+        "population_2020" : 270,
+        "population_2027" : 281,
+        "land_area_2020" : 0.0
+    },
+    "Chapman, Merrick County, NE" : {
+        "name" : "Chapman",
+        "state" : "Nebraska",
+        "FIPS" : "31-08780",
+        "counties" : [
+            "Merrick County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 260,
+        "population_2020" : 260,
+        "population_2027" : 270,
+        "land_area_2020" : 0.0
+    },
+    "Campbell, Franklin County, NE" : {
+        "name" : "Campbell",
+        "state" : "Nebraska",
+        "FIPS" : "31-07870",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 272,
+        "population_2020" : 272,
+        "population_2027" : 283,
+        "land_area_2020" : 0.0
+    },
+    "Clatonia, Gage County, NE" : {
+        "name" : "Clatonia",
+        "state" : "Nebraska",
+        "FIPS" : "31-09270",
+        "counties" : [
+            "Gage County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 263,
+        "population_2020" : 263,
+        "population_2027" : 273,
+        "land_area_2020" : 0.0
+    },
+    "Roseland, Adams County, NE" : {
+        "name" : "Roseland",
+        "state" : "Nebraska",
+        "FIPS" : "31-42355",
+        "counties" : [
+            "Adams County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 263,
+        "population_2020" : 263,
+        "population_2027" : 273,
+        "land_area_2020" : 0.0
+    },
+    "Diller, Jefferson County, NE" : {
+        "name" : "Diller",
+        "state" : "Nebraska",
+        "FIPS" : "31-13085",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 247,
+        "population_2020" : 247,
+        "population_2027" : 257,
+        "land_area_2020" : 0.0
+    },
+    "Odell, Gage County, NE" : {
+        "name" : "Odell",
+        "state" : "Nebraska",
+        "FIPS" : "31-35735",
+        "counties" : [
+            "Gage County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 260,
+        "population_2020" : 260,
+        "population_2027" : 270,
+        "land_area_2020" : 0.0
+    },
+    "Lyman, Scotts Bluff County, NE" : {
+        "name" : "Lyman",
+        "state" : "Nebraska",
+        "FIPS" : "31-29715",
+        "counties" : [
+            "Scotts Bluff County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 259,
+        "population_2020" : 259,
+        "population_2027" : 269,
+        "land_area_2020" : 0.0
+    },
+    "Weston, Saunders County, NE" : {
+        "name" : "Weston",
+        "state" : "Nebraska",
+        "FIPS" : "31-52540",
+        "counties" : [
+            "Saunders County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 250,
+        "population_2020" : 250,
+        "population_2027" : 260,
+        "land_area_2020" : 0.0
+    },
+    "Maxwell, Lincoln County, NE" : {
+        "name" : "Maxwell",
+        "state" : "Nebraska",
+        "FIPS" : "31-31220",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 257,
+        "population_2020" : 257,
+        "population_2027" : 267,
+        "land_area_2020" : 0.0
+    },
+    "Milligan, Fillmore County, NE" : {
+        "name" : "Milligan",
+        "state" : "Nebraska",
+        "FIPS" : "31-32200",
+        "counties" : [
+            "Fillmore County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 244,
+        "population_2020" : 244,
+        "population_2027" : 254,
+        "land_area_2020" : 0.0
+    },
+    "North Loup, Valley County, NE" : {
+        "name" : "North Loup",
+        "state" : "Nebraska",
+        "FIPS" : "31-34825",
+        "counties" : [
+            "Valley County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 254,
+        "population_2020" : 254,
+        "population_2027" : 264,
+        "land_area_2020" : 0.0
+    },
+    "Herman, Washington County, NE" : {
+        "name" : "Herman",
+        "state" : "Nebraska",
+        "FIPS" : "31-22185",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 247,
+        "population_2020" : 247,
+        "population_2027" : 257,
+        "land_area_2020" : 0.0
+    },
+    "Springview, Keya Paha County, NE" : {
+        "name" : "Springview",
+        "state" : "Nebraska",
+        "FIPS" : "31-46625",
+        "counties" : [
+            "Keya Paha County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 238,
+        "population_2020" : 238,
+        "population_2027" : 247,
+        "land_area_2020" : 0.0
+    },
+    "Stapleton, Logan County, NE" : {
+        "name" : "Stapleton",
+        "state" : "Nebraska",
+        "FIPS" : "31-46870",
+        "counties" : [
+            "Logan County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 267,
+        "population_2020" : 267,
+        "population_2027" : 277,
+        "land_area_2020" : 0.0
+    },
+    "Sumner, Dawson County, NE" : {
+        "name" : "Sumner",
+        "state" : "Nebraska",
+        "FIPS" : "31-47675",
+        "counties" : [
+            "Dawson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 252,
+        "population_2020" : 252,
+        "population_2027" : 262,
+        "land_area_2020" : 0.0
+    },
+    "Pilger, Stanton County, NE" : {
+        "name" : "Pilger",
+        "state" : "Nebraska",
+        "FIPS" : "31-39135",
+        "counties" : [
+            "Stanton County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 240,
+        "population_2020" : 240,
+        "population_2027" : 249,
+        "land_area_2020" : 0.0
+    },
+    "Riverdale, Buffalo County, NE" : {
+        "name" : "Riverdale",
+        "state" : "Nebraska",
+        "FIPS" : "31-41515",
+        "counties" : [
+            "Buffalo County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 247,
+        "population_2020" : 247,
+        "population_2027" : 257,
+        "land_area_2020" : 0.0
+    },
+    "Snyder, Dodge County, NE" : {
+        "name" : "Snyder",
+        "state" : "Nebraska",
+        "FIPS" : "31-45610",
+        "counties" : [
+            "Dodge County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 254,
+        "population_2020" : 254,
+        "population_2027" : 264,
+        "land_area_2020" : 0.0
+    },
+    "Harrison, Sioux County, NE" : {
+        "name" : "Harrison",
+        "state" : "Nebraska",
+        "FIPS" : "31-21240",
+        "counties" : [
+            "Sioux County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 239,
+        "population_2020" : 239,
+        "population_2027" : 248,
+        "land_area_2020" : 0.0
+    },
+    "Marquette, Hamilton County, NE" : {
+        "name" : "Marquette",
+        "state" : "Nebraska",
+        "FIPS" : "31-30730",
+        "counties" : [
+            "Hamilton County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 236,
+        "population_2020" : 236,
+        "population_2027" : 245,
+        "land_area_2020" : 0.0
+    },
+    "Table Rock, Pawnee County, NE" : {
+        "name" : "Table Rock",
+        "state" : "Nebraska",
+        "FIPS" : "31-48270",
+        "counties" : [
+            "Pawnee County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 233,
+        "population_2020" : 233,
+        "population_2027" : 242,
+        "land_area_2020" : 0.0
+    },
+    "Madrid, Perkins County, NE" : {
+        "name" : "Madrid",
+        "state" : "Nebraska",
+        "FIPS" : "31-30275",
+        "counties" : [
+            "Perkins County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 242,
+        "population_2020" : 242,
+        "population_2027" : 251,
+        "land_area_2020" : 0.0
+    },
+    "Wolbach, Greeley County, NE" : {
+        "name" : "Wolbach",
+        "state" : "Nebraska",
+        "FIPS" : "31-53520",
+        "counties" : [
+            "Greeley County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 224,
+        "population_2020" : 224,
+        "population_2027" : 233,
+        "land_area_2020" : 0.0
+    },
+    "Dwight, Butler County, NE" : {
+        "name" : "Dwight",
+        "state" : "Nebraska",
+        "FIPS" : "31-14065",
+        "counties" : [
+            "Butler County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 229,
+        "population_2020" : 229,
+        "population_2027" : 238,
+        "land_area_2020" : 0.0
+    },
+    "Panama, Lancaster County, NE" : {
+        "name" : "Panama",
+        "state" : "Nebraska",
+        "FIPS" : "31-38225",
+        "counties" : [
+            "Lancaster County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 235,
+        "population_2020" : 235,
+        "population_2027" : 244,
+        "land_area_2020" : 0.0
+    },
+    "Staplehurst, Seward County, NE" : {
+        "name" : "Staplehurst",
+        "state" : "Nebraska",
+        "FIPS" : "31-46835",
+        "counties" : [
+            "Seward County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 236,
+        "population_2020" : 236,
+        "population_2027" : 245,
+        "land_area_2020" : 0.0
+    },
+    "Uehling, Dodge County, NE" : {
+        "name" : "Uehling",
+        "state" : "Nebraska",
+        "FIPS" : "31-49425",
+        "counties" : [
+            "Dodge County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 241,
+        "population_2020" : 241,
+        "population_2027" : 250,
+        "land_area_2020" : 0.0
+    },
+    "Hayes Center, Hayes County, NE" : {
+        "name" : "Hayes Center",
+        "state" : "Nebraska",
+        "FIPS" : "31-21660",
+        "counties" : [
+            "Hayes County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 224,
+        "population_2020" : 224,
+        "population_2027" : 233,
+        "land_area_2020" : 0.0
+    },
+    "Gresham, York County, NE" : {
+        "name" : "Gresham",
+        "state" : "Nebraska",
+        "FIPS" : "31-20225",
+        "counties" : [
+            "York County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 219,
+        "population_2020" : 219,
+        "population_2027" : 228,
+        "land_area_2020" : 0.0
+    },
+    "Western, Saline County, NE" : {
+        "name" : "Western",
+        "state" : "Nebraska",
+        "FIPS" : "31-52295",
+        "counties" : [
+            "Saline County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 227,
+        "population_2020" : 227,
+        "population_2027" : 236,
+        "land_area_2020" : 0.0
+    },
+    "Litchfield, Sherman County, NE" : {
+        "name" : "Litchfield",
+        "state" : "Nebraska",
+        "FIPS" : "31-28350",
+        "counties" : [
+            "Sherman County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 220,
+        "population_2020" : 220,
+        "population_2027" : 229,
+        "land_area_2020" : 0.0
+    },
+    "Wynot, Cedar County, NE" : {
+        "name" : "Wynot",
+        "state" : "Nebraska",
+        "FIPS" : "31-53905",
+        "counties" : [
+            "Cedar County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 216,
+        "population_2020" : 216,
+        "population_2027" : 224,
+        "land_area_2020" : 0.0
+    },
+    "Chester, Thayer County, NE" : {
+        "name" : "Chester",
+        "state" : "Nebraska",
+        "FIPS" : "31-09095",
+        "counties" : [
+            "Thayer County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 224,
+        "population_2020" : 224,
+        "population_2027" : 233,
+        "land_area_2020" : 0.0
+    },
+    "Thedford, Thomas County, NE" : {
+        "name" : "Thedford",
+        "state" : "Nebraska",
+        "FIPS" : "31-48760",
+        "counties" : [
+            "Thomas County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 208,
+        "population_2020" : 208,
+        "population_2027" : 216,
+        "land_area_2020" : 0.0
+    },
+    "Roca, Lancaster County, NE" : {
+        "name" : "Roca",
+        "state" : "Nebraska",
+        "FIPS" : "31-41830",
+        "counties" : [
+            "Lancaster County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 201,
+        "population_2020" : 201,
+        "population_2027" : 209,
+        "land_area_2020" : 0.0
+    },
+    "Pleasant Dale, Seward County, NE" : {
+        "name" : "Pleasant Dale",
+        "state" : "Nebraska",
+        "FIPS" : "31-39380",
+        "counties" : [
+            "Seward County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 218,
+        "population_2020" : 218,
+        "population_2027" : 227,
+        "land_area_2020" : 0.0
+    },
+    "Garland, Seward County, NE" : {
+        "name" : "Garland",
+        "state" : "Nebraska",
+        "FIPS" : "31-18230",
+        "counties" : [
+            "Seward County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 210,
+        "population_2020" : 210,
+        "population_2027" : 218,
+        "land_area_2020" : 0.0
+    },
+    "Talmage, Otoe County, NE" : {
+        "name" : "Talmage",
+        "state" : "Nebraska",
+        "FIPS" : "31-48305",
+        "counties" : [
+            "Otoe County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 198,
+        "population_2020" : 198,
+        "population_2027" : 206,
+        "land_area_2020" : 0.0
+    },
+    "Benedict, York County, NE" : {
+        "name" : "Benedict",
+        "state" : "Nebraska",
+        "FIPS" : "31-04195",
+        "counties" : [
+            "York County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 203,
+        "population_2020" : 203,
+        "population_2027" : 211,
+        "land_area_2020" : 0.0
+    },
+    "Craig, Burt County, NE" : {
+        "name" : "Craig",
+        "state" : "Nebraska",
+        "FIPS" : "31-11090",
+        "counties" : [
+            "Burt County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 202,
+        "population_2020" : 202,
+        "population_2027" : 210,
+        "land_area_2020" : 0.0
+    },
+    "Jackson, Dakota County, NE" : {
+        "name" : "Jackson",
+        "state" : "Nebraska",
+        "FIPS" : "31-24355",
+        "counties" : [
+            "Dakota County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 207,
+        "population_2020" : 207,
+        "population_2027" : 215,
+        "land_area_2020" : 0.0
+    },
+    "Bladen, Webster County, NE" : {
+        "name" : "Bladen",
+        "state" : "Nebraska",
+        "FIPS" : "31-05140",
+        "counties" : [
+            "Webster County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 205,
+        "population_2020" : 205,
+        "population_2027" : 213,
+        "land_area_2020" : 0.0
+    },
+    "Holbrook, Furnas County, NE" : {
+        "name" : "Holbrook",
+        "state" : "Nebraska",
+        "FIPS" : "31-22605",
+        "counties" : [
+            "Furnas County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 201,
+        "population_2020" : 201,
+        "population_2027" : 209,
+        "land_area_2020" : 0.0
+    },
+    "Union, Cass County, NE" : {
+        "name" : "Union",
+        "state" : "Nebraska",
+        "FIPS" : "31-49635",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 195,
+        "population_2020" : 195,
+        "population_2027" : 203,
+        "land_area_2020" : 0.0
+    },
+    "Amherst, Buffalo County, NE" : {
+        "name" : "Amherst",
+        "state" : "Nebraska",
+        "FIPS" : "31-01290",
+        "counties" : [
+            "Buffalo County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 201,
+        "population_2020" : 201,
+        "population_2027" : 209,
+        "land_area_2020" : 0.0
+    },
+    "Guide Rock, Webster County, NE" : {
+        "name" : "Guide Rock",
+        "state" : "Nebraska",
+        "FIPS" : "31-20365",
+        "counties" : [
+            "Webster County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 199,
+        "population_2020" : 199,
+        "population_2027" : 207,
+        "land_area_2020" : 0.0
+    },
+    "Trumbull, Clay County, NE" : {
+        "name" : "Trumbull",
+        "state" : "Nebraska",
+        "FIPS" : "31-49285",
+        "counties" : [
+            "Clay County",
+            "Adams County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 194,
+        "population_2020" : 194,
+        "population_2027" : 202,
+        "land_area_2020" : 0.0
+    },
+    "Elba, Howard County, NE" : {
+        "name" : "Elba",
+        "state" : "Nebraska",
+        "FIPS" : "31-14555",
+        "counties" : [
+            "Howard County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 192,
+        "population_2020" : 192,
+        "population_2027" : 200,
+        "land_area_2020" : 0.0
+    },
+    "Ashton, Sherman County, NE" : {
+        "name" : "Ashton",
+        "state" : "Nebraska",
+        "FIPS" : "31-02375",
+        "counties" : [
+            "Sherman County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 198,
+        "population_2020" : 198,
+        "population_2027" : 206,
+        "land_area_2020" : 0.0
+    },
+    "Ulysses, Butler County, NE" : {
+        "name" : "Ulysses",
+        "state" : "Nebraska",
+        "FIPS" : "31-49460",
+        "counties" : [
+            "Butler County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 196,
+        "population_2020" : 196,
+        "population_2027" : 204,
+        "land_area_2020" : 0.0
+    },
+    "Denton, Lancaster County, NE" : {
+        "name" : "Denton",
+        "state" : "Nebraska",
+        "FIPS" : "31-12770",
+        "counties" : [
+            "Lancaster County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 189,
+        "population_2020" : 189,
+        "population_2027" : 196,
+        "land_area_2020" : 0.0
+    },
+    "Gurley, Cheyenne County, NE" : {
+        "name" : "Gurley",
+        "state" : "Nebraska",
+        "FIPS" : "31-20435",
+        "counties" : [
+            "Cheyenne County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 187,
+        "population_2020" : 187,
+        "population_2027" : 194,
+        "land_area_2020" : 0.0
+    },
+    "Lynch, Boyd County, NE" : {
+        "name" : "Lynch",
+        "state" : "Nebraska",
+        "FIPS" : "31-29750",
+        "counties" : [
+            "Boyd County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 194,
+        "population_2020" : 194,
+        "population_2027" : 202,
+        "land_area_2020" : 0.0
+    },
+    "Carroll, Wayne County, NE" : {
+        "name" : "Carroll",
+        "state" : "Nebraska",
+        "FIPS" : "31-08010",
+        "counties" : [
+            "Wayne County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 191,
+        "population_2020" : 191,
+        "population_2027" : 198,
+        "land_area_2020" : 0.0
+    },
+    "Holstein, Adams County, NE" : {
+        "name" : "Holstein",
+        "state" : "Nebraska",
+        "FIPS" : "31-22815",
+        "counties" : [
+            "Adams County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 191,
+        "population_2020" : 191,
+        "population_2027" : 198,
+        "land_area_2020" : 0.0
+    },
+    "Pickrell, Gage County, NE" : {
+        "name" : "Pickrell",
+        "state" : "Nebraska",
+        "FIPS" : "31-39065",
+        "counties" : [
+            "Gage County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 186,
+        "population_2020" : 186,
+        "population_2027" : 193,
+        "land_area_2020" : 0.0
+    },
+    "Avoca, Cass County, NE" : {
+        "name" : "Avoca",
+        "state" : "Nebraska",
+        "FIPS" : "31-02795",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 178,
+        "population_2020" : 178,
+        "population_2027" : 185,
+        "land_area_2020" : 0.0
+    },
+    "Dix, Kimball County, NE" : {
+        "name" : "Dix",
+        "state" : "Nebraska",
+        "FIPS" : "31-13190",
+        "counties" : [
+            "Kimball County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 187,
+        "population_2020" : 187,
+        "population_2027" : 194,
+        "land_area_2020" : 0.0
+    },
+    "Howard City, Howard County, NE" : {
+        "name" : "Howard City",
+        "state" : "Nebraska",
+        "FIPS" : "None",
+        "counties" : [
+            "Howard County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 181,
+        "population_2020" : 181,
+        "population_2027" : 188,
+        "land_area_2020" : 0.0
+    },
+    "Farnam, Dawson County, NE" : {
+        "name" : "Farnam",
+        "state" : "Nebraska",
+        "FIPS" : "31-16725",
+        "counties" : [
+            "Dawson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 182,
+        "population_2020" : 182,
+        "population_2027" : 189,
+        "land_area_2020" : 0.0
+    },
+    "Creston, Platte County, NE" : {
+        "name" : "Creston",
+        "state" : "Nebraska",
+        "FIPS" : "31-11300",
+        "counties" : [
+            "Platte County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 181,
+        "population_2020" : 181,
+        "population_2027" : 188,
+        "land_area_2020" : 0.0
+    },
+    "Funk, Phelps County, NE" : {
+        "name" : "Funk",
+        "state" : "Nebraska",
+        "FIPS" : "31-17880",
+        "counties" : [
+            "Phelps County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 175,
+        "population_2020" : 175,
+        "population_2027" : 182,
+        "land_area_2020" : 0.0
+    },
+    "Goehner, Seward County, NE" : {
+        "name" : "Goehner",
+        "state" : "Nebraska",
+        "FIPS" : "31-19245",
+        "counties" : [
+            "Seward County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 181,
+        "population_2020" : 181,
+        "population_2027" : 188,
+        "land_area_2020" : 0.0
+    },
+    "Manley, Cass County, NE" : {
+        "name" : "Manley",
+        "state" : "Nebraska",
+        "FIPS" : "31-30415",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 167,
+        "population_2020" : 167,
+        "population_2027" : 174,
+        "land_area_2020" : 0.0
+    },
+    "Douglas, Otoe County, NE" : {
+        "name" : "Douglas",
+        "state" : "Nebraska",
+        "FIPS" : "31-13505",
+        "counties" : [
+            "Otoe County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 166,
+        "population_2020" : 166,
+        "population_2027" : 172,
+        "land_area_2020" : 0.0
+    },
+    "Nehawka, Cass County, NE" : {
+        "name" : "Nehawka",
+        "state" : "Nebraska",
+        "FIPS" : "31-33740",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 173,
+        "population_2020" : 173,
+        "population_2027" : 180,
+        "land_area_2020" : 0.0
+    },
+    "Hubbard, Dakota County, NE" : {
+        "name" : "Hubbard",
+        "state" : "Nebraska",
+        "FIPS" : "31-23375",
+        "counties" : [
+            "Dakota County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 153,
+        "population_2020" : 153,
+        "population_2027" : 159,
+        "land_area_2020" : 0.0
+    },
+    "Dunbar, Otoe County, NE" : {
+        "name" : "Dunbar",
+        "state" : "Nebraska",
+        "FIPS" : "31-13855",
+        "counties" : [
+            "Otoe County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 165,
+        "population_2020" : 165,
+        "population_2027" : 171,
+        "land_area_2020" : 0.0
+    },
+    "Bee, Seward County, NE" : {
+        "name" : "Bee",
+        "state" : "Nebraska",
+        "FIPS" : "31-03600",
+        "counties" : [
+            "Seward County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 171,
+        "population_2020" : 171,
+        "population_2027" : 178,
+        "land_area_2020" : 0.0
+    },
+    "Cody, Cherry County, NE" : {
+        "name" : "Cody",
+        "state" : "Nebraska",
+        "FIPS" : "31-09760",
+        "counties" : [
+            "Cherry County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 168,
+        "population_2020" : 168,
+        "population_2027" : 175,
+        "land_area_2020" : 0.0
+    },
+    "Lewellen, Garden County, NE" : {
+        "name" : "Lewellen",
+        "state" : "Nebraska",
+        "FIPS" : "31-26805",
+        "counties" : [
+            "Garden County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 175,
+        "population_2020" : 175,
+        "population_2027" : 182,
+        "land_area_2020" : 0.0
+    },
+    "Otoe, Otoe County, NE" : {
+        "name" : "Otoe",
+        "state" : "Nebraska",
+        "FIPS" : "31-37630",
+        "counties" : [
+            "Otoe County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 161,
+        "population_2020" : 161,
+        "population_2027" : 167,
+        "land_area_2020" : 0.0
+    },
+    "Page, Holt County, NE" : {
+        "name" : "Page",
+        "state" : "Nebraska",
+        "FIPS" : "31-38085",
+        "counties" : [
+            "Holt County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 166,
+        "population_2020" : 166,
+        "population_2027" : 172,
+        "land_area_2020" : 0.0
+    },
+    "Ithaca, Saunders County, NE" : {
+        "name" : "Ithaca",
+        "state" : "Nebraska",
+        "FIPS" : "31-24285",
+        "counties" : [
+            "Saunders County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 160,
+        "population_2020" : 160,
+        "population_2027" : 166,
+        "land_area_2020" : 0.0
+    },
+    "Verdon, Richardson County, NE" : {
+        "name" : "Verdon",
+        "state" : "Nebraska",
+        "FIPS" : "31-50510",
+        "counties" : [
+            "Richardson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 164,
+        "population_2020" : 164,
+        "population_2027" : 170,
+        "land_area_2020" : 0.0
+    },
+    "Shubert, Richardson County, NE" : {
+        "name" : "Shubert",
+        "state" : "Nebraska",
+        "FIPS" : "31-45225",
+        "counties" : [
+            "Richardson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 163,
+        "population_2020" : 163,
+        "population_2027" : 169,
+        "land_area_2020" : 0.0
+    },
+    "Stamford, Harlan County, NE" : {
+        "name" : "Stamford",
+        "state" : "Nebraska",
+        "FIPS" : "31-46695",
+        "counties" : [
+            "Harlan County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 158,
+        "population_2020" : 158,
+        "population_2027" : 164,
+        "land_area_2020" : 0.0
+    },
+    "Brunswick, Antelope County, NE" : {
+        "name" : "Brunswick",
+        "state" : "Nebraska",
+        "FIPS" : "31-06890",
+        "counties" : [
+            "Antelope County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 152,
+        "population_2020" : 152,
+        "population_2027" : 158,
+        "land_area_2020" : 0.0
+    },
+    "Raymond, Lancaster County, NE" : {
+        "name" : "Raymond",
+        "state" : "Nebraska",
+        "FIPS" : "31-40780",
+        "counties" : [
+            "Lancaster County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 159,
+        "population_2020" : 159,
+        "population_2027" : 165,
+        "land_area_2020" : 0.0
+    },
+    "Venango, Perkins County, NE" : {
+        "name" : "Venango",
+        "state" : "Nebraska",
+        "FIPS" : "31-50230",
+        "counties" : [
+            "Perkins County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 157,
+        "population_2020" : 157,
+        "population_2027" : 163,
+        "land_area_2020" : 0.0
+    },
+    "Daykin, Jefferson County, NE" : {
+        "name" : "Daykin",
+        "state" : "Nebraska",
+        "FIPS" : "31-12455",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 153,
+        "population_2020" : 153,
+        "population_2027" : 159,
+        "land_area_2020" : 0.0
+    },
+    "Rosalie, Thurston County, NE" : {
+        "name" : "Rosalie",
+        "state" : "Nebraska",
+        "FIPS" : "31-42250",
+        "counties" : [
+            "Thurston County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 159,
+        "population_2020" : 159,
+        "population_2027" : 165,
+        "land_area_2020" : 0.0
+    },
+    "Hyannis, Grant County, NE" : {
+        "name" : "Hyannis",
+        "state" : "Nebraska",
+        "FIPS" : "31-23655",
+        "counties" : [
+            "Grant County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 165,
+        "population_2020" : 165,
+        "population_2027" : 171,
+        "land_area_2020" : 0.0
+    },
+    "Mason City, Custer County, NE" : {
+        "name" : "Mason City",
+        "state" : "Nebraska",
+        "FIPS" : "31-31115",
+        "counties" : [
+            "Custer County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 151,
+        "population_2020" : 151,
+        "population_2027" : 157,
+        "land_area_2020" : 0.0
+    },
+    "Dawson, Richardson County, NE" : {
+        "name" : "Dawson",
+        "state" : "Nebraska",
+        "FIPS" : "31-12420",
+        "counties" : [
+            "Richardson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 148,
+        "population_2020" : 148,
+        "population_2027" : 154,
+        "land_area_2020" : 0.0
+    },
+    "Stella, Richardson County, NE" : {
+        "name" : "Stella",
+        "state" : "Nebraska",
+        "FIPS" : "31-47115",
+        "counties" : [
+            "Richardson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 145,
+        "population_2020" : 145,
+        "population_2027" : 151,
+        "land_area_2020" : 0.0
+    },
+    "Rulo, Richardson County, NE" : {
+        "name" : "Rulo",
+        "state" : "Nebraska",
+        "FIPS" : "31-42670",
+        "counties" : [
+            "Richardson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 145,
+        "population_2020" : 145,
+        "population_2027" : 151,
+        "land_area_2020" : 0.0
+    },
+    "Brownville, Nemaha County, NE" : {
+        "name" : "Brownville",
+        "state" : "Nebraska",
+        "FIPS" : "31-06750",
+        "counties" : [
+            "Nemaha County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 139,
+        "population_2020" : 139,
+        "population_2027" : 144,
+        "land_area_2020" : 0.0
+    },
+    "Oconto, Custer County, NE" : {
+        "name" : "Oconto",
+        "state" : "Nebraska",
+        "FIPS" : "31-35665",
+        "counties" : [
+            "Custer County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 138,
+        "population_2020" : 138,
+        "population_2027" : 143,
+        "land_area_2020" : 0.0
+    },
+    "Alexandria, Thayer County, NE" : {
+        "name" : "Alexandria",
+        "state" : "Nebraska",
+        "FIPS" : "31-00730",
+        "counties" : [
+            "Thayer County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 148,
+        "population_2020" : 148,
+        "population_2027" : 154,
+        "land_area_2020" : 0.0
+    },
+    "Haigler, Dundy County, NE" : {
+        "name" : "Haigler",
+        "state" : "Nebraska",
+        "FIPS" : "31-20540",
+        "counties" : [
+            "Dundy County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 145,
+        "population_2020" : 145,
+        "population_2027" : 151,
+        "land_area_2020" : 0.0
+    },
+    "Republican City, Harlan County, NE" : {
+        "name" : "Republican City",
+        "state" : "Nebraska",
+        "FIPS" : "31-41130",
+        "counties" : [
+            "Harlan County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 134,
+        "population_2020" : 134,
+        "population_2027" : 139,
+        "land_area_2020" : 0.0
+    },
+    "Taylor, Loup County, NE" : {
+        "name" : "Taylor",
+        "state" : "Nebraska",
+        "FIPS" : "31-48445",
+        "counties" : [
+            "Loup County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 141,
+        "population_2020" : 141,
+        "population_2027" : 147,
+        "land_area_2020" : 0.0
+    },
+    "Farwell, Howard County, NE" : {
+        "name" : "Farwell",
+        "state" : "Nebraska",
+        "FIPS" : "31-16760",
+        "counties" : [
+            "Howard County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 138,
+        "population_2020" : 138,
+        "population_2027" : 143,
+        "land_area_2020" : 0.0
+    },
+    "Hordville, Hamilton County, NE" : {
+        "name" : "Hordville",
+        "state" : "Nebraska",
+        "FIPS" : "31-23200",
+        "counties" : [
+            "Hamilton County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 131,
+        "population_2020" : 131,
+        "population_2027" : 136,
+        "land_area_2020" : 0.0
+    },
+    "Sprague, Lancaster County, NE" : {
+        "name" : "Sprague",
+        "state" : "Nebraska",
+        "FIPS" : "31-46380",
+        "counties" : [
+            "Lancaster County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 136,
+        "population_2020" : 136,
+        "population_2027" : 141,
+        "land_area_2020" : 0.0
+    },
+    "Fordyce, Cedar County, NE" : {
+        "name" : "Fordyce",
+        "state" : "Nebraska",
+        "FIPS" : "31-17110",
+        "counties" : [
+            "Cedar County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 134,
+        "population_2020" : 134,
+        "population_2027" : 139,
+        "land_area_2020" : 0.0
+    },
+    "Washington, Washington County, NE" : {
+        "name" : "Washington",
+        "state" : "Nebraska",
+        "FIPS" : "31-51595",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 129,
+        "population_2020" : 129,
+        "population_2027" : 134,
+        "land_area_2020" : 0.0
+    },
+    "Henry, Scotts Bluff County, NE" : {
+        "name" : "Henry",
+        "state" : "Nebraska",
+        "FIPS" : "31-22150",
+        "counties" : [
+            "Scotts Bluff County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 125,
+        "population_2020" : 125,
+        "population_2027" : 130,
+        "land_area_2020" : 0.0
+    },
+    "Miller, Buffalo County, NE" : {
+        "name" : "Miller",
+        "state" : "Nebraska",
+        "FIPS" : "31-32130",
+        "counties" : [
+            "Buffalo County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 129,
+        "population_2020" : 129,
+        "population_2027" : 134,
+        "land_area_2020" : 0.0
+    },
+    "Davey, Lancaster County, NE" : {
+        "name" : "Davey",
+        "state" : "Nebraska",
+        "FIPS" : "31-12280",
+        "counties" : [
+            "Lancaster County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 135,
+        "population_2020" : 135,
+        "population_2027" : 140,
+        "land_area_2020" : 0.0
+    },
+    "Morse Bluff, Saunders County, NE" : {
+        "name" : "Morse Bluff",
+        "state" : "Nebraska",
+        "FIPS" : "31-32865",
+        "counties" : [
+            "Saunders County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 117,
+        "population_2020" : 117,
+        "population_2027" : 122,
+        "land_area_2020" : 0.0
+    },
+    "Upland, Franklin County, NE" : {
+        "name" : "Upland",
+        "state" : "Nebraska",
+        "FIPS" : "31-49880",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 125,
+        "population_2020" : 125,
+        "population_2027" : 130,
+        "land_area_2020" : 0.0
+    },
+    "Brock, Nemaha County, NE" : {
+        "name" : "Brock",
+        "state" : "Nebraska",
+        "FIPS" : "31-06505",
+        "counties" : [
+            "Nemaha County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 123,
+        "population_2020" : 123,
+        "population_2027" : 128,
+        "land_area_2020" : 0.0
+    },
+    "Du Bois, Pawnee County, NE" : {
+        "name" : "Du Bois",
+        "state" : "Nebraska",
+        "FIPS" : "31-13750",
+        "counties" : [
+            "Pawnee County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 122,
+        "population_2020" : 122,
+        "population_2027" : 127,
+        "land_area_2020" : 0.0
+    },
+    "Ohiowa, Fillmore County, NE" : {
+        "name" : "Ohiowa",
+        "state" : "Nebraska",
+        "FIPS" : "31-36015",
+        "counties" : [
+            "Fillmore County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 120,
+        "population_2020" : 120,
+        "population_2027" : 125,
+        "land_area_2020" : 0.0
+    },
+    "Filley, Gage County, NE" : {
+        "name" : "Filley",
+        "state" : "Nebraska",
+        "FIPS" : "31-16830",
+        "counties" : [
+            "Gage County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 124,
+        "population_2020" : 124,
+        "population_2027" : 129,
+        "land_area_2020" : 0.0
+    },
+    "Arthur, Arthur County, NE" : {
+        "name" : "Arthur",
+        "state" : "Nebraska",
+        "FIPS" : "31-02200",
+        "counties" : [
+            "Arthur County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 128,
+        "population_2020" : 128,
+        "population_2027" : 133,
+        "land_area_2020" : 0.0
+    },
+    "Concord, Dixon County, NE" : {
+        "name" : "Concord",
+        "state" : "Nebraska",
+        "FIPS" : "31-10250",
+        "counties" : [
+            "Dixon County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 126,
+        "population_2020" : 126,
+        "population_2027" : 131,
+        "land_area_2020" : 0.0
+    },
+    "Alvo, Cass County, NE" : {
+        "name" : "Alvo",
+        "state" : "Nebraska",
+        "FIPS" : "31-01150",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 115,
+        "population_2020" : 115,
+        "population_2027" : 120,
+        "land_area_2020" : 0.0
+    },
+    "Colon, Saunders County, NE" : {
+        "name" : "Colon",
+        "state" : "Nebraska",
+        "FIPS" : "31-10005",
+        "counties" : [
+            "Saunders County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 107,
+        "population_2020" : 107,
+        "population_2027" : 111,
+        "land_area_2020" : 0.0
+    },
+    "Nemaha, Nemaha County, NE" : {
+        "name" : "Nemaha",
+        "state" : "Nebraska",
+        "FIPS" : "31-33950",
+        "counties" : [
+            "Nemaha County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 114,
+        "population_2020" : 114,
+        "population_2027" : 118,
+        "land_area_2020" : 0.0
+    },
+    "Thurston, Thurston County, NE" : {
+        "name" : "Thurston",
+        "state" : "Nebraska",
+        "FIPS" : "31-48900",
+        "counties" : [
+            "Thurston County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 116,
+        "population_2020" : 116,
+        "population_2027" : 121,
+        "land_area_2020" : 0.0
+    },
+    "Tobias, Saline County, NE" : {
+        "name" : "Tobias",
+        "state" : "Nebraska",
+        "FIPS" : "31-49005",
+        "counties" : [
+            "Saline County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 114,
+        "population_2020" : 114,
+        "population_2027" : 118,
+        "land_area_2020" : 0.0
+    },
+    "Belden, Cedar County, NE" : {
+        "name" : "Belden",
+        "state" : "Nebraska",
+        "FIPS" : "31-03775",
+        "counties" : [
+            "Cedar County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 113,
+        "population_2020" : 113,
+        "population_2027" : 117,
+        "land_area_2020" : 0.0
+    },
+    "Bushnell, Kimball County, NE" : {
+        "name" : "Bushnell",
+        "state" : "Nebraska",
+        "FIPS" : "31-07415",
+        "counties" : [
+            "Kimball County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 115,
+        "population_2020" : 115,
+        "population_2027" : 120,
+        "land_area_2020" : 0.0
+    },
+    "Leshara, Saunders County, NE" : {
+        "name" : "Leshara",
+        "state" : "Nebraska",
+        "FIPS" : "31-26630",
+        "counties" : [
+            "Saunders County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 108,
+        "population_2020" : 108,
+        "population_2027" : 112,
+        "land_area_2020" : 0.0
+    },
+    "Edison, Furnas County, NE" : {
+        "name" : "Edison",
+        "state" : "Nebraska",
+        "FIPS" : "31-14520",
+        "counties" : [
+            "Furnas County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 111,
+        "population_2020" : 111,
+        "population_2027" : 115,
+        "land_area_2020" : 0.0
+    },
+    "Endicott, Jefferson County, NE" : {
+        "name" : "Endicott",
+        "state" : "Nebraska",
+        "FIPS" : "31-15920",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 113,
+        "population_2020" : 113,
+        "population_2027" : 117,
+        "land_area_2020" : 0.0
+    },
+    "Grafton, Fillmore County, NE" : {
+        "name" : "Grafton",
+        "state" : "Nebraska",
+        "FIPS" : "31-19455",
+        "counties" : [
+            "Fillmore County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 106,
+        "population_2020" : 106,
+        "population_2027" : 110,
+        "land_area_2020" : 0.0
+    },
+    "Memphis, Saunders County, NE" : {
+        "name" : "Memphis",
+        "state" : "Nebraska",
+        "FIPS" : "31-31640",
+        "counties" : [
+            "Saunders County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 109,
+        "population_2020" : 109,
+        "population_2027" : 113,
+        "land_area_2020" : 0.0
+    },
+    "Bloomington, Franklin County, NE" : {
+        "name" : "Bloomington",
+        "state" : "Nebraska",
+        "FIPS" : "31-05490",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 110,
+        "population_2020" : 110,
+        "population_2027" : 114,
+        "land_area_2020" : 0.0
+    },
+    "Melbeta, Scotts Bluff County, NE" : {
+        "name" : "Melbeta",
+        "state" : "Nebraska",
+        "FIPS" : "31-31570",
+        "counties" : [
+            "Scotts Bluff County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 108,
+        "population_2020" : 108,
+        "population_2027" : 112,
+        "land_area_2020" : 0.0
+    },
+    "Anselmo, Custer County, NE" : {
+        "name" : "Anselmo",
+        "state" : "Nebraska",
+        "FIPS" : "31-01500",
+        "counties" : [
+            "Custer County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 108,
+        "population_2020" : 108,
+        "population_2027" : 112,
+        "land_area_2020" : 0.0
+    },
+    "Octavia, Butler County, NE" : {
+        "name" : "Octavia",
+        "state" : "Nebraska",
+        "FIPS" : "31-35700",
+        "counties" : [
+            "Butler County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 107,
+        "population_2020" : 107,
+        "population_2027" : 111,
+        "land_area_2020" : 0.0
+    },
+    "Bartlett, Wheeler County, NE" : {
+        "name" : "Bartlett",
+        "state" : "Nebraska",
+        "FIPS" : "31-03145",
+        "counties" : [
+            "Wheeler County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 109,
+        "population_2020" : 109,
+        "population_2027" : 113,
+        "land_area_2020" : 0.0
+    },
+    "Ruskin, Nuckolls County, NE" : {
+        "name" : "Ruskin",
+        "state" : "Nebraska",
+        "FIPS" : "31-42810",
+        "counties" : [
+            "Nuckolls County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 105,
+        "population_2020" : 105,
+        "population_2027" : 109,
+        "land_area_2020" : 0.0
+    },
+    "Atlanta, Phelps County, NE" : {
+        "name" : "Atlanta",
+        "state" : "Nebraska",
+        "FIPS" : "31-02620",
+        "counties" : [
+            "Phelps County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 106,
+        "population_2020" : 106,
+        "population_2027" : 110,
+        "land_area_2020" : 0.0
+    },
+    "Elsie, Perkins County, NE" : {
+        "name" : "Elsie",
+        "state" : "Nebraska",
+        "FIPS" : "31-15500",
+        "counties" : [
+            "Perkins County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 102,
+        "population_2020" : 102,
+        "population_2027" : 106,
+        "land_area_2020" : 0.0
+    },
+    "Belgrade, Nance County, NE" : {
+        "name" : "Belgrade",
+        "state" : "Nebraska",
+        "FIPS" : "31-03810",
+        "counties" : [
+            "Nance County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 103,
+        "population_2020" : 103,
+        "population_2027" : 107,
+        "land_area_2020" : 0.0
+    },
+    "Inman, Holt County, NE" : {
+        "name" : "Inman",
+        "state" : "Nebraska",
+        "FIPS" : "31-24075",
+        "counties" : [
+            "Holt County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 95,
+        "population_2020" : 95,
+        "population_2027" : 99,
+        "land_area_2020" : 0.0
+    },
+    "Bruno, Butler County, NE" : {
+        "name" : "Bruno",
+        "state" : "Nebraska",
+        "FIPS" : "31-06855",
+        "counties" : [
+            "Butler County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 95,
+        "population_2020" : 95,
+        "population_2027" : 99,
+        "land_area_2020" : 0.0
+    },
+    "Jansen, Jefferson County, NE" : {
+        "name" : "Jansen",
+        "state" : "Nebraska",
+        "FIPS" : "31-24530",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 101,
+        "population_2020" : 101,
+        "population_2027" : 105,
+        "land_area_2020" : 0.0
+    },
+    "Broadwater, Morrill County, NE" : {
+        "name" : "Broadwater",
+        "state" : "Nebraska",
+        "FIPS" : "31-06470",
+        "counties" : [
+            "Morrill County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 95,
+        "population_2020" : 95,
+        "population_2027" : 99,
+        "land_area_2020" : 0.0
+    },
+    "Malmo, Saunders County, NE" : {
+        "name" : "Malmo",
+        "state" : "Nebraska",
+        "FIPS" : "31-30380",
+        "counties" : [
+            "Saunders County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 94,
+        "population_2020" : 94,
+        "population_2027" : 98,
+        "land_area_2020" : 0.0
+    },
+    "Cordova, Seward County, NE" : {
+        "name" : "Cordova",
+        "state" : "Nebraska",
+        "FIPS" : "31-10495",
+        "counties" : [
+            "Seward County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 92,
+        "population_2020" : 92,
+        "population_2027" : 96,
+        "land_area_2020" : 0.0
+    },
+    "South Bend, Cass County, NE" : {
+        "name" : "South Bend",
+        "state" : "Nebraska",
+        "FIPS" : "31-45680",
+        "counties" : [
+            "Cass County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 92,
+        "population_2020" : 92,
+        "population_2027" : 96,
+        "land_area_2020" : 0.0
+    },
+    "Hardy, Nuckolls County, NE" : {
+        "name" : "Hardy",
+        "state" : "Nebraska",
+        "FIPS" : "31-20995",
+        "counties" : [
+            "Nuckolls County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 97,
+        "population_2020" : 97,
+        "population_2027" : 101,
+        "land_area_2020" : 0.0
+    },
+    "Linwood, Butler County, NE" : {
+        "name" : "Linwood",
+        "state" : "Nebraska",
+        "FIPS" : "31-28245",
+        "counties" : [
+            "Butler County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 94,
+        "population_2020" : 94,
+        "population_2027" : 98,
+        "land_area_2020" : 0.0
+    },
+    "Ericson, Wheeler County, NE" : {
+        "name" : "Ericson",
+        "state" : "Nebraska",
+        "FIPS" : "31-16025",
+        "counties" : [
+            "Wheeler County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 89,
+        "population_2020" : 89,
+        "population_2027" : 92,
+        "land_area_2020" : 0.0
+    },
+    "Rockville, Sherman County, NE" : {
+        "name" : "Rockville",
+        "state" : "Nebraska",
+        "FIPS" : "31-42075",
+        "counties" : [
+            "Sherman County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 89,
+        "population_2020" : 89,
+        "population_2027" : 92,
+        "land_area_2020" : 0.0
+    },
+    "St. Helena, Cedar County, NE" : {
+        "name" : "St. Helena",
+        "state" : "Nebraska",
+        "FIPS" : "31-43090",
+        "counties" : [
+            "Cedar County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 89,
+        "population_2020" : 89,
+        "population_2027" : 92,
+        "land_area_2020" : 0.0
+    },
+    "Barneston, Gage County, NE" : {
+        "name" : "Barneston",
+        "state" : "Nebraska",
+        "FIPS" : "31-03075",
+        "counties" : [
+            "Gage County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 90,
+        "population_2020" : 90,
+        "population_2027" : 94,
+        "land_area_2020" : 0.0
+    },
+    "Merriman, Cherry County, NE" : {
+        "name" : "Merriman",
+        "state" : "Nebraska",
+        "FIPS" : "31-31815",
+        "counties" : [
+            "Cherry County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 87,
+        "population_2020" : 87,
+        "population_2027" : 90,
+        "land_area_2020" : 0.0
+    },
+    "Carleton, Thayer County, NE" : {
+        "name" : "Carleton",
+        "state" : "Nebraska",
+        "FIPS" : "31-07975",
+        "counties" : [
+            "Thayer County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 92,
+        "population_2020" : 92,
+        "population_2027" : 96,
+        "land_area_2020" : 0.0
+    },
+    "Ayr, Adams County, NE" : {
+        "name" : "Ayr",
+        "state" : "Nebraska",
+        "FIPS" : "31-02865",
+        "counties" : [
+            "Adams County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 83,
+        "population_2020" : 83,
+        "population_2027" : 86,
+        "land_area_2020" : 0.0
+    },
+    "Byron, Thayer County, NE" : {
+        "name" : "Byron",
+        "state" : "Nebraska",
+        "FIPS" : "31-07555",
+        "counties" : [
+            "Thayer County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 83,
+        "population_2020" : 83,
+        "population_2027" : 86,
+        "land_area_2020" : 0.0
+    },
+    "Eddyville, Dawson County, NE" : {
+        "name" : "Eddyville",
+        "state" : "Nebraska",
+        "FIPS" : "31-14380",
+        "counties" : [
+            "Dawson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 88,
+        "population_2020" : 88,
+        "population_2027" : 91,
+        "land_area_2020" : 0.0
+    },
+    "Naper, Boyd County, NE" : {
+        "name" : "Naper",
+        "state" : "Nebraska",
+        "FIPS" : "31-33530",
+        "counties" : [
+            "Boyd County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 89,
+        "population_2020" : 89,
+        "population_2027" : 92,
+        "land_area_2020" : 0.0
+    },
+    "Naponee, Franklin County, NE" : {
+        "name" : "Naponee",
+        "state" : "Nebraska",
+        "FIPS" : "31-33565",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 83,
+        "population_2020" : 83,
+        "population_2027" : 86,
+        "land_area_2020" : 0.0
+    },
+    "Salem, Richardson County, NE" : {
+        "name" : "Salem",
+        "state" : "Nebraska",
+        "FIPS" : "31-43370",
+        "counties" : [
+            "Richardson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 83,
+        "population_2020" : 83,
+        "population_2027" : 86,
+        "land_area_2020" : 0.0
+    },
+    "Dunning, Blaine County, NE" : {
+        "name" : "Dunning",
+        "state" : "Nebraska",
+        "FIPS" : "31-13960",
+        "counties" : [
+            "Blaine County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 80,
+        "population_2020" : 80,
+        "population_2027" : 83,
+        "land_area_2020" : 0.0
+    },
+    "Heartwell, Kearney County, NE" : {
+        "name" : "Heartwell",
+        "state" : "Nebraska",
+        "FIPS" : "31-21835",
+        "counties" : [
+            "Kearney County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 81,
+        "population_2020" : 81,
+        "population_2027" : 84,
+        "land_area_2020" : 0.0
+    },
+    "Rogers, Colfax County, NE" : {
+        "name" : "Rogers",
+        "state" : "Nebraska",
+        "FIPS" : "31-42145",
+        "counties" : [
+            "Colfax County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 82,
+        "population_2020" : 82,
+        "population_2027" : 85,
+        "land_area_2020" : 0.0
+    },
+    "Dixon, Dixon County, NE" : {
+        "name" : "Dixon",
+        "state" : "Nebraska",
+        "FIPS" : "31-13225",
+        "counties" : [
+            "Dixon County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 77,
+        "population_2020" : 77,
+        "population_2027" : 80,
+        "land_area_2020" : 0.0
+    },
+    "Martinsburg, Dixon County, NE" : {
+        "name" : "Martinsburg",
+        "state" : "Nebraska",
+        "FIPS" : "31-30940",
+        "counties" : [
+            "Dixon County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 78,
+        "population_2020" : 78,
+        "population_2027" : 81,
+        "land_area_2020" : 0.0
+    },
+    "Burchard, Pawnee County, NE" : {
+        "name" : "Burchard",
+        "state" : "Nebraska",
+        "FIPS" : "31-07065",
+        "counties" : [
+            "Pawnee County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 76,
+        "population_2020" : 76,
+        "population_2027" : 79,
+        "land_area_2020" : 0.0
+    },
+    "Prosser, Adams County, NE" : {
+        "name" : "Prosser",
+        "state" : "Nebraska",
+        "FIPS" : "31-40430",
+        "counties" : [
+            "Adams County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 76,
+        "population_2020" : 76,
+        "population_2027" : 79,
+        "land_area_2020" : 0.0
+    },
+    "Swanton, Saline County, NE" : {
+        "name" : "Swanton",
+        "state" : "Nebraska",
+        "FIPS" : "31-48060",
+        "counties" : [
+            "Saline County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 82,
+        "population_2020" : 82,
+        "population_2027" : 85,
+        "land_area_2020" : 0.0
+    },
+    "Wilsonville, Furnas County, NE" : {
+        "name" : "Wilsonville",
+        "state" : "Nebraska",
+        "FIPS" : "31-53240",
+        "counties" : [
+            "Furnas County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 75,
+        "population_2020" : 75,
+        "population_2027" : 78,
+        "land_area_2020" : 0.0
+    },
+    "Berwyn, Custer County, NE" : {
+        "name" : "Berwyn",
+        "state" : "Nebraska",
+        "FIPS" : "31-04650",
+        "counties" : [
+            "Custer County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 75,
+        "population_2020" : 75,
+        "population_2027" : 78,
+        "land_area_2020" : 0.0
+    },
+    "Center, Knox County, NE" : {
+        "name" : "Center",
+        "state" : "Nebraska",
+        "FIPS" : "31-08360",
+        "counties" : [
+            "Knox County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 79,
+        "population_2020" : 79,
+        "population_2027" : 82,
+        "land_area_2020" : 0.0
+    },
+    "Danbury, Red Willow County, NE" : {
+        "name" : "Danbury",
+        "state" : "Nebraska",
+        "FIPS" : "31-12105",
+        "counties" : [
+            "Red Willow County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 80,
+        "population_2020" : 80,
+        "population_2027" : 83,
+        "land_area_2020" : 0.0
+    },
+    "Richland, Colfax County, NE" : {
+        "name" : "Richland",
+        "state" : "Nebraska",
+        "FIPS" : "31-41375",
+        "counties" : [
+            "Colfax County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 70,
+        "population_2020" : 70,
+        "population_2027" : 73,
+        "land_area_2020" : 0.0
+    },
+    "Comstock, Custer County, NE" : {
+        "name" : "Comstock",
+        "state" : "Nebraska",
+        "FIPS" : "31-10180",
+        "counties" : [
+            "Custer County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 68,
+        "population_2020" : 68,
+        "population_2027" : 71,
+        "land_area_2020" : 0.0
+    },
+    "Crookston, Cherry County, NE" : {
+        "name" : "Crookston",
+        "state" : "Nebraska",
+        "FIPS" : "31-11475",
+        "counties" : [
+            "Cherry County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 71,
+        "population_2020" : 71,
+        "population_2027" : 74,
+        "land_area_2020" : 0.0
+    },
+    "Virginia, Gage County, NE" : {
+        "name" : "Virginia",
+        "state" : "Nebraska",
+        "FIPS" : "31-50790",
+        "counties" : [
+            "Gage County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 74,
+        "population_2020" : 74,
+        "population_2027" : 77,
+        "land_area_2020" : 0.0
+    },
+    "Waterbury, Dixon County, NE" : {
+        "name" : "Waterbury",
+        "state" : "Nebraska",
+        "FIPS" : "31-51630",
+        "counties" : [
+            "Dixon County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 72,
+        "population_2020" : 72,
+        "population_2027" : 75,
+        "land_area_2020" : 0.0
+    },
+    "Wellfleet, Lincoln County, NE" : {
+        "name" : "Wellfleet",
+        "state" : "Nebraska",
+        "FIPS" : "31-52085",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 72,
+        "population_2020" : 72,
+        "population_2027" : 75,
+        "land_area_2020" : 0.0
+    },
+    "Kilgore, Cherry County, NE" : {
+        "name" : "Kilgore",
+        "state" : "Nebraska",
+        "FIPS" : "31-25405",
+        "counties" : [
+            "Cherry County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 63,
+        "population_2020" : 63,
+        "population_2027" : 65,
+        "land_area_2020" : 0.0
+    },
+    "Newport, Rock County, NE" : {
+        "name" : "Newport",
+        "state" : "Nebraska",
+        "FIPS" : "31-34265",
+        "counties" : [
+            "Rock County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 68,
+        "population_2020" : 68,
+        "population_2027" : 71,
+        "land_area_2020" : 0.0
+    },
+    "Bristow, Boyd County, NE" : {
+        "name" : "Bristow",
+        "state" : "Nebraska",
+        "FIPS" : "31-06400",
+        "counties" : [
+            "Boyd County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 70,
+        "population_2020" : 70,
+        "population_2027" : 73,
+        "land_area_2020" : 0.0
+    },
+    "Abie, Butler County, NE" : {
+        "name" : "Abie",
+        "state" : "Nebraska",
+        "FIPS" : "31-00205",
+        "counties" : [
+            "Butler County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 65,
+        "population_2020" : 65,
+        "population_2027" : 68,
+        "land_area_2020" : 0.0
+    },
+    "McGrew, Scotts Bluff County, NE" : {
+        "name" : "McGrew",
+        "state" : "Nebraska",
+        "FIPS" : "31-30030",
+        "counties" : [
+            "Scotts Bluff County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 75,
+        "population_2020" : 75,
+        "population_2027" : 78,
+        "land_area_2020" : 0.0
+    },
+    "Elk Creek, Johnson County, NE" : {
+        "name" : "Elk Creek",
+        "state" : "Nebraska",
+        "FIPS" : "31-14975",
+        "counties" : [
+            "Johnson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 69,
+        "population_2020" : 69,
+        "population_2027" : 72,
+        "land_area_2020" : 0.0
+    },
+    "Halsey, Thomas County, NE" : {
+        "name" : "Halsey",
+        "state" : "Nebraska",
+        "FIPS" : "31-20680",
+        "counties" : [
+            "Thomas County",
+            "Blaine County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 68,
+        "population_2020" : 68,
+        "population_2027" : 71,
+        "land_area_2020" : 0.0
+    },
+    "Hazard, Sherman County, NE" : {
+        "name" : "Hazard",
+        "state" : "Nebraska",
+        "FIPS" : "31-21765",
+        "counties" : [
+            "Sherman County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 57,
+        "population_2020" : 57,
+        "population_2027" : 59,
+        "land_area_2020" : 0.0
+    },
+    "Hubbell, Thayer County, NE" : {
+        "name" : "Hubbell",
+        "state" : "Nebraska",
+        "FIPS" : "31-23410",
+        "counties" : [
+            "Thayer County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 63,
+        "population_2020" : 63,
+        "population_2027" : 65,
+        "land_area_2020" : 0.0
+    },
+    "Maskell, Dixon County, NE" : {
+        "name" : "Maskell",
+        "state" : "Nebraska",
+        "FIPS" : "31-31045",
+        "counties" : [
+            "Dixon County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 58,
+        "population_2020" : 58,
+        "population_2027" : 60,
+        "land_area_2020" : 0.0
+    },
+    "Smithfield, Gosper County, NE" : {
+        "name" : "Smithfield",
+        "state" : "Nebraska",
+        "FIPS" : "31-45575",
+        "counties" : [
+            "Gosper County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 60,
+        "population_2020" : 60,
+        "population_2027" : 62,
+        "land_area_2020" : 0.0
+    },
+    "Whitney, Dawes County, NE" : {
+        "name" : "Whitney",
+        "state" : "Nebraska",
+        "FIPS" : "31-52925",
+        "counties" : [
+            "Dawes County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 62,
+        "population_2020" : 62,
+        "population_2027" : 64,
+        "land_area_2020" : 0.0
+    },
+    "Lewiston, Pawnee County, NE" : {
+        "name" : "Lewiston",
+        "state" : "Nebraska",
+        "FIPS" : "31-26875",
+        "counties" : [
+            "Pawnee County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 55,
+        "population_2020" : 55,
+        "population_2027" : 57,
+        "land_area_2020" : 0.0
+    },
+    "Garrison, Butler County, NE" : {
+        "name" : "Garrison",
+        "state" : "Nebraska",
+        "FIPS" : "31-18300",
+        "counties" : [
+            "Butler County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 55,
+        "population_2020" : 55,
+        "population_2027" : 57,
+        "land_area_2020" : 0.0
+    },
+    "Primrose, Boone County, NE" : {
+        "name" : "Primrose",
+        "state" : "Nebraska",
+        "FIPS" : "31-40360",
+        "counties" : [
+            "Boone County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 55,
+        "population_2020" : 55,
+        "population_2027" : 57,
+        "land_area_2020" : 0.0
+    },
+    "Royal, Antelope County, NE" : {
+        "name" : "Royal",
+        "state" : "Nebraska",
+        "FIPS" : "31-42495",
+        "counties" : [
+            "Antelope County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 58,
+        "population_2020" : 58,
+        "population_2027" : 60,
+        "land_area_2020" : 0.0
+    },
+    "Steinauer, Pawnee County, NE" : {
+        "name" : "Steinauer",
+        "state" : "Nebraska",
+        "FIPS" : "31-47080",
+        "counties" : [
+            "Pawnee County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 59,
+        "population_2020" : 59,
+        "population_2027" : 61,
+        "land_area_2020" : 0.0
+    },
+    "Reynolds, Jefferson County, NE" : {
+        "name" : "Reynolds",
+        "state" : "Nebraska",
+        "FIPS" : "31-41235",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 57,
+        "population_2020" : 57,
+        "population_2027" : 59,
+        "land_area_2020" : 0.0
+    },
+    "Belvidere, Thayer County, NE" : {
+        "name" : "Belvidere",
+        "state" : "Nebraska",
+        "FIPS" : "31-04160",
+        "counties" : [
+            "Thayer County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 51,
+        "population_2020" : 51,
+        "population_2027" : 53,
+        "land_area_2020" : 0.0
+    },
+    "Burr, Otoe County, NE" : {
+        "name" : "Burr",
+        "state" : "Nebraska",
+        "FIPS" : "31-07205",
+        "counties" : [
+            "Otoe County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 52,
+        "population_2020" : 52,
+        "population_2027" : 54,
+        "land_area_2020" : 0.0
+    },
+    "Riverton, Franklin County, NE" : {
+        "name" : "Riverton",
+        "state" : "Nebraska",
+        "FIPS" : "31-41760",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 57,
+        "population_2020" : 57,
+        "population_2027" : 59,
+        "land_area_2020" : 0.0
+    },
+    "Harbine, Jefferson County, NE" : {
+        "name" : "Harbine",
+        "state" : "Nebraska",
+        "FIPS" : "31-20960",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 56,
+        "population_2020" : 56,
+        "population_2027" : 58,
+        "land_area_2020" : 0.0
+    },
+    "Oak, Nuckolls County, NE" : {
+        "name" : "Oak",
+        "state" : "Nebraska",
+        "FIPS" : "31-35245",
+        "counties" : [
+            "Nuckolls County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 54,
+        "population_2020" : 54,
+        "population_2027" : 56,
+        "land_area_2020" : 0.0
+    },
+    "Thayer, York County, NE" : {
+        "name" : "Thayer",
+        "state" : "Nebraska",
+        "FIPS" : "31-48690",
+        "counties" : [
+            "York County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 44,
+        "population_2020" : 44,
+        "population_2027" : 46,
+        "land_area_2020" : 0.0
+    },
+    "Tarnov, Platte County, NE" : {
+        "name" : "Tarnov",
+        "state" : "Nebraska",
+        "FIPS" : "31-48410",
+        "counties" : [
+            "Platte County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 52,
+        "population_2020" : 52,
+        "population_2027" : 54,
+        "land_area_2020" : 0.0
+    },
+    "Winnetoon, Knox County, NE" : {
+        "name" : "Winnetoon",
+        "state" : "Nebraska",
+        "FIPS" : "31-53345",
+        "counties" : [
+            "Knox County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 54,
+        "population_2020" : 54,
+        "population_2027" : 56,
+        "land_area_2020" : 0.0
+    },
+    "Elyria, Valley County, NE" : {
+        "name" : "Elyria",
+        "state" : "Nebraska",
+        "FIPS" : "31-15605",
+        "counties" : [
+            "Valley County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 50,
+        "population_2020" : 50,
+        "population_2027" : 52,
+        "land_area_2020" : 0.0
+    },
+    "Ong, Clay County, NE" : {
+        "name" : "Ong",
+        "state" : "Nebraska",
+        "FIPS" : "31-37140",
+        "counties" : [
+            "Clay County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 49,
+        "population_2020" : 49,
+        "population_2027" : 51,
+        "land_area_2020" : 0.0
+    },
+    "Steele City, Jefferson County, NE" : {
+        "name" : "Steele City",
+        "state" : "Nebraska",
+        "FIPS" : "31-47010",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 44,
+        "population_2020" : 44,
+        "population_2027" : 46,
+        "land_area_2020" : 0.0
+    },
+    "Wood Lake, Cherry County, NE" : {
+        "name" : "Wood Lake",
+        "state" : "Nebraska",
+        "FIPS" : "31-53555",
+        "counties" : [
+            "Cherry County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 46,
+        "population_2020" : 46,
+        "population_2027" : 48,
+        "land_area_2020" : 0.0
+    },
+    "Emmet, Holt County, NE" : {
+        "name" : "Emmet",
+        "state" : "Nebraska",
+        "FIPS" : "31-15815",
+        "counties" : [
+            "Holt County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 46,
+        "population_2020" : 46,
+        "population_2027" : 48,
+        "land_area_2020" : 0.0
+    },
+    "Johnstown, Brown County, NE" : {
+        "name" : "Johnstown",
+        "state" : "Nebraska",
+        "FIPS" : "31-24740",
+        "counties" : [
+            "Brown County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 47,
+        "population_2020" : 47,
+        "population_2027" : 49,
+        "land_area_2020" : 0.0
+    },
+    "Julian, Nemaha County, NE" : {
+        "name" : "Julian",
+        "state" : "Nebraska",
+        "FIPS" : "31-24915",
+        "counties" : [
+            "Nemaha County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 46,
+        "population_2020" : 46,
+        "population_2027" : 48,
+        "land_area_2020" : 0.0
+    },
+    "Lebanon, Red Willow County, NE" : {
+        "name" : "Lebanon",
+        "state" : "Nebraska",
+        "FIPS" : "31-26455",
+        "counties" : [
+            "Red Willow County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 46,
+        "population_2020" : 46,
+        "population_2027" : 48,
+        "land_area_2020" : 0.0
+    },
+    "Crab Orchard, Johnson County, NE" : {
+        "name" : "Crab Orchard",
+        "state" : "Nebraska",
+        "FIPS" : "31-11055",
+        "counties" : [
+            "Johnson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 46,
+        "population_2020" : 46,
+        "population_2027" : 48,
+        "land_area_2020" : 0.0
+    },
+    "Foster, Pierce County, NE" : {
+        "name" : "Foster",
+        "state" : "Nebraska",
+        "FIPS" : "31-17320",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 42,
+        "population_2020" : 42,
+        "population_2027" : 44,
+        "land_area_2020" : 0.0
+    },
+    "Magnet, Cedar County, NE" : {
+        "name" : "Magnet",
+        "state" : "Nebraska",
+        "FIPS" : "31-30310",
+        "counties" : [
+            "Cedar County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 43,
+        "population_2020" : 43,
+        "population_2027" : 45,
+        "land_area_2020" : 0.0
+    },
+    "Surprise, Butler County, NE" : {
+        "name" : "Surprise",
+        "state" : "Nebraska",
+        "FIPS" : "31-47850",
+        "counties" : [
+            "Butler County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 37,
+        "population_2020" : 37,
+        "population_2027" : 38,
+        "land_area_2020" : 0.0
+    },
+    "Deweese, Clay County, NE" : {
+        "name" : "Deweese",
+        "state" : "Nebraska",
+        "FIPS" : "31-12945",
+        "counties" : [
+            "Clay County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 42,
+        "population_2020" : 42,
+        "population_2027" : 44,
+        "land_area_2020" : 0.0
+    },
+    "Verdel, Knox County, NE" : {
+        "name" : "Verdel",
+        "state" : "Nebraska",
+        "FIPS" : "31-50335",
+        "counties" : [
+            "Knox County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 38,
+        "population_2020" : 38,
+        "population_2027" : 39,
+        "land_area_2020" : 0.0
+    },
+    "Clinton, Sheridan County, NE" : {
+        "name" : "Clinton",
+        "state" : "Nebraska",
+        "FIPS" : "31-09655",
+        "counties" : [
+            "Sheridan County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 38,
+        "population_2020" : 38,
+        "population_2027" : 39,
+        "land_area_2020" : 0.0
+    },
+    "McLean, Pierce County, NE" : {
+        "name" : "McLean",
+        "state" : "Nebraska",
+        "FIPS" : "31-30065",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 33,
+        "population_2020" : 33,
+        "population_2027" : 34,
+        "land_area_2020" : 0.0
+    },
+    "Saronville, Clay County, NE" : {
+        "name" : "Saronville",
+        "state" : "Nebraska",
+        "FIPS" : "31-43755",
+        "counties" : [
+            "Clay County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 35,
+        "population_2020" : 35,
+        "population_2027" : 36,
+        "land_area_2020" : 0.0
+    },
+    "Lorton, Otoe County, NE" : {
+        "name" : "Lorton",
+        "state" : "Nebraska",
+        "FIPS" : "31-29175",
+        "counties" : [
+            "Otoe County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 35,
+        "population_2020" : 35,
+        "population_2027" : 36,
+        "land_area_2020" : 0.0
+    },
+    "Norman, Kearney County, NE" : {
+        "name" : "Norman",
+        "state" : "Nebraska",
+        "FIPS" : "31-34650",
+        "counties" : [
+            "Kearney County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 32,
+        "population_2020" : 32,
+        "population_2027" : 33,
+        "land_area_2020" : 0.0
+    },
+    "Cornlea, Platte County, NE" : {
+        "name" : "Cornlea",
+        "state" : "Nebraska",
+        "FIPS" : "31-10600",
+        "counties" : [
+            "Platte County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 33,
+        "population_2020" : 33,
+        "population_2027" : 34,
+        "land_area_2020" : 0.0
+    },
+    "Cushing, Howard County, NE" : {
+        "name" : "Cushing",
+        "state" : "Nebraska",
+        "FIPS" : "31-11860",
+        "counties" : [
+            "Howard County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 37,
+        "population_2020" : 37,
+        "population_2027" : 38,
+        "land_area_2020" : 0.0
+    },
+    "Huntley, Harlan County, NE" : {
+        "name" : "Huntley",
+        "state" : "Nebraska",
+        "FIPS" : "31-23550",
+        "counties" : [
+            "Harlan County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 33,
+        "population_2020" : 33,
+        "population_2027" : 34,
+        "land_area_2020" : 0.0
+    },
+    "Liberty, Gage County, NE" : {
+        "name" : "Liberty",
+        "state" : "Nebraska",
+        "FIPS" : "31-26980",
+        "counties" : [
+            "Gage County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 37,
+        "population_2020" : 37,
+        "population_2027" : 38,
+        "land_area_2020" : 0.0
+    },
+    "Stockham, Hamilton County, NE" : {
+        "name" : "Stockham",
+        "state" : "Nebraska",
+        "FIPS" : "31-47220",
+        "counties" : [
+            "Hamilton County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 32,
+        "population_2020" : 32,
+        "population_2027" : 33,
+        "land_area_2020" : 0.0
+    },
+    "Strang, Fillmore County, NE" : {
+        "name" : "Strang",
+        "state" : "Nebraska",
+        "FIPS" : "31-47360",
+        "counties" : [
+            "Fillmore County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 30,
+        "population_2020" : 30,
+        "population_2027" : 31,
+        "land_area_2020" : 0.0
+    },
+    "Gandy, Logan County, NE" : {
+        "name" : "Gandy",
+        "state" : "Nebraska",
+        "FIPS" : "31-17950",
+        "counties" : [
+            "Logan County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 34,
+        "population_2020" : 34,
+        "population_2027" : 35,
+        "land_area_2020" : 0.0
+    },
+    "Cotesfield, Howard County, NE" : {
+        "name" : "Cotesfield",
+        "state" : "Nebraska",
+        "FIPS" : "31-10740",
+        "counties" : [
+            "Howard County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 29,
+        "population_2020" : 29,
+        "population_2027" : 30,
+        "land_area_2020" : 0.0
+    },
+    "Gilead, Thayer County, NE" : {
+        "name" : "Gilead",
+        "state" : "Nebraska",
+        "FIPS" : "31-18720",
+        "counties" : [
+            "Thayer County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 30,
+        "population_2020" : 30,
+        "population_2027" : 31,
+        "land_area_2020" : 0.0
+    },
+    "Hamlet, Hayes County, NE" : {
+        "name" : "Hamlet",
+        "state" : "Nebraska",
+        "FIPS" : "31-20750",
+        "counties" : [
+            "Hayes County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 27,
+        "population_2020" : 27,
+        "population_2027" : 28,
+        "land_area_2020" : 0.0
+    },
+    "Lushton, York County, NE" : {
+        "name" : "Lushton",
+        "state" : "Nebraska",
+        "FIPS" : "31-29645",
+        "counties" : [
+            "York County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 28,
+        "population_2020" : 28,
+        "population_2027" : 29,
+        "land_area_2020" : 0.0
+    },
+    "Moorefield, Frontier County, NE" : {
+        "name" : "Moorefield",
+        "state" : "Nebraska",
+        "FIPS" : "31-32760",
+        "counties" : [
+            "Frontier County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 27,
+        "population_2020" : 27,
+        "population_2027" : 28,
+        "land_area_2020" : 0.0
+    },
+    "Lamar, Chase County, NE" : {
+        "name" : "Lamar",
+        "state" : "Nebraska",
+        "FIPS" : "31-26175",
+        "counties" : [
+            "Chase County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 28,
+        "population_2020" : 28,
+        "population_2027" : 29,
+        "land_area_2020" : 0.0
+    },
+    "Bazile Mills, Knox County, NE" : {
+        "name" : "Bazile Mills",
+        "state" : "Nebraska",
+        "FIPS" : "31-03355",
+        "counties" : [
+            "Knox County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 26,
+        "population_2020" : 26,
+        "population_2027" : 27,
+        "land_area_2020" : 0.0
+    },
+    "Cowles, Webster County, NE" : {
+        "name" : "Cowles",
+        "state" : "Nebraska",
+        "FIPS" : "31-10985",
+        "counties" : [
+            "Webster County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 21,
+        "population_2020" : 21,
+        "population_2027" : 22,
+        "land_area_2020" : 0.0
+    },
+    "Hendley, Furnas County, NE" : {
+        "name" : "Hendley",
+        "state" : "Nebraska",
+        "FIPS" : "31-22115",
+        "counties" : [
+            "Furnas County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 20,
+        "population_2020" : 20,
+        "population_2027" : 21,
+        "land_area_2020" : 0.0
+    },
+    "Obert, Cedar County, NE" : {
+        "name" : "Obert",
+        "state" : "Nebraska",
+        "FIPS" : "31-35560",
+        "counties" : [
+            "Cedar County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 22,
+        "population_2020" : 22,
+        "population_2027" : 23,
+        "land_area_2020" : 0.0
+    },
+    "Ragan, Harlan County, NE" : {
+        "name" : "Ragan",
+        "state" : "Nebraska",
+        "FIPS" : "31-40570",
+        "counties" : [
+            "Harlan County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 22,
+        "population_2020" : 22,
+        "population_2027" : 23,
+        "land_area_2020" : 0.0
+    },
+    "Stockville, Frontier County, NE" : {
+        "name" : "Stockville",
+        "state" : "Nebraska",
+        "FIPS" : "31-47290",
+        "counties" : [
+            "Frontier County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 25,
+        "population_2020" : 25,
+        "population_2027" : 26,
+        "land_area_2020" : 0.0
+    },
+    "Nora, Nuckolls County, NE" : {
+        "name" : "Nora",
+        "state" : "Nebraska",
+        "FIPS" : "31-34545",
+        "counties" : [
+            "Nuckolls County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 21,
+        "population_2020" : 21,
+        "population_2027" : 22,
+        "land_area_2020" : 0.0
+    },
+    "Barada, Richardson County, NE" : {
+        "name" : "Barada",
+        "state" : "Nebraska",
+        "FIPS" : "31-03040",
+        "counties" : [
+            "Richardson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 21,
+        "population_2020" : 21,
+        "population_2027" : 22,
+        "land_area_2020" : 0.0
+    },
+    "Winslow, Dodge County, NE" : {
+        "name" : "Winslow",
+        "state" : "Nebraska",
+        "FIPS" : "31-53415",
+        "counties" : [
+            "Dodge County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 19,
+        "population_2020" : 19,
+        "population_2027" : 20,
+        "land_area_2020" : 0.0
+    },
+    "Nenzel, Cherry County, NE" : {
+        "name" : "Nenzel",
+        "state" : "Nebraska",
+        "FIPS" : "31-33985",
+        "counties" : [
+            "Cherry County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 17,
+        "population_2020" : 17,
+        "population_2027" : 18,
+        "land_area_2020" : 0.0
+    },
+    "Sholes, Wayne County, NE" : {
+        "name" : "Sholes",
+        "state" : "Nebraska",
+        "FIPS" : "31-45190",
+        "counties" : [
+            "Wayne County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 16,
+        "population_2020" : 16,
+        "population_2027" : 17,
+        "land_area_2020" : 0.0
+    },
+    "Anoka, Boyd County, NE" : {
+        "name" : "Anoka",
+        "state" : "Nebraska",
+        "FIPS" : "31-01465",
+        "counties" : [
+            "Boyd County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 10,
+        "population_2020" : 10,
+        "population_2027" : 10,
+        "land_area_2020" : 0.0
+    },
+    "Burton, Keya Paha County, NE" : {
+        "name" : "Burton",
+        "state" : "Nebraska",
+        "FIPS" : "31-07310",
+        "counties" : [
+            "Keya Paha County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 11,
+        "population_2020" : 11,
+        "population_2027" : 11,
+        "land_area_2020" : 0.0
+    },
+    "Brewster, Blaine County, NE" : {
+        "name" : "Brewster",
+        "state" : "Nebraska",
+        "FIPS" : "31-06260",
+        "counties" : [
+            "Blaine County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 12,
+        "population_2020" : 12,
+        "population_2027" : 12,
+        "land_area_2020" : 0.0
+    },
+    "Gross, Boyd County, NE" : {
+        "name" : "Gross",
+        "state" : "Nebraska",
+        "FIPS" : "31-20295",
+        "counties" : [
+            "Boyd County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 3,
+        "population_2020" : 3,
+        "population_2027" : 3,
+        "land_area_2020" : 0.0
+    },
+    "Monowi, Boyd County, NE" : {
+        "name" : "Monowi",
+        "state" : "Nebraska",
+        "FIPS" : "31-32550",
+        "counties" : [
+            "Boyd County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 2,
+        "population_2020" : 2,
+        "population_2027" : 2,
+        "land_area_2020" : 0.0
+    }
+}

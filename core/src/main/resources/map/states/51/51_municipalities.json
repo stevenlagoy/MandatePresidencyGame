@@ -1,0 +1,496 @@
+{
+    "Alexandria, Alexandria Independent City, VA" : {
+        "name" : "Alexandria",
+        "state" : "Virginia",
+        "FIPS" : "51-01000",
+        "counties" : [
+            "Alexandria Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 159102,
+        "population_2020" : 159102,
+        "population_2027" : 165042,
+        "land_area_2020" : 15.0
+    },
+    "Bristol, Bristol Independent City, VA" : {
+        "name" : "Bristol",
+        "state" : "Virginia",
+        "FIPS" : "51-09816",
+        "counties" : [
+            "Bristol Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 16316,
+        "population_2020" : 16316,
+        "population_2027" : 16925,
+        "land_area_2020" : 12.0
+    },
+    "Buena Vista, Buena Vista Independent City, VA" : {
+        "name" : "Buena Vista",
+        "state" : "Virginia",
+        "FIPS" : "51-11032",
+        "counties" : [
+            "Buena Vista Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 6581,
+        "population_2020" : 6581,
+        "population_2027" : 6827,
+        "land_area_2020" : 7.0
+    },
+    "Charlottesville, Charlottesville Independent City, VA" : {
+        "name" : "Charlottesville",
+        "state" : "Virginia",
+        "FIPS" : "51-14968",
+        "counties" : [
+            "Charlottesville Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 44767,
+        "population_2020" : 44767,
+        "population_2027" : 46438,
+        "land_area_2020" : 10.0
+    },
+    "Chesapeake, Chesapeake Independent City, VA" : {
+        "name" : "Chesapeake",
+        "state" : "Virginia",
+        "FIPS" : "51-16000",
+        "counties" : [
+            "Chesapeake Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 254997,
+        "population_2020" : 254997,
+        "population_2027" : 264517,
+        "land_area_2020" : 341.0
+    },
+    "Colonial Heights, Colonial Heights Independent City, VA" : {
+        "name" : "Colonial Heights",
+        "state" : "Virginia",
+        "FIPS" : "51-18448",
+        "counties" : [
+            "Colonial Heights Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 18674,
+        "population_2020" : 18674,
+        "population_2027" : 19371,
+        "land_area_2020" : 8.0
+    },
+    "Covington, Covington Independent City, VA" : {
+        "name" : "Covington",
+        "state" : "Virginia",
+        "FIPS" : "51-19728",
+        "counties" : [
+            "Covington Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 5663,
+        "population_2020" : 5663,
+        "population_2027" : 5874,
+        "land_area_2020" : 4.0
+    },
+    "Danville, Danville Independent City, VA" : {
+        "name" : "Danville",
+        "state" : "Virginia",
+        "FIPS" : "51-21344",
+        "counties" : [
+            "Danville Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 41993,
+        "population_2020" : 41993,
+        "population_2027" : 43561,
+        "land_area_2020" : 43.0
+    },
+    "Emporia, Emporia Independent City, VA" : {
+        "name" : "Emporia",
+        "state" : "Virginia",
+        "FIPS" : "51-25808",
+        "counties" : [
+            "Emporia Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 5402,
+        "population_2020" : 5402,
+        "population_2027" : 5604,
+        "land_area_2020" : 7.0
+    },
+    "Fairfax, Fairfax Independent City, VA" : {
+        "name" : "Fairfax",
+        "state" : "Virginia",
+        "FIPS" : "51-26496",
+        "counties" : [
+            "Fairfax Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 26340,
+        "population_2020" : 26340,
+        "population_2027" : 27323,
+        "land_area_2020" : 6.0
+    },
+    "Falls Church, Falls Church Independent City, VA" : {
+        "name" : "Falls Church",
+        "state" : "Virginia",
+        "FIPS" : "51-27200",
+        "counties" : [
+            "Falls Church Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 15034,
+        "population_2020" : 15034,
+        "population_2027" : 15595,
+        "land_area_2020" : 2.1
+    },
+    "Franklin, Franklin Independent City, VA" : {
+        "name" : "Franklin",
+        "state" : "Virginia",
+        "FIPS" : "51-29600",
+        "counties" : [
+            "Franklin Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 8373,
+        "population_2020" : 8373,
+        "population_2027" : 8686,
+        "land_area_2020" : 8.0
+    },
+    "Fredericksburg, Fredericksburg Independent City, VA" : {
+        "name" : "Fredericksburg",
+        "state" : "Virginia",
+        "FIPS" : "51-29744",
+        "counties" : [
+            "Fredericksburg Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 29992,
+        "population_2020" : 29992,
+        "population_2027" : 31112,
+        "land_area_2020" : 10.0
+    },
+    "Galax, Galax Independent City, VA" : {
+        "name" : "Galax",
+        "state" : "Virginia",
+        "FIPS" : "51-30208",
+        "counties" : [
+            "Galax Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 6739,
+        "population_2020" : 6739,
+        "population_2027" : 6991,
+        "land_area_2020" : 8.0
+    },
+    "Hampton, Hampton Independent City, VA" : {
+        "name" : "Hampton",
+        "state" : "Virginia",
+        "FIPS" : "51-35000",
+        "counties" : [
+            "Hampton Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 137596,
+        "population_2020" : 137596,
+        "population_2027" : 142733,
+        "land_area_2020" : 52.0
+    },
+    "Harrisonburg, Harrisonburg Independent City, VA" : {
+        "name" : "Harrisonburg",
+        "state" : "Virginia",
+        "FIPS" : "51-35624",
+        "counties" : [
+            "Harrisonburg Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 51164,
+        "population_2020" : 51164,
+        "population_2027" : 53074,
+        "land_area_2020" : 18.0
+    },
+    "Hopewell, Hopewell Independent City, VA" : {
+        "name" : "Hopewell",
+        "state" : "Virginia",
+        "FIPS" : "51-38424",
+        "counties" : [
+            "Hopewell Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 22970,
+        "population_2020" : 22970,
+        "population_2027" : 23828,
+        "land_area_2020" : 10.0
+    },
+    "Lexington, Lexington Independent City, VA" : {
+        "name" : "Lexington",
+        "state" : "Virginia",
+        "FIPS" : "51-45512",
+        "counties" : [
+            "Lexington Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 7802,
+        "population_2020" : 7802,
+        "population_2027" : 8093,
+        "land_area_2020" : 2.5
+    },
+    "Lynchburg, Lynchburg Independent City, VA" : {
+        "name" : "Lynchburg",
+        "state" : "Virginia",
+        "FIPS" : "51-47672",
+        "counties" : [
+            "Lynchburg Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 80301,
+        "population_2020" : 80301,
+        "population_2027" : 83299,
+        "land_area_2020" : 49.0
+    },
+    "Manassas, Manassas Independent City, VA" : {
+        "name" : "Manassas",
+        "state" : "Virginia",
+        "FIPS" : "51-48952",
+        "counties" : [
+            "Manassas Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 43616,
+        "population_2020" : 43616,
+        "population_2027" : 45244,
+        "land_area_2020" : 10.0
+    },
+    "Manassas Park, Manassas Park Independent City, VA" : {
+        "name" : "Manassas Park",
+        "state" : "Virginia",
+        "FIPS" : "51-48968",
+        "counties" : [
+            "Manassas Park Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 16611,
+        "population_2020" : 16611,
+        "population_2027" : 17231,
+        "land_area_2020" : 2.5
+    },
+    "Martinsville, Martinsville Independent City, VA" : {
+        "name" : "Martinsville",
+        "state" : "Virginia",
+        "FIPS" : "51-49784",
+        "counties" : [
+            "Martinsville Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 13834,
+        "population_2020" : 13834,
+        "population_2027" : 14350,
+        "land_area_2020" : 11.0
+    },
+    "Newport News, Newport News Independent City, VA" : {
+        "name" : "Newport News",
+        "state" : "Virginia",
+        "FIPS" : "51-56000",
+        "counties" : [
+            "Newport News Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 183056,
+        "population_2020" : 183056,
+        "population_2027" : 189890,
+        "land_area_2020" : 68.0
+    },
+    "Norfolk, Norfolk Independent City, VA" : {
+        "name" : "Norfolk",
+        "state" : "Virginia",
+        "FIPS" : "51-57000",
+        "counties" : [
+            "Norfolk Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 231105,
+        "population_2020" : 231105,
+        "population_2027" : 239733,
+        "land_area_2020" : 54.0
+    },
+    "Norton, Norton Independent City, VA" : {
+        "name" : "Norton",
+        "state" : "Virginia",
+        "FIPS" : "51-57688",
+        "counties" : [
+            "Norton Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 3478,
+        "population_2020" : 3478,
+        "population_2027" : 3608,
+        "land_area_2020" : 7.0
+    },
+    "Petersburg, Petersburg Independent City, VA" : {
+        "name" : "Petersburg",
+        "state" : "Virginia",
+        "FIPS" : "51-61832",
+        "counties" : [
+            "Petersburg Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 34058,
+        "population_2020" : 34058,
+        "population_2027" : 35330,
+        "land_area_2020" : 23.0
+    },
+    "Poquoson, Poquoson Independent City, VA" : {
+        "name" : "Poquoson",
+        "state" : "Virginia",
+        "FIPS" : "51-63768",
+        "counties" : [
+            "Poquoson Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 12854,
+        "population_2020" : 12854,
+        "population_2027" : 13334,
+        "land_area_2020" : 16.0
+    },
+    "Portsmouth, Portsmouth Independent City, VA" : {
+        "name" : "Portsmouth",
+        "state" : "Virginia",
+        "FIPS" : "51-64000",
+        "counties" : [
+            "Portsmouth Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 96482,
+        "population_2020" : 96482,
+        "population_2027" : 100084,
+        "land_area_2020" : 33.0
+    },
+    "Radford, Radford Independent City, VA" : {
+        "name" : "Radford",
+        "state" : "Virginia",
+        "FIPS" : "51-65392",
+        "counties" : [
+            "Radford Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 17273,
+        "population_2020" : 17273,
+        "population_2027" : 17918,
+        "land_area_2020" : 10.0
+    },
+    "Richmond, Richmond Independent City, VA" : {
+        "name" : "Richmond",
+        "state" : "Virginia",
+        "FIPS" : "51-67000",
+        "counties" : [
+            "Richmond Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 233655,
+        "population_2020" : 233655,
+        "population_2027" : 242378,
+        "land_area_2020" : 60.0
+    },
+    "Roanoke, Roanoke Independent City, VA" : {
+        "name" : "Roanoke",
+        "state" : "Virginia",
+        "FIPS" : "51-68000",
+        "counties" : [
+            "Roanoke Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 97912,
+        "population_2020" : 97912,
+        "population_2027" : 101567,
+        "land_area_2020" : 43.0
+    },
+    "Salem, Salem Independent City, VA" : {
+        "name" : "Salem",
+        "state" : "Virginia",
+        "FIPS" : "51-70000",
+        "counties" : [
+            "Salem Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 25908,
+        "population_2020" : 25908,
+        "population_2027" : 26875,
+        "land_area_2020" : 15.0
+    },
+    "Staunton, Staunton Independent City, VA" : {
+        "name" : "Staunton",
+        "state" : "Virginia",
+        "FIPS" : "51-75216",
+        "counties" : [
+            "Staunton Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 26361,
+        "population_2020" : 26361,
+        "population_2027" : 27345,
+        "land_area_2020" : 20.0
+    },
+    "Suffolk, Suffolk Independent City, VA" : {
+        "name" : "Suffolk",
+        "state" : "Virginia",
+        "FIPS" : "51-76432",
+        "counties" : [
+            "Suffolk Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 103105,
+        "population_2020" : 103105,
+        "population_2027" : 106954,
+        "land_area_2020" : 400.0
+    },
+    "Virginia Beach, Virginia Beach Independent City, VA" : {
+        "name" : "Virginia Beach",
+        "state" : "Virginia",
+        "FIPS" : "51-82000",
+        "counties" : [
+            "Virginia Beach Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 454808,
+        "population_2020" : 454808,
+        "population_2027" : 471788,
+        "land_area_2020" : 248.0
+    },
+    "Waynesboro, Waynesboro Independent City, VA" : {
+        "name" : "Waynesboro",
+        "state" : "Virginia",
+        "FIPS" : "51-83680",
+        "counties" : [
+            "Waynesboro Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 23498,
+        "population_2020" : 23498,
+        "population_2027" : 24375,
+        "land_area_2020" : 14.0
+    },
+    "Williamsburg, Williamsburg Independent City, VA" : {
+        "name" : "Williamsburg",
+        "state" : "Virginia",
+        "FIPS" : "51-86160",
+        "counties" : [
+            "Williamsburg Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 16030,
+        "population_2020" : 16030,
+        "population_2027" : 16628,
+        "land_area_2020" : 9.0
+    },
+    "Winchester, Winchester Independent City, VA" : {
+        "name" : "Winchester",
+        "state" : "Virginia",
+        "FIPS" : "51-86720",
+        "counties" : [
+            "Winchester Independent City"
+        ],
+        "type_class" : "Independent City",
+        "population_2010" : 27800,
+        "population_2020" : 27800,
+        "population_2027" : 28838,
+        "land_area_2020" : 9.0
+    }
+}

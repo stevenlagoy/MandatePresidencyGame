@@ -1,0 +1,5348 @@
+{
+    "Alachua, Alachua County, FL" : {
+        "name" : "Alachua",
+        "state" : "Florida",
+        "FIPS" : "12-00375",
+        "counties" : [
+            "Alachua County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10574,
+        "population_2020" : 10574,
+        "population_2027" : 12251,
+        "land_area_2020" : 36.2
+    },
+    "Alford, Jackson County, FL" : {
+        "name" : "Alford",
+        "state" : "Florida",
+        "FIPS" : "12-00625",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 484,
+        "population_2020" : 484,
+        "population_2027" : 561,
+        "land_area_2020" : 1.1
+    },
+    "Altamonte Springs, Seminole County, FL" : {
+        "name" : "Altamonte Springs",
+        "state" : "Florida",
+        "FIPS" : "12-00950",
+        "counties" : [
+            "Seminole County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 46231,
+        "population_2020" : 46231,
+        "population_2027" : 53562,
+        "land_area_2020" : 9.1
+    },
+    "Altha, Calhoun County, FL" : {
+        "name" : "Altha",
+        "state" : "Florida",
+        "FIPS" : "12-01000",
+        "counties" : [
+            "Calhoun County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 496,
+        "population_2020" : 496,
+        "population_2027" : 575,
+        "land_area_2020" : 1.3
+    },
+    "Anna Maria, Manatee County, FL" : {
+        "name" : "Anna Maria",
+        "state" : "Florida",
+        "FIPS" : "12-01475",
+        "counties" : [
+            "Manatee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 968,
+        "population_2020" : 968,
+        "population_2027" : 1122,
+        "land_area_2020" : 0.74
+    },
+    "Apalachicola, Franklin County, FL" : {
+        "name" : "Apalachicola",
+        "state" : "Florida",
+        "FIPS" : "12-01625",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2341,
+        "population_2020" : 2341,
+        "population_2027" : 2712,
+        "land_area_2020" : 1.9
+    },
+    "Apopka, Orange County, FL" : {
+        "name" : "Apopka",
+        "state" : "Florida",
+        "FIPS" : "12-01700",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 54873,
+        "population_2020" : 54873,
+        "population_2027" : 63575,
+        "land_area_2020" : 34.6
+    },
+    "Arcadia, DeSoto County, FL" : {
+        "name" : "Arcadia",
+        "state" : "Florida",
+        "FIPS" : "12-01750",
+        "counties" : [
+            "DeSoto County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7420,
+        "population_2020" : 7420,
+        "population_2027" : 8597,
+        "land_area_2020" : 4.4
+    },
+    "Archer, Alachua County, FL" : {
+        "name" : "Archer",
+        "state" : "Florida",
+        "FIPS" : "12-01775",
+        "counties" : [
+            "Alachua County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1140,
+        "population_2020" : 1140,
+        "population_2027" : 1321,
+        "land_area_2020" : 6.4
+    },
+    "Astatula, Lake County, FL" : {
+        "name" : "Astatula",
+        "state" : "Florida",
+        "FIPS" : "12-02250",
+        "counties" : [
+            "Lake County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1889,
+        "population_2020" : 1889,
+        "population_2027" : 2189,
+        "land_area_2020" : 3.1
+    },
+    "Atlantic Beach, Duval County, FL" : {
+        "name" : "Atlantic Beach",
+        "state" : "Florida",
+        "FIPS" : "12-02400",
+        "counties" : [
+            "Duval County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13513,
+        "population_2020" : 13513,
+        "population_2027" : 15656,
+        "land_area_2020" : 3.7
+    },
+    "Atlantis, Palm Beach County, FL" : {
+        "name" : "Atlantis",
+        "state" : "Florida",
+        "FIPS" : "12-02500",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2142,
+        "population_2020" : 2142,
+        "population_2027" : 2482,
+        "land_area_2020" : 1.4
+    },
+    "Auburndale, Polk County, FL" : {
+        "name" : "Auburndale",
+        "state" : "Florida",
+        "FIPS" : "12-02550",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15616,
+        "population_2020" : 15616,
+        "population_2027" : 18092,
+        "land_area_2020" : 13.6
+    },
+    "Aventura, Miami-Dade County, FL" : {
+        "name" : "Aventura",
+        "state" : "Florida",
+        "FIPS" : "12-02681",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 40242,
+        "population_2020" : 40242,
+        "population_2027" : 46623,
+        "land_area_2020" : 2.6
+    },
+    "Avon Park, Highlands County, FL" : {
+        "name" : "Avon Park",
+        "state" : "Florida",
+        "FIPS" : "12-02750",
+        "counties" : [
+            "Highlands County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9658,
+        "population_2020" : 9658,
+        "population_2027" : 11190,
+        "land_area_2020" : 10.1
+    },
+    "Bal Harbour, Miami-Dade County, FL" : {
+        "name" : "Bal Harbour",
+        "state" : "Florida",
+        "FIPS" : "12-03275",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 3093,
+        "population_2020" : 3093,
+        "population_2027" : 3583,
+        "land_area_2020" : 0.38
+    },
+    "Baldwin, Duval County, FL" : {
+        "name" : "Baldwin",
+        "state" : "Florida",
+        "FIPS" : "12-03250",
+        "counties" : [
+            "Duval County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1396,
+        "population_2020" : 1396,
+        "population_2027" : 1617,
+        "land_area_2020" : 2.0
+    },
+    "Bartow, Polk County, FL" : {
+        "name" : "Bartow",
+        "state" : "Florida",
+        "FIPS" : "12-03675",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 19309,
+        "population_2020" : 19309,
+        "population_2027" : 22371,
+        "land_area_2020" : 46.3
+    },
+    "Bascom, Jackson County, FL" : {
+        "name" : "Bascom",
+        "state" : "Florida",
+        "FIPS" : "12-03725",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 87,
+        "population_2020" : 87,
+        "population_2027" : 101,
+        "land_area_2020" : 0.24
+    },
+    "Bay Harbor Islands, Miami-Dade County, FL" : {
+        "name" : "Bay Harbor Islands",
+        "state" : "Florida",
+        "FIPS" : "12-03975",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5922,
+        "population_2020" : 5922,
+        "population_2027" : 6861,
+        "land_area_2020" : 0.4
+    },
+    "Bay Lake, Orange County, FL" : {
+        "name" : "Bay Lake",
+        "state" : "Florida",
+        "FIPS" : "12-04150",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 29,
+        "population_2020" : 29,
+        "population_2027" : 34,
+        "land_area_2020" : 21.5
+    },
+    "Bell, Gilchrist County, FL" : {
+        "name" : "Bell",
+        "state" : "Florida",
+        "FIPS" : "12-04975",
+        "counties" : [
+            "Gilchrist County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 518,
+        "population_2020" : 518,
+        "population_2027" : 600,
+        "land_area_2020" : 1.6
+    },
+    "Belle Glade, Palm Beach County, FL" : {
+        "name" : "Belle Glade",
+        "state" : "Florida",
+        "FIPS" : "12-05200",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16698,
+        "population_2020" : 16698,
+        "population_2027" : 19346,
+        "land_area_2020" : 7.0
+    },
+    "Belle Isle, Orange County, FL" : {
+        "name" : "Belle Isle",
+        "state" : "Florida",
+        "FIPS" : "12-05300",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7032,
+        "population_2020" : 7032,
+        "population_2027" : 8147,
+        "land_area_2020" : 2.4
+    },
+    "Belleair, Pinellas County, FL" : {
+        "name" : "Belleair",
+        "state" : "Florida",
+        "FIPS" : "12-05075",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4273,
+        "population_2020" : 4273,
+        "population_2027" : 4951,
+        "land_area_2020" : 1.7
+    },
+    "Belleair Beach, Pinellas County, FL" : {
+        "name" : "Belleair Beach",
+        "state" : "Florida",
+        "FIPS" : "12-05100",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1633,
+        "population_2020" : 1633,
+        "population_2027" : 1892,
+        "land_area_2020" : 0.48
+    },
+    "Belleair Bluffs, Pinellas County, FL" : {
+        "name" : "Belleair Bluffs",
+        "state" : "Florida",
+        "FIPS" : "12-05125",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2311,
+        "population_2020" : 2311,
+        "population_2027" : 2677,
+        "land_area_2020" : 0.46
+    },
+    "Belleair Shore, Pinellas County, FL" : {
+        "name" : "Belleair Shore",
+        "state" : "Florida",
+        "FIPS" : "12-05150",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 73,
+        "population_2020" : 73,
+        "population_2027" : 85,
+        "land_area_2020" : 0.06
+    },
+    "Belleview, Marion County, FL" : {
+        "name" : "Belleview",
+        "state" : "Florida",
+        "FIPS" : "12-05375",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5413,
+        "population_2020" : 5413,
+        "population_2027" : 6271,
+        "land_area_2020" : 3.9
+    },
+    "Beverly Beach, Flagler County, FL" : {
+        "name" : "Beverly Beach",
+        "state" : "Florida",
+        "FIPS" : "12-06100",
+        "counties" : [
+            "Flagler County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 474,
+        "population_2020" : 474,
+        "population_2027" : 549,
+        "land_area_2020" : 0.34
+    },
+    "Biscayne Park, Miami-Dade County, FL" : {
+        "name" : "Biscayne Park",
+        "state" : "Florida",
+        "FIPS" : "12-06600",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 3117,
+        "population_2020" : 3117,
+        "population_2027" : 3611,
+        "land_area_2020" : 0.62
+    },
+    "Blountstown, Calhoun County, FL" : {
+        "name" : "Blountstown",
+        "state" : "Florida",
+        "FIPS" : "12-06925",
+        "counties" : [
+            "Calhoun County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2266,
+        "population_2020" : 2266,
+        "population_2027" : 2625,
+        "land_area_2020" : 3.2
+    },
+    "Boca Raton, Palm Beach County, FL" : {
+        "name" : "Boca Raton",
+        "state" : "Florida",
+        "FIPS" : "12-07300",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 97422,
+        "population_2020" : 97422,
+        "population_2027" : 112871,
+        "land_area_2020" : 29.2
+    },
+    "Bonifay, Holmes County, FL" : {
+        "name" : "Bonifay",
+        "state" : "Florida",
+        "FIPS" : "12-07450",
+        "counties" : [
+            "Holmes County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2759,
+        "population_2020" : 2759,
+        "population_2027" : 3197,
+        "land_area_2020" : 4.7
+    },
+    "Bonita Springs, Lee County, FL" : {
+        "name" : "Bonita Springs",
+        "state" : "Florida",
+        "FIPS" : "12-07525",
+        "counties" : [
+            "Lee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 53644,
+        "population_2020" : 53644,
+        "population_2027" : 62151,
+        "land_area_2020" : 38.4
+    },
+    "Bowling Green, Hardee County, FL" : {
+        "name" : "Bowling Green",
+        "state" : "Florida",
+        "FIPS" : "12-07775",
+        "counties" : [
+            "Hardee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2405,
+        "population_2020" : 2405,
+        "population_2027" : 2786,
+        "land_area_2020" : 1.3
+    },
+    "Boynton Beach, Palm Beach County, FL" : {
+        "name" : "Boynton Beach",
+        "state" : "Florida",
+        "FIPS" : "12-07875",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 80380,
+        "population_2020" : 80380,
+        "population_2027" : 93126,
+        "land_area_2020" : 16.2
+    },
+    "Bradenton, Manatee County, FL" : {
+        "name" : "Bradenton",
+        "state" : "Florida",
+        "FIPS" : "12-07950",
+        "counties" : [
+            "Manatee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 55698,
+        "population_2020" : 55698,
+        "population_2027" : 64530,
+        "land_area_2020" : 14.3
+    },
+    "Bradenton Beach, Manatee County, FL" : {
+        "name" : "Bradenton Beach",
+        "state" : "Florida",
+        "FIPS" : "12-07975",
+        "counties" : [
+            "Manatee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 908,
+        "population_2020" : 908,
+        "population_2027" : 1052,
+        "land_area_2020" : 0.52
+    },
+    "Branford, Suwannee County, FL" : {
+        "name" : "Branford",
+        "state" : "Florida",
+        "FIPS" : "12-08175",
+        "counties" : [
+            "Suwannee County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 711,
+        "population_2020" : 711,
+        "population_2027" : 824,
+        "land_area_2020" : 1.1
+    },
+    "Briny Breezes, Palm Beach County, FL" : {
+        "name" : "Briny Breezes",
+        "state" : "Florida",
+        "FIPS" : "12-08575",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 502,
+        "population_2020" : 502,
+        "population_2027" : 582,
+        "land_area_2020" : 0.06
+    },
+    "Bristol, Liberty County, FL" : {
+        "name" : "Bristol",
+        "state" : "Florida",
+        "FIPS" : "12-08600",
+        "counties" : [
+            "Liberty County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 918,
+        "population_2020" : 918,
+        "population_2027" : 1064,
+        "land_area_2020" : 1.6
+    },
+    "Bronson, Levy County, FL" : {
+        "name" : "Bronson",
+        "state" : "Florida",
+        "FIPS" : "12-08700",
+        "counties" : [
+            "Levy County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1140,
+        "population_2020" : 1140,
+        "population_2027" : 1321,
+        "land_area_2020" : 4.3
+    },
+    "Brooker, Bradford County, FL" : {
+        "name" : "Brooker",
+        "state" : "Florida",
+        "FIPS" : "12-08725",
+        "counties" : [
+            "Bradford County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 322,
+        "population_2020" : 322,
+        "population_2027" : 373,
+        "land_area_2020" : 0.53
+    },
+    "Brooksville, Hernando County, FL" : {
+        "name" : "Brooksville",
+        "state" : "Florida",
+        "FIPS" : "12-08800",
+        "counties" : [
+            "Hernando County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8890,
+        "population_2020" : 8890,
+        "population_2027" : 10300,
+        "land_area_2020" : 11.2
+    },
+    "Bunnell, Flagler County, FL" : {
+        "name" : "Bunnell",
+        "state" : "Florida",
+        "FIPS" : "12-09550",
+        "counties" : [
+            "Flagler County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3276,
+        "population_2020" : 3276,
+        "population_2027" : 3795,
+        "land_area_2020" : 139.8
+    },
+    "Bushnell, Sumter County, FL" : {
+        "name" : "Bushnell",
+        "state" : "Florida",
+        "FIPS" : "12-09625",
+        "counties" : [
+            "Sumter County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3047,
+        "population_2020" : 3047,
+        "population_2027" : 3530,
+        "land_area_2020" : 12.4
+    },
+    "Callahan, Nassau County, FL" : {
+        "name" : "Callahan",
+        "state" : "Florida",
+        "FIPS" : "12-09700",
+        "counties" : [
+            "Nassau County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1526,
+        "population_2020" : 1526,
+        "population_2027" : 1768,
+        "land_area_2020" : 1.8
+    },
+    "Callaway, Bay County, FL" : {
+        "name" : "Callaway",
+        "state" : "Florida",
+        "FIPS" : "12-09725",
+        "counties" : [
+            "Bay County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13045,
+        "population_2020" : 13045,
+        "population_2027" : 15114,
+        "land_area_2020" : 9.4
+    },
+    "Campbellton, Jackson County, FL" : {
+        "name" : "Campbellton",
+        "state" : "Florida",
+        "FIPS" : "12-09900",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 191,
+        "population_2020" : 191,
+        "population_2027" : 221,
+        "land_area_2020" : 2.6
+    },
+    "Cape Canaveral, Brevard County, FL" : {
+        "name" : "Cape Canaveral",
+        "state" : "Florida",
+        "FIPS" : "12-10250",
+        "counties" : [
+            "Brevard County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9972,
+        "population_2020" : 9972,
+        "population_2027" : 11553,
+        "land_area_2020" : 2.2
+    },
+    "Cape Coral, Lee County, FL" : {
+        "name" : "Cape Coral",
+        "state" : "Florida",
+        "FIPS" : "12-10275",
+        "counties" : [
+            "Lee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 194016,
+        "population_2020" : 194016,
+        "population_2027" : 224782,
+        "land_area_2020" : 106.0
+    },
+    "Carrabelle, Franklin County, FL" : {
+        "name" : "Carrabelle",
+        "state" : "Florida",
+        "FIPS" : "12-10725",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2606,
+        "population_2020" : 2606,
+        "population_2027" : 3019,
+        "land_area_2020" : 4.8
+    },
+    "Caryville, Washington County, FL" : {
+        "name" : "Caryville",
+        "state" : "Florida",
+        "FIPS" : "12-10975",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 301,
+        "population_2020" : 301,
+        "population_2027" : 349,
+        "land_area_2020" : 3.0
+    },
+    "Casselberry, Seminole County, FL" : {
+        "name" : "Casselberry",
+        "state" : "Florida",
+        "FIPS" : "12-11050",
+        "counties" : [
+            "Seminole County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 28794,
+        "population_2020" : 28794,
+        "population_2027" : 33360,
+        "land_area_2020" : 7.0
+    },
+    "Cedar Key, Levy County, FL" : {
+        "name" : "Cedar Key",
+        "state" : "Florida",
+        "FIPS" : "12-11225",
+        "counties" : [
+            "Levy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 687,
+        "population_2020" : 687,
+        "population_2027" : 796,
+        "land_area_2020" : 1.0
+    },
+    "Center Hill, Sumter County, FL" : {
+        "name" : "Center Hill",
+        "state" : "Florida",
+        "FIPS" : "12-11325",
+        "counties" : [
+            "Sumter County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 846,
+        "population_2020" : 846,
+        "population_2027" : 980,
+        "land_area_2020" : 6.1
+    },
+    "Century, Escambia County, FL" : {
+        "name" : "Century",
+        "state" : "Florida",
+        "FIPS" : "12-11362",
+        "counties" : [
+            "Escambia County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1713,
+        "population_2020" : 1713,
+        "population_2027" : 1985,
+        "land_area_2020" : 3.2
+    },
+    "Chattahoochee, Gadsden County, FL" : {
+        "name" : "Chattahoochee",
+        "state" : "Florida",
+        "FIPS" : "12-11800",
+        "counties" : [
+            "Gadsden County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2955,
+        "population_2020" : 2955,
+        "population_2027" : 3424,
+        "land_area_2020" : 5.6
+    },
+    "Chiefland, Levy County, FL" : {
+        "name" : "Chiefland",
+        "state" : "Florida",
+        "FIPS" : "12-11925",
+        "counties" : [
+            "Levy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2316,
+        "population_2020" : 2316,
+        "population_2027" : 2683,
+        "land_area_2020" : 6.8
+    },
+    "Chipley, Washington County, FL" : {
+        "name" : "Chipley",
+        "state" : "Florida",
+        "FIPS" : "12-11975",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3660,
+        "population_2020" : 3660,
+        "population_2027" : 4240,
+        "land_area_2020" : 4.2
+    },
+    "Cinco Bayou, Okaloosa County, FL" : {
+        "name" : "Cinco Bayou",
+        "state" : "Florida",
+        "FIPS" : "12-12325",
+        "counties" : [
+            "Okaloosa County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 457,
+        "population_2020" : 457,
+        "population_2027" : 529,
+        "land_area_2020" : 0.17
+    },
+    "Clearwater, Pinellas County, FL" : {
+        "name" : "Clearwater",
+        "state" : "Florida",
+        "FIPS" : "12-12875",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 117292,
+        "population_2020" : 117292,
+        "population_2027" : 135892,
+        "land_area_2020" : 26.1
+    },
+    "Clermont, Lake County, FL" : {
+        "name" : "Clermont",
+        "state" : "Florida",
+        "FIPS" : "12-12925",
+        "counties" : [
+            "Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 43021,
+        "population_2020" : 43021,
+        "population_2027" : 49843,
+        "land_area_2020" : 18.0
+    },
+    "Clewiston, Hendry County, FL" : {
+        "name" : "Clewiston",
+        "state" : "Florida",
+        "FIPS" : "12-13000",
+        "counties" : [
+            "Hendry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7327,
+        "population_2020" : 7327,
+        "population_2027" : 8489,
+        "land_area_2020" : 4.5
+    },
+    "Cloud Lake, Palm Beach County, FL" : {
+        "name" : "Cloud Lake",
+        "state" : "Florida",
+        "FIPS" : "12-13050",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 134,
+        "population_2020" : 134,
+        "population_2027" : 155,
+        "land_area_2020" : 0.05
+    },
+    "Cocoa, Brevard County, FL" : {
+        "name" : "Cocoa",
+        "state" : "Florida",
+        "FIPS" : "12-13150",
+        "counties" : [
+            "Brevard County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 19041,
+        "population_2020" : 19041,
+        "population_2027" : 22060,
+        "land_area_2020" : 13.5
+    },
+    "Cocoa Beach, Brevard County, FL" : {
+        "name" : "Cocoa Beach",
+        "state" : "Florida",
+        "FIPS" : "12-13175",
+        "counties" : [
+            "Brevard County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11354,
+        "population_2020" : 11354,
+        "population_2027" : 13154,
+        "land_area_2020" : 4.7
+    },
+    "Coconut Creek, Broward County, FL" : {
+        "name" : "Coconut Creek",
+        "state" : "Florida",
+        "FIPS" : "12-13275",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 57833,
+        "population_2020" : 57833,
+        "population_2027" : 67004,
+        "land_area_2020" : 11.2
+    },
+    "Coleman, Sumter County, FL" : {
+        "name" : "Coleman",
+        "state" : "Florida",
+        "FIPS" : "12-13400",
+        "counties" : [
+            "Sumter County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 642,
+        "population_2020" : 642,
+        "population_2027" : 744,
+        "land_area_2020" : 2.2
+    },
+    "Cooper City, Broward County, FL" : {
+        "name" : "Cooper City",
+        "state" : "Florida",
+        "FIPS" : "12-14125",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 34401,
+        "population_2020" : 34401,
+        "population_2027" : 39856,
+        "land_area_2020" : 8.0
+    },
+    "Coral Gables, Miami-Dade County, FL" : {
+        "name" : "Coral Gables",
+        "state" : "Florida",
+        "FIPS" : "12-14250",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 49248,
+        "population_2020" : 49248,
+        "population_2027" : 57058,
+        "land_area_2020" : 12.9
+    },
+    "Coral Springs, Broward County, FL" : {
+        "name" : "Coral Springs",
+        "state" : "Florida",
+        "FIPS" : "12-14400",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 134394,
+        "population_2020" : 134394,
+        "population_2027" : 155706,
+        "land_area_2020" : 22.9
+    },
+    "Cottondale, Jackson County, FL" : {
+        "name" : "Cottondale",
+        "state" : "Florida",
+        "FIPS" : "12-14850",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 848,
+        "population_2020" : 848,
+        "population_2027" : 982,
+        "land_area_2020" : 3.3
+    },
+    "Crescent City, Putnam County, FL" : {
+        "name" : "Crescent City",
+        "state" : "Florida",
+        "FIPS" : "12-15375",
+        "counties" : [
+            "Putnam County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1654,
+        "population_2020" : 1654,
+        "population_2027" : 1916,
+        "land_area_2020" : 2.1
+    },
+    "Crestview, Okaloosa County, FL" : {
+        "name" : "Crestview",
+        "state" : "Florida",
+        "FIPS" : "12-15475",
+        "counties" : [
+            "Okaloosa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 27134,
+        "population_2020" : 27134,
+        "population_2027" : 31437,
+        "land_area_2020" : 16.6
+    },
+    "Cross City, Dixie County, FL" : {
+        "name" : "Cross City",
+        "state" : "Florida",
+        "FIPS" : "12-15575",
+        "counties" : [
+            "Dixie County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1689,
+        "population_2020" : 1689,
+        "population_2027" : 1957,
+        "land_area_2020" : 1.8
+    },
+    "Crystal River, Citrus County, FL" : {
+        "name" : "Crystal River",
+        "state" : "Florida",
+        "FIPS" : "12-15775",
+        "counties" : [
+            "Citrus County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3396,
+        "population_2020" : 3396,
+        "population_2027" : 3935,
+        "land_area_2020" : 7.5
+    },
+    "Cutler Bay, Miami-Dade County, FL" : {
+        "name" : "Cutler Bay",
+        "state" : "Florida",
+        "FIPS" : "12-15968",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 45425,
+        "population_2020" : 45425,
+        "population_2027" : 52628,
+        "land_area_2020" : 9.9
+    },
+    "Dade City, Pasco County, FL" : {
+        "name" : "Dade City",
+        "state" : "Florida",
+        "FIPS" : "12-16125",
+        "counties" : [
+            "Pasco County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7275,
+        "population_2020" : 7275,
+        "population_2027" : 8429,
+        "land_area_2020" : 6.2
+    },
+    "Dania Beach, Broward County, FL" : {
+        "name" : "Dania Beach",
+        "state" : "Florida",
+        "FIPS" : "12-16335",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 31723,
+        "population_2020" : 31723,
+        "population_2027" : 36754,
+        "land_area_2020" : 7.8
+    },
+    "Davenport, Polk County, FL" : {
+        "name" : "Davenport",
+        "state" : "Florida",
+        "FIPS" : "12-16450",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9043,
+        "population_2020" : 9043,
+        "population_2027" : 10477,
+        "land_area_2020" : 3.7
+    },
+    "Davie, Broward County, FL" : {
+        "name" : "Davie",
+        "state" : "Florida",
+        "FIPS" : "12-16475",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 105691,
+        "population_2020" : 105691,
+        "population_2027" : 122451,
+        "land_area_2020" : 34.9
+    },
+    "Daytona Beach, Volusia County, FL" : {
+        "name" : "Daytona Beach",
+        "state" : "Florida",
+        "FIPS" : "12-16525",
+        "counties" : [
+            "Volusia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 72647,
+        "population_2020" : 72647,
+        "population_2027" : 84167,
+        "land_area_2020" : 65.6
+    },
+    "Daytona Beach Shores, Volusia County, FL" : {
+        "name" : "Daytona Beach Shores",
+        "state" : "Florida",
+        "FIPS" : "12-16550",
+        "counties" : [
+            "Volusia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5179,
+        "population_2020" : 5179,
+        "population_2027" : 6000,
+        "land_area_2020" : 0.85
+    },
+    "DeBary, Volusia County, FL" : {
+        "name" : "DeBary",
+        "state" : "Florida",
+        "FIPS" : "12-16675",
+        "counties" : [
+            "Volusia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 22260,
+        "population_2020" : 22260,
+        "population_2027" : 25790,
+        "land_area_2020" : 19.0
+    },
+    "Deerfield Beach, Broward County, FL" : {
+        "name" : "Deerfield Beach",
+        "state" : "Florida",
+        "FIPS" : "12-16725",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 86859,
+        "population_2020" : 86859,
+        "population_2027" : 100633,
+        "land_area_2020" : 14.9
+    },
+    "DeFuniak Springs, Walton County, FL" : {
+        "name" : "DeFuniak Springs",
+        "state" : "Florida",
+        "FIPS" : "12-16800",
+        "counties" : [
+            "Walton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5919,
+        "population_2020" : 5919,
+        "population_2027" : 6858,
+        "land_area_2020" : 14.0
+    },
+    "DeLand, Volusia County, FL" : {
+        "name" : "DeLand",
+        "state" : "Florida",
+        "FIPS" : "12-16875",
+        "counties" : [
+            "Volusia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 37351,
+        "population_2020" : 37351,
+        "population_2027" : 43274,
+        "land_area_2020" : 19.0
+    },
+    "Delray Beach, Palm Beach County, FL" : {
+        "name" : "Delray Beach",
+        "state" : "Florida",
+        "FIPS" : "12-17100",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 66846,
+        "population_2020" : 66846,
+        "population_2027" : 77446,
+        "land_area_2020" : 15.9
+    },
+    "Deltona, Volusia County, FL" : {
+        "name" : "Deltona",
+        "state" : "Florida",
+        "FIPS" : "12-17200",
+        "counties" : [
+            "Volusia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 93692,
+        "population_2020" : 93692,
+        "population_2027" : 108549,
+        "land_area_2020" : 37.3
+    },
+    "Destin, Okaloosa County, FL" : {
+        "name" : "Destin",
+        "state" : "Florida",
+        "FIPS" : "12-17325",
+        "counties" : [
+            "Okaloosa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13931,
+        "population_2020" : 13931,
+        "population_2027" : 16140,
+        "land_area_2020" : 7.7
+    },
+    "Doral, Miami-Dade County, FL" : {
+        "name" : "Doral",
+        "state" : "Florida",
+        "FIPS" : "12-17935",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 75874,
+        "population_2020" : 75874,
+        "population_2027" : 87906,
+        "land_area_2020" : 13.8
+    },
+    "Dundee, Polk County, FL" : {
+        "name" : "Dundee",
+        "state" : "Florida",
+        "FIPS" : "12-18550",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5235,
+        "population_2020" : 5235,
+        "population_2027" : 6065,
+        "land_area_2020" : 10.5
+    },
+    "Dunedin, Pinellas County, FL" : {
+        "name" : "Dunedin",
+        "state" : "Florida",
+        "FIPS" : "12-18575",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 36068,
+        "population_2020" : 36068,
+        "population_2027" : 41788,
+        "land_area_2020" : 10.4
+    },
+    "Dunnellon, Marion County, FL" : {
+        "name" : "Dunnellon",
+        "state" : "Florida",
+        "FIPS" : "12-18675",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1928,
+        "population_2020" : 1928,
+        "population_2027" : 2234,
+        "land_area_2020" : 8.8
+    },
+    "Eagle Lake, Polk County, FL" : {
+        "name" : "Eagle Lake",
+        "state" : "Florida",
+        "FIPS" : "12-18875",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3008,
+        "population_2020" : 3008,
+        "population_2027" : 3485,
+        "land_area_2020" : 2.0
+    },
+    "Eatonville, Orange County, FL" : {
+        "name" : "Eatonville",
+        "state" : "Florida",
+        "FIPS" : "12-19650",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2349,
+        "population_2020" : 2349,
+        "population_2027" : 2721,
+        "land_area_2020" : 0.99
+    },
+    "Ebro, Washington County, FL" : {
+        "name" : "Ebro",
+        "state" : "Florida",
+        "FIPS" : "12-19725",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 237,
+        "population_2020" : 237,
+        "population_2027" : 275,
+        "land_area_2020" : 4.7
+    },
+    "Edgewater, Volusia County, FL" : {
+        "name" : "Edgewater",
+        "state" : "Florida",
+        "FIPS" : "12-19825",
+        "counties" : [
+            "Volusia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23097,
+        "population_2020" : 23097,
+        "population_2027" : 26760,
+        "land_area_2020" : 24.6
+    },
+    "Edgewood, Orange County, FL" : {
+        "name" : "Edgewood",
+        "state" : "Florida",
+        "FIPS" : "12-19900",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2685,
+        "population_2020" : 2685,
+        "population_2027" : 3111,
+        "land_area_2020" : 1.2
+    },
+    "El Portal, Miami-Dade County, FL" : {
+        "name" : "El Portal",
+        "state" : "Florida",
+        "FIPS" : "12-20650",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 1986,
+        "population_2020" : 1986,
+        "population_2027" : 2301,
+        "land_area_2020" : 0.42
+    },
+    "Estero, Lee County, FL" : {
+        "name" : "Estero",
+        "state" : "Florida",
+        "FIPS" : "12-21150",
+        "counties" : [
+            "Lee County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 36939,
+        "population_2020" : 36939,
+        "population_2027" : 42797,
+        "land_area_2020" : 24.4
+    },
+    "Esto, Holmes County, FL" : {
+        "name" : "Esto",
+        "state" : "Florida",
+        "FIPS" : "12-21250",
+        "counties" : [
+            "Holmes County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 341,
+        "population_2020" : 341,
+        "population_2027" : 395,
+        "land_area_2020" : 2.2
+    },
+    "Eustis, Lake County, FL" : {
+        "name" : "Eustis",
+        "state" : "Florida",
+        "FIPS" : "12-21350",
+        "counties" : [
+            "Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23189,
+        "population_2020" : 23189,
+        "population_2027" : 26866,
+        "land_area_2020" : 10.9
+    },
+    "Everglades City, Collier County, FL" : {
+        "name" : "Everglades City",
+        "state" : "Florida",
+        "FIPS" : "12-21425",
+        "counties" : [
+            "Collier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 352,
+        "population_2020" : 352,
+        "population_2027" : 408,
+        "land_area_2020" : 0.92
+    },
+    "Fanning Springs, Levy County, FL" : {
+        "name" : "Fanning Springs",
+        "state" : "Florida",
+        "FIPS" : "12-21850",
+        "counties" : [
+            "Levy County",
+            "Gilchrist County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1182,
+        "population_2020" : 1182,
+        "population_2027" : 1369,
+        "land_area_2020" : 4.9
+    },
+    "Fellsmere, Indian River County, FL" : {
+        "name" : "Fellsmere",
+        "state" : "Florida",
+        "FIPS" : "12-22100",
+        "counties" : [
+            "Indian River County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4834,
+        "population_2020" : 4834,
+        "population_2027" : 5601,
+        "land_area_2020" : 57.6
+    },
+    "Fernandina Beach, Nassau County, FL" : {
+        "name" : "Fernandina Beach",
+        "state" : "Florida",
+        "FIPS" : "12-22175",
+        "counties" : [
+            "Nassau County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13052,
+        "population_2020" : 13052,
+        "population_2027" : 15122,
+        "land_area_2020" : 11.8
+    },
+    "Flagler Beach, Flagler County, FL" : {
+        "name" : "Flagler Beach",
+        "state" : "Florida",
+        "FIPS" : "12-22550",
+        "counties" : [
+            "Flagler County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5160,
+        "population_2020" : 5160,
+        "population_2027" : 5978,
+        "land_area_2020" : 3.6
+    },
+    "Florida City, Miami-Dade County, FL" : {
+        "name" : "Florida City",
+        "state" : "Florida",
+        "FIPS" : "12-22975",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13085,
+        "population_2020" : 13085,
+        "population_2027" : 15160,
+        "land_area_2020" : 6.0
+    },
+    "Fort Lauderdale, Broward County, FL" : {
+        "name" : "Fort Lauderdale",
+        "state" : "Florida",
+        "FIPS" : "12-24000",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 182760,
+        "population_2020" : 182760,
+        "population_2027" : 211741,
+        "land_area_2020" : 34.6
+    },
+    "Fort Meade, Polk County, FL" : {
+        "name" : "Fort Meade",
+        "state" : "Florida",
+        "FIPS" : "12-24100",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5100,
+        "population_2020" : 5100,
+        "population_2027" : 5909,
+        "land_area_2020" : 8.2
+    },
+    "Fort Myers, Lee County, FL" : {
+        "name" : "Fort Myers",
+        "state" : "Florida",
+        "FIPS" : "12-24125",
+        "counties" : [
+            "Lee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 86395,
+        "population_2020" : 86395,
+        "population_2027" : 100095,
+        "land_area_2020" : 39.8
+    },
+    "Fort Myers Beach, Lee County, FL" : {
+        "name" : "Fort Myers Beach",
+        "state" : "Florida",
+        "FIPS" : "12-24150",
+        "counties" : [
+            "Lee County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5582,
+        "population_2020" : 5582,
+        "population_2027" : 6467,
+        "land_area_2020" : 2.8
+    },
+    "Fort Pierce, St. Lucie County, FL" : {
+        "name" : "Fort Pierce",
+        "state" : "Florida",
+        "FIPS" : "12-24300",
+        "counties" : [
+            "St. Lucie County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 47297,
+        "population_2020" : 47297,
+        "population_2027" : 54797,
+        "land_area_2020" : 23.8
+    },
+    "Fort Walton Beach, Okaloosa County, FL" : {
+        "name" : "Fort Walton Beach",
+        "state" : "Florida",
+        "FIPS" : "12-24475",
+        "counties" : [
+            "Okaloosa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 20922,
+        "population_2020" : 20922,
+        "population_2027" : 24240,
+        "land_area_2020" : 7.6
+    },
+    "Fort White, Columbia County, FL" : {
+        "name" : "Fort White",
+        "state" : "Florida",
+        "FIPS" : "12-24500",
+        "counties" : [
+            "Columbia County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 618,
+        "population_2020" : 618,
+        "population_2027" : 716,
+        "land_area_2020" : 2.4
+    },
+    "Freeport, Walton County, FL" : {
+        "name" : "Freeport",
+        "state" : "Florida",
+        "FIPS" : "12-24825",
+        "counties" : [
+            "Walton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5861,
+        "population_2020" : 5861,
+        "population_2027" : 6790,
+        "land_area_2020" : 18.9
+    },
+    "Frostproof, Polk County, FL" : {
+        "name" : "Frostproof",
+        "state" : "Florida",
+        "FIPS" : "12-24900",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3273,
+        "population_2020" : 3273,
+        "population_2027" : 3792,
+        "land_area_2020" : 10.7
+    },
+    "Fruitland Park, Lake County, FL" : {
+        "name" : "Fruitland Park",
+        "state" : "Florida",
+        "FIPS" : "12-24975",
+        "counties" : [
+            "Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8325,
+        "population_2020" : 8325,
+        "population_2027" : 9645,
+        "land_area_2020" : 7.0
+    },
+    "Gainesville, Alachua County, FL" : {
+        "name" : "Gainesville",
+        "state" : "Florida",
+        "FIPS" : "12-25175",
+        "counties" : [
+            "Alachua County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 141085,
+        "population_2020" : 141085,
+        "population_2027" : 163458,
+        "land_area_2020" : 63.2
+    },
+    "Glen Ridge, Palm Beach County, FL" : {
+        "name" : "Glen Ridge",
+        "state" : "Florida",
+        "FIPS" : "12-26050",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 217,
+        "population_2020" : 217,
+        "population_2027" : 251,
+        "land_area_2020" : 0.17
+    },
+    "Glen St. Mary, Baker County, FL" : {
+        "name" : "Glen St. Mary",
+        "state" : "Florida",
+        "FIPS" : "12-26075",
+        "counties" : [
+            "Baker County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 463,
+        "population_2020" : 463,
+        "population_2027" : 536,
+        "land_area_2020" : 0.46
+    },
+    "Golden Beach, Miami-Dade County, FL" : {
+        "name" : "Golden Beach",
+        "state" : "Florida",
+        "FIPS" : "12-26250",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 961,
+        "population_2020" : 961,
+        "population_2027" : 1113,
+        "land_area_2020" : 0.33
+    },
+    "Golf, Palm Beach County, FL" : {
+        "name" : "Golf",
+        "state" : "Florida",
+        "FIPS" : "12-26550",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 255,
+        "population_2020" : 255,
+        "population_2027" : 295,
+        "land_area_2020" : 0.82
+    },
+    "Graceville, Jackson County, FL" : {
+        "name" : "Graceville",
+        "state" : "Florida",
+        "FIPS" : "12-27000",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2153,
+        "population_2020" : 2153,
+        "population_2027" : 2494,
+        "land_area_2020" : 4.3
+    },
+    "Grand Ridge, Jackson County, FL" : {
+        "name" : "Grand Ridge",
+        "state" : "Florida",
+        "FIPS" : "12-27175",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 882,
+        "population_2020" : 882,
+        "population_2027" : 1022,
+        "land_area_2020" : 4.3
+    },
+    "Grant-Valkaria, Brevard County, FL" : {
+        "name" : "Grant-Valkaria",
+        "state" : "Florida",
+        "FIPS" : "12-27256",
+        "counties" : [
+            "Brevard County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4509,
+        "population_2020" : 4509,
+        "population_2027" : 5224,
+        "land_area_2020" : 27.2
+    },
+    "Green Cove Springs, Clay County, FL" : {
+        "name" : "Green Cove Springs",
+        "state" : "Florida",
+        "FIPS" : "12-27400",
+        "counties" : [
+            "Clay County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9786,
+        "population_2020" : 9786,
+        "population_2027" : 11338,
+        "land_area_2020" : 7.5
+    },
+    "Greenacres, Palm Beach County, FL" : {
+        "name" : "Greenacres",
+        "state" : "Florida",
+        "FIPS" : "12-27322",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 43990,
+        "population_2020" : 43990,
+        "population_2027" : 50966,
+        "land_area_2020" : 5.9
+    },
+    "Greensboro, Gadsden County, FL" : {
+        "name" : "Greensboro",
+        "state" : "Florida",
+        "FIPS" : "12-27550",
+        "counties" : [
+            "Gadsden County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 461,
+        "population_2020" : 461,
+        "population_2027" : 534,
+        "land_area_2020" : 2.3
+    },
+    "Greenville, Madison County, FL" : {
+        "name" : "Greenville",
+        "state" : "Florida",
+        "FIPS" : "12-27575",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 746,
+        "population_2020" : 746,
+        "population_2027" : 864,
+        "land_area_2020" : 1.3
+    },
+    "Greenwood, Jackson County, FL" : {
+        "name" : "Greenwood",
+        "state" : "Florida",
+        "FIPS" : "12-27600",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 539,
+        "population_2020" : 539,
+        "population_2027" : 624,
+        "land_area_2020" : 4.6
+    },
+    "Gretna, Gadsden County, FL" : {
+        "name" : "Gretna",
+        "state" : "Florida",
+        "FIPS" : "12-27650",
+        "counties" : [
+            "Gadsden County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1357,
+        "population_2020" : 1357,
+        "population_2027" : 1572,
+        "land_area_2020" : 8.6
+    },
+    "Groveland, Lake County, FL" : {
+        "name" : "Groveland",
+        "state" : "Florida",
+        "FIPS" : "12-27800",
+        "counties" : [
+            "Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 18505,
+        "population_2020" : 18505,
+        "population_2027" : 21439,
+        "land_area_2020" : 19.7
+    },
+    "Gulf Breeze, Santa Rosa County, FL" : {
+        "name" : "Gulf Breeze",
+        "state" : "Florida",
+        "FIPS" : "12-28000",
+        "counties" : [
+            "Santa Rosa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6302,
+        "population_2020" : 6302,
+        "population_2027" : 7301,
+        "land_area_2020" : 4.7
+    },
+    "Gulf Stream, Palm Beach County, FL" : {
+        "name" : "Gulf Stream",
+        "state" : "Florida",
+        "FIPS" : "12-28275",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 880,
+        "population_2020" : 880,
+        "population_2027" : 1020,
+        "land_area_2020" : 0.79
+    },
+    "Gulfport, Pinellas County, FL" : {
+        "name" : "Gulfport",
+        "state" : "Florida",
+        "FIPS" : "12-28175",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11783,
+        "population_2020" : 11783,
+        "population_2027" : 13651,
+        "land_area_2020" : 2.8
+    },
+    "Haines City, Polk County, FL" : {
+        "name" : "Haines City",
+        "state" : "Florida",
+        "FIPS" : "12-28400",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 26669,
+        "population_2020" : 26669,
+        "population_2027" : 30898,
+        "land_area_2020" : 18.8
+    },
+    "Hallandale Beach, Broward County, FL" : {
+        "name" : "Hallandale Beach",
+        "state" : "Florida",
+        "FIPS" : "12-28452",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 41217,
+        "population_2020" : 41217,
+        "population_2027" : 47753,
+        "land_area_2020" : 4.2
+    },
+    "Hampton, Bradford County, FL" : {
+        "name" : "Hampton",
+        "state" : "Florida",
+        "FIPS" : "12-28575",
+        "counties" : [
+            "Bradford County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 432,
+        "population_2020" : 432,
+        "population_2027" : 501,
+        "land_area_2020" : 1.1
+    },
+    "Havana, Gadsden County, FL" : {
+        "name" : "Havana",
+        "state" : "Florida",
+        "FIPS" : "12-29150",
+        "counties" : [
+            "Gadsden County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1707,
+        "population_2020" : 1707,
+        "population_2027" : 1978,
+        "land_area_2020" : 2.8
+    },
+    "Haverhill, Palm Beach County, FL" : {
+        "name" : "Haverhill",
+        "state" : "Florida",
+        "FIPS" : "12-29200",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2187,
+        "population_2020" : 2187,
+        "population_2027" : 2534,
+        "land_area_2020" : 0.63
+    },
+    "Hawthorne, Alachua County, FL" : {
+        "name" : "Hawthorne",
+        "state" : "Florida",
+        "FIPS" : "12-29275",
+        "counties" : [
+            "Alachua County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1478,
+        "population_2020" : 1478,
+        "population_2027" : 1712,
+        "land_area_2020" : 7.4
+    },
+    "Hialeah, Miami-Dade County, FL" : {
+        "name" : "Hialeah",
+        "state" : "Florida",
+        "FIPS" : "12-30000",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 223109,
+        "population_2020" : 223109,
+        "population_2027" : 258489,
+        "land_area_2020" : 21.6
+    },
+    "Hialeah Gardens, Miami-Dade County, FL" : {
+        "name" : "Hialeah Gardens",
+        "state" : "Florida",
+        "FIPS" : "12-30025",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23068,
+        "population_2020" : 23068,
+        "population_2027" : 26726,
+        "land_area_2020" : 3.2
+    },
+    "High Springs, Alachua County, FL" : {
+        "name" : "High Springs",
+        "state" : "Florida",
+        "FIPS" : "12-30525",
+        "counties" : [
+            "Alachua County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6215,
+        "population_2020" : 6215,
+        "population_2027" : 7201,
+        "land_area_2020" : 21.8
+    },
+    "Highland Beach, Palm Beach County, FL" : {
+        "name" : "Highland Beach",
+        "state" : "Florida",
+        "FIPS" : "12-30200",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4295,
+        "population_2020" : 4295,
+        "population_2027" : 4976,
+        "land_area_2020" : 0.54
+    },
+    "Highland Park, Polk County, FL" : {
+        "name" : "Highland Park",
+        "state" : "Florida",
+        "FIPS" : "12-30325",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 264,
+        "population_2020" : 264,
+        "population_2027" : 306,
+        "land_area_2020" : 0.55
+    },
+    "Hillcrest Heights, Polk County, FL" : {
+        "name" : "Hillcrest Heights",
+        "state" : "Florida",
+        "FIPS" : "12-30700",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 243,
+        "population_2020" : 243,
+        "population_2027" : 282,
+        "land_area_2020" : 0.16
+    },
+    "Hilliard, Nassau County, FL" : {
+        "name" : "Hilliard",
+        "state" : "Florida",
+        "FIPS" : "12-30750",
+        "counties" : [
+            "Nassau County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2967,
+        "population_2020" : 2967,
+        "population_2027" : 3437,
+        "land_area_2020" : 5.5
+    },
+    "Hillsboro Beach, Broward County, FL" : {
+        "name" : "Hillsboro Beach",
+        "state" : "Florida",
+        "FIPS" : "12-30850",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1987,
+        "population_2020" : 1987,
+        "population_2027" : 2302,
+        "land_area_2020" : 0.37
+    },
+    "Holly Hill, Volusia County, FL" : {
+        "name" : "Holly Hill",
+        "state" : "Florida",
+        "FIPS" : "12-31350",
+        "counties" : [
+            "Volusia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12958,
+        "population_2020" : 12958,
+        "population_2027" : 15013,
+        "land_area_2020" : 4.0
+    },
+    "Hollywood, Broward County, FL" : {
+        "name" : "Hollywood",
+        "state" : "Florida",
+        "FIPS" : "12-32000",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 153067,
+        "population_2020" : 153067,
+        "population_2027" : 177340,
+        "land_area_2020" : 27.3
+    },
+    "Holmes Beach, Manatee County, FL" : {
+        "name" : "Holmes Beach",
+        "state" : "Florida",
+        "FIPS" : "12-32150",
+        "counties" : [
+            "Manatee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3010,
+        "population_2020" : 3010,
+        "population_2027" : 3487,
+        "land_area_2020" : 1.7
+    },
+    "Homestead, Miami-Dade County, FL" : {
+        "name" : "Homestead",
+        "state" : "Florida",
+        "FIPS" : "12-32275",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 80737,
+        "population_2020" : 80737,
+        "population_2027" : 93540,
+        "land_area_2020" : 15.1
+    },
+    "Horseshoe Beach, Dixie County, FL" : {
+        "name" : "Horseshoe Beach",
+        "state" : "Florida",
+        "FIPS" : "12-32650",
+        "counties" : [
+            "Dixie County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 165,
+        "population_2020" : 165,
+        "population_2027" : 191,
+        "land_area_2020" : 0.47
+    },
+    "Howey-in-the-Hills, Lake County, FL" : {
+        "name" : "Howey-in-the-Hills",
+        "state" : "Florida",
+        "FIPS" : "12-32775",
+        "counties" : [
+            "Lake County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1643,
+        "population_2020" : 1643,
+        "population_2027" : 1904,
+        "land_area_2020" : 3.2
+    },
+    "Hypoluxo, Palm Beach County, FL" : {
+        "name" : "Hypoluxo",
+        "state" : "Florida",
+        "FIPS" : "12-33150",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2687,
+        "population_2020" : 2687,
+        "population_2027" : 3113,
+        "land_area_2020" : 0.57
+    },
+    "Indialantic, Brevard County, FL" : {
+        "name" : "Indialantic",
+        "state" : "Florida",
+        "FIPS" : "12-33375",
+        "counties" : [
+            "Brevard County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3010,
+        "population_2020" : 3010,
+        "population_2027" : 3487,
+        "land_area_2020" : 0.97
+    },
+    "Indian Creek, Miami-Dade County, FL" : {
+        "name" : "Indian Creek",
+        "state" : "Florida",
+        "FIPS" : "12-33425",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 84,
+        "population_2020" : 84,
+        "population_2027" : 97,
+        "land_area_2020" : 0.43
+    },
+    "Indian Harbour Beach, Brevard County, FL" : {
+        "name" : "Indian Harbour Beach",
+        "state" : "Florida",
+        "FIPS" : "12-33450",
+        "counties" : [
+            "Brevard County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9019,
+        "population_2020" : 9019,
+        "population_2027" : 10449,
+        "land_area_2020" : 2.1
+    },
+    "Indian River Shores, Indian River County, FL" : {
+        "name" : "Indian River Shores",
+        "state" : "Florida",
+        "FIPS" : "12-33600",
+        "counties" : [
+            "Indian River County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4241,
+        "population_2020" : 4241,
+        "population_2027" : 4914,
+        "land_area_2020" : 5.1
+    },
+    "Indian Rocks Beach, Pinellas County, FL" : {
+        "name" : "Indian Rocks Beach",
+        "state" : "Florida",
+        "FIPS" : "12-33625",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4286,
+        "population_2020" : 4286,
+        "population_2027" : 4966,
+        "land_area_2020" : 0.85
+    },
+    "Indian Shores, Pinellas County, FL" : {
+        "name" : "Indian Shores",
+        "state" : "Florida",
+        "FIPS" : "12-33675",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1190,
+        "population_2020" : 1190,
+        "population_2027" : 1379,
+        "land_area_2020" : 0.33
+    },
+    "Indiantown, Martin County, FL" : {
+        "name" : "Indiantown",
+        "state" : "Florida",
+        "FIPS" : "12-33700",
+        "counties" : [
+            "Martin County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 6560,
+        "population_2020" : 6560,
+        "population_2027" : 7600,
+        "land_area_2020" : 14.2
+    },
+    "Inglis, Levy County, FL" : {
+        "name" : "Inglis",
+        "state" : "Florida",
+        "FIPS" : "12-33800",
+        "counties" : [
+            "Levy County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1476,
+        "population_2020" : 1476,
+        "population_2027" : 1710,
+        "land_area_2020" : 3.4
+    },
+    "Interlachen, Putnam County, FL" : {
+        "name" : "Interlachen",
+        "state" : "Florida",
+        "FIPS" : "12-33900",
+        "counties" : [
+            "Putnam County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1441,
+        "population_2020" : 1441,
+        "population_2027" : 1670,
+        "land_area_2020" : 6.1
+    },
+    "Inverness, Citrus County, FL" : {
+        "name" : "Inverness",
+        "state" : "Florida",
+        "FIPS" : "12-33950",
+        "counties" : [
+            "Citrus County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7543,
+        "population_2020" : 7543,
+        "population_2027" : 8739,
+        "land_area_2020" : 8.3
+    },
+    "Islamorada, Monroe County, FL" : {
+        "name" : "Islamorada",
+        "state" : "Florida",
+        "FIPS" : "12-34132",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 7107,
+        "population_2020" : 7107,
+        "population_2027" : 8234,
+        "land_area_2020" : 6.4
+    },
+    "Jacksonville, Duval County, FL" : {
+        "name" : "Jacksonville",
+        "state" : "Florida",
+        "FIPS" : "12-35000",
+        "counties" : [
+            "Duval County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 949611,
+        "population_2020" : 949611,
+        "population_2027" : 1100196,
+        "land_area_2020" : 747.3
+    },
+    "Jacksonville Beach, Duval County, FL" : {
+        "name" : "Jacksonville Beach",
+        "state" : "Florida",
+        "FIPS" : "12-35050",
+        "counties" : [
+            "Duval County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23830,
+        "population_2020" : 23830,
+        "population_2027" : 27609,
+        "land_area_2020" : 7.3
+    },
+    "Jacob City, Jackson County, FL" : {
+        "name" : "Jacob City",
+        "state" : "Florida",
+        "FIPS" : "12-35200",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 217,
+        "population_2020" : 217,
+        "population_2027" : 251,
+        "land_area_2020" : 3.0
+    },
+    "Jasper, Hamilton County, FL" : {
+        "name" : "Jasper",
+        "state" : "Florida",
+        "FIPS" : "12-35375",
+        "counties" : [
+            "Hamilton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3621,
+        "population_2020" : 3621,
+        "population_2027" : 4195,
+        "land_area_2020" : 2.4
+    },
+    "Jay, Santa Rosa County, FL" : {
+        "name" : "Jay",
+        "state" : "Florida",
+        "FIPS" : "12-35425",
+        "counties" : [
+            "Santa Rosa County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 524,
+        "population_2020" : 524,
+        "population_2027" : 607,
+        "land_area_2020" : 1.7
+    },
+    "Jennings, Hamilton County, FL" : {
+        "name" : "Jennings",
+        "state" : "Florida",
+        "FIPS" : "12-35525",
+        "counties" : [
+            "Hamilton County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 749,
+        "population_2020" : 749,
+        "population_2027" : 868,
+        "land_area_2020" : 2.7
+    },
+    "Juno Beach, Palm Beach County, FL" : {
+        "name" : "Juno Beach",
+        "state" : "Florida",
+        "FIPS" : "12-35850",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3858,
+        "population_2020" : 3858,
+        "population_2027" : 4470,
+        "land_area_2020" : 2.0
+    },
+    "Jupiter, Palm Beach County, FL" : {
+        "name" : "Jupiter",
+        "state" : "Florida",
+        "FIPS" : "12-35875",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 61047,
+        "population_2020" : 61047,
+        "population_2027" : 70728,
+        "land_area_2020" : 21.6
+    },
+    "Jupiter Inlet Colony, Palm Beach County, FL" : {
+        "name" : "Jupiter Inlet Colony",
+        "state" : "Florida",
+        "FIPS" : "12-35900",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 405,
+        "population_2020" : 405,
+        "population_2027" : 469,
+        "land_area_2020" : 0.16
+    },
+    "Jupiter Island, Martin County, FL" : {
+        "name" : "Jupiter Island",
+        "state" : "Florida",
+        "FIPS" : "12-35925",
+        "counties" : [
+            "Martin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 804,
+        "population_2020" : 804,
+        "population_2027" : 931,
+        "land_area_2020" : 2.7
+    },
+    "Kenneth City, Pinellas County, FL" : {
+        "name" : "Kenneth City",
+        "state" : "Florida",
+        "FIPS" : "12-36175",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5047,
+        "population_2020" : 5047,
+        "population_2027" : 5847,
+        "land_area_2020" : 0.71
+    },
+    "Key Biscayne, Miami-Dade County, FL" : {
+        "name" : "Key Biscayne",
+        "state" : "Florida",
+        "FIPS" : "12-36300",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 14809,
+        "population_2020" : 14809,
+        "population_2027" : 17157,
+        "land_area_2020" : 1.2
+    },
+    "Key Colony Beach, Monroe County, FL" : {
+        "name" : "Key Colony Beach",
+        "state" : "Florida",
+        "FIPS" : "12-36325",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 790,
+        "population_2020" : 790,
+        "population_2027" : 915,
+        "land_area_2020" : 0.44
+    },
+    "Key West, Monroe County, FL" : {
+        "name" : "Key West",
+        "state" : "Florida",
+        "FIPS" : "12-36550",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 26444,
+        "population_2020" : 26444,
+        "population_2027" : 30637,
+        "land_area_2020" : 5.6
+    },
+    "Keystone Heights, Clay County, FL" : {
+        "name" : "Keystone Heights",
+        "state" : "Florida",
+        "FIPS" : "12-36475",
+        "counties" : [
+            "Clay County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1446,
+        "population_2020" : 1446,
+        "population_2027" : 1675,
+        "land_area_2020" : 1.1
+    },
+    "Kissimmee, Osceola County, FL" : {
+        "name" : "Kissimmee",
+        "state" : "Florida",
+        "FIPS" : "12-36950",
+        "counties" : [
+            "Osceola County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 79226,
+        "population_2020" : 79226,
+        "population_2027" : 91789,
+        "land_area_2020" : 21.5
+    },
+    "LaBelle, Hendry County, FL" : {
+        "name" : "LaBelle",
+        "state" : "Florida",
+        "FIPS" : "12-37225",
+        "counties" : [
+            "Hendry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4966,
+        "population_2020" : 4966,
+        "population_2027" : 5753,
+        "land_area_2020" : 14.5
+    },
+    "LaCrosse, Alachua County, FL" : {
+        "name" : "LaCrosse",
+        "state" : "Florida",
+        "FIPS" : "12-37300",
+        "counties" : [
+            "Alachua County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 316,
+        "population_2020" : 316,
+        "population_2027" : 366,
+        "land_area_2020" : 4.6
+    },
+    "Lady Lake, Lake County, FL" : {
+        "name" : "Lady Lake",
+        "state" : "Florida",
+        "FIPS" : "12-37375",
+        "counties" : [
+            "Lake County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 15970,
+        "population_2020" : 15970,
+        "population_2027" : 18502,
+        "land_area_2020" : 8.3
+    },
+    "Lake Alfred, Polk County, FL" : {
+        "name" : "Lake Alfred",
+        "state" : "Florida",
+        "FIPS" : "12-37525",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6374,
+        "population_2020" : 6374,
+        "population_2027" : 7385,
+        "land_area_2020" : 9.3
+    },
+    "Lake Buena Vista, Orange County, FL" : {
+        "name" : "Lake Buena Vista",
+        "state" : "Florida",
+        "FIPS" : "12-37625",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 24,
+        "population_2020" : 24,
+        "population_2027" : 28,
+        "land_area_2020" : 3.0
+    },
+    "Lake Butler, Union County, FL" : {
+        "name" : "Lake Butler",
+        "state" : "Florida",
+        "FIPS" : "12-37650",
+        "counties" : [
+            "Union County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1986,
+        "population_2020" : 1986,
+        "population_2027" : 2301,
+        "land_area_2020" : 2.3
+    },
+    "Lake City, Columbia County, FL" : {
+        "name" : "Lake City",
+        "state" : "Florida",
+        "FIPS" : "12-37775",
+        "counties" : [
+            "Columbia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12329,
+        "population_2020" : 12329,
+        "population_2027" : 14284,
+        "land_area_2020" : 11.8
+    },
+    "Lake Clarke Shores, Palm Beach County, FL" : {
+        "name" : "Lake Clarke Shores",
+        "state" : "Florida",
+        "FIPS" : "12-37800",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3564,
+        "population_2020" : 3564,
+        "population_2027" : 4129,
+        "land_area_2020" : 0.92
+    },
+    "Lake Hamilton, Polk County, FL" : {
+        "name" : "Lake Hamilton",
+        "state" : "Florida",
+        "FIPS" : "12-37975",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1537,
+        "population_2020" : 1537,
+        "population_2027" : 1781,
+        "land_area_2020" : 3.1
+    },
+    "Lake Helen, Volusia County, FL" : {
+        "name" : "Lake Helen",
+        "state" : "Florida",
+        "FIPS" : "12-38025",
+        "counties" : [
+            "Volusia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2842,
+        "population_2020" : 2842,
+        "population_2027" : 3293,
+        "land_area_2020" : 4.6
+    },
+    "Lake Mary, Seminole County, FL" : {
+        "name" : "Lake Mary",
+        "state" : "Florida",
+        "FIPS" : "12-38425",
+        "counties" : [
+            "Seminole County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16798,
+        "population_2020" : 16798,
+        "population_2027" : 19462,
+        "land_area_2020" : 9.1
+    },
+    "Lake Park, Palm Beach County, FL" : {
+        "name" : "Lake Park",
+        "state" : "Florida",
+        "FIPS" : "12-38600",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9047,
+        "population_2020" : 9047,
+        "population_2027" : 10482,
+        "land_area_2020" : 2.1
+    },
+    "Lake Placid, Highlands County, FL" : {
+        "name" : "Lake Placid",
+        "state" : "Florida",
+        "FIPS" : "12-38625",
+        "counties" : [
+            "Highlands County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2360,
+        "population_2020" : 2360,
+        "population_2027" : 2734,
+        "land_area_2020" : 4.7
+    },
+    "Lake Wales, Polk County, FL" : {
+        "name" : "Lake Wales",
+        "state" : "Florida",
+        "FIPS" : "12-38950",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16361,
+        "population_2020" : 16361,
+        "population_2027" : 18955,
+        "land_area_2020" : 18.8
+    },
+    "Lake Worth Beach, Palm Beach County, FL" : {
+        "name" : "Lake Worth Beach",
+        "state" : "Florida",
+        "FIPS" : "12-39081",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 42219,
+        "population_2020" : 42219,
+        "population_2027" : 48914,
+        "land_area_2020" : 5.9
+    },
+    "Lakeland, Polk County, FL" : {
+        "name" : "Lakeland",
+        "state" : "Florida",
+        "FIPS" : "12-38250",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 112641,
+        "population_2020" : 112641,
+        "population_2027" : 130503,
+        "land_area_2020" : 66.2
+    },
+    "Lantana, Palm Beach County, FL" : {
+        "name" : "Lantana",
+        "state" : "Florida",
+        "FIPS" : "12-39375",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 11504,
+        "population_2020" : 11504,
+        "population_2027" : 13328,
+        "land_area_2020" : 2.4
+    },
+    "Largo, Pinellas County, FL" : {
+        "name" : "Largo",
+        "state" : "Florida",
+        "FIPS" : "12-39425",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 82485,
+        "population_2020" : 82485,
+        "population_2027" : 95565,
+        "land_area_2020" : 18.5
+    },
+    "Lauderdale Lakes, Broward County, FL" : {
+        "name" : "Lauderdale Lakes",
+        "state" : "Florida",
+        "FIPS" : "12-39525",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 35954,
+        "population_2020" : 35954,
+        "population_2027" : 41655,
+        "land_area_2020" : 3.7
+    },
+    "Lauderdale-by-the-Sea, Broward County, FL" : {
+        "name" : "Lauderdale-by-the-Sea",
+        "state" : "Florida",
+        "FIPS" : "12-39475",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6198,
+        "population_2020" : 6198,
+        "population_2027" : 7181,
+        "land_area_2020" : 0.88
+    },
+    "Lauderhill, Broward County, FL" : {
+        "name" : "Lauderhill",
+        "state" : "Florida",
+        "FIPS" : "12-39550",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 74482,
+        "population_2020" : 74482,
+        "population_2027" : 86293,
+        "land_area_2020" : 8.5
+    },
+    "Laurel Hill, Okaloosa County, FL" : {
+        "name" : "Laurel Hill",
+        "state" : "Florida",
+        "FIPS" : "12-39650",
+        "counties" : [
+            "Okaloosa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 584,
+        "population_2020" : 584,
+        "population_2027" : 677,
+        "land_area_2020" : 4.2
+    },
+    "Lawtey, Bradford County, FL" : {
+        "name" : "Lawtey",
+        "state" : "Florida",
+        "FIPS" : "12-39700",
+        "counties" : [
+            "Bradford County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 636,
+        "population_2020" : 636,
+        "population_2027" : 737,
+        "land_area_2020" : 1.5
+    },
+    "Layton, Monroe County, FL" : {
+        "name" : "Layton",
+        "state" : "Florida",
+        "FIPS" : "12-39725",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 210,
+        "population_2020" : 210,
+        "population_2027" : 243,
+        "land_area_2020" : 0.16
+    },
+    "Lazy Lake, Broward County, FL" : {
+        "name" : "Lazy Lake",
+        "state" : "Florida",
+        "FIPS" : "12-39750",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 33,
+        "population_2020" : 33,
+        "population_2027" : 38,
+        "land_area_2020" : 0.02
+    },
+    "Lee, Madison County, FL" : {
+        "name" : "Lee",
+        "state" : "Florida",
+        "FIPS" : "12-39850",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 375,
+        "population_2020" : 375,
+        "population_2027" : 434,
+        "land_area_2020" : 2.4
+    },
+    "Leesburg, Lake County, FL" : {
+        "name" : "Leesburg",
+        "state" : "Florida",
+        "FIPS" : "12-39875",
+        "counties" : [
+            "Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 27000,
+        "population_2020" : 27000,
+        "population_2027" : 31282,
+        "land_area_2020" : 38.4
+    },
+    "Lighthouse Point, Broward County, FL" : {
+        "name" : "Lighthouse Point",
+        "state" : "Florida",
+        "FIPS" : "12-40450",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10486,
+        "population_2020" : 10486,
+        "population_2027" : 12149,
+        "land_area_2020" : 2.3
+    },
+    "Live Oak, Suwannee County, FL" : {
+        "name" : "Live Oak",
+        "state" : "Florida",
+        "FIPS" : "12-40875",
+        "counties" : [
+            "Suwannee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6735,
+        "population_2020" : 6735,
+        "population_2027" : 7803,
+        "land_area_2020" : 7.6
+    },
+    "Longboat Key, Manatee County, FL" : {
+        "name" : "Longboat Key",
+        "state" : "Florida",
+        "FIPS" : "12-41150",
+        "counties" : [
+            "Manatee County",
+            "Sarasota County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7505,
+        "population_2020" : 7505,
+        "population_2027" : 8695,
+        "land_area_2020" : 4.1
+    },
+    "Longwood, Seminole County, FL" : {
+        "name" : "Longwood",
+        "state" : "Florida",
+        "FIPS" : "12-41250",
+        "counties" : [
+            "Seminole County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15087,
+        "population_2020" : 15087,
+        "population_2027" : 17479,
+        "land_area_2020" : 5.5
+    },
+    "Loxahatchee Groves, Palm Beach County, FL" : {
+        "name" : "Loxahatchee Groves",
+        "state" : "Florida",
+        "FIPS" : "12-41577",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3355,
+        "population_2020" : 3355,
+        "population_2027" : 3887,
+        "land_area_2020" : 12.5
+    },
+    "Lynn Haven, Bay County, FL" : {
+        "name" : "Lynn Haven",
+        "state" : "Florida",
+        "FIPS" : "12-41825",
+        "counties" : [
+            "Bay County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 18695,
+        "population_2020" : 18695,
+        "population_2027" : 21660,
+        "land_area_2020" : 10.5
+    },
+    "Macclenny, Baker County, FL" : {
+        "name" : "Macclenny",
+        "state" : "Florida",
+        "FIPS" : "12-41950",
+        "counties" : [
+            "Baker County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7304,
+        "population_2020" : 7304,
+        "population_2027" : 8462,
+        "land_area_2020" : 4.9
+    },
+    "Madeira Beach, Pinellas County, FL" : {
+        "name" : "Madeira Beach",
+        "state" : "Florida",
+        "FIPS" : "12-42400",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3895,
+        "population_2020" : 3895,
+        "population_2027" : 4513,
+        "land_area_2020" : 0.98
+    },
+    "Madison, Madison County, FL" : {
+        "name" : "Madison",
+        "state" : "Florida",
+        "FIPS" : "12-42425",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2912,
+        "population_2020" : 2912,
+        "population_2027" : 3374,
+        "land_area_2020" : 2.6
+    },
+    "Maitland, Orange County, FL" : {
+        "name" : "Maitland",
+        "state" : "Florida",
+        "FIPS" : "12-42575",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 19543,
+        "population_2020" : 19543,
+        "population_2027" : 22642,
+        "land_area_2020" : 5.4
+    },
+    "Malabar, Brevard County, FL" : {
+        "name" : "Malabar",
+        "state" : "Florida",
+        "FIPS" : "12-42625",
+        "counties" : [
+            "Brevard County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2949,
+        "population_2020" : 2949,
+        "population_2027" : 3417,
+        "land_area_2020" : 10.7
+    },
+    "Malone, Jackson County, FL" : {
+        "name" : "Malone",
+        "state" : "Florida",
+        "FIPS" : "12-42650",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1959,
+        "population_2020" : 1959,
+        "population_2027" : 2270,
+        "land_area_2020" : 3.0
+    },
+    "Manalapan, Palm Beach County, FL" : {
+        "name" : "Manalapan",
+        "state" : "Florida",
+        "FIPS" : "12-42700",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 419,
+        "population_2020" : 419,
+        "population_2027" : 485,
+        "land_area_2020" : 0.45
+    },
+    "Mangonia Park, Palm Beach County, FL" : {
+        "name" : "Mangonia Park",
+        "state" : "Florida",
+        "FIPS" : "12-42900",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2142,
+        "population_2020" : 2142,
+        "population_2027" : 2482,
+        "land_area_2020" : 0.75
+    },
+    "Marathon, Monroe County, FL" : {
+        "name" : "Marathon",
+        "state" : "Florida",
+        "FIPS" : "12-43000",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9689,
+        "population_2020" : 9689,
+        "population_2027" : 11225,
+        "land_area_2020" : 8.4
+    },
+    "Marco Island, Collier County, FL" : {
+        "name" : "Marco Island",
+        "state" : "Florida",
+        "FIPS" : "12-43083",
+        "counties" : [
+            "Collier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15760,
+        "population_2020" : 15760,
+        "population_2027" : 18259,
+        "land_area_2020" : 12.2
+    },
+    "Margate, Broward County, FL" : {
+        "name" : "Margate",
+        "state" : "Florida",
+        "FIPS" : "12-43125",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 58712,
+        "population_2020" : 58712,
+        "population_2027" : 68022,
+        "land_area_2020" : 8.8
+    },
+    "Marianna, Jackson County, FL" : {
+        "name" : "Marianna",
+        "state" : "Florida",
+        "FIPS" : "12-43175",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6245,
+        "population_2020" : 6245,
+        "population_2027" : 7235,
+        "land_area_2020" : 18.6
+    },
+    "Marineland, Flagler County, FL" : {
+        "name" : "Marineland",
+        "state" : "Florida",
+        "FIPS" : "12-43250",
+        "counties" : [
+            "Flagler County",
+            "St. Johns County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 15,
+        "population_2020" : 15,
+        "population_2027" : 17,
+        "land_area_2020" : 0.21
+    },
+    "Mary Esther, Okaloosa County, FL" : {
+        "name" : "Mary Esther",
+        "state" : "Florida",
+        "FIPS" : "12-43375",
+        "counties" : [
+            "Okaloosa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3982,
+        "population_2020" : 3982,
+        "population_2027" : 4613,
+        "land_area_2020" : 1.5
+    },
+    "Mascotte, Lake County, FL" : {
+        "name" : "Mascotte",
+        "state" : "Florida",
+        "FIPS" : "12-43425",
+        "counties" : [
+            "Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6609,
+        "population_2020" : 6609,
+        "population_2027" : 7657,
+        "land_area_2020" : 12.4
+    },
+    "Mayo, Lafayette County, FL" : {
+        "name" : "Mayo",
+        "state" : "Florida",
+        "FIPS" : "12-43575",
+        "counties" : [
+            "Lafayette County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1055,
+        "population_2020" : 1055,
+        "population_2027" : 1222,
+        "land_area_2020" : 0.9
+    },
+    "McIntosh, Marion County, FL" : {
+        "name" : "McIntosh",
+        "state" : "Florida",
+        "FIPS" : "12-42150",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 463,
+        "population_2020" : 463,
+        "population_2027" : 536,
+        "land_area_2020" : 0.71
+    },
+    "Medley, Miami-Dade County, FL" : {
+        "name" : "Medley",
+        "state" : "Florida",
+        "FIPS" : "12-43900",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1056,
+        "population_2020" : 1056,
+        "population_2027" : 1223,
+        "land_area_2020" : 5.1
+    },
+    "Melbourne, Brevard County, FL" : {
+        "name" : "Melbourne",
+        "state" : "Florida",
+        "FIPS" : "12-43975",
+        "counties" : [
+            "Brevard County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 84678,
+        "population_2020" : 84678,
+        "population_2027" : 98106,
+        "land_area_2020" : 44.1
+    },
+    "Melbourne Beach, Brevard County, FL" : {
+        "name" : "Melbourne Beach",
+        "state" : "Florida",
+        "FIPS" : "12-44000",
+        "counties" : [
+            "Brevard County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3231,
+        "population_2020" : 3231,
+        "population_2027" : 3743,
+        "land_area_2020" : 0.99
+    },
+    "Melbourne Village, Brevard County, FL" : {
+        "name" : "Melbourne Village",
+        "state" : "Florida",
+        "FIPS" : "12-44075",
+        "counties" : [
+            "Brevard County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 681,
+        "population_2020" : 681,
+        "population_2027" : 789,
+        "land_area_2020" : 0.58
+    },
+    "Mexico Beach, Bay County, FL" : {
+        "name" : "Mexico Beach",
+        "state" : "Florida",
+        "FIPS" : "12-44300",
+        "counties" : [
+            "Bay County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 916,
+        "population_2020" : 916,
+        "population_2027" : 1061,
+        "land_area_2020" : 2.3
+    },
+    "Miami, Miami-Dade County, FL" : {
+        "name" : "Miami",
+        "state" : "Florida",
+        "FIPS" : "12-45000",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 442241,
+        "population_2020" : 442241,
+        "population_2027" : 512370,
+        "land_area_2020" : 36.0
+    },
+    "Miami Beach, Miami-Dade County, FL" : {
+        "name" : "Miami Beach",
+        "state" : "Florida",
+        "FIPS" : "12-45025",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 82890,
+        "population_2020" : 82890,
+        "population_2027" : 96034,
+        "land_area_2020" : 7.7
+    },
+    "Miami Gardens, Miami-Dade County, FL" : {
+        "name" : "Miami Gardens",
+        "state" : "Florida",
+        "FIPS" : "12-45060",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 111640,
+        "population_2020" : 111640,
+        "population_2027" : 129343,
+        "land_area_2020" : 18.2
+    },
+    "Miami Lakes, Miami-Dade County, FL" : {
+        "name" : "Miami Lakes",
+        "state" : "Florida",
+        "FIPS" : "12-45100",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 30467,
+        "population_2020" : 30467,
+        "population_2027" : 35298,
+        "land_area_2020" : 5.7
+    },
+    "Miami Shores, Miami-Dade County, FL" : {
+        "name" : "Miami Shores",
+        "state" : "Florida",
+        "FIPS" : "12-45175",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 11567,
+        "population_2020" : 11567,
+        "population_2027" : 13401,
+        "land_area_2020" : 2.5
+    },
+    "Miami Springs, Miami-Dade County, FL" : {
+        "name" : "Miami Springs",
+        "state" : "Florida",
+        "FIPS" : "12-45200",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13859,
+        "population_2020" : 13859,
+        "population_2027" : 16057,
+        "land_area_2020" : 2.9
+    },
+    "Micanopy, Alachua County, FL" : {
+        "name" : "Micanopy",
+        "state" : "Florida",
+        "FIPS" : "12-45225",
+        "counties" : [
+            "Alachua County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 648,
+        "population_2020" : 648,
+        "population_2027" : 751,
+        "land_area_2020" : 1.0
+    },
+    "Midway, Gadsden County, FL" : {
+        "name" : "Midway",
+        "state" : "Florida",
+        "FIPS" : "12-45475",
+        "counties" : [
+            "Gadsden County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3537,
+        "population_2020" : 3537,
+        "population_2027" : 4098,
+        "land_area_2020" : 9.6
+    },
+    "Milton, Santa Rosa County, FL" : {
+        "name" : "Milton",
+        "state" : "Florida",
+        "FIPS" : "12-45750",
+        "counties" : [
+            "Santa Rosa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10197,
+        "population_2020" : 10197,
+        "population_2027" : 11814,
+        "land_area_2020" : 5.6
+    },
+    "Minneola, Lake County, FL" : {
+        "name" : "Minneola",
+        "state" : "Florida",
+        "FIPS" : "12-45900",
+        "counties" : [
+            "Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13843,
+        "population_2020" : 13843,
+        "population_2027" : 16038,
+        "land_area_2020" : 11.1
+    },
+    "Miramar, Broward County, FL" : {
+        "name" : "Miramar",
+        "state" : "Florida",
+        "FIPS" : "12-45975",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 134721,
+        "population_2020" : 134721,
+        "population_2027" : 156085,
+        "land_area_2020" : 28.9
+    },
+    "Monticello, Jefferson County, FL" : {
+        "name" : "Monticello",
+        "state" : "Florida",
+        "FIPS" : "12-46500",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2589,
+        "population_2020" : 2589,
+        "population_2027" : 3000,
+        "land_area_2020" : 4.0
+    },
+    "Montverde, Lake County, FL" : {
+        "name" : "Montverde",
+        "state" : "Florida",
+        "FIPS" : "12-46525",
+        "counties" : [
+            "Lake County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1655,
+        "population_2020" : 1655,
+        "population_2027" : 1917,
+        "land_area_2020" : 1.7
+    },
+    "Moore Haven, Glades County, FL" : {
+        "name" : "Moore Haven",
+        "state" : "Florida",
+        "FIPS" : "12-46550",
+        "counties" : [
+            "Glades County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1566,
+        "population_2020" : 1566,
+        "population_2027" : 1814,
+        "land_area_2020" : 1.1
+    },
+    "Mount Dora, Lake County, FL" : {
+        "name" : "Mount Dora",
+        "state" : "Florida",
+        "FIPS" : "12-47050",
+        "counties" : [
+            "Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16341,
+        "population_2020" : 16341,
+        "population_2027" : 18932,
+        "land_area_2020" : 8.0
+    },
+    "Mulberry, Polk County, FL" : {
+        "name" : "Mulberry",
+        "state" : "Florida",
+        "FIPS" : "12-47200",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3952,
+        "population_2020" : 3952,
+        "population_2027" : 4579,
+        "land_area_2020" : 6.2
+    },
+    "Naples, Collier County, FL" : {
+        "name" : "Naples",
+        "state" : "Florida",
+        "FIPS" : "12-47625",
+        "counties" : [
+            "Collier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 19115,
+        "population_2020" : 19115,
+        "population_2027" : 22146,
+        "land_area_2020" : 12.3
+    },
+    "Neptune Beach, Duval County, FL" : {
+        "name" : "Neptune Beach",
+        "state" : "Florida",
+        "FIPS" : "12-48100",
+        "counties" : [
+            "Duval County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7217,
+        "population_2020" : 7217,
+        "population_2027" : 8361,
+        "land_area_2020" : 2.3
+    },
+    "New Port Richey, Pasco County, FL" : {
+        "name" : "New Port Richey",
+        "state" : "Florida",
+        "FIPS" : "12-48500",
+        "counties" : [
+            "Pasco County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16728,
+        "population_2020" : 16728,
+        "population_2027" : 19381,
+        "land_area_2020" : 4.5
+    },
+    "New Smyrna Beach, Volusia County, FL" : {
+        "name" : "New Smyrna Beach",
+        "state" : "Florida",
+        "FIPS" : "12-48625",
+        "counties" : [
+            "Volusia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 30142,
+        "population_2020" : 30142,
+        "population_2027" : 34922,
+        "land_area_2020" : 37.7
+    },
+    "Newberry, Alachua County, FL" : {
+        "name" : "Newberry",
+        "state" : "Florida",
+        "FIPS" : "12-48200",
+        "counties" : [
+            "Alachua County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7342,
+        "population_2020" : 7342,
+        "population_2027" : 8506,
+        "land_area_2020" : 57.6
+    },
+    "Niceville, Okaloosa County, FL" : {
+        "name" : "Niceville",
+        "state" : "Florida",
+        "FIPS" : "12-48750",
+        "counties" : [
+            "Okaloosa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15772,
+        "population_2020" : 15772,
+        "population_2027" : 18273,
+        "land_area_2020" : 13.1
+    },
+    "Noma, Holmes County, FL" : {
+        "name" : "Noma",
+        "state" : "Florida",
+        "FIPS" : "12-48900",
+        "counties" : [
+            "Holmes County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 208,
+        "population_2020" : 208,
+        "population_2027" : 241,
+        "land_area_2020" : 1.1
+    },
+    "North Bay Village, Miami-Dade County, FL" : {
+        "name" : "North Bay Village",
+        "state" : "Florida",
+        "FIPS" : "12-49225",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8159,
+        "population_2020" : 8159,
+        "population_2027" : 9453,
+        "land_area_2020" : 0.37
+    },
+    "North Lauderdale, Broward County, FL" : {
+        "name" : "North Lauderdale",
+        "state" : "Florida",
+        "FIPS" : "12-49425",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 44794,
+        "population_2020" : 44794,
+        "population_2027" : 51897,
+        "land_area_2020" : 4.6
+    },
+    "North Miami, Miami-Dade County, FL" : {
+        "name" : "North Miami",
+        "state" : "Florida",
+        "FIPS" : "12-49450",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 60191,
+        "population_2020" : 60191,
+        "population_2027" : 69736,
+        "land_area_2020" : 8.4
+    },
+    "North Miami Beach, Miami-Dade County, FL" : {
+        "name" : "North Miami Beach",
+        "state" : "Florida",
+        "FIPS" : "12-49475",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 43676,
+        "population_2020" : 43676,
+        "population_2027" : 50602,
+        "land_area_2020" : 4.8
+    },
+    "North Palm Beach, Palm Beach County, FL" : {
+        "name" : "North Palm Beach",
+        "state" : "Florida",
+        "FIPS" : "12-49600",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 13162,
+        "population_2020" : 13162,
+        "population_2027" : 15249,
+        "land_area_2020" : 3.3
+    },
+    "North Port, Sarasota County, FL" : {
+        "name" : "North Port",
+        "state" : "Florida",
+        "FIPS" : "12-49675",
+        "counties" : [
+            "Sarasota County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 74793,
+        "population_2020" : 74793,
+        "population_2027" : 86653,
+        "land_area_2020" : 99.4
+    },
+    "North Redington Beach, Pinellas County, FL" : {
+        "name" : "North Redington Beach",
+        "state" : "Florida",
+        "FIPS" : "12-49725",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1495,
+        "population_2020" : 1495,
+        "population_2027" : 1732,
+        "land_area_2020" : 0.26
+    },
+    "Oak Hill, Volusia County, FL" : {
+        "name" : "Oak Hill",
+        "state" : "Florida",
+        "FIPS" : "12-50450",
+        "counties" : [
+            "Volusia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1986,
+        "population_2020" : 1986,
+        "population_2027" : 2301,
+        "land_area_2020" : 6.7
+    },
+    "Oakland, Orange County, FL" : {
+        "name" : "Oakland",
+        "state" : "Florida",
+        "FIPS" : "12-50525",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3516,
+        "population_2020" : 3516,
+        "population_2027" : 4074,
+        "land_area_2020" : 2.3
+    },
+    "Oakland Park, Broward County, FL" : {
+        "name" : "Oakland Park",
+        "state" : "Florida",
+        "FIPS" : "12-50575",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 44229,
+        "population_2020" : 44229,
+        "population_2027" : 51243,
+        "land_area_2020" : 7.5
+    },
+    "Ocala, Marion County, FL" : {
+        "name" : "Ocala",
+        "state" : "Florida",
+        "FIPS" : "12-50750",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 63591,
+        "population_2020" : 63591,
+        "population_2027" : 73675,
+        "land_area_2020" : 47.3
+    },
+    "Ocean Breeze, Martin County, FL" : {
+        "name" : "Ocean Breeze",
+        "state" : "Florida",
+        "FIPS" : "12-50875",
+        "counties" : [
+            "Martin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 301,
+        "population_2020" : 301,
+        "population_2027" : 349,
+        "land_area_2020" : 0.17
+    },
+    "Ocean Ridge, Palm Beach County, FL" : {
+        "name" : "Ocean Ridge",
+        "state" : "Florida",
+        "FIPS" : "12-50950",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1830,
+        "population_2020" : 1830,
+        "population_2027" : 2120,
+        "land_area_2020" : 0.76
+    },
+    "Ocoee, Orange County, FL" : {
+        "name" : "Ocoee",
+        "state" : "Florida",
+        "FIPS" : "12-51075",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 47295,
+        "population_2020" : 47295,
+        "population_2027" : 54795,
+        "land_area_2020" : 15.6
+    },
+    "Okeechobee, Okeechobee County, FL" : {
+        "name" : "Okeechobee",
+        "state" : "Florida",
+        "FIPS" : "12-51200",
+        "counties" : [
+            "Okeechobee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5254,
+        "population_2020" : 5254,
+        "population_2027" : 6087,
+        "land_area_2020" : 4.1
+    },
+    "Oldsmar, Pinellas County, FL" : {
+        "name" : "Oldsmar",
+        "state" : "Florida",
+        "FIPS" : "12-51350",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14898,
+        "population_2020" : 14898,
+        "population_2027" : 17260,
+        "land_area_2020" : 8.9
+    },
+    "Opa-locka, Miami-Dade County, FL" : {
+        "name" : "Opa-locka",
+        "state" : "Florida",
+        "FIPS" : "12-51650",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16463,
+        "population_2020" : 16463,
+        "population_2027" : 19074,
+        "land_area_2020" : 4.3
+    },
+    "Orange City, Volusia County, FL" : {
+        "name" : "Orange City",
+        "state" : "Florida",
+        "FIPS" : "12-51825",
+        "counties" : [
+            "Volusia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12632,
+        "population_2020" : 12632,
+        "population_2027" : 14635,
+        "land_area_2020" : 7.8
+    },
+    "Orange Park, Clay County, FL" : {
+        "name" : "Orange Park",
+        "state" : "Florida",
+        "FIPS" : "12-52125",
+        "counties" : [
+            "Clay County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9089,
+        "population_2020" : 9089,
+        "population_2027" : 10530,
+        "land_area_2020" : 3.6
+    },
+    "Orchid, Indian River County, FL" : {
+        "name" : "Orchid",
+        "state" : "Florida",
+        "FIPS" : "12-52175",
+        "counties" : [
+            "Indian River County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 516,
+        "population_2020" : 516,
+        "population_2027" : 598,
+        "land_area_2020" : 1.2
+    },
+    "Orlando, Orange County, FL" : {
+        "name" : "Orlando",
+        "state" : "Florida",
+        "FIPS" : "12-53000",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 307573,
+        "population_2020" : 307573,
+        "population_2027" : 356347,
+        "land_area_2020" : 110.6
+    },
+    "Ormond Beach, Volusia County, FL" : {
+        "name" : "Ormond Beach",
+        "state" : "Florida",
+        "FIPS" : "12-53150",
+        "counties" : [
+            "Volusia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 43475,
+        "population_2020" : 43475,
+        "population_2027" : 50369,
+        "land_area_2020" : 34.7
+    },
+    "Otter Creek, Levy County, FL" : {
+        "name" : "Otter Creek",
+        "state" : "Florida",
+        "FIPS" : "12-53500",
+        "counties" : [
+            "Levy County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 108,
+        "population_2020" : 108,
+        "population_2027" : 125,
+        "land_area_2020" : 1.4
+    },
+    "Oviedo, Seminole County, FL" : {
+        "name" : "Oviedo",
+        "state" : "Florida",
+        "FIPS" : "12-53575",
+        "counties" : [
+            "Seminole County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 40059,
+        "population_2020" : 40059,
+        "population_2027" : 46411,
+        "land_area_2020" : 15.5
+    },
+    "Pahokee, Palm Beach County, FL" : {
+        "name" : "Pahokee",
+        "state" : "Florida",
+        "FIPS" : "12-53800",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5524,
+        "population_2020" : 5524,
+        "population_2027" : 6400,
+        "land_area_2020" : 5.3
+    },
+    "Palatka, Putnam County, FL" : {
+        "name" : "Palatka",
+        "state" : "Florida",
+        "FIPS" : "12-53875",
+        "counties" : [
+            "Putnam County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10446,
+        "population_2020" : 10446,
+        "population_2027" : 12102,
+        "land_area_2020" : 9.8
+    },
+    "Palm Bay, Brevard County, FL" : {
+        "name" : "Palm Bay",
+        "state" : "Florida",
+        "FIPS" : "12-54000",
+        "counties" : [
+            "Brevard County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 119760,
+        "population_2020" : 119760,
+        "population_2027" : 138751,
+        "land_area_2020" : 86.4
+    },
+    "Palm Beach, Palm Beach County, FL" : {
+        "name" : "Palm Beach",
+        "state" : "Florida",
+        "FIPS" : "12-54025",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9245,
+        "population_2020" : 9245,
+        "population_2027" : 10711,
+        "land_area_2020" : 3.8
+    },
+    "Palm Beach Gardens, Palm Beach County, FL" : {
+        "name" : "Palm Beach Gardens",
+        "state" : "Florida",
+        "FIPS" : "12-54075",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 59182,
+        "population_2020" : 59182,
+        "population_2027" : 68567,
+        "land_area_2020" : 58.7
+    },
+    "Palm Beach Shores, Palm Beach County, FL" : {
+        "name" : "Palm Beach Shores",
+        "state" : "Florida",
+        "FIPS" : "12-54150",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1330,
+        "population_2020" : 1330,
+        "population_2027" : 1541,
+        "land_area_2020" : 0.29
+    },
+    "Palm Coast, Flagler County, FL" : {
+        "name" : "Palm Coast",
+        "state" : "Florida",
+        "FIPS" : "12-54200",
+        "counties" : [
+            "Flagler County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 89258,
+        "population_2020" : 89258,
+        "population_2027" : 103412,
+        "land_area_2020" : 95.4
+    },
+    "Palm Shores, Brevard County, FL" : {
+        "name" : "Palm Shores",
+        "state" : "Florida",
+        "FIPS" : "12-54425",
+        "counties" : [
+            "Brevard County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1200,
+        "population_2020" : 1200,
+        "population_2027" : 1390,
+        "land_area_2020" : 0.6
+    },
+    "Palm Springs, Palm Beach County, FL" : {
+        "name" : "Palm Springs",
+        "state" : "Florida",
+        "FIPS" : "12-54450",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 26890,
+        "population_2020" : 26890,
+        "population_2027" : 31154,
+        "land_area_2020" : 4.2
+    },
+    "Palmetto, Manatee County, FL" : {
+        "name" : "Palmetto",
+        "state" : "Florida",
+        "FIPS" : "12-54250",
+        "counties" : [
+            "Manatee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13323,
+        "population_2020" : 13323,
+        "population_2027" : 15436,
+        "land_area_2020" : 5.4
+    },
+    "Palmetto Bay, Miami-Dade County, FL" : {
+        "name" : "Palmetto Bay",
+        "state" : "Florida",
+        "FIPS" : "12-54275",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 24439,
+        "population_2020" : 24439,
+        "population_2027" : 28314,
+        "land_area_2020" : 8.3
+    },
+    "Panama City, Bay County, FL" : {
+        "name" : "Panama City",
+        "state" : "Florida",
+        "FIPS" : "12-54700",
+        "counties" : [
+            "Bay County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 32939,
+        "population_2020" : 32939,
+        "population_2027" : 38162,
+        "land_area_2020" : 35.1
+    },
+    "Panama City Beach, Bay County, FL" : {
+        "name" : "Panama City Beach",
+        "state" : "Florida",
+        "FIPS" : "12-54725",
+        "counties" : [
+            "Bay County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 18094,
+        "population_2020" : 18094,
+        "population_2027" : 20963,
+        "land_area_2020" : 19.3
+    },
+    "Parker, Bay County, FL" : {
+        "name" : "Parker",
+        "state" : "Florida",
+        "FIPS" : "12-55075",
+        "counties" : [
+            "Bay County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4010,
+        "population_2020" : 4010,
+        "population_2027" : 4646,
+        "land_area_2020" : 1.9
+    },
+    "Parkland, Broward County, FL" : {
+        "name" : "Parkland",
+        "state" : "Florida",
+        "FIPS" : "12-55125",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 34670,
+        "population_2020" : 34670,
+        "population_2027" : 40168,
+        "land_area_2020" : 12.5
+    },
+    "Paxton, Walton County, FL" : {
+        "name" : "Paxton",
+        "state" : "Florida",
+        "FIPS" : "12-55475",
+        "counties" : [
+            "Walton County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 556,
+        "population_2020" : 556,
+        "population_2027" : 644,
+        "land_area_2020" : 3.7
+    },
+    "Pembroke Park, Broward County, FL" : {
+        "name" : "Pembroke Park",
+        "state" : "Florida",
+        "FIPS" : "12-55750",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6260,
+        "population_2020" : 6260,
+        "population_2027" : 7253,
+        "land_area_2020" : 1.4
+    },
+    "Pembroke Pines, Broward County, FL" : {
+        "name" : "Pembroke Pines",
+        "state" : "Florida",
+        "FIPS" : "12-55775",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 171178,
+        "population_2020" : 171178,
+        "population_2027" : 198323,
+        "land_area_2020" : 32.7
+    },
+    "Penney Farms, Clay County, FL" : {
+        "name" : "Penney Farms",
+        "state" : "Florida",
+        "FIPS" : "12-55875",
+        "counties" : [
+            "Clay County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 821,
+        "population_2020" : 821,
+        "population_2027" : 951,
+        "land_area_2020" : 1.5
+    },
+    "Pensacola, Escambia County, FL" : {
+        "name" : "Pensacola",
+        "state" : "Florida",
+        "FIPS" : "12-55925",
+        "counties" : [
+            "Escambia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 54312,
+        "population_2020" : 54312,
+        "population_2027" : 62925,
+        "land_area_2020" : 22.7
+    },
+    "Perry, Taylor County, FL" : {
+        "name" : "Perry",
+        "state" : "Florida",
+        "FIPS" : "12-56150",
+        "counties" : [
+            "Taylor County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6898,
+        "population_2020" : 6898,
+        "population_2027" : 7992,
+        "land_area_2020" : 9.4
+    },
+    "Pierson, Volusia County, FL" : {
+        "name" : "Pierson",
+        "state" : "Florida",
+        "FIPS" : "12-56425",
+        "counties" : [
+            "Volusia County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1542,
+        "population_2020" : 1542,
+        "population_2027" : 1787,
+        "land_area_2020" : 10.2
+    },
+    "Pinecrest, Miami-Dade County, FL" : {
+        "name" : "Pinecrest",
+        "state" : "Florida",
+        "FIPS" : "12-56625",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 18388,
+        "population_2020" : 18388,
+        "population_2027" : 21304,
+        "land_area_2020" : 7.5
+    },
+    "Pinellas Park, Pinellas County, FL" : {
+        "name" : "Pinellas Park",
+        "state" : "Florida",
+        "FIPS" : "12-56975",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 53093,
+        "population_2020" : 53093,
+        "population_2027" : 61512,
+        "land_area_2020" : 16.1
+    },
+    "Plant City, Hillsborough County, FL" : {
+        "name" : "Plant City",
+        "state" : "Florida",
+        "FIPS" : "12-57550",
+        "counties" : [
+            "Hillsborough County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 39764,
+        "population_2020" : 39764,
+        "population_2027" : 46070,
+        "land_area_2020" : 27.6
+    },
+    "Plantation, Broward County, FL" : {
+        "name" : "Plantation",
+        "state" : "Florida",
+        "FIPS" : "12-57450",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 91750,
+        "population_2020" : 91750,
+        "population_2027" : 106299,
+        "land_area_2020" : 21.8
+    },
+    "Polk City, Polk County, FL" : {
+        "name" : "Polk City",
+        "state" : "Florida",
+        "FIPS" : "12-57950",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2713,
+        "population_2020" : 2713,
+        "population_2027" : 3143,
+        "land_area_2020" : 4.5
+    },
+    "Pomona Park, Putnam County, FL" : {
+        "name" : "Pomona Park",
+        "state" : "Florida",
+        "FIPS" : "12-58025",
+        "counties" : [
+            "Putnam County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 784,
+        "population_2020" : 784,
+        "population_2027" : 908,
+        "land_area_2020" : 3.0
+    },
+    "Pompano Beach, Broward County, FL" : {
+        "name" : "Pompano Beach",
+        "state" : "Florida",
+        "FIPS" : "12-58050",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 112046,
+        "population_2020" : 112046,
+        "population_2027" : 129814,
+        "land_area_2020" : 24.0
+    },
+    "Ponce de Leon, Holmes County, FL" : {
+        "name" : "Ponce de Leon",
+        "state" : "Florida",
+        "FIPS" : "12-58175",
+        "counties" : [
+            "Holmes County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 504,
+        "population_2020" : 504,
+        "population_2027" : 584,
+        "land_area_2020" : 5.0
+    },
+    "Ponce Inlet, Volusia County, FL" : {
+        "name" : "Ponce Inlet",
+        "state" : "Florida",
+        "FIPS" : "12-58200",
+        "counties" : [
+            "Volusia County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3364,
+        "population_2020" : 3364,
+        "population_2027" : 3897,
+        "land_area_2020" : 4.5
+    },
+    "Port Orange, Volusia County, FL" : {
+        "name" : "Port Orange",
+        "state" : "Florida",
+        "FIPS" : "12-58575",
+        "counties" : [
+            "Volusia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 62596,
+        "population_2020" : 62596,
+        "population_2027" : 72522,
+        "land_area_2020" : 26.8
+    },
+    "Port Richey, Pasco County, FL" : {
+        "name" : "Port Richey",
+        "state" : "Florida",
+        "FIPS" : "12-58600",
+        "counties" : [
+            "Pasco County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3052,
+        "population_2020" : 3052,
+        "population_2027" : 3536,
+        "land_area_2020" : 2.2
+    },
+    "Port St. Joe, Gulf County, FL" : {
+        "name" : "Port St. Joe",
+        "state" : "Florida",
+        "FIPS" : "12-58675",
+        "counties" : [
+            "Gulf County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3357,
+        "population_2020" : 3357,
+        "population_2027" : 3889,
+        "land_area_2020" : 9.4
+    },
+    "Port St. Lucie, St. Lucie County, FL" : {
+        "name" : "Port St. Lucie",
+        "state" : "Florida",
+        "FIPS" : "12-58715",
+        "counties" : [
+            "St. Lucie County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 204851,
+        "population_2020" : 204851,
+        "population_2027" : 237335,
+        "land_area_2020" : 119.2
+    },
+    "Punta Gorda, Charlotte County, FL" : {
+        "name" : "Punta Gorda",
+        "state" : "Florida",
+        "FIPS" : "12-59200",
+        "counties" : [
+            "Charlotte County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 19471,
+        "population_2020" : 19471,
+        "population_2027" : 22559,
+        "land_area_2020" : 15.5
+    },
+    "Quincy, Gadsden County, FL" : {
+        "name" : "Quincy",
+        "state" : "Florida",
+        "FIPS" : "12-59325",
+        "counties" : [
+            "Gadsden County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7970,
+        "population_2020" : 7970,
+        "population_2027" : 9234,
+        "land_area_2020" : 11.6
+    },
+    "Raiford, Union County, FL" : {
+        "name" : "Raiford",
+        "state" : "Florida",
+        "FIPS" : "12-59400",
+        "counties" : [
+            "Union County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 224,
+        "population_2020" : 224,
+        "population_2027" : 260,
+        "land_area_2020" : 0.55
+    },
+    "Reddick, Marion County, FL" : {
+        "name" : "Reddick",
+        "state" : "Florida",
+        "FIPS" : "12-59675",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 449,
+        "population_2020" : 449,
+        "population_2027" : 520,
+        "land_area_2020" : 1.3
+    },
+    "Redington Beach, Pinellas County, FL" : {
+        "name" : "Redington Beach",
+        "state" : "Florida",
+        "FIPS" : "12-59725",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1376,
+        "population_2020" : 1376,
+        "population_2027" : 1594,
+        "land_area_2020" : 0.36
+    },
+    "Redington Shores, Pinellas County, FL" : {
+        "name" : "Redington Shores",
+        "state" : "Florida",
+        "FIPS" : "12-59750",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2176,
+        "population_2020" : 2176,
+        "population_2027" : 2521,
+        "land_area_2020" : 0.33
+    },
+    "Riviera Beach, Palm Beach County, FL" : {
+        "name" : "Riviera Beach",
+        "state" : "Florida",
+        "FIPS" : "12-60975",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 37604,
+        "population_2020" : 37604,
+        "population_2027" : 43567,
+        "land_area_2020" : 8.3
+    },
+    "Rockledge, Brevard County, FL" : {
+        "name" : "Rockledge",
+        "state" : "Florida",
+        "FIPS" : "12-61500",
+        "counties" : [
+            "Brevard County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 27678,
+        "population_2020" : 27678,
+        "population_2027" : 32067,
+        "land_area_2020" : 13.2
+    },
+    "Royal Palm Beach, Palm Beach County, FL" : {
+        "name" : "Royal Palm Beach",
+        "state" : "Florida",
+        "FIPS" : "12-62100",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 38932,
+        "population_2020" : 38932,
+        "population_2027" : 45106,
+        "land_area_2020" : 11.3
+    },
+    "Safety Harbor, Pinellas County, FL" : {
+        "name" : "Safety Harbor",
+        "state" : "Florida",
+        "FIPS" : "12-62425",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 17072,
+        "population_2020" : 17072,
+        "population_2027" : 19779,
+        "land_area_2020" : 4.9
+    },
+    "San Antonio, Pasco County, FL" : {
+        "name" : "San Antonio",
+        "state" : "Florida",
+        "FIPS" : "12-63375",
+        "counties" : [
+            "Pasco County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1297,
+        "population_2020" : 1297,
+        "population_2027" : 1503,
+        "land_area_2020" : 1.4
+    },
+    "Sanford, Seminole County, FL" : {
+        "name" : "Sanford",
+        "state" : "Florida",
+        "FIPS" : "12-63650",
+        "counties" : [
+            "Seminole County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 61051,
+        "population_2020" : 61051,
+        "population_2027" : 70732,
+        "land_area_2020" : 23.6
+    },
+    "Sanibel, Lee County, FL" : {
+        "name" : "Sanibel",
+        "state" : "Florida",
+        "FIPS" : "12-63700",
+        "counties" : [
+            "Lee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6382,
+        "population_2020" : 6382,
+        "population_2027" : 7394,
+        "land_area_2020" : 16.2
+    },
+    "Sarasota, Sarasota County, FL" : {
+        "name" : "Sarasota",
+        "state" : "Florida",
+        "FIPS" : "12-64175",
+        "counties" : [
+            "Sarasota County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 54842,
+        "population_2020" : 54842,
+        "population_2027" : 63539,
+        "land_area_2020" : 14.7
+    },
+    "Satellite Beach, Brevard County, FL" : {
+        "name" : "Satellite Beach",
+        "state" : "Florida",
+        "FIPS" : "12-64400",
+        "counties" : [
+            "Brevard County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11226,
+        "population_2020" : 11226,
+        "population_2027" : 13006,
+        "land_area_2020" : 2.9
+    },
+    "Sea Ranch Lakes, Broward County, FL" : {
+        "name" : "Sea Ranch Lakes",
+        "state" : "Florida",
+        "FIPS" : "12-64725",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 540,
+        "population_2020" : 540,
+        "population_2027" : 626,
+        "land_area_2020" : 0.17
+    },
+    "Sebastian, Indian River County, FL" : {
+        "name" : "Sebastian",
+        "state" : "Florida",
+        "FIPS" : "12-64825",
+        "counties" : [
+            "Indian River County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 25054,
+        "population_2020" : 25054,
+        "population_2027" : 29027,
+        "land_area_2020" : 15.8
+    },
+    "Sebring, Highlands County, FL" : {
+        "name" : "Sebring",
+        "state" : "Florida",
+        "FIPS" : "12-64875",
+        "counties" : [
+            "Highlands County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10729,
+        "population_2020" : 10729,
+        "population_2027" : 12430,
+        "land_area_2020" : 10.1
+    },
+    "Seminole, Pinellas County, FL" : {
+        "name" : "Seminole",
+        "state" : "Florida",
+        "FIPS" : "12-64975",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 19364,
+        "population_2020" : 19364,
+        "population_2027" : 22435,
+        "land_area_2020" : 5.2
+    },
+    "Sewall's Point, Martin County, FL" : {
+        "name" : "Sewall's Point",
+        "state" : "Florida",
+        "FIPS" : "12-65225",
+        "counties" : [
+            "Martin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1991,
+        "population_2020" : 1991,
+        "population_2027" : 2307,
+        "land_area_2020" : 1.2
+    },
+    "Shalimar, Okaloosa County, FL" : {
+        "name" : "Shalimar",
+        "state" : "Florida",
+        "FIPS" : "12-65425",
+        "counties" : [
+            "Okaloosa County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 737,
+        "population_2020" : 737,
+        "population_2027" : 854,
+        "land_area_2020" : 0.29
+    },
+    "Sneads, Jackson County, FL" : {
+        "name" : "Sneads",
+        "state" : "Florida",
+        "FIPS" : "12-66725",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1699,
+        "population_2020" : 1699,
+        "population_2027" : 1968,
+        "land_area_2020" : 4.4
+    },
+    "Sopchoppy, Wakulla County, FL" : {
+        "name" : "Sopchoppy",
+        "state" : "Florida",
+        "FIPS" : "12-66925",
+        "counties" : [
+            "Wakulla County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 426,
+        "population_2020" : 426,
+        "population_2027" : 494,
+        "land_area_2020" : 1.7
+    },
+    "South Bay, Palm Beach County, FL" : {
+        "name" : "South Bay",
+        "state" : "Florida",
+        "FIPS" : "12-67175",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4860,
+        "population_2020" : 4860,
+        "population_2027" : 5631,
+        "land_area_2020" : 2.9
+    },
+    "South Daytona, Volusia County, FL" : {
+        "name" : "South Daytona",
+        "state" : "Florida",
+        "FIPS" : "12-67325",
+        "counties" : [
+            "Volusia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12865,
+        "population_2020" : 12865,
+        "population_2027" : 14905,
+        "land_area_2020" : 3.7
+    },
+    "South Miami, Miami-Dade County, FL" : {
+        "name" : "South Miami",
+        "state" : "Florida",
+        "FIPS" : "12-67550",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12026,
+        "population_2020" : 12026,
+        "population_2027" : 13933,
+        "land_area_2020" : 2.3
+    },
+    "South Palm Beach, Palm Beach County, FL" : {
+        "name" : "South Palm Beach",
+        "state" : "Florida",
+        "FIPS" : "12-67650",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1471,
+        "population_2020" : 1471,
+        "population_2027" : 1704,
+        "land_area_2020" : 0.11
+    },
+    "South Pasadena, Pinellas County, FL" : {
+        "name" : "South Pasadena",
+        "state" : "Florida",
+        "FIPS" : "12-67675",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5353,
+        "population_2020" : 5353,
+        "population_2027" : 6202,
+        "land_area_2020" : 0.61
+    },
+    "Southwest Ranches, Broward County, FL" : {
+        "name" : "Southwest Ranches",
+        "state" : "Florida",
+        "FIPS" : "12-68135",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7607,
+        "population_2020" : 7607,
+        "population_2027" : 8813,
+        "land_area_2020" : 13.0
+    },
+    "Springfield, Bay County, FL" : {
+        "name" : "Springfield",
+        "state" : "Florida",
+        "FIPS" : "12-68275",
+        "counties" : [
+            "Bay County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8075,
+        "population_2020" : 8075,
+        "population_2027" : 9356,
+        "land_area_2020" : 4.2
+    },
+    "St. Augustine, St. Johns County, FL" : {
+        "name" : "St. Augustine",
+        "state" : "Florida",
+        "FIPS" : "12-62500",
+        "counties" : [
+            "St. Johns County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14329,
+        "population_2020" : 14329,
+        "population_2027" : 16601,
+        "land_area_2020" : 9.5
+    },
+    "St. Augustine Beach, St. Johns County, FL" : {
+        "name" : "St. Augustine Beach",
+        "state" : "Florida",
+        "FIPS" : "12-62525",
+        "counties" : [
+            "St. Johns County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6803,
+        "population_2020" : 6803,
+        "population_2027" : 7882,
+        "land_area_2020" : 2.1
+    },
+    "St. Cloud, Osceola County, FL" : {
+        "name" : "St. Cloud",
+        "state" : "Florida",
+        "FIPS" : "12-62625",
+        "counties" : [
+            "Osceola County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 58964,
+        "population_2020" : 58964,
+        "population_2027" : 68314,
+        "land_area_2020" : 25.5
+    },
+    "St. Leo, Pasco County, FL" : {
+        "name" : "St. Leo",
+        "state" : "Florida",
+        "FIPS" : "12-62775",
+        "counties" : [
+            "Pasco County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2362,
+        "population_2020" : 2362,
+        "population_2027" : 2737,
+        "land_area_2020" : 1.1
+    },
+    "St. Lucie Village, St. Lucie County, FL" : {
+        "name" : "St. Lucie Village",
+        "state" : "Florida",
+        "FIPS" : "12-62800",
+        "counties" : [
+            "St. Lucie County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 613,
+        "population_2020" : 613,
+        "population_2027" : 710,
+        "land_area_2020" : 0.9
+    },
+    "St. Marks, Wakulla County, FL" : {
+        "name" : "St. Marks",
+        "state" : "Florida",
+        "FIPS" : "12-62825",
+        "counties" : [
+            "Wakulla County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 274,
+        "population_2020" : 274,
+        "population_2027" : 317,
+        "land_area_2020" : 2.0
+    },
+    "St. Pete Beach, Pinellas County, FL" : {
+        "name" : "St. Pete Beach",
+        "state" : "Florida",
+        "FIPS" : "12-62885",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8879,
+        "population_2020" : 8879,
+        "population_2027" : 10287,
+        "land_area_2020" : 2.1
+    },
+    "St. Petersburg, Pinellas County, FL" : {
+        "name" : "St. Petersburg",
+        "state" : "Florida",
+        "FIPS" : "12-63000",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 258308,
+        "population_2020" : 258308,
+        "population_2027" : 299269,
+        "land_area_2020" : 61.8
+    },
+    "Starke, Bradford County, FL" : {
+        "name" : "Starke",
+        "state" : "Florida",
+        "FIPS" : "12-68525",
+        "counties" : [
+            "Bradford County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5796,
+        "population_2020" : 5796,
+        "population_2027" : 6715,
+        "land_area_2020" : 7.2
+    },
+    "Stuart, Martin County, FL" : {
+        "name" : "Stuart",
+        "state" : "Florida",
+        "FIPS" : "12-68875",
+        "counties" : [
+            "Martin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 17425,
+        "population_2020" : 17425,
+        "population_2027" : 20188,
+        "land_area_2020" : 7.0
+    },
+    "Sunny Isles Beach, Miami-Dade County, FL" : {
+        "name" : "Sunny Isles Beach",
+        "state" : "Florida",
+        "FIPS" : "12-69555",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 22342,
+        "population_2020" : 22342,
+        "population_2027" : 25885,
+        "land_area_2020" : 1.0
+    },
+    "Sunrise, Broward County, FL" : {
+        "name" : "Sunrise",
+        "state" : "Florida",
+        "FIPS" : "12-69700",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 97335,
+        "population_2020" : 97335,
+        "population_2027" : 112770,
+        "land_area_2020" : 16.2
+    },
+    "Surfside, Miami-Dade County, FL" : {
+        "name" : "Surfside",
+        "state" : "Florida",
+        "FIPS" : "12-70075",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5689,
+        "population_2020" : 5689,
+        "population_2027" : 6591,
+        "land_area_2020" : 0.56
+    },
+    "Sweetwater, Miami-Dade County, FL" : {
+        "name" : "Sweetwater",
+        "state" : "Florida",
+        "FIPS" : "12-70345",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 19363,
+        "population_2020" : 19363,
+        "population_2027" : 22434,
+        "land_area_2020" : 2.2
+    },
+    "Tallahassee, Leon County, FL" : {
+        "name" : "Tallahassee",
+        "state" : "Florida",
+        "FIPS" : "12-70600",
+        "counties" : [
+            "Leon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 196169,
+        "population_2020" : 196169,
+        "population_2027" : 227277,
+        "land_area_2020" : 100.9
+    },
+    "Tamarac, Broward County, FL" : {
+        "name" : "Tamarac",
+        "state" : "Florida",
+        "FIPS" : "12-70675",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 71897,
+        "population_2020" : 71897,
+        "population_2027" : 83298,
+        "land_area_2020" : 11.6
+    },
+    "Tampa, Hillsborough County, FL" : {
+        "name" : "Tampa",
+        "state" : "Florida",
+        "FIPS" : "12-71000",
+        "counties" : [
+            "Hillsborough County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 384959,
+        "population_2020" : 384959,
+        "population_2027" : 446004,
+        "land_area_2020" : 114.0
+    },
+    "Tarpon Springs, Pinellas County, FL" : {
+        "name" : "Tarpon Springs",
+        "state" : "Florida",
+        "FIPS" : "12-71150",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 25117,
+        "population_2020" : 25117,
+        "population_2027" : 29100,
+        "land_area_2020" : 9.1
+    },
+    "Tavares, Lake County, FL" : {
+        "name" : "Tavares",
+        "state" : "Florida",
+        "FIPS" : "12-71225",
+        "counties" : [
+            "Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 19003,
+        "population_2020" : 19003,
+        "population_2027" : 22016,
+        "land_area_2020" : 12.2
+    },
+    "Temple Terrace, Hillsborough County, FL" : {
+        "name" : "Temple Terrace",
+        "state" : "Florida",
+        "FIPS" : "12-71400",
+        "counties" : [
+            "Hillsborough County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 26690,
+        "population_2020" : 26690,
+        "population_2027" : 30922,
+        "land_area_2020" : 7.3
+    },
+    "Tequesta, Palm Beach County, FL" : {
+        "name" : "Tequesta",
+        "state" : "Florida",
+        "FIPS" : "12-71525",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 6158,
+        "population_2020" : 6158,
+        "population_2027" : 7135,
+        "land_area_2020" : 1.8
+    },
+    "Titusville, Brevard County, FL" : {
+        "name" : "Titusville",
+        "state" : "Florida",
+        "FIPS" : "12-71900",
+        "counties" : [
+            "Brevard County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 48789,
+        "population_2020" : 48789,
+        "population_2027" : 56526,
+        "land_area_2020" : 29.2
+    },
+    "Treasure Island, Pinellas County, FL" : {
+        "name" : "Treasure Island",
+        "state" : "Florida",
+        "FIPS" : "12-72325",
+        "counties" : [
+            "Pinellas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6584,
+        "population_2020" : 6584,
+        "population_2027" : 7628,
+        "land_area_2020" : 1.5
+    },
+    "Trenton, Gilchrist County, FL" : {
+        "name" : "Trenton",
+        "state" : "Florida",
+        "FIPS" : "12-72350",
+        "counties" : [
+            "Gilchrist County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2015,
+        "population_2020" : 2015,
+        "population_2027" : 2335,
+        "land_area_2020" : 3.4
+    },
+    "Umatilla, Lake County, FL" : {
+        "name" : "Umatilla",
+        "state" : "Florida",
+        "FIPS" : "12-73025",
+        "counties" : [
+            "Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3685,
+        "population_2020" : 3685,
+        "population_2027" : 4269,
+        "land_area_2020" : 3.6
+    },
+    "Valparaiso, Okaloosa County, FL" : {
+        "name" : "Valparaiso",
+        "state" : "Florida",
+        "FIPS" : "12-73675",
+        "counties" : [
+            "Okaloosa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4752,
+        "population_2020" : 4752,
+        "population_2027" : 5506,
+        "land_area_2020" : 11.8
+    },
+    "Venice, Sarasota County, FL" : {
+        "name" : "Venice",
+        "state" : "Florida",
+        "FIPS" : "12-73900",
+        "counties" : [
+            "Sarasota County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 25463,
+        "population_2020" : 25463,
+        "population_2027" : 29501,
+        "land_area_2020" : 15.9
+    },
+    "Vernon, Washington County, FL" : {
+        "name" : "Vernon",
+        "state" : "Florida",
+        "FIPS" : "12-74125",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 732,
+        "population_2020" : 732,
+        "population_2027" : 848,
+        "land_area_2020" : 4.8
+    },
+    "Vero Beach, Indian River County, FL" : {
+        "name" : "Vero Beach",
+        "state" : "Florida",
+        "FIPS" : "12-74150",
+        "counties" : [
+            "Indian River County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16354,
+        "population_2020" : 16354,
+        "population_2027" : 18947,
+        "land_area_2020" : 11.4
+    },
+    "Virginia Gardens, Miami-Dade County, FL" : {
+        "name" : "Virginia Gardens",
+        "state" : "Florida",
+        "FIPS" : "12-74575",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 2364,
+        "population_2020" : 2364,
+        "population_2027" : 2739,
+        "land_area_2020" : 0.29
+    },
+    "Waldo, Alachua County, FL" : {
+        "name" : "Waldo",
+        "state" : "Florida",
+        "FIPS" : "12-74925",
+        "counties" : [
+            "Alachua County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 846,
+        "population_2020" : 846,
+        "population_2027" : 980,
+        "land_area_2020" : 2.2
+    },
+    "Wauchula, Hardee County, FL" : {
+        "name" : "Wauchula",
+        "state" : "Florida",
+        "FIPS" : "12-75375",
+        "counties" : [
+            "Hardee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4900,
+        "population_2020" : 4900,
+        "population_2027" : 5677,
+        "land_area_2020" : 3.3
+    },
+    "Wausau, Washington County, FL" : {
+        "name" : "Wausau",
+        "state" : "Florida",
+        "FIPS" : "12-75450",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 371,
+        "population_2020" : 371,
+        "population_2027" : 430,
+        "land_area_2020" : 1.2
+    },
+    "Webster, Sumter County, FL" : {
+        "name" : "Webster",
+        "state" : "Florida",
+        "FIPS" : "12-75600",
+        "counties" : [
+            "Sumter County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 778,
+        "population_2020" : 778,
+        "population_2027" : 901,
+        "land_area_2020" : 1.6
+    },
+    "Welaka, Putnam County, FL" : {
+        "name" : "Welaka",
+        "state" : "Florida",
+        "FIPS" : "12-75750",
+        "counties" : [
+            "Putnam County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 714,
+        "population_2020" : 714,
+        "population_2027" : 827,
+        "land_area_2020" : 1.5
+    },
+    "Wellington, Palm Beach County, FL" : {
+        "name" : "Wellington",
+        "state" : "Florida",
+        "FIPS" : "12-75812",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 61637,
+        "population_2020" : 61637,
+        "population_2027" : 71411,
+        "land_area_2020" : 45.0
+    },
+    "West Melbourne, Brevard County, FL" : {
+        "name" : "West Melbourne",
+        "state" : "Florida",
+        "FIPS" : "12-76500",
+        "counties" : [
+            "Brevard County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 25924,
+        "population_2020" : 25924,
+        "population_2027" : 30035,
+        "land_area_2020" : 10.7
+    },
+    "West Miami, Miami-Dade County, FL" : {
+        "name" : "West Miami",
+        "state" : "Florida",
+        "FIPS" : "12-76525",
+        "counties" : [
+            "Miami-Dade County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7233,
+        "population_2020" : 7233,
+        "population_2027" : 8380,
+        "land_area_2020" : 0.71
+    },
+    "West Palm Beach, Palm Beach County, FL" : {
+        "name" : "West Palm Beach",
+        "state" : "Florida",
+        "FIPS" : "12-76600",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 117415,
+        "population_2020" : 117415,
+        "population_2027" : 136034,
+        "land_area_2020" : 53.8
+    },
+    "West Park, Broward County, FL" : {
+        "name" : "West Park",
+        "state" : "Florida",
+        "FIPS" : "12-76658",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15130,
+        "population_2020" : 15130,
+        "population_2027" : 17529,
+        "land_area_2020" : 2.2
+    },
+    "Westlake, Palm Beach County, FL" : {
+        "name" : "Westlake",
+        "state" : "Florida",
+        "FIPS" : "12-76417",
+        "counties" : [
+            "Palm Beach County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 906,
+        "population_2020" : 906,
+        "population_2027" : 1050,
+        "land_area_2020" : 6.4
+    },
+    "Weston, Broward County, FL" : {
+        "name" : "Weston",
+        "state" : "Florida",
+        "FIPS" : "12-76582",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 68107,
+        "population_2020" : 68107,
+        "population_2027" : 78907,
+        "land_area_2020" : 24.6
+    },
+    "Westville, Holmes County, FL" : {
+        "name" : "Westville",
+        "state" : "Florida",
+        "FIPS" : "12-76975",
+        "counties" : [
+            "Holmes County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 261,
+        "population_2020" : 261,
+        "population_2027" : 302,
+        "land_area_2020" : 7.2
+    },
+    "Wewahitchka, Gulf County, FL" : {
+        "name" : "Wewahitchka",
+        "state" : "Florida",
+        "FIPS" : "12-77100",
+        "counties" : [
+            "Gulf County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2074,
+        "population_2020" : 2074,
+        "population_2027" : 2403,
+        "land_area_2020" : 6.7
+    },
+    "White Springs, Hamilton County, FL" : {
+        "name" : "White Springs",
+        "state" : "Florida",
+        "FIPS" : "12-77400",
+        "counties" : [
+            "Hamilton County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 740,
+        "population_2020" : 740,
+        "population_2027" : 857,
+        "land_area_2020" : 1.8
+    },
+    "Wildwood, Sumter County, FL" : {
+        "name" : "Wildwood",
+        "state" : "Florida",
+        "FIPS" : "12-77675",
+        "counties" : [
+            "Sumter County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15730,
+        "population_2020" : 15730,
+        "population_2027" : 18224,
+        "land_area_2020" : 56.3
+    },
+    "Williston, Levy County, FL" : {
+        "name" : "Williston",
+        "state" : "Florida",
+        "FIPS" : "12-77825",
+        "counties" : [
+            "Levy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2976,
+        "population_2020" : 2976,
+        "population_2027" : 3448,
+        "land_area_2020" : 6.8
+    },
+    "Wilton Manors, Broward County, FL" : {
+        "name" : "Wilton Manors",
+        "state" : "Florida",
+        "FIPS" : "12-78000",
+        "counties" : [
+            "Broward County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11426,
+        "population_2020" : 11426,
+        "population_2027" : 13238,
+        "land_area_2020" : 2.0
+    },
+    "Windermere, Orange County, FL" : {
+        "name" : "Windermere",
+        "state" : "Florida",
+        "FIPS" : "12-78050",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3030,
+        "population_2020" : 3030,
+        "population_2027" : 3510,
+        "land_area_2020" : 1.9
+    },
+    "Winter Garden, Orange County, FL" : {
+        "name" : "Winter Garden",
+        "state" : "Florida",
+        "FIPS" : "12-78250",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 46964,
+        "population_2020" : 46964,
+        "population_2027" : 54411,
+        "land_area_2020" : 16.3
+    },
+    "Winter Haven, Polk County, FL" : {
+        "name" : "Winter Haven",
+        "state" : "Florida",
+        "FIPS" : "12-78275",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 49219,
+        "population_2020" : 49219,
+        "population_2027" : 57024,
+        "land_area_2020" : 32.5
+    },
+    "Winter Park, Orange County, FL" : {
+        "name" : "Winter Park",
+        "state" : "Florida",
+        "FIPS" : "12-78300",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 29795,
+        "population_2020" : 29795,
+        "population_2027" : 34520,
+        "land_area_2020" : 8.8
+    },
+    "Winter Springs, Seminole County, FL" : {
+        "name" : "Winter Springs",
+        "state" : "Florida",
+        "FIPS" : "12-78325",
+        "counties" : [
+            "Seminole County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 38342,
+        "population_2020" : 38342,
+        "population_2027" : 44422,
+        "land_area_2020" : 14.9
+    },
+    "Worthington Springs, Union County, FL" : {
+        "name" : "Worthington Springs",
+        "state" : "Florida",
+        "FIPS" : "12-78775",
+        "counties" : [
+            "Union County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 378,
+        "population_2020" : 378,
+        "population_2027" : 438,
+        "land_area_2020" : 0.96
+    },
+    "Yankeetown, Levy County, FL" : {
+        "name" : "Yankeetown",
+        "state" : "Florida",
+        "FIPS" : "12-78925",
+        "counties" : [
+            "Levy County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 588,
+        "population_2020" : 588,
+        "population_2027" : 681,
+        "land_area_2020" : 7.7
+    },
+    "Zephyrhills, Pasco County, FL" : {
+        "name" : "Zephyrhills",
+        "state" : "Florida",
+        "FIPS" : "12-79225",
+        "counties" : [
+            "Pasco County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 17194,
+        "population_2020" : 17194,
+        "population_2027" : 19921,
+        "land_area_2020" : 9.5
+    },
+    "Zolfo Springs, Hardee County, FL" : {
+        "name" : "Zolfo Springs",
+        "state" : "Florida",
+        "FIPS" : "12-79250",
+        "counties" : [
+            "Hardee County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1737,
+        "population_2020" : 1737,
+        "population_2027" : 2012,
+        "land_area_2020" : 1.7
+    }
+}

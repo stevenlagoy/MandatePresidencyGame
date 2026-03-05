@@ -1,0 +1,1289 @@
+{
+    "Afton, Lincoln County, WY" : {
+        "name" : "Afton",
+        "state" : "Wyoming",
+        "FIPS" : "56-00245",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1911,
+        "population_2020" : 2172,
+        "population_2027" : 2468,
+        "land_area_2020" : 4.18
+    },
+    "Albin, Laramie County, WY" : {
+        "name" : "Albin",
+        "state" : "Wyoming",
+        "FIPS" : "56-00825",
+        "counties" : [
+            "Laramie County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 181,
+        "population_2020" : 169,
+        "population_2027" : 167,
+        "land_area_2020" : 0.15
+    },
+    "Alpine, Lincoln County, WY" : {
+        "name" : "Alpine",
+        "state" : "Wyoming",
+        "FIPS" : "56-01695",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 828,
+        "population_2020" : 1220,
+        "population_2027" : 1741,
+        "land_area_2020" : 0.7
+    },
+    "Baggs, Carbon County, WY" : {
+        "name" : "Baggs",
+        "state" : "Wyoming",
+        "FIPS" : "56-04740",
+        "counties" : [
+            "Carbon County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 440,
+        "population_2020" : 411,
+        "population_2027" : 406,
+        "land_area_2020" : 0.51
+    },
+    "Bairoil, Sweetwater County, WY" : {
+        "name" : "Bairoil",
+        "state" : "Wyoming",
+        "FIPS" : "56-04885",
+        "counties" : [
+            "Sweetwater County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 106,
+        "population_2020" : 68,
+        "population_2027" : 55,
+        "land_area_2020" : 1.41
+    },
+    "Bar Nunn, Natrona County, WY" : {
+        "name" : "Bar Nunn",
+        "state" : "Wyoming",
+        "FIPS" : "56-05245",
+        "counties" : [
+            "Natrona County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2213,
+        "population_2020" : 2981,
+        "population_2027" : 3908,
+        "land_area_2020" : 2.1
+    },
+    "Basin, Big Horn County, WY" : {
+        "name" : "Basin",
+        "state" : "Wyoming",
+        "FIPS" : "56-05320",
+        "counties" : [
+            "Big Horn County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1285,
+        "population_2020" : 1288,
+        "population_2027" : 1334,
+        "land_area_2020" : 2.4
+    },
+    "Bear River, Uinta County, WY" : {
+        "name" : "Bear River",
+        "state" : "Wyoming",
+        "FIPS" : "56-05625",
+        "counties" : [
+            "Uinta County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 518,
+        "population_2020" : 522,
+        "population_2027" : 543,
+        "land_area_2020" : 1.9
+    },
+    "Big Piney, Sublette County, WY" : {
+        "name" : "Big Piney",
+        "state" : "Wyoming",
+        "FIPS" : "56-07060",
+        "counties" : [
+            "Sublette County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 552,
+        "population_2020" : 395,
+        "population_2027" : 334,
+        "land_area_2020" : 0.45
+    },
+    "Buffalo, Johnson County, WY" : {
+        "name" : "Buffalo",
+        "state" : "Wyoming",
+        "FIPS" : "56-10685",
+        "counties" : [
+            "Johnson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4585,
+        "population_2020" : 4415,
+        "population_2027" : 4447,
+        "land_area_2020" : 4.46
+    },
+    "Burlington, Big Horn County, WY" : {
+        "name" : "Burlington",
+        "state" : "Wyoming",
+        "FIPS" : "56-11120",
+        "counties" : [
+            "Big Horn County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 288,
+        "population_2020" : 314,
+        "population_2027" : 346,
+        "land_area_2020" : 1.01
+    },
+    "Burns, Laramie County, WY" : {
+        "name" : "Burns",
+        "state" : "Wyoming",
+        "FIPS" : "56-11265",
+        "counties" : [
+            "Laramie County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 301,
+        "population_2020" : 356,
+        "population_2027" : 417,
+        "land_area_2020" : 3.05
+    },
+    "Byron, Big Horn County, WY" : {
+        "name" : "Byron",
+        "state" : "Wyoming",
+        "FIPS" : "56-11700",
+        "counties" : [
+            "Big Horn County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 593,
+        "population_2020" : 562,
+        "population_2027" : 560,
+        "land_area_2020" : 0.91
+    },
+    "Casper, Natrona County, WY" : {
+        "name" : "Casper",
+        "state" : "Wyoming",
+        "FIPS" : "56-13150",
+        "counties" : [
+            "Natrona County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 55316,
+        "population_2020" : 59038,
+        "population_2027" : 63948,
+        "land_area_2020" : 26.9
+    },
+    "Cheyenne, Laramie County, WY" : {
+        "name" : "Cheyenne",
+        "state" : "Wyoming",
+        "FIPS" : "56-13900",
+        "counties" : [
+            "Laramie County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 59466,
+        "population_2020" : 65132,
+        "population_2027" : 71927,
+        "land_area_2020" : 24.52
+    },
+    "Chugwater, Platte County, WY" : {
+        "name" : "Chugwater",
+        "state" : "Wyoming",
+        "FIPS" : "56-14165",
+        "counties" : [
+            "Platte County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 212,
+        "population_2020" : 175,
+        "population_2027" : 160,
+        "land_area_2020" : 3.06
+    },
+    "Clearmont, Sheridan County, WY" : {
+        "name" : "Clearmont",
+        "state" : "Wyoming",
+        "FIPS" : "56-15325",
+        "counties" : [
+            "Sheridan County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 142,
+        "population_2020" : 116,
+        "population_2027" : 105,
+        "land_area_2020" : 0.16
+    },
+    "Cody, Park County, WY" : {
+        "name" : "Cody",
+        "state" : "Wyoming",
+        "FIPS" : "56-15760",
+        "counties" : [
+            "Park County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9520,
+        "population_2020" : 10028,
+        "population_2027" : 10758,
+        "land_area_2020" : 10.2
+    },
+    "Cokeville, Lincoln County, WY" : {
+        "name" : "Cokeville",
+        "state" : "Wyoming",
+        "FIPS" : "56-15905",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 535,
+        "population_2020" : 502,
+        "population_2027" : 497,
+        "land_area_2020" : 1.18
+    },
+    "Cowley, Big Horn County, WY" : {
+        "name" : "Cowley",
+        "state" : "Wyoming",
+        "FIPS" : "56-17645",
+        "counties" : [
+            "Big Horn County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 655,
+        "population_2020" : 762,
+        "population_2027" : 882,
+        "land_area_2020" : 0.84
+    },
+    "Dayton, Sheridan County, WY" : {
+        "name" : "Dayton",
+        "state" : "Wyoming",
+        "FIPS" : "56-19385",
+        "counties" : [
+            "Sheridan County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 757,
+        "population_2020" : 822,
+        "population_2027" : 902,
+        "land_area_2020" : 0.53
+    },
+    "Deaver, Big Horn County, WY" : {
+        "name" : "Deaver",
+        "state" : "Wyoming",
+        "FIPS" : "56-19530",
+        "counties" : [
+            "Big Horn County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 178,
+        "population_2020" : 154,
+        "population_2027" : 145,
+        "land_area_2020" : 1.01
+    },
+    "Diamondville, Lincoln County, WY" : {
+        "name" : "Diamondville",
+        "state" : "Wyoming",
+        "FIPS" : "56-20110",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 737,
+        "population_2020" : 520,
+        "population_2027" : 437,
+        "land_area_2020" : 1.17
+    },
+    "Dixon, Carbon County, WY" : {
+        "name" : "Dixon",
+        "state" : "Wyoming",
+        "FIPS" : "56-20690",
+        "counties" : [
+            "Carbon County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 97,
+        "population_2020" : 74,
+        "population_2027" : 65,
+        "land_area_2020" : 0.13
+    },
+    "Douglas, Converse County, WY" : {
+        "name" : "Douglas",
+        "state" : "Wyoming",
+        "FIPS" : "56-21125",
+        "counties" : [
+            "Converse County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6120,
+        "population_2020" : 6386,
+        "population_2027" : 6804,
+        "land_area_2020" : 4.58
+    },
+    "Dubois, Fremont County, WY" : {
+        "name" : "Dubois",
+        "state" : "Wyoming",
+        "FIPS" : "56-21415",
+        "counties" : [
+            "Fremont County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 971,
+        "population_2020" : 911,
+        "population_2027" : 902,
+        "land_area_2020" : 3.42
+    },
+    "East Thermopolis, Hot Springs County, WY" : {
+        "name" : "East Thermopolis",
+        "state" : "Wyoming",
+        "FIPS" : "56-22720",
+        "counties" : [
+            "Hot Springs County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 254,
+        "population_2020" : 229,
+        "population_2027" : 221,
+        "land_area_2020" : 0.18
+    },
+    "Edgerton, Natrona County, WY" : {
+        "name" : "Edgerton",
+        "state" : "Wyoming",
+        "FIPS" : "56-23155",
+        "counties" : [
+            "Natrona County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 195,
+        "population_2020" : 153,
+        "population_2027" : 136,
+        "land_area_2020" : 0.25
+    },
+    "Elk Mountain, Carbon County, WY" : {
+        "name" : "Elk Mountain",
+        "state" : "Wyoming",
+        "FIPS" : "56-24025",
+        "counties" : [
+            "Carbon County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 191,
+        "population_2020" : 150,
+        "population_2027" : 133,
+        "land_area_2020" : 0.28
+    },
+    "Encampment, Carbon County, WY" : {
+        "name" : "Encampment",
+        "state" : "Wyoming",
+        "FIPS" : "56-24750",
+        "counties" : [
+            "Carbon County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 450,
+        "population_2020" : 452,
+        "population_2027" : 469,
+        "land_area_2020" : 1.6
+    },
+    "Evanston, Uinta County, WY" : {
+        "name" : "Evanston",
+        "state" : "Wyoming",
+        "FIPS" : "56-25620",
+        "counties" : [
+            "Uinta County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12359,
+        "population_2020" : 11747,
+        "population_2027" : 11730,
+        "land_area_2020" : 10.27
+    },
+    "Evansville, Natrona County, WY" : {
+        "name" : "Evansville",
+        "state" : "Wyoming",
+        "FIPS" : "56-25765",
+        "counties" : [
+            "Natrona County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2544,
+        "population_2020" : 2746,
+        "population_2027" : 2999,
+        "land_area_2020" : 3.54
+    },
+    "Fort Laramie, Goshen County, WY" : {
+        "name" : "Fort Laramie",
+        "state" : "Wyoming",
+        "FIPS" : "56-28230",
+        "counties" : [
+            "Goshen County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 230,
+        "population_2020" : 206,
+        "population_2027" : 198,
+        "land_area_2020" : 0.27
+    },
+    "Frannie, Big Horn County, WY" : {
+        "name" : "Frannie",
+        "state" : "Wyoming",
+        "FIPS" : "56-29825",
+        "counties" : [
+            "Big Horn County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 157,
+        "population_2020" : 145,
+        "population_2027" : 142,
+        "land_area_2020" : 0.44
+    },
+    "Gillette, Campbell County, WY" : {
+        "name" : "Gillette",
+        "state" : "Wyoming",
+        "FIPS" : "56-31855",
+        "counties" : [
+            "Campbell County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 29087,
+        "population_2020" : 33403,
+        "population_2027" : 38261,
+        "land_area_2020" : 18.97
+    },
+    "Glendo, Platte County, WY" : {
+        "name" : "Glendo",
+        "state" : "Wyoming",
+        "FIPS" : "56-32290",
+        "counties" : [
+            "Platte County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 205,
+        "population_2020" : 237,
+        "population_2027" : 273,
+        "land_area_2020" : 0.53
+    },
+    "Glenrock, Converse County, WY" : {
+        "name" : "Glenrock",
+        "state" : "Wyoming",
+        "FIPS" : "56-32435",
+        "counties" : [
+            "Converse County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2576,
+        "population_2020" : 2420,
+        "population_2027" : 2398,
+        "land_area_2020" : 2.28
+    },
+    "Granger, Sweetwater County, WY" : {
+        "name" : "Granger",
+        "state" : "Wyoming",
+        "FIPS" : "56-32870",
+        "counties" : [
+            "Sweetwater County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 139,
+        "population_2020" : 98,
+        "population_2027" : 82,
+        "land_area_2020" : 2.53
+    },
+    "Green River, Sweetwater County, WY" : {
+        "name" : "Green River",
+        "state" : "Wyoming",
+        "FIPS" : "56-33740",
+        "counties" : [
+            "Sweetwater County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12515,
+        "population_2020" : 11825,
+        "population_2027" : 11762,
+        "land_area_2020" : 13.72
+    },
+    "Greybull, Big Horn County, WY" : {
+        "name" : "Greybull",
+        "state" : "Wyoming",
+        "FIPS" : "56-33885",
+        "counties" : [
+            "Big Horn County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1847,
+        "population_2020" : 1651,
+        "population_2027" : 1584,
+        "land_area_2020" : 1.81
+    },
+    "Guernsey, Platte County, WY" : {
+        "name" : "Guernsey",
+        "state" : "Wyoming",
+        "FIPS" : "56-34320",
+        "counties" : [
+            "Platte County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1147,
+        "population_2020" : 1130,
+        "population_2027" : 1156,
+        "land_area_2020" : 1.02
+    },
+    "Hanna, Carbon County, WY" : {
+        "name" : "Hanna",
+        "state" : "Wyoming",
+        "FIPS" : "56-35335",
+        "counties" : [
+            "Carbon County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 841,
+        "population_2020" : 683,
+        "population_2027" : 619,
+        "land_area_2020" : 2.04
+    },
+    "Hartville, Platte County, WY" : {
+        "name" : "Hartville",
+        "state" : "Wyoming",
+        "FIPS" : "56-35625",
+        "counties" : [
+            "Platte County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 62,
+        "population_2020" : 64,
+        "population_2027" : 68,
+        "land_area_2020" : 0.25
+    },
+    "Hudson, Fremont County, WY" : {
+        "name" : "Hudson",
+        "state" : "Wyoming",
+        "FIPS" : "56-38960",
+        "counties" : [
+            "Fremont County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 458,
+        "population_2020" : 431,
+        "population_2027" : 428,
+        "land_area_2020" : 0.43
+    },
+    "Hulett, Crook County, WY" : {
+        "name" : "Hulett",
+        "state" : "Wyoming",
+        "FIPS" : "56-39105",
+        "counties" : [
+            "Crook County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 383,
+        "population_2020" : 309,
+        "population_2027" : 279,
+        "land_area_2020" : 0.87
+    },
+    "Jackson, Teton County, WY" : {
+        "name" : "Jackson",
+        "state" : "Wyoming",
+        "FIPS" : "56-40120",
+        "counties" : [
+            "Teton County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9577,
+        "population_2020" : 10760,
+        "population_2027" : 12116,
+        "land_area_2020" : 2.91
+    },
+    "Kaycee, Johnson County, WY" : {
+        "name" : "Kaycee",
+        "state" : "Wyoming",
+        "FIPS" : "56-41353",
+        "counties" : [
+            "Johnson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 263,
+        "population_2020" : 247,
+        "population_2027" : 245,
+        "land_area_2020" : 0.4
+    },
+    "Kemmerer, Lincoln County, WY" : {
+        "name" : "Kemmerer",
+        "state" : "Wyoming",
+        "FIPS" : "56-42005",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2656,
+        "population_2020" : 2415,
+        "population_2027" : 2343,
+        "land_area_2020" : 7.8
+    },
+    "Kirby, Hot Springs County, WY" : {
+        "name" : "Kirby",
+        "state" : "Wyoming",
+        "FIPS" : "56-42730",
+        "counties" : [
+            "Hot Springs County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 92,
+        "population_2020" : 76,
+        "population_2027" : 70,
+        "land_area_2020" : 0.15
+    },
+    "La Barge, Lincoln County, WY" : {
+        "name" : "La Barge",
+        "state" : "Wyoming",
+        "FIPS" : "56-43455",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 551,
+        "population_2020" : 394,
+        "population_2027" : 333,
+        "land_area_2020" : 0.97
+    },
+    "LaGrange, Goshen County, WY" : {
+        "name" : "LaGrange",
+        "state" : "Wyoming",
+        "FIPS" : "56-43745",
+        "counties" : [
+            "Goshen County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 448,
+        "population_2020" : 372,
+        "population_2027" : 341,
+        "land_area_2020" : 0.41
+    },
+    "Lander, Fremont County, WY" : {
+        "name" : "Lander",
+        "state" : "Wyoming",
+        "FIPS" : "56-44760",
+        "counties" : [
+            "Fremont County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7487,
+        "population_2020" : 7546,
+        "population_2027" : 7843,
+        "land_area_2020" : 4.66
+    },
+    "Laramie, Albany County, WY" : {
+        "name" : "Laramie",
+        "state" : "Wyoming",
+        "FIPS" : "56-45050",
+        "counties" : [
+            "Albany County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 30816,
+        "population_2020" : 31407,
+        "population_2027" : 32903,
+        "land_area_2020" : 17.74
+    },
+    "Lingle, Goshen County, WY" : {
+        "name" : "Lingle",
+        "state" : "Wyoming",
+        "FIPS" : "56-46790",
+        "counties" : [
+            "Goshen County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 468,
+        "population_2020" : 403,
+        "population_2027" : 378,
+        "land_area_2020" : 0.31
+    },
+    "Lost Springs, Converse County, WY" : {
+        "name" : "Lost Springs",
+        "state" : "Wyoming",
+        "FIPS" : "56-47805",
+        "counties" : [
+            "Converse County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4,
+        "population_2020" : 6,
+        "population_2027" : 9,
+        "land_area_2020" : 0.09
+    },
+    "Lovell, Big Horn County, WY" : {
+        "name" : "Lovell",
+        "state" : "Wyoming",
+        "FIPS" : "56-47950",
+        "counties" : [
+            "Big Horn County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2360,
+        "population_2020" : 2243,
+        "population_2027" : 2240,
+        "land_area_2020" : 1.1
+    },
+    "Lusk, Niobrara County, WY" : {
+        "name" : "Lusk",
+        "state" : "Wyoming",
+        "FIPS" : "56-48530",
+        "counties" : [
+            "Niobrara County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1567,
+        "population_2020" : 1541,
+        "population_2027" : 1575,
+        "land_area_2020" : 2.07
+    },
+    "Lyman, Uinta County, WY" : {
+        "name" : "Lyman",
+        "state" : "Wyoming",
+        "FIPS" : "56-48675",
+        "counties" : [
+            "Uinta County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2115,
+        "population_2020" : 2135,
+        "population_2027" : 2222,
+        "land_area_2020" : 1.71
+    },
+    "Manderson, Big Horn County, WY" : {
+        "name" : "Manderson",
+        "state" : "Wyoming",
+        "FIPS" : "56-49980",
+        "counties" : [
+            "Big Horn County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 114,
+        "population_2020" : 88,
+        "population_2027" : 77,
+        "land_area_2020" : 0.85
+    },
+    "Manville, Niobrara County, WY" : {
+        "name" : "Manville",
+        "state" : "Wyoming",
+        "FIPS" : "56-50270",
+        "counties" : [
+            "Niobrara County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 95,
+        "population_2020" : 92,
+        "population_2027" : 93,
+        "land_area_2020" : 0.27
+    },
+    "Marbleton, Sublette County, WY" : {
+        "name" : "Marbleton",
+        "state" : "Wyoming",
+        "FIPS" : "56-50415",
+        "counties" : [
+            "Sublette County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1094,
+        "population_2020" : 861,
+        "population_2027" : 766,
+        "land_area_2020" : 0.86
+    },
+    "Medicine Bow, Carbon County, WY" : {
+        "name" : "Medicine Bow",
+        "state" : "Wyoming",
+        "FIPS" : "56-51575",
+        "counties" : [
+            "Carbon County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 284,
+        "population_2020" : 245,
+        "population_2027" : 230,
+        "land_area_2020" : 3.46
+    },
+    "Meeteetse, Park County, WY" : {
+        "name" : "Meeteetse",
+        "state" : "Wyoming",
+        "FIPS" : "56-51720",
+        "counties" : [
+            "Park County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 327,
+        "population_2020" : 309,
+        "population_2027" : 307,
+        "land_area_2020" : 0.87
+    },
+    "Midwest, Natrona County, WY" : {
+        "name" : "Midwest",
+        "state" : "Wyoming",
+        "FIPS" : "56-52445",
+        "counties" : [
+            "Natrona County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 404,
+        "population_2020" : 285,
+        "population_2027" : 239,
+        "land_area_2020" : 0.43
+    },
+    "Mills, Natrona County, WY" : {
+        "name" : "Mills",
+        "state" : "Wyoming",
+        "FIPS" : "56-53460",
+        "counties" : [
+            "Natrona County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3461,
+        "population_2020" : 4034,
+        "population_2027" : 4675,
+        "land_area_2020" : 2.15
+    },
+    "Moorcroft, Crook County, WY" : {
+        "name" : "Moorcroft",
+        "state" : "Wyoming",
+        "FIPS" : "56-54185",
+        "counties" : [
+            "Crook County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1009,
+        "population_2020" : 946,
+        "population_2027" : 936,
+        "land_area_2020" : 1.26
+    },
+    "Mountain View, Uinta County, WY" : {
+        "name" : "Mountain View",
+        "state" : "Wyoming",
+        "FIPS" : "56-55345",
+        "counties" : [
+            "Uinta County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1286,
+        "population_2020" : 1278,
+        "population_2027" : 1315,
+        "land_area_2020" : 0.84
+    },
+    "Newcastle, Weston County, WY" : {
+        "name" : "Newcastle",
+        "state" : "Wyoming",
+        "FIPS" : "56-56215",
+        "counties" : [
+            "Weston County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3532,
+        "population_2020" : 3374,
+        "population_2027" : 3381,
+        "land_area_2020" : 2.55
+    },
+    "Opal, Lincoln County, WY" : {
+        "name" : "Opal",
+        "state" : "Wyoming",
+        "FIPS" : "56-57810",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 96,
+        "population_2020" : 64,
+        "population_2027" : 52,
+        "land_area_2020" : 0.39
+    },
+    "Pavillion, Fremont County, WY" : {
+        "name" : "Pavillion",
+        "state" : "Wyoming",
+        "FIPS" : "56-60130",
+        "counties" : [
+            "Fremont County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 231,
+        "population_2020" : 230,
+        "population_2027" : 237,
+        "land_area_2020" : 0.21
+    },
+    "Pine Bluffs, Laramie County, WY" : {
+        "name" : "Pine Bluffs",
+        "state" : "Wyoming",
+        "FIPS" : "56-61435",
+        "counties" : [
+            "Laramie County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1129,
+        "population_2020" : 1172,
+        "population_2027" : 1244,
+        "land_area_2020" : 3.22
+    },
+    "Pinedale, Sublette County, WY" : {
+        "name" : "Pinedale",
+        "state" : "Wyoming",
+        "FIPS" : "56-61580",
+        "counties" : [
+            "Sublette County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2030,
+        "population_2020" : 2005,
+        "population_2027" : 2055,
+        "land_area_2020" : 2.15
+    },
+    "Pine Haven, Crook County, WY" : {
+        "name" : "Pine Haven",
+        "state" : "Wyoming",
+        "FIPS" : "56-61610",
+        "counties" : [
+            "Crook County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 490,
+        "population_2020" : 493,
+        "population_2027" : 512,
+        "land_area_2020" : 1.31
+    },
+    "Powell, Park County, WY" : {
+        "name" : "Powell",
+        "state" : "Wyoming",
+        "FIPS" : "56-62450",
+        "counties" : [
+            "Park County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6314,
+        "population_2020" : 6419,
+        "population_2027" : 6713,
+        "land_area_2020" : 4.24
+    },
+    "Ranchester, Sheridan County, WY" : {
+        "name" : "Ranchester",
+        "state" : "Wyoming",
+        "FIPS" : "56-63755",
+        "counties" : [
+            "Sheridan County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 855,
+        "population_2020" : 1064,
+        "population_2027" : 1301,
+        "land_area_2020" : 0.61
+    },
+    "Rawlins, Carbon County, WY" : {
+        "name" : "Rawlins",
+        "state" : "Wyoming",
+        "FIPS" : "56-63900",
+        "counties" : [
+            "Carbon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9259,
+        "population_2020" : 8221,
+        "population_2027" : 7856,
+        "land_area_2020" : 8.24
+    },
+    "Riverside, Carbon County, WY" : {
+        "name" : "Riverside",
+        "state" : "Wyoming",
+        "FIPS" : "56-66075",
+        "counties" : [
+            "Carbon County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 52,
+        "population_2020" : 66,
+        "population_2027" : 82,
+        "land_area_2020" : 0.27
+    },
+    "Riverton, Fremont County, WY" : {
+        "name" : "Riverton",
+        "state" : "Wyoming",
+        "FIPS" : "56-66220",
+        "counties" : [
+            "Fremont County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10615,
+        "population_2020" : 10682,
+        "population_2027" : 11091,
+        "land_area_2020" : 9.86
+    },
+    "Rock River, Albany County, WY" : {
+        "name" : "Rock River",
+        "state" : "Wyoming",
+        "FIPS" : "56-67090",
+        "counties" : [
+            "Albany County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 245,
+        "population_2020" : 211,
+        "population_2027" : 198,
+        "land_area_2020" : 2.33
+    },
+    "Rock Springs, Sweetwater County, WY" : {
+        "name" : "Rock Springs",
+        "state" : "Wyoming",
+        "FIPS" : "56-67235",
+        "counties" : [
+            "Sweetwater County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23036,
+        "population_2020" : 23526,
+        "population_2027" : 24682,
+        "land_area_2020" : 19.34
+    },
+    "Rolling Hills, Converse County, WY" : {
+        "name" : "Rolling Hills",
+        "state" : "Wyoming",
+        "FIPS" : "56-67440",
+        "counties" : [
+            "Converse County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 440,
+        "population_2020" : 427,
+        "population_2027" : 432,
+        "land_area_2020" : 0.66
+    },
+    "Saratoga, Carbon County, WY" : {
+        "name" : "Saratoga",
+        "state" : "Wyoming",
+        "FIPS" : "56-68685",
+        "counties" : [
+            "Carbon County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1690,
+        "population_2020" : 1702,
+        "population_2027" : 1768,
+        "land_area_2020" : 3.4
+    },
+    "Sheridan, Sheridan County, WY" : {
+        "name" : "Sheridan",
+        "state" : "Wyoming",
+        "FIPS" : "56-69845",
+        "counties" : [
+            "Sheridan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 17444,
+        "population_2020" : 18737,
+        "population_2027" : 20392,
+        "land_area_2020" : 10.93
+    },
+    "Shoshoni, Fremont County, WY" : {
+        "name" : "Shoshoni",
+        "state" : "Wyoming",
+        "FIPS" : "56-70570",
+        "counties" : [
+            "Fremont County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 649,
+        "population_2020" : 471,
+        "population_2027" : 401,
+        "land_area_2020" : 3.58
+    },
+    "Sinclair, Carbon County, WY" : {
+        "name" : "Sinclair",
+        "state" : "Wyoming",
+        "FIPS" : "56-71150",
+        "counties" : [
+            "Carbon County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 433,
+        "population_2020" : 374,
+        "population_2027" : 351,
+        "land_area_2020" : 2.43
+    },
+    "Star Valley Ranch, Lincoln County, WY" : {
+        "name" : "Star Valley Ranch",
+        "state" : "Wyoming",
+        "FIPS" : "56-73180",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1503,
+        "population_2020" : 1866,
+        "population_2027" : 2278,
+        "land_area_2020" : 2.7
+    },
+    "Sundance, Crook County, WY" : {
+        "name" : "Sundance",
+        "state" : "Wyoming",
+        "FIPS" : "56-74195",
+        "counties" : [
+            "Crook County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1182,
+        "population_2020" : 1032,
+        "population_2027" : 976,
+        "land_area_2020" : 3.05
+    },
+    "Superior, Sweetwater County, WY" : {
+        "name" : "Superior",
+        "state" : "Wyoming",
+        "FIPS" : "56-74775",
+        "counties" : [
+            "Sweetwater County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 336,
+        "population_2020" : 184,
+        "population_2027" : 138,
+        "land_area_2020" : 1.09
+    },
+    "Ten Sleep, Washakie County, WY" : {
+        "name" : "Ten Sleep",
+        "state" : "Wyoming",
+        "FIPS" : "56-75790",
+        "counties" : [
+            "Washakie County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 260,
+        "population_2020" : 246,
+        "population_2027" : 245,
+        "land_area_2020" : 0.18
+    },
+    "Thayne, Lincoln County, WY" : {
+        "name" : "Thayne",
+        "state" : "Wyoming",
+        "FIPS" : "56-76370",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 366,
+        "population_2020" : 380,
+        "population_2027" : 403,
+        "land_area_2020" : 1.39
+    },
+    "Thermopolis, Hot Springs County, WY" : {
+        "name" : "Thermopolis",
+        "state" : "Wyoming",
+        "FIPS" : "56-76515",
+        "counties" : [
+            "Hot Springs County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3009,
+        "population_2020" : 2725,
+        "population_2027" : 2637,
+        "land_area_2020" : 2.38
+    },
+    "Torrington, Goshen County, WY" : {
+        "name" : "Torrington",
+        "state" : "Wyoming",
+        "FIPS" : "56-77530",
+        "counties" : [
+            "Goshen County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6501,
+        "population_2020" : 6119,
+        "population_2027" : 6071,
+        "land_area_2020" : 4.62
+    },
+    "Upton, Weston County, WY" : {
+        "name" : "Upton",
+        "state" : "Wyoming",
+        "FIPS" : "56-79125",
+        "counties" : [
+            "Weston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1100,
+        "population_2020" : 898,
+        "population_2027" : 816,
+        "land_area_2020" : 2.96
+    },
+    "Van Tassell, Niobrara County, WY" : {
+        "name" : "Van Tassell",
+        "state" : "Wyoming",
+        "FIPS" : "56-79705",
+        "counties" : [
+            "Niobrara County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 15,
+        "population_2020" : 22,
+        "population_2027" : 31,
+        "land_area_2020" : 1.83
+    },
+    "Wamsutter, Sweetwater County, WY" : {
+        "name" : "Wamsutter",
+        "state" : "Wyoming",
+        "FIPS" : "56-81300",
+        "counties" : [
+            "Sweetwater County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 451,
+        "population_2020" : 203,
+        "population_2027" : 142,
+        "land_area_2020" : 1.45
+    },
+    "Wheatland, Platte County, WY" : {
+        "name" : "Wheatland",
+        "state" : "Wyoming",
+        "FIPS" : "56-83040",
+        "counties" : [
+            "Platte County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3627,
+        "population_2020" : 3588,
+        "population_2027" : 3681,
+        "land_area_2020" : 4.1
+    },
+    "Worland, Washakie County, WY" : {
+        "name" : "Worland",
+        "state" : "Wyoming",
+        "FIPS" : "56-84925",
+        "counties" : [
+            "Washakie County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5487,
+        "population_2020" : 4773,
+        "population_2027" : 4504,
+        "land_area_2020" : 4.56
+    },
+    "Wright, Campbell County, WY" : {
+        "name" : "Wright",
+        "state" : "Wyoming",
+        "FIPS" : "56-85015",
+        "counties" : [
+            "Campbell County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1807,
+        "population_2020" : 1644,
+        "population_2027" : 1595,
+        "land_area_2020" : 2.85
+    },
+    "Yoder, Goshen County, WY" : {
+        "name" : "Yoder",
+        "state" : "Wyoming",
+        "FIPS" : "56-86665",
+        "counties" : [
+            "Goshen County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 151,
+        "population_2020" : 131,
+        "population_2027" : 123,
+        "land_area_2020" : 0.21
+    }
+}

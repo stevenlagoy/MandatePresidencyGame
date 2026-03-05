@@ -1,0 +1,1666 @@
+{
+    "Alberton, Mineral County, MT" : {
+        "name" : "Alberton",
+        "state" : "Montana",
+        "FIPS" : "30-00700",
+        "counties" : [
+            "Mineral County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 420,
+        "population_2020" : 452,
+        "population_2027" : 519,
+        "land_area_2020" : 0.57
+    },
+    "Anaconda, Deer Lodge County, MT" : {
+        "name" : "Anaconda",
+        "state" : "Montana",
+        "FIPS" : "None",
+        "counties" : [
+            "Deer Lodge County"
+        ],
+        "type_class" : "Consolidated City-County",
+        "population_2010" : 9298,
+        "population_2020" : 9421,
+        "population_2027" : 10353,
+        "land_area_2020" : 736.53
+    },
+    "Bainville, Roosevelt County, MT" : {
+        "name" : "Bainville",
+        "state" : "Montana",
+        "FIPS" : "30-03400",
+        "counties" : [
+            "Roosevelt County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 208,
+        "population_2020" : 271,
+        "population_2027" : 363,
+        "land_area_2020" : 1.02
+    },
+    "Baker, Fallon County, MT" : {
+        "name" : "Baker",
+        "state" : "Montana",
+        "FIPS" : "30-03475",
+        "counties" : [
+            "Fallon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1741,
+        "population_2020" : 1802,
+        "population_2027" : 2010,
+        "land_area_2020" : 0.97
+    },
+    "Bearcreek, Carbon County, MT" : {
+        "name" : "Bearcreek",
+        "state" : "Montana",
+        "FIPS" : "30-04300",
+        "counties" : [
+            "Carbon County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 79,
+        "population_2020" : 91,
+        "population_2027" : 110,
+        "land_area_2020" : 0.12
+    },
+    "Belgrade, Gallatin County, MT" : {
+        "name" : "Belgrade",
+        "state" : "Montana",
+        "FIPS" : "30-04975",
+        "counties" : [
+            "Gallatin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7389,
+        "population_2020" : 10460,
+        "population_2027" : 15096,
+        "land_area_2020" : 3.25
+    },
+    "Belt, Cascade County, MT" : {
+        "name" : "Belt",
+        "state" : "Montana",
+        "FIPS" : "30-05275",
+        "counties" : [
+            "Cascade County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 597,
+        "population_2020" : 510,
+        "population_2027" : 502,
+        "land_area_2020" : 0.35
+    },
+    "Big Sandy, Chouteau County, MT" : {
+        "name" : "Big Sandy",
+        "state" : "Montana",
+        "FIPS" : "30-06250",
+        "counties" : [
+            "Chouteau County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 598,
+        "population_2020" : 605,
+        "population_2027" : 664,
+        "land_area_2020" : 0.44
+    },
+    "Big Timber, Sweet Grass County, MT" : {
+        "name" : "Big Timber",
+        "state" : "Montana",
+        "FIPS" : "30-06475",
+        "counties" : [
+            "Sweet Grass County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1641,
+        "population_2020" : 1650,
+        "population_2027" : 1804,
+        "land_area_2020" : 0.92
+    },
+    "Billings, Yellowstone County, MT" : {
+        "name" : "Billings",
+        "state" : "Montana",
+        "FIPS" : "30-06550",
+        "counties" : [
+            "Yellowstone County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 104170,
+        "population_2020" : 117116,
+        "population_2027" : 138908,
+        "land_area_2020" : 43.41
+    },
+    "Boulder, Jefferson County, MT" : {
+        "name" : "Boulder",
+        "state" : "Montana",
+        "FIPS" : "30-08575",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1183,
+        "population_2020" : 1201,
+        "population_2027" : 1322,
+        "land_area_2020" : 1.13
+    },
+    "Bozeman, Gallatin County, MT" : {
+        "name" : "Bozeman",
+        "state" : "Montana",
+        "FIPS" : "30-08950",
+        "counties" : [
+            "Gallatin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 37280,
+        "population_2020" : 53293,
+        "population_2027" : 77629,
+        "land_area_2020" : 19.12
+    },
+    "Bridger, Carbon County, MT" : {
+        "name" : "Bridger",
+        "state" : "Montana",
+        "FIPS" : "30-09500",
+        "counties" : [
+            "Carbon County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 708,
+        "population_2020" : 662,
+        "population_2027" : 689,
+        "land_area_2020" : 0.8
+    },
+    "Broadus, Powder River County, MT" : {
+        "name" : "Broadus",
+        "state" : "Montana",
+        "FIPS" : "30-09700",
+        "counties" : [
+            "Powder River County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 468,
+        "population_2020" : 456,
+        "population_2027" : 488,
+        "land_area_2020" : 0.34
+    },
+    "Broadview, Yellowstone County, MT" : {
+        "name" : "Broadview",
+        "state" : "Montana",
+        "FIPS" : "30-09775",
+        "counties" : [
+            "Yellowstone County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 192,
+        "population_2020" : 139,
+        "population_2027" : 125,
+        "land_area_2020" : 0.26
+    },
+    "Browning, Glacier County, MT" : {
+        "name" : "Browning",
+        "state" : "Montana",
+        "FIPS" : "30-10375",
+        "counties" : [
+            "Glacier County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1016,
+        "population_2020" : 1018,
+        "population_2027" : 1110,
+        "land_area_2020" : 0.27
+    },
+    "Butte, Silver Bow County, MT" : {
+        "name" : "Butte",
+        "state" : "Montana",
+        "FIPS" : "None",
+        "counties" : [
+            "Silver Bow County"
+        ],
+        "type_class" : "Consolidated City-County",
+        "population_2010" : 33525,
+        "population_2020" : 34494,
+        "population_2027" : 38320,
+        "land_area_2020" : 716.25
+    },
+    "Cascade, Cascade County, MT" : {
+        "name" : "Cascade",
+        "state" : "Montana",
+        "FIPS" : "30-12775",
+        "counties" : [
+            "Cascade County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 685,
+        "population_2020" : 600,
+        "population_2027" : 599,
+        "land_area_2020" : 0.52
+    },
+    "Chester, Liberty County, MT" : {
+        "name" : "Chester",
+        "state" : "Montana",
+        "FIPS" : "30-14200",
+        "counties" : [
+            "Liberty County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 847,
+        "population_2020" : 847,
+        "population_2027" : 922,
+        "land_area_2020" : 0.48
+    },
+    "Chinook, Blaine County, MT" : {
+        "name" : "Chinook",
+        "state" : "Montana",
+        "FIPS" : "30-14575",
+        "counties" : [
+            "Blaine County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1203,
+        "population_2020" : 1185,
+        "population_2027" : 1277,
+        "land_area_2020" : 0.51
+    },
+    "Choteau, Teton County, MT" : {
+        "name" : "Choteau",
+        "state" : "Montana",
+        "FIPS" : "30-14650",
+        "counties" : [
+            "Teton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1684,
+        "population_2020" : 1721,
+        "population_2027" : 1903,
+        "land_area_2020" : 1.83
+    },
+    "Circle, McCone County, MT" : {
+        "name" : "Circle",
+        "state" : "Montana",
+        "FIPS" : "30-14950",
+        "counties" : [
+            "McCone County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 615,
+        "population_2020" : 591,
+        "population_2027" : 626,
+        "land_area_2020" : 0.78
+    },
+    "Clyde Park, Park County, MT" : {
+        "name" : "Clyde Park",
+        "state" : "Montana",
+        "FIPS" : "30-15550",
+        "counties" : [
+            "Park County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 288,
+        "population_2020" : 332,
+        "population_2027" : 402,
+        "land_area_2020" : 0.32
+    },
+    "Colstrip, Rosebud County, MT" : {
+        "name" : "Colstrip",
+        "state" : "Montana",
+        "FIPS" : "30-16525",
+        "counties" : [
+            "Rosebud County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2214,
+        "population_2020" : 2096,
+        "population_2027" : 2200,
+        "land_area_2020" : 4.47
+    },
+    "Columbia Falls, Flathead County, MT" : {
+        "name" : "Columbia Falls",
+        "state" : "Montana",
+        "FIPS" : "30-16600",
+        "counties" : [
+            "Flathead County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4688,
+        "population_2020" : 5308,
+        "population_2027" : 6330,
+        "land_area_2020" : 2.05
+    },
+    "Columbus, Stillwater County, MT" : {
+        "name" : "Columbus",
+        "state" : "Montana",
+        "FIPS" : "30-16825",
+        "counties" : [
+            "Stillwater County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1893,
+        "population_2020" : 1857,
+        "population_2027" : 1996,
+        "land_area_2020" : 1.32
+    },
+    "Conrad, Pondera County, MT" : {
+        "name" : "Conrad",
+        "state" : "Montana",
+        "FIPS" : "30-17275",
+        "counties" : [
+            "Pondera County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2570,
+        "population_2020" : 2318,
+        "population_2027" : 2358,
+        "land_area_2020" : 1.25
+    },
+    "Culbertson, Roosevelt County, MT" : {
+        "name" : "Culbertson",
+        "state" : "Montana",
+        "FIPS" : "30-18475",
+        "counties" : [
+            "Roosevelt County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 714,
+        "population_2020" : 753,
+        "population_2027" : 851,
+        "land_area_2020" : 0.6
+    },
+    "Cut Bank, Glacier County, MT" : {
+        "name" : "Cut Bank",
+        "state" : "Montana",
+        "FIPS" : "30-18775",
+        "counties" : [
+            "Glacier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2869,
+        "population_2020" : 3056,
+        "population_2027" : 3481,
+        "land_area_2020" : 0.99
+    },
+    "Darby, Ravalli County, MT" : {
+        "name" : "Darby",
+        "state" : "Montana",
+        "FIPS" : "30-19300",
+        "counties" : [
+            "Ravalli County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 720,
+        "population_2020" : 783,
+        "population_2027" : 906,
+        "land_area_2020" : 0.58
+    },
+    "Deer Lodge, Powell County, MT" : {
+        "name" : "Deer Lodge",
+        "state" : "Montana",
+        "FIPS" : "30-19825",
+        "counties" : [
+            "Powell County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3111,
+        "population_2020" : 2938,
+        "population_2027" : 3078,
+        "land_area_2020" : 1.44
+    },
+    "Denton, Fergus County, MT" : {
+        "name" : "Denton",
+        "state" : "Montana",
+        "FIPS" : "30-20425",
+        "counties" : [
+            "Fergus County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 255,
+        "population_2020" : 205,
+        "population_2027" : 195,
+        "land_area_2020" : 0.76
+    },
+    "Dillon, Beaverhead County, MT" : {
+        "name" : "Dillon",
+        "state" : "Montana",
+        "FIPS" : "30-20800",
+        "counties" : [
+            "Beaverhead County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4134,
+        "population_2020" : 3880,
+        "population_2027" : 4049,
+        "land_area_2020" : 1.76
+    },
+    "Dodson, Phillips County, MT" : {
+        "name" : "Dodson",
+        "state" : "Montana",
+        "FIPS" : "30-21025",
+        "counties" : [
+            "Phillips County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 124,
+        "population_2020" : 125,
+        "population_2027" : 137,
+        "land_area_2020" : 0.19
+    },
+    "Drummond, Granite County, MT" : {
+        "name" : "Drummond",
+        "state" : "Montana",
+        "FIPS" : "30-21850",
+        "counties" : [
+            "Granite County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 309,
+        "population_2020" : 272,
+        "population_2027" : 273,
+        "land_area_2020" : 0.53
+    },
+    "Dutton, Teton County, MT" : {
+        "name" : "Dutton",
+        "state" : "Montana",
+        "FIPS" : "30-22600",
+        "counties" : [
+            "Teton County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 316,
+        "population_2020" : 303,
+        "population_2027" : 321,
+        "land_area_2020" : 0.31
+    },
+    "East Helena, Lewis and Clark County, MT" : {
+        "name" : "East Helena",
+        "state" : "Montana",
+        "FIPS" : "30-23125",
+        "counties" : [
+            "Lewis and Clark County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1984,
+        "population_2020" : 1944,
+        "population_2027" : 2088,
+        "land_area_2020" : 1.73
+    },
+    "Ekalaka, Carter County, MT" : {
+        "name" : "Ekalaka",
+        "state" : "Montana",
+        "FIPS" : "30-23650",
+        "counties" : [
+            "Carter County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 332,
+        "population_2020" : 399,
+        "population_2027" : 499,
+        "land_area_2020" : 1.04
+    },
+    "Ennis, Madison County, MT" : {
+        "name" : "Ennis",
+        "state" : "Montana",
+        "FIPS" : "30-24475",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 838,
+        "population_2020" : 917,
+        "population_2027" : 1066,
+        "land_area_2020" : 0.77
+    },
+    "Eureka, Lincoln County, MT" : {
+        "name" : "Eureka",
+        "state" : "Montana",
+        "FIPS" : "30-24850",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1037,
+        "population_2020" : 1380,
+        "population_2027" : 1882,
+        "land_area_2020" : 1.01
+    },
+    "Fairfield, Teton County, MT" : {
+        "name" : "Fairfield",
+        "state" : "Montana",
+        "FIPS" : "30-25225",
+        "counties" : [
+            "Teton County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 708,
+        "population_2020" : 759,
+        "population_2027" : 869,
+        "land_area_2020" : 0.31
+    },
+    "Fairview, Richland County, MT" : {
+        "name" : "Fairview",
+        "state" : "Montana",
+        "FIPS" : "30-25300",
+        "counties" : [
+            "Richland County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 840,
+        "population_2020" : 896,
+        "population_2027" : 1022,
+        "land_area_2020" : 0.97
+    },
+    "Flaxville, Daniels County, MT" : {
+        "name" : "Flaxville",
+        "state" : "Montana",
+        "FIPS" : "30-26800",
+        "counties" : [
+            "Daniels County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 71,
+        "population_2020" : 63,
+        "population_2027" : 63,
+        "land_area_2020" : 0.1
+    },
+    "Forsyth, Rosebud County, MT" : {
+        "name" : "Forsyth",
+        "state" : "Montana",
+        "FIPS" : "30-27700",
+        "counties" : [
+            "Rosebud County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1777,
+        "population_2020" : 1647,
+        "population_2027" : 1705,
+        "land_area_2020" : 0.99
+    },
+    "Fort Benton, Chouteau County, MT" : {
+        "name" : "Fort Benton",
+        "state" : "Montana",
+        "FIPS" : "30-28000",
+        "counties" : [
+            "Chouteau County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1464,
+        "population_2020" : 1449,
+        "population_2027" : 1567,
+        "land_area_2020" : 2.07
+    },
+    "Fort Peck, Valley County, MT" : {
+        "name" : "Fort Peck",
+        "state" : "Montana",
+        "FIPS" : "30-28450",
+        "counties" : [
+            "Valley County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 233,
+        "population_2020" : 239,
+        "population_2027" : 265,
+        "land_area_2020" : 0.86
+    },
+    "Froid, Roosevelt County, MT" : {
+        "name" : "Froid",
+        "state" : "Montana",
+        "FIPS" : "30-29500",
+        "counties" : [
+            "Roosevelt County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 185,
+        "population_2020" : 195,
+        "population_2027" : 220,
+        "land_area_2020" : 0.28
+    },
+    "Fromberg, Carbon County, MT" : {
+        "name" : "Fromberg",
+        "state" : "Montana",
+        "FIPS" : "30-29575",
+        "counties" : [
+            "Carbon County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 438,
+        "population_2020" : 392,
+        "population_2027" : 397,
+        "land_area_2020" : 0.48
+    },
+    "Geraldine, Chouteau County, MT" : {
+        "name" : "Geraldine",
+        "state" : "Montana",
+        "FIPS" : "30-30400",
+        "counties" : [
+            "Chouteau County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 261,
+        "population_2020" : 207,
+        "population_2027" : 195,
+        "land_area_2020" : 0.52
+    },
+    "Glasgow, Valley County, MT" : {
+        "name" : "Glasgow",
+        "state" : "Montana",
+        "FIPS" : "30-31075",
+        "counties" : [
+            "Valley County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3250,
+        "population_2020" : 3202,
+        "population_2027" : 3451,
+        "land_area_2020" : 1.43
+    },
+    "Glendive, Dawson County, MT" : {
+        "name" : "Glendive",
+        "state" : "Montana",
+        "FIPS" : "30-31450",
+        "counties" : [
+            "Dawson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4935,
+        "population_2020" : 4873,
+        "population_2027" : 5261,
+        "land_area_2020" : 3.32
+    },
+    "Grass Range, Fergus County, MT" : {
+        "name" : "Grass Range",
+        "state" : "Montana",
+        "FIPS" : "30-32575",
+        "counties" : [
+            "Fergus County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 110,
+        "population_2020" : 110,
+        "population_2027" : 120,
+        "land_area_2020" : 0.15
+    },
+    "Great Falls, Cascade County, MT" : {
+        "name" : "Great Falls",
+        "state" : "Montana",
+        "FIPS" : "30-32800",
+        "counties" : [
+            "Cascade County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 58505,
+        "population_2020" : 60442,
+        "population_2027" : 67341,
+        "land_area_2020" : 21.79
+    },
+    "Hamilton, Ravalli County, MT" : {
+        "name" : "Hamilton",
+        "state" : "Montana",
+        "FIPS" : "30-33775",
+        "counties" : [
+            "Ravalli County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4348,
+        "population_2020" : 4659,
+        "population_2027" : 5330,
+        "land_area_2020" : 2.53
+    },
+    "Hardin, Big Horn County, MT" : {
+        "name" : "Hardin",
+        "state" : "Montana",
+        "FIPS" : "30-34225",
+        "counties" : [
+            "Big Horn County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3505,
+        "population_2020" : 3818,
+        "population_2027" : 4421,
+        "land_area_2020" : 2.57
+    },
+    "Harlem, Blaine County, MT" : {
+        "name" : "Harlem",
+        "state" : "Montana",
+        "FIPS" : "30-34375",
+        "counties" : [
+            "Blaine County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 808,
+        "population_2020" : 769,
+        "population_2027" : 810,
+        "land_area_2020" : 0.43
+    },
+    "Harlowton, Wheatland County, MT" : {
+        "name" : "Harlowton",
+        "state" : "Montana",
+        "FIPS" : "30-34450",
+        "counties" : [
+            "Wheatland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 997,
+        "population_2020" : 955,
+        "population_2027" : 1010,
+        "land_area_2020" : 0.58
+    },
+    "Havre, Hill County, MT" : {
+        "name" : "Havre",
+        "state" : "Montana",
+        "FIPS" : "30-35050",
+        "counties" : [
+            "Hill County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9310,
+        "population_2020" : 9362,
+        "population_2027" : 10234,
+        "land_area_2020" : 3.28
+    },
+    "Helena, Lewis and Clark County, MT" : {
+        "name" : "Helena",
+        "state" : "Montana",
+        "FIPS" : "30-35600",
+        "counties" : [
+            "Lewis and Clark County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 28190,
+        "population_2020" : 32091,
+        "population_2027" : 38431,
+        "land_area_2020" : 16.35
+    },
+    "Hingham, Hill County, MT" : {
+        "name" : "Hingham",
+        "state" : "Montana",
+        "FIPS" : "30-36400",
+        "counties" : [
+            "Hill County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 118,
+        "population_2020" : 131,
+        "population_2027" : 154,
+        "land_area_2020" : 0.17
+    },
+    "Hobson, Judith Basin County, MT" : {
+        "name" : "Hobson",
+        "state" : "Montana",
+        "FIPS" : "30-36700",
+        "counties" : [
+            "Judith Basin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 215,
+        "population_2020" : 179,
+        "population_2027" : 173,
+        "land_area_2020" : 0.24
+    },
+    "Hot Springs, Sanders County, MT" : {
+        "name" : "Hot Springs",
+        "state" : "Montana",
+        "FIPS" : "30-37825",
+        "counties" : [
+            "Sanders County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 544,
+        "population_2020" : 557,
+        "population_2027" : 617,
+        "land_area_2020" : 0.38
+    },
+    "Hysham, Treasure County, MT" : {
+        "name" : "Hysham",
+        "state" : "Montana",
+        "FIPS" : "30-38350",
+        "counties" : [
+            "Treasure County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 312,
+        "population_2020" : 276,
+        "population_2027" : 277,
+        "land_area_2020" : 0.21
+    },
+    "Ismay, Custer County, MT" : {
+        "name" : "Ismay",
+        "state" : "Montana",
+        "FIPS" : "30-38950",
+        "counties" : [
+            "Custer County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 19,
+        "population_2020" : 17,
+        "population_2027" : 17,
+        "land_area_2020" : 0.42
+    },
+    "Joliet, Carbon County, MT" : {
+        "name" : "Joliet",
+        "state" : "Montana",
+        "FIPS" : "30-39700",
+        "counties" : [
+            "Carbon County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 595,
+        "population_2020" : 577,
+        "population_2027" : 615,
+        "land_area_2020" : 0.3
+    },
+    "Jordan, Garfield County, MT" : {
+        "name" : "Jordan",
+        "state" : "Montana",
+        "FIPS" : "30-39925",
+        "counties" : [
+            "Garfield County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 343,
+        "population_2020" : 356,
+        "population_2027" : 398,
+        "land_area_2020" : 0.34
+    },
+    "Judith Gap, Wheatland County, MT" : {
+        "name" : "Judith Gap",
+        "state" : "Montana",
+        "FIPS" : "30-40000",
+        "counties" : [
+            "Wheatland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 126,
+        "population_2020" : 110,
+        "population_2027" : 110,
+        "land_area_2020" : 0.38
+    },
+    "Kalispell, Flathead County, MT" : {
+        "name" : "Kalispell",
+        "state" : "Montana",
+        "FIPS" : "30-40075",
+        "counties" : [
+            "Flathead County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 19927,
+        "population_2020" : 24558,
+        "population_2027" : 31348,
+        "land_area_2020" : 11.64
+    },
+    "Kevin, Toole County, MT" : {
+        "name" : "Kevin",
+        "state" : "Montana",
+        "FIPS" : "30-40525",
+        "counties" : [
+            "Toole County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 154,
+        "population_2020" : 154,
+        "population_2027" : 168,
+        "land_area_2020" : 0.34
+    },
+    "Laurel, Yellowstone County, MT" : {
+        "name" : "Laurel",
+        "state" : "Montana",
+        "FIPS" : "30-42700",
+        "counties" : [
+            "Yellowstone County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6718,
+        "population_2020" : 7222,
+        "population_2027" : 8282,
+        "land_area_2020" : 2.14
+    },
+    "Lavina, Golden Valley County, MT" : {
+        "name" : "Lavina",
+        "state" : "Montana",
+        "FIPS" : "30-42850",
+        "counties" : [
+            "Golden Valley County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 187,
+        "population_2020" : 136,
+        "population_2027" : 122,
+        "land_area_2020" : 1.0
+    },
+    "Lewistown, Fergus County, MT" : {
+        "name" : "Lewistown",
+        "state" : "Montana",
+        "FIPS" : "30-43375",
+        "counties" : [
+            "Fergus County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5901,
+        "population_2020" : 5952,
+        "population_2027" : 6520,
+        "land_area_2020" : 5.32
+    },
+    "Libby, Lincoln County, MT" : {
+        "name" : "Libby",
+        "state" : "Montana",
+        "FIPS" : "30-43450",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2628,
+        "population_2020" : 2775,
+        "population_2027" : 3141,
+        "land_area_2020" : 1.91
+    },
+    "Lima, Beaverhead County, MT" : {
+        "name" : "Lima",
+        "state" : "Montana",
+        "FIPS" : "30-43525",
+        "counties" : [
+            "Beaverhead County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 221,
+        "population_2020" : 212,
+        "population_2027" : 224,
+        "land_area_2020" : 0.53
+    },
+    "Livingston, Park County, MT" : {
+        "name" : "Livingston",
+        "state" : "Montana",
+        "FIPS" : "30-43975",
+        "counties" : [
+            "Park County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7044,
+        "population_2020" : 8040,
+        "population_2027" : 9648,
+        "land_area_2020" : 6.02
+    },
+    "Lodge Grass, Big Horn County, MT" : {
+        "name" : "Lodge Grass",
+        "state" : "Montana",
+        "FIPS" : "30-44275",
+        "counties" : [
+            "Big Horn County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 428,
+        "population_2020" : 441,
+        "population_2027" : 490,
+        "land_area_2020" : 0.24
+    },
+    "Malta, Phillips County, MT" : {
+        "name" : "Malta",
+        "state" : "Montana",
+        "FIPS" : "30-47425",
+        "counties" : [
+            "Phillips County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1997,
+        "population_2020" : 1860,
+        "population_2027" : 1931,
+        "land_area_2020" : 1.06
+    },
+    "Manhattan, Gallatin County, MT" : {
+        "name" : "Manhattan",
+        "state" : "Montana",
+        "FIPS" : "30-47575",
+        "counties" : [
+            "Gallatin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1520,
+        "population_2020" : 2086,
+        "population_2027" : 2925,
+        "land_area_2020" : 1.93
+    },
+    "Medicine Lake, Sheridan County, MT" : {
+        "name" : "Medicine Lake",
+        "state" : "Montana",
+        "FIPS" : "30-48775",
+        "counties" : [
+            "Sheridan County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 225,
+        "population_2020" : 244,
+        "population_2027" : 282,
+        "land_area_2020" : 0.4
+    },
+    "Melstone, Musselshell County, MT" : {
+        "name" : "Melstone",
+        "state" : "Montana",
+        "FIPS" : "30-49000",
+        "counties" : [
+            "Musselshell County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 96,
+        "population_2020" : 126,
+        "population_2027" : 170,
+        "land_area_2020" : 0.69
+    },
+    "Miles City, Custer County, MT" : {
+        "name" : "Miles City",
+        "state" : "Montana",
+        "FIPS" : "30-49525",
+        "counties" : [
+            "Custer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8410,
+        "population_2020" : 8354,
+        "population_2027" : 9055,
+        "land_area_2020" : 3.34
+    },
+    "Missoula, Missoula County, MT" : {
+        "name" : "Missoula",
+        "state" : "Montana",
+        "FIPS" : "30-50200",
+        "counties" : [
+            "Missoula County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 66788,
+        "population_2020" : 73489,
+        "population_2027" : 85747,
+        "land_area_2020" : 27.51
+    },
+    "Moore, Fergus County, MT" : {
+        "name" : "Moore",
+        "state" : "Montana",
+        "FIPS" : "30-51550",
+        "counties" : [
+            "Fergus County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 193,
+        "population_2020" : 194,
+        "population_2027" : 212,
+        "land_area_2020" : 0.24
+    },
+    "Nashua, Valley County, MT" : {
+        "name" : "Nashua",
+        "state" : "Montana",
+        "FIPS" : "30-52900",
+        "counties" : [
+            "Valley County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 290,
+        "population_2020" : 301,
+        "population_2027" : 336,
+        "land_area_2020" : 0.66
+    },
+    "Neihart, Cascade County, MT" : {
+        "name" : "Neihart",
+        "state" : "Montana",
+        "FIPS" : "30-53200",
+        "counties" : [
+            "Cascade County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 51,
+        "population_2020" : 43,
+        "population_2027" : 42,
+        "land_area_2020" : 1.99
+    },
+    "Opheim, Valley County, MT" : {
+        "name" : "Opheim",
+        "state" : "Montana",
+        "FIPS" : "30-55525",
+        "counties" : [
+            "Valley County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 85,
+        "population_2020" : 75,
+        "population_2027" : 75,
+        "land_area_2020" : 0.21
+    },
+    "Outlook, Sheridan County, MT" : {
+        "name" : "Outlook",
+        "state" : "Montana",
+        "FIPS" : "30-56050",
+        "counties" : [
+            "Sheridan County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 47,
+        "population_2020" : 84,
+        "population_2027" : 155,
+        "land_area_2020" : 1.3
+    },
+    "Philipsburg, Granite County, MT" : {
+        "name" : "Philipsburg",
+        "state" : "Montana",
+        "FIPS" : "30-57175",
+        "counties" : [
+            "Granite County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 820,
+        "population_2020" : 841,
+        "population_2027" : 932,
+        "land_area_2020" : 0.8
+    },
+    "Pinesdale, Ravalli County, MT" : {
+        "name" : "Pinesdale",
+        "state" : "Montana",
+        "FIPS" : "30-57700",
+        "counties" : [
+            "Ravalli County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 917,
+        "population_2020" : 805,
+        "population_2027" : 805,
+        "land_area_2020" : 1.29
+    },
+    "Plains, Sanders County, MT" : {
+        "name" : "Plains",
+        "state" : "Montana",
+        "FIPS" : "30-58150",
+        "counties" : [
+            "Sanders County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1048,
+        "population_2020" : 1106,
+        "population_2027" : 1251,
+        "land_area_2020" : 0.59
+    },
+    "Plentywood, Sheridan County, MT" : {
+        "name" : "Plentywood",
+        "state" : "Montana",
+        "FIPS" : "30-58375",
+        "counties" : [
+            "Sheridan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1734,
+        "population_2020" : 1669,
+        "population_2027" : 1771,
+        "land_area_2020" : 1.17
+    },
+    "Plevna, Fallon County, MT" : {
+        "name" : "Plevna",
+        "state" : "Montana",
+        "FIPS" : "30-58450",
+        "counties" : [
+            "Fallon County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 162,
+        "population_2020" : 179,
+        "population_2027" : 210,
+        "land_area_2020" : 0.59
+    },
+    "Polson, Lake County, MT" : {
+        "name" : "Polson",
+        "state" : "Montana",
+        "FIPS" : "30-58750",
+        "counties" : [
+            "Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4488,
+        "population_2020" : 5148,
+        "population_2027" : 6202,
+        "land_area_2020" : 4.14
+    },
+    "Poplar, Roosevelt County, MT" : {
+        "name" : "Poplar",
+        "state" : "Montana",
+        "FIPS" : "30-58975",
+        "counties" : [
+            "Roosevelt County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 810,
+        "population_2020" : 758,
+        "population_2027" : 789,
+        "land_area_2020" : 0.28
+    },
+    "Red Lodge, Carbon County, MT" : {
+        "name" : "Red Lodge",
+        "state" : "Montana",
+        "FIPS" : "30-61525",
+        "counties" : [
+            "Carbon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2125,
+        "population_2020" : 2257,
+        "population_2027" : 2565,
+        "land_area_2020" : 2.8
+    },
+    "Rexford, Lincoln County, MT" : {
+        "name" : "Rexford",
+        "state" : "Montana",
+        "FIPS" : "30-62200",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 105,
+        "population_2020" : 78,
+        "population_2027" : 71,
+        "land_area_2020" : 0.1
+    },
+    "Richey, Dawson County, MT" : {
+        "name" : "Richey",
+        "state" : "Montana",
+        "FIPS" : "30-62275",
+        "counties" : [
+            "Dawson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 177,
+        "population_2020" : 164,
+        "population_2027" : 170,
+        "land_area_2020" : 0.24
+    },
+    "Ronan, Lake County, MT" : {
+        "name" : "Ronan",
+        "state" : "Montana",
+        "FIPS" : "30-64150",
+        "counties" : [
+            "Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1871,
+        "population_2020" : 1955,
+        "population_2027" : 2196,
+        "land_area_2020" : 1.19
+    },
+    "Roundup, Musselshell County, MT" : {
+        "name" : "Roundup",
+        "state" : "Montana",
+        "FIPS" : "30-64525",
+        "counties" : [
+            "Musselshell County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1788,
+        "population_2020" : 1742,
+        "population_2027" : 1863,
+        "land_area_2020" : 1.34
+    },
+    "Ryegate, Golden Valley County, MT" : {
+        "name" : "Ryegate",
+        "state" : "Montana",
+        "FIPS" : "30-64975",
+        "counties" : [
+            "Golden Valley County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 245,
+        "population_2020" : 223,
+        "population_2027" : 228,
+        "land_area_2020" : 0.69
+    },
+    "Saco, Phillips County, MT" : {
+        "name" : "Saco",
+        "state" : "Montana",
+        "FIPS" : "30-65050",
+        "counties" : [
+            "Phillips County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 197,
+        "population_2020" : 159,
+        "population_2027" : 151,
+        "land_area_2020" : 0.33
+    },
+    "Scobey, Daniels County, MT" : {
+        "name" : "Scobey",
+        "state" : "Montana",
+        "FIPS" : "30-66925",
+        "counties" : [
+            "Daniels County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1017,
+        "population_2020" : 999,
+        "population_2027" : 1075,
+        "land_area_2020" : 0.76
+    },
+    "Shelby, Toole County, MT" : {
+        "name" : "Shelby",
+        "state" : "Montana",
+        "FIPS" : "30-67450",
+        "counties" : [
+            "Toole County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3376,
+        "population_2020" : 3169,
+        "population_2027" : 3307,
+        "land_area_2020" : 6.03
+    },
+    "Sheridan, Madison County, MT" : {
+        "name" : "Sheridan",
+        "state" : "Montana",
+        "FIPS" : "30-67600",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 642,
+        "population_2020" : 694,
+        "population_2027" : 799,
+        "land_area_2020" : 1.02
+    },
+    "Sidney, Richland County, MT" : {
+        "name" : "Sidney",
+        "state" : "Montana",
+        "FIPS" : "30-67900",
+        "counties" : [
+            "Richland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5191,
+        "population_2020" : 6346,
+        "population_2027" : 8047,
+        "land_area_2020" : 2.66
+    },
+    "St. Ignatius, Lake County, MT" : {
+        "name" : "St. Ignatius",
+        "state" : "Montana",
+        "FIPS" : "30-65275",
+        "counties" : [
+            "Lake County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 842,
+        "population_2020" : 768,
+        "population_2027" : 787,
+        "land_area_2020" : 0.56
+    },
+    "Stanford, Judith Basin County, MT" : {
+        "name" : "Stanford",
+        "state" : "Montana",
+        "FIPS" : "30-70675",
+        "counties" : [
+            "Judith Basin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 401,
+        "population_2020" : 403,
+        "population_2027" : 440,
+        "land_area_2020" : 0.44
+    },
+    "Stevensville, Ravalli County, MT" : {
+        "name" : "Stevensville",
+        "state" : "Montana",
+        "FIPS" : "30-71200",
+        "counties" : [
+            "Ravalli County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1809,
+        "population_2020" : 2002,
+        "population_2027" : 2346,
+        "land_area_2020" : 0.98
+    },
+    "Sunburst, Toole County, MT" : {
+        "name" : "Sunburst",
+        "state" : "Montana",
+        "FIPS" : "30-72175",
+        "counties" : [
+            "Toole County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 375,
+        "population_2020" : 333,
+        "population_2027" : 335,
+        "land_area_2020" : 0.24
+    },
+    "Superior, Mineral County, MT" : {
+        "name" : "Superior",
+        "state" : "Montana",
+        "FIPS" : "30-72625",
+        "counties" : [
+            "Mineral County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 812,
+        "population_2020" : 830,
+        "population_2027" : 918,
+        "land_area_2020" : 1.04
+    },
+    "Terry, Prairie County, MT" : {
+        "name" : "Terry",
+        "state" : "Montana",
+        "FIPS" : "30-73675",
+        "counties" : [
+            "Prairie County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 605,
+        "population_2020" : 562,
+        "population_2027" : 583,
+        "land_area_2020" : 0.71
+    },
+    "Thompson Falls, Sanders County, MT" : {
+        "name" : "Thompson Falls",
+        "state" : "Montana",
+        "FIPS" : "30-73825",
+        "counties" : [
+            "Sanders County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1313,
+        "population_2020" : 1336,
+        "population_2027" : 1473,
+        "land_area_2020" : 1.73
+    },
+    "Three Forks, Gallatin County, MT" : {
+        "name" : "Three Forks",
+        "state" : "Montana",
+        "FIPS" : "30-73975",
+        "counties" : [
+            "Gallatin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1869,
+        "population_2020" : 1989,
+        "population_2027" : 2264,
+        "land_area_2020" : 1.44
+    },
+    "Townsend, Broadwater County, MT" : {
+        "name" : "Townsend",
+        "state" : "Montana",
+        "FIPS" : "30-74575",
+        "counties" : [
+            "Broadwater County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1878,
+        "population_2020" : 1787,
+        "population_2027" : 1882,
+        "land_area_2020" : 1.58
+    },
+    "Troy, Lincoln County, MT" : {
+        "name" : "Troy",
+        "state" : "Montana",
+        "FIPS" : "30-75025",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 938,
+        "population_2020" : 797,
+        "population_2027" : 782,
+        "land_area_2020" : 0.76
+    },
+    "Twin Bridges, Madison County, MT" : {
+        "name" : "Twin Bridges",
+        "state" : "Montana",
+        "FIPS" : "30-75475",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 375,
+        "population_2020" : 330,
+        "population_2027" : 331,
+        "land_area_2020" : 0.96
+    },
+    "Valier, Pondera County, MT" : {
+        "name" : "Valier",
+        "state" : "Montana",
+        "FIPS" : "30-76225",
+        "counties" : [
+            "Pondera County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 509,
+        "population_2020" : 530,
+        "population_2027" : 594,
+        "land_area_2020" : 0.92
+    },
+    "Virginia City, Madison County, MT" : {
+        "name" : "Virginia City",
+        "state" : "Montana",
+        "FIPS" : "30-77125",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 190,
+        "population_2020" : 219,
+        "population_2027" : 265,
+        "land_area_2020" : 0.95
+    },
+    "Walkerville, Silver Bow County, MT" : {
+        "name" : "Walkerville",
+        "state" : "Montana",
+        "FIPS" : "30-77650",
+        "counties" : [
+            "Silver Bow County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 675,
+        "population_2020" : 639,
+        "population_2027" : 671,
+        "land_area_2020" : 2.23
+    },
+    "West Yellowstone, Gallatin County, MT" : {
+        "name" : "West Yellowstone",
+        "state" : "Montana",
+        "FIPS" : "30-79525",
+        "counties" : [
+            "Gallatin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1271,
+        "population_2020" : 1272,
+        "population_2027" : 1386,
+        "land_area_2020" : 0.8
+    },
+    "Westby, Sheridan County, MT" : {
+        "name" : "Westby",
+        "state" : "Montana",
+        "FIPS" : "30-78925",
+        "counties" : [
+            "Sheridan County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 168,
+        "population_2020" : 167,
+        "population_2027" : 181,
+        "land_area_2020" : 0.54
+    },
+    "White Sulphur Springs, Meagher County, MT" : {
+        "name" : "White Sulphur Springs",
+        "state" : "Montana",
+        "FIPS" : "30-80050",
+        "counties" : [
+            "Meagher County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 939,
+        "population_2020" : 955,
+        "population_2027" : 1052,
+        "land_area_2020" : 1.01
+    },
+    "Whitefish, Flathead County, MT" : {
+        "name" : "Whitefish",
+        "state" : "Montana",
+        "FIPS" : "30-79825",
+        "counties" : [
+            "Flathead County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6357,
+        "population_2020" : 7751,
+        "population_2027" : 9807,
+        "land_area_2020" : 6.43
+    },
+    "Whitehall, Jefferson County, MT" : {
+        "name" : "Whitehall",
+        "state" : "Montana",
+        "FIPS" : "30-79900",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1038,
+        "population_2020" : 1006,
+        "population_2027" : 1072,
+        "land_area_2020" : 0.67
+    },
+    "Wibaux, Wibaux County, MT" : {
+        "name" : "Wibaux",
+        "state" : "Montana",
+        "FIPS" : "30-80350",
+        "counties" : [
+            "Wibaux County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 589,
+        "population_2020" : 462,
+        "population_2027" : 433,
+        "land_area_2020" : 1.08
+    },
+    "Winifred, Fergus County, MT" : {
+        "name" : "Winifred",
+        "state" : "Montana",
+        "FIPS" : "30-81025",
+        "counties" : [
+            "Fergus County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 208,
+        "population_2020" : 172,
+        "population_2027" : 166,
+        "land_area_2020" : 0.5
+    },
+    "Winnett, Petroleum County, MT" : {
+        "name" : "Winnett",
+        "state" : "Montana",
+        "FIPS" : "30-81100",
+        "counties" : [
+            "Petroleum County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 182,
+        "population_2020" : 188,
+        "population_2027" : 209,
+        "land_area_2020" : 0.98
+    },
+    "Wolf Point, Roosevelt County, MT" : {
+        "name" : "Wolf Point",
+        "state" : "Montana",
+        "FIPS" : "30-81475",
+        "counties" : [
+            "Roosevelt County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2621,
+        "population_2020" : 2517,
+        "population_2027" : 2667,
+        "land_area_2020" : 0.87
+    }
+}

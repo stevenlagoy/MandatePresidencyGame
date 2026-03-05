@@ -1,0 +1,6056 @@
+{
+    "Abbeville, Henry County, AL" : {
+        "name" : "Abbeville",
+        "state" : "Alabama",
+        "FIPS" : "01-00124",
+        "counties" : [
+            "Henry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2688,
+        "population_2020" : 2358,
+        "population_2027" : 2268,
+        "land_area_2020" : 151.7
+    },
+    "Adamsville, Jefferson County, AL" : {
+        "name" : "Adamsville",
+        "state" : "Alabama",
+        "FIPS" : "01-00460",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4522,
+        "population_2020" : 4366,
+        "population_2027" : 4468,
+        "land_area_2020" : 173.7
+    },
+    "Addison, Winston County, AL" : {
+        "name" : "Addison",
+        "state" : "Alabama",
+        "FIPS" : "01-00484",
+        "counties" : [
+            "Winston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 758,
+        "population_2020" : 659,
+        "population_2027" : 630,
+        "land_area_2020" : 174.8
+    },
+    "Akron, Hale County, AL" : {
+        "name" : "Akron",
+        "state" : "Alabama",
+        "FIPS" : "01-00676",
+        "counties" : [
+            "Hale County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 356,
+        "population_2020" : 225,
+        "population_2027" : 182,
+        "land_area_2020" : 326.1
+    },
+    "Alabaster, Shelby County, AL" : {
+        "name" : "Alabaster",
+        "state" : "Alabama",
+        "FIPS" : "01-00820",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 30352,
+        "population_2020" : 33284,
+        "population_2027" : 37301,
+        "land_area_2020" : 1329.2
+    },
+    "Albertville, Marshall County, AL" : {
+        "name" : "Albertville",
+        "state" : "Alabama",
+        "FIPS" : "01-00988",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 21160,
+        "population_2020" : 22386,
+        "population_2027" : 24427,
+        "land_area_2020" : 842.8
+    },
+    "Alexander City, Tallapoosa County, AL" : {
+        "name" : "Alexander City",
+        "state" : "Alabama",
+        "FIPS" : "01-01132",
+        "counties" : [
+            "Tallapoosa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14875,
+        "population_2020" : 14843,
+        "population_2027" : 15535,
+        "land_area_2020" : 363.4
+    },
+    "Aliceville, Pickens County, AL" : {
+        "name" : "Aliceville",
+        "state" : "Alabama",
+        "FIPS" : "01-01228",
+        "counties" : [
+            "Pickens County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2486,
+        "population_2020" : 2177,
+        "population_2027" : 2092,
+        "land_area_2020" : 477.4
+    },
+    "Allgood, Blount County, AL" : {
+        "name" : "Allgood",
+        "state" : "Alabama",
+        "FIPS" : "01-01396",
+        "counties" : [
+            "Blount County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 622,
+        "population_2020" : 548,
+        "population_2027" : 529,
+        "land_area_2020" : 526.9
+    },
+    "Altoona, Etowah County, AL" : {
+        "name" : "Altoona",
+        "state" : "Alabama",
+        "FIPS" : "01-01660",
+        "counties" : [
+            "Etowah County",
+            "Blount County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 933,
+        "population_2020" : 948,
+        "population_2027" : 1005,
+        "land_area_2020" : 219.4
+    },
+    "Andalusia, Covington County, AL" : {
+        "name" : "Andalusia",
+        "state" : "Alabama",
+        "FIPS" : "01-01708",
+        "counties" : [
+            "Covington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9015,
+        "population_2020" : 8805,
+        "population_2027" : 9081,
+        "land_area_2020" : 447.9
+    },
+    "Anderson, Lauderdale County, AL" : {
+        "name" : "Anderson",
+        "state" : "Alabama",
+        "FIPS" : "01-01756",
+        "counties" : [
+            "Lauderdale County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 282,
+        "population_2020" : 254,
+        "population_2027" : 248,
+        "land_area_2020" : 196.9
+    },
+    "Anniston, Calhoun County, AL" : {
+        "name" : "Anniston",
+        "state" : "Alabama",
+        "FIPS" : "01-01852",
+        "counties" : [
+            "Calhoun County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23106,
+        "population_2020" : 21564,
+        "population_2027" : 21576,
+        "land_area_2020" : 472.5
+    },
+    "Arab, Marshall County, AL" : {
+        "name" : "Arab",
+        "state" : "Alabama",
+        "FIPS" : "01-02116",
+        "counties" : [
+            "Marshall County",
+            "Cullman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8050,
+        "population_2020" : 8461,
+        "population_2027" : 9189,
+        "land_area_2020" : 651.8
+    },
+    "Ardmore, Limestone County, AL" : {
+        "name" : "Ardmore",
+        "state" : "Alabama",
+        "FIPS" : "01-02260",
+        "counties" : [
+            "Limestone County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1194,
+        "population_2020" : 1321,
+        "population_2027" : 1490,
+        "land_area_2020" : 647.5
+    },
+    "Argo, St. Clair County, AL" : {
+        "name" : "Argo",
+        "state" : "Alabama",
+        "FIPS" : "01-02320",
+        "counties" : [
+            "St. Clair County",
+            "Jefferson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4071,
+        "population_2020" : 4368,
+        "population_2027" : 4816,
+        "land_area_2020" : 405.6
+    },
+    "Ariton, Dale County, AL" : {
+        "name" : "Ariton",
+        "state" : "Alabama",
+        "FIPS" : "01-02428",
+        "counties" : [
+            "Dale County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 764,
+        "population_2020" : 662,
+        "population_2027" : 632,
+        "land_area_2020" : 130.1
+    },
+    "Arley, Winston County, AL" : {
+        "name" : "Arley",
+        "state" : "Alabama",
+        "FIPS" : "01-02500",
+        "counties" : [
+            "Winston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 357,
+        "population_2020" : 330,
+        "population_2027" : 328,
+        "land_area_2020" : 87.8
+    },
+    "Ashford, Houston County, AL" : {
+        "name" : "Ashford",
+        "state" : "Alabama",
+        "FIPS" : "01-02836",
+        "counties" : [
+            "Houston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2148,
+        "population_2020" : 2246,
+        "population_2027" : 2430,
+        "land_area_2020" : 356.5
+    },
+    "Ashland, Clay County, AL" : {
+        "name" : "Ashland",
+        "state" : "Alabama",
+        "FIPS" : "01-02860",
+        "counties" : [
+            "Clay County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2037,
+        "population_2020" : 1984,
+        "population_2027" : 2042,
+        "land_area_2020" : 271.0
+    },
+    "Ashville, St. Clair County, AL" : {
+        "name" : "Ashville",
+        "state" : "Alabama",
+        "FIPS" : "01-02908",
+        "counties" : [
+            "St. Clair County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2212,
+        "population_2020" : 2346,
+        "population_2027" : 2565,
+        "land_area_2020" : 122.1
+    },
+    "Athens, Limestone County, AL" : {
+        "name" : "Athens",
+        "state" : "Alabama",
+        "FIPS" : "01-02956",
+        "counties" : [
+            "Limestone County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 21897,
+        "population_2020" : 25406,
+        "population_2027" : 29744,
+        "land_area_2020" : 642.5
+    },
+    "Atmore, Escambia County, AL" : {
+        "name" : "Atmore",
+        "state" : "Alabama",
+        "FIPS" : "01-03004",
+        "counties" : [
+            "Escambia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10194,
+        "population_2020" : 8391,
+        "population_2027" : 7769,
+        "land_area_2020" : 384.0
+    },
+    "Attalla, Etowah County, AL" : {
+        "name" : "Attalla",
+        "state" : "Alabama",
+        "FIPS" : "01-03028",
+        "counties" : [
+            "Etowah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6048,
+        "population_2020" : 5827,
+        "population_2027" : 5954,
+        "land_area_2020" : 834.8
+    },
+    "Auburn, Lee County, AL" : {
+        "name" : "Auburn",
+        "state" : "Alabama",
+        "FIPS" : "01-03076",
+        "counties" : [
+            "Lee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 53380,
+        "population_2020" : 76143,
+        "population_2027" : 106708,
+        "land_area_2020" : 1311.2
+    },
+    "Autaugaville, Autauga County, AL" : {
+        "name" : "Autaugaville",
+        "state" : "Alabama",
+        "FIPS" : "01-03220",
+        "counties" : [
+            "Autauga County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 870,
+        "population_2020" : 795,
+        "population_2027" : 785,
+        "land_area_2020" : 104.3
+    },
+    "Avon, Houston County, AL" : {
+        "name" : "Avon",
+        "state" : "Alabama",
+        "FIPS" : "01-03364",
+        "counties" : [
+            "Houston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 543,
+        "population_2020" : 465,
+        "population_2027" : 441,
+        "land_area_2020" : 175.5
+    },
+    "Babbie, Covington County, AL" : {
+        "name" : "Babbie",
+        "state" : "Alabama",
+        "FIPS" : "01-03556",
+        "counties" : [
+            "Covington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 603,
+        "population_2020" : 625,
+        "population_2027" : 672,
+        "land_area_2020" : 54.5
+    },
+    "Baileyton, Cullman County, AL" : {
+        "name" : "Baileyton",
+        "state" : "Alabama",
+        "FIPS" : "01-03676",
+        "counties" : [
+            "Cullman County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 610,
+        "population_2020" : 649,
+        "population_2027" : 711,
+        "land_area_2020" : 123.4
+    },
+    "Bakerhill, Barbour County, AL" : {
+        "name" : "Bakerhill",
+        "state" : "Alabama",
+        "FIPS" : "01-03724",
+        "counties" : [
+            "Barbour County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 279,
+        "population_2020" : 211,
+        "population_2027" : 186,
+        "land_area_2020" : 76.7
+    },
+    "Banks, Pike County, AL" : {
+        "name" : "Banks",
+        "state" : "Alabama",
+        "FIPS" : "01-03940",
+        "counties" : [
+            "Pike County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 179,
+        "population_2020" : 156,
+        "population_2027" : 149,
+        "land_area_2020" : 78.4
+    },
+    "Bay Minette, Baldwin County, AL" : {
+        "name" : "Bay Minette",
+        "state" : "Alabama",
+        "FIPS" : "01-04660",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8044,
+        "population_2020" : 8107,
+        "population_2027" : 8544,
+        "land_area_2020" : 946.0
+    },
+    "Bayou La Batre, Mobile County, AL" : {
+        "name" : "Bayou La Batre",
+        "state" : "Alabama",
+        "FIPS" : "01-04684",
+        "counties" : [
+            "Mobile County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2558,
+        "population_2020" : 2204,
+        "population_2027" : 2097,
+        "land_area_2020" : 294.7
+    },
+    "Bear Creek, Marion County, AL" : {
+        "name" : "Bear Creek",
+        "state" : "Alabama",
+        "FIPS" : "01-04852",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1070,
+        "population_2020" : 1047,
+        "population_2027" : 1081,
+        "land_area_2020" : 76.8
+    },
+    "Beatrice, Monroe County, AL" : {
+        "name" : "Beatrice",
+        "state" : "Alabama",
+        "FIPS" : "01-04900",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 301,
+        "population_2020" : 204,
+        "population_2027" : 170,
+        "land_area_2020" : 151.1
+    },
+    "Beaverton, Lamar County, AL" : {
+        "name" : "Beaverton",
+        "state" : "Alabama",
+        "FIPS" : "01-04948",
+        "counties" : [
+            "Lamar County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 201,
+        "population_2020" : 187,
+        "population_2027" : 187,
+        "land_area_2020" : 40.7
+    },
+    "Belk, Fayette County, AL" : {
+        "name" : "Belk",
+        "state" : "Alabama",
+        "FIPS" : "01-05164",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 215,
+        "population_2020" : 186,
+        "population_2027" : 177,
+        "land_area_2020" : 133.8
+    },
+    "Benton, Lowndes County, AL" : {
+        "name" : "Benton",
+        "state" : "Alabama",
+        "FIPS" : "01-05692",
+        "counties" : [
+            "Lowndes County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 49,
+        "population_2020" : 41,
+        "population_2027" : 38,
+        "land_area_2020" : 136.7
+    },
+    "Berlin, Cullman County, AL" : {
+        "name" : "Berlin",
+        "state" : "Alabama",
+        "FIPS" : "01-05812",
+        "counties" : [
+            "Cullman County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 440,
+        "population_2020" : 476,
+        "population_2027" : 528,
+        "land_area_2020" : 573.5
+    },
+    "Berry, Fayette County, AL" : {
+        "name" : "Berry",
+        "state" : "Alabama",
+        "FIPS" : "01-05932",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1148,
+        "population_2020" : 1216,
+        "population_2027" : 1328,
+        "land_area_2020" : 112.9
+    },
+    "Bessemer, Jefferson County, AL" : {
+        "name" : "Bessemer",
+        "state" : "Alabama",
+        "FIPS" : "01-05980",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 27456,
+        "population_2020" : 26019,
+        "population_2027" : 26296,
+        "land_area_2020" : 652.9
+    },
+    "Billingsley, Autauga County, AL" : {
+        "name" : "Billingsley",
+        "state" : "Alabama",
+        "FIPS" : "01-06460",
+        "counties" : [
+            "Autauga County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 144,
+        "population_2020" : 125,
+        "population_2027" : 119,
+        "land_area_2020" : 95.4
+    },
+    "Birmingham, Jefferson County, AL" : {
+        "name" : "Birmingham",
+        "state" : "Alabama",
+        "FIPS" : "01-07000",
+        "counties" : [
+            "Jefferson County",
+            "Shelby County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 212237,
+        "population_2020" : 200733,
+        "population_2027" : 202609,
+        "land_area_2020" : 1374.2
+    },
+    "Black, Geneva County, AL" : {
+        "name" : "Black",
+        "state" : "Alabama",
+        "FIPS" : "01-07120",
+        "counties" : [
+            "Geneva County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 207,
+        "population_2020" : 221,
+        "population_2027" : 243,
+        "land_area_2020" : 71.8
+    },
+    "Blountsville, Blount County, AL" : {
+        "name" : "Blountsville",
+        "state" : "Alabama",
+        "FIPS" : "01-07456",
+        "counties" : [
+            "Blount County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1684,
+        "population_2020" : 1826,
+        "population_2027" : 2029,
+        "land_area_2020" : 336.9
+    },
+    "Blue Springs, Barbour County, AL" : {
+        "name" : "Blue Springs",
+        "state" : "Alabama",
+        "FIPS" : "01-07672",
+        "counties" : [
+            "Barbour County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 96,
+        "population_2020" : 84,
+        "population_2027" : 81,
+        "land_area_2020" : 29.0
+    },
+    "Boaz, Marshall County, AL" : {
+        "name" : "Boaz",
+        "state" : "Alabama",
+        "FIPS" : "01-07912",
+        "counties" : [
+            "Marshall County",
+            "Etowah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9551,
+        "population_2020" : 10107,
+        "population_2027" : 11031,
+        "land_area_2020" : 694.6
+    },
+    "Boligee, Greene County, AL" : {
+        "name" : "Boligee",
+        "state" : "Alabama",
+        "FIPS" : "01-08104",
+        "counties" : [
+            "Greene County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 328,
+        "population_2020" : 301,
+        "population_2027" : 298,
+        "land_area_2020" : 76.2
+    },
+    "Bon Air, Talladega County, AL" : {
+        "name" : "Bon Air",
+        "state" : "Alabama",
+        "FIPS" : "01-08248",
+        "counties" : [
+            "Talladega County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 116,
+        "population_2020" : 172,
+        "population_2027" : 250,
+        "land_area_2020" : 129.3
+    },
+    "Brantley, Crenshaw County, AL" : {
+        "name" : "Brantley",
+        "state" : "Alabama",
+        "FIPS" : "01-09016",
+        "counties" : [
+            "Crenshaw County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 809,
+        "population_2020" : 825,
+        "population_2027" : 877,
+        "land_area_2020" : 265.3
+    },
+    "Brent, Bibb County, AL" : {
+        "name" : "Brent",
+        "state" : "Alabama",
+        "FIPS" : "01-09136",
+        "counties" : [
+            "Bibb County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4947,
+        "population_2020" : 2972,
+        "population_2027" : 2347,
+        "land_area_2020" : 338.5
+    },
+    "Brewton, Escambia County, AL" : {
+        "name" : "Brewton",
+        "state" : "Alabama",
+        "FIPS" : "01-09208",
+        "counties" : [
+            "Escambia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5408,
+        "population_2020" : 5276,
+        "population_2027" : 5437,
+        "land_area_2020" : 511.3
+    },
+    "Bridgeport, Jackson County, AL" : {
+        "name" : "Bridgeport",
+        "state" : "Alabama",
+        "FIPS" : "01-09328",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2418,
+        "population_2020" : 2264,
+        "population_2027" : 2270,
+        "land_area_2020" : 513.4
+    },
+    "Brighton, Jefferson County, AL" : {
+        "name" : "Brighton",
+        "state" : "Alabama",
+        "FIPS" : "01-09400",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2945,
+        "population_2020" : 2337,
+        "population_2027" : 2119,
+        "land_area_2020" : 1645.8
+    },
+    "Brilliant, Marion County, AL" : {
+        "name" : "Brilliant",
+        "state" : "Alabama",
+        "FIPS" : "01-09424",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 900,
+        "population_2020" : 845,
+        "population_2027" : 849,
+        "land_area_2020" : 79.0
+    },
+    "Brookside, Jefferson County, AL" : {
+        "name" : "Brookside",
+        "state" : "Alabama",
+        "FIPS" : "01-09736",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1363,
+        "population_2020" : 1253,
+        "population_2027" : 1241,
+        "land_area_2020" : 195.8
+    },
+    "Brookwood, Tuscaloosa County, AL" : {
+        "name" : "Brookwood",
+        "state" : "Alabama",
+        "FIPS" : "01-09808",
+        "counties" : [
+            "Tuscaloosa County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1828,
+        "population_2020" : 2504,
+        "population_2027" : 3379,
+        "land_area_2020" : 299.5
+    },
+    "Brundidge, Pike County, AL" : {
+        "name" : "Brundidge",
+        "state" : "Alabama",
+        "FIPS" : "01-10240",
+        "counties" : [
+            "Pike County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2076,
+        "population_2020" : 2073,
+        "population_2027" : 2171,
+        "land_area_2020" : 212.6
+    },
+    "Butler, Choctaw County, AL" : {
+        "name" : "Butler",
+        "state" : "Alabama",
+        "FIPS" : "01-11032",
+        "counties" : [
+            "Choctaw County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1894,
+        "population_2020" : 1871,
+        "population_2027" : 1945,
+        "land_area_2020" : 335.9
+    },
+    "Calera, Shelby County, AL" : {
+        "name" : "Calera",
+        "state" : "Alabama",
+        "FIPS" : "01-11416",
+        "counties" : [
+            "Shelby County",
+            "Chilton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11620,
+        "population_2020" : 16494,
+        "population_2027" : 23008,
+        "land_area_2020" : 684.7
+    },
+    "Camden, Wilcox County, AL" : {
+        "name" : "Camden",
+        "state" : "Alabama",
+        "FIPS" : "01-11512",
+        "counties" : [
+            "Wilcox County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2020,
+        "population_2020" : 1927,
+        "population_2027" : 1956,
+        "land_area_2020" : 461.0
+    },
+    "Camp Hill, Tallapoosa County, AL" : {
+        "name" : "Camp Hill",
+        "state" : "Alabama",
+        "FIPS" : "01-11680",
+        "counties" : [
+            "Tallapoosa County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1014,
+        "population_2020" : 1006,
+        "population_2027" : 1049,
+        "land_area_2020" : 111.9
+    },
+    "Carbon Hill, Walker County, AL" : {
+        "name" : "Carbon Hill",
+        "state" : "Alabama",
+        "FIPS" : "01-12016",
+        "counties" : [
+            "Walker County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2021,
+        "population_2020" : 1769,
+        "population_2027" : 1699,
+        "land_area_2020" : 321.6
+    },
+    "Cardiff, Jefferson County, AL" : {
+        "name" : "Cardiff",
+        "state" : "Alabama",
+        "FIPS" : "01-12040",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 55,
+        "population_2020" : 52,
+        "population_2027" : 52,
+        "land_area_2020" : 208.0
+    },
+    "Carolina, Covington County, AL" : {
+        "name" : "Carolina",
+        "state" : "Alabama",
+        "FIPS" : "01-12160",
+        "counties" : [
+            "Covington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 297,
+        "population_2020" : 286,
+        "population_2027" : 292,
+        "land_area_2020" : 257.7
+    },
+    "Carrollton, Pickens County, AL" : {
+        "name" : "Carrollton",
+        "state" : "Alabama",
+        "FIPS" : "01-12304",
+        "counties" : [
+            "Pickens County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1019,
+        "population_2020" : 1023,
+        "population_2027" : 1075,
+        "land_area_2020" : 496.6
+    },
+    "Castleberry, Conecuh County, AL" : {
+        "name" : "Castleberry",
+        "state" : "Alabama",
+        "FIPS" : "01-12496",
+        "counties" : [
+            "Conecuh County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 583,
+        "population_2020" : 486,
+        "population_2027" : 453,
+        "land_area_2020" : 284.2
+    },
+    "Cedar Bluff, Cherokee County, AL" : {
+        "name" : "Cedar Bluff",
+        "state" : "Alabama",
+        "FIPS" : "01-12760",
+        "counties" : [
+            "Cherokee County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1820,
+        "population_2020" : 1845,
+        "population_2027" : 1953,
+        "land_area_2020" : 363.9
+    },
+    "Center Point, Jefferson County, AL" : {
+        "name" : "Center Point",
+        "state" : "Alabama",
+        "FIPS" : "01-13264",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16921,
+        "population_2020" : 16406,
+        "population_2027" : 16836,
+        "land_area_2020" : 2680.7
+    },
+    "Centre, Cherokee County, AL" : {
+        "name" : "Centre",
+        "state" : "Alabama",
+        "FIPS" : "01-13648",
+        "counties" : [
+            "Cherokee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3489,
+        "population_2020" : 3587,
+        "population_2027" : 3834,
+        "land_area_2020" : 313.5
+    },
+    "Centreville, Bibb County, AL" : {
+        "name" : "Centreville",
+        "state" : "Alabama",
+        "FIPS" : "01-13672",
+        "counties" : [
+            "Bibb County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2778,
+        "population_2020" : 2800,
+        "population_2027" : 2951,
+        "land_area_2020" : 296.3
+    },
+    "Chatom, Washington County, AL" : {
+        "name" : "Chatom",
+        "state" : "Alabama",
+        "FIPS" : "01-14008",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1288,
+        "population_2020" : 1104,
+        "population_2027" : 1047,
+        "land_area_2020" : 103.0
+    },
+    "Chelsea, Shelby County, AL" : {
+        "name" : "Chelsea",
+        "state" : "Alabama",
+        "FIPS" : "01-14104",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10183,
+        "population_2020" : 14982,
+        "population_2027" : 21632,
+        "land_area_2020" : 701.7
+    },
+    "Cherokee, Colbert County, AL" : {
+        "name" : "Cherokee",
+        "state" : "Alabama",
+        "FIPS" : "01-14152",
+        "counties" : [
+            "Colbert County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1048,
+        "population_2020" : 970,
+        "population_2027" : 965,
+        "land_area_2020" : 436.9
+    },
+    "Chickasaw, Mobile County, AL" : {
+        "name" : "Chickasaw",
+        "state" : "Alabama",
+        "FIPS" : "01-14392",
+        "counties" : [
+            "Mobile County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6106,
+        "population_2020" : 6457,
+        "population_2027" : 7044,
+        "land_area_2020" : 1533.7
+    },
+    "Childersburg, Talladega County, AL" : {
+        "name" : "Childersburg",
+        "state" : "Alabama",
+        "FIPS" : "01-14464",
+        "counties" : [
+            "Talladega County",
+            "Shelby County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5175,
+        "population_2020" : 4754,
+        "population_2027" : 4708,
+        "land_area_2020" : 384.9
+    },
+    "Citronelle, Mobile County, AL" : {
+        "name" : "Citronelle",
+        "state" : "Alabama",
+        "FIPS" : "01-15064",
+        "counties" : [
+            "Mobile County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3905,
+        "population_2020" : 3946,
+        "population_2027" : 4167,
+        "land_area_2020" : 153.4
+    },
+    "Clanton, Chilton County, AL" : {
+        "name" : "Clanton",
+        "state" : "Alabama",
+        "FIPS" : "01-15136",
+        "counties" : [
+            "Chilton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8619,
+        "population_2020" : 8768,
+        "population_2027" : 9302,
+        "land_area_2020" : 399.6
+    },
+    "Clay, Jefferson County, AL" : {
+        "name" : "Clay",
+        "state" : "Alabama",
+        "FIPS" : "01-15256",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9708,
+        "population_2020" : 10291,
+        "population_2027" : 11246,
+        "land_area_2020" : 1036.4
+    },
+    "Clayhatchee, Dale County, AL" : {
+        "name" : "Clayhatchee",
+        "state" : "Alabama",
+        "FIPS" : "01-15304",
+        "counties" : [
+            "Dale County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 589,
+        "population_2020" : 466,
+        "population_2027" : 422,
+        "land_area_2020" : 171.3
+    },
+    "Clayton, Barbour County, AL" : {
+        "name" : "Clayton",
+        "state" : "Alabama",
+        "FIPS" : "01-15376",
+        "counties" : [
+            "Barbour County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3008,
+        "population_2020" : 2265,
+        "population_2027" : 1995,
+        "land_area_2020" : 339.1
+    },
+    "Cleveland, Blount County, AL" : {
+        "name" : "Cleveland",
+        "state" : "Alabama",
+        "FIPS" : "01-15472",
+        "counties" : [
+            "Blount County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1303,
+        "population_2020" : 1245,
+        "population_2027" : 1265,
+        "land_area_2020" : 158.8
+    },
+    "Clio, Barbour County, AL" : {
+        "name" : "Clio",
+        "state" : "Alabama",
+        "FIPS" : "01-15640",
+        "counties" : [
+            "Barbour County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1399,
+        "population_2020" : 1220,
+        "population_2027" : 1169,
+        "land_area_2020" : 121.2
+    },
+    "Coaling, Tuscaloosa County, AL" : {
+        "name" : "Coaling",
+        "state" : "Alabama",
+        "FIPS" : "01-16000",
+        "counties" : [
+            "Tuscaloosa County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1657,
+        "population_2020" : 2035,
+        "population_2027" : 2495,
+        "land_area_2020" : 405.4
+    },
+    "Coffee Springs, Geneva County, AL" : {
+        "name" : "Coffee Springs",
+        "state" : "Alabama",
+        "FIPS" : "01-16240",
+        "counties" : [
+            "Geneva County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 228,
+        "population_2020" : 206,
+        "population_2027" : 202,
+        "land_area_2020" : 264.1
+    },
+    "Coffeeville, Clarke County, AL" : {
+        "name" : "Coffeeville",
+        "state" : "Alabama",
+        "FIPS" : "01-16264",
+        "counties" : [
+            "Clarke County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 352,
+        "population_2020" : 263,
+        "population_2027" : 231,
+        "land_area_2020" : 58.2
+    },
+    "Coker, Tuscaloosa County, AL" : {
+        "name" : "Coker",
+        "state" : "Alabama",
+        "FIPS" : "01-16312",
+        "counties" : [
+            "Tuscaloosa County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 979,
+        "population_2020" : 904,
+        "population_2027" : 898,
+        "land_area_2020" : 445.3
+    },
+    "Collinsville, DeKalb County, AL" : {
+        "name" : "Collinsville",
+        "state" : "Alabama",
+        "FIPS" : "01-16600",
+        "counties" : [
+            "DeKalb County",
+            "Cherokee County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1983,
+        "population_2020" : 2059,
+        "population_2027" : 2216,
+        "land_area_2020" : 525.3
+    },
+    "Colony, Cullman County, AL" : {
+        "name" : "Colony",
+        "state" : "Alabama",
+        "FIPS" : "01-16684",
+        "counties" : [
+            "Cullman County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 268,
+        "population_2020" : 264,
+        "population_2027" : 274,
+        "land_area_2020" : 117.3
+    },
+    "Columbia, Houston County, AL" : {
+        "name" : "Columbia",
+        "state" : "Alabama",
+        "FIPS" : "01-16744",
+        "counties" : [
+            "Houston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 740,
+        "population_2020" : 690,
+        "population_2027" : 690,
+        "land_area_2020" : 175.6
+    },
+    "Columbiana, Shelby County, AL" : {
+        "name" : "Columbiana",
+        "state" : "Alabama",
+        "FIPS" : "01-16768",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4197,
+        "population_2020" : 4462,
+        "population_2027" : 4886,
+        "land_area_2020" : 277.3
+    },
+    "Coosada, Elmore County, AL" : {
+        "name" : "Coosada",
+        "state" : "Alabama",
+        "FIPS" : "01-17176",
+        "counties" : [
+            "Elmore County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1224,
+        "population_2020" : 1217,
+        "population_2027" : 1271,
+        "land_area_2020" : 171.9
+    },
+    "Cordova, Walker County, AL" : {
+        "name" : "Cordova",
+        "state" : "Alabama",
+        "FIPS" : "01-17368",
+        "counties" : [
+            "Walker County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2095,
+        "population_2020" : 1728,
+        "population_2027" : 1602,
+        "land_area_2020" : 296.4
+    },
+    "Cottonwood, Houston County, AL" : {
+        "name" : "Cottonwood",
+        "state" : "Alabama",
+        "FIPS" : "01-17824",
+        "counties" : [
+            "Houston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1289,
+        "population_2020" : 1048,
+        "population_2027" : 963,
+        "land_area_2020" : 181.6
+    },
+    "County Line, Blount County, AL" : {
+        "name" : "County Line",
+        "state" : "Alabama",
+        "FIPS" : "01-17968",
+        "counties" : [
+            "Blount County",
+            "Jefferson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 258,
+        "population_2020" : 311,
+        "population_2027" : 376,
+        "land_area_2020" : 320.6
+    },
+    "Courtland, Lawrence County, AL" : {
+        "name" : "Courtland",
+        "state" : "Alabama",
+        "FIPS" : "01-18040",
+        "counties" : [
+            "Lawrence County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 609,
+        "population_2020" : 583,
+        "population_2027" : 593,
+        "land_area_2020" : 199.7
+    },
+    "Cowarts, Houston County, AL" : {
+        "name" : "Cowarts",
+        "state" : "Alabama",
+        "FIPS" : "01-18088",
+        "counties" : [
+            "Houston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1871,
+        "population_2020" : 1930,
+        "population_2027" : 2068,
+        "land_area_2020" : 266.2
+    },
+    "Creola, Mobile County, AL" : {
+        "name" : "Creola",
+        "state" : "Alabama",
+        "FIPS" : "01-18304",
+        "counties" : [
+            "Mobile County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1926,
+        "population_2020" : 1936,
+        "population_2027" : 2037,
+        "land_area_2020" : 136.0
+    },
+    "Crossville, DeKalb County, AL" : {
+        "name" : "Crossville",
+        "state" : "Alabama",
+        "FIPS" : "01-18856",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1862,
+        "population_2020" : 1830,
+        "population_2027" : 1895,
+        "land_area_2020" : 218.6
+    },
+    "Cuba, Sumter County, AL" : {
+        "name" : "Cuba",
+        "state" : "Alabama",
+        "FIPS" : "01-18952",
+        "counties" : [
+            "Sumter County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 346,
+        "population_2020" : 306,
+        "population_2027" : 296,
+        "land_area_2020" : 75.4
+    },
+    "Cullman, Cullman County, AL" : {
+        "name" : "Cullman",
+        "state" : "Alabama",
+        "FIPS" : "01-18976",
+        "counties" : [
+            "Cullman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14775,
+        "population_2020" : 18213,
+        "population_2027" : 22403,
+        "land_area_2020" : 939.8
+    },
+    "Cusseta, Chambers County, AL" : {
+        "name" : "Cusseta",
+        "state" : "Alabama",
+        "FIPS" : "01-19216",
+        "counties" : [
+            "Chambers County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 123,
+        "population_2020" : 152,
+        "population_2027" : 187,
+        "land_area_2020" : 58.0
+    },
+    "Dadeville, Tallapoosa County, AL" : {
+        "name" : "Dadeville",
+        "state" : "Alabama",
+        "FIPS" : "01-19336",
+        "counties" : [
+            "Tallapoosa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3230,
+        "population_2020" : 3084,
+        "population_2027" : 3132,
+        "land_area_2020" : 193.5
+    },
+    "Daleville, Dale County, AL" : {
+        "name" : "Daleville",
+        "state" : "Alabama",
+        "FIPS" : "01-19360",
+        "counties" : [
+            "Dale County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5295,
+        "population_2020" : 4866,
+        "population_2027" : 4820,
+        "land_area_2020" : 345.4
+    },
+    "Daphne, Baldwin County, AL" : {
+        "name" : "Daphne",
+        "state" : "Alabama",
+        "FIPS" : "01-19648",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 21570,
+        "population_2020" : 27462,
+        "population_2027" : 34719,
+        "land_area_2020" : 1691.0
+    },
+    "Dauphin Island, Mobile County, AL" : {
+        "name" : "Dauphin Island",
+        "state" : "Alabama",
+        "FIPS" : "01-19744",
+        "counties" : [
+            "Mobile County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1238,
+        "population_2020" : 1778,
+        "population_2027" : 2508,
+        "land_area_2020" : 280.0
+    },
+    "Daviston, Tallapoosa County, AL" : {
+        "name" : "Daviston",
+        "state" : "Alabama",
+        "FIPS" : "01-19816",
+        "counties" : [
+            "Tallapoosa County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 214,
+        "population_2020" : 174,
+        "population_2027" : 160,
+        "land_area_2020" : 19.0
+    },
+    "Dayton, Marengo County, AL" : {
+        "name" : "Dayton",
+        "state" : "Alabama",
+        "FIPS" : "01-19912",
+        "counties" : [
+            "Marengo County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 52,
+        "population_2020" : 28,
+        "population_2027" : 21,
+        "land_area_2020" : 28.0
+    },
+    "Deatsville, Elmore County, AL" : {
+        "name" : "Deatsville",
+        "state" : "Alabama",
+        "FIPS" : "01-20008",
+        "counties" : [
+            "Elmore County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1154,
+        "population_2020" : 1679,
+        "population_2027" : 2398,
+        "land_area_2020" : 360.3
+    },
+    "Decatur, Morgan County, AL" : {
+        "name" : "Decatur",
+        "state" : "Alabama",
+        "FIPS" : "01-20104",
+        "counties" : [
+            "Morgan County",
+            "Limestone County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 55683,
+        "population_2020" : 57938,
+        "population_2027" : 62462,
+        "land_area_2020" : 1079.5
+    },
+    "Demopolis, Marengo County, AL" : {
+        "name" : "Demopolis",
+        "state" : "Alabama",
+        "FIPS" : "01-20296",
+        "counties" : [
+            "Marengo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7483,
+        "population_2020" : 7162,
+        "population_2027" : 7286,
+        "land_area_2020" : 403.7
+    },
+    "Detroit, Lamar County, AL" : {
+        "name" : "Detroit",
+        "state" : "Alabama",
+        "FIPS" : "01-20392",
+        "counties" : [
+            "Lamar County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 237,
+        "population_2020" : 230,
+        "population_2027" : 236,
+        "land_area_2020" : 172.9
+    },
+    "Dodge City, Cullman County, AL" : {
+        "name" : "Dodge City",
+        "state" : "Alabama",
+        "FIPS" : "01-20955",
+        "counties" : [
+            "Cullman County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 593,
+        "population_2020" : 548,
+        "population_2027" : 545,
+        "land_area_2020" : 159.3
+    },
+    "Dora, Walker County, AL" : {
+        "name" : "Dora",
+        "state" : "Alabama",
+        "FIPS" : "01-21136",
+        "counties" : [
+            "Walker County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2025,
+        "population_2020" : 2297,
+        "population_2027" : 2642,
+        "land_area_2020" : 305.9
+    },
+    "Dothan, Houston County, AL" : {
+        "name" : "Dothan",
+        "state" : "Alabama",
+        "FIPS" : "01-21184",
+        "counties" : [
+            "Houston County",
+            "Dale County",
+            "Henry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 65496,
+        "population_2020" : 71072,
+        "population_2027" : 79022,
+        "land_area_2020" : 795.0
+    },
+    "Double Springs, Winston County, AL" : {
+        "name" : "Double Springs",
+        "state" : "Alabama",
+        "FIPS" : "01-21280",
+        "counties" : [
+            "Winston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1083,
+        "population_2020" : 1119,
+        "population_2027" : 1200,
+        "land_area_2020" : 272.3
+    },
+    "Douglas, Marshall County, AL" : {
+        "name" : "Douglas",
+        "state" : "Alabama",
+        "FIPS" : "01-21328",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 744,
+        "population_2020" : 761,
+        "population_2027" : 810,
+        "land_area_2020" : 223.8
+    },
+    "Dozier, Crenshaw County, AL" : {
+        "name" : "Dozier",
+        "state" : "Alabama",
+        "FIPS" : "01-21448",
+        "counties" : [
+            "Crenshaw County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 329,
+        "population_2020" : 285,
+        "population_2027" : 272,
+        "land_area_2020" : 96.3
+    },
+    "Dutton, Jackson County, AL" : {
+        "name" : "Dutton",
+        "state" : "Alabama",
+        "FIPS" : "01-21952",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 315,
+        "population_2020" : 330,
+        "population_2027" : 358,
+        "land_area_2020" : 383.7
+    },
+    "East Brewton, Escambia County, AL" : {
+        "name" : "East Brewton",
+        "state" : "Alabama",
+        "FIPS" : "01-22216",
+        "counties" : [
+            "Escambia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2478,
+        "population_2020" : 2293,
+        "population_2027" : 2282,
+        "land_area_2020" : 672.4
+    },
+    "Eclectic, Elmore County, AL" : {
+        "name" : "Eclectic",
+        "state" : "Alabama",
+        "FIPS" : "01-22816",
+        "counties" : [
+            "Elmore County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1001,
+        "population_2020" : 1193,
+        "population_2027" : 1427,
+        "land_area_2020" : 283.4
+    },
+    "Edwardsville, Cleburne County, AL" : {
+        "name" : "Edwardsville",
+        "state" : "Alabama",
+        "FIPS" : "01-23176",
+        "counties" : [
+            "Cleburne County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 202,
+        "population_2020" : 206,
+        "population_2027" : 219,
+        "land_area_2020" : 12.5
+    },
+    "Elba, Coffee County, AL" : {
+        "name" : "Elba",
+        "state" : "Alabama",
+        "FIPS" : "01-23296",
+        "counties" : [
+            "Coffee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3940,
+        "population_2020" : 3508,
+        "population_2027" : 3406,
+        "land_area_2020" : 228.7
+    },
+    "Elberta, Baldwin County, AL" : {
+        "name" : "Elberta",
+        "state" : "Alabama",
+        "FIPS" : "01-23320",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1498,
+        "population_2020" : 1974,
+        "population_2027" : 2572,
+        "land_area_2020" : 292.0
+    },
+    "Eldridge, Walker County, AL" : {
+        "name" : "Eldridge",
+        "state" : "Alabama",
+        "FIPS" : "01-23344",
+        "counties" : [
+            "Walker County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 130,
+        "population_2020" : 136,
+        "population_2027" : 147,
+        "land_area_2020" : 194.3
+    },
+    "Elkmont, Limestone County, AL" : {
+        "name" : "Elkmont",
+        "state" : "Alabama",
+        "FIPS" : "01-23488",
+        "counties" : [
+            "Limestone County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 434,
+        "population_2020" : 411,
+        "population_2027" : 415,
+        "land_area_2020" : 252.1
+    },
+    "Elmore, Elmore County, AL" : {
+        "name" : "Elmore",
+        "state" : "Alabama",
+        "FIPS" : "01-23656",
+        "counties" : [
+            "Elmore County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1262,
+        "population_2020" : 1280,
+        "population_2027" : 1355,
+        "land_area_2020" : 324.1
+    },
+    "Emelle, Sumter County, AL" : {
+        "name" : "Emelle",
+        "state" : "Alabama",
+        "FIPS" : "01-23872",
+        "counties" : [
+            "Sumter County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 53,
+        "population_2020" : 32,
+        "population_2027" : 25,
+        "land_area_2020" : 152.4
+    },
+    "Enterprise, Coffee County, AL" : {
+        "name" : "Enterprise",
+        "state" : "Alabama",
+        "FIPS" : "01-24184",
+        "counties" : [
+            "Coffee County",
+            "Dale County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 26562,
+        "population_2020" : 28711,
+        "population_2027" : 31830,
+        "land_area_2020" : 919.0
+    },
+    "Epes, Sumter County, AL" : {
+        "name" : "Epes",
+        "state" : "Alabama",
+        "FIPS" : "01-24256",
+        "counties" : [
+            "Sumter County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 192,
+        "population_2020" : 272,
+        "population_2027" : 379,
+        "land_area_2020" : 141.7
+    },
+    "Ethelsville, Pickens County, AL" : {
+        "name" : "Ethelsville",
+        "state" : "Alabama",
+        "FIPS" : "01-24472",
+        "counties" : [
+            "Pickens County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 81,
+        "population_2020" : 49,
+        "population_2027" : 39,
+        "land_area_2020" : 86.0
+    },
+    "Eufaula, Barbour County, AL" : {
+        "name" : "Eufaula",
+        "state" : "Alabama",
+        "FIPS" : "01-24568",
+        "counties" : [
+            "Barbour County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13137,
+        "population_2020" : 12882,
+        "population_2027" : 13322,
+        "land_area_2020" : 216.9
+    },
+    "Eutaw, Greene County, AL" : {
+        "name" : "Eutaw",
+        "state" : "Alabama",
+        "FIPS" : "01-24664",
+        "counties" : [
+            "Greene County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2934,
+        "population_2020" : 2937,
+        "population_2027" : 3081,
+        "land_area_2020" : 246.2
+    },
+    "Eva, Morgan County, AL" : {
+        "name" : "Eva",
+        "state" : "Alabama",
+        "FIPS" : "01-24688",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 519,
+        "population_2020" : 589,
+        "population_2027" : 678,
+        "land_area_2020" : 144.7
+    },
+    "Evergreen, Conecuh County, AL" : {
+        "name" : "Evergreen",
+        "state" : "Alabama",
+        "FIPS" : "01-24808",
+        "counties" : [
+            "Conecuh County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3944,
+        "population_2020" : 3520,
+        "population_2027" : 3423,
+        "land_area_2020" : 225.6
+    },
+    "Excel, Monroe County, AL" : {
+        "name" : "Excel",
+        "state" : "Alabama",
+        "FIPS" : "01-24880",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 723,
+        "population_2020" : 557,
+        "population_2027" : 497,
+        "land_area_2020" : 337.6
+    },
+    "Fairfield, Jefferson County, AL" : {
+        "name" : "Fairfield",
+        "state" : "Alabama",
+        "FIPS" : "01-25120",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11117,
+        "population_2020" : 10000,
+        "population_2027" : 9771,
+        "land_area_2020" : 2881.8
+    },
+    "Fairhope, Baldwin County, AL" : {
+        "name" : "Fairhope",
+        "state" : "Alabama",
+        "FIPS" : "01-25240",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15326,
+        "population_2020" : 22477,
+        "population_2027" : 32353,
+        "land_area_2020" : 1863.8
+    },
+    "Fairview, Cullman County, AL" : {
+        "name" : "Fairview",
+        "state" : "Alabama",
+        "FIPS" : "01-25384",
+        "counties" : [
+            "Cullman County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 446,
+        "population_2020" : 543,
+        "population_2027" : 661,
+        "land_area_2020" : 200.4
+    },
+    "Falkville, Morgan County, AL" : {
+        "name" : "Falkville",
+        "state" : "Alabama",
+        "FIPS" : "01-25648",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1279,
+        "population_2020" : 1197,
+        "population_2027" : 1200,
+        "land_area_2020" : 316.7
+    },
+    "Faunsdale, Marengo County, AL" : {
+        "name" : "Faunsdale",
+        "state" : "Alabama",
+        "FIPS" : "01-25816",
+        "counties" : [
+            "Marengo County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 98,
+        "population_2020" : 90,
+        "population_2027" : 89,
+        "land_area_2020" : 321.4
+    },
+    "Fayette, Fayette County, AL" : {
+        "name" : "Fayette",
+        "state" : "Alabama",
+        "FIPS" : "01-25840",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4619,
+        "population_2020" : 4285,
+        "population_2027" : 4271,
+        "land_area_2020" : 501.2
+    },
+    "Five Points, Chambers County, AL" : {
+        "name" : "Five Points",
+        "state" : "Alabama",
+        "FIPS" : "01-26200",
+        "counties" : [
+            "Chambers County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 141,
+        "population_2020" : 114,
+        "population_2027" : 104,
+        "land_area_2020" : 110.7
+    },
+    "Flomaton, Escambia County, AL" : {
+        "name" : "Flomaton",
+        "state" : "Alabama",
+        "FIPS" : "01-26824",
+        "counties" : [
+            "Escambia County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1440,
+        "population_2020" : 1466,
+        "population_2027" : 1556,
+        "land_area_2020" : 288.0
+    },
+    "Florala, Covington County, AL" : {
+        "name" : "Florala",
+        "state" : "Alabama",
+        "FIPS" : "01-26848",
+        "counties" : [
+            "Covington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1980,
+        "population_2020" : 1923,
+        "population_2027" : 1976,
+        "land_area_2020" : 182.6
+    },
+    "Florence, Lauderdale County, AL" : {
+        "name" : "Florence",
+        "state" : "Alabama",
+        "FIPS" : "01-26896",
+        "counties" : [
+            "Lauderdale County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 39319,
+        "population_2020" : 40184,
+        "population_2027" : 42770,
+        "land_area_2020" : 1545.5
+    },
+    "Foley, Baldwin County, AL" : {
+        "name" : "Foley",
+        "state" : "Alabama",
+        "FIPS" : "01-26992",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14618,
+        "population_2020" : 20335,
+        "population_2027" : 27833,
+        "land_area_2020" : 789.1
+    },
+    "Forkland, Greene County, AL" : {
+        "name" : "Forkland",
+        "state" : "Alabama",
+        "FIPS" : "01-27376",
+        "counties" : [
+            "Greene County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 649,
+        "population_2020" : 445,
+        "population_2027" : 374,
+        "land_area_2020" : 127.5
+    },
+    "Fort Deposit, Lowndes County, AL" : {
+        "name" : "Fort Deposit",
+        "state" : "Alabama",
+        "FIPS" : "01-27520",
+        "counties" : [
+            "Lowndes County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1344,
+        "population_2020" : 1225,
+        "population_2027" : 1207,
+        "land_area_2020" : 216.4
+    },
+    "Fort Payne, DeKalb County, AL" : {
+        "name" : "Fort Payne",
+        "state" : "Alabama",
+        "FIPS" : "01-27616",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14012,
+        "population_2020" : 14877,
+        "population_2027" : 16276,
+        "land_area_2020" : 268.1
+    },
+    "Franklin, Macon County, AL" : {
+        "name" : "Franklin",
+        "state" : "Alabama",
+        "FIPS" : "01-28024",
+        "counties" : [
+            "Macon County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 149,
+        "population_2020" : 590,
+        "population_2027" : 2921,
+        "land_area_2020" : 132.0
+    },
+    "Frisco City, Monroe County, AL" : {
+        "name" : "Frisco City",
+        "state" : "Alabama",
+        "FIPS" : "01-28312",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1309,
+        "population_2020" : 1170,
+        "population_2027" : 1139,
+        "land_area_2020" : 290.3
+    },
+    "Fruithurst, Cleburne County, AL" : {
+        "name" : "Fruithurst",
+        "state" : "Alabama",
+        "FIPS" : "01-28432",
+        "counties" : [
+            "Cleburne County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 284,
+        "population_2020" : 235,
+        "population_2027" : 218,
+        "land_area_2020" : 235.0
+    },
+    "Fulton, Clarke County, AL" : {
+        "name" : "Fulton",
+        "state" : "Alabama",
+        "FIPS" : "01-28504",
+        "counties" : [
+            "Clarke County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 272,
+        "population_2020" : 223,
+        "population_2027" : 206,
+        "land_area_2020" : 91.0
+    },
+    "Fultondale, Jefferson County, AL" : {
+        "name" : "Fultondale",
+        "state" : "Alabama",
+        "FIPS" : "01-28552",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8380,
+        "population_2020" : 9876,
+        "population_2027" : 11708,
+        "land_area_2020" : 809.5
+    },
+    "Fyffe, DeKalb County, AL" : {
+        "name" : "Fyffe",
+        "state" : "Alabama",
+        "FIPS" : "01-28672",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1018,
+        "population_2020" : 967,
+        "population_2027" : 979,
+        "land_area_2020" : 219.3
+    },
+    "Gadsden, Etowah County, AL" : {
+        "name" : "Gadsden",
+        "state" : "Alabama",
+        "FIPS" : "01-28696",
+        "counties" : [
+            "Etowah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 36856,
+        "population_2020" : 33945,
+        "population_2027" : 33673,
+        "land_area_2020" : 913.5
+    },
+    "Gainesville, Sumter County, AL" : {
+        "name" : "Gainesville",
+        "state" : "Alabama",
+        "FIPS" : "01-28768",
+        "counties" : [
+            "Sumter County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 208,
+        "population_2020" : 172,
+        "population_2027" : 160,
+        "land_area_2020" : 100.0
+    },
+    "Gantt, Covington County, AL" : {
+        "name" : "Gantt",
+        "state" : "Alabama",
+        "FIPS" : "01-28936",
+        "counties" : [
+            "Covington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 222,
+        "population_2020" : 196,
+        "population_2027" : 189,
+        "land_area_2020" : 301.5
+    },
+    "Garden City, Cullman County, AL" : {
+        "name" : "Garden City",
+        "state" : "Alabama",
+        "FIPS" : "01-29032",
+        "counties" : [
+            "Cullman County",
+            "Blount County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 492,
+        "population_2020" : 528,
+        "population_2027" : 582,
+        "land_area_2020" : 175.4
+    },
+    "Gardendale, Jefferson County, AL" : {
+        "name" : "Gardendale",
+        "state" : "Alabama",
+        "FIPS" : "01-29056",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13893,
+        "population_2020" : 16044,
+        "population_2027" : 18714,
+        "land_area_2020" : 711.5
+    },
+    "Gaylesville, Cherokee County, AL" : {
+        "name" : "Gaylesville",
+        "state" : "Alabama",
+        "FIPS" : "01-29296",
+        "counties" : [
+            "Cherokee County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 144,
+        "population_2020" : 170,
+        "population_2027" : 202,
+        "land_area_2020" : 500.0
+    },
+    "Geiger, Sumter County, AL" : {
+        "name" : "Geiger",
+        "state" : "Alabama",
+        "FIPS" : "01-29392",
+        "counties" : [
+            "Sumter County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 170,
+        "population_2020" : 155,
+        "population_2027" : 153,
+        "land_area_2020" : 163.2
+    },
+    "Geneva, Geneva County, AL" : {
+        "name" : "Geneva",
+        "state" : "Alabama",
+        "FIPS" : "01-29464",
+        "counties" : [
+            "Geneva County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4452,
+        "population_2020" : 4245,
+        "population_2027" : 4308,
+        "land_area_2020" : 267.5
+    },
+    "Georgiana, Butler County, AL" : {
+        "name" : "Georgiana",
+        "state" : "Alabama",
+        "FIPS" : "01-29560",
+        "counties" : [
+            "Butler County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1738,
+        "population_2020" : 1324,
+        "population_2027" : 1174,
+        "land_area_2020" : 212.2
+    },
+    "Geraldine, DeKalb County, AL" : {
+        "name" : "Geraldine",
+        "state" : "Alabama",
+        "FIPS" : "01-29608",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 896,
+        "population_2020" : 910,
+        "population_2027" : 964,
+        "land_area_2020" : 232.1
+    },
+    "Gilbertown, Choctaw County, AL" : {
+        "name" : "Gilbertown",
+        "state" : "Alabama",
+        "FIPS" : "01-29704",
+        "counties" : [
+            "Choctaw County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 215,
+        "population_2020" : 739,
+        "population_2027" : 3533,
+        "land_area_2020" : 947.4
+    },
+    "Glen Allen, Fayette County, AL" : {
+        "name" : "Glen Allen",
+        "state" : "Alabama",
+        "FIPS" : "01-29944",
+        "counties" : [
+            "Fayette County",
+            "Marion County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 510,
+        "population_2020" : 433,
+        "population_2027" : 408,
+        "land_area_2020" : 66.1
+    },
+    "Glencoe, Etowah County, AL" : {
+        "name" : "Glencoe",
+        "state" : "Alabama",
+        "FIPS" : "01-29992",
+        "counties" : [
+            "Etowah County",
+            "Calhoun County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5160,
+        "population_2020" : 5372,
+        "population_2027" : 5794,
+        "land_area_2020" : 317.3
+    },
+    "Glenwood, Crenshaw County, AL" : {
+        "name" : "Glenwood",
+        "state" : "Alabama",
+        "FIPS" : "01-30160",
+        "counties" : [
+            "Crenshaw County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 187,
+        "population_2020" : 152,
+        "population_2027" : 140,
+        "land_area_2020" : 208.2
+    },
+    "Goldville, Tallapoosa County, AL" : {
+        "name" : "Goldville",
+        "state" : "Alabama",
+        "FIPS" : "01-30448",
+        "counties" : [
+            "Tallapoosa County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 55,
+        "population_2020" : 52,
+        "population_2027" : 52,
+        "land_area_2020" : 52.5
+    },
+    "Good Hope, Cullman County, AL" : {
+        "name" : "Good Hope",
+        "state" : "Alabama",
+        "FIPS" : "01-30496",
+        "counties" : [
+            "Cullman County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2264,
+        "population_2020" : 2483,
+        "population_2027" : 2783,
+        "land_area_2020" : 312.7
+    },
+    "Goodwater, Coosa County, AL" : {
+        "name" : "Goodwater",
+        "state" : "Alabama",
+        "FIPS" : "01-30640",
+        "counties" : [
+            "Coosa County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1475,
+        "population_2020" : 1291,
+        "population_2027" : 1240,
+        "land_area_2020" : 198.9
+    },
+    "Gordo, Pickens County, AL" : {
+        "name" : "Gordo",
+        "state" : "Alabama",
+        "FIPS" : "01-30736",
+        "counties" : [
+            "Pickens County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1750,
+        "population_2020" : 1628,
+        "population_2027" : 1625,
+        "land_area_2020" : 500.9
+    },
+    "Gordon, Houston County, AL" : {
+        "name" : "Gordon",
+        "state" : "Alabama",
+        "FIPS" : "01-30760",
+        "counties" : [
+            "Houston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 332,
+        "population_2020" : 294,
+        "population_2027" : 284,
+        "land_area_2020" : 91.9
+    },
+    "Gordonville, Lowndes County, AL" : {
+        "name" : "Gordonville",
+        "state" : "Alabama",
+        "FIPS" : "01-30808",
+        "counties" : [
+            "Lowndes County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 326,
+        "population_2020" : 245,
+        "population_2027" : 216,
+        "land_area_2020" : 44.2
+    },
+    "Goshen, Pike County, AL" : {
+        "name" : "Goshen",
+        "state" : "Alabama",
+        "FIPS" : "01-30880",
+        "counties" : [
+            "Pike County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 266,
+        "population_2020" : 269,
+        "population_2027" : 284,
+        "land_area_2020" : 105.1
+    },
+    "Grant, Marshall County, AL" : {
+        "name" : "Grant",
+        "state" : "Alabama",
+        "FIPS" : "01-31096",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 896,
+        "population_2020" : 1039,
+        "population_2027" : 1216,
+        "land_area_2020" : 583.7
+    },
+    "Graysville, Jefferson County, AL" : {
+        "name" : "Graysville",
+        "state" : "Alabama",
+        "FIPS" : "01-31384",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2165,
+        "population_2020" : 1950,
+        "population_2027" : 1907,
+        "land_area_2020" : 115.2
+    },
+    "Greensboro, Hale County, AL" : {
+        "name" : "Greensboro",
+        "state" : "Alabama",
+        "FIPS" : "01-31720",
+        "counties" : [
+            "Hale County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2497,
+        "population_2020" : 2218,
+        "population_2027" : 2150,
+        "land_area_2020" : 931.9
+    },
+    "Greenville, Butler County, AL" : {
+        "name" : "Greenville",
+        "state" : "Alabama",
+        "FIPS" : "01-31912",
+        "counties" : [
+            "Butler County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8135,
+        "population_2020" : 7374,
+        "population_2027" : 7241,
+        "land_area_2020" : 345.2
+    },
+    "Grimes, Dale County, AL" : {
+        "name" : "Grimes",
+        "state" : "Alabama",
+        "FIPS" : "01-32056",
+        "counties" : [
+            "Dale County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 558,
+        "population_2020" : 573,
+        "population_2027" : 612,
+        "land_area_2020" : 458.4
+    },
+    "Grove Hill, Clarke County, AL" : {
+        "name" : "Grove Hill",
+        "state" : "Alabama",
+        "FIPS" : "01-32080",
+        "counties" : [
+            "Clarke County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1570,
+        "population_2020" : 1818,
+        "population_2027" : 2125,
+        "land_area_2020" : 365.8
+    },
+    "Guin, Marion County, AL" : {
+        "name" : "Guin",
+        "state" : "Alabama",
+        "FIPS" : "01-32224",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2376,
+        "population_2020" : 2195,
+        "population_2027" : 2182,
+        "land_area_2020" : 146.7
+    },
+    "Gulf Shores, Baldwin County, AL" : {
+        "name" : "Gulf Shores",
+        "state" : "Alabama",
+        "FIPS" : "01-32272",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9741,
+        "population_2020" : 15014,
+        "population_2027" : 22707,
+        "land_area_2020" : 648.3
+    },
+    "Guntersville, Marshall County, AL" : {
+        "name" : "Guntersville",
+        "state" : "Alabama",
+        "FIPS" : "01-32416",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8197,
+        "population_2020" : 8553,
+        "population_2027" : 9240,
+        "land_area_2020" : 336.9
+    },
+    "Gurley, Madison County, AL" : {
+        "name" : "Gurley",
+        "state" : "Alabama",
+        "FIPS" : "01-32440",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 801,
+        "population_2020" : 816,
+        "population_2027" : 867,
+        "land_area_2020" : 231.8
+    },
+    "Gu-Win, Marion County, AL" : {
+        "name" : "Gu-Win",
+        "state" : "Alabama",
+        "FIPS" : "01-32536",
+        "counties" : [
+            "Marion County",
+            "Fayette County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 176,
+        "population_2020" : 141,
+        "population_2027" : 129,
+        "land_area_2020" : 72.7
+    },
+    "Hackleburg, Marion County, AL" : {
+        "name" : "Hackleburg",
+        "state" : "Alabama",
+        "FIPS" : "01-32560",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1516,
+        "population_2020" : 1425,
+        "population_2027" : 1432,
+        "land_area_2020" : 93.3
+    },
+    "Haleburg, Henry County, AL" : {
+        "name" : "Haleburg",
+        "state" : "Alabama",
+        "FIPS" : "01-32656",
+        "counties" : [
+            "Henry County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 103,
+        "population_2020" : 112,
+        "population_2027" : 125,
+        "land_area_2020" : 29.2
+    },
+    "Haleyville, Winston County, AL" : {
+        "name" : "Haleyville",
+        "state" : "Alabama",
+        "FIPS" : "01-32704",
+        "counties" : [
+            "Winston County",
+            "Marion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4173,
+        "population_2020" : 4361,
+        "population_2027" : 4716,
+        "land_area_2020" : 526.1
+    },
+    "Hamilton, Marion County, AL" : {
+        "name" : "Hamilton",
+        "state" : "Alabama",
+        "FIPS" : "01-32848",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6885,
+        "population_2020" : 7042,
+        "population_2027" : 7499,
+        "land_area_2020" : 185.0
+    },
+    "Hammondville, DeKalb County, AL" : {
+        "name" : "Hammondville",
+        "state" : "Alabama",
+        "FIPS" : "01-32896",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 488,
+        "population_2020" : 425,
+        "population_2027" : 407,
+        "land_area_2020" : 86.7
+    },
+    "Hanceville, Cullman County, AL" : {
+        "name" : "Hanceville",
+        "state" : "Alabama",
+        "FIPS" : "01-32968",
+        "counties" : [
+            "Cullman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2982,
+        "population_2020" : 3217,
+        "population_2027" : 3561,
+        "land_area_2020" : 764.1
+    },
+    "Harpersville, Shelby County, AL" : {
+        "name" : "Harpersville",
+        "state" : "Alabama",
+        "FIPS" : "01-33256",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1637,
+        "population_2020" : 1614,
+        "population_2027" : 1675,
+        "land_area_2020" : 77.9
+    },
+    "Hartford, Geneva County, AL" : {
+        "name" : "Hartford",
+        "state" : "Alabama",
+        "FIPS" : "01-33424",
+        "counties" : [
+            "Geneva County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2624,
+        "population_2020" : 2651,
+        "population_2027" : 2799,
+        "land_area_2020" : 424.8
+    },
+    "Hartselle, Morgan County, AL" : {
+        "name" : "Hartselle",
+        "state" : "Alabama",
+        "FIPS" : "01-33448",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14255,
+        "population_2020" : 15455,
+        "population_2027" : 17173,
+        "land_area_2020" : 950.5
+    },
+    "Hayden, Blount County, AL" : {
+        "name" : "Hayden",
+        "state" : "Alabama",
+        "FIPS" : "01-33640",
+        "counties" : [
+            "Blount County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 444,
+        "population_2020" : 1342,
+        "population_2027" : 5067,
+        "land_area_2020" : 1198.2
+    },
+    "Hayneville, Lowndes County, AL" : {
+        "name" : "Hayneville",
+        "state" : "Alabama",
+        "FIPS" : "01-33712",
+        "counties" : [
+            "Lowndes County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 932,
+        "population_2020" : 830,
+        "population_2027" : 806,
+        "land_area_2020" : 446.2
+    },
+    "Headland, Henry County, AL" : {
+        "name" : "Headland",
+        "state" : "Alabama",
+        "FIPS" : "01-33856",
+        "counties" : [
+            "Henry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4510,
+        "population_2020" : 4973,
+        "population_2027" : 5596,
+        "land_area_2020" : 164.2
+    },
+    "Heath, Covington County, AL" : {
+        "name" : "Heath",
+        "state" : "Alabama",
+        "FIPS" : "01-33904",
+        "counties" : [
+            "Covington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 254,
+        "population_2020" : 236,
+        "population_2027" : 235,
+        "land_area_2020" : 265.2
+    },
+    "Heflin, Cleburne County, AL" : {
+        "name" : "Heflin",
+        "state" : "Alabama",
+        "FIPS" : "01-33976",
+        "counties" : [
+            "Cleburne County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3480,
+        "population_2020" : 3431,
+        "population_2027" : 3561,
+        "land_area_2020" : 213.8
+    },
+    "Helena, Shelby County, AL" : {
+        "name" : "Helena",
+        "state" : "Alabama",
+        "FIPS" : "01-34024",
+        "counties" : [
+            "Shelby County",
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16793,
+        "population_2020" : 20914,
+        "population_2027" : 25948,
+        "land_area_2020" : 1027.7
+    },
+    "Henagar, DeKalb County, AL" : {
+        "name" : "Henagar",
+        "state" : "Alabama",
+        "FIPS" : "01-34096",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2344,
+        "population_2020" : 2292,
+        "population_2027" : 2366,
+        "land_area_2020" : 102.9
+    },
+    "Highland Lake, Blount County, AL" : {
+        "name" : "Highland Lake",
+        "state" : "Alabama",
+        "FIPS" : "01-34480",
+        "counties" : [
+            "Blount County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 412,
+        "population_2020" : 412,
+        "population_2027" : 432,
+        "land_area_2020" : 252.8
+    },
+    "Hillsboro, Lawrence County, AL" : {
+        "name" : "Hillsboro",
+        "state" : "Alabama",
+        "FIPS" : "01-34816",
+        "counties" : [
+            "Lawrence County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 552,
+        "population_2020" : 407,
+        "population_2027" : 355,
+        "land_area_2020" : 216.5
+    },
+    "Hobson City, Calhoun County, AL" : {
+        "name" : "Hobson City",
+        "state" : "Alabama",
+        "FIPS" : "01-35152",
+        "counties" : [
+            "Calhoun County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 771,
+        "population_2020" : 759,
+        "population_2027" : 787,
+        "land_area_2020" : 729.8
+    },
+    "Hodges, Franklin County, AL" : {
+        "name" : "Hodges",
+        "state" : "Alabama",
+        "FIPS" : "01-35200",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 288,
+        "population_2020" : 265,
+        "population_2027" : 263,
+        "land_area_2020" : 64.0
+    },
+    "Hokes Bluff, Etowah County, AL" : {
+        "name" : "Hokes Bluff",
+        "state" : "Alabama",
+        "FIPS" : "01-35392",
+        "counties" : [
+            "Etowah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4286,
+        "population_2020" : 4446,
+        "population_2027" : 4783,
+        "land_area_2020" : 372.4
+    },
+    "Holly Pond, Cullman County, AL" : {
+        "name" : "Holly Pond",
+        "state" : "Alabama",
+        "FIPS" : "01-35560",
+        "counties" : [
+            "Cullman County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 798,
+        "population_2020" : 851,
+        "population_2027" : 934,
+        "land_area_2020" : 191.7
+    },
+    "Hollywood, Jackson County, AL" : {
+        "name" : "Hollywood",
+        "state" : "Alabama",
+        "FIPS" : "01-35632",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1000,
+        "population_2020" : 914,
+        "population_2027" : 902,
+        "land_area_2020" : 102.5
+    },
+    "Homewood, Jefferson County, AL" : {
+        "name" : "Homewood",
+        "state" : "Alabama",
+        "FIPS" : "01-35800",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 25167,
+        "population_2020" : 26414,
+        "population_2027" : 28656,
+        "land_area_2020" : 3159.6
+    },
+    "Hoover, Jefferson County, AL" : {
+        "name" : "Hoover",
+        "state" : "Alabama",
+        "FIPS" : "01-35896",
+        "counties" : [
+            "Jefferson County",
+            "Shelby County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 81619,
+        "population_2020" : 92606,
+        "population_2027" : 106530,
+        "land_area_2020" : 1963.7
+    },
+    "Horn Hill, Covington County, AL" : {
+        "name" : "Horn Hill",
+        "state" : "Alabama",
+        "FIPS" : "01-36088",
+        "counties" : [
+            "Covington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 228,
+        "population_2020" : 207,
+        "population_2027" : 203,
+        "land_area_2020" : 80.9
+    },
+    "Hueytown, Jefferson County, AL" : {
+        "name" : "Hueytown",
+        "state" : "Alabama",
+        "FIPS" : "01-36448",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16105,
+        "population_2020" : 16776,
+        "population_2027" : 18101,
+        "land_area_2020" : 862.5
+    },
+    "Huntsville, Madison County, AL" : {
+        "name" : "Huntsville",
+        "state" : "Alabama",
+        "FIPS" : "01-37000",
+        "counties" : [
+            "Madison County",
+            "Limestone County",
+            "Morgan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 180105,
+        "population_2020" : 215006,
+        "population_2027" : 257550,
+        "land_area_2020" : 1028.5
+    },
+    "Hurtsboro, Russell County, AL" : {
+        "name" : "Hurtsboro",
+        "state" : "Alabama",
+        "FIPS" : "01-37096",
+        "counties" : [
+            "Russell County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 553,
+        "population_2020" : 349,
+        "population_2027" : 282,
+        "land_area_2020" : 338.8
+    },
+    "Hytop, Jackson County, AL" : {
+        "name" : "Hytop",
+        "state" : "Alabama",
+        "FIPS" : "01-37264",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 354,
+        "population_2020" : 441,
+        "population_2027" : 547,
+        "land_area_2020" : 194.3
+    },
+    "Ider, DeKalb County, AL" : {
+        "name" : "Ider",
+        "state" : "Alabama",
+        "FIPS" : "01-37312",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 723,
+        "population_2020" : 735,
+        "population_2027" : 779,
+        "land_area_2020" : 135.1
+    },
+    "Indian Springs Village, Shelby County, AL" : {
+        "name" : "Indian Springs Village",
+        "state" : "Alabama",
+        "FIPS" : "01-37465",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2363,
+        "population_2020" : 2481,
+        "population_2027" : 2692,
+        "land_area_2020" : 652.9
+    },
+    "Irondale, Jefferson County, AL" : {
+        "name" : "Irondale",
+        "state" : "Alabama",
+        "FIPS" : "01-37864",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12349,
+        "population_2020" : 13497,
+        "population_2027" : 15088,
+        "land_area_2020" : 779.7
+    },
+    "Jackson, Clarke County, AL" : {
+        "name" : "Jackson",
+        "state" : "Alabama",
+        "FIPS" : "01-38152",
+        "counties" : [
+            "Clarke County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5228,
+        "population_2020" : 4748,
+        "population_2027" : 4668,
+        "land_area_2020" : 303.6
+    },
+    "Jackson's Gap, Tallapoosa County, AL" : {
+        "name" : "Jackson's Gap",
+        "state" : "Alabama",
+        "FIPS" : "01-38248",
+        "counties" : [
+            "Tallapoosa County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 829,
+        "population_2020" : 747,
+        "population_2027" : 731,
+        "land_area_2020" : 87.7
+    },
+    "Jacksonville, Calhoun County, AL" : {
+        "name" : "Jacksonville",
+        "state" : "Alabama",
+        "FIPS" : "01-38272",
+        "counties" : [
+            "Calhoun County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12548,
+        "population_2020" : 14385,
+        "population_2027" : 16682,
+        "land_area_2020" : 1461.9
+    },
+    "Jasper, Walker County, AL" : {
+        "name" : "Jasper",
+        "state" : "Alabama",
+        "FIPS" : "01-38416",
+        "counties" : [
+            "Walker County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13857,
+        "population_2020" : 14572,
+        "population_2027" : 15831,
+        "land_area_2020" : 512.0
+    },
+    "Jemison, Chilton County, AL" : {
+        "name" : "Jemison",
+        "state" : "Alabama",
+        "FIPS" : "01-38608",
+        "counties" : [
+            "Chilton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2585,
+        "population_2020" : 2642,
+        "population_2027" : 2812,
+        "land_area_2020" : 236.1
+    },
+    "Kansas, Walker County, AL" : {
+        "name" : "Kansas",
+        "state" : "Alabama",
+        "FIPS" : "01-39280",
+        "counties" : [
+            "Walker County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 226,
+        "population_2020" : 180,
+        "population_2027" : 164,
+        "land_area_2020" : 176.5
+    },
+    "Kellyton, Coosa County, AL" : {
+        "name" : "Kellyton",
+        "state" : "Alabama",
+        "FIPS" : "01-39472",
+        "counties" : [
+            "Coosa County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 217,
+        "population_2020" : 129,
+        "population_2027" : 101,
+        "land_area_2020" : 134.4
+    },
+    "Kennedy, Lamar County, AL" : {
+        "name" : "Kennedy",
+        "state" : "Alabama",
+        "FIPS" : "01-39520",
+        "counties" : [
+            "Lamar County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 447,
+        "population_2020" : 435,
+        "population_2027" : 448,
+        "land_area_2020" : 141.7
+    },
+    "Killen, Lauderdale County, AL" : {
+        "name" : "Killen",
+        "state" : "Alabama",
+        "FIPS" : "01-39784",
+        "counties" : [
+            "Lauderdale County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1108,
+        "population_2020" : 1034,
+        "population_2027" : 1035,
+        "land_area_2020" : 524.9
+    },
+    "Kimberly, Jefferson County, AL" : {
+        "name" : "Kimberly",
+        "state" : "Alabama",
+        "FIPS" : "01-39856",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2711,
+        "population_2020" : 3841,
+        "population_2027" : 5348,
+        "land_area_2020" : 656.6
+    },
+    "Kinsey, Houston County, AL" : {
+        "name" : "Kinsey",
+        "state" : "Alabama",
+        "FIPS" : "01-40072",
+        "counties" : [
+            "Houston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2198,
+        "population_2020" : 2203,
+        "population_2027" : 2313,
+        "land_area_2020" : 182.1
+    },
+    "Kinston, Coffee County, AL" : {
+        "name" : "Kinston",
+        "state" : "Alabama",
+        "FIPS" : "01-40096",
+        "counties" : [
+            "Coffee County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 540,
+        "population_2020" : 580,
+        "population_2027" : 640,
+        "land_area_2020" : 118.6
+    },
+    "LaFayette, Chambers County, AL" : {
+        "name" : "LaFayette",
+        "state" : "Alabama",
+        "FIPS" : "01-40672",
+        "counties" : [
+            "Chambers County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3003,
+        "population_2020" : 2684,
+        "population_2027" : 2612,
+        "land_area_2020" : 302.9
+    },
+    "Lake View, Tuscaloosa County, AL" : {
+        "name" : "Lake View",
+        "state" : "Alabama",
+        "FIPS" : "01-40928",
+        "counties" : [
+            "Tuscaloosa County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1943,
+        "population_2020" : 3560,
+        "population_2027" : 6507,
+        "land_area_2020" : 2225.0
+    },
+    "Lakeview, DeKalb County, AL" : {
+        "name" : "Lakeview",
+        "state" : "Alabama",
+        "FIPS" : "01-40888",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 143,
+        "population_2020" : 161,
+        "population_2027" : 184,
+        "land_area_2020" : 255.6
+    },
+    "Lanett, Chambers County, AL" : {
+        "name" : "Lanett",
+        "state" : "Alabama",
+        "FIPS" : "01-41296",
+        "counties" : [
+            "Chambers County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6468,
+        "population_2020" : 6970,
+        "population_2027" : 7710,
+        "land_area_2020" : 1120.6
+    },
+    "Langston, Jackson County, AL" : {
+        "name" : "Langston",
+        "state" : "Alabama",
+        "FIPS" : "01-41368",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 270,
+        "population_2020" : 265,
+        "population_2027" : 274,
+        "land_area_2020" : 53.8
+    },
+    "Leeds, Jefferson County, AL" : {
+        "name" : "Leeds",
+        "state" : "Alabama",
+        "FIPS" : "01-41968",
+        "counties" : [
+            "Jefferson County",
+            "St. Clair County",
+            "Shelby County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11773,
+        "population_2020" : 12324,
+        "population_2027" : 13345,
+        "land_area_2020" : 539.1
+    },
+    "Leesburg, Cherokee County, AL" : {
+        "name" : "Leesburg",
+        "state" : "Alabama",
+        "FIPS" : "01-42016",
+        "counties" : [
+            "Cherokee County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1027,
+        "population_2020" : 911,
+        "population_2027" : 882,
+        "land_area_2020" : 141.9
+    },
+    "Leighton, Colbert County, AL" : {
+        "name" : "Leighton",
+        "state" : "Alabama",
+        "FIPS" : "01-42160",
+        "counties" : [
+            "Colbert County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 729,
+        "population_2020" : 665,
+        "population_2027" : 656,
+        "land_area_2020" : 671.7
+    },
+    "Lester, Limestone County, AL" : {
+        "name" : "Lester",
+        "state" : "Alabama",
+        "FIPS" : "01-42352",
+        "counties" : [
+            "Limestone County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 111,
+        "population_2020" : 111,
+        "population_2027" : 116,
+        "land_area_2020" : 60.7
+    },
+    "Level Plains, Dale County, AL" : {
+        "name" : "Level Plains",
+        "state" : "Alabama",
+        "FIPS" : "01-42472",
+        "counties" : [
+            "Dale County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2085,
+        "population_2020" : 1825,
+        "population_2027" : 1753,
+        "land_area_2020" : 596.4
+    },
+    "Lexington, Lauderdale County, AL" : {
+        "name" : "Lexington",
+        "state" : "Alabama",
+        "FIPS" : "01-42640",
+        "counties" : [
+            "Lauderdale County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 735,
+        "population_2020" : 727,
+        "population_2027" : 756,
+        "land_area_2020" : 224.4
+    },
+    "Libertyville, Covington County, AL" : {
+        "name" : "Libertyville",
+        "state" : "Alabama",
+        "FIPS" : "01-42808",
+        "counties" : [
+            "Covington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 117,
+        "population_2020" : 108,
+        "population_2027" : 107,
+        "land_area_2020" : 207.7
+    },
+    "Lincoln, Talladega County, AL" : {
+        "name" : "Lincoln",
+        "state" : "Alabama",
+        "FIPS" : "01-43120",
+        "counties" : [
+            "Talladega County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6266,
+        "population_2020" : 6845,
+        "population_2027" : 7649,
+        "land_area_2020" : 272.7
+    },
+    "Linden, Marengo County, AL" : {
+        "name" : "Linden",
+        "state" : "Alabama",
+        "FIPS" : "01-43240",
+        "counties" : [
+            "Marengo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2123,
+        "population_2020" : 1930,
+        "population_2027" : 1899,
+        "land_area_2020" : 539.1
+    },
+    "Lineville, Clay County, AL" : {
+        "name" : "Lineville",
+        "state" : "Alabama",
+        "FIPS" : "01-43264",
+        "counties" : [
+            "Clay County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2395,
+        "population_2020" : 2489,
+        "population_2027" : 2681,
+        "land_area_2020" : 278.4
+    },
+    "Lipscomb, Jefferson County, AL" : {
+        "name" : "Lipscomb",
+        "state" : "Alabama",
+        "FIPS" : "01-43336",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2210,
+        "population_2020" : 2086,
+        "population_2027" : 2103,
+        "land_area_2020" : 1782.9
+    },
+    "Lisman, Choctaw County, AL" : {
+        "name" : "Lisman",
+        "state" : "Alabama",
+        "FIPS" : "01-43384",
+        "counties" : [
+            "Choctaw County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 539,
+        "population_2020" : 427,
+        "population_2027" : 387,
+        "land_area_2020" : 164.9
+    },
+    "Littleville, Colbert County, AL" : {
+        "name" : "Littleville",
+        "state" : "Alabama",
+        "FIPS" : "01-43648",
+        "counties" : [
+            "Colbert County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1011,
+        "population_2020" : 1038,
+        "population_2027" : 1108,
+        "land_area_2020" : 208.9
+    },
+    "Livingston, Sumter County, AL" : {
+        "name" : "Livingston",
+        "state" : "Alabama",
+        "FIPS" : "01-43720",
+        "counties" : [
+            "Sumter County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3485,
+        "population_2020" : 3436,
+        "population_2027" : 3567,
+        "land_area_2020" : 481.9
+    },
+    "Loachapoka, Lee County, AL" : {
+        "name" : "Loachapoka",
+        "state" : "Alabama",
+        "FIPS" : "01-43744",
+        "counties" : [
+            "Lee County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 180,
+        "population_2020" : 160,
+        "population_2027" : 155,
+        "land_area_2020" : 140.4
+    },
+    "Lockhart, Covington County, AL" : {
+        "name" : "Lockhart",
+        "state" : "Alabama",
+        "FIPS" : "01-43816",
+        "counties" : [
+            "Covington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 516,
+        "population_2020" : 445,
+        "population_2027" : 424,
+        "land_area_2020" : 408.3
+    },
+    "Locust Fork, Blount County, AL" : {
+        "name" : "Locust Fork",
+        "state" : "Alabama",
+        "FIPS" : "01-43888",
+        "counties" : [
+            "Blount County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1186,
+        "population_2020" : 1192,
+        "population_2027" : 1254,
+        "land_area_2020" : 309.6
+    },
+    "Louisville, Barbour County, AL" : {
+        "name" : "Louisville",
+        "state" : "Alabama",
+        "FIPS" : "01-44344",
+        "counties" : [
+            "Barbour County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 519,
+        "population_2020" : 395,
+        "population_2027" : 350,
+        "land_area_2020" : 143.6
+    },
+    "Lowndesboro, Lowndes County, AL" : {
+        "name" : "Lowndesboro",
+        "state" : "Alabama",
+        "FIPS" : "01-44536",
+        "counties" : [
+            "Lowndes County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 115,
+        "population_2020" : 89,
+        "population_2027" : 80,
+        "land_area_2020" : 112.7
+    },
+    "Loxley, Baldwin County, AL" : {
+        "name" : "Loxley",
+        "state" : "Alabama",
+        "FIPS" : "01-44608",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1632,
+        "population_2020" : 3710,
+        "population_2027" : 8951,
+        "land_area_2020" : 116.5
+    },
+    "Luverne, Crenshaw County, AL" : {
+        "name" : "Luverne",
+        "state" : "Alabama",
+        "FIPS" : "01-44728",
+        "counties" : [
+            "Crenshaw County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2800,
+        "population_2020" : 2765,
+        "population_2027" : 2873,
+        "land_area_2020" : 176.7
+    },
+    "Lynn, Winston County, AL" : {
+        "name" : "Lynn",
+        "state" : "Alabama",
+        "FIPS" : "01-44800",
+        "counties" : [
+            "Winston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 659,
+        "population_2020" : 610,
+        "population_2027" : 607,
+        "land_area_2020" : 57.3
+    },
+    "Madison, Madison County, AL" : {
+        "name" : "Madison",
+        "state" : "Alabama",
+        "FIPS" : "01-45784",
+        "counties" : [
+            "Madison County",
+            "Limestone County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 42938,
+        "population_2020" : 56933,
+        "population_2027" : 74590,
+        "land_area_2020" : 1924.1
+    },
+    "Madrid, Houston County, AL" : {
+        "name" : "Madrid",
+        "state" : "Alabama",
+        "FIPS" : "01-45904",
+        "counties" : [
+            "Houston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 350,
+        "population_2020" : 265,
+        "population_2027" : 234,
+        "land_area_2020" : 136.6
+    },
+    "Magnolia Springs, Baldwin County, AL" : {
+        "name" : "Magnolia Springs",
+        "state" : "Alabama",
+        "FIPS" : "01-46072",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 723,
+        "population_2020" : 811,
+        "population_2027" : 925,
+        "land_area_2020" : 901.1
+    },
+    "Malvern, Geneva County, AL" : {
+        "name" : "Malvern",
+        "state" : "Alabama",
+        "FIPS" : "01-46264",
+        "counties" : [
+            "Geneva County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1448,
+        "population_2020" : 1536,
+        "population_2027" : 1679,
+        "land_area_2020" : 109.6
+    },
+    "Maplesville, Chilton County, AL" : {
+        "name" : "Maplesville",
+        "state" : "Alabama",
+        "FIPS" : "01-46504",
+        "counties" : [
+            "Chilton County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 708,
+        "population_2020" : 637,
+        "population_2027" : 623,
+        "land_area_2020" : 194.8
+    },
+    "Margaret, St. Clair County, AL" : {
+        "name" : "Margaret",
+        "state" : "Alabama",
+        "FIPS" : "01-46696",
+        "counties" : [
+            "St. Clair County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4428,
+        "population_2020" : 5106,
+        "population_2027" : 5949,
+        "land_area_2020" : 520.0
+    },
+    "Marion, Perry County, AL" : {
+        "name" : "Marion",
+        "state" : "Alabama",
+        "FIPS" : "01-46768",
+        "counties" : [
+            "Perry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3686,
+        "population_2020" : 3176,
+        "population_2027" : 3022,
+        "land_area_2020" : 300.5
+    },
+    "Maytown, Jefferson County, AL" : {
+        "name" : "Maytown",
+        "state" : "Alabama",
+        "FIPS" : "01-47728",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 385,
+        "population_2020" : 316,
+        "population_2027" : 292,
+        "land_area_2020" : 117.9
+    },
+    "McIntosh, Washington County, AL" : {
+        "name" : "McIntosh",
+        "state" : "Alabama",
+        "FIPS" : "01-45472",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 238,
+        "population_2020" : 206,
+        "population_2027" : 197,
+        "land_area_2020" : 206.0
+    },
+    "McKenzie, Butler County, AL" : {
+        "name" : "McKenzie",
+        "state" : "Alabama",
+        "FIPS" : "01-45496",
+        "counties" : [
+            "Butler County",
+            "Conecuh County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 530,
+        "population_2020" : 507,
+        "population_2027" : 516,
+        "land_area_2020" : 136.3
+    },
+    "McMullen, Pickens County, AL" : {
+        "name" : "McMullen",
+        "state" : "Alabama",
+        "FIPS" : "01-45640",
+        "counties" : [
+            "Pickens County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 10,
+        "population_2020" : 32,
+        "population_2027" : 134,
+        "land_area_2020" : 290.9
+    },
+    "Memphis, Pickens County, AL" : {
+        "name" : "Memphis",
+        "state" : "Alabama",
+        "FIPS" : "01-48052",
+        "counties" : [
+            "Pickens County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 29,
+        "population_2020" : 29,
+        "population_2027" : 30,
+        "land_area_2020" : 74.4
+    },
+    "Mentone, DeKalb County, AL" : {
+        "name" : "Mentone",
+        "state" : "Alabama",
+        "FIPS" : "01-48064",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 360,
+        "population_2020" : 319,
+        "population_2027" : 309,
+        "land_area_2020" : 68.3
+    },
+    "Midfield, Jefferson County, AL" : {
+        "name" : "Midfield",
+        "state" : "Alabama",
+        "FIPS" : "01-48376",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5365,
+        "population_2020" : 5211,
+        "population_2027" : 5354,
+        "land_area_2020" : 1966.4
+    },
+    "Midland City, Dale County, AL" : {
+        "name" : "Midland City",
+        "state" : "Alabama",
+        "FIPS" : "01-48400",
+        "counties" : [
+            "Dale County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2344,
+        "population_2020" : 2239,
+        "population_2027" : 2275,
+        "land_area_2020" : 368.3
+    },
+    "Midway, Bullock County, AL" : {
+        "name" : "Midway",
+        "state" : "Alabama",
+        "FIPS" : "01-48424",
+        "counties" : [
+            "Bullock County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 499,
+        "population_2020" : 421,
+        "population_2027" : 396,
+        "land_area_2020" : 127.2
+    },
+    "Millbrook, Elmore County, AL" : {
+        "name" : "Millbrook",
+        "state" : "Alabama",
+        "FIPS" : "01-48712",
+        "counties" : [
+            "Elmore County",
+            "Autauga County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14640,
+        "population_2020" : 16564,
+        "population_2027" : 19013,
+        "land_area_2020" : 1293.1
+    },
+    "Millport, Lamar County, AL" : {
+        "name" : "Millport",
+        "state" : "Alabama",
+        "FIPS" : "01-48808",
+        "counties" : [
+            "Lamar County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1049,
+        "population_2020" : 1010,
+        "population_2027" : 1032,
+        "land_area_2020" : 184.0
+    },
+    "Millry, Washington County, AL" : {
+        "name" : "Millry",
+        "state" : "Alabama",
+        "FIPS" : "01-48832",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 546,
+        "population_2020" : 450,
+        "population_2027" : 417,
+        "land_area_2020" : 60.1
+    },
+    "Mobile, Mobile County, AL" : {
+        "name" : "Mobile",
+        "state" : "Alabama",
+        "FIPS" : "01-50000",
+        "counties" : [
+            "Mobile County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 195111,
+        "population_2020" : 187041,
+        "population_2027" : 190490,
+        "land_area_2020" : 1586.4
+    },
+    "Monroeville, Monroe County, AL" : {
+        "name" : "Monroeville",
+        "state" : "Alabama",
+        "FIPS" : "01-50192",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6519,
+        "population_2020" : 5951,
+        "population_2027" : 5870,
+        "land_area_2020" : 445.1
+    },
+    "Montevallo, Shelby County, AL" : {
+        "name" : "Montevallo",
+        "state" : "Alabama",
+        "FIPS" : "01-50312",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6323,
+        "population_2020" : 7229,
+        "population_2027" : 8366,
+        "land_area_2020" : 574.2
+    },
+    "Montgomery, Montgomery County, AL" : {
+        "name" : "Montgomery",
+        "state" : "Alabama",
+        "FIPS" : "01-51000",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 205764,
+        "population_2020" : 200603,
+        "population_2027" : 206636,
+        "land_area_2020" : 1257.1
+    },
+    "Moody, St. Clair County, AL" : {
+        "name" : "Moody",
+        "state" : "Alabama",
+        "FIPS" : "01-51096",
+        "counties" : [
+            "St. Clair County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11726,
+        "population_2020" : 13170,
+        "population_2027" : 15031,
+        "land_area_2020" : 539.8
+    },
+    "Mooresville, Limestone County, AL" : {
+        "name" : "Mooresville",
+        "state" : "Alabama",
+        "FIPS" : "01-51264",
+        "counties" : [
+            "Limestone County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 53,
+        "population_2020" : 47,
+        "population_2027" : 46,
+        "land_area_2020" : 391.7
+    },
+    "Morris, Jefferson County, AL" : {
+        "name" : "Morris",
+        "state" : "Alabama",
+        "FIPS" : "01-51456",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1859,
+        "population_2020" : 2259,
+        "population_2027" : 2746,
+        "land_area_2020" : 745.5
+    },
+    "Mosses, Lowndes County, AL" : {
+        "name" : "Mosses",
+        "state" : "Alabama",
+        "FIPS" : "01-51520",
+        "counties" : [
+            "Lowndes County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1029,
+        "population_2020" : 834,
+        "population_2027" : 765,
+        "land_area_2020" : 175.9
+    },
+    "Moulton, Lawrence County, AL" : {
+        "name" : "Moulton",
+        "state" : "Alabama",
+        "FIPS" : "01-51600",
+        "counties" : [
+            "Lawrence County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3471,
+        "population_2020" : 3398,
+        "population_2027" : 3510,
+        "land_area_2020" : 567.3
+    },
+    "Moundville, Hale County, AL" : {
+        "name" : "Moundville",
+        "state" : "Alabama",
+        "FIPS" : "01-51648",
+        "counties" : [
+            "Hale County",
+            "Tuscaloosa County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2427,
+        "population_2020" : 3024,
+        "population_2027" : 3753,
+        "land_area_2020" : 658.8
+    },
+    "Mount Vernon, Mobile County, AL" : {
+        "name" : "Mount Vernon",
+        "state" : "Alabama",
+        "FIPS" : "01-52608",
+        "counties" : [
+            "Mobile County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1574,
+        "population_2020" : 1354,
+        "population_2027" : 1287,
+        "land_area_2020" : 259.4
+    },
+    "Mountain Brook, Jefferson County, AL" : {
+        "name" : "Mountain Brook",
+        "state" : "Alabama",
+        "FIPS" : "01-51696",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 20413,
+        "population_2020" : 22461,
+        "population_2027" : 25236,
+        "land_area_2020" : 1756.1
+    },
+    "Mulga, Jefferson County, AL" : {
+        "name" : "Mulga",
+        "state" : "Alabama",
+        "FIPS" : "01-52776",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 836,
+        "population_2020" : 784,
+        "population_2027" : 787,
+        "land_area_2020" : 1264.5
+    },
+    "Munford, Talladega County, AL" : {
+        "name" : "Munford",
+        "state" : "Alabama",
+        "FIPS" : "01-52848",
+        "counties" : [
+            "Talladega County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1292,
+        "population_2020" : 1351,
+        "population_2027" : 1462,
+        "land_area_2020" : 611.3
+    },
+    "Muscle Shoals, Colbert County, AL" : {
+        "name" : "Muscle Shoals",
+        "state" : "Alabama",
+        "FIPS" : "01-53016",
+        "counties" : [
+            "Colbert County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13146,
+        "population_2020" : 16275,
+        "population_2027" : 20091,
+        "land_area_2020" : 1048.0
+    },
+    "Myrtlewood, Marengo County, AL" : {
+        "name" : "Myrtlewood",
+        "state" : "Alabama",
+        "FIPS" : "01-53112",
+        "counties" : [
+            "Marengo County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 130,
+        "population_2020" : 70,
+        "population_2027" : 53,
+        "land_area_2020" : 27.0
+    },
+    "Napier Field, Dale County, AL" : {
+        "name" : "Napier Field",
+        "state" : "Alabama",
+        "FIPS" : "01-53256",
+        "counties" : [
+            "Dale County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 354,
+        "population_2020" : 409,
+        "population_2027" : 477,
+        "land_area_2020" : 1573.1
+    },
+    "Natural Bridge, Winston County, AL" : {
+        "name" : "Natural Bridge",
+        "state" : "Alabama",
+        "FIPS" : "01-53376",
+        "counties" : [
+            "Winston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 37,
+        "population_2020" : 32,
+        "population_2027" : 31,
+        "land_area_2020" : 74.4
+    },
+    "Nauvoo, Walker County, AL" : {
+        "name" : "Nauvoo",
+        "state" : "Alabama",
+        "FIPS" : "01-53400",
+        "counties" : [
+            "Walker County",
+            "Winston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 221,
+        "population_2020" : 185,
+        "population_2027" : 173,
+        "land_area_2020" : 186.9
+    },
+    "Nectar, Blount County, AL" : {
+        "name" : "Nectar",
+        "state" : "Alabama",
+        "FIPS" : "01-53448",
+        "counties" : [
+            "Blount County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 345,
+        "population_2020" : 379,
+        "population_2027" : 425,
+        "land_area_2020" : 209.4
+    },
+    "Needham, Choctaw County, AL" : {
+        "name" : "Needham",
+        "state" : "Alabama",
+        "FIPS" : "01-53472",
+        "counties" : [
+            "Choctaw County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 94,
+        "population_2020" : 73,
+        "population_2027" : 65,
+        "land_area_2020" : 128.1
+    },
+    "New Brockton, Coffee County, AL" : {
+        "name" : "New Brockton",
+        "state" : "Alabama",
+        "FIPS" : "01-53856",
+        "counties" : [
+            "Coffee County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1146,
+        "population_2020" : 1428,
+        "population_2027" : 1773,
+        "land_area_2020" : 178.7
+    },
+    "New Hope, Madison County, AL" : {
+        "name" : "New Hope",
+        "state" : "Alabama",
+        "FIPS" : "01-54168",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2810,
+        "population_2020" : 2889,
+        "population_2027" : 3088,
+        "land_area_2020" : 333.6
+    },
+    "New Site, Tallapoosa County, AL" : {
+        "name" : "New Site",
+        "state" : "Alabama",
+        "FIPS" : "01-54432",
+        "counties" : [
+            "Tallapoosa County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 773,
+        "population_2020" : 773,
+        "population_2027" : 810,
+        "land_area_2020" : 78.3
+    },
+    "Newbern, Hale County, AL" : {
+        "name" : "Newbern",
+        "state" : "Alabama",
+        "FIPS" : "01-53784",
+        "counties" : [
+            "Hale County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 186,
+        "population_2020" : 133,
+        "population_2027" : 114,
+        "land_area_2020" : 114.7
+    },
+    "Newton, Dale County, AL" : {
+        "name" : "Newton",
+        "state" : "Alabama",
+        "FIPS" : "01-54480",
+        "counties" : [
+            "Dale County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1511,
+        "population_2020" : 1607,
+        "population_2027" : 1760,
+        "land_area_2020" : 112.8
+    },
+    "Newville, Henry County, AL" : {
+        "name" : "Newville",
+        "state" : "Alabama",
+        "FIPS" : "01-54600",
+        "counties" : [
+            "Henry County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 539,
+        "population_2020" : 544,
+        "population_2027" : 574,
+        "land_area_2020" : 135.3
+    },
+    "North Courtland, Lawrence County, AL" : {
+        "name" : "North Courtland",
+        "state" : "Alabama",
+        "FIPS" : "01-55044",
+        "counties" : [
+            "Lawrence County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 632,
+        "population_2020" : 483,
+        "population_2027" : 429,
+        "land_area_2020" : 743.1
+    },
+    "North Johns, Jefferson County, AL" : {
+        "name" : "North Johns",
+        "state" : "Alabama",
+        "FIPS" : "01-55152",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 145,
+        "population_2020" : 127,
+        "population_2027" : 122,
+        "land_area_2020" : 635.0
+    },
+    "Northport, Tuscaloosa County, AL" : {
+        "name" : "Northport",
+        "state" : "Alabama",
+        "FIPS" : "01-55200",
+        "counties" : [
+            "Tuscaloosa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23330,
+        "population_2020" : 31125,
+        "population_2027" : 41003,
+        "land_area_2020" : 1858.2
+    },
+    "Notasulga, Macon County, AL" : {
+        "name" : "Notasulga",
+        "state" : "Alabama",
+        "FIPS" : "01-55440",
+        "counties" : [
+            "Macon County",
+            "Lee County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 965,
+        "population_2020" : 914,
+        "population_2027" : 923,
+        "land_area_2020" : 66.2
+    },
+    "Oak Grove, Talladega County, AL" : {
+        "name" : "Oak Grove",
+        "state" : "Alabama",
+        "FIPS" : "01-55752",
+        "counties" : [
+            "Talladega County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 528,
+        "population_2020" : 564,
+        "population_2027" : 620,
+        "land_area_2020" : 316.9
+    },
+    "Oak Hill, Wilcox County, AL" : {
+        "name" : "Oak Hill",
+        "state" : "Alabama",
+        "FIPS" : "01-55848",
+        "counties" : [
+            "Wilcox County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 26,
+        "population_2020" : 14,
+        "population_2027" : 11,
+        "land_area_2020" : 25.0
+    },
+    "Oakman, Walker County, AL" : {
+        "name" : "Oakman",
+        "state" : "Alabama",
+        "FIPS" : "01-55992",
+        "counties" : [
+            "Walker County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 789,
+        "population_2020" : 771,
+        "population_2027" : 795,
+        "land_area_2020" : 250.3
+    },
+    "Odenville, St. Clair County, AL" : {
+        "name" : "Odenville",
+        "state" : "Alabama",
+        "FIPS" : "01-56400",
+        "counties" : [
+            "St. Clair County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3585,
+        "population_2020" : 4969,
+        "population_2027" : 6778,
+        "land_area_2020" : 366.4
+    },
+    "Ohatchee, Calhoun County, AL" : {
+        "name" : "Ohatchee",
+        "state" : "Alabama",
+        "FIPS" : "01-56472",
+        "counties" : [
+            "Calhoun County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1170,
+        "population_2020" : 1157,
+        "population_2027" : 1203,
+        "land_area_2020" : 196.1
+    },
+    "Oneonta, Blount County, AL" : {
+        "name" : "Oneonta",
+        "state" : "Alabama",
+        "FIPS" : "01-57000",
+        "counties" : [
+            "Blount County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6567,
+        "population_2020" : 6938,
+        "population_2027" : 7563,
+        "land_area_2020" : 457.4
+    },
+    "Onycha, Covington County, AL" : {
+        "name" : "Onycha",
+        "state" : "Alabama",
+        "FIPS" : "01-57024",
+        "counties" : [
+            "Covington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 184,
+        "population_2020" : 167,
+        "population_2027" : 164,
+        "land_area_2020" : 211.4
+    },
+    "Opelika, Lee County, AL" : {
+        "name" : "Opelika",
+        "state" : "Alabama",
+        "FIPS" : "01-57048",
+        "counties" : [
+            "Lee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 26477,
+        "population_2020" : 30995,
+        "population_2027" : 36546,
+        "land_area_2020" : 520.1
+    },
+    "Opp, Covington County, AL" : {
+        "name" : "Opp",
+        "state" : "Alabama",
+        "FIPS" : "01-57120",
+        "counties" : [
+            "Covington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6659,
+        "population_2020" : 6771,
+        "population_2027" : 7181,
+        "land_area_2020" : 286.2
+    },
+    "Orange Beach, Baldwin County, AL" : {
+        "name" : "Orange Beach",
+        "state" : "Alabama",
+        "FIPS" : "01-57144",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5441,
+        "population_2020" : 8095,
+        "population_2027" : 11817,
+        "land_area_2020" : 550.7
+    },
+    "Orrville, Dallas County, AL" : {
+        "name" : "Orrville",
+        "state" : "Alabama",
+        "FIPS" : "01-57240",
+        "counties" : [
+            "Dallas County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 204,
+        "population_2020" : 150,
+        "population_2027" : 130,
+        "land_area_2020" : 144.2
+    },
+    "Owens Cross Roads, Madison County, AL" : {
+        "name" : "Owens Cross Roads",
+        "state" : "Alabama",
+        "FIPS" : "01-57504",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1521,
+        "population_2020" : 2594,
+        "population_2027" : 4368,
+        "land_area_2020" : 312.5
+    },
+    "Oxford, Calhoun County, AL" : {
+        "name" : "Oxford",
+        "state" : "Alabama",
+        "FIPS" : "01-57576",
+        "counties" : [
+            "Calhoun County",
+            "Talladega County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 21348,
+        "population_2020" : 22069,
+        "population_2027" : 23682,
+        "land_area_2020" : 719.6
+    },
+    "Ozark, Dale County, AL" : {
+        "name" : "Ozark",
+        "state" : "Alabama",
+        "FIPS" : "01-57648",
+        "counties" : [
+            "Dale County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14907,
+        "population_2020" : 14368,
+        "population_2027" : 14686,
+        "land_area_2020" : 421.5
+    },
+    "Paint Rock, Jackson County, AL" : {
+        "name" : "Paint Rock",
+        "state" : "Alabama",
+        "FIPS" : "01-57696",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 210,
+        "population_2020" : 182,
+        "population_2027" : 174,
+        "land_area_2020" : 423.3
+    },
+    "Parrish, Walker County, AL" : {
+        "name" : "Parrish",
+        "state" : "Alabama",
+        "FIPS" : "01-58272",
+        "counties" : [
+            "Walker County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 982,
+        "population_2020" : 982,
+        "population_2027" : 1029,
+        "land_area_2020" : 469.9
+    },
+    "Pelham, Shelby County, AL" : {
+        "name" : "Pelham",
+        "state" : "Alabama",
+        "FIPS" : "01-58848",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 21352,
+        "population_2020" : 24318,
+        "population_2027" : 28057,
+        "land_area_2020" : 623.2
+    },
+    "Pell City, St. Clair County, AL" : {
+        "name" : "Pell City",
+        "state" : "Alabama",
+        "FIPS" : "01-58896",
+        "counties" : [
+            "St. Clair County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12695,
+        "population_2020" : 12939,
+        "population_2027" : 13745,
+        "land_area_2020" : 522.8
+    },
+    "Pennington, Choctaw County, AL" : {
+        "name" : "Pennington",
+        "state" : "Alabama",
+        "FIPS" : "01-58968",
+        "counties" : [
+            "Choctaw County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 221,
+        "population_2020" : 329,
+        "population_2027" : 481,
+        "land_area_2020" : 167.9
+    },
+    "Perdido Beach, Baldwin County, AL" : {
+        "name" : "Perdido Beach",
+        "state" : "Alabama",
+        "FIPS" : "01-59088",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 581,
+        "population_2020" : 555,
+        "population_2027" : 564,
+        "land_area_2020" : 447.6
+    },
+    "Petrey, Crenshaw County, AL" : {
+        "name" : "Petrey",
+        "state" : "Alabama",
+        "FIPS" : "01-59328",
+        "counties" : [
+            "Crenshaw County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 58,
+        "population_2020" : 67,
+        "population_2027" : 78,
+        "land_area_2020" : 91.8
+    },
+    "Phenix City, Russell County, AL" : {
+        "name" : "Phenix City",
+        "state" : "Alabama",
+        "FIPS" : "01-59472",
+        "counties" : [
+            "Russell County",
+            "Lee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 32822,
+        "population_2020" : 38816,
+        "population_2027" : 46144,
+        "land_area_2020" : 1398.8
+    },
+    "Phil Campbell, Franklin County, AL" : {
+        "name" : "Phil Campbell",
+        "state" : "Alabama",
+        "FIPS" : "01-59496",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1148,
+        "population_2020" : 992,
+        "population_2027" : 945,
+        "land_area_2020" : 243.7
+    },
+    "Pickensville, Pickens County, AL" : {
+        "name" : "Pickensville",
+        "state" : "Alabama",
+        "FIPS" : "01-59592",
+        "counties" : [
+            "Pickens County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 608,
+        "population_2020" : 557,
+        "population_2027" : 551,
+        "land_area_2020" : 72.1
+    },
+    "Piedmont, Calhoun County, AL" : {
+        "name" : "Piedmont",
+        "state" : "Alabama",
+        "FIPS" : "01-59640",
+        "counties" : [
+            "Calhoun County",
+            "Cherokee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4878,
+        "population_2020" : 4787,
+        "population_2027" : 4953,
+        "land_area_2020" : 488.0
+    },
+    "Pike Road, Montgomery County, AL" : {
+        "name" : "Pike Road",
+        "state" : "Alabama",
+        "FIPS" : "01-59760",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5406,
+        "population_2020" : 9439,
+        "population_2027" : 16319,
+        "land_area_2020" : 298.3
+    },
+    "Pinckard, Dale County, AL" : {
+        "name" : "Pinckard",
+        "state" : "Alabama",
+        "FIPS" : "01-59832",
+        "counties" : [
+            "Dale County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 647,
+        "population_2020" : 582,
+        "population_2027" : 569,
+        "land_area_2020" : 109.2
+    },
+    "Pine Apple, Wilcox County, AL" : {
+        "name" : "Pine Apple",
+        "state" : "Alabama",
+        "FIPS" : "01-59880",
+        "counties" : [
+            "Wilcox County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 132,
+        "population_2020" : 143,
+        "population_2027" : 159,
+        "land_area_2020" : 46.1
+    },
+    "Pine Hill, Wilcox County, AL" : {
+        "name" : "Pine Hill",
+        "state" : "Alabama",
+        "FIPS" : "01-60240",
+        "counties" : [
+            "Wilcox County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 975,
+        "population_2020" : 758,
+        "population_2027" : 679,
+        "land_area_2020" : 198.4
+    },
+    "Pine Level, Autauga County, AL" : {
+        "name" : "Pine Level",
+        "state" : "Alabama",
+        "FIPS" : "01-60264",
+        "counties" : [
+            "Autauga County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4183,
+        "population_2020" : 4885,
+        "population_2027" : 5749,
+        "land_area_2020" : 25.22
+    },
+    "Pine Ridge, DeKalb County, AL" : {
+        "name" : "Pine Ridge",
+        "state" : "Alabama",
+        "FIPS" : "01-60372",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 282,
+        "population_2020" : 263,
+        "population_2027" : 263,
+        "land_area_2020" : 202.3
+    },
+    "Pinson, Jefferson County, AL" : {
+        "name" : "Pinson",
+        "state" : "Alabama",
+        "FIPS" : "01-60648",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7163,
+        "population_2020" : 7215,
+        "population_2027" : 7601,
+        "land_area_2020" : 714.4
+    },
+    "Pisgah, Jackson County, AL" : {
+        "name" : "Pisgah",
+        "state" : "Alabama",
+        "FIPS" : "01-60720",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 722,
+        "population_2020" : 681,
+        "population_2027" : 686,
+        "land_area_2020" : 141.9
+    },
+    "Pleasant Grove, Jefferson County, AL" : {
+        "name" : "Pleasant Grove",
+        "state" : "Alabama",
+        "FIPS" : "01-61008",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10110,
+        "population_2020" : 9544,
+        "population_2027" : 9621,
+        "land_area_2020" : 965.0
+    },
+    "Pleasant Groves, Jackson County, AL" : {
+        "name" : "Pleasant Groves",
+        "state" : "Alabama",
+        "FIPS" : "01-61038",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 420,
+        "population_2020" : 426,
+        "population_2027" : 451,
+        "land_area_2020" : 116.7
+    },
+    "Pollard, Escambia County, AL" : {
+        "name" : "Pollard",
+        "state" : "Alabama",
+        "FIPS" : "01-61536",
+        "counties" : [
+            "Escambia County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 137,
+        "population_2020" : 128,
+        "population_2027" : 128,
+        "land_area_2020" : 115.3
+    },
+    "Powell, DeKalb County, AL" : {
+        "name" : "Powell",
+        "state" : "Alabama",
+        "FIPS" : "01-62075",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 955,
+        "population_2020" : 901,
+        "population_2027" : 908,
+        "land_area_2020" : 181.7
+    },
+    "Prattville, Autauga County, AL" : {
+        "name" : "Prattville",
+        "state" : "Alabama",
+        "FIPS" : "01-62328",
+        "counties" : [
+            "Autauga County",
+            "Elmore County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 33960,
+        "population_2020" : 37781,
+        "population_2027" : 42807,
+        "land_area_2020" : 1149.8
+    },
+    "Priceville, Morgan County, AL" : {
+        "name" : "Priceville",
+        "state" : "Alabama",
+        "FIPS" : "01-62472",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2658,
+        "population_2020" : 3512,
+        "population_2027" : 4587,
+        "land_area_2020" : 671.5
+    },
+    "Prichard, Mobile County, AL" : {
+        "name" : "Prichard",
+        "state" : "Alabama",
+        "FIPS" : "01-62496",
+        "counties" : [
+            "Mobile County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 22659,
+        "population_2020" : 19322,
+        "population_2027" : 18269,
+        "land_area_2020" : 764.0
+    },
+    "Providence, Marengo County, AL" : {
+        "name" : "Providence",
+        "state" : "Alabama",
+        "FIPS" : "01-62688",
+        "counties" : [
+            "Marengo County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 223,
+        "population_2020" : 167,
+        "population_2027" : 147,
+        "land_area_2020" : 95.4
+    },
+    "Ragland, St. Clair County, AL" : {
+        "name" : "Ragland",
+        "state" : "Alabama",
+        "FIPS" : "01-63216",
+        "counties" : [
+            "St. Clair County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1639,
+        "population_2020" : 1693,
+        "population_2027" : 1816,
+        "land_area_2020" : 100.6
+    },
+    "Rainbow City, Etowah County, AL" : {
+        "name" : "Rainbow City",
+        "state" : "Alabama",
+        "FIPS" : "01-63288",
+        "counties" : [
+            "Etowah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9602,
+        "population_2020" : 10191,
+        "population_2027" : 11146,
+        "land_area_2020" : 400.3
+    },
+    "Rainsville, DeKalb County, AL" : {
+        "name" : "Rainsville",
+        "state" : "Alabama",
+        "FIPS" : "01-63336",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4948,
+        "population_2020" : 5505,
+        "population_2027" : 6238,
+        "land_area_2020" : 267.8
+    },
+    "Ranburne, Cleburne County, AL" : {
+        "name" : "Ranburne",
+        "state" : "Alabama",
+        "FIPS" : "01-63408",
+        "counties" : [
+            "Cleburne County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 409,
+        "population_2020" : 422,
+        "population_2027" : 452,
+        "land_area_2020" : 265.4
+    },
+    "Red Bay, Franklin County, AL" : {
+        "name" : "Red Bay",
+        "state" : "Alabama",
+        "FIPS" : "01-63576",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3158,
+        "population_2020" : 3232,
+        "population_2027" : 3443,
+        "land_area_2020" : 331.8
+    },
+    "Red Level, Covington County, AL" : {
+        "name" : "Red Level",
+        "state" : "Alabama",
+        "FIPS" : "01-63768",
+        "counties" : [
+            "Covington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 487,
+        "population_2020" : 432,
+        "population_2027" : 418,
+        "land_area_2020" : 225.0
+    },
+    "Reece City, Etowah County, AL" : {
+        "name" : "Reece City",
+        "state" : "Alabama",
+        "FIPS" : "01-63984",
+        "counties" : [
+            "Etowah County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 653,
+        "population_2020" : 615,
+        "population_2027" : 619,
+        "land_area_2020" : 172.8
+    },
+    "Reform, Pickens County, AL" : {
+        "name" : "Reform",
+        "state" : "Alabama",
+        "FIPS" : "01-64104",
+        "counties" : [
+            "Pickens County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1702,
+        "population_2020" : 1520,
+        "population_2027" : 1479,
+        "land_area_2020" : 189.8
+    },
+    "Rehobeth, Houston County, AL" : {
+        "name" : "Rehobeth",
+        "state" : "Alabama",
+        "FIPS" : "01-64152",
+        "counties" : [
+            "Houston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1297,
+        "population_2020" : 1791,
+        "population_2027" : 2435,
+        "land_area_2020" : 236.3
+    },
+    "Repton, Conecuh County, AL" : {
+        "name" : "Repton",
+        "state" : "Alabama",
+        "FIPS" : "01-64368",
+        "counties" : [
+            "Conecuh County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 282,
+        "population_2020" : 235,
+        "population_2027" : 219,
+        "land_area_2020" : 244.8
+    },
+    "Ridgeville, Etowah County, AL" : {
+        "name" : "Ridgeville",
+        "state" : "Alabama",
+        "FIPS" : "01-64656",
+        "counties" : [
+            "Etowah County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 112,
+        "population_2020" : 83,
+        "population_2027" : 72,
+        "land_area_2020" : 101.2
+    },
+    "River Falls, Covington County, AL" : {
+        "name" : "River Falls",
+        "state" : "Alabama",
+        "FIPS" : "01-64776",
+        "counties" : [
+            "Covington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 526,
+        "population_2020" : 479,
+        "population_2027" : 472,
+        "land_area_2020" : 70.0
+    },
+    "Riverside, St. Clair County, AL" : {
+        "name" : "Riverside",
+        "state" : "Alabama",
+        "FIPS" : "01-64920",
+        "counties" : [
+            "St. Clair County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2208,
+        "population_2020" : 2227,
+        "population_2027" : 2348,
+        "land_area_2020" : 256.9
+    },
+    "Riverview, Escambia County, AL" : {
+        "name" : "Riverview",
+        "state" : "Alabama",
+        "FIPS" : "01-65016",
+        "counties" : [
+            "Escambia County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 184,
+        "population_2020" : 163,
+        "population_2027" : 158,
+        "land_area_2020" : 112.4
+    },
+    "Roanoke, Randolph County, AL" : {
+        "name" : "Roanoke",
+        "state" : "Alabama",
+        "FIPS" : "01-65040",
+        "counties" : [
+            "Randolph County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6074,
+        "population_2020" : 5311,
+        "population_2027" : 5099,
+        "land_area_2020" : 283.6
+    },
+    "Robertsdale, Baldwin County, AL" : {
+        "name" : "Robertsdale",
+        "state" : "Alabama",
+        "FIPS" : "01-65208",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5276,
+        "population_2020" : 6708,
+        "population_2027" : 8471,
+        "land_area_2020" : 1230.8
+    },
+    "Rockford, Coosa County, AL" : {
+        "name" : "Rockford",
+        "state" : "Alabama",
+        "FIPS" : "01-65472",
+        "counties" : [
+            "Coosa County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 477,
+        "population_2020" : 349,
+        "population_2027" : 303,
+        "land_area_2020" : 105.4
+    },
+    "Rogersville, Lauderdale County, AL" : {
+        "name" : "Rogersville",
+        "state" : "Alabama",
+        "FIPS" : "01-66216",
+        "counties" : [
+            "Lauderdale County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1257,
+        "population_2020" : 1286,
+        "population_2027" : 1370,
+        "land_area_2020" : 424.4
+    },
+    "Rosa, Blount County, AL" : {
+        "name" : "Rosa",
+        "state" : "Alabama",
+        "FIPS" : "01-66408",
+        "counties" : [
+            "Blount County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 316,
+        "population_2020" : 376,
+        "population_2027" : 449,
+        "land_area_2020" : 99.7
+    },
+    "Russellville, Franklin County, AL" : {
+        "name" : "Russellville",
+        "state" : "Alabama",
+        "FIPS" : "01-67056",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9830,
+        "population_2020" : 10855,
+        "population_2027" : 12229,
+        "land_area_2020" : 810.1
+    },
+    "Rutledge, Crenshaw County, AL" : {
+        "name" : "Rutledge",
+        "state" : "Alabama",
+        "FIPS" : "01-67176",
+        "counties" : [
+            "Crenshaw County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 467,
+        "population_2020" : 351,
+        "population_2027" : 309,
+        "land_area_2020" : 59.9
+    },
+    "St. Florian, Lauderdale County, AL" : {
+        "name" : "St. Florian",
+        "state" : "Alabama",
+        "FIPS" : "01-67536",
+        "counties" : [
+            "Lauderdale County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 413,
+        "population_2020" : 584,
+        "population_2027" : 812,
+        "land_area_2020" : 159.1
+    },
+    "Samson, Geneva County, AL" : {
+        "name" : "Samson",
+        "state" : "Alabama",
+        "FIPS" : "01-67800",
+        "counties" : [
+            "Geneva County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1940,
+        "population_2020" : 1874,
+        "population_2027" : 1918,
+        "land_area_2020" : 517.7
+    },
+    "Sand Rock, Cherokee County, AL" : {
+        "name" : "Sand Rock",
+        "state" : "Alabama",
+        "FIPS" : "01-67920",
+        "counties" : [
+            "Cherokee County",
+            "DeKalb County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 560,
+        "population_2020" : 591,
+        "population_2027" : 644,
+        "land_area_2020" : 135.6
+    },
+    "Sanford, Covington County, AL" : {
+        "name" : "Sanford",
+        "state" : "Alabama",
+        "FIPS" : "01-68016",
+        "counties" : [
+            "Covington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 241,
+        "population_2020" : 257,
+        "population_2027" : 282,
+        "land_area_2020" : 61.5
+    },
+    "Saraland, Mobile County, AL" : {
+        "name" : "Saraland",
+        "state" : "Alabama",
+        "FIPS" : "01-68160",
+        "counties" : [
+            "Mobile County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13405,
+        "population_2020" : 16171,
+        "population_2027" : 19537,
+        "land_area_2020" : 697.6
+    },
+    "Sardis City, Etowah County, AL" : {
+        "name" : "Sardis City",
+        "state" : "Alabama",
+        "FIPS" : "01-68280",
+        "counties" : [
+            "Etowah County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1704,
+        "population_2020" : 1814,
+        "population_2027" : 1988,
+        "land_area_2020" : 231.1
+    },
+    "Satsuma, Mobile County, AL" : {
+        "name" : "Satsuma",
+        "state" : "Alabama",
+        "FIPS" : "01-68352",
+        "counties" : [
+            "Mobile County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6168,
+        "population_2020" : 6749,
+        "population_2027" : 7551,
+        "land_area_2020" : 897.5
+    },
+    "Scottsboro, Jackson County, AL" : {
+        "name" : "Scottsboro",
+        "state" : "Alabama",
+        "FIPS" : "01-68736",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14770,
+        "population_2020" : 15578,
+        "population_2027" : 16960,
+        "land_area_2020" : 307.6
+    },
+    "Section, Jackson County, AL" : {
+        "name" : "Section",
+        "state" : "Alabama",
+        "FIPS" : "01-69000",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 770,
+        "population_2020" : 756,
+        "population_2027" : 782,
+        "land_area_2020" : 165.4
+    },
+    "Selma, Dallas County, AL" : {
+        "name" : "Selma",
+        "state" : "Alabama",
+        "FIPS" : "01-69120",
+        "counties" : [
+            "Dallas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 20756,
+        "population_2020" : 17971,
+        "population_2027" : 17149,
+        "land_area_2020" : 1301.3
+    },
+    "Sheffield, Colbert County, AL" : {
+        "name" : "Sheffield",
+        "state" : "Alabama",
+        "FIPS" : "01-69648",
+        "counties" : [
+            "Colbert County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9039,
+        "population_2020" : 9403,
+        "population_2027" : 10136,
+        "land_area_2020" : 1476.1
+    },
+    "Shiloh, DeKalb County, AL" : {
+        "name" : "Shiloh",
+        "state" : "Alabama",
+        "FIPS" : "01-69840",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 274,
+        "population_2020" : 321,
+        "population_2027" : 379,
+        "land_area_2020" : 187.7
+    },
+    "Shorter, Macon County, AL" : {
+        "name" : "Shorter",
+        "state" : "Alabama",
+        "FIPS" : "01-70128",
+        "counties" : [
+            "Macon County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 474,
+        "population_2020" : 385,
+        "population_2027" : 354,
+        "land_area_2020" : 84.8
+    },
+    "Silas, Choctaw County, AL" : {
+        "name" : "Silas",
+        "state" : "Alabama",
+        "FIPS" : "01-70416",
+        "counties" : [
+            "Choctaw County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 452,
+        "population_2020" : 377,
+        "population_2027" : 352,
+        "land_area_2020" : 72.4
+    },
+    "Silverhill, Baldwin County, AL" : {
+        "name" : "Silverhill",
+        "state" : "Alabama",
+        "FIPS" : "01-70536",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 706,
+        "population_2020" : 768,
+        "population_2027" : 855,
+        "land_area_2020" : 640.0
+    },
+    "Sipsey, Walker County, AL" : {
+        "name" : "Sipsey",
+        "state" : "Alabama",
+        "FIPS" : "01-70704",
+        "counties" : [
+            "Walker County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 437,
+        "population_2020" : 363,
+        "population_2027" : 338,
+        "land_area_2020" : 756.3
+    },
+    "Skyline, Jackson County, AL" : {
+        "name" : "Skyline",
+        "state" : "Alabama",
+        "FIPS" : "01-70896",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 851,
+        "population_2020" : 834,
+        "population_2027" : 862,
+        "land_area_2020" : 209.0
+    },
+    "Slocomb, Geneva County, AL" : {
+        "name" : "Slocomb",
+        "state" : "Alabama",
+        "FIPS" : "01-71040",
+        "counties" : [
+            "Geneva County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1980,
+        "population_2020" : 2082,
+        "population_2027" : 2262,
+        "land_area_2020" : 219.4
+    },
+    "Smiths Station, Lee County, AL" : {
+        "name" : "Smiths Station",
+        "state" : "Alabama",
+        "FIPS" : "01-71190",
+        "counties" : [
+            "Lee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4926,
+        "population_2020" : 5384,
+        "population_2027" : 6019,
+        "land_area_2020" : 817.0
+    },
+    "Snead, Blount County, AL" : {
+        "name" : "Snead",
+        "state" : "Alabama",
+        "FIPS" : "01-71280",
+        "counties" : [
+            "Blount County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 835,
+        "population_2020" : 1032,
+        "population_2027" : 1272,
+        "land_area_2020" : 196.2
+    },
+    "Somerville, Morgan County, AL" : {
+        "name" : "Somerville",
+        "state" : "Alabama",
+        "FIPS" : "01-71496",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 724,
+        "population_2020" : 796,
+        "population_2027" : 894,
+        "land_area_2020" : 290.5
+    },
+    "South Vinemont, Cullman County, AL" : {
+        "name" : "South Vinemont",
+        "state" : "Alabama",
+        "FIPS" : "01-71900",
+        "counties" : [
+            "Cullman County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 749,
+        "population_2020" : 558,
+        "population_2027" : 489,
+        "land_area_2020" : 634.1
+    },
+    "Southside, Etowah County, AL" : {
+        "name" : "Southside",
+        "state" : "Alabama",
+        "FIPS" : "01-71832",
+        "counties" : [
+            "Etowah County",
+            "Calhoun County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8412,
+        "population_2020" : 9426,
+        "population_2027" : 10739,
+        "land_area_2020" : 496.6
+    },
+    "Spanish Fort, Baldwin County, AL" : {
+        "name" : "Spanish Fort",
+        "state" : "Alabama",
+        "FIPS" : "01-71976",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6798,
+        "population_2020" : 10049,
+        "population_2027" : 14577,
+        "land_area_2020" : 350.0
+    },
+    "Springville, St. Clair County, AL" : {
+        "name" : "Springville",
+        "state" : "Alabama",
+        "FIPS" : "01-72600",
+        "counties" : [
+            "St. Clair County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4080,
+        "population_2020" : 4786,
+        "population_2027" : 5652,
+        "land_area_2020" : 537.8
+    },
+    "Steele, St. Clair County, AL" : {
+        "name" : "Steele",
+        "state" : "Alabama",
+        "FIPS" : "01-72888",
+        "counties" : [
+            "St. Clair County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1043,
+        "population_2020" : 992,
+        "population_2027" : 1005,
+        "land_area_2020" : 147.8
+    },
+    "Stevenson, Jackson County, AL" : {
+        "name" : "Stevenson",
+        "state" : "Alabama",
+        "FIPS" : "01-73080",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2046,
+        "population_2020" : 1955,
+        "population_2027" : 1987,
+        "land_area_2020" : 253.2
+    },
+    "Sulligent, Lamar County, AL" : {
+        "name" : "Sulligent",
+        "state" : "Alabama",
+        "FIPS" : "01-73728",
+        "counties" : [
+            "Lamar County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1927,
+        "population_2020" : 1879,
+        "population_2027" : 1936,
+        "land_area_2020" : 240.0
+    },
+    "Sumiton, Walker County, AL" : {
+        "name" : "Sumiton",
+        "state" : "Alabama",
+        "FIPS" : "01-73848",
+        "counties" : [
+            "Walker County",
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2520,
+        "population_2020" : 2444,
+        "population_2027" : 2509,
+        "land_area_2020" : 468.2
+    },
+    "Summerdale, Baldwin County, AL" : {
+        "name" : "Summerdale",
+        "state" : "Alabama",
+        "FIPS" : "01-73872",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 862,
+        "population_2020" : 1468,
+        "population_2027" : 2468,
+        "land_area_2020" : 151.5
+    },
+    "Susan Moore, Blount County, AL" : {
+        "name" : "Susan Moore",
+        "state" : "Alabama",
+        "FIPS" : "01-74160",
+        "counties" : [
+            "Blount County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 763,
+        "population_2020" : 787,
+        "population_2027" : 843,
+        "land_area_2020" : 150.5
+    },
+    "Sweet Water, Marengo County, AL" : {
+        "name" : "Sweet Water",
+        "state" : "Alabama",
+        "FIPS" : "01-74304",
+        "counties" : [
+            "Marengo County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 258,
+        "population_2020" : 228,
+        "population_2027" : 220,
+        "land_area_2020" : 112.9
+    },
+    "Sylacauga, Talladega County, AL" : {
+        "name" : "Sylacauga",
+        "state" : "Alabama",
+        "FIPS" : "01-74352",
+        "counties" : [
+            "Talladega County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12749,
+        "population_2020" : 12578,
+        "population_2027" : 13062,
+        "land_area_2020" : 645.4
+    },
+    "Sylvan Springs, Jefferson County, AL" : {
+        "name" : "Sylvan Springs",
+        "state" : "Alabama",
+        "FIPS" : "01-74424",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1542,
+        "population_2020" : 1653,
+        "population_2027" : 1821,
+        "land_area_2020" : 190.2
+    },
+    "Sylvania, DeKalb County, AL" : {
+        "name" : "Sylvania",
+        "state" : "Alabama",
+        "FIPS" : "01-74400",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1837,
+        "population_2020" : 1790,
+        "population_2027" : 1843,
+        "land_area_2020" : 211.3
+    },
+    "Talladega Springs, Talladega County, AL" : {
+        "name" : "Talladega Springs",
+        "state" : "Alabama",
+        "FIPS" : "01-74616",
+        "counties" : [
+            "Talladega County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 166,
+        "population_2020" : 144,
+        "population_2027" : 138,
+        "land_area_2020" : 117.1
+    },
+    "Talladega, Talladega County, AL" : {
+        "name" : "Talladega",
+        "state" : "Alabama",
+        "FIPS" : "01-74592",
+        "counties" : [
+            "Talladega County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15676,
+        "population_2020" : 15861,
+        "population_2027" : 16763,
+        "land_area_2020" : 661.4
+    },
+    "Tallassee, Elmore County, AL" : {
+        "name" : "Tallassee",
+        "state" : "Alabama",
+        "FIPS" : "01-74688",
+        "counties" : [
+            "Elmore County",
+            "Tallapoosa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4819,
+        "population_2020" : 4763,
+        "population_2027" : 4952,
+        "land_area_2020" : 492.6
+    },
+    "Tarrant, Jefferson County, AL" : {
+        "name" : "Tarrant",
+        "state" : "Alabama",
+        "FIPS" : "01-74976",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6397,
+        "population_2020" : 6124,
+        "population_2027" : 6231,
+        "land_area_2020" : 962.9
+    },
+    "Taylor, Houston County, AL" : {
+        "name" : "Taylor",
+        "state" : "Alabama",
+        "FIPS" : "01-75096",
+        "counties" : [
+            "Houston County",
+            "Geneva County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2375,
+        "population_2020" : 2262,
+        "population_2027" : 2294,
+        "land_area_2020" : 307.3
+    },
+    "Thomaston, Marengo County, AL" : {
+        "name" : "Thomaston",
+        "state" : "Alabama",
+        "FIPS" : "01-75936",
+        "counties" : [
+            "Marengo County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 417,
+        "population_2020" : 326,
+        "population_2027" : 293,
+        "land_area_2020" : 162.2
+    },
+    "Thomasville, Clarke County, AL" : {
+        "name" : "Thomasville",
+        "state" : "Alabama",
+        "FIPS" : "01-75960",
+        "counties" : [
+            "Clarke County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4209,
+        "population_2020" : 3649,
+        "population_2027" : 3485,
+        "land_area_2020" : 418.0
+    },
+    "Thorsby, Chilton County, AL" : {
+        "name" : "Thorsby",
+        "state" : "Alabama",
+        "FIPS" : "01-76080",
+        "counties" : [
+            "Chilton County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1980,
+        "population_2020" : 2064,
+        "population_2027" : 2228,
+        "land_area_2020" : 402.3
+    },
+    "Town Creek, Lawrence County, AL" : {
+        "name" : "Town Creek",
+        "state" : "Alabama",
+        "FIPS" : "01-76584",
+        "counties" : [
+            "Lawrence County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1100,
+        "population_2020" : 1052,
+        "population_2027" : 1070,
+        "land_area_2020" : 392.5
+    },
+    "Toxey, Choctaw County, AL" : {
+        "name" : "Toxey",
+        "state" : "Alabama",
+        "FIPS" : "01-76632",
+        "counties" : [
+            "Choctaw County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 137,
+        "population_2020" : 145,
+        "population_2027" : 158,
+        "land_area_2020" : 213.2
+    },
+    "Trafford, Jefferson County, AL" : {
+        "name" : "Trafford",
+        "state" : "Alabama",
+        "FIPS" : "01-76680",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 646,
+        "population_2020" : 613,
+        "population_2027" : 620,
+        "land_area_2020" : 251.2
+    },
+    "Triana, Madison County, AL" : {
+        "name" : "Triana",
+        "state" : "Alabama",
+        "FIPS" : "01-76824",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 496,
+        "population_2020" : 2890,
+        "population_2027" : 14310,
+        "land_area_2020" : 2312.0
+    },
+    "Trinity, Morgan County, AL" : {
+        "name" : "Trinity",
+        "state" : "Alabama",
+        "FIPS" : "01-76872",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2095,
+        "population_2020" : 2526,
+        "population_2027" : 3051,
+        "land_area_2020" : 572.8
+    },
+    "Troy, Pike County, AL" : {
+        "name" : "Troy",
+        "state" : "Alabama",
+        "FIPS" : "01-76920",
+        "counties" : [
+            "Pike County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 18033,
+        "population_2020" : 17727,
+        "population_2027" : 18364,
+        "land_area_2020" : 641.6
+    },
+    "Trussville, Jefferson County, AL" : {
+        "name" : "Trussville",
+        "state" : "Alabama",
+        "FIPS" : "01-76944",
+        "counties" : [
+            "Jefferson County",
+            "St. Clair County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 19933,
+        "population_2020" : 26123,
+        "population_2027" : 33871,
+        "land_area_2020" : 790.9
+    },
+    "Tuscaloosa, Tuscaloosa County, AL" : {
+        "name" : "Tuscaloosa",
+        "state" : "Alabama",
+        "FIPS" : "01-77256",
+        "counties" : [
+            "Tuscaloosa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 90468,
+        "population_2020" : 99600,
+        "population_2027" : 111954,
+        "land_area_2020" : 1653.7
+    },
+    "Tuscumbia, Colbert County, AL" : {
+        "name" : "Tuscumbia",
+        "state" : "Alabama",
+        "FIPS" : "01-77280",
+        "counties" : [
+            "Colbert County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8423,
+        "population_2020" : 9054,
+        "population_2027" : 9996,
+        "land_area_2020" : 1034.7
+    },
+    "Tuskegee, Macon County, AL" : {
+        "name" : "Tuskegee",
+        "state" : "Alabama",
+        "FIPS" : "01-77304",
+        "counties" : [
+            "Macon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9865,
+        "population_2020" : 9395,
+        "population_2027" : 9526,
+        "land_area_2020" : 583.9
+    },
+    "Twin, Marion County, AL" : {
+        "name" : "Twin",
+        "state" : "Alabama",
+        "FIPS" : "01-77352",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 399,
+        "population_2020" : 359,
+        "population_2027" : 351,
+        "land_area_2020" : 106.5
+    },
+    "Union Grove, Marshall County, AL" : {
+        "name" : "Union Grove",
+        "state" : "Alabama",
+        "FIPS" : "01-77784",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 77,
+        "population_2020" : 67,
+        "population_2027" : 64,
+        "land_area_2020" : 119.6
+    },
+    "Union Springs, Bullock County, AL" : {
+        "name" : "Union Springs",
+        "state" : "Alabama",
+        "FIPS" : "01-77880",
+        "counties" : [
+            "Bullock County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3980,
+        "population_2020" : 3358,
+        "population_2027" : 3155,
+        "land_area_2020" : 506.5
+    },
+    "Union, Greene County, AL" : {
+        "name" : "Union",
+        "state" : "Alabama",
+        "FIPS" : "01-77616",
+        "counties" : [
+            "Greene County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 237,
+        "population_2020" : 180,
+        "population_2027" : 159,
+        "land_area_2020" : 219.5
+    },
+    "Uniontown, Perry County, AL" : {
+        "name" : "Uniontown",
+        "state" : "Alabama",
+        "FIPS" : "01-77904",
+        "counties" : [
+            "Perry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1775,
+        "population_2020" : 2107,
+        "population_2027" : 2512,
+        "land_area_2020" : 1584.2
+    },
+    "Valley, Chambers County, AL" : {
+        "name" : "Valley",
+        "state" : "Alabama",
+        "FIPS" : "01-78204",
+        "counties" : [
+            "Chambers County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9524,
+        "population_2020" : 10529,
+        "population_2027" : 11872,
+        "land_area_2020" : 954.6
+    },
+    "Valley Grande, Dallas County, AL" : {
+        "name" : "Valley Grande",
+        "state" : "Alabama",
+        "FIPS" : "01-78232",
+        "counties" : [
+            "Dallas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4020,
+        "population_2020" : 4190,
+        "population_2027" : 4523,
+        "land_area_2020" : 125.0
+    },
+    "Valley Head, DeKalb County, AL" : {
+        "name" : "Valley Head",
+        "state" : "Alabama",
+        "FIPS" : "01-78240",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 558,
+        "population_2020" : 577,
+        "population_2027" : 619,
+        "land_area_2020" : 166.3
+    },
+    "Vance, Tuscaloosa County, AL" : {
+        "name" : "Vance",
+        "state" : "Alabama",
+        "FIPS" : "01-78264",
+        "counties" : [
+            "Tuscaloosa County",
+            "Bibb County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1529,
+        "population_2020" : 2092,
+        "population_2027" : 2820,
+        "land_area_2020" : 205.5
+    },
+    "Vernon, Lamar County, AL" : {
+        "name" : "Vernon",
+        "state" : "Alabama",
+        "FIPS" : "01-78480",
+        "counties" : [
+            "Lamar County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2000,
+        "population_2020" : 1921,
+        "population_2027" : 1959,
+        "land_area_2020" : 326.7
+    },
+    "Vestavia Hills, Jefferson County, AL" : {
+        "name" : "Vestavia Hills",
+        "state" : "Alabama",
+        "FIPS" : "01-78552",
+        "counties" : [
+            "Jefferson County",
+            "Shelby County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 34033,
+        "population_2020" : 39102,
+        "population_2027" : 45425,
+        "land_area_2020" : 2014.5
+    },
+    "Vina, Franklin County, AL" : {
+        "name" : "Vina",
+        "state" : "Alabama",
+        "FIPS" : "01-78984",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 358,
+        "population_2020" : 325,
+        "population_2027" : 319,
+        "land_area_2020" : 67.7
+    },
+    "Vincent, Shelby County, AL" : {
+        "name" : "Vincent",
+        "state" : "Alabama",
+        "FIPS" : "01-79008",
+        "counties" : [
+            "Shelby County",
+            "St. Clair County",
+            "Talladega County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1988,
+        "population_2020" : 1982,
+        "population_2027" : 2073,
+        "land_area_2020" : 101.3
+    },
+    "Vredenburgh, Monroe County, AL" : {
+        "name" : "Vredenburgh",
+        "state" : "Alabama",
+        "FIPS" : "01-79272",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 312,
+        "population_2020" : 222,
+        "population_2027" : 190,
+        "land_area_2020" : 148.0
+    },
+    "Wadley, Randolph County, AL" : {
+        "name" : "Wadley",
+        "state" : "Alabama",
+        "FIPS" : "01-79344",
+        "counties" : [
+            "Randolph County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 751,
+        "population_2020" : 659,
+        "population_2027" : 634,
+        "land_area_2020" : 451.4
+    },
+    "Waldo, Talladega County, AL" : {
+        "name" : "Waldo",
+        "state" : "Alabama",
+        "FIPS" : "01-79488",
+        "counties" : [
+            "Talladega County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 283,
+        "population_2020" : 258,
+        "population_2027" : 254,
+        "land_area_2020" : 91.8
+    },
+    "Walnut Grove, Etowah County, AL" : {
+        "name" : "Walnut Grove",
+        "state" : "Alabama",
+        "FIPS" : "01-79728",
+        "counties" : [
+            "Etowah County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 698,
+        "population_2020" : 773,
+        "population_2027" : 873,
+        "land_area_2020" : 153.7
+    },
+    "Warrior, Jefferson County, AL" : {
+        "name" : "Warrior",
+        "state" : "Alabama",
+        "FIPS" : "01-79944",
+        "counties" : [
+            "Jefferson County",
+            "Blount County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3176,
+        "population_2020" : 3224,
+        "population_2027" : 3415,
+        "land_area_2020" : 330.0
+    },
+    "Waterloo, Lauderdale County, AL" : {
+        "name" : "Waterloo",
+        "state" : "Alabama",
+        "FIPS" : "01-80064",
+        "counties" : [
+            "Lauderdale County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 203,
+        "population_2020" : 178,
+        "population_2027" : 171,
+        "land_area_2020" : 237.3
+    },
+    "Waverly, Chambers County, AL" : {
+        "name" : "Waverly",
+        "state" : "Alabama",
+        "FIPS" : "01-80256",
+        "counties" : [
+            "Chambers County",
+            "Lee County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 145,
+        "population_2020" : 159,
+        "population_2027" : 178,
+        "land_area_2020" : 58.5
+    },
+    "Weaver, Calhoun County, AL" : {
+        "name" : "Weaver",
+        "state" : "Alabama",
+        "FIPS" : "01-80352",
+        "counties" : [
+            "Calhoun County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3038,
+        "population_2020" : 3339,
+        "population_2027" : 3748,
+        "land_area_2020" : 962.2
+    },
+    "Webb, Houston County, AL" : {
+        "name" : "Webb",
+        "state" : "Alabama",
+        "FIPS" : "01-80376",
+        "counties" : [
+            "Houston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1430,
+        "population_2020" : 1270,
+        "population_2027" : 1231,
+        "land_area_2020" : 111.4
+    },
+    "Wedowee, Randolph County, AL" : {
+        "name" : "Wedowee",
+        "state" : "Alabama",
+        "FIPS" : "01-80496",
+        "counties" : [
+            "Randolph County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 823,
+        "population_2020" : 737,
+        "population_2027" : 718,
+        "land_area_2020" : 211.2
+    },
+    "West Blocton, Bibb County, AL" : {
+        "name" : "West Blocton",
+        "state" : "Alabama",
+        "FIPS" : "01-80928",
+        "counties" : [
+            "Bibb County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1240,
+        "population_2020" : 1217,
+        "population_2027" : 1259,
+        "land_area_2020" : 266.3
+    },
+    "West Jefferson, Jefferson County, AL" : {
+        "name" : "West Jefferson",
+        "state" : "Alabama",
+        "FIPS" : "01-81336",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 338,
+        "population_2020" : 417,
+        "population_2027" : 513,
+        "land_area_2020" : 448.4
+    },
+    "West Point, Cullman County, AL" : {
+        "name" : "West Point",
+        "state" : "Alabama",
+        "FIPS" : "01-81528",
+        "counties" : [
+            "Cullman County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 586,
+        "population_2020" : 584,
+        "population_2027" : 611,
+        "land_area_2020" : 170.8
+    },
+    "Westover, Shelby County, AL" : {
+        "name" : "Westover",
+        "state" : "Alabama",
+        "FIPS" : "01-81504",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1275,
+        "population_2020" : 1766,
+        "population_2027" : 2407,
+        "land_area_2020" : 95.9
+    },
+    "Wetumpka, Elmore County, AL" : {
+        "name" : "Wetumpka",
+        "state" : "Alabama",
+        "FIPS" : "01-81720",
+        "counties" : [
+            "Elmore County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6528,
+        "population_2020" : 7220,
+        "population_2027" : 8144,
+        "land_area_2020" : 714.1
+    },
+    "White Hall, Lowndes County, AL" : {
+        "name" : "White Hall",
+        "state" : "Alabama",
+        "FIPS" : "01-81912",
+        "counties" : [
+            "Lowndes County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 858,
+        "population_2020" : 806,
+        "population_2027" : 810,
+        "land_area_2020" : 52.7
+    },
+    "Wilsonville, Shelby County, AL" : {
+        "name" : "Wilsonville",
+        "state" : "Alabama",
+        "FIPS" : "01-82848",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1827,
+        "population_2020" : 1857,
+        "population_2027" : 1969,
+        "land_area_2020" : 193.0
+    },
+    "Wilton, Shelby County, AL" : {
+        "name" : "Wilton",
+        "state" : "Alabama",
+        "FIPS" : "01-82872",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 687,
+        "population_2020" : 587,
+        "population_2027" : 556,
+        "land_area_2020" : 592.9
+    },
+    "Winfield, Marion County, AL" : {
+        "name" : "Winfield",
+        "state" : "Alabama",
+        "FIPS" : "01-82992",
+        "counties" : [
+            "Marion County",
+            "Fayette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4717,
+        "population_2020" : 4845,
+        "population_2027" : 5175,
+        "land_area_2020" : 280.4
+    },
+    "Woodland, Randolph County, AL" : {
+        "name" : "Woodland",
+        "state" : "Alabama",
+        "FIPS" : "01-83400",
+        "counties" : [
+            "Randolph County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 184,
+        "population_2020" : 221,
+        "population_2027" : 266,
+        "land_area_2020" : 141.7
+    },
+    "Woodstock, Bibb County, AL" : {
+        "name" : "Woodstock",
+        "state" : "Alabama",
+        "FIPS" : "01-83640",
+        "counties" : [
+            "Bibb County",
+            "Tuscaloosa County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1428,
+        "population_2020" : 1472,
+        "population_2027" : 1576,
+        "land_area_2020" : 207.9
+    },
+    "Woodville, Jackson County, AL" : {
+        "name" : "Woodville",
+        "state" : "Alabama",
+        "FIPS" : "01-83664",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 746,
+        "population_2020" : 746,
+        "population_2027" : 782,
+        "land_area_2020" : 112.7
+    },
+    "Yellow Bluff, Wilcox County, AL" : {
+        "name" : "Yellow Bluff",
+        "state" : "Alabama",
+        "FIPS" : "01-83976",
+        "counties" : [
+            "Wilcox County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 188,
+        "population_2020" : 208,
+        "population_2027" : 235,
+        "land_area_2020" : 452.2
+    },
+    "York, Sumter County, AL" : {
+        "name" : "York",
+        "state" : "Alabama",
+        "FIPS" : "01-84096",
+        "counties" : [
+            "Sumter County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2538,
+        "population_2020" : 2414,
+        "population_2027" : 2446,
+        "land_area_2020" : 351.4
+    }
+}

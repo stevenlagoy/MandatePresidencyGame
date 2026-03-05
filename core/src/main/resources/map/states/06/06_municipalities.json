@@ -1,0 +1,6281 @@
+{
+    "Adelanto, San Bernardino County, CA" : {
+        "name" : "Adelanto",
+        "state" : "California",
+        "FIPS" : "06-00296",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 31765,
+        "population_2020" : 38046,
+        "population_2027" : 43411,
+        "land_area_2020" : 719.6
+    },
+    "Agoura Hills, Los Angeles County, CA" : {
+        "name" : "Agoura Hills",
+        "state" : "California",
+        "FIPS" : "06-00394",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 20330,
+        "population_2020" : 20299,
+        "population_2027" : 20171,
+        "land_area_2020" : 2602.4
+    },
+    "Alameda, Alameda County, CA" : {
+        "name" : "Alameda",
+        "state" : "California",
+        "FIPS" : "06-00562",
+        "counties" : [
+            "Alameda County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 73812,
+        "population_2020" : 78280,
+        "population_2027" : 81233,
+        "land_area_2020" : 7490.9
+    },
+    "Albany, Alameda County, CA" : {
+        "name" : "Albany",
+        "state" : "California",
+        "FIPS" : "06-00674",
+        "counties" : [
+            "Alameda County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 18539,
+        "population_2020" : 20271,
+        "population_2027" : 21522,
+        "land_area_2020" : 11324.6
+    },
+    "Alhambra, Los Angeles County, CA" : {
+        "name" : "Alhambra",
+        "state" : "California",
+        "FIPS" : "06-00884",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 83089,
+        "population_2020" : 82868,
+        "population_2027" : 82280,
+        "land_area_2020" : 10860.8
+    },
+    "Aliso Viejo, Orange County, CA" : {
+        "name" : "Aliso Viejo",
+        "state" : "California",
+        "FIPS" : "06-00947",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 47823,
+        "population_2020" : 52176,
+        "population_2027" : 55304,
+        "land_area_2020" : 7529.0
+    },
+    "Alturas, Modoc County, CA" : {
+        "name" : "Alturas",
+        "state" : "California",
+        "FIPS" : "06-01444",
+        "counties" : [
+            "Modoc County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2827,
+        "population_2020" : 2715,
+        "population_2027" : 2627,
+        "land_area_2020" : 956.0
+    },
+    "Amador City, Amador County, CA" : {
+        "name" : "Amador City",
+        "state" : "California",
+        "FIPS" : "06-01514",
+        "counties" : [
+            "Amador County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 185,
+        "population_2020" : 200,
+        "population_2027" : 211,
+        "land_area_2020" : 645.2
+    },
+    "American Canyon, Napa County, CA" : {
+        "name" : "American Canyon",
+        "state" : "California",
+        "FIPS" : "06-01640",
+        "counties" : [
+            "Napa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 19454,
+        "population_2020" : 21837,
+        "population_2027" : 23657,
+        "land_area_2020" : 3585.7
+    },
+    "Anaheim, Orange County, CA" : {
+        "name" : "Anaheim",
+        "state" : "California",
+        "FIPS" : "06-02000",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 336265,
+        "population_2020" : 346824,
+        "population_2027" : 352668,
+        "land_area_2020" : 6899.2
+    },
+    "Anderson, Shasta County, CA" : {
+        "name" : "Anderson",
+        "state" : "California",
+        "FIPS" : "06-02042",
+        "counties" : [
+            "Shasta County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9932,
+        "population_2020" : 11323,
+        "population_2027" : 12416,
+        "land_area_2020" : 1610.7
+    },
+    "Angels Camp, Calaveras County, CA" : {
+        "name" : "Angels Camp",
+        "state" : "California",
+        "FIPS" : "06-02112",
+        "counties" : [
+            "Calaveras County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3836,
+        "population_2020" : 3667,
+        "population_2027" : 3537,
+        "land_area_2020" : 1010.2
+    },
+    "Antioch, Contra Costa County, CA" : {
+        "name" : "Antioch",
+        "state" : "California",
+        "FIPS" : "06-02252",
+        "counties" : [
+            "Contra Costa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 102372,
+        "population_2020" : 115291,
+        "population_2027" : 125218,
+        "land_area_2020" : 3952.4
+    },
+    "Apple Valley, San Bernardino County, CA" : {
+        "name" : "Apple Valley",
+        "state" : "California",
+        "FIPS" : "06-02364",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 69135,
+        "population_2020" : 75791,
+        "population_2027" : 80628,
+        "land_area_2020" : 984.2
+    },
+    "Arcadia, Los Angeles County, CA" : {
+        "name" : "Arcadia",
+        "state" : "California",
+        "FIPS" : "06-02462",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 56364,
+        "population_2020" : 56681,
+        "population_2027" : 56607,
+        "land_area_2020" : 5185.8
+    },
+    "Arcata, Humboldt County, CA" : {
+        "name" : "Arcata",
+        "state" : "California",
+        "FIPS" : "06-02476",
+        "counties" : [
+            "Humboldt County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 17231,
+        "population_2020" : 18857,
+        "population_2027" : 20034,
+        "land_area_2020" : 2001.8
+    },
+    "Arroyo Grande, San Luis Obispo County, CA" : {
+        "name" : "Arroyo Grande",
+        "state" : "California",
+        "FIPS" : "06-02868",
+        "counties" : [
+            "San Luis Obispo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 17252,
+        "population_2020" : 18441,
+        "population_2027" : 19249,
+        "land_area_2020" : 3104.5
+    },
+    "Artesia, Los Angeles County, CA" : {
+        "name" : "Artesia",
+        "state" : "California",
+        "FIPS" : "06-02896",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16522,
+        "population_2020" : 16395,
+        "population_2027" : 16222,
+        "land_area_2020" : 10120.4
+    },
+    "Arvin, Kern County, CA" : {
+        "name" : "Arvin",
+        "state" : "California",
+        "FIPS" : "06-02924",
+        "counties" : [
+            "Kern County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 19304,
+        "population_2020" : 19495,
+        "population_2027" : 19528,
+        "land_area_2020" : 4044.6
+    },
+    "Atascadero, San Luis Obispo County, CA" : {
+        "name" : "Atascadero",
+        "state" : "California",
+        "FIPS" : "06-03064",
+        "counties" : [
+            "San Luis Obispo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 28310,
+        "population_2020" : 29773,
+        "population_2027" : 30706,
+        "land_area_2020" : 1142.0
+    },
+    "Atherton, San Mateo County, CA" : {
+        "name" : "Atherton",
+        "state" : "California",
+        "FIPS" : "06-03092",
+        "counties" : [
+            "San Mateo County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6914,
+        "population_2020" : 7188,
+        "population_2027" : 7351,
+        "land_area_2020" : 1431.9
+    },
+    "Atwater, Merced County, CA" : {
+        "name" : "Atwater",
+        "state" : "California",
+        "FIPS" : "06-03162",
+        "counties" : [
+            "Merced County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 28168,
+        "population_2020" : 31970,
+        "population_2027" : 34934,
+        "land_area_2020" : 4866.1
+    },
+    "Auburn, Placer County, CA" : {
+        "name" : "Auburn",
+        "state" : "California",
+        "FIPS" : "06-03204",
+        "counties" : [
+            "Placer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13330,
+        "population_2020" : 13776,
+        "population_2027" : 14028,
+        "land_area_2020" : 1918.7
+    },
+    "Avalon, Los Angeles County, CA" : {
+        "name" : "Avalon",
+        "state" : "California",
+        "FIPS" : "06-03274",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3728,
+        "population_2020" : 3460,
+        "population_2027" : 3272,
+        "land_area_2020" : 1197.2
+    },
+    "Avenal, Kings County, CA" : {
+        "name" : "Avenal",
+        "state" : "California",
+        "FIPS" : "06-03302",
+        "counties" : [
+            "Kings County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15505,
+        "population_2020" : 13696,
+        "population_2027" : 12549,
+        "land_area_2020" : 703.1
+    },
+    "Azusa, Los Angeles County, CA" : {
+        "name" : "Azusa",
+        "state" : "California",
+        "FIPS" : "06-03386",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 46361,
+        "population_2020" : 50000,
+        "population_2027" : 52538,
+        "land_area_2020" : 5176.0
+    },
+    "Bakersfield, Kern County, CA" : {
+        "name" : "Bakersfield",
+        "state" : "California",
+        "FIPS" : "06-03526",
+        "counties" : [
+            "Kern County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 347483,
+        "population_2020" : 403455,
+        "population_2027" : 448879,
+        "land_area_2020" : 2693.7
+    },
+    "Baldwin Park, Los Angeles County, CA" : {
+        "name" : "Baldwin Park",
+        "state" : "California",
+        "FIPS" : "06-03666",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 75390,
+        "population_2020" : 72176,
+        "population_2027" : 69681,
+        "land_area_2020" : 10886.3
+    },
+    "Banning, Riverside County, CA" : {
+        "name" : "Banning",
+        "state" : "California",
+        "FIPS" : "06-03820",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 29603,
+        "population_2020" : 29505,
+        "population_2027" : 29282,
+        "land_area_2020" : 1269.6
+    },
+    "Barstow, San Bernardino County, CA" : {
+        "name" : "Barstow",
+        "state" : "California",
+        "FIPS" : "06-04030",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 22639,
+        "population_2020" : 25415,
+        "population_2027" : 27535,
+        "land_area_2020" : 615.4
+    },
+    "Beaumont, Riverside County, CA" : {
+        "name" : "Beaumont",
+        "state" : "California",
+        "FIPS" : "06-04758",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 36877,
+        "population_2020" : 53036,
+        "population_2027" : 71246,
+        "land_area_2020" : 1749.2
+    },
+    "Bell, Los Angeles County, CA" : {
+        "name" : "Bell",
+        "state" : "California",
+        "FIPS" : "06-04870",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 35477,
+        "population_2020" : 33559,
+        "population_2027" : 32139,
+        "land_area_2020" : 13370.1
+    },
+    "Bell Gardens, Los Angeles County, CA" : {
+        "name" : "Bell Gardens",
+        "state" : "California",
+        "FIPS" : "06-04996",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 42072,
+        "population_2020" : 39501,
+        "population_2027" : 37643,
+        "land_area_2020" : 16057.3
+    },
+    "Bellflower, Los Angeles County, CA" : {
+        "name" : "Bellflower",
+        "state" : "California",
+        "FIPS" : "06-04982",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 76616,
+        "population_2020" : 79190,
+        "population_2027" : 80648,
+        "land_area_2020" : 12939.5
+    },
+    "Belmont, San Mateo County, CA" : {
+        "name" : "Belmont",
+        "state" : "California",
+        "FIPS" : "06-05108",
+        "counties" : [
+            "San Mateo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 25835,
+        "population_2020" : 28335,
+        "population_2027" : 30154,
+        "land_area_2020" : 6119.9
+    },
+    "Belvedere, Marin County, CA" : {
+        "name" : "Belvedere",
+        "state" : "California",
+        "FIPS" : "06-05164",
+        "counties" : [
+            "Marin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2068,
+        "population_2020" : 2126,
+        "population_2027" : 2157,
+        "land_area_2020" : 4088.5
+    },
+    "Benicia, Solano County, CA" : {
+        "name" : "Benicia",
+        "state" : "California",
+        "FIPS" : "06-05290",
+        "counties" : [
+            "Solano County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 26997,
+        "population_2020" : 27131,
+        "population_2027" : 27083,
+        "land_area_2020" : 2118.0
+    },
+    "Berkeley, Alameda County, CA" : {
+        "name" : "Berkeley",
+        "state" : "California",
+        "FIPS" : "06-06000",
+        "counties" : [
+            "Alameda County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 112580,
+        "population_2020" : 124321,
+        "population_2027" : 132993,
+        "land_area_2020" : 11919.6
+    },
+    "Beverly Hills, Los Angeles County, CA" : {
+        "name" : "Beverly Hills",
+        "state" : "California",
+        "FIPS" : "06-06308",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 34109,
+        "population_2020" : 32701,
+        "population_2027" : 31601,
+        "land_area_2020" : 5727.0
+    },
+    "Big Bear Lake, San Bernardino County, CA" : {
+        "name" : "Big Bear Lake",
+        "state" : "California",
+        "FIPS" : "06-06434",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5019,
+        "population_2020" : 5046,
+        "population_2027" : 5039,
+        "land_area_2020" : 808.7
+    },
+    "Biggs, Butte County, CA" : {
+        "name" : "Biggs",
+        "state" : "California",
+        "FIPS" : "06-06560",
+        "counties" : [
+            "Butte County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1707,
+        "population_2020" : 1964,
+        "population_2027" : 2169,
+        "land_area_2020" : 2182.2
+    },
+    "Bishop, Inyo County, CA" : {
+        "name" : "Bishop",
+        "state" : "California",
+        "FIPS" : "06-06798",
+        "counties" : [
+            "Inyo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3879,
+        "population_2020" : 3819,
+        "population_2027" : 3758,
+        "land_area_2020" : 2053.2
+    },
+    "Blue Lake, Humboldt County, CA" : {
+        "name" : "Blue Lake",
+        "state" : "California",
+        "FIPS" : "06-07162",
+        "counties" : [
+            "Humboldt County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1253,
+        "population_2020" : 1208,
+        "population_2027" : 1172,
+        "land_area_2020" : 2047.5
+    },
+    "Blythe, Riverside County, CA" : {
+        "name" : "Blythe",
+        "state" : "California",
+        "FIPS" : "06-07218",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 20817,
+        "population_2020" : 18317,
+        "population_2027" : 16742,
+        "land_area_2020" : 689.1
+    },
+    "Bradbury, Los Angeles County, CA" : {
+        "name" : "Bradbury",
+        "state" : "California",
+        "FIPS" : "06-07946",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1048,
+        "population_2020" : 921,
+        "population_2027" : 841,
+        "land_area_2020" : 469.9
+    },
+    "Brawley, Imperial County, CA" : {
+        "name" : "Brawley",
+        "state" : "California",
+        "FIPS" : "06-08058",
+        "counties" : [
+            "Imperial County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 24953,
+        "population_2020" : 26416,
+        "population_2027" : 27376,
+        "land_area_2020" : 3253.2
+    },
+    "Brea, Orange County, CA" : {
+        "name" : "Brea",
+        "state" : "California",
+        "FIPS" : "06-08100",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 39282,
+        "population_2020" : 47325,
+        "population_2027" : 54259,
+        "land_area_2020" : 3888.7
+    },
+    "Brentwood, Contra Costa County, CA" : {
+        "name" : "Brentwood",
+        "state" : "California",
+        "FIPS" : "06-08142",
+        "counties" : [
+            "Contra Costa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 51481,
+        "population_2020" : 64292,
+        "population_2027" : 75973,
+        "land_area_2020" : 4323.6
+    },
+    "Brisbane, San Mateo County, CA" : {
+        "name" : "Brisbane",
+        "state" : "California",
+        "FIPS" : "06-08310",
+        "counties" : [
+            "San Mateo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4282,
+        "population_2020" : 4851,
+        "population_2027" : 5293,
+        "land_area_2020" : 1622.4
+    },
+    "Buellton, Santa Barbara County, CA" : {
+        "name" : "Buellton",
+        "state" : "California",
+        "FIPS" : "06-08758",
+        "counties" : [
+            "Santa Barbara County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4828,
+        "population_2020" : 5161,
+        "population_2027" : 5387,
+        "land_area_2020" : 3266.5
+    },
+    "Buena Park, Orange County, CA" : {
+        "name" : "Buena Park",
+        "state" : "California",
+        "FIPS" : "06-08786",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 80530,
+        "population_2020" : 84034,
+        "population_2027" : 86175,
+        "land_area_2020" : 7980.4
+    },
+    "Burbank, Los Angeles County, CA" : {
+        "name" : "Burbank",
+        "state" : "California",
+        "FIPS" : "06-08968",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 103340,
+        "population_2020" : 107337,
+        "population_2027" : 109702,
+        "land_area_2020" : 6197.3
+    },
+    "Burlingame, San Mateo County, CA" : {
+        "name" : "Burlingame",
+        "state" : "California",
+        "FIPS" : "06-09066",
+        "counties" : [
+            "San Mateo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 28806,
+        "population_2020" : 31386,
+        "population_2027" : 33234,
+        "land_area_2020" : 7149.4
+    },
+    "Calabasas, Los Angeles County, CA" : {
+        "name" : "Calabasas",
+        "state" : "California",
+        "FIPS" : "06-09598",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23058,
+        "population_2020" : 23241,
+        "population_2027" : 23248,
+        "land_area_2020" : 1695.2
+    },
+    "Calexico, Imperial County, CA" : {
+        "name" : "Calexico",
+        "state" : "California",
+        "FIPS" : "06-09710",
+        "counties" : [
+            "Imperial County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 38572,
+        "population_2020" : 38633,
+        "population_2027" : 38473,
+        "land_area_2020" : 4481.8
+    },
+    "California City, Kern County, CA" : {
+        "name" : "California City",
+        "state" : "California",
+        "FIPS" : "06-09780",
+        "counties" : [
+            "Kern County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14120,
+        "population_2020" : 14973,
+        "population_2027" : 15536,
+        "land_area_2020" : 73.5
+    },
+    "Calimesa, Riverside County, CA" : {
+        "name" : "Calimesa",
+        "state" : "California",
+        "FIPS" : "06-09864",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7879,
+        "population_2020" : 10026,
+        "population_2027" : 12040,
+        "land_area_2020" : 674.7
+    },
+    "Calipatria, Imperial County, CA" : {
+        "name" : "Calipatria",
+        "state" : "California",
+        "FIPS" : "06-09878",
+        "counties" : [
+            "Imperial County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7705,
+        "population_2020" : 6515,
+        "population_2027" : 5811,
+        "land_area_2020" : 1760.8
+    },
+    "Calistoga, Napa County, CA" : {
+        "name" : "Calistoga",
+        "state" : "California",
+        "FIPS" : "06-09892",
+        "counties" : [
+            "Napa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5155,
+        "population_2020" : 5228,
+        "population_2027" : 5252,
+        "land_area_2020" : 2026.4
+    },
+    "Camarillo, Ventura County, CA" : {
+        "name" : "Camarillo",
+        "state" : "California",
+        "FIPS" : "06-10046",
+        "counties" : [
+            "Ventura County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 65201,
+        "population_2020" : 70741,
+        "population_2027" : 74667,
+        "land_area_2020" : 3592.7
+    },
+    "Campbell, Santa Clara County, CA" : {
+        "name" : "Campbell",
+        "state" : "California",
+        "FIPS" : "06-10345",
+        "counties" : [
+            "Santa Clara County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 39349,
+        "population_2020" : 43959,
+        "population_2027" : 47446,
+        "land_area_2020" : 7230.1
+    },
+    "Canyon Lake, Riverside County, CA" : {
+        "name" : "Canyon Lake",
+        "state" : "California",
+        "FIPS" : "06-10928",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10561,
+        "population_2020" : 11082,
+        "population_2027" : 11411,
+        "land_area_2020" : 2827.0
+    },
+    "Capitola, Santa Cruz County, CA" : {
+        "name" : "Capitola",
+        "state" : "California",
+        "FIPS" : "06-11040",
+        "counties" : [
+            "Santa Cruz County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9918,
+        "population_2020" : 9938,
+        "population_2027" : 9900,
+        "land_area_2020" : 6250.3
+    },
+    "Carlsbad, San Diego County, CA" : {
+        "name" : "Carlsbad",
+        "state" : "California",
+        "FIPS" : "06-11194",
+        "counties" : [
+            "San Diego County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 105328,
+        "population_2020" : 114746,
+        "population_2027" : 121490,
+        "land_area_2020" : 3038.0
+    },
+    "Carmel-by-the-Sea, Monterey County, CA" : {
+        "name" : "Carmel-by-the-Sea",
+        "state" : "California",
+        "FIPS" : "06-11250",
+        "counties" : [
+            "Monterey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3722,
+        "population_2020" : 3220,
+        "population_2027" : 2912,
+        "land_area_2020" : 3037.7
+    },
+    "Carpinteria, Santa Barbara County, CA" : {
+        "name" : "Carpinteria",
+        "state" : "California",
+        "FIPS" : "06-11446",
+        "counties" : [
+            "Santa Barbara County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13040,
+        "population_2020" : 13264,
+        "population_2027" : 13354,
+        "land_area_2020" : 5121.2
+    },
+    "Carson, Los Angeles County, CA" : {
+        "name" : "Carson",
+        "state" : "California",
+        "FIPS" : "06-11530",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 91714,
+        "population_2020" : 95558,
+        "population_2027" : 97884,
+        "land_area_2020" : 5101.9
+    },
+    "Cathedral City, Riverside County, CA" : {
+        "name" : "Cathedral City",
+        "state" : "California",
+        "FIPS" : "06-12048",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 51200,
+        "population_2020" : 51493,
+        "population_2027" : 51429,
+        "land_area_2020" : 2289.6
+    },
+    "Ceres, Stanislaus County, CA" : {
+        "name" : "Ceres",
+        "state" : "California",
+        "FIPS" : "06-12524",
+        "counties" : [
+            "Stanislaus County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 45417,
+        "population_2020" : 49302,
+        "population_2027" : 52059,
+        "land_area_2020" : 5189.7
+    },
+    "Cerritos, Los Angeles County, CA" : {
+        "name" : "Cerritos",
+        "state" : "California",
+        "FIPS" : "06-12552",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 49041,
+        "population_2020" : 49578,
+        "population_2027" : 49698,
+        "land_area_2020" : 5679.0
+    },
+    "Chico, Butte County, CA" : {
+        "name" : "Chico",
+        "state" : "California",
+        "FIPS" : "06-13014",
+        "counties" : [
+            "Butte County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 86187,
+        "population_2020" : 101475,
+        "population_2027" : 114175,
+        "land_area_2020" : 2972.3
+    },
+    "Chino, San Bernardino County, CA" : {
+        "name" : "Chino",
+        "state" : "California",
+        "FIPS" : "06-13210",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 77983,
+        "population_2020" : 91403,
+        "population_2027" : 102468,
+        "land_area_2020" : 3086.9
+    },
+    "Chino Hills, San Bernardino County, CA" : {
+        "name" : "Chino Hills",
+        "state" : "California",
+        "FIPS" : "06-13214",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 74799,
+        "population_2020" : 78411,
+        "population_2027" : 80677,
+        "land_area_2020" : 1756.1
+    },
+    "Chowchilla, Madera County, CA" : {
+        "name" : "Chowchilla",
+        "state" : "California",
+        "FIPS" : "06-13294",
+        "counties" : [
+            "Madera County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 18720,
+        "population_2020" : 19039,
+        "population_2027" : 19167,
+        "land_area_2020" : 1716.8
+    },
+    "Chula Vista, San Diego County, CA" : {
+        "name" : "Chula Vista",
+        "state" : "California",
+        "FIPS" : "06-13392",
+        "counties" : [
+            "San Diego County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 243916,
+        "population_2020" : 275487,
+        "population_2027" : 299879,
+        "land_area_2020" : 5549.7
+    },
+    "Citrus Heights, Sacramento County, CA" : {
+        "name" : "Citrus Heights",
+        "state" : "California",
+        "FIPS" : "06-13588",
+        "counties" : [
+            "Sacramento County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 83301,
+        "population_2020" : 87583,
+        "population_2027" : 90310,
+        "land_area_2020" : 6159.1
+    },
+    "Claremont, Los Angeles County, CA" : {
+        "name" : "Claremont",
+        "state" : "California",
+        "FIPS" : "06-13756",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 34926,
+        "population_2020" : 37266,
+        "population_2027" : 38846,
+        "land_area_2020" : 2793.6
+    },
+    "Clayton, Contra Costa County, CA" : {
+        "name" : "Clayton",
+        "state" : "California",
+        "FIPS" : "06-13882",
+        "counties" : [
+            "Contra Costa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10897,
+        "population_2020" : 11070,
+        "population_2027" : 11135,
+        "land_area_2020" : 2882.8
+    },
+    "Clearlake, Lake County, CA" : {
+        "name" : "Clearlake",
+        "state" : "California",
+        "FIPS" : "06-13945",
+        "counties" : [
+            "Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15250,
+        "population_2020" : 16685,
+        "population_2027" : 17723,
+        "land_area_2020" : 1647.1
+    },
+    "Cloverdale, Sonoma County, CA" : {
+        "name" : "Cloverdale",
+        "state" : "California",
+        "FIPS" : "06-14190",
+        "counties" : [
+            "Sonoma County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8618,
+        "population_2020" : 8996,
+        "population_2027" : 9227,
+        "land_area_2020" : 2865.0
+    },
+    "Clovis, Fresno County, CA" : {
+        "name" : "Clovis",
+        "state" : "California",
+        "FIPS" : "06-14218",
+        "counties" : [
+            "Fresno County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 95631,
+        "population_2020" : 120124,
+        "population_2027" : 142655,
+        "land_area_2020" : 4725.6
+    },
+    "Coachella, Riverside County, CA" : {
+        "name" : "Coachella",
+        "state" : "California",
+        "FIPS" : "06-14260",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 40704,
+        "population_2020" : 41941,
+        "population_2027" : 42618,
+        "land_area_2020" : 1394.3
+    },
+    "Coalinga, Fresno County, CA" : {
+        "name" : "Coalinga",
+        "state" : "California",
+        "FIPS" : "06-14274",
+        "counties" : [
+            "Fresno County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13380,
+        "population_2020" : 17590,
+        "population_2027" : 21739,
+        "land_area_2020" : 2567.9
+    },
+    "Colfax, Placer County, CA" : {
+        "name" : "Colfax",
+        "state" : "California",
+        "FIPS" : "06-14498",
+        "counties" : [
+            "Placer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1963,
+        "population_2020" : 1995,
+        "population_2027" : 2007,
+        "land_area_2020" : 1414.9
+    },
+    "Colma, San Mateo County, CA" : {
+        "name" : "Colma",
+        "state" : "California",
+        "FIPS" : "06-14736",
+        "counties" : [
+            "San Mateo County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1792,
+        "population_2020" : 1507,
+        "population_2027" : 1340,
+        "land_area_2020" : 797.4
+    },
+    "Colton, San Bernardino County, CA" : {
+        "name" : "Colton",
+        "state" : "California",
+        "FIPS" : "06-14890",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 52154,
+        "population_2020" : 53909,
+        "population_2027" : 54904,
+        "land_area_2020" : 3466.8
+    },
+    "Colusa, Colusa County, CA" : {
+        "name" : "Colusa",
+        "state" : "California",
+        "FIPS" : "06-14946",
+        "counties" : [
+            "Colusa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5971,
+        "population_2020" : 6411,
+        "population_2027" : 6714,
+        "land_area_2020" : 1874.6
+    },
+    "Commerce, Los Angeles County, CA" : {
+        "name" : "Commerce",
+        "state" : "California",
+        "FIPS" : "06-14974",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12823,
+        "population_2020" : 12378,
+        "population_2027" : 12017,
+        "land_area_2020" : 1895.6
+    },
+    "Compton, Los Angeles County, CA" : {
+        "name" : "Compton",
+        "state" : "California",
+        "FIPS" : "06-15044",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 96455,
+        "population_2020" : 95740,
+        "population_2027" : 94745,
+        "land_area_2020" : 9545.4
+    },
+    "Concord, Contra Costa County, CA" : {
+        "name" : "Concord",
+        "state" : "California",
+        "FIPS" : "06-16000",
+        "counties" : [
+            "Contra Costa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 122067,
+        "population_2020" : 125410,
+        "population_2027" : 127166,
+        "land_area_2020" : 4105.1
+    },
+    "Corcoran, Kings County, CA" : {
+        "name" : "Corcoran",
+        "state" : "California",
+        "FIPS" : "06-16224",
+        "counties" : [
+            "Kings County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 24813,
+        "population_2020" : 22339,
+        "population_2027" : 20716,
+        "land_area_2020" : 2994.5
+    },
+    "Corning, Tehama County, CA" : {
+        "name" : "Corning",
+        "state" : "California",
+        "FIPS" : "06-16322",
+        "counties" : [
+            "Tehama County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7663,
+        "population_2020" : 8244,
+        "population_2027" : 8646,
+        "land_area_2020" : 2322.3
+    },
+    "Corona, Riverside County, CA" : {
+        "name" : "Corona",
+        "state" : "California",
+        "FIPS" : "06-16350",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 152374,
+        "population_2020" : 157136,
+        "population_2027" : 159767,
+        "land_area_2020" : 3934.3
+    },
+    "Coronado, San Diego County, CA" : {
+        "name" : "Coronado",
+        "state" : "California",
+        "FIPS" : "06-16378",
+        "counties" : [
+            "San Diego County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 18912,
+        "population_2020" : 20192,
+        "population_2027" : 21058,
+        "land_area_2020" : 2585.4
+    },
+    "Corte Madera, Marin County, CA" : {
+        "name" : "Corte Madera",
+        "state" : "California",
+        "FIPS" : "06-16462",
+        "counties" : [
+            "Marin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9253,
+        "population_2020" : 10222,
+        "population_2027" : 10938,
+        "land_area_2020" : 3234.8
+    },
+    "Costa Mesa, Orange County, CA" : {
+        "name" : "Costa Mesa",
+        "state" : "California",
+        "FIPS" : "06-16532",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 109960,
+        "population_2020" : 111918,
+        "population_2027" : 112728,
+        "land_area_2020" : 7078.9
+    },
+    "Cotati, Sonoma County, CA" : {
+        "name" : "Cotati",
+        "state" : "California",
+        "FIPS" : "06-16560",
+        "counties" : [
+            "Sonoma County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7265,
+        "population_2020" : 7584,
+        "population_2027" : 7779,
+        "land_area_2020" : 4055.6
+    },
+    "Covina, Los Angeles County, CA" : {
+        "name" : "Covina",
+        "state" : "California",
+        "FIPS" : "06-16742",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 47796,
+        "population_2020" : 51268,
+        "population_2027" : 53652,
+        "land_area_2020" : 7282.4
+    },
+    "Crescent City, Del Norte County, CA" : {
+        "name" : "Crescent City",
+        "state" : "California",
+        "FIPS" : "06-17022",
+        "counties" : [
+            "Del Norte County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7643,
+        "population_2020" : 6673,
+        "population_2027" : 6070,
+        "land_area_2020" : 3404.6
+    },
+    "Cudahy, Los Angeles County, CA" : {
+        "name" : "Cudahy",
+        "state" : "California",
+        "FIPS" : "06-17498",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23805,
+        "population_2020" : 22811,
+        "population_2027" : 22036,
+        "land_area_2020" : 19331.4
+    },
+    "Culver City, Los Angeles County, CA" : {
+        "name" : "Culver City",
+        "state" : "California",
+        "FIPS" : "06-17568",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 38883,
+        "population_2020" : 40779,
+        "population_2027" : 41972,
+        "land_area_2020" : 7980.2
+    },
+    "Cupertino, Santa Clara County, CA" : {
+        "name" : "Cupertino",
+        "state" : "California",
+        "FIPS" : "06-17610",
+        "counties" : [
+            "Santa Clara County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 58302,
+        "population_2020" : 60381,
+        "population_2027" : 61581,
+        "land_area_2020" : 5329.3
+    },
+    "Cypress, Orange County, CA" : {
+        "name" : "Cypress",
+        "state" : "California",
+        "FIPS" : "06-17750",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 47802,
+        "population_2020" : 50151,
+        "population_2027" : 51631,
+        "land_area_2020" : 7587.1
+    },
+    "Daly City, San Mateo County, CA" : {
+        "name" : "Daly City",
+        "state" : "California",
+        "FIPS" : "06-17918",
+        "counties" : [
+            "San Mateo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 101123,
+        "population_2020" : 104901,
+        "population_2027" : 107113,
+        "land_area_2020" : 13730.5
+    },
+    "Dana Point, Orange County, CA" : {
+        "name" : "Dana Point",
+        "state" : "California",
+        "FIPS" : "06-17946",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 33351,
+        "population_2020" : 33107,
+        "population_2027" : 32765,
+        "land_area_2020" : 5101.2
+    },
+    "Danville, Contra Costa County, CA" : {
+        "name" : "Danville",
+        "state" : "California",
+        "FIPS" : "06-17988",
+        "counties" : [
+            "Contra Costa County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 42039,
+        "population_2020" : 43582,
+        "population_2027" : 44481,
+        "land_area_2020" : 2410.5
+    },
+    "Davis, Yolo County, CA" : {
+        "name" : "Davis",
+        "state" : "California",
+        "FIPS" : "06-18100",
+        "counties" : [
+            "Yolo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 65622,
+        "population_2020" : 66850,
+        "population_2027" : 67376,
+        "land_area_2020" : 6705.1
+    },
+    "Del Mar, San Diego County, CA" : {
+        "name" : "Del Mar",
+        "state" : "California",
+        "FIPS" : "06-18506",
+        "counties" : [
+            "San Diego County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4161,
+        "population_2020" : 3954,
+        "population_2027" : 3798,
+        "land_area_2020" : 2298.8
+    },
+    "Del Rey Oaks, Monterey County, CA" : {
+        "name" : "Del Rey Oaks",
+        "state" : "California",
+        "FIPS" : "06-18688",
+        "counties" : [
+            "Monterey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1624,
+        "population_2020" : 1592,
+        "population_2027" : 1562,
+        "land_area_2020" : 1516.2
+    },
+    "Delano, Kern County, CA" : {
+        "name" : "Delano",
+        "state" : "California",
+        "FIPS" : "06-18394",
+        "counties" : [
+            "Kern County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 53041,
+        "population_2020" : 51428,
+        "population_2027" : 50079,
+        "land_area_2020" : 3493.8
+    },
+    "Desert Hot Springs, Riverside County, CA" : {
+        "name" : "Desert Hot Springs",
+        "state" : "California",
+        "FIPS" : "06-18996",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 25938,
+        "population_2020" : 32512,
+        "population_2027" : 38540,
+        "land_area_2020" : 1074.1
+    },
+    "Diamond Bar, Los Angeles County, CA" : {
+        "name" : "Diamond Bar",
+        "state" : "California",
+        "FIPS" : "06-19192",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 55544,
+        "population_2020" : 55072,
+        "population_2027" : 54458,
+        "land_area_2020" : 3703.6
+    },
+    "Dinuba, Tulare County, CA" : {
+        "name" : "Dinuba",
+        "state" : "California",
+        "FIPS" : "06-19318",
+        "counties" : [
+            "Tulare County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 21453,
+        "population_2020" : 24563,
+        "population_2027" : 27026,
+        "land_area_2020" : 3773.1
+    },
+    "Dixon, Solano County, CA" : {
+        "name" : "Dixon",
+        "state" : "California",
+        "FIPS" : "06-19402",
+        "counties" : [
+            "Solano County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 18351,
+        "population_2020" : 18988,
+        "population_2027" : 19353,
+        "land_area_2020" : 2674.4
+    },
+    "Dorris, Siskiyou County, CA" : {
+        "name" : "Dorris",
+        "state" : "California",
+        "FIPS" : "06-19584",
+        "counties" : [
+            "Siskiyou County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 939,
+        "population_2020" : 860,
+        "population_2027" : 806,
+        "land_area_2020" : 1228.6
+    },
+    "Dos Palos, Merced County, CA" : {
+        "name" : "Dos Palos",
+        "state" : "California",
+        "FIPS" : "06-19612",
+        "counties" : [
+            "Merced County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4950,
+        "population_2020" : 5798,
+        "population_2027" : 6496,
+        "land_area_2020" : 4294.8
+    },
+    "Downey, Los Angeles County, CA" : {
+        "name" : "Downey",
+        "state" : "California",
+        "FIPS" : "06-19766",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 111772,
+        "population_2020" : 114355,
+        "population_2027" : 115610,
+        "land_area_2020" : 9214.7
+    },
+    "Duarte, Los Angeles County, CA" : {
+        "name" : "Duarte",
+        "state" : "California",
+        "FIPS" : "06-19990",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 21321,
+        "population_2020" : 21727,
+        "population_2027" : 21903,
+        "land_area_2020" : 3238.0
+    },
+    "Dublin, Alameda County, CA" : {
+        "name" : "Dublin",
+        "state" : "California",
+        "FIPS" : "06-20018",
+        "counties" : [
+            "Alameda County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 46036,
+        "population_2020" : 72589,
+        "population_2027" : 106952,
+        "land_area_2020" : 4766.2
+    },
+    "Dunsmuir, Siskiyou County, CA" : {
+        "name" : "Dunsmuir",
+        "state" : "California",
+        "FIPS" : "06-20242",
+        "counties" : [
+            "Siskiyou County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1650,
+        "population_2020" : 1707,
+        "population_2027" : 1740,
+        "land_area_2020" : 1066.9
+    },
+    "East Palo Alto, San Mateo County, CA" : {
+        "name" : "East Palo Alto",
+        "state" : "California",
+        "FIPS" : "06-20956",
+        "counties" : [
+            "San Mateo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 28155,
+        "population_2020" : 30034,
+        "population_2027" : 31302,
+        "land_area_2020" : 11871.1
+    },
+    "Eastvale, Riverside County, CA" : {
+        "name" : "Eastvale",
+        "state" : "California",
+        "FIPS" : "06-21230",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 53670,
+        "population_2020" : 69757,
+        "population_2027" : 85341,
+        "land_area_2020" : 5505.7
+    },
+    "El Cajon, San Diego County, CA" : {
+        "name" : "El Cajon",
+        "state" : "California",
+        "FIPS" : "06-21712",
+        "counties" : [
+            "San Diego County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 99478,
+        "population_2020" : 106215,
+        "population_2027" : 110774,
+        "land_area_2020" : 7320.1
+    },
+    "El Centro, Imperial County, CA" : {
+        "name" : "El Centro",
+        "state" : "California",
+        "FIPS" : "06-21782",
+        "counties" : [
+            "Imperial County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 42598,
+        "population_2020" : 44322,
+        "population_2027" : 45355,
+        "land_area_2020" : 3743.4
+    },
+    "El Cerrito, Contra Costa County, CA" : {
+        "name" : "El Cerrito",
+        "state" : "California",
+        "FIPS" : "06-21810",
+        "counties" : [
+            "Contra Costa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23549,
+        "population_2020" : 25962,
+        "population_2027" : 27738,
+        "land_area_2020" : 7074.1
+    },
+    "El Monte, Los Angeles County, CA" : {
+        "name" : "El Monte",
+        "state" : "California",
+        "FIPS" : "06-22230",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 113475,
+        "population_2020" : 109450,
+        "population_2027" : 106200,
+        "land_area_2020" : 11448.7
+    },
+    "El Segundo, Los Angeles County, CA" : {
+        "name" : "El Segundo",
+        "state" : "California",
+        "FIPS" : "06-22412",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16654,
+        "population_2020" : 17272,
+        "population_2027" : 17633,
+        "land_area_2020" : 3163.4
+    },
+    "Elk Grove, Sacramento County, CA" : {
+        "name" : "Elk Grove",
+        "state" : "California",
+        "FIPS" : "06-22020",
+        "counties" : [
+            "Sacramento County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 153015,
+        "population_2020" : 176124,
+        "population_2027" : 194599,
+        "land_area_2020" : 4194.4
+    },
+    "Emeryville, Alameda County, CA" : {
+        "name" : "Emeryville",
+        "state" : "California",
+        "FIPS" : "06-22594",
+        "counties" : [
+            "Alameda County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10080,
+        "population_2020" : 12905,
+        "population_2027" : 15580,
+        "land_area_2020" : 10161.4
+    },
+    "Encinitas, San Diego County, CA" : {
+        "name" : "Encinitas",
+        "state" : "California",
+        "FIPS" : "06-22678",
+        "counties" : [
+            "San Diego County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 59518,
+        "population_2020" : 62007,
+        "population_2027" : 63512,
+        "land_area_2020" : 3253.3
+    },
+    "Escalon, San Joaquin County, CA" : {
+        "name" : "Escalon",
+        "state" : "California",
+        "FIPS" : "06-22790",
+        "counties" : [
+            "San Joaquin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7132,
+        "population_2020" : 7472,
+        "population_2027" : 7685,
+        "land_area_2020" : 3277.2
+    },
+    "Escondido, San Diego County, CA" : {
+        "name" : "Escondido",
+        "state" : "California",
+        "FIPS" : "06-22804",
+        "counties" : [
+            "San Diego County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 143911,
+        "population_2020" : 151038,
+        "population_2027" : 155537,
+        "land_area_2020" : 4043.9
+    },
+    "Etna, Siskiyou County, CA" : {
+        "name" : "Etna",
+        "state" : "California",
+        "FIPS" : "06-22972",
+        "counties" : [
+            "Siskiyou County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 737,
+        "population_2020" : 678,
+        "population_2027" : 638,
+        "land_area_2020" : 892.1
+    },
+    "Eureka, Humboldt County, CA" : {
+        "name" : "Eureka",
+        "state" : "California",
+        "FIPS" : "06-23042",
+        "counties" : [
+            "Humboldt County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 27191,
+        "population_2020" : 26512,
+        "population_2027" : 25915,
+        "land_area_2020" : 2779.0
+    },
+    "Exeter, Tulare County, CA" : {
+        "name" : "Exeter",
+        "state" : "California",
+        "FIPS" : "06-23126",
+        "counties" : [
+            "Tulare County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10334,
+        "population_2020" : 10321,
+        "population_2027" : 10258,
+        "land_area_2020" : 4195.5
+    },
+    "Fairfax, Marin County, CA" : {
+        "name" : "Fairfax",
+        "state" : "California",
+        "FIPS" : "06-23168",
+        "counties" : [
+            "Marin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7441,
+        "population_2020" : 7605,
+        "population_2027" : 7683,
+        "land_area_2020" : 3410.3
+    },
+    "Fairfield, Solano County, CA" : {
+        "name" : "Fairfield",
+        "state" : "California",
+        "FIPS" : "06-23182",
+        "counties" : [
+            "Solano County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 105321,
+        "population_2020" : 119881,
+        "population_2027" : 131292,
+        "land_area_2020" : 2882.4
+    },
+    "Farmersville, Tulare County, CA" : {
+        "name" : "Farmersville",
+        "state" : "California",
+        "FIPS" : "06-23616",
+        "counties" : [
+            "Tulare County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10588,
+        "population_2020" : 10397,
+        "population_2027" : 10213,
+        "land_area_2020" : 4725.9
+    },
+    "Ferndale, Humboldt County, CA" : {
+        "name" : "Ferndale",
+        "state" : "California",
+        "FIPS" : "06-23910",
+        "counties" : [
+            "Humboldt County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1371,
+        "population_2020" : 1398,
+        "population_2027" : 1410,
+        "land_area_2020" : 1165.0
+    },
+    "Fillmore, Ventura County, CA" : {
+        "name" : "Fillmore",
+        "state" : "California",
+        "FIPS" : "06-24092",
+        "counties" : [
+            "Ventura County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15002,
+        "population_2020" : 16419,
+        "population_2027" : 17445,
+        "land_area_2020" : 4975.5
+    },
+    "Firebaugh, Fresno County, CA" : {
+        "name" : "Firebaugh",
+        "state" : "California",
+        "FIPS" : "06-24134",
+        "counties" : [
+            "Fresno County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7549,
+        "population_2020" : 8096,
+        "population_2027" : 8471,
+        "land_area_2020" : 2300.0
+    },
+    "Folsom, Sacramento County, CA" : {
+        "name" : "Folsom",
+        "state" : "California",
+        "FIPS" : "06-24638",
+        "counties" : [
+            "Sacramento County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 72203,
+        "population_2020" : 80454,
+        "population_2027" : 86663,
+        "land_area_2020" : 2885.7
+    },
+    "Fontana, San Bernardino County, CA" : {
+        "name" : "Fontana",
+        "state" : "California",
+        "FIPS" : "06-24680",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 196069,
+        "population_2020" : 208393,
+        "population_2027" : 216603,
+        "land_area_2020" : 4838.5
+    },
+    "Fort Bragg, Mendocino County, CA" : {
+        "name" : "Fort Bragg",
+        "state" : "California",
+        "FIPS" : "06-25058",
+        "counties" : [
+            "Mendocino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7273,
+        "population_2020" : 6983,
+        "population_2027" : 6755,
+        "land_area_2020" : 2407.9
+    },
+    "Fort Jones, Siskiyou County, CA" : {
+        "name" : "Fort Jones",
+        "state" : "California",
+        "FIPS" : "06-25128",
+        "counties" : [
+            "Siskiyou County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 839,
+        "population_2020" : 695,
+        "population_2027" : 612,
+        "land_area_2020" : 1158.3
+    },
+    "Fortuna, Humboldt County, CA" : {
+        "name" : "Fortuna",
+        "state" : "California",
+        "FIPS" : "06-25296",
+        "counties" : [
+            "Humboldt County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11926,
+        "population_2020" : 12516,
+        "population_2027" : 12888,
+        "land_area_2020" : 2384.0
+    },
+    "Foster City, San Mateo County, CA" : {
+        "name" : "Foster City",
+        "state" : "California",
+        "FIPS" : "06-25338",
+        "counties" : [
+            "San Mateo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 30567,
+        "population_2020" : 33805,
+        "population_2027" : 36204,
+        "land_area_2020" : 8919.5
+    },
+    "Fountain Valley, Orange County, CA" : {
+        "name" : "Fountain Valley",
+        "state" : "California",
+        "FIPS" : "06-25380",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 55313,
+        "population_2020" : 57047,
+        "population_2027" : 58006,
+        "land_area_2020" : 6289.6
+    },
+    "Fowler, Fresno County, CA" : {
+        "name" : "Fowler",
+        "state" : "California",
+        "FIPS" : "06-25436",
+        "counties" : [
+            "Fresno County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5570,
+        "population_2020" : 6700,
+        "population_2027" : 7672,
+        "land_area_2020" : 2648.2
+    },
+    "Fremont, Alameda County, CA" : {
+        "name" : "Fremont",
+        "state" : "California",
+        "FIPS" : "06-26000",
+        "counties" : [
+            "Alameda County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 214089,
+        "population_2020" : 230504,
+        "population_2027" : 241900,
+        "land_area_2020" : 2943.5
+    },
+    "Fresno, Fresno County, CA" : {
+        "name" : "Fresno",
+        "state" : "California",
+        "FIPS" : "06-27000",
+        "counties" : [
+            "Fresno County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 494665,
+        "population_2020" : 542107,
+        "population_2027" : 576558,
+        "land_area_2020" : 4706.6
+    },
+    "Fullerton, Orange County, CA" : {
+        "name" : "Fullerton",
+        "state" : "California",
+        "FIPS" : "06-28000",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 135161,
+        "population_2020" : 143617,
+        "population_2027" : 149245,
+        "land_area_2020" : 6405.8
+    },
+    "Galt, Sacramento County, CA" : {
+        "name" : "Galt",
+        "state" : "California",
+        "FIPS" : "06-28112",
+        "counties" : [
+            "Sacramento County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23647,
+        "population_2020" : 25383,
+        "population_2027" : 26578,
+        "land_area_2020" : 3550.1
+    },
+    "Garden Grove, Orange County, CA" : {
+        "name" : "Garden Grove",
+        "state" : "California",
+        "FIPS" : "06-29000",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 170883,
+        "population_2020" : 171949,
+        "population_2027" : 171797,
+        "land_area_2020" : 9574.0
+    },
+    "Gardena, Los Angeles County, CA" : {
+        "name" : "Gardena",
+        "state" : "California",
+        "FIPS" : "06-28168",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 58829,
+        "population_2020" : 61027,
+        "population_2027" : 62314,
+        "land_area_2020" : 10467.8
+    },
+    "Gilroy, Santa Clara County, CA" : {
+        "name" : "Gilroy",
+        "state" : "California",
+        "FIPS" : "06-29504",
+        "counties" : [
+            "Santa Clara County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 48821,
+        "population_2020" : 59520,
+        "population_2027" : 68918,
+        "land_area_2020" : 3598.5
+    },
+    "Glendale, Los Angeles County, CA" : {
+        "name" : "Glendale",
+        "state" : "California",
+        "FIPS" : "06-30000",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 191719,
+        "population_2020" : 196543,
+        "population_2027" : 198986,
+        "land_area_2020" : 6448.3
+    },
+    "Glendora, Los Angeles County, CA" : {
+        "name" : "Glendora",
+        "state" : "California",
+        "FIPS" : "06-30014",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 50073,
+        "population_2020" : 52558,
+        "population_2027" : 54128,
+        "land_area_2020" : 2693.9
+    },
+    "Goleta, Santa Barbara County, CA" : {
+        "name" : "Goleta",
+        "state" : "California",
+        "FIPS" : "06-30378",
+        "counties" : [
+            "Santa Barbara County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 29888,
+        "population_2020" : 32690,
+        "population_2027" : 34715,
+        "land_area_2020" : 4164.3
+    },
+    "Gonzales, Monterey County, CA" : {
+        "name" : "Gonzales",
+        "state" : "California",
+        "FIPS" : "06-30392",
+        "counties" : [
+            "Monterey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8187,
+        "population_2020" : 8647,
+        "population_2027" : 8946,
+        "land_area_2020" : 4527.2
+    },
+    "Grand Terrace, San Bernardino County, CA" : {
+        "name" : "Grand Terrace",
+        "state" : "California",
+        "FIPS" : "06-30658",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12040,
+        "population_2020" : 13150,
+        "population_2027" : 13950,
+        "land_area_2020" : 3757.1
+    },
+    "Grass Valley, Nevada County, CA" : {
+        "name" : "Grass Valley",
+        "state" : "California",
+        "FIPS" : "06-30798",
+        "counties" : [
+            "Nevada County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12860,
+        "population_2020" : 14016,
+        "population_2027" : 14845,
+        "land_area_2020" : 2669.7
+    },
+    "Greenfield, Monterey County, CA" : {
+        "name" : "Greenfield",
+        "state" : "California",
+        "FIPS" : "06-30994",
+        "counties" : [
+            "Monterey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16330,
+        "population_2020" : 18937,
+        "population_2027" : 21048,
+        "land_area_2020" : 6507.6
+    },
+    "Gridley, Butte County, CA" : {
+        "name" : "Gridley",
+        "state" : "California",
+        "FIPS" : "06-31260",
+        "counties" : [
+            "Butte County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6584,
+        "population_2020" : 7421,
+        "population_2027" : 8065,
+        "land_area_2020" : 3550.7
+    },
+    "Grover Beach, San Luis Obispo County, CA" : {
+        "name" : "Grover Beach",
+        "state" : "California",
+        "FIPS" : "06-31393",
+        "counties" : [
+            "San Luis Obispo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13156,
+        "population_2020" : 12701,
+        "population_2027" : 12332,
+        "land_area_2020" : 5498.3
+    },
+    "Guadalupe, Santa Barbara County, CA" : {
+        "name" : "Guadalupe",
+        "state" : "California",
+        "FIPS" : "06-31414",
+        "counties" : [
+            "Santa Barbara County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7080,
+        "population_2020" : 8057,
+        "population_2027" : 8822,
+        "land_area_2020" : 6150.4
+    },
+    "Gustine, Merced County, CA" : {
+        "name" : "Gustine",
+        "state" : "California",
+        "FIPS" : "06-31568",
+        "counties" : [
+            "Merced County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5520,
+        "population_2020" : 6110,
+        "population_2027" : 6548,
+        "land_area_2020" : 3941.9
+    },
+    "Half Moon Bay, San Mateo County, CA" : {
+        "name" : "Half Moon Bay",
+        "state" : "California",
+        "FIPS" : "06-31708",
+        "counties" : [
+            "San Mateo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11324,
+        "population_2020" : 11795,
+        "population_2027" : 12079,
+        "land_area_2020" : 1890.2
+    },
+    "Hanford, Kings County, CA" : {
+        "name" : "Hanford",
+        "state" : "California",
+        "FIPS" : "06-31960",
+        "counties" : [
+            "Kings County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 53967,
+        "population_2020" : 57990,
+        "population_2027" : 60767,
+        "land_area_2020" : 3332.8
+    },
+    "Hawaiian Gardens, Los Angeles County, CA" : {
+        "name" : "Hawaiian Gardens",
+        "state" : "California",
+        "FIPS" : "06-32506",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14254,
+        "population_2020" : 14149,
+        "population_2027" : 14002,
+        "land_area_2020" : 14893.7
+    },
+    "Hawthorne, Los Angeles County, CA" : {
+        "name" : "Hawthorne",
+        "state" : "California",
+        "FIPS" : "06-32548",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 84293,
+        "population_2020" : 88083,
+        "population_2027" : 90419,
+        "land_area_2020" : 14463.5
+    },
+    "Hayward, Alameda County, CA" : {
+        "name" : "Hayward",
+        "state" : "California",
+        "FIPS" : "06-33000",
+        "counties" : [
+            "Alameda County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 144186,
+        "population_2020" : 162954,
+        "population_2027" : 177472,
+        "land_area_2020" : 3556.4
+    },
+    "Healdsburg, Sonoma County, CA" : {
+        "name" : "Healdsburg",
+        "state" : "California",
+        "FIPS" : "06-33056",
+        "counties" : [
+            "Sonoma County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11254,
+        "population_2020" : 11340,
+        "population_2027" : 11341,
+        "land_area_2020" : 2565.6
+    },
+    "Hemet, Riverside County, CA" : {
+        "name" : "Hemet",
+        "state" : "California",
+        "FIPS" : "06-33182",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 78657,
+        "population_2020" : 89833,
+        "population_2027" : 98646,
+        "land_area_2020" : 3068.1
+    },
+    "Hercules, Contra Costa County, CA" : {
+        "name" : "Hercules",
+        "state" : "California",
+        "FIPS" : "06-33308",
+        "counties" : [
+            "Contra Costa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 24060,
+        "population_2020" : 26016,
+        "population_2027" : 27390,
+        "land_area_2020" : 4058.7
+    },
+    "Hermosa Beach, Los Angeles County, CA" : {
+        "name" : "Hermosa Beach",
+        "state" : "California",
+        "FIPS" : "06-33364",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 19506,
+        "population_2020" : 19728,
+        "population_2027" : 19782,
+        "land_area_2020" : 13795.8
+    },
+    "Hesperia, San Bernardino County, CA" : {
+        "name" : "Hesperia",
+        "state" : "California",
+        "FIPS" : "06-33434",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 90173,
+        "population_2020" : 99818,
+        "population_2027" : 106978,
+        "land_area_2020" : 1373.4
+    },
+    "Hidden Hills, Los Angeles County, CA" : {
+        "name" : "Hidden Hills",
+        "state" : "California",
+        "FIPS" : "06-33518",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1856,
+        "population_2020" : 1725,
+        "population_2027" : 1633,
+        "land_area_2020" : 1020.7
+    },
+    "Highland, San Bernardino County, CA" : {
+        "name" : "Highland",
+        "state" : "California",
+        "FIPS" : "06-33588",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 53104,
+        "population_2020" : 56999,
+        "population_2027" : 59679,
+        "land_area_2020" : 3069.4
+    },
+    "Hillsborough, San Mateo County, CA" : {
+        "name" : "Hillsborough",
+        "state" : "California",
+        "FIPS" : "06-33798",
+        "counties" : [
+            "San Mateo County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 10825,
+        "population_2020" : 11387,
+        "population_2027" : 11746,
+        "land_area_2020" : 1845.5
+    },
+    "Hollister, San Benito County, CA" : {
+        "name" : "Hollister",
+        "state" : "California",
+        "FIPS" : "06-34120",
+        "counties" : [
+            "San Benito County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 34928,
+        "population_2020" : 41678,
+        "population_2027" : 47409,
+        "land_area_2020" : 5235.9
+    },
+    "Holtville, Imperial County, CA" : {
+        "name" : "Holtville",
+        "state" : "California",
+        "FIPS" : "06-34246",
+        "counties" : [
+            "Imperial County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5939,
+        "population_2020" : 5605,
+        "population_2027" : 5360,
+        "land_area_2020" : 4873.9
+    },
+    "Hughson, Stanislaus County, CA" : {
+        "name" : "Hughson",
+        "state" : "California",
+        "FIPS" : "06-34904",
+        "counties" : [
+            "Stanislaus County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6640,
+        "population_2020" : 7481,
+        "population_2027" : 8128,
+        "land_area_2020" : 3916.8
+    },
+    "Huntington Beach, Orange County, CA" : {
+        "name" : "Huntington Beach",
+        "state" : "California",
+        "FIPS" : "06-36000",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 189992,
+        "population_2020" : 198711,
+        "population_2027" : 204113,
+        "land_area_2020" : 7359.7
+    },
+    "Huntington Park, Los Angeles County, CA" : {
+        "name" : "Huntington Park",
+        "state" : "California",
+        "FIPS" : "06-36056",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 58114,
+        "population_2020" : 54883,
+        "population_2027" : 52504,
+        "land_area_2020" : 18233.6
+    },
+    "Huron, Fresno County, CA" : {
+        "name" : "Huron",
+        "state" : "California",
+        "FIPS" : "06-36084",
+        "counties" : [
+            "Fresno County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6754,
+        "population_2020" : 6206,
+        "population_2027" : 5831,
+        "land_area_2020" : 3878.8
+    },
+    "Imperial, Imperial County, CA" : {
+        "name" : "Imperial",
+        "state" : "California",
+        "FIPS" : "06-36280",
+        "counties" : [
+            "Imperial County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14758,
+        "population_2020" : 20263,
+        "population_2027" : 26052,
+        "land_area_2020" : 3221.5
+    },
+    "Imperial Beach, San Diego County, CA" : {
+        "name" : "Imperial Beach",
+        "state" : "California",
+        "FIPS" : "06-36294",
+        "counties" : [
+            "San Diego County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 26324,
+        "population_2020" : 26137,
+        "population_2027" : 25871,
+        "land_area_2020" : 6092.5
+    },
+    "Indian Wells, Riverside County, CA" : {
+        "name" : "Indian Wells",
+        "state" : "California",
+        "FIPS" : "06-36434",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4958,
+        "population_2020" : 4757,
+        "population_2027" : 4599,
+        "land_area_2020" : 332.2
+    },
+    "Indio, Riverside County, CA" : {
+        "name" : "Indio",
+        "state" : "California",
+        "FIPS" : "06-36448",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 76036,
+        "population_2020" : 89137,
+        "population_2027" : 99942,
+        "land_area_2020" : 2682.4
+    },
+    "City of Industry, Los Angeles County, CA" : {
+        "name" : "City of Industry",
+        "state" : "California",
+        "FIPS" : "06-36490",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 219,
+        "population_2020" : 264,
+        "population_2027" : 303,
+        "land_area_2020" : 22.4
+    },
+    "Inglewood, Los Angeles County, CA" : {
+        "name" : "Inglewood",
+        "state" : "California",
+        "FIPS" : "06-36546",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 109673,
+        "population_2020" : 107762,
+        "population_2027" : 105896,
+        "land_area_2020" : 11881.1
+    },
+    "Ione, Amador County, CA" : {
+        "name" : "Ione",
+        "state" : "California",
+        "FIPS" : "06-36672",
+        "counties" : [
+            "Amador County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7918,
+        "population_2020" : 5141,
+        "population_2027" : 3982,
+        "land_area_2020" : 1122.5
+    },
+    "Irvine, Orange County, CA" : {
+        "name" : "Irvine",
+        "state" : "California",
+        "FIPS" : "06-36770",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 212375,
+        "population_2020" : 307670,
+        "population_2027" : 416238,
+        "land_area_2020" : 4689.4
+    },
+    "Irwindale, Los Angeles County, CA" : {
+        "name" : "Irwindale",
+        "state" : "California",
+        "FIPS" : "06-36826",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1422,
+        "population_2020" : 1472,
+        "population_2027" : 1501,
+        "land_area_2020" : 166.7
+    },
+    "Isleton, Sacramento County, CA" : {
+        "name" : "Isleton",
+        "state" : "California",
+        "FIPS" : "06-36882",
+        "counties" : [
+            "Sacramento County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 804,
+        "population_2020" : 794,
+        "population_2027" : 783,
+        "land_area_2020" : 1804.5
+    },
+    "Jackson, Amador County, CA" : {
+        "name" : "Jackson",
+        "state" : "California",
+        "FIPS" : "06-36980",
+        "counties" : [
+            "Amador County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4651,
+        "population_2020" : 5019,
+        "population_2027" : 5276,
+        "land_area_2020" : 1402.0
+    },
+    "Jurupa Valley, Riverside County, CA" : {
+        "name" : "Jurupa Valley",
+        "state" : "California",
+        "FIPS" : "06-37692",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 95004,
+        "population_2020" : 105053,
+        "population_2027" : 112496,
+        "land_area_2020" : 2446.5
+    },
+    "Kerman, Fresno County, CA" : {
+        "name" : "Kerman",
+        "state" : "California",
+        "FIPS" : "06-38226",
+        "counties" : [
+            "Fresno County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13544,
+        "population_2020" : 16016,
+        "population_2027" : 18084,
+        "land_area_2020" : 4897.9
+    },
+    "King City, Monterey County, CA" : {
+        "name" : "King City",
+        "state" : "California",
+        "FIPS" : "06-38520",
+        "counties" : [
+            "Monterey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12874,
+        "population_2020" : 13332,
+        "population_2027" : 13596,
+        "land_area_2020" : 3508.4
+    },
+    "Kingsburg, Fresno County, CA" : {
+        "name" : "Kingsburg",
+        "state" : "California",
+        "FIPS" : "06-38562",
+        "counties" : [
+            "Fresno County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11382,
+        "population_2020" : 12380,
+        "population_2027" : 13092,
+        "land_area_2020" : 3328.0
+    },
+    "La Ca\u00f1ada Flintridge, Los Angeles County, CA" : {
+        "name" : "La Ca\u00f1ada Flintridge",
+        "state" : "California",
+        "FIPS" : "06-39003",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 20246,
+        "population_2020" : 20573,
+        "population_2027" : 20698,
+        "land_area_2020" : 2383.9
+    },
+    "La Habra, Orange County, CA" : {
+        "name" : "La Habra",
+        "state" : "California",
+        "FIPS" : "06-39290",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 60239,
+        "population_2020" : 63097,
+        "population_2027" : 64883,
+        "land_area_2020" : 8346.2
+    },
+    "La Habra Heights, Los Angeles County, CA" : {
+        "name" : "La Habra Heights",
+        "state" : "California",
+        "FIPS" : "06-39304",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5325,
+        "population_2020" : 5682,
+        "population_2027" : 5923,
+        "land_area_2020" : 922.4
+    },
+    "La Mesa, San Diego County, CA" : {
+        "name" : "La Mesa",
+        "state" : "California",
+        "FIPS" : "06-40004",
+        "counties" : [
+            "San Diego County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 57065,
+        "population_2020" : 61121,
+        "population_2027" : 63894,
+        "land_area_2020" : 6724.0
+    },
+    "La Mirada, Los Angeles County, CA" : {
+        "name" : "La Mirada",
+        "state" : "California",
+        "FIPS" : "06-40032",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 48527,
+        "population_2020" : 48008,
+        "population_2027" : 47400,
+        "land_area_2020" : 6139.1
+    },
+    "La Palma, Orange County, CA" : {
+        "name" : "La Palma",
+        "state" : "California",
+        "FIPS" : "06-40256",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15568,
+        "population_2020" : 15581,
+        "population_2027" : 15508,
+        "land_area_2020" : 8753.4
+    },
+    "La Puente, Los Angeles County, CA" : {
+        "name" : "La Puente",
+        "state" : "California",
+        "FIPS" : "06-40340",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 39816,
+        "population_2020" : 38062,
+        "population_2027" : 36710,
+        "land_area_2020" : 10937.4
+    },
+    "La Quinta, Riverside County, CA" : {
+        "name" : "La Quinta",
+        "state" : "California",
+        "FIPS" : "06-40354",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 37467,
+        "population_2020" : 37558,
+        "population_2027" : 37425,
+        "land_area_2020" : 1065.2
+    },
+    "La Verne, Los Angeles County, CA" : {
+        "name" : "La Verne",
+        "state" : "California",
+        "FIPS" : "06-40830",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 31063,
+        "population_2020" : 31334,
+        "population_2027" : 31361,
+        "land_area_2020" : 3721.4
+    },
+    "Lafayette, Contra Costa County, CA" : {
+        "name" : "Lafayette",
+        "state" : "California",
+        "FIPS" : "06-39122",
+        "counties" : [
+            "Contra Costa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23893,
+        "population_2020" : 25391,
+        "population_2027" : 26388,
+        "land_area_2020" : 1690.5
+    },
+    "Laguna Beach, Orange County, CA" : {
+        "name" : "Laguna Beach",
+        "state" : "California",
+        "FIPS" : "06-39178",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 22723,
+        "population_2020" : 23032,
+        "population_2027" : 23131,
+        "land_area_2020" : 2590.8
+    },
+    "Laguna Hills, Orange County, CA" : {
+        "name" : "Laguna Hills",
+        "state" : "California",
+        "FIPS" : "06-39220",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 30344,
+        "population_2020" : 31374,
+        "population_2027" : 31959,
+        "land_area_2020" : 4789.9
+    },
+    "Laguna Niguel, Orange County, CA" : {
+        "name" : "Laguna Niguel",
+        "state" : "California",
+        "FIPS" : "06-39248",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 62979,
+        "population_2020" : 64355,
+        "population_2027" : 65004,
+        "land_area_2020" : 4366.0
+    },
+    "Laguna Woods, Orange County, CA" : {
+        "name" : "Laguna Woods",
+        "state" : "California",
+        "FIPS" : "06-39259",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16192,
+        "population_2020" : 17644,
+        "population_2027" : 18684,
+        "land_area_2020" : 5282.6
+    },
+    "Lake Elsinore, Riverside County, CA" : {
+        "name" : "Lake Elsinore",
+        "state" : "California",
+        "FIPS" : "06-39486",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 51821,
+        "population_2020" : 70265,
+        "population_2027" : 89301,
+        "land_area_2020" : 1837.5
+    },
+    "Lake Forest, Orange County, CA" : {
+        "name" : "Lake Forest",
+        "state" : "California",
+        "FIPS" : "06-39496",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 77264,
+        "population_2020" : 85858,
+        "population_2027" : 92290,
+        "land_area_2020" : 5138.1
+    },
+    "Lakeport, Lake County, CA" : {
+        "name" : "Lakeport",
+        "state" : "California",
+        "FIPS" : "06-39710",
+        "counties" : [
+            "Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4753,
+        "population_2020" : 5026,
+        "population_2027" : 5204,
+        "land_area_2020" : 1642.5
+    },
+    "Lakewood, Los Angeles County, CA" : {
+        "name" : "Lakewood",
+        "state" : "California",
+        "FIPS" : "06-39892",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 80048,
+        "population_2020" : 82496,
+        "population_2027" : 83838,
+        "land_area_2020" : 8776.2
+    },
+    "Lancaster, Los Angeles County, CA" : {
+        "name" : "Lancaster",
+        "state" : "California",
+        "FIPS" : "06-40130",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 156633,
+        "population_2020" : 173516,
+        "population_2027" : 186070,
+        "land_area_2020" : 1840.6
+    },
+    "Larkspur, Marin County, CA" : {
+        "name" : "Larkspur",
+        "state" : "California",
+        "FIPS" : "06-40438",
+        "counties" : [
+            "Marin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11926,
+        "population_2020" : 13064,
+        "population_2027" : 13890,
+        "land_area_2020" : 4354.7
+    },
+    "Lathrop, San Joaquin County, CA" : {
+        "name" : "Lathrop",
+        "state" : "California",
+        "FIPS" : "06-40704",
+        "counties" : [
+            "San Joaquin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 18023,
+        "population_2020" : 28701,
+        "population_2027" : 42729,
+        "land_area_2020" : 1447.4
+    },
+    "Lawndale, Los Angeles County, CA" : {
+        "name" : "Lawndale",
+        "state" : "California",
+        "FIPS" : "06-40886",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 32769,
+        "population_2020" : 31807,
+        "population_2027" : 30995,
+        "land_area_2020" : 16145.7
+    },
+    "Lemon Grove, San Diego County, CA" : {
+        "name" : "Lemon Grove",
+        "state" : "California",
+        "FIPS" : "06-41124",
+        "counties" : [
+            "San Diego County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 25320,
+        "population_2020" : 27627,
+        "population_2027" : 29285,
+        "land_area_2020" : 7120.4
+    },
+    "Lemoore, Kings County, CA" : {
+        "name" : "Lemoore",
+        "state" : "California",
+        "FIPS" : "06-41152",
+        "counties" : [
+            "Kings County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 24531,
+        "population_2020" : 27038,
+        "population_2027" : 28882,
+        "land_area_2020" : 3069.0
+    },
+    "Lincoln, Placer County, CA" : {
+        "name" : "Lincoln",
+        "state" : "California",
+        "FIPS" : "06-41474",
+        "counties" : [
+            "Placer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 42819,
+        "population_2020" : 49757,
+        "population_2027" : 55395,
+        "land_area_2020" : 2058.6
+    },
+    "Lindsay, Tulare County, CA" : {
+        "name" : "Lindsay",
+        "state" : "California",
+        "FIPS" : "06-41712",
+        "counties" : [
+            "Tulare County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11768,
+        "population_2020" : 12659,
+        "population_2027" : 13276,
+        "land_area_2020" : 4654.0
+    },
+    "Live Oak, Sutter County, CA" : {
+        "name" : "Live Oak",
+        "state" : "California",
+        "FIPS" : "06-41936",
+        "counties" : [
+            "Sutter County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8392,
+        "population_2020" : 9106,
+        "population_2027" : 9612,
+        "land_area_2020" : 2918.6
+    },
+    "Livermore, Alameda County, CA" : {
+        "name" : "Livermore",
+        "state" : "California",
+        "FIPS" : "06-41992",
+        "counties" : [
+            "Alameda County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 80968,
+        "population_2020" : 87955,
+        "population_2027" : 92922,
+        "land_area_2020" : 3325.3
+    },
+    "Livingston, Merced County, CA" : {
+        "name" : "Livingston",
+        "state" : "California",
+        "FIPS" : "06-42006",
+        "counties" : [
+            "Merced County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13058,
+        "population_2020" : 14172,
+        "population_2027" : 14962,
+        "land_area_2020" : 3851.1
+    },
+    "Lodi, San Joaquin County, CA" : {
+        "name" : "Lodi",
+        "state" : "California",
+        "FIPS" : "06-42202",
+        "counties" : [
+            "San Joaquin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 62134,
+        "population_2020" : 66348,
+        "population_2027" : 69201,
+        "land_area_2020" : 4864.2
+    },
+    "Loma Linda, San Bernardino County, CA" : {
+        "name" : "Loma Linda",
+        "state" : "California",
+        "FIPS" : "06-42370",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23261,
+        "population_2020" : 24791,
+        "population_2027" : 25820,
+        "land_area_2020" : 3244.9
+    },
+    "Lomita, Los Angeles County, CA" : {
+        "name" : "Lomita",
+        "state" : "California",
+        "FIPS" : "06-42468",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 20256,
+        "population_2020" : 20921,
+        "population_2027" : 21295,
+        "land_area_2020" : 10953.4
+    },
+    "Lompoc, Santa Barbara County, CA" : {
+        "name" : "Lompoc",
+        "state" : "California",
+        "FIPS" : "06-42524",
+        "counties" : [
+            "Santa Barbara County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 42434,
+        "population_2020" : 44444,
+        "population_2027" : 45699,
+        "land_area_2020" : 3824.8
+    },
+    "Long Beach, Los Angeles County, CA" : {
+        "name" : "Long Beach",
+        "state" : "California",
+        "FIPS" : "06-43000",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 462257,
+        "population_2020" : 466742,
+        "population_2027" : 467462,
+        "land_area_2020" : 9204.1
+    },
+    "Loomis, Placer County, CA" : {
+        "name" : "Loomis",
+        "state" : "California",
+        "FIPS" : "06-43140",
+        "counties" : [
+            "Placer County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6430,
+        "population_2020" : 6836,
+        "population_2027" : 7107,
+        "land_area_2020" : 940.3
+    },
+    "Los Alamitos, Orange County, CA" : {
+        "name" : "Los Alamitos",
+        "state" : "California",
+        "FIPS" : "06-43224",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11449,
+        "population_2020" : 11780,
+        "population_2027" : 11958,
+        "land_area_2020" : 2937.7
+    },
+    "Los Altos, Santa Clara County, CA" : {
+        "name" : "Los Altos",
+        "state" : "California",
+        "FIPS" : "06-43280",
+        "counties" : [
+            "Santa Clara County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 28976,
+        "population_2020" : 31625,
+        "population_2027" : 33530,
+        "land_area_2020" : 4835.6
+    },
+    "Los Altos Hills, Santa Clara County, CA" : {
+        "name" : "Los Altos Hills",
+        "state" : "California",
+        "FIPS" : "06-43294",
+        "counties" : [
+            "Santa Clara County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7922,
+        "population_2020" : 8489,
+        "population_2027" : 8877,
+        "land_area_2020" : 940.1
+    },
+    "Los Angeles, Los Angeles County, CA" : {
+        "name" : "Los Angeles",
+        "state" : "California",
+        "FIPS" : "06-44000",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3792621,
+        "population_2020" : 3898747,
+        "population_2027" : 3954990,
+        "land_area_2020" : 8304.2
+    },
+    "Los Banos, Merced County, CA" : {
+        "name" : "Los Banos",
+        "state" : "California",
+        "FIPS" : "06-44028",
+        "counties" : [
+            "Merced County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 35972,
+        "population_2020" : 45532,
+        "population_2027" : 54429,
+        "land_area_2020" : 4557.8
+    },
+    "Los Gatos, Santa Clara County, CA" : {
+        "name" : "Los Gatos",
+        "state" : "California",
+        "FIPS" : "06-44112",
+        "counties" : [
+            "Santa Clara County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 29413,
+        "population_2020" : 33529,
+        "population_2027" : 36764,
+        "land_area_2020" : 2902.9
+    },
+    "Loyalton, Sierra County, CA" : {
+        "name" : "Loyalton",
+        "state" : "California",
+        "FIPS" : "06-44364",
+        "counties" : [
+            "Sierra County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 769,
+        "population_2020" : 740,
+        "population_2027" : 717,
+        "land_area_2020" : 2055.6
+    },
+    "Lynwood, Los Angeles County, CA" : {
+        "name" : "Lynwood",
+        "state" : "California",
+        "FIPS" : "06-44574",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 69772,
+        "population_2020" : 67265,
+        "population_2027" : 65246,
+        "land_area_2020" : 13897.7
+    },
+    "Madera, Madera County, CA" : {
+        "name" : "Madera",
+        "state" : "California",
+        "FIPS" : "06-45022",
+        "counties" : [
+            "Madera County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 61416,
+        "population_2020" : 66224,
+        "population_2027" : 69576,
+        "land_area_2020" : 4018.4
+    },
+    "Malibu, Los Angeles County, CA" : {
+        "name" : "Malibu",
+        "state" : "California",
+        "FIPS" : "06-45246",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12645,
+        "population_2020" : 10654,
+        "population_2027" : 9483,
+        "land_area_2020" : 536.7
+    },
+    "Mammoth Lakes, Mono County, CA" : {
+        "name" : "Mammoth Lakes",
+        "state" : "California",
+        "FIPS" : "06-45358",
+        "counties" : [
+            "Mono County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8234,
+        "population_2020" : 7191,
+        "population_2027" : 6542,
+        "land_area_2020" : 289.1
+    },
+    "Manhattan Beach, Los Angeles County, CA" : {
+        "name" : "Manhattan Beach",
+        "state" : "California",
+        "FIPS" : "06-45400",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 35135,
+        "population_2020" : 35506,
+        "population_2027" : 35582,
+        "land_area_2020" : 9034.6
+    },
+    "Manteca, San Joaquin County, CA" : {
+        "name" : "Manteca",
+        "state" : "California",
+        "FIPS" : "06-45484",
+        "counties" : [
+            "San Joaquin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 67096,
+        "population_2020" : 83498,
+        "population_2027" : 98372,
+        "land_area_2020" : 3903.6
+    },
+    "Maricopa, Kern County, CA" : {
+        "name" : "Maricopa",
+        "state" : "California",
+        "FIPS" : "06-45736",
+        "counties" : [
+            "Kern County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1154,
+        "population_2020" : 1026,
+        "population_2027" : 944,
+        "land_area_2020" : 653.5
+    },
+    "Marina, Monterey County, CA" : {
+        "name" : "Marina",
+        "state" : "California",
+        "FIPS" : "06-45778",
+        "counties" : [
+            "Monterey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 19718,
+        "population_2020" : 22359,
+        "population_2027" : 24415,
+        "land_area_2020" : 2509.4
+    },
+    "Martinez, Contra Costa County, CA" : {
+        "name" : "Martinez",
+        "state" : "California",
+        "FIPS" : "06-46114",
+        "counties" : [
+            "Contra Costa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 35824,
+        "population_2020" : 37287,
+        "population_2027" : 38166,
+        "land_area_2020" : 2952.3
+    },
+    "Marysville, Yuba County, CA" : {
+        "name" : "Marysville",
+        "state" : "California",
+        "FIPS" : "06-46170",
+        "counties" : [
+            "Yuba County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12072,
+        "population_2020" : 12844,
+        "population_2027" : 13360,
+        "land_area_2020" : 3712.1
+    },
+    "Maywood, Los Angeles County, CA" : {
+        "name" : "Maywood",
+        "state" : "California",
+        "FIPS" : "06-46492",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 27395,
+        "population_2020" : 25138,
+        "population_2027" : 23598,
+        "land_area_2020" : 21485.5
+    },
+    "McFarland, Kern County, CA" : {
+        "name" : "McFarland",
+        "state" : "California",
+        "FIPS" : "06-44826",
+        "counties" : [
+            "Kern County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12707,
+        "population_2020" : 14161,
+        "population_2027" : 15256,
+        "land_area_2020" : 5284.0
+    },
+    "Mendota, Fresno County, CA" : {
+        "name" : "Mendota",
+        "state" : "California",
+        "FIPS" : "06-46828",
+        "counties" : [
+            "Fresno County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11014,
+        "population_2020" : 12595,
+        "population_2027" : 13845,
+        "land_area_2020" : 3715.3
+    },
+    "Menifee, Riverside County, CA" : {
+        "name" : "Menifee",
+        "state" : "California",
+        "FIPS" : "06-46842",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 77519,
+        "population_2020" : 102527,
+        "population_2027" : 127395,
+        "land_area_2020" : 2205.8
+    },
+    "Menlo Park, San Mateo County, CA" : {
+        "name" : "Menlo Park",
+        "state" : "California",
+        "FIPS" : "06-46870",
+        "counties" : [
+            "San Mateo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 32026,
+        "population_2020" : 33780,
+        "population_2027" : 34914,
+        "land_area_2020" : 3381.4
+    },
+    "Merced, Merced County, CA" : {
+        "name" : "Merced",
+        "state" : "California",
+        "FIPS" : "06-46898",
+        "counties" : [
+            "Merced County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 78958,
+        "population_2020" : 86333,
+        "population_2027" : 91660,
+        "land_area_2020" : 3713.2
+    },
+    "Mill Valley, Marin County, CA" : {
+        "name" : "Mill Valley",
+        "state" : "California",
+        "FIPS" : "06-47710",
+        "counties" : [
+            "Marin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13903,
+        "population_2020" : 14231,
+        "population_2027" : 14392,
+        "land_area_2020" : 2977.2
+    },
+    "Millbrae, San Mateo County, CA" : {
+        "name" : "Millbrae",
+        "state" : "California",
+        "FIPS" : "06-47486",
+        "counties" : [
+            "San Mateo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 21532,
+        "population_2020" : 23216,
+        "population_2027" : 24390,
+        "land_area_2020" : 7099.7
+    },
+    "Milpitas, Santa Clara County, CA" : {
+        "name" : "Milpitas",
+        "state" : "California",
+        "FIPS" : "06-47766",
+        "counties" : [
+            "Santa Clara County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 66790,
+        "population_2020" : 80273,
+        "population_2027" : 91853,
+        "land_area_2020" : 5955.0
+    },
+    "Mission Viejo, Orange County, CA" : {
+        "name" : "Mission Viejo",
+        "state" : "California",
+        "FIPS" : "06-48256",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 93305,
+        "population_2020" : 93653,
+        "population_2027" : 93406,
+        "land_area_2020" : 5303.1
+    },
+    "Modesto, Stanislaus County, CA" : {
+        "name" : "Modesto",
+        "state" : "California",
+        "FIPS" : "06-48354",
+        "counties" : [
+            "Stanislaus County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 201165,
+        "population_2020" : 218464,
+        "population_2027" : 230754,
+        "land_area_2020" : 5074.7
+    },
+    "Monrovia, Los Angeles County, CA" : {
+        "name" : "Monrovia",
+        "state" : "California",
+        "FIPS" : "06-48648",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 36590,
+        "population_2020" : 37931,
+        "population_2027" : 38712,
+        "land_area_2020" : 2782.9
+    },
+    "Montague, Siskiyou County, CA" : {
+        "name" : "Montague",
+        "state" : "California",
+        "FIPS" : "06-48690",
+        "counties" : [
+            "Siskiyou County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1443,
+        "population_2020" : 1226,
+        "population_2027" : 1097,
+        "land_area_2020" : 688.8
+    },
+    "Montclair, San Bernardino County, CA" : {
+        "name" : "Montclair",
+        "state" : "California",
+        "FIPS" : "06-48788",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 36664,
+        "population_2020" : 37865,
+        "population_2027" : 38540,
+        "land_area_2020" : 6847.2
+    },
+    "Monte Sereno, Santa Clara County, CA" : {
+        "name" : "Monte Sereno",
+        "state" : "California",
+        "FIPS" : "06-48956",
+        "counties" : [
+            "Santa Clara County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3341,
+        "population_2020" : 3479,
+        "population_2027" : 3562,
+        "land_area_2020" : 2134.4
+    },
+    "Montebello, Los Angeles County, CA" : {
+        "name" : "Montebello",
+        "state" : "California",
+        "FIPS" : "06-48816",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 62500,
+        "population_2020" : 62640,
+        "population_2027" : 62410,
+        "land_area_2020" : 7519.8
+    },
+    "Monterey, Monterey County, CA" : {
+        "name" : "Monterey",
+        "state" : "California",
+        "FIPS" : "06-48872",
+        "counties" : [
+            "Monterey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 27810,
+        "population_2020" : 30218,
+        "population_2027" : 31931,
+        "land_area_2020" : 3493.4
+    },
+    "Monterey Park, Los Angeles County, CA" : {
+        "name" : "Monterey Park",
+        "state" : "California",
+        "FIPS" : "06-48914",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 60269,
+        "population_2020" : 61096,
+        "population_2027" : 61363,
+        "land_area_2020" : 7965.6
+    },
+    "Moorpark, Ventura County, CA" : {
+        "name" : "Moorpark",
+        "state" : "California",
+        "FIPS" : "06-49138",
+        "counties" : [
+            "Ventura County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 34421,
+        "population_2020" : 36284,
+        "population_2027" : 37485,
+        "land_area_2020" : 2954.7
+    },
+    "Moraga, Contra Costa County, CA" : {
+        "name" : "Moraga",
+        "state" : "California",
+        "FIPS" : "06-49187",
+        "counties" : [
+            "Contra Costa County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 16016,
+        "population_2020" : 16870,
+        "population_2027" : 17419,
+        "land_area_2020" : 1783.3
+    },
+    "Moreno Valley, Riverside County, CA" : {
+        "name" : "Moreno Valley",
+        "state" : "California",
+        "FIPS" : "06-49270",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 193365,
+        "population_2020" : 208634,
+        "population_2027" : 219297,
+        "land_area_2020" : 4064.6
+    },
+    "Morgan Hill, Santa Clara County, CA" : {
+        "name" : "Morgan Hill",
+        "state" : "California",
+        "FIPS" : "06-49278",
+        "counties" : [
+            "Santa Clara County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 37882,
+        "population_2020" : 45483,
+        "population_2027" : 52001,
+        "land_area_2020" : 3514.9
+    },
+    "Morro Bay, San Luis Obispo County, CA" : {
+        "name" : "Morro Bay",
+        "state" : "California",
+        "FIPS" : "06-49362",
+        "counties" : [
+            "San Luis Obispo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10234,
+        "population_2020" : 10757,
+        "population_2027" : 11090,
+        "land_area_2020" : 2018.2
+    },
+    "Mount Shasta, Siskiyou County, CA" : {
+        "name" : "Mount Shasta",
+        "state" : "California",
+        "FIPS" : "06-49852",
+        "counties" : [
+            "Siskiyou County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3394,
+        "population_2020" : 3223,
+        "population_2027" : 3095,
+        "land_area_2020" : 854.9
+    },
+    "Mountain House, San Joaquin County, CA" : {
+        "name" : "Mountain House",
+        "state" : "California",
+        "FIPS" : "06-49582",
+        "counties" : [
+            "San Joaquin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9675,
+        "population_2020" : 24499,
+        "population_2027" : 66154,
+        "land_area_2020" : 5374.9
+    },
+    "Mountain View, Santa Clara County, CA" : {
+        "name" : "Mountain View",
+        "state" : "California",
+        "FIPS" : "06-49670",
+        "counties" : [
+            "Santa Clara County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 74066,
+        "population_2020" : 82376,
+        "population_2027" : 88606,
+        "land_area_2020" : 6887.6
+    },
+    "Murrieta, Riverside County, CA" : {
+        "name" : "Murrieta",
+        "state" : "California",
+        "FIPS" : "06-50076",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 103466,
+        "population_2020" : 110949,
+        "population_2027" : 116082,
+        "land_area_2020" : 3301.1
+    },
+    "Napa, Napa County, CA" : {
+        "name" : "Napa",
+        "state" : "California",
+        "FIPS" : "06-50258",
+        "counties" : [
+            "Napa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 76915,
+        "population_2020" : 79246,
+        "population_2027" : 80520,
+        "land_area_2020" : 4390.4
+    },
+    "National City, San Diego County, CA" : {
+        "name" : "National City",
+        "state" : "California",
+        "FIPS" : "06-50398",
+        "counties" : [
+            "San Diego County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 58582,
+        "population_2020" : 56173,
+        "population_2027" : 54289,
+        "land_area_2020" : 7694.9
+    },
+    "Needles, San Bernardino County, CA" : {
+        "name" : "Needles",
+        "state" : "California",
+        "FIPS" : "06-50734",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4844,
+        "population_2020" : 4931,
+        "population_2027" : 4967,
+        "land_area_2020" : 161.2
+    },
+    "Nevada City, Nevada County, CA" : {
+        "name" : "Nevada City",
+        "state" : "California",
+        "FIPS" : "06-50874",
+        "counties" : [
+            "Nevada County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3068,
+        "population_2020" : 3152,
+        "population_2027" : 3196,
+        "land_area_2020" : 1439.3
+    },
+    "Newark, Alameda County, CA" : {
+        "name" : "Newark",
+        "state" : "California",
+        "FIPS" : "06-50916",
+        "counties" : [
+            "Alameda County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 42573,
+        "population_2020" : 47529,
+        "population_2027" : 51273,
+        "land_area_2020" : 3414.4
+    },
+    "Newman, Stanislaus County, CA" : {
+        "name" : "Newman",
+        "state" : "California",
+        "FIPS" : "06-51140",
+        "counties" : [
+            "Stanislaus County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10224,
+        "population_2020" : 12351,
+        "population_2027" : 14193,
+        "land_area_2020" : 5995.6
+    },
+    "Newport Beach, Orange County, CA" : {
+        "name" : "Newport Beach",
+        "state" : "California",
+        "FIPS" : "06-51182",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 85186,
+        "population_2020" : 85239,
+        "population_2027" : 84829,
+        "land_area_2020" : 3583.0
+    },
+    "Norco, Riverside County, CA" : {
+        "name" : "Norco",
+        "state" : "California",
+        "FIPS" : "06-51560",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 27063,
+        "population_2020" : 26316,
+        "population_2027" : 25676,
+        "land_area_2020" : 1898.7
+    },
+    "Norwalk, Los Angeles County, CA" : {
+        "name" : "Norwalk",
+        "state" : "California",
+        "FIPS" : "06-52526",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 105549,
+        "population_2020" : 102773,
+        "population_2027" : 100366,
+        "land_area_2020" : 10584.2
+    },
+    "Novato, Marin County, CA" : {
+        "name" : "Novato",
+        "state" : "California",
+        "FIPS" : "06-52582",
+        "counties" : [
+            "Marin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 51904,
+        "population_2020" : 53225,
+        "population_2027" : 53897,
+        "land_area_2020" : 1936.9
+    },
+    "Oakdale, Stanislaus County, CA" : {
+        "name" : "Oakdale",
+        "state" : "California",
+        "FIPS" : "06-52694",
+        "counties" : [
+            "Stanislaus County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 20675,
+        "population_2020" : 23181,
+        "population_2027" : 25090,
+        "land_area_2020" : 3720.9
+    },
+    "Oakland, Alameda County, CA" : {
+        "name" : "Oakland",
+        "state" : "California",
+        "FIPS" : "06-53000",
+        "counties" : [
+            "Alameda County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 390724,
+        "population_2020" : 440646,
+        "population_2027" : 479109,
+        "land_area_2020" : 7878.5
+    },
+    "Oakley, Contra Costa County, CA" : {
+        "name" : "Oakley",
+        "state" : "California",
+        "FIPS" : "06-53070",
+        "counties" : [
+            "Contra Costa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 35432,
+        "population_2020" : 43357,
+        "population_2027" : 50359,
+        "land_area_2020" : 2732.0
+    },
+    "Oceanside, San Diego County, CA" : {
+        "name" : "Oceanside",
+        "state" : "California",
+        "FIPS" : "06-53322",
+        "counties" : [
+            "San Diego County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 167086,
+        "population_2020" : 174068,
+        "population_2027" : 178289,
+        "land_area_2020" : 4217.8
+    },
+    "Ojai, Ventura County, CA" : {
+        "name" : "Ojai",
+        "state" : "California",
+        "FIPS" : "06-53476",
+        "counties" : [
+            "Ventura County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7461,
+        "population_2020" : 7637,
+        "population_2027" : 7723,
+        "land_area_2020" : 1751.6
+    },
+    "Ontario, San Bernardino County, CA" : {
+        "name" : "Ontario",
+        "state" : "California",
+        "FIPS" : "06-53896",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 163924,
+        "population_2020" : 175265,
+        "population_2027" : 182974,
+        "land_area_2020" : 3507.4
+    },
+    "Orange, Orange County, CA" : {
+        "name" : "Orange",
+        "state" : "California",
+        "FIPS" : "06-53980",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 134616,
+        "population_2020" : 139911,
+        "population_2027" : 143059,
+        "land_area_2020" : 5450.4
+    },
+    "Orange Cove, Fresno County, CA" : {
+        "name" : "Orange Cove",
+        "state" : "California",
+        "FIPS" : "06-54008",
+        "counties" : [
+            "Fresno County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9078,
+        "population_2020" : 9649,
+        "population_2027" : 10029,
+        "land_area_2020" : 5390.5
+    },
+    "Orinda, Contra Costa County, CA" : {
+        "name" : "Orinda",
+        "state" : "California",
+        "FIPS" : "06-54232",
+        "counties" : [
+            "Contra Costa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 17643,
+        "population_2020" : 19514,
+        "population_2027" : 20901,
+        "land_area_2020" : 1518.6
+    },
+    "Orland, Glenn County, CA" : {
+        "name" : "Orland",
+        "state" : "California",
+        "FIPS" : "06-54274",
+        "counties" : [
+            "Glenn County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7291,
+        "population_2020" : 8298,
+        "population_2027" : 9087,
+        "land_area_2020" : 2775.3
+    },
+    "Oroville, Butte County, CA" : {
+        "name" : "Oroville",
+        "state" : "California",
+        "FIPS" : "06-54386",
+        "counties" : [
+            "Butte County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15546,
+        "population_2020" : 20042,
+        "population_2027" : 24344,
+        "land_area_2020" : 1449.2
+    },
+    "Oxnard, Ventura County, CA" : {
+        "name" : "Oxnard",
+        "state" : "California",
+        "FIPS" : "06-54652",
+        "counties" : [
+            "Ventura County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 197899,
+        "population_2020" : 202063,
+        "population_2027" : 203986,
+        "land_area_2020" : 7616.4
+    },
+    "Pacific Grove, Monterey County, CA" : {
+        "name" : "Pacific Grove",
+        "state" : "California",
+        "FIPS" : "06-54848",
+        "counties" : [
+            "Monterey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15041,
+        "population_2020" : 15090,
+        "population_2027" : 15045,
+        "land_area_2020" : 5257.8
+    },
+    "Pacifica, San Mateo County, CA" : {
+        "name" : "Pacifica",
+        "state" : "California",
+        "FIPS" : "06-54806",
+        "counties" : [
+            "San Mateo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 37234,
+        "population_2020" : 38640,
+        "population_2027" : 39466,
+        "land_area_2020" : 3071.5
+    },
+    "Palm Desert, Riverside County, CA" : {
+        "name" : "Palm Desert",
+        "state" : "California",
+        "FIPS" : "06-55184",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 48445,
+        "population_2020" : 51163,
+        "population_2027" : 52929,
+        "land_area_2020" : 1908.4
+    },
+    "Palm Springs, Riverside County, CA" : {
+        "name" : "Palm Springs",
+        "state" : "California",
+        "FIPS" : "06-55254",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 44552,
+        "population_2020" : 44575,
+        "population_2027" : 44358,
+        "land_area_2020" : 471.4
+    },
+    "Palmdale, Los Angeles County, CA" : {
+        "name" : "Palmdale",
+        "state" : "California",
+        "FIPS" : "06-55156",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 152750,
+        "population_2020" : 169450,
+        "population_2027" : 181904,
+        "land_area_2020" : 1597.7
+    },
+    "Palo Alto, Santa Clara County, CA" : {
+        "name" : "Palo Alto",
+        "state" : "California",
+        "FIPS" : "06-55282",
+        "counties" : [
+            "Santa Clara County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 64403,
+        "population_2020" : 68572,
+        "population_2027" : 71367,
+        "land_area_2020" : 2845.3
+    },
+    "Palos Verdes Estates, Los Angeles County, CA" : {
+        "name" : "Palos Verdes Estates",
+        "state" : "California",
+        "FIPS" : "06-55380",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13438,
+        "population_2020" : 13347,
+        "population_2027" : 13214,
+        "land_area_2020" : 2792.3
+    },
+    "Paradise, Butte County, CA" : {
+        "name" : "Paradise",
+        "state" : "California",
+        "FIPS" : "06-55528",
+        "counties" : [
+            "Butte County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 26218,
+        "population_2020" : 4764,
+        "population_2027" : 2606,
+        "land_area_2020" : 260.0
+    },
+    "Paramount, Los Angeles County, CA" : {
+        "name" : "Paramount",
+        "state" : "California",
+        "FIPS" : "06-55618",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 54098,
+        "population_2020" : 53733,
+        "population_2027" : 53199,
+        "land_area_2020" : 11360.0
+    },
+    "Pasadena, Los Angeles County, CA" : {
+        "name" : "Pasadena",
+        "state" : "California",
+        "FIPS" : "06-56000",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 137122,
+        "population_2020" : 138699,
+        "population_2027" : 139088,
+        "land_area_2020" : 6040.9
+    },
+    "Parlier, Fresno County, CA" : {
+        "name" : "Parlier",
+        "state" : "California",
+        "FIPS" : "06-55856",
+        "counties" : [
+            "Fresno County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14494,
+        "population_2020" : 14576,
+        "population_2027" : 14557,
+        "land_area_2020" : 6048.1
+    },
+    "Paso Robles, San Luis Obispo County, CA" : {
+        "name" : "Paso Robles",
+        "state" : "California",
+        "FIPS" : "06-22300",
+        "counties" : [
+            "San Luis Obispo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 29793,
+        "population_2020" : 31490,
+        "population_2027" : 32597,
+        "land_area_2020" : 1602.5
+    },
+    "Patterson, Stanislaus County, CA" : {
+        "name" : "Patterson",
+        "state" : "California",
+        "FIPS" : "06-56112",
+        "counties" : [
+            "Stanislaus County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 20413,
+        "population_2020" : 23781,
+        "population_2027" : 26530,
+        "land_area_2020" : 3052.8
+    },
+    "Perris, Riverside County, CA" : {
+        "name" : "Perris",
+        "state" : "California",
+        "FIPS" : "06-56700",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 68386,
+        "population_2020" : 78700,
+        "population_2027" : 86943,
+        "land_area_2020" : 2496.0
+    },
+    "Petaluma, Sonoma County, CA" : {
+        "name" : "Petaluma",
+        "state" : "California",
+        "FIPS" : "06-56784",
+        "counties" : [
+            "Sonoma County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 57941,
+        "population_2020" : 59776,
+        "population_2027" : 60795,
+        "land_area_2020" : 4145.4
+    },
+    "Pico Rivera, Los Angeles County, CA" : {
+        "name" : "Pico Rivera",
+        "state" : "California",
+        "FIPS" : "06-56924",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 62942,
+        "population_2020" : 62088,
+        "population_2027" : 61178,
+        "land_area_2020" : 7462.5
+    },
+    "Piedmont, Alameda County, CA" : {
+        "name" : "Piedmont",
+        "state" : "California",
+        "FIPS" : "06-56938",
+        "counties" : [
+            "Alameda County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10667,
+        "population_2020" : 11270,
+        "population_2027" : 11663,
+        "land_area_2020" : 6629.4
+    },
+    "Pinole, Contra Costa County, CA" : {
+        "name" : "Pinole",
+        "state" : "California",
+        "FIPS" : "06-57288",
+        "counties" : [
+            "Contra Costa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 18390,
+        "population_2020" : 19022,
+        "population_2027" : 19383,
+        "land_area_2020" : 3729.8
+    },
+    "Pismo Beach, San Luis Obispo County, CA" : {
+        "name" : "Pismo Beach",
+        "state" : "California",
+        "FIPS" : "06-57414",
+        "counties" : [
+            "San Luis Obispo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7655,
+        "population_2020" : 8072,
+        "population_2027" : 8341,
+        "land_area_2020" : 2306.3
+    },
+    "Pittsburg, Contra Costa County, CA" : {
+        "name" : "Pittsburg",
+        "state" : "California",
+        "FIPS" : "06-57456",
+        "counties" : [
+            "Contra Costa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 63264,
+        "population_2020" : 76416,
+        "population_2027" : 87802,
+        "land_area_2020" : 4322.2
+    },
+    "Placentia, Orange County, CA" : {
+        "name" : "Placentia",
+        "state" : "California",
+        "FIPS" : "06-57526",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 50533,
+        "population_2020" : 51824,
+        "population_2027" : 52482,
+        "land_area_2020" : 7840.2
+    },
+    "Placerville, El Dorado County, CA" : {
+        "name" : "Placerville",
+        "state" : "California",
+        "FIPS" : "06-57540",
+        "counties" : [
+            "El Dorado County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10389,
+        "population_2020" : 10747,
+        "population_2027" : 10951,
+        "land_area_2020" : 1840.2
+    },
+    "Pleasant Hill, Contra Costa County, CA" : {
+        "name" : "Pleasant Hill",
+        "state" : "California",
+        "FIPS" : "06-57764",
+        "counties" : [
+            "Contra Costa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 33152,
+        "population_2020" : 34613,
+        "population_2027" : 35509,
+        "land_area_2020" : 4888.8
+    },
+    "Pleasanton, Alameda County, CA" : {
+        "name" : "Pleasanton",
+        "state" : "California",
+        "FIPS" : "06-57792",
+        "counties" : [
+            "Alameda County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 70285,
+        "population_2020" : 79871,
+        "population_2027" : 87362,
+        "land_area_2020" : 3308.7
+    },
+    "Plymouth, Amador County, CA" : {
+        "name" : "Plymouth",
+        "state" : "California",
+        "FIPS" : "06-57834",
+        "counties" : [
+            "Amador County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1005,
+        "population_2020" : 1078,
+        "population_2027" : 1128,
+        "land_area_2020" : 406.8
+    },
+    "Point Arena, Mendocino County, CA" : {
+        "name" : "Point Arena",
+        "state" : "California",
+        "FIPS" : "06-57876",
+        "counties" : [
+            "Mendocino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 449,
+        "population_2020" : 460,
+        "population_2027" : 466,
+        "land_area_2020" : 335.8
+    },
+    "Pomona, Los Angeles County, CA" : {
+        "name" : "Pomona",
+        "state" : "California",
+        "FIPS" : "06-58072",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 149058,
+        "population_2020" : 151713,
+        "population_2027" : 152812,
+        "land_area_2020" : 6599.1
+    },
+    "Port Hueneme, Ventura County, CA" : {
+        "name" : "Port Hueneme",
+        "state" : "California",
+        "FIPS" : "06-58296",
+        "counties" : [
+            "Ventura County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 21723,
+        "population_2020" : 21954,
+        "population_2027" : 22002,
+        "land_area_2020" : 4967.0
+    },
+    "Porterville, Tulare County, CA" : {
+        "name" : "Porterville",
+        "state" : "California",
+        "FIPS" : "06-58240",
+        "counties" : [
+            "Tulare County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 54165,
+        "population_2020" : 62623,
+        "population_2027" : 69437,
+        "land_area_2020" : 3357.8
+    },
+    "Portola, Plumas County, CA" : {
+        "name" : "Portola",
+        "state" : "California",
+        "FIPS" : "06-58352",
+        "counties" : [
+            "Plumas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2104,
+        "population_2020" : 2100,
+        "population_2027" : 2086,
+        "land_area_2020" : 388.2
+    },
+    "Portola Valley, San Mateo County, CA" : {
+        "name" : "Portola Valley",
+        "state" : "California",
+        "FIPS" : "06-58380",
+        "counties" : [
+            "San Mateo County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4353,
+        "population_2020" : 4456,
+        "population_2027" : 4507,
+        "land_area_2020" : 490.7
+    },
+    "Poway, San Diego County, CA" : {
+        "name" : "Poway",
+        "state" : "California",
+        "FIPS" : "06-58520",
+        "counties" : [
+            "San Diego County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 47811,
+        "population_2020" : 48841,
+        "population_2027" : 49323,
+        "land_area_2020" : 1249.8
+    },
+    "Rancho Cordova, Sacramento County, CA" : {
+        "name" : "Rancho Cordova",
+        "state" : "California",
+        "FIPS" : "06-59444",
+        "counties" : [
+            "Sacramento County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 64776,
+        "population_2020" : 79332,
+        "population_2027" : 92209,
+        "land_area_2020" : 2294.8
+    },
+    "Rancho Cucamonga, San Bernardino County, CA" : {
+        "name" : "Rancho Cucamonga",
+        "state" : "California",
+        "FIPS" : "06-59451",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 165269,
+        "population_2020" : 174453,
+        "population_2027" : 180409,
+        "land_area_2020" : 4349.4
+    },
+    "Rancho Mirage, Riverside County, CA" : {
+        "name" : "Rancho Mirage",
+        "state" : "California",
+        "FIPS" : "06-59500",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 17218,
+        "population_2020" : 16999,
+        "population_2027" : 16760,
+        "land_area_2020" : 670.6
+    },
+    "Rancho Palos Verdes, Los Angeles County, CA" : {
+        "name" : "Rancho Palos Verdes",
+        "state" : "California",
+        "FIPS" : "06-59514",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 41643,
+        "population_2020" : 42287,
+        "population_2027" : 42523,
+        "land_area_2020" : 3139.3
+    },
+    "Rancho Santa Margarita, Orange County, CA" : {
+        "name" : "Rancho Santa Margarita",
+        "state" : "California",
+        "FIPS" : "06-59587",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 47853,
+        "population_2020" : 47949,
+        "population_2027" : 47765,
+        "land_area_2020" : 3717.0
+    },
+    "Red Bluff, Tehama County, CA" : {
+        "name" : "Red Bluff",
+        "state" : "California",
+        "FIPS" : "06-59892",
+        "counties" : [
+            "Tehama County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14076,
+        "population_2020" : 14710,
+        "population_2027" : 15101,
+        "land_area_2020" : 1945.8
+    },
+    "Redding, Shasta County, CA" : {
+        "name" : "Redding",
+        "state" : "California",
+        "FIPS" : "06-59920",
+        "counties" : [
+            "Shasta County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 89861,
+        "population_2020" : 93611,
+        "population_2027" : 95877,
+        "land_area_2020" : 1569.3
+    },
+    "Redlands, San Bernardino County, CA" : {
+        "name" : "Redlands",
+        "state" : "California",
+        "FIPS" : "06-59962",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 68747,
+        "population_2020" : 73168,
+        "population_2027" : 76128,
+        "land_area_2020" : 2033.0
+    },
+    "Redondo Beach, Los Angeles County, CA" : {
+        "name" : "Redondo Beach",
+        "state" : "California",
+        "FIPS" : "06-60018",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 66747,
+        "population_2020" : 71576,
+        "population_2027" : 74889,
+        "land_area_2020" : 11525.9
+    },
+    "Redwood City, San Mateo County, CA" : {
+        "name" : "Redwood City",
+        "state" : "California",
+        "FIPS" : "06-60102",
+        "counties" : [
+            "San Mateo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 76815,
+        "population_2020" : 84292,
+        "population_2027" : 89738,
+        "land_area_2020" : 4358.4
+    },
+    "Reedley, Fresno County, CA" : {
+        "name" : "Reedley",
+        "state" : "California",
+        "FIPS" : "06-60242",
+        "counties" : [
+            "Fresno County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 24194,
+        "population_2020" : 25227,
+        "population_2027" : 25855,
+        "land_area_2020" : 4578.4
+    },
+    "Rialto, San Bernardino County, CA" : {
+        "name" : "Rialto",
+        "state" : "California",
+        "FIPS" : "06-60466",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 99171,
+        "population_2020" : 104026,
+        "population_2027" : 107083,
+        "land_area_2020" : 4318.2
+    },
+    "Richmond, Contra Costa County, CA" : {
+        "name" : "Richmond",
+        "state" : "California",
+        "FIPS" : "06-60620",
+        "counties" : [
+            "Contra Costa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 103701,
+        "population_2020" : 116448,
+        "population_2027" : 126188,
+        "land_area_2020" : 3875.1
+    },
+    "Ridgecrest, Kern County, CA" : {
+        "name" : "Ridgecrest",
+        "state" : "California",
+        "FIPS" : "06-60704",
+        "counties" : [
+            "Kern County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 27616,
+        "population_2020" : 27959,
+        "population_2027" : 28055,
+        "land_area_2020" : 1340.3
+    },
+    "Rio Dell, Humboldt County, CA" : {
+        "name" : "Rio Dell",
+        "state" : "California",
+        "FIPS" : "06-60900",
+        "counties" : [
+            "Humboldt County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3368,
+        "population_2020" : 3379,
+        "population_2027" : 3369,
+        "land_area_2020" : 1482.0
+    },
+    "Rio Vista, Solano County, CA" : {
+        "name" : "Rio Vista",
+        "state" : "California",
+        "FIPS" : "06-60984",
+        "counties" : [
+            "Solano County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7360,
+        "population_2020" : 10005,
+        "population_2027" : 12745,
+        "land_area_2020" : 1515.9
+    },
+    "Ripon, San Joaquin County, CA" : {
+        "name" : "Ripon",
+        "state" : "California",
+        "FIPS" : "06-61026",
+        "counties" : [
+            "San Joaquin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14297,
+        "population_2020" : 16013,
+        "population_2027" : 17318,
+        "land_area_2020" : 3004.3
+    },
+    "Riverbank, Stanislaus County, CA" : {
+        "name" : "Riverbank",
+        "state" : "California",
+        "FIPS" : "06-61068",
+        "counties" : [
+            "Stanislaus County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 22678,
+        "population_2020" : 24865,
+        "population_2027" : 26455,
+        "land_area_2020" : 5279.2
+    },
+    "Riverside, Riverside County, CA" : {
+        "name" : "Riverside",
+        "state" : "California",
+        "FIPS" : "06-62000",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 303871,
+        "population_2020" : 314998,
+        "population_2027" : 321475,
+        "land_area_2020" : 3877.9
+    },
+    "Rocklin, Placer County, CA" : {
+        "name" : "Rocklin",
+        "state" : "California",
+        "FIPS" : "06-62364",
+        "counties" : [
+            "Placer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 56974,
+        "population_2020" : 71601,
+        "population_2027" : 85066,
+        "land_area_2020" : 3614.4
+    },
+    "Rohnert Park, Sonoma County, CA" : {
+        "name" : "Rohnert Park",
+        "state" : "California",
+        "FIPS" : "06-62546",
+        "counties" : [
+            "Sonoma County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 40971,
+        "population_2020" : 44390,
+        "population_2027" : 46804,
+        "land_area_2020" : 6089.2
+    },
+    "Rolling Hills, Los Angeles County, CA" : {
+        "name" : "Rolling Hills",
+        "state" : "California",
+        "FIPS" : "06-62625",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1860,
+        "population_2020" : 1739,
+        "population_2027" : 1653,
+        "land_area_2020" : 581.6
+    },
+    "Rolling Hills Estates, Los Angeles County, CA" : {
+        "name" : "Rolling Hills Estates",
+        "state" : "California",
+        "FIPS" : "06-62644",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8067,
+        "population_2020" : 8280,
+        "population_2027" : 8390,
+        "land_area_2020" : 2312.8
+    },
+    "Rosemead, Los Angeles County, CA" : {
+        "name" : "Rosemead",
+        "state" : "California",
+        "FIPS" : "06-62896",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 53764,
+        "population_2020" : 51185,
+        "population_2027" : 49230,
+        "land_area_2020" : 9919.6
+    },
+    "Roseville, Placer County, CA" : {
+        "name" : "Roseville",
+        "state" : "California",
+        "FIPS" : "06-62938",
+        "counties" : [
+            "Placer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 118788,
+        "population_2020" : 147773,
+        "population_2027" : 174043,
+        "land_area_2020" : 3352.4
+    },
+    "Ross, Marin County, CA" : {
+        "name" : "Ross",
+        "state" : "California",
+        "FIPS" : "06-62980",
+        "counties" : [
+            "Marin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2415,
+        "population_2020" : 2338,
+        "population_2027" : 2274,
+        "land_area_2020" : 1498.7
+    },
+    "Sacramento, Sacramento County, CA" : {
+        "name" : "Sacramento",
+        "state" : "California",
+        "FIPS" : "06-64000",
+        "counties" : [
+            "Sacramento County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 466488,
+        "population_2020" : 524943,
+        "population_2027" : 569793,
+        "land_area_2020" : 5323.4
+    },
+    "St. Helena, Napa County, CA" : {
+        "name" : "St. Helena",
+        "state" : "California",
+        "FIPS" : "06-64140",
+        "counties" : [
+            "Napa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5814,
+        "population_2020" : 5430,
+        "population_2027" : 5157,
+        "land_area_2020" : 1094.8
+    },
+    "Salinas, Monterey County, CA" : {
+        "name" : "Salinas",
+        "state" : "California",
+        "FIPS" : "06-64224",
+        "counties" : [
+            "Monterey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 150441,
+        "population_2020" : 163542,
+        "population_2027" : 172873,
+        "land_area_2020" : 6953.3
+    },
+    "San Anselmo, Marin County, CA" : {
+        "name" : "San Anselmo",
+        "state" : "California",
+        "FIPS" : "06-64434",
+        "counties" : [
+            "Marin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 12336,
+        "population_2020" : 12830,
+        "population_2027" : 13125,
+        "land_area_2020" : 4787.3
+    },
+    "San Bernardino, San Bernardino County, CA" : {
+        "name" : "San Bernardino",
+        "state" : "California",
+        "FIPS" : "06-65000",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 209924,
+        "population_2020" : 222101,
+        "population_2027" : 230073,
+        "land_area_2020" : 3574.8
+    },
+    "San Bruno, San Mateo County, CA" : {
+        "name" : "San Bruno",
+        "state" : "California",
+        "FIPS" : "06-65028",
+        "counties" : [
+            "San Mateo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 41114,
+        "population_2020" : 43908,
+        "population_2027" : 45800,
+        "land_area_2020" : 7997.8
+    },
+    "San Carlos, San Mateo County, CA" : {
+        "name" : "San Carlos",
+        "state" : "California",
+        "FIPS" : "06-65070",
+        "counties" : [
+            "San Mateo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 28406,
+        "population_2020" : 30722,
+        "population_2027" : 32350,
+        "land_area_2020" : 5678.7
+    },
+    "San Clemente, Orange County, CA" : {
+        "name" : "San Clemente",
+        "state" : "California",
+        "FIPS" : "06-65084",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 63522,
+        "population_2020" : 64293,
+        "population_2027" : 64502,
+        "land_area_2020" : 3501.8
+    },
+    "San Diego, San Diego County, CA" : {
+        "name" : "San Diego",
+        "state" : "California",
+        "FIPS" : "06-66000",
+        "counties" : [
+            "San Diego County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1307402,
+        "population_2020" : 1386932,
+        "population_2027" : 1439544,
+        "land_area_2020" : 4256.0
+    },
+    "San Dimas, Los Angeles County, CA" : {
+        "name" : "San Dimas",
+        "state" : "California",
+        "FIPS" : "06-66070",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 33371,
+        "population_2020" : 34924,
+        "population_2027" : 35890,
+        "land_area_2020" : 2323.6
+    },
+    "San Fernando, Los Angeles County, CA" : {
+        "name" : "San Fernando",
+        "state" : "California",
+        "FIPS" : "06-66140",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23645,
+        "population_2020" : 23946,
+        "population_2027" : 24034,
+        "land_area_2020" : 10103.8
+    },
+    "San Francisco, San Francisco, CA" : {
+        "name" : "San Francisco",
+        "state" : "California",
+        "FIPS" : "06-67000",
+        "counties" : [
+            "San Francisco"
+        ],
+        "type_class" : "City And County",
+        "population_2010" : 805235,
+        "population_2020" : 873965,
+        "population_2027" : 922721,
+        "land_area_2020" : 18630.7
+    },
+    "San Gabriel, Los Angeles County, CA" : {
+        "name" : "San Gabriel",
+        "state" : "California",
+        "FIPS" : "06-67042",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 39718,
+        "population_2020" : 39568,
+        "population_2027" : 39257,
+        "land_area_2020" : 9557.5
+    },
+    "San Jacinto, Riverside County, CA" : {
+        "name" : "San Jacinto",
+        "state" : "California",
+        "FIPS" : "06-67112",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 44199,
+        "population_2020" : 53898,
+        "population_2027" : 62421,
+        "land_area_2020" : 2076.2
+    },
+    "San Joaquin, Fresno County, CA" : {
+        "name" : "San Joaquin",
+        "state" : "California",
+        "FIPS" : "06-67126",
+        "counties" : [
+            "Fresno County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4001,
+        "population_2020" : 3701,
+        "population_2027" : 3493,
+        "land_area_2020" : 3084.2
+    },
+    "San Jose, Santa Clara County, CA" : {
+        "name" : "San Jose",
+        "state" : "California",
+        "FIPS" : "06-68000",
+        "counties" : [
+            "Santa Clara County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 945942,
+        "population_2020" : 1013240,
+        "population_2027" : 1059252,
+        "land_area_2020" : 5684.1
+    },
+    "San Juan Bautista, San Benito County, CA" : {
+        "name" : "San Juan Bautista",
+        "state" : "California",
+        "FIPS" : "06-68014",
+        "counties" : [
+            "San Benito County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1862,
+        "population_2020" : 2089,
+        "population_2027" : 2262,
+        "land_area_2020" : 2644.3
+    },
+    "San Juan Capistrano, Orange County, CA" : {
+        "name" : "San Juan Capistrano",
+        "state" : "California",
+        "FIPS" : "06-68028",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 34593,
+        "population_2020" : 35196,
+        "population_2027" : 35441,
+        "land_area_2020" : 2439.1
+    },
+    "San Leandro, Alameda County, CA" : {
+        "name" : "San Leandro",
+        "state" : "California",
+        "FIPS" : "06-68084",
+        "counties" : [
+            "Alameda County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 84950,
+        "population_2020" : 91008,
+        "population_2027" : 95152,
+        "land_area_2020" : 6832.4
+    },
+    "San Luis Obispo, San Luis Obispo County, CA" : {
+        "name" : "San Luis Obispo",
+        "state" : "California",
+        "FIPS" : "06-68154",
+        "counties" : [
+            "San Luis Obispo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 45119,
+        "population_2020" : 47063,
+        "population_2027" : 48248,
+        "land_area_2020" : 3535.9
+    },
+    "San Marcos, San Diego County, CA" : {
+        "name" : "San Marcos",
+        "state" : "California",
+        "FIPS" : "06-68196",
+        "counties" : [
+            "San Diego County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 83781,
+        "population_2020" : 94833,
+        "population_2027" : 103407,
+        "land_area_2020" : 3893.0
+    },
+    "San Marino, Los Angeles County, CA" : {
+        "name" : "San Marino",
+        "state" : "California",
+        "FIPS" : "06-68224",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13147,
+        "population_2020" : 12513,
+        "population_2027" : 12033,
+        "land_area_2020" : 3319.1
+    },
+    "San Mateo, San Mateo County, CA" : {
+        "name" : "San Mateo",
+        "state" : "California",
+        "FIPS" : "06-68252",
+        "counties" : [
+            "San Mateo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 97207,
+        "population_2020" : 105661,
+        "population_2027" : 111681,
+        "land_area_2020" : 8702.5
+    },
+    "San Pablo, Contra Costa County, CA" : {
+        "name" : "San Pablo",
+        "state" : "California",
+        "FIPS" : "06-68294",
+        "counties" : [
+            "Contra Costa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 29139,
+        "population_2020" : 32127,
+        "population_2027" : 34326,
+        "land_area_2020" : 12262.2
+    },
+    "San Rafael, Marin County, CA" : {
+        "name" : "San Rafael",
+        "state" : "California",
+        "FIPS" : "06-68364",
+        "counties" : [
+            "Marin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 57713,
+        "population_2020" : 61271,
+        "population_2027" : 63632,
+        "land_area_2020" : 3693.2
+    },
+    "San Ramon, Contra Costa County, CA" : {
+        "name" : "San Ramon",
+        "state" : "California",
+        "FIPS" : "06-68378",
+        "counties" : [
+            "Contra Costa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 72148,
+        "population_2020" : 84605,
+        "population_2027" : 94884,
+        "land_area_2020" : 4526.8
+    },
+    "Sand City, Monterey County, CA" : {
+        "name" : "Sand City",
+        "state" : "California",
+        "FIPS" : "06-65112",
+        "counties" : [
+            "Monterey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 334,
+        "population_2020" : 325,
+        "population_2027" : 317,
+        "land_area_2020" : 590.9
+    },
+    "Sanger, Fresno County, CA" : {
+        "name" : "Sanger",
+        "state" : "California",
+        "FIPS" : "06-67056",
+        "counties" : [
+            "Fresno County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 24270,
+        "population_2020" : 26617,
+        "population_2027" : 28324,
+        "land_area_2020" : 4613.0
+    },
+    "Santa Ana, Orange County, CA" : {
+        "name" : "Santa Ana",
+        "state" : "California",
+        "FIPS" : "06-69000",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 324528,
+        "population_2020" : 310227,
+        "population_2027" : 299201,
+        "land_area_2020" : 11347.0
+    },
+    "Santa Barbara, Santa Barbara County, CA" : {
+        "name" : "Santa Barbara",
+        "state" : "California",
+        "FIPS" : "06-69070",
+        "counties" : [
+            "Santa Barbara County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 88410,
+        "population_2020" : 88665,
+        "population_2027" : 88379,
+        "land_area_2020" : 4544.6
+    },
+    "Santa Clara, Santa Clara County, CA" : {
+        "name" : "Santa Clara",
+        "state" : "California",
+        "FIPS" : "06-69084",
+        "counties" : [
+            "Santa Clara County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 116468,
+        "population_2020" : 127647,
+        "population_2027" : 135766,
+        "land_area_2020" : 6982.9
+    },
+    "Santa Clarita, Los Angeles County, CA" : {
+        "name" : "Santa Clarita",
+        "state" : "California",
+        "FIPS" : "06-69088",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 176320,
+        "population_2020" : 228673,
+        "population_2027" : 279223,
+        "land_area_2020" : 3232.1
+    },
+    "Santa Cruz, Santa Cruz County, CA" : {
+        "name" : "Santa Cruz",
+        "state" : "California",
+        "FIPS" : "06-69112",
+        "counties" : [
+            "Santa Cruz County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 59946,
+        "population_2020" : 62956,
+        "population_2027" : 64863,
+        "land_area_2020" : 4941.6
+    },
+    "Santa Fe Springs, Los Angeles County, CA" : {
+        "name" : "Santa Fe Springs",
+        "state" : "California",
+        "FIPS" : "06-69154",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16223,
+        "population_2020" : 19219,
+        "population_2027" : 21733,
+        "land_area_2020" : 2169.2
+    },
+    "Santa Maria, Santa Barbara County, CA" : {
+        "name" : "Santa Maria",
+        "state" : "California",
+        "FIPS" : "06-69196",
+        "counties" : [
+            "Santa Barbara County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 99553,
+        "population_2020" : 109707,
+        "population_2027" : 117173,
+        "land_area_2020" : 4809.6
+    },
+    "Santa Monica, Los Angeles County, CA" : {
+        "name" : "Santa Monica",
+        "state" : "California",
+        "FIPS" : "06-70000",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 89736,
+        "population_2020" : 93076,
+        "population_2027" : 95030,
+        "land_area_2020" : 11067.3
+    },
+    "Santa Paula, Ventura County, CA" : {
+        "name" : "Santa Paula",
+        "state" : "California",
+        "FIPS" : "06-70042",
+        "counties" : [
+            "Ventura County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 29321,
+        "population_2020" : 30657,
+        "population_2027" : 31483,
+        "land_area_2020" : 5543.8
+    },
+    "Santa Rosa, Sonoma County, CA" : {
+        "name" : "Santa Rosa",
+        "state" : "California",
+        "FIPS" : "06-70098",
+        "counties" : [
+            "Sonoma County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 167815,
+        "population_2020" : 178127,
+        "population_2027" : 184964,
+        "land_area_2020" : 4188.3
+    },
+    "Santee, San Diego County, CA" : {
+        "name" : "Santee",
+        "state" : "California",
+        "FIPS" : "06-70224",
+        "counties" : [
+            "San Diego County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 53413,
+        "population_2020" : 60037,
+        "population_2027" : 65108,
+        "land_area_2020" : 3629.8
+    },
+    "Saratoga, Santa Clara County, CA" : {
+        "name" : "Saratoga",
+        "state" : "California",
+        "FIPS" : "06-70280",
+        "counties" : [
+            "Santa Clara County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 29926,
+        "population_2020" : 31051,
+        "population_2027" : 31711,
+        "land_area_2020" : 2429.7
+    },
+    "Sausalito, Marin County, CA" : {
+        "name" : "Sausalito",
+        "state" : "California",
+        "FIPS" : "06-70364",
+        "counties" : [
+            "Marin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7061,
+        "population_2020" : 7269,
+        "population_2027" : 7381,
+        "land_area_2020" : 4130.1
+    },
+    "Scotts Valley, Santa Cruz County, CA" : {
+        "name" : "Scotts Valley",
+        "state" : "California",
+        "FIPS" : "06-70588",
+        "counties" : [
+            "Santa Cruz County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11580,
+        "population_2020" : 12224,
+        "population_2027" : 12642,
+        "land_area_2020" : 2645.9
+    },
+    "Seal Beach, Orange County, CA" : {
+        "name" : "Seal Beach",
+        "state" : "California",
+        "FIPS" : "06-70686",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 24168,
+        "population_2020" : 25242,
+        "population_2027" : 25902,
+        "land_area_2020" : 2239.8
+    },
+    "Seaside, Monterey County, CA" : {
+        "name" : "Seaside",
+        "state" : "California",
+        "FIPS" : "06-70742",
+        "counties" : [
+            "Monterey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 33025,
+        "population_2020" : 32366,
+        "population_2027" : 31749,
+        "land_area_2020" : 3628.5
+    },
+    "Sebastopol, Sonoma County, CA" : {
+        "name" : "Sebastopol",
+        "state" : "California",
+        "FIPS" : "06-70770",
+        "counties" : [
+            "Sonoma County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7379,
+        "population_2020" : 7521,
+        "population_2027" : 7583,
+        "land_area_2020" : 4000.5
+    },
+    "Selma, Fresno County, CA" : {
+        "name" : "Selma",
+        "state" : "California",
+        "FIPS" : "06-70882",
+        "counties" : [
+            "Fresno County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23219,
+        "population_2020" : 24674,
+        "population_2027" : 25643,
+        "land_area_2020" : 4246.8
+    },
+    "Shafter, Kern County, CA" : {
+        "name" : "Shafter",
+        "state" : "California",
+        "FIPS" : "06-71106",
+        "counties" : [
+            "Kern County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16988,
+        "population_2020" : 19953,
+        "population_2027" : 22406,
+        "land_area_2020" : 515.6
+    },
+    "Shasta Lake, Shasta County, CA" : {
+        "name" : "Shasta Lake",
+        "state" : "California",
+        "FIPS" : "06-71225",
+        "counties" : [
+            "Shasta County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10164,
+        "population_2020" : 10371,
+        "population_2027" : 10465,
+        "land_area_2020" : 949.7
+    },
+    "Sierra Madre, Los Angeles County, CA" : {
+        "name" : "Sierra Madre",
+        "state" : "California",
+        "FIPS" : "06-71806",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10917,
+        "population_2020" : 11268,
+        "population_2027" : 11464,
+        "land_area_2020" : 3819.7
+    },
+    "Signal Hill, Los Angeles County, CA" : {
+        "name" : "Signal Hill",
+        "state" : "California",
+        "FIPS" : "06-71876",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11016,
+        "population_2020" : 11848,
+        "population_2027" : 12424,
+        "land_area_2020" : 5410.0
+    },
+    "Simi Valley, Ventura County, CA" : {
+        "name" : "Simi Valley",
+        "state" : "California",
+        "FIPS" : "06-72016",
+        "counties" : [
+            "Ventura County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 124237,
+        "population_2020" : 126356,
+        "population_2027" : 127204,
+        "land_area_2020" : 3041.1
+    },
+    "Solana Beach, San Diego County, CA" : {
+        "name" : "Solana Beach",
+        "state" : "California",
+        "FIPS" : "06-72506",
+        "counties" : [
+            "San Diego County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12867,
+        "population_2020" : 12941,
+        "population_2027" : 12925,
+        "land_area_2020" : 3795.0
+    },
+    "Soledad, Monterey County, CA" : {
+        "name" : "Soledad",
+        "state" : "California",
+        "FIPS" : "06-72520",
+        "counties" : [
+            "Monterey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 25738,
+        "population_2020" : 24925,
+        "population_2027" : 24251,
+        "land_area_2020" : 5588.6
+    },
+    "Solvang, Santa Barbara County, CA" : {
+        "name" : "Solvang",
+        "state" : "California",
+        "FIPS" : "06-72576",
+        "counties" : [
+            "Santa Barbara County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5245,
+        "population_2020" : 6126,
+        "population_2027" : 6848,
+        "land_area_2020" : 2521.0
+    },
+    "Sonoma, Sonoma County, CA" : {
+        "name" : "Sonoma",
+        "state" : "California",
+        "FIPS" : "06-72646",
+        "counties" : [
+            "Sonoma County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10648,
+        "population_2020" : 10739,
+        "population_2027" : 10747,
+        "land_area_2020" : 3919.3
+    },
+    "Sonora, Tuolumne County, CA" : {
+        "name" : "Sonora",
+        "state" : "California",
+        "FIPS" : "06-72674",
+        "counties" : [
+            "Tuolumne County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4903,
+        "population_2020" : 5003,
+        "population_2027" : 5048,
+        "land_area_2020" : 1583.2
+    },
+    "South El Monte, Los Angeles County, CA" : {
+        "name" : "South El Monte",
+        "state" : "California",
+        "FIPS" : "06-72996",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 20116,
+        "population_2020" : 19567,
+        "population_2027" : 19095,
+        "land_area_2020" : 6889.8
+    },
+    "South Gate, Los Angeles County, CA" : {
+        "name" : "South Gate",
+        "state" : "California",
+        "FIPS" : "06-73080",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 94396,
+        "population_2020" : 92726,
+        "population_2027" : 91103,
+        "land_area_2020" : 12807.5
+    },
+    "South Lake Tahoe, El Dorado County, CA" : {
+        "name" : "South Lake Tahoe",
+        "state" : "California",
+        "FIPS" : "06-73108",
+        "counties" : [
+            "El Dorado County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 21403,
+        "population_2020" : 21330,
+        "population_2027" : 21168,
+        "land_area_2020" : 2093.2
+    },
+    "South Pasadena, Los Angeles County, CA" : {
+        "name" : "South Pasadena",
+        "state" : "California",
+        "FIPS" : "06-73220",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 25619,
+        "population_2020" : 26943,
+        "population_2027" : 27787,
+        "land_area_2020" : 7901.2
+    },
+    "South San Francisco, San Mateo County, CA" : {
+        "name" : "South San Francisco",
+        "state" : "California",
+        "FIPS" : "06-73262",
+        "counties" : [
+            "San Mateo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 63632,
+        "population_2020" : 66105,
+        "population_2027" : 67570,
+        "land_area_2020" : 7185.3
+    },
+    "Stanton, Orange County, CA" : {
+        "name" : "Stanton",
+        "state" : "California",
+        "FIPS" : "06-73962",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 38186,
+        "population_2020" : 37962,
+        "population_2027" : 37608,
+        "land_area_2020" : 12245.8
+    },
+    "Stockton, San Joaquin County, CA" : {
+        "name" : "Stockton",
+        "state" : "California",
+        "FIPS" : "06-75000",
+        "counties" : [
+            "San Joaquin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 291707,
+        "population_2020" : 320804,
+        "population_2027" : 342101,
+        "land_area_2020" : 5156.8
+    },
+    "Suisun City, Solano County, CA" : {
+        "name" : "Suisun City",
+        "state" : "California",
+        "FIPS" : "06-75630",
+        "counties" : [
+            "Solano County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 28111,
+        "population_2020" : 29518,
+        "population_2027" : 30409,
+        "land_area_2020" : 7361.1
+    },
+    "Sunnyvale, Santa Clara County, CA" : {
+        "name" : "Sunnyvale",
+        "state" : "California",
+        "FIPS" : "06-77000",
+        "counties" : [
+            "Santa Clara County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 140081,
+        "population_2020" : 155805,
+        "population_2027" : 167595,
+        "land_area_2020" : 7062.8
+    },
+    "Susanville, Lassen County, CA" : {
+        "name" : "Susanville",
+        "state" : "California",
+        "FIPS" : "06-77364",
+        "counties" : [
+            "Lassen County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 17947,
+        "population_2020" : 16728,
+        "population_2027" : 15865,
+        "land_area_2020" : 2112.1
+    },
+    "Sutter Creek, Amador County, CA" : {
+        "name" : "Sutter Creek",
+        "state" : "California",
+        "FIPS" : "06-77392",
+        "counties" : [
+            "Amador County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2501,
+        "population_2020" : 2646,
+        "population_2027" : 2741,
+        "land_area_2020" : 980.0
+    },
+    "Taft, Kern County, CA" : {
+        "name" : "Taft",
+        "state" : "California",
+        "FIPS" : "06-77574",
+        "counties" : [
+            "Kern County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9327,
+        "population_2020" : 8546,
+        "population_2027" : 8015,
+        "land_area_2020" : 559.7
+    },
+    "Tehachapi, Kern County, CA" : {
+        "name" : "Tehachapi",
+        "state" : "California",
+        "FIPS" : "06-78092",
+        "counties" : [
+            "Kern County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14414,
+        "population_2020" : 12939,
+        "population_2027" : 11976,
+        "land_area_2020" : 1261.1
+    },
+    "Tehama, Tehama County, CA" : {
+        "name" : "Tehama",
+        "state" : "California",
+        "FIPS" : "06-78106",
+        "counties" : [
+            "Tehama County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 418,
+        "population_2020" : 435,
+        "population_2027" : 445,
+        "land_area_2020" : 550.6
+    },
+    "Temecula, Riverside County, CA" : {
+        "name" : "Temecula",
+        "state" : "California",
+        "FIPS" : "06-78120",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 100097,
+        "population_2020" : 110003,
+        "population_2027" : 117242,
+        "land_area_2020" : 2951.5
+    },
+    "Temple City, Los Angeles County, CA" : {
+        "name" : "Temple City",
+        "state" : "California",
+        "FIPS" : "06-78148",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 35558,
+        "population_2020" : 36494,
+        "population_2027" : 36978,
+        "land_area_2020" : 9123.5
+    },
+    "Thousand Oaks, Ventura County, CA" : {
+        "name" : "Thousand Oaks",
+        "state" : "California",
+        "FIPS" : "06-78582",
+        "counties" : [
+            "Ventura County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 126683,
+        "population_2020" : 126966,
+        "population_2027" : 126499,
+        "land_area_2020" : 2297.6
+    },
+    "Tiburon, Marin County, CA" : {
+        "name" : "Tiburon",
+        "state" : "California",
+        "FIPS" : "06-78666",
+        "counties" : [
+            "Marin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8962,
+        "population_2020" : 9146,
+        "population_2027" : 9230,
+        "land_area_2020" : 2041.5
+    },
+    "Torrance, Los Angeles County, CA" : {
+        "name" : "Torrance",
+        "state" : "California",
+        "FIPS" : "06-80000",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 145538,
+        "population_2020" : 147067,
+        "population_2027" : 147377,
+        "land_area_2020" : 7167.0
+    },
+    "Tracy, San Joaquin County, CA" : {
+        "name" : "Tracy",
+        "state" : "California",
+        "FIPS" : "06-80238",
+        "counties" : [
+            "San Joaquin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 82922,
+        "population_2020" : 93000,
+        "population_2027" : 100683,
+        "land_area_2020" : 3592.1
+    },
+    "Trinidad, Humboldt County, CA" : {
+        "name" : "Trinidad",
+        "state" : "California",
+        "FIPS" : "06-80448",
+        "counties" : [
+            "Humboldt County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 367,
+        "population_2020" : 307,
+        "population_2027" : 272,
+        "land_area_2020" : 626.5
+    },
+    "Truckee, Nevada County, CA" : {
+        "name" : "Truckee",
+        "state" : "California",
+        "FIPS" : "06-80588",
+        "counties" : [
+            "Nevada County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 16180,
+        "population_2020" : 16729,
+        "population_2027" : 17041,
+        "land_area_2020" : 517.4
+    },
+    "Tulare, Tulare County, CA" : {
+        "name" : "Tulare",
+        "state" : "California",
+        "FIPS" : "06-80644",
+        "counties" : [
+            "Tulare County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 59278,
+        "population_2020" : 68875,
+        "population_2027" : 76673,
+        "land_area_2020" : 3377.9
+    },
+    "Tulelake, Siskiyou County, CA" : {
+        "name" : "Tulelake",
+        "state" : "California",
+        "FIPS" : "06-80686",
+        "counties" : [
+            "Siskiyou County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1010,
+        "population_2020" : 902,
+        "population_2027" : 832,
+        "land_area_2020" : 2200.0
+    },
+    "Turlock, Stanislaus County, CA" : {
+        "name" : "Turlock",
+        "state" : "California",
+        "FIPS" : "06-80812",
+        "counties" : [
+            "Stanislaus County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 68549,
+        "population_2020" : 72740,
+        "population_2027" : 75516,
+        "land_area_2020" : 4301.6
+    },
+    "Tustin, Orange County, CA" : {
+        "name" : "Tustin",
+        "state" : "California",
+        "FIPS" : "06-80854",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 75540,
+        "population_2020" : 80276,
+        "population_2027" : 83429,
+        "land_area_2020" : 7193.2
+    },
+    "Twentynine Palms, San Bernardino County, CA" : {
+        "name" : "Twentynine Palms",
+        "state" : "California",
+        "FIPS" : "06-80994",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 25048,
+        "population_2020" : 28065,
+        "population_2027" : 30361,
+        "land_area_2020" : 477.7
+    },
+    "Ukiah, Mendocino County, CA" : {
+        "name" : "Ukiah",
+        "state" : "California",
+        "FIPS" : "06-81134",
+        "counties" : [
+            "Mendocino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16075,
+        "population_2020" : 16607,
+        "population_2027" : 16907,
+        "land_area_2020" : 3474.3
+    },
+    "Union City, Alameda County, CA" : {
+        "name" : "Union City",
+        "state" : "California",
+        "FIPS" : "06-81204",
+        "counties" : [
+            "Alameda County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 69516,
+        "population_2020" : 70143,
+        "population_2027" : 70218,
+        "land_area_2020" : 3657.1
+    },
+    "Upland, San Bernardino County, CA" : {
+        "name" : "Upland",
+        "state" : "California",
+        "FIPS" : "06-81344",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 73732,
+        "population_2020" : 79040,
+        "population_2027" : 82678,
+        "land_area_2020" : 5073.2
+    },
+    "Vacaville, Solano County, CA" : {
+        "name" : "Vacaville",
+        "state" : "California",
+        "FIPS" : "06-81554",
+        "counties" : [
+            "Solano County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 92428,
+        "population_2020" : 102386,
+        "population_2027" : 109790,
+        "land_area_2020" : 3427.7
+    },
+    "Vallejo, Solano County, CA" : {
+        "name" : "Vallejo",
+        "state" : "California",
+        "FIPS" : "06-81666",
+        "counties" : [
+            "Solano County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 115942,
+        "population_2020" : 126090,
+        "population_2027" : 133325,
+        "land_area_2020" : 4145.0
+    },
+    "Ventura, Ventura County, CA" : {
+        "name" : "Ventura",
+        "state" : "California",
+        "FIPS" : "06-65042",
+        "counties" : [
+            "Ventura County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 106433,
+        "population_2020" : 110763,
+        "population_2027" : 113362,
+        "land_area_2020" : 5060.0
+    },
+    "Vernon, Los Angeles County, CA" : {
+        "name" : "Vernon",
+        "state" : "California",
+        "FIPS" : "06-82422",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 112,
+        "population_2020" : 222,
+        "population_2027" : 426,
+        "land_area_2020" : 44.6
+    },
+    "Victorville, San Bernardino County, CA" : {
+        "name" : "Victorville",
+        "state" : "California",
+        "FIPS" : "06-82590",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 115903,
+        "population_2020" : 134810,
+        "population_2027" : 150200,
+        "land_area_2020" : 1828.9
+    },
+    "Villa Park, Orange County, CA" : {
+        "name" : "Villa Park",
+        "state" : "California",
+        "FIPS" : "06-82744",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5812,
+        "population_2020" : 5843,
+        "population_2027" : 5834,
+        "land_area_2020" : 2809.1
+    },
+    "Visalia, Tulare County, CA" : {
+        "name" : "Visalia",
+        "state" : "California",
+        "FIPS" : "06-82954",
+        "counties" : [
+            "Tulare County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 124442,
+        "population_2020" : 141384,
+        "population_2027" : 154618,
+        "land_area_2020" : 3726.5
+    },
+    "Vista, San Diego County, CA" : {
+        "name" : "Vista",
+        "state" : "California",
+        "FIPS" : "06-82996",
+        "counties" : [
+            "San Diego County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 93834,
+        "population_2020" : 98381,
+        "population_2027" : 101237,
+        "land_area_2020" : 5247.0
+    },
+    "Walnut, Los Angeles County, CA" : {
+        "name" : "Walnut",
+        "state" : "California",
+        "FIPS" : "06-83332",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 29172,
+        "population_2020" : 28430,
+        "population_2027" : 27781,
+        "land_area_2020" : 3162.4
+    },
+    "Walnut Creek, Contra Costa County, CA" : {
+        "name" : "Walnut Creek",
+        "state" : "California",
+        "FIPS" : "06-83346",
+        "counties" : [
+            "Contra Costa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 64173,
+        "population_2020" : 70127,
+        "population_2027" : 74422,
+        "land_area_2020" : 3548.9
+    },
+    "Wasco, Kern County, CA" : {
+        "name" : "Wasco",
+        "state" : "California",
+        "FIPS" : "06-83542",
+        "counties" : [
+            "Kern County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 25545,
+        "population_2020" : 27047,
+        "population_2027" : 28033,
+        "land_area_2020" : 2880.4
+    },
+    "Waterford, Stanislaus County, CA" : {
+        "name" : "Waterford",
+        "state" : "California",
+        "FIPS" : "06-83612",
+        "counties" : [
+            "Stanislaus County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8456,
+        "population_2020" : 9120,
+        "population_2027" : 9583,
+        "land_area_2020" : 3864.4
+    },
+    "Watsonville, Santa Cruz County, CA" : {
+        "name" : "Watsonville",
+        "state" : "California",
+        "FIPS" : "06-83668",
+        "counties" : [
+            "Santa Cruz County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 51199,
+        "population_2020" : 52590,
+        "population_2027" : 53318,
+        "land_area_2020" : 7837.6
+    },
+    "Weed, Siskiyou County, CA" : {
+        "name" : "Weed",
+        "state" : "California",
+        "FIPS" : "06-83850",
+        "counties" : [
+            "Siskiyou County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2967,
+        "population_2020" : 2862,
+        "population_2027" : 2777,
+        "land_area_2020" : 593.8
+    },
+    "West Covina, Los Angeles County, CA" : {
+        "name" : "West Covina",
+        "state" : "California",
+        "FIPS" : "06-84200",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 106098,
+        "population_2020" : 109501,
+        "population_2027" : 111399,
+        "land_area_2020" : 6826.7
+    },
+    "West Hollywood, Los Angeles County, CA" : {
+        "name" : "West Hollywood",
+        "state" : "California",
+        "FIPS" : "06-84410",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 34399,
+        "population_2020" : 35757,
+        "population_2027" : 36565,
+        "land_area_2020" : 18919.0
+    },
+    "West Sacramento, Yolo County, CA" : {
+        "name" : "West Sacramento",
+        "state" : "California",
+        "FIPS" : "06-84816",
+        "counties" : [
+            "Yolo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 48744,
+        "population_2020" : 53915,
+        "population_2027" : 57748,
+        "land_area_2020" : 2511.2
+    },
+    "Westlake Village, Los Angeles County, CA" : {
+        "name" : "Westlake Village",
+        "state" : "California",
+        "FIPS" : "06-84438",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8270,
+        "population_2020" : 8029,
+        "population_2027" : 7825,
+        "land_area_2020" : 1547.0
+    },
+    "Westminster, Orange County, CA" : {
+        "name" : "Westminster",
+        "state" : "California",
+        "FIPS" : "06-84550",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 89701,
+        "population_2020" : 90911,
+        "population_2027" : 91293,
+        "land_area_2020" : 9054.9
+    },
+    "Westmorland, Imperial County, CA" : {
+        "name" : "Westmorland",
+        "state" : "California",
+        "FIPS" : "06-84606",
+        "counties" : [
+            "Imperial County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2225,
+        "population_2020" : 2014,
+        "population_2027" : 1874,
+        "land_area_2020" : 3413.6
+    },
+    "Wheatland, Yuba County, CA" : {
+        "name" : "Wheatland",
+        "state" : "California",
+        "FIPS" : "06-85012",
+        "counties" : [
+            "Yuba County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3456,
+        "population_2020" : 3712,
+        "population_2027" : 3888,
+        "land_area_2020" : 457.1
+    },
+    "Whittier, Los Angeles County, CA" : {
+        "name" : "Whittier",
+        "state" : "California",
+        "FIPS" : "06-85292",
+        "counties" : [
+            "Los Angeles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 85331,
+        "population_2020" : 87306,
+        "population_2027" : 88267,
+        "land_area_2020" : 5959.5
+    },
+    "Wildomar, Riverside County, CA" : {
+        "name" : "Wildomar",
+        "state" : "California",
+        "FIPS" : "06-85446",
+        "counties" : [
+            "Riverside County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 32176,
+        "population_2020" : 36875,
+        "population_2027" : 40603,
+        "land_area_2020" : 1555.9
+    },
+    "Williams, Colusa County, CA" : {
+        "name" : "Williams",
+        "state" : "California",
+        "FIPS" : "06-85586",
+        "counties" : [
+            "Colusa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5123,
+        "population_2020" : 5538,
+        "population_2027" : 5829,
+        "land_area_2020" : 1118.8
+    },
+    "Willits, Mendocino County, CA" : {
+        "name" : "Willits",
+        "state" : "California",
+        "FIPS" : "06-85600",
+        "counties" : [
+            "Mendocino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4888,
+        "population_2020" : 4988,
+        "population_2027" : 5033,
+        "land_area_2020" : 1768.8
+    },
+    "Willows, Glenn County, CA" : {
+        "name" : "Willows",
+        "state" : "California",
+        "FIPS" : "06-85684",
+        "counties" : [
+            "Glenn County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6166,
+        "population_2020" : 6293,
+        "population_2027" : 6351,
+        "land_area_2020" : 2215.8
+    },
+    "Windsor, Sonoma County, CA" : {
+        "name" : "Windsor",
+        "state" : "California",
+        "FIPS" : "06-85922",
+        "counties" : [
+            "Sonoma County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 26801,
+        "population_2020" : 26344,
+        "population_2027" : 25895,
+        "land_area_2020" : 3540.9
+    },
+    "Winters, Yolo County, CA" : {
+        "name" : "Winters",
+        "state" : "California",
+        "FIPS" : "06-86034",
+        "counties" : [
+            "Yolo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6624,
+        "population_2020" : 7115,
+        "population_2027" : 7454,
+        "land_area_2020" : 2420.1
+    },
+    "Woodlake, Tulare County, CA" : {
+        "name" : "Woodlake",
+        "state" : "California",
+        "FIPS" : "06-86300",
+        "counties" : [
+            "Tulare County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7279,
+        "population_2020" : 7419,
+        "population_2027" : 7480,
+        "land_area_2020" : 2842.5
+    },
+    "Woodland, Yolo County, CA" : {
+        "name" : "Woodland",
+        "state" : "California",
+        "FIPS" : "06-86328",
+        "counties" : [
+            "Yolo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 55468,
+        "population_2020" : 61032,
+        "population_2027" : 65109,
+        "land_area_2020" : 3983.8
+    },
+    "Woodside, San Mateo County, CA" : {
+        "name" : "Woodside",
+        "state" : "California",
+        "FIPS" : "06-86440",
+        "counties" : [
+            "San Mateo County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5287,
+        "population_2020" : 5309,
+        "population_2027" : 5297,
+        "land_area_2020" : 462.9
+    },
+    "Yorba Linda, Orange County, CA" : {
+        "name" : "Yorba Linda",
+        "state" : "California",
+        "FIPS" : "06-86832",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 64234,
+        "population_2020" : 68336,
+        "population_2027" : 71078,
+        "land_area_2020" : 3425.4
+    },
+    "Yountville, Napa County, CA" : {
+        "name" : "Yountville",
+        "state" : "California",
+        "FIPS" : "06-86930",
+        "counties" : [
+            "Napa County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2933,
+        "population_2020" : 3436,
+        "population_2027" : 3850,
+        "land_area_2020" : 2306.0
+    },
+    "Yreka, Siskiyou County, CA" : {
+        "name" : "Yreka",
+        "state" : "California",
+        "FIPS" : "06-86944",
+        "counties" : [
+            "Siskiyou County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7765,
+        "population_2020" : 7807,
+        "population_2027" : 7796,
+        "land_area_2020" : 781.5
+    },
+    "Yuba City, Sutter County, CA" : {
+        "name" : "Yuba City",
+        "state" : "California",
+        "FIPS" : "06-86972",
+        "counties" : [
+            "Sutter County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 64925,
+        "population_2020" : 70117,
+        "population_2027" : 73752,
+        "land_area_2020" : 4680.7
+    },
+    "Yucaipa, San Bernardino County, CA" : {
+        "name" : "Yucaipa",
+        "state" : "California",
+        "FIPS" : "06-87042",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 51367,
+        "population_2020" : 54542,
+        "population_2027" : 56650,
+        "land_area_2020" : 1929.3
+    },
+    "Yucca Valley, San Bernardino County, CA" : {
+        "name" : "Yucca Valley",
+        "state" : "California",
+        "FIPS" : "06-87056",
+        "counties" : [
+            "San Bernardino County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 20700,
+        "population_2020" : 21738,
+        "population_2027" : 22395,
+        "land_area_2020" : 545.8
+    }
+}

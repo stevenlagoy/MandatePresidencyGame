@@ -1,0 +1,6268 @@
+{
+    "Portland, Cumberland County, ME" : {
+        "name" : "Portland",
+        "state" : "Maine",
+        "FIPS" : "23-60545",
+        "counties" : [
+            "Cumberland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 68408,
+        "population_2020" : 68408,
+        "population_2027" : 72207,
+        "land_area_2020" : 21.6
+    },
+    "Lewiston, Androscoggin, ME" : {
+        "name" : "Lewiston",
+        "state" : "Maine",
+        "FIPS" : "23-38740",
+        "counties" : [
+            "Androscoggin"
+        ],
+        "type_class" : "City",
+        "population_2010" : 37121,
+        "population_2020" : 37121,
+        "population_2027" : 39182,
+        "land_area_2020" : 34.2
+    },
+    "Bangor, Penobscot County, ME" : {
+        "name" : "Bangor",
+        "state" : "Maine",
+        "FIPS" : "23-02795",
+        "counties" : [
+            "Penobscot County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 31753,
+        "population_2020" : 31753,
+        "population_2027" : 33516,
+        "land_area_2020" : 34.3
+    },
+    "South Portland, Cumberland, ME" : {
+        "name" : "South Portland",
+        "state" : "Maine",
+        "FIPS" : "23-71990",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "City",
+        "population_2010" : 26498,
+        "population_2020" : 26498,
+        "population_2027" : 27969,
+        "land_area_2020" : 12.1
+    },
+    "Auburn, Androscoggin County, ME" : {
+        "name" : "Auburn",
+        "state" : "Maine",
+        "FIPS" : "23-02060",
+        "counties" : [
+            "Androscoggin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 24061,
+        "population_2020" : 24061,
+        "population_2027" : 25397,
+        "land_area_2020" : 59.3
+    },
+    "Biddeford, York, ME" : {
+        "name" : "Biddeford",
+        "state" : "Maine",
+        "FIPS" : "23-04860",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "City",
+        "population_2010" : 22552,
+        "population_2020" : 22552,
+        "population_2027" : 23804,
+        "land_area_2020" : 30.1
+    },
+    "Scarborough, Cumberland, ME" : {
+        "name" : "Scarborough",
+        "state" : "Maine",
+        "FIPS" : "23-66145",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 22135,
+        "population_2020" : 22135,
+        "population_2027" : 23364,
+        "land_area_2020" : 47.6
+    },
+    "Sanford, York, ME" : {
+        "name" : "Sanford",
+        "state" : "Maine",
+        "FIPS" : "23-65725",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "City",
+        "population_2010" : 21982,
+        "population_2020" : 21982,
+        "population_2027" : 23203,
+        "land_area_2020" : 47.8
+    },
+    "Brunswick, Cumberland, ME" : {
+        "name" : "Brunswick",
+        "state" : "Maine",
+        "FIPS" : "23-08395",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 21756,
+        "population_2020" : 21756,
+        "population_2027" : 22964,
+        "land_area_2020" : 46.7
+    },
+    "Westbrook, Cumberland, ME" : {
+        "name" : "Westbrook",
+        "state" : "Maine",
+        "FIPS" : "23-82105",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "City",
+        "population_2010" : 20400,
+        "population_2020" : 20400,
+        "population_2027" : 21533,
+        "land_area_2020" : 17.2
+    },
+    "Saco, York, ME" : {
+        "name" : "Saco",
+        "state" : "Maine",
+        "FIPS" : "23-64675",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "City",
+        "population_2010" : 20381,
+        "population_2020" : 20381,
+        "population_2027" : 21513,
+        "land_area_2020" : 38.6
+    },
+    "Augusta, Kennebec County, ME" : {
+        "name" : "Augusta",
+        "state" : "Maine",
+        "FIPS" : "23-02100",
+        "counties" : [
+            "Kennebec County"
+        ],
+        "type_class" : "Capital)",
+        "population_2010" : 18899,
+        "population_2020" : 18899,
+        "population_2027" : 19948,
+        "land_area_2020" : 55.2
+    },
+    "Windham, Cumberland, ME" : {
+        "name" : "Windham",
+        "state" : "Maine",
+        "FIPS" : "23-86025",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 18434,
+        "population_2020" : 18434,
+        "population_2027" : 19458,
+        "land_area_2020" : 46.6
+    },
+    "Gorham, Cumberland, ME" : {
+        "name" : "Gorham",
+        "state" : "Maine",
+        "FIPS" : "23-28205",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 18336,
+        "population_2020" : 18336,
+        "population_2027" : 19354,
+        "land_area_2020" : 50.6
+    },
+    "Waterville, Kennebec, ME" : {
+        "name" : "Waterville",
+        "state" : "Maine",
+        "FIPS" : "23-80740",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15828,
+        "population_2020" : 15828,
+        "population_2027" : 16707,
+        "land_area_2020" : 13.5
+    },
+    "York, York, ME" : {
+        "name" : "York",
+        "state" : "Maine",
+        "FIPS" : "23-87985",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 13723,
+        "population_2020" : 13723,
+        "population_2027" : 14485,
+        "land_area_2020" : 54.7
+    },
+    "Falmouth, Cumberland, ME" : {
+        "name" : "Falmouth",
+        "state" : "Maine",
+        "FIPS" : "23-24480",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 12444,
+        "population_2020" : 12444,
+        "population_2027" : 13135,
+        "land_area_2020" : 29.4
+    },
+    "Kennebunk, York, ME" : {
+        "name" : "Kennebunk",
+        "state" : "Maine",
+        "FIPS" : "23-36500",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 11536,
+        "population_2020" : 11536,
+        "population_2027" : 12177,
+        "land_area_2020" : 35.1
+    },
+    "Wells, York, ME" : {
+        "name" : "Wells",
+        "state" : "Maine",
+        "FIPS" : "23-81475",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 11314,
+        "population_2020" : 11314,
+        "population_2027" : 11942,
+        "land_area_2020" : 57.6
+    },
+    "Orono, Penobscot, ME" : {
+        "name" : "Orono",
+        "state" : "Maine",
+        "FIPS" : "23-55575",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 11183,
+        "population_2020" : 11183,
+        "population_2027" : 11804,
+        "land_area_2020" : 18.2
+    },
+    "Standish, Cumberland, ME" : {
+        "name" : "Standish",
+        "state" : "Maine",
+        "FIPS" : "23-73635",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 10244,
+        "population_2020" : 10244,
+        "population_2027" : 10813,
+        "land_area_2020" : 59.0
+    },
+    "Kittery, York, ME" : {
+        "name" : "Kittery",
+        "state" : "Maine",
+        "FIPS" : "23-37235",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 10070,
+        "population_2020" : 10070,
+        "population_2027" : 10629,
+        "land_area_2020" : 17.8
+    },
+    "Lisbon, Androscoggin, ME" : {
+        "name" : "Lisbon",
+        "state" : "Maine",
+        "FIPS" : "23-40000",
+        "counties" : [
+            "Androscoggin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9711,
+        "population_2020" : 9711,
+        "population_2027" : 10250,
+        "land_area_2020" : 22.8
+    },
+    "Brewer, Penobscot, ME" : {
+        "name" : "Brewer",
+        "state" : "Maine",
+        "FIPS" : "23-06925",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9672,
+        "population_2020" : 9672,
+        "population_2027" : 10209,
+        "land_area_2020" : 15.2
+    },
+    "Topsham, Sagadahoc, ME" : {
+        "name" : "Topsham",
+        "state" : "Maine",
+        "FIPS" : "23-76925",
+        "counties" : [
+            "Sagadahoc"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9560,
+        "population_2020" : 9560,
+        "population_2027" : 10091,
+        "land_area_2020" : 32.2
+    },
+    "Cape Elizabeth, Cumberland, ME" : {
+        "name" : "Cape Elizabeth",
+        "state" : "Maine",
+        "FIPS" : "23-10180",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9535,
+        "population_2020" : 9535,
+        "population_2027" : 10064,
+        "land_area_2020" : 14.7
+    },
+    "Yarmouth, Cumberland, ME" : {
+        "name" : "Yarmouth",
+        "state" : "Maine",
+        "FIPS" : "23-87810",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8990,
+        "population_2020" : 8990,
+        "population_2027" : 9489,
+        "land_area_2020" : 13.3
+    },
+    "Old Orchard Beach, York, ME" : {
+        "name" : "Old Orchard Beach",
+        "state" : "Maine",
+        "FIPS" : "23-55120",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8960,
+        "population_2020" : 8960,
+        "population_2027" : 9458,
+        "land_area_2020" : 7.4
+    },
+    "Presque Isle, Aroostook, ME" : {
+        "name" : "Presque Isle",
+        "state" : "Maine",
+        "FIPS" : "23-60825",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8797,
+        "population_2020" : 8797,
+        "population_2027" : 9285,
+        "land_area_2020" : 75.8
+    },
+    "Bath, Sagadahoc County, ME" : {
+        "name" : "Bath",
+        "state" : "Maine",
+        "FIPS" : "23-03355",
+        "counties" : [
+            "Sagadahoc County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8766,
+        "population_2020" : 8766,
+        "population_2027" : 9253,
+        "land_area_2020" : 9.1
+    },
+    "Freeport, Cumberland, ME" : {
+        "name" : "Freeport",
+        "state" : "Maine",
+        "FIPS" : "23-26490",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8737,
+        "population_2020" : 8737,
+        "population_2027" : 9222,
+        "land_area_2020" : 34.7
+    },
+    "Skowhegan, Somerset County, ME" : {
+        "name" : "Skowhegan",
+        "state" : "Maine",
+        "FIPS" : "23-68875",
+        "counties" : [
+            "Somerset County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8620,
+        "population_2020" : 8620,
+        "population_2027" : 9099,
+        "land_area_2020" : 58.9
+    },
+    "Cumberland, Cumberland, ME" : {
+        "name" : "Cumberland",
+        "state" : "Maine",
+        "FIPS" : "23-15430",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8473,
+        "population_2020" : 8473,
+        "population_2027" : 8943,
+        "land_area_2020" : 22.9
+    },
+    "Ellsworth, Hancock County, ME" : {
+        "name" : "Ellsworth",
+        "state" : "Maine",
+        "FIPS" : "23-23200",
+        "counties" : [
+            "Hancock County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8399,
+        "population_2020" : 8399,
+        "population_2027" : 8865,
+        "land_area_2020" : 79.3
+    },
+    "Buxton, York, ME" : {
+        "name" : "Buxton",
+        "state" : "Maine",
+        "FIPS" : "23-09410",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8376,
+        "population_2020" : 8376,
+        "population_2027" : 8841,
+        "land_area_2020" : 52.2
+    },
+    "Gray, Cumberland, ME" : {
+        "name" : "Gray",
+        "state" : "Maine",
+        "FIPS" : "23-28835",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8269,
+        "population_2020" : 8269,
+        "population_2027" : 8728,
+        "land_area_2020" : 43.3
+    },
+    "Berwick, York, ME" : {
+        "name" : "Berwick",
+        "state" : "Maine",
+        "FIPS" : "23-04685",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7950,
+        "population_2020" : 7950,
+        "population_2027" : 8391,
+        "land_area_2020" : 37.5
+    },
+    "Winslow, Kennebec, ME" : {
+        "name" : "Winslow",
+        "state" : "Maine",
+        "FIPS" : "23-86480",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7948,
+        "population_2020" : 7948,
+        "population_2027" : 8389,
+        "land_area_2020" : 36.8
+    },
+    "Waterboro, York, ME" : {
+        "name" : "Waterboro",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7936,
+        "population_2020" : 7936,
+        "population_2027" : 8377,
+        "land_area_2020" : 55.3
+    },
+    "Hampden, Penobscot, ME" : {
+        "name" : "Hampden",
+        "state" : "Maine",
+        "FIPS" : "23-30760",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7709,
+        "population_2020" : 7709,
+        "population_2027" : 8137,
+        "land_area_2020" : 37.9
+    },
+    "Farmington, Franklin County, ME" : {
+        "name" : "Farmington",
+        "state" : "Maine",
+        "FIPS" : "23-24740",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7592,
+        "population_2020" : 7592,
+        "population_2027" : 8014,
+        "land_area_2020" : 55.7
+    },
+    "South Berwick, York, ME" : {
+        "name" : "South Berwick",
+        "state" : "Maine",
+        "FIPS" : "23-69995",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7467,
+        "population_2020" : 7467,
+        "population_2027" : 7882,
+        "land_area_2020" : 32.1
+    },
+    "Old Town, Penobscot, ME" : {
+        "name" : "Old Town",
+        "state" : "Maine",
+        "FIPS" : "23-55225",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7431,
+        "population_2020" : 7431,
+        "population_2027" : 7844,
+        "land_area_2020" : 38.8
+    },
+    "Caribou, Aroostook, ME" : {
+        "name" : "Caribou",
+        "state" : "Maine",
+        "FIPS" : "23-10565",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7396,
+        "population_2020" : 7396,
+        "population_2027" : 7807,
+        "land_area_2020" : 79.3
+    },
+    "Belfast, Waldo County, ME" : {
+        "name" : "Belfast",
+        "state" : "Maine",
+        "FIPS" : "23-03950",
+        "counties" : [
+            "Waldo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6938,
+        "population_2020" : 6938,
+        "population_2027" : 7323,
+        "land_area_2020" : 12.8
+    },
+    "Rockland, Knox County, ME" : {
+        "name" : "Rockland",
+        "state" : "Maine",
+        "FIPS" : "23-63590",
+        "counties" : [
+            "Knox County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6936,
+        "population_2020" : 6936,
+        "population_2027" : 7321,
+        "land_area_2020" : 34.0
+    },
+    "Eliot, York, ME" : {
+        "name" : "Eliot",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6717,
+        "population_2020" : 6717,
+        "population_2027" : 7090,
+        "land_area_2020" : 19.8
+    },
+    "Fairfield, Somerset, ME" : {
+        "name" : "Fairfield",
+        "state" : "Maine",
+        "FIPS" : "23-24285",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6484,
+        "population_2020" : 6484,
+        "population_2027" : 6844,
+        "land_area_2020" : 53.8
+    },
+    "Lebanon, York, ME" : {
+        "name" : "Lebanon",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6469,
+        "population_2020" : 6469,
+        "population_2027" : 6828,
+        "land_area_2020" : 55.0
+    },
+    "Hermon, Penobscot, ME" : {
+        "name" : "Hermon",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6461,
+        "population_2020" : 6461,
+        "population_2027" : 6820,
+        "land_area_2020" : 35.9
+    },
+    "Oakland, Kennebec, ME" : {
+        "name" : "Oakland",
+        "state" : "Maine",
+        "FIPS" : "23-54525",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6230,
+        "population_2020" : 6230,
+        "population_2027" : 6576,
+        "land_area_2020" : 25.7
+    },
+    "Winthrop, Kennebec, ME" : {
+        "name" : "Winthrop",
+        "state" : "Maine",
+        "FIPS" : "23-86935",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6121,
+        "population_2020" : 6121,
+        "population_2027" : 6461,
+        "land_area_2020" : 31.2
+    },
+    "Houlton, Aroostook County, ME" : {
+        "name" : "Houlton",
+        "state" : "Maine",
+        "FIPS" : "23-33945",
+        "counties" : [
+            "Aroostook County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6055,
+        "population_2020" : 6055,
+        "population_2027" : 6391,
+        "land_area_2020" : 36.7
+    },
+    "Gardiner, Kennebec, ME" : {
+        "name" : "Gardiner",
+        "state" : "Maine",
+        "FIPS" : "23-27085",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5961,
+        "population_2020" : 5961,
+        "population_2027" : 6292,
+        "land_area_2020" : 15.7
+    },
+    "Poland, Androscoggin, ME" : {
+        "name" : "Poland",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Androscoggin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5906,
+        "population_2020" : 5906,
+        "population_2027" : 6234,
+        "land_area_2020" : 42.2
+    },
+    "Rumford, Oxford, ME" : {
+        "name" : "Rumford",
+        "state" : "Maine",
+        "FIPS" : "23-64255",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5858,
+        "population_2020" : 5858,
+        "population_2027" : 6183,
+        "land_area_2020" : 68.6
+    },
+    "Turner, Androscoggin, ME" : {
+        "name" : "Turner",
+        "state" : "Maine",
+        "FIPS" : "23-77765",
+        "counties" : [
+            "Androscoggin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5817,
+        "population_2020" : 5817,
+        "population_2027" : 6140,
+        "land_area_2020" : 59.3
+    },
+    "New Gloucester, Cumberland, ME" : {
+        "name" : "New Gloucester",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5676,
+        "population_2020" : 5676,
+        "population_2027" : 5991,
+        "land_area_2020" : 47.1
+    },
+    "Bridgton, Cumberland, ME" : {
+        "name" : "Bridgton",
+        "state" : "Maine",
+        "FIPS" : "23-07135",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5418,
+        "population_2020" : 5418,
+        "population_2027" : 5719,
+        "land_area_2020" : 56.8
+    },
+    "Camden, Knox, ME" : {
+        "name" : "Camden",
+        "state" : "Maine",
+        "FIPS" : "23-09690",
+        "counties" : [
+            "Knox"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5232,
+        "population_2020" : 5232,
+        "population_2027" : 5523,
+        "land_area_2020" : 18.2
+    },
+    "Paris, Oxford County, ME" : {
+        "name" : "Paris",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5179,
+        "population_2020" : 5179,
+        "population_2027" : 5467,
+        "land_area_2020" : 40.8
+    },
+    "Waldoboro, Lincoln, ME" : {
+        "name" : "Waldoboro",
+        "state" : "Maine",
+        "FIPS" : "23-79515",
+        "counties" : [
+            "Lincoln"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5154,
+        "population_2020" : 5154,
+        "population_2027" : 5440,
+        "land_area_2020" : 71.5
+    },
+    "Bar Harbor, Hancock, ME" : {
+        "name" : "Bar Harbor",
+        "state" : "Maine",
+        "FIPS" : "23-02830",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5098,
+        "population_2020" : 5098,
+        "population_2027" : 5381,
+        "land_area_2020" : 42.2
+    },
+    "Norway, Oxford, ME" : {
+        "name" : "Norway",
+        "state" : "Maine",
+        "FIPS" : "23-53965",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5077,
+        "population_2020" : 5077,
+        "population_2027" : 5359,
+        "land_area_2020" : 45.0
+    },
+    "Sabattus, Androscoggin, ME" : {
+        "name" : "Sabattus",
+        "state" : "Maine",
+        "FIPS" : "23-64535",
+        "counties" : [
+            "Androscoggin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5044,
+        "population_2020" : 5044,
+        "population_2027" : 5324,
+        "land_area_2020" : 25.7
+    },
+    "Harpswell, Cumberland, ME" : {
+        "name" : "Harpswell",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5031,
+        "population_2020" : 5031,
+        "population_2027" : 5310,
+        "land_area_2020" : 24.2
+    },
+    "North Berwick, York, ME" : {
+        "name" : "North Berwick",
+        "state" : "Maine",
+        "FIPS" : "23-50290",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4978,
+        "population_2020" : 4978,
+        "population_2027" : 5254,
+        "land_area_2020" : 38.0
+    },
+    "Bucksport, Hancock, ME" : {
+        "name" : "Bucksport",
+        "state" : "Maine",
+        "FIPS" : "23-08780",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4944,
+        "population_2020" : 4944,
+        "population_2027" : 5219,
+        "land_area_2020" : 51.5
+    },
+    "Warren, Knox, ME" : {
+        "name" : "Warren",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Knox"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4865,
+        "population_2020" : 4865,
+        "population_2027" : 5135,
+        "land_area_2020" : 46.5
+    },
+    "Lincoln, Penobscot, ME" : {
+        "name" : "Lincoln",
+        "state" : "Maine",
+        "FIPS" : "23-39440",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4853,
+        "population_2020" : 4853,
+        "population_2027" : 5122,
+        "land_area_2020" : 67.8
+    },
+    "Hollis, York, ME" : {
+        "name" : "Hollis",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4745,
+        "population_2020" : 4745,
+        "population_2027" : 5008,
+        "land_area_2020" : 32.0
+    },
+    "Madison, Somerset, ME" : {
+        "name" : "Madison",
+        "state" : "Maine",
+        "FIPS" : "23-42625",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4726,
+        "population_2020" : 4726,
+        "population_2027" : 4988,
+        "land_area_2020" : 51.9
+    },
+    "Glenburn, Penobscot, ME" : {
+        "name" : "Glenburn",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4648,
+        "population_2020" : 4648,
+        "population_2027" : 4906,
+        "land_area_2020" : 27.2
+    },
+    "Sidney, Kennebec, ME" : {
+        "name" : "Sidney",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4645,
+        "population_2020" : 4645,
+        "population_2027" : 4903,
+        "land_area_2020" : 42.3
+    },
+    "Jay, Franklin, ME" : {
+        "name" : "Jay",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4620,
+        "population_2020" : 4620,
+        "population_2027" : 4877,
+        "land_area_2020" : 48.4
+    },
+    "Raymond, Cumberland, ME" : {
+        "name" : "Raymond",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4536,
+        "population_2020" : 4536,
+        "population_2027" : 4788,
+        "land_area_2020" : 33.2
+    },
+    "Lyman, York, ME" : {
+        "name" : "Lyman",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4525,
+        "population_2020" : 4525,
+        "population_2027" : 4776,
+        "land_area_2020" : 39.0
+    },
+    "Vassalboro, Kennebec, ME" : {
+        "name" : "Vassalboro",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4520,
+        "population_2020" : 4520,
+        "population_2027" : 4771,
+        "land_area_2020" : 44.3
+    },
+    "Dover-Foxcroft, Piscataquis County, ME" : {
+        "name" : "Dover-Foxcroft",
+        "state" : "Maine",
+        "FIPS" : "23-18230",
+        "counties" : [
+            "Piscataquis County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4422,
+        "population_2020" : 4422,
+        "population_2027" : 4668,
+        "land_area_2020" : 67.8
+    },
+    "China, Kennebec, ME" : {
+        "name" : "China",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4408,
+        "population_2020" : 4408,
+        "population_2027" : 4653,
+        "land_area_2020" : 49.9
+    },
+    "Greene, Androscoggin, ME" : {
+        "name" : "Greene",
+        "state" : "Maine",
+        "FIPS" : "23-29220",
+        "counties" : [
+            "Androscoggin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4376,
+        "population_2020" : 4376,
+        "population_2027" : 4619,
+        "land_area_2020" : 32.3
+    },
+    "Arundel, York, ME" : {
+        "name" : "Arundel",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4264,
+        "population_2020" : 4264,
+        "population_2027" : 4501,
+        "land_area_2020" : 23.9
+    },
+    "Oxford, Oxford, ME" : {
+        "name" : "Oxford",
+        "state" : "Maine",
+        "FIPS" : "23-56240",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4229,
+        "population_2020" : 4229,
+        "population_2027" : 4464,
+        "land_area_2020" : 38.7
+    },
+    "Durham, Androscoggin, ME" : {
+        "name" : "Durham",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Androscoggin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4173,
+        "population_2020" : 4173,
+        "population_2027" : 4405,
+        "land_area_2020" : 38.3
+    },
+    "Millinocket, Penobscot, ME" : {
+        "name" : "Millinocket",
+        "state" : "Maine",
+        "FIPS" : "23-45845",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4114,
+        "population_2020" : 4114,
+        "population_2027" : 4342,
+        "land_area_2020" : 16.0
+    },
+    "North Yarmouth, Cumberland, ME" : {
+        "name" : "North Yarmouth",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4072,
+        "population_2020" : 4072,
+        "population_2027" : 4298,
+        "land_area_2020" : 21.2
+    },
+    "Fort Kent, Aroostook, ME" : {
+        "name" : "Fort Kent",
+        "state" : "Maine",
+        "FIPS" : "23-25720",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4067,
+        "population_2020" : 4067,
+        "population_2027" : 4293,
+        "land_area_2020" : 54.2
+    },
+    "Monmouth, Kennebec, ME" : {
+        "name" : "Monmouth",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4066,
+        "population_2020" : 4066,
+        "population_2027" : 4292,
+        "land_area_2020" : 34.0
+    },
+    "Naples, Cumberland, ME" : {
+        "name" : "Naples",
+        "state" : "Maine",
+        "FIPS" : "23-48050",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3925,
+        "population_2020" : 3925,
+        "population_2027" : 4143,
+        "land_area_2020" : 31.8
+    },
+    "Pittsfield, Somerset, ME" : {
+        "name" : "Pittsfield",
+        "state" : "Maine",
+        "FIPS" : "23-58970",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3908,
+        "population_2020" : 3908,
+        "population_2027" : 4125,
+        "land_area_2020" : 48.2
+    },
+    "Limington, York, ME" : {
+        "name" : "Limington",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3892,
+        "population_2020" : 3892,
+        "population_2027" : 4108,
+        "land_area_2020" : 41.9
+    },
+    "Madawaska, Aroostook, ME" : {
+        "name" : "Madawaska",
+        "state" : "Maine",
+        "FIPS" : "23-42485",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3867,
+        "population_2020" : 3867,
+        "population_2027" : 4082,
+        "land_area_2020" : 55.6
+    },
+    "Wilton, Franklin, ME" : {
+        "name" : "Wilton",
+        "state" : "Maine",
+        "FIPS" : "23-85815",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3835,
+        "population_2020" : 3835,
+        "population_2027" : 4048,
+        "land_area_2020" : 41.3
+    },
+    "Winterport, Waldo, ME" : {
+        "name" : "Winterport",
+        "state" : "Maine",
+        "FIPS" : "23-86725",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3817,
+        "population_2020" : 3817,
+        "population_2027" : 4029,
+        "land_area_2020" : 35.5
+    },
+    "Orrington, Penobscot, ME" : {
+        "name" : "Orrington",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3812,
+        "population_2020" : 3812,
+        "population_2027" : 4024,
+        "land_area_2020" : 25.0
+    },
+    "Dexter, Penobscot, ME" : {
+        "name" : "Dexter",
+        "state" : "Maine",
+        "FIPS" : "23-17495",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3803,
+        "population_2020" : 3803,
+        "population_2027" : 4014,
+        "land_area_2020" : 35.1
+    },
+    "Wiscasset, Lincoln County, ME" : {
+        "name" : "Wiscasset",
+        "state" : "Maine",
+        "FIPS" : "23-87040",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3742,
+        "population_2020" : 3742,
+        "population_2027" : 3950,
+        "land_area_2020" : 24.6
+    },
+    "West Gardiner, Kennebec, ME" : {
+        "name" : "West Gardiner",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3671,
+        "population_2020" : 3671,
+        "population_2027" : 3875,
+        "land_area_2020" : 24.6
+    },
+    "Casco, Cumberland, ME" : {
+        "name" : "Casco",
+        "state" : "Maine",
+        "FIPS" : "23-11090",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3646,
+        "population_2020" : 3646,
+        "population_2027" : 3848,
+        "land_area_2020" : 31.2
+    },
+    "Rockport, Knox, ME" : {
+        "name" : "Rockport",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Knox"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3644,
+        "population_2020" : 3644,
+        "population_2027" : 3846,
+        "land_area_2020" : 21.6
+    },
+    "Kennebunkport, York, ME" : {
+        "name" : "Kennebunkport",
+        "state" : "Maine",
+        "FIPS" : "23-36710",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3629,
+        "population_2020" : 3629,
+        "population_2027" : 3831,
+        "land_area_2020" : 18.6
+    },
+    "Litchfield, Kennebec, ME" : {
+        "name" : "Litchfield",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3586,
+        "population_2020" : 3586,
+        "population_2027" : 3785,
+        "land_area_2020" : 37.4
+    },
+    "Richmond, Sagadahoc, ME" : {
+        "name" : "Richmond",
+        "state" : "Maine",
+        "FIPS" : "23-62610",
+        "counties" : [
+            "Sagadahoc"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3522,
+        "population_2020" : 3522,
+        "population_2027" : 3718,
+        "land_area_2020" : 30.4
+    },
+    "Clinton, Kennebec, ME" : {
+        "name" : "Clinton",
+        "state" : "Maine",
+        "FIPS" : "23-13435",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3370,
+        "population_2020" : 3370,
+        "population_2027" : 3557,
+        "land_area_2020" : 43.9
+    },
+    "Fryeburg, Oxford, ME" : {
+        "name" : "Fryeburg",
+        "state" : "Maine",
+        "FIPS" : "23-26875",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3369,
+        "population_2020" : 3369,
+        "population_2027" : 3556,
+        "land_area_2020" : 58.3
+    },
+    "Fort Fairfield, Aroostook, ME" : {
+        "name" : "Fort Fairfield",
+        "state" : "Maine",
+        "FIPS" : "23-25580",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3322,
+        "population_2020" : 3322,
+        "population_2027" : 3506,
+        "land_area_2020" : 76.7
+    },
+    "Norridgewock, Somerset, ME" : {
+        "name" : "Norridgewock",
+        "state" : "Maine",
+        "FIPS" : "23-49800",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3278,
+        "population_2020" : 3278,
+        "population_2027" : 3460,
+        "land_area_2020" : 50.0
+    },
+    "Holden, Penobscot, ME" : {
+        "name" : "Holden",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3277,
+        "population_2020" : 3277,
+        "population_2027" : 3459,
+        "land_area_2020" : 31.3
+    },
+    "Belgrade, Kennebec, ME" : {
+        "name" : "Belgrade",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3250,
+        "population_2020" : 3250,
+        "population_2027" : 3430,
+        "land_area_2020" : 43.2
+    },
+    "Limerick, York, ME" : {
+        "name" : "Limerick",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3188,
+        "population_2020" : 3188,
+        "population_2027" : 3365,
+        "land_area_2020" : 27.1
+    },
+    "Bowdoin, Sagadahoc, ME" : {
+        "name" : "Bowdoin",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Sagadahoc"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3136,
+        "population_2020" : 3136,
+        "population_2027" : 3310,
+        "land_area_2020" : 43.5
+    },
+    "Newport, Penobscot, ME" : {
+        "name" : "Newport",
+        "state" : "Maine",
+        "FIPS" : "23-49100",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3133,
+        "population_2020" : 3133,
+        "population_2027" : 3307,
+        "land_area_2020" : 29.5
+    },
+    "Mechanic Falls, Androscoggin, ME" : {
+        "name" : "Mechanic Falls",
+        "state" : "Maine",
+        "FIPS" : "23-44620",
+        "counties" : [
+            "Androscoggin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3107,
+        "population_2020" : 3107,
+        "population_2027" : 3280,
+        "land_area_2020" : 11.0
+    },
+    "Calais, Washington, ME" : {
+        "name" : "Calais",
+        "state" : "Maine",
+        "FIPS" : "23-09585",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3079,
+        "population_2020" : 3079,
+        "population_2027" : 3250,
+        "land_area_2020" : 34.3
+    },
+    "Alfred, York County, ME" : {
+        "name" : "Alfred",
+        "state" : "Maine",
+        "FIPS" : "23-00695",
+        "counties" : [
+            "York County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3073,
+        "population_2020" : 3073,
+        "population_2027" : 3244,
+        "land_area_2020" : 27.3
+    },
+    "Milford, Penobscot, ME" : {
+        "name" : "Milford",
+        "state" : "Maine",
+        "FIPS" : "23-45635",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3069,
+        "population_2020" : 3069,
+        "population_2027" : 3239,
+        "land_area_2020" : 45.6
+    },
+    "Woolwich, Sagadahoc, ME" : {
+        "name" : "Woolwich",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Sagadahoc"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3068,
+        "population_2020" : 3068,
+        "population_2027" : 3238,
+        "land_area_2020" : 35.1
+    },
+    "Livermore Falls, Androscoggin, ME" : {
+        "name" : "Livermore Falls",
+        "state" : "Maine",
+        "FIPS" : "23-40735",
+        "counties" : [
+            "Androscoggin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3060,
+        "population_2020" : 3060,
+        "population_2027" : 3230,
+        "land_area_2020" : 19.7
+    },
+    "Bowdoinham, Sagadahoc, ME" : {
+        "name" : "Bowdoinham",
+        "state" : "Maine",
+        "FIPS" : "23-06330",
+        "counties" : [
+            "Sagadahoc"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3047,
+        "population_2020" : 3047,
+        "population_2027" : 3216,
+        "land_area_2020" : 34.4
+    },
+    "Boothbay, Lincoln, ME" : {
+        "name" : "Boothbay",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Lincoln"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3003,
+        "population_2020" : 3003,
+        "population_2027" : 3170,
+        "land_area_2020" : 21.9
+    },
+    "Farmingdale, Kennebec, ME" : {
+        "name" : "Farmingdale",
+        "state" : "Maine",
+        "FIPS" : "23-24635",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2995,
+        "population_2020" : 2995,
+        "population_2027" : 3161,
+        "land_area_2020" : 11.2
+    },
+    "Levant, Penobscot, ME" : {
+        "name" : "Levant",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2940,
+        "population_2020" : 2940,
+        "population_2027" : 3103,
+        "land_area_2020" : 30.1
+    },
+    "Shapleigh, York, ME" : {
+        "name" : "Shapleigh",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2921,
+        "population_2020" : 2921,
+        "population_2027" : 3083,
+        "land_area_2020" : 38.8
+    },
+    "Corinth, Penobscot, ME" : {
+        "name" : "Corinth",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2900,
+        "population_2020" : 2900,
+        "population_2027" : 3061,
+        "land_area_2020" : 40.3
+    },
+    "Pittston, Kennebec, ME" : {
+        "name" : "Pittston",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2875,
+        "population_2020" : 2875,
+        "population_2027" : 3035,
+        "land_area_2020" : 32.2
+    },
+    "Carmel, Penobscot, ME" : {
+        "name" : "Carmel",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2867,
+        "population_2020" : 2867,
+        "population_2027" : 3026,
+        "land_area_2020" : 36.5
+    },
+    "Bristol, Lincoln, ME" : {
+        "name" : "Bristol",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Lincoln"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2834,
+        "population_2020" : 2834,
+        "population_2027" : 2991,
+        "land_area_2020" : 34.0
+    },
+    "Blue Hill, Hancock, ME" : {
+        "name" : "Blue Hill",
+        "state" : "Maine",
+        "FIPS" : "23-05665",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2792,
+        "population_2020" : 2792,
+        "population_2027" : 2947,
+        "land_area_2020" : 62.5
+    },
+    "Chelsea, Kennebec, ME" : {
+        "name" : "Chelsea",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2778,
+        "population_2020" : 2778,
+        "population_2027" : 2932,
+        "land_area_2020" : 19.5
+    },
+    "Mexico, Oxford, ME" : {
+        "name" : "Mexico",
+        "state" : "Maine",
+        "FIPS" : "23-45250",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2756,
+        "population_2020" : 2756,
+        "population_2027" : 2909,
+        "land_area_2020" : 23.3
+    },
+    "Thomaston, Knox, ME" : {
+        "name" : "Thomaston",
+        "state" : "Maine",
+        "FIPS" : "23-76330",
+        "counties" : [
+            "Knox"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2739,
+        "population_2020" : 2739,
+        "population_2027" : 2891,
+        "land_area_2020" : 10.9
+    },
+    "Benton, Kennebec, ME" : {
+        "name" : "Benton",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2715,
+        "population_2020" : 2715,
+        "population_2027" : 2866,
+        "land_area_2020" : 28.4
+    },
+    "Acton, York, ME" : {
+        "name" : "Acton",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2671,
+        "population_2020" : 2671,
+        "population_2027" : 2819,
+        "land_area_2020" : 37.7
+    },
+    "Searsport, Waldo, ME" : {
+        "name" : "Searsport",
+        "state" : "Maine",
+        "FIPS" : "23-66600",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2649,
+        "population_2020" : 2649,
+        "population_2027" : 2796,
+        "land_area_2020" : 28.7
+    },
+    "Windsor, Kennebec, ME" : {
+        "name" : "Windsor",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2632,
+        "population_2020" : 2632,
+        "population_2027" : 2778,
+        "land_area_2020" : 34.7
+    },
+    "Readfield, Kennebec, ME" : {
+        "name" : "Readfield",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2597,
+        "population_2020" : 2597,
+        "population_2027" : 2741,
+        "land_area_2020" : 29.2
+    },
+    "St. George, Knox, ME" : {
+        "name" : "St. George",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Knox"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2594,
+        "population_2020" : 2594,
+        "population_2027" : 2738,
+        "land_area_2020" : 25.0
+    },
+    "Hallowell, Kennebec, ME" : {
+        "name" : "Hallowell",
+        "state" : "Maine",
+        "FIPS" : "23-30550",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2570,
+        "population_2020" : 2570,
+        "population_2027" : 2713,
+        "land_area_2020" : 5.9
+    },
+    "Jefferson, Lincoln, ME" : {
+        "name" : "Jefferson",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Lincoln"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2551,
+        "population_2020" : 2551,
+        "population_2027" : 2693,
+        "land_area_2020" : 52.6
+    },
+    "Bethel, Oxford, ME" : {
+        "name" : "Bethel",
+        "state" : "Maine",
+        "FIPS" : "23-04790",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2504,
+        "population_2020" : 2504,
+        "population_2027" : 2643,
+        "land_area_2020" : 64.6
+    },
+    "Hancock, Hancock, ME" : {
+        "name" : "Hancock",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2466,
+        "population_2020" : 2466,
+        "population_2027" : 2603,
+        "land_area_2020" : 30.0
+    },
+    "Manchester, Kennebec, ME" : {
+        "name" : "Manchester",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2456,
+        "population_2020" : 2456,
+        "population_2027" : 2592,
+        "land_area_2020" : 21.4
+    },
+    "Harrison, Cumberland, ME" : {
+        "name" : "Harrison",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2447,
+        "population_2020" : 2447,
+        "population_2027" : 2583,
+        "land_area_2020" : 33.1
+    },
+    "Whitefield, Lincoln, ME" : {
+        "name" : "Whitefield",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Lincoln"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2408,
+        "population_2020" : 2408,
+        "population_2027" : 2542,
+        "land_area_2020" : 46.8
+    },
+    "Union, Knox, ME" : {
+        "name" : "Union",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Knox"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2383,
+        "population_2020" : 2383,
+        "population_2027" : 2515,
+        "land_area_2020" : 32.2
+    },
+    "Lincolnville, Waldo, ME" : {
+        "name" : "Lincolnville",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2312,
+        "population_2020" : 2312,
+        "population_2027" : 2440,
+        "land_area_2020" : 37.3
+    },
+    "Damariscotta, Lincoln, ME" : {
+        "name" : "Damariscotta",
+        "state" : "Maine",
+        "FIPS" : "23-16200",
+        "counties" : [
+            "Lincoln"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2297,
+        "population_2020" : 2297,
+        "population_2027" : 2425,
+        "land_area_2020" : 12.4
+    },
+    "Unity, Waldo, ME" : {
+        "name" : "Unity",
+        "state" : "Maine",
+        "FIPS" : "23-78220",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2292,
+        "population_2020" : 2292,
+        "population_2027" : 2419,
+        "land_area_2020" : 39.4
+    },
+    "Anson, Somerset, ME" : {
+        "name" : "Anson",
+        "state" : "Maine",
+        "FIPS" : "23-01360",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2291,
+        "population_2020" : 2291,
+        "population_2027" : 2418,
+        "land_area_2020" : 47.5
+    },
+    "Leeds, Androscoggin, ME" : {
+        "name" : "Leeds",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Androscoggin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2262,
+        "population_2020" : 2262,
+        "population_2027" : 2388,
+        "land_area_2020" : 40.1
+    },
+    "Dixfield, Oxford, ME" : {
+        "name" : "Dixfield",
+        "state" : "Maine",
+        "FIPS" : "23-17705",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2253,
+        "population_2020" : 2253,
+        "population_2027" : 2378,
+        "land_area_2020" : 41.3
+    },
+    "Minot, Androscoggin, ME" : {
+        "name" : "Minot",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Androscoggin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2251,
+        "population_2020" : 2251,
+        "population_2027" : 2376,
+        "land_area_2020" : 29.6
+    },
+    "Milo, Piscataquis, ME" : {
+        "name" : "Milo",
+        "state" : "Maine",
+        "FIPS" : "23-45985",
+        "counties" : [
+            "Piscataquis"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2251,
+        "population_2020" : 2251,
+        "population_2027" : 2376,
+        "land_area_2020" : 33.0
+    },
+    "Orland, Hancock, ME" : {
+        "name" : "Orland",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2221,
+        "population_2020" : 2221,
+        "population_2027" : 2344,
+        "land_area_2020" : 47.0
+    },
+    "Corinna, Penobscot, ME" : {
+        "name" : "Corinna",
+        "state" : "Maine",
+        "FIPS" : "23-14275",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2221,
+        "population_2020" : 2221,
+        "population_2027" : 2344,
+        "land_area_2020" : 38.7
+    },
+    "Eddington, Penobscot, ME" : {
+        "name" : "Eddington",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2194,
+        "population_2020" : 2194,
+        "population_2027" : 2316,
+        "land_area_2020" : 25.0
+    },
+    "Deer Isle, Hancock, ME" : {
+        "name" : "Deer Isle",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2194,
+        "population_2020" : 2194,
+        "population_2027" : 2316,
+        "land_area_2020" : 29.7
+    },
+    "Canaan, Somerset, ME" : {
+        "name" : "Canaan",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2193,
+        "population_2020" : 2193,
+        "population_2027" : 2315,
+        "land_area_2020" : 41.2
+    },
+    "Phippsburg, Sagadahoc, ME" : {
+        "name" : "Phippsburg",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Sagadahoc"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2155,
+        "population_2020" : 2155,
+        "population_2027" : 2275,
+        "land_area_2020" : 28.6
+    },
+    "Mount Desert, Hancock, ME" : {
+        "name" : "Mount Desert",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2146,
+        "population_2020" : 2146,
+        "population_2027" : 2265,
+        "land_area_2020" : 36.9
+    },
+    "Dayton, York, ME" : {
+        "name" : "Dayton",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2129,
+        "population_2020" : 2129,
+        "population_2027" : 2247,
+        "land_area_2020" : 17.9
+    },
+    "Livermore, Androscoggin, ME" : {
+        "name" : "Livermore",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Androscoggin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2127,
+        "population_2020" : 2127,
+        "population_2027" : 2245,
+        "land_area_2020" : 37.6
+    },
+    "Machias, Washington County, ME" : {
+        "name" : "Machias",
+        "state" : "Maine",
+        "FIPS" : "23-41925",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2060,
+        "population_2020" : 2060,
+        "population_2027" : 2174,
+        "land_area_2020" : 13.9
+    },
+    "St. Albans, Somerset, ME" : {
+        "name" : "St. Albans",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2045,
+        "population_2020" : 2045,
+        "population_2027" : 2159,
+        "land_area_2020" : 44.8
+    },
+    "Van Buren, Aroostook, ME" : {
+        "name" : "Van Buren",
+        "state" : "Maine",
+        "FIPS" : "23-78535",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2038,
+        "population_2020" : 2038,
+        "population_2027" : 2151,
+        "land_area_2020" : 33.8
+    },
+    "Boothbay Harbor, Lincoln, ME" : {
+        "name" : "Boothbay Harbor",
+        "state" : "Maine",
+        "FIPS" : "23-06085",
+        "counties" : [
+            "Lincoln"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2027,
+        "population_2020" : 2027,
+        "population_2027" : 2140,
+        "land_area_2020" : 5.7
+    },
+    "Albion, Kennebec, ME" : {
+        "name" : "Albion",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2006,
+        "population_2020" : 2006,
+        "population_2027" : 2117,
+        "land_area_2020" : 38.8
+    },
+    "Buckfield, Oxford, ME" : {
+        "name" : "Buckfield",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1983,
+        "population_2020" : 1983,
+        "population_2027" : 2093,
+        "land_area_2020" : 37.5
+    },
+    "Palmyra, Somerset, ME" : {
+        "name" : "Palmyra",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1924,
+        "population_2020" : 1924,
+        "population_2027" : 2031,
+        "land_area_2020" : 40.2
+    },
+    "Sebago, Cumberland, ME" : {
+        "name" : "Sebago",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1911,
+        "population_2020" : 1911,
+        "population_2027" : 2017,
+        "land_area_2020" : 32.8
+    },
+    "West Bath, Sagadahoc, ME" : {
+        "name" : "West Bath",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Sagadahoc"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1910,
+        "population_2020" : 1910,
+        "population_2027" : 2016,
+        "land_area_2020" : 11.8
+    },
+    "Mapleton, Aroostook, ME" : {
+        "name" : "Mapleton",
+        "state" : "Maine",
+        "FIPS" : "23-43220",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1886,
+        "population_2020" : 1886,
+        "population_2027" : 1991,
+        "land_area_2020" : 34.0
+    },
+    "Otisfield, Oxford, ME" : {
+        "name" : "Otisfield",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1853,
+        "population_2020" : 1853,
+        "population_2027" : 1956,
+        "land_area_2020" : 39.9
+    },
+    "Newcastle, Lincoln, ME" : {
+        "name" : "Newcastle",
+        "state" : "Maine",
+        "FIPS" : "23-48610",
+        "counties" : [
+            "Lincoln"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1848,
+        "population_2020" : 1848,
+        "population_2027" : 1951,
+        "land_area_2020" : 29.1
+    },
+    "Veazie, Penobscot, ME" : {
+        "name" : "Veazie",
+        "state" : "Maine",
+        "FIPS" : "23-78815",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1814,
+        "population_2020" : 1814,
+        "population_2027" : 1915,
+        "land_area_2020" : 3.0
+    },
+    "Parsonsfield, York, ME" : {
+        "name" : "Parsonsfield",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1791,
+        "population_2020" : 1791,
+        "population_2027" : 1890,
+        "land_area_2020" : 58.9
+    },
+    "Nobleboro, Lincoln, ME" : {
+        "name" : "Nobleboro",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Lincoln"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1791,
+        "population_2020" : 1791,
+        "population_2027" : 1890,
+        "land_area_2020" : 18.9
+    },
+    "West Paris, Oxford, ME" : {
+        "name" : "West Paris",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1766,
+        "population_2020" : 1766,
+        "population_2027" : 1864,
+        "land_area_2020" : 24.2
+    },
+    "Southwest Harbor, Hancock, ME" : {
+        "name" : "Southwest Harbor",
+        "state" : "Maine",
+        "FIPS" : "23-72830",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1756,
+        "population_2020" : 1756,
+        "population_2027" : 1854,
+        "land_area_2020" : 13.5
+    },
+    "Randolph, Kennebec, ME" : {
+        "name" : "Randolph",
+        "state" : "Maine",
+        "FIPS" : "23-61735",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1743,
+        "population_2020" : 1743,
+        "population_2027" : 1840,
+        "land_area_2020" : 2.1
+    },
+    "Dresden, Lincoln, ME" : {
+        "name" : "Dresden",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Lincoln"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1725,
+        "population_2020" : 1725,
+        "population_2027" : 1821,
+        "land_area_2020" : 30.5
+    },
+    "Mount Vernon, Kennebec, ME" : {
+        "name" : "Mount Vernon",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1721,
+        "population_2020" : 1721,
+        "population_2027" : 1817,
+        "land_area_2020" : 37.9
+    },
+    "Lamoine, Hancock, ME" : {
+        "name" : "Lamoine",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1720,
+        "population_2020" : 1720,
+        "population_2027" : 1816,
+        "land_area_2020" : 17.8
+    },
+    "Hartland, Somerset, ME" : {
+        "name" : "Hartland",
+        "state" : "Maine",
+        "FIPS" : "23-31705",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1705,
+        "population_2020" : 1705,
+        "population_2027" : 1800,
+        "land_area_2020" : 37.1
+    },
+    "Gouldsboro, Hancock, ME" : {
+        "name" : "Gouldsboro",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1703,
+        "population_2020" : 1703,
+        "population_2027" : 1798,
+        "land_area_2020" : 52.8
+    },
+    "Hope, Knox, ME" : {
+        "name" : "Hope",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Knox"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1698,
+        "population_2020" : 1698,
+        "population_2027" : 1792,
+        "land_area_2020" : 22.0
+    },
+    "Newfield, York, ME" : {
+        "name" : "Newfield",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1648,
+        "population_2020" : 1648,
+        "population_2027" : 1740,
+        "land_area_2020" : 32.3
+    },
+    "Dedham, Hancock, ME" : {
+        "name" : "Dedham",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1648,
+        "population_2020" : 1648,
+        "population_2027" : 1740,
+        "land_area_2020" : 39.3
+    },
+    "Brownfield, Oxford, ME" : {
+        "name" : "Brownfield",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1631,
+        "population_2020" : 1631,
+        "population_2027" : 1722,
+        "land_area_2020" : 44.5
+    },
+    "Surry, Hancock, ME" : {
+        "name" : "Surry",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1623,
+        "population_2020" : 1623,
+        "population_2027" : 1713,
+        "land_area_2020" : 37.0
+    },
+    "Hiram, Oxford, ME" : {
+        "name" : "Hiram",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1609,
+        "population_2020" : 1609,
+        "population_2027" : 1698,
+        "land_area_2020" : 37.6
+    },
+    "Wales, Androscoggin, ME" : {
+        "name" : "Wales",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Androscoggin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1608,
+        "population_2020" : 1608,
+        "population_2027" : 1697,
+        "land_area_2020" : 16.0
+    },
+    "Porter, Oxford, ME" : {
+        "name" : "Porter",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1600,
+        "population_2020" : 1600,
+        "population_2027" : 1689,
+        "land_area_2020" : 31.5
+    },
+    "Newburgh, Penobscot, ME" : {
+        "name" : "Newburgh",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1595,
+        "population_2020" : 1595,
+        "population_2027" : 1684,
+        "land_area_2020" : 31.0
+    },
+    "Washington, Knox, ME" : {
+        "name" : "Washington",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Knox"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1592,
+        "population_2020" : 1592,
+        "population_2027" : 1680,
+        "land_area_2020" : 38.0
+    },
+    "Trenton, Hancock, ME" : {
+        "name" : "Trenton",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1584,
+        "population_2020" : 1584,
+        "population_2027" : 1672,
+        "land_area_2020" : 18.1
+    },
+    "Ogunquit, York, ME" : {
+        "name" : "Ogunquit",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1577,
+        "population_2020" : 1577,
+        "population_2027" : 1665,
+        "land_area_2020" : 4.2
+    },
+    "East Millinocket, Penobscot, ME" : {
+        "name" : "East Millinocket",
+        "state" : "Maine",
+        "FIPS" : "23-21065",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1572,
+        "population_2020" : 1572,
+        "population_2027" : 1659,
+        "land_area_2020" : 7.1
+    },
+    "Waterford, Oxford, ME" : {
+        "name" : "Waterford",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1570,
+        "population_2020" : 1570,
+        "population_2027" : 1657,
+        "land_area_2020" : 50.2
+    },
+    "Palermo, Waldo, ME" : {
+        "name" : "Palermo",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1570,
+        "population_2020" : 1570,
+        "population_2027" : 1657,
+        "land_area_2020" : 40.5
+    },
+    "Franklin, Hancock, ME" : {
+        "name" : "Franklin",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1567,
+        "population_2020" : 1567,
+        "population_2027" : 1654,
+        "land_area_2020" : 36.5
+    },
+    "Pownal, Cumberland, ME" : {
+        "name" : "Pownal",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1566,
+        "population_2020" : 1566,
+        "population_2027" : 1653,
+        "land_area_2020" : 22.9
+    },
+    "Charleston, Penobscot, ME" : {
+        "name" : "Charleston",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1551,
+        "population_2020" : 1551,
+        "population_2027" : 1637,
+        "land_area_2020" : 40.6
+    },
+    "Northport, Waldo, ME" : {
+        "name" : "Northport",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1550,
+        "population_2020" : 1550,
+        "population_2027" : 1636,
+        "land_area_2020" : 23.8
+    },
+    "Tremont, Hancock, ME" : {
+        "name" : "Tremont",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1544,
+        "population_2020" : 1544,
+        "population_2027" : 1630,
+        "land_area_2020" : 16.8
+    },
+    "Stockton Springs, Waldo, ME" : {
+        "name" : "Stockton Springs",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1533,
+        "population_2020" : 1533,
+        "population_2027" : 1618,
+        "land_area_2020" : 19.6
+    },
+    "Bradley, Penobscot, ME" : {
+        "name" : "Bradley",
+        "state" : "Maine",
+        "FIPS" : "23-06645",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1532,
+        "population_2020" : 1532,
+        "population_2027" : 1617,
+        "land_area_2020" : 49.5
+    },
+    "Washburn, Aroostook, ME" : {
+        "name" : "Washburn",
+        "state" : "Maine",
+        "FIPS" : "23-80250",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1527,
+        "population_2020" : 1527,
+        "population_2027" : 1612,
+        "land_area_2020" : 34.2
+    },
+    "Limestone, Aroostook, ME" : {
+        "name" : "Limestone",
+        "state" : "Maine",
+        "FIPS" : "23-39265",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1526,
+        "population_2020" : 1526,
+        "population_2027" : 1611,
+        "land_area_2020" : 40.5
+    },
+    "Baldwin, Cumberland, ME" : {
+        "name" : "Baldwin",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1520,
+        "population_2020" : 1520,
+        "population_2027" : 1604,
+        "land_area_2020" : 35.3
+    },
+    "South Thomaston, Knox, ME" : {
+        "name" : "South Thomaston",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Knox"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1511,
+        "population_2020" : 1511,
+        "population_2027" : 1595,
+        "land_area_2020" : 11.4
+    },
+    "Cornish, York, ME" : {
+        "name" : "Cornish",
+        "state" : "Maine",
+        "FIPS" : "23-14450",
+        "counties" : [
+            "York"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1508,
+        "population_2020" : 1508,
+        "population_2027" : 1592,
+        "land_area_2020" : 22.2
+    },
+    "Owls Head, Knox, ME" : {
+        "name" : "Owls Head",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Knox"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1504,
+        "population_2020" : 1504,
+        "population_2027" : 1588,
+        "land_area_2020" : 8.9
+    },
+    "Cushing, Knox, ME" : {
+        "name" : "Cushing",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Knox"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1502,
+        "population_2020" : 1502,
+        "population_2027" : 1585,
+        "land_area_2020" : 19.2
+    },
+    "Peru, Oxford, ME" : {
+        "name" : "Peru",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1488,
+        "population_2020" : 1488,
+        "population_2027" : 1571,
+        "land_area_2020" : 46.7
+    },
+    "New Sharon, Franklin, ME" : {
+        "name" : "New Sharon",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1458,
+        "population_2020" : 1458,
+        "population_2027" : 1539,
+        "land_area_2020" : 46.2
+    },
+    "Greenbush, Penobscot, ME" : {
+        "name" : "Greenbush",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1444,
+        "population_2020" : 1444,
+        "population_2027" : 1524,
+        "land_area_2020" : 43.8
+    },
+    "Greenville, Piscataquis, ME" : {
+        "name" : "Greenville",
+        "state" : "Maine",
+        "FIPS" : "23-29500",
+        "counties" : [
+            "Piscataquis"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1437,
+        "population_2020" : 1437,
+        "population_2027" : 1517,
+        "land_area_2020" : 42.3
+    },
+    "Enfield, Penobscot, ME" : {
+        "name" : "Enfield",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1435,
+        "population_2020" : 1435,
+        "population_2027" : 1515,
+        "land_area_2020" : 27.7
+    },
+    "Hudson, Penobscot, ME" : {
+        "name" : "Hudson",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1416,
+        "population_2020" : 1416,
+        "population_2027" : 1495,
+        "land_area_2020" : 37.6
+    },
+    "Appleton, Knox, ME" : {
+        "name" : "Appleton",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Knox"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1411,
+        "population_2020" : 1411,
+        "population_2027" : 1489,
+        "land_area_2020" : 32.7
+    },
+    "Searsmont, Waldo, ME" : {
+        "name" : "Searsmont",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1400,
+        "population_2020" : 1400,
+        "population_2027" : 1478,
+        "land_area_2020" : 37.7
+    },
+    "Swanville, Waldo, ME" : {
+        "name" : "Swanville",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1377,
+        "population_2020" : 1377,
+        "population_2027" : 1453,
+        "land_area_2020" : 19.7
+    },
+    "Milbridge, Washington, ME" : {
+        "name" : "Milbridge",
+        "state" : "Maine",
+        "FIPS" : "23-45565",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1375,
+        "population_2020" : 1375,
+        "population_2027" : 1451,
+        "land_area_2020" : 24.3
+    },
+    "Mars Hill, Aroostook, ME" : {
+        "name" : "Mars Hill",
+        "state" : "Maine",
+        "FIPS" : "23-43675",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1360,
+        "population_2020" : 1360,
+        "population_2027" : 1436,
+        "land_area_2020" : 35.1
+    },
+    "Woodstock, Oxford, ME" : {
+        "name" : "Woodstock",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1352,
+        "population_2020" : 1352,
+        "population_2027" : 1427,
+        "land_area_2020" : 45.7
+    },
+    "Kenduskeag, Penobscot, ME" : {
+        "name" : "Kenduskeag",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1346,
+        "population_2020" : 1346,
+        "population_2027" : 1421,
+        "land_area_2020" : 16.8
+    },
+    "Chesterville, Franklin, ME" : {
+        "name" : "Chesterville",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1328,
+        "population_2020" : 1328,
+        "population_2027" : 1402,
+        "land_area_2020" : 36.2
+    },
+    "East Machias, Washington, ME" : {
+        "name" : "East Machias",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1326,
+        "population_2020" : 1326,
+        "population_2027" : 1400,
+        "land_area_2020" : 34.8
+    },
+    "Plymouth, Penobscot, ME" : {
+        "name" : "Plymouth",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1325,
+        "population_2020" : 1325,
+        "population_2027" : 1399,
+        "land_area_2020" : 29.7
+    },
+    "Easton, Aroostook, ME" : {
+        "name" : "Easton",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1320,
+        "population_2020" : 1320,
+        "population_2027" : 1393,
+        "land_area_2020" : 38.7
+    },
+    "Castine, Hancock, ME" : {
+        "name" : "Castine",
+        "state" : "Maine",
+        "FIPS" : "23-11230",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1320,
+        "population_2020" : 1320,
+        "population_2027" : 1393,
+        "land_area_2020" : 7.8
+    },
+    "Baileyville, Washington, ME" : {
+        "name" : "Baileyville",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1318,
+        "population_2020" : 1318,
+        "population_2027" : 1391,
+        "land_area_2020" : 37.2
+    },
+    "Cornville, Somerset, ME" : {
+        "name" : "Cornville",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1317,
+        "population_2020" : 1317,
+        "population_2027" : 1390,
+        "land_area_2020" : 40.7
+    },
+    "Sangerville, Piscataquis, ME" : {
+        "name" : "Sangerville",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Piscataquis"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1306,
+        "population_2020" : 1306,
+        "population_2027" : 1379,
+        "land_area_2020" : 38.4
+    },
+    "Hodgdon, Aroostook, ME" : {
+        "name" : "Hodgdon",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1290,
+        "population_2020" : 1290,
+        "population_2027" : 1362,
+        "land_area_2020" : 39.8
+    },
+    "Eastport, Washington, ME" : {
+        "name" : "Eastport",
+        "state" : "Maine",
+        "FIPS" : "23-21730",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1288,
+        "population_2020" : 1288,
+        "population_2027" : 1360,
+        "land_area_2020" : 3.6
+    },
+    "Vinalhaven, Knox, ME" : {
+        "name" : "Vinalhaven",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Knox"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1279,
+        "population_2020" : 1279,
+        "population_2027" : 1350,
+        "land_area_2020" : 23.5
+    },
+    "Guilford, Piscataquis, ME" : {
+        "name" : "Guilford",
+        "state" : "Maine",
+        "FIPS" : "23-30060",
+        "counties" : [
+            "Piscataquis"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1267,
+        "population_2020" : 1267,
+        "population_2027" : 1337,
+        "land_area_2020" : 34.9
+    },
+    "Jonesport, Washington, ME" : {
+        "name" : "Jonesport",
+        "state" : "Maine",
+        "FIPS" : "23-35975",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1245,
+        "population_2020" : 1245,
+        "population_2027" : 1314,
+        "land_area_2020" : 28.5
+    },
+    "Lubec, Washington, ME" : {
+        "name" : "Lubec",
+        "state" : "Maine",
+        "FIPS" : "23-41575",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1237,
+        "population_2020" : 1237,
+        "population_2027" : 1306,
+        "land_area_2020" : 33.3
+    },
+    "Frankfort, Waldo, ME" : {
+        "name" : "Frankfort",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1231,
+        "population_2020" : 1231,
+        "population_2027" : 1299,
+        "land_area_2020" : 24.6
+    },
+    "Etna, Penobscot, ME" : {
+        "name" : "Etna",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1226,
+        "population_2020" : 1226,
+        "population_2027" : 1294,
+        "land_area_2020" : 24.8
+    },
+    "Hebron, Oxford, ME" : {
+        "name" : "Hebron",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1223,
+        "population_2020" : 1223,
+        "population_2027" : 1291,
+        "land_area_2020" : 22.4
+    },
+    "Rangeley, Franklin, ME" : {
+        "name" : "Rangeley",
+        "state" : "Maine",
+        "FIPS" : "23-61805",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1222,
+        "population_2020" : 1222,
+        "population_2027" : 1290,
+        "land_area_2020" : 41.5
+    },
+    "Sullivan, Hancock, ME" : {
+        "name" : "Sullivan",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1219,
+        "population_2020" : 1219,
+        "population_2027" : 1287,
+        "land_area_2020" : 26.7
+    },
+    "Woodland, Aroostook, ME" : {
+        "name" : "Woodland",
+        "state" : "Maine",
+        "FIPS" : "23-87250",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1217,
+        "population_2020" : 1217,
+        "population_2027" : 1285,
+        "land_area_2020" : 35.3
+    },
+    "Dixmont, Penobscot, ME" : {
+        "name" : "Dixmont",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1211,
+        "population_2020" : 1211,
+        "population_2027" : 1278,
+        "land_area_2020" : 36.3
+    },
+    "Hartford, Oxford, ME" : {
+        "name" : "Hartford",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1203,
+        "population_2020" : 1203,
+        "population_2027" : 1270,
+        "land_area_2020" : 43.9
+    },
+    "Sedgwick, Hancock, ME" : {
+        "name" : "Sedgwick",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1202,
+        "population_2020" : 1202,
+        "population_2027" : 1269,
+        "land_area_2020" : 27.0
+    },
+    "Ashland, Aroostook, ME" : {
+        "name" : "Ashland",
+        "state" : "Maine",
+        "FIPS" : "23-01675",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1202,
+        "population_2020" : 1202,
+        "population_2027" : 1269,
+        "land_area_2020" : 80.4
+    },
+    "Denmark, Oxford, ME" : {
+        "name" : "Denmark",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1197,
+        "population_2020" : 1197,
+        "population_2027" : 1263,
+        "land_area_2020" : 46.1
+    },
+    "Edgecomb, Lincoln, ME" : {
+        "name" : "Edgecomb",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Lincoln"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1188,
+        "population_2020" : 1188,
+        "population_2027" : 1254,
+        "land_area_2020" : 18.1
+    },
+    "Medway, Penobscot, ME" : {
+        "name" : "Medway",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1187,
+        "population_2020" : 1187,
+        "population_2027" : 1253,
+        "land_area_2020" : 41.0
+    },
+    "Stetson, Penobscot, ME" : {
+        "name" : "Stetson",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1186,
+        "population_2020" : 1186,
+        "population_2027" : 1252,
+        "land_area_2020" : 35.0
+    },
+    "Bradford, Penobscot, ME" : {
+        "name" : "Bradford",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1184,
+        "population_2020" : 1184,
+        "population_2027" : 1250,
+        "land_area_2020" : 41.2
+    },
+    "Fayette, Kennebec, ME" : {
+        "name" : "Fayette",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1160,
+        "population_2020" : 1160,
+        "population_2027" : 1224,
+        "land_area_2020" : 29.2
+    },
+    "Rome, Kennebec, ME" : {
+        "name" : "Rome",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1148,
+        "population_2020" : 1148,
+        "population_2027" : 1212,
+        "land_area_2020" : 25.4
+    },
+    "Addison, Washington, ME" : {
+        "name" : "Addison",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1148,
+        "population_2020" : 1148,
+        "population_2027" : 1212,
+        "land_area_2020" : 42.4
+    },
+    "Friendship, Knox, ME" : {
+        "name" : "Friendship",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Knox"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1142,
+        "population_2020" : 1142,
+        "population_2027" : 1205,
+        "land_area_2020" : 14.1
+    },
+    "Brownville, Piscataquis, ME" : {
+        "name" : "Brownville",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Piscataquis"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1139,
+        "population_2020" : 1139,
+        "population_2027" : 1202,
+        "land_area_2020" : 44.0
+    },
+    "Penobscot, Hancock, ME" : {
+        "name" : "Penobscot",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1136,
+        "population_2020" : 1136,
+        "population_2027" : 1199,
+        "land_area_2020" : 39.9
+    },
+    "Wayne, Kennebec, ME" : {
+        "name" : "Wayne",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1129,
+        "population_2020" : 1129,
+        "population_2027" : 1192,
+        "land_area_2020" : 19.3
+    },
+    "Steuben, Washington, ME" : {
+        "name" : "Steuben",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1129,
+        "population_2020" : 1129,
+        "population_2027" : 1192,
+        "land_area_2020" : 43.0
+    },
+    "South Bristol, Lincoln, ME" : {
+        "name" : "South Bristol",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Lincoln"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1127,
+        "population_2020" : 1127,
+        "population_2027" : 1190,
+        "land_area_2020" : 13.1
+    },
+    "Canton, Oxford, ME" : {
+        "name" : "Canton",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1125,
+        "population_2020" : 1125,
+        "population_2027" : 1187,
+        "land_area_2020" : 29.1
+    },
+    "Strong, Franklin, ME" : {
+        "name" : "Strong",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1122,
+        "population_2020" : 1122,
+        "population_2027" : 1184,
+        "land_area_2020" : 28.4
+    },
+    "Cherryfield, Washington, ME" : {
+        "name" : "Cherryfield",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1107,
+        "population_2020" : 1107,
+        "population_2027" : 1168,
+        "land_area_2020" : 44.4
+    },
+    "Lovell, Oxford, ME" : {
+        "name" : "Lovell",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1104,
+        "population_2020" : 1104,
+        "population_2027" : 1165,
+        "land_area_2020" : 43.2
+    },
+    "Burnham, Waldo, ME" : {
+        "name" : "Burnham",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1096,
+        "population_2020" : 1096,
+        "population_2027" : 1157,
+        "land_area_2020" : 38.9
+    },
+    "Howland, Penobscot, ME" : {
+        "name" : "Howland",
+        "state" : "Maine",
+        "FIPS" : "23-34225",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1094,
+        "population_2020" : 1094,
+        "population_2027" : 1155,
+        "land_area_2020" : 34.9
+    },
+    "Georgetown, Sagadahoc, ME" : {
+        "name" : "Georgetown",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Sagadahoc"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1058,
+        "population_2020" : 1058,
+        "population_2027" : 1117,
+        "land_area_2020" : 18.6
+    },
+    "Stonington, Hancock, ME" : {
+        "name" : "Stonington",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1056,
+        "population_2020" : 1056,
+        "population_2027" : 1115,
+        "land_area_2020" : 9.8
+    },
+    "Frenchville, Aroostook, ME" : {
+        "name" : "Frenchville",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1052,
+        "population_2020" : 1052,
+        "population_2027" : 1110,
+        "land_area_2020" : 28.7
+    },
+    "Garland, Penobscot, ME" : {
+        "name" : "Garland",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1026,
+        "population_2020" : 1026,
+        "population_2027" : 1083,
+        "land_area_2020" : 37.7
+    },
+    "Montville, Waldo, ME" : {
+        "name" : "Montville",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1020,
+        "population_2020" : 1020,
+        "population_2027" : 1077,
+        "land_area_2020" : 42.7
+    },
+    "Troy, Waldo, ME" : {
+        "name" : "Troy",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1018,
+        "population_2020" : 1018,
+        "population_2027" : 1075,
+        "land_area_2020" : 34.9
+    },
+    "Brooks, Waldo, ME" : {
+        "name" : "Brooks",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1010,
+        "population_2020" : 1010,
+        "population_2027" : 1066,
+        "land_area_2020" : 24.7
+    },
+    "Littleton, Aroostook, ME" : {
+        "name" : "Littleton",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 997,
+        "population_2020" : 997,
+        "population_2027" : 1052,
+        "land_area_2020" : 38.4
+    },
+    "Sumner, Oxford, ME" : {
+        "name" : "Sumner",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 994,
+        "population_2020" : 994,
+        "population_2027" : 1049,
+        "land_area_2020" : 44.3
+    },
+    "Solon, Somerset, ME" : {
+        "name" : "Solon",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 978,
+        "population_2020" : 978,
+        "population_2027" : 1032,
+        "land_area_2020" : 39.7
+    },
+    "Belmont, Waldo, ME" : {
+        "name" : "Belmont",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 976,
+        "population_2020" : 976,
+        "population_2027" : 1030,
+        "land_area_2020" : 13.6
+    },
+    "Morrill, Waldo, ME" : {
+        "name" : "Morrill",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 971,
+        "population_2020" : 971,
+        "population_2027" : 1025,
+        "land_area_2020" : 16.6
+    },
+    "Exeter, Penobscot, ME" : {
+        "name" : "Exeter",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 963,
+        "population_2020" : 963,
+        "population_2027" : 1016,
+        "land_area_2020" : 38.6
+    },
+    "Machiasport, Washington, ME" : {
+        "name" : "Machiasport",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 962,
+        "population_2020" : 962,
+        "population_2027" : 1015,
+        "land_area_2020" : 21.4
+    },
+    "Harrington, Washington, ME" : {
+        "name" : "Harrington",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 962,
+        "population_2020" : 962,
+        "population_2027" : 1015,
+        "land_area_2020" : 21.1
+    },
+    "Kingfield, Franklin, ME" : {
+        "name" : "Kingfield",
+        "state" : "Maine",
+        "FIPS" : "23-36990",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 960,
+        "population_2020" : 960,
+        "population_2027" : 1013,
+        "land_area_2020" : 43.1
+    },
+    "Athens, Somerset, ME" : {
+        "name" : "Athens",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 952,
+        "population_2020" : 952,
+        "population_2027" : 1005,
+        "land_area_2020" : 43.6
+    },
+    "Linneus, Aroostook, ME" : {
+        "name" : "Linneus",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 947,
+        "population_2020" : 947,
+        "population_2027" : 1000,
+        "land_area_2020" : 44.3
+    },
+    "Brooksville, Hancock, ME" : {
+        "name" : "Brooksville",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 935,
+        "population_2020" : 935,
+        "population_2027" : 987,
+        "land_area_2020" : 31.1
+    },
+    "Liberty, Waldo, ME" : {
+        "name" : "Liberty",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 934,
+        "population_2020" : 934,
+        "population_2027" : 986,
+        "land_area_2020" : 26.0
+    },
+    "Monroe, Waldo, ME" : {
+        "name" : "Monroe",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 931,
+        "population_2020" : 931,
+        "population_2027" : 983,
+        "land_area_2020" : 38.9
+    },
+    "Smithfield, Somerset, ME" : {
+        "name" : "Smithfield",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 925,
+        "population_2020" : 925,
+        "population_2027" : 976,
+        "land_area_2020" : 19.9
+    },
+    "Lee, Penobscot, ME" : {
+        "name" : "Lee",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 916,
+        "population_2020" : 916,
+        "population_2027" : 967,
+        "land_area_2020" : 38.7
+    },
+    "Embden, Somerset, ME" : {
+        "name" : "Embden",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 902,
+        "population_2020" : 902,
+        "population_2027" : 952,
+        "land_area_2020" : 39.6
+    },
+    "Phillips, Franklin, ME" : {
+        "name" : "Phillips",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 898,
+        "population_2020" : 898,
+        "population_2027" : 948,
+        "land_area_2020" : 50.8
+    },
+    "Detroit, Somerset, ME" : {
+        "name" : "Detroit",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 885,
+        "population_2020" : 885,
+        "population_2027" : 934,
+        "land_area_2020" : 20.3
+    },
+    "Patten, Penobscot, ME" : {
+        "name" : "Patten",
+        "state" : "Maine",
+        "FIPS" : "23-57115",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 881,
+        "population_2020" : 881,
+        "population_2027" : 930,
+        "land_area_2020" : 38.2
+    },
+    "Bingham, Somerset, ME" : {
+        "name" : "Bingham",
+        "state" : "Maine",
+        "FIPS" : "23-04965",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 866,
+        "population_2020" : 866,
+        "population_2027" : 914,
+        "land_area_2020" : 34.9
+    },
+    "Clifton, Penobscot, ME" : {
+        "name" : "Clifton",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 840,
+        "population_2020" : 840,
+        "population_2027" : 887,
+        "land_area_2020" : 34.5
+    },
+    "Alton, Penobscot, ME" : {
+        "name" : "Alton",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 829,
+        "population_2020" : 829,
+        "population_2027" : 875,
+        "land_area_2020" : 42.3
+    },
+    "Brooklin, Hancock, ME" : {
+        "name" : "Brooklin",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 827,
+        "population_2020" : 827,
+        "population_2027" : 873,
+        "land_area_2020" : 17.9
+    },
+    "Harmony, Somerset, ME" : {
+        "name" : "Harmony",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 825,
+        "population_2020" : 825,
+        "population_2027" : 871,
+        "land_area_2020" : 38.7
+    },
+    "Bremen, Lincoln, ME" : {
+        "name" : "Bremen",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Lincoln"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 823,
+        "population_2020" : 823,
+        "population_2027" : 869,
+        "land_area_2020" : 16.5
+    },
+    "Sherman, Aroostook, ME" : {
+        "name" : "Sherman",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 815,
+        "population_2020" : 815,
+        "population_2027" : 860,
+        "land_area_2020" : 40.0
+    },
+    "Knox, Waldo, ME" : {
+        "name" : "Knox",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 811,
+        "population_2020" : 811,
+        "population_2027" : 856,
+        "land_area_2020" : 29.0
+    },
+    "Perry, Washington, ME" : {
+        "name" : "Perry",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 802,
+        "population_2020" : 802,
+        "population_2027" : 847,
+        "land_area_2020" : 29.3
+    },
+    "Waldo, Waldo, ME" : {
+        "name" : "Waldo",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 795,
+        "population_2020" : 795,
+        "population_2027" : 839,
+        "land_area_2020" : 19.3
+    },
+    "Pembroke, Washington, ME" : {
+        "name" : "Pembroke",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 788,
+        "population_2020" : 788,
+        "population_2027" : 832,
+        "land_area_2020" : 27.4
+    },
+    "Industry, Franklin, ME" : {
+        "name" : "Industry",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 788,
+        "population_2020" : 788,
+        "population_2027" : 832,
+        "land_area_2020" : 29.8
+    },
+    "Jackman, Somerset, ME" : {
+        "name" : "Jackman",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 782,
+        "population_2020" : 782,
+        "population_2027" : 825,
+        "land_area_2020" : 41.3
+    },
+    "Thorndike, Waldo, ME" : {
+        "name" : "Thorndike",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 774,
+        "population_2020" : 774,
+        "population_2027" : 817,
+        "land_area_2020" : 25.3
+    },
+    "Greenwood, Oxford, ME" : {
+        "name" : "Greenwood",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 774,
+        "population_2020" : 774,
+        "population_2027" : 817,
+        "land_area_2020" : 41.7
+    },
+    "Eagle Lake, Aroostook, ME" : {
+        "name" : "Eagle Lake",
+        "state" : "Maine",
+        "FIPS" : "23-19385",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 772,
+        "population_2020" : 772,
+        "population_2027" : 815,
+        "land_area_2020" : 37.4
+    },
+    "New Portland, Somerset, ME" : {
+        "name" : "New Portland",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 765,
+        "population_2020" : 765,
+        "population_2027" : 807,
+        "land_area_2020" : 43.9
+    },
+    "Island Falls, Aroostook, ME" : {
+        "name" : "Island Falls",
+        "state" : "Maine",
+        "FIPS" : "23-35030",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 758,
+        "population_2020" : 758,
+        "population_2027" : 800,
+        "land_area_2020" : 36.0
+    },
+    "Andover, Oxford, ME" : {
+        "name" : "Andover",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 752,
+        "population_2020" : 752,
+        "population_2027" : 794,
+        "land_area_2020" : 57.4
+    },
+    "Parkman, Piscataquis, ME" : {
+        "name" : "Parkman",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Piscataquis"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 747,
+        "population_2020" : 747,
+        "population_2027" : 788,
+        "land_area_2020" : 45.2
+    },
+    "Princeton, Washington, ME" : {
+        "name" : "Princeton",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 745,
+        "population_2020" : 745,
+        "population_2027" : 786,
+        "land_area_2020" : 36.9
+    },
+    "Monticello, Aroostook, ME" : {
+        "name" : "Monticello",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 737,
+        "population_2020" : 737,
+        "population_2027" : 778,
+        "land_area_2020" : 38.2
+    },
+    "St. Agatha, Aroostook, ME" : {
+        "name" : "St. Agatha",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 730,
+        "population_2020" : 730,
+        "population_2027" : 771,
+        "land_area_2020" : 29.5
+    },
+    "New Vineyard, Franklin, ME" : {
+        "name" : "New Vineyard",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 721,
+        "population_2020" : 721,
+        "population_2027" : 761,
+        "land_area_2020" : 35.7
+    },
+    "Westport Island, Lincoln, ME" : {
+        "name" : "Westport Island",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Lincoln"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 719,
+        "population_2020" : 719,
+        "population_2027" : 759,
+        "land_area_2020" : 8.8
+    },
+    "Freedom, Waldo, ME" : {
+        "name" : "Freedom",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 711,
+        "population_2020" : 711,
+        "population_2027" : 750,
+        "land_area_2020" : 21.5
+    },
+    "Alna, Lincoln, ME" : {
+        "name" : "Alna",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Lincoln"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 710,
+        "population_2020" : 710,
+        "population_2027" : 749,
+        "land_area_2020" : 20.9
+    },
+    "Mercer, Somerset, ME" : {
+        "name" : "Mercer",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 709,
+        "population_2020" : 709,
+        "population_2027" : 748,
+        "land_area_2020" : 26.7
+    },
+    "Prospect, Waldo, ME" : {
+        "name" : "Prospect",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 698,
+        "population_2020" : 698,
+        "population_2027" : 737,
+        "land_area_2020" : 18.1
+    },
+    "Otis, Hancock, ME" : {
+        "name" : "Otis",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 673,
+        "population_2020" : 673,
+        "population_2027" : 710,
+        "land_area_2020" : 24.8
+    },
+    "Carrabassett Valley, Franklin, ME" : {
+        "name" : "Carrabassett Valley",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 673,
+        "population_2020" : 673,
+        "population_2027" : 710,
+        "land_area_2020" : 77.5
+    },
+    "Blaine, Aroostook, ME" : {
+        "name" : "Blaine",
+        "state" : "Maine",
+        "FIPS" : "23-05350",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 667,
+        "population_2020" : 667,
+        "population_2027" : 704,
+        "land_area_2020" : 18.6
+    },
+    "Sebec, Piscataquis, ME" : {
+        "name" : "Sebec",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Piscataquis"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 665,
+        "population_2020" : 665,
+        "population_2027" : 702,
+        "land_area_2020" : 36.8
+    },
+    "Oakfield, Aroostook, ME" : {
+        "name" : "Oakfield",
+        "state" : "Maine",
+        "FIPS" : "23-54350",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 661,
+        "population_2020" : 661,
+        "population_2027" : 698,
+        "land_area_2020" : 35.2
+    },
+    "Abbot, Piscataquis, ME" : {
+        "name" : "Abbot",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Piscataquis"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 650,
+        "population_2020" : 650,
+        "population_2027" : 686,
+        "land_area_2020" : 34.5
+    },
+    "Eustis, Franklin, ME" : {
+        "name" : "Eustis",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 641,
+        "population_2020" : 641,
+        "population_2027" : 677,
+        "land_area_2020" : 39.1
+    },
+    "Lagrange, Penobscot, ME" : {
+        "name" : "Lagrange",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 635,
+        "population_2020" : 635,
+        "population_2027" : 670,
+        "land_area_2020" : 49.5
+    },
+    "Southport, Lincoln, ME" : {
+        "name" : "Southport",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Lincoln"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 622,
+        "population_2020" : 622,
+        "population_2027" : 657,
+        "land_area_2020" : 5.4
+    },
+    "Jackson, Waldo, ME" : {
+        "name" : "Jackson",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 610,
+        "population_2020" : 610,
+        "population_2027" : 644,
+        "land_area_2020" : 25.3
+    },
+    "Monson, Piscataquis, ME" : {
+        "name" : "Monson",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Piscataquis"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 609,
+        "population_2020" : 609,
+        "population_2027" : 643,
+        "land_area_2020" : 46.8
+    },
+    "Somerville, Lincoln, ME" : {
+        "name" : "Somerville",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Lincoln"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 600,
+        "population_2020" : 600,
+        "population_2027" : 633,
+        "land_area_2020" : 21.9
+    },
+    "Mattawamkeag, Penobscot, ME" : {
+        "name" : "Mattawamkeag",
+        "state" : "Maine",
+        "FIPS" : "23-44235",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 596,
+        "population_2020" : 596,
+        "population_2027" : 629,
+        "land_area_2020" : 37.7
+    },
+    "Starks, Somerset, ME" : {
+        "name" : "Starks",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 593,
+        "population_2020" : 593,
+        "population_2027" : 626,
+        "land_area_2020" : 31.6
+    },
+    "Danforth, Washington, ME" : {
+        "name" : "Danforth",
+        "state" : "Maine",
+        "FIPS" : "23-16375",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 587,
+        "population_2020" : 587,
+        "population_2027" : 620,
+        "land_area_2020" : 54.0
+    },
+    "Islesboro, Waldo, ME" : {
+        "name" : "Islesboro",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Waldo"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 583,
+        "population_2020" : 583,
+        "population_2027" : 615,
+        "land_area_2020" : 14.3
+    },
+    "Jonesboro, Washington, ME" : {
+        "name" : "Jonesboro",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 579,
+        "population_2020" : 579,
+        "population_2027" : 611,
+        "land_area_2020" : 36.6
+    },
+    "Vienna, Kennebec, ME" : {
+        "name" : "Vienna",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Kennebec"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 578,
+        "population_2020" : 578,
+        "population_2027" : 610,
+        "land_area_2020" : 24.3
+    },
+    "New Sweden, Aroostook, ME" : {
+        "name" : "New Sweden",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 577,
+        "population_2020" : 577,
+        "population_2027" : 609,
+        "land_area_2020" : 34.6
+    },
+    "New Limerick, Aroostook, ME" : {
+        "name" : "New Limerick",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 574,
+        "population_2020" : 574,
+        "population_2027" : 606,
+        "land_area_2020" : 18.4
+    },
+    "Chester, Penobscot, ME" : {
+        "name" : "Chester",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 549,
+        "population_2020" : 549,
+        "population_2027" : 579,
+        "land_area_2020" : 45.8
+    },
+    "Robbinston, Washington, ME" : {
+        "name" : "Robbinston",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 539,
+        "population_2020" : 539,
+        "population_2027" : 569,
+        "land_area_2020" : 28.2
+    },
+    "Bridgewater, Aroostook, ME" : {
+        "name" : "Bridgewater",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 532,
+        "population_2020" : 532,
+        "population_2027" : 562,
+        "land_area_2020" : 38.8
+    },
+    "Marshfield, Washington, ME" : {
+        "name" : "Marshfield",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 528,
+        "population_2020" : 528,
+        "population_2027" : 557,
+        "land_area_2020" : 17.0
+    },
+    "Temple, Franklin, ME" : {
+        "name" : "Temple",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 527,
+        "population_2020" : 527,
+        "population_2027" : 556,
+        "land_area_2020" : 35.5
+    },
+    "Alexander, Washington, ME" : {
+        "name" : "Alexander",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 525,
+        "population_2020" : 525,
+        "population_2027" : 554,
+        "land_area_2020" : 40.1
+    },
+    "Cutler, Washington, ME" : {
+        "name" : "Cutler",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 524,
+        "population_2020" : 524,
+        "population_2027" : 553,
+        "land_area_2020" : 47.0
+    },
+    "Wallagrass, Aroostook, ME" : {
+        "name" : "Wallagrass",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 519,
+        "population_2020" : 519,
+        "population_2027" : 548,
+        "land_area_2020" : 40.1
+    },
+    "Carthage, Franklin, ME" : {
+        "name" : "Carthage",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 509,
+        "population_2020" : 509,
+        "population_2027" : 537,
+        "land_area_2020" : 33.3
+    },
+    "Verona Island, Hancock, ME" : {
+        "name" : "Verona Island",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 507,
+        "population_2020" : 507,
+        "population_2027" : 535,
+        "land_area_2020" : 6.2
+    },
+    "Chapman, Aroostook, ME" : {
+        "name" : "Chapman",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 491,
+        "population_2020" : 491,
+        "population_2027" : 518,
+        "land_area_2020" : 38.4
+    },
+    "Ripley, Somerset, ME" : {
+        "name" : "Ripley",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 484,
+        "population_2020" : 484,
+        "population_2027" : 511,
+        "land_area_2020" : 24.6
+    },
+    "Whiting, Washington, ME" : {
+        "name" : "Whiting",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 482,
+        "population_2020" : 482,
+        "population_2027" : 509,
+        "land_area_2020" : 46.7
+    },
+    "Arrowsic, Sagadahoc, ME" : {
+        "name" : "Arrowsic",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Sagadahoc"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 477,
+        "population_2020" : 477,
+        "population_2027" : 503,
+        "land_area_2020" : 7.8
+    },
+    "Columbia Falls, Washington, ME" : {
+        "name" : "Columbia Falls",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 476,
+        "population_2020" : 476,
+        "population_2027" : 502,
+        "land_area_2020" : 24.6
+    },
+    "Moscow, Somerset, ME" : {
+        "name" : "Moscow",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 475,
+        "population_2020" : 475,
+        "population_2027" : 501,
+        "land_area_2020" : 45.9
+    },
+    "Mariaville, Hancock, ME" : {
+        "name" : "Mariaville",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 472,
+        "population_2020" : 472,
+        "population_2027" : 498,
+        "land_area_2020" : 38.7
+    },
+    "Winter Harbor, Hancock, ME" : {
+        "name" : "Winter Harbor",
+        "state" : "Maine",
+        "FIPS" : "23-86620",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 461,
+        "population_2020" : 461,
+        "population_2027" : 487,
+        "land_area_2020" : 14.4
+    },
+    "Westfield, Aroostook, ME" : {
+        "name" : "Westfield",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 455,
+        "population_2020" : 455,
+        "population_2027" : 480,
+        "land_area_2020" : 40.3
+    },
+    "Avon, Franklin, ME" : {
+        "name" : "Avon",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 450,
+        "population_2020" : 450,
+        "population_2027" : 475,
+        "land_area_2020" : 41.4
+    },
+    "Cambridge, Somerset, ME" : {
+        "name" : "Cambridge",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 443,
+        "population_2020" : 443,
+        "population_2027" : 468,
+        "land_area_2020" : 19.3
+    },
+    "Beals, Washington, ME" : {
+        "name" : "Beals",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 443,
+        "population_2020" : 443,
+        "population_2027" : 468,
+        "land_area_2020" : 5.6
+    },
+    "Smyrna, Aroostook, ME" : {
+        "name" : "Smyrna",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 439,
+        "population_2020" : 439,
+        "population_2027" : 463,
+        "land_area_2020" : 35.1
+    },
+    "St. Francis, Aroostook, ME" : {
+        "name" : "St. Francis",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 438,
+        "population_2020" : 438,
+        "population_2027" : 462,
+        "land_area_2020" : 30.0
+    },
+    "Columbia, Washington, ME" : {
+        "name" : "Columbia",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 435,
+        "population_2020" : 435,
+        "population_2027" : 459,
+        "land_area_2020" : 36.3
+    },
+    "Ludlow, Aroostook, ME" : {
+        "name" : "Ludlow",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 434,
+        "population_2020" : 434,
+        "population_2027" : 458,
+        "land_area_2020" : 22.0
+    },
+    "Eastbrook, Hancock, ME" : {
+        "name" : "Eastbrook",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 424,
+        "population_2020" : 424,
+        "population_2027" : 448,
+        "land_area_2020" : 33.4
+    },
+    "North Haven, Knox, ME" : {
+        "name" : "North Haven",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Knox"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 417,
+        "population_2020" : 417,
+        "population_2027" : 440,
+        "land_area_2020" : 11.6
+    },
+    "Newry, Oxford, ME" : {
+        "name" : "Newry",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 411,
+        "population_2020" : 411,
+        "population_2027" : 434,
+        "land_area_2020" : 61.5
+    },
+    "Sweden, Oxford, ME" : {
+        "name" : "Sweden",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 406,
+        "population_2020" : 406,
+        "population_2027" : 429,
+        "land_area_2020" : 28.8
+    },
+    "Winn, Penobscot, ME" : {
+        "name" : "Winn",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 399,
+        "population_2020" : 399,
+        "population_2027" : 421,
+        "land_area_2020" : 43.7
+    },
+    "Chebeague Island, Cumberland, ME" : {
+        "name" : "Chebeague Island",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 396,
+        "population_2020" : 396,
+        "population_2027" : 418,
+        "land_area_2020" : 3.6
+    },
+    "Stow, Oxford, ME" : {
+        "name" : "Stow",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 393,
+        "population_2020" : 393,
+        "population_2027" : 415,
+        "land_area_2020" : 24.3
+    },
+    "Stacyville, Penobscot, ME" : {
+        "name" : "Stacyville",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 380,
+        "population_2020" : 380,
+        "population_2027" : 401,
+        "land_area_2020" : 39.5
+    },
+    "Weld, Franklin, ME" : {
+        "name" : "Weld",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 376,
+        "population_2020" : 376,
+        "population_2027" : 397,
+        "land_area_2020" : 59.5
+    },
+    "Castle Hill, Aroostook, ME" : {
+        "name" : "Castle Hill",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 373,
+        "population_2020" : 373,
+        "population_2027" : 394,
+        "land_area_2020" : 35.7
+    },
+    "Burlington, Penobscot, ME" : {
+        "name" : "Burlington",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 373,
+        "population_2020" : 373,
+        "population_2027" : 394,
+        "land_area_2020" : 54.0
+    },
+    "Perham, Aroostook, ME" : {
+        "name" : "Perham",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 371,
+        "population_2020" : 371,
+        "population_2027" : 392,
+        "land_area_2020" : 36.5
+    },
+    "Lowell, Penobscot, ME" : {
+        "name" : "Lowell",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 368,
+        "population_2020" : 368,
+        "population_2027" : 388,
+        "land_area_2020" : 38.3
+    },
+    "Grand Isle, Aroostook, ME" : {
+        "name" : "Grand Isle",
+        "state" : "Maine",
+        "FIPS" : "23-28555",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 366,
+        "population_2020" : 366,
+        "population_2027" : 386,
+        "land_area_2020" : 34.6
+    },
+    "Roxbury, Oxford, ME" : {
+        "name" : "Roxbury",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 361,
+        "population_2020" : 361,
+        "population_2027" : 381,
+        "land_area_2020" : 42.9
+    },
+    "Portage Lake, Aroostook, ME" : {
+        "name" : "Portage Lake",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 359,
+        "population_2020" : 359,
+        "population_2027" : 379,
+        "land_area_2020" : 30.8
+    },
+    "Passadumkeag, Penobscot, ME" : {
+        "name" : "Passadumkeag",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 356,
+        "population_2020" : 356,
+        "population_2027" : 376,
+        "land_area_2020" : 22.9
+    },
+    "Swan's Island, Hancock, ME" : {
+        "name" : "Swan's Island",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 355,
+        "population_2020" : 355,
+        "population_2027" : 375,
+        "land_area_2020" : 12.4
+    },
+    "Charlotte, Washington, ME" : {
+        "name" : "Charlotte",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 337,
+        "population_2020" : 337,
+        "population_2027" : 356,
+        "land_area_2020" : 31.0
+    },
+    "Waltham, Hancock, ME" : {
+        "name" : "Waltham",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 332,
+        "population_2020" : 332,
+        "population_2027" : 350,
+        "land_area_2020" : 29.7
+    },
+    "New Canada, Aroostook, ME" : {
+        "name" : "New Canada",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 310,
+        "population_2020" : 310,
+        "population_2027" : 327,
+        "land_area_2020" : 35.8
+    },
+    "Dallas Plantation, Franklin, ME" : {
+        "name" : "Dallas Plantation",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 304,
+        "population_2020" : 304,
+        "population_2027" : 321,
+        "land_area_2020" : 39.0
+    },
+    "Dennysville, Washington, ME" : {
+        "name" : "Dennysville",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 300,
+        "population_2020" : 300,
+        "population_2027" : 317,
+        "land_area_2020" : 14.9
+    },
+    "Wade, Aroostook, ME" : {
+        "name" : "Wade",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 299,
+        "population_2020" : 299,
+        "population_2027" : 316,
+        "land_area_2020" : 36.1
+    },
+    "Roque Bluffs, Washington, ME" : {
+        "name" : "Roque Bluffs",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 296,
+        "population_2020" : 296,
+        "population_2027" : 312,
+        "land_area_2020" : 10.4
+    },
+    "Springfield, Penobscot, ME" : {
+        "name" : "Springfield",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 293,
+        "population_2020" : 293,
+        "population_2027" : 309,
+        "land_area_2020" : 38.5
+    },
+    "Caswell, Aroostook, ME" : {
+        "name" : "Caswell",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 293,
+        "population_2020" : 293,
+        "population_2027" : 309,
+        "land_area_2020" : 41.3
+    },
+    "Hanover, Oxford, ME" : {
+        "name" : "Hanover",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 286,
+        "population_2020" : 286,
+        "population_2027" : 302,
+        "land_area_2020" : 7.0
+    },
+    "Sorrento, Hancock, ME" : {
+        "name" : "Sorrento",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 279,
+        "population_2020" : 279,
+        "population_2027" : 294,
+        "land_area_2020" : 4.0
+    },
+    "St. John Plantation, Aroostook, ME" : {
+        "name" : "St. John Plantation",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 263,
+        "population_2020" : 263,
+        "population_2027" : 278,
+        "land_area_2020" : 50.3
+    },
+    "Stoneham, Oxford, ME" : {
+        "name" : "Stoneham",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 261,
+        "population_2020" : 261,
+        "population_2027" : 275,
+        "land_area_2020" : 33.8
+    },
+    "Amity, Aroostook, ME" : {
+        "name" : "Amity",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 253,
+        "population_2020" : 253,
+        "population_2027" : 267,
+        "land_area_2020" : 41.7
+    },
+    "Shirley, Piscataquis, ME" : {
+        "name" : "Shirley",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Piscataquis"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 251,
+        "population_2020" : 251,
+        "population_2027" : 265,
+        "land_area_2020" : 53.3
+    },
+    "Stockholm, Aroostook, ME" : {
+        "name" : "Stockholm",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 250,
+        "population_2020" : 250,
+        "population_2027" : 264,
+        "land_area_2020" : 34.2
+    },
+    "Crystal, Aroostook, ME" : {
+        "name" : "Crystal",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 248,
+        "population_2020" : 248,
+        "population_2027" : 262,
+        "land_area_2020" : 40.4
+    },
+    "Amherst, Hancock, ME" : {
+        "name" : "Amherst",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 248,
+        "population_2020" : 248,
+        "population_2027" : 262,
+        "land_area_2020" : 39.3
+    },
+    "Weston, Aroostook, ME" : {
+        "name" : "Weston",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 245,
+        "population_2020" : 245,
+        "population_2027" : 259,
+        "land_area_2020" : 30.6
+    },
+    "Allagash, Aroostook, ME" : {
+        "name" : "Allagash",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 237,
+        "population_2020" : 237,
+        "population_2027" : 250,
+        "land_area_2020" : 128.6
+    },
+    "Long Island, Cumberland, ME" : {
+        "name" : "Long Island",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 234,
+        "population_2020" : 234,
+        "population_2027" : 247,
+        "land_area_2020" : 1.4
+    },
+    "Medford, Piscataquis, ME" : {
+        "name" : "Medford",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Piscataquis"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 230,
+        "population_2020" : 230,
+        "population_2027" : 243,
+        "land_area_2020" : 42.3
+    },
+    "Wellington, Piscataquis, ME" : {
+        "name" : "Wellington",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Piscataquis"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 229,
+        "population_2020" : 229,
+        "population_2027" : 242,
+        "land_area_2020" : 39.9
+    },
+    "Dyer Brook, Aroostook, ME" : {
+        "name" : "Dyer Brook",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 215,
+        "population_2020" : 215,
+        "population_2027" : 227,
+        "land_area_2020" : 38.5
+    },
+    "Merrill, Aroostook, ME" : {
+        "name" : "Merrill",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 208,
+        "population_2020" : 208,
+        "population_2027" : 220,
+        "land_area_2020" : 37.4
+    },
+    "Masardis, Aroostook, ME" : {
+        "name" : "Masardis",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 204,
+        "population_2020" : 204,
+        "population_2027" : 215,
+        "land_area_2020" : 38.7
+    },
+    "Whitneyville, Washington, ME" : {
+        "name" : "Whitneyville",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 202,
+        "population_2020" : 202,
+        "population_2027" : 213,
+        "land_area_2020" : 14.9
+    },
+    "Woodville, Penobscot, ME" : {
+        "name" : "Woodville",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 201,
+        "population_2020" : 201,
+        "population_2027" : 212,
+        "land_area_2020" : 42.7
+    },
+    "Baring Plantation, Washington, ME" : {
+        "name" : "Baring Plantation",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 201,
+        "population_2020" : 201,
+        "population_2027" : 212,
+        "land_area_2020" : 20.9
+    },
+    "Gilead, Oxford, ME" : {
+        "name" : "Gilead",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 195,
+        "population_2020" : 195,
+        "population_2027" : 206,
+        "land_area_2020" : 18.9
+    },
+    "Winterville Plantation, Aroostook, ME" : {
+        "name" : "Winterville Plantation",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 194,
+        "population_2020" : 194,
+        "population_2027" : 205,
+        "land_area_2020" : 35.6
+    },
+    "Moose River, Somerset, ME" : {
+        "name" : "Moose River",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 188,
+        "population_2020" : 188,
+        "population_2027" : 198,
+        "land_area_2020" : 40.1
+    },
+    "Mount Chase, Penobscot, ME" : {
+        "name" : "Mount Chase",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 187,
+        "population_2020" : 187,
+        "population_2027" : 197,
+        "land_area_2020" : 36.7
+    },
+    "Rangeley Plantation, Franklin, ME" : {
+        "name" : "Rangeley Plantation",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 184,
+        "population_2020" : 184,
+        "population_2027" : 194,
+        "land_area_2020" : 40.7
+    },
+    "Topsfield, Washington, ME" : {
+        "name" : "Topsfield",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 179,
+        "population_2020" : 179,
+        "population_2027" : 189,
+        "land_area_2020" : 50.1
+    },
+    "Northfield, Washington, ME" : {
+        "name" : "Northfield",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 178,
+        "population_2020" : 178,
+        "population_2027" : 188,
+        "land_area_2020" : 43.6
+    },
+    "Cooper, Washington, ME" : {
+        "name" : "Cooper",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 168,
+        "population_2020" : 168,
+        "population_2027" : 177,
+        "land_area_2020" : 30.7
+    },
+    "Hamlin, Aroostook, ME" : {
+        "name" : "Hamlin",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 166,
+        "population_2020" : 166,
+        "population_2027" : 175,
+        "land_area_2020" : 23.4
+    },
+    "Cranberry Isles, Hancock, ME" : {
+        "name" : "Cranberry Isles",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 160,
+        "population_2020" : 160,
+        "population_2027" : 169,
+        "land_area_2020" : 3.2
+    },
+    "Orient, Aroostook, ME" : {
+        "name" : "Orient",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 156,
+        "population_2020" : 156,
+        "population_2027" : 165,
+        "land_area_2020" : 35.5
+    },
+    "Lake View Plantation, Piscataquis, ME" : {
+        "name" : "Lake View Plantation",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Piscataquis"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 150,
+        "population_2020" : 150,
+        "population_2027" : 158,
+        "land_area_2020" : 41.5
+    },
+    "Meddybemps, Washington, ME" : {
+        "name" : "Meddybemps",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 139,
+        "population_2020" : 139,
+        "population_2027" : 147,
+        "land_area_2020" : 13.1
+    },
+    "Carroll Plantation, Penobscot, ME" : {
+        "name" : "Carroll Plantation",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 138,
+        "population_2020" : 138,
+        "population_2027" : 146,
+        "land_area_2020" : 43.9
+    },
+    "Bowerbank, Piscataquis, ME" : {
+        "name" : "Bowerbank",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Piscataquis"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 136,
+        "population_2020" : 136,
+        "population_2027" : 144,
+        "land_area_2020" : 41.9
+    },
+    "Willimantic, Piscataquis, ME" : {
+        "name" : "Willimantic",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Piscataquis"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 134,
+        "population_2020" : 134,
+        "population_2027" : 141,
+        "land_area_2020" : 43.2
+    },
+    "Edinburg, Penobscot, ME" : {
+        "name" : "Edinburg",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 134,
+        "population_2020" : 134,
+        "population_2027" : 141,
+        "land_area_2020" : 35.0
+    },
+    "Beaver Cove, Piscataquis, ME" : {
+        "name" : "Beaver Cove",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Piscataquis"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 133,
+        "population_2020" : 133,
+        "population_2027" : 140,
+        "land_area_2020" : 31.9
+    },
+    "Coplin Plantation, Franklin, ME" : {
+        "name" : "Coplin Plantation",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 131,
+        "population_2020" : 131,
+        "population_2027" : 138,
+        "land_area_2020" : 33.1
+    },
+    "Reed Plantation, Aroostook, ME" : {
+        "name" : "Reed Plantation",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 129,
+        "population_2020" : 129,
+        "population_2027" : 136,
+        "land_area_2020" : 59.0
+    },
+    "Sandy River Plantation, Franklin, ME" : {
+        "name" : "Sandy River Plantation",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 128,
+        "population_2020" : 128,
+        "population_2027" : 135,
+        "land_area_2020" : 34.1
+    },
+    "Grand Lake Stream, Washington, ME" : {
+        "name" : "Grand Lake Stream",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 125,
+        "population_2020" : 125,
+        "population_2027" : 132,
+        "land_area_2020" : 44.2
+    },
+    "Wesley, Washington, ME" : {
+        "name" : "Wesley",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 122,
+        "population_2020" : 122,
+        "population_2027" : 129,
+        "land_area_2020" : 49.9
+    },
+    "Lakeville, Penobscot, ME" : {
+        "name" : "Lakeville",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 104,
+        "population_2020" : 104,
+        "population_2027" : 110,
+        "land_area_2020" : 58.3
+    },
+    "Byron, Oxford, ME" : {
+        "name" : "Byron",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 103,
+        "population_2020" : 103,
+        "population_2027" : 109,
+        "land_area_2020" : 51.8
+    },
+    "Vanceboro, Washington, ME" : {
+        "name" : "Vanceboro",
+        "state" : "Maine",
+        "FIPS" : "23-78640",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 102,
+        "population_2020" : 102,
+        "population_2027" : 108,
+        "land_area_2020" : 20.1
+    },
+    "Haynesville, Aroostook, ME" : {
+        "name" : "Haynesville",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 97,
+        "population_2020" : 97,
+        "population_2027" : 102,
+        "land_area_2020" : 41.4
+    },
+    "Crawford, Washington, ME" : {
+        "name" : "Crawford",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 93,
+        "population_2020" : 93,
+        "population_2027" : 98,
+        "land_area_2020" : 34.5
+    },
+    "Aurora, Hancock, ME" : {
+        "name" : "Aurora",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 93,
+        "population_2020" : 93,
+        "population_2027" : 98,
+        "land_area_2020" : 37.7
+    },
+    "Isle au Haut, Knox, ME" : {
+        "name" : "Isle au Haut",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Knox"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 92,
+        "population_2020" : 92,
+        "population_2027" : 97,
+        "land_area_2020" : 12.5
+    },
+    "Hammond, Aroostook, ME" : {
+        "name" : "Hammond",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 91,
+        "population_2020" : 91,
+        "population_2027" : 96,
+        "land_area_2020" : 39.1
+    },
+    "Maxfield, Penobscot, ME" : {
+        "name" : "Maxfield",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 89,
+        "population_2020" : 89,
+        "population_2027" : 94,
+        "land_area_2020" : 18.9
+    },
+    "Pleasant Ridge Plantation, Somerset, ME" : {
+        "name" : "Pleasant Ridge Plantation",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 85,
+        "population_2020" : 85,
+        "population_2027" : 90,
+        "land_area_2020" : 22.0
+    },
+    "Caratunk, Somerset, ME" : {
+        "name" : "Caratunk",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 81,
+        "population_2020" : 81,
+        "population_2027" : 85,
+        "land_area_2020" : 52.3
+    },
+    "Westmanland, Aroostook, ME" : {
+        "name" : "Westmanland",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 79,
+        "population_2020" : 79,
+        "population_2027" : 83,
+        "land_area_2020" : 35.6
+    },
+    "Garfield Plantation, Aroostook, ME" : {
+        "name" : "Garfield Plantation",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 79,
+        "population_2020" : 79,
+        "population_2027" : 83,
+        "land_area_2020" : 38.3
+    },
+    "Cyr Plantation, Aroostook, ME" : {
+        "name" : "Cyr Plantation",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 78,
+        "population_2020" : 78,
+        "population_2027" : 82,
+        "land_area_2020" : 38.3
+    },
+    "Deblois, Washington, ME" : {
+        "name" : "Deblois",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 74,
+        "population_2020" : 74,
+        "population_2027" : 78,
+        "land_area_2020" : 35.9
+    },
+    "Hersey, Aroostook, ME" : {
+        "name" : "Hersey",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 73,
+        "population_2020" : 73,
+        "population_2027" : 77,
+        "land_area_2020" : 39.7
+    },
+    "Talmadge, Washington, ME" : {
+        "name" : "Talmadge",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 70,
+        "population_2020" : 70,
+        "population_2027" : 74,
+        "land_area_2020" : 37.8
+    },
+    "Upton, Oxford, ME" : {
+        "name" : "Upton",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 69,
+        "population_2020" : 69,
+        "population_2027" : 73,
+        "land_area_2020" : 39.5
+    },
+    "Webster Plantation, Penobscot, ME" : {
+        "name" : "Webster Plantation",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 68,
+        "population_2020" : 68,
+        "population_2027" : 72,
+        "land_area_2020" : 36.6
+    },
+    "Waite, Washington, ME" : {
+        "name" : "Waite",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 66,
+        "population_2020" : 66,
+        "population_2027" : 70,
+        "land_area_2020" : 44.0
+    },
+    "Osborn, Hancock, ME" : {
+        "name" : "Osborn",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 65,
+        "population_2020" : 65,
+        "population_2027" : 69,
+        "land_area_2020" : 35.2
+    },
+    "Monhegan, Lincoln, ME" : {
+        "name" : "Monhegan",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Lincoln"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 64,
+        "population_2020" : 64,
+        "population_2027" : 68,
+        "land_area_2020" : 0.9
+    },
+    "Macwahoc, Aroostook, ME" : {
+        "name" : "Macwahoc",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 62,
+        "population_2020" : 62,
+        "population_2027" : 65,
+        "land_area_2020" : 29.4
+    },
+    "Brighton Plantation, Somerset, ME" : {
+        "name" : "Brighton Plantation",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 62,
+        "population_2020" : 62,
+        "population_2027" : 65,
+        "land_area_2020" : 39.3
+    },
+    "Great Pond, Hancock, ME" : {
+        "name" : "Great Pond",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 61,
+        "population_2020" : 61,
+        "population_2027" : 64,
+        "land_area_2020" : 37.8
+    },
+    "Dennistown, Somerset, ME" : {
+        "name" : "Dennistown",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 61,
+        "population_2020" : 61,
+        "population_2027" : 64,
+        "land_area_2020" : 38.8
+    },
+    "Beddington, Washington, ME" : {
+        "name" : "Beddington",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 60,
+        "population_2020" : 60,
+        "population_2027" : 63,
+        "land_area_2020" : 34.6
+    },
+    "West Forks, Somerset, ME" : {
+        "name" : "West Forks",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 58,
+        "population_2020" : 58,
+        "population_2027" : 61,
+        "land_area_2020" : 48.9
+    },
+    "Matinicus Isle, Knox, ME" : {
+        "name" : "Matinicus Isle",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Knox"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 53,
+        "population_2020" : 53,
+        "population_2027" : 56,
+        "land_area_2020" : 2.3
+    },
+    "Highland Plantation, Somerset, ME" : {
+        "name" : "Highland Plantation",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 52,
+        "population_2020" : 52,
+        "population_2027" : 55,
+        "land_area_2020" : 42.0
+    },
+    "The Forks, Somerset, ME" : {
+        "name" : "The Forks",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Somerset"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 48,
+        "population_2020" : 48,
+        "population_2027" : 51,
+        "land_area_2020" : 39.6
+    },
+    "Moro Plantation, Aroostook, ME" : {
+        "name" : "Moro Plantation",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 44,
+        "population_2020" : 44,
+        "population_2027" : 46,
+        "land_area_2020" : 35.4
+    },
+    "Lincoln Plantation, Oxford, ME" : {
+        "name" : "Lincoln Plantation",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Oxford"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 41,
+        "population_2020" : 41,
+        "population_2027" : 43,
+        "land_area_2020" : 32.5
+    },
+    "Seboeis Plantation, Penobscot, ME" : {
+        "name" : "Seboeis Plantation",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Penobscot"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 40,
+        "population_2020" : 40,
+        "population_2027" : 42,
+        "land_area_2020" : 40.0
+    },
+    "Frye Island, Cumberland, ME" : {
+        "name" : "Frye Island",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Cumberland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 32,
+        "population_2020" : 32,
+        "population_2027" : 34,
+        "land_area_2020" : 1.3
+    },
+    "Frenchboro, Hancock, ME" : {
+        "name" : "Frenchboro",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Hancock"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 29,
+        "population_2020" : 29,
+        "population_2027" : 31,
+        "land_area_2020" : 4.8
+    },
+    "Kingsbury Plantation, Piscataquis, ME" : {
+        "name" : "Kingsbury Plantation",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Piscataquis"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 28,
+        "population_2020" : 28,
+        "population_2027" : 30,
+        "land_area_2020" : 44.1
+    },
+    "Nashville Plantation, Aroostook, ME" : {
+        "name" : "Nashville Plantation",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 27,
+        "population_2020" : 27,
+        "population_2027" : 28,
+        "land_area_2020" : 35.2
+    },
+    "Glenwood Plantation, Aroostook, ME" : {
+        "name" : "Glenwood Plantation",
+        "state" : "Maine",
+        "FIPS" : "None",
+        "counties" : [
+            "Aroostook"
+        ],
+        "type_class" : "Plantation",
+        "population_2010" : 5,
+        "population_2020" : 5,
+        "population_2027" : 5,
+        "land_area_2020" : 38.1
+    }
+}

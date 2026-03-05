@@ -1,0 +1,2513 @@
+{
+    "Abbotsford, Clark County, WI" : {
+        "name" : "Abbotsford",
+        "state" : "Wisconsin",
+        "FIPS" : "55-00100",
+        "counties" : [
+            "Clark County",
+            "Marathon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2310,
+        "population_2020" : 2275,
+        "population_2027" : 2295,
+        "land_area_2020" : 0.0
+    },
+    "Adams, Adams County, WI" : {
+        "name" : "Adams",
+        "state" : "Wisconsin",
+        "FIPS" : "55-00275",
+        "counties" : [
+            "Adams County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1967,
+        "population_2020" : 1761,
+        "population_2027" : 1668,
+        "land_area_2020" : 0.0
+    },
+    "Algoma, Kewaunee County, WI" : {
+        "name" : "Algoma",
+        "state" : "Wisconsin",
+        "FIPS" : "55-01000",
+        "counties" : [
+            "Kewaunee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3167,
+        "population_2020" : 3243,
+        "population_2027" : 3362,
+        "land_area_2020" : 0.0
+    },
+    "Alma, Buffalo County, WI" : {
+        "name" : "Alma",
+        "state" : "Wisconsin",
+        "FIPS" : "55-01225",
+        "counties" : [
+            "Buffalo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 781,
+        "population_2020" : 716,
+        "population_2027" : 689,
+        "land_area_2020" : 0.0
+    },
+    "Altoona, Eau Claire County, WI" : {
+        "name" : "Altoona",
+        "state" : "Wisconsin",
+        "FIPS" : "55-01550",
+        "counties" : [
+            "Eau Claire County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6706,
+        "population_2020" : 8293,
+        "population_2027" : 9953,
+        "land_area_2020" : 0.0
+    },
+    "Amery, Polk County, WI" : {
+        "name" : "Amery",
+        "state" : "Wisconsin",
+        "FIPS" : "55-01725",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2902,
+        "population_2020" : 2962,
+        "population_2027" : 3063,
+        "land_area_2020" : 0.0
+    },
+    "Antigo, Langlade County, WI" : {
+        "name" : "Antigo",
+        "state" : "Wisconsin",
+        "FIPS" : "55-02250",
+        "counties" : [
+            "Langlade County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8234,
+        "population_2020" : 8100,
+        "population_2027" : 8164,
+        "land_area_2020" : 0.0
+    },
+    "Appleton, Calumet County, WI" : {
+        "name" : "Appleton",
+        "state" : "Wisconsin",
+        "FIPS" : "55-02375",
+        "counties" : [
+            "Calumet County",
+            "Outagamie County",
+            "Winnebago County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 72623,
+        "population_2020" : 75644,
+        "population_2027" : 79380,
+        "land_area_2020" : 0.0
+    },
+    "Arcadia, Trempealeau County, WI" : {
+        "name" : "Arcadia",
+        "state" : "Wisconsin",
+        "FIPS" : "55-02500",
+        "counties" : [
+            "Trempealeau County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2925,
+        "population_2020" : 3737,
+        "population_2027" : 4612,
+        "land_area_2020" : 0.0
+    },
+    "Ashland, Ashland County, WI" : {
+        "name" : "Ashland",
+        "state" : "Wisconsin",
+        "FIPS" : "55-03225",
+        "counties" : [
+            "Ashland County",
+            "Bayfield County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8216,
+        "population_2020" : 7908,
+        "population_2027" : 7853,
+        "land_area_2020" : 0.0
+    },
+    "Augusta, Eau Claire County, WI" : {
+        "name" : "Augusta",
+        "state" : "Wisconsin",
+        "FIPS" : "55-03825",
+        "counties" : [
+            "Eau Claire County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1550,
+        "population_2020" : 1567,
+        "population_2027" : 1610,
+        "land_area_2020" : 0.0
+    },
+    "Balsam Lake, Polk County, WI" : {
+        "name" : "Balsam Lake",
+        "state" : "Wisconsin",
+        "FIPS" : "55-04475",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1009,
+        "population_2020" : 934,
+        "population_2027" : 904,
+        "land_area_2020" : 0.0
+    },
+    "Baraboo, Sauk County, WI" : {
+        "name" : "Baraboo",
+        "state" : "Wisconsin",
+        "FIPS" : "55-04625",
+        "counties" : [
+            "Sauk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12048,
+        "population_2020" : 12556,
+        "population_2027" : 13181,
+        "land_area_2020" : 0.0
+    },
+    "Barron, Barron County, WI" : {
+        "name" : "Barron",
+        "state" : "Wisconsin",
+        "FIPS" : "55-04875",
+        "counties" : [
+            "Barron County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3423,
+        "population_2020" : 3733,
+        "population_2027" : 4053,
+        "land_area_2020" : 0.0
+    },
+    "Bayfield, Bayfield County, WI" : {
+        "name" : "Bayfield",
+        "state" : "Wisconsin",
+        "FIPS" : "55-05350",
+        "counties" : [
+            "Bayfield County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 487,
+        "population_2020" : 584,
+        "population_2027" : 683,
+        "land_area_2020" : 0.0
+    },
+    "Beaver Dam, Dodge County, WI" : {
+        "name" : "Beaver Dam",
+        "state" : "Wisconsin",
+        "FIPS" : "55-05900",
+        "counties" : [
+            "Dodge County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16243,
+        "population_2020" : 16708,
+        "population_2027" : 17376,
+        "land_area_2020" : 0.0
+    },
+    "Beloit, Rock County, WI" : {
+        "name" : "Beloit",
+        "state" : "Wisconsin",
+        "FIPS" : "55-06500",
+        "counties" : [
+            "Rock County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 36966,
+        "population_2020" : 36657,
+        "population_2027" : 37151,
+        "land_area_2020" : 0.0
+    },
+    "Berlin, Green Lake County, WI" : {
+        "name" : "Berlin",
+        "state" : "Wisconsin",
+        "FIPS" : "55-06925",
+        "counties" : [
+            "Green Lake County",
+            "Waushara County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5524,
+        "population_2020" : 5571,
+        "population_2027" : 5713,
+        "land_area_2020" : 0.0
+    },
+    "Black River Falls, Jackson County, WI" : {
+        "name" : "Black River Falls",
+        "state" : "Wisconsin",
+        "FIPS" : "55-07900",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3622,
+        "population_2020" : 3523,
+        "population_2027" : 3523,
+        "land_area_2020" : 0.0
+    },
+    "Blair, Trempealeau County, WI" : {
+        "name" : "Blair",
+        "state" : "Wisconsin",
+        "FIPS" : "55-08075",
+        "counties" : [
+            "Trempealeau County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1366,
+        "population_2020" : 1325,
+        "population_2027" : 1323,
+        "land_area_2020" : 0.0
+    },
+    "Bloomer, Chippewa County, WI" : {
+        "name" : "Bloomer",
+        "state" : "Wisconsin",
+        "FIPS" : "55-08225",
+        "counties" : [
+            "Chippewa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3539,
+        "population_2020" : 3683,
+        "population_2027" : 3862,
+        "land_area_2020" : 0.0
+    },
+    "Boscobel, Grant County, WI" : {
+        "name" : "Boscobel",
+        "state" : "Wisconsin",
+        "FIPS" : "55-08850",
+        "counties" : [
+            "Grant County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3231,
+        "population_2020" : 3286,
+        "population_2027" : 3390,
+        "land_area_2020" : 0.0
+    },
+    "Brillion, Calumet County, WI" : {
+        "name" : "Brillion",
+        "state" : "Wisconsin",
+        "FIPS" : "55-09725",
+        "counties" : [
+            "Calumet County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3148,
+        "population_2020" : 3262,
+        "population_2027" : 3410,
+        "land_area_2020" : 0.0
+    },
+    "Brodhead, Green County, WI" : {
+        "name" : "Brodhead",
+        "state" : "Wisconsin",
+        "FIPS" : "55-09925",
+        "counties" : [
+            "Green County",
+            "Rock County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3293,
+        "population_2020" : 3274,
+        "population_2027" : 3324,
+        "land_area_2020" : 0.0
+    },
+    "Brookfield, Waukesha County, WI" : {
+        "name" : "Brookfield",
+        "state" : "Wisconsin",
+        "FIPS" : "55-10025",
+        "counties" : [
+            "Waukesha County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 37920,
+        "population_2020" : 41464,
+        "population_2027" : 45105,
+        "land_area_2020" : 0.0
+    },
+    "Buffalo City, Buffalo County, WI" : {
+        "name" : "Buffalo City",
+        "state" : "Wisconsin",
+        "FIPS" : "55-11062",
+        "counties" : [
+            "Buffalo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1023,
+        "population_2020" : 1007,
+        "population_2027" : 1015,
+        "land_area_2020" : 0.0
+    },
+    "Burlington, Racine County, WI" : {
+        "name" : "Burlington",
+        "state" : "Wisconsin",
+        "FIPS" : "55-11200",
+        "counties" : [
+            "Racine County",
+            "Walworth County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10464,
+        "population_2020" : 11047,
+        "population_2027" : 11707,
+        "land_area_2020" : 0.0
+    },
+    "Cedarburg, Ozaukee County, WI" : {
+        "name" : "Cedarburg",
+        "state" : "Wisconsin",
+        "FIPS" : "55-13375",
+        "counties" : [
+            "Ozaukee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11412,
+        "population_2020" : 12121,
+        "population_2027" : 12902,
+        "land_area_2020" : 0.0
+    },
+    "Chetek, Barron County, WI" : {
+        "name" : "Chetek",
+        "state" : "Wisconsin",
+        "FIPS" : "55-14325",
+        "counties" : [
+            "Barron County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2221,
+        "population_2020" : 2172,
+        "population_2027" : 2180,
+        "land_area_2020" : 0.0
+    },
+    "Chilton, Calumet County, WI" : {
+        "name" : "Chilton",
+        "state" : "Wisconsin",
+        "FIPS" : "55-14475",
+        "counties" : [
+            "Calumet County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3933,
+        "population_2020" : 4080,
+        "population_2027" : 4269,
+        "land_area_2020" : 0.0
+    },
+    "Chippewa Falls, Chippewa County, WI" : {
+        "name" : "Chippewa Falls",
+        "state" : "Wisconsin",
+        "FIPS" : "55-14575",
+        "counties" : [
+            "Chippewa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13679,
+        "population_2020" : 14731,
+        "population_2027" : 15842,
+        "land_area_2020" : 0.0
+    },
+    "Clintonville, Waupaca County, WI" : {
+        "name" : "Clintonville",
+        "state" : "Wisconsin",
+        "FIPS" : "55-15725",
+        "counties" : [
+            "Waupaca County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4559,
+        "population_2020" : 4591,
+        "population_2027" : 4703,
+        "land_area_2020" : 0.0
+    },
+    "Colby, Clark County, WI" : {
+        "name" : "Colby",
+        "state" : "Wisconsin",
+        "FIPS" : "55-16150",
+        "counties" : [
+            "Clark County",
+            "Marathon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1852,
+        "population_2020" : 1952,
+        "population_2027" : 2066,
+        "land_area_2020" : 0.0
+    },
+    "Columbus, Columbia County, WI" : {
+        "name" : "Columbus",
+        "state" : "Wisconsin",
+        "FIPS" : "55-16450",
+        "counties" : [
+            "Columbia County",
+            "Dodge County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4991,
+        "population_2020" : 5540,
+        "population_2027" : 6096,
+        "land_area_2020" : 0.0
+    },
+    "Cornell, Chippewa County, WI" : {
+        "name" : "Cornell",
+        "state" : "Wisconsin",
+        "FIPS" : "55-17100",
+        "counties" : [
+            "Chippewa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1467,
+        "population_2020" : 1453,
+        "population_2027" : 1471,
+        "land_area_2020" : 0.0
+    },
+    "Crandon, Forest County, WI" : {
+        "name" : "Crandon",
+        "state" : "Wisconsin",
+        "FIPS" : "55-17425",
+        "counties" : [
+            "Forest County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1920,
+        "population_2020" : 1713,
+        "population_2027" : 1619,
+        "land_area_2020" : 0.0
+    },
+    "Cuba City, Grant County, WI" : {
+        "name" : "Cuba City",
+        "state" : "Wisconsin",
+        "FIPS" : "55-17950",
+        "counties" : [
+            "Grant County",
+            "Lafayette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2086,
+        "population_2020" : 1890,
+        "population_2027" : 1804,
+        "land_area_2020" : 0.0
+    },
+    "Cudahy, Milwaukee County, WI" : {
+        "name" : "Cudahy",
+        "state" : "Wisconsin",
+        "FIPS" : "55-17975",
+        "counties" : [
+            "Milwaukee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 18267,
+        "population_2020" : 18204,
+        "population_2027" : 18513,
+        "land_area_2020" : 0.0
+    },
+    "Cumberland, Barron County, WI" : {
+        "name" : "Cumberland",
+        "state" : "Wisconsin",
+        "FIPS" : "55-18025",
+        "counties" : [
+            "Barron County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2170,
+        "population_2020" : 2274,
+        "population_2027" : 2397,
+        "land_area_2020" : 0.0
+    },
+    "Darlington, Lafayette County, WI" : {
+        "name" : "Darlington",
+        "state" : "Wisconsin",
+        "FIPS" : "55-18875",
+        "counties" : [
+            "Lafayette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2451,
+        "population_2020" : 2462,
+        "population_2027" : 2518,
+        "land_area_2020" : 0.0
+    },
+    "Delafield, Waukesha County, WI" : {
+        "name" : "Delafield",
+        "state" : "Wisconsin",
+        "FIPS" : "55-19400",
+        "counties" : [
+            "Waukesha County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7085,
+        "population_2020" : 7185,
+        "population_2027" : 7397,
+        "land_area_2020" : 0.0
+    },
+    "Delavan, Walworth County, WI" : {
+        "name" : "Delavan",
+        "state" : "Wisconsin",
+        "FIPS" : "55-19450",
+        "counties" : [
+            "Walworth County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8463,
+        "population_2020" : 8505,
+        "population_2027" : 8700,
+        "land_area_2020" : 0.0
+    },
+    "De Pere, Brown County, WI" : {
+        "name" : "De Pere",
+        "state" : "Wisconsin",
+        "FIPS" : "55-19775",
+        "counties" : [
+            "Brown County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23800,
+        "population_2020" : 25410,
+        "population_2027" : 27151,
+        "land_area_2020" : 0.0
+    },
+    "Dodgeville, Iowa County, WI" : {
+        "name" : "Dodgeville",
+        "state" : "Wisconsin",
+        "FIPS" : "55-20350",
+        "counties" : [
+            "Iowa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4698,
+        "population_2020" : 4984,
+        "population_2027" : 5301,
+        "land_area_2020" : 0.0
+    },
+    "Durand, Pepin County, WI" : {
+        "name" : "Durand",
+        "state" : "Wisconsin",
+        "FIPS" : "55-21225",
+        "counties" : [
+            "Pepin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1931,
+        "population_2020" : 1854,
+        "population_2027" : 1838,
+        "land_area_2020" : 0.0
+    },
+    "Eagle River, Vilas County, WI" : {
+        "name" : "Eagle River",
+        "state" : "Wisconsin",
+        "FIPS" : "55-21625",
+        "counties" : [
+            "Vilas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1398,
+        "population_2020" : 1628,
+        "population_2027" : 1860,
+        "land_area_2020" : 0.0
+    },
+    "Eau Claire, Chippewa County, WI" : {
+        "name" : "Eau Claire",
+        "state" : "Wisconsin",
+        "FIPS" : "55-22300",
+        "counties" : [
+            "Chippewa County",
+            "Eau Claire County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 65883,
+        "population_2020" : 69421,
+        "population_2027" : 73464,
+        "land_area_2020" : 0.0
+    },
+    "Edgerton, Dane County, WI" : {
+        "name" : "Edgerton",
+        "state" : "Wisconsin",
+        "FIPS" : "55-22575",
+        "counties" : [
+            "Dane County",
+            "Rock County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5461,
+        "population_2020" : 5945,
+        "population_2027" : 6445,
+        "land_area_2020" : 0.0
+    },
+    "Elkhorn, Walworth County, WI" : {
+        "name" : "Elkhorn",
+        "state" : "Wisconsin",
+        "FIPS" : "55-23300",
+        "counties" : [
+            "Walworth County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10084,
+        "population_2020" : 10247,
+        "population_2027" : 10564,
+        "land_area_2020" : 0.0
+    },
+    "Elroy, Juneau County, WI" : {
+        "name" : "Elroy",
+        "state" : "Wisconsin",
+        "FIPS" : "55-23800",
+        "counties" : [
+            "Juneau County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1442,
+        "population_2020" : 1356,
+        "population_2027" : 1326,
+        "land_area_2020" : 0.0
+    },
+    "Evansville, Rock County, WI" : {
+        "name" : "Evansville",
+        "state" : "Wisconsin",
+        "FIPS" : "55-24550",
+        "counties" : [
+            "Rock County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5012,
+        "population_2020" : 5703,
+        "population_2027" : 6397,
+        "land_area_2020" : 0.0
+    },
+    "Fennimore, Grant County, WI" : {
+        "name" : "Fennimore",
+        "state" : "Wisconsin",
+        "FIPS" : "55-25600",
+        "counties" : [
+            "Grant County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2497,
+        "population_2020" : 2764,
+        "population_2027" : 3035,
+        "land_area_2020" : 0.0
+    },
+    "Fitchburg, Dane County, WI" : {
+        "name" : "Fitchburg",
+        "state" : "Wisconsin",
+        "FIPS" : "55-25950",
+        "counties" : [
+            "Dane County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 25260,
+        "population_2020" : 29609,
+        "population_2027" : 34004,
+        "land_area_2020" : 0.0
+    },
+    "Fond du Lac, Fond du Lac County, WI" : {
+        "name" : "Fond du Lac",
+        "state" : "Wisconsin",
+        "FIPS" : "55-26275",
+        "counties" : [
+            "Fond du Lac County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 43021,
+        "population_2020" : 44678,
+        "population_2027" : 46784,
+        "land_area_2020" : 0.0
+    },
+    "Fort Atkinson, Jefferson County, WI" : {
+        "name" : "Fort Atkinson",
+        "state" : "Wisconsin",
+        "FIPS" : "55-26675",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12368,
+        "population_2020" : 12579,
+        "population_2027" : 12977,
+        "land_area_2020" : 0.0
+    },
+    "Fountain City, Buffalo County, WI" : {
+        "name" : "Fountain City",
+        "state" : "Wisconsin",
+        "FIPS" : "55-26850",
+        "counties" : [
+            "Buffalo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 859,
+        "population_2020" : 806,
+        "population_2027" : 787,
+        "land_area_2020" : 0.0
+    },
+    "Fox Lake, Dodge County, WI" : {
+        "name" : "Fox Lake",
+        "state" : "Wisconsin",
+        "FIPS" : "55-27000",
+        "counties" : [
+            "Dodge County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1519,
+        "population_2020" : 1604,
+        "population_2027" : 1700,
+        "land_area_2020" : 0.0
+    },
+    "Franklin, Milwaukee County, WI" : {
+        "name" : "Franklin",
+        "state" : "Wisconsin",
+        "FIPS" : "55-27300",
+        "counties" : [
+            "Milwaukee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 35451,
+        "population_2020" : 36816,
+        "population_2027" : 38551,
+        "land_area_2020" : 0.0
+    },
+    "Galesville, Trempealeau County, WI" : {
+        "name" : "Galesville",
+        "state" : "Wisconsin",
+        "FIPS" : "55-28200",
+        "counties" : [
+            "Trempealeau County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1481,
+        "population_2020" : 1662,
+        "population_2027" : 1844,
+        "land_area_2020" : 0.0
+    },
+    "Gillett, Oconto County, WI" : {
+        "name" : "Gillett",
+        "state" : "Wisconsin",
+        "FIPS" : "55-29050",
+        "counties" : [
+            "Oconto County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1386,
+        "population_2020" : 1289,
+        "population_2027" : 1251,
+        "land_area_2020" : 0.0
+    },
+    "Glendale, Milwaukee County, WI" : {
+        "name" : "Glendale",
+        "state" : "Wisconsin",
+        "FIPS" : "55-29400",
+        "counties" : [
+            "Milwaukee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12872,
+        "population_2020" : 13357,
+        "population_2027" : 13978,
+        "land_area_2020" : 0.0
+    },
+    "Glenwood City, St. Croix County, WI" : {
+        "name" : "Glenwood City",
+        "state" : "Wisconsin",
+        "FIPS" : "55-29625",
+        "counties" : [
+            "St. Croix County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1242,
+        "population_2020" : 1306,
+        "population_2027" : 1380,
+        "land_area_2020" : 0.0
+    },
+    "Green Bay, Brown County, WI" : {
+        "name" : "Green Bay",
+        "state" : "Wisconsin",
+        "FIPS" : "55-31000",
+        "counties" : [
+            "Brown County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 104057,
+        "population_2020" : 107395,
+        "population_2027" : 111955,
+        "land_area_2020" : 0.0
+    },
+    "Green Lake, Green Lake County, WI" : {
+        "name" : "Green Lake",
+        "state" : "Wisconsin",
+        "FIPS" : "55-31300",
+        "counties" : [
+            "Green Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 960,
+        "population_2020" : 1001,
+        "population_2027" : 1051,
+        "land_area_2020" : 0.0
+    },
+    "Greenfield, Milwaukee County, WI" : {
+        "name" : "Greenfield",
+        "state" : "Wisconsin",
+        "FIPS" : "55-31175",
+        "counties" : [
+            "Milwaukee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 36720,
+        "population_2020" : 37803,
+        "population_2027" : 39337,
+        "land_area_2020" : 0.0
+    },
+    "Greenwood, Clark County, WI" : {
+        "name" : "Greenwood",
+        "state" : "Wisconsin",
+        "FIPS" : "55-31575",
+        "counties" : [
+            "Clark County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1026,
+        "population_2020" : 1058,
+        "population_2027" : 1102,
+        "land_area_2020" : 0.0
+    },
+    "Hartford, Dodge County, WI" : {
+        "name" : "Hartford",
+        "state" : "Wisconsin",
+        "FIPS" : "55-33000",
+        "counties" : [
+            "Dodge County",
+            "Washington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14223,
+        "population_2020" : 15626,
+        "population_2027" : 17059,
+        "land_area_2020" : 0.0
+    },
+    "Hayward, Sawyer County, WI" : {
+        "name" : "Hayward",
+        "state" : "Wisconsin",
+        "FIPS" : "55-33450",
+        "counties" : [
+            "Sawyer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2318,
+        "population_2020" : 2533,
+        "population_2027" : 2754,
+        "land_area_2020" : 0.0
+    },
+    "Hillsboro, Vernon County, WI" : {
+        "name" : "Hillsboro",
+        "state" : "Wisconsin",
+        "FIPS" : "55-34825",
+        "counties" : [
+            "Vernon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1417,
+        "population_2020" : 1397,
+        "population_2027" : 1410,
+        "land_area_2020" : 0.0
+    },
+    "Horicon, Dodge County, WI" : {
+        "name" : "Horicon",
+        "state" : "Wisconsin",
+        "FIPS" : "55-35750",
+        "counties" : [
+            "Dodge County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3655,
+        "population_2020" : 3767,
+        "population_2027" : 3923,
+        "land_area_2020" : 0.0
+    },
+    "Hudson, St. Croix County, WI" : {
+        "name" : "Hudson",
+        "state" : "Wisconsin",
+        "FIPS" : "55-36250",
+        "counties" : [
+            "St. Croix County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12719,
+        "population_2020" : 14755,
+        "population_2027" : 16805,
+        "land_area_2020" : 0.0
+    },
+    "Hurley, Iron County, WI" : {
+        "name" : "Hurley",
+        "state" : "Wisconsin",
+        "FIPS" : "55-36525",
+        "counties" : [
+            "Iron County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1547,
+        "population_2020" : 1558,
+        "population_2027" : 1596,
+        "land_area_2020" : 0.0
+    },
+    "Independence, Trempealeau County, WI" : {
+        "name" : "Independence",
+        "state" : "Wisconsin",
+        "FIPS" : "55-36800",
+        "counties" : [
+            "Trempealeau County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1336,
+        "population_2020" : 1498,
+        "population_2027" : 1661,
+        "land_area_2020" : 0.0
+    },
+    "Janesville, Rock County, WI" : {
+        "name" : "Janesville",
+        "state" : "Wisconsin",
+        "FIPS" : "55-37825",
+        "counties" : [
+            "Rock County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 63575,
+        "population_2020" : 65615,
+        "population_2027" : 68401,
+        "land_area_2020" : 0.0
+    },
+    "Jefferson, Jefferson County, WI" : {
+        "name" : "Jefferson",
+        "state" : "Wisconsin",
+        "FIPS" : "55-37900",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7973,
+        "population_2020" : 7793,
+        "population_2027" : 7820,
+        "land_area_2020" : 0.0
+    },
+    "Juneau, Dodge County, WI" : {
+        "name" : "Juneau",
+        "state" : "Wisconsin",
+        "FIPS" : "55-38675",
+        "counties" : [
+            "Dodge County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2814,
+        "population_2020" : 2658,
+        "population_2027" : 2606,
+        "land_area_2020" : 0.0
+    },
+    "Kaukauna, Outagamie County, WI" : {
+        "name" : "Kaukauna",
+        "state" : "Wisconsin",
+        "FIPS" : "55-38800",
+        "counties" : [
+            "Outagamie County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15462,
+        "population_2020" : 17089,
+        "population_2027" : 18741,
+        "land_area_2020" : 0.0
+    },
+    "Kenosha, Kenosha County, WI" : {
+        "name" : "Kenosha",
+        "state" : "Wisconsin",
+        "FIPS" : "55-39225",
+        "counties" : [
+            "Kenosha County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 99218,
+        "population_2020" : 99986,
+        "population_2027" : 102479,
+        "land_area_2020" : 0.0
+    },
+    "Kewaunee, Kewaunee County, WI" : {
+        "name" : "Kewaunee",
+        "state" : "Wisconsin",
+        "FIPS" : "55-39350",
+        "counties" : [
+            "Kewaunee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2952,
+        "population_2020" : 2837,
+        "population_2027" : 2814,
+        "land_area_2020" : 0.0
+    },
+    "Kiel, Calumet County, WI" : {
+        "name" : "Kiel",
+        "state" : "Wisconsin",
+        "FIPS" : "55-39525",
+        "counties" : [
+            "Calumet County",
+            "Manitowoc County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3738,
+        "population_2020" : 3932,
+        "population_2027" : 4156,
+        "land_area_2020" : 0.0
+    },
+    "La Crosse, La Crosse County, WI" : {
+        "name" : "La Crosse",
+        "state" : "Wisconsin",
+        "FIPS" : "55-40775",
+        "counties" : [
+            "La Crosse County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 51320,
+        "population_2020" : 52680,
+        "population_2027" : 54704,
+        "land_area_2020" : 0.0
+    },
+    "Ladysmith, Rusk County, WI" : {
+        "name" : "Ladysmith",
+        "state" : "Wisconsin",
+        "FIPS" : "55-40850",
+        "counties" : [
+            "Rusk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3414,
+        "population_2020" : 3216,
+        "population_2027" : 3148,
+        "land_area_2020" : 0.0
+    },
+    "Lake Geneva, Walworth County, WI" : {
+        "name" : "Lake Geneva",
+        "state" : "Wisconsin",
+        "FIPS" : "55-41450",
+        "counties" : [
+            "Walworth County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7651,
+        "population_2020" : 8277,
+        "population_2027" : 8932,
+        "land_area_2020" : 0.0
+    },
+    "Lake Mills, Jefferson County, WI" : {
+        "name" : "Lake Mills",
+        "state" : "Wisconsin",
+        "FIPS" : "55-41675",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5708,
+        "population_2020" : 6211,
+        "population_2027" : 6731,
+        "land_area_2020" : 0.0
+    },
+    "Lancaster, Grant County, WI" : {
+        "name" : "Lancaster",
+        "state" : "Wisconsin",
+        "FIPS" : "55-42250",
+        "counties" : [
+            "Grant County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3868,
+        "population_2020" : 3907,
+        "population_2027" : 4011,
+        "land_area_2020" : 0.0
+    },
+    "Lodi, Columbia County, WI" : {
+        "name" : "Lodi",
+        "state" : "Wisconsin",
+        "FIPS" : "55-45350",
+        "counties" : [
+            "Columbia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3050,
+        "population_2020" : 3189,
+        "population_2027" : 3356,
+        "land_area_2020" : 0.0
+    },
+    "Loyal, Clark County, WI" : {
+        "name" : "Loyal",
+        "state" : "Wisconsin",
+        "FIPS" : "55-46075",
+        "counties" : [
+            "Clark County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1261,
+        "population_2020" : 1203,
+        "population_2027" : 1188,
+        "land_area_2020" : 0.0
+    },
+    "Madison, Dane County, WI" : {
+        "name" : "Madison",
+        "state" : "Wisconsin",
+        "FIPS" : "55-48000",
+        "counties" : [
+            "Dane County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 233209,
+        "population_2020" : 269840,
+        "population_2027" : 306695,
+        "land_area_2020" : 0.0
+    },
+    "Manawa, Waupaca County, WI" : {
+        "name" : "Manawa",
+        "state" : "Wisconsin",
+        "FIPS" : "55-48350",
+        "counties" : [
+            "Waupaca County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1371,
+        "population_2020" : 1441,
+        "population_2027" : 1522,
+        "land_area_2020" : 0.0
+    },
+    "Manitowoc, Manitowoc County, WI" : {
+        "name" : "Manitowoc",
+        "state" : "Wisconsin",
+        "FIPS" : "55-48500",
+        "counties" : [
+            "Manitowoc County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 33736,
+        "population_2020" : 34626,
+        "population_2027" : 35953,
+        "land_area_2020" : 0.0
+    },
+    "Marinette, Marinette County, WI" : {
+        "name" : "Marinette",
+        "state" : "Wisconsin",
+        "FIPS" : "55-49300",
+        "counties" : [
+            "Marinette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10968,
+        "population_2020" : 11119,
+        "population_2027" : 11444,
+        "land_area_2020" : 0.0
+    },
+    "Marion, Shawano County, WI" : {
+        "name" : "Marion",
+        "state" : "Wisconsin",
+        "FIPS" : "55-49400",
+        "counties" : [
+            "Shawano County",
+            "Waupaca County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1260,
+        "population_2020" : 1324,
+        "population_2027" : 1398,
+        "land_area_2020" : 0.0
+    },
+    "Markesan, Green Lake County, WI" : {
+        "name" : "Markesan",
+        "state" : "Wisconsin",
+        "FIPS" : "55-49450",
+        "counties" : [
+            "Green Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1476,
+        "population_2020" : 1377,
+        "population_2027" : 1339,
+        "land_area_2020" : 0.0
+    },
+    "Marshfield, Marathon County, WI" : {
+        "name" : "Marshfield",
+        "state" : "Wisconsin",
+        "FIPS" : "55-49675",
+        "counties" : [
+            "Marathon County",
+            "Wood County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 19118,
+        "population_2020" : 18929,
+        "population_2027" : 19164,
+        "land_area_2020" : 0.0
+    },
+    "Mauston, Juneau County, WI" : {
+        "name" : "Mauston",
+        "state" : "Wisconsin",
+        "FIPS" : "55-50025",
+        "counties" : [
+            "Juneau County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4423,
+        "population_2020" : 4347,
+        "population_2027" : 4378,
+        "land_area_2020" : 0.0
+    },
+    "Mayville, Dodge County, WI" : {
+        "name" : "Mayville",
+        "state" : "Wisconsin",
+        "FIPS" : "55-50200",
+        "counties" : [
+            "Dodge County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5154,
+        "population_2020" : 5196,
+        "population_2027" : 5327,
+        "land_area_2020" : 0.0
+    },
+    "Medford, Taylor County, WI" : {
+        "name" : "Medford",
+        "state" : "Wisconsin",
+        "FIPS" : "55-50425",
+        "counties" : [
+            "Taylor County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4326,
+        "population_2020" : 4349,
+        "population_2027" : 4450,
+        "land_area_2020" : 0.0
+    },
+    "Mellen, Ashland County, WI" : {
+        "name" : "Mellen",
+        "state" : "Wisconsin",
+        "FIPS" : "55-50700",
+        "counties" : [
+            "Ashland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 731,
+        "population_2020" : 698,
+        "population_2027" : 689,
+        "land_area_2020" : 0.0
+    },
+    "Menasha, Calumet County, WI" : {
+        "name" : "Menasha",
+        "state" : "Wisconsin",
+        "FIPS" : "55-50825",
+        "counties" : [
+            "Calumet County",
+            "Winnebago County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 17353,
+        "population_2020" : 18268,
+        "population_2027" : 19319,
+        "land_area_2020" : 0.0
+    },
+    "Menomonie, Dunn County, WI" : {
+        "name" : "Menomonie",
+        "state" : "Wisconsin",
+        "FIPS" : "55-51025",
+        "counties" : [
+            "Dunn County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16264,
+        "population_2020" : 16843,
+        "population_2027" : 17601,
+        "land_area_2020" : 0.0
+    },
+    "Mequon, Ozaukee County, WI" : {
+        "name" : "Mequon",
+        "state" : "Wisconsin",
+        "FIPS" : "55-51150",
+        "counties" : [
+            "Ozaukee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23132,
+        "population_2020" : 25142,
+        "population_2027" : 27226,
+        "land_area_2020" : 0.0
+    },
+    "Merrill, Lincoln County, WI" : {
+        "name" : "Merrill",
+        "state" : "Wisconsin",
+        "FIPS" : "55-51250",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9661,
+        "population_2020" : 9347,
+        "population_2027" : 9314,
+        "land_area_2020" : 0.0
+    },
+    "Middleton, Dane County, WI" : {
+        "name" : "Middleton",
+        "state" : "Wisconsin",
+        "FIPS" : "55-51575",
+        "counties" : [
+            "Dane County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 17442,
+        "population_2020" : 21827,
+        "population_2027" : 26462,
+        "land_area_2020" : 0.0
+    },
+    "Milton, Rock County, WI" : {
+        "name" : "Milton",
+        "state" : "Wisconsin",
+        "FIPS" : "55-52200",
+        "counties" : [
+            "Rock County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5546,
+        "population_2020" : 5716,
+        "population_2027" : 5953,
+        "land_area_2020" : 0.0
+    },
+    "Milwaukee, Milwaukee County, WI" : {
+        "name" : "Milwaukee",
+        "state" : "Wisconsin",
+        "FIPS" : "55-53000",
+        "counties" : [
+            "Milwaukee County",
+            "Washington County",
+            "Waukesha County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 594833,
+        "population_2020" : 577222,
+        "population_2027" : 576371,
+        "land_area_2020" : 0.0
+    },
+    "Mineral Point, Iowa County, WI" : {
+        "name" : "Mineral Point",
+        "state" : "Wisconsin",
+        "FIPS" : "55-53100",
+        "counties" : [
+            "Iowa County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2487,
+        "population_2020" : 2581,
+        "population_2027" : 2701,
+        "land_area_2020" : 0.0
+    },
+    "Mondovi, Buffalo County, WI" : {
+        "name" : "Mondovi",
+        "state" : "Wisconsin",
+        "FIPS" : "55-53600",
+        "counties" : [
+            "Buffalo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2777,
+        "population_2020" : 2845,
+        "population_2027" : 2950,
+        "land_area_2020" : 0.0
+    },
+    "Monona, Dane County, WI" : {
+        "name" : "Monona",
+        "state" : "Wisconsin",
+        "FIPS" : "55-53675",
+        "counties" : [
+            "Dane County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7533,
+        "population_2020" : 8624,
+        "population_2027" : 9720,
+        "land_area_2020" : 0.0
+    },
+    "Monroe, Green County, WI" : {
+        "name" : "Monroe",
+        "state" : "Wisconsin",
+        "FIPS" : "55-53750",
+        "counties" : [
+            "Green County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10827,
+        "population_2020" : 10661,
+        "population_2027" : 10752,
+        "land_area_2020" : 0.0
+    },
+    "Montello, Marquette County, WI" : {
+        "name" : "Montello",
+        "state" : "Wisconsin",
+        "FIPS" : "55-53875",
+        "counties" : [
+            "Marquette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1495,
+        "population_2020" : 1448,
+        "population_2027" : 1444,
+        "land_area_2020" : 0.0
+    },
+    "Montreal, Iron County, WI" : {
+        "name" : "Montreal",
+        "state" : "Wisconsin",
+        "FIPS" : "55-54075",
+        "counties" : [
+            "Iron County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 807,
+        "population_2020" : 801,
+        "population_2027" : 812,
+        "land_area_2020" : 0.0
+    },
+    "Mosinee, Marathon County, WI" : {
+        "name" : "Mosinee",
+        "state" : "Wisconsin",
+        "FIPS" : "55-54500",
+        "counties" : [
+            "Marathon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3988,
+        "population_2020" : 4452,
+        "population_2027" : 4920,
+        "land_area_2020" : 0.0
+    },
+    "Muskego, Waukesha County, WI" : {
+        "name" : "Muskego",
+        "state" : "Wisconsin",
+        "FIPS" : "55-55275",
+        "counties" : [
+            "Waukesha County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 24135,
+        "population_2020" : 25032,
+        "population_2027" : 26187,
+        "land_area_2020" : 0.0
+    },
+    "Neenah, Winnebago County, WI" : {
+        "name" : "Neenah",
+        "state" : "Wisconsin",
+        "FIPS" : "55-55750",
+        "counties" : [
+            "Winnebago County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 25501,
+        "population_2020" : 27319,
+        "population_2027" : 29265,
+        "land_area_2020" : 0.0
+    },
+    "Neillsville, Clark County, WI" : {
+        "name" : "Neillsville",
+        "state" : "Wisconsin",
+        "FIPS" : "55-55800",
+        "counties" : [
+            "Clark County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2463,
+        "population_2020" : 2384,
+        "population_2027" : 2376,
+        "land_area_2020" : 0.0
+    },
+    "Nekoosa, Wood County, WI" : {
+        "name" : "Nekoosa",
+        "state" : "Wisconsin",
+        "FIPS" : "55-55875",
+        "counties" : [
+            "Wood County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2580,
+        "population_2020" : 2449,
+        "population_2027" : 2409,
+        "land_area_2020" : 0.0
+    },
+    "New Berlin, Waukesha County, WI" : {
+        "name" : "New Berlin",
+        "state" : "Wisconsin",
+        "FIPS" : "55-56375",
+        "counties" : [
+            "Waukesha County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 39584,
+        "population_2020" : 40451,
+        "population_2027" : 41871,
+        "land_area_2020" : 0.0
+    },
+    "New Holstein, Calumet County, WI" : {
+        "name" : "New Holstein",
+        "state" : "Wisconsin",
+        "FIPS" : "55-56800",
+        "counties" : [
+            "Calumet County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3236,
+        "population_2020" : 3195,
+        "population_2027" : 3228,
+        "land_area_2020" : 0.0
+    },
+    "New Lisbon, Juneau County, WI" : {
+        "name" : "New Lisbon",
+        "state" : "Wisconsin",
+        "FIPS" : "55-56900",
+        "counties" : [
+            "Juneau County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2554,
+        "population_2020" : 1748,
+        "population_2027" : 1425,
+        "land_area_2020" : 0.0
+    },
+    "New London, Outagamie County, WI" : {
+        "name" : "New London",
+        "state" : "Wisconsin",
+        "FIPS" : "55-56925",
+        "counties" : [
+            "Outagamie County",
+            "Waupaca County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7295,
+        "population_2020" : 7348,
+        "population_2027" : 7529,
+        "land_area_2020" : 0.0
+    },
+    "New Richmond, St. Croix County, WI" : {
+        "name" : "New Richmond",
+        "state" : "Wisconsin",
+        "FIPS" : "55-57100",
+        "counties" : [
+            "St. Croix County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8375,
+        "population_2020" : 10079,
+        "population_2027" : 11826,
+        "land_area_2020" : 0.0
+    },
+    "Niagara, Marinette County, WI" : {
+        "name" : "Niagara",
+        "state" : "Wisconsin",
+        "FIPS" : "55-57325",
+        "counties" : [
+            "Marinette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1624,
+        "population_2020" : 1602,
+        "population_2027" : 1618,
+        "land_area_2020" : 0.0
+    },
+    "Oak Creek, Milwaukee County, WI" : {
+        "name" : "Oak Creek",
+        "state" : "Wisconsin",
+        "FIPS" : "55-58800",
+        "counties" : [
+            "Milwaukee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 34451,
+        "population_2020" : 36497,
+        "population_2027" : 38776,
+        "land_area_2020" : 0.0
+    },
+    "Oconomowoc, Waukesha County, WI" : {
+        "name" : "Oconomowoc",
+        "state" : "Wisconsin",
+        "FIPS" : "55-59250",
+        "counties" : [
+            "Waukesha County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15712,
+        "population_2020" : 18203,
+        "population_2027" : 20710,
+        "land_area_2020" : 0.0
+    },
+    "Oconto, Oconto County, WI" : {
+        "name" : "Oconto",
+        "state" : "Wisconsin",
+        "FIPS" : "55-59350",
+        "counties" : [
+            "Oconto County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4513,
+        "population_2020" : 4609,
+        "population_2027" : 4769,
+        "land_area_2020" : 0.0
+    },
+    "Oconto Falls, Oconto County, WI" : {
+        "name" : "Oconto Falls",
+        "state" : "Wisconsin",
+        "FIPS" : "55-59400",
+        "counties" : [
+            "Oconto County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2891,
+        "population_2020" : 2957,
+        "population_2027" : 3063,
+        "land_area_2020" : 0.0
+    },
+    "Omro, Winnebago County, WI" : {
+        "name" : "Omro",
+        "state" : "Wisconsin",
+        "FIPS" : "55-59875",
+        "counties" : [
+            "Winnebago County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3517,
+        "population_2020" : 3652,
+        "population_2027" : 3824,
+        "land_area_2020" : 0.0
+    },
+    "Onalaska, La Crosse County, WI" : {
+        "name" : "Onalaska",
+        "state" : "Wisconsin",
+        "FIPS" : "55-59925",
+        "counties" : [
+            "La Crosse County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 17736,
+        "population_2020" : 18803,
+        "population_2027" : 19988,
+        "land_area_2020" : 0.0
+    },
+    "Oshkosh, Winnebago County, WI" : {
+        "name" : "Oshkosh",
+        "state" : "Wisconsin",
+        "FIPS" : "55-60500",
+        "counties" : [
+            "Winnebago County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 66083,
+        "population_2020" : 66816,
+        "population_2027" : 68642,
+        "land_area_2020" : 0.0
+    },
+    "Osseo, Trempealeau County, WI" : {
+        "name" : "Osseo",
+        "state" : "Wisconsin",
+        "FIPS" : "55-60575",
+        "counties" : [
+            "Trempealeau County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1701,
+        "population_2020" : 1811,
+        "population_2027" : 1931,
+        "land_area_2020" : 0.0
+    },
+    "Owen, Clark County, WI" : {
+        "name" : "Owen",
+        "state" : "Wisconsin",
+        "FIPS" : "55-60825",
+        "counties" : [
+            "Clark County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 940,
+        "population_2020" : 916,
+        "population_2027" : 917,
+        "land_area_2020" : 0.0
+    },
+    "Park Falls, Price County, WI" : {
+        "name" : "Park Falls",
+        "state" : "Wisconsin",
+        "FIPS" : "55-61200",
+        "counties" : [
+            "Price County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2462,
+        "population_2020" : 2410,
+        "population_2027" : 2421,
+        "land_area_2020" : 0.0
+    },
+    "Peshtigo, Marinette County, WI" : {
+        "name" : "Peshtigo",
+        "state" : "Wisconsin",
+        "FIPS" : "55-62175",
+        "counties" : [
+            "Marinette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3502,
+        "population_2020" : 3420,
+        "population_2027" : 3430,
+        "land_area_2020" : 0.0
+    },
+    "Pewaukee, Waukesha County, WI" : {
+        "name" : "Pewaukee",
+        "state" : "Wisconsin",
+        "FIPS" : "55-62250",
+        "counties" : [
+            "Waukesha County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13195,
+        "population_2020" : 15914,
+        "population_2027" : 18705,
+        "land_area_2020" : 0.0
+    },
+    "Phillips, Price County, WI" : {
+        "name" : "Phillips",
+        "state" : "Wisconsin",
+        "FIPS" : "55-62450",
+        "counties" : [
+            "Price County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1478,
+        "population_2020" : 1533,
+        "population_2027" : 1604,
+        "land_area_2020" : 0.0
+    },
+    "Pittsville, Wood County, WI" : {
+        "name" : "Pittsville",
+        "state" : "Wisconsin",
+        "FIPS" : "55-63100",
+        "counties" : [
+            "Wood County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 874,
+        "population_2020" : 813,
+        "population_2027" : 789,
+        "land_area_2020" : 0.0
+    },
+    "Platteville, Grant County, WI" : {
+        "name" : "Platteville",
+        "state" : "Wisconsin",
+        "FIPS" : "55-63250",
+        "counties" : [
+            "Grant County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11224,
+        "population_2020" : 11836,
+        "population_2027" : 12533,
+        "land_area_2020" : 0.0
+    },
+    "Plymouth, Sheboygan County, WI" : {
+        "name" : "Plymouth",
+        "state" : "Wisconsin",
+        "FIPS" : "55-63700",
+        "counties" : [
+            "Sheboygan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8445,
+        "population_2020" : 8932,
+        "population_2027" : 9478,
+        "land_area_2020" : 0.0
+    },
+    "Port Washington, Ozaukee County, WI" : {
+        "name" : "Port Washington",
+        "state" : "Wisconsin",
+        "FIPS" : "55-64450",
+        "counties" : [
+            "Ozaukee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11250,
+        "population_2020" : 12353,
+        "population_2027" : 13480,
+        "land_area_2020" : 0.0
+    },
+    "Portage, Columbia County, WI" : {
+        "name" : "Portage",
+        "state" : "Wisconsin",
+        "FIPS" : "55-64100",
+        "counties" : [
+            "Columbia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10324,
+        "population_2020" : 10581,
+        "population_2027" : 10975,
+        "land_area_2020" : 0.0
+    },
+    "Prairie du Chien, Crawford County, WI" : {
+        "name" : "Prairie du Chien",
+        "state" : "Wisconsin",
+        "FIPS" : "55-65050",
+        "counties" : [
+            "Crawford County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5911,
+        "population_2020" : 5506,
+        "population_2027" : 5350,
+        "land_area_2020" : 0.0
+    },
+    "Prescott, Pierce County, WI" : {
+        "name" : "Prescott",
+        "state" : "Wisconsin",
+        "FIPS" : "55-65375",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4258,
+        "population_2020" : 4333,
+        "population_2027" : 4472,
+        "land_area_2020" : 0.0
+    },
+    "Princeton, Green Lake County, WI" : {
+        "name" : "Princeton",
+        "state" : "Wisconsin",
+        "FIPS" : "55-65600",
+        "counties" : [
+            "Green Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1214,
+        "population_2020" : 1267,
+        "population_2027" : 1331,
+        "land_area_2020" : 0.0
+    },
+    "Racine, Racine County, WI" : {
+        "name" : "Racine",
+        "state" : "Wisconsin",
+        "FIPS" : "55-66000",
+        "counties" : [
+            "Racine County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 78860,
+        "population_2020" : 77816,
+        "population_2027" : 78596,
+        "land_area_2020" : 0.0
+    },
+    "Reedsburg, Sauk County, WI" : {
+        "name" : "Reedsburg",
+        "state" : "Wisconsin",
+        "FIPS" : "55-66800",
+        "counties" : [
+            "Sauk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10014,
+        "population_2020" : 9984,
+        "population_2027" : 10157,
+        "land_area_2020" : 0.0
+    },
+    "Rhinelander, Oneida County, WI" : {
+        "name" : "Rhinelander",
+        "state" : "Wisconsin",
+        "FIPS" : "55-67200",
+        "counties" : [
+            "Oneida County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7798,
+        "population_2020" : 8285,
+        "population_2027" : 8821,
+        "land_area_2020" : 0.0
+    },
+    "Rice Lake, Barron County, WI" : {
+        "name" : "Rice Lake",
+        "state" : "Wisconsin",
+        "FIPS" : "55-67350",
+        "counties" : [
+            "Barron County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8438,
+        "population_2020" : 9040,
+        "population_2027" : 9684,
+        "land_area_2020" : 0.0
+    },
+    "Richland Center, Richland County, WI" : {
+        "name" : "Richland Center",
+        "state" : "Wisconsin",
+        "FIPS" : "55-67625",
+        "counties" : [
+            "Richland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5184,
+        "population_2020" : 5114,
+        "population_2027" : 5164,
+        "land_area_2020" : 0.0
+    },
+    "Ripon, Fond du Lac County, WI" : {
+        "name" : "Ripon",
+        "state" : "Wisconsin",
+        "FIPS" : "55-68175",
+        "counties" : [
+            "Fond du Lac County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7733,
+        "population_2020" : 7863,
+        "population_2027" : 8110,
+        "land_area_2020" : 0.0
+    },
+    "River Falls, Pierce County, WI" : {
+        "name" : "River Falls",
+        "state" : "Wisconsin",
+        "FIPS" : "55-68275",
+        "counties" : [
+            "Pierce County",
+            "St. Croix County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15000,
+        "population_2020" : 16182,
+        "population_2027" : 17425,
+        "land_area_2020" : 0.0
+    },
+    "St. Croix Falls, Polk County, WI" : {
+        "name" : "St. Croix Falls",
+        "state" : "Wisconsin",
+        "FIPS" : "55-70550",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2133,
+        "population_2020" : 2208,
+        "population_2027" : 2307,
+        "land_area_2020" : 0.0
+    },
+    "St. Francis, Milwaukee County, WI" : {
+        "name" : "St. Francis",
+        "state" : "Wisconsin",
+        "FIPS" : "55-70650",
+        "counties" : [
+            "Milwaukee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9365,
+        "population_2020" : 9161,
+        "population_2027" : 9198,
+        "land_area_2020" : 0.0
+    },
+    "Schofield, Marathon County, WI" : {
+        "name" : "Schofield",
+        "state" : "Wisconsin",
+        "FIPS" : "55-72150",
+        "counties" : [
+            "Marathon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2169,
+        "population_2020" : 2157,
+        "population_2027" : 2190,
+        "land_area_2020" : 0.0
+    },
+    "Seymour, Outagamie County, WI" : {
+        "name" : "Seymour",
+        "state" : "Wisconsin",
+        "FIPS" : "55-72725",
+        "counties" : [
+            "Outagamie County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3451,
+        "population_2020" : 3546,
+        "population_2027" : 3685,
+        "land_area_2020" : 0.0
+    },
+    "Shawano, Shawano County, WI" : {
+        "name" : "Shawano",
+        "state" : "Wisconsin",
+        "FIPS" : "55-72925",
+        "counties" : [
+            "Shawano County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9305,
+        "population_2020" : 9243,
+        "population_2027" : 9379,
+        "land_area_2020" : 0.0
+    },
+    "Sheboygan, Sheboygan County, WI" : {
+        "name" : "Sheboygan",
+        "state" : "Wisconsin",
+        "FIPS" : "55-72975",
+        "counties" : [
+            "Sheboygan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 49288,
+        "population_2020" : 49929,
+        "population_2027" : 51362,
+        "land_area_2020" : 0.0
+    },
+    "Sheboygan Falls, Sheboygan County, WI" : {
+        "name" : "Sheboygan Falls",
+        "state" : "Wisconsin",
+        "FIPS" : "55-73025",
+        "counties" : [
+            "Sheboygan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7775,
+        "population_2020" : 8210,
+        "population_2027" : 8702,
+        "land_area_2020" : 0.0
+    },
+    "Shell Lake, Washburn County, WI" : {
+        "name" : "Shell Lake",
+        "state" : "Wisconsin",
+        "FIPS" : "55-73200",
+        "counties" : [
+            "Washburn County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1347,
+        "population_2020" : 1371,
+        "population_2027" : 1415,
+        "land_area_2020" : 0.0
+    },
+    "Shullsburg, Lafayette County, WI" : {
+        "name" : "Shullsburg",
+        "state" : "Wisconsin",
+        "FIPS" : "55-73825",
+        "counties" : [
+            "Lafayette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1226,
+        "population_2020" : 1173,
+        "population_2027" : 1160,
+        "land_area_2020" : 0.0
+    },
+    "South Milwaukee, Milwaukee County, WI" : {
+        "name" : "South Milwaukee",
+        "state" : "Wisconsin",
+        "FIPS" : "55-75125",
+        "counties" : [
+            "Milwaukee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 21156,
+        "population_2020" : 20795,
+        "population_2027" : 20947,
+        "land_area_2020" : 0.0
+    },
+    "Sparta, Monroe County, WI" : {
+        "name" : "Sparta",
+        "state" : "Wisconsin",
+        "FIPS" : "55-75325",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9522,
+        "population_2020" : 10025,
+        "population_2027" : 10602,
+        "land_area_2020" : 0.0
+    },
+    "Spooner, Washburn County, WI" : {
+        "name" : "Spooner",
+        "state" : "Wisconsin",
+        "FIPS" : "55-75625",
+        "counties" : [
+            "Washburn County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2682,
+        "population_2020" : 2477,
+        "population_2027" : 2393,
+        "land_area_2020" : 0.0
+    },
+    "Stanley, Chippewa County, WI" : {
+        "name" : "Stanley",
+        "state" : "Wisconsin",
+        "FIPS" : "55-76625",
+        "counties" : [
+            "Chippewa County",
+            "Clark County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3608,
+        "population_2020" : 3804,
+        "population_2027" : 4027,
+        "land_area_2020" : 0.0
+    },
+    "Stevens Point, Portage County, WI" : {
+        "name" : "Stevens Point",
+        "state" : "Wisconsin",
+        "FIPS" : "55-77200",
+        "counties" : [
+            "Portage County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 26717,
+        "population_2020" : 25666,
+        "population_2027" : 25454,
+        "land_area_2020" : 0.0
+    },
+    "Stoughton, Dane County, WI" : {
+        "name" : "Stoughton",
+        "state" : "Wisconsin",
+        "FIPS" : "55-77675",
+        "counties" : [
+            "Dane County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12611,
+        "population_2020" : 13173,
+        "population_2027" : 13852,
+        "land_area_2020" : 0.0
+    },
+    "Sturgeon Bay, Door County, WI" : {
+        "name" : "Sturgeon Bay",
+        "state" : "Wisconsin",
+        "FIPS" : "55-77875",
+        "counties" : [
+            "Door County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9144,
+        "population_2020" : 9646,
+        "population_2027" : 10216,
+        "land_area_2020" : 0.0
+    },
+    "Sun Prairie, Dane County, WI" : {
+        "name" : "Sun Prairie",
+        "state" : "Wisconsin",
+        "FIPS" : "55-78600",
+        "counties" : [
+            "Dane County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 29364,
+        "population_2020" : 35967,
+        "population_2027" : 42823,
+        "land_area_2020" : 0.0
+    },
+    "Superior, Douglas County, WI" : {
+        "name" : "Superior",
+        "state" : "Wisconsin",
+        "FIPS" : "55-78660",
+        "counties" : [
+            "Douglas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 27244,
+        "population_2020" : 26751,
+        "population_2027" : 26928,
+        "land_area_2020" : 0.0
+    },
+    "Thorp, Clark County, WI" : {
+        "name" : "Thorp",
+        "state" : "Wisconsin",
+        "FIPS" : "55-79625",
+        "counties" : [
+            "Clark County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1621,
+        "population_2020" : 1795,
+        "population_2027" : 1971,
+        "land_area_2020" : 0.0
+    },
+    "Tomah, Monroe County, WI" : {
+        "name" : "Tomah",
+        "state" : "Wisconsin",
+        "FIPS" : "55-80075",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9093,
+        "population_2020" : 9570,
+        "population_2027" : 10119,
+        "land_area_2020" : 0.0
+    },
+    "Tomahawk, Lincoln County, WI" : {
+        "name" : "Tomahawk",
+        "state" : "Wisconsin",
+        "FIPS" : "55-80125",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3397,
+        "population_2020" : 3441,
+        "population_2027" : 3540,
+        "land_area_2020" : 0.0
+    },
+    "Two Rivers, Manitowoc County, WI" : {
+        "name" : "Two Rivers",
+        "state" : "Wisconsin",
+        "FIPS" : "55-81325",
+        "counties" : [
+            "Manitowoc County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11712,
+        "population_2020" : 11271,
+        "population_2027" : 11191,
+        "land_area_2020" : 0.0
+    },
+    "Verona, Dane County, WI" : {
+        "name" : "Verona",
+        "state" : "Wisconsin",
+        "FIPS" : "55-82600",
+        "counties" : [
+            "Dane County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10619,
+        "population_2020" : 14030,
+        "population_2027" : 17835,
+        "land_area_2020" : 0.0
+    },
+    "Viroqua, Vernon County, WI" : {
+        "name" : "Viroqua",
+        "state" : "Wisconsin",
+        "FIPS" : "55-82925",
+        "counties" : [
+            "Vernon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5079,
+        "population_2020" : 4504,
+        "population_2027" : 4241,
+        "land_area_2020" : 0.0
+    },
+    "Washburn, Bayfield County, WI" : {
+        "name" : "Washburn",
+        "state" : "Wisconsin",
+        "FIPS" : "55-83525",
+        "counties" : [
+            "Bayfield County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2117,
+        "population_2020" : 2051,
+        "population_2027" : 2046,
+        "land_area_2020" : 0.0
+    },
+    "Waterloo, Jefferson County, WI" : {
+        "name" : "Waterloo",
+        "state" : "Wisconsin",
+        "FIPS" : "55-83925",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3333,
+        "population_2020" : 3492,
+        "population_2027" : 3680,
+        "land_area_2020" : 0.0
+    },
+    "Watertown, Dodge County, WI" : {
+        "name" : "Watertown",
+        "state" : "Wisconsin",
+        "FIPS" : "55-83975",
+        "counties" : [
+            "Dodge County",
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23861,
+        "population_2020" : 22926,
+        "population_2027" : 22739,
+        "land_area_2020" : 0.0
+    },
+    "Waukesha, Waukesha County, WI" : {
+        "name" : "Waukesha",
+        "state" : "Wisconsin",
+        "FIPS" : "55-84250",
+        "counties" : [
+            "Waukesha County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 70718,
+        "population_2020" : 71158,
+        "population_2027" : 72855,
+        "land_area_2020" : 0.0
+    },
+    "Waupaca, Waupaca County, WI" : {
+        "name" : "Waupaca",
+        "state" : "Wisconsin",
+        "FIPS" : "55-84375",
+        "counties" : [
+            "Waupaca County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6069,
+        "population_2020" : 6282,
+        "population_2027" : 6562,
+        "land_area_2020" : 0.0
+    },
+    "Waupun, Dodge County, WI" : {
+        "name" : "Waupun",
+        "state" : "Wisconsin",
+        "FIPS" : "55-84425",
+        "counties" : [
+            "Dodge County",
+            "Fond du Lac County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11340,
+        "population_2020" : 11344,
+        "population_2027" : 11567,
+        "land_area_2020" : 0.0
+    },
+    "Wausau, Marathon County, WI" : {
+        "name" : "Wausau",
+        "state" : "Wisconsin",
+        "FIPS" : "55-84475",
+        "counties" : [
+            "Marathon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 39106,
+        "population_2020" : 39994,
+        "population_2027" : 41421,
+        "land_area_2020" : 0.0
+    },
+    "Wautoma, Waushara County, WI" : {
+        "name" : "Wautoma",
+        "state" : "Wisconsin",
+        "FIPS" : "55-84625",
+        "counties" : [
+            "Waushara County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2218,
+        "population_2020" : 2209,
+        "population_2027" : 2246,
+        "land_area_2020" : 0.0
+    },
+    "Wauwatosa, Milwaukee County, WI" : {
+        "name" : "Wauwatosa",
+        "state" : "Wisconsin",
+        "FIPS" : "55-84675",
+        "counties" : [
+            "Milwaukee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 46396,
+        "population_2020" : 48387,
+        "population_2027" : 50823,
+        "land_area_2020" : 0.0
+    },
+    "West Allis, Milwaukee County, WI" : {
+        "name" : "West Allis",
+        "state" : "Wisconsin",
+        "FIPS" : "55-85300",
+        "counties" : [
+            "Milwaukee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 60411,
+        "population_2020" : 60325,
+        "population_2027" : 61435,
+        "land_area_2020" : 0.0
+    },
+    "West Bend, Washington County, WI" : {
+        "name" : "West Bend",
+        "state" : "Wisconsin",
+        "FIPS" : "55-85350",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 31078,
+        "population_2020" : 31752,
+        "population_2027" : 32862,
+        "land_area_2020" : 0.0
+    },
+    "Westby, Vernon County, WI" : {
+        "name" : "Westby",
+        "state" : "Wisconsin",
+        "FIPS" : "55-85475",
+        "counties" : [
+            "Vernon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2200,
+        "population_2020" : 2332,
+        "population_2027" : 2479,
+        "land_area_2020" : 0.0
+    },
+    "Weyauwega, Waupaca County, WI" : {
+        "name" : "Weyauwega",
+        "state" : "Wisconsin",
+        "FIPS" : "55-86400",
+        "counties" : [
+            "Waupaca County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1900,
+        "population_2020" : 1796,
+        "population_2027" : 1762,
+        "land_area_2020" : 0.0
+    },
+    "Whitehall, Trempealeau County, WI" : {
+        "name" : "Whitehall",
+        "state" : "Wisconsin",
+        "FIPS" : "55-86725",
+        "counties" : [
+            "Trempealeau County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1558,
+        "population_2020" : 1645,
+        "population_2027" : 1743,
+        "land_area_2020" : 0.0
+    },
+    "Whitewater, Jefferson County, WI" : {
+        "name" : "Whitewater",
+        "state" : "Wisconsin",
+        "FIPS" : "55-86925",
+        "counties" : [
+            "Jefferson County",
+            "Walworth County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14390,
+        "population_2020" : 14889,
+        "population_2027" : 15549,
+        "land_area_2020" : 0.0
+    },
+    "Wisconsin Dells, Adams County, WI" : {
+        "name" : "Wisconsin Dells",
+        "state" : "Wisconsin",
+        "FIPS" : "55-88150",
+        "counties" : [
+            "Adams County",
+            "Columbia County",
+            "Juneau County",
+            "Sauk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2678,
+        "population_2020" : 2942,
+        "population_2027" : 3212,
+        "land_area_2020" : 0.0
+    },
+    "Wisconsin Rapids, Wood County, WI" : {
+        "name" : "Wisconsin Rapids",
+        "state" : "Wisconsin",
+        "FIPS" : "55-88200",
+        "counties" : [
+            "Wood County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 18367,
+        "population_2020" : 18877,
+        "population_2027" : 19620,
+        "land_area_2020" : 0.0
+    }
+}
