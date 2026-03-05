@@ -1,0 +1,3044 @@
+{
+    "Manchester, Hillsborough County, NH" : {
+        "name" : "Manchester",
+        "state" : "New Hampshire",
+        "FIPS" : "33-45140",
+        "counties" : [
+            "Hillsborough County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 115644,
+        "population_2020" : 115644,
+        "population_2027" : 120380,
+        "land_area_2020" : 33.1
+    },
+    "Nashua, Hillsborough (seat), NH" : {
+        "name" : "Nashua",
+        "state" : "New Hampshire",
+        "FIPS" : "33-50260",
+        "counties" : [
+            "Hillsborough (seat)"
+        ],
+        "type_class" : "City",
+        "population_2010" : 91322,
+        "population_2020" : 91322,
+        "population_2027" : 95062,
+        "land_area_2020" : 30.8
+    },
+    "Concord, Merrimack County, NH" : {
+        "name" : "Concord",
+        "state" : "New Hampshire",
+        "FIPS" : "33-14200",
+        "counties" : [
+            "Merrimack County"
+        ],
+        "type_class" : "Capital)",
+        "population_2010" : 43976,
+        "population_2020" : 43976,
+        "population_2027" : 45777,
+        "land_area_2020" : 64.0
+    },
+    "Derry, Rockingham, NH" : {
+        "name" : "Derry",
+        "state" : "New Hampshire",
+        "FIPS" : "33-17860",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 34317,
+        "population_2020" : 34317,
+        "population_2027" : 35722,
+        "land_area_2020" : 35.6
+    },
+    "Dover, Strafford County, NH" : {
+        "name" : "Dover",
+        "state" : "New Hampshire",
+        "FIPS" : "33-18820",
+        "counties" : [
+            "Strafford County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 32741,
+        "population_2020" : 32741,
+        "population_2027" : 34082,
+        "land_area_2020" : 26.7
+    },
+    "Rochester, Strafford, NH" : {
+        "name" : "Rochester",
+        "state" : "New Hampshire",
+        "FIPS" : "33-65140",
+        "counties" : [
+            "Strafford"
+        ],
+        "type_class" : "City",
+        "population_2010" : 32492,
+        "population_2020" : 32492,
+        "population_2027" : 33823,
+        "land_area_2020" : 45.0
+    },
+    "Salem, Rockingham, NH" : {
+        "name" : "Salem",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 30089,
+        "population_2020" : 30089,
+        "population_2027" : 31321,
+        "land_area_2020" : 24.7
+    },
+    "Merrimack, Hillsborough, NH" : {
+        "name" : "Merrimack",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 26632,
+        "population_2020" : 26632,
+        "population_2027" : 27723,
+        "land_area_2020" : 32.6
+    },
+    "Londonderry, Rockingham, NH" : {
+        "name" : "Londonderry",
+        "state" : "New Hampshire",
+        "FIPS" : "33-43140",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 25826,
+        "population_2020" : 25826,
+        "population_2027" : 26884,
+        "land_area_2020" : 42.0
+    },
+    "Hudson, Hillsborough, NH" : {
+        "name" : "Hudson",
+        "state" : "New Hampshire",
+        "FIPS" : "33-37860",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 25394,
+        "population_2020" : 25394,
+        "population_2027" : 26434,
+        "land_area_2020" : 28.3
+    },
+    "Bedford, Hillsborough, NH" : {
+        "name" : "Bedford",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 23322,
+        "population_2020" : 23322,
+        "population_2027" : 24277,
+        "land_area_2020" : 32.8
+    },
+    "Keene, Cheshire County, NH" : {
+        "name" : "Keene",
+        "state" : "New Hampshire",
+        "FIPS" : "33-39300",
+        "counties" : [
+            "Cheshire County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23047,
+        "population_2020" : 23047,
+        "population_2027" : 23991,
+        "land_area_2020" : 37.1
+    },
+    "Portsmouth, Rockingham, NH" : {
+        "name" : "Portsmouth",
+        "state" : "New Hampshire",
+        "FIPS" : "33-62900",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "City",
+        "population_2010" : 21956,
+        "population_2020" : 21956,
+        "population_2027" : 22855,
+        "land_area_2020" : 15.7
+    },
+    "Goffstown, Hillsborough, NH" : {
+        "name" : "Goffstown",
+        "state" : "New Hampshire",
+        "FIPS" : "33-29780",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 18577,
+        "population_2020" : 18577,
+        "population_2027" : 19338,
+        "land_area_2020" : 36.9
+    },
+    "Laconia, Belknap County, NH" : {
+        "name" : "Laconia",
+        "state" : "New Hampshire",
+        "FIPS" : "33-40180",
+        "counties" : [
+            "Belknap County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16871,
+        "population_2020" : 16871,
+        "population_2027" : 17562,
+        "land_area_2020" : 19.9
+    },
+    "Hampton, Rockingham, NH" : {
+        "name" : "Hampton",
+        "state" : "New Hampshire",
+        "FIPS" : "33-32980",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 16214,
+        "population_2020" : 16214,
+        "population_2027" : 16878,
+        "land_area_2020" : 12.9
+    },
+    "Milford, Hillsborough, NH" : {
+        "name" : "Milford",
+        "state" : "New Hampshire",
+        "FIPS" : "33-47940",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 16131,
+        "population_2020" : 16131,
+        "population_2027" : 16792,
+        "land_area_2020" : 25.2
+    },
+    "Exeter, Rockingham, NH" : {
+        "name" : "Exeter",
+        "state" : "New Hampshire",
+        "FIPS" : "33-25300",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 16049,
+        "population_2020" : 16049,
+        "population_2027" : 16706,
+        "land_area_2020" : 19.6
+    },
+    "Windham, Rockingham, NH" : {
+        "name" : "Windham",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 15817,
+        "population_2020" : 15817,
+        "population_2027" : 16465,
+        "land_area_2020" : 26.8
+    },
+    "Durham, Strafford, NH" : {
+        "name" : "Durham",
+        "state" : "New Hampshire",
+        "FIPS" : "33-19620",
+        "counties" : [
+            "Strafford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 15490,
+        "population_2020" : 15490,
+        "population_2027" : 16124,
+        "land_area_2020" : 22.4
+    },
+    "Hooksett, Merrimack, NH" : {
+        "name" : "Hooksett",
+        "state" : "New Hampshire",
+        "FIPS" : "33-37220",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 14871,
+        "population_2020" : 14871,
+        "population_2027" : 15480,
+        "land_area_2020" : 36.4
+    },
+    "Lebanon, Grafton, NH" : {
+        "name" : "Lebanon",
+        "state" : "New Hampshire",
+        "FIPS" : "33-41300",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14282,
+        "population_2020" : 14282,
+        "population_2027" : 14867,
+        "land_area_2020" : 40.3
+    },
+    "Pelham, Hillsborough, NH" : {
+        "name" : "Pelham",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 14222,
+        "population_2020" : 14222,
+        "population_2027" : 14804,
+        "land_area_2020" : 26.4
+    },
+    "Claremont, Sullivan, NH" : {
+        "name" : "Claremont",
+        "state" : "New Hampshire",
+        "FIPS" : "33-12900",
+        "counties" : [
+            "Sullivan"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12949,
+        "population_2020" : 12949,
+        "population_2027" : 13479,
+        "land_area_2020" : 43.2
+    },
+    "Hanover, Grafton, NH" : {
+        "name" : "Hanover",
+        "state" : "New Hampshire",
+        "FIPS" : "33-33780",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 11870,
+        "population_2020" : 11870,
+        "population_2027" : 12356,
+        "land_area_2020" : 49.0
+    },
+    "Somersworth, Strafford, NH" : {
+        "name" : "Somersworth",
+        "state" : "New Hampshire",
+        "FIPS" : "33-69940",
+        "counties" : [
+            "Strafford"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11855,
+        "population_2020" : 11855,
+        "population_2027" : 12340,
+        "land_area_2020" : 9.8
+    },
+    "Amherst, Hillsborough, NH" : {
+        "name" : "Amherst",
+        "state" : "New Hampshire",
+        "FIPS" : "33-01220",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 11753,
+        "population_2020" : 11753,
+        "population_2027" : 12234,
+        "land_area_2020" : 34.2
+    },
+    "Raymond, Rockingham, NH" : {
+        "name" : "Raymond",
+        "state" : "New Hampshire",
+        "FIPS" : "33-63940",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 10684,
+        "population_2020" : 10684,
+        "population_2027" : 11122,
+        "land_area_2020" : 28.8
+    },
+    "Conway, Carroll, NH" : {
+        "name" : "Conway",
+        "state" : "New Hampshire",
+        "FIPS" : "33-14580",
+        "counties" : [
+            "Carroll"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9822,
+        "population_2020" : 9822,
+        "population_2027" : 10224,
+        "land_area_2020" : 69.5
+    },
+    "Newmarket, Rockingham, NH" : {
+        "name" : "Newmarket",
+        "state" : "New Hampshire",
+        "FIPS" : "33-52260",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9430,
+        "population_2020" : 9430,
+        "population_2027" : 9816,
+        "land_area_2020" : 12.5
+    },
+    "Berlin, Co\u00f6s, NH" : {
+        "name" : "Berlin",
+        "state" : "New Hampshire",
+        "FIPS" : "33-05140",
+        "counties" : [
+            "Co\u00f6s"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9425,
+        "population_2020" : 9425,
+        "population_2027" : 9811,
+        "land_area_2020" : 61.4
+    },
+    "Barrington, Strafford, NH" : {
+        "name" : "Barrington",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Strafford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9326,
+        "population_2020" : 9326,
+        "population_2027" : 9708,
+        "land_area_2020" : 46.6
+    },
+    "Weare, Hillsborough, NH" : {
+        "name" : "Weare",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9092,
+        "population_2020" : 9092,
+        "population_2027" : 9464,
+        "land_area_2020" : 58.8
+    },
+    "Hampstead, Rockingham, NH" : {
+        "name" : "Hampstead",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8998,
+        "population_2020" : 8998,
+        "population_2027" : 9366,
+        "land_area_2020" : 13.3
+    },
+    "Franklin, Merrimack, NH" : {
+        "name" : "Franklin",
+        "state" : "New Hampshire",
+        "FIPS" : "33-27380",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8741,
+        "population_2020" : 8741,
+        "population_2027" : 9099,
+        "land_area_2020" : 27.4
+    },
+    "Litchfield, Hillsborough, NH" : {
+        "name" : "Litchfield",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8478,
+        "population_2020" : 8478,
+        "population_2027" : 8825,
+        "land_area_2020" : 15.1
+    },
+    "Seabrook, Rockingham, NH" : {
+        "name" : "Seabrook",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8401,
+        "population_2020" : 8401,
+        "population_2027" : 8745,
+        "land_area_2020" : 8.9
+    },
+    "Hollis, Hillsborough, NH" : {
+        "name" : "Hollis",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8342,
+        "population_2020" : 8342,
+        "population_2027" : 8684,
+        "land_area_2020" : 31.8
+    },
+    "Bow, Merrimack, NH" : {
+        "name" : "Bow",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8229,
+        "population_2020" : 8229,
+        "population_2027" : 8566,
+        "land_area_2020" : 28.0
+    },
+    "Plaistow, Rockingham, NH" : {
+        "name" : "Plaistow",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7830,
+        "population_2020" : 7830,
+        "population_2027" : 8151,
+        "land_area_2020" : 10.6
+    },
+    "Gilford, Belknap, NH" : {
+        "name" : "Gilford",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Belknap"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7699,
+        "population_2020" : 7699,
+        "population_2027" : 8014,
+        "land_area_2020" : 38.9
+    },
+    "Stratham, Rockingham, NH" : {
+        "name" : "Stratham",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7669,
+        "population_2020" : 7669,
+        "population_2027" : 7983,
+        "land_area_2020" : 15.1
+    },
+    "Belmont, Belknap, NH" : {
+        "name" : "Belmont",
+        "state" : "New Hampshire",
+        "FIPS" : "33-04660",
+        "counties" : [
+            "Belknap"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7314,
+        "population_2020" : 7314,
+        "population_2027" : 7614,
+        "land_area_2020" : 30.5
+    },
+    "Swanzey, Cheshire, NH" : {
+        "name" : "Swanzey",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Cheshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7270,
+        "population_2020" : 7270,
+        "population_2027" : 7568,
+        "land_area_2020" : 45.0
+    },
+    "Pembroke, Merrimack, NH" : {
+        "name" : "Pembroke",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7207,
+        "population_2020" : 7207,
+        "population_2027" : 7502,
+        "land_area_2020" : 22.8
+    },
+    "Epping, Rockingham, NH" : {
+        "name" : "Epping",
+        "state" : "New Hampshire",
+        "FIPS" : "33-24580",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7125,
+        "population_2020" : 7125,
+        "population_2027" : 7417,
+        "land_area_2020" : 26.0
+    },
+    "Epping (CDP), Town, NH" : {
+        "name" : "Epping (CDP)",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Town"
+        ],
+        "type_class" : "Atkinson",
+        "population_2010" : 7087,
+        "population_2020" : 7087,
+        "population_2027" : 7377,
+        "land_area_2020" : 11.2
+    },
+    "Farmington, Strafford, NH" : {
+        "name" : "Farmington",
+        "state" : "New Hampshire",
+        "FIPS" : "33-25940",
+        "counties" : [
+            "Strafford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6722,
+        "population_2020" : 6722,
+        "population_2027" : 6997,
+        "land_area_2020" : 37.2
+    },
+    "Plymouth, Grafton, NH" : {
+        "name" : "Plymouth",
+        "state" : "New Hampshire",
+        "FIPS" : "33-62580",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6682,
+        "population_2020" : 6682,
+        "population_2027" : 6956,
+        "land_area_2020" : 28.1
+    },
+    "Meredith, Belknap, NH" : {
+        "name" : "Meredith",
+        "state" : "New Hampshire",
+        "FIPS" : "33-47060",
+        "counties" : [
+            "Belknap"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6662,
+        "population_2020" : 6662,
+        "population_2027" : 6935,
+        "land_area_2020" : 39.9
+    },
+    "Sandown, Rockingham, NH" : {
+        "name" : "Sandown",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6548,
+        "population_2020" : 6548,
+        "population_2027" : 6816,
+        "land_area_2020" : 13.9
+    },
+    "Rindge, Cheshire, NH" : {
+        "name" : "Rindge",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Cheshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6476,
+        "population_2020" : 6476,
+        "population_2027" : 6741,
+        "land_area_2020" : 37.2
+    },
+    "Peterborough, Hillsborough, NH" : {
+        "name" : "Peterborough",
+        "state" : "New Hampshire",
+        "FIPS" : "33-60500",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6418,
+        "population_2020" : 6418,
+        "population_2027" : 6681,
+        "land_area_2020" : 37.7
+    },
+    "Wolfeboro, Carroll, NH" : {
+        "name" : "Wolfeboro",
+        "state" : "New Hampshire",
+        "FIPS" : "33-86340",
+        "counties" : [
+            "Carroll"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6416,
+        "population_2020" : 6416,
+        "population_2027" : 6679,
+        "land_area_2020" : 47.9
+    },
+    "Newport, Sullivan County, NH" : {
+        "name" : "Newport",
+        "state" : "New Hampshire",
+        "FIPS" : "33-52500",
+        "counties" : [
+            "Sullivan County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6299,
+        "population_2020" : 6299,
+        "population_2027" : 6557,
+        "land_area_2020" : 43.6
+    },
+    "Kingston, Rockingham, NH" : {
+        "name" : "Kingston",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6202,
+        "population_2020" : 6202,
+        "population_2027" : 6456,
+        "land_area_2020" : 19.7
+    },
+    "Henniker, Merrimack, NH" : {
+        "name" : "Henniker",
+        "state" : "New Hampshire",
+        "FIPS" : "33-35460",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6185,
+        "population_2020" : 6185,
+        "population_2027" : 6438,
+        "land_area_2020" : 44.1
+    },
+    "New Boston, Hillsborough, NH" : {
+        "name" : "New Boston",
+        "state" : "New Hampshire",
+        "FIPS" : "33-50660",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6108,
+        "population_2020" : 6108,
+        "population_2027" : 6358,
+        "land_area_2020" : 42.8
+    },
+    "Littleton, Grafton, NH" : {
+        "name" : "Littleton",
+        "state" : "New Hampshire",
+        "FIPS" : "33-42500",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6005,
+        "population_2020" : 6005,
+        "population_2027" : 6251,
+        "land_area_2020" : 50.1
+    },
+    "Auburn, Rockingham, NH" : {
+        "name" : "Auburn",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5946,
+        "population_2020" : 5946,
+        "population_2027" : 6189,
+        "land_area_2020" : 25.2
+    },
+    "Hillsborough, Hillsborough, NH" : {
+        "name" : "Hillsborough",
+        "state" : "New Hampshire",
+        "FIPS" : "33-36020",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5939,
+        "population_2020" : 5939,
+        "population_2027" : 6182,
+        "land_area_2020" : 43.6
+    },
+    "Hopkinton, Merrimack, NH" : {
+        "name" : "Hopkinton",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5914,
+        "population_2020" : 5914,
+        "population_2027" : 6156,
+        "land_area_2020" : 43.4
+    },
+    "Alton, Belknap, NH" : {
+        "name" : "Alton",
+        "state" : "New Hampshire",
+        "FIPS" : "33-00980",
+        "counties" : [
+            "Belknap"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5894,
+        "population_2020" : 5894,
+        "population_2027" : 6135,
+        "land_area_2020" : 62.9
+    },
+    "Brookline, Hillsborough, NH" : {
+        "name" : "Brookline",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5639,
+        "population_2020" : 5639,
+        "population_2027" : 5870,
+        "land_area_2020" : 19.8
+    },
+    "Loudon, Merrimack, NH" : {
+        "name" : "Loudon",
+        "state" : "New Hampshire",
+        "FIPS" : "33-43300",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5576,
+        "population_2020" : 5576,
+        "population_2027" : 5804,
+        "land_area_2020" : 46.8
+    },
+    "Rye, Rockingham, NH" : {
+        "name" : "Rye",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5543,
+        "population_2020" : 5543,
+        "population_2027" : 5770,
+        "land_area_2020" : 12.6
+    },
+    "Jaffrey, Cheshire, NH" : {
+        "name" : "Jaffrey",
+        "state" : "New Hampshire",
+        "FIPS" : "33-38420",
+        "counties" : [
+            "Cheshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5320,
+        "population_2020" : 5320,
+        "population_2027" : 5538,
+        "land_area_2020" : 38.3
+    },
+    "Chester, Rockingham, NH" : {
+        "name" : "Chester",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5232,
+        "population_2020" : 5232,
+        "population_2027" : 5446,
+        "land_area_2020" : 25.9
+    },
+    "Nottingham, Rockingham, NH" : {
+        "name" : "Nottingham",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5229,
+        "population_2020" : 5229,
+        "population_2027" : 5443,
+        "land_area_2020" : 46.5
+    },
+    "New Ipswich, Hillsborough, NH" : {
+        "name" : "New Ipswich",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5204,
+        "population_2020" : 5204,
+        "population_2027" : 5417,
+        "land_area_2020" : 32.8
+    },
+    "Wakefield, Carroll, NH" : {
+        "name" : "Wakefield",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Carroll"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5201,
+        "population_2020" : 5201,
+        "population_2027" : 5414,
+        "land_area_2020" : 39.5
+    },
+    "Moultonborough, Carroll, NH" : {
+        "name" : "Moultonborough",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Carroll"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4918,
+        "population_2020" : 4918,
+        "population_2027" : 5119,
+        "land_area_2020" : 59.5
+    },
+    "Barnstead, Belknap, NH" : {
+        "name" : "Barnstead",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Belknap"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4915,
+        "population_2020" : 4915,
+        "population_2027" : 5116,
+        "land_area_2020" : 42.0
+    },
+    "Northfield, Merrimack, NH" : {
+        "name" : "Northfield",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4872,
+        "population_2020" : 4872,
+        "population_2027" : 5072,
+        "land_area_2020" : 28.8
+    },
+    "Deerfield, Rockingham, NH" : {
+        "name" : "Deerfield",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4855,
+        "population_2020" : 4855,
+        "population_2027" : 5054,
+        "land_area_2020" : 50.9
+    },
+    "Epsom, Merrimack, NH" : {
+        "name" : "Epsom",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4834,
+        "population_2020" : 4834,
+        "population_2027" : 5032,
+        "land_area_2020" : 34.2
+    },
+    "Newton, Rockingham, NH" : {
+        "name" : "Newton",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4820,
+        "population_2020" : 4820,
+        "population_2027" : 5017,
+        "land_area_2020" : 9.9
+    },
+    "Charlestown, Sullivan, NH" : {
+        "name" : "Charlestown",
+        "state" : "New Hampshire",
+        "FIPS" : "33-11300",
+        "counties" : [
+            "Sullivan"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4806,
+        "population_2020" : 4806,
+        "population_2027" : 5003,
+        "land_area_2020" : 35.8
+    },
+    "Fremont, Rockingham, NH" : {
+        "name" : "Fremont",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4739,
+        "population_2020" : 4739,
+        "population_2027" : 4933,
+        "land_area_2020" : 17.2
+    },
+    "Allenstown, Merrimack, NH" : {
+        "name" : "Allenstown",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4707,
+        "population_2020" : 4707,
+        "population_2027" : 4900,
+        "land_area_2020" : 20.3
+    },
+    "Northwood, Rockingham, NH" : {
+        "name" : "Northwood",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4641,
+        "population_2020" : 4641,
+        "population_2027" : 4831,
+        "land_area_2020" : 28.0
+    },
+    "Haverhill, Grafton County, NH" : {
+        "name" : "Haverhill",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4585,
+        "population_2020" : 4585,
+        "population_2027" : 4773,
+        "land_area_2020" : 51.0
+    },
+    "North Hampton, Rockingham, NH" : {
+        "name" : "North Hampton",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4538,
+        "population_2020" : 4538,
+        "population_2027" : 4724,
+        "land_area_2020" : 13.9
+    },
+    "Lee, Strafford, NH" : {
+        "name" : "Lee",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Strafford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4520,
+        "population_2020" : 4520,
+        "population_2027" : 4705,
+        "land_area_2020" : 20.0
+    },
+    "Brentwood, Rockingham County, NH" : {
+        "name" : "Brentwood",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4490,
+        "population_2020" : 4490,
+        "population_2027" : 4674,
+        "land_area_2020" : 16.8
+    },
+    "Milton, Strafford, NH" : {
+        "name" : "Milton",
+        "state" : "New Hampshire",
+        "FIPS" : "33-48580",
+        "counties" : [
+            "Strafford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4482,
+        "population_2020" : 4482,
+        "population_2027" : 4666,
+        "land_area_2020" : 33.1
+    },
+    "Enfield, Grafton, NH" : {
+        "name" : "Enfield",
+        "state" : "New Hampshire",
+        "FIPS" : "33-24260",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4465,
+        "population_2020" : 4465,
+        "population_2027" : 4648,
+        "land_area_2020" : 40.3
+    },
+    "Danville, Rockingham, NH" : {
+        "name" : "Danville",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4408,
+        "population_2020" : 4408,
+        "population_2027" : 4589,
+        "land_area_2020" : 11.7
+    },
+    "New London, Merrimack, NH" : {
+        "name" : "New London",
+        "state" : "New Hampshire",
+        "FIPS" : "33-52020",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4400,
+        "population_2020" : 4400,
+        "population_2027" : 4580,
+        "land_area_2020" : 22.5
+    },
+    "Ossipee, Carroll County, NH" : {
+        "name" : "Ossipee",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4372,
+        "population_2020" : 4372,
+        "population_2027" : 4551,
+        "land_area_2020" : 70.8
+    },
+    "Strafford, Strafford, NH" : {
+        "name" : "Strafford",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Strafford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4230,
+        "population_2020" : 4230,
+        "population_2027" : 4403,
+        "land_area_2020" : 49.2
+    },
+    "Winchester, Cheshire, NH" : {
+        "name" : "Winchester",
+        "state" : "New Hampshire",
+        "FIPS" : "33-85460",
+        "counties" : [
+            "Cheshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4150,
+        "population_2020" : 4150,
+        "population_2027" : 4320,
+        "land_area_2020" : 54.9
+    },
+    "Pittsfield, Merrimack, NH" : {
+        "name" : "Pittsfield",
+        "state" : "New Hampshire",
+        "FIPS" : "33-61860",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4075,
+        "population_2020" : 4075,
+        "population_2027" : 4242,
+        "land_area_2020" : 23.9
+    },
+    "Greenland, Rockingham, NH" : {
+        "name" : "Greenland",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4067,
+        "population_2020" : 4067,
+        "population_2027" : 4234,
+        "land_area_2020" : 10.5
+    },
+    "Candia, Rockingham, NH" : {
+        "name" : "Candia",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4013,
+        "population_2020" : 4013,
+        "population_2027" : 4177,
+        "land_area_2020" : 30.3
+    },
+    "Boscawen, Merrimack, NH" : {
+        "name" : "Boscawen",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3998,
+        "population_2020" : 3998,
+        "population_2027" : 4162,
+        "land_area_2020" : 24.7
+    },
+    "Tilton, Belknap, NH" : {
+        "name" : "Tilton",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Belknap"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3962,
+        "population_2020" : 3962,
+        "population_2027" : 4124,
+        "land_area_2020" : 11.1
+    },
+    "Hinsdale, Cheshire, NH" : {
+        "name" : "Hinsdale",
+        "state" : "New Hampshire",
+        "FIPS" : "33-36580",
+        "counties" : [
+            "Cheshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3948,
+        "population_2020" : 3948,
+        "population_2027" : 4110,
+        "land_area_2020" : 20.6
+    },
+    "Gilmanton, Belknap, NH" : {
+        "name" : "Gilmanton",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Belknap"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3945,
+        "population_2020" : 3945,
+        "population_2027" : 4107,
+        "land_area_2020" : 57.2
+    },
+    "Wilton, Hillsborough, NH" : {
+        "name" : "Wilton",
+        "state" : "New Hampshire",
+        "FIPS" : "33-85140",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3896,
+        "population_2020" : 3896,
+        "population_2027" : 4056,
+        "land_area_2020" : 25.8
+    },
+    "Canaan, Grafton, NH" : {
+        "name" : "Canaan",
+        "state" : "New Hampshire",
+        "FIPS" : "33-08900",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3794,
+        "population_2020" : 3794,
+        "population_2027" : 3949,
+        "land_area_2020" : 53.2
+    },
+    "Walpole, Cheshire, NH" : {
+        "name" : "Walpole",
+        "state" : "New Hampshire",
+        "FIPS" : "33-78340",
+        "counties" : [
+            "Cheshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3633,
+        "population_2020" : 3633,
+        "population_2027" : 3782,
+        "land_area_2020" : 35.2
+    },
+    "Chesterfield, Cheshire, NH" : {
+        "name" : "Chesterfield",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Cheshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3552,
+        "population_2020" : 3552,
+        "population_2027" : 3697,
+        "land_area_2020" : 45.6
+    },
+    "Grantham, Sullivan, NH" : {
+        "name" : "Grantham",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Sullivan"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3404,
+        "population_2020" : 3404,
+        "population_2027" : 3543,
+        "land_area_2020" : 27.2
+    },
+    "Campton, Grafton, NH" : {
+        "name" : "Campton",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3343,
+        "population_2020" : 3343,
+        "population_2027" : 3480,
+        "land_area_2020" : 51.9
+    },
+    "Sunapee, Sullivan, NH" : {
+        "name" : "Sunapee",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Sullivan"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3342,
+        "population_2020" : 3342,
+        "population_2027" : 3479,
+        "land_area_2020" : 21.1
+    },
+    "Bristol, Grafton, NH" : {
+        "name" : "Bristol",
+        "state" : "New Hampshire",
+        "FIPS" : "33-07620",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3244,
+        "population_2020" : 3244,
+        "population_2027" : 3377,
+        "land_area_2020" : 17.1
+    },
+    "Lancaster, Co\u00f6s County, NH" : {
+        "name" : "Lancaster",
+        "state" : "New Hampshire",
+        "FIPS" : "33-40340",
+        "counties" : [
+            "Co\u00f6s County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3218,
+        "population_2020" : 3218,
+        "population_2027" : 3350,
+        "land_area_2020" : 49.8
+    },
+    "Bartlett, Carroll, NH" : {
+        "name" : "Bartlett",
+        "state" : "New Hampshire",
+        "FIPS" : "33-03620",
+        "counties" : [
+            "Carroll"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3200,
+        "population_2020" : 3200,
+        "population_2027" : 3331,
+        "land_area_2020" : 74.9
+    },
+    "Sanbornton, Belknap, NH" : {
+        "name" : "Sanbornton",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Belknap"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3026,
+        "population_2020" : 3026,
+        "population_2027" : 3150,
+        "land_area_2020" : 47.6
+    },
+    "Dunbarton, Merrimack, NH" : {
+        "name" : "Dunbarton",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3005,
+        "population_2020" : 3005,
+        "population_2027" : 3128,
+        "land_area_2020" : 30.9
+    },
+    "Warner, Merrimack, NH" : {
+        "name" : "Warner",
+        "state" : "New Hampshire",
+        "FIPS" : "33-78500",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2937,
+        "population_2020" : 2937,
+        "population_2027" : 3057,
+        "land_area_2020" : 55.6
+    },
+    "Tamworth, Carroll, NH" : {
+        "name" : "Tamworth",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Carroll"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2812,
+        "population_2020" : 2812,
+        "population_2027" : 2927,
+        "land_area_2020" : 59.7
+    },
+    "Thornton, Grafton, NH" : {
+        "name" : "Thornton",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2708,
+        "population_2020" : 2708,
+        "population_2027" : 2819,
+        "land_area_2020" : 50.2
+    },
+    "Gorham, Co\u00f6s, NH" : {
+        "name" : "Gorham",
+        "state" : "New Hampshire",
+        "FIPS" : "33-30180",
+        "counties" : [
+            "Co\u00f6s"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2698,
+        "population_2020" : 2698,
+        "population_2027" : 2808,
+        "land_area_2020" : 31.9
+    },
+    "New Durham, Strafford, NH" : {
+        "name" : "New Durham",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Strafford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2693,
+        "population_2020" : 2693,
+        "population_2027" : 2803,
+        "land_area_2020" : 41.5
+    },
+    "Chichester, Merrimack, NH" : {
+        "name" : "Chichester",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2665,
+        "population_2020" : 2665,
+        "population_2027" : 2774,
+        "land_area_2020" : 21.1
+    },
+    "Antrim, Hillsborough, NH" : {
+        "name" : "Antrim",
+        "state" : "New Hampshire",
+        "FIPS" : "33-01620",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2651,
+        "population_2020" : 2651,
+        "population_2027" : 2760,
+        "land_area_2020" : 35.7
+    },
+    "Rollinsford, Strafford, NH" : {
+        "name" : "Rollinsford",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Strafford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2597,
+        "population_2020" : 2597,
+        "population_2027" : 2703,
+        "land_area_2020" : 7.3
+    },
+    "Mont Vernon, Hillsborough, NH" : {
+        "name" : "Mont Vernon",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2584,
+        "population_2020" : 2584,
+        "population_2027" : 2690,
+        "land_area_2020" : 16.6
+    },
+    "Madison, Carroll, NH" : {
+        "name" : "Madison",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Carroll"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2565,
+        "population_2020" : 2565,
+        "population_2027" : 2670,
+        "land_area_2020" : 38.5
+    },
+    "Whitefield, Co\u00f6s, NH" : {
+        "name" : "Whitefield",
+        "state" : "New Hampshire",
+        "FIPS" : "33-84340",
+        "counties" : [
+            "Co\u00f6s"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2490,
+        "population_2020" : 2490,
+        "population_2027" : 2592,
+        "land_area_2020" : 34.2
+    },
+    "Bethlehem, Grafton, NH" : {
+        "name" : "Bethlehem",
+        "state" : "New Hampshire",
+        "FIPS" : "33-05380",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2484,
+        "population_2020" : 2484,
+        "population_2027" : 2586,
+        "land_area_2020" : 90.6
+    },
+    "Tuftonboro, Carroll, NH" : {
+        "name" : "Tuftonboro",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Carroll"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2467,
+        "population_2020" : 2467,
+        "population_2027" : 2568,
+        "land_area_2020" : 41.0
+    },
+    "Plainfield, Sullivan, NH" : {
+        "name" : "Plainfield",
+        "state" : "New Hampshire",
+        "FIPS" : "33-62260",
+        "counties" : [
+            "Sullivan"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2459,
+        "population_2020" : 2459,
+        "population_2027" : 2560,
+        "land_area_2020" : 52.2
+    },
+    "East Kingston, Rockingham, NH" : {
+        "name" : "East Kingston",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2441,
+        "population_2020" : 2441,
+        "population_2027" : 2541,
+        "land_area_2020" : 10.0
+    },
+    "Andover, Merrimack, NH" : {
+        "name" : "Andover",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2406,
+        "population_2020" : 2406,
+        "population_2027" : 2505,
+        "land_area_2020" : 40.5
+    },
+    "Hampton Falls, Rockingham, NH" : {
+        "name" : "Hampton Falls",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2403,
+        "population_2020" : 2403,
+        "population_2027" : 2501,
+        "land_area_2020" : 12.2
+    },
+    "Canterbury, Merrimack, NH" : {
+        "name" : "Canterbury",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2389,
+        "population_2020" : 2389,
+        "population_2027" : 2487,
+        "land_area_2020" : 43.6
+    },
+    "New Hampton, Belknap, NH" : {
+        "name" : "New Hampton",
+        "state" : "New Hampshire",
+        "FIPS" : "33-51460",
+        "counties" : [
+            "Belknap"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2377,
+        "population_2020" : 2377,
+        "population_2027" : 2474,
+        "land_area_2020" : 36.7
+    },
+    "Fitzwilliam, Cheshire, NH" : {
+        "name" : "Fitzwilliam",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Cheshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2351,
+        "population_2020" : 2351,
+        "population_2027" : 2447,
+        "land_area_2020" : 34.6
+    },
+    "Newbury, Merrimack, NH" : {
+        "name" : "Newbury",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2172,
+        "population_2020" : 2172,
+        "population_2027" : 2261,
+        "land_area_2020" : 35.8
+    },
+    "Troy, Cheshire, NH" : {
+        "name" : "Troy",
+        "state" : "New Hampshire",
+        "FIPS" : "33-77300",
+        "counties" : [
+            "Cheshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2130,
+        "population_2020" : 2130,
+        "population_2027" : 2217,
+        "land_area_2020" : 17.4
+    },
+    "Northumberland, Co\u00f6s, NH" : {
+        "name" : "Northumberland",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Co\u00f6s"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2126,
+        "population_2020" : 2126,
+        "population_2027" : 2213,
+        "land_area_2020" : 35.7
+    },
+    "Marlborough, Cheshire, NH" : {
+        "name" : "Marlborough",
+        "state" : "New Hampshire",
+        "FIPS" : "33-45380",
+        "counties" : [
+            "Cheshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2096,
+        "population_2020" : 2096,
+        "population_2027" : 2182,
+        "land_area_2020" : 20.4
+    },
+    "Kensington, Rockingham, NH" : {
+        "name" : "Kensington",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2095,
+        "population_2020" : 2095,
+        "population_2027" : 2181,
+        "land_area_2020" : 11.9
+    },
+    "Colebrook, Co\u00f6s, NH" : {
+        "name" : "Colebrook",
+        "state" : "New Hampshire",
+        "FIPS" : "33-13700",
+        "counties" : [
+            "Co\u00f6s"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2084,
+        "population_2020" : 2084,
+        "population_2027" : 2169,
+        "land_area_2020" : 40.7
+    },
+    "Holderness, Grafton, NH" : {
+        "name" : "Holderness",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2004,
+        "population_2020" : 2004,
+        "population_2027" : 2086,
+        "land_area_2020" : 30.5
+    },
+    "Sutton, Merrimack, NH" : {
+        "name" : "Sutton",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1978,
+        "population_2020" : 1978,
+        "population_2027" : 2059,
+        "land_area_2020" : 42.3
+    },
+    "Greenville, Hillsborough, NH" : {
+        "name" : "Greenville",
+        "state" : "New Hampshire",
+        "FIPS" : "33-31860",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1974,
+        "population_2020" : 1974,
+        "population_2027" : 2055,
+        "land_area_2020" : 6.9
+    },
+    "Ashland, Grafton, NH" : {
+        "name" : "Ashland",
+        "state" : "New Hampshire",
+        "FIPS" : "33-01940",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1938,
+        "population_2020" : 1938,
+        "population_2027" : 2017,
+        "land_area_2020" : 11.0
+    },
+    "Madbury, Strafford, NH" : {
+        "name" : "Madbury",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Strafford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1918,
+        "population_2020" : 1918,
+        "population_2027" : 1997,
+        "land_area_2020" : 11.7
+    },
+    "Webster, Merrimack, NH" : {
+        "name" : "Webster",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1913,
+        "population_2020" : 1913,
+        "population_2027" : 1991,
+        "land_area_2020" : 27.9
+    },
+    "Deering, Hillsborough, NH" : {
+        "name" : "Deering",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1904,
+        "population_2020" : 1904,
+        "population_2027" : 1982,
+        "land_area_2020" : 30.8
+    },
+    "Alstead, Cheshire, NH" : {
+        "name" : "Alstead",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Cheshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1864,
+        "population_2020" : 1864,
+        "population_2027" : 1940,
+        "land_area_2020" : 38.8
+    },
+    "Middleton, Strafford, NH" : {
+        "name" : "Middleton",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Strafford"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1823,
+        "population_2020" : 1823,
+        "population_2027" : 1898,
+        "land_area_2020" : 18.1
+    },
+    "Alexandria, Grafton, NH" : {
+        "name" : "Alexandria",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1776,
+        "population_2020" : 1776,
+        "population_2027" : 1849,
+        "land_area_2020" : 43.0
+    },
+    "Newfields, Rockingham, NH" : {
+        "name" : "Newfields",
+        "state" : "New Hampshire",
+        "FIPS" : "33-51300",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1769,
+        "population_2020" : 1769,
+        "population_2027" : 1841,
+        "land_area_2020" : 7.0
+    },
+    "Lyme, Grafton, NH" : {
+        "name" : "Lyme",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1745,
+        "population_2020" : 1745,
+        "population_2027" : 1816,
+        "land_area_2020" : 53.8
+    },
+    "Hancock, Hillsborough, NH" : {
+        "name" : "Hancock",
+        "state" : "New Hampshire",
+        "FIPS" : "33-33620",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1731,
+        "population_2020" : 1731,
+        "population_2027" : 1802,
+        "land_area_2020" : 30.0
+    },
+    "Greenfield, Hillsborough, NH" : {
+        "name" : "Greenfield",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1716,
+        "population_2020" : 1716,
+        "population_2027" : 1786,
+        "land_area_2020" : 26.1
+    },
+    "Westmoreland, Cheshire, NH" : {
+        "name" : "Westmoreland",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Cheshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1706,
+        "population_2020" : 1706,
+        "population_2027" : 1776,
+        "land_area_2020" : 35.9
+    },
+    "Lyndeborough, Hillsborough, NH" : {
+        "name" : "Lyndeborough",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1702,
+        "population_2020" : 1702,
+        "population_2027" : 1772,
+        "land_area_2020" : 30.4
+    },
+    "Effingham, Carroll, NH" : {
+        "name" : "Effingham",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Carroll"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1691,
+        "population_2020" : 1691,
+        "population_2027" : 1760,
+        "land_area_2020" : 38.4
+    },
+    "Freedom, Carroll, NH" : {
+        "name" : "Freedom",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Carroll"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1689,
+        "population_2020" : 1689,
+        "population_2027" : 1758,
+        "land_area_2020" : 35.0
+    },
+    "Bradford, Merrimack, NH" : {
+        "name" : "Bradford",
+        "state" : "New Hampshire",
+        "FIPS" : "33-06900",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1662,
+        "population_2020" : 1662,
+        "population_2027" : 1730,
+        "land_area_2020" : 35.3
+    },
+    "Lincoln, Grafton, NH" : {
+        "name" : "Lincoln",
+        "state" : "New Hampshire",
+        "FIPS" : "33-41780",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1631,
+        "population_2020" : 1631,
+        "population_2027" : 1698,
+        "land_area_2020" : 130.3
+    },
+    "Lisbon, Grafton, NH" : {
+        "name" : "Lisbon",
+        "state" : "New Hampshire",
+        "FIPS" : "33-41940",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1621,
+        "population_2020" : 1621,
+        "population_2027" : 1687,
+        "land_area_2020" : 26.2
+    },
+    "Cornish, Sullivan, NH" : {
+        "name" : "Cornish",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Sullivan"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1616,
+        "population_2020" : 1616,
+        "population_2027" : 1682,
+        "land_area_2020" : 42.1
+    },
+    "Francestown, Hillsborough, NH" : {
+        "name" : "Francestown",
+        "state" : "New Hampshire",
+        "FIPS" : "33-27060",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1610,
+        "population_2020" : 1610,
+        "population_2027" : 1676,
+        "land_area_2020" : 30.2
+    },
+    "Dublin, Cheshire, NH" : {
+        "name" : "Dublin",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Cheshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1532,
+        "population_2020" : 1532,
+        "population_2027" : 1595,
+        "land_area_2020" : 28.0
+    },
+    "Unity, Sullivan, NH" : {
+        "name" : "Unity",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Sullivan"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1518,
+        "population_2020" : 1518,
+        "population_2027" : 1580,
+        "land_area_2020" : 36.9
+    },
+    "Bennington, Hillsborough, NH" : {
+        "name" : "Bennington",
+        "state" : "New Hampshire",
+        "FIPS" : "33-04820",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1501,
+        "population_2020" : 1501,
+        "population_2027" : 1562,
+        "land_area_2020" : 11.0
+    },
+    "Rumney, Grafton, NH" : {
+        "name" : "Rumney",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1498,
+        "population_2020" : 1498,
+        "population_2027" : 1559,
+        "land_area_2020" : 41.7
+    },
+    "Sandwich, Carroll, NH" : {
+        "name" : "Sandwich",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Carroll"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1466,
+        "population_2020" : 1466,
+        "population_2027" : 1526,
+        "land_area_2020" : 90.2
+    },
+    "Mason, Hillsborough, NH" : {
+        "name" : "Mason",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1448,
+        "population_2020" : 1448,
+        "population_2027" : 1507,
+        "land_area_2020" : 23.9
+    },
+    "Woodstock, Grafton, NH" : {
+        "name" : "Woodstock",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1434,
+        "population_2020" : 1434,
+        "population_2027" : 1493,
+        "land_area_2020" : 58.7
+    },
+    "Salisbury, Merrimack, NH" : {
+        "name" : "Salisbury",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1422,
+        "population_2020" : 1422,
+        "population_2027" : 1480,
+        "land_area_2020" : 40.0
+    },
+    "Wilmot, Merrimack, NH" : {
+        "name" : "Wilmot",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1407,
+        "population_2020" : 1407,
+        "population_2027" : 1465,
+        "land_area_2020" : 29.6
+    },
+    "Grafton, Grafton, NH" : {
+        "name" : "Grafton",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1385,
+        "population_2020" : 1385,
+        "population_2027" : 1442,
+        "land_area_2020" : 41.7
+    },
+    "Temple, Hillsborough, NH" : {
+        "name" : "Temple",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1382,
+        "population_2020" : 1382,
+        "population_2027" : 1439,
+        "land_area_2020" : 22.2
+    },
+    "Stoddard, Cheshire, NH" : {
+        "name" : "Stoddard",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Cheshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1374,
+        "population_2020" : 1374,
+        "population_2027" : 1430,
+        "land_area_2020" : 50.9
+    },
+    "Milan, Co\u00f6s, NH" : {
+        "name" : "Milan",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Co\u00f6s"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1358,
+        "population_2020" : 1358,
+        "population_2027" : 1414,
+        "land_area_2020" : 63.8
+    },
+    "Springfield, Sullivan, NH" : {
+        "name" : "Springfield",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Sullivan"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1259,
+        "population_2020" : 1259,
+        "population_2027" : 1311,
+        "land_area_2020" : 43.2
+    },
+    "Danbury, Merrimack, NH" : {
+        "name" : "Danbury",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1250,
+        "population_2020" : 1250,
+        "population_2027" : 1301,
+        "land_area_2020" : 37.5
+    },
+    "Orford, Grafton, NH" : {
+        "name" : "Orford",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1237,
+        "population_2020" : 1237,
+        "population_2027" : 1288,
+        "land_area_2020" : 46.7
+    },
+    "Richmond, Cheshire, NH" : {
+        "name" : "Richmond",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Cheshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1197,
+        "population_2020" : 1197,
+        "population_2027" : 1246,
+        "land_area_2020" : 37.6
+    },
+    "Washington, Sullivan, NH" : {
+        "name" : "Washington",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Sullivan"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1192,
+        "population_2020" : 1192,
+        "population_2027" : 1241,
+        "land_area_2020" : 45.4
+    },
+    "Bridgewater, Grafton, NH" : {
+        "name" : "Bridgewater",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1160,
+        "population_2020" : 1160,
+        "population_2027" : 1208,
+        "land_area_2020" : 21.3
+    },
+    "Lempster, Sullivan, NH" : {
+        "name" : "Lempster",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Sullivan"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1118,
+        "population_2020" : 1118,
+        "population_2027" : 1164,
+        "land_area_2020" : 32.3
+    },
+    "Franconia, Grafton, NH" : {
+        "name" : "Franconia",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1083,
+        "population_2020" : 1083,
+        "population_2027" : 1127,
+        "land_area_2020" : 65.7
+    },
+    "Bath, Grafton, NH" : {
+        "name" : "Bath",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1077,
+        "population_2020" : 1077,
+        "population_2027" : 1121,
+        "land_area_2020" : 37.7
+    },
+    "Jefferson, Co\u00f6s, NH" : {
+        "name" : "Jefferson",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Co\u00f6s"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1043,
+        "population_2020" : 1043,
+        "population_2027" : 1086,
+        "land_area_2020" : 50.2
+    },
+    "Center Harbor, Belknap, NH" : {
+        "name" : "Center Harbor",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Belknap"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1040,
+        "population_2020" : 1040,
+        "population_2027" : 1083,
+        "land_area_2020" : 13.4
+    },
+    "Jackson, Carroll, NH" : {
+        "name" : "Jackson",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Carroll"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1028,
+        "population_2020" : 1028,
+        "population_2027" : 1070,
+        "land_area_2020" : 66.9
+    },
+    "Hill, Merrimack, NH" : {
+        "name" : "Hill",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Merrimack"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1017,
+        "population_2020" : 1017,
+        "population_2027" : 1059,
+        "land_area_2020" : 26.7
+    },
+    "New Castle, Rockingham, NH" : {
+        "name" : "New Castle",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1000,
+        "population_2020" : 1000,
+        "population_2027" : 1041,
+        "land_area_2020" : 0.8
+    },
+    "Harrisville, Cheshire, NH" : {
+        "name" : "Harrisville",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Cheshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 984,
+        "population_2020" : 984,
+        "population_2027" : 1024,
+        "land_area_2020" : 18.6
+    },
+    "Dalton, Co\u00f6s, NH" : {
+        "name" : "Dalton",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Co\u00f6s"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 933,
+        "population_2020" : 933,
+        "population_2027" : 971,
+        "land_area_2020" : 27.5
+    },
+    "South Hampton, Rockingham, NH" : {
+        "name" : "South Hampton",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 894,
+        "population_2020" : 894,
+        "population_2027" : 931,
+        "land_area_2020" : 7.9
+    },
+    "Monroe, Grafton, NH" : {
+        "name" : "Monroe",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 864,
+        "population_2020" : 864,
+        "population_2027" : 899,
+        "land_area_2020" : 22.3
+    },
+    "Acworth, Sullivan, NH" : {
+        "name" : "Acworth",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Sullivan"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 853,
+        "population_2020" : 853,
+        "population_2027" : 888,
+        "land_area_2020" : 38.9
+    },
+    "Wentworth, Grafton, NH" : {
+        "name" : "Wentworth",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 845,
+        "population_2020" : 845,
+        "population_2027" : 880,
+        "land_area_2020" : 41.4
+    },
+    "Warren, Grafton, NH" : {
+        "name" : "Warren",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 825,
+        "population_2020" : 825,
+        "population_2027" : 859,
+        "land_area_2020" : 48.5
+    },
+    "Carroll, Co\u00f6s, NH" : {
+        "name" : "Carroll",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Co\u00f6s"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 820,
+        "population_2020" : 820,
+        "population_2027" : 854,
+        "land_area_2020" : 50.2
+    },
+    "Surry, Cheshire, NH" : {
+        "name" : "Surry",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Cheshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 820,
+        "population_2020" : 820,
+        "population_2027" : 854,
+        "land_area_2020" : 15.6
+    },
+    "Stewartstown, Co\u00f6s, NH" : {
+        "name" : "Stewartstown",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Co\u00f6s"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 813,
+        "population_2020" : 813,
+        "population_2027" : 846,
+        "land_area_2020" : 46.2
+    },
+    "Newington, Rockingham, NH" : {
+        "name" : "Newington",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Rockingham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 811,
+        "population_2020" : 811,
+        "population_2027" : 844,
+        "land_area_2020" : 8.2
+    },
+    "Croydon, Sullivan, NH" : {
+        "name" : "Croydon",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Sullivan"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 801,
+        "population_2020" : 801,
+        "population_2027" : 834,
+        "land_area_2020" : 36.7
+    },
+    "Pittsburg, Co\u00f6s, NH" : {
+        "name" : "Pittsburg",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Co\u00f6s"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 800,
+        "population_2020" : 800,
+        "population_2027" : 833,
+        "land_area_2020" : 281.4
+    },
+    "Goshen, Sullivan, NH" : {
+        "name" : "Goshen",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Sullivan"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 796,
+        "population_2020" : 796,
+        "population_2027" : 829,
+        "land_area_2020" : 22.5
+    },
+    "Piermont, Grafton, NH" : {
+        "name" : "Piermont",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 769,
+        "population_2020" : 769,
+        "population_2027" : 800,
+        "land_area_2020" : 38.5
+    },
+    "Albany, Carroll, NH" : {
+        "name" : "Albany",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Carroll"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 759,
+        "population_2020" : 759,
+        "population_2027" : 790,
+        "land_area_2020" : 73.6
+    },
+    "Brookfield, Carroll, NH" : {
+        "name" : "Brookfield",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Carroll"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 755,
+        "population_2020" : 755,
+        "population_2027" : 786,
+        "land_area_2020" : 22.9
+    },
+    "Gilsum, Cheshire, NH" : {
+        "name" : "Gilsum",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Cheshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 752,
+        "population_2020" : 752,
+        "population_2027" : 783,
+        "land_area_2020" : 16.7
+    },
+    "Marlow, Cheshire, NH" : {
+        "name" : "Marlow",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Cheshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 749,
+        "population_2020" : 749,
+        "population_2027" : 780,
+        "land_area_2020" : 26.0
+    },
+    "Stratford, Co\u00f6s, NH" : {
+        "name" : "Stratford",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Co\u00f6s"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 662,
+        "population_2020" : 662,
+        "population_2027" : 689,
+        "land_area_2020" : 79.5
+    },
+    "Columbia, Co\u00f6s, NH" : {
+        "name" : "Columbia",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Co\u00f6s"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 659,
+        "population_2020" : 659,
+        "population_2027" : 686,
+        "land_area_2020" : 60.3
+    },
+    "Sullivan, Cheshire, NH" : {
+        "name" : "Sullivan",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Cheshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 658,
+        "population_2020" : 658,
+        "population_2027" : 685,
+        "land_area_2020" : 18.5
+    },
+    "Langdon, Sullivan, NH" : {
+        "name" : "Langdon",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Sullivan"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 651,
+        "population_2020" : 651,
+        "population_2027" : 678,
+        "land_area_2020" : 16.3
+    },
+    "Sugar Hill, Grafton, NH" : {
+        "name" : "Sugar Hill",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 647,
+        "population_2020" : 647,
+        "population_2027" : 673,
+        "land_area_2020" : 17.0
+    },
+    "Hebron, Grafton, NH" : {
+        "name" : "Hebron",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 632,
+        "population_2020" : 632,
+        "population_2027" : 658,
+        "land_area_2020" : 16.5
+    },
+    "Nelson, Cheshire, NH" : {
+        "name" : "Nelson",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Cheshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 629,
+        "population_2020" : 629,
+        "population_2027" : 655,
+        "land_area_2020" : 21.9
+    },
+    "Lyman, Grafton, NH" : {
+        "name" : "Lyman",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 585,
+        "population_2020" : 585,
+        "population_2027" : 609,
+        "land_area_2020" : 28.5
+    },
+    "Groton, Grafton, NH" : {
+        "name" : "Groton",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 569,
+        "population_2020" : 569,
+        "population_2027" : 592,
+        "land_area_2020" : 40.8
+    },
+    "Waterville Valley, Grafton, NH" : {
+        "name" : "Waterville Valley",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 508,
+        "population_2020" : 508,
+        "population_2027" : 529,
+        "land_area_2020" : 64.9
+    },
+    "Stark, Co\u00f6s, NH" : {
+        "name" : "Stark",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Co\u00f6s"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 478,
+        "population_2020" : 478,
+        "population_2027" : 498,
+        "land_area_2020" : 58.7
+    },
+    "Landaff, Grafton, NH" : {
+        "name" : "Landaff",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 446,
+        "population_2020" : 446,
+        "population_2027" : 464,
+        "land_area_2020" : 28.4
+    },
+    "Eaton, Carroll, NH" : {
+        "name" : "Eaton",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Carroll"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 405,
+        "population_2020" : 405,
+        "population_2027" : 422,
+        "land_area_2020" : 24.3
+    },
+    "Benton, Grafton, NH" : {
+        "name" : "Benton",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 374,
+        "population_2020" : 374,
+        "population_2027" : 389,
+        "land_area_2020" : 48.2
+    },
+    "Sharon, Hillsborough, NH" : {
+        "name" : "Sharon",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 359,
+        "population_2020" : 359,
+        "population_2027" : 374,
+        "land_area_2020" : 15.6
+    },
+    "Shelburne, Co\u00f6s, NH" : {
+        "name" : "Shelburne",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Co\u00f6s"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 353,
+        "population_2020" : 353,
+        "population_2027" : 367,
+        "land_area_2020" : 47.9
+    },
+    "Chatham, Carroll, NH" : {
+        "name" : "Chatham",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Carroll"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 341,
+        "population_2020" : 341,
+        "population_2027" : 355,
+        "land_area_2020" : 56.7
+    },
+    "Dorchester, Grafton, NH" : {
+        "name" : "Dorchester",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 339,
+        "population_2020" : 339,
+        "population_2027" : 353,
+        "land_area_2020" : 44.7
+    },
+    "Randolph, Co\u00f6s, NH" : {
+        "name" : "Randolph",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Co\u00f6s"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 328,
+        "population_2020" : 328,
+        "population_2027" : 341,
+        "land_area_2020" : 47.1
+    },
+    "Dummer, Co\u00f6s, NH" : {
+        "name" : "Dummer",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Co\u00f6s"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 306,
+        "population_2020" : 306,
+        "population_2027" : 319,
+        "land_area_2020" : 48.2
+    },
+    "Errol, Co\u00f6s, NH" : {
+        "name" : "Errol",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Co\u00f6s"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 298,
+        "population_2020" : 298,
+        "population_2027" : 310,
+        "land_area_2020" : 60.6
+    },
+    "Clarksville, Co\u00f6s, NH" : {
+        "name" : "Clarksville",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Co\u00f6s"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 294,
+        "population_2020" : 294,
+        "population_2027" : 306,
+        "land_area_2020" : 60.1
+    },
+    "Easton, Grafton, NH" : {
+        "name" : "Easton",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 292,
+        "population_2020" : 292,
+        "population_2027" : 304,
+        "land_area_2020" : 31.2
+    },
+    "Orange, Grafton, NH" : {
+        "name" : "Orange",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 277,
+        "population_2020" : 277,
+        "population_2027" : 288,
+        "land_area_2020" : 23.2
+    },
+    "Windsor, Hillsborough, NH" : {
+        "name" : "Windsor",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Hillsborough"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 262,
+        "population_2020" : 262,
+        "population_2027" : 273,
+        "land_area_2020" : 8.3
+    },
+    "Roxbury, Cheshire, NH" : {
+        "name" : "Roxbury",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Cheshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 220,
+        "population_2020" : 220,
+        "population_2027" : 229,
+        "land_area_2020" : 11.9
+    },
+    "Ellsworth, Grafton, NH" : {
+        "name" : "Ellsworth",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Grafton"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 93,
+        "population_2020" : 93,
+        "population_2027" : 97,
+        "land_area_2020" : 21.4
+    },
+    "Hart's Location, Carroll, NH" : {
+        "name" : "Hart's Location",
+        "state" : "New Hampshire",
+        "FIPS" : "None",
+        "counties" : [
+            "Carroll"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 68,
+        "population_2020" : 68,
+        "population_2027" : 71,
+        "land_area_2020" : 18.7
+    }
+}

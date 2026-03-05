@@ -1,0 +1,1384 @@
+{
+    "Alamogordo, Otero County, NM" : {
+        "name" : "Alamogordo",
+        "state" : "New Mexico",
+        "FIPS" : "35-01780",
+        "counties" : [
+            "Otero County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 30403,
+        "population_2020" : 30898,
+        "population_2027" : 32813,
+        "land_area_2020" : 21.39
+    },
+    "Albuquerque, Bernalillo County, NM" : {
+        "name" : "Albuquerque",
+        "state" : "New Mexico",
+        "FIPS" : "35-02000",
+        "counties" : [
+            "Bernalillo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 545852,
+        "population_2020" : 564559,
+        "population_2027" : 607078,
+        "land_area_2020" : 187.27
+    },
+    "Angel Fire, Colfax County, NM" : {
+        "name" : "Angel Fire",
+        "state" : "New Mexico",
+        "FIPS" : "35-03400",
+        "counties" : [
+            "Colfax County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 1216,
+        "population_2020" : 1192,
+        "population_2027" : 1235,
+        "land_area_2020" : 28.81
+    },
+    "Anthony, Do\u00f1a Ana County, NM" : {
+        "name" : "Anthony",
+        "state" : "New Mexico",
+        "FIPS" : "35-03820",
+        "counties" : [
+            "Do\u00f1a Ana County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9360,
+        "population_2020" : 8693,
+        "population_2027" : 8685,
+        "land_area_2020" : 2.7
+    },
+    "Artesia, Eddy County, NM" : {
+        "name" : "Artesia",
+        "state" : "New Mexico",
+        "FIPS" : "35-05220",
+        "counties" : [
+            "Eddy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11301,
+        "population_2020" : 12875,
+        "population_2027" : 14884,
+        "land_area_2020" : 11.33
+    },
+    "Aztec, San Juan County, NM" : {
+        "name" : "Aztec",
+        "state" : "New Mexico",
+        "FIPS" : "35-05780",
+        "counties" : [
+            "San Juan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6763,
+        "population_2020" : 6201,
+        "population_2027" : 6144,
+        "land_area_2020" : 17.06
+    },
+    "Bayard, Grant County, NM" : {
+        "name" : "Bayard",
+        "state" : "New Mexico",
+        "FIPS" : "35-06270",
+        "counties" : [
+            "Grant County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2328,
+        "population_2020" : 2116,
+        "population_2027" : 2085,
+        "land_area_2020" : 0.95
+    },
+    "Belen, Valencia County, NM" : {
+        "name" : "Belen",
+        "state" : "New Mexico",
+        "FIPS" : "35-06480",
+        "counties" : [
+            "Valencia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7269,
+        "population_2020" : 7360,
+        "population_2027" : 7796,
+        "land_area_2020" : 18.96
+    },
+    "Bernalillo, Sandoval County, NM" : {
+        "name" : "Bernalillo",
+        "state" : "New Mexico",
+        "FIPS" : "35-06970",
+        "counties" : [
+            "Sandoval County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8320,
+        "population_2020" : 8977,
+        "population_2027" : 9956,
+        "land_area_2020" : 4.89
+    },
+    "Bloomfield, San Juan County, NM" : {
+        "name" : "Bloomfield",
+        "state" : "New Mexico",
+        "FIPS" : "35-07880",
+        "counties" : [
+            "San Juan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8112,
+        "population_2020" : 7421,
+        "population_2027" : 7342,
+        "land_area_2020" : 18.55
+    },
+    "Bosque Farms, Valencia County, NM" : {
+        "name" : "Bosque Farms",
+        "state" : "New Mexico",
+        "FIPS" : "35-08580",
+        "counties" : [
+            "Valencia County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 3904,
+        "population_2020" : 4020,
+        "population_2027" : 4309,
+        "land_area_2020" : 3.94
+    },
+    "Capitan, Lincoln County, NM" : {
+        "name" : "Capitan",
+        "state" : "New Mexico",
+        "FIPS" : "35-11800",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 1489,
+        "population_2020" : 1391,
+        "population_2027" : 1395,
+        "land_area_2020" : 3.26
+    },
+    "Carlsbad, Eddy County, NM" : {
+        "name" : "Carlsbad",
+        "state" : "New Mexico",
+        "FIPS" : "35-12150",
+        "counties" : [
+            "Eddy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 26138,
+        "population_2020" : 32238,
+        "population_2027" : 39740,
+        "land_area_2020" : 31.52
+    },
+    "Carrizozo, Lincoln County, NM" : {
+        "name" : "Carrizozo",
+        "state" : "New Mexico",
+        "FIPS" : "35-12500",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 996,
+        "population_2020" : 972,
+        "population_2027" : 1004,
+        "land_area_2020" : 8.36
+    },
+    "Causey, Roosevelt County, NM" : {
+        "name" : "Causey",
+        "state" : "New Mexico",
+        "FIPS" : "35-12850",
+        "counties" : [
+            "Roosevelt County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 104,
+        "population_2020" : 68,
+        "population_2027" : 56,
+        "land_area_2020" : 3.75
+    },
+    "Chama, Rio Arriba County, NM" : {
+        "name" : "Chama",
+        "state" : "New Mexico",
+        "FIPS" : "35-13970",
+        "counties" : [
+            "Rio Arriba County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 1022,
+        "population_2020" : 917,
+        "population_2027" : 896,
+        "land_area_2020" : 2.59
+    },
+    "Cimarron, Colfax County, NM" : {
+        "name" : "Cimarron",
+        "state" : "New Mexico",
+        "FIPS" : "35-15440",
+        "counties" : [
+            "Colfax County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 1021,
+        "population_2020" : 792,
+        "population_2027" : 710,
+        "land_area_2020" : 2.12
+    },
+    "Clayton, Union County, NM" : {
+        "name" : "Clayton",
+        "state" : "New Mexico",
+        "FIPS" : "35-15720",
+        "counties" : [
+            "Union County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2980,
+        "population_2020" : 2643,
+        "population_2027" : 2564,
+        "land_area_2020" : 7.77
+    },
+    "Cloudcroft, Otero County, NM" : {
+        "name" : "Cloudcroft",
+        "state" : "New Mexico",
+        "FIPS" : "35-16280",
+        "counties" : [
+            "Otero County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 674,
+        "population_2020" : 750,
+        "population_2027" : 851,
+        "land_area_2020" : 1.64
+    },
+    "Clovis, Curry County, NM" : {
+        "name" : "Clovis",
+        "state" : "New Mexico",
+        "FIPS" : "35-16420",
+        "counties" : [
+            "Curry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 37775,
+        "population_2020" : 38567,
+        "population_2027" : 41091,
+        "land_area_2020" : 23.63
+    },
+    "Columbus, Luna County, NM" : {
+        "name" : "Columbus",
+        "state" : "New Mexico",
+        "FIPS" : "35-17050",
+        "counties" : [
+            "Luna County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 1664,
+        "population_2020" : 1442,
+        "population_2027" : 1379,
+        "land_area_2020" : 4.67
+    },
+    "Corona, Lincoln County, NM" : {
+        "name" : "Corona",
+        "state" : "New Mexico",
+        "FIPS" : "35-17680",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 172,
+        "population_2020" : 129,
+        "population_2027" : 114,
+        "land_area_2020" : 1.03
+    },
+    "Corrales, Sandoval County, NM" : {
+        "name" : "Corrales",
+        "state" : "New Mexico",
+        "FIPS" : "35-17960",
+        "counties" : [
+            "Sandoval County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 8329,
+        "population_2020" : 8493,
+        "population_2027" : 9041,
+        "land_area_2020" : 10.79
+    },
+    "Cuba, Sandoval County, NM" : {
+        "name" : "Cuba",
+        "state" : "New Mexico",
+        "FIPS" : "35-19150",
+        "counties" : [
+            "Sandoval County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 731,
+        "population_2020" : 628,
+        "population_2027" : 597,
+        "land_area_2020" : 3.26
+    },
+    "Deming, Luna County, NM" : {
+        "name" : "Deming",
+        "state" : "New Mexico",
+        "FIPS" : "35-20270",
+        "counties" : [
+            "Luna County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14855,
+        "population_2020" : 14758,
+        "population_2027" : 15426,
+        "land_area_2020" : 16.72
+    },
+    "Des Moines, Union County, NM" : {
+        "name" : "Des Moines",
+        "state" : "New Mexico",
+        "FIPS" : "35-20480",
+        "counties" : [
+            "Union County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 143,
+        "population_2020" : 117,
+        "population_2027" : 108,
+        "land_area_2020" : 0.87
+    },
+    "Dexter, Chaves County, NM" : {
+        "name" : "Dexter",
+        "state" : "New Mexico",
+        "FIPS" : "35-20620",
+        "counties" : [
+            "Chaves County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1266,
+        "population_2020" : 1074,
+        "population_2027" : 1014,
+        "land_area_2020" : 0.73
+    },
+    "Dora, Roosevelt County, NM" : {
+        "name" : "Dora",
+        "state" : "New Mexico",
+        "FIPS" : "35-21180",
+        "counties" : [
+            "Roosevelt County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 133,
+        "population_2020" : 117,
+        "population_2027" : 113,
+        "land_area_2020" : 2.63
+    },
+    "Eagle Nest, Colfax County, NM" : {
+        "name" : "Eagle Nest",
+        "state" : "New Mexico",
+        "FIPS" : "35-22020",
+        "counties" : [
+            "Colfax County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 290,
+        "population_2020" : 315,
+        "population_2027" : 351,
+        "land_area_2020" : 4.48
+    },
+    "Edgewood, Santa Fe County, NM" : {
+        "name" : "Edgewood",
+        "state" : "New Mexico",
+        "FIPS" : "35-22380",
+        "counties" : [
+            "Santa Fe County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3735,
+        "population_2020" : 6174,
+        "population_2027" : 10064,
+        "land_area_2020" : 56.8
+    },
+    "Elephant Butte, Sierra County, NM" : {
+        "name" : "Elephant Butte",
+        "state" : "New Mexico",
+        "FIPS" : "35-22720",
+        "counties" : [
+            "Sierra County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1431,
+        "population_2020" : 1447,
+        "population_2027" : 1531,
+        "land_area_2020" : 4.18
+    },
+    "Elida, Roosevelt County, NM" : {
+        "name" : "Elida",
+        "state" : "New Mexico",
+        "FIPS" : "35-23000",
+        "counties" : [
+            "Roosevelt County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 197,
+        "population_2020" : 166,
+        "population_2027" : 156,
+        "land_area_2020" : 1.02
+    },
+    "Encino, Torrance County, NM" : {
+        "name" : "Encino",
+        "state" : "New Mexico",
+        "FIPS" : "35-24610",
+        "counties" : [
+            "Torrance County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 82,
+        "population_2020" : 51,
+        "population_2027" : 41,
+        "land_area_2020" : 1.99
+    },
+    "Espa\u00f1ola, Rio Arriba County, NM" : {
+        "name" : "Espa\u00f1ola",
+        "state" : "New Mexico",
+        "FIPS" : "35-25170",
+        "counties" : [
+            "Rio Arriba County",
+            "Santa Fe County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10224,
+        "population_2020" : 10526,
+        "population_2027" : 11282,
+        "land_area_2020" : 8.22
+    },
+    "Estancia, Torrance County, NM" : {
+        "name" : "Estancia",
+        "state" : "New Mexico",
+        "FIPS" : "35-25380",
+        "counties" : [
+            "Torrance County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1655,
+        "population_2020" : 1242,
+        "population_2027" : 1094,
+        "land_area_2020" : 6.17
+    },
+    "Eunice, Lea County, NM" : {
+        "name" : "Eunice",
+        "state" : "New Mexico",
+        "FIPS" : "35-25450",
+        "counties" : [
+            "Lea County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2562,
+        "population_2020" : 3056,
+        "population_2027" : 3665,
+        "land_area_2020" : 4.09
+    },
+    "Farmington, San Juan County, NM" : {
+        "name" : "Farmington",
+        "state" : "New Mexico",
+        "FIPS" : "35-25800",
+        "counties" : [
+            "San Juan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 45877,
+        "population_2020" : 46624,
+        "population_2027" : 49514,
+        "land_area_2020" : 34.46
+    },
+    "Floyd, Roosevelt County, NM" : {
+        "name" : "Floyd",
+        "state" : "New Mexico",
+        "FIPS" : "35-26570",
+        "counties" : [
+            "Roosevelt County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 133,
+        "population_2020" : 86,
+        "population_2027" : 70,
+        "land_area_2020" : 3.05
+    },
+    "Folsom, Union County, NM" : {
+        "name" : "Folsom",
+        "state" : "New Mexico",
+        "FIPS" : "35-26780",
+        "counties" : [
+            "Union County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 56,
+        "population_2020" : 51,
+        "population_2027" : 50,
+        "land_area_2020" : 0.65
+    },
+    "Fort Sumner, De Baca County, NM" : {
+        "name" : "Fort Sumner",
+        "state" : "New Mexico",
+        "FIPS" : "35-27340",
+        "counties" : [
+            "De Baca County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 1031,
+        "population_2020" : 889,
+        "population_2027" : 848,
+        "land_area_2020" : 3.32
+    },
+    "Gallup, McKinley County, NM" : {
+        "name" : "Gallup",
+        "state" : "New Mexico",
+        "FIPS" : "35-28460",
+        "counties" : [
+            "McKinley County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 21678,
+        "population_2020" : 21899,
+        "population_2027" : 23158,
+        "land_area_2020" : 20.19
+    },
+    "Grady, Curry County, NM" : {
+        "name" : "Grady",
+        "state" : "New Mexico",
+        "FIPS" : "35-30210",
+        "counties" : [
+            "Curry County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 107,
+        "population_2020" : 86,
+        "population_2027" : 79,
+        "land_area_2020" : 0.27
+    },
+    "Grants, Cibola County, NM" : {
+        "name" : "Grants",
+        "state" : "New Mexico",
+        "FIPS" : "35-30490",
+        "counties" : [
+            "Cibola County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9182,
+        "population_2020" : 9163,
+        "population_2027" : 9608,
+        "land_area_2020" : 14.91
+    },
+    "Grenville, Union County, NM" : {
+        "name" : "Grenville",
+        "state" : "New Mexico",
+        "FIPS" : "35-30770",
+        "counties" : [
+            "Union County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 38,
+        "population_2020" : 22,
+        "population_2027" : 17,
+        "land_area_2020" : 0.38
+    },
+    "Hagerman, Chaves County, NM" : {
+        "name" : "Hagerman",
+        "state" : "New Mexico",
+        "FIPS" : "35-31330",
+        "counties" : [
+            "Chaves County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1257,
+        "population_2020" : 975,
+        "population_2027" : 874,
+        "land_area_2020" : 1.36
+    },
+    "Hatch, Do\u00f1a Ana County, NM" : {
+        "name" : "Hatch",
+        "state" : "New Mexico",
+        "FIPS" : "35-31820",
+        "counties" : [
+            "Do\u00f1a Ana County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 1648,
+        "population_2020" : 1539,
+        "population_2027" : 1543,
+        "land_area_2020" : 3.01
+    },
+    "Hobbs, Lea County, NM" : {
+        "name" : "Hobbs",
+        "state" : "New Mexico",
+        "FIPS" : "35-32520",
+        "counties" : [
+            "Lea County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 34122,
+        "population_2020" : 40508,
+        "population_2027" : 48387,
+        "land_area_2020" : 26.4
+    },
+    "Hope, Eddy County, NM" : {
+        "name" : "Hope",
+        "state" : "New Mexico",
+        "FIPS" : "35-33290",
+        "counties" : [
+            "Eddy County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 105,
+        "population_2020" : 113,
+        "population_2027" : 125,
+        "land_area_2020" : 1.22
+    },
+    "House, Quay County, NM" : {
+        "name" : "House",
+        "state" : "New Mexico",
+        "FIPS" : "35-33710",
+        "counties" : [
+            "Quay County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 68,
+        "population_2020" : 56,
+        "population_2027" : 52,
+        "land_area_2020" : 0.91
+    },
+    "Hurley, Grant County, NM" : {
+        "name" : "Hurley",
+        "state" : "New Mexico",
+        "FIPS" : "35-33850",
+        "counties" : [
+            "Grant County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1297,
+        "population_2020" : 1256,
+        "population_2027" : 1290,
+        "land_area_2020" : 1.02
+    },
+    "Jal, Lea County, NM" : {
+        "name" : "Jal",
+        "state" : "New Mexico",
+        "FIPS" : "35-35040",
+        "counties" : [
+            "Lea County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2047,
+        "population_2020" : 2202,
+        "population_2027" : 2437,
+        "land_area_2020" : 4.82
+    },
+    "Jemez Springs, Sandoval County, NM" : {
+        "name" : "Jemez Springs",
+        "state" : "New Mexico",
+        "FIPS" : "35-35320",
+        "counties" : [
+            "Sandoval County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 250,
+        "population_2020" : 198,
+        "population_2027" : 180,
+        "land_area_2020" : 4.8
+    },
+    "Kirtland, San Juan County, NM" : {
+        "name" : "Kirtland",
+        "state" : "New Mexico",
+        "FIPS" : "35-36230",
+        "counties" : [
+            "San Juan County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 0,
+        "population_2020" : 585,
+        "population_2027" : 2901,
+        "land_area_2020" : 1.7
+    },
+    "Lake Arthur, Chaves County, NM" : {
+        "name" : "Lake Arthur",
+        "state" : "New Mexico",
+        "FIPS" : "35-37840",
+        "counties" : [
+            "Chaves County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 436,
+        "population_2020" : 378,
+        "population_2027" : 362,
+        "land_area_2020" : 0.53
+    },
+    "Las Cruces, Do\u00f1a Ana County, NM" : {
+        "name" : "Las Cruces",
+        "state" : "New Mexico",
+        "FIPS" : "35-39380",
+        "counties" : [
+            "Do\u00f1a Ana County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 97618,
+        "population_2020" : 111385,
+        "population_2027" : 128918,
+        "land_area_2020" : 76.93
+    },
+    "Las Vegas, San Miguel County, NM" : {
+        "name" : "Las Vegas",
+        "state" : "New Mexico",
+        "FIPS" : "35-39940",
+        "counties" : [
+            "San Miguel County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13753,
+        "population_2020" : 13166,
+        "population_2027" : 13420,
+        "land_area_2020" : 7.82
+    },
+    "Logan, Quay County, NM" : {
+        "name" : "Logan",
+        "state" : "New Mexico",
+        "FIPS" : "35-42040",
+        "counties" : [
+            "Quay County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 1042,
+        "population_2020" : 970,
+        "population_2027" : 971,
+        "land_area_2020" : 10.6
+    },
+    "Lordsburg, Hidalgo County, NM" : {
+        "name" : "Lordsburg",
+        "state" : "New Mexico",
+        "FIPS" : "35-42180",
+        "counties" : [
+            "Hidalgo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2797,
+        "population_2020" : 2335,
+        "population_2027" : 2184,
+        "land_area_2020" : 8.43
+    },
+    "Los Alamos County, City&#8211;County, NM" : {
+        "name" : "Los Alamos County",
+        "state" : "New Mexico",
+        "FIPS" : "None",
+        "counties" : [
+            "City&#8211;County",
+            "(Council&#8211;Manager) \u00a7"
+        ],
+        "type_class" : "County",
+        "population_2010" : 17950,
+        "population_2020" : 19419,
+        "population_2027" : 21579,
+        "land_area_2020" : 109.17
+    },
+    "Los Lunas, Valencia County, NM" : {
+        "name" : "Los Lunas",
+        "state" : "New Mexico",
+        "FIPS" : "35-43370",
+        "counties" : [
+            "Valencia County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 14835,
+        "population_2020" : 17242,
+        "population_2027" : 20248,
+        "land_area_2020" : 18.73
+    },
+    "Los Ranchos de Albuquerque, Bernalillo County, NM" : {
+        "name" : "Los Ranchos de Albuquerque",
+        "state" : "New Mexico",
+        "FIPS" : "35-43930",
+        "counties" : [
+            "Bernalillo County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 6024,
+        "population_2020" : 5874,
+        "population_2027" : 6062,
+        "land_area_2020" : 4.45
+    },
+    "Loving, Eddy County, NM" : {
+        "name" : "Loving",
+        "state" : "New Mexico",
+        "FIPS" : "35-44420",
+        "counties" : [
+            "Eddy County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 1413,
+        "population_2020" : 1390,
+        "population_2027" : 1443,
+        "land_area_2020" : 1.21
+    },
+    "Lovington, Lea County, NM" : {
+        "name" : "Lovington",
+        "state" : "New Mexico",
+        "FIPS" : "35-44490",
+        "counties" : [
+            "Lea County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11009,
+        "population_2020" : 11668,
+        "population_2027" : 12771,
+        "land_area_2020" : 11.2
+    },
+    "Magdalena, Socorro County, NM" : {
+        "name" : "Magdalena",
+        "state" : "New Mexico",
+        "FIPS" : "35-46310",
+        "counties" : [
+            "Socorro County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 938,
+        "population_2020" : 806,
+        "population_2027" : 767,
+        "land_area_2020" : 6.22
+    },
+    "Maxwell, Colfax County, NM" : {
+        "name" : "Maxwell",
+        "state" : "New Mexico",
+        "FIPS" : "35-47080",
+        "counties" : [
+            "Colfax County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 254,
+        "population_2020" : 224,
+        "population_2027" : 217,
+        "land_area_2020" : 0.47
+    },
+    "Melrose, Curry County, NM" : {
+        "name" : "Melrose",
+        "state" : "New Mexico",
+        "FIPS" : "35-47570",
+        "counties" : [
+            "Curry County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 651,
+        "population_2020" : 622,
+        "population_2027" : 633,
+        "land_area_2020" : 1.69
+    },
+    "Mesilla, Do\u00f1a Ana County, NM" : {
+        "name" : "Mesilla",
+        "state" : "New Mexico",
+        "FIPS" : "35-48060",
+        "counties" : [
+            "Do\u00f1a Ana County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2196,
+        "population_2020" : 1797,
+        "population_2027" : 1661,
+        "land_area_2020" : 5.68
+    },
+    "Milan, Cibola County, NM" : {
+        "name" : "Milan",
+        "state" : "New Mexico",
+        "FIPS" : "35-48620",
+        "counties" : [
+            "Cibola County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 3245,
+        "population_2020" : 2456,
+        "population_2027" : 2173,
+        "land_area_2020" : 4.34
+    },
+    "Moriarty, Torrance County, NM" : {
+        "name" : "Moriarty",
+        "state" : "New Mexico",
+        "FIPS" : "35-50160",
+        "counties" : [
+            "Torrance County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1910,
+        "population_2020" : 1946,
+        "population_2027" : 2070,
+        "land_area_2020" : 6.94
+    },
+    "Mosquero, Harding County, NM" : {
+        "name" : "Mosquero",
+        "state" : "New Mexico",
+        "FIPS" : "35-50300",
+        "counties" : [
+            "Harding County",
+            "San Miguel County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 93,
+        "population_2020" : 98,
+        "population_2027" : 107,
+        "land_area_2020" : 1.0
+    },
+    "Mountainair, Torrance County, NM" : {
+        "name" : "Mountainair",
+        "state" : "New Mexico",
+        "FIPS" : "35-50370",
+        "counties" : [
+            "Torrance County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 928,
+        "population_2020" : 884,
+        "population_2027" : 898,
+        "land_area_2020" : 1.58
+    },
+    "Pecos, San Miguel County, NM" : {
+        "name" : "Pecos",
+        "state" : "New Mexico",
+        "FIPS" : "35-55620",
+        "counties" : [
+            "San Miguel County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 1392,
+        "population_2020" : 1392,
+        "population_2027" : 1462,
+        "land_area_2020" : 1.78
+    },
+    "Peralta, Valencia County, NM" : {
+        "name" : "Peralta",
+        "state" : "New Mexico",
+        "FIPS" : "35-56180",
+        "counties" : [
+            "Valencia County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3660,
+        "population_2020" : 3342,
+        "population_2027" : 3303,
+        "land_area_2020" : 4.44
+    },
+    "Portales, Roosevelt County, NM" : {
+        "name" : "Portales",
+        "state" : "New Mexico",
+        "FIPS" : "35-59260",
+        "counties" : [
+            "Roosevelt County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12280,
+        "population_2020" : 12137,
+        "population_2027" : 12642,
+        "land_area_2020" : 7.95
+    },
+    "Questa, Taos County, NM" : {
+        "name" : "Questa",
+        "state" : "New Mexico",
+        "FIPS" : "35-60870",
+        "counties" : [
+            "Taos County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 1770,
+        "population_2020" : 1742,
+        "population_2027" : 1809,
+        "land_area_2020" : 5.11
+    },
+    "Raton, Colfax County, NM" : {
+        "name" : "Raton",
+        "state" : "New Mexico",
+        "FIPS" : "35-62060",
+        "counties" : [
+            "Colfax County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6885,
+        "population_2020" : 6041,
+        "population_2027" : 5822,
+        "land_area_2020" : 7.96
+    },
+    "Red River, Taos County, NM" : {
+        "name" : "Red River",
+        "state" : "New Mexico",
+        "FIPS" : "35-62200",
+        "counties" : [
+            "Taos County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 477,
+        "population_2020" : 542,
+        "population_2027" : 625,
+        "land_area_2020" : 1.02
+    },
+    "Reserve, Catron County, NM" : {
+        "name" : "Reserve",
+        "state" : "New Mexico",
+        "FIPS" : "35-62620",
+        "counties" : [
+            "Catron County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 289,
+        "population_2020" : 293,
+        "population_2027" : 311,
+        "land_area_2020" : 0.56
+    },
+    "Rio Communities, Valencia County, NM" : {
+        "name" : "Rio Communities",
+        "state" : "New Mexico",
+        "FIPS" : "35-63145",
+        "counties" : [
+            "Valencia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 0,
+        "population_2020" : 4926,
+        "population_2027" : 24425,
+        "land_area_2020" : 7.7
+    },
+    "Rio Rancho, Bernalillo County, NM" : {
+        "name" : "Rio Rancho",
+        "state" : "New Mexico",
+        "FIPS" : "35-63460",
+        "counties" : [
+            "Bernalillo County",
+            "Sandoval County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 87521,
+        "population_2020" : 104026,
+        "population_2027" : 124381,
+        "land_area_2020" : 103.36
+    },
+    "Roswell, Chaves County, NM" : {
+        "name" : "Roswell",
+        "state" : "New Mexico",
+        "FIPS" : "35-64930",
+        "counties" : [
+            "Chaves County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 48366,
+        "population_2020" : 48422,
+        "population_2027" : 50886,
+        "land_area_2020" : 29.72
+    },
+    "Roy, Harding County, NM" : {
+        "name" : "Roy",
+        "state" : "New Mexico",
+        "FIPS" : "35-65070",
+        "counties" : [
+            "Harding County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 234,
+        "population_2020" : 193,
+        "population_2027" : 179,
+        "land_area_2020" : 2.04
+    },
+    "Ruidoso, Lincoln County, NM" : {
+        "name" : "Ruidoso",
+        "state" : "New Mexico",
+        "FIPS" : "35-65210",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 8029,
+        "population_2020" : 7679,
+        "population_2027" : 7822,
+        "land_area_2020" : 16.13
+    },
+    "Ruidoso Downs, Lincoln County, NM" : {
+        "name" : "Ruidoso Downs",
+        "state" : "New Mexico",
+        "FIPS" : "35-65280",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2815,
+        "population_2020" : 2620,
+        "population_2027" : 2621,
+        "land_area_2020" : 3.79
+    },
+    "San Jon, Quay County, NM" : {
+        "name" : "San Jon",
+        "state" : "New Mexico",
+        "FIPS" : "35-68150",
+        "counties" : [
+            "Quay County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 216,
+        "population_2020" : 195,
+        "population_2027" : 191,
+        "land_area_2020" : 2.93
+    },
+    "San Ysidro, Sandoval County, NM" : {
+        "name" : "San Ysidro",
+        "state" : "New Mexico",
+        "FIPS" : "35-71020",
+        "counties" : [
+            "Sandoval County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 193,
+        "population_2020" : 166,
+        "population_2027" : 158,
+        "land_area_2020" : 2.34
+    },
+    "Santa Clara, Grant County, NM" : {
+        "name" : "Santa Clara",
+        "state" : "New Mexico",
+        "FIPS" : "35-70270",
+        "counties" : [
+            "Grant County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 1686,
+        "population_2020" : 1637,
+        "population_2027" : 1684,
+        "land_area_2020" : 1.99
+    },
+    "Santa Fe, Santa Fe County, NM" : {
+        "name" : "Santa Fe",
+        "state" : "New Mexico",
+        "FIPS" : "35-70500",
+        "counties" : [
+            "Santa Fe County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 67947,
+        "population_2020" : 87505,
+        "population_2027" : 111923,
+        "land_area_2020" : 52.23
+    },
+    "Santa Rosa, Guadalupe County, NM" : {
+        "name" : "Santa Rosa",
+        "state" : "New Mexico",
+        "FIPS" : "35-70670",
+        "counties" : [
+            "Guadalupe County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2848,
+        "population_2020" : 2850,
+        "population_2027" : 2994,
+        "land_area_2020" : 5.0
+    },
+    "Silver City, Grant County, NM" : {
+        "name" : "Silver City",
+        "state" : "New Mexico",
+        "FIPS" : "35-73260",
+        "counties" : [
+            "Grant County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 10315,
+        "population_2020" : 9704,
+        "population_2027" : 9777,
+        "land_area_2020" : 10.12
+    },
+    "Socorro, Socorro County, NM" : {
+        "name" : "Socorro",
+        "state" : "New Mexico",
+        "FIPS" : "35-73540",
+        "counties" : [
+            "Socorro County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9051,
+        "population_2020" : 8707,
+        "population_2027" : 8904,
+        "land_area_2020" : 14.45
+    },
+    "Springer, Colfax County, NM" : {
+        "name" : "Springer",
+        "state" : "New Mexico",
+        "FIPS" : "35-74800",
+        "counties" : [
+            "Colfax County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1047,
+        "population_2020" : 931,
+        "population_2027" : 905,
+        "land_area_2020" : 2.2
+    },
+    "Sunland Park, Do\u00f1a Ana County, NM" : {
+        "name" : "Sunland Park",
+        "state" : "New Mexico",
+        "FIPS" : "35-75640",
+        "counties" : [
+            "Do\u00f1a Ana County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14106,
+        "population_2020" : 16702,
+        "population_2027" : 19908,
+        "land_area_2020" : 13.58
+    },
+    "Taos, Taos County, NM" : {
+        "name" : "Taos",
+        "state" : "New Mexico",
+        "FIPS" : "35-76200",
+        "counties" : [
+            "Taos County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5716,
+        "population_2020" : 6474,
+        "population_2027" : 7450,
+        "land_area_2020" : 6.02
+    },
+    "Taos Ski Valley, Taos County, NM" : {
+        "name" : "Taos Ski Valley",
+        "state" : "New Mexico",
+        "FIPS" : "35-76480",
+        "counties" : [
+            "Taos County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 69,
+        "population_2020" : 77,
+        "population_2027" : 88,
+        "land_area_2020" : 2.85
+    },
+    "Tatum, Lea County, NM" : {
+        "name" : "Tatum",
+        "state" : "New Mexico",
+        "FIPS" : "35-76620",
+        "counties" : [
+            "Lea County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 798,
+        "population_2020" : 706,
+        "population_2027" : 684,
+        "land_area_2020" : 1.59
+    },
+    "Texico, Curry County, NM" : {
+        "name" : "Texico",
+        "state" : "New Mexico",
+        "FIPS" : "35-77250",
+        "counties" : [
+            "Curry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1130,
+        "population_2020" : 956,
+        "population_2027" : 901,
+        "land_area_2020" : 0.83
+    },
+    "Tijeras, Bernalillo County, NM" : {
+        "name" : "Tijeras",
+        "state" : "New Mexico",
+        "FIPS" : "35-77880",
+        "counties" : [
+            "Bernalillo County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 541,
+        "population_2020" : 465,
+        "population_2027" : 443,
+        "land_area_2020" : 1.13
+    },
+    "Truth or Consequences, Sierra County, NM" : {
+        "name" : "Truth or Consequences",
+        "state" : "New Mexico",
+        "FIPS" : "35-79840",
+        "counties" : [
+            "Sierra County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6475,
+        "population_2020" : 6052,
+        "population_2027" : 6072,
+        "land_area_2020" : 28.0
+    },
+    "Tucumcari, Quay County, NM" : {
+        "name" : "Tucumcari",
+        "state" : "New Mexico",
+        "FIPS" : "35-79910",
+        "counties" : [
+            "Quay County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5363,
+        "population_2020" : 5278,
+        "population_2027" : 5481,
+        "land_area_2020" : 9.51
+    },
+    "Tularosa, Otero County, NM" : {
+        "name" : "Tularosa",
+        "state" : "New Mexico",
+        "FIPS" : "35-79980",
+        "counties" : [
+            "Otero County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 2842,
+        "population_2020" : 2553,
+        "population_2027" : 2497,
+        "land_area_2020" : 2.82
+    },
+    "Vaughn, Guadalupe County, NM" : {
+        "name" : "Vaughn",
+        "state" : "New Mexico",
+        "FIPS" : "35-82570",
+        "counties" : [
+            "Guadalupe County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 446,
+        "population_2020" : 286,
+        "population_2027" : 233,
+        "land_area_2020" : 5.6
+    },
+    "Virden, Hidalgo County, NM" : {
+        "name" : "Virden",
+        "state" : "New Mexico",
+        "FIPS" : "35-83200",
+        "counties" : [
+            "Hidalgo County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 152,
+        "population_2020" : 126,
+        "population_2027" : 117,
+        "land_area_2020" : 0.21
+    },
+    "Wagon Mound, Mora County, NM" : {
+        "name" : "Wagon Mound",
+        "state" : "New Mexico",
+        "FIPS" : "35-83340",
+        "counties" : [
+            "Mora County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 314,
+        "population_2020" : 266,
+        "population_2027" : 251,
+        "land_area_2020" : 1.01
+    },
+    "Willard, Torrance County, NM" : {
+        "name" : "Willard",
+        "state" : "New Mexico",
+        "FIPS" : "35-85160",
+        "counties" : [
+            "Torrance County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 253,
+        "population_2020" : 201,
+        "population_2027" : 183,
+        "land_area_2020" : 0.92
+    },
+    "Williamsburg, Sierra County, NM" : {
+        "name" : "Williamsburg",
+        "state" : "New Mexico",
+        "FIPS" : "35-85300",
+        "counties" : [
+            "Sierra County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 449,
+        "population_2020" : 462,
+        "population_2027" : 495,
+        "land_area_2020" : 0.49
+    }
+}

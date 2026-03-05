@@ -1,0 +1,626 @@
+{
+    "Tuckerman, Jackson County, AR" : {
+        "name" : "Tuckerman",
+        "state" : "Arkansas",
+        "FIPS" : "05-70100",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "City (Second Class)",
+        "population_2010" : 1862,
+        "population_2020" : 1707,
+        "population_2027" : 1685,
+        "land_area_2020" : 637.9
+    },
+    "Tull, Grant County, AR" : {
+        "name" : "Tull",
+        "state" : "Arkansas",
+        "FIPS" : "05-70220",
+        "counties" : [
+            "Grant County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 448,
+        "population_2020" : 484,
+        "population_2027" : 535,
+        "land_area_2020" : 120.0
+    },
+    "Tupelo, Jackson County, AR" : {
+        "name" : "Tupelo",
+        "state" : "Arkansas",
+        "FIPS" : "05-70340",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 180,
+        "population_2020" : 70,
+        "population_2027" : 47,
+        "land_area_2020" : 251.8
+    },
+    "Turrell, Crittenden County, AR" : {
+        "name" : "Turrell",
+        "state" : "Arkansas",
+        "FIPS" : "05-70430",
+        "counties" : [
+            "Crittenden County"
+        ],
+        "type_class" : "City (Second Class)",
+        "population_2010" : 615,
+        "population_2020" : 517,
+        "population_2027" : 484,
+        "land_area_2020" : 96.7
+    },
+    "Twin Groves, Faulkner County, AR" : {
+        "name" : "Twin Groves",
+        "state" : "Arkansas",
+        "FIPS" : "05-70540",
+        "counties" : [
+            "Faulkner County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 335,
+        "population_2020" : 317,
+        "population_2027" : 320,
+        "land_area_2020" : 68.8
+    },
+    "Tyronza, Poinsett County, AR" : {
+        "name" : "Tyronza",
+        "state" : "Arkansas",
+        "FIPS" : "05-70700",
+        "counties" : [
+            "Poinsett County"
+        ],
+        "type_class" : "City (Second Class)",
+        "population_2010" : 762,
+        "population_2020" : 716,
+        "population_2027" : 718,
+        "land_area_2020" : 460.5
+    },
+    "Ulm, Prairie County, AR" : {
+        "name" : "Ulm",
+        "state" : "Arkansas",
+        "FIPS" : "05-70760",
+        "counties" : [
+            "Prairie County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 170,
+        "population_2020" : 175,
+        "population_2027" : 187,
+        "land_area_2020" : 670.5
+    },
+    "Valley Springs, Boone County, AR" : {
+        "name" : "Valley Springs",
+        "state" : "Arkansas",
+        "FIPS" : "05-71390",
+        "counties" : [
+            "Boone County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 183,
+        "population_2020" : 183,
+        "population_2027" : 191,
+        "land_area_2020" : 356.0
+    },
+    "Van Buren, Crawford County, AR" : {
+        "name" : "Van Buren",
+        "state" : "Arkansas",
+        "FIPS" : "05-71480",
+        "counties" : [
+            "Crawford County"
+        ],
+        "type_class" : "City (First Class)",
+        "population_2010" : 22791,
+        "population_2020" : 23218,
+        "population_2027" : 24614,
+        "land_area_2020" : 1506.7
+    },
+    "Vandervoort, Polk County, AR" : {
+        "name" : "Vandervoort",
+        "state" : "Arkansas",
+        "FIPS" : "05-71510",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 87,
+        "population_2020" : 115,
+        "population_2027" : 150,
+        "land_area_2020" : 399.3
+    },
+    "Victoria, Mississippi County, AR" : {
+        "name" : "Victoria",
+        "state" : "Arkansas",
+        "FIPS" : "05-71900",
+        "counties" : [
+            "Mississippi County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 37,
+        "population_2020" : 20,
+        "population_2027" : 15,
+        "land_area_2020" : 63.3
+    },
+    "Vilonia, Faulkner County, AR" : {
+        "name" : "Vilonia",
+        "state" : "Arkansas",
+        "FIPS" : "05-71960",
+        "counties" : [
+            "Faulkner County"
+        ],
+        "type_class" : "City (First Class)",
+        "population_2010" : 3815,
+        "population_2020" : 4288,
+        "population_2027" : 4888,
+        "land_area_2020" : 537.8
+    },
+    "Viola, Fulton County, AR" : {
+        "name" : "Viola",
+        "state" : "Arkansas",
+        "FIPS" : "05-72140",
+        "counties" : [
+            "Fulton County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 337,
+        "population_2020" : 358,
+        "population_2027" : 391,
+        "land_area_2020" : 227.9
+    },
+    "Wabbaseka, Jefferson County, AR" : {
+        "name" : "Wabbaseka",
+        "state" : "Arkansas",
+        "FIPS" : "05-72230",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 255,
+        "population_2020" : 180,
+        "population_2027" : 153,
+        "land_area_2020" : 523.3
+    },
+    "Waldenburg, Poinsett County, AR" : {
+        "name" : "Waldenburg",
+        "state" : "Arkansas",
+        "FIPS" : "05-72320",
+        "counties" : [
+            "Poinsett County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 61,
+        "population_2020" : 53,
+        "population_2027" : 51,
+        "land_area_2020" : 389.7
+    },
+    "Waldo, Columbia County, AR" : {
+        "name" : "Waldo",
+        "state" : "Arkansas",
+        "FIPS" : "05-72350",
+        "counties" : [
+            "Columbia County"
+        ],
+        "type_class" : "City (Second Class)",
+        "population_2010" : 1372,
+        "population_2020" : 1151,
+        "population_2027" : 1076,
+        "land_area_2020" : 524.6
+    },
+    "Waldron, Scott County, AR" : {
+        "name" : "Waldron",
+        "state" : "Arkansas",
+        "FIPS" : "05-72380",
+        "counties" : [
+            "Scott County"
+        ],
+        "type_class" : "City (First Class)",
+        "population_2010" : 3618,
+        "population_2020" : 3386,
+        "population_2027" : 3388,
+        "land_area_2020" : 601.0
+    },
+    "Walnut Ridge, Lawrence County, AR" : {
+        "name" : "Walnut Ridge",
+        "state" : "Arkansas",
+        "FIPS" : "05-72890",
+        "counties" : [
+            "Lawrence County"
+        ],
+        "type_class" : "City (First Class)",
+        "population_2010" : 4890,
+        "population_2020" : 5384,
+        "population_2027" : 6042,
+        "land_area_2020" : 323.9
+    },
+    "Ward, Lonoke County, AR" : {
+        "name" : "Ward",
+        "state" : "Arkansas",
+        "FIPS" : "05-73130",
+        "counties" : [
+            "Lonoke County"
+        ],
+        "type_class" : "City (First Class)",
+        "population_2010" : 4067,
+        "population_2020" : 6052,
+        "population_2027" : 8822,
+        "land_area_2020" : 1406.1
+    },
+    "Warren, Bradley County, AR" : {
+        "name" : "Warren",
+        "state" : "Arkansas",
+        "FIPS" : "05-73310",
+        "counties" : [
+            "Bradley County"
+        ],
+        "type_class" : "City (First Class)",
+        "population_2010" : 6003,
+        "population_2020" : 5453,
+        "population_2027" : 5352,
+        "land_area_2020" : 775.1
+    },
+    "Washington, Hempstead County, AR" : {
+        "name" : "Washington",
+        "state" : "Arkansas",
+        "FIPS" : "05-73370",
+        "counties" : [
+            "Hempstead County"
+        ],
+        "type_class" : "City (Second Class)",
+        "population_2010" : 180,
+        "population_2020" : 94,
+        "population_2027" : 70,
+        "land_area_2020" : 93.3
+    },
+    "Watson, Desha County, AR" : {
+        "name" : "Watson",
+        "state" : "Arkansas",
+        "FIPS" : "05-73550",
+        "counties" : [
+            "Desha County"
+        ],
+        "type_class" : "City (Second Class)",
+        "population_2010" : 211,
+        "population_2020" : 185,
+        "population_2027" : 178,
+        "land_area_2020" : 925.0
+    },
+    "Weiner, Poinsett County, AR" : {
+        "name" : "Weiner",
+        "state" : "Arkansas",
+        "FIPS" : "05-73940",
+        "counties" : [
+            "Poinsett County"
+        ],
+        "type_class" : "City (Second Class)",
+        "population_2010" : 716,
+        "population_2020" : 647,
+        "population_2027" : 633,
+        "land_area_2020" : 474.3
+    },
+    "Weldon, Jackson County, AR" : {
+        "name" : "Weldon",
+        "state" : "Arkansas",
+        "FIPS" : "05-74000",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 75,
+        "population_2020" : 57,
+        "population_2027" : 50,
+        "land_area_2020" : 233.6
+    },
+    "West Fork, Washington County, AR" : {
+        "name" : "West Fork",
+        "state" : "Arkansas",
+        "FIPS" : "05-74360",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City (Second Class)",
+        "population_2010" : 2317,
+        "population_2020" : 2331,
+        "population_2027" : 2449,
+        "land_area_2020" : 635.8
+    },
+    "West Memphis, Crittenden County, AR" : {
+        "name" : "West Memphis",
+        "state" : "Arkansas",
+        "FIPS" : "05-74540",
+        "counties" : [
+            "Crittenden County"
+        ],
+        "type_class" : "City (First Class)",
+        "population_2010" : 26245,
+        "population_2020" : 24520,
+        "population_2027" : 24508,
+        "land_area_2020" : 850.1
+    },
+    "West Point, White County, AR" : {
+        "name" : "West Point",
+        "state" : "Arkansas",
+        "FIPS" : "05-74660",
+        "counties" : [
+            "White County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 185,
+        "population_2020" : 170,
+        "population_2027" : 168,
+        "land_area_2020" : 395.3
+    },
+    "Western Grove, Newton County, AR" : {
+        "name" : "Western Grove",
+        "state" : "Arkansas",
+        "FIPS" : "05-74330",
+        "counties" : [
+            "Newton County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 384,
+        "population_2020" : 354,
+        "population_2027" : 351,
+        "land_area_2020" : 328.7
+    },
+    "Wheatley, St. Francis County, AR" : {
+        "name" : "Wheatley",
+        "state" : "Arkansas",
+        "FIPS" : "05-74840",
+        "counties" : [
+            "St. Francis County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 355,
+        "population_2020" : 279,
+        "population_2027" : 251,
+        "land_area_2020" : 90.8
+    },
+    "Whelen Springs, Clark County, AR" : {
+        "name" : "Whelen Springs",
+        "state" : "Arkansas",
+        "FIPS" : "05-74930",
+        "counties" : [
+            "Clark County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 92,
+        "population_2020" : 47,
+        "population_2027" : 35,
+        "land_area_2020" : 200.9
+    },
+    "White Hall, Jefferson County, AR" : {
+        "name" : "White Hall",
+        "state" : "Arkansas",
+        "FIPS" : "05-75170",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City (First Class)",
+        "population_2010" : 5526,
+        "population_2020" : 5581,
+        "population_2027" : 5880,
+        "land_area_2020" : 790.1
+    },
+    "Wickes, Polk County, AR" : {
+        "name" : "Wickes",
+        "state" : "Arkansas",
+        "FIPS" : "05-75500",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 754,
+        "population_2020" : 637,
+        "population_2027" : 598,
+        "land_area_2020" : 274.2
+    },
+    "Widener, St. Francis County, AR" : {
+        "name" : "Widener",
+        "state" : "Arkansas",
+        "FIPS" : "05-75560",
+        "counties" : [
+            "St. Francis County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 273,
+        "population_2020" : 212,
+        "population_2027" : 190,
+        "land_area_2020" : 389.0
+    },
+    "Wiederkehr Village, Franklin County, AR" : {
+        "name" : "Wiederkehr Village",
+        "state" : "Arkansas",
+        "FIPS" : "05-75570",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "City (Second Class)",
+        "population_2010" : 38,
+        "population_2020" : 50,
+        "population_2027" : 65,
+        "land_area_2020" : 11.8
+    },
+    "Williford, Sharp County, AR" : {
+        "name" : "Williford",
+        "state" : "Arkansas",
+        "FIPS" : "05-75740",
+        "counties" : [
+            "Sharp County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 75,
+        "population_2020" : 79,
+        "population_2027" : 86,
+        "land_area_2020" : 226.4
+    },
+    "Willisville, Nevada County, AR" : {
+        "name" : "Willisville",
+        "state" : "Arkansas",
+        "FIPS" : "05-75770",
+        "counties" : [
+            "Nevada County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 152,
+        "population_2020" : 148,
+        "population_2027" : 152,
+        "land_area_2020" : 92.7
+    },
+    "Wilmar, Drew County, AR" : {
+        "name" : "Wilmar",
+        "state" : "Arkansas",
+        "FIPS" : "05-75860",
+        "counties" : [
+            "Drew County"
+        ],
+        "type_class" : "City (Second Class)",
+        "population_2010" : 511,
+        "population_2020" : 395,
+        "population_2027" : 352,
+        "land_area_2020" : 257.3
+    },
+    "Wilmot, Ashley County, AR" : {
+        "name" : "Wilmot",
+        "state" : "Arkansas",
+        "FIPS" : "05-75890",
+        "counties" : [
+            "Ashley County"
+        ],
+        "type_class" : "City (Second Class)",
+        "population_2010" : 550,
+        "population_2020" : 416,
+        "population_2027" : 367,
+        "land_area_2020" : 235.2
+    },
+    "Wilson, Mississippi County, AR" : {
+        "name" : "Wilson",
+        "state" : "Arkansas",
+        "FIPS" : "05-75920",
+        "counties" : [
+            "Mississippi County"
+        ],
+        "type_class" : "City (Second Class)",
+        "population_2010" : 903,
+        "population_2020" : 766,
+        "population_2027" : 721,
+        "land_area_2020" : 731.6
+    },
+    "Wilton, Little River County, AR" : {
+        "name" : "Wilton",
+        "state" : "Arkansas",
+        "FIPS" : "05-75980",
+        "counties" : [
+            "Little River County"
+        ],
+        "type_class" : "City (Second Class)",
+        "population_2010" : 374,
+        "population_2020" : 287,
+        "population_2027" : 255,
+        "land_area_2020" : 224.4
+    },
+    "Winchester, Drew County, AR" : {
+        "name" : "Winchester",
+        "state" : "Arkansas",
+        "FIPS" : "05-76010",
+        "counties" : [
+            "Drew County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 167,
+        "population_2020" : 137,
+        "population_2027" : 126,
+        "land_area_2020" : 275.7
+    },
+    "Winslow, Washington County, AR" : {
+        "name" : "Winslow",
+        "state" : "Arkansas",
+        "FIPS" : "05-76190",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City (Second Class)",
+        "population_2010" : 391,
+        "population_2020" : 365,
+        "population_2027" : 365,
+        "land_area_2020" : 200.3
+    },
+    "Winthrop, Little River County, AR" : {
+        "name" : "Winthrop",
+        "state" : "Arkansas",
+        "FIPS" : "05-76250",
+        "counties" : [
+            "Little River County"
+        ],
+        "type_class" : "City (Second Class)",
+        "population_2010" : 192,
+        "population_2020" : 116,
+        "population_2027" : 92,
+        "land_area_2020" : 111.5
+    },
+    "Wooster, Faulkner County, AR" : {
+        "name" : "Wooster",
+        "state" : "Arkansas",
+        "FIPS" : "05-76820",
+        "counties" : [
+            "Faulkner County"
+        ],
+        "type_class" : "City (Second Class)",
+        "population_2010" : 860,
+        "population_2020" : 1042,
+        "population_2027" : 1261,
+        "land_area_2020" : 362.9
+    },
+    "Wrightsville, Pulaski County, AR" : {
+        "name" : "Wrightsville",
+        "state" : "Arkansas",
+        "FIPS" : "05-76970",
+        "counties" : [
+            "Pulaski County"
+        ],
+        "type_class" : "City (Second Class)",
+        "population_2010" : 2114,
+        "population_2020" : 1542,
+        "population_2027" : 1333,
+        "land_area_2020" : 728.7
+    },
+    "Wynne, Cross County, AR" : {
+        "name" : "Wynne",
+        "state" : "Arkansas",
+        "FIPS" : "05-77090",
+        "counties" : [
+            "Cross County"
+        ],
+        "type_class" : "City (First Class)",
+        "population_2010" : 8367,
+        "population_2020" : 8314,
+        "population_2027" : 8661,
+        "land_area_2020" : 924.4
+    },
+    "Yellville, Marion County, AR" : {
+        "name" : "Yellville",
+        "state" : "Arkansas",
+        "FIPS" : "05-77330",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "City (Second Class)",
+        "population_2010" : 1204,
+        "population_2020" : 1178,
+        "population_2027" : 1214,
+        "land_area_2020" : 474.6
+    },
+    "Zinc, Boone County, AR" : {
+        "name" : "Zinc",
+        "state" : "Arkansas",
+        "FIPS" : "05-77600",
+        "counties" : [
+            "Boone County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 103,
+        "population_2020" : 92,
+        "population_2027" : 89,
+        "land_area_2020" : 122.5
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "Washington, District of Columbia, DC" : {
+        "name" : "Washington",
+        "state" : "District of Columbia",
+        "FIPS" : "11-50000",
+        "counties" : [
+            "District of Columbia"
+        ],
+        "type_class" : "City",
+        "population_2010" : 601723,
+        "population_2020" : 689545,
+        "population_2027" : 787165,
+        "land_area_2020" : 61.126
+    }
+}

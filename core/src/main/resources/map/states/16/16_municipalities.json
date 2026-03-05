@@ -1,0 +1,2589 @@
+{
+    "Boise, Ada County, ID" : {
+        "name" : "Boise",
+        "state" : "Idaho",
+        "FIPS" : "16-08830",
+        "counties" : [
+            "Ada County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 205671,
+        "population_2020" : 235684,
+        "population_2027" : 303101,
+        "land_area_2020" : 0.0
+    },
+    "Meridian, Ada County, ID" : {
+        "name" : "Meridian",
+        "state" : "Idaho",
+        "FIPS" : "16-52120",
+        "counties" : [
+            "Ada County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 75092,
+        "population_2020" : 117635,
+        "population_2027" : 199854,
+        "land_area_2020" : 0.0
+    },
+    "Nampa, Canyon County, ID" : {
+        "name" : "Nampa",
+        "state" : "Idaho",
+        "FIPS" : "16-56260",
+        "counties" : [
+            "Canyon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 81557,
+        "population_2020" : 100200,
+        "population_2027" : 136229,
+        "land_area_2020" : 0.0
+    },
+    "Idaho Falls, Bonneville County, ID" : {
+        "name" : "Idaho Falls",
+        "state" : "Idaho",
+        "FIPS" : "16-39700",
+        "counties" : [
+            "Bonneville County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 56813,
+        "population_2020" : 64818,
+        "population_2027" : 83077,
+        "land_area_2020" : 0.0
+    },
+    "Caldwell, Canyon County, ID" : {
+        "name" : "Caldwell",
+        "state" : "Idaho",
+        "FIPS" : "16-12250",
+        "counties" : [
+            "Canyon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 46237,
+        "population_2020" : 59996,
+        "population_2027" : 85415,
+        "land_area_2020" : 0.0
+    },
+    "Pocatello, Bannock County, ID" : {
+        "name" : "Pocatello",
+        "state" : "Idaho",
+        "FIPS" : "16-64090",
+        "counties" : [
+            "Bannock County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 54255,
+        "population_2020" : 56320,
+        "population_2027" : 67316,
+        "land_area_2020" : 0.0
+    },
+    "Coeur d'Alene, Kootenai County, ID" : {
+        "name" : "Coeur d'Alene",
+        "state" : "Idaho",
+        "FIPS" : "16-16750",
+        "counties" : [
+            "Kootenai County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 44137,
+        "population_2020" : 54628,
+        "population_2027" : 74725,
+        "land_area_2020" : 0.0
+    },
+    "Twin Falls, Twin Falls County, ID" : {
+        "name" : "Twin Falls",
+        "state" : "Idaho",
+        "FIPS" : "16-82810",
+        "counties" : [
+            "Twin Falls County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 44125,
+        "population_2020" : 51807,
+        "population_2027" : 67904,
+        "land_area_2020" : 0.0
+    },
+    "Rexburg, Madison County, ID" : {
+        "name" : "Rexburg",
+        "state" : "Idaho",
+        "FIPS" : "16-67420",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 25484,
+        "population_2020" : 39409,
+        "population_2027" : 66084,
+        "land_area_2020" : 0.0
+    },
+    "Post Falls, Kootenai County, ID" : {
+        "name" : "Post Falls",
+        "state" : "Idaho",
+        "FIPS" : "16-64810",
+        "counties" : [
+            "Kootenai County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 27574,
+        "population_2020" : 38485,
+        "population_2027" : 58470,
+        "land_area_2020" : 0.0
+    },
+    "Lewiston, Nez Perce County, ID" : {
+        "name" : "Lewiston",
+        "state" : "Idaho",
+        "FIPS" : "16-46540",
+        "counties" : [
+            "Nez Perce County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 31894,
+        "population_2020" : 34203,
+        "population_2027" : 41848,
+        "land_area_2020" : 0.0
+    },
+    "Eagle, Ada County, ID" : {
+        "name" : "Eagle",
+        "state" : "Idaho",
+        "FIPS" : "16-23410",
+        "counties" : [
+            "Ada County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 19908,
+        "population_2020" : 30346,
+        "population_2027" : 50159,
+        "land_area_2020" : 0.0
+    },
+    "Moscow, Latah County, ID" : {
+        "name" : "Moscow",
+        "state" : "Idaho",
+        "FIPS" : "16-54550",
+        "counties" : [
+            "Latah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23800,
+        "population_2020" : 25435,
+        "population_2027" : 31042,
+        "land_area_2020" : 0.0
+    },
+    "Kuna, Ada County, ID" : {
+        "name" : "Kuna",
+        "state" : "Idaho",
+        "FIPS" : "16-44290",
+        "counties" : [
+            "Ada County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15210,
+        "population_2020" : 24011,
+        "population_2027" : 41114,
+        "land_area_2020" : 0.0
+    },
+    "Ammon, Bonneville County, ID" : {
+        "name" : "Ammon",
+        "state" : "Idaho",
+        "FIPS" : "16-01990",
+        "counties" : [
+            "Bonneville County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13816,
+        "population_2020" : 17694,
+        "population_2027" : 24909,
+        "land_area_2020" : 0.0
+    },
+    "Mountain Home, Elmore County, ID" : {
+        "name" : "Mountain Home",
+        "state" : "Idaho",
+        "FIPS" : "16-54730",
+        "counties" : [
+            "Elmore County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14206,
+        "population_2020" : 15979,
+        "population_2027" : 20258,
+        "land_area_2020" : 0.0
+    },
+    "Chubbuck, Bannock County, ID" : {
+        "name" : "Chubbuck",
+        "state" : "Idaho",
+        "FIPS" : "16-14680",
+        "counties" : [
+            "Bannock County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13922,
+        "population_2020" : 15570,
+        "population_2027" : 19654,
+        "land_area_2020" : 0.0
+    },
+    "Hayden, Kootenai County, ID" : {
+        "name" : "Hayden",
+        "state" : "Idaho",
+        "FIPS" : "16-36370",
+        "counties" : [
+            "Kootenai County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13294,
+        "population_2020" : 15570,
+        "population_2027" : 20368,
+        "land_area_2020" : 0.0
+    },
+    "Jerome, Jerome County, ID" : {
+        "name" : "Jerome",
+        "state" : "Idaho",
+        "FIPS" : "16-41320",
+        "counties" : [
+            "Jerome County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10890,
+        "population_2020" : 12349,
+        "population_2027" : 15754,
+        "land_area_2020" : 0.0
+    },
+    "Blackfoot, Bingham County, ID" : {
+        "name" : "Blackfoot",
+        "state" : "Idaho",
+        "FIPS" : "16-07840",
+        "counties" : [
+            "Bingham County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11899,
+        "population_2020" : 12346,
+        "population_2027" : 14752,
+        "land_area_2020" : 0.0
+    },
+    "Garden City, Ada County, ID" : {
+        "name" : "Garden City",
+        "state" : "Idaho",
+        "FIPS" : "16-29620",
+        "counties" : [
+            "Ada County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10972,
+        "population_2020" : 12316,
+        "population_2027" : 15590,
+        "land_area_2020" : 0.0
+    },
+    "Burley, Cassia County, ID" : {
+        "name" : "Burley",
+        "state" : "Idaho",
+        "FIPS" : "16-11260",
+        "counties" : [
+            "Cassia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10345,
+        "population_2020" : 11704,
+        "population_2027" : 14905,
+        "land_area_2020" : 0.0
+    },
+    "Star, Ada County, ID" : {
+        "name" : "Star",
+        "state" : "Idaho",
+        "FIPS" : "16-76870",
+        "counties" : [
+            "Ada County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5793,
+        "population_2020" : 11117,
+        "population_2027" : 23655,
+        "land_area_2020" : 0.0
+    },
+    "Middleton, Canyon County, ID" : {
+        "name" : "Middleton",
+        "state" : "Idaho",
+        "FIPS" : "16-52660",
+        "counties" : [
+            "Canyon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5524,
+        "population_2020" : 9425,
+        "population_2027" : 17521,
+        "land_area_2020" : 0.0
+    },
+    "Rathdrum, Kootenai County, ID" : {
+        "name" : "Rathdrum",
+        "state" : "Idaho",
+        "FIPS" : "16-66340",
+        "counties" : [
+            "Kootenai County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6826,
+        "population_2020" : 9211,
+        "population_2027" : 13572,
+        "land_area_2020" : 0.0
+    },
+    "Hailey, Blaine County, ID" : {
+        "name" : "Hailey",
+        "state" : "Idaho",
+        "FIPS" : "16-34390",
+        "counties" : [
+            "Blaine County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7960,
+        "population_2020" : 9161,
+        "population_2027" : 11821,
+        "land_area_2020" : 0.0
+    },
+    "Sandpoint, Bonner County, ID" : {
+        "name" : "Sandpoint",
+        "state" : "Idaho",
+        "FIPS" : "16-72100",
+        "counties" : [
+            "Bonner County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7365,
+        "population_2020" : 8639,
+        "population_2027" : 11315,
+        "land_area_2020" : 0.0
+    },
+    "Payette, Payette County, ID" : {
+        "name" : "Payette",
+        "state" : "Idaho",
+        "FIPS" : "16-61300",
+        "counties" : [
+            "Payette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7433,
+        "population_2020" : 8127,
+        "population_2027" : 10086,
+        "land_area_2020" : 0.0
+    },
+    "Emmett, Gem County, ID" : {
+        "name" : "Emmett",
+        "state" : "Idaho",
+        "FIPS" : "16-25570",
+        "counties" : [
+            "Gem County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6557,
+        "population_2020" : 7647,
+        "population_2027" : 9970,
+        "land_area_2020" : 0.0
+    },
+    "Rupert, Minidoka County, ID" : {
+        "name" : "Rupert",
+        "state" : "Idaho",
+        "FIPS" : "16-70660",
+        "counties" : [
+            "Minidoka County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5554,
+        "population_2020" : 6082,
+        "population_2027" : 7557,
+        "land_area_2020" : 0.0
+    },
+    "Fruitland, Payette County, ID" : {
+        "name" : "Fruitland",
+        "state" : "Idaho",
+        "FIPS" : "16-28990",
+        "counties" : [
+            "Payette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4684,
+        "population_2020" : 6072,
+        "population_2027" : 8637,
+        "land_area_2020" : 0.0
+    },
+    "Weiser, Washington County, ID" : {
+        "name" : "Weiser",
+        "state" : "Idaho",
+        "FIPS" : "16-86140",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5507,
+        "population_2020" : 5630,
+        "population_2027" : 6657,
+        "land_area_2020" : 0.0
+    },
+    "Preston, Franklin County, ID" : {
+        "name" : "Preston",
+        "state" : "Idaho",
+        "FIPS" : "16-65260",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5204,
+        "population_2020" : 5591,
+        "population_2027" : 6850,
+        "land_area_2020" : 0.0
+    },
+    "Rigby, Jefferson County, ID" : {
+        "name" : "Rigby",
+        "state" : "Idaho",
+        "FIPS" : "16-67780",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3945,
+        "population_2020" : 5038,
+        "population_2027" : 7075,
+        "land_area_2020" : 0.0
+    },
+    "Shelley, Bingham County, ID" : {
+        "name" : "Shelley",
+        "state" : "Idaho",
+        "FIPS" : "16-73450",
+        "counties" : [
+            "Bingham County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4409,
+        "population_2020" : 4785,
+        "population_2027" : 5906,
+        "land_area_2020" : 0.0
+    },
+    "Kimberly, Twin Falls County, ID" : {
+        "name" : "Kimberly",
+        "state" : "Idaho",
+        "FIPS" : "16-43570",
+        "counties" : [
+            "Twin Falls County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3264,
+        "population_2020" : 4626,
+        "population_2027" : 7129,
+        "land_area_2020" : 0.0
+    },
+    "American Falls, Power County, ID" : {
+        "name" : "American Falls",
+        "state" : "Idaho",
+        "FIPS" : "16-01900",
+        "counties" : [
+            "Power County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4457,
+        "population_2020" : 4568,
+        "population_2027" : 5411,
+        "land_area_2020" : 0.0
+    },
+    "Buhl, Twin Falls County, ID" : {
+        "name" : "Buhl",
+        "state" : "Idaho",
+        "FIPS" : "16-10810",
+        "counties" : [
+            "Twin Falls County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4122,
+        "population_2020" : 4558,
+        "population_2027" : 5705,
+        "land_area_2020" : 0.0
+    },
+    "Gooding, Gooding County, ID" : {
+        "name" : "Gooding",
+        "state" : "Idaho",
+        "FIPS" : "16-32140",
+        "counties" : [
+            "Gooding County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3567,
+        "population_2020" : 3707,
+        "population_2027" : 4434,
+        "land_area_2020" : 0.0
+    },
+    "Heyburn, Minidoka County, ID" : {
+        "name" : "Heyburn",
+        "state" : "Idaho",
+        "FIPS" : "16-37360",
+        "counties" : [
+            "Minidoka County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3089,
+        "population_2020" : 3700,
+        "population_2027" : 4928,
+        "land_area_2020" : 0.0
+    },
+    "McCall, Valley County, ID" : {
+        "name" : "McCall",
+        "state" : "Idaho",
+        "FIPS" : "16-48790",
+        "counties" : [
+            "Valley County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2991,
+        "population_2020" : 3686,
+        "population_2027" : 5024,
+        "land_area_2020" : 0.0
+    },
+    "St. Anthony, Fremont County, ID" : {
+        "name" : "St. Anthony",
+        "state" : "Idaho",
+        "FIPS" : "16-71020",
+        "counties" : [
+            "Fremont County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3542,
+        "population_2020" : 3606,
+        "population_2027" : 4252,
+        "land_area_2020" : 0.0
+    },
+    "Ketchum, Blaine County, ID" : {
+        "name" : "Ketchum",
+        "state" : "Idaho",
+        "FIPS" : "16-43030",
+        "counties" : [
+            "Blaine County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2689,
+        "population_2020" : 3555,
+        "population_2027" : 5144,
+        "land_area_2020" : 0.0
+    },
+    "Grangeville, Idaho County, ID" : {
+        "name" : "Grangeville",
+        "state" : "Idaho",
+        "FIPS" : "16-32950",
+        "counties" : [
+            "Idaho County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3141,
+        "population_2020" : 3308,
+        "population_2027" : 3995,
+        "land_area_2020" : 0.0
+    },
+    "Orofino, Clearwater County, ID" : {
+        "name" : "Orofino",
+        "state" : "Idaho",
+        "FIPS" : "16-59320",
+        "counties" : [
+            "Clearwater County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3142,
+        "population_2020" : 3239,
+        "population_2027" : 3852,
+        "land_area_2020" : 0.0
+    },
+    "Soda Springs, Caribou County, ID" : {
+        "name" : "Soda Springs",
+        "state" : "Idaho",
+        "FIPS" : "16-75195",
+        "counties" : [
+            "Caribou County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3058,
+        "population_2020" : 3133,
+        "population_2027" : 3710,
+        "land_area_2020" : 0.0
+    },
+    "Salmon, Lemhi County, ID" : {
+        "name" : "Salmon",
+        "state" : "Idaho",
+        "FIPS" : "16-71650",
+        "counties" : [
+            "Lemhi County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3112,
+        "population_2020" : 3119,
+        "population_2027" : 3638,
+        "land_area_2020" : 0.0
+    },
+    "Wendell, Gooding County, ID" : {
+        "name" : "Wendell",
+        "state" : "Idaho",
+        "FIPS" : "16-86320",
+        "counties" : [
+            "Gooding County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2782,
+        "population_2020" : 2917,
+        "population_2027" : 3512,
+        "land_area_2020" : 0.0
+    },
+    "Homedale, Owyhee County, ID" : {
+        "name" : "Homedale",
+        "state" : "Idaho",
+        "FIPS" : "16-38170",
+        "counties" : [
+            "Owyhee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2633,
+        "population_2020" : 2881,
+        "population_2027" : 3578,
+        "land_area_2020" : 0.0
+    },
+    "Filer, Twin Falls County, ID" : {
+        "name" : "Filer",
+        "state" : "Idaho",
+        "FIPS" : "16-27730",
+        "counties" : [
+            "Twin Falls County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2508,
+        "population_2020" : 2738,
+        "population_2027" : 3394,
+        "land_area_2020" : 0.0
+    },
+    "Iona, Bonneville County, ID" : {
+        "name" : "Iona",
+        "state" : "Idaho",
+        "FIPS" : "16-40420",
+        "counties" : [
+            "Bonneville County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1803,
+        "population_2020" : 2717,
+        "population_2027" : 4440,
+        "land_area_2020" : 0.0
+    },
+    "Montpelier, Bear Lake County, ID" : {
+        "name" : "Montpelier",
+        "state" : "Idaho",
+        "FIPS" : "16-53920",
+        "counties" : [
+            "Bear Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2597,
+        "population_2020" : 2643,
+        "population_2027" : 3115,
+        "land_area_2020" : 0.0
+    },
+    "Bellevue, Blaine County, ID" : {
+        "name" : "Bellevue",
+        "state" : "Idaho",
+        "FIPS" : "16-06220",
+        "counties" : [
+            "Blaine County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2287,
+        "population_2020" : 2560,
+        "population_2027" : 3234,
+        "land_area_2020" : 0.0
+    },
+    "Dalton Gardens, Kootenai County, ID" : {
+        "name" : "Dalton Gardens",
+        "state" : "Idaho",
+        "FIPS" : "16-20350",
+        "counties" : [
+            "Kootenai County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2335,
+        "population_2020" : 2537,
+        "population_2027" : 3134,
+        "land_area_2020" : 0.0
+    },
+    "Bonners Ferry, Boundary County, ID" : {
+        "name" : "Bonners Ferry",
+        "state" : "Idaho",
+        "FIPS" : "16-09370",
+        "counties" : [
+            "Boundary County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2543,
+        "population_2020" : 2520,
+        "population_2027" : 2917,
+        "land_area_2020" : 0.0
+    },
+    "St. Maries, Benewah County, ID" : {
+        "name" : "St. Maries",
+        "state" : "Idaho",
+        "FIPS" : "16-71470",
+        "counties" : [
+            "Benewah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2402,
+        "population_2020" : 2357,
+        "population_2027" : 2710,
+        "land_area_2020" : 0.0
+    },
+    "Spirit Lake, Kootenai County, ID" : {
+        "name" : "Spirit Lake",
+        "state" : "Idaho",
+        "FIPS" : "16-76060",
+        "counties" : [
+            "Kootenai County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1945,
+        "population_2020" : 2337,
+        "population_2027" : 3120,
+        "land_area_2020" : 0.0
+    },
+    "Kellogg, Shoshone County, ID" : {
+        "name" : "Kellogg",
+        "state" : "Idaho",
+        "FIPS" : "16-42580",
+        "counties" : [
+            "Shoshone County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2120,
+        "population_2020" : 2314,
+        "population_2027" : 2868,
+        "land_area_2020" : 0.0
+    },
+    "Malad City, Oneida County, ID" : {
+        "name" : "Malad City",
+        "state" : "Idaho",
+        "FIPS" : "16-50140",
+        "counties" : [
+            "Oneida County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2095,
+        "population_2020" : 2299,
+        "population_2027" : 2861,
+        "land_area_2020" : 0.0
+    },
+    "Victor, Teton County, ID" : {
+        "name" : "Victor",
+        "state" : "Idaho",
+        "FIPS" : "16-84250",
+        "counties" : [
+            "Teton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1928,
+        "population_2020" : 2157,
+        "population_2027" : 2724,
+        "land_area_2020" : 0.0
+    },
+    "Parma, Canyon County, ID" : {
+        "name" : "Parma",
+        "state" : "Idaho",
+        "FIPS" : "16-60940",
+        "counties" : [
+            "Canyon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1983,
+        "population_2020" : 2096,
+        "population_2027" : 2538,
+        "land_area_2020" : 0.0
+    },
+    "Driggs, Teton County, ID" : {
+        "name" : "Driggs",
+        "state" : "Idaho",
+        "FIPS" : "16-22690",
+        "counties" : [
+            "Teton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1660,
+        "population_2020" : 1984,
+        "population_2027" : 2638,
+        "land_area_2020" : 0.0
+    },
+    "Sun Valley, Blaine County, ID" : {
+        "name" : "Sun Valley",
+        "state" : "Idaho",
+        "FIPS" : "16-78850",
+        "counties" : [
+            "Blaine County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1406,
+        "population_2020" : 1783,
+        "population_2027" : 2489,
+        "land_area_2020" : 0.0
+    },
+    "Aberdeen, Bingham County, ID" : {
+        "name" : "Aberdeen",
+        "state" : "Idaho",
+        "FIPS" : "16-00100",
+        "counties" : [
+            "Bingham County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1994,
+        "population_2020" : 1756,
+        "population_2027" : 1884,
+        "land_area_2020" : 0.0
+    },
+    "Sugar City, Madison County, ID" : {
+        "name" : "Sugar City",
+        "state" : "Idaho",
+        "FIPS" : "16-78040",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1514,
+        "population_2020" : 1715,
+        "population_2027" : 2186,
+        "land_area_2020" : 0.0
+    },
+    "Priest River, Bonner County, ID" : {
+        "name" : "Priest River",
+        "state" : "Idaho",
+        "FIPS" : "16-65530",
+        "counties" : [
+            "Bonner County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1751,
+        "population_2020" : 1696,
+        "population_2027" : 1933,
+        "land_area_2020" : 0.0
+    },
+    "Pinehurst, Shoshone County, ID" : {
+        "name" : "Pinehurst",
+        "state" : "Idaho",
+        "FIPS" : "16-63100",
+        "counties" : [
+            "Shoshone County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1619,
+        "population_2020" : 1679,
+        "population_2027" : 2005,
+        "land_area_2020" : 0.0
+    },
+    "Shoshone, Lincoln County, ID" : {
+        "name" : "Shoshone",
+        "state" : "Idaho",
+        "FIPS" : "16-73900",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1461,
+        "population_2020" : 1653,
+        "population_2027" : 2105,
+        "land_area_2020" : 0.0
+    },
+    "Wilder, Canyon County, ID" : {
+        "name" : "Wilder",
+        "state" : "Idaho",
+        "FIPS" : "16-87670",
+        "counties" : [
+            "Canyon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1533,
+        "population_2020" : 1597,
+        "population_2027" : 1914,
+        "land_area_2020" : 0.0
+    },
+    "Osburn, Shoshone County, ID" : {
+        "name" : "Osburn",
+        "state" : "Idaho",
+        "FIPS" : "16-59590",
+        "counties" : [
+            "Shoshone County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1555,
+        "population_2020" : 1567,
+        "population_2027" : 1835,
+        "land_area_2020" : 0.0
+    },
+    "New Plymouth, Payette County, ID" : {
+        "name" : "New Plymouth",
+        "state" : "Idaho",
+        "FIPS" : "16-56980",
+        "counties" : [
+            "Payette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1538,
+        "population_2020" : 1494,
+        "population_2027" : 1706,
+        "land_area_2020" : 0.0
+    },
+    "Ponderay, Bonner County, ID" : {
+        "name" : "Ponderay",
+        "state" : "Idaho",
+        "FIPS" : "16-64450",
+        "counties" : [
+            "Bonner County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1137,
+        "population_2020" : 1289,
+        "population_2027" : 1644,
+        "land_area_2020" : 0.0
+    },
+    "Glenns Ferry, Elmore County, ID" : {
+        "name" : "Glenns Ferry",
+        "state" : "Idaho",
+        "FIPS" : "16-31690",
+        "counties" : [
+            "Elmore County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1319,
+        "population_2020" : 1282,
+        "population_2027" : 1464,
+        "land_area_2020" : 0.0
+    },
+    "Marsing, Owyhee County, ID" : {
+        "name" : "Marsing",
+        "state" : "Idaho",
+        "FIPS" : "16-50950",
+        "counties" : [
+            "Owyhee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1031,
+        "population_2020" : 1229,
+        "population_2027" : 1630,
+        "land_area_2020" : 0.0
+    },
+    "Paul, Minidoka County, ID" : {
+        "name" : "Paul",
+        "state" : "Idaho",
+        "FIPS" : "16-61210",
+        "counties" : [
+            "Minidoka County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1169,
+        "population_2020" : 1195,
+        "population_2027" : 1413,
+        "land_area_2020" : 0.0
+    },
+    "Lapwai, Nez Perce County, ID" : {
+        "name" : "Lapwai",
+        "state" : "Idaho",
+        "FIPS" : "16-45370",
+        "counties" : [
+            "Nez Perce County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1137,
+        "population_2020" : 1169,
+        "population_2027" : 1388,
+        "land_area_2020" : 0.0
+    },
+    "Ucon, Bonneville County, ID" : {
+        "name" : "Ucon",
+        "state" : "Idaho",
+        "FIPS" : "16-83350",
+        "counties" : [
+            "Bonneville County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1108,
+        "population_2020" : 1160,
+        "population_2027" : 1395,
+        "land_area_2020" : 0.0
+    },
+    "Kamiah, Lewis County, ID" : {
+        "name" : "Kamiah",
+        "state" : "Idaho",
+        "FIPS" : "16-42400",
+        "counties" : [
+            "Lewis County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1295,
+        "population_2020" : 1117,
+        "population_2027" : 1183,
+        "land_area_2020" : 0.0
+    },
+    "Hansen, Twin Falls County, ID" : {
+        "name" : "Hansen",
+        "state" : "Idaho",
+        "FIPS" : "16-34930",
+        "counties" : [
+            "Twin Falls County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1144,
+        "population_2020" : 1086,
+        "population_2027" : 1221,
+        "land_area_2020" : 0.0
+    },
+    "Genesee, Latah County, ID" : {
+        "name" : "Genesee",
+        "state" : "Idaho",
+        "FIPS" : "16-30160",
+        "counties" : [
+            "Latah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 955,
+        "population_2020" : 1030,
+        "population_2027" : 1266,
+        "land_area_2020" : 0.0
+    },
+    "Franklin, Franklin County, ID" : {
+        "name" : "Franklin",
+        "state" : "Idaho",
+        "FIPS" : "16-28810",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 641,
+        "population_2020" : 1025,
+        "population_2027" : 1778,
+        "land_area_2020" : 0.0
+    },
+    "Plummer, Benewah County, ID" : {
+        "name" : "Plummer",
+        "state" : "Idaho",
+        "FIPS" : "16-63910",
+        "counties" : [
+            "Benewah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1044,
+        "population_2020" : 1015,
+        "population_2027" : 1160,
+        "land_area_2020" : 0.0
+    },
+    "Cascade, Valley County, ID" : {
+        "name" : "Cascade",
+        "state" : "Idaho",
+        "FIPS" : "16-13150",
+        "counties" : [
+            "Valley County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 939,
+        "population_2020" : 1005,
+        "population_2027" : 1228,
+        "land_area_2020" : 0.0
+    },
+    "Hagerman, Gooding County, ID" : {
+        "name" : "Hagerman",
+        "state" : "Idaho",
+        "FIPS" : "16-34300",
+        "counties" : [
+            "Gooding County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 872,
+        "population_2020" : 968,
+        "population_2027" : 1215,
+        "land_area_2020" : 0.0
+    },
+    "Ashton, Fremont County, ID" : {
+        "name" : "Ashton",
+        "state" : "Idaho",
+        "FIPS" : "16-03610",
+        "counties" : [
+            "Fremont County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1127,
+        "population_2020" : 949,
+        "population_2027" : 991,
+        "land_area_2020" : 0.0
+    },
+    "Kootenai, Bonner County, ID" : {
+        "name" : "Kootenai",
+        "state" : "Idaho",
+        "FIPS" : "16-44200",
+        "counties" : [
+            "Bonner County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 678,
+        "population_2020" : 941,
+        "population_2027" : 1422,
+        "land_area_2020" : 0.0
+    },
+    "Grace, Caribou County, ID" : {
+        "name" : "Grace",
+        "state" : "Idaho",
+        "FIPS" : "16-32500",
+        "counties" : [
+            "Caribou County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 915,
+        "population_2020" : 920,
+        "population_2027" : 1075,
+        "land_area_2020" : 0.0
+    },
+    "Challis, Custer County, ID" : {
+        "name" : "Challis",
+        "state" : "Idaho",
+        "FIPS" : "16-13780",
+        "counties" : [
+            "Custer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1081,
+        "population_2020" : 902,
+        "population_2027" : 937,
+        "land_area_2020" : 0.0
+    },
+    "Troy, Latah County, ID" : {
+        "name" : "Troy",
+        "state" : "Idaho",
+        "FIPS" : "16-82360",
+        "counties" : [
+            "Latah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 862,
+        "population_2020" : 890,
+        "population_2027" : 1060,
+        "land_area_2020" : 0.0
+    },
+    "Arco, Butte County, ID" : {
+        "name" : "Arco",
+        "state" : "Idaho",
+        "FIPS" : "16-03160",
+        "counties" : [
+            "Butte County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 995,
+        "population_2020" : 879,
+        "population_2027" : 945,
+        "land_area_2020" : 0.0
+    },
+    "Council, Adams County, ID" : {
+        "name" : "Council",
+        "state" : "Idaho",
+        "FIPS" : "16-18820",
+        "counties" : [
+            "Adams County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 839,
+        "population_2020" : 867,
+        "population_2027" : 1033,
+        "land_area_2020" : 0.0
+    },
+    "McCammon, Bannock County, ID" : {
+        "name" : "McCammon",
+        "state" : "Idaho",
+        "FIPS" : "16-48880",
+        "counties" : [
+            "Bannock County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 809,
+        "population_2020" : 825,
+        "population_2027" : 974,
+        "land_area_2020" : 0.0
+    },
+    "Cottonwood, Idaho County, ID" : {
+        "name" : "Cottonwood",
+        "state" : "Idaho",
+        "FIPS" : "16-18640",
+        "counties" : [
+            "Idaho County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 900,
+        "population_2020" : 822,
+        "population_2027" : 902,
+        "land_area_2020" : 0.0
+    },
+    "Moyie Springs, Boundary County, ID" : {
+        "name" : "Moyie Springs",
+        "state" : "Idaho",
+        "FIPS" : "16-55270",
+        "counties" : [
+            "Boundary County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 718,
+        "population_2020" : 822,
+        "population_2027" : 1056,
+        "land_area_2020" : 0.0
+    },
+    "Greenleaf, Canyon County, ID" : {
+        "name" : "Greenleaf",
+        "state" : "Idaho",
+        "FIPS" : "16-33490",
+        "counties" : [
+            "Canyon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 846,
+        "population_2020" : 812,
+        "population_2027" : 920,
+        "land_area_2020" : 0.0
+    },
+    "Hazelton, Jerome County, ID" : {
+        "name" : "Hazelton",
+        "state" : "Idaho",
+        "FIPS" : "16-36730",
+        "counties" : [
+            "Jerome County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 753,
+        "population_2020" : 803,
+        "population_2027" : 978,
+        "land_area_2020" : 0.0
+    },
+    "Inkom, Bannock County, ID" : {
+        "name" : "Inkom",
+        "state" : "Idaho",
+        "FIPS" : "16-40330",
+        "counties" : [
+            "Bannock County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 854,
+        "population_2020" : 792,
+        "population_2027" : 877,
+        "land_area_2020" : 0.0
+    },
+    "Wallace, Shoshone County, ID" : {
+        "name" : "Wallace",
+        "state" : "Idaho",
+        "FIPS" : "16-84790",
+        "counties" : [
+            "Shoshone County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 784,
+        "population_2020" : 791,
+        "population_2027" : 927,
+        "land_area_2020" : 0.0
+    },
+    "Teton, Fremont County, ID" : {
+        "name" : "Teton",
+        "state" : "Idaho",
+        "FIPS" : "16-80380",
+        "counties" : [
+            "Fremont County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 735,
+        "population_2020" : 787,
+        "population_2027" : 962,
+        "land_area_2020" : 0.0
+    },
+    "Oakley, Cassia County, ID" : {
+        "name" : "Oakley",
+        "state" : "Idaho",
+        "FIPS" : "16-58330",
+        "counties" : [
+            "Cassia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 763,
+        "population_2020" : 786,
+        "population_2027" : 934,
+        "land_area_2020" : 0.0
+    },
+    "Potlatch, Latah County, ID" : {
+        "name" : "Potlatch",
+        "state" : "Idaho",
+        "FIPS" : "16-64900",
+        "counties" : [
+            "Latah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 804,
+        "population_2020" : 763,
+        "population_2027" : 858,
+        "land_area_2020" : 0.0
+    },
+    "Hauser, Kootenai County, ID" : {
+        "name" : "Hauser",
+        "state" : "Idaho",
+        "FIPS" : "16-35830",
+        "counties" : [
+            "Kootenai County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 678,
+        "population_2020" : 761,
+        "population_2027" : 963,
+        "land_area_2020" : 0.0
+    },
+    "Dover, Bonner County, ID" : {
+        "name" : "Dover",
+        "state" : "Idaho",
+        "FIPS" : "16-22510",
+        "counties" : [
+            "Bonner County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 556,
+        "population_2020" : 752,
+        "population_2027" : 1110,
+        "land_area_2020" : 0.0
+    },
+    "Horseshoe Bend, Boise County, ID" : {
+        "name" : "Horseshoe Bend",
+        "state" : "Idaho",
+        "FIPS" : "16-38620",
+        "counties" : [
+            "Boise County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 707,
+        "population_2020" : 715,
+        "population_2027" : 839,
+        "land_area_2020" : 0.0
+    },
+    "Menan, Jefferson County, ID" : {
+        "name" : "Menan",
+        "state" : "Idaho",
+        "FIPS" : "16-52030",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 741,
+        "population_2020" : 715,
+        "population_2027" : 813,
+        "land_area_2020" : 0.0
+    },
+    "Athol, Kootenai County, ID" : {
+        "name" : "Athol",
+        "state" : "Idaho",
+        "FIPS" : "16-03700",
+        "counties" : [
+            "Kootenai County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 692,
+        "population_2020" : 709,
+        "population_2027" : 840,
+        "land_area_2020" : 0.0
+    },
+    "Carey, Blaine County, ID" : {
+        "name" : "Carey",
+        "state" : "Idaho",
+        "FIPS" : "16-12790",
+        "counties" : [
+            "Blaine County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 604,
+        "population_2020" : 685,
+        "population_2027" : 874,
+        "land_area_2020" : 0.0
+    },
+    "Smelterville, Shoshone County, ID" : {
+        "name" : "Smelterville",
+        "state" : "Idaho",
+        "FIPS" : "16-75070",
+        "counties" : [
+            "Shoshone County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 627,
+        "population_2020" : 670,
+        "population_2027" : 818,
+        "land_area_2020" : 0.0
+    },
+    "Ririe, Jefferson County, ID" : {
+        "name" : "Ririe",
+        "state" : "Idaho",
+        "FIPS" : "16-67960",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 656,
+        "population_2020" : 667,
+        "population_2027" : 786,
+        "land_area_2020" : 0.0
+    },
+    "Hayden Lake, Kootenai County, ID" : {
+        "name" : "Hayden Lake",
+        "state" : "Idaho",
+        "FIPS" : "16-36460",
+        "counties" : [
+            "Kootenai County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 574,
+        "population_2020" : 649,
+        "population_2027" : 826,
+        "land_area_2020" : 0.0
+    },
+    "Mullan, Shoshone County, ID" : {
+        "name" : "Mullan",
+        "state" : "Idaho",
+        "FIPS" : "16-55630",
+        "counties" : [
+            "Shoshone County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 692,
+        "population_2020" : 646,
+        "population_2027" : 719,
+        "land_area_2020" : 0.0
+    },
+    "Juliaetta, Latah County, ID" : {
+        "name" : "Juliaetta",
+        "state" : "Idaho",
+        "FIPS" : "16-42130",
+        "counties" : [
+            "Latah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 579,
+        "population_2020" : 624,
+        "population_2027" : 766,
+        "land_area_2020" : 0.0
+    },
+    "Notus, Canyon County, ID" : {
+        "name" : "Notus",
+        "state" : "Idaho",
+        "FIPS" : "16-58060",
+        "counties" : [
+            "Canyon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 531,
+        "population_2020" : 609,
+        "population_2027" : 784,
+        "land_area_2020" : 0.0
+    },
+    "Melba, Canyon County, ID" : {
+        "name" : "Melba",
+        "state" : "Idaho",
+        "FIPS" : "16-51850",
+        "counties" : [
+            "Canyon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 513,
+        "population_2020" : 572,
+        "population_2027" : 720,
+        "land_area_2020" : 0.0
+    },
+    "Downey, Bannock County, ID" : {
+        "name" : "Downey",
+        "state" : "Idaho",
+        "FIPS" : "16-22600",
+        "counties" : [
+            "Bannock County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 625,
+        "population_2020" : 571,
+        "population_2027" : 627,
+        "land_area_2020" : 0.0
+    },
+    "Paris, Bear Lake County, ID" : {
+        "name" : "Paris",
+        "state" : "Idaho",
+        "FIPS" : "16-60580",
+        "counties" : [
+            "Bear Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 513,
+        "population_2020" : 541,
+        "population_2027" : 654,
+        "land_area_2020" : 0.0
+    },
+    "Firth, Bingham County, ID" : {
+        "name" : "Firth",
+        "state" : "Idaho",
+        "FIPS" : "16-27910",
+        "counties" : [
+            "Bingham County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 477,
+        "population_2020" : 517,
+        "population_2027" : 638,
+        "land_area_2020" : 0.0
+    },
+    "New Meadows, Adams County, ID" : {
+        "name" : "New Meadows",
+        "state" : "Idaho",
+        "FIPS" : "16-56890",
+        "counties" : [
+            "Adams County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 496,
+        "population_2020" : 517,
+        "population_2027" : 620,
+        "land_area_2020" : 0.0
+    },
+    "Kooskia, Idaho County, ID" : {
+        "name" : "Kooskia",
+        "state" : "Idaho",
+        "FIPS" : "16-44110",
+        "counties" : [
+            "Idaho County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 607,
+        "population_2020" : 514,
+        "population_2027" : 539,
+        "land_area_2020" : 0.0
+    },
+    "Clark Fork, Bonner County, ID" : {
+        "name" : "Clark Fork",
+        "state" : "Idaho",
+        "FIPS" : "16-14950",
+        "counties" : [
+            "Bonner County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 536,
+        "population_2020" : 513,
+        "population_2027" : 580,
+        "land_area_2020" : 0.0
+    },
+    "Dubois, Clark County, ID" : {
+        "name" : "Dubois",
+        "state" : "Idaho",
+        "FIPS" : "16-22960",
+        "counties" : [
+            "Clark County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 677,
+        "population_2020" : 511,
+        "population_2027" : 502,
+        "land_area_2020" : 0.0
+    },
+    "Weston, Franklin County, ID" : {
+        "name" : "Weston",
+        "state" : "Idaho",
+        "FIPS" : "16-87040",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 437,
+        "population_2020" : 511,
+        "population_2027" : 668,
+        "land_area_2020" : 0.0
+    },
+    "Dayton, Franklin County, ID" : {
+        "name" : "Dayton",
+        "state" : "Idaho",
+        "FIPS" : "16-20710",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 463,
+        "population_2020" : 510,
+        "population_2027" : 636,
+        "land_area_2020" : 0.0
+    },
+    "Deary, Latah County, ID" : {
+        "name" : "Deary",
+        "state" : "Idaho",
+        "FIPS" : "16-20890",
+        "counties" : [
+            "Latah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 506,
+        "population_2020" : 508,
+        "population_2027" : 593,
+        "land_area_2020" : 0.0
+    },
+    "Georgetown, Bear Lake County, ID" : {
+        "name" : "Georgetown",
+        "state" : "Idaho",
+        "FIPS" : "16-30340",
+        "counties" : [
+            "Bear Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 476,
+        "population_2020" : 503,
+        "population_2027" : 609,
+        "land_area_2020" : 0.0
+    },
+    "Roberts, Jefferson County, ID" : {
+        "name" : "Roberts",
+        "state" : "Idaho",
+        "FIPS" : "16-68500",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 580,
+        "population_2020" : 500,
+        "population_2027" : 529,
+        "land_area_2020" : 0.0
+    },
+    "Pierce, Clearwater County, ID" : {
+        "name" : "Pierce",
+        "state" : "Idaho",
+        "FIPS" : "16-62740",
+        "counties" : [
+            "Clearwater County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 508,
+        "population_2020" : 467,
+        "population_2027" : 514,
+        "land_area_2020" : 0.0
+    },
+    "Idaho City, Boise County, ID" : {
+        "name" : "Idaho City",
+        "state" : "Idaho",
+        "FIPS" : "16-39610",
+        "counties" : [
+            "Boise County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 485,
+        "population_2020" : 466,
+        "population_2027" : 528,
+        "land_area_2020" : 0.0
+    },
+    "Craigmont, Lewis County, ID" : {
+        "name" : "Craigmont",
+        "state" : "Idaho",
+        "FIPS" : "16-19270",
+        "counties" : [
+            "Lewis County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 501,
+        "population_2020" : 458,
+        "population_2027" : 503,
+        "land_area_2020" : 0.0
+    },
+    "Nezperce, Lewis County, ID" : {
+        "name" : "Nezperce",
+        "state" : "Idaho",
+        "FIPS" : "16-57250",
+        "counties" : [
+            "Lewis County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 466,
+        "population_2020" : 458,
+        "population_2027" : 527,
+        "land_area_2020" : 0.0
+    },
+    "Fairfield, Camas County, ID" : {
+        "name" : "Fairfield",
+        "state" : "Idaho",
+        "FIPS" : "16-26290",
+        "counties" : [
+            "Camas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 416,
+        "population_2020" : 441,
+        "population_2027" : 535,
+        "land_area_2020" : 0.0
+    },
+    "Grand View, Owyhee County, ID" : {
+        "name" : "Grand View",
+        "state" : "Idaho",
+        "FIPS" : "16-32770",
+        "counties" : [
+            "Owyhee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 452,
+        "population_2020" : 440,
+        "population_2027" : 503,
+        "land_area_2020" : 0.0
+    },
+    "Mackay, Custer County, ID" : {
+        "name" : "Mackay",
+        "state" : "Idaho",
+        "FIPS" : "16-49240",
+        "counties" : [
+            "Custer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 517,
+        "population_2020" : 439,
+        "population_2027" : 461,
+        "land_area_2020" : 0.0
+    },
+    "Richfield, Lincoln County, ID" : {
+        "name" : "Richfield",
+        "state" : "Idaho",
+        "FIPS" : "16-67600",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 482,
+        "population_2020" : 431,
+        "population_2027" : 467,
+        "land_area_2020" : 0.0
+    },
+    "Lewisville, Jefferson County, ID" : {
+        "name" : "Lewisville",
+        "state" : "Idaho",
+        "FIPS" : "16-46720",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 458,
+        "population_2020" : 421,
+        "population_2027" : 464,
+        "land_area_2020" : 0.0
+    },
+    "Clifton, Franklin County, ID" : {
+        "name" : "Clifton",
+        "state" : "Idaho",
+        "FIPS" : "16-16120",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 259,
+        "population_2020" : 413,
+        "population_2027" : 715,
+        "land_area_2020" : 0.0
+    },
+    "Culdesac, Nez Perce County, ID" : {
+        "name" : "Culdesac",
+        "state" : "Idaho",
+        "FIPS" : "16-19900",
+        "counties" : [
+            "Nez Perce County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 380,
+        "population_2020" : 413,
+        "population_2027" : 510,
+        "land_area_2020" : 0.0
+    },
+    "Weippe, Clearwater County, ID" : {
+        "name" : "Weippe",
+        "state" : "Idaho",
+        "FIPS" : "16-86050",
+        "counties" : [
+            "Clearwater County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 441,
+        "population_2020" : 400,
+        "population_2027" : 437,
+        "land_area_2020" : 0.0
+    },
+    "Eden, Jerome County, ID" : {
+        "name" : "Eden",
+        "state" : "Idaho",
+        "FIPS" : "16-24310",
+        "counties" : [
+            "Jerome County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 405,
+        "population_2020" : 393,
+        "population_2027" : 448,
+        "land_area_2020" : 0.0
+    },
+    "Riggins, Idaho County, ID" : {
+        "name" : "Riggins",
+        "state" : "Idaho",
+        "FIPS" : "16-67870",
+        "counties" : [
+            "Idaho County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 419,
+        "population_2020" : 372,
+        "population_2027" : 401,
+        "land_area_2020" : 0.0
+    },
+    "Lava Hot Springs, Bannock County, ID" : {
+        "name" : "Lava Hot Springs",
+        "state" : "Idaho",
+        "FIPS" : "16-45820",
+        "counties" : [
+            "Bannock County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 407,
+        "population_2020" : 358,
+        "population_2027" : 384,
+        "land_area_2020" : 0.0
+    },
+    "Basalt, Bingham County, ID" : {
+        "name" : "Basalt",
+        "state" : "Idaho",
+        "FIPS" : "16-05230",
+        "counties" : [
+            "Bingham County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 394,
+        "population_2020" : 357,
+        "population_2027" : 390,
+        "land_area_2020" : 0.0
+    },
+    "Winchester, Lewis County, ID" : {
+        "name" : "Winchester",
+        "state" : "Idaho",
+        "FIPS" : "16-87850",
+        "counties" : [
+            "Lewis County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 340,
+        "population_2020" : 356,
+        "population_2027" : 428,
+        "land_area_2020" : 0.0
+    },
+    "Arimo, Bannock County, ID" : {
+        "name" : "Arimo",
+        "state" : "Idaho",
+        "FIPS" : "16-03340",
+        "counties" : [
+            "Bannock County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 355,
+        "population_2020" : 354,
+        "population_2027" : 411,
+        "land_area_2020" : 0.0
+    },
+    "Declo, Cassia County, ID" : {
+        "name" : "Declo",
+        "state" : "Idaho",
+        "FIPS" : "16-20980",
+        "counties" : [
+            "Cassia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 343,
+        "population_2020" : 338,
+        "population_2027" : 390,
+        "land_area_2020" : 0.0
+    },
+    "Newdale, Fremont County, ID" : {
+        "name" : "Newdale",
+        "state" : "Idaho",
+        "FIPS" : "16-56800",
+        "counties" : [
+            "Fremont County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 323,
+        "population_2020" : 337,
+        "population_2027" : 404,
+        "land_area_2020" : 0.0
+    },
+    "Cambridge, Washington County, ID" : {
+        "name" : "Cambridge",
+        "state" : "Idaho",
+        "FIPS" : "16-12520",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 328,
+        "population_2020" : 335,
+        "population_2027" : 396,
+        "land_area_2020" : 0.0
+    },
+    "Mud Lake, Jefferson County, ID" : {
+        "name" : "Mud Lake",
+        "state" : "Idaho",
+        "FIPS" : "16-55450",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 358,
+        "population_2020" : 321,
+        "population_2027" : 348,
+        "land_area_2020" : 0.0
+    },
+    "Tetonia, Teton County, ID" : {
+        "name" : "Tetonia",
+        "state" : "Idaho",
+        "FIPS" : "16-80470",
+        "counties" : [
+            "Teton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 269,
+        "population_2020" : 308,
+        "population_2027" : 396,
+        "land_area_2020" : 0.0
+    },
+    "Parker, Fremont County, ID" : {
+        "name" : "Parker",
+        "state" : "Idaho",
+        "FIPS" : "16-60760",
+        "counties" : [
+            "Fremont County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 305,
+        "population_2020" : 302,
+        "population_2027" : 349,
+        "land_area_2020" : 0.0
+    },
+    "Bancroft, Caribou County, ID" : {
+        "name" : "Bancroft",
+        "state" : "Idaho",
+        "FIPS" : "16-04420",
+        "counties" : [
+            "Caribou County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 377,
+        "population_2020" : 299,
+        "population_2027" : 302,
+        "land_area_2020" : 0.0
+    },
+    "Kendrick, Latah County, ID" : {
+        "name" : "Kendrick",
+        "state" : "Idaho",
+        "FIPS" : "16-42760",
+        "counties" : [
+            "Latah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 303,
+        "population_2020" : 288,
+        "population_2027" : 324,
+        "land_area_2020" : 0.0
+    },
+    "Dietrich, Lincoln County, ID" : {
+        "name" : "Dietrich",
+        "state" : "Idaho",
+        "FIPS" : "16-21790",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 332,
+        "population_2020" : 284,
+        "population_2027" : 299,
+        "land_area_2020" : 0.0
+    },
+    "Irwin, Bonneville County, ID" : {
+        "name" : "Irwin",
+        "state" : "Idaho",
+        "FIPS" : "16-40510",
+        "counties" : [
+            "Bonneville County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 219,
+        "population_2020" : 259,
+        "population_2027" : 341,
+        "land_area_2020" : 0.0
+    },
+    "Bliss, Gooding County, ID" : {
+        "name" : "Bliss",
+        "state" : "Idaho",
+        "FIPS" : "16-08470",
+        "counties" : [
+            "Gooding County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 318,
+        "population_2020" : 258,
+        "population_2027" : 264,
+        "land_area_2020" : 0.0
+    },
+    "Worley, Kootenai County, ID" : {
+        "name" : "Worley",
+        "state" : "Idaho",
+        "FIPS" : "16-88480",
+        "counties" : [
+            "Kootenai County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 257,
+        "population_2020" : 253,
+        "population_2027" : 292,
+        "land_area_2020" : 0.0
+    },
+    "Donnelly, Valley County, ID" : {
+        "name" : "Donnelly",
+        "state" : "Idaho",
+        "FIPS" : "16-22330",
+        "counties" : [
+            "Valley County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 152,
+        "population_2020" : 249,
+        "population_2027" : 443,
+        "land_area_2020" : 0.0
+    },
+    "Hollister, Twin Falls County, ID" : {
+        "name" : "Hollister",
+        "state" : "Idaho",
+        "FIPS" : "16-38080",
+        "counties" : [
+            "Twin Falls County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 272,
+        "population_2020" : 243,
+        "population_2027" : 263,
+        "land_area_2020" : 0.0
+    },
+    "Rockland, Power County, ID" : {
+        "name" : "Rockland",
+        "state" : "Idaho",
+        "FIPS" : "16-69130",
+        "counties" : [
+            "Power County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 295,
+        "population_2020" : 242,
+        "population_2027" : 249,
+        "land_area_2020" : 0.0
+    },
+    "Albion, Cassia County, ID" : {
+        "name" : "Albion",
+        "state" : "Idaho",
+        "FIPS" : "16-01000",
+        "counties" : [
+            "Cassia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 267,
+        "population_2020" : 234,
+        "population_2027" : 250,
+        "land_area_2020" : 0.0
+    },
+    "Harrison, Kootenai County, ID" : {
+        "name" : "Harrison",
+        "state" : "Idaho",
+        "FIPS" : "16-35200",
+        "counties" : [
+            "Kootenai County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 203,
+        "population_2020" : 233,
+        "population_2027" : 300,
+        "land_area_2020" : 0.0
+    },
+    "East Hope, Bonner County, ID" : {
+        "name" : "East Hope",
+        "state" : "Idaho",
+        "FIPS" : "16-23680",
+        "counties" : [
+            "Bonner County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 210,
+        "population_2020" : 229,
+        "population_2027" : 284,
+        "land_area_2020" : 0.0
+    },
+    "Swan Valley, Bonneville County, ID" : {
+        "name" : "Swan Valley",
+        "state" : "Idaho",
+        "FIPS" : "16-79120",
+        "counties" : [
+            "Bonneville County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 204,
+        "population_2020" : 225,
+        "population_2027" : 281,
+        "land_area_2020" : 0.0
+    },
+    "Oldtown, Bonner County, ID" : {
+        "name" : "Oldtown",
+        "state" : "Idaho",
+        "FIPS" : "16-58600",
+        "counties" : [
+            "Bonner County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 184,
+        "population_2020" : 221,
+        "population_2027" : 295,
+        "land_area_2020" : 0.0
+    },
+    "Castleford, Twin Falls County, ID" : {
+        "name" : "Castleford",
+        "state" : "Idaho",
+        "FIPS" : "16-13240",
+        "counties" : [
+            "Twin Falls County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 226,
+        "population_2020" : 215,
+        "population_2027" : 242,
+        "land_area_2020" : 0.0
+    },
+    "Bloomington, Bear Lake County, ID" : {
+        "name" : "Bloomington",
+        "state" : "Idaho",
+        "FIPS" : "16-08560",
+        "counties" : [
+            "Bear Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 206,
+        "population_2020" : 199,
+        "population_2027" : 226,
+        "land_area_2020" : 0.0
+    },
+    "Onaway, Latah County, ID" : {
+        "name" : "Onaway",
+        "state" : "Idaho",
+        "FIPS" : "16-58870",
+        "counties" : [
+            "Latah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 187,
+        "population_2020" : 196,
+        "population_2027" : 236,
+        "land_area_2020" : 0.0
+    },
+    "Island Park, Fremont County, ID" : {
+        "name" : "Island Park",
+        "state" : "Idaho",
+        "FIPS" : "16-40600",
+        "counties" : [
+            "Fremont County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 286,
+        "population_2020" : 193,
+        "population_2027" : 179,
+        "land_area_2020" : 0.0
+    },
+    "Midvale, Washington County, ID" : {
+        "name" : "Midvale",
+        "state" : "Idaho",
+        "FIPS" : "16-52750",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 171,
+        "population_2020" : 193,
+        "population_2027" : 245,
+        "land_area_2020" : 0.0
+    },
+    "Wardner, Shoshone, ID" : {
+        "name" : "Wardner",
+        "state" : "Idaho",
+        "FIPS" : "16-85240",
+        "counties" : [
+            "Shoshone"
+        ],
+        "type_class" : "City",
+        "population_2010" : 188,
+        "population_2020" : 192,
+        "population_2027" : 227,
+        "land_area_2020" : 0.0
+    },
+    "Bovill, Latah County, ID" : {
+        "name" : "Bovill",
+        "state" : "Idaho",
+        "FIPS" : "16-09730",
+        "counties" : [
+            "Latah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 260,
+        "population_2020" : 191,
+        "population_2027" : 185,
+        "land_area_2020" : 0.0
+    },
+    "Stites, Idaho County, ID" : {
+        "name" : "Stites",
+        "state" : "Idaho",
+        "FIPS" : "16-77500",
+        "counties" : [
+            "Idaho County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 221,
+        "population_2020" : 171,
+        "population_2027" : 170,
+        "land_area_2020" : 0.0
+    },
+    "Malta, Cassia County, ID" : {
+        "name" : "Malta",
+        "state" : "Idaho",
+        "FIPS" : "16-50230",
+        "counties" : [
+            "Cassia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 193,
+        "population_2020" : 167,
+        "population_2027" : 177,
+        "land_area_2020" : 0.0
+    },
+    "Peck, Nez Perce County, ID" : {
+        "name" : "Peck",
+        "state" : "Idaho",
+        "FIPS" : "16-61840",
+        "counties" : [
+            "Nez Perce County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 197,
+        "population_2020" : 166,
+        "population_2027" : 173,
+        "land_area_2020" : 0.0
+    },
+    "Fernan Lake Village, Kootenai County, ID" : {
+        "name" : "Fernan Lake Village",
+        "state" : "Idaho",
+        "FIPS" : "16-27550",
+        "counties" : [
+            "Kootenai County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 169,
+        "population_2020" : 164,
+        "population_2027" : 187,
+        "land_area_2020" : 0.0
+    },
+    "Moore, Butte County, ID" : {
+        "name" : "Moore",
+        "state" : "Idaho",
+        "FIPS" : "16-54100",
+        "counties" : [
+            "Butte County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 189,
+        "population_2020" : 162,
+        "population_2027" : 171,
+        "land_area_2020" : 0.0
+    },
+    "St. Charles, Bear Lake County, ID" : {
+        "name" : "St. Charles",
+        "state" : "Idaho",
+        "FIPS" : "16-71110",
+        "counties" : [
+            "Bear Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 131,
+        "population_2020" : 161,
+        "population_2027" : 219,
+        "land_area_2020" : 0.0
+    },
+    "Crouch, Boise County, ID" : {
+        "name" : "Crouch",
+        "state" : "Idaho",
+        "FIPS" : "16-19720",
+        "counties" : [
+            "Boise County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 162,
+        "population_2020" : 154,
+        "population_2027" : 173,
+        "land_area_2020" : 0.0
+    },
+    "Elk River, Clearwater County, ID" : {
+        "name" : "Elk River",
+        "state" : "Idaho",
+        "FIPS" : "16-25120",
+        "counties" : [
+            "Clearwater County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 125,
+        "population_2020" : 139,
+        "population_2027" : 175,
+        "land_area_2020" : 0.0
+    },
+    "Ferdinand, Idaho County, ID" : {
+        "name" : "Ferdinand",
+        "state" : "Idaho",
+        "FIPS" : "16-27460",
+        "counties" : [
+            "Idaho County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 159,
+        "population_2020" : 133,
+        "population_2027" : 138,
+        "land_area_2020" : 0.0
+    },
+    "Acequia, Minidoka County, ID" : {
+        "name" : "Acequia",
+        "state" : "Idaho",
+        "FIPS" : "16-00280",
+        "counties" : [
+            "Minidoka County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 124,
+        "population_2020" : 131,
+        "population_2027" : 159,
+        "land_area_2020" : 0.0
+    },
+    "Stanley, Custer County, ID" : {
+        "name" : "Stanley",
+        "state" : "Idaho",
+        "FIPS" : "16-76780",
+        "counties" : [
+            "Custer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 63,
+        "population_2020" : 116,
+        "population_2027" : 235,
+        "land_area_2020" : 0.0
+    },
+    "Murtaugh, Twin Falls County, ID" : {
+        "name" : "Murtaugh",
+        "state" : "Idaho",
+        "FIPS" : "16-55900",
+        "counties" : [
+            "Twin Falls County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 115,
+        "population_2020" : 114,
+        "population_2027" : 132,
+        "land_area_2020" : 0.0
+    },
+    "Huetter, Kootenai County, ID" : {
+        "name" : "Huetter",
+        "state" : "Idaho",
+        "FIPS" : "16-39070",
+        "counties" : [
+            "Kootenai County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 100,
+        "population_2020" : 104,
+        "population_2027" : 124,
+        "land_area_2020" : 0.0
+    },
+    "Hope, Bonner County, ID" : {
+        "name" : "Hope",
+        "state" : "Idaho",
+        "FIPS" : "16-38440",
+        "counties" : [
+            "Bonner County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 86,
+        "population_2020" : 98,
+        "population_2027" : 125,
+        "land_area_2020" : 0.0
+    },
+    "Leadore, Lemhi County, ID" : {
+        "name" : "Leadore",
+        "state" : "Idaho",
+        "FIPS" : "16-45910",
+        "counties" : [
+            "Lemhi County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 105,
+        "population_2020" : 98,
+        "population_2027" : 109,
+        "land_area_2020" : 0.0
+    },
+    "Minidoka, Minidoka County, ID" : {
+        "name" : "Minidoka",
+        "state" : "Idaho",
+        "FIPS" : "16-53110",
+        "counties" : [
+            "Minidoka County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 112,
+        "population_2020" : 86,
+        "population_2027" : 85,
+        "land_area_2020" : 0.0
+    },
+    "Tensed, Benewah County, ID" : {
+        "name" : "Tensed",
+        "state" : "Idaho",
+        "FIPS" : "16-80200",
+        "counties" : [
+            "Benewah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 123,
+        "population_2020" : 84,
+        "population_2027" : 78,
+        "land_area_2020" : 0.0
+    },
+    "White Bird, Idaho County, ID" : {
+        "name" : "White Bird",
+        "state" : "Idaho",
+        "FIPS" : "16-87310",
+        "counties" : [
+            "Idaho County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 91,
+        "population_2020" : 83,
+        "population_2027" : 91,
+        "land_area_2020" : 0.0
+    },
+    "Butte City, Butte County, ID" : {
+        "name" : "Butte City",
+        "state" : "Idaho",
+        "FIPS" : "16-11710",
+        "counties" : [
+            "Butte County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 74,
+        "population_2020" : 78,
+        "population_2027" : 94,
+        "land_area_2020" : 0.0
+    },
+    "Placerville, Boise County, ID" : {
+        "name" : "Placerville",
+        "state" : "Idaho",
+        "FIPS" : "16-63550",
+        "counties" : [
+            "Boise County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 53,
+        "population_2020" : 48,
+        "population_2027" : 52,
+        "land_area_2020" : 0.0
+    },
+    "Reubens, Lewis County, ID" : {
+        "name" : "Reubens",
+        "state" : "Idaho",
+        "FIPS" : "16-67150",
+        "counties" : [
+            "Lewis County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 71,
+        "population_2020" : 46,
+        "population_2027" : 42,
+        "land_area_2020" : 0.0
+    },
+    "Lost River, Custer County, ID" : {
+        "name" : "Lost River",
+        "state" : "Idaho",
+        "FIPS" : "16-47890",
+        "counties" : [
+            "Custer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 68,
+        "population_2020" : 42,
+        "population_2027" : 37,
+        "land_area_2020" : 0.0
+    },
+    "Oxford, Franklin, ID" : {
+        "name" : "Oxford",
+        "state" : "Idaho",
+        "FIPS" : "16-60040",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "City",
+        "population_2010" : 48,
+        "population_2020" : 42,
+        "population_2027" : 45,
+        "land_area_2020" : 0.0
+    },
+    "State Line, Kootenai County, ID" : {
+        "name" : "State Line",
+        "state" : "Idaho",
+        "FIPS" : "16-77050",
+        "counties" : [
+            "Kootenai County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 38,
+        "population_2020" : 39,
+        "population_2027" : 46,
+        "land_area_2020" : 0.0
+    },
+    "Spencer, Clark County, ID" : {
+        "name" : "Spencer",
+        "state" : "Idaho",
+        "FIPS" : "16-75970",
+        "counties" : [
+            "Clark County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 37,
+        "population_2020" : 31,
+        "population_2027" : 32,
+        "land_area_2020" : 0.0
+    },
+    "Drummond, Fremont County, ID" : {
+        "name" : "Drummond",
+        "state" : "Idaho",
+        "FIPS" : "16-22780",
+        "counties" : [
+            "Fremont County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16,
+        "population_2020" : 13,
+        "population_2027" : 13,
+        "land_area_2020" : 0.0
+    },
+    "Clayton, Custer County, ID" : {
+        "name" : "Clayton",
+        "state" : "Idaho",
+        "FIPS" : "16-15490",
+        "counties" : [
+            "Custer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7,
+        "population_2020" : 10,
+        "population_2027" : 16,
+        "land_area_2020" : 0.0
+    },
+    "Warm River, Fremont County, ID" : {
+        "name" : "Warm River",
+        "state" : "Idaho",
+        "FIPS" : "16-85420",
+        "counties" : [
+            "Fremont County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3,
+        "population_2020" : 4,
+        "population_2027" : 6,
+        "land_area_2020" : 0.0
+    }
+}

@@ -1,0 +1,1939 @@
+{
+    "Adak, Aleutians West Census Area, AK" : {
+        "name" : "Adak",
+        "state" : "Alaska",
+        "FIPS" : "02-00065",
+        "counties" : [
+            "Aleutians West Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 326,
+        "population_2020" : 171,
+        "population_2027" : 124,
+        "land_area_2020" : 84.0
+    },
+    "Akhiok, Kodiak Island Borough, AK" : {
+        "name" : "Akhiok",
+        "state" : "Alaska",
+        "FIPS" : "02-00650",
+        "counties" : [
+            "Kodiak Island Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 63,
+        "population_2020" : 1974,
+        "population_2027" : 9532,
+        "land_area_2020" : 7.4
+    },
+    "Akiak, Bethel Census Area, AK" : {
+        "name" : "Akiak",
+        "state" : "Alaska",
+        "FIPS" : "02-00870",
+        "counties" : [
+            "Bethel Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 462,
+        "population_2020" : 1970,
+        "population_2027" : 9513,
+        "land_area_2020" : 1.89
+    },
+    "Akutan, Aleutians East Borough, AK" : {
+        "name" : "Akutan",
+        "state" : "Alaska",
+        "FIPS" : "02-01090",
+        "counties" : [
+            "Aleutians East Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 1589,
+        "population_2020" : 1979,
+        "population_2027" : 2381,
+        "land_area_2020" : 65.98
+    },
+    "Alakanuk, Kusilvak Census Area, AK" : {
+        "name" : "Alakanuk",
+        "state" : "Alaska",
+        "FIPS" : "02-01200",
+        "counties" : [
+            "Kusilvak Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 756,
+        "population_2020" : 1969,
+        "population_2027" : 5656,
+        "land_area_2020" : 32.2
+    },
+    "Aleknagik, Dillingham Census Area, AK" : {
+        "name" : "Aleknagik",
+        "state" : "Alaska",
+        "FIPS" : "02-01420",
+        "counties" : [
+            "Dillingham Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 211,
+        "population_2020" : 1973,
+        "population_2027" : 9527,
+        "land_area_2020" : 26.55
+    },
+    "Allakaket, Yukon-Koyukuk Census Area, AK" : {
+        "name" : "Allakaket",
+        "state" : "Alaska",
+        "FIPS" : "02-01860",
+        "counties" : [
+            "Yukon-Koyukuk Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 177,
+        "population_2020" : 1975,
+        "population_2027" : 9537,
+        "land_area_2020" : 14.72
+    },
+    "Ambler, Northwest Arctic Borough, AK" : {
+        "name" : "Ambler",
+        "state" : "Alaska",
+        "FIPS" : "02-01970",
+        "counties" : [
+            "Northwest Arctic Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 274,
+        "population_2020" : 1971,
+        "population_2027" : 9518,
+        "land_area_2020" : 10.28
+    },
+    "Anaktuvuk Pass, North Slope Borough, AK" : {
+        "name" : "Anaktuvuk Pass",
+        "state" : "Alaska",
+        "FIPS" : "02-02080",
+        "counties" : [
+            "North Slope Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 425,
+        "population_2020" : 1959,
+        "population_2027" : 9460,
+        "land_area_2020" : 5.18
+    },
+    "Anchorage, Municipality of Anchorage, AK" : {
+        "name" : "Anchorage",
+        "state" : "Alaska",
+        "FIPS" : "02-03000",
+        "counties" : [
+            "Municipality of Anchorage"
+        ],
+        "type_class" : "Unified Home Rule",
+        "population_2010" : 291247,
+        "population_2020" : 1975,
+        "population_2027" : 966,
+        "land_area_2020" : 1706.8
+    },
+    "Anderson, Denali Borough, AK" : {
+        "name" : "Anderson",
+        "state" : "Alaska",
+        "FIPS" : "02-03220",
+        "counties" : [
+            "Denali Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 177,
+        "population_2020" : 1962,
+        "population_2027" : 9474,
+        "land_area_2020" : 42.2
+    },
+    "Angoon, Hoonah-Angoon Census Area, AK" : {
+        "name" : "Angoon",
+        "state" : "Alaska",
+        "FIPS" : "02-03440",
+        "counties" : [
+            "Hoonah-Angoon Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 357,
+        "population_2020" : 1963,
+        "population_2027" : 9479,
+        "land_area_2020" : 24.53
+    },
+    "Aniak, Bethel Census Area, AK" : {
+        "name" : "Aniak",
+        "state" : "Alaska",
+        "FIPS" : "02-03550",
+        "counties" : [
+            "Bethel Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 507,
+        "population_2020" : 1972,
+        "population_2027" : 9522,
+        "land_area_2020" : 6.18
+    },
+    "Anvik, Yukon-Koyukuk Census Area, AK" : {
+        "name" : "Anvik",
+        "state" : "Alaska",
+        "FIPS" : "02-03880",
+        "counties" : [
+            "Yukon-Koyukuk Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 70,
+        "population_2020" : 1969,
+        "population_2027" : 9508,
+        "land_area_2020" : 9.49
+    },
+    "Atka, Aleutians West Census Area, AK" : {
+        "name" : "Atka",
+        "state" : "Alaska",
+        "FIPS" : "02-04210",
+        "counties" : [
+            "Aleutians West Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 53,
+        "population_2020" : 1988,
+        "population_2027" : 9600,
+        "land_area_2020" : 8.47
+    },
+    "Atqasuk, North Slope Borough, AK" : {
+        "name" : "Atqasuk",
+        "state" : "Alaska",
+        "FIPS" : "02-04500",
+        "counties" : [
+            "North Slope Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 276,
+        "population_2020" : 1982,
+        "population_2027" : 9571,
+        "land_area_2020" : 39.12
+    },
+    "Bethel, Bethel Census Area, AK" : {
+        "name" : "Bethel",
+        "state" : "Alaska",
+        "FIPS" : "02-06520",
+        "counties" : [
+            "Bethel Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 6325,
+        "population_2020" : 1957,
+        "population_2027" : 1206,
+        "land_area_2020" : 44.51
+    },
+    "Bettles, Yukon-Koyukuk Census Area, AK" : {
+        "name" : "Bettles",
+        "state" : "Alaska",
+        "FIPS" : "02-06630",
+        "counties" : [
+            "Yukon-Koyukuk Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 23,
+        "population_2020" : 1985,
+        "population_2027" : 9585,
+        "land_area_2020" : 1.56
+    },
+    "Brevig Mission, Nome Census Area, AK" : {
+        "name" : "Brevig Mission",
+        "state" : "Alaska",
+        "FIPS" : "02-08740",
+        "counties" : [
+            "Nome Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 428,
+        "population_2020" : 1969,
+        "population_2027" : 9508,
+        "land_area_2020" : 2.43
+    },
+    "Buckland, Northwest Arctic Borough, AK" : {
+        "name" : "Buckland",
+        "state" : "Alaska",
+        "FIPS" : "02-09600",
+        "counties" : [
+            "Northwest Arctic Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 550,
+        "population_2020" : 1966,
+        "population_2027" : 9493,
+        "land_area_2020" : 0.85
+    },
+    "Chefornak, Bethel Census Area, AK" : {
+        "name" : "Chefornak",
+        "state" : "Alaska",
+        "FIPS" : "02-12680",
+        "counties" : [
+            "Bethel Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 506,
+        "population_2020" : 1974,
+        "population_2027" : 9532,
+        "land_area_2020" : 5.24
+    },
+    "Chevak, Kusilvak Census Area, AK" : {
+        "name" : "Chevak",
+        "state" : "Alaska",
+        "FIPS" : "02-13230",
+        "counties" : [
+            "Kusilvak Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 951,
+        "population_2020" : 1967,
+        "population_2027" : 4060,
+        "land_area_2020" : 1.14
+    },
+    "Chignik, Lake and Peninsula Borough, AK" : {
+        "name" : "Chignik",
+        "state" : "Alaska",
+        "FIPS" : "02-13550",
+        "counties" : [
+            "Lake and Peninsula Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 97,
+        "population_2020" : 1983,
+        "population_2027" : 9575,
+        "land_area_2020" : 10.95
+    },
+    "Chuathbaluk, Bethel Census Area, AK" : {
+        "name" : "Chuathbaluk",
+        "state" : "Alaska",
+        "FIPS" : "02-14330",
+        "counties" : [
+            "Bethel Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 104,
+        "population_2020" : 1975,
+        "population_2027" : 9537,
+        "land_area_2020" : 4.47
+    },
+    "Clark's Point, Dillingham Census Area, AK" : {
+        "name" : "Clark's Point",
+        "state" : "Alaska",
+        "FIPS" : "02-15430",
+        "counties" : [
+            "Dillingham Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 67,
+        "population_2020" : 1971,
+        "population_2027" : 9518,
+        "land_area_2020" : 3.32
+    },
+    "Coffman Cove, Prince of Wales-Hyder Census Area, AK" : {
+        "name" : "Coffman Cove",
+        "state" : "Alaska",
+        "FIPS" : "02-16360",
+        "counties" : [
+            "Prince of Wales-Hyder Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 127,
+        "population_2020" : 1989,
+        "population_2027" : 9604,
+        "land_area_2020" : 10.9
+    },
+    "Cold Bay, Aleutians East Borough, AK" : {
+        "name" : "Cold Bay",
+        "state" : "Alaska",
+        "FIPS" : "02-16530",
+        "counties" : [
+            "Aleutians East Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 50,
+        "population_2020" : 1981,
+        "population_2027" : 9566,
+        "land_area_2020" : 53.41
+    },
+    "Cordova, Chugach Census Area, AK" : {
+        "name" : "Cordova",
+        "state" : "Alaska",
+        "FIPS" : "02-17410",
+        "counties" : [
+            "Chugach Census Area"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2609,
+        "population_2020" : 1909,
+        "population_2027" : 1604,
+        "land_area_2020" : 61.35
+    },
+    "Craig, Prince of Wales-Hyder Census Area, AK" : {
+        "name" : "Craig",
+        "state" : "Alaska",
+        "FIPS" : "02-17740",
+        "counties" : [
+            "Prince of Wales-Hyder Census Area"
+        ],
+        "type_class" : "First Class",
+        "population_2010" : 1036,
+        "population_2020" : 1922,
+        "population_2027" : 3464,
+        "land_area_2020" : 6.69
+    },
+    "Deering, Northwest Arctic Borough, AK" : {
+        "name" : "Deering",
+        "state" : "Alaska",
+        "FIPS" : "02-18510",
+        "counties" : [
+            "Northwest Arctic Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 182,
+        "population_2020" : 1970,
+        "population_2027" : 9513,
+        "land_area_2020" : 5.02
+    },
+    "Delta Junction, Southeast Fairbanks Census Area, AK" : {
+        "name" : "Delta Junction",
+        "state" : "Alaska",
+        "FIPS" : "02-18620",
+        "counties" : [
+            "Southeast Fairbanks Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 918,
+        "population_2020" : 1960,
+        "population_2027" : 4219,
+        "land_area_2020" : 13.88
+    },
+    "Dillingham, Dillingham Census Area, AK" : {
+        "name" : "Dillingham",
+        "state" : "Alaska",
+        "FIPS" : "02-18950",
+        "counties" : [
+            "Dillingham Census Area"
+        ],
+        "type_class" : "First Class",
+        "population_2010" : 2249,
+        "population_2020" : 1963,
+        "population_2027" : 1824,
+        "land_area_2020" : 33.34
+    },
+    "Diomede, Nome Census Area, AK" : {
+        "name" : "Diomede",
+        "state" : "Alaska",
+        "FIPS" : "02-19060",
+        "counties" : [
+            "Nome Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 83,
+        "population_2020" : 1970,
+        "population_2027" : 9513,
+        "land_area_2020" : 2.43
+    },
+    "Eagle, Southeast Fairbanks Census Area, AK" : {
+        "name" : "Eagle",
+        "state" : "Alaska",
+        "FIPS" : "02-20380",
+        "counties" : [
+            "Southeast Fairbanks Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 83,
+        "population_2020" : 1901,
+        "population_2027" : 9180,
+        "land_area_2020" : 0.88
+    },
+    "Edna Bay, Prince of Wales-Hyder Census Area, AK" : {
+        "name" : "Edna Bay",
+        "state" : "Alaska",
+        "FIPS" : "02-20970",
+        "counties" : [
+            "Prince of Wales-Hyder Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 42,
+        "population_2020" : 25,
+        "population_2027" : 19,
+        "land_area_2020" : 54.8
+    },
+    "Eek, Bethel Census Area, AK" : {
+        "name" : "Eek",
+        "state" : "Alaska",
+        "FIPS" : "02-21040",
+        "counties" : [
+            "Bethel Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 404,
+        "population_2020" : 1970,
+        "population_2027" : 9513,
+        "land_area_2020" : 0.65
+    },
+    "Egegik, Lake and Peninsula Borough, AK" : {
+        "name" : "Egegik",
+        "state" : "Alaska",
+        "FIPS" : "02-21150",
+        "counties" : [
+            "Lake and Peninsula Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 39,
+        "population_2020" : 1995,
+        "population_2027" : 9633,
+        "land_area_2020" : 29.55
+    },
+    "Ekwok, Dillingham Census Area, AK" : {
+        "name" : "Ekwok",
+        "state" : "Alaska",
+        "FIPS" : "02-21810",
+        "counties" : [
+            "Dillingham Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 111,
+        "population_2020" : 1974,
+        "population_2027" : 9532,
+        "land_area_2020" : 16.75
+    },
+    "Elim, Nome Census Area, AK" : {
+        "name" : "Elim",
+        "state" : "Alaska",
+        "FIPS" : "02-22250",
+        "counties" : [
+            "Nome Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 366,
+        "population_2020" : 1970,
+        "population_2027" : 9513,
+        "land_area_2020" : 2.66
+    },
+    "Emmonak, Kusilvak Census Area, AK" : {
+        "name" : "Emmonak",
+        "state" : "Alaska",
+        "FIPS" : "02-22910",
+        "counties" : [
+            "Kusilvak Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 825,
+        "population_2020" : 1964,
+        "population_2027" : 4924,
+        "land_area_2020" : 4.97
+    },
+    "Fairbanks, Fairbanks North Star Borough, AK" : {
+        "name" : "Fairbanks",
+        "state" : "Alaska",
+        "FIPS" : "02-24230",
+        "counties" : [
+            "Fairbanks North Star Borough"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 31535,
+        "population_2020" : 32515,
+        "population_2027" : 33754,
+        "land_area_2020" : 82.2
+    },
+    "False Pass, Aleutians East Borough, AK" : {
+        "name" : "False Pass",
+        "state" : "Alaska",
+        "FIPS" : "02-24660",
+        "counties" : [
+            "Aleutians East Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 397,
+        "population_2020" : 1990,
+        "population_2027" : 9609,
+        "land_area_2020" : 25.07
+    },
+    "Fort Yukon, Yukon-Koyukuk Census Area, AK" : {
+        "name" : "Fort Yukon",
+        "state" : "Alaska",
+        "FIPS" : "02-26760",
+        "counties" : [
+            "Yukon-Koyukuk Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 428,
+        "population_2020" : 1959,
+        "population_2027" : 9460,
+        "land_area_2020" : 6.74
+    },
+    "Galena, Yukon-Koyukuk Census Area, AK" : {
+        "name" : "Galena",
+        "state" : "Alaska",
+        "FIPS" : "02-27530",
+        "counties" : [
+            "Yukon-Koyukuk Census Area"
+        ],
+        "type_class" : "First Class",
+        "population_2010" : 472,
+        "population_2020" : 1971,
+        "population_2027" : 9518,
+        "land_area_2020" : 17.65
+    },
+    "Gambell, Nome Census Area, AK" : {
+        "name" : "Gambell",
+        "state" : "Alaska",
+        "FIPS" : "02-27640",
+        "counties" : [
+            "Nome Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 640,
+        "population_2020" : 1963,
+        "population_2027" : 7410,
+        "land_area_2020" : 10.51
+    },
+    "Golovin, Nome Census Area, AK" : {
+        "name" : "Golovin",
+        "state" : "Alaska",
+        "FIPS" : "02-29180",
+        "counties" : [
+            "Nome Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 175,
+        "population_2020" : 1971,
+        "population_2027" : 9518,
+        "land_area_2020" : 4.13
+    },
+    "Goodnews Bay, Bethel Census Area, AK" : {
+        "name" : "Goodnews Bay",
+        "state" : "Alaska",
+        "FIPS" : "02-29290",
+        "counties" : [
+            "Bethel Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 258,
+        "population_2020" : 1970,
+        "population_2027" : 9513,
+        "land_area_2020" : 3.33
+    },
+    "Grayling, Yukon-Koyukuk Census Area, AK" : {
+        "name" : "Grayling",
+        "state" : "Alaska",
+        "FIPS" : "02-30060",
+        "counties" : [
+            "Yukon-Koyukuk Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 210,
+        "population_2020" : 1969,
+        "population_2027" : 9508,
+        "land_area_2020" : 11.23
+    },
+    "Gustavus, Hoonah-Angoon Census Area, AK" : {
+        "name" : "Gustavus",
+        "state" : "Alaska",
+        "FIPS" : "02-30940",
+        "counties" : [
+            "Hoonah-Angoon Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 655,
+        "population_2020" : 2004,
+        "population_2027" : 7531,
+        "land_area_2020" : 36.36
+    },
+    "Holy Cross, Yukon-Koyukuk Census Area, AK" : {
+        "name" : "Holy Cross",
+        "state" : "Alaska",
+        "FIPS" : "02-33030",
+        "counties" : [
+            "Yukon-Koyukuk Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 176,
+        "population_2020" : 1968,
+        "population_2027" : 9503,
+        "land_area_2020" : 28.83
+    },
+    "Homer, Kenai Peninsula Borough, AK" : {
+        "name" : "Homer",
+        "state" : "Alaska",
+        "FIPS" : "02-33140",
+        "counties" : [
+            "Kenai Peninsula Borough"
+        ],
+        "type_class" : "First Class",
+        "population_2010" : 5522,
+        "population_2020" : 1964,
+        "population_2027" : 1253,
+        "land_area_2020" : 13.79
+    },
+    "Hoonah, Hoonah-Angoon Census Area, AK" : {
+        "name" : "Hoonah",
+        "state" : "Alaska",
+        "FIPS" : "02-33360",
+        "counties" : [
+            "Hoonah-Angoon Census Area"
+        ],
+        "type_class" : "First Class",
+        "population_2010" : 931,
+        "population_2020" : 1946,
+        "population_2027" : 4073,
+        "land_area_2020" : 5.87
+    },
+    "Hooper Bay, Kusilvak Census Area, AK" : {
+        "name" : "Hooper Bay",
+        "state" : "Alaska",
+        "FIPS" : "02-33470",
+        "counties" : [
+            "Kusilvak Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 1375,
+        "population_2020" : 1966,
+        "population_2027" : 2680,
+        "land_area_2020" : 7.5
+    },
+    "Houston, Matanuska-Susitna Borough, AK" : {
+        "name" : "Houston",
+        "state" : "Alaska",
+        "FIPS" : "02-33800",
+        "counties" : [
+            "Matanuska-Susitna Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 1975,
+        "population_2020" : 1966,
+        "population_2027" : 1991,
+        "land_area_2020" : 23.94
+    },
+    "Hughes, Yukon-Koyukuk Census Area, AK" : {
+        "name" : "Hughes",
+        "state" : "Alaska",
+        "FIPS" : "02-33910",
+        "counties" : [
+            "Yukon-Koyukuk Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 85,
+        "population_2020" : 1973,
+        "population_2027" : 9527,
+        "land_area_2020" : 3.04
+    },
+    "Huslia, Yukon-Koyukuk Census Area, AK" : {
+        "name" : "Huslia",
+        "state" : "Alaska",
+        "FIPS" : "02-34350",
+        "counties" : [
+            "Yukon-Koyukuk Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 304,
+        "population_2020" : 1969,
+        "population_2027" : 9508,
+        "land_area_2020" : 15.79
+    },
+    "Hydaburg, Prince of Wales-Hyder Census Area, AK" : {
+        "name" : "Hydaburg",
+        "state" : "Alaska",
+        "FIPS" : "02-34460",
+        "counties" : [
+            "Prince of Wales-Hyder Census Area"
+        ],
+        "type_class" : "First Class",
+        "population_2010" : 380,
+        "population_2020" : 1927,
+        "population_2027" : 9305,
+        "land_area_2020" : 0.29
+    },
+    "Juneau, City and Borough of Juneau, AK" : {
+        "name" : "Juneau",
+        "state" : "Alaska",
+        "FIPS" : "02-36400",
+        "counties" : [
+            "City and Borough of Juneau"
+        ],
+        "type_class" : "Unified Home Rule",
+        "population_2010" : 32255,
+        "population_2020" : 1970,
+        "population_2027" : 1005,
+        "land_area_2020" : 2704.03
+    },
+    "Kachemak, Kenai Peninsula Borough, AK" : {
+        "name" : "Kachemak",
+        "state" : "Alaska",
+        "FIPS" : "02-36540",
+        "counties" : [
+            "Kenai Peninsula Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 576,
+        "population_2020" : 1961,
+        "population_2027" : 8975,
+        "land_area_2020" : 1.67
+    },
+    "Kake, Prince of Wales-Hyder Census Area, AK" : {
+        "name" : "Kake",
+        "state" : "Alaska",
+        "FIPS" : "02-36770",
+        "counties" : [
+            "Prince of Wales-Hyder Census Area"
+        ],
+        "type_class" : "First Class",
+        "population_2010" : 543,
+        "population_2020" : 1952,
+        "population_2027" : 9426,
+        "land_area_2020" : 7.67
+    },
+    "Kaktovik, North Slope Borough, AK" : {
+        "name" : "Kaktovik",
+        "state" : "Alaska",
+        "FIPS" : "02-36990",
+        "counties" : [
+            "North Slope Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 283,
+        "population_2020" : 1971,
+        "population_2027" : 9518,
+        "land_area_2020" : 0.77
+    },
+    "Kaltag, Yukon-Koyukuk Census Area, AK" : {
+        "name" : "Kaltag",
+        "state" : "Alaska",
+        "FIPS" : "02-37430",
+        "counties" : [
+            "Yukon-Koyukuk Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 158,
+        "population_2020" : 1969,
+        "population_2027" : 9508,
+        "land_area_2020" : 21.64
+    },
+    "Kasaan, Prince of Wales-Hyder Census Area, AK" : {
+        "name" : "Kasaan",
+        "state" : "Alaska",
+        "FIPS" : "02-37650",
+        "counties" : [
+            "Prince of Wales-Hyder Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 30,
+        "population_2020" : 1976,
+        "population_2027" : 9542,
+        "land_area_2020" : 6.06
+    },
+    "Kenai, Kenai Peninsula Borough, AK" : {
+        "name" : "Kenai",
+        "state" : "Alaska",
+        "FIPS" : "02-38420",
+        "counties" : [
+            "Kenai Peninsula Borough"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 7424,
+        "population_2020" : 1960,
+        "population_2027" : 1167,
+        "land_area_2020" : 29.14
+    },
+    "Ketchikan, Ketchikan Gateway Borough, AK" : {
+        "name" : "Ketchikan",
+        "state" : "Alaska",
+        "FIPS" : "02-38970",
+        "counties" : [
+            "Ketchikan Gateway Borough"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 8192,
+        "population_2020" : 1900,
+        "population_2027" : 1105,
+        "land_area_2020" : 3.81
+    },
+    "Kiana, Northwest Arctic Borough, AK" : {
+        "name" : "Kiana",
+        "state" : "Alaska",
+        "FIPS" : "02-39300",
+        "counties" : [
+            "Northwest Arctic Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 447,
+        "population_2020" : 1964,
+        "population_2027" : 9484,
+        "land_area_2020" : 0.19
+    },
+    "King Cove, Aleutians East Borough, AK" : {
+        "name" : "King Cove",
+        "state" : "Alaska",
+        "FIPS" : "02-39410",
+        "counties" : [
+            "Aleutians East Borough"
+        ],
+        "type_class" : "First Class",
+        "population_2010" : 757,
+        "population_2020" : 1947,
+        "population_2027" : 5484,
+        "land_area_2020" : 24.66
+    },
+    "Kivalina, Northwest Arctic Borough, AK" : {
+        "name" : "Kivalina",
+        "state" : "Alaska",
+        "FIPS" : "02-39960",
+        "counties" : [
+            "Northwest Arctic Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 444,
+        "population_2020" : 1969,
+        "population_2027" : 9508,
+        "land_area_2020" : 1.63
+    },
+    "Klawock, Prince of Wales-Hyder Census Area, AK" : {
+        "name" : "Klawock",
+        "state" : "Alaska",
+        "FIPS" : "02-40400",
+        "counties" : [
+            "Prince of Wales-Hyder Census Area"
+        ],
+        "type_class" : "First Class",
+        "population_2010" : 720,
+        "population_2020" : 1929,
+        "population_2027" : 5795,
+        "land_area_2020" : 0.68
+    },
+    "Kobuk, Northwest Arctic Borough, AK" : {
+        "name" : "Kobuk",
+        "state" : "Alaska",
+        "FIPS" : "02-40840",
+        "counties" : [
+            "Northwest Arctic Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 191,
+        "population_2020" : 1973,
+        "population_2027" : 9527,
+        "land_area_2020" : 15.51
+    },
+    "Kodiak, Kodiak Island Borough, AK" : {
+        "name" : "Kodiak",
+        "state" : "Alaska",
+        "FIPS" : "02-40950",
+        "counties" : [
+            "Kodiak Island Borough"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 5581,
+        "population_2020" : 1940,
+        "population_2027" : 1230,
+        "land_area_2020" : 3.92
+    },
+    "Kotlik, Kusilvak Census Area, AK" : {
+        "name" : "Kotlik",
+        "state" : "Alaska",
+        "FIPS" : "02-41720",
+        "counties" : [
+            "Kusilvak Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 655,
+        "population_2020" : 1970,
+        "population_2027" : 7184,
+        "land_area_2020" : 2.99
+    },
+    "Kotzebue, Northwest Arctic Borough, AK" : {
+        "name" : "Kotzebue",
+        "state" : "Alaska",
+        "FIPS" : "02-41830",
+        "counties" : [
+            "Northwest Arctic Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 3102,
+        "population_2020" : 1958,
+        "population_2027" : 1530,
+        "land_area_2020" : 24.76
+    },
+    "Koyuk, Nome Census Area, AK" : {
+        "name" : "Koyuk",
+        "state" : "Alaska",
+        "FIPS" : "02-41940",
+        "counties" : [
+            "Nome Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 312,
+        "population_2020" : 1970,
+        "population_2027" : 9513,
+        "land_area_2020" : 5.1
+    },
+    "Koyukuk, Yukon-Koyukuk Census Area, AK" : {
+        "name" : "Koyukuk",
+        "state" : "Alaska",
+        "FIPS" : "02-42050",
+        "counties" : [
+            "Yukon-Koyukuk Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 98,
+        "population_2020" : 1973,
+        "population_2027" : 9527,
+        "land_area_2020" : 5.74
+    },
+    "Kupreanof, Petersburg Borough, AK" : {
+        "name" : "Kupreanof",
+        "state" : "Alaska",
+        "FIPS" : "02-42160",
+        "counties" : [
+            "Petersburg Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 21,
+        "population_2020" : 1975,
+        "population_2027" : 9537,
+        "land_area_2020" : 3.02
+    },
+    "Kwethluk, Bethel Census Area, AK" : {
+        "name" : "Kwethluk",
+        "state" : "Alaska",
+        "FIPS" : "02-42380",
+        "counties" : [
+            "Bethel Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 812,
+        "population_2020" : 1975,
+        "population_2027" : 5111,
+        "land_area_2020" : 10.18
+    },
+    "Larsen Bay, Kodiak Island Borough, AK" : {
+        "name" : "Larsen Bay",
+        "state" : "Alaska",
+        "FIPS" : "02-43040",
+        "counties" : [
+            "Kodiak Island Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 34,
+        "population_2020" : 1974,
+        "population_2027" : 9532,
+        "land_area_2020" : 4.03
+    },
+    "Lower Kalskag, Bethel Census Area, AK" : {
+        "name" : "Lower Kalskag",
+        "state" : "Alaska",
+        "FIPS" : "02-45460",
+        "counties" : [
+            "Bethel Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 278,
+        "population_2020" : 1969,
+        "population_2027" : 9508,
+        "land_area_2020" : 1.24
+    },
+    "Manokotak, Dillingham Census Area, AK" : {
+        "name" : "Manokotak",
+        "state" : "Alaska",
+        "FIPS" : "02-46890",
+        "counties" : [
+            "Dillingham Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 488,
+        "population_2020" : 1970,
+        "population_2027" : 9513,
+        "land_area_2020" : 73.14
+    },
+    "Marshall, Kusilvak Census Area, AK" : {
+        "name" : "Marshall",
+        "state" : "Alaska",
+        "FIPS" : "02-47000",
+        "counties" : [
+            "Kusilvak Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 492,
+        "population_2020" : 1970,
+        "population_2027" : 9513,
+        "land_area_2020" : 4.06
+    },
+    "McGrath, Yukon-Koyukuk Census Area, AK" : {
+        "name" : "McGrath",
+        "state" : "Alaska",
+        "FIPS" : "02-46010",
+        "counties" : [
+            "Yukon-Koyukuk Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 301,
+        "population_2020" : 1975,
+        "population_2027" : 9537,
+        "land_area_2020" : 42.33
+    },
+    "Mekoryuk, Bethel Census Area, AK" : {
+        "name" : "Mekoryuk",
+        "state" : "Alaska",
+        "FIPS" : "02-47990",
+        "counties" : [
+            "Bethel Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 206,
+        "population_2020" : 1969,
+        "population_2027" : 9508,
+        "land_area_2020" : 7.07
+    },
+    "Mountain Village, Kusilvak Census Area, AK" : {
+        "name" : "Mountain Village",
+        "state" : "Alaska",
+        "FIPS" : "02-51180",
+        "counties" : [
+            "Kusilvak Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 621,
+        "population_2020" : 1967,
+        "population_2027" : 7867,
+        "land_area_2020" : 4.21
+    },
+    "Napakiak, Bethel Census Area, AK" : {
+        "name" : "Napakiak",
+        "state" : "Alaska",
+        "FIPS" : "02-52390",
+        "counties" : [
+            "Bethel Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 358,
+        "population_2020" : 1970,
+        "population_2027" : 9513,
+        "land_area_2020" : 2.01
+    },
+    "Napaskiak, Bethel Census Area, AK" : {
+        "name" : "Napaskiak",
+        "state" : "Alaska",
+        "FIPS" : "02-52720",
+        "counties" : [
+            "Bethel Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 509,
+        "population_2020" : 1971,
+        "population_2027" : 9518,
+        "land_area_2020" : 2.9
+    },
+    "Nenana, Yukon-Koyukuk Census Area, AK" : {
+        "name" : "Nenana",
+        "state" : "Alaska",
+        "FIPS" : "02-53050",
+        "counties" : [
+            "Yukon-Koyukuk Census Area"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 358,
+        "population_2020" : 1921,
+        "population_2027" : 9276,
+        "land_area_2020" : 5.95
+    },
+    "New Stuyahok, Dillingham Census Area, AK" : {
+        "name" : "New Stuyahok",
+        "state" : "Alaska",
+        "FIPS" : "02-53710",
+        "counties" : [
+            "Dillingham Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 512,
+        "population_2020" : 1972,
+        "population_2027" : 9522,
+        "land_area_2020" : 33.72
+    },
+    "Newhalen, Lake and Peninsula Borough, AK" : {
+        "name" : "Newhalen",
+        "state" : "Alaska",
+        "FIPS" : "02-53270",
+        "counties" : [
+            "Lake and Peninsula Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 168,
+        "population_2020" : 1971,
+        "population_2027" : 9518,
+        "land_area_2020" : 6.03
+    },
+    "Nightmute, Bethel Census Area, AK" : {
+        "name" : "Nightmute",
+        "state" : "Alaska",
+        "FIPS" : "02-53930",
+        "counties" : [
+            "Bethel Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 306,
+        "population_2020" : 1974,
+        "population_2027" : 9532,
+        "land_area_2020" : 98.96
+    },
+    "Nikolai, Yukon-Koyukuk Census Area, AK" : {
+        "name" : "Nikolai",
+        "state" : "Alaska",
+        "FIPS" : "02-54150",
+        "counties" : [
+            "Yukon-Koyukuk Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 89,
+        "population_2020" : 1970,
+        "population_2027" : 9513,
+        "land_area_2020" : 4.39
+    },
+    "Nome, Nome Census Area, AK" : {
+        "name" : "Nome",
+        "state" : "Alaska",
+        "FIPS" : "02-54920",
+        "counties" : [
+            "Nome Census Area"
+        ],
+        "type_class" : "First Class",
+        "population_2010" : 3699,
+        "population_2020" : 1901,
+        "population_2027" : 1364,
+        "land_area_2020" : 12.8
+    },
+    "Nondalton, Lake and Peninsula Borough, AK" : {
+        "name" : "Nondalton",
+        "state" : "Alaska",
+        "FIPS" : "02-55030",
+        "counties" : [
+            "Lake and Peninsula Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 133,
+        "population_2020" : 1971,
+        "population_2027" : 9518,
+        "land_area_2020" : 6.74
+    },
+    "Noorvik, Northwest Arctic Borough, AK" : {
+        "name" : "Noorvik",
+        "state" : "Alaska",
+        "FIPS" : "02-55140",
+        "counties" : [
+            "Northwest Arctic Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 694,
+        "population_2020" : 1964,
+        "population_2027" : 6454,
+        "land_area_2020" : 0.84
+    },
+    "North Pole, Fairbanks North Star Borough, AK" : {
+        "name" : "North Pole",
+        "state" : "Alaska",
+        "FIPS" : "02-55910",
+        "counties" : [
+            "Fairbanks North Star Borough"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2243,
+        "population_2020" : 1953,
+        "population_2027" : 1812,
+        "land_area_2020" : 4.08
+    },
+    "Nuiqsut, North Slope Borough, AK" : {
+        "name" : "Nuiqsut",
+        "state" : "Alaska",
+        "FIPS" : "02-56320",
+        "counties" : [
+            "North Slope Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 512,
+        "population_2020" : 1975,
+        "population_2027" : 9537,
+        "land_area_2020" : 8.89
+    },
+    "Nulato, Yukon-Koyukuk Census Area, AK" : {
+        "name" : "Nulato",
+        "state" : "Alaska",
+        "FIPS" : "02-56350",
+        "counties" : [
+            "Yukon-Koyukuk Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 238,
+        "population_2020" : 1963,
+        "population_2027" : 9479,
+        "land_area_2020" : 41.09
+    },
+    "Nunam Iqua, Kusilvak Census Area, AK" : {
+        "name" : "Nunam Iqua",
+        "state" : "Alaska",
+        "FIPS" : "02-56600",
+        "counties" : [
+            "Kusilvak Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 217,
+        "population_2020" : 1974,
+        "population_2027" : 9532,
+        "land_area_2020" : 11.57
+    },
+    "Nunapitchuk, Bethel Census Area, AK" : {
+        "name" : "Nunapitchuk",
+        "state" : "Alaska",
+        "FIPS" : "02-56680",
+        "counties" : [
+            "Bethel Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 594,
+        "population_2020" : 1969,
+        "population_2027" : 8566,
+        "land_area_2020" : 6.99
+    },
+    "Old Harbor, Kodiak Island Borough, AK" : {
+        "name" : "Old Harbor",
+        "state" : "Alaska",
+        "FIPS" : "02-57340",
+        "counties" : [
+            "Kodiak Island Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 216,
+        "population_2020" : 1966,
+        "population_2027" : 9493,
+        "land_area_2020" : 16.19
+    },
+    "Ouzinkie, Kodiak Island Borough, AK" : {
+        "name" : "Ouzinkie",
+        "state" : "Alaska",
+        "FIPS" : "02-58550",
+        "counties" : [
+            "Kodiak Island Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 109,
+        "population_2020" : 1967,
+        "population_2027" : 9498,
+        "land_area_2020" : 5.54
+    },
+    "Palmer, Matanuska-Susitna Borough, AK" : {
+        "name" : "Palmer",
+        "state" : "Alaska",
+        "FIPS" : "02-58660",
+        "counties" : [
+            "Matanuska-Susitna Borough"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 5888,
+        "population_2020" : 1951,
+        "population_2027" : 1222,
+        "land_area_2020" : 5.07
+    },
+    "Pelican, Hoonah-Angoon Census Area, AK" : {
+        "name" : "Pelican",
+        "state" : "Alaska",
+        "FIPS" : "02-59650",
+        "counties" : [
+            "Hoonah-Angoon Census Area"
+        ],
+        "type_class" : "First Class",
+        "population_2010" : 98,
+        "population_2020" : 1943,
+        "population_2027" : 9382,
+        "land_area_2020" : 0.55
+    },
+    "Pilot Point, Lake and Peninsula Borough, AK" : {
+        "name" : "Pilot Point",
+        "state" : "Alaska",
+        "FIPS" : "02-60640",
+        "counties" : [
+            "Lake and Peninsula Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 70,
+        "population_2020" : 1992,
+        "population_2027" : 9619,
+        "land_area_2020" : 24.55
+    },
+    "Pilot Station, Kusilvak Census Area, AK" : {
+        "name" : "Pilot Station",
+        "state" : "Alaska",
+        "FIPS" : "02-60750",
+        "counties" : [
+            "Kusilvak Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 615,
+        "population_2020" : 1969,
+        "population_2027" : 8031,
+        "land_area_2020" : 1.61
+    },
+    "Platinum, Bethel Census Area, AK" : {
+        "name" : "Platinum",
+        "state" : "Alaska",
+        "FIPS" : "02-61080",
+        "counties" : [
+            "Bethel Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 55,
+        "population_2020" : 1975,
+        "population_2027" : 9537,
+        "land_area_2020" : 47.27
+    },
+    "Point Hope, North Slope Borough, AK" : {
+        "name" : "Point Hope",
+        "state" : "Alaska",
+        "FIPS" : "02-61630",
+        "counties" : [
+            "North Slope Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 830,
+        "population_2020" : 1966,
+        "population_2027" : 4893,
+        "land_area_2020" : 5.0
+    },
+    "Port Alexander, Prince of Wales-Hyder Census Area, AK" : {
+        "name" : "Port Alexander",
+        "state" : "Alaska",
+        "FIPS" : "02-62510",
+        "counties" : [
+            "Prince of Wales-Hyder Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 78,
+        "population_2020" : 1974,
+        "population_2027" : 9532,
+        "land_area_2020" : 3.5
+    },
+    "Port Heiden, Lake and Peninsula Borough, AK" : {
+        "name" : "Port Heiden",
+        "state" : "Alaska",
+        "FIPS" : "02-63390",
+        "counties" : [
+            "Lake and Peninsula Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 100,
+        "population_2020" : 1972,
+        "population_2027" : 9522,
+        "land_area_2020" : 46.77
+    },
+    "Port Lions, Kodiak Island Borough, AK" : {
+        "name" : "Port Lions",
+        "state" : "Alaska",
+        "FIPS" : "02-63610",
+        "counties" : [
+            "Kodiak Island Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 170,
+        "population_2020" : 1966,
+        "population_2027" : 9493,
+        "land_area_2020" : 4.99
+    },
+    "Quinhagak, Bethel Census Area, AK" : {
+        "name" : "Quinhagak",
+        "state" : "Alaska",
+        "FIPS" : "02-64600",
+        "counties" : [
+            "Bethel Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 776,
+        "population_2020" : 1975,
+        "population_2027" : 5474,
+        "land_area_2020" : 4.1
+    },
+    "Ruby, Yukon-Koyukuk Census Area, AK" : {
+        "name" : "Ruby",
+        "state" : "Alaska",
+        "FIPS" : "02-65590",
+        "counties" : [
+            "Yukon-Koyukuk Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 139,
+        "population_2020" : 1973,
+        "population_2027" : 9527,
+        "land_area_2020" : 7.03
+    },
+    "Russian Mission, Kusilvak Census Area, AK" : {
+        "name" : "Russian Mission",
+        "state" : "Alaska",
+        "FIPS" : "02-65700",
+        "counties" : [
+            "Kusilvak Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 421,
+        "population_2020" : 1970,
+        "population_2027" : 9513,
+        "land_area_2020" : 5.37
+    },
+    "St. Paul, Aleutians West Census Area, AK" : {
+        "name" : "St. Paul",
+        "state" : "Alaska",
+        "FIPS" : "02-66470",
+        "counties" : [
+            "Aleutians West Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 413,
+        "population_2020" : 1971,
+        "population_2027" : 9518,
+        "land_area_2020" : 42.62
+    },
+    "Sand Point, Aleutians East Borough, AK" : {
+        "name" : "Sand Point",
+        "state" : "Alaska",
+        "FIPS" : "02-67020",
+        "counties" : [
+            "Aleutians East Borough"
+        ],
+        "type_class" : "First Class",
+        "population_2010" : 578,
+        "population_2020" : 1966,
+        "population_2027" : 8982,
+        "land_area_2020" : 8.01
+    },
+    "Savoonga, Nome Census Area, AK" : {
+        "name" : "Savoonga",
+        "state" : "Alaska",
+        "FIPS" : "02-67460",
+        "counties" : [
+            "Nome Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 835,
+        "population_2020" : 1969,
+        "population_2027" : 4869,
+        "land_area_2020" : 5.87
+    },
+    "Saxman, Ketchikan Gateway Borough, AK" : {
+        "name" : "Saxman",
+        "state" : "Alaska",
+        "FIPS" : "02-67570",
+        "counties" : [
+            "Ketchikan Gateway Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 384,
+        "population_2020" : 1929,
+        "population_2027" : 9315,
+        "land_area_2020" : 0.96
+    },
+    "Scammon Bay, Kusilvak Census Area, AK" : {
+        "name" : "Scammon Bay",
+        "state" : "Alaska",
+        "FIPS" : "02-67680",
+        "counties" : [
+            "Kusilvak Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 600,
+        "population_2020" : 1967,
+        "population_2027" : 8382,
+        "land_area_2020" : 0.47
+    },
+    "Selawik, Northwest Arctic Borough, AK" : {
+        "name" : "Selawik",
+        "state" : "Alaska",
+        "FIPS" : "02-68230",
+        "counties" : [
+            "Northwest Arctic Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 829,
+        "population_2020" : 809,
+        "population_2027" : 808,
+        "land_area_2020" : 6.0
+    },
+    "Seldovia, Kenai Peninsula Borough, AK" : {
+        "name" : "Seldovia",
+        "state" : "Alaska",
+        "FIPS" : "02-68340",
+        "counties" : [
+            "Kenai Peninsula Borough"
+        ],
+        "type_class" : "First Class",
+        "population_2010" : 235,
+        "population_2020" : 1945,
+        "population_2027" : 9392,
+        "land_area_2020" : 0.39
+    },
+    "Seward, Kenai Peninsula Borough, AK" : {
+        "name" : "Seward",
+        "state" : "Alaska",
+        "FIPS" : "02-68560",
+        "counties" : [
+            "Kenai Peninsula Borough"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2717,
+        "population_2020" : 1912,
+        "population_2027" : 1574,
+        "land_area_2020" : 13.96
+    },
+    "Shageluk, Yukon-Koyukuk Census Area, AK" : {
+        "name" : "Shageluk",
+        "state" : "Alaska",
+        "FIPS" : "02-68670",
+        "counties" : [
+            "Yukon-Koyukuk Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 100,
+        "population_2020" : 1970,
+        "population_2027" : 9513,
+        "land_area_2020" : 10.22
+    },
+    "Shaktoolik, Nome Census Area, AK" : {
+        "name" : "Shaktoolik",
+        "state" : "Alaska",
+        "FIPS" : "02-68890",
+        "counties" : [
+            "Nome Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 212,
+        "population_2020" : 1969,
+        "population_2027" : 9508,
+        "land_area_2020" : 1.07
+    },
+    "Shishmaref, Nome Census Area, AK" : {
+        "name" : "Shishmaref",
+        "state" : "Alaska",
+        "FIPS" : "02-69770",
+        "counties" : [
+            "Nome Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 576,
+        "population_2020" : 1969,
+        "population_2027" : 9083,
+        "land_area_2020" : 2.34
+    },
+    "Shungnak, Northwest Arctic Borough, AK" : {
+        "name" : "Shungnak",
+        "state" : "Alaska",
+        "FIPS" : "02-70100",
+        "counties" : [
+            "Northwest Arctic Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 272,
+        "population_2020" : 1967,
+        "population_2027" : 9498,
+        "land_area_2020" : 8.05
+    },
+    "Sitka, City and Borough of Sitka, AK" : {
+        "name" : "Sitka",
+        "state" : "Alaska",
+        "FIPS" : "02-70540",
+        "counties" : [
+            "City and Borough of Sitka"
+        ],
+        "type_class" : "Unified Home Rule",
+        "population_2010" : 8458,
+        "population_2020" : 1971,
+        "population_2027" : 1147,
+        "land_area_2020" : 2870.06
+    },
+    "Soldotna, Kenai Peninsula Borough, AK" : {
+        "name" : "Soldotna",
+        "state" : "Alaska",
+        "FIPS" : "02-71640",
+        "counties" : [
+            "Kenai Peninsula Borough"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 4342,
+        "population_2020" : 1967,
+        "population_2027" : 1349,
+        "land_area_2020" : 6.96
+    },
+    "St. George, Aleutians West Census Area, AK" : {
+        "name" : "St. George",
+        "state" : "Alaska",
+        "FIPS" : "02-65800",
+        "counties" : [
+            "Aleutians West Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 67,
+        "population_2020" : 1983,
+        "population_2027" : 9575,
+        "land_area_2020" : 34.78
+    },
+    "St. Mary's, Kusilvak Census Area, AK" : {
+        "name" : "St. Mary's",
+        "state" : "Alaska",
+        "FIPS" : "02-66140",
+        "counties" : [
+            "Kusilvak Census Area"
+        ],
+        "type_class" : "First Class",
+        "population_2010" : 599,
+        "population_2020" : 1967,
+        "population_2027" : 8408,
+        "land_area_2020" : 44.6
+    },
+    "St. Michael, Nome Census Area, AK" : {
+        "name" : "St. Michael",
+        "state" : "Alaska",
+        "FIPS" : "02-66360",
+        "counties" : [
+            "Nome Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 456,
+        "population_2020" : 1969,
+        "population_2027" : 9508,
+        "land_area_2020" : 21.75
+    },
+    "Stebbins, Nome Census Area, AK" : {
+        "name" : "Stebbins",
+        "state" : "Alaska",
+        "FIPS" : "02-72960",
+        "counties" : [
+            "Nome Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 634,
+        "population_2020" : 1969,
+        "population_2027" : 7600,
+        "land_area_2020" : 32.61
+    },
+    "Tanana, Yukon-Koyukuk Census Area, AK" : {
+        "name" : "Tanana",
+        "state" : "Alaska",
+        "FIPS" : "02-75160",
+        "counties" : [
+            "Yukon-Koyukuk Census Area"
+        ],
+        "type_class" : "First Class",
+        "population_2010" : 246,
+        "population_2020" : 1961,
+        "population_2027" : 9469,
+        "land_area_2020" : 10.67
+    },
+    "Teller, Nome Census Area, AK" : {
+        "name" : "Teller",
+        "state" : "Alaska",
+        "FIPS" : "02-75930",
+        "counties" : [
+            "Nome Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 249,
+        "population_2020" : 1963,
+        "population_2027" : 9479,
+        "land_area_2020" : 1.49
+    },
+    "Tenakee Springs, Hoonah-Angoon Census Area, AK" : {
+        "name" : "Tenakee Springs",
+        "state" : "Alaska",
+        "FIPS" : "02-76260",
+        "counties" : [
+            "Hoonah-Angoon Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 116,
+        "population_2020" : 1971,
+        "population_2027" : 9518,
+        "land_area_2020" : 13.15
+    },
+    "Thorne Bay, Prince of Wales-Hyder Census Area, AK" : {
+        "name" : "Thorne Bay",
+        "state" : "Alaska",
+        "FIPS" : "02-77140",
+        "counties" : [
+            "Prince of Wales-Hyder Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 476,
+        "population_2020" : 1982,
+        "population_2027" : 9571,
+        "land_area_2020" : 26.67
+    },
+    "Togiak, Dillingham Census Area, AK" : {
+        "name" : "Togiak",
+        "state" : "Alaska",
+        "FIPS" : "02-77690",
+        "counties" : [
+            "Dillingham Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 817,
+        "population_2020" : 1969,
+        "population_2027" : 5026,
+        "land_area_2020" : 42.01
+    },
+    "Toksook Bay, Bethel Census Area, AK" : {
+        "name" : "Toksook Bay",
+        "state" : "Alaska",
+        "FIPS" : "02-78240",
+        "counties" : [
+            "Bethel Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 658,
+        "population_2020" : 1972,
+        "population_2027" : 7147,
+        "land_area_2020" : 28.71
+    },
+    "Unalakleet, Nome Census Area, AK" : {
+        "name" : "Unalakleet",
+        "state" : "Alaska",
+        "FIPS" : "02-80660",
+        "counties" : [
+            "Nome Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 765,
+        "population_2020" : 1974,
+        "population_2027" : 5589,
+        "land_area_2020" : 2.86
+    },
+    "Unalaska, Aleutians West Census Area, AK" : {
+        "name" : "Unalaska",
+        "state" : "Alaska",
+        "FIPS" : "02-80770",
+        "counties" : [
+            "Aleutians West Census Area"
+        ],
+        "type_class" : "First Class",
+        "population_2010" : 4254,
+        "population_2020" : 1942,
+        "population_2027" : 1335,
+        "land_area_2020" : 102.21
+    },
+    "Upper Kalskag, Bethel Census Area, AK" : {
+        "name" : "Upper Kalskag",
+        "state" : "Alaska",
+        "FIPS" : "02-81320",
+        "counties" : [
+            "Bethel Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 212,
+        "population_2020" : 1975,
+        "population_2027" : 9537,
+        "land_area_2020" : 3.56
+    },
+    "Utqia\u0121vik, North Slope Borough, AK" : {
+        "name" : "Utqia\u0121vik",
+        "state" : "Alaska",
+        "FIPS" : "02-81920",
+        "counties" : [
+            "North Slope Borough"
+        ],
+        "type_class" : "First Class",
+        "population_2010" : 4927,
+        "population_2020" : 1959,
+        "population_2027" : 1290,
+        "land_area_2020" : 18.77
+    },
+    "Valdez, Chugach Census Area, AK" : {
+        "name" : "Valdez",
+        "state" : "Alaska",
+        "FIPS" : "02-82200",
+        "counties" : [
+            "Chugach Census Area"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 3985,
+        "population_2020" : 1901,
+        "population_2027" : 1327,
+        "land_area_2020" : 212.69
+    },
+    "Wainwright, North Slope Borough, AK" : {
+        "name" : "Wainwright",
+        "state" : "Alaska",
+        "FIPS" : "02-82750",
+        "counties" : [
+            "North Slope Borough"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 628,
+        "population_2020" : 1962,
+        "population_2027" : 7654,
+        "land_area_2020" : 10.31
+    },
+    "Wales, Nome Census Area, AK" : {
+        "name" : "Wales",
+        "state" : "Alaska",
+        "FIPS" : "02-82860",
+        "counties" : [
+            "Nome Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 168,
+        "population_2020" : 1964,
+        "population_2027" : 9484,
+        "land_area_2020" : 2.3
+    },
+    "Wasilla, Matanuska-Susitna Borough, AK" : {
+        "name" : "Wasilla",
+        "state" : "Alaska",
+        "FIPS" : "02-83080",
+        "counties" : [
+            "Matanuska-Susitna Borough"
+        ],
+        "type_class" : "First Class",
+        "population_2010" : 9054,
+        "population_2020" : 1974,
+        "population_2027" : 1136,
+        "land_area_2020" : 12.4
+    },
+    "Whale Pass, Prince of Wales-Hyder Census Area, AK" : {
+        "name" : "Whale Pass",
+        "state" : "Alaska",
+        "FIPS" : "02-84000",
+        "counties" : [
+            "Prince of Wales-Hyder Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 31,
+        "population_2020" : 86,
+        "population_2027" : 273,
+        "land_area_2020" : 51.4
+    },
+    "White Mountain, Nome Census Area, AK" : {
+        "name" : "White Mountain",
+        "state" : "Alaska",
+        "FIPS" : "02-84070",
+        "counties" : [
+            "Nome Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 185,
+        "population_2020" : 1969,
+        "population_2027" : 9508,
+        "land_area_2020" : 1.82
+    },
+    "Whittier, Chugach Census Area, AK" : {
+        "name" : "Whittier",
+        "state" : "Alaska",
+        "FIPS" : "02-84510",
+        "counties" : [
+            "Chugach Census Area"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 272,
+        "population_2020" : 1969,
+        "population_2027" : 9508,
+        "land_area_2020" : 12.25
+    },
+    "Wrangell, Wrangell, AK" : {
+        "name" : "Wrangell",
+        "state" : "Alaska",
+        "FIPS" : "02-86380",
+        "counties" : [
+            "Wrangell"
+        ],
+        "type_class" : "Unified Home Rule",
+        "population_2010" : 2127,
+        "population_2020" : 2008,
+        "population_2027" : 1961,
+        "land_area_2020" : 2555.99
+    }
+}

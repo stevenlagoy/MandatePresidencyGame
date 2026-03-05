@@ -1,0 +1,3304 @@
+{
+    "Alpine, Utah County, UT" : {
+        "name" : "Alpine",
+        "state" : "Utah",
+        "FIPS" : "49-00540",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10251,
+        "population_2020" : 10251,
+        "population_2027" : 11595,
+        "land_area_2020" : 7.96
+    },
+    "Alta, Salt Lake County, UT" : {
+        "name" : "Alta",
+        "state" : "Utah",
+        "FIPS" : "49-00650",
+        "counties" : [
+            "Salt Lake County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 228,
+        "population_2020" : 228,
+        "population_2027" : 258,
+        "land_area_2020" : 4.56
+    },
+    "Altamont, Duchesne County, UT" : {
+        "name" : "Altamont",
+        "state" : "Utah",
+        "FIPS" : "49-00760",
+        "counties" : [
+            "Duchesne County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 239,
+        "population_2020" : 239,
+        "population_2027" : 270,
+        "land_area_2020" : 0.21
+    },
+    "Alton, Kane County, UT" : {
+        "name" : "Alton",
+        "state" : "Utah",
+        "FIPS" : "49-00870",
+        "counties" : [
+            "Kane County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 118,
+        "population_2020" : 118,
+        "population_2027" : 133,
+        "land_area_2020" : 2.29
+    },
+    "Amalga, Cache County, UT" : {
+        "name" : "Amalga",
+        "state" : "Utah",
+        "FIPS" : "49-01090",
+        "counties" : [
+            "Cache County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 482,
+        "population_2020" : 482,
+        "population_2027" : 545,
+        "land_area_2020" : 3.49
+    },
+    "American Fork, Utah County, UT" : {
+        "name" : "American Fork",
+        "state" : "Utah",
+        "FIPS" : "49-01310",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 33337,
+        "population_2020" : 33337,
+        "population_2027" : 37706,
+        "land_area_2020" : 11.2
+    },
+    "Annabella, Sevier County, UT" : {
+        "name" : "Annabella",
+        "state" : "Utah",
+        "FIPS" : "49-01750",
+        "counties" : [
+            "Sevier County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 836,
+        "population_2020" : 836,
+        "population_2027" : 946,
+        "land_area_2020" : 0.65
+    },
+    "Antimony, Garfield County, UT" : {
+        "name" : "Antimony",
+        "state" : "Utah",
+        "FIPS" : "49-01860",
+        "counties" : [
+            "Garfield County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 118,
+        "population_2020" : 118,
+        "population_2027" : 133,
+        "land_area_2020" : 9.82
+    },
+    "Apple Valley, Washington County, UT" : {
+        "name" : "Apple Valley",
+        "state" : "Utah",
+        "FIPS" : "49-01905",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 855,
+        "population_2020" : 855,
+        "population_2027" : 967,
+        "land_area_2020" : 39.74
+    },
+    "Aurora, Sevier County, UT" : {
+        "name" : "Aurora",
+        "state" : "Utah",
+        "FIPS" : "49-02740",
+        "counties" : [
+            "Sevier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 984,
+        "population_2020" : 984,
+        "population_2027" : 1113,
+        "land_area_2020" : 0.92
+    },
+    "Ballard, Uintah County, UT" : {
+        "name" : "Ballard",
+        "state" : "Utah",
+        "FIPS" : "49-03345",
+        "counties" : [
+            "Uintah County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1131,
+        "population_2020" : 1131,
+        "population_2027" : 1279,
+        "land_area_2020" : 13.98
+    },
+    "Bear River City, Box Elder County, UT" : {
+        "name" : "Bear River City",
+        "state" : "Utah",
+        "FIPS" : "49-03950",
+        "counties" : [
+            "Box Elder County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 877,
+        "population_2020" : 877,
+        "population_2027" : 992,
+        "land_area_2020" : 1.8
+    },
+    "Beaver, Beaver County, UT" : {
+        "name" : "Beaver",
+        "state" : "Utah",
+        "FIPS" : "49-04060",
+        "counties" : [
+            "Beaver County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3592,
+        "population_2020" : 3592,
+        "population_2027" : 4063,
+        "land_area_2020" : 6.68
+    },
+    "Bicknell, Wayne County, UT" : {
+        "name" : "Bicknell",
+        "state" : "Utah",
+        "FIPS" : "49-05490",
+        "counties" : [
+            "Wayne County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 323,
+        "population_2020" : 323,
+        "population_2027" : 365,
+        "land_area_2020" : 0.57
+    },
+    "Big Water, Kane County, UT" : {
+        "name" : "Big Water",
+        "state" : "Utah",
+        "FIPS" : "49-05534",
+        "counties" : [
+            "Kane County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 449,
+        "population_2020" : 449,
+        "population_2027" : 508,
+        "land_area_2020" : 5.99
+    },
+    "Blanding, San Juan County, UT" : {
+        "name" : "Blanding",
+        "state" : "Utah",
+        "FIPS" : "49-06370",
+        "counties" : [
+            "San Juan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3394,
+        "population_2020" : 3394,
+        "population_2027" : 3839,
+        "land_area_2020" : 13.18
+    },
+    "Bluff, San Juan County, UT" : {
+        "name" : "Bluff",
+        "state" : "Utah",
+        "FIPS" : "49-06700",
+        "counties" : [
+            "San Juan County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 240,
+        "population_2020" : 240,
+        "population_2027" : 271,
+        "land_area_2020" : 36.47
+    },
+    "Bluffdale, Salt Lake County, UT" : {
+        "name" : "Bluffdale",
+        "state" : "Utah",
+        "FIPS" : "49-06810",
+        "counties" : [
+            "Salt Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 17014,
+        "population_2020" : 17014,
+        "population_2027" : 19244,
+        "land_area_2020" : 11.14
+    },
+    "Boulder, Garfield County, UT" : {
+        "name" : "Boulder",
+        "state" : "Utah",
+        "FIPS" : "49-07470",
+        "counties" : [
+            "Garfield County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 227,
+        "population_2020" : 227,
+        "population_2027" : 257,
+        "land_area_2020" : 20.93
+    },
+    "Bountiful, Davis County, UT" : {
+        "name" : "Bountiful",
+        "state" : "Utah",
+        "FIPS" : "49-07690",
+        "counties" : [
+            "Davis County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 45762,
+        "population_2020" : 45762,
+        "population_2027" : 51760,
+        "land_area_2020" : 13.19
+    },
+    "Brian Head, Iron County, UT" : {
+        "name" : "Brian Head",
+        "state" : "Utah",
+        "FIPS" : "49-08020",
+        "counties" : [
+            "Iron County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 151,
+        "population_2020" : 151,
+        "population_2027" : 171,
+        "land_area_2020" : 3.65
+    },
+    "Brigham City, Box Elder County, UT" : {
+        "name" : "Brigham City",
+        "state" : "Utah",
+        "FIPS" : "49-08460",
+        "counties" : [
+            "Box Elder County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 19650,
+        "population_2020" : 19650,
+        "population_2027" : 22225,
+        "land_area_2020" : 24.58
+    },
+    "Brighton, Salt Lake County, UT" : {
+        "name" : "Brighton",
+        "state" : "Utah",
+        "FIPS" : "49-08570",
+        "counties" : [
+            "Salt Lake County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 432,
+        "population_2020" : 432,
+        "population_2027" : 489,
+        "land_area_2020" : 15.77
+    },
+    "Bryce Canyon City, Garfield County, UT" : {
+        "name" : "Bryce Canyon City",
+        "state" : "Utah",
+        "FIPS" : "49-08787",
+        "counties" : [
+            "Garfield County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 336,
+        "population_2020" : 336,
+        "population_2027" : 380,
+        "land_area_2020" : 3.35
+    },
+    "Cannonville, Garfield County, UT" : {
+        "name" : "Cannonville",
+        "state" : "Utah",
+        "FIPS" : "49-10330",
+        "counties" : [
+            "Garfield County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 186,
+        "population_2020" : 186,
+        "population_2027" : 210,
+        "land_area_2020" : 2.57
+    },
+    "Castle Dale, Emery County, UT" : {
+        "name" : "Castle Dale",
+        "state" : "Utah",
+        "FIPS" : "49-10660",
+        "counties" : [
+            "Emery County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1492,
+        "population_2020" : 1492,
+        "population_2027" : 1688,
+        "land_area_2020" : 2.23
+    },
+    "Castle Valley, Grand County, UT" : {
+        "name" : "Castle Valley",
+        "state" : "Utah",
+        "FIPS" : "49-11000",
+        "counties" : [
+            "Grand County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 347,
+        "population_2020" : 347,
+        "population_2027" : 392,
+        "land_area_2020" : 9.28
+    },
+    "Cedar City, Iron County, UT" : {
+        "name" : "Cedar City",
+        "state" : "Utah",
+        "FIPS" : "49-11320",
+        "counties" : [
+            "Iron County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 35235,
+        "population_2020" : 35235,
+        "population_2027" : 39853,
+        "land_area_2020" : 35.86
+    },
+    "Cedar Fort, Utah County, UT" : {
+        "name" : "Cedar Fort",
+        "state" : "Utah",
+        "FIPS" : "49-11430",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 427,
+        "population_2020" : 427,
+        "population_2027" : 483,
+        "land_area_2020" : 21.38
+    },
+    "Cedar Hills, Utah County, UT" : {
+        "name" : "Cedar Hills",
+        "state" : "Utah",
+        "FIPS" : "49-11440",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10019,
+        "population_2020" : 10019,
+        "population_2027" : 11332,
+        "land_area_2020" : 2.73
+    },
+    "Centerfield, Sanpete County, UT" : {
+        "name" : "Centerfield",
+        "state" : "Utah",
+        "FIPS" : "49-11870",
+        "counties" : [
+            "Sanpete County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1341,
+        "population_2020" : 1341,
+        "population_2027" : 1517,
+        "land_area_2020" : 1.91
+    },
+    "Centerville, Davis County, UT" : {
+        "name" : "Centerville",
+        "state" : "Utah",
+        "FIPS" : "49-11980",
+        "counties" : [
+            "Davis County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16884,
+        "population_2020" : 16884,
+        "population_2027" : 19097,
+        "land_area_2020" : 5.96
+    },
+    "Central Valley, Sevier County, UT" : {
+        "name" : "Central Valley",
+        "state" : "Utah",
+        "FIPS" : "49-12260",
+        "counties" : [
+            "Sevier County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 647,
+        "population_2020" : 647,
+        "population_2027" : 732,
+        "land_area_2020" : 2.11
+    },
+    "Charleston, Wasatch County, UT" : {
+        "name" : "Charleston",
+        "state" : "Utah",
+        "FIPS" : "49-12420",
+        "counties" : [
+            "Wasatch County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 436,
+        "population_2020" : 436,
+        "population_2027" : 493,
+        "land_area_2020" : 2.86
+    },
+    "Circleville, Piute County, UT" : {
+        "name" : "Circleville",
+        "state" : "Utah",
+        "FIPS" : "49-12970",
+        "counties" : [
+            "Piute County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 550,
+        "population_2020" : 550,
+        "population_2027" : 622,
+        "land_area_2020" : 11.04
+    },
+    "Clarkston, Cache County, UT" : {
+        "name" : "Clarkston",
+        "state" : "Utah",
+        "FIPS" : "49-13190",
+        "counties" : [
+            "Cache County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 749,
+        "population_2020" : 749,
+        "population_2027" : 847,
+        "land_area_2020" : 0.93
+    },
+    "Clawson, Emery County, UT" : {
+        "name" : "Clawson",
+        "state" : "Utah",
+        "FIPS" : "49-13300",
+        "counties" : [
+            "Emery County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 162,
+        "population_2020" : 162,
+        "population_2027" : 183,
+        "land_area_2020" : 1.01
+    },
+    "Clearfield, Davis County, UT" : {
+        "name" : "Clearfield",
+        "state" : "Utah",
+        "FIPS" : "49-13850",
+        "counties" : [
+            "Davis County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 31909,
+        "population_2020" : 31909,
+        "population_2027" : 36091,
+        "land_area_2020" : 7.71
+    },
+    "Cleveland, Emery County, UT" : {
+        "name" : "Cleveland",
+        "state" : "Utah",
+        "FIPS" : "49-14070",
+        "counties" : [
+            "Emery County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 497,
+        "population_2020" : 497,
+        "population_2027" : 562,
+        "land_area_2020" : 0.87
+    },
+    "Clinton, Davis County, UT" : {
+        "name" : "Clinton",
+        "state" : "Utah",
+        "FIPS" : "49-14290",
+        "counties" : [
+            "Davis County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23386,
+        "population_2020" : 23386,
+        "population_2027" : 26451,
+        "land_area_2020" : 5.93
+    },
+    "Coalville, Summit County, UT" : {
+        "name" : "Coalville",
+        "state" : "Utah",
+        "FIPS" : "49-14840",
+        "counties" : [
+            "Summit County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1486,
+        "population_2020" : 1486,
+        "population_2027" : 1681,
+        "land_area_2020" : 6.23
+    },
+    "Copperton, Salt Lake County, UT" : {
+        "name" : "Copperton",
+        "state" : "Utah",
+        "FIPS" : "None",
+        "counties" : [
+            "Salt Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 829,
+        "population_2020" : 829,
+        "population_2027" : 938,
+        "land_area_2020" : 0.31
+    },
+    "Corinne, Box Elder County, UT" : {
+        "name" : "Corinne",
+        "state" : "Utah",
+        "FIPS" : "49-15830",
+        "counties" : [
+            "Box Elder County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 809,
+        "population_2020" : 809,
+        "population_2027" : 915,
+        "land_area_2020" : 3.78
+    },
+    "Cornish, Cache County, UT" : {
+        "name" : "Cornish",
+        "state" : "Utah",
+        "FIPS" : "49-15940",
+        "counties" : [
+            "Cache County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 274,
+        "population_2020" : 274,
+        "population_2027" : 310,
+        "land_area_2020" : 5.39
+    },
+    "Cottonwood Heights, Salt Lake County, UT" : {
+        "name" : "Cottonwood Heights",
+        "state" : "Utah",
+        "FIPS" : "49-16270",
+        "counties" : [
+            "Salt Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 33617,
+        "population_2020" : 33617,
+        "population_2027" : 38023,
+        "land_area_2020" : 9.23
+    },
+    "Daniel, Wasatch County, UT" : {
+        "name" : "Daniel",
+        "state" : "Utah",
+        "FIPS" : "49-18140",
+        "counties" : [
+            "Wasatch County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 916,
+        "population_2020" : 916,
+        "population_2027" : 1036,
+        "land_area_2020" : 3.29
+    },
+    "Delta, Millard County, UT" : {
+        "name" : "Delta",
+        "state" : "Utah",
+        "FIPS" : "49-18910",
+        "counties" : [
+            "Millard County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3622,
+        "population_2020" : 3622,
+        "population_2027" : 4097,
+        "land_area_2020" : 8.6
+    },
+    "Deweyville, Box Elder County, UT" : {
+        "name" : "Deweyville",
+        "state" : "Utah",
+        "FIPS" : "49-19680",
+        "counties" : [
+            "Box Elder County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 417,
+        "population_2020" : 417,
+        "population_2027" : 472,
+        "land_area_2020" : 6.38
+    },
+    "Draper, Salt Lake County, UT" : {
+        "name" : "Draper",
+        "state" : "Utah",
+        "FIPS" : "49-20120",
+        "counties" : [
+            "Salt Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 51017,
+        "population_2020" : 51017,
+        "population_2027" : 57704,
+        "land_area_2020" : 29.95
+    },
+    "Duchesne, Duchesne County, UT" : {
+        "name" : "Duchesne",
+        "state" : "Utah",
+        "FIPS" : "49-20340",
+        "counties" : [
+            "Duchesne County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1588,
+        "population_2020" : 1588,
+        "population_2027" : 1796,
+        "land_area_2020" : 2.8
+    },
+    "Dutch John, Daggett County, UT" : {
+        "name" : "Dutch John",
+        "state" : "Utah",
+        "FIPS" : "49-20780",
+        "counties" : [
+            "Daggett County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 141,
+        "population_2020" : 141,
+        "population_2027" : 159,
+        "land_area_2020" : 5.9
+    },
+    "Eagle Mountain, Utah County, UT" : {
+        "name" : "Eagle Mountain",
+        "state" : "Utah",
+        "FIPS" : "49-20810",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 43623,
+        "population_2020" : 43623,
+        "population_2027" : 49340,
+        "land_area_2020" : 50.43
+    },
+    "East Carbon, Carbon County, UT" : {
+        "name" : "East Carbon",
+        "state" : "Utah",
+        "FIPS" : "49-20890",
+        "counties" : [
+            "Carbon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1556,
+        "population_2020" : 1556,
+        "population_2027" : 1760,
+        "land_area_2020" : 11.29
+    },
+    "Elk Ridge, Utah County, UT" : {
+        "name" : "Elk Ridge",
+        "state" : "Utah",
+        "FIPS" : "49-22370",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4687,
+        "population_2020" : 4687,
+        "population_2027" : 5301,
+        "land_area_2020" : 2.82
+    },
+    "Elmo, Emery County, UT" : {
+        "name" : "Elmo",
+        "state" : "Utah",
+        "FIPS" : "49-22540",
+        "counties" : [
+            "Emery County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 405,
+        "population_2020" : 405,
+        "population_2027" : 458,
+        "land_area_2020" : 0.71
+    },
+    "Elsinore, Sevier County, UT" : {
+        "name" : "Elsinore",
+        "state" : "Utah",
+        "FIPS" : "49-22650",
+        "counties" : [
+            "Sevier County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 802,
+        "population_2020" : 802,
+        "population_2027" : 907,
+        "land_area_2020" : 1.34
+    },
+    "Elwood, Box Elder County, UT" : {
+        "name" : "Elwood",
+        "state" : "Utah",
+        "FIPS" : "49-22760",
+        "counties" : [
+            "Box Elder County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1173,
+        "population_2020" : 1173,
+        "population_2027" : 1327,
+        "land_area_2020" : 8.06
+    },
+    "Emery, Emery County, UT" : {
+        "name" : "Emery",
+        "state" : "Utah",
+        "FIPS" : "49-22870",
+        "counties" : [
+            "Emery County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 307,
+        "population_2020" : 307,
+        "population_2027" : 347,
+        "land_area_2020" : 1.23
+    },
+    "Emigration Canyon, Salt Lake County, UT" : {
+        "name" : "Emigration Canyon",
+        "state" : "Utah",
+        "FIPS" : "None",
+        "counties" : [
+            "Salt Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1466,
+        "population_2020" : 1466,
+        "population_2027" : 1658,
+        "land_area_2020" : 18.22
+    },
+    "Enterprise, Washington County, UT" : {
+        "name" : "Enterprise",
+        "state" : "Utah",
+        "FIPS" : "49-23420",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2027,
+        "population_2020" : 2027,
+        "population_2027" : 2293,
+        "land_area_2020" : 8.74
+    },
+    "Ephraim, Sanpete County, UT" : {
+        "name" : "Ephraim",
+        "state" : "Utah",
+        "FIPS" : "49-23530",
+        "counties" : [
+            "Sanpete County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5611,
+        "population_2020" : 5611,
+        "population_2027" : 6346,
+        "land_area_2020" : 4.45
+    },
+    "Erda, Tooele County, UT" : {
+        "name" : "Erda",
+        "state" : "Utah",
+        "FIPS" : "49-23640",
+        "counties" : [
+            "Tooele County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3673,
+        "population_2020" : 3673,
+        "population_2027" : 4154,
+        "land_area_2020" : 22.5
+    },
+    "Escalante, Garfield County, UT" : {
+        "name" : "Escalante",
+        "state" : "Utah",
+        "FIPS" : "49-23750",
+        "counties" : [
+            "Garfield County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 786,
+        "population_2020" : 786,
+        "population_2027" : 889,
+        "land_area_2020" : 3.3
+    },
+    "Eureka, Juab County, UT" : {
+        "name" : "Eureka",
+        "state" : "Utah",
+        "FIPS" : "49-24080",
+        "counties" : [
+            "Juab County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 662,
+        "population_2020" : 662,
+        "population_2027" : 749,
+        "land_area_2020" : 1.48
+    },
+    "Fairfield, Utah County, UT" : {
+        "name" : "Fairfield",
+        "state" : "Utah",
+        "FIPS" : "49-24410",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 160,
+        "population_2020" : 160,
+        "population_2027" : 181,
+        "land_area_2020" : 26.09
+    },
+    "Fairview, Sanpete County, UT" : {
+        "name" : "Fairview",
+        "state" : "Utah",
+        "FIPS" : "49-24630",
+        "counties" : [
+            "Sanpete County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1203,
+        "population_2020" : 1203,
+        "population_2027" : 1361,
+        "land_area_2020" : 1.26
+    },
+    "Farmington, Davis County, UT" : {
+        "name" : "Farmington",
+        "state" : "Utah",
+        "FIPS" : "49-24740",
+        "counties" : [
+            "Davis County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 24531,
+        "population_2020" : 24531,
+        "population_2027" : 27746,
+        "land_area_2020" : 9.95
+    },
+    "Farr West, Weber County, UT" : {
+        "name" : "Farr West",
+        "state" : "Utah",
+        "FIPS" : "49-24850",
+        "counties" : [
+            "Weber County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7691,
+        "population_2020" : 7691,
+        "population_2027" : 8699,
+        "land_area_2020" : 5.92
+    },
+    "Fayette, Sanpete County, UT" : {
+        "name" : "Fayette",
+        "state" : "Utah",
+        "FIPS" : "49-25070",
+        "counties" : [
+            "Sanpete County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 245,
+        "population_2020" : 245,
+        "population_2027" : 277,
+        "land_area_2020" : 0.4
+    },
+    "Ferron, Emery County, UT" : {
+        "name" : "Ferron",
+        "state" : "Utah",
+        "FIPS" : "49-25180",
+        "counties" : [
+            "Emery County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1474,
+        "population_2020" : 1474,
+        "population_2027" : 1667,
+        "land_area_2020" : 2.33
+    },
+    "Fielding, Box Elder County, UT" : {
+        "name" : "Fielding",
+        "state" : "Utah",
+        "FIPS" : "49-25290",
+        "counties" : [
+            "Box Elder County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 546,
+        "population_2020" : 546,
+        "population_2027" : 618,
+        "land_area_2020" : 0.51
+    },
+    "Fillmore, Millard County, UT" : {
+        "name" : "Fillmore",
+        "state" : "Utah",
+        "FIPS" : "49-25510",
+        "counties" : [
+            "Millard County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2592,
+        "population_2020" : 2592,
+        "population_2027" : 2932,
+        "land_area_2020" : 6.97
+    },
+    "Fountain Green, Sanpete County, UT" : {
+        "name" : "Fountain Green",
+        "state" : "Utah",
+        "FIPS" : "49-26720",
+        "counties" : [
+            "Sanpete County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1197,
+        "population_2020" : 1197,
+        "population_2027" : 1354,
+        "land_area_2020" : 1.25
+    },
+    "Francis, Summit County, UT" : {
+        "name" : "Francis",
+        "state" : "Utah",
+        "FIPS" : "49-26940",
+        "counties" : [
+            "Summit County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1564,
+        "population_2020" : 1564,
+        "population_2027" : 1769,
+        "land_area_2020" : 2.98
+    },
+    "Fruit Heights, Davis County, UT" : {
+        "name" : "Fruit Heights",
+        "state" : "Utah",
+        "FIPS" : "49-27490",
+        "counties" : [
+            "Davis County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6101,
+        "population_2020" : 6101,
+        "population_2027" : 6901,
+        "land_area_2020" : 2.29
+    },
+    "Garden City, Rich County, UT" : {
+        "name" : "Garden City",
+        "state" : "Utah",
+        "FIPS" : "49-27930",
+        "counties" : [
+            "Rich County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 602,
+        "population_2020" : 602,
+        "population_2027" : 681,
+        "land_area_2020" : 8.78
+    },
+    "Garland, Box Elder County, UT" : {
+        "name" : "Garland",
+        "state" : "Utah",
+        "FIPS" : "49-28150",
+        "counties" : [
+            "Box Elder County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2589,
+        "population_2020" : 2589,
+        "population_2027" : 2928,
+        "land_area_2020" : 1.81
+    },
+    "Genola, Utah County, UT" : {
+        "name" : "Genola",
+        "state" : "Utah",
+        "FIPS" : "49-28810",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1548,
+        "population_2020" : 1548,
+        "population_2027" : 1751,
+        "land_area_2020" : 13.76
+    },
+    "Glendale, Kane County, UT" : {
+        "name" : "Glendale",
+        "state" : "Utah",
+        "FIPS" : "49-29360",
+        "counties" : [
+            "Kane County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 312,
+        "population_2020" : 312,
+        "population_2027" : 353,
+        "land_area_2020" : 7.0
+    },
+    "Glenwood, Sevier County, UT" : {
+        "name" : "Glenwood",
+        "state" : "Utah",
+        "FIPS" : "49-29580",
+        "counties" : [
+            "Sevier County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 474,
+        "population_2020" : 474,
+        "population_2027" : 536,
+        "land_area_2020" : 0.52
+    },
+    "Goshen, Utah County, UT" : {
+        "name" : "Goshen",
+        "state" : "Utah",
+        "FIPS" : "49-30130",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 978,
+        "population_2020" : 978,
+        "population_2027" : 1106,
+        "land_area_2020" : 0.83
+    },
+    "Grantsville, Tooele County, UT" : {
+        "name" : "Grantsville",
+        "state" : "Utah",
+        "FIPS" : "49-31120",
+        "counties" : [
+            "Tooele County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12617,
+        "population_2020" : 12617,
+        "population_2027" : 14271,
+        "land_area_2020" : 37.47
+    },
+    "Green River, Emery County, UT" : {
+        "name" : "Green River",
+        "state" : "Utah",
+        "FIPS" : "49-31670",
+        "counties" : [
+            "Emery County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 847,
+        "population_2020" : 847,
+        "population_2027" : 958,
+        "land_area_2020" : 27.14
+    },
+    "Gunnison, Sanpete County, UT" : {
+        "name" : "Gunnison",
+        "state" : "Utah",
+        "FIPS" : "49-32660",
+        "counties" : [
+            "Sanpete County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3509,
+        "population_2020" : 3509,
+        "population_2027" : 3969,
+        "land_area_2020" : 4.79
+    },
+    "Hanksville, Wayne County, UT" : {
+        "name" : "Hanksville",
+        "state" : "Utah",
+        "FIPS" : "49-33100",
+        "counties" : [
+            "Wayne County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 158,
+        "population_2020" : 158,
+        "population_2027" : 179,
+        "land_area_2020" : 1.69
+    },
+    "Harrisville, Weber County, UT" : {
+        "name" : "Harrisville",
+        "state" : "Utah",
+        "FIPS" : "49-33540",
+        "counties" : [
+            "Weber County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7036,
+        "population_2020" : 7036,
+        "population_2027" : 7958,
+        "land_area_2020" : 2.98
+    },
+    "Hatch, Garfield County, UT" : {
+        "name" : "Hatch",
+        "state" : "Utah",
+        "FIPS" : "49-33760",
+        "counties" : [
+            "Garfield County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 132,
+        "population_2020" : 132,
+        "population_2027" : 149,
+        "land_area_2020" : 1.82
+    },
+    "Heber City, Wasatch County, UT" : {
+        "name" : "Heber City",
+        "state" : "Utah",
+        "FIPS" : "None",
+        "counties" : [
+            "Wasatch County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16856,
+        "population_2020" : 16856,
+        "population_2027" : 19065,
+        "land_area_2020" : 8.99
+    },
+    "Helper, Carbon County, UT" : {
+        "name" : "Helper",
+        "state" : "Utah",
+        "FIPS" : "49-34530",
+        "counties" : [
+            "Carbon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2112,
+        "population_2020" : 2112,
+        "population_2027" : 2389,
+        "land_area_2020" : 1.81
+    },
+    "Henefer, Summit County, UT" : {
+        "name" : "Henefer",
+        "state" : "Utah",
+        "FIPS" : "49-34640",
+        "counties" : [
+            "Summit County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 838,
+        "population_2020" : 838,
+        "population_2027" : 948,
+        "land_area_2020" : 2.48
+    },
+    "Henrieville, Garfield County, UT" : {
+        "name" : "Henrieville",
+        "state" : "Utah",
+        "FIPS" : "49-34750",
+        "counties" : [
+            "Garfield County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 221,
+        "population_2020" : 221,
+        "population_2027" : 250,
+        "land_area_2020" : 1.35
+    },
+    "Herriman, Salt Lake County, UT" : {
+        "name" : "Herriman",
+        "state" : "Utah",
+        "FIPS" : "49-34970",
+        "counties" : [
+            "Salt Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 55144,
+        "population_2020" : 55144,
+        "population_2027" : 62371,
+        "land_area_2020" : 21.63
+    },
+    "Hideout, Wasatch County, UT" : {
+        "name" : "Hideout",
+        "state" : "Utah",
+        "FIPS" : "49-35120",
+        "counties" : [
+            "Wasatch County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 922,
+        "population_2020" : 922,
+        "population_2027" : 1043,
+        "land_area_2020" : 3.48
+    },
+    "Highland, Utah County, UT" : {
+        "name" : "Highland",
+        "state" : "Utah",
+        "FIPS" : "49-35190",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 19348,
+        "population_2020" : 19348,
+        "population_2027" : 21884,
+        "land_area_2020" : 8.7
+    },
+    "Hildale, Washington County, UT" : {
+        "name" : "Hildale",
+        "state" : "Utah",
+        "FIPS" : "49-35300",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1127,
+        "population_2020" : 1127,
+        "population_2027" : 1275,
+        "land_area_2020" : 5.6
+    },
+    "Hinckley, Millard County, UT" : {
+        "name" : "Hinckley",
+        "state" : "Utah",
+        "FIPS" : "49-35740",
+        "counties" : [
+            "Millard County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 614,
+        "population_2020" : 614,
+        "population_2027" : 694,
+        "land_area_2020" : 4.99
+    },
+    "Holden, Millard County, UT" : {
+        "name" : "Holden",
+        "state" : "Utah",
+        "FIPS" : "49-35960",
+        "counties" : [
+            "Millard County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 438,
+        "population_2020" : 438,
+        "population_2027" : 495,
+        "land_area_2020" : 0.54
+    },
+    "Holladay, Salt Lake County, UT" : {
+        "name" : "Holladay",
+        "state" : "Utah",
+        "FIPS" : "49-36070",
+        "counties" : [
+            "Salt Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 31965,
+        "population_2020" : 31965,
+        "population_2027" : 36155,
+        "land_area_2020" : 8.5
+    },
+    "Honeyville, Box Elder County, UT" : {
+        "name" : "Honeyville",
+        "state" : "Utah",
+        "FIPS" : "49-36290",
+        "counties" : [
+            "Box Elder County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1606,
+        "population_2020" : 1606,
+        "population_2027" : 1816,
+        "land_area_2020" : 11.74
+    },
+    "Hooper, Weber County, UT" : {
+        "name" : "Hooper",
+        "state" : "Utah",
+        "FIPS" : "49-36400",
+        "counties" : [
+            "Weber County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9087,
+        "population_2020" : 9087,
+        "population_2027" : 10278,
+        "land_area_2020" : 26.1
+    },
+    "Howell, Box Elder County, UT" : {
+        "name" : "Howell",
+        "state" : "Utah",
+        "FIPS" : "49-36620",
+        "counties" : [
+            "Box Elder County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 240,
+        "population_2020" : 240,
+        "population_2027" : 271,
+        "land_area_2020" : 35.28
+    },
+    "Huntington, Emery County, UT" : {
+        "name" : "Huntington",
+        "state" : "Utah",
+        "FIPS" : "49-36950",
+        "counties" : [
+            "Emery County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1914,
+        "population_2020" : 1914,
+        "population_2027" : 2165,
+        "land_area_2020" : 2.26
+    },
+    "Huntsville, Weber County, UT" : {
+        "name" : "Huntsville",
+        "state" : "Utah",
+        "FIPS" : "49-37060",
+        "counties" : [
+            "Weber County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 573,
+        "population_2020" : 573,
+        "population_2027" : 648,
+        "land_area_2020" : 0.83
+    },
+    "Hurricane, Washington County, UT" : {
+        "name" : "Hurricane",
+        "state" : "Utah",
+        "FIPS" : "49-37170",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 20036,
+        "population_2020" : 20036,
+        "population_2027" : 22662,
+        "land_area_2020" : 52.76
+    },
+    "Hyde Park, Cache County, UT" : {
+        "name" : "Hyde Park",
+        "state" : "Utah",
+        "FIPS" : "49-37390",
+        "counties" : [
+            "Cache County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5234,
+        "population_2020" : 5234,
+        "population_2027" : 5920,
+        "land_area_2020" : 4.41
+    },
+    "Hyrum, Cache County, UT" : {
+        "name" : "Hyrum",
+        "state" : "Utah",
+        "FIPS" : "49-37500",
+        "counties" : [
+            "Cache County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9362,
+        "population_2020" : 9362,
+        "population_2027" : 10589,
+        "land_area_2020" : 6.19
+    },
+    "Independence, Wasatch County, UT" : {
+        "name" : "Independence",
+        "state" : "Utah",
+        "FIPS" : "49-37690",
+        "counties" : [
+            "Wasatch County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 121,
+        "population_2020" : 121,
+        "population_2027" : 137,
+        "land_area_2020" : 30.55
+    },
+    "Interlaken, Wasatch County, UT" : {
+        "name" : "Interlaken",
+        "state" : "Utah",
+        "FIPS" : "49-37924",
+        "counties" : [
+            "Wasatch County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 179,
+        "population_2020" : 179,
+        "population_2027" : 202,
+        "land_area_2020" : 0.22
+    },
+    "Ivins, Washington County, UT" : {
+        "name" : "Ivins",
+        "state" : "Utah",
+        "FIPS" : "49-38710",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8978,
+        "population_2020" : 8978,
+        "population_2027" : 10155,
+        "land_area_2020" : 9.44
+    },
+    "Joseph, Sevier County, UT" : {
+        "name" : "Joseph",
+        "state" : "Utah",
+        "FIPS" : "49-39370",
+        "counties" : [
+            "Sevier County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 288,
+        "population_2020" : 288,
+        "population_2027" : 326,
+        "land_area_2020" : 0.87
+    },
+    "Junction, Piute County, UT" : {
+        "name" : "Junction",
+        "state" : "Utah",
+        "FIPS" : "49-39590",
+        "counties" : [
+            "Piute County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 212,
+        "population_2020" : 212,
+        "population_2027" : 240,
+        "land_area_2020" : 13.19
+    },
+    "Kamas, Summit County, UT" : {
+        "name" : "Kamas",
+        "state" : "Utah",
+        "FIPS" : "49-39810",
+        "counties" : [
+            "Summit County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2092,
+        "population_2020" : 2092,
+        "population_2027" : 2366,
+        "land_area_2020" : 3.69
+    },
+    "Kanab, Kane County, UT" : {
+        "name" : "Kanab",
+        "state" : "Utah",
+        "FIPS" : "49-39920",
+        "counties" : [
+            "Kane County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4683,
+        "population_2020" : 4683,
+        "population_2027" : 5297,
+        "land_area_2020" : 14.44
+    },
+    "Kanarraville, Iron County, UT" : {
+        "name" : "Kanarraville",
+        "state" : "Utah",
+        "FIPS" : "49-40030",
+        "counties" : [
+            "Iron County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 442,
+        "population_2020" : 442,
+        "population_2027" : 500,
+        "land_area_2020" : 0.45
+    },
+    "Kanosh, Millard County, UT" : {
+        "name" : "Kanosh",
+        "state" : "Utah",
+        "FIPS" : "49-40250",
+        "counties" : [
+            "Millard County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 508,
+        "population_2020" : 508,
+        "population_2027" : 575,
+        "land_area_2020" : 0.77
+    },
+    "Kaysville, Davis County, UT" : {
+        "name" : "Kaysville",
+        "state" : "Utah",
+        "FIPS" : "49-40360",
+        "counties" : [
+            "Davis County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 32945,
+        "population_2020" : 32945,
+        "population_2027" : 37263,
+        "land_area_2020" : 10.5
+    },
+    "Kearns, Salt Lake County, UT" : {
+        "name" : "Kearns",
+        "state" : "Utah",
+        "FIPS" : "None",
+        "counties" : [
+            "Salt Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 36723,
+        "population_2020" : 36723,
+        "population_2027" : 41536,
+        "land_area_2020" : 4.63
+    },
+    "Kingston, Piute County, UT" : {
+        "name" : "Kingston",
+        "state" : "Utah",
+        "FIPS" : "49-41350",
+        "counties" : [
+            "Piute County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 135,
+        "population_2020" : 135,
+        "population_2027" : 153,
+        "land_area_2020" : 5.4
+    },
+    "Koosharem, Sevier County, UT" : {
+        "name" : "Koosharem",
+        "state" : "Utah",
+        "FIPS" : "49-41680",
+        "counties" : [
+            "Sevier County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 244,
+        "population_2020" : 244,
+        "population_2027" : 276,
+        "land_area_2020" : 0.83
+    },
+    "La Verkin, Washington County, UT" : {
+        "name" : "La Verkin",
+        "state" : "Utah",
+        "FIPS" : "49-43440",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4354,
+        "population_2020" : 4354,
+        "population_2027" : 4925,
+        "land_area_2020" : 12.78
+    },
+    "Laketown, Rich County, UT" : {
+        "name" : "Laketown",
+        "state" : "Utah",
+        "FIPS" : "49-42560",
+        "counties" : [
+            "Rich County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 299,
+        "population_2020" : 299,
+        "population_2027" : 338,
+        "land_area_2020" : 2.52
+    },
+    "Lake Point, Tooele County, UT" : {
+        "name" : "Lake Point",
+        "state" : "Utah",
+        "FIPS" : "None",
+        "counties" : [
+            "Tooele County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2599,
+        "population_2020" : 2599,
+        "population_2027" : 2940,
+        "land_area_2020" : 4.6
+    },
+    "Layton, Davis County, UT" : {
+        "name" : "Layton",
+        "state" : "Utah",
+        "FIPS" : "49-43660",
+        "counties" : [
+            "Davis County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 81773,
+        "population_2020" : 81773,
+        "population_2027" : 92491,
+        "land_area_2020" : 22.5
+    },
+    "Leamington, Millard County, UT" : {
+        "name" : "Leamington",
+        "state" : "Utah",
+        "FIPS" : "49-43880",
+        "counties" : [
+            "Millard County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 256,
+        "population_2020" : 256,
+        "population_2027" : 290,
+        "land_area_2020" : 1.53
+    },
+    "Leeds, Washington County, UT" : {
+        "name" : "Leeds",
+        "state" : "Utah",
+        "FIPS" : "49-44100",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 864,
+        "population_2020" : 864,
+        "population_2027" : 977,
+        "land_area_2020" : 6.3
+    },
+    "Lehi, Utah County, UT" : {
+        "name" : "Lehi",
+        "state" : "Utah",
+        "FIPS" : "49-44320",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 75907,
+        "population_2020" : 75907,
+        "population_2027" : 85856,
+        "land_area_2020" : 28.11
+    },
+    "Levan, Juab County, UT" : {
+        "name" : "Levan",
+        "state" : "Utah",
+        "FIPS" : "49-44650",
+        "counties" : [
+            "Juab County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 862,
+        "population_2020" : 862,
+        "population_2027" : 975,
+        "land_area_2020" : 0.81
+    },
+    "Lewiston, Cache County, UT" : {
+        "name" : "Lewiston",
+        "state" : "Utah",
+        "FIPS" : "49-44760",
+        "counties" : [
+            "Cache County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1939,
+        "population_2020" : 1939,
+        "population_2027" : 2193,
+        "land_area_2020" : 25.84
+    },
+    "Lindon, Utah County, UT" : {
+        "name" : "Lindon",
+        "state" : "Utah",
+        "FIPS" : "49-45090",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11397,
+        "population_2020" : 11397,
+        "population_2027" : 12891,
+        "land_area_2020" : 8.35
+    },
+    "Loa, Wayne County, UT" : {
+        "name" : "Loa",
+        "state" : "Utah",
+        "FIPS" : "49-45530",
+        "counties" : [
+            "Wayne County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 516,
+        "population_2020" : 516,
+        "population_2027" : 584,
+        "land_area_2020" : 0.95
+    },
+    "Logan, Cache County, UT" : {
+        "name" : "Logan",
+        "state" : "Utah",
+        "FIPS" : "49-45860",
+        "counties" : [
+            "Cache County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 52778,
+        "population_2020" : 52778,
+        "population_2027" : 59695,
+        "land_area_2020" : 17.85
+    },
+    "Lyman, Wayne County, UT" : {
+        "name" : "Lyman",
+        "state" : "Utah",
+        "FIPS" : "49-46410",
+        "counties" : [
+            "Wayne County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 196,
+        "population_2020" : 196,
+        "population_2027" : 222,
+        "land_area_2020" : 1.81
+    },
+    "Lynndyl, Millard County, UT" : {
+        "name" : "Lynndyl",
+        "state" : "Utah",
+        "FIPS" : "49-46740",
+        "counties" : [
+            "Millard County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 111,
+        "population_2020" : 111,
+        "population_2027" : 126,
+        "land_area_2020" : 3.12
+    },
+    "Magna, Salt Lake County, UT" : {
+        "name" : "Magna",
+        "state" : "Utah",
+        "FIPS" : "None",
+        "counties" : [
+            "Salt Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 29251,
+        "population_2020" : 29251,
+        "population_2027" : 33085,
+        "land_area_2020" : 15.11
+    },
+    "Manila, Daggett County, UT" : {
+        "name" : "Manila",
+        "state" : "Utah",
+        "FIPS" : "49-47620",
+        "counties" : [
+            "Daggett County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 308,
+        "population_2020" : 308,
+        "population_2027" : 348,
+        "land_area_2020" : 1.04
+    },
+    "Manti, Sanpete County, UT" : {
+        "name" : "Manti",
+        "state" : "Utah",
+        "FIPS" : "49-47730",
+        "counties" : [
+            "Sanpete County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3429,
+        "population_2020" : 3429,
+        "population_2027" : 3878,
+        "land_area_2020" : 3.16
+    },
+    "Mantua, Box Elder County, UT" : {
+        "name" : "Mantua",
+        "state" : "Utah",
+        "FIPS" : "49-47840",
+        "counties" : [
+            "Box Elder County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1090,
+        "population_2020" : 1090,
+        "population_2027" : 1233,
+        "land_area_2020" : 4.91
+    },
+    "Mapleton, Utah County, UT" : {
+        "name" : "Mapleton",
+        "state" : "Utah",
+        "FIPS" : "49-47950",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11365,
+        "population_2020" : 11365,
+        "population_2027" : 12855,
+        "land_area_2020" : 13.35
+    },
+    "Marriott-Slaterville, Weber County, UT" : {
+        "name" : "Marriott-Slaterville",
+        "state" : "Utah",
+        "FIPS" : "49-48300",
+        "counties" : [
+            "Weber County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2135,
+        "population_2020" : 2135,
+        "population_2027" : 2415,
+        "land_area_2020" : 7.21
+    },
+    "Marysvale, Piute County, UT" : {
+        "name" : "Marysvale",
+        "state" : "Utah",
+        "FIPS" : "49-48610",
+        "counties" : [
+            "Piute County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 356,
+        "population_2020" : 356,
+        "population_2027" : 403,
+        "land_area_2020" : 17.98
+    },
+    "Mayfield, Sanpete County, UT" : {
+        "name" : "Mayfield",
+        "state" : "Utah",
+        "FIPS" : "49-48720",
+        "counties" : [
+            "Sanpete County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 556,
+        "population_2020" : 556,
+        "population_2027" : 629,
+        "land_area_2020" : 0.9
+    },
+    "Meadow, Millard County, UT" : {
+        "name" : "Meadow",
+        "state" : "Utah",
+        "FIPS" : "49-48830",
+        "counties" : [
+            "Millard County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 320,
+        "population_2020" : 320,
+        "population_2027" : 362,
+        "land_area_2020" : 0.51
+    },
+    "Mendon, Cache County, UT" : {
+        "name" : "Mendon",
+        "state" : "Utah",
+        "FIPS" : "49-49160",
+        "counties" : [
+            "Cache County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1339,
+        "population_2020" : 1339,
+        "population_2027" : 1514,
+        "land_area_2020" : 1.43
+    },
+    "Midvale, Salt Lake County, UT" : {
+        "name" : "Midvale",
+        "state" : "Utah",
+        "FIPS" : "49-49710",
+        "counties" : [
+            "Salt Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 36028,
+        "population_2020" : 36028,
+        "population_2027" : 40750,
+        "land_area_2020" : 5.91
+    },
+    "Midway, Wasatch County, UT" : {
+        "name" : "Midway",
+        "state" : "Utah",
+        "FIPS" : "49-49820",
+        "counties" : [
+            "Wasatch County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6003,
+        "population_2020" : 6003,
+        "population_2027" : 6790,
+        "land_area_2020" : 5.55
+    },
+    "Milford, Beaver County, UT" : {
+        "name" : "Milford",
+        "state" : "Utah",
+        "FIPS" : "49-50040",
+        "counties" : [
+            "Beaver County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1431,
+        "population_2020" : 1431,
+        "population_2027" : 1619,
+        "land_area_2020" : 2.14
+    },
+    "Millcreek, Salt Lake County, UT" : {
+        "name" : "Millcreek",
+        "state" : "Utah",
+        "FIPS" : "49-50150",
+        "counties" : [
+            "Salt Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 63380,
+        "population_2020" : 63380,
+        "population_2027" : 71687,
+        "land_area_2020" : 12.77
+    },
+    "Millville, Cache County, UT" : {
+        "name" : "Millville",
+        "state" : "Utah",
+        "FIPS" : "49-50370",
+        "counties" : [
+            "Cache County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2326,
+        "population_2020" : 2326,
+        "population_2027" : 2631,
+        "land_area_2020" : 2.51
+    },
+    "Minersville, Beaver County, UT" : {
+        "name" : "Minersville",
+        "state" : "Utah",
+        "FIPS" : "49-50590",
+        "counties" : [
+            "Beaver County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 807,
+        "population_2020" : 807,
+        "population_2027" : 913,
+        "land_area_2020" : 2.18
+    },
+    "Moab, Grand County, UT" : {
+        "name" : "Moab",
+        "state" : "Utah",
+        "FIPS" : "49-50700",
+        "counties" : [
+            "Grand County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5366,
+        "population_2020" : 5366,
+        "population_2027" : 6069,
+        "land_area_2020" : 4.8
+    },
+    "Mona, Juab County, UT" : {
+        "name" : "Mona",
+        "state" : "Utah",
+        "FIPS" : "49-51140",
+        "counties" : [
+            "Juab County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1750,
+        "population_2020" : 1750,
+        "population_2027" : 1979,
+        "land_area_2020" : 2.65
+    },
+    "Monroe, Sevier County, UT" : {
+        "name" : "Monroe",
+        "state" : "Utah",
+        "FIPS" : "49-51360",
+        "counties" : [
+            "Sevier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2515,
+        "population_2020" : 2515,
+        "population_2027" : 2845,
+        "land_area_2020" : 3.57
+    },
+    "Monticello, San Juan County, UT" : {
+        "name" : "Monticello",
+        "state" : "Utah",
+        "FIPS" : "49-51580",
+        "counties" : [
+            "San Juan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1824,
+        "population_2020" : 1824,
+        "population_2027" : 2063,
+        "land_area_2020" : 3.66
+    },
+    "Morgan, Morgan County, UT" : {
+        "name" : "Morgan",
+        "state" : "Utah",
+        "FIPS" : "49-51910",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4071,
+        "population_2020" : 4071,
+        "population_2027" : 4605,
+        "land_area_2020" : 2.97
+    },
+    "Moroni, Sanpete County, UT" : {
+        "name" : "Moroni",
+        "state" : "Utah",
+        "FIPS" : "49-52130",
+        "counties" : [
+            "Sanpete County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1544,
+        "population_2020" : 1544,
+        "population_2027" : 1746,
+        "land_area_2020" : 1.07
+    },
+    "Mount Pleasant, Sanpete County, UT" : {
+        "name" : "Mount Pleasant",
+        "state" : "Utah",
+        "FIPS" : "49-53010",
+        "counties" : [
+            "Sanpete County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3655,
+        "population_2020" : 3655,
+        "population_2027" : 4134,
+        "land_area_2020" : 2.93
+    },
+    "Murray, Salt Lake County, UT" : {
+        "name" : "Murray",
+        "state" : "Utah",
+        "FIPS" : "49-53230",
+        "counties" : [
+            "Salt Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 50637,
+        "population_2020" : 50637,
+        "population_2027" : 57274,
+        "land_area_2020" : 12.32
+    },
+    "Myton, Duchesne County, UT" : {
+        "name" : "Myton",
+        "state" : "Utah",
+        "FIPS" : "49-53340",
+        "counties" : [
+            "Duchesne County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 561,
+        "population_2020" : 561,
+        "population_2027" : 635,
+        "land_area_2020" : 1.01
+    },
+    "Naples, Uintah County, UT" : {
+        "name" : "Naples",
+        "state" : "Utah",
+        "FIPS" : "49-53560",
+        "counties" : [
+            "Uintah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2280,
+        "population_2020" : 2280,
+        "population_2027" : 2579,
+        "land_area_2020" : 6.6
+    },
+    "Nephi, Juab County, UT" : {
+        "name" : "Nephi",
+        "state" : "Utah",
+        "FIPS" : "49-54220",
+        "counties" : [
+            "Juab County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6443,
+        "population_2020" : 6443,
+        "population_2027" : 7287,
+        "land_area_2020" : 4.75
+    },
+    "New Harmony, Washington County, UT" : {
+        "name" : "New Harmony",
+        "state" : "Utah",
+        "FIPS" : "49-54440",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 236,
+        "population_2020" : 236,
+        "population_2027" : 267,
+        "land_area_2020" : 0.61
+    },
+    "Newton, Cache County, UT" : {
+        "name" : "Newton",
+        "state" : "Utah",
+        "FIPS" : "49-54550",
+        "counties" : [
+            "Cache County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 789,
+        "population_2020" : 789,
+        "population_2027" : 892,
+        "land_area_2020" : 0.86
+    },
+    "Nibley, Cache County, UT" : {
+        "name" : "Nibley",
+        "state" : "Utah",
+        "FIPS" : "49-54660",
+        "counties" : [
+            "Cache County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7328,
+        "population_2020" : 7328,
+        "population_2027" : 8288,
+        "land_area_2020" : 4.39
+    },
+    "North Logan, Cache County, UT" : {
+        "name" : "North Logan",
+        "state" : "Utah",
+        "FIPS" : "49-54990",
+        "counties" : [
+            "Cache County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10986,
+        "population_2020" : 10986,
+        "population_2027" : 12426,
+        "land_area_2020" : 7.13
+    },
+    "North Ogden, Weber County, UT" : {
+        "name" : "North Ogden",
+        "state" : "Utah",
+        "FIPS" : "49-55100",
+        "counties" : [
+            "Weber County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 20916,
+        "population_2020" : 20916,
+        "population_2027" : 23657,
+        "land_area_2020" : 7.51
+    },
+    "North Salt Lake, Davis County, UT" : {
+        "name" : "North Salt Lake",
+        "state" : "Utah",
+        "FIPS" : "49-55210",
+        "counties" : [
+            "Davis County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 21907,
+        "population_2020" : 21907,
+        "population_2027" : 24778,
+        "land_area_2020" : 8.47
+    },
+    "Oak City, Millard County, UT" : {
+        "name" : "Oak City",
+        "state" : "Utah",
+        "FIPS" : "49-55430",
+        "counties" : [
+            "Millard County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 595,
+        "population_2020" : 595,
+        "population_2027" : 673,
+        "land_area_2020" : 0.94
+    },
+    "Oakley, Summit County, UT" : {
+        "name" : "Oakley",
+        "state" : "Utah",
+        "FIPS" : "49-55650",
+        "counties" : [
+            "Summit County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1588,
+        "population_2020" : 1588,
+        "population_2027" : 1796,
+        "land_area_2020" : 7.08
+    },
+    "Ogden, Weber County, UT" : {
+        "name" : "Ogden",
+        "state" : "Utah",
+        "FIPS" : "49-55980",
+        "counties" : [
+            "Weber County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 87321,
+        "population_2020" : 87321,
+        "population_2027" : 98766,
+        "land_area_2020" : 27.55
+    },
+    "Orangeville, Emery County, UT" : {
+        "name" : "Orangeville",
+        "state" : "Utah",
+        "FIPS" : "49-56860",
+        "counties" : [
+            "Emery County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1224,
+        "population_2020" : 1224,
+        "population_2027" : 1384,
+        "land_area_2020" : 1.43
+    },
+    "Orderville, Kane County, UT" : {
+        "name" : "Orderville",
+        "state" : "Utah",
+        "FIPS" : "49-57080",
+        "counties" : [
+            "Kane County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 598,
+        "population_2020" : 598,
+        "population_2027" : 676,
+        "land_area_2020" : 8.72
+    },
+    "Orem, Utah County, UT" : {
+        "name" : "Orem",
+        "state" : "Utah",
+        "FIPS" : "49-57300",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 98129,
+        "population_2020" : 98129,
+        "population_2027" : 110990,
+        "land_area_2020" : 18.61
+    },
+    "Panguitch, Garfield County, UT" : {
+        "name" : "Panguitch",
+        "state" : "Utah",
+        "FIPS" : "49-57740",
+        "counties" : [
+            "Garfield County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1725,
+        "population_2020" : 1725,
+        "population_2027" : 1951,
+        "land_area_2020" : 3.08
+    },
+    "Paradise, Cache County, UT" : {
+        "name" : "Paradise",
+        "state" : "Utah",
+        "FIPS" : "49-57850",
+        "counties" : [
+            "Cache County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 971,
+        "population_2020" : 971,
+        "population_2027" : 1098,
+        "land_area_2020" : 1.45
+    },
+    "Paragonah, Iron County, UT" : {
+        "name" : "Paragonah",
+        "state" : "Utah",
+        "FIPS" : "49-57960",
+        "counties" : [
+            "Iron County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 536,
+        "population_2020" : 536,
+        "population_2027" : 606,
+        "land_area_2020" : 0.67
+    },
+    "Park City, Summit County, UT" : {
+        "name" : "Park City",
+        "state" : "Utah",
+        "FIPS" : "49-58070",
+        "counties" : [
+            "Summit County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8396,
+        "population_2020" : 8396,
+        "population_2027" : 9496,
+        "land_area_2020" : 20.42
+    },
+    "Parowan, Iron County, UT" : {
+        "name" : "Parowan",
+        "state" : "Utah",
+        "FIPS" : "49-58510",
+        "counties" : [
+            "Iron County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2996,
+        "population_2020" : 2996,
+        "population_2027" : 3389,
+        "land_area_2020" : 6.89
+    },
+    "Payson, Utah County, UT" : {
+        "name" : "Payson",
+        "state" : "Utah",
+        "FIPS" : "49-58730",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 21101,
+        "population_2020" : 21101,
+        "population_2027" : 23867,
+        "land_area_2020" : 13.04
+    },
+    "Perry, Box Elder County, UT" : {
+        "name" : "Perry",
+        "state" : "Utah",
+        "FIPS" : "49-59390",
+        "counties" : [
+            "Box Elder County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5555,
+        "population_2020" : 5555,
+        "population_2027" : 6283,
+        "land_area_2020" : 8.0
+    },
+    "Plain City, Weber County, UT" : {
+        "name" : "Plain City",
+        "state" : "Utah",
+        "FIPS" : "49-60710",
+        "counties" : [
+            "Weber County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7833,
+        "population_2020" : 7833,
+        "population_2027" : 8860,
+        "land_area_2020" : 11.99
+    },
+    "Pleasant Grove, Utah County, UT" : {
+        "name" : "Pleasant Grove",
+        "state" : "Utah",
+        "FIPS" : "49-60930",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 37726,
+        "population_2020" : 37726,
+        "population_2027" : 42671,
+        "land_area_2020" : 9.18
+    },
+    "Pleasant View, Weber County, UT" : {
+        "name" : "Pleasant View",
+        "state" : "Utah",
+        "FIPS" : "49-61150",
+        "counties" : [
+            "Weber County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11083,
+        "population_2020" : 11083,
+        "population_2027" : 12536,
+        "land_area_2020" : 6.98
+    },
+    "Plymouth, Box Elder County, UT" : {
+        "name" : "Plymouth",
+        "state" : "Utah",
+        "FIPS" : "49-61260",
+        "counties" : [
+            "Box Elder County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 427,
+        "population_2020" : 427,
+        "population_2027" : 483,
+        "land_area_2020" : 0.83
+    },
+    "Portage, Box Elder County, UT" : {
+        "name" : "Portage",
+        "state" : "Utah",
+        "FIPS" : "49-61590",
+        "counties" : [
+            "Box Elder County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 273,
+        "population_2020" : 273,
+        "population_2027" : 309,
+        "land_area_2020" : 2.55
+    },
+    "Price, Carbon County, UT" : {
+        "name" : "Price",
+        "state" : "Utah",
+        "FIPS" : "49-62030",
+        "counties" : [
+            "Carbon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8216,
+        "population_2020" : 8216,
+        "population_2027" : 9293,
+        "land_area_2020" : 5.04
+    },
+    "Providence, Cache County, UT" : {
+        "name" : "Providence",
+        "state" : "Utah",
+        "FIPS" : "49-62360",
+        "counties" : [
+            "Cache County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8218,
+        "population_2020" : 8218,
+        "population_2027" : 9295,
+        "land_area_2020" : 3.9
+    },
+    "Provo, Utah County, UT" : {
+        "name" : "Provo",
+        "state" : "Utah",
+        "FIPS" : "49-62470",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 115162,
+        "population_2020" : 115162,
+        "population_2027" : 130256,
+        "land_area_2020" : 41.69
+    },
+    "Randolph, Rich County, UT" : {
+        "name" : "Randolph",
+        "state" : "Utah",
+        "FIPS" : "49-63020",
+        "counties" : [
+            "Rich County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 467,
+        "population_2020" : 467,
+        "population_2027" : 528,
+        "land_area_2020" : 1.29
+    },
+    "Redmond, Sevier County, UT" : {
+        "name" : "Redmond",
+        "state" : "Utah",
+        "FIPS" : "49-63240",
+        "counties" : [
+            "Sevier County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 762,
+        "population_2020" : 762,
+        "population_2027" : 862,
+        "land_area_2020" : 0.94
+    },
+    "Richfield, Sevier County, UT" : {
+        "name" : "Richfield",
+        "state" : "Utah",
+        "FIPS" : "49-63570",
+        "counties" : [
+            "Sevier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8201,
+        "population_2020" : 8201,
+        "population_2027" : 9276,
+        "land_area_2020" : 5.93
+    },
+    "Richmond, Cache County, UT" : {
+        "name" : "Richmond",
+        "state" : "Utah",
+        "FIPS" : "49-63680",
+        "counties" : [
+            "Cache County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2914,
+        "population_2020" : 2914,
+        "population_2027" : 3296,
+        "land_area_2020" : 3.46
+    },
+    "Riverdale, Weber County, UT" : {
+        "name" : "Riverdale",
+        "state" : "Utah",
+        "FIPS" : "49-64010",
+        "counties" : [
+            "Weber County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9343,
+        "population_2020" : 9343,
+        "population_2027" : 10568,
+        "land_area_2020" : 4.63
+    },
+    "River Heights, Cache County, UT" : {
+        "name" : "River Heights",
+        "state" : "Utah",
+        "FIPS" : "49-64120",
+        "counties" : [
+            "Cache County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2144,
+        "population_2020" : 2144,
+        "population_2027" : 2425,
+        "land_area_2020" : 0.66
+    },
+    "Riverton, Salt Lake County, UT" : {
+        "name" : "Riverton",
+        "state" : "Utah",
+        "FIPS" : "49-64340",
+        "counties" : [
+            "Salt Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 45285,
+        "population_2020" : 45285,
+        "population_2027" : 51220,
+        "land_area_2020" : 12.58
+    },
+    "Rockville, Washington County, UT" : {
+        "name" : "Rockville",
+        "state" : "Utah",
+        "FIPS" : "49-64560",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 226,
+        "population_2020" : 226,
+        "population_2027" : 256,
+        "land_area_2020" : 8.47
+    },
+    "Rocky Ridge, Juab County, UT" : {
+        "name" : "Rocky Ridge",
+        "state" : "Utah",
+        "FIPS" : "49-64590",
+        "counties" : [
+            "Juab County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 848,
+        "population_2020" : 848,
+        "population_2027" : 959,
+        "land_area_2020" : 1.71
+    },
+    "Roosevelt, Duchesne County, UT" : {
+        "name" : "Roosevelt",
+        "state" : "Utah",
+        "FIPS" : "49-64670",
+        "counties" : [
+            "Duchesne County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6747,
+        "population_2020" : 6747,
+        "population_2027" : 7631,
+        "land_area_2020" : 6.76
+    },
+    "Roy, Weber County, UT" : {
+        "name" : "Roy",
+        "state" : "Utah",
+        "FIPS" : "49-65110",
+        "counties" : [
+            "Weber County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 39306,
+        "population_2020" : 39306,
+        "population_2027" : 44458,
+        "land_area_2020" : 8.14
+    },
+    "Rush Valley, Tooele County, UT" : {
+        "name" : "Rush Valley",
+        "state" : "Utah",
+        "FIPS" : "49-65240",
+        "counties" : [
+            "Tooele County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 431,
+        "population_2020" : 431,
+        "population_2027" : 487,
+        "land_area_2020" : 18.08
+    },
+    "St. George, Washington County, UT" : {
+        "name" : "St. George",
+        "state" : "Utah",
+        "FIPS" : "49-65330",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 95342,
+        "population_2020" : 95342,
+        "population_2027" : 107838,
+        "land_area_2020" : 78.46
+    },
+    "Salem, Utah County, UT" : {
+        "name" : "Salem",
+        "state" : "Utah",
+        "FIPS" : "49-65770",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9298,
+        "population_2020" : 9298,
+        "population_2027" : 10517,
+        "land_area_2020" : 10.5
+    },
+    "Salina, Sevier County, UT" : {
+        "name" : "Salina",
+        "state" : "Utah",
+        "FIPS" : "49-65880",
+        "counties" : [
+            "Sevier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2441,
+        "population_2020" : 2441,
+        "population_2027" : 2761,
+        "land_area_2020" : 5.83
+    },
+    "Salt Lake City, Salt Lake County, UT" : {
+        "name" : "Salt Lake City",
+        "state" : "Utah",
+        "FIPS" : "49-67000",
+        "counties" : [
+            "Salt Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 199723,
+        "population_2020" : 199723,
+        "population_2027" : 225900,
+        "land_area_2020" : 110.34
+    },
+    "Sandy, Salt Lake County, UT" : {
+        "name" : "Sandy",
+        "state" : "Utah",
+        "FIPS" : "49-67440",
+        "counties" : [
+            "Salt Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 96904,
+        "population_2020" : 96904,
+        "population_2027" : 109605,
+        "land_area_2020" : 24.15
+    },
+    "Santa Clara, Washington County, UT" : {
+        "name" : "Santa Clara",
+        "state" : "Utah",
+        "FIPS" : "49-67660",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7553,
+        "population_2020" : 7553,
+        "population_2027" : 8543,
+        "land_area_2020" : 6.12
+    },
+    "Santaquin, Utah County, UT" : {
+        "name" : "Santaquin",
+        "state" : "Utah",
+        "FIPS" : "49-67770",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13725,
+        "population_2020" : 13725,
+        "population_2027" : 15524,
+        "land_area_2020" : 10.44
+    },
+    "Saratoga Springs, Utah County, UT" : {
+        "name" : "Saratoga Springs",
+        "state" : "Utah",
+        "FIPS" : "49-67825",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 37696,
+        "population_2020" : 37696,
+        "population_2027" : 42637,
+        "land_area_2020" : 23.23
+    },
+    "Scipio, Millard County, UT" : {
+        "name" : "Scipio",
+        "state" : "Utah",
+        "FIPS" : "49-67880",
+        "counties" : [
+            "Millard County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 353,
+        "population_2020" : 353,
+        "population_2027" : 399,
+        "land_area_2020" : 1.04
+    },
+    "Scofield, Carbon County, UT" : {
+        "name" : "Scofield",
+        "state" : "Utah",
+        "FIPS" : "49-67990",
+        "counties" : [
+            "Carbon County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 26,
+        "population_2020" : 26,
+        "population_2027" : 29,
+        "land_area_2020" : 0.92
+    },
+    "Sigurd, Sevier County, UT" : {
+        "name" : "Sigurd",
+        "state" : "Utah",
+        "FIPS" : "49-68650",
+        "counties" : [
+            "Sevier County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 405,
+        "population_2020" : 405,
+        "population_2027" : 458,
+        "land_area_2020" : 0.98
+    },
+    "Smithfield, Cache County, UT" : {
+        "name" : "Smithfield",
+        "state" : "Utah",
+        "FIPS" : "49-69640",
+        "counties" : [
+            "Cache County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13571,
+        "population_2020" : 13571,
+        "population_2027" : 15350,
+        "land_area_2020" : 5.35
+    },
+    "Snowville, Box Elder County, UT" : {
+        "name" : "Snowville",
+        "state" : "Utah",
+        "FIPS" : "49-69970",
+        "counties" : [
+            "Box Elder County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 163,
+        "population_2020" : 163,
+        "population_2027" : 184,
+        "land_area_2020" : 1.55
+    },
+    "South Jordan, Salt Lake County, UT" : {
+        "name" : "South Jordan",
+        "state" : "Utah",
+        "FIPS" : "49-70850",
+        "counties" : [
+            "Salt Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 77487,
+        "population_2020" : 77487,
+        "population_2027" : 87643,
+        "land_area_2020" : 22.19
+    },
+    "South Ogden, Weber County, UT" : {
+        "name" : "South Ogden",
+        "state" : "Utah",
+        "FIPS" : "49-70960",
+        "counties" : [
+            "Weber County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 17488,
+        "population_2020" : 17488,
+        "population_2027" : 19780,
+        "land_area_2020" : 3.9
+    },
+    "South Salt Lake, Salt Lake County, UT" : {
+        "name" : "South Salt Lake",
+        "state" : "Utah",
+        "FIPS" : "49-71070",
+        "counties" : [
+            "Salt Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 26777,
+        "population_2020" : 26777,
+        "population_2027" : 30287,
+        "land_area_2020" : 6.94
+    },
+    "South Weber, Davis County, UT" : {
+        "name" : "South Weber",
+        "state" : "Utah",
+        "FIPS" : "49-71180",
+        "counties" : [
+            "Davis County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7867,
+        "population_2020" : 7867,
+        "population_2027" : 8898,
+        "land_area_2020" : 4.64
+    },
+    "Spanish Fork, Utah County, UT" : {
+        "name" : "Spanish Fork",
+        "state" : "Utah",
+        "FIPS" : "49-71290",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 42602,
+        "population_2020" : 42602,
+        "population_2027" : 48186,
+        "land_area_2020" : 16.21
+    },
+    "Spring City, Sanpete County, UT" : {
+        "name" : "Spring City",
+        "state" : "Utah",
+        "FIPS" : "49-71730",
+        "counties" : [
+            "Sanpete County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 949,
+        "population_2020" : 949,
+        "population_2027" : 1073,
+        "land_area_2020" : 1.41
+    },
+    "Springdale, Washington County, UT" : {
+        "name" : "Springdale",
+        "state" : "Utah",
+        "FIPS" : "49-71840",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 514,
+        "population_2020" : 514,
+        "population_2027" : 581,
+        "land_area_2020" : 4.62
+    },
+    "Springville, Utah County, UT" : {
+        "name" : "Springville",
+        "state" : "Utah",
+        "FIPS" : "49-72280",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 35268,
+        "population_2020" : 35268,
+        "population_2027" : 39890,
+        "land_area_2020" : 14.38
+    },
+    "Sterling, Sanpete County, UT" : {
+        "name" : "Sterling",
+        "state" : "Utah",
+        "FIPS" : "49-72940",
+        "counties" : [
+            "Sanpete County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 274,
+        "population_2020" : 274,
+        "population_2027" : 310,
+        "land_area_2020" : 0.32
+    },
+    "Stockton, Tooele County, UT" : {
+        "name" : "Stockton",
+        "state" : "Utah",
+        "FIPS" : "49-73050",
+        "counties" : [
+            "Tooele County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 621,
+        "population_2020" : 621,
+        "population_2027" : 702,
+        "land_area_2020" : 1.68
+    },
+    "Sunset, Davis County, UT" : {
+        "name" : "Sunset",
+        "state" : "Utah",
+        "FIPS" : "49-74480",
+        "counties" : [
+            "Davis County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5475,
+        "population_2020" : 5475,
+        "population_2027" : 6193,
+        "land_area_2020" : 1.46
+    },
+    "Syracuse, Davis County, UT" : {
+        "name" : "Syracuse",
+        "state" : "Utah",
+        "FIPS" : "49-74810",
+        "counties" : [
+            "Davis County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 32141,
+        "population_2020" : 32141,
+        "population_2027" : 36354,
+        "land_area_2020" : 10.18
+    },
+    "Tabiona, Duchesne County, UT" : {
+        "name" : "Tabiona",
+        "state" : "Utah",
+        "FIPS" : "49-74920",
+        "counties" : [
+            "Duchesne County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 143,
+        "population_2020" : 143,
+        "population_2027" : 162,
+        "land_area_2020" : 0.1
+    },
+    "Taylorsville, Salt Lake County, UT" : {
+        "name" : "Taylorsville",
+        "state" : "Utah",
+        "FIPS" : "49-75360",
+        "counties" : [
+            "Salt Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 60448,
+        "population_2020" : 60448,
+        "population_2027" : 68371,
+        "land_area_2020" : 10.85
+    },
+    "Tooele, Tooele County, UT" : {
+        "name" : "Tooele",
+        "state" : "Utah",
+        "FIPS" : "49-76680",
+        "counties" : [
+            "Tooele County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 35742,
+        "population_2020" : 35742,
+        "population_2027" : 40427,
+        "land_area_2020" : 24.14
+    },
+    "Toquerville, Washington County, UT" : {
+        "name" : "Toquerville",
+        "state" : "Utah",
+        "FIPS" : "49-76900",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1870,
+        "population_2020" : 1870,
+        "population_2027" : 2115,
+        "land_area_2020" : 22.2
+    },
+    "Torrey, Wayne County, UT" : {
+        "name" : "Torrey",
+        "state" : "Utah",
+        "FIPS" : "49-77010",
+        "counties" : [
+            "Wayne County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 231,
+        "population_2020" : 231,
+        "population_2027" : 261,
+        "land_area_2020" : 1.66
+    },
+    "Tremonton, Box Elder County, UT" : {
+        "name" : "Tremonton",
+        "state" : "Utah",
+        "FIPS" : "49-77120",
+        "counties" : [
+            "Box Elder County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9894,
+        "population_2020" : 9894,
+        "population_2027" : 11191,
+        "land_area_2020" : 8.02
+    },
+    "Trenton, Cache County, UT" : {
+        "name" : "Trenton",
+        "state" : "Utah",
+        "FIPS" : "49-77230",
+        "counties" : [
+            "Cache County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 512,
+        "population_2020" : 512,
+        "population_2027" : 579,
+        "land_area_2020" : 8.21
+    },
+    "Tropic, Garfield County, UT" : {
+        "name" : "Tropic",
+        "state" : "Utah",
+        "FIPS" : "49-77560",
+        "counties" : [
+            "Garfield County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 486,
+        "population_2020" : 486,
+        "population_2027" : 550,
+        "land_area_2020" : 7.91
+    },
+    "Uintah, Weber County, UT" : {
+        "name" : "Uintah",
+        "state" : "Utah",
+        "FIPS" : "49-77890",
+        "counties" : [
+            "Weber County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1454,
+        "population_2020" : 1454,
+        "population_2027" : 1645,
+        "land_area_2020" : 1.24
+    },
+    "Vernal, Uintah County, UT" : {
+        "name" : "Vernal",
+        "state" : "Utah",
+        "FIPS" : "49-80090",
+        "counties" : [
+            "Uintah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10079,
+        "population_2020" : 10079,
+        "population_2027" : 11400,
+        "land_area_2020" : 4.62
+    },
+    "Vernon, Tooele County, UT" : {
+        "name" : "Vernon",
+        "state" : "Utah",
+        "FIPS" : "49-80200",
+        "counties" : [
+            "Tooele County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 256,
+        "population_2020" : 256,
+        "population_2027" : 290,
+        "land_area_2020" : 8.06
+    },
+    "Vineyard, Utah County, UT" : {
+        "name" : "Vineyard",
+        "state" : "Utah",
+        "FIPS" : "49-80420",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12543,
+        "population_2020" : 12543,
+        "population_2027" : 14187,
+        "land_area_2020" : 4.8
+    },
+    "Virgin, Washington County, UT" : {
+        "name" : "Virgin",
+        "state" : "Utah",
+        "FIPS" : "49-80530",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 670,
+        "population_2020" : 670,
+        "population_2027" : 758,
+        "land_area_2020" : 12.72
+    },
+    "Wales, Sanpete County, UT" : {
+        "name" : "Wales",
+        "state" : "Utah",
+        "FIPS" : "49-80860",
+        "counties" : [
+            "Sanpete County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 338,
+        "population_2020" : 338,
+        "population_2027" : 382,
+        "land_area_2020" : 0.4
+    },
+    "Wallsburg, Wasatch County, UT" : {
+        "name" : "Wallsburg",
+        "state" : "Utah",
+        "FIPS" : "49-80970",
+        "counties" : [
+            "Wasatch County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 290,
+        "population_2020" : 290,
+        "population_2027" : 328,
+        "land_area_2020" : 0.63
+    },
+    "Washington, Washington County, UT" : {
+        "name" : "Washington",
+        "state" : "Utah",
+        "FIPS" : "49-81960",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 27993,
+        "population_2020" : 27993,
+        "population_2027" : 31662,
+        "land_area_2020" : 34.79
+    },
+    "Washington Terrace, Weber County, UT" : {
+        "name" : "Washington Terrace",
+        "state" : "Utah",
+        "FIPS" : "49-82070",
+        "counties" : [
+            "Weber County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9267,
+        "population_2020" : 9267,
+        "population_2027" : 10482,
+        "land_area_2020" : 2.04
+    },
+    "Wellington, Carbon County, UT" : {
+        "name" : "Wellington",
+        "state" : "Utah",
+        "FIPS" : "49-82510",
+        "counties" : [
+            "Carbon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1605,
+        "population_2020" : 1605,
+        "population_2027" : 1815,
+        "land_area_2020" : 5.11
+    },
+    "Wellsville, Cache County, UT" : {
+        "name" : "Wellsville",
+        "state" : "Utah",
+        "FIPS" : "49-82620",
+        "counties" : [
+            "Cache County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4060,
+        "population_2020" : 4060,
+        "population_2027" : 4592,
+        "land_area_2020" : 7.27
+    },
+    "Wendover, Tooele County, UT" : {
+        "name" : "Wendover",
+        "state" : "Utah",
+        "FIPS" : "49-82730",
+        "counties" : [
+            "Tooele County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1115,
+        "population_2020" : 1115,
+        "population_2027" : 1261,
+        "land_area_2020" : 8.93
+    },
+    "West Bountiful, Davis County, UT" : {
+        "name" : "West Bountiful",
+        "state" : "Utah",
+        "FIPS" : "49-82840",
+        "counties" : [
+            "Davis County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5917,
+        "population_2020" : 5917,
+        "population_2027" : 6693,
+        "land_area_2020" : 3.31
+    },
+    "West Haven, Weber County, UT" : {
+        "name" : "West Haven",
+        "state" : "Utah",
+        "FIPS" : "49-82930",
+        "counties" : [
+            "Weber County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16739,
+        "population_2020" : 16739,
+        "population_2027" : 18933,
+        "land_area_2020" : 10.64
+    },
+    "West Jordan, Salt Lake County, UT" : {
+        "name" : "West Jordan",
+        "state" : "Utah",
+        "FIPS" : "49-82950",
+        "counties" : [
+            "Salt Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 116961,
+        "population_2020" : 116961,
+        "population_2027" : 132291,
+        "land_area_2020" : 32.33
+    },
+    "West Point, Davis County, UT" : {
+        "name" : "West Point",
+        "state" : "Utah",
+        "FIPS" : "49-83390",
+        "counties" : [
+            "Davis County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10963,
+        "population_2020" : 10963,
+        "population_2027" : 12400,
+        "land_area_2020" : 7.11
+    },
+    "West Valley City, Salt Lake County, UT" : {
+        "name" : "West Valley City",
+        "state" : "Utah",
+        "FIPS" : "49-83470",
+        "counties" : [
+            "Salt Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 140230,
+        "population_2020" : 140230,
+        "population_2027" : 158609,
+        "land_area_2020" : 35.83
+    },
+    "White City, Salt Lake County, UT" : {
+        "name" : "White City",
+        "state" : "Utah",
+        "FIPS" : "None",
+        "counties" : [
+            "Salt Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5522,
+        "population_2020" : 5522,
+        "population_2027" : 6246,
+        "land_area_2020" : 0.87
+    },
+    "Willard, Box Elder County, UT" : {
+        "name" : "Willard",
+        "state" : "Utah",
+        "FIPS" : "49-84710",
+        "counties" : [
+            "Box Elder County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1978,
+        "population_2020" : 1978,
+        "population_2027" : 2237,
+        "land_area_2020" : 5.56
+    },
+    "Woodland Hills, Utah County, UT" : {
+        "name" : "Woodland Hills",
+        "state" : "Utah",
+        "FIPS" : "49-85050",
+        "counties" : [
+            "Utah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1521,
+        "population_2020" : 1521,
+        "population_2027" : 1720,
+        "land_area_2020" : 2.53
+    },
+    "Woodruff, Rich County, UT" : {
+        "name" : "Woodruff",
+        "state" : "Utah",
+        "FIPS" : "49-85260",
+        "counties" : [
+            "Rich County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 169,
+        "population_2020" : 169,
+        "population_2027" : 191,
+        "land_area_2020" : 0.72
+    },
+    "Woods Cross, Davis County, UT" : {
+        "name" : "Woods Cross",
+        "state" : "Utah",
+        "FIPS" : "49-85370",
+        "counties" : [
+            "Davis County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11410,
+        "population_2020" : 11410,
+        "population_2027" : 12905,
+        "land_area_2020" : 3.83
+    }
+}

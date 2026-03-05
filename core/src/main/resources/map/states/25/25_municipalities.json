@@ -1,0 +1,4565 @@
+{
+    "Boston, Suffolk County, MA" : {
+        "name" : "Boston",
+        "state" : "Massachusetts",
+        "FIPS" : "25-07000",
+        "counties" : [
+            "Suffolk County"
+        ],
+        "type_class" : "Capital)",
+        "population_2010" : 675647,
+        "population_2020" : 675647,
+        "population_2027" : 693584,
+        "land_area_2020" : 48.3
+    },
+    "Worcester, Worcester County, MA" : {
+        "name" : "Worcester",
+        "state" : "Massachusetts",
+        "FIPS" : "25-82000",
+        "counties" : [
+            "Worcester County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 206518,
+        "population_2020" : 206518,
+        "population_2027" : 212000,
+        "land_area_2020" : 37.4
+    },
+    "Springfield, Hampden County, MA" : {
+        "name" : "Springfield",
+        "state" : "Massachusetts",
+        "FIPS" : "25-67000",
+        "counties" : [
+            "Hampden County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 155929,
+        "population_2020" : 155929,
+        "population_2027" : 160068,
+        "land_area_2020" : 31.9
+    },
+    "Cambridge, Middlesex County, MA" : {
+        "name" : "Cambridge",
+        "state" : "Massachusetts",
+        "FIPS" : "25-11000",
+        "counties" : [
+            "Middlesex County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 118403,
+        "population_2020" : 118403,
+        "population_2027" : 121546,
+        "land_area_2020" : 6.4
+    },
+    "Lowell, Middlesex (seat), MA" : {
+        "name" : "Lowell",
+        "state" : "Massachusetts",
+        "FIPS" : "25-37000",
+        "counties" : [
+            "Middlesex (seat)"
+        ],
+        "type_class" : "City",
+        "population_2010" : 115554,
+        "population_2020" : 115554,
+        "population_2027" : 118622,
+        "land_area_2020" : 13.6
+    },
+    "Brockton, Plymouth County, MA" : {
+        "name" : "Brockton",
+        "state" : "Massachusetts",
+        "FIPS" : "25-09000",
+        "counties" : [
+            "Plymouth County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 105643,
+        "population_2020" : 105643,
+        "population_2027" : 108448,
+        "land_area_2020" : 21.3
+    },
+    "Quincy, Norfolk, MA" : {
+        "name" : "Quincy",
+        "state" : "Massachusetts",
+        "FIPS" : "25-55745",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "City",
+        "population_2010" : 101636,
+        "population_2020" : 101636,
+        "population_2027" : 104334,
+        "land_area_2020" : 16.6
+    },
+    "Lynn, Essex, MA" : {
+        "name" : "Lynn",
+        "state" : "Massachusetts",
+        "FIPS" : "25-37490",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "City",
+        "population_2010" : 101253,
+        "population_2020" : 101253,
+        "population_2027" : 103941,
+        "land_area_2020" : 10.7
+    },
+    "New Bedford, Bristol, MA" : {
+        "name" : "New Bedford",
+        "state" : "Massachusetts",
+        "FIPS" : "25-45000",
+        "counties" : [
+            "Bristol"
+        ],
+        "type_class" : "City",
+        "population_2010" : 101079,
+        "population_2020" : 101079,
+        "population_2027" : 103762,
+        "land_area_2020" : 20.0
+    },
+    "Fall River, Bristol, MA" : {
+        "name" : "Fall River",
+        "state" : "Massachusetts",
+        "FIPS" : "25-23000",
+        "counties" : [
+            "Bristol"
+        ],
+        "type_class" : "City",
+        "population_2010" : 94000,
+        "population_2020" : 94000,
+        "population_2027" : 96495,
+        "land_area_2020" : 33.1
+    },
+    "Lawrence, Essex County, MA" : {
+        "name" : "Lawrence",
+        "state" : "Massachusetts",
+        "FIPS" : "25-34550",
+        "counties" : [
+            "Essex County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 89143,
+        "population_2020" : 89143,
+        "population_2027" : 91509,
+        "land_area_2020" : 6.9
+    },
+    "Newton, Middlesex, MA" : {
+        "name" : "Newton",
+        "state" : "Massachusetts",
+        "FIPS" : "25-45560",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "City",
+        "population_2010" : 88923,
+        "population_2020" : 88923,
+        "population_2027" : 91284,
+        "land_area_2020" : 17.8
+    },
+    "Somerville, Middlesex, MA" : {
+        "name" : "Somerville",
+        "state" : "Massachusetts",
+        "FIPS" : "25-62535",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "City",
+        "population_2010" : 81045,
+        "population_2020" : 81045,
+        "population_2027" : 83197,
+        "land_area_2020" : 4.1
+    },
+    "Framingham, Middlesex, MA" : {
+        "name" : "Framingham",
+        "state" : "Massachusetts",
+        "FIPS" : "25-24960",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "City",
+        "population_2010" : 72362,
+        "population_2020" : 72362,
+        "population_2027" : 74283,
+        "land_area_2020" : 25.0
+    },
+    "Haverhill, Essex, MA" : {
+        "name" : "Haverhill",
+        "state" : "Massachusetts",
+        "FIPS" : "25-29405",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "City",
+        "population_2010" : 67787,
+        "population_2020" : 67787,
+        "population_2027" : 69587,
+        "land_area_2020" : 33.0
+    },
+    "Malden, Middlesex, MA" : {
+        "name" : "Malden",
+        "state" : "Massachusetts",
+        "FIPS" : "25-37875",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "City",
+        "population_2010" : 66263,
+        "population_2020" : 66263,
+        "population_2027" : 68022,
+        "land_area_2020" : 5.0
+    },
+    "Waltham, Middlesex, MA" : {
+        "name" : "Waltham",
+        "state" : "Massachusetts",
+        "FIPS" : "25-72600",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "City",
+        "population_2010" : 65218,
+        "population_2020" : 65218,
+        "population_2027" : 66949,
+        "land_area_2020" : 12.7
+    },
+    "Brookline, Norfolk, MA" : {
+        "name" : "Brookline",
+        "state" : "Massachusetts",
+        "FIPS" : "25-09210",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 63191,
+        "population_2020" : 63191,
+        "population_2027" : 64869,
+        "land_area_2020" : 6.8
+    },
+    "Revere, Suffolk, MA" : {
+        "name" : "Revere",
+        "state" : "Massachusetts",
+        "FIPS" : "25-56585",
+        "counties" : [
+            "Suffolk"
+        ],
+        "type_class" : "City",
+        "population_2010" : 62186,
+        "population_2020" : 62186,
+        "population_2027" : 63837,
+        "land_area_2020" : 5.7
+    },
+    "Plymouth, Plymouth (seat), MA" : {
+        "name" : "Plymouth",
+        "state" : "Massachusetts",
+        "FIPS" : "25-54275",
+        "counties" : [
+            "Plymouth (seat)"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 61217,
+        "population_2020" : 61217,
+        "population_2027" : 62842,
+        "land_area_2020" : 96.5
+    },
+    "Medford, Middlesex, MA" : {
+        "name" : "Medford",
+        "state" : "Massachusetts",
+        "FIPS" : "25-39835",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "City",
+        "population_2010" : 59659,
+        "population_2020" : 59659,
+        "population_2027" : 61243,
+        "land_area_2020" : 8.1
+    },
+    "Taunton, Bristol County, MA" : {
+        "name" : "Taunton",
+        "state" : "Massachusetts",
+        "FIPS" : "25-69170",
+        "counties" : [
+            "Bristol County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 59408,
+        "population_2020" : 59408,
+        "population_2027" : 60985,
+        "land_area_2020" : 46.7
+    },
+    "Weymouth, Norfolk, MA" : {
+        "name" : "Weymouth",
+        "state" : "Massachusetts",
+        "FIPS" : "25-78972",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "City",
+        "population_2010" : 57437,
+        "population_2020" : 57437,
+        "population_2027" : 58962,
+        "land_area_2020" : 16.8
+    },
+    "Chicopee, Hampden, MA" : {
+        "name" : "Chicopee",
+        "state" : "Massachusetts",
+        "FIPS" : "25-13660",
+        "counties" : [
+            "Hampden"
+        ],
+        "type_class" : "City",
+        "population_2010" : 55560,
+        "population_2020" : 55560,
+        "population_2027" : 57035,
+        "land_area_2020" : 22.9
+    },
+    "Peabody, Essex, MA" : {
+        "name" : "Peabody",
+        "state" : "Massachusetts",
+        "FIPS" : "25-52490",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "City",
+        "population_2010" : 54481,
+        "population_2020" : 54481,
+        "population_2027" : 55927,
+        "land_area_2020" : 16.2
+    },
+    "Methuen, Essex, MA" : {
+        "name" : "Methuen",
+        "state" : "Massachusetts",
+        "FIPS" : "25-40710",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "City",
+        "population_2010" : 53039,
+        "population_2020" : 53039,
+        "population_2027" : 54447,
+        "land_area_2020" : 22.2
+    },
+    "Everett, Middlesex, MA" : {
+        "name" : "Everett",
+        "state" : "Massachusetts",
+        "FIPS" : "25-21990",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "City",
+        "population_2010" : 49075,
+        "population_2020" : 49075,
+        "population_2027" : 50378,
+        "land_area_2020" : 3.4
+    },
+    "Barnstable, Barnstable County, MA" : {
+        "name" : "Barnstable",
+        "state" : "Massachusetts",
+        "FIPS" : "25-03690",
+        "counties" : [
+            "Barnstable County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 48916,
+        "population_2020" : 48916,
+        "population_2027" : 50215,
+        "land_area_2020" : 59.3
+    },
+    "Attleboro, Bristol, MA" : {
+        "name" : "Attleboro",
+        "state" : "Massachusetts",
+        "FIPS" : "25-02690",
+        "counties" : [
+            "Bristol"
+        ],
+        "type_class" : "City",
+        "population_2010" : 46461,
+        "population_2020" : 46461,
+        "population_2027" : 47694,
+        "land_area_2020" : 26.8
+    },
+    "Arlington, Middlesex, MA" : {
+        "name" : "Arlington",
+        "state" : "Massachusetts",
+        "FIPS" : "25-01640",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 46308,
+        "population_2020" : 46308,
+        "population_2027" : 47537,
+        "land_area_2020" : 5.0
+    },
+    "Salem, Essex (seat), MA" : {
+        "name" : "Salem",
+        "state" : "Massachusetts",
+        "FIPS" : "25-59105",
+        "counties" : [
+            "Essex (seat)"
+        ],
+        "type_class" : "City",
+        "population_2010" : 44480,
+        "population_2020" : 44480,
+        "population_2027" : 45661,
+        "land_area_2020" : 8.3
+    },
+    "Pittsfield, Berkshire County, MA" : {
+        "name" : "Pittsfield",
+        "state" : "Massachusetts",
+        "FIPS" : "25-53960",
+        "counties" : [
+            "Berkshire County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 43927,
+        "population_2020" : 43927,
+        "population_2027" : 45093,
+        "land_area_2020" : 40.5
+    },
+    "Leominster, Worcester, MA" : {
+        "name" : "Leominster",
+        "state" : "Massachusetts",
+        "FIPS" : "25-35075",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "City",
+        "population_2010" : 43782,
+        "population_2020" : 43782,
+        "population_2027" : 44944,
+        "land_area_2020" : 28.9
+    },
+    "Beverly, Essex, MA" : {
+        "name" : "Beverly",
+        "state" : "Massachusetts",
+        "FIPS" : "25-05595",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "City",
+        "population_2010" : 42670,
+        "population_2020" : 42670,
+        "population_2027" : 43803,
+        "land_area_2020" : 15.1
+    },
+    "Billerica, Middlesex, MA" : {
+        "name" : "Billerica",
+        "state" : "Massachusetts",
+        "FIPS" : "25-05805",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 42119,
+        "population_2020" : 42119,
+        "population_2027" : 43237,
+        "land_area_2020" : 25.9
+    },
+    "Fitchburg, Worcester, MA" : {
+        "name" : "Fitchburg",
+        "state" : "Massachusetts",
+        "FIPS" : "25-23875",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "City",
+        "population_2010" : 41946,
+        "population_2020" : 41946,
+        "population_2027" : 43060,
+        "land_area_2020" : 27.8
+    },
+    "Marlborough, Middlesex, MA" : {
+        "name" : "Marlborough",
+        "state" : "Massachusetts",
+        "FIPS" : "25-38715",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "City",
+        "population_2010" : 41793,
+        "population_2020" : 41793,
+        "population_2027" : 42902,
+        "land_area_2020" : 20.9
+    },
+    "Woburn, Middlesex, MA" : {
+        "name" : "Woburn",
+        "state" : "Massachusetts",
+        "FIPS" : "25-81035",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "City",
+        "population_2010" : 40876,
+        "population_2020" : 40876,
+        "population_2027" : 41961,
+        "land_area_2020" : 12.7
+    },
+    "Westfield, Hampden, MA" : {
+        "name" : "Westfield",
+        "state" : "Massachusetts",
+        "FIPS" : "25-76030",
+        "counties" : [
+            "Hampden"
+        ],
+        "type_class" : "City",
+        "population_2010" : 40834,
+        "population_2020" : 40834,
+        "population_2027" : 41918,
+        "land_area_2020" : 46.3
+    },
+    "Chelsea, Suffolk, MA" : {
+        "name" : "Chelsea",
+        "state" : "Massachusetts",
+        "FIPS" : "25-13205",
+        "counties" : [
+            "Suffolk"
+        ],
+        "type_class" : "City",
+        "population_2010" : 40787,
+        "population_2020" : 40787,
+        "population_2027" : 41870,
+        "land_area_2020" : 2.2
+    },
+    "Amherst, Hampshire, MA" : {
+        "name" : "Amherst",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampshire"
+        ],
+        "type_class" : "City",
+        "population_2010" : 39263,
+        "population_2020" : 39263,
+        "population_2027" : 40305,
+        "land_area_2020" : 27.6
+    },
+    "Braintree, Norfolk, MA" : {
+        "name" : "Braintree",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "City",
+        "population_2010" : 39143,
+        "population_2020" : 39143,
+        "population_2027" : 40182,
+        "land_area_2020" : 13.8
+    },
+    "Shrewsbury, Worcester, MA" : {
+        "name" : "Shrewsbury",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 38325,
+        "population_2020" : 38325,
+        "population_2027" : 39342,
+        "land_area_2020" : 20.7
+    },
+    "Holyoke, Hampden, MA" : {
+        "name" : "Holyoke",
+        "state" : "Massachusetts",
+        "FIPS" : "25-30840",
+        "counties" : [
+            "Hampden"
+        ],
+        "type_class" : "City",
+        "population_2010" : 38238,
+        "population_2020" : 38238,
+        "population_2027" : 39253,
+        "land_area_2020" : 21.2
+    },
+    "Natick, Middlesex, MA" : {
+        "name" : "Natick",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 37006,
+        "population_2020" : 37006,
+        "population_2027" : 37988,
+        "land_area_2020" : 15.1
+    },
+    "Andover, Essex, MA" : {
+        "name" : "Andover",
+        "state" : "Massachusetts",
+        "FIPS" : "25-01430",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 36569,
+        "population_2020" : 36569,
+        "population_2027" : 37540,
+        "land_area_2020" : 31.0
+    },
+    "Chelmsford, Middlesex, MA" : {
+        "name" : "Chelmsford",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 36392,
+        "population_2020" : 36392,
+        "population_2027" : 37358,
+        "land_area_2020" : 22.7
+    },
+    "Watertown, Middlesex, MA" : {
+        "name" : "Watertown",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "City",
+        "population_2010" : 35329,
+        "population_2020" : 35329,
+        "population_2027" : 36267,
+        "land_area_2020" : 4.0
+    },
+    "Randolph, Norfolk, MA" : {
+        "name" : "Randolph",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "City",
+        "population_2010" : 34984,
+        "population_2020" : 34984,
+        "population_2027" : 35913,
+        "land_area_2020" : 10.1
+    },
+    "Lexington, Middlesex, MA" : {
+        "name" : "Lexington",
+        "state" : "Massachusetts",
+        "FIPS" : "25-35250",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 34454,
+        "population_2020" : 34454,
+        "population_2027" : 35369,
+        "land_area_2020" : 16.4
+    },
+    "Dartmouth, Bristol, MA" : {
+        "name" : "Dartmouth",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Bristol"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 33783,
+        "population_2020" : 33783,
+        "population_2027" : 34680,
+        "land_area_2020" : 60.9
+    },
+    "Franklin, Norfolk, MA" : {
+        "name" : "Franklin",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "City",
+        "population_2010" : 33261,
+        "population_2020" : 33261,
+        "population_2027" : 34144,
+        "land_area_2020" : 26.6
+    },
+    "Dracut, Middlesex, MA" : {
+        "name" : "Dracut",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 32617,
+        "population_2020" : 32617,
+        "population_2027" : 33483,
+        "land_area_2020" : 20.9
+    },
+    "Falmouth, Barnstable, MA" : {
+        "name" : "Falmouth",
+        "state" : "Massachusetts",
+        "FIPS" : "25-23070",
+        "counties" : [
+            "Barnstable"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 32517,
+        "population_2020" : 32517,
+        "population_2027" : 33380,
+        "land_area_2020" : 44.1
+    },
+    "Needham, Norfolk, MA" : {
+        "name" : "Needham",
+        "state" : "Massachusetts",
+        "FIPS" : "25-44140",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 32091,
+        "population_2020" : 32091,
+        "population_2027" : 32943,
+        "land_area_2020" : 12.6
+    },
+    "Norwood, Norfolk, MA" : {
+        "name" : "Norwood",
+        "state" : "Massachusetts",
+        "FIPS" : "25-50285",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 31611,
+        "population_2020" : 31611,
+        "population_2027" : 32450,
+        "land_area_2020" : 10.5
+    },
+    "Tewksbury, Middlesex, MA" : {
+        "name" : "Tewksbury",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 31342,
+        "population_2020" : 31342,
+        "population_2027" : 32174,
+        "land_area_2020" : 20.7
+    },
+    "North Andover, Essex, MA" : {
+        "name" : "North Andover",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 30915,
+        "population_2020" : 30915,
+        "population_2027" : 31736,
+        "land_area_2020" : 26.3
+    },
+    "North Attleborough, Bristol, MA" : {
+        "name" : "North Attleborough",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Bristol"
+        ],
+        "type_class" : "City",
+        "population_2010" : 30834,
+        "population_2020" : 30834,
+        "population_2027" : 31653,
+        "land_area_2020" : 18.6
+    },
+    "Milford, Worcester, MA" : {
+        "name" : "Milford",
+        "state" : "Massachusetts",
+        "FIPS" : "25-41200",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 30379,
+        "population_2020" : 30379,
+        "population_2027" : 31185,
+        "land_area_2020" : 14.6
+    },
+    "Melrose, Middlesex, MA" : {
+        "name" : "Melrose",
+        "state" : "Massachusetts",
+        "FIPS" : "25-40115",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "City",
+        "population_2010" : 29817,
+        "population_2020" : 29817,
+        "population_2027" : 30609,
+        "land_area_2020" : 4.7
+    },
+    "Gloucester, Essex, MA" : {
+        "name" : "Gloucester",
+        "state" : "Massachusetts",
+        "FIPS" : "25-26150",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "City",
+        "population_2010" : 29729,
+        "population_2020" : 29729,
+        "population_2027" : 30518,
+        "land_area_2020" : 26.2
+    },
+    "Northampton, Hampshire County, MA" : {
+        "name" : "Northampton",
+        "state" : "Massachusetts",
+        "FIPS" : "25-46330",
+        "counties" : [
+            "Hampshire County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 29571,
+        "population_2020" : 29571,
+        "population_2027" : 30356,
+        "land_area_2020" : 34.2
+    },
+    "Wellesley, Norfolk, MA" : {
+        "name" : "Wellesley",
+        "state" : "Massachusetts",
+        "FIPS" : "25-74210",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 29550,
+        "population_2020" : 29550,
+        "population_2027" : 30334,
+        "land_area_2020" : 10.2
+    },
+    "Stoughton, Norfolk, MA" : {
+        "name" : "Stoughton",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 29281,
+        "population_2020" : 29281,
+        "population_2027" : 30058,
+        "land_area_2020" : 16.0
+    },
+    "West Springfield, Hampden, MA" : {
+        "name" : "West Springfield",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampden"
+        ],
+        "type_class" : "City",
+        "population_2010" : 28835,
+        "population_2020" : 28835,
+        "population_2027" : 29600,
+        "land_area_2020" : 16.7
+    },
+    "Agawam, Hampden, MA" : {
+        "name" : "Agawam",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampden"
+        ],
+        "type_class" : "City",
+        "population_2010" : 28692,
+        "population_2020" : 28692,
+        "population_2027" : 29454,
+        "land_area_2020" : 23.3
+    },
+    "Bridgewater, Plymouth, MA" : {
+        "name" : "Bridgewater",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "City",
+        "population_2010" : 28633,
+        "population_2020" : 28633,
+        "population_2027" : 29393,
+        "land_area_2020" : 27.5
+    },
+    "Milton, Norfolk, MA" : {
+        "name" : "Milton",
+        "state" : "Massachusetts",
+        "FIPS" : "25-41725",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 28630,
+        "population_2020" : 28630,
+        "population_2027" : 29390,
+        "land_area_2020" : 13.0
+    },
+    "Saugus, Essex, MA" : {
+        "name" : "Saugus",
+        "state" : "Massachusetts",
+        "FIPS" : "25-60050",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 28619,
+        "population_2020" : 28619,
+        "population_2027" : 29379,
+        "land_area_2020" : 10.8
+    },
+    "Danvers, Essex, MA" : {
+        "name" : "Danvers",
+        "state" : "Massachusetts",
+        "FIPS" : "25-16285",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 28087,
+        "population_2020" : 28087,
+        "population_2027" : 28833,
+        "land_area_2020" : 13.3
+    },
+    "Belmont, Middlesex, MA" : {
+        "name" : "Belmont",
+        "state" : "Massachusetts",
+        "FIPS" : "25-05105",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 27295,
+        "population_2020" : 27295,
+        "population_2027" : 28020,
+        "land_area_2020" : 4.7
+    },
+    "Wakefield, Middlesex, MA" : {
+        "name" : "Wakefield",
+        "state" : "Massachusetts",
+        "FIPS" : "25-72250",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 27090,
+        "population_2020" : 27090,
+        "population_2027" : 27809,
+        "land_area_2020" : 7.5
+    },
+    "Walpole, Norfolk, MA" : {
+        "name" : "Walpole",
+        "state" : "Massachusetts",
+        "FIPS" : "25-72460",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 26383,
+        "population_2020" : 26383,
+        "population_2027" : 27083,
+        "land_area_2020" : 20.5
+    },
+    "Burlington, Middlesex, MA" : {
+        "name" : "Burlington",
+        "state" : "Massachusetts",
+        "FIPS" : "25-09875",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 26377,
+        "population_2020" : 26377,
+        "population_2027" : 27077,
+        "land_area_2020" : 11.8
+    },
+    "Marshfield, Plymouth, MA" : {
+        "name" : "Marshfield",
+        "state" : "Massachusetts",
+        "FIPS" : "25-38820",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 25825,
+        "population_2020" : 25825,
+        "population_2027" : 26511,
+        "land_area_2020" : 28.5
+    },
+    "Reading, Middlesex, MA" : {
+        "name" : "Reading",
+        "state" : "Massachusetts",
+        "FIPS" : "25-56165",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 25518,
+        "population_2020" : 25518,
+        "population_2027" : 26195,
+        "land_area_2020" : 9.9
+    },
+    "Dedham, Norfolk County, MA" : {
+        "name" : "Dedham",
+        "state" : "Massachusetts",
+        "FIPS" : "25-16530",
+        "counties" : [
+            "Norfolk County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 25364,
+        "population_2020" : 25364,
+        "population_2027" : 26037,
+        "land_area_2020" : 10.5
+    },
+    "Easton, Bristol, MA" : {
+        "name" : "Easton",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Bristol"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 25058,
+        "population_2020" : 25058,
+        "population_2027" : 25723,
+        "land_area_2020" : 28.4
+    },
+    "Yarmouth, Barnstable, MA" : {
+        "name" : "Yarmouth",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Barnstable"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 25023,
+        "population_2020" : 25023,
+        "population_2027" : 25687,
+        "land_area_2020" : 24.1
+    },
+    "Westford, Middlesex, MA" : {
+        "name" : "Westford",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 24643,
+        "population_2020" : 24643,
+        "population_2027" : 25297,
+        "land_area_2020" : 30.6
+    },
+    "Canton, Norfolk, MA" : {
+        "name" : "Canton",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 24370,
+        "population_2020" : 24370,
+        "population_2027" : 25017,
+        "land_area_2020" : 18.9
+    },
+    "Hingham, Plymouth, MA" : {
+        "name" : "Hingham",
+        "state" : "Massachusetts",
+        "FIPS" : "25-30175",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 24284,
+        "population_2020" : 24284,
+        "population_2027" : 24929,
+        "land_area_2020" : 22.2
+    },
+    "Middleborough, Plymouth, MA" : {
+        "name" : "Middleborough",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 24245,
+        "population_2020" : 24245,
+        "population_2027" : 24889,
+        "land_area_2020" : 69.1
+    },
+    "Acton, Middlesex, MA" : {
+        "name" : "Acton",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 24021,
+        "population_2020" : 24021,
+        "population_2027" : 24659,
+        "land_area_2020" : 20.0
+    },
+    "Mansfield, Bristol, MA" : {
+        "name" : "Mansfield",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Bristol"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 23860,
+        "population_2020" : 23860,
+        "population_2027" : 24493,
+        "land_area_2020" : 20.5
+    },
+    "Wilmington, Middlesex, MA" : {
+        "name" : "Wilmington",
+        "state" : "Massachusetts",
+        "FIPS" : "25-80195",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 23349,
+        "population_2020" : 23349,
+        "population_2027" : 23969,
+        "land_area_2020" : 17.1
+    },
+    "Wareham, Plymouth, MA" : {
+        "name" : "Wareham",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 23303,
+        "population_2020" : 23303,
+        "population_2027" : 23922,
+        "land_area_2020" : 35.8
+    },
+    "Stoneham, Middlesex, MA" : {
+        "name" : "Stoneham",
+        "state" : "Massachusetts",
+        "FIPS" : "25-67700",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 23244,
+        "population_2020" : 23244,
+        "population_2027" : 23861,
+        "land_area_2020" : 6.2
+    },
+    "Winchester, Middlesex, MA" : {
+        "name" : "Winchester",
+        "state" : "Massachusetts",
+        "FIPS" : "25-80545",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 22970,
+        "population_2020" : 22970,
+        "population_2027" : 23580,
+        "land_area_2020" : 6.0
+    },
+    "Westborough, Worcester, MA" : {
+        "name" : "Westborough",
+        "state" : "Massachusetts",
+        "FIPS" : "25-75050",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 21567,
+        "population_2020" : 21567,
+        "population_2027" : 22140,
+        "land_area_2020" : 20.5
+    },
+    "Gardner, Worcester, MA" : {
+        "name" : "Gardner",
+        "state" : "Massachusetts",
+        "FIPS" : "25-25485",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "City",
+        "population_2010" : 21287,
+        "population_2020" : 21287,
+        "population_2027" : 21852,
+        "land_area_2020" : 22.1
+    },
+    "Ludlow, Hampden, MA" : {
+        "name" : "Ludlow",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 21002,
+        "population_2020" : 21002,
+        "population_2027" : 21560,
+        "land_area_2020" : 27.2
+    },
+    "Bourne, Barnstable, MA" : {
+        "name" : "Bourne",
+        "state" : "Massachusetts",
+        "FIPS" : "25-07140",
+        "counties" : [
+            "Barnstable"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 20452,
+        "population_2020" : 20452,
+        "population_2027" : 20995,
+        "land_area_2020" : 40.7
+    },
+    "Marblehead, Essex, MA" : {
+        "name" : "Marblehead",
+        "state" : "Massachusetts",
+        "FIPS" : "25-38435",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 20441,
+        "population_2020" : 20441,
+        "population_2027" : 20984,
+        "land_area_2020" : 4.4
+    },
+    "Sandwich, Barnstable, MA" : {
+        "name" : "Sandwich",
+        "state" : "Massachusetts",
+        "FIPS" : "25-59700",
+        "counties" : [
+            "Barnstable"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 20259,
+        "population_2020" : 20259,
+        "population_2027" : 20797,
+        "land_area_2020" : 42.7
+    },
+    "Hudson, Middlesex, MA" : {
+        "name" : "Hudson",
+        "state" : "Massachusetts",
+        "FIPS" : "25-31575",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 20092,
+        "population_2020" : 20092,
+        "population_2027" : 20625,
+        "land_area_2020" : 11.5
+    },
+    "Holden, Worcester, MA" : {
+        "name" : "Holden",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 19905,
+        "population_2020" : 19905,
+        "population_2027" : 20433,
+        "land_area_2020" : 35.0
+    },
+    "Grafton, Worcester, MA" : {
+        "name" : "Grafton",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 19664,
+        "population_2020" : 19664,
+        "population_2027" : 20186,
+        "land_area_2020" : 22.7
+    },
+    "Winthrop, Suffolk, MA" : {
+        "name" : "Winthrop",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Suffolk"
+        ],
+        "type_class" : "City",
+        "population_2010" : 19316,
+        "population_2020" : 19316,
+        "population_2027" : 19829,
+        "land_area_2020" : 2.0
+    },
+    "Norton, Bristol, MA" : {
+        "name" : "Norton",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Bristol"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 19202,
+        "population_2020" : 19202,
+        "population_2027" : 19712,
+        "land_area_2020" : 28.7
+    },
+    "Scituate, Plymouth, MA" : {
+        "name" : "Scituate",
+        "state" : "Massachusetts",
+        "FIPS" : "25-60295",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 19063,
+        "population_2020" : 19063,
+        "population_2027" : 19569,
+        "land_area_2020" : 17.6
+    },
+    "Sudbury, Middlesex, MA" : {
+        "name" : "Sudbury",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 18934,
+        "population_2020" : 18934,
+        "population_2027" : 19437,
+        "land_area_2020" : 24.4
+    },
+    "Ashland, Middlesex, MA" : {
+        "name" : "Ashland",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 18832,
+        "population_2020" : 18832,
+        "population_2027" : 19332,
+        "land_area_2020" : 12.4
+    },
+    "Hopkinton, Middlesex, MA" : {
+        "name" : "Hopkinton",
+        "state" : "Massachusetts",
+        "FIPS" : "25-31050",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 18758,
+        "population_2020" : 18758,
+        "population_2027" : 19256,
+        "land_area_2020" : 26.6
+    },
+    "Foxborough, Norfolk, MA" : {
+        "name" : "Foxborough",
+        "state" : "Massachusetts",
+        "FIPS" : "25-24855",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 18618,
+        "population_2020" : 18618,
+        "population_2027" : 19112,
+        "land_area_2020" : 20.1
+    },
+    "Sharon, Norfolk, MA" : {
+        "name" : "Sharon",
+        "state" : "Massachusetts",
+        "FIPS" : "25-60820",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 18575,
+        "population_2020" : 18575,
+        "population_2027" : 19068,
+        "land_area_2020" : 23.3
+    },
+    "Concord, Middlesex, MA" : {
+        "name" : "Concord",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 18491,
+        "population_2020" : 18491,
+        "population_2027" : 18982,
+        "land_area_2020" : 24.9
+    },
+    "Pembroke, Plymouth, MA" : {
+        "name" : "Pembroke",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 18361,
+        "population_2020" : 18361,
+        "population_2027" : 18848,
+        "land_area_2020" : 21.8
+    },
+    "Somerset, Bristol, MA" : {
+        "name" : "Somerset",
+        "state" : "Massachusetts",
+        "FIPS" : "25-62465",
+        "counties" : [
+            "Bristol"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 18303,
+        "population_2020" : 18303,
+        "population_2027" : 18789,
+        "land_area_2020" : 8.1
+    },
+    "Newburyport, Essex, MA" : {
+        "name" : "Newburyport",
+        "state" : "Massachusetts",
+        "FIPS" : "25-45245",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "City",
+        "population_2010" : 18289,
+        "population_2020" : 18289,
+        "population_2027" : 18775,
+        "land_area_2020" : 8.3
+    },
+    "South Hadley, Hampshire, MA" : {
+        "name" : "South Hadley",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 18150,
+        "population_2020" : 18150,
+        "population_2027" : 18632,
+        "land_area_2020" : 17.7
+    },
+    "Rockland, Plymouth, MA" : {
+        "name" : "Rockland",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 17803,
+        "population_2020" : 17803,
+        "population_2027" : 18276,
+        "land_area_2020" : 10.0
+    },
+    "Webster, Worcester, MA" : {
+        "name" : "Webster",
+        "state" : "Massachusetts",
+        "FIPS" : "25-73930",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 17776,
+        "population_2020" : 17776,
+        "population_2027" : 18248,
+        "land_area_2020" : 12.5
+    },
+    "Greenfield, Franklin County, MA" : {
+        "name" : "Greenfield",
+        "state" : "Massachusetts",
+        "FIPS" : "25-27060",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 17768,
+        "population_2020" : 17768,
+        "population_2027" : 18240,
+        "land_area_2020" : 21.4
+    },
+    "Southbridge, Worcester, MA" : {
+        "name" : "Southbridge",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "City",
+        "population_2010" : 17740,
+        "population_2020" : 17740,
+        "population_2027" : 18211,
+        "land_area_2020" : 20.2
+    },
+    "Amesbury, Essex, MA" : {
+        "name" : "Amesbury",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "City",
+        "population_2010" : 17366,
+        "population_2020" : 17366,
+        "population_2027" : 17827,
+        "land_area_2020" : 12.3
+    },
+    "Swansea, Bristol, MA" : {
+        "name" : "Swansea",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Bristol"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 17144,
+        "population_2020" : 17144,
+        "population_2027" : 17599,
+        "land_area_2020" : 23.1
+    },
+    "Abington, Plymouth, MA" : {
+        "name" : "Abington",
+        "state" : "Massachusetts",
+        "FIPS" : "25-00135",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 17062,
+        "population_2020" : 17062,
+        "population_2027" : 17515,
+        "land_area_2020" : 9.7
+    },
+    "Bellingham, Norfolk, MA" : {
+        "name" : "Bellingham",
+        "state" : "Massachusetts",
+        "FIPS" : "25-04965",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 16945,
+        "population_2020" : 16945,
+        "population_2027" : 17395,
+        "land_area_2020" : 18.5
+    },
+    "Auburn, Worcester, MA" : {
+        "name" : "Auburn",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 16889,
+        "population_2020" : 16889,
+        "population_2027" : 17337,
+        "land_area_2020" : 15.4
+    },
+    "East Longmeadow, Hampden, MA" : {
+        "name" : "East Longmeadow",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampden"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16430,
+        "population_2020" : 16430,
+        "population_2027" : 16866,
+        "land_area_2020" : 13.0
+    },
+    "Westport, Bristol, MA" : {
+        "name" : "Westport",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Bristol"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 16339,
+        "population_2020" : 16339,
+        "population_2027" : 16773,
+        "land_area_2020" : 50.1
+    },
+    "Northbridge, Worcester, MA" : {
+        "name" : "Northbridge",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 16335,
+        "population_2020" : 16335,
+        "population_2027" : 16769,
+        "land_area_2020" : 17.2
+    },
+    "Westwood, Norfolk, MA" : {
+        "name" : "Westwood",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 16266,
+        "population_2020" : 16266,
+        "population_2027" : 16698,
+        "land_area_2020" : 11.0
+    },
+    "Easthampton, Hampshire, MA" : {
+        "name" : "Easthampton",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampshire"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16211,
+        "population_2020" : 16211,
+        "population_2027" : 16641,
+        "land_area_2020" : 13.3
+    },
+    "Duxbury, Plymouth, MA" : {
+        "name" : "Duxbury",
+        "state" : "Massachusetts",
+        "FIPS" : "25-17860",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 16090,
+        "population_2020" : 16090,
+        "population_2027" : 16517,
+        "land_area_2020" : 23.8
+    },
+    "Fairhaven, Bristol, MA" : {
+        "name" : "Fairhaven",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Bristol"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 15924,
+        "population_2020" : 15924,
+        "population_2027" : 16347,
+        "land_area_2020" : 12.4
+    },
+    "Longmeadow, Hampden, MA" : {
+        "name" : "Longmeadow",
+        "state" : "Massachusetts",
+        "FIPS" : "25-36335",
+        "counties" : [
+            "Hampden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 15853,
+        "population_2020" : 15853,
+        "population_2027" : 16274,
+        "land_area_2020" : 9.1
+    },
+    "Northborough, Worcester, MA" : {
+        "name" : "Northborough",
+        "state" : "Massachusetts",
+        "FIPS" : "25-46785",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 15741,
+        "population_2020" : 15741,
+        "population_2027" : 16159,
+        "land_area_2020" : 18.5
+    },
+    "North Reading, Middlesex, MA" : {
+        "name" : "North Reading",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 15554,
+        "population_2020" : 15554,
+        "population_2027" : 15967,
+        "land_area_2020" : 13.3
+    },
+    "Seekonk, Bristol, MA" : {
+        "name" : "Seekonk",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Bristol"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 15531,
+        "population_2020" : 15531,
+        "population_2027" : 15943,
+        "land_area_2020" : 18.2
+    },
+    "Clinton, Worcester, MA" : {
+        "name" : "Clinton",
+        "state" : "Massachusetts",
+        "FIPS" : "25-14430",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 15428,
+        "population_2020" : 15428,
+        "population_2027" : 15838,
+        "land_area_2020" : 5.7
+    },
+    "Belchertown, Hampshire, MA" : {
+        "name" : "Belchertown",
+        "state" : "Massachusetts",
+        "FIPS" : "25-04790",
+        "counties" : [
+            "Hampshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 15350,
+        "population_2020" : 15350,
+        "population_2027" : 15757,
+        "land_area_2020" : 52.7
+    },
+    "Raynham, Bristol, MA" : {
+        "name" : "Raynham",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Bristol"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 15142,
+        "population_2020" : 15142,
+        "population_2027" : 15544,
+        "land_area_2020" : 20.5
+    },
+    "Whitman, Plymouth, MA" : {
+        "name" : "Whitman",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 15121,
+        "population_2020" : 15121,
+        "population_2027" : 15522,
+        "land_area_2020" : 7.0
+    },
+    "Swampscott, Essex, MA" : {
+        "name" : "Swampscott",
+        "state" : "Massachusetts",
+        "FIPS" : "25-68680",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 15111,
+        "population_2020" : 15111,
+        "population_2027" : 15512,
+        "land_area_2020" : 3.1
+    },
+    "Mashpee, Barnstable, MA" : {
+        "name" : "Mashpee",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Barnstable"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 15060,
+        "population_2020" : 15060,
+        "population_2027" : 15460,
+        "land_area_2020" : 23.4
+    },
+    "Holliston, Middlesex, MA" : {
+        "name" : "Holliston",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 14996,
+        "population_2020" : 14996,
+        "population_2027" : 15394,
+        "land_area_2020" : 18.7
+    },
+    "Hanover, Plymouth, MA" : {
+        "name" : "Hanover",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 14833,
+        "population_2020" : 14833,
+        "population_2027" : 15227,
+        "land_area_2020" : 15.6
+    },
+    "Dennis, Barnstable, MA" : {
+        "name" : "Dennis",
+        "state" : "Massachusetts",
+        "FIPS" : "25-16740",
+        "counties" : [
+            "Barnstable"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 14674,
+        "population_2020" : 14674,
+        "population_2027" : 15064,
+        "land_area_2020" : 20.5
+    },
+    "Wilbraham, Hampden, MA" : {
+        "name" : "Wilbraham",
+        "state" : "Massachusetts",
+        "FIPS" : "25-79705",
+        "counties" : [
+            "Hampden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 14613,
+        "population_2020" : 14613,
+        "population_2027" : 15001,
+        "land_area_2020" : 22.2
+    },
+    "East Bridgewater, Plymouth, MA" : {
+        "name" : "East Bridgewater",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 14440,
+        "population_2020" : 14440,
+        "population_2027" : 14823,
+        "land_area_2020" : 17.2
+    },
+    "Bedford, Middlesex, MA" : {
+        "name" : "Bedford",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 14383,
+        "population_2020" : 14383,
+        "population_2027" : 14765,
+        "land_area_2020" : 13.7
+    },
+    "Nantucket, Nantucket County, MA" : {
+        "name" : "Nantucket",
+        "state" : "Massachusetts",
+        "FIPS" : "25-43755",
+        "counties" : [
+            "Nantucket County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 14255,
+        "population_2020" : 14255,
+        "population_2027" : 14633,
+        "land_area_2020" : 47.8
+    },
+    "Uxbridge, Worcester, MA" : {
+        "name" : "Uxbridge",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 14162,
+        "population_2020" : 14162,
+        "population_2027" : 14538,
+        "land_area_2020" : 29.5
+    },
+    "Wayland, Middlesex, MA" : {
+        "name" : "Wayland",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 13943,
+        "population_2020" : 13943,
+        "population_2027" : 14313,
+        "land_area_2020" : 15.2
+    },
+    "Millbury, Worcester, MA" : {
+        "name" : "Millbury",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 13831,
+        "population_2020" : 13831,
+        "population_2027" : 14198,
+        "land_area_2020" : 15.7
+    },
+    "Ipswich, Essex, MA" : {
+        "name" : "Ipswich",
+        "state" : "Massachusetts",
+        "FIPS" : "25-32275",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 13785,
+        "population_2020" : 13785,
+        "population_2027" : 14151,
+        "land_area_2020" : 32.1
+    },
+    "Kingston, Plymouth, MA" : {
+        "name" : "Kingston",
+        "state" : "Massachusetts",
+        "FIPS" : "25-33185",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 13708,
+        "population_2020" : 13708,
+        "population_2027" : 14072,
+        "land_area_2020" : 18.6
+    },
+    "Harwich, Barnstable, MA" : {
+        "name" : "Harwich",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Barnstable"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 13440,
+        "population_2020" : 13440,
+        "population_2027" : 13797,
+        "land_area_2020" : 20.9
+    },
+    "Oxford, Worcester, MA" : {
+        "name" : "Oxford",
+        "state" : "Massachusetts",
+        "FIPS" : "25-51790",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 13347,
+        "population_2020" : 13347,
+        "population_2027" : 13701,
+        "land_area_2020" : 26.6
+    },
+    "Charlton, Worcester, MA" : {
+        "name" : "Charlton",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 13315,
+        "population_2020" : 13315,
+        "population_2027" : 13668,
+        "land_area_2020" : 42.5
+    },
+    "Medway, Norfolk, MA" : {
+        "name" : "Medway",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 13115,
+        "population_2020" : 13115,
+        "population_2027" : 13463,
+        "land_area_2020" : 11.5
+    },
+    "Lynnfield, Essex, MA" : {
+        "name" : "Lynnfield",
+        "state" : "Massachusetts",
+        "FIPS" : "25-37595",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 13000,
+        "population_2020" : 13000,
+        "population_2027" : 13345,
+        "land_area_2020" : 9.9
+    },
+    "North Adams, Berkshire, MA" : {
+        "name" : "North Adams",
+        "state" : "Massachusetts",
+        "FIPS" : "25-46225",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12961,
+        "population_2020" : 12961,
+        "population_2027" : 13305,
+        "land_area_2020" : 20.4
+    },
+    "Medfield, Norfolk, MA" : {
+        "name" : "Medfield",
+        "state" : "Massachusetts",
+        "FIPS" : "25-39730",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 12799,
+        "population_2020" : 12799,
+        "population_2027" : 13139,
+        "land_area_2020" : 14.5
+    },
+    "Rehoboth, Bristol, MA" : {
+        "name" : "Rehoboth",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Bristol"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 12502,
+        "population_2020" : 12502,
+        "population_2027" : 12834,
+        "land_area_2020" : 46.5
+    },
+    "Palmer, Hampden, MA" : {
+        "name" : "Palmer",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampden"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12448,
+        "population_2020" : 12448,
+        "population_2027" : 12778,
+        "land_area_2020" : 31.6
+    },
+    "Tyngsborough, Middlesex, MA" : {
+        "name" : "Tyngsborough",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 12380,
+        "population_2020" : 12380,
+        "population_2027" : 12709,
+        "land_area_2020" : 16.9
+    },
+    "Wrentham, Norfolk, MA" : {
+        "name" : "Wrentham",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 12178,
+        "population_2020" : 12178,
+        "population_2027" : 12501,
+        "land_area_2020" : 22.2
+    },
+    "Spencer, Worcester, MA" : {
+        "name" : "Spencer",
+        "state" : "Massachusetts",
+        "FIPS" : "25-66070",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 11992,
+        "population_2020" : 11992,
+        "population_2027" : 12310,
+        "land_area_2020" : 32.9
+    },
+    "Athol, Worcester, MA" : {
+        "name" : "Athol",
+        "state" : "Massachusetts",
+        "FIPS" : "25-02515",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 11945,
+        "population_2020" : 11945,
+        "population_2027" : 12262,
+        "land_area_2020" : 32.6
+    },
+    "Dudley, Worcester, MA" : {
+        "name" : "Dudley",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 11921,
+        "population_2020" : 11921,
+        "population_2027" : 12237,
+        "land_area_2020" : 21.1
+    },
+    "Weston, Middlesex, MA" : {
+        "name" : "Weston",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 11851,
+        "population_2020" : 11851,
+        "population_2027" : 12166,
+        "land_area_2020" : 17.0
+    },
+    "Lunenburg, Worcester, MA" : {
+        "name" : "Lunenburg",
+        "state" : "Massachusetts",
+        "FIPS" : "25-37385",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 11782,
+        "population_2020" : 11782,
+        "population_2027" : 12095,
+        "land_area_2020" : 26.4
+    },
+    "Norfolk, Norfolk, MA" : {
+        "name" : "Norfolk",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 11662,
+        "population_2020" : 11662,
+        "population_2027" : 11972,
+        "land_area_2020" : 14.8
+    },
+    "Carver, Plymouth, MA" : {
+        "name" : "Carver",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 11645,
+        "population_2020" : 11645,
+        "population_2027" : 11954,
+        "land_area_2020" : 37.4
+    },
+    "Pepperell, Middlesex, MA" : {
+        "name" : "Pepperell",
+        "state" : "Massachusetts",
+        "FIPS" : "25-52770",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 11604,
+        "population_2020" : 11604,
+        "population_2027" : 11912,
+        "land_area_2020" : 22.6
+    },
+    "Lakeville, Plymouth, MA" : {
+        "name" : "Lakeville",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 11523,
+        "population_2020" : 11523,
+        "population_2027" : 11829,
+        "land_area_2020" : 29.6
+    },
+    "Holbrook, Norfolk, MA" : {
+        "name" : "Holbrook",
+        "state" : "Massachusetts",
+        "FIPS" : "25-30420",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 11405,
+        "population_2020" : 11405,
+        "population_2027" : 11708,
+        "land_area_2020" : 7.4
+    },
+    "Norwell, Plymouth, MA" : {
+        "name" : "Norwell",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 11351,
+        "population_2020" : 11351,
+        "population_2027" : 11652,
+        "land_area_2020" : 20.9
+    },
+    "Groton, Middlesex, MA" : {
+        "name" : "Groton",
+        "state" : "Massachusetts",
+        "FIPS" : "25-27445",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 11315,
+        "population_2020" : 11315,
+        "population_2027" : 11615,
+        "land_area_2020" : 32.8
+    },
+    "Leicester, Worcester, MA" : {
+        "name" : "Leicester",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 11087,
+        "population_2020" : 11087,
+        "population_2027" : 11381,
+        "land_area_2020" : 23.4
+    },
+    "Maynard, Middlesex, MA" : {
+        "name" : "Maynard",
+        "state" : "Massachusetts",
+        "FIPS" : "25-39660",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 10746,
+        "population_2020" : 10746,
+        "population_2027" : 11031,
+        "land_area_2020" : 5.2
+    },
+    "Hanson, Plymouth, MA" : {
+        "name" : "Hanson",
+        "state" : "Massachusetts",
+        "FIPS" : "25-28460",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 10639,
+        "population_2020" : 10639,
+        "population_2027" : 10921,
+        "land_area_2020" : 15.0
+    },
+    "Acushnet, Bristol, MA" : {
+        "name" : "Acushnet",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Bristol"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 10559,
+        "population_2020" : 10559,
+        "population_2027" : 10839,
+        "land_area_2020" : 18.4
+    },
+    "Southborough, Worcester, MA" : {
+        "name" : "Southborough",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 10450,
+        "population_2020" : 10450,
+        "population_2027" : 10727,
+        "land_area_2020" : 14.2
+    },
+    "Winchendon, Worcester, MA" : {
+        "name" : "Winchendon",
+        "state" : "Massachusetts",
+        "FIPS" : "25-80370",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 10364,
+        "population_2020" : 10364,
+        "population_2027" : 10639,
+        "land_area_2020" : 43.3
+    },
+    "Brewster, Barnstable, MA" : {
+        "name" : "Brewster",
+        "state" : "Massachusetts",
+        "FIPS" : "25-07945",
+        "counties" : [
+            "Barnstable"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 10318,
+        "population_2020" : 10318,
+        "population_2027" : 10592,
+        "land_area_2020" : 22.9
+    },
+    "Littleton, Middlesex, MA" : {
+        "name" : "Littleton",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 10141,
+        "population_2020" : 10141,
+        "population_2027" : 10410,
+        "land_area_2020" : 16.6
+    },
+    "Hull, Plymouth, MA" : {
+        "name" : "Hull",
+        "state" : "Massachusetts",
+        "FIPS" : "25-31680",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 10072,
+        "population_2020" : 10072,
+        "population_2027" : 10339,
+        "land_area_2020" : 2.8
+    },
+    "Ware, Hampshire, MA" : {
+        "name" : "Ware",
+        "state" : "Massachusetts",
+        "FIPS" : "25-72845",
+        "counties" : [
+            "Hampshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 10066,
+        "population_2020" : 10066,
+        "population_2027" : 10333,
+        "land_area_2020" : 34.4
+    },
+    "Plainville, Norfolk, MA" : {
+        "name" : "Plainville",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9945,
+        "population_2020" : 9945,
+        "population_2027" : 10209,
+        "land_area_2020" : 11.0
+    },
+    "Sturbridge, Worcester, MA" : {
+        "name" : "Sturbridge",
+        "state" : "Massachusetts",
+        "FIPS" : "25-68120",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9867,
+        "population_2020" : 9867,
+        "population_2027" : 10129,
+        "land_area_2020" : 37.4
+    },
+    "Middleton, Essex, MA" : {
+        "name" : "Middleton",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9779,
+        "population_2020" : 9779,
+        "population_2027" : 10039,
+        "land_area_2020" : 14.0
+    },
+    "Sutton, Worcester, MA" : {
+        "name" : "Sutton",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9357,
+        "population_2020" : 9357,
+        "population_2027" : 9605,
+        "land_area_2020" : 32.4
+    },
+    "Salisbury, Essex, MA" : {
+        "name" : "Salisbury",
+        "state" : "Massachusetts",
+        "FIPS" : "25-59210",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9236,
+        "population_2020" : 9236,
+        "population_2027" : 9481,
+        "land_area_2020" : 15.4
+    },
+    "Southwick, Hampden, MA" : {
+        "name" : "Southwick",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9232,
+        "population_2020" : 9232,
+        "population_2027" : 9477,
+        "land_area_2020" : 30.8
+    },
+    "Blackstone, Worcester, MA" : {
+        "name" : "Blackstone",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9208,
+        "population_2020" : 9208,
+        "population_2027" : 9452,
+        "land_area_2020" : 10.9
+    },
+    "Freetown, Bristol, MA" : {
+        "name" : "Freetown",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Bristol"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9206,
+        "population_2020" : 9206,
+        "population_2027" : 9450,
+        "land_area_2020" : 36.6
+    },
+    "Townsend, Middlesex, MA" : {
+        "name" : "Townsend",
+        "state" : "Massachusetts",
+        "FIPS" : "25-70325",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9127,
+        "population_2020" : 9127,
+        "population_2027" : 9369,
+        "land_area_2020" : 32.9
+    },
+    "Rutland, Worcester, MA" : {
+        "name" : "Rutland",
+        "state" : "Massachusetts",
+        "FIPS" : "25-58790",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9049,
+        "population_2020" : 9049,
+        "population_2027" : 9289,
+        "land_area_2020" : 35.3
+    },
+    "Douglas, Worcester, MA" : {
+        "name" : "Douglas",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8983,
+        "population_2020" : 8983,
+        "population_2027" : 9221,
+        "land_area_2020" : 36.4
+    },
+    "Montague, Franklin, MA" : {
+        "name" : "Montague",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8580,
+        "population_2020" : 8580,
+        "population_2027" : 8808,
+        "land_area_2020" : 30.2
+    },
+    "Ayer, Middlesex, MA" : {
+        "name" : "Ayer",
+        "state" : "Massachusetts",
+        "FIPS" : "25-03040",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8479,
+        "population_2020" : 8479,
+        "population_2027" : 8704,
+        "land_area_2020" : 9.0
+    },
+    "Georgetown, Essex, MA" : {
+        "name" : "Georgetown",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8470,
+        "population_2020" : 8470,
+        "population_2027" : 8695,
+        "land_area_2020" : 12.9
+    },
+    "Millis, Norfolk, MA" : {
+        "name" : "Millis",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8460,
+        "population_2020" : 8460,
+        "population_2027" : 8685,
+        "land_area_2020" : 12.2
+    },
+    "Lancaster, Worcester, MA" : {
+        "name" : "Lancaster",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8441,
+        "population_2020" : 8441,
+        "population_2027" : 8665,
+        "land_area_2020" : 27.7
+    },
+    "Cohasset, Norfolk, MA" : {
+        "name" : "Cohasset",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8381,
+        "population_2020" : 8381,
+        "population_2027" : 8603,
+        "land_area_2020" : 9.8
+    },
+    "Westminster, Worcester, MA" : {
+        "name" : "Westminster",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8213,
+        "population_2020" : 8213,
+        "population_2027" : 8431,
+        "land_area_2020" : 35.3
+    },
+    "Boxford, Essex, MA" : {
+        "name" : "Boxford",
+        "state" : "Massachusetts",
+        "FIPS" : "25-07385",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8203,
+        "population_2020" : 8203,
+        "population_2027" : 8421,
+        "land_area_2020" : 23.6
+    },
+    "Adams, Berkshire, MA" : {
+        "name" : "Adams",
+        "state" : "Massachusetts",
+        "FIPS" : "25-00590",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8166,
+        "population_2020" : 8166,
+        "population_2027" : 8383,
+        "land_area_2020" : 22.9
+    },
+    "Monson, Hampden, MA" : {
+        "name" : "Monson",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8150,
+        "population_2020" : 8150,
+        "population_2027" : 8366,
+        "land_area_2020" : 44.1
+    },
+    "Templeton, Worcester, MA" : {
+        "name" : "Templeton",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8149,
+        "population_2020" : 8149,
+        "population_2027" : 8365,
+        "land_area_2020" : 32.0
+    },
+    "Dighton, Bristol, MA" : {
+        "name" : "Dighton",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Bristol"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8101,
+        "population_2020" : 8101,
+        "population_2027" : 8316,
+        "land_area_2020" : 22.0
+    },
+    "Upton, Worcester, MA" : {
+        "name" : "Upton",
+        "state" : "Massachusetts",
+        "FIPS" : "25-71445",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8000,
+        "population_2020" : 8000,
+        "population_2027" : 8212,
+        "land_area_2020" : 21.5
+    },
+    "Sterling, Worcester, MA" : {
+        "name" : "Sterling",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7985,
+        "population_2020" : 7985,
+        "population_2027" : 8197,
+        "land_area_2020" : 30.5
+    },
+    "West Boylston, Worcester, MA" : {
+        "name" : "West Boylston",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7877,
+        "population_2020" : 7877,
+        "population_2027" : 8086,
+        "land_area_2020" : 12.9
+    },
+    "Halifax, Plymouth, MA" : {
+        "name" : "Halifax",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7749,
+        "population_2020" : 7749,
+        "population_2027" : 7955,
+        "land_area_2020" : 16.2
+    },
+    "West Bridgewater, Plymouth, MA" : {
+        "name" : "West Bridgewater",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7707,
+        "population_2020" : 7707,
+        "population_2027" : 7912,
+        "land_area_2020" : 15.3
+    },
+    "Orange, Franklin, MA" : {
+        "name" : "Orange",
+        "state" : "Massachusetts",
+        "FIPS" : "25-51230",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7569,
+        "population_2020" : 7569,
+        "population_2027" : 7770,
+        "land_area_2020" : 35.1
+    },
+    "Hamilton, Essex, MA" : {
+        "name" : "Hamilton",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7561,
+        "population_2020" : 7561,
+        "population_2027" : 7762,
+        "land_area_2020" : 14.2
+    },
+    "Williamstown, Berkshire, MA" : {
+        "name" : "Williamstown",
+        "state" : "Massachusetts",
+        "FIPS" : "25-79950",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7513,
+        "population_2020" : 7513,
+        "population_2027" : 7712,
+        "land_area_2020" : 46.8
+    },
+    "Shirley, Middlesex, MA" : {
+        "name" : "Shirley",
+        "state" : "Massachusetts",
+        "FIPS" : "25-61555",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7431,
+        "population_2020" : 7431,
+        "population_2027" : 7628,
+        "land_area_2020" : 15.8
+    },
+    "Stow, Middlesex, MA" : {
+        "name" : "Stow",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7174,
+        "population_2020" : 7174,
+        "population_2027" : 7364,
+        "land_area_2020" : 17.6
+    },
+    "Great Barrington, Berkshire, MA" : {
+        "name" : "Great Barrington",
+        "state" : "Massachusetts",
+        "FIPS" : "25-26780",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7172,
+        "population_2020" : 7172,
+        "population_2027" : 7362,
+        "land_area_2020" : 44.8
+    },
+    "Lincoln, Middlesex, MA" : {
+        "name" : "Lincoln",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7014,
+        "population_2020" : 7014,
+        "population_2027" : 7200,
+        "land_area_2020" : 14.4
+    },
+    "Rockport, Essex, MA" : {
+        "name" : "Rockport",
+        "state" : "Massachusetts",
+        "FIPS" : "25-57845",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6992,
+        "population_2020" : 6992,
+        "population_2027" : 7178,
+        "land_area_2020" : 7.0
+    },
+    "Harvard, Worcester, MA" : {
+        "name" : "Harvard",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6851,
+        "population_2020" : 6851,
+        "population_2027" : 7033,
+        "land_area_2020" : 26.4
+    },
+    "Berkley, Bristol, MA" : {
+        "name" : "Berkley",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Bristol"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6764,
+        "population_2020" : 6764,
+        "population_2027" : 6944,
+        "land_area_2020" : 16.5
+    },
+    "Groveland, Essex, MA" : {
+        "name" : "Groveland",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6752,
+        "population_2020" : 6752,
+        "population_2027" : 6931,
+        "land_area_2020" : 9.0
+    },
+    "Merrimac, Essex, MA" : {
+        "name" : "Merrimac",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6723,
+        "population_2020" : 6723,
+        "population_2027" : 6901,
+        "land_area_2020" : 8.5
+    },
+    "Newbury, Essex, MA" : {
+        "name" : "Newbury",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6716,
+        "population_2020" : 6716,
+        "population_2027" : 6894,
+        "land_area_2020" : 23.4
+    },
+    "Chatham, Barnstable, MA" : {
+        "name" : "Chatham",
+        "state" : "Massachusetts",
+        "FIPS" : "25-12960",
+        "counties" : [
+            "Barnstable"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6594,
+        "population_2020" : 6594,
+        "population_2027" : 6769,
+        "land_area_2020" : 16.3
+    },
+    "Topsfield, Essex, MA" : {
+        "name" : "Topsfield",
+        "state" : "Massachusetts",
+        "FIPS" : "25-70115",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6569,
+        "population_2020" : 6569,
+        "population_2027" : 6743,
+        "land_area_2020" : 11.9
+    },
+    "Mattapoisett, Plymouth, MA" : {
+        "name" : "Mattapoisett",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6508,
+        "population_2020" : 6508,
+        "population_2027" : 6681,
+        "land_area_2020" : 17.4
+    },
+    "Dalton, Berkshire, MA" : {
+        "name" : "Dalton",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6330,
+        "population_2020" : 6330,
+        "population_2027" : 6498,
+        "land_area_2020" : 21.8
+    },
+    "Ashburnham, Worcester, MA" : {
+        "name" : "Ashburnham",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6315,
+        "population_2020" : 6315,
+        "population_2027" : 6483,
+        "land_area_2020" : 38.7
+    },
+    "Orleans, Barnstable, MA" : {
+        "name" : "Orleans",
+        "state" : "Massachusetts",
+        "FIPS" : "25-51405",
+        "counties" : [
+            "Barnstable"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6307,
+        "population_2020" : 6307,
+        "population_2027" : 6474,
+        "land_area_2020" : 14.1
+    },
+    "Mendon, Worcester, MA" : {
+        "name" : "Mendon",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6228,
+        "population_2020" : 6228,
+        "population_2027" : 6393,
+        "land_area_2020" : 18.1
+    },
+    "Southampton, Hampshire, MA" : {
+        "name" : "Southampton",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6224,
+        "population_2020" : 6224,
+        "population_2027" : 6389,
+        "land_area_2020" : 28.2
+    },
+    "Rowley, Essex, MA" : {
+        "name" : "Rowley",
+        "state" : "Massachusetts",
+        "FIPS" : "25-58370",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6161,
+        "population_2020" : 6161,
+        "population_2027" : 6325,
+        "land_area_2020" : 18.2
+    },
+    "Granby, Hampshire, MA" : {
+        "name" : "Granby",
+        "state" : "Massachusetts",
+        "FIPS" : "25-26500",
+        "counties" : [
+            "Hampshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6110,
+        "population_2020" : 6110,
+        "population_2027" : 6272,
+        "land_area_2020" : 27.8
+    },
+    "Hopedale, Worcester, MA" : {
+        "name" : "Hopedale",
+        "state" : "Massachusetts",
+        "FIPS" : "25-30980",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6017,
+        "population_2020" : 6017,
+        "population_2027" : 6177,
+        "land_area_2020" : 5.2
+    },
+    "Dover, Norfolk, MA" : {
+        "name" : "Dover",
+        "state" : "Massachusetts",
+        "FIPS" : "25-17370",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5923,
+        "population_2020" : 5923,
+        "population_2027" : 6080,
+        "land_area_2020" : 15.3
+    },
+    "Lee, Berkshire, MA" : {
+        "name" : "Lee",
+        "state" : "Massachusetts",
+        "FIPS" : "25-34620",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5788,
+        "population_2020" : 5788,
+        "population_2027" : 5942,
+        "land_area_2020" : 26.1
+    },
+    "Eastham, Barnstable, MA" : {
+        "name" : "Eastham",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Barnstable"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5752,
+        "population_2020" : 5752,
+        "population_2027" : 5905,
+        "land_area_2020" : 14.0
+    },
+    "Rochester, Plymouth, MA" : {
+        "name" : "Rochester",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5717,
+        "population_2020" : 5717,
+        "population_2027" : 5869,
+        "land_area_2020" : 33.9
+    },
+    "Bolton, Worcester, MA" : {
+        "name" : "Bolton",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5665,
+        "population_2020" : 5665,
+        "population_2027" : 5815,
+        "land_area_2020" : 19.9
+    },
+    "Barre, Worcester, MA" : {
+        "name" : "Barre",
+        "state" : "Massachusetts",
+        "FIPS" : "25-03705",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5530,
+        "population_2020" : 5530,
+        "population_2027" : 5677,
+        "land_area_2020" : 44.3
+    },
+    "Boxborough, Middlesex, MA" : {
+        "name" : "Boxborough",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5506,
+        "population_2020" : 5506,
+        "population_2027" : 5652,
+        "land_area_2020" : 10.4
+    },
+    "Manchester-by-the-Sea, Essex, MA" : {
+        "name" : "Manchester-by-the-Sea",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5395,
+        "population_2020" : 5395,
+        "population_2027" : 5538,
+        "land_area_2020" : 9.2
+    },
+    "Marion, Plymouth, MA" : {
+        "name" : "Marion",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5347,
+        "population_2020" : 5347,
+        "population_2027" : 5489,
+        "land_area_2020" : 12.1
+    },
+    "Oak Bluffs, Dukes, MA" : {
+        "name" : "Oak Bluffs",
+        "state" : "Massachusetts",
+        "FIPS" : "25-50425",
+        "counties" : [
+            "Dukes"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5341,
+        "population_2020" : 5341,
+        "population_2027" : 5483,
+        "land_area_2020" : 7.4
+    },
+    "Hadley, Hampshire, MA" : {
+        "name" : "Hadley",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5325,
+        "population_2020" : 5325,
+        "population_2027" : 5466,
+        "land_area_2020" : 23.1
+    },
+    "Carlisle, Middlesex, MA" : {
+        "name" : "Carlisle",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5237,
+        "population_2020" : 5237,
+        "population_2027" : 5376,
+        "land_area_2020" : 15.4
+    },
+    "Edgartown, Dukes County, MA" : {
+        "name" : "Edgartown",
+        "state" : "Massachusetts",
+        "FIPS" : "25-21115",
+        "counties" : [
+            "Dukes County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5168,
+        "population_2020" : 5168,
+        "population_2027" : 5305,
+        "land_area_2020" : 27.0
+    },
+    "Lenox, Berkshire, MA" : {
+        "name" : "Lenox",
+        "state" : "Massachusetts",
+        "FIPS" : "25-34935",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5095,
+        "population_2020" : 5095,
+        "population_2027" : 5230,
+        "land_area_2020" : 21.2
+    },
+    "Deerfield, Franklin, MA" : {
+        "name" : "Deerfield",
+        "state" : "Massachusetts",
+        "FIPS" : "25-16635",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5090,
+        "population_2020" : 5090,
+        "population_2027" : 5225,
+        "land_area_2020" : 32.4
+    },
+    "Paxton, Worcester, MA" : {
+        "name" : "Paxton",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5004,
+        "population_2020" : 5004,
+        "population_2027" : 5137,
+        "land_area_2020" : 14.7
+    },
+    "Wenham, Essex, MA" : {
+        "name" : "Wenham",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4979,
+        "population_2020" : 4979,
+        "population_2027" : 5111,
+        "land_area_2020" : 7.6
+    },
+    "Warren, Worcester, MA" : {
+        "name" : "Warren",
+        "state" : "Massachusetts",
+        "FIPS" : "25-73055",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4975,
+        "population_2020" : 4975,
+        "population_2027" : 5107,
+        "land_area_2020" : 27.5
+    },
+    "Hampden, Hampden, MA" : {
+        "name" : "Hampden",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4966,
+        "population_2020" : 4966,
+        "population_2027" : 5098,
+        "land_area_2020" : 19.6
+    },
+    "Boylston, Worcester, MA" : {
+        "name" : "Boylston",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4849,
+        "population_2020" : 4849,
+        "population_2027" : 4978,
+        "land_area_2020" : 16.0
+    },
+    "Tisbury, Dukes, MA" : {
+        "name" : "Tisbury",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Dukes"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4815,
+        "population_2020" : 4815,
+        "population_2027" : 4943,
+        "land_area_2020" : 6.5
+    },
+    "Avon, Norfolk, MA" : {
+        "name" : "Avon",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Norfolk"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4777,
+        "population_2020" : 4777,
+        "population_2027" : 4904,
+        "land_area_2020" : 4.4
+    },
+    "North Brookfield, Worcester, MA" : {
+        "name" : "North Brookfield",
+        "state" : "Massachusetts",
+        "FIPS" : "25-47100",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4735,
+        "population_2020" : 4735,
+        "population_2027" : 4861,
+        "land_area_2020" : 21.1
+    },
+    "West Newbury, Essex, MA" : {
+        "name" : "West Newbury",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4500,
+        "population_2020" : 4500,
+        "population_2027" : 4619,
+        "land_area_2020" : 13.4
+    },
+    "Sherborn, Middlesex, MA" : {
+        "name" : "Sherborn",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4401,
+        "population_2020" : 4401,
+        "population_2027" : 4518,
+        "land_area_2020" : 16.0
+    },
+    "Hubbardston, Worcester, MA" : {
+        "name" : "Hubbardston",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4328,
+        "population_2020" : 4328,
+        "population_2027" : 4443,
+        "land_area_2020" : 41.0
+    },
+    "West Brookfield, Worcester, MA" : {
+        "name" : "West Brookfield",
+        "state" : "Massachusetts",
+        "FIPS" : "25-75365",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3833,
+        "population_2020" : 3833,
+        "population_2027" : 3935,
+        "land_area_2020" : 20.5
+    },
+    "Brimfield, Hampden, MA" : {
+        "name" : "Brimfield",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3694,
+        "population_2020" : 3694,
+        "population_2027" : 3792,
+        "land_area_2020" : 34.7
+    },
+    "Essex, Essex, MA" : {
+        "name" : "Essex",
+        "state" : "Massachusetts",
+        "FIPS" : "25-21815",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3675,
+        "population_2020" : 3675,
+        "population_2027" : 3773,
+        "land_area_2020" : 14.0
+    },
+    "Provincetown, Barnstable, MA" : {
+        "name" : "Provincetown",
+        "state" : "Massachusetts",
+        "FIPS" : "25-55535",
+        "counties" : [
+            "Barnstable"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3664,
+        "population_2020" : 3664,
+        "population_2027" : 3761,
+        "land_area_2020" : 9.7
+    },
+    "Sunderland, Franklin, MA" : {
+        "name" : "Sunderland",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3663,
+        "population_2020" : 3663,
+        "population_2027" : 3760,
+        "land_area_2020" : 14.2
+    },
+    "Wellfleet, Barnstable, MA" : {
+        "name" : "Wellfleet",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Barnstable"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3566,
+        "population_2020" : 3566,
+        "population_2027" : 3661,
+        "land_area_2020" : 19.8
+    },
+    "West Tisbury, Dukes, MA" : {
+        "name" : "West Tisbury",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Dukes"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3555,
+        "population_2020" : 3555,
+        "population_2027" : 3649,
+        "land_area_2020" : 25.0
+    },
+    "Princeton, Worcester, MA" : {
+        "name" : "Princeton",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3495,
+        "population_2020" : 3495,
+        "population_2027" : 3588,
+        "land_area_2020" : 35.4
+    },
+    "Brookfield, Worcester, MA" : {
+        "name" : "Brookfield",
+        "state" : "Massachusetts",
+        "FIPS" : "25-09070",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3439,
+        "population_2020" : 3439,
+        "population_2027" : 3530,
+        "land_area_2020" : 15.5
+    },
+    "Dunstable, Middlesex, MA" : {
+        "name" : "Dunstable",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3358,
+        "population_2020" : 3358,
+        "population_2027" : 3447,
+        "land_area_2020" : 16.6
+    },
+    "Hatfield, Hampshire, MA" : {
+        "name" : "Hatfield",
+        "state" : "Massachusetts",
+        "FIPS" : "25-29230",
+        "counties" : [
+            "Hampshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3352,
+        "population_2020" : 3352,
+        "population_2027" : 3441,
+        "land_area_2020" : 15.9
+    },
+    "Nahant, Essex, MA" : {
+        "name" : "Nahant",
+        "state" : "Massachusetts",
+        "FIPS" : "25-43615",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3334,
+        "population_2020" : 3334,
+        "population_2027" : 3423,
+        "land_area_2020" : 1.0
+    },
+    "Sheffield, Berkshire, MA" : {
+        "name" : "Sheffield",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3327,
+        "population_2020" : 3327,
+        "population_2027" : 3415,
+        "land_area_2020" : 47.5
+    },
+    "Cheshire, Berkshire, MA" : {
+        "name" : "Cheshire",
+        "state" : "Massachusetts",
+        "FIPS" : "25-13310",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3258,
+        "population_2020" : 3258,
+        "population_2027" : 3344,
+        "land_area_2020" : 26.8
+    },
+    "Ashby, Middlesex, MA" : {
+        "name" : "Ashby",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Middlesex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3193,
+        "population_2020" : 3193,
+        "population_2027" : 3278,
+        "land_area_2020" : 23.8
+    },
+    "Millville, Worcester, MA" : {
+        "name" : "Millville",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3174,
+        "population_2020" : 3174,
+        "population_2027" : 3258,
+        "land_area_2020" : 4.9
+    },
+    "Berlin, Worcester, MA" : {
+        "name" : "Berlin",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3158,
+        "population_2020" : 3158,
+        "population_2027" : 3242,
+        "land_area_2020" : 12.9
+    },
+    "Lanesborough, Berkshire, MA" : {
+        "name" : "Lanesborough",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3038,
+        "population_2020" : 3038,
+        "population_2027" : 3119,
+        "land_area_2020" : 28.8
+    },
+    "Plympton, Plymouth, MA" : {
+        "name" : "Plympton",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Plymouth"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2930,
+        "population_2020" : 2930,
+        "population_2027" : 3008,
+        "land_area_2020" : 14.8
+    },
+    "Northfield, Franklin, MA" : {
+        "name" : "Northfield",
+        "state" : "Massachusetts",
+        "FIPS" : "25-47800",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2866,
+        "population_2020" : 2866,
+        "population_2027" : 2942,
+        "land_area_2020" : 34.3
+    },
+    "Hardwick, Worcester, MA" : {
+        "name" : "Hardwick",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2667,
+        "population_2020" : 2667,
+        "population_2027" : 2738,
+        "land_area_2020" : 38.6
+    },
+    "Holland, Hampden, MA" : {
+        "name" : "Holland",
+        "state" : "Massachusetts",
+        "FIPS" : "25-30630",
+        "counties" : [
+            "Hampden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2603,
+        "population_2020" : 2603,
+        "population_2027" : 2672,
+        "land_area_2020" : 12.3
+    },
+    "Williamsburg, Hampshire, MA" : {
+        "name" : "Williamsburg",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2504,
+        "population_2020" : 2504,
+        "population_2027" : 2570,
+        "land_area_2020" : 25.6
+    },
+    "Truro, Barnstable, MA" : {
+        "name" : "Truro",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Barnstable"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2454,
+        "population_2020" : 2454,
+        "population_2027" : 2519,
+        "land_area_2020" : 21.1
+    },
+    "East Brookfield, Worcester, MA" : {
+        "name" : "East Brookfield",
+        "state" : "Massachusetts",
+        "FIPS" : "25-18595",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2224,
+        "population_2020" : 2224,
+        "population_2027" : 2283,
+        "land_area_2020" : 9.8
+    },
+    "Bernardston, Franklin, MA" : {
+        "name" : "Bernardston",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2102,
+        "population_2020" : 2102,
+        "population_2027" : 2158,
+        "land_area_2020" : 23.4
+    },
+    "Huntington, Hampshire, MA" : {
+        "name" : "Huntington",
+        "state" : "Massachusetts",
+        "FIPS" : "25-31750",
+        "counties" : [
+            "Hampshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2094,
+        "population_2020" : 2094,
+        "population_2027" : 2150,
+        "land_area_2020" : 26.3
+    },
+    "Stockbridge, Berkshire, MA" : {
+        "name" : "Stockbridge",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2018,
+        "population_2020" : 2018,
+        "population_2027" : 2072,
+        "land_area_2020" : 22.7
+    },
+    "Becket, Berkshire, MA" : {
+        "name" : "Becket",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1931,
+        "population_2020" : 1931,
+        "population_2027" : 1982,
+        "land_area_2020" : 46.1
+    },
+    "Hinsdale, Berkshire, MA" : {
+        "name" : "Hinsdale",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1919,
+        "population_2020" : 1919,
+        "population_2027" : 1970,
+        "land_area_2020" : 20.7
+    },
+    "Shelburne, Franklin, MA" : {
+        "name" : "Shelburne",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1884,
+        "population_2020" : 1884,
+        "population_2027" : 1934,
+        "land_area_2020" : 23.2
+    },
+    "Leverett, Franklin, MA" : {
+        "name" : "Leverett",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1865,
+        "population_2020" : 1865,
+        "population_2027" : 1915,
+        "land_area_2020" : 22.9
+    },
+    "Oakham, Worcester, MA" : {
+        "name" : "Oakham",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1851,
+        "population_2020" : 1851,
+        "population_2027" : 1900,
+        "land_area_2020" : 21.1
+    },
+    "Wales, Hampden, MA" : {
+        "name" : "Wales",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1832,
+        "population_2020" : 1832,
+        "population_2027" : 1881,
+        "land_area_2020" : 15.7
+    },
+    "Buckland, Franklin, MA" : {
+        "name" : "Buckland",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1816,
+        "population_2020" : 1816,
+        "population_2027" : 1864,
+        "land_area_2020" : 19.7
+    },
+    "Conway, Franklin, MA" : {
+        "name" : "Conway",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1761,
+        "population_2020" : 1761,
+        "population_2027" : 1808,
+        "land_area_2020" : 37.7
+    },
+    "Phillipston, Worcester, MA" : {
+        "name" : "Phillipston",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1726,
+        "population_2020" : 1726,
+        "population_2027" : 1772,
+        "land_area_2020" : 24.3
+    },
+    "Shutesbury, Franklin, MA" : {
+        "name" : "Shutesbury",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1717,
+        "population_2020" : 1717,
+        "population_2027" : 1763,
+        "land_area_2020" : 26.6
+    },
+    "Ashfield, Franklin, MA" : {
+        "name" : "Ashfield",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1695,
+        "population_2020" : 1695,
+        "population_2027" : 1740,
+        "land_area_2020" : 40.0
+    },
+    "Erving, Franklin, MA" : {
+        "name" : "Erving",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1665,
+        "population_2020" : 1665,
+        "population_2027" : 1709,
+        "land_area_2020" : 13.9
+    },
+    "Clarksburg, Berkshire, MA" : {
+        "name" : "Clarksburg",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1657,
+        "population_2020" : 1657,
+        "population_2027" : 1701,
+        "land_area_2020" : 12.8
+    },
+    "Russell, Hampden, MA" : {
+        "name" : "Russell",
+        "state" : "Massachusetts",
+        "FIPS" : "25-58615",
+        "counties" : [
+            "Hampden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1643,
+        "population_2020" : 1643,
+        "population_2027" : 1687,
+        "land_area_2020" : 17.3
+    },
+    "Otis, Berkshire, MA" : {
+        "name" : "Otis",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1634,
+        "population_2020" : 1634,
+        "population_2027" : 1677,
+        "land_area_2020" : 35.6
+    },
+    "Westhampton, Hampshire, MA" : {
+        "name" : "Westhampton",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1622,
+        "population_2020" : 1622,
+        "population_2027" : 1665,
+        "land_area_2020" : 27.2
+    },
+    "Whately, Franklin, MA" : {
+        "name" : "Whately",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1607,
+        "population_2020" : 1607,
+        "population_2027" : 1650,
+        "land_area_2020" : 20.2
+    },
+    "Colrain, Franklin, MA" : {
+        "name" : "Colrain",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1606,
+        "population_2020" : 1606,
+        "population_2027" : 1649,
+        "land_area_2020" : 43.1
+    },
+    "Gill, Franklin, MA" : {
+        "name" : "Gill",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1551,
+        "population_2020" : 1551,
+        "population_2027" : 1592,
+        "land_area_2020" : 13.7
+    },
+    "Granville, Hampden, MA" : {
+        "name" : "Granville",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1538,
+        "population_2020" : 1538,
+        "population_2027" : 1579,
+        "land_area_2020" : 42.2
+    },
+    "New Marlborough, Berkshire, MA" : {
+        "name" : "New Marlborough",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1528,
+        "population_2020" : 1528,
+        "population_2027" : 1569,
+        "land_area_2020" : 46.9
+    },
+    "Richmond, Berkshire, MA" : {
+        "name" : "Richmond",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1407,
+        "population_2020" : 1407,
+        "population_2027" : 1444,
+        "land_area_2020" : 18.7
+    },
+    "Egremont, Berkshire, MA" : {
+        "name" : "Egremont",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1372,
+        "population_2020" : 1372,
+        "population_2027" : 1408,
+        "land_area_2020" : 18.7
+    },
+    "West Stockbridge, Berkshire, MA" : {
+        "name" : "West Stockbridge",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1343,
+        "population_2020" : 1343,
+        "population_2027" : 1379,
+        "land_area_2020" : 18.5
+    },
+    "Pelham, Hampshire, MA" : {
+        "name" : "Pelham",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1280,
+        "population_2020" : 1280,
+        "population_2027" : 1314,
+        "land_area_2020" : 25.1
+    },
+    "Royalston, Worcester, MA" : {
+        "name" : "Royalston",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1250,
+        "population_2020" : 1250,
+        "population_2027" : 1283,
+        "land_area_2020" : 41.9
+    },
+    "Chester, Hampden, MA" : {
+        "name" : "Chester",
+        "state" : "Massachusetts",
+        "FIPS" : "25-13450",
+        "counties" : [
+            "Hampden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1228,
+        "population_2020" : 1228,
+        "population_2027" : 1261,
+        "land_area_2020" : 36.6
+    },
+    "Blandford, Hampden, MA" : {
+        "name" : "Blandford",
+        "state" : "Massachusetts",
+        "FIPS" : "25-06050",
+        "counties" : [
+            "Hampden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1215,
+        "population_2020" : 1215,
+        "population_2027" : 1247,
+        "land_area_2020" : 51.6
+    },
+    "Chilmark, Dukes, MA" : {
+        "name" : "Chilmark",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Dukes"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1212,
+        "population_2020" : 1212,
+        "population_2027" : 1244,
+        "land_area_2020" : 19.0
+    },
+    "Petersham, Worcester, MA" : {
+        "name" : "Petersham",
+        "state" : "Massachusetts",
+        "FIPS" : "25-53085",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1194,
+        "population_2020" : 1194,
+        "population_2027" : 1226,
+        "land_area_2020" : 54.2
+    },
+    "Worthington, Hampshire, MA" : {
+        "name" : "Worthington",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1193,
+        "population_2020" : 1193,
+        "population_2027" : 1225,
+        "land_area_2020" : 31.9
+    },
+    "Chesterfield, Hampshire, MA" : {
+        "name" : "Chesterfield",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1186,
+        "population_2020" : 1186,
+        "population_2027" : 1217,
+        "land_area_2020" : 30.8
+    },
+    "Charlemont, Franklin, MA" : {
+        "name" : "Charlemont",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1185,
+        "population_2020" : 1185,
+        "population_2027" : 1216,
+        "land_area_2020" : 25.9
+    },
+    "Monterey, Berkshire, MA" : {
+        "name" : "Monterey",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1095,
+        "population_2020" : 1095,
+        "population_2027" : 1124,
+        "land_area_2020" : 26.4
+    },
+    "New Braintree, Worcester, MA" : {
+        "name" : "New Braintree",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Worcester"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 996,
+        "population_2020" : 996,
+        "population_2027" : 1022,
+        "land_area_2020" : 20.7
+    },
+    "Sandisfield, Berkshire, MA" : {
+        "name" : "Sandisfield",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 989,
+        "population_2020" : 989,
+        "population_2027" : 1015,
+        "land_area_2020" : 51.8
+    },
+    "New Salem, Franklin, MA" : {
+        "name" : "New Salem",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 983,
+        "population_2020" : 983,
+        "population_2027" : 1009,
+        "land_area_2020" : 44.8
+    },
+    "Goshen, Hampshire, MA" : {
+        "name" : "Goshen",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 970,
+        "population_2020" : 970,
+        "population_2027" : 996,
+        "land_area_2020" : 17.4
+    },
+    "Wendell, Franklin, MA" : {
+        "name" : "Wendell",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 924,
+        "population_2020" : 924,
+        "population_2027" : 949,
+        "land_area_2020" : 31.9
+    },
+    "Windsor, Berkshire, MA" : {
+        "name" : "Windsor",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 831,
+        "population_2020" : 831,
+        "population_2027" : 853,
+        "land_area_2020" : 35.0
+    },
+    "Cummington, Hampshire, MA" : {
+        "name" : "Cummington",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 829,
+        "population_2020" : 829,
+        "population_2027" : 851,
+        "land_area_2020" : 22.9
+    },
+    "Montgomery, Hampden, MA" : {
+        "name" : "Montgomery",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 819,
+        "population_2020" : 819,
+        "population_2027" : 841,
+        "land_area_2020" : 15.1
+    },
+    "Peru, Berkshire, MA" : {
+        "name" : "Peru",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 814,
+        "population_2020" : 814,
+        "population_2027" : 836,
+        "land_area_2020" : 25.9
+    },
+    "Warwick, Franklin, MA" : {
+        "name" : "Warwick",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 780,
+        "population_2020" : 780,
+        "population_2027" : 801,
+        "land_area_2020" : 37.3
+    },
+    "Hancock, Berkshire, MA" : {
+        "name" : "Hancock",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 757,
+        "population_2020" : 757,
+        "population_2027" : 777,
+        "land_area_2020" : 35.7
+    },
+    "Leyden, Franklin, MA" : {
+        "name" : "Leyden",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 734,
+        "population_2020" : 734,
+        "population_2027" : 753,
+        "land_area_2020" : 17.9
+    },
+    "Heath, Franklin, MA" : {
+        "name" : "Heath",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 723,
+        "population_2020" : 723,
+        "population_2027" : 742,
+        "land_area_2020" : 24.9
+    },
+    "Florida, Berkshire, MA" : {
+        "name" : "Florida",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 694,
+        "population_2020" : 694,
+        "population_2027" : 712,
+        "land_area_2020" : 24.4
+    },
+    "Savoy, Berkshire, MA" : {
+        "name" : "Savoy",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 645,
+        "population_2020" : 645,
+        "population_2027" : 662,
+        "land_area_2020" : 35.8
+    },
+    "Plainfield, Hampshire, MA" : {
+        "name" : "Plainfield",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 633,
+        "population_2020" : 633,
+        "population_2027" : 650,
+        "land_area_2020" : 21.1
+    },
+    "Washington, Berkshire, MA" : {
+        "name" : "Washington",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 494,
+        "population_2020" : 494,
+        "population_2027" : 507,
+        "land_area_2020" : 38.0
+    },
+    "Alford, Berkshire, MA" : {
+        "name" : "Alford",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 486,
+        "population_2020" : 486,
+        "population_2027" : 499,
+        "land_area_2020" : 11.5
+    },
+    "Tolland, Hampden, MA" : {
+        "name" : "Tolland",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 471,
+        "population_2020" : 471,
+        "population_2027" : 484,
+        "land_area_2020" : 31.5
+    },
+    "Aquinnah, Dukes, MA" : {
+        "name" : "Aquinnah",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Dukes"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 439,
+        "population_2020" : 439,
+        "population_2027" : 451,
+        "land_area_2020" : 5.4
+    },
+    "Tyringham, Berkshire, MA" : {
+        "name" : "Tyringham",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 427,
+        "population_2020" : 427,
+        "population_2027" : 438,
+        "land_area_2020" : 18.6
+    },
+    "Rowe, Franklin, MA" : {
+        "name" : "Rowe",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 424,
+        "population_2020" : 424,
+        "population_2027" : 435,
+        "land_area_2020" : 23.4
+    },
+    "Middlefield, Hampshire, MA" : {
+        "name" : "Middlefield",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Hampshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 385,
+        "population_2020" : 385,
+        "population_2027" : 395,
+        "land_area_2020" : 24.2
+    },
+    "Hawley, Franklin, MA" : {
+        "name" : "Hawley",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 353,
+        "population_2020" : 353,
+        "population_2027" : 362,
+        "land_area_2020" : 30.9
+    },
+    "New Ashford, Berkshire, MA" : {
+        "name" : "New Ashford",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 250,
+        "population_2020" : 250,
+        "population_2027" : 257,
+        "land_area_2020" : 13.4
+    },
+    "Mount Washington, Berkshire, MA" : {
+        "name" : "Mount Washington",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Berkshire"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 160,
+        "population_2020" : 160,
+        "population_2027" : 164,
+        "land_area_2020" : 22.2
+    },
+    "Monroe, Franklin, MA" : {
+        "name" : "Monroe",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 118,
+        "population_2020" : 118,
+        "population_2027" : 121,
+        "land_area_2020" : 10.7
+    },
+    "Gosnold, Dukes, MA" : {
+        "name" : "Gosnold",
+        "state" : "Massachusetts",
+        "FIPS" : "None",
+        "counties" : [
+            "Dukes"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 70,
+        "population_2020" : 70,
+        "population_2027" : 72,
+        "land_area_2020" : 13.2
+    }
+}

@@ -1,0 +1,3573 @@
+{
+    "Aguilar, Las Animas County, CO" : {
+        "name" : "Aguilar",
+        "state" : "Colorado",
+        "FIPS" : "08-00760",
+        "counties" : [
+            "Las Animas County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 538,
+        "population_2020" : 456,
+        "population_2027" : 433,
+        "land_area_2020" : 0.392
+    },
+    "Akron, Washington County, CO" : {
+        "name" : "Akron",
+        "state" : "Colorado",
+        "FIPS" : "08-00925",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 1702,
+        "population_2020" : 1757,
+        "population_2027" : 1900,
+        "land_area_2020" : 2.772
+    },
+    "Alamosa, Alamosa County, CO" : {
+        "name" : "Alamosa",
+        "state" : "Colorado",
+        "FIPS" : "08-01090",
+        "counties" : [
+            "Alamosa County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 8780,
+        "population_2020" : 9806,
+        "population_2027" : 11240,
+        "land_area_2020" : 7.598
+    },
+    "Alma, Park County, CO" : {
+        "name" : "Alma",
+        "state" : "Colorado",
+        "FIPS" : "08-01530",
+        "counties" : [
+            "Park County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 270,
+        "population_2020" : 296,
+        "population_2027" : 335,
+        "land_area_2020" : 0.434
+    },
+    "Antonito, Conejos County, CO" : {
+        "name" : "Antonito",
+        "state" : "Colorado",
+        "FIPS" : "08-02355",
+        "counties" : [
+            "Conejos County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 781,
+        "population_2020" : 647,
+        "population_2027" : 607,
+        "land_area_2020" : 0.427
+    },
+    "Arriba, Lincoln County, CO" : {
+        "name" : "Arriba",
+        "state" : "Colorado",
+        "FIPS" : "08-03235",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 193,
+        "population_2020" : 202,
+        "population_2027" : 221,
+        "land_area_2020" : 0.499
+    },
+    "Arvada, Jefferson County, CO" : {
+        "name" : "Arvada",
+        "state" : "Colorado",
+        "FIPS" : "08-03455",
+        "counties" : [
+            "Jefferson County",
+            "Adams County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 106433,
+        "population_2020" : 124402,
+        "population_2027" : 147757,
+        "land_area_2020" : 38.91
+    },
+    "Aspen, Pitkin County, CO" : {
+        "name" : "Aspen",
+        "state" : "Colorado",
+        "FIPS" : "08-03620",
+        "counties" : [
+            "Pitkin County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 6658,
+        "population_2020" : 7004,
+        "population_2027" : 7677,
+        "land_area_2020" : 3.858
+    },
+    "Ault, Weld County, CO" : {
+        "name" : "Ault",
+        "state" : "Colorado",
+        "FIPS" : "08-03950",
+        "counties" : [
+            "Weld County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 1519,
+        "population_2020" : 1887,
+        "population_2027" : 2356,
+        "land_area_2020" : 1.728
+    },
+    "Aurora, Arapahoe County, CO" : {
+        "name" : "Aurora",
+        "state" : "Colorado",
+        "FIPS" : "08-04000",
+        "counties" : [
+            "Arapahoe County",
+            "Adams County",
+            "Douglas County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 325078,
+        "population_2020" : 386261,
+        "population_2027" : 464883,
+        "land_area_2020" : 160.13
+    },
+    "Avon, Eagle County, CO" : {
+        "name" : "Avon",
+        "state" : "Colorado",
+        "FIPS" : "08-04110",
+        "counties" : [
+            "Eagle County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 6447,
+        "population_2020" : 6072,
+        "population_2027" : 6165,
+        "land_area_2020" : 8.349
+    },
+    "Basalt, Eagle County, CO" : {
+        "name" : "Basalt",
+        "state" : "Colorado",
+        "FIPS" : "08-04935",
+        "counties" : [
+            "Eagle County",
+            "Pitkin County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 3857,
+        "population_2020" : 3984,
+        "population_2027" : 4310,
+        "land_area_2020" : 1.991
+    },
+    "Bayfield, La Plata County, CO" : {
+        "name" : "Bayfield",
+        "state" : "Colorado",
+        "FIPS" : "08-05265",
+        "counties" : [
+            "La Plata County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 2333,
+        "population_2020" : 2838,
+        "population_2027" : 3482,
+        "land_area_2020" : 1.646
+    },
+    "Bennett, Adams County, CO" : {
+        "name" : "Bennett",
+        "state" : "Colorado",
+        "FIPS" : "08-06090",
+        "counties" : [
+            "Adams County",
+            "Arapahoe County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 2308,
+        "population_2020" : 2862,
+        "population_2027" : 3568,
+        "land_area_2020" : 5.795
+    },
+    "Berthoud, Larimer County, CO" : {
+        "name" : "Berthoud",
+        "state" : "Colorado",
+        "FIPS" : "08-06255",
+        "counties" : [
+            "Larimer County",
+            "Weld County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 5105,
+        "population_2020" : 10332,
+        "population_2027" : 21504,
+        "land_area_2020" : 12.933
+    },
+    "Bethune, Kit Carson County, CO" : {
+        "name" : "Bethune",
+        "state" : "Colorado",
+        "FIPS" : "08-06530",
+        "counties" : [
+            "Kit Carson County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 237,
+        "population_2020" : 183,
+        "population_2027" : 165,
+        "land_area_2020" : 0.162
+    },
+    "Black Hawk, Gilpin County, CO" : {
+        "name" : "Black Hawk",
+        "state" : "Colorado",
+        "FIPS" : "08-07025",
+        "counties" : [
+            "Gilpin County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 118,
+        "population_2020" : 127,
+        "population_2027" : 142,
+        "land_area_2020" : 2.653
+    },
+    "Blanca, Costilla County, CO" : {
+        "name" : "Blanca",
+        "state" : "Colorado",
+        "FIPS" : "08-07190",
+        "counties" : [
+            "Costilla County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 385,
+        "population_2020" : 322,
+        "population_2027" : 304,
+        "land_area_2020" : 1.833
+    },
+    "Blue River, Summit County, CO" : {
+        "name" : "Blue River",
+        "state" : "Colorado",
+        "FIPS" : "08-07410",
+        "counties" : [
+            "Summit County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 849,
+        "population_2020" : 877,
+        "population_2027" : 949,
+        "land_area_2020" : 2.463
+    },
+    "Bonanza, Saguache County, CO" : {
+        "name" : "Bonanza",
+        "state" : "Colorado",
+        "FIPS" : "08-07571",
+        "counties" : [
+            "Saguache County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 16,
+        "population_2020" : 17,
+        "population_2027" : 19,
+        "land_area_2020" : 0.437
+    },
+    "Boone, Pueblo County, CO" : {
+        "name" : "Boone",
+        "state" : "Colorado",
+        "FIPS" : "08-07795",
+        "counties" : [
+            "Pueblo County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 339,
+        "population_2020" : 305,
+        "population_2027" : 301,
+        "land_area_2020" : 0.379
+    },
+    "Boulder, Boulder County, CO" : {
+        "name" : "Boulder",
+        "state" : "Colorado",
+        "FIPS" : "08-07850",
+        "counties" : [
+            "Boulder County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 97385,
+        "population_2020" : 108250,
+        "population_2027" : 123627,
+        "land_area_2020" : 26.327
+    },
+    "Bow Mar, Arapahoe County, CO" : {
+        "name" : "Bow Mar",
+        "state" : "Colorado",
+        "FIPS" : "08-08070",
+        "counties" : [
+            "Arapahoe County",
+            "Jefferson County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 866,
+        "population_2020" : 853,
+        "population_2027" : 893,
+        "land_area_2020" : 0.662
+    },
+    "Branson, Las Animas County, CO" : {
+        "name" : "Branson",
+        "state" : "Colorado",
+        "FIPS" : "08-08345",
+        "counties" : [
+            "Las Animas County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 74,
+        "population_2020" : 57,
+        "population_2027" : 51,
+        "land_area_2020" : 0.245
+    },
+    "Breckenridge, Summit County, CO" : {
+        "name" : "Breckenridge",
+        "state" : "Colorado",
+        "FIPS" : "08-08400",
+        "counties" : [
+            "Summit County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 4540,
+        "population_2020" : 5078,
+        "population_2027" : 5827,
+        "land_area_2020" : 6.047
+    },
+    "Brighton, Adams County, CO" : {
+        "name" : "Brighton",
+        "state" : "Colorado",
+        "FIPS" : "08-08675",
+        "counties" : [
+            "Adams County",
+            "Weld County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 33352,
+        "population_2020" : 40083,
+        "population_2027" : 48691,
+        "land_area_2020" : 21.247
+    },
+    "Brookside, Fremont County, CO" : {
+        "name" : "Brookside",
+        "state" : "Colorado",
+        "FIPS" : "08-09115",
+        "counties" : [
+            "Fremont County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 233,
+        "population_2020" : 236,
+        "population_2027" : 252,
+        "land_area_2020" : 0.474
+    },
+    "Broomfield, Broomfield, CO" : {
+        "name" : "Broomfield",
+        "state" : "Colorado",
+        "FIPS" : "08-09280",
+        "counties" : [
+            "Broomfield"
+        ],
+        "type_class" : "Consolidated City And County",
+        "population_2010" : 55889,
+        "population_2020" : 74112,
+        "population_2027" : 97925,
+        "land_area_2020" : 32.968
+    },
+    "Brush, Morgan County, CO" : {
+        "name" : "Brush",
+        "state" : "Colorado",
+        "FIPS" : "08-09555",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type_class" : "Statutory City",
+        "population_2010" : 5463,
+        "population_2020" : 5339,
+        "population_2027" : 5557,
+        "land_area_2020" : 2.831
+    },
+    "Buena Vista, Chaffee County, CO" : {
+        "name" : "Buena Vista",
+        "state" : "Colorado",
+        "FIPS" : "08-10105",
+        "counties" : [
+            "Chaffee County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 2617,
+        "population_2020" : 2855,
+        "population_2027" : 3215,
+        "land_area_2020" : 3.452
+    },
+    "Burlington, Kit Carson County, CO" : {
+        "name" : "Burlington",
+        "state" : "Colorado",
+        "FIPS" : "08-10600",
+        "counties" : [
+            "Kit Carson County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 4254,
+        "population_2020" : 3172,
+        "population_2027" : 2805,
+        "land_area_2020" : 2.152
+    },
+    "Calhan, El Paso County, CO" : {
+        "name" : "Calhan",
+        "state" : "Colorado",
+        "FIPS" : "08-11260",
+        "counties" : [
+            "El Paso County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 780,
+        "population_2020" : 762,
+        "population_2027" : 793,
+        "land_area_2020" : 0.828
+    },
+    "Campo, Baca County, CO" : {
+        "name" : "Campo",
+        "state" : "Colorado",
+        "FIPS" : "08-11645",
+        "counties" : [
+            "Baca County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 109,
+        "population_2020" : 103,
+        "population_2027" : 105,
+        "land_area_2020" : 0.144
+    },
+    "Ca\u00f1on City, Fremont County, CO" : {
+        "name" : "Ca\u00f1on City",
+        "state" : "Colorado",
+        "FIPS" : "08-11810",
+        "counties" : [
+            "Fremont County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 16400,
+        "population_2020" : 17141,
+        "population_2027" : 18701,
+        "land_area_2020" : 12.392
+    },
+    "Carbonate, Garfield County, CO" : {
+        "name" : "Carbonate",
+        "state" : "Colorado",
+        "FIPS" : "08-12030",
+        "counties" : [
+            "Garfield County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 0,
+        "population_2020" : 0,
+        "population_2027" : 0,
+        "land_area_2020" : 0.992
+    },
+    "Carbondale, Garfield County, CO" : {
+        "name" : "Carbondale",
+        "state" : "Colorado",
+        "FIPS" : "08-12045",
+        "counties" : [
+            "Garfield County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 6427,
+        "population_2020" : 6434,
+        "population_2027" : 6808,
+        "land_area_2020" : 2.022
+    },
+    "Castle Pines, Douglas County, CO" : {
+        "name" : "Castle Pines",
+        "state" : "Colorado",
+        "FIPS" : "08-12387",
+        "counties" : [
+            "Douglas County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 10360,
+        "population_2020" : 11036,
+        "population_2027" : 12208,
+        "land_area_2020" : 9.594
+    },
+    "Castle Rock, Douglas County, CO" : {
+        "name" : "Castle Rock",
+        "state" : "Colorado",
+        "FIPS" : "08-12415",
+        "counties" : [
+            "Douglas County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 48231,
+        "population_2020" : 73158,
+        "population_2027" : 109772,
+        "land_area_2020" : 34.29
+    },
+    "Cedaredge, Delta County, CO" : {
+        "name" : "Cedaredge",
+        "state" : "Colorado",
+        "FIPS" : "08-12635",
+        "counties" : [
+            "Delta County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 2253,
+        "population_2020" : 2279,
+        "population_2027" : 2429,
+        "land_area_2020" : 1.961
+    },
+    "Centennial, Arapahoe County, CO" : {
+        "name" : "Centennial",
+        "state" : "Colorado",
+        "FIPS" : "08-12815",
+        "counties" : [
+            "Arapahoe County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 100377,
+        "population_2020" : 108418,
+        "population_2027" : 121168,
+        "land_area_2020" : 29.721
+    },
+    "Center, Saguache County, CO" : {
+        "name" : "Center",
+        "state" : "Colorado",
+        "FIPS" : "08-12855",
+        "counties" : [
+            "Saguache County",
+            "Rio Grande County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 2230,
+        "population_2020" : 1929,
+        "population_2027" : 1856,
+        "land_area_2020" : 0.864
+    },
+    "Central City, Gilpin County, CO" : {
+        "name" : "Central City",
+        "state" : "Colorado",
+        "FIPS" : "08-12910",
+        "counties" : [
+            "Gilpin County",
+            "Clear Creek County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 663,
+        "population_2020" : 779,
+        "population_2027" : 929,
+        "land_area_2020" : 2.16
+    },
+    "Cheraw, Otero County, CO" : {
+        "name" : "Cheraw",
+        "state" : "Colorado",
+        "FIPS" : "08-13460",
+        "counties" : [
+            "Otero County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 252,
+        "population_2020" : 237,
+        "population_2027" : 240,
+        "land_area_2020" : 0.18
+    },
+    "Cherry Hills Village, Arapahoe County, CO" : {
+        "name" : "Cherry Hills Village",
+        "state" : "Colorado",
+        "FIPS" : "08-13845",
+        "counties" : [
+            "Arapahoe County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 5987,
+        "population_2020" : 6442,
+        "population_2027" : 7179,
+        "land_area_2020" : 6.201
+    },
+    "Cheyenne Wells, Cheyenne County, CO" : {
+        "name" : "Cheyenne Wells",
+        "state" : "Colorado",
+        "FIPS" : "08-14175",
+        "counties" : [
+            "Cheyenne County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 846,
+        "population_2020" : 758,
+        "population_2027" : 745,
+        "land_area_2020" : 1.07
+    },
+    "Coal Creek, Fremont County, CO" : {
+        "name" : "Coal Creek",
+        "state" : "Colorado",
+        "FIPS" : "08-15330",
+        "counties" : [
+            "Fremont County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 343,
+        "population_2020" : 364,
+        "population_2027" : 402,
+        "land_area_2020" : 1.194
+    },
+    "Cokedale, Las Animas County, CO" : {
+        "name" : "Cokedale",
+        "state" : "Colorado",
+        "FIPS" : "08-15550",
+        "counties" : [
+            "Las Animas County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 129,
+        "population_2020" : 127,
+        "population_2027" : 133,
+        "land_area_2020" : 0.205
+    },
+    "Collbran, Mesa County, CO" : {
+        "name" : "Collbran",
+        "state" : "Colorado",
+        "FIPS" : "08-15605",
+        "counties" : [
+            "Mesa County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 708,
+        "population_2020" : 369,
+        "population_2027" : 278,
+        "land_area_2020" : 0.558
+    },
+    "Colorado Springs, El Paso County, CO" : {
+        "name" : "Colorado Springs",
+        "state" : "Colorado",
+        "FIPS" : "08-16000",
+        "counties" : [
+            "El Paso County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 416427,
+        "population_2020" : 478961,
+        "population_2027" : 561668,
+        "land_area_2020" : 195.399
+    },
+    "Columbine Valley, Arapahoe County, CO" : {
+        "name" : "Columbine Valley",
+        "state" : "Colorado",
+        "FIPS" : "08-16385",
+        "counties" : [
+            "Arapahoe County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 1256,
+        "population_2020" : 1502,
+        "population_2027" : 1817,
+        "land_area_2020" : 0.982
+    },
+    "Commerce City, Adams County, CO" : {
+        "name" : "Commerce City",
+        "state" : "Colorado",
+        "FIPS" : "08-16495",
+        "counties" : [
+            "Adams County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 45913,
+        "population_2020" : 62418,
+        "population_2027" : 84346,
+        "land_area_2020" : 36.002
+    },
+    "Cortez, Montezuma County, CO" : {
+        "name" : "Cortez",
+        "state" : "Colorado",
+        "FIPS" : "08-17375",
+        "counties" : [
+            "Montezuma County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 8482,
+        "population_2020" : 8766,
+        "population_2027" : 9487,
+        "land_area_2020" : 6.23
+    },
+    "Craig, Moffat County, CO" : {
+        "name" : "Craig",
+        "state" : "Colorado",
+        "FIPS" : "08-17760",
+        "counties" : [
+            "Moffat County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 9464,
+        "population_2020" : 9060,
+        "population_2027" : 9299,
+        "land_area_2020" : 5.073
+    },
+    "Crawford, Delta County, CO" : {
+        "name" : "Crawford",
+        "state" : "Colorado",
+        "FIPS" : "08-17925",
+        "counties" : [
+            "Delta County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 431,
+        "population_2020" : 403,
+        "population_2027" : 407,
+        "land_area_2020" : 0.251
+    },
+    "Creede, Mineral County, CO" : {
+        "name" : "Creede",
+        "state" : "Colorado",
+        "FIPS" : "08-14765",
+        "counties" : [
+            "Mineral County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 290,
+        "population_2020" : 257,
+        "population_2027" : 251,
+        "land_area_2020" : 0.95
+    },
+    "Crested Butte, Gunnison County, CO" : {
+        "name" : "Crested Butte",
+        "state" : "Colorado",
+        "FIPS" : "08-18310",
+        "counties" : [
+            "Gunnison County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 1487,
+        "population_2020" : 1639,
+        "population_2027" : 1860,
+        "land_area_2020" : 0.836
+    },
+    "Crestone, Saguache County, CO" : {
+        "name" : "Crestone",
+        "state" : "Colorado",
+        "FIPS" : "08-18420",
+        "counties" : [
+            "Saguache County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 127,
+        "population_2020" : 141,
+        "population_2027" : 161,
+        "land_area_2020" : 0.385
+    },
+    "Cripple Creek, Teller County, CO" : {
+        "name" : "Cripple Creek",
+        "state" : "Colorado",
+        "FIPS" : "08-18530",
+        "counties" : [
+            "Teller County"
+        ],
+        "type_class" : "Statutory City",
+        "population_2010" : 1189,
+        "population_2020" : 1155,
+        "population_2027" : 1197,
+        "land_area_2020" : 1.522
+    },
+    "Crook, Logan County, CO" : {
+        "name" : "Crook",
+        "state" : "Colorado",
+        "FIPS" : "08-18640",
+        "counties" : [
+            "Logan County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 110,
+        "population_2020" : 133,
+        "population_2027" : 162,
+        "land_area_2020" : 0.135
+    },
+    "Crowley, Crowley County, CO" : {
+        "name" : "Crowley",
+        "state" : "Colorado",
+        "FIPS" : "08-18750",
+        "counties" : [
+            "Crowley County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 176,
+        "population_2020" : 166,
+        "population_2027" : 169,
+        "land_area_2020" : 0.225
+    },
+    "Dacono, Weld County, CO" : {
+        "name" : "Dacono",
+        "state" : "Colorado",
+        "FIPS" : "08-19080",
+        "counties" : [
+            "Weld County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 4152,
+        "population_2020" : 6297,
+        "population_2027" : 9447,
+        "land_area_2020" : 8.79
+    },
+    "De Beque, Mesa County, CO" : {
+        "name" : "De Beque",
+        "state" : "Colorado",
+        "FIPS" : "08-19355",
+        "counties" : [
+            "Mesa County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 504,
+        "population_2020" : 493,
+        "population_2027" : 513,
+        "land_area_2020" : 2.727
+    },
+    "Deer Trail, Arapahoe County, CO" : {
+        "name" : "Deer Trail",
+        "state" : "Colorado",
+        "FIPS" : "08-19630",
+        "counties" : [
+            "Arapahoe County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 546,
+        "population_2020" : 1068,
+        "population_2027" : 2129,
+        "land_area_2020" : 1.175
+    },
+    "Del Norte, Rio Grande County, CO" : {
+        "name" : "Del Norte",
+        "state" : "Colorado",
+        "FIPS" : "08-19795",
+        "counties" : [
+            "Rio Grande County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 1686,
+        "population_2020" : 1458,
+        "population_2027" : 1403,
+        "land_area_2020" : 0.983
+    },
+    "Delta, Delta County, CO" : {
+        "name" : "Delta",
+        "state" : "Colorado",
+        "FIPS" : "08-19850",
+        "counties" : [
+            "Delta County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 8915,
+        "population_2020" : 9035,
+        "population_2027" : 9643,
+        "land_area_2020" : 13.274
+    },
+    "Denver, Denver, CO" : {
+        "name" : "Denver",
+        "state" : "Colorado",
+        "FIPS" : "08-20000",
+        "counties" : [
+            "Denver"
+        ],
+        "type_class" : "Consolidated City And County",
+        "population_2010" : 600158,
+        "population_2020" : 715522,
+        "population_2027" : 863523,
+        "land_area_2020" : 153.075
+    },
+    "Dillon, Summit County, CO" : {
+        "name" : "Dillon",
+        "state" : "Colorado",
+        "FIPS" : "08-20440",
+        "counties" : [
+            "Summit County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 904,
+        "population_2020" : 1064,
+        "population_2027" : 1271,
+        "land_area_2020" : 1.494
+    },
+    "Dinosaur, Moffat County, CO" : {
+        "name" : "Dinosaur",
+        "state" : "Colorado",
+        "FIPS" : "08-20495",
+        "counties" : [
+            "Moffat County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 339,
+        "population_2020" : 243,
+        "population_2027" : 210,
+        "land_area_2020" : 0.93
+    },
+    "Dolores, Montezuma County, CO" : {
+        "name" : "Dolores",
+        "state" : "Colorado",
+        "FIPS" : "08-20770",
+        "counties" : [
+            "Montezuma County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 936,
+        "population_2020" : 885,
+        "population_2027" : 901,
+        "land_area_2020" : 0.664
+    },
+    "Dove Creek, Dolores County, CO" : {
+        "name" : "Dove Creek",
+        "state" : "Colorado",
+        "FIPS" : "08-21265",
+        "counties" : [
+            "Dolores County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 735,
+        "population_2020" : 635,
+        "population_2027" : 610,
+        "land_area_2020" : 0.572
+    },
+    "Durango, La Plata County, CO" : {
+        "name" : "Durango",
+        "state" : "Colorado",
+        "FIPS" : "08-22035",
+        "counties" : [
+            "La Plata County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 16887,
+        "population_2020" : 19071,
+        "population_2027" : 22047,
+        "land_area_2020" : 14.708
+    },
+    "Eads, Kiowa County, CO" : {
+        "name" : "Eads",
+        "state" : "Colorado",
+        "FIPS" : "08-22145",
+        "counties" : [
+            "Kiowa County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 609,
+        "population_2020" : 672,
+        "population_2027" : 763,
+        "land_area_2020" : 0.478
+    },
+    "Eagle, Eagle County, CO" : {
+        "name" : "Eagle",
+        "state" : "Colorado",
+        "FIPS" : "08-22200",
+        "counties" : [
+            "Eagle County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 6508,
+        "population_2020" : 7511,
+        "population_2027" : 8832,
+        "land_area_2020" : 5.641
+    },
+    "Eaton, Weld County, CO" : {
+        "name" : "Eaton",
+        "state" : "Colorado",
+        "FIPS" : "08-22860",
+        "counties" : [
+            "Weld County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 4365,
+        "population_2020" : 5802,
+        "population_2027" : 7682,
+        "land_area_2020" : 3.16
+    },
+    "Eckley, Yuma County, CO" : {
+        "name" : "Eckley",
+        "state" : "Colorado",
+        "FIPS" : "08-23025",
+        "counties" : [
+            "Yuma County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 257,
+        "population_2020" : 232,
+        "population_2027" : 229,
+        "land_area_2020" : 0.473
+    },
+    "Edgewater, Jefferson County, CO" : {
+        "name" : "Edgewater",
+        "state" : "Colorado",
+        "FIPS" : "08-23135",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 5170,
+        "population_2020" : 5005,
+        "population_2027" : 5176,
+        "land_area_2020" : 0.695
+    },
+    "Elizabeth, Elbert County, CO" : {
+        "name" : "Elizabeth",
+        "state" : "Colorado",
+        "FIPS" : "08-23740",
+        "counties" : [
+            "Elbert County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 1358,
+        "population_2020" : 1675,
+        "population_2027" : 2079,
+        "land_area_2020" : 1.999
+    },
+    "Empire, Clear Creek County, CO" : {
+        "name" : "Empire",
+        "state" : "Colorado",
+        "FIPS" : "08-24620",
+        "counties" : [
+            "Clear Creek County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 282,
+        "population_2020" : 345,
+        "population_2027" : 425,
+        "land_area_2020" : 0.269
+    },
+    "Englewood, Arapahoe County, CO" : {
+        "name" : "Englewood",
+        "state" : "Colorado",
+        "FIPS" : "08-24785",
+        "counties" : [
+            "Arapahoe County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 30255,
+        "population_2020" : 33659,
+        "population_2027" : 38465,
+        "land_area_2020" : 6.564
+    },
+    "Erie, Weld County, CO" : {
+        "name" : "Erie",
+        "state" : "Colorado",
+        "FIPS" : "08-24950",
+        "counties" : [
+            "Weld County",
+            "Boulder County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 18135,
+        "population_2020" : 30038,
+        "population_2027" : 49393,
+        "land_area_2020" : 19.737
+    },
+    "Estes Park, Larimer County, CO" : {
+        "name" : "Estes Park",
+        "state" : "Colorado",
+        "FIPS" : "08-25115",
+        "counties" : [
+            "Larimer County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 5858,
+        "population_2020" : 5904,
+        "population_2027" : 6277,
+        "land_area_2020" : 6.822
+    },
+    "Evans, Weld County, CO" : {
+        "name" : "Evans",
+        "state" : "Colorado",
+        "FIPS" : "08-25280",
+        "counties" : [
+            "Weld County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 18537,
+        "population_2020" : 22165,
+        "population_2027" : 26813,
+        "land_area_2020" : 10.182
+    },
+    "Fairplay, Park County, CO" : {
+        "name" : "Fairplay",
+        "state" : "Colorado",
+        "FIPS" : "08-25610",
+        "counties" : [
+            "Park County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 679,
+        "population_2020" : 724,
+        "population_2027" : 801,
+        "land_area_2020" : 1.147
+    },
+    "Federal Heights, Adams County, CO" : {
+        "name" : "Federal Heights",
+        "state" : "Colorado",
+        "FIPS" : "08-26270",
+        "counties" : [
+            "Adams County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 11467,
+        "population_2020" : 14382,
+        "population_2027" : 18103,
+        "land_area_2020" : 1.776
+    },
+    "Firestone, Weld County, CO" : {
+        "name" : "Firestone",
+        "state" : "Colorado",
+        "FIPS" : "08-26600",
+        "counties" : [
+            "Weld County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 10147,
+        "population_2020" : 16381,
+        "population_2027" : 26208,
+        "land_area_2020" : 13.568
+    },
+    "Flagler, Kit Carson County, CO" : {
+        "name" : "Flagler",
+        "state" : "Colorado",
+        "FIPS" : "08-26765",
+        "counties" : [
+            "Kit Carson County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 561,
+        "population_2020" : 567,
+        "population_2027" : 604,
+        "land_area_2020" : 1.37
+    },
+    "Fleming, Logan County, CO" : {
+        "name" : "Fleming",
+        "state" : "Colorado",
+        "FIPS" : "08-26875",
+        "counties" : [
+            "Logan County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 408,
+        "population_2020" : 428,
+        "population_2027" : 468,
+        "land_area_2020" : 0.489
+    },
+    "Florence, Fremont County, CO" : {
+        "name" : "Florence",
+        "state" : "Colorado",
+        "FIPS" : "08-27040",
+        "counties" : [
+            "Fremont County"
+        ],
+        "type_class" : "Statutory City",
+        "population_2010" : 3881,
+        "population_2020" : 3822,
+        "population_2027" : 3999,
+        "land_area_2020" : 4.276
+    },
+    "Fort Collins, Larimer County, CO" : {
+        "name" : "Fort Collins",
+        "state" : "Colorado",
+        "FIPS" : "08-27425",
+        "counties" : [
+            "Larimer County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 143986,
+        "population_2020" : 169810,
+        "population_2027" : 203143,
+        "land_area_2020" : 57.212
+    },
+    "Fort Lupton, Weld County, CO" : {
+        "name" : "Fort Lupton",
+        "state" : "Colorado",
+        "FIPS" : "08-27700",
+        "counties" : [
+            "Weld County"
+        ],
+        "type_class" : "Statutory City",
+        "population_2010" : 7377,
+        "population_2020" : 7955,
+        "population_2027" : 8880,
+        "land_area_2020" : 12.146
+    },
+    "Fort Morgan, Morgan County, CO" : {
+        "name" : "Fort Morgan",
+        "state" : "Colorado",
+        "FIPS" : "08-27810",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 11315,
+        "population_2020" : 11597,
+        "population_2027" : 12476,
+        "land_area_2020" : 5.334
+    },
+    "Fountain, El Paso County, CO" : {
+        "name" : "Fountain",
+        "state" : "Colorado",
+        "FIPS" : "08-27865",
+        "counties" : [
+            "El Paso County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 25846,
+        "population_2020" : 29802,
+        "population_2027" : 35017,
+        "land_area_2020" : 22.501
+    },
+    "Fowler, Otero County, CO" : {
+        "name" : "Fowler",
+        "state" : "Colorado",
+        "FIPS" : "08-27975",
+        "counties" : [
+            "Otero County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 1182,
+        "population_2020" : 1253,
+        "population_2027" : 1381,
+        "land_area_2020" : 0.559
+    },
+    "Foxfield, Arapahoe County, CO" : {
+        "name" : "Foxfield",
+        "state" : "Colorado",
+        "FIPS" : "08-28105",
+        "counties" : [
+            "Arapahoe County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 685,
+        "population_2020" : 754,
+        "population_2027" : 855,
+        "land_area_2020" : 1.323
+    },
+    "Fraser, Grand County, CO" : {
+        "name" : "Fraser",
+        "state" : "Colorado",
+        "FIPS" : "08-28305",
+        "counties" : [
+            "Grand County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 1224,
+        "population_2020" : 1400,
+        "population_2027" : 1635,
+        "land_area_2020" : 3.457
+    },
+    "Frederick, Weld County, CO" : {
+        "name" : "Frederick",
+        "state" : "Colorado",
+        "FIPS" : "08-28360",
+        "counties" : [
+            "Weld County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 8679,
+        "population_2020" : 14513,
+        "population_2027" : 24112,
+        "land_area_2020" : 15.096
+    },
+    "Frisco, Summit County, CO" : {
+        "name" : "Frisco",
+        "state" : "Colorado",
+        "FIPS" : "08-28690",
+        "counties" : [
+            "Summit County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 2683,
+        "population_2020" : 2913,
+        "population_2027" : 3268,
+        "land_area_2020" : 1.672
+    },
+    "Fruita, Mesa County, CO" : {
+        "name" : "Fruita",
+        "state" : "Colorado",
+        "FIPS" : "08-28745",
+        "counties" : [
+            "Mesa County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 12646,
+        "population_2020" : 13395,
+        "population_2027" : 14756,
+        "land_area_2020" : 7.892
+    },
+    "Garden City, Weld County, CO" : {
+        "name" : "Garden City",
+        "state" : "Colorado",
+        "FIPS" : "08-29185",
+        "counties" : [
+            "Weld County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 234,
+        "population_2020" : 254,
+        "population_2027" : 285,
+        "land_area_2020" : 0.113
+    },
+    "Genoa, Lincoln County, CO" : {
+        "name" : "Genoa",
+        "state" : "Colorado",
+        "FIPS" : "08-29680",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 139,
+        "population_2020" : 153,
+        "population_2027" : 173,
+        "land_area_2020" : 0.31
+    },
+    "Georgetown, Clear Creek County, CO" : {
+        "name" : "Georgetown",
+        "state" : "Colorado",
+        "FIPS" : "08-29735",
+        "counties" : [
+            "Clear Creek County"
+        ],
+        "type_class" : "Territorial Charter Municipality",
+        "population_2010" : 1034,
+        "population_2020" : 1118,
+        "population_2027" : 1250,
+        "land_area_2020" : 0.997
+    },
+    "Gilcrest, Weld County, CO" : {
+        "name" : "Gilcrest",
+        "state" : "Colorado",
+        "FIPS" : "08-29955",
+        "counties" : [
+            "Weld County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 1034,
+        "population_2020" : 1029,
+        "population_2027" : 1084,
+        "land_area_2020" : 0.811
+    },
+    "Glendale, Arapahoe County, CO" : {
+        "name" : "Glendale",
+        "state" : "Colorado",
+        "FIPS" : "08-30350",
+        "counties" : [
+            "Arapahoe County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 4184,
+        "population_2020" : 4613,
+        "population_2027" : 5236,
+        "land_area_2020" : 0.568
+    },
+    "Glenwood Springs, Garfield County, CO" : {
+        "name" : "Glenwood Springs",
+        "state" : "Colorado",
+        "FIPS" : "08-30780",
+        "counties" : [
+            "Garfield County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 9614,
+        "population_2020" : 9963,
+        "population_2027" : 10803,
+        "land_area_2020" : 5.835
+    },
+    "Golden, Jefferson County, CO" : {
+        "name" : "Golden",
+        "state" : "Colorado",
+        "FIPS" : "08-30835",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 18867,
+        "population_2020" : 20399,
+        "population_2027" : 22815,
+        "land_area_2020" : 9.634
+    },
+    "Granada, Prowers County, CO" : {
+        "name" : "Granada",
+        "state" : "Colorado",
+        "FIPS" : "08-31550",
+        "counties" : [
+            "Prowers County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 517,
+        "population_2020" : 445,
+        "population_2027" : 427,
+        "land_area_2020" : 0.685
+    },
+    "Granby, Grand County, CO" : {
+        "name" : "Granby",
+        "state" : "Colorado",
+        "FIPS" : "08-31605",
+        "counties" : [
+            "Grand County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 1864,
+        "population_2020" : 2079,
+        "population_2027" : 2380,
+        "land_area_2020" : 12.681
+    },
+    "Grand Junction, Mesa County, CO" : {
+        "name" : "Grand Junction",
+        "state" : "Colorado",
+        "FIPS" : "08-31660",
+        "counties" : [
+            "Mesa County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 58566,
+        "population_2020" : 65560,
+        "population_2027" : 75278,
+        "land_area_2020" : 39.634
+    },
+    "Grand Lake, Grand County, CO" : {
+        "name" : "Grand Lake",
+        "state" : "Colorado",
+        "FIPS" : "08-31715",
+        "counties" : [
+            "Grand County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 471,
+        "population_2020" : 410,
+        "population_2027" : 396,
+        "land_area_2020" : 1.032
+    },
+    "Greeley, Weld County, CO" : {
+        "name" : "Greeley",
+        "state" : "Colorado",
+        "FIPS" : "08-32155",
+        "counties" : [
+            "Weld County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 92889,
+        "population_2020" : 108795,
+        "population_2027" : 129432,
+        "land_area_2020" : 48.933
+    },
+    "Green Mountain Falls, El Paso County, CO" : {
+        "name" : "Green Mountain Falls",
+        "state" : "Colorado",
+        "FIPS" : "08-32650",
+        "counties" : [
+            "El Paso County",
+            "Teller County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 640,
+        "population_2020" : 646,
+        "population_2027" : 688,
+        "land_area_2020" : 1.099
+    },
+    "Greenwood Village, Arapahoe County, CO" : {
+        "name" : "Greenwood Village",
+        "state" : "Colorado",
+        "FIPS" : "08-33035",
+        "counties" : [
+            "Arapahoe County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 13925,
+        "population_2020" : 15691,
+        "population_2027" : 18109,
+        "land_area_2020" : 8.267
+    },
+    "Grover, Weld County, CO" : {
+        "name" : "Grover",
+        "state" : "Colorado",
+        "FIPS" : "08-33310",
+        "counties" : [
+            "Weld County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 137,
+        "population_2020" : 157,
+        "population_2027" : 184,
+        "land_area_2020" : 0.595
+    },
+    "Gunnison, Gunnison County, CO" : {
+        "name" : "Gunnison",
+        "state" : "Colorado",
+        "FIPS" : "08-33640",
+        "counties" : [
+            "Gunnison County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 5854,
+        "population_2020" : 6560,
+        "population_2027" : 7538,
+        "land_area_2020" : 4.849
+    },
+    "Gypsum, Eagle County, CO" : {
+        "name" : "Gypsum",
+        "state" : "Colorado",
+        "FIPS" : "08-33695",
+        "counties" : [
+            "Eagle County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 6477,
+        "population_2020" : 8040,
+        "population_2027" : 10032,
+        "land_area_2020" : 8.851
+    },
+    "Hartman, Prowers County, CO" : {
+        "name" : "Hartman",
+        "state" : "Colorado",
+        "FIPS" : "08-34520",
+        "counties" : [
+            "Prowers County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 81,
+        "population_2020" : 56,
+        "population_2027" : 48,
+        "land_area_2020" : 0.274
+    },
+    "Haswell, Kiowa County, CO" : {
+        "name" : "Haswell",
+        "state" : "Colorado",
+        "FIPS" : "08-34740",
+        "counties" : [
+            "Kiowa County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 68,
+        "population_2020" : 71,
+        "population_2027" : 77,
+        "land_area_2020" : 0.803
+    },
+    "Haxtun, Phillips County, CO" : {
+        "name" : "Haxtun",
+        "state" : "Colorado",
+        "FIPS" : "08-34960",
+        "counties" : [
+            "Phillips County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 946,
+        "population_2020" : 981,
+        "population_2027" : 1064,
+        "land_area_2020" : 0.595
+    },
+    "Hayden, Routt County, CO" : {
+        "name" : "Hayden",
+        "state" : "Colorado",
+        "FIPS" : "08-35070",
+        "counties" : [
+            "Routt County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 1810,
+        "population_2020" : 1941,
+        "population_2027" : 2158,
+        "land_area_2020" : 3.278
+    },
+    "Hillrose, Morgan County, CO" : {
+        "name" : "Hillrose",
+        "state" : "Colorado",
+        "FIPS" : "08-36610",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 264,
+        "population_2020" : 312,
+        "population_2027" : 374,
+        "land_area_2020" : 0.189
+    },
+    "Holly, Prowers County, CO" : {
+        "name" : "Holly",
+        "state" : "Colorado",
+        "FIPS" : "08-37215",
+        "counties" : [
+            "Prowers County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 802,
+        "population_2020" : 837,
+        "population_2027" : 912,
+        "land_area_2020" : 0.723
+    },
+    "Holyoke, Phillips County, CO" : {
+        "name" : "Holyoke",
+        "state" : "Colorado",
+        "FIPS" : "08-37270",
+        "counties" : [
+            "Phillips County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 2313,
+        "population_2020" : 2346,
+        "population_2027" : 2505,
+        "land_area_2020" : 2.47
+    },
+    "Hooper, Alamosa County, CO" : {
+        "name" : "Hooper",
+        "state" : "Colorado",
+        "FIPS" : "08-37380",
+        "counties" : [
+            "Alamosa County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 103,
+        "population_2020" : 81,
+        "population_2027" : 74,
+        "land_area_2020" : 0.252
+    },
+    "Hot Sulphur Springs, Grand County, CO" : {
+        "name" : "Hot Sulphur Springs",
+        "state" : "Colorado",
+        "FIPS" : "08-37600",
+        "counties" : [
+            "Grand County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 663,
+        "population_2020" : 687,
+        "population_2027" : 745,
+        "land_area_2020" : 0.769
+    },
+    "Hotchkiss, Delta County, CO" : {
+        "name" : "Hotchkiss",
+        "state" : "Colorado",
+        "FIPS" : "08-37545",
+        "counties" : [
+            "Delta County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 944,
+        "population_2020" : 875,
+        "population_2027" : 879,
+        "land_area_2020" : 0.926
+    },
+    "Hudson, Weld County, CO" : {
+        "name" : "Hudson",
+        "state" : "Colorado",
+        "FIPS" : "08-37820",
+        "counties" : [
+            "Weld County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 2356,
+        "population_2020" : 1651,
+        "population_2027" : 1414,
+        "land_area_2020" : 5.896
+    },
+    "Hugo, Lincoln County, CO" : {
+        "name" : "Hugo",
+        "state" : "Colorado",
+        "FIPS" : "08-37875",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 730,
+        "population_2020" : 787,
+        "population_2027" : 878,
+        "land_area_2020" : 0.912
+    },
+    "Idaho Springs, Clear Creek County, CO" : {
+        "name" : "Idaho Springs",
+        "state" : "Colorado",
+        "FIPS" : "08-38370",
+        "counties" : [
+            "Clear Creek County"
+        ],
+        "type_class" : "Statutory City",
+        "population_2010" : 1717,
+        "population_2020" : 1782,
+        "population_2027" : 1934,
+        "land_area_2020" : 2.253
+    },
+    "Ignacio, La Plata County, CO" : {
+        "name" : "Ignacio",
+        "state" : "Colorado",
+        "FIPS" : "08-38535",
+        "counties" : [
+            "La Plata County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 697,
+        "population_2020" : 852,
+        "population_2027" : 1050,
+        "land_area_2020" : 0.512
+    },
+    "Iliff, Logan County, CO" : {
+        "name" : "Iliff",
+        "state" : "Colorado",
+        "FIPS" : "08-38590",
+        "counties" : [
+            "Logan County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 266,
+        "population_2020" : 246,
+        "population_2027" : 247,
+        "land_area_2020" : 0.191
+    },
+    "Jamestown, Boulder County, CO" : {
+        "name" : "Jamestown",
+        "state" : "Colorado",
+        "FIPS" : "08-39195",
+        "counties" : [
+            "Boulder County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 274,
+        "population_2020" : 256,
+        "population_2027" : 259,
+        "land_area_2020" : 0.575
+    },
+    "Johnstown, Weld County, CO" : {
+        "name" : "Johnstown",
+        "state" : "Colorado",
+        "FIPS" : "08-39855",
+        "counties" : [
+            "Weld County",
+            "Larimer County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 9887,
+        "population_2020" : 17303,
+        "population_2027" : 30237,
+        "land_area_2020" : 13.792
+    },
+    "Julesburg, Sedgwick County, CO" : {
+        "name" : "Julesburg",
+        "state" : "Colorado",
+        "FIPS" : "08-39965",
+        "counties" : [
+            "Sedgwick County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 1225,
+        "population_2020" : 1307,
+        "population_2027" : 1448,
+        "land_area_2020" : 1.512
+    },
+    "Keenesburg, Weld County, CO" : {
+        "name" : "Keenesburg",
+        "state" : "Colorado",
+        "FIPS" : "08-40185",
+        "counties" : [
+            "Weld County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 1127,
+        "population_2020" : 1250,
+        "population_2027" : 1425,
+        "land_area_2020" : 7.54
+    },
+    "Kersey, Weld County, CO" : {
+        "name" : "Kersey",
+        "state" : "Colorado",
+        "FIPS" : "08-40515",
+        "counties" : [
+            "Weld County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 1454,
+        "population_2020" : 1495,
+        "population_2027" : 1612,
+        "land_area_2020" : 2.022
+    },
+    "Keystone, Summit County, CO" : {
+        "name" : "Keystone",
+        "state" : "Colorado",
+        "FIPS" : "08-40550",
+        "counties" : [
+            "Summit County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 1079,
+        "population_2020" : 1369,
+        "population_2027" : 1740,
+        "land_area_2020" : 41.402
+    },
+    "Kim, Las Animas County, CO" : {
+        "name" : "Kim",
+        "state" : "Colorado",
+        "FIPS" : "08-40570",
+        "counties" : [
+            "Las Animas County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 74,
+        "population_2020" : 63,
+        "population_2027" : 60,
+        "land_area_2020" : 0.379
+    },
+    "Kiowa, Elbert County, CO" : {
+        "name" : "Kiowa",
+        "state" : "Colorado",
+        "FIPS" : "08-40790",
+        "counties" : [
+            "Elbert County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 723,
+        "population_2020" : 725,
+        "population_2027" : 768,
+        "land_area_2020" : 0.862
+    },
+    "Kit Carson, Cheyenne County, CO" : {
+        "name" : "Kit Carson",
+        "state" : "Colorado",
+        "FIPS" : "08-41010",
+        "counties" : [
+            "Cheyenne County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 233,
+        "population_2020" : 255,
+        "population_2027" : 288,
+        "land_area_2020" : 0.584
+    },
+    "Kremmling, Grand County, CO" : {
+        "name" : "Kremmling",
+        "state" : "Colorado",
+        "FIPS" : "08-41560",
+        "counties" : [
+            "Grand County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 1444,
+        "population_2020" : 1509,
+        "population_2027" : 1646,
+        "land_area_2020" : 1.308
+    },
+    "La Jara, Conejos County, CO" : {
+        "name" : "La Jara",
+        "state" : "Colorado",
+        "FIPS" : "08-42055",
+        "counties" : [
+            "Conejos County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 818,
+        "population_2020" : 730,
+        "population_2027" : 716,
+        "land_area_2020" : 0.408
+    },
+    "La Junta, Otero County, CO" : {
+        "name" : "La Junta",
+        "state" : "Colorado",
+        "FIPS" : "08-42110",
+        "counties" : [
+            "Otero County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 7077,
+        "population_2020" : 7322,
+        "population_2027" : 7930,
+        "land_area_2020" : 3.186
+    },
+    "La Veta, Huerfano County, CO" : {
+        "name" : "La Veta",
+        "state" : "Colorado",
+        "FIPS" : "08-44100",
+        "counties" : [
+            "Huerfano County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 800,
+        "population_2020" : 862,
+        "population_2027" : 962,
+        "land_area_2020" : 1.367
+    },
+    "Lafayette, Boulder County, CO" : {
+        "name" : "Lafayette",
+        "state" : "Colorado",
+        "FIPS" : "08-41835",
+        "counties" : [
+            "Boulder County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 24453,
+        "population_2020" : 30411,
+        "population_2027" : 38007,
+        "land_area_2020" : 9.223
+    },
+    "Lake City, Hinsdale County, CO" : {
+        "name" : "Lake City",
+        "state" : "Colorado",
+        "FIPS" : "08-42330",
+        "counties" : [
+            "Hinsdale County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 408,
+        "population_2020" : 432,
+        "population_2027" : 476,
+        "land_area_2020" : 0.828
+    },
+    "Lakeside, Jefferson County, CO" : {
+        "name" : "Lakeside",
+        "state" : "Colorado",
+        "FIPS" : "08-42495",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 8,
+        "population_2020" : 16,
+        "population_2027" : 33,
+        "land_area_2020" : 0.188
+    },
+    "Lakewood, Jefferson County, CO" : {
+        "name" : "Lakewood",
+        "state" : "Colorado",
+        "FIPS" : "08-43000",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 142980,
+        "population_2020" : 155984,
+        "population_2027" : 175635,
+        "land_area_2020" : 43.473
+    },
+    "Lamar, Prowers County, CO" : {
+        "name" : "Lamar",
+        "state" : "Colorado",
+        "FIPS" : "08-43110",
+        "counties" : [
+            "Prowers County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 7804,
+        "population_2020" : 7687,
+        "population_2027" : 8044,
+        "land_area_2020" : 5.212
+    },
+    "Larkspur, Douglas County, CO" : {
+        "name" : "Larkspur",
+        "state" : "Colorado",
+        "FIPS" : "08-43550",
+        "counties" : [
+            "Douglas County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 183,
+        "population_2020" : 206,
+        "population_2027" : 238,
+        "land_area_2020" : 1.591
+    },
+    "Las Animas, Bent County, CO" : {
+        "name" : "Las Animas",
+        "state" : "Colorado",
+        "FIPS" : "08-43660",
+        "counties" : [
+            "Bent County"
+        ],
+        "type_class" : "Statutory City",
+        "population_2010" : 2410,
+        "population_2020" : 2300,
+        "population_2027" : 2356,
+        "land_area_2020" : 1.626
+    },
+    "LaSalle, Weld County, CO" : {
+        "name" : "LaSalle",
+        "state" : "Colorado",
+        "FIPS" : "08-43605",
+        "counties" : [
+            "Weld County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 1955,
+        "population_2020" : 2359,
+        "population_2027" : 2875,
+        "land_area_2020" : 0.958
+    },
+    "Leadville, Lake County, CO" : {
+        "name" : "Leadville",
+        "state" : "Colorado",
+        "FIPS" : "08-44320",
+        "counties" : [
+            "Lake County"
+        ],
+        "type_class" : "Statutory City",
+        "population_2010" : 2602,
+        "population_2020" : 2633,
+        "population_2027" : 2807,
+        "land_area_2020" : 1.174
+    },
+    "Limon, Lincoln County, CO" : {
+        "name" : "Limon",
+        "state" : "Colorado",
+        "FIPS" : "08-44980",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 1880,
+        "population_2020" : 2043,
+        "population_2027" : 2294,
+        "land_area_2020" : 3.162
+    },
+    "Littleton, Arapahoe County, CO" : {
+        "name" : "Littleton",
+        "state" : "Colorado",
+        "FIPS" : "08-45255",
+        "counties" : [
+            "Arapahoe County",
+            "Jefferson County",
+            "Douglas County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 41737,
+        "population_2020" : 45652,
+        "population_2027" : 51504,
+        "land_area_2020" : 12.629
+    },
+    "Lochbuie, Weld County, CO" : {
+        "name" : "Lochbuie",
+        "state" : "Colorado",
+        "FIPS" : "08-45530",
+        "counties" : [
+            "Weld County",
+            "Adams County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 4726,
+        "population_2020" : 8088,
+        "population_2027" : 13784,
+        "land_area_2020" : 3.685
+    },
+    "Log Lane Village, Morgan County, CO" : {
+        "name" : "Log Lane Village",
+        "state" : "Colorado",
+        "FIPS" : "08-45695",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 873,
+        "population_2020" : 913,
+        "population_2027" : 997,
+        "land_area_2020" : 0.196
+    },
+    "Lone Tree, Douglas County, CO" : {
+        "name" : "Lone Tree",
+        "state" : "Colorado",
+        "FIPS" : "08-45955",
+        "counties" : [
+            "Douglas County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 10218,
+        "population_2020" : 14253,
+        "population_2027" : 19722,
+        "land_area_2020" : 9.808
+    },
+    "Longmont, Boulder County, CO" : {
+        "name" : "Longmont",
+        "state" : "Colorado",
+        "FIPS" : "08-45970",
+        "counties" : [
+            "Boulder County",
+            "Weld County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 86270,
+        "population_2020" : 98885,
+        "population_2027" : 115648,
+        "land_area_2020" : 28.778
+    },
+    "Louisville, Boulder County, CO" : {
+        "name" : "Louisville",
+        "state" : "Colorado",
+        "FIPS" : "08-46355",
+        "counties" : [
+            "Boulder County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 18376,
+        "population_2020" : 21226,
+        "population_2027" : 24975,
+        "land_area_2020" : 7.964
+    },
+    "Loveland, Larimer County, CO" : {
+        "name" : "Loveland",
+        "state" : "Colorado",
+        "FIPS" : "08-46465",
+        "counties" : [
+            "Larimer County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 66859,
+        "population_2020" : 76378,
+        "population_2027" : 89090,
+        "land_area_2020" : 34.419
+    },
+    "Lyons, Boulder County, CO" : {
+        "name" : "Lyons",
+        "state" : "Colorado",
+        "FIPS" : "08-47070",
+        "counties" : [
+            "Boulder County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 2033,
+        "population_2020" : 2209,
+        "population_2027" : 2480,
+        "land_area_2020" : 1.349
+    },
+    "Manassa, Conejos County, CO" : {
+        "name" : "Manassa",
+        "state" : "Colorado",
+        "FIPS" : "08-48060",
+        "counties" : [
+            "Conejos County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 991,
+        "population_2020" : 947,
+        "population_2027" : 971,
+        "land_area_2020" : 0.931
+    },
+    "Mancos, Montezuma County, CO" : {
+        "name" : "Mancos",
+        "state" : "Colorado",
+        "FIPS" : "08-48115",
+        "counties" : [
+            "Montezuma County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 1336,
+        "population_2020" : 1196,
+        "population_2027" : 1175,
+        "land_area_2020" : 0.642
+    },
+    "Manitou Springs, El Paso County, CO" : {
+        "name" : "Manitou Springs",
+        "state" : "Colorado",
+        "FIPS" : "08-48445",
+        "counties" : [
+            "El Paso County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 4992,
+        "population_2020" : 4858,
+        "population_2027" : 5042,
+        "land_area_2020" : 3.149
+    },
+    "Manzanola, Otero County, CO" : {
+        "name" : "Manzanola",
+        "state" : "Colorado",
+        "FIPS" : "08-48500",
+        "counties" : [
+            "Otero County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 434,
+        "population_2020" : 341,
+        "population_2027" : 310,
+        "land_area_2020" : 0.284
+    },
+    "Marble, Gunnison County, CO" : {
+        "name" : "Marble",
+        "state" : "Colorado",
+        "FIPS" : "08-48555",
+        "counties" : [
+            "Gunnison County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 131,
+        "population_2020" : 133,
+        "population_2027" : 142,
+        "land_area_2020" : 0.36
+    },
+    "Mead, Weld County, CO" : {
+        "name" : "Mead",
+        "state" : "Colorado",
+        "FIPS" : "08-49600",
+        "counties" : [
+            "Weld County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 3405,
+        "population_2020" : 4781,
+        "population_2027" : 6656,
+        "land_area_2020" : 13.001
+    },
+    "Meeker, Rio Blanco County, CO" : {
+        "name" : "Meeker",
+        "state" : "Colorado",
+        "FIPS" : "08-49875",
+        "counties" : [
+            "Rio Blanco County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 2475,
+        "population_2020" : 2374,
+        "population_2027" : 2440,
+        "land_area_2020" : 3.589
+    },
+    "Merino, Logan County, CO" : {
+        "name" : "Merino",
+        "state" : "Colorado",
+        "FIPS" : "08-50040",
+        "counties" : [
+            "Logan County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 284,
+        "population_2020" : 281,
+        "population_2027" : 295,
+        "land_area_2020" : 0.152
+    },
+    "Milliken, Weld County, CO" : {
+        "name" : "Milliken",
+        "state" : "Colorado",
+        "FIPS" : "08-50480",
+        "counties" : [
+            "Weld County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 5610,
+        "population_2020" : 8386,
+        "population_2027" : 12401,
+        "land_area_2020" : 12.815
+    },
+    "Minturn, Eagle County, CO" : {
+        "name" : "Minturn",
+        "state" : "Colorado",
+        "FIPS" : "08-50920",
+        "counties" : [
+            "Eagle County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 1027,
+        "population_2020" : 1033,
+        "population_2027" : 1097,
+        "land_area_2020" : 8.018
+    },
+    "Moffat, Saguache County, CO" : {
+        "name" : "Moffat",
+        "state" : "Colorado",
+        "FIPS" : "08-51250",
+        "counties" : [
+            "Saguache County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 116,
+        "population_2020" : 108,
+        "population_2027" : 109,
+        "land_area_2020" : 1.666
+    },
+    "Monte Vista, Rio Grande County, CO" : {
+        "name" : "Monte Vista",
+        "state" : "Colorado",
+        "FIPS" : "08-51635",
+        "counties" : [
+            "Rio Grande County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 4444,
+        "population_2020" : 4247,
+        "population_2027" : 4354,
+        "land_area_2020" : 2.633
+    },
+    "Montezuma, Summit County, CO" : {
+        "name" : "Montezuma",
+        "state" : "Colorado",
+        "FIPS" : "08-51690",
+        "counties" : [
+            "Summit County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 65,
+        "population_2020" : 74,
+        "population_2027" : 86,
+        "land_area_2020" : 0.079
+    },
+    "Montrose, Montrose County, CO" : {
+        "name" : "Montrose",
+        "state" : "Colorado",
+        "FIPS" : "08-51745",
+        "counties" : [
+            "Montrose County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 19132,
+        "population_2020" : 20291,
+        "population_2027" : 22374,
+        "land_area_2020" : 18.477
+    },
+    "Monument, El Paso County, CO" : {
+        "name" : "Monument",
+        "state" : "Colorado",
+        "FIPS" : "08-51800",
+        "counties" : [
+            "El Paso County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 5530,
+        "population_2020" : 10399,
+        "population_2027" : 19760,
+        "land_area_2020" : 6.843
+    },
+    "Morrison, Jefferson County, CO" : {
+        "name" : "Morrison",
+        "state" : "Colorado",
+        "FIPS" : "08-52075",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 428,
+        "population_2020" : 396,
+        "population_2027" : 397,
+        "land_area_2020" : 1.645
+    },
+    "Mount Crested Butte, Gunnison County, CO" : {
+        "name" : "Mount Crested Butte",
+        "state" : "Colorado",
+        "FIPS" : "08-52570",
+        "counties" : [
+            "Gunnison County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 801,
+        "population_2020" : 941,
+        "population_2027" : 1122,
+        "land_area_2020" : 2.068
+    },
+    "Mountain View, Jefferson County, CO" : {
+        "name" : "Mountain View",
+        "state" : "Colorado",
+        "FIPS" : "08-52350",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 507,
+        "population_2020" : 541,
+        "population_2027" : 599,
+        "land_area_2020" : 0.093
+    },
+    "Mountain Village, San Miguel County, CO" : {
+        "name" : "Mountain Village",
+        "state" : "Colorado",
+        "FIPS" : "08-52550",
+        "counties" : [
+            "San Miguel County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 1320,
+        "population_2020" : 1264,
+        "population_2027" : 1298,
+        "land_area_2020" : 3.3
+    },
+    "Naturita, Montrose County, CO" : {
+        "name" : "Naturita",
+        "state" : "Colorado",
+        "FIPS" : "08-53120",
+        "counties" : [
+            "Montrose County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 546,
+        "population_2020" : 485,
+        "population_2027" : 474,
+        "land_area_2020" : 0.615
+    },
+    "Nederland, Boulder County, CO" : {
+        "name" : "Nederland",
+        "state" : "Colorado",
+        "FIPS" : "08-53175",
+        "counties" : [
+            "Boulder County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 1445,
+        "population_2020" : 1471,
+        "population_2027" : 1575,
+        "land_area_2020" : 1.48
+    },
+    "New Castle, Garfield County, CO" : {
+        "name" : "New Castle",
+        "state" : "Colorado",
+        "FIPS" : "08-53395",
+        "counties" : [
+            "Garfield County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 4518,
+        "population_2020" : 4923,
+        "population_2027" : 5538,
+        "land_area_2020" : 2.517
+    },
+    "Northglenn, Adams County, CO" : {
+        "name" : "Northglenn",
+        "state" : "Colorado",
+        "FIPS" : "08-54330",
+        "counties" : [
+            "Adams County",
+            "Weld County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 35789,
+        "population_2020" : 38131,
+        "population_2027" : 42187,
+        "land_area_2020" : 7.359
+    },
+    "Norwood, San Miguel County, CO" : {
+        "name" : "Norwood",
+        "state" : "Colorado",
+        "FIPS" : "08-54880",
+        "counties" : [
+            "San Miguel County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 518,
+        "population_2020" : 535,
+        "population_2027" : 579,
+        "land_area_2020" : 0.283
+    },
+    "Nucla, Montrose County, CO" : {
+        "name" : "Nucla",
+        "state" : "Colorado",
+        "FIPS" : "08-54935",
+        "counties" : [
+            "Montrose County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 711,
+        "population_2020" : 585,
+        "population_2027" : 546,
+        "land_area_2020" : 0.694
+    },
+    "Nunn, Weld County, CO" : {
+        "name" : "Nunn",
+        "state" : "Colorado",
+        "FIPS" : "08-55045",
+        "counties" : [
+            "Weld County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 416,
+        "population_2020" : 504,
+        "population_2027" : 616,
+        "land_area_2020" : 3.964
+    },
+    "Oak Creek, Routt County, CO" : {
+        "name" : "Oak Creek",
+        "state" : "Colorado",
+        "FIPS" : "08-55155",
+        "counties" : [
+            "Routt County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 884,
+        "population_2020" : 889,
+        "population_2027" : 944,
+        "land_area_2020" : 0.356
+    },
+    "Olathe, Montrose County, CO" : {
+        "name" : "Olathe",
+        "state" : "Colorado",
+        "FIPS" : "08-55540",
+        "counties" : [
+            "Montrose County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 1849,
+        "population_2020" : 2019,
+        "population_2027" : 2275,
+        "land_area_2020" : 1.502
+    },
+    "Olney Springs, Crowley County, CO" : {
+        "name" : "Olney Springs",
+        "state" : "Colorado",
+        "FIPS" : "08-55705",
+        "counties" : [
+            "Crowley County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 345,
+        "population_2020" : 315,
+        "population_2027" : 313,
+        "land_area_2020" : 0.241
+    },
+    "Ophir, San Miguel County, CO" : {
+        "name" : "Ophir",
+        "state" : "Colorado",
+        "FIPS" : "08-55870",
+        "counties" : [
+            "San Miguel County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 159,
+        "population_2020" : 197,
+        "population_2027" : 245,
+        "land_area_2020" : 0.235
+    },
+    "Orchard City, Delta County, CO" : {
+        "name" : "Orchard City",
+        "state" : "Colorado",
+        "FIPS" : "08-55980",
+        "counties" : [
+            "Delta County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 3119,
+        "population_2020" : 3142,
+        "population_2027" : 3339,
+        "land_area_2020" : 11.521
+    },
+    "Ordway, Crowley County, CO" : {
+        "name" : "Ordway",
+        "state" : "Colorado",
+        "FIPS" : "08-56145",
+        "counties" : [
+            "Crowley County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 1080,
+        "population_2020" : 1066,
+        "population_2027" : 1117,
+        "land_area_2020" : 0.771
+    },
+    "Otis, Washington County, CO" : {
+        "name" : "Otis",
+        "state" : "Colorado",
+        "FIPS" : "08-56365",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 475,
+        "population_2020" : 511,
+        "population_2027" : 569,
+        "land_area_2020" : 0.413
+    },
+    "Ouray, Ouray County, CO" : {
+        "name" : "Ouray",
+        "state" : "Colorado",
+        "FIPS" : "08-56420",
+        "counties" : [
+            "Ouray County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 1000,
+        "population_2020" : 898,
+        "population_2027" : 884,
+        "land_area_2020" : 0.863
+    },
+    "Ovid, Sedgwick County, CO" : {
+        "name" : "Ovid",
+        "state" : "Colorado",
+        "FIPS" : "08-56475",
+        "counties" : [
+            "Sedgwick County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 318,
+        "population_2020" : 271,
+        "population_2027" : 258,
+        "land_area_2020" : 0.156
+    },
+    "Pagosa Springs, Archuleta County, CO" : {
+        "name" : "Pagosa Springs",
+        "state" : "Colorado",
+        "FIPS" : "08-56860",
+        "counties" : [
+            "Archuleta County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 1727,
+        "population_2020" : 1571,
+        "population_2027" : 1560,
+        "land_area_2020" : 5.033
+    },
+    "Palisade, Mesa County, CO" : {
+        "name" : "Palisade",
+        "state" : "Colorado",
+        "FIPS" : "08-56970",
+        "counties" : [
+            "Mesa County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 2692,
+        "population_2020" : 2565,
+        "population_2027" : 2625,
+        "land_area_2020" : 1.188
+    },
+    "Palmer Lake, El Paso County, CO" : {
+        "name" : "Palmer Lake",
+        "state" : "Colorado",
+        "FIPS" : "08-57025",
+        "counties" : [
+            "El Paso County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 2420,
+        "population_2020" : 2636,
+        "population_2027" : 2965,
+        "land_area_2020" : 3.049
+    },
+    "Paoli, Phillips County, CO" : {
+        "name" : "Paoli",
+        "state" : "Colorado",
+        "FIPS" : "08-57245",
+        "counties" : [
+            "Phillips County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 34,
+        "population_2020" : 51,
+        "population_2027" : 76,
+        "land_area_2020" : 0.296
+    },
+    "Paonia, Delta County, CO" : {
+        "name" : "Paonia",
+        "state" : "Colorado",
+        "FIPS" : "08-57300",
+        "counties" : [
+            "Delta County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 1451,
+        "population_2020" : 1447,
+        "population_2027" : 1527,
+        "land_area_2020" : 0.821
+    },
+    "Parachute, Garfield County, CO" : {
+        "name" : "Parachute",
+        "state" : "Colorado",
+        "FIPS" : "08-57400",
+        "counties" : [
+            "Garfield County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 1085,
+        "population_2020" : 1390,
+        "population_2027" : 1782,
+        "land_area_2020" : 1.806
+    },
+    "Parker, Douglas County, CO" : {
+        "name" : "Parker",
+        "state" : "Colorado",
+        "FIPS" : "08-57630",
+        "counties" : [
+            "Douglas County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 45297,
+        "population_2020" : 58512,
+        "population_2027" : 75545,
+        "land_area_2020" : 22.335
+    },
+    "Peetz, Logan County, CO" : {
+        "name" : "Peetz",
+        "state" : "Colorado",
+        "FIPS" : "08-58235",
+        "counties" : [
+            "Logan County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 238,
+        "population_2020" : 213,
+        "population_2027" : 209,
+        "land_area_2020" : 0.223
+    },
+    "Pierce, Weld County, CO" : {
+        "name" : "Pierce",
+        "state" : "Colorado",
+        "FIPS" : "08-59005",
+        "counties" : [
+            "Weld County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 834,
+        "population_2020" : 1097,
+        "population_2027" : 1439,
+        "land_area_2020" : 1.858
+    },
+    "Pitkin, Gunnison County, CO" : {
+        "name" : "Pitkin",
+        "state" : "Colorado",
+        "FIPS" : "08-59830",
+        "counties" : [
+            "Gunnison County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 66,
+        "population_2020" : 72,
+        "population_2027" : 81,
+        "land_area_2020" : 0.258
+    },
+    "Platteville, Weld County, CO" : {
+        "name" : "Platteville",
+        "state" : "Colorado",
+        "FIPS" : "08-60160",
+        "counties" : [
+            "Weld County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 2485,
+        "population_2020" : 2955,
+        "population_2027" : 3559,
+        "land_area_2020" : 3.073
+    },
+    "Poncha Springs, Chaffee County, CO" : {
+        "name" : "Poncha Springs",
+        "state" : "Colorado",
+        "FIPS" : "08-60600",
+        "counties" : [
+            "Chaffee County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 737,
+        "population_2020" : 925,
+        "population_2027" : 1165,
+        "land_area_2020" : 2.984
+    },
+    "Pritchett, Baca County, CO" : {
+        "name" : "Pritchett",
+        "state" : "Colorado",
+        "FIPS" : "08-61315",
+        "counties" : [
+            "Baca County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 140,
+        "population_2020" : 112,
+        "population_2027" : 103,
+        "land_area_2020" : 0.233
+    },
+    "Pueblo, Pueblo County, CO" : {
+        "name" : "Pueblo",
+        "state" : "Colorado",
+        "FIPS" : "08-62000",
+        "counties" : [
+            "Pueblo County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 106595,
+        "population_2020" : 111876,
+        "population_2027" : 122424,
+        "land_area_2020" : 55.382
+    },
+    "Ramah, El Paso County, CO" : {
+        "name" : "Ramah",
+        "state" : "Colorado",
+        "FIPS" : "08-62660",
+        "counties" : [
+            "El Paso County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 123,
+        "population_2020" : 111,
+        "population_2027" : 110,
+        "land_area_2020" : 0.246
+    },
+    "Rangely, Rio Blanco County, CO" : {
+        "name" : "Rangely",
+        "state" : "Colorado",
+        "FIPS" : "08-62880",
+        "counties" : [
+            "Rio Blanco County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 2365,
+        "population_2020" : 2299,
+        "population_2027" : 2384,
+        "land_area_2020" : 4.304
+    },
+    "Raymer, Weld County, CO" : {
+        "name" : "Raymer",
+        "state" : "Colorado",
+        "FIPS" : "08-63045",
+        "counties" : [
+            "Weld County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 96,
+        "population_2020" : 110,
+        "population_2027" : 129,
+        "land_area_2020" : 0.784
+    },
+    "Red Cliff, Eagle County, CO" : {
+        "name" : "Red Cliff",
+        "state" : "Colorado",
+        "FIPS" : "08-63265",
+        "counties" : [
+            "Eagle County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 267,
+        "population_2020" : 257,
+        "population_2027" : 265,
+        "land_area_2020" : 0.244
+    },
+    "Rico, Dolores County, CO" : {
+        "name" : "Rico",
+        "state" : "Colorado",
+        "FIPS" : "08-64090",
+        "counties" : [
+            "Dolores County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 265,
+        "population_2020" : 288,
+        "population_2027" : 323,
+        "land_area_2020" : 0.678
+    },
+    "Ridgway, Ouray County, CO" : {
+        "name" : "Ridgway",
+        "state" : "Colorado",
+        "FIPS" : "08-64200",
+        "counties" : [
+            "Ouray County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 924,
+        "population_2020" : 1183,
+        "population_2027" : 1516,
+        "land_area_2020" : 1.848
+    },
+    "Rifle, Garfield County, CO" : {
+        "name" : "Rifle",
+        "state" : "Colorado",
+        "FIPS" : "08-64255",
+        "counties" : [
+            "Garfield County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 9172,
+        "population_2020" : 10437,
+        "population_2027" : 12137,
+        "land_area_2020" : 7.034
+    },
+    "Rockvale, Fremont County, CO" : {
+        "name" : "Rockvale",
+        "state" : "Colorado",
+        "FIPS" : "08-64970",
+        "counties" : [
+            "Fremont County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 487,
+        "population_2020" : 511,
+        "population_2027" : 559,
+        "land_area_2020" : 2.04
+    },
+    "Rocky Ford, Otero County, CO" : {
+        "name" : "Rocky Ford",
+        "state" : "Colorado",
+        "FIPS" : "08-65190",
+        "counties" : [
+            "Otero County"
+        ],
+        "type_class" : "Statutory City",
+        "population_2010" : 3957,
+        "population_2020" : 3876,
+        "population_2027" : 4040,
+        "land_area_2020" : 1.679
+    },
+    "Romeo, Conejos County, CO" : {
+        "name" : "Romeo",
+        "state" : "Colorado",
+        "FIPS" : "08-65740",
+        "counties" : [
+            "Conejos County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 404,
+        "population_2020" : 302,
+        "population_2027" : 267,
+        "land_area_2020" : 0.233
+    },
+    "Rye, Pueblo County, CO" : {
+        "name" : "Rye",
+        "state" : "Colorado",
+        "FIPS" : "08-66895",
+        "counties" : [
+            "Pueblo County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 153,
+        "population_2020" : 206,
+        "population_2027" : 276,
+        "land_area_2020" : 0.094
+    },
+    "Saguache, Saguache County, CO" : {
+        "name" : "Saguache",
+        "state" : "Colorado",
+        "FIPS" : "08-67005",
+        "counties" : [
+            "Saguache County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 485,
+        "population_2020" : 539,
+        "population_2027" : 615,
+        "land_area_2020" : 0.394
+    },
+    "Salida, Chaffee County, CO" : {
+        "name" : "Salida",
+        "state" : "Colorado",
+        "FIPS" : "08-67280",
+        "counties" : [
+            "Chaffee County"
+        ],
+        "type_class" : "Statutory City",
+        "population_2010" : 5236,
+        "population_2020" : 5666,
+        "population_2027" : 6341,
+        "land_area_2020" : 2.792
+    },
+    "San Luis, Costilla County, CO" : {
+        "name" : "San Luis",
+        "state" : "Colorado",
+        "FIPS" : "08-68105",
+        "counties" : [
+            "Costilla County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 629,
+        "population_2020" : 598,
+        "population_2027" : 611,
+        "land_area_2020" : 0.567
+    },
+    "Sanford, Conejos County, CO" : {
+        "name" : "Sanford",
+        "state" : "Colorado",
+        "FIPS" : "08-67830",
+        "counties" : [
+            "Conejos County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 879,
+        "population_2020" : 879,
+        "population_2027" : 929,
+        "land_area_2020" : 1.46
+    },
+    "Sawpit, San Miguel County, CO" : {
+        "name" : "Sawpit",
+        "state" : "Colorado",
+        "FIPS" : "08-68655",
+        "counties" : [
+            "San Miguel County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 40,
+        "population_2020" : 38,
+        "population_2027" : 39,
+        "land_area_2020" : 0.03
+    },
+    "Sedgwick, Sedgwick County, CO" : {
+        "name" : "Sedgwick",
+        "state" : "Colorado",
+        "FIPS" : "08-68930",
+        "counties" : [
+            "Sedgwick County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 146,
+        "population_2020" : 172,
+        "population_2027" : 206,
+        "land_area_2020" : 0.389
+    },
+    "Seibert, Kit Carson County, CO" : {
+        "name" : "Seibert",
+        "state" : "Colorado",
+        "FIPS" : "08-69040",
+        "counties" : [
+            "Kit Carson County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 181,
+        "population_2020" : 172,
+        "population_2027" : 176,
+        "land_area_2020" : 0.343
+    },
+    "Severance, Weld County, CO" : {
+        "name" : "Severance",
+        "state" : "Colorado",
+        "FIPS" : "08-69150",
+        "counties" : [
+            "Weld County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 3165,
+        "population_2020" : 7683,
+        "population_2027" : 20530,
+        "land_area_2020" : 9.098
+    },
+    "Sheridan, Arapahoe County, CO" : {
+        "name" : "Sheridan",
+        "state" : "Colorado",
+        "FIPS" : "08-69645",
+        "counties" : [
+            "Arapahoe County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 5664,
+        "population_2020" : 6105,
+        "population_2027" : 6812,
+        "land_area_2020" : 2.223
+    },
+    "Sheridan Lake, Kiowa County, CO" : {
+        "name" : "Sheridan Lake",
+        "state" : "Colorado",
+        "FIPS" : "08-69700",
+        "counties" : [
+            "Kiowa County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 88,
+        "population_2020" : 55,
+        "population_2027" : 45,
+        "land_area_2020" : 0.311
+    },
+    "Silt, Garfield County, CO" : {
+        "name" : "Silt",
+        "state" : "Colorado",
+        "FIPS" : "08-70195",
+        "counties" : [
+            "Garfield County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 2930,
+        "population_2020" : 3536,
+        "population_2027" : 4310,
+        "land_area_2020" : 1.655
+    },
+    "Silver Cliff, Custer County, CO" : {
+        "name" : "Silver Cliff",
+        "state" : "Colorado",
+        "FIPS" : "08-70250",
+        "counties" : [
+            "Custer County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 587,
+        "population_2020" : 609,
+        "population_2027" : 661,
+        "land_area_2020" : 15.458
+    },
+    "Silver Plume, Clear Creek County, CO" : {
+        "name" : "Silver Plume",
+        "state" : "Colorado",
+        "FIPS" : "08-70360",
+        "counties" : [
+            "Clear Creek County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 170,
+        "population_2020" : 207,
+        "population_2027" : 254,
+        "land_area_2020" : 0.259
+    },
+    "Silverthorne, Summit County, CO" : {
+        "name" : "Silverthorne",
+        "state" : "Colorado",
+        "FIPS" : "08-70525",
+        "counties" : [
+            "Summit County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 3887,
+        "population_2020" : 4402,
+        "population_2027" : 5100,
+        "land_area_2020" : 4.001
+    },
+    "Silverton, San Juan County, CO" : {
+        "name" : "Silverton",
+        "state" : "Colorado",
+        "FIPS" : "08-70580",
+        "counties" : [
+            "San Juan County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 637,
+        "population_2020" : 622,
+        "population_2027" : 647,
+        "land_area_2020" : 0.835
+    },
+    "Simla, Elbert County, CO" : {
+        "name" : "Simla",
+        "state" : "Colorado",
+        "FIPS" : "08-70635",
+        "counties" : [
+            "Elbert County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 618,
+        "population_2020" : 601,
+        "population_2027" : 623,
+        "land_area_2020" : 0.616
+    },
+    "Snowmass Village, Pitkin County, CO" : {
+        "name" : "Snowmass Village",
+        "state" : "Colorado",
+        "FIPS" : "08-71755",
+        "counties" : [
+            "Pitkin County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 2826,
+        "population_2020" : 3096,
+        "population_2027" : 3497,
+        "land_area_2020" : 27.782
+    },
+    "South Fork, Rio Grande County, CO" : {
+        "name" : "South Fork",
+        "state" : "Colorado",
+        "FIPS" : "08-72395",
+        "counties" : [
+            "Rio Grande County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 386,
+        "population_2020" : 510,
+        "population_2027" : 672,
+        "land_area_2020" : 2.498
+    },
+    "Springfield, Baca County, CO" : {
+        "name" : "Springfield",
+        "state" : "Colorado",
+        "FIPS" : "08-73330",
+        "counties" : [
+            "Baca County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 1451,
+        "population_2020" : 1325,
+        "population_2027" : 1319,
+        "land_area_2020" : 1.126
+    },
+    "Starkville, Las Animas County, CO" : {
+        "name" : "Starkville",
+        "state" : "Colorado",
+        "FIPS" : "08-73715",
+        "counties" : [
+            "Las Animas County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 59,
+        "population_2020" : 62,
+        "population_2027" : 68,
+        "land_area_2020" : 0.073
+    },
+    "Steamboat Springs, Routt County, CO" : {
+        "name" : "Steamboat Springs",
+        "state" : "Colorado",
+        "FIPS" : "08-73825",
+        "counties" : [
+            "Routt County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 12088,
+        "population_2020" : 13224,
+        "population_2027" : 14921,
+        "land_area_2020" : 9.888
+    },
+    "Sterling, Logan County, CO" : {
+        "name" : "Sterling",
+        "state" : "Colorado",
+        "FIPS" : "08-73935",
+        "counties" : [
+            "Logan County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 14777,
+        "population_2020" : 13735,
+        "population_2027" : 13826,
+        "land_area_2020" : 7.583
+    },
+    "Stratton, Kit Carson County, CO" : {
+        "name" : "Stratton",
+        "state" : "Colorado",
+        "FIPS" : "08-74485",
+        "counties" : [
+            "Kit Carson County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 658,
+        "population_2020" : 656,
+        "population_2027" : 692,
+        "land_area_2020" : 0.514
+    },
+    "Sugar City, Crowley County, CO" : {
+        "name" : "Sugar City",
+        "state" : "Colorado",
+        "FIPS" : "08-74815",
+        "counties" : [
+            "Crowley County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 258,
+        "population_2020" : 259,
+        "population_2027" : 275,
+        "land_area_2020" : 0.385
+    },
+    "Superior, Boulder County, CO" : {
+        "name" : "Superior",
+        "state" : "Colorado",
+        "FIPS" : "08-75640",
+        "counties" : [
+            "Boulder County",
+            "Jefferson County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 12483,
+        "population_2020" : 13094,
+        "population_2027" : 14323,
+        "land_area_2020" : 3.933
+    },
+    "Swink, Otero County, CO" : {
+        "name" : "Swink",
+        "state" : "Colorado",
+        "FIPS" : "08-75970",
+        "counties" : [
+            "Otero County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 617,
+        "population_2020" : 604,
+        "population_2027" : 629,
+        "land_area_2020" : 0.28
+    },
+    "Telluride, San Miguel County, CO" : {
+        "name" : "Telluride",
+        "state" : "Colorado",
+        "FIPS" : "08-76795",
+        "counties" : [
+            "San Miguel County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 2325,
+        "population_2020" : 2607,
+        "population_2027" : 2997,
+        "land_area_2020" : 2.222
+    },
+    "Thornton, Adams County, CO" : {
+        "name" : "Thornton",
+        "state" : "Colorado",
+        "FIPS" : "08-77290",
+        "counties" : [
+            "Adams County",
+            "Weld County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 118772,
+        "population_2020" : 141867,
+        "population_2027" : 171471,
+        "land_area_2020" : 35.924
+    },
+    "Timnath, Larimer County, CO" : {
+        "name" : "Timnath",
+        "state" : "Colorado",
+        "FIPS" : "08-77510",
+        "counties" : [
+            "Larimer County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 625,
+        "population_2020" : 6487,
+        "population_2027" : 32345,
+        "land_area_2020" : 6.565
+    },
+    "Trinidad, Las Animas County, CO" : {
+        "name" : "Trinidad",
+        "state" : "Colorado",
+        "FIPS" : "08-78610",
+        "counties" : [
+            "Las Animas County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 9096,
+        "population_2020" : 8329,
+        "population_2027" : 8304,
+        "land_area_2020" : 9.385
+    },
+    "Two Buttes, Baca County, CO" : {
+        "name" : "Two Buttes",
+        "state" : "Colorado",
+        "FIPS" : "08-79270",
+        "counties" : [
+            "Baca County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 43,
+        "population_2020" : 34,
+        "population_2027" : 31,
+        "land_area_2020" : 0.248
+    },
+    "Vail, Eagle County, CO" : {
+        "name" : "Vail",
+        "state" : "Colorado",
+        "FIPS" : "08-80040",
+        "counties" : [
+            "Eagle County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 5305,
+        "population_2020" : 4835,
+        "population_2027" : 4806,
+        "land_area_2020" : 4.706
+    },
+    "Victor, Teller County, CO" : {
+        "name" : "Victor",
+        "state" : "Colorado",
+        "FIPS" : "08-80865",
+        "counties" : [
+            "Teller County"
+        ],
+        "type_class" : "Statutory City",
+        "population_2010" : 397,
+        "population_2020" : 379,
+        "population_2027" : 388,
+        "land_area_2020" : 0.287
+    },
+    "Vilas, Baca County, CO" : {
+        "name" : "Vilas",
+        "state" : "Colorado",
+        "FIPS" : "08-81030",
+        "counties" : [
+            "Baca County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 114,
+        "population_2020" : 98,
+        "population_2027" : 94,
+        "land_area_2020" : 0.128
+    },
+    "Vona, Kit Carson County, CO" : {
+        "name" : "Vona",
+        "state" : "Colorado",
+        "FIPS" : "08-81690",
+        "counties" : [
+            "Kit Carson County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 106,
+        "population_2020" : 95,
+        "population_2027" : 93,
+        "land_area_2020" : 0.221
+    },
+    "Walden, Jackson County, CO" : {
+        "name" : "Walden",
+        "state" : "Colorado",
+        "FIPS" : "08-82130",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 608,
+        "population_2020" : 606,
+        "population_2027" : 639,
+        "land_area_2020" : 0.335
+    },
+    "Walsenburg, Huerfano County, CO" : {
+        "name" : "Walsenburg",
+        "state" : "Colorado",
+        "FIPS" : "08-82350",
+        "counties" : [
+            "Huerfano County"
+        ],
+        "type_class" : "Statutory City",
+        "population_2010" : 3068,
+        "population_2020" : 3049,
+        "population_2027" : 3210,
+        "land_area_2020" : 2.99
+    },
+    "Walsh, Baca County, CO" : {
+        "name" : "Walsh",
+        "state" : "Colorado",
+        "FIPS" : "08-82460",
+        "counties" : [
+            "Baca County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 546,
+        "population_2020" : 543,
+        "population_2027" : 572,
+        "land_area_2020" : 0.447
+    },
+    "Ward, Boulder County, CO" : {
+        "name" : "Ward",
+        "state" : "Colorado",
+        "FIPS" : "08-82735",
+        "counties" : [
+            "Boulder County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 150,
+        "population_2020" : 128,
+        "population_2027" : 122,
+        "land_area_2020" : 0.536
+    },
+    "Wellington, Larimer County, CO" : {
+        "name" : "Wellington",
+        "state" : "Colorado",
+        "FIPS" : "08-83230",
+        "counties" : [
+            "Larimer County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 6289,
+        "population_2020" : 11047,
+        "population_2027" : 19386,
+        "land_area_2020" : 3.63
+    },
+    "Westcliffe, Custer County, CO" : {
+        "name" : "Westcliffe",
+        "state" : "Colorado",
+        "FIPS" : "08-83450",
+        "counties" : [
+            "Custer County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 568,
+        "population_2020" : 435,
+        "population_2027" : 390,
+        "land_area_2020" : 1.235
+    },
+    "Westminster, Adams County, CO" : {
+        "name" : "Westminster",
+        "state" : "Colorado",
+        "FIPS" : "08-83835",
+        "counties" : [
+            "Adams County",
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 106114,
+        "population_2020" : 116317,
+        "population_2027" : 131440,
+        "land_area_2020" : 31.585
+    },
+    "Wheat Ridge, Jefferson County, CO" : {
+        "name" : "Wheat Ridge",
+        "state" : "Colorado",
+        "FIPS" : "08-84440",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 30166,
+        "population_2020" : 32398,
+        "population_2027" : 36056,
+        "land_area_2020" : 9.344
+    },
+    "Wiggins, Morgan County, CO" : {
+        "name" : "Wiggins",
+        "state" : "Colorado",
+        "FIPS" : "08-84770",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 893,
+        "population_2020" : 1401,
+        "population_2027" : 2176,
+        "land_area_2020" : 1.323
+    },
+    "Wiley, Prowers County, CO" : {
+        "name" : "Wiley",
+        "state" : "Colorado",
+        "FIPS" : "08-85045",
+        "counties" : [
+            "Prowers County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 405,
+        "population_2020" : 437,
+        "population_2027" : 488,
+        "land_area_2020" : 0.311
+    },
+    "Williamsburg, Fremont County, CO" : {
+        "name" : "Williamsburg",
+        "state" : "Colorado",
+        "FIPS" : "08-85155",
+        "counties" : [
+            "Fremont County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 662,
+        "population_2020" : 731,
+        "population_2027" : 831,
+        "land_area_2020" : 3.532
+    },
+    "Windsor, Weld County, CO" : {
+        "name" : "Windsor",
+        "state" : "Colorado",
+        "FIPS" : "08-85485",
+        "counties" : [
+            "Weld County",
+            "Larimer County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 18644,
+        "population_2020" : 32716,
+        "population_2027" : 57345,
+        "land_area_2020" : 25.629
+    },
+    "Winter Park, Grand County, CO" : {
+        "name" : "Winter Park",
+        "state" : "Colorado",
+        "FIPS" : "08-85705",
+        "counties" : [
+            "Grand County"
+        ],
+        "type_class" : "Home Rule Town",
+        "population_2010" : 999,
+        "population_2020" : 1033,
+        "population_2027" : 1118,
+        "land_area_2020" : 16.889
+    },
+    "Woodland Park, Teller County, CO" : {
+        "name" : "Woodland Park",
+        "state" : "Colorado",
+        "FIPS" : "08-86090",
+        "counties" : [
+            "Teller County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 7200,
+        "population_2020" : 7920,
+        "population_2027" : 8973,
+        "land_area_2020" : 6.611
+    },
+    "Wray, Yuma County, CO" : {
+        "name" : "Wray",
+        "state" : "Colorado",
+        "FIPS" : "08-86310",
+        "counties" : [
+            "Yuma County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 2342,
+        "population_2020" : 2358,
+        "population_2027" : 2505,
+        "land_area_2020" : 3.479
+    },
+    "Yampa, Routt County, CO" : {
+        "name" : "Yampa",
+        "state" : "Colorado",
+        "FIPS" : "08-86475",
+        "counties" : [
+            "Routt County"
+        ],
+        "type_class" : "Statutory Town",
+        "population_2010" : 429,
+        "population_2020" : 399,
+        "population_2027" : 402,
+        "land_area_2020" : 0.24
+    },
+    "Yuma, Yuma County, CO" : {
+        "name" : "Yuma",
+        "state" : "Colorado",
+        "FIPS" : "08-86750",
+        "counties" : [
+            "Yuma County"
+        ],
+        "type_class" : "Home Rule City",
+        "population_2010" : 3524,
+        "population_2020" : 3456,
+        "population_2027" : 3606,
+        "land_area_2020" : 3.172
+    }
+}

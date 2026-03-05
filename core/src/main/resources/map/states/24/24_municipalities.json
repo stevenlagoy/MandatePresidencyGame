@@ -1,0 +1,2043 @@
+{
+    "Aberdeen, Harford County, MD" : {
+        "name" : "Aberdeen",
+        "state" : "Maryland",
+        "FIPS" : "24-00125",
+        "counties" : [
+            "Harford County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14959,
+        "population_2020" : 16254,
+        "population_2027" : 17689,
+        "land_area_2020" : 6.8
+    },
+    "Accident, Garrett County, MD" : {
+        "name" : "Accident",
+        "state" : "Maryland",
+        "FIPS" : "24-00225",
+        "counties" : [
+            "Garrett County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 325,
+        "population_2020" : 338,
+        "population_2027" : 356,
+        "land_area_2020" : 0.49
+    },
+    "Annapolis, Anne Arundel County, MD" : {
+        "name" : "Annapolis",
+        "state" : "Maryland",
+        "FIPS" : "24-01600",
+        "counties" : [
+            "Anne Arundel County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 38394,
+        "population_2020" : 40812,
+        "population_2027" : 43695,
+        "land_area_2020" : 7.18
+    },
+    "Baltimore, Independent city (United States), MD" : {
+        "name" : "Baltimore",
+        "state" : "Maryland",
+        "FIPS" : "24-04000",
+        "counties" : [
+            "Independent city (United States)"
+        ],
+        "type_class" : "City",
+        "population_2010" : 620961,
+        "population_2020" : 585708,
+        "population_2027" : 576840,
+        "land_area_2020" : 80.94
+    },
+    "Barclay, Queen Anne's County, MD" : {
+        "name" : "Barclay",
+        "state" : "Maryland",
+        "FIPS" : "24-04250",
+        "counties" : [
+            "Queen Anne's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 120,
+        "population_2020" : 183,
+        "population_2027" : 268,
+        "land_area_2020" : 0.16
+    },
+    "Barnesville, Montgomery County, MD" : {
+        "name" : "Barnesville",
+        "state" : "Maryland",
+        "FIPS" : "24-04475",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 172,
+        "population_2020" : 144,
+        "population_2027" : 132,
+        "land_area_2020" : 0.49
+    },
+    "Barton, Allegany County, MD" : {
+        "name" : "Barton",
+        "state" : "Maryland",
+        "FIPS" : "24-04625",
+        "counties" : [
+            "Allegany County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 457,
+        "population_2020" : 464,
+        "population_2027" : 481,
+        "land_area_2020" : 0.22
+    },
+    "Bel Air, Harford County, MD" : {
+        "name" : "Bel Air",
+        "state" : "Maryland",
+        "FIPS" : "24-05550",
+        "counties" : [
+            "Harford County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 10120,
+        "population_2020" : 10661,
+        "population_2027" : 11339,
+        "land_area_2020" : 2.93
+    },
+    "Berlin, Worcester County, MD" : {
+        "name" : "Berlin",
+        "state" : "Maryland",
+        "FIPS" : "24-06800",
+        "counties" : [
+            "Worcester County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4485,
+        "population_2020" : 5026,
+        "population_2027" : 5600,
+        "land_area_2020" : 3.15
+    },
+    "Berwyn Heights, Prince George's County, MD" : {
+        "name" : "Berwyn Heights",
+        "state" : "Maryland",
+        "FIPS" : "24-06925",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3123,
+        "population_2020" : 3345,
+        "population_2027" : 3601,
+        "land_area_2020" : 0.69
+    },
+    "Betterton, Kent County, MD" : {
+        "name" : "Betterton",
+        "state" : "Maryland",
+        "FIPS" : "24-07200",
+        "counties" : [
+            "Kent County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 345,
+        "population_2020" : 286,
+        "population_2027" : 260,
+        "land_area_2020" : 0.99
+    },
+    "Bladensburg, Prince George's County, MD" : {
+        "name" : "Bladensburg",
+        "state" : "Maryland",
+        "FIPS" : "24-07850",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9148,
+        "population_2020" : 9657,
+        "population_2027" : 10287,
+        "land_area_2020" : 1.0
+    },
+    "Boonsboro, Washington County, MD" : {
+        "name" : "Boonsboro",
+        "state" : "Maryland",
+        "FIPS" : "24-08625",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3336,
+        "population_2020" : 3799,
+        "population_2027" : 4286,
+        "land_area_2020" : 2.9
+    },
+    "Bowie, Prince George's County, MD" : {
+        "name" : "Bowie",
+        "state" : "Maryland",
+        "FIPS" : "24-08775",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 54727,
+        "population_2020" : 58329,
+        "population_2027" : 62572,
+        "land_area_2020" : 18.43
+    },
+    "Brentwood, Prince George's County, MD" : {
+        "name" : "Brentwood",
+        "state" : "Maryland",
+        "FIPS" : "24-09500",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3046,
+        "population_2020" : 3828,
+        "population_2027" : 4682,
+        "land_area_2020" : 0.38
+    },
+    "Brookeville, Montgomery County, MD" : {
+        "name" : "Brookeville",
+        "state" : "Maryland",
+        "FIPS" : "24-10225",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 134,
+        "population_2020" : 166,
+        "population_2027" : 201,
+        "land_area_2020" : 0.12
+    },
+    "Brookview, Dorchester County, MD" : {
+        "name" : "Brookview",
+        "state" : "Maryland",
+        "FIPS" : "24-10575",
+        "counties" : [
+            "Dorchester County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 60,
+        "population_2020" : 48,
+        "population_2027" : 43,
+        "land_area_2020" : 0.04
+    },
+    "Brunswick, Frederick County, MD" : {
+        "name" : "Brunswick",
+        "state" : "Maryland",
+        "FIPS" : "24-10900",
+        "counties" : [
+            "Frederick County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5870,
+        "population_2020" : 7762,
+        "population_2027" : 9924,
+        "land_area_2020" : 3.26
+    },
+    "Burkittsville, Frederick County, MD" : {
+        "name" : "Burkittsville",
+        "state" : "Maryland",
+        "FIPS" : "24-11400",
+        "counties" : [
+            "Frederick County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 151,
+        "population_2020" : 142,
+        "population_2027" : 140,
+        "land_area_2020" : 0.45
+    },
+    "Cambridge, Dorchester County, MD" : {
+        "name" : "Cambridge",
+        "state" : "Maryland",
+        "FIPS" : "24-12400",
+        "counties" : [
+            "Dorchester County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12326,
+        "population_2020" : 13096,
+        "population_2027" : 14016,
+        "land_area_2020" : 10.34
+    },
+    "Capitol Heights, Prince George's County, MD" : {
+        "name" : "Capitol Heights",
+        "state" : "Maryland",
+        "FIPS" : "24-13000",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4337,
+        "population_2020" : 4050,
+        "population_2027" : 3962,
+        "land_area_2020" : 0.8
+    },
+    "Cecilton, Cecil County, MD" : {
+        "name" : "Cecilton",
+        "state" : "Maryland",
+        "FIPS" : "24-14325",
+        "counties" : [
+            "Cecil County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 663,
+        "population_2020" : 676,
+        "population_2027" : 702,
+        "land_area_2020" : 0.46
+    },
+    "Centreville, Queen Anne's County, MD" : {
+        "name" : "Centreville",
+        "state" : "Maryland",
+        "FIPS" : "24-14950",
+        "counties" : [
+            "Queen Anne's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4285,
+        "population_2020" : 4727,
+        "population_2027" : 5204,
+        "land_area_2020" : 2.45
+    },
+    "Charlestown, Cecil County, MD" : {
+        "name" : "Charlestown",
+        "state" : "Maryland",
+        "FIPS" : "24-15400",
+        "counties" : [
+            "Cecil County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1183,
+        "population_2020" : 1496,
+        "population_2027" : 1839,
+        "land_area_2020" : 1.19
+    },
+    "Chesapeake Beach, Calvert County, MD" : {
+        "name" : "Chesapeake Beach",
+        "state" : "Maryland",
+        "FIPS" : "24-15925",
+        "counties" : [
+            "Calvert County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5753,
+        "population_2020" : 6356,
+        "population_2027" : 7005,
+        "land_area_2020" : 2.71
+    },
+    "Chesapeake City, Cecil County, MD" : {
+        "name" : "Chesapeake City",
+        "state" : "Maryland",
+        "FIPS" : "24-15950",
+        "counties" : [
+            "Cecil County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 673,
+        "population_2020" : 736,
+        "population_2027" : 805,
+        "land_area_2020" : 0.5
+    },
+    "Chestertown, Kent County, MD" : {
+        "name" : "Chestertown",
+        "state" : "Maryland",
+        "FIPS" : "24-16225",
+        "counties" : [
+            "Kent County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5252,
+        "population_2020" : 5532,
+        "population_2027" : 5883,
+        "land_area_2020" : 2.6
+    },
+    "Cheverly, Prince George's County, MD" : {
+        "name" : "Cheverly",
+        "state" : "Maryland",
+        "FIPS" : "24-16550",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6173,
+        "population_2020" : 6170,
+        "population_2027" : 6321,
+        "land_area_2020" : 1.35
+    },
+    "Chevy Chase, Montgomery County, MD" : {
+        "name" : "Chevy Chase",
+        "state" : "Maryland",
+        "FIPS" : "24-16625",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2824,
+        "population_2020" : 2904,
+        "population_2027" : 3035,
+        "land_area_2020" : 0.47
+    },
+    "Chevy Chase Section Five, Montgomery County, MD" : {
+        "name" : "Chevy Chase Section Five",
+        "state" : "Maryland",
+        "FIPS" : "24-16720",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 658,
+        "population_2020" : 672,
+        "population_2027" : 699,
+        "land_area_2020" : 0.1
+    },
+    "Chevy Chase Section Three, Montgomery County, MD" : {
+        "name" : "Chevy Chase Section Three",
+        "state" : "Maryland",
+        "FIPS" : "24-16730",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 760,
+        "population_2020" : 802,
+        "population_2027" : 854,
+        "land_area_2020" : 0.12
+    },
+    "Chevy Chase View, Montgomery County, MD" : {
+        "name" : "Chevy Chase View",
+        "state" : "Maryland",
+        "FIPS" : "24-16775",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 920,
+        "population_2020" : 1005,
+        "population_2027" : 1098,
+        "land_area_2020" : 0.28
+    },
+    "Chevy Chase Village, Montgomery County, MD" : {
+        "name" : "Chevy Chase Village",
+        "state" : "Maryland",
+        "FIPS" : "24-16787",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1953,
+        "population_2020" : 2049,
+        "population_2027" : 2173,
+        "land_area_2020" : 0.42
+    },
+    "Church Creek, Dorchester County, MD" : {
+        "name" : "Church Creek",
+        "state" : "Maryland",
+        "FIPS" : "24-17050",
+        "counties" : [
+            "Dorchester County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 125,
+        "population_2020" : 102,
+        "population_2027" : 92,
+        "land_area_2020" : 0.34
+    },
+    "Church Hill, Queen Anne's County, MD" : {
+        "name" : "Church Hill",
+        "state" : "Maryland",
+        "FIPS" : "24-17100",
+        "counties" : [
+            "Queen Anne's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 745,
+        "population_2020" : 808,
+        "population_2027" : 878,
+        "land_area_2020" : 0.71
+    },
+    "Clear Spring, Washington County, MD" : {
+        "name" : "Clear Spring",
+        "state" : "Maryland",
+        "FIPS" : "24-17600",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 358,
+        "population_2020" : 372,
+        "population_2027" : 392,
+        "land_area_2020" : 0.11
+    },
+    "College Park, Prince George's County, MD" : {
+        "name" : "College Park",
+        "state" : "Maryland",
+        "FIPS" : "24-18750",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 30413,
+        "population_2020" : 34740,
+        "population_2027" : 39287,
+        "land_area_2020" : 5.64
+    },
+    "Colmar Manor, Prince George's County, MD" : {
+        "name" : "Colmar Manor",
+        "state" : "Maryland",
+        "FIPS" : "24-18850",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1404,
+        "population_2020" : 1588,
+        "population_2027" : 1782,
+        "land_area_2020" : 0.47
+    },
+    "Cottage City, Prince George's County, MD" : {
+        "name" : "Cottage City",
+        "state" : "Maryland",
+        "FIPS" : "24-20050",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1305,
+        "population_2020" : 1335,
+        "population_2027" : 1390,
+        "land_area_2020" : 0.25
+    },
+    "Crisfield, Somerset County, MD" : {
+        "name" : "Crisfield",
+        "state" : "Maryland",
+        "FIPS" : "24-20775",
+        "counties" : [
+            "Somerset County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2726,
+        "population_2020" : 2475,
+        "population_2027" : 2378,
+        "land_area_2020" : 1.62
+    },
+    "Cumberland, Allegany County, MD" : {
+        "name" : "Cumberland",
+        "state" : "Maryland",
+        "FIPS" : "24-21325",
+        "counties" : [
+            "Allegany County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 20859,
+        "population_2020" : 19076,
+        "population_2027" : 18412,
+        "land_area_2020" : 10.08
+    },
+    "Deer Park, Garrett County, MD" : {
+        "name" : "Deer Park",
+        "state" : "Maryland",
+        "FIPS" : "24-22275",
+        "counties" : [
+            "Garrett County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 399,
+        "population_2020" : 303,
+        "population_2027" : 262,
+        "land_area_2020" : 1.0
+    },
+    "Delmar, Wicomico County, MD" : {
+        "name" : "Delmar",
+        "state" : "Maryland",
+        "FIPS" : "24-22600",
+        "counties" : [
+            "Wicomico County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3003,
+        "population_2020" : 3798,
+        "population_2027" : 4670,
+        "land_area_2020" : 1.72
+    },
+    "Denton, Caroline County, MD" : {
+        "name" : "Denton",
+        "state" : "Maryland",
+        "FIPS" : "24-22725",
+        "counties" : [
+            "Caroline County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4418,
+        "population_2020" : 4848,
+        "population_2027" : 5315,
+        "land_area_2020" : 5.28
+    },
+    "District Heights, Prince George's County, MD" : {
+        "name" : "District Heights",
+        "state" : "Maryland",
+        "FIPS" : "24-23025",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5837,
+        "population_2020" : 5959,
+        "population_2027" : 6196,
+        "land_area_2020" : 0.93
+    },
+    "Eagle Harbor, Prince George's County, MD" : {
+        "name" : "Eagle Harbor",
+        "state" : "Maryland",
+        "FIPS" : "24-24200",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 63,
+        "population_2020" : 67,
+        "population_2027" : 72,
+        "land_area_2020" : 0.12
+    },
+    "East New Market, Dorchester County, MD" : {
+        "name" : "East New Market",
+        "state" : "Maryland",
+        "FIPS" : "24-24450",
+        "counties" : [
+            "Dorchester County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 400,
+        "population_2020" : 389,
+        "population_2027" : 391,
+        "land_area_2020" : 0.4
+    },
+    "Easton, Talbot County, MD" : {
+        "name" : "Easton",
+        "state" : "Maryland",
+        "FIPS" : "24-24475",
+        "counties" : [
+            "Talbot County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 15945,
+        "population_2020" : 17101,
+        "population_2027" : 18430,
+        "land_area_2020" : 10.56
+    },
+    "Edmonston, Prince George's County, MD" : {
+        "name" : "Edmonston",
+        "state" : "Maryland",
+        "FIPS" : "24-25425",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1445,
+        "population_2020" : 1617,
+        "population_2027" : 1800,
+        "land_area_2020" : 0.39
+    },
+    "Eldorado, Dorchester County, MD" : {
+        "name" : "Eldorado",
+        "state" : "Maryland",
+        "FIPS" : "24-25600",
+        "counties" : [
+            "Dorchester County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 59,
+        "population_2020" : 45,
+        "population_2027" : 39,
+        "land_area_2020" : 0.08
+    },
+    "Elkton, Cecil County, MD" : {
+        "name" : "Elkton",
+        "state" : "Maryland",
+        "FIPS" : "24-25800",
+        "counties" : [
+            "Cecil County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 15443,
+        "population_2020" : 15807,
+        "population_2027" : 16467,
+        "land_area_2020" : 8.35
+    },
+    "Emmitsburg, Frederick County, MD" : {
+        "name" : "Emmitsburg",
+        "state" : "Maryland",
+        "FIPS" : "24-26200",
+        "counties" : [
+            "Frederick County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2814,
+        "population_2020" : 2770,
+        "population_2027" : 2808,
+        "land_area_2020" : 1.52
+    },
+    "Fairmount Heights, Prince George's County, MD" : {
+        "name" : "Fairmount Heights",
+        "state" : "Maryland",
+        "FIPS" : "24-27400",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1494,
+        "population_2020" : 1528,
+        "population_2027" : 1591,
+        "land_area_2020" : 0.27
+    },
+    "Federalsburg, Caroline County, MD" : {
+        "name" : "Federalsburg",
+        "state" : "Maryland",
+        "FIPS" : "24-27900",
+        "counties" : [
+            "Caroline County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2739,
+        "population_2020" : 2833,
+        "population_2027" : 2973,
+        "land_area_2020" : 1.93
+    },
+    "Forest Heights, Prince George's County, MD" : {
+        "name" : "Forest Heights",
+        "state" : "Maryland",
+        "FIPS" : "24-28725",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2447,
+        "population_2020" : 2658,
+        "population_2027" : 2892,
+        "land_area_2020" : 0.48
+    },
+    "Frederick, Frederick County, MD" : {
+        "name" : "Frederick",
+        "state" : "Maryland",
+        "FIPS" : "24-30325",
+        "counties" : [
+            "Frederick County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 65239,
+        "population_2020" : 78171,
+        "population_2027" : 91861,
+        "land_area_2020" : 21.99
+    },
+    "Friendsville, Garrett County, MD" : {
+        "name" : "Friendsville",
+        "state" : "Maryland",
+        "FIPS" : "24-30850",
+        "counties" : [
+            "Garrett County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 491,
+        "population_2020" : 438,
+        "population_2027" : 416,
+        "land_area_2020" : 0.91
+    },
+    "Frostburg, Allegany County, MD" : {
+        "name" : "Frostburg",
+        "state" : "Maryland",
+        "FIPS" : "24-30900",
+        "counties" : [
+            "Allegany County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9002,
+        "population_2020" : 7027,
+        "population_2027" : 6169,
+        "land_area_2020" : 3.42
+    },
+    "Fruitland, Wicomico County, MD" : {
+        "name" : "Fruitland",
+        "state" : "Maryland",
+        "FIPS" : "24-30950",
+        "counties" : [
+            "Wicomico County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4866,
+        "population_2020" : 5534,
+        "population_2027" : 6237,
+        "land_area_2020" : 3.78
+    },
+    "Funkstown, Washington County, MD" : {
+        "name" : "Funkstown",
+        "state" : "Maryland",
+        "FIPS" : "24-31100",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 904,
+        "population_2020" : 852,
+        "population_2027" : 839,
+        "land_area_2020" : 0.36
+    },
+    "Gaithersburg, Montgomery County, MD" : {
+        "name" : "Gaithersburg",
+        "state" : "Maryland",
+        "FIPS" : "24-31175",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 59933,
+        "population_2020" : 69657,
+        "population_2027" : 79863,
+        "land_area_2020" : 10.2
+    },
+    "Galena, Kent County, MD" : {
+        "name" : "Galena",
+        "state" : "Maryland",
+        "FIPS" : "24-31225",
+        "counties" : [
+            "Kent County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 612,
+        "population_2020" : 539,
+        "population_2027" : 508,
+        "land_area_2020" : 0.36
+    },
+    "Galestown, Dorchester County, MD" : {
+        "name" : "Galestown",
+        "state" : "Maryland",
+        "FIPS" : "24-31250",
+        "counties" : [
+            "Dorchester County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 138,
+        "population_2020" : 111,
+        "population_2027" : 99,
+        "land_area_2020" : 0.23
+    },
+    "Garrett Park, Montgomery County, MD" : {
+        "name" : "Garrett Park",
+        "state" : "Maryland",
+        "FIPS" : "24-31525",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 992,
+        "population_2020" : 996,
+        "population_2027" : 1024,
+        "land_area_2020" : 0.26
+    },
+    "Glenarden, Prince George's County, MD" : {
+        "name" : "Glenarden",
+        "state" : "Maryland",
+        "FIPS" : "24-32500",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6000,
+        "population_2020" : 6402,
+        "population_2027" : 6873,
+        "land_area_2020" : 1.22
+    },
+    "Glen Echo, Montgomery County, MD" : {
+        "name" : "Glen Echo",
+        "state" : "Maryland",
+        "FIPS" : "24-32900",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 255,
+        "population_2020" : 279,
+        "population_2027" : 305,
+        "land_area_2020" : 0.1
+    },
+    "Goldsboro, Caroline County, MD" : {
+        "name" : "Goldsboro",
+        "state" : "Maryland",
+        "FIPS" : "24-33950",
+        "counties" : [
+            "Caroline County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 246,
+        "population_2020" : 211,
+        "population_2027" : 196,
+        "land_area_2020" : 0.74
+    },
+    "Grantsville, Garrett County, MD" : {
+        "name" : "Grantsville",
+        "state" : "Maryland",
+        "FIPS" : "24-34525",
+        "counties" : [
+            "Garrett County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 766,
+        "population_2020" : 968,
+        "population_2027" : 1189,
+        "land_area_2020" : 0.98
+    },
+    "Greenbelt, Prince George's County, MD" : {
+        "name" : "Greenbelt",
+        "state" : "Maryland",
+        "FIPS" : "24-34775",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23068,
+        "population_2020" : 24921,
+        "population_2027" : 27004,
+        "land_area_2020" : 6.28
+    },
+    "Greensboro, Caroline County, MD" : {
+        "name" : "Greensboro",
+        "state" : "Maryland",
+        "FIPS" : "24-35200",
+        "counties" : [
+            "Caroline County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1931,
+        "population_2020" : 1919,
+        "population_2027" : 1958,
+        "land_area_2020" : 1.05
+    },
+    "Hagerstown, Washington County, MD" : {
+        "name" : "Hagerstown",
+        "state" : "Maryland",
+        "FIPS" : "24-36075",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 39662,
+        "population_2020" : 43527,
+        "population_2027" : 47726,
+        "land_area_2020" : 11.79
+    },
+    "Hampstead, Carroll County, MD" : {
+        "name" : "Hampstead",
+        "state" : "Maryland",
+        "FIPS" : "24-36500",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6323,
+        "population_2020" : 6241,
+        "population_2027" : 6338,
+        "land_area_2020" : 3.19
+    },
+    "Hancock, Washington County, MD" : {
+        "name" : "Hancock",
+        "state" : "Maryland",
+        "FIPS" : "24-36600",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1545,
+        "population_2020" : 1557,
+        "population_2027" : 1604,
+        "land_area_2020" : 2.73
+    },
+    "Havre de Grace, Harford County, MD" : {
+        "name" : "Havre de Grace",
+        "state" : "Maryland",
+        "FIPS" : "24-37600",
+        "counties" : [
+            "Harford County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12952,
+        "population_2020" : 14807,
+        "population_2027" : 16756,
+        "land_area_2020" : 5.5
+    },
+    "Hebron, Wicomico County, MD" : {
+        "name" : "Hebron",
+        "state" : "Maryland",
+        "FIPS" : "24-37875",
+        "counties" : [
+            "Wicomico County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1084,
+        "population_2020" : 1113,
+        "population_2027" : 1162,
+        "land_area_2020" : 1.28
+    },
+    "Henderson, Caroline County, MD" : {
+        "name" : "Henderson",
+        "state" : "Maryland",
+        "FIPS" : "24-37925",
+        "counties" : [
+            "Caroline County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 146,
+        "population_2020" : 160,
+        "population_2027" : 175,
+        "land_area_2020" : 0.13
+    },
+    "Highland Beach, Anne Arundel County, MD" : {
+        "name" : "Highland Beach",
+        "state" : "Maryland",
+        "FIPS" : "24-38500",
+        "counties" : [
+            "Anne Arundel County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 96,
+        "population_2020" : 118,
+        "population_2027" : 142,
+        "land_area_2020" : 0.06
+    },
+    "Hillsboro, Caroline County, MD" : {
+        "name" : "Hillsboro",
+        "state" : "Maryland",
+        "FIPS" : "24-39175",
+        "counties" : [
+            "Caroline County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 161,
+        "population_2020" : 128,
+        "population_2027" : 114,
+        "land_area_2020" : 0.15
+    },
+    "Hurlock, Dorchester County, MD" : {
+        "name" : "Hurlock",
+        "state" : "Maryland",
+        "FIPS" : "24-41125",
+        "counties" : [
+            "Dorchester County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2092,
+        "population_2020" : 2070,
+        "population_2027" : 2106,
+        "land_area_2020" : 2.66
+    },
+    "Hyattsville, Prince George's County, MD" : {
+        "name" : "Hyattsville",
+        "state" : "Maryland",
+        "FIPS" : "24-41250",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 17557,
+        "population_2020" : 21187,
+        "population_2027" : 25043,
+        "land_area_2020" : 2.67
+    },
+    "Indian Head, Charles County, MD" : {
+        "name" : "Indian Head",
+        "state" : "Maryland",
+        "FIPS" : "24-41500",
+        "counties" : [
+            "Charles County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3844,
+        "population_2020" : 3894,
+        "population_2027" : 4027,
+        "land_area_2020" : 1.23
+    },
+    "Keedysville, Washington County, MD" : {
+        "name" : "Keedysville",
+        "state" : "Maryland",
+        "FIPS" : "24-43100",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1152,
+        "population_2020" : 1213,
+        "population_2027" : 1290,
+        "land_area_2020" : 0.92
+    },
+    "Kensington, Montgomery County, MD" : {
+        "name" : "Kensington",
+        "state" : "Maryland",
+        "FIPS" : "24-43500",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2213,
+        "population_2020" : 2122,
+        "population_2027" : 2113,
+        "land_area_2020" : 0.48
+    },
+    "Kitzmiller, Garrett County, MD" : {
+        "name" : "Kitzmiller",
+        "state" : "Maryland",
+        "FIPS" : "24-44450",
+        "counties" : [
+            "Garrett County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 321,
+        "population_2020" : 300,
+        "population_2027" : 294,
+        "land_area_2020" : 0.22
+    },
+    "Landover Hills, Prince George's County, MD" : {
+        "name" : "Landover Hills",
+        "state" : "Maryland",
+        "FIPS" : "24-45400",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1687,
+        "population_2020" : 1815,
+        "population_2027" : 1961,
+        "land_area_2020" : 0.3
+    },
+    "La Plata, Charles County, MD" : {
+        "name" : "La Plata",
+        "state" : "Maryland",
+        "FIPS" : "24-45750",
+        "counties" : [
+            "Charles County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 8753,
+        "population_2020" : 10159,
+        "population_2027" : 11635,
+        "land_area_2020" : 7.4
+    },
+    "Laurel, Prince George's County, MD" : {
+        "name" : "Laurel",
+        "state" : "Maryland",
+        "FIPS" : "24-45900",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 25115,
+        "population_2020" : 30060,
+        "population_2027" : 35292,
+        "land_area_2020" : 4.3
+    },
+    "Laytonsville, Montgomery County, MD" : {
+        "name" : "Laytonsville",
+        "state" : "Maryland",
+        "FIPS" : "24-46250",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 353,
+        "population_2020" : 572,
+        "population_2027" : 892,
+        "land_area_2020" : 1.04
+    },
+    "Leonardtown, St. Mary's County, MD" : {
+        "name" : "Leonardtown",
+        "state" : "Maryland",
+        "FIPS" : "24-46475",
+        "counties" : [
+            "St. Mary's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2930,
+        "population_2020" : 4563,
+        "population_2027" : 6826,
+        "land_area_2020" : 3.18
+    },
+    "Loch Lynn Heights, Garrett County, MD" : {
+        "name" : "Loch Lynn Heights",
+        "state" : "Maryland",
+        "FIPS" : "24-47525",
+        "counties" : [
+            "Garrett County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 552,
+        "population_2020" : 493,
+        "population_2027" : 469,
+        "land_area_2020" : 0.32
+    },
+    "Lonaconing, Allegany County, MD" : {
+        "name" : "Lonaconing",
+        "state" : "Maryland",
+        "FIPS" : "24-47875",
+        "counties" : [
+            "Allegany County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1214,
+        "population_2020" : 1001,
+        "population_2027" : 907,
+        "land_area_2020" : 0.41
+    },
+    "Luke, Allegany County, MD" : {
+        "name" : "Luke",
+        "state" : "Maryland",
+        "FIPS" : "24-48775",
+        "counties" : [
+            "Allegany County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 65,
+        "population_2020" : 85,
+        "population_2027" : 108,
+        "land_area_2020" : 0.27
+    },
+    "Manchester, Carroll County, MD" : {
+        "name" : "Manchester",
+        "state" : "Maryland",
+        "FIPS" : "24-49950",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4808,
+        "population_2020" : 5408,
+        "population_2027" : 6043,
+        "land_area_2020" : 2.34
+    },
+    "Mardela Springs, Wicomico County, MD" : {
+        "name" : "Mardela Springs",
+        "state" : "Maryland",
+        "FIPS" : "24-50525",
+        "counties" : [
+            "Wicomico County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 347,
+        "population_2020" : 357,
+        "population_2027" : 373,
+        "land_area_2020" : 0.39
+    },
+    "Martin's Additions, Montgomery County, MD" : {
+        "name" : "Martin's Additions",
+        "state" : "Maryland",
+        "FIPS" : "24-50965",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 933,
+        "population_2020" : 946,
+        "population_2027" : 979,
+        "land_area_2020" : 0.14
+    },
+    "Marydel, Caroline County, MD" : {
+        "name" : "Marydel",
+        "state" : "Maryland",
+        "FIPS" : "24-51025",
+        "counties" : [
+            "Caroline County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 141,
+        "population_2020" : 176,
+        "population_2027" : 214,
+        "land_area_2020" : 0.08
+    },
+    "Middletown, Frederick County, MD" : {
+        "name" : "Middletown",
+        "state" : "Maryland",
+        "FIPS" : "24-52425",
+        "counties" : [
+            "Frederick County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4136,
+        "population_2020" : 4943,
+        "population_2027" : 5796,
+        "land_area_2020" : 1.74
+    },
+    "Midland, Allegany County, MD" : {
+        "name" : "Midland",
+        "state" : "Maryland",
+        "FIPS" : "24-52475",
+        "counties" : [
+            "Allegany County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 446,
+        "population_2020" : 488,
+        "population_2027" : 534,
+        "land_area_2020" : 0.19
+    },
+    "Millington, Kent County, MD" : {
+        "name" : "Millington",
+        "state" : "Maryland",
+        "FIPS" : "24-52825",
+        "counties" : [
+            "Kent County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 642,
+        "population_2020" : 549,
+        "population_2027" : 508,
+        "land_area_2020" : 0.66
+    },
+    "Morningside, Prince George's County, MD" : {
+        "name" : "Morningside",
+        "state" : "Maryland",
+        "FIPS" : "24-53625",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2015,
+        "population_2020" : 1240,
+        "population_2027" : 967,
+        "land_area_2020" : 0.56
+    },
+    "Mountain Lake Park, Garrett County, MD" : {
+        "name" : "Mountain Lake Park",
+        "state" : "Maryland",
+        "FIPS" : "24-53800",
+        "counties" : [
+            "Garrett County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2092,
+        "population_2020" : 2147,
+        "population_2027" : 2241,
+        "land_area_2020" : 1.94
+    },
+    "Mount Airy, Carroll County, MD" : {
+        "name" : "Mount Airy",
+        "state" : "Maryland",
+        "FIPS" : "24-53875",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9288,
+        "population_2020" : 9654,
+        "population_2027" : 10168,
+        "land_area_2020" : 4.12
+    },
+    "Mount Rainier, Prince George's County, MD" : {
+        "name" : "Mount Rainier",
+        "state" : "Maryland",
+        "FIPS" : "24-54275",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8080,
+        "population_2020" : 8333,
+        "population_2027" : 8728,
+        "land_area_2020" : 0.65
+    },
+    "Myersville, Frederick County, MD" : {
+        "name" : "Myersville",
+        "state" : "Maryland",
+        "FIPS" : "24-54875",
+        "counties" : [
+            "Frederick County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1626,
+        "population_2020" : 1748,
+        "population_2027" : 1887,
+        "land_area_2020" : 1.02
+    },
+    "New Carrollton, Prince George's County, MD" : {
+        "name" : "New Carrollton",
+        "state" : "Maryland",
+        "FIPS" : "24-55400",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12135,
+        "population_2020" : 13715,
+        "population_2027" : 15382,
+        "land_area_2020" : 1.53
+    },
+    "New Market, Frederick County, MD" : {
+        "name" : "New Market",
+        "state" : "Maryland",
+        "FIPS" : "24-55650",
+        "counties" : [
+            "Frederick County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 656,
+        "population_2020" : 1525,
+        "population_2027" : 3723,
+        "land_area_2020" : 0.8
+    },
+    "New Windsor, Carroll County, MD" : {
+        "name" : "New Windsor",
+        "state" : "Maryland",
+        "FIPS" : "24-55925",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1396,
+        "population_2020" : 1441,
+        "population_2027" : 1510,
+        "land_area_2020" : 0.74
+    },
+    "North Beach, Calvert County, MD" : {
+        "name" : "North Beach",
+        "state" : "Maryland",
+        "FIPS" : "24-56300",
+        "counties" : [
+            "Calvert County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1978,
+        "population_2020" : 2146,
+        "population_2027" : 2333,
+        "land_area_2020" : 0.33
+    },
+    "North Brentwood, Prince George's County, MD" : {
+        "name" : "North Brentwood",
+        "state" : "Maryland",
+        "FIPS" : "24-56375",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 517,
+        "population_2020" : 593,
+        "population_2027" : 673,
+        "land_area_2020" : 0.1
+    },
+    "North Chevy Chase, Montgomery County, MD" : {
+        "name" : "North Chevy Chase",
+        "state" : "Maryland",
+        "FIPS" : "24-56400",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 519,
+        "population_2020" : 682,
+        "population_2027" : 867,
+        "land_area_2020" : 0.11
+    },
+    "North East, Cecil County, MD" : {
+        "name" : "North East",
+        "state" : "Maryland",
+        "FIPS" : "24-56450",
+        "counties" : [
+            "Cecil County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3572,
+        "population_2020" : 4085,
+        "population_2027" : 4624,
+        "land_area_2020" : 2.06
+    },
+    "Oakland, Garrett County, MD" : {
+        "name" : "Oakland",
+        "state" : "Maryland",
+        "FIPS" : "24-57650",
+        "counties" : [
+            "Garrett County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1925,
+        "population_2020" : 1851,
+        "population_2027" : 1847,
+        "land_area_2020" : 2.59
+    },
+    "Ocean City, Worcester County, MD" : {
+        "name" : "Ocean City",
+        "state" : "Maryland",
+        "FIPS" : "24-58225",
+        "counties" : [
+            "Worcester County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7102,
+        "population_2020" : 6844,
+        "population_2027" : 6838,
+        "land_area_2020" : 4.41
+    },
+    "Oxford, Talbot County, MD" : {
+        "name" : "Oxford",
+        "state" : "Maryland",
+        "FIPS" : "24-59450",
+        "counties" : [
+            "Talbot County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 651,
+        "population_2020" : 611,
+        "population_2027" : 600,
+        "land_area_2020" : 0.54
+    },
+    "Perryville, Cecil County, MD" : {
+        "name" : "Perryville",
+        "state" : "Maryland",
+        "FIPS" : "24-61150",
+        "counties" : [
+            "Cecil County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4361,
+        "population_2020" : 4391,
+        "population_2027" : 4521,
+        "land_area_2020" : 3.05
+    },
+    "Pittsville, Wicomico County, MD" : {
+        "name" : "Pittsville",
+        "state" : "Maryland",
+        "FIPS" : "24-62025",
+        "counties" : [
+            "Wicomico County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1417,
+        "population_2020" : 1636,
+        "population_2027" : 1866,
+        "land_area_2020" : 1.68
+    },
+    "Pocomoke City, Worcester County, MD" : {
+        "name" : "Pocomoke City",
+        "state" : "Maryland",
+        "FIPS" : "24-62475",
+        "counties" : [
+            "Worcester County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4184,
+        "population_2020" : 4295,
+        "population_2027" : 4483,
+        "land_area_2020" : 3.69
+    },
+    "Poolesville, Montgomery County, MD" : {
+        "name" : "Poolesville",
+        "state" : "Maryland",
+        "FIPS" : "24-62850",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4883,
+        "population_2020" : 5742,
+        "population_2027" : 6645,
+        "land_area_2020" : 3.93
+    },
+    "Port Deposit, Cecil County, MD" : {
+        "name" : "Port Deposit",
+        "state" : "Maryland",
+        "FIPS" : "24-63075",
+        "counties" : [
+            "Cecil County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 653,
+        "population_2020" : 614,
+        "population_2027" : 603,
+        "land_area_2020" : 2.27
+    },
+    "Port Tobacco Village, Charles County, MD" : {
+        "name" : "Port Tobacco Village",
+        "state" : "Maryland",
+        "FIPS" : "24-63225",
+        "counties" : [
+            "Charles County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 13,
+        "population_2020" : 18,
+        "population_2027" : 24,
+        "land_area_2020" : 0.16
+    },
+    "Preston, Caroline County, MD" : {
+        "name" : "Preston",
+        "state" : "Maryland",
+        "FIPS" : "24-63825",
+        "counties" : [
+            "Caroline County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 719,
+        "population_2020" : 673,
+        "population_2027" : 659,
+        "land_area_2020" : 0.57
+    },
+    "Princess Anne, Somerset County, MD" : {
+        "name" : "Princess Anne",
+        "state" : "Maryland",
+        "FIPS" : "24-64000",
+        "counties" : [
+            "Somerset County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3290,
+        "population_2020" : 3446,
+        "population_2027" : 3650,
+        "land_area_2020" : 1.67
+    },
+    "Queen Anne, Queen Anne's County, MD" : {
+        "name" : "Queen Anne",
+        "state" : "Maryland",
+        "FIPS" : "24-64500",
+        "counties" : [
+            "Queen Anne's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 222,
+        "population_2020" : 192,
+        "population_2027" : 179,
+        "land_area_2020" : 0.13
+    },
+    "Queenstown, Queen Anne's County, MD" : {
+        "name" : "Queenstown",
+        "state" : "Maryland",
+        "FIPS" : "24-64600",
+        "counties" : [
+            "Queen Anne's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 664,
+        "population_2020" : 705,
+        "population_2027" : 754,
+        "land_area_2020" : 1.45
+    },
+    "Ridgely, Caroline County, MD" : {
+        "name" : "Ridgely",
+        "state" : "Maryland",
+        "FIPS" : "24-66000",
+        "counties" : [
+            "Caroline County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1639,
+        "population_2020" : 1611,
+        "population_2027" : 1631,
+        "land_area_2020" : 1.78
+    },
+    "Rising Sun, Cecil County, MD" : {
+        "name" : "Rising Sun",
+        "state" : "Maryland",
+        "FIPS" : "24-66275",
+        "counties" : [
+            "Cecil County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2781,
+        "population_2020" : 2740,
+        "population_2027" : 2779,
+        "land_area_2020" : 1.26
+    },
+    "Riverdale Park, Prince George's County, MD" : {
+        "name" : "Riverdale Park",
+        "state" : "Maryland",
+        "FIPS" : "24-66635",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6956,
+        "population_2020" : 7351,
+        "population_2027" : 7837,
+        "land_area_2020" : 1.65
+    },
+    "Rock Hall, Kent County, MD" : {
+        "name" : "Rock Hall",
+        "state" : "Maryland",
+        "FIPS" : "24-67400",
+        "counties" : [
+            "Kent County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1310,
+        "population_2020" : 1198,
+        "population_2027" : 1156,
+        "land_area_2020" : 1.34
+    },
+    "Rockville, Montgomery County, MD" : {
+        "name" : "Rockville",
+        "state" : "Maryland",
+        "FIPS" : "24-67675",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 61209,
+        "population_2020" : 67117,
+        "population_2027" : 73545,
+        "land_area_2020" : 13.51
+    },
+    "Rosemont, Frederick County, MD" : {
+        "name" : "Rosemont",
+        "state" : "Maryland",
+        "FIPS" : "24-68600",
+        "counties" : [
+            "Frederick County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 294,
+        "population_2020" : 272,
+        "population_2027" : 265,
+        "land_area_2020" : 0.56
+    },
+    "St. Michaels, Talbot County, MD" : {
+        "name" : "St. Michaels",
+        "state" : "Maryland",
+        "FIPS" : "24-69825",
+        "counties" : [
+            "Talbot County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1029,
+        "population_2020" : 1049,
+        "population_2027" : 1090,
+        "land_area_2020" : 1.15
+    },
+    "Salisbury, Wicomico County, MD" : {
+        "name" : "Salisbury",
+        "state" : "Maryland",
+        "FIPS" : "24-69925",
+        "counties" : [
+            "Wicomico County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 30343,
+        "population_2020" : 33050,
+        "population_2027" : 36033,
+        "land_area_2020" : 13.4
+    },
+    "Seat Pleasant, Prince George's County, MD" : {
+        "name" : "Seat Pleasant",
+        "state" : "Maryland",
+        "FIPS" : "24-70850",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4542,
+        "population_2020" : 4522,
+        "population_2027" : 4620,
+        "land_area_2020" : 0.73
+    },
+    "Secretary, Dorchester County, MD" : {
+        "name" : "Secretary",
+        "state" : "Maryland",
+        "FIPS" : "24-70900",
+        "counties" : [
+            "Dorchester County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 535,
+        "population_2020" : 472,
+        "population_2027" : 445,
+        "land_area_2020" : 0.26
+    },
+    "Sharpsburg, Washington County, MD" : {
+        "name" : "Sharpsburg",
+        "state" : "Maryland",
+        "FIPS" : "24-71600",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 705,
+        "population_2020" : 560,
+        "population_2027" : 496,
+        "land_area_2020" : 0.23
+    },
+    "Sharptown, Wicomico County, MD" : {
+        "name" : "Sharptown",
+        "state" : "Maryland",
+        "FIPS" : "24-71650",
+        "counties" : [
+            "Wicomico County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 651,
+        "population_2020" : 691,
+        "population_2027" : 739,
+        "land_area_2020" : 0.41
+    },
+    "Smithsburg, Washington County, MD" : {
+        "name" : "Smithsburg",
+        "state" : "Maryland",
+        "FIPS" : "24-72900",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2975,
+        "population_2020" : 2977,
+        "population_2027" : 3052,
+        "land_area_2020" : 1.05
+    },
+    "Snow Hill, Worcester County, MD" : {
+        "name" : "Snow Hill",
+        "state" : "Maryland",
+        "FIPS" : "24-73075",
+        "counties" : [
+            "Worcester County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2103,
+        "population_2020" : 2156,
+        "population_2027" : 2249,
+        "land_area_2020" : 3.01
+    },
+    "Somerset, Montgomery County, MD" : {
+        "name" : "Somerset",
+        "state" : "Maryland",
+        "FIPS" : "24-73350",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1216,
+        "population_2020" : 1187,
+        "population_2027" : 1196,
+        "land_area_2020" : 0.27
+    },
+    "Sudlersville, Queen Anne's County, MD" : {
+        "name" : "Sudlersville",
+        "state" : "Maryland",
+        "FIPS" : "24-75650",
+        "counties" : [
+            "Queen Anne's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 497,
+        "population_2020" : 507,
+        "population_2027" : 527,
+        "land_area_2020" : 0.94
+    },
+    "Sykesville, Carroll County, MD" : {
+        "name" : "Sykesville",
+        "state" : "Maryland",
+        "FIPS" : "24-76550",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4436,
+        "population_2020" : 4316,
+        "population_2027" : 4340,
+        "land_area_2020" : 1.58
+    },
+    "Takoma Park, Montgomery County, MD" : {
+        "name" : "Takoma Park",
+        "state" : "Maryland",
+        "FIPS" : "24-76650",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16715,
+        "population_2020" : 17629,
+        "population_2027" : 18766,
+        "land_area_2020" : 2.08
+    },
+    "Taneytown, Carroll County, MD" : {
+        "name" : "Taneytown",
+        "state" : "Maryland",
+        "FIPS" : "24-76725",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6728,
+        "population_2020" : 7234,
+        "population_2027" : 7811,
+        "land_area_2020" : 3.03
+    },
+    "Templeville, Caroline County, MD" : {
+        "name" : "Templeville",
+        "state" : "Maryland",
+        "FIPS" : "24-77200",
+        "counties" : [
+            "Caroline County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 138,
+        "population_2020" : 113,
+        "population_2027" : 102,
+        "land_area_2020" : 0.08
+    },
+    "Thurmont, Frederick County, MD" : {
+        "name" : "Thurmont",
+        "state" : "Maryland",
+        "FIPS" : "24-77825",
+        "counties" : [
+            "Frederick County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6170,
+        "population_2020" : 6213,
+        "population_2027" : 6398,
+        "land_area_2020" : 3.12
+    },
+    "Trappe, Talbot County, MD" : {
+        "name" : "Trappe",
+        "state" : "Maryland",
+        "FIPS" : "24-78575",
+        "counties" : [
+            "Talbot County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1077,
+        "population_2020" : 1177,
+        "population_2027" : 1286,
+        "land_area_2020" : 2.78
+    },
+    "Union Bridge, Carroll County, MD" : {
+        "name" : "Union Bridge",
+        "state" : "Maryland",
+        "FIPS" : "24-79350",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 975,
+        "population_2020" : 936,
+        "population_2027" : 933,
+        "land_area_2020" : 1.04
+    },
+    "University Park, Prince George's County, MD" : {
+        "name" : "University Park",
+        "state" : "Maryland",
+        "FIPS" : "24-79675",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2548,
+        "population_2020" : 2454,
+        "population_2027" : 2451,
+        "land_area_2020" : 0.5
+    },
+    "Upper Marlboro, Prince George's County, MD" : {
+        "name" : "Upper Marlboro",
+        "state" : "Maryland",
+        "FIPS" : "24-79875",
+        "counties" : [
+            "Prince George's County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 631,
+        "population_2020" : 652,
+        "population_2027" : 684,
+        "land_area_2020" : 0.4
+    },
+    "Vienna, Dorchester County, MD" : {
+        "name" : "Vienna",
+        "state" : "Maryland",
+        "FIPS" : "24-80600",
+        "counties" : [
+            "Dorchester County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 271,
+        "population_2020" : 270,
+        "population_2027" : 276,
+        "land_area_2020" : 0.19
+    },
+    "Walkersville, Frederick County, MD" : {
+        "name" : "Walkersville",
+        "state" : "Maryland",
+        "FIPS" : "24-81275",
+        "counties" : [
+            "Frederick County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5800,
+        "population_2020" : 6156,
+        "population_2027" : 6584,
+        "land_area_2020" : 4.35
+    },
+    "Washington Grove, Montgomery County, MD" : {
+        "name" : "Washington Grove",
+        "state" : "Maryland",
+        "FIPS" : "24-81675",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 555,
+        "population_2020" : 505,
+        "population_2027" : 486,
+        "land_area_2020" : 0.35
+    },
+    "Westernport, Allegany County, MD" : {
+        "name" : "Westernport",
+        "state" : "Maryland",
+        "FIPS" : "24-82750",
+        "counties" : [
+            "Allegany County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1888,
+        "population_2020" : 1812,
+        "population_2027" : 1805,
+        "land_area_2020" : 0.87
+    },
+    "Westminster, Carroll County, MD" : {
+        "name" : "Westminster",
+        "state" : "Maryland",
+        "FIPS" : "24-83100",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 18590,
+        "population_2020" : 20126,
+        "population_2027" : 21843,
+        "land_area_2020" : 6.63
+    },
+    "Willards, Wicomico County, MD" : {
+        "name" : "Willards",
+        "state" : "Maryland",
+        "FIPS" : "24-84950",
+        "counties" : [
+            "Wicomico County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 958,
+        "population_2020" : 963,
+        "population_2027" : 990,
+        "land_area_2020" : 1.07
+    },
+    "Williamsport, Washington County, MD" : {
+        "name" : "Williamsport",
+        "state" : "Maryland",
+        "FIPS" : "24-85100",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2137,
+        "population_2020" : 2083,
+        "population_2027" : 2097,
+        "land_area_2020" : 1.04
+    },
+    "Woodsboro, Frederick County, MD" : {
+        "name" : "Woodsboro",
+        "state" : "Maryland",
+        "FIPS" : "24-86750",
+        "counties" : [
+            "Frederick County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1141,
+        "population_2020" : 1092,
+        "population_2027" : 1086,
+        "land_area_2020" : 0.71
+    }
+}

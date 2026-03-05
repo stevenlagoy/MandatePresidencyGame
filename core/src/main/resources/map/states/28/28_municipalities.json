@@ -1,0 +1,3902 @@
+{
+    "Abbeville, Lafayette County, MS" : {
+        "name" : "Abbeville",
+        "state" : "Mississippi",
+        "FIPS" : "28-00100",
+        "counties" : [
+            "Lafayette County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 419,
+        "population_2020" : 372,
+        "population_2027" : 340,
+        "land_area_2020" : 3.46
+    },
+    "Aberdeen, Monroe County, MS" : {
+        "name" : "Aberdeen",
+        "state" : "Mississippi",
+        "FIPS" : "28-00180",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5612,
+        "population_2020" : 4961,
+        "population_2027" : 4524,
+        "land_area_2020" : 12.09
+    },
+    "Ackerman, Choctaw County, MS" : {
+        "name" : "Ackerman",
+        "state" : "Mississippi",
+        "FIPS" : "28-00300",
+        "counties" : [
+            "Choctaw County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1510,
+        "population_2020" : 1594,
+        "population_2027" : 1640,
+        "land_area_2020" : 2.25
+    },
+    "Algoma, Pontotoc County, MS" : {
+        "name" : "Algoma",
+        "state" : "Mississippi",
+        "FIPS" : "28-00820",
+        "counties" : [
+            "Pontotoc County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 590,
+        "population_2020" : 705,
+        "population_2027" : 799,
+        "land_area_2020" : 6.6
+    },
+    "Alligator, Bolivar County, MS" : {
+        "name" : "Alligator",
+        "state" : "Mississippi",
+        "FIPS" : "28-00940",
+        "counties" : [
+            "Bolivar County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 208,
+        "population_2020" : 116,
+        "population_2027" : 84,
+        "land_area_2020" : 0.99
+    },
+    "Amory, Monroe County, MS" : {
+        "name" : "Amory",
+        "state" : "Mississippi",
+        "FIPS" : "28-01260",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7316,
+        "population_2020" : 6666,
+        "population_2027" : 6196,
+        "land_area_2020" : 12.54
+    },
+    "Anguilla, Sharkey County, MS" : {
+        "name" : "Anguilla",
+        "state" : "Mississippi",
+        "FIPS" : "28-01500",
+        "counties" : [
+            "Sharkey County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 726,
+        "population_2020" : 496,
+        "population_2027" : 392,
+        "land_area_2020" : 1.03
+    },
+    "Arcola, Washington County, MS" : {
+        "name" : "Arcola",
+        "state" : "Mississippi",
+        "FIPS" : "28-01820",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 361,
+        "population_2020" : 304,
+        "population_2027" : 269,
+        "land_area_2020" : 0.22
+    },
+    "Artesia, Lowndes County, MS" : {
+        "name" : "Artesia",
+        "state" : "Mississippi",
+        "FIPS" : "28-02100",
+        "counties" : [
+            "Lowndes County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 440,
+        "population_2020" : 304,
+        "population_2027" : 241,
+        "land_area_2020" : 0.73
+    },
+    "Ashland, Benton County, MS" : {
+        "name" : "Ashland",
+        "state" : "Mississippi",
+        "FIPS" : "28-02140",
+        "counties" : [
+            "Benton County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 569,
+        "population_2020" : 551,
+        "population_2027" : 533,
+        "land_area_2020" : 1.82
+    },
+    "Baldwyn, Lee County, MS" : {
+        "name" : "Baldwyn",
+        "state" : "Mississippi",
+        "FIPS" : "28-02700",
+        "counties" : [
+            "Lee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3297,
+        "population_2020" : 3071,
+        "population_2027" : 2896,
+        "land_area_2020" : 11.59
+    },
+    "Bassfield, Jefferson Davis County, MS" : {
+        "name" : "Bassfield",
+        "state" : "Mississippi",
+        "FIPS" : "28-03580",
+        "counties" : [
+            "Jefferson Davis County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 254,
+        "population_2020" : 192,
+        "population_2027" : 160,
+        "land_area_2020" : 1.09
+    },
+    "Batesville, Panola County, MS" : {
+        "name" : "Batesville",
+        "state" : "Mississippi",
+        "FIPS" : "28-03620",
+        "counties" : [
+            "Panola County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7463,
+        "population_2020" : 7523,
+        "population_2027" : 7486,
+        "land_area_2020" : 19.95
+    },
+    "Bay St. Louis, Hancock County, MS" : {
+        "name" : "Bay St. Louis",
+        "state" : "Mississippi",
+        "FIPS" : "28-03980",
+        "counties" : [
+            "Hancock County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9260,
+        "population_2020" : 9284,
+        "population_2027" : 9204,
+        "land_area_2020" : 14.69
+    },
+    "Bay Springs, Jasper County, MS" : {
+        "name" : "Bay Springs",
+        "state" : "Mississippi",
+        "FIPS" : "28-04060",
+        "counties" : [
+            "Jasper County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1786,
+        "population_2020" : 1670,
+        "population_2027" : 1579,
+        "land_area_2020" : 14.94
+    },
+    "Beaumont, Perry County, MS" : {
+        "name" : "Beaumont",
+        "state" : "Mississippi",
+        "FIPS" : "28-04500",
+        "counties" : [
+            "Perry County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 951,
+        "population_2020" : 669,
+        "population_2027" : 536,
+        "land_area_2020" : 3.45
+    },
+    "Beauregard, Copiah County, MS" : {
+        "name" : "Beauregard",
+        "state" : "Mississippi",
+        "FIPS" : "28-04540",
+        "counties" : [
+            "Copiah County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 326,
+        "population_2020" : 289,
+        "population_2027" : 264,
+        "land_area_2020" : 0.92
+    },
+    "Belmont, Tishomingo County, MS" : {
+        "name" : "Belmont",
+        "state" : "Mississippi",
+        "FIPS" : "28-05100",
+        "counties" : [
+            "Tishomingo County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2021,
+        "population_2020" : 1859,
+        "population_2027" : 1739,
+        "land_area_2020" : 4.65
+    },
+    "Belzoni, Humphreys County, MS" : {
+        "name" : "Belzoni",
+        "state" : "Mississippi",
+        "FIPS" : "28-05140",
+        "counties" : [
+            "Humphreys County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2235,
+        "population_2020" : 1938,
+        "population_2027" : 1746,
+        "land_area_2020" : 1.02
+    },
+    "Benoit, Bolivar County, MS" : {
+        "name" : "Benoit",
+        "state" : "Mississippi",
+        "FIPS" : "28-05220",
+        "counties" : [
+            "Bolivar County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 477,
+        "population_2020" : 365,
+        "population_2027" : 306,
+        "land_area_2020" : 0.97
+    },
+    "Bentonia, Yazoo County, MS" : {
+        "name" : "Bentonia",
+        "state" : "Mississippi",
+        "FIPS" : "28-05380",
+        "counties" : [
+            "Yazoo County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 440,
+        "population_2020" : 319,
+        "population_2027" : 260,
+        "land_area_2020" : 1.42
+    },
+    "Beulah, Bolivar County, MS" : {
+        "name" : "Beulah",
+        "state" : "Mississippi",
+        "FIPS" : "28-05820",
+        "counties" : [
+            "Bolivar County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 473,
+        "population_2020" : 242,
+        "population_2027" : 169,
+        "land_area_2020" : 0.46
+    },
+    "Big Creek, Calhoun County, MS" : {
+        "name" : "Big Creek",
+        "state" : "Mississippi",
+        "FIPS" : "28-06060",
+        "counties" : [
+            "Calhoun County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 154,
+        "population_2020" : 133,
+        "population_2027" : 120,
+        "land_area_2020" : 1.14
+    },
+    "Biloxi, Harrison County, MS" : {
+        "name" : "Biloxi",
+        "state" : "Mississippi",
+        "FIPS" : "28-06220",
+        "counties" : [
+            "Harrison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 44054,
+        "population_2020" : 49449,
+        "population_2027" : 53291,
+        "land_area_2020" : 38.22
+    },
+    "Blue Mountain, Tippah County, MS" : {
+        "name" : "Blue Mountain",
+        "state" : "Mississippi",
+        "FIPS" : "28-07060",
+        "counties" : [
+            "Tippah County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 920,
+        "population_2020" : 948,
+        "population_2027" : 958,
+        "land_area_2020" : 1.64
+    },
+    "Blue Springs, Union County, MS" : {
+        "name" : "Blue Springs",
+        "state" : "Mississippi",
+        "FIPS" : "28-07100",
+        "counties" : [
+            "Union County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 228,
+        "population_2020" : 436,
+        "population_2027" : 796,
+        "land_area_2020" : 1.02
+    },
+    "Bolton, Hinds County, MS" : {
+        "name" : "Bolton",
+        "state" : "Mississippi",
+        "FIPS" : "28-07540",
+        "counties" : [
+            "Hinds County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 567,
+        "population_2020" : 441,
+        "population_2027" : 373,
+        "land_area_2020" : 1.52
+    },
+    "Booneville, Prentiss County, MS" : {
+        "name" : "Booneville",
+        "state" : "Mississippi",
+        "FIPS" : "28-07780",
+        "counties" : [
+            "Prentiss County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8743,
+        "population_2020" : 9126,
+        "population_2027" : 9312,
+        "land_area_2020" : 25.75
+    },
+    "Boyle, Bolivar County, MS" : {
+        "name" : "Boyle",
+        "state" : "Mississippi",
+        "FIPS" : "28-08180",
+        "counties" : [
+            "Bolivar County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 650,
+        "population_2020" : 532,
+        "population_2027" : 463,
+        "land_area_2020" : 1.4
+    },
+    "Brandon, Rankin County, MS" : {
+        "name" : "Brandon",
+        "state" : "Mississippi",
+        "FIPS" : "28-08300",
+        "counties" : [
+            "Rankin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 21705,
+        "population_2020" : 25138,
+        "population_2027" : 27768,
+        "land_area_2020" : 25.91
+    },
+    "Braxton, Simpson County, MS" : {
+        "name" : "Braxton",
+        "state" : "Mississippi",
+        "FIPS" : "28-08460",
+        "counties" : [
+            "Simpson County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 183,
+        "population_2020" : 186,
+        "population_2027" : 186,
+        "land_area_2020" : 0.59
+    },
+    "Brookhaven, Lincoln County, MS" : {
+        "name" : "Brookhaven",
+        "state" : "Mississippi",
+        "FIPS" : "28-08820",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12513,
+        "population_2020" : 11674,
+        "population_2027" : 11020,
+        "land_area_2020" : 21.64
+    },
+    "Brooksville, Noxubee County, MS" : {
+        "name" : "Brooksville",
+        "state" : "Mississippi",
+        "FIPS" : "28-08980",
+        "counties" : [
+            "Noxubee County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1223,
+        "population_2020" : 915,
+        "population_2027" : 757,
+        "land_area_2020" : 1.59
+    },
+    "Bruce, Calhoun County, MS" : {
+        "name" : "Bruce",
+        "state" : "Mississippi",
+        "FIPS" : "28-09180",
+        "counties" : [
+            "Calhoun County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1939,
+        "population_2020" : 1707,
+        "population_2027" : 1552,
+        "land_area_2020" : 2.44
+    },
+    "Bude, Franklin County, MS" : {
+        "name" : "Bude",
+        "state" : "Mississippi",
+        "FIPS" : "28-09460",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1063,
+        "population_2020" : 780,
+        "population_2027" : 639,
+        "land_area_2020" : 1.43
+    },
+    "Burnsville, Tishomingo County, MS" : {
+        "name" : "Burnsville",
+        "state" : "Mississippi",
+        "FIPS" : "28-09820",
+        "counties" : [
+            "Tishomingo County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 936,
+        "population_2020" : 868,
+        "population_2027" : 816,
+        "land_area_2020" : 4.77
+    },
+    "Byhalia, Marshall County, MS" : {
+        "name" : "Byhalia",
+        "state" : "Mississippi",
+        "FIPS" : "28-10060",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1302,
+        "population_2020" : 1339,
+        "population_2027" : 1352,
+        "land_area_2020" : 7.17
+    },
+    "Byram, Hinds County, MS" : {
+        "name" : "Byram",
+        "state" : "Mississippi",
+        "FIPS" : "28-10140",
+        "counties" : [
+            "Hinds County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11489,
+        "population_2020" : 12666,
+        "population_2027" : 13462,
+        "land_area_2020" : 18.4
+    },
+    "Caledonia, Lowndes County, MS" : {
+        "name" : "Caledonia",
+        "state" : "Mississippi",
+        "FIPS" : "28-10460",
+        "counties" : [
+            "Lowndes County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1041,
+        "population_2020" : 1135,
+        "population_2027" : 1196,
+        "land_area_2020" : 2.82
+    },
+    "Calhoun City, Calhoun County, MS" : {
+        "name" : "Calhoun City",
+        "state" : "Mississippi",
+        "FIPS" : "28-10580",
+        "counties" : [
+            "Calhoun County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1774,
+        "population_2020" : 1533,
+        "population_2027" : 1378,
+        "land_area_2020" : 2.36
+    },
+    "Canton, Madison County, MS" : {
+        "name" : "Canton",
+        "state" : "Mississippi",
+        "FIPS" : "28-11100",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13189,
+        "population_2020" : 10948,
+        "population_2027" : 9607,
+        "land_area_2020" : 21.24
+    },
+    "Carrollton, Carroll County, MS" : {
+        "name" : "Carrollton",
+        "state" : "Mississippi",
+        "FIPS" : "28-11580",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 190,
+        "population_2020" : 423,
+        "population_2027" : 942,
+        "land_area_2020" : 0.78
+    },
+    "Carthage, Leake County, MS" : {
+        "name" : "Carthage",
+        "state" : "Mississippi",
+        "FIPS" : "28-11780",
+        "counties" : [
+            "Leake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5075,
+        "population_2020" : 4901,
+        "population_2027" : 4734,
+        "land_area_2020" : 9.29
+    },
+    "Cary, Sharkey County, MS" : {
+        "name" : "Cary",
+        "state" : "Mississippi",
+        "FIPS" : "28-11820",
+        "counties" : [
+            "Sharkey County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 313,
+        "population_2020" : 241,
+        "population_2027" : 203,
+        "land_area_2020" : 0.71
+    },
+    "Centreville, Amite County, MS" : {
+        "name" : "Centreville",
+        "state" : "Mississippi",
+        "FIPS" : "28-12740",
+        "counties" : [
+            "Amite County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1684,
+        "population_2020" : 1258,
+        "population_2027" : 1040,
+        "land_area_2020" : 2.32
+    },
+    "Charleston, Tallahatchie County, MS" : {
+        "name" : "Charleston",
+        "state" : "Mississippi",
+        "FIPS" : "28-12900",
+        "counties" : [
+            "Tallahatchie County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2193,
+        "population_2020" : 1884,
+        "population_2027" : 1688,
+        "land_area_2020" : 1.35
+    },
+    "Chunky, Newton County, MS" : {
+        "name" : "Chunky",
+        "state" : "Mississippi",
+        "FIPS" : "28-13580",
+        "counties" : [
+            "Newton County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 326,
+        "population_2020" : 272,
+        "population_2027" : 239,
+        "land_area_2020" : 0.83
+    },
+    "Clarksdale, Coahoma County, MS" : {
+        "name" : "Clarksdale",
+        "state" : "Mississippi",
+        "FIPS" : "28-13820",
+        "counties" : [
+            "Coahoma County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 17962,
+        "population_2020" : 14903,
+        "population_2027" : 13074,
+        "land_area_2020" : 13.89
+    },
+    "Cleveland, Bolivar County, MS" : {
+        "name" : "Cleveland",
+        "state" : "Mississippi",
+        "FIPS" : "28-14260",
+        "counties" : [
+            "Bolivar County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12334,
+        "population_2020" : 11199,
+        "population_2027" : 10386,
+        "land_area_2020" : 7.3
+    },
+    "Clinton, Hinds County, MS" : {
+        "name" : "Clinton",
+        "state" : "Mississippi",
+        "FIPS" : "28-14420",
+        "counties" : [
+            "Hinds County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 25216,
+        "population_2020" : 28100,
+        "population_2027" : 30114,
+        "land_area_2020" : 41.82
+    },
+    "Coahoma, Coahoma County, MS" : {
+        "name" : "Coahoma",
+        "state" : "Mississippi",
+        "FIPS" : "28-14580",
+        "counties" : [
+            "Coahoma County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 377,
+        "population_2020" : 229,
+        "population_2027" : 171,
+        "land_area_2020" : 0.2
+    },
+    "Coffeeville, Yalobusha County, MS" : {
+        "name" : "Coffeeville",
+        "state" : "Mississippi",
+        "FIPS" : "28-14740",
+        "counties" : [
+            "Yalobusha County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 905,
+        "population_2020" : 797,
+        "population_2027" : 725,
+        "land_area_2020" : 2.14
+    },
+    "Coldwater, Tate County, MS" : {
+        "name" : "Coldwater",
+        "state" : "Mississippi",
+        "FIPS" : "28-14900",
+        "counties" : [
+            "Tate County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1677,
+        "population_2020" : 1381,
+        "population_2027" : 1206,
+        "land_area_2020" : 2.37
+    },
+    "Collins, Covington County, MS" : {
+        "name" : "Collins",
+        "state" : "Mississippi",
+        "FIPS" : "28-15140",
+        "counties" : [
+            "Covington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2586,
+        "population_2020" : 2342,
+        "population_2027" : 2169,
+        "land_area_2020" : 7.96
+    },
+    "Columbia, Marion County, MS" : {
+        "name" : "Columbia",
+        "state" : "Mississippi",
+        "FIPS" : "28-15340",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6582,
+        "population_2020" : 5864,
+        "population_2027" : 5373,
+        "land_area_2020" : 6.75
+    },
+    "Columbus, Lowndes County, MS" : {
+        "name" : "Columbus",
+        "state" : "Mississippi",
+        "FIPS" : "28-15380",
+        "counties" : [
+            "Lowndes County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23640,
+        "population_2020" : 24084,
+        "population_2027" : 24148,
+        "land_area_2020" : 22.06
+    },
+    "Como, Panola County, MS" : {
+        "name" : "Como",
+        "state" : "Mississippi",
+        "FIPS" : "28-15500",
+        "counties" : [
+            "Panola County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1279,
+        "population_2020" : 1118,
+        "population_2027" : 1012,
+        "land_area_2020" : 1.89
+    },
+    "Corinth, Alcorn County, MS" : {
+        "name" : "Corinth",
+        "state" : "Mississippi",
+        "FIPS" : "28-15700",
+        "counties" : [
+            "Alcorn County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14573,
+        "population_2020" : 14622,
+        "population_2027" : 14503,
+        "land_area_2020" : 30.16
+    },
+    "Courtland, Panola County, MS" : {
+        "name" : "Courtland",
+        "state" : "Mississippi",
+        "FIPS" : "28-15980",
+        "counties" : [
+            "Panola County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 511,
+        "population_2020" : 470,
+        "population_2027" : 440,
+        "land_area_2020" : 1.13
+    },
+    "Crawford, Lowndes County, MS" : {
+        "name" : "Crawford",
+        "state" : "Mississippi",
+        "FIPS" : "28-16420",
+        "counties" : [
+            "Lowndes County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 641,
+        "population_2020" : 415,
+        "population_2027" : 319,
+        "land_area_2020" : 1.4
+    },
+    "Crenshaw, Panola County, MS" : {
+        "name" : "Crenshaw",
+        "state" : "Mississippi",
+        "FIPS" : "28-16460",
+        "counties" : [
+            "Panola County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 885,
+        "population_2020" : 638,
+        "population_2027" : 518,
+        "land_area_2020" : 0.41
+    },
+    "Crosby, Amite County, MS" : {
+        "name" : "Crosby",
+        "state" : "Mississippi",
+        "FIPS" : "28-16620",
+        "counties" : [
+            "Amite County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 318,
+        "population_2020" : 242,
+        "population_2027" : 202,
+        "land_area_2020" : 2.12
+    },
+    "Crowder, Panola County, MS" : {
+        "name" : "Crowder",
+        "state" : "Mississippi",
+        "FIPS" : "28-16940",
+        "counties" : [
+            "Panola County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 712,
+        "population_2020" : 573,
+        "population_2027" : 494,
+        "land_area_2020" : 0.46
+    },
+    "Cruger, Holmes County, MS" : {
+        "name" : "Cruger",
+        "state" : "Mississippi",
+        "FIPS" : "28-16980",
+        "counties" : [
+            "Holmes County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 386,
+        "population_2020" : 268,
+        "population_2027" : 213,
+        "land_area_2020" : 0.96
+    },
+    "Crystal Springs, Copiah County, MS" : {
+        "name" : "Crystal Springs",
+        "state" : "Mississippi",
+        "FIPS" : "28-17060",
+        "counties" : [
+            "Copiah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5044,
+        "population_2020" : 4862,
+        "population_2027" : 4691,
+        "land_area_2020" : 5.43
+    },
+    "Decatur, Newton County, MS" : {
+        "name" : "Decatur",
+        "state" : "Mississippi",
+        "FIPS" : "28-18180",
+        "counties" : [
+            "Newton County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1841,
+        "population_2020" : 1945,
+        "population_2027" : 2002,
+        "land_area_2020" : 5.5
+    },
+    "De Kalb, Kemper County, MS" : {
+        "name" : "De Kalb",
+        "state" : "Mississippi",
+        "FIPS" : "28-18340",
+        "counties" : [
+            "Kemper County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1164,
+        "population_2020" : 877,
+        "population_2027" : 728,
+        "land_area_2020" : 3.32
+    },
+    "Derma, Calhoun County, MS" : {
+        "name" : "Derma",
+        "state" : "Mississippi",
+        "FIPS" : "28-18940",
+        "counties" : [
+            "Calhoun County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1025,
+        "population_2020" : 957,
+        "population_2027" : 904,
+        "land_area_2020" : 1.77
+    },
+    "D'Iberville, Harrison County, MS" : {
+        "name" : "D'Iberville",
+        "state" : "Mississippi",
+        "FIPS" : "28-19180",
+        "counties" : [
+            "Harrison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9486,
+        "population_2020" : 12721,
+        "population_2027" : 15924,
+        "land_area_2020" : 7.06
+    },
+    "D'Lo, Simpson County, MS" : {
+        "name" : "D'Lo",
+        "state" : "Mississippi",
+        "FIPS" : "28-19340",
+        "counties" : [
+            "Simpson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 452,
+        "population_2020" : 373,
+        "population_2027" : 326,
+        "land_area_2020" : 0.69
+    },
+    "Diamondhead, Hancock County, MS" : {
+        "name" : "Diamondhead",
+        "state" : "Mississippi",
+        "FIPS" : "28-19100",
+        "counties" : [
+            "Hancock County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8425,
+        "population_2020" : 9529,
+        "population_2027" : 10330,
+        "land_area_2020" : 11.09
+    },
+    "Doddsville, Sunflower County, MS" : {
+        "name" : "Doddsville",
+        "state" : "Mississippi",
+        "FIPS" : "28-19420",
+        "counties" : [
+            "Sunflower County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 98,
+        "population_2020" : 69,
+        "population_2027" : 55,
+        "land_area_2020" : 0.77
+    },
+    "Drew, Sunflower County, MS" : {
+        "name" : "Drew",
+        "state" : "Mississippi",
+        "FIPS" : "28-20020",
+        "counties" : [
+            "Sunflower County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1927,
+        "population_2020" : 1852,
+        "population_2027" : 1783,
+        "land_area_2020" : 1.12
+    },
+    "Duck Hill, Montgomery County, MS" : {
+        "name" : "Duck Hill",
+        "state" : "Mississippi",
+        "FIPS" : "28-20260",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 732,
+        "population_2020" : 619,
+        "population_2027" : 549,
+        "land_area_2020" : 1.03
+    },
+    "Dumas, Tippah County, MS" : {
+        "name" : "Dumas",
+        "state" : "Mississippi",
+        "FIPS" : "28-20340",
+        "counties" : [
+            "Tippah County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 470,
+        "population_2020" : 471,
+        "population_2027" : 467,
+        "land_area_2020" : 3.9
+    },
+    "Duncan, Bolivar County, MS" : {
+        "name" : "Duncan",
+        "state" : "Mississippi",
+        "FIPS" : "28-20380",
+        "counties" : [
+            "Bolivar County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 423,
+        "population_2020" : 276,
+        "population_2027" : 213,
+        "land_area_2020" : 0.92
+    },
+    "Durant, Holmes County, MS" : {
+        "name" : "Durant",
+        "state" : "Mississippi",
+        "FIPS" : "28-20500",
+        "counties" : [
+            "Holmes County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2673,
+        "population_2020" : 2231,
+        "population_2027" : 1964,
+        "land_area_2020" : 2.24
+    },
+    "Ecru, Pontotoc County, MS" : {
+        "name" : "Ecru",
+        "state" : "Mississippi",
+        "FIPS" : "28-21340",
+        "counties" : [
+            "Pontotoc County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 895,
+        "population_2020" : 901,
+        "population_2027" : 896,
+        "land_area_2020" : 4.72
+    },
+    "Eden, Yazoo County, MS" : {
+        "name" : "Eden",
+        "state" : "Mississippi",
+        "FIPS" : "28-21420",
+        "counties" : [
+            "Yazoo County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 103,
+        "population_2020" : 133,
+        "population_2027" : 161,
+        "land_area_2020" : 0.47
+    },
+    "Edwards, Hinds County, MS" : {
+        "name" : "Edwards",
+        "state" : "Mississippi",
+        "FIPS" : "28-21580",
+        "counties" : [
+            "Hinds County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1034,
+        "population_2020" : 995,
+        "population_2027" : 959,
+        "land_area_2020" : 1.66
+    },
+    "Ellisville, Jones County, MS" : {
+        "name" : "Ellisville",
+        "state" : "Mississippi",
+        "FIPS" : "28-22020",
+        "counties" : [
+            "Jones County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4448,
+        "population_2020" : 4652,
+        "population_2027" : 4753,
+        "land_area_2020" : 10.52
+    },
+    "Enterprise, Clarke County, MS" : {
+        "name" : "Enterprise",
+        "state" : "Mississippi",
+        "FIPS" : "28-22580",
+        "counties" : [
+            "Clarke County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 526,
+        "population_2020" : 496,
+        "population_2027" : 472,
+        "land_area_2020" : 2.44
+    },
+    "Ethel, Attala County, MS" : {
+        "name" : "Ethel",
+        "state" : "Mississippi",
+        "FIPS" : "28-23220",
+        "counties" : [
+            "Attala County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 418,
+        "population_2020" : 348,
+        "population_2027" : 306,
+        "land_area_2020" : 0.58
+    },
+    "Eupora, Webster County, MS" : {
+        "name" : "Eupora",
+        "state" : "Mississippi",
+        "FIPS" : "28-23420",
+        "counties" : [
+            "Webster County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2197,
+        "population_2020" : 2018,
+        "population_2027" : 1886,
+        "land_area_2020" : 3.32
+    },
+    "Falcon, Quitman County, MS" : {
+        "name" : "Falcon",
+        "state" : "Mississippi",
+        "FIPS" : "28-24180",
+        "counties" : [
+            "Quitman County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 167,
+        "population_2020" : 116,
+        "population_2027" : 92,
+        "land_area_2020" : 0.39
+    },
+    "Falkner, Tippah County, MS" : {
+        "name" : "Falkner",
+        "state" : "Mississippi",
+        "FIPS" : "28-24220",
+        "counties" : [
+            "Tippah County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 514,
+        "population_2020" : 437,
+        "population_2027" : 389,
+        "land_area_2020" : 5.07
+    },
+    "Farmington, Alcorn County, MS" : {
+        "name" : "Farmington",
+        "state" : "Mississippi",
+        "FIPS" : "28-24420",
+        "counties" : [
+            "Alcorn County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2186,
+        "population_2020" : 2186,
+        "population_2027" : 2163,
+        "land_area_2020" : 6.38
+    },
+    "Fayette, Jefferson County, MS" : {
+        "name" : "Fayette",
+        "state" : "Mississippi",
+        "FIPS" : "28-24500",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1614,
+        "population_2020" : 1445,
+        "population_2027" : 1328,
+        "land_area_2020" : 1.18
+    },
+    "Flora, Madison County, MS" : {
+        "name" : "Flora",
+        "state" : "Mississippi",
+        "FIPS" : "28-24940",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1886,
+        "population_2020" : 1647,
+        "population_2027" : 1490,
+        "land_area_2020" : 3.02
+    },
+    "Florence, Rankin County, MS" : {
+        "name" : "Florence",
+        "state" : "Mississippi",
+        "FIPS" : "28-24980",
+        "counties" : [
+            "Rankin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4141,
+        "population_2020" : 4572,
+        "population_2027" : 4865,
+        "land_area_2020" : 8.07
+    },
+    "Flowood, Rankin County, MS" : {
+        "name" : "Flowood",
+        "state" : "Mississippi",
+        "FIPS" : "28-25100",
+        "counties" : [
+            "Rankin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7823,
+        "population_2020" : 10202,
+        "population_2027" : 12455,
+        "land_area_2020" : 28.41
+    },
+    "Forest, Scott County, MS" : {
+        "name" : "Forest",
+        "state" : "Mississippi",
+        "FIPS" : "28-25340",
+        "counties" : [
+            "Scott County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5684,
+        "population_2020" : 5430,
+        "population_2027" : 5207,
+        "land_area_2020" : 13.08
+    },
+    "French Camp, Choctaw County, MS" : {
+        "name" : "French Camp",
+        "state" : "Mississippi",
+        "FIPS" : "28-26020",
+        "counties" : [
+            "Choctaw County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 174,
+        "population_2020" : 256,
+        "population_2027" : 350,
+        "land_area_2020" : 0.98
+    },
+    "Friars Point, Coahoma County, MS" : {
+        "name" : "Friars Point",
+        "state" : "Mississippi",
+        "FIPS" : "28-26060",
+        "counties" : [
+            "Coahoma County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1200,
+        "population_2020" : 896,
+        "population_2027" : 741,
+        "land_area_2020" : 1.1
+    },
+    "Fulton, Itawamba County, MS" : {
+        "name" : "Fulton",
+        "state" : "Mississippi",
+        "FIPS" : "28-26300",
+        "counties" : [
+            "Itawamba County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3961,
+        "population_2020" : 4542,
+        "population_2027" : 4978,
+        "land_area_2020" : 8.49
+    },
+    "Gattman, Monroe County, MS" : {
+        "name" : "Gattman",
+        "state" : "Mississippi",
+        "FIPS" : "28-26780",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 90,
+        "population_2020" : 77,
+        "population_2027" : 69,
+        "land_area_2020" : 0.56
+    },
+    "Gautier, Jackson County, MS" : {
+        "name" : "Gautier",
+        "state" : "Mississippi",
+        "FIPS" : "28-26860",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 18572,
+        "population_2020" : 19024,
+        "population_2027" : 19149,
+        "land_area_2020" : 30.23
+    },
+    "Georgetown, Copiah County, MS" : {
+        "name" : "Georgetown",
+        "state" : "Mississippi",
+        "FIPS" : "28-26980",
+        "counties" : [
+            "Copiah County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 286,
+        "population_2020" : 252,
+        "population_2027" : 229,
+        "land_area_2020" : 0.67
+    },
+    "Glen, Alcorn County, MS" : {
+        "name" : "Glen",
+        "state" : "Mississippi",
+        "FIPS" : "28-27540",
+        "counties" : [
+            "Alcorn County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 412,
+        "population_2020" : 382,
+        "population_2027" : 359,
+        "land_area_2020" : 4.66
+    },
+    "Glendora, Tallahatchie County, MS" : {
+        "name" : "Glendora",
+        "state" : "Mississippi",
+        "FIPS" : "28-27660",
+        "counties" : [
+            "Tallahatchie County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 151,
+        "population_2020" : 154,
+        "population_2027" : 155,
+        "land_area_2020" : 0.14
+    },
+    "Gloster, Amite County, MS" : {
+        "name" : "Gloster",
+        "state" : "Mississippi",
+        "FIPS" : "28-27820",
+        "counties" : [
+            "Amite County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 960,
+        "population_2020" : 897,
+        "population_2027" : 848,
+        "land_area_2020" : 1.82
+    },
+    "Gluckstadt, Madison County, MS" : {
+        "name" : "Gluckstadt",
+        "state" : "Mississippi",
+        "FIPS" : "28-27900",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 0,
+        "population_2020" : 3208,
+        "population_2027" : 15169,
+        "land_area_2020" : 10.8
+    },
+    "Golden, Tishomingo County, MS" : {
+        "name" : "Golden",
+        "state" : "Mississippi",
+        "FIPS" : "28-27940",
+        "counties" : [
+            "Tishomingo County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 191,
+        "population_2020" : 192,
+        "population_2027" : 191,
+        "land_area_2020" : 0.58
+    },
+    "Goodman, Holmes County, MS" : {
+        "name" : "Goodman",
+        "state" : "Mississippi",
+        "FIPS" : "28-28220",
+        "counties" : [
+            "Holmes County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1386,
+        "population_2020" : 1258,
+        "population_2027" : 1166,
+        "land_area_2020" : 0.82
+    },
+    "Greenville, Washington County, MS" : {
+        "name" : "Greenville",
+        "state" : "Mississippi",
+        "FIPS" : "28-29180",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 34400,
+        "population_2020" : 29670,
+        "population_2027" : 26644,
+        "land_area_2020" : 26.89
+    },
+    "Greenwood, Leflore County, MS" : {
+        "name" : "Greenwood",
+        "state" : "Mississippi",
+        "FIPS" : "28-29340",
+        "counties" : [
+            "Leflore County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15205,
+        "population_2020" : 14490,
+        "population_2027" : 13872,
+        "land_area_2020" : 12.34
+    },
+    "Grenada, Grenada County, MS" : {
+        "name" : "Grenada",
+        "state" : "Mississippi",
+        "FIPS" : "28-29460",
+        "counties" : [
+            "Grenada County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13092,
+        "population_2020" : 12700,
+        "population_2027" : 12306,
+        "land_area_2020" : 30.01
+    },
+    "Gulfport, Harrison County, MS" : {
+        "name" : "Gulfport",
+        "state" : "Mississippi",
+        "FIPS" : "28-29700",
+        "counties" : [
+            "Harrison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 67793,
+        "population_2020" : 72926,
+        "population_2027" : 76082,
+        "land_area_2020" : 55.59
+    },
+    "Gunnison, Bolivar County, MS" : {
+        "name" : "Gunnison",
+        "state" : "Mississippi",
+        "FIPS" : "28-29900",
+        "counties" : [
+            "Bolivar County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 452,
+        "population_2020" : 295,
+        "population_2027" : 228,
+        "land_area_2020" : 0.98
+    },
+    "Guntown, Lee County, MS" : {
+        "name" : "Guntown",
+        "state" : "Mississippi",
+        "FIPS" : "28-29940",
+        "counties" : [
+            "Lee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2083,
+        "population_2020" : 2410,
+        "population_2027" : 2660,
+        "land_area_2020" : 4.66
+    },
+    "Hatley, Monroe County, MS" : {
+        "name" : "Hatley",
+        "state" : "Mississippi",
+        "FIPS" : "28-30980",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 482,
+        "population_2020" : 495,
+        "population_2027" : 499,
+        "land_area_2020" : 1.37
+    },
+    "Hattiesburg, Forrest County, MS" : {
+        "name" : "Hattiesburg",
+        "state" : "Mississippi",
+        "FIPS" : "28-31020",
+        "counties" : [
+            "Forrest County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 45989,
+        "population_2020" : 48730,
+        "population_2027" : 50272,
+        "land_area_2020" : 53.39
+    },
+    "Hazlehurst, Copiah County, MS" : {
+        "name" : "Hazlehurst",
+        "state" : "Mississippi",
+        "FIPS" : "28-31220",
+        "counties" : [
+            "Copiah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4009,
+        "population_2020" : 3619,
+        "population_2027" : 3344,
+        "land_area_2020" : 4.38
+    },
+    "Heidelberg, Jasper County, MS" : {
+        "name" : "Heidelberg",
+        "state" : "Mississippi",
+        "FIPS" : "28-31420",
+        "counties" : [
+            "Jasper County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 718,
+        "population_2020" : 637,
+        "population_2027" : 582,
+        "land_area_2020" : 5.11
+    },
+    "Hernando, DeSoto County, MS" : {
+        "name" : "Hernando",
+        "state" : "Mississippi",
+        "FIPS" : "28-31780",
+        "counties" : [
+            "DeSoto County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14090,
+        "population_2020" : 17138,
+        "population_2027" : 19704,
+        "land_area_2020" : 25.73
+    },
+    "Hickory, Newton County, MS" : {
+        "name" : "Hickory",
+        "state" : "Mississippi",
+        "FIPS" : "28-31980",
+        "counties" : [
+            "Newton County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 530,
+        "population_2020" : 408,
+        "population_2027" : 343,
+        "land_area_2020" : 0.94
+    },
+    "Hickory Flat, Benton County, MS" : {
+        "name" : "Hickory Flat",
+        "state" : "Mississippi",
+        "FIPS" : "28-32020",
+        "counties" : [
+            "Benton County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 601,
+        "population_2020" : 496,
+        "population_2027" : 434,
+        "land_area_2020" : 0.96
+    },
+    "Hollandale, Washington County, MS" : {
+        "name" : "Hollandale",
+        "state" : "Mississippi",
+        "FIPS" : "28-32900",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2702,
+        "population_2020" : 2323,
+        "population_2027" : 2082,
+        "land_area_2020" : 2.22
+    },
+    "Holly Springs, Marshall County, MS" : {
+        "name" : "Holly Springs",
+        "state" : "Mississippi",
+        "FIPS" : "28-33100",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7957,
+        "population_2020" : 6968,
+        "population_2027" : 6316,
+        "land_area_2020" : 12.78
+    },
+    "Horn Lake, DeSoto County, MS" : {
+        "name" : "Horn Lake",
+        "state" : "Mississippi",
+        "FIPS" : "28-33700",
+        "counties" : [
+            "DeSoto County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 26066,
+        "population_2020" : 26736,
+        "population_2027" : 26937,
+        "land_area_2020" : 16.02
+    },
+    "Houston, Chickasaw County, MS" : {
+        "name" : "Houston",
+        "state" : "Mississippi",
+        "FIPS" : "28-33900",
+        "counties" : [
+            "Chickasaw County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3623,
+        "population_2020" : 3797,
+        "population_2027" : 3886,
+        "land_area_2020" : 7.38
+    },
+    "Indianola, Sunflower County, MS" : {
+        "name" : "Indianola",
+        "state" : "Mississippi",
+        "FIPS" : "28-34740",
+        "counties" : [
+            "Sunflower County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10683,
+        "population_2020" : 9646,
+        "population_2027" : 8914,
+        "land_area_2020" : 8.57
+    },
+    "Inverness, Sunflower County, MS" : {
+        "name" : "Inverness",
+        "state" : "Mississippi",
+        "FIPS" : "28-35020",
+        "counties" : [
+            "Sunflower County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1019,
+        "population_2020" : 868,
+        "population_2027" : 774,
+        "land_area_2020" : 1.44
+    },
+    "Isola, Humphreys County, MS" : {
+        "name" : "Isola",
+        "state" : "Mississippi",
+        "FIPS" : "28-35220",
+        "counties" : [
+            "Humphreys County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 713,
+        "population_2020" : 638,
+        "population_2027" : 586,
+        "land_area_2020" : 0.74
+    },
+    "Itta Bena, Leflore County, MS" : {
+        "name" : "Itta Bena",
+        "state" : "Mississippi",
+        "FIPS" : "28-35260",
+        "counties" : [
+            "Leflore County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2049,
+        "population_2020" : 1679,
+        "population_2027" : 1462,
+        "land_area_2020" : 1.42
+    },
+    "Iuka, Tishomingo County, MS" : {
+        "name" : "Iuka",
+        "state" : "Mississippi",
+        "FIPS" : "28-35300",
+        "counties" : [
+            "Tishomingo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3028,
+        "population_2020" : 3139,
+        "population_2027" : 3187,
+        "land_area_2020" : 9.69
+    },
+    "Jackson, Hinds County, MS" : {
+        "name" : "Jackson",
+        "state" : "Mississippi",
+        "FIPS" : "28-36000",
+        "counties" : [
+            "Hinds County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 173514,
+        "population_2020" : 153701,
+        "population_2027" : 140329,
+        "land_area_2020" : 111.05
+    },
+    "Jonestown, Coahoma County, MS" : {
+        "name" : "Jonestown",
+        "state" : "Mississippi",
+        "FIPS" : "28-36800",
+        "counties" : [
+            "Coahoma County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1298,
+        "population_2020" : 962,
+        "population_2027" : 792,
+        "land_area_2020" : 0.39
+    },
+    "Jumpertown, Prentiss County, MS" : {
+        "name" : "Jumpertown",
+        "state" : "Mississippi",
+        "FIPS" : "28-37040",
+        "counties" : [
+            "Prentiss County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 480,
+        "population_2020" : 425,
+        "population_2027" : 388,
+        "land_area_2020" : 1.79
+    },
+    "Kilmichael, Montgomery County, MS" : {
+        "name" : "Kilmichael",
+        "state" : "Mississippi",
+        "FIPS" : "28-37560",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 699,
+        "population_2020" : 639,
+        "population_2027" : 595,
+        "land_area_2020" : 2.79
+    },
+    "Kosciusko, Attala County, MS" : {
+        "name" : "Kosciusko",
+        "state" : "Mississippi",
+        "FIPS" : "28-38320",
+        "counties" : [
+            "Attala County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7402,
+        "population_2020" : 7114,
+        "population_2027" : 6850,
+        "land_area_2020" : 7.54
+    },
+    "Kossuth, Alcorn County, MS" : {
+        "name" : "Kossuth",
+        "state" : "Mississippi",
+        "FIPS" : "28-38360",
+        "counties" : [
+            "Alcorn County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 209,
+        "population_2020" : 160,
+        "population_2027" : 134,
+        "land_area_2020" : 0.96
+    },
+    "Lake, Newton County, MS" : {
+        "name" : "Lake",
+        "state" : "Mississippi",
+        "FIPS" : "28-38600",
+        "counties" : [
+            "Newton County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 324,
+        "population_2020" : 475,
+        "population_2027" : 647,
+        "land_area_2020" : 1.11
+    },
+    "Lambert, Quitman County, MS" : {
+        "name" : "Lambert",
+        "state" : "Mississippi",
+        "FIPS" : "28-39080",
+        "counties" : [
+            "Quitman County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1638,
+        "population_2020" : 1273,
+        "population_2027" : 1076,
+        "land_area_2020" : 0.85
+    },
+    "Laurel, Jones County, MS" : {
+        "name" : "Laurel",
+        "state" : "Mississippi",
+        "FIPS" : "28-39640",
+        "counties" : [
+            "Jones County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 18540,
+        "population_2020" : 17161,
+        "population_2027" : 16116,
+        "land_area_2020" : 16.24
+    },
+    "Leakesville, Greene County, MS" : {
+        "name" : "Leakesville",
+        "state" : "Mississippi",
+        "FIPS" : "28-39840",
+        "counties" : [
+            "Greene County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 898,
+        "population_2020" : 3775,
+        "population_2027" : 17850,
+        "land_area_2020" : 1.58
+    },
+    "Learned, Hinds County, MS" : {
+        "name" : "Learned",
+        "state" : "Mississippi",
+        "FIPS" : "28-39880",
+        "counties" : [
+            "Hinds County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 94,
+        "population_2020" : 56,
+        "population_2027" : 41,
+        "land_area_2020" : 0.34
+    },
+    "Leland, Washington County, MS" : {
+        "name" : "Leland",
+        "state" : "Mississippi",
+        "FIPS" : "28-40280",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4481,
+        "population_2020" : 3988,
+        "population_2027" : 3652,
+        "land_area_2020" : 3.59
+    },
+    "Lena, Leake County, MS" : {
+        "name" : "Lena",
+        "state" : "Mississippi",
+        "FIPS" : "28-40360",
+        "counties" : [
+            "Leake County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 148,
+        "population_2020" : 157,
+        "population_2027" : 162,
+        "land_area_2020" : 1.66
+    },
+    "Lexington, Holmes County, MS" : {
+        "name" : "Lexington",
+        "state" : "Mississippi",
+        "FIPS" : "28-40600",
+        "counties" : [
+            "Holmes County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1731,
+        "population_2020" : 1602,
+        "population_2027" : 1504,
+        "land_area_2020" : 2.42
+    },
+    "Liberty, Amite County, MS" : {
+        "name" : "Liberty",
+        "state" : "Mississippi",
+        "FIPS" : "28-40640",
+        "counties" : [
+            "Amite County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 728,
+        "population_2020" : 560,
+        "population_2027" : 470,
+        "land_area_2020" : 2.06
+    },
+    "Long Beach, Harrison County, MS" : {
+        "name" : "Long Beach",
+        "state" : "Mississippi",
+        "FIPS" : "28-41680",
+        "counties" : [
+            "Harrison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14792,
+        "population_2020" : 16780,
+        "population_2027" : 18234,
+        "land_area_2020" : 10.0
+    },
+    "Louin, Jasper County, MS" : {
+        "name" : "Louin",
+        "state" : "Mississippi",
+        "FIPS" : "28-42200",
+        "counties" : [
+            "Jasper County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 277,
+        "population_2020" : 275,
+        "population_2027" : 271,
+        "land_area_2020" : 6.06
+    },
+    "Louise, Humphreys County, MS" : {
+        "name" : "Louise",
+        "state" : "Mississippi",
+        "FIPS" : "28-42240",
+        "counties" : [
+            "Humphreys County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 199,
+        "population_2020" : 178,
+        "population_2027" : 164,
+        "land_area_2020" : 0.18
+    },
+    "Louisville, Winston County, MS" : {
+        "name" : "Louisville",
+        "state" : "Mississippi",
+        "FIPS" : "28-42280",
+        "counties" : [
+            "Winston County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6631,
+        "population_2020" : 6072,
+        "population_2027" : 5662,
+        "land_area_2020" : 15.07
+    },
+    "Lucedale, George County, MS" : {
+        "name" : "Lucedale",
+        "state" : "Mississippi",
+        "FIPS" : "28-42440",
+        "counties" : [
+            "George County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2923,
+        "population_2020" : 2869,
+        "population_2027" : 2802,
+        "land_area_2020" : 6.39
+    },
+    "Lula, Coahoma County, MS" : {
+        "name" : "Lula",
+        "state" : "Mississippi",
+        "FIPS" : "28-42600",
+        "counties" : [
+            "Coahoma County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 298,
+        "population_2020" : 204,
+        "population_2027" : 161,
+        "land_area_2020" : 0.42
+    },
+    "Lumberton, Lamar County, MS" : {
+        "name" : "Lumberton",
+        "state" : "Mississippi",
+        "FIPS" : "28-42640",
+        "counties" : [
+            "Lamar County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2086,
+        "population_2020" : 1617,
+        "population_2027" : 1364,
+        "land_area_2020" : 7.24
+    },
+    "Lyon, Coahoma County, MS" : {
+        "name" : "Lyon",
+        "state" : "Mississippi",
+        "FIPS" : "28-42960",
+        "counties" : [
+            "Coahoma County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 350,
+        "population_2020" : 296,
+        "population_2027" : 263,
+        "land_area_2020" : 0.47
+    },
+    "Maben, Oktibbeha County, MS" : {
+        "name" : "Maben",
+        "state" : "Mississippi",
+        "FIPS" : "28-42980",
+        "counties" : [
+            "Oktibbeha County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 871,
+        "population_2020" : 771,
+        "population_2027" : 704,
+        "land_area_2020" : 1.94
+    },
+    "McComb, Pike County, MS" : {
+        "name" : "McComb",
+        "state" : "Mississippi",
+        "FIPS" : "28-43280",
+        "counties" : [
+            "Pike County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12790,
+        "population_2020" : 12413,
+        "population_2027" : 12032,
+        "land_area_2020" : 11.57
+    },
+    "McCool, Attala County, MS" : {
+        "name" : "McCool",
+        "state" : "Mississippi",
+        "FIPS" : "28-43400",
+        "counties" : [
+            "Attala County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 135,
+        "population_2020" : 103,
+        "population_2027" : 86,
+        "land_area_2020" : 0.94
+    },
+    "McLain, Greene County, MS" : {
+        "name" : "McLain",
+        "state" : "Mississippi",
+        "FIPS" : "28-43840",
+        "counties" : [
+            "Greene County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 441,
+        "population_2020" : 313,
+        "population_2027" : 252,
+        "land_area_2020" : 3.39
+    },
+    "Macon, Noxubee County, MS" : {
+        "name" : "Macon",
+        "state" : "Mississippi",
+        "FIPS" : "28-44240",
+        "counties" : [
+            "Noxubee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2768,
+        "population_2020" : 2582,
+        "population_2027" : 2437,
+        "land_area_2020" : 3.83
+    },
+    "Madison, Madison County, MS" : {
+        "name" : "Madison",
+        "state" : "Mississippi",
+        "FIPS" : "28-44520",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 24149,
+        "population_2020" : 27747,
+        "population_2027" : 30456,
+        "land_area_2020" : 25.22
+    },
+    "Magee, Simpson County, MS" : {
+        "name" : "Magee",
+        "state" : "Mississippi",
+        "FIPS" : "28-44600",
+        "counties" : [
+            "Simpson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4408,
+        "population_2020" : 2988,
+        "population_2027" : 2350,
+        "land_area_2020" : 5.13
+    },
+    "Magnolia, Pike County, MS" : {
+        "name" : "Magnolia",
+        "state" : "Mississippi",
+        "FIPS" : "28-44680",
+        "counties" : [
+            "Pike County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2071,
+        "population_2020" : 2420,
+        "population_2027" : 2692,
+        "land_area_2020" : 6.14
+    },
+    "Mantachie, Itawamba County, MS" : {
+        "name" : "Mantachie",
+        "state" : "Mississippi",
+        "FIPS" : "28-44920",
+        "counties" : [
+            "Itawamba County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1144,
+        "population_2020" : 1121,
+        "population_2027" : 1094,
+        "land_area_2020" : 3.94
+    },
+    "Mantee, Webster County, MS" : {
+        "name" : "Mantee",
+        "state" : "Mississippi",
+        "FIPS" : "28-44960",
+        "counties" : [
+            "Webster County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 232,
+        "population_2020" : 237,
+        "population_2027" : 238,
+        "land_area_2020" : 4.49
+    },
+    "Marietta, Prentiss County, MS" : {
+        "name" : "Marietta",
+        "state" : "Mississippi",
+        "FIPS" : "28-45120",
+        "counties" : [
+            "Prentiss County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 256,
+        "population_2020" : 198,
+        "population_2027" : 167,
+        "land_area_2020" : 1.78
+    },
+    "Marion, Lauderdale County, MS" : {
+        "name" : "Marion",
+        "state" : "Mississippi",
+        "FIPS" : "28-45160",
+        "counties" : [
+            "Lauderdale County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1479,
+        "population_2020" : 1751,
+        "population_2027" : 1969,
+        "land_area_2020" : 2.91
+    },
+    "Marks, Quitman County, MS" : {
+        "name" : "Marks",
+        "state" : "Mississippi",
+        "FIPS" : "28-45240",
+        "counties" : [
+            "Quitman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1735,
+        "population_2020" : 1444,
+        "population_2027" : 1269,
+        "land_area_2020" : 1.28
+    },
+    "Mathiston, Choctaw County, MS" : {
+        "name" : "Mathiston",
+        "state" : "Mississippi",
+        "FIPS" : "28-45720",
+        "counties" : [
+            "Choctaw County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 698,
+        "population_2020" : 831,
+        "population_2027" : 939,
+        "land_area_2020" : 2.46
+    },
+    "Mayersville, Issaquena County, MS" : {
+        "name" : "Mayersville",
+        "state" : "Mississippi",
+        "FIPS" : "28-46000",
+        "counties" : [
+            "Issaquena County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 547,
+        "population_2020" : 433,
+        "population_2027" : 370,
+        "land_area_2020" : 1.1
+    },
+    "Meadville, Franklin County, MS" : {
+        "name" : "Meadville",
+        "state" : "Mississippi",
+        "FIPS" : "28-46200",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 449,
+        "population_2020" : 448,
+        "population_2027" : 443,
+        "land_area_2020" : 1.1
+    },
+    "Mendenhall, Simpson County, MS" : {
+        "name" : "Mendenhall",
+        "state" : "Mississippi",
+        "FIPS" : "28-46600",
+        "counties" : [
+            "Simpson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2504,
+        "population_2020" : 2199,
+        "population_2027" : 1997,
+        "land_area_2020" : 5.35
+    },
+    "Meridian, Lauderdale County, MS" : {
+        "name" : "Meridian",
+        "state" : "Mississippi",
+        "FIPS" : "28-46640",
+        "counties" : [
+            "Lauderdale County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 41148,
+        "population_2020" : 35052,
+        "population_2027" : 31240,
+        "land_area_2020" : 53.74
+    },
+    "Merigold, Bolivar County, MS" : {
+        "name" : "Merigold",
+        "state" : "Mississippi",
+        "FIPS" : "28-46720",
+        "counties" : [
+            "Bolivar County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 439,
+        "population_2020" : 379,
+        "population_2027" : 341,
+        "land_area_2020" : 0.97
+    },
+    "Metcalfe, Washington County, MS" : {
+        "name" : "Metcalfe",
+        "state" : "Mississippi",
+        "FIPS" : "28-46880",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1067,
+        "population_2020" : 816,
+        "population_2027" : 683,
+        "land_area_2020" : 1.0
+    },
+    "Mize, Smith County, MS" : {
+        "name" : "Mize",
+        "state" : "Mississippi",
+        "FIPS" : "28-48240",
+        "counties" : [
+            "Smith County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 340,
+        "population_2020" : 317,
+        "population_2027" : 299,
+        "land_area_2020" : 2.31
+    },
+    "Monticello, Lawrence County, MS" : {
+        "name" : "Monticello",
+        "state" : "Mississippi",
+        "FIPS" : "28-48560",
+        "counties" : [
+            "Lawrence County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1571,
+        "population_2020" : 1441,
+        "population_2027" : 1345,
+        "land_area_2020" : 4.17
+    },
+    "Montrose, Jasper County, MS" : {
+        "name" : "Montrose",
+        "state" : "Mississippi",
+        "FIPS" : "28-48640",
+        "counties" : [
+            "Jasper County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 140,
+        "population_2020" : 104,
+        "population_2027" : 86,
+        "land_area_2020" : 2.71
+    },
+    "Moorhead, Sunflower County, MS" : {
+        "name" : "Moorhead",
+        "state" : "Mississippi",
+        "FIPS" : "28-48760",
+        "counties" : [
+            "Sunflower County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2405,
+        "population_2020" : 1937,
+        "population_2027" : 1670,
+        "land_area_2020" : 1.3
+    },
+    "Morgan City, Leflore County, MS" : {
+        "name" : "Morgan City",
+        "state" : "Mississippi",
+        "FIPS" : "28-48800",
+        "counties" : [
+            "Leflore County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 255,
+        "population_2020" : 207,
+        "population_2027" : 179,
+        "land_area_2020" : 0.59
+    },
+    "Morton, Scott County, MS" : {
+        "name" : "Morton",
+        "state" : "Mississippi",
+        "FIPS" : "28-49080",
+        "counties" : [
+            "Scott County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3462,
+        "population_2020" : 3711,
+        "population_2027" : 3861,
+        "land_area_2020" : 7.19
+    },
+    "Moss Point, Jackson County, MS" : {
+        "name" : "Moss Point",
+        "state" : "Mississippi",
+        "FIPS" : "28-49240",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13704,
+        "population_2020" : 12147,
+        "population_2027" : 11095,
+        "land_area_2020" : 24.16
+    },
+    "Mound Bayou, Bolivar County, MS" : {
+        "name" : "Mound Bayou",
+        "state" : "Mississippi",
+        "FIPS" : "28-49320",
+        "counties" : [
+            "Bolivar County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1533,
+        "population_2020" : 1534,
+        "population_2027" : 1519,
+        "land_area_2020" : 0.88
+    },
+    "Mount Olive, Covington County, MS" : {
+        "name" : "Mount Olive",
+        "state" : "Mississippi",
+        "FIPS" : "28-49520",
+        "counties" : [
+            "Covington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 982,
+        "population_2020" : 895,
+        "population_2027" : 832,
+        "land_area_2020" : 3.1
+    },
+    "Myrtle, Union County, MS" : {
+        "name" : "Myrtle",
+        "state" : "Mississippi",
+        "FIPS" : "28-50280",
+        "counties" : [
+            "Union County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 490,
+        "population_2020" : 484,
+        "population_2027" : 475,
+        "land_area_2020" : 2.08
+    },
+    "Natchez, Adams County, MS" : {
+        "name" : "Natchez",
+        "state" : "Mississippi",
+        "FIPS" : "28-50440",
+        "counties" : [
+            "Adams County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15792,
+        "population_2020" : 14520,
+        "population_2027" : 13576,
+        "land_area_2020" : 13.2
+    },
+    "Nettleton, Lee County, MS" : {
+        "name" : "Nettleton",
+        "state" : "Mississippi",
+        "FIPS" : "28-50880",
+        "counties" : [
+            "Lee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1992,
+        "population_2020" : 1935,
+        "population_2027" : 1877,
+        "land_area_2020" : 4.03
+    },
+    "New Albany, Union County, MS" : {
+        "name" : "New Albany",
+        "state" : "Mississippi",
+        "FIPS" : "28-51000",
+        "counties" : [
+            "Union County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8034,
+        "population_2020" : 7626,
+        "population_2027" : 7282,
+        "land_area_2020" : 18.23
+    },
+    "New Augusta, Perry County, MS" : {
+        "name" : "New Augusta",
+        "state" : "Mississippi",
+        "FIPS" : "28-51040",
+        "counties" : [
+            "Perry County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 644,
+        "population_2020" : 554,
+        "population_2027" : 497,
+        "land_area_2020" : 5.14
+    },
+    "New Hebron, Lawrence County, MS" : {
+        "name" : "New Hebron",
+        "state" : "Mississippi",
+        "FIPS" : "28-51360",
+        "counties" : [
+            "Lawrence County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 447,
+        "population_2020" : 386,
+        "population_2027" : 347,
+        "land_area_2020" : 0.67
+    },
+    "New Houlka, Chickasaw County, MS" : {
+        "name" : "New Houlka",
+        "state" : "Mississippi",
+        "FIPS" : "28-51420",
+        "counties" : [
+            "Chickasaw County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 626,
+        "population_2020" : 698,
+        "population_2027" : 748,
+        "land_area_2020" : 1.23
+    },
+    "Newton, Newton County, MS" : {
+        "name" : "Newton",
+        "state" : "Mississippi",
+        "FIPS" : "28-51720",
+        "counties" : [
+            "Newton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3373,
+        "population_2020" : 3195,
+        "population_2027" : 3046,
+        "land_area_2020" : 7.15
+    },
+    "North Carrollton, Carroll County, MS" : {
+        "name" : "North Carrollton",
+        "state" : "Mississippi",
+        "FIPS" : "28-52400",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 473,
+        "population_2020" : 405,
+        "population_2027" : 362,
+        "land_area_2020" : 0.32
+    },
+    "Noxapater, Winston County, MS" : {
+        "name" : "Noxapater",
+        "state" : "Mississippi",
+        "FIPS" : "28-52880",
+        "counties" : [
+            "Winston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 472,
+        "population_2020" : 390,
+        "population_2027" : 341,
+        "land_area_2020" : 1.01
+    },
+    "Oakland, Yalobusha County, MS" : {
+        "name" : "Oakland",
+        "state" : "Mississippi",
+        "FIPS" : "28-53200",
+        "counties" : [
+            "Yalobusha County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 527,
+        "population_2020" : 462,
+        "population_2027" : 419,
+        "land_area_2020" : 1.37
+    },
+    "Ocean Springs, Jackson County, MS" : {
+        "name" : "Ocean Springs",
+        "state" : "Mississippi",
+        "FIPS" : "28-53520",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 18429,
+        "population_2020" : 17442,
+        "population_2027" : 16622,
+        "land_area_2020" : 11.52
+    },
+    "Okolona, Chickasaw County, MS" : {
+        "name" : "Okolona",
+        "state" : "Mississippi",
+        "FIPS" : "28-53680",
+        "counties" : [
+            "Chickasaw County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2692,
+        "population_2020" : 2513,
+        "population_2027" : 2373,
+        "land_area_2020" : 6.65
+    },
+    "Olive Branch, DeSoto County, MS" : {
+        "name" : "Olive Branch",
+        "state" : "Mississippi",
+        "FIPS" : "28-54040",
+        "counties" : [
+            "DeSoto County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 33484,
+        "population_2020" : 39711,
+        "population_2027" : 44714,
+        "land_area_2020" : 36.7
+    },
+    "Osyka, Pike County, MS" : {
+        "name" : "Osyka",
+        "state" : "Mississippi",
+        "FIPS" : "28-54640",
+        "counties" : [
+            "Pike County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 440,
+        "population_2020" : 381,
+        "population_2027" : 343,
+        "land_area_2020" : 1.06
+    },
+    "Oxford, Lafayette County, MS" : {
+        "name" : "Oxford",
+        "state" : "Mississippi",
+        "FIPS" : "28-54840",
+        "counties" : [
+            "Lafayette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 18916,
+        "population_2020" : 25416,
+        "population_2027" : 31872,
+        "land_area_2020" : 15.83
+    },
+    "Pace, Bolivar County, MS" : {
+        "name" : "Pace",
+        "state" : "Mississippi",
+        "FIPS" : "28-54920",
+        "counties" : [
+            "Bolivar County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 274,
+        "population_2020" : 183,
+        "population_2027" : 143,
+        "land_area_2020" : 0.15
+    },
+    "Pachuta, Clarke County, MS" : {
+        "name" : "Pachuta",
+        "state" : "Mississippi",
+        "FIPS" : "28-54960",
+        "counties" : [
+            "Clarke County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 261,
+        "population_2020" : 207,
+        "population_2027" : 177,
+        "land_area_2020" : 2.44
+    },
+    "Paden, Tishomingo County, MS" : {
+        "name" : "Paden",
+        "state" : "Mississippi",
+        "FIPS" : "28-55000",
+        "counties" : [
+            "Tishomingo County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 116,
+        "population_2020" : 104,
+        "population_2027" : 96,
+        "land_area_2020" : 0.9
+    },
+    "Pascagoula, Jackson County, MS" : {
+        "name" : "Pascagoula",
+        "state" : "Mississippi",
+        "FIPS" : "28-55360",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 22392,
+        "population_2020" : 22010,
+        "population_2027" : 21521,
+        "land_area_2020" : 15.38
+    },
+    "Pass Christian, Harrison County, MS" : {
+        "name" : "Pass Christian",
+        "state" : "Mississippi",
+        "FIPS" : "28-55400",
+        "counties" : [
+            "Harrison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4613,
+        "population_2020" : 5686,
+        "population_2027" : 6611,
+        "land_area_2020" : 8.29
+    },
+    "Pearl, Rankin County, MS" : {
+        "name" : "Pearl",
+        "state" : "Mississippi",
+        "FIPS" : "28-55760",
+        "counties" : [
+            "Rankin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 25092,
+        "population_2020" : 27115,
+        "population_2027" : 28385,
+        "land_area_2020" : 23.6
+    },
+    "Pelahatchie, Rankin County, MS" : {
+        "name" : "Pelahatchie",
+        "state" : "Mississippi",
+        "FIPS" : "28-56200",
+        "counties" : [
+            "Rankin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1334,
+        "population_2020" : 1272,
+        "population_2027" : 1218,
+        "land_area_2020" : 5.93
+    },
+    "Petal, Forrest County, MS" : {
+        "name" : "Petal",
+        "state" : "Mississippi",
+        "FIPS" : "28-56800",
+        "counties" : [
+            "Forrest County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10454,
+        "population_2020" : 11010,
+        "population_2027" : 11308,
+        "land_area_2020" : 16.87
+    },
+    "Philadelphia, Neshoba County, MS" : {
+        "name" : "Philadelphia",
+        "state" : "Mississippi",
+        "FIPS" : "28-56960",
+        "counties" : [
+            "Neshoba County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7477,
+        "population_2020" : 7118,
+        "population_2027" : 6810,
+        "land_area_2020" : 12.21
+    },
+    "Picayune, Pearl River County, MS" : {
+        "name" : "Picayune",
+        "state" : "Mississippi",
+        "FIPS" : "28-57160",
+        "counties" : [
+            "Pearl River County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10878,
+        "population_2020" : 11885,
+        "population_2027" : 12546,
+        "land_area_2020" : 12.96
+    },
+    "Pickens, Holmes County, MS" : {
+        "name" : "Pickens",
+        "state" : "Mississippi",
+        "FIPS" : "28-57200",
+        "counties" : [
+            "Holmes County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1157,
+        "population_2020" : 920,
+        "population_2027" : 787,
+        "land_area_2020" : 1.28
+    },
+    "Pittsboro, Calhoun County, MS" : {
+        "name" : "Pittsboro",
+        "state" : "Mississippi",
+        "FIPS" : "28-58360",
+        "counties" : [
+            "Calhoun County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 202,
+        "population_2020" : 157,
+        "population_2027" : 133,
+        "land_area_2020" : 0.98
+    },
+    "Plantersville, Lee County, MS" : {
+        "name" : "Plantersville",
+        "state" : "Mississippi",
+        "FIPS" : "28-58440",
+        "counties" : [
+            "Lee County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1155,
+        "population_2020" : 868,
+        "population_2027" : 720,
+        "land_area_2020" : 2.09
+    },
+    "Polkville, Smith County, MS" : {
+        "name" : "Polkville",
+        "state" : "Mississippi",
+        "FIPS" : "28-58960",
+        "counties" : [
+            "Smith County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 833,
+        "population_2020" : 588,
+        "population_2027" : 472,
+        "land_area_2020" : 17.18
+    },
+    "Pontotoc, Pontotoc County, MS" : {
+        "name" : "Pontotoc",
+        "state" : "Mississippi",
+        "FIPS" : "28-59160",
+        "counties" : [
+            "Pontotoc County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5625,
+        "population_2020" : 5640,
+        "population_2027" : 5591,
+        "land_area_2020" : 11.18
+    },
+    "Pope, Panola County, MS" : {
+        "name" : "Pope",
+        "state" : "Mississippi",
+        "FIPS" : "28-59240",
+        "counties" : [
+            "Panola County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 215,
+        "population_2020" : 268,
+        "population_2027" : 315,
+        "land_area_2020" : 1.06
+    },
+    "Poplarville, Pearl River County, MS" : {
+        "name" : "Poplarville",
+        "state" : "Mississippi",
+        "FIPS" : "28-59480",
+        "counties" : [
+            "Pearl River County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2894,
+        "population_2020" : 2833,
+        "population_2027" : 2762,
+        "land_area_2020" : 5.42
+    },
+    "Port Gibson, Claiborne County, MS" : {
+        "name" : "Port Gibson",
+        "state" : "Mississippi",
+        "FIPS" : "28-59560",
+        "counties" : [
+            "Claiborne County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1567,
+        "population_2020" : 1269,
+        "population_2027" : 1098,
+        "land_area_2020" : 1.76
+    },
+    "Potts Camp, Marshall County, MS" : {
+        "name" : "Potts Camp",
+        "state" : "Mississippi",
+        "FIPS" : "28-59720",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 523,
+        "population_2020" : 416,
+        "population_2027" : 356,
+        "land_area_2020" : 0.97
+    },
+    "Prentiss, Jefferson Davis County, MS" : {
+        "name" : "Prentiss",
+        "state" : "Mississippi",
+        "FIPS" : "28-59920",
+        "counties" : [
+            "Jefferson Davis County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1081,
+        "population_2020" : 976,
+        "population_2027" : 902,
+        "land_area_2020" : 1.9
+    },
+    "Puckett, Rankin County, MS" : {
+        "name" : "Puckett",
+        "state" : "Mississippi",
+        "FIPS" : "28-60360",
+        "counties" : [
+            "Rankin County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 316,
+        "population_2020" : 342,
+        "population_2027" : 358,
+        "land_area_2020" : 2.17
+    },
+    "Purvis, Lamar County, MS" : {
+        "name" : "Purvis",
+        "state" : "Mississippi",
+        "FIPS" : "28-60480",
+        "counties" : [
+            "Lamar County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2175,
+        "population_2020" : 1909,
+        "population_2027" : 1733,
+        "land_area_2020" : 3.88
+    },
+    "Quitman, Clarke County, MS" : {
+        "name" : "Quitman",
+        "state" : "Mississippi",
+        "FIPS" : "28-60720",
+        "counties" : [
+            "Clarke County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2323,
+        "population_2020" : 2061,
+        "population_2027" : 1884,
+        "land_area_2020" : 5.18
+    },
+    "Raleigh, Smith County, MS" : {
+        "name" : "Raleigh",
+        "state" : "Mississippi",
+        "FIPS" : "28-60840",
+        "counties" : [
+            "Smith County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1462,
+        "population_2020" : 1094,
+        "population_2027" : 905,
+        "land_area_2020" : 5.1
+    },
+    "Raymond, Hinds County, MS" : {
+        "name" : "Raymond",
+        "state" : "Mississippi",
+        "FIPS" : "28-61160",
+        "counties" : [
+            "Hinds County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1933,
+        "population_2020" : 1960,
+        "population_2027" : 1959,
+        "land_area_2020" : 3.0
+    },
+    "Renova, Bolivar County, MS" : {
+        "name" : "Renova",
+        "state" : "Mississippi",
+        "FIPS" : "28-61890",
+        "counties" : [
+            "Bolivar County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 668,
+        "population_2020" : 676,
+        "population_2027" : 675,
+        "land_area_2020" : 0.87
+    },
+    "Richland, Rankin County, MS" : {
+        "name" : "Richland",
+        "state" : "Mississippi",
+        "FIPS" : "28-62400",
+        "counties" : [
+            "Rankin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6912,
+        "population_2020" : 7137,
+        "population_2027" : 7225,
+        "land_area_2020" : 12.52
+    },
+    "Richton, Perry County, MS" : {
+        "name" : "Richton",
+        "state" : "Mississippi",
+        "FIPS" : "28-62480",
+        "counties" : [
+            "Perry County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1068,
+        "population_2020" : 920,
+        "population_2027" : 826,
+        "land_area_2020" : 2.29
+    },
+    "Ridgeland, Madison County, MS" : {
+        "name" : "Ridgeland",
+        "state" : "Mississippi",
+        "FIPS" : "28-62520",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 24047,
+        "population_2020" : 24340,
+        "population_2027" : 24292,
+        "land_area_2020" : 19.61
+    },
+    "Rienzi, Alcorn County, MS" : {
+        "name" : "Rienzi",
+        "state" : "Mississippi",
+        "FIPS" : "28-62560",
+        "counties" : [
+            "Alcorn County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 317,
+        "population_2020" : 281,
+        "population_2027" : 257,
+        "land_area_2020" : 0.99
+    },
+    "Ripley, Tippah County, MS" : {
+        "name" : "Ripley",
+        "state" : "Mississippi",
+        "FIPS" : "28-62600",
+        "counties" : [
+            "Tippah County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5395,
+        "population_2020" : 5462,
+        "population_2027" : 5452,
+        "land_area_2020" : 11.32
+    },
+    "Rolling Fork, Sharkey County, MS" : {
+        "name" : "Rolling Fork",
+        "state" : "Mississippi",
+        "FIPS" : "28-63560",
+        "counties" : [
+            "Sharkey County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2143,
+        "population_2020" : 1883,
+        "population_2027" : 1710,
+        "land_area_2020" : 1.41
+    },
+    "Rosedale, Bolivar County, MS" : {
+        "name" : "Rosedale",
+        "state" : "Mississippi",
+        "FIPS" : "28-63720",
+        "counties" : [
+            "Bolivar County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1873,
+        "population_2020" : 1584,
+        "population_2027" : 1406,
+        "land_area_2020" : 5.41
+    },
+    "Roxie, Franklin County, MS" : {
+        "name" : "Roxie",
+        "state" : "Mississippi",
+        "FIPS" : "28-64080",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 497,
+        "population_2020" : 469,
+        "population_2027" : 446,
+        "land_area_2020" : 1.13
+    },
+    "Ruleville, Sunflower County, MS" : {
+        "name" : "Ruleville",
+        "state" : "Mississippi",
+        "FIPS" : "28-64200",
+        "counties" : [
+            "Sunflower County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3007,
+        "population_2020" : 2642,
+        "population_2027" : 2400,
+        "land_area_2020" : 2.52
+    },
+    "Sallis, Attala County, MS" : {
+        "name" : "Sallis",
+        "state" : "Mississippi",
+        "FIPS" : "28-64800",
+        "counties" : [
+            "Attala County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 134,
+        "population_2020" : 131,
+        "population_2027" : 128,
+        "land_area_2020" : 0.41
+    },
+    "Saltillo, Lee County, MS" : {
+        "name" : "Saltillo",
+        "state" : "Mississippi",
+        "FIPS" : "28-64840",
+        "counties" : [
+            "Lee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4752,
+        "population_2020" : 4922,
+        "population_2027" : 4994,
+        "land_area_2020" : 8.19
+    },
+    "Sandersville, Jones County, MS" : {
+        "name" : "Sandersville",
+        "state" : "Mississippi",
+        "FIPS" : "28-64920",
+        "counties" : [
+            "Jones County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 731,
+        "population_2020" : 636,
+        "population_2027" : 574,
+        "land_area_2020" : 4.95
+    },
+    "Sardis, Panola County, MS" : {
+        "name" : "Sardis",
+        "state" : "Mississippi",
+        "FIPS" : "28-65560",
+        "counties" : [
+            "Panola County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1703,
+        "population_2020" : 1748,
+        "population_2027" : 1762,
+        "land_area_2020" : 2.0
+    },
+    "Satartia, Yazoo County, MS" : {
+        "name" : "Satartia",
+        "state" : "Mississippi",
+        "FIPS" : "28-65680",
+        "counties" : [
+            "Yazoo County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 55,
+        "population_2020" : 41,
+        "population_2027" : 34,
+        "land_area_2020" : 0.14
+    },
+    "Schlater, Leflore County, MS" : {
+        "name" : "Schlater",
+        "state" : "Mississippi",
+        "FIPS" : "28-66080",
+        "counties" : [
+            "Leflore County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 310,
+        "population_2020" : 236,
+        "population_2027" : 197,
+        "land_area_2020" : 1.15
+    },
+    "Scooba, Kemper County, MS" : {
+        "name" : "Scooba",
+        "state" : "Mississippi",
+        "FIPS" : "28-66160",
+        "counties" : [
+            "Kemper County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 732,
+        "population_2020" : 744,
+        "population_2027" : 745,
+        "land_area_2020" : 2.48
+    },
+    "Sebastopol, Scott County, MS" : {
+        "name" : "Sebastopol",
+        "state" : "Mississippi",
+        "FIPS" : "28-66280",
+        "counties" : [
+            "Scott County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 272,
+        "population_2020" : 266,
+        "population_2027" : 259,
+        "land_area_2020" : 1.5
+    },
+    "Seminary, Covington County, MS" : {
+        "name" : "Seminary",
+        "state" : "Mississippi",
+        "FIPS" : "28-66400",
+        "counties" : [
+            "Covington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 314,
+        "population_2020" : 305,
+        "population_2027" : 296,
+        "land_area_2020" : 1.51
+    },
+    "Senatobia, Tate County, MS" : {
+        "name" : "Senatobia",
+        "state" : "Mississippi",
+        "FIPS" : "28-66440",
+        "counties" : [
+            "Tate County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8165,
+        "population_2020" : 8354,
+        "population_2027" : 8402,
+        "land_area_2020" : 15.56
+    },
+    "Shannon, Lee County, MS" : {
+        "name" : "Shannon",
+        "state" : "Mississippi",
+        "FIPS" : "28-66720",
+        "counties" : [
+            "Lee County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1753,
+        "population_2020" : 1496,
+        "population_2027" : 1335,
+        "land_area_2020" : 4.05
+    },
+    "Shaw, Bolivar County, MS" : {
+        "name" : "Shaw",
+        "state" : "Mississippi",
+        "FIPS" : "28-67000",
+        "counties" : [
+            "Bolivar County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1952,
+        "population_2020" : 1457,
+        "population_2027" : 1204,
+        "land_area_2020" : 1.11
+    },
+    "Shelby, Bolivar County, MS" : {
+        "name" : "Shelby",
+        "state" : "Mississippi",
+        "FIPS" : "28-67040",
+        "counties" : [
+            "Bolivar County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2229,
+        "population_2020" : 2021,
+        "population_2027" : 1873,
+        "land_area_2020" : 2.73
+    },
+    "Sherman, Lee County, MS" : {
+        "name" : "Sherman",
+        "state" : "Mississippi",
+        "FIPS" : "28-67200",
+        "counties" : [
+            "Lee County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 650,
+        "population_2020" : 600,
+        "population_2027" : 562,
+        "land_area_2020" : 1.74
+    },
+    "Shubuta, Clarke County, MS" : {
+        "name" : "Shubuta",
+        "state" : "Mississippi",
+        "FIPS" : "28-67520",
+        "counties" : [
+            "Clarke County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 441,
+        "population_2020" : 406,
+        "population_2027" : 380,
+        "land_area_2020" : 2.41
+    },
+    "Shuqualak, Noxubee County, MS" : {
+        "name" : "Shuqualak",
+        "state" : "Mississippi",
+        "FIPS" : "28-67640",
+        "counties" : [
+            "Noxubee County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 501,
+        "population_2020" : 399,
+        "population_2027" : 342,
+        "land_area_2020" : 1.13
+    },
+    "Sidon, Leflore County, MS" : {
+        "name" : "Sidon",
+        "state" : "Mississippi",
+        "FIPS" : "28-67840",
+        "counties" : [
+            "Leflore County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 509,
+        "population_2020" : 311,
+        "population_2027" : 233,
+        "land_area_2020" : 0.12
+    },
+    "Silver City, Humphreys County, MS" : {
+        "name" : "Silver City",
+        "state" : "Mississippi",
+        "FIPS" : "28-67920",
+        "counties" : [
+            "Humphreys County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 337,
+        "population_2020" : 223,
+        "population_2027" : 173,
+        "land_area_2020" : 0.6
+    },
+    "Silver Creek, Lawrence County, MS" : {
+        "name" : "Silver Creek",
+        "state" : "Mississippi",
+        "FIPS" : "28-67960",
+        "counties" : [
+            "Lawrence County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 210,
+        "population_2020" : 175,
+        "population_2027" : 154,
+        "land_area_2020" : 1.49
+    },
+    "Slate Springs, Calhoun County, MS" : {
+        "name" : "Slate Springs",
+        "state" : "Mississippi",
+        "FIPS" : "28-68320",
+        "counties" : [
+            "Calhoun County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 110,
+        "population_2020" : 105,
+        "population_2027" : 101,
+        "land_area_2020" : 1.42
+    },
+    "Sledge, Quitman County, MS" : {
+        "name" : "Sledge",
+        "state" : "Mississippi",
+        "FIPS" : "28-68400",
+        "counties" : [
+            "Quitman County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 545,
+        "population_2020" : 368,
+        "population_2027" : 289,
+        "land_area_2020" : 0.52
+    },
+    "Smithville, Monroe County, MS" : {
+        "name" : "Smithville",
+        "state" : "Mississippi",
+        "FIPS" : "28-68720",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 942,
+        "population_2020" : 509,
+        "population_2027" : 362,
+        "land_area_2020" : 1.48
+    },
+    "Snow Lake Shores, Benton County, MS" : {
+        "name" : "Snow Lake Shores",
+        "state" : "Mississippi",
+        "FIPS" : "28-68960",
+        "counties" : [
+            "Benton County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 319,
+        "population_2020" : 306,
+        "population_2027" : 294,
+        "land_area_2020" : 0.68
+    },
+    "Soso, Jones County, MS" : {
+        "name" : "Soso",
+        "state" : "Mississippi",
+        "FIPS" : "28-69160",
+        "counties" : [
+            "Jones County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 408,
+        "population_2020" : 408,
+        "population_2027" : 404,
+        "land_area_2020" : 2.12
+    },
+    "Southaven, DeSoto County, MS" : {
+        "name" : "Southaven",
+        "state" : "Mississippi",
+        "FIPS" : "28-69280",
+        "counties" : [
+            "DeSoto County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 48982,
+        "population_2020" : 54648,
+        "population_2027" : 58617,
+        "land_area_2020" : 41.25
+    },
+    "Starkville, Oktibbeha County, MS" : {
+        "name" : "Starkville",
+        "state" : "Mississippi",
+        "FIPS" : "28-70240",
+        "counties" : [
+            "Oktibbeha County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23888,
+        "population_2020" : 24360,
+        "population_2027" : 24441,
+        "land_area_2020" : 25.51
+    },
+    "State Line, Greene County, MS" : {
+        "name" : "State Line",
+        "state" : "Mississippi",
+        "FIPS" : "28-70320",
+        "counties" : [
+            "Greene County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 565,
+        "population_2020" : 452,
+        "population_2027" : 388,
+        "land_area_2020" : 4.26
+    },
+    "Stonewall, Clarke County, MS" : {
+        "name" : "Stonewall",
+        "state" : "Mississippi",
+        "FIPS" : "28-70760",
+        "counties" : [
+            "Clarke County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1088,
+        "population_2020" : 879,
+        "population_2027" : 759,
+        "land_area_2020" : 2.66
+    },
+    "Sturgis, Oktibbeha County, MS" : {
+        "name" : "Sturgis",
+        "state" : "Mississippi",
+        "FIPS" : "28-71320",
+        "counties" : [
+            "Oktibbeha County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 254,
+        "population_2020" : 207,
+        "population_2027" : 180,
+        "land_area_2020" : 1.29
+    },
+    "Summit, Pike County, MS" : {
+        "name" : "Summit",
+        "state" : "Mississippi",
+        "FIPS" : "28-71480",
+        "counties" : [
+            "Pike County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1705,
+        "population_2020" : 1505,
+        "population_2027" : 1371,
+        "land_area_2020" : 2.26
+    },
+    "Sumner, Tallahatchie County, MS" : {
+        "name" : "Sumner",
+        "state" : "Mississippi",
+        "FIPS" : "28-71520",
+        "counties" : [
+            "Tallahatchie County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 316,
+        "population_2020" : 278,
+        "population_2027" : 253,
+        "land_area_2020" : 0.55
+    },
+    "Sumrall, Lamar County, MS" : {
+        "name" : "Sumrall",
+        "state" : "Mississippi",
+        "FIPS" : "28-71560",
+        "counties" : [
+            "Lamar County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1421,
+        "population_2020" : 1765,
+        "population_2027" : 2065,
+        "land_area_2020" : 3.74
+    },
+    "Sunflower, Sunflower County, MS" : {
+        "name" : "Sunflower",
+        "state" : "Mississippi",
+        "FIPS" : "28-71600",
+        "counties" : [
+            "Sunflower County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1159,
+        "population_2020" : 964,
+        "population_2027" : 847,
+        "land_area_2020" : 0.61
+    },
+    "Sylvarena, Smith County, MS" : {
+        "name" : "Sylvarena",
+        "state" : "Mississippi",
+        "FIPS" : "28-72040",
+        "counties" : [
+            "Smith County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 112,
+        "population_2020" : 87,
+        "population_2027" : 73,
+        "land_area_2020" : 2.62
+    },
+    "Taylor, Lafayette County, MS" : {
+        "name" : "Taylor",
+        "state" : "Mississippi",
+        "FIPS" : "28-72360",
+        "counties" : [
+            "Lafayette County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 322,
+        "population_2020" : 355,
+        "population_2027" : 377,
+        "land_area_2020" : 2.93
+    },
+    "Taylorsville, Smith County, MS" : {
+        "name" : "Taylorsville",
+        "state" : "Mississippi",
+        "FIPS" : "28-72400",
+        "counties" : [
+            "Smith County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1353,
+        "population_2020" : 1148,
+        "population_2027" : 1021,
+        "land_area_2020" : 3.86
+    },
+    "Tchula, Holmes County, MS" : {
+        "name" : "Tchula",
+        "state" : "Mississippi",
+        "FIPS" : "28-72440",
+        "counties" : [
+            "Holmes County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2096,
+        "population_2020" : 1652,
+        "population_2027" : 1407,
+        "land_area_2020" : 1.41
+    },
+    "Terry, Hinds County, MS" : {
+        "name" : "Terry",
+        "state" : "Mississippi",
+        "FIPS" : "28-72680",
+        "counties" : [
+            "Hinds County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1063,
+        "population_2020" : 1304,
+        "population_2027" : 1510,
+        "land_area_2020" : 3.81
+    },
+    "Thaxton, Pontotoc County, MS" : {
+        "name" : "Thaxton",
+        "state" : "Mississippi",
+        "FIPS" : "28-72760",
+        "counties" : [
+            "Pontotoc County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 643,
+        "population_2020" : 692,
+        "population_2027" : 722,
+        "land_area_2020" : 10.33
+    },
+    "Tillatoba, Yalobusha County, MS" : {
+        "name" : "Tillatoba",
+        "state" : "Mississippi",
+        "FIPS" : "28-73440",
+        "counties" : [
+            "Yalobusha County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 91,
+        "population_2020" : 95,
+        "population_2027" : 97,
+        "land_area_2020" : 1.01
+    },
+    "Tishomingo, Tishomingo County, MS" : {
+        "name" : "Tishomingo",
+        "state" : "Mississippi",
+        "FIPS" : "28-73720",
+        "counties" : [
+            "Tishomingo County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 339,
+        "population_2020" : 370,
+        "population_2027" : 390,
+        "land_area_2020" : 0.55
+    },
+    "Toccopola, Pontotoc County, MS" : {
+        "name" : "Toccopola",
+        "state" : "Mississippi",
+        "FIPS" : "28-73760",
+        "counties" : [
+            "Pontotoc County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 246,
+        "population_2020" : 286,
+        "population_2027" : 317,
+        "land_area_2020" : 8.45
+    },
+    "Tremont, Itawamba County, MS" : {
+        "name" : "Tremont",
+        "state" : "Mississippi",
+        "FIPS" : "28-74400",
+        "counties" : [
+            "Itawamba County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 465,
+        "population_2020" : 467,
+        "population_2027" : 464,
+        "land_area_2020" : 4.91
+    },
+    "Tunica, Tunica County, MS" : {
+        "name" : "Tunica",
+        "state" : "Mississippi",
+        "FIPS" : "28-74760",
+        "counties" : [
+            "Tunica County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1030,
+        "population_2020" : 1026,
+        "population_2027" : 1013,
+        "land_area_2020" : 0.66
+    },
+    "Tupelo, Lee County, MS" : {
+        "name" : "Tupelo",
+        "state" : "Mississippi",
+        "FIPS" : "28-74840",
+        "counties" : [
+            "Lee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 34546,
+        "population_2020" : 37923,
+        "population_2027" : 40175,
+        "land_area_2020" : 51.14
+    },
+    "Tutwiler, Tallahatchie County, MS" : {
+        "name" : "Tutwiler",
+        "state" : "Mississippi",
+        "FIPS" : "28-75040",
+        "counties" : [
+            "Tallahatchie County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3550,
+        "population_2020" : 2476,
+        "population_2027" : 1975,
+        "land_area_2020" : 1.33
+    },
+    "Tylertown, Walthall County, MS" : {
+        "name" : "Tylertown",
+        "state" : "Mississippi",
+        "FIPS" : "28-75160",
+        "counties" : [
+            "Walthall County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1609,
+        "population_2020" : 1515,
+        "population_2027" : 1439,
+        "land_area_2020" : 3.28
+    },
+    "Union, Neshoba County, MS" : {
+        "name" : "Union",
+        "state" : "Mississippi",
+        "FIPS" : "28-75360",
+        "counties" : [
+            "Neshoba County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1988,
+        "population_2020" : 2042,
+        "population_2027" : 2059,
+        "land_area_2020" : 3.43
+    },
+    "Utica, Hinds County, MS" : {
+        "name" : "Utica",
+        "state" : "Mississippi",
+        "FIPS" : "28-75760",
+        "counties" : [
+            "Hinds County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 820,
+        "population_2020" : 636,
+        "population_2027" : 537,
+        "land_area_2020" : 2.99
+    },
+    "Vaiden, Carroll County, MS" : {
+        "name" : "Vaiden",
+        "state" : "Mississippi",
+        "FIPS" : "28-75880",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 734,
+        "population_2020" : 907,
+        "population_2027" : 1057,
+        "land_area_2020" : 2.15
+    },
+    "Vardaman, Calhoun County, MS" : {
+        "name" : "Vardaman",
+        "state" : "Mississippi",
+        "FIPS" : "28-76320",
+        "counties" : [
+            "Calhoun County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1316,
+        "population_2020" : 1110,
+        "population_2027" : 983,
+        "land_area_2020" : 1.36
+    },
+    "Verona, Lee County, MS" : {
+        "name" : "Verona",
+        "state" : "Mississippi",
+        "FIPS" : "28-76560",
+        "counties" : [
+            "Lee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3006,
+        "population_2020" : 2792,
+        "population_2027" : 2628,
+        "land_area_2020" : 3.72
+    },
+    "Vicksburg, Warren County, MS" : {
+        "name" : "Vicksburg",
+        "state" : "Mississippi",
+        "FIPS" : "28-76720",
+        "counties" : [
+            "Warren County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23856,
+        "population_2020" : 21573,
+        "population_2027" : 19956,
+        "land_area_2020" : 32.98
+    },
+    "Walls, DeSoto County, MS" : {
+        "name" : "Walls",
+        "state" : "Mississippi",
+        "FIPS" : "28-77400",
+        "counties" : [
+            "DeSoto County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1162,
+        "population_2020" : 1351,
+        "population_2027" : 1497,
+        "land_area_2020" : 11.84
+    },
+    "Walnut, Tippah County, MS" : {
+        "name" : "Walnut",
+        "state" : "Mississippi",
+        "FIPS" : "28-77480",
+        "counties" : [
+            "Tippah County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 771,
+        "population_2020" : 704,
+        "population_2027" : 655,
+        "land_area_2020" : 5.43
+    },
+    "Walnut Grove, Leake County, MS" : {
+        "name" : "Walnut Grove",
+        "state" : "Mississippi",
+        "FIPS" : "28-77520",
+        "counties" : [
+            "Leake County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1911,
+        "population_2020" : 510,
+        "population_2027" : 296,
+        "land_area_2020" : 1.62
+    },
+    "Walthall, Webster County, MS" : {
+        "name" : "Walthall",
+        "state" : "Mississippi",
+        "FIPS" : "28-77640",
+        "counties" : [
+            "Webster County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 144,
+        "population_2020" : 116,
+        "population_2027" : 100,
+        "land_area_2020" : 0.97
+    },
+    "Water Valley, Yalobusha County, MS" : {
+        "name" : "Water Valley",
+        "state" : "Mississippi",
+        "FIPS" : "28-78000",
+        "counties" : [
+            "Yalobusha County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3392,
+        "population_2020" : 3380,
+        "population_2027" : 3336,
+        "land_area_2020" : 7.01
+    },
+    "Waveland, Hancock County, MS" : {
+        "name" : "Waveland",
+        "state" : "Mississippi",
+        "FIPS" : "28-78200",
+        "counties" : [
+            "Hancock County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6435,
+        "population_2020" : 7210,
+        "population_2027" : 7759,
+        "land_area_2020" : 8.49
+    },
+    "Waynesboro, Wayne County, MS" : {
+        "name" : "Waynesboro",
+        "state" : "Mississippi",
+        "FIPS" : "28-78360",
+        "counties" : [
+            "Wayne County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5043,
+        "population_2020" : 4567,
+        "population_2027" : 4229,
+        "land_area_2020" : 12.69
+    },
+    "Webb, Tallahatchie County, MS" : {
+        "name" : "Webb",
+        "state" : "Mississippi",
+        "FIPS" : "28-78480",
+        "counties" : [
+            "Tallahatchie County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 565,
+        "population_2020" : 416,
+        "population_2027" : 341,
+        "land_area_2020" : 0.42
+    },
+    "Weir, Choctaw County, MS" : {
+        "name" : "Weir",
+        "state" : "Mississippi",
+        "FIPS" : "28-78520",
+        "counties" : [
+            "Choctaw County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 459,
+        "population_2020" : 441,
+        "population_2027" : 425,
+        "land_area_2020" : 1.05
+    },
+    "Wesson, Copiah County, MS" : {
+        "name" : "Wesson",
+        "state" : "Mississippi",
+        "FIPS" : "28-78640",
+        "counties" : [
+            "Copiah County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1925,
+        "population_2020" : 1833,
+        "population_2027" : 1754,
+        "land_area_2020" : 4.45
+    },
+    "West, Holmes County, MS" : {
+        "name" : "West",
+        "state" : "Mississippi",
+        "FIPS" : "28-78680",
+        "counties" : [
+            "Holmes County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 185,
+        "population_2020" : 153,
+        "population_2027" : 134,
+        "land_area_2020" : 0.56
+    },
+    "West Point, Clay County, MS" : {
+        "name" : "West Point",
+        "state" : "Mississippi",
+        "FIPS" : "28-79120",
+        "counties" : [
+            "Clay County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11307,
+        "population_2020" : 10105,
+        "population_2027" : 9278,
+        "land_area_2020" : 20.88
+    },
+    "Wiggins, Stone County, MS" : {
+        "name" : "Wiggins",
+        "state" : "Mississippi",
+        "FIPS" : "28-80160",
+        "counties" : [
+            "Stone County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4390,
+        "population_2020" : 4272,
+        "population_2027" : 4148,
+        "land_area_2020" : 10.75
+    },
+    "Winona, Montgomery County, MS" : {
+        "name" : "Winona",
+        "state" : "Mississippi",
+        "FIPS" : "28-80760",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5043,
+        "population_2020" : 4505,
+        "population_2027" : 4135,
+        "land_area_2020" : 13.52
+    },
+    "Winstonville, Bolivar County, MS" : {
+        "name" : "Winstonville",
+        "state" : "Mississippi",
+        "FIPS" : "28-80800",
+        "counties" : [
+            "Bolivar County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 191,
+        "population_2020" : 153,
+        "population_2027" : 132,
+        "land_area_2020" : 0.3
+    },
+    "Woodland, Chickasaw County, MS" : {
+        "name" : "Woodland",
+        "state" : "Mississippi",
+        "FIPS" : "28-81000",
+        "counties" : [
+            "Chickasaw County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 125,
+        "population_2020" : 110,
+        "population_2027" : 100,
+        "land_area_2020" : 0.57
+    },
+    "Woodville, Wilkinson County, MS" : {
+        "name" : "Woodville",
+        "state" : "Mississippi",
+        "FIPS" : "28-81120",
+        "counties" : [
+            "Wilkinson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1096,
+        "population_2020" : 928,
+        "population_2027" : 824,
+        "land_area_2020" : 1.04
+    },
+    "Yazoo City, Yazoo County, MS" : {
+        "name" : "Yazoo City",
+        "state" : "Mississippi",
+        "FIPS" : "28-81520",
+        "counties" : [
+            "Yazoo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11403,
+        "population_2020" : 10316,
+        "population_2027" : 9545,
+        "land_area_2020" : 9.84
+    }
+}

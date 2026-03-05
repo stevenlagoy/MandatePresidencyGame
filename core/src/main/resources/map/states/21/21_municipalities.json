@@ -1,0 +1,5448 @@
+{
+    "Adairville, Logan County, KY" : {
+        "name" : "Adairville",
+        "state" : "Kentucky",
+        "FIPS" : "21-00298",
+        "counties" : [
+            "Logan County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 852,
+        "population_2020" : 837,
+        "population_2027" : 853,
+        "land_area_2020" : 1.1
+    },
+    "Albany, Clinton County, KY" : {
+        "name" : "Albany",
+        "state" : "Kentucky",
+        "FIPS" : "21-00694",
+        "counties" : [
+            "Clinton County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 2033,
+        "population_2020" : 1760,
+        "population_2027" : 1653,
+        "land_area_2020" : 2.3
+    },
+    "Alexandria, Campbell County, KY" : {
+        "name" : "Alexandria",
+        "state" : "Kentucky",
+        "FIPS" : "21-00802",
+        "counties" : [
+            "Campbell County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 8477,
+        "population_2020" : 10341,
+        "population_2027" : 12418,
+        "land_area_2020" : 7.0
+    },
+    "Allen, Floyd County, KY" : {
+        "name" : "Allen",
+        "state" : "Kentucky",
+        "FIPS" : "21-00946",
+        "counties" : [
+            "Floyd County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 193,
+        "population_2020" : 182,
+        "population_2027" : 180,
+        "land_area_2020" : 0.2
+    },
+    "Anchorage, Jefferson County, KY" : {
+        "name" : "Anchorage",
+        "state" : "Kentucky",
+        "FIPS" : "21-01504",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2348,
+        "population_2020" : 2500,
+        "population_2027" : 2698,
+        "land_area_2020" : 3.0
+    },
+    "Arlington, Carlisle County, KY" : {
+        "name" : "Arlington",
+        "state" : "Kentucky",
+        "FIPS" : "21-02044",
+        "counties" : [
+            "Carlisle County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 324,
+        "population_2020" : 264,
+        "population_2027" : 239,
+        "land_area_2020" : 0.4
+    },
+    "Ashland, Boyd County, KY" : {
+        "name" : "Ashland",
+        "state" : "Kentucky",
+        "FIPS" : "21-02368",
+        "counties" : [
+            "Boyd County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 21684,
+        "population_2020" : 21625,
+        "population_2027" : 22273,
+        "land_area_2020" : 10.8
+    },
+    "Auburn, Logan County, KY" : {
+        "name" : "Auburn",
+        "state" : "Kentucky",
+        "FIPS" : "21-02638",
+        "counties" : [
+            "Logan County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1340,
+        "population_2020" : 1589,
+        "population_2027" : 1864,
+        "land_area_2020" : 1.6
+    },
+    "Audubon Park, Jefferson County, KY" : {
+        "name" : "Audubon Park",
+        "state" : "Kentucky",
+        "FIPS" : "21-02656",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1473,
+        "population_2020" : 1433,
+        "population_2027" : 1451,
+        "land_area_2020" : 0.3
+    },
+    "Augusta, Bracken County, KY" : {
+        "name" : "Augusta",
+        "state" : "Kentucky",
+        "FIPS" : "21-02674",
+        "counties" : [
+            "Bracken County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1190,
+        "population_2020" : 1096,
+        "population_2027" : 1070,
+        "land_area_2020" : 1.6
+    },
+    "Bancroft, Jefferson County, KY" : {
+        "name" : "Bancroft",
+        "state" : "Kentucky",
+        "FIPS" : "21-03376",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 494,
+        "population_2020" : 503,
+        "population_2027" : 526,
+        "land_area_2020" : 0.2
+    },
+    "Barbourmeade, Jefferson County, KY" : {
+        "name" : "Barbourmeade",
+        "state" : "Kentucky",
+        "FIPS" : "21-03556",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1218,
+        "population_2020" : 1216,
+        "population_2027" : 1253,
+        "land_area_2020" : 0.4
+    },
+    "Barbourville, Knox County, KY" : {
+        "name" : "Barbourville",
+        "state" : "Kentucky",
+        "FIPS" : "21-03574",
+        "counties" : [
+            "Knox County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 3165,
+        "population_2020" : 3222,
+        "population_2027" : 3367,
+        "land_area_2020" : 2.7
+    },
+    "Bardstown, Nelson County, KY" : {
+        "name" : "Bardstown",
+        "state" : "Kentucky",
+        "FIPS" : "21-03628",
+        "counties" : [
+            "Nelson County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 11700,
+        "population_2020" : 13567,
+        "population_2027" : 15633,
+        "land_area_2020" : 10.6
+    },
+    "Bardwell, Carlisle County, KY" : {
+        "name" : "Bardwell",
+        "state" : "Kentucky",
+        "FIPS" : "21-03664",
+        "counties" : [
+            "Carlisle County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 723,
+        "population_2020" : 714,
+        "population_2027" : 730,
+        "land_area_2020" : 0.9
+    },
+    "Barlow, Ballard County, KY" : {
+        "name" : "Barlow",
+        "state" : "Kentucky",
+        "FIPS" : "21-03718",
+        "counties" : [
+            "Ballard County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 675,
+        "population_2020" : 653,
+        "population_2027" : 659,
+        "land_area_2020" : 0.6
+    },
+    "Beattyville, Lee County, KY" : {
+        "name" : "Beattyville",
+        "state" : "Kentucky",
+        "FIPS" : "21-04546",
+        "counties" : [
+            "Lee County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 1307,
+        "population_2020" : 2176,
+        "population_2027" : 3517,
+        "land_area_2020" : 2.1
+    },
+    "Beaver Dam, Ohio County, KY" : {
+        "name" : "Beaver Dam",
+        "state" : "Kentucky",
+        "FIPS" : "21-04654",
+        "counties" : [
+            "Ohio County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 3409,
+        "population_2020" : 3531,
+        "population_2027" : 3736,
+        "land_area_2020" : 2.6
+    },
+    "Bedford, Trimble County, KY" : {
+        "name" : "Bedford",
+        "state" : "Kentucky",
+        "FIPS" : "21-04816",
+        "counties" : [
+            "Trimble County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 599,
+        "population_2020" : 526,
+        "population_2027" : 498,
+        "land_area_2020" : 0.3
+    },
+    "Beechwood Village, Jefferson County, KY" : {
+        "name" : "Beechwood Village",
+        "state" : "Kentucky",
+        "FIPS" : "21-05068",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1324,
+        "population_2020" : 1280,
+        "population_2027" : 1291,
+        "land_area_2020" : 0.3
+    },
+    "Bellefonte, Greenup County, KY" : {
+        "name" : "Bellefonte",
+        "state" : "Kentucky",
+        "FIPS" : "21-05374",
+        "counties" : [
+            "Greenup County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 888,
+        "population_2020" : 920,
+        "population_2027" : 973,
+        "land_area_2020" : 0.9
+    },
+    "Bellemeade, Jefferson County, KY" : {
+        "name" : "Bellemeade",
+        "state" : "Kentucky",
+        "FIPS" : "21-05392",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 865,
+        "population_2020" : 909,
+        "population_2027" : 972,
+        "land_area_2020" : 0.3
+    },
+    "Bellevue, Campbell County, KY" : {
+        "name" : "Bellevue",
+        "state" : "Kentucky",
+        "FIPS" : "21-05446",
+        "counties" : [
+            "Campbell County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 5955,
+        "population_2020" : 5548,
+        "population_2027" : 5458,
+        "land_area_2020" : 0.9
+    },
+    "Bellewood, Jefferson County, KY" : {
+        "name" : "Bellewood",
+        "state" : "Kentucky",
+        "FIPS" : "21-05464",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 321,
+        "population_2020" : 340,
+        "population_2027" : 366,
+        "land_area_2020" : 0.1
+    },
+    "Benham, Harlan County, KY" : {
+        "name" : "Benham",
+        "state" : "Kentucky",
+        "FIPS" : "21-05662",
+        "counties" : [
+            "Harlan County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 500,
+        "population_2020" : 512,
+        "population_2027" : 537,
+        "land_area_2020" : 0.2
+    },
+    "Benton, Marshall County, KY" : {
+        "name" : "Benton",
+        "state" : "Kentucky",
+        "FIPS" : "21-05824",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 4349,
+        "population_2020" : 4756,
+        "population_2027" : 5237,
+        "land_area_2020" : 4.2
+    },
+    "Berea, Madison County, KY" : {
+        "name" : "Berea",
+        "state" : "Kentucky",
+        "FIPS" : "21-05842",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 13561,
+        "population_2020" : 15539,
+        "population_2027" : 17738,
+        "land_area_2020" : 16.1
+    },
+    "Berry, Harrison County, KY" : {
+        "name" : "Berry",
+        "state" : "Kentucky",
+        "FIPS" : "21-05968",
+        "counties" : [
+            "Harrison County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 264,
+        "population_2020" : 250,
+        "population_2027" : 249,
+        "land_area_2020" : 0.3
+    },
+    "Blackey, Letcher County, KY" : {
+        "name" : "Blackey",
+        "state" : "Kentucky",
+        "FIPS" : "21-07012",
+        "counties" : [
+            "Letcher County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 120,
+        "population_2020" : 109,
+        "population_2027" : 105,
+        "land_area_2020" : 0.5
+    },
+    "Blaine, Lawrence County, KY" : {
+        "name" : "Blaine",
+        "state" : "Kentucky",
+        "FIPS" : "21-07264",
+        "counties" : [
+            "Lawrence County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 47,
+        "population_2020" : 66,
+        "population_2027" : 90,
+        "land_area_2020" : 0.3
+    },
+    "Blandville, Ballard County, KY" : {
+        "name" : "Blandville",
+        "state" : "Kentucky",
+        "FIPS" : "21-07390",
+        "counties" : [
+            "Ballard County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 90,
+        "population_2020" : 73,
+        "population_2027" : 66,
+        "land_area_2020" : 0.2
+    },
+    "Bloomfield, Nelson County, KY" : {
+        "name" : "Bloomfield",
+        "state" : "Kentucky",
+        "FIPS" : "21-07516",
+        "counties" : [
+            "Nelson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 838,
+        "population_2020" : 961,
+        "population_2027" : 1098,
+        "land_area_2020" : 1.3
+    },
+    "Blue Ridge Manor, Jefferson County, KY" : {
+        "name" : "Blue Ridge Manor",
+        "state" : "Kentucky",
+        "FIPS" : "21-07858",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 767,
+        "population_2020" : 791,
+        "population_2027" : 834,
+        "land_area_2020" : 0.2
+    },
+    "Booneville, Owsley County, KY" : {
+        "name" : "Booneville",
+        "state" : "Kentucky",
+        "FIPS" : "21-08614",
+        "counties" : [
+            "Owsley County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 81,
+        "population_2020" : 168,
+        "population_2027" : 353,
+        "land_area_2020" : 0.6
+    },
+    "Bowling Green, Warren County, KY" : {
+        "name" : "Bowling Green",
+        "state" : "Kentucky",
+        "FIPS" : "21-08902",
+        "counties" : [
+            "Warren County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 58067,
+        "population_2020" : 72294,
+        "population_2027" : 88311,
+        "land_area_2020" : 38.1
+    },
+    "Bradfordsville, Marion County, KY" : {
+        "name" : "Bradfordsville",
+        "state" : "Kentucky",
+        "FIPS" : "21-09100",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 294,
+        "population_2020" : 270,
+        "population_2027" : 263,
+        "land_area_2020" : 0.3
+    },
+    "Brandenburg, Meade County, KY" : {
+        "name" : "Brandenburg",
+        "state" : "Kentucky",
+        "FIPS" : "21-09226",
+        "counties" : [
+            "Meade County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 2643,
+        "population_2020" : 2894,
+        "population_2027" : 3190,
+        "land_area_2020" : 3.9
+    },
+    "Bremen, Muhlenberg County, KY" : {
+        "name" : "Bremen",
+        "state" : "Kentucky",
+        "FIPS" : "21-09406",
+        "counties" : [
+            "Muhlenberg County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 197,
+        "population_2020" : 172,
+        "population_2027" : 162,
+        "land_area_2020" : 0.2
+    },
+    "Briarwood, Jefferson County, KY" : {
+        "name" : "Briarwood",
+        "state" : "Kentucky",
+        "FIPS" : "21-09532",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 435,
+        "population_2020" : 445,
+        "population_2027" : 467,
+        "land_area_2020" : 0.1
+    },
+    "Brodhead, Rockcastle County, KY" : {
+        "name" : "Brodhead",
+        "state" : "Kentucky",
+        "FIPS" : "21-09838",
+        "counties" : [
+            "Rockcastle County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1211,
+        "population_2020" : 1117,
+        "population_2027" : 1092,
+        "land_area_2020" : 1.8
+    },
+    "Broeck Pointe, Jefferson County, KY" : {
+        "name" : "Broeck Pointe",
+        "state" : "Kentucky",
+        "FIPS" : "21-09847",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 272,
+        "population_2020" : 245,
+        "population_2027" : 236,
+        "land_area_2020" : 0.1
+    },
+    "Bromley, Kenton County, KY" : {
+        "name" : "Bromley",
+        "state" : "Kentucky",
+        "FIPS" : "21-09856",
+        "counties" : [
+            "Kenton County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 763,
+        "population_2020" : 724,
+        "population_2027" : 721,
+        "land_area_2020" : 0.4
+    },
+    "Brooksville, Bracken County, KY" : {
+        "name" : "Brooksville",
+        "state" : "Kentucky",
+        "FIPS" : "21-10000",
+        "counties" : [
+            "Bracken County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 642,
+        "population_2020" : 654,
+        "population_2027" : 684,
+        "land_area_2020" : 0.5
+    },
+    "Brownsboro Farm, Jefferson County, KY" : {
+        "name" : "Brownsboro Farm",
+        "state" : "Kentucky",
+        "FIPS" : "21-10162",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 648,
+        "population_2020" : 640,
+        "population_2027" : 655,
+        "land_area_2020" : 0.2
+    },
+    "Brownsboro Village, Jefferson County, KY" : {
+        "name" : "Brownsboro Village",
+        "state" : "Kentucky",
+        "FIPS" : "21-10198",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 319,
+        "population_2020" : 308,
+        "population_2027" : 310,
+        "land_area_2020" : 0.1
+    },
+    "Brownsville, Edmonson County, KY" : {
+        "name" : "Brownsville",
+        "state" : "Kentucky",
+        "FIPS" : "21-10324",
+        "counties" : [
+            "Edmonson County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 836,
+        "population_2020" : 875,
+        "population_2027" : 933,
+        "land_area_2020" : 2.6
+    },
+    "Buckhorn, Perry County, KY" : {
+        "name" : "Buckhorn",
+        "state" : "Kentucky",
+        "FIPS" : "21-10612",
+        "counties" : [
+            "Perry County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 162,
+        "population_2020" : 89,
+        "population_2027" : 67,
+        "land_area_2020" : 0.4
+    },
+    "Burgin, Mercer County, KY" : {
+        "name" : "Burgin",
+        "state" : "Kentucky",
+        "FIPS" : "21-11044",
+        "counties" : [
+            "Mercer County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 965,
+        "population_2020" : 979,
+        "population_2027" : 1021,
+        "land_area_2020" : 1.3
+    },
+    "Burkesville, Cumberland County, KY" : {
+        "name" : "Burkesville",
+        "state" : "Kentucky",
+        "FIPS" : "21-11098",
+        "counties" : [
+            "Cumberland County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 1521,
+        "population_2020" : 1388,
+        "population_2027" : 1347,
+        "land_area_2020" : 2.6
+    },
+    "Burnside, Pulaski County, KY" : {
+        "name" : "Burnside",
+        "state" : "Kentucky",
+        "FIPS" : "21-11278",
+        "counties" : [
+            "Pulaski County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 611,
+        "population_2020" : 694,
+        "population_2027" : 787,
+        "land_area_2020" : 8.2
+    },
+    "Butler, Pendleton County, KY" : {
+        "name" : "Butler",
+        "state" : "Kentucky",
+        "FIPS" : "21-11530",
+        "counties" : [
+            "Pendleton County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 612,
+        "population_2020" : 646,
+        "population_2027" : 693,
+        "land_area_2020" : 0.2
+    },
+    "Cadiz, Trigg County, KY" : {
+        "name" : "Cadiz",
+        "state" : "Kentucky",
+        "FIPS" : "21-11692",
+        "counties" : [
+            "Trigg County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 2558,
+        "population_2020" : 2540,
+        "population_2027" : 2608,
+        "land_area_2020" : 2.9
+    },
+    "Calhoun, McLean County, KY" : {
+        "name" : "Calhoun",
+        "state" : "Kentucky",
+        "FIPS" : "21-11854",
+        "counties" : [
+            "McLean County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 763,
+        "population_2020" : 725,
+        "population_2027" : 723,
+        "land_area_2020" : 0.7
+    },
+    "California, Campbell County, KY" : {
+        "name" : "California",
+        "state" : "Kentucky",
+        "FIPS" : "21-11872",
+        "counties" : [
+            "Campbell County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 90,
+        "population_2020" : 83,
+        "population_2027" : 81,
+        "land_area_2020" : 0.3
+    },
+    "Calvert City, Marshall County, KY" : {
+        "name" : "Calvert City",
+        "state" : "Kentucky",
+        "FIPS" : "21-12016",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2566,
+        "population_2020" : 2514,
+        "population_2027" : 2558,
+        "land_area_2020" : 16.7
+    },
+    "Camargo, Montgomery County, KY" : {
+        "name" : "Camargo",
+        "state" : "Kentucky",
+        "FIPS" : "21-12052",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1081,
+        "population_2020" : 1020,
+        "population_2027" : 1012,
+        "land_area_2020" : 2.2
+    },
+    "Cambridge, Jefferson County, KY" : {
+        "name" : "Cambridge",
+        "state" : "Kentucky",
+        "FIPS" : "21-12066",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 175,
+        "population_2020" : 162,
+        "population_2027" : 159,
+        "land_area_2020" : 0.1
+    },
+    "Campbellsburg, Henry County, KY" : {
+        "name" : "Campbellsburg",
+        "state" : "Kentucky",
+        "FIPS" : "21-12142",
+        "counties" : [
+            "Henry County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 813,
+        "population_2020" : 836,
+        "population_2027" : 880,
+        "land_area_2020" : 1.6
+    },
+    "Campbellsville, Taylor County, KY" : {
+        "name" : "Campbellsville",
+        "state" : "Kentucky",
+        "FIPS" : "21-12160",
+        "counties" : [
+            "Taylor County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 9108,
+        "population_2020" : 11426,
+        "population_2027" : 14048,
+        "land_area_2020" : 5.1
+    },
+    "Campton, Wolfe County, KY" : {
+        "name" : "Campton",
+        "state" : "Kentucky",
+        "FIPS" : "21-12358",
+        "counties" : [
+            "Wolfe County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 441,
+        "population_2020" : 316,
+        "population_2027" : 267,
+        "land_area_2020" : 1.0
+    },
+    "Caneyville, Grayson County, KY" : {
+        "name" : "Caneyville",
+        "state" : "Kentucky",
+        "FIPS" : "21-12538",
+        "counties" : [
+            "Grayson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 608,
+        "population_2020" : 529,
+        "population_2027" : 498,
+        "land_area_2020" : 1.6
+    },
+    "Carlisle, Nicholas County, KY" : {
+        "name" : "Carlisle",
+        "state" : "Kentucky",
+        "FIPS" : "21-12898",
+        "counties" : [
+            "Nicholas County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 2010,
+        "population_2020" : 2093,
+        "population_2027" : 2223,
+        "land_area_2020" : 1.3
+    },
+    "Carrollton, Carroll County, KY" : {
+        "name" : "Carrollton",
+        "state" : "Kentucky",
+        "FIPS" : "21-13024",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 3938,
+        "population_2020" : 3890,
+        "population_2027" : 3980,
+        "land_area_2020" : 2.0
+    },
+    "Carrsville, Livingston County, KY" : {
+        "name" : "Carrsville",
+        "state" : "Kentucky",
+        "FIPS" : "21-13060",
+        "counties" : [
+            "Livingston County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 50,
+        "population_2020" : 48,
+        "population_2027" : 48,
+        "land_area_2020" : 0.1
+    },
+    "Catlettsburg, Boyd County, KY" : {
+        "name" : "Catlettsburg",
+        "state" : "Kentucky",
+        "FIPS" : "21-13420",
+        "counties" : [
+            "Boyd County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 1856,
+        "population_2020" : 1780,
+        "population_2027" : 1785,
+        "land_area_2020" : 1.6
+    },
+    "Cave City, Barren County, KY" : {
+        "name" : "Cave City",
+        "state" : "Kentucky",
+        "FIPS" : "21-13492",
+        "counties" : [
+            "Barren County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2240,
+        "population_2020" : 2356,
+        "population_2027" : 2520,
+        "land_area_2020" : 4.4
+    },
+    "Centertown, Ohio County, KY" : {
+        "name" : "Centertown",
+        "state" : "Kentucky",
+        "FIPS" : "21-13870",
+        "counties" : [
+            "Ohio County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 423,
+        "population_2020" : 416,
+        "population_2027" : 424,
+        "land_area_2020" : 0.3
+    },
+    "Central City, Muhlenberg County, KY" : {
+        "name" : "Central City",
+        "state" : "Kentucky",
+        "FIPS" : "21-13978",
+        "counties" : [
+            "Muhlenberg County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 5978,
+        "population_2020" : 5819,
+        "population_2027" : 5894,
+        "land_area_2020" : 5.2
+    },
+    "Clarkson, Grayson County, KY" : {
+        "name" : "Clarkson",
+        "state" : "Kentucky",
+        "FIPS" : "21-15148",
+        "counties" : [
+            "Grayson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 875,
+        "population_2020" : 933,
+        "population_2027" : 1008,
+        "land_area_2020" : 1.1
+    },
+    "Clay, Webster County, KY" : {
+        "name" : "Clay",
+        "state" : "Kentucky",
+        "FIPS" : "21-15202",
+        "counties" : [
+            "Webster County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1181,
+        "population_2020" : 1031,
+        "population_2027" : 973,
+        "land_area_2020" : 0.9
+    },
+    "Clay City, Powell County, KY" : {
+        "name" : "Clay City",
+        "state" : "Kentucky",
+        "FIPS" : "21-15238",
+        "counties" : [
+            "Powell County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1077,
+        "population_2020" : 1193,
+        "population_2027" : 1327,
+        "land_area_2020" : 0.9
+    },
+    "Clinton, Hickman County, KY" : {
+        "name" : "Clinton",
+        "state" : "Kentucky",
+        "FIPS" : "21-15742",
+        "counties" : [
+            "Hickman County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 1388,
+        "population_2020" : 1222,
+        "population_2027" : 1160,
+        "land_area_2020" : 1.6
+    },
+    "Cloverport, Breckinridge County, KY" : {
+        "name" : "Cloverport",
+        "state" : "Kentucky",
+        "FIPS" : "21-15904",
+        "counties" : [
+            "Breckinridge County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1152,
+        "population_2020" : 1119,
+        "population_2027" : 1132,
+        "land_area_2020" : 1.5
+    },
+    "Coal Run Village, Pike County, KY" : {
+        "name" : "Coal Run Village",
+        "state" : "Kentucky",
+        "FIPS" : "21-16110",
+        "counties" : [
+            "Pike County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1706,
+        "population_2020" : 1669,
+        "population_2027" : 1696,
+        "land_area_2020" : 8.6
+    },
+    "Cold Spring, Campbell County, KY" : {
+        "name" : "Cold Spring",
+        "state" : "Kentucky",
+        "FIPS" : "21-16372",
+        "counties" : [
+            "Campbell County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 5912,
+        "population_2020" : 6219,
+        "population_2027" : 6653,
+        "land_area_2020" : 4.7
+    },
+    "Coldstream, Jefferson County, KY" : {
+        "name" : "Coldstream",
+        "state" : "Kentucky",
+        "FIPS" : "21-16395",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1100,
+        "population_2020" : 1295,
+        "population_2027" : 1510,
+        "land_area_2020" : 0.2
+    },
+    "Columbia, Adair County, KY" : {
+        "name" : "Columbia",
+        "state" : "Kentucky",
+        "FIPS" : "21-16750",
+        "counties" : [
+            "Adair County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 4452,
+        "population_2020" : 4845,
+        "population_2027" : 5315,
+        "land_area_2020" : 4.9
+    },
+    "Columbus, Hickman County, KY" : {
+        "name" : "Columbus",
+        "state" : "Kentucky",
+        "FIPS" : "21-16768",
+        "counties" : [
+            "Hickman County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 170,
+        "population_2020" : 140,
+        "population_2027" : 128,
+        "land_area_2020" : 0.3
+    },
+    "Concord, Lewis County, KY" : {
+        "name" : "Concord",
+        "state" : "Kentucky",
+        "FIPS" : "21-16894",
+        "counties" : [
+            "Lewis County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 35,
+        "population_2020" : 19,
+        "population_2027" : 14,
+        "land_area_2020" : 0.1
+    },
+    "Corbin, Whitley County, KY" : {
+        "name" : "Corbin",
+        "state" : "Kentucky",
+        "FIPS" : "21-17362",
+        "counties" : [
+            "Whitley County",
+            "Knox County",
+            "Laurel County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 7304,
+        "population_2020" : 7856,
+        "population_2027" : 8544,
+        "land_area_2020" : 7.9
+    },
+    "Corinth, Grant County, KY" : {
+        "name" : "Corinth",
+        "state" : "Kentucky",
+        "FIPS" : "21-17434",
+        "counties" : [
+            "Grant County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 232,
+        "population_2020" : 226,
+        "population_2027" : 229,
+        "land_area_2020" : 2.1
+    },
+    "Corydon, Henderson County, KY" : {
+        "name" : "Corydon",
+        "state" : "Kentucky",
+        "FIPS" : "21-17686",
+        "counties" : [
+            "Henderson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 720,
+        "population_2020" : 737,
+        "population_2027" : 773,
+        "land_area_2020" : 0.5
+    },
+    "Covington, Kenton County, KY" : {
+        "name" : "Covington",
+        "state" : "Kentucky",
+        "FIPS" : "21-17848",
+        "counties" : [
+            "Kenton County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 40640,
+        "population_2020" : 40961,
+        "population_2027" : 42502,
+        "land_area_2020" : 13.8
+    },
+    "Crab Orchard, Lincoln County, KY" : {
+        "name" : "Crab Orchard",
+        "state" : "Kentucky",
+        "FIPS" : "21-17956",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 841,
+        "population_2020" : 744,
+        "population_2027" : 708,
+        "land_area_2020" : 1.8
+    },
+    "Creekside, Jefferson County, KY" : {
+        "name" : "Creekside",
+        "state" : "Kentucky",
+        "FIPS" : "21-18270",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 305,
+        "population_2020" : 305,
+        "population_2027" : 315,
+        "land_area_2020" : 0.1
+    },
+    "Crescent Springs, Kenton County, KY" : {
+        "name" : "Crescent Springs",
+        "state" : "Kentucky",
+        "FIPS" : "21-18352",
+        "counties" : [
+            "Kenton County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 3801,
+        "population_2020" : 4319,
+        "population_2027" : 4898,
+        "land_area_2020" : 1.5
+    },
+    "Crestview, Campbell County, KY" : {
+        "name" : "Crestview",
+        "state" : "Kentucky",
+        "FIPS" : "21-18424",
+        "counties" : [
+            "Campbell County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 475,
+        "population_2020" : 452,
+        "population_2027" : 451,
+        "land_area_2020" : 0.2
+    },
+    "Crestview Hills, Kenton County, KY" : {
+        "name" : "Crestview Hills",
+        "state" : "Kentucky",
+        "FIPS" : "21-18442",
+        "counties" : [
+            "Kenton County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 3148,
+        "population_2020" : 3246,
+        "population_2027" : 3423,
+        "land_area_2020" : 1.9
+    },
+    "Crestwood, Oldham County, KY" : {
+        "name" : "Crestwood",
+        "state" : "Kentucky",
+        "FIPS" : "21-18496",
+        "counties" : [
+            "Oldham County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 4531,
+        "population_2020" : 6183,
+        "population_2027" : 8189,
+        "land_area_2020" : 4.1
+    },
+    "Crittenden, Grant County, KY" : {
+        "name" : "Crittenden",
+        "state" : "Kentucky",
+        "FIPS" : "21-18568",
+        "counties" : [
+            "Grant County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 3815,
+        "population_2020" : 4023,
+        "population_2027" : 4312,
+        "land_area_2020" : 3.4
+    },
+    "Crofton, Christian County, KY" : {
+        "name" : "Crofton",
+        "state" : "Kentucky",
+        "FIPS" : "21-18658",
+        "counties" : [
+            "Christian County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 749,
+        "population_2020" : 653,
+        "population_2027" : 616,
+        "land_area_2020" : 0.6
+    },
+    "Crossgate, Jefferson County, KY" : {
+        "name" : "Crossgate",
+        "state" : "Kentucky",
+        "FIPS" : "21-18766",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 225,
+        "population_2020" : 221,
+        "population_2027" : 225,
+        "land_area_2020" : 0.1
+    },
+    "Cumberland, Harlan County, KY" : {
+        "name" : "Cumberland",
+        "state" : "Kentucky",
+        "FIPS" : "21-19108",
+        "counties" : [
+            "Harlan County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2237,
+        "population_2020" : 1947,
+        "population_2027" : 1835,
+        "land_area_2020" : 3.1
+    },
+    "Cynthiana, Harrison County, KY" : {
+        "name" : "Cynthiana",
+        "state" : "Kentucky",
+        "FIPS" : "21-19432",
+        "counties" : [
+            "Harrison County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 6402,
+        "population_2020" : 6333,
+        "population_2027" : 6486,
+        "land_area_2020" : 4.1
+    },
+    "Danville, Boyle County, KY" : {
+        "name" : "Danville",
+        "state" : "Kentucky",
+        "FIPS" : "21-19882",
+        "counties" : [
+            "Boyle County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 16218,
+        "population_2020" : 17234,
+        "population_2027" : 18575,
+        "land_area_2020" : 15.9
+    },
+    "Dawson Springs, Hopkins County, KY" : {
+        "name" : "Dawson Springs",
+        "state" : "Kentucky",
+        "FIPS" : "21-20224",
+        "counties" : [
+            "Hopkins County",
+            "Caldwell County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2764,
+        "population_2020" : 2452,
+        "population_2027" : 2338,
+        "land_area_2020" : 3.8
+    },
+    "Dayton, Campbell County, KY" : {
+        "name" : "Dayton",
+        "state" : "Kentucky",
+        "FIPS" : "21-20350",
+        "counties" : [
+            "Campbell County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 5338,
+        "population_2020" : 5666,
+        "population_2027" : 6102,
+        "land_area_2020" : 1.9
+    },
+    "Dixon, Webster County, KY" : {
+        "name" : "Dixon",
+        "state" : "Kentucky",
+        "FIPS" : "21-21682",
+        "counties" : [
+            "Webster County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 786,
+        "population_2020" : 933,
+        "population_2027" : 1095,
+        "land_area_2020" : 1.0
+    },
+    "Douglass Hills, Jefferson County, KY" : {
+        "name" : "Douglass Hills",
+        "state" : "Kentucky",
+        "FIPS" : "21-22204",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 5484,
+        "population_2020" : 5456,
+        "population_2027" : 5610,
+        "land_area_2020" : 1.3
+    },
+    "Dover, Mason County, KY" : {
+        "name" : "Dover",
+        "state" : "Kentucky",
+        "FIPS" : "21-22222",
+        "counties" : [
+            "Mason County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 252,
+        "population_2020" : 221,
+        "population_2027" : 209,
+        "land_area_2020" : 0.5
+    },
+    "Drakesboro, Muhlenberg County, KY" : {
+        "name" : "Drakesboro",
+        "state" : "Kentucky",
+        "FIPS" : "21-22348",
+        "counties" : [
+            "Muhlenberg County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 515,
+        "population_2020" : 481,
+        "population_2027" : 474,
+        "land_area_2020" : 0.6
+    },
+    "Druid Hills, Jefferson County, KY" : {
+        "name" : "Druid Hills",
+        "state" : "Kentucky",
+        "FIPS" : "21-22474",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 308,
+        "population_2020" : 299,
+        "population_2027" : 302,
+        "land_area_2020" : 0.1
+    },
+    "Dry Ridge, Grant County, KY" : {
+        "name" : "Dry Ridge",
+        "state" : "Kentucky",
+        "FIPS" : "21-22582",
+        "counties" : [
+            "Grant County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2191,
+        "population_2020" : 2102,
+        "population_2027" : 2108,
+        "land_area_2020" : 4.6
+    },
+    "Earlington, Hopkins County, KY" : {
+        "name" : "Earlington",
+        "state" : "Kentucky",
+        "FIPS" : "21-23230",
+        "counties" : [
+            "Hopkins County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1413,
+        "population_2020" : 1257,
+        "population_2027" : 1201,
+        "land_area_2020" : 2.5
+    },
+    "Eddyville, Lyon County, KY" : {
+        "name" : "Eddyville",
+        "state" : "Kentucky",
+        "FIPS" : "21-23824",
+        "counties" : [
+            "Lyon County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 2554,
+        "population_2020" : 2375,
+        "population_2027" : 2334,
+        "land_area_2020" : 7.8
+    },
+    "Edgewood, Kenton County, KY" : {
+        "name" : "Edgewood",
+        "state" : "Kentucky",
+        "FIPS" : "21-23932",
+        "counties" : [
+            "Kenton County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 8575,
+        "population_2020" : 8435,
+        "population_2027" : 8606,
+        "land_area_2020" : 4.2
+    },
+    "Edmonton, Metcalfe County, KY" : {
+        "name" : "Edmonton",
+        "state" : "Kentucky",
+        "FIPS" : "21-23968",
+        "counties" : [
+            "Metcalfe County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 1595,
+        "population_2020" : 1671,
+        "population_2027" : 1782,
+        "land_area_2020" : 3.4
+    },
+    "Ekron, Meade County, KY" : {
+        "name" : "Ekron",
+        "state" : "Kentucky",
+        "FIPS" : "21-24094",
+        "counties" : [
+            "Meade County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 135,
+        "population_2020" : 175,
+        "population_2027" : 221,
+        "land_area_2020" : 0.1
+    },
+    "Elizabethtown, Hardin County, KY" : {
+        "name" : "Elizabethtown",
+        "state" : "Kentucky",
+        "FIPS" : "21-24274",
+        "counties" : [
+            "Hardin County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 28531,
+        "population_2020" : 31394,
+        "population_2027" : 34731,
+        "land_area_2020" : 25.8
+    },
+    "Elkhorn City, Pike County, KY" : {
+        "name" : "Elkhorn City",
+        "state" : "Kentucky",
+        "FIPS" : "21-24382",
+        "counties" : [
+            "Pike County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 982,
+        "population_2020" : 1035,
+        "population_2027" : 1109,
+        "land_area_2020" : 2.6
+    },
+    "Elkton, Todd County, KY" : {
+        "name" : "Elkton",
+        "state" : "Kentucky",
+        "FIPS" : "21-24400",
+        "counties" : [
+            "Todd County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 2062,
+        "population_2020" : 2056,
+        "population_2027" : 2117,
+        "land_area_2020" : 2.1
+    },
+    "Elsmere, Kenton County, KY" : {
+        "name" : "Elsmere",
+        "state" : "Kentucky",
+        "FIPS" : "21-24778",
+        "counties" : [
+            "Kenton County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 8451,
+        "population_2020" : 9159,
+        "population_2027" : 10017,
+        "land_area_2020" : 2.6
+    },
+    "Eminence, Henry County, KY" : {
+        "name" : "Eminence",
+        "state" : "Kentucky",
+        "FIPS" : "21-24904",
+        "counties" : [
+            "Henry County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2498,
+        "population_2020" : 2705,
+        "population_2027" : 2957,
+        "land_area_2020" : 2.9
+    },
+    "Erlanger, Kenton County, KY" : {
+        "name" : "Erlanger",
+        "state" : "Kentucky",
+        "FIPS" : "21-25300",
+        "counties" : [
+            "Kenton County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 18082,
+        "population_2020" : 19611,
+        "population_2027" : 21460,
+        "land_area_2020" : 8.5
+    },
+    "Eubank, Pulaski County, KY" : {
+        "name" : "Eubank",
+        "state" : "Kentucky",
+        "FIPS" : "21-25552",
+        "counties" : [
+            "Pulaski County",
+            "Lincoln County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 319,
+        "population_2020" : 313,
+        "population_2027" : 319,
+        "land_area_2020" : 0.9
+    },
+    "Evarts, Harlan County, KY" : {
+        "name" : "Evarts",
+        "state" : "Kentucky",
+        "FIPS" : "21-25606",
+        "counties" : [
+            "Harlan County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 962,
+        "population_2020" : 859,
+        "population_2027" : 822,
+        "land_area_2020" : 0.5
+    },
+    "Ewing, Fleming County, KY" : {
+        "name" : "Ewing",
+        "state" : "Kentucky",
+        "FIPS" : "21-25786",
+        "counties" : [
+            "Fleming County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 264,
+        "population_2020" : 228,
+        "population_2027" : 214,
+        "land_area_2020" : 0.3
+    },
+    "Fairfield, Nelson County, KY" : {
+        "name" : "Fairfield",
+        "state" : "Kentucky",
+        "FIPS" : "21-26020",
+        "counties" : [
+            "Nelson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 113,
+        "population_2020" : 118,
+        "population_2027" : 126,
+        "land_area_2020" : 0.3
+    },
+    "Fairview, Kenton County, KY" : {
+        "name" : "Fairview",
+        "state" : "Kentucky",
+        "FIPS" : "21-26236",
+        "counties" : [
+            "Kenton County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 143,
+        "population_2020" : 144,
+        "population_2027" : 149,
+        "land_area_2020" : 0.7
+    },
+    "Falmouth, Pendleton County, KY" : {
+        "name" : "Falmouth",
+        "state" : "Kentucky",
+        "FIPS" : "21-26434",
+        "counties" : [
+            "Pendleton County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 2169,
+        "population_2020" : 2216,
+        "population_2027" : 2322,
+        "land_area_2020" : 1.1
+    },
+    "Ferguson, Pulaski County, KY" : {
+        "name" : "Ferguson",
+        "state" : "Kentucky",
+        "FIPS" : "21-27010",
+        "counties" : [
+            "Pulaski County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 924,
+        "population_2020" : 886,
+        "population_2027" : 888,
+        "land_area_2020" : 1.8
+    },
+    "Fincastle, Jefferson County, KY" : {
+        "name" : "Fincastle",
+        "state" : "Kentucky",
+        "FIPS" : "21-27262",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 817,
+        "population_2020" : 848,
+        "population_2027" : 898,
+        "land_area_2020" : 0.2
+    },
+    "Flatwoods, Greenup County, KY" : {
+        "name" : "Flatwoods",
+        "state" : "Kentucky",
+        "FIPS" : "21-27802",
+        "counties" : [
+            "Greenup County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 7423,
+        "population_2020" : 7325,
+        "population_2027" : 7490,
+        "land_area_2020" : 3.3
+    },
+    "Fleming-Neon, Letcher County, KY" : {
+        "name" : "Fleming-Neon",
+        "state" : "Kentucky",
+        "FIPS" : "21-27846",
+        "counties" : [
+            "Letcher County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 770,
+        "population_2020" : 548,
+        "population_2027" : 461,
+        "land_area_2020" : 1.6
+    },
+    "Flemingsburg, Fleming County, KY" : {
+        "name" : "Flemingsburg",
+        "state" : "Kentucky",
+        "FIPS" : "21-27856",
+        "counties" : [
+            "Fleming County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 2658,
+        "population_2020" : 2953,
+        "population_2027" : 3291,
+        "land_area_2020" : 2.0
+    },
+    "Florence, Boone County, KY" : {
+        "name" : "Florence",
+        "state" : "Kentucky",
+        "FIPS" : "21-27982",
+        "counties" : [
+            "Boone County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 29951,
+        "population_2020" : 31946,
+        "population_2027" : 34527,
+        "land_area_2020" : 10.4
+    },
+    "Fordsville, Ohio County, KY" : {
+        "name" : "Fordsville",
+        "state" : "Kentucky",
+        "FIPS" : "21-28270",
+        "counties" : [
+            "Ohio County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 524,
+        "population_2020" : 446,
+        "population_2027" : 415,
+        "land_area_2020" : 0.5
+    },
+    "Forest Hills, Jefferson County, KY" : {
+        "name" : "Forest Hills",
+        "state" : "Kentucky",
+        "FIPS" : "21-28342",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 444,
+        "population_2020" : 438,
+        "population_2027" : 448,
+        "land_area_2020" : 0.3
+    },
+    "Fort Mitchell, Kenton County, KY" : {
+        "name" : "Fort Mitchell",
+        "state" : "Kentucky",
+        "FIPS" : "21-28558",
+        "counties" : [
+            "Kenton County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 8207,
+        "population_2020" : 8702,
+        "population_2027" : 9364,
+        "land_area_2020" : 3.2
+    },
+    "Fort Thomas, Campbell County, KY" : {
+        "name" : "Fort Thomas",
+        "state" : "Kentucky",
+        "FIPS" : "21-28594",
+        "counties" : [
+            "Campbell County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 16325,
+        "population_2020" : 17438,
+        "population_2027" : 18867,
+        "land_area_2020" : 5.7
+    },
+    "Fort Wright, Kenton County, KY" : {
+        "name" : "Fort Wright",
+        "state" : "Kentucky",
+        "FIPS" : "21-28612",
+        "counties" : [
+            "Kenton County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 5723,
+        "population_2020" : 5851,
+        "population_2027" : 6133,
+        "land_area_2020" : 3.4
+    },
+    "Fountain Run, Monroe County, KY" : {
+        "name" : "Fountain Run",
+        "state" : "Kentucky",
+        "FIPS" : "21-28666",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 217,
+        "population_2020" : 216,
+        "population_2027" : 222,
+        "land_area_2020" : 1.3
+    },
+    "Fox Chase, Bullitt County, KY" : {
+        "name" : "Fox Chase",
+        "state" : "Kentucky",
+        "FIPS" : "21-28785",
+        "counties" : [
+            "Bullitt County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 447,
+        "population_2020" : 436,
+        "population_2027" : 442,
+        "land_area_2020" : 0.4
+    },
+    "Frankfort, Franklin County, KY" : {
+        "name" : "Frankfort",
+        "state" : "Kentucky",
+        "FIPS" : "21-28900",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 25527,
+        "population_2020" : 28602,
+        "population_2027" : 32084,
+        "land_area_2020" : 14.6
+    },
+    "Franklin, Simpson County, KY" : {
+        "name" : "Franklin",
+        "state" : "Kentucky",
+        "FIPS" : "21-28918",
+        "counties" : [
+            "Simpson County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 8408,
+        "population_2020" : 10176,
+        "population_2027" : 12140,
+        "land_area_2020" : 11.1
+    },
+    "Fredonia, Caldwell County, KY" : {
+        "name" : "Fredonia",
+        "state" : "Kentucky",
+        "FIPS" : "21-29080",
+        "counties" : [
+            "Caldwell County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 401,
+        "population_2020" : 372,
+        "population_2027" : 365,
+        "land_area_2020" : 0.6
+    },
+    "Frenchburg, Menifee County, KY" : {
+        "name" : "Frenchburg",
+        "state" : "Kentucky",
+        "FIPS" : "21-29260",
+        "counties" : [
+            "Menifee County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 486,
+        "population_2020" : 601,
+        "population_2027" : 730,
+        "land_area_2020" : 0.8
+    },
+    "Fulton, Fulton County, KY" : {
+        "name" : "Fulton",
+        "state" : "Kentucky",
+        "FIPS" : "21-29566",
+        "counties" : [
+            "Fulton County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2445,
+        "population_2020" : 2357,
+        "population_2027" : 2372,
+        "land_area_2020" : 3.0
+    },
+    "Gamaliel, Monroe County, KY" : {
+        "name" : "Gamaliel",
+        "state" : "Kentucky",
+        "FIPS" : "21-29872",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 376,
+        "population_2020" : 391,
+        "population_2027" : 415,
+        "land_area_2020" : 0.6
+    },
+    "Georgetown, Scott County, KY" : {
+        "name" : "Georgetown",
+        "state" : "Kentucky",
+        "FIPS" : "21-30700",
+        "counties" : [
+            "Scott County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 29098,
+        "population_2020" : 37086,
+        "population_2027" : 46220,
+        "land_area_2020" : 16.0
+    },
+    "Germantown, Bracken County, KY" : {
+        "name" : "Germantown",
+        "state" : "Kentucky",
+        "FIPS" : "21-30718",
+        "counties" : [
+            "Bracken County",
+            "Mason County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 154,
+        "population_2020" : 146,
+        "population_2027" : 145,
+        "land_area_2020" : 0.1
+    },
+    "Ghent, Carroll County, KY" : {
+        "name" : "Ghent",
+        "state" : "Kentucky",
+        "FIPS" : "21-30808",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 323,
+        "population_2020" : 363,
+        "population_2027" : 408,
+        "land_area_2020" : 0.7
+    },
+    "Glasgow, Barren County, KY" : {
+        "name" : "Glasgow",
+        "state" : "Kentucky",
+        "FIPS" : "21-31114",
+        "counties" : [
+            "Barren County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 14028,
+        "population_2020" : 15014,
+        "population_2027" : 16268,
+        "land_area_2020" : 15.5
+    },
+    "Glencoe, Gallatin County, KY" : {
+        "name" : "Glencoe",
+        "state" : "Kentucky",
+        "FIPS" : "21-31204",
+        "counties" : [
+            "Gallatin County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 360,
+        "population_2020" : 350,
+        "population_2027" : 354,
+        "land_area_2020" : 1.8
+    },
+    "Glenview, Jefferson County, KY" : {
+        "name" : "Glenview",
+        "state" : "Kentucky",
+        "FIPS" : "21-31348",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 531,
+        "population_2020" : 596,
+        "population_2027" : 669,
+        "land_area_2020" : 1.4
+    },
+    "Glenview Hills, Jefferson County, KY" : {
+        "name" : "Glenview Hills",
+        "state" : "Kentucky",
+        "FIPS" : "21-31402",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 319,
+        "population_2020" : 377,
+        "population_2027" : 441,
+        "land_area_2020" : 0.1
+    },
+    "Glenview Manor, Jefferson County, KY" : {
+        "name" : "Glenview Manor",
+        "state" : "Kentucky",
+        "FIPS" : "21-31420",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 191,
+        "population_2020" : 206,
+        "population_2027" : 224,
+        "land_area_2020" : 0.1
+    },
+    "Goose Creek, Jefferson County, KY" : {
+        "name" : "Goose Creek",
+        "state" : "Kentucky",
+        "FIPS" : "21-31870",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 294,
+        "population_2020" : 303,
+        "population_2027" : 319,
+        "land_area_2020" : 0.1
+    },
+    "Goshen, Oldham County, KY" : {
+        "name" : "Goshen",
+        "state" : "Kentucky",
+        "FIPS" : "21-31960",
+        "counties" : [
+            "Oldham County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 909,
+        "population_2020" : 892,
+        "population_2027" : 909,
+        "land_area_2020" : 0.2
+    },
+    "Grand Rivers, Livingston County, KY" : {
+        "name" : "Grand Rivers",
+        "state" : "Kentucky",
+        "FIPS" : "21-32212",
+        "counties" : [
+            "Livingston County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 382,
+        "population_2020" : 345,
+        "population_2027" : 333,
+        "land_area_2020" : 2.0
+    },
+    "Gratz, Owen County, KY" : {
+        "name" : "Gratz",
+        "state" : "Kentucky",
+        "FIPS" : "21-32428",
+        "counties" : [
+            "Owen County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 78,
+        "population_2020" : 67,
+        "population_2027" : 63,
+        "land_area_2020" : 0.4
+    },
+    "Graymoor-Devondale, Jefferson County, KY" : {
+        "name" : "Graymoor-Devondale",
+        "state" : "Kentucky",
+        "FIPS" : "21-32523",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2870,
+        "population_2020" : 2853,
+        "population_2027" : 2932,
+        "land_area_2020" : 0.8
+    },
+    "Grayson, Carter County, KY" : {
+        "name" : "Grayson",
+        "state" : "Kentucky",
+        "FIPS" : "21-32572",
+        "counties" : [
+            "Carter County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 4217,
+        "population_2020" : 3834,
+        "population_2027" : 3713,
+        "land_area_2020" : 2.9
+    },
+    "Green Spring, Jefferson County, KY" : {
+        "name" : "Green Spring",
+        "state" : "Kentucky",
+        "FIPS" : "21-32986",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 715,
+        "population_2020" : 711,
+        "population_2027" : 731,
+        "land_area_2020" : 0.3
+    },
+    "Greensburg, Green County, KY" : {
+        "name" : "Greensburg",
+        "state" : "Kentucky",
+        "FIPS" : "21-32968",
+        "counties" : [
+            "Green County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 2163,
+        "population_2020" : 2179,
+        "population_2027" : 2260,
+        "land_area_2020" : 2.1
+    },
+    "Greenup, Greenup County, KY" : {
+        "name" : "Greenup",
+        "state" : "Kentucky",
+        "FIPS" : "21-33004",
+        "counties" : [
+            "Greenup County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 1188,
+        "population_2020" : 1095,
+        "population_2027" : 1070,
+        "land_area_2020" : 1.2
+    },
+    "Greenville, Muhlenberg County, KY" : {
+        "name" : "Greenville",
+        "state" : "Kentucky",
+        "FIPS" : "21-33022",
+        "counties" : [
+            "Muhlenberg County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 4312,
+        "population_2020" : 4492,
+        "population_2027" : 4772,
+        "land_area_2020" : 4.7
+    },
+    "Guthrie, Todd County, KY" : {
+        "name" : "Guthrie",
+        "state" : "Kentucky",
+        "FIPS" : "21-33562",
+        "counties" : [
+            "Todd County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1419,
+        "population_2020" : 1330,
+        "population_2027" : 1314,
+        "land_area_2020" : 1.7
+    },
+    "Hanson, Hopkins County, KY" : {
+        "name" : "Hanson",
+        "state" : "Kentucky",
+        "FIPS" : "21-34390",
+        "counties" : [
+            "Hopkins County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 742,
+        "population_2020" : 758,
+        "population_2027" : 794,
+        "land_area_2020" : 2.6
+    },
+    "Hardin, Marshall County, KY" : {
+        "name" : "Hardin",
+        "state" : "Kentucky",
+        "FIPS" : "21-34534",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 615,
+        "population_2020" : 580,
+        "population_2027" : 575,
+        "land_area_2020" : 0.7
+    },
+    "Hardinsburg, Breckinridge County, KY" : {
+        "name" : "Hardinsburg",
+        "state" : "Kentucky",
+        "FIPS" : "21-34552",
+        "counties" : [
+            "Breckinridge County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 2343,
+        "population_2020" : 2385,
+        "population_2027" : 2492,
+        "land_area_2020" : 3.5
+    },
+    "Harlan, Harlan County, KY" : {
+        "name" : "Harlan",
+        "state" : "Kentucky",
+        "FIPS" : "21-34732",
+        "counties" : [
+            "Harlan County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 1745,
+        "population_2020" : 1776,
+        "population_2027" : 1856,
+        "land_area_2020" : 1.3
+    },
+    "Harrodsburg, Mercer County, KY" : {
+        "name" : "Harrodsburg",
+        "state" : "Kentucky",
+        "FIPS" : "21-34966",
+        "counties" : [
+            "Mercer County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 8340,
+        "population_2020" : 9064,
+        "population_2027" : 9934,
+        "land_area_2020" : 6.9
+    },
+    "Hartford, Ohio County, KY" : {
+        "name" : "Hartford",
+        "state" : "Kentucky",
+        "FIPS" : "21-35020",
+        "counties" : [
+            "Ohio County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 2672,
+        "population_2020" : 2668,
+        "population_2027" : 2750,
+        "land_area_2020" : 2.7
+    },
+    "Hawesville, Hancock County, KY" : {
+        "name" : "Hawesville",
+        "state" : "Kentucky",
+        "FIPS" : "21-35200",
+        "counties" : [
+            "Hancock County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 945,
+        "population_2020" : 1023,
+        "population_2027" : 1118,
+        "land_area_2020" : 1.3
+    },
+    "Hazard, Perry County, KY" : {
+        "name" : "Hazard",
+        "state" : "Kentucky",
+        "FIPS" : "21-35362",
+        "counties" : [
+            "Perry County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 4456,
+        "population_2020" : 5263,
+        "population_2027" : 6155,
+        "land_area_2020" : 5.3
+    },
+    "Hazel, Calloway County, KY" : {
+        "name" : "Hazel",
+        "state" : "Kentucky",
+        "FIPS" : "21-35380",
+        "counties" : [
+            "Calloway County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 410,
+        "population_2020" : 390,
+        "population_2027" : 389,
+        "land_area_2020" : 0.4
+    },
+    "Hebron Estates, Bullitt County, KY" : {
+        "name" : "Hebron Estates",
+        "state" : "Kentucky",
+        "FIPS" : "21-35545",
+        "counties" : [
+            "Bullitt County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1087,
+        "population_2020" : 1014,
+        "population_2027" : 998,
+        "land_area_2020" : 0.6
+    },
+    "Henderson, Henderson County, KY" : {
+        "name" : "Henderson",
+        "state" : "Kentucky",
+        "FIPS" : "21-35866",
+        "counties" : [
+            "Henderson County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 28757,
+        "population_2020" : 27981,
+        "population_2027" : 28336,
+        "land_area_2020" : 17.6
+    },
+    "Heritage Creek, Jefferson County, KY" : {
+        "name" : "Heritage Creek",
+        "state" : "Kentucky",
+        "FIPS" : "21-36102",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1076,
+        "population_2020" : 1209,
+        "population_2027" : 1359,
+        "land_area_2020" : 0.4
+    },
+    "Hickman, Fulton County, KY" : {
+        "name" : "Hickman",
+        "state" : "Kentucky",
+        "FIPS" : "21-36298",
+        "counties" : [
+            "Fulton County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 2395,
+        "population_2020" : 2365,
+        "population_2027" : 2419,
+        "land_area_2020" : 3.6
+    },
+    "Hickory Hill, Jefferson County, KY" : {
+        "name" : "Hickory Hill",
+        "state" : "Kentucky",
+        "FIPS" : "21-36374",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 114,
+        "population_2020" : 119,
+        "population_2027" : 127,
+        "land_area_2020" : 0.1
+    },
+    "Highland Heights, Campbell County, KY" : {
+        "name" : "Highland Heights",
+        "state" : "Kentucky",
+        "FIPS" : "21-36604",
+        "counties" : [
+            "Campbell County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 6923,
+        "population_2020" : 6662,
+        "population_2027" : 6696,
+        "land_area_2020" : 2.6
+    },
+    "Hills and Dales, Jefferson County, KY" : {
+        "name" : "Hills and Dales",
+        "state" : "Kentucky",
+        "FIPS" : "21-36865",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 142,
+        "population_2020" : 146,
+        "population_2027" : 154,
+        "land_area_2020" : 0.1
+    },
+    "Hillview, Bullitt County, KY" : {
+        "name" : "Hillview",
+        "state" : "Kentucky",
+        "FIPS" : "21-36982",
+        "counties" : [
+            "Bullitt County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 8172,
+        "population_2020" : 8622,
+        "population_2027" : 9244,
+        "land_area_2020" : 3.3
+    },
+    "Hindman, Knott County, KY" : {
+        "name" : "Hindman",
+        "state" : "Kentucky",
+        "FIPS" : "21-37108",
+        "counties" : [
+            "Knott County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 777,
+        "population_2020" : 701,
+        "population_2027" : 675,
+        "land_area_2020" : 3.1
+    },
+    "Hodgenville, LaRue County, KY" : {
+        "name" : "Hodgenville",
+        "state" : "Kentucky",
+        "FIPS" : "21-37396",
+        "counties" : [
+            "LaRue County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 3206,
+        "population_2020" : 3235,
+        "population_2027" : 3359,
+        "land_area_2020" : 2.1
+    },
+    "Hollow Creek, Jefferson County, KY" : {
+        "name" : "Hollow Creek",
+        "state" : "Kentucky",
+        "FIPS" : "21-37576",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 783,
+        "population_2020" : 799,
+        "population_2027" : 836,
+        "land_area_2020" : 0.2
+    },
+    "Hollyvilla, Jefferson County, KY" : {
+        "name" : "Hollyvilla",
+        "state" : "Kentucky",
+        "FIPS" : "21-37630",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 537,
+        "population_2020" : 518,
+        "population_2027" : 521,
+        "land_area_2020" : 0.3
+    },
+    "Hopkinsville, Christian County, KY" : {
+        "name" : "Hopkinsville",
+        "state" : "Kentucky",
+        "FIPS" : "21-37918",
+        "counties" : [
+            "Christian County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 31577,
+        "population_2020" : 31180,
+        "population_2027" : 31895,
+        "land_area_2020" : 30.8
+    },
+    "Horse Cave, Hart County, KY" : {
+        "name" : "Horse Cave",
+        "state" : "Kentucky",
+        "FIPS" : "21-38008",
+        "counties" : [
+            "Hart County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2311,
+        "population_2020" : 2212,
+        "population_2027" : 2215,
+        "land_area_2020" : 2.7
+    },
+    "Houston Acres, Jefferson County, KY" : {
+        "name" : "Houston Acres",
+        "state" : "Kentucky",
+        "FIPS" : "21-38170",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 507,
+        "population_2020" : 492,
+        "population_2027" : 497,
+        "land_area_2020" : 0.1
+    },
+    "Hunters Hollow, Bullitt County, KY" : {
+        "name" : "Hunters Hollow",
+        "state" : "Kentucky",
+        "FIPS" : "21-38670",
+        "counties" : [
+            "Bullitt County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 386,
+        "population_2020" : 324,
+        "population_2027" : 299,
+        "land_area_2020" : 0.1
+    },
+    "Hurstbourne, Jefferson County, KY" : {
+        "name" : "Hurstbourne",
+        "state" : "Kentucky",
+        "FIPS" : "21-38814",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 4216,
+        "population_2020" : 4683,
+        "population_2027" : 5218,
+        "land_area_2020" : 1.8
+    },
+    "Hurstbourne Acres, Jefferson County, KY" : {
+        "name" : "Hurstbourne Acres",
+        "state" : "Kentucky",
+        "FIPS" : "21-38818",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1811,
+        "population_2020" : 1957,
+        "population_2027" : 2136,
+        "land_area_2020" : 0.3
+    },
+    "Hustonville, Lincoln County, KY" : {
+        "name" : "Hustonville",
+        "state" : "Kentucky",
+        "FIPS" : "21-38836",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 405,
+        "population_2020" : 387,
+        "population_2027" : 387,
+        "land_area_2020" : 1.0
+    },
+    "Hyden, Leslie County, KY" : {
+        "name" : "Hyden",
+        "state" : "Kentucky",
+        "FIPS" : "21-38908",
+        "counties" : [
+            "Leslie County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 365,
+        "population_2020" : 303,
+        "population_2027" : 277,
+        "land_area_2020" : 1.3
+    },
+    "Independence, Kenton County, KY" : {
+        "name" : "Independence",
+        "state" : "Kentucky",
+        "FIPS" : "21-39142",
+        "counties" : [
+            "Kenton County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 24757,
+        "population_2020" : 28676,
+        "population_2027" : 33014,
+        "land_area_2020" : 17.7
+    },
+    "Indian Hills, Jefferson County, KY" : {
+        "name" : "Indian Hills",
+        "state" : "Kentucky",
+        "FIPS" : "21-39304",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2868,
+        "population_2020" : 2860,
+        "population_2027" : 2946,
+        "land_area_2020" : 2.0
+    },
+    "Inez, Martin County, KY" : {
+        "name" : "Inez",
+        "state" : "Kentucky",
+        "FIPS" : "21-39430",
+        "counties" : [
+            "Martin County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 717,
+        "population_2020" : 546,
+        "population_2027" : 476,
+        "land_area_2020" : 1.7
+    },
+    "Irvine, Estill County, KY" : {
+        "name" : "Irvine",
+        "state" : "Kentucky",
+        "FIPS" : "21-39646",
+        "counties" : [
+            "Estill County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 2715,
+        "population_2020" : 2360,
+        "population_2027" : 2222,
+        "land_area_2020" : 1.5
+    },
+    "Irvington, Breckinridge County, KY" : {
+        "name" : "Irvington",
+        "state" : "Kentucky",
+        "FIPS" : "21-39664",
+        "counties" : [
+            "Breckinridge County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1181,
+        "population_2020" : 1231,
+        "population_2027" : 1308,
+        "land_area_2020" : 0.9
+    },
+    "Island, McLean County, KY" : {
+        "name" : "Island",
+        "state" : "Kentucky",
+        "FIPS" : "21-39700",
+        "counties" : [
+            "McLean County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 458,
+        "population_2020" : 429,
+        "population_2027" : 424,
+        "land_area_2020" : 0.3
+    },
+    "Jackson, Breathitt County, KY" : {
+        "name" : "Jackson",
+        "state" : "Kentucky",
+        "FIPS" : "21-39952",
+        "counties" : [
+            "Breathitt County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 2231,
+        "population_2020" : 2237,
+        "population_2027" : 2313,
+        "land_area_2020" : 2.7
+    },
+    "Jamestown, Russell County, KY" : {
+        "name" : "Jamestown",
+        "state" : "Kentucky",
+        "FIPS" : "21-40114",
+        "counties" : [
+            "Russell County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 1794,
+        "population_2020" : 1867,
+        "population_2027" : 1982,
+        "land_area_2020" : 3.0
+    },
+    "Jeffersontown, Jefferson County, KY" : {
+        "name" : "Jeffersontown",
+        "state" : "Kentucky",
+        "FIPS" : "21-40222",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 26595,
+        "population_2020" : 28474,
+        "population_2027" : 30861,
+        "land_area_2020" : 10.0
+    },
+    "Jeffersonville, Montgomery County, KY" : {
+        "name" : "Jeffersonville",
+        "state" : "Kentucky",
+        "FIPS" : "21-40240",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1506,
+        "population_2020" : 1708,
+        "population_2027" : 1934,
+        "land_area_2020" : 2.5
+    },
+    "Jenkins, Letcher County, KY" : {
+        "name" : "Jenkins",
+        "state" : "Kentucky",
+        "FIPS" : "21-40312",
+        "counties" : [
+            "Letcher County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2203,
+        "population_2020" : 1902,
+        "population_2027" : 1783,
+        "land_area_2020" : 7.7
+    },
+    "Junction City, Boyle County, KY" : {
+        "name" : "Junction City",
+        "state" : "Kentucky",
+        "FIPS" : "21-41338",
+        "counties" : [
+            "Boyle County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2241,
+        "population_2020" : 2268,
+        "population_2027" : 2360,
+        "land_area_2020" : 1.8
+    },
+    "Keene, Jessamine County, KY" : {
+        "name" : "Keene",
+        "state" : "Kentucky",
+        "FIPS" : "21-41716",
+        "counties" : [
+            "Jessamine County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 115,
+        "population_2020" : 99,
+        "population_2027" : 93,
+        "land_area_2020" : 0.12
+    },
+    "Kenton Vale, Kenton County, KY" : {
+        "name" : "Kenton Vale",
+        "state" : "Kentucky",
+        "FIPS" : "21-42094",
+        "counties" : [
+            "Kenton County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 110,
+        "population_2020" : 105,
+        "population_2027" : 105,
+        "land_area_2020" : 0.1
+    },
+    "Kevil, Ballard County, KY" : {
+        "name" : "Kevil",
+        "state" : "Kentucky",
+        "FIPS" : "21-42292",
+        "counties" : [
+            "Ballard County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 376,
+        "population_2020" : 595,
+        "population_2027" : 911,
+        "land_area_2020" : 0.4
+    },
+    "Kingsley, Jefferson County, KY" : {
+        "name" : "Kingsley",
+        "state" : "Kentucky",
+        "FIPS" : "21-42598",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 381,
+        "population_2020" : 397,
+        "population_2027" : 422,
+        "land_area_2020" : 0.1
+    },
+    "Kuttawa, Lyon County, KY" : {
+        "name" : "Kuttawa",
+        "state" : "Kentucky",
+        "FIPS" : "21-43264",
+        "counties" : [
+            "Lyon County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 649,
+        "population_2020" : 629,
+        "population_2027" : 635,
+        "land_area_2020" : 2.7
+    },
+    "LaCenter, Ballard County, KY" : {
+        "name" : "LaCenter",
+        "state" : "Kentucky",
+        "FIPS" : "21-43336",
+        "counties" : [
+            "Ballard County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1009,
+        "population_2020" : 872,
+        "population_2027" : 818,
+        "land_area_2020" : 0.6
+    },
+    "LaFayette, Christian County, KY" : {
+        "name" : "LaFayette",
+        "state" : "Kentucky",
+        "FIPS" : "21-43444",
+        "counties" : [
+            "Christian County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 165,
+        "population_2020" : 177,
+        "population_2027" : 192,
+        "land_area_2020" : 0.2
+    },
+    "La Grange, Oldham County, KY" : {
+        "name" : "La Grange",
+        "state" : "Kentucky",
+        "FIPS" : "21-43480",
+        "counties" : [
+            "Oldham County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 8082,
+        "population_2020" : 10067,
+        "population_2027" : 12302,
+        "land_area_2020" : 7.1
+    },
+    "Lakeside Park, Kenton County, KY" : {
+        "name" : "Lakeside Park",
+        "state" : "Kentucky",
+        "FIPS" : "21-43606",
+        "counties" : [
+            "Kenton County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2668,
+        "population_2020" : 2841,
+        "population_2027" : 3067,
+        "land_area_2020" : 0.8
+    },
+    "Lakeview Heights, Rowan County, KY" : {
+        "name" : "Lakeview Heights",
+        "state" : "Kentucky",
+        "FIPS" : "21-43668",
+        "counties" : [
+            "Rowan County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 185,
+        "population_2020" : 277,
+        "population_2027" : 401,
+        "land_area_2020" : 0.1
+    },
+    "Lancaster, Garrard County, KY" : {
+        "name" : "Lancaster",
+        "state" : "Kentucky",
+        "FIPS" : "21-43840",
+        "counties" : [
+            "Garrard County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 3442,
+        "population_2020" : 3899,
+        "population_2027" : 4411,
+        "land_area_2020" : 1.9
+    },
+    "Langdon Place, Jefferson County, KY" : {
+        "name" : "Langdon Place",
+        "state" : "Kentucky",
+        "FIPS" : "21-43900",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 936,
+        "population_2020" : 870,
+        "population_2027" : 855,
+        "land_area_2020" : 0.2
+    },
+    "Lawrenceburg, Anderson County, KY" : {
+        "name" : "Lawrenceburg",
+        "state" : "Kentucky",
+        "FIPS" : "21-44146",
+        "counties" : [
+            "Anderson County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 10505,
+        "population_2020" : 11728,
+        "population_2027" : 13119,
+        "land_area_2020" : 5.9
+    },
+    "Lebanon, Marion County, KY" : {
+        "name" : "Lebanon",
+        "state" : "Kentucky",
+        "FIPS" : "21-44344",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 5539,
+        "population_2020" : 6274,
+        "population_2027" : 7097,
+        "land_area_2020" : 5.3
+    },
+    "Lebanon Junction, Bullitt County, KY" : {
+        "name" : "Lebanon Junction",
+        "state" : "Kentucky",
+        "FIPS" : "21-44362",
+        "counties" : [
+            "Bullitt County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1813,
+        "population_2020" : 1746,
+        "population_2027" : 1756,
+        "land_area_2020" : 5.7
+    },
+    "Leitchfield, Grayson County, KY" : {
+        "name" : "Leitchfield",
+        "state" : "Kentucky",
+        "FIPS" : "21-44686",
+        "counties" : [
+            "Grayson County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 6699,
+        "population_2020" : 6404,
+        "population_2027" : 6408,
+        "land_area_2020" : 10.9
+    },
+    "Lewisburg, Logan County, KY" : {
+        "name" : "Lewisburg",
+        "state" : "Kentucky",
+        "FIPS" : "21-45064",
+        "counties" : [
+            "Logan County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 810,
+        "population_2020" : 748,
+        "population_2027" : 732,
+        "land_area_2020" : 1.2
+    },
+    "Lewisport, Hancock County, KY" : {
+        "name" : "Lewisport",
+        "state" : "Kentucky",
+        "FIPS" : "21-45136",
+        "counties" : [
+            "Hancock County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1670,
+        "population_2020" : 1767,
+        "population_2027" : 1899,
+        "land_area_2020" : 1.0
+    },
+    "Lexington, Fayette County, KY" : {
+        "name" : "Lexington",
+        "state" : "Kentucky",
+        "FIPS" : "21-46027",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 295803,
+        "population_2020" : 322570,
+        "population_2027" : 354435,
+        "land_area_2020" : 285.6
+    },
+    "Liberty, Casey County, KY" : {
+        "name" : "Liberty",
+        "state" : "Kentucky",
+        "FIPS" : "21-46072",
+        "counties" : [
+            "Casey County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 2168,
+        "population_2020" : 2028,
+        "population_2027" : 2000,
+        "land_area_2020" : 1.9
+    },
+    "Lincolnshire, Jefferson County, KY" : {
+        "name" : "Lincolnshire",
+        "state" : "Kentucky",
+        "FIPS" : "21-46540",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 148,
+        "population_2020" : 137,
+        "population_2027" : 134,
+        "land_area_2020" : 0.1
+    },
+    "Livermore, McLean County, KY" : {
+        "name" : "Livermore",
+        "state" : "Kentucky",
+        "FIPS" : "21-47062",
+        "counties" : [
+            "McLean County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1365,
+        "population_2020" : 1230,
+        "population_2027" : 1184,
+        "land_area_2020" : 1.0
+    },
+    "Livingston, Rockcastle County, KY" : {
+        "name" : "Livingston",
+        "state" : "Kentucky",
+        "FIPS" : "21-47098",
+        "counties" : [
+            "Rockcastle County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 226,
+        "population_2020" : 166,
+        "population_2027" : 142,
+        "land_area_2020" : 0.3
+    },
+    "London, Laurel County, KY" : {
+        "name" : "London",
+        "state" : "Kentucky",
+        "FIPS" : "21-47476",
+        "counties" : [
+            "Laurel County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 7993,
+        "population_2020" : 7572,
+        "population_2027" : 7531,
+        "land_area_2020" : 10.3
+    },
+    "Loretto, Marion County, KY" : {
+        "name" : "Loretto",
+        "state" : "Kentucky",
+        "FIPS" : "21-47710",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 713,
+        "population_2020" : 723,
+        "population_2027" : 753,
+        "land_area_2020" : 3.2
+    },
+    "Louisa, Lawrence County, KY" : {
+        "name" : "Louisa",
+        "state" : "Kentucky",
+        "FIPS" : "21-47854",
+        "counties" : [
+            "Lawrence County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 2467,
+        "population_2020" : 2679,
+        "population_2027" : 2934,
+        "land_area_2020" : 1.6
+    },
+    "Louisville, Jefferson County, KY" : {
+        "name" : "Louisville",
+        "state" : "Kentucky",
+        "FIPS" : "21-48000",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "<Td First",
+        "population_2010" : 597337,
+        "population_2020" : 633045,
+        "population_2027" : 680961,
+        "land_area_2020" : 342.2
+    },
+    "Loyall, Harlan County, KY" : {
+        "name" : "Loyall",
+        "state" : "Kentucky",
+        "FIPS" : "21-48288",
+        "counties" : [
+            "Harlan County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1461,
+        "population_2020" : 638,
+        "population_2027" : 440,
+        "land_area_2020" : 1.4
+    },
+    "Ludlow, Kenton County, KY" : {
+        "name" : "Ludlow",
+        "state" : "Kentucky",
+        "FIPS" : "21-48378",
+        "counties" : [
+            "Kenton County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 4407,
+        "population_2020" : 4385,
+        "population_2027" : 4509,
+        "land_area_2020" : 1.2
+    },
+    "Lynch, Harlan County, KY" : {
+        "name" : "Lynch",
+        "state" : "Kentucky",
+        "FIPS" : "21-48540",
+        "counties" : [
+            "Harlan County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 747,
+        "population_2020" : 658,
+        "population_2027" : 625,
+        "land_area_2020" : 0.3
+    },
+    "Lyndon, Jefferson County, KY" : {
+        "name" : "Lyndon",
+        "state" : "Kentucky",
+        "FIPS" : "21-48558",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 11002,
+        "population_2020" : 11008,
+        "population_2027" : 11364,
+        "land_area_2020" : 3.6
+    },
+    "Lynnview, Jefferson County, KY" : {
+        "name" : "Lynnview",
+        "state" : "Kentucky",
+        "FIPS" : "21-48648",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 914,
+        "population_2020" : 945,
+        "population_2027" : 998,
+        "land_area_2020" : 0.2
+    },
+    "Mackville, Washington County, KY" : {
+        "name" : "Mackville",
+        "state" : "Kentucky",
+        "FIPS" : "21-49206",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 222,
+        "population_2020" : 207,
+        "population_2027" : 204,
+        "land_area_2020" : 0.4
+    },
+    "Madisonville, Hopkins County, KY" : {
+        "name" : "Madisonville",
+        "state" : "Kentucky",
+        "FIPS" : "21-49368",
+        "counties" : [
+            "Hopkins County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 19591,
+        "population_2020" : 19542,
+        "population_2027" : 20131,
+        "land_area_2020" : 18.7
+    },
+    "Manchester, Clay County, KY" : {
+        "name" : "Manchester",
+        "state" : "Kentucky",
+        "FIPS" : "21-49656",
+        "counties" : [
+            "Clay County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 1255,
+        "population_2020" : 1512,
+        "population_2027" : 1797,
+        "land_area_2020" : 1.5
+    },
+    "Manor Creek, Jefferson County, KY" : {
+        "name" : "Manor Creek",
+        "state" : "Kentucky",
+        "FIPS" : "21-49800",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 140,
+        "population_2020" : 240,
+        "population_2027" : 401,
+        "land_area_2020" : 0.1
+    },
+    "Marion, Crittenden County, KY" : {
+        "name" : "Marion",
+        "state" : "Kentucky",
+        "FIPS" : "21-50034",
+        "counties" : [
+            "Crittenden County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 3039,
+        "population_2020" : 2916,
+        "population_2027" : 2925,
+        "land_area_2020" : 3.4
+    },
+    "Martin, Floyd County, KY" : {
+        "name" : "Martin",
+        "state" : "Kentucky",
+        "FIPS" : "21-50286",
+        "counties" : [
+            "Floyd County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 634,
+        "population_2020" : 513,
+        "population_2027" : 463,
+        "land_area_2020" : 0.7
+    },
+    "Maryhill Estates, Jefferson County, KY" : {
+        "name" : "Maryhill Estates",
+        "state" : "Kentucky",
+        "FIPS" : "21-50412",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 179,
+        "population_2020" : 185,
+        "population_2027" : 195,
+        "land_area_2020" : 0.1
+    },
+    "Mayfield, Graves County, KY" : {
+        "name" : "Mayfield",
+        "state" : "Kentucky",
+        "FIPS" : "21-50898",
+        "counties" : [
+            "Graves County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 10024,
+        "population_2020" : 10017,
+        "population_2027" : 10332,
+        "land_area_2020" : 10.4
+    },
+    "Maysville, Mason County, KY" : {
+        "name" : "Maysville",
+        "state" : "Kentucky",
+        "FIPS" : "21-51024",
+        "counties" : [
+            "Mason County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 9011,
+        "population_2020" : 8873,
+        "population_2027" : 9059,
+        "land_area_2020" : 21.4
+    },
+    "McHenry, Ohio County, KY" : {
+        "name" : "McHenry",
+        "state" : "Kentucky",
+        "FIPS" : "21-49098",
+        "counties" : [
+            "Ohio County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 388,
+        "population_2020" : 369,
+        "population_2027" : 368,
+        "land_area_2020" : 0.7
+    },
+    "McKee, Jackson County, KY" : {
+        "name" : "McKee",
+        "state" : "Kentucky",
+        "FIPS" : "21-49116",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 800,
+        "population_2020" : 803,
+        "population_2027" : 831,
+        "land_area_2020" : 2.3
+    },
+    "Meadow Vale, Jefferson County, KY" : {
+        "name" : "Meadow Vale",
+        "state" : "Kentucky",
+        "FIPS" : "21-51258",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 736,
+        "population_2020" : 730,
+        "population_2027" : 749,
+        "land_area_2020" : 0.2
+    },
+    "Meadowbrook Farm, Jefferson County, KY" : {
+        "name" : "Meadowbrook Farm",
+        "state" : "Kentucky",
+        "FIPS" : "21-51193",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 136,
+        "population_2020" : 117,
+        "population_2027" : 109,
+        "land_area_2020" : 0.1
+    },
+    "Meadowview Estates, Jefferson County, KY" : {
+        "name" : "Meadowview Estates",
+        "state" : "Kentucky",
+        "FIPS" : "21-51294",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 363,
+        "population_2020" : 178,
+        "population_2027" : 128,
+        "land_area_2020" : 0.1
+    },
+    "Melbourne, Campbell County, KY" : {
+        "name" : "Melbourne",
+        "state" : "Kentucky",
+        "FIPS" : "21-51438",
+        "counties" : [
+            "Campbell County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 401,
+        "population_2020" : 458,
+        "population_2027" : 521,
+        "land_area_2020" : 0.8
+    },
+    "Mentor, Campbell County, KY" : {
+        "name" : "Mentor",
+        "state" : "Kentucky",
+        "FIPS" : "21-51564",
+        "counties" : [
+            "Campbell County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 193,
+        "population_2020" : 218,
+        "population_2027" : 246,
+        "land_area_2020" : 0.7
+    },
+    "Middlesboro, Bell County, KY" : {
+        "name" : "Middlesboro",
+        "state" : "Kentucky",
+        "FIPS" : "21-51924",
+        "counties" : [
+            "Bell County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 10334,
+        "population_2020" : 9405,
+        "population_2027" : 9113,
+        "land_area_2020" : 7.6
+    },
+    "Middletown, Jefferson County, KY" : {
+        "name" : "Middletown",
+        "state" : "Kentucky",
+        "FIPS" : "21-51978",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 7218,
+        "population_2020" : 9706,
+        "population_2027" : 12684,
+        "land_area_2020" : 5.1
+    },
+    "Midway, Woodford County, KY" : {
+        "name" : "Midway",
+        "state" : "Kentucky",
+        "FIPS" : "21-52140",
+        "counties" : [
+            "Woodford County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1641,
+        "population_2020" : 1718,
+        "population_2027" : 1832,
+        "land_area_2020" : 1.1
+    },
+    "Millersburg, Bourbon County, KY" : {
+        "name" : "Millersburg",
+        "state" : "Kentucky",
+        "FIPS" : "21-52302",
+        "counties" : [
+            "Bourbon County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 792,
+        "population_2020" : 747,
+        "population_2027" : 741,
+        "land_area_2020" : 0.4
+    },
+    "Milton, Trimble County, KY" : {
+        "name" : "Milton",
+        "state" : "Kentucky",
+        "FIPS" : "21-52590",
+        "counties" : [
+            "Trimble County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 574,
+        "population_2020" : 590,
+        "population_2027" : 621,
+        "land_area_2020" : 1.3
+    },
+    "Mockingbird Valley, Jefferson County, KY" : {
+        "name" : "Mockingbird Valley",
+        "state" : "Kentucky",
+        "FIPS" : "21-52842",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 167,
+        "population_2020" : 175,
+        "population_2027" : 187,
+        "land_area_2020" : 0.2
+    },
+    "Monterey, Owen County, KY" : {
+        "name" : "Monterey",
+        "state" : "Kentucky",
+        "FIPS" : "21-53076",
+        "counties" : [
+            "Owen County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 138,
+        "population_2020" : 112,
+        "population_2027" : 101,
+        "land_area_2020" : 0.3
+    },
+    "Monticello, Wayne County, KY" : {
+        "name" : "Monticello",
+        "state" : "Kentucky",
+        "FIPS" : "21-53130",
+        "counties" : [
+            "Wayne County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 6188,
+        "population_2020" : 5753,
+        "population_2027" : 5652,
+        "land_area_2020" : 5.9
+    },
+    "Moorland, Jefferson County, KY" : {
+        "name" : "Moorland",
+        "state" : "Kentucky",
+        "FIPS" : "21-53328",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 431,
+        "population_2020" : 433,
+        "population_2027" : 448,
+        "land_area_2020" : 0.1
+    },
+    "Morehead, Rowan County, KY" : {
+        "name" : "Morehead",
+        "state" : "Kentucky",
+        "FIPS" : "21-53418",
+        "counties" : [
+            "Rowan County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 6845,
+        "population_2020" : 7151,
+        "population_2027" : 7612,
+        "land_area_2020" : 9.5
+    },
+    "Morganfield, Union County, KY" : {
+        "name" : "Morganfield",
+        "state" : "Kentucky",
+        "FIPS" : "21-53472",
+        "counties" : [
+            "Union County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 3285,
+        "population_2020" : 3256,
+        "population_2027" : 3339,
+        "land_area_2020" : 3.0
+    },
+    "Morgantown, Butler County, KY" : {
+        "name" : "Morgantown",
+        "state" : "Kentucky",
+        "FIPS" : "21-53490",
+        "counties" : [
+            "Butler County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 2394,
+        "population_2020" : 2505,
+        "population_2027" : 2670,
+        "land_area_2020" : 2.4
+    },
+    "Mortons Gap, Hopkins County, KY" : {
+        "name" : "Mortons Gap",
+        "state" : "Kentucky",
+        "FIPS" : "21-53616",
+        "counties" : [
+            "Hopkins County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 863,
+        "population_2020" : 728,
+        "population_2027" : 673,
+        "land_area_2020" : 1.2
+    },
+    "Mount Olivet, Robertson County, KY" : {
+        "name" : "Mount Olivet",
+        "state" : "Kentucky",
+        "FIPS" : "21-53976",
+        "counties" : [
+            "Robertson County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 299,
+        "population_2020" : 347,
+        "population_2027" : 400,
+        "land_area_2020" : 0.4
+    },
+    "Mount Sterling, Montgomery County, KY" : {
+        "name" : "Mount Sterling",
+        "state" : "Kentucky",
+        "FIPS" : "21-54084",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 6895,
+        "population_2020" : 7558,
+        "population_2027" : 8337,
+        "land_area_2020" : 4.4
+    },
+    "Mount Vernon, Rockcastle County, KY" : {
+        "name" : "Mount Vernon",
+        "state" : "Kentucky",
+        "FIPS" : "21-54174",
+        "counties" : [
+            "Rockcastle County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 2477,
+        "population_2020" : 2453,
+        "population_2027" : 2514,
+        "land_area_2020" : 1.7
+    },
+    "Mount Washington, Bullitt County, KY" : {
+        "name" : "Mount Washington",
+        "state" : "Kentucky",
+        "FIPS" : "21-54228",
+        "counties" : [
+            "Bullitt County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 9117,
+        "population_2020" : 18090,
+        "population_2027" : 35913,
+        "land_area_2020" : 6.1
+    },
+    "Muldraugh, Meade County, KY" : {
+        "name" : "Muldraugh",
+        "state" : "Kentucky",
+        "FIPS" : "21-54480",
+        "counties" : [
+            "Meade County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 947,
+        "population_2020" : 1040,
+        "population_2027" : 1149,
+        "land_area_2020" : 0.6
+    },
+    "Munfordville, Hart County, KY" : {
+        "name" : "Munfordville",
+        "state" : "Kentucky",
+        "FIPS" : "21-54570",
+        "counties" : [
+            "Hart County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 1615,
+        "population_2020" : 1686,
+        "population_2027" : 1794,
+        "land_area_2020" : 2.3
+    },
+    "Murray, Calloway County, KY" : {
+        "name" : "Murray",
+        "state" : "Kentucky",
+        "FIPS" : "21-54642",
+        "counties" : [
+            "Calloway County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 17741,
+        "population_2020" : 17307,
+        "population_2027" : 17557,
+        "land_area_2020" : 11.3
+    },
+    "Murray Hill, Jefferson County, KY" : {
+        "name" : "Murray Hill",
+        "state" : "Kentucky",
+        "FIPS" : "21-54660",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 582,
+        "population_2020" : 565,
+        "population_2027" : 571,
+        "land_area_2020" : 0.1
+    },
+    "Nebo, Hopkins County, KY" : {
+        "name" : "Nebo",
+        "state" : "Kentucky",
+        "FIPS" : "21-55092",
+        "counties" : [
+            "Hopkins County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 236,
+        "population_2020" : 211,
+        "population_2027" : 202,
+        "land_area_2020" : 0.3
+    },
+    "New Castle, Henry County, KY" : {
+        "name" : "New Castle",
+        "state" : "Kentucky",
+        "FIPS" : "21-55596",
+        "counties" : [
+            "Henry County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 912,
+        "population_2020" : 884,
+        "population_2027" : 893,
+        "land_area_2020" : 0.4
+    },
+    "New Haven, Nelson County, KY" : {
+        "name" : "New Haven",
+        "state" : "Kentucky",
+        "FIPS" : "21-55758",
+        "counties" : [
+            "Nelson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 855,
+        "population_2020" : 798,
+        "population_2027" : 786,
+        "land_area_2020" : 0.6
+    },
+    "Newport, Campbell County, KY" : {
+        "name" : "Newport",
+        "state" : "Kentucky",
+        "FIPS" : "21-55884",
+        "counties" : [
+            "Campbell County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 15273,
+        "population_2020" : 14150,
+        "population_2027" : 13870,
+        "land_area_2020" : 3.0
+    },
+    "Nicholasville, Jessamine County, KY" : {
+        "name" : "Nicholasville",
+        "state" : "Kentucky",
+        "FIPS" : "21-56136",
+        "counties" : [
+            "Jessamine County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 28015,
+        "population_2020" : 31093,
+        "population_2027" : 34624,
+        "land_area_2020" : 13.1
+    },
+    "Norbourne Estates, Jefferson County, KY" : {
+        "name" : "Norbourne Estates",
+        "state" : "Kentucky",
+        "FIPS" : "21-56550",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 441,
+        "population_2020" : 437,
+        "population_2027" : 448,
+        "land_area_2020" : 0.1
+    },
+    "North Middletown, Bourbon County, KY" : {
+        "name" : "North Middletown",
+        "state" : "Kentucky",
+        "FIPS" : "21-56820",
+        "counties" : [
+            "Bourbon County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 643,
+        "population_2020" : 610,
+        "population_2027" : 607,
+        "land_area_2020" : 0.3
+    },
+    "Northfield, Jefferson County, KY" : {
+        "name" : "Northfield",
+        "state" : "Kentucky",
+        "FIPS" : "21-56730",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1020,
+        "population_2020" : 991,
+        "population_2027" : 1003,
+        "land_area_2020" : 0.5
+    },
+    "Nortonville, Hopkins County, KY" : {
+        "name" : "Nortonville",
+        "state" : "Kentucky",
+        "FIPS" : "21-56910",
+        "counties" : [
+            "Hopkins County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1204,
+        "population_2020" : 977,
+        "population_2027" : 883,
+        "land_area_2020" : 1.1
+    },
+    "Norwood, Jefferson County, KY" : {
+        "name" : "Norwood",
+        "state" : "Kentucky",
+        "FIPS" : "21-56928",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 370,
+        "population_2020" : 379,
+        "population_2027" : 398,
+        "land_area_2020" : 0.1
+    },
+    "Oak Grove, Christian County, KY" : {
+        "name" : "Oak Grove",
+        "state" : "Kentucky",
+        "FIPS" : "21-57090",
+        "counties" : [
+            "Christian County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 7489,
+        "population_2020" : 7931,
+        "population_2027" : 8527,
+        "land_area_2020" : 10.8
+    },
+    "Oakland, Warren County, KY" : {
+        "name" : "Oakland",
+        "state" : "Kentucky",
+        "FIPS" : "21-57144",
+        "counties" : [
+            "Warren County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 225,
+        "population_2020" : 198,
+        "population_2027" : 188,
+        "land_area_2020" : 1.4
+    },
+    "Old Brownsboro Place, Jefferson County, KY" : {
+        "name" : "Old Brownsboro Place",
+        "state" : "Kentucky",
+        "FIPS" : "21-57658",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 353,
+        "population_2020" : 376,
+        "population_2027" : 406,
+        "land_area_2020" : 0.1
+    },
+    "Olive Hill, Carter County, KY" : {
+        "name" : "Olive Hill",
+        "state" : "Kentucky",
+        "FIPS" : "21-57918",
+        "counties" : [
+            "Carter County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1599,
+        "population_2020" : 1580,
+        "population_2027" : 1617,
+        "land_area_2020" : 1.8
+    },
+    "Orchard Grass Hills, Oldham County, KY" : {
+        "name" : "Orchard Grass Hills",
+        "state" : "Kentucky",
+        "FIPS" : "21-58200",
+        "counties" : [
+            "Oldham County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1595,
+        "population_2020" : 1536,
+        "population_2027" : 1545,
+        "land_area_2020" : 0.4
+    },
+    "Owensboro, Daviess County, KY" : {
+        "name" : "Owensboro",
+        "state" : "Kentucky",
+        "FIPS" : "21-58620",
+        "counties" : [
+            "Daviess County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 57265,
+        "population_2020" : 60183,
+        "population_2027" : 64344,
+        "land_area_2020" : 20.4
+    },
+    "Owenton, Owen County, KY" : {
+        "name" : "Owenton",
+        "state" : "Kentucky",
+        "FIPS" : "21-58692",
+        "counties" : [
+            "Owen County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 1327,
+        "population_2020" : 1682,
+        "population_2027" : 2086,
+        "land_area_2020" : 1.1
+    },
+    "Owingsville, Bath County, KY" : {
+        "name" : "Owingsville",
+        "state" : "Kentucky",
+        "FIPS" : "21-58710",
+        "counties" : [
+            "Bath County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 1530,
+        "population_2020" : 1593,
+        "population_2027" : 1692,
+        "land_area_2020" : 2.4
+    },
+    "Paducah, McCracken County, KY" : {
+        "name" : "Paducah",
+        "state" : "Kentucky",
+        "FIPS" : "21-58836",
+        "counties" : [
+            "McCracken County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 25024,
+        "population_2020" : 27137,
+        "population_2027" : 29693,
+        "land_area_2020" : 20.0
+    },
+    "Paintsville, Johnson County, KY" : {
+        "name" : "Paintsville",
+        "state" : "Kentucky",
+        "FIPS" : "21-58962",
+        "counties" : [
+            "Johnson County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 3459,
+        "population_2020" : 4312,
+        "population_2027" : 5273,
+        "land_area_2020" : 2.8
+    },
+    "Paris, Bourbon County, KY" : {
+        "name" : "Paris",
+        "state" : "Kentucky",
+        "FIPS" : "21-59196",
+        "counties" : [
+            "Bourbon County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 8553,
+        "population_2020" : 10171,
+        "population_2027" : 11960,
+        "land_area_2020" : 6.0
+    },
+    "Park City, Barren County, KY" : {
+        "name" : "Park City",
+        "state" : "Kentucky",
+        "FIPS" : "21-59232",
+        "counties" : [
+            "Barren County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 537,
+        "population_2020" : 614,
+        "population_2027" : 700,
+        "land_area_2020" : 1.5
+    },
+    "Park Hills, Kenton County, KY" : {
+        "name" : "Park Hills",
+        "state" : "Kentucky",
+        "FIPS" : "21-59255",
+        "counties" : [
+            "Kenton County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2970,
+        "population_2020" : 3162,
+        "population_2027" : 3413,
+        "land_area_2020" : 0.8
+    },
+    "Parkway Village, Jefferson County, KY" : {
+        "name" : "Parkway Village",
+        "state" : "Kentucky",
+        "FIPS" : "21-59322",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 650,
+        "population_2020" : 623,
+        "population_2027" : 625,
+        "land_area_2020" : 0.1
+    },
+    "Pembroke, Christian County, KY" : {
+        "name" : "Pembroke",
+        "state" : "Kentucky",
+        "FIPS" : "21-59934",
+        "counties" : [
+            "Christian County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 869,
+        "population_2020" : 865,
+        "population_2027" : 890,
+        "land_area_2020" : 1.1
+    },
+    "Perryville, Boyle County, KY" : {
+        "name" : "Perryville",
+        "state" : "Kentucky",
+        "FIPS" : "21-60258",
+        "counties" : [
+            "Boyle County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 751,
+        "population_2020" : 782,
+        "population_2027" : 830,
+        "land_area_2020" : 0.8
+    },
+    "Pewee Valley, Oldham County, KY" : {
+        "name" : "Pewee Valley",
+        "state" : "Kentucky",
+        "FIPS" : "21-60492",
+        "counties" : [
+            "Oldham County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1456,
+        "population_2020" : 1588,
+        "population_2027" : 1745,
+        "land_area_2020" : 2.0
+    },
+    "Pikeville, Pike County, KY" : {
+        "name" : "Pikeville",
+        "state" : "Kentucky",
+        "FIPS" : "21-60852",
+        "counties" : [
+            "Pike County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 6903,
+        "population_2020" : 7754,
+        "population_2027" : 8715,
+        "land_area_2020" : 21.1
+    },
+    "Pineville, Bell County, KY" : {
+        "name" : "Pineville",
+        "state" : "Kentucky",
+        "FIPS" : "21-61248",
+        "counties" : [
+            "Bell County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 1732,
+        "population_2020" : 1678,
+        "population_2027" : 1694,
+        "land_area_2020" : 1.7
+    },
+    "Pioneer Village, Bullitt County, KY" : {
+        "name" : "Pioneer Village",
+        "state" : "Kentucky",
+        "FIPS" : "21-61356",
+        "counties" : [
+            "Bullitt County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2030,
+        "population_2020" : 2671,
+        "population_2027" : 3423,
+        "land_area_2020" : 0.7
+    },
+    "Pippa Passes, Knott County, KY" : {
+        "name" : "Pippa Passes",
+        "state" : "Kentucky",
+        "FIPS" : "21-61374",
+        "counties" : [
+            "Knott County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 533,
+        "population_2020" : 468,
+        "population_2027" : 443,
+        "land_area_2020" : 0.5
+    },
+    "Plantation, Jefferson County, KY" : {
+        "name" : "Plantation",
+        "state" : "Kentucky",
+        "FIPS" : "21-61554",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 832,
+        "population_2020" : 826,
+        "population_2027" : 848,
+        "land_area_2020" : 0.2
+    },
+    "Pleasureville, Henry County, KY" : {
+        "name" : "Pleasureville",
+        "state" : "Kentucky",
+        "FIPS" : "21-61788",
+        "counties" : [
+            "Henry County",
+            "Shelby County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 834,
+        "population_2020" : 779,
+        "population_2027" : 768,
+        "land_area_2020" : 0.5
+    },
+    "Plum Springs, Warren County, KY" : {
+        "name" : "Plum Springs",
+        "state" : "Kentucky",
+        "FIPS" : "21-61860",
+        "counties" : [
+            "Warren County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 453,
+        "population_2020" : 497,
+        "population_2027" : 549,
+        "land_area_2020" : 0.3
+    },
+    "Poplar Hills, Jefferson County, KY" : {
+        "name" : "Poplar Hills",
+        "state" : "Kentucky",
+        "FIPS" : "21-62370",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 362,
+        "population_2020" : 380,
+        "population_2027" : 406,
+        "land_area_2020" : 0.1
+    },
+    "Powderly, Muhlenberg County, KY" : {
+        "name" : "Powderly",
+        "state" : "Kentucky",
+        "FIPS" : "21-62652",
+        "counties" : [
+            "Muhlenberg County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 745,
+        "population_2020" : 788,
+        "population_2027" : 846,
+        "land_area_2020" : 1.6
+    },
+    "Prestonsburg, Floyd County, KY" : {
+        "name" : "Prestonsburg",
+        "state" : "Kentucky",
+        "FIPS" : "21-62940",
+        "counties" : [
+            "Floyd County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 3255,
+        "population_2020" : 3681,
+        "population_2027" : 4159,
+        "land_area_2020" : 12.9
+    },
+    "Prestonville, Carroll County, KY" : {
+        "name" : "Prestonville",
+        "state" : "Kentucky",
+        "FIPS" : "21-62958",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 161,
+        "population_2020" : 171,
+        "population_2027" : 184,
+        "land_area_2020" : 0.2
+    },
+    "Princeton, Caldwell County, KY" : {
+        "name" : "Princeton",
+        "state" : "Kentucky",
+        "FIPS" : "21-63138",
+        "counties" : [
+            "Caldwell County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 6329,
+        "population_2020" : 6270,
+        "population_2027" : 6428,
+        "land_area_2020" : 9.0
+    },
+    "Prospect, Jefferson County, KY" : {
+        "name" : "Prospect",
+        "state" : "Kentucky",
+        "FIPS" : "21-63264",
+        "counties" : [
+            "Jefferson County",
+            "Oldham County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 4698,
+        "population_2020" : 4592,
+        "population_2027" : 4665,
+        "land_area_2020" : 3.9
+    },
+    "Providence, Webster County, KY" : {
+        "name" : "Providence",
+        "state" : "Kentucky",
+        "FIPS" : "21-63372",
+        "counties" : [
+            "Webster County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 3193,
+        "population_2020" : 2892,
+        "population_2027" : 2794,
+        "land_area_2020" : 6.1
+    },
+    "Raceland, Greenup County, KY" : {
+        "name" : "Raceland",
+        "state" : "Kentucky",
+        "FIPS" : "21-63858",
+        "counties" : [
+            "Greenup County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2424,
+        "population_2020" : 2343,
+        "population_2027" : 2362,
+        "land_area_2020" : 2.5
+    },
+    "Radcliff, Hardin County, KY" : {
+        "name" : "Radcliff",
+        "state" : "Kentucky",
+        "FIPS" : "21-63912",
+        "counties" : [
+            "Hardin County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 21688,
+        "population_2020" : 23042,
+        "population_2027" : 24832,
+        "land_area_2020" : 12.4
+    },
+    "Ravenna, Estill County, KY" : {
+        "name" : "Ravenna",
+        "state" : "Kentucky",
+        "FIPS" : "21-64092",
+        "counties" : [
+            "Estill County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 605,
+        "population_2020" : 568,
+        "population_2027" : 562,
+        "land_area_2020" : 0.3
+    },
+    "Raywick, Marion County, KY" : {
+        "name" : "Raywick",
+        "state" : "Kentucky",
+        "FIPS" : "21-64146",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 134,
+        "population_2020" : 155,
+        "population_2027" : 178,
+        "land_area_2020" : 0.9
+    },
+    "Richlawn, Jefferson County, KY" : {
+        "name" : "Richlawn",
+        "state" : "Kentucky",
+        "FIPS" : "21-65208",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 405,
+        "population_2020" : 415,
+        "population_2027" : 436,
+        "land_area_2020" : 0.1
+    },
+    "Richmond, Madison County, KY" : {
+        "name" : "Richmond",
+        "state" : "Kentucky",
+        "FIPS" : "21-65226",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 31364,
+        "population_2020" : 34585,
+        "population_2027" : 38323,
+        "land_area_2020" : 23.1
+    },
+    "River Bluff, Oldham County, KY" : {
+        "name" : "River Bluff",
+        "state" : "Kentucky",
+        "FIPS" : "21-65559",
+        "counties" : [
+            "Oldham County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 403,
+        "population_2020" : 436,
+        "population_2027" : 476,
+        "land_area_2020" : 0.2
+    },
+    "Riverwood, Jefferson County, KY" : {
+        "name" : "Riverwood",
+        "state" : "Kentucky",
+        "FIPS" : "21-65766",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 446,
+        "population_2020" : 492,
+        "population_2027" : 545,
+        "land_area_2020" : 0.2
+    },
+    "Robards, Henderson County, KY" : {
+        "name" : "Robards",
+        "state" : "Kentucky",
+        "FIPS" : "21-65874",
+        "counties" : [
+            "Henderson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 515,
+        "population_2020" : 449,
+        "population_2027" : 424,
+        "land_area_2020" : 3.0
+    },
+    "Rochester, Butler County, KY" : {
+        "name" : "Rochester",
+        "state" : "Kentucky",
+        "FIPS" : "21-65982",
+        "counties" : [
+            "Butler County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 152,
+        "population_2020" : 114,
+        "population_2027" : 99,
+        "land_area_2020" : 0.5
+    },
+    "Rockport, Ohio County, KY" : {
+        "name" : "Rockport",
+        "state" : "Kentucky",
+        "FIPS" : "21-66216",
+        "counties" : [
+            "Ohio County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 266,
+        "population_2020" : 262,
+        "population_2027" : 268,
+        "land_area_2020" : 0.7
+    },
+    "Rolling Fields, Jefferson County, KY" : {
+        "name" : "Rolling Fields",
+        "state" : "Kentucky",
+        "FIPS" : "21-66486",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 646,
+        "population_2020" : 720,
+        "population_2027" : 804,
+        "land_area_2020" : 0.2
+    },
+    "Rolling Hills, Jefferson County, KY" : {
+        "name" : "Rolling Hills",
+        "state" : "Kentucky",
+        "FIPS" : "21-66504",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 959,
+        "population_2020" : 934,
+        "population_2027" : 946,
+        "land_area_2020" : 0.2
+    },
+    "Russell, Greenup County, KY" : {
+        "name" : "Russell",
+        "state" : "Kentucky",
+        "FIPS" : "21-67458",
+        "counties" : [
+            "Greenup County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 3380,
+        "population_2020" : 3744,
+        "population_2027" : 4163,
+        "land_area_2020" : 3.0
+    },
+    "Russell Springs, Russell County, KY" : {
+        "name" : "Russell Springs",
+        "state" : "Kentucky",
+        "FIPS" : "21-67494",
+        "counties" : [
+            "Russell County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2441,
+        "population_2020" : 2715,
+        "population_2027" : 3028,
+        "land_area_2020" : 4.5
+    },
+    "Russellville, Logan County, KY" : {
+        "name" : "Russellville",
+        "state" : "Kentucky",
+        "FIPS" : "21-67512",
+        "counties" : [
+            "Logan County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 6960,
+        "population_2020" : 7164,
+        "population_2027" : 7545,
+        "land_area_2020" : 10.8
+    },
+    "Ryland Heights, Kenton County, KY" : {
+        "name" : "Ryland Heights",
+        "state" : "Kentucky",
+        "FIPS" : "21-67602",
+        "counties" : [
+            "Kenton County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1022,
+        "population_2020" : 922,
+        "population_2027" : 888,
+        "land_area_2020" : 5.3
+    },
+    "Sacramento, McLean County, KY" : {
+        "name" : "Sacramento",
+        "state" : "Kentucky",
+        "FIPS" : "21-67638",
+        "counties" : [
+            "McLean County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 468,
+        "population_2020" : 429,
+        "population_2027" : 418,
+        "land_area_2020" : 0.4
+    },
+    "Sadieville, Scott County, KY" : {
+        "name" : "Sadieville",
+        "state" : "Kentucky",
+        "FIPS" : "21-67656",
+        "counties" : [
+            "Scott County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 303,
+        "population_2020" : 320,
+        "population_2027" : 343,
+        "land_area_2020" : 1.1
+    },
+    "St. Charles, Hopkins County, KY" : {
+        "name" : "St. Charles",
+        "state" : "Kentucky",
+        "FIPS" : "21-67710",
+        "counties" : [
+            "Hopkins County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 277,
+        "population_2020" : 273,
+        "population_2027" : 279,
+        "land_area_2020" : 1.0
+    },
+    "St. Mary, Marion County, KY" : {
+        "name" : "St. Mary",
+        "state" : "Kentucky",
+        "FIPS" : "21-67890",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2765,
+        "population_2020" : 138,
+        "population_2027" : 71,
+        "land_area_2020" : 0.78
+    },
+    "St. Matthews, Jefferson County, KY" : {
+        "name" : "St. Matthews",
+        "state" : "Kentucky",
+        "FIPS" : "21-67944",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 17472,
+        "population_2020" : 17534,
+        "population_2027" : 18139,
+        "land_area_2020" : 4.3
+    },
+    "St. Regis Park, Jefferson County, KY" : {
+        "name" : "St. Regis Park",
+        "state" : "Kentucky",
+        "FIPS" : "21-67998",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1454,
+        "population_2020" : 1438,
+        "population_2027" : 1473,
+        "land_area_2020" : 0.4
+    },
+    "Salem, Livingston County, KY" : {
+        "name" : "Salem",
+        "state" : "Kentucky",
+        "FIPS" : "21-68052",
+        "counties" : [
+            "Livingston County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 752,
+        "population_2020" : 722,
+        "population_2027" : 725,
+        "land_area_2020" : 0.9
+    },
+    "Salt Lick, Bath County, KY" : {
+        "name" : "Salt Lick",
+        "state" : "Kentucky",
+        "FIPS" : "21-68160",
+        "counties" : [
+            "Bath County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 303,
+        "population_2020" : 247,
+        "population_2027" : 224,
+        "land_area_2020" : 0.8
+    },
+    "Salyersville, Magoffin County, KY" : {
+        "name" : "Salyersville",
+        "state" : "Kentucky",
+        "FIPS" : "21-68232",
+        "counties" : [
+            "Magoffin County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 1883,
+        "population_2020" : 1591,
+        "population_2027" : 1472,
+        "land_area_2020" : 2.5
+    },
+    "Sanders, Carroll County, KY" : {
+        "name" : "Sanders",
+        "state" : "Kentucky",
+        "FIPS" : "21-68358",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 238,
+        "population_2020" : 197,
+        "population_2027" : 180,
+        "land_area_2020" : 0.3
+    },
+    "Sandy Hook, Elliott County, KY" : {
+        "name" : "Sandy Hook",
+        "state" : "Kentucky",
+        "FIPS" : "21-68556",
+        "counties" : [
+            "Elliott County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 675,
+        "population_2020" : 641,
+        "population_2027" : 639,
+        "land_area_2020" : 1.0
+    },
+    "Sardis, Mason County, KY" : {
+        "name" : "Sardis",
+        "state" : "Kentucky",
+        "FIPS" : "21-68646",
+        "counties" : [
+            "Mason County",
+            "Robertson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 103,
+        "population_2020" : 60,
+        "population_2027" : 46,
+        "land_area_2020" : 1.0
+    },
+    "Science Hill, Pulaski County, KY" : {
+        "name" : "Science Hill",
+        "state" : "Kentucky",
+        "FIPS" : "21-68952",
+        "counties" : [
+            "Pulaski County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 693,
+        "population_2020" : 657,
+        "population_2027" : 654,
+        "land_area_2020" : 0.6
+    },
+    "Scottsville, Allen County, KY" : {
+        "name" : "Scottsville",
+        "state" : "Kentucky",
+        "FIPS" : "21-69114",
+        "counties" : [
+            "Allen County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 4226,
+        "population_2020" : 4299,
+        "population_2027" : 4490,
+        "land_area_2020" : 5.7
+    },
+    "Sebree, Webster County, KY" : {
+        "name" : "Sebree",
+        "state" : "Kentucky",
+        "FIPS" : "21-69222",
+        "counties" : [
+            "Webster County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1603,
+        "population_2020" : 1574,
+        "population_2027" : 1604,
+        "land_area_2020" : 2.9
+    },
+    "Seneca Gardens, Jefferson County, KY" : {
+        "name" : "Seneca Gardens",
+        "state" : "Kentucky",
+        "FIPS" : "21-69384",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 696,
+        "population_2020" : 674,
+        "population_2027" : 680,
+        "land_area_2020" : 0.2
+    },
+    "Sharpsburg, Bath County, KY" : {
+        "name" : "Sharpsburg",
+        "state" : "Kentucky",
+        "FIPS" : "21-69852",
+        "counties" : [
+            "Bath County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 323,
+        "population_2020" : 365,
+        "population_2027" : 412,
+        "land_area_2020" : 0.2
+    },
+    "Shelbyville, Shelby County, KY" : {
+        "name" : "Shelbyville",
+        "state" : "Kentucky",
+        "FIPS" : "21-70050",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 14045,
+        "population_2020" : 17282,
+        "population_2027" : 20903,
+        "land_area_2020" : 8.2
+    },
+    "Shepherdsville, Bullitt County, KY" : {
+        "name" : "Shepherdsville",
+        "state" : "Kentucky",
+        "FIPS" : "21-70086",
+        "counties" : [
+            "Bullitt County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 11222,
+        "population_2020" : 14201,
+        "population_2027" : 17590,
+        "land_area_2020" : 10.0
+    },
+    "Shively, Jefferson County, KY" : {
+        "name" : "Shively",
+        "state" : "Kentucky",
+        "FIPS" : "21-70284",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 15264,
+        "population_2020" : 15636,
+        "population_2027" : 16411,
+        "land_area_2020" : 4.6
+    },
+    "Silver Grove, Campbell County, KY" : {
+        "name" : "Silver Grove",
+        "state" : "Kentucky",
+        "FIPS" : "21-70644",
+        "counties" : [
+            "Campbell County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1102,
+        "population_2020" : 1154,
+        "population_2027" : 1231,
+        "land_area_2020" : 1.7
+    },
+    "Simpsonville, Shelby County, KY" : {
+        "name" : "Simpsonville",
+        "state" : "Kentucky",
+        "FIPS" : "21-70752",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2484,
+        "population_2020" : 2990,
+        "population_2027" : 3551,
+        "land_area_2020" : 2.2
+    },
+    "Slaughters, Webster County, KY" : {
+        "name" : "Slaughters",
+        "state" : "Kentucky",
+        "FIPS" : "21-71130",
+        "counties" : [
+            "Webster County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 216,
+        "population_2020" : 190,
+        "population_2027" : 180,
+        "land_area_2020" : 0.2
+    },
+    "Smithfield, Henry County, KY" : {
+        "name" : "Smithfield",
+        "state" : "Kentucky",
+        "FIPS" : "21-71364",
+        "counties" : [
+            "Henry County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 106,
+        "population_2020" : 124,
+        "population_2027" : 144,
+        "land_area_2020" : 0.1
+    },
+    "Smithland, Livingston County, KY" : {
+        "name" : "Smithland",
+        "state" : "Kentucky",
+        "FIPS" : "21-71382",
+        "counties" : [
+            "Livingston County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 301,
+        "population_2020" : 240,
+        "population_2027" : 215,
+        "land_area_2020" : 0.5
+    },
+    "Smiths Grove, Warren County, KY" : {
+        "name" : "Smiths Grove",
+        "state" : "Kentucky",
+        "FIPS" : "21-71454",
+        "counties" : [
+            "Warren County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 714,
+        "population_2020" : 752,
+        "population_2027" : 805,
+        "land_area_2020" : 0.8
+    },
+    "Somerset, Pulaski County, KY" : {
+        "name" : "Somerset",
+        "state" : "Kentucky",
+        "FIPS" : "21-71688",
+        "counties" : [
+            "Pulaski County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 11196,
+        "population_2020" : 11924,
+        "population_2027" : 12873,
+        "land_area_2020" : 11.3
+    },
+    "Sonora, Hardin County, KY" : {
+        "name" : "Sonora",
+        "state" : "Kentucky",
+        "FIPS" : "21-71724",
+        "counties" : [
+            "Hardin County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 513,
+        "population_2020" : 565,
+        "population_2027" : 625,
+        "land_area_2020" : 1.1
+    },
+    "South Carrollton, Muhlenberg County, KY" : {
+        "name" : "South Carrollton",
+        "state" : "Kentucky",
+        "FIPS" : "21-71814",
+        "counties" : [
+            "Muhlenberg County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 184,
+        "population_2020" : 141,
+        "population_2027" : 123,
+        "land_area_2020" : 0.3
+    },
+    "South Park View, Jefferson County, KY" : {
+        "name" : "South Park View",
+        "state" : "Kentucky",
+        "FIPS" : "21-72138",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 7,
+        "population_2020" : 0,
+        "population_2027" : 0,
+        "land_area_2020" : 0.1
+    },
+    "South Shore, Greenup County, KY" : {
+        "name" : "South Shore",
+        "state" : "Kentucky",
+        "FIPS" : "21-72210",
+        "counties" : [
+            "Greenup County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1122,
+        "population_2020" : 1066,
+        "population_2027" : 1062,
+        "land_area_2020" : 0.9
+    },
+    "Southgate, Campbell County, KY" : {
+        "name" : "Southgate",
+        "state" : "Kentucky",
+        "FIPS" : "21-71976",
+        "counties" : [
+            "Campbell County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 3803,
+        "population_2020" : 3648,
+        "population_2027" : 3659,
+        "land_area_2020" : 1.4
+    },
+    "Sparta, Gallatin County, KY" : {
+        "name" : "Sparta",
+        "state" : "Kentucky",
+        "FIPS" : "21-72372",
+        "counties" : [
+            "Gallatin County",
+            "Owen County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 231,
+        "population_2020" : 236,
+        "population_2027" : 247,
+        "land_area_2020" : 5.9
+    },
+    "Spring Mill, Jefferson County, KY" : {
+        "name" : "Spring Mill",
+        "state" : "Kentucky",
+        "FIPS" : "21-72770",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 287,
+        "population_2020" : 294,
+        "population_2027" : 309,
+        "land_area_2020" : 0.1
+    },
+    "Spring Valley, Jefferson County, KY" : {
+        "name" : "Spring Valley",
+        "state" : "Kentucky",
+        "FIPS" : "21-72790",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 654,
+        "population_2020" : 675,
+        "population_2027" : 712,
+        "land_area_2020" : 0.2
+    },
+    "Springfield, Washington County, KY" : {
+        "name" : "Springfield",
+        "state" : "Kentucky",
+        "FIPS" : "21-72660",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 2519,
+        "population_2020" : 2846,
+        "population_2027" : 3213,
+        "land_area_2020" : 3.7
+    },
+    "Stamping Ground, Scott County, KY" : {
+        "name" : "Stamping Ground",
+        "state" : "Kentucky",
+        "FIPS" : "21-73038",
+        "counties" : [
+            "Scott County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 643,
+        "population_2020" : 780,
+        "population_2027" : 932,
+        "land_area_2020" : 0.4
+    },
+    "Stanford, Lincoln County, KY" : {
+        "name" : "Stanford",
+        "state" : "Kentucky",
+        "FIPS" : "21-73110",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 3487,
+        "population_2020" : 3640,
+        "population_2027" : 3873,
+        "land_area_2020" : 3.1
+    },
+    "Stanton, Powell County, KY" : {
+        "name" : "Stanton",
+        "state" : "Kentucky",
+        "FIPS" : "21-73164",
+        "counties" : [
+            "Powell County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 2733,
+        "population_2020" : 3251,
+        "population_2027" : 3824,
+        "land_area_2020" : 2.1
+    },
+    "Strathmoor Manor, Jefferson County, KY" : {
+        "name" : "Strathmoor Manor",
+        "state" : "Kentucky",
+        "FIPS" : "21-74064",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 337,
+        "population_2020" : 351,
+        "population_2027" : 373,
+        "land_area_2020" : 0.1
+    },
+    "Strathmoor Village, Jefferson County, KY" : {
+        "name" : "Strathmoor Village",
+        "state" : "Kentucky",
+        "FIPS" : "21-74082",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 648,
+        "population_2020" : 684,
+        "population_2027" : 734,
+        "land_area_2020" : 0.1
+    },
+    "Sturgis, Union County, KY" : {
+        "name" : "Sturgis",
+        "state" : "Kentucky",
+        "FIPS" : "21-74316",
+        "counties" : [
+            "Union County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1898,
+        "population_2020" : 1735,
+        "population_2027" : 1686,
+        "land_area_2020" : 1.6
+    },
+    "Sycamore, Jefferson County, KY" : {
+        "name" : "Sycamore",
+        "state" : "Kentucky",
+        "FIPS" : "21-75190",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 160,
+        "population_2020" : 166,
+        "population_2027" : 176,
+        "land_area_2020" : 0.1
+    },
+    "Taylor Mill, Kenton County, KY" : {
+        "name" : "Taylor Mill",
+        "state" : "Kentucky",
+        "FIPS" : "21-75738",
+        "counties" : [
+            "Kenton County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 6604,
+        "population_2020" : 6873,
+        "population_2027" : 7296,
+        "land_area_2020" : 6.3
+    },
+    "Taylorsville, Spencer County, KY" : {
+        "name" : "Taylorsville",
+        "state" : "Kentucky",
+        "FIPS" : "21-75810",
+        "counties" : [
+            "Spencer County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 763,
+        "population_2020" : 1256,
+        "population_2027" : 2005,
+        "land_area_2020" : 0.3
+    },
+    "Ten Broeck, Jefferson County, KY" : {
+        "name" : "Ten Broeck",
+        "state" : "Kentucky",
+        "FIPS" : "21-75963",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 103,
+        "population_2020" : 99,
+        "population_2027" : 99,
+        "land_area_2020" : 0.2
+    },
+    "Thornhill, Jefferson County, KY" : {
+        "name" : "Thornhill",
+        "state" : "Kentucky",
+        "FIPS" : "21-76380",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 178,
+        "population_2020" : 185,
+        "population_2027" : 196,
+        "land_area_2020" : 0.1
+    },
+    "Tompkinsville, Monroe County, KY" : {
+        "name" : "Tompkinsville",
+        "state" : "Kentucky",
+        "FIPS" : "21-77160",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 2402,
+        "population_2020" : 2309,
+        "population_2027" : 2319,
+        "land_area_2020" : 3.6
+    },
+    "Trenton, Todd County, KY" : {
+        "name" : "Trenton",
+        "state" : "Kentucky",
+        "FIPS" : "21-77592",
+        "counties" : [
+            "Todd County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 384,
+        "population_2020" : 326,
+        "population_2027" : 303,
+        "land_area_2020" : 0.6
+    },
+    "Union, Boone County, KY" : {
+        "name" : "Union",
+        "state" : "Kentucky",
+        "FIPS" : "21-78384",
+        "counties" : [
+            "Boone County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 5379,
+        "population_2020" : 7416,
+        "population_2027" : 9916,
+        "land_area_2020" : 3.3
+    },
+    "Uniontown, Union County, KY" : {
+        "name" : "Uniontown",
+        "state" : "Kentucky",
+        "FIPS" : "21-78492",
+        "counties" : [
+            "Union County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1002,
+        "population_2020" : 929,
+        "population_2027" : 911,
+        "land_area_2020" : 0.9
+    },
+    "Upton, Hardin County, KY" : {
+        "name" : "Upton",
+        "state" : "Kentucky",
+        "FIPS" : "21-78672",
+        "counties" : [
+            "Hardin County",
+            "LaRue County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 683,
+        "population_2020" : 704,
+        "population_2027" : 742,
+        "land_area_2020" : 1.4
+    },
+    "Vanceburg, Lewis County, KY" : {
+        "name" : "Vanceburg",
+        "state" : "Kentucky",
+        "FIPS" : "21-79068",
+        "counties" : [
+            "Lewis County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 1518,
+        "population_2020" : 1428,
+        "population_2027" : 1414,
+        "land_area_2020" : 1.3
+    },
+    "Versailles, Woodford County, KY" : {
+        "name" : "Versailles",
+        "state" : "Kentucky",
+        "FIPS" : "21-79482",
+        "counties" : [
+            "Woodford County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 8568,
+        "population_2020" : 10347,
+        "population_2027" : 12321,
+        "land_area_2020" : 4.4
+    },
+    "Vicco, Perry County, KY" : {
+        "name" : "Vicco",
+        "state" : "Kentucky",
+        "FIPS" : "21-79590",
+        "counties" : [
+            "Perry County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 334,
+        "population_2020" : 327,
+        "population_2027" : 333,
+        "land_area_2020" : 0.8
+    },
+    "Villa Hills, Kenton County, KY" : {
+        "name" : "Villa Hills",
+        "state" : "Kentucky",
+        "FIPS" : "21-79698",
+        "counties" : [
+            "Kenton County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 7489,
+        "population_2020" : 7310,
+        "population_2027" : 7419,
+        "land_area_2020" : 4.4
+    },
+    "Vine Grove, Hardin County, KY" : {
+        "name" : "Vine Grove",
+        "state" : "Kentucky",
+        "FIPS" : "21-79734",
+        "counties" : [
+            "Hardin County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 4520,
+        "population_2020" : 6559,
+        "population_2027" : 9205,
+        "land_area_2020" : 4.7
+    },
+    "Walton, Boone County, KY" : {
+        "name" : "Walton",
+        "state" : "Kentucky",
+        "FIPS" : "21-80490",
+        "counties" : [
+            "Boone County",
+            "Kenton County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 3635,
+        "population_2020" : 5460,
+        "population_2027" : 7927,
+        "land_area_2020" : 4.3
+    },
+    "Warfield, Martin County, KY" : {
+        "name" : "Warfield",
+        "state" : "Kentucky",
+        "FIPS" : "21-80616",
+        "counties" : [
+            "Martin County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 269,
+        "population_2020" : 264,
+        "population_2027" : 269,
+        "land_area_2020" : 0.8
+    },
+    "Warsaw, Gallatin County, KY" : {
+        "name" : "Warsaw",
+        "state" : "Kentucky",
+        "FIPS" : "21-80706",
+        "counties" : [
+            "Gallatin County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 1615,
+        "population_2020" : 1761,
+        "population_2027" : 1935,
+        "land_area_2020" : 0.7
+    },
+    "Watterson Park, Jefferson County, KY" : {
+        "name" : "Watterson Park",
+        "state" : "Kentucky",
+        "FIPS" : "21-80913",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 976,
+        "population_2020" : 1004,
+        "population_2027" : 1057,
+        "land_area_2020" : 1.4
+    },
+    "Waverly, Union County, KY" : {
+        "name" : "Waverly",
+        "state" : "Kentucky",
+        "FIPS" : "21-80958",
+        "counties" : [
+            "Union County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 308,
+        "population_2020" : 311,
+        "population_2027" : 323,
+        "land_area_2020" : 0.3
+    },
+    "Wayland, Floyd County, KY" : {
+        "name" : "Wayland",
+        "state" : "Kentucky",
+        "FIPS" : "21-81012",
+        "counties" : [
+            "Floyd County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 426,
+        "population_2020" : 389,
+        "population_2027" : 378,
+        "land_area_2020" : 2.6
+    },
+    "Wellington, Jefferson County, KY" : {
+        "name" : "Wellington",
+        "state" : "Kentucky",
+        "FIPS" : "21-81372",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 565,
+        "population_2020" : 564,
+        "population_2027" : 581,
+        "land_area_2020" : 0.1
+    },
+    "West Buechel, Jefferson County, KY" : {
+        "name" : "West Buechel",
+        "state" : "Kentucky",
+        "FIPS" : "21-81624",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1230,
+        "population_2020" : 1370,
+        "population_2027" : 1530,
+        "land_area_2020" : 0.6
+    },
+    "West Liberty, Morgan County, KY" : {
+        "name" : "West Liberty",
+        "state" : "Kentucky",
+        "FIPS" : "21-81858",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 3435,
+        "population_2020" : 3215,
+        "population_2027" : 3172,
+        "land_area_2020" : 4.4
+    },
+    "West Point, Hardin County, KY" : {
+        "name" : "West Point",
+        "state" : "Kentucky",
+        "FIPS" : "21-81930",
+        "counties" : [
+            "Hardin County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 797,
+        "population_2020" : 952,
+        "population_2027" : 1124,
+        "land_area_2020" : 0.6
+    },
+    "Westwood, Jefferson County, KY" : {
+        "name" : "Westwood",
+        "state" : "Kentucky",
+        "FIPS" : "21-82164",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 634,
+        "population_2020" : 571,
+        "population_2027" : 550,
+        "land_area_2020" : 0.1
+    },
+    "Wheatcroft, Webster County, KY" : {
+        "name" : "Wheatcroft",
+        "state" : "Kentucky",
+        "FIPS" : "21-82200",
+        "counties" : [
+            "Webster County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 160,
+        "population_2020" : 105,
+        "population_2027" : 85,
+        "land_area_2020" : 0.3
+    },
+    "Wheelwright, Floyd County, KY" : {
+        "name" : "Wheelwright",
+        "state" : "Kentucky",
+        "FIPS" : "21-82272",
+        "counties" : [
+            "Floyd County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 780,
+        "population_2020" : 509,
+        "population_2027" : 411,
+        "land_area_2020" : 1.8
+    },
+    "White Plains, Hopkins County, KY" : {
+        "name" : "White Plains",
+        "state" : "Kentucky",
+        "FIPS" : "21-82722",
+        "counties" : [
+            "Hopkins County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 884,
+        "population_2020" : 829,
+        "population_2027" : 819,
+        "land_area_2020" : 3.2
+    },
+    "Whitesburg, Letcher County, KY" : {
+        "name" : "Whitesburg",
+        "state" : "Kentucky",
+        "FIPS" : "21-82776",
+        "counties" : [
+            "Letcher County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 2139,
+        "population_2020" : 1773,
+        "population_2027" : 1622,
+        "land_area_2020" : 3.2
+    },
+    "Whitesville, Daviess County, KY" : {
+        "name" : "Whitesville",
+        "state" : "Kentucky",
+        "FIPS" : "21-82830",
+        "counties" : [
+            "Daviess County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 552,
+        "population_2020" : 580,
+        "population_2027" : 620,
+        "land_area_2020" : 0.4
+    },
+    "Wickliffe, Ballard County, KY" : {
+        "name" : "Wickliffe",
+        "state" : "Kentucky",
+        "FIPS" : "21-83064",
+        "counties" : [
+            "Ballard County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 688,
+        "population_2020" : 670,
+        "population_2027" : 679,
+        "land_area_2020" : 1.1
+    },
+    "Wilder, Campbell County, KY" : {
+        "name" : "Wilder",
+        "state" : "Kentucky",
+        "FIPS" : "21-83172",
+        "counties" : [
+            "Campbell County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 3035,
+        "population_2020" : 3176,
+        "population_2027" : 3385,
+        "land_area_2020" : 3.8
+    },
+    "Wildwood, Jefferson County, KY" : {
+        "name" : "Wildwood",
+        "state" : "Kentucky",
+        "FIPS" : "21-83208",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 261,
+        "population_2020" : 281,
+        "population_2027" : 306,
+        "land_area_2020" : 0.1
+    },
+    "Williamsburg, Whitley County, KY" : {
+        "name" : "Williamsburg",
+        "state" : "Kentucky",
+        "FIPS" : "21-83334",
+        "counties" : [
+            "Whitley County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 5245,
+        "population_2020" : 5326,
+        "population_2027" : 5555,
+        "land_area_2020" : 4.9
+    },
+    "Williamstown, Grant County, KY" : {
+        "name" : "Williamstown",
+        "state" : "Kentucky",
+        "FIPS" : "21-83406",
+        "counties" : [
+            "Grant County",
+            "Pendleton County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 3925,
+        "population_2020" : 3894,
+        "population_2027" : 3996,
+        "land_area_2020" : 17.0
+    },
+    "Willisburg, Washington County, KY" : {
+        "name" : "Willisburg",
+        "state" : "Kentucky",
+        "FIPS" : "21-83424",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 282,
+        "population_2020" : 300,
+        "population_2027" : 324,
+        "land_area_2020" : 0.7
+    },
+    "Wilmore, Jessamine County, KY" : {
+        "name" : "Wilmore",
+        "state" : "Kentucky",
+        "FIPS" : "21-83550",
+        "counties" : [
+            "Jessamine County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 3686,
+        "population_2020" : 5999,
+        "population_2027" : 9461,
+        "land_area_2020" : 0.9
+    },
+    "Winchester, Clark County, KY" : {
+        "name" : "Winchester",
+        "state" : "Kentucky",
+        "FIPS" : "21-83676",
+        "counties" : [
+            "Clark County"
+        ],
+        "type_class" : "<Td Home Rule",
+        "population_2010" : 18368,
+        "population_2020" : 19134,
+        "population_2027" : 20326,
+        "land_area_2020" : 7.9
+    },
+    "Windy Hills, Jefferson County, KY" : {
+        "name" : "Windy Hills",
+        "state" : "Kentucky",
+        "FIPS" : "21-83784",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 2385,
+        "population_2020" : 2427,
+        "population_2027" : 2535,
+        "land_area_2020" : 0.9
+    },
+    "Wingo, Graves County, KY" : {
+        "name" : "Wingo",
+        "state" : "Kentucky",
+        "FIPS" : "21-83856",
+        "counties" : [
+            "Graves County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 632,
+        "population_2020" : 573,
+        "population_2027" : 554,
+        "land_area_2020" : 1.0
+    },
+    "Woodburn, Warren County, KY" : {
+        "name" : "Woodburn",
+        "state" : "Kentucky",
+        "FIPS" : "21-84414",
+        "counties" : [
+            "Warren County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 355,
+        "population_2020" : 303,
+        "population_2027" : 282,
+        "land_area_2020" : 0.4
+    },
+    "Woodbury, Butler County, KY" : {
+        "name" : "Woodbury",
+        "state" : "Kentucky",
+        "FIPS" : "21-84432",
+        "counties" : [
+            "Butler County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 90,
+        "population_2020" : 80,
+        "population_2027" : 76,
+        "land_area_2020" : 0.1
+    },
+    "Woodland Hills, Jefferson County, KY" : {
+        "name" : "Woodland Hills",
+        "state" : "Kentucky",
+        "FIPS" : "21-84486",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 696,
+        "population_2020" : 736,
+        "population_2027" : 790,
+        "land_area_2020" : 0.2
+    },
+    "Woodlawn, Campbell County, KY" : {
+        "name" : "Woodlawn",
+        "state" : "Kentucky",
+        "FIPS" : "21-84522",
+        "counties" : [
+            "Campbell County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 229,
+        "population_2020" : 212,
+        "population_2027" : 208,
+        "land_area_2020" : 0.1
+    },
+    "Woodlawn Park, Jefferson County, KY" : {
+        "name" : "Woodlawn Park",
+        "state" : "Kentucky",
+        "FIPS" : "21-84576",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 942,
+        "population_2020" : 947,
+        "population_2027" : 981,
+        "land_area_2020" : 0.3
+    },
+    "Worthington, Greenup County, KY" : {
+        "name" : "Worthington",
+        "state" : "Kentucky",
+        "FIPS" : "21-84864",
+        "counties" : [
+            "Greenup County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1609,
+        "population_2020" : 1501,
+        "population_2027" : 1478,
+        "land_area_2020" : 1.2
+    },
+    "Worthington Hills, Jefferson County, KY" : {
+        "name" : "Worthington Hills",
+        "state" : "Kentucky",
+        "FIPS" : "21-84891",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 1446,
+        "population_2020" : 1563,
+        "population_2027" : 1706,
+        "land_area_2020" : 0.3
+    },
+    "Worthville, Carroll County, KY" : {
+        "name" : "Worthville",
+        "state" : "Kentucky",
+        "FIPS" : "21-84900",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 185,
+        "population_2020" : 181,
+        "population_2027" : 184,
+        "land_area_2020" : 0.3
+    },
+    "Wurtland, Greenup County, KY" : {
+        "name" : "Wurtland",
+        "state" : "Kentucky",
+        "FIPS" : "21-85008",
+        "counties" : [
+            "Greenup County"
+        ],
+        "type_class" : "Home Rule",
+        "population_2010" : 995,
+        "population_2020" : 983,
+        "population_2027" : 1006,
+        "land_area_2020" : 1.8
+    }
+}

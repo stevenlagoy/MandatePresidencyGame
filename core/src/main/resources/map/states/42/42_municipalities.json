@@ -1,0 +1,731 @@
+{
+    "Aliquippa, Beaver County, PA" : {
+        "name" : "Aliquippa",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-00820",
+        "counties" : [
+            "Beaver County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 9238,
+        "population_2020" : 9238,
+        "population_2027" : 9335,
+        "land_area_2020" : 4.19
+    },
+    "Allentown, Lehigh County, PA" : {
+        "name" : "Allentown",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-02000",
+        "counties" : [
+            "Lehigh County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 125845,
+        "population_2020" : 125845,
+        "population_2027" : 127172,
+        "land_area_2020" : 17.55
+    },
+    "Altoona, Blair County, PA" : {
+        "name" : "Altoona",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-02184",
+        "counties" : [
+            "Blair County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 43963,
+        "population_2020" : 43963,
+        "population_2027" : 44427,
+        "land_area_2020" : 9.91
+    },
+    "Arnold, Westmoreland County, PA" : {
+        "name" : "Arnold",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-03088",
+        "counties" : [
+            "Westmoreland County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 4772,
+        "population_2020" : 4772,
+        "population_2027" : 4822,
+        "land_area_2020" : 0.73
+    },
+    "Beaver Falls, Beaver County, PA" : {
+        "name" : "Beaver Falls",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-04792",
+        "counties" : [
+            "Beaver County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 9005,
+        "population_2020" : 9005,
+        "population_2027" : 9100,
+        "land_area_2020" : 2.13
+    },
+    "Bethlehem, Lehigh County, PA" : {
+        "name" : "Bethlehem",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-06088",
+        "counties" : [
+            "Lehigh County",
+            "Northampton County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 75781,
+        "population_2020" : 75781,
+        "population_2027" : 76580,
+        "land_area_2020" : 19.1
+    },
+    "Bradford, McKean County, PA" : {
+        "name" : "Bradford",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-08040",
+        "counties" : [
+            "McKean County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 7849,
+        "population_2020" : 7849,
+        "population_2027" : 7932,
+        "land_area_2020" : 3.35
+    },
+    "Butler, Butler County, PA" : {
+        "name" : "Butler",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-10464",
+        "counties" : [
+            "Butler County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 13502,
+        "population_2020" : 13502,
+        "population_2027" : 13644,
+        "land_area_2020" : 2.72
+    },
+    "Carbondale, Lackawanna County, PA" : {
+        "name" : "Carbondale",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-11232",
+        "counties" : [
+            "Lackawanna County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 8828,
+        "population_2020" : 8828,
+        "population_2027" : 8921,
+        "land_area_2020" : 3.24
+    },
+    "Chester, Delaware County, PA" : {
+        "name" : "Chester",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-13208",
+        "counties" : [
+            "Delaware County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 32605,
+        "population_2020" : 32605,
+        "population_2027" : 32949,
+        "land_area_2020" : 4.84
+    },
+    "Clairton, Allegheny County, PA" : {
+        "name" : "Clairton",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-13704",
+        "counties" : [
+            "Allegheny County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 6181,
+        "population_2020" : 6181,
+        "population_2027" : 6246,
+        "land_area_2020" : 2.79
+    },
+    "Coatesville, Chester County, PA" : {
+        "name" : "Coatesville",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-14712",
+        "counties" : [
+            "Chester County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 13350,
+        "population_2020" : 13350,
+        "population_2027" : 13491,
+        "land_area_2020" : 1.81
+    },
+    "Connellsville, Fayette County, PA" : {
+        "name" : "Connellsville",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-15776",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 7031,
+        "population_2020" : 7031,
+        "population_2027" : 7105,
+        "land_area_2020" : 2.18
+    },
+    "Corry, Erie County, PA" : {
+        "name" : "Corry",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-16296",
+        "counties" : [
+            "Erie County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 6210,
+        "population_2020" : 6210,
+        "population_2027" : 6275,
+        "land_area_2020" : 5.99
+    },
+    "DuBois, Clearfield County, PA" : {
+        "name" : "DuBois",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-20136",
+        "counties" : [
+            "Clearfield County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 7510,
+        "population_2020" : 7510,
+        "population_2027" : 7589,
+        "land_area_2020" : 3.18
+    },
+    "Duquesne, Allegheny County, PA" : {
+        "name" : "Duquesne",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-20432",
+        "counties" : [
+            "Allegheny County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 5254,
+        "population_2020" : 5254,
+        "population_2027" : 5309,
+        "land_area_2020" : 1.82
+    },
+    "Easton, Northampton County, PA" : {
+        "name" : "Easton",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-21648",
+        "counties" : [
+            "Northampton County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 28127,
+        "population_2020" : 28127,
+        "population_2027" : 28424,
+        "land_area_2020" : 4.07
+    },
+    "Erie, Erie County, PA" : {
+        "name" : "Erie",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-24000",
+        "counties" : [
+            "Erie County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 94831,
+        "population_2020" : 94831,
+        "population_2027" : 95831,
+        "land_area_2020" : 19.08
+    },
+    "Farrell, Mercer County, PA" : {
+        "name" : "Farrell",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-25360",
+        "counties" : [
+            "Mercer County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 4258,
+        "population_2020" : 4258,
+        "population_2027" : 4303,
+        "land_area_2020" : 1.27
+    },
+    "Franklin, Venango County, PA" : {
+        "name" : "Franklin",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-27456",
+        "counties" : [
+            "Venango County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 6077,
+        "population_2020" : 6077,
+        "population_2027" : 6141,
+        "land_area_2020" : 4.68
+    },
+    "Greensburg, Westmoreland County, PA" : {
+        "name" : "Greensburg",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-31200",
+        "counties" : [
+            "Westmoreland County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 14976,
+        "population_2020" : 14976,
+        "population_2027" : 15134,
+        "land_area_2020" : 4.06
+    },
+    "Harrisburg, Dauphin County, PA" : {
+        "name" : "Harrisburg",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-32800",
+        "counties" : [
+            "Dauphin County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 50135,
+        "population_2020" : 50135,
+        "population_2027" : 50664,
+        "land_area_2020" : 8.13
+    },
+    "Hazleton, Luzerne County, PA" : {
+        "name" : "Hazleton",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-33408",
+        "counties" : [
+            "Luzerne County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 29963,
+        "population_2020" : 29963,
+        "population_2027" : 30279,
+        "land_area_2020" : 6.01
+    },
+    "Hermitage, Mercer County, PA" : {
+        "name" : "Hermitage",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-34064",
+        "counties" : [
+            "Mercer County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 16230,
+        "population_2020" : 16230,
+        "population_2027" : 16401,
+        "land_area_2020" : 29.23
+    },
+    "Jeannette, Westmoreland County, PA" : {
+        "name" : "Jeannette",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-37784",
+        "counties" : [
+            "Westmoreland County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 8780,
+        "population_2020" : 8780,
+        "population_2027" : 8873,
+        "land_area_2020" : 2.39
+    },
+    "Johnstown, Cambria County, PA" : {
+        "name" : "Johnstown",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-38288",
+        "counties" : [
+            "Cambria County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 18411,
+        "population_2020" : 18411,
+        "population_2027" : 18605,
+        "land_area_2020" : 5.89
+    },
+    "Lancaster, Lancaster County, PA" : {
+        "name" : "Lancaster",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-41216",
+        "counties" : [
+            "Lancaster County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 58039,
+        "population_2020" : 58039,
+        "population_2027" : 58651,
+        "land_area_2020" : 7.23
+    },
+    "Lebanon, Lebanon County, PA" : {
+        "name" : "Lebanon",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-42168",
+        "counties" : [
+            "Lebanon County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 26814,
+        "population_2020" : 26814,
+        "population_2027" : 27097,
+        "land_area_2020" : 4.17
+    },
+    "Lock Haven, Clinton County, PA" : {
+        "name" : "Lock Haven",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-44128",
+        "counties" : [
+            "Clinton County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 8108,
+        "population_2020" : 8108,
+        "population_2027" : 8194,
+        "land_area_2020" : 2.5
+    },
+    "Lower Burrell, Westmoreland County, PA" : {
+        "name" : "Lower Burrell",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-44864",
+        "counties" : [
+            "Westmoreland County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 11758,
+        "population_2020" : 11758,
+        "population_2027" : 11882,
+        "land_area_2020" : 11.26
+    },
+    "McKeesport, Allegheny County, PA" : {
+        "name" : "McKeesport",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-46256",
+        "counties" : [
+            "Allegheny County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 17727,
+        "population_2020" : 17727,
+        "population_2027" : 17914,
+        "land_area_2020" : 5.5
+    },
+    "Meadville, Crawford County, PA" : {
+        "name" : "Meadville",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-48360",
+        "counties" : [
+            "Crawford County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 13050,
+        "population_2020" : 13050,
+        "population_2027" : 13188,
+        "land_area_2020" : 4.38
+    },
+    "Monessen, Westmoreland County, PA" : {
+        "name" : "Monessen",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-50344",
+        "counties" : [
+            "Westmoreland County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 6876,
+        "population_2020" : 6876,
+        "population_2027" : 6949,
+        "land_area_2020" : 2.89
+    },
+    "Monongahela, Washington County, PA" : {
+        "name" : "Monongahela",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-50408",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 4159,
+        "population_2020" : 4159,
+        "population_2027" : 4203,
+        "land_area_2020" : 1.98
+    },
+    "Nanticoke, Luzerne County, PA" : {
+        "name" : "Nanticoke",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-52584",
+        "counties" : [
+            "Luzerne County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 10628,
+        "population_2020" : 10628,
+        "population_2027" : 10740,
+        "land_area_2020" : 3.49
+    },
+    "New Castle, Lawrence County, PA" : {
+        "name" : "New Castle",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-53368",
+        "counties" : [
+            "Lawrence County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 21926,
+        "population_2020" : 21926,
+        "population_2027" : 22157,
+        "land_area_2020" : 8.31
+    },
+    "New Kensington, Westmoreland County, PA" : {
+        "name" : "New Kensington",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-53736",
+        "counties" : [
+            "Westmoreland County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 12170,
+        "population_2020" : 12170,
+        "population_2027" : 12298,
+        "land_area_2020" : 3.95
+    },
+    "Oil City, Venango County, PA" : {
+        "name" : "Oil City",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-56456",
+        "counties" : [
+            "Venango County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 9613,
+        "population_2020" : 9613,
+        "population_2027" : 9714,
+        "land_area_2020" : 4.49
+    },
+    "Parker, Armstrong County, PA" : {
+        "name" : "Parker",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-57976",
+        "counties" : [
+            "Armstrong County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 695,
+        "population_2020" : 695,
+        "population_2027" : 702,
+        "land_area_2020" : 0.87
+    },
+    "Philadelphia, Philadelphia County, PA" : {
+        "name" : "Philadelphia",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-60000",
+        "counties" : [
+            "Philadelphia County"
+        ],
+        "type_class" : "First Class",
+        "population_2010" : 1603797,
+        "population_2020" : 1603797,
+        "population_2027" : 1620713,
+        "land_area_2020" : 134.1
+    },
+    "Pittsburgh, Allegheny County, PA" : {
+        "name" : "Pittsburgh",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-61000",
+        "counties" : [
+            "Allegheny County"
+        ],
+        "type_class" : "Second Class",
+        "population_2010" : 302971,
+        "population_2020" : 302971,
+        "population_2027" : 306167,
+        "land_area_2020" : 55.37
+    },
+    "Pittston, Luzerne County, PA" : {
+        "name" : "Pittston",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-61048",
+        "counties" : [
+            "Luzerne County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 7591,
+        "population_2020" : 7591,
+        "population_2027" : 7671,
+        "land_area_2020" : 1.55
+    },
+    "Pottsville, Schuylkill County, PA" : {
+        "name" : "Pottsville",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-62432",
+        "counties" : [
+            "Schuylkill County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 13346,
+        "population_2020" : 13346,
+        "population_2027" : 13487,
+        "land_area_2020" : 4.89
+    },
+    "Reading, Berks County, PA" : {
+        "name" : "Reading",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-63624",
+        "counties" : [
+            "Berks County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 95112,
+        "population_2020" : 95112,
+        "population_2027" : 96115,
+        "land_area_2020" : 9.88
+    },
+    "St. Marys, Elk County, PA" : {
+        "name" : "St. Marys",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-67344",
+        "counties" : [
+            "Elk County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 12738,
+        "population_2020" : 12738,
+        "population_2027" : 12872,
+        "land_area_2020" : 99.32
+    },
+    "Scranton, Lackawanna County, PA" : {
+        "name" : "Scranton",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-69000",
+        "counties" : [
+            "Lackawanna County"
+        ],
+        "type_class" : "Second A",
+        "population_2010" : 76328,
+        "population_2020" : 76328,
+        "population_2027" : 77133,
+        "land_area_2020" : 25.31
+    },
+    "Shamokin, Northumberland County, PA" : {
+        "name" : "Shamokin",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-69600",
+        "counties" : [
+            "Northumberland County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 6942,
+        "population_2020" : 6942,
+        "population_2027" : 7015,
+        "land_area_2020" : 0.83
+    },
+    "Sharon, Mercer County, PA" : {
+        "name" : "Sharon",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-69720",
+        "counties" : [
+            "Mercer County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 13147,
+        "population_2020" : 13147,
+        "population_2027" : 13286,
+        "land_area_2020" : 3.77
+    },
+    "Sunbury, Northumberland County, PA" : {
+        "name" : "Sunbury",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-75304",
+        "counties" : [
+            "Northumberland County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 9719,
+        "population_2020" : 9719,
+        "population_2027" : 9822,
+        "land_area_2020" : 2.06
+    },
+    "Titusville, Crawford County, PA" : {
+        "name" : "Titusville",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-76904",
+        "counties" : [
+            "Crawford County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 5262,
+        "population_2020" : 5262,
+        "population_2027" : 5318,
+        "land_area_2020" : 2.9
+    },
+    "Uniontown, Fayette County, PA" : {
+        "name" : "Uniontown",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-78528",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 9984,
+        "population_2020" : 9984,
+        "population_2027" : 10089,
+        "land_area_2020" : 2.04
+    },
+    "Warren, Warren County, PA" : {
+        "name" : "Warren",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-81000",
+        "counties" : [
+            "Warren County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 9404,
+        "population_2020" : 9404,
+        "population_2027" : 9503,
+        "land_area_2020" : 2.91
+    },
+    "Washington, Washington County, PA" : {
+        "name" : "Washington",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-81328",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 13176,
+        "population_2020" : 13176,
+        "population_2027" : 13315,
+        "land_area_2020" : 2.95
+    },
+    "Wilkes-Barre, Luzerne County, PA" : {
+        "name" : "Wilkes-Barre",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-85152",
+        "counties" : [
+            "Luzerne County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 44328,
+        "population_2020" : 44328,
+        "population_2027" : 44796,
+        "land_area_2020" : 6.98
+    },
+    "Williamsport, Lycoming County, PA" : {
+        "name" : "Williamsport",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-85312",
+        "counties" : [
+            "Lycoming County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 27754,
+        "population_2020" : 27754,
+        "population_2027" : 28047,
+        "land_area_2020" : 8.73
+    },
+    "York, York County, PA" : {
+        "name" : "York",
+        "state" : "Pennsylvania",
+        "FIPS" : "42-87048",
+        "counties" : [
+            "York County"
+        ],
+        "type_class" : "Third Class",
+        "population_2010" : 44800,
+        "population_2020" : 44800,
+        "population_2027" : 45273,
+        "land_area_2020" : 5.29
+    }
+}

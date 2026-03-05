@@ -1,0 +1,4515 @@
+{
+    "Adams, Robertson County, TN" : {
+        "name" : "Adams",
+        "state" : "Tennessee",
+        "FIPS" : "47-00200",
+        "counties" : [
+            "Robertson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 633,
+        "population_2020" : 633,
+        "population_2027" : 686,
+        "land_area_2020" : 2.68
+    },
+    "Adamsville, McNairy County, TN" : {
+        "name" : "Adamsville",
+        "state" : "Tennessee",
+        "FIPS" : "47-00240",
+        "counties" : [
+            "McNairy County",
+            "Hardin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2207,
+        "population_2020" : 2207,
+        "population_2027" : 2391,
+        "land_area_2020" : 6.91
+    },
+    "Alamo, Crockett County, TN" : {
+        "name" : "Alamo",
+        "state" : "Tennessee",
+        "FIPS" : "47-00440",
+        "counties" : [
+            "Crockett County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2461,
+        "population_2020" : 2461,
+        "population_2027" : 2666,
+        "land_area_2020" : 2.2
+    },
+    "Alcoa, Blount County, TN" : {
+        "name" : "Alcoa",
+        "state" : "Tennessee",
+        "FIPS" : "47-00540",
+        "counties" : [
+            "Blount County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10978,
+        "population_2020" : 10978,
+        "population_2027" : 11893,
+        "land_area_2020" : 15.66
+    },
+    "Alexandria, DeKalb County, TN" : {
+        "name" : "Alexandria",
+        "state" : "Tennessee",
+        "FIPS" : "47-00620",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 966,
+        "population_2020" : 966,
+        "population_2027" : 1046,
+        "land_area_2020" : 2.02
+    },
+    "Algood, Putnam County, TN" : {
+        "name" : "Algood",
+        "state" : "Tennessee",
+        "FIPS" : "47-00640",
+        "counties" : [
+            "Putnam County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3495,
+        "population_2020" : 3495,
+        "population_2027" : 3786,
+        "land_area_2020" : 4.03
+    },
+    "Allardt, Fentress County, TN" : {
+        "name" : "Allardt",
+        "state" : "Tennessee",
+        "FIPS" : "47-00660",
+        "counties" : [
+            "Fentress County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 634,
+        "population_2020" : 634,
+        "population_2027" : 687,
+        "land_area_2020" : 3.9
+    },
+    "Altamont, Grundy County, TN" : {
+        "name" : "Altamont",
+        "state" : "Tennessee",
+        "FIPS" : "47-00940",
+        "counties" : [
+            "Grundy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1045,
+        "population_2020" : 1045,
+        "population_2027" : 1132,
+        "land_area_2020" : 20.16
+    },
+    "Ardmore, Giles County, TN" : {
+        "name" : "Ardmore",
+        "state" : "Tennessee",
+        "FIPS" : "47-01640",
+        "counties" : [
+            "Giles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1213,
+        "population_2020" : 1213,
+        "population_2027" : 1314,
+        "land_area_2020" : 4.59
+    },
+    "Arlington, Shelby County, TN" : {
+        "name" : "Arlington",
+        "state" : "Tennessee",
+        "FIPS" : "47-01740",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14549,
+        "population_2020" : 14549,
+        "population_2027" : 15761,
+        "land_area_2020" : 23.07
+    },
+    "Ashland City, Cheatham County, TN" : {
+        "name" : "Ashland City",
+        "state" : "Tennessee",
+        "FIPS" : "47-02180",
+        "counties" : [
+            "Cheatham County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5193,
+        "population_2020" : 5193,
+        "population_2027" : 5626,
+        "land_area_2020" : 10.85
+    },
+    "Athens, McMinn County, TN" : {
+        "name" : "Athens",
+        "state" : "Tennessee",
+        "FIPS" : "47-02320",
+        "counties" : [
+            "McMinn County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14084,
+        "population_2020" : 14084,
+        "population_2027" : 15258,
+        "land_area_2020" : 13.98
+    },
+    "Atoka, Tipton County, TN" : {
+        "name" : "Atoka",
+        "state" : "Tennessee",
+        "FIPS" : "47-02340",
+        "counties" : [
+            "Tipton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10008,
+        "population_2020" : 10008,
+        "population_2027" : 10842,
+        "land_area_2020" : 12.36
+    },
+    "Atwood, Carroll County, TN" : {
+        "name" : "Atwood",
+        "state" : "Tennessee",
+        "FIPS" : "47-02380",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 938,
+        "population_2020" : 938,
+        "population_2027" : 1016,
+        "land_area_2020" : 1.85
+    },
+    "Auburntown, Cannon County, TN" : {
+        "name" : "Auburntown",
+        "state" : "Tennessee",
+        "FIPS" : "47-02400",
+        "counties" : [
+            "Cannon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 269,
+        "population_2020" : 269,
+        "population_2027" : 291,
+        "land_area_2020" : 0.57
+    },
+    "Baileyton, Greene County, TN" : {
+        "name" : "Baileyton",
+        "state" : "Tennessee",
+        "FIPS" : "47-02780",
+        "counties" : [
+            "Greene County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 431,
+        "population_2020" : 431,
+        "population_2027" : 467,
+        "land_area_2020" : 1.68
+    },
+    "Baneberry, Jefferson County, TN" : {
+        "name" : "Baneberry",
+        "state" : "Tennessee",
+        "FIPS" : "47-03078",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 482,
+        "population_2020" : 482,
+        "population_2027" : 522,
+        "land_area_2020" : 1.82
+    },
+    "Bartlett, Shelby County, TN" : {
+        "name" : "Bartlett",
+        "state" : "Tennessee",
+        "FIPS" : "47-03440",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 57786,
+        "population_2020" : 57786,
+        "population_2027" : 62601,
+        "land_area_2020" : 26.67
+    },
+    "Baxter, Putnam County, TN" : {
+        "name" : "Baxter",
+        "state" : "Tennessee",
+        "FIPS" : "47-03680",
+        "counties" : [
+            "Putnam County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1365,
+        "population_2020" : 1365,
+        "population_2027" : 1479,
+        "land_area_2020" : 3.03
+    },
+    "Bean Station, Grainger County, TN" : {
+        "name" : "Bean Station",
+        "state" : "Tennessee",
+        "FIPS" : "47-03760",
+        "counties" : [
+            "Grainger County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2826,
+        "population_2020" : 2826,
+        "population_2027" : 3061,
+        "land_area_2020" : 5.39
+    },
+    "Beersheba Springs, Grundy County, TN" : {
+        "name" : "Beersheba Springs",
+        "state" : "Tennessee",
+        "FIPS" : "47-04240",
+        "counties" : [
+            "Grundy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 477,
+        "population_2020" : 477,
+        "population_2027" : 517,
+        "land_area_2020" : 4.91
+    },
+    "Bell Buckle, Bedford County, TN" : {
+        "name" : "Bell Buckle",
+        "state" : "Tennessee",
+        "FIPS" : "47-04460",
+        "counties" : [
+            "Bedford County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 500,
+        "population_2020" : 500,
+        "population_2027" : 542,
+        "land_area_2020" : 0.6
+    },
+    "Belle Meade, Davidson County, TN" : {
+        "name" : "Belle Meade",
+        "state" : "Tennessee",
+        "FIPS" : "47-04620",
+        "counties" : [
+            "Davidson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2912,
+        "population_2020" : 2912,
+        "population_2027" : 3155,
+        "land_area_2020" : 3.08
+    },
+    "Bells, Crockett County, TN" : {
+        "name" : "Bells",
+        "state" : "Tennessee",
+        "FIPS" : "47-04720",
+        "counties" : [
+            "Crockett County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2437,
+        "population_2020" : 2437,
+        "population_2027" : 2640,
+        "land_area_2020" : 2.33
+    },
+    "Benton, Polk County, TN" : {
+        "name" : "Benton",
+        "state" : "Tennessee",
+        "FIPS" : "47-05040",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1385,
+        "population_2020" : 1385,
+        "population_2027" : 1500,
+        "land_area_2020" : 3.21
+    },
+    "Berry Hill, Davidson County, TN" : {
+        "name" : "Berry Hill",
+        "state" : "Tennessee",
+        "FIPS" : "47-05140",
+        "counties" : [
+            "Davidson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2112,
+        "population_2020" : 2112,
+        "population_2027" : 2288,
+        "land_area_2020" : 0.91
+    },
+    "Bethel Springs, McNairy County, TN" : {
+        "name" : "Bethel Springs",
+        "state" : "Tennessee",
+        "FIPS" : "47-05380",
+        "counties" : [
+            "McNairy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 718,
+        "population_2020" : 718,
+        "population_2027" : 778,
+        "land_area_2020" : 2.16
+    },
+    "Big Sandy, Benton County, TN" : {
+        "name" : "Big Sandy",
+        "state" : "Tennessee",
+        "FIPS" : "47-05860",
+        "counties" : [
+            "Benton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 557,
+        "population_2020" : 557,
+        "population_2027" : 603,
+        "land_area_2020" : 0.71
+    },
+    "Blaine, Grainger County, TN" : {
+        "name" : "Blaine",
+        "state" : "Tennessee",
+        "FIPS" : "47-06340",
+        "counties" : [
+            "Grainger County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1856,
+        "population_2020" : 1856,
+        "population_2027" : 2011,
+        "land_area_2020" : 9.39
+    },
+    "Bluff City, Sullivan County, TN" : {
+        "name" : "Bluff City",
+        "state" : "Tennessee",
+        "FIPS" : "47-06960",
+        "counties" : [
+            "Sullivan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1733,
+        "population_2020" : 1733,
+        "population_2027" : 1877,
+        "land_area_2020" : 1.6
+    },
+    "Bolivar, Hardeman County, TN" : {
+        "name" : "Bolivar",
+        "state" : "Tennessee",
+        "FIPS" : "47-07180",
+        "counties" : [
+            "Hardeman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5205,
+        "population_2020" : 5205,
+        "population_2027" : 5639,
+        "land_area_2020" : 8.42
+    },
+    "Braden, Fayette County, TN" : {
+        "name" : "Braden",
+        "state" : "Tennessee",
+        "FIPS" : "47-07840",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 282,
+        "population_2020" : 282,
+        "population_2027" : 305,
+        "land_area_2020" : 3.83
+    },
+    "Bradford, Gibson County, TN" : {
+        "name" : "Bradford",
+        "state" : "Tennessee",
+        "FIPS" : "47-07860",
+        "counties" : [
+            "Gibson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1048,
+        "population_2020" : 1048,
+        "population_2027" : 1135,
+        "land_area_2020" : 1.73
+    },
+    "Brentwood, Williamson County, TN" : {
+        "name" : "Brentwood",
+        "state" : "Tennessee",
+        "FIPS" : "47-08280",
+        "counties" : [
+            "Williamson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 45373,
+        "population_2020" : 45373,
+        "population_2027" : 49154,
+        "land_area_2020" : 41.23
+    },
+    "Brighton, Tipton County, TN" : {
+        "name" : "Brighton",
+        "state" : "Tennessee",
+        "FIPS" : "47-08500",
+        "counties" : [
+            "Tipton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2735,
+        "population_2020" : 2735,
+        "population_2027" : 2963,
+        "land_area_2020" : 2.79
+    },
+    "Bristol, Sullivan County, TN" : {
+        "name" : "Bristol",
+        "state" : "Tennessee",
+        "FIPS" : "47-08540",
+        "counties" : [
+            "Sullivan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 27147,
+        "population_2020" : 27147,
+        "population_2027" : 29409,
+        "land_area_2020" : 32.44
+    },
+    "Brownsville, Haywood County, TN" : {
+        "name" : "Brownsville",
+        "state" : "Tennessee",
+        "FIPS" : "47-08920",
+        "counties" : [
+            "Haywood County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9788,
+        "population_2020" : 9788,
+        "population_2027" : 10604,
+        "land_area_2020" : 10.2
+    },
+    "Bruceton, Carroll County, TN" : {
+        "name" : "Bruceton",
+        "state" : "Tennessee",
+        "FIPS" : "47-08960",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1478,
+        "population_2020" : 1478,
+        "population_2027" : 1601,
+        "land_area_2020" : 1.89
+    },
+    "Bulls Gap, Hawkins County, TN" : {
+        "name" : "Bulls Gap",
+        "state" : "Tennessee",
+        "FIPS" : "47-09560",
+        "counties" : [
+            "Hawkins County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 738,
+        "population_2020" : 738,
+        "population_2027" : 799,
+        "land_area_2020" : 1.29
+    },
+    "Burlison, Tipton County, TN" : {
+        "name" : "Burlison",
+        "state" : "Tennessee",
+        "FIPS" : "47-09860",
+        "counties" : [
+            "Tipton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 425,
+        "population_2020" : 425,
+        "population_2027" : 460,
+        "land_area_2020" : 1.08
+    },
+    "Burns, Dickson County, TN" : {
+        "name" : "Burns",
+        "state" : "Tennessee",
+        "FIPS" : "47-09880",
+        "counties" : [
+            "Dickson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1468,
+        "population_2020" : 1468,
+        "population_2027" : 1590,
+        "land_area_2020" : 3.74
+    },
+    "Byrdstown, Pickett County, TN" : {
+        "name" : "Byrdstown",
+        "state" : "Tennessee",
+        "FIPS" : "47-10180",
+        "counties" : [
+            "Pickett County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 803,
+        "population_2020" : 803,
+        "population_2027" : 870,
+        "land_area_2020" : 1.53
+    },
+    "Calhoun, McMinn County, TN" : {
+        "name" : "Calhoun",
+        "state" : "Tennessee",
+        "FIPS" : "47-10440",
+        "counties" : [
+            "McMinn County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 490,
+        "population_2020" : 490,
+        "population_2027" : 531,
+        "land_area_2020" : 1.15
+    },
+    "Camden, Benton County, TN" : {
+        "name" : "Camden",
+        "state" : "Tennessee",
+        "FIPS" : "47-10560",
+        "counties" : [
+            "Benton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3582,
+        "population_2020" : 3582,
+        "population_2027" : 3880,
+        "land_area_2020" : 5.67
+    },
+    "Carthage, Smith County, TN" : {
+        "name" : "Carthage",
+        "state" : "Tennessee",
+        "FIPS" : "47-11280",
+        "counties" : [
+            "Smith County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2306,
+        "population_2020" : 2306,
+        "population_2027" : 2498,
+        "land_area_2020" : 2.86
+    },
+    "Caryville, Campbell County, TN" : {
+        "name" : "Caryville",
+        "state" : "Tennessee",
+        "FIPS" : "47-11360",
+        "counties" : [
+            "Campbell County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2297,
+        "population_2020" : 2297,
+        "population_2027" : 2488,
+        "land_area_2020" : 5.4
+    },
+    "Cedar Hill, Robertson County, TN" : {
+        "name" : "Cedar Hill",
+        "state" : "Tennessee",
+        "FIPS" : "47-11980",
+        "counties" : [
+            "Robertson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 314,
+        "population_2020" : 314,
+        "population_2027" : 340,
+        "land_area_2020" : 0.69
+    },
+    "Celina, Clay County, TN" : {
+        "name" : "Celina",
+        "state" : "Tennessee",
+        "FIPS" : "47-12100",
+        "counties" : [
+            "Clay County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1495,
+        "population_2020" : 1495,
+        "population_2027" : 1620,
+        "land_area_2020" : 1.7
+    },
+    "Centertown, Warren County, TN" : {
+        "name" : "Centertown",
+        "state" : "Tennessee",
+        "FIPS" : "47-12380",
+        "counties" : [
+            "Warren County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 243,
+        "population_2020" : 243,
+        "population_2027" : 263,
+        "land_area_2020" : 0.94
+    },
+    "Centerville, Hickman County, TN" : {
+        "name" : "Centerville",
+        "state" : "Tennessee",
+        "FIPS" : "47-12420",
+        "counties" : [
+            "Hickman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3644,
+        "population_2020" : 3644,
+        "population_2027" : 3948,
+        "land_area_2020" : 11.31
+    },
+    "Chapel Hill, Marshall County, TN" : {
+        "name" : "Chapel Hill",
+        "state" : "Tennessee",
+        "FIPS" : "47-12880",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1445,
+        "population_2020" : 1445,
+        "population_2027" : 1565,
+        "land_area_2020" : 3.24
+    },
+    "Charleston, Bradley County, TN" : {
+        "name" : "Charleston",
+        "state" : "Tennessee",
+        "FIPS" : "47-13020",
+        "counties" : [
+            "Bradley County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 651,
+        "population_2020" : 651,
+        "population_2027" : 705,
+        "land_area_2020" : 1.06
+    },
+    "Charlotte, Dickson County, TN" : {
+        "name" : "Charlotte",
+        "state" : "Tennessee",
+        "FIPS" : "47-13080",
+        "counties" : [
+            "Dickson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1235,
+        "population_2020" : 1235,
+        "population_2027" : 1338,
+        "land_area_2020" : 1.74
+    },
+    "Chattanooga, Hamilton County, TN" : {
+        "name" : "Chattanooga",
+        "state" : "Tennessee",
+        "FIPS" : "47-14000",
+        "counties" : [
+            "Hamilton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 181099,
+        "population_2020" : 181099,
+        "population_2027" : 196190,
+        "land_area_2020" : 144.55
+    },
+    "Church Hill, Hawkins County, TN" : {
+        "name" : "Church Hill",
+        "state" : "Tennessee",
+        "FIPS" : "47-14980",
+        "counties" : [
+            "Hawkins County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6998,
+        "population_2020" : 6998,
+        "population_2027" : 7581,
+        "land_area_2020" : 9.81
+    },
+    "Clarksburg, Carroll County, TN" : {
+        "name" : "Clarksburg",
+        "state" : "Tennessee",
+        "FIPS" : "47-15140",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 393,
+        "population_2020" : 393,
+        "population_2027" : 426,
+        "land_area_2020" : 2.02
+    },
+    "Clarksville, Montgomery County, TN" : {
+        "name" : "Clarksville",
+        "state" : "Tennessee",
+        "FIPS" : "47-15160",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 166722,
+        "population_2020" : 166722,
+        "population_2027" : 180615,
+        "land_area_2020" : 98.28
+    },
+    "Cleveland, Bradley County, TN" : {
+        "name" : "Cleveland",
+        "state" : "Tennessee",
+        "FIPS" : "47-15400",
+        "counties" : [
+            "Bradley County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 47356,
+        "population_2020" : 47356,
+        "population_2027" : 51302,
+        "land_area_2020" : 26.9
+    },
+    "Clifton, Wayne County, TN" : {
+        "name" : "Clifton",
+        "state" : "Tennessee",
+        "FIPS" : "47-15480",
+        "counties" : [
+            "Wayne County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2694,
+        "population_2020" : 2694,
+        "population_2027" : 2918,
+        "land_area_2020" : 6.93
+    },
+    "Clinton, Anderson County, TN" : {
+        "name" : "Clinton",
+        "state" : "Tennessee",
+        "FIPS" : "47-15580",
+        "counties" : [
+            "Anderson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10056,
+        "population_2020" : 10056,
+        "population_2027" : 10894,
+        "land_area_2020" : 12.02
+    },
+    "Coalmont, Grundy County, TN" : {
+        "name" : "Coalmont",
+        "state" : "Tennessee",
+        "FIPS" : "47-15920",
+        "counties" : [
+            "Grundy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 841,
+        "population_2020" : 841,
+        "population_2027" : 911,
+        "land_area_2020" : 6.08
+    },
+    "Collegedale, Hamilton County, TN" : {
+        "name" : "Collegedale",
+        "state" : "Tennessee",
+        "FIPS" : "47-16300",
+        "counties" : [
+            "Hamilton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11109,
+        "population_2020" : 11109,
+        "population_2027" : 12035,
+        "land_area_2020" : 9.9
+    },
+    "Collierville, Shelby County, TN" : {
+        "name" : "Collierville",
+        "state" : "Tennessee",
+        "FIPS" : "47-16420",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 51324,
+        "population_2020" : 51324,
+        "population_2027" : 55601,
+        "land_area_2020" : 29.41
+    },
+    "Collinwood, Wayne County, TN" : {
+        "name" : "Collinwood",
+        "state" : "Tennessee",
+        "FIPS" : "47-16480",
+        "counties" : [
+            "Wayne County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 982,
+        "population_2020" : 982,
+        "population_2027" : 1064,
+        "land_area_2020" : 2.82
+    },
+    "Columbia, Maury County, TN" : {
+        "name" : "Columbia",
+        "state" : "Tennessee",
+        "FIPS" : "47-16540",
+        "counties" : [
+            "Maury County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 41690,
+        "population_2020" : 41690,
+        "population_2027" : 45164,
+        "land_area_2020" : 31.56
+    },
+    "Cookeville, Putnam County, TN" : {
+        "name" : "Cookeville",
+        "state" : "Tennessee",
+        "FIPS" : "47-16920",
+        "counties" : [
+            "Putnam County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 34842,
+        "population_2020" : 34842,
+        "population_2027" : 37745,
+        "land_area_2020" : 32.85
+    },
+    "Coopertown, Robertson County, TN" : {
+        "name" : "Coopertown",
+        "state" : "Tennessee",
+        "FIPS" : "47-16980",
+        "counties" : [
+            "Robertson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4278,
+        "population_2020" : 4278,
+        "population_2027" : 4634,
+        "land_area_2020" : 31.49
+    },
+    "Copperhill, Polk County, TN" : {
+        "name" : "Copperhill",
+        "state" : "Tennessee",
+        "FIPS" : "47-17000",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 354,
+        "population_2020" : 354,
+        "population_2027" : 383,
+        "land_area_2020" : 1.91
+    },
+    "Cornersville, Marshall County, TN" : {
+        "name" : "Cornersville",
+        "state" : "Tennessee",
+        "FIPS" : "47-17180",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1194,
+        "population_2020" : 1194,
+        "population_2027" : 1293,
+        "land_area_2020" : 6.26
+    },
+    "Cottage Grove, Henry County, TN" : {
+        "name" : "Cottage Grove",
+        "state" : "Tennessee",
+        "FIPS" : "47-17340",
+        "counties" : [
+            "Henry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 88,
+        "population_2020" : 88,
+        "population_2027" : 95,
+        "land_area_2020" : 0.19
+    },
+    "Covington, Tipton County, TN" : {
+        "name" : "Covington",
+        "state" : "Tennessee",
+        "FIPS" : "47-17680",
+        "counties" : [
+            "Tipton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8663,
+        "population_2020" : 8663,
+        "population_2027" : 9385,
+        "land_area_2020" : 11.44
+    },
+    "Cowan, Franklin County, TN" : {
+        "name" : "Cowan",
+        "state" : "Tennessee",
+        "FIPS" : "47-17700",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1737,
+        "population_2020" : 1737,
+        "population_2027" : 1882,
+        "land_area_2020" : 2.07
+    },
+    "Crab Orchard, Cumberland County, TN" : {
+        "name" : "Crab Orchard",
+        "state" : "Tennessee",
+        "FIPS" : "47-17840",
+        "counties" : [
+            "Cumberland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 996,
+        "population_2020" : 996,
+        "population_2027" : 1079,
+        "land_area_2020" : 11.11
+    },
+    "Cross Plains, Robertson County, TN" : {
+        "name" : "Cross Plains",
+        "state" : "Tennessee",
+        "FIPS" : "47-18420",
+        "counties" : [
+            "Robertson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1714,
+        "population_2020" : 1714,
+        "population_2027" : 1857,
+        "land_area_2020" : 8.49
+    },
+    "Crossville, Cumberland County, TN" : {
+        "name" : "Crossville",
+        "state" : "Tennessee",
+        "FIPS" : "47-18540",
+        "counties" : [
+            "Cumberland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12071,
+        "population_2020" : 12071,
+        "population_2027" : 13077,
+        "land_area_2020" : 20.36
+    },
+    "Crump, Hardin County, TN" : {
+        "name" : "Crump",
+        "state" : "Tennessee",
+        "FIPS" : "47-18620",
+        "counties" : [
+            "Hardin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1428,
+        "population_2020" : 1428,
+        "population_2027" : 1547,
+        "land_area_2020" : 13.36
+    },
+    "Cumberland City, Stewart County, TN" : {
+        "name" : "Cumberland City",
+        "state" : "Tennessee",
+        "FIPS" : "47-18820",
+        "counties" : [
+            "Stewart County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 311,
+        "population_2020" : 311,
+        "population_2027" : 337,
+        "land_area_2020" : 5.31
+    },
+    "Cumberland Gap, Claiborne County, TN" : {
+        "name" : "Cumberland Gap",
+        "state" : "Tennessee",
+        "FIPS" : "47-18880",
+        "counties" : [
+            "Claiborne County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 494,
+        "population_2020" : 494,
+        "population_2027" : 535,
+        "land_area_2020" : 0.33
+    },
+    "Dandridge, Jefferson County, TN" : {
+        "name" : "Dandridge",
+        "state" : "Tennessee",
+        "FIPS" : "47-19380",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2812,
+        "population_2020" : 2812,
+        "population_2027" : 3046,
+        "land_area_2020" : 6.42
+    },
+    "Dayton, Rhea County, TN" : {
+        "name" : "Dayton",
+        "state" : "Tennessee",
+        "FIPS" : "47-19700",
+        "counties" : [
+            "Rhea County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7065,
+        "population_2020" : 7065,
+        "population_2027" : 7654,
+        "land_area_2020" : 7.88
+    },
+    "Decatur, Meigs County, TN" : {
+        "name" : "Decatur",
+        "state" : "Tennessee",
+        "FIPS" : "47-19880",
+        "counties" : [
+            "Meigs County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1598,
+        "population_2020" : 1598,
+        "population_2027" : 1731,
+        "land_area_2020" : 3.0
+    },
+    "Decaturville, Decatur County, TN" : {
+        "name" : "Decaturville",
+        "state" : "Tennessee",
+        "FIPS" : "47-19900",
+        "counties" : [
+            "Decatur County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 867,
+        "population_2020" : 867,
+        "population_2027" : 939,
+        "land_area_2020" : 1.66
+    },
+    "Decherd, Franklin County, TN" : {
+        "name" : "Decherd",
+        "state" : "Tennessee",
+        "FIPS" : "47-19920",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2361,
+        "population_2020" : 2361,
+        "population_2027" : 2558,
+        "land_area_2020" : 4.75
+    },
+    "Dickson, Dickson County, TN" : {
+        "name" : "Dickson",
+        "state" : "Tennessee",
+        "FIPS" : "47-20620",
+        "counties" : [
+            "Dickson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16058,
+        "population_2020" : 16058,
+        "population_2027" : 17396,
+        "land_area_2020" : 20.03
+    },
+    "Dover, Stewart County, TN" : {
+        "name" : "Dover",
+        "state" : "Tennessee",
+        "FIPS" : "47-21400",
+        "counties" : [
+            "Stewart County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1417,
+        "population_2020" : 1417,
+        "population_2027" : 1535,
+        "land_area_2020" : 3.88
+    },
+    "Dowelltown, DeKalb County, TN" : {
+        "name" : "Dowelltown",
+        "state" : "Tennessee",
+        "FIPS" : "47-21420",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 355,
+        "population_2020" : 355,
+        "population_2027" : 385,
+        "land_area_2020" : 0.79
+    },
+    "Doyle, White County, TN" : {
+        "name" : "Doyle",
+        "state" : "Tennessee",
+        "FIPS" : "47-21500",
+        "counties" : [
+            "White County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 537,
+        "population_2020" : 537,
+        "population_2027" : 582,
+        "land_area_2020" : 1.31
+    },
+    "Dresden, Weakley County, TN" : {
+        "name" : "Dresden",
+        "state" : "Tennessee",
+        "FIPS" : "47-21540",
+        "counties" : [
+            "Weakley County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3005,
+        "population_2020" : 3005,
+        "population_2027" : 3255,
+        "land_area_2020" : 5.57
+    },
+    "Ducktown, Polk County, TN" : {
+        "name" : "Ducktown",
+        "state" : "Tennessee",
+        "FIPS" : "47-21740",
+        "counties" : [
+            "Polk County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 475,
+        "population_2020" : 475,
+        "population_2027" : 515,
+        "land_area_2020" : 2.63
+    },
+    "Dunlap, Sequatchie County, TN" : {
+        "name" : "Dunlap",
+        "state" : "Tennessee",
+        "FIPS" : "47-22000",
+        "counties" : [
+            "Sequatchie County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5357,
+        "population_2020" : 5357,
+        "population_2027" : 5803,
+        "land_area_2020" : 10.74
+    },
+    "Dyer, Gibson County, TN" : {
+        "name" : "Dyer",
+        "state" : "Tennessee",
+        "FIPS" : "47-22180",
+        "counties" : [
+            "Gibson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2341,
+        "population_2020" : 2341,
+        "population_2027" : 2536,
+        "land_area_2020" : 2.28
+    },
+    "Dyersburg, Dyer County, TN" : {
+        "name" : "Dyersburg",
+        "state" : "Tennessee",
+        "FIPS" : "47-22200",
+        "counties" : [
+            "Dyer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16164,
+        "population_2020" : 16164,
+        "population_2027" : 17511,
+        "land_area_2020" : 17.47
+    },
+    "Eagleville, Rutherford County, TN" : {
+        "name" : "Eagleville",
+        "state" : "Tennessee",
+        "FIPS" : "47-22360",
+        "counties" : [
+            "Rutherford County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 604,
+        "population_2020" : 604,
+        "population_2027" : 654,
+        "land_area_2020" : 2.31
+    },
+    "East Ridge, Hamilton County, TN" : {
+        "name" : "East Ridge",
+        "state" : "Tennessee",
+        "FIPS" : "47-22720",
+        "counties" : [
+            "Hamilton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 22167,
+        "population_2020" : 22167,
+        "population_2027" : 24014,
+        "land_area_2020" : 8.28
+    },
+    "Eastview, McNairy County, TN" : {
+        "name" : "Eastview",
+        "state" : "Tennessee",
+        "FIPS" : "47-22920",
+        "counties" : [
+            "McNairy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 705,
+        "population_2020" : 705,
+        "population_2027" : 764,
+        "land_area_2020" : 4.89
+    },
+    "Elizabethton, Carter County, TN" : {
+        "name" : "Elizabethton",
+        "state" : "Tennessee",
+        "FIPS" : "47-23500",
+        "counties" : [
+            "Carter County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 14546,
+        "population_2020" : 14546,
+        "population_2027" : 15758,
+        "land_area_2020" : 9.9
+    },
+    "Elkton, Giles County, TN" : {
+        "name" : "Elkton",
+        "state" : "Tennessee",
+        "FIPS" : "47-23660",
+        "counties" : [
+            "Giles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 578,
+        "population_2020" : 578,
+        "population_2027" : 626,
+        "land_area_2020" : 2.16
+    },
+    "Englewood, McMinn County, TN" : {
+        "name" : "Englewood",
+        "state" : "Tennessee",
+        "FIPS" : "47-24040",
+        "counties" : [
+            "McMinn County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1532,
+        "population_2020" : 1532,
+        "population_2027" : 1660,
+        "land_area_2020" : 1.82
+    },
+    "Enville, Chester County, TN" : {
+        "name" : "Enville",
+        "state" : "Tennessee",
+        "FIPS" : "47-24240",
+        "counties" : [
+            "Chester County",
+            "McNairy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 189,
+        "population_2020" : 189,
+        "population_2027" : 205,
+        "land_area_2020" : 1.45
+    },
+    "Erin, Houston County, TN" : {
+        "name" : "Erin",
+        "state" : "Tennessee",
+        "FIPS" : "47-24320",
+        "counties" : [
+            "Houston County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1324,
+        "population_2020" : 1324,
+        "population_2027" : 1434,
+        "land_area_2020" : 4.09
+    },
+    "Erwin, Unicoi County, TN" : {
+        "name" : "Erwin",
+        "state" : "Tennessee",
+        "FIPS" : "47-24360",
+        "counties" : [
+            "Unicoi County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6083,
+        "population_2020" : 6083,
+        "population_2027" : 6590,
+        "land_area_2020" : 4.04
+    },
+    "Estill Springs, Franklin County, TN" : {
+        "name" : "Estill Springs",
+        "state" : "Tennessee",
+        "FIPS" : "47-24440",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2055,
+        "population_2020" : 2055,
+        "population_2027" : 2226,
+        "land_area_2020" : 4.68
+    },
+    "Ethridge, Lawrence County, TN" : {
+        "name" : "Ethridge",
+        "state" : "Tennessee",
+        "FIPS" : "47-24460",
+        "counties" : [
+            "Lawrence County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 465,
+        "population_2020" : 465,
+        "population_2027" : 504,
+        "land_area_2020" : 1.17
+    },
+    "Etowah, McMinn County, TN" : {
+        "name" : "Etowah",
+        "state" : "Tennessee",
+        "FIPS" : "47-24480",
+        "counties" : [
+            "McMinn County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3490,
+        "population_2020" : 3490,
+        "population_2027" : 3781,
+        "land_area_2020" : 2.92
+    },
+    "Fairview, Williamson County, TN" : {
+        "name" : "Fairview",
+        "state" : "Tennessee",
+        "FIPS" : "47-25440",
+        "counties" : [
+            "Williamson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9357,
+        "population_2020" : 9357,
+        "population_2027" : 10137,
+        "land_area_2020" : 16.92
+    },
+    "Farragut, Knox County, TN" : {
+        "name" : "Farragut",
+        "state" : "Tennessee",
+        "FIPS" : "47-25760",
+        "counties" : [
+            "Knox County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23506,
+        "population_2020" : 23506,
+        "population_2027" : 25465,
+        "land_area_2020" : 16.2
+    },
+    "Fayetteville, Lincoln County, TN" : {
+        "name" : "Fayetteville",
+        "state" : "Tennessee",
+        "FIPS" : "47-25920",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7068,
+        "population_2020" : 7068,
+        "population_2027" : 7657,
+        "land_area_2020" : 10.96
+    },
+    "Finger, McNairy County, TN" : {
+        "name" : "Finger",
+        "state" : "Tennessee",
+        "FIPS" : "47-26160",
+        "counties" : [
+            "McNairy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 298,
+        "population_2020" : 298,
+        "population_2027" : 323,
+        "land_area_2020" : 1.53
+    },
+    "Forest Hills, Davidson County, TN" : {
+        "name" : "Forest Hills",
+        "state" : "Tennessee",
+        "FIPS" : "47-27020",
+        "counties" : [
+            "Davidson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5038,
+        "population_2020" : 5038,
+        "population_2027" : 5458,
+        "land_area_2020" : 9.22
+    },
+    "Franklin, Williamson County, TN" : {
+        "name" : "Franklin",
+        "state" : "Tennessee",
+        "FIPS" : "47-27740",
+        "counties" : [
+            "Williamson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 83454,
+        "population_2020" : 83454,
+        "population_2027" : 90408,
+        "land_area_2020" : 41.45
+    },
+    "Friendship, Crockett County, TN" : {
+        "name" : "Friendship",
+        "state" : "Tennessee",
+        "FIPS" : "47-27960",
+        "counties" : [
+            "Crockett County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 668,
+        "population_2020" : 668,
+        "population_2027" : 724,
+        "land_area_2020" : 1.3
+    },
+    "Friendsville, Blount County, TN" : {
+        "name" : "Friendsville",
+        "state" : "Tennessee",
+        "FIPS" : "47-28060",
+        "counties" : [
+            "Blount County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 913,
+        "population_2020" : 913,
+        "population_2027" : 989,
+        "land_area_2020" : 3.01
+    },
+    "Gadsden, Crockett County, TN" : {
+        "name" : "Gadsden",
+        "state" : "Tennessee",
+        "FIPS" : "47-28380",
+        "counties" : [
+            "Crockett County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 470,
+        "population_2020" : 470,
+        "population_2027" : 509,
+        "land_area_2020" : 1.09
+    },
+    "Gainesboro, Jackson County, TN" : {
+        "name" : "Gainesboro",
+        "state" : "Tennessee",
+        "FIPS" : "47-28420",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 962,
+        "population_2020" : 962,
+        "population_2027" : 1042,
+        "land_area_2020" : 1.78
+    },
+    "Gallatin, Sumner County, TN" : {
+        "name" : "Gallatin",
+        "state" : "Tennessee",
+        "FIPS" : "47-28540",
+        "counties" : [
+            "Sumner County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 44431,
+        "population_2020" : 44431,
+        "population_2027" : 48133,
+        "land_area_2020" : 31.75
+    },
+    "Gallaway, Fayette County, TN" : {
+        "name" : "Gallaway",
+        "state" : "Tennessee",
+        "FIPS" : "47-28560",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 680,
+        "population_2020" : 680,
+        "population_2027" : 737,
+        "land_area_2020" : 6.13
+    },
+    "Garland, Tipton County, TN" : {
+        "name" : "Garland",
+        "state" : "Tennessee",
+        "FIPS" : "47-28680",
+        "counties" : [
+            "Tipton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 310,
+        "population_2020" : 310,
+        "population_2027" : 336,
+        "land_area_2020" : 0.58
+    },
+    "Gates, Lauderdale County, TN" : {
+        "name" : "Gates",
+        "state" : "Tennessee",
+        "FIPS" : "47-28740",
+        "counties" : [
+            "Lauderdale County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 647,
+        "population_2020" : 647,
+        "population_2027" : 701,
+        "land_area_2020" : 0.7
+    },
+    "Gatlinburg, Sevier County, TN" : {
+        "name" : "Gatlinburg",
+        "state" : "Tennessee",
+        "FIPS" : "47-28800",
+        "counties" : [
+            "Sevier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3944,
+        "population_2020" : 3944,
+        "population_2027" : 4273,
+        "land_area_2020" : 10.35
+    },
+    "Germantown, Shelby County, TN" : {
+        "name" : "Germantown",
+        "state" : "Tennessee",
+        "FIPS" : "47-28960",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 41333,
+        "population_2020" : 41333,
+        "population_2027" : 44777,
+        "land_area_2020" : 20.0
+    },
+    "Gibson, Gibson County, TN" : {
+        "name" : "Gibson",
+        "state" : "Tennessee",
+        "FIPS" : "47-29020",
+        "counties" : [
+            "Gibson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 396,
+        "population_2020" : 396,
+        "population_2027" : 429,
+        "land_area_2020" : 0.61
+    },
+    "Gilt Edge, Tipton County, TN" : {
+        "name" : "Gilt Edge",
+        "state" : "Tennessee",
+        "FIPS" : "47-29160",
+        "counties" : [
+            "Tipton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 477,
+        "population_2020" : 477,
+        "population_2027" : 517,
+        "land_area_2020" : 2.76
+    },
+    "Gleason, Weakley County, TN" : {
+        "name" : "Gleason",
+        "state" : "Tennessee",
+        "FIPS" : "47-29300",
+        "counties" : [
+            "Weakley County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1445,
+        "population_2020" : 1445,
+        "population_2027" : 1565,
+        "land_area_2020" : 2.28
+    },
+    "Goodlettsville, Davidson County, TN" : {
+        "name" : "Goodlettsville",
+        "state" : "Tennessee",
+        "FIPS" : "47-29920",
+        "counties" : [
+            "Davidson County",
+            "Sumner County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 17789,
+        "population_2020" : 17789,
+        "population_2027" : 19271,
+        "land_area_2020" : 14.32
+    },
+    "Gordonsville, Smith County, TN" : {
+        "name" : "Gordonsville",
+        "state" : "Tennessee",
+        "FIPS" : "47-30120",
+        "counties" : [
+            "Smith County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1213,
+        "population_2020" : 1213,
+        "population_2027" : 1314,
+        "land_area_2020" : 7.11
+    },
+    "Grand Junction, Hardeman County, TN" : {
+        "name" : "Grand Junction",
+        "state" : "Tennessee",
+        "FIPS" : "47-30280",
+        "counties" : [
+            "Hardeman County",
+            "Fayette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 325,
+        "population_2020" : 325,
+        "population_2027" : 352,
+        "land_area_2020" : 1.18
+    },
+    "Graysville, Rhea County, TN" : {
+        "name" : "Graysville",
+        "state" : "Tennessee",
+        "FIPS" : "47-30760",
+        "counties" : [
+            "Rhea County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1502,
+        "population_2020" : 1502,
+        "population_2027" : 1627,
+        "land_area_2020" : 1.17
+    },
+    "Greenback, Loudon County, TN" : {
+        "name" : "Greenback",
+        "state" : "Tennessee",
+        "FIPS" : "47-30880",
+        "counties" : [
+            "Loudon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1064,
+        "population_2020" : 1064,
+        "population_2027" : 1153,
+        "land_area_2020" : 8.09
+    },
+    "Greenbrier, Robertson County, TN" : {
+        "name" : "Greenbrier",
+        "state" : "Tennessee",
+        "FIPS" : "47-30960",
+        "counties" : [
+            "Robertson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6898,
+        "population_2020" : 6898,
+        "population_2027" : 7473,
+        "land_area_2020" : 7.0
+    },
+    "Greeneville, Greene County, TN" : {
+        "name" : "Greeneville",
+        "state" : "Tennessee",
+        "FIPS" : "47-30980",
+        "counties" : [
+            "Greene County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15479,
+        "population_2020" : 15479,
+        "population_2027" : 16769,
+        "land_area_2020" : 17.01
+    },
+    "Greenfield, Weakley County, TN" : {
+        "name" : "Greenfield",
+        "state" : "Tennessee",
+        "FIPS" : "47-31000",
+        "counties" : [
+            "Weakley County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2182,
+        "population_2020" : 2182,
+        "population_2027" : 2364,
+        "land_area_2020" : 3.7
+    },
+    "Gruetli-Laager, Grundy County, TN" : {
+        "name" : "Gruetli-Laager",
+        "state" : "Tennessee",
+        "FIPS" : "47-31490",
+        "counties" : [
+            "Grundy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1813,
+        "population_2020" : 1813,
+        "population_2027" : 1964,
+        "land_area_2020" : 12.56
+    },
+    "Guys, McNairy County, TN" : {
+        "name" : "Guys",
+        "state" : "Tennessee",
+        "FIPS" : "47-31680",
+        "counties" : [
+            "McNairy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 466,
+        "population_2020" : 466,
+        "population_2027" : 505,
+        "land_area_2020" : 11.72
+    },
+    "Halls, Lauderdale County, TN" : {
+        "name" : "Halls",
+        "state" : "Tennessee",
+        "FIPS" : "47-31820",
+        "counties" : [
+            "Lauderdale County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2255,
+        "population_2020" : 2255,
+        "population_2027" : 2443,
+        "land_area_2020" : 3.67
+    },
+    "Harriman, Roane County, TN" : {
+        "name" : "Harriman",
+        "state" : "Tennessee",
+        "FIPS" : "47-32520",
+        "counties" : [
+            "Roane County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5892,
+        "population_2020" : 5892,
+        "population_2027" : 6383,
+        "land_area_2020" : 10.57
+    },
+    "Harrogate, Claiborne County, TN" : {
+        "name" : "Harrogate",
+        "state" : "Tennessee",
+        "FIPS" : "47-32640",
+        "counties" : [
+            "Claiborne County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4389,
+        "population_2020" : 4389,
+        "population_2027" : 4755,
+        "land_area_2020" : 7.63
+    },
+    "Hartsville, Trousdale County, TN" : {
+        "name" : "Hartsville",
+        "state" : "Tennessee",
+        "FIPS" : "None",
+        "counties" : [
+            "Trousdale County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11615,
+        "population_2020" : 11615,
+        "population_2027" : 12583,
+        "land_area_2020" : 116.64
+    },
+    "Henderson, Chester County, TN" : {
+        "name" : "Henderson",
+        "state" : "Tennessee",
+        "FIPS" : "47-33260",
+        "counties" : [
+            "Chester County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6308,
+        "population_2020" : 6308,
+        "population_2027" : 6834,
+        "land_area_2020" : 7.86
+    },
+    "Hendersonville, Sumner County, TN" : {
+        "name" : "Hendersonville",
+        "state" : "Tennessee",
+        "FIPS" : "47-33280",
+        "counties" : [
+            "Sumner County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 61753,
+        "population_2020" : 61753,
+        "population_2027" : 66899,
+        "land_area_2020" : 36.93
+    },
+    "Henning, Lauderdale County, TN" : {
+        "name" : "Henning",
+        "state" : "Tennessee",
+        "FIPS" : "47-33360",
+        "counties" : [
+            "Lauderdale County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 945,
+        "population_2020" : 945,
+        "population_2027" : 1024,
+        "land_area_2020" : 2.39
+    },
+    "Henry, Henry County, TN" : {
+        "name" : "Henry",
+        "state" : "Tennessee",
+        "FIPS" : "47-33400",
+        "counties" : [
+            "Henry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 464,
+        "population_2020" : 464,
+        "population_2027" : 503,
+        "land_area_2020" : 1.45
+    },
+    "Hickory Valley, Hardeman County, TN" : {
+        "name" : "Hickory Valley",
+        "state" : "Tennessee",
+        "FIPS" : "47-33920",
+        "counties" : [
+            "Hardeman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 99,
+        "population_2020" : 99,
+        "population_2027" : 107,
+        "land_area_2020" : 0.33
+    },
+    "Hohenwald, Lewis County, TN" : {
+        "name" : "Hohenwald",
+        "state" : "Tennessee",
+        "FIPS" : "47-35160",
+        "counties" : [
+            "Lewis County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3757,
+        "population_2020" : 3757,
+        "population_2027" : 4070,
+        "land_area_2020" : 5.35
+    },
+    "Hollow Rock, Carroll County, TN" : {
+        "name" : "Hollow Rock",
+        "state" : "Tennessee",
+        "FIPS" : "47-35280",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 718,
+        "population_2020" : 718,
+        "population_2027" : 778,
+        "land_area_2020" : 1.79
+    },
+    "Hornbeak, Obion County, TN" : {
+        "name" : "Hornbeak",
+        "state" : "Tennessee",
+        "FIPS" : "47-36000",
+        "counties" : [
+            "Obion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 424,
+        "population_2020" : 424,
+        "population_2027" : 459,
+        "land_area_2020" : 0.7
+    },
+    "Hornsby, Hardeman County, TN" : {
+        "name" : "Hornsby",
+        "state" : "Tennessee",
+        "FIPS" : "47-36080",
+        "counties" : [
+            "Hardeman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 303,
+        "population_2020" : 303,
+        "population_2027" : 328,
+        "land_area_2020" : 1.18
+    },
+    "Humboldt, Gibson County, TN" : {
+        "name" : "Humboldt",
+        "state" : "Tennessee",
+        "FIPS" : "47-36460",
+        "counties" : [
+            "Gibson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7874,
+        "population_2020" : 7874,
+        "population_2027" : 8530,
+        "land_area_2020" : 9.71
+    },
+    "Huntingdon, Carroll County, TN" : {
+        "name" : "Huntingdon",
+        "state" : "Tennessee",
+        "FIPS" : "47-36580",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3985,
+        "population_2020" : 3985,
+        "population_2027" : 4317,
+        "land_area_2020" : 11.94
+    },
+    "Huntland, Franklin County, TN" : {
+        "name" : "Huntland",
+        "state" : "Tennessee",
+        "FIPS" : "47-36600",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 872,
+        "population_2020" : 872,
+        "population_2027" : 945,
+        "land_area_2020" : 1.45
+    },
+    "Huntsville, Scott County, TN" : {
+        "name" : "Huntsville",
+        "state" : "Tennessee",
+        "FIPS" : "47-36640",
+        "counties" : [
+            "Scott County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1248,
+        "population_2020" : 1248,
+        "population_2027" : 1352,
+        "land_area_2020" : 3.93
+    },
+    "Jacksboro, Campbell County, TN" : {
+        "name" : "Jacksboro",
+        "state" : "Tennessee",
+        "FIPS" : "47-37600",
+        "counties" : [
+            "Campbell County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2020,
+        "population_2020" : 2020,
+        "population_2027" : 2188,
+        "land_area_2020" : 2.54
+    },
+    "Jackson, Madison County, TN" : {
+        "name" : "Jackson",
+        "state" : "Tennessee",
+        "FIPS" : "47-37640",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 68205,
+        "population_2020" : 68205,
+        "population_2027" : 73889,
+        "land_area_2020" : 53.73
+    },
+    "Jamestown, Fentress County, TN" : {
+        "name" : "Jamestown",
+        "state" : "Tennessee",
+        "FIPS" : "47-37780",
+        "counties" : [
+            "Fentress County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1959,
+        "population_2020" : 1959,
+        "population_2027" : 2122,
+        "land_area_2020" : 2.9
+    },
+    "Jasper, Marion County, TN" : {
+        "name" : "Jasper",
+        "state" : "Tennessee",
+        "FIPS" : "47-37820",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3279,
+        "population_2020" : 3279,
+        "population_2027" : 3552,
+        "land_area_2020" : 9.47
+    },
+    "Jefferson City, Jefferson County, TN" : {
+        "name" : "Jefferson City",
+        "state" : "Tennessee",
+        "FIPS" : "47-37960",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8419,
+        "population_2020" : 8419,
+        "population_2027" : 9121,
+        "land_area_2020" : 6.43
+    },
+    "Jellico, Campbell County, TN" : {
+        "name" : "Jellico",
+        "state" : "Tennessee",
+        "FIPS" : "47-38020",
+        "counties" : [
+            "Campbell County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2355,
+        "population_2020" : 2355,
+        "population_2027" : 2551,
+        "land_area_2020" : 6.38
+    },
+    "Johnson City, Washington County, TN" : {
+        "name" : "Johnson City",
+        "state" : "Tennessee",
+        "FIPS" : "47-38320",
+        "counties" : [
+            "Washington County",
+            "Carter County",
+            "Sullivan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 71046,
+        "population_2020" : 71046,
+        "population_2027" : 76966,
+        "land_area_2020" : 43.27
+    },
+    "Jonesborough, Washington County, TN" : {
+        "name" : "Jonesborough",
+        "state" : "Tennessee",
+        "FIPS" : "47-38540",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5860,
+        "population_2020" : 5860,
+        "population_2027" : 6348,
+        "land_area_2020" : 5.14
+    },
+    "Kenton, Gibson County, TN" : {
+        "name" : "Kenton",
+        "state" : "Tennessee",
+        "FIPS" : "47-39140",
+        "counties" : [
+            "Gibson County",
+            "Obion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1281,
+        "population_2020" : 1281,
+        "population_2027" : 1388,
+        "land_area_2020" : 2.01
+    },
+    "Kimball, Marion County, TN" : {
+        "name" : "Kimball",
+        "state" : "Tennessee",
+        "FIPS" : "47-39400",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1395,
+        "population_2020" : 1395,
+        "population_2027" : 1511,
+        "land_area_2020" : 4.87
+    },
+    "Kingsport, Sullivan County, TN" : {
+        "name" : "Kingsport",
+        "state" : "Tennessee",
+        "FIPS" : "47-39560",
+        "counties" : [
+            "Sullivan County",
+            "Hawkins County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 55442,
+        "population_2020" : 55442,
+        "population_2027" : 60062,
+        "land_area_2020" : 50.75
+    },
+    "Kingston, Roane County, TN" : {
+        "name" : "Kingston",
+        "state" : "Tennessee",
+        "FIPS" : "47-39620",
+        "counties" : [
+            "Roane County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5953,
+        "population_2020" : 5953,
+        "population_2027" : 6449,
+        "land_area_2020" : 7.85
+    },
+    "Kingston Springs, Cheatham County, TN" : {
+        "name" : "Kingston Springs",
+        "state" : "Tennessee",
+        "FIPS" : "47-39660",
+        "counties" : [
+            "Cheatham County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2756,
+        "population_2020" : 2756,
+        "population_2027" : 2986,
+        "land_area_2020" : 9.92
+    },
+    "Knoxville, Knox County, TN" : {
+        "name" : "Knoxville",
+        "state" : "Tennessee",
+        "FIPS" : "47-40000",
+        "counties" : [
+            "Knox County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 190740,
+        "population_2020" : 190740,
+        "population_2027" : 206635,
+        "land_area_2020" : 104.17
+    },
+    "Lafayette, Macon County, TN" : {
+        "name" : "Lafayette",
+        "state" : "Tennessee",
+        "FIPS" : "47-40160",
+        "counties" : [
+            "Macon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5584,
+        "population_2020" : 5584,
+        "population_2027" : 6049,
+        "land_area_2020" : 4.76
+    },
+    "LaFollette, Campbell County, TN" : {
+        "name" : "LaFollette",
+        "state" : "Tennessee",
+        "FIPS" : "None",
+        "counties" : [
+            "Campbell County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7430,
+        "population_2020" : 7430,
+        "population_2027" : 8049,
+        "land_area_2020" : 4.91
+    },
+    "La Grange, Fayette County, TN" : {
+        "name" : "La Grange",
+        "state" : "Tennessee",
+        "FIPS" : "47-40200",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 133,
+        "population_2020" : 133,
+        "population_2027" : 144,
+        "land_area_2020" : 1.81
+    },
+    "Lakeland, Shelby County, TN" : {
+        "name" : "Lakeland",
+        "state" : "Tennessee",
+        "FIPS" : "47-40350",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13904,
+        "population_2020" : 13904,
+        "population_2027" : 15063,
+        "land_area_2020" : 23.89
+    },
+    "Lakesite, Hamilton County, TN" : {
+        "name" : "Lakesite",
+        "state" : "Tennessee",
+        "FIPS" : "47-40540",
+        "counties" : [
+            "Hamilton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1826,
+        "population_2020" : 1826,
+        "population_2027" : 1978,
+        "land_area_2020" : 1.68
+    },
+    "La Vergne, Rutherford County, TN" : {
+        "name" : "La Vergne",
+        "state" : "Tennessee",
+        "FIPS" : "47-41200",
+        "counties" : [
+            "Rutherford County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 38719,
+        "population_2020" : 38719,
+        "population_2027" : 41945,
+        "land_area_2020" : 25.22
+    },
+    "Lawrenceburg, Lawrence County, TN" : {
+        "name" : "Lawrenceburg",
+        "state" : "Tennessee",
+        "FIPS" : "47-41340",
+        "counties" : [
+            "Lawrence County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11633,
+        "population_2020" : 11633,
+        "population_2027" : 12602,
+        "land_area_2020" : 12.67
+    },
+    "Lebanon, Wilson County, TN" : {
+        "name" : "Lebanon",
+        "state" : "Tennessee",
+        "FIPS" : "47-41520",
+        "counties" : [
+            "Wilson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 38431,
+        "population_2020" : 38431,
+        "population_2027" : 41633,
+        "land_area_2020" : 38.64
+    },
+    "Lenoir City, Loudon County, TN" : {
+        "name" : "Lenoir City",
+        "state" : "Tennessee",
+        "FIPS" : "47-41760",
+        "counties" : [
+            "Loudon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10117,
+        "population_2020" : 10117,
+        "population_2027" : 10960,
+        "land_area_2020" : 8.51
+    },
+    "Lewisburg, Marshall County, TN" : {
+        "name" : "Lewisburg",
+        "state" : "Tennessee",
+        "FIPS" : "47-41860",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12288,
+        "population_2020" : 12288,
+        "population_2027" : 13312,
+        "land_area_2020" : 13.36
+    },
+    "Lexington, Henderson County, TN" : {
+        "name" : "Lexington",
+        "state" : "Tennessee",
+        "FIPS" : "47-41980",
+        "counties" : [
+            "Henderson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7956,
+        "population_2020" : 7956,
+        "population_2027" : 8619,
+        "land_area_2020" : 12.42
+    },
+    "Liberty, DeKalb County, TN" : {
+        "name" : "Liberty",
+        "state" : "Tennessee",
+        "FIPS" : "47-42040",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 310,
+        "population_2020" : 310,
+        "population_2027" : 336,
+        "land_area_2020" : 1.12
+    },
+    "Linden, Perry County, TN" : {
+        "name" : "Linden",
+        "state" : "Tennessee",
+        "FIPS" : "47-42720",
+        "counties" : [
+            "Perry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 908,
+        "population_2020" : 908,
+        "population_2027" : 984,
+        "land_area_2020" : 1.01
+    },
+    "Livingston, Overton County, TN" : {
+        "name" : "Livingston",
+        "state" : "Tennessee",
+        "FIPS" : "47-43140",
+        "counties" : [
+            "Overton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4058,
+        "population_2020" : 4058,
+        "population_2027" : 4396,
+        "land_area_2020" : 6.47
+    },
+    "Lobelville, Perry County, TN" : {
+        "name" : "Lobelville",
+        "state" : "Tennessee",
+        "FIPS" : "47-43160",
+        "counties" : [
+            "Perry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 897,
+        "population_2020" : 897,
+        "population_2027" : 972,
+        "land_area_2020" : 3.92
+    },
+    "Lookout Mountain, Hamilton County, TN" : {
+        "name" : "Lookout Mountain",
+        "state" : "Tennessee",
+        "FIPS" : "47-43640",
+        "counties" : [
+            "Hamilton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1832,
+        "population_2020" : 1832,
+        "population_2027" : 1985,
+        "land_area_2020" : 1.26
+    },
+    "Loretto, Lawrence County, TN" : {
+        "name" : "Loretto",
+        "state" : "Tennessee",
+        "FIPS" : "47-43700",
+        "counties" : [
+            "Lawrence County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1714,
+        "population_2020" : 1714,
+        "population_2027" : 1857,
+        "land_area_2020" : 3.94
+    },
+    "Loudon, Loudon County, TN" : {
+        "name" : "Loudon",
+        "state" : "Tennessee",
+        "FIPS" : "47-43780",
+        "counties" : [
+            "Loudon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5991,
+        "population_2020" : 5991,
+        "population_2027" : 6490,
+        "land_area_2020" : 14.23
+    },
+    "Louisville, Blount County, TN" : {
+        "name" : "Louisville",
+        "state" : "Tennessee",
+        "FIPS" : "47-43820",
+        "counties" : [
+            "Blount County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2439,
+        "population_2020" : 2439,
+        "population_2027" : 2642,
+        "land_area_2020" : 13.51
+    },
+    "Luttrell, Union County, TN" : {
+        "name" : "Luttrell",
+        "state" : "Tennessee",
+        "FIPS" : "47-44300",
+        "counties" : [
+            "Union County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1074,
+        "population_2020" : 1074,
+        "population_2027" : 1163,
+        "land_area_2020" : 3.92
+    },
+    "Lynchburg, Moore County, TN" : {
+        "name" : "Lynchburg",
+        "state" : "Tennessee",
+        "FIPS" : "None",
+        "counties" : [
+            "Moore County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6461,
+        "population_2020" : 6461,
+        "population_2027" : 6999,
+        "land_area_2020" : 130.42
+    },
+    "Lynnville, Giles County, TN" : {
+        "name" : "Lynnville",
+        "state" : "Tennessee",
+        "FIPS" : "47-44420",
+        "counties" : [
+            "Giles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 287,
+        "population_2020" : 287,
+        "population_2027" : 311,
+        "land_area_2020" : 0.33
+    },
+    "Madisonville, Monroe County, TN" : {
+        "name" : "Madisonville",
+        "state" : "Tennessee",
+        "FIPS" : "47-45320",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5132,
+        "population_2020" : 5132,
+        "population_2027" : 5560,
+        "land_area_2020" : 6.21
+    },
+    "Manchester, Coffee County, TN" : {
+        "name" : "Manchester",
+        "state" : "Tennessee",
+        "FIPS" : "47-45500",
+        "counties" : [
+            "Coffee County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12212,
+        "population_2020" : 12212,
+        "population_2027" : 13230,
+        "land_area_2020" : 14.18
+    },
+    "Martin, Weakley County, TN" : {
+        "name" : "Martin",
+        "state" : "Tennessee",
+        "FIPS" : "47-46240",
+        "counties" : [
+            "Weakley County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10825,
+        "population_2020" : 10825,
+        "population_2027" : 11727,
+        "land_area_2020" : 12.71
+    },
+    "Maryville, Blount County, TN" : {
+        "name" : "Maryville",
+        "state" : "Tennessee",
+        "FIPS" : "47-46380",
+        "counties" : [
+            "Blount County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 31907,
+        "population_2020" : 31907,
+        "population_2027" : 34566,
+        "land_area_2020" : 16.8
+    },
+    "Mason, Tipton County, TN" : {
+        "name" : "Mason",
+        "state" : "Tennessee",
+        "FIPS" : "47-46420",
+        "counties" : [
+            "Tipton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1609,
+        "population_2020" : 1609,
+        "population_2027" : 1743,
+        "land_area_2020" : 2.09
+    },
+    "Maury City, Crockett County, TN" : {
+        "name" : "Maury City",
+        "state" : "Tennessee",
+        "FIPS" : "47-46540",
+        "counties" : [
+            "Crockett County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 674,
+        "population_2020" : 674,
+        "population_2027" : 730,
+        "land_area_2020" : 1.13
+    },
+    "Maynardville, Union County, TN" : {
+        "name" : "Maynardville",
+        "state" : "Tennessee",
+        "FIPS" : "47-46700",
+        "counties" : [
+            "Union County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2413,
+        "population_2020" : 2413,
+        "population_2027" : 2614,
+        "land_area_2020" : 5.46
+    },
+    "McEwen, Humphreys County, TN" : {
+        "name" : "McEwen",
+        "state" : "Tennessee",
+        "FIPS" : "47-44840",
+        "counties" : [
+            "Humphreys County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1750,
+        "population_2020" : 1750,
+        "population_2027" : 1896,
+        "land_area_2020" : 1.87
+    },
+    "McKenzie, Carroll County, TN" : {
+        "name" : "McKenzie",
+        "state" : "Tennessee",
+        "FIPS" : "47-44940",
+        "counties" : [
+            "Carroll County",
+            "Henry County",
+            "Weakley County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5529,
+        "population_2020" : 5529,
+        "population_2027" : 5990,
+        "land_area_2020" : 6.26
+    },
+    "McLemoresville, Carroll County, TN" : {
+        "name" : "McLemoresville",
+        "state" : "Tennessee",
+        "FIPS" : "47-45000",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 352,
+        "population_2020" : 352,
+        "population_2027" : 381,
+        "land_area_2020" : 2.58
+    },
+    "McMinnville, Warren County, TN" : {
+        "name" : "McMinnville",
+        "state" : "Tennessee",
+        "FIPS" : "47-45100",
+        "counties" : [
+            "Warren County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13788,
+        "population_2020" : 13788,
+        "population_2027" : 14937,
+        "land_area_2020" : 11.07
+    },
+    "Medina, Gibson County, TN" : {
+        "name" : "Medina",
+        "state" : "Tennessee",
+        "FIPS" : "47-47000",
+        "counties" : [
+            "Gibson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5126,
+        "population_2020" : 5126,
+        "population_2027" : 5553,
+        "land_area_2020" : 3.17
+    },
+    "Medon, Madison County, TN" : {
+        "name" : "Medon",
+        "state" : "Tennessee",
+        "FIPS" : "47-47020",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 178,
+        "population_2020" : 178,
+        "population_2027" : 193,
+        "land_area_2020" : 0.98
+    },
+    "Memphis, Shelby County, TN" : {
+        "name" : "Memphis",
+        "state" : "Tennessee",
+        "FIPS" : "47-48000",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 633104,
+        "population_2020" : 633104,
+        "population_2027" : 685861,
+        "land_area_2020" : 324.0
+    },
+    "Michie, McNairy County, TN" : {
+        "name" : "Michie",
+        "state" : "Tennessee",
+        "FIPS" : "47-48180",
+        "counties" : [
+            "McNairy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 591,
+        "population_2020" : 591,
+        "population_2027" : 640,
+        "land_area_2020" : 5.62
+    },
+    "Middleton, Hardeman County, TN" : {
+        "name" : "Middleton",
+        "state" : "Tennessee",
+        "FIPS" : "47-48340",
+        "counties" : [
+            "Hardeman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 706,
+        "population_2020" : 706,
+        "population_2027" : 765,
+        "land_area_2020" : 1.92
+    },
+    "Milan, Gibson County, TN" : {
+        "name" : "Milan",
+        "state" : "Tennessee",
+        "FIPS" : "47-48660",
+        "counties" : [
+            "Gibson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8171,
+        "population_2020" : 8171,
+        "population_2027" : 8852,
+        "land_area_2020" : 8.91
+    },
+    "Milledgeville, McNairy County, TN" : {
+        "name" : "Milledgeville",
+        "state" : "Tennessee",
+        "FIPS" : "47-48920",
+        "counties" : [
+            "McNairy County",
+            "Chester County",
+            "Hardin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 265,
+        "population_2020" : 265,
+        "population_2027" : 287,
+        "land_area_2020" : 1.61
+    },
+    "Millersville, Sumner County, TN" : {
+        "name" : "Millersville",
+        "state" : "Tennessee",
+        "FIPS" : "47-48980",
+        "counties" : [
+            "Sumner County",
+            "Robertson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6299,
+        "population_2020" : 6299,
+        "population_2027" : 6824,
+        "land_area_2020" : 13.71
+    },
+    "Millington, Shelby County, TN" : {
+        "name" : "Millington",
+        "state" : "Tennessee",
+        "FIPS" : "47-49060",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10582,
+        "population_2020" : 10582,
+        "population_2027" : 11464,
+        "land_area_2020" : 31.75
+    },
+    "Minor Hill, Giles County, TN" : {
+        "name" : "Minor Hill",
+        "state" : "Tennessee",
+        "FIPS" : "47-49360",
+        "counties" : [
+            "Giles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 537,
+        "population_2020" : 537,
+        "population_2027" : 582,
+        "land_area_2020" : 1.72
+    },
+    "Mitchellville, Sumner County, TN" : {
+        "name" : "Mitchellville",
+        "state" : "Tennessee",
+        "FIPS" : "47-49460",
+        "counties" : [
+            "Sumner County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 189,
+        "population_2020" : 189,
+        "population_2027" : 205,
+        "land_area_2020" : 0.52
+    },
+    "Monteagle, Grundy County, TN" : {
+        "name" : "Monteagle",
+        "state" : "Tennessee",
+        "FIPS" : "47-49740",
+        "counties" : [
+            "Grundy County",
+            "Marion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1192,
+        "population_2020" : 1192,
+        "population_2027" : 1291,
+        "land_area_2020" : 8.59
+    },
+    "Monterey, Putnam County, TN" : {
+        "name" : "Monterey",
+        "state" : "Tennessee",
+        "FIPS" : "47-49760",
+        "counties" : [
+            "Putnam County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2850,
+        "population_2020" : 2850,
+        "population_2027" : 3087,
+        "land_area_2020" : 3.06
+    },
+    "Morrison, Warren County, TN" : {
+        "name" : "Morrison",
+        "state" : "Tennessee",
+        "FIPS" : "47-50220",
+        "counties" : [
+            "Warren County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 694,
+        "population_2020" : 694,
+        "population_2027" : 752,
+        "land_area_2020" : 2.73
+    },
+    "Morristown, Hamblen County, TN" : {
+        "name" : "Morristown",
+        "state" : "Tennessee",
+        "FIPS" : "47-50280",
+        "counties" : [
+            "Hamblen County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 30431,
+        "population_2020" : 30431,
+        "population_2027" : 32967,
+        "land_area_2020" : 27.95
+    },
+    "Moscow, Fayette County, TN" : {
+        "name" : "Moscow",
+        "state" : "Tennessee",
+        "FIPS" : "47-50300",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 556,
+        "population_2020" : 556,
+        "population_2027" : 602,
+        "land_area_2020" : 1.25
+    },
+    "Mosheim, Greene County, TN" : {
+        "name" : "Mosheim",
+        "state" : "Tennessee",
+        "FIPS" : "47-50320",
+        "counties" : [
+            "Greene County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2362,
+        "population_2020" : 2362,
+        "population_2027" : 2559,
+        "land_area_2020" : 6.13
+    },
+    "Mount Carmel, Hawkins County, TN" : {
+        "name" : "Mount Carmel",
+        "state" : "Tennessee",
+        "FIPS" : "47-50580",
+        "counties" : [
+            "Hawkins County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5473,
+        "population_2020" : 5473,
+        "population_2027" : 5929,
+        "land_area_2020" : 6.94
+    },
+    "Mount Juliet, Wilson County, TN" : {
+        "name" : "Mount Juliet",
+        "state" : "Tennessee",
+        "FIPS" : "47-50780",
+        "counties" : [
+            "Wilson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 39289,
+        "population_2020" : 39289,
+        "population_2027" : 42563,
+        "land_area_2020" : 19.79
+    },
+    "Mount Pleasant, Maury County, TN" : {
+        "name" : "Mount Pleasant",
+        "state" : "Tennessee",
+        "FIPS" : "47-51080",
+        "counties" : [
+            "Maury County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4561,
+        "population_2020" : 4561,
+        "population_2027" : 4941,
+        "land_area_2020" : 12.32
+    },
+    "Mountain City, Johnson County, TN" : {
+        "name" : "Mountain City",
+        "state" : "Tennessee",
+        "FIPS" : "47-50400",
+        "counties" : [
+            "Johnson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2531,
+        "population_2020" : 2531,
+        "population_2027" : 2742,
+        "land_area_2020" : 3.31
+    },
+    "Munford, Tipton County, TN" : {
+        "name" : "Munford",
+        "state" : "Tennessee",
+        "FIPS" : "47-51540",
+        "counties" : [
+            "Tipton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6302,
+        "population_2020" : 6302,
+        "population_2027" : 6827,
+        "land_area_2020" : 8.56
+    },
+    "Murfreesboro, Rutherford County, TN" : {
+        "name" : "Murfreesboro",
+        "state" : "Tennessee",
+        "FIPS" : "47-51560",
+        "counties" : [
+            "Rutherford County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 152769,
+        "population_2020" : 152769,
+        "population_2027" : 165499,
+        "land_area_2020" : 55.49
+    },
+    "Nashville, Davidson County, TN" : {
+        "name" : "Nashville",
+        "state" : "Tennessee",
+        "FIPS" : "47-52006",
+        "counties" : [
+            "Davidson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 689447,
+        "population_2020" : 689447,
+        "population_2027" : 746899,
+        "land_area_2020" : 525.94
+    },
+    "New Hope, Marion County, TN" : {
+        "name" : "New Hope",
+        "state" : "Tennessee",
+        "FIPS" : "47-52780",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1082,
+        "population_2020" : 1082,
+        "population_2027" : 1172,
+        "land_area_2020" : 10.4
+    },
+    "New Johnsonville, Humphreys County, TN" : {
+        "name" : "New Johnsonville",
+        "state" : "Tennessee",
+        "FIPS" : "47-52820",
+        "counties" : [
+            "Humphreys County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1951,
+        "population_2020" : 1951,
+        "population_2027" : 2114,
+        "land_area_2020" : 7.08
+    },
+    "New Market, Jefferson County, TN" : {
+        "name" : "New Market",
+        "state" : "Tennessee",
+        "FIPS" : "47-52940",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1334,
+        "population_2020" : 1334,
+        "population_2027" : 1445,
+        "land_area_2020" : 4.12
+    },
+    "New Tazewell, Claiborne County, TN" : {
+        "name" : "New Tazewell",
+        "state" : "Tennessee",
+        "FIPS" : "47-53140",
+        "counties" : [
+            "Claiborne County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3037,
+        "population_2020" : 3037,
+        "population_2027" : 3290,
+        "land_area_2020" : 5.13
+    },
+    "Newbern, Dyer County, TN" : {
+        "name" : "Newbern",
+        "state" : "Tennessee",
+        "FIPS" : "47-52400",
+        "counties" : [
+            "Dyer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3313,
+        "population_2020" : 3313,
+        "population_2027" : 3589,
+        "land_area_2020" : 4.88
+    },
+    "Newport, Cocke County, TN" : {
+        "name" : "Newport",
+        "state" : "Tennessee",
+        "FIPS" : "47-53000",
+        "counties" : [
+            "Cocke County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6868,
+        "population_2020" : 6868,
+        "population_2027" : 7440,
+        "land_area_2020" : 5.53
+    },
+    "Niota, McMinn County, TN" : {
+        "name" : "Niota",
+        "state" : "Tennessee",
+        "FIPS" : "47-53380",
+        "counties" : [
+            "McMinn County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 719,
+        "population_2020" : 719,
+        "population_2027" : 779,
+        "land_area_2020" : 2.19
+    },
+    "Nolensville, Williamson County, TN" : {
+        "name" : "Nolensville",
+        "state" : "Tennessee",
+        "FIPS" : "47-53460",
+        "counties" : [
+            "Williamson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13829,
+        "population_2020" : 13829,
+        "population_2027" : 14981,
+        "land_area_2020" : 7.44
+    },
+    "Normandy, Bedford County, TN" : {
+        "name" : "Normandy",
+        "state" : "Tennessee",
+        "FIPS" : "47-53580",
+        "counties" : [
+            "Bedford County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 141,
+        "population_2020" : 141,
+        "population_2027" : 153,
+        "land_area_2020" : 0.23
+    },
+    "Norris, Anderson County, TN" : {
+        "name" : "Norris",
+        "state" : "Tennessee",
+        "FIPS" : "47-53600",
+        "counties" : [
+            "Anderson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1491,
+        "population_2020" : 1491,
+        "population_2027" : 1615,
+        "land_area_2020" : 7.19
+    },
+    "Oak Hill, Davidson County, TN" : {
+        "name" : "Oak Hill",
+        "state" : "Tennessee",
+        "FIPS" : "47-54780",
+        "counties" : [
+            "Davidson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4529,
+        "population_2020" : 4529,
+        "population_2027" : 4906,
+        "land_area_2020" : 7.96
+    },
+    "Oak Ridge, Anderson County, TN" : {
+        "name" : "Oak Ridge",
+        "state" : "Tennessee",
+        "FIPS" : "47-55120",
+        "counties" : [
+            "Anderson County",
+            "Roane County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 31402,
+        "population_2020" : 31402,
+        "population_2027" : 34019,
+        "land_area_2020" : 89.98
+    },
+    "Oakdale, Morgan County, TN" : {
+        "name" : "Oakdale",
+        "state" : "Tennessee",
+        "FIPS" : "47-54280",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 212,
+        "population_2020" : 212,
+        "population_2027" : 230,
+        "land_area_2020" : 0.85
+    },
+    "Oakland, Fayette County, TN" : {
+        "name" : "Oakland",
+        "state" : "Tennessee",
+        "FIPS" : "47-54920",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8936,
+        "population_2020" : 8936,
+        "population_2027" : 9681,
+        "land_area_2020" : 10.29
+    },
+    "Obion, Obion County, TN" : {
+        "name" : "Obion",
+        "state" : "Tennessee",
+        "FIPS" : "47-55240",
+        "counties" : [
+            "Obion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1119,
+        "population_2020" : 1119,
+        "population_2027" : 1212,
+        "land_area_2020" : 1.51
+    },
+    "Oliver Springs, Anderson County, TN" : {
+        "name" : "Oliver Springs",
+        "state" : "Tennessee",
+        "FIPS" : "47-55800",
+        "counties" : [
+            "Anderson County",
+            "Morgan County",
+            "Roane County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3231,
+        "population_2020" : 3231,
+        "population_2027" : 3500,
+        "land_area_2020" : 5.56
+    },
+    "Oneida, Scott County, TN" : {
+        "name" : "Oneida",
+        "state" : "Tennessee",
+        "FIPS" : "47-55860",
+        "counties" : [
+            "Scott County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3752,
+        "population_2020" : 3752,
+        "population_2027" : 4065,
+        "land_area_2020" : 9.49
+    },
+    "Orlinda, Robertson County, TN" : {
+        "name" : "Orlinda",
+        "state" : "Tennessee",
+        "FIPS" : "47-56020",
+        "counties" : [
+            "Robertson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 859,
+        "population_2020" : 859,
+        "population_2027" : 931,
+        "land_area_2020" : 6.7
+    },
+    "Orme, Marion County, TN" : {
+        "name" : "Orme",
+        "state" : "Tennessee",
+        "FIPS" : "47-56040",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 126,
+        "population_2020" : 126,
+        "population_2027" : 136,
+        "land_area_2020" : 4.14
+    },
+    "Palmer, Grundy County, TN" : {
+        "name" : "Palmer",
+        "state" : "Tennessee",
+        "FIPS" : "47-56560",
+        "counties" : [
+            "Grundy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 672,
+        "population_2020" : 672,
+        "population_2027" : 728,
+        "land_area_2020" : 4.94
+    },
+    "Paris, Henry County, TN" : {
+        "name" : "Paris",
+        "state" : "Tennessee",
+        "FIPS" : "47-56720",
+        "counties" : [
+            "Henry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10316,
+        "population_2020" : 10316,
+        "population_2027" : 11176,
+        "land_area_2020" : 13.03
+    },
+    "Parkers Crossroads, Henderson County, TN" : {
+        "name" : "Parkers Crossroads",
+        "state" : "Tennessee",
+        "FIPS" : "None",
+        "counties" : [
+            "Henderson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 330,
+        "population_2020" : 330,
+        "population_2027" : 357,
+        "land_area_2020" : 3.73
+    },
+    "Parrottsville, Cocke County, TN" : {
+        "name" : "Parrottsville",
+        "state" : "Tennessee",
+        "FIPS" : "47-57040",
+        "counties" : [
+            "Cocke County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 263,
+        "population_2020" : 263,
+        "population_2027" : 285,
+        "land_area_2020" : 0.74
+    },
+    "Parsons, Decatur County, TN" : {
+        "name" : "Parsons",
+        "state" : "Tennessee",
+        "FIPS" : "47-57080",
+        "counties" : [
+            "Decatur County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2373,
+        "population_2020" : 2373,
+        "population_2027" : 2571,
+        "land_area_2020" : 4.14
+    },
+    "Pegram, Cheatham County, TN" : {
+        "name" : "Pegram",
+        "state" : "Tennessee",
+        "FIPS" : "47-57480",
+        "counties" : [
+            "Cheatham County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2093,
+        "population_2020" : 2093,
+        "population_2027" : 2267,
+        "land_area_2020" : 7.72
+    },
+    "Petersburg, Lincoln County, TN" : {
+        "name" : "Petersburg",
+        "state" : "Tennessee",
+        "FIPS" : "47-57740",
+        "counties" : [
+            "Lincoln County",
+            "Marshall County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 544,
+        "population_2020" : 544,
+        "population_2027" : 589,
+        "land_area_2020" : 0.94
+    },
+    "Philadelphia, Loudon County, TN" : {
+        "name" : "Philadelphia",
+        "state" : "Tennessee",
+        "FIPS" : "47-57900",
+        "counties" : [
+            "Loudon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 656,
+        "population_2020" : 656,
+        "population_2027" : 711,
+        "land_area_2020" : 1.6
+    },
+    "Pigeon Forge, Sevier County, TN" : {
+        "name" : "Pigeon Forge",
+        "state" : "Tennessee",
+        "FIPS" : "47-58080",
+        "counties" : [
+            "Sevier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6343,
+        "population_2020" : 6343,
+        "population_2027" : 6872,
+        "land_area_2020" : 13.21
+    },
+    "Pikeville, Bledsoe County, TN" : {
+        "name" : "Pikeville",
+        "state" : "Tennessee",
+        "FIPS" : "47-58120",
+        "counties" : [
+            "Bledsoe County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1608,
+        "population_2020" : 1608,
+        "population_2027" : 1742,
+        "land_area_2020" : 2.44
+    },
+    "Piperton, Fayette County, TN" : {
+        "name" : "Piperton",
+        "state" : "Tennessee",
+        "FIPS" : "47-58840",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1445,
+        "population_2020" : 1445,
+        "population_2027" : 1565,
+        "land_area_2020" : 27.3
+    },
+    "Pittman Center, Sevier County, TN" : {
+        "name" : "Pittman Center",
+        "state" : "Tennessee",
+        "FIPS" : "47-58940",
+        "counties" : [
+            "Sevier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 502,
+        "population_2020" : 502,
+        "population_2027" : 544,
+        "land_area_2020" : 6.07
+    },
+    "Plainview, Union County, TN" : {
+        "name" : "Plainview",
+        "state" : "Tennessee",
+        "FIPS" : "47-59020",
+        "counties" : [
+            "Union County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2125,
+        "population_2020" : 2125,
+        "population_2027" : 2302,
+        "land_area_2020" : 6.5
+    },
+    "Pleasant Hill, Cumberland County, TN" : {
+        "name" : "Pleasant Hill",
+        "state" : "Tennessee",
+        "FIPS" : "47-59240",
+        "counties" : [
+            "Cumberland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 563,
+        "population_2020" : 563,
+        "population_2027" : 610,
+        "land_area_2020" : 1.56
+    },
+    "Pleasant View, Cheatham County, TN" : {
+        "name" : "Pleasant View",
+        "state" : "Tennessee",
+        "FIPS" : "47-59560",
+        "counties" : [
+            "Cheatham County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4149,
+        "population_2020" : 4149,
+        "population_2027" : 4495,
+        "land_area_2020" : 12.52
+    },
+    "Portland, Sumner County, TN" : {
+        "name" : "Portland",
+        "state" : "Tennessee",
+        "FIPS" : "47-60280",
+        "counties" : [
+            "Sumner County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13156,
+        "population_2020" : 13156,
+        "population_2027" : 14252,
+        "land_area_2020" : 14.28
+    },
+    "Powells Crossroads, Marion County, TN" : {
+        "name" : "Powells Crossroads",
+        "state" : "Tennessee",
+        "FIPS" : "47-60500",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1322,
+        "population_2020" : 1322,
+        "population_2027" : 1432,
+        "land_area_2020" : 5.04
+    },
+    "Pulaski, Giles County, TN" : {
+        "name" : "Pulaski",
+        "state" : "Tennessee",
+        "FIPS" : "47-61040",
+        "counties" : [
+            "Giles County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8397,
+        "population_2020" : 8397,
+        "population_2027" : 9097,
+        "land_area_2020" : 7.22
+    },
+    "Puryear, Henry County, TN" : {
+        "name" : "Puryear",
+        "state" : "Tennessee",
+        "FIPS" : "47-61160",
+        "counties" : [
+            "Henry County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 671,
+        "population_2020" : 671,
+        "population_2027" : 727,
+        "land_area_2020" : 0.92
+    },
+    "Ramer, McNairy County, TN" : {
+        "name" : "Ramer",
+        "state" : "Tennessee",
+        "FIPS" : "47-61520",
+        "counties" : [
+            "McNairy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 319,
+        "population_2020" : 319,
+        "population_2027" : 346,
+        "land_area_2020" : 1.71
+    },
+    "Red Bank, Hamilton County, TN" : {
+        "name" : "Red Bank",
+        "state" : "Tennessee",
+        "FIPS" : "47-61960",
+        "counties" : [
+            "Hamilton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11899,
+        "population_2020" : 11899,
+        "population_2027" : 12891,
+        "land_area_2020" : 6.52
+    },
+    "Red Boiling Springs, Macon County, TN" : {
+        "name" : "Red Boiling Springs",
+        "state" : "Tennessee",
+        "FIPS" : "47-62000",
+        "counties" : [
+            "Macon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1112,
+        "population_2020" : 1112,
+        "population_2027" : 1205,
+        "land_area_2020" : 1.75
+    },
+    "Ridgely, Lake County, TN" : {
+        "name" : "Ridgely",
+        "state" : "Tennessee",
+        "FIPS" : "47-63060",
+        "counties" : [
+            "Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1795,
+        "population_2020" : 1795,
+        "population_2027" : 1945,
+        "land_area_2020" : 1.71
+    },
+    "Ridgeside, Hamilton County, TN" : {
+        "name" : "Ridgeside",
+        "state" : "Tennessee",
+        "FIPS" : "47-63080",
+        "counties" : [
+            "Hamilton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 390,
+        "population_2020" : 390,
+        "population_2027" : 422,
+        "land_area_2020" : 0.17
+    },
+    "Ridgetop, Robertson County, TN" : {
+        "name" : "Ridgetop",
+        "state" : "Tennessee",
+        "FIPS" : "47-63140",
+        "counties" : [
+            "Robertson County",
+            "Davidson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1874,
+        "population_2020" : 1874,
+        "population_2027" : 2030,
+        "land_area_2020" : 2.91
+    },
+    "Ripley, Lauderdale County, TN" : {
+        "name" : "Ripley",
+        "state" : "Tennessee",
+        "FIPS" : "47-63340",
+        "counties" : [
+            "Lauderdale County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7800,
+        "population_2020" : 7800,
+        "population_2027" : 8450,
+        "land_area_2020" : 12.85
+    },
+    "Rives, Obion County, TN" : {
+        "name" : "Rives",
+        "state" : "Tennessee",
+        "FIPS" : "47-63800",
+        "counties" : [
+            "Obion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 326,
+        "population_2020" : 326,
+        "population_2027" : 353,
+        "land_area_2020" : 0.35
+    },
+    "Rockford, Blount County, TN" : {
+        "name" : "Rockford",
+        "state" : "Tennessee",
+        "FIPS" : "47-64160",
+        "counties" : [
+            "Blount County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 856,
+        "population_2020" : 856,
+        "population_2027" : 927,
+        "land_area_2020" : 3.21
+    },
+    "Rockwood, Roane County, TN" : {
+        "name" : "Rockwood",
+        "state" : "Tennessee",
+        "FIPS" : "47-64440",
+        "counties" : [
+            "Roane County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5444,
+        "population_2020" : 5444,
+        "population_2027" : 5898,
+        "land_area_2020" : 8.07
+    },
+    "Rocky Top, Anderson County, TN" : {
+        "name" : "Rocky Top",
+        "state" : "Tennessee",
+        "FIPS" : "47-64668",
+        "counties" : [
+            "Anderson County",
+            "Campbell County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1781,
+        "population_2020" : 1781,
+        "population_2027" : 1929,
+        "land_area_2020" : 1.59
+    },
+    "Rogersville, Hawkins County, TN" : {
+        "name" : "Rogersville",
+        "state" : "Tennessee",
+        "FIPS" : "47-64820",
+        "counties" : [
+            "Hawkins County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4420,
+        "population_2020" : 4420,
+        "population_2027" : 4788,
+        "land_area_2020" : 3.4
+    },
+    "Rossville, Fayette County, TN" : {
+        "name" : "Rossville",
+        "state" : "Tennessee",
+        "FIPS" : "47-65240",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 664,
+        "population_2020" : 664,
+        "population_2027" : 719,
+        "land_area_2020" : 5.06
+    },
+    "Rutherford, Gibson County, TN" : {
+        "name" : "Rutherford",
+        "state" : "Tennessee",
+        "FIPS" : "47-65760",
+        "counties" : [
+            "Gibson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1151,
+        "population_2020" : 1151,
+        "population_2027" : 1247,
+        "land_area_2020" : 2.3
+    },
+    "Rutledge, Grainger County, TN" : {
+        "name" : "Rutledge",
+        "state" : "Tennessee",
+        "FIPS" : "47-65820",
+        "counties" : [
+            "Grainger County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1122,
+        "population_2020" : 1122,
+        "population_2027" : 1215,
+        "land_area_2020" : 4.69
+    },
+    "St. Joseph, Lawrence County, TN" : {
+        "name" : "St. Joseph",
+        "state" : "Tennessee",
+        "FIPS" : "47-66160",
+        "counties" : [
+            "Lawrence County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 782,
+        "population_2020" : 782,
+        "population_2027" : 847,
+        "land_area_2020" : 3.52
+    },
+    "Saltillo, Hardin County, TN" : {
+        "name" : "Saltillo",
+        "state" : "Tennessee",
+        "FIPS" : "47-66340",
+        "counties" : [
+            "Hardin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 303,
+        "population_2020" : 303,
+        "population_2027" : 328,
+        "land_area_2020" : 0.92
+    },
+    "Samburg, Obion County, TN" : {
+        "name" : "Samburg",
+        "state" : "Tennessee",
+        "FIPS" : "47-66360",
+        "counties" : [
+            "Obion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 217,
+        "population_2020" : 217,
+        "population_2027" : 235,
+        "land_area_2020" : 0.82
+    },
+    "Sardis, Henderson County, TN" : {
+        "name" : "Sardis",
+        "state" : "Tennessee",
+        "FIPS" : "47-66660",
+        "counties" : [
+            "Henderson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 381,
+        "population_2020" : 381,
+        "population_2027" : 413,
+        "land_area_2020" : 2.4
+    },
+    "Saulsbury, Hardeman County, TN" : {
+        "name" : "Saulsbury",
+        "state" : "Tennessee",
+        "FIPS" : "47-66680",
+        "counties" : [
+            "Hardeman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 81,
+        "population_2020" : 81,
+        "population_2027" : 88,
+        "land_area_2020" : 0.36
+    },
+    "Savannah, Hardin County, TN" : {
+        "name" : "Savannah",
+        "state" : "Tennessee",
+        "FIPS" : "47-66720",
+        "counties" : [
+            "Hardin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7213,
+        "population_2020" : 7213,
+        "population_2027" : 7814,
+        "land_area_2020" : 6.52
+    },
+    "Scotts Hill, Henderson County, TN" : {
+        "name" : "Scotts Hill",
+        "state" : "Tennessee",
+        "FIPS" : "47-66880",
+        "counties" : [
+            "Henderson County",
+            "Decatur County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 984,
+        "population_2020" : 984,
+        "population_2027" : 1066,
+        "land_area_2020" : 3.77
+    },
+    "Selmer, McNairy County, TN" : {
+        "name" : "Selmer",
+        "state" : "Tennessee",
+        "FIPS" : "47-66940",
+        "counties" : [
+            "McNairy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4396,
+        "population_2020" : 4396,
+        "population_2027" : 4762,
+        "land_area_2020" : 9.79
+    },
+    "Sevierville, Sevier County, TN" : {
+        "name" : "Sevierville",
+        "state" : "Tennessee",
+        "FIPS" : "47-67120",
+        "counties" : [
+            "Sevier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 17889,
+        "population_2020" : 17889,
+        "population_2027" : 19380,
+        "land_area_2020" : 24.24
+    },
+    "Sharon, Weakley County, TN" : {
+        "name" : "Sharon",
+        "state" : "Tennessee",
+        "FIPS" : "47-67540",
+        "counties" : [
+            "Weakley County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 944,
+        "population_2020" : 944,
+        "population_2027" : 1023,
+        "land_area_2020" : 1.13
+    },
+    "Shelbyville, Bedford County, TN" : {
+        "name" : "Shelbyville",
+        "state" : "Tennessee",
+        "FIPS" : "47-67760",
+        "counties" : [
+            "Bedford County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 23557,
+        "population_2020" : 23557,
+        "population_2027" : 25520,
+        "land_area_2020" : 18.61
+    },
+    "Signal Mountain, Hamilton County, TN" : {
+        "name" : "Signal Mountain",
+        "state" : "Tennessee",
+        "FIPS" : "47-68540",
+        "counties" : [
+            "Hamilton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8852,
+        "population_2020" : 8852,
+        "population_2027" : 9590,
+        "land_area_2020" : 7.66
+    },
+    "Silerton, Hardeman County, TN" : {
+        "name" : "Silerton",
+        "state" : "Tennessee",
+        "FIPS" : "47-68560",
+        "counties" : [
+            "Hardeman County",
+            "Chester County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 111,
+        "population_2020" : 111,
+        "population_2027" : 120,
+        "land_area_2020" : 0.66
+    },
+    "Slayden, Dickson County, TN" : {
+        "name" : "Slayden",
+        "state" : "Tennessee",
+        "FIPS" : "47-69080",
+        "counties" : [
+            "Dickson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 178,
+        "population_2020" : 178,
+        "population_2027" : 193,
+        "land_area_2020" : 1.34
+    },
+    "Smithville, DeKalb County, TN" : {
+        "name" : "Smithville",
+        "state" : "Tennessee",
+        "FIPS" : "47-69320",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5004,
+        "population_2020" : 5004,
+        "population_2027" : 5421,
+        "land_area_2020" : 5.91
+    },
+    "Smyrna, Rutherford County, TN" : {
+        "name" : "Smyrna",
+        "state" : "Tennessee",
+        "FIPS" : "47-69420",
+        "counties" : [
+            "Rutherford County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 53070,
+        "population_2020" : 53070,
+        "population_2027" : 57492,
+        "land_area_2020" : 29.71
+    },
+    "Sneedville, Hancock County, TN" : {
+        "name" : "Sneedville",
+        "state" : "Tennessee",
+        "FIPS" : "47-69460",
+        "counties" : [
+            "Hancock County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1387,
+        "population_2020" : 1387,
+        "population_2027" : 1503,
+        "land_area_2020" : 2.3
+    },
+    "Soddy-Daisy, Hamilton County, TN" : {
+        "name" : "Soddy-Daisy",
+        "state" : "Tennessee",
+        "FIPS" : "47-69560",
+        "counties" : [
+            "Hamilton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13070,
+        "population_2020" : 13070,
+        "population_2027" : 14159,
+        "land_area_2020" : 23.44
+    },
+    "Somerville, Fayette County, TN" : {
+        "name" : "Somerville",
+        "state" : "Tennessee",
+        "FIPS" : "47-69620",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3094,
+        "population_2020" : 3094,
+        "population_2027" : 3352,
+        "land_area_2020" : 12.53
+    },
+    "South Carthage, Smith County, TN" : {
+        "name" : "South Carthage",
+        "state" : "Tennessee",
+        "FIPS" : "47-69680",
+        "counties" : [
+            "Smith County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1322,
+        "population_2020" : 1322,
+        "population_2027" : 1432,
+        "land_area_2020" : 2.71
+    },
+    "South Fulton, Obion County, TN" : {
+        "name" : "South Fulton",
+        "state" : "Tennessee",
+        "FIPS" : "47-69900",
+        "counties" : [
+            "Obion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2354,
+        "population_2020" : 2354,
+        "population_2027" : 2550,
+        "land_area_2020" : 3.3
+    },
+    "South Pittsburg, Marion County, TN" : {
+        "name" : "South Pittsburg",
+        "state" : "Tennessee",
+        "FIPS" : "47-70060",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2992,
+        "population_2020" : 2992,
+        "population_2027" : 3241,
+        "land_area_2020" : 6.0
+    },
+    "Sparta, White County, TN" : {
+        "name" : "Sparta",
+        "state" : "Tennessee",
+        "FIPS" : "47-70180",
+        "counties" : [
+            "White County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4925,
+        "population_2020" : 4925,
+        "population_2027" : 5335,
+        "land_area_2020" : 6.74
+    },
+    "Spencer, Van Buren County, TN" : {
+        "name" : "Spencer",
+        "state" : "Tennessee",
+        "FIPS" : "47-70240",
+        "counties" : [
+            "Van Buren County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1601,
+        "population_2020" : 1601,
+        "population_2027" : 1734,
+        "land_area_2020" : 6.87
+    },
+    "Spring City, Rhea County, TN" : {
+        "name" : "Spring City",
+        "state" : "Tennessee",
+        "FIPS" : "47-70400",
+        "counties" : [
+            "Rhea County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1981,
+        "population_2020" : 1981,
+        "population_2027" : 2146,
+        "land_area_2020" : 2.64
+    },
+    "Spring Hill, Maury County, TN" : {
+        "name" : "Spring Hill",
+        "state" : "Tennessee",
+        "FIPS" : "47-70580",
+        "counties" : [
+            "Maury County",
+            "Williamson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 50005,
+        "population_2020" : 50005,
+        "population_2027" : 54172,
+        "land_area_2020" : 27.11
+    },
+    "Springfield, Robertson County, TN" : {
+        "name" : "Springfield",
+        "state" : "Tennessee",
+        "FIPS" : "47-70500",
+        "counties" : [
+            "Robertson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 18782,
+        "population_2020" : 18782,
+        "population_2027" : 20347,
+        "land_area_2020" : 13.34
+    },
+    "Stanton, Haywood County, TN" : {
+        "name" : "Stanton",
+        "state" : "Tennessee",
+        "FIPS" : "47-70820",
+        "counties" : [
+            "Haywood County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 452,
+        "population_2020" : 452,
+        "population_2027" : 490,
+        "land_area_2020" : 0.51
+    },
+    "Stantonville, McNairy County, TN" : {
+        "name" : "Stantonville",
+        "state" : "Tennessee",
+        "FIPS" : "47-70840",
+        "counties" : [
+            "McNairy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 283,
+        "population_2020" : 283,
+        "population_2027" : 307,
+        "land_area_2020" : 1.11
+    },
+    "Sunbright, Morgan County, TN" : {
+        "name" : "Sunbright",
+        "state" : "Tennessee",
+        "FIPS" : "47-72140",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 552,
+        "population_2020" : 552,
+        "population_2027" : 598,
+        "land_area_2020" : 3.78
+    },
+    "Surgoinsville, Hawkins County, TN" : {
+        "name" : "Surgoinsville",
+        "state" : "Tennessee",
+        "FIPS" : "47-72380",
+        "counties" : [
+            "Hawkins County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1801,
+        "population_2020" : 1801,
+        "population_2027" : 1951,
+        "land_area_2020" : 5.61
+    },
+    "Sweetwater, Monroe County, TN" : {
+        "name" : "Sweetwater",
+        "state" : "Tennessee",
+        "FIPS" : "47-72540",
+        "counties" : [
+            "Monroe County",
+            "McMinn County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6312,
+        "population_2020" : 6312,
+        "population_2027" : 6838,
+        "land_area_2020" : 8.52
+    },
+    "Tazewell, Claiborne County, TN" : {
+        "name" : "Tazewell",
+        "state" : "Tennessee",
+        "FIPS" : "47-73120",
+        "counties" : [
+            "Claiborne County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2218,
+        "population_2020" : 2218,
+        "population_2027" : 2403,
+        "land_area_2020" : 4.43
+    },
+    "Tellico Plains, Monroe County, TN" : {
+        "name" : "Tellico Plains",
+        "state" : "Tennessee",
+        "FIPS" : "47-73260",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 880,
+        "population_2020" : 880,
+        "population_2027" : 953,
+        "land_area_2020" : 1.94
+    },
+    "Tennessee Ridge, Houston County, TN" : {
+        "name" : "Tennessee Ridge",
+        "state" : "Tennessee",
+        "FIPS" : "47-73460",
+        "counties" : [
+            "Houston County",
+            "Stewart County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1368,
+        "population_2020" : 1368,
+        "population_2027" : 1482,
+        "land_area_2020" : 3.71
+    },
+    "Thompson's Station, Williamson County, TN" : {
+        "name" : "Thompson's Station",
+        "state" : "Tennessee",
+        "FIPS" : "47-73900",
+        "counties" : [
+            "Williamson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7485,
+        "population_2020" : 7485,
+        "population_2027" : 8109,
+        "land_area_2020" : 18.76
+    },
+    "Three Way, Madison County, TN" : {
+        "name" : "Three Way",
+        "state" : "Tennessee",
+        "FIPS" : "47-74100",
+        "counties" : [
+            "Madison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1709,
+        "population_2020" : 1709,
+        "population_2027" : 1851,
+        "land_area_2020" : 4.54
+    },
+    "Tiptonville, Lake County, TN" : {
+        "name" : "Tiptonville",
+        "state" : "Tennessee",
+        "FIPS" : "47-74540",
+        "counties" : [
+            "Lake County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4464,
+        "population_2020" : 4464,
+        "population_2027" : 4836,
+        "land_area_2020" : 2.05
+    },
+    "Toone, Hardeman County, TN" : {
+        "name" : "Toone",
+        "state" : "Tennessee",
+        "FIPS" : "47-74640",
+        "counties" : [
+            "Hardeman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 364,
+        "population_2020" : 364,
+        "population_2027" : 394,
+        "land_area_2020" : 1.05
+    },
+    "Townsend, Blount County, TN" : {
+        "name" : "Townsend",
+        "state" : "Tennessee",
+        "FIPS" : "47-74860",
+        "counties" : [
+            "Blount County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 448,
+        "population_2020" : 448,
+        "population_2027" : 485,
+        "land_area_2020" : 2.17
+    },
+    "Tracy City, Grundy County, TN" : {
+        "name" : "Tracy City",
+        "state" : "Tennessee",
+        "FIPS" : "47-74880",
+        "counties" : [
+            "Grundy County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1481,
+        "population_2020" : 1481,
+        "population_2027" : 1604,
+        "land_area_2020" : 4.91
+    },
+    "Trenton, Gibson County, TN" : {
+        "name" : "Trenton",
+        "state" : "Tennessee",
+        "FIPS" : "47-75000",
+        "counties" : [
+            "Gibson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4264,
+        "population_2020" : 4264,
+        "population_2027" : 4619,
+        "land_area_2020" : 8.2
+    },
+    "Trezevant, Carroll County, TN" : {
+        "name" : "Trezevant",
+        "state" : "Tennessee",
+        "FIPS" : "47-75100",
+        "counties" : [
+            "Carroll County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 859,
+        "population_2020" : 859,
+        "population_2027" : 931,
+        "land_area_2020" : 1.39
+    },
+    "Trimble, Dyer County, TN" : {
+        "name" : "Trimble",
+        "state" : "Tennessee",
+        "FIPS" : "47-75160",
+        "counties" : [
+            "Dyer County",
+            "Obion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 637,
+        "population_2020" : 637,
+        "population_2027" : 690,
+        "land_area_2020" : 0.65
+    },
+    "Troy, Obion County, TN" : {
+        "name" : "Troy",
+        "state" : "Tennessee",
+        "FIPS" : "47-75240",
+        "counties" : [
+            "Obion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1371,
+        "population_2020" : 1371,
+        "population_2027" : 1485,
+        "land_area_2020" : 1.49
+    },
+    "Tullahoma, Coffee County, TN" : {
+        "name" : "Tullahoma",
+        "state" : "Tennessee",
+        "FIPS" : "47-75320",
+        "counties" : [
+            "Coffee County",
+            "Franklin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 20339,
+        "population_2020" : 20339,
+        "population_2027" : 22034,
+        "land_area_2020" : 23.56
+    },
+    "Tusculum, Greene County, TN" : {
+        "name" : "Tusculum",
+        "state" : "Tennessee",
+        "FIPS" : "47-75560",
+        "counties" : [
+            "Greene County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2663,
+        "population_2020" : 2663,
+        "population_2027" : 2885,
+        "land_area_2020" : 4.81
+    },
+    "Unicoi, Unicoi County, TN" : {
+        "name" : "Unicoi",
+        "state" : "Tennessee",
+        "FIPS" : "47-75820",
+        "counties" : [
+            "Unicoi County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3632,
+        "population_2020" : 3632,
+        "population_2027" : 3935,
+        "land_area_2020" : 16.41
+    },
+    "Union City, Obion County, TN" : {
+        "name" : "Union City",
+        "state" : "Tennessee",
+        "FIPS" : "47-75940",
+        "counties" : [
+            "Obion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 11170,
+        "population_2020" : 11170,
+        "population_2027" : 12101,
+        "land_area_2020" : 11.94
+    },
+    "Vanleer, Dickson County, TN" : {
+        "name" : "Vanleer",
+        "state" : "Tennessee",
+        "FIPS" : "47-76860",
+        "counties" : [
+            "Dickson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 395,
+        "population_2020" : 395,
+        "population_2027" : 428,
+        "land_area_2020" : 0.65
+    },
+    "Viola, Warren County, TN" : {
+        "name" : "Viola",
+        "state" : "Tennessee",
+        "FIPS" : "47-77400",
+        "counties" : [
+            "Warren County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 131,
+        "population_2020" : 131,
+        "population_2027" : 142,
+        "land_area_2020" : 0.17
+    },
+    "Vonore, Monroe County, TN" : {
+        "name" : "Vonore",
+        "state" : "Tennessee",
+        "FIPS" : "47-77480",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1474,
+        "population_2020" : 1474,
+        "population_2027" : 1597,
+        "land_area_2020" : 11.93
+    },
+    "Walden, Hamilton County, TN" : {
+        "name" : "Walden",
+        "state" : "Tennessee",
+        "FIPS" : "47-77540",
+        "counties" : [
+            "Hamilton County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1898,
+        "population_2020" : 1898,
+        "population_2027" : 2056,
+        "land_area_2020" : 3.58
+    },
+    "Wartburg, Morgan County, TN" : {
+        "name" : "Wartburg",
+        "state" : "Tennessee",
+        "FIPS" : "47-78100",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 918,
+        "population_2020" : 918,
+        "population_2027" : 994,
+        "land_area_2020" : 0.96
+    },
+    "Wartrace, Bedford County, TN" : {
+        "name" : "Wartrace",
+        "state" : "Tennessee",
+        "FIPS" : "47-78120",
+        "counties" : [
+            "Bedford County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 651,
+        "population_2020" : 651,
+        "population_2027" : 705,
+        "land_area_2020" : 0.69
+    },
+    "Watauga, Carter County, TN" : {
+        "name" : "Watauga",
+        "state" : "Tennessee",
+        "FIPS" : "47-78240",
+        "counties" : [
+            "Carter County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 458,
+        "population_2020" : 458,
+        "population_2027" : 496,
+        "land_area_2020" : 0.83
+    },
+    "Watertown, Wilson County, TN" : {
+        "name" : "Watertown",
+        "state" : "Tennessee",
+        "FIPS" : "47-78320",
+        "counties" : [
+            "Wilson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1477,
+        "population_2020" : 1477,
+        "population_2027" : 1600,
+        "land_area_2020" : 1.31
+    },
+    "Waverly, Humphreys County, TN" : {
+        "name" : "Waverly",
+        "state" : "Tennessee",
+        "FIPS" : "47-78560",
+        "counties" : [
+            "Humphreys County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4105,
+        "population_2020" : 4105,
+        "population_2027" : 4447,
+        "land_area_2020" : 8.77
+    },
+    "Waynesboro, Wayne County, TN" : {
+        "name" : "Waynesboro",
+        "state" : "Tennessee",
+        "FIPS" : "47-78600",
+        "counties" : [
+            "Wayne County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2449,
+        "population_2020" : 2449,
+        "population_2027" : 2653,
+        "land_area_2020" : 3.75
+    },
+    "Westmoreland, Sumner County, TN" : {
+        "name" : "Westmoreland",
+        "state" : "Tennessee",
+        "FIPS" : "47-79420",
+        "counties" : [
+            "Sumner County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2206,
+        "population_2020" : 2206,
+        "population_2027" : 2390,
+        "land_area_2020" : 3.94
+    },
+    "White Bluff, Dickson County, TN" : {
+        "name" : "White Bluff",
+        "state" : "Tennessee",
+        "FIPS" : "47-79980",
+        "counties" : [
+            "Dickson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3206,
+        "population_2020" : 3206,
+        "population_2027" : 3473,
+        "land_area_2020" : 5.93
+    },
+    "White House, Sumner County, TN" : {
+        "name" : "White House",
+        "state" : "Tennessee",
+        "FIPS" : "47-80200",
+        "counties" : [
+            "Sumner County",
+            "Robertson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 12982,
+        "population_2020" : 12982,
+        "population_2027" : 14064,
+        "land_area_2020" : 10.99
+    },
+    "White Pine, Jefferson County, TN" : {
+        "name" : "White Pine",
+        "state" : "Tennessee",
+        "FIPS" : "47-80360",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2196,
+        "population_2020" : 2196,
+        "population_2027" : 2379,
+        "land_area_2020" : 2.64
+    },
+    "Whiteville, Hardeman County, TN" : {
+        "name" : "Whiteville",
+        "state" : "Tennessee",
+        "FIPS" : "47-80540",
+        "counties" : [
+            "Hardeman County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4638,
+        "population_2020" : 4638,
+        "population_2027" : 5024,
+        "land_area_2020" : 2.75
+    },
+    "Whitwell, Marion County, TN" : {
+        "name" : "Whitwell",
+        "state" : "Tennessee",
+        "FIPS" : "47-80620",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1699,
+        "population_2020" : 1699,
+        "population_2027" : 1841,
+        "land_area_2020" : 3.39
+    },
+    "Williston, Fayette County, TN" : {
+        "name" : "Williston",
+        "state" : "Tennessee",
+        "FIPS" : "47-81020",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 395,
+        "population_2020" : 395,
+        "population_2027" : 428,
+        "land_area_2020" : 1.62
+    },
+    "Winchester, Franklin County, TN" : {
+        "name" : "Winchester",
+        "state" : "Tennessee",
+        "FIPS" : "47-81080",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9375,
+        "population_2020" : 9375,
+        "population_2027" : 10156,
+        "land_area_2020" : 11.71
+    },
+    "Winfield, Scott County, TN" : {
+        "name" : "Winfield",
+        "state" : "Tennessee",
+        "FIPS" : "47-81280",
+        "counties" : [
+            "Scott County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 967,
+        "population_2020" : 967,
+        "population_2027" : 1048,
+        "land_area_2020" : 6.35
+    },
+    "Woodbury, Cannon County, TN" : {
+        "name" : "Woodbury",
+        "state" : "Tennessee",
+        "FIPS" : "47-81560",
+        "counties" : [
+            "Cannon County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2680,
+        "population_2020" : 2680,
+        "population_2027" : 2903,
+        "land_area_2020" : 2.01
+    },
+    "Woodland Mills, Obion County, TN" : {
+        "name" : "Woodland Mills",
+        "state" : "Tennessee",
+        "FIPS" : "47-81700",
+        "counties" : [
+            "Obion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 378,
+        "population_2020" : 378,
+        "population_2027" : 409,
+        "land_area_2020" : 1.23
+    },
+    "Yorkville, Gibson County, TN" : {
+        "name" : "Yorkville",
+        "state" : "Tennessee",
+        "FIPS" : "47-82360",
+        "counties" : [
+            "Gibson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 286,
+        "population_2020" : 286,
+        "population_2027" : 310,
+        "land_area_2020" : 1.42
+    }
+}

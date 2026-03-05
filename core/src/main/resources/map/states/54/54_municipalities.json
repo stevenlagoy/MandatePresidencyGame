@@ -1,0 +1,3013 @@
+{
+    "Charleston, Kanawha County, WV" : {
+        "name" : "Charleston",
+        "state" : "West Virginia",
+        "FIPS" : "54-14600",
+        "counties" : [
+            "Kanawha County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 48864,
+        "population_2020" : 48864,
+        "population_2027" : 47763,
+        "land_area_2020" : 0.0
+    },
+    "Huntington, Cabell County, WV" : {
+        "name" : "Huntington",
+        "state" : "West Virginia",
+        "FIPS" : "54-39460",
+        "counties" : [
+            "Cabell County",
+            "Wayne County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 46842,
+        "population_2020" : 46842,
+        "population_2027" : 45787,
+        "land_area_2020" : 0.0
+    },
+    "Morgantown, Monongalia County, WV" : {
+        "name" : "Morgantown",
+        "state" : "West Virginia",
+        "FIPS" : "54-55756",
+        "counties" : [
+            "Monongalia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 30347,
+        "population_2020" : 30347,
+        "population_2027" : 29663,
+        "land_area_2020" : 0.0
+    },
+    "Parkersburg, Wood County, WV" : {
+        "name" : "Parkersburg",
+        "state" : "West Virginia",
+        "FIPS" : "54-62140",
+        "counties" : [
+            "Wood County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 29738,
+        "population_2020" : 29738,
+        "population_2027" : 29068,
+        "land_area_2020" : 0.0
+    },
+    "Wheeling, Ohio County, WV" : {
+        "name" : "Wheeling",
+        "state" : "West Virginia",
+        "FIPS" : "54-86452",
+        "counties" : [
+            "Ohio County",
+            "Marshall County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 27052,
+        "population_2020" : 27052,
+        "population_2027" : 26443,
+        "land_area_2020" : 0.0
+    },
+    "Martinsburg, Berkeley County, WV" : {
+        "name" : "Martinsburg",
+        "state" : "West Virginia",
+        "FIPS" : "54-52060",
+        "counties" : [
+            "Berkeley County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 18777,
+        "population_2020" : 18777,
+        "population_2027" : 18354,
+        "land_area_2020" : 0.0
+    },
+    "Weirton, Hancock County, WV" : {
+        "name" : "Weirton",
+        "state" : "West Virginia",
+        "FIPS" : "54-85156",
+        "counties" : [
+            "Hancock County",
+            "Brooke County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 19163,
+        "population_2020" : 19163,
+        "population_2027" : 18731,
+        "land_area_2020" : 0.0
+    },
+    "Fairmont, Marion County, WV" : {
+        "name" : "Fairmont",
+        "state" : "West Virginia",
+        "FIPS" : "54-26452",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 18416,
+        "population_2020" : 18416,
+        "population_2027" : 18001,
+        "land_area_2020" : 0.0
+    },
+    "Beckley, Raleigh County, WV" : {
+        "name" : "Beckley",
+        "state" : "West Virginia",
+        "FIPS" : "54-05332",
+        "counties" : [
+            "Raleigh County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 17286,
+        "population_2020" : 17286,
+        "population_2027" : 16897,
+        "land_area_2020" : 0.0
+    },
+    "Clarksburg, Harrison County, WV" : {
+        "name" : "Clarksburg",
+        "state" : "West Virginia",
+        "FIPS" : "54-15628",
+        "counties" : [
+            "Harrison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 16061,
+        "population_2020" : 16061,
+        "population_2027" : 15699,
+        "land_area_2020" : 0.0
+    },
+    "South Charleston, Kanawha County, WV" : {
+        "name" : "South Charleston",
+        "state" : "West Virginia",
+        "FIPS" : "54-75292",
+        "counties" : [
+            "Kanawha County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 13647,
+        "population_2020" : 13647,
+        "population_2027" : 13340,
+        "land_area_2020" : 0.0
+    },
+    "Vienna, Wood County, WV" : {
+        "name" : "Vienna",
+        "state" : "West Virginia",
+        "FIPS" : "54-83500",
+        "counties" : [
+            "Wood County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10652,
+        "population_2020" : 10652,
+        "population_2027" : 10412,
+        "land_area_2020" : 0.0
+    },
+    "St. Albans, Kanawha County, WV" : {
+        "name" : "St. Albans",
+        "state" : "West Virginia",
+        "FIPS" : "54-71212",
+        "counties" : [
+            "Kanawha County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10861,
+        "population_2020" : 10861,
+        "population_2027" : 10616,
+        "land_area_2020" : 0.0
+    },
+    "Bridgeport, Harrison County, WV" : {
+        "name" : "Bridgeport",
+        "state" : "West Virginia",
+        "FIPS" : "54-10180",
+        "counties" : [
+            "Harrison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9336,
+        "population_2020" : 9336,
+        "population_2027" : 9126,
+        "land_area_2020" : 0.0
+    },
+    "Bluefield, Mercer County, WV" : {
+        "name" : "Bluefield",
+        "state" : "West Virginia",
+        "FIPS" : "54-08524",
+        "counties" : [
+            "Mercer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 9658,
+        "population_2020" : 9658,
+        "population_2027" : 9440,
+        "land_area_2020" : 0.0
+    },
+    "Oak Hill, Fayette County, WV" : {
+        "name" : "Oak Hill",
+        "state" : "West Virginia",
+        "FIPS" : "54-60028",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8179,
+        "population_2020" : 8179,
+        "population_2027" : 7995,
+        "land_area_2020" : 0.0
+    },
+    "Moundsville, Marshall County, WV" : {
+        "name" : "Moundsville",
+        "state" : "West Virginia",
+        "FIPS" : "54-56020",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8093,
+        "population_2020" : 8093,
+        "population_2027" : 7911,
+        "land_area_2020" : 0.0
+    },
+    "Charles Town, Jefferson County, WV" : {
+        "name" : "Charles Town",
+        "state" : "West Virginia",
+        "FIPS" : "54-14610",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6534,
+        "population_2020" : 6534,
+        "population_2027" : 6387,
+        "land_area_2020" : 0.0
+    },
+    "Dunbar, Kanawha County, WV" : {
+        "name" : "Dunbar",
+        "state" : "West Virginia",
+        "FIPS" : "54-22564",
+        "counties" : [
+            "Kanawha County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7480,
+        "population_2020" : 7480,
+        "population_2027" : 7311,
+        "land_area_2020" : 0.0
+    },
+    "Hurricane, Putnam County, WV" : {
+        "name" : "Hurricane",
+        "state" : "West Virginia",
+        "FIPS" : "54-39532",
+        "counties" : [
+            "Putnam County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6961,
+        "population_2020" : 6961,
+        "population_2027" : 6804,
+        "land_area_2020" : 0.0
+    },
+    "Elkins, Randolph County, WV" : {
+        "name" : "Elkins",
+        "state" : "West Virginia",
+        "FIPS" : "54-24580",
+        "counties" : [
+            "Randolph County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6934,
+        "population_2020" : 6934,
+        "population_2027" : 6778,
+        "land_area_2020" : 0.0
+    },
+    "Nitro, Kanawha County, WV" : {
+        "name" : "Nitro",
+        "state" : "West Virginia",
+        "FIPS" : "54-59068",
+        "counties" : [
+            "Kanawha County",
+            "Putnam County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6624,
+        "population_2020" : 6624,
+        "population_2027" : 6475,
+        "land_area_2020" : 0.0
+    },
+    "Ranson, Jefferson County, WV" : {
+        "name" : "Ranson",
+        "state" : "West Virginia",
+        "FIPS" : "54-66988",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Corporation",
+        "population_2010" : 5433,
+        "population_2020" : 5433,
+        "population_2027" : 5311,
+        "land_area_2020" : 0.0
+    },
+    "Princeton, Mercer County, WV" : {
+        "name" : "Princeton",
+        "state" : "West Virginia",
+        "FIPS" : "54-65692",
+        "counties" : [
+            "Mercer County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5872,
+        "population_2020" : 5872,
+        "population_2027" : 5740,
+        "land_area_2020" : 0.0
+    },
+    "New Martinsville, Wetzel County, WV" : {
+        "name" : "New Martinsville",
+        "state" : "West Virginia",
+        "FIPS" : "54-58684",
+        "counties" : [
+            "Wetzel County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5204,
+        "population_2020" : 5204,
+        "population_2027" : 5087,
+        "land_area_2020" : 0.0
+    },
+    "Buckhannon, Upshur County, WV" : {
+        "name" : "Buckhannon",
+        "state" : "West Virginia",
+        "FIPS" : "54-11188",
+        "counties" : [
+            "Upshur County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 5186,
+        "population_2020" : 5186,
+        "population_2027" : 5069,
+        "land_area_2020" : 0.0
+    },
+    "Keyser, Mineral County, WV" : {
+        "name" : "Keyser",
+        "state" : "West Virginia",
+        "FIPS" : "54-43492",
+        "counties" : [
+            "Mineral County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4864,
+        "population_2020" : 4864,
+        "population_2027" : 4754,
+        "land_area_2020" : 0.0
+    },
+    "Grafton, Taylor County, WV" : {
+        "name" : "Grafton",
+        "state" : "West Virginia",
+        "FIPS" : "54-32716",
+        "counties" : [
+            "Taylor County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4722,
+        "population_2020" : 4722,
+        "population_2027" : 4616,
+        "land_area_2020" : 0.0
+    },
+    "Barboursville, Cabell County, WV" : {
+        "name" : "Barboursville",
+        "state" : "West Virginia",
+        "FIPS" : "54-04276",
+        "counties" : [
+            "Cabell County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 4456,
+        "population_2020" : 4456,
+        "population_2027" : 4356,
+        "land_area_2020" : 0.0
+    },
+    "Westover, Monongalia County, WV" : {
+        "name" : "Westover",
+        "state" : "West Virginia",
+        "FIPS" : "54-85996",
+        "counties" : [
+            "Monongalia County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3955,
+        "population_2020" : 3955,
+        "population_2027" : 3866,
+        "land_area_2020" : 0.0
+    },
+    "Point Pleasant, Mason County, WV" : {
+        "name" : "Point Pleasant",
+        "state" : "West Virginia",
+        "FIPS" : "54-64708",
+        "counties" : [
+            "Mason County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 4070,
+        "population_2020" : 4070,
+        "population_2027" : 3978,
+        "land_area_2020" : 0.0
+    },
+    "Ravenswood, Jackson County, WV" : {
+        "name" : "Ravenswood",
+        "state" : "West Virginia",
+        "FIPS" : "54-67108",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3865,
+        "population_2020" : 3865,
+        "population_2027" : 3778,
+        "land_area_2020" : 0.0
+    },
+    "Lewisburg, Greenbrier County, WV" : {
+        "name" : "Lewisburg",
+        "state" : "West Virginia",
+        "FIPS" : "54-46636",
+        "counties" : [
+            "Greenbrier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3922,
+        "population_2020" : 3922,
+        "population_2027" : 3834,
+        "land_area_2020" : 0.0
+    },
+    "Weston, Lewis County, WV" : {
+        "name" : "Weston",
+        "state" : "West Virginia",
+        "FIPS" : "54-85972",
+        "counties" : [
+            "Lewis County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3952,
+        "population_2020" : 3952,
+        "population_2027" : 3863,
+        "land_area_2020" : 0.0
+    },
+    "Pleasant Valley, Marion County, WV" : {
+        "name" : "Pleasant Valley",
+        "state" : "West Virginia",
+        "FIPS" : "54-64228",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3498,
+        "population_2020" : 3498,
+        "population_2027" : 3419,
+        "land_area_2020" : 0.0
+    },
+    "Welch, McDowell County, WV" : {
+        "name" : "Welch",
+        "state" : "West Virginia",
+        "FIPS" : "54-85228",
+        "counties" : [
+            "McDowell County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3590,
+        "population_2020" : 3590,
+        "population_2027" : 3509,
+        "land_area_2020" : 0.0
+    },
+    "Summersville, Nicholas County, WV" : {
+        "name" : "Summersville",
+        "state" : "West Virginia",
+        "FIPS" : "54-77980",
+        "counties" : [
+            "Nicholas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3431,
+        "population_2020" : 3431,
+        "population_2027" : 3354,
+        "land_area_2020" : 0.0
+    },
+    "Ripley, Jackson County, WV" : {
+        "name" : "Ripley",
+        "state" : "West Virginia",
+        "FIPS" : "54-68596",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3079,
+        "population_2020" : 3079,
+        "population_2027" : 3010,
+        "land_area_2020" : 0.0
+    },
+    "Kingwood, Preston County, WV" : {
+        "name" : "Kingwood",
+        "state" : "West Virginia",
+        "FIPS" : "54-44044",
+        "counties" : [
+            "Preston County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2980,
+        "population_2020" : 2980,
+        "population_2027" : 2913,
+        "land_area_2020" : 0.0
+    },
+    "Williamstown, Wood County, WV" : {
+        "name" : "Williamstown",
+        "state" : "West Virginia",
+        "FIPS" : "54-87556",
+        "counties" : [
+            "Wood County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2997,
+        "population_2020" : 2997,
+        "population_2027" : 2929,
+        "land_area_2020" : 0.0
+    },
+    "Philippi, Barbour County, WV" : {
+        "name" : "Philippi",
+        "state" : "West Virginia",
+        "FIPS" : "54-63292",
+        "counties" : [
+            "Barbour County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2929,
+        "population_2020" : 2929,
+        "population_2027" : 2863,
+        "land_area_2020" : 0.0
+    },
+    "Kenova, Wayne County, WV" : {
+        "name" : "Kenova",
+        "state" : "West Virginia",
+        "FIPS" : "54-43180",
+        "counties" : [
+            "Wayne County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3033,
+        "population_2020" : 3033,
+        "population_2027" : 2965,
+        "land_area_2020" : 0.0
+    },
+    "Williamson, Mingo County, WV" : {
+        "name" : "Williamson",
+        "state" : "West Virginia",
+        "FIPS" : "54-87508",
+        "counties" : [
+            "Mingo County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 3083,
+        "population_2020" : 3083,
+        "population_2027" : 3014,
+        "land_area_2020" : 0.0
+    },
+    "Fayetteville, Fayette County, WV" : {
+        "name" : "Fayetteville",
+        "state" : "West Virginia",
+        "FIPS" : "54-27028",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2887,
+        "population_2020" : 2887,
+        "population_2027" : 2822,
+        "land_area_2020" : 0.0
+    },
+    "Milton, Cabell County, WV" : {
+        "name" : "Milton",
+        "state" : "West Virginia",
+        "FIPS" : "54-54484",
+        "counties" : [
+            "Cabell County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2811,
+        "population_2020" : 2811,
+        "population_2027" : 2748,
+        "land_area_2020" : 0.0
+    },
+    "Madison, Boone County, WV" : {
+        "name" : "Madison",
+        "state" : "West Virginia",
+        "FIPS" : "54-50524",
+        "counties" : [
+            "Boone County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2913,
+        "population_2020" : 2913,
+        "population_2027" : 2847,
+        "land_area_2020" : 0.0
+    },
+    "Follansbee, Brooke County, WV" : {
+        "name" : "Follansbee",
+        "state" : "West Virginia",
+        "FIPS" : "54-28204",
+        "counties" : [
+            "Brooke County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2848,
+        "population_2020" : 2848,
+        "population_2027" : 2784,
+        "land_area_2020" : 0.0
+    },
+    "Bethlehem, Ohio County, WV" : {
+        "name" : "Bethlehem",
+        "state" : "West Virginia",
+        "FIPS" : "54-06940",
+        "counties" : [
+            "Ohio County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 2605,
+        "population_2020" : 2605,
+        "population_2027" : 2546,
+        "land_area_2020" : 0.0
+    },
+    "Moorefield, Hardy County, WV" : {
+        "name" : "Moorefield",
+        "state" : "West Virginia",
+        "FIPS" : "54-55588",
+        "counties" : [
+            "Hardy County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2524,
+        "population_2020" : 2524,
+        "population_2027" : 2467,
+        "land_area_2020" : 0.0
+    },
+    "Paden City, Wetzel County, WV" : {
+        "name" : "Paden City",
+        "state" : "West Virginia",
+        "FIPS" : "54-61636",
+        "counties" : [
+            "Wetzel County",
+            "Tyler County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2541,
+        "population_2020" : 2541,
+        "population_2027" : 2484,
+        "land_area_2020" : 0.0
+    },
+    "Winfield, Putnam County, WV" : {
+        "name" : "Winfield",
+        "state" : "West Virginia",
+        "FIPS" : "54-87988",
+        "counties" : [
+            "Putnam County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2393,
+        "population_2020" : 2393,
+        "population_2027" : 2339,
+        "land_area_2020" : 0.0
+    },
+    "Wellsburg, Brooke County, WV" : {
+        "name" : "Wellsburg",
+        "state" : "West Virginia",
+        "FIPS" : "54-85324",
+        "counties" : [
+            "Brooke County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2450,
+        "population_2020" : 2450,
+        "population_2027" : 2395,
+        "land_area_2020" : 0.0
+    },
+    "Shinnston, Harrison County, WV" : {
+        "name" : "Shinnston",
+        "state" : "West Virginia",
+        "FIPS" : "54-73636",
+        "counties" : [
+            "Harrison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2328,
+        "population_2020" : 2328,
+        "population_2027" : 2276,
+        "land_area_2020" : 0.0
+    },
+    "Petersburg, Grant County, WV" : {
+        "name" : "Petersburg",
+        "state" : "West Virginia",
+        "FIPS" : "54-62956",
+        "counties" : [
+            "Grant County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2284,
+        "population_2020" : 2284,
+        "population_2027" : 2233,
+        "land_area_2020" : 0.0
+    },
+    "White Sulphur Springs, Greenbrier County, WV" : {
+        "name" : "White Sulphur Springs",
+        "state" : "West Virginia",
+        "FIPS" : "54-86812",
+        "counties" : [
+            "Greenbrier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2221,
+        "population_2020" : 2221,
+        "population_2027" : 2171,
+        "land_area_2020" : 0.0
+    },
+    "Hinton, Summers County, WV" : {
+        "name" : "Hinton",
+        "state" : "West Virginia",
+        "FIPS" : "54-37636",
+        "counties" : [
+            "Summers County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2245,
+        "population_2020" : 2245,
+        "population_2027" : 2194,
+        "land_area_2020" : 0.0
+    },
+    "Chester, Hancock County, WV" : {
+        "name" : "Chester",
+        "state" : "West Virginia",
+        "FIPS" : "54-15076",
+        "counties" : [
+            "Hancock County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2208,
+        "population_2020" : 2208,
+        "population_2027" : 2158,
+        "land_area_2020" : 0.0
+    },
+    "Spencer, Roane County, WV" : {
+        "name" : "Spencer",
+        "state" : "West Virginia",
+        "FIPS" : "54-75820",
+        "counties" : [
+            "Roane County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2063,
+        "population_2020" : 2063,
+        "population_2027" : 2017,
+        "land_area_2020" : 0.0
+    },
+    "Mannington, Marion County, WV" : {
+        "name" : "Mannington",
+        "state" : "West Virginia",
+        "FIPS" : "54-51100",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1952,
+        "population_2020" : 1952,
+        "population_2027" : 1908,
+        "land_area_2020" : 0.0
+    },
+    "Belington, Barbour County, WV" : {
+        "name" : "Belington",
+        "state" : "West Virginia",
+        "FIPS" : "54-05788",
+        "counties" : [
+            "Barbour County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1805,
+        "population_2020" : 1805,
+        "population_2027" : 1764,
+        "land_area_2020" : 0.0
+    },
+    "Star City, Monongalia County, WV" : {
+        "name" : "Star City",
+        "state" : "West Virginia",
+        "FIPS" : "54-76516",
+        "counties" : [
+            "Monongalia County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1779,
+        "population_2020" : 1779,
+        "population_2027" : 1739,
+        "land_area_2020" : 0.0
+    },
+    "St. Marys, Pleasants County, WV" : {
+        "name" : "St. Marys",
+        "state" : "West Virginia",
+        "FIPS" : "54-71356",
+        "counties" : [
+            "Pleasants County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1831,
+        "population_2020" : 1831,
+        "population_2027" : 1790,
+        "land_area_2020" : 0.0
+    },
+    "Stonewood, Harrison County, WV" : {
+        "name" : "Stonewood",
+        "state" : "West Virginia",
+        "FIPS" : "54-77188",
+        "counties" : [
+            "Harrison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1798,
+        "population_2020" : 1798,
+        "population_2027" : 1757,
+        "land_area_2020" : 0.0
+    },
+    "Romney, Hampshire County, WV" : {
+        "name" : "Romney",
+        "state" : "West Virginia",
+        "FIPS" : "54-70084",
+        "counties" : [
+            "Hampshire County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1724,
+        "population_2020" : 1724,
+        "population_2027" : 1685,
+        "land_area_2020" : 0.0
+    },
+    "Richwood, Nicholas County, WV" : {
+        "name" : "Richwood",
+        "state" : "West Virginia",
+        "FIPS" : "54-68116",
+        "counties" : [
+            "Nicholas County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1660,
+        "population_2020" : 1660,
+        "population_2027" : 1623,
+        "land_area_2020" : 0.0
+    },
+    "McMechen, Marshall County, WV" : {
+        "name" : "McMechen",
+        "state" : "West Virginia",
+        "FIPS" : "54-50260",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1697,
+        "population_2020" : 1697,
+        "population_2027" : 1659,
+        "land_area_2020" : 0.0
+    },
+    "Harrisville, Ritchie County, WV" : {
+        "name" : "Harrisville",
+        "state" : "West Virginia",
+        "FIPS" : "54-35428",
+        "counties" : [
+            "Ritchie County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1631,
+        "population_2020" : 1631,
+        "population_2027" : 1594,
+        "land_area_2020" : 0.0
+    },
+    "Shepherdstown, Jefferson County, WV" : {
+        "name" : "Shepherdstown",
+        "state" : "West Virginia",
+        "FIPS" : "54-73468",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1531,
+        "population_2020" : 1531,
+        "population_2027" : 1497,
+        "land_area_2020" : 0.0
+    },
+    "Ronceverte, Greenbrier County, WV" : {
+        "name" : "Ronceverte",
+        "state" : "West Virginia",
+        "FIPS" : "54-70156",
+        "counties" : [
+            "Greenbrier County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1572,
+        "population_2020" : 1572,
+        "population_2027" : 1537,
+        "land_area_2020" : 0.0
+    },
+    "Eleanor, Putnam County, WV" : {
+        "name" : "Eleanor",
+        "state" : "West Virginia",
+        "FIPS" : "54-24292",
+        "counties" : [
+            "Putnam County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1542,
+        "population_2020" : 1542,
+        "population_2027" : 1507,
+        "land_area_2020" : 0.0
+    },
+    "Salem, Harrison County, WV" : {
+        "name" : "Salem",
+        "state" : "West Virginia",
+        "FIPS" : "54-71380",
+        "counties" : [
+            "Harrison County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1529,
+        "population_2020" : 1529,
+        "population_2027" : 1495,
+        "land_area_2020" : 0.0
+    },
+    "Nutter Fort, Harrison County, WV" : {
+        "name" : "Nutter Fort",
+        "state" : "West Virginia",
+        "FIPS" : "54-59836",
+        "counties" : [
+            "Harrison County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1493,
+        "population_2020" : 1493,
+        "population_2027" : 1459,
+        "land_area_2020" : 0.0
+    },
+    "West Liberty, Ohio County, WV" : {
+        "name" : "West Liberty",
+        "state" : "West Virginia",
+        "FIPS" : "54-85876",
+        "counties" : [
+            "Ohio County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1454,
+        "population_2020" : 1454,
+        "population_2027" : 1421,
+        "land_area_2020" : 0.0
+    },
+    "Marmet, Kanawha County, WV" : {
+        "name" : "Marmet",
+        "state" : "West Virginia",
+        "FIPS" : "54-51724",
+        "counties" : [
+            "Kanawha County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1504,
+        "population_2020" : 1504,
+        "population_2027" : 1470,
+        "land_area_2020" : 0.0
+    },
+    "Glen Dale, Marshall County, WV" : {
+        "name" : "Glen Dale",
+        "state" : "West Virginia",
+        "FIPS" : "54-31492",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1496,
+        "population_2020" : 1496,
+        "population_2027" : 1462,
+        "land_area_2020" : 0.0
+    },
+    "New Haven, Mason County, WV" : {
+        "name" : "New Haven",
+        "state" : "West Virginia",
+        "FIPS" : "54-58564",
+        "counties" : [
+            "Mason County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1476,
+        "population_2020" : 1476,
+        "population_2027" : 1443,
+        "land_area_2020" : 0.0
+    },
+    "Terra Alta, Preston County, WV" : {
+        "name" : "Terra Alta",
+        "state" : "West Virginia",
+        "FIPS" : "54-79708",
+        "counties" : [
+            "Preston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1415,
+        "population_2020" : 1415,
+        "population_2027" : 1383,
+        "land_area_2020" : 0.0
+    },
+    "Wayne, Wayne County, WV" : {
+        "name" : "Wayne",
+        "state" : "West Virginia",
+        "FIPS" : "54-84940",
+        "counties" : [
+            "Wayne County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1443,
+        "population_2020" : 1443,
+        "population_2027" : 1410,
+        "land_area_2020" : 0.0
+    },
+    "Oceana, Wyoming County, WV" : {
+        "name" : "Oceana",
+        "state" : "West Virginia",
+        "FIPS" : "54-60364",
+        "counties" : [
+            "Wyoming County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1449,
+        "population_2020" : 1449,
+        "population_2027" : 1416,
+        "land_area_2020" : 0.0
+    },
+    "Mullens, Wyoming County, WV" : {
+        "name" : "Mullens",
+        "state" : "West Virginia",
+        "FIPS" : "54-57148",
+        "counties" : [
+            "Wyoming County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1480,
+        "population_2020" : 1480,
+        "population_2027" : 1447,
+        "land_area_2020" : 0.0
+    },
+    "Granville, Monongalia County, WV" : {
+        "name" : "Granville",
+        "state" : "West Virginia",
+        "FIPS" : "54-32932",
+        "counties" : [
+            "Monongalia County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1355,
+        "population_2020" : 1355,
+        "population_2027" : 1324,
+        "land_area_2020" : 0.0
+    },
+    "Ceredo, Wayne County, WV" : {
+        "name" : "Ceredo",
+        "state" : "West Virginia",
+        "FIPS" : "54-14308",
+        "counties" : [
+            "Wayne County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1408,
+        "population_2020" : 1408,
+        "population_2027" : 1376,
+        "land_area_2020" : 0.0
+    },
+    "Logan, Logan County, WV" : {
+        "name" : "Logan",
+        "state" : "West Virginia",
+        "FIPS" : "54-48148",
+        "counties" : [
+            "Logan County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1439,
+        "population_2020" : 1439,
+        "population_2027" : 1407,
+        "land_area_2020" : 0.0
+    },
+    "Sistersville, Tyler County, WV" : {
+        "name" : "Sistersville",
+        "state" : "West Virginia",
+        "FIPS" : "54-74380",
+        "counties" : [
+            "Tyler County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1412,
+        "population_2020" : 1412,
+        "population_2027" : 1380,
+        "land_area_2020" : 0.0
+    },
+    "Chesapeake, Kanawha County, WV" : {
+        "name" : "Chesapeake",
+        "state" : "West Virginia",
+        "FIPS" : "54-15028",
+        "counties" : [
+            "Kanawha County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1335,
+        "population_2020" : 1335,
+        "population_2027" : 1305,
+        "land_area_2020" : 0.0
+    },
+    "Parsons, Tucker County, WV" : {
+        "name" : "Parsons",
+        "state" : "West Virginia",
+        "FIPS" : "54-62284",
+        "counties" : [
+            "Tucker County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1327,
+        "population_2020" : 1327,
+        "population_2027" : 1297,
+        "land_area_2020" : 0.0
+    },
+    "Mabscott, Raleigh County, WV" : {
+        "name" : "Mabscott",
+        "state" : "West Virginia",
+        "FIPS" : "54-49492",
+        "counties" : [
+            "Raleigh County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1341,
+        "population_2020" : 1341,
+        "population_2027" : 1311,
+        "land_area_2020" : 0.0
+    },
+    "Mount Hope, Fayette County, WV" : {
+        "name" : "Mount Hope",
+        "state" : "West Virginia",
+        "FIPS" : "54-56404",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1125,
+        "population_2020" : 1125,
+        "population_2027" : 1100,
+        "land_area_2020" : 0.0
+    },
+    "Ansted, Fayette County, WV" : {
+        "name" : "Ansted",
+        "state" : "West Virginia",
+        "FIPS" : "54-01996",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1303,
+        "population_2020" : 1303,
+        "population_2027" : 1274,
+        "land_area_2020" : 0.0
+    },
+    "Montgomery, Fayette County, WV" : {
+        "name" : "Montgomery",
+        "state" : "West Virginia",
+        "FIPS" : "54-55468",
+        "counties" : [
+            "Fayette County",
+            "Kanawha County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1275,
+        "population_2020" : 1275,
+        "population_2027" : 1246,
+        "land_area_2020" : 0.0
+    },
+    "Buffalo, Putnam County, WV" : {
+        "name" : "Buffalo",
+        "state" : "West Virginia",
+        "FIPS" : "54-11284",
+        "counties" : [
+            "Putnam County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1211,
+        "population_2020" : 1211,
+        "population_2027" : 1184,
+        "land_area_2020" : 0.0
+    },
+    "Barrackville, Marion County, WV" : {
+        "name" : "Barrackville",
+        "state" : "West Virginia",
+        "FIPS" : "54-04612",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1201,
+        "population_2020" : 1201,
+        "population_2027" : 1174,
+        "land_area_2020" : 0.0
+    },
+    "Benwood, Marshall County, WV" : {
+        "name" : "Benwood",
+        "state" : "West Virginia",
+        "FIPS" : "54-06340",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1252,
+        "population_2020" : 1252,
+        "population_2027" : 1224,
+        "land_area_2020" : 0.0
+    },
+    "Rainelle, Greenbrier County, WV" : {
+        "name" : "Rainelle",
+        "state" : "West Virginia",
+        "FIPS" : "54-66652",
+        "counties" : [
+            "Greenbrier County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1190,
+        "population_2020" : 1190,
+        "population_2027" : 1163,
+        "land_area_2020" : 0.0
+    },
+    "Belle, Kanawha County, WV" : {
+        "name" : "Belle",
+        "state" : "West Virginia",
+        "FIPS" : "54-05836",
+        "counties" : [
+            "Kanawha County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1169,
+        "population_2020" : 1169,
+        "population_2027" : 1143,
+        "land_area_2020" : 0.0
+    },
+    "Sophia, Raleigh County, WV" : {
+        "name" : "Sophia",
+        "state" : "West Virginia",
+        "FIPS" : "54-75172",
+        "counties" : [
+            "Raleigh County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1130,
+        "population_2020" : 1130,
+        "population_2027" : 1105,
+        "land_area_2020" : 0.0
+    },
+    "Glenville, Gilmer County, WV" : {
+        "name" : "Glenville",
+        "state" : "West Virginia",
+        "FIPS" : "54-32044",
+        "counties" : [
+            "Gilmer County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1129,
+        "population_2020" : 1129,
+        "population_2027" : 1104,
+        "land_area_2020" : 0.0
+    },
+    "Monongah, Marion County, WV" : {
+        "name" : "Monongah",
+        "state" : "West Virginia",
+        "FIPS" : "54-55276",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 965,
+        "population_2020" : 965,
+        "population_2027" : 943,
+        "land_area_2020" : 0.0
+    },
+    "Pennsboro, Ritchie County, WV" : {
+        "name" : "Pennsboro",
+        "state" : "West Virginia",
+        "FIPS" : "54-62764",
+        "counties" : [
+            "Ritchie County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1054,
+        "population_2020" : 1054,
+        "population_2027" : 1030,
+        "land_area_2020" : 0.0
+    },
+    "Bolivar, Jefferson County, WV" : {
+        "name" : "Bolivar",
+        "state" : "West Virginia",
+        "FIPS" : "54-08932",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1036,
+        "population_2020" : 1036,
+        "population_2027" : 1013,
+        "land_area_2020" : 0.0
+    },
+    "Hamlin, Lincoln County, WV" : {
+        "name" : "Hamlin",
+        "state" : "West Virginia",
+        "FIPS" : "54-34516",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1039,
+        "population_2020" : 1039,
+        "population_2027" : 1016,
+        "land_area_2020" : 0.0
+    },
+    "New Cumberland, Hancock County, WV" : {
+        "name" : "New Cumberland",
+        "state" : "West Virginia",
+        "FIPS" : "54-58372",
+        "counties" : [
+            "Hancock County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 1020,
+        "population_2020" : 1020,
+        "population_2027" : 997,
+        "land_area_2020" : 0.0
+    },
+    "Marlinton, Pocahontas County, WV" : {
+        "name" : "Marlinton",
+        "state" : "West Virginia",
+        "FIPS" : "54-51676",
+        "counties" : [
+            "Pocahontas County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 998,
+        "population_2020" : 998,
+        "population_2027" : 976,
+        "land_area_2020" : 0.0
+    },
+    "Chapmanville, Logan County, WV" : {
+        "name" : "Chapmanville",
+        "state" : "West Virginia",
+        "FIPS" : "54-14524",
+        "counties" : [
+            "Logan County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1020,
+        "population_2020" : 1020,
+        "population_2027" : 997,
+        "land_area_2020" : 0.0
+    },
+    "Athens, Mercer County, WV" : {
+        "name" : "Athens",
+        "state" : "West Virginia",
+        "FIPS" : "54-03292",
+        "counties" : [
+            "Mercer County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 962,
+        "population_2020" : 962,
+        "population_2027" : 940,
+        "land_area_2020" : 0.0
+    },
+    "Alderson, Greenbrier County, WV" : {
+        "name" : "Alderson",
+        "state" : "West Virginia",
+        "FIPS" : "54-00772",
+        "counties" : [
+            "Greenbrier County",
+            "Monroe County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 975,
+        "population_2020" : 975,
+        "population_2027" : 953,
+        "land_area_2020" : 0.0
+    },
+    "Poca, Putnam County, WV" : {
+        "name" : "Poca",
+        "state" : "West Virginia",
+        "FIPS" : "54-64516",
+        "counties" : [
+            "Putnam County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 874,
+        "population_2020" : 874,
+        "population_2027" : 854,
+        "land_area_2020" : 0.0
+    },
+    "Clendenin, Kanawha County, WV" : {
+        "name" : "Clendenin",
+        "state" : "West Virginia",
+        "FIPS" : "54-16012",
+        "counties" : [
+            "Kanawha County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 854,
+        "population_2020" : 854,
+        "population_2027" : 835,
+        "land_area_2020" : 0.0
+    },
+    "Carpendale, Mineral County, WV" : {
+        "name" : "Carpendale",
+        "state" : "West Virginia",
+        "FIPS" : "54-13525",
+        "counties" : [
+            "Mineral County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 860,
+        "population_2020" : 860,
+        "population_2027" : 841,
+        "land_area_2020" : 0.0
+    },
+    "Rupert, Greenbrier County, WV" : {
+        "name" : "Rupert",
+        "state" : "West Virginia",
+        "FIPS" : "54-70828",
+        "counties" : [
+            "Greenbrier County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 877,
+        "population_2020" : 877,
+        "population_2027" : 857,
+        "land_area_2020" : 0.0
+    },
+    "Sutton, Braxton County, WV" : {
+        "name" : "Sutton",
+        "state" : "West Virginia",
+        "FIPS" : "54-78580",
+        "counties" : [
+            "Braxton County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 863,
+        "population_2020" : 863,
+        "population_2027" : 844,
+        "land_area_2020" : 0.0
+    },
+    "Belmont, Pleasants County, WV" : {
+        "name" : "Belmont",
+        "state" : "West Virginia",
+        "FIPS" : "54-06004",
+        "counties" : [
+            "Pleasants County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 875,
+        "population_2020" : 875,
+        "population_2027" : 855,
+        "land_area_2020" : 0.0
+    },
+    "Mason, Mason County, WV" : {
+        "name" : "Mason",
+        "state" : "West Virginia",
+        "FIPS" : "54-52180",
+        "counties" : [
+            "Mason County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 866,
+        "population_2020" : 866,
+        "population_2027" : 846,
+        "land_area_2020" : 0.0
+    },
+    "Cameron, Marshall County, WV" : {
+        "name" : "Cameron",
+        "state" : "West Virginia",
+        "FIPS" : "54-12484",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 861,
+        "population_2020" : 861,
+        "population_2027" : 842,
+        "land_area_2020" : 0.0
+    },
+    "North Hills, Wood County, WV" : {
+        "name" : "North Hills",
+        "state" : "West Virginia",
+        "FIPS" : "54-59458",
+        "counties" : [
+            "Wood County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 834,
+        "population_2020" : 834,
+        "population_2027" : 815,
+        "land_area_2020" : 0.0
+    },
+    "Rivesville, Marion County, WV" : {
+        "name" : "Rivesville",
+        "state" : "West Virginia",
+        "FIPS" : "54-68908",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 828,
+        "population_2020" : 828,
+        "population_2027" : 809,
+        "land_area_2020" : 0.0
+    },
+    "East Bank, Kanawha County, WV" : {
+        "name" : "East Bank",
+        "state" : "West Virginia",
+        "FIPS" : "54-23092",
+        "counties" : [
+            "Kanawha County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 822,
+        "population_2020" : 822,
+        "population_2027" : 803,
+        "land_area_2020" : 0.0
+    },
+    "Bethany, Brooke County, WV" : {
+        "name" : "Bethany",
+        "state" : "West Virginia",
+        "FIPS" : "54-06844",
+        "counties" : [
+            "Brooke County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 781,
+        "population_2020" : 781,
+        "population_2027" : 763,
+        "land_area_2020" : 0.0
+    },
+    "Berkeley Springs, Morgan County, WV" : {
+        "name" : "Berkeley Springs",
+        "state" : "West Virginia",
+        "FIPS" : "54-04876",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 753,
+        "population_2020" : 753,
+        "population_2027" : 736,
+        "land_area_2020" : 0.0
+    },
+    "Gassaway, Braxton County, WV" : {
+        "name" : "Gassaway",
+        "state" : "West Virginia",
+        "FIPS" : "54-30220",
+        "counties" : [
+            "Braxton County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 759,
+        "population_2020" : 759,
+        "population_2027" : 742,
+        "land_area_2020" : 0.0
+    },
+    "Man, Logan County, WV" : {
+        "name" : "Man",
+        "state" : "West Virginia",
+        "FIPS" : "54-50932",
+        "counties" : [
+            "Logan County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 772,
+        "population_2020" : 772,
+        "population_2027" : 755,
+        "land_area_2020" : 0.0
+    },
+    "Smithers, Fayette County, WV" : {
+        "name" : "Smithers",
+        "state" : "West Virginia",
+        "FIPS" : "54-74740",
+        "counties" : [
+            "Fayette County",
+            "Kanawha County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 754,
+        "population_2020" : 754,
+        "population_2027" : 737,
+        "land_area_2020" : 0.0
+    },
+    "Gary, McDowell County, WV" : {
+        "name" : "Gary",
+        "state" : "West Virginia",
+        "FIPS" : "54-30196",
+        "counties" : [
+            "McDowell County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 773,
+        "population_2020" : 773,
+        "population_2027" : 756,
+        "land_area_2020" : 0.0
+    },
+    "White Hall, Marion County, WV" : {
+        "name" : "White Hall",
+        "state" : "West Virginia",
+        "FIPS" : "54-86620",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 700,
+        "population_2020" : 700,
+        "population_2027" : 684,
+        "land_area_2020" : 0.0
+    },
+    "Piedmont, Mineral County, WV" : {
+        "name" : "Piedmont",
+        "state" : "West Virginia",
+        "FIPS" : "54-63604",
+        "counties" : [
+            "Mineral County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 718,
+        "population_2020" : 718,
+        "population_2027" : 702,
+        "land_area_2020" : 0.0
+    },
+    "Elizabeth, Wirt County, WV" : {
+        "name" : "Elizabeth",
+        "state" : "West Virginia",
+        "FIPS" : "54-24364",
+        "counties" : [
+            "Wirt County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 724,
+        "population_2020" : 724,
+        "population_2027" : 708,
+        "land_area_2020" : 0.0
+    },
+    "Lumberport, Harrison County, WV" : {
+        "name" : "Lumberport",
+        "state" : "West Virginia",
+        "FIPS" : "54-49252",
+        "counties" : [
+            "Harrison County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 717,
+        "population_2020" : 717,
+        "population_2027" : 701,
+        "land_area_2020" : 0.0
+    },
+    "Cedar Grove, Kanawha County, WV" : {
+        "name" : "Cedar Grove",
+        "state" : "West Virginia",
+        "FIPS" : "54-13924",
+        "counties" : [
+            "Kanawha County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 718,
+        "population_2020" : 718,
+        "population_2027" : 702,
+        "land_area_2020" : 0.0
+    },
+    "Webster Springs, Webster County, WV" : {
+        "name" : "Webster Springs",
+        "state" : "West Virginia",
+        "FIPS" : "54-00364",
+        "counties" : [
+            "Webster County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 731,
+        "population_2020" : 731,
+        "population_2027" : 715,
+        "land_area_2020" : 0.0
+    },
+    "Glasgow, Kanawha County, WV" : {
+        "name" : "Glasgow",
+        "state" : "West Virginia",
+        "FIPS" : "54-31324",
+        "counties" : [
+            "Kanawha County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 703,
+        "population_2020" : 703,
+        "population_2027" : 687,
+        "land_area_2020" : 0.0
+    },
+    "Middlebourne, Tyler County, WV" : {
+        "name" : "Middlebourne",
+        "state" : "West Virginia",
+        "FIPS" : "54-53572",
+        "counties" : [
+            "Tyler County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 717,
+        "population_2020" : 717,
+        "population_2027" : 701,
+        "land_area_2020" : 0.0
+    },
+    "Grant Town, Marion County, WV" : {
+        "name" : "Grant Town",
+        "state" : "West Virginia",
+        "FIPS" : "54-32908",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 685,
+        "population_2020" : 685,
+        "population_2027" : 670,
+        "land_area_2020" : 0.0
+    },
+    "Fort Gay, Wayne County, WV" : {
+        "name" : "Fort Gay",
+        "state" : "West Virginia",
+        "FIPS" : "54-28516",
+        "counties" : [
+            "Wayne County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 675,
+        "population_2020" : 675,
+        "population_2027" : 660,
+        "land_area_2020" : 0.0
+    },
+    "Triadelphia, Ohio County, WV" : {
+        "name" : "Triadelphia",
+        "state" : "West Virginia",
+        "FIPS" : "54-80932",
+        "counties" : [
+            "Ohio County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 669,
+        "population_2020" : 669,
+        "population_2027" : 654,
+        "land_area_2020" : 0.0
+    },
+    "Danville, Boone County, WV" : {
+        "name" : "Danville",
+        "state" : "West Virginia",
+        "FIPS" : "54-20212",
+        "counties" : [
+            "Boone County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 672,
+        "population_2020" : 672,
+        "population_2027" : 657,
+        "land_area_2020" : 0.0
+    },
+    "West Union, Doddridge County, WV" : {
+        "name" : "West Union",
+        "state" : "West Virginia",
+        "FIPS" : "54-86116",
+        "counties" : [
+            "Doddridge County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 653,
+        "population_2020" : 653,
+        "population_2027" : 638,
+        "land_area_2020" : 0.0
+    },
+    "Pineville, Wyoming County, WV" : {
+        "name" : "Pineville",
+        "state" : "West Virginia",
+        "FIPS" : "54-63940",
+        "counties" : [
+            "Wyoming County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 645,
+        "population_2020" : 645,
+        "population_2027" : 630,
+        "land_area_2020" : 0.0
+    },
+    "Beverly, Randolph County, WV" : {
+        "name" : "Beverly",
+        "state" : "West Virginia",
+        "FIPS" : "54-06988",
+        "counties" : [
+            "Randolph County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 622,
+        "population_2020" : 622,
+        "population_2027" : 608,
+        "land_area_2020" : 0.0
+    },
+    "Thomas, Tucker County, WV" : {
+        "name" : "Thomas",
+        "state" : "West Virginia",
+        "FIPS" : "54-80020",
+        "counties" : [
+            "Tucker County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 611,
+        "population_2020" : 611,
+        "population_2027" : 597,
+        "land_area_2020" : 0.0
+    },
+    "Davis, Tucker County, WV" : {
+        "name" : "Davis",
+        "state" : "West Virginia",
+        "FIPS" : "54-20428",
+        "counties" : [
+            "Tucker County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 600,
+        "population_2020" : 600,
+        "population_2027" : 586,
+        "land_area_2020" : 0.0
+    },
+    "Ridgeley, Mineral County, WV" : {
+        "name" : "Ridgeley",
+        "state" : "West Virginia",
+        "FIPS" : "54-68260",
+        "counties" : [
+            "Mineral County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 591,
+        "population_2020" : 591,
+        "population_2027" : 578,
+        "land_area_2020" : 0.0
+    },
+    "War, McDowell County, WV" : {
+        "name" : "War",
+        "state" : "West Virginia",
+        "FIPS" : "54-84484",
+        "counties" : [
+            "McDowell County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 623,
+        "population_2020" : 623,
+        "population_2027" : 609,
+        "land_area_2020" : 0.0
+    },
+    "Mill Creek, Randolph County, WV" : {
+        "name" : "Mill Creek",
+        "state" : "West Virginia",
+        "FIPS" : "54-54100",
+        "counties" : [
+            "Randolph County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 560,
+        "population_2020" : 560,
+        "population_2027" : 547,
+        "land_area_2020" : 0.0
+    },
+    "Gauley Bridge, Fayette County, WV" : {
+        "name" : "Gauley Bridge",
+        "state" : "West Virginia",
+        "FIPS" : "54-30364",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 553,
+        "population_2020" : 553,
+        "population_2027" : 541,
+        "land_area_2020" : 0.0
+    },
+    "Reedsville, Preston County, WV" : {
+        "name" : "Reedsville",
+        "state" : "West Virginia",
+        "FIPS" : "54-67636",
+        "counties" : [
+            "Preston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 530,
+        "population_2020" : 530,
+        "population_2027" : 518,
+        "land_area_2020" : 0.0
+    },
+    "Beech Bottom, Brooke County, WV" : {
+        "name" : "Beech Bottom",
+        "state" : "West Virginia",
+        "FIPS" : "54-05452",
+        "counties" : [
+            "Brooke County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 553,
+        "population_2020" : 553,
+        "population_2027" : 541,
+        "land_area_2020" : 0.0
+    },
+    "Masontown, Preston County, WV" : {
+        "name" : "Masontown",
+        "state" : "West Virginia",
+        "FIPS" : "54-52228",
+        "counties" : [
+            "Preston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 510,
+        "population_2020" : 510,
+        "population_2027" : 499,
+        "land_area_2020" : 0.0
+    },
+    "Anmoore, Harrison County, WV" : {
+        "name" : "Anmoore",
+        "state" : "West Virginia",
+        "FIPS" : "54-01900",
+        "counties" : [
+            "Harrison County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 513,
+        "population_2020" : 513,
+        "population_2027" : 501,
+        "land_area_2020" : 0.0
+    },
+    "West Hamlin, Lincoln County, WV" : {
+        "name" : "West Hamlin",
+        "state" : "West Virginia",
+        "FIPS" : "54-85804",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 524,
+        "population_2020" : 524,
+        "population_2027" : 512,
+        "land_area_2020" : 0.0
+    },
+    "Hartford City, Mason County, WV" : {
+        "name" : "Hartford City",
+        "state" : "West Virginia",
+        "FIPS" : "54-35500",
+        "counties" : [
+            "Mason County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 503,
+        "population_2020" : 503,
+        "population_2027" : 492,
+        "land_area_2020" : 0.0
+    },
+    "Grantsville, Calhoun County, WV" : {
+        "name" : "Grantsville",
+        "state" : "West Virginia",
+        "FIPS" : "54-32884",
+        "counties" : [
+            "Calhoun County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 494,
+        "population_2020" : 494,
+        "population_2027" : 483,
+        "land_area_2020" : 0.0
+    },
+    "Cowen, Webster County, WV" : {
+        "name" : "Cowen",
+        "state" : "West Virginia",
+        "FIPS" : "54-18412",
+        "counties" : [
+            "Webster County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 487,
+        "population_2020" : 487,
+        "population_2027" : 476,
+        "land_area_2020" : 0.0
+    },
+    "Franklin, Pendleton County, WV" : {
+        "name" : "Franklin",
+        "state" : "West Virginia",
+        "FIPS" : "54-29044",
+        "counties" : [
+            "Pendleton County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 495,
+        "population_2020" : 495,
+        "population_2027" : 484,
+        "land_area_2020" : 0.0
+    },
+    "Pratt, Kanawha County, WV" : {
+        "name" : "Pratt",
+        "state" : "West Virginia",
+        "FIPS" : "54-65356",
+        "counties" : [
+            "Kanawha County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 483,
+        "population_2020" : 483,
+        "population_2027" : 472,
+        "land_area_2020" : 0.0
+    },
+    "Clearview, Ohio County, WV" : {
+        "name" : "Clearview",
+        "state" : "West Virginia",
+        "FIPS" : "54-15916",
+        "counties" : [
+            "Ohio County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 472,
+        "population_2020" : 472,
+        "population_2027" : 461,
+        "land_area_2020" : 0.0
+    },
+    "Peterstown, Monroe County, WV" : {
+        "name" : "Peterstown",
+        "state" : "West Virginia",
+        "FIPS" : "54-63052",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 448,
+        "population_2020" : 448,
+        "population_2027" : 438,
+        "land_area_2020" : 0.0
+    },
+    "West Milford, Harrison County, WV" : {
+        "name" : "West Milford",
+        "state" : "West Virginia",
+        "FIPS" : "54-85924",
+        "counties" : [
+            "Harrison County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 449,
+        "population_2020" : 449,
+        "population_2027" : 439,
+        "land_area_2020" : 0.0
+    },
+    "Rowlesburg, Preston County, WV" : {
+        "name" : "Rowlesburg",
+        "state" : "West Virginia",
+        "FIPS" : "54-70588",
+        "counties" : [
+            "Preston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 438,
+        "population_2020" : 438,
+        "population_2027" : 428,
+        "land_area_2020" : 0.0
+    },
+    "Capon Bridge, Hampshire County, WV" : {
+        "name" : "Capon Bridge",
+        "state" : "West Virginia",
+        "FIPS" : "54-13108",
+        "counties" : [
+            "Hampshire County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 420,
+        "population_2020" : 420,
+        "population_2027" : 411,
+        "land_area_2020" : 0.0
+    },
+    "Union, Monroe County, WV" : {
+        "name" : "Union",
+        "state" : "West Virginia",
+        "FIPS" : "54-81940",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 419,
+        "population_2020" : 419,
+        "population_2027" : 410,
+        "land_area_2020" : 0.0
+    },
+    "Paw Paw, Morgan County, WV" : {
+        "name" : "Paw Paw",
+        "state" : "West Virginia",
+        "FIPS" : "54-62332",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 410,
+        "population_2020" : 410,
+        "population_2027" : 401,
+        "land_area_2020" : 0.0
+    },
+    "Farmington, Marion County, WV" : {
+        "name" : "Farmington",
+        "state" : "West Virginia",
+        "FIPS" : "54-26932",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 392,
+        "population_2020" : 392,
+        "population_2027" : 383,
+        "land_area_2020" : 0.0
+    },
+    "Delbarton, Mingo County, WV" : {
+        "name" : "Delbarton",
+        "state" : "West Virginia",
+        "FIPS" : "54-20980",
+        "counties" : [
+            "Mingo County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 422,
+        "population_2020" : 422,
+        "population_2027" : 412,
+        "land_area_2020" : 0.0
+    },
+    "Jane Lew, Lewis County, WV" : {
+        "name" : "Jane Lew",
+        "state" : "West Virginia",
+        "FIPS" : "54-40828",
+        "counties" : [
+            "Lewis County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 408,
+        "population_2020" : 408,
+        "population_2027" : 399,
+        "land_area_2020" : 0.0
+    },
+    "Bancroft, Putnam County, WV" : {
+        "name" : "Bancroft",
+        "state" : "West Virginia",
+        "FIPS" : "54-04204",
+        "counties" : [
+            "Putnam County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 387,
+        "population_2020" : 387,
+        "population_2027" : 378,
+        "land_area_2020" : 0.0
+    },
+    "Matewan, Mingo County, WV" : {
+        "name" : "Matewan",
+        "state" : "West Virginia",
+        "FIPS" : "54-52324",
+        "counties" : [
+            "Mingo County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 412,
+        "population_2020" : 412,
+        "population_2027" : 403,
+        "land_area_2020" : 0.0
+    },
+    "Burnsville, Braxton County, WV" : {
+        "name" : "Burnsville",
+        "state" : "West Virginia",
+        "FIPS" : "54-11716",
+        "counties" : [
+            "Braxton County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 394,
+        "population_2020" : 394,
+        "population_2027" : 385,
+        "land_area_2020" : 0.0
+    },
+    "Junior, Barbour County, WV" : {
+        "name" : "Junior",
+        "state" : "West Virginia",
+        "FIPS" : "54-42244",
+        "counties" : [
+            "Barbour County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 384,
+        "population_2020" : 384,
+        "population_2027" : 375,
+        "land_area_2020" : 0.0
+    },
+    "Clay, Clay County, WV" : {
+        "name" : "Clay",
+        "state" : "West Virginia",
+        "FIPS" : "54-15676",
+        "counties" : [
+            "Clay County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 396,
+        "population_2020" : 396,
+        "population_2027" : 387,
+        "land_area_2020" : 0.0
+    },
+    "West Logan, Logan County, WV" : {
+        "name" : "West Logan",
+        "state" : "West Virginia",
+        "FIPS" : "54-85900",
+        "counties" : [
+            "Logan County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 399,
+        "population_2020" : 399,
+        "population_2027" : 390,
+        "land_area_2020" : 0.0
+    },
+    "Fairview, Marion County, WV" : {
+        "name" : "Fairview",
+        "state" : "West Virginia",
+        "FIPS" : "54-26524",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 373,
+        "population_2020" : 373,
+        "population_2027" : 365,
+        "land_area_2020" : 0.0
+    },
+    "Lost Creek, Harrison County, WV" : {
+        "name" : "Lost Creek",
+        "state" : "West Virginia",
+        "FIPS" : "54-48748",
+        "counties" : [
+            "Harrison County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 359,
+        "population_2020" : 359,
+        "population_2027" : 351,
+        "land_area_2020" : 0.0
+    },
+    "Pine Grove, Wetzel County, WV" : {
+        "name" : "Pine Grove",
+        "state" : "West Virginia",
+        "FIPS" : "54-63892",
+        "counties" : [
+            "Wetzel County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 363,
+        "population_2020" : 363,
+        "population_2027" : 355,
+        "land_area_2020" : 0.0
+    },
+    "Windsor Heights, Brooke County, WV" : {
+        "name" : "Windsor Heights",
+        "state" : "West Virginia",
+        "FIPS" : "54-87892",
+        "counties" : [
+            "Brooke County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 361,
+        "population_2020" : 361,
+        "population_2027" : 353,
+        "land_area_2020" : 0.0
+    },
+    "Whitesville, Boone County, WV" : {
+        "name" : "Whitesville",
+        "state" : "West Virginia",
+        "FIPS" : "54-86836",
+        "counties" : [
+            "Boone County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 361,
+        "population_2020" : 361,
+        "population_2027" : 353,
+        "land_area_2020" : 0.0
+    },
+    "Lester, Raleigh County, WV" : {
+        "name" : "Lester",
+        "state" : "West Virginia",
+        "FIPS" : "54-46468",
+        "counties" : [
+            "Raleigh County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 338,
+        "population_2020" : 338,
+        "population_2027" : 330,
+        "land_area_2020" : 0.0
+    },
+    "Meadow Bridge, Fayette County, WV" : {
+        "name" : "Meadow Bridge",
+        "state" : "West Virginia",
+        "FIPS" : "54-52780",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 324,
+        "population_2020" : 324,
+        "population_2027" : 317,
+        "land_area_2020" : 0.0
+    },
+    "Gilbert, Mingo County, WV" : {
+        "name" : "Gilbert",
+        "state" : "West Virginia",
+        "FIPS" : "54-30772",
+        "counties" : [
+            "Mingo County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 333,
+        "population_2020" : 333,
+        "population_2027" : 325,
+        "land_area_2020" : 0.0
+    },
+    "Flemington, Taylor County, WV" : {
+        "name" : "Flemington",
+        "state" : "West Virginia",
+        "FIPS" : "54-27940",
+        "counties" : [
+            "Taylor County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 309,
+        "population_2020" : 309,
+        "population_2027" : 302,
+        "land_area_2020" : 0.0
+    },
+    "Hedgesville, Berkeley County, WV" : {
+        "name" : "Hedgesville",
+        "state" : "West Virginia",
+        "FIPS" : "54-36220",
+        "counties" : [
+            "Berkeley County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 300,
+        "population_2020" : 300,
+        "population_2027" : 293,
+        "land_area_2020" : 0.0
+    },
+    "Mitchell Heights, Logan County, WV" : {
+        "name" : "Mitchell Heights",
+        "state" : "West Virginia",
+        "FIPS" : "54-54892",
+        "counties" : [
+            "Logan County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 314,
+        "population_2020" : 314,
+        "population_2027" : 307,
+        "land_area_2020" : 0.0
+    },
+    "Kermit, Mingo County, WV" : {
+        "name" : "Kermit",
+        "state" : "West Virginia",
+        "FIPS" : "54-43300",
+        "counties" : [
+            "Mingo County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 317,
+        "population_2020" : 317,
+        "population_2027" : 310,
+        "land_area_2020" : 0.0
+    },
+    "Tunnelton, Preston County, WV" : {
+        "name" : "Tunnelton",
+        "state" : "West Virginia",
+        "FIPS" : "54-81268",
+        "counties" : [
+            "Preston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 296,
+        "population_2020" : 296,
+        "population_2027" : 289,
+        "land_area_2020" : 0.0
+    },
+    "Harpers Ferry, Jefferson County, WV" : {
+        "name" : "Harpers Ferry",
+        "state" : "West Virginia",
+        "FIPS" : "54-35284",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 269,
+        "population_2020" : 269,
+        "population_2027" : 263,
+        "land_area_2020" : 0.0
+    },
+    "Bramwell, Mercer County, WV" : {
+        "name" : "Bramwell",
+        "state" : "West Virginia",
+        "FIPS" : "54-09796",
+        "counties" : [
+            "Mercer County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 276,
+        "population_2020" : 276,
+        "population_2027" : 270,
+        "land_area_2020" : 0.0
+    },
+    "Valley Grove, Ohio County, WV" : {
+        "name" : "Valley Grove",
+        "state" : "West Virginia",
+        "FIPS" : "54-82732",
+        "counties" : [
+            "Ohio County"
+        ],
+        "type_class" : "Village",
+        "population_2010" : 275,
+        "population_2020" : 275,
+        "population_2027" : 269,
+        "land_area_2020" : 0.0
+    },
+    "Wardensville, Hardy County, WV" : {
+        "name" : "Wardensville",
+        "state" : "West Virginia",
+        "FIPS" : "54-84580",
+        "counties" : [
+            "Hardy County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 269,
+        "population_2020" : 269,
+        "population_2027" : 263,
+        "land_area_2020" : 0.0
+    },
+    "Newburg, Preston County, WV" : {
+        "name" : "Newburg",
+        "state" : "West Virginia",
+        "FIPS" : "54-58300",
+        "counties" : [
+            "Preston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 259,
+        "population_2020" : 259,
+        "population_2027" : 253,
+        "land_area_2020" : 0.0
+    },
+    "Flatwoods, Braxton County, WV" : {
+        "name" : "Flatwoods",
+        "state" : "West Virginia",
+        "FIPS" : "54-27868",
+        "counties" : [
+            "Braxton County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 264,
+        "population_2020" : 264,
+        "population_2027" : 258,
+        "land_area_2020" : 0.0
+    },
+    "Kimball, McDowell County, WV" : {
+        "name" : "Kimball",
+        "state" : "West Virginia",
+        "FIPS" : "54-43780",
+        "counties" : [
+            "McDowell County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 145,
+        "population_2020" : 145,
+        "population_2027" : 142,
+        "land_area_2020" : 0.0
+    },
+    "Durbin, Pocahontas County, WV" : {
+        "name" : "Durbin",
+        "state" : "West Virginia",
+        "FIPS" : "54-22852",
+        "counties" : [
+            "Pocahontas County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 231,
+        "population_2020" : 231,
+        "population_2027" : 226,
+        "land_area_2020" : 0.0
+    },
+    "Albright, Preston County, WV" : {
+        "name" : "Albright",
+        "state" : "West Virginia",
+        "FIPS" : "54-00748",
+        "counties" : [
+            "Preston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 249,
+        "population_2020" : 249,
+        "population_2027" : 243,
+        "land_area_2020" : 0.0
+    },
+    "Ellenboro, Ritchie County, WV" : {
+        "name" : "Ellenboro",
+        "state" : "West Virginia",
+        "FIPS" : "54-24844",
+        "counties" : [
+            "Ritchie County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 221,
+        "population_2020" : 221,
+        "population_2027" : 216,
+        "land_area_2020" : 0.0
+    },
+    "Hundred, Wetzel County, WV" : {
+        "name" : "Hundred",
+        "state" : "West Virginia",
+        "FIPS" : "54-39340",
+        "counties" : [
+            "Wetzel County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 255,
+        "population_2020" : 255,
+        "population_2027" : 249,
+        "land_area_2020" : 0.0
+    },
+    "Iaeger, McDowell County, WV" : {
+        "name" : "Iaeger",
+        "state" : "West Virginia",
+        "FIPS" : "54-39652",
+        "counties" : [
+            "McDowell County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 257,
+        "population_2020" : 257,
+        "population_2027" : 251,
+        "land_area_2020" : 0.0
+    },
+    "Hillsboro, Pocahontas County, WV" : {
+        "name" : "Hillsboro",
+        "state" : "West Virginia",
+        "FIPS" : "54-37372",
+        "counties" : [
+            "Pocahontas County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 232,
+        "population_2020" : 232,
+        "population_2027" : 227,
+        "land_area_2020" : 0.0
+    },
+    "Henderson, Mason County, WV" : {
+        "name" : "Henderson",
+        "state" : "West Virginia",
+        "FIPS" : "54-36436",
+        "counties" : [
+            "Mason County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 228,
+        "population_2020" : 228,
+        "population_2027" : 223,
+        "land_area_2020" : 0.0
+    },
+    "Hendricks, Tucker County, WV" : {
+        "name" : "Hendricks",
+        "state" : "West Virginia",
+        "FIPS" : "54-36460",
+        "counties" : [
+            "Tucker County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 228,
+        "population_2020" : 228,
+        "population_2027" : 223,
+        "land_area_2020" : 0.0
+    },
+    "Handley, Kanawha County, WV" : {
+        "name" : "Handley",
+        "state" : "West Virginia",
+        "FIPS" : "54-34756",
+        "counties" : [
+            "Kanawha County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 223,
+        "population_2020" : 223,
+        "population_2027" : 218,
+        "land_area_2020" : 0.0
+    },
+    "Quinwood, Greenbrier County, WV" : {
+        "name" : "Quinwood",
+        "state" : "West Virginia",
+        "FIPS" : "54-66412",
+        "counties" : [
+            "Greenbrier County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 222,
+        "population_2020" : 222,
+        "population_2027" : 217,
+        "land_area_2020" : 0.0
+    },
+    "Hambleton, Tucker County, WV" : {
+        "name" : "Hambleton",
+        "state" : "West Virginia",
+        "FIPS" : "54-34492",
+        "counties" : [
+            "Tucker County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 218,
+        "population_2020" : 218,
+        "population_2027" : 213,
+        "land_area_2020" : 0.0
+    },
+    "Northfork, McDowell County, WV" : {
+        "name" : "Northfork",
+        "state" : "West Virginia",
+        "FIPS" : "54-59428",
+        "counties" : [
+            "McDowell County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 231,
+        "population_2020" : 231,
+        "population_2027" : 226,
+        "land_area_2020" : 0.0
+    },
+    "Elk Garden, Mineral County, WV" : {
+        "name" : "Elk Garden",
+        "state" : "West Virginia",
+        "FIPS" : "54-24484",
+        "counties" : [
+            "Mineral County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 212,
+        "population_2020" : 212,
+        "population_2027" : 207,
+        "land_area_2020" : 0.0
+    },
+    "Bayard, Grant County, WV" : {
+        "name" : "Bayard",
+        "state" : "West Virginia",
+        "FIPS" : "54-04924",
+        "counties" : [
+            "Grant County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 201,
+        "population_2020" : 201,
+        "population_2027" : 196,
+        "land_area_2020" : 0.0
+    },
+    "Davy, McDowell County, WV" : {
+        "name" : "Davy",
+        "state" : "West Virginia",
+        "FIPS" : "54-20500",
+        "counties" : [
+            "McDowell County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 209,
+        "population_2020" : 209,
+        "population_2027" : 204,
+        "land_area_2020" : 0.0
+    },
+    "Womelsdorf (Coalton), Randolph County, WV" : {
+        "name" : "Womelsdorf (Coalton)",
+        "state" : "West Virginia",
+        "FIPS" : "54-88324",
+        "counties" : [
+            "Randolph County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 189,
+        "population_2020" : 189,
+        "population_2027" : 185,
+        "land_area_2020" : 0.0
+    },
+    "Bradshaw, McDowell County, WV" : {
+        "name" : "Bradshaw",
+        "state" : "West Virginia",
+        "FIPS" : "54-09700",
+        "counties" : [
+            "McDowell County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 207,
+        "population_2020" : 207,
+        "population_2027" : 202,
+        "land_area_2020" : 0.0
+    },
+    "Sand Fork, Gilmer County, WV" : {
+        "name" : "Sand Fork",
+        "state" : "West Virginia",
+        "FIPS" : "54-71620",
+        "counties" : [
+            "Gilmer County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 180,
+        "population_2020" : 180,
+        "population_2027" : 176,
+        "land_area_2020" : 0.0
+    },
+    "Worthington, Marion County, WV" : {
+        "name" : "Worthington",
+        "state" : "West Virginia",
+        "FIPS" : "54-88708",
+        "counties" : [
+            "Marion County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 179,
+        "population_2020" : 179,
+        "population_2027" : 175,
+        "land_area_2020" : 0.0
+    },
+    "Falling Spring, Greenbrier County, WV" : {
+        "name" : "Falling Spring",
+        "state" : "West Virginia",
+        "FIPS" : "54-26692",
+        "counties" : [
+            "Greenbrier County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 170,
+        "population_2020" : 170,
+        "population_2027" : 166,
+        "land_area_2020" : 0.0
+    },
+    "Cairo, Ritchie County, WV" : {
+        "name" : "Cairo",
+        "state" : "West Virginia",
+        "FIPS" : "54-12124",
+        "counties" : [
+            "Ritchie County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 176,
+        "population_2020" : 176,
+        "population_2027" : 172,
+        "land_area_2020" : 0.0
+    },
+    "Huttonsville, Randolph County, WV" : {
+        "name" : "Huttonsville",
+        "state" : "West Virginia",
+        "FIPS" : "54-39628",
+        "counties" : [
+            "Randolph County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 163,
+        "population_2020" : 163,
+        "population_2027" : 159,
+        "land_area_2020" : 0.0
+    },
+    "Keystone, McDowell County, WV" : {
+        "name" : "Keystone",
+        "state" : "West Virginia",
+        "FIPS" : "54-43516",
+        "counties" : [
+            "McDowell County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 176,
+        "population_2020" : 176,
+        "population_2027" : 172,
+        "land_area_2020" : 0.0
+    },
+    "Sylvester, Boone County, WV" : {
+        "name" : "Sylvester",
+        "state" : "West Virginia",
+        "FIPS" : "54-78964",
+        "counties" : [
+            "Boone County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 171,
+        "population_2020" : 171,
+        "population_2027" : 167,
+        "land_area_2020" : 0.0
+    },
+    "Anawalt, McDowell County, WV" : {
+        "name" : "Anawalt",
+        "state" : "West Virginia",
+        "FIPS" : "54-01780",
+        "counties" : [
+            "McDowell County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 165,
+        "population_2020" : 165,
+        "population_2027" : 161,
+        "land_area_2020" : 0.0
+    },
+    "Reedy, Roane County, WV" : {
+        "name" : "Reedy",
+        "state" : "West Virginia",
+        "FIPS" : "54-67660",
+        "counties" : [
+            "Roane County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 150,
+        "population_2020" : 150,
+        "population_2027" : 147,
+        "land_area_2020" : 0.0
+    },
+    "Montrose, Randolph County, WV" : {
+        "name" : "Montrose",
+        "state" : "West Virginia",
+        "FIPS" : "54-55540",
+        "counties" : [
+            "Randolph County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 145,
+        "population_2020" : 145,
+        "population_2027" : 142,
+        "land_area_2020" : 0.0
+    },
+    "Rhodell, Raleigh County, WV" : {
+        "name" : "Rhodell",
+        "state" : "West Virginia",
+        "FIPS" : "54-67996",
+        "counties" : [
+            "Raleigh County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 141,
+        "population_2020" : 141,
+        "population_2027" : 138,
+        "land_area_2020" : 0.0
+    },
+    "Oakvale, Mercer County, WV" : {
+        "name" : "Oakvale",
+        "state" : "West Virginia",
+        "FIPS" : "54-60196",
+        "counties" : [
+            "Mercer County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 133,
+        "population_2020" : 133,
+        "population_2027" : 130,
+        "land_area_2020" : 0.0
+    },
+    "Pullman, Ritchie County, WV" : {
+        "name" : "Pullman",
+        "state" : "West Virginia",
+        "FIPS" : "54-65956",
+        "counties" : [
+            "Ritchie County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 135,
+        "population_2020" : 135,
+        "population_2027" : 132,
+        "land_area_2020" : 0.0
+    },
+    "Pax, Fayette County, WV" : {
+        "name" : "Pax",
+        "state" : "West Virginia",
+        "FIPS" : "54-62356",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 136,
+        "population_2020" : 136,
+        "population_2027" : 133,
+        "land_area_2020" : 0.0
+    },
+    "Leon, Mason County, WV" : {
+        "name" : "Leon",
+        "state" : "West Virginia",
+        "FIPS" : "54-46300",
+        "counties" : [
+            "Mason County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 137,
+        "population_2020" : 137,
+        "population_2027" : 134,
+        "land_area_2020" : 0.0
+    },
+    "Brandonville, Preston County, WV" : {
+        "name" : "Brandonville",
+        "state" : "West Virginia",
+        "FIPS" : "54-09844",
+        "counties" : [
+            "Preston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 129,
+        "population_2020" : 129,
+        "population_2027" : 126,
+        "land_area_2020" : 0.0
+    },
+    "Camden-on-Gauley, Webster County, WV" : {
+        "name" : "Camden-on-Gauley",
+        "state" : "West Virginia",
+        "FIPS" : "54-12436",
+        "counties" : [
+            "Webster County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 126,
+        "population_2020" : 126,
+        "population_2027" : 123,
+        "land_area_2020" : 0.0
+    },
+    "Blacksville, Monongalia County, WV" : {
+        "name" : "Blacksville",
+        "state" : "West Virginia",
+        "FIPS" : "54-08092",
+        "counties" : [
+            "Monongalia County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 118,
+        "population_2020" : 118,
+        "population_2027" : 115,
+        "land_area_2020" : 0.0
+    },
+    "Smithfield, Wetzel County, WV" : {
+        "name" : "Smithfield",
+        "state" : "West Virginia",
+        "FIPS" : "54-74788",
+        "counties" : [
+            "Wetzel County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 103,
+        "population_2020" : 103,
+        "population_2027" : 101,
+        "land_area_2020" : 0.0
+    },
+    "Friendly, Tyler County, WV" : {
+        "name" : "Friendly",
+        "state" : "West Virginia",
+        "FIPS" : "54-29404",
+        "counties" : [
+            "Tyler County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 101,
+        "population_2020" : 101,
+        "population_2027" : 99,
+        "land_area_2020" : 0.0
+    },
+    "Harman, Randolph County, WV" : {
+        "name" : "Harman",
+        "state" : "West Virginia",
+        "FIPS" : "54-35092",
+        "counties" : [
+            "Randolph County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 95,
+        "population_2020" : 95,
+        "population_2027" : 93,
+        "land_area_2020" : 0.0
+    },
+    "Auburn, Ritchie County, WV" : {
+        "name" : "Auburn",
+        "state" : "West Virginia",
+        "FIPS" : "54-03364",
+        "counties" : [
+            "Ritchie County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 79,
+        "population_2020" : 79,
+        "population_2027" : 77,
+        "land_area_2020" : 0.0
+    },
+    "Bruceton Mills, Preston County, WV" : {
+        "name" : "Bruceton Mills",
+        "state" : "West Virginia",
+        "FIPS" : "54-10852",
+        "counties" : [
+            "Preston County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 63,
+        "population_2020" : 63,
+        "population_2027" : 62,
+        "land_area_2020" : 0.0
+    },
+    "Thurmond, Fayette County, WV" : {
+        "name" : "Thurmond",
+        "state" : "West Virginia",
+        "FIPS" : "54-80284",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5,
+        "population_2020" : 5,
+        "population_2027" : 5,
+        "land_area_2020" : 0.0
+    }
+}

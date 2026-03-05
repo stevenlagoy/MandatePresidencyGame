@@ -1,0 +1,1965 @@
+{
+    "Honolulu, Honolulu County, HI" : {
+        "name" : "Honolulu",
+        "state" : "Hawaii",
+        "FIPS" : "15-17000",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 350964,
+        "population_2020" : 350964,
+        "population_2027" : 347295,
+        "land_area_2020" : 0.0
+    },
+    "East Honolulu, Honolulu County, HI" : {
+        "name" : "East Honolulu",
+        "state" : "Hawaii",
+        "FIPS" : "15-06290",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 50922,
+        "population_2020" : 50922,
+        "population_2027" : 50390,
+        "land_area_2020" : 0.0
+    },
+    "Pearl City, Honolulu County, HI" : {
+        "name" : "Pearl City",
+        "state" : "Hawaii",
+        "FIPS" : "15-62600",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 45295,
+        "population_2020" : 45295,
+        "population_2027" : 44822,
+        "land_area_2020" : 0.0
+    },
+    "Hilo, Hawaii County, HI" : {
+        "name" : "Hilo",
+        "state" : "Hawaii",
+        "FIPS" : "15-14650",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 44186,
+        "population_2020" : 44186,
+        "population_2027" : 43724,
+        "land_area_2020" : 0.0
+    },
+    "Waipahu, Honolulu County, HI" : {
+        "name" : "Waipahu",
+        "state" : "Hawaii",
+        "FIPS" : "15-79700",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 43485,
+        "population_2020" : 43485,
+        "population_2027" : 43030,
+        "land_area_2020" : 0.0
+    },
+    "Kailua, Honolulu County, HI" : {
+        "name" : "Kailua",
+        "state" : "Hawaii",
+        "FIPS" : "15-23150",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 40514,
+        "population_2020" : 40514,
+        "population_2027" : 40091,
+        "land_area_2020" : 0.0
+    },
+    "Kaneohe, Honolulu County, HI" : {
+        "name" : "Kaneohe",
+        "state" : "Hawaii",
+        "FIPS" : "15-28250",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 37430,
+        "population_2020" : 37430,
+        "population_2027" : 37039,
+        "land_area_2020" : 0.0
+    },
+    "Kahului, Maui County, HI" : {
+        "name" : "Kahului",
+        "state" : "Hawaii",
+        "FIPS" : "15-22700",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 28219,
+        "population_2020" : 28219,
+        "population_2027" : 27924,
+        "land_area_2020" : 0.0
+    },
+    "Mililani Town, Honolulu County, HI" : {
+        "name" : "Mililani Town",
+        "state" : "Hawaii",
+        "FIPS" : "15-51050",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 28121,
+        "population_2020" : 28121,
+        "population_2027" : 27827,
+        "land_area_2020" : 0.0
+    },
+    "'Ewa Gentry, Honolulu County, HI" : {
+        "name" : "'Ewa Gentry",
+        "state" : "Hawaii",
+        "FIPS" : "15-07470",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 25707,
+        "population_2020" : 25707,
+        "population_2027" : 25438,
+        "land_area_2020" : 0.0
+    },
+    "Kihei, Maui County, HI" : {
+        "name" : "Kihei",
+        "state" : "Hawaii",
+        "FIPS" : "15-36500",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 21423,
+        "population_2020" : 21423,
+        "population_2027" : 21199,
+        "land_area_2020" : 0.0
+    },
+    "Kapolei, Honolulu County, HI" : {
+        "name" : "Kapolei",
+        "state" : "Hawaii",
+        "FIPS" : "15-30300",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 21411,
+        "population_2020" : 21411,
+        "population_2027" : 21187,
+        "land_area_2020" : 0.0
+    },
+    "Mililani Mauka, Honolulu County, HI" : {
+        "name" : "Mililani Mauka",
+        "state" : "Hawaii",
+        "FIPS" : "15-51000",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 21075,
+        "population_2020" : 21075,
+        "population_2027" : 20855,
+        "land_area_2020" : 0.0
+    },
+    "Makakilo, Honolulu County, HI" : {
+        "name" : "Makakilo",
+        "state" : "Hawaii",
+        "FIPS" : "15-47600",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 19877,
+        "population_2020" : 19877,
+        "population_2027" : 19669,
+        "land_area_2020" : 0.0
+    },
+    "Kailua-Kona, Hawaii County, HI" : {
+        "name" : "Kailua-Kona",
+        "state" : "Hawaii",
+        "FIPS" : "15-23000",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 19713,
+        "population_2020" : 19713,
+        "population_2027" : 19507,
+        "land_area_2020" : 0.0
+    },
+    "Wahiawa, Honolulu County, HI" : {
+        "name" : "Wahiawa",
+        "state" : "Hawaii",
+        "FIPS" : "15-72650",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 18658,
+        "population_2020" : 18658,
+        "population_2027" : 18463,
+        "land_area_2020" : 0.0
+    },
+    "Wailuku, Maui County, HI" : {
+        "name" : "Wailuku",
+        "state" : "Hawaii",
+        "FIPS" : "15-77450",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 17697,
+        "population_2020" : 17697,
+        "population_2027" : 17512,
+        "land_area_2020" : 0.0
+    },
+    "Ewa Beach, Honolulu County, HI" : {
+        "name" : "Ewa Beach",
+        "state" : "Hawaii",
+        "FIPS" : "15-07450",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 16415,
+        "population_2020" : 16415,
+        "population_2027" : 16243,
+        "land_area_2020" : 0.0
+    },
+    "Halawa, Honolulu County, HI" : {
+        "name" : "Halawa",
+        "state" : "Hawaii",
+        "FIPS" : "15-10000",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 15016,
+        "population_2020" : 15016,
+        "population_2027" : 14859,
+        "land_area_2020" : 0.0
+    },
+    "Ocean Pointe, Honolulu County, HI" : {
+        "name" : "Ocean Pointe",
+        "state" : "Hawaii",
+        "FIPS" : "15-56685",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 14965,
+        "population_2020" : 14965,
+        "population_2027" : 14809,
+        "land_area_2020" : 0.0
+    },
+    "Hawaiian Paradise Park, Hawaii County, HI" : {
+        "name" : "Hawaiian Paradise Park",
+        "state" : "Hawaii",
+        "FIPS" : "15-12600",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 14957,
+        "population_2020" : 14957,
+        "population_2027" : 14801,
+        "land_area_2020" : 0.0
+    },
+    "Schofield Barracks, Honolulu County, HI" : {
+        "name" : "Schofield Barracks",
+        "state" : "Hawaii",
+        "FIPS" : "15-69050",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 14904,
+        "population_2020" : 14904,
+        "population_2027" : 14748,
+        "land_area_2020" : 0.0
+    },
+    "Royal Kunia, Honolulu County, HI" : {
+        "name" : "Royal Kunia",
+        "state" : "Hawaii",
+        "FIPS" : "15-68815",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 14896,
+        "population_2020" : 14896,
+        "population_2027" : 14740,
+        "land_area_2020" : 0.0
+    },
+    "Waimalu, Honolulu County, HI" : {
+        "name" : "Waimalu",
+        "state" : "Hawaii",
+        "FIPS" : "15-77750",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 13817,
+        "population_2020" : 13817,
+        "population_2027" : 13673,
+        "land_area_2020" : 0.0
+    },
+    "Waianae, Honolulu County, HI" : {
+        "name" : "Waianae",
+        "state" : "Hawaii",
+        "FIPS" : "15-74450",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 13614,
+        "population_2020" : 13614,
+        "population_2027" : 13472,
+        "land_area_2020" : 0.0
+    },
+    "Lahaina, Maui County, HI" : {
+        "name" : "Lahaina",
+        "state" : "Hawaii",
+        "FIPS" : "15-42950",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 12702,
+        "population_2020" : 12702,
+        "population_2027" : 12569,
+        "land_area_2020" : 0.0
+    },
+    "Kalaoa, Hawaii County, HI" : {
+        "name" : "Kalaoa",
+        "state" : "Hawaii",
+        "FIPS" : "15-25400",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 12590,
+        "population_2020" : 12590,
+        "population_2027" : 12458,
+        "land_area_2020" : 0.0
+    },
+    "Nanakuli, Honolulu County, HI" : {
+        "name" : "Nanakuli",
+        "state" : "Hawaii",
+        "FIPS" : "15-53900",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 12195,
+        "population_2020" : 12195,
+        "population_2027" : 12068,
+        "land_area_2020" : 0.0
+    },
+    "Waipio, Honolulu County, HI" : {
+        "name" : "Waipio",
+        "state" : "Hawaii",
+        "FIPS" : "15-79860",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 12082,
+        "population_2020" : 12082,
+        "population_2027" : 11956,
+        "land_area_2020" : 0.0
+    },
+    "Kapaa, Kauai County, HI" : {
+        "name" : "Kapaa",
+        "state" : "Hawaii",
+        "FIPS" : "15-28850",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 11652,
+        "population_2020" : 11652,
+        "population_2027" : 11530,
+        "land_area_2020" : 0.0
+    },
+    "Maili, Honolulu County, HI" : {
+        "name" : "Maili",
+        "state" : "Hawaii",
+        "FIPS" : "15-47300",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 11535,
+        "population_2020" : 11535,
+        "population_2027" : 11414,
+        "land_area_2020" : 0.0
+    },
+    "Aiea, Honolulu County, HI" : {
+        "name" : "Aiea",
+        "state" : "Hawaii",
+        "FIPS" : "15-00550",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 10408,
+        "population_2020" : 10408,
+        "population_2027" : 10299,
+        "land_area_2020" : 0.0
+    },
+    "Makaha, Honolulu County, HI" : {
+        "name" : "Makaha",
+        "state" : "Hawaii",
+        "FIPS" : "15-47450",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 9916,
+        "population_2020" : 9916,
+        "population_2027" : 9812,
+        "land_area_2020" : 0.0
+    },
+    "Waimea, Hawaii County, HI" : {
+        "name" : "Waimea",
+        "state" : "Hawaii",
+        "FIPS" : "15-78800",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 9904,
+        "population_2020" : 9904,
+        "population_2027" : 9800,
+        "land_area_2020" : 0.0
+    },
+    "Kaneohe Base, Honolulu County, HI" : {
+        "name" : "Kaneohe Base",
+        "state" : "Hawaii",
+        "FIPS" : "15-28287",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 9483,
+        "population_2020" : 9483,
+        "population_2027" : 9384,
+        "land_area_2020" : 0.0
+    },
+    "Waihee-Waiehu, Maui County, HI" : {
+        "name" : "Waihee-Waiehu",
+        "state" : "Hawaii",
+        "FIPS" : "15-75510",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 9234,
+        "population_2020" : 9234,
+        "population_2027" : 9137,
+        "land_area_2020" : 0.0
+    },
+    "Ahuimanu, Honolulu County, HI" : {
+        "name" : "Ahuimanu",
+        "state" : "Hawaii",
+        "FIPS" : "15-00400",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 8969,
+        "population_2020" : 8969,
+        "population_2027" : 8875,
+        "land_area_2020" : 0.0
+    },
+    "Haiku-Pauwela, Maui County, HI" : {
+        "name" : "Haiku-Pauwela",
+        "state" : "Hawaii",
+        "FIPS" : "15-09260",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 8595,
+        "population_2020" : 8595,
+        "population_2027" : 8505,
+        "land_area_2020" : 0.0
+    },
+    "Pukalani, Maui County, HI" : {
+        "name" : "Pukalani",
+        "state" : "Hawaii",
+        "FIPS" : "15-65900",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 8299,
+        "population_2020" : 8299,
+        "population_2027" : 8212,
+        "land_area_2020" : 0.0
+    },
+    "Lihue, Kauai County, HI" : {
+        "name" : "Lihue",
+        "state" : "Hawaii",
+        "FIPS" : "15-45200",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 8004,
+        "population_2020" : 8004,
+        "population_2027" : 7920,
+        "land_area_2020" : 0.0
+    },
+    "Ewa Villages, Honolulu County, HI" : {
+        "name" : "Ewa Villages",
+        "state" : "Hawaii",
+        "FIPS" : "15-07485",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 7825,
+        "population_2020" : 7825,
+        "population_2027" : 7743,
+        "land_area_2020" : 0.0
+    },
+    "Hickam Housing, Honolulu County, HI" : {
+        "name" : "Hickam Housing",
+        "state" : "Hawaii",
+        "FIPS" : "15-14200",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 7581,
+        "population_2020" : 7581,
+        "population_2027" : 7502,
+        "land_area_2020" : 0.0
+    },
+    "Waikele, Honolulu County, HI" : {
+        "name" : "Waikele",
+        "state" : "Hawaii",
+        "FIPS" : "15-76250",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 7509,
+        "population_2020" : 7509,
+        "population_2027" : 7431,
+        "land_area_2020" : 0.0
+    },
+    "Makawao, Maui County, HI" : {
+        "name" : "Makawao",
+        "state" : "Hawaii",
+        "FIPS" : "15-48050",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 7297,
+        "population_2020" : 7297,
+        "population_2027" : 7221,
+        "land_area_2020" : 0.0
+    },
+    "Waikoloa Village, Hawaii County, HI" : {
+        "name" : "Waikoloa Village",
+        "state" : "Hawaii",
+        "FIPS" : "15-76600",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 7104,
+        "population_2020" : 7104,
+        "population_2027" : 7030,
+        "land_area_2020" : 0.0
+    },
+    "Napili-Honokowai, Maui County, HI" : {
+        "name" : "Napili-Honokowai",
+        "state" : "Hawaii",
+        "FIPS" : "15-54100",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 7042,
+        "population_2020" : 7042,
+        "population_2027" : 6968,
+        "land_area_2020" : 0.0
+    },
+    "Kula, Maui County, HI" : {
+        "name" : "Kula",
+        "state" : "Hawaii",
+        "FIPS" : "15-41600",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 6942,
+        "population_2020" : 6942,
+        "population_2027" : 6869,
+        "land_area_2020" : 0.0
+    },
+    "Waimanalo, Honolulu County, HI" : {
+        "name" : "Waimanalo",
+        "state" : "Hawaii",
+        "FIPS" : "15-78050",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 6057,
+        "population_2020" : 6057,
+        "population_2027" : 5994,
+        "land_area_2020" : 0.0
+    },
+    "Wailea, Maui County, HI" : {
+        "name" : "Wailea",
+        "state" : "Hawaii",
+        "FIPS" : "15-76925",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 6027,
+        "population_2020" : 6027,
+        "population_2027" : 5964,
+        "land_area_2020" : 0.0
+    },
+    "Laie, Honolulu County, HI" : {
+        "name" : "Laie",
+        "state" : "Hawaii",
+        "FIPS" : "15-43250",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 5963,
+        "population_2020" : 5963,
+        "population_2027" : 5901,
+        "land_area_2020" : 0.0
+    },
+    "Wailua Homesteads, Kauai County, HI" : {
+        "name" : "Wailua Homesteads",
+        "state" : "Hawaii",
+        "FIPS" : "15-77225",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 5863,
+        "population_2020" : 5863,
+        "population_2027" : 5802,
+        "land_area_2020" : 0.0
+    },
+    "Waipio Acres, Honolulu County, HI" : {
+        "name" : "Waipio Acres",
+        "state" : "Hawaii",
+        "FIPS" : "15-80000",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 5531,
+        "population_2020" : 5531,
+        "population_2027" : 5473,
+        "land_area_2020" : 0.0
+    },
+    "West Loch Estate, Honolulu County, HI" : {
+        "name" : "West Loch Estate",
+        "state" : "Hawaii",
+        "FIPS" : "15-80470",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 5523,
+        "population_2020" : 5523,
+        "population_2027" : 5465,
+        "land_area_2020" : 0.0
+    },
+    "Kahaluu, Honolulu County, HI" : {
+        "name" : "Kahaluu",
+        "state" : "Hawaii",
+        "FIPS" : "15-21200",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 5241,
+        "population_2020" : 5241,
+        "population_2027" : 5186,
+        "land_area_2020" : 0.0
+    },
+    "Pupukea, Honolulu County, HI" : {
+        "name" : "Pupukea",
+        "state" : "Hawaii",
+        "FIPS" : "15-66800",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 5130,
+        "population_2020" : 5130,
+        "population_2027" : 5076,
+        "land_area_2020" : 0.0
+    },
+    "Heeia, Honolulu County, HI" : {
+        "name" : "Heeia",
+        "state" : "Hawaii",
+        "FIPS" : "15-13900",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 5001,
+        "population_2020" : 5001,
+        "population_2027" : 4949,
+        "land_area_2020" : 0.0
+    },
+    "Kalaheo, Kauai County, HI" : {
+        "name" : "Kalaheo",
+        "state" : "Hawaii",
+        "FIPS" : "15-24950",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 4996,
+        "population_2020" : 4996,
+        "population_2027" : 4944,
+        "land_area_2020" : 0.0
+    },
+    "Hanamaulu, Kauai County, HI" : {
+        "name" : "Hanamaulu",
+        "state" : "Hawaii",
+        "FIPS" : "15-11650",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 4994,
+        "population_2020" : 4994,
+        "population_2027" : 4942,
+        "land_area_2020" : 0.0
+    },
+    "Haleiwa, Honolulu County, HI" : {
+        "name" : "Haleiwa",
+        "state" : "Hawaii",
+        "FIPS" : "15-10750",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 4941,
+        "population_2020" : 4941,
+        "population_2027" : 4889,
+        "land_area_2020" : 0.0
+    },
+    "Whitmore Village, Honolulu County, HI" : {
+        "name" : "Whitmore Village",
+        "state" : "Hawaii",
+        "FIPS" : "15-80900",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 4887,
+        "population_2020" : 4887,
+        "population_2027" : 4836,
+        "land_area_2020" : 0.0
+    },
+    "Hawaiian Ocean View, Hawaii County, HI" : {
+        "name" : "Hawaiian Ocean View",
+        "state" : "Hawaii",
+        "FIPS" : "15-12530",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 4864,
+        "population_2020" : 4864,
+        "population_2027" : 4813,
+        "land_area_2020" : 0.0
+    },
+    "Waimanalo Beach, Honolulu County, HI" : {
+        "name" : "Waimanalo Beach",
+        "state" : "Hawaii",
+        "FIPS" : "15-78200",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 4823,
+        "population_2020" : 4823,
+        "population_2027" : 4773,
+        "land_area_2020" : 0.0
+    },
+    "Kahaluu-Keauhou, Hawaii County, HI" : {
+        "name" : "Kahaluu-Keauhou",
+        "state" : "Hawaii",
+        "FIPS" : "15-21230",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 4778,
+        "population_2020" : 4778,
+        "population_2027" : 4728,
+        "land_area_2020" : 0.0
+    },
+    "Iroquois Point, Honolulu County, HI" : {
+        "name" : "Iroquois Point",
+        "state" : "Hawaii",
+        "FIPS" : "15-19100",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 4549,
+        "population_2020" : 4549,
+        "population_2027" : 4501,
+        "land_area_2020" : 0.0
+    },
+    "Mountain View, Hawaii County, HI" : {
+        "name" : "Mountain View",
+        "state" : "Hawaii",
+        "FIPS" : "15-53300",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 4215,
+        "population_2020" : 4215,
+        "population_2027" : 4171,
+        "land_area_2020" : 0.0
+    },
+    "Waialua, Honolulu County, HI" : {
+        "name" : "Waialua",
+        "state" : "Hawaii",
+        "FIPS" : "15-74000",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 4062,
+        "population_2020" : 4062,
+        "population_2027" : 4020,
+        "land_area_2020" : 0.0
+    },
+    "Hauula, Honolulu County, HI" : {
+        "name" : "Hauula",
+        "state" : "Hawaii",
+        "FIPS" : "15-12400",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 4018,
+        "population_2020" : 4018,
+        "population_2027" : 3976,
+        "land_area_2020" : 0.0
+    },
+    "Hawaiian Beaches, Hawaii County, HI" : {
+        "name" : "Hawaiian Beaches",
+        "state" : "Hawaii",
+        "FIPS" : "15-12500",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 3976,
+        "population_2020" : 3976,
+        "population_2027" : 3934,
+        "land_area_2020" : 0.0
+    },
+    "Kekaha, Kauai County, HI" : {
+        "name" : "Kekaha",
+        "state" : "Hawaii",
+        "FIPS" : "15-35600",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 3715,
+        "population_2020" : 3715,
+        "population_2027" : 3676,
+        "land_area_2020" : 0.0
+    },
+    "Ainaloa, Hawaii County, HI" : {
+        "name" : "Ainaloa",
+        "state" : "Hawaii",
+        "FIPS" : "15-01085",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 3609,
+        "population_2020" : 3609,
+        "population_2027" : 3571,
+        "land_area_2020" : 0.0
+    },
+    "Waikapu, Maui County, HI" : {
+        "name" : "Waikapu",
+        "state" : "Hawaii",
+        "FIPS" : "15-75950",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 3437,
+        "population_2020" : 3437,
+        "population_2027" : 3401,
+        "land_area_2020" : 0.0
+    },
+    "Hawaiian Acres, Hawaii County, HI" : {
+        "name" : "Hawaiian Acres",
+        "state" : "Hawaii",
+        "FIPS" : "15-12450",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 3426,
+        "population_2020" : 3426,
+        "population_2027" : 3390,
+        "land_area_2020" : 0.0
+    },
+    "Kaunakakai, Maui County, HI" : {
+        "name" : "Kaunakakai",
+        "state" : "Hawaii",
+        "FIPS" : "15-31100",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 3419,
+        "population_2020" : 3419,
+        "population_2027" : 3383,
+        "land_area_2020" : 0.0
+    },
+    "Puhi, Kauai County, HI" : {
+        "name" : "Puhi",
+        "state" : "Hawaii",
+        "FIPS" : "15-65750",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 3380,
+        "population_2020" : 3380,
+        "population_2027" : 3345,
+        "land_area_2020" : 0.0
+    },
+    "Lanai City, Maui County, HI" : {
+        "name" : "Lanai City",
+        "state" : "Hawaii",
+        "FIPS" : "15-43700",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 3332,
+        "population_2020" : 3332,
+        "population_2027" : 3297,
+        "land_area_2020" : 0.0
+    },
+    "Captain Cook, Hawaii County, HI" : {
+        "name" : "Captain Cook",
+        "state" : "Hawaii",
+        "FIPS" : "15-03850",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 3253,
+        "population_2020" : 3253,
+        "population_2027" : 3219,
+        "land_area_2020" : 0.0
+    },
+    "Orchidlands Estates, Hawaii County, HI" : {
+        "name" : "Orchidlands Estates",
+        "state" : "Hawaii",
+        "FIPS" : "15-58775",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 3165,
+        "population_2020" : 3165,
+        "population_2027" : 3132,
+        "land_area_2020" : 0.0
+    },
+    "Kilauea, Kauai County, HI" : {
+        "name" : "Kilauea",
+        "state" : "Hawaii",
+        "FIPS" : "15-36650",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 3014,
+        "population_2020" : 3014,
+        "population_2027" : 2982,
+        "land_area_2020" : 0.0
+    },
+    "Holualoa, Hawaii County, HI" : {
+        "name" : "Holualoa",
+        "state" : "Hawaii",
+        "FIPS" : "15-15700",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 2994,
+        "population_2020" : 2994,
+        "population_2027" : 2963,
+        "land_area_2020" : 0.0
+    },
+    "Kahuku, Honolulu County, HI" : {
+        "name" : "Kahuku",
+        "state" : "Hawaii",
+        "FIPS" : "15-22250",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 2852,
+        "population_2020" : 2852,
+        "population_2027" : 2822,
+        "land_area_2020" : 0.0
+    },
+    "Honokaa, Hawaii County, HI" : {
+        "name" : "Honokaa",
+        "state" : "Hawaii",
+        "FIPS" : "15-16450",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 2699,
+        "population_2020" : 2699,
+        "population_2027" : 2671,
+        "land_area_2020" : 0.0
+    },
+    "Hanapepe, Kauai County, HI" : {
+        "name" : "Hanapepe",
+        "state" : "Hawaii",
+        "FIPS" : "15-11800",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 2678,
+        "population_2020" : 2678,
+        "population_2027" : 2650,
+        "land_area_2020" : 0.0
+    },
+    "Lawai, Kauai County, HI" : {
+        "name" : "Lawai",
+        "state" : "Hawaii",
+        "FIPS" : "15-44450",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 2578,
+        "population_2020" : 2578,
+        "population_2027" : 2551,
+        "land_area_2020" : 0.0
+    },
+    "Eleele, Kauai County, HI" : {
+        "name" : "Eleele",
+        "state" : "Hawaii",
+        "FIPS" : "15-07000",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 2515,
+        "population_2020" : 2515,
+        "population_2027" : 2489,
+        "land_area_2020" : 0.0
+    },
+    "Kurtistown, Hawaii County, HI" : {
+        "name" : "Kurtistown",
+        "state" : "Hawaii",
+        "FIPS" : "15-42800",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 2515,
+        "population_2020" : 2515,
+        "population_2027" : 2489,
+        "land_area_2020" : 0.0
+    },
+    "Paia, Maui County, HI" : {
+        "name" : "Paia",
+        "state" : "Hawaii",
+        "FIPS" : "15-60200",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 2470,
+        "population_2020" : 2470,
+        "population_2027" : 2444,
+        "land_area_2020" : 0.0
+    },
+    "Honaunau-Napoopoo, Hawaii County, HI" : {
+        "name" : "Honaunau-Napoopoo",
+        "state" : "Hawaii",
+        "FIPS" : "15-16160",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 2416,
+        "population_2020" : 2416,
+        "population_2027" : 2391,
+        "land_area_2020" : 0.0
+    },
+    "Wheeler AFB, Honolulu County, HI" : {
+        "name" : "Wheeler AFB",
+        "state" : "Hawaii",
+        "FIPS" : "15-80600",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 2412,
+        "population_2020" : 2412,
+        "population_2027" : 2387,
+        "land_area_2020" : 0.0
+    },
+    "Kalaeloa, Honolulu County, HI" : {
+        "name" : "Kalaeloa",
+        "state" : "Hawaii",
+        "FIPS" : "15-24850",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 2364,
+        "population_2020" : 2364,
+        "population_2027" : 2339,
+        "land_area_2020" : 0.0
+    },
+    "Wailua, Kauai County, HI" : {
+        "name" : "Wailua",
+        "state" : "Hawaii",
+        "FIPS" : "15-77000",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 2359,
+        "population_2020" : 2359,
+        "population_2027" : 2334,
+        "land_area_2020" : 0.0
+    },
+    "Kealakekua, Hawaii County, HI" : {
+        "name" : "Kealakekua",
+        "state" : "Hawaii",
+        "FIPS" : "15-33950",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 2307,
+        "population_2020" : 2307,
+        "population_2027" : 2283,
+        "land_area_2020" : 0.0
+    },
+    "Hawi, Hawaii County, HI" : {
+        "name" : "Hawi",
+        "state" : "Hawaii",
+        "FIPS" : "15-13600",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 2268,
+        "population_2020" : 2268,
+        "population_2027" : 2244,
+        "land_area_2020" : 0.0
+    },
+    "Anahola, Kauai County, HI" : {
+        "name" : "Anahola",
+        "state" : "Hawaii",
+        "FIPS" : "15-02200",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 2243,
+        "population_2020" : 2243,
+        "population_2027" : 2220,
+        "land_area_2020" : 0.0
+    },
+    "Koloa, Kauai County, HI" : {
+        "name" : "Koloa",
+        "state" : "Hawaii",
+        "FIPS" : "15-39200",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 2231,
+        "population_2020" : 2231,
+        "population_2027" : 2208,
+        "land_area_2020" : 0.0
+    },
+    "Keokea, Maui County, HI" : {
+        "name" : "Keokea",
+        "state" : "Hawaii",
+        "FIPS" : "15-36050",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 2199,
+        "population_2020" : 2199,
+        "population_2027" : 2176,
+        "land_area_2020" : 0.0
+    },
+    "Princeville, Kauai County, HI" : {
+        "name" : "Princeville",
+        "state" : "Hawaii",
+        "FIPS" : "15-65075",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 2157,
+        "population_2020" : 2157,
+        "population_2027" : 2134,
+        "land_area_2020" : 0.0
+    },
+    "Kualapuu, Maui County, HI" : {
+        "name" : "Kualapuu",
+        "state" : "Hawaii",
+        "FIPS" : "15-39500",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 2110,
+        "population_2020" : 2110,
+        "population_2027" : 2088,
+        "land_area_2020" : 0.0
+    },
+    "Waimea, Kauai County, HI" : {
+        "name" : "Waimea",
+        "state" : "Hawaii",
+        "FIPS" : "15-78800",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 2057,
+        "population_2020" : 2057,
+        "population_2027" : 2035,
+        "land_area_2020" : 0.0
+    },
+    "Maunawili, Honolulu County, HI" : {
+        "name" : "Maunawili",
+        "state" : "Hawaii",
+        "FIPS" : "15-50750",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 2026,
+        "population_2020" : 2026,
+        "population_2027" : 2005,
+        "land_area_2020" : 0.0
+    },
+    "Kapaau, Hawaii County, HI" : {
+        "name" : "Kapaau",
+        "state" : "Hawaii",
+        "FIPS" : "15-29000",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 2008,
+        "population_2020" : 2008,
+        "population_2027" : 1987,
+        "land_area_2020" : 0.0
+    },
+    "Ko Olina, Honolulu County, HI" : {
+        "name" : "Ko Olina",
+        "state" : "Hawaii",
+        "FIPS" : "15-39400",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 1999,
+        "population_2020" : 1999,
+        "population_2027" : 1978,
+        "land_area_2020" : 0.0
+    },
+    "Fern Acres, Hawaii County, HI" : {
+        "name" : "Fern Acres",
+        "state" : "Hawaii",
+        "FIPS" : "15-07542",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 1965,
+        "population_2020" : 1965,
+        "population_2027" : 1944,
+        "land_area_2020" : 0.0
+    },
+    "Pepeekeo, Hawaii County, HI" : {
+        "name" : "Pepeekeo",
+        "state" : "Hawaii",
+        "FIPS" : "15-63650",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 1826,
+        "population_2020" : 1826,
+        "population_2027" : 1807,
+        "land_area_2020" : 0.0
+    },
+    "Mokuleia, Honolulu County, HI" : {
+        "name" : "Mokuleia",
+        "state" : "Hawaii",
+        "FIPS" : "15-52550",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 1816,
+        "population_2020" : 1816,
+        "population_2027" : 1797,
+        "land_area_2020" : 0.0
+    },
+    "Nanawale Estates, Hawaii County, HI" : {
+        "name" : "Nanawale Estates",
+        "state" : "Hawaii",
+        "FIPS" : "15-53975",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 1652,
+        "population_2020" : 1652,
+        "population_2027" : 1635,
+        "land_area_2020" : 0.0
+    },
+    "Hana, Maui County, HI" : {
+        "name" : "Hana",
+        "state" : "Hawaii",
+        "FIPS" : "15-11350",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 1526,
+        "population_2020" : 1526,
+        "population_2027" : 1510,
+        "land_area_2020" : 0.0
+    },
+    "Kaaawa, Honolulu County, HI" : {
+        "name" : "Kaaawa",
+        "state" : "Hawaii",
+        "FIPS" : "15-19550",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 1421,
+        "population_2020" : 1421,
+        "population_2027" : 1406,
+        "land_area_2020" : 0.0
+    },
+    "Pahala, Hawaii County, HI" : {
+        "name" : "Pahala",
+        "state" : "Hawaii",
+        "FIPS" : "15-59750",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 1403,
+        "population_2020" : 1403,
+        "population_2027" : 1388,
+        "land_area_2020" : 0.0
+    },
+    "Eden Roc, Hawaii County, HI" : {
+        "name" : "Eden Roc",
+        "state" : "Hawaii",
+        "FIPS" : "15-06325",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 1386,
+        "population_2020" : 1386,
+        "population_2027" : 1372,
+        "land_area_2020" : 0.0
+    },
+    "Punaluu, Honolulu County, HI" : {
+        "name" : "Punaluu",
+        "state" : "Hawaii",
+        "FIPS" : "15-66500",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 1374,
+        "population_2020" : 1374,
+        "population_2027" : 1360,
+        "land_area_2020" : 0.0
+    },
+    "Omao, Kauai County, HI" : {
+        "name" : "Omao",
+        "state" : "Hawaii",
+        "FIPS" : "15-57800",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 1346,
+        "population_2020" : 1346,
+        "population_2027" : 1332,
+        "land_area_2020" : 0.0
+    },
+    "Poipu, Kauai County, HI" : {
+        "name" : "Poipu",
+        "state" : "Hawaii",
+        "FIPS" : "15-64550",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 1299,
+        "population_2020" : 1299,
+        "population_2027" : 1285,
+        "land_area_2020" : 0.0
+    },
+    "Keaau, Hawaii County, HI" : {
+        "name" : "Keaau",
+        "state" : "Hawaii",
+        "FIPS" : "15-32900",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 1195,
+        "population_2020" : 1195,
+        "population_2027" : 1183,
+        "land_area_2020" : 0.0
+    },
+    "Olinda, Maui County, HI" : {
+        "name" : "Olinda",
+        "state" : "Hawaii",
+        "FIPS" : "15-57350",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 1188,
+        "population_2020" : 1188,
+        "population_2027" : 1176,
+        "land_area_2020" : 0.0
+    },
+    "Discovery Harbour, Hawaii County, HI" : {
+        "name" : "Discovery Harbour",
+        "state" : "Hawaii",
+        "FIPS" : "15-05900",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 1171,
+        "population_2020" : 1171,
+        "population_2027" : 1159,
+        "land_area_2020" : 0.0
+    },
+    "Papaikou, Hawaii County, HI" : {
+        "name" : "Papaikou",
+        "state" : "Hawaii",
+        "FIPS" : "15-61550",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 1166,
+        "population_2020" : 1166,
+        "population_2027" : 1154,
+        "land_area_2020" : 0.0
+    },
+    "Kaanapali, Maui County, HI" : {
+        "name" : "Kaanapali",
+        "state" : "Hawaii",
+        "FIPS" : "15-20000",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 1161,
+        "population_2020" : 1161,
+        "population_2027" : 1149,
+        "land_area_2020" : 0.0
+    },
+    "Fern Forest, Hawaii County, HI" : {
+        "name" : "Fern Forest",
+        "state" : "Hawaii",
+        "FIPS" : "15-07675",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 1150,
+        "population_2020" : 1150,
+        "population_2027" : 1138,
+        "land_area_2020" : 0.0
+    },
+    "Wainaku, Hawaii County, HI" : {
+        "name" : "Wainaku",
+        "state" : "Hawaii",
+        "FIPS" : "15-78950",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 1147,
+        "population_2020" : 1147,
+        "population_2027" : 1135,
+        "land_area_2020" : 0.0
+    },
+    "Laupahoehoe, Hawaii County, HI" : {
+        "name" : "Laupahoehoe",
+        "state" : "Hawaii",
+        "FIPS" : "15-44150",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 1147,
+        "population_2020" : 1147,
+        "population_2027" : 1135,
+        "land_area_2020" : 0.0
+    },
+    "Leilani Estates, Hawaii County, HI" : {
+        "name" : "Leilani Estates",
+        "state" : "Hawaii",
+        "FIPS" : "15-44562",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 1139,
+        "population_2020" : 1139,
+        "population_2027" : 1127,
+        "land_area_2020" : 0.0
+    },
+    "Haliimaile, Maui County, HI" : {
+        "name" : "Haliimaile",
+        "state" : "Hawaii",
+        "FIPS" : "15-10900",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 1074,
+        "population_2020" : 1074,
+        "population_2027" : 1063,
+        "land_area_2020" : 0.0
+    },
+    "Honalo, Hawaii County, HI" : {
+        "name" : "Honalo",
+        "state" : "Hawaii",
+        "FIPS" : "15-16000",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 996,
+        "population_2020" : 996,
+        "population_2027" : 986,
+        "land_area_2020" : 0.0
+    },
+    "Pahoa, Hawaii County, HI" : {
+        "name" : "Pahoa",
+        "state" : "Hawaii",
+        "FIPS" : "15-59900",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 924,
+        "population_2020" : 924,
+        "population_2027" : 914,
+        "land_area_2020" : 0.0
+    },
+    "Mahinahina, Maui County, HI" : {
+        "name" : "Mahinahina",
+        "state" : "Hawaii",
+        "FIPS" : "15-47050",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 880,
+        "population_2020" : 880,
+        "population_2027" : 871,
+        "land_area_2020" : 0.0
+    },
+    "Naalehu, Hawaii County, HI" : {
+        "name" : "Naalehu",
+        "state" : "Hawaii",
+        "FIPS" : "15-53600",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 811,
+        "population_2020" : 811,
+        "population_2027" : 803,
+        "land_area_2020" : 0.0
+    },
+    "Halaula, Hawaii County, HI" : {
+        "name" : "Halaula",
+        "state" : "Hawaii",
+        "FIPS" : "15-09700",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 773,
+        "population_2020" : 773,
+        "population_2027" : 765,
+        "land_area_2020" : 0.0
+    },
+    "Volcano, Hawaii County, HI" : {
+        "name" : "Volcano",
+        "state" : "Hawaii",
+        "FIPS" : "15-72350",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 736,
+        "population_2020" : 736,
+        "population_2027" : 728,
+        "land_area_2020" : 0.0
+    },
+    "Waikane, Honolulu County, HI" : {
+        "name" : "Waikane",
+        "state" : "Hawaii",
+        "FIPS" : "15-72957",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 728,
+        "population_2020" : 728,
+        "population_2027" : 720,
+        "land_area_2020" : 0.0
+    },
+    "Launiupoko, Maui County, HI" : {
+        "name" : "Launiupoko",
+        "state" : "Hawaii",
+        "FIPS" : "15-44075",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 688,
+        "population_2020" : 688,
+        "population_2027" : 681,
+        "land_area_2020" : 0.0
+    },
+    "Kaumakani, Kauai County, HI" : {
+        "name" : "Kaumakani",
+        "state" : "Hawaii",
+        "FIPS" : "15-30650",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 672,
+        "population_2020" : 672,
+        "population_2027" : 665,
+        "land_area_2020" : 0.0
+    },
+    "Paauilo, Hawaii County, HI" : {
+        "name" : "Paauilo",
+        "state" : "Hawaii",
+        "FIPS" : "15-59300",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 618,
+        "population_2020" : 618,
+        "population_2027" : 612,
+        "land_area_2020" : 0.0
+    },
+    "H\u0101\u02bbena, Kauai County, HI" : {
+        "name" : "H\u0101\u02bbena",
+        "state" : "Hawaii",
+        "FIPS" : "15-08950",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 550,
+        "population_2020" : 550,
+        "population_2027" : 544,
+        "land_area_2020" : 0.0
+    },
+    "Kapalua, Maui County, HI" : {
+        "name" : "Kapalua",
+        "state" : "Hawaii",
+        "FIPS" : "15-29725",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 495,
+        "population_2020" : 495,
+        "population_2027" : 490,
+        "land_area_2020" : 0.0
+    },
+    "Honomu, Hawaii County, HI" : {
+        "name" : "Honomu",
+        "state" : "Hawaii",
+        "FIPS" : "15-17450",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 452,
+        "population_2020" : 452,
+        "population_2027" : 447,
+        "land_area_2020" : 0.0
+    },
+    "Hanalei, Kauai County, HI" : {
+        "name" : "Hanalei",
+        "state" : "Hawaii",
+        "FIPS" : "15-11500",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 444,
+        "population_2020" : 444,
+        "population_2027" : 439,
+        "land_area_2020" : 0.0
+    },
+    "Maunaloa, Maui County, HI" : {
+        "name" : "Maunaloa",
+        "state" : "Hawaii",
+        "FIPS" : "15-50150",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 435,
+        "population_2020" : 435,
+        "population_2027" : 430,
+        "land_area_2020" : 0.0
+    },
+    "Paukaa, Hawaii County, HI" : {
+        "name" : "Paukaa",
+        "state" : "Hawaii",
+        "FIPS" : "15-61700",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 434,
+        "population_2020" : 434,
+        "population_2027" : 429,
+        "land_area_2020" : 0.0
+    },
+    "Wainiha, Kauai County, HI" : {
+        "name" : "Wainiha",
+        "state" : "Hawaii",
+        "FIPS" : "15-79250",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 419,
+        "population_2020" : 419,
+        "population_2027" : 415,
+        "land_area_2020" : 0.0
+    },
+    "Ualapu'e, Maui County, HI" : {
+        "name" : "Ualapu'e",
+        "state" : "Hawaii",
+        "FIPS" : "15-70700",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 393,
+        "population_2020" : 393,
+        "population_2027" : 389,
+        "land_area_2020" : 0.0
+    },
+    "Kalihiwai, Kauai County, HI" : {
+        "name" : "Kalihiwai",
+        "state" : "Hawaii",
+        "FIPS" : "15-26750",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 361,
+        "population_2020" : 361,
+        "population_2027" : 357,
+        "land_area_2020" : 0.0
+    },
+    "Kawela Bay, Honolulu County, HI" : {
+        "name" : "Kawela Bay",
+        "state" : "Hawaii",
+        "FIPS" : "15-32700",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 325,
+        "population_2020" : 325,
+        "population_2027" : 322,
+        "land_area_2020" : 0.0
+    },
+    "Maalaea, Maui County, HI" : {
+        "name" : "Maalaea",
+        "state" : "Hawaii",
+        "FIPS" : "15-46400",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 310,
+        "population_2020" : 310,
+        "population_2027" : 307,
+        "land_area_2020" : 0.0
+    },
+    "Pakala Village, Kauai County, HI" : {
+        "name" : "Pakala Village",
+        "state" : "Hawaii",
+        "FIPS" : "15-60350",
+        "counties" : [
+            "Kauai County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 286,
+        "population_2020" : 286,
+        "population_2027" : 283,
+        "land_area_2020" : 0.0
+    },
+    "Kukuihaele, Hawaii County, HI" : {
+        "name" : "Kukuihaele",
+        "state" : "Hawaii",
+        "FIPS" : "15-41000",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 281,
+        "population_2020" : 281,
+        "population_2027" : 278,
+        "land_area_2020" : 0.0
+    },
+    "Puako, Hawaii County, HI" : {
+        "name" : "Puako",
+        "state" : "Hawaii",
+        "FIPS" : "15-65150",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 267,
+        "population_2020" : 267,
+        "population_2027" : 264,
+        "land_area_2020" : 0.0
+    },
+    "Makaha Valley, Honolulu County, HI" : {
+        "name" : "Makaha Valley",
+        "state" : "Hawaii",
+        "FIPS" : "15-47560",
+        "counties" : [
+            "Honolulu County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 198,
+        "population_2020" : 198,
+        "population_2027" : 196,
+        "land_area_2020" : 0.0
+    },
+    "Waiohinu, Hawaii County, HI" : {
+        "name" : "Waiohinu",
+        "state" : "Hawaii",
+        "FIPS" : "15-79550",
+        "counties" : [
+            "Hawaii County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 198,
+        "population_2020" : 198,
+        "population_2027" : 196,
+        "land_area_2020" : 0.0
+    },
+    "Makena, Maui County, HI" : {
+        "name" : "Makena",
+        "state" : "Hawaii",
+        "FIPS" : "15-48350",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 196,
+        "population_2020" : 196,
+        "population_2027" : 194,
+        "land_area_2020" : 0.0
+    },
+    "Olowalu, Maui County, HI" : {
+        "name" : "Olowalu",
+        "state" : "Hawaii",
+        "FIPS" : "15-57650",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 100,
+        "population_2020" : 100,
+        "population_2027" : 99,
+        "land_area_2020" : 0.0
+    },
+    "Manele, Maui County, HI" : {
+        "name" : "Manele",
+        "state" : "Hawaii",
+        "FIPS" : "15-49425",
+        "counties" : [
+            "Maui County"
+        ],
+        "type_class" : "Census-Designated Place",
+        "population_2010" : 7,
+        "population_2020" : 7,
+        "population_2027" : 7,
+        "land_area_2020" : 0.0
+    }
+}

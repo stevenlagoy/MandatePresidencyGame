@@ -1,0 +1,1835 @@
+{
+    "Burlington, Chittenden County, VT" : {
+        "name" : "Burlington",
+        "state" : "Vermont",
+        "FIPS" : "50-10675",
+        "counties" : [
+            "Chittenden County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 44743,
+        "population_2020" : 44743,
+        "population_2027" : 45373,
+        "land_area_2020" : 15.49
+    },
+    "South Burlington, Chittenden, VT" : {
+        "name" : "South Burlington",
+        "state" : "Vermont",
+        "FIPS" : "50-66175",
+        "counties" : [
+            "Chittenden"
+        ],
+        "type_class" : "City",
+        "population_2010" : 20292,
+        "population_2020" : 20292,
+        "population_2027" : 20578,
+        "land_area_2020" : 29.58
+    },
+    "Colchester, Chittenden, VT" : {
+        "name" : "Colchester",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Chittenden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 17524,
+        "population_2020" : 17524,
+        "population_2027" : 17771,
+        "land_area_2020" : 58.57
+    },
+    "Rutland (city), Rutland County, VT" : {
+        "name" : "Rutland (city)",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Rutland County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 15807,
+        "population_2020" : 15807,
+        "population_2027" : 16030,
+        "land_area_2020" : 7.68
+    },
+    "Bennington, Bennington County, VT" : {
+        "name" : "Bennington",
+        "state" : "Vermont",
+        "FIPS" : "50-04750",
+        "counties" : [
+            "Bennington County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 15333,
+        "population_2020" : 15333,
+        "population_2027" : 15549,
+        "land_area_2020" : 42.5
+    },
+    "Brattleboro, Windham, VT" : {
+        "name" : "Brattleboro",
+        "state" : "Vermont",
+        "FIPS" : "50-07975",
+        "counties" : [
+            "Windham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 12184,
+        "population_2020" : 12184,
+        "population_2027" : 12356,
+        "land_area_2020" : 32.41
+    },
+    "Essex, Chittenden, VT" : {
+        "name" : "Essex",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Chittenden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 11540,
+        "population_2020" : 11540,
+        "population_2027" : 11703,
+        "land_area_2020" : 39.32
+    },
+    "Milton, Chittenden, VT" : {
+        "name" : "Milton",
+        "state" : "Vermont",
+        "FIPS" : "50-45175",
+        "counties" : [
+            "Chittenden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 10723,
+        "population_2020" : 10723,
+        "population_2027" : 10874,
+        "land_area_2020" : 60.89
+    },
+    "Hartford, Windsor, VT" : {
+        "name" : "Hartford",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Windsor"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 10686,
+        "population_2020" : 10686,
+        "population_2027" : 10837,
+        "land_area_2020" : 45.88
+    },
+    "Essex Junction, Chittenden, VT" : {
+        "name" : "Essex Junction",
+        "state" : "Vermont",
+        "FIPS" : "50-24400",
+        "counties" : [
+            "Chittenden"
+        ],
+        "type_class" : "City",
+        "population_2010" : 10590,
+        "population_2020" : 10590,
+        "population_2027" : 10739,
+        "land_area_2020" : 4.74
+    },
+    "Williston, Chittenden, VT" : {
+        "name" : "Williston",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Chittenden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 10103,
+        "population_2020" : 10103,
+        "population_2027" : 10245,
+        "land_area_2020" : 30.58
+    },
+    "Middlebury, Addison County, VT" : {
+        "name" : "Middlebury",
+        "state" : "Vermont",
+        "FIPS" : "50-44275",
+        "counties" : [
+            "Addison County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9152,
+        "population_2020" : 9152,
+        "population_2027" : 9281,
+        "land_area_2020" : 39.22
+    },
+    "Springfield, Windsor, VT" : {
+        "name" : "Springfield",
+        "state" : "Vermont",
+        "FIPS" : "50-69475",
+        "counties" : [
+            "Windsor"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 9062,
+        "population_2020" : 9062,
+        "population_2027" : 9190,
+        "land_area_2020" : 49.44
+    },
+    "Barre (city), Washington, VT" : {
+        "name" : "Barre (city)",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "City",
+        "population_2010" : 8491,
+        "population_2020" : 8491,
+        "population_2027" : 8611,
+        "land_area_2020" : 3.98
+    },
+    "Montpelier, Washington County, VT" : {
+        "name" : "Montpelier",
+        "state" : "Vermont",
+        "FIPS" : "50-46000",
+        "counties" : [
+            "Washington County"
+        ],
+        "type_class" : "Capital)",
+        "population_2010" : 8074,
+        "population_2020" : 8074,
+        "population_2027" : 8188,
+        "land_area_2020" : 10.25
+    },
+    "Winooski, Chittenden, VT" : {
+        "name" : "Winooski",
+        "state" : "Vermont",
+        "FIPS" : "50-85150",
+        "counties" : [
+            "Chittenden"
+        ],
+        "type_class" : "City",
+        "population_2010" : 7997,
+        "population_2020" : 7997,
+        "population_2027" : 8110,
+        "land_area_2020" : 1.51
+    },
+    "Barre (town), Washington, VT" : {
+        "name" : "Barre (town)",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7923,
+        "population_2020" : 7923,
+        "population_2027" : 8035,
+        "land_area_2020" : 30.72
+    },
+    "Shelburne, Chittenden, VT" : {
+        "name" : "Shelburne",
+        "state" : "Vermont",
+        "FIPS" : "50-64225",
+        "counties" : [
+            "Chittenden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7717,
+        "population_2020" : 7717,
+        "population_2027" : 7826,
+        "land_area_2020" : 45.07
+    },
+    "St. Johnsbury, Caledonia County, VT" : {
+        "name" : "St. Johnsbury",
+        "state" : "Vermont",
+        "FIPS" : "50-62125",
+        "counties" : [
+            "Caledonia County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 7364,
+        "population_2020" : 7364,
+        "population_2027" : 7468,
+        "land_area_2020" : 36.74
+    },
+    "St. Albans (town), Franklin, VT" : {
+        "name" : "St. Albans (town)",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6988,
+        "population_2020" : 6988,
+        "population_2027" : 7086,
+        "land_area_2020" : 60.53
+    },
+    "St. Albans (city), Franklin County, VT" : {
+        "name" : "St. Albans (city)",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type_class" : "City",
+        "population_2010" : 6887,
+        "population_2020" : 6887,
+        "population_2027" : 6984,
+        "land_area_2020" : 2.03
+    },
+    "Swanton (town), Franklin, VT" : {
+        "name" : "Swanton (town)",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 6701,
+        "population_2020" : 6701,
+        "population_2027" : 6795,
+        "land_area_2020" : 61.67
+    },
+    "Northfield, Washington, VT" : {
+        "name" : "Northfield",
+        "state" : "Vermont",
+        "FIPS" : "50-50200",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5918,
+        "population_2020" : 5918,
+        "population_2027" : 6001,
+        "land_area_2020" : 43.63
+    },
+    "Lyndon, Caledonia, VT" : {
+        "name" : "Lyndon",
+        "state" : "Vermont",
+        "FIPS" : "50-41650",
+        "counties" : [
+            "Caledonia"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5491,
+        "population_2020" : 5491,
+        "population_2027" : 5568,
+        "land_area_2020" : 39.82
+    },
+    "Morristown, Lamoille, VT" : {
+        "name" : "Morristown",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Lamoille"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5434,
+        "population_2020" : 5434,
+        "population_2027" : 5511,
+        "land_area_2020" : 51.68
+    },
+    "Waterbury, Washington, VT" : {
+        "name" : "Waterbury",
+        "state" : "Vermont",
+        "FIPS" : "50-76900",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5331,
+        "population_2020" : 5331,
+        "population_2027" : 5406,
+        "land_area_2020" : 49.76
+    },
+    "Jericho, Chittenden, VT" : {
+        "name" : "Jericho",
+        "state" : "Vermont",
+        "FIPS" : "50-36625",
+        "counties" : [
+            "Chittenden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 5104,
+        "population_2020" : 5104,
+        "population_2027" : 5176,
+        "land_area_2020" : 35.55
+    },
+    "Georgia, Franklin, VT" : {
+        "name" : "Georgia",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4845,
+        "population_2020" : 4845,
+        "population_2027" : 4913,
+        "land_area_2020" : 45.22
+    },
+    "Randolph, Orange, VT" : {
+        "name" : "Randolph",
+        "state" : "Vermont",
+        "FIPS" : "50-58000",
+        "counties" : [
+            "Orange"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4774,
+        "population_2020" : 4774,
+        "population_2027" : 4841,
+        "land_area_2020" : 48.2
+    },
+    "Derby, Orleans, VT" : {
+        "name" : "Derby",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Orleans"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4579,
+        "population_2020" : 4579,
+        "population_2027" : 4643,
+        "land_area_2020" : 57.6
+    },
+    "Castleton, Rutland, VT" : {
+        "name" : "Castleton",
+        "state" : "Vermont",
+        "FIPS" : "50-11875",
+        "counties" : [
+            "Rutland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4458,
+        "population_2020" : 4458,
+        "population_2027" : 4521,
+        "land_area_2020" : 42.35
+    },
+    "Orleans County, ), VT" : {
+        "name" : "Orleans County",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            ")"
+        ],
+        "type_class" : "4,455",
+        "population_2010" : 1917,
+        "population_2020" : 1917,
+        "population_2027" : 1944,
+        "land_area_2020" : 0.0
+    },
+    "Richmond, Chittenden, VT" : {
+        "name" : "Richmond",
+        "state" : "Vermont",
+        "FIPS" : "50-59200",
+        "counties" : [
+            "Chittenden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 4167,
+        "population_2020" : 4167,
+        "population_2027" : 4226,
+        "land_area_2020" : 32.75
+    },
+    "Rutland (town), Rutland, VT" : {
+        "name" : "Rutland (town)",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Rutland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3924,
+        "population_2020" : 3924,
+        "population_2027" : 3979,
+        "land_area_2020" : 19.34
+    },
+    "Charlotte, Chittenden, VT" : {
+        "name" : "Charlotte",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Chittenden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3783,
+        "population_2020" : 3783,
+        "population_2027" : 3836,
+        "land_area_2020" : 50.36
+    },
+    "Norwich, Windsor, VT" : {
+        "name" : "Norwich",
+        "state" : "Vermont",
+        "FIPS" : "50-52825",
+        "counties" : [
+            "Windsor"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3612,
+        "population_2020" : 3612,
+        "population_2027" : 3663,
+        "land_area_2020" : 44.68
+    },
+    "Windsor, Windsor, VT" : {
+        "name" : "Windsor",
+        "state" : "Vermont",
+        "FIPS" : "50-85000",
+        "counties" : [
+            "Windsor"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3559,
+        "population_2020" : 3559,
+        "population_2027" : 3609,
+        "land_area_2020" : 19.75
+    },
+    "Johnson, Lamoille, VT" : {
+        "name" : "Johnson",
+        "state" : "Vermont",
+        "FIPS" : "50-37000",
+        "counties" : [
+            "Lamoille"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3491,
+        "population_2020" : 3491,
+        "population_2027" : 3540,
+        "land_area_2020" : 45.09
+    },
+    "Hartland, Windsor, VT" : {
+        "name" : "Hartland",
+        "state" : "Vermont",
+        "FIPS" : "50-32350",
+        "counties" : [
+            "Windsor"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3446,
+        "population_2020" : 3446,
+        "population_2027" : 3495,
+        "land_area_2020" : 45.2
+    },
+    "Underhill, Chittenden, VT" : {
+        "name" : "Underhill",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Chittenden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3129,
+        "population_2020" : 3129,
+        "population_2027" : 3173,
+        "land_area_2020" : 51.4
+    },
+    "Lamoille County, ), VT" : {
+        "name" : "Lamoille County",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            ")"
+        ],
+        "type_class" : "3,020",
+        "population_2010" : 3020,
+        "population_2020" : 3020,
+        "population_2027" : 3063,
+        "land_area_2020" : 43.96
+    },
+    "Westminster (town), Windham, VT" : {
+        "name" : "Westminster (town)",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Windham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3016,
+        "population_2020" : 3016,
+        "population_2027" : 3058,
+        "land_area_2020" : 46.09
+    },
+    "Chester, Windsor, VT" : {
+        "name" : "Chester",
+        "state" : "Vermont",
+        "FIPS" : "50-13600",
+        "counties" : [
+            "Windsor"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 3005,
+        "population_2020" : 3005,
+        "population_2027" : 3047,
+        "land_area_2020" : 55.94
+    },
+    "Windsor County, ), VT" : {
+        "name" : "Windsor County",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            ")"
+        ],
+        "type_class" : "3,005",
+        "population_2010" : 2920,
+        "population_2020" : 2920,
+        "population_2027" : 2961,
+        "land_area_2020" : 39.02
+    },
+    "Barton, Orleans, VT" : {
+        "name" : "Barton",
+        "state" : "Vermont",
+        "FIPS" : "50-03475",
+        "counties" : [
+            "Orleans"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2872,
+        "population_2020" : 2872,
+        "population_2027" : 2912,
+        "land_area_2020" : 44.88
+    },
+    "Berlin, Washington, VT" : {
+        "name" : "Berlin",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2849,
+        "population_2020" : 2849,
+        "population_2027" : 2889,
+        "land_area_2020" : 36.94
+    },
+    "Enosburgh, Franklin, VT" : {
+        "name" : "Enosburgh",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2810,
+        "population_2020" : 2810,
+        "population_2027" : 2850,
+        "land_area_2020" : 48.72
+    },
+    "Thetford, Orange, VT" : {
+        "name" : "Thetford",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Orange"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2775,
+        "population_2020" : 2775,
+        "population_2027" : 2814,
+        "land_area_2020" : 44.43
+    },
+    "Fair Haven, Rutland, VT" : {
+        "name" : "Fair Haven",
+        "state" : "Vermont",
+        "FIPS" : "50-25450",
+        "counties" : [
+            "Rutland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2736,
+        "population_2020" : 2736,
+        "population_2027" : 2775,
+        "land_area_2020" : 18.15
+    },
+    "Putney, Windham, VT" : {
+        "name" : "Putney",
+        "state" : "Vermont",
+        "FIPS" : "50-57625",
+        "counties" : [
+            "Windham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2617,
+        "population_2020" : 2617,
+        "population_2027" : 2654,
+        "land_area_2020" : 26.83
+    },
+    "Vergennes, Addison, VT" : {
+        "name" : "Vergennes",
+        "state" : "Vermont",
+        "FIPS" : "50-74650",
+        "counties" : [
+            "Addison"
+        ],
+        "type_class" : "City",
+        "population_2010" : 2553,
+        "population_2020" : 2553,
+        "population_2027" : 2589,
+        "land_area_2020" : 2.51
+    },
+    "Arlington, Bennington, VT" : {
+        "name" : "Arlington",
+        "state" : "Vermont",
+        "FIPS" : "50-01375",
+        "counties" : [
+            "Bennington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2457,
+        "population_2020" : 2457,
+        "population_2027" : 2492,
+        "land_area_2020" : 42.43
+    },
+    "Richford, Franklin, VT" : {
+        "name" : "Richford",
+        "state" : "Vermont",
+        "FIPS" : "50-59050",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2346,
+        "population_2020" : 2346,
+        "population_2027" : 2379,
+        "land_area_2020" : 43.29
+    },
+    "Newbury (town), Orange, VT" : {
+        "name" : "Newbury (town)",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Orange"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2293,
+        "population_2020" : 2293,
+        "population_2027" : 2325,
+        "land_area_2020" : 64.81
+    },
+    "West Rutland, Rutland, VT" : {
+        "name" : "West Rutland",
+        "state" : "Vermont",
+        "FIPS" : "50-82375",
+        "counties" : [
+            "Rutland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2214,
+        "population_2020" : 2214,
+        "population_2027" : 2245,
+        "land_area_2020" : 17.98
+    },
+    "Ludlow (town), Windsor, VT" : {
+        "name" : "Ludlow (town)",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Windsor"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2172,
+        "population_2020" : 2172,
+        "population_2027" : 2203,
+        "land_area_2020" : 35.7
+    },
+    "Dorset, Bennington, VT" : {
+        "name" : "Dorset",
+        "state" : "Vermont",
+        "FIPS" : "50-17650",
+        "counties" : [
+            "Bennington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2133,
+        "population_2020" : 2133,
+        "population_2027" : 2163,
+        "land_area_2020" : 47.88
+    },
+    "Guilford, Windham, VT" : {
+        "name" : "Guilford",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Windham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2120,
+        "population_2020" : 2120,
+        "population_2027" : 2150,
+        "land_area_2020" : 39.96
+    },
+    "Grand Isle, Grand Isle, VT" : {
+        "name" : "Grand Isle",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Grand Isle"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2086,
+        "population_2020" : 2086,
+        "population_2027" : 2115,
+        "land_area_2020" : 35.13
+    },
+    "Westford, Chittenden, VT" : {
+        "name" : "Westford",
+        "state" : "Vermont",
+        "FIPS" : "50-80275",
+        "counties" : [
+            "Chittenden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 2062,
+        "population_2020" : 2062,
+        "population_2027" : 2091,
+        "land_area_2020" : 39.29
+    },
+    "Warren, Washington, VT" : {
+        "name" : "Warren",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1977,
+        "population_2020" : 1977,
+        "population_2027" : 2005,
+        "land_area_2020" : 39.98
+    },
+    "Huntington, Chittenden, VT" : {
+        "name" : "Huntington",
+        "state" : "Vermont",
+        "FIPS" : "50-34525",
+        "counties" : [
+            "Chittenden"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1934,
+        "population_2020" : 1934,
+        "population_2027" : 1961,
+        "land_area_2020" : 38.04
+    },
+    "Dummerston, Windham, VT" : {
+        "name" : "Dummerston",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Windham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1865,
+        "population_2020" : 1865,
+        "population_2027" : 1891,
+        "land_area_2020" : 30.83
+    },
+    "Dover, Windham, VT" : {
+        "name" : "Dover",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Windham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1798,
+        "population_2020" : 1798,
+        "population_2027" : 1823,
+        "land_area_2020" : 35.33
+    },
+    "Proctor, Rutland, VT" : {
+        "name" : "Proctor",
+        "state" : "Vermont",
+        "FIPS" : "50-57246",
+        "counties" : [
+            "Rutland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1763,
+        "population_2020" : 1763,
+        "population_2027" : 1788,
+        "land_area_2020" : 7.6
+    },
+    "Moretown, Washington, VT" : {
+        "name" : "Moretown",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1753,
+        "population_2020" : 1753,
+        "population_2027" : 1778,
+        "land_area_2020" : 40.21
+    },
+    "Troy, Orleans, VT" : {
+        "name" : "Troy",
+        "state" : "Vermont",
+        "FIPS" : "50-73450",
+        "counties" : [
+            "Orleans"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1722,
+        "population_2020" : 1722,
+        "population_2027" : 1746,
+        "land_area_2020" : 36.05
+    },
+    "South Hero, Grand Isle, VT" : {
+        "name" : "South Hero",
+        "state" : "Vermont",
+        "FIPS" : "50-66925",
+        "counties" : [
+            "Grand Isle"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1674,
+        "population_2020" : 1674,
+        "population_2027" : 1698,
+        "land_area_2020" : 47.49
+    },
+    "Barnet, Caledonia, VT" : {
+        "name" : "Barnet",
+        "state" : "Vermont",
+        "FIPS" : "50-02800",
+        "counties" : [
+            "Caledonia"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1663,
+        "population_2020" : 1663,
+        "population_2027" : 1686,
+        "land_area_2020" : 43.58
+    },
+    "Burke, Caledonia, VT" : {
+        "name" : "Burke",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Caledonia"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1651,
+        "population_2020" : 1651,
+        "population_2027" : 1674,
+        "land_area_2020" : 34.03
+    },
+    "Windham County, ), VT" : {
+        "name" : "Windham County",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            ")"
+        ],
+        "type_class" : "1,645",
+        "population_2010" : 1583,
+        "population_2020" : 1583,
+        "population_2027" : 1605,
+        "land_area_2020" : 43.43
+    },
+    "Sharon, Windsor, VT" : {
+        "name" : "Sharon",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Windsor"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1560,
+        "population_2020" : 1560,
+        "population_2027" : 1582,
+        "land_area_2020" : 40.16
+    },
+    "Newport (town), Orleans, VT" : {
+        "name" : "Newport (town)",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Orleans"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1526,
+        "population_2020" : 1526,
+        "population_2027" : 1547,
+        "land_area_2020" : 43.52
+    },
+    "Corinth, Orange, VT" : {
+        "name" : "Corinth",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Orange"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1455,
+        "population_2020" : 1455,
+        "population_2027" : 1475,
+        "land_area_2020" : 48.55
+    },
+    "Pawlet, Rutland, VT" : {
+        "name" : "Pawlet",
+        "state" : "Vermont",
+        "FIPS" : "50-54175",
+        "counties" : [
+            "Rutland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1424,
+        "population_2020" : 1424,
+        "population_2027" : 1444,
+        "land_area_2020" : 42.9
+    },
+    "Killington, Rutland, VT" : {
+        "name" : "Killington",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Rutland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1407,
+        "population_2020" : 1407,
+        "population_2027" : 1427,
+        "land_area_2020" : 46.86
+    },
+    "Mount Holly, Rutland, VT" : {
+        "name" : "Mount Holly",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Rutland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1385,
+        "population_2020" : 1385,
+        "population_2027" : 1405,
+        "land_area_2020" : 49.57
+    },
+    "Fayston, Washington, VT" : {
+        "name" : "Fayston",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1364,
+        "population_2020" : 1364,
+        "population_2027" : 1383,
+        "land_area_2020" : 36.45
+    },
+    "Fletcher, Franklin, VT" : {
+        "name" : "Fletcher",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1346,
+        "population_2020" : 1346,
+        "population_2027" : 1365,
+        "land_area_2020" : 38.0
+    },
+    "Whitingham, Windham, VT" : {
+        "name" : "Whitingham",
+        "state" : "Vermont",
+        "FIPS" : "50-83875",
+        "counties" : [
+            "Windham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1344,
+        "population_2020" : 1344,
+        "population_2027" : 1363,
+        "land_area_2020" : 38.87
+    },
+    "Eden, Lamoille, VT" : {
+        "name" : "Eden",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Lamoille"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1338,
+        "population_2020" : 1338,
+        "population_2027" : 1357,
+        "land_area_2020" : 64.29
+    },
+    "Lincoln, Addison, VT" : {
+        "name" : "Lincoln",
+        "state" : "Vermont",
+        "FIPS" : "50-40000",
+        "counties" : [
+            "Addison"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1323,
+        "population_2020" : 1323,
+        "population_2027" : 1342,
+        "land_area_2020" : 44.6
+    },
+    "Townshend, Windham, VT" : {
+        "name" : "Townshend",
+        "state" : "Vermont",
+        "FIPS" : "50-73225",
+        "counties" : [
+            "Windham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1291,
+        "population_2020" : 1291,
+        "population_2027" : 1309,
+        "land_area_2020" : 42.67
+    },
+    "Bakersfield, Franklin, VT" : {
+        "name" : "Bakersfield",
+        "state" : "Vermont",
+        "FIPS" : "50-02425",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1273,
+        "population_2020" : 1273,
+        "population_2027" : 1291,
+        "land_area_2020" : 44.63
+    },
+    "Shoreham, Addison, VT" : {
+        "name" : "Shoreham",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Addison"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1260,
+        "population_2020" : 1260,
+        "population_2027" : 1278,
+        "land_area_2020" : 46.39
+    },
+    "Brookfield, Orange, VT" : {
+        "name" : "Brookfield",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Orange"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1244,
+        "population_2020" : 1244,
+        "population_2027" : 1262,
+        "land_area_2020" : 41.15
+    },
+    "Chittenden, Rutland, VT" : {
+        "name" : "Chittenden",
+        "state" : "Vermont",
+        "FIPS" : "50-14275",
+        "counties" : [
+            "Rutland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1237,
+        "population_2020" : 1237,
+        "population_2027" : 1254,
+        "land_area_2020" : 73.8
+    },
+    "Chelsea, Orange County, VT" : {
+        "name" : "Chelsea",
+        "state" : "Vermont",
+        "FIPS" : "50-13450",
+        "counties" : [
+            "Orange County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1233,
+        "population_2020" : 1233,
+        "population_2027" : 1250,
+        "land_area_2020" : 39.94
+    },
+    "Bridport, Addison, VT" : {
+        "name" : "Bridport",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Addison"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1225,
+        "population_2020" : 1225,
+        "population_2027" : 1242,
+        "land_area_2020" : 46.31
+    },
+    "Wells, Rutland, VT" : {
+        "name" : "Wells",
+        "state" : "Vermont",
+        "FIPS" : "50-77875",
+        "counties" : [
+            "Rutland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1214,
+        "population_2020" : 1214,
+        "population_2027" : 1231,
+        "land_area_2020" : 22.99
+    },
+    "Cornwall, Addison, VT" : {
+        "name" : "Cornwall",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Addison"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1207,
+        "population_2020" : 1207,
+        "population_2027" : 1224,
+        "land_area_2020" : 28.61
+    },
+    "Montgomery, Franklin, VT" : {
+        "name" : "Montgomery",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Franklin"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1184,
+        "population_2020" : 1184,
+        "population_2027" : 1201,
+        "land_area_2020" : 56.7
+    },
+    "Ryegate, Caledonia, VT" : {
+        "name" : "Ryegate",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Caledonia"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1165,
+        "population_2020" : 1165,
+        "population_2027" : 1181,
+        "land_area_2020" : 36.77
+    },
+    "Mendon, Rutland, VT" : {
+        "name" : "Mendon",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Rutland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1149,
+        "population_2020" : 1149,
+        "population_2027" : 1165,
+        "land_area_2020" : 38.09
+    },
+    "Glover, Orleans, VT" : {
+        "name" : "Glover",
+        "state" : "Vermont",
+        "FIPS" : "50-28000",
+        "counties" : [
+            "Orleans"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1114,
+        "population_2020" : 1114,
+        "population_2027" : 1130,
+        "land_area_2020" : 38.61
+    },
+    "Rochester, Windsor, VT" : {
+        "name" : "Rochester",
+        "state" : "Vermont",
+        "FIPS" : "50-60025",
+        "counties" : [
+            "Windsor"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1099,
+        "population_2020" : 1099,
+        "population_2027" : 1114,
+        "land_area_2020" : 57.38
+    },
+    "Strafford, Orange, VT" : {
+        "name" : "Strafford",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Orange"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1094,
+        "population_2020" : 1094,
+        "population_2027" : 1109,
+        "land_area_2020" : 44.3
+    },
+    "Orange, Orange, VT" : {
+        "name" : "Orange",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Orange"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1048,
+        "population_2020" : 1048,
+        "population_2027" : 1063,
+        "land_area_2020" : 39.01
+    },
+    "Washington, Orange, VT" : {
+        "name" : "Washington",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Orange"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1032,
+        "population_2020" : 1032,
+        "population_2027" : 1047,
+        "land_area_2020" : 38.87
+    },
+    "Jamaica, Windham, VT" : {
+        "name" : "Jamaica",
+        "state" : "Vermont",
+        "FIPS" : "50-36100",
+        "counties" : [
+            "Windham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 1005,
+        "population_2020" : 1005,
+        "population_2027" : 1019,
+        "land_area_2020" : 49.46
+    },
+    "Leicester, Addison, VT" : {
+        "name" : "Leicester",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Addison"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 990,
+        "population_2020" : 990,
+        "population_2027" : 1004,
+        "land_area_2020" : 21.78
+    },
+    "Groton, Caledonia, VT" : {
+        "name" : "Groton",
+        "state" : "Vermont",
+        "FIPS" : "50-30475",
+        "counties" : [
+            "Caledonia"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 984,
+        "population_2020" : 984,
+        "population_2027" : 998,
+        "land_area_2020" : 54.96
+    },
+    "Benson, Rutland, VT" : {
+        "name" : "Benson",
+        "state" : "Vermont",
+        "FIPS" : "50-05125",
+        "counties" : [
+            "Rutland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 974,
+        "population_2020" : 974,
+        "population_2027" : 988,
+        "land_area_2020" : 45.52
+    },
+    "Walden, Caledonia, VT" : {
+        "name" : "Walden",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Caledonia"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 956,
+        "population_2020" : 956,
+        "population_2027" : 969,
+        "land_area_2020" : 38.94
+    },
+    "Grand Isle County, ), VT" : {
+        "name" : "Grand Isle County",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            ")"
+        ],
+        "type_class" : "939",
+        "population_2010" : 928,
+        "population_2020" : 928,
+        "population_2027" : 941,
+        "land_area_2020" : 39.1
+    },
+    "Pomfret, Windsor, VT" : {
+        "name" : "Pomfret",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Windsor"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 916,
+        "population_2020" : 916,
+        "population_2027" : 929,
+        "land_area_2020" : 39.47
+    },
+    "Bridgewater, Windsor, VT" : {
+        "name" : "Bridgewater",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Windsor"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 903,
+        "population_2020" : 903,
+        "population_2027" : 916,
+        "land_area_2020" : 49.54
+    },
+    "Lowell, Orleans, VT" : {
+        "name" : "Lowell",
+        "state" : "Vermont",
+        "FIPS" : "50-40450",
+        "counties" : [
+            "Orleans"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 887,
+        "population_2020" : 887,
+        "population_2027" : 899,
+        "land_area_2020" : 56.08
+    },
+    "Wardsboro, Windham, VT" : {
+        "name" : "Wardsboro",
+        "state" : "Vermont",
+        "FIPS" : "50-76150",
+        "counties" : [
+            "Windham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 869,
+        "population_2020" : 869,
+        "population_2027" : 881,
+        "land_area_2020" : 29.23
+    },
+    "Weybridge, Addison, VT" : {
+        "name" : "Weybridge",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Addison"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 814,
+        "population_2020" : 814,
+        "population_2027" : 825,
+        "land_area_2020" : 17.61
+    },
+    "Middletown Springs, Rutland, VT" : {
+        "name" : "Middletown Springs",
+        "state" : "Vermont",
+        "FIPS" : "50-44725",
+        "counties" : [
+            "Rutland"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 794,
+        "population_2020" : 794,
+        "population_2027" : 805,
+        "land_area_2020" : 22.32
+    },
+    "Halifax, Windham, VT" : {
+        "name" : "Halifax",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Windham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 771,
+        "population_2020" : 771,
+        "population_2027" : 782,
+        "land_area_2020" : 39.81
+    },
+    "Ripton, Addison, VT" : {
+        "name" : "Ripton",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Addison"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 739,
+        "population_2020" : 739,
+        "population_2027" : 749,
+        "land_area_2020" : 49.86
+    },
+    "Stockbridge, Windsor, VT" : {
+        "name" : "Stockbridge",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Windsor"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 718,
+        "population_2020" : 718,
+        "population_2027" : 728,
+        "land_area_2020" : 46.17
+    },
+    "Readsboro, Bennington, VT" : {
+        "name" : "Readsboro",
+        "state" : "Vermont",
+        "FIPS" : "50-58525",
+        "counties" : [
+            "Bennington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 702,
+        "population_2020" : 702,
+        "population_2027" : 712,
+        "land_area_2020" : 36.48
+    },
+    "Reading, Windsor, VT" : {
+        "name" : "Reading",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Windsor"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 687,
+        "population_2020" : 687,
+        "population_2027" : 697,
+        "land_area_2020" : 41.65
+    },
+    "Sheffield, Caledonia, VT" : {
+        "name" : "Sheffield",
+        "state" : "Vermont",
+        "FIPS" : "50-64000",
+        "counties" : [
+            "Caledonia"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 682,
+        "population_2020" : 682,
+        "population_2027" : 692,
+        "land_area_2020" : 32.77
+    },
+    "Vershire, Orange, VT" : {
+        "name" : "Vershire",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Orange"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 672,
+        "population_2020" : 672,
+        "population_2027" : 681,
+        "land_area_2020" : 36.54
+    },
+    "Grafton, Windham, VT" : {
+        "name" : "Grafton",
+        "state" : "Vermont",
+        "FIPS" : "50-28825",
+        "counties" : [
+            "Windham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 645,
+        "population_2020" : 645,
+        "population_2027" : 654,
+        "land_area_2020" : 38.37
+    },
+    "Morgan, Orleans, VT" : {
+        "name" : "Morgan",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Orleans"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 638,
+        "population_2020" : 638,
+        "population_2027" : 647,
+        "land_area_2020" : 33.82
+    },
+    "Weston, Windsor, VT" : {
+        "name" : "Weston",
+        "state" : "Vermont",
+        "FIPS" : "50-81925",
+        "counties" : [
+            "Windsor"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 623,
+        "population_2020" : 623,
+        "population_2027" : 632,
+        "land_area_2020" : 35.17
+    },
+    "Newark, Caledonia, VT" : {
+        "name" : "Newark",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Caledonia"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 584,
+        "population_2020" : 584,
+        "population_2027" : 592,
+        "land_area_2020" : 37.21
+    },
+    "Andover, Windsor, VT" : {
+        "name" : "Andover",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Windsor"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 568,
+        "population_2020" : 568,
+        "population_2027" : 576,
+        "land_area_2020" : 28.78
+    },
+    "Jay, Orleans, VT" : {
+        "name" : "Jay",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Orleans"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 551,
+        "population_2020" : 551,
+        "population_2027" : 559,
+        "land_area_2020" : 33.97
+    },
+    "Brookline, Windham, VT" : {
+        "name" : "Brookline",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Windham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 540,
+        "population_2020" : 540,
+        "population_2027" : 548,
+        "land_area_2020" : 12.9
+    },
+    "Peru, Bennington, VT" : {
+        "name" : "Peru",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Bennington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 531,
+        "population_2020" : 531,
+        "population_2027" : 538,
+        "land_area_2020" : 37.34
+    },
+    "Isle La Motte, Grand Isle, VT" : {
+        "name" : "Isle La Motte",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Grand Isle"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 488,
+        "population_2020" : 488,
+        "population_2027" : 495,
+        "land_area_2020" : 16.66
+    },
+    "Waltham, Addison, VT" : {
+        "name" : "Waltham",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Addison"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 446,
+        "population_2020" : 446,
+        "population_2027" : 452,
+        "land_area_2020" : 9.06
+    },
+    "Whiting, Addison, VT" : {
+        "name" : "Whiting",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Addison"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 405,
+        "population_2020" : 405,
+        "population_2027" : 411,
+        "land_area_2020" : 13.7
+    },
+    "Athens, Windham, VT" : {
+        "name" : "Athens",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Windham"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 380,
+        "population_2020" : 380,
+        "population_2027" : 385,
+        "land_area_2020" : 13.12
+    },
+    "Hancock, Addison, VT" : {
+        "name" : "Hancock",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Addison"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 359,
+        "population_2020" : 359,
+        "population_2027" : 364,
+        "land_area_2020" : 38.13
+    },
+    "Westmore, Orleans, VT" : {
+        "name" : "Westmore",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Orleans"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 357,
+        "population_2020" : 357,
+        "population_2027" : 362,
+        "land_area_2020" : 37.39
+    },
+    "Granville, Addison, VT" : {
+        "name" : "Granville",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Addison"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 301,
+        "population_2020" : 301,
+        "population_2027" : 305,
+        "land_area_2020" : 51.51
+    },
+    "Guildhall, Essex County, VT" : {
+        "name" : "Guildhall",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Essex County"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 262,
+        "population_2020" : 262,
+        "population_2027" : 266,
+        "land_area_2020" : 33.09
+    },
+    "Baltimore, Windsor, VT" : {
+        "name" : "Baltimore",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Windsor"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 229,
+        "population_2020" : 229,
+        "population_2027" : 232,
+        "land_area_2020" : 4.66
+    },
+    "Maidstone, Essex, VT" : {
+        "name" : "Maidstone",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 211,
+        "population_2020" : 211,
+        "population_2027" : 214,
+        "land_area_2020" : 32.3
+    },
+    "Stannard, Caledonia, VT" : {
+        "name" : "Stannard",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Caledonia"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 208,
+        "population_2020" : 208,
+        "population_2027" : 211,
+        "land_area_2020" : 12.51
+    },
+    "Goshen, Addison, VT" : {
+        "name" : "Goshen",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Addison"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 172,
+        "population_2020" : 172,
+        "population_2027" : 174,
+        "land_area_2020" : 20.81
+    },
+    "Searsburg, Bennington, VT" : {
+        "name" : "Searsburg",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Bennington"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 126,
+        "population_2020" : 126,
+        "population_2027" : 128,
+        "land_area_2020" : 21.57
+    },
+    "Lemington, Essex, VT" : {
+        "name" : "Lemington",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 87,
+        "population_2020" : 87,
+        "population_2027" : 88,
+        "land_area_2020" : 35.52
+    },
+    "Victory, Essex, VT" : {
+        "name" : "Victory",
+        "state" : "Vermont",
+        "FIPS" : "None",
+        "counties" : [
+            "Essex"
+        ],
+        "type_class" : "Town",
+        "population_2010" : 70,
+        "population_2020" : 70,
+        "population_2027" : 71,
+        "land_area_2020" : 43.0
+    }
+}
