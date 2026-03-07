@@ -1,0 +1,643 @@
+{
+    "1820" : {
+        "presidential" : {
+            "winner" : "James Monroe",
+            "electoral_votes" : 3,
+            "total_votes" : 212,
+            "turnout" : 0,
+            "description" : "Following admittance to the Union in 1819, Alabama casted 3 electoral votes for incumbent Democratic-Republican president James Monroe in 1820. As in several states, Electors were chosen by the State Legislature rather than by a general election.",
+            "returns" : {
+                "James Monroe" : 212
+            }
+        }
+    },
+    "1824" : {
+        "year" : 1824,
+        "winner" : "Andrew Jackson",
+        "electoral_votes" : 5,
+        "total_votes" : 13602,
+        "returns" : {
+            "Andrew Jackson" : 9429,
+            "John Quincy Adams" : 2422,
+            "William H. Crawford" : 1656
+        }
+    },
+    "1828" : {
+        "year" : 1828,
+        "winner" : "Andrew Jackson",
+        "electoral_votes" : 5,
+        "total_votes" : 18618,
+        "returns" : {
+            "Andrew Jackson" : 16736,
+            "John Quincy Adams" : 1878
+        }
+    },
+    "1832" : {
+        "year" : 1828,
+        "winner" : "Andrew Jackson",
+        "electoral_votes" : 7,
+        "total_votes" : 14291,
+        "returns" : {
+            "Andrew Jackson" : 14286,
+            "Henry Clay" : 5
+        }
+    },
+    "1836" : {
+        "year" : 1836,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1840" : {
+        "year" : 0,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1844" : {
+        "year" : 0,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1848" : {
+        "year" : 0,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1852" : {
+        "year" : 0,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1856" : {
+        "year" : 0,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1860" : {
+        "year" : 0,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1864" : {
+        "year" : 0,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1868" : {
+        "year" : 0,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1872" : {
+        "year" : 0,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1876" : {
+        "year" : 0,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1880" : {
+        "year" : 0,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1884" : {
+        "year" : 0,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1888" : {
+        "year" : 0,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1892" : {
+        "year" : 0,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1896" : {
+        "year" : 0,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1900" : {
+        "year" : 0,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1904" : {
+        "year" : 0,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1908" : {
+        "year" : 1908,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1912" : {
+        "year" : 1912,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1916" : {
+        "year" : 1916,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1920" : {
+        "year" : 1920,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1924" : {
+        "year" : 1924,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1928" : {
+        "year" : 1928,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1932" : {
+        "year" : 1932,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1936" : {
+        "year" : 1936,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1940" : {
+        "year" : 1940,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1944" : {
+        "year" : 1944,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1948" : {
+        "year" : 1948,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1952" : {
+        "year" : 1952,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1956" : {
+        "year" : 1956,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1960" : {
+        "year" : 1960,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1964" : {
+        "year" : 1964,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1968" : {
+        "year" : 1968,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1972" : {
+        "year" : 1972,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1976" : {
+        "year" : 1976,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1980" : {
+        "year" : 1980,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1984" : {
+        "year" : 1984,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1988" : {
+        "year" : 1988,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1992" : {
+        "year" : 1992,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "1996" : {
+        "year" : 1996,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "2000" : {
+        "year" : 2000,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "2004" : {
+        "year" : 2004,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "2008" : {
+        "year" : 2008,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "2012" : {
+        "year" : 2012,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "2016" : {
+        "year" : 2016,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "2020" : {
+        "year" : 2020,
+        "winner" : "",
+        "electoral_votes" : 0,
+        "total_votes" : 0,
+        "returns" : {
+            "" : 0,
+            "" : 0
+        }
+    },
+    "2024" : {
+        "year" : 2024,
+        "presidential" : {
+            "winner" : "Donald Trump",
+            "electoral_votes" : 9,
+            "total_votes" : 2265090,
+            "turnout" : 0,
+            "description" : "Alabama casted 9 electoral votes for Republican nominee Donald Trump following a safe election for state Republicans, representing the largest victory for a Republican in Alabama, and the worst performance by a Democrat in Alabama, since 1972.",
+            "returns" : {
+                "Donald Trump" : 1462616,
+                "Kamala Harris" : 772412,
+                "Robert F. Kennedy Jr." : 12075,
+                "Chase Oliver" : 4930,
+                "Jill Stein" : 4319
+            }
+        },
+        "Alabama Senate" : {
+            "winner" : "Roger Wicker",
+            "description" : "Incumbent Republican Roger Wicker holds seat in a safe race for Alabama's senior senatorship, defeating Democratic challenger Ty Pinkins.",
+            "total_votes" : 1215401,
+            "returns" : {
+                "Roger Wicker" : 763420,
+                "Ty Pinkins" : 451981
+            }
+        },
+        "Alabama House of Representatives" : {
+            "AL-1" : {
+                "winner" : "Barry Moore",
+                "description" : "Republican Barry Moore (previously incumbent in redistricted AL-2) elected in a safe race to represent AL-1, defeating Democratic challenger Tom Holmes.",
+                "returns" : {
+                    "Barry Moore" : 0.785,
+                    "Tom Holmes" : 0.215
+                }
+            },
+            "AL-2" : {
+                "winner" : "Shomari Figures",
+                "description" : "Democrat Shomari Figures gains seat in competitive election to represent new district AL-2, defeating Republican challenger Caroleene Dobson.",
+                "returns" : {
+                    "Shomari Figures" : 0.546,
+                    "Caroleene Dobson" : 0.454
+                }
+            },
+            "AL-3" : {
+                "winner" : "Mike Rogers",
+                "description" : "Incumbent Republican Mike Rogers holds seat in uncontested election to represent AL-3.",
+                "returns" : {
+                    "Mike Rogers" : 1.0
+                }
+            },
+            "AL-4" : {
+                "winner" : "Robert Alderholt",
+                "description" : "Incumbent Republican Robert Aderholt holds seat in uncontested election to represent AL-4.",
+                "returns" : {
+                    "Robert Alderholt" : 1.0
+                }
+            },
+            "AL-5" : {
+                "winner" : "Dale Strong",
+                "description" : "Incumbent Republican Dale Strong holds seat in uncontested election to represent AL-5.",
+                "returns" : {
+                    "Dale Strong" : 1.0
+                }
+            },
+            "AL-6" : {
+                "winner" : "Gary Palmer",
+                "description" : "Incumbent Republican Gary Palmer holds seat in safe election to represent AL-6, defeating Democratic challenger Elizabeth Anderson.",
+                "returns" : {
+                    "Gary Palmer" : 0.704,
+                    "Elizabeth Anderson" : 0.296
+                }
+            },
+            "AL-7" : {
+                "winner" : "Terri Sewell",
+                "description" : "Incumbent Democrat Terri Sewell holds seat in safe election to represent AL-7, defeating Republican challenger Robin Litaker.",
+                "returns" : {
+                    "Terri Sewell" : 0.637,
+                    "Robin Litaker" : 0.363
+                }
+            }
+        },
+        "Alabama Legislature" : {
+            "Senate District 9" : {
+                "winner" : "Wes Kitchens",
+                "description" : "Following resignation of Republican incumbent Clay Scofield, Republican State House Member for House District 27 Wes Kitchens elected outright to represent Senate District 9 following cancellation of special election.",
+                "returns" : {
+                    "Wes Kitchens" : 1.0
+                }
+            },
+            "House District 16" : {
+                "winner" : "Bryan Brinyark",
+                "description" : "Following resignation of incumbent Republican Kyle South, Republican Bryan Brinyark elected in a safe race to Alabama State House to represent House District 16, defeating Democratic challenger John Underwood.",
+                "returns" : {
+                    "Bryan Brinyark" : 0.834,
+                    "John Underwood" : 0.165
+                }
+            },
+            "House District 55": {
+                "winner" : "Travis Hendrix",
+                "description" : "Following resignation of Democratic incumbent Fred Plump, Democrat Travis Hendrix elected outright to Alabama State House to represent House District 55 following cancellation of special election.",
+                "returns" : {
+                    "Travis Hendrix" : 1.0
+                }
+            },
+            "House District 10" : {
+                "winner" : "Marilyn Lands",
+                "description" : "Following resignation of Republican incumbent David Cole, Democrat Marilyn Lands flips seat in safe election to represent House District 10 in Alabama State House, defeating Republican challenger Teddy Powell.",
+                "returns" : {
+                    "Marilyn Lands" : 0.623,
+                    "Teddy Powell" : 0.375
+                }
+            },
+            "House District 27" : {
+                "winner" : "Jeana Ross",
+                "description" : "Following ascension to State Senate of incumbent Republican Wes Kitchens, Republican Jeana Ross elected outright to Alabama State House to represent House District 27 following cancellation of special election.",
+                "returns" : {
+                    "Jeana Ross" : 1.0
+                }
+            },
+            "House District 52" : {
+                "winner" : "Kelvin Datcher",
+                "description" : "Following resignation of Democratic incumbent John Rogers, Democrat Kelvin Datcher elected in a safe race to Alabama State House to represent House District 52, defeating Republican challenger Erskine Brown Jr.",
+                "returns" : {
+                    "Kevin Datcher" : 0.843,
+                    "Erskine Brown Jr." : 0.157
+                }
+            }
+        }
+    }
+}
