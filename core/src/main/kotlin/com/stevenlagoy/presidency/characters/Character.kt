@@ -10,7 +10,7 @@ import com.stevenlagoy.presidency.characters.attributes.names.NameJava
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.data.Repr
 import com.stevenlagoy.presidency.demographics.DemographicsJava
-import com.stevenlagoy.presidency.map.Municipality
+import com.stevenlagoy.presidency.map.MunicipalityJava
 
 /**
  * Basic form of game Character, from which other types of Characters -- including Player -- inherit.
@@ -32,16 +32,16 @@ import com.stevenlagoy.presidency.map.Municipality
  *
  * @author Steven LaGoy
  */
-open class CharacterKT(
+open class Character(
     val demographics: DemographicsJava,
     val name: NameJava,
-    val origin: Municipality,
-    var location: Municipality,
-    var residence: Municipality,
+    val origin: MunicipalityJava,
+    var location: MunicipalityJava,
+    var residence: MunicipalityJava,
     birthday: LocalDate,
     val appearance: CharacterModel,
     val engine: Engine
-) : Repr<CharacterKT>, Jsonic<CharacterKT>
+) : Repr<Character>, Jsonic<Character>
 {
 
     companion object {
@@ -69,7 +69,7 @@ open class CharacterKT(
     val age: Int
         get() = engine.TimeManager().yearsAgo(birthday)
 
-    override fun fromRepr(repr: String): CharacterKT {
+    override fun fromRepr(repr: String): Character {
         return this
     }
 
@@ -87,7 +87,7 @@ open class CharacterKT(
         """.trimIndent()
     }
 
-    override fun fromJson(json: JSONObject): CharacterKT {
+    override fun fromJson(json: JSONObject): Character {
         demographics.fromJson(json.get("demographics") as? JSONObject)
         name.fromJson(json.get("name") as? JSONObject)
         appearance.fromJson(json.get("appearance") as? JSONObject)
