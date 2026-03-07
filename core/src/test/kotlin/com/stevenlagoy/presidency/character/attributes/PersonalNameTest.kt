@@ -3,15 +3,15 @@ package com.stevenlagoy.presidency.character.attributes
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions.assertEquals
 
-import com.stevenlagoy.presidency.characters.attributes.NameKT
-import com.stevenlagoy.presidency.characters.attributes.NameKT.DisplayOption
-import com.stevenlagoy.presidency.characters.attributes.NameKT.NameForm
+import com.stevenlagoy.presidency.characters.attributes.names.PersonalName
+import com.stevenlagoy.presidency.characters.attributes.names.PersonalName.DisplayOption
+import com.stevenlagoy.presidency.characters.attributes.names.PersonalName.NameForm
 
-class NameKTTest {
+class PersonalNameTest {
 
     @Test
     fun `primary constructor`() {
-        val name = NameKT(
+        val name = PersonalName(
             NameForm.WESTERN,
             "John",
             "Michael",
@@ -45,7 +45,7 @@ class NameKTTest {
 
     @Test
     fun `no-arg constructor`() {
-        val name = NameKT()
+        val name = PersonalName()
         assertEquals(NameForm.WESTERN, name.nameForm)
         assertEquals("", name.givenName)
         assertEquals("", name.middleName)
@@ -64,7 +64,7 @@ class NameKTTest {
 
     @Test
     fun `copy constructor`() {
-        val originalName = NameKT(
+        val originalName = PersonalName(
             NameForm.WESTERN,
             "John",
             "Michael",
@@ -80,7 +80,7 @@ class NameKTTest {
             listOf("PhD", "MD"),
             setOf(DisplayOption.INCLUDE_MIDDLE, DisplayOption.ABBREVIATE_FIRST)
         )
-        val newName = NameKT(originalName)
+        val newName = PersonalName(originalName)
         assertEquals(NameForm.WESTERN, newName.nameForm)
         assertEquals("John", newName.givenName)
         assertEquals("Michael", newName.middleName)
@@ -99,7 +99,7 @@ class NameKTTest {
 
     @Test
     fun `secondary constructor -- givenName, middleName, lastName`() {
-        val name = NameKT("John", "Michael", "Doe")
+        val name = PersonalName("John", "Michael", "Doe")
         assertEquals(NameForm.WESTERN, name.nameForm)
         assertEquals("John", name.givenName)
         assertEquals("Michael", name.middleName)
@@ -118,7 +118,7 @@ class NameKTTest {
 
     @Test
     fun `property accessors and modifiers`() {
-        val name = NameKT()
+        val name = PersonalName()
         name.givenName = "John"
         name.middleName = "Michael"
         name.familyName = "Doe"
@@ -162,7 +162,7 @@ class NameKTTest {
 
     @Test
     fun `hispanic nameform`() {
-        val name = NameKT(NameForm.HISPANIC, "Alberto", "Miguel", "Ramos de la Cruz Salamanca")
+        val name = PersonalName(NameForm.HISPANIC, "Alberto", "Miguel", "Ramos de la Cruz Salamanca")
         name.nickname = "Beto"
         name.displayOptions += DisplayOption.INCLUDE_NICKNAME
         assertEquals(NameForm.HISPANIC, name.nameForm)
@@ -205,7 +205,7 @@ class NameKTTest {
 
     @Test
     fun `eastern nameform`() {
-        val name = NameKT(NameForm.EASTERN, "Cheng", "Bo", "Heng")
+        val name = PersonalName(NameForm.EASTERN, "Cheng", "Bo", "Heng")
         assertEquals(NameForm.EASTERN, name.nameForm)
         assertEquals("cheng", name.givenName)
         assertEquals("Bocheng", name.givenNames)
