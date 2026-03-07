@@ -1,0 +1,111 @@
+{
+    "Donald Trump" : {
+        "name" : "Donald Trump",
+        "party" : "Republican",
+        "race" : "presidential",
+        "home_state" : "Florida",
+        "running_mate" : {
+            "name" : "JD Vance",
+            "home_state" : "Ohio"
+        }
+    },
+    "Kamala Harris" : {
+        "name" : "Kamala Harris",
+        "party" : "Democratic",
+        "race" : "presidential",
+        "home_state" : "California",
+        "running_mate" : {
+            "name" : "Tim Walz",
+            "home_state" : "Minnesota"
+        }
+    },
+    "Jill Stein" : {
+        "name" : "Jill Stein",
+        "party" : "Green",
+        "race" : "presidential",
+        "home_state" : "Massachusetts",
+        "running_mate" : {
+            "name" : "Butch Ware",
+            "home_state" : "California"
+        }
+    },
+    "Robert F. Kennedy Jr." : {
+        "name" : "Robert F. Kennedy Jr.",
+        "party" : "Independent",
+        "race" : "presidential",
+        "home_state" : "California",
+        "running_mate" : {
+            "name" : "Nicole Shanahan",
+            "home_state" : "California"
+        }
+    },
+    "Chase Oliver" : {
+        "name" : "Chase Oliver",
+        "party" : "Libertarian",
+        "race" : "presidential",
+        "home_state" : "Georgia",
+        "running_mate" : {
+            "name" : "Mike ter Maat",
+            "home_state" : "Virginia"
+        }
+    },
+    "Claudia de la Cruz" : {
+        "name" : "Claudia de la Cruz",
+        "party" : "Socialism & Liberation",
+        "race" : "presidential",
+        "home_state" : "New York",
+        "running_mate" : {
+            "name" : "Karina Garcia",
+            "home_state" : "California"
+        }
+    },
+    "Roger Wicker" : {
+        "name" : "Roger Wicker",
+        "party" : "Republican",
+        "race" : "Alabama senate"
+    },
+    "Ty Pinkins" : {
+        "name" : "Ty Pinkins",
+        "party" : "Democratic",
+        "race" : "Alabama senate"
+    },
+
+
+
+
+
+
+    "Barry Moore" : {
+        "party" : "Republican"
+    },
+    "Tom Holmes" : {
+        "party" : "Democratic"
+    },
+    "Shomari Figures" : {
+        "party" : "Democratic"
+    },
+    "Caroleene Dobson" : {
+        "party" : "Republican"
+    },
+    "Mike Rogers" : {
+        "party" : "Republican"
+    },
+    "Robert Alderholt" : {
+        "party" : "Republican"
+    },
+    "Dale Strong" : {
+        "party" : "Republican"
+    },
+    "Gary Palmer" : {
+        "party" : "Republican"
+    },
+    "Elizabeth Anderson" : {
+        "party" : "Democratic"
+    },
+    "Terri Sewell" : {
+        "party" : "Democratic"
+    },
+    "Robin Litaker" : {
+        "party" : "Republican"
+    }
+}

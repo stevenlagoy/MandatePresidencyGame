@@ -1,0 +1,22 @@
+{
+    "James Monroe" : {
+        "name" : "James Monroe",
+        "party" : "Democratic-Republican",
+        "race" : "presidential",
+        "home_state" : "Virginia",
+        "running_mate" : {
+            "name" : "Daniel D. Tompkins",
+            "home_state" : "New York"
+        }
+    },
+    "John Quincy Adams" : {
+        "name" : "John Quincy Adams",
+        "party" : "Democratic-Republican",
+        "race" : "presidential",
+        "home_state" : "Massachusetts",
+        "running_mate" : {
+            "name" : "Richard Rush",
+            "home_state" : "Pennsylvania"
+        }
+    }
+}
