@@ -5,9 +5,9 @@ import java.util.Map;
 
 public class ElectionResult {
 
-    private LocalDate electionDate;
-    private Map<String, Integer> candidateVotes;
-    private Map<String, Party> candidateParties;
+    private final LocalDate electionDate;
+    private final Map<String, Integer> candidateVotes;
+    private final Map<String, Party> candidateParties;
 
     public ElectionResult(LocalDate electionDate, Map<String, Integer> candidateVotes,
             Map<String, Party> candidateParties) {
@@ -34,6 +34,17 @@ public class ElectionResult {
 
     public Party getCandidateParty(String candidateName) {
         return candidateParties.get(candidateName);
+    }
+
+    public double getMarginForParty(Party party) {
+        double votesForParty = 0.0, votesForOthers = 0.0;
+        for (String candidate : candidateVotes.keySet()) {
+            int votes = candidateVotes.get(candidate);
+            Party candidateParty = candidateParties.get(candidate);
+            if (candidateParty.equals(party)) votesForParty += votes;
+            else votesForOthers += votes;
+        }
+        return votesForParty / votesForOthers;
     }
 
 }
