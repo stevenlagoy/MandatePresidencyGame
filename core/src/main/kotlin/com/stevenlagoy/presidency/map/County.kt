@@ -1,31 +1,32 @@
 package com.stevenlagoy.presidency.map
 
-import com.stevenlagoy.presidency.characters.PoliticalActor
+import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.demographics.Bloc
 import com.stevenlagoy.presidency.politics.ElectionResult
+import com.stevenlagoy.presidency.politics.Chamber
 import com.stevenlagoy.presidency.politics.Government
 import com.stevenlagoy.presidency.politics.Party
 
-class Municipality(
+class County(
     managers: Engine.Managers,
     override val FIPS: String,
-    override var fullName: String,
-    override var commonName: String,
-    override var uniqueName: String,
+    override var fullName: String = "",
+    override var commonName: String = "",
+    override var uniqueName: String = fullName,
     val state: State,
-    override var population: Int,
-    override var squareMileage: Double,
-    override var descriptors: Set<Descriptor>,
-    override var demographics: Map<Bloc, Double>,
+    override var population: Int = 0,
+    override var squareMileage: Double = 0.0,
+    override var descriptors: Set<Descriptor> = emptySet(),
+    override var demographics: Map<Bloc, Double> = emptyMap(),
     override val government: Government,
     override val partiesPresent: Set<Party> = setOf(),
     override val pastElectionResults: MutableList<ElectionResult> = mutableListOf(),
-) : MapEntity(managers), HasFIPS, HasPolitics
-{
-    val nation: Nation = Nation
+    override var capital: Municipality? = null,
+    val municipalities: MutableSet<Municipality> = mutableSetOf(),
+) : MapEntity(managers), HasFIPS, HasPolitics {
 
-    override var capital: Municipality? = this
+    val countySeat = capital
 
     override val partyControlFactors: List<(party: Party) -> Double> = listOf(
         // Last election margin
@@ -42,8 +43,12 @@ class Municipality(
         },
     )
 
-    override fun getPartyControl(): Map<Party, Double> {
-        return mapOf()
+    override fun toJson(): JSONObject {
+        val superJson = super.toJson()
+        return superJson
     }
 
+    override fun fromJson(json: JSONObject): County {
+        return this
+    }
 }

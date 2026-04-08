@@ -3,7 +3,6 @@ package com.stevenlagoy.presidency.demographics
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.Jsonic
 import com.stevenlagoy.presidency.characters.Character
-import com.stevenlagoy.presidency.data.Repr
 
 /**
  * Blocs are groups defined by membership in a demographic subset, whether by Race & Ethnicity,
@@ -22,21 +21,21 @@ import com.stevenlagoy.presidency.data.Repr
  */
 class Bloc (
     val name: String,
-    val category: DemographicCategoryKT,
+    val category: DemographicCategory,
     val percentageMembership: Double,
     members: Collection<Character> = setOf(),
     private var _superBloc: Bloc? = null,
     private val _subBlocs: MutableList<Bloc> = mutableListOf(),
-) : Repr<Bloc>, Jsonic<Bloc>
+) : Jsonic<Bloc>
 {
-    val members: MutableSet<Character> = members.toMutableSet();
+    val members: MutableSet<Character> = members.toMutableSet()
 
     val superBloc: Bloc? get() = _superBloc
 
     val subBlocs: List<Bloc> get() = _subBlocs
 
     fun addSubBloc(bloc: Bloc) {
-        _subBlocs.add(bloc);
+        _subBlocs.add(bloc)
         bloc._superBloc = this
     }
 
@@ -62,20 +61,22 @@ class Bloc (
 
     // REPRESENTATION METHODS ---------------------------------------------------------------------
 
-    override fun toRepr(): String? {
-        TODO("Not yet implemented")
-    }
+    override fun toString() = """[
+        name: $name,
+        category: $category,
+        superBloc: $superBloc,
+        subBlocs: $subBlocs,
+    ]""".trimIndent()
 
-    override fun fromRepr(repr: String?): Bloc? {
-        TODO("Not yet implemented")
-    }
+    override fun toJson() = JSONObject(name, mapOf(
+        "name" to name,
+        "category" to category,
+        "superBloc" to superBloc,
+        "subBlocs" to subBlocs,
+    ))
 
-    override fun toJson(): JSONObject? {
-        TODO("Not yet implemented")
-    }
+    override fun fromJson(json: JSONObject) = this.apply {
 
-    override fun fromJson(json: JSONObject?): Bloc? {
-        TODO("Not yet implemented")
     }
 
 }

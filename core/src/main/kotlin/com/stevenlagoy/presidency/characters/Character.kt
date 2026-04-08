@@ -5,12 +5,11 @@ import java.time.LocalDate
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.Jsonic
 
-import com.stevenlagoy.presidency.characters.attributes.CharacterModel
-import com.stevenlagoy.presidency.characters.attributes.names.NameJava
+import com.stevenlagoy.presidency.characters.attributes.CharacterAppearance
+import com.stevenlagoy.presidency.characters.attributes.names.PersonalName
 import com.stevenlagoy.presidency.core.Engine
-import com.stevenlagoy.presidency.data.Repr
-import com.stevenlagoy.presidency.demographics.DemographicsJava
-import com.stevenlagoy.presidency.map.MunicipalityJava
+import com.stevenlagoy.presidency.demographics.Demographics
+import com.stevenlagoy.presidency.map.Municipality
 
 /**
  * Basic form of game Character, from which other types of Characters -- including Player -- inherit.
@@ -26,22 +25,22 @@ import com.stevenlagoy.presidency.map.MunicipalityJava
  * @property residence    Municipality in which this character legally resides.
  * @property birthday     Date of this character's birth, or best known approximation.
  * @property appearance   Appearance of this character.
- * @property engine       Reference to main game Engine.
+ * @property managers       Reference to main game Engine's Managers.
  *
  * @constructor Create a Character with given property values.
  *
  * @author Steven LaGoy
  */
 open class Character(
-    val demographics: DemographicsJava,
-    val name: NameJava,
-    val origin: MunicipalityJava,
-    var location: MunicipalityJava,
-    var residence: MunicipalityJava,
+    val managers: Engine.Managers,
+    val demographics: Demographics,
+    val name: PersonalName,
+    val origin: Municipality,
+    var location: Municipality,
+    var residence: Municipality,
     birthday: LocalDate,
-    val appearance: CharacterModel,
-    val engine: Engine
-) : Repr<Character>, Jsonic<Character>
+    val appearance: CharacterAppearance,
+) : Jsonic<Character>
 {
 
     companion object {
@@ -58,52 +57,41 @@ open class Character(
 
     var birthday: LocalDate = birthday
         set(value) {
-            val years = engine.TimeManager().yearsAgo(value)
+            val years = managers.TimeManager().yearsAgo(value)
             field = when {
-                years > MAX_AGE -> engine.TimeManager().dateYearsAgo(MAX_AGE.toLong())
-                years < MIN_AGE -> engine.TimeManager().currentDate.toLocalDate()
+                years > MAX_AGE -> managers.TimeManager().dateYearsAgo(MAX_AGE.toLong())
+                years < MIN_AGE -> managers.TimeManager().currentDate.toLocalDate()
                 else -> value
             }
         }
 
     val age: Int
-        get() = engine.TimeManager().yearsAgo(birthday)
+        get() = managers.TimeManager().yearsAgo(birthday)
 
-    override fun fromRepr(repr: String): Character {
-        return this
-    }
-
-    override fun toRepr(): String {
-        return """
-            ${this::class.simpleName}:[
-                demographics:${demographics.toRepr()}
-                name:${name.toRepr()}
-                birthplace:${origin.toRepr()}
-                currentLocation:${location.toRepr()}
-                residence:${residence.toRepr()}
-                birthday:${birthday}
-                appearance:${appearance.toRepr()}
-            ];
-        """.trimIndent()
-    }
+    override fun toString() = """{
+        demographics: $demographics,
+        name: $name,
+        birthplace: ${origin.uniqueName},
+        location: ${location.uniqueName},
+        residence: ${residence.uniqueName},
+        birthday: $birthday,
+        appearance: $appearance,
+    }""".trimIndent()
 
     override fun fromJson(json: JSONObject): Character {
-        demographics.fromJson(json.get("demographics") as? JSONObject)
-        name.fromJson(json.get("name") as? JSONObject)
-        appearance.fromJson(json.get("appearance") as? JSONObject)
+        demographics.fromJson(json.get("demographics") as JSONObject)
+        name.fromJson(json.get("name") as JSONObject)
+        appearance.fromJson(json.get("appearance") as JSONObject)
         return this
     }
 
-    override fun toJson(): JSONObject {
-        val fields = mutableListOf<JSONObject>()
-        fields.add(demographics.toJson())
-        fields.add(name.toJson())
-        fields.add(JSONObject("birthplace", origin.nameWithCountyAndState))
-        fields.add(JSONObject("current_location", location.nameWithCountyAndState))
-        fields.add(JSONObject("residence", residence.nameWithCountyAndState))
-        fields.add(JSONObject("birthday", birthday.toString()))
-        fields.add(appearance.toJson())
-        return JSONObject(hashCode().toString(), fields)
-    }
-
+    override fun toJson() = JSONObject(hashCode().toString(), mapOf(
+        "demographics" to demographics.toString(),
+        "name"         to name.toString(),
+        "origin"       to origin.uniqueName,
+        "location"     to location.uniqueName,
+        "residence"    to residence.uniqueName,
+        "birthday"     to birthday.toString(),
+        "appearance"   to appearance.toString(),
+    ))
 }

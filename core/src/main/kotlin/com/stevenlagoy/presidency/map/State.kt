@@ -1,93 +1,130 @@
 package com.stevenlagoy.presidency.map
 
-import com.stevenlagoy.presidency.characters.PoliticalActorKT
-import com.stevenlagoy.presidency.demographics.BlocKT
+import com.stevenlagoy.jsonic.JSONObject
+import com.stevenlagoy.presidency.characters.PoliticalActor
+import com.stevenlagoy.presidency.core.Engine
+import com.stevenlagoy.presidency.demographics.Bloc
 import com.stevenlagoy.presidency.politics.ElectionResult
-import com.stevenlagoy.presidency.politics.Legislature
+import com.stevenlagoy.presidency.politics.Chamber
 import com.stevenlagoy.presidency.politics.Party
 
 class State (
-    val FIPS: String,
-    override val fullName: String,
-    override val commonName: String,
-    override var population: Int,
-    override val squareMileage: Double,
-    override val descriptors: Set<Descriptor>,
-    override val demographics: Map<BlocKT, Double>,
-    val capital: Municipality? = null,
-    val counties: Set<County>? = null,
-    val abbreviation: String = commonName.substring(0..2),
-    val nickname: String? = null,
-    val motto: String? = null,
-    val senators: Pair<PoliticalActorKT?, PoliticalActorKT?>? = null,
-    val representatives: MutableSet<PoliticalActorKT>? = null,
-    val legislature: Set<Legislature>? = null,
-    var governor: PoliticalActorKT? = null,
-    var lieutenantGovernor: PoliticalActorKT? = null,
-    val partiesPresent: Set<Party> = setOf(),
-    val pastElections: MutableList<ElectionResult> = mutableListOf(),
-) : MapEntity()
+    managers: Engine.Managers,
+    override val FIPS: String,
+    override var fullName: String = "",
+    override var commonName: String = "",
+    override var uniqueName: String = fullName,
+    var abbreviation: String = commonName.substring(0..2),
+    override var population: Int = 0,
+    override var squareMileage: Double = 0.0,
+    var nickname: String? = null,
+    var motto: String? = null,
+    override var descriptors: Set<Descriptor> = emptySet(),
+    override var demographics: Map<Bloc, Double> = emptyMap(),
+    override val legislature: Set<Chamber>? = null,
+    override val partiesPresent: Set<Party> = setOf(),
+    override val pastElectionResults: MutableList<ElectionResult> = mutableListOf(),
+    override var capital: Municipality? = null,
+    var counties: Set<County>? = null,
+    var senators: Pair<PoliticalActor?, PoliticalActor?>? = null,
+    var representatives: MutableSet<PoliticalActor>? = null,
+    var governor: PoliticalActor? = null,
+    var lieutenantGovernor: PoliticalActor? = null,
+) : MapEntity(managers), HasFIPS, HasPolitics
 {
-    val nation: NationJava = NationJava.getInstance()
+    constructor(json: JSONObject) : this(json.get("FIPS") as String) { fromJson(json) }
 
-    val upperHouse: Legislature? = legislature?.find { it.isUpperHouse }
+    val nation = Nation
 
-    fun getElectionResults(years: IntRange) = pastElections.filter { it.electionDate.year in years }
-    fun getElectionResult(year: Int = 2024) = getElectionResults(year..year).firstOrNull()
+    override val partyControlFactors: List<(party: Party) -> Double> = listOf(
+        // Each legislature seat
+        { party -> 1.0 *
+            (legislature?.fold(0.0) { acc, it -> acc + it.members.size } ?: 0.0)
+        },
+        // Legislative house each majority
+        { party -> 15.0 *
+            (legislature?.fold(0.0) { acc, it -> acc + if (it.isPartyControlled(party)) 1.0 else 0.0 } ?: 0.0)
+        },
+        // Upper house majority
+        { party -> 10.0 * if (upperHouse != null && upperHouse!!.isPartyControlled(party)) 1.0 else 0.0 },
+        // Overall legislature majority
+        { party -> 15.0 *
+            (if (legislature != null && legislature.count { it -> it.isPartyControlled(party)} > legislature.size / 2 ) 1.0 else 0.0)
+        },
+        // Governor alignment
+        { party -> 25.0 * if (governor?.partyAlignment == party) 1.0 else 0.0 },
+        // Lieutenant Governor alignment
+        { party -> 8.0 * if (lieutenantGovernor?.partyAlignment == party) 1.0 else 0.0 },
+        // Trifecta
+        { party -> 20.0 *
+            if(
+                governor?.partyAlignment == party &&
+                legislature != null && legislature.count { it -> it.isPartyControlled(party)} > legislature.size / 2
+            ) 1.0 else 0.0
+        },
+        // Each senator
+        { party -> 10.0 *
+            arrayOf(senators?.first, senators?.second).fold(0.0) { acc, it -> acc + if (it?.partyAlignment == party) 1.0 else 0.0 }
+        },
+        // Both senators
+        { party -> 8.0 *
+            if(senators?.first?.partyAlignment == party && senators?.second?.partyAlignment == party) 1.0 else 0.0
+        },
+        // Each representative
+        { party -> 2.0 *
+            (representatives?.fold(0.0) { acc, it -> acc + if (it.partyAlignment == party) 1.0 else 0.0} ?: 0.0)
+        },
+        // Majority of representatives
+        { party -> 8.0 *
+            if (representatives != null && representatives!!.fold(0) { acc, it -> acc + if (it.partyAlignment == party) 1 else 0} > representatives!!.size / 2) 1.0 else 0.0
+        },
+        // President represents state
+        { party -> 8.0 * if (nation.president.birthplaceMunicipality == this && nation.president.partyAlignment == party) 1.0 else 0.0},
+        // Last election margin
+        { party -> 30.0 *
+            (getElectionResult(2024)?.getMarginForParty(party) ?: 0.0)
+        },
+        // Average last 4 elections margin
+        { party -> 15.0 *
+            (getElectionResults(2012..2024).fold(0.0) { acc, it -> acc + it.getMarginForParty(party)}) / 4
+        },
+        // Average last 12 elections margin
+        { party -> 5.0 *
+            (getElectionResults(1976..2024).fold(0.0) { acc, it -> acc + it.getMarginForParty(party)}) / 12
+        },
+    )
 
-    val partyControl: Map<Party, Double> get() {
-
-        val controlFactors = mapOf<String, Double>(
-            "EACH_LEGISLATURE_SEAT" to 1.0, // Seats held by party in the legislature
-            "HOUSE_MAJORITY" to 15.0, // Majority in any state house
-            "UPPER_HOUSE_MAJORITY" to 10.0, // Majority in the upper state house (added to HOUSE_MAJORITY)
-            "OVERALL_LEGISLATURE_MAJORITY" to 15.0, // Majority of the legislature overall (added to UPPER_HOUSE_MAJORITY and ...HOUSE_MAJORITY)
-            "GOVERNOR" to 25.0, // Governor's affiliated party
-            "LIEUTENANT_GOVERNOR" to 5.0, // Lieutenant Governor's affiliated party (some states have same ticket, some separate, for some the position does not exist)
-            "TRIFECTA" to 20.0, // Trifecta of Governor, Upper House, and Lower House (added to GOVERNOR and OVERALL_LEGISLATURE_MAJORITY)
-            "EACH_SENATOR" to 10.0, // Each federal senator's affiliated party
-            "BOTH_SENATORS" to 8.0, // Both federal senators' affiliated party (added to 2 * EACH_SENATOR)
-            "EACH_REPRESENTATIVE" to 2.0, // Each federal representative's affiliated party
-            "MAJORITY_REPRESENTATIVES" to 7.0, // Majority of federal representatives' affiliated party (added to ...EACH_REPRESENTATIVE)
-            "PRESIDENT_FROM_STATE" to 4.0, // President is from State and affiliated with party
-            "LAST_ELECTION_MARGIN" to 30.0, // Margin of party victory in recent election (2024)
-            "LAST_4_ELECTIONS_MARGIN" to 15.0, // Margin of party victory in last 4 elections (including and since 2012)
-            "LAST_12_ELECTIONS_MARGIN" to 5.0, // Margin of party victory in last 12 elections (including and since 1980)
-        )
-
-        return partiesPresent.associateWith { party ->
-            var control: Double = 0.0
-            var trifecta = true
-            fun PoliticalActorKT.isAligned(): Boolean = partyAlignment == party
-            legislature?.forEach {
-                control += it.members.count { member -> member.isAligned() } * controlFactors["EACH_LEGISLATURE_SEAT"]!!
-                if(it.isPartyControlled(party)) control += controlFactors["EACH_LEGISLATURE_MAJORITY"]!!
-                if(it.isUpperHouse && it.isPartyControlled(party)) control += controlFactors["UPPER_HOUSE_MAJORITY"]!!
-            }
-            if (legislature != null && legislature.count { it.isPartyControlled(party) } >= legislature.size) control += controlFactors["OVERALL_LEGISLATURE_MAJORITY"]!!
-            else trifecta = false
-            if (governor?.isAligned()!!) control += controlFactors["GOVERNOR"]!!
-            else trifecta = false
-            if (lieutenantGovernor?.isAligned()!!) control += controlFactors["LIEUTENANT_GOVERNOR"]!!
-            if (trifecta) control += controlFactors["TRIFECTA"]!!
-
-            val numSenators = senators?.toList()?.count { it?.isAligned()!! } ?: 0
-            control += numSenators * controlFactors["EACH_SENATOR"]!!
-            if (numSenators == 2) controlFactors["BOTH_SENATORS"]!!
-
-            val numRepresentatives = representatives?.count { it.isAligned() } ?: 0
-            control += numRepresentatives * controlFactors["EACH_REPRESENTATIVE"]!!
-            if (numRepresentatives > representatives?.size!! / 2) control += controlFactors["MAJORITY_REPRESENTATIVES"]!!
-
-            if (nation.getPresident().isAligned() && nation.getPresident().residenceMunicipality.inside(this)) control += controlFactors["PRESIDENT_FROM_STATE"]!!
-
-            // TODO these should not be magic numbers but derived from TimeManager
-            control += getElectionResult(2024)?.marginFor(party) * controlFactors["LAST_ELECTION_MARGIN"]!!
-            control += getElectionResults(2012..2024).forEach { it.marginFor(party) }.sum() / 4 * controlFactors["LAST_4_ELECTIONS_MARGIN"]!!
-            control += getElectionResults(1980..2024).forEach { it.marginFor(party) }.sum() / 12 * controlFactors["LAST_12_ELECTIONS_MARGIN"]!!
-
-            control
-        }
+    override fun fromJson(json: JSONObject) = this.apply {
+        super.fromJson(json)
+        counties = (json.get("counties") as List<String>).map { MapManager().matchCounty(it) }
+        abbreviation = json.get("abbreviation") as String
+        nickname = json.get("nickname") as String
+        motto = json.get("motto") as String
+        senators = null // From CharacterManager
+        representatives = null // From CharacterManager
+        governor = null // From CharacterManager
+        lieutenantGovernor = null // From CharacterManager
     }
 
+    override fun toJson() = JSONObject(uniqueName, mapOf(
+        "FIPS" to FIPS,
+        "full_name" to fullName,
+        "common_name" to commonName,
+        "population" to population,
+        "square_mileage" to squareMileage,
+        "descriptors" to descriptors,
+        "demographics" to demographics,
+        "legislature" to legislature,
+        "parties_present" to partiesPresent,
+        "past_elections" to pastElectionResults,
+        "capital" to capital?.fullName,
+        "counties" to counties?.map { it.FIPS },
+        "abbreviation" to abbreviation,
+        "nickname" to nickname,
+        "motto" to motto,
+        "senators" to senators,
+        "representatives" to representatives,
+        "governor" to governor,
+        "lieutenant_governor" to lieutenantGovernor,
+    ))
 }

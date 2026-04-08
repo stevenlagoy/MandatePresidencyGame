@@ -24,31 +24,20 @@ import com.stevenlagoy.presidency.data.Repr
  *
  * @author Steven LaGoy
  */
-class SkillsKT(
-    baseLegislative: Int = 50,
-    baseExecutive: Int = 50,
-    baseJudicial: Int = 50,
-    var addLegislative: Int = 0,
-    var addExecutive: Int = 0,
-    var addJudicial: Int = 0,
+data class Skills(
+    var baseLegislative: Int    = 50,
+    var baseExecutive:   Int    = 50,
+    var baseJudicial:    Int    = 50,
+    var addLegislative:  Int    = 0,
+    var addExecutive:    Int    = 0,
+    var addJudicial:     Int    = 0,
     var multLegislative: Double = 1.0,
-    var multExecutive: Double = 1.0,
-    var multJudicial: Double = 1.0,
-) : Repr<SkillsKT>, Jsonic<SkillsKT>
+    var multExecutive:   Double = 1.0,
+    var multJudicial:    Double = 1.0,
+) : Jsonic<Skills>
 {
 
-    constructor(repr: String) : this() { fromRepr(repr) }
-
     constructor(json: JSONObject) : this() { fromJson(json) }
-
-    var baseLegislative: Int = baseLegislative.coerceIn(0, 100)
-        set(value) { field = value.coerceIn(0, 100) }
-
-    var baseExecutive: Int = baseExecutive.coerceIn(0, 100)
-        set(value) { field = value.coerceIn(0, 100) }
-
-    var baseJudicial: Int = baseJudicial.coerceIn(0, 100)
-        set(value) { field = value.coerceIn(0, 100) }
 
     val legislativeSkill: Int
         get() = (baseLegislative * multLegislative + addLegislative).toInt().coerceIn(0, 100)
@@ -64,31 +53,18 @@ class SkillsKT(
 
     // REPRESENTATION METHODS ---------------------------------------------------------------------
 
-    override fun toRepr() = """
-        ${this::class.java.simpleName}:[
-            \"baseLegislative\":$baseLegislative;
-            \"baseExecutive\":$baseExecutive;
-            \"baseJudicial\":$baseJudicial;
-            \"addLegislative\":$addLegislative;
-            \"addExecutive\":$addExecutive;
-            \"addJudicial\":$addJudicial;
-            \"multLegislative\":$multLegislative;
-            \"multExecutive\":$multExecutive;
-            \"multJudicial\":$multJudicial;
-        ];
-    """.trimIndent()
-
-    override fun fromRepr(repr: String) = this.apply {
-        baseLegislative = repr.split("\"baseLegislative\":")[1].split(";")[0].toIntOrNull()    ?: baseLegislative
-        baseExecutive   = repr.split("\"baseExecutive\":")[1].split(";")[0].toIntOrNull()      ?: baseExecutive
-        baseJudicial    = repr.split("\"baseJudicial\":")[1].split(";")[0].toIntOrNull()       ?: baseJudicial
-        addLegislative  = repr.split("\"addLegislative\":")[1].split(";")[0].toIntOrNull()     ?: addLegislative
-        addExecutive    = repr.split("\"addExecutive\":")[1].split(";")[0].toIntOrNull()       ?: addExecutive
-        addJudicial     = repr.split("\"addJudicial\":")[1].split(";")[0].toIntOrNull()        ?: addJudicial
-        multLegislative = repr.split("\"multLegislative\":")[1].split(";")[0].toDoubleOrNull() ?: multLegislative
-        multExecutive   = repr.split("\"multExecutive\":")[1].split(";")[0].toDoubleOrNull()   ?: multExecutive
-        multJudicial    = repr.split("\"multJudicial\":")[1].split(";")[0].toDoubleOrNull()    ?: multJudicial
-    }
+    override fun toString() = """[
+        baseLegislative: $baseLegislative,
+        baseExecutive: $baseExecutive,
+        baseJudicial: $baseJudicial,
+        addLegislative: $addLegislative,
+        addExecutive: $addExecutive,
+        addJudicial: $addJudicial,
+        multLegislative: $multLegislative,
+        multExecutive: $multExecutive,
+        multJudicial: $multJudicial,
+        aptitude: $aptitude,
+    ]""".trimIndent()
 
     override fun toJson() = JSONObject(this.hashCode().toString(), mutableListOf<JSONObject>().run {
         add(JSONObject("base_legislative", baseLegislative))
@@ -114,15 +90,4 @@ class SkillsKT(
         multJudicial    = json.get("multJudicial")    as? Double ?: multJudicial
     }
 
-    // OBJECT METHODS -----------------------------------------------------------------------------
-
-    override fun toString(): String = toRepr()
-
-    override fun hashCode(): Int = toString().hashCode()
-
-    override fun equals(other: Any?): Boolean {
-        if (this === other) return true
-        if (other !is SkillsKT) return false
-        return this.toRepr() == other.toRepr()
-    }
 }
