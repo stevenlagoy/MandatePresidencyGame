@@ -1,23 +1,24 @@
 {
-    "FIPS" : "10", 
-    "common_name" : "Delaware", 
-    "full_name" : "State of Delaware", 
-    "map_color" : "#FF5E32", 
-    "flag_loc" : "delaware_flag.png", 
-    "population" : 989948, 
-    "land_area" : 2489, 
-    "abbreviation" : "DE", 
-    "motto" : "delaware_motto", 
-    "nickname" : "delaware_nickname", 
-    "capital" : "Dover", 
+    "FIPS" : "10",
+    "common_name" : "Delaware",
+    "full_name" : "State of Delaware",
+    "map_color" : "#FF5E32",
+    "flag_loc" : "delaware_flag.png",
+    "population" : 989948,
+    "land_area" : 2489,
+    "abbreviation" : "DE",
+    "motto" : "delaware_motto",
+    "nickname" : "delaware_nickname",
+    "capital" : "Dover",
+    "federal_court_circuit" : 3,
     "descriptors" : [
-        "DELAWARE", 
-        "SOUTH", 
+        "DELAWARE",
+        "SOUTH",
         "SOUTH_ATLANTIC"
-    ], 
+    ],
     "counties" : [
-        "10001", 
-        "10003", 
+        "10001",
+        "10003",
         "10005"
     ]
 }
