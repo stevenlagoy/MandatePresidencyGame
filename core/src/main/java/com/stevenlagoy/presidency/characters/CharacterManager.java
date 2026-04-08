@@ -18,18 +18,15 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.IntStream;
 
+import com.stevenlagoy.presidency.characters.attributes.Personality;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.core.TimeManager;
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.JSONProcessor;
-import com.stevenlagoy.presidency.characters.FederalOfficial.FederalRole;
-import com.stevenlagoy.presidency.characters.attributes.CharacterModel;
-import com.stevenlagoy.presidency.characters.attributes.Personality;
-import com.stevenlagoy.presidency.demographics.BlocJava;
-import com.stevenlagoy.presidency.demographics.DemographicsJava;
+import com.stevenlagoy.presidency.demographics.Bloc;
+import com.stevenlagoy.presidency.demographics.Demographics;
 import com.stevenlagoy.presidency.demographics.DemographicsManager;
-import com.stevenlagoy.presidency.map.NationJava;
 import com.stevenlagoy.presidency.util.FilePaths;
 import com.stevenlagoy.presidency.util.Logger;
 import com.stevenlagoy.presidency.util.RandomUtils;
@@ -50,21 +47,15 @@ public final class CharacterManager extends Manager {
     // INSTANCE VARIABLES -------------------------------------------------------------------------------------------------------------------------------------
 
     /** The Player Character */
-    private static Player playerCandidate;
+    private Player playerCandidate;
 
     /**
      * A list of all tracked Character objects. Most constructors in Character
      * classes add the created instances to this Set.
      */
-    private static Set<CharacterJava> characters = new HashSet<CharacterJava>();
+    private final Set<Character> characters = new HashSet<>();
 
-    private static Set<Candidate> candidates = new HashSet<Candidate>();
-
-    private static FederalOfficial president;
-
-    private static FederalOfficial vicePresident;
-
-    private static FederalOfficial houseSpeaker;
+    private final Set<Candidate> candidates = new HashSet<>();
 
     private final Engine ENGINE;
     private ManagerState currentState;
@@ -110,7 +101,7 @@ public final class CharacterManager extends Manager {
         return playerCandidate;
     }
 
-    public Set<CharacterJava> getCharacters() {
+    public Set<Character> getCharacters() {
         return characters;
     }
 
@@ -118,17 +109,17 @@ public final class CharacterManager extends Manager {
         return characters.size();
     }
 
-    public boolean addCharacter(CharacterJava character) {
+    public boolean addCharacter(Character character) {
         boolean added = true;
         added = added && characters.add(character);
-        ENGINE.DemographicsManager().addCharacterToBlocs(character, character.getDemographics());
+        ENGINE.Managers.DemographicsManager().addCharacterToBlocs(character, character.getDemographics());
         return added;
     }
 
-    public boolean removeCharacter(CharacterJava character) {
+    public boolean removeCharacter(Character character) {
         boolean removed = true;
         removed = removed && characters.remove(character);
-        ENGINE.DemographicsManager().removeCharacterFromBlocs(character, character.getDemographics());
+        ENGINE.MANAGERS.DEMOGRAPHICS_MANAGER.removeCharacterFromBlocs(character, character.getDemographics());
         return removed;
     }
 
@@ -156,10 +147,10 @@ public final class CharacterManager extends Manager {
 
     private FederalOfficial generatePresident() {
         // Change later to select Demographics from a special weighted map
-        DemographicsJava presidentDemographics = ENGINE.DemographicsManager().getMostCommonDemographics();
-        president = new FederalOfficial(new CharacterJava(ENGINE.CharacterManager(), ENGINE.DemographicsManager(),
-                ENGINE.MapManager(), ENGINE.NameManager(), presidentDemographics, null, null, null, null, null));
-        president.addRole(FederalRole.PRESIDENT);
+        Demographics presidentDemographics = ENGINE.MANAGERS.DEMOGRAPHICS_MANAGER.getMostCommonDemographics();
+        president = new FederalOfficial(new Character(ENGINE.MANAGERS.CHARACTER_MANAGER, ENGINE.MANAGERS.DEMOGRAPHICS_MANAGER,
+                ENGINE.MapManager(), ENGINE.MANAGERS.NAME_MANAGER, presidentDemographics, null, null, null, null, null));
+        president.addRole(FederalRoleJava.PRESIDENT);
         president.setJurisdiction(NationJava.getInstance());
         return president;
     }
@@ -170,11 +161,11 @@ public final class CharacterManager extends Manager {
 
     private FederalOfficial generateVicePresident() {
         // Change later to select Demographics from a special weighted map
-        DemographicsJava vicePresidentDemographics = ENGINE.DemographicsManager().getMostCommonDemographics();
-        vicePresident = new FederalOfficial(new CharacterJava(ENGINE.CharacterManager(), ENGINE.DemographicsManager(),
-                ENGINE.MapManager(), ENGINE.NameManager(), vicePresidentDemographics, null, null, null, null, null));
-        vicePresident.addRole(FederalRole.VICE_PRESIDENT);
-        vicePresident.setJurisdiction(NationJava.getInstance());
+        Demographics vicePresidentDemographics = ENGINE.MANAGERS.DEMOGRAPHICS_MANAGER.getMostCommonDemographics();
+        vicePresident = new FederalOfficial(new Character(ENGINE.MANAGERS.CHARACTER_MANAGER, ENGINE.MANAGERS.DEMOGRAPHICS_MANAGER,
+                ENGINE.MapManager(), ENGINE.MANAGERS.NAME_MANAGER, vicePresidentDemographics, null, null, null, null, null));
+        vicePresident.addRole(FederalRoleJava.VICE_PRESIDENT);
+        vicePresident.setJurisdiction(Nation.getInstance());
         return vicePresident;
     }
 
@@ -184,10 +175,10 @@ public final class CharacterManager extends Manager {
 
     private FederalOfficial generateHouseSpeaker() {
         // Change later to select Demographics from a special weighted map
-        DemographicsJava speakerDemographics = ENGINE.DemographicsManager().getMostCommonDemographics();
-        houseSpeaker = new FederalOfficial(new CharacterJava(ENGINE.CharacterManager(), ENGINE.DemographicsManager(),
-                ENGINE.MapManager(), ENGINE.NameManager(), speakerDemographics, null, null, null, null, null));
-        houseSpeaker.addRole(FederalRole.HOUSE_SPEAKER);
+        Demographics speakerDemographics = ENGINE.MANAGERS.DEMOGRAPHICS_MANAGER.getMostCommonDemographics();
+        houseSpeaker = new FederalOfficial(new Character(ENGINE.MANAGERS.CHARACTER_MANAGER, ENGINE.MANAGERS.DEMOGRAPHICS_MANAGER,
+                ENGINE.MapManager(), ENGINE.MANAGERS.NAME_MANAGER, speakerDemographics, null, null, null, null, null));
+        houseSpeaker.addRole(FederalOfficial.FederalRoleJava.HOUSE_SPEAKER);
         return houseSpeaker;
     }
 
@@ -228,7 +219,7 @@ public final class CharacterManager extends Manager {
 
     }
 
-    public static double determineExperientialProximity(CharacterJava char1, CharacterJava char2) {
+    public static double determineExperientialProximity(Character char1, Character char2) {
         // proximity is informed by current location, living location, birth location,
         // closeness of experiences, prominence, and demographics
         double proximity = 0.0;
@@ -258,8 +249,8 @@ public final class CharacterManager extends Manager {
 
     }
 
-    public static Personality matchPersonality(CharacterJava character) {
-        return new Personality();
+    public static PersonalityJava matchPersonality(Character character) {
+        return new PersonalityJava();
     }
 
     /**
@@ -274,9 +265,9 @@ public final class CharacterManager extends Manager {
     /** Assume that the first year will be 1900. */
     private static int startYear = 1900;
 
-    public HashMap<Integer, Double> getAgeDistribution(DemographicsJava demographics) {
+    public HashMap<Integer, Double> getAgeDistribution(Demographics demographics) {
         if (demographics == null)
-            demographics = ENGINE.DemographicsManager().getMostCommonDemographics();
+            demographics = ENGINE.MANAGERS.DEMOGRAPHICS_MANAGER.getMostCommonDemographics();
 
         HashMap<Integer, Double> result = new HashMap<Integer, Double>();
         for (int i = 0; i < numberOfYears; i++) {
@@ -322,7 +313,7 @@ public final class CharacterManager extends Manager {
         return result;
     }
 
-    public static HashMap<Integer, Double> getAgeDistribution(BlocJava bloc) {
+    public static HashMap<Integer, Double> getAgeDistribution(Bloc bloc) {
         return getAgeDistribution(bloc.getName());
     }
 
@@ -378,23 +369,23 @@ public final class CharacterManager extends Manager {
         return birthdateDistribution;
     }
 
-    public static CharacterModel generateAppearance(CharacterJava character) {
+    public static CharacterModel generateAppearance(Character character) {
         CharacterModel model = new CharacterModel();
 
         return model;
     }
 
-    public BlocJava generatePresentation(DemographicsJava demographics) {
+    public Bloc generatePresentation(Demographics demographics) {
         // Using the other fields of the demographics object, select a presentation.
 
-        return ENGINE.DemographicsManager().matchBlocName("Woman");
+        return ENGINE.MANAGERS.DEMOGRAPHICS_MANAGER.matchBlocName("Woman");
     }
 
     public void generateBlocsReport() {
         int differenceValue = 5;
         System.out.println("TOTAL # CHARACTERS : " + getNumCharacters());
-        for (List<BlocJava> category : ENGINE.DemographicsManager().getDemographicBlocs().values()) {
-            for (BlocJava bloc : category) {
+        for (List<Bloc> category : ENGINE.MANAGERS.DEMOGRAPHICS_MANAGER.getDemographicBlocs().values()) {
+            for (Bloc bloc : category) {
                 if (bloc.getSubBlocs().isEmpty()) {
                     if (!DemographicsManager.isCharacterBlocCategory(bloc.getDemographicGroup()))
                         continue;
@@ -420,17 +411,17 @@ public final class CharacterManager extends Manager {
 
     public static String generateSaveString() {
         StringBuilder saveString = new StringBuilder();
-        for (CharacterJava character : characters) {
+        for (Character character : characters) {
             saveString.append(character.toRepr());
         }
         return saveString.toString();
     }
 
-    public LocalDate generateBirthday(DemographicsJava demographics) {
-        return generateBirthday(demographics, CharacterJava.MIN_AGE, CharacterJava.MAX_AGE);
+    public LocalDate generateBirthday(Demographics demographics) {
+        return generateBirthday(demographics, Character.MIN_AGE, Character.MAX_AGE);
     }
 
-    public LocalDate generateBirthday(DemographicsJava demographics, int minAge, int maxAge) {
+    public LocalDate generateBirthday(Demographics demographics, int minAge, int maxAge) {
         int year, month, day;
 
         // Select a year
@@ -456,9 +447,9 @@ public final class CharacterManager extends Manager {
      * @param birthdate    The date of birth of the person.
      * @return A character model which looks like a person with the demographics and
      *         age.
-     * @see #generateCharacterModel(DemographicsJava, int)
+     * @see #generateCharacterModel(Demographics, int)
      */
-    public CharacterModel generateCharacterModel(DemographicsJava demographics, LocalDate birthdate) {
+    public CharacterModel generateCharacterModel(Demographics demographics, LocalDate birthdate) {
         return generateCharacterModel(demographics, ENGINE.TimeManager().yearsAgo(birthdate));
     }
 
@@ -471,7 +462,7 @@ public final class CharacterManager extends Manager {
      * @return A character model which looks like a person with the demographics and
      *         age.
      */
-    public CharacterModel generateCharacterModel(DemographicsJava demographics, int age) {
+    public CharacterModel generateCharacterModel(Demographics demographics, int age) {
         return new CharacterModel();
     }
 
@@ -497,7 +488,7 @@ public final class CharacterManager extends Manager {
             fields.add(new JSONObject("player", playerCandidate.getName().getBiographicalName()));
 
         List<JSONObject> charactersJson = new ArrayList<>();
-        for (CharacterJava character : characters) {
+        for (Character character : characters) {
             charactersJson.add(character.toJson());
         }
         fields.add(new JSONObject("characters", charactersJson));

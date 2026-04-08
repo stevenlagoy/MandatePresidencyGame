@@ -1,0 +1,36 @@
+package com.stevenlagoy.presidency.characters.attributes
+
+import com.stevenlagoy.presidency.politics.FederalLevel
+
+enum class Role(val level: FederalLevel?, val title: String) {
+    NONE                        (null,                 "None"),
+    PARTY_LEADER                (null,                 "Party Leader"),
+    LOBBYIST                    (null,                 "Lobbyist"),
+    CONSULTANT                  (null,                 "Consultant"),
+    CANDIDATE                   (null,                 "Candidate"),
+    CAMPAIGN_MANAGER            (null,                 "Campaign manager"),
+    CAMPAIGN_CABINET_MEMBER     (null,                 "Campaign cabinet member"),
+    UNION_LEADER                (null,                 "Union Leader"),
+    MEDIAPERSON                 (null,                 "Member of the media"),
+    PRESIDENT                   (FederalLevel.FEDERAL, "President"),
+    VICE_PRESIDENT              (FederalLevel.FEDERAL, "Vice President"),
+    SENATOR                     (FederalLevel.FEDERAL, "Senator"),
+    REPRESENTATIVE              (FederalLevel.FEDERAL, "Representative"),
+    HOUSE_SPEAKER               (FederalLevel.FEDERAL, "Speaker of the House of Representatives"),
+    CABINET_SECRETARY           (FederalLevel.FEDERAL, "Cabinet secretary"),
+    ASSOCIATE_JUSTICE           (FederalLevel.FEDERAL, "Associate justice of the Supreme Court"),
+    CHIEF_JUSTICE               (FederalLevel.FEDERAL, "Chief justice of the Supreme Court"),
+    CIRCUIT_JUDGE               (FederalLevel.FEDERAL, "Circuit judge"),
+    DISTRICT_JUDGE              (FederalLevel.FEDERAL, "District judge"),
+    FEDERAL_RESERVE_CHAIRPERSON (FederalLevel.FEDERAL, "Chairperson of the Federal Reserve"),
+    GOVERNOR                    (FederalLevel.STATE,   "Governor"),
+    LIEUTENANT_GOVERNOR         (FederalLevel.STATE,   "Lieutenant governor"),
+    STATE_SENATOR               (FederalLevel.STATE,   "State Senator"),
+    STATE_REPRESENTATIVE        (FederalLevel.STATE,   "State Representative"),
+    ELECTOR                     (FederalLevel.STATE,   "Elector"),
+    STATE_JUDGE                 (FederalLevel.STATE,   "State Judge"),
+    MAYOR                       (FederalLevel.LOCAL,   "Mayor"),
+    CITY_COUNCILOR              (FederalLevel.LOCAL,   "City Councilor"),
+    COUNTY_COMMISSIONER         (FederalLevel.LOCAL,   "County Commissioner"),
+    LOCAL_JUDGE                 (FederalLevel.LOCAL,   "Local Judge"),
+}
