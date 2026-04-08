@@ -1,18 +1,19 @@
 {
-    "FIPS" : "69", 
-    "common_name" : "Northern Mariana Islands", 
-    "full_name" : "Commonwealth of the Northern Mariana Islands", 
-    "map_color" : "#AEFF32", 
-    "flag_loc" : "northern_mariana_islands_flag.png", 
-    "population" : 55560, 
-    "land_area" : 179, 
-    "abbreviation" : "MP", 
-    "motto" : "northern_mariana_islands_motto", 
-    "nickname" : "northern_mariana_islands_nickname", 
-    "capital" : "Saipan", 
+    "FIPS" : "69",
+    "common_name" : "Northern Mariana Islands",
+    "full_name" : "Commonwealth of the Northern Mariana Islands",
+    "map_color" : "#AEFF32",
+    "flag_loc" : "northern_mariana_islands_flag.png",
+    "population" : 55560,
+    "land_area" : 179,
+    "abbreviation" : "MP",
+    "motto" : "northern_mariana_islands_motto",
+    "nickname" : "northern_mariana_islands_nickname",
+    "capital" : "Saipan",
+    "federal_court_circuit" : 9,
     "descriptors" : [
         "MARIANA_ISLANDS"
-    ], 
+    ],
     "counties" : [
         "69110"
     ]

@@ -1,20 +1,21 @@
 {
-    "FIPS" : "11", 
-    "common_name" : "District of Columbia", 
-    "full_name" : "District of Columbia", 
-    "map_color" : "#C432FF", 
-    "flag_loc" : "district_of_columbia_flag.png", 
-    "population" : 689545, 
-    "land_area" : 68, 
-    "abbreviation" : "DC", 
-    "motto" : "district_of_columbia_motto", 
-    "nickname" : "district_of_columbia_nickname", 
-    "capital" : "Washington", 
+    "FIPS" : "11",
+    "common_name" : "District of Columbia",
+    "full_name" : "District of Columbia",
+    "map_color" : "#C432FF",
+    "flag_loc" : "district_of_columbia_flag.png",
+    "population" : 689545,
+    "land_area" : 68,
+    "abbreviation" : "DC",
+    "motto" : "district_of_columbia_motto",
+    "nickname" : "district_of_columbia_nickname",
+    "capital" : "Washington",
+    "federal_court_circuit" : 12,
     "descriptors" : [
-        "DISTRICT_OF_COLUMBIA", 
-        "SOTUH", 
+        "DISTRICT_OF_COLUMBIA",
+        "SOTUH",
         "SOUTH_ATLANTIC"
-    ], 
+    ],
     "counties" : [
         "11001"
     ]
