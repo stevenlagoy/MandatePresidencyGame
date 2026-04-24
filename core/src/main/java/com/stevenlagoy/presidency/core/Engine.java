@@ -6,10 +6,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.lang.reflect.Field;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 import com.stevenlagoy.jsonic.Jsonic;
 import com.stevenlagoy.jsonic.JSONObject;
@@ -18,11 +15,15 @@ import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
 import com.stevenlagoy.presidency.characters.CharacterManager;
 import com.stevenlagoy.presidency.demographics.DemographicsManager;
 import com.stevenlagoy.presidency.map.MapManager;
+import com.stevenlagoy.presidency.map.travel.TravelManager;
 import com.stevenlagoy.presidency.politics.EventManager;
+import com.stevenlagoy.presidency.politics.PartyManager;
+import com.stevenlagoy.presidency.politics.PoliticsManager;
 import com.stevenlagoy.presidency.util.FilePaths;
 import com.stevenlagoy.presidency.util.IOUtils;
 import com.stevenlagoy.presidency.util.Logger;
 import com.stevenlagoy.presidency.util.NumberUtils;
+import org.jetbrains.annotations.NotNull;
 
 /**
  * <h1>ENGINE</h1>
@@ -35,103 +36,80 @@ import com.stevenlagoy.presidency.util.NumberUtils;
  * 26 September 2024 at 12:21 AM
  * <br>
  * <b>Modified:</b>
- * 10 February 2026 
+ * 10 February 2026
  * <br>
  * </p>
- * 
+ *
  * Engine is the main driver of the game engine, facilitating the initialization and function of
  * the game by tracking critical details for game settings and other information.
  */
 public final class Engine extends Manager {
 
-    // Language Manager
-    private final LanguageManager LANGUAGE_MANAGER;
-    /**
-     * Get the Language Manager held by this Engine.
-     * @return Language Manager
-     * @apiNote Successful initialization of this Engine will also initialize the managers, but it
-     * is possible that the returned Language Manager is uninitialized following other actions.
-     */
-    public LanguageManager LanguageManager() {
-        return LANGUAGE_MANAGER;
+    public static Engine currentInstance;
+
+    public static final class Managers {
+
+        public Managers(Engine engine) {
+            LANGUAGE_MANAGER = new LanguageManager(engine);
+            TIME_MANAGER = new TimeManager(engine);
+            EVENT_MANAGER = new EventManager(engine);
+            DEMOGRAPHICS_MANAGER = new DemographicsManager(engine);
+            MAP_MANAGER = new MapManager(engine);
+            POLITICS_MANAGER = new PoliticsManager(engine);
+            TRAVEL_MANAGER = new TravelManager(engine);
+            NAME_MANAGER = new NameManager(engine);
+            CHARACTER_MANAGER = new CharacterManager(engine);
+            PARTY_MANAGER = new PartyManager(engine);
+        }
+
+        // Language Manager
+        public final LanguageManager LANGUAGE_MANAGER;
+
+        // Time Manager
+        public final TimeManager TIME_MANAGER;
+
+        // Event Manager
+        public final EventManager EVENT_MANAGER;
+
+        // Demographics Manager
+        public final DemographicsManager DEMOGRAPHICS_MANAGER;
+
+        // Map Manager
+        public final MapManager MAP_MANAGER;
+
+        // Politics Manager
+        public final PoliticsManager POLITICS_MANAGER;
+
+        // Travel Manager
+        public final TravelManager TRAVEL_MANAGER;
+
+        // Name Manager
+        public final NameManager NAME_MANAGER;
+
+        // Character Manager
+        public final CharacterManager CHARACTER_MANAGER;
+
+        // Party Manager
+        public final PartyManager PARTY_MANAGER;
+
+        /** Set of Managers held by this Engine. Order of managers should be treated as arbitrary. */
+        public Set<Manager> getManagers() { return Set.of(
+            LANGUAGE_MANAGER,
+            TIME_MANAGER,
+            EVENT_MANAGER,
+            DEMOGRAPHICS_MANAGER,
+            MAP_MANAGER,
+            POLITICS_MANAGER,
+            TRAVEL_MANAGER,
+            NAME_MANAGER,
+            CHARACTER_MANAGER,
+            PARTY_MANAGER
+        ); }
     }
 
-    // Time Manager
-    private final TimeManager TIME_MANAGER;
-    /**
-     * Get the Time Manager held by this Engine.
-     * @return Time Manager
-     * @apiNote Successful initialization of this Engine will also initialize the managers, but it
-     * is possible that the returned Time Manager is uninitialized following other actions.
-     */
-    public TimeManager TimeManager() {
-        return TIME_MANAGER;
-    }
+    public final Managers MANAGERS;
 
-    // Event Manager
-    private final EventManager EVENT_MANAGER;
-    /**
-     * Get the Event Manager held by this Engine.
-     * @return Time Manager
-     * @apiNote Successful initialization of this Engine will also initialize the managers, but it
-     * is possible that the returned Event Manager is uninitialized following other actions.
-     */
-    public EventManager EventManager() {
-        return EVENT_MANAGER;
-    }
-
-    // Demographics Manager
-    private final DemographicsManager DEMOGRAPHICS_MANAGER;
-    /**
-     * Get the Demographics Manager held by this Engine.
-     * @return Demographics Manager
-     * @apiNote Successful initialization of this Engine will also initialize the managers, but it
-     * is possible that the returned Demographics Manager is uninitialized following other actions.
-     */
-    public DemographicsManager DemographicsManager() {
-        return DEMOGRAPHICS_MANAGER;
-    }
-
-    // Map Manager
-    private final MapManager MAP_MANAGER;
-    /**
-     * Get the Map Manager held by this Engine.
-     * @return Map Manager
-     * @apiNote Successful initialization of this Engine will also initialize the managers, but it
-     * is possible that the returned Map Manager is uninitialized following other actions.
-     */
-    public MapManager MapManager() {
-        return MAP_MANAGER;
-    }
-
-    // Name Manager
-    private final NameManager NAME_MANAGER;
-    /**
-     * Get the Name Manager held by this Engine.
-     * @return Name Manager
-     * @apiNote Successful initialization of this Engine will also initialize the managers, but it
-     * is possible that the returned Name Manager is uninitialized following other actions.
-     */
-    public NameManager NameManager() {
-        return NAME_MANAGER;
-    }
-
-    // Character Manager
-    private final CharacterManager CHARACTER_MANAGER;
-    /**
-     * Get the Character Manager held by this Engine.
-     * @return Character Manager
-     * @apiNote Successful initialization of this Engine will also initialize the managers, but it
-     * is possible that the returned Character Manager is uninitialized following other actions.
-     */
-    public CharacterManager CharacterManager() {
-        return CHARACTER_MANAGER;
-    }
-
-    /** List of Managers held by this Engine. Order of managers should be treated as arbitrary. */
-    private final List<Manager> managers;
-
-    /** Whether this Engine is runnning in debug mode. {@code true} means debug mode is active and
+    /** Whether this Engine is running in debug mode. {@code true} means debug mode is active and
      * additional debug logging and logic will be enabled.
      */
     public final boolean DEBUG_MODE;
@@ -172,29 +150,15 @@ public final class Engine extends Manager {
         t_zero = System.nanoTime();
         currentState = ManagerState.INACTIVE;
         DEBUG_MODE = debug;
-        LANGUAGE_MANAGER = new LanguageManager(this);
-        TIME_MANAGER = new TimeManager(this);
-        EVENT_MANAGER = new EventManager(this);
-        DEMOGRAPHICS_MANAGER = new DemographicsManager(this);
-        MAP_MANAGER = new MapManager(this);
-        NAME_MANAGER = new NameManager(this);
-        CHARACTER_MANAGER = new CharacterManager(this);
-        managers = List.of(
-            LANGUAGE_MANAGER,
-            TIME_MANAGER,
-            EVENT_MANAGER,
-            DEMOGRAPHICS_MANAGER,
-            MAP_MANAGER,
-            NAME_MANAGER,
-            CHARACTER_MANAGER
-        );
-        for (Manager manager : managers) {
+        MANAGERS = new Managers(this);
+        for (Manager manager : MANAGERS.getManagers()) {
             if (manager.getState().equals(ManagerState.ERROR)) {
                 Logger.log("FATAL: FAILURE TO CONSTRUCT MANAGER",
                         manager.getClass().getSimpleName() + " could not be constructed.", new Exception());
                 currentState = ManagerState.ERROR;
             }
         }
+        currentInstance = this;
     }
 
     // MANAGER METHODS ----------------------------------------------------------------------------------------------------------------------------------------
@@ -209,7 +173,7 @@ public final class Engine extends Manager {
         boolean successFlag = true;
         double startTime = getProgramTime();
         Logger.log(String.format("%s starting at %f", this.getClass().getSimpleName(), startTime));
-        for (Manager manager : managers) {
+        for (Manager manager : MANAGERS.getManagers()) {
             if (!manager.init())
                 successFlag = false;
         }
@@ -224,6 +188,7 @@ public final class Engine extends Manager {
      * Get the current Manager State of this Engine.
      * @return Current Manager State
      */
+    @NotNull
     @Override
     public ManagerState getState() {
         return currentState;
@@ -238,7 +203,7 @@ public final class Engine extends Manager {
     @Override
     public boolean cleanup() {
         boolean successFlag = true;
-        for (Manager manager : managers) {
+        for (Manager manager : MANAGERS.getManagers()) {
             if (!manager.cleanup())
                 successFlag = false;
         }
@@ -255,20 +220,20 @@ public final class Engine extends Manager {
     // DIFFICULTY ---------------------------------------------------------------------------------------------------------------------------------------------
 
     /**
-     * Dificulty values impact player-facing calculations, impacting the difficulty of the game.
+     * Difficulty values impact player-facing calculations, impacting the difficulty of the game.
      */
-    public static enum Difficulty {
-        
+    public enum Difficulty {
+
         LEVEL_1(1, "Aspiring Politician"),
         LEVEL_2(2, "Fledgling Politician"),
         LEVEL_3(3, "Hometown Hero"),
-        LEVEL_4(4, "Career Politican"),
+        LEVEL_4(4, "Career Politician"),
         LEVEL_5(5, "Political Machine");
 
         public final int value;
         public final String name;
 
-        private Difficulty(int value, String name) {
+        Difficulty(int value, String name) {
             this.value = value;
             this.name = name;
         }
@@ -278,21 +243,6 @@ public final class Engine extends Manager {
                 if (diff.value == value)
                     return diff;
             throw new IllegalArgumentException("Invalid difficulty level: " + value);
-        }
-
-        public static Difficulty label(String label) {
-            String target = label.trim().toUpperCase().replace("\\s", "_");
-            for (Difficulty diff : Difficulty.values())
-                if (diff.toString().equals(target))
-                    return diff;
-            throw new IllegalArgumentException("Invalid difficulty label: " + label);
-        }
-
-        public static Difficulty name(String name) {
-            for (Difficulty diff : Difficulty.values())
-                if (diff.name.equals(name))
-                    return diff;
-            throw new IllegalArgumentException("Invalid difficulty name: " + name);
         }
     }
 
@@ -308,9 +258,9 @@ public final class Engine extends Manager {
     }
 
     // GAME SPEED SETTINGS ------------------------------------------------------------------------------------------------------------------------------------
-    
+
     /**
-     * The Base Speed of the game, representing the minimum tick time in miliseconds
+     * The Base Speed of the game, representing the minimum tick time in milliseconds
      */
     public static final long baseSpeed = 125L;
     public static final long[] speedSettings = { baseSpeed, baseSpeed * 2, baseSpeed * 4, baseSpeed * 8,
@@ -336,32 +286,9 @@ public final class Engine extends Manager {
         boolean active = true;
 
         // System.out.println(DateManager.currentGameDate);
-        active = active && TIME_MANAGER.incrementQuarterHour();
+        active = active && MANAGERS.TIME_MANAGER.incrementQuarterHour();
         return active;
     }
-
-    // public void writeSave() {
-    // if (CharacterManager.getPlayer() == null) return;
-    // try {
-    // String saveName = String.format("%s - %s",
-    // CharacterManager.getPlayer().getName().getLegalName(),
-    // TIME_MANAGER.formattedCurrentDate());
-    // File saveFile = new File(FilePaths.SAVES_DIR.toString() + saveName + ".txt");
-    // for (int i = 1; saveFile.exists(); i++) {
-    // saveName = String.format("%s - %s %s",
-    // CharacterManager.getPlayer().getName().getLegalName(),
-    // TIME_MANAGER.formattedCurrentDate(), String.format("(%d)", i));
-    // saveFile = new File(FilePaths.SAVES_DIR.toString() + saveName + ".txt");
-    // }
-    // saveFile.createNewFile();
-    // FileWriter fw = new FileWriter(saveFile);
-    // fw.append(CharacterManager.generateSaveString());
-    // fw.close();
-    // }
-    // catch (IOException e) {
-    // e.printStackTrace();
-    // }
-    // }
 
     public static List<String> listSaveNames() {
         return new ArrayList<>();
@@ -372,18 +299,6 @@ public final class Engine extends Manager {
     }
 
     // REPRESENTATION METHODS ---------------------------------------------------------------------------------------------------------------------------------
-
-    @Override
-    public String toRepr() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'toRepr'");
-    }
-
-    @Override
-    public Manager fromRepr(String repr) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'fromRepr'");
-    }
 
     private static final Map<String, String> fieldsJsons = Map.of(
             "LANGUAGE_MANAGER", "language_manager",
@@ -410,8 +325,7 @@ public final class Engine extends Manager {
         }
         catch (NoSuchFieldException | IllegalAccessException e) {
             currentState = ManagerState.ERROR;
-            Logger.log("JSON SERIALIZATION ERROR", "Failed to serialize " + getClass().getSimpleName() + " to JSON.",
-                    e);
+            Logger.log("JSON SERIALIZATION ERROR", "Failed to serialize " + getClass().getSimpleName() + " to JSON.", e);
             return null;
         }
     }
@@ -452,8 +366,8 @@ public final class Engine extends Manager {
         // Get name for the file
         String fileName;
         try {
-            String playerCharacterName = CHARACTER_MANAGER.getPlayer().getName().getCommonName();
-            String currentTime = TIME_MANAGER.getFormattedCurrentDate();
+            String playerCharacterName = MANAGERS.CHARACTER_MANAGER.getPlayer().getName().getCommonName();
+            String currentTime = MANAGERS.TIME_MANAGER.getFormattedCurrentDate();
             fileName = String.format("%s %s", playerCharacterName, currentTime);
         }
         catch (NullPointerException e) {
@@ -461,12 +375,12 @@ public final class Engine extends Manager {
             fileName = new SimpleDateFormat("yyyy-MMM-dd_HH-mm-ss").format(Calendar.getInstance().getTime());
         }
 
-        // Generate savestring
+        // Generate save string
         String saveString = String.format("{%n\t%s%n}", this.toJson().toString().replace("\n", "\n\t"));
 
         // Write to save file with name, or to output file if unsuccessful.
         try {
-            PrintWriter saveWriter = IOUtils.createWriter(FilePaths.SAVES_DIR.resolve(fileName + IOUtils.Extension.JSON.extension).toFile());
+            PrintWriter saveWriter = IOUtils.createWriter(FilePaths.SAVES_DIR.resolve(fileName + IOUtils.FileExtension.JSON.extension).toFile());
             saveWriter.print(saveString);
             saveWriter.close(); // Flush and close
         }

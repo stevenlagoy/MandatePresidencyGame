@@ -14,7 +14,6 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.TimeZone;
@@ -22,6 +21,7 @@ import java.util.TimeZone;
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.presidency.util.Logger;
 import com.stevenlagoy.presidency.util.NumberUtils;
+import org.jetbrains.annotations.NotNull;
 
 public class TimeManager extends Manager {
 
@@ -40,14 +40,16 @@ public class TimeManager extends Manager {
     public static final ZonedDateTime startDate = ZonedDateTime.of(
             LocalDate.of(2027, 1, 20),
             LocalTime.of(12, 0),
-            ZoneId.of("America/New_York"));
+            ZoneId.of("America/New_York")
+    );
     /**
      * Date on which the game ends. Saturday, January 20, 2029 12:00:00 PM GMT-05:00
      */
     public static final ZonedDateTime endDate = ZonedDateTime.of(
             LocalDate.of(2029, 1, 20),
             LocalTime.of(12, 0),
-            ZoneId.of("America/New_York"));
+            ZoneId.of("America/New_York")
+    );
 
     /** The Epoch, 1970. */
     public static final int epochYear = 1970;
@@ -90,7 +92,7 @@ public class TimeManager extends Manager {
     /** Name of each day. Lookup from LANG_system_text. */
     public static final String[] dayNames = { "monday", "tuesday", "wednesday", "thursday", "friday", "saturday",
             "sunday" };
-    /** Three-letter abbrviation of each day. Lookup from LANG_system_text. */
+    /** Three-letter abbreviation of each day. Lookup from LANG_system_text. */
     public static final String[] day3Abbreviations = { "mon_abbreviation", "tue_abbreviation", "wed_abbreviation",
             "thu_abbreviation", "fri_abbreviation", "sat_abbreviation", "sun_abbreviation" };
     /** Two-letter abbreviation of each day. Lookup from LANG_system_text. */
@@ -178,8 +180,8 @@ public class TimeManager extends Manager {
      * @param dateString The String to parse into a Date.
      * @return Parsed date, or {@code null} if unsuccessful.
      */
-    public static LocalDate dateFromString(String dateString) {
-        String[] dateParts = dateString.split("[-//]", 3);
+    public static @NotNull LocalDate dateFromString(@NotNull String dateString) {
+        String[] dateParts = dateString.split("[-/]", 3);
         if (dateParts.length < 3)
             return null;
         int year = Integer.parseInt(dateParts[0]);
@@ -196,7 +198,7 @@ public class TimeManager extends Manager {
      * @param dayOrdinal Day ordinal to convert to a date.
      * @return Date in the format MM/DD.
      */
-    public static String ordinalToDateFormat(int dayOrdinal) {
+    public static @NotNull String ordinalToDateFormat(int dayOrdinal) {
         if (dayOrdinal < 0 || dayOrdinal > daysInYear - 1) {
             Logger.log("INVALID DAY ORDINAL", String
                     .format("The day ordinal %d is out of bounds. Must be between 0 and %d.", dayOrdinal, daysInYear),
@@ -208,7 +210,7 @@ public class TimeManager extends Manager {
         if (dayOrdinal > 59)
             dayOrdinal--; // Leap year
 
-        int day = 0, month = 0;
+        int month = 0;
         int elapsed = 0;
         for (int i = 0; i < monthsDurationsDays.length; i++) {
             elapsed += monthsDurationsDays[i];
@@ -218,9 +220,9 @@ public class TimeManager extends Manager {
             }
         }
         // get the day part
-        day = monthsDurationsDays[month - 1] - (elapsed - dayOrdinal) + 1;
+        int day = monthsDurationsDays[month - 1] - (elapsed - dayOrdinal) + 1;
 
-        if (month == 0 || day == 0) {
+        if (day == 0) {
             Logger.log("DATE CALCULATION ERROR", String
                     .format("The date calculation failed to produce a valid date for day ordinal %d.", dayOrdinal),
                     new Exception());
@@ -237,8 +239,8 @@ public class TimeManager extends Manager {
      * @param dateFormat Date in the format MM/DD to convert to a day ordinal.
      * @return Day ordinal for the given date.
      */
-    public static int dateFormatToOrdinal(String dateFormat) {
-        String[] parts = dateFormat.split("[-//]");
+    public static int dateFormatToOrdinal(@NotNull String dateFormat) {
+        String[] parts = dateFormat.split("[-/]");
         if (parts.length != 2) {
             Logger.log("INVALID DATE FORMAT",
                     String.format("The date format \"%s\" is invalid. Must be in the format MM/DD.", dateFormat),
@@ -278,10 +280,10 @@ public class TimeManager extends Manager {
      * Calculates the amount of time in between two dates.
      *
      * @param startDate The start date to calculate the time from.
-     * @param endDate   The end date to calculate the time unil.
+     * @param endDate   The end date to calculate the time until.
      * @return The amount of time in milliseconds between the two dates.
      */
-    public static long millisecondsBetween(ZonedDateTime startDate, ZonedDateTime endDate) {
+    public static long millisecondsBetween(@NotNull ZonedDateTime startDate, @NotNull ZonedDateTime endDate) {
         return Math.abs(endDate.toInstant().toEpochMilli() - startDate.toInstant().toEpochMilli());
     }
 
@@ -293,11 +295,11 @@ public class TimeManager extends Manager {
      * @return The amount of time in milliseconds between the current game date and
      *         the given date.
      */
-    public long millisecondsAgo(ZonedDateTime date) {
+    public long millisecondsAgo(@NotNull ZonedDateTime date) {
         return millisecondsBetween(currentGameDate, date);
     }
 
-    public int yearsBetween(LocalDate startDate, LocalDate endDate) {
+    public int yearsBetween(@NotNull LocalDate startDate, @NotNull LocalDate endDate) {
         return Math.abs(startDate.getYear() - endDate.getYear());
     }
 
@@ -307,9 +309,8 @@ public class TimeManager extends Manager {
      *
      * @param date A past date to use in the calculation.
      * @return The number of years (whole number) ago which the date represents.
-     * @see #millisecondsAgo(Date)
      */
-    public int yearsAgo(LocalDate date) {
+    public int yearsAgo(@NotNull LocalDate date) {
         return yearsBetween(date, currentGameDate.toLocalDate());
     }
 
@@ -318,19 +319,19 @@ public class TimeManager extends Manager {
      * @param yearsAgo Number of years to step backwards from the current game date.
      * @return LocalDate it was the given number of years ago.
      */
-    public LocalDate dateYearsAgo(long yearsAgo) {
+    public @NotNull LocalDate dateYearsAgo(long yearsAgo) {
         return currentGameDate.toLocalDate().minusYears(yearsAgo);
     }
 
     /**
      * Determine a date from a year, month, and day of the month.
      *
-     * @param year  Complete year (2020, 2028, etc)
+     * @param year  Complete year (2020, 2028, etc.)
      * @param month 1-indexed month (Jan = 1, Feb = 2, ..., Dec = 12)
      * @param date  Day of the month (1, 2, 3, ...)
      * @return LocalDate with the year, month, and day of the month.
      */
-    public LocalDate determineDate(int year, int month, int date) {
+    public @NotNull LocalDate determineDate(int year, int month, int date) {
         return LocalDate.of(year, month, date);
     }
 
@@ -343,7 +344,7 @@ public class TimeManager extends Manager {
      * @return LocalDate with the current game year, passed month, and passed day of
      *         the month.
      */
-    public LocalDate determineDate(int month, int date) {
+    public @NotNull LocalDate determineDate(int month, int date) {
         return LocalDate.of(currentGameDate.getYear(), month, date);
     }
 
@@ -351,13 +352,13 @@ public class TimeManager extends Manager {
      * Get the date based on a year, month, day, and the order of the day in the
      * month. I.E. "3rd Tuesday in April 2025"
      *
-     * @param year
-     * @param month
+     * @param year Year
+     * @param month Month
      * @param day   Day of the week (Monday = 1, Tuesday = 2, ..., Sunday = 7)
-     * @param order
+     * @param order Order of the day in the month
      * @return LocalDate
      */
-    public LocalDate determineDate(int year, int month, int day, int order) {
+    public @NotNull LocalDate determineDate(int year, int month, int day, int order) {
         int count = 0;
 
         if (order == 0) {
@@ -377,7 +378,7 @@ public class TimeManager extends Manager {
                 + " of " + monthNames[month] + " in " + year);
     }
 
-    public LocalDate determineDateRelative(LocalDate relativeTo, int day, int order) {
+    public @NotNull LocalDate determineDateRelative(@NotNull LocalDate relativeTo, int day, int order) {
         if (order == 0) {
             throw new IllegalArgumentException("Cannot get date with an order of zero.");
         }
@@ -399,17 +400,17 @@ public class TimeManager extends Manager {
     // -------------------------------------------------------------------------
 
     /** Current Date of Gameplay. */
-    private ZonedDateTime currentGameDate;
+    private @NotNull ZonedDateTime currentGameDate;
 
-    private final Engine ENGINE;
+    private final @NotNull Engine ENGINE;
     /** State of the Manager. */
-    private ManagerState currentState;
+    private @NotNull ManagerState currentState;
 
     // CONSTRUCTORS
     // -------------------------------------------------------------------------------
 
     /** Create a new inactive DateManager. */
-    public TimeManager(Engine engine) {
+    public TimeManager(@NotNull Engine engine) {
         this.ENGINE = engine;
         currentState = ManagerState.INACTIVE;
         currentGameDate = ZonedDateTime.of(startDate.toLocalDate(), startDate.toLocalTime(), startDate.getZone());
@@ -434,6 +435,7 @@ public class TimeManager extends Manager {
     }
 
     /** Get the current State of this DateManager. */
+    @NotNull
     @Override
     public ManagerState getState() {
         return currentState;
@@ -454,19 +456,16 @@ public class TimeManager extends Manager {
     // ------------------------------------------------------------------------
 
     // Current Date : Date
-    public ZonedDateTime getCurrentDate() {
+    public @NotNull ZonedDateTime getCurrentDate() {
         return currentGameDate;
     }
 
     /**
      * Get current game date and time in YY-MM-DD-HH-MM-SS format.
      */
-    public String getFormattedCurrentDate() {
-        StringBuilder dateString = new StringBuilder();
-
-        dateString.append(getCurrentYear()).append("-").append(getCurrentMonth()).append("-").append(getCurrentDay())
-                .append("-").append(getFormattedCurrentTime().replace(":", "-"));
-        return dateString.toString();
+    public @NotNull String getFormattedCurrentDate() {
+        return getCurrentYear() + "-" + getCurrentMonth() + "-" + getCurrentDay() +
+            "-" + getFormattedCurrentTime().replace(":", "-");
     }
 
     // Current Year : int
@@ -488,7 +487,7 @@ public class TimeManager extends Manager {
     /**
      * Get current game date day time in HH:MM:SS format.
      */
-    public String getFormattedCurrentTime() {
+    public @NotNull String getFormattedCurrentTime() {
         return String.format("%02d:%02d:%02d",
                 currentGameDate.getHour(),
                 currentGameDate.getMinute(),
@@ -535,7 +534,7 @@ public class TimeManager extends Manager {
     }
 
     /**
-     * Increments the current game date by a quarter hour (15 mins).
+     * Increments the current game date by a quarter-hour (15 mins).
      */
     public boolean incrementQuarterHour() {
         currentGameDate = currentGameDate.plusMinutes(15);
@@ -594,18 +593,6 @@ public class TimeManager extends Manager {
 
     // REPRESENTATION METHODS
     // ---------------------------------------------------------------------
-
-    @Override
-    public String toRepr() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'toRepr'");
-    }
-
-    @Override
-    public Manager fromRepr(String repr) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'fromRepr'");
-    }
 
     private static final Map<String, String> fieldsJsons = Map.of(
             "currentGameDate", "current_game_date");
