@@ -2,7 +2,6 @@ package com.stevenlagoy.presidency.characters.attributes.names
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.Jsonic
-import com.stevenlagoy.presidency.data.Repr
 
 /**
  * Model the personal name of a Character, with options for several forms of name, traditional or
@@ -37,10 +36,9 @@ import com.stevenlagoy.presidency.data.Repr
 abstract class PersonalName(
     open var honorific: String? = null,
     open var nickname: String? = null,
-    open var ordinal: String? = null,
     open var suffixes: List<String> = listOf(),
     open var displayOptions: Set<DisplayOption> = setOf(),
-) : Jsonic<PersonalName>
+) : Jsonic<PersonalName>, Comparable<PersonalName>
 {
 
     /** Create a name based on the JSON Object. See [fromJson]. */
@@ -50,7 +48,6 @@ abstract class PersonalName(
     constructor(other: PersonalName) : this(
         other.honorific,
         other.nickname,
-        other.ordinal,
         other.suffixes,
         other.displayOptions.toSet(), // Copy
     )
@@ -83,7 +80,9 @@ abstract class PersonalName(
         INCLUDE_HONORIFIC,
         /** Include the suffix(es) */
         INCLUDE_SUFFIX,
+        /** Prefer just the maternal name over both apellidos */
         PREFER_MATERNAL,
+        /** Prefer just the paternal name over both apellidos */
         PREFER_PATERNAL;
     }
 
@@ -114,12 +113,15 @@ abstract class PersonalName(
 
     abstract val informalName: String
 
+    abstract val indexedName: String
+
+    abstract val initials: String
+
     // REPRESENTATION METHODS ---------------------------------------------------------------------
 
     override fun toString() = """
         honorific:$honorific;
         nickname:$nickname;
-        ordinal:$ordinal;
         suffixes:$suffixes;
         displayOptions:$displayOptions;
     """.trimIndent()
@@ -127,7 +129,6 @@ abstract class PersonalName(
     override fun fromJson(json: JSONObject) = this.apply {
         honorific = (json.get("honorific") as JSONObject).value as String
         nickname = (json.get("nickname") as JSONObject).value as String
-        ordinal = (json.get("ordinal") as JSONObject).value as String
         suffixes = (json.get("suffixes") as JSONObject).asList.map { it.toString() }
         displayOptions = (json.get("displayOptions") as JSONObject).asList.map { DisplayOption.valueOf(it as String) }.toSet()
     }
@@ -135,7 +136,6 @@ abstract class PersonalName(
     override fun toJson() = JSONObject(hashCode().toString(), listOf(
         JSONObject("honorific", honorific),
         JSONObject("nickname", nickname),
-        JSONObject("ordinal", ordinal),
         JSONObject("suffixes", suffixes),
         JSONObject("displayOptions", displayOptions),
     ))

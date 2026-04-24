@@ -8,11 +8,20 @@ data class HispanicPersonalName(
     override var nickname: String? = null,
     var paternalName: String? = "",
     var maternalName: String? = "",
-    override var ordinal: String? = null,
     override var suffixes: List<String> = listOf(),
     override var displayOptions: Set<DisplayOption> = setOf(),
-) : PersonalName(honorific, nickname, ordinal, suffixes, displayOptions)
+) : PersonalName(honorific, nickname, suffixes, displayOptions)
 {
+
+    constructor(other: PersonalName) : this() {
+        this.honorific = other.honorific
+        this.nickname = other.nickname
+        this.suffixes = other.suffixes
+        this.displayOptions = other.displayOptions
+    }
+
+    constructor(givenName: String, paternalName: String?, maternalName: String?) : this(null, givenName, null, paternalName, maternalName)
+
     constructor(json: JSONObject) : this() { fromJson(json) }
 
     override val preferredGiven: String get() = if (nickname != null) nickname!! else givenName.split("\\s").first()
@@ -31,4 +40,10 @@ data class HispanicPersonalName(
     override val commonName: String get() = "$preferredGiven $apellidos".trim()
 
     override val informalName: String get() = "$preferredGiven $preferredFamily".trim()
+
+    override val indexedName: String get() = "$apellidos, $givenName".trim()
+
+    override val initials: String get() = "${givenName[0]}${apellidos.split(" ")[0][0]}${apellidos.split(" ")[1][0]}".uppercase().trim()
+
+    override fun compareTo(other: PersonalName) = indexedName.compareTo(other.indexedName)
 }

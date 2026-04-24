@@ -1,35 +1,34 @@
 package com.stevenlagoy.presidency.characters.attributes.names;
 
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.*;
+import com.stevenlagoy.jsonic.JSONObject;
+import com.stevenlagoy.presidency.characters.attributes.names.PersonalName.DisplayOption;
+import com.stevenlagoy.presidency.core.Engine;
+import com.stevenlagoy.presidency.core.Manager.ManagerState;
+import com.stevenlagoy.presidency.demographics.Demographics;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.junit.jupiter.api.Assertions.*;
 
-import com.stevenlagoy.jsonic.JSONObject;
-import com.stevenlagoy.presidency.characters.attributes.names.NameJava.DisplayOption;
-import com.stevenlagoy.presidency.characters.attributes.names.NameJava.NameForm;
-import com.stevenlagoy.presidency.core.Engine;
-import com.stevenlagoy.presidency.core.Manager.ManagerState;
-import com.stevenlagoy.presidency.demographics.DemographicsJava;
-
-public final class NameJavaTest {
+public final class PersonalNameTest {
 
     static final Engine ENGINE = new Engine();
-    static List<NameJava> names;
+    static List<PersonalName> names;
 
     public void createNames(int numNames) {
-        createNames(numNames, ENGINE.DemographicsManager().getMostCommonDemographics());
+        createNames(numNames, ENGINE.MANAGERS.DEMOGRAPHICS_MANAGER.getCommonDemographics());
     }
 
-    public void createNames(int numNames, DemographicsJava demographics) {
+    public void createNames(int numNames, Demographics demographics) {
         if (names == null)
             names = new ArrayList<>();
         if (names != null && names.size() == numNames)
             return;
         if (numNames > names.size()) {
-            while(names.size() < numNames) names.add(ENGINE.NameManager().generateName(demographics));
+            while(names.size() < numNames) names.add(ENGINE.MANAGERS.NAME_MANAGER.buildPersonalName(demographics, 35, null, null));
         }
         else {
             while(names.size() > numNames) names.remove(0);
@@ -38,13 +37,13 @@ public final class NameJavaTest {
 
     @BeforeAll
     public static void initNameManager() {
-        if (ENGINE.DemographicsManager().getState() != ManagerState.ACTIVE) {
-            if (!ENGINE.DemographicsManager().init()) {
+        if (ENGINE.MANAGERS.DEMOGRAPHICS_MANAGER.getState() != ManagerState.ACTIVE) {
+            if (!ENGINE.MANAGERS.DEMOGRAPHICS_MANAGER.init()) {
                 fail("Failed to initialize DemographicsManager, necessary for testing.");
             }
         }
-        if (ENGINE.NameManager().getState() != ManagerState.ACTIVE) {
-            if (!ENGINE.NameManager().init()) {
+        if (ENGINE.MANAGERS.NAME_MANAGER.getState() != ManagerState.ACTIVE) {
+            if (!ENGINE.MANAGERS.NAME_MANAGER.init()) {
                 fail("Failed to initialize NameManager, necessary for testing.");
             }
         }
@@ -60,7 +59,7 @@ public final class NameJavaTest {
     @Test
     public void namesHaveGivenAndFamilyName() {
         createNames(1000);
-        for (NameJava name : names) {
+        for (PersonalName name : names) {
             assertNotNull(name.getGivenName());
             assertNotNull(name.getFamilyName());
             assertFalse(name.getGivenName().isBlank());
@@ -77,7 +76,7 @@ public final class NameJavaTest {
     public void namesCanHaveMiddleNames() {
         createNames(100);
         boolean found = false;
-        for (NameJava name : names) {
+        for (PersonalName name : names) {
             if (name.getMiddleName() != null && !name.getMiddleName().isBlank()) {
                 found = true;
                 assertTrue(name.getMiddleName().matches("(?i)^[-'0-9a-zÀ-ÿ ]+"));
@@ -90,7 +89,7 @@ public final class NameJavaTest {
     public void namesCanHaveMultipleFirstNames() {
         createNames(500);
         boolean found = false;
-        for (NameJava name : names) {
+        for (PersonalName name : names) {
             if (name.getGivenName().trim().split("\\s+").length > 1) {
                 found = true;
                 break;
@@ -103,7 +102,7 @@ public final class NameJavaTest {
     public void namesCanHaveMultipleLastNames() {
         createNames(500);
         boolean found = false;
-        for (NameJava name : names) {
+        for (PersonalName name : names) {
             if (name.getFamilyName().trim().split("\\s+").length > 1) {
                 found = true;
                 break;
@@ -116,7 +115,7 @@ public final class NameJavaTest {
     public void namesCanHaveNicknames() {
         createNames(200);
         boolean found = false;
-        for (NameJava name : names) {
+        for (PersonalName name : names) {
             if (name.getNickname() != null && !name.getNickname().isBlank()) {
                 found = true;
                 assertTrue(name.getNickname().matches("[\\p{L}'\\-\\. ]+"));
@@ -129,7 +128,7 @@ public final class NameJavaTest {
     public void namesCanHaveHonorifics() {
         createNames(200);
         boolean found = false;
-        for (NameJava name : names) {
+        for (PersonalName name : names) {
             String formal = name.getFormalName();
             if (formal.startsWith("Mr.") || formal.startsWith("Mrs.") || formal.startsWith("Ms.") || formal.startsWith("Dr.")) {
                 found = true;
@@ -143,7 +142,7 @@ public final class NameJavaTest {
     public void namesCanHaveOrdinals() {
         createNames(200);
         boolean found = false;
-        for (NameJava name : names) {
+        for (PersonalName name : names) {
             String ord = name.getOrdinal();
             if (ord != null && !ord.isBlank()) {
                 assertTrue(ord.matches("(Sr\\.|Jr\\.|I|II|III)"));
@@ -157,7 +156,7 @@ public final class NameJavaTest {
     public void namesCanHaveSuffixes() {
         createNames(2000);
         boolean found = false;
-        for (NameJava name : names) {
+        for (PersonalName name : names) {
             List<String> suffixes = name.getSuffixes();
             if (suffixes != null && !suffixes.isEmpty()) {
                 for (String suffix : suffixes) {
@@ -173,8 +172,8 @@ public final class NameJavaTest {
     public void namesCanBeAbbreviated() {
         createNames(200);
         boolean found = false;
-        for (NameJava name : names) {
-            name.addDisplayOption(NameJava.DisplayOption.ABBREVIATE_FIRST);
+        for (PersonalName name : names) {
+            name.addDisplayOption(PersonalName.DisplayOption.ABBREVIATE_FIRST);
             String abbreviated = name.getCommonName();
             if (abbreviated.matches("[A-Z](\\.| )+.*")) {
                 found = true;
@@ -188,9 +187,9 @@ public final class NameJavaTest {
     public void namesCanPreferMiddleName() {
         createNames(200);
         boolean found = false;
-        for (NameJava name : names) {
+        for (PersonalName name : names) {
             if (name.getMiddleName() != null && !name.getMiddleName().isBlank()) {
-                name.addDisplayOption(NameJava.DisplayOption.PREFER_MIDDLE);
+                name.addDisplayOption(PersonalName.DisplayOption.PREFER_MIDDLE);
                 String preferred = name.getCommonName();
                 if (preferred.contains(name.getMiddleName())) {
                     found = true;
@@ -223,9 +222,9 @@ public final class NameJavaTest {
             for (String rel : religions) {
                 for (String eth : ethnicities) {
                     for (String gender : genders) {
-                        DemographicsJava demographics = new DemographicsJava(ENGINE.DemographicsManager(), gen, rel, eth, gender);
+                        Demographics demographics = new Demographics(ENGINE.MANAGERS.DEMOGRAPHICS_MANAGER, gen, rel, eth, gender);
                         createNames(5, demographics);
-                        for (NameJava name : names) {
+                        for (PersonalName name : names) {
                             assertNotNull(name.getGivenName());
                             assertNotNull(name.getFamilyName());
                         }
@@ -239,33 +238,33 @@ public final class NameJavaTest {
     @Test
     public void testNameConstructors() {
         createNames(1);
-        NameJava name1 = names.get(0);
+        PersonalName name1 = names.get(0);
         name1.addSuffix("PhD");
-        NameJava name2 = new NameJava(name1);
-        name2 = new NameJava("Dwight", "David", "Eisenhower");
+        PersonalName name2 = new PersonalName(name1);
+        name2 = new PersonalName("Dwight", "David", "Eisenhower");
         NameForm nf = name2.getNameForm();
         assertEquals(NameForm.defaultForm, nf);
     }
 
     @Test
     public void testNameEasternForm() {
-        NameJava name = new NameJava(NameForm.EASTERN, "Bo", "Dian", "Wang");
+        PersonalName name = new PersonalName(NameForm.EASTERN, "Bo", "Dian", "Wang");
         String fullname = name.getLegalName();
         assertEquals("Dianbo Wang", fullname);
-        name = new NameJava(NameForm.EASTERN, "Jian", null, "Duanmu");
+        name = new PersonalName(NameForm.EASTERN, "Jian", null, "Duanmu");
         fullname = name.getCommonName();
         assertEquals("Duanmu Jian", fullname);
     }
 
     @Test
     public void testNameHispanicForm() {
-        NameJava name = new NameJava(NameForm.HISPANIC, "Ramón", null, "Marciano Yáñez");
+        PersonalName name = new PersonalName(NameForm.HISPANIC, "Ramón", null, "Marciano Yáñez");
         name.addDisplayOption(DisplayOption.PATERNAL_FIRST);
         String fullname = name.getFormalName();
         assertEquals("Ramón Yáñez Marciano", fullname);
         assertEquals("Yáñez", name.getPaternalName());
         assertEquals("Marciano", name.getMaternalName());
-        name = new NameJava(NameForm.HISPANIC, "Simón Tomás", "Darío", "Alvarez y Valentín Ramírez");
+        name = new PersonalName(NameForm.HISPANIC, "Simón Tomás", "Darío", "Alvarez y Valentín Ramírez");
         name.addDisplayOption(DisplayOption.MATERNAL_FIRST);
         fullname = name.getCommonName();
         assertEquals("Simón Tomás Alvarez y Valentín Ramírez", fullname);
@@ -275,14 +274,14 @@ public final class NameJavaTest {
 
     @Test
     public void testNameNativeAmericanForm() {
-        NameJava name = new NameJava(NameForm.NATIVE_AMERICAN, "Daniel", "Hiawatha", "Lees");
+        PersonalName name = new PersonalName(NameForm.NATIVE_AMERICAN, "Daniel", "Hiawatha", "Lees");
         String fullname = name.getInformalName();
         assertEquals("Daniel Lees", fullname);
     }
 
     @Test
     public void testSuffixes() {
-        NameJava name = new NameJava("James", "Joseph", "Baker");
+        PersonalName name = new PersonalName("James", "Joseph", "Baker");
         name.setSuffix("PhD");
         List<String> suffixes = name.getSuffixes();
         assertTrue(suffixes.contains("PhD") && suffixes.size() == 1);
@@ -296,7 +295,7 @@ public final class NameJavaTest {
 
     @Test
     public void testNameToRepr() {
-        NameJava name = new NameJava("Julia", "Theresa", "White");
+        PersonalName name = new PersonalName("Julia", "Theresa", "White");
         name.addSuffix("PhD");
         String repr = name.toRepr();
         assertTrue(repr.contains("nameForm=\"WESTERN\";"));
@@ -309,7 +308,7 @@ public final class NameJavaTest {
     @Test
     public void testNameToJson() {
         createNames(500);
-        for (NameJava name : names) {
+        for (PersonalName name : names) {
             JSONObject json = name.toJson();
             String key = json.getKey();
             String expectedKey = String.format("%s (%d)", name.getLegalName(), name.hashCode());
@@ -319,8 +318,8 @@ public final class NameJavaTest {
 
     @Test
     public void testNameHashCode() {
-        NameJava name1 = new NameJava("Eli", null, "Johnson");
-        NameJava name2 = new NameJava("Mary", "Josephine", "Bilodeau");
+        PersonalName name1 = new PersonalName("Eli", null, "Johnson");
+        PersonalName name2 = new PersonalName("Mary", "Josephine", "Bilodeau");
         int hash1 = name1.hashCode();
         int hash2 = name2.hashCode();
         assertNotEquals(hash1, hash2);
@@ -328,16 +327,16 @@ public final class NameJavaTest {
 
     @Test
     public void testNamesWithNullValues() {
-        new NameJava(null, null, null, null);
-        new NameJava(NameForm.WESTERN, null, null, null);
-        new NameJava(NameForm.EASTERN, null, null, null);
-        new NameJava(NameForm.HISPANIC, null, null, null);
-        new NameJava(NameForm.NATIVE_AMERICAN, null, null, null);
+        new PersonalName(null, null, null, null);
+        new PersonalName(NameForm.WESTERN, null, null, null);
+        new PersonalName(NameForm.EASTERN, null, null, null);
+        new PersonalName(NameForm.HISPANIC, null, null, null);
+        new PersonalName(NameForm.NATIVE_AMERICAN, null, null, null);
     }
 
     @Test
     public void testNicknames() {
-        NameJava name = new NameJava("Tobias", "Edwin", "Jacobs");
+        PersonalName name = new PersonalName("Tobias", "Edwin", "Jacobs");
         name.setNickname("Toby");
         assertEquals("Toby", name.getNickname());
         String fullname = name.toString();
