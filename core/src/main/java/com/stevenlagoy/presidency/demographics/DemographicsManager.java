@@ -1,404 +1,160 @@
-/*
- * DemographicsManager.java
- * Steven LaGoy
- * Created: 10 December 2024 at 8:21 PM
- * Modified: 26 August 2025
- */
-
 package com.stevenlagoy.presidency.demographics;
 
-import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-
-import com.stevenlagoy.presidency.characters.Character;
-import com.stevenlagoy.presidency.core.Engine;
-import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.JSONProcessor;
+import com.stevenlagoy.presidency.characters.Citizen;
+import com.stevenlagoy.presidency.core.Engine;
+import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.util.FilePaths;
 import com.stevenlagoy.presidency.util.Logger;
 import com.stevenlagoy.presidency.util.RandomUtils;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.*;
 
 /**
- * DemographicsManager is responsible for generating, storing, and calculating
- * demographic data.
+ * <h1>DEMOGRAPHICS MANAGER</h1>
+ * {@code ~/demographics/DemographicsManager.java}
+ * <p>
+ *     <b>Author:</b>
+ *     Steven LaGoy
+ *     <br>
+ *     <b>Created:</b>
+ *     10 December 2024 at 8:21 PM
+ *     <br>
+ *     <b>Modified:</b>
+ *     11 April 2026
+ * </p>
+ * DemographicsManager is responsible for tracking bloc and demographic data, or any
+ * population-based state which is detached from individual Character instances.
  */
 public class DemographicsManager extends Manager {
 
-    // STATIC CLASS VARIABLES
-    // ---------------------------------------------------------------------
+    // CONSTANTS ----------------------------------------------------------------------------------
 
-//    public static enum DemographicCategory {
-//        GENERATION("Generation"),
-//        MARITAL_STATUS("Marital Status"),
-//        FAMILY_SIZE("Family Size"),
-//        RELIGION("Religion"),
-//        EDUCATION("Education"),
-//        RACE_ETHNICITY("Race / Ethnicity"),
-//        EMPLOYMENT("Employment"),
-//        RESIDENCY("Residency"),
-//        PRESENTATION("Presentation");
-//
-//        public final String label;
-//
-//        private DemographicCategory(String label) {
-//            this.label = label;
-//        }
-//
-//        public static DemographicCategory fromString(String label) {
-//            for (DemographicCategory category : DemographicCategory.values()) {
-//                if (category.label.equals(label)) {
-//                    return category;
-//                }
-//            }
-//            Logger.log("INVALID DEMOGRAPHIC CATEGORY",
-//                    "The Demographic Category, " + label + " was invalid and could not be matched.", new Exception());
-//            return null;
-//        }
-//    }
+    /** Used to convert counts in the Blocs data file into percentages. */
+    public static final long GAME_START_VOTERS = 341_275_500; // 1 Feb 2025
 
-    /** Demographic Categories applicible to Character Bloc memberships. */
-    public static final DemographicCategory[] characterBlocCategories = {
-            DemographicCategory.GENERATION,
-            DemographicCategory.RELIGION,
-            DemographicCategory.RACE_ETHNICITY,
-            DemographicCategory.PRESENTATION
-    };
+    // INSTANCE FIELDS ----------------------------------------------------------------------------
 
-    public static final long GAME_START_VOTERS = 341_275_500; // as of 1 Feb 2025
+    private Map<DemographicCategory, List<Bloc>> demographicBlocs;
 
-    // STATIC CLASS FUNCTIONS
-    // ---------------------------------------------------------------------
-
-    public static DemographicCategory[] getCharacterBlocCategories() {
-        return characterBlocCategories;
-    }
-
-    public static boolean isCharacterBlocCategory(DemographicCategory category) {
-        return Arrays.asList(characterBlocCategories).contains(category);
-    }
-
-    // INSTANCE VARIABLES
-    // -------------------------------------------------------------------------
-
-    private long numVoters;
-
-    private Map<DemographicCategory, List<Bloc>> demographicBlocs = new HashMap<>();
-
-    // final static Bloc EVERYONE = Bloc.matchBlocName("everyone");
-    // final static Bloc VOTERS = Bloc.matchBlocName("voters");
-    // public final static Bloc EVERYONE = new Bloc("Everyone", null, 1.0f);
-    // public final static Bloc VOTERS = new Bloc("Voters", null, 0.7083f);
+    private Map<Bloc, Map<Integer, Double>> populationPyramid;
 
     private final Engine ENGINE;
     private ManagerState currentState;
 
-    // CONSTRUCTORS
-    // -------------------------------------------------------------------------------
+    // CONSTRUCTOR --------------------------------------------------------------------------------
 
     public DemographicsManager(Engine engine) {
-        this.ENGINE = engine;
+        ENGINE = engine;
         currentState = ManagerState.INACTIVE;
-        numVoters = -1;
+
         demographicBlocs = new HashMap<>();
+        populationPyramid = new HashMap<>();
     }
 
-    // MANAGER METHODS
-    // ----------------------------------------------------------------------------
+    // MANAGER METHODS ----------------------------------------------------------------------------
 
     @Override
     public boolean init() {
-        boolean successFlag = true;
-        double startTime = ENGINE.getProgramTime();
-        Logger.log(String.format("%s starting at %f", this.getClass().getSimpleName(), startTime));
-        numVoters = GAME_START_VOTERS;
-        createDemographicBlocs();
-        currentState = successFlag ? ManagerState.ACTIVE : ManagerState.ERROR;
-        double endTime = ENGINE.getProgramTime();
-        Logger.log(String.format("%s initialized %s at %f. Elapsed: %f", this.getClass().getSimpleName(),
-                successFlag ? "successfully" : "unsuccessfully", endTime, endTime - startTime));
-        return successFlag;
+        readBlocData();
+        readPopulationPyramidData();
+        currentState = ManagerState.ACTIVE;
+        return true;
     }
 
+    @Override
+    public boolean cleanup() {
+        currentState = ManagerState.INACTIVE;
+        return true;
+    }
+
+    @NotNull
     @Override
     public ManagerState getState() {
         return currentState;
     }
 
+    // JSONIC -------------------------------------------------------------------------------------
+
     @Override
-    public boolean cleanup() {
-        boolean successFlag = true;
-        currentState = ManagerState.INACTIVE;
-        if (!successFlag)
-            currentState = ManagerState.ERROR;
-        return successFlag;
+    public JSONObject toJson() {
+        return new JSONObject("DemographicsManager", Map.of(
+
+        ));
     }
 
-    // INSTANCE METHODS
-    // ---------------------------------------------------------------------------
-
-    private List<Bloc> createBlocs(DemographicCategory category, JSONObject structure) {
-        List<Bloc> blocs = new ArrayList<>();
-
-        for (Object key : structure.getAsList()) {
-            if (key instanceof JSONObject keyObj) {
-                String blocName = keyObj.getKey();
-                Object value = keyObj.getValue();
-
-                Bloc parent;
-                if (value instanceof Number numVal) {
-                    // Base case: numerical value represents percentage
-                    float percentageOrCount = numVal.floatValue();
-                    if (percentageOrCount == (int) percentageOrCount) { // Count
-                        parent = new Bloc(blocName, category, (double) percentageOrCount);
-                    }
-                    else { // Percentage
-                        parent = new Bloc(blocName, category,
-                                (int) (ENGINE.MANAGERS.DEMOGRAPHICS_MANAGER.getNumberVoters() * percentageOrCount),
-                            ENGINE.MANAGERS.DEMOGRAPHICS_MANAGER.getNumberVoters());
-                    }
-                    blocs.add(parent);
-                }
-                else if (value instanceof List<?>) {
-                    // Recursive case: nested blocs
-                    parent = new Bloc(blocName, category);
-                    parent.addSubBlocs(createBlocs(category, keyObj));
-                    blocs.add(parent);
-                }
-            }
-        }
-        return blocs;
+    @Override
+    public Manager fromJson(JSONObject json) {
+        return this;
     }
 
-    public Demographics generateDemographics() {
-        // select the currently most underrepresented demographic bloc
-        // given that bloc's overlap, select the most underrepresented of the rest of
-        // the blocs
-        // return those together
+    // INSTANCE METHODS ---------------------------------------------------------------------------
 
-        if (ENGINE.MANAGERS.CHARACTER_MANAGER.getNumCharacters() == 0) {
-            return getMostCommonDemographics();
-        }
-
-        Demographics underrepresentedDemographics = new Demographics();
-
-        for (DemographicCategory category : characterBlocCategories) {
-            Bloc underrepresentedBloc = findMostUnderrepresentedBloc(demographicBlocs.get(category));
-            switch (category) {
-                case GENERATION:
-                    underrepresentedDemographics.setGeneration(underrepresentedBloc);
-                    break;
-                case RELIGION:
-                    underrepresentedDemographics.setReligion(underrepresentedBloc);
-                    break;
-                case RACE_ETHNICITY:
-                    underrepresentedDemographics.setRaceEthnicity(underrepresentedBloc);
-                    break;
-                case PRESENTATION:
-                    underrepresentedDemographics.setPresentation(underrepresentedBloc);
-                    break;
-                default:
-                    ;
-            }
-        }
-
-        return underrepresentedDemographics;
-    }
-
-    public Demographics generateWeightedDemographics() {
-        Demographics demographics = new Demographics();
-        for (DemographicCategory category : characterBlocCategories) {
-            List<Bloc> blocs = demographicBlocs.get(category);
-            Map<Bloc, Float> blocsWeights = new HashMap<>();
-            for (Bloc bloc : blocs) {
-                blocsWeights.put(bloc, bloc.getPercentVoters());
-            }
-            Bloc selected = RandomUtils.weightedRandSelect(blocsWeights);
-            switch (selected.getDemographicGroup()) {
-                case GENERATION:
-                    demographics.setGeneration(selected);
-                    break;
-                case RACE_ETHNICITY:
-                    demographics.setRaceEthnicity(selected);
-                    break;
-                case RELIGION:
-                    demographics.setReligion(selected);
-                    break;
-                case PRESENTATION:
-                    demographics.setPresentation(selected);
-                    break;
-                default:
-                    ;
-            }
-        }
-        return demographics;
-    }
-
-    public void createDemographicBlocs() {
+    private void readBlocData() {
+        demographicBlocs = new HashMap<>();
         JSONObject json = JSONProcessor.processJson(FilePaths.BLOCS);
-
-        for (Object categoryObj : json.getAsList()) {
-            if (categoryObj instanceof JSONObject categoryJson) {
-                DemographicCategory category = DemographicCategory.fromString(categoryJson.getKey());
+        for (Object categoryObject : json.getAsList()) {
+            if (categoryObject instanceof JSONObject categoryJson) {
+                String key = categoryJson.getKey();
+                DemographicCategory category = DemographicCategory.valueOf(key.toUpperCase().replaceAll("[^a-zA-Z]+","_"));
                 List<Bloc> blocs = createBlocs(category, categoryJson.getAsObject());
                 demographicBlocs.put(category, blocs);
             }
         }
     }
 
-    public Demographics randomDemographics() {
-        Bloc generation, religion, raceEthnicity, presentation;
-        try {
-            generation = demographicBlocs.get(DemographicCategory.GENERATION)
-                    .get(RandomUtils.randInt(demographicBlocs.get(DemographicCategory.GENERATION).size() - 1));
-            while (generation.getSubBlocs().size() != 0) {
-                generation = generation.getSubBlocs()
-                        .get(RandomUtils.randInt(generation.getSubBlocs().size() - 1));
-            }
-            religion = demographicBlocs.get(DemographicCategory.RELIGION)
-                    .get(RandomUtils.randInt(demographicBlocs.get(DemographicCategory.RELIGION).size() - 1));
-            while (religion.getSubBlocs().size() != 0) {
-                religion = religion.getSubBlocs().get(RandomUtils.randInt(religion.getSubBlocs().size() - 1));
-            }
-            raceEthnicity = demographicBlocs.get(DemographicCategory.RACE_ETHNICITY)
-                    .get(RandomUtils.randInt(demographicBlocs.get(DemographicCategory.RACE_ETHNICITY).size() - 1));
-            while (raceEthnicity.getSubBlocs().size() != 0) {
-                raceEthnicity = raceEthnicity.getSubBlocs()
-                        .get(RandomUtils.randInt(raceEthnicity.getSubBlocs().size() - 1));
-            }
-            presentation = demographicBlocs.get(DemographicCategory.PRESENTATION)
-                    .get(RandomUtils.randInt(demographicBlocs.get(DemographicCategory.PRESENTATION).size() - 1));
-            while (presentation.getSubBlocs().size() != 0) {
-                presentation = presentation.getSubBlocs()
-                        .get(RandomUtils.randInt(presentation.getSubBlocs().size() - 1));
-            }
-            return new Demographics(generation, religion, raceEthnicity, presentation);
-        }
-        catch (IndexOutOfBoundsException e) {
-            e.printStackTrace();
-            return null;
-        }
+    private @NotNull List<Bloc> createBlocs(@NotNull DemographicCategory category, @NotNull JSONObject structure) {
+        return createBlocs(category, null, structure);
     }
 
-    public Map<Bloc, Float> demographicsFromDescriptors(Set<String> descriptors) {
-        Map<Bloc, Float> demographics = new HashMap<>();
-        for (List<Bloc> blocList : demographicBlocs.values()) {
-            for (Bloc bloc : blocList) {
-                demographics.put(bloc, 0.5f);
-            }
-        }
-        return demographics;
-    }
+    public @NotNull List<Bloc> createBlocs(@NotNull DemographicCategory category, @Nullable Bloc parent, @NotNull JSONObject structure) {
+        List<Bloc> blocs = new ArrayList<>();
 
-    // GETTERS AND SETTERS
-    // ------------------------------------------------------------------------
+        for (Object keyObj : structure.getAsList()) {
+            if (keyObj instanceof JSONObject keyJson) {
+                String blocName = keyJson.getKey();
+                Object value = keyJson.getValue();
 
-    public long getNumberVoters() {
-        return numVoters;
-    }
-
-    public int[] getPopulationPyramid(Bloc applicableBloc) {
-        int[] pyramid = { 1, 2, 3, 4, 5 };
-        return pyramid;
-        // TODO
-    }
-
-    public double[] getPopulationPyramidPercent(Bloc applicableBloc) {
-        int[] pyramid = getPopulationPyramid(applicableBloc);
-        int totalMembers = applicableBloc.getMembers().size();
-        double[] percentagesPyramid = new double[pyramid.length];
-
-        for (int i = 0; i < pyramid.length; i++) {
-            percentagesPyramid[i] = pyramid[i] / totalMembers;
-        }
-        return percentagesPyramid;
-    }
-
-    public Demographics getMostCommonDemographics() {
-        // generation, presentation, raceEthnicity, religion
-        // should make this adaptive to the current population
-        return new Demographics(this, "Millennial", "White Catholic", "English", "Woman");
-    }
-
-    public Map<DemographicCategory, List<Bloc>> getDemographicBlocs() {
-        return demographicBlocs;
-    }
-
-    /**
-     * Selects the most Underrepresented Bloc from the passed List of Blocs their
-     * subBloc trees. Underrepresentation is determined by the bloc's Representation
-     * Ratio, or the actual representation / expected representation.
-     *
-     * @param blocs A list of blocs to search (along with their subBloc trees).
-     * @return The innermost bloc which is most underrepresented.
-     */
-    private Bloc findMostUnderrepresentedBloc(List<Bloc> blocs) {
-        Bloc underrepresentedBloc = blocs.get(0);
-        float underrepresentedValue = determineRepresentationRatio(underrepresentedBloc);
-
-        for (Bloc bloc : blocs) {
-            if (bloc.getSubBlocs().isEmpty()) {
-                float representationRatio = determineRepresentationRatio(bloc);
-                if (representationRatio < underrepresentedValue ||
-                        (representationRatio == underrepresentedValue &&
-                                bloc.getPercentVoters() > underrepresentedBloc.getPercentVoters())) {
-                    underrepresentedBloc = bloc;
-                    underrepresentedValue = representationRatio;
-                    // System.out.printf("Found %s with ratio %f.%n",
-                    // underrepresentedBloc.getName(), underrepresentedValue);
+                Bloc bloc;
+                if (value instanceof Number numValue) {
+                    // Base case: numerical value representing percentage
+                    double percentage;
+                    if (numValue.doubleValue() >= 1.0f) {
+                        // Value is a count of individuals
+                        percentage = numValue.doubleValue() / GAME_START_VOTERS;
+                    }
+                    else {
+                        // Value is a percentage of individuals
+                        percentage = numValue.doubleValue();
+                    }
+                    bloc = new Bloc(blocName, category, percentage, Collections.emptySet(), parent, Collections.emptyList());
+                    blocs.add(bloc);
                 }
-            }
-            else {
-                Bloc candidate = findMostUnderrepresentedBloc(bloc.getSubBlocs());
-                float candidateRatio = determineRepresentationRatio(candidate);
-                if (Float.isNaN(underrepresentedValue) || candidateRatio < underrepresentedValue ||
-                        (candidateRatio == underrepresentedValue &&
-                                bloc.getPercentVoters() > underrepresentedBloc.getPercentVoters())) {
-                    underrepresentedBloc = candidate;
-                    underrepresentedValue = candidateRatio;
-                    // System.out.printf("Found %s with ratio %f.%n",
-                    // underrepresentedBloc.getName(), underrepresentedValue);
+                else if (value instanceof JSONObject valueJson) {
+                    // Recursive case: nested blocs
+                    bloc = new Bloc(blocName, category, 0.0, Collections.emptySet(), parent, Collections.emptyList());
+                    bloc.getSubBlocs().addAll(createBlocs(category, bloc, valueJson));
+                    blocs.add(bloc);
                 }
             }
         }
-
-        return underrepresentedBloc;
+        return blocs;
     }
 
-    private float determineRepresentationRatio(Bloc bloc) {
-        // Returns ratio of actual character membership to expected membership
-        // <1 if underrepresented, >1 if overrepresented, =1 if perfectly represented
-        try {
-            if (ENGINE.MANAGERS.CHARACTER_MANAGER.getNumCharacters() == 0)
-                return 1.0f; // if there are no characters, every bloc is perfectly represented
-            float expectedRepresentation = bloc.getPercentVoters();
-            float actualRepresentation = bloc.getMembers().size() * 1.0f
-                    / ENGINE.MANAGERS.CHARACTER_MANAGER.getNumCharacters();
-            float representationRatio = actualRepresentation / expectedRepresentation;
-
-            return (representationRatio);
-        }
-        catch (ArithmeticException e) {
-            return 1.0f;
-        }
+    private void readPopulationPyramidData() {
+        populationPyramid = new HashMap<>();
+        JSONObject json = JSONProcessor.processJson(FilePaths.BIRTHYEAR_PERCENTAGES);
+        populationPyramid.put(null, null); // TODO
     }
 
-    public void addCharacterToBlocs(Character character, Demographics demographics) {
-        for (Bloc bloc : demographics.toBlocsArray()) {
-            bloc.addMember(character);
-        }
+    public @NotNull Map<Integer, Double> getPopulationPyramid(@NotNull Bloc... blocs) {
+        return populationPyramid.get(blocs[0]); // Should find the average combination of the blocs and return the pyramid for that combination
     }
 
-    public void removeCharacterFromBlocs(Character character, Demographics demographics) {
-
-    }
-
-    public Bloc matchBlocName(String name) {
+    public @Nullable Bloc matchBlocName(@NotNull String name) {
         for (List<Bloc> blocList : demographicBlocs.values()) {
             for (Bloc bloc : blocList) {
                 if (bloc.getName().equals(name))
@@ -406,84 +162,135 @@ public class DemographicsManager extends Manager {
             }
         }
         Logger.log("INVALID BLOC NAME",
-                String.format("The Bloc name \"%s\" is non-existent and could not be matched.", name), new Exception());
+            String.format("The Bloc name \"%s\" is non-existent and could not be matched.", name), new Exception());
         return null;
     }
 
-    // REPRESENTATION METHODS
-    // ---------------------------------------------------------------------
-
-    private static final Map<String, String> fieldsJsons = Map.of(
-            "numVoters", "number_voters",
-            "demographicBlocs", "demographic_blocs");
-
-    @Override
-    public JSONObject toJson() {
-        List<JSONObject> fields = new ArrayList<>();
-        fields.add(new JSONObject("number_voters", numVoters));
-        // JSONify demographicBlocs
-        List<JSONObject> categories = new ArrayList<>();
-        for (DemographicCategory category : demographicBlocs.keySet()) {
-            List<Bloc> blocs = demographicBlocs.get(category);
-            List<JSONObject> blocsJsons = new ArrayList<>();
-            for (Bloc bloc : blocs) {
-                for (Bloc subBloc : bloc.getSubBlocs()) { // Loop through sub-blocs
-                    blocsJsons.add(subBloc.toJson());
-                }
-                blocsJsons.add(bloc.toJson());
-            }
-            String categoryJsonLabel = category.label.replace(" ", "_").toLowerCase();
-            categories.add(new JSONObject(categoryJsonLabel, blocsJsons));
-        }
-        fields.add(new JSONObject("demographic_blocs", categories));
-        return new JSONObject("demographics_manager", fields);
-
-        // try {
-        // List<JSONObject> fields = new ArrayList<>();
-        // for (String fieldName : fieldsJsons.keySet()) {
-        // Field field = getClass().getDeclaredField(fieldName);
-        // fields.add(new JSONObject(fieldName, field.get(this)));
-        // }
-        // return new JSONObject(this.getClass().getSimpleName(), fields);
-        // }
-        // catch (NoSuchFieldException | IllegalAccessException e) {
-        // currentState = ManagerState.ERROR;
-        // Logger.log("JSON SERIALIZATION ERROR", "Failed to serialize " +
-        // getClass().getSimpleName() + " to JSON.", e);
-        // return null;
-        // }
+    public Demographics getCommonDemographics() {
+        return new Demographics(this, "Millennial", "White Catholic", "English", "Woman");
     }
 
-    @Override
-    public Manager fromJson(JSONObject json) {
-        currentState = ManagerState.INACTIVE;
-        for (String fieldName : fieldsJsons.keySet()) {
-            String jsonKey = fieldsJsons.get(fieldName);
-            Object value = json.get(jsonKey);
-            if (value == null)
-                continue;
-            try {
-                Field field = getClass().getDeclaredField(fieldName);
-                field.setAccessible(true);
-                Class<?> type = field.getType();
-                if (type.isEnum()) {
-                    // For enums, convert string to enum constant
-                    @SuppressWarnings({ "unchecked", "rawtypes" })
-                    Object enumValue = Enum.valueOf((Class<Enum>) type, value.toString());
-                    field.set(this, enumValue);
-                }
-                else {
-                    // For other types, set directly (may need conversion for complex types)
-                    field.set(this, value);
-                }
-            }
-            catch (Exception e) {
-                currentState = ManagerState.ERROR;
-                Logger.log("JSON DESERIALIZATION ERROR",
-                        "Failed to set field " + fieldName + " in LanguageManager from JSON.", e);
-            }
-        }
-        return this;
+    public @Nullable Bloc getCommonBloc(@NotNull DemographicCategory category) {
+        return demographicBlocs.get(category).stream().max(Comparator.comparing(Bloc::getPercentageMembership)).orElse(null);
     }
 
+    public @NotNull Demographics selectDemographics() {
+        Bloc generation, religion, raceEthnicity, presentation;
+        presentation = selectBloc(DemographicCategory.PRESENTATION, Set.of());
+        generation = selectBloc(DemographicCategory.GENERATION, Set.of(presentation));
+        raceEthnicity = selectBloc(DemographicCategory.RACE_ETHNICITY, Set.of(presentation, generation));
+        religion = selectBloc(DemographicCategory.RELIGION, Set.of(presentation, generation, raceEthnicity));
+        return new Demographics(generation, religion, raceEthnicity, presentation);
+    }
+
+    public @NotNull Bloc selectBloc(@NotNull DemographicCategory category, @NotNull Set<Bloc> alreadySelected) {
+        Map<Bloc, Double> weights = new HashMap<>();
+        for (Bloc bloc : demographicBlocs.get(category)) {
+            weights.put(bloc, bloc.getPercentageMembership());
+        }
+        return RandomUtils.weightedSelect(weights);
+    }
+
+    public @NotNull Demographics selectRandomDemographics() {
+        return new Demographics(
+            selectRandomBloc(DemographicCategory.GENERATION),
+            selectRandomBloc(DemographicCategory.RELIGION),
+            selectRandomBloc(DemographicCategory.RACE_ETHNICITY),
+            selectRandomBloc(DemographicCategory.PRESENTATION)
+        );
+    }
+
+    public @NotNull Bloc selectRandomBloc(@NotNull DemographicCategory category) {
+        var selected = RandomUtils.randSelect(demographicBlocs.get(category));
+        assert selected != null;
+        return selected;
+    }
+
+    // TODO Instead of picking one bloc and then populating the rest normally, this should use bloc overlaps to find the most underrepresented
+    public @NotNull Demographics selectUnderrepresentedDemographics() {
+        if (ENGINE.MANAGERS.CHARACTER_MANAGER.getNumCitizens() == 0) return getCommonDemographics();
+        List<Bloc> allBlocs = new ArrayList<>();
+        demographicBlocs.values().forEach(allBlocs::addAll);
+        Bloc underrepresentedBloc = selectUnderrepresentedBloc(allBlocs);
+        Bloc generation, religion, raceEthnicity, presentation;
+        switch (underrepresentedBloc.getCategory()) {
+            case GENERATION :
+                generation    = underrepresentedBloc;
+                religion      = selectBloc(DemographicCategory.RELIGION,       Set.of(generation));
+                raceEthnicity = selectBloc(DemographicCategory.RACE_ETHNICITY, Set.of(generation, religion));
+                presentation  = selectBloc(DemographicCategory.PRESENTATION,   Set.of(generation, religion, raceEthnicity));
+                break;
+            case RELIGION :
+                religion      = underrepresentedBloc;
+                generation    = selectBloc(DemographicCategory.GENERATION,     Set.of(religion));
+                raceEthnicity = selectBloc(DemographicCategory.RACE_ETHNICITY, Set.of(religion, generation));
+                presentation  = selectBloc(DemographicCategory.PRESENTATION,   Set.of(religion, generation, raceEthnicity));
+                break;
+            case RACE_ETHNICITY :
+                raceEthnicity = underrepresentedBloc;
+                generation    = selectBloc(DemographicCategory.GENERATION,   Set.of(raceEthnicity));
+                religion      = selectBloc(DemographicCategory.RELIGION,     Set.of(raceEthnicity, generation));
+                presentation  = selectBloc(DemographicCategory.PRESENTATION, Set.of(raceEthnicity, generation, religion));
+                break;
+            case PRESENTATION :
+                presentation  = underrepresentedBloc;
+                generation    = selectBloc(DemographicCategory.GENERATION,     Set.of(presentation));
+                religion      = selectBloc(DemographicCategory.RELIGION,       Set.of(presentation, generation));
+                raceEthnicity = selectBloc(DemographicCategory.RACE_ETHNICITY, Set.of(presentation, generation, religion));
+                break;
+            default :
+                return selectDemographics();
+        }
+        return new Demographics(generation, religion, raceEthnicity, presentation);
+    }
+
+    public @NotNull Bloc selectUnderrepresentedBloc(@NotNull List<Bloc> blocs) {
+        Bloc underrepresentedBloc = blocs.get(0);
+        double underrepresentedValue = determineRepresentationRatio(underrepresentedBloc);
+
+        for (Bloc bloc : blocs) {
+            if (bloc.getSubBlocs().isEmpty()) {
+                double representationRatio = determineRepresentationRatio(bloc);
+                if (representationRatio < underrepresentedValue ||
+                    (representationRatio == underrepresentedValue &&
+                        bloc.getPercentageMembership() > underrepresentedBloc.getPercentageMembership())) {
+                    underrepresentedBloc = bloc;
+                    underrepresentedValue = representationRatio;
+                }
+            }
+            else {
+                Bloc candidate = selectUnderrepresentedBloc(bloc.getSubBlocs());
+                double candidateRatio = determineRepresentationRatio(candidate);
+                if (Double.isNaN(underrepresentedValue) || candidateRatio < underrepresentedValue ||
+                    (candidateRatio == underrepresentedValue &&
+                        bloc.getPercentageMembership() > underrepresentedBloc.getPercentageMembership())) {
+                    underrepresentedBloc = candidate;
+                    underrepresentedValue = candidateRatio;
+                }
+            }
+        }
+
+        return underrepresentedBloc;
+    }
+
+    private double determineRepresentationRatio(Bloc bloc) {
+        // Returns ratio of actual character membership to expected membership
+        // <1 if underrepresented, >1 if overrepresented, =1 if perfectly represented
+        try {
+            if (ENGINE.MANAGERS.CHARACTER_MANAGER.getNumCitizens() == 0)
+                return 1.0f; // if there are no characters, every bloc is perfectly represented
+            double expectedRepresentation = bloc.getPercentageMembership();
+            double actualRepresentation = bloc.getMembers().size() * 1.0f / ENGINE.MANAGERS.CHARACTER_MANAGER.getNumCitizens();
+            return (actualRepresentation / expectedRepresentation);
+        }
+        catch (ArithmeticException e) {
+            return 1.0f;
+        }
+    }
+
+    public void addCharacterToBlocs(@NotNull Citizen citizen) {
+        for (Bloc bloc : citizen.getDemographics().getBlocs()) {
+            bloc.getMembers().add(citizen);
+        }
+    }
 }

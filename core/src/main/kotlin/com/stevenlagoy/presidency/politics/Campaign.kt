@@ -7,6 +7,6 @@ class Campaign(
     var affiliatedParty: Party? = null
 ) : Issue(
     "Campaign of " + campaigners.map { it.name.commonName }.joinToString(", "),
-    campaigners.map { it.name.commonName }.joinToString(", ") + " are running with the " + affiliatedParty.name + " party.",
-    setOf(IssuePosition(this, "Campaign", ""))
+    campaigners.joinToString(", ") { it.name.commonName } + " are running with the " + affiliatedParty?.name + " party.",
+    setOf()
 )

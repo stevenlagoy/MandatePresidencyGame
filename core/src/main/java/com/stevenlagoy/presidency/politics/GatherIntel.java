@@ -2,7 +2,7 @@ package com.stevenlagoy.presidency.politics;
 
 import java.util.ArrayList;
 import java.util.List;
-import com.stevenlagoy.presidency.characters.CharacterJava;
+import com.stevenlagoy.presidency.characters.Citizen;
 
 public class GatherIntel extends Operation {
     public static List<Operation> instances = new ArrayList<>();
@@ -11,7 +11,7 @@ public class GatherIntel extends Operation {
     private int directness;
     private int secrecy;
 
-    public GatherIntel(CharacterJava operator, CharacterJava[] agents) {
+    public GatherIntel(Citizen operator, Citizen[] agents) {
         super(operator, agents);
     }
 

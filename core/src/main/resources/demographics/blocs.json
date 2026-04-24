@@ -13,7 +13,7 @@
     "Marital Status" : {
         "Single" :   0.3409,
         "Married" :  0.5072,
-        "Widdowed" : 0.05660,
+        "Widowed" : 0.05660,
         "Divorced" : 0.09532
     },
     "Family Size" : {
@@ -405,7 +405,7 @@
             "Middle Eastern / North African American" : 531533
         }
     },
-    "Employment" : {
+    "Industry" : {
         "Agriculture & Forestry & Fishing / Hunting" :           0.010,
         "Mining / Extraction" :                                  0.010,
         "Construction" :                                         0.010,
@@ -417,13 +417,13 @@
         "Information" :                                          0.010,
         "Finance / Insurance" :                                  0.010,
         "Real Estate & Rental / Leasing" :                       0.010,
-        "Professional & Scientific & Technical Services" :       0.010, 
+        "Professional & Scientific & Technical Services" :       0.010,
         "Management" :                                           0.010,
         "Administrative / Support & Waste Management Services" : 0.010,
         "Educational Services" :                                 0.010,
         "Health Care / Social Assistance" :                      0.010,
         "Arts / Entertainment & Recreation" :                    0.010,
-        "Accomodation / Food Services" :                         0.010,
+        "Accommodation / Food Services" :                         0.010,
         "Other Services" :                                       0.010,
         "Public Administration" :                                0.010,
         "Military" :                                             0.010,
@@ -435,8 +435,8 @@
         "Rural" :    0.35
     },
     "Presentation" : {
-        "Man" :                0.49294,
-        "Woman" :              0.50228,
-        "Other / Non-Binary" : 0.00478
+        "Man"        : 0.49294,
+        "Woman"      : 0.50228,
+        "Non-Binary" : 0.00478
     }
 }

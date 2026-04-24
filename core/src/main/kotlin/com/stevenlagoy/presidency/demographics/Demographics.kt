@@ -13,6 +13,19 @@ class Demographics (
 
     constructor(other: Demographics) : this(other.generation, other.religion, other.raceEthnicity, other.presentation)
 
+    constructor(
+        DEMOGRAPHICS_MANAGER: DemographicsManager,
+        generationBlocName: String,
+        religionBlocName: String,
+        raceEthnicityBlocName: String,
+        presentationBlocName: String
+    ) : this(
+        DEMOGRAPHICS_MANAGER.matchBlocName(generationBlocName)!!,
+        DEMOGRAPHICS_MANAGER.matchBlocName(religionBlocName)!!,
+        DEMOGRAPHICS_MANAGER.matchBlocName(raceEthnicityBlocName)!!,
+        DEMOGRAPHICS_MANAGER.matchBlocName(presentationBlocName)!!,
+    )
+
     var generation = generation
         set(value) {
             if (value.category != DemographicCategory.GENERATION) {

@@ -11,6 +11,7 @@ import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.util.Logger;
+import org.jetbrains.annotations.NotNull;
 
 public class EventManager extends Manager {
 
@@ -37,6 +38,7 @@ public class EventManager extends Manager {
         return successFlag;
     }
 
+    @NotNull
     @Override
     public ManagerState getState() {
         return currentState;
@@ -51,20 +53,7 @@ public class EventManager extends Manager {
         return successFlag;
     }
 
-    // REPRESENTATION METHODS
-    // ---------------------------------------------------------------------
-
-    @Override
-    public String toRepr() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'toRepr'");
-    }
-
-    @Override
-    public Manager fromRepr(String repr) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'fromRepr'");
-    }
+    // REPRESENTATION METHODS ---------------------------------------------------------------------
 
     @Override
     public JSONObject toJson() {
@@ -97,9 +86,9 @@ public class EventManager extends Manager {
      * - Thanksgiving Day
      * - Christmas Day
      * - Debates
-     * 
+     *
      * Incidental / Random:
-     * 
+     *
      */
 
 }
