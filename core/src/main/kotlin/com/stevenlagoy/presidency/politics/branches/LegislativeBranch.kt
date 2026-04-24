@@ -8,7 +8,7 @@ import com.stevenlagoy.presidency.politics.Party
 class LegislativeBranch(
     val title: String,
     val chambers: Set<Chamber>,
-    override val partiesPresent: Set<Party> = setOf(),
+    override val partiesPresent: MutableSet<Party> = mutableSetOf(),
     override val pastElectionResults: MutableList<ElectionResult> = mutableListOf()
 ) : GovernmentBranch() {
 

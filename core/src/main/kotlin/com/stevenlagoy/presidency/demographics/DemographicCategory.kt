@@ -1,16 +1,17 @@
 package com.stevenlagoy.presidency.demographics
 
-enum class DemographicCategoryKT {
+enum class DemographicCategory {
+    NONE,
     GENERATION,
     MARITAL_STATUS,
-    SEX,
-    HOUSEHOLD_TYPE,
+    FAMILY_SIZE,
     RELIGION,
-    EDUCATIONAL_ATTAINMENT,
+    EDUCATION,
     RACE_ETHNICITY,
-    ANCESTRY,
-    EMPLOYMENT_STATUS,
     INDUSTRY,
     RESIDENCY,
     PRESENTATION,
+    HOUSEHOLD_TYPE,
+    ANCESTRY,
+    EMPLOYMENT_STATUS,
 }

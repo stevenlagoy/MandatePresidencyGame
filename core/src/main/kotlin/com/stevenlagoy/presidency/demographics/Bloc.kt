@@ -2,7 +2,8 @@ package com.stevenlagoy.presidency.demographics
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.Jsonic
-import com.stevenlagoy.presidency.characters.Character
+import com.stevenlagoy.presidency.characters.Citizen
+import com.stevenlagoy.presidency.politics.Party
 
 /**
  * Blocs are groups defined by membership in a demographic subset, whether by Race & Ethnicity,
@@ -23,12 +24,23 @@ class Bloc (
     val name: String,
     val category: DemographicCategory,
     val percentageMembership: Double,
-    members: Collection<Character> = setOf(),
+    members: Collection<Citizen> = setOf(),
     private var _superBloc: Bloc? = null,
     private val _subBlocs: MutableList<Bloc> = mutableListOf(),
 ) : Jsonic<Bloc>
 {
-    val members: MutableSet<Character> = members.toMutableSet()
+
+    companion object {
+        val CITIZENS = Bloc("Citizens", DemographicCategory.NONE, 1.0)
+        val UNAFFILIATED = Bloc("Unaffiliated Voters", DemographicCategory.NONE, 1.0)
+        val AFFILIATED = Bloc("Party-Affiliated Voters", DemographicCategory.NONE, 1.0)
+
+        fun resolvePartyAffiliation(party: Party): Bloc {
+            return AFFILIATED
+        }
+    }
+
+    val members: MutableSet<Citizen> = members.toMutableSet()
 
     val superBloc: Bloc? get() = _superBloc
 
