@@ -18,6 +18,7 @@ import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.JSONProcessor;
 import com.stevenlagoy.presidency.util.FilePaths;
 import com.stevenlagoy.presidency.util.Logger;
+import org.jetbrains.annotations.NotNull;
 
 /**
  * The LanguageManager tracks the current game language and provides
@@ -29,7 +30,7 @@ public final class LanguageManager extends Manager {
     // ---------------------------------------------------------------------
 
     /** Possible languages in which to display game text. */
-    public static enum Language {
+    public enum Language {
 
         EN("English"),
         ZH("简体中文"),
@@ -44,7 +45,7 @@ public final class LanguageManager extends Manager {
 
         public final String name;
 
-        private Language(String name) {
+        Language(String name) {
             this.name = name;
         }
 
@@ -111,6 +112,7 @@ public final class LanguageManager extends Manager {
     }
 
     /** Get the current State of this LanguageManager. */
+    @NotNull
     @Override
     public ManagerState getState() {
         return currentState;
@@ -139,7 +141,7 @@ public final class LanguageManager extends Manager {
     /**
      * Loads localization for the language, and if successful sets the game
      * language.
-     * 
+     *
      * @return {@code true} if successfully loaded and set language, {@code false}
      *         otherwise.
      */
@@ -154,7 +156,7 @@ public final class LanguageManager extends Manager {
     // Localizations : Map of String to String
     /**
      * Get the localization for a given tag in the current game language.
-     * 
+     *
      * @see #getLocalization(String, Language)
      */
     public String getLocalization(String tag) {
@@ -167,7 +169,7 @@ public final class LanguageManager extends Manager {
     }
 
     /**
-     * Get the localization for a given tag in the passed language. Will attempt to
+     * Get the localization for a given tag in the given language. Will attempt to
      * find
      * localization for the tag as passed, in lower and upper case, with whitespaces
      * changed to
@@ -235,20 +237,9 @@ public final class LanguageManager extends Manager {
     // REPRESENTATION METHODS
     // ---------------------------------------------------------------------
 
-    @Override
-    public String toRepr() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'toRepr'");
-    }
-
-    @Override
-    public Manager fromRepr(String repr) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'fromRepr'");
-    }
-
     private static final Map<String, String> fieldsJsons = Map.of(
-            "gameLanguage", "game_language");
+            "gameLanguage", "game_language"
+    );
 
     @Override
     public JSONObject toJson() {
