@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.stevenlagoy.presidency.characters.CharacterJava;
+import com.stevenlagoy.presidency.characters.Citizen;
 import com.stevenlagoy.presidency.core.TimeManager;
 
 import com.stevenlagoy.presidency.map.MapManager;
@@ -25,18 +25,18 @@ public class Travel {
         protected Municipality start;
         protected Municipality destination;
         private Vehicle vehicle;
-        private List<CharacterJava> travelers;
+        private List<Citizen> travelers;
 
         public Leg(Municipality start, Municipality destination, Vehicle vehicle,
-                CharacterJava... travelers) {
+                   Citizen... travelers) {
             this(start, destination, vehicle, List.of(travelers));
         }
 
         public Leg(Municipality start, Municipality destination, Vehicle vehicle,
-                Collection<CharacterJava> travelers) {
+                   Collection<Citizen> travelers) {
             this.start = start;
             this.destination = destination;
-            this.travelers = new ArrayList<CharacterJava>(travelers);
+            this.travelers = new ArrayList<Citizen>(travelers);
         }
 
         public Municipality getStart() {
@@ -51,7 +51,7 @@ public class Travel {
             return vehicle;
         }
 
-        public List<CharacterJava> getTravelers() {
+        public List<Citizen> getTravelers() {
             return travelers;
         }
 
@@ -73,14 +73,14 @@ public class Travel {
         private Roadway roadway;
 
         public RoadLeg(Municipality start, Municipality destination, RoadVehicle vehicle,
-                Roadway roadway,
-                CharacterJava... travelers) {
+                       Roadway roadway,
+                       Citizen... travelers) {
             this(start, destination, vehicle, roadway, List.of(travelers));
         }
 
         public RoadLeg(Municipality start, Municipality destination, RoadVehicle vehicle,
-                Roadway roadway,
-                Collection<CharacterJava> travelers) {
+                       Roadway roadway,
+                       Collection<Citizen> travelers) {
             super(start, destination, vehicle, travelers);
             this.roadway = roadway;
             distance = -1.0;
@@ -130,12 +130,12 @@ public class Travel {
         private double cost;
 
         public RailLeg(Municipality start, Municipality destination, RailVehicle vehicle,
-                CharacterJava... travelers) {
+                       Citizen... travelers) {
             this(start, destination, vehicle, List.of(travelers));
         }
 
         public RailLeg(Municipality start, Municipality destination, RailVehicle vehicle,
-                Collection<CharacterJava> travelers) {
+                       Collection<Citizen> travelers) {
             super(start, destination, vehicle, travelers);
             distance = -1.0;
             getDistance();
@@ -180,12 +180,12 @@ public class Travel {
         private double cost;
         private long travelTime;
 
-        public AirLeg(Municipality start, Municipality destination, AirVehicle vehicle, CharacterJava... travelers) {
+        public AirLeg(Municipality start, Municipality destination, AirVehicle vehicle, Citizen... travelers) {
             this(start, destination, vehicle, List.of(travelers));
         }
 
         public AirLeg(Municipality start, Municipality destination, AirVehicle vehicle,
-                Collection<CharacterJava> travelers) {
+                      Collection<Citizen> travelers) {
             super(start, destination, vehicle, travelers);
             distance = -1.0;
             getDistance();
@@ -230,12 +230,12 @@ public class Travel {
         private double cost;
         private long travelTime;
 
-        public WaterLeg(Municipality start, Municipality destination, WaterVehicle vehicle, CharacterJava... travelers) {
+        public WaterLeg(Municipality start, Municipality destination, WaterVehicle vehicle, Citizen... travelers) {
             this(start, destination, vehicle, List.of(travelers));
         }
 
         public WaterLeg(Municipality start, Municipality destination, WaterVehicle vehicle,
-                Collection<CharacterJava> travelers) {
+                        Collection<Citizen> travelers) {
             super(start, destination, vehicle, travelers);
             distance = -1.0;
             getDistance();
@@ -273,17 +273,13 @@ public class Travel {
 
     }
 
-    private Map<CharacterJava, Municipality> travelersDestinations;
+    private Map<Citizen, Municipality> travelersDestinations;
     private List<Vehicle> availableVehicles;
 
     private List<Leg> legs;
     private double distance;
     private double cost;
     private long travelTime;
-
-    public Travel(Leg... legs) {
-        this(List.of(legs));
-    }
 
     public Travel(Collection<Leg> legs) {
         this.legs = new ArrayList<>();
@@ -338,9 +334,9 @@ public class Travel {
         return cost;
     }
 
-    // Destinations : Map of Character to Municipality
+    // Destinations : Map of Citizen to Municipality
 
-    public Map<CharacterJava, Municipality> getTravelersDestinations() {
+    public Map<Citizen, Municipality> getTravelersDestinations() {
         return travelersDestinations;
     }
 
@@ -348,16 +344,16 @@ public class Travel {
      * Adds a traveler with a destination to the Travel. Can be used to add or set a
      * traveler's location.
      *
-     * @param traveler    Character to add as a traveler on the Travel.
+     * @param traveler    Citizen to add as a traveler on the Travel.
      * @param destination Destination of the traveler.
      * @return Municipality previously set as the destination of the traveler, or
      *         {@code null} if no current destination.
      */
-    public Municipality putTraveler(CharacterJava traveler, Municipality destination) {
+    public Municipality putTraveler(Citizen traveler, Municipality destination) {
         return travelersDestinations.put(traveler, destination);
     }
 
-    public Municipality removeTraveler(CharacterJava traveler) {
+    public Municipality removeTraveler(Citizen traveler) {
         return travelersDestinations.remove(traveler);
     }
 
@@ -409,7 +405,7 @@ public class Travel {
          * Goal is to get all travelers to their destinations
          * Approach 1:
          * For each traveler, determine journey from start to end.
-         * Determine largest possible leg first, then do smaller ones
+         * Determine the largest possible leg first, then do smaller ones
          * See if any traveler is taking the same leg as another, and merge if they are.
          * PROS: Faster, simpler
          * CONS: May result in suboptimal pathing, overlapping legs
@@ -463,29 +459,7 @@ public class Travel {
 
         // Score available routes by start location, end location, and vehicle
 
-        for (CharacterJava traveler : travelersDestinations.keySet()) {
-
-            // Select acceptable proxies for start and destination through contracted
-            // municipality hierarchy search
-            // Start location proxy
-            Municipality start = traveler.getCurrentLocationMunicipality(), startProxy = start;
-            do {
-                startProxy = startProxy.getContractLocation();
-                if (startProxy == null)
-                    break;
-            } while (startProxy.getConnectivity() < acceptableConnectivity);
-
-            // Destination location proxy
-            Municipality destination = travelersDestinations.get(traveler), destinationProxy = destination;
-            do {
-                destinationProxy = destinationProxy.getContractLocation();
-                if (destinationProxy == null)
-                    break;
-            } while (destinationProxy.getConnectivity() < acceptableConnectivity);
-
-        }
-
-        // Determine highest priority, apply algorithm accordingly
+        // Determine the highest priority, apply algorithm accordingly
         if (distancePriority > costPriority && distancePriority > timePriority) {
             // Reducing distance most important
         }

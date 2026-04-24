@@ -2,11 +2,10 @@ package com.stevenlagoy.presidency.map.travel.route;
 
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.Jsonic;
-import com.stevenlagoy.presidency.data.Repr;
 import com.stevenlagoy.presidency.map.MapManager;
 import com.stevenlagoy.presidency.map.Municipality;
 
-public class Airport implements Repr<Airport>, Jsonic<Airport> {
+public class Airport implements Jsonic<Airport> {
 
     // STATIC VARIABLES
     // ---------------------------------------------------------------------------
@@ -53,7 +52,7 @@ public class Airport implements Repr<Airport>, Jsonic<Airport> {
     }
 
     public Airport(String fullName, String commonName, String IATA, Municipality location, AirportSize size,
-            int enplanement) {
+                   int enplanement) {
         this.fullName = fullName;
         this.commonName = commonName;
         this.IATA = IATA;
@@ -63,9 +62,7 @@ public class Airport implements Repr<Airport>, Jsonic<Airport> {
     }
 
     public Airport(MapManager mm, String fullName, String commonName, String IATA, String locationName, String size,
-            int enplanement) {
-        this(fullName, commonName, IATA, mm.matchMunicipality(locationName),
-                AirportSize.fromString(size), enplanement);
+                   int enplanement) {
     }
 
     public String getFullName() {
@@ -106,17 +103,4 @@ public class Airport implements Repr<Airport>, Jsonic<Airport> {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'fromJson'");
     }
-
-    @Override
-    public String toRepr() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'toRepr'");
-    }
-
-    @Override
-    public Airport fromRepr(String repr) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'fromRepr'");
-    }
-
 }

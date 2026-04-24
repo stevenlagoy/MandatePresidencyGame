@@ -1,4 +1,10 @@
 package com.stevenlagoy.presidency.map
 
-class Descriptor {
-}
+import com.stevenlagoy.presidency.demographics.Bloc
+
+data class Descriptor (
+    var name: String = "",
+    var description: String = "",
+    var members: List<MapEntity> = emptyList(),
+    var effects: Map<Bloc, Double> = emptyMap(),
+)

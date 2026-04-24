@@ -9,7 +9,7 @@ import com.stevenlagoy.presidency.politics.Government
 /**
  * MapEntity is a geographically-located area of the map which can be identified by a name and some basic characteristics, like population and area.
  */
-abstract class MapEntity(val managers: Engine.Managers): Jsonic<MapEntity> {
+abstract class MapEntity(val MANAGERS: Engine.Managers): Jsonic<MapEntity> {
 
     /** Full name of this map entity, possibly including a qualifier like 'State of', 'County', or 'Commonwealth of'. */
     abstract var fullName: String
@@ -30,11 +30,18 @@ abstract class MapEntity(val managers: Engine.Managers): Jsonic<MapEntity> {
     /** Government of this map entity, consisting of executive, legislative, and judicial branches. */
     abstract val government: Government?
 
+    init {
+        require(population > 0) { "Population cannot be less than 0"}
+        require(squareMileage > 0.0) { "Area cannot be less than 0.0"}
+    }
+
     /** Get the percentage of people living in this map entity identifying with the given bloc. */
-    fun getDemographicPercentage(bloc: Bloc) = demographics.get(bloc) ?: 0.0
+    fun getDemographicPercentage(bloc: Bloc) = demographics[bloc] ?: 0.0
 
     /** Get the number of people living in this map entity who identify with the given bloc. */
     fun getDemographicPopulation(bloc: Bloc) = (getDemographicPercentage(bloc) * population).toInt()
+
+    // JSONIC -------------------------------------------------------------------------------------
 
     override fun toJson() = JSONObject(uniqueName, listOf(
         JSONObject("full_name",      fullName),
@@ -56,7 +63,7 @@ abstract class MapEntity(val managers: Engine.Managers): Jsonic<MapEntity> {
         squareMileage = json.get("square_mileage") as Double
         descriptors   = json.get("descriptors") as Set<Descriptor> // From MapManager
         demographics  = emptyMap() // From DemographicsManager
-        capital       = managers.MAP_MANAGER.matchMunicipality((json.get("capital") as JSONObject).asString)
+        capital       = MANAGERS.MAP_MANAGER.getMunicipalityByUniqueName((json.get("capital") as JSONObject).asString)
     }
 
     override fun toString() = """[

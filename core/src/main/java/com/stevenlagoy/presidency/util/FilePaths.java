@@ -21,7 +21,7 @@ public final class FilePaths {
     public static final Path CHARACTERS_RESOURCES       = RESOURCES.resolve("characters");
 
     public static final Path CONVENTIONS_RESOURCES      = RESOURCES.resolve("conventions");
-    
+
     public static final Path DATES_RESOURCES            = RESOURCES.resolve("dates");
     public static final Path BIRTHDATE_POPULARITIES     = DATES_RESOURCES.resolve("birthdate_popularities.json");
     public static final Path BIRTHYEAR_PERCENTAGES      = DATES_RESOURCES.resolve("birthyear_percentages.json");
@@ -35,21 +35,21 @@ public final class FilePaths {
     public static final String DESCRIPTIONS_LOC         = "_descriptions.json";
 
     public static final Path MAP_RESOURCES              = RESOURCES.resolve("map");
+    public static final Path NATION                     = MAP_RESOURCES.resolve("nation.json");
+    public static final Path STATES_DIR                 = MAP_RESOURCES.resolve("states");
+
     public static final Path AIRCRAFT_TYPES             = MAP_RESOURCES.resolve("aircraft_types.json");
     public static final Path AIRPORTS                   = MAP_RESOURCES.resolve("airports.json");
-    public static final Path CONGRESSIONAL_DISTRICTS    = MAP_RESOURCES.resolve("congressional_districts.json");
-    public static final Path COUNTIES                   = MAP_RESOURCES.resolve("counties.json");
     public static final Path DESCRIPTORS                = MAP_RESOURCES.resolve("descriptors.json");
-    public static final Path MUNICIPALITIES             = MAP_RESOURCES.resolve("municipalities.json");
     public static final Path RAILWAYS                   = MAP_RESOURCES.resolve("railways.json");
     public static final Path ROADWAY_TYPES              = MAP_RESOURCES.resolve("roadway_types.json");
     public static final Path ROADWAYS                   = MAP_RESOURCES.resolve("roadways");
     public static final Path SEAPORTS                   = MAP_RESOURCES.resolve("seaports");
-    public static final Path STATES                     = MAP_RESOURCES.resolve("states.json");
 
     public static final Path NAMES_RESOURCES            = RESOURCES.resolve("names");
     public static final Path GIVEN_NAMES                = NAMES_RESOURCES.resolve("given_names.json");
     public static final Path FAMILY_NAMES               = NAMES_RESOURCES.resolve("family_names.json");
+    public static final Path GENERATION_NAMES           = NAMES_RESOURCES.resolve("generation_names.json");
     public static final Path NICKNAMES                  = NAMES_RESOURCES.resolve("nicknames.json");
 
     public static final Path POLITICS_RESOURCES         = RESOURCES.resolve("politics");

@@ -1,28 +1,35 @@
 package com.stevenlagoy.presidency.map
 
-import com.stevenlagoy.presidency.characters.PoliticalActor
+import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.demographics.Bloc
 import com.stevenlagoy.presidency.politics.ElectionResult
 import com.stevenlagoy.presidency.politics.Government
 import com.stevenlagoy.presidency.politics.Party
+import kotlin.uuid.ExperimentalUuidApi
+import kotlin.uuid.Uuid
 
+@OptIn(ExperimentalUuidApi::class)
 class Municipality(
-    managers: Engine.Managers,
-    override val FIPS: String,
-    override var fullName: String,
-    override var commonName: String,
-    override var uniqueName: String,
+    MANAGERS: Engine.Managers,
     val state: State,
-    override var population: Int,
-    override var squareMileage: Double,
-    override var descriptors: Set<Descriptor>,
-    override var demographics: Map<Bloc, Double>,
-    override val government: Government,
-    override val partiesPresent: Set<Party> = setOf(),
+    override val FIPS: String,
+    override var fullName: String = "",
+    override var commonName: String = "",
+    override var uniqueName: String = "",
+    override var population: Int = 0,
+    override var squareMileage: Double = 0.0,
+    override var descriptors: Set<Descriptor> = emptySet(),
+    override var demographics: Map<Bloc, Double> = emptyMap(),
+    override val government: Government? = null,
+    override val partiesPresent: MutableSet<Party> = mutableSetOf(),
     override val pastElectionResults: MutableList<ElectionResult> = mutableListOf(),
-) : MapEntity(managers), HasFIPS, HasPolitics
+) : MapEntity(MANAGERS), HasFIPS, HasPolitics
 {
+    constructor(MANAGERS: Engine.Managers, state: State, json: JSONObject) : this(MANAGERS, state, json.get("FIPS").toString()) {
+        fromJson(json)
+    }
+
     val nation: Nation = Nation
 
     override var capital: Municipality? = this
@@ -44,6 +51,14 @@ class Municipality(
 
     override fun getPartyControl(): Map<Party, Double> {
         return mapOf()
+    }
+
+    override fun toJson() = JSONObject(uniqueName, super.toJson().asList + listOf(
+        JSONObject("FIPS", FIPS),
+    ))
+
+    override fun fromJson(json: JSONObject) = this.apply {
+
     }
 
 }
