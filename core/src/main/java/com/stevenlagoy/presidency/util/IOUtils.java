@@ -26,7 +26,7 @@ public final class IOUtils {
     private IOUtils() {
     }
 
-    public static enum Extension {
+    public enum FileExtension {
 
         ALL(""),
         AVI(".avi"),
@@ -84,8 +84,12 @@ public final class IOUtils {
 
         public final String extension;
 
-        Extension(String extension) {
+        FileExtension(String extension) {
             this.extension = extension;
+        }
+
+        public boolean isType(Path path) {
+            return path.toString().toLowerCase().endsWith(extension);
         }
     }
 
@@ -147,10 +151,6 @@ public final class IOUtils {
 
     /**
      * Returns a Set of Paths for all the files in the specified directory.
-     * <p>
-     * Equivalent to {@link IOUtil#listFiles(Path, FileExtension) listFiles(dir,
-     * FileExtension.ALL)}
-     *
      * @param dir
      *            The path to the directory to list the files within
      *
@@ -159,10 +159,10 @@ public final class IOUtils {
      * @throws IOException
      *                     If the directory path is invalid or unable to be located
      *
-     * @see FileExtension#ALL
+     * @see com.stevenlagoy.presidency.util.IOUtils.FileExtension#ALL
      */
     public static Set<Path> listFiles(Path dir) throws IOException {
-        return listFiles(dir, Extension.ALL);
+        return listFiles(dir, FileExtension.ALL);
     }
 
     /**
@@ -180,7 +180,7 @@ public final class IOUtils {
      * @throws IOException
      *                     If the directory path is invalid or unable to be located.
      */
-    public static Set<Path> listFiles(Path dir, Extension extension) throws IOException {
+    public static Set<Path> listFiles(Path dir, FileExtension extension) throws IOException {
         if (dir == null)
             throw new IllegalArgumentException("Path may not be null");
 
@@ -204,25 +204,25 @@ public final class IOUtils {
     /**
      * Empties a directory of all files. Searches only the directory itself, not any
      * subdirectories (non-recursive).
-     * 
+     *
      * @param dir The directory to empty.
      * @throws IOException When the directory is invalid or inaccessable, or lack
      *                     permissions to delete a file.
      */
     public static void emptyFiles(Path dir) throws IOException {
-        emptyFiles(dir, Extension.ALL);
+        emptyFiles(dir, FileExtension.ALL);
     }
 
     /**
      * Empties a directory of all files with the given extension. Searches only the
      * directory itself, not any subdirectories (non-recursive).
-     * 
+     *
      * @param dir       The directory to empty.
      * @param extension The extension to target.
      * @throws IOException When the directory is invalid or inaccessable, or lack
      *                     permissions to delete a file.
      */
-    public static void emptyFiles(Path dir, Extension extension) throws IOException {
+    public static void emptyFiles(Path dir, FileExtension extension) throws IOException {
         Set<Path> paths = listFiles(dir, extension);
         IOException ex = null;
         for (Path path : paths) {
@@ -238,7 +238,7 @@ public final class IOUtils {
 
     /**
      * Reads a file and returns its contents as a List of String.
-     * 
+     *
      * @param path Path to the file to be read
      * @return List of Strings containing the lines in the file
      * @throws IOException When the file cannot be found or read
@@ -253,23 +253,23 @@ public final class IOUtils {
 
     /**
      * Writes a String line to a file with the given directory, name, and extension.
-     * 
+     *
      * @param filename    String name of the file to create / write to
      * @param extension   Extension of the file.
      * @param destination Path to the Directory which will contain the created /
      *                    written file.
      * @param content     String to write into the file.
      * @throws IOException When the file cannot be found or created
-     * @see #writeFile(String, Extension, Path, List)
+     * @see #writeFile(String, FileExtension, Path, List)
      */
-    public static void writeFile(String filename, Extension extension, Path destination, String content)
+    public static void writeFile(String filename, FileExtension extension, Path destination, String content)
             throws IOException {
         writeFile(filename, extension, destination, Collections.singletonList(content));
     }
 
     /**
      * Writes String lines to a file with the given directory, name, and extension.
-     * 
+     *
      * @param filename    String name of the file to create / write to
      * @param extension   Extension of the file
      * @param destination Path to the Directory which will contain the created or
@@ -279,7 +279,7 @@ public final class IOUtils {
      * @throws IOException When the file cannot be found or created
      * @see #writeFile(File, List)
      */
-    public static void writeFile(String filename, Extension extension, Path destination, List<String> content)
+    public static void writeFile(String filename, FileExtension extension, Path destination, List<String> content)
             throws IOException {
         Path filePath = destination.resolve(filename.split("\\.")[0] + extension.extension);
         File file = filePath.toFile();
@@ -288,7 +288,7 @@ public final class IOUtils {
 
     /**
      * Writes String lines to a file.
-     * 
+     *
      * @param file    File to be written into
      * @param content List of Strings to write into the file, each String on a
      *                new line
