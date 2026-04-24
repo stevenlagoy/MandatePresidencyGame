@@ -2,7 +2,6 @@ package com.stevenlagoy.presidency.map.travel.route;
 
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.Jsonic;
-import com.stevenlagoy.presidency.data.Repr;
 import com.stevenlagoy.presidency.map.Municipality;
 
 import java.util.ArrayList;
@@ -10,7 +9,7 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 
-public class Roadway implements Repr<Roadway>, Jsonic<Roadway> {
+public class Roadway implements Jsonic<Roadway> {
 
     // STATIC VARIABLES
     // ---------------------------------------------------------------------------
@@ -111,17 +110,4 @@ public class Roadway implements Repr<Roadway>, Jsonic<Roadway> {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'fromJson'");
     }
-
-    @Override
-    public String toRepr() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'toRepr'");
-    }
-
-    @Override
-    public Roadway fromRepr(String repr) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'fromRepr'");
-    }
-
 }

@@ -2,10 +2,9 @@ package com.stevenlagoy.presidency.map.travel.route;
 
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.Jsonic;
-import com.stevenlagoy.presidency.data.Repr;
 import com.stevenlagoy.presidency.map.Municipality;
 
-public class Seaport extends Route implements Repr<Seaport>, Jsonic<Seaport> {
+public class Seaport extends Route implements Jsonic<Seaport> {
 
     private String fullName;
     private String commonName;
@@ -61,17 +60,4 @@ public class Seaport extends Route implements Repr<Seaport>, Jsonic<Seaport> {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'fromJson'");
     }
-
-    @Override
-    public String toRepr() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'toRepr'");
-    }
-
-    @Override
-    public Seaport fromRepr(String repr) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'fromRepr'");
-    }
-
 }

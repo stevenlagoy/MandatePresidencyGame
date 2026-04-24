@@ -9,22 +9,26 @@ import com.stevenlagoy.presidency.politics.Government
 import com.stevenlagoy.presidency.politics.Party
 
 class County(
-    managers: Engine.Managers,
+    MANAGERS: Engine.Managers,
     override val FIPS: String,
+    val state: State,
     override var fullName: String = "",
     override var commonName: String = "",
     override var uniqueName: String = fullName,
-    val state: State,
     override var population: Int = 0,
     override var squareMileage: Double = 0.0,
     override var descriptors: Set<Descriptor> = emptySet(),
     override var demographics: Map<Bloc, Double> = emptyMap(),
-    override val government: Government,
-    override val partiesPresent: Set<Party> = setOf(),
+    override val government: Government? = null,
+    override val partiesPresent: MutableSet<Party> = mutableSetOf(),
     override val pastElectionResults: MutableList<ElectionResult> = mutableListOf(),
     override var capital: Municipality? = null,
     val municipalities: MutableSet<Municipality> = mutableSetOf(),
-) : MapEntity(managers), HasFIPS, HasPolitics {
+) : MapEntity(MANAGERS), HasFIPS, HasPolitics {
+
+    constructor(MANAGERS: Engine.Managers, state: State, json: JSONObject) : this(MANAGERS, json.get("FIPS").toString(), state) {
+        fromJson(json)
+    }
 
     val countySeat = capital
 
