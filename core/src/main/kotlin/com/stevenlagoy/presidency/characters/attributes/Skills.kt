@@ -2,7 +2,6 @@ package com.stevenlagoy.presidency.characters.attributes
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.Jsonic
-import com.stevenlagoy.presidency.data.Repr
 
 /**
  * Track the skills of a Character including Legislative, Executive, and Judicial skills.
