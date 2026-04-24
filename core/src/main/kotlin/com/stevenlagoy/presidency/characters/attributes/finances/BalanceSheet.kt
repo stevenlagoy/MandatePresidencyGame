@@ -17,7 +17,7 @@ data class BalanceSheet(
     var dedicatedFunds = mutableMapOf<Goal, Double>()
     var assets = mutableListOf<Asset>()
     val totalAssets: Double
-        get() = discretionaryFunds + dedicatedFunds.values.sum() + assets.sumOf { it.value }
+        get() = discretionaryFunds + dedicatedFunds.values.sum() + assets.sumOf { it.marketValue ?: 0.0 }
     var liabilities = mutableListOf<Liability>()
     val totalLiabilities: Double
         get() = liabilities.sumOf { it.value }

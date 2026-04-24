@@ -11,8 +11,8 @@ class Loan(
     val borrower: FinancialEntity,
     val principal: Double,
     val interestRate: Double, // APR
-    val term: Period = Period.ofMonths(36),
-    val paymentFrequency: Period = Period.ofMonths(1),
+    val term: Period = Period.ofMonths(36), // Should not include days
+    val paymentFrequency: Period = Period.ofMonths(1), // Should not include days
     val collateral: Asset? = null,
     val timeManager: TimeManager
 ) : FinancialInstrument(lender, borrower, principal) {
@@ -29,7 +29,7 @@ class Loan(
 
     fun disburse(date: LocalDate): Boolean {
         return Transaction(to=borrower, from=lender, principal, date).execute()
-            && lender.balanceSheet.assets.add(Credit(timeManager, lender,totalLoanPayment))
+            && lender.balanceSheet.assets.add(Credit(timeManager,AssetType.LoanReceivable, totalLoanPayment))
             && borrower.balanceSheet.liabilities.add(Debt(totalLoanPayment))
     }
 
