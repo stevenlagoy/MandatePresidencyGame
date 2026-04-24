@@ -84,3 +84,13 @@ subprojects {
 }
 
 eclipse.project.name = 'MandatePresidencyGame' + '-parent'
+
+tasks.register('cleanAssets', Delete) {
+  delete "${rootDir}/assets"
+}
+
+tasks.register('copyRawAssets', Copy) {
+  dependsOn tasks.named("cleanAssets")
+  from "${rootDir}/assets_raw"
+  into "${rootDir}/assets"
+}

@@ -2,17 +2,18 @@ package com.stevenlagoy.presidency.lwjgl3;
 
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
-import com.stevenlagoy.presidency.GLTFQuickStartExample;
+import com.stevenlagoy.presidency.GameRoot;
 
 /** Launches the desktop (LWJGL3) application. */
 public class Lwjgl3Launcher {
     public static void main(String[] args) {
         if (StartupHelper.startNewJvmIfRequired()) return; // This handles macOS support and helps on Windows.
+        TexturePackerLauncher.packIt();
         createApplication();
     }
 
     private static Lwjgl3Application createApplication() {
-        return new Lwjgl3Application(new GLTFQuickStartExample(), getDefaultConfiguration());
+        return new Lwjgl3Application(new GameRoot(), getDefaultConfiguration());
     }
 
     private static Lwjgl3ApplicationConfiguration getDefaultConfiguration() {
@@ -42,6 +43,8 @@ public class Lwjgl3Launcher {
         //// are not intended for games that use GL30 (which is compatibility with OpenGL ES 3.0).
         //// Know that it might not work well in some cases.
 //        configuration.setOpenGLEmulation(Lwjgl3ApplicationConfiguration.GLEmulation.ANGLE_GLES20, 0, 0);
+
+        configuration.setFullscreenMode(Lwjgl3ApplicationConfiguration.getDisplayMode());
 
         return configuration;
     }
