@@ -1,14 +1,31 @@
+/*
+ * Local Official
+ * ~/characters/LocalOfficial.java
+ * Steven LaGoy
+ * Created: 7 November 2024 at 11:11 PM
+ * Modified: 29 December 2025
+ */
+
 package com.stevenlagoy.presidency.characters;
+
+// IMPORTS ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 import java.util.ArrayList;
 import java.util.List;
+
 import core.JSONObject;
+
 import com.stevenlagoy.presidency.characters.attributes.Role;
 import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
 import com.stevenlagoy.presidency.demographics.DemographicsManager;
 import com.stevenlagoy.presidency.map.MapEntity;
 import com.stevenlagoy.presidency.map.MapManager;
 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                         LOCAL OFFICIAL                                         //
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/** LocalOfficial is a PoliticalActor character with a {@code Role} at the local level. */
 public class LocalOfficial extends PoliticalActor {
 
     public static enum LocalRole implements Role {
@@ -27,6 +44,8 @@ public class LocalOfficial extends PoliticalActor {
 
     private List<LocalRole> roles;
 
+    // CONSTRUCTORS -------------------------------------------------------------------------------------------------------------------------------------------
+
     public LocalOfficial(CharacterManager cm, DemographicsManager dm, MapManager mm, NameManager nm) {
         super(cm, dm, mm, nm);
         this.roles = new ArrayList<>();
@@ -36,7 +55,9 @@ public class LocalOfficial extends PoliticalActor {
         super(buildstring);
     }
 
-    // Jurisdiction : Map Entity
+    // GETTERS AND SETTERS ------------------------------------------------------------------------------------------------------------------------------------
+
+    // Jurisdiction : MapEntity
 
     public MapEntity getJurisdiction() {
         return jurisdiction;
@@ -51,6 +72,8 @@ public class LocalOfficial extends PoliticalActor {
     public boolean addRole(LocalRole role) {
         return this.roles.add(role);
     }
+
+    // REPRESENTATION METHODS ---------------------------------------------------------------------------------------------------------------------------------
 
     @Override
     public JSONObject toJson() {
@@ -72,5 +95,20 @@ public class LocalOfficial extends PoliticalActor {
         }
 
         return new JSONObject(getName().getBiographicalName(), fields);
+    }
+
+    @Override
+    public LocalOfficial fromJson(JSONObject json) {
+        return this;
+    }
+
+    @Override
+    public String toRepr() {
+        return "";
+    }
+
+    @Override
+    public LocalOfficial fromRepr(String repr) {
+        return this;
     }
 }

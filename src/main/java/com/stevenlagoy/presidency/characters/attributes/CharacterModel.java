@@ -1,15 +1,34 @@
+/*
+ * Character Model
+ * ~/characters/attributes/CharacterModel.java
+ * Steven LaGoy
+ * Created: 06 January 2025 at 9:01 PM
+ * Updated: 28 December 2025
+ */
+
 package com.stevenlagoy.presidency.characters.attributes;
+
+// IMPORTS ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 import core.JSONObject;
 import core.Jsonic;
-import com.stevenlagoy.presidency.data.Repr;
 
+import com.stevenlagoy.presidency.data.Repr;
+import com.stevenlagoy.presidency.util.Logger;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                        CHARACTER MODEL                                         //
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/** CharacterModel is the appearance of a character. */
 public class CharacterModel implements Repr<CharacterModel>, Jsonic<CharacterModel> {
+
+    public static final int DEFAULT_AGE = 45;
 
     int visualAge;
 
     public CharacterModel() {
-        this(45);
+        this(DEFAULT_AGE);
     }
 
     public CharacterModel(CharacterModel other) {
@@ -20,8 +39,17 @@ public class CharacterModel implements Repr<CharacterModel>, Jsonic<CharacterMod
         this.visualAge = visualAge;
     }
 
-    // REPRESENTATION METHODS
-    // ---------------------------------------------------------------------
+    // GETTERS AND SETTERS ------------------------------------------------------------------------------------------------------------------------------------
+
+    public int getVisualAge() {
+        return visualAge;
+    }
+
+    public void setVisualAge(int visualAge) {
+        this.visualAge = visualAge;
+    }
+
+    // REPRESENTATION METHODS ---------------------------------------------------------------------------------------------------------------------------------
 
     @Override
     public String toRepr() {
@@ -38,13 +66,17 @@ public class CharacterModel implements Repr<CharacterModel>, Jsonic<CharacterMod
 
     @Override
     public JSONObject toJson() {
-        return new JSONObject("character_model", new Object());
+        return new JSONObject("character_model", new JSONObject("visual_age", visualAge));
     }
 
     @Override
-    public CharacterModel fromJson(JSONObject arg0) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'fromJson'");
+    public CharacterModel fromJson(JSONObject json) {
+        if (json == null || !json.getKey().equals("character_model")) {
+            Logger.log("Could not create a Character Model from an invalid or null JSONObject structure.");
+            return null;
+        }
+        this.visualAge = ((JSONObject) json.getValue()).getAsNumber().intValue();
+        return this;
     }
 
 }

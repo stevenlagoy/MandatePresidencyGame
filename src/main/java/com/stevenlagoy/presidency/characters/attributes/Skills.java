@@ -1,21 +1,27 @@
 /*
- * Skills.java
+ * Skills
+ * ~/characters/attributes/Skills.java
  * Steven LaGoy
  * Created: 28 May 2025 at 10:18 PM
- * Modified: 29 May 2025
+ * Modified: 28 December 2025
  */
 
 package com.stevenlagoy.presidency.characters.attributes;
 
+// IMPORTS ----------------------------------------------------------------------------------------------------------------------------------------------------
+
 import java.util.ArrayList;
 import java.util.List;
 
-// IMPORTS ----------------------------------------------------------------------------------------
-
 import core.JSONObject;
+
 import com.stevenlagoy.presidency.data.Jsonic;
 import com.stevenlagoy.presidency.data.Repr;
 import com.stevenlagoy.presidency.characters.PoliticalActor;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                             SKILLS                                             //
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /**
  * Tracks the base and modified Legislative, Executive, and Judicial skills of a
@@ -25,19 +31,13 @@ import com.stevenlagoy.presidency.characters.PoliticalActor;
  */
 public class Skills implements Repr<Skills>, Jsonic<Skills> {
 
-    // INSTANCE VARIABLES
-    // -------------------------------------------------------------------------
+    // INSTANCE VARIABLES -------------------------------------------------------------------------------------------------------------------------------------
 
     /**
      * Base Legislative Skill, representing ability to plan effectively, leverage
      * advantages, and make lasting decisions.
      */
     private int baseLegislativeSkill;
-    /**
-     * Legislative Skill, after modification by additive and multiplicative
-     * modifiers.
-     */
-    private int legislativeSkill;
     /**
      * Additive modifier to the Legislative Skill. A +1 modifier results in a skill
      * equal to baseSkill + 1. Additive multipliers are not affected by
@@ -56,10 +56,6 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
      */
     private int baseExecutiveSkill;
     /**
-     * Executive Skill, after modification by additive and multiplicative modifiers.
-     */
-    private int executiveSkill;
-    /**
      * Additive modifier to the Executive Skill. A +1 modifier results in a skill
      * equal to baseSkill + 1. Additive multipliers are not affected by
      * Multiplicative modifiers.
@@ -77,10 +73,6 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
      */
     private int baseJudicialSkill;
     /**
-     * Judicial Skill, after modification by additive and multiplicative modifiers.
-     */
-    private int judicialSkill;
-    /**
      * Additive modifier to the Judicial Skill. A +1 modifier results in a skill
      * equal to baseSkill + 1. Additive multipliers are not affected by
      * Multiplicative modifiers.
@@ -95,22 +87,22 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
     /** Aptitude, representing the sum of the three base skills. */
     private int aptitude;
 
-    // CONSTRUCTORS
-    // -------------------------------------------------------------------------------
+    // CONSTRUCTORS -------------------------------------------------------------------------------------------------------------------------------------------
 
     public Skills() {
-        this(50, 50, 50, 0);
-        this.aptitude = calculateAptitude();
-        calculateModifiedSkills();
+        this(50, 50, 50);
     }
 
     public Skills(Skills other) {
         this.baseLegislativeSkill = other.baseLegislativeSkill;
-        this.legislativeSkill = other.legislativeSkill;
+        this.legAdd = other.legAdd;
+        this.legMult = other.legMult;
         this.baseExecutiveSkill = other.baseExecutiveSkill;
-        this.executiveSkill = other.executiveSkill;
+        this.execAdd = other.execAdd;
+        this.execMult = other.execMult;
         this.baseJudicialSkill = other.baseJudicialSkill;
-        this.judicialSkill = other.judicialSkill;
+        this.judAdd = other.judAdd;
+        this.judMult = other.judMult;
         this.aptitude = other.aptitude;
     }
 
@@ -131,31 +123,39 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
     }
 
     public Skills(int baseLegislativeSkill, int baseExecutiveSkill, int baseJudicialSkill) {
-        this(baseLegislativeSkill, baseExecutiveSkill, baseJudicialSkill, 0);
+        this.baseLegislativeSkill = baseLegislativeSkill;
+        this.legAdd = 0;
+        this.legMult = 1;
+        this.baseExecutiveSkill = baseExecutiveSkill;
+        this.execAdd = 0;
+        this.execMult = 1;
+        this.baseJudicialSkill = baseJudicialSkill;
+        this.judAdd = 0;
+        this.judMult = 1;
         this.aptitude = calculateAptitude();
-        calculateModifiedSkills();
     }
 
     public Skills(int legislativeSkill, int executiveSkill, int judicialSkill, int aptitude) {
-        this.legislativeSkill = legislativeSkill;
-        this.executiveSkill = executiveSkill;
-        this.judicialSkill = judicialSkill;
         this.aptitude = aptitude;
-        calculateBaseSkills();
+        this.legMult = 1;
+        this.execMult = 1;
+        this.judMult = 1;
+        calculateBaseSkills(legislativeSkill, executiveSkill, judicialSkill, aptitude);
     }
 
-    public Skills(int baseLegislativeSkill, int legislativeSkill, int baseExecutiveSkill, int executiveSkill,
-            int baseJudicialSkill, int judicialSkill) {
+    public Skills(
+        int baseLegislativeSkill,
+        int legislativeSkill,
+        int baseExecutiveSkill,
+        int executiveSkill,
+        int baseJudicialSkill,
+        int judicialSkill
+    ) {
         this(baseLegislativeSkill, baseExecutiveSkill, baseJudicialSkill);
-        this.legislativeSkill = legislativeSkill;
-        this.executiveSkill = executiveSkill;
-        this.judicialSkill = judicialSkill;
         this.aptitude = calculateAptitude();
-        calculateModifiedSkills();
     }
 
-    // GETTERS AND SETTERS
-    // ------------------------------------------------------------------------
+    // GETTERS AND SETTERS ------------------------------------------------------------------------------------------------------------------------------------
 
     // Base Legislative Skill
     public int getBaseLegislativeSkill() {
@@ -178,17 +178,15 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
 
     // Legislative Skill
     public int getLegislativeSkill() {
-        return legislativeSkill;
+        return Math.clamp(Math.round(baseLegislativeSkill * legMult + legAdd), 0, 100);
     }
 
-    public void addLegislativeSkill(int skill) {
+    public void addLegislativeSkillAdditive(int skill) {
         this.legAdd += skill;
-        calculateLegislativeSkill();
     }
 
-    public void multiplyLegislativeSkill(float factor) {
+    public void addLegislativeSkillMultiplicative(float factor) {
         this.legMult += factor;
-        calculateLegislativeSkill();
     }
 
     // Base Executive Skill
@@ -206,19 +204,21 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
         calculateAptitude();
     }
 
+    public void multiplyBaseExecutiveSkill(float factor) {
+        this.baseExecutiveSkill = Math.clamp((long) (baseExecutiveSkill * factor), 0, 100);
+    }
+
     // Executive Skill
     public int getExecutiveSkill() {
-        return executiveSkill;
+        return Math.clamp(Math.round(baseExecutiveSkill * execMult + execAdd), 0, 100);
     }
 
-    public void addExecutiveSkill(int skill) {
+    public void addExecutiveSkillAdditive(int skill) {
         this.execAdd += skill;
-        calculateExecutiveSkill();
     }
 
-    public void multiplyExecutiveSkill(float factor) {
+    public void addExecutiveSkillMultiplicative(float factor) {
         this.execMult += factor;
-        calculateExecutiveSkill();
     }
 
     // Base Judicial Skill
@@ -236,19 +236,21 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
         calculateAptitude();
     }
 
+    public void multiplyBaseJudicialSkill(float factor) {
+        this.baseJudicialSkill = Math.clamp((long) (baseJudicialSkill * factor), 0, 100);
+    }
+
     // Judicial Skill
     public int getJudicialSkill() {
-        return judicialSkill;
+        return Math.clamp(Math.round(baseJudicialSkill * judMult + judAdd), 0, 100);
     }
 
-    public void addJudicialSkill(int skill) {
+    public void addJudicialSkillAdditive(int skill) {
         this.judAdd += skill;
-        calculateJudicialSkill();
     }
 
-    public void multiplyJudicialSkill(float factor) {
+    public void addJudicialSkillMultiplicative(float factor) {
         this.judMult += factor;
-        calculateJudicialSkill();
     }
 
     // Aptitude
@@ -256,21 +258,20 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
         return aptitude;
     }
 
-    // CALCULATION FUNCTIONS
-    // ----------------------------------------------------------------------
+    // CALCULATION FUNCTIONS ----------------------------------------------------------------------------------------------------------------------------------
 
     private int calculateAptitude() {
         this.aptitude = baseLegislativeSkill + baseExecutiveSkill + baseJudicialSkill;
         return this.aptitude;
     }
 
-    private void calculateBaseSkills() {
-        if (aptitude < 0) {
+    private void calculateBaseSkills(int leg, int exec, int jud, int ap) {
+        if (ap < 0) {
             throw new IllegalStateException("Aptitude cannot be negative");
         }
 
         // Handle special case where all skills are 0
-        if (legislativeSkill == 0 && executiveSkill == 0 && judicialSkill == 0) {
+        if (leg == 0 && exec == 0 && jud == 0) {
             baseLegislativeSkill = aptitude / 3;
             baseExecutiveSkill = aptitude / 3;
             baseJudicialSkill = aptitude - (2 * (aptitude / 3));
@@ -278,17 +279,17 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
         }
 
         // Calculate initial ratios
-        double total = legislativeSkill + executiveSkill + judicialSkill;
-        double lr = legislativeSkill / total;
-        double er = executiveSkill / total;
-        double jr = judicialSkill / total;
+        double total = leg + exec + jud;
+        double lr = leg / total;
+        double er = exec / total;
+        double jr = jud / total;
 
         // Initial distribution
         int l = (int) (aptitude * lr);
         int e = (int) (aptitude * er);
         int j = (int) (aptitude * jr);
 
-        // Distribute remaining points based on largest difference from target ratio
+        // Distribute remaining points based on smallest difference from target ratio
         int remainder = aptitude - (l + e + j);
         while (remainder > 0) {
             double currentTotal = l + e + j;
@@ -296,11 +297,11 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
             double eDiff = Math.abs(er - (e / currentTotal));
             double jDiff = Math.abs(jr - (j / currentTotal));
 
-            if (lDiff >= eDiff && lDiff >= jDiff) {
+            if (lDiff <= eDiff && lDiff <= jDiff) {
                 l++;
                 remainder--;
             }
-            else if (eDiff >= jDiff) {
+            else if (eDiff <= jDiff) {
                 e++;
                 remainder--;
             }
@@ -314,31 +315,12 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
         baseExecutiveSkill = e;
         baseJudicialSkill = j;
 
-        legAdd = legislativeSkill - baseLegislativeSkill;
-        execAdd = executiveSkill - baseExecutiveSkill;
-        judAdd = judAdd - baseJudicialSkill;
+        legAdd = leg - baseLegislativeSkill;
+        execAdd = exec - baseExecutiveSkill;
+        judAdd = jud - baseJudicialSkill;
     }
 
-    private void calculateModifiedSkills() {
-        calculateLegislativeSkill();
-        calculateExecutiveSkill();
-        calculateJudicialSkill();
-    }
-
-    private void calculateLegislativeSkill() {
-        this.legislativeSkill = Math.clamp(Math.round(baseLegislativeSkill * legMult + legAdd), 0, 100);
-    }
-
-    private void calculateExecutiveSkill() {
-        this.executiveSkill = Math.clamp(Math.round(baseExecutiveSkill * execMult + execAdd), 0, 100);
-    }
-
-    private void calculateJudicialSkill() {
-        this.judicialSkill = Math.clamp(Math.round(baseJudicialSkill * judMult + judAdd), 0, 100);
-    }
-
-    // REPRESENTATION METHODS
-    // ---------------------------------------------------------------------
+    // REPRESENTATION METHODS ---------------------------------------------------------------------------------------------------------------------------------
 
     /**
      * {@inheritDoc}
@@ -369,26 +351,29 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
     public Skills fromJson(JSONObject json) {
         if (json == null)
             return null;
-        Object baseLegislativeObj = json.get("base_legislative");
+        Object baseLegislativeObj = json.get("base_legislative_skill");
         if (baseLegislativeObj == null)
             this.baseLegislativeSkill = 50;
+        else if (baseLegislativeObj instanceof Number baseLeg)
+            this.baseLegislativeSkill = baseLeg.intValue();
         else if (baseLegislativeObj instanceof JSONObject baseLegislativeJson)
             this.baseLegislativeSkill = baseLegislativeJson.getAsNumber().intValue();
-        Object baseExecutiveObj = json.get("base_executive");
+        Object baseExecutiveObj = json.get("base_executive_skill");
         if (baseExecutiveObj == null)
             this.baseExecutiveSkill = 50;
+        else if (baseExecutiveObj instanceof Number baseExec)
+            this.baseExecutiveSkill = baseExec.intValue();
         else if (baseExecutiveObj instanceof JSONObject baseExecutiveJson)
             this.baseExecutiveSkill = baseExecutiveJson.getAsNumber().intValue();
-        Object baseJudicialObj = json.get("base_judicial");
+        Object baseJudicialObj = json.get("base_judicial_skill");
         if (baseJudicialObj == null)
             this.baseJudicialSkill = 50;
+        else if (baseJudicialObj instanceof Number baseJud)
+            this.baseJudicialSkill = baseJud.intValue();
         else if (baseJudicialObj instanceof JSONObject baseJudicialJson)
             this.baseJudicialSkill = baseJudicialJson.getAsNumber().intValue();
-        Object aptitudeObj = json.get("aptitude");
-        if (aptitudeObj == null)
-            this.aptitude = 50;
-        else if (aptitudeObj instanceof JSONObject aptitudeJson)
-            this.aptitude = aptitudeJson.getAsNumber().intValue();
+
+        calculateAptitude();
 
         return this;
     }
@@ -422,8 +407,7 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
         return this.toRepr();
     }
 
-    // OBJECT METHODS
-    // -----------------------------------------------------------------------------
+    // OBJECT METHODS -----------------------------------------------------------------------------------------------------------------------------------------
 
     /**
      * {@inheritDoc}
@@ -445,9 +429,9 @@ public class Skills implements Repr<Skills>, Jsonic<Skills> {
     public int hashCode() {
         final int prime = 19;
         int hash = 9;
-        hash = prime * hash + (legislativeSkill * 1);
-        hash = prime * hash + (executiveSkill * 101);
-        hash = prime * hash + (judicialSkill * 1009);
+        hash = prime * hash + (baseLegislativeSkill * 1);
+        hash = prime * hash + (baseExecutiveSkill * 101);
+        hash = prime * hash + (baseJudicialSkill * 1009);
         hash = prime * hash + (aptitude * 10007);
         hash /= 1e5;
         return hash;
