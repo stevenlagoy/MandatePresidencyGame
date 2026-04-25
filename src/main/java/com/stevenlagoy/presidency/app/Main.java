@@ -1,16 +1,19 @@
 /*
- * Main.java
+ * Main
+ * ~/app/Main.java
  * Steven LaGoy
+ * Created: 28 August 2024 at 11:25 PM
+ * Modified: 28 December 2025
  */
 
 package com.stevenlagoy.presidency.app;
 
-import com.stevenlagoy.presidency.characters.Character;
-import com.stevenlagoy.presidency.characters.attributes.names.Name;
-import com.stevenlagoy.presidency.demographics.Demographics;
-import com.stevenlagoy.presidency.util.IOUtil;
 import com.stevenlagoy.presidency.util.Logger;
 import com.stevenlagoy.presidency.core.Engine;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                              MAIN                                              //
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /** Main entry point */
 public class Main {
@@ -23,41 +26,33 @@ public class Main {
 
     private static Engine engine;
 
+    /** Get the game engine being used by {@code Main}. Accessing the engine or subengines this way is discouraged. */
     public static Engine Engine() {
         return engine;
     }
 
     public static void main(String[] args) {
         int errorCode = 0;
+        boolean debug = false;
+        String debugFlag = "-d";
 
-        // Initialize the engine
-        engine = new Engine();
-
-        engine.DemographicsManager().init();
-        engine.NameManager().init();
-
-        Demographics d = new Demographics(Engine().DemographicsManager(), "Generation Z", "Christian",
-                "African American", "Man");
-
-        System.out.printf("| %40s | %40s | %40s | %40s | %40s |%n", "LEGAL", "FORMAL", "BIOGRAPHICAL", "COMMON",
-                "INFORMAL");
-        for (int i = 0; i < 100; i++) {
-            Name n = engine.NameManager().generateName(d);
-            System.out.printf("| %40s | %40s | %40s | %40s | %40s |%n", n.getLegalName(), n.getFormalName(),
-                    n.getBiographicalName(), n.getCommonName(), n.getInformalName());
+        for (String arg : args) {
+            if (arg.equals(debugFlag)) {
+                debug = true;
+            }
         }
 
-        System.exit(0);
+        // Initialize the engine
+        engine = new Engine(debug);
 
         if (!engine.init())
             return;
 
-        // Create some characters
-        for (int i = 0; i < 100; i++) {
-            Character c = new Character(Engine().CharacterManager(), Engine().DemographicsManager(),
-                    Engine().MapManager(), Engine().NameManager());
-            IOUtil.stdout.println(c.getName().getBiographicalName());
-        }
+        // Run the game
+
+        // ...
+
+        // Game is finished
 
         engine.writeGameState();
 

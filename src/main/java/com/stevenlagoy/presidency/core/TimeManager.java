@@ -243,8 +243,15 @@ public class TimeManager extends Manager {
                     new Exception());
             return -1;
         }
-        int month = Integer.parseInt(parts[0]);
-        int day = Integer.parseInt(parts[1]);
+        int month, day;
+        try {
+            month = Integer.parseInt(parts[0]);
+            day = Integer.parseInt(parts[1]);
+        }
+        catch (NumberFormatException e) {
+            Logger.log(e);
+            return -1;
+        }
 
         if (month < 1 || month > 12 || day < 1 || day > 31) {
             Logger.log("INVALID DATE FORMAT", String.format(
@@ -364,9 +371,11 @@ public class TimeManager extends Manager {
             throw new IllegalArgumentException("Cannot get date with an order of zero.");
         }
         int count = 0;
-        for (LocalDate candidate = LocalDate.of(relativeTo.getYear(), relativeTo.getMonthValue(),
-                relativeTo.getDayOfMonth() + (order > 0 ? 1 : -1));; candidate = candidate
-                        .plusDays(order > 0 ? 1 : -1)) {
+        for (
+            LocalDate candidate = LocalDate.of(relativeTo.getYear(), relativeTo.getMonthValue(), relativeTo.getDayOfMonth() + (order > 0 ? 1 : -1));
+            ;
+            candidate = candidate.plusDays(order > 0 ? 1 : -1)
+        ) {
             if (candidate.getDayOfWeek().getValue() == day) {
                 if (++count == Math.abs(order)) {
                     return candidate;
@@ -602,8 +611,7 @@ public class TimeManager extends Manager {
         }
         catch (NoSuchFieldException | IllegalAccessException e) {
             currentState = ManagerState.ERROR;
-            Logger.log("JSON SERIALIZATION ERROR", "Failed to serialize " + getClass().getSimpleName() + " to JSON.",
-                    e);
+            Logger.log("JSON SERIALIZATION ERROR", "Failed to serialize " + getClass().getSimpleName() + " to JSON.", e);
             return null;
         }
     }
@@ -637,6 +645,7 @@ public class TimeManager extends Manager {
                         "Failed to set field " + fieldName + " in LanguageManager from JSON.", e);
             }
         }
+        currentState = ManagerState.ACTIVE;
         return this;
     }
 }

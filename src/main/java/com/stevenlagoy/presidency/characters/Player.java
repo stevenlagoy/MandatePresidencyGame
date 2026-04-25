@@ -1,26 +1,36 @@
 /*
- * Player.java
+ * Player
+ * ~/characters/Player.java
  * Steven LaGoy
- * Created: 11 October 2024
- * Modified: 20 October 2025
+ * Created: 11 October 2024 at 5:16 PM
+ * Modified: 29 December 2025
  */
 
 package com.stevenlagoy.presidency.characters;
 
+// IMPORTS ----------------------------------------------------------------------------------------------------------------------------------------------------
+
 import java.util.ArrayList;
 import java.util.List;
+
+import core.JSONObject;
 
 import com.stevenlagoy.presidency.app.Main;
 import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
 import com.stevenlagoy.presidency.demographics.DemographicsManager;
 import com.stevenlagoy.presidency.map.MapManager;
 
-import core.JSONObject;
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                             PLAYER                                             //
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
+/** Player is a special character controlled directly by the player. Singleton class accessed with {@link #getInstance()}. */
 public class Player extends Candidate {
 
+    /** The singleton Player instance */
     private static Player instance;
 
+    /** Get the singleton player instance, or create it if it is null. */
     public static Player getInstance() {
         if (instance == null) {
             instance = new Player(Main.Engine().CharacterManager(), Main.Engine().DemographicsManager(),
@@ -29,6 +39,7 @@ public class Player extends Candidate {
         return instance;
     }
 
+    /** Private constructor can be called by {@link #getInstance()} when {@code instance} is null. */
     private Player(CharacterManager cm, DemographicsManager dm, MapManager mm, NameManager nm) {
         super(cm, dm, mm, nm);
     }
@@ -57,6 +68,8 @@ public class Player extends Candidate {
 
     }
 
+    // REPRESENTATION METHODS ---------------------------------------------------------------------------------------------------------------------------------
+
     @Override
     public JSONObject toJson() {
         List<JSONObject> fields = new ArrayList<>();
@@ -72,6 +85,23 @@ public class Player extends Candidate {
 
         return new JSONObject(getName().getBiographicalName(), fields);
     }
+
+    @Override
+    public Player fromJson(JSONObject json) {
+        return this;
+    }
+
+    @Override
+    public String toRepr() {
+        return "";
+    }
+
+    @Override
+    public Player fromRepr(String repr) {
+        return this;
+    }
+
+    // OBJECT METHODS -----------------------------------------------------------------------------------------------------------------------------------------
 
     /**
      * As this is a Singleton class, {@link #equals(Object)} compares with the

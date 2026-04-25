@@ -1,11 +1,12 @@
 package com.stevenlagoy.presidency.util;
 
 import org.junit.*;
+import static org.junit.Assert.*;
 import java.nio.file.*;
 import java.io.*;
 import java.util.*;
 
-public class IOUtilTest {
+public final class IOUtilTest {
     private static Path tempDir;
 
     @BeforeClass
@@ -27,7 +28,7 @@ public class IOUtilTest {
         IOUtil.writeFile(filename, IOUtil.Extension.TEXT, tempDir, "Hello, world!");
         Path filePath = tempDir.resolve(filename + IOUtil.Extension.TEXT.extension);
         List<String> lines = IOUtil.readFile(filePath);
-        Assert.assertEquals(Collections.singletonList("Hello, world!"), lines);
+        assertEquals(Collections.singletonList("Hello, world!"), lines);
     }
 
     @Test
@@ -35,7 +36,7 @@ public class IOUtilTest {
         String filename = "listfile";
         IOUtil.writeFile(filename, IOUtil.Extension.JSON, tempDir, "{}");
         Set<Path> files = IOUtil.listFiles(tempDir, IOUtil.Extension.JSON);
-        Assert.assertTrue(files.stream().anyMatch(p -> p.getFileName().toString().endsWith(".json")));
+        assertTrue(files.stream().anyMatch(p -> p.getFileName().toString().endsWith(".json")));
     }
 
     @Test
@@ -44,6 +45,6 @@ public class IOUtilTest {
         IOUtil.writeFile(filename, IOUtil.Extension.OUT, tempDir, "data");
         IOUtil.emptyFiles(tempDir, IOUtil.Extension.OUT);
         Set<Path> files = IOUtil.listFiles(tempDir, IOUtil.Extension.OUT);
-        Assert.assertTrue(files.isEmpty());
+        assertTrue(files.isEmpty());
     }
 }
