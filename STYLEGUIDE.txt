@@ -8,20 +8,20 @@ the project.
 
 CODE FILE HEADERS ---------------------------------------------------------------------------------
 
-Code files should begin with a multi-line comment "File Header" giving the name of the file,
-primary author of the file, other authors/contributors, date of creation, and date of last
-modification.
+Code files should begin with a multi-line comment "File Header" giving the plain name of the file,
+path of the file relative to src/main/java/com/stevenlagoy/presidency/, the primary author of the
+file, other authors/contributors, date and time of creation, and date of last modification.
 
 See here an example of a file header:
 /*
- * FileName.java
+ * File Name
+ * ~/example/FileName.java
  * Steven LaGoy
  * Contributors: John Doe, Jane Smith
  * Created: 21 July 2025 at 2:22 PM
- * Modified: 21 July 2025
+ * Modified: 04 December 2026
  */
 
-The name of the file may contain its package as well, as package/path/FileName.java
 Any time the file is moved or renamed, the header name should be changed to reflect this.
 The author's and contributors' name(s) should be sufficiently identifying. They may contain links
 to Github profiles.

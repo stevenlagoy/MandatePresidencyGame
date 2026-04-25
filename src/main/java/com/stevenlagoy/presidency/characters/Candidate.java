@@ -1,8 +1,9 @@
 /*
- * Candidate.java
+ * Candidate
+ * ~/characters/Candidate.java
  * Steven LaGoy
- * Created: August 28, 2024 at 5:42 PM
- * Modified: 29 May 2025
+ * Created: 28 August 2024 at 5:42 PM
+ * Modified: 29 December 2025
  */
 
 package com.stevenlagoy.presidency.characters;
@@ -19,6 +20,10 @@ import com.stevenlagoy.presidency.characters.attributes.Personality;
 import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
 import com.stevenlagoy.presidency.util.RandomOperations;
 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                           CANDIDATE                                            //
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
 /**
  * A Character subclass which extends PoliticalActor and models a Candidate in
  * the Presidential race.
@@ -31,8 +36,7 @@ import com.stevenlagoy.presidency.util.RandomOperations;
  */
 public class Candidate extends PoliticalActor {
 
-    // STATIC VARIABLES
-    // ---------------------------------------------------------------------------
+    // STATIC VARIABLES ---------------------------------------------------------------------------------------------------------------------------------------
 
     /** Minimum age of a Candidate for the Presidency */
     public static final int MIN_AGE = 35;
@@ -48,6 +52,8 @@ public class Candidate extends PoliticalActor {
     private int numDelegates;
     private double influence;
 
+    // CONSTRUCTORS -------------------------------------------------------------------------------------------------------------------------------------------
+
     public Candidate(CharacterManager cm, DemographicsManager dm, MapManager mm, NameManager nm) {
         this(new PoliticalActor(cm, dm, mm, nm));
     }
@@ -55,6 +61,8 @@ public class Candidate extends PoliticalActor {
     public Candidate(PoliticalActor politicalActor) {
         super(politicalActor);
     }
+
+    // INSTANCE METHODS ---------------------------------------------------------------------------------------------------------------------------------------
 
     protected void generateProfile() {
         int totalPoints = 0;
@@ -207,6 +215,8 @@ public class Candidate extends PoliticalActor {
         return null;
     }
 
+    // REPRESENTATION METHODS ---------------------------------------------------------------------------------------------------------------------------------
+
     @Override
     public String toRepr() {
         String superRepr = super.toRepr();
@@ -244,5 +254,10 @@ public class Candidate extends PoliticalActor {
         }
 
         return new JSONObject(getName().getBiographicalName(), fields);
+    }
+
+    @Override
+    public Candidate fromJson(JSONObject json) {
+        return this;
     }
 }

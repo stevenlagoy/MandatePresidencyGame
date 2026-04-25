@@ -1,17 +1,22 @@
 /*
- * StateOfficial.java
+ * State Official
+ * ~/characters/StateOfficial.java
  * Steven LaGoy
  * Created: 11 October 2024 at 5:16 PM
- * Modified: 10 June 2025
+ * Modified: 29 December 2025
  */
 
 package com.stevenlagoy.presidency.characters;
+
+// IMPORTS ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+
 import core.JSONObject;
+
 import com.stevenlagoy.presidency.characters.attributes.Role;
 import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
 import com.stevenlagoy.presidency.demographics.DemographicsManager;
@@ -19,6 +24,11 @@ import com.stevenlagoy.presidency.map.MapEntity;
 import com.stevenlagoy.presidency.map.MapManager;
 import com.stevenlagoy.presidency.map.State;
 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                         STATE OFFICIAL                                         //
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/** StateOfficial is a {@code Character} with a role at the State level. */
 public class StateOfficial extends PoliticalActor {
 
     public static enum StateRole implements Role {
@@ -36,15 +46,13 @@ public class StateOfficial extends PoliticalActor {
         }
     }
 
-    // INSTANCE VARIABLES
-    // -------------------------------------------------------------------------
+    // INSTANCE VARIABLES -------------------------------------------------------------------------------------------------------------------------------------
 
     private Set<StateRole> roles;
 
     private MapEntity jurisdiction;
 
-    // CONSTRUCTORS
-    // -------------------------------------------------------------------------------
+    // CONSTRUCTORS -------------------------------------------------------------------------------------------------------------------------------------------
 
     public StateOfficial(CharacterManager cm, DemographicsManager dm, MapManager mm, NameManager nm) {
         this(new PoliticalActor(cm, dm, mm, nm));
@@ -83,8 +91,7 @@ public class StateOfficial extends PoliticalActor {
         this.jurisdiction = state;
     }
 
-    // GETTERS AND SETTERS
-    // ------------------------------------------------------------------------
+    // GETTERS AND SETTERS ------------------------------------------------------------------------------------------------------------------------------------
 
     // Roles : List of StateRole
 
@@ -104,8 +111,7 @@ public class StateOfficial extends PoliticalActor {
         this.jurisdiction = jurisdiction;
     }
 
-    // REPRESENTATION METHODS
-    // ---------------------------------------------------------------------
+    // REPRESENTATION METHODS ---------------------------------------------------------------------------------------------------------------------------------
 
     @Override
     public JSONObject toJson() {
@@ -129,12 +135,8 @@ public class StateOfficial extends PoliticalActor {
         return new JSONObject(getName().getBiographicalName(), fields);
     }
 
-    // OBJECT METHODS
-    // -----------------------------------------------------------------------------
+    // OBJECT METHODS -----------------------------------------------------------------------------------------------------------------------------------------
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public boolean equals(Object obj) {
         if (this == obj)
@@ -145,9 +147,6 @@ public class StateOfficial extends PoliticalActor {
         return this.toString().equals(other.toString());
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public int hashCode() {
         final int prime = 37;
@@ -156,9 +155,6 @@ public class StateOfficial extends PoliticalActor {
         return hash;
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public StateOfficial clone() {
         return new StateOfficial(this);
