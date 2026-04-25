@@ -1,21 +1,27 @@
 /*
- * Skills.java
+ * Skills
+ * ~/characters/attributes/Skills.java
  * Steven LaGoy
  * Created: 28 May 2025 at 10:18 PM
- * Modified: 29 May 2025
+ * Modified: 28 December 2025
  */
 
 package com.stevenlagoy.presidency.characters.attributes;
 
+// IMPORTS ----------------------------------------------------------------------------------------------------------------------------------------------------
+
 import java.util.ArrayList;
 import java.util.List;
 
-// IMPORTS ----------------------------------------------------------------------------------------
-
 import core.JSONObject;
+
 import com.stevenlagoy.presidency.data.Jsonic;
 import com.stevenlagoy.presidency.data.Repr;
 import com.stevenlagoy.presidency.characters.PoliticalActor;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                             SKILLS                                             //
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /**
  * Tracks the base and modified Legislative, Executive, and Judicial skills of a

@@ -1,10 +1,26 @@
+/*
+ * Character Model
+ * ~/characters/attributes/CharacterModel.java
+ * Steven LaGoy
+ * Created: 06 January 2025 at 9:01 PM
+ * Updated: 28 December 2025
+ */
+
 package com.stevenlagoy.presidency.characters.attributes;
+
+// IMPORTS ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 import core.JSONObject;
 import core.Jsonic;
+
 import com.stevenlagoy.presidency.data.Repr;
 import com.stevenlagoy.presidency.util.Logger;
 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                        CHARACTER MODEL                                         //
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/** CharacterModel is the appearance of a character. */
 public class CharacterModel implements Repr<CharacterModel>, Jsonic<CharacterModel> {
 
     public static final int DEFAULT_AGE = 45;

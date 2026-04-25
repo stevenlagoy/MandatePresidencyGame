@@ -1,23 +1,33 @@
 /*
- * FederalOfficial.java
+ * Federal Official
+ * ~/characters/FederalOfficial.java
  * Steven LaGoy
  * Created: 07 November 2024 at 11:11 PM
- * Modified: 10 June 2025
+ * Modified: 29 December 2025
  */
 
 package com.stevenlagoy.presidency.characters;
+
+// IMPORTS ----------------------------------------------------------------------------------------------------------------------------------------------------
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+
 import core.JSONObject;
+
 import com.stevenlagoy.presidency.characters.attributes.Role;
 import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
 import com.stevenlagoy.presidency.demographics.DemographicsManager;
 import com.stevenlagoy.presidency.map.MapEntity;
 import com.stevenlagoy.presidency.map.MapManager;
 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                        FEDERAL OFFICIAL                                        //
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/** FederalOfficial is a {@code Character} with a Role at the federal level */
 public class FederalOfficial extends PoliticalActor {
 
     public static enum FederalRole implements Role {
@@ -40,8 +50,7 @@ public class FederalOfficial extends PoliticalActor {
 
     private MapEntity jurisdiction;
 
-    // CONSTRUCTORS
-    // -------------------------------------------------------------------------------
+    // CONSTRUCTORS -------------------------------------------------------------------------------------------------------------------------------------------
 
     public FederalOfficial(CharacterManager cm, DemographicsManager dm, MapManager mm, NameManager nm) {
         this(new PoliticalActor(cm, dm, mm, nm));
@@ -70,8 +79,9 @@ public class FederalOfficial extends PoliticalActor {
         fromJson(json);
     }
 
-    // GETTERS AND SETTERS
-    // ------------------------------------------------------------------------
+    // GETTERS AND SETTERS ------------------------------------------------------------------------------------------------------------------------------------
+
+    // Roles : List of Role
 
     public boolean addRole(FederalRole role) {
         if (this.roles == null)
@@ -83,7 +93,7 @@ public class FederalOfficial extends PoliticalActor {
         return this.roles.remove(role);
     }
 
-    // Jurisdiction : Map Entity
+    // Jurisdiction : MapEntity
 
     public MapEntity getJurisdiction() {
         return jurisdiction;
@@ -93,8 +103,7 @@ public class FederalOfficial extends PoliticalActor {
         this.jurisdiction = jurisdiction;
     }
 
-    // REPRESENTATION METHODS
-    // ---------------------------------------------------------------------
+    // REPRESENTATION METHODS ---------------------------------------------------------------------------------------------------------------------------------
 
     @Override
     public PoliticalActor fromRepr(String repr) {
@@ -138,17 +147,14 @@ public class FederalOfficial extends PoliticalActor {
         return new JSONObject(getName().getBiographicalName(), fields);
     }
 
+
+    // OBJECT METHODS -----------------------------------------------------------------------------------------------------------------------------------------
+
     @Override
     public String toString() {
         return this.toRepr();
     }
-
-    // OBJECT METHODS
-    // -----------------------------------------------------------------------------
-
-    /**
-     * {@inheritDoc}
-     */
+    
     @Override
     public boolean equals(Object obj) {
         if (this == obj)
@@ -159,9 +165,6 @@ public class FederalOfficial extends PoliticalActor {
         return this.toString().equals(other.toString());
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public int hashCode() {
         final int prime = 61;
@@ -170,9 +173,6 @@ public class FederalOfficial extends PoliticalActor {
         return hash;
     }
 
-    /**
-     * {@inheritDoc}
-     */
     @Override
     public FederalOfficial clone() {
         return new FederalOfficial(this);

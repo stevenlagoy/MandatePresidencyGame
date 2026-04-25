@@ -2,7 +2,7 @@
  * Engine.java
  * Steven LaGoy
  * Created: 26 September 2024 at 12:21 AM
- * Modified: 30 May 2025
+ * Modified: 28 December 2025
  */
 
 package com.stevenlagoy.presidency.core;
@@ -17,6 +17,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 import java.util.Map;
+
 import com.stevenlagoy.presidency.characters.CharacterManager;
 import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
 import com.stevenlagoy.presidency.data.Jsonic;
@@ -41,63 +42,55 @@ public final class Engine extends Manager {
 
     // Language Manager
     private final LanguageManager LANGUAGE_MANAGER;
-
     public LanguageManager LanguageManager() {
         return LANGUAGE_MANAGER;
     }
 
     // Time Manager
     private final TimeManager TIME_MANAGER;
-
     public TimeManager TimeManager() {
         return TIME_MANAGER;
     }
 
     // Event Manager
     private final EventManager EVENT_MANAGER;
-
     public EventManager EventManager() {
         return EVENT_MANAGER;
     }
 
     // Demographics Manager
     private final DemographicsManager DEMOGRAPHICS_MANAGER;
-
     public DemographicsManager DemographicsManager() {
         return DEMOGRAPHICS_MANAGER;
     }
 
     // Map Manager
     private final MapManager MAP_MANAGER;
-
     public MapManager MapManager() {
         return MAP_MANAGER;
     }
 
     // Name Manager
     private final NameManager NAME_MANAGER;
-
     public NameManager NameManager() {
         return NAME_MANAGER;
     }
 
     // Character Manager
     private final CharacterManager CHARACTER_MANAGER;
-
     public CharacterManager CharacterManager() {
         return CHARACTER_MANAGER;
     }
 
     // Graphics Manager
     private final GraphicsManager GRAPHICS_MANAGER;
-
     public GraphicsManager GraphicsManager() {
         return GRAPHICS_MANAGER;
     }
 
     private final List<Manager> managers;
 
-    public final boolean DEBUG_MODE = true;
+    public final boolean DEBUG_MODE;
     private ManagerState currentState;
 
     /**
@@ -115,8 +108,13 @@ public final class Engine extends Manager {
     }
 
     public Engine() {
+        this(false);
+    }
+
+    public Engine(boolean debug) {
         t_zero = System.nanoTime();
         currentState = ManagerState.INACTIVE;
+        DEBUG_MODE = debug;
         LANGUAGE_MANAGER = new LanguageManager(this);
         TIME_MANAGER = new TimeManager(this);
         EVENT_MANAGER = new EventManager(this);
@@ -126,14 +124,15 @@ public final class Engine extends Manager {
         CHARACTER_MANAGER = new CharacterManager(this);
         GRAPHICS_MANAGER = new GraphicsManager(this);
         managers = List.of(
-                LANGUAGE_MANAGER,
-                TIME_MANAGER,
-                EVENT_MANAGER,
-                DEMOGRAPHICS_MANAGER,
-                MAP_MANAGER,
-                NAME_MANAGER,
-                CHARACTER_MANAGER,
-                GRAPHICS_MANAGER);
+            LANGUAGE_MANAGER,
+            TIME_MANAGER,
+            EVENT_MANAGER,
+            DEMOGRAPHICS_MANAGER,
+            MAP_MANAGER,
+            NAME_MANAGER,
+            CHARACTER_MANAGER,
+            GRAPHICS_MANAGER
+        );
         for (Manager manager : managers) {
             if (manager.getState().equals(ManagerState.ERROR)) {
                 Logger.log("FATAL: FAILURE TO CONSTRUCT MANAGER",
@@ -143,8 +142,7 @@ public final class Engine extends Manager {
         }
     }
 
-    // MANAGER METHODS
-    // ----------------------------------------------------------------------------
+    // MANAGER METHODS ----------------------------------------------------------------------------------------------------------------------------------------
 
     /** Initialize and Activate this Engine, and its Managers. */
     @Override
@@ -187,19 +185,7 @@ public final class Engine extends Manager {
     // CONSTANTS AND ENUMS //
     ///////////////////////////////////////////////////////////////////////////////////////////////
 
-    // DIFFICULTY
-    // ---------------------------------------------------------------------------------
-
-    /** Current difficulty level of the game. */
-    private static Difficulty gameDifficulty;
-
-    public static Difficulty getGameDifficulty() {
-        return gameDifficulty;
-    }
-
-    public static boolean setGameDifficulty(Difficulty difficulty) {
-        return (gameDifficulty = difficulty) != null;
-    }
+    // DIFFICULTY ---------------------------------------------------------------------------------------------------------------------------------------------
 
     /**
      * Dificulty values impact some calculations, impacting the difficulty of the
@@ -244,8 +230,19 @@ public final class Engine extends Manager {
         }
     }
 
-    // GAME SPEED SETTINGS
-    // ------------------------------------------------------------------------
+    /** Current difficulty level of the game. */
+    private static Difficulty gameDifficulty;
+
+    public static Difficulty getGameDifficulty() {
+        return gameDifficulty;
+    }
+
+    public static boolean setGameDifficulty(Difficulty difficulty) {
+        return (gameDifficulty = difficulty) != null;
+    }
+
+    // GAME SPEED SETTINGS ------------------------------------------------------------------------------------------------------------------------------------
+    
     /**
      * The Base Speed of the game, representing the minimum tick time in miliseconds
      */
@@ -270,7 +267,7 @@ public final class Engine extends Manager {
     }
 
     ///////////////////////////////////////////////////////////////////////////////////////////////
-    // GAME SETUP //
+    //                                        GAME SETUP                                         //
     ///////////////////////////////////////////////////////////////////////////////////////////////
 
     // public boolean init() {
@@ -408,8 +405,7 @@ public final class Engine extends Manager {
 
     }
 
-    // REPRESENTATION METHODS
-    // ---------------------------------------------------------------------
+    // REPRESENTATION METHODS ---------------------------------------------------------------------------------------------------------------------------------
 
     @Override
     public String toRepr() {

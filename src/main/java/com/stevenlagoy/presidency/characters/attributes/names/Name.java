@@ -1,26 +1,29 @@
 /*
- * Name.java
+ * Name
+ * ~/characters/attributes/names/Name.java
  * Steven LaGoy
  * Created: 23 March 2025 at 1:27 AM
- * Modified: 31 May 2025
+ * Modified: 28 December 2025
  */
 
 package com.stevenlagoy.presidency.characters.attributes.names;
 
-// IMPORTS ----------------------------------------------------------------------------------------
+// IMPORTS ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-// Standard Library Imports
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-// Internal Imports
 import core.JSONObject;
+
 import com.stevenlagoy.presidency.data.Jsonic;
 import com.stevenlagoy.presidency.data.Repr;
-import com.stevenlagoy.presidency.util.Logger;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                              NAME                                              //
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /**
  * Models the Personal Name of a Character, with options for several Name Forms,
@@ -268,7 +271,8 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
             String honorific,
             String ordinal,
             List<String> suffixes,
-            Set<DisplayOption> displayOptions) {
+            Set<DisplayOption> displayOptions
+    ) {
         this.nameForm       = nameForm;
         this.givenName      = givenName     != null ? givenName     : "";
         this.middleName     = middleName    != null ? middleName    : "";
@@ -305,6 +309,10 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
             }
         }
     }
+
+    // GETTERS AND SETTERS ------------------------------------------------------------------------------------------------------------------------------------
+
+    // NameForm: NameForm
 
     public NameForm getNameForm() {
         return nameForm;
@@ -417,87 +425,7 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
         this.displayOptions.add(option);
     }
 
-    public String toRepr() {
-        String[] suffixesStrings = new String[suffixes.size()];
-        for (int i = 0; i < suffixes.size(); i++) {
-            suffixesStrings[i] = suffixes.get(i);
-        }
-        String suffixesRepr = Repr.arrayToReprList(suffixesStrings);
-
-        String repr = String.format(
-                "%s:[nameForm=\"%s\";givenName=\"%s\";middleName=\"%s\";familyName=\"%s\";paternalName=\"%s\";maternalName=\"%s\";nickname=\"%s\";honorific=\"%s\";ordinal=\"%s\";suffixes=[%s];];",
-                this.getClass().getName().split("\\.")[this.getClass().getName().split("\\.").length - 1],
-                this.nameForm.toString(),
-                givenName,
-                middleName,
-                familyName,
-                paternalName,
-                maternalName,
-                nickname,
-                honorific,
-                ordinal,
-                suffixesRepr
-        );
-        return repr;
-    }
-
-    public Name fromRepr(String repr) {
-        return this;
-    }
-
-    public Name fromJson(JSONObject nameJson) {
-        return this;
-    }
-
-    @Override
-    public int hashCode() {
-        final int prime = 31;
-        int hash = 7;
-        hash = prime * hash + (givenName  == null ? 0 : givenName.hashCode());
-        hash = prime * hash + (middleName == null ? 0 : middleName.hashCode());
-        hash = prime * hash + (familyName == null ? 0 : familyName.hashCode());
-        return hash;
-    }
-
-    @Override
-    public JSONObject toJson() {
-        List<JSONObject> fields = new ArrayList<>();
-        fields.add(new JSONObject("name_form", nameForm.toString()));
-        if (givenName != null && !givenName.isEmpty())
-            fields.add(new JSONObject("given_name", givenName));
-        if (middleName != null && !middleName.isEmpty())
-            fields.add(new JSONObject("middle_name", middleName));
-        if (familyName != null && !familyName.isEmpty())
-            fields.add(new JSONObject("family_name", familyName));
-        if (birthSurname != null && !birthSurname.isEmpty())
-            fields.add(new JSONObject("birth_surname", birthSurname));
-        if (paternalName != null && !paternalName.isEmpty())
-            fields.add(new JSONObject("paternal_name", paternalName));
-        if (maternalName != null && !maternalName.isEmpty())
-            fields.add(new JSONObject("maternal_name", maternalName));
-        if (nickname != null && !nickname.isEmpty())
-            fields.add(new JSONObject("nickname", nickname));
-        if (religiousName != null && !religiousName.isEmpty())
-            fields.add(new JSONObject("religious_name", religiousName));
-        if (westernName != null && !westernName.isEmpty())
-            fields.add(new JSONObject("western_name", westernName));
-        // legal name is derived
-        // informal name is derived
-        if (honorific != null && !honorific.isEmpty())
-            fields.add(new JSONObject("honorific", honorific));
-        if (ordinal != null && !ordinal.isEmpty())
-            fields.add(new JSONObject("ordinal", ordinal));
-        if (suffixes != null && !suffixes.isEmpty())
-            fields.add(new JSONObject("suffixes", List.copyOf(suffixes)));
-        if (displayOptions != null && !displayOptions.isEmpty()) {
-            List<String> displayOptionsWords = new ArrayList<>();
-            for (DisplayOption option : displayOptions) {
-                displayOptionsWords.add(option.toString());
-            }
-            fields.add(new JSONObject("display_options", displayOptionsWords));
-        }
-        return new JSONObject(String.format("%s (%d)", getLegalName(), hashCode()), fields);
-    }
+    // STYLE METHODS ------------------------------------------------------------------------------------------------------------------------------------------
 
     public String getNameInStyle(NameStyle style) {
         StringBuilder sb = new StringBuilder();
@@ -646,6 +574,92 @@ public final class Name implements Repr<Name>, Jsonic<Name> {
             sb.append(", ").append(suffix);
         }
         return sb.toString();
+    }
+
+    // REPRESENTATION METHODS ---------------------------------------------------------------------------------------------------------------------------------
+
+    public String toRepr() {
+        String[] suffixesStrings = new String[suffixes.size()];
+        for (int i = 0; i < suffixes.size(); i++) {
+            suffixesStrings[i] = suffixes.get(i);
+        }
+        String suffixesRepr = Repr.arrayToReprList(suffixesStrings);
+
+        String repr = String.format(
+                "%s:[nameForm=\"%s\";givenName=\"%s\";middleName=\"%s\";familyName=\"%s\";paternalName=\"%s\";maternalName=\"%s\";nickname=\"%s\";honorific=\"%s\";ordinal=\"%s\";suffixes=[%s];];",
+                this.getClass().getName().split("\\.")[this.getClass().getName().split("\\.").length - 1],
+                this.nameForm.toString(),
+                givenName,
+                middleName,
+                familyName,
+                paternalName,
+                maternalName,
+                nickname,
+                honorific,
+                ordinal,
+                suffixesRepr
+        );
+        return repr;
+    }
+
+    public Name fromRepr(String repr) {
+        return this;
+    }
+
+    public Name fromJson(JSONObject nameJson) {
+        return this;
+    }
+
+    @Override
+    public JSONObject toJson() {
+        List<JSONObject> fields = new ArrayList<>();
+        fields.add(new JSONObject("name_form", nameForm.toString()));
+        if (givenName != null && !givenName.isEmpty())
+            fields.add(new JSONObject("given_name", givenName));
+        if (middleName != null && !middleName.isEmpty())
+            fields.add(new JSONObject("middle_name", middleName));
+        if (familyName != null && !familyName.isEmpty())
+            fields.add(new JSONObject("family_name", familyName));
+        if (birthSurname != null && !birthSurname.isEmpty())
+            fields.add(new JSONObject("birth_surname", birthSurname));
+        if (paternalName != null && !paternalName.isEmpty())
+            fields.add(new JSONObject("paternal_name", paternalName));
+        if (maternalName != null && !maternalName.isEmpty())
+            fields.add(new JSONObject("maternal_name", maternalName));
+        if (nickname != null && !nickname.isEmpty())
+            fields.add(new JSONObject("nickname", nickname));
+        if (religiousName != null && !religiousName.isEmpty())
+            fields.add(new JSONObject("religious_name", religiousName));
+        if (westernName != null && !westernName.isEmpty())
+            fields.add(new JSONObject("western_name", westernName));
+        // legal name is derived
+        // informal name is derived
+        if (honorific != null && !honorific.isEmpty())
+            fields.add(new JSONObject("honorific", honorific));
+        if (ordinal != null && !ordinal.isEmpty())
+            fields.add(new JSONObject("ordinal", ordinal));
+        if (suffixes != null && !suffixes.isEmpty())
+            fields.add(new JSONObject("suffixes", List.copyOf(suffixes)));
+        if (displayOptions != null && !displayOptions.isEmpty()) {
+            List<String> displayOptionsWords = new ArrayList<>();
+            for (DisplayOption option : displayOptions) {
+                displayOptionsWords.add(option.toString());
+            }
+            fields.add(new JSONObject("display_options", displayOptionsWords));
+        }
+        return new JSONObject(String.format("%s (%d)", getLegalName(), hashCode()), fields);
+    }
+
+    // OBJECT METHODS -----------------------------------------------------------------------------------------------------------------------------------------
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int hash = 7;
+        hash = prime * hash + (givenName  == null ? 0 : givenName.hashCode());
+        hash = prime * hash + (middleName == null ? 0 : middleName.hashCode());
+        hash = prime * hash + (familyName == null ? 0 : familyName.hashCode());
+        return hash;
     }
 
     @Override
