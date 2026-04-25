@@ -1,10 +1,6 @@
 package com.stevenlagoy.presidency.util
 
 import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.Assertions.assertEquals
-import org.junit.jupiter.api.assertNotNull
-
-import com.stevenlagoy.presidency.util.NumberUtils
 
 class NumberUtilsTest {
 

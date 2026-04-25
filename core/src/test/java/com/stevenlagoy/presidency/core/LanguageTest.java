@@ -8,13 +8,13 @@ import com.stevenlagoy.presidency.core.LanguageManager.Language;
 import com.stevenlagoy.presidency.core.Manager.ManagerState;
 
 public final class LanguageTest {
-    
+
     static final Engine ENGINE = new Engine();
 
     @BeforeEach
     public void initLanguageManager() {
-        if (ENGINE.LanguageManager().getState() != ManagerState.ACTIVE) {
-            if (!ENGINE.LanguageManager().init()) {
+        if (ENGINE.MANAGERS.LANGUAGE_MANAGER.getState() != ManagerState.ACTIVE) {
+            if (!ENGINE.MANAGERS.LANGUAGE_MANAGER.init()) {
                 fail("Failed to initialize LanguageManager, necessary for testing");
             }
         }
@@ -22,8 +22,8 @@ public final class LanguageTest {
 
     @AfterEach
     public void resetLanguageManager() {
-        ENGINE.LanguageManager().cleanup();
-        ENGINE.LanguageManager().init();
+        ENGINE.MANAGERS.LANGUAGE_MANAGER.cleanup();
+        ENGINE.MANAGERS.LANGUAGE_MANAGER.init();
     }
 
     @Test
@@ -54,41 +54,41 @@ public final class LanguageTest {
 
     @Test
     public void testGetGameLanguage() {
-        Language l = ENGINE.LanguageManager().getGameLanguage();
+        Language l = ENGINE.MANAGERS.LANGUAGE_MANAGER.getGameLanguage();
         assertEquals(Language.defaultLanguage, l);
     }
 
     @Test
     public void testSetGameLanguage() {
-        boolean res = ENGINE.LanguageManager().setGameLanguage(Language.ES);
+        boolean res = ENGINE.MANAGERS.LANGUAGE_MANAGER.setGameLanguage(Language.ES);
         assertTrue(res);
-        Language l = ENGINE.LanguageManager().getGameLanguage();
+        Language l = ENGINE.MANAGERS.LANGUAGE_MANAGER.getGameLanguage();
         assertEquals(Language.ES, l);
-        ENGINE.LanguageManager().setGameLanguage(Language.EN);
+        ENGINE.MANAGERS.LANGUAGE_MANAGER.setGameLanguage(Language.EN);
     }
 
     @Test
     public void testGetLocalization() {
         String tag = "TITLE";
-        String localization = ENGINE.LanguageManager().getLocalization(tag);
+        String localization = ENGINE.MANAGERS.LANGUAGE_MANAGER.getLocalization(tag);
         assertNotNull(localization);
-        localization = ENGINE.LanguageManager().getLocalization(tag, Language.ES);
+        localization = ENGINE.MANAGERS.LANGUAGE_MANAGER.getLocalization(tag, Language.ES);
         assertNotNull(localization);
         tag = "new game text";
-        localization = ENGINE.LanguageManager().getLocalization(tag);
+        localization = ENGINE.MANAGERS.LANGUAGE_MANAGER.getLocalization(tag);
         assertNotNull(localization);
     }
 
     @Test
     public void testLanguageManagerCleanup() {
-        ENGINE.LanguageManager().cleanup();
-        ManagerState ms = ENGINE.LanguageManager().getState();
+        ENGINE.MANAGERS.LANGUAGE_MANAGER.cleanup();
+        ManagerState ms = ENGINE.MANAGERS.LANGUAGE_MANAGER.getState();
         assertEquals(ManagerState.INACTIVE, ms);
     }
 
     @Test
     public void testLanguageManagerToJson() {
-        JSONObject json = ENGINE.LanguageManager().toJson();
+        JSONObject json = ENGINE.MANAGERS.LANGUAGE_MANAGER.toJson();
         assertNotNull(json);
         String key = json.getKey();
         assertEquals("LanguageManager", key);
