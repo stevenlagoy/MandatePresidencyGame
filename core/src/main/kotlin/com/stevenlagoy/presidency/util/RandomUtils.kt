@@ -48,7 +48,7 @@ fun <E> Random.select(vararg items: E) = select(items.toList())
 /** Select and return one of the items in the given collection. */
 fun <E> Random.select(items: Collection<E>): E? {
     if (items.isEmpty()) return null
-    return items.toList()[nextInt(1, items.size)]
+    return items.toList()[nextInt(0, items.size)]
 }
 @JvmOverloads @JvmName("randSelect")
 fun <E> select(items: Collection<E>, random: Random = Random.Default) = random.select(items)
@@ -83,7 +83,7 @@ fun <E> Random.weightedSelect(items: Map<E, Number>): E? {
     var cumulativeWeight = 0.0
     items.forEach { (key, value) ->
         cumulativeWeight += max(value.toDouble(), 0.0)
-        if (randNum > cumulativeWeight) return key
+        if (randNum < cumulativeWeight) return key
     }
     return null
 }
@@ -99,4 +99,3 @@ fun Random.probabilisticCount(probability: Double): Int {
 }
 @JvmOverloads
 fun probabilisticCount(probability: Double, random: Random = Random.Default) = random.probabilisticCount(probability)
-
