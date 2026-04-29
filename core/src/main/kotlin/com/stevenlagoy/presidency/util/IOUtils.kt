@@ -1,4 +1,4 @@
-//@file:JvmName("IOUtils")
+@file:JvmName("IOUtils")
 package com.stevenlagoy.presidency.util
 
 import java.nio.file.Files

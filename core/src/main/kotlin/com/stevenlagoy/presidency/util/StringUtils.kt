@@ -182,9 +182,9 @@ fun String.titlecase(ignoredWords: Collection<String> = emptySet()): String =
         if (!isEdge && lower in ignoredWords) return@mapIndexed word
 
         buildString {
-            append(word.substring(0, firstLetterIdx))
-            append(word[firstLetterIdx].uppercaseChar())
-            append(word.substring(firstLetterIdx + 1))
+            append(lower.substring(0, firstLetterIdx))
+            append(lower[firstLetterIdx].uppercaseChar())
+            append(lower.substring(firstLetterIdx + 1))
         }
     }.joinToString(" ")
 
