@@ -42,7 +42,7 @@ public final class FilePaths {
     public static final Path AIRPORTS                   = MAP_RESOURCES.resolve("airports.json");
     public static final Path DESCRIPTORS                = MAP_RESOURCES.resolve("descriptors.json");
     public static final Path RAILWAYS                   = MAP_RESOURCES.resolve("railways.json");
-    public static final Path ROADWAY_TYPES              = MAP_RESOURCES.resolve("roadway_types.json");
+    public static final Path ROADWAY_DESIGNATIONS       = MAP_RESOURCES.resolve("roadway_designations.json");
     public static final Path ROADWAYS                   = MAP_RESOURCES.resolve("roadways");
     public static final Path SEAPORTS                   = MAP_RESOURCES.resolve("seaports");
 
