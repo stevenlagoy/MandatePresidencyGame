@@ -1,26 +1,28 @@
 package com.stevenlagoy.presidency.characters.attributes.names
 
+import com.badlogic.gdx.net.HttpRequestBuilder.json
 import com.stevenlagoy.jsonic.JSONObject
 
-data class HispanicPersonalName(
-    override var honorific: String? = null,
-    var givenName: String = "",
-    override var nickname: String? = null,
-    var paternalName: String? = "",
-    var maternalName: String? = "",
-    override var suffixes: List<String> = listOf(),
-    override var displayOptions: Set<DisplayOption> = setOf(),
+class HispanicPersonalName(
+    var givenName:    String             = "",
+    var paternalName: String?            = "",
+    var maternalName: String?            = "",
+    honorific:        String?            = null,
+    nickname:         String?            = null,
+    suffixes:         List<String>       = listOf(),
+    displayOptions:   Set<DisplayOption> = setOf(),
 ) : PersonalName(honorific, nickname, suffixes, displayOptions)
 {
 
-    constructor(other: PersonalName) : this() {
-        this.honorific = other.honorific
-        this.nickname = other.nickname
-        this.suffixes = other.suffixes
-        this.displayOptions = other.displayOptions
+    constructor(other: PersonalName) : this(
+        "", "", "",
+        other.honorific, other.nickname, other.suffixes, other.displayOptions
+    ) {
+        other as HispanicPersonalName
+        this.givenName      = other.givenName
+        this.paternalName   = other.paternalName
+        this.maternalName   = other.maternalName
     }
-
-    constructor(givenName: String, paternalName: String?, maternalName: String?) : this(null, givenName, null, paternalName, maternalName)
 
     constructor(json: JSONObject) : this() { fromJson(json) }
 
@@ -31,19 +33,45 @@ data class HispanicPersonalName(
     override val preferredFamily: String get() = if (displayOptions.contains(DisplayOption.PREFER_MATERNAL)) "$maternalName" else if (displayOptions.contains(
             DisplayOption.PREFER_PATERNAL)) "$paternalName" else apellidos
 
-    override val legalName: String get() = "$givenName $apellidos".trim()
+    override val legalName: String get() = "$givenName $apellidos".normalize()
 
-    override val formalName: String get() = "$honorific $givenName $apellidos".trim()
+    override val formalName: String get() = "${honorific ?: ""} $givenName $apellidos, $formattedSuffixes".normalize()
 
-    override val biographicalName: String get() = "$honorific $givenName \"$nickname\" $apellidos $suffixes".replace("(\\s*\"\"\\s*)|(\\s{2,})"," ").trim()
+    override val biographicalName: String get() = "${honorific ?: ""} $givenName \"${nickname ?: ""}\" $apellidos, $formattedSuffixes".normalize()
 
-    override val commonName: String get() = "$preferredGiven $apellidos".trim()
+    override val commonName: String get() = "$preferredGiven $apellidos".normalize()
 
-    override val informalName: String get() = "$preferredGiven $preferredFamily".trim()
+    override val informalName: String get() = "$preferredGiven $preferredFamily".normalize()
 
-    override val indexedName: String get() = "$apellidos, $givenName".trim()
+    override val indexedName: String get() = "$apellidos, $givenName".normalize()
 
-    override val initials: String get() = "${givenName[0]}${apellidos.split(" ")[0][0]}${apellidos.split(" ")[1][0]}".uppercase().trim()
+    override val initials: String get() = abbreviate("$givenName $apellidos")
+
+    override fun copy(other: PersonalName) {
+        this.honorific = other.honorific
+        this.nickname = other.nickname
+        this.suffixes = other.suffixes
+        this.displayOptions = other.displayOptions
+        if (other is HispanicPersonalName) {
+            this.givenName = other.givenName
+            this.paternalName = other.paternalName
+            this.maternalName = other.maternalName
+        }
+    }
 
     override fun compareTo(other: PersonalName) = indexedName.compareTo(other.indexedName)
+
+    override fun toJson() = JSONObject(indexedName, listOf(
+        *((super.toJson().value as List<JSONObject>).toTypedArray()),
+        JSONObject("given_name",      givenName),
+        JSONObject("paternal_name",   paternalName),
+        JSONObject("maternal_name",   maternalName),
+    ))
+
+    override fun fromJson(json: JSONObject) = this.apply {
+        super.fromJson(json)
+        givenName      = json.get("given_name")      as String
+        paternalName   = json.get("paternal_name")   as String
+        maternalName   = json.get("maternal_name")   as String
+    }
 }

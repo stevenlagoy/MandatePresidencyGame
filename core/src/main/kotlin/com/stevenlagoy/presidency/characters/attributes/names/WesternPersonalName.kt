@@ -1,29 +1,30 @@
 package com.stevenlagoy.presidency.characters.attributes.names
 
-import kotlin.text.replace
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.presidency.characters.attributes.names.HispanicPersonalName
+import kotlin.String
 
-data class WesternPersonalName(
-    override var honorific: String? = null,
-    var firstName: String = "",
-    var middleName: String? = null,
-    override var nickname: String? = null,
-    var lastName: String = "",
-    var ordinal: String? = null,
-    override var suffixes: List<String> = listOf(),
-    override var displayOptions: Set<DisplayOption> = setOf(),
+class WesternPersonalName(
+    var firstName:  String             = "",
+    var middleName: String?            = null,
+    var lastName:   String             = "",
+    var ordinal:    String?            = null,
+    honorific:      String?            = null,
+    nickname:       String?            = null,
+    suffixes:       List<String>       = listOf(),
+    displayOptions: Set<DisplayOption> = setOf(),
 ) : PersonalName(honorific, nickname, suffixes, displayOptions)
 {
 
-    constructor(other: PersonalName) : this() {
-        this.honorific = other.honorific
-        this.nickname = other.nickname
-        this.suffixes = other.suffixes
-        this.displayOptions = other.displayOptions
+    constructor(other: PersonalName) : this(
+        "", null, "", null,
+        other.honorific, other.nickname, other.suffixes, other.displayOptions,
+    ) {
+        other as WesternPersonalName
+        this.firstName      = other.firstName
+        this.middleName     = other.middleName
+        this.lastName       = other.lastName
+        this.ordinal        = other.ordinal
     }
-
-    constructor(firstName: String, middleName: String?, lastName: String) : this(null, firstName, middleName, null, lastName)
 
     constructor(json: JSONObject) : this() { fromJson(json) }
 
@@ -35,36 +36,48 @@ data class WesternPersonalName(
 
     override val preferredFamily = lastName.trim()
 
-    override val legalName: String get() = "$firstName $middleName $lastName $ordinal".trim()
+    override val legalName: String get() = "$firstName $middleName $lastName ${ordinal ?: ""}".normalize()
 
-    override val formalName: String get() = "$honorific $preferredFirst $preferredMiddle $lastName $ordinal".trim()
+    override val formalName: String get() = "${honorific ?: ""} $preferredFirst $preferredMiddle $lastName ${ordinal ?: ""}, $formattedSuffixes".normalize()
 
-    override val biographicalName: String get() = "$honorific $firstName $middleName \"$nickname\" $lastName $ordinal $suffixes".replace("(\\s*\"\"\\s*)|(\\s{2,})"," ").trim()
+    override val biographicalName: String get() = "${honorific ?: ""} $firstName $middleName \"${nickname ?: ""}\" $lastName ${ordinal ?: ""}, $formattedSuffixes".normalize()
 
-    override val commonName: String get() = "$preferredFirst $preferredMiddle $lastName $ordinal".trim()
+    override val commonName: String get() = "$preferredFirst $preferredMiddle $lastName ${ordinal ?: ""}".normalize()
 
-    override val informalName: String get() = "$preferredGiven $lastName".trim()
+    override val informalName: String get() = "$preferredGiven $lastName".normalize()
 
-    override val indexedName: String get() = "$lastName, $firstName $middleName".trim()
+    override val indexedName: String get() = "$lastName, $firstName $middleName".normalize()
 
-    override val initials: String get() = "${firstName[0]}${middleName?.get(0)}${lastName[0]}".uppercase().trim()
+    override val initials: String get() = abbreviate("$firstName ${middleName ?: ""} $lastName")
 
-    override fun toJson() = JSONObject(hashCode().toString(), listOf(
-        *((super.toJson().value as List<JSONObject>).toTypedArray()),
-        JSONObject("first_name", firstName),
-        JSONObject("middle_name", middleName),
-        JSONObject("last_name", lastName),
-        JSONObject("ordinal", ordinal),
-    ))
-
-    override fun fromJson(json: JSONObject) = this.apply {
-        super.fromJson(json)
-        firstName = (json.get("first_name") as JSONObject).value as String
-        middleName = (json.get("middle_name") as JSONObject).value as String
-        lastName = (json.get("last_name") as JSONObject).value as String
-        ordinal = (json.get("ordinal") as JSONObject).value as String
+    override fun copy(other: PersonalName) {
+        this.honorific = other.honorific
+        this.nickname = other.nickname
+        this.suffixes = other.suffixes
+        this.displayOptions = other.displayOptions
+        if (other is WesternPersonalName) {
+            this.firstName = other.firstName
+            this.middleName = other.middleName
+            this.lastName = other.lastName
+            this.ordinal = other.ordinal
+        }
     }
 
     override fun compareTo(other: PersonalName) = indexedName.compareTo(other.indexedName)
 
+    override fun toJson() = JSONObject(indexedName, listOf(
+        *((super.toJson().value as List<JSONObject>).toTypedArray()),
+        JSONObject("first_name",      firstName),
+        JSONObject("middle_name",     middleName),
+        JSONObject("last_name",       lastName),
+        JSONObject("ordinal",         ordinal),
+    ))
+
+    override fun fromJson(json: JSONObject) = this.apply {
+        super.fromJson(json)
+        firstName      = json.get("first_name")      as String
+        middleName     = json.get("middle_name")     as String
+        lastName       = json.get("last_name")       as String
+        ordinal        = json.get("ordinal")         as String
+    }
 }
