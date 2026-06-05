@@ -1,69 +1,83 @@
 package com.stevenlagoy.presidency.util;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.io.StringWriter;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+import java.io.*;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Scanner;
 
 public final class Logger {
 
     private Logger() {
     }
 
-    /**
-     * Write the passed logline to the standard error file.
-     * 
-     * @param logline String to be written, explaining information about the event
-     *                logged
-     * @see #log(Exception)
-     * @see #log(String, String)
-     * @see #log(String, String, Exception)
-     */
-    public static void log(String logline) {
+    public static void log(@NotNull String logline) {
         try {
-            File errorFile = new File(FilePaths.ERROR_FILE.toString());
-            errorFile.createNewFile(); // does nothing if already exists
-            PrintWriter logWriter = new PrintWriter(new FileWriter(errorFile, true));
+            File logFile = new File(FilePaths.LOG_FILE.toString());
+            logFile.createNewFile(); // Does nothing if already exists
+            PrintWriter logWriter = new PrintWriter(new FileWriter(logFile, true));
 
             logline = logline.replace("\n", " | ").replace("\r", "");
             logWriter.printf("%s : %s%n", getDate(), logline);
             IOUtils.stdout.printf("%s : %s%n", getDate(), logline);
             logWriter.close();
-            return;
         } catch (IOException e) {
             IOUtils.stdout.println(e);
             System.exit(-1);
         }
+    }
+
+    public static void log(@NotNull String format, @Nullable Object... args) {
+        log(String.format(format, args));
+    }
+
+    /**
+     * Write the passed errorline to the standard error file.
+     *
+     * @param errorline String to be written, explaining information about the event logged
+     * @see #error(Exception)
+     * @see #error(String, String)
+     * @see #error(String, String, Exception)
+     */
+    public static void error(@NotNull String errorline) {
+        try {
+            File errorFile = new File(FilePaths.ERROR_FILE.toString());
+            errorFile.createNewFile(); // Does nothing if already exists
+            PrintWriter errorWriter = new PrintWriter(new FileWriter(errorFile, true));
+
+            errorline = errorline.replace("\n", " | ").replace("\r", "");
+            errorWriter.printf("%s : %s%n", getDate(), errorline);
+            IOUtils.stdout.printf("%s : %s%n", getDate(), errorline);
+            errorWriter.close();
+        } catch (IOException e) {
+            IOUtils.stdout.println(e);
+            System.exit(-1);
+        }
+    }
+
+    public static void error(@NotNull String format, @Nullable Object... args) {
+        error(String.format(format, args));
     }
 
     /**
      * Write the Exception to the standard error file.
-     * 
-     * @param logE Exception to be written. The Exception.printStackTrace() method
-     *             will be used.
-     * @see #log(String, String, Exception)
+     *
+     * @param logE Exception to be written. The Exception.printStackTrace() method will be used.
+     * @see #error(String, String, Exception)
      */
-    public static void log(Exception logE) {
+    public static void error(Exception logE) {
         try {
             File errorFile = new File(FilePaths.ERROR_FILE.toString());
             errorFile.createNewFile(); // does nothing if already exists
-            PrintWriter logWriter = new PrintWriter(new FileWriter(errorFile, true));
+            PrintWriter errorWriter = new PrintWriter(new FileWriter(errorFile, true));
 
             StringWriter sw = new StringWriter();
             logE.printStackTrace(new PrintWriter(sw));
-            String stackTrace = sw.toString().replace("\t", " -> ").replace("\n", "").replace("\r", ""); // Handle any
-                                                                                                         // carriage
-                                                                                                         // return
-                                                                                                         // characters
-            logWriter.printf("%s : %s %n", getDate(), stackTrace);
+            // Handle any carriage return characters
+            String stackTrace = sw.toString().replace("\t", " -> ").replace("\n", "").replace("\r", "");
+            errorWriter.printf("%s : %s %n", getDate(), stackTrace);
             IOUtils.stdout.printf("%s : %s %n", getDate(), stackTrace);
-            logWriter.close();
+            errorWriter.close();
             return;
         } catch (IOException e) {
             IOUtils.stdout.println(e);
@@ -72,25 +86,22 @@ public final class Logger {
     }
 
     /**
-     * Write the passed logline to the standard error file, with the context string
-     * as a label.
-     * 
-     * @param context String for the label/context in which the log is being
-     *                written. Will be put in full-capitals.
-     * @param logline String to be written, explaining information about the event
-     *                logged.
-     * @see #log(String, String, Exception)
+     * Write the passed errorline to the standard error file, with the context string as a label.
+     *
+     * @param context String for the label/context in which the log is being written. Will be put in full-capitals.
+     * @param errorline String to be written, explaining information about the event logged.
+     * @see #error(String, String, Exception)
      */
-    public static void log(String context, String logline) {
+    public static void error(String context, String errorline) {
         try {
             File errorFile = new File(FilePaths.ERROR_FILE.toString());
             errorFile.createNewFile(); // does nothing if already exists
-            PrintWriter logWriter = new PrintWriter(new FileWriter(errorFile, true));
+            PrintWriter errorWriter = new PrintWriter(new FileWriter(errorFile, true));
 
-            logline = logline.replace("\n", " | ").replace("\r", "");
-            logWriter.printf("%s : %s: %s%n", getDate(), context.toUpperCase(), logline);
-            IOUtils.stdout.printf("%s : %s: %s%n", getDate(), context.toUpperCase(), logline);
-            logWriter.close();
+            errorline = errorline.replace("\n", " | ").replace("\r", "");
+            errorWriter.printf("%s : %s: %s%n", getDate(), context.toUpperCase(), errorline);
+            IOUtils.stdout.printf("%s : %s: %s%n", getDate(), context.toUpperCase(), errorline);
+            errorWriter.close();
             return;
         } catch (IOException e) {
             IOUtils.stdout.println(e);
@@ -99,17 +110,14 @@ public final class Logger {
     }
 
     /**
-     * Write the passed logline to the standard error file, with the context string
+     * Write the passed errorline to the standard error file, with the context string
      * as a label and with the passed Exception's stack trace also being written.
-     * 
-     * @param context String for the label/context in which the log is being
-     *                written. Will be put in full-capitals.
-     * @param logline String to be written, explaining information about the event
-     *                logged.
-     * @param logE    Exception to be written. The Exception.printStackTrace()
-     *                method will be used.
+     *
+     * @param context String for the label/context in which the log is being written. Will be put in full-capitals.
+     * @param errorline String to be written, explaining information about the event logged.
+     * @param logE Exception to be written. The Exception.printStackTrace() method will be used.
      */
-    public static void log(String context, String logline, Exception logE) {
+    public static void error(String context, String errorline, Exception logE) {
         try {
             File errorFile = new File(FilePaths.ERROR_FILE.toString());
             errorFile.createNewFile(); // does nothing if already exists
@@ -118,9 +126,9 @@ public final class Logger {
             StringWriter sw = new StringWriter();
             logE.printStackTrace(new PrintWriter(sw));
             String stackTrace = sw.toString().replace("\t", " -> ").replace("\n", "").replace("\r", "");
-            logline = logline.replace("\n", " | ").replace("\r", "");
-            logWriter.printf("%s : %s: %s @ %s%n", getDate(), context.toUpperCase(), logline, stackTrace);
-            IOUtils.stdout.printf("%s : %s: %s @ %s%n", getDate(), context.toUpperCase(), logline, stackTrace);
+            errorline = errorline.replace("\n", " | ").replace("\r", "");
+            logWriter.printf("%s : %s: %s @ %s%n", getDate(), context.toUpperCase(), errorline, stackTrace);
+            IOUtils.stdout.printf("%s : %s: %s @ %s%n", getDate(), context.toUpperCase(), errorline, stackTrace);
             logWriter.close();
             return;
         } catch (IOException e) {
@@ -131,43 +139,11 @@ public final class Logger {
 
     /**
      * Gives the current date as a formatted string for logging purposes.
-     * 
+     *
      * @return The current date, formatted as {@code yyyy.MM.dd.HH.mm.ss.SSS}
      */
     private static String getDate() {
         return new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss.SSS").format(new java.util.Date());
-    }
-
-    /**
-     * Writes the contents of the Error file into the longterm Log file.
-     */
-    public static boolean writeErrorToLog() {
-        boolean successFlag = true;
-        try {
-            File errorFile = new File(FilePaths.ERROR_FILE.toString());
-            errorFile.createNewFile(); // does nothing if already exists
-            File logFile = new File(FilePaths.LOG_FILE.toString());
-            logFile.createNewFile();
-            ArrayList<String> contents = new ArrayList<>();
-            try (Scanner scanner = IOUtils.createScanner(errorFile)) {
-                while (scanner.hasNext())
-                    contents.add(scanner.nextLine());
-            } catch (FileNotFoundException e) {
-                log("ERROR FILE NOT FOUND", "The error file was unable to be found.", e);
-                successFlag = false;
-            }
-            try (PrintWriter writer = IOUtils.createWriter(logFile, true)) {
-                for (String line : contents)
-                    writer.println(line);
-            } catch (IOException e) {
-                log("LOG FILE NOT FOUND", "The log file was unable to be found.", e);
-                successFlag = false;
-            }
-        } catch (IOException e) {
-            log("ERROR/LOG FILE NOT FOUND", "The error file or log file was unable to be found.", e);
-            successFlag = false;
-        }
-        return successFlag;
     }
 
     /**
@@ -181,13 +157,13 @@ public final class Logger {
             FileOutputStream errorStream = new FileOutputStream(errorFile, false);
             errorStream.close();
         } catch (IOException e) {
-            log("ERROR/LOG FILE NOT FOUND", "Somehow, the error file or log file was unable to be found.", e);
+            error("ERROR/LOG FILE NOT FOUND", "Somehow, the error file or log file was unable to be found.", e);
             successFlag = false;
         }
         return successFlag;
     }
 
-    public static void generateMemoryReport() {
+    public static void logMemoryReport() {
         Runtime runtime = Runtime.getRuntime();
         StringBuilder sb = new StringBuilder();
 
@@ -204,7 +180,7 @@ public final class Logger {
         sb.append(String.format("Max Memory: %,.2f KB%n", (maxMemory * 1.0) / 1024));
         sb.append(String.format("Usage Percent: %.2f%%%n", usagePercent));
         sb.append(String.format("Usage of Max Percent: %.2f%%%n", maxPercent));
-        log("MEMORY REPORT", sb.toString().trim());
+        error("MEMORY REPORT", sb.toString().trim());
     }
 
 }
