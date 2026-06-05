@@ -33,10 +33,10 @@ public class MainMenuScreen implements Screen {
     private Texture background;
     private Texture whiteTexture;
 
-    Color base  = new Color(0.75f, 0.75f, 0.75f, 1f); // light gray
-    Color hover = new Color(0.55f, 0.55f, 0.55f, 1f); // darker
-    Color down  = new Color(0.90f, 0.90f, 0.90f, 1f); // lighter
-    Color regularText = new Color(0.15f, 0.15f, 0.15f, 1f);
+    final Color base  = new Color(0.75f, 0.75f, 0.75f, 1f); // light gray
+    final Color hover = new Color(0.55f, 0.55f, 0.55f, 1f); // darker
+    final Color down  = new Color(0.90f, 0.90f, 0.90f, 1f); // lighter
+    final Color regularText = new Color(0.15f, 0.15f, 0.15f, 1f);
 
     public MainMenuScreen(GameRoot game) {
         this.game = game;
