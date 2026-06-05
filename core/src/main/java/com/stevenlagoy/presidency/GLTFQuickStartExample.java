@@ -2,14 +2,9 @@ package com.stevenlagoy.presidency;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
-import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.Input.Keys;
-import com.badlogic.gdx.graphics.Color;
-import com.badlogic.gdx.graphics.Cubemap;
-import com.badlogic.gdx.graphics.GL20;
-import com.badlogic.gdx.graphics.PerspectiveCamera;
-import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.VertexAttributes;
+import com.badlogic.gdx.InputProcessor;
+import com.badlogic.gdx.graphics.*;
 import com.badlogic.gdx.graphics.g3d.Material;
 import com.badlogic.gdx.graphics.g3d.ModelInstance;
 import com.badlogic.gdx.graphics.g3d.utils.FirstPersonCameraController;
@@ -18,7 +13,6 @@ import com.badlogic.gdx.graphics.g3d.utils.ModelBuilder;
 import com.badlogic.gdx.graphics.g3d.utils.shapebuilders.BoxShapeBuilder;
 import com.badlogic.gdx.math.Matrix4;
 import com.badlogic.gdx.math.Vector3;
-
 import net.mgsx.gltf.loaders.gltf.GLTFLoader;
 import net.mgsx.gltf.scene3d.attributes.PBRColorAttribute;
 import net.mgsx.gltf.scene3d.attributes.PBRCubemapAttribute;
@@ -47,10 +41,10 @@ public class GLTFQuickStartExample extends ApplicationAdapter implements InputPr
     private FirstPersonCameraController cameraController;
 
     // Player Movement
-    float baseSpeed = 5f;
+    final float baseSpeed = 5f;
     float speed = baseSpeed;
-    float rotationSpeed = 80f;
-    private Matrix4 playerTransform = new Matrix4();
+    final float rotationSpeed = 80f;
+    private final Matrix4 playerTransform = new Matrix4();
     private final Vector3 moveTranslation = new Vector3();
     private final Vector3 currentPosition = new Vector3();
 
@@ -69,7 +63,7 @@ public class GLTFQuickStartExample extends ApplicationAdapter implements InputPr
 		playerScene = new Scene(sceneAsset.scene);
 		sceneManager = new SceneManager();
 		sceneManager.addScene(playerScene);
-		
+
 		// setup camera (The BoomBox model is very small so you may need to adapt camera settings for your scene)
 		camera = new PerspectiveCamera(60f, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
 		camera.near = 1f;
@@ -80,7 +74,7 @@ public class GLTFQuickStartExample extends ApplicationAdapter implements InputPr
         // Allow mouse movement outside the window bounds
         Gdx.input.setCursorCatched(true);
         Gdx.input.setInputProcessor(this);
-		
+
         cameraController = new FirstPersonCameraController(camera);
         cameraController.upKey = Keys.E;
         cameraController.downKey = Keys.Q;
@@ -91,22 +85,22 @@ public class GLTFQuickStartExample extends ApplicationAdapter implements InputPr
 		light.direction.set(1, -3, 1).nor();
 		light.color.set(Color.WHITE);
 		sceneManager.environment.add(light);
-		
+
 		// setup quick IBL (image based lighting)
 		IBLBuilder iblBuilder = IBLBuilder.createOutdoor(light);
 		environmentCubemap = iblBuilder.buildEnvMap(1024);
 		diffuseCubemap = iblBuilder.buildIrradianceMap(256);
 		specularCubemap = iblBuilder.buildRadianceMap(10);
 		iblBuilder.dispose();
-		
+
 		// This texture is provided by the library, no need to have it in your assets.
 		brdfLUT = new Texture(Gdx.files.classpath("net/mgsx/gltf/shaders/brdfLUT.png"));
-		
+
 		sceneManager.setAmbientLight(1f);
 		sceneManager.environment.set(new PBRTextureAttribute(PBRTextureAttribute.BRDFLUTTexture, brdfLUT));
 		sceneManager.environment.set(PBRCubemapAttribute.createSpecularEnv(specularCubemap));
 		sceneManager.environment.set(PBRCubemapAttribute.createDiffuseEnv(diffuseCubemap));
-		
+
 		// setup skybox
 		skybox = new SceneSkybox(environmentCubemap);
 		sceneManager.setSkyBox(skybox);
@@ -131,17 +125,17 @@ public class GLTFQuickStartExample extends ApplicationAdapter implements InputPr
         ModelInstance model = new ModelInstance(modelBuilder.end());
         sceneManager.addScene(new Scene(model));
     }
-	
+
 	@Override
 	public void resize(int width, int height) {
 		sceneManager.updateViewport(width, height);
 	}
-	
+
 	@Override
 	public void render() {
 		float deltaTime = Gdx.graphics.getDeltaTime();
 		time += deltaTime;
-		
+
         // cameraController.update();
         // playerScene.modelInstance.transform.rotate(Vector3.Y, 10f * deltaTime);
 
@@ -153,7 +147,7 @@ public class GLTFQuickStartExample extends ApplicationAdapter implements InputPr
 		// camera.up.set(Vector3.Y);
 		// camera.lookAt(Vector3.Zero);
 		// camera.update();
-		
+
 		// render
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT | GL20.GL_DEPTH_BUFFER_BIT);
 		sceneManager.update(deltaTime);
@@ -264,7 +258,7 @@ public class GLTFQuickStartExample extends ApplicationAdapter implements InputPr
         // Clear the move translation
         moveTranslation.set(0, 0, 0);
     }
-	
+
 	@Override
 	public void dispose() {
 		sceneManager.dispose();
