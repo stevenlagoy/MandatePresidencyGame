@@ -1,15 +1,8 @@
-@file:JvmName("IOUtils")
+//@file:JvmName("IOUtils")
 package com.stevenlagoy.presidency.util
 
 import java.nio.file.Files
 import java.nio.file.Path
-
-//enum class FileExtension(extension: String) {
-//    ALL(""),
-//    JSON(".json"),
-//    CSV(".csv"),
-//    TEXT(".txt"),
-//}
 
 @JvmOverloads
 fun Path.listFiles(extension: IOUtils.FileExtension = IOUtils.FileExtension.ALL): Set<Path> {
