@@ -1,14 +1,11 @@
 {
     "FIPS" : "01",
-    "full_name" : "State of Alabama",
-    "common_name" : "Alabama",
-    "population" : 5024279,
-    "square_mileage" : 52420,
-    "map_color" : "#32D3FF",
-    "flag_loc" : "alabama_flag.png",
+    "fullName" : "State of Alabama",
+    "commonName" : "Alabama",
+    "flagFile" : "alabama_flag.png",
     "abbreviation" : "AL",
-    "motto" : "Audemus jura nostra defendere",
     "nickname" : "Yellowhammer State",
+    "motto" : "Audemus jura nostra defendere",
     "capital" : "Montgomery, Montgomery County, AL",
     "federal_court_circuit" : 11,
     "descriptors" : [
