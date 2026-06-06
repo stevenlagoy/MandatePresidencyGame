@@ -22,9 +22,11 @@ class NumberUtilsTest {
     }
 
     @Test
-    fun `WHEN checking prime-ness THEN returned value is correct`() {
-        assertTrue  { 1.isPrime() }
+    fun `WHEN checking primality THEN returned value is correct`() {
+        assertTrue  { 1.isComposite() }
+        assertFalse { 1.isPrime() }
         assertTrue  { 2.isPrime() }
+        assertFalse { 2.isComposite() }
         assertTrue  { 3.isPrime() }
         assertFalse { 4.isPrime() }
         assertTrue  { 5.isPrime() }
@@ -64,16 +66,20 @@ class NumberUtilsTest {
             1877, 1879, 1889, 1901, 1907, 1913, 1931, 1933, 1949, 1951, 1973, 1979, 1987, 1993, 1997, 1999,
         )
         for (i in 2..2000) {
-            if (i in primes)
+            if (i in primes) {
                 assertTrue { i.isPrime() }
-            else
+                assertFalse { i.isComposite() }
+            }
+            else {
                 assertFalse { i.isPrime() }
+                assertTrue { i.isComposite() }
+            }
         }
     }
 
     @Test
     fun `WHEN getting next prime THEN returned prime is correct`() {
-        assertEquals(1, (-10).nextPrime())
+        assertEquals(2, (-10).nextPrime())
         assertEquals(11, 10.nextPrime())
         assertEquals(17, 13.nextPrime())
         assertEquals(97, 89.nextPrime())
@@ -406,118 +412,124 @@ class NumberUtilsTest {
 
     @Test
     fun `WHEN converting real numbers with fractional parts to words THEN word representations are correct`() {
-        // Use BigDecimals to avoid floating point error
         assertEquals("zero point zero", 0.0.toWords())
         assertEquals("zero point one two five", 0.125f.toWords())
-        assertEquals("one point zero one", "1.01".toBigDecimal().toWords())
-        assertEquals("two point zero one two", "2.012".toBigDecimal().toWords())
-        assertEquals("three point zero one two three", "3.0123".toBigDecimal().toWords())
-        assertEquals("four point zero one two three four", "4.01234".toBigDecimal().toWords())
-        assertEquals("five point zero one two three four five", "5.012345".toBigDecimal().toWords())
-        assertEquals("six point zero one two three four five six", "6.0123456".toBigDecimal().toWords())
-        assertEquals("seven point zero one two three four five six seven", "7.01234567".toBigDecimal().toWords())
-        assertEquals("eight point zero one two three four five six seven eight", "8.012345678".toBigDecimal().toWords())
-        assertEquals("nine point zero one two three four five six seven eight nine", "9.0123456789".toBigDecimal().toWords())
-        assertEquals("ten point one two five", "10.125".toBigDecimal().toWords())
-        assertEquals("eleven point two five", "11.25".toBigDecimal().toWords())
-        assertEquals("twelve point three seven five", "12.375".toBigDecimal().toWords())
-        assertEquals("thirteen point five", "13.5".toBigDecimal().toWords())
-        assertEquals("twenty point six two five", "20.625".toBigDecimal().toWords())
-        assertEquals("twenty-five point seven five", "25.75".toBigDecimal().toWords())
-        assertEquals("one hundred forty-seven point eight seven five", "147.875".toBigDecimal().toWords())
+        // Use BigDecimals to avoid floating point error
+        assertEquals("one point zero one",                                                                  "1.01".toBigDecimal().toWords())
+        assertEquals("two point zero one two",                                                             "2.012".toBigDecimal().toWords())
+        assertEquals("three point zero one two three",                                                    "3.0123".toBigDecimal().toWords())
+        assertEquals("four point zero one two three four",                                               "4.01234".toBigDecimal().toWords())
+        assertEquals("five point zero one two three four five",                                         "5.012345".toBigDecimal().toWords())
+        assertEquals("six point zero one two three four five six",                                     "6.0123456".toBigDecimal().toWords())
+        assertEquals("seven point zero one two three four five six seven",                            "7.01234567".toBigDecimal().toWords())
+        assertEquals("eight point zero one two three four five six seven eight",                     "8.012345678".toBigDecimal().toWords())
+        assertEquals("nine point zero one two three four five six seven eight nine",                "9.0123456789".toBigDecimal().toWords())
+        assertEquals("ten point one two five",                                                            "10.125".toBigDecimal().toWords())
+        assertEquals("eleven point two five",                                                              "11.25".toBigDecimal().toWords())
+        assertEquals("twelve point three seven five",                                                     "12.375".toBigDecimal().toWords())
+        assertEquals("thirteen point five",                                                                 "13.5".toBigDecimal().toWords())
+        assertEquals("twenty point six two five",                                                         "20.625".toBigDecimal().toWords())
+        assertEquals("twenty-five point seven five",                                                       "25.75".toBigDecimal().toWords())
+        assertEquals("one hundred forty-seven point eight seven five",                                   "147.875".toBigDecimal().toWords())
         assertEquals("twelve thousand three hundred forty-five point five four three two one zero", "12345.543210".toBigDecimal().toWords())
-        assertEquals("negative five point five", "-5.5".toBigDecimal().toWords())
-        assertEquals("negative twenty-five point five two", "-25.52".toBigDecimal().toWords())
-        assertEquals("negative one hundred twenty-five point five two one", "-125.521".toBigDecimal().toWords())
-        assertEquals("negative one thousand two hundred fifty point zero five two one", "-1250.0521".toBigDecimal().toWords())
+        assertEquals("negative five point five",                                                            "-5.5".toBigDecimal().toWords())
+        assertEquals("negative twenty-five point five two",                                               "-25.52".toBigDecimal().toWords())
+        assertEquals("negative one hundred twenty-five point five two one",                             "-125.521".toBigDecimal().toWords())
+        assertEquals("negative one thousand two hundred fifty point zero five two one",               "-1250.0521".toBigDecimal().toWords())
     }
 
     @Test
     fun `WHEN converting whole numbers between 1_000_000 and 1e30 to words THEN word representations are correct`() {
-        assertEquals("one million",                                        1_000_000L.toWords())
-        assertEquals("two million",                                        2_000_000L.toWords())
-        assertEquals("three million",                                      3_000_000L.toWords())
-        assertEquals("ten million",                                       10_000_000L.toWords())
-        assertEquals("one hundred million",                              100_000_000L.toWords())
-        assertEquals("one billion",                                    1_000_000_000L.toWords())
-        assertEquals("ten billion",                                   10_000_000_000L.toWords())
-        assertEquals("one hundred billion",                          100_000_000_000L.toWords())
-        assertEquals("one trillion",                               1_000_000_000_000L.toWords())
-        assertEquals("ten trillion",                              10_000_000_000_000L.toWords())
-        assertEquals("one hundred trillion",                     100_000_000_000_000L.toWords())
-        assertEquals("one quadrillion",                        1_000_000_000_000_000L.toWords())
-        assertEquals("ten quadrillion",                       10_000_000_000_000_000L.toWords())
-        assertEquals("one hundred quadrillion",              100_000_000_000_000_000L.toWords())
-        assertEquals("one quintillion",                    1_000_000_000_000_000_000L.toWords())
-        assertEquals("one sextillion",                "1_000_000_000_000_000_000_000".replace("_", "").toBigInteger().toWords())
-        assertEquals("one septillion",            "1_000_000_000_000_000_000_000_000".replace("_", "").toBigInteger().toWords())
-        assertEquals("one octillion",         "1_000_000_000_000_000_000_000_000_000".replace("_", "").toBigInteger().toWords())
-        assertEquals("one nonillion",     "1_000_000_000_000_000_000_000_000_000_000".replace("_", "").toBigInteger().toWords())
+        assertEquals("one million",                                    1_000_000L.toWords())
+        assertEquals("two million",                                    2_000_000L.toWords())
+        assertEquals("three million",                                  3_000_000L.toWords())
+        assertEquals("ten million",                                   10_000_000L.toWords())
+        assertEquals("one hundred million",                          100_000_000L.toWords())
+        assertEquals("one billion",                                1_000_000_000L.toWords())
+        assertEquals("ten billion",                               10_000_000_000L.toWords())
+        assertEquals("one hundred billion",                      100_000_000_000L.toWords())
+        assertEquals("one trillion",                           1_000_000_000_000L.toWords())
+        assertEquals("ten trillion",                          10_000_000_000_000L.toWords())
+        assertEquals("one hundred trillion",                 100_000_000_000_000L.toWords())
+        assertEquals("one quadrillion",                    1_000_000_000_000_000L.toWords())
+        assertEquals("ten quadrillion",                   10_000_000_000_000_000L.toWords())
+        assertEquals("one hundred quadrillion",          100_000_000_000_000_000L.toWords())
+        assertEquals("one quintillion",                1_000_000_000_000_000_000L.toWords())
+        assertEquals("one sextillion",            "1_000_000_000_000_000_000_000".replace("_", "").toBigInteger().toWords())
+        assertEquals("one septillion",        "1_000_000_000_000_000_000_000_000".replace("_", "").toBigInteger().toWords())
+        assertEquals("one octillion",     "1_000_000_000_000_000_000_000_000_000".replace("_", "").toBigInteger().toWords())
+        assertEquals("one nonillion", "1_000_000_000_000_000_000_000_000_000_000".replace("_", "").toBigInteger().toWords())
     }
 
     @Test
     fun `WHEN converting whole numbers between one decillion and one nongentnonagintnovemillion to words THEN word representations are correct`() {
-        assertEquals("one decillion",             ("1" + "0".repeat(33)).toBigInteger().toWords())
-        assertEquals("ten decillion",             ("1" + "0".repeat(34)).toBigInteger().toWords())
-        assertEquals("one hundred decillion",     ("1" + "0".repeat(35)).toBigInteger().toWords())
-        assertEquals("one undecillion",           ("1" + "0".repeat(36)).toBigInteger().toWords())
-        assertEquals("ten undecillion",           ("1" + "0".repeat(37)).toBigInteger().toWords())
-        assertEquals("one hundred undecillion",   ("1" + "0".repeat(38)).toBigInteger().toWords())
-        assertEquals("two duodecillion",          ("2" + "0".repeat(39)).toBigInteger().toWords())
-        assertEquals("three tredecillion",        ("3" + "0".repeat(42)).toBigInteger().toWords())
-        assertEquals("four quattuordecillion",    ("4" + "0".repeat(45)).toBigInteger().toWords())
-        assertEquals("five quindecillion",        ("5" + "0".repeat(48)).toBigInteger().toWords())
-        assertEquals("six sexdecillion",          ("6" + "0".repeat(51)).toBigInteger().toWords())
-        assertEquals("seven septendecillion",     ("7" + "0".repeat(54)).toBigInteger().toWords())
-        assertEquals("eight octodecillion",       ("8" + "0".repeat(57)).toBigInteger().toWords())
-        assertEquals("nine novemdecillion",       ("9" + "0".repeat(60)).toBigInteger().toWords())
-        assertEquals("one vigintillion",          ("1" + "0".repeat(63)).toBigInteger().toWords())
-        assertEquals("one unvigintillion",        ("1" + "0".repeat(66)).toBigInteger().toWords())
-        assertEquals("one duovigintillion",       ("1" + "0".repeat(69)).toBigInteger().toWords())
-        assertEquals("one trevigintillion",       ("1" + "0".repeat(72)).toBigInteger().toWords())
-        assertEquals("one quattuorvigintillion",  ("1" + "0".repeat(75)).toBigInteger().toWords())
-        assertEquals("one quinvigintillion",      ("1" + "0".repeat(78)).toBigInteger().toWords())
-        // Number of atoms in the observable universe is around here
-        assertEquals("one sexvigintillion",       ("1" + "0".repeat(81)).toBigInteger().toWords())
-        assertEquals("one septenvigintillion",    ("1" + "0".repeat(84)).toBigInteger().toWords())
-        assertEquals("one octovigintillion",      ("1" + "0".repeat(87)).toBigInteger().toWords())
-        assertEquals("one novemvigintillion",     ("1" + "0".repeat(90)).toBigInteger().toWords())
-        assertEquals("one trigintillion",         ("1" + "0".repeat(93)).toBigInteger().toWords())
-        assertEquals("one tretrigintillion",      ("1" + "0".repeat(102)).toBigInteger().toWords())
-        assertEquals("one quadragintillion",      ("1" + "0".repeat(123)).toBigInteger().toWords())
-        assertEquals("one quinquagintillion",     ("1" + "0".repeat(153)).toBigInteger().toWords())
-        assertEquals("one sexagintillion",        ("1" + "0".repeat(183)).toBigInteger().toWords())
-        assertEquals("one septagintillion",       ("1" + "0".repeat(213)).toBigInteger().toWords())
-        assertEquals("one octogintillion",        ("1" + "0".repeat(243)).toBigInteger().toWords())
-        assertEquals("one nonagintillion",        ("1" + "0".repeat(273)).toBigInteger().toWords())
-        assertEquals("one centillion",            ("1" + "0".repeat(303)).toBigInteger().toWords())
-        assertEquals("one uncentillion",          ("1" + "0".repeat(306)).toBigInteger().toWords())
-        assertEquals("one duocentillion",         ("1" + "0".repeat(309)).toBigInteger().toWords())
-        assertEquals("one trecentillion",         ("1" + "0".repeat(312)).toBigInteger().toWords())
-        assertEquals("one quattuorcentillion",    ("1" + "0".repeat(315)).toBigInteger().toWords())
-        assertEquals("one quincentillion",        ("1" + "0".repeat(318)).toBigInteger().toWords())
-        assertEquals("one sexcentillion",         ("1" + "0".repeat(321)).toBigInteger().toWords())
-        assertEquals("one septencentillion",      ("1" + "0".repeat(324)).toBigInteger().toWords())
-        assertEquals("one octocentillion",        ("1" + "0".repeat(327)).toBigInteger().toWords())
-        assertEquals("one novemcentillion",       ("1" + "0".repeat(330)).toBigInteger().toWords())
-        assertEquals("one deccentillion",         ("1" + "0".repeat(333)).toBigInteger().toWords())
-        assertEquals("one undeccentillion",       ("1" + "0".repeat(336)).toBigInteger().toWords())
-        assertEquals("one vigintcentillion",      ("1" + "0".repeat(363)).toBigInteger().toWords())
-        assertEquals("one trigintcentillion",     ("1" + "0".repeat(393)).toBigInteger().toWords())
-        assertEquals("one quadragintcentillion",  ("1" + "0".repeat(423)).toBigInteger().toWords())
-        assertEquals("one quinquagintcentillion", ("1" + "0".repeat(453)).toBigInteger().toWords())
-        assertEquals("one sexagintcentillion",    ("1" + "0".repeat(483)).toBigInteger().toWords())
-        assertEquals("one septagintcentillion",   ("1" + "0".repeat(513)).toBigInteger().toWords())
-        assertEquals("one octogintcentillion",    ("1" + "0".repeat(543)).toBigInteger().toWords())
-        assertEquals("one nonagintcentillion",    ("1" + "0".repeat(573)).toBigInteger().toWords())
-        assertEquals("one ducentillion",          ("1" + "0".repeat(603)).toBigInteger().toWords())
-        assertEquals("one trecentillion",         ("1" + "0".repeat(903)).toBigInteger().toWords())
-        assertEquals("one quadringentillion",     ("1" + "0".repeat(1203)).toBigInteger().toWords())
-        assertEquals("one quingentillion",        ("1" + "0".repeat(1503)).toBigInteger().toWords())
-        assertEquals("one sescentillion",         ("1" + "0".repeat(1803)).toBigInteger().toWords())
-        assertEquals("one septingentillion",      ("1" + "0".repeat(2103)).toBigInteger().toWords())
-        assertEquals("one octingentillion",       ("1" + "0".repeat(2403)).toBigInteger().toWords())
-        assertEquals("one nongentillion",         ("1" + "0".repeat(2703)).toBigInteger().toWords())
+        assertEquals("one decillion",                  ("1" + "0".repeat(33)).toBigInteger().toWords())
+        // Mass of the sun in grams
+        assertEquals("ten decillion",                  ("1" + "0".repeat(34)).toBigInteger().toWords())
+        assertEquals("one hundred decillion",          ("1" + "0".repeat(35)).toBigInteger().toWords())
+        // Radius of the Milky Way in kilometers
+        assertEquals("one undecillion",                ("1" + "0".repeat(36)).toBigInteger().toWords())
+        assertEquals("ten undecillion",                ("1" + "0".repeat(37)).toBigInteger().toWords())
+        assertEquals("one hundred undecillion",        ("1" + "0".repeat(38)).toBigInteger().toWords())
+        assertEquals("two duodecillion",               ("2" + "0".repeat(39)).toBigInteger().toWords())
+        // Water molecules in the Great Lakes
+        assertEquals("three tredecillion",             ("3" + "0".repeat(42)).toBigInteger().toWords())
+        assertEquals("four quattuordecillion",         ("4" + "0".repeat(45)).toBigInteger().toWords())
+        assertEquals("five quindecillion",             ("5" + "0".repeat(48)).toBigInteger().toWords())
+        // Molecules composing the Earth
+        assertEquals("six sexdecillion",               ("6" + "0".repeat(51)).toBigInteger().toWords())
+        assertEquals("seven septendecillion",          ("7" + "0".repeat(54)).toBigInteger().toWords())
+        assertEquals("eight octodecillion",            ("8" + "0".repeat(57)).toBigInteger().toWords())
+        assertEquals("nine novemdecillion",            ("9" + "0".repeat(60)).toBigInteger().toWords())
+        assertEquals("one vigintillion",               ("1" + "0".repeat(63)).toBigInteger().toWords())
+        // Volume of the Virgo Supercluster
+        assertEquals("one unvigintillion",             ("1" + "0".repeat(66)).toBigInteger().toWords())
+        assertEquals("one duovigintillion",            ("1" + "0".repeat(69)).toBigInteger().toWords())
+        assertEquals("one trevigintillion",            ("1" + "0".repeat(72)).toBigInteger().toWords())
+        assertEquals("one quattuorvigintillion",       ("1" + "0".repeat(75)).toBigInteger().toWords())
+        assertEquals("one quinvigintillion",           ("1" + "0".repeat(78)).toBigInteger().toWords())
+        // Number of atoms in the observable universe
+        assertEquals("one sexvigintillion",            ("1" + "0".repeat(81)).toBigInteger().toWords())
+        assertEquals("one septenvigintillion",         ("1" + "0".repeat(84)).toBigInteger().toWords())
+        assertEquals("one octovigintillion",           ("1" + "0".repeat(87)).toBigInteger().toWords())
+        assertEquals("one novemvigintillion",          ("1" + "0".repeat(90)).toBigInteger().toWords())
+        assertEquals("one trigintillion",              ("1" + "0".repeat(93)).toBigInteger().toWords())
+        // Volume of the observable universe in Planck lengths
+        assertEquals("one tretrigintillion",           ("1" + "0".repeat(102)).toBigInteger().toWords())
+        assertEquals("one quadragintillion",           ("1" + "0".repeat(123)).toBigInteger().toWords())
+        assertEquals("one quinquagintillion",          ("1" + "0".repeat(153)).toBigInteger().toWords())
+        assertEquals("one sexagintillion",             ("1" + "0".repeat(183)).toBigInteger().toWords())
+        assertEquals("one septagintillion",            ("1" + "0".repeat(213)).toBigInteger().toWords())
+        assertEquals("one octogintillion",             ("1" + "0".repeat(243)).toBigInteger().toWords())
+        assertEquals("one nonagintillion",             ("1" + "0".repeat(273)).toBigInteger().toWords())
+        assertEquals("one centillion",                 ("1" + "0".repeat(303)).toBigInteger().toWords())
+        assertEquals("one uncentillion",               ("1" + "0".repeat(306)).toBigInteger().toWords())
+        assertEquals("one duocentillion",              ("1" + "0".repeat(309)).toBigInteger().toWords())
+        assertEquals("one trecentillion",              ("1" + "0".repeat(312)).toBigInteger().toWords())
+        assertEquals("one quattuorcentillion",         ("1" + "0".repeat(315)).toBigInteger().toWords())
+        assertEquals("one quincentillion",             ("1" + "0".repeat(318)).toBigInteger().toWords())
+        assertEquals("one sexcentillion",              ("1" + "0".repeat(321)).toBigInteger().toWords())
+        assertEquals("one septencentillion",           ("1" + "0".repeat(324)).toBigInteger().toWords())
+        assertEquals("one octocentillion",             ("1" + "0".repeat(327)).toBigInteger().toWords())
+        assertEquals("one novemcentillion",            ("1" + "0".repeat(330)).toBigInteger().toWords())
+        assertEquals("one deccentillion",              ("1" + "0".repeat(333)).toBigInteger().toWords())
+        assertEquals("one undeccentillion",            ("1" + "0".repeat(336)).toBigInteger().toWords())
+        assertEquals("one vigintcentillion",           ("1" + "0".repeat(363)).toBigInteger().toWords())
+        assertEquals("one trigintcentillion",          ("1" + "0".repeat(393)).toBigInteger().toWords())
+        assertEquals("one quadragintcentillion",       ("1" + "0".repeat(423)).toBigInteger().toWords())
+        assertEquals("one quinquagintcentillion",      ("1" + "0".repeat(453)).toBigInteger().toWords())
+        assertEquals("one sexagintcentillion",         ("1" + "0".repeat(483)).toBigInteger().toWords())
+        assertEquals("one septagintcentillion",        ("1" + "0".repeat(513)).toBigInteger().toWords())
+        assertEquals("one octogintcentillion",         ("1" + "0".repeat(543)).toBigInteger().toWords())
+        assertEquals("one nonagintcentillion",         ("1" + "0".repeat(573)).toBigInteger().toWords())
+        assertEquals("one ducentillion",               ("1" + "0".repeat(603)).toBigInteger().toWords())
+        assertEquals("one trecentillion",              ("1" + "0".repeat(903)).toBigInteger().toWords())
+        assertEquals("one quadringentillion",          ("1" + "0".repeat(1203)).toBigInteger().toWords())
+        assertEquals("one quingentillion",             ("1" + "0".repeat(1503)).toBigInteger().toWords())
+        assertEquals("one sescentillion",              ("1" + "0".repeat(1803)).toBigInteger().toWords())
+        assertEquals("one septingentillion",           ("1" + "0".repeat(2103)).toBigInteger().toWords())
+        assertEquals("one octingentillion",            ("1" + "0".repeat(2403)).toBigInteger().toWords())
+        assertEquals("one nongentillion",              ("1" + "0".repeat(2703)).toBigInteger().toWords())
         assertEquals("one novemnonagintnongentillion", ("1" + "0".repeat(3000)).toBigInteger().toWords())
     }
 }

@@ -10,27 +10,24 @@ fun clamp(value: Int, min: Int, max: Int) = value.coerceIn(min, max)
 
 fun clamp(value: Double, min: Double, max: Double) = value.coerceIn(min, max)
 
-val primeCache = mutableMapOf<Number, Boolean>()
+val primeCache = mutableMapOf(1L to false, 2L to true, 3L to true)
 
 fun Int.isPrime(): Boolean = toLong().isPrime()
+fun Int.isComposite(): Boolean = !isPrime()
 
 fun Long.isPrime(): Boolean {
     if (primeCache.contains(this)) return primeCache[this]!!
-
-    for (i in 2..sqrt(toDouble()).toInt()) {
-        if (this % i == 0L) {
-            primeCache[this] = false
-            return false
-        }
-    }
-    primeCache[this] = true
-    return true
+    if (this <= 1 || this % 2 == 0L || this % 3 == 0L) return false
+    val res = (2..sqrt(toDouble()).toInt()).none { this % it == 0L }
+    primeCache[this] = res
+    return res
 }
+fun Long.isComposite(): Boolean = !isPrime()
 
 fun Int.nextPrime(): Int = toLong().nextPrime().toInt()
 
 fun Long.nextPrime(): Long {
-    if (this < 1) return 1
+    if (this <= 1) return 2
     var counter = this + 1
     while (!counter.isPrime()) counter++
     return counter
@@ -53,22 +50,22 @@ fun List<Int>.groupIntoTuples(tupleSize: Int): List<Int> {
     return padded.chunked(tupleSize).map{ (a, b, c) -> a * 100 + b * 10 + c * 1 }
 }
 
-private val zero = "zero"
-private val negative = "negative"
+private const val zero = "zero"
+private const val negative = "negative"
 private val numberNames = listOf(
     listOf("", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"),
     listOf("", "ten", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety")
 )
-private val hundred = "hundred"
-private val thousand = "thousand"
-private val illion = "illion"
+private const val hundred = "hundred"
+private const val thousand = "thousand"
+private const val illion = "illion"
 private val largeNumbers = listOf("", "m", "b", "tr", "quadr", "quint", "sext", "sept", "oct", "non")
 private val latinNames = mapOf(
     1 to listOf("", "un", "duo", "tre", "quattuor", "quin", "sex", "septen", "octo", "novem"),
     10 to listOf("", "dec", "vigint", "trigint", "quadragint", "quinquagint", "sexagint", "septagint", "octogint", "nonagint"),
     100 to listOf("", "cent", "ducent", "trecent", "quadringent", "quingent", "sescent", "septingent", "octingent", "nongent")
 )
-private val millin = "millin"
+private const val millin = "millin"
 // This will handle up to 10 ^ 10 ^ 6. Surely that's all you need!
 
 private fun numberLessThanThousandToWords(number: Int): String {
