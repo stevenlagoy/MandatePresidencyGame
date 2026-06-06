@@ -11,10 +11,9 @@ import kotlin.uuid.Uuid
 
 @OptIn(ExperimentalUuidApi::class)
 class Party(
-    var id: Uuid,
-    var name: String,
-    var adjective: String,
-    var abbreviation: String,
+    var name: String = "",
+    var adjective: String = "",
+    var abbreviation: String = "",
     var colorCodes: List<String>? = null,
     var symbol: String? = null,
     var iconFile: File? = null,
