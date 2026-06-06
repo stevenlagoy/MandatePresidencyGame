@@ -3,7 +3,6 @@ package com.stevenlagoy.presidency.characters.attributes
 import com.stevenlagoy.presidency.politics.FederalLevel
 
 enum class Role(val level: FederalLevel?, val title: String) {
-    NONE                        (null,                 "None"),
     PARTY_LEADER                (null,                 "Party Leader"),
     LOBBYIST                    (null,                 "Lobbyist"),
     CONSULTANT                  (null,                 "Consultant"),
@@ -11,7 +10,7 @@ enum class Role(val level: FederalLevel?, val title: String) {
     CAMPAIGN_MANAGER            (null,                 "Campaign manager"),
     CAMPAIGN_CABINET_MEMBER     (null,                 "Campaign cabinet member"),
     UNION_LEADER                (null,                 "Union Leader"),
-    MEDIAPERSON                 (null,                 "Member of the media"),
+    MEDIA_PERSON                (null,                 "Media person"),
     PRESIDENT                   (FederalLevel.FEDERAL, "President"),
     VICE_PRESIDENT              (FederalLevel.FEDERAL, "Vice President"),
     SENATOR                     (FederalLevel.FEDERAL, "Senator"),
