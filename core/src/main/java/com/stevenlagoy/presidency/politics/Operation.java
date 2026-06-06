@@ -2,29 +2,23 @@ package com.stevenlagoy.presidency.politics;
 
 import com.stevenlagoy.presidency.characters.Citizen;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Set;
-
-import java.util.HashSet;
+import java.util.*;
 
 public class Operation {
     public static List<Operation> instances = new ArrayList<>();
 
     private Citizen operator;
-    private Set<Citizen> agents;
+    private final Set<Citizen> agents;
 
     public Operation(Citizen operator) {
         this.operator = operator;
-        this.agents = new HashSet<Citizen>();
+        this.agents = new HashSet<>();
     }
 
     public Operation(Citizen operator, Citizen[] agents) {
         this.operator = operator;
-        this.agents = new HashSet<Citizen>();
-        for (Citizen c : agents) {
-            this.agents.add(c);
-        }
+        this.agents = new HashSet<>();
+        this.agents.addAll(Arrays.stream(agents).toList());
     }
 
     public Citizen getOperator() {
