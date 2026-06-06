@@ -1,13 +1,18 @@
 package com.stevenlagoy.presidency.characters.attributes.finances
 
+import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.characters.attributes.Goal
+import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.TimeManager
 import java.time.LocalDate
 
 data class BalanceSheet(
-    var timeManager: TimeManager
+    val ENGINE: Engine
 ) {
-    class AccountRecord(
+
+    constructor(ENGINE: Engine, json: JSONObject) : this(ENGINE)
+
+    data class AccountRecord(
         val date: LocalDate,
         val totalAssets: Double,
         val totalLiabilities: Double
@@ -35,7 +40,7 @@ data class BalanceSheet(
 
     fun createRecord() {
         records.add(AccountRecord(
-            timeManager.currentDate.toLocalDate(),
+            ENGINE.TIME_MANAGER.currentDate.toLocalDate(),
             totalAssets,
             totalLiabilities
         ))
