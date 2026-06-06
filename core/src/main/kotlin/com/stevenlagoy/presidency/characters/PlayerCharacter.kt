@@ -8,6 +8,7 @@ import com.stevenlagoy.presidency.characters.attributes.Family
 import com.stevenlagoy.presidency.characters.attributes.IssuePositionMap
 import com.stevenlagoy.presidency.characters.attributes.Personality
 import com.stevenlagoy.presidency.characters.attributes.Role
+import com.stevenlagoy.presidency.characters.attributes.Sex
 import com.stevenlagoy.presidency.characters.attributes.Skills
 import com.stevenlagoy.presidency.characters.attributes.finances.FinancialProfile
 import com.stevenlagoy.presidency.characters.attributes.names.PersonalName
@@ -22,16 +23,16 @@ import kotlin.uuid.Uuid
 
 @OptIn(ExperimentalUuidApi::class)
 class PlayerCharacter(
-    MANAGERS: Engine.Managers,
-    id: Uuid,
-    name: PersonalName,
+    ENGINE: Engine,
+    sex: Sex,
     birthday: LocalDate,
     demographics: Demographics,
-    appearance: CharacterAppearance,
     family: Family,
-    originMunicipality: Municipality,
-    locationMunicipality: Municipality,
-    residenceMunicipality: Municipality,
+    appearance: CharacterAppearance,
+    name: PersonalName,
+    origin: Municipality,
+    location: Municipality,
+    residence: Municipality,
     financialProfile: FinancialProfile?,
     roles: MutableList<Role>,
     education: Education,
@@ -43,25 +44,25 @@ class PlayerCharacter(
     issuePositions: IssuePositionMap,
     candidacy: Candidacy?
 ) : PoliticalActor(
-    MANAGERS,
-    id,
-    name,
+    ENGINE,
+    sex,
     birthday,
     demographics,
-    appearance,
     family,
-    originMunicipality,
-    locationMunicipality,
-    residenceMunicipality,
+    appearance,
+    name,
+    origin,
+    location,
+    residence,
     financialProfile,
-    roles,
-    education,
-    alignment,
-    partyAffiliation,
-    skills,
-    personality,
     experiences,
+    education,
+    skills,
+    roles,
+    personality,
+    alignment,
     issuePositions,
+    partyAffiliation,
     candidacy,
 ) {
 }

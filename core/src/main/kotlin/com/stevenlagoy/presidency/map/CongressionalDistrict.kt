@@ -11,7 +11,7 @@ import kotlin.uuid.Uuid
 
 @OptIn(ExperimentalUuidApi::class)
 class CongressionalDistrict(
-    MANAGERS: Engine.Managers,
+    ENGINE: Engine,
     var state: State,
     var name: String = "",
     var districtNumber: Int = 0,
@@ -24,9 +24,9 @@ class CongressionalDistrict(
     override var descriptors: Set<Descriptor> = setOf(),
     override var demographics: Map<Bloc, Double> = mapOf(),
     // Congressional Districts do not have Capitals or Governments
-) : MapEntity(MANAGERS) {
+) : MapEntity(ENGINE) {
 
-    constructor(MANAGERS: Engine.Managers, state: State, json: JSONObject) : this(MANAGERS, state) {
+    constructor(engine: Engine, state: State, json: JSONObject) : this(engine, state) {
         fromJson(json)
     }
 
@@ -45,7 +45,7 @@ class CongressionalDistrict(
     ))
 
     override fun fromJson(json: JSONObject) = super.fromJson(json).apply {
-        state = MANAGERS.MAP_MANAGER.states.find { it.uniqueName == json.get("state").toString() }!!
+        state = ENGINE.MAP_MANAGER.states.find { it.uniqueName == json.get("state").toString() }!!
         districtNumber = json.get("district_num").toString().toInt() // TODO Make JSON terms consistent
         population = json.get("population").toString().toInt()
         squareMileage = json.get("land_area").toString().toDouble() // TODO Make JSON terms consistent

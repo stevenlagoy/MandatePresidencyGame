@@ -9,7 +9,7 @@ import com.stevenlagoy.presidency.politics.Government
 import com.stevenlagoy.presidency.politics.Party
 
 class County(
-    MANAGERS: Engine.Managers,
+    ENGINE: Engine,
     override val FIPS: String,
     val state: State,
     override var fullName: String = "",
@@ -24,9 +24,9 @@ class County(
     override val pastElectionResults: MutableList<ElectionResult> = mutableListOf(),
     override var capital: Municipality? = null,
     val municipalities: MutableSet<Municipality> = mutableSetOf(),
-) : MapEntity(MANAGERS), HasFIPS, HasPolitics {
+) : MapEntity(ENGINE), HasFIPS, HasPolitics {
 
-    constructor(MANAGERS: Engine.Managers, state: State, json: JSONObject) : this(MANAGERS, json.get("FIPS").toString(), state) {
+    constructor(engine: Engine, state: State, json: JSONObject) : this(engine, json.get("FIPS").toString(), state) {
         fromJson(json)
     }
 

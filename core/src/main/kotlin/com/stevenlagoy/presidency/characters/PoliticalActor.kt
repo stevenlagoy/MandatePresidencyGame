@@ -9,6 +9,7 @@ import com.stevenlagoy.presidency.characters.attributes.Family
 import com.stevenlagoy.presidency.characters.attributes.IssuePositionMap
 import com.stevenlagoy.presidency.characters.attributes.Personality
 import com.stevenlagoy.presidency.characters.attributes.Role
+import com.stevenlagoy.presidency.characters.attributes.Sex
 import com.stevenlagoy.presidency.characters.attributes.Skills
 import com.stevenlagoy.presidency.characters.attributes.finances.FinancialProfile
 import com.stevenlagoy.presidency.characters.attributes.names.PersonalName
@@ -25,42 +26,42 @@ import kotlin.uuid.Uuid
 
 @OptIn(ExperimentalUuidApi::class)
 open class PoliticalActor(
-    MANAGERS: Engine.Managers,
-    id: Uuid,
-    name: PersonalName,
+    ENGINE: Engine,
+    sex: Sex,
     birthday: LocalDate,
     demographics: Demographics,
-    appearance: CharacterAppearance,
     family: Family,
-    originMunicipality: Municipality,
-    locationMunicipality: Municipality,
-    residenceMunicipality: Municipality,
+    appearance: CharacterAppearance,
+    name: PersonalName,
+    origin: Municipality,
+    location: Municipality,
+    residence: Municipality,
     financialProfile: FinancialProfile?,
-    val roles: MutableList<Role>,
-    val education: Education,
-    var alignment: PoliticalAlignment,
-    var partyAffiliation: Party?,
-    val skills: Skills,
-    val personality: Personality,
     val experiences: MutableList<Experience>,
+    val education: Education,
+    val skills: Skills,
+    val roles: MutableList<Role>,
+    val personality: Personality,
+    var alignment: PoliticalAlignment,
     val issuePositions: IssuePositionMap,
-    var candidacy: Candidacy?
+    var partyAffiliation: Party? = null,
+    var candidacy: Candidacy? = null
 ) : Citizen(
-    MANAGERS,
-    id,
-    name,
+    ENGINE,
+    sex,
     birthday,
     demographics,
-    appearance,
     family,
-    originMunicipality,
-    locationMunicipality,
-    residenceMunicipality,
+    appearance,
+    name,
+    origin,
+    location,
+    residence,
     financialProfile,
 ) {
 
     companion object {
-        const val MIN_AGE = 20
+        const val MIN_AGE = 18
     }
 
     val ageMod get() = 100 * E.pow(-1 * ((age - 55) / 30.0).pow(2))
@@ -73,19 +74,19 @@ open class PoliticalActor(
         (json.get("roles") as List<*>).forEach { role -> roles.add(role as Role) }
         education.fromJson(json.get("education") as JSONObject)
         alignment.fromJson(json.get("alignment") as JSONObject)
-        partyAffiliation = MANAGERS.PARTY_MANAGER.getPartyById(Uuid.parse(json.get("party_affiliation_id").toString()))
+        partyAffiliation = ENGINE.POLITICS_MANAGER.PARTY_MANAGER.matchParty(json.get("party_affiliation_id", String::class.java)).get()
         skills.fromJson(json.get("skills") as JSONObject)
         personality.fromJson(json.get("personality") as JSONObject)
         (json.get("experiences") as List<*>).forEach { experience -> experiences.add(experience as Experience) }
         issuePositions.fromJson(json.get("issue_positions") as JSONObject)
-        candidacy = Candidacy(json.get("candidacy") as JSONObject)
+        candidacy = Candidacy(ENGINE, json.get("candidacy") as JSONObject)
     }
 
     override fun toJson() = JSONObject(id.toString(), listOf(
         JSONObject("roles", roles),
         JSONObject("education", education.toJson()),
         JSONObject("alignment", alignment.toJson()),
-        JSONObject("party_affiliation_id", partyAffiliation?.id),
+        JSONObject("party_affiliation_id", partyAffiliation?.name),
         JSONObject("skills", skills.toJson()),
         JSONObject("personality", personality.toJson()),
         JSONObject("experiences", experiences),

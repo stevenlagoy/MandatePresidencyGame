@@ -11,7 +11,7 @@ import kotlin.uuid.Uuid
 
 @OptIn(ExperimentalUuidApi::class)
 class Municipality(
-    MANAGERS: Engine.Managers,
+    ENGINE: Engine,
     val state: State,
     override val FIPS: String,
     override var fullName: String = "",
@@ -24,9 +24,9 @@ class Municipality(
     override val government: Government? = null,
     override val partiesPresent: MutableSet<Party> = mutableSetOf(),
     override val pastElectionResults: MutableList<ElectionResult> = mutableListOf(),
-) : MapEntity(MANAGERS), HasFIPS, HasPolitics
+) : MapEntity(ENGINE), HasFIPS, HasPolitics
 {
-    constructor(MANAGERS: Engine.Managers, state: State, json: JSONObject) : this(MANAGERS, state, json.get("FIPS").toString()) {
+    constructor(engine: Engine, state: State, json: JSONObject) : this(engine, state, json.get("FIPS").toString()) {
         fromJson(json)
     }
 

@@ -7,48 +7,62 @@ import kotlin.uuid.Uuid;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.HashSet;
+import java.util.Optional;
 import java.util.Set;
 
 public class PartyManager extends Manager {
 
-    private Set<Party> parties;
+    // Instance Fields
 
-    private Engine ENGINE;
-    private ManagerState currentState;
+    private final @NotNull Set<Party> parties;
 
-    public PartyManager(Engine engine) {
-        currentState = ManagerState.INACTIVE;
-        ENGINE = engine;
+    // Constructors
+
+    public PartyManager(@NotNull Engine engine, @NotNull Manager superManager) {
+        super(engine, superManager);
+        parties = new HashSet<>();
+    }
+
+    // Manager Methods
+
+    @Override
+    public @NotNull Set<Manager> getSubManagers() {
+        return Set.of();
     }
 
     @Override
-    public boolean init() {
-        currentState = ManagerState.ACTIVE;
-        return true;
+    protected void doInit() {
     }
 
     @Override
-    public @NotNull ManagerState getState() {
-        return currentState;
+    protected void doCleanup() {
+        parties.clear();
+    }
+
+    // Serialization Methods
+
+    @Override
+    protected @NotNull JSONObject doToJson() {
+        return new JSONObject(getClass().getSimpleName());
     }
 
     @Override
-    public boolean cleanup() {
-        currentState = ManagerState.INACTIVE;
-        return true;
+    protected void doFromJson(@NotNull JSONObject json) {
     }
 
-    public @Nullable Party getPartyById(@NotNull Uuid id) {
-        return parties.stream().filter(p -> p.getId().equals(id)).findFirst().orElse(null);
+    // Instance Methods
+
+    // Parties
+
+    public @NotNull Party createParty() {
+        Party party = new Party();
+        parties.add(party);
+        return party;
     }
 
-    @Override
-    public JSONObject toJson() {
-        return null;
+    public @NotNull Optional<Party> matchParty(@NotNull String partyName) {
+        return parties.stream().filter(party -> party.getName().equals(partyName)).findFirst();
     }
 
-    @Override
-    public Manager fromJson(JSONObject json) {
-        return null;
-    }
 }

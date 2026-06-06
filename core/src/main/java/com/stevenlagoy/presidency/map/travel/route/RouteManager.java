@@ -144,7 +144,7 @@ public class RouteManager extends Manager {
     }
 
     public @NotNull Optional<Roadway.RoadwayDesignation> matchRoadwayDesignation(@NotNull String designationName) {
-        requireOperational();
+        requireState(ManagerState.ACTIVE, ManagerState.PAUSED, ManagerState.DEGRADED, ManagerState.INITIALIZING);
         return roadwayDesignations.stream().filter(designation -> designation.getName().equals(designationName)).findFirst();
     }
 
