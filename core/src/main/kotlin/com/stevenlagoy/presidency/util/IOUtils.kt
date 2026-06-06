@@ -3,16 +3,6 @@ package com.stevenlagoy.presidency.util
 
 import java.nio.file.Files
 import java.nio.file.Path
-import java.util.*
-import kotlin.io.path.listDirectoryEntries
-import kotlin.io.path.writeText
-
-//enum class FileExtension(extension: String) {
-//    ALL(""),
-//    JSON(".json"),
-//    CSV(".csv"),
-//    TEXT(".txt"),
-//}
 
 @JvmOverloads
 fun Path.listFiles(extension: IOUtils.FileExtension = IOUtils.FileExtension.ALL): Set<Path> {

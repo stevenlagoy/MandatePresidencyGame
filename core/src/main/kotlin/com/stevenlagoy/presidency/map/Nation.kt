@@ -6,7 +6,7 @@ import com.stevenlagoy.presidency.demographics.Bloc
 import com.stevenlagoy.presidency.politics.Government
 import kotlin.collections.mapOf
 
-object Nation: MapEntity(Engine.currentInstance.MANAGERS) {
+object Nation: MapEntity(Engine.getInstance()) {
 
     override var fullName: String = "the United States of America"
 
@@ -22,11 +22,11 @@ object Nation: MapEntity(Engine.currentInstance.MANAGERS) {
 
     override var demographics: Map<Bloc, Double> = mapOf()
 
-    override var capital: Municipality? = MANAGERS.MAP_MANAGER.getMunicipalityByUniqueName("Washington, DC")
+    override var capital: Municipality? = ENGINE.MAP_MANAGER.getMunicipalityByUniqueName("Washington, DC")
 
     var states: List<State> = emptyList()
 
-    override val government: Government = MANAGERS.POLITICS_MANAGER.createGovernment()
+    override val government: Government = ENGINE.POLITICS_MANAGER.createGovernment()
 
     override fun toJson() = JSONObject(hashCode().toString(), mapOf(
         "full_name" to fullName,

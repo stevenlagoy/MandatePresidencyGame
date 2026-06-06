@@ -1,13 +1,11 @@
 package com.stevenlagoy.presidency.politics;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.time.LocalDate;
 import java.util.Map;
 
-public class ElectionResult {
-
-    private final LocalDate electionDate;
-    private final Map<String, Integer> candidateVotes;
-    private final Map<String, Party> candidateParties;
+public record ElectionResult(@NotNull LocalDate electionDate, @NotNull Map<String, Integer> candidateVotes, @NotNull Map<String, Party> candidateParties) {
 
     public ElectionResult(LocalDate electionDate, Map<String, Integer> candidateVotes,
             Map<String, Party> candidateParties) {

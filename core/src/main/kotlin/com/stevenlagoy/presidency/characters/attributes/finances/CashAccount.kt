@@ -1,16 +1,12 @@
 package com.stevenlagoy.presidency.characters.attributes.finances
 
-enum class FundType {
-    DISCRETIONARY,
-    OPERATING,
-    SAVINGS,
-    ESCROW,
-    RESERVE,
-}
+import com.stevenlagoy.jsonic.JSONObject
 
 data class CashAccount(
     val balances: MutableMap<FundType, Double> = mutableMapOf()
 ) {
+    constructor (json: JSONObject) : this()
+
     fun deposit(fundType: FundType, amount: Double): Double {
         balances[fundType] = balances.getOrDefault(fundType, 0.0) + amount
         return balances[fundType]!!

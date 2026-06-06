@@ -2,34 +2,37 @@ package com.stevenlagoy.presidency.demographics
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.Jsonic
+import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.util.Logger
 
 class Demographics (
+    val ENGINE: Engine,
     generation: Bloc,
     religion: Bloc,
     raceEthnicity: Bloc,
     presentation: Bloc
 ) : Jsonic<Demographics> {
 
-    constructor(other: Demographics) : this(other.generation, other.religion, other.raceEthnicity, other.presentation)
+    constructor(other: Demographics) : this(other.ENGINE, other.generation, other.religion, other.raceEthnicity, other.presentation)
 
     constructor(
-        DEMOGRAPHICS_MANAGER: DemographicsManager,
+        ENGINE: Engine,
         generationBlocName: String,
         religionBlocName: String,
         raceEthnicityBlocName: String,
         presentationBlocName: String
     ) : this(
-        DEMOGRAPHICS_MANAGER.matchBlocName(generationBlocName)!!,
-        DEMOGRAPHICS_MANAGER.matchBlocName(religionBlocName)!!,
-        DEMOGRAPHICS_MANAGER.matchBlocName(raceEthnicityBlocName)!!,
-        DEMOGRAPHICS_MANAGER.matchBlocName(presentationBlocName)!!,
+        ENGINE,
+        ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName(generationBlocName)!!,
+        ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName(religionBlocName)!!,
+        ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName(raceEthnicityBlocName)!!,
+        ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName(presentationBlocName)!!,
     )
 
     var generation = generation
         set(value) {
             if (value.category != DemographicCategory.GENERATION) {
-                Logger.log("INVALID BLOC GROUP", "The bloc \"${value.name}\" of type ${value.category} was assigned to a demographic category of type GENERATION.", Exception())
+                Logger.error("INVALID BLOC GROUP", "The bloc \"${value.name}\" of type ${value.category} was assigned to a demographic category of type GENERATION.", Exception())
                 return
             }
             field = value
@@ -38,7 +41,7 @@ class Demographics (
     var religion = religion
         set(value) {
             if (value.category != DemographicCategory.RELIGION) {
-                Logger.log("INVALID BLOC GROUP", "The bloc \"${value.name}\" of type ${value.category} was assigned to a demographic category of type RELIGION.", Exception())
+                Logger.error("INVALID BLOC GROUP", "The bloc \"${value.name}\" of type ${value.category} was assigned to a demographic category of type RELIGION.", Exception())
                 return
             }
             field = value
@@ -47,7 +50,7 @@ class Demographics (
     var raceEthnicity = raceEthnicity
         set(value) {
             if (value.category != DemographicCategory.RACE_ETHNICITY) {
-                Logger.log("INVALID BLOC GROUP", "The bloc \"${value.name}\" of type ${value.category} was assigned to a demographic category of type RACE_ETHNICITY.", Exception())
+                Logger.error("INVALID BLOC GROUP", "The bloc \"${value.name}\" of type ${value.category} was assigned to a demographic category of type RACE_ETHNICITY.", Exception())
                 return
             }
             field = value
@@ -56,11 +59,18 @@ class Demographics (
     var presentation = presentation
         set(value) {
             if (value.category != DemographicCategory.PRESENTATION) {
-                Logger.log("INVALID BLOC GROUP", "The bloc \"${value.name}\" of type ${value.category} was assigned to a demographic category of type PRESENTATION.", Exception())
+                Logger.error("INVALID BLOC GROUP", "The bloc \"${value.name}\" of type ${value.category} was assigned to a demographic category of type PRESENTATION.", Exception())
                 return
             }
             field = value
         }
+
+    init {
+        assert(generation.category == DemographicCategory.GENERATION)
+        assert(religion.category == DemographicCategory.RELIGION)
+        assert(raceEthnicity.category == DemographicCategory.RACE_ETHNICITY)
+        assert(presentation.category == DemographicCategory.PRESENTATION)
+    }
 
     val blocs: Set<Bloc> get() = setOf(generation, religion, raceEthnicity, presentation)
 
@@ -78,8 +88,11 @@ class Demographics (
         "presentation" to presentation.name,
     ))
 
-    override fun fromJson(json: JSONObject): Demographics {
-        return this
+    override fun fromJson(json: JSONObject) = this.apply {
+        generation = ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName(json.get("generation") as String)!!
+        religion = ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName(json.get("religion") as String)!!
+        raceEthnicity = ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName(json.get("race_ethnicity") as String)!!
+        presentation = ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName(json.get("presentation") as String)!!
     }
 
 }

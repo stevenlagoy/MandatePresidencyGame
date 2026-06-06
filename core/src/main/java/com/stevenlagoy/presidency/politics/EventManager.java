@@ -10,60 +10,58 @@ package com.stevenlagoy.presidency.politics;
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
-import com.stevenlagoy.presidency.util.Logger;
+import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
+import java.util.Set;
+
+/**
+ * <h1>EVENT MANAGER</h1>
+ * {@code ~/politics/EventManager.java}
+ * <p>
+ *     <b>Author:  </b> Steven LaGoy                <br>
+ *     <b>Created: </b> 10 December 2026 at 8:21 AM <br>
+ *     <b>Modified:</b> 02 June 2026                <br>
+ * </p>
+ *
+ * EventManager is responsible for creating and managing events, including scripted and scheduled
+ * events as well as incidental and random events.
+ *
+ * @author Steven LaGoy
+ */
 public class EventManager extends Manager {
 
-    private final Engine ENGINE;
-    private ManagerState currentState;
+    // Constructor
 
-    public EventManager(Engine engine) {
-        this.ENGINE = engine;
-        currentState = ManagerState.INACTIVE;
+    public EventManager(@NotNull Engine engine, @NotNull Manager superManager) {
+        super(engine, superManager);
     }
 
-    // MANAGER METHODS
-    // ----------------------------------------------------------------------------
+    // Manager Methods
 
     @Override
-    public boolean init() {
-        boolean successFlag = true;
-        double startTime = ENGINE.getProgramTime();
-        Logger.log(String.format("%s starting at %f", this.getClass().getSimpleName(), startTime));
-        currentState = successFlag ? ManagerState.ACTIVE : ManagerState.ERROR;
-        double endTime = ENGINE.getProgramTime();
-        Logger.log(String.format("%s initialized %s at %f. Elapsed: %f", this.getClass().getSimpleName(),
-                successFlag ? "successfully" : "unsuccessfully", endTime, endTime - startTime));
-        return successFlag;
-    }
-
-    @NotNull
-    @Override
-    public ManagerState getState() {
-        return currentState;
+    @Contract(pure = true)
+    public @NotNull Set<Manager> getSubManagers() {
+        return Set.of();
     }
 
     @Override
-    public boolean cleanup() {
-        boolean successFlag = true;
-        currentState = ManagerState.INACTIVE;
-        if (!successFlag)
-            currentState = ManagerState.ERROR;
-        return successFlag;
-    }
-
-    // REPRESENTATION METHODS ---------------------------------------------------------------------
-
-    @Override
-    public JSONObject toJson() {
-        return new JSONObject();
+    public void doInit() {
     }
 
     @Override
-    public Manager fromJson(JSONObject json) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'fromJson'");
+    protected void doCleanup() {
+    }
+
+    // Serialization Methods
+
+    @Override
+    protected @NotNull JSONObject doToJson() {
+        return new JSONObject(getClass().getSimpleName());
+    }
+
+    @Override
+    protected void doFromJson(@NotNull JSONObject json) {
     }
 
     /*

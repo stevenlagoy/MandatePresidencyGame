@@ -1,33 +1,31 @@
-/*
- * LanguageManager.java
- * Steven LaGoy
- * Created: 26 August 2025
- * Modified: 26 August 2025
- */
-
 package com.stevenlagoy.presidency.core;
-
-import java.lang.reflect.Field;
-import java.nio.file.Path;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.JSONProcessor;
 import com.stevenlagoy.presidency.util.FilePaths;
-import com.stevenlagoy.presidency.util.Logger;
+import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
+import java.nio.file.Path;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
 /**
- * The LanguageManager tracks the current game language and provides
- * localization for tags.
+ * <h1>LANGUAGE MANAGER</h1>
+ * {@code ~/core/LanguageManager.java}
+ * <p>
+ *     <b>Author:  </b> Steven LaGoy   <br>
+ *     <b>Created: </b> 26 August 2025 <br>
+ *     <b>Modified:</b> 02 June 2026   <br>
+ * </p>
+ *
+ * The LanguageManager tracks the current game language and provides localization for tags.
  */
 public final class LanguageManager extends Manager {
 
-    // STATIC CLASS VARIABLES
-    // ---------------------------------------------------------------------
+    // Static Variables
 
     /** Possible languages in which to display game text. */
     public enum Language {
@@ -44,113 +42,100 @@ public final class LanguageManager extends Manager {
         TR("Türkçe");
 
         public final String name;
-
         Language(String name) {
             this.name = name;
         }
 
-        public static Language fromName(String name) {
+        public static @NotNull Language fromName(String name) throws IllegalArgumentException {
             for (Language lang : Language.values())
                 if (lang.name.equals(name))
                     return lang;
             throw new IllegalArgumentException("Invalid language name: " + name);
         }
 
-        public static Language label(String label) {
-            String target = label.trim().toUpperCase().replace("\\s", "_");
-            for (Language lang : Language.values())
-                if (lang.toString().equals(target))
-                    return lang;
-            throw new IllegalArgumentException("Invalid language label: " + label);
-        }
-
         public static final Language defaultLanguage = Language.EN;
     }
 
-    // INSTANCE VARIABLES
-    // -------------------------------------------------------------------------
+    // Instance Fields
 
     /** Current language of the game. */
-    private Language gameLanguage;
+    private @NotNull Language gameLanguage;
     /** For each language, stores tag : sentence pairs for localization tags. */
-    public Map<Language, Map<String, String>> localizations;
+    public final @NotNull Map<Language, Map<String, String>> localizations;
 
-    private final Engine ENGINE;
-    /** State of the Manager. */
-    private ManagerState currentState;
-
-    // CONSTRUCTORS
-    // -------------------------------------------------------------------------------
+    // Constructor
 
     /** Create an inactive LanguageManager with default values. */
-    public LanguageManager(Engine engine) {
-        this.ENGINE = engine;
-        currentState = ManagerState.INACTIVE;
+    public LanguageManager(@NotNull Engine engine, @NotNull Manager superManager) {
+        super(engine, superManager);
         gameLanguage = Language.defaultLanguage;
         localizations = new HashMap<>();
     }
 
-    // MANAGER METHODS
-    // ----------------------------------------------------------------------------
+    // Manager Methods
 
-    /** Initialize and Activate this LanguageManager. */
     @Override
-    public boolean init() {
-        boolean successFlag = true;
-        double startTime = ENGINE.getProgramTime();
-        Logger.log(String.format("%s starting at %f", this.getClass().getSimpleName(), startTime));
-        if (gameLanguage == null)
+    @Contract(pure = true)
+    public @NotNull Set<Manager> getSubManagers() {
+        return Set.of();
+    }
+
+    @Override
+    protected void doInit() {
+        loadLocalizations(gameLanguage);
+    }
+
+    @Override
+    protected void doCleanup() {
+        gameLanguage = Language.defaultLanguage;
+        localizations.clear();
+    }
+
+    @Override
+    protected void onDegraded(Exception e) {
+        super.onDegraded(e);
+        transitionTo(ManagerState.ACTIVE);
+    }
+
+    @Override
+    protected void onError(Exception e) {
+        super.onError(e);
+    }
+
+    // Serialization Methods
+
+    @Override
+    protected @NotNull JSONObject doToJson() {
+        return new JSONObject(getClass().getSimpleName(), List.of(
+            new JSONObject("gameLanguage", gameLanguage.name)
+        ));
+    }
+
+    @Override
+    public void doFromJson(@NotNull JSONObject json) {
+        try {
+            gameLanguage = Language.valueOf(json.get("gameLanguage", String.class));
+        } catch (IllegalArgumentException e) {
+            onDegraded(e);
             gameLanguage = Language.defaultLanguage;
-        if (localizations == null)
-            localizations = new HashMap<>();
-        successFlag = successFlag && loadLocalizations(gameLanguage);
-        currentState = successFlag ? ManagerState.ACTIVE : ManagerState.ERROR;
-        double endTime = ENGINE.getProgramTime();
-        Logger.log(String.format("%s initialized %s at %f. Elapsed: %f", this.getClass().getSimpleName(),
-                successFlag ? "successfully" : "unsuccessfully", endTime, endTime - startTime));
-        return successFlag;
+        }
     }
 
-    /** Get the current State of this LanguageManager. */
-    @NotNull
-    @Override
-    public ManagerState getState() {
-        return currentState;
-    }
-
-    /** Deactivate and clean up the data of this LanguageManager. */
-    @Override
-    public boolean cleanup() {
-        boolean successFlag = true;
-        currentState = ManagerState.INACTIVE;
-        gameLanguage = null;
-        localizations = null;
-        if (!successFlag)
-            currentState = ManagerState.ERROR;
-        return successFlag;
-    }
-
-    // GETTERS AND SETTERS
-    // ------------------------------------------------------------------------
+    // Getters and Setters
 
     // Game Language : Language
-    public Language getGameLanguage() {
+    public @NotNull Language getGameLanguage() {
+        requireOperational();
         return gameLanguage;
     }
 
     /**
-     * Loads localization for the language, and if successful sets the game
-     * language.
-     *
-     * @return {@code true} if successfully loaded and set language, {@code false}
-     *         otherwise.
+     * Loads localization for the language, and if successful sets the game language.
      */
-    public boolean setGameLanguage(Language language) {
-        if (loadLocalizations(language)) {
-            gameLanguage = language;
-            return true;
-        }
-        return false;
+    public void setGameLanguage(@NotNull Language language) {
+        requireOperational();
+        gameLanguage = language;
+        loadLocalizations(language);
     }
 
     // Localizations : Map of String to String
@@ -159,64 +144,38 @@ public final class LanguageManager extends Manager {
      *
      * @see #getLocalization(String, Language)
      */
-    public String getLocalization(String tag) {
-        if (gameLanguage == null) {
-            Logger.log("UNINITIALIZED GAME LANGUAGE",
-                    String.format("The game language was never initialized or was set to null."), new Exception());
-            return null;
-        }
+    public @NotNull String getLocalization(@NotNull String tag) {
+        requireOperational();
         return getLocalization(tag, gameLanguage);
     }
 
     /**
-     * Get the localization for a given tag in the given language. Will attempt to
-     * find
-     * localization for the tag as passed, in lower and upper case, with whitespaces
-     * changed to
-     * underscores, and with all combinations of the above. If unsuccessful, the
-     * original tag will
+     * Get the localization for a given tag in the given language. Will attempt to find
+     * localization for the tag as passed, in lower and upper case, with whitespaces changed to
+     * underscores, and with all combinations of the above. If unsuccessful, the original tag will
      * be returned and the failure will be logged.
      */
-    public String getLocalization(String tag, Language language) {
-        if (!loadLocalizations(language)) {
-            return "INVALID LANGUAGE";
-        }
+    public @NotNull String getLocalization(@NotNull String tag, @NotNull Language language) {
+        requireOperational();
+        loadLocalizations(language);
         Map<String, String> langLocs = localizations.get(language);
-        String res = null;
-        if (res == null) { // Get with tag as passed
-            res = langLocs.get(tag);
-        }
-        if (res == null) { // Get with lowercase tag
-            res = langLocs.get(tag.toLowerCase());
-        }
-        if (res == null) { // Get with uppercase tag
-            res = langLocs.get(tag.toUpperCase());
-        }
-        if (res == null) { // Get with spaces replaced with underscores
-            res = langLocs.get(tag.replace(" ", "_"));
-        }
-        if (res == null) { // Lowercase and Underscores
-            res = langLocs.get(tag.replace(" ", "_").toLowerCase());
-        }
-        if (res == null) { // Uppercase and Underscores
-            res = langLocs.get(tag.replace(" ", "_").toUpperCase());
-        }
-        if (res == null) { // Could not identify tag
-            Logger.log("INVALID LOCALIZATION TAG",
-                    String.format("Attempted to access localization tag %s for language %s, which is invalid.", tag,
-                            language.toString()),
-                    new Exception());
-            return tag;
-        }
-        return res;
+        // Try localizing with several variations of the tag
+        String res = langLocs.get(tag);
+        res = res == null ? langLocs.get(tag.toLowerCase()) : res;
+        res = res == null ? langLocs.get(tag.toUpperCase()) : res;
+        res = res == null ? langLocs.get(tag.replace(" ", "_")) : res;
+        res = res == null ? langLocs.get(tag.replace(" ", "_").toLowerCase()) : res;
+        res = res == null ? langLocs.get(tag.replace(" ", "_").toUpperCase()) : res;
+        if (res != null) return res;
+        // Could not localize
+        onDegraded(new IllegalArgumentException("Could not localize tag " + tag + " into language " + language));
+        return tag;
     }
 
     /** Load the localizations for a given language. */
-    public boolean loadLocalizations(Language language) {
-        if (localizations.containsKey(language))
-            return true;
-
-        boolean successFlag = true;
+    public void loadLocalizations(Language language) {
+        requireState(ManagerState.INITIALIZING, ManagerState.ACTIVE, ManagerState.PAUSED, ManagerState.DEGRADED);
+        if (localizations.containsKey(language)) return;
 
         HashMap<String, String> local = new HashMap<>();
 
@@ -230,67 +189,5 @@ public final class LanguageManager extends Manager {
             }
         }
         localizations.put(language, local);
-
-        return successFlag;
     }
-
-    // REPRESENTATION METHODS
-    // ---------------------------------------------------------------------
-
-    private static final Map<String, String> fieldsJsons = Map.of(
-            "gameLanguage", "game_language"
-    );
-
-    @Override
-    public JSONObject toJson() {
-        if (currentState != ManagerState.ACTIVE)
-            throw new IllegalStateException(this.getClass().getSimpleName() + " has not been initialized.");
-        try {
-            List<JSONObject> fields = new ArrayList<>();
-            for (String fieldName : fieldsJsons.keySet()) {
-                Field field = getClass().getDeclaredField(fieldName);
-                fields.add(new JSONObject(fieldName, field.get(this)));
-            }
-            return new JSONObject(this.getClass().getSimpleName(), fields);
-        }
-        catch (NoSuchFieldException | IllegalAccessException e) {
-            currentState = ManagerState.ERROR;
-            Logger.log("JSON SERIALIZATION ERROR", "Failed to serialize " + getClass().getSimpleName() + " to JSON.",
-                    e);
-            return null;
-        }
-    }
-
-    @Override
-    public Manager fromJson(JSONObject json) {
-        currentState = ManagerState.INACTIVE;
-        for (String fieldName : fieldsJsons.keySet()) {
-            String jsonKey = fieldsJsons.get(fieldName);
-            Object value = json.get(jsonKey);
-            if (value == null)
-                continue;
-            try {
-                Field field = getClass().getDeclaredField(fieldName);
-                field.setAccessible(true);
-                Class<?> type = field.getType();
-                if (type.isEnum()) {
-                    // For enums, convert string to enum constant
-                    @SuppressWarnings({ "unchecked", "rawtypes" })
-                    Object enumValue = Enum.valueOf((Class<Enum>) type, value.toString());
-                    field.set(this, enumValue);
-                }
-                else {
-                    // For other types, set directly (may need conversion for complex types)
-                    field.set(this, value);
-                }
-            }
-            catch (Exception e) {
-                currentState = ManagerState.ERROR;
-                Logger.log("JSON DESERIALIZATION ERROR",
-                        "Failed to set field " + fieldName + " in LanguageManager from JSON.", e);
-            }
-        }
-        return this;
-    }
-
 }

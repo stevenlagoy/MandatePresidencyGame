@@ -36,6 +36,8 @@ data class Skills(
 ) : Jsonic<Skills>
 {
 
+    constructor(legislative: Int, executive: Int, judicial: Int) : this(legislative, executive, judicial, 0)
+
     constructor(json: JSONObject) : this() { fromJson(json) }
 
     val legislativeSkill: Int

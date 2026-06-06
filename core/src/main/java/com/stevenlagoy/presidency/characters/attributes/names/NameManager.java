@@ -22,25 +22,24 @@ import java.util.stream.Collectors;
  * <h1>NAME MANAGER</h1>
  * {@code ~/characters/attributes/names/NameManager.java}
  * <p>
- *     <b>Author:</b>
- *     Steven LaGoy
- *     <br>
- *     <b>Created:</b>
- *     01 June 2025 at 1:04 AM
- *     <br>
- *     <b>Modified:</b>
- *     08 April 2026
+ *     <b>Author:  </b> Steven LaGoy            <br>
+ *     <b>Created: </b> 01 June 2025 at 1:04 AM <br>
+ *     <b>Modified:</b> 04 June 2026            <br>
  * </p>
- * NameManager is responsible for creating and maintaining information about PersonalNames
+ *
+ * NameManager is responsible for creating and maintaining information about {@link PersonalName} attributes.
+ *
  * @implNote PersonalName is an abstract class with several concretions. This class violates the open-closed principle as specific name forms (concretions)
  * must each have separate implementation details. At this time, this is considered acceptable because the number of possible name forms is not
  * expected to increase quickly enough to warrant a more abstract strategy-pattern solution to concrete name class construction.
+ *
+ * @author Steven LaGoy
  */
 public class NameManager extends Manager {
 
-    // CONSTANTS ----------------------------------------------------------------------------------------------------------------------------------------------
+    // Constants
 
-    // PERCENTAGES FOR WESTERN-STYLE NAMES
+    // Percentages for Western-style names
     /** Percentage of people with multiple first names. Percentage for three first names is this value squared, and so on. */
     public static final float multipleFirstNamesPercent = 0.01f;
     /** Percentage of people who have one or more middle names. */
@@ -97,7 +96,7 @@ public class NameManager extends Manager {
     public static final float nonBinaryMrHonorificPercent = 0.20f;
     public static final float nonBinaryMsHonorificPercent = 0.20f;
 
-    // PERCENTAGES FOR HISPANIC-STYLE NAMES
+    // Percentages for Hispanic-style names
     /** Percentage of Hispanic people who have a Hispanic-style name. */
     public static final float hispanicHispanicNamePercent = 0.80f;
     /** Percentage of Hispanic people with multiple forenames. Percentage for three forenames is this value squared, and so on. */
@@ -114,7 +113,7 @@ public class NameManager extends Manager {
         "Hispanic", Set.of(" ", " y ", "-", " de ") // Catch-all
     );
 
-    // PERCENTAGES FOR EASTERN-STYLE NAMES
+    // Percentages for Eastern-style names
     /** Percentage of Asian people who have an Eastern-style name. */
     public static final float asianEasternNamePercent = 0.30f;
     /** Percentage of people with a generation name. */
@@ -124,78 +123,82 @@ public class NameManager extends Manager {
     /** Percentage of people who place their western name before their traditional name. */
     public static final float westernNameFirstPercent = 0.33f;
 
-    // PERCENTAGES FOR NATIVE-AMERICAN-STYLE NAMES
+    // Percentages for Native-American-style names
     public static final float nativeNativeNamePercent = 0.25f;
 
+    public record NameContext(Demographics demographics, int age, Family family) {}
 
-    public record NameContext(Demographics demographics, int age, Family family, MapEntity location) {}
+    // Instance Fields
 
-    // INSTANCE FIELDS ----------------------------------------------------------------------------
+    private final @NotNull Map<Set<Bloc>, Map<String, Double>> givenNamesDistribution;
+    private final @NotNull Map<Set<Bloc>, Map<String, Double>> familyNamesDistribution;
+    private final @NotNull Map<Set<Bloc>, Map<String, Double>> generationNamesDistribution;
+    private final @NotNull Map<String, List<String>> nicknames;
 
-    private Map<Set<Bloc>, Map<String, Double>> givenNamesDistribution;
-    private Map<Set<Bloc>, Map<String, Double>> familyNamesDistribution;
-    private Map<Set<Bloc>, Map<String, Double>> generationNamesDistribution;
-    private Map<String, List<String>> nicknames;
+    // Constructors
 
-    private final Engine ENGINE;
-    private ManagerState currentState;
-
-    // CONSTRUCTOR --------------------------------------------------------------------------------
-
-    public NameManager(Engine engine) {
-        ENGINE = engine;
-        currentState = ManagerState.INACTIVE;
-
+    public NameManager(@NotNull Engine engine, @NotNull Manager superManager) {
+        super(engine, superManager);
         givenNamesDistribution      = new HashMap<>();
         familyNamesDistribution     = new HashMap<>();
         generationNamesDistribution = new HashMap<>();
         nicknames                   = new HashMap<>();
     }
 
-    // MANAGER METHODS ----------------------------------------------------------------------------
+    // Manager Methods
 
     @Override
-    public boolean init() {
+    public @NotNull Set<Manager> getSubManagers() {
+        return Set.of();
+    }
+
+    @Override
+    protected void doInit() {
         readGivenNamesData();
         readFamilyNamesData();
         readGenerationNamesData();
         readNicknamesData();
-        currentState = ManagerState.ACTIVE;
-        return true;
     }
 
     @Override
-    public boolean cleanup() {
-        currentState = ManagerState.INACTIVE;
-        return true;
+    protected void doCleanup() {
+        givenNamesDistribution.clear();
+        familyNamesDistribution.clear();
+        generationNamesDistribution.clear();
+        nicknames.clear();
     }
 
-    @NotNull
+    // Serialization Methods
+
     @Override
-    public ManagerState getState() {
-        return currentState;
+    protected @NotNull JSONObject doToJson() {
+        return new JSONObject(getClass().getSimpleName());
     }
 
-    // INSTANCE METHODS ---------------------------------------------------------------------------
+    @Override
+    protected void doFromJson(@NotNull JSONObject json) {
+    }
+
+    // Instance Methods
 
     private void readGivenNamesData() {
         JSONObject json = JSONProcessor.processJson(FilePaths.GIVEN_NAMES);
-        givenNamesDistribution = processNamesStructure(json);
+        givenNamesDistribution.putAll(processNamesStructure(json));
     }
 
     private void readFamilyNamesData() {
         JSONObject json = JSONProcessor.processJson(FilePaths.FAMILY_NAMES);
-        familyNamesDistribution = processNamesStructure(json);
+        familyNamesDistribution.putAll(processNamesStructure(json));
     }
 
     private void readGenerationNamesData() {
         JSONObject json = JSONProcessor.processJson(FilePaths.GENERATION_NAMES);
-        generationNamesDistribution = processNamesStructure(json);
+        generationNamesDistribution.putAll(processNamesStructure(json));
     }
 
     private void readNicknamesData() {
         JSONObject json = JSONProcessor.processJson(FilePaths.NICKNAMES);
-        nicknames = new HashMap<>();
+        nicknames.clear();
         for (Object obj : json.getAsList()) {
             if (!(obj instanceof JSONObject entry)) continue;
             String key = entry.getKey();
@@ -233,7 +236,7 @@ public class NameManager extends Manager {
             else if (value instanceof List<?>) {
                 // This is a nested structure
                 // If key is a valid bloc, add it to a new bloc set
-                Bloc bloc = ENGINE.MANAGERS.DEMOGRAPHICS_MANAGER.matchBlocName(key);
+                Bloc bloc = ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName(key);
                 Set<Bloc> updatedBlocs = new HashSet<>(currentBlocs);
                 updatedBlocs.add(bloc);
                 // Recurse with updated bloc set
@@ -247,20 +250,6 @@ public class NameManager extends Manager {
         return distributions;
     }
 
-    // JSONIC -------------------------------------------------------------------------------------
-
-    @Override
-    public JSONObject toJson() {
-        return new JSONObject("NameManager", Map.of(
-
-        ));
-    }
-
-    @Override
-    public NameManager fromJson(JSONObject json) {
-        return this;
-    }
-
     // NAME BUILDER -------------------------------------------------------------------------------
 
     /**
@@ -272,7 +261,11 @@ public class NameManager extends Manager {
      * @return Complete Personal Name instance catered to the passed information
      */
     public @NotNull PersonalName buildPersonalName(@NotNull Demographics demographics, int age, @NotNull Family family, @NotNull MapEntity location) {
-        return buildPersonalName(new NameContext(demographics, age, family, location));
+        return buildPersonalName(new NameContext(demographics, age, family));
+    }
+
+    public @NotNull PersonalName buildPersonalName(@NotNull Demographics demographics, int age, @NotNull Family family, @NotNull MapEntity location, Class<? extends PersonalName> nameForm) {
+        return buildPersonalName(new NameContext(demographics, age, family), nameForm);
     }
 
     /**
@@ -281,7 +274,10 @@ public class NameManager extends Manager {
      * @return Complete Personal Name instance catered to the Name Context
      */
     public @NotNull PersonalName buildPersonalName(@NotNull NameContext context) {
-        Class<? extends PersonalName> nameForm = selectNameForm(context);
+        return buildPersonalName(context, selectNameForm(context));
+    }
+
+    public @NotNull PersonalName buildPersonalName(@NotNull NameContext context, Class<? extends PersonalName> nameForm) {
         PersonalName name;
         if (nameForm.equals(HispanicPersonalName.class)) {
             name = new HispanicPersonalName();
@@ -318,6 +314,24 @@ public class NameManager extends Manager {
             }
         }
         return WesternPersonalName.class;
+    }
+
+    public @NotNull PersonalName emptyName(Demographics demographics, int age, Family family) {
+        return emptyName(new NameContext(demographics, age, family));
+    }
+
+    public @NotNull PersonalName emptyName(@NotNull NameContext context) {
+        Class<? extends PersonalName> nameClass = selectNameForm(context);
+        if (nameClass.equals(EasternPersonalName.class)) {
+            return new EasternPersonalName();
+        }
+        else if (nameClass.equals(WesternPersonalName.class)) {
+            return new WesternPersonalName();
+        }
+        else if (nameClass.equals(HispanicPersonalName.class)) {
+            return new HispanicPersonalName();
+        }
+        return new WesternPersonalName(); // Fallback - never
     }
 
     private void fillHonorific(@NotNull PersonalName name, @NotNull NameContext context) {
@@ -624,14 +638,14 @@ public class NameManager extends Manager {
         // Select a Western name
         String westernName = selectGivenName(new NameContext(
             new Demographics(
+                ENGINE,
                 context.demographics.getGeneration(),
                 context.demographics.getReligion(),
-                Objects.requireNonNull(ENGINE.MANAGERS.DEMOGRAPHICS_MANAGER.matchBlocName("Anglo")),
+                Objects.requireNonNull(ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName("Anglo")),
                 context.demographics.getPresentation()
             ),
             context.age,
-            context.family,
-            context.location
+            context.family
         ));
         name.setWesternName(westernName);
     }
@@ -711,7 +725,7 @@ public class NameManager extends Manager {
 
         // Check that there is a valid combination
         if (validCombinations.isEmpty()) {
-            Logger.log("NO VALID NAMES", String.format("Could not find any valid names with these target demographics: %s", targets));
+            Logger.error("NO VALID NAMES", String.format("Could not find any valid names with these target demographics: %s", targets));
             return new HashMap<>();
         }
 
