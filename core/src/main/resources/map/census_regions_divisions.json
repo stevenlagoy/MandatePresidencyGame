@@ -1,0 +1,49 @@
+{
+    "northeast" : {
+        "name" : "Northeast",
+        "divisions" : {
+            "new_england" : {
+                "name" : "New England"
+            },
+            "mid_atlantic" : {
+                "name" : "Mid-Atlantic"
+            }
+        }
+    },
+    "south" : {
+        "name" : "South",
+        "divisions" : {
+            "south_atlantic" : {
+                "name" : "South Atlantic"
+            },
+            "east_south_central" : {
+                "name" : "East South Central"
+            },
+            "west_south_central" : {
+                "name" : "West South Central"
+            }
+        }
+    },
+    "midwest" : {
+        "name" : "Midwest",
+        "divisions" : {
+            "east_north_central" : {
+                "name" : "East North Central"
+            },
+            "west_north_central" : {
+                "name" : "West North Central"
+            }
+        }
+    },
+    "west" : {
+        "name" : "West",
+        "divisions" : {
+            "mountain" : {
+                "name" : "Mountain"
+            },
+            "pacific" : {
+                "name" : "Pacific"
+            }
+        }
+    }
+}

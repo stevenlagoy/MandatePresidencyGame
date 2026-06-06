@@ -2,9 +2,9 @@
 Splits up large single city_data.json file into state-specific municipality JSON files.
 """
 
-from typing import Set, Dict, Any
 import json
 from pathlib import Path
+from typing import Set, Dict, Any
 
 MUNICIPALITIES_FILE = f"{Path.cwd()}\\..\\raw\\cities_data.json"
 OUTPUT_DIR = f"{Path.cwd()}\\..\\generated\\map"
