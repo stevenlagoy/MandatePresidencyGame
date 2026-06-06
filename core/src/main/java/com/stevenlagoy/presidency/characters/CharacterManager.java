@@ -180,7 +180,7 @@ public class CharacterManager extends Manager {
     /** Context for the creation of citizens and related attributes. */
     public static class CitizenContext {
         // Originally made this a record, but immutability was inconvenient for filling in fields
-        Engine ENGINE;
+        final Engine ENGINE;
         Sex sex;
         Demographics demographics;
         LocalDate birthday;

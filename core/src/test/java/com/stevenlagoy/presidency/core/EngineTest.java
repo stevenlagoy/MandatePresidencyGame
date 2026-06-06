@@ -1,7 +1,6 @@
 package com.stevenlagoy.presidency.core;
 
 import com.stevenlagoy.jsonic.JSONObject;
-import com.stevenlagoy.presidency.util.IOUtils;
 import org.junit.jupiter.api.Test;
 
 public class EngineTest {

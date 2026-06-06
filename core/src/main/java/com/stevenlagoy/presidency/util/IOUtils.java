@@ -92,33 +92,29 @@ public final class IOUtils {
         try {
             pw = IOUtils.createWriter(FilePaths.OUTPUT_FILE.toFile());
         } catch (IOException e) {
-            e.printStackTrace();
+            Logger.error(e);
             pw = new PrintWriter(System.out, true); // fallback to stdout
         }
         logout = pw;
     }
 
     public static Scanner createScanner(InputStream inputStream) {
-        return new Scanner(inputStream, StandardCharsets.UTF_8.name());
+        return new Scanner(inputStream, StandardCharsets.UTF_8);
     }
 
-    public static Scanner createScanner(File file) throws FileNotFoundException {
-        return new Scanner(file, StandardCharsets.UTF_8.name());
+    public static Scanner createScanner(File file) throws IOException {
+        return new Scanner(file, StandardCharsets.UTF_8);
     }
 
     public static PrintWriter createWriter(OutputStream outputStream) {
-        try {
-            return new PrintWriter(new OutputStreamWriter(outputStream, StandardCharsets.UTF_8.name()), true);
-        } catch (UnsupportedEncodingException e) {
-            return new PrintWriter(new OutputStreamWriter(outputStream), true);
-        }
+        return new PrintWriter(new OutputStreamWriter(outputStream, StandardCharsets.UTF_8), true);
     }
 
     public static PrintWriter createWriter(File file) throws IOException {
         // Ensure parent directories exist
         File parent = file.getParentFile();
         if (parent != null && !parent.exists()) {
-            parent.mkdirs();
+            if (!parent.mkdirs()) throw new IOException("Could not create needed directories for the given file.");
         }
         return createWriter(file, false);
     }

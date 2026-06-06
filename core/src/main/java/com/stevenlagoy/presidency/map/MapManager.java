@@ -10,6 +10,7 @@ import com.stevenlagoy.presidency.util.FilePaths;
 import com.stevenlagoy.presidency.util.IOUtils;
 import com.stevenlagoy.presidency.util.Logger;
 import com.stevenlagoy.presidency.util.RandomUtils;
+import net.mgsx.gltf.scene3d.model.CubicVector3;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -185,6 +186,7 @@ public class MapManager extends Manager {
     }
 
     public @NotNull Municipality getMostPopulatedMunicipality() {
+        assert(municipalities.stream().max(Comparator.comparing(Municipality::getPopulation)).isPresent());
         return municipalities.stream().max(Comparator.comparing(Municipality::getPopulation)).get();
     }
 
@@ -246,5 +248,9 @@ public class MapManager extends Manager {
             }
         }
         return municipalities;
+    }
+
+    public @NotNull Optional<University> matchUniversity(@NotNull String name) {
+        return universities.stream().filter(university -> university.getCommonName().equals(name)).findFirst();
     }
 }

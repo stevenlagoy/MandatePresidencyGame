@@ -3,9 +3,7 @@ package com.stevenlagoy.presidency.politics;
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
-import kotlin.uuid.Uuid;
 import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
 
 import java.util.HashSet;
 import java.util.Optional;

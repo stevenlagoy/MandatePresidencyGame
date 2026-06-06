@@ -48,7 +48,7 @@ public class RouteManager extends Manager {
     }
 
     @Override
-    protected void doInit() throws Exception {
+    protected void doInit() {
         readRoadwayTypes();
         readRoadways();
         readAirports();

@@ -17,7 +17,7 @@ class CitizenTest {
     companion object {
         @JvmStatic
         @BeforeAll
-        fun init(): Unit {
+        fun init() {
             ENGINE.init()
             assert(ENGINE.state == Manager.ManagerState.ACTIVE) { "Failed to initialize engine" }
         }

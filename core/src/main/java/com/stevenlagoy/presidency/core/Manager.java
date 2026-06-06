@@ -207,7 +207,7 @@ public abstract class Manager implements Jsonic<Manager> {
     }
 
     /** Complete manager-subclass-specific initialization logic. Should not call {@link #init()} or {@code doInit()} on any Managers (including submanagers). */
-    protected abstract void doInit() throws Exception;
+    protected abstract void doInit();
     /** Complete manager-subclass-specific cleanup logic. Should not call {@link #cleanup()} or {@code doCleanup()} on any Managers (including submanagers). */
     protected abstract void doCleanup();
 

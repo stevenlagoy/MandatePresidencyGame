@@ -74,7 +74,7 @@ class RandomUtilsTest {
         val r = Random(123)
         repeat(10_000) {
             val v = r.nextFloat(5.0f, 10.0f)
-            assertTrue(v >= 5.0f && v < 10.0f)
+            assertTrue(v in 5.0f..<10.0f)
         }
     }
 
