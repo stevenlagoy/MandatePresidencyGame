@@ -4,18 +4,21 @@ import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.Jsonic
 import com.stevenlagoy.presidency.characters.attributes.CharacterAppearance
 import com.stevenlagoy.presidency.characters.attributes.Family
+import com.stevenlagoy.presidency.characters.attributes.Sex
 import com.stevenlagoy.presidency.characters.attributes.finances.FinancialProfile
 import com.stevenlagoy.presidency.characters.attributes.names.PersonalName
+import com.stevenlagoy.presidency.characters.attributes.names.WesternPersonalName
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.demographics.Demographics
 import com.stevenlagoy.presidency.map.Municipality
 import java.time.LocalDate
+import java.util.UUID
 import kotlin.uuid.ExperimentalUuidApi
 import kotlin.uuid.Uuid
 
 /**
  * Base class for any kind of in-game character
- * @property MANAGERS
+ * @property ENGINE
  * @property id
  * @property name
  * @property birthday
@@ -30,17 +33,17 @@ import kotlin.uuid.Uuid
  */
 @OptIn(ExperimentalUuidApi::class)
 open class Citizen(
-    val MANAGERS: Engine.Managers,
-    val id: Uuid,
-    var name: PersonalName,
-    birthday: LocalDate,
-    val demographics: Demographics,
-    val appearance: CharacterAppearance,
-    val family: Family,
-    var origin: Municipality,
-    var location: Municipality,
-    var residence: Municipality,
-    var financialProfile: FinancialProfile?,
+    val ENGINE: Engine,
+    val sex: Sex = Sex.FEMALE,
+    birthday: LocalDate = LocalDate.of(1970, 1, 1),
+    val demographics: Demographics = ENGINE.DEMOGRAPHICS_MANAGER.commonDemographics,
+    val family: Family = Family(ENGINE),
+    val appearance: CharacterAppearance = CharacterAppearance(),
+    val name: PersonalName = WesternPersonalName(),
+    var origin: Municipality = ENGINE.MAP_MANAGER.mostPopulatedMunicipality,
+    var location: Municipality = origin,
+    var residence: Municipality = location,
+    var financialProfile: FinancialProfile? = null,
 ) : Jsonic<Citizen> {
 
     companion object {
@@ -50,17 +53,19 @@ open class Citizen(
         const val MAX_AGE = 120
     }
 
+    val id: Uuid = Uuid.random()
+
     var birthday: LocalDate = birthday
         set(value) {
-            val years = MANAGERS.TIME_MANAGER.yearsAgo(value)
+            val years = ENGINE.TIME_MANAGER.yearsAgo(value)
             field = when {
-                years > MAX_AGE -> MANAGERS.TIME_MANAGER.dateYearsAgo(MAX_AGE.toLong())
-                years < MIN_AGE -> MANAGERS.TIME_MANAGER.currentDate.toLocalDate()
+                years > MAX_AGE -> ENGINE.TIME_MANAGER.dateYearsAgo(MAX_AGE.toLong())
+                years < MIN_AGE -> ENGINE.TIME_MANAGER.currentDate.toLocalDate()
                 else -> value
             }
         }
 
-    val age: Int get() = MANAGERS.TIME_MANAGER.yearsAgo(birthday)
+    val age: Int get() = ENGINE.TIME_MANAGER.yearsAgo(birthday)
 
     override fun fromJson(json: JSONObject) = this.apply {
         name.fromJson(json.get("name") as JSONObject)
@@ -68,10 +73,10 @@ open class Citizen(
         demographics.fromJson(json.get("demographics") as JSONObject)
         appearance.fromJson(json.get("appearance") as JSONObject)
         family.fromJson(json.get("family") as JSONObject)
-        origin = MANAGERS.MAP_MANAGER.getMunicipalityByUniqueName(json.get("origin_municipality") as String)!!
-        location = MANAGERS.MAP_MANAGER.getMunicipalityByUniqueName(json.get("location_municipality") as String)!!
-        residence = MANAGERS.MAP_MANAGER.getMunicipalityByUniqueName(json.get("residence_municipality") as String)!!
-        financialProfile = FinancialProfile(json.get("financial_profile") as JSONObject)
+        origin = ENGINE.MAP_MANAGER.getMunicipalityByUniqueName(json.get("origin_municipality") as String)!!
+        location = ENGINE.MAP_MANAGER.getMunicipalityByUniqueName(json.get("location_municipality") as String)!!
+        residence = ENGINE.MAP_MANAGER.getMunicipalityByUniqueName(json.get("residence_municipality") as String)!!
+        financialProfile = FinancialProfile(ENGINE, json.get("financial_profile") as JSONObject)
     }
 
     override fun toJson() = JSONObject(id.toString(), listOf(

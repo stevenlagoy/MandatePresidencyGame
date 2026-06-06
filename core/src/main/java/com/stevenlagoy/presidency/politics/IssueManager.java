@@ -7,26 +7,19 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.Set;
 
-public class PoliticsManager extends Manager {
-
-    // Instance Fields
-
-    public final PartyManager PARTY_MANAGER;
-    public final IssueManager ISSUE_MANAGER;
+public class IssueManager extends Manager {
 
     // Constructors
 
-    public PoliticsManager(@NotNull Engine engine, @NotNull Manager superManager) {
+    public IssueManager(@NotNull Engine engine, @NotNull Manager superManager) {
         super(engine, superManager);
-        PARTY_MANAGER = new PartyManager(engine, this);
-        ISSUE_MANAGER = new IssueManager(engine, this);
     }
 
     // Manager Methods
 
     @Override
     public @NotNull Set<Manager> getSubManagers() {
-        return Set.of(PARTY_MANAGER, ISSUE_MANAGER);
+        return Set.of();
     }
 
     @Override
@@ -46,12 +39,6 @@ public class PoliticsManager extends Manager {
 
     @Override
     protected void doFromJson(@NotNull JSONObject json) {
-    }
 
-
-    // Creational Methods
-
-    public Government createGovernment() {
-        return null;
     }
 }

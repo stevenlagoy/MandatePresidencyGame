@@ -9,7 +9,7 @@ import com.stevenlagoy.presidency.politics.Government
 import com.stevenlagoy.presidency.politics.Party
 
 class State (
-    MANAGERS: Engine.Managers,
+    ENGINE: Engine,
     override val FIPS: String,
     override var fullName: String = "",
     override var commonName: String = "",
@@ -29,11 +29,14 @@ class State (
     var municipalities: Set<Municipality>? = null,
     var senators: Pair<PoliticalActor?, PoliticalActor?>? = null,
     var representatives: MutableSet<PoliticalActor>? = null,
-) : MapEntity(MANAGERS), HasFIPS, HasPolitics
+    val division: CensusDivision? = null,
+) : MapEntity(ENGINE), HasFIPS, HasPolitics
 {
-    constructor(MANAGERS: Engine.Managers, json: JSONObject) : this(MANAGERS, json.get("FIPS").toString()) { fromJson(json) }
+    constructor(engine: Engine, json: JSONObject) : this(engine, json.get("FIPS").toString()) { fromJson(json) }
 
     val nation = Nation
+
+    val region = division?.region
 
     override val partyControlFactors: List<(party: Party) -> Double> = listOf(
         // Each legislature seat

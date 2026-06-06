@@ -9,7 +9,7 @@ import com.stevenlagoy.presidency.politics.Government
 /**
  * MapEntity is a geographically-located area of the map which can be identified by a name and some basic characteristics, like population and area.
  */
-abstract class MapEntity(val MANAGERS: Engine.Managers): Jsonic<MapEntity> {
+abstract class MapEntity(val ENGINE: Engine): Jsonic<MapEntity> {
 
     /** Full name of this map entity, possibly including a qualifier like 'State of', 'County', or 'Commonwealth of'. */
     abstract var fullName: String
@@ -63,7 +63,7 @@ abstract class MapEntity(val MANAGERS: Engine.Managers): Jsonic<MapEntity> {
         squareMileage = json.get("square_mileage") as Double
         descriptors   = json.get("descriptors") as Set<Descriptor> // From MapManager
         demographics  = emptyMap() // From DemographicsManager
-        capital       = MANAGERS.MAP_MANAGER.getMunicipalityByUniqueName((json.get("capital") as JSONObject).asString)
+        capital       = ENGINE.MAP_MANAGER.getMunicipalityByUniqueName((json.get("capital") as JSONObject).asString)
     }
 
     override fun toString() = """[
