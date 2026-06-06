@@ -5,7 +5,7 @@ import java.util.List;
 public class Caucus implements Convention {
     public static List<Primary> instances = new ArrayList<>();
 
-    public boolean isClosed;
+    public final boolean isClosed;
 
     public Caucus(boolean isClosed){
         this.isClosed = isClosed;
