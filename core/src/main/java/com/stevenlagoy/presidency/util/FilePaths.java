@@ -18,9 +18,11 @@ public final class FilePaths {
     public static final Path OUTPUT_FILE                = LOGS_DIR.resolve("output.txt");
     public static final Path SAVES_DIR                  = CORE.resolve("saves");
 
+    public static final Path POLITICS_RESOURCES         = RESOURCES.resolve("politics");
+
     public static final Path CHARACTERS_RESOURCES       = RESOURCES.resolve("characters");
 
-    public static final Path CONVENTIONS_RESOURCES      = RESOURCES.resolve("conventions");
+    public static final Path CONVENTIONS_RESOURCES      = POLITICS_RESOURCES.resolve("conventions");
 
     public static final Path DATES_RESOURCES            = RESOURCES.resolve("dates");
     public static final Path BIRTHDATE_POPULARITIES     = DATES_RESOURCES.resolve("birthdate_popularities.json");
@@ -46,13 +48,11 @@ public final class FilePaths {
     public static final Path ROADWAYS                   = MAP_RESOURCES.resolve("roadways.json");
     public static final Path SEAPORTS                   = MAP_RESOURCES.resolve("seaports.json");
 
-    public static final Path NAMES_RESOURCES            = RESOURCES.resolve("names");
+    public static final Path NAMES_RESOURCES            = CHARACTERS_RESOURCES.resolve("names");
     public static final Path GIVEN_NAMES                = NAMES_RESOURCES.resolve("given_names.json");
     public static final Path FAMILY_NAMES               = NAMES_RESOURCES.resolve("family_names.json");
     public static final Path GENERATION_NAMES           = NAMES_RESOURCES.resolve("generation_names.json");
     public static final Path NICKNAMES                  = NAMES_RESOURCES.resolve("nicknames.json");
-
-    public static final Path POLITICS_RESOURCES         = RESOURCES.resolve("politics");
 
     public static final Path SYSTEM_RESOURCES           = RESOURCES.resolve("system");
 
