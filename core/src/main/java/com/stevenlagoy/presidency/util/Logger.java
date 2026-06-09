@@ -14,7 +14,7 @@ public final class Logger {
     public static void log(@NotNull String logline) {
         try {
             File logFile = new File(FilePaths.LOG_FILE.toString());
-            if (!logFile.createNewFile()) throw new IOException("Could not create logging file");
+            var ignored = logFile.createNewFile();
             PrintWriter logWriter = new PrintWriter(new FileWriter(logFile, true));
 
             logline = logline.replace("\n", " | ").replace("\r", "");
@@ -42,7 +42,7 @@ public final class Logger {
     public static void error(@NotNull String errorline) {
         try {
             File errorFile = new File(FilePaths.ERROR_FILE.toString());
-            if (!errorFile.createNewFile()) throw new IOException("Could not create error file");
+            var ignored = errorFile.createNewFile();
             PrintWriter errorWriter = new PrintWriter(new FileWriter(errorFile, true));
 
             errorline = errorline.replace("\n", " | ").replace("\r", "");
@@ -68,7 +68,7 @@ public final class Logger {
     public static void error(Exception logE) {
         try {
             File errorFile = new File(FilePaths.ERROR_FILE.toString());
-            if (!errorFile.createNewFile()) throw new IOException("Could not create error file");
+            var ignored = errorFile.createNewFile();
             PrintWriter errorWriter = new PrintWriter(new FileWriter(errorFile, true));
 
             StringWriter sw = new StringWriter();
@@ -95,7 +95,7 @@ public final class Logger {
     public static void error(String context, String errorline) {
         try {
             File errorFile = new File(FilePaths.ERROR_FILE.toString());
-            if (!errorFile.createNewFile()) throw new IOException("Could not create error file");
+            var ignored = errorFile.createNewFile();
             PrintWriter errorWriter = new PrintWriter(new FileWriter(errorFile, true));
 
             errorline = errorline.replace("\n", " | ").replace("\r", "");
@@ -120,7 +120,7 @@ public final class Logger {
     public static void error(String context, String errorline, Exception logE) {
         try {
             File errorFile = new File(FilePaths.ERROR_FILE.toString());
-            if (!errorFile.createNewFile()) throw new IOException("Could not create error file");
+            var ignored = errorFile.createNewFile();;
             PrintWriter logWriter = new PrintWriter(new FileWriter(errorFile, true));
 
             StringWriter sw = new StringWriter();
@@ -153,7 +153,7 @@ public final class Logger {
         boolean successFlag = true;
         try {
             File errorFile = new File(FilePaths.ERROR_FILE.toString());
-            if (!errorFile.createNewFile()) throw new IOException("Could not create error file");
+            var ignored = errorFile.createNewFile();
             FileOutputStream errorStream = new FileOutputStream(errorFile, false);
             errorStream.close();
         } catch (IOException e) {
