@@ -11,6 +11,7 @@ import com.stevenlagoy.presidency.characters.attributes.Personality
 import com.stevenlagoy.presidency.characters.attributes.Role
 import com.stevenlagoy.presidency.characters.attributes.Sex
 import com.stevenlagoy.presidency.characters.attributes.Skills
+import com.stevenlagoy.presidency.characters.attributes.experiences.ExperienceHistory
 import com.stevenlagoy.presidency.characters.attributes.finances.FinancialProfile
 import com.stevenlagoy.presidency.characters.attributes.names.PersonalName
 import com.stevenlagoy.presidency.core.Engine
@@ -37,7 +38,7 @@ open class PoliticalActor(
     location: Municipality,
     residence: Municipality,
     financialProfile: FinancialProfile?,
-    val experiences: MutableList<Experience>,
+    val experiences: ExperienceHistory,
     val education: Education,
     val skills: Skills,
     val roles: MutableList<Role>,
@@ -77,7 +78,7 @@ open class PoliticalActor(
         partyAffiliation = ENGINE.POLITICS_MANAGER.PARTY_MANAGER.matchParty(json.get("party_affiliation_id", String::class.java)).get()
         skills.fromJson(json.get("skills") as JSONObject)
         personality.fromJson(json.get("personality") as JSONObject)
-        (json.get("experiences") as List<*>).forEach { experience -> experiences.add(experience as Experience) }
+        ExperienceHistory(ENGINE, json.get("experiences", JSONObject::class.java))
         issuePositions.fromJson(json.get("issue_positions") as JSONObject)
         candidacy = Candidacy(ENGINE, json.get("candidacy") as JSONObject)
     }
@@ -89,7 +90,7 @@ open class PoliticalActor(
         JSONObject("party_affiliation_id", partyAffiliation?.name),
         JSONObject("skills", skills.toJson()),
         JSONObject("personality", personality.toJson()),
-        JSONObject("experiences", experiences),
+        JSONObject("experiences", experiences.toJson()),
         JSONObject("issue_positions", issuePositions.toJson()),
         JSONObject("candidacy", candidacy?.toJson()),
     ))

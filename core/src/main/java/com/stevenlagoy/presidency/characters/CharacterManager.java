@@ -65,6 +65,7 @@ public class CharacterManager extends Manager {
     public final AppearanceManager APPEARANCE_MANAGER;
     public final PersonalityManager PERSONALITY_MANAGER;
     public final FamilyManager FAMILY_MANAGER;
+    public final ExperienceManager EXPERIENCE_MANAGER;
 
     // Constructors
 
@@ -75,6 +76,7 @@ public class CharacterManager extends Manager {
         APPEARANCE_MANAGER  = new AppearanceManager(engine, this);
         PERSONALITY_MANAGER = new PersonalityManager(engine, this);
         FAMILY_MANAGER      = new FamilyManager(engine, this);
+        EXPERIENCE_MANAGER  = new ExperienceManager(engine, this);
         for (Manager manager : getSubManagers()) {
             if (manager.getState().equals(ManagerState.ERROR)) {
                 onError(new Exception(manager.getClass().getSimpleName() + " could not be constructed."));
@@ -86,7 +88,7 @@ public class CharacterManager extends Manager {
 
     @Override
     public @NotNull Set<Manager> getSubManagers() {
-        return Set.of(NAME_MANAGER, SKILLS_MANAGER, APPEARANCE_MANAGER, PERSONALITY_MANAGER, FAMILY_MANAGER);
+        return Set.of(NAME_MANAGER, SKILLS_MANAGER, APPEARANCE_MANAGER, PERSONALITY_MANAGER, FAMILY_MANAGER, EXPERIENCE_MANAGER);
     }
 
     @Override

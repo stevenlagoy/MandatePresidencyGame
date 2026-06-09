@@ -10,6 +10,7 @@ import com.stevenlagoy.presidency.characters.attributes.Personality
 import com.stevenlagoy.presidency.characters.attributes.Role
 import com.stevenlagoy.presidency.characters.attributes.Sex
 import com.stevenlagoy.presidency.characters.attributes.Skills
+import com.stevenlagoy.presidency.characters.attributes.experiences.ExperienceHistory
 import com.stevenlagoy.presidency.characters.attributes.finances.FinancialProfile
 import com.stevenlagoy.presidency.characters.attributes.names.PersonalName
 import com.stevenlagoy.presidency.core.Engine
@@ -40,7 +41,7 @@ class PlayerCharacter(
     partyAffiliation: Party?,
     skills: Skills,
     personality: Personality,
-    experiences: MutableList<Experience>,
+    experiences: ExperienceHistory,
     issuePositions: IssuePositionMap,
     candidacy: Candidacy?
 ) : PoliticalActor(
