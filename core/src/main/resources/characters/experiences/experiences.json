@@ -1,0 +1,3679 @@
+{
+    "bachelors_liberal_arts" : {
+        "name" : "Bachelor of Art in Liberal Arts",
+        "track" : "academic",
+        "tier" : "entry",
+        "capacity" : 0.7,
+        "tenure_years" : {
+            "min" : 3,
+            "avg" : 4,
+            "max" : 6
+        },
+        "prerequisites" : [],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 1.2,
+            "executive" : 0.4,
+            "judicial" : 0.8
+        },
+        "description" : "Undergraduate degree in history, political science, philosophy, English, sociology, or related humanities.",
+        "connections" : {
+            "law_school" : 1.8,
+            "masters_public_policy" : 1.5,
+            "entry_political_staffer" : 1.6,
+            "entry_journalist" : 1.3,
+            "entry_teacher" : 1.2,
+            "social_worker" : 1.1,
+            "bachelors_theology" : 0.8
+        },
+        "overlaps" : [
+            "part_time_job",
+            "undergraduate_internship",
+            "undergraduate_research",
+            "rotc"
+        ]
+    },
+    "bachelors_business" : {
+        "name" : "Bachelor of Science in Business",
+        "track" : "academic",
+        "tier" : "entry",
+        "capacity" : 0.7,
+        "tenure_years" : {
+            "min" : 3,
+            "avg" : 4,
+            "max" : 6
+        },
+        "prerequisites" : [],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 0.8,
+            "executive" : 1.4,
+            "judicial" : 0.6
+        },
+        "description" : "Undergraduate degree in business administration, economics, finance, accounting, or management.",
+        "connections" : {
+            "mba" : 1.6,
+            "entry_corporate_analyst" : 1.8,
+            "small_business_owner" : 1.4,
+            "entry_financial_analyst" : 1.5
+        },
+        "overlaps" : [
+            "part_time_job",
+            "undergraduate_internship",
+            "rotc"
+        ]
+    },
+    "bachelors_stem" : {
+        "name" : "Bachelor of Science in STEM",
+        "track" : "academic",
+        "tier" : "entry",
+        "capacity" : 0.7,
+        "tenure_years" : {
+            "min" : 3,
+            "avg" : 4,
+            "max" : 6
+        },
+        "prerequisites" : [],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 0.6,
+            "executive" : 0.5,
+            "judicial" : 1.4
+        },
+        "description" : "Undergraduate degree in science, technology, engineering, or mathematics.",
+        "connections" : {
+            "masters_stem" : 1.5,
+            "phd_stem" : 1.2,
+            "entry_engineer" : 1.7,
+            "medical_school" : 1
+        },
+        "overlaps" : [
+            "part_time_job",
+            "undergraduate_internship",
+            "undergraduate_research",
+            "rotc"
+        ]
+    },
+    "bachelors_political_science" : {
+        "name" : "Bachelor of Science in Political Science",
+        "track" : "academic",
+        "tier" : "entry",
+        "capacity" : 0.7,
+        "tenure_years" : {
+            "min" : 3,
+            "avg" : 4,
+            "max" : 6
+        },
+        "prerequisites" : [],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 1.6,
+            "executive" : 0.6,
+            "judicial" : 0.9
+        },
+        "description" : "Undergraduate degree focused on political systems, governance, policy, and law.",
+        "connections" : {
+            "law_school" : 2.0,
+            "masters_public_policy" : 1.8,
+            "entry_political_staffer" : 2.0,
+            "entry_campaign_worker" : 1.8,
+            "intelligence_officer" : 1.0
+        },
+        "overlaps" : [
+            "part_time_job",
+            "undergraduate_internship",
+            "undergraduate_research",
+            "rotc"
+        ]
+    },
+    "undergraduate_internship" : {
+        "name" : "Undergraduate Internship",
+        "track" : "civic",
+        "tier" : "entry",
+        "capacity" : 0.2,
+        "tenure_years" : {
+            "min" : 0.25,
+            "avg" : 0.5,
+            "max" : 1
+        },
+        "prerequisites" : [],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 0.5,
+            "executive" : 0.5,
+            "judicial" : 0.5
+        },
+        "description" : "Internship during undergraduate study.",
+        "connections" : {
+            "entry_political_staffer" : 1.5,
+            "entry_campaign_worker" : 1.4
+        },
+        "overlaps" : [
+            "bachelors_liberal_arts",
+            "bachelors_business",
+            "bachelors_stem",
+            "bachelors_political_science"
+        ]
+    },
+    "undergraduate_research" : {
+        "name" : "Undergraduate Research",
+        "track" : "academic",
+        "tier" : "entry",
+        "capacity" : 0.2,
+        "tenure_years" : {
+            "min" : 0.5,
+            "avg" : 1.5,
+            "max" : 3
+        },
+        "prerequisites" : [],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 0.4,
+            "executive" : 0.1,
+            "judicial" : 0.9
+        },
+        "description" : "Research assistantship or self-directed research during undergraduate study.",
+        "connections" : {
+            "masters_stem" : 1.3,
+            "phd_stem" : 1.4
+        },
+        "overlaps" : [
+            "bachelors_liberal_arts",
+            "bachelors_business",
+            "bachelors_stem",
+            "bachelors_political_science"
+        ]
+    },
+    "part_time_job" : {
+        "name" : "Part-Time Work",
+        "track" : "labor",
+        "tier" : "entry",
+        "capacity" : 0.25,
+        "tenure_years" : {
+            "min" : 0.5,
+            "avg" : 2,
+            "max" : 6
+        },
+        "prerequisites" : [],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 0.1,
+            "executive" : 0.3,
+            "judicial" : 0.1
+        },
+        "description" : "Part-time employment.",
+        "connections" : {
+        },
+        "overlaps" : [
+            "bachelors_liberal_arts",
+            "bachelors_business",
+            "bachelors_stem",
+            "bachelors_political_science",
+            "law_school",
+            "rotc",
+            "part_time_job"
+        ]
+    },
+    "rotc" : {
+        "name" : "ROTC",
+        "track" : "military",
+        "tier" : "entry",
+        "capacity" : 0.25,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 4,
+            "max" : 4
+        },
+        "prerequisites" : [],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 0.5,
+            "executive" : 1.2,
+            "judicial" : 0.3
+        },
+        "description" : "Reserve Officers' Training Corps program conducted alongside undergraduate study.",
+        "connections" : {
+            "military_officer" : 2.5
+        },
+        "overlaps" : [
+            "bachelors_liberal_arts",
+            "bachelors_business",
+            "bachelors_stem",
+            "bachelors_political_science"
+        ]
+    },
+    "law_school" : {
+        "name" : "Juris Doctor",
+        "track" : "academic",
+        "tier" : "entry",
+        "capacity" : 0.9,
+        "tenure_years" : {
+            "min" : 3,
+            "avg" : 3,
+            "max" : 4
+        },
+        "prerequisites" : [
+            "bachelors_liberal_arts",
+            "bachelors_business",
+            "bachelors_stem",
+            "bachelors_political_science"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 1.5,
+            "executive" : 0.4,
+            "judicial" : 2.0
+        },
+        "description" : "Professional law degree from an accredited law school.",
+        "connections" : {
+            "associate_attorney" : 2.0,
+            "law_clerk" : 1.4,
+            "prosecutor" : 1.4,
+            "public_defender" : 1.2
+        },
+        "overlaps" : [
+            "part_time_job"
+        ]
+    },
+    "masters_public_policy" : {
+        "name" : "Master of Public Policy",
+        "track" : "academic",
+        "tier" : "entry",
+        "capacity" : 0.8,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 2,
+            "max" : 3
+        },
+        "prerequisites" : [
+            "bachelors_liberal_arts",
+            "bachelors_business",
+            "bachelors_political_science"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 2.0,
+            "executive" : 0.8,
+            "judicial" : 1.0
+        },
+        "description" : "Graduate degree in public policy or government affairs.",
+        "connections" : {
+            "policy_analyst" : 2.0,
+            "entry_political_staffer" : 1.6,
+            "entry_think_tank" : 1.5
+        },
+        "overlaps" : [
+            "part_time_job"
+        ]
+    },
+    "masters_economics" : {
+        "name" : "Master of Science in Economics",
+        "track" : "academic",
+        "tier" : "entry",
+        "capacity" : 0.8,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 2,
+            "max" : 3
+        },
+        "prerequisites" : [
+            "bachelors_business",
+            "bachelors_stem"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 1.2,
+            "executive" : 0.5,
+            "judicial" : 1.5
+        },
+        "description" : "Graduate degree focusing on economics, econometrics, and fiscal policy.",
+        "connections" : {
+            "policy_analyst" : 1.6,
+            "entry_think_tank" : 1.6,
+            "phd_economics" : 1.4
+        },
+        "overlaps" : [
+            "part_time_job"
+        ]
+    },
+    "masters_stem" : {
+        "name" : "Master of Science in STEM",
+        "track" : "academic",
+        "tier" : "entry",
+        "capacity" : 0.85,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 2,
+            "max" : 3
+        },
+        "prerequisites" : [
+            "bachelors_stem"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 0.5,
+            "executive" : 0.4,
+            "judicial" : 1.8
+        },
+        "description" : "Graduate degree in a scientific or engineering field.",
+        "connections" : {
+            "phd_stem" : 1.5,
+            "entry_engineer" : 1.4,
+            "entry_researcher" : 1.5
+        },
+        "overlaps" : [
+        ]
+    },
+    "masters_history" : {
+        "name" : "Master of Arts in History",
+        "track" : "academic",
+        "tier" : "entry",
+        "capacity" : 0.8,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 2,
+            "max" : 3
+        },
+        "prerequisites" : [
+            "bachelors_liberal_arts"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 1.4,
+            "executive" : 0.2,
+            "judicial" : 1.2
+        },
+        "description" : "Graduate degree in historical methods, primary source analysis, and historical interpretation.",
+        "connections" : {
+            "phd_humanities" : 1.6,
+            "entry_teacher" : 1.3
+        },
+        "overlaps" : [
+            "part_time_job"
+        ]
+    },
+    "mba" : {
+        "name" : "Master of Business Administration",
+        "track" : "academic",
+        "tier" : "mid",
+        "capacity" : 0.8,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 2,
+            "max" : 2
+        },
+        "prerequisites" : [
+            "bachelors_business",
+            "bachelors_liberal_arts",
+            "bachelors_stem"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 0.8,
+            "executive" : 2.2,
+            "judicial" : 0.6
+        },
+        "description" : "Graduate business degree focused on management and leadership.",
+        "connections" : {
+            "mid_corporate_manager" : 1.8,
+            "venture_capitalist" : 1.4,
+            "small_business_owner" : 1.3
+        },
+        "overlaps" : [
+            "part_time_job"
+        ]
+    },
+    "phd_stem" : {
+        "name" : "Doctor of Philosophy in STEM",
+        "track" : "academic",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 4,
+            "avg" : 6,
+            "max" : 9
+        },
+        "prerequisites" : [
+            "bachelors_stem",
+            "masters_stem"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 0.4,
+            "executive" : 0.2,
+            "judicial" : 2.0
+        },
+        "description" : "Doctoral research degree in a science or engineering discipline.",
+        "connections" : {
+            "university_professor" : 1.6,
+            "senior_researcher" : 1.8
+        },
+        "overlaps" : [
+        ]
+    },
+    "phd_economics" : {
+        "name" : "Doctor of Philosophy in Economics",
+        "track" : "academic",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 4,
+            "avg" : 6,
+            "max" : 8
+        },
+        "prerequisites" : [
+            "bachelors_business",
+            "masters_economics"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 1.2,
+            "executive" : 0.3,
+            "judicial" : 2.0
+        },
+        "description" : "Doctoral research degree in economics with specialization in theory, policy, or econometrics.",
+        "connections" : {
+            "university_professor" : 1.7,
+            "senior_policy_advisor" : 1.4,
+            "entry_think_tank" : 1.6
+        },
+        "overlaps" : [
+        ]
+    },
+    "phd_humanities" : {
+        "name" : "Doctor of Philosophy in the Humanities",
+        "track" : "academic",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 4,
+            "avg" : 6,
+            "max" : 9
+        },
+        "prerequisites" : [
+            "masters_history",
+            "masters_public_policy"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 1.4,
+            "executive" : 0.2,
+            "judicial" : 1.6
+        },
+        "description" : "Doctoral research degree in history, sociology, political science, or social science.",
+        "connections" : {
+            "university_professor" : 1.8
+        },
+        "overlaps" : [
+        ]
+    },
+    "medical_school" : {
+        "name" : "Medical Doctor",
+        "track" : "academic",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 4,
+            "avg" : 4,
+            "max" : 4
+        },
+        "prerequisites" : [
+            "bachelors_stem"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 0.5,
+            "executive" : 0.8,
+            "judicial" : 2.0
+        },
+        "description" : "Medical degree including residency and specialty training.",
+        "connections" : {
+            "physician" : 2.5,
+            "medical_researcher" : 1.2
+        },
+        "overlaps" : [
+        ]
+    },
+    "military_service_enlisted" : {
+        "name" : "Enlistment in Military Service",
+        "track" : "military",
+        "tier" : "entry",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 6,
+            "max" : 20
+        },
+        "prerequisites" : [],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 0.4,
+            "executive" : 1.8,
+            "judicial" : 0.4
+        },
+        "description" : "Service as an enlisted soldier, sailor, airman, or marine, including basic training and deployment.",
+        "connections" : {
+            "military_nco" : 1.8,
+            "entry_law_enforcement" : 1.5
+        },
+        "overlaps" : [
+        ]
+    },
+    "military_officer" : {
+        "name" : "Commissioned Officer in Military Service",
+        "track" : "military",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 4,
+            "avg" : 10,
+            "max" : 30
+        },
+        "prerequisites" : [
+            "rotc",
+            "bachelors_liberal_arts",
+            "bachelors_political_science",
+            "bachelors_business",
+            "bachelors_stem"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 0.8,
+            "executive" : 2.0,
+            "judicial" : 0.6
+        },
+        "description" : "Service of commissioned officer, including command responsibilities and strategic planning.",
+        "connections" : {
+            "senior_military_officer" : 1.6,
+            "entry_federal_bureaucrat" : 1.3
+        },
+        "overlaps" : [
+        ]
+    },
+    "military_nco" : {
+        "name" : "Non-Commissioned Officer in Military Service",
+        "track" : "military",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 3,
+            "avg" : 8,
+            "max" : 20
+        },
+        "prerequisites" : [
+            "military_service_enlisted"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 0.6,
+            "executive" : 2.0,
+            "judicial" : 0.6
+        },
+        "description" : "Senior enlisted leadership role with responsibility for training, discipline, and unit readiness.",
+        "connections" : {
+            "senior_military_officer" : 0.6,
+            "entry_law_enforcement" : 1.4
+        },
+        "overlaps" : [
+        ]
+    },
+    "military_jag" : {
+        "name" : "Military JAG Officer",
+        "track" : "military",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 3,
+            "avg" : 6,
+            "max" : 20
+        },
+        "prerequisites" : [
+            "law_school"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 1.2,
+            "executive" : 0.8,
+            "judicial" : 2.2
+        },
+        "description" : "Military Judge Advocate General Officer providing council on military law, international law, and courts-martial.",
+        "connections" : {
+            "associate_attorney" : 1.5,
+            "prosecutor" : 1.4
+        },
+        "overlaps" : [
+        ]
+    },
+    "senior_military_officer" : {
+        "name" : "Senior Military Officer in Military Service",
+        "track" : "military",
+        "tier" : "high",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 4,
+            "avg" : 8,
+            "max" : 15
+        },
+        "prerequisites" : [
+            "military_officer",
+            "military_nco"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 28,
+        "yearly_skills" : {
+            "legislative" : 1.4,
+            "executive" : 2.5,
+            "judicial" : 0.8
+        },
+        "description" : "Colonel, General, or Admiral in command of large military units with strategic and administrative responsibilities.",
+        "connections" : {
+            "secretary_of_defense" : 0.8,
+            "national_security_advisor" : 0.9
+        },
+        "overlaps" : [
+        ]
+    },
+    "law_clerk" : {
+        "name" : "Judicial Law Clerk",
+        "track" : "legal",
+        "tier" : "entry",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 1,
+            "max" : 2
+        },
+        "prerequisites" : [
+            "law_school"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 1.0,
+            "executive" : 0.2,
+            "judicial" : 2.8
+        },
+        "description" : "Clerkship for a state or federal judge, assisting with research and opinion drafting.",
+        "connections" : {
+            "associate_attorney" : 1.8,
+            "prosecutor" : 1.3,
+            "federal_judge" : 1.4
+        },
+        "overlaps" : [
+        ]
+    },
+    "associate_attorney" : {
+        "name" : "Associate Attorney",
+        "track" : "legal",
+        "tier" : "entry",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 5,
+            "max" : 10
+        },
+        "prerequisites" : [
+            "law_school"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 1.0,
+            "executive" : 0.6,
+            "judicial" : 1.8
+        },
+        "description" : "Junior attorney at a law firm, typically practicing corporate, civil, or criminal law.",
+        "connections" : {
+            "parner_attorney" : 1.5,
+            "prosecutor" : 1.3,
+            "entry_political_staffer" : 1.0
+        },
+        "overlaps" : [
+        ]
+    },
+    "public_defender" : {
+        "name" : "Public Defender",
+        "track" : "legal",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 5,
+            "max" : 15
+        },
+        "prerequisites" : [
+            "law_school",
+            "associate_attorney"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 0.8,
+            "executive" : 1.2,
+            "judicial" : 2.0
+        },
+        "description" : "Government-appointed defense attorney representing indigent clients in criminal cases.",
+        "connections" : {
+            "prosecutor" : 0.8,
+            "state_judge" : 1.2,
+            "partner_attorney" : 1.1
+        },
+        "overlaps" : [
+        ]
+    },
+    "prosecutor" : {
+        "name" : "Prosecutor",
+        "track" : "legal",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 6,
+            "max" : 15
+        },
+        "prerequisites" : [
+            "law_school",
+            "associate_attorney"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 1.0,
+            "executive" : 1.6,
+            "judicial" : 1.8
+        },
+        "description" : "Government attorney prosecuting criminal cases at the local, state, or federal level.",
+        "connections" : {
+            "district_attorney" : 1.6,
+            "state_judge" : 1.4,
+            "state_attorney_general" : 1.2
+        },
+        "overlaps" : [
+        ]
+    },
+    "entry_legal_aid" : {
+        "name" : "Legal Aid Attorney",
+        "track" : "legal",
+        "tier" : "entry",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 3,
+            "max" : 8
+        },
+        "prerequisites" : [
+            "law_school"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 0.8,
+            "executive" : 0.5,
+            "judicial" : 1.6
+        },
+        "description" : "Attorney providing free legal services to needful clients.",
+        "connections" : {
+            "public_defender" : 1.4,
+            "entry_nonprofit_director" : 1.3
+        },
+        "overlaps" : [
+        ]
+    },
+    "us_attorney" : {
+        "name" : "U.S. Attorney",
+        "track" : "legal",
+        "tier" : "high",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 4,
+            "max" : 8
+        },
+        "prerequisites" : [
+            "prosecutor",
+            "associate_attorney",
+            "law_clerk"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 28,
+        "yearly_skills" : {
+            "legislative" : 1.4,
+            "executive" : 2.2,
+            "judicial" : 2.0
+        },
+        "description" : "Presidentially-appointed chief federal prosecutor for one of 94 judicial districts, leading major criminal, civil rights, and national security cases on behalf of the U.S. government.",
+        "connections" : {
+            "attorney_general_us" : 1.3,
+            "state_attorney_general" : 1.2,
+            "us_representative" : 1.0,
+            "federal_judge" : 1.2
+        },
+        "overlaps" : [
+        ]
+    },
+    "partner_attorney" : {
+        "name" : "Law Firm Partner",
+        "track" : "legal",
+        "tier" : "high",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 4,
+            "avg" : 10,
+            "max" : 30
+        },
+        "prerequisites" : [
+            "associate_attorney"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 28,
+        "yearly_skills" : {
+            "legislative" : 1.2,
+            "executive" : 1.6,
+            "judicial" : 1.6
+        },
+        "description" : "Senior equity partner in a law firm with business development and management responsibilities.",
+        "connections" : {
+            "state_attorney_general" : 1.0,
+            "attorney_general_us" : 0.9,
+            "us_attorney" : 1.2
+        },
+        "overlaps" : [
+        ]
+    },
+    "district_attorney" : {
+        "name" : "District Attorney",
+        "track" : "legal",
+        "tier" : "high",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 6,
+            "max" : 16
+        },
+        "prerequisites" : [
+            "prosecutor"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 28,
+        "yearly_skills" : {
+            "legislative" : 1.5,
+            "executive" : 2.0,
+            "judicial" : 1.8
+        },
+        "description" : "Elected or appointed chief prosecutor for a judicial district.",
+        "connections" : {
+            "state_attorney_general" : 1.6,
+            "us_representative" : 1.2,
+            "state_judge" : 1.0
+        },
+        "overlaps" : [
+        ]
+    },
+    "state_representative" : {
+        "name" : "State Representative",
+        "track" : "legislative",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 4,
+            "max" : 20
+        },
+        "prerequisites" : [],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 2.5,
+            "executive" : 1.0,
+            "judicial" : 0.8
+        },
+        "description" : "Elected member of a state house of representatives or assembly.",
+        "connections" : {
+            "state_senator" : 1.8,
+            "us_representative" : 1.4,
+            "state_secretary_of_state" : 0.9,
+            "state_treasurer" : 0.8
+        },
+        "overlaps" : [
+        ]
+    },
+    "state_attorney_general" : {
+        "name" : "State Attorney General",
+        "track" : "legal",
+        "tier" : "terminal",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 6,
+            "max" : 12
+        },
+        "prerequisites" : [
+            "prosecutor",
+            "district_attorney",
+            "partner_attorney"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 32,
+        "yearly_skills" : {
+            "legislative" : 2.0,
+            "executive" : 2.5,
+            "judicial" : 2.0
+        },
+        "description" : "Elected or appointed chief law enforcement officer of a state.",
+        "connections" : {
+            "governor" : 1.8,
+            "us_senator" : 1.4,
+            "attorney_general_us" : 1.0
+        },
+        "overlaps" : [
+        ]
+    },
+    "entry_political_staffer" : {
+        "name" : "Entry-Level Political Staffer",
+        "track" : "legislative",
+        "tier" : "entry",
+        "capacity" : 0.85,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 3,
+            "max" : 8
+        },
+        "prerequisites" : [
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 1.6,
+            "executive" : 0.6,
+            "judicial" : 0.4
+        },
+        "description" : "Legislative aide, constituent services rep, or junior staff in a state legislature or congressional office.",
+        "connections" : {
+            "senior_legislative_staffer" : 1.8,
+            "entry_campaign_worker" : 1.6,
+            "white_house_staffer" : 1.1
+        },
+        "overlaps" : [
+        ]
+    },
+    "city_council_member" : {
+        "name" : "City Council Member",
+        "track" : "legislative",
+        "tier" : "entry",
+        "capacity" : 0.7,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 4,
+            "max" : 20
+        },
+        "prerequisites" : [],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 1.8,
+            "executive" : 0.8,
+            "judicial" : 0.6
+        },
+        "description" : "Elected member of a municipal legislative body.",
+        "connections" : {
+            "mayor_small" : 1.6,
+            "state_representative" : 1.4
+        },
+        "overlaps" : [
+            "part_time_job",
+            "entry_political_staffer"
+        ]
+    },
+    "mayor_small" : {
+        "name" : "Small City Mayor",
+        "track" : "executive",
+        "tier" : "mid",
+        "capacity" : 0.9,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 4,
+            "max" : 20
+        },
+        "prerequisites" : [
+            "city_council_member",
+            "entry_political_staffer",
+            "state_representative"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 1.4,
+            "executive" : 2.0,
+            "judicial" : 0.8
+        },
+        "description" : "Chief executive of a small municipality with limited staff and budget.",
+        "connections" : {
+            "mayor_mid" : 1.6,
+            "state_representative" : 1.3
+        },
+        "overlaps" : [
+        ]
+    },
+    "mayor_mid" : {
+        "name" : "Major City Mayor",
+        "track" : "executive",
+        "tier" : "high",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 6,
+            "max" : 20
+        },
+        "prerequisites" : [
+            "mayor_small",
+            "city_council_member",
+            "state_representative"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 28,
+        "yearly_skills" : {
+            "legislative" : 2.0,
+            "executive" : 2.8,
+            "judicial" : 1.0
+        },
+        "description" : "Chief executive of a major city with large staff, billion-dollar budgets, and national visibility.",
+        "connections" : {
+            "governor" : 1.5,
+            "us_senator" : 1.2,
+            "mayor_large" : 1.3
+        },
+        "overlaps" : [
+        ]
+    },
+    "state_senator" : {
+        "name" : "State Senator",
+        "track" : "legislative",
+        "tier" : "high",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 6,
+            "max" : 30
+        },
+        "prerequisites" : [
+            "state_representative",
+            "district_attorney",
+            "state_attorney_general",
+            "mayor_mid"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 28,
+        "yearly_skills" : {
+            "legislative" : 2.8,
+            "executive" : 1.2,
+            "judicial" : 1.0
+        },
+        "description" : "Elected member of a state senate.",
+        "connections" : {
+            "governor" : 1.5,
+            "us_representative" : 1.3,
+            "us_senator" : 1.0
+        },
+        "overlaps" : [
+        ]
+    },
+    "entry_campaign_worker" : {
+        "name" : "Campaign Staffer",
+        "track" : "legislative",
+        "tier" : "entry",
+        "capacity" : 0.9,
+        "tenure_years" : {
+            "min" : 0.5,
+            "avg" : 1,
+            "max" : 3
+        },
+        "prerequisites" : [],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 1.4,
+            "executive" : 1.2,
+            "judicial" : 0.2
+        },
+        "description" : "Political campaign staffer involved with organizing, communications, voter outreach, or field operations.",
+        "connections" : {
+            "senior_legislative_staffer" : 1.5,
+            "campaign_manager" : 1.4
+        },
+        "overlaps" : [
+        ]
+    },
+    "senior_legislative_staffer" : {
+        "name" : "Senior Legislative Staffer",
+        "track" : "legislative",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 6,
+            "max" : 15
+        },
+        "prerequisites" : [
+            "entry_political_staffer",
+            "entry_campaign_worker"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 2.2,
+            "executive" : 1.0,
+            "judicial" : 0.6
+        },
+        "description" : "Senior legislative or policy staff in a congressional office, committee, or agency.",
+        "connections" : {
+            "policy_analyst" : 1.5,
+            "state_representative" : 1.2,
+            "white_house_staffer" : 1.3,
+            "lobbyist" : 1.2
+        },
+        "overlaps" : [
+        ]
+    },
+    "campaign_manager" : {
+        "name" : "Campaign Manager",
+        "track" : "legislative",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 0.5,
+            "avg" : 1,
+            "max" : 2
+        },
+        "prerequisites" : [
+            "entry_campaign_worker",
+            "entry_political_staffer"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 1.8,
+            "executive" : 2.2,
+            "judicial" : 0.4
+        },
+        "description" : "Top strategist and operator for a political campaign, managing staff, budget, and overall strategy.",
+        "connections" : {
+            "state_representative" : 1.2,
+            "entry_political_consultant" : 1.6,
+            "white_house_chief_of_staff" : 1.2
+        },
+        "overlaps" : [
+        ]
+    },
+    "entry_political_consultant" : {
+        "name" : "Political Consultant",
+        "track" : "legislative",
+        "tier" : "mid",
+        "capacity" : 0.8,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 8,
+            "max" : 30
+        },
+        "prerequisites" : [
+            "campaign_manager",
+            "entry_campaign_worker",
+            "entry_political_staffer"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 1.6,
+            "executive" : 1.8,
+            "judicial" : 0.3
+        },
+        "description" : "Indepenent consultant advising political candidates, parties, or advocacy groups on strategy.",
+        "connections" : {
+            "state_representative" : 1.2
+        },
+        "overlaps" : [
+        ]
+    },
+    "us_representative" : {
+        "name" : "U.S. House Representative",
+        "track" : "legislative",
+        "tier" : "high",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 8,
+            "max" : 40
+        },
+        "prerequisites" : [
+            "state_representative",
+            "state_senator",
+            "district_attorney",
+            "senior_legislative_staffer",
+            "mayor_mid",
+            "entry_political_consultant"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 25,
+        "yearly_skills" : {
+            "legislative" : 3.0,
+            "executive" : 1.5,
+            "judicial" : 1.0
+        },
+        "description" : "Elected member of the U.S. House of Representatives.",
+        "connections" : {
+            "us_senator" : 1.6,
+            "governor" : 1
+        },
+        "overlaps" : [
+        ]
+    },
+    "us_senator" : {
+        "name" : "U.S. Senator",
+        "track" : "legislative",
+        "tier" : "terminal",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 6,
+            "avg" : 9,
+            "max" : 50
+        },
+        "prerequisites" : [
+            "state_representative",
+            "state_senator",
+            "district_attorney",
+            "senior_legislative_staffer",
+            "mayor_mid",
+            "entry_political_consultant",
+            "us_representative"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 30,
+        "yearly_skills" : {
+            "legislative" : 3.5,
+            "executive" : 1.7,
+            "judicial" : 1.2
+        },
+        "description" : "Elected member of the U.S. Senate.",
+        "connections" : {
+            "cabinet_secretary" : 1.0,
+            "governor" : 1
+        },
+        "overlaps" : [
+        ]
+    },
+    "municipal_judge" : {
+        "name" : "Municipal Court Judge",
+        "track" : "judicial",
+        "tier" : "entry",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 4,
+            "max" : 12
+        },
+        "prerequisites" : [
+            "law_school"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 0.5,
+            "executive" : 0.2,
+            "judicial" : 1.8
+        },
+        "description" : "Judge presiding over a municipal or magistrate court, handling midemeanors, traffic violations, small claims, and arraignments. Often elected or appointed by a city government.",
+        "connections" : {
+            "state_judge" : 1.8
+        },
+        "overlaps" : [
+        ]
+    },
+    "state_judge" : {
+        "name" : "State Court Judge",
+        "track" : "judicial",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 4,
+            "avg" : 8,
+            "max" : 30
+        },
+        "prerequisites" : [
+            "associate_attorney",
+            "prosecutor",
+            "public_defender",
+            "municipal_judge"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 1.0,
+            "executive" : 0.4,
+            "judicial" : 2.8
+        },
+        "description" : "Judge serving on a state trial, appellate, or supreme court.",
+        "connections" : {
+            "federal_judge" : 1.5
+        },
+        "overlaps" : [
+        ]
+    },
+    "state_supreme_court_justice" : {
+        "name" : "State Supreme Court Justice",
+        "track" : "judicial",
+        "tier" : "terminal",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 6,
+            "avg" : 12,
+            "max" : 30
+        },
+        "prerequisites" : [
+            "state_judge"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 38,
+        "yearly_skills" : {
+            "legislative" : 1.2,
+            "executive" : 0.4,
+            "judicial" : 3.2
+        },
+        "description" : "Justice on the highest court in a state, deciding constitutional questions and setting binding precedent for all lower state courts.",
+        "connections" : {
+            "federal_judge" : 1.4
+        },
+        "overlaps" : [
+        ]
+    },
+    "federal_judge" : {
+        "name" : "Federal Court Judge",
+        "track" : "judicial",
+        "tier" : "high",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 5,
+            "avg" : 15,
+            "max" : 120
+        },
+        "prerequisites" : [
+            "state_judge",
+            "prosecutor",
+            "partner_attorney",
+            "law_clerk",
+            "military_jag",
+            "state_supreme_court_justice",
+            "us_attorney"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 28,
+        "yearly_skills" : {
+            "legislative" : 1.2,
+            "executive" : 0.4,
+            "judicial" : 3.0
+        },
+        "description" : "Presidentially-appointed judge on a federal district or circuit court of appeals.",
+        "connections" : {
+            "supreme_court_justice" : 0.4
+        },
+        "overlaps" : [
+        ]
+    },
+    "supreme_court_justice" : {
+        "name" : "U.S. Supreme Court Justice",
+        "track" : "judicial",
+        "tier" : "terminal",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 5,
+            "avg" : 20,
+            "max" : 120
+        },
+        "prerequisites" : [
+            "federal_judge"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 40,
+        "yearly_skills" : {
+            "legislative" : 1.5,
+            "executive" : 0.5,
+            "judicial" : 3.5
+        },
+        "description" : "Justice on the U.S. Supreme Court, with life tenure by presidential appointment and Senate confirmation.",
+        "connections" : {
+        },
+        "overlaps" : [
+        ]
+    },
+    "policy_analyst" : {
+        "name" : "Policy Analyst",
+        "track" : "legislative",
+        "tier" : "mid",
+        "capacity" : 0.9,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 5,
+            "max" : 12
+        },
+        "prerequisites" : [
+            "masters_public_policy",
+            "masters_economics",
+            "senior_legislative_staffer",
+            "entry_political_staffer"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 2.0,
+            "executive" : 0.4,
+            "judicial" : 1.2
+        },
+        "description" : "Researcher and analyst developing policy recommendations for government agencies, think tanks, or advocacy groups.",
+        "connections" : {
+            "senior_policy_advisor" : 1.6,
+            "entry_think_tank" : 1.5
+        },
+        "overlaps" : [
+        ]
+    },
+    "senior_policy_advisor" : {
+        "name" : "Senior Policy Advisor",
+        "track" : "legislative",
+        "tier" : "high",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 5,
+            "max" : 12
+        },
+        "prerequisites" : [
+            "policy_analyst"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 28,
+        "yearly_skills" : {
+            "legislative" : 2.5,
+            "executive" : 1.2,
+            "judicial" : 1.2
+        },
+        "description" : "Senior advisor shaping policy for a cabinet secretary, governor, senator, or president.",
+        "connections" : {
+            "cabinet_secretary" : 1.0,
+            "us_representative" : 1.1
+        },
+        "overlaps" : [
+        ]
+    },
+    "entry_think_tank" : {
+        "name" : "Think Tank Fellow",
+        "track" : "civic",
+        "tier" : "mid",
+        "capacity" : 0.9,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 4,
+            "max" : 15
+        },
+        "prerequisites" : [
+            "masters_public_policy",
+            "masters_economics",
+            "phd_economics",
+            "phd_humanities",
+            "policy_analyst"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 1.8,
+            "executive" : 0.3,
+            "judicial" : 1.5
+        },
+        "description" : "Policy researcher at an independent think tank producing white papers, reports, and policy briefs.",
+        "connections" : {
+            "senior_policy_advisor" : 1.4,
+            "university_professor" : 1.2
+        },
+        "overlaps" : [
+            "entry_journalist"
+        ]
+    },
+    "state_speaker" : {
+        "name" : "Speaker of the State House",
+        "track" : "legislative",
+        "tier" : "high",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 4,
+            "max" : 16
+        },
+        "prerequisites" : [
+            "state_representative"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 28,
+        "yearly_skills" : {
+            "legislative" : 3.0,
+            "executive" : 1.8,
+            "judicial" : 0.8
+        },
+        "description" : "Presiding officer and top leader of a state house or assembly.",
+        "connections" : {
+            "governor" : 1.6,
+            "us_senator" : 1.3
+        },
+        "overlaps" : [
+        ]
+    },
+    "county_commissioner" : {
+        "name" : "County Commissioner",
+        "track" : "legislative",
+        "tier" : "mid",
+        "capacity" : 0.8,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 6,
+            "max" : 20
+        },
+        "prerequisites" : [
+            "city_council_member",
+            "entry_political_staffer"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 2.0,
+            "executive" : 1.2,
+            "judicial" : 0.8
+        },
+        "description" : "Elected official governing a county, overseeing budgets, services, and land use.",
+        "connections" : {
+            "state_representative" : 1.5
+        },
+        "overlaps" : [
+        ]
+    },
+    "lieutenant_governor" : {
+        "name" : "Lieutenant Governor",
+        "track" : "executive",
+        "tier" : "high",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 4,
+            "max" : 16
+        },
+        "prerequisites" : [
+            "state_senator",
+            "state_representative",
+            "state_attorney_general",
+            "mayor_mid"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 28,
+        "yearly_skills" : {
+            "legislative" : 2.0,
+            "executive" : 2.0,
+            "judicial" : 1.0
+        },
+        "description" : "Elected or appointed second-in-command of a state, often presiding over the state senate.",
+        "connections" : {
+            "governor" : 2.0
+        },
+        "overlaps" : [
+        ]
+    },
+    "governor" : {
+        "name" : "Governor",
+        "track" : "executive",
+        "tier" : "terminal",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 6,
+            "max" : 16
+        },
+        "prerequisites" : [
+            "lieutenant_governor",
+            "state_attorney_general",
+            "us_representative",
+            "state_senator",
+            "mayor_mid"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 30,
+        "yearly_skills" : {
+            "legislative" : 2.5,
+            "executive" : 3.5,
+            "judicial" : 1.5
+        },
+        "description" : "Chief executive of a U.S. state, elected to manage state government, sign laws, and command the National Guard.",
+        "connections" : {
+            "us_senator" : 1.0
+        },
+        "overlaps" : [
+        ]
+    },
+    "entry_corporate_analyst" : {
+        "name" : "Corporate Analyst",
+        "track" : "business",
+        "tier" : "entry",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 3,
+            "max" : 6
+        },
+        "prerequisites" : [
+            "bachelors_business",
+            "bachelors_stem"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 0.4,
+            "executive" : 1.2,
+            "judicial" : 0.8
+        },
+        "description" : "Entry-level analyst at a consulting firm, investment bank, or large corporation.",
+        "connections" : {
+            "mid_corporate_manager" : 1.5,
+            "mba" : 1.4
+        },
+        "overlaps" : [
+        ]
+    },
+    "entry_financial_analyst" : {
+        "name" : "Financial Analyst",
+        "track" : "business",
+        "tier" : "entry",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 4,
+            "max" : 10
+        },
+        "prerequisites" : [
+            "bachelors_business",
+            "bachelors_stem"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 0.5,
+            "executive" : 1.4,
+            "judicial" : 1.0
+        },
+        "description" : "Financial analysis and deal-making at a bank, hedge fund, or private equity firm.",
+        "connections" : {
+            "venture_capitalist" : 1.4,
+            "mba" : 1.4,
+            "state_treasurer" : 1.2,
+            "state_comptroller" : 1.1
+        },
+        "overlaps" : [
+        ]
+    },
+    "mid_corporate_manager" : {
+        "name" : "Mid-Level Corporate Manager",
+        "track" : "business",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 6,
+            "max" : 15
+        },
+        "prerequisites" : [
+            "entry_corporate_analyst",
+            "entry_financial_analyst",
+            "mba"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 0.6,
+            "executive" : 2.0,
+            "judicial" : 0.8
+        },
+        "description" : "Director or VP-level manager leading a team in a corporation.",
+        "connections" : {
+            "senior_corporate_executive" : 1.4
+        },
+        "overlaps" : [
+        ]
+    },
+    "senior_corporate_executive" : {
+        "name" : "Senior Corporate Executive",
+        "track" : "business",
+        "tier" : "high",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 6,
+            "max" : 20
+        },
+        "prerequisites" : [
+            "mid_corporate_manager",
+            "mba"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 28,
+        "yearly_skills" : {
+            "legislative" : 1.0,
+            "executive" : 3.0,
+            "judicial" : 1.0
+        },
+        "description" : "C-suite executive (CEO, CFO, COO) of a large company with public visibility and board accountability.",
+        "connections" : {
+            "cabinet_secretary" : 0.8
+        },
+        "overlaps" : [
+        ]
+    },
+    "entry_teacher" : {
+        "name" : "K-12 Teacher",
+        "track" : "civic",
+        "tier" : "entry",
+        "capacity" : 0.9,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 6,
+            "max" : 30
+        },
+        "prerequisites" : [
+            "bachelors_liberal_arts",
+            "bachelors_stem"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 1.0,
+            "executive" : 0.8,
+            "judicial" : 0.8
+        },
+        "description" : "K-12 public or private school teacher, often building community ties.",
+        "connections" : {
+            "school_board_member" : 1.6,
+            "city_council_member" : 1.2
+        },
+        "overlaps" : [
+        ]
+    },
+    "school_board_member" : {
+        "name" : "School Board Member",
+        "track" : "civic",
+        "tier" : "entry",
+        "capacity" : 0.3,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 4,
+            "max" : 20
+        },
+        "prerequisites" : [
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 1.6,
+            "executive" : 0.6,
+            "judicial" : 0.8
+        },
+        "description" : "Elected member of a local school board overseeing district policy and budgets.",
+        "connections" : {
+            "city_council_member" : 1.5,
+            "state_representative" : 1
+        },
+        "overlaps" : [
+            "entry_teacher",
+            "part_time_job",
+            "entry_journalist"
+        ]
+    },
+    "university_professor" : {
+        "name" : "University Professor",
+        "track" : "academic",
+        "tier" : "high",
+        "capacity" : 0.8,
+        "tenure_years" : {
+            "min" : 3,
+            "avg" : 15,
+            "max" : 40
+        },
+        "prerequisites" : [
+            "phd_stem",
+            "phd_economics",
+            "phd_humanities"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 28,
+        "yearly_skills" : {
+            "legislative" : 1.5,
+            "executive" : 0.4,
+            "judicial" : 2.0
+        },
+        "description" : "Tenured or tenure-track professor at a university, with research and teaching responsibilities.",
+        "connections" : {
+            "entry_think_tank" : 1.3,
+            "senior_policy_advisor" : 1.0
+        },
+        "overlaps" : [
+            "entry_think_tank",
+            "entry_journalist"
+        ]
+    },
+    "masters_public_admin" : {
+        "name" : "Master of Public Administration",
+        "track" : "academic",
+        "tier" : "entry",
+        "capacity" : 0.8,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 2,
+            "max" : 3
+        },
+        "prerequisites" : [
+            "bachelors_liberal_arts",
+            "bachelors_business",
+            "bachelors_political_science"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 1.6,
+            "executive" : 1.2,
+            "judicial" : 0.8
+        },
+        "description" : "Graduate degree focused on public sector management and administration.",
+        "connections" : {
+            "policy_analyst" : 1.8,
+            "city_manager" : 1.4,
+            "entry_federal_bureaucrat" : 1.5
+        },
+        "overlaps" : [
+            "part_time_job"
+        ]
+    },
+    "entry_federal_bureaucrat" : {
+        "name" : "Federal Agency Staff Civil Servant",
+        "track" : "executive",
+        "tier" : "entry",
+        "capacity" : 0.9,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 8,
+            "max" : 30
+        },
+        "prerequisites" : [
+            "masters_public_policy",
+            "masters_public_admin",
+            "military_officer"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 1.0,
+            "executive" : 0.8,
+            "judicial" : 0.9
+        },
+        "description" : "Career federal employee in an executive agency (FBI, EPA, CIA, Treasury, etc.).",
+        "connections" : {
+            "senior_federal_bureaucrat" : 1.6
+        },
+        "overlaps" : [
+        ]
+    },
+    "state_superintendant_of_education" : {
+        "name" : "State Superintendant of Education",
+        "track" : "executive",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 4,
+            "max" : 16
+        },
+        "prerequisites" : [
+            "entry_teacher",
+            "school_board_member",
+            "university_professor",
+            "entry_federal_bureaucrat"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 1.8,
+            "executive" : 1.6,
+            "judicial" : 0.8
+        },
+        "description" : "Statewide chief officer for public education, overseeing curriculum standards, teacher certification, school district oversight, and education funding allocation.",
+        "connections" : {
+            "governor" : 1.1,
+            "state_senator" : 1.0
+        },
+        "overlaps" : [
+        ]
+    },
+    "state_comptroller" : {
+        "name" : "State Comptroller Auditor",
+        "track" : "executive",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 4,
+            "max" : 16
+        },
+        "prerequisites" : [
+            "entry_financial_analyst",
+            "entry_corporate_analyst",
+            "entry_federal_bureaucrat"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 1.4,
+            "executive" : 1.6,
+            "judicial" : 1.4
+        },
+        "description" : "Statewude official auditing state agency expenditures, ensuring fiscal compliance, and issuing financial reports.",
+        "connections" : {
+            "governor" : 1.2,
+            "state_treasurer" : 1.3,
+            "us_representative" : 0.9
+        },
+        "overlaps" : [
+        ]
+    },
+    "state_insurance_commissioner" : {
+        "name" : "State Insurance Commissioner",
+        "track" : "executive",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 4,
+            "max" : 12
+        },
+        "prerequisites" : [
+            "associate_attorney",
+            "entry_financial_analyst",
+            "mid_corporate_manager",
+            "entry_federal_bureaucrat"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 1.4,
+            "executive" : 1.6,
+            "judicial" : 1.4
+        },
+        "description" : "Statewide regulator overseeing insurance markets, carrier licensing, rate approval, and consumer protection.",
+        "connections" : {
+            "governor" : 1.0,
+            "state_senator" : 1.1
+        },
+        "overlaps" : [
+        ]
+    },
+    "cabinet_secretary" : {
+        "name" : "Cabinet Secretary",
+        "track" : "executive",
+        "tier" : "terminal",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 3,
+            "max" : 8
+        },
+        "prerequisites" : [
+            "governor",
+            "us_senator",
+            "us_representative",
+            "senior_policy_advisor",
+            "senior_military_officer",
+            "senior_corporate_executive",
+            "state_superintendant_of_education",
+            "state_comptroller",
+            "state_insurance_commissioner"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 35,
+        "yearly_skills" : {
+            "legislative" : 2.0,
+            "executive" : 3.5,
+            "judicial" : 1.5
+        },
+        "description" : "Head of a federal executive department (Commerce, Eduction, Transportation, Energy, Housing, Interior, or Veterans Affairs) appointed by the President.",
+        "connections" : {
+        },
+        "overlaps" : [
+        ]
+    },
+    "national_security_advisor" : {
+        "name" : "National Security Advisor",
+        "track" : "executive",
+        "tier" : "terminal",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 2,
+            "max" : 6
+        },
+        "prerequisites" : [
+            "senior_military_officer",
+            "cabinet_secretary",
+            "senior_policy_advisor"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 32,
+        "yearly_skills" : {
+            "legislative" : 2.5,
+            "executive" : 3.0,
+            "judicial" : 2.0
+        },
+        "description" : "Principal advisor to the President on national security and foreign policy.",
+        "connections" : {
+        },
+        "overlaps" : [
+        ]
+    },
+    "secretary_of_defense" : {
+        "name" : "Secretary of Defense",
+        "track" : "executive",
+        "tier" : "terminal",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 3,
+            "max" : 8
+        },
+        "prerequisites" : [
+            "senior_military_officer",
+            "cabinet_secretary",
+            "us_senator"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 32,
+        "yearly_skills" : {
+            "legislative" : 2.0,
+            "executive" : 3.5,
+            "judicial" : 1.5
+        },
+        "description" : "Head of the U.S. Department of Defense, civilian overseer of the U.S. military.",
+        "connections" : {
+        },
+        "overlaps" : [
+        ]
+    },
+    "vice_president" : {
+        "name" : "Vice President of the United States",
+        "track" : "executive",
+        "tier" : "terminal",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 4,
+            "avg" : 4,
+            "max" : 8
+        },
+        "prerequisites" : [
+            "governor",
+            "us_senator",
+            "cabinet_secretary"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 35,
+        "yearly_skills" : {
+            "legislative" : 2.5,
+            "executive" : 3.0,
+            "judicial" : 2.0
+        },
+        "description" : "Elected Vice President, presiding over the Senate and serving as first in succession to the presidency.",
+        "connections" : {
+        },
+        "overlaps" : [
+        ]
+    },
+    "president" : {
+        "name" : "President of the United States",
+        "track" : "executive",
+        "tier" : "terminal",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 4,
+            "avg" : 5,
+            "max" : 8
+        },
+        "prerequisites" : [
+            "governor",
+            "us_senator",
+            "cabinet_secretary"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 35,
+        "yearly_skills" : {
+            "legislative" : 2.7,
+            "executive" : 3.5,
+            "judicial" : 2.2
+        },
+        "description" : "Elected President, the executive head of state of the United States, Commander-in-chief of the military, and leading officer of the executive branch.",
+        "connections" : {
+        },
+        "overlaps" : [
+        ]
+    },
+    "senior_federal_bureaucrat" : {
+        "name" : "Senior Federal Official",
+        "track" : "executive",
+        "tier" : "high",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 5,
+            "max" : 15
+        },
+        "prerequisites" : [
+            "entry_federal_bureaucrat"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 28,
+        "yearly_skills" : {
+            "legislative" : 1.8,
+            "executive" : 2.0,
+            "judicial" : 1.4
+        },
+        "description" : "Senior career official running a division, bureau, or agency within the federal government.",
+        "connections" : {
+            "cabinet_secretary" : 1.0
+        },
+        "overlaps" : [
+        ]
+    },
+    "city_manager" : {
+        "name" : "City Manager",
+        "track" : "executive",
+        "tier" : "high",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 6,
+            "max" : 20
+        },
+        "prerequisites" : [
+            "masters_public_admin",
+            "entry_federal_bureaucrat",
+            "county_commissioner"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 28,
+        "yearly_skills" : {
+            "legislative" : 1.6,
+            "executive" : 2.2,
+            "judicial" : 1.0
+        },
+        "description" : "Appointed professional administrator managing day-to-day operations of a city.",
+        "connections" : {
+            "mayor_mid" : 0.9
+        },
+        "overlaps" : [
+        ]
+    },
+    "small_business_owner" : {
+        "name" : "Small Business Owner",
+        "track" : "business",
+        "tier" : "mid",
+        "capacity" : 0.9,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 8,
+            "max" : 40
+        },
+        "prerequisites" : [
+            "bachelors_business",
+            "entry_corporate_analyst",
+            "mba"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 0.8,
+            "executive" : 2.4,
+            "judicial" : 0.6
+        },
+        "description" : "Founder or owner-operator of an independent business in any sector.",
+        "connections" : {
+            "city_council_member" : 1.3,
+            "state_representative" : 1.0
+        },
+        "overlaps" : [
+        ]
+    },
+    "venture_capitalist" : {
+        "name" : "Venture Capitalist",
+        "track" : "business",
+        "tier" : "high",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 3,
+            "avg" : 10,
+            "max" : 30
+        },
+        "prerequisites" : [
+            "entry_financial_analyst",
+            "mba",
+            "senior_corporate_executive"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 28,
+        "yearly_skills" : {
+            "legislative" : 0.8,
+            "executive" : 2.6,
+            "judicial" : 1.2
+        },
+        "description" : "Investor allocating capital to early-stage companies or leveraged buyouts.",
+        "connections" : {
+            "cabinet_secretary" : 0.7
+        },
+        "overlaps" : [
+        ]
+    },
+    "entry_journalist" : {
+        "name" : "Journalist Reporter",
+        "track" : "media",
+        "tier" : "entry",
+        "capacity" : 0.9,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 5,
+            "max" : 20
+        },
+        "prerequisites" : [
+            "bachelors_liberal_arts",
+            "bachelors_political_science"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 1.0,
+            "executive" : 0.8,
+            "judicial" : 1.4
+        },
+        "description" : "Print, broadcast, or digital journalist covering local, national, or political news.",
+        "connections" : {
+            "senior_journalist" : 1.6,
+            "entry_think_tank" : 0.8
+        },
+        "overlaps" : [
+            "entry_think_tank"
+        ]
+    },
+    "senior_journalist" : {
+        "name" : "Senior Journalist",
+        "track" : "media",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 3,
+            "avg" : 8,
+            "max" : 30
+        },
+        "prerequisites" : [
+            "entry_journalist"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 1.4,
+            "executive" : 1.0,
+            "judicial" : 1.8
+        },
+        "description" : "Investigative journalist, bureau chief, or senior editor at a major media outlet.",
+        "connections" : {
+            "media_personality" : 1.3
+        },
+        "overlaps" : [
+        ]
+    },
+    "media_personality" : {
+        "name" : "Media Personality",
+        "track" : "media",
+        "tier" : "high",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 10,
+            "max" : 30
+        },
+        "prerequisites" : [
+            "senior_journalist"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 28,
+        "yearly_skills" : {
+            "legislative" : 1.0,
+            "executive" : 2.5,
+            "judicial" : 0.8
+        },
+        "description" : "Television anchor, talk show host, or radio personality with significant public profile.",
+        "connections" : {
+            "us_representative" : 1.0,
+            "us_senator" : 0.8
+        },
+        "overlaps" : [
+        ]
+    },
+    "entry_nonprofit_worker" : {
+        "name" : "Nonprofit Non-governmental Organization Staff",
+        "track" : "civic",
+        "tier" : "entry",
+        "capacity" : 0.85,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 4,
+            "max" : 15
+        },
+        "prerequisites" : [
+            "bachelors_liberal_arts",
+            "bachelors_political_science"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 1.0,
+            "executive" : 0.8,
+            "judicial" : 0.6
+        },
+        "description" : "Staff at a nonprofit advocacy organization, charity, or NGO.",
+        "connections" : {
+            "entry_nonprofit_director" : 1.5,
+            "entry_political_staffer" : 1.2
+        },
+        "overlaps" : [
+        ]
+    },
+    "entry_nonprofit_director" : {
+        "name" : "Nonprofit Executive Director",
+        "track" : "civic",
+        "tier" : "high",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 7,
+            "max" : 25
+        },
+        "prerequisites" : [
+            "entry_nonprofit_worker",
+            "entry_legal_aid",
+            "senior_legislative_staffer"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 28,
+        "yearly_skills" : {
+            "legislative" : 1.8,
+            "executive" : 2.0,
+            "judicial" : 0.8
+        },
+        "description" : "Chief executive of a nonprofit organization with staff and budget management responsibilities.",
+        "connections" : {
+            "state_representative" : 1.2,
+            "city_council_member" : 1.3
+        },
+        "overlaps" : [
+        ]
+    },
+    "community_organizer" : {
+        "name" : "Community Organizer",
+        "track" : "civic",
+        "tier" : "entry",
+        "capacity" : 0.7,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 4,
+            "max" : 15
+        },
+        "prerequisites" : [],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 1.2,
+            "executive" : 1.4,
+            "judicial" : 0.4
+        },
+        "description" : "Grassroots organizer working on social, labor, environmental, or community issues.",
+        "connections" : {
+            "entry_nonprofit_worker" : 1.5,
+            "city_council_member" : 1.3,
+            "entry_campaign_worker" : 1.4
+        },
+        "overlaps" : [
+            "part_time_job",
+            "school_board_member"
+        ]
+    },
+    "entry_law_enforcement" : {
+        "name" : "Police Officer",
+        "track" : "civic",
+        "tier" : "entry",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 8,
+            "max" : 25
+        },
+        "prerequisites" : [
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 0.5,
+            "executive" : 1.8,
+            "judicial" : 0.8
+        },
+        "description" : "Law enforcement officer at the municipal or county level.",
+        "connections" : {
+            "senior_law_enforcement" : 1.6,
+            "county_sheriff" : 1.4
+        },
+        "overlaps" : [
+        ]
+    },
+    "senior_law_enforcement" : {
+        "name" : "Police Director",
+        "track" : "civic",
+        "tier" : "high",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 6,
+            "max" : 15
+        },
+        "prerequisites" : [
+            "entry_law_enforcement"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 28,
+        "yearly_skills" : {
+            "legislative" : 1.4,
+            "executive" : 2.4,
+            "judicial" : 1.2
+        },
+        "description" : "Chief, Sheriff, or Directory of a city, county, or federal law enforcement and investigative agency.",
+        "connections" : {
+            "mayor_mid" : 0.8,
+            "county_commissioner" : 1.2
+        },
+        "overlaps" : [
+        ]
+    },
+    "entry_engineer" : {
+        "name" : "Engineer",
+        "track" : "business",
+        "tier" : "entry",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 8,
+            "max" : 30
+        },
+        "prerequisites" : [
+            "bachelors_stem",
+            "masters_stem"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 0.4,
+            "executive" : 0.8,
+            "judicial" : 1.4
+        },
+        "description" : "Professional engineer in civil, software, mechanical, or electrical disciplines.",
+        "connections" : {
+            "mid_corporate_manager" : 1.3,
+            "small_business_owner" : 1.2
+        },
+        "overlaps" : [
+        ]
+    },
+    "entry_researcher" : {
+        "name" : "Research Scientist",
+        "track" : "academic",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 3,
+            "max" : 8
+        },
+        "prerequisites" : [
+            "masters_stem",
+            "phd_stem",
+            "phd_economics"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 0.6,
+            "executive" : 0.3,
+            "judicial" : 2.2
+        },
+        "description" : "Postdoctoral or independent research position at a university or research institute.",
+        "connections" : {
+            "university_professor" : 1.5,
+            "senior_researcher" : 1.6
+        },
+        "overlaps" : [
+        ]
+    },
+    "senior_researcher" : {
+        "name" : "Research Director",
+        "track" : "academic",
+        "tier" : "high",
+        "capacity" : 0.9,
+        "tenure_years" : {
+            "min" : 3,
+            "avg" : 10,
+            "max" : 30
+        },
+        "prerequisites" : [
+            "entry_researcher",
+            "university_professor"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 28,
+        "yearly_skills" : {
+            "legislative" : 0.8,
+            "executive" : 1.0,
+            "judicial" : 2.5
+        },
+        "description" : "Senior scientist leading a research lab or program with staff and grant management.",
+        "connections" : {
+            "entry_think_tank" : 1.2
+        },
+        "overlaps" : [
+            "university_professor"
+        ]
+    },
+    "medical_researcher" : {
+        "name" : "Medical Researcher",
+        "track" : "academic",
+        "tier" : "high",
+        "capacity" : 0.9,
+        "tenure_years" : {
+            "min" : 3,
+            "avg" : 10,
+            "max" : 30
+        },
+        "prerequisites" : [
+            "medical_school",
+            "phd_stem"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 28,
+        "yearly_skills" : {
+            "legislative" : 0.8,
+            "executive" : 0.8,
+            "judicial" : 2.4
+        },
+        "description" : "Physician-scientist or epidemiologist conducting clinical or public health research.",
+        "connections" : {
+            "senior_federal_bureaucrat" : 1.4,
+            "public_health_official" : 1.5
+        },
+        "overlaps" : [
+            "physician"
+        ]
+    },
+    "physician" : {
+        "name" : "Physician",
+        "track" : "civic",
+        "tier" : "high",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 5,
+            "avg" : 20,
+            "max" : 40
+        },
+        "prerequisites" : [
+            "medical_school"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 28,
+        "yearly_skills" : {
+            "legislative" : 0.5,
+            "executive" : 1.2,
+            "judicial" : 1.8
+        },
+        "description" : "Licensed medical doctor practicing medicine in a hospital, clinic, or private practice.",
+        "connections" : {
+            "us_representative" : 0.8,
+            "state_senator" : 0.7,
+            "public_health_official" : 1.2
+        },
+        "overlaps" : [
+            "medical_researcher"
+        ]
+    },
+    "union_official" : {
+        "name" : "Labor Union Official",
+        "track" : "civic",
+        "tier" : "mid",
+        "capacity" : 0.9,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 8,
+            "max" : 30
+        },
+        "prerequisites" : [
+            "community_organizer",
+            "entry_nonprofit_worker",
+            "military_service_enlisted"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 2.0,
+            "executive" : 1.6,
+            "judicial" : 0.8
+        },
+        "description" : "Elected or appointed official representing workers in collective bargaining and advocacy.",
+        "connections" : {
+            "state_representative" : 1.4,
+            "city_council_member" : 1.3
+        },
+        "overlaps" : [
+        ]
+    },
+    "foreign_diplomat" : {
+        "name" : "Foreign Service Officer",
+        "track" : "executive",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 3,
+            "avg" : 10,
+            "max" : 30
+        },
+        "prerequisites" : [
+            "masters_public_policy",
+            "law_school",
+            "entry_federal_bureaucrat"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 1.6,
+            "executive" : 1.6,
+            "judicial" : 1.4
+        },
+        "description" : "U.S. Foreign Service officer posted abroad or at State Department headquarters.",
+        "connections" : {
+            "senior_diplomat" : 1.8
+        },
+        "overlaps" : [
+        ]
+    },
+    "senior_diplomat" : {
+        "name" : "U.S. Ambassador",
+        "track" : "executive",
+        "tier" : "terminal",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 4,
+            "max" : 10
+        },
+        "prerequisites" : [
+            "foreign_diplomat",
+            "governor",
+            "us_senator"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 32,
+        "yearly_skills" : {
+            "legislative" : 2.0,
+            "executive" : 2.2,
+            "judicial" : 1.6
+        },
+        "description" : "U.S. Ambassador to a foreign nation or international organization, presidentially appointed.",
+        "connections" : {
+            "cabinet_secretary" : 1.0,
+            "secretary_of_state_us" : 1.4
+        },
+        "overlaps" : [
+        ]
+    },
+    "state_treasurer" : {
+        "name" : "State Treasurer",
+        "track" : "executive",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 4,
+            "max" : 16
+        },
+        "prerequisites" : [
+            "entry_financial_analyst",
+            "entry_corporate_analyst",
+            "entry_federal_bureaucrat",
+            "entry_political_staffer"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 1.4,
+            "executive" : 1.8,
+            "judicial" : 1.2
+        },
+        "description" : "Statewide elected or appointed official managing state funds, investment portfolios, debt insurance, and financial reporting.",
+        "connections" : {
+            "governor" : 1.3,
+            "us_senator" : 1.1,
+            "lieutenant_governor" : 1.0
+        },
+        "overlaps" : [
+        ]
+    },
+    "state_secretary_of_state" : {
+        "name" : "State Secretary of State",
+        "track" : "executive",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 4,
+            "max" : 16
+        },
+        "prerequisites" : [
+            "state_representative",
+            "entry_political_staffer",
+            "senior_legislative_staffer",
+            "entry_federal_bureaucrat"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 1.8,
+            "executive" : 1.4,
+            "judicial" : 1.0
+        },
+        "description" : "Statewide official overseeing elections administration, business entity registration, and official records.",
+        "connections" : {
+            "governor" : 1.4,
+            "lieutenant_governor" : 1.2,
+            "us_representative" : 1.0
+        },
+        "overlaps" : [
+        ]
+    },
+    "farmer_rancher" : {
+        "name" : "Farmer / Rancher",
+        "track" : "labor",
+        "tier" : "entry",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 3,
+            "avg" : 20,
+            "max" : 50
+        },
+        "prerequisites" : [
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 0.3,
+            "executive" : 1.4,
+            "judicial" : 0.2
+        },
+        "description" : "Owner or operator of a farm or ranch, often active in agricultural cooperatives, commodity associations, and local civic organizations.",
+        "connections" : {
+            "county_commissioner" : 1.4,
+            "state_representative" : 1.1,
+            "state_agriculture_commissioner" : 1.3
+        },
+        "overlaps" : [
+            "school_board_member",
+            "town_alderman",
+            "county_party_chair"
+        ]
+    },
+    "state_agriculture_commissioner" : {
+        "name" : "State Agriculture Commissioner",
+        "track" : "executive",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 4,
+            "max" : 16
+        },
+        "prerequisites" : [
+            "farmer_rancher",
+            "bachelors_stem",
+            "entry_federal_bureaucrat",
+            "state_representative"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 1.6,
+            "executive" : 1.8,
+            "judicial" : 0.8
+        },
+        "description" : "Statewide elected or appointed official overseeing agricultural regulation, food safety, rural development, pesticide licensing, and farming industry advocacy.",
+        "connections" : {
+            "governor" : 1.3,
+            "us_representative" : 1.2,
+            "secretary_of_agriculture" : 1.0
+        },
+        "overlaps" : [
+        ]
+    },
+    "attorney_general_us" : {
+        "name" : "U.S. Attorney General",
+        "track" : "legal",
+        "tier" : "terminal",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 3,
+            "max" : 8
+        },
+        "prerequisites" : [
+            "state_attorney_general",
+            "us_attorney",
+            "partner_attorney",
+            "federal_judge"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 38,
+        "yearly_skills" : {
+            "legislative" : 2.0,
+            "executive" : 3.0,
+            "judicial" : 2.5
+        },
+        "description" : "Head of the U.S. Department of Justice and the nation's chief law enforcement officer, appointed by the president to oversee federal prosecutors.",
+        "connections" : {
+            "governor" : 0.8,
+            "us_senator" : 0.9
+        },
+        "overlaps" : [
+        ]
+    },
+    "secretary_of_state_us" : {
+        "name" : "U.S. Secretary of State",
+        "track" : "executive",
+        "tier" : "terminal",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 4,
+            "max" : 8
+        },
+        "prerequisites" : [
+            "governor",
+            "us_senator",
+            "senior_diplomat",
+            "national_security_advisor",
+            "cabinet_secretary"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 40,
+        "yearly_skills" : {
+            "legislative" : 2.5,
+            "executive" : 3.0,
+            "judicial" : 1.8
+        },
+        "description" : "Head of the U.S. Department of State and the nation's top diplomatic officer, leading foreign policy, overseas operations, and international negotiations.",
+        "connections" : {
+        },
+        "overlaps" : [
+        ]
+    },
+    "secretary_of_treasury" : {
+        "name" : "U.S. Secretary of the Treasury",
+        "track" : "executive",
+        "tier" : "terminal",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 3,
+            "max" : 8
+        },
+        "prerequisites" : [
+            "senior_corporate_executive",
+            "venture_capitalist",
+            "phd_economics",
+            "senior_federal_bureaucrat",
+            "governor",
+            "state_treasurer"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 38,
+        "yearly_skills" : {
+            "legislative" : 1.8,
+            "executive" : 3.0,
+            "judicial" : 1.8
+        },
+        "description" : "Head of the U.S. Department of the Treasury, overseeing fiscal policy, the IRS, the Office of the Comptroller, and federal financial regulation.",
+        "connections" : {
+        },
+        "overlaps" : [
+        ]
+    },
+    "public_health_official" : {
+        "name" : "Public Health Official",
+        "track" : "civic",
+        "tier" : "high",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 6,
+            "max" : 20
+        },
+        "prerequisites" : [
+            "medical_school",
+            "phd_stem",
+            "senior_federal_bureaucrat",
+            "medical_researcher"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 28,
+        "yearly_skills" : {
+            "legislative" : 1.6,
+            "executive" : 2.0,
+            "judicial" : 1.8
+        },
+        "description" : "Director of a city, county, or state health department, or a senior official in an agency like the CDC, NIH, or FDA.",
+        "connections" : {
+            "secretary_of_hhs" : 1.4,
+            "senior_federal_bureaucrat" : 1.3
+        },
+        "overlaps" : [
+        ]
+    },
+    "secretary_of_hhs" : {
+        "name" : "U.S. Secretary of Health and Human Services",
+        "track" : "executive",
+        "tier" : "terminal",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 3,
+            "max" : 8
+        },
+        "prerequisites" : [
+            "public_health_official",
+            "physician",
+            "medical_researcher",
+            "governor",
+            "senior_federal_bureaucrat",
+            "us_senator"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 38,
+        "yearly_skills" : {
+            "legislative" : 2.0,
+            "executive" : 2.8,
+            "judicial" : 1.8
+        },
+        "description" : "Head of the U.S. Department of Health and Human Services, overseeing Medicare, Medicaid, the FDA, CDC, NIH, and social services programs.",
+        "connections" : {
+        },
+        "overlaps" : [
+        ]
+    },
+    "secretary_of_homeland_security" : {
+        "name" : "U.S. Secretary of Homeland Security",
+        "track" : "executive",
+        "tier" : "terminal",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 3,
+            "max" : 8
+        },
+        "prerequisites" : [
+            "senior_military_officer",
+            "senior_law_enforcement",
+            "governor",
+            "senior_federal_bureaucrat",
+            "us_senator"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 38,
+        "yearly_skills" : {
+            "legislative" : 2.0,
+            "executive" : 3.0,
+            "judicial" : 1.6
+        },
+        "description" : "Head of the U.S. Department of Homeland Security, overseeing CBP, ICE, FEMA, the Coast Guard, TSA, and domestic counterterrorism.",
+        "connections" : {
+        },
+        "overlaps" : [
+        ]
+    },
+    "secretary_of_agriculture" : {
+        "name" : "U.S. Secretary of Agriculture",
+        "track" : "executive",
+        "tier" : "terminal",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 3,
+            "max" : 8
+        },
+        "prerequisites" : [
+            "governor",
+            "state_agriculture_commissioner",
+            "senior_federal_bureaucrat",
+            "farmer_rancher",
+            "us_senator"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 35,
+        "yearly_skills" : {
+            "legislative" : 2.0,
+            "executive" : 2.8,
+            "judicial" : 1.4
+        },
+        "description" : "Head of the U.S. Department of Agriculture, overseeing farm policy, rural development, food safety, crop insurance, and FNS and SNAP benefits.",
+        "connections" : {
+        },
+        "overlaps" : [
+        ]
+    },
+    "secretary_of_labor" : {
+        "name" : "U.S. Secretary of Labor",
+        "track" : "executive",
+        "tier" : "terminal",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 3,
+            "max" : 8
+        },
+        "prerequisites" : [
+            "union_official",
+            "entry_nonprofit_director",
+            "governor",
+            "senior_federal_bureaucrat",
+            "us_senator"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 35,
+        "yearly_skills" : {
+            "legislative" : 2.2,
+            "executive" : 2.8,
+            "judicial" : 1.4
+        },
+        "description" : "Head of the U.S. Department of Labor, overseeing workforce development, worker protections, OSHA, minimum wage enforcement, and unemployment insurance.",
+        "connections" : {
+        },
+        "overlaps" : [
+        ]
+    },
+    "intelligence_officer" : {
+        "name" : "Intelligence Officer",
+        "track" : "military",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 3,
+            "avg" : 10,
+            "max" : 25
+        },
+        "prerequisites" : [
+            "military_officer",
+            "entry_federal_bureaucrat",
+            "bachelors_political_science",
+            "law_school"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 1.2,
+            "executive" : 1.6,
+            "judicial" : 2.0
+        },
+        "description" : "Clandestine or analytical officer in the U.S. Intelligence Community, such as the CIA, NSA, or DIA, conducting foreign intelligence collection, counterintelligence, or strategic analysis.",
+        "connections" : {
+            "senior_federal_bureaucrat" : 1.5,
+            "national_security_advisor" : 1.0,
+            "cia_director" : 1.2
+        },
+        "overlaps" : [
+        ]
+    },
+    "cia_director" : {
+        "name" : "Director of National Intelligence",
+        "track" : "executive",
+        "tier" : "terminal",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 3,
+            "max" : 8
+        },
+        "prerequisites" : [
+            "senior_military_officer",
+            "intelligence_officer",
+            "national_security_advisor",
+            "senior_federal_bureaucrat"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 40,
+        "yearly_skills" : {
+            "legislative" : 1.8,
+            "executive" : 2.8,
+            "judicial" : 2.2
+        },
+        "description" : "Head of the Intelligence Community, overseeing 18 agencies to implement the National Intelligence Program.",
+        "connections" : {
+        },
+        "overlaps" : [
+        ]
+    },
+    "white_house_staffer" : {
+        "name" : "White House Staffer",
+        "track" : "executive",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 2,
+            "max" : 6
+        },
+        "prerequisites" : [
+            "entry_political_staffer",
+            "senior_legislative_staffer",
+            "campaign_manager",
+            "policy_analyst"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 1.8,
+            "executive" : 2.0,
+            "judicial" : 0.8
+        },
+        "description" : "Staff member in the President's executive office, including communcations, internal affiars, policy, or management and budget.",
+        "connections" : {
+            "white_house_chief_of_staff" : 1.4,
+            "senior_policy_advisor" : 1.5,
+            "state_representative" : 1.0
+        },
+        "overlaps" : [
+        ]
+    },
+    "white_house_chief_of_staff" : {
+        "name" : "White House Chief of Staff",
+        "track" : "executive",
+        "tier" : "terminal",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 2,
+            "max" : 4
+        },
+        "prerequisites" : [
+            "senior_legislative_staffer",
+            "campaign_manager",
+            "senior_policy_advisor",
+            "white_house_staffer",
+            "us_representative"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 32,
+        "yearly_skills" : {
+            "legislative" : 2.8,
+            "executive" : 3.2,
+            "judicial" : 1.2
+        },
+        "description" : "The President's top aide, managing all White House operations, access to the Oval Office, coordination of cabinet agencies, and direction of political strategy for the executive office.",
+        "connections" : {
+            "cabinet_secretary" : 1.2,
+            "us_senator" : 0.9
+        },
+        "overlaps" : [
+        ]
+    },
+    "county_party_chair" : {
+        "name" : "County Political Party Chair",
+        "track" : "legislative",
+        "tier" : "entry",
+        "capacity" : 0.4,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 4,
+            "max" : 16
+        },
+        "prerequisites" : [
+            "entry_campaign_worker",
+            "community_organizer"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 1.4,
+            "executive" : 0.8,
+            "judicial" : 0.2
+        },
+        "description" : "Elected chair of a county political party committee, coordinating local candidate recruitment, voter registration, party events, and voting efforts.",
+        "connections" : {
+            "state_party_chair" : 1.6,
+            "city_council_member" : 1.3,
+            "entry_campaign_worker" : 1.4
+        },
+        "overlaps" : [
+            "city_council_member",
+            "entry_political_staffer",
+            "school_board_member",
+            "entry_teacher",
+            "farmer_rancher",
+            "town_alderman",
+            "part_time_job"
+        ]
+    },
+    "state_party_chair" : {
+        "name" : "State Political Party Chair",
+        "track" : "legislative",
+        "tier" : "mid",
+        "capacity" : 0.75,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 4,
+            "max" : 12
+        },
+        "prerequisites" : [
+            "county_party_chair",
+            "entry_campaign_worker",
+            "senior_legislative_staffer"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 2.2,
+            "executive" : 1.6,
+            "judicial" : 0.3
+        },
+        "description" : "Elected or appointed chair of a state political party, directing party strategy, fundraising, candidate recruitment, platform development, and relations with the national party.",
+        "connections" : {
+            "us_representative" : 1.1,
+            "state_senator" : 1.0,
+            "campaign_manager" : 1.3
+        },
+        "overlaps" : [
+            "entry_political_consultant"
+        ]
+    },
+    "town_alderman" : {
+        "name" : "Town Alderman Trustee",
+        "track" : "legislative",
+        "tier" : "entry",
+        "capacity" : 0.2,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 4,
+            "max" : 20
+        },
+        "prerequisites" : [
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 1.0,
+            "executive" : 0.4,
+            "judicial" : 0.3
+        },
+        "description" : "Elected member of the governing body of a small town, township, or village, handling local ordinances, zoning, and basic municipal services.",
+        "connections" : {
+            "city_council_member" : 1.6,
+            "mayor_small" : 1.2,
+            "school_board_member" : 1.1
+        },
+        "overlaps" : [
+            "part_time_job",
+            "community_organizer",
+            "entry_nonprofit_worker",
+            "school_board_member",
+            "farmer_rancher",
+            "entry_teacher",
+            "county_party_chair"
+        ]
+    },
+    "mayor_large" : {
+        "name" : "Metropolitan Mayor",
+        "track" : "executive",
+        "tier" : "terminal",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 6,
+            "max" : 20
+        },
+        "prerequisites" : [
+            "mayor_mid",
+            "state_senator",
+            "us_representative"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 32,
+        "yearly_skills" : {
+            "legislative" : 2.5,
+            "executive" : 3.5,
+            "judicial" : 1.2
+        },
+        "description" : "Mayor of a city with a population exceeding 500,000, carrying a national profile comparable to many governors.",
+        "connections" : {
+            "governor" : 1.4,
+            "us_senator" : 1.3,
+            "cabinet_secretary" : 1.0,
+            "vice_president" : 0.5
+        },
+        "overlaps" : [
+        ]
+    },
+    "real_estate_developer" : {
+        "name" : "Real Estate Investment Developer",
+        "track" : "business",
+        "tier" : "mid",
+        "capacity" : 0.9,
+        "tenure_years" : {
+            "min" : 3,
+            "avg" : 12,
+            "max" : 40
+        },
+        "prerequisites" : [
+            "bachelors_business",
+            "entry_financial_analyst",
+            "mid_corporate_manager",
+            "small_business_owner"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 0.6,
+            "executive" : 2.4,
+            "judicial" : 0.8
+        },
+        "description" : "Developer, builder, or investor in residential, commercial, or industrial real estate, involved with local zoning, land use, and municipal politics through regulatory dependencies.",
+        "connections" : {
+            "city_council_member" : 1.5,
+            "state_representative" : 1.1,
+            "mayor_small" : 1.0
+        },
+        "overlaps" : [
+            "county_party_chair"
+        ]
+    },
+    "lobbyist" : {
+        "name" : "Lobbyist",
+        "track" : "legislative",
+        "tier" : "mid",
+        "capacity" : 0.9,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 8,
+            "max" : 30
+        },
+        "prerequisites" : [
+            "entry_political_staffer",
+            "senior_legislative_staffer",
+            "associate_attorney",
+            "entry_campaign_worker"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 2.2,
+            "executive" : 1.6,
+            "judicial" : 0.8
+        },
+        "description" : "Professional advocate or government relations specialist representing corporations, trade associations, or nonprofits and their interests to government bodies.",
+        "connections" : {
+            "entry_political_consultant" : 1.5,
+            "state_representative" : 0.8
+        },
+        "overlaps" : [
+        ]
+    },
+    "county_sheriff" : {
+        "name" : "County Sheriff",
+        "track" : "civic",
+        "tier" : "mid",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 6,
+            "max" : 25
+        },
+        "prerequisites" : [
+            "entry_law_enforcement",
+            "military_service_enlisted",
+            "military_officer"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 1.4,
+            "executive" : 2.2,
+            "judicial" : 1.0
+        },
+        "description" : "Elected chief law enforcement officer of a county, responsible for jails, serving court orders, and enforcing law in unincorporated areas.",
+        "connections" : {
+            "state_representative" : 1.3,
+            "county_commissioner" : 1.4,
+            "us_representative" : 0.8
+        },
+        "overlaps" : [
+        ]
+    },
+    "social_worker" : {
+        "name" : "Social Worker",
+        "track" : "civic",
+        "tier" : "entry",
+        "capacity" : 0.9,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 6,
+            "max" : 25
+        },
+        "prerequisites" : [
+            "bachelors_liberal_arts"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 0.8,
+            "executive" : 0.8,
+            "judicial" : 0.8
+        },
+        "description" : "Licensed social work professional providing case management, counciling, or advocacy in child welfare, mental health, housing, or community services.",
+        "connections" : {
+            "entry_nonprofit_worker" : 1.5,
+            "community_organizer" : 1.4,
+            "city_council_member" : 1.0
+        },
+        "overlaps" : [
+        ]
+    },
+    "bachelors_theology" : {
+        "name" : "Bachelor of Theology",
+        "track" : "academic",
+        "tier" : "entry",
+        "capacity" : 0.85,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 3,
+            "max" : 5
+        },
+        "prerequisites" : [
+            "bachelors_liberal_arts"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 0.8,
+            "executive" : 0.5,
+            "judicial" : 1.0
+        },
+        "description" : "Formal theological degree from a seminary or divinity school, covering scripture, ethics, pastoral care, and homiletics.",
+        "connections" : {
+            "religious_leader" : 2.2
+        },
+        "overlaps" : [
+            "part_time_job"
+        ]
+    },
+    "clergy_religious_leader" : {
+        "name" : "Religious Community Leader",
+        "track" : "civic",
+        "tier" : "mid",
+        "capacity" : 0.8,
+        "tenure_years" : {
+            "min" : 3,
+            "avg" : 15,
+            "max" : 40
+        },
+        "prerequisites" : [
+            "bachelors_theology"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 22,
+        "yearly_skills" : {
+            "legislative" : 0.6,
+            "executive" : 1.8,
+            "judicial" : 0.8
+        },
+        "description" : "Ordained minister, pastor, rabbi, imim, priest, or other faith community leader, leading a significant congregation.",
+        "connections" : {
+            "community_organizer" : 1.6,
+            "city_council_member" : 1.2,
+            "state_representative" : 0.8
+        },
+        "overlaps" : [
+            "community_organizer",
+            "public_intellectual"
+        ]
+    },
+    "master_of_divinity" : {
+        "name" : "Master of Divinity",
+        "track" : "academic",
+        "tier" : "entry",
+        "capacity" : 0.8,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 2,
+            "max" : 3
+        },
+        "prerequisites" : [
+            "bachelors_theology"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 18,
+        "yearly_skills" : {
+            "legislative" : 1.0,
+            "executive" : 0.6,
+            "judicial" : 1.0
+        },
+        "description" : "Professional graduate degree for pastoral ministry, caplaincy, or religious leadership.",
+        "connections" : {
+            "religious_leader" : 2.2
+        },
+        "overlaps" : [
+        ]
+    },
+    "political_pundit" : {
+        "name" : "Political Commentator",
+        "track" : "media",
+        "tier" : "mid",
+        "capacity" : 0.5,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 6,
+            "max" : 25
+        },
+        "prerequisites" : [
+            "entry_journalist",
+            "senior_journalist",
+            "entry_political_staffer",
+            "senior_legislative_staffer"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 0,
+        "yearly_skills" : {
+            "legislative" : 1.0,
+            "executive" : 1.6,
+            "judicial" : 0.6
+        },
+        "description" : "Political analyst, commentator, or pundit in regular news outlets.",
+        "connections" : {
+            "media_personality" : 1.4,
+            "state_representative" : 0.8
+        },
+        "overlaps" : [
+            "university_professor",
+            "entry_think_tank",
+            "entry_journalist",
+            "public_intellectual"
+        ]
+    },
+    "public_intellectual" : {
+        "name" : "Public Intellectual",
+        "track" : "media",
+        "tier" : "mid",
+        "capacity" : 0.3,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 5,
+            "max" : 30
+        },
+        "prerequisites" : [
+            "bachelors_liberal_arts",
+            "senior_journalist",
+            "university_professor",
+            "senior_policy_advisor"
+        ],
+        "prerequisite_logic" : "any",
+        "min_age" : 0,
+        "yearly_skills" : {
+            "legislative" : 1.2,
+            "executive" : 0.6,
+            "judicial" : 1.0
+        },
+        "description" : "Public intellectual creating works on policy, politics, history, or social issues with a sustained public profile.",
+        "connections" : {
+            "entry_think_tank" : 1.3,
+            "political_pundit" : 1.2
+        },
+        "overlaps" : [
+            "university_professor",
+            "entry_think_tank",
+            "political_pundit",
+            "senior_legislative_staffer",
+            "clergy_religious_leader",
+            "entry_journalist"
+        ]
+    }
+}
