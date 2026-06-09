@@ -274,6 +274,11 @@ public class TimeManager extends Manager {
         return TimeUtils.yearsBetween(date, currentGameDate.toLocalDate());
     }
 
+    public int daysAgo(@NotNull LocalDate date) {
+        requireOperational();
+        return TimeUtils.daysBetween(date, currentGameDate.toLocalDate());
+    }
+
     /**
      * Determines the date it was yearsAgo years before the current game date.
      * @param yearsAgo Number of years to step backwards from the current game date.

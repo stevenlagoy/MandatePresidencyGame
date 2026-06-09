@@ -3,6 +3,7 @@ package com.stevenlagoy.presidency.util
 
 import java.time.LocalDate
 import java.time.ZonedDateTime
+import java.time.temporal.ChronoUnit
 import java.util.*
 import kotlin.math.abs
 
@@ -271,4 +272,8 @@ fun millisecondsBetween(startDate: ZonedDateTime, endDate: ZonedDateTime): Long 
 
 fun yearsBetween(startDate: LocalDate, endDate: LocalDate): Int {
     return abs(startDate.getYear() - endDate.getYear())
+}
+
+fun daysBetween(startDate: LocalDate, endDate: LocalDate): Int {
+    return ChronoUnit.DAYS.between(startDate, endDate).toInt()
 }

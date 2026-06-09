@@ -5,6 +5,10 @@ import java.util.regex.Pattern
 
 /* ---------- CORE HELPERS ------------ */
 
+fun String.normalize() = this.replace(Regex("\\s+"), "_").lowercase()
+@JvmName("stringNormalize")
+fun normalize(string: String) = string.normalize()
+
 /**
  * Returns whether the character at [position] lies inside a double-quoted string.
  *

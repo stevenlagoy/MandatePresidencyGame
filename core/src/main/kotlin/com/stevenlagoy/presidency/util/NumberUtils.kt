@@ -172,3 +172,7 @@ fun Float.toWords(individualNumbers: Boolean = false) = toWords(toString(), indi
 fun Double.toWords(individualNumbers: Boolean = false) = toWords(toString(), individualNumbers)
 
 fun BigDecimal.toWords(individualNumbers: Boolean = false) = toWords(toString(), individualNumbers)
+
+operator fun Triple<Double, Double, Double>.times(scale: Double) = Triple(this.first * scale, this.second * scale, this.third * scale)
+
+operator fun Triple<Double, Double, Double>.plus(other: Triple<Double, Double, Double>) = Triple(this.first + other.first, this.second + other.second, this.third + other.third)
