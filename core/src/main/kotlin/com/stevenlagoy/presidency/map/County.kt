@@ -26,6 +26,14 @@ class County(
     val municipalities: MutableSet<Municipality> = mutableSetOf(),
 ) : MapEntity(ENGINE), HasFIPS, HasPolitics {
 
+    enum class CountyType {
+        COUNTY,
+        PARISH,
+        BOROUGH,
+        PLANNING_REGION,
+        CONSOLIDATED_LOCALITY,
+    }
+
     constructor(engine: Engine, state: State, json: JSONObject) : this(engine, json.get("FIPS").toString(), state) {
         fromJson(json)
     }

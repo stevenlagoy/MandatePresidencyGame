@@ -32,6 +32,14 @@ class State (
     val division: CensusDivision? = null,
 ) : MapEntity(ENGINE), HasFIPS, HasPolitics
 {
+
+    enum class StateType {
+        STATE,
+        COMMONWEALTH,
+        DISTRICT,
+        TERRITORY,
+    }
+
     constructor(engine: Engine, json: JSONObject) : this(engine, json.get("FIPS").toString()) { fromJson(json) }
 
     val nation = Nation

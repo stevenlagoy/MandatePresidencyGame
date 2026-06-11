@@ -26,6 +26,17 @@ class Municipality(
     override val pastElectionResults: MutableList<ElectionResult> = mutableListOf(),
 ) : MapEntity(ENGINE), HasFIPS, HasPolitics
 {
+
+    enum class MunicipalityType {
+        CITY,
+        TOWN,
+        VILLAGE,
+        FIRST_CLASS,
+        SECOND_CLASS,
+        THIRD_CLASS,
+        HOME_RULE,
+    }
+
     constructor(engine: Engine, state: State, json: JSONObject) : this(engine, state, json.get("FIPS").toString()) {
         fromJson(json)
     }
