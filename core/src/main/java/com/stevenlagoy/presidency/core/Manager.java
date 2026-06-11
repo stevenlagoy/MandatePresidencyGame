@@ -92,7 +92,7 @@ public abstract class Manager implements Jsonic<Manager> {
          * @return {@code true} if the state is operational ({@link #ACTIVE}, {@link #PAUSED},
          * {@link #DEGRADED}), {@code false} otherwise.
          */
-        public boolean isOperational() {
+        public final boolean isOperational() {
             return this == ACTIVE || this == PAUSED || this == DEGRADED;
         }
 
@@ -101,7 +101,7 @@ public abstract class Manager implements Jsonic<Manager> {
          * @param next State being transitioned into.
          * @return {@code true} if this state may transition to the next state, {@code false} otherwise.
          */
-        public boolean canTransitionTo(@NotNull ManagerState next) {
+        public final boolean canTransitionTo(@NotNull ManagerState next) {
             return switch (this) {
                 case INACTIVE -> next == INITIALIZING || next == CLEANING_UP;
                 case INITIALIZING, PAUSED, SAVING, LOADING -> next == ACTIVE || next == DEGRADED || next == ERROR;
@@ -200,7 +200,7 @@ public abstract class Manager implements Jsonic<Manager> {
 
     /** Get all the descendent submanagers of this Manager, that is, direct submanagers and all of their descendents. */
     @Contract(pure = true)
-    public @NotNull Set<Manager> getAllSubManagers() {
+    public final @NotNull Set<Manager> getAllSubManagers() {
         Set<Manager> subManagers = new HashSet<>(getSubManagers());
         getSubManagers().forEach(manager -> subManagers.addAll(manager.getAllSubManagers()));
         return subManagers;
@@ -219,7 +219,7 @@ public abstract class Manager implements Jsonic<Manager> {
     // State Access
 
     /** Get the internal state of the Manager. */
-    public @NotNull ManagerState getState() { return state; }
+    public final @NotNull ManagerState getState() { return state; }
 
     public void printState() {
         Logger.log("%s is in state %s at %s", getClass().getSimpleName(), state, Engine.getInstance().getProgramTime());

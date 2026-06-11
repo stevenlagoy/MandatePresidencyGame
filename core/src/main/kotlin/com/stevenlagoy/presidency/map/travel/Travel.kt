@@ -11,14 +11,14 @@ import com.stevenlagoy.presidency.map.travel.vehicle.Vehicle
 import com.stevenlagoy.presidency.map.travel.vehicle.WaterVehicle
 
 class Travel(
-    val ENGINE: Engine,
+    protected val ENGINE: Engine,
     val travellersDestinations: MutableMap<Citizen, Municipality>,
     val availableVehicles: MutableList<Vehicle>,
     val legs: MutableList<TravelLeg>,
 ) {
 
     abstract class TravelLeg(
-        val ENGINE: Engine,
+        protected val ENGINE: Engine,
         val source: Municipality,
         val destination: Municipality,
         val travellers: MutableSet<Citizen>,

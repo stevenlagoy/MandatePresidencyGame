@@ -5,7 +5,7 @@ import com.stevenlagoy.jsonic.Jsonic
 import com.stevenlagoy.presidency.core.Engine
 
 class FinancialProfile(
-    val ENGINE: Engine,
+    protected val ENGINE: Engine,
     val cashAccount: CashAccount,
     val balanceSheet: BalanceSheet
 ) : Jsonic<FinancialProfile> {

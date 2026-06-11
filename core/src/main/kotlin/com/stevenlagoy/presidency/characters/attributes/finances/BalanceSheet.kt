@@ -7,7 +7,7 @@ import com.stevenlagoy.presidency.core.TimeManager
 import java.time.LocalDate
 
 data class BalanceSheet(
-    val ENGINE: Engine
+    protected val ENGINE: Engine
 ) {
 
     constructor(ENGINE: Engine, json: JSONObject) : this(ENGINE)

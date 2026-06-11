@@ -9,7 +9,7 @@ import com.stevenlagoy.presidency.politics.Government
 /**
  * MapEntity is a geographically-located area of the map which can be identified by a name and some basic characteristics, like population and area.
  */
-abstract class MapEntity(val ENGINE: Engine): Jsonic<MapEntity> {
+abstract class MapEntity(protected val ENGINE: Engine): Jsonic<MapEntity> {
 
     /** Full name of this map entity, possibly including a qualifier like 'State of', 'County', or 'Commonwealth of'. */
     abstract var fullName: String

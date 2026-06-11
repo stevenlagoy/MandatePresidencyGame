@@ -8,7 +8,7 @@ import kotlin.uuid.ExperimentalUuidApi
 
 @OptIn(ExperimentalUuidApi::class)
 data class Family(
-    val ENGINE: Engine,
+    protected val ENGINE: Engine,
     var mother: Citizen? = null,
     var father: Citizen? = null,
     var spouse: Citizen? = null,

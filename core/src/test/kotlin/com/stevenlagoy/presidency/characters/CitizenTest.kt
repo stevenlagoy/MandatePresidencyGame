@@ -29,7 +29,6 @@ class CitizenTest {
     fun `WHEN creating Citizen with empty fields THEN construction succeeds`() {
         val citizen = Citizen(ENGINE)
         assertNotNull(citizen)
-        assertNotNull(citizen.ENGINE)
         assertNotNull(citizen.sex)
         assertNotNull(citizen.birthday)
         assertNotNull(citizen.demographics)

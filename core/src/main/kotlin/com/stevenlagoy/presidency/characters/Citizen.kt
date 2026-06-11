@@ -33,7 +33,7 @@ import kotlin.uuid.Uuid
  */
 @OptIn(ExperimentalUuidApi::class)
 open class Citizen(
-    val ENGINE: Engine,
+    protected val ENGINE: Engine,
     val sex: Sex = Sex.FEMALE,
     birthday: LocalDate = LocalDate.of(1970, 1, 1),
     val demographics: Demographics = ENGINE.DEMOGRAPHICS_MANAGER.commonDemographics,

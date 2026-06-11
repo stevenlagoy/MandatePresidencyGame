@@ -6,7 +6,7 @@ import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.util.Logger
 
 class Demographics (
-    val ENGINE: Engine,
+    protected val ENGINE: Engine,
     generation: Bloc,
     religion: Bloc,
     raceEthnicity: Bloc,
