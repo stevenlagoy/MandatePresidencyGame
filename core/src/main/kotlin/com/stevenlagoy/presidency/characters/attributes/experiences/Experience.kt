@@ -2,8 +2,6 @@ package com.stevenlagoy.presidency.characters.attributes.experiences
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.core.Engine
-import com.stevenlagoy.presidency.map.Municipality
-import java.time.LocalDate
 import kotlin.jvm.optionals.getOrNull
 
 /**
@@ -16,33 +14,30 @@ import kotlin.jvm.optionals.getOrNull
  * @property prerequisiteLogic Logic for how prior experiences fulfil prerequisite requirements.
  */
 class Experience(
-    val ENGINE: Engine,
+    protected val ENGINE: Engine,
     val label: String,
     val name: String,
     val track: String,
-    val tier: ExperienceTier,
     val capacity: Double,
     val minTenure: Double,
     val avgTenure: Double,
     val maxTenure: Double,
+    @get:JvmName("isRepeatable")
+    val repeatable: Boolean,
     val prerequisites: List<Experience>,
     val prerequisiteLogic: PrerequisiteLogic,
+    val baseChance: Double,
     val minAge: Int,
+    val maxAge: Int,
     val yearlySkills: Triple<Double, Double, Double>,
     val description: String,
     val connections: MutableMap<Experience?, Double>
 ) {
-    constructor(ENGINE: Engine, json: JSONObject) : this(ENGINE,
+    constructor(ENGINE: Engine, json: JSONObject) : this(
+        ENGINE,
         json.key,
         json.get("name", String::class.java),
         json.get("track", String::class.java),
-        when (json.get("tier", String::class.java)) {
-            "entry"    -> ExperienceTier.ENTRY
-            "mid"      -> ExperienceTier.MID
-            "high"     -> ExperienceTier.HIGH
-            "terminal" -> ExperienceTier.TERMINAL
-            else       -> ExperienceTier.ENTRY
-        },
         (json.get("capacity") as Number).toDouble(),
         (json.get("tenure_years", List::class.java).find {
             (it as JSONObject).key == "min"
@@ -53,9 +48,10 @@ class Experience(
         (json.get("tenure_years", List::class.java).find {
             (it as JSONObject).key == "max"
         } as JSONObject).asNumber.toDouble(),
+        json.get("repeatable") as Boolean,
         json.get("prerequisites", List::class.java).map { ENGINE.CHARACTER_MANAGER.EXPERIENCE_MANAGER.matchExperience(it as String).let { opt ->
             if (opt.isEmpty) {
-                println(it)
+                println(opt)
             }
             opt.get()
         } },
@@ -64,7 +60,9 @@ class Experience(
             "all" -> PrerequisiteLogic.ALL
             else  -> PrerequisiteLogic.ANY
         },
+        json.get("base_chance", Number::class.java).toDouble(),
         json.get("min_age", Number::class.java).toInt(),
+        json.get("max_age", Number::class.java).toInt(),
         Triple(
             (json.get("yearly_skills", List::class.java).find {
                 (it as JSONObject).key == "legislative"
@@ -78,7 +76,7 @@ class Experience(
         ),
         json.get("description", String::class.java),
         json.get("connections", List::class.java).associate {
-            ENGINE.CHARACTER_MANAGER.EXPERIENCE_MANAGER.matchExperience((it as JSONObject).key).getOrNull() to (it.value as Number).toDouble()
+            ENGINE.CHARACTER_MANAGER.EXPERIENCE_MANAGER.matchExperience((it as JSONObject).key).getOrNull() to it.asNumber.toDouble()
         }.toMutableMap()
     )
 

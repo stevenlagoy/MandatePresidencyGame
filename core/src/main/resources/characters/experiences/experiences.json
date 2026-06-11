@@ -2,16 +2,18 @@
     "bachelors_liberal_arts" : {
         "name" : "Bachelor of Art in Liberal Arts",
         "track" : "academic",
-        "tier" : "entry",
         "capacity" : 0.7,
         "tenure_years" : {
             "min" : 3,
             "avg" : 4,
             "max" : 6
         },
+        "repeatable" : false,
         "prerequisites" : [],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.2,
             "executive" : 0.4,
@@ -37,16 +39,18 @@
     "bachelors_business" : {
         "name" : "Bachelor of Science in Business",
         "track" : "academic",
-        "tier" : "entry",
         "capacity" : 0.7,
         "tenure_years" : {
             "min" : 3,
             "avg" : 4,
             "max" : 6
         },
+        "repeatable" : false,
         "prerequisites" : [],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.8,
             "executive" : 1.4,
@@ -68,16 +72,18 @@
     "bachelors_stem" : {
         "name" : "Bachelor of Science in STEM",
         "track" : "academic",
-        "tier" : "entry",
         "capacity" : 0.7,
         "tenure_years" : {
             "min" : 3,
             "avg" : 4,
             "max" : 6
         },
+        "repeatable" : false,
         "prerequisites" : [],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.6,
             "executive" : 0.5,
@@ -100,16 +106,18 @@
     "bachelors_political_science" : {
         "name" : "Bachelor of Science in Political Science",
         "track" : "academic",
-        "tier" : "entry",
         "capacity" : 0.7,
         "tenure_years" : {
             "min" : 3,
             "avg" : 4,
             "max" : 6
         },
+        "repeatable" : false,
         "prerequisites" : [],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.6,
             "executive" : 0.6,
@@ -133,16 +141,18 @@
     "undergraduate_internship" : {
         "name" : "Undergraduate Internship",
         "track" : "civic",
-        "tier" : "entry",
         "capacity" : 0.2,
         "tenure_years" : {
             "min" : 0.25,
             "avg" : 0.5,
             "max" : 1
         },
+        "repeatable" : true,
         "prerequisites" : [],
         "prerequisite_logic" : "any",
+        "base_chance" : 0,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.5,
             "executive" : 0.5,
@@ -163,16 +173,18 @@
     "undergraduate_research" : {
         "name" : "Undergraduate Research",
         "track" : "academic",
-        "tier" : "entry",
         "capacity" : 0.2,
         "tenure_years" : {
             "min" : 0.5,
             "avg" : 1.5,
             "max" : 3
         },
+        "repeatable" : true,
         "prerequisites" : [],
         "prerequisite_logic" : "any",
+        "base_chance" : 0,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.4,
             "executive" : 0.1,
@@ -193,16 +205,18 @@
     "part_time_job" : {
         "name" : "Part-Time Work",
         "track" : "labor",
-        "tier" : "entry",
         "capacity" : 0.25,
         "tenure_years" : {
             "min" : 0.5,
             "avg" : 2,
             "max" : 6
         },
+        "repeatable" : true,
         "prerequisites" : [],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.1,
             "executive" : 0.3,
@@ -224,16 +238,18 @@
     "rotc" : {
         "name" : "ROTC",
         "track" : "military",
-        "tier" : "entry",
         "capacity" : 0.25,
         "tenure_years" : {
             "min" : 2,
             "avg" : 4,
-            "max" : 4
+            "max" : 4.01
         },
+        "repeatable" : false,
         "prerequisites" : [],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 31,
         "yearly_skills" : {
             "legislative" : 0.5,
             "executive" : 1.2,
@@ -253,13 +269,13 @@
     "law_school" : {
         "name" : "Juris Doctor",
         "track" : "academic",
-        "tier" : "entry",
         "capacity" : 0.9,
         "tenure_years" : {
             "min" : 3,
             "avg" : 3,
             "max" : 4
         },
+        "repeatable" : false,
         "prerequisites" : [
             "bachelors_liberal_arts",
             "bachelors_business",
@@ -267,7 +283,9 @@
             "bachelors_political_science"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.5,
             "executive" : 0.4,
@@ -287,20 +305,22 @@
     "masters_public_policy" : {
         "name" : "Master of Public Policy",
         "track" : "academic",
-        "tier" : "entry",
         "capacity" : 0.8,
         "tenure_years" : {
             "min" : 1,
             "avg" : 2,
             "max" : 3
         },
+        "repeatable" : false,
         "prerequisites" : [
             "bachelors_liberal_arts",
             "bachelors_business",
             "bachelors_political_science"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.0,
             "executive" : 0.8,
@@ -319,19 +339,21 @@
     "masters_economics" : {
         "name" : "Master of Science in Economics",
         "track" : "academic",
-        "tier" : "entry",
         "capacity" : 0.8,
         "tenure_years" : {
             "min" : 1,
             "avg" : 2,
             "max" : 3
         },
+        "repeatable" : false,
         "prerequisites" : [
             "bachelors_business",
             "bachelors_stem"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.2,
             "executive" : 0.5,
@@ -350,18 +372,20 @@
     "masters_stem" : {
         "name" : "Master of Science in STEM",
         "track" : "academic",
-        "tier" : "entry",
         "capacity" : 0.85,
         "tenure_years" : {
             "min" : 1,
             "avg" : 2,
             "max" : 3
         },
+        "repeatable" : false,
         "prerequisites" : [
             "bachelors_stem"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.5,
             "executive" : 0.4,
@@ -379,18 +403,20 @@
     "masters_history" : {
         "name" : "Master of Arts in History",
         "track" : "academic",
-        "tier" : "entry",
         "capacity" : 0.8,
         "tenure_years" : {
             "min" : 1,
             "avg" : 2,
             "max" : 3
         },
+        "repeatable" : false,
         "prerequisites" : [
             "bachelors_liberal_arts"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.4,
             "executive" : 0.2,
@@ -408,20 +434,22 @@
     "mba" : {
         "name" : "Master of Business Administration",
         "track" : "academic",
-        "tier" : "mid",
         "capacity" : 0.8,
         "tenure_years" : {
             "min" : 1,
             "avg" : 2,
             "max" : 2
         },
+        "repeatable" : false,
         "prerequisites" : [
             "bachelors_business",
             "bachelors_liberal_arts",
             "bachelors_stem"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.8,
             "executive" : 2.2,
@@ -440,19 +468,21 @@
     "phd_stem" : {
         "name" : "Doctor of Philosophy in STEM",
         "track" : "academic",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 4,
             "avg" : 6,
             "max" : 9
         },
+        "repeatable" : false,
         "prerequisites" : [
             "bachelors_stem",
             "masters_stem"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.4,
             "executive" : 0.2,
@@ -469,19 +499,21 @@
     "phd_economics" : {
         "name" : "Doctor of Philosophy in Economics",
         "track" : "academic",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 4,
             "avg" : 6,
             "max" : 8
         },
+        "repeatable" : false,
         "prerequisites" : [
             "bachelors_business",
             "masters_economics"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.2,
             "executive" : 0.3,
@@ -499,19 +531,21 @@
     "phd_humanities" : {
         "name" : "Doctor of Philosophy in the Humanities",
         "track" : "academic",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 4,
             "avg" : 6,
             "max" : 9
         },
+        "repeatable" : false,
         "prerequisites" : [
             "masters_history",
             "masters_public_policy"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.4,
             "executive" : 0.2,
@@ -527,18 +561,20 @@
     "medical_school" : {
         "name" : "Medical Doctor",
         "track" : "academic",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 4,
             "avg" : 4,
-            "max" : 4
+            "max" : 4.01
         },
+        "repeatable" : false,
         "prerequisites" : [
             "bachelors_stem"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.5,
             "executive" : 0.8,
@@ -555,16 +591,18 @@
     "military_service_enlisted" : {
         "name" : "Enlistment in Military Service",
         "track" : "military",
-        "tier" : "entry",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 6,
             "max" : 20
         },
+        "repeatable" : true,
         "prerequisites" : [],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 42,
         "yearly_skills" : {
             "legislative" : 0.4,
             "executive" : 1.8,
@@ -581,13 +619,13 @@
     "military_officer" : {
         "name" : "Commissioned Officer in Military Service",
         "track" : "military",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 4,
             "avg" : 10,
             "max" : 30
         },
+        "repeatable" : true,
         "prerequisites" : [
             "rotc",
             "bachelors_liberal_arts",
@@ -596,7 +634,9 @@
             "bachelors_stem"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.8,
             "executive" : 2.0,
@@ -613,18 +653,20 @@
     "military_nco" : {
         "name" : "Non-Commissioned Officer in Military Service",
         "track" : "military",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 3,
             "avg" : 8,
             "max" : 20
         },
+        "repeatable" : true,
         "prerequisites" : [
             "military_service_enlisted"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.6,
             "executive" : 2.0,
@@ -641,18 +683,20 @@
     "military_jag" : {
         "name" : "Military JAG Officer",
         "track" : "military",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 3,
             "avg" : 6,
             "max" : 20
         },
+        "repeatable" : true,
         "prerequisites" : [
             "law_school"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.2,
             "executive" : 0.8,
@@ -669,19 +713,21 @@
     "senior_military_officer" : {
         "name" : "Senior Military Officer in Military Service",
         "track" : "military",
-        "tier" : "high",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 4,
             "avg" : 8,
             "max" : 15
         },
+        "repeatable" : true,
         "prerequisites" : [
             "military_officer",
             "military_nco"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 28,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.4,
             "executive" : 2.5,
@@ -698,18 +744,20 @@
     "law_clerk" : {
         "name" : "Judicial Law Clerk",
         "track" : "legal",
-        "tier" : "entry",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 1,
             "avg" : 1,
             "max" : 2
         },
+        "repeatable" : true,
         "prerequisites" : [
             "law_school"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.0,
             "executive" : 0.2,
@@ -727,18 +775,20 @@
     "associate_attorney" : {
         "name" : "Associate Attorney",
         "track" : "legal",
-        "tier" : "entry",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 5,
             "max" : 10
         },
+        "repeatable" : true,
         "prerequisites" : [
             "law_school"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.0,
             "executive" : 0.6,
@@ -746,7 +796,7 @@
         },
         "description" : "Junior attorney at a law firm, typically practicing corporate, civil, or criminal law.",
         "connections" : {
-            "parner_attorney" : 1.5,
+            "partner_attorney" : 1.5,
             "prosecutor" : 1.3,
             "entry_political_staffer" : 1.0
         },
@@ -756,19 +806,21 @@
     "public_defender" : {
         "name" : "Public Defender",
         "track" : "legal",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 5,
             "max" : 15
         },
+        "repeatable" : true,
         "prerequisites" : [
             "law_school",
             "associate_attorney"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.8,
             "executive" : 1.2,
@@ -786,19 +838,21 @@
     "prosecutor" : {
         "name" : "Prosecutor",
         "track" : "legal",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 6,
             "max" : 15
         },
+        "repeatable" : true,
         "prerequisites" : [
             "law_school",
             "associate_attorney"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.0,
             "executive" : 1.6,
@@ -816,18 +870,20 @@
     "entry_legal_aid" : {
         "name" : "Legal Aid Attorney",
         "track" : "legal",
-        "tier" : "entry",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 1,
             "avg" : 3,
             "max" : 8
         },
+        "repeatable" : true,
         "prerequisites" : [
             "law_school"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.8,
             "executive" : 0.5,
@@ -844,20 +900,22 @@
     "us_attorney" : {
         "name" : "U.S. Attorney",
         "track" : "legal",
-        "tier" : "high",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 4,
             "max" : 8
         },
+        "repeatable" : true,
         "prerequisites" : [
             "prosecutor",
             "associate_attorney",
             "law_clerk"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 28,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.4,
             "executive" : 2.2,
@@ -876,18 +934,20 @@
     "partner_attorney" : {
         "name" : "Law Firm Partner",
         "track" : "legal",
-        "tier" : "high",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 4,
             "avg" : 10,
             "max" : 30
         },
+        "repeatable" : true,
         "prerequisites" : [
             "associate_attorney"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 28,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.2,
             "executive" : 1.6,
@@ -905,18 +965,20 @@
     "district_attorney" : {
         "name" : "District Attorney",
         "track" : "legal",
-        "tier" : "high",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 6,
             "max" : 16
         },
+        "repeatable" : true,
         "prerequisites" : [
             "prosecutor"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 28,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.5,
             "executive" : 2.0,
@@ -931,19 +993,151 @@
         "overlaps" : [
         ]
     },
+    "entry_political_staffer" : {
+        "name" : "Entry-Level Political Staffer",
+        "track" : "legislative",
+        "capacity" : 0.85,
+        "tenure_years" : {
+            "min" : 1,
+            "avg" : 3,
+            "max" : 8
+        },
+        "repeatable" : true,
+        "prerequisites" : [
+        ],
+        "prerequisite_logic" : "any",
+        "base_chance" : 1,
+        "min_age" : 18,
+        "max_age" : 100,
+        "yearly_skills" : {
+            "legislative" : 1.6,
+            "executive" : 0.6,
+            "judicial" : 0.4
+        },
+        "description" : "Legislative aide, constituent services rep, or junior staff in a state legislature or congressional office.",
+        "connections" : {
+            "senior_legislative_staffer" : 1.8,
+            "entry_campaign_worker" : 1.6,
+            "white_house_staffer" : 1.1
+        },
+        "overlaps" : [
+        ]
+    },
+    "city_council_member" : {
+        "name" : "City Council Member",
+        "track" : "legislative",
+        "capacity" : 0.7,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 4,
+            "max" : 20
+        },
+        "repeatable" : true,
+        "prerequisites" : [],
+        "prerequisite_logic" : "any",
+        "base_chance" : 1,
+        "min_age" : 18,
+        "max_age" : 100,
+        "yearly_skills" : {
+            "legislative" : 1.8,
+            "executive" : 0.8,
+            "judicial" : 0.6
+        },
+        "description" : "Elected member of a municipal legislative body.",
+        "connections" : {
+            "mayor_small" : 1.6,
+            "state_representative" : 1.4
+        },
+        "overlaps" : [
+            "part_time_job",
+            "entry_political_staffer"
+        ]
+    },
+    "entry_campaign_worker" : {
+        "name" : "Campaign Staffer",
+        "track" : "legislative",
+        "capacity" : 0.9,
+        "tenure_years" : {
+            "min" : 0.5,
+            "avg" : 1,
+            "max" : 3
+        },
+        "repeatable" : true,
+        "prerequisites" : [],
+        "prerequisite_logic" : "any",
+        "base_chance" : 1,
+        "min_age" : 18,
+        "max_age" : 100,
+        "yearly_skills" : {
+            "legislative" : 1.4,
+            "executive" : 1.2,
+            "judicial" : 0.2
+        },
+        "description" : "Political campaign staffer involved with organizing, communications, voter outreach, or field operations.",
+        "connections" : {
+            "senior_legislative_staffer" : 1.5,
+            "campaign_manager" : 1.4
+        },
+        "overlaps" : [
+        ]
+    },
+    "town_alderman" : {
+        "name" : "Town Alderman Trustee",
+        "track" : "legislative",
+        "capacity" : 0.2,
+        "tenure_years" : {
+            "min" : 2,
+            "avg" : 4,
+            "max" : 20
+        },
+        "repeatable" : true,
+        "prerequisites" : [
+        ],
+        "prerequisite_logic" : "any",
+        "base_chance" : 1,
+        "min_age" : 18,
+        "max_age" : 100,
+        "yearly_skills" : {
+            "legislative" : 1.0,
+            "executive" : 0.4,
+            "judicial" : 0.3
+        },
+        "description" : "Elected member of the governing body of a small town, township, or village, handling local ordinances, zoning, and basic municipal services.",
+        "connections" : {
+            "city_council_member" : 1.6,
+            "mayor_small" : 1.2,
+            "school_board_member" : 1.1
+        },
+        "overlaps" : [
+            "part_time_job",
+            "community_organizer",
+            "entry_nonprofit_worker",
+            "school_board_member",
+            "farmer_rancher",
+            "entry_teacher",
+            "county_party_chair"
+        ]
+    },
     "state_representative" : {
         "name" : "State Representative",
         "track" : "legislative",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 1,
             "avg" : 4,
             "max" : 20
         },
-        "prerequisites" : [],
+        "repeatable" : true,
+        "prerequisites" : [
+            "entry_political_staffer",
+            "city_council_member",
+            "entry_campaign_worker",
+            "town_alderman"
+        ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.5,
             "executive" : 1.0,
@@ -962,20 +1156,22 @@
     "state_attorney_general" : {
         "name" : "State Attorney General",
         "track" : "legal",
-        "tier" : "terminal",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 6,
             "max" : 12
         },
+        "repeatable" : true,
         "prerequisites" : [
             "prosecutor",
             "district_attorney",
             "partner_attorney"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 32,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.0,
             "executive" : 2.5,
@@ -990,79 +1186,25 @@
         "overlaps" : [
         ]
     },
-    "entry_political_staffer" : {
-        "name" : "Entry-Level Political Staffer",
-        "track" : "legislative",
-        "tier" : "entry",
-        "capacity" : 0.85,
-        "tenure_years" : {
-            "min" : 1,
-            "avg" : 3,
-            "max" : 8
-        },
-        "prerequisites" : [
-        ],
-        "prerequisite_logic" : "any",
-        "min_age" : 18,
-        "yearly_skills" : {
-            "legislative" : 1.6,
-            "executive" : 0.6,
-            "judicial" : 0.4
-        },
-        "description" : "Legislative aide, constituent services rep, or junior staff in a state legislature or congressional office.",
-        "connections" : {
-            "senior_legislative_staffer" : 1.8,
-            "entry_campaign_worker" : 1.6,
-            "white_house_staffer" : 1.1
-        },
-        "overlaps" : [
-        ]
-    },
-    "city_council_member" : {
-        "name" : "City Council Member",
-        "track" : "legislative",
-        "tier" : "entry",
-        "capacity" : 0.7,
-        "tenure_years" : {
-            "min" : 2,
-            "avg" : 4,
-            "max" : 20
-        },
-        "prerequisites" : [],
-        "prerequisite_logic" : "any",
-        "min_age" : 18,
-        "yearly_skills" : {
-            "legislative" : 1.8,
-            "executive" : 0.8,
-            "judicial" : 0.6
-        },
-        "description" : "Elected member of a municipal legislative body.",
-        "connections" : {
-            "mayor_small" : 1.6,
-            "state_representative" : 1.4
-        },
-        "overlaps" : [
-            "part_time_job",
-            "entry_political_staffer"
-        ]
-    },
     "mayor_small" : {
         "name" : "Small City Mayor",
         "track" : "executive",
-        "tier" : "mid",
         "capacity" : 0.9,
         "tenure_years" : {
             "min" : 2,
             "avg" : 4,
             "max" : 20
         },
+        "repeatable" : true,
         "prerequisites" : [
             "city_council_member",
             "entry_political_staffer",
             "state_representative"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.4,
             "executive" : 2.0,
@@ -1079,20 +1221,22 @@
     "mayor_mid" : {
         "name" : "Major City Mayor",
         "track" : "executive",
-        "tier" : "high",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 6,
             "max" : 20
         },
+        "repeatable" : true,
         "prerequisites" : [
             "mayor_small",
             "city_council_member",
             "state_representative"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 28,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.0,
             "executive" : 2.8,
@@ -1110,13 +1254,13 @@
     "state_senator" : {
         "name" : "State Senator",
         "track" : "legislative",
-        "tier" : "high",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 6,
             "max" : 30
         },
+        "repeatable" : true,
         "prerequisites" : [
             "state_representative",
             "district_attorney",
@@ -1124,7 +1268,9 @@
             "mayor_mid"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 28,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.8,
             "executive" : 1.2,
@@ -1139,48 +1285,24 @@
         "overlaps" : [
         ]
     },
-    "entry_campaign_worker" : {
-        "name" : "Campaign Staffer",
-        "track" : "legislative",
-        "tier" : "entry",
-        "capacity" : 0.9,
-        "tenure_years" : {
-            "min" : 0.5,
-            "avg" : 1,
-            "max" : 3
-        },
-        "prerequisites" : [],
-        "prerequisite_logic" : "any",
-        "min_age" : 18,
-        "yearly_skills" : {
-            "legislative" : 1.4,
-            "executive" : 1.2,
-            "judicial" : 0.2
-        },
-        "description" : "Political campaign staffer involved with organizing, communications, voter outreach, or field operations.",
-        "connections" : {
-            "senior_legislative_staffer" : 1.5,
-            "campaign_manager" : 1.4
-        },
-        "overlaps" : [
-        ]
-    },
     "senior_legislative_staffer" : {
         "name" : "Senior Legislative Staffer",
         "track" : "legislative",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 6,
             "max" : 15
         },
+        "repeatable" : true,
         "prerequisites" : [
             "entry_political_staffer",
             "entry_campaign_worker"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.2,
             "executive" : 1.0,
@@ -1199,19 +1321,21 @@
     "campaign_manager" : {
         "name" : "Campaign Manager",
         "track" : "legislative",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 0.5,
             "avg" : 1,
             "max" : 2
         },
+        "repeatable" : true,
         "prerequisites" : [
             "entry_campaign_worker",
             "entry_political_staffer"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.8,
             "executive" : 2.2,
@@ -1229,20 +1353,22 @@
     "entry_political_consultant" : {
         "name" : "Political Consultant",
         "track" : "legislative",
-        "tier" : "mid",
         "capacity" : 0.8,
         "tenure_years" : {
             "min" : 2,
             "avg" : 8,
             "max" : 30
         },
+        "repeatable" : true,
         "prerequisites" : [
             "campaign_manager",
             "entry_campaign_worker",
             "entry_political_staffer"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.6,
             "executive" : 1.8,
@@ -1258,13 +1384,13 @@
     "us_representative" : {
         "name" : "U.S. House Representative",
         "track" : "legislative",
-        "tier" : "high",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 8,
             "max" : 40
         },
+        "repeatable" : true,
         "prerequisites" : [
             "state_representative",
             "state_senator",
@@ -1274,7 +1400,9 @@
             "entry_political_consultant"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 25,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 3.0,
             "executive" : 1.5,
@@ -1291,13 +1419,13 @@
     "us_senator" : {
         "name" : "U.S. Senator",
         "track" : "legislative",
-        "tier" : "terminal",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 6,
             "avg" : 9,
             "max" : 50
         },
+        "repeatable" : true,
         "prerequisites" : [
             "state_representative",
             "state_senator",
@@ -1308,7 +1436,9 @@
             "us_representative"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 30,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 3.5,
             "executive" : 1.7,
@@ -1325,18 +1455,20 @@
     "municipal_judge" : {
         "name" : "Municipal Court Judge",
         "track" : "judicial",
-        "tier" : "entry",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 4,
             "max" : 12
         },
+        "repeatable" : true,
         "prerequisites" : [
             "law_school"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.5,
             "executive" : 0.2,
@@ -1352,13 +1484,13 @@
     "state_judge" : {
         "name" : "State Court Judge",
         "track" : "judicial",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 4,
             "avg" : 8,
             "max" : 30
         },
+        "repeatable" : true,
         "prerequisites" : [
             "associate_attorney",
             "prosecutor",
@@ -1366,7 +1498,9 @@
             "municipal_judge"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.0,
             "executive" : 0.4,
@@ -1382,18 +1516,20 @@
     "state_supreme_court_justice" : {
         "name" : "State Supreme Court Justice",
         "track" : "judicial",
-        "tier" : "terminal",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 6,
             "avg" : 12,
             "max" : 30
         },
+        "repeatable" : true,
         "prerequisites" : [
             "state_judge"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 38,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.2,
             "executive" : 0.4,
@@ -1409,13 +1545,13 @@
     "federal_judge" : {
         "name" : "Federal Court Judge",
         "track" : "judicial",
-        "tier" : "high",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 5,
             "avg" : 15,
             "max" : 120
         },
+        "repeatable" : true,
         "prerequisites" : [
             "state_judge",
             "prosecutor",
@@ -1426,7 +1562,9 @@
             "us_attorney"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 28,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.2,
             "executive" : 0.4,
@@ -1442,18 +1580,20 @@
     "supreme_court_justice" : {
         "name" : "U.S. Supreme Court Justice",
         "track" : "judicial",
-        "tier" : "terminal",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 5,
             "avg" : 20,
             "max" : 120
         },
+        "repeatable" : true,
         "prerequisites" : [
             "federal_judge"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 40,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.5,
             "executive" : 0.5,
@@ -1468,13 +1608,13 @@
     "policy_analyst" : {
         "name" : "Policy Analyst",
         "track" : "legislative",
-        "tier" : "mid",
         "capacity" : 0.9,
         "tenure_years" : {
             "min" : 2,
             "avg" : 5,
             "max" : 12
         },
+        "repeatable" : true,
         "prerequisites" : [
             "masters_public_policy",
             "masters_economics",
@@ -1482,7 +1622,9 @@
             "entry_political_staffer"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.0,
             "executive" : 0.4,
@@ -1499,18 +1641,20 @@
     "senior_policy_advisor" : {
         "name" : "Senior Policy Advisor",
         "track" : "legislative",
-        "tier" : "high",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 5,
             "max" : 12
         },
+        "repeatable" : true,
         "prerequisites" : [
             "policy_analyst"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 28,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.5,
             "executive" : 1.2,
@@ -1527,13 +1671,13 @@
     "entry_think_tank" : {
         "name" : "Think Tank Fellow",
         "track" : "civic",
-        "tier" : "mid",
         "capacity" : 0.9,
         "tenure_years" : {
             "min" : 1,
             "avg" : 4,
             "max" : 15
         },
+        "repeatable" : true,
         "prerequisites" : [
             "masters_public_policy",
             "masters_economics",
@@ -1542,7 +1686,9 @@
             "policy_analyst"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.8,
             "executive" : 0.3,
@@ -1560,18 +1706,20 @@
     "state_speaker" : {
         "name" : "Speaker of the State House",
         "track" : "legislative",
-        "tier" : "high",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 1,
             "avg" : 4,
             "max" : 16
         },
+        "repeatable" : true,
         "prerequisites" : [
             "state_representative"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 28,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 3.0,
             "executive" : 1.8,
@@ -1588,19 +1736,21 @@
     "county_commissioner" : {
         "name" : "County Commissioner",
         "track" : "legislative",
-        "tier" : "mid",
         "capacity" : 0.8,
         "tenure_years" : {
             "min" : 2,
             "avg" : 6,
             "max" : 20
         },
+        "repeatable" : true,
         "prerequisites" : [
             "city_council_member",
             "entry_political_staffer"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.0,
             "executive" : 1.2,
@@ -1616,13 +1766,13 @@
     "lieutenant_governor" : {
         "name" : "Lieutenant Governor",
         "track" : "executive",
-        "tier" : "high",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 4,
             "max" : 16
         },
+        "repeatable" : true,
         "prerequisites" : [
             "state_senator",
             "state_representative",
@@ -1630,7 +1780,9 @@
             "mayor_mid"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 28,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.0,
             "executive" : 2.0,
@@ -1646,13 +1798,13 @@
     "governor" : {
         "name" : "Governor",
         "track" : "executive",
-        "tier" : "terminal",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 6,
             "max" : 16
         },
+        "repeatable" : true,
         "prerequisites" : [
             "lieutenant_governor",
             "state_attorney_general",
@@ -1661,7 +1813,9 @@
             "mayor_mid"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 30,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.5,
             "executive" : 3.5,
@@ -1677,19 +1831,21 @@
     "entry_corporate_analyst" : {
         "name" : "Corporate Analyst",
         "track" : "business",
-        "tier" : "entry",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 1,
             "avg" : 3,
             "max" : 6
         },
+        "repeatable" : true,
         "prerequisites" : [
             "bachelors_business",
             "bachelors_stem"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.4,
             "executive" : 1.2,
@@ -1706,19 +1862,21 @@
     "entry_financial_analyst" : {
         "name" : "Financial Analyst",
         "track" : "business",
-        "tier" : "entry",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 4,
             "max" : 10
         },
+        "repeatable" : true,
         "prerequisites" : [
             "bachelors_business",
             "bachelors_stem"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.5,
             "executive" : 1.4,
@@ -1737,20 +1895,22 @@
     "mid_corporate_manager" : {
         "name" : "Mid-Level Corporate Manager",
         "track" : "business",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 6,
             "max" : 15
         },
+        "repeatable" : true,
         "prerequisites" : [
             "entry_corporate_analyst",
             "entry_financial_analyst",
             "mba"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.6,
             "executive" : 2.0,
@@ -1766,19 +1926,21 @@
     "senior_corporate_executive" : {
         "name" : "Senior Corporate Executive",
         "track" : "business",
-        "tier" : "high",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 6,
             "max" : 20
         },
+        "repeatable" : true,
         "prerequisites" : [
             "mid_corporate_manager",
             "mba"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 28,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.0,
             "executive" : 3.0,
@@ -1794,19 +1956,21 @@
     "entry_teacher" : {
         "name" : "K-12 Teacher",
         "track" : "civic",
-        "tier" : "entry",
         "capacity" : 0.9,
         "tenure_years" : {
             "min" : 1,
             "avg" : 6,
             "max" : 30
         },
+        "repeatable" : true,
         "prerequisites" : [
             "bachelors_liberal_arts",
             "bachelors_stem"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.0,
             "executive" : 0.8,
@@ -1823,17 +1987,19 @@
     "school_board_member" : {
         "name" : "School Board Member",
         "track" : "civic",
-        "tier" : "entry",
         "capacity" : 0.3,
         "tenure_years" : {
             "min" : 2,
             "avg" : 4,
             "max" : 20
         },
+        "repeatable" : true,
         "prerequisites" : [
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.6,
             "executive" : 0.6,
@@ -1853,20 +2019,22 @@
     "university_professor" : {
         "name" : "University Professor",
         "track" : "academic",
-        "tier" : "high",
         "capacity" : 0.8,
         "tenure_years" : {
             "min" : 3,
             "avg" : 15,
             "max" : 40
         },
+        "repeatable" : true,
         "prerequisites" : [
             "phd_stem",
             "phd_economics",
             "phd_humanities"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 28,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.5,
             "executive" : 0.4,
@@ -1885,20 +2053,22 @@
     "masters_public_admin" : {
         "name" : "Master of Public Administration",
         "track" : "academic",
-        "tier" : "entry",
         "capacity" : 0.8,
         "tenure_years" : {
             "min" : 1,
             "avg" : 2,
             "max" : 3
         },
+        "repeatable" : true,
         "prerequisites" : [
             "bachelors_liberal_arts",
             "bachelors_business",
             "bachelors_political_science"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.6,
             "executive" : 1.2,
@@ -1917,20 +2087,22 @@
     "entry_federal_bureaucrat" : {
         "name" : "Federal Agency Staff Civil Servant",
         "track" : "executive",
-        "tier" : "entry",
         "capacity" : 0.9,
         "tenure_years" : {
             "min" : 2,
             "avg" : 8,
             "max" : 30
         },
+        "repeatable" : true,
         "prerequisites" : [
             "masters_public_policy",
             "masters_public_admin",
             "military_officer"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.0,
             "executive" : 0.8,
@@ -1946,13 +2118,13 @@
     "state_superintendant_of_education" : {
         "name" : "State Superintendant of Education",
         "track" : "executive",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 4,
             "max" : 16
         },
+        "repeatable" : true,
         "prerequisites" : [
             "entry_teacher",
             "school_board_member",
@@ -1960,7 +2132,9 @@
             "entry_federal_bureaucrat"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.8,
             "executive" : 1.6,
@@ -1977,20 +2151,22 @@
     "state_comptroller" : {
         "name" : "State Comptroller Auditor",
         "track" : "executive",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 4,
             "max" : 16
         },
+        "repeatable" : true,
         "prerequisites" : [
             "entry_financial_analyst",
             "entry_corporate_analyst",
             "entry_federal_bureaucrat"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.4,
             "executive" : 1.6,
@@ -2008,13 +2184,13 @@
     "state_insurance_commissioner" : {
         "name" : "State Insurance Commissioner",
         "track" : "executive",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 4,
             "max" : 12
         },
+        "repeatable" : true,
         "prerequisites" : [
             "associate_attorney",
             "entry_financial_analyst",
@@ -2022,7 +2198,9 @@
             "entry_federal_bureaucrat"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.4,
             "executive" : 1.6,
@@ -2039,13 +2217,13 @@
     "cabinet_secretary" : {
         "name" : "Cabinet Secretary",
         "track" : "executive",
-        "tier" : "terminal",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 1,
             "avg" : 3,
             "max" : 8
         },
+        "repeatable" : true,
         "prerequisites" : [
             "governor",
             "us_senator",
@@ -2058,7 +2236,9 @@
             "state_insurance_commissioner"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 35,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.0,
             "executive" : 3.5,
@@ -2073,20 +2253,22 @@
     "national_security_advisor" : {
         "name" : "National Security Advisor",
         "track" : "executive",
-        "tier" : "terminal",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 1,
             "avg" : 2,
             "max" : 6
         },
+        "repeatable" : true,
         "prerequisites" : [
             "senior_military_officer",
             "cabinet_secretary",
             "senior_policy_advisor"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 32,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.5,
             "executive" : 3.0,
@@ -2101,20 +2283,22 @@
     "secretary_of_defense" : {
         "name" : "Secretary of Defense",
         "track" : "executive",
-        "tier" : "terminal",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 1,
             "avg" : 3,
             "max" : 8
         },
+        "repeatable" : true,
         "prerequisites" : [
             "senior_military_officer",
             "cabinet_secretary",
             "us_senator"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 32,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.0,
             "executive" : 3.5,
@@ -2129,20 +2313,22 @@
     "vice_president" : {
         "name" : "Vice President of the United States",
         "track" : "executive",
-        "tier" : "terminal",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 4,
             "avg" : 4,
             "max" : 8
         },
+        "repeatable" : true,
         "prerequisites" : [
             "governor",
             "us_senator",
             "cabinet_secretary"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 35,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.5,
             "executive" : 3.0,
@@ -2157,20 +2343,22 @@
     "president" : {
         "name" : "President of the United States",
         "track" : "executive",
-        "tier" : "terminal",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 4,
             "avg" : 5,
             "max" : 8
         },
+        "repeatable" : true,
         "prerequisites" : [
             "governor",
             "us_senator",
             "cabinet_secretary"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 35,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.7,
             "executive" : 3.5,
@@ -2185,18 +2373,20 @@
     "senior_federal_bureaucrat" : {
         "name" : "Senior Federal Official",
         "track" : "executive",
-        "tier" : "high",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 5,
             "max" : 15
         },
+        "repeatable" : true,
         "prerequisites" : [
             "entry_federal_bureaucrat"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 28,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.8,
             "executive" : 2.0,
@@ -2212,20 +2402,22 @@
     "city_manager" : {
         "name" : "City Manager",
         "track" : "executive",
-        "tier" : "high",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 6,
             "max" : 20
         },
+        "repeatable" : true,
         "prerequisites" : [
             "masters_public_admin",
             "entry_federal_bureaucrat",
             "county_commissioner"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 28,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.6,
             "executive" : 2.2,
@@ -2241,20 +2433,22 @@
     "small_business_owner" : {
         "name" : "Small Business Owner",
         "track" : "business",
-        "tier" : "mid",
         "capacity" : 0.9,
         "tenure_years" : {
             "min" : 2,
             "avg" : 8,
             "max" : 40
         },
+        "repeatable" : true,
         "prerequisites" : [
             "bachelors_business",
             "entry_corporate_analyst",
             "mba"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.8,
             "executive" : 2.4,
@@ -2271,20 +2465,22 @@
     "venture_capitalist" : {
         "name" : "Venture Capitalist",
         "track" : "business",
-        "tier" : "high",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 3,
             "avg" : 10,
             "max" : 30
         },
+        "repeatable" : true,
         "prerequisites" : [
             "entry_financial_analyst",
             "mba",
             "senior_corporate_executive"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 28,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.8,
             "executive" : 2.6,
@@ -2300,19 +2496,21 @@
     "entry_journalist" : {
         "name" : "Journalist Reporter",
         "track" : "media",
-        "tier" : "entry",
         "capacity" : 0.9,
         "tenure_years" : {
             "min" : 1,
             "avg" : 5,
             "max" : 20
         },
+        "repeatable" : true,
         "prerequisites" : [
             "bachelors_liberal_arts",
             "bachelors_political_science"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.0,
             "executive" : 0.8,
@@ -2330,18 +2528,20 @@
     "senior_journalist" : {
         "name" : "Senior Journalist",
         "track" : "media",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 3,
             "avg" : 8,
             "max" : 30
         },
+        "repeatable" : true,
         "prerequisites" : [
             "entry_journalist"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.4,
             "executive" : 1.0,
@@ -2357,18 +2557,20 @@
     "media_personality" : {
         "name" : "Media Personality",
         "track" : "media",
-        "tier" : "high",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 10,
             "max" : 30
         },
+        "repeatable" : true,
         "prerequisites" : [
             "senior_journalist"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 28,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.0,
             "executive" : 2.5,
@@ -2385,19 +2587,21 @@
     "entry_nonprofit_worker" : {
         "name" : "Nonprofit Non-governmental Organization Staff",
         "track" : "civic",
-        "tier" : "entry",
         "capacity" : 0.85,
         "tenure_years" : {
             "min" : 1,
             "avg" : 4,
             "max" : 15
         },
+        "repeatable" : true,
         "prerequisites" : [
             "bachelors_liberal_arts",
             "bachelors_political_science"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.0,
             "executive" : 0.8,
@@ -2414,20 +2618,22 @@
     "entry_nonprofit_director" : {
         "name" : "Nonprofit Executive Director",
         "track" : "civic",
-        "tier" : "high",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 7,
             "max" : 25
         },
+        "repeatable" : true,
         "prerequisites" : [
             "entry_nonprofit_worker",
             "entry_legal_aid",
             "senior_legislative_staffer"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 28,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.8,
             "executive" : 2.0,
@@ -2444,16 +2650,18 @@
     "community_organizer" : {
         "name" : "Community Organizer",
         "track" : "civic",
-        "tier" : "entry",
         "capacity" : 0.7,
         "tenure_years" : {
             "min" : 1,
             "avg" : 4,
             "max" : 15
         },
+        "repeatable" : true,
         "prerequisites" : [],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.2,
             "executive" : 1.4,
@@ -2473,17 +2681,19 @@
     "entry_law_enforcement" : {
         "name" : "Police Officer",
         "track" : "civic",
-        "tier" : "entry",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 8,
             "max" : 25
         },
+        "repeatable" : true,
         "prerequisites" : [
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.5,
             "executive" : 1.8,
@@ -2500,18 +2710,20 @@
     "senior_law_enforcement" : {
         "name" : "Police Director",
         "track" : "civic",
-        "tier" : "high",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 6,
             "max" : 15
         },
+        "repeatable" : true,
         "prerequisites" : [
             "entry_law_enforcement"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 28,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.4,
             "executive" : 2.4,
@@ -2528,19 +2740,21 @@
     "entry_engineer" : {
         "name" : "Engineer",
         "track" : "business",
-        "tier" : "entry",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 8,
             "max" : 30
         },
+        "repeatable" : true,
         "prerequisites" : [
             "bachelors_stem",
             "masters_stem"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.4,
             "executive" : 0.8,
@@ -2557,20 +2771,22 @@
     "entry_researcher" : {
         "name" : "Research Scientist",
         "track" : "academic",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 1,
             "avg" : 3,
             "max" : 8
         },
+        "repeatable" : true,
         "prerequisites" : [
             "masters_stem",
             "phd_stem",
             "phd_economics"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.6,
             "executive" : 0.3,
@@ -2587,19 +2803,21 @@
     "senior_researcher" : {
         "name" : "Research Director",
         "track" : "academic",
-        "tier" : "high",
         "capacity" : 0.9,
         "tenure_years" : {
             "min" : 3,
             "avg" : 10,
             "max" : 30
         },
+        "repeatable" : true,
         "prerequisites" : [
             "entry_researcher",
             "university_professor"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 28,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.8,
             "executive" : 1.0,
@@ -2616,19 +2834,21 @@
     "medical_researcher" : {
         "name" : "Medical Researcher",
         "track" : "academic",
-        "tier" : "high",
         "capacity" : 0.9,
         "tenure_years" : {
             "min" : 3,
             "avg" : 10,
             "max" : 30
         },
+        "repeatable" : true,
         "prerequisites" : [
             "medical_school",
             "phd_stem"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 28,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.8,
             "executive" : 0.8,
@@ -2646,18 +2866,20 @@
     "physician" : {
         "name" : "Physician",
         "track" : "civic",
-        "tier" : "high",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 5,
             "avg" : 20,
             "max" : 40
         },
+        "repeatable" : true,
         "prerequisites" : [
             "medical_school"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 28,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.5,
             "executive" : 1.2,
@@ -2676,20 +2898,22 @@
     "union_official" : {
         "name" : "Labor Union Official",
         "track" : "civic",
-        "tier" : "mid",
         "capacity" : 0.9,
         "tenure_years" : {
             "min" : 2,
             "avg" : 8,
             "max" : 30
         },
+        "repeatable" : true,
         "prerequisites" : [
             "community_organizer",
             "entry_nonprofit_worker",
             "military_service_enlisted"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.0,
             "executive" : 1.6,
@@ -2706,20 +2930,22 @@
     "foreign_diplomat" : {
         "name" : "Foreign Service Officer",
         "track" : "executive",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 3,
             "avg" : 10,
             "max" : 30
         },
+        "repeatable" : true,
         "prerequisites" : [
             "masters_public_policy",
             "law_school",
             "entry_federal_bureaucrat"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.6,
             "executive" : 1.6,
@@ -2735,20 +2961,22 @@
     "senior_diplomat" : {
         "name" : "U.S. Ambassador",
         "track" : "executive",
-        "tier" : "terminal",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 4,
             "max" : 10
         },
+        "repeatable" : true,
         "prerequisites" : [
             "foreign_diplomat",
             "governor",
             "us_senator"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 32,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.0,
             "executive" : 2.2,
@@ -2765,13 +2993,13 @@
     "state_treasurer" : {
         "name" : "State Treasurer",
         "track" : "executive",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 4,
             "max" : 16
         },
+        "repeatable" : true,
         "prerequisites" : [
             "entry_financial_analyst",
             "entry_corporate_analyst",
@@ -2779,7 +3007,9 @@
             "entry_political_staffer"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.4,
             "executive" : 1.8,
@@ -2797,13 +3027,13 @@
     "state_secretary_of_state" : {
         "name" : "State Secretary of State",
         "track" : "executive",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 4,
             "max" : 16
         },
+        "repeatable" : true,
         "prerequisites" : [
             "state_representative",
             "entry_political_staffer",
@@ -2811,7 +3041,9 @@
             "entry_federal_bureaucrat"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.8,
             "executive" : 1.4,
@@ -2829,17 +3061,19 @@
     "farmer_rancher" : {
         "name" : "Farmer / Rancher",
         "track" : "labor",
-        "tier" : "entry",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 3,
             "avg" : 20,
             "max" : 50
         },
+        "repeatable" : true,
         "prerequisites" : [
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.3,
             "executive" : 1.4,
@@ -2860,13 +3094,13 @@
     "state_agriculture_commissioner" : {
         "name" : "State Agriculture Commissioner",
         "track" : "executive",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 4,
             "max" : 16
         },
+        "repeatable" : true,
         "prerequisites" : [
             "farmer_rancher",
             "bachelors_stem",
@@ -2874,7 +3108,9 @@
             "state_representative"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.6,
             "executive" : 1.8,
@@ -2892,13 +3128,13 @@
     "attorney_general_us" : {
         "name" : "U.S. Attorney General",
         "track" : "legal",
-        "tier" : "terminal",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 1,
             "avg" : 3,
             "max" : 8
         },
+        "repeatable" : true,
         "prerequisites" : [
             "state_attorney_general",
             "us_attorney",
@@ -2906,7 +3142,9 @@
             "federal_judge"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 38,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.0,
             "executive" : 3.0,
@@ -2923,13 +3161,13 @@
     "secretary_of_state_us" : {
         "name" : "U.S. Secretary of State",
         "track" : "executive",
-        "tier" : "terminal",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 1,
             "avg" : 4,
             "max" : 8
         },
+        "repeatable" : true,
         "prerequisites" : [
             "governor",
             "us_senator",
@@ -2938,7 +3176,9 @@
             "cabinet_secretary"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 40,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.5,
             "executive" : 3.0,
@@ -2953,13 +3193,13 @@
     "secretary_of_treasury" : {
         "name" : "U.S. Secretary of the Treasury",
         "track" : "executive",
-        "tier" : "terminal",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 1,
             "avg" : 3,
             "max" : 8
         },
+        "repeatable" : true,
         "prerequisites" : [
             "senior_corporate_executive",
             "venture_capitalist",
@@ -2969,7 +3209,9 @@
             "state_treasurer"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 38,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.8,
             "executive" : 3.0,
@@ -2984,13 +3226,13 @@
     "public_health_official" : {
         "name" : "Public Health Official",
         "track" : "civic",
-        "tier" : "high",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 6,
             "max" : 20
         },
+        "repeatable" : true,
         "prerequisites" : [
             "medical_school",
             "phd_stem",
@@ -2998,7 +3240,9 @@
             "medical_researcher"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 28,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.6,
             "executive" : 2.0,
@@ -3015,13 +3259,13 @@
     "secretary_of_hhs" : {
         "name" : "U.S. Secretary of Health and Human Services",
         "track" : "executive",
-        "tier" : "terminal",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 1,
             "avg" : 3,
             "max" : 8
         },
+        "repeatable" : true,
         "prerequisites" : [
             "public_health_official",
             "physician",
@@ -3031,7 +3275,9 @@
             "us_senator"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 38,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.0,
             "executive" : 2.8,
@@ -3046,13 +3292,13 @@
     "secretary_of_homeland_security" : {
         "name" : "U.S. Secretary of Homeland Security",
         "track" : "executive",
-        "tier" : "terminal",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 1,
             "avg" : 3,
             "max" : 8
         },
+        "repeatable" : true,
         "prerequisites" : [
             "senior_military_officer",
             "senior_law_enforcement",
@@ -3061,7 +3307,9 @@
             "us_senator"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 38,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.0,
             "executive" : 3.0,
@@ -3076,13 +3324,13 @@
     "secretary_of_agriculture" : {
         "name" : "U.S. Secretary of Agriculture",
         "track" : "executive",
-        "tier" : "terminal",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 1,
             "avg" : 3,
             "max" : 8
         },
+        "repeatable" : true,
         "prerequisites" : [
             "governor",
             "state_agriculture_commissioner",
@@ -3091,7 +3339,9 @@
             "us_senator"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 35,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.0,
             "executive" : 2.8,
@@ -3106,13 +3356,13 @@
     "secretary_of_labor" : {
         "name" : "U.S. Secretary of Labor",
         "track" : "executive",
-        "tier" : "terminal",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 1,
             "avg" : 3,
             "max" : 8
         },
+        "repeatable" : true,
         "prerequisites" : [
             "union_official",
             "entry_nonprofit_director",
@@ -3121,7 +3371,9 @@
             "us_senator"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 35,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.2,
             "executive" : 2.8,
@@ -3136,13 +3388,13 @@
     "intelligence_officer" : {
         "name" : "Intelligence Officer",
         "track" : "military",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 3,
             "avg" : 10,
             "max" : 25
         },
+        "repeatable" : true,
         "prerequisites" : [
             "military_officer",
             "entry_federal_bureaucrat",
@@ -3150,7 +3402,9 @@
             "law_school"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.2,
             "executive" : 1.6,
@@ -3168,13 +3422,13 @@
     "cia_director" : {
         "name" : "Director of National Intelligence",
         "track" : "executive",
-        "tier" : "terminal",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 1,
             "avg" : 3,
             "max" : 8
         },
+        "repeatable" : true,
         "prerequisites" : [
             "senior_military_officer",
             "intelligence_officer",
@@ -3182,7 +3436,9 @@
             "senior_federal_bureaucrat"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 40,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.8,
             "executive" : 2.8,
@@ -3197,13 +3453,13 @@
     "white_house_staffer" : {
         "name" : "White House Staffer",
         "track" : "executive",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 1,
             "avg" : 2,
             "max" : 6
         },
+        "repeatable" : true,
         "prerequisites" : [
             "entry_political_staffer",
             "senior_legislative_staffer",
@@ -3211,7 +3467,9 @@
             "policy_analyst"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.8,
             "executive" : 2.0,
@@ -3229,13 +3487,13 @@
     "white_house_chief_of_staff" : {
         "name" : "White House Chief of Staff",
         "track" : "executive",
-        "tier" : "terminal",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 1,
             "avg" : 2,
             "max" : 4
         },
+        "repeatable" : true,
         "prerequisites" : [
             "senior_legislative_staffer",
             "campaign_manager",
@@ -3244,7 +3502,9 @@
             "us_representative"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 32,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.8,
             "executive" : 3.2,
@@ -3261,19 +3521,21 @@
     "county_party_chair" : {
         "name" : "County Political Party Chair",
         "track" : "legislative",
-        "tier" : "entry",
         "capacity" : 0.4,
         "tenure_years" : {
             "min" : 2,
             "avg" : 4,
             "max" : 16
         },
+        "repeatable" : true,
         "prerequisites" : [
             "entry_campaign_worker",
             "community_organizer"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.4,
             "executive" : 0.8,
@@ -3298,20 +3560,22 @@
     "state_party_chair" : {
         "name" : "State Political Party Chair",
         "track" : "legislative",
-        "tier" : "mid",
         "capacity" : 0.75,
         "tenure_years" : {
             "min" : 2,
             "avg" : 4,
             "max" : 12
         },
+        "repeatable" : true,
         "prerequisites" : [
             "county_party_chair",
             "entry_campaign_worker",
             "senior_legislative_staffer"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.2,
             "executive" : 1.6,
@@ -3327,58 +3591,25 @@
             "entry_political_consultant"
         ]
     },
-    "town_alderman" : {
-        "name" : "Town Alderman Trustee",
-        "track" : "legislative",
-        "tier" : "entry",
-        "capacity" : 0.2,
-        "tenure_years" : {
-            "min" : 2,
-            "avg" : 4,
-            "max" : 20
-        },
-        "prerequisites" : [
-        ],
-        "prerequisite_logic" : "any",
-        "min_age" : 18,
-        "yearly_skills" : {
-            "legislative" : 1.0,
-            "executive" : 0.4,
-            "judicial" : 0.3
-        },
-        "description" : "Elected member of the governing body of a small town, township, or village, handling local ordinances, zoning, and basic municipal services.",
-        "connections" : {
-            "city_council_member" : 1.6,
-            "mayor_small" : 1.2,
-            "school_board_member" : 1.1
-        },
-        "overlaps" : [
-            "part_time_job",
-            "community_organizer",
-            "entry_nonprofit_worker",
-            "school_board_member",
-            "farmer_rancher",
-            "entry_teacher",
-            "county_party_chair"
-        ]
-    },
     "mayor_large" : {
         "name" : "Metropolitan Mayor",
         "track" : "executive",
-        "tier" : "terminal",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 6,
             "max" : 20
         },
+        "repeatable" : true,
         "prerequisites" : [
             "mayor_mid",
             "state_senator",
             "us_representative"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 32,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.5,
             "executive" : 3.5,
@@ -3397,13 +3628,13 @@
     "real_estate_developer" : {
         "name" : "Real Estate Investment Developer",
         "track" : "business",
-        "tier" : "mid",
         "capacity" : 0.9,
         "tenure_years" : {
             "min" : 3,
             "avg" : 12,
             "max" : 40
         },
+        "repeatable" : true,
         "prerequisites" : [
             "bachelors_business",
             "entry_financial_analyst",
@@ -3411,7 +3642,9 @@
             "small_business_owner"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.6,
             "executive" : 2.4,
@@ -3430,13 +3663,13 @@
     "lobbyist" : {
         "name" : "Lobbyist",
         "track" : "legislative",
-        "tier" : "mid",
         "capacity" : 0.9,
         "tenure_years" : {
             "min" : 2,
             "avg" : 8,
             "max" : 30
         },
+        "repeatable" : true,
         "prerequisites" : [
             "entry_political_staffer",
             "senior_legislative_staffer",
@@ -3444,7 +3677,9 @@
             "entry_campaign_worker"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 2.2,
             "executive" : 1.6,
@@ -3461,20 +3696,22 @@
     "county_sheriff" : {
         "name" : "County Sheriff",
         "track" : "civic",
-        "tier" : "mid",
         "capacity" : 1,
         "tenure_years" : {
             "min" : 2,
             "avg" : 6,
             "max" : 25
         },
+        "repeatable" : true,
         "prerequisites" : [
             "entry_law_enforcement",
             "military_service_enlisted",
             "military_officer"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.4,
             "executive" : 2.2,
@@ -3492,18 +3729,20 @@
     "social_worker" : {
         "name" : "Social Worker",
         "track" : "civic",
-        "tier" : "entry",
         "capacity" : 0.9,
         "tenure_years" : {
             "min" : 2,
             "avg" : 6,
             "max" : 25
         },
+        "repeatable" : true,
         "prerequisites" : [
             "bachelors_liberal_arts"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.8,
             "executive" : 0.8,
@@ -3521,18 +3760,20 @@
     "bachelors_theology" : {
         "name" : "Bachelor of Theology",
         "track" : "academic",
-        "tier" : "entry",
         "capacity" : 0.85,
         "tenure_years" : {
             "min" : 2,
             "avg" : 3,
             "max" : 5
         },
+        "repeatable" : true,
         "prerequisites" : [
             "bachelors_liberal_arts"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.8,
             "executive" : 0.5,
@@ -3540,7 +3781,7 @@
         },
         "description" : "Formal theological degree from a seminary or divinity school, covering scripture, ethics, pastoral care, and homiletics.",
         "connections" : {
-            "religious_leader" : 2.2
+            "clergy_religious_leader" : 2.2
         },
         "overlaps" : [
             "part_time_job"
@@ -3549,18 +3790,20 @@
     "clergy_religious_leader" : {
         "name" : "Religious Community Leader",
         "track" : "civic",
-        "tier" : "mid",
         "capacity" : 0.8,
         "tenure_years" : {
             "min" : 3,
             "avg" : 15,
             "max" : 40
         },
+        "repeatable" : true,
         "prerequisites" : [
             "bachelors_theology"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 22,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 0.6,
             "executive" : 1.8,
@@ -3580,18 +3823,20 @@
     "master_of_divinity" : {
         "name" : "Master of Divinity",
         "track" : "academic",
-        "tier" : "entry",
         "capacity" : 0.8,
         "tenure_years" : {
             "min" : 1,
             "avg" : 2,
             "max" : 3
         },
+        "repeatable" : true,
         "prerequisites" : [
             "bachelors_theology"
         ],
         "prerequisite_logic" : "any",
+        "base_chance" : 1,
         "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.0,
             "executive" : 0.6,
@@ -3599,7 +3844,7 @@
         },
         "description" : "Professional graduate degree for pastoral ministry, caplaincy, or religious leadership.",
         "connections" : {
-            "religious_leader" : 2.2
+            "clergy_religious_leader" : 2.2
         },
         "overlaps" : [
         ]
@@ -3607,13 +3852,13 @@
     "political_pundit" : {
         "name" : "Political Commentator",
         "track" : "media",
-        "tier" : "mid",
         "capacity" : 0.5,
         "tenure_years" : {
             "min" : 1,
             "avg" : 6,
             "max" : 25
         },
+        "repeatable" : true,
         "prerequisites" : [
             "entry_journalist",
             "senior_journalist",
@@ -3621,7 +3866,9 @@
             "senior_legislative_staffer"
         ],
         "prerequisite_logic" : "any",
-        "min_age" : 0,
+        "base_chance" : 1,
+        "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.0,
             "executive" : 1.6,
@@ -3642,13 +3889,13 @@
     "public_intellectual" : {
         "name" : "Public Intellectual",
         "track" : "media",
-        "tier" : "mid",
         "capacity" : 0.3,
         "tenure_years" : {
             "min" : 1,
             "avg" : 5,
             "max" : 30
         },
+        "repeatable" : true,
         "prerequisites" : [
             "bachelors_liberal_arts",
             "senior_journalist",
@@ -3656,7 +3903,9 @@
             "senior_policy_advisor"
         ],
         "prerequisite_logic" : "any",
-        "min_age" : 0,
+        "base_chance" : 1,
+        "min_age" : 18,
+        "max_age" : 100,
         "yearly_skills" : {
             "legislative" : 1.2,
             "executive" : 0.6,

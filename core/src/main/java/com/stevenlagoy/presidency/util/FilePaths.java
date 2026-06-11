@@ -55,7 +55,7 @@ public final class FilePaths {
     public static final Path NICKNAMES                  = NAMES_RESOURCES.resolve("nicknames.json");
 
     public static final Path EXPERIENCES_RESOURCES      = CHARACTERS_RESOURCES.resolve("experiences");
-    public static final Path EXPERINECES                = EXPERIENCES_RESOURCES.resolve("experiences.json");
+    public static final Path EXPERIENCES                = EXPERIENCES_RESOURCES.resolve("experiences.json");
 
     public static final Path SYSTEM_RESOURCES           = RESOURCES.resolve("system");
 
