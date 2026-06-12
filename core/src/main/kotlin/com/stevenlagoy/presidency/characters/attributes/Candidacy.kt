@@ -4,9 +4,7 @@ import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.Jsonic
 import com.stevenlagoy.presidency.characters.attributes.finances.FinancialProfile
 import com.stevenlagoy.presidency.core.Engine
-import com.stevenlagoy.presidency.politics.FederalLevel
 import java.time.LocalDate
-import java.util.UUID
 import kotlin.uuid.ExperimentalUuidApi
 import kotlin.uuid.Uuid
 

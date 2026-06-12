@@ -1,6 +1,5 @@
 package com.stevenlagoy.presidency.characters.attributes.finances
 
-import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.TimeManager
 import java.time.LocalDate
 import java.time.Period

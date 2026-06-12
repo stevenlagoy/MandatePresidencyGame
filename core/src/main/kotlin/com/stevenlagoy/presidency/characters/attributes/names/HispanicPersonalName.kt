@@ -1,6 +1,5 @@
 package com.stevenlagoy.presidency.characters.attributes.names
 
-import com.badlogic.gdx.net.HttpRequestBuilder.json
 import com.stevenlagoy.jsonic.JSONObject
 
 class HispanicPersonalName(

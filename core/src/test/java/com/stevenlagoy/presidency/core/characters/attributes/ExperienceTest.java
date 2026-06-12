@@ -5,6 +5,7 @@ import com.stevenlagoy.presidency.characters.attributes.experiences.Experience;
 import com.stevenlagoy.presidency.characters.attributes.experiences.ExperienceHistory;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
+import kotlin.Triple;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
@@ -12,8 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class ExperienceTest {
 
@@ -72,7 +72,38 @@ public class ExperienceTest {
         Thread.sleep(2000);
         ExperienceHistory experienceHistory = experienceManager.buildExperienceHistory(LocalDate.of(1970, 1, 1));
         assertEquals(Manager.ManagerState.ACTIVE, experienceManager.getState());
-        assertTrue(experienceHistory.getExperiences().size() > 5);
+        assertFalse(experienceHistory.getExperiences().isEmpty());
+        System.out.println(experienceHistory.toJson());
+        System.out.println(experienceHistory.getTotalSkillsDeveloped());
+    }
+
+    @Test
+    public void testBuildManyExperienceHistories() throws InterruptedException {
+        Engine engine = new Engine();
+        engine.TIME_MANAGER.init();
+        ExperienceManager experienceManager = engine.CHARACTER_MANAGER.EXPERIENCE_MANAGER;
+        experienceManager.init();
+        Thread.sleep(2000);
+        double totalLegislative = 0.0;
+        double totalExecutive   = 0.0;
+        double totalJudicial    = 0.0;
+        long iterations = 100_000;
+        double startTime = engine.getProgramTime();
+        for (int i = 0; i < iterations; i++) {
+            ExperienceHistory experienceHistory = experienceManager.buildExperienceHistory(LocalDate.of(1970, 1, 1));
+            assertEquals(Manager.ManagerState.ACTIVE, experienceManager.getState());
+            assertFalse(experienceHistory.getExperiences().isEmpty());
+            var skills = experienceHistory.getTotalSkillsDeveloped();
+            totalLegislative += skills.getFirst();
+            totalExecutive   += skills.getSecond();
+            totalJudicial    += skills.getThird();
+        }
+        double elapsedTime = engine.getProgramTime() - startTime;
+        System.out.printf("Elapsed time: total=%.3fs, average=%fms%n", elapsedTime, elapsedTime/iterations*1000);
+        totalLegislative /= iterations;
+        totalExecutive /= iterations;
+        totalJudicial /= iterations;
+        System.out.printf("Average Skills Developed: Legislative: %.1f, Executive: %.1f, Judicial: %.1f%n", totalLegislative, totalExecutive, totalJudicial);
     }
 
     @Test

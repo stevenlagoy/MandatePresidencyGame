@@ -1,16 +1,7 @@
 package com.stevenlagoy.presidency.characters
 
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.presidency.characters.attributes.Candidacy
-import com.stevenlagoy.presidency.characters.attributes.CharacterAppearance
-import com.stevenlagoy.presidency.characters.attributes.Education
-import com.stevenlagoy.presidency.characters.attributes.experiences.Experience
-import com.stevenlagoy.presidency.characters.attributes.Family
-import com.stevenlagoy.presidency.characters.attributes.IssuePositionMap
-import com.stevenlagoy.presidency.characters.attributes.Personality
-import com.stevenlagoy.presidency.characters.attributes.Role
-import com.stevenlagoy.presidency.characters.attributes.Sex
-import com.stevenlagoy.presidency.characters.attributes.Skills
+import com.stevenlagoy.presidency.characters.attributes.*
 import com.stevenlagoy.presidency.characters.attributes.experiences.ExperienceHistory
 import com.stevenlagoy.presidency.characters.attributes.finances.FinancialProfile
 import com.stevenlagoy.presidency.characters.attributes.names.PersonalName
@@ -23,7 +14,6 @@ import java.time.LocalDate
 import kotlin.math.E
 import kotlin.math.pow
 import kotlin.uuid.ExperimentalUuidApi
-import kotlin.uuid.Uuid
 
 @OptIn(ExperimentalUuidApi::class)
 open class PoliticalActor(
@@ -39,9 +29,7 @@ open class PoliticalActor(
     residence: Municipality,
     financialProfile: FinancialProfile?,
     val experiences: ExperienceHistory,
-    val education: Education,
     val skills: Skills,
-    val roles: MutableList<Role>,
     val personality: Personality,
     var alignment: PoliticalAlignment,
     val issuePositions: IssuePositionMap,
@@ -72,8 +60,6 @@ open class PoliticalActor(
 
     override fun fromJson(json: JSONObject) = this.apply {
         super.fromJson(json)
-        (json.get("roles") as List<*>).forEach { role -> roles.add(role as Role) }
-        education.fromJson(json.get("education") as JSONObject)
         alignment.fromJson(json.get("alignment") as JSONObject)
         partyAffiliation = ENGINE.POLITICS_MANAGER.PARTY_MANAGER.matchParty(json.get("party_affiliation_id", String::class.java)).get()
         skills.fromJson(json.get("skills") as JSONObject)
@@ -84,8 +70,6 @@ open class PoliticalActor(
     }
 
     override fun toJson() = JSONObject(id.toString(), listOf(
-        JSONObject("roles", roles),
-        JSONObject("education", education.toJson()),
         JSONObject("alignment", alignment.toJson()),
         JSONObject("party_affiliation_id", partyAffiliation?.name),
         JSONObject("skills", skills.toJson()),

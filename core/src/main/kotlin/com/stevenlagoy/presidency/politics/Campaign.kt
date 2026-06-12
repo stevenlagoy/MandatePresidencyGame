@@ -6,7 +6,7 @@ class Campaign(
     var campaigners: List<PoliticalActor> = listOf(),
     var affiliatedParty: Party? = null
 ) : Issue(
-    "Campaign of " + campaigners.map { it.name.commonName }.joinToString(", "),
+    "Campaign of " + campaigners.joinToString(", ") { it.name.commonName },
     campaigners.joinToString(", ") { it.name.commonName } + " are running with the " + affiliatedParty?.name + " party.",
     setOf()
 )

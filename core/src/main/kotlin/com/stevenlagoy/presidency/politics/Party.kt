@@ -2,12 +2,10 @@ package com.stevenlagoy.presidency.politics
 
 import com.stevenlagoy.presidency.characters.PoliticalActor
 import com.stevenlagoy.presidency.map.MapEntity
-import com.stevenlagoy.presidency.map.Nation
 import com.stevenlagoy.presidency.map.State
 import com.stevenlagoy.presidency.politics.conventions.Convention
 import java.io.File
 import kotlin.uuid.ExperimentalUuidApi
-import kotlin.uuid.Uuid
 
 @OptIn(ExperimentalUuidApi::class)
 class Party(

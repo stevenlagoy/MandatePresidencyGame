@@ -3,7 +3,6 @@ package com.stevenlagoy.presidency.politics.voting
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.Jsonic
 import com.stevenlagoy.presidency.characters.PoliticalActor
-import com.stevenlagoy.presidency.politics.Campaign
 import com.stevenlagoy.presidency.politics.GovernmentPosition
 import com.stevenlagoy.presidency.politics.Issue
 

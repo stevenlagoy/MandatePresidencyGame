@@ -10,6 +10,6 @@ abstract class Route(
     open val connections: List<Municipality>
 ) : Jsonic<Route> {
 
-    fun connects(to: Municipality) = connections.contains(to);
+    fun connects(to: Municipality) = connections.contains(to)
 
 }

@@ -12,7 +12,6 @@ import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.demographics.Demographics
 import com.stevenlagoy.presidency.map.Municipality
 import java.time.LocalDate
-import java.util.UUID
 import kotlin.uuid.ExperimentalUuidApi
 import kotlin.uuid.Uuid
 

@@ -7,7 +7,6 @@ import com.stevenlagoy.presidency.politics.ElectionResult
 import com.stevenlagoy.presidency.politics.Government
 import com.stevenlagoy.presidency.politics.Party
 import kotlin.uuid.ExperimentalUuidApi
-import kotlin.uuid.Uuid
 
 @OptIn(ExperimentalUuidApi::class)
 class Municipality(

@@ -1,15 +1,6 @@
 package com.stevenlagoy.presidency.characters
 
-import com.stevenlagoy.presidency.characters.attributes.Candidacy
-import com.stevenlagoy.presidency.characters.attributes.CharacterAppearance
-import com.stevenlagoy.presidency.characters.attributes.Education
-import com.stevenlagoy.presidency.characters.attributes.experiences.Experience
-import com.stevenlagoy.presidency.characters.attributes.Family
-import com.stevenlagoy.presidency.characters.attributes.IssuePositionMap
-import com.stevenlagoy.presidency.characters.attributes.Personality
-import com.stevenlagoy.presidency.characters.attributes.Role
-import com.stevenlagoy.presidency.characters.attributes.Sex
-import com.stevenlagoy.presidency.characters.attributes.Skills
+import com.stevenlagoy.presidency.characters.attributes.*
 import com.stevenlagoy.presidency.characters.attributes.experiences.ExperienceHistory
 import com.stevenlagoy.presidency.characters.attributes.finances.FinancialProfile
 import com.stevenlagoy.presidency.characters.attributes.names.PersonalName
@@ -20,7 +11,6 @@ import com.stevenlagoy.presidency.politics.Party
 import com.stevenlagoy.presidency.politics.PoliticalAlignment
 import java.time.LocalDate
 import kotlin.uuid.ExperimentalUuidApi
-import kotlin.uuid.Uuid
 
 @OptIn(ExperimentalUuidApi::class)
 class PlayerCharacter(
@@ -57,9 +47,7 @@ class PlayerCharacter(
     residence,
     financialProfile,
     experiences,
-    education,
     skills,
-    roles,
     personality,
     alignment,
     issuePositions,

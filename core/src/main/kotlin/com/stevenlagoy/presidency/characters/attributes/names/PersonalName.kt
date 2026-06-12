@@ -87,7 +87,7 @@ abstract class PersonalName(
 
     protected fun String.normalize() = this.replace(Regex("(\\s*\"\"\\s*)|\\s+|,\\s*$")," ").trim()
 
-    abstract fun copy(other: PersonalName);
+    abstract fun copy(other: PersonalName)
 
     // REPRESENTATION METHODS ---------------------------------------------------------------------
 

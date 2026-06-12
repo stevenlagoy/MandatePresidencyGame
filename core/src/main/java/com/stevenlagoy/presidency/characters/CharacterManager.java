@@ -3,6 +3,7 @@ package com.stevenlagoy.presidency.characters;
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.JSONProcessor;
 import com.stevenlagoy.presidency.characters.attributes.*;
+import com.stevenlagoy.presidency.characters.attributes.experiences.ExperienceHistory;
 import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
 import com.stevenlagoy.presidency.characters.attributes.names.PersonalName;
 import com.stevenlagoy.presidency.core.Engine;
@@ -10,6 +11,7 @@ import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.demographics.Bloc;
 import com.stevenlagoy.presidency.demographics.Demographics;
 import com.stevenlagoy.presidency.map.Municipality;
+import com.stevenlagoy.presidency.politics.PoliticalAlignment;
 import com.stevenlagoy.presidency.util.CollectionUtils;
 import com.stevenlagoy.presidency.util.FilePaths;
 import com.stevenlagoy.presidency.util.RandomUtils;
@@ -229,9 +231,25 @@ public class CharacterManager extends Manager {
         public int getAge() {
             return ENGINE.TIME_MANAGER.yearsAgo(birthday);
         }
+
+        public static @NotNull CitizenContext emptyContext(@NotNull Engine ENGINE) {
+            return new CitizenContext(ENGINE, null, null, null, null, null, null, null, null);
+        }
+    }
+
+    public @NotNull Citizen buildCitizen() {
+        return buildCitizen(true);
+    }
+
+    public @NotNull Citizen buildCitizen(boolean addToCharactersList) {
+        return buildCitizen(CitizenContext.emptyContext(this.ENGINE), addToCharactersList);
     }
 
     public @NotNull Citizen buildCitizen(@NotNull CitizenContext context) {
+        return buildCitizen(context, true);
+    }
+
+    public @NotNull Citizen buildCitizen(@NotNull CitizenContext context, boolean addToCharactersList) {
         requireOperational();
 
         if (context.sex == null) {
@@ -344,5 +362,34 @@ public class CharacterManager extends Manager {
         } while (day == 28 && month == 2 && !TimeUtils.isLeapYear(year));
 
         return LocalDate.of(year, month, day);
+    }
+
+    public @NotNull PoliticalActor buildPoliticalActor() {
+        Citizen citizen = buildCitizen(false);
+        ExperienceHistory experiences = EXPERIENCE_MANAGER.buildExperienceHistory(citizen.getBirthday().plusYears(18));
+        Skills skills = SKILLS_MANAGER.generateSkills();
+        Personality personality = new Personality();
+        PoliticalAlignment alignment = new PoliticalAlignment();
+        IssuePositionMap issuePositions = new IssuePositionMap(new HashMap<>());
+        return new PoliticalActor(
+            ENGINE,
+            citizen.getSex(),
+            citizen.getBirthday(),
+            citizen.getDemographics(),
+            citizen.getFamily(),
+            citizen.getAppearance(),
+            citizen.getName(),
+            citizen.getOrigin(),
+            citizen.getLocation(),
+            citizen.getResidence(),
+            citizen.getFinancialProfile(),
+            experiences,
+            skills,
+            personality,
+            alignment,
+            issuePositions,
+            null,
+            null
+        );
     }
 }

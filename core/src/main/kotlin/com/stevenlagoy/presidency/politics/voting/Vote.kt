@@ -28,7 +28,7 @@ open class Vote {
     var resolutionRule: ResolutionRule = ResolutionRule.FirstPastThePost()
     var votingMethod: VotingMethod = VotingMethod.Primary()
 
-    var polls: MutableList<Poll> = mutableListOf<Poll>()
+    var polls: MutableList<Poll> = mutableListOf()
     open var issues: List<Issue> = emptyList()
 
     var results: Map<VotingReturn, Int> = emptyMap()

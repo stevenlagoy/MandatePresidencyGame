@@ -238,7 +238,7 @@ fun dateFormatToOrdinal(dateFormat: String): Int {
         return -1
     }
 
-    if (month < 1 || month > 12 || day < 1 || day > 31) {
+    if (month !in 1..12 || day !in 1..31) {
         Logger.error(
             "INVALID DATE FORMAT", String.format(
                 "The date \"%s\" is invalid. Months must be between 1 and 12, and days must be between 1 and 31.",
@@ -271,7 +271,7 @@ fun millisecondsBetween(startDate: ZonedDateTime, endDate: ZonedDateTime): Long 
 }
 
 fun yearsBetween(startDate: LocalDate, endDate: LocalDate): Int {
-    return abs(startDate.getYear() - endDate.getYear())
+    return abs(startDate.year - endDate.year)
 }
 
 fun daysBetween(startDate: LocalDate, endDate: LocalDate): Int {

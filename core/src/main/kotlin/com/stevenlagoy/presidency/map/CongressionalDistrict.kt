@@ -5,9 +5,7 @@ import com.stevenlagoy.presidency.characters.PoliticalActor
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.demographics.Bloc
 import com.stevenlagoy.presidency.politics.Government
-import kotlin.collections.listOf
 import kotlin.uuid.ExperimentalUuidApi
-import kotlin.uuid.Uuid
 
 @OptIn(ExperimentalUuidApi::class)
 class CongressionalDistrict(

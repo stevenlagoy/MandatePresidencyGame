@@ -3,7 +3,6 @@ package com.stevenlagoy.presidency.characters.attributes.finances
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.characters.attributes.Goal
 import com.stevenlagoy.presidency.core.Engine
-import com.stevenlagoy.presidency.core.TimeManager
 import java.time.LocalDate
 
 data class BalanceSheet(
