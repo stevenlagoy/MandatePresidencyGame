@@ -16,10 +16,10 @@ let counties = null;
 function style(feature) {
     return {
         fillColor: feature.color,
-        weight: 0.75,
+        weight: 1.0,
         opacity: 1,
         color: "#333",
-        fillOpacity: 0.6,
+        fillOpacity: 1.0,
         interactive: true
     };
 }
@@ -65,6 +65,16 @@ async function loadMapData() {
     });
 }
 
+function mapCSV() {
+    let res = '';
+    res += 'GEOID,color\n';
+    counties.features.forEach(f => {
+       res += `${f.id},${f.color}\n`
+    });
+    console.log(res);
+    return res;
+}
+
 document.addEventListener('DOMContentLoaded', async () => {
 
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -77,5 +87,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     map.addLayer(geoJSONStates);
     map.addLayer(geoJSONCounties);
-
+    //
+    mapCSV();
 });
