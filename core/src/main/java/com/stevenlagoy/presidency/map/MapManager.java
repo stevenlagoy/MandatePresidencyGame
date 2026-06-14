@@ -1,20 +1,19 @@
 package com.stevenlagoy.presidency.map;
 
+import com.badlogic.gdx.Gdx;
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.JSONProcessor;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.demographics.Demographics;
 import com.stevenlagoy.presidency.map.travel.route.RouteManager;
-import com.stevenlagoy.presidency.util.FilePaths;
-import com.stevenlagoy.presidency.util.IOUtils;
-import com.stevenlagoy.presidency.util.Logger;
-import com.stevenlagoy.presidency.util.RandomUtils;
+import com.stevenlagoy.presidency.util.*;
 import net.mgsx.gltf.scene3d.model.CubicVector3;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.*;
@@ -252,5 +251,22 @@ public class MapManager extends Manager {
 
     public @NotNull Optional<University> matchUniversity(@NotNull String name) {
         return universities.stream().filter(university -> university.getCommonName().equals(name)).findFirst();
+    }
+
+    public void loadMapBinaries() {
+        File binFile = Gdx.files.internal("maps/counties.bin").file();
+        MapIndex mapIndex = MapIndex.Companion.load(binFile);
+        int matched = 0, unmatched = 0;
+        for (County county : counties) {
+            int countyColor = county.getColor();
+            RegionData region = mapIndex.regionByColor(countyColor);
+            if (region != null) {
+                county.setMapRegion$core(region);
+                matched++;
+            }
+            else {
+                Logger.error("No map region for %s (color #%s)", county.getUniqueName(), ColorUtils.toHex(countyColor));
+            }
+        }
     }
 }

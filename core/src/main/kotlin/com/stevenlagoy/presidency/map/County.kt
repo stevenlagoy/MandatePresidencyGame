@@ -11,6 +11,7 @@ class County(
     ENGINE: Engine,
     override val FIPS: String,
     val state: State,
+    val color: Int = 0x000000,
     override var fullName: String = "",
     override var commonName: String = "",
     override var uniqueName: String = fullName,
@@ -30,7 +31,7 @@ class County(
         PARISH,
         BOROUGH,
         PLANNING_REGION,
-        CONSOLIDATED_LOCALITY,
+        CONSOLIDATED_CITY_COUNTY,
     }
 
     constructor(engine: Engine, state: State, json: JSONObject) : this(engine, json.get("FIPS").toString(), state) {
@@ -38,6 +39,9 @@ class County(
     }
 
     val countySeat = capital
+
+    var mapRegion: RegionData? = null
+        internal set
 
     override val partyControlFactors: List<(party: Party) -> Double> = listOf(
         // Last election margin

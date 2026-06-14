@@ -42,14 +42,35 @@ dependencies {
 
 def os = System.properties['os.name'].toLowerCase(Locale.ROOT)
 
+tasks.register('packTextures', JavaExec) {
+  group = 'assets'
+  description = 'Packs raw UI textures into an atlas using TexturePacker'
+
+  // Gradle skips this task entirely if assets_raw/ui hasn't changed
+  // and the assets/ output already exists from a previous run
+  inputs.dir(rootProject.file('assets_raw'))
+  outputs.dir(rootProject.file('assets'))
+
+  classpath = sourceSets.main.runtimeClasspath
+  mainClass = 'com.stevenlagoy.presidency.lwjgl3.TexturePackerLauncher'
+  workingDir = rootProject.projectDir
+}
+
 run {
   workingDir = rootProject.file('assets').path
-// You can uncomment the next line if your IDE claims a build failure even when the app closed properly.
-  //setIgnoreExitValue(true)
-
   if (os.contains('mac')) jvmArgs += "-XstartOnFirstThread"
 }
 tasks.named("run") {
+  dependsOn rootProject.tasks.named("copyRawAssets")
+  dependsOn tasks.named("packTextures")
+  dependsOn rootProject.tasks.named("compileMapAssets")
+}
+
+tasks.named("packTextures") {
+  dependsOn rootProject.tasks.named("copyRawAssets")
+}
+
+rootProject.tasks.named("compileMapAssets") {
   dependsOn rootProject.tasks.named("copyRawAssets")
 }
 

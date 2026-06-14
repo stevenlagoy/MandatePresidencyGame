@@ -94,3 +94,19 @@ tasks.register('copyRawAssets', Copy) {
   from "${rootDir}/assets_raw"
   into "${rootDir}/assets"
 }
+
+tasks.register('compileMapAssets', JavaExec) {
+  group = 'assets'
+  description = 'Processes source map PNGs into runtime binary files'
+
+  inputs.dir(file('assets_raw/maps'))
+  outputs.dir(file('assets/maps'))
+
+  dependsOn project(':tools:mapcompiler').tasks.named('compileJava')
+  classpath = project(':tools:mapcompiler').sourceSets.main.runtimeClasspath
+  mainClass = 'com.stevenlagoy.presidency.tools.mapcompiler.MapCompilerKt'
+  args = [
+    file('assets_raw/maps').absolutePath,
+    file('assets/maps').absolutePath
+  ]
+}
