@@ -6,25 +6,83 @@ import com.stevenlagoy.presidency.demographics.Bloc
 import com.stevenlagoy.presidency.politics.ElectionResult
 import com.stevenlagoy.presidency.politics.Government
 import com.stevenlagoy.presidency.politics.Party
+import com.stevenlagoy.presidency.util.parseHex
+import kotlin.jvm.optionals.getOrNull
 import kotlin.uuid.ExperimentalUuidApi
 
 @OptIn(ExperimentalUuidApi::class)
 class Municipality(
-    ENGINE: Engine,
-    val state: State,
-    override val FIPS: String,
-    override var fullName: String = "",
-    override var commonName: String = "",
-    override var uniqueName: String = "",
-    override var population: Int = 0,
-    override var squareMileage: Double = 0.0,
-    override var descriptors: Set<Descriptor> = emptySet(),
-    override var demographics: Map<Bloc, Double> = emptyMap(),
-    override val government: Government? = null,
-    override val partiesPresent: MutableSet<Party> = mutableSetOf(),
-    override val pastElectionResults: MutableList<ElectionResult> = mutableListOf(),
-) : MapEntity(ENGINE), HasFIPS, HasPolitics
-{
+    engine: Engine,
+    FIPS: String = "",
+    UACE: String = "",
+    _county: County? = null,
+    color: Int? = null,
+    fullName: String = "",
+    commonName: String = "",
+    squareMileage: Double = 0.0,
+    population: Int = 0,
+    demographics: Map<Bloc, Double> = mapOf(),
+    descriptors: Set<Descriptor> = setOf(),
+    region: RegionData? = null,
+    government: Government? = null,
+    type: MunicipalityType = MunicipalityType.CITY
+) : SoverignArea(
+    engine,
+    fullName,
+    commonName,
+    squareMileage,
+    population,
+    demographics,
+    descriptors,
+    region,
+    null,
+    government
+), HasFIPS {
+
+    override var FIPS: String = FIPS
+        internal set
+
+    var UACE: String = UACE
+        internal set
+
+    var color: Int? = color
+        internal set
+
+    lateinit var county: County
+        internal set
+
+    var type: MunicipalityType = type
+        internal set
+
+    override var capital: Municipality? = this
+
+    val state = county.state
+
+    constructor(engine: Engine, json: JSONObject) : this(engine) {
+        fromJson(json)
+    }
+
+    init {
+        if (_county != null) county = _county
+    }
+
+    override fun toJson() = super.toJson().merge(
+        JSONObject("FIPS", FIPS),
+        JSONObject("UACE", UACE),
+        JSONObject("county", county.fullName),
+        JSONObject("color", color),
+        JSONObject("type", type)
+    )!!
+
+    override fun fromJson(json: JSONObject) = this.apply {
+        super.fromJson(json)
+        FIPS = json.get("FIPS", String::class.java)
+        UACE = json.get("UACE", String::class.java)
+        val _county = engine.MAP_MANAGER.matchCounty(json.get("county", String::class.java))
+        if (_county.isPresent) county = _county.get()
+        color = parseHex(json.get("color", String::class.java))
+        type = MunicipalityType.valueOf(json.get("type", String::class.java))
+    }
 
     enum class MunicipalityType {
         CITY,
@@ -35,40 +93,4 @@ class Municipality(
         THIRD_CLASS,
         HOME_RULE,
     }
-
-    constructor(engine: Engine, state: State, json: JSONObject) : this(engine, state, json.get("FIPS").toString()) {
-        fromJson(json)
-    }
-
-    val nation: Nation = Nation
-
-    override var capital: Municipality? = this
-
-    override val partyControlFactors: List<(party: Party) -> Double> = listOf(
-        // Last election margin
-        { party -> 30.0 *
-            (getElectionResult(2024)?.getMarginForParty(party) ?: 0.0)
-        },
-        // Average last 4 elections margin
-        { party -> 15.0 *
-            (getElectionResults(2012..2024).fold(0.0) { acc, it -> acc + it.getMarginForParty(party)}) / 4
-        },
-        // Average last 12 elections margin
-        { party -> 5.0 *
-            (getElectionResults(1976..2024).fold(0.0) { acc, it -> acc + it.getMarginForParty(party)}) / 12
-        },
-    )
-
-    override fun getPartyControl(): Map<Party, Double> {
-        return mapOf()
-    }
-
-    override fun toJson() = JSONObject(uniqueName, super.toJson().asList + listOf(
-        JSONObject("FIPS", FIPS),
-    ))
-
-    override fun fromJson(json: JSONObject) = this.apply {
-
-    }
-
 }

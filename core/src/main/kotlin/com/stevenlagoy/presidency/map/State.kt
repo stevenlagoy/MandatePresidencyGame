@@ -9,104 +9,85 @@ import com.stevenlagoy.presidency.politics.Government
 import com.stevenlagoy.presidency.politics.Party
 
 class State (
-    ENGINE: Engine,
-    override val FIPS: String,
-    override var fullName: String = "",
-    override var commonName: String = "",
-    override var uniqueName: String = fullName,
-    var abbreviation: String = commonName.substring(0..2),
-    override var population: Int = 0,
-    override var squareMileage: Double = 0.0,
+    engine: Engine,
+    FIPS: String = "",
+    fullName: String = "",
+    commonName: String = "",
+    var abbreviation: String = "",
     var nickname: String? = null,
+    squareMileage: Double = 0.0,
+    population: Int = 0,
+    demographics: Map<Bloc, Double> = emptyMap(),
+    descriptors: Set<Descriptor> = emptySet(),
+    region: RegionData? = null,
+    capital: Municipality? = null,
+    government: Government? = null,
     var motto: String? = null,
-    override var descriptors: Set<Descriptor> = emptySet(),
-    override var demographics: Map<Bloc, Double> = emptyMap(),
-    override val government: Government? = null,
-    override val partiesPresent: MutableSet<Party> = mutableSetOf(),
-    override val pastElectionResults: MutableList<ElectionResult> = mutableListOf(),
-    override var capital: Municipality? = null,
-    var counties: Set<County>? = null,
-    var municipalities: Set<Municipality>? = null,
-    var senators: Pair<PoliticalActor?, PoliticalActor?>? = null,
-    var representatives: MutableSet<PoliticalActor>? = null,
-    val division: CensusDivision? = null,
-) : MapEntity(ENGINE), HasFIPS, HasPolitics
-{
+    counties: Set<County> = emptySet(),
+    _censusDivision: CensusDivision? = null,
+    type: StateType = StateType.SOVERIGN_STATE_COMMONWEALTH
+) : SoverignArea(
+    engine,
+    fullName,
+    commonName,
+    squareMileage,
+    population,
+    demographics,
+    descriptors,
+    region,
+    capital,
+    government
+), HasFIPS {
 
-    enum class StateType {
-        STATE,
-        COMMONWEALTH,
-        DISTRICT,
-        TERRITORY,
+    override var FIPS: String = FIPS
+        internal set
+
+    var counties: Set<County> = counties
+        internal set
+
+    var type: StateType = type
+        internal set
+
+    lateinit var censusDivision: CensusDivision
+        internal set
+
+    var censusRegion: CensusRegion = censusDivision.censusRegion
+        get() = censusDivision.censusRegion
+        internal set
+
+    constructor(engine: Engine, json: JSONObject) : this(engine) {
+        fromJson(json)
     }
 
-    constructor(engine: Engine, json: JSONObject) : this(engine, json.get("FIPS").toString()) { fromJson(json) }
+    init {
+        if (_censusDivision != null) censusDivision = _censusDivision
+    }
 
-    val nation = Nation
-
-    val region = division?.region
-
-    override val partyControlFactors: List<(party: Party) -> Double> = listOf(
-        // Each legislature seat
-        // Each senator
-        { party -> 10.0 *
-            arrayOf(senators?.first, senators?.second).fold(0.0) { acc, it -> acc + if (it?.partyAffiliation == party) 1.0 else 0.0 }
-        },
-        // Both senators
-        { party -> 8.0 *
-            if(senators?.first?.partyAffiliation == party && senators?.second?.partyAffiliation == party) 1.0 else 0.0
-        },
-        // Each representative
-        { party -> 2.0 *
-            (representatives?.fold(0.0) { acc, it -> acc + if (it.partyAffiliation == party) 1.0 else 0.0} ?: 0.0)
-        },
-        // Majority of representatives
-        { party -> 8.0 *
-            if (representatives != null && representatives!!.fold(0) { acc, it -> acc + if (it.partyAffiliation == party) 1 else 0} > representatives!!.size / 2) 1.0 else 0.0
-        },
-        // President represents state
-        { party -> 8.0 * if (nation.government.executiveBranch.chiefExecutive?.origin?.state == this && nation.government.executiveBranch.chiefExecutive?.partyAffiliation == party) 1.0 else 0.0},
-        // Last election margin
-        { party -> 30.0 *
-            (getElectionResult(2024)?.getMarginForParty(party) ?: 0.0)
-        },
-        // Average last 4 elections margin
-        { party -> 15.0 *
-            (getElectionResults(2012..2024).fold(0.0) { acc, it -> acc + it.getMarginForParty(party)}) / 4
-        },
-        // Average last 12 elections margin
-        { party -> 5.0 *
-            (getElectionResults(1976..2024).fold(0.0) { acc, it -> acc + it.getMarginForParty(party)}) / 12
-        },
+    override fun toJson() = super.toJson().merge(
+        JSONObject("FIPS", FIPS),
+        JSONObject("abbreviation", abbreviation),
+        JSONObject("nickname", nickname),
+        JSONObject("motto", motto),
+        JSONObject("counties", counties.map { it.fullName }),
+        JSONObject("censusDivision", censusDivision.name),
+        JSONObject("type", type),
     )
 
     override fun fromJson(json: JSONObject) = this.apply {
         super.fromJson(json)
-        counties = null
-        abbreviation = json.get("abbreviation") as String
-        nickname = json.get("nickname") as String
-        motto = json.get("motto") as String
-        senators = null // From CharacterManager
-        representatives = null // From CharacterManager
+        FIPS = json.get("FIPS", String::class.java)
+        abbreviation = json.get("abbreviation", String::class.java)
+        nickname = json.get("nickname", String::class.java)
+        motto = json.get("motto", String::class.java)
+        counties = json.get("counties", List::class.java).map { engine.MAP_MANAGER.matchCounty(it as String) }.filter { it.isPresent }.map { it.get() }.toSet()
+        val _censusDivision = engine.MAP_MANAGER.matchCensusDivision(json.get("censusDivision", String::class.java))
+        if (_censusDivision.isPresent) censusDivision = _censusDivision.get()
+        type = StateType.valueOf(json.get("type", String::class.java))
     }
 
-    override fun toJson() = JSONObject(uniqueName, mapOf(
-        "FIPS" to FIPS,
-        "full_name" to fullName,
-        "common_name" to commonName,
-        "population" to population,
-        "square_mileage" to squareMileage,
-        "descriptors" to descriptors,
-        "demographics" to demographics,
-        "government" to government?.toJson(),
-        "parties_present" to partiesPresent,
-        "past_elections" to pastElectionResults,
-        "capital" to capital?.fullName,
-        "counties" to counties?.map { it.FIPS },
-        "abbreviation" to abbreviation,
-        "nickname" to nickname,
-        "motto" to motto,
-        "senators" to senators,
-        "representatives" to representatives,
-    ))
+    enum class StateType {
+        SOVERIGN_STATE_COMMONWEALTH,
+        FEDERAL_DISTRICT,
+        TERRITORY,
+    }
 }
