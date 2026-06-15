@@ -10,42 +10,49 @@ import kotlin.uuid.ExperimentalUuidApi
 @OptIn(ExperimentalUuidApi::class)
 class CongressionalDistrict(
     ENGINE: Engine,
-    var state: State,
-    var name: String = "",
+    name: String = "",
+    squareMileage: Double = 0.0,
+    population: Int = 0,
+    demographics: Map<Bloc, Double> = mapOf(),
+    descriptors: Set<Descriptor> = setOf(),
+    region: RegionData? = null,
+    _state: State? = null,
     var districtNumber: Int = 0,
     var representative: PoliticalActor? = null,
-    override var fullName: String = "",
-    override var commonName: String = "",
-    override var uniqueName: String = "",
-    override var population: Int = 0,
-    override var squareMileage: Double = 0.0,
-    override var descriptors: Set<Descriptor> = setOf(),
-    override var demographics: Map<Bloc, Double> = mapOf(),
-    // Congressional Districts do not have Capitals or Governments
-) : MapEntity(ENGINE) {
+) : MapEntity(
+    ENGINE,
+    name,
+    squareMileage,
+    population,
+    demographics,
+    descriptors,
+    region,
+) {
 
-    constructor(engine: Engine, state: State, json: JSONObject) : this(engine, state) {
+    lateinit var state: State
+        internal set
+
+    val officeID = "${state.FIPS}${districtNumber.toString().padStart(2, '0')}"
+
+    constructor(engine: Engine, json: JSONObject) : this(engine) {
         fromJson(json)
     }
 
-    override var capital: Municipality? = null
+    init {
+        if (_state != null) state = _state
+    }
 
-    override var government: Government? = null
+    override fun toJson() = super.toJson().merge(
+        JSONObject("state", state.fullName),
+        JSONObject("districtNumber", districtNumber),
+        JSONObject("representative", representative?.name?.indexedName)
+    )
 
-    var officeID = "${state.FIPS}${districtNumber.toString().padStart(2, '0')}"
-
-    override fun toJson() = JSONObject(uniqueName, super.toJson().asList + listOf(
-        JSONObject("state", state.uniqueName),
-        JSONObject("district_number", districtNumber.toString()),
-        JSONObject("representative", representative?.name?.legalName),
-        JSONObject("name", name),
-        JSONObject("descriptors", descriptors.toList())
-    ))
-
-    override fun fromJson(json: JSONObject) = super.fromJson(json).apply {
-        state = ENGINE.MAP_MANAGER.states.find { it.uniqueName == json.get("state").toString() }!!
-        districtNumber = json.get("district_num").toString().toInt() // TODO Make JSON terms consistent
-        population = json.get("population").toString().toInt()
-        squareMileage = json.get("land_area").toString().toDouble() // TODO Make JSON terms consistent
+    override fun fromJson(json: JSONObject) = this.apply {
+        super.fromJson(json)
+        val _state = engine.MAP_MANAGER.matchState(json.get("state", String::class.java))
+        if (_state.isPresent) state = _state.get()
+        districtNumber = json.get("districtNumber", Number::class.java).toInt()
+        representative = engine.CHARACTER_MANAGER.matchCitizenById(json.get("representative", String::class.java)) as PoliticalActor?
     }
 }
