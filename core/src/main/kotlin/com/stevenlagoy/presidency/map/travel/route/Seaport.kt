@@ -5,17 +5,17 @@ import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.map.Municipality
 
 class Seaport(
-    ENGINE: Engine,
+    engine: Engine,
     name: String,
     val location: Municipality,
     connections: List<Municipality>,
-) : Route(ENGINE, name, connections) {
+) : Route(engine, name, connections) {
 
-    constructor(ENGINE: Engine, json: JSONObject) : this (
-        ENGINE,
+    constructor(engine: Engine, json: JSONObject) : this (
+        engine,
         json.get("name", String::class.java),
-        ENGINE.MAP_MANAGER.matchMunicipalityByName(json.get("location", String::class.java)).get(),
-        (json.get("connections", List::class.java) as List<String>).map { ENGINE.MAP_MANAGER.matchMunicipalityByName(it).orElse(null) },
+        engine.MAP_MANAGER.matchMunicipality(json.get("location", String::class.java)).get(),
+        (json.get("connections", List::class.java) as List<String>).map { engine.MAP_MANAGER.matchMunicipality(it).orElse(null) },
     )
 
     override fun toJson() = JSONObject(name, listOf(

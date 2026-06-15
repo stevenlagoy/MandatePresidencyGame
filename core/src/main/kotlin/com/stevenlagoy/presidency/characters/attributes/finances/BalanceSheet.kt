@@ -3,13 +3,14 @@ package com.stevenlagoy.presidency.characters.attributes.finances
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.characters.attributes.Goal
 import com.stevenlagoy.presidency.core.Engine
+import com.stevenlagoy.presidency.core.EngineBound
 import java.time.LocalDate
 
-data class BalanceSheet(
-    protected val ENGINE: Engine
-) {
+class BalanceSheet(
+    engine: Engine,
+) : EngineBound(engine) {
 
-    constructor(ENGINE: Engine, json: JSONObject) : this(ENGINE)
+    constructor(engine: Engine, json: JSONObject) : this(engine)
 
     data class AccountRecord(
         val date: LocalDate,
@@ -39,7 +40,7 @@ data class BalanceSheet(
 
     fun createRecord() {
         records.add(AccountRecord(
-            ENGINE.TIME_MANAGER.currentDate.toLocalDate(),
+            engine.TIME_MANAGER.currentDate.toLocalDate(),
             totalAssets,
             totalLiabilities
         ))

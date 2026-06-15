@@ -7,6 +7,7 @@ import com.stevenlagoy.presidency.characters.attributes.experiences.ExperienceHi
 import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
 import com.stevenlagoy.presidency.characters.attributes.names.PersonalName;
 import com.stevenlagoy.presidency.core.Engine;
+import com.stevenlagoy.presidency.core.EngineBound;
 import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.demographics.Bloc;
 import com.stevenlagoy.presidency.demographics.Demographics;
@@ -138,7 +139,7 @@ public class CharacterManager extends Manager {
         ageDistribution = new HashMap<>();
         for (Object blocObj : json.getAsList()) {
             if (blocObj instanceof JSONObject blocJson) {
-                Bloc key = ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName(blocJson.getKey());
+                Bloc key = engine.DEMOGRAPHICS_MANAGER.matchBlocName(blocJson.getKey());
                 Map<Integer, Double> distribution = new HashMap<>();
                 for (Object dataObj : blocJson.getAsList()) {
                     if (dataObj instanceof JSONObject dataJson) {
@@ -182,9 +183,8 @@ public class CharacterManager extends Manager {
     }
 
     /** Context for the creation of citizens and related attributes. */
-    public static class CitizenContext {
+    public static class CitizenContext extends EngineBound {
         // Originally made this a record, but immutability was inconvenient for filling in fields
-        final Engine ENGINE;
         Sex sex;
         Demographics demographics;
         LocalDate birthday;
@@ -195,7 +195,7 @@ public class CharacterManager extends Manager {
         Municipality residence;
 
         public CitizenContext(
-            @NotNull Engine ENGINE,
+            @NotNull Engine engine,
             Sex sex,
             Demographics demographics,
             LocalDate birthday,
@@ -205,7 +205,7 @@ public class CharacterManager extends Manager {
             Municipality origin,
             Municipality residence
         ) {
-            this.ENGINE = ENGINE;
+            super(engine);
             this.sex = sex;
             this.demographics = demographics;
             this.birthday = birthday;
@@ -216,8 +216,8 @@ public class CharacterManager extends Manager {
             this.residence = residence;
         }
 
-        public CitizenContext(@NotNull Engine ENGINE, @NotNull Citizen citizen) { this(
-            ENGINE,
+        public CitizenContext(@NotNull Engine engine, @NotNull Citizen citizen) { this(
+            engine,
             citizen.getSex(),
             citizen.getDemographics(),
             citizen.getBirthday(),
@@ -229,11 +229,11 @@ public class CharacterManager extends Manager {
         ); }
 
         public int getAge() {
-            return ENGINE.TIME_MANAGER.yearsAgo(birthday);
+            return engine.TIME_MANAGER.yearsAgo(birthday);
         }
 
-        public static @NotNull CitizenContext emptyContext(@NotNull Engine ENGINE) {
-            return new CitizenContext(ENGINE, null, null, null, null, null, null, null, null);
+        public static @NotNull CitizenContext emptyContext(@NotNull Engine engine) {
+            return new CitizenContext(engine, null, null, null, null, null, null, null, null);
         }
     }
 
@@ -242,7 +242,7 @@ public class CharacterManager extends Manager {
     }
 
     public @NotNull Citizen buildCitizen(boolean addToCharactersList) {
-        return buildCitizen(CitizenContext.emptyContext(this.ENGINE), addToCharactersList);
+        return buildCitizen(CitizenContext.emptyContext(this.engine), addToCharactersList);
     }
 
     public @NotNull Citizen buildCitizen(@NotNull CitizenContext context) {
@@ -256,9 +256,9 @@ public class CharacterManager extends Manager {
             context.sex = selectSex();
         }
         if (context.demographics == null) {
-            Demographics selectedDemographics = ENGINE.DEMOGRAPHICS_MANAGER.selectDemographics();
+            Demographics selectedDemographics = engine.DEMOGRAPHICS_MANAGER.selectDemographics();
             if (context.birthday != null) {
-                selectedDemographics.setGeneration(ENGINE.DEMOGRAPHICS_MANAGER.getGenerationForBirthday(context.birthday));
+                selectedDemographics.setGeneration(engine.DEMOGRAPHICS_MANAGER.getGenerationForBirthday(context.birthday));
             }
             context.demographics = selectedDemographics;
         }
@@ -270,25 +270,25 @@ public class CharacterManager extends Manager {
             // context.family = FAMILY_MANAGER.planFamily(context);
         }
         if (context.appearance == null) {
-            context.appearance = APPEARANCE_MANAGER.generateAppearance(context.demographics, ENGINE.TIME_MANAGER.yearsAgo(context.birthday));
+            context.appearance = APPEARANCE_MANAGER.generateAppearance(context.demographics, engine.TIME_MANAGER.yearsAgo(context.birthday));
         }
         if (context.name == null) {
             // This will be done later, after building the family
-            // context.name = NAME_MANAGER.buildPersonalName(new NameManager.NameContext(context.demographics, ENGINE.TIME_MANAGER.yearsAgo(context.birthday), null));
+            // context.name = NAME_MANAGER.buildPersonalName(new NameManager.NameContext(context.demographics, engine.TIME_MANAGER.yearsAgo(context.birthday), null));
         }
         if (context.origin == null) {
-            context.origin = ENGINE.MAP_MANAGER.selectMunicipality(context.demographics);
+            context.origin = engine.MAP_MANAGER.selectMunicipality(context.demographics);
         }
         if (context.residence == null) {
-            context.residence = ENGINE.MAP_MANAGER.selectMunicipality(context.demographics);
+            context.residence = engine.MAP_MANAGER.selectMunicipality(context.demographics);
         }
 
         Citizen citizen = new Citizen(
-            ENGINE,
+            engine,
             context.sex,
             context.birthday,
             context.demographics,
-            context.family != null ? context.family : new Family(ENGINE, null, null, null, new HashSet<>()), // Built afterward
+            context.family != null ? context.family : new Family(engine, null, null, null, new HashSet<>()), // Built afterward
             context.appearance,
             context.name != null ? context.name : NAME_MANAGER.emptyName(context.demographics, context.getAge(), context.family),
             context.origin,
@@ -328,7 +328,7 @@ public class CharacterManager extends Manager {
 
     private @NotNull Map<Integer, Double> getAgeDistribution(@NotNull Set<Bloc> blocs) {
         requireOperational();
-        if (blocs.isEmpty()) blocs = ENGINE.DEMOGRAPHICS_MANAGER.getCommonDemographics().getBlocs();
+        if (blocs.isEmpty()) blocs = engine.DEMOGRAPHICS_MANAGER.getCommonDemographics().getBlocs();
         final Map<Integer, Double> distributionsSum = new HashMap<>();
         double totalPercentages = 0.0;
         // Add together all bloc distributions
@@ -350,7 +350,7 @@ public class CharacterManager extends Manager {
             assert selected != null;
             age = selected;
         } while (age < Citizen.MIN_AGE || age > Citizen.MAX_AGE);
-        int year = ENGINE.TIME_MANAGER.dateYearsAgo(age).getYear();
+        int year = engine.TIME_MANAGER.dateYearsAgo(age).getYear();
 
         // Select day and month
         int month, day;
@@ -372,7 +372,7 @@ public class CharacterManager extends Manager {
         PoliticalAlignment alignment = new PoliticalAlignment();
         IssuePositionMap issuePositions = new IssuePositionMap(new HashMap<>());
         return new PoliticalActor(
-            ENGINE,
+            engine,
             citizen.getSex(),
             citizen.getBirthday(),
             citizen.getDemographics(),

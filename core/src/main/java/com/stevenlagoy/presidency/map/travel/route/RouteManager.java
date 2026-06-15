@@ -95,7 +95,7 @@ public class RouteManager extends Manager {
         JSONObject json = JSONProcessor.processJson(ROADWAYS);
         for (Object obj : json.getAsList()) {
             if (obj instanceof JSONObject roadwayJson) {
-                roadways.add(new Roadway(ENGINE, roadwayJson));
+                roadways.add(new Roadway(engine, roadwayJson));
             }
         }
     }
@@ -104,7 +104,7 @@ public class RouteManager extends Manager {
         JSONObject json = JSONProcessor.processJson(AIRPORTS);
         for (Object obj : json.getAsList()) {
             if (obj instanceof JSONObject airportJson) {
-                airports.add(new Airport(ENGINE, airportJson));
+                airports.add(new Airport(engine, airportJson));
             }
         }
     }
@@ -113,7 +113,7 @@ public class RouteManager extends Manager {
         JSONObject json = JSONProcessor.processJson(RAILWAYS);
         for (Object obj : json.getAsList()) {
             if (obj instanceof JSONObject railwayJson) {
-                railways.add(new Railway(ENGINE, railwayJson));
+                railways.add(new Railway(engine, railwayJson));
             }
         }
     }
@@ -122,7 +122,7 @@ public class RouteManager extends Manager {
         JSONObject json = JSONProcessor.processJson(SEAPORTS);
         for (Object obj : json.getAsList()) {
             if (obj instanceof JSONObject seaportJson) {
-                seaports.add(new Seaport(ENGINE, seaportJson));
+                seaports.add(new Seaport(engine, seaportJson));
             }
         }
     }
@@ -167,7 +167,7 @@ public class RouteManager extends Manager {
 
     public @NotNull Set<Airport> getAirportsInRegion(@NotNull CensusRegion region) {
         Set<Airport> res = new HashSet<>();
-        region.getDivisions().forEach(division -> res.addAll(getAirportsInDivision(division)));
+        region.getCensusDivisions().forEach(division -> res.addAll(getAirportsInDivision(division)));
         return res;
     }
 

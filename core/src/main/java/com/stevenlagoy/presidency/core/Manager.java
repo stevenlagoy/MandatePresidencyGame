@@ -26,7 +26,7 @@ import java.util.stream.Stream;
  * instances, allow searching objects, and methods for saving and loading state. May also have
  * submanagers which deal with one element of the system or a subsystem.
  */
-public abstract class Manager implements Jsonic<Manager> {
+public abstract class Manager extends EngineBound implements Jsonic<Manager> {
 
     /** Possible internal States of a Manager. */
     public enum ManagerState {
@@ -115,8 +115,6 @@ public abstract class Manager implements Jsonic<Manager> {
 
     // Instance Fields
 
-    /** Owning engine for this manager. */
-    protected final @NotNull Engine ENGINE;
     /** Manager which owns this manager. If null, this is the root manager (Engine). */
     public final @Nullable Manager superManager;
     /** Current state of this manager. */
@@ -131,7 +129,7 @@ public abstract class Manager implements Jsonic<Manager> {
     protected Manager(Engine engine) { this(engine, engine); }
     /** Create a new Manager with the given driving engine and super manager. */
     protected Manager(@NotNull Engine engine, @Nullable Manager superManager) {
-        ENGINE = engine;
+        super(engine);
         this.superManager = superManager;
     }
 

@@ -17,7 +17,7 @@ import kotlin.uuid.ExperimentalUuidApi
 
 @OptIn(ExperimentalUuidApi::class)
 open class PoliticalActor(
-    ENGINE: Engine,
+    engine: Engine,
     sex: Sex,
     birthday: LocalDate,
     demographics: Demographics,
@@ -36,7 +36,7 @@ open class PoliticalActor(
     var partyAffiliation: Party? = null,
     var candidacy: Candidacy? = null
 ) : Citizen(
-    ENGINE,
+    engine,
     sex,
     birthday,
     demographics,
@@ -61,12 +61,12 @@ open class PoliticalActor(
     override fun fromJson(json: JSONObject) = this.apply {
         super.fromJson(json)
         alignment.fromJson(json.get("alignment") as JSONObject)
-        partyAffiliation = ENGINE.POLITICS_MANAGER.PARTY_MANAGER.matchParty(json.get("party_affiliation_id", String::class.java)).get()
+        partyAffiliation = engine.POLITICS_MANAGER.PARTY_MANAGER.matchParty(json.get("party_affiliation_id", String::class.java)).get()
         skills.fromJson(json.get("skills") as JSONObject)
         personality.fromJson(json.get("personality") as JSONObject)
-        ExperienceHistory(ENGINE, json.get("experiences", JSONObject::class.java))
+        ExperienceHistory(engine, json.get("experiences", JSONObject::class.java))
         issuePositions.fromJson(json.get("issue_positions") as JSONObject)
-        candidacy = Candidacy(ENGINE, json.get("candidacy") as JSONObject)
+        candidacy = Candidacy(engine, json.get("candidacy") as JSONObject)
     }
 
     override fun toJson() = JSONObject(id.toString(), listOf(

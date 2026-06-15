@@ -5,16 +5,16 @@ import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.map.Municipality
 
 class Railway(
-    ENGINE: Engine,
+    engine: Engine,
     name: String,
     connections: List<Municipality>,
-) : Route(ENGINE, name, connections) {
+) : Route(engine, name, connections) {
 
-    constructor(ENGINE: Engine, json: JSONObject) : this(ENGINE, "", listOf())
+    constructor(engine: Engine, json: JSONObject) : this(engine, "", listOf())
 
     override fun toJson() = JSONObject(name, listOf(
         JSONObject("name", name),
-        JSONObject("connections", connections.map { it.uniqueName })
+        JSONObject("connections", connections.map { it.fullName })
     ))
 
     override fun fromJson(json: JSONObject?): Railway? {

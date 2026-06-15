@@ -1,10 +1,11 @@
 package com.stevenlagoy.presidency.characters.attributes.finances
 
 import com.stevenlagoy.presidency.core.Engine
+import com.stevenlagoy.presidency.core.EngineBound
 
 class EconomyManager(
-    protected val engine: Engine
-) {
+    engine: Engine
+) : EngineBound(engine) {
 
     val banks = mutableListOf<Bank>()
     val corporations = mutableListOf<Corporation>()

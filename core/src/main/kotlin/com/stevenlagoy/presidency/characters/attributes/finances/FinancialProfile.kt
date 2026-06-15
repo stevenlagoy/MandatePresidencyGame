@@ -3,17 +3,19 @@ package com.stevenlagoy.presidency.characters.attributes.finances
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.Jsonic
 import com.stevenlagoy.presidency.core.Engine
+import com.stevenlagoy.presidency.core.EngineBound
+import javax.script.ScriptEngine.ENGINE
 
 class FinancialProfile(
-    protected val ENGINE: Engine,
+    engine: Engine,
     val cashAccount: CashAccount,
     val balanceSheet: BalanceSheet
-) : Jsonic<FinancialProfile> {
+) : Jsonic<FinancialProfile>, EngineBound(engine) {
 
-    constructor(ENGINE: Engine, json: JSONObject) : this(
-        ENGINE,
+    constructor(engine: Engine, json: JSONObject) : this(
+        engine,
         CashAccount(json.get("cash_account") as JSONObject),
-        BalanceSheet(ENGINE, json.get("balance_sheet") as JSONObject)
+        BalanceSheet(engine, json.get("balance_sheet") as JSONObject)
     )
 
     override fun toJson() = JSONObject()

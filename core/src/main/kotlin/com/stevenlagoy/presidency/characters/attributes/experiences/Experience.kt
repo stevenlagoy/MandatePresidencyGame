@@ -2,6 +2,7 @@ package com.stevenlagoy.presidency.characters.attributes.experiences
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.core.Engine
+import com.stevenlagoy.presidency.core.EngineBound
 import kotlin.jvm.optionals.getOrNull
 
 /**
@@ -14,7 +15,7 @@ import kotlin.jvm.optionals.getOrNull
  * @property prerequisiteLogic Logic for how prior experiences fulfil prerequisite requirements.
  */
 class Experience(
-    protected val ENGINE: Engine,
+    engine: Engine,
     val label: String,
     val name: String,
     val track: String,
@@ -32,9 +33,9 @@ class Experience(
     val yearlySkills: Triple<Double, Double, Double>,
     val description: String,
     val connections: MutableMap<Experience?, Double>
-) {
-    constructor(ENGINE: Engine, json: JSONObject) : this(
-        ENGINE,
+) : EngineBound(engine) {
+    constructor(engine: Engine, json: JSONObject) : this(
+        engine,
         json.key,
         json.get("name", String::class.java),
         json.get("track", String::class.java),
@@ -49,7 +50,7 @@ class Experience(
             (it as JSONObject).key == "max"
         } as JSONObject).asNumber.toDouble(),
         json.get("repeatable") as Boolean,
-        json.get("prerequisites", List::class.java).map { ENGINE.CHARACTER_MANAGER.EXPERIENCE_MANAGER.matchExperience(it as String).let { opt ->
+        json.get("prerequisites", List::class.java).map { engine.CHARACTER_MANAGER.EXPERIENCE_MANAGER.matchExperience(it as String).let { opt ->
             if (opt.isEmpty) {
                 println(opt)
             }
@@ -76,37 +77,9 @@ class Experience(
         ),
         json.get("description", String::class.java),
         json.get("connections", List::class.java).associate {
-            ENGINE.CHARACTER_MANAGER.EXPERIENCE_MANAGER.matchExperience((it as JSONObject).key).getOrNull() to it.asNumber.toDouble()
+            engine.CHARACTER_MANAGER.EXPERIENCE_MANAGER.matchExperience((it as JSONObject).key).getOrNull() to it.asNumber.toDouble()
         }.toMutableMap()
     )
 
     fun prerequisitsMet(priors: Collection<Experience>) = prerequisiteLogic.evaluate(priors, prerequisites)
 }
-
-/*
-
-academic
-civic
-labor
-military
-legal
-judicial
-legislative
-executive
-business
-media
-
-label
-track
-tier
-capacity
-tenure_years: min, typical, max
-prerequisites
-prerequisite_logic
-min_age
-yearly_skills: legislative, executive, judicial
-description
-connections
-overlaps
-
- */

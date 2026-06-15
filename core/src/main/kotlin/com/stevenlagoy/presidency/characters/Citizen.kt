@@ -9,15 +9,16 @@ import com.stevenlagoy.presidency.characters.attributes.finances.FinancialProfil
 import com.stevenlagoy.presidency.characters.attributes.names.PersonalName
 import com.stevenlagoy.presidency.characters.attributes.names.WesternPersonalName
 import com.stevenlagoy.presidency.core.Engine
+import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.demographics.Demographics
 import com.stevenlagoy.presidency.map.Municipality
 import java.time.LocalDate
+import kotlin.jvm.optionals.getOrNull
 import kotlin.uuid.ExperimentalUuidApi
 import kotlin.uuid.Uuid
 
 /**
  * Base class for any kind of in-game character
- * @property ENGINE
  * @property id
  * @property name
  * @property birthday
@@ -32,18 +33,18 @@ import kotlin.uuid.Uuid
  */
 @OptIn(ExperimentalUuidApi::class)
 open class Citizen(
-    protected val ENGINE: Engine,
+    engine: Engine,
     val sex: Sex = Sex.FEMALE,
     birthday: LocalDate = LocalDate.of(1970, 1, 1),
-    val demographics: Demographics = ENGINE.DEMOGRAPHICS_MANAGER.commonDemographics,
-    val family: Family = Family(ENGINE),
+    val demographics: Demographics = engine.DEMOGRAPHICS_MANAGER.commonDemographics,
+    val family: Family = Family(engine),
     val appearance: CharacterAppearance = CharacterAppearance(),
     val name: PersonalName = WesternPersonalName(),
-    var origin: Municipality = ENGINE.MAP_MANAGER.mostPopulatedMunicipality,
+    var origin: Municipality = engine.MAP_MANAGER.mostPopulatedMunicipality,
     var location: Municipality = origin,
     var residence: Municipality = location,
     var financialProfile: FinancialProfile? = null,
-) : Jsonic<Citizen> {
+) : Jsonic<Citizen>, EngineBound(engine) {
 
     companion object {
         /** Minimum age of a Character. */
@@ -56,15 +57,15 @@ open class Citizen(
 
     var birthday: LocalDate = birthday
         set(value) {
-            val years = ENGINE.TIME_MANAGER.yearsAgo(value)
+            val years = engine.TIME_MANAGER.yearsAgo(value)
             field = when {
-                years > MAX_AGE -> ENGINE.TIME_MANAGER.dateYearsAgo(MAX_AGE.toLong())
-                years < MIN_AGE -> ENGINE.TIME_MANAGER.currentDate.toLocalDate()
+                years > MAX_AGE -> engine.TIME_MANAGER.dateYearsAgo(MAX_AGE.toLong())
+                years < MIN_AGE -> engine.TIME_MANAGER.currentDate.toLocalDate()
                 else -> value
             }
         }
 
-    val age: Int get() = ENGINE.TIME_MANAGER.yearsAgo(birthday)
+    val age: Int get() = engine.TIME_MANAGER.yearsAgo(birthday)
 
     override fun fromJson(json: JSONObject) = this.apply {
         name.fromJson(json.get("name") as JSONObject)
@@ -72,10 +73,10 @@ open class Citizen(
         demographics.fromJson(json.get("demographics") as JSONObject)
         appearance.fromJson(json.get("appearance") as JSONObject)
         family.fromJson(json.get("family") as JSONObject)
-        origin = ENGINE.MAP_MANAGER.getMunicipalityByUniqueName(json.get("origin_municipality") as String)!!
-        location = ENGINE.MAP_MANAGER.getMunicipalityByUniqueName(json.get("location_municipality") as String)!!
-        residence = ENGINE.MAP_MANAGER.getMunicipalityByUniqueName(json.get("residence_municipality") as String)!!
-        financialProfile = FinancialProfile(ENGINE, json.get("financial_profile") as JSONObject)
+        origin = engine.MAP_MANAGER.matchMunicipality(json.get("origin_municipality") as String).get()
+        location = engine.MAP_MANAGER.matchMunicipality(json.get("location_municipality") as String).get()
+        residence = engine.MAP_MANAGER.matchMunicipality(json.get("residence_municipality") as String).get()
+        financialProfile = FinancialProfile(engine, json.get("financial_profile") as JSONObject)
     }
 
     override fun toJson() = JSONObject(id.toString(), listOf(
@@ -84,9 +85,9 @@ open class Citizen(
         JSONObject("demographics", demographics.toJson()),
         JSONObject("appearance", appearance.toJson()),
         JSONObject("family", family.toJson()),
-        JSONObject("origin_municipality", origin.uniqueName),
-        JSONObject("location_municipality", location.uniqueName),
-        JSONObject("residence_municipality", residence.uniqueName),
+        JSONObject("origin_municipality", origin.fullName),
+        JSONObject("location_municipality", location.fullName),
+        JSONObject("residence_municipality", residence.fullName),
         JSONObject("financial_profile", financialProfile?.toJson())
     ))
 }

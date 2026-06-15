@@ -3,32 +3,33 @@ package com.stevenlagoy.presidency.characters.attributes.experiences
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.Jsonic
 import com.stevenlagoy.presidency.core.Engine
+import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.util.*
 import java.time.LocalDate
 import java.util.*
 
 class ExperienceHistory(
-    protected val ENGINE: Engine,
+    engine: Engine,
     val experiences: TreeSet<ExperienceEntry> = TreeSet(),
-) : Jsonic<ExperienceHistory> {
+) : Jsonic<ExperienceHistory>, EngineBound(engine) {
 
     class ExperienceEntry(
-        protected val ENGINE: Engine,
+        engine: Engine,
         val experience: Experience,
         val startDate: LocalDate,
         var endDate: LocalDate?,
-    ) : Comparable<ExperienceEntry>, Jsonic<ExperienceEntry> {
+    ) : Comparable<ExperienceEntry>, Jsonic<ExperienceEntry>, EngineBound(engine) {
 
-        constructor(ENGINE: Engine, experience: Experience, startDate: LocalDate, tenureYears: Int) : this(
-            ENGINE,
+        constructor(engine: Engine, experience: Experience, startDate: LocalDate, tenureYears: Int) : this(
+            engine,
             experience,
             startDate,
             startDate.plusYears(tenureYears.toLong())
         )
 
-        constructor(ENGINE: Engine, json: JSONObject) : this(
-            ENGINE,
-            ENGINE.CHARACTER_MANAGER.EXPERIENCE_MANAGER.matchExperience(json.get("experience", String::class.java)).get(),
+        constructor(engine: Engine, json: JSONObject) : this(
+            engine,
+            engine.CHARACTER_MANAGER.EXPERIENCE_MANAGER.matchExperience(json.get("experience", String::class.java)).get(),
             LocalDate.parse(json.get("startDate", String::class.java)),
             json.get("endDate", String::class.java)?.let { LocalDate.parse(it) }
         )
@@ -36,14 +37,14 @@ class ExperienceHistory(
         val tenureYears: Double
             get() {
                 endDate?.let { return daysBetween(startDate, it).toDouble() / daysInYear }
-                return ENGINE.TIME_MANAGER.yearsAgo(startDate).toDouble() / yearDuration
+                return engine.TIME_MANAGER.yearsAgo(startDate).toDouble() / yearDuration
             }
 
         val skillsDeveloped: Triple<Double, Double, Double>
             get() = experience.yearlySkills * tenureYears
 
         override fun compareTo(other: ExperienceEntry): Int {
-            return this.startDate.compareTo(other.startDate) * 2 + (this.endDate?.compareTo(other.endDate ?: ENGINE.TIME_MANAGER.currentDate.toLocalDate()) ?: 0)
+            return this.startDate.compareTo(other.startDate) * 2 + (this.endDate?.compareTo(other.endDate ?: engine.TIME_MANAGER.currentDate.toLocalDate()) ?: 0)
         }
 
         override fun toJson() = JSONObject(experience.label, listOf(
@@ -64,11 +65,11 @@ class ExperienceHistory(
     )
 
     fun add(experience: Experience, startDate: LocalDate, endDate: LocalDate?) {
-        experiences.add(ExperienceEntry(ENGINE, experience, startDate, endDate))
+        experiences.add(ExperienceEntry(engine, experience, startDate, endDate))
     }
 
     fun add(experience: Experience, startDate: LocalDate, tenureYears: Int) {
-        experiences.add(ExperienceEntry(ENGINE, experience, startDate, tenureYears))
+        experiences.add(ExperienceEntry(engine, experience, startDate, tenureYears))
     }
 
     val totalSkillsDeveloped: Triple<Double, Double, Double>
@@ -78,7 +79,7 @@ class ExperienceHistory(
         get() {
             if (experiences.isEmpty()) return 0.0
             val earliestDate = experiences.first().startDate
-            val latestDate = experiences.last().endDate ?: ENGINE.TIME_MANAGER.currentDate.toLocalDate()
+            val latestDate = experiences.last().endDate ?: engine.TIME_MANAGER.currentDate.toLocalDate()
             val totalYears = daysBetween(earliestDate, latestDate).toDouble() / daysInYear
             val totalOccupiedYears = experiences.fold(0.0) { acc, experience -> acc + experience.tenureYears }
             return totalOccupiedYears

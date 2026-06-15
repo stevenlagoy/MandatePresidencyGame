@@ -14,7 +14,7 @@ import kotlin.uuid.ExperimentalUuidApi
 
 @OptIn(ExperimentalUuidApi::class)
 class PlayerCharacter(
-    ENGINE: Engine,
+    engine: Engine,
     sex: Sex,
     birthday: LocalDate,
     demographics: Demographics,
@@ -35,7 +35,7 @@ class PlayerCharacter(
     issuePositions: IssuePositionMap,
     candidacy: Candidacy?
 ) : PoliticalActor(
-    ENGINE,
+    engine,
     sex,
     birthday,
     demographics,

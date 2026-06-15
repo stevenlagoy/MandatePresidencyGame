@@ -5,19 +5,19 @@ import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.map.Municipality
 
 class Roadway(
-    ENGINE: Engine,
+    engine: Engine,
     name: String,
     val code: String,
     val designation: RoadwayDesignation,
     connections: List<Municipality>,
-) : Route(ENGINE, name, connections) {
+) : Route(engine, name, connections) {
 
-    constructor(ENGINE: Engine, json: JSONObject) : this(
-        ENGINE,
+    constructor(engine: Engine, json: JSONObject) : this(
+        engine,
         json.get("name", String::class.java),
         json.get("code", String::class.java),
-        ENGINE.MAP_MANAGER.ROUTE_MANAGER.matchRoadwayDesignation(json.get("designation", String::class.java)).get(),
-        (json.get("connections", List::class.java) as List<String>).map { ENGINE.MAP_MANAGER.matchMunicipalityByName(it).orElse(null) },
+        engine.MAP_MANAGER.ROUTE_MANAGER.matchRoadwayDesignation(json.get("designation", String::class.java)).get(),
+        json.get("connections", List::class.java).map { engine.MAP_MANAGER.matchMunicipality(it as String).orElse(null) },
     )
 
     data class RoadwayDesignation(
@@ -29,7 +29,7 @@ class Roadway(
         JSONObject("name", name),
         JSONObject("code", code),
         JSONObject("designation", designation.name),
-        JSONObject("connections", connections.map { it.uniqueName })
+        JSONObject("connections", connections.map { it.fullName })
     ))
 
     override fun fromJson(json: JSONObject) = this.apply {
