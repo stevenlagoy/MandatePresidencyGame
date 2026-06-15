@@ -1,5 +1,7 @@
 package com.stevenlagoy.presidency.util;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.DirectoryStream;
@@ -133,14 +135,10 @@ public final class IOUtils {
 
     /**
      * Returns a Set of Paths for all the files in the specified directory.
-     * @param dir
-     *            The path to the directory to list the files within
      *
+     * @param dir The path to the directory to list the files within
      * @return A Set of Paths to each file within the directory
-     *
-     * @throws IOException
-     *                     If the directory path is invalid or unable to be located
-     *
+     * @throws IOException If the directory path is invalid or unable to be located
      * @see com.stevenlagoy.presidency.util.IOUtils.FileExtension#ALL
      */
     public static Set<Path> listFiles(Path dir) throws IOException {
@@ -148,24 +146,14 @@ public final class IOUtils {
     }
 
     /**
-     * Returns a Set of Paths for all the files in the specificed directory with the
-     * given extension.
+     * Returns a Set of Paths for all the files in the specificed directory with the given extension.
      *
-     * @param dir
-     *                  The path to the directory to list the files within.
-     * @param extension
-     *                  A FileOperations.FileExtension to filter the Path results
-     *                  by.
-     *
+     * @param dir The path to the directory to list the files within.
+     * @param extension A FileOperations.FileExtension to filter the Path results by.
      * @return A Set of Paths to each file within the directory with the extension.
-     *
-     * @throws IOException
-     *                     If the directory path is invalid or unable to be located.
+     * @throws IOException If the directory path is invalid or unable to be located.
      */
-    public static Set<Path> listFiles(Path dir, FileExtension extension) throws IOException {
-        if (dir == null)
-            throw new IllegalArgumentException("Path may not be null");
-
+    public static @NotNull Set<Path> listFiles(@NotNull Path dir, FileExtension extension) throws IOException {
         Set<Path> pathSet = new HashSet<>();
         dir = dir.normalize();
         DirectoryStream<Path> stream = Files.newDirectoryStream(dir);
@@ -183,26 +171,38 @@ public final class IOUtils {
         return pathSet;
     }
 
+    public static @NotNull Set<Path> listDirectories(@NotNull Path dir) throws IOException {
+        Set<Path> pathSet = new HashSet<>();
+        dir = dir.normalize();
+        DirectoryStream<Path> stream = Files.newDirectoryStream(dir);
+        for (Path path : stream) {
+            if (path == null || path.getFileName() == null)
+                continue;
+            Path filename = path.getFileName();
+            if (Files.isDirectory(path) && !FilePaths.IGNORED_PATHS.contains(path)) {
+                pathSet.add(dir.resolve(filename));
+            }
+        }
+        stream.close();
+        return pathSet;
+    }
+
     /**
-     * Empties a directory of all files. Searches only the directory itself, not any
-     * subdirectories (non-recursive).
+     * Empties a directory of all files. Searches only the directory itself, not any subdirectories (non-recursive).
      *
      * @param dir The directory to empty.
-     * @throws IOException When the directory is invalid or inaccessable, or lack
-     *                     permissions to delete a file.
+     * @throws IOException When the directory is invalid or inaccessable, or lack permissions to delete a file.
      */
     public static void emptyFiles(Path dir) throws IOException {
         emptyFiles(dir, FileExtension.ALL);
     }
 
     /**
-     * Empties a directory of all files with the given extension. Searches only the
-     * directory itself, not any subdirectories (non-recursive).
+     * Empties a directory of all files with the given extension. Searches only the directory itself, not any subdirectories (non-recursive).
      *
-     * @param dir       The directory to empty.
+     * @param dir The directory to empty.
      * @param extension The extension to target.
-     * @throws IOException When the directory is invalid or inaccessable, or lack
-     *                     permissions to delete a file.
+     * @throws IOException When the directory is invalid or inaccessable, or lack permissions to delete a file.
      */
     public static void emptyFiles(Path dir, FileExtension extension) throws IOException {
         Set<Path> paths = listFiles(dir, extension);
@@ -236,11 +236,10 @@ public final class IOUtils {
     /**
      * Writes a String line to a file with the given directory, name, and extension.
      *
-     * @param filename    String name of the file to create / write to
-     * @param extension   Extension of the file.
-     * @param destination Path to the Directory which will contain the created /
-     *                    written file.
-     * @param content     String to write into the file.
+     * @param filename String name of the file to create / write to
+     * @param extension Extension of the file.
+     * @param destination Path to the Directory which will contain the created / written file.
+     * @param content String to write into the file.
      * @throws IOException When the file cannot be found or created
      * @see #writeFile(String, FileExtension, Path, List)
      */
