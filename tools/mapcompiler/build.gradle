@@ -1,0 +1,26 @@
+plugins {
+  id 'java'
+  id 'application'
+  id 'org.jetbrains.kotlin.jvm'
+}
+
+group = 'con.stevenlagoy.presidency'
+version = 'unspecified'
+
+application {
+  mainClass = 'com.stevenlagoy.presidency.tools.mapcompiler.MapCompilerKt'
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  testImplementation platform('org.junit:junit-bom:5.10.0')
+  testImplementation 'org.junit.jupiter:junit-jupiter'
+  testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+test {
+  useJUnitPlatform()
+}
