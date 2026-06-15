@@ -9,6 +9,7 @@ interface HasPolitics {
     val partyControlFactors: List<(party: Party) -> Double>
     fun getPartyControl(): Map<Party, Double> = partiesPresent.associateWith { party -> partyControlFactors.sumOf { it(party) } }
     fun getPartyControl(party: Party): Double = getPartyControl()[party] ?: 0.0
+    fun getPartyInControl(): Party = partiesPresent.maxBy { getPartyControl(it) }
     fun getElectionResults(years: IntRange) = pastElectionResults.filter { it.electionDate.year in years }
     fun getElectionResult(year: Int) = getElectionResults(year..year).firstOrNull()
 }

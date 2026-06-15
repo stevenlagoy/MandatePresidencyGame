@@ -5,6 +5,8 @@ import com.stevenlagoy.jsonic.Jsonic
 import com.stevenlagoy.presidency.characters.attributes.finances.BalanceSheet
 import com.stevenlagoy.presidency.characters.attributes.finances.CashAccount
 import com.stevenlagoy.presidency.characters.attributes.finances.FinancialEntity
+import com.stevenlagoy.presidency.core.Engine
+import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.map.HasPolitics
 import com.stevenlagoy.presidency.politics.branches.ExecutiveBranch
 import com.stevenlagoy.presidency.politics.branches.JudicialBranch
@@ -14,15 +16,20 @@ import com.stevenlagoy.presidency.politics.branches.LegislativeBranch
  * @property pastElectionResults Elections for positions not covered by any branch. Use branch electoral history for other purposes.
  */
 class Government(
-    val title: String,
-    val executiveBranch: ExecutiveBranch,
-    val legislativeBranch: LegislativeBranch,
-    val judicialBranch: JudicialBranch,
-    override val pastElectionResults: MutableList<ElectionResult>,
-    override val balanceSheet: BalanceSheet,
-    override val cashAccount: CashAccount,
-) : FinancialEntity, HasPolitics, Jsonic<Government>
+    engine: Engine,
+    val title: String = "",
+    val executiveBranch: ExecutiveBranch = ExecutiveBranch(),
+    val legislativeBranch: LegislativeBranch = LegislativeBranch(),
+    val judicialBranch: JudicialBranch = JudicialBranch(),
+    override val pastElectionResults: MutableList<ElectionResult> = mutableListOf(),
+    override val balanceSheet: BalanceSheet = BalanceSheet(engine),
+    override val cashAccount: CashAccount = CashAccount(),
+) : FinancialEntity, HasPolitics, Jsonic<Government>, EngineBound(engine)
 {
+    constructor(engine: Engine, json: JSONObject) : this(
+        engine
+    )
+
     override val partiesPresent: MutableSet<Party>
         get() = (executiveBranch.partiesPresent + legislativeBranch.partiesPresent + judicialBranch.partiesPresent).toMutableSet()
 
@@ -35,7 +42,7 @@ class Government(
         { party -> 0.1 * judicialBranch.getPartyControl(party) },
         // Trifecta
         { party -> 0.25 * (
-            if (executiveBranch.chiefExecutive?.partyAffiliation == party && legislativeBranch.chambers.all { it.isPartyMajority(party)}) 1.0 else 0.0
+            if (executiveBranch.getPartyInControl() == party && legislativeBranch.chambers.all { it.isPartyMajority(party) }) 1.0 else 0.0
         )},
     )
 

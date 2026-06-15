@@ -6,11 +6,11 @@ import com.stevenlagoy.presidency.politics.ElectionResult
 import com.stevenlagoy.presidency.politics.Party
 
 class ExecutiveBranch(
-    val executives: MutableList<PoliticalActor>,
-    var chiefExecutive: PoliticalActor?,
-    val chiefExecutiveTitle: String?,
-    var deputyExecutive: PoliticalActor?,
-    val deputyExecutiveTitle: String?,
+    val executives: MutableList<PoliticalActor> = mutableListOf(),
+    var chiefExecutive: PoliticalActor? = null,
+    val chiefExecutiveTitle: String? = null,
+    var deputyExecutive: PoliticalActor? = null,
+    val deputyExecutiveTitle: String? = null,
     override val pastElectionResults: MutableList<ElectionResult> = mutableListOf()
 ) : GovernmentBranch() {
 
