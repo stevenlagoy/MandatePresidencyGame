@@ -39,6 +39,7 @@ public final class FilePaths {
     public static final Path MAP_RESOURCES              = RESOURCES.resolve("map");
     public static final Path NATION                     = MAP_RESOURCES.resolve("nation.json");
     public static final Path STATES_DIR                 = MAP_RESOURCES.resolve("states");
+    public static final Path CENSUS_REGIONS_DIVISISONS  = MAP_RESOURCES.resolve("census_regions_divisions.json");
 
     public static final Path AIRCRAFT_TYPES             = MAP_RESOURCES.resolve("aircraft_types.json");
     public static final Path AIRPORTS                   = MAP_RESOURCES.resolve("airports.json");
