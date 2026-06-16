@@ -84,7 +84,7 @@ public class ExperienceManager extends Manager {
         JSONObject experiencesJson = JSONProcessor.processJson(FilePaths.EXPERIENCES);
         for (Object obj : experiencesJson.getAsList()) {
             if (obj instanceof JSONObject experienceJson) {
-                experiences.add(new Experience(ENGINE, experienceJson));
+                experiences.add(new Experience(engine, experienceJson));
             }
         }
         resolveConnections();
@@ -145,7 +145,7 @@ public class ExperienceManager extends Manager {
 
     public @NotNull ExperienceHistory buildExperienceHistory(LocalDate experienceHistoryStartDate) {
         requireOperational();
-        ExperienceHistory experienceHistory = new ExperienceHistory(ENGINE, new TreeSet<>());
+        ExperienceHistory experienceHistory = new ExperienceHistory(engine, new TreeSet<>());
         fillExperienceHistory(experienceHistoryStartDate, experienceHistory);
         return experienceHistory;
     }
@@ -155,7 +155,7 @@ public class ExperienceManager extends Manager {
         double targetCompleteness = chooseTargetExperienceHistoryCompleteness();
         final long maxAttempts = 25;
         long attempts = 0;
-        while (experienceHistory.getTotalOccupiedYears() / ENGINE.TIME_MANAGER.yearsAgo(experienceHistoryStartDate) < targetCompleteness && attempts++ < maxAttempts) {
+        while (experienceHistory.getTotalOccupiedYears() / engine.TIME_MANAGER.yearsAgo(experienceHistoryStartDate) < targetCompleteness && attempts++ < maxAttempts) {
             addOneExperienceToExperienceHistory(experienceHistoryStartDate, experienceHistory);
         }
     }
@@ -199,7 +199,7 @@ public class ExperienceManager extends Manager {
             prevEndDate = experienceEntry.getEndDate();
         }
         if (!foundGap && prevEndDate != null) {
-            nextStartDate = ENGINE.TIME_MANAGER.getCurrentDate().toLocalDate();
+            nextStartDate = engine.TIME_MANAGER.getCurrentDate().toLocalDate();
             if (TimeUtils.yearsBetween(prevEndDate, nextStartDate) > maxGapYearsBetweenExperiences * 2) {
                 foundGap = true;
             }
@@ -239,7 +239,7 @@ public class ExperienceManager extends Manager {
         double tenureLength = RandomUtils.randSamplePDF(RandomUtils.skewedDistribution(experience.getAvgTenure(), minTenure, maxTenure), minTenure, maxTenure);
         LocalDate experienceEndDate = experienceStartDate.plusDays((int) (tenureLength * TimeUtils.daysInYear));
         if (!experienceEndDate.isBefore(nextStartDate)) { // Use Not Is Before instead of Is After to handle possibility they are the same day
-            if (nextStartDate.equals(ENGINE.TIME_MANAGER.getCurrentDate().toLocalDate())) experienceEndDate = null;
+            if (nextStartDate.equals(engine.TIME_MANAGER.getCurrentDate().toLocalDate())) experienceEndDate = null;
             else experienceEndDate = nextStartDate.minusDays(1);
         }
 

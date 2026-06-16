@@ -171,7 +171,7 @@ public class DemographicsManager extends Manager {
 
     public Demographics getCommonDemographics() {
         requireOperational();
-        return new Demographics(ENGINE, "Millennial", "White Catholic", "English", "Woman");
+        return new Demographics(engine, "Millennial", "White Catholic", "English", "Woman");
     }
 
     public @Nullable Bloc getCommonBloc(@NotNull DemographicCategory category) {
@@ -186,7 +186,7 @@ public class DemographicsManager extends Manager {
         generation = selectBloc(DemographicCategory.GENERATION, Set.of(presentation));
         raceEthnicity = selectBloc(DemographicCategory.RACE_ETHNICITY, Set.of(presentation, generation));
         religion = selectBloc(DemographicCategory.RELIGION, Set.of(presentation, generation, raceEthnicity));
-        return new Demographics(ENGINE, generation, religion, raceEthnicity, presentation);
+        return new Demographics(engine, generation, religion, raceEthnicity, presentation);
     }
 
     public @NotNull Bloc selectBloc(@NotNull DemographicCategory category, @NotNull Set<Bloc> alreadySelected) {
@@ -223,7 +223,7 @@ public class DemographicsManager extends Manager {
     public @NotNull Demographics selectRandomDemographics() {
         requireOperational();
         return new Demographics(
-            ENGINE,
+            engine,
             selectRandomBloc(DemographicCategory.GENERATION),
             selectRandomBloc(DemographicCategory.RELIGION),
             selectRandomBloc(DemographicCategory.RACE_ETHNICITY),
@@ -241,7 +241,7 @@ public class DemographicsManager extends Manager {
     // TODO Instead of picking one bloc and then populating the rest normally, this should use bloc overlaps to find the most underrepresented
     public @NotNull Demographics selectUnderrepresentedDemographics() {
         requireOperational();
-        if (ENGINE.CHARACTER_MANAGER.getNumCitizens() == 0) return getCommonDemographics();
+        if (engine.CHARACTER_MANAGER.getNumCitizens() == 0) return getCommonDemographics();
         List<Bloc> allBlocs = new ArrayList<>();
         demographicBlocs.values().forEach(allBlocs::addAll);
         Bloc underrepresentedBloc = selectUnderrepresentedBloc(allBlocs);
@@ -274,7 +274,7 @@ public class DemographicsManager extends Manager {
             default :
                 return selectDemographics();
         }
-        return new Demographics(ENGINE, generation, religion, raceEthnicity, presentation);
+        return new Demographics(engine, generation, religion, raceEthnicity, presentation);
     }
 
     public @NotNull Bloc selectUnderrepresentedBloc(@NotNull List<Bloc> blocs) {
@@ -312,10 +312,10 @@ public class DemographicsManager extends Manager {
         // Returns ratio of actual character membership to expected membership
         // <1 if underrepresented, >1 if overrepresented, =1 if perfectly represented
         try {
-            if (ENGINE.CHARACTER_MANAGER.getNumCitizens() == 0)
+            if (engine.CHARACTER_MANAGER.getNumCitizens() == 0)
                 return 1.0f; // if there are no characters, every bloc is perfectly represented
             double expectedRepresentation = bloc.getPercentageMembership();
-            double actualRepresentation = bloc.getMembers().size() * 1.0f / ENGINE.CHARACTER_MANAGER.getNumCitizens();
+            double actualRepresentation = bloc.getMembers().size() * 1.0f / engine.CHARACTER_MANAGER.getNumCitizens();
             return (actualRepresentation / expectedRepresentation);
         }
         catch (ArithmeticException e) {

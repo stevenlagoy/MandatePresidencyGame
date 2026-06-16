@@ -236,7 +236,7 @@ public class NameManager extends Manager {
             else if (value instanceof List<?>) {
                 // This is a nested structure
                 // If key is a valid bloc, add it to a new bloc set
-                Bloc bloc = ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName(key);
+                Bloc bloc = engine.DEMOGRAPHICS_MANAGER.matchBlocName(key);
                 Set<Bloc> updatedBlocs = new HashSet<>(currentBlocs);
                 updatedBlocs.add(bloc);
                 // Recurse with updated bloc set
@@ -638,10 +638,10 @@ public class NameManager extends Manager {
         // Select a Western name
         String westernName = selectGivenName(new NameContext(
             new Demographics(
-                ENGINE,
+                engine,
                 context.demographics.getGeneration(),
                 context.demographics.getReligion(),
-                Objects.requireNonNull(ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName("Anglo")),
+                Objects.requireNonNull(engine.DEMOGRAPHICS_MANAGER.matchBlocName("Anglo")),
                 context.demographics.getPresentation()
             ),
             context.age,

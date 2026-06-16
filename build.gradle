@@ -46,25 +46,35 @@ configure(subprojects) {
 
   apply plugin: 'org.jetbrains.kotlin.jvm'
 
-  // From https://lyze.dev/2021/04/29/libGDX-Internal-Assets-List/
-  // The article can be helpful when using assets.txt in your project.
-  tasks.register('generateAssetList') {
-    inputs.dir("${project.rootDir}/assets/")
-    // projectFolder/assets
-    File assetsFolder = new File("${project.rootDir}/assets/")
-    // projectFolder/assets/assets.txt
-    File assetsFile = new File(assetsFolder, "assets.txt")
-    // delete that file in case we've already created it
-    assetsFile.delete()
+  if (project.path != ':tools:mapcompiler') {
 
-    // iterate through all files inside that folder
-    // convert it to a relative path
-    // and append it to the file assets.txt
-    fileTree(assetsFolder).collect { assetsFolder.relativePath(it) }.sort().each {
-      assetsFile.append(it + "\n")
+    // From https://lyze.dev/2021/04/29/libGDX-Internal-Assets-List/
+    // The article can be helpful when using assets.txt in your project.
+    tasks.register('generateAssetList') {
+      inputs.dir("${project.rootDir}/assets/")
+      // projectFolder/assets
+      File assetsFolder = new File("${project.rootDir}/assets/")
+      // projectFolder/assets/assets.txt
+      File assetsFile = new File(assetsFolder, "assets.txt")
+      // delete that file in case we've already created it
+      assetsFile.delete()
+
+      // iterate through all files inside that folder
+      // convert it to a relative path
+      // and append it to the file assets.txt
+      fileTree(assetsFolder).collect { assetsFolder.relativePath(it) }.sort().each {
+        assetsFile.append(it + "\n")
+      }
+    }
+    processResources.dependsOn 'generateAssetList'
+
+    rootProject.afterEvaluate {
+      tasks.matching { it.name == 'processResources' }.configureEach {
+        dependsOn rootProject.tasks.named('copyRawAssets')
+        dependsOn rootProject.tasks.named('compileMapAssets')
+      }
     }
   }
-  processResources.dependsOn 'generateAssetList'
 
   compileJava {
     options.incremental = true
@@ -90,16 +100,21 @@ tasks.register('cleanAssets', Delete) {
 }
 
 tasks.register('copyRawAssets', Copy) {
-  dependsOn tasks.named("cleanAssets")
   from "${rootDir}/assets_raw"
   into "${rootDir}/assets"
+  exclude "maps/**" // Don't copy raw map PNG files - MapCompiler creates binaries
+
+  inputs.dir("${rootDir}/assets_raw")
+  outputs.dir("${rootDir}/assets")
 }
 
 tasks.register('compileMapAssets', JavaExec) {
   group = 'assets'
   description = 'Processes source map PNGs into runtime binary files'
 
-  inputs.dir(file('assets_raw/maps'))
+  inputs.files(fileTree('assets_raw/maps') {
+    include '*.png'
+  })
   outputs.dir(file('assets/maps'))
 
   dependsOn project(':tools:mapcompiler').tasks.named('compileJava')

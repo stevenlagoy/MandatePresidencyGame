@@ -46,8 +46,6 @@ tasks.register('packTextures', JavaExec) {
   group = 'assets'
   description = 'Packs raw UI textures into an atlas using TexturePacker'
 
-  // Gradle skips this task entirely if assets_raw/ui hasn't changed
-  // and the assets/ output already exists from a previous run
   inputs.dir(rootProject.file('assets_raw'))
   outputs.dir(rootProject.file('assets'))
 

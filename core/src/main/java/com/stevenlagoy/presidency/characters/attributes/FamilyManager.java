@@ -130,7 +130,7 @@ public class FamilyManager extends Manager {
 
     private @NotNull FamilyPlan planFamily(@NotNull Citizen citizen, int numberMembers, boolean allowParents, boolean allowSpouse, boolean allowChildren) {
         requireState(ManagerState.ACTIVE);
-        return planFamily(new CharacterManager.CitizenContext(ENGINE, citizen), numberMembers, allowParents, allowSpouse, allowChildren);
+        return planFamily(new CharacterManager.CitizenContext(engine, citizen), numberMembers, allowParents, allowSpouse, allowChildren);
     }
 
 
@@ -292,20 +292,20 @@ public class FamilyManager extends Manager {
         int dayOffset = RandomUtils.nextInt(0, TimeUtils.daysInYear);
         LocalDate parentBirthday = citizen.getBirthday().minusYears(generationGapYears).plusDays(dayOffset);
 
-        Bloc generationBloc = ENGINE.DEMOGRAPHICS_MANAGER.getGenerationForBirthday(parentBirthday);
+        Bloc generationBloc = engine.DEMOGRAPHICS_MANAGER.getGenerationForBirthday(parentBirthday);
         Bloc religionBloc = citizen.getDemographics().getReligion();
         Bloc raceEthnicityBloc = citizen.getDemographics().getRaceEthnicity();
-        Bloc presentationBloc = ENGINE.DEMOGRAPHICS_MANAGER.selectPresentationForSex(sex);
+        Bloc presentationBloc = engine.DEMOGRAPHICS_MANAGER.selectPresentationForSex(sex);
 
-        Demographics parentDemographics = new Demographics(ENGINE, generationBloc, religionBloc, raceEthnicityBloc, presentationBloc);
+        Demographics parentDemographics = new Demographics(engine, generationBloc, religionBloc, raceEthnicityBloc, presentationBloc);
 
-        Family family = new Family(ENGINE, null, null, null, Set.of(citizen));
+        Family family = new Family(engine, null, null, null, Set.of(citizen));
 
         CharacterManager.CitizenContext parentContext = new CharacterManager.CitizenContext(
-            ENGINE, sex, parentDemographics, parentBirthday, family, null, null, null, null
+            engine, sex, parentDemographics, parentBirthday, family, null, null, null, null
         );
 
-        Citizen parent = ENGINE.CHARACTER_MANAGER.buildCitizen(parentContext);
+        Citizen parent = engine.CHARACTER_MANAGER.buildCitizen(parentContext);
         switch (sex) {
             case FEMALE :
                 citizen.getFamily().setMother(parent);
@@ -333,22 +333,22 @@ public class FamilyManager extends Manager {
         int dayOffset = RandomUtils.nextInt(0, TimeUtils.daysInYear);
         LocalDate childBirthday = citizen.getBirthday().plusYears(generationGapYears).plusDays(dayOffset);
 
-        Bloc generationBloc = ENGINE.DEMOGRAPHICS_MANAGER.getGenerationForBirthday(childBirthday);
-        Bloc presentationBloc = ENGINE.DEMOGRAPHICS_MANAGER.selectBloc(
+        Bloc generationBloc = engine.DEMOGRAPHICS_MANAGER.getGenerationForBirthday(childBirthday);
+        Bloc presentationBloc = engine.DEMOGRAPHICS_MANAGER.selectBloc(
             DemographicCategory.PRESENTATION, Set.of(citizen.getDemographics().getReligion(), citizen.getDemographics().getRaceEthnicity(), generationBloc)
         );
-        Demographics childDemographics = new Demographics(ENGINE, generationBloc, citizen.getDemographics().getReligion(), citizen.getDemographics().getRaceEthnicity(), presentationBloc);
+        Demographics childDemographics = new Demographics(engine, generationBloc, citizen.getDemographics().getReligion(), citizen.getDemographics().getRaceEthnicity(), presentationBloc);
 
         boolean citizenIsMother = citizen.getSex() == Sex.FEMALE ||
             (citizen.getFamily().getSpouse() != null && citizen.getFamily().getSpouse().getSex() == Sex.MALE) ||
             (citizen.getSex() == Sex.INTERSEX && citizen.getDemographics().getPresentation().getName().equals("Female"));
-        Family family = new Family(ENGINE, citizenIsMother ? citizen : citizen.getFamily().getSpouse(), citizenIsMother ? citizen.getFamily().getSpouse() : citizen, null, new HashSet<>());
+        Family family = new Family(engine, citizenIsMother ? citizen : citizen.getFamily().getSpouse(), citizenIsMother ? citizen.getFamily().getSpouse() : citizen, null, new HashSet<>());
 
         CharacterManager.CitizenContext childContext = new CharacterManager.CitizenContext(
-            ENGINE, null, childDemographics, childBirthday, family, null, null, null, null
+            engine, null, childDemographics, childBirthday, family, null, null, null, null
         );
 
-        Citizen child = ENGINE.CHARACTER_MANAGER.buildCitizen(childContext);
+        Citizen child = engine.CHARACTER_MANAGER.buildCitizen(childContext);
         citizen.getFamily().getChildren().add(child);
         if (citizen.getFamily().getSpouse() != null) citizen.getFamily().getSpouse().getFamily().getChildren().add(child);
         return child;
@@ -372,13 +372,13 @@ public class FamilyManager extends Manager {
         int dayOffset = RandomUtils.nextInt(0, TimeUtils.daysInYear);
         LocalDate spouseBirthday = citizen.getBirthday().plusYears(ageGapYears).plusDays(dayOffset);
 
-        Family family = new Family(ENGINE, null, null, citizen, new HashSet<>());
+        Family family = new Family(engine, null, null, citizen, new HashSet<>());
 
         CharacterManager.CitizenContext spouseContext = new CharacterManager.CitizenContext(
-            ENGINE, partnerSex, null, spouseBirthday, family, null, null, null, citizen.getResidence()
+            engine, partnerSex, null, spouseBirthday, family, null, null, null, citizen.getResidence()
         );
 
-        Citizen spouse = ENGINE.CHARACTER_MANAGER.buildCitizen(spouseContext);
+        Citizen spouse = engine.CHARACTER_MANAGER.buildCitizen(spouseContext);
         citizen.getFamily().setSpouse(spouse);
         return spouse;
     }
