@@ -6,6 +6,7 @@ import com.stevenlagoy.presidency.characters.attributes.experiences.ExperienceHi
 import com.stevenlagoy.presidency.characters.attributes.finances.FinancialProfile
 import com.stevenlagoy.presidency.characters.attributes.names.PersonalName
 import com.stevenlagoy.presidency.core.Engine
+import com.stevenlagoy.presidency.core.linearvalue.Modifier
 import com.stevenlagoy.presidency.demographics.Demographics
 import com.stevenlagoy.presidency.map.Municipality
 import com.stevenlagoy.presidency.politics.Party
@@ -49,14 +50,16 @@ open class PoliticalActor(
     financialProfile,
 ) {
 
-    companion object {
-        const val MIN_AGE = 18
-    }
-
     val ageMod get() = 100 * E.pow(-1 * ((age - 55) / 30.0).pow(2))
 
     val conviction: Double
         get() = 0.5 // TODO Evaluate conviction based on positions and alignment
+
+    init {
+        listOf(skills.component1(), skills.component2(), skills.component3()).forEach {
+            it.multiplicativeModifiers.add(Modifier(1.0) { 100 * E.pow(-1 * ((age - 55) / 30.0).pow(2)) })
+        }
+    }
 
     override fun fromJson(json: JSONObject) = this.apply {
         super.fromJson(json)
@@ -79,4 +82,7 @@ open class PoliticalActor(
         JSONObject("candidacy", candidacy?.toJson()),
     ))
 
+    companion object {
+        const val MIN_AGE = 18
+    }
 }

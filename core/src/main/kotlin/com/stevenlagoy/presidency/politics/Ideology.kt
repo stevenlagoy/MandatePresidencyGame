@@ -11,9 +11,6 @@ data class Ideology(
     var parties = mutableSetOf<Party>()
     var interestGroups = mutableSetOf<InterestGroup>()
 
-    var relatedIdeologies = listOf<Ideology>()
-    var opposingIdeologies = listOf<Ideology>()
-
     override fun toJson() = JSONObject(name, listOf(
         JSONObject("name", name),
         JSONObject("description", description),

@@ -2,58 +2,51 @@ package com.stevenlagoy.presidency.politics
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.Jsonic
+import com.stevenlagoy.presidency.core.linearvalue.LinearValue
 
 data class PoliticalAlignment(
-    var diplomacy:   Double = 0.0, // Globalism      -- Isolationism
-    var society:     Double = 0.0, // Individualism  -- Collectivism
-    var governance:  Double = 0.0, // Libertarianism -- Authoritarianism
-    var economy:     Double = 0.0, // Socialism      -- Capitalism
-    var tradition:   Double = 0.0, // Progressivism  -- Conservatism
-    var religion:    Double = 0.0, // Secularism     -- Moralism
-    var sovereignty: Double = 0.0, // Federalism     -- Unitarianism
-    var conflict:    Double = 0.0, // Pacifism       -- Militarism
+    val diplomacy:   LinearValue = LinearValue(-100, 100, 0), // Globalism         -- Isolationism
+    val society:     LinearValue = LinearValue(-100, 100, 0), // Individualism     -- Collectivism
+    val governance:  LinearValue = LinearValue(-100, 100, 0), // Constitutionalism -- Executivism
+    val economy:     LinearValue = LinearValue(-100, 100, 0), // Interventionism   -- Market Liberalism
+    val tradition:   LinearValue = LinearValue(-100, 100, 0), // Progressivism     -- Conservatism
+    val religion:    LinearValue = LinearValue(-100, 100, 0), // Secularism        -- Providentialism
+    val sovereignty: LinearValue = LinearValue(-100, 100, 0), // Federalism        -- Centralism
+    val conflict:    LinearValue = LinearValue(-100, 100, 0), // Pacifism          -- Militarism
+    val solidarity:  LinearValue = LinearValue(-100, 100, 0), // Universalism      -- Particularism
 ) : Jsonic<PoliticalAlignment> {
 
-    init {
-        assert(diplomacy   in -1.0..1.0)
-        assert(society     in -1.0..1.0)
-        assert(governance  in -1.0..1.0)
-        assert(economy     in -1.0..1.0)
-        assert(tradition   in -1.0..1.0)
-        assert(religion    in -1.0..1.0)
-        assert(sovereignty in -1.0..1.0)
-        assert(conflict    in -1.0..1.0)
-    }
-
     /** Turn the 8 alignment axes into one axis: `(left/progressive/lib--right/conservative/auth)` */
-    fun toOneAxis() = listOf(diplomacy, society, governance, economy, tradition, religion, sovereignty, conflict).average()
+    fun toOneAxis() = listOf(diplomacy, society, governance, economy, tradition, religion, sovereignty, conflict, solidarity).map { it.currentValue }.average()
 
     /** Turn the 8 alignment axes into the traditional two: `(left--right, auth--lib)` */
     fun toTwoAxes(): Pair<Double, Double> {
-        val leftRight = listOf(economy, tradition, religion, conflict).average()
-        val authLib = listOf(diplomacy, society, governance, sovereignty).average()
+        val leftRight = listOf(economy, tradition, religion, conflict, solidarity).map { it.currentValue }.average()
+        val authLib = listOf(diplomacy, society, governance, sovereignty).map { it.currentValue }.average()
         return Pair(leftRight, authLib)
     }
 
     override fun toJson() = JSONObject(hashCode().toString(), listOf(
-        JSONObject("diplomacy",   diplomacy),
-        JSONObject("society",     society),
-        JSONObject("government",  governance),
-        JSONObject("economy",     economy),
-        JSONObject("tradition",   tradition),
-        JSONObject("religion",    religion),
-        JSONObject("sovereignty", sovereignty),
-        JSONObject("conflict",    conflict),
+        JSONObject("diplomacy",   diplomacy.toJson()),
+        JSONObject("society",     society.toJson()),
+        JSONObject("government",  governance.toJson()),
+        JSONObject("economy",     economy.toJson()),
+        JSONObject("tradition",   tradition.toJson()),
+        JSONObject("religion",    religion.toJson()),
+        JSONObject("sovereignty", sovereignty.toJson()),
+        JSONObject("conflict",    conflict.toJson()),
+        JSONObject("solidarity",  solidarity.toJson()),
     ))
 
     override fun fromJson(json: JSONObject) = this.apply {
-        diplomacy   = json.get("diplomacy")   as Double
-        society     = json.get("society")     as Double
-        governance  = json.get("government")  as Double
-        economy     = json.get("economy")     as Double
-        tradition   = json.get("tradition")   as Double
-        religion    = json.get("religion")    as Double
-        sovereignty = json.get("sovereignty") as Double
-        conflict    = json.get("conflict")    as Double
+        diplomacy.fromJson(json.get("diplomacy", JSONObject::class.java))
+        society.fromJson(json.get("society", JSONObject::class.java))
+        governance.fromJson(json.get("government", JSONObject::class.java))
+        economy.fromJson(json.get("economy", JSONObject::class.java))
+        tradition.fromJson(json.get("tradition", JSONObject::class.java))
+        religion.fromJson(json.get("religion", JSONObject::class.java))
+        sovereignty.fromJson(json.get("sovereignty", JSONObject::class.java))
+        conflict.fromJson(json.get("conflict", JSONObject::class.java))
+        solidarity.fromJson(json.get("solidarity", JSONObject::class.java))
     }
 }

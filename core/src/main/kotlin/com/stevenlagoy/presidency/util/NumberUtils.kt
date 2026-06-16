@@ -176,3 +176,15 @@ fun BigDecimal.toWords(individualNumbers: Boolean = false) = toWords(toString(),
 operator fun Triple<Double, Double, Double>.times(scale: Double) = Triple(this.first * scale, this.second * scale, this.third * scale)
 
 operator fun Triple<Double, Double, Double>.plus(other: Triple<Double, Double, Double>) = Triple(this.first + other.first, this.second + other.second, this.third + other.third)
+
+@JvmInline
+value class UnsignedFloat(val value: Float) {
+    init { require(value >= 0F) { "UnsignedFloat must be non-negative." } }
+}
+val Float.unsigned: UnsignedFloat get() = UnsignedFloat(this)
+
+@JvmInline
+value class UnsignedDouble(val value: Double) {
+    init { require(value >= 0.0) { "UnsignedDouble must be non-negative." } }
+}
+val Double.unsigned: UnsignedDouble get() = UnsignedDouble(this)
