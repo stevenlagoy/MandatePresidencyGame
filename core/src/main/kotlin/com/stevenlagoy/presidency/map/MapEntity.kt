@@ -5,7 +5,6 @@ import com.stevenlagoy.jsonic.Jsonic
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.demographics.Bloc
-import com.stevenlagoy.presidency.politics.Government
 import kotlin.math.roundToInt
 
 /**
@@ -57,14 +56,21 @@ abstract class MapEntity(
         JSONObject("population",     population),
         JSONObject("square_mileage", squareMileage),
         JSONObject("descriptors",    descriptors.map { it.name }.toList()),
-        JSONObject("demographics",   emptyMap<String, Any>()),
+        JSONObject("demographics",   demographics),
     ))
 
     override fun fromJson(json: JSONObject) = this.apply {
-        name          = json.get("name", String::class.java)
-        population    = json.get("population") as Int
-        squareMileage = json.get("square_mileage", Number::class.java).toDouble()
-        descriptors   = json.get("descriptors") as Set<Descriptor> // From MapManager
-        demographics  = emptyMap() // From DemographicsManager
+        try {
+            name          = json.get("name", String::class.java)
+            population    = json.get("population", Number::class.java).toInt()
+            demographics   = emptyMap() // From DemographicsManager
+            squareMileage = json.get("square_mileage", Number::class.java).toDouble()
+            descriptors   = if (json.get("descriptors") != null)
+                json.get("descriptors", List::class.java).map { engine.MAP_MANAGER.matchDescriptor(it as String) }
+                    .filter { it.isPresent }.map { it.get() }.toSet()
+                else emptySet()
+        } catch (e: Exception) {
+            println(json)
+        }
     }
 }

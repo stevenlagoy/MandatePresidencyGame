@@ -15,7 +15,7 @@ class Municipality(
     engine: Engine,
     FIPS: String = "",
     UACE: String = "",
-    _county: County? = null,
+    counties: List<County> = emptyList(),
     color: Int? = null,
     fullName: String = "",
     commonName: String = "",
@@ -48,7 +48,7 @@ class Municipality(
     var color: Int? = color
         internal set
 
-    lateinit var county: County
+    var counties: List<County> = counties
         internal set
 
     var type: MunicipalityType = type
@@ -56,20 +56,17 @@ class Municipality(
 
     override var capital: Municipality? = this
 
-    val state = county.state
+    val state: State
+        get() = counties[0].state
 
     constructor(engine: Engine, json: JSONObject) : this(engine) {
         fromJson(json)
     }
 
-    init {
-        if (_county != null) county = _county
-    }
-
     override fun toJson() = super.toJson().merge(
         JSONObject("FIPS", FIPS),
         JSONObject("UACE", UACE),
-        JSONObject("county", county.fullName),
+        JSONObject("counties", counties.map { it.fullName }),
         JSONObject("color", color),
         JSONObject("type", type)
     )!!
@@ -77,11 +74,18 @@ class Municipality(
     override fun fromJson(json: JSONObject) = this.apply {
         super.fromJson(json)
         FIPS = json.get("FIPS", String::class.java)
-        UACE = json.get("UACE", String::class.java)
-        val _county = engine.MAP_MANAGER.matchCounty(json.get("county", String::class.java))
-        if (_county.isPresent) county = _county.get()
-        color = parseHex(json.get("color", String::class.java))
-        type = MunicipalityType.valueOf(json.get("type", String::class.java))
+        UACE = if (json.get("UACE") != null)
+            json.get("UACE", String::class.java)
+            else ""
+        counties = json.get("counties", List::class.java).map { engine.MAP_MANAGER.matchCounty(it as String) }.filter { it.isPresent }.map { it.get() }.toList()
+        color = if (json.get("color") != null)
+            parseHex(json.get("color", String::class.java))
+            else 0xFF000000.toInt()
+        try {
+            type = MunicipalityType.valueOf(json.get("type", String::class.java).uppercase().replace(Regex("[^A-Z]"), "_")) // TODO change all the data files to use "type" instead of "type_class"
+        } catch (e: Exception) {
+            println(json)
+        }
     }
 
     enum class MunicipalityType {
@@ -91,6 +95,31 @@ class Municipality(
         FIRST_CLASS,
         SECOND_CLASS,
         THIRD_CLASS,
+        FOURTH_CLASS,
         HOME_RULE,
+        STATUTORY_TOWN,
+        STATUTORY_CITY,
+        CENSUS_DESIGNATED_PLACE,
+        COUNTY,
+        UNIFIED_HOME_RULE,
+        CORPORATION,
+        PLANTATION,
+        CITY_AND_COUNTY,
+        TOWNSHIP,
+        CHARTER_TOWNSHIP,
+        INDEPENDENT_CITY,
+        SPECIAL_CHARTER,
+        CONSOLIDATED_CITY_COUNTY,
+        BOROUGH,
+        CODE_CITY,
+        UNCLASSIFIED_CITY,
+        COTERMINOUS_TOWN_VILLAGE,
+        CONSOLIDATED_TOWN_VILLAGE,
+        CONSOLIDATED_CITY_PARISH,
+        SECOND_A_CLASS,
+        HOME_RULE_CITY,
+        HOME_RULE_TOWN,
+        TERRITORIAL_CHARTER_MUNICIPALITY,
+        UNIFIED_GOVERNMENT,
     }
 }

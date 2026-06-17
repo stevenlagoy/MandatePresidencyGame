@@ -1,5 +1,6 @@
 package com.stevenlagoy.presidency.map
 
+import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.demographics.Bloc
 import com.stevenlagoy.presidency.politics.Government
@@ -35,4 +36,31 @@ abstract class SoverignArea(
 
     override var name: String = fullName
         get() = fullName
+
+    override fun toJson() = JSONObject(fullName, listOf(
+        JSONObject("fullName",      fullName),
+        JSONObject("commonName",    commonName),
+        JSONObject("squareMileage", squareMileage),
+        JSONObject("population",    population),
+        JSONObject("demographics",  demographics),
+        JSONObject("descriptors",   descriptors.map { it.name}.toList()),
+        JSONObject("capital",       capital?.fullName),
+        JSONObject("government",    government?.toJson()),
+    ))
+
+    override fun fromJson(json: JSONObject) = this.apply {
+        fullName      = json.get("fullName", String::class.java)
+        commonName    = json.get("commonName", String::class.java)
+        squareMileage = json.get("squareMileage", Number::class.java).toDouble()
+        population    = json.get("population", Number::class.java).toInt()
+        demographics  = emptyMap()
+        capital       = engine.MAP_MANAGER.matchMunicipality(json.get("capital", String::class.java)).orElseThrow()
+        descriptors   = if (json.get("descriptors") != null)
+            json.get("descriptors", List::class.java).map { engine.MAP_MANAGER.matchDescriptor(it as String) }
+                .filter { it.isPresent }.map { it.get() }.toSet()
+            else emptySet()
+        if (government != null)
+            government?.fromJson(json.get("government", JSONObject::class.java))
+            else Government(engine, json.get("government", JSONObject::class.java))
+    }
 }
