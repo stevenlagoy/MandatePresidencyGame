@@ -12,6 +12,7 @@ import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.HashSet;
+import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -43,8 +44,8 @@ public class RouteManager extends Manager {
 
     @Override
     @Contract(pure = true)
-    public @NotNull Set<Manager> getSubManagers() {
-        return Set.of();
+    public @NotNull List<Manager> getSubManagers() {
+        return List.of();
     }
 
     @Override

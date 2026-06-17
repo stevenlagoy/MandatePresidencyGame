@@ -76,8 +76,8 @@ public final class LanguageManager extends Manager {
 
     @Override
     @Contract(pure = true)
-    public @NotNull Set<Manager> getSubManagers() {
-        return Set.of();
+    public @NotNull List<Manager> getSubManagers() {
+        return List.of();
     }
 
     @Override

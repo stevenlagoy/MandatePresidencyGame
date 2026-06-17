@@ -17,6 +17,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -168,8 +169,8 @@ public final class Engine extends Manager {
 
     @Override
     @Contract(pure = true)
-    public @NotNull Set<Manager> getSubManagers() {
-        return Set.of(LANGUAGE_MANAGER, TIME_MANAGER, EVENT_MANAGER, DEMOGRAPHICS_MANAGER, MAP_MANAGER, POLITICS_MANAGER, CHARACTER_MANAGER);
+    public @NotNull List<Manager> getSubManagers() {
+        return List.of(LANGUAGE_MANAGER, TIME_MANAGER, EVENT_MANAGER, DEMOGRAPHICS_MANAGER, MAP_MANAGER, POLITICS_MANAGER, CHARACTER_MANAGER);
     }
 
     @Override

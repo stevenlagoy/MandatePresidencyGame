@@ -51,8 +51,8 @@ public class ExperienceManager extends Manager {
     // Manager Methods
 
     @Override
-    public @NotNull Set<Manager> getSubManagers() {
-        return Set.of();
+    public @NotNull List<Manager> getSubManagers() {
+        return List.of();
     }
 
     @Override

@@ -13,6 +13,7 @@ import com.stevenlagoy.presidency.core.Manager;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -41,8 +42,8 @@ public class EventManager extends Manager {
 
     @Override
     @Contract(pure = true)
-    public @NotNull Set<Manager> getSubManagers() {
-        return Set.of();
+    public @NotNull List<Manager> getSubManagers() {
+        return List.of();
     }
 
     @Override

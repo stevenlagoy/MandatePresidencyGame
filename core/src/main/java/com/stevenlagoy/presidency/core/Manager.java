@@ -192,9 +192,12 @@ public abstract class Manager extends EngineBound implements Jsonic<Manager> {
 
     // Subclass Hooks
 
-    /** Get all the direct submanagers of this Manager. */
+    /**
+     * Get all the direct submanagers of this Manager. Ensure their order reflects dependencies between the managers,
+     * that is, if Submanager A depends on Submanager B, then B is listed before A.
+     */
     @Contract(pure = true)
-    public abstract @NotNull Set<Manager> getSubManagers();
+    public abstract @NotNull List<Manager> getSubManagers();
 
     /** Get all the descendent submanagers of this Manager, that is, direct submanagers and all of their descendents. */
     @Contract(pure = true)

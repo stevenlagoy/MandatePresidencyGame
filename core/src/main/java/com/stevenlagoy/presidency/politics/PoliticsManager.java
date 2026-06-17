@@ -5,6 +5,7 @@ import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
 import org.jetbrains.annotations.NotNull;
 
+import java.util.List;
 import java.util.Set;
 
 public class PoliticsManager extends Manager {
@@ -25,8 +26,8 @@ public class PoliticsManager extends Manager {
     // Manager Methods
 
     @Override
-    public @NotNull Set<Manager> getSubManagers() {
-        return Set.of(PARTY_MANAGER, ISSUE_MANAGER);
+    public @NotNull List<Manager> getSubManagers() {
+        return List.of(PARTY_MANAGER, ISSUE_MANAGER);
     }
 
     @Override

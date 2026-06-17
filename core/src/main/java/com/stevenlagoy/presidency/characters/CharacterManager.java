@@ -22,10 +22,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.time.LocalDate;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * <h1>CHARACTER MANAGER</h1>
@@ -90,8 +87,8 @@ public class CharacterManager extends Manager {
     // Manager Methods
 
     @Override
-    public @NotNull Set<Manager> getSubManagers() {
-        return Set.of(NAME_MANAGER, SKILLS_MANAGER, APPEARANCE_MANAGER, PERSONALITY_MANAGER, FAMILY_MANAGER, EXPERIENCE_MANAGER);
+    public @NotNull List<Manager> getSubManagers() {
+        return List.of(NAME_MANAGER, SKILLS_MANAGER, APPEARANCE_MANAGER, PERSONALITY_MANAGER, FAMILY_MANAGER, EXPERIENCE_MANAGER);
     }
 
     @Override

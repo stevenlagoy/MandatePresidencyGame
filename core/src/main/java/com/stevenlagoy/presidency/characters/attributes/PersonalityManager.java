@@ -5,6 +5,7 @@ import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
 import org.jetbrains.annotations.NotNull;
 
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -32,8 +33,8 @@ public class PersonalityManager extends Manager {
     // Manager Methods
 
     @Override
-    public @NotNull Set<Manager> getSubManagers() {
-        return Set.of();
+    public @NotNull List<Manager> getSubManagers() {
+        return List.of();
     }
 
     @Override

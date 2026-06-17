@@ -15,6 +15,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.time.LocalDate;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -67,8 +68,8 @@ public class FamilyManager extends Manager {
 
     @Override
     @Contract(pure = true)
-    public @NotNull Set<Manager> getSubManagers() {
-        return Set.of();
+    public @NotNull List<Manager> getSubManagers() {
+        return List.of();
     }
 
     @Override

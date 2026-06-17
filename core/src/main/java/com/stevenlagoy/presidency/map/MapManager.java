@@ -96,8 +96,8 @@ public class MapManager extends Manager {
 
     @Override
     @Contract(pure = true)
-    public @NotNull Set<Manager> getSubManagers() {
-        return Set.of(ROUTE_MANAGER);
+    public @NotNull List<Manager> getSubManagers() {
+        return List.of(ROUTE_MANAGER);
     }
 
     @Override
@@ -205,7 +205,7 @@ public class MapManager extends Manager {
 
     private @NotNull Set<Path> getStateCountyPaths(@NotNull Set<Path> statePaths) {
         requireState(ManagerState.INITIALIZING, ManagerState.ACTIVE, ManagerState.PAUSED, ManagerState.DEGRADED);
-        return statePaths.stream().filter(path -> path.getFileName().toString().matches("^[0-9]{5}\\\\.json$")).collect(Collectors.toSet());
+        return statePaths.stream().filter(path -> path.getFileName().toString().matches("^[0-9]{5}\\.json$")).collect(Collectors.toSet());
     }
 
     private @NotNull Set<Path> getStateCongressionalDistrictPaths(@NotNull Set<Path> statePaths) {
@@ -229,13 +229,18 @@ public class MapManager extends Manager {
         return statesPaths.stream().map(this::getStateCongressionalDistrictPaths).flatMap(Collection::stream).collect(Collectors.toSet());
     }
 
-    private final Map<String, String> municipalitiesCounties = new HashMap<>();
+    private final Map<String, List<String>> municipalitiesCounties = new HashMap<>();
+    @SuppressWarnings("unchecked")
     private void createMunicipalities(@NotNull Set<Path> municipalitiesDataPaths) {
         municipalitiesCounties.clear();
         for (Path municipalityDataPath : municipalitiesDataPaths) {
-            JSONObject municipalityJson = JSONProcessor.processJson(municipalityDataPath);
-            municipalities.add(new Municipality(engine, municipalityJson));
-            municipalitiesCounties.put(municipalityJson.get("fullName", String.class), municipalityJson.get("county", String.class));
+            JSONObject municipalitiesJson = JSONProcessor.processJson(municipalityDataPath);
+            for (Object municipalityObj : municipalitiesJson.getAsList()) {
+                if (municipalityObj instanceof JSONObject municipalityJson) {
+                    municipalities.add(new Municipality(engine, municipalityJson));
+                    municipalitiesCounties.put(municipalityJson.get("fullName", String.class), municipalityJson.get("counties", List.class));
+                }
+            }
         }
     }
 
@@ -249,11 +254,13 @@ public class MapManager extends Manager {
     }
 
     private void resolveMunicipalitiesCounties() {
-        for (Map.Entry<String, String> entry : municipalitiesCounties.entrySet()) {
+        for (Map.Entry<String, List<String>> entry : municipalitiesCounties.entrySet()) {
             Municipality municipality = matchMunicipality(entry.getKey()).orElseThrow();
-            County county = matchCounty(entry.getValue()).orElseThrow();
-            municipality.setCounty$core(county);
-            county.getMunicipalities().add(municipality);
+            for (String countyName : entry.getValue()) {
+                County county = matchCounty(countyName).orElseThrow();
+                municipality.getCounties().add(county);
+                county.getMunicipalities().add(municipality);
+            }
         }
     }
 
