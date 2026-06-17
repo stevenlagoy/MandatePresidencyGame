@@ -6,17 +6,15 @@ import java.util.List;
 
 public final class FilePaths {
 
-    public static final Path CORE                       = FileSystems.getDefault().getPath(".");
-    public static final Path SRC                        = CORE.resolve("src");
-    public static final Path MAIN                       = SRC.resolve("main");
-    public static final Path PROJECT                    = MAIN.resolve("java").resolve("com").resolve("stevenlagoy").resolve("presidency");
-    public static final Path RESOURCES                  = MAIN.resolve("resources");
+    public static final Path ROOT                       = FileSystems.getDefault().getPath(".");
+    public static final Path PROJECT                    = ROOT.resolve("..");
+    public static final Path RESOURCES                  = ROOT.resolve("data");
 
-    public static final Path LOGS_DIR                   = CORE.resolve("logs");
+    public static final Path LOGS_DIR                   = PROJECT.resolve("logs");
     public static final Path LOG_FILE                   = LOGS_DIR.resolve("log.txt");
     public static final Path ERROR_FILE                 = LOGS_DIR.resolve("error.txt");
     public static final Path OUTPUT_FILE                = LOGS_DIR.resolve("output.txt");
-    public static final Path SAVES_DIR                  = CORE.resolve("saves");
+    public static final Path SAVES_DIR                  = PROJECT.resolve("saves");
 
     public static final Path POLITICS_RESOURCES         = RESOURCES.resolve("politics");
 
