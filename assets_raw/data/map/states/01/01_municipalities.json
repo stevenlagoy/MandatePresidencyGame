@@ -1,0 +1,6518 @@
+{
+    "Abbeville, Henry County, Alabama" : {
+        "fullName" : "City of Abbeville",
+        "commonName" : "Abbeville",
+        "state" : "Alabama",
+        "FIPS" : "01-00124",
+        "counties" : [
+            "Henry County"
+        ],
+        "type" : "City",
+        "population_2010" : 2688,
+        "population_2020" : 2358,
+        "population" : 2268,
+        "square_mileage" : 151.7
+    },
+    "Adamsville, Jefferson County, Alabama" : {
+        "fullName" : "City of Adamsville",
+        "commonName" : "Adamsville",
+        "state" : "Alabama",
+        "FIPS" : "01-00460",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "City",
+        "population_2010" : 4522,
+        "population_2020" : 4366,
+        "population" : 4468,
+        "square_mileage" : 173.7
+    },
+    "Addison, Winston County, Alabama" : {
+        "fullName" : "Town of Addison",
+        "commonName" : "Addison",
+        "state" : "Alabama",
+        "FIPS" : "01-00484",
+        "counties" : [
+            "Winston County"
+        ],
+        "type" : "Town",
+        "population_2010" : 758,
+        "population_2020" : 659,
+        "population" : 630,
+        "square_mileage" : 174.8
+    },
+    "Akron, Hale County, Alabama" : {
+        "fullName" : "Town of Akron",
+        "commonName" : "Akron",
+        "state" : "Alabama",
+        "FIPS" : "01-00676",
+        "counties" : [
+            "Hale County"
+        ],
+        "type" : "Town",
+        "population_2010" : 356,
+        "population_2020" : 225,
+        "population" : 182,
+        "square_mileage" : 326.1
+    },
+    "Alabaster, Shelby County, Alabama" : {
+        "fullName" : "City of Alabaster",
+        "commonName" : "Alabaster",
+        "state" : "Alabama",
+        "FIPS" : "01-00820",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type" : "City",
+        "population_2010" : 30352,
+        "population_2020" : 33284,
+        "population" : 37301,
+        "square_mileage" : 1329.2
+    },
+    "Albertville, Marshall County, Alabama" : {
+        "fullName" : "City of Albertville",
+        "commonName" : "Albertville",
+        "state" : "Alabama",
+        "FIPS" : "01-00988",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type" : "City",
+        "population_2010" : 21160,
+        "population_2020" : 22386,
+        "population" : 24427,
+        "square_mileage" : 842.8
+    },
+    "Alexander City, Tallapoosa County, Alabama" : {
+        "fullName" : "Alexander City",
+        "commonName" : "Alexander City",
+        "state" : "Alabama",
+        "FIPS" : "01-01132",
+        "counties" : [
+            "Tallapoosa County"
+        ],
+        "type" : "City",
+        "population_2010" : 14875,
+        "population_2020" : 14843,
+        "population" : 15535,
+        "square_mileage" : 363.4
+    },
+    "Aliceville, Pickens County, Alabama" : {
+        "fullName" : "City of Aliceville",
+        "commonName" : "Aliceville",
+        "state" : "Alabama",
+        "FIPS" : "01-01228",
+        "counties" : [
+            "Pickens County"
+        ],
+        "type" : "City",
+        "population_2010" : 2486,
+        "population_2020" : 2177,
+        "population" : 2092,
+        "square_mileage" : 477.4
+    },
+    "Allgood, Blount County, Alabama" : {
+        "fullName" : "Town of Allgood",
+        "commonName" : "Allgood",
+        "state" : "Alabama",
+        "FIPS" : "01-01396",
+        "counties" : [
+            "Blount County"
+        ],
+        "type" : "Town",
+        "population_2010" : 622,
+        "population_2020" : 548,
+        "population" : 529,
+        "square_mileage" : 526.9
+    },
+    "Altoona, Etowah County, Alabama" : {
+        "fullName" : "Town of Altoona",
+        "commonName" : "Altoona",
+        "state" : "Alabama",
+        "FIPS" : "01-01660",
+        "counties" : [
+            "Etowah County",
+            "Blount County"
+        ],
+        "type" : "Town",
+        "population_2010" : 933,
+        "population_2020" : 948,
+        "population" : 1005,
+        "square_mileage" : 219.4
+    },
+    "Andalusia, Covington County, Alabama" : {
+        "fullName" : "City of Andalusia",
+        "commonName" : "Andalusia",
+        "state" : "Alabama",
+        "FIPS" : "01-01708",
+        "counties" : [
+            "Covington County"
+        ],
+        "type" : "City",
+        "population_2010" : 9015,
+        "population_2020" : 8805,
+        "population" : 9081,
+        "square_mileage" : 447.9
+    },
+    "Anderson, Lauderdale County, Alabama" : {
+        "fullName" : "Town of Anderson",
+        "commonName" : "Anderson",
+        "state" : "Alabama",
+        "FIPS" : "01-01756",
+        "counties" : [
+            "Lauderdale County"
+        ],
+        "type" : "Town",
+        "population_2010" : 282,
+        "population_2020" : 254,
+        "population" : 248,
+        "square_mileage" : 196.9
+    },
+    "Anniston, Calhoun County, Alabama" : {
+        "fullName" : "City of Anniston",
+        "commonName" : "Anniston",
+        "state" : "Alabama",
+        "FIPS" : "01-01852",
+        "counties" : [
+            "Calhoun County"
+        ],
+        "type" : "City",
+        "population_2010" : 23106,
+        "population_2020" : 21564,
+        "population" : 21576,
+        "square_mileage" : 472.5
+    },
+    "Arab, Marshall County, Alabama" : {
+        "fullName" : "City of Arab",
+        "commonName" : "Arab",
+        "state" : "Alabama",
+        "FIPS" : "01-02116",
+        "counties" : [
+            "Marshall County",
+            "Cullman County"
+        ],
+        "type" : "City",
+        "population_2010" : 8050,
+        "population_2020" : 8461,
+        "population" : 9189,
+        "square_mileage" : 651.8
+    },
+    "Ardmore, Limestone County, Alabama" : {
+        "fullName" : "Town of Ardmore",
+        "commonName" : "Ardmore",
+        "state" : "Alabama",
+        "FIPS" : "01-02260",
+        "counties" : [
+            "Limestone County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1194,
+        "population_2020" : 1321,
+        "population" : 1490,
+        "square_mileage" : 647.5
+    },
+    "Argo, St. Clair County, Alabama" : {
+        "fullName" : "Town of Argo",
+        "commonName" : "Argo",
+        "state" : "Alabama",
+        "FIPS" : "01-02320",
+        "counties" : [
+            "St. Clair County",
+            "Jefferson County"
+        ],
+        "type" : "Town",
+        "population_2010" : 4071,
+        "population_2020" : 4368,
+        "population" : 4816,
+        "square_mileage" : 405.6
+    },
+    "Ariton, Dale County, Alabama" : {
+        "fullName" : "Town of Ariton",
+        "commonName" : "Ariton",
+        "state" : "Alabama",
+        "FIPS" : "01-02428",
+        "counties" : [
+            "Dale County"
+        ],
+        "type" : "Town",
+        "population_2010" : 764,
+        "population_2020" : 662,
+        "population" : 632,
+        "square_mileage" : 130.1
+    },
+    "Arley, Winston County, Alabama" : {
+        "fullName" : "Town of Arley",
+        "commonName" : "Arley",
+        "state" : "Alabama",
+        "FIPS" : "01-02500",
+        "counties" : [
+            "Winston County"
+        ],
+        "type" : "Town",
+        "population_2010" : 357,
+        "population_2020" : 330,
+        "population" : 328,
+        "square_mileage" : 87.8
+    },
+    "Ashford, Houston County, Alabama" : {
+        "fullName" : "Town of Ashford",
+        "commonName" : "Ashford",
+        "state" : "Alabama",
+        "FIPS" : "01-02836",
+        "counties" : [
+            "Houston County"
+        ],
+        "type" : "Town",
+        "population_2010" : 2148,
+        "population_2020" : 2246,
+        "population" : 2430,
+        "square_mileage" : 356.5
+    },
+    "Ashland, Clay County, Alabama" : {
+        "fullName" : "Town of Ashland",
+        "commonName" : "Ashland",
+        "state" : "Alabama",
+        "FIPS" : "01-02860",
+        "counties" : [
+            "Clay County"
+        ],
+        "type" : "Town",
+        "population_2010" : 2037,
+        "population_2020" : 1984,
+        "population" : 2042,
+        "square_mileage" : 271.0
+    },
+    "Ashville, St. Clair County, Alabama" : {
+        "fullName" : "City of Ashville",
+        "commonName" : "Ashville",
+        "state" : "Alabama",
+        "FIPS" : "01-02908",
+        "counties" : [
+            "St. Clair County"
+        ],
+        "type" : "City",
+        "population_2010" : 2212,
+        "population_2020" : 2346,
+        "population" : 2565,
+        "square_mileage" : 122.1
+    },
+    "Athens, Limestone County, Alabama" : {
+        "fullName" : "City of Athens",
+        "commonName" : "Athens",
+        "state" : "Alabama",
+        "FIPS" : "01-02956",
+        "counties" : [
+            "Limestone County"
+        ],
+        "type" : "City",
+        "population_2010" : 21897,
+        "population_2020" : 25406,
+        "population" : 29744,
+        "square_mileage" : 642.5
+    },
+    "Atmore, Escambia County, Alabama" : {
+        "fullName" : "City of Atmore",
+        "commonName" : "Atmore",
+        "state" : "Alabama",
+        "FIPS" : "01-03004",
+        "counties" : [
+            "Escambia County"
+        ],
+        "type" : "City",
+        "population_2010" : 10194,
+        "population_2020" : 8391,
+        "population" : 7769,
+        "square_mileage" : 384.0
+    },
+    "Attalla, Etowah County, Alabama" : {
+        "fullName" : "City of Attalla",
+        "commonName" : "Attalla",
+        "state" : "Alabama",
+        "FIPS" : "01-03028",
+        "counties" : [
+            "Etowah County"
+        ],
+        "type" : "City",
+        "population_2010" : 6048,
+        "population_2020" : 5827,
+        "population" : 5954,
+        "square_mileage" : 834.8
+    },
+    "Auburn, Lee County, Alabama" : {
+        "fullName" : "City of Auburn",
+        "commonName" : "Auburn",
+        "state" : "Alabama",
+        "FIPS" : "01-03076",
+        "counties" : [
+            "Lee County"
+        ],
+        "type" : "City",
+        "population_2010" : 53380,
+        "population_2020" : 76143,
+        "population" : 106708,
+        "square_mileage" : 1311.2
+    },
+    "Autaugaville, Autauga County, Alabama" : {
+        "fullName" : "Town of Autaugaville",
+        "commonName" : "Autaugaville",
+        "state" : "Alabama",
+        "FIPS" : "01-03220",
+        "counties" : [
+            "Autauga County"
+        ],
+        "type" : "Town",
+        "population_2010" : 870,
+        "population_2020" : 795,
+        "population" : 785,
+        "square_mileage" : 104.3
+    },
+    "Avon, Houston County, Alabama" : {
+        "fullName" : "Town of Avon",
+        "commonName" : "Avon",
+        "state" : "Alabama",
+        "FIPS" : "01-03364",
+        "counties" : [
+            "Houston County"
+        ],
+        "type" : "Town",
+        "population_2010" : 543,
+        "population_2020" : 465,
+        "population" : 441,
+        "square_mileage" : 175.5
+    },
+    "Babbie, Covington County, Alabama" : {
+        "fullName" : "Town of Babbie",
+        "commonName" : "Babbie",
+        "state" : "Alabama",
+        "FIPS" : "01-03556",
+        "counties" : [
+            "Covington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 603,
+        "population_2020" : 625,
+        "population" : 672,
+        "square_mileage" : 54.5
+    },
+    "Baileyton, Cullman County, Alabama" : {
+        "fullName" : "Town of Baileyton",
+        "commonName" : "Baileyton",
+        "state" : "Alabama",
+        "FIPS" : "01-03676",
+        "counties" : [
+            "Cullman County"
+        ],
+        "type" : "Town",
+        "population_2010" : 610,
+        "population_2020" : 649,
+        "population" : 711,
+        "square_mileage" : 123.4
+    },
+    "Bakerhill, Barbour County, Alabama" : {
+        "fullName" : "Town of Bakerhill",
+        "commonName" : "Bakerhill",
+        "state" : "Alabama",
+        "FIPS" : "01-03724",
+        "counties" : [
+            "Barbour County"
+        ],
+        "type" : "Town",
+        "population_2010" : 279,
+        "population_2020" : 211,
+        "population" : 186,
+        "square_mileage" : 76.7
+    },
+    "Banks, Pike County, Alabama" : {
+        "fullName" : "Town of Banks",
+        "commonName" : "Banks",
+        "state" : "Alabama",
+        "FIPS" : "01-03940",
+        "counties" : [
+            "Pike County"
+        ],
+        "type" : "Town",
+        "population_2010" : 179,
+        "population_2020" : 156,
+        "population" : 149,
+        "square_mileage" : 78.4
+    },
+    "Bay Minette, Baldwin County, Alabama" : {
+        "fullName" : "City of Bay Minette",
+        "commonName" : "Bay Minette",
+        "state" : "Alabama",
+        "FIPS" : "01-04660",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type" : "City",
+        "population_2010" : 8044,
+        "population_2020" : 8107,
+        "population" : 8544,
+        "square_mileage" : 946.0
+    },
+    "Bayou La Batre, Mobile County, Alabama" : {
+        "fullName" : "City of Bayou La Batre",
+        "commonName" : "Bayou La Batre",
+        "state" : "Alabama",
+        "FIPS" : "01-04684",
+        "counties" : [
+            "Mobile County"
+        ],
+        "type" : "City",
+        "population_2010" : 2558,
+        "population_2020" : 2204,
+        "population" : 2097,
+        "square_mileage" : 294.7
+    },
+    "Bear Creek, Marion County, Alabama" : {
+        "fullName" : "Town of Bear Creek",
+        "commonName" : "Bear Creek",
+        "state" : "Alabama",
+        "FIPS" : "01-04852",
+        "counties" : [
+            "Marion County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1070,
+        "population_2020" : 1047,
+        "population" : 1081,
+        "square_mileage" : 76.8
+    },
+    "Beatrice, Monroe County, Alabama" : {
+        "fullName" : "Town of Beatrice",
+        "commonName" : "Beatrice",
+        "state" : "Alabama",
+        "FIPS" : "01-04900",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type" : "Town",
+        "population_2010" : 301,
+        "population_2020" : 204,
+        "population" : 170,
+        "square_mileage" : 151.1
+    },
+    "Beaverton, Lamar County, Alabama" : {
+        "fullName" : "Town of Beaverton",
+        "commonName" : "Beaverton",
+        "state" : "Alabama",
+        "FIPS" : "01-04948",
+        "counties" : [
+            "Lamar County"
+        ],
+        "type" : "Town",
+        "population_2010" : 201,
+        "population_2020" : 187,
+        "population" : 187,
+        "square_mileage" : 40.7
+    },
+    "Belk, Fayette County, Alabama" : {
+        "fullName" : "Town of Belk",
+        "commonName" : "Belk",
+        "state" : "Alabama",
+        "FIPS" : "01-05164",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type" : "Town",
+        "population_2010" : 215,
+        "population_2020" : 186,
+        "population" : 177,
+        "square_mileage" : 133.8
+    },
+    "Benton, Lowndes County, Alabama" : {
+        "fullName" : "Town of Benton",
+        "commonName" : "Benton",
+        "state" : "Alabama",
+        "FIPS" : "01-05692",
+        "counties" : [
+            "Lowndes County"
+        ],
+        "type" : "Town",
+        "population_2010" : 49,
+        "population_2020" : 41,
+        "population" : 38,
+        "square_mileage" : 136.7
+    },
+    "Berlin, Cullman County, Alabama" : {
+        "fullName" : "Town of Berlin",
+        "commonName" : "Berlin",
+        "state" : "Alabama",
+        "FIPS" : "01-05812",
+        "counties" : [
+            "Cullman County"
+        ],
+        "type" : "Town",
+        "population_2010" : 440,
+        "population_2020" : 476,
+        "population" : 528,
+        "square_mileage" : 573.5
+    },
+    "Berry, Fayette County, Alabama" : {
+        "fullName" : "Town of Berry",
+        "commonName" : "Berry",
+        "state" : "Alabama",
+        "FIPS" : "01-05932",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1148,
+        "population_2020" : 1216,
+        "population" : 1328,
+        "square_mileage" : 112.9
+    },
+    "Bessemer, Jefferson County, Alabama" : {
+        "fullName" : "City of Bessemer",
+        "commonName" : "Bessemer",
+        "state" : "Alabama",
+        "FIPS" : "01-05980",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "City",
+        "population_2010" : 27456,
+        "population_2020" : 26019,
+        "population" : 26296,
+        "square_mileage" : 652.9
+    },
+    "Billingsley, Autauga County, Alabama" : {
+        "fullName" : "Town of Billingsley",
+        "commonName" : "Billingsley",
+        "state" : "Alabama",
+        "FIPS" : "01-06460",
+        "counties" : [
+            "Autauga County"
+        ],
+        "type" : "Town",
+        "population_2010" : 144,
+        "population_2020" : 125,
+        "population" : 119,
+        "square_mileage" : 95.4
+    },
+    "Birmingham, Jefferson County, Alabama" : {
+        "fullName" : "City of Birmingham",
+        "commonName" : "Birmingham",
+        "state" : "Alabama",
+        "FIPS" : "01-07000",
+        "counties" : [
+            "Jefferson County",
+            "Shelby County"
+        ],
+        "type" : "Class 1 City",
+        "population_2010" : 212237,
+        "population_2020" : 200733,
+        "population" : 202609,
+        "square_mileage" : 1374.2
+    },
+    "Black, Geneva County, Alabama" : {
+        "fullName" : "Town of Black",
+        "commonName" : "Black",
+        "state" : "Alabama",
+        "FIPS" : "01-07120",
+        "counties" : [
+            "Geneva County"
+        ],
+        "type" : "Town",
+        "population_2010" : 207,
+        "population_2020" : 221,
+        "population" : 243,
+        "square_mileage" : 71.8
+    },
+    "Blountsville, Blount County, Alabama" : {
+        "fullName" : "Town of Blountsville",
+        "commonName" : "Blountsville",
+        "state" : "Alabama",
+        "FIPS" : "01-07456",
+        "counties" : [
+            "Blount County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1684,
+        "population_2020" : 1826,
+        "population" : 2029,
+        "square_mileage" : 336.9
+    },
+    "Blue Springs, Barbour County, Alabama" : {
+        "fullName" : "Town of Blue Springs",
+        "commonName" : "Blue Springs",
+        "state" : "Alabama",
+        "FIPS" : "01-07672",
+        "counties" : [
+            "Barbour County"
+        ],
+        "type" : "Town",
+        "population_2010" : 96,
+        "population_2020" : 84,
+        "population" : 81,
+        "square_mileage" : 29.0
+    },
+    "Boaz, Marshall County, Alabama" : {
+        "fullName" : "City of Boaz",
+        "commonName" : "Boaz",
+        "state" : "Alabama",
+        "FIPS" : "01-07912",
+        "counties" : [
+            "Marshall County",
+            "Etowah County"
+        ],
+        "type" : "City",
+        "population_2010" : 9551,
+        "population_2020" : 10107,
+        "population" : 11031,
+        "square_mileage" : 694.6
+    },
+    "Boligee, Greene County, Alabama" : {
+        "fullName" : "Town of Boligee",
+        "commonName" : "Boligee",
+        "state" : "Alabama",
+        "FIPS" : "01-08104",
+        "counties" : [
+            "Greene County"
+        ],
+        "type" : "Town",
+        "population_2010" : 328,
+        "population_2020" : 301,
+        "population" : 298,
+        "square_mileage" : 76.2
+    },
+    "Bon Air, Talladega County, Alabama" : {
+        "fullName" : "Town of Bon Air",
+        "commonName" : "Bon Air",
+        "state" : "Alabama",
+        "FIPS" : "01-08248",
+        "counties" : [
+            "Talladega County"
+        ],
+        "type" : "Town",
+        "population_2010" : 116,
+        "population_2020" : 172,
+        "population" : 250,
+        "square_mileage" : 129.3
+    },
+    "Brantley, Crenshaw County, Alabama" : {
+        "fullName" : "Town of Brantley",
+        "commonName" : "Brantley",
+        "state" : "Alabama",
+        "FIPS" : "01-09016",
+        "counties" : [
+            "Crenshaw County"
+        ],
+        "type" : "Town",
+        "population_2010" : 809,
+        "population_2020" : 825,
+        "population" : 877,
+        "square_mileage" : 265.3
+    },
+    "Brent, Bibb County, Alabama" : {
+        "fullName" : "City of Brent",
+        "commonName" : "Brent",
+        "state" : "Alabama",
+        "FIPS" : "01-09136",
+        "counties" : [
+            "Bibb County"
+        ],
+        "type" : "City",
+        "population_2010" : 4947,
+        "population_2020" : 2972,
+        "population" : 2347,
+        "square_mileage" : 338.5
+    },
+    "Brewton, Escambia County, Alabama" : {
+        "fullName" : "City of Brewton",
+        "commonName" : "Brewton",
+        "state" : "Alabama",
+        "FIPS" : "01-09208",
+        "counties" : [
+            "Escambia County"
+        ],
+        "type" : "City",
+        "population_2010" : 5408,
+        "population_2020" : 5276,
+        "population" : 5437,
+        "square_mileage" : 511.3
+    },
+    "Bridgeport, Jackson County, Alabama" : {
+        "fullName" : "City of Bridgeport",
+        "commonName" : "Bridgeport",
+        "state" : "Alabama",
+        "FIPS" : "01-09328",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type" : "City",
+        "population_2010" : 2418,
+        "population_2020" : 2264,
+        "population" : 2270,
+        "square_mileage" : 513.4
+    },
+    "Brighton, Jefferson County, Alabama" : {
+        "fullName" : "City of Brighton",
+        "commonName" : "Brighton",
+        "state" : "Alabama",
+        "FIPS" : "01-09400",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "City",
+        "population_2010" : 2945,
+        "population_2020" : 2337,
+        "population" : 2119,
+        "square_mileage" : 1645.8
+    },
+    "Brilliant, Marion County, Alabama" : {
+        "fullName" : "Town of Brilliant",
+        "commonName" : "Brilliant",
+        "state" : "Alabama",
+        "FIPS" : "01-09424",
+        "counties" : [
+            "Marion County"
+        ],
+        "type" : "Town",
+        "population_2010" : 900,
+        "population_2020" : 845,
+        "population" : 849,
+        "square_mileage" : 79.0
+    },
+    "Brookside, Jefferson County, Alabama" : {
+        "fullName" : "Town of Brookside",
+        "commonName" : "Brookside",
+        "state" : "Alabama",
+        "FIPS" : "01-09736",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1363,
+        "population_2020" : 1253,
+        "population" : 1241,
+        "square_mileage" : 195.8
+    },
+    "Brookwood, Tuscaloosa County, Alabama" : {
+        "fullName" : "Town of Brookwood",
+        "commonName" : "Brookwood",
+        "state" : "Alabama",
+        "FIPS" : "01-09808",
+        "counties" : [
+            "Tuscaloosa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1828,
+        "population_2020" : 2504,
+        "population" : 3379,
+        "square_mileage" : 299.5
+    },
+    "Brundidge, Pike County, Alabama" : {
+        "fullName" : "City of Brundidge",
+        "commonName" : "Brundidge",
+        "state" : "Alabama",
+        "FIPS" : "01-10240",
+        "counties" : [
+            "Pike County"
+        ],
+        "type" : "City",
+        "population_2010" : 2076,
+        "population_2020" : 2073,
+        "population" : 2171,
+        "square_mileage" : 212.6
+    },
+    "Butler, Choctaw County, Alabama" : {
+        "fullName" : "Town of Butler",
+        "commonName" : "Butler",
+        "state" : "Alabama",
+        "FIPS" : "01-11032",
+        "counties" : [
+            "Choctaw County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1894,
+        "population_2020" : 1871,
+        "population" : 1945,
+        "square_mileage" : 335.9
+    },
+    "Calera, Shelby County, Alabama" : {
+        "fullName" : "City of Calera",
+        "commonName" : "Calera",
+        "state" : "Alabama",
+        "FIPS" : "01-11416",
+        "counties" : [
+            "Shelby County",
+            "Chilton County"
+        ],
+        "type" : "City",
+        "population_2010" : 11620,
+        "population_2020" : 16494,
+        "population" : 23008,
+        "square_mileage" : 684.7
+    },
+    "Camden, Wilcox County, Alabama" : {
+        "fullName" : "City of Camden",
+        "commonName" : "Camden",
+        "state" : "Alabama",
+        "FIPS" : "01-11512",
+        "counties" : [
+            "Wilcox County"
+        ],
+        "type" : "City",
+        "population_2010" : 2020,
+        "population_2020" : 1927,
+        "population" : 1956,
+        "square_mileage" : 461.0
+    },
+    "Camp Hill, Tallapoosa County, Alabama" : {
+        "fullName" : "Town of Camp Hill",
+        "commonName" : "Camp Hill",
+        "state" : "Alabama",
+        "FIPS" : "01-11680",
+        "counties" : [
+            "Tallapoosa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1014,
+        "population_2020" : 1006,
+        "population" : 1049,
+        "square_mileage" : 111.9
+    },
+    "Carbon Hill, Walker County, Alabama" : {
+        "fullName" : "City of Carbon Hill",
+        "commonName" : "Carbon Hill",
+        "state" : "Alabama",
+        "FIPS" : "01-12016",
+        "counties" : [
+            "Walker County"
+        ],
+        "type" : "City",
+        "population_2010" : 2021,
+        "population_2020" : 1769,
+        "population" : 1699,
+        "square_mileage" : 321.6
+    },
+    "Cardiff, Jefferson County, Alabama" : {
+        "fullName" : "Town of Cardiff",
+        "commonName" : "Cardiff",
+        "state" : "Alabama",
+        "FIPS" : "01-12040",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "Town",
+        "population_2010" : 55,
+        "population_2020" : 52,
+        "population" : 52,
+        "square_mileage" : 208.0
+    },
+    "Carolina, Covington County, Alabama" : {
+        "fullName" : "Town of Carolina",
+        "commonName" : "Carolina",
+        "state" : "Alabama",
+        "FIPS" : "01-12160",
+        "counties" : [
+            "Covington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 297,
+        "population_2020" : 286,
+        "population" : 292,
+        "square_mileage" : 257.7
+    },
+    "Carrollton, Pickens County, Alabama" : {
+        "fullName" : "Town of Carrollton",
+        "commonName" : "Carrollton",
+        "state" : "Alabama",
+        "FIPS" : "01-12304",
+        "counties" : [
+            "Pickens County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1019,
+        "population_2020" : 1023,
+        "population" : 1075,
+        "square_mileage" : 496.6
+    },
+    "Castleberry, Conecuh County, Alabama" : {
+        "fullName" : "Town of Castleberry",
+        "commonName" : "Castleberry",
+        "state" : "Alabama",
+        "FIPS" : "01-12496",
+        "counties" : [
+            "Conecuh County"
+        ],
+        "type" : "Town",
+        "population_2010" : 583,
+        "population_2020" : 486,
+        "population" : 453,
+        "square_mileage" : 284.2
+    },
+    "Cedar Bluff, Cherokee County, Alabama" : {
+        "fullName" : "Town of Cedar Bluff",
+        "commonName" : "Cedar Bluff",
+        "state" : "Alabama",
+        "FIPS" : "01-12760",
+        "counties" : [
+            "Cherokee County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1820,
+        "population_2020" : 1845,
+        "population" : 1953,
+        "square_mileage" : 363.9
+    },
+    "Center Point, Jefferson County, Alabama" : {
+        "fullName" : "City of Center Point",
+        "commonName" : "Center Point",
+        "state" : "Alabama",
+        "FIPS" : "01-13264",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "City",
+        "population_2010" : 16921,
+        "population_2020" : 16406,
+        "population" : 16836,
+        "square_mileage" : 2680.7
+    },
+    "Centre, Cherokee County, Alabama" : {
+        "fullName" : "City of Centre",
+        "commonName" : "Centre",
+        "state" : "Alabama",
+        "FIPS" : "01-13648",
+        "counties" : [
+            "Cherokee County"
+        ],
+        "type" : "City",
+        "population_2010" : 3489,
+        "population_2020" : 3587,
+        "population" : 3834,
+        "square_mileage" : 313.5
+    },
+    "Centreville, Bibb County, Alabama" : {
+        "fullName" : "City of Centreville",
+        "commonName" : "Centreville",
+        "state" : "Alabama",
+        "FIPS" : "01-13672",
+        "counties" : [
+            "Bibb County"
+        ],
+        "type" : "City",
+        "population_2010" : 2778,
+        "population_2020" : 2800,
+        "population" : 2951,
+        "square_mileage" : 296.3
+    },
+    "Chatom, Washington County, Alabama" : {
+        "fullName" : "Town of Chatom",
+        "commonName" : "Chatom",
+        "state" : "Alabama",
+        "FIPS" : "01-14008",
+        "counties" : [
+            "Washington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1288,
+        "population_2020" : 1104,
+        "population" : 1047,
+        "square_mileage" : 103.0
+    },
+    "Chelsea, Shelby County, Alabama" : {
+        "fullName" : "City of Chelsea",
+        "commonName" : "Chelsea",
+        "state" : "Alabama",
+        "FIPS" : "01-14104",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type" : "City",
+        "population_2010" : 10183,
+        "population_2020" : 14982,
+        "population" : 21632,
+        "square_mileage" : 701.7
+    },
+    "Cherokee, Colbert County, Alabama" : {
+        "fullName" : "Town of Cherokee",
+        "commonName" : "Cherokee",
+        "state" : "Alabama",
+        "FIPS" : "01-14152",
+        "counties" : [
+            "Colbert County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1048,
+        "population_2020" : 970,
+        "population" : 965,
+        "square_mileage" : 436.9
+    },
+    "Chickasaw, Mobile County, Alabama" : {
+        "fullName" : "City of Chickasaw",
+        "commonName" : "Chickasaw",
+        "state" : "Alabama",
+        "FIPS" : "01-14392",
+        "counties" : [
+            "Mobile County"
+        ],
+        "type" : "City",
+        "population_2010" : 6106,
+        "population_2020" : 6457,
+        "population" : 7044,
+        "square_mileage" : 1533.7
+    },
+    "Childersburg, Talladega County, Alabama" : {
+        "fullName" : "City of Childersburg",
+        "commonName" : "Childersburg",
+        "state" : "Alabama",
+        "FIPS" : "01-14464",
+        "counties" : [
+            "Talladega County",
+            "Shelby County"
+        ],
+        "type" : "City",
+        "population_2010" : 5175,
+        "population_2020" : 4754,
+        "population" : 4708,
+        "square_mileage" : 384.9
+    },
+    "Citronelle, Mobile County, Alabama" : {
+        "fullName" : "City of Citronelle",
+        "commonName" : "Citronelle",
+        "state" : "Alabama",
+        "FIPS" : "01-15064",
+        "counties" : [
+            "Mobile County"
+        ],
+        "type" : "City",
+        "population_2010" : 3905,
+        "population_2020" : 3946,
+        "population" : 4167,
+        "square_mileage" : 153.4
+    },
+    "Clanton, Chilton County, Alabama" : {
+        "fullName" : "City of Clanton",
+        "commonName" : "Clanton",
+        "state" : "Alabama",
+        "FIPS" : "01-15136",
+        "counties" : [
+            "Chilton County"
+        ],
+        "type" : "City",
+        "population_2010" : 8619,
+        "population_2020" : 8768,
+        "population" : 9302,
+        "square_mileage" : 399.6
+    },
+    "Clay, Jefferson County, Alabama" : {
+        "fullName" : "Clay City",
+        "commonName" : "Clay",
+        "state" : "Alabama",
+        "FIPS" : "01-15256",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "City",
+        "population_2010" : 9708,
+        "population_2020" : 10291,
+        "population" : 11246,
+        "square_mileage" : 1036.4
+    },
+    "Clayhatchee, Dale County, Alabama" : {
+        "fullName" : "Town of Clayhatchee",
+        "commonName" : "Clayhatchee",
+        "state" : "Alabama",
+        "FIPS" : "01-15304",
+        "counties" : [
+            "Dale County"
+        ],
+        "type" : "Town",
+        "population_2010" : 589,
+        "population_2020" : 466,
+        "population" : 422,
+        "square_mileage" : 171.3
+    },
+    "Clayton, Barbour County, Alabama" : {
+        "fullName" : "Town of Clayton",
+        "commonName" : "Clayton",
+        "state" : "Alabama",
+        "FIPS" : "01-15376",
+        "counties" : [
+            "Barbour County"
+        ],
+        "type" : "Town",
+        "population_2010" : 3008,
+        "population_2020" : 2265,
+        "population" : 1995,
+        "square_mileage" : 339.1
+    },
+    "Cleveland, Blount County, Alabama" : {
+        "fullName" : "Town of Cleveland",
+        "commonName" : "Cleveland",
+        "state" : "Alabama",
+        "FIPS" : "01-15472",
+        "counties" : [
+            "Blount County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1303,
+        "population_2020" : 1245,
+        "population" : 1265,
+        "square_mileage" : 158.8
+    },
+    "Clio, Barbour County, Alabama" : {
+        "fullName" : "City of Clio",
+        "commonName" : "Clio",
+        "state" : "Alabama",
+        "FIPS" : "01-15640",
+        "counties" : [
+            "Barbour County"
+        ],
+        "type" : "City",
+        "population_2010" : 1399,
+        "population_2020" : 1220,
+        "population" : 1169,
+        "square_mileage" : 121.2
+    },
+    "Coaling, Tuscaloosa County, Alabama" : {
+        "fullName" : "Town of Coaling",
+        "commonName" : "Coaling",
+        "state" : "Alabama",
+        "FIPS" : "01-16000",
+        "counties" : [
+            "Tuscaloosa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1657,
+        "population_2020" : 2035,
+        "population" : 2495,
+        "square_mileage" : 405.4
+    },
+    "Coffee Springs, Geneva County, Alabama" : {
+        "fullName" : "Town of Coffee Springs",
+        "commonName" : "Coffee Springs",
+        "state" : "Alabama",
+        "FIPS" : "01-16240",
+        "counties" : [
+            "Geneva County"
+        ],
+        "type" : "Town",
+        "population_2010" : 228,
+        "population_2020" : 206,
+        "population" : 202,
+        "square_mileage" : 264.1
+    },
+    "Coffeeville, Clarke County, Alabama" : {
+        "fullName" : "Town of Coffeeville",
+        "commonName" : "Coffeeville",
+        "state" : "Alabama",
+        "FIPS" : "01-16264",
+        "counties" : [
+            "Clarke County"
+        ],
+        "type" : "Town",
+        "population_2010" : 352,
+        "population_2020" : 263,
+        "population" : 231,
+        "square_mileage" : 58.2
+    },
+    "Coker, Tuscaloosa County, Alabama" : {
+        "fullName" : "Town of Coker",
+        "commonName" : "Coker",
+        "state" : "Alabama",
+        "FIPS" : "01-16312",
+        "counties" : [
+            "Tuscaloosa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 979,
+        "population_2020" : 904,
+        "population" : 898,
+        "square_mileage" : 445.3
+    },
+    "Collinsville, DeKalb County, Alabama" : {
+        "fullName" : "Town of Collinsville",
+        "commonName" : "Collinsville",
+        "state" : "Alabama",
+        "FIPS" : "01-16600",
+        "counties" : [
+            "DeKalb County",
+            "Cherokee County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1983,
+        "population_2020" : 2059,
+        "population" : 2216,
+        "square_mileage" : 525.3
+    },
+    "Colony, Cullman County, Alabama" : {
+        "fullName" : "Colony Town",
+        "commonName" : "Colony",
+        "state" : "Alabama",
+        "FIPS" : "01-16684",
+        "counties" : [
+            "Cullman County"
+        ],
+        "type" : "Town",
+        "population_2010" : 268,
+        "population_2020" : 264,
+        "population" : 274,
+        "square_mileage" : 117.3
+    },
+    "Columbia, Houston County, Alabama" : {
+        "fullName" : "Town of Columbia",
+        "commonName" : "Columbia",
+        "state" : "Alabama",
+        "FIPS" : "01-16744",
+        "counties" : [
+            "Houston County"
+        ],
+        "type" : "Town",
+        "population_2010" : 740,
+        "population_2020" : 690,
+        "population" : 690,
+        "square_mileage" : 175.6
+    },
+    "Columbiana, Shelby County, Alabama" : {
+        "fullName" : "City of Columbiana",
+        "commonName" : "Columbiana",
+        "state" : "Alabama",
+        "FIPS" : "01-16768",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type" : "City",
+        "population_2010" : 4197,
+        "population_2020" : 4462,
+        "population" : 4886,
+        "square_mileage" : 277.3
+    },
+    "Coosada, Elmore County, Alabama" : {
+        "fullName" : "Town of Coosada",
+        "commonName" : "Coosada",
+        "state" : "Alabama",
+        "FIPS" : "01-17176",
+        "counties" : [
+            "Elmore County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1224,
+        "population_2020" : 1217,
+        "population" : 1271,
+        "square_mileage" : 171.9
+    },
+    "Cordova, Walker County, Alabama" : {
+        "fullName" : "City of Cordova",
+        "commonName" : "Cordova",
+        "state" : "Alabama",
+        "FIPS" : "01-17368",
+        "counties" : [
+            "Walker County"
+        ],
+        "type" : "City",
+        "population_2010" : 2095,
+        "population_2020" : 1728,
+        "population" : 1602,
+        "square_mileage" : 296.4
+    },
+    "Cottonwood, Houston County, Alabama" : {
+        "fullName" : "Town of Cottonwood",
+        "commonName" : "Cottonwood",
+        "state" : "Alabama",
+        "FIPS" : "01-17824",
+        "counties" : [
+            "Houston County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1289,
+        "population_2020" : 1048,
+        "population" : 963,
+        "square_mileage" : 181.6
+    },
+    "County Line, Blount County, Alabama" : {
+        "fullName" : "Town of County Line",
+        "commonName" : "County Line",
+        "state" : "Alabama",
+        "FIPS" : "01-17968",
+        "counties" : [
+            "Blount County",
+            "Jefferson County"
+        ],
+        "type" : "Town",
+        "population_2010" : 258,
+        "population_2020" : 311,
+        "population" : 376,
+        "square_mileage" : 320.6
+    },
+    "Courtland, Lawrence County, Alabama" : {
+        "fullName" : "Town of Courtland",
+        "commonName" : "Courtland",
+        "state" : "Alabama",
+        "FIPS" : "01-18040",
+        "counties" : [
+            "Lawrence County"
+        ],
+        "type" : "Town",
+        "population_2010" : 609,
+        "population_2020" : 583,
+        "population" : 593,
+        "square_mileage" : 199.7
+    },
+    "Cowarts, Houston County, Alabama" : {
+        "fullName" : "Town of Cowarts",
+        "commonName" : "Cowarts",
+        "state" : "Alabama",
+        "FIPS" : "01-18088",
+        "counties" : [
+            "Houston County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1871,
+        "population_2020" : 1930,
+        "population" : 2068,
+        "square_mileage" : 266.2
+    },
+    "Creola, Mobile County, Alabama" : {
+        "fullName" : "City of Creola",
+        "commonName" : "Creola",
+        "state" : "Alabama",
+        "FIPS" : "01-18304",
+        "counties" : [
+            "Mobile County"
+        ],
+        "type" : "City",
+        "population_2010" : 1926,
+        "population_2020" : 1936,
+        "population" : 2037,
+        "square_mileage" : 136.0
+    },
+    "Crossville, DeKalb County, Alabama" : {
+        "fullName" : "Town of Crossville",
+        "commonName" : "Crossville",
+        "state" : "Alabama",
+        "FIPS" : "01-18856",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1862,
+        "population_2020" : 1830,
+        "population" : 1895,
+        "square_mileage" : 218.6
+    },
+    "Cuba, Sumter County, Alabama" : {
+        "fullName" : "Town of Cuba",
+        "commonName" : "Cuba",
+        "state" : "Alabama",
+        "FIPS" : "01-18952",
+        "counties" : [
+            "Sumter County"
+        ],
+        "type" : "Town",
+        "population_2010" : 346,
+        "population_2020" : 306,
+        "population" : 296,
+        "square_mileage" : 75.4
+    },
+    "Cullman, Cullman County, Alabama" : {
+        "fullName" : "City of Cullman",
+        "commonName" : "Cullman",
+        "state" : "Alabama",
+        "FIPS" : "01-18976",
+        "counties" : [
+            "Cullman County"
+        ],
+        "type" : "City",
+        "population_2010" : 14775,
+        "population_2020" : 18213,
+        "population" : 22403,
+        "square_mileage" : 939.8
+    },
+    "Cusseta, Chambers County, Alabama" : {
+        "fullName" : "Town of Cusseta",
+        "commonName" : "Cusseta",
+        "state" : "Alabama",
+        "FIPS" : "01-19216",
+        "counties" : [
+            "Chambers County"
+        ],
+        "type" : "Town",
+        "population_2010" : 123,
+        "population_2020" : 152,
+        "population" : 187,
+        "square_mileage" : 58.0
+    },
+    "Dadeville, Tallapoosa County, Alabama" : {
+        "fullName" : "City of Dadeville",
+        "commonName" : "Dadeville",
+        "state" : "Alabama",
+        "FIPS" : "01-19336",
+        "counties" : [
+            "Tallapoosa County"
+        ],
+        "type" : "City",
+        "population_2010" : 3230,
+        "population_2020" : 3084,
+        "population" : 3132,
+        "square_mileage" : 193.5
+    },
+    "Daleville, Dale County, Alabama" : {
+        "fullName" : "City of Daleville",
+        "commonName" : "Daleville",
+        "state" : "Alabama",
+        "FIPS" : "01-19360",
+        "counties" : [
+            "Dale County"
+        ],
+        "type" : "City",
+        "population_2010" : 5295,
+        "population_2020" : 4866,
+        "population" : 4820,
+        "square_mileage" : 345.4
+    },
+    "Daphne, Baldwin County, Alabama" : {
+        "fullName" : "City of Daphne",
+        "commonName" : "Daphne",
+        "state" : "Alabama",
+        "FIPS" : "01-19648",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type" : "City",
+        "population_2010" : 21570,
+        "population_2020" : 27462,
+        "population" : 34719,
+        "square_mileage" : 1691.0
+    },
+    "Dauphin Island, Mobile County, Alabama" : {
+        "fullName" : "Town of Dauphin Island",
+        "commonName" : "Dauphin Island",
+        "state" : "Alabama",
+        "FIPS" : "01-19744",
+        "counties" : [
+            "Mobile County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1238,
+        "population_2020" : 1778,
+        "population" : 2508,
+        "square_mileage" : 280.0
+    },
+    "Daviston, Tallapoosa County, Alabama" : {
+        "fullName" : "Town of Daviston",
+        "commonName" : "Daviston",
+        "state" : "Alabama",
+        "FIPS" : "01-19816",
+        "counties" : [
+            "Tallapoosa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 214,
+        "population_2020" : 174,
+        "population" : 160,
+        "square_mileage" : 19.0
+    },
+    "Dayton, Marengo County, Alabama" : {
+        "fullName" : "Town of Dayton",
+        "commonName" : "Dayton",
+        "state" : "Alabama",
+        "FIPS" : "01-19912",
+        "counties" : [
+            "Marengo County"
+        ],
+        "type" : "Town",
+        "population_2010" : 52,
+        "population_2020" : 28,
+        "population" : 21,
+        "square_mileage" : 28.0
+    },
+    "Deatsville, Elmore County, Alabama" : {
+        "fullName" : "Town of Deatsville",
+        "commonName" : "Deatsville",
+        "state" : "Alabama",
+        "FIPS" : "01-20008",
+        "counties" : [
+            "Elmore County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1154,
+        "population_2020" : 1679,
+        "population" : 2398,
+        "square_mileage" : 360.3
+    },
+    "Decatur, Morgan County, Alabama" : {
+        "fullName" : "City of Decatur",
+        "commonName" : "Decatur",
+        "state" : "Alabama",
+        "FIPS" : "01-20104",
+        "counties" : [
+            "Morgan County",
+            "Limestone County"
+        ],
+        "type" : "City",
+        "population_2010" : 55683,
+        "population_2020" : 57938,
+        "population" : 62462,
+        "square_mileage" : 1079.5
+    },
+    "Demopolis, Marengo County, Alabama" : {
+        "fullName" : "City of Demopolis",
+        "commonName" : "Demopolis",
+        "state" : "Alabama",
+        "FIPS" : "01-20296",
+        "counties" : [
+            "Marengo County"
+        ],
+        "type" : "City",
+        "population_2010" : 7483,
+        "population_2020" : 7162,
+        "population" : 7286,
+        "square_mileage" : 403.7
+    },
+    "Detroit, Lamar County, Alabama" : {
+        "fullName" : "Town of Detroit",
+        "commonName" : "Detroit",
+        "state" : "Alabama",
+        "FIPS" : "01-20392",
+        "counties" : [
+            "Lamar County"
+        ],
+        "type" : "Town",
+        "population_2010" : 237,
+        "population_2020" : 230,
+        "population" : 236,
+        "square_mileage" : 172.9
+    },
+    "Dodge City, Cullman County, Alabama" : {
+        "fullName" : "Town of Dodge City",
+        "commonName" : "Dodge City",
+        "state" : "Alabama",
+        "FIPS" : "01-20955",
+        "counties" : [
+            "Cullman County"
+        ],
+        "type" : "Town",
+        "population_2010" : 593,
+        "population_2020" : 548,
+        "population" : 545,
+        "square_mileage" : 159.3
+    },
+    "Dora, Walker County, Alabama" : {
+        "fullName" : "Dora City",
+        "commonName" : "Dora",
+        "state" : "Alabama",
+        "FIPS" : "01-21136",
+        "counties" : [
+            "Walker County"
+        ],
+        "type" : "City",
+        "population_2010" : 2025,
+        "population_2020" : 2297,
+        "population" : 2642,
+        "square_mileage" : 305.9
+    },
+    "Dothan, Houston County, Alabama" : {
+        "fullName" : "City of Dothan",
+        "commonName" : "Dothan",
+        "state" : "Alabama",
+        "FIPS" : "01-21184",
+        "counties" : [
+            "Houston County",
+            "Dale County",
+            "Henry County"
+        ],
+        "type" : "City",
+        "population_2010" : 65496,
+        "population_2020" : 71072,
+        "population" : 79022,
+        "square_mileage" : 795.0
+    },
+    "Double Springs, Winston County, Alabama" : {
+        "fullName" : "Town of Double Springs",
+        "commonName" : "Double Springs",
+        "state" : "Alabama",
+        "FIPS" : "01-21280",
+        "counties" : [
+            "Winston County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1083,
+        "population_2020" : 1119,
+        "population" : 1200,
+        "square_mileage" : 272.3
+    },
+    "Douglas, Marshall County, Alabama" : {
+        "fullName" : "Town of Douglas",
+        "commonName" : "Douglas",
+        "state" : "Alabama",
+        "FIPS" : "01-21328",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type" : "Town",
+        "population_2010" : 744,
+        "population_2020" : 761,
+        "population" : 810,
+        "square_mileage" : 223.8
+    },
+    "Dozier, Crenshaw County, Alabama" : {
+        "fullName" : "Town of Dozier",
+        "commonName" : "Dozier",
+        "state" : "Alabama",
+        "FIPS" : "01-21448",
+        "counties" : [
+            "Crenshaw County"
+        ],
+        "type" : "Town",
+        "population_2010" : 329,
+        "population_2020" : 285,
+        "population" : 272,
+        "square_mileage" : 96.3
+    },
+    "Dutton, Jackson County, Alabama" : {
+        "fullName" : "Town of Dutton",
+        "commonName" : "Dutton",
+        "state" : "Alabama",
+        "FIPS" : "01-21952",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type" : "Town",
+        "population_2010" : 315,
+        "population_2020" : 330,
+        "population" : 358,
+        "square_mileage" : 383.7
+    },
+    "East Brewton, Escambia County, Alabama" : {
+        "fullName" : "City of East Brewton",
+        "commonName" : "East Brewton",
+        "state" : "Alabama",
+        "FIPS" : "01-22216",
+        "counties" : [
+            "Escambia County"
+        ],
+        "type" : "City",
+        "population_2010" : 2478,
+        "population_2020" : 2293,
+        "population" : 2282,
+        "square_mileage" : 672.4
+    },
+    "Eclectic, Elmore County, Alabama" : {
+        "fullName" : "Town of Eclectic",
+        "commonName" : "Eclectic",
+        "state" : "Alabama",
+        "FIPS" : "01-22816",
+        "counties" : [
+            "Elmore County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1001,
+        "population_2020" : 1193,
+        "population" : 1427,
+        "square_mileage" : 283.4
+    },
+    "Edwardsville, Cleburne County, Alabama" : {
+        "fullName" : "Town of Edwardsville",
+        "commonName" : "Edwardsville",
+        "state" : "Alabama",
+        "FIPS" : "01-23176",
+        "counties" : [
+            "Cleburne County"
+        ],
+        "type" : "Town",
+        "population_2010" : 202,
+        "population_2020" : 206,
+        "population" : 219,
+        "square_mileage" : 12.5
+    },
+    "Elba, Coffee County, Alabama" : {
+        "fullName" : "City of Elba",
+        "commonName" : "Elba",
+        "state" : "Alabama",
+        "FIPS" : "01-23296",
+        "counties" : [
+            "Coffee County"
+        ],
+        "type" : "City",
+        "population_2010" : 3940,
+        "population_2020" : 3508,
+        "population" : 3406,
+        "square_mileage" : 228.7
+    },
+    "Elberta, Baldwin County, Alabama" : {
+        "fullName" : "Town of Elberta",
+        "commonName" : "Elberta",
+        "state" : "Alabama",
+        "FIPS" : "01-23320",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1498,
+        "population_2020" : 1974,
+        "population" : 2572,
+        "square_mileage" : 292.0
+    },
+    "Eldridge, Walker County, Alabama" : {
+        "fullName" : "Town of Eldridge",
+        "commonName" : "Eldridge",
+        "state" : "Alabama",
+        "FIPS" : "01-23344",
+        "counties" : [
+            "Walker County"
+        ],
+        "type" : "Town",
+        "population_2010" : 130,
+        "population_2020" : 136,
+        "population" : 147,
+        "square_mileage" : 194.3
+    },
+    "Elkmont, Limestone County, Alabama" : {
+        "fullName" : "Town of Elkmont",
+        "commonName" : "Elkmont",
+        "state" : "Alabama",
+        "FIPS" : "01-23488",
+        "counties" : [
+            "Limestone County"
+        ],
+        "type" : "Town",
+        "population_2010" : 434,
+        "population_2020" : 411,
+        "population" : 415,
+        "square_mileage" : 252.1
+    },
+    "Elmore, Elmore County, Alabama" : {
+        "fullName" : "Town of Elmore",
+        "commonName" : "Elmore",
+        "state" : "Alabama",
+        "FIPS" : "01-23656",
+        "counties" : [
+            "Elmore County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1262,
+        "population_2020" : 1280,
+        "population" : 1355,
+        "square_mileage" : 324.1
+    },
+    "Emelle, Sumter County, Alabama" : {
+        "fullName" : "Town of Emelle",
+        "commonName" : "Emelle",
+        "state" : "Alabama",
+        "FIPS" : "01-23872",
+        "counties" : [
+            "Sumter County"
+        ],
+        "type" : "Town",
+        "population_2010" : 53,
+        "population_2020" : 32,
+        "population" : 25,
+        "square_mileage" : 152.4
+    },
+    "Enterprise, Coffee County, Alabama" : {
+        "fullName" : "City of Enterprise",
+        "commonName" : "Enterprise",
+        "state" : "Alabama",
+        "FIPS" : "01-24184",
+        "counties" : [
+            "Coffee County",
+            "Dale County"
+        ],
+        "type" : "City",
+        "population_2010" : 26562,
+        "population_2020" : 28711,
+        "population" : 31830,
+        "square_mileage" : 919.0
+    },
+    "Epes, Sumter County, Alabama" : {
+        "fullName" : "Town of Epes",
+        "commonName" : "Epes",
+        "state" : "Alabama",
+        "FIPS" : "01-24256",
+        "counties" : [
+            "Sumter County"
+        ],
+        "type" : "Town",
+        "population_2010" : 192,
+        "population_2020" : 272,
+        "population" : 379,
+        "square_mileage" : 141.7
+    },
+    "Ethelsville, Pickens County, Alabama" : {
+        "fullName" : "Town of Ethelsville",
+        "commonName" : "Ethelsville",
+        "state" : "Alabama",
+        "FIPS" : "01-24472",
+        "counties" : [
+            "Pickens County"
+        ],
+        "type" : "Town",
+        "population_2010" : 81,
+        "population_2020" : 49,
+        "population" : 39,
+        "square_mileage" : 86.0
+    },
+    "Eufaula, Barbour County, Alabama" : {
+        "fullName" : "City of Eufaula",
+        "commonName" : "Eufaula",
+        "state" : "Alabama",
+        "FIPS" : "01-24568",
+        "counties" : [
+            "Barbour County"
+        ],
+        "type" : "City",
+        "population_2010" : 13137,
+        "population_2020" : 12882,
+        "population" : 13322,
+        "square_mileage" : 216.9
+    },
+    "Eutaw, Greene County, Alabama" : {
+        "fullName" : "City of Eutaw",
+        "commonName" : "Eutaw",
+        "state" : "Alabama",
+        "FIPS" : "01-24664",
+        "counties" : [
+            "Greene County"
+        ],
+        "type" : "City",
+        "population_2010" : 2934,
+        "population_2020" : 2937,
+        "population" : 3081,
+        "square_mileage" : 246.2
+    },
+    "Eva, Morgan County, Alabama" : {
+        "fullName" : "Town of Eva",
+        "commonName" : "Eva",
+        "state" : "Alabama",
+        "FIPS" : "01-24688",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type" : "Town",
+        "population_2010" : 519,
+        "population_2020" : 589,
+        "population" : 678,
+        "square_mileage" : 144.7
+    },
+    "Evergreen, Conecuh County, Alabama" : {
+        "fullName" : "City of Evergreen",
+        "commonName" : "Evergreen",
+        "state" : "Alabama",
+        "FIPS" : "01-24808",
+        "counties" : [
+            "Conecuh County"
+        ],
+        "type" : "City",
+        "population_2010" : 3944,
+        "population_2020" : 3520,
+        "population" : 3423,
+        "square_mileage" : 225.6
+    },
+    "Excel, Monroe County, Alabama" : {
+        "fullName" : "Town of Excel",
+        "commonName" : "Excel",
+        "state" : "Alabama",
+        "FIPS" : "01-24880",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type" : "Town",
+        "population_2010" : 723,
+        "population_2020" : 557,
+        "population" : 497,
+        "square_mileage" : 337.6
+    },
+    "Fairfield, Jefferson County, Alabama" : {
+        "fullName" : "City of Fairfield",
+        "commonName" : "Fairfield",
+        "state" : "Alabama",
+        "FIPS" : "01-25120",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "City",
+        "population_2010" : 11117,
+        "population_2020" : 10000,
+        "population" : 9771,
+        "square_mileage" : 2881.8
+    },
+    "Fairhope, Baldwin County, Alabama" : {
+        "fullName" : "City of Fairhope",
+        "commonName" : "Fairhope",
+        "state" : "Alabama",
+        "FIPS" : "01-25240",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type" : "City",
+        "population_2010" : 15326,
+        "population_2020" : 22477,
+        "population" : 32353,
+        "square_mileage" : 1863.8
+    },
+    "Fairview, Cullman County, Alabama" : {
+        "fullName" : "Town of Fairview",
+        "commonName" : "Fairview",
+        "state" : "Alabama",
+        "FIPS" : "01-25384",
+        "counties" : [
+            "Cullman County"
+        ],
+        "type" : "Town",
+        "population_2010" : 446,
+        "population_2020" : 543,
+        "population" : 661,
+        "square_mileage" : 200.4
+    },
+    "Falkville, Morgan County, Alabama" : {
+        "fullName" : "Town of Falkville",
+        "commonName" : "Falkville",
+        "state" : "Alabama",
+        "FIPS" : "01-25648",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1279,
+        "population_2020" : 1197,
+        "population" : 1200,
+        "square_mileage" : 316.7
+    },
+    "Faunsdale, Marengo County, Alabama" : {
+        "fullName" : "Town of Faunsdale",
+        "commonName" : "Faunsdale",
+        "state" : "Alabama",
+        "FIPS" : "01-25816",
+        "counties" : [
+            "Marengo County"
+        ],
+        "type" : "Town",
+        "population_2010" : 98,
+        "population_2020" : 90,
+        "population" : 89,
+        "square_mileage" : 321.4
+    },
+    "Fayette, Fayette County, Alabama" : {
+        "fullName" : "City of Fayette",
+        "commonName" : "Fayette",
+        "state" : "Alabama",
+        "FIPS" : "01-25840",
+        "counties" : [
+            "Fayette County"
+        ],
+        "type" : "City",
+        "population_2010" : 4619,
+        "population_2020" : 4285,
+        "population" : 4271,
+        "square_mileage" : 501.2
+    },
+    "Five Points, Chambers County, Alabama" : {
+        "fullName" : "Town of Five Points",
+        "commonName" : "Five Points",
+        "state" : "Alabama",
+        "FIPS" : "01-26200",
+        "counties" : [
+            "Chambers County"
+        ],
+        "type" : "Town",
+        "population_2010" : 141,
+        "population_2020" : 114,
+        "population" : 104,
+        "square_mileage" : 110.7
+    },
+    "Flomaton, Escambia County, Alabama" : {
+        "fullName" : "Town of Flomaton",
+        "commonName" : "Flomaton",
+        "state" : "Alabama",
+        "FIPS" : "01-26824",
+        "counties" : [
+            "Escambia County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1440,
+        "population_2020" : 1466,
+        "population" : 1556,
+        "square_mileage" : 288.0
+    },
+    "Florala, Covington County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Florala",
+        "state" : "Alabama",
+        "FIPS" : "01-26848",
+        "counties" : [
+            "Covington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1980,
+        "population_2020" : 1923,
+        "population" : 1976,
+        "square_mileage" : 182.6
+    },
+    "Florence, Lauderdale County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Florence",
+        "state" : "Alabama",
+        "FIPS" : "01-26896",
+        "counties" : [
+            "Lauderdale County"
+        ],
+        "type" : "City",
+        "population_2010" : 39319,
+        "population_2020" : 40184,
+        "population" : 42770,
+        "square_mileage" : 1545.5
+    },
+    "Foley, Baldwin County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Foley",
+        "state" : "Alabama",
+        "FIPS" : "01-26992",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type" : "City",
+        "population_2010" : 14618,
+        "population_2020" : 20335,
+        "population" : 27833,
+        "square_mileage" : 789.1
+    },
+    "Forkland, Greene County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Forkland",
+        "state" : "Alabama",
+        "FIPS" : "01-27376",
+        "counties" : [
+            "Greene County"
+        ],
+        "type" : "Town",
+        "population_2010" : 649,
+        "population_2020" : 445,
+        "population" : 374,
+        "square_mileage" : 127.5
+    },
+    "Fort Deposit, Lowndes County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Fort Deposit",
+        "state" : "Alabama",
+        "FIPS" : "01-27520",
+        "counties" : [
+            "Lowndes County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1344,
+        "population_2020" : 1225,
+        "population" : 1207,
+        "square_mileage" : 216.4
+    },
+    "Fort Payne, DeKalb County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Fort Payne",
+        "state" : "Alabama",
+        "FIPS" : "01-27616",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type" : "City",
+        "population_2010" : 14012,
+        "population_2020" : 14877,
+        "population" : 16276,
+        "square_mileage" : 268.1
+    },
+    "Franklin, Macon County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Franklin",
+        "state" : "Alabama",
+        "FIPS" : "01-28024",
+        "counties" : [
+            "Macon County"
+        ],
+        "type" : "Town",
+        "population_2010" : 149,
+        "population_2020" : 590,
+        "population" : 2921,
+        "square_mileage" : 132.0
+    },
+    "Frisco City, Monroe County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Frisco City",
+        "state" : "Alabama",
+        "FIPS" : "01-28312",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1309,
+        "population_2020" : 1170,
+        "population" : 1139,
+        "square_mileage" : 290.3
+    },
+    "Fruithurst, Cleburne County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Fruithurst",
+        "state" : "Alabama",
+        "FIPS" : "01-28432",
+        "counties" : [
+            "Cleburne County"
+        ],
+        "type" : "Town",
+        "population_2010" : 284,
+        "population_2020" : 235,
+        "population" : 218,
+        "square_mileage" : 235.0
+    },
+    "Fulton, Clarke County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Fulton",
+        "state" : "Alabama",
+        "FIPS" : "01-28504",
+        "counties" : [
+            "Clarke County"
+        ],
+        "type" : "Town",
+        "population_2010" : 272,
+        "population_2020" : 223,
+        "population" : 206,
+        "square_mileage" : 91.0
+    },
+    "Fultondale, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Fultondale",
+        "state" : "Alabama",
+        "FIPS" : "01-28552",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "City",
+        "population_2010" : 8380,
+        "population_2020" : 9876,
+        "population" : 11708,
+        "square_mileage" : 809.5
+    },
+    "Fyffe, DeKalb County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Fyffe",
+        "state" : "Alabama",
+        "FIPS" : "01-28672",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1018,
+        "population_2020" : 967,
+        "population" : 979,
+        "square_mileage" : 219.3
+    },
+    "Gadsden, Etowah County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Gadsden",
+        "state" : "Alabama",
+        "FIPS" : "01-28696",
+        "counties" : [
+            "Etowah County"
+        ],
+        "type" : "City",
+        "population_2010" : 36856,
+        "population_2020" : 33945,
+        "population" : 33673,
+        "square_mileage" : 913.5
+    },
+    "Gainesville, Sumter County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Gainesville",
+        "state" : "Alabama",
+        "FIPS" : "01-28768",
+        "counties" : [
+            "Sumter County"
+        ],
+        "type" : "Town",
+        "population_2010" : 208,
+        "population_2020" : 172,
+        "population" : 160,
+        "square_mileage" : 100.0
+    },
+    "Gantt, Covington County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Gantt",
+        "state" : "Alabama",
+        "FIPS" : "01-28936",
+        "counties" : [
+            "Covington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 222,
+        "population_2020" : 196,
+        "population" : 189,
+        "square_mileage" : 301.5
+    },
+    "Garden City, Cullman County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Garden City",
+        "state" : "Alabama",
+        "FIPS" : "01-29032",
+        "counties" : [
+            "Cullman County",
+            "Blount County"
+        ],
+        "type" : "Town",
+        "population_2010" : 492,
+        "population_2020" : 528,
+        "population" : 582,
+        "square_mileage" : 175.4
+    },
+    "Gardendale, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Gardendale",
+        "state" : "Alabama",
+        "FIPS" : "01-29056",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "City",
+        "population_2010" : 13893,
+        "population_2020" : 16044,
+        "population" : 18714,
+        "square_mileage" : 711.5
+    },
+    "Gaylesville, Cherokee County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Gaylesville",
+        "state" : "Alabama",
+        "FIPS" : "01-29296",
+        "counties" : [
+            "Cherokee County"
+        ],
+        "type" : "Town",
+        "population_2010" : 144,
+        "population_2020" : 170,
+        "population" : 202,
+        "square_mileage" : 500.0
+    },
+    "Geiger, Sumter County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Geiger",
+        "state" : "Alabama",
+        "FIPS" : "01-29392",
+        "counties" : [
+            "Sumter County"
+        ],
+        "type" : "Town",
+        "population_2010" : 170,
+        "population_2020" : 155,
+        "population" : 153,
+        "square_mileage" : 163.2
+    },
+    "Geneva, Geneva County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Geneva",
+        "state" : "Alabama",
+        "FIPS" : "01-29464",
+        "counties" : [
+            "Geneva County"
+        ],
+        "type" : "City",
+        "population_2010" : 4452,
+        "population_2020" : 4245,
+        "population" : 4308,
+        "square_mileage" : 267.5
+    },
+    "Georgiana, Butler County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Georgiana",
+        "state" : "Alabama",
+        "FIPS" : "01-29560",
+        "counties" : [
+            "Butler County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1738,
+        "population_2020" : 1324,
+        "population" : 1174,
+        "square_mileage" : 212.2
+    },
+    "Geraldine, DeKalb County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Geraldine",
+        "state" : "Alabama",
+        "FIPS" : "01-29608",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type" : "Town",
+        "population_2010" : 896,
+        "population_2020" : 910,
+        "population" : 964,
+        "square_mileage" : 232.1
+    },
+    "Gilbertown, Choctaw County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Gilbertown",
+        "state" : "Alabama",
+        "FIPS" : "01-29704",
+        "counties" : [
+            "Choctaw County"
+        ],
+        "type" : "Town",
+        "population_2010" : 215,
+        "population_2020" : 739,
+        "population" : 3533,
+        "square_mileage" : 947.4
+    },
+    "Glen Allen, Fayette County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Glen Allen",
+        "state" : "Alabama",
+        "FIPS" : "01-29944",
+        "counties" : [
+            "Fayette County",
+            "Marion County"
+        ],
+        "type" : "Town",
+        "population_2010" : 510,
+        "population_2020" : 433,
+        "population" : 408,
+        "square_mileage" : 66.1
+    },
+    "Glencoe, Etowah County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Glencoe",
+        "state" : "Alabama",
+        "FIPS" : "01-29992",
+        "counties" : [
+            "Etowah County",
+            "Calhoun County"
+        ],
+        "type" : "City",
+        "population_2010" : 5160,
+        "population_2020" : 5372,
+        "population" : 5794,
+        "square_mileage" : 317.3
+    },
+    "Glenwood, Crenshaw County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Glenwood",
+        "state" : "Alabama",
+        "FIPS" : "01-30160",
+        "counties" : [
+            "Crenshaw County"
+        ],
+        "type" : "Town",
+        "population_2010" : 187,
+        "population_2020" : 152,
+        "population" : 140,
+        "square_mileage" : 208.2
+    },
+    "Goldville, Tallapoosa County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Goldville",
+        "state" : "Alabama",
+        "FIPS" : "01-30448",
+        "counties" : [
+            "Tallapoosa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 55,
+        "population_2020" : 52,
+        "population" : 52,
+        "square_mileage" : 52.5
+    },
+    "Good Hope, Cullman County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Good Hope",
+        "state" : "Alabama",
+        "FIPS" : "01-30496",
+        "counties" : [
+            "Cullman County"
+        ],
+        "type" : "Town",
+        "population_2010" : 2264,
+        "population_2020" : 2483,
+        "population" : 2783,
+        "square_mileage" : 312.7
+    },
+    "Goodwater, Coosa County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Goodwater",
+        "state" : "Alabama",
+        "FIPS" : "01-30640",
+        "counties" : [
+            "Coosa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1475,
+        "population_2020" : 1291,
+        "population" : 1240,
+        "square_mileage" : 198.9
+    },
+    "Gordo, Pickens County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Gordo",
+        "state" : "Alabama",
+        "FIPS" : "01-30736",
+        "counties" : [
+            "Pickens County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1750,
+        "population_2020" : 1628,
+        "population" : 1625,
+        "square_mileage" : 500.9
+    },
+    "Gordon, Houston County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Gordon",
+        "state" : "Alabama",
+        "FIPS" : "01-30760",
+        "counties" : [
+            "Houston County"
+        ],
+        "type" : "Town",
+        "population_2010" : 332,
+        "population_2020" : 294,
+        "population" : 284,
+        "square_mileage" : 91.9
+    },
+    "Gordonville, Lowndes County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Gordonville",
+        "state" : "Alabama",
+        "FIPS" : "01-30808",
+        "counties" : [
+            "Lowndes County"
+        ],
+        "type" : "Town",
+        "population_2010" : 326,
+        "population_2020" : 245,
+        "population" : 216,
+        "square_mileage" : 44.2
+    },
+    "Goshen, Pike County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Goshen",
+        "state" : "Alabama",
+        "FIPS" : "01-30880",
+        "counties" : [
+            "Pike County"
+        ],
+        "type" : "Town",
+        "population_2010" : 266,
+        "population_2020" : 269,
+        "population" : 284,
+        "square_mileage" : 105.1
+    },
+    "Grant, Marshall County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Grant",
+        "state" : "Alabama",
+        "FIPS" : "01-31096",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type" : "Town",
+        "population_2010" : 896,
+        "population_2020" : 1039,
+        "population" : 1216,
+        "square_mileage" : 583.7
+    },
+    "Graysville, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Graysville",
+        "state" : "Alabama",
+        "FIPS" : "01-31384",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "City",
+        "population_2010" : 2165,
+        "population_2020" : 1950,
+        "population" : 1907,
+        "square_mileage" : 115.2
+    },
+    "Greensboro, Hale County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Greensboro",
+        "state" : "Alabama",
+        "FIPS" : "01-31720",
+        "counties" : [
+            "Hale County"
+        ],
+        "type" : "City",
+        "population_2010" : 2497,
+        "population_2020" : 2218,
+        "population" : 2150,
+        "square_mileage" : 931.9
+    },
+    "Greenville, Butler County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Greenville",
+        "state" : "Alabama",
+        "FIPS" : "01-31912",
+        "counties" : [
+            "Butler County"
+        ],
+        "type" : "City",
+        "population_2010" : 8135,
+        "population_2020" : 7374,
+        "population" : 7241,
+        "square_mileage" : 345.2
+    },
+    "Grimes, Dale County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Grimes",
+        "state" : "Alabama",
+        "FIPS" : "01-32056",
+        "counties" : [
+            "Dale County"
+        ],
+        "type" : "Town",
+        "population_2010" : 558,
+        "population_2020" : 573,
+        "population" : 612,
+        "square_mileage" : 458.4
+    },
+    "Grove Hill, Clarke County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Grove Hill",
+        "state" : "Alabama",
+        "FIPS" : "01-32080",
+        "counties" : [
+            "Clarke County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1570,
+        "population_2020" : 1818,
+        "population" : 2125,
+        "square_mileage" : 365.8
+    },
+    "Guin, Marion County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Guin",
+        "state" : "Alabama",
+        "FIPS" : "01-32224",
+        "counties" : [
+            "Marion County"
+        ],
+        "type" : "City",
+        "population_2010" : 2376,
+        "population_2020" : 2195,
+        "population" : 2182,
+        "square_mileage" : 146.7
+    },
+    "Gulf Shores, Baldwin County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Gulf Shores",
+        "state" : "Alabama",
+        "FIPS" : "01-32272",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type" : "City",
+        "population_2010" : 9741,
+        "population_2020" : 15014,
+        "population" : 22707,
+        "square_mileage" : 648.3
+    },
+    "Guntersville, Marshall County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Guntersville",
+        "state" : "Alabama",
+        "FIPS" : "01-32416",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type" : "City",
+        "population_2010" : 8197,
+        "population_2020" : 8553,
+        "population" : 9240,
+        "square_mileage" : 336.9
+    },
+    "Gurley, Madison County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Gurley",
+        "state" : "Alabama",
+        "FIPS" : "01-32440",
+        "counties" : [
+            "Madison County"
+        ],
+        "type" : "Town",
+        "population_2010" : 801,
+        "population_2020" : 816,
+        "population" : 867,
+        "square_mileage" : 231.8
+    },
+    "Gu-Win, Marion County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Gu-Win",
+        "state" : "Alabama",
+        "FIPS" : "01-32536",
+        "counties" : [
+            "Marion County",
+            "Fayette County"
+        ],
+        "type" : "Town",
+        "population_2010" : 176,
+        "population_2020" : 141,
+        "population" : 129,
+        "square_mileage" : 72.7
+    },
+    "Hackleburg, Marion County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Hackleburg",
+        "state" : "Alabama",
+        "FIPS" : "01-32560",
+        "counties" : [
+            "Marion County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1516,
+        "population_2020" : 1425,
+        "population" : 1432,
+        "square_mileage" : 93.3
+    },
+    "Haleburg, Henry County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Haleburg",
+        "state" : "Alabama",
+        "FIPS" : "01-32656",
+        "counties" : [
+            "Henry County"
+        ],
+        "type" : "Town",
+        "population_2010" : 103,
+        "population_2020" : 112,
+        "population" : 125,
+        "square_mileage" : 29.2
+    },
+    "Haleyville, Winston County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Haleyville",
+        "state" : "Alabama",
+        "FIPS" : "01-32704",
+        "counties" : [
+            "Winston County",
+            "Marion County"
+        ],
+        "type" : "City",
+        "population_2010" : 4173,
+        "population_2020" : 4361,
+        "population" : 4716,
+        "square_mileage" : 526.1
+    },
+    "Hamilton, Marion County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Hamilton",
+        "state" : "Alabama",
+        "FIPS" : "01-32848",
+        "counties" : [
+            "Marion County"
+        ],
+        "type" : "City",
+        "population_2010" : 6885,
+        "population_2020" : 7042,
+        "population" : 7499,
+        "square_mileage" : 185.0
+    },
+    "Hammondville, DeKalb County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Hammondville",
+        "state" : "Alabama",
+        "FIPS" : "01-32896",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type" : "Town",
+        "population_2010" : 488,
+        "population_2020" : 425,
+        "population" : 407,
+        "square_mileage" : 86.7
+    },
+    "Hanceville, Cullman County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Hanceville",
+        "state" : "Alabama",
+        "FIPS" : "01-32968",
+        "counties" : [
+            "Cullman County"
+        ],
+        "type" : "City",
+        "population_2010" : 2982,
+        "population_2020" : 3217,
+        "population" : 3561,
+        "square_mileage" : 764.1
+    },
+    "Harpersville, Shelby County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Harpersville",
+        "state" : "Alabama",
+        "FIPS" : "01-33256",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1637,
+        "population_2020" : 1614,
+        "population" : 1675,
+        "square_mileage" : 77.9
+    },
+    "Hartford, Geneva County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Hartford",
+        "state" : "Alabama",
+        "FIPS" : "01-33424",
+        "counties" : [
+            "Geneva County"
+        ],
+        "type" : "City",
+        "population_2010" : 2624,
+        "population_2020" : 2651,
+        "population" : 2799,
+        "square_mileage" : 424.8
+    },
+    "Hartselle, Morgan County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Hartselle",
+        "state" : "Alabama",
+        "FIPS" : "01-33448",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type" : "City",
+        "population_2010" : 14255,
+        "population_2020" : 15455,
+        "population" : 17173,
+        "square_mileage" : 950.5
+    },
+    "Hayden, Blount County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Hayden",
+        "state" : "Alabama",
+        "FIPS" : "01-33640",
+        "counties" : [
+            "Blount County"
+        ],
+        "type" : "Town",
+        "population_2010" : 444,
+        "population_2020" : 1342,
+        "population" : 5067,
+        "square_mileage" : 1198.2
+    },
+    "Hayneville, Lowndes County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Hayneville",
+        "state" : "Alabama",
+        "FIPS" : "01-33712",
+        "counties" : [
+            "Lowndes County"
+        ],
+        "type" : "Town",
+        "population_2010" : 932,
+        "population_2020" : 830,
+        "population" : 806,
+        "square_mileage" : 446.2
+    },
+    "Headland, Henry County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Headland",
+        "state" : "Alabama",
+        "FIPS" : "01-33856",
+        "counties" : [
+            "Henry County"
+        ],
+        "type" : "City",
+        "population_2010" : 4510,
+        "population_2020" : 4973,
+        "population" : 5596,
+        "square_mileage" : 164.2
+    },
+    "Heath, Covington County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Heath",
+        "state" : "Alabama",
+        "FIPS" : "01-33904",
+        "counties" : [
+            "Covington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 254,
+        "population_2020" : 236,
+        "population" : 235,
+        "square_mileage" : 265.2
+    },
+    "Heflin, Cleburne County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Heflin",
+        "state" : "Alabama",
+        "FIPS" : "01-33976",
+        "counties" : [
+            "Cleburne County"
+        ],
+        "type" : "City",
+        "population_2010" : 3480,
+        "population_2020" : 3431,
+        "population" : 3561,
+        "square_mileage" : 213.8
+    },
+    "Helena, Shelby County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Helena",
+        "state" : "Alabama",
+        "FIPS" : "01-34024",
+        "counties" : [
+            "Shelby County",
+            "Jefferson County"
+        ],
+        "type" : "City",
+        "population_2010" : 16793,
+        "population_2020" : 20914,
+        "population" : 25948,
+        "square_mileage" : 1027.7
+    },
+    "Henagar, DeKalb County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Henagar",
+        "state" : "Alabama",
+        "FIPS" : "01-34096",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type" : "City",
+        "population_2010" : 2344,
+        "population_2020" : 2292,
+        "population" : 2366,
+        "square_mileage" : 102.9
+    },
+    "Highland Lake, Blount County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Highland Lake",
+        "state" : "Alabama",
+        "FIPS" : "01-34480",
+        "counties" : [
+            "Blount County"
+        ],
+        "type" : "Town",
+        "population_2010" : 412,
+        "population_2020" : 412,
+        "population" : 432,
+        "square_mileage" : 252.8
+    },
+    "Hillsboro, Lawrence County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Hillsboro",
+        "state" : "Alabama",
+        "FIPS" : "01-34816",
+        "counties" : [
+            "Lawrence County"
+        ],
+        "type" : "Town",
+        "population_2010" : 552,
+        "population_2020" : 407,
+        "population" : 355,
+        "square_mileage" : 216.5
+    },
+    "Hobson City, Calhoun County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Hobson City",
+        "state" : "Alabama",
+        "FIPS" : "01-35152",
+        "counties" : [
+            "Calhoun County"
+        ],
+        "type" : "Town",
+        "population_2010" : 771,
+        "population_2020" : 759,
+        "population" : 787,
+        "square_mileage" : 729.8
+    },
+    "Hodges, Franklin County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Hodges",
+        "state" : "Alabama",
+        "FIPS" : "01-35200",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type" : "Town",
+        "population_2010" : 288,
+        "population_2020" : 265,
+        "population" : 263,
+        "square_mileage" : 64.0
+    },
+    "Hokes Bluff, Etowah County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Hokes Bluff",
+        "state" : "Alabama",
+        "FIPS" : "01-35392",
+        "counties" : [
+            "Etowah County"
+        ],
+        "type" : "City",
+        "population_2010" : 4286,
+        "population_2020" : 4446,
+        "population" : 4783,
+        "square_mileage" : 372.4
+    },
+    "Holly Pond, Cullman County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Holly Pond",
+        "state" : "Alabama",
+        "FIPS" : "01-35560",
+        "counties" : [
+            "Cullman County"
+        ],
+        "type" : "Town",
+        "population_2010" : 798,
+        "population_2020" : 851,
+        "population" : 934,
+        "square_mileage" : 191.7
+    },
+    "Hollywood, Jackson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Hollywood",
+        "state" : "Alabama",
+        "FIPS" : "01-35632",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1000,
+        "population_2020" : 914,
+        "population" : 902,
+        "square_mileage" : 102.5
+    },
+    "Homewood, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Homewood",
+        "state" : "Alabama",
+        "FIPS" : "01-35800",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "City",
+        "population_2010" : 25167,
+        "population_2020" : 26414,
+        "population" : 28656,
+        "square_mileage" : 3159.6
+    },
+    "Hoover, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Hoover",
+        "state" : "Alabama",
+        "FIPS" : "01-35896",
+        "counties" : [
+            "Jefferson County",
+            "Shelby County"
+        ],
+        "type" : "City",
+        "population_2010" : 81619,
+        "population_2020" : 92606,
+        "population" : 106530,
+        "square_mileage" : 1963.7
+    },
+    "Horn Hill, Covington County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Horn Hill",
+        "state" : "Alabama",
+        "FIPS" : "01-36088",
+        "counties" : [
+            "Covington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 228,
+        "population_2020" : 207,
+        "population" : 203,
+        "square_mileage" : 80.9
+    },
+    "Hueytown, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Hueytown",
+        "state" : "Alabama",
+        "FIPS" : "01-36448",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "City",
+        "population_2010" : 16105,
+        "population_2020" : 16776,
+        "population" : 18101,
+        "square_mileage" : 862.5
+    },
+    "Huntsville, Madison County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Huntsville",
+        "state" : "Alabama",
+        "FIPS" : "01-37000",
+        "counties" : [
+            "Madison County",
+            "Limestone County",
+            "Morgan County"
+        ],
+        "type" : "Class 3 City",
+        "population_2010" : 180105,
+        "population_2020" : 215006,
+        "population" : 257550,
+        "square_mileage" : 1028.5
+    },
+    "Hurtsboro, Russell County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Hurtsboro",
+        "state" : "Alabama",
+        "FIPS" : "01-37096",
+        "counties" : [
+            "Russell County"
+        ],
+        "type" : "Town",
+        "population_2010" : 553,
+        "population_2020" : 349,
+        "population" : 282,
+        "square_mileage" : 338.8
+    },
+    "Hytop, Jackson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Hytop",
+        "state" : "Alabama",
+        "FIPS" : "01-37264",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type" : "Town",
+        "population_2010" : 354,
+        "population_2020" : 441,
+        "population" : 547,
+        "square_mileage" : 194.3
+    },
+    "Ider, DeKalb County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Ider",
+        "state" : "Alabama",
+        "FIPS" : "01-37312",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type" : "Town",
+        "population_2010" : 723,
+        "population_2020" : 735,
+        "population" : 779,
+        "square_mileage" : 135.1
+    },
+    "Indian Springs Village, Shelby County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Indian Springs Village",
+        "state" : "Alabama",
+        "FIPS" : "01-37465",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type" : "Town",
+        "population_2010" : 2363,
+        "population_2020" : 2481,
+        "population" : 2692,
+        "square_mileage" : 652.9
+    },
+    "Irondale, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Irondale",
+        "state" : "Alabama",
+        "FIPS" : "01-37864",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "City",
+        "population_2010" : 12349,
+        "population_2020" : 13497,
+        "population" : 15088,
+        "square_mileage" : 779.7
+    },
+    "Jackson, Clarke County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Jackson",
+        "state" : "Alabama",
+        "FIPS" : "01-38152",
+        "counties" : [
+            "Clarke County"
+        ],
+        "type" : "City",
+        "population_2010" : 5228,
+        "population_2020" : 4748,
+        "population" : 4668,
+        "square_mileage" : 303.6
+    },
+    "Jackson's Gap, Tallapoosa County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Jackson's Gap",
+        "state" : "Alabama",
+        "FIPS" : "01-38248",
+        "counties" : [
+            "Tallapoosa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 829,
+        "population_2020" : 747,
+        "population" : 731,
+        "square_mileage" : 87.7
+    },
+    "Jacksonville, Calhoun County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Jacksonville",
+        "state" : "Alabama",
+        "FIPS" : "01-38272",
+        "counties" : [
+            "Calhoun County"
+        ],
+        "type" : "City",
+        "population_2010" : 12548,
+        "population_2020" : 14385,
+        "population" : 16682,
+        "square_mileage" : 1461.9
+    },
+    "Jasper, Walker County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Jasper",
+        "state" : "Alabama",
+        "FIPS" : "01-38416",
+        "counties" : [
+            "Walker County"
+        ],
+        "type" : "City",
+        "population_2010" : 13857,
+        "population_2020" : 14572,
+        "population" : 15831,
+        "square_mileage" : 512.0
+    },
+    "Jemison, Chilton County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Jemison",
+        "state" : "Alabama",
+        "FIPS" : "01-38608",
+        "counties" : [
+            "Chilton County"
+        ],
+        "type" : "City",
+        "population_2010" : 2585,
+        "population_2020" : 2642,
+        "population" : 2812,
+        "square_mileage" : 236.1
+    },
+    "Kansas, Walker County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Kansas",
+        "state" : "Alabama",
+        "FIPS" : "01-39280",
+        "counties" : [
+            "Walker County"
+        ],
+        "type" : "Town",
+        "population_2010" : 226,
+        "population_2020" : 180,
+        "population" : 164,
+        "square_mileage" : 176.5
+    },
+    "Kellyton, Coosa County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Kellyton",
+        "state" : "Alabama",
+        "FIPS" : "01-39472",
+        "counties" : [
+            "Coosa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 217,
+        "population_2020" : 129,
+        "population" : 101,
+        "square_mileage" : 134.4
+    },
+    "Kennedy, Lamar County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Kennedy",
+        "state" : "Alabama",
+        "FIPS" : "01-39520",
+        "counties" : [
+            "Lamar County"
+        ],
+        "type" : "Town",
+        "population_2010" : 447,
+        "population_2020" : 435,
+        "population" : 448,
+        "square_mileage" : 141.7
+    },
+    "Killen, Lauderdale County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Killen",
+        "state" : "Alabama",
+        "FIPS" : "01-39784",
+        "counties" : [
+            "Lauderdale County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1108,
+        "population_2020" : 1034,
+        "population" : 1035,
+        "square_mileage" : 524.9
+    },
+    "Kimberly, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Kimberly",
+        "state" : "Alabama",
+        "FIPS" : "01-39856",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "City",
+        "population_2010" : 2711,
+        "population_2020" : 3841,
+        "population" : 5348,
+        "square_mileage" : 656.6
+    },
+    "Kinsey, Houston County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Kinsey",
+        "state" : "Alabama",
+        "FIPS" : "01-40072",
+        "counties" : [
+            "Houston County"
+        ],
+        "type" : "Town",
+        "population_2010" : 2198,
+        "population_2020" : 2203,
+        "population" : 2313,
+        "square_mileage" : 182.1
+    },
+    "Kinston, Coffee County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Kinston",
+        "state" : "Alabama",
+        "FIPS" : "01-40096",
+        "counties" : [
+            "Coffee County"
+        ],
+        "type" : "Town",
+        "population_2010" : 540,
+        "population_2020" : 580,
+        "population" : 640,
+        "square_mileage" : 118.6
+    },
+    "LaFayette, Chambers County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "LaFayette",
+        "state" : "Alabama",
+        "FIPS" : "01-40672",
+        "counties" : [
+            "Chambers County"
+        ],
+        "type" : "City",
+        "population_2010" : 3003,
+        "population_2020" : 2684,
+        "population" : 2612,
+        "square_mileage" : 302.9
+    },
+    "Lake View, Tuscaloosa County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Lake View",
+        "state" : "Alabama",
+        "FIPS" : "01-40928",
+        "counties" : [
+            "Tuscaloosa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1943,
+        "population_2020" : 3560,
+        "population" : 6507,
+        "square_mileage" : 2225.0
+    },
+    "Lakeview, DeKalb County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Lakeview",
+        "state" : "Alabama",
+        "FIPS" : "01-40888",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type" : "Town",
+        "population_2010" : 143,
+        "population_2020" : 161,
+        "population" : 184,
+        "square_mileage" : 255.6
+    },
+    "Lanett, Chambers County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Lanett",
+        "state" : "Alabama",
+        "FIPS" : "01-41296",
+        "counties" : [
+            "Chambers County"
+        ],
+        "type" : "City",
+        "population_2010" : 6468,
+        "population_2020" : 6970,
+        "population" : 7710,
+        "square_mileage" : 1120.6
+    },
+    "Langston, Jackson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Langston",
+        "state" : "Alabama",
+        "FIPS" : "01-41368",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type" : "Town",
+        "population_2010" : 270,
+        "population_2020" : 265,
+        "population" : 274,
+        "square_mileage" : 53.8
+    },
+    "Leeds, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Leeds",
+        "state" : "Alabama",
+        "FIPS" : "01-41968",
+        "counties" : [
+            "Jefferson County",
+            "St. Clair County",
+            "Shelby County"
+        ],
+        "type" : "City",
+        "population_2010" : 11773,
+        "population_2020" : 12324,
+        "population" : 13345,
+        "square_mileage" : 539.1
+    },
+    "Leesburg, Cherokee County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Leesburg",
+        "state" : "Alabama",
+        "FIPS" : "01-42016",
+        "counties" : [
+            "Cherokee County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1027,
+        "population_2020" : 911,
+        "population" : 882,
+        "square_mileage" : 141.9
+    },
+    "Leighton, Colbert County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Leighton",
+        "state" : "Alabama",
+        "FIPS" : "01-42160",
+        "counties" : [
+            "Colbert County"
+        ],
+        "type" : "Town",
+        "population_2010" : 729,
+        "population_2020" : 665,
+        "population" : 656,
+        "square_mileage" : 671.7
+    },
+    "Lester, Limestone County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Lester",
+        "state" : "Alabama",
+        "FIPS" : "01-42352",
+        "counties" : [
+            "Limestone County"
+        ],
+        "type" : "Town",
+        "population_2010" : 111,
+        "population_2020" : 111,
+        "population" : 116,
+        "square_mileage" : 60.7
+    },
+    "Level Plains, Dale County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Level Plains",
+        "state" : "Alabama",
+        "FIPS" : "01-42472",
+        "counties" : [
+            "Dale County"
+        ],
+        "type" : "City",
+        "population_2010" : 2085,
+        "population_2020" : 1825,
+        "population" : 1753,
+        "square_mileage" : 596.4
+    },
+    "Lexington, Lauderdale County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Lexington",
+        "state" : "Alabama",
+        "FIPS" : "01-42640",
+        "counties" : [
+            "Lauderdale County"
+        ],
+        "type" : "Town",
+        "population_2010" : 735,
+        "population_2020" : 727,
+        "population" : 756,
+        "square_mileage" : 224.4
+    },
+    "Libertyville, Covington County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Libertyville",
+        "state" : "Alabama",
+        "FIPS" : "01-42808",
+        "counties" : [
+            "Covington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 117,
+        "population_2020" : 108,
+        "population" : 107,
+        "square_mileage" : 207.7
+    },
+    "Lincoln, Talladega County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Lincoln",
+        "state" : "Alabama",
+        "FIPS" : "01-43120",
+        "counties" : [
+            "Talladega County"
+        ],
+        "type" : "City",
+        "population_2010" : 6266,
+        "population_2020" : 6845,
+        "population" : 7649,
+        "square_mileage" : 272.7
+    },
+    "Linden, Marengo County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Linden",
+        "state" : "Alabama",
+        "FIPS" : "01-43240",
+        "counties" : [
+            "Marengo County"
+        ],
+        "type" : "City",
+        "population_2010" : 2123,
+        "population_2020" : 1930,
+        "population" : 1899,
+        "square_mileage" : 539.1
+    },
+    "Lineville, Clay County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Lineville",
+        "state" : "Alabama",
+        "FIPS" : "01-43264",
+        "counties" : [
+            "Clay County"
+        ],
+        "type" : "City",
+        "population_2010" : 2395,
+        "population_2020" : 2489,
+        "population" : 2681,
+        "square_mileage" : 278.4
+    },
+    "Lipscomb, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Lipscomb",
+        "state" : "Alabama",
+        "FIPS" : "01-43336",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "City",
+        "population_2010" : 2210,
+        "population_2020" : 2086,
+        "population" : 2103,
+        "square_mileage" : 1782.9
+    },
+    "Lisman, Choctaw County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Lisman",
+        "state" : "Alabama",
+        "FIPS" : "01-43384",
+        "counties" : [
+            "Choctaw County"
+        ],
+        "type" : "Town",
+        "population_2010" : 539,
+        "population_2020" : 427,
+        "population" : 387,
+        "square_mileage" : 164.9
+    },
+    "Littleville, Colbert County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Littleville",
+        "state" : "Alabama",
+        "FIPS" : "01-43648",
+        "counties" : [
+            "Colbert County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1011,
+        "population_2020" : 1038,
+        "population" : 1108,
+        "square_mileage" : 208.9
+    },
+    "Livingston, Sumter County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Livingston",
+        "state" : "Alabama",
+        "FIPS" : "01-43720",
+        "counties" : [
+            "Sumter County"
+        ],
+        "type" : "City",
+        "population_2010" : 3485,
+        "population_2020" : 3436,
+        "population" : 3567,
+        "square_mileage" : 481.9
+    },
+    "Loachapoka, Lee County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Loachapoka",
+        "state" : "Alabama",
+        "FIPS" : "01-43744",
+        "counties" : [
+            "Lee County"
+        ],
+        "type" : "Town",
+        "population_2010" : 180,
+        "population_2020" : 160,
+        "population" : 155,
+        "square_mileage" : 140.4
+    },
+    "Lockhart, Covington County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Lockhart",
+        "state" : "Alabama",
+        "FIPS" : "01-43816",
+        "counties" : [
+            "Covington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 516,
+        "population_2020" : 445,
+        "population" : 424,
+        "square_mileage" : 408.3
+    },
+    "Locust Fork, Blount County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Locust Fork",
+        "state" : "Alabama",
+        "FIPS" : "01-43888",
+        "counties" : [
+            "Blount County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1186,
+        "population_2020" : 1192,
+        "population" : 1254,
+        "square_mileage" : 309.6
+    },
+    "Louisville, Barbour County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Louisville",
+        "state" : "Alabama",
+        "FIPS" : "01-44344",
+        "counties" : [
+            "Barbour County"
+        ],
+        "type" : "Town",
+        "population_2010" : 519,
+        "population_2020" : 395,
+        "population" : 350,
+        "square_mileage" : 143.6
+    },
+    "Lowndesboro, Lowndes County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Lowndesboro",
+        "state" : "Alabama",
+        "FIPS" : "01-44536",
+        "counties" : [
+            "Lowndes County"
+        ],
+        "type" : "Town",
+        "population_2010" : 115,
+        "population_2020" : 89,
+        "population" : 80,
+        "square_mileage" : 112.7
+    },
+    "Loxley, Baldwin County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Loxley",
+        "state" : "Alabama",
+        "FIPS" : "01-44608",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type" : "City",
+        "population_2010" : 1632,
+        "population_2020" : 3710,
+        "population" : 8951,
+        "square_mileage" : 116.5
+    },
+    "Luverne, Crenshaw County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Luverne",
+        "state" : "Alabama",
+        "FIPS" : "01-44728",
+        "counties" : [
+            "Crenshaw County"
+        ],
+        "type" : "City",
+        "population_2010" : 2800,
+        "population_2020" : 2765,
+        "population" : 2873,
+        "square_mileage" : 176.7
+    },
+    "Lynn, Winston County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Lynn",
+        "state" : "Alabama",
+        "FIPS" : "01-44800",
+        "counties" : [
+            "Winston County"
+        ],
+        "type" : "Town",
+        "population_2010" : 659,
+        "population_2020" : 610,
+        "population" : 607,
+        "square_mileage" : 57.3
+    },
+    "Madison, Madison County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Madison",
+        "state" : "Alabama",
+        "FIPS" : "01-45784",
+        "counties" : [
+            "Madison County",
+            "Limestone County"
+        ],
+        "type" : "City",
+        "population_2010" : 42938,
+        "population_2020" : 56933,
+        "population" : 74590,
+        "square_mileage" : 1924.1
+    },
+    "Madrid, Houston County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Madrid",
+        "state" : "Alabama",
+        "FIPS" : "01-45904",
+        "counties" : [
+            "Houston County"
+        ],
+        "type" : "Town",
+        "population_2010" : 350,
+        "population_2020" : 265,
+        "population" : 234,
+        "square_mileage" : 136.6
+    },
+    "Magnolia Springs, Baldwin County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Magnolia Springs",
+        "state" : "Alabama",
+        "FIPS" : "01-46072",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type" : "Town",
+        "population_2010" : 723,
+        "population_2020" : 811,
+        "population" : 925,
+        "square_mileage" : 901.1
+    },
+    "Malvern, Geneva County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Malvern",
+        "state" : "Alabama",
+        "FIPS" : "01-46264",
+        "counties" : [
+            "Geneva County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1448,
+        "population_2020" : 1536,
+        "population" : 1679,
+        "square_mileage" : 109.6
+    },
+    "Maplesville, Chilton County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Maplesville",
+        "state" : "Alabama",
+        "FIPS" : "01-46504",
+        "counties" : [
+            "Chilton County"
+        ],
+        "type" : "Town",
+        "population_2010" : 708,
+        "population_2020" : 637,
+        "population" : 623,
+        "square_mileage" : 194.8
+    },
+    "Margaret, St. Clair County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Margaret",
+        "state" : "Alabama",
+        "FIPS" : "01-46696",
+        "counties" : [
+            "St. Clair County"
+        ],
+        "type" : "City",
+        "population_2010" : 4428,
+        "population_2020" : 5106,
+        "population" : 5949,
+        "square_mileage" : 520.0
+    },
+    "Marion, Perry County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Marion",
+        "state" : "Alabama",
+        "FIPS" : "01-46768",
+        "counties" : [
+            "Perry County"
+        ],
+        "type" : "City",
+        "population_2010" : 3686,
+        "population_2020" : 3176,
+        "population" : 3022,
+        "square_mileage" : 300.5
+    },
+    "Maytown, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Maytown",
+        "state" : "Alabama",
+        "FIPS" : "01-47728",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "Town",
+        "population_2010" : 385,
+        "population_2020" : 316,
+        "population" : 292,
+        "square_mileage" : 117.9
+    },
+    "McIntosh, Washington County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "McIntosh",
+        "state" : "Alabama",
+        "FIPS" : "01-45472",
+        "counties" : [
+            "Washington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 238,
+        "population_2020" : 206,
+        "population" : 197,
+        "square_mileage" : 206.0
+    },
+    "McKenzie, Butler County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "McKenzie",
+        "state" : "Alabama",
+        "FIPS" : "01-45496",
+        "counties" : [
+            "Butler County",
+            "Conecuh County"
+        ],
+        "type" : "Town",
+        "population_2010" : 530,
+        "population_2020" : 507,
+        "population" : 516,
+        "square_mileage" : 136.3
+    },
+    "McMullen, Pickens County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "McMullen",
+        "state" : "Alabama",
+        "FIPS" : "01-45640",
+        "counties" : [
+            "Pickens County"
+        ],
+        "type" : "Town",
+        "population_2010" : 10,
+        "population_2020" : 32,
+        "population" : 134,
+        "square_mileage" : 290.9
+    },
+    "Memphis, Pickens County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Memphis",
+        "state" : "Alabama",
+        "FIPS" : "01-48052",
+        "counties" : [
+            "Pickens County"
+        ],
+        "type" : "Town",
+        "population_2010" : 29,
+        "population_2020" : 29,
+        "population" : 30,
+        "square_mileage" : 74.4
+    },
+    "Mentone, DeKalb County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Mentone",
+        "state" : "Alabama",
+        "FIPS" : "01-48064",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type" : "Town",
+        "population_2010" : 360,
+        "population_2020" : 319,
+        "population" : 309,
+        "square_mileage" : 68.3
+    },
+    "Midfield, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Midfield",
+        "state" : "Alabama",
+        "FIPS" : "01-48376",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "City",
+        "population_2010" : 5365,
+        "population_2020" : 5211,
+        "population" : 5354,
+        "square_mileage" : 1966.4
+    },
+    "Midland City, Dale County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Midland City",
+        "state" : "Alabama",
+        "FIPS" : "01-48400",
+        "counties" : [
+            "Dale County"
+        ],
+        "type" : "Town",
+        "population_2010" : 2344,
+        "population_2020" : 2239,
+        "population" : 2275,
+        "square_mileage" : 368.3
+    },
+    "Midway, Bullock County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Midway",
+        "state" : "Alabama",
+        "FIPS" : "01-48424",
+        "counties" : [
+            "Bullock County"
+        ],
+        "type" : "Town",
+        "population_2010" : 499,
+        "population_2020" : 421,
+        "population" : 396,
+        "square_mileage" : 127.2
+    },
+    "Millbrook, Elmore County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Millbrook",
+        "state" : "Alabama",
+        "FIPS" : "01-48712",
+        "counties" : [
+            "Elmore County",
+            "Autauga County"
+        ],
+        "type" : "City",
+        "population_2010" : 14640,
+        "population_2020" : 16564,
+        "population" : 19013,
+        "square_mileage" : 1293.1
+    },
+    "Millport, Lamar County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Millport",
+        "state" : "Alabama",
+        "FIPS" : "01-48808",
+        "counties" : [
+            "Lamar County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1049,
+        "population_2020" : 1010,
+        "population" : 1032,
+        "square_mileage" : 184.0
+    },
+    "Millry, Washington County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Millry",
+        "state" : "Alabama",
+        "FIPS" : "01-48832",
+        "counties" : [
+            "Washington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 546,
+        "population_2020" : 450,
+        "population" : 417,
+        "square_mileage" : 60.1
+    },
+    "Mobile, Mobile County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Mobile",
+        "state" : "Alabama",
+        "FIPS" : "01-50000",
+        "counties" : [
+            "Mobile County"
+        ],
+        "type" : "Class 2 City",
+        "population_2010" : 195111,
+        "population_2020" : 187041,
+        "population" : 190490,
+        "square_mileage" : 1586.4
+    },
+    "Monroeville, Monroe County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Monroeville",
+        "state" : "Alabama",
+        "FIPS" : "01-50192",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type" : "City",
+        "population_2010" : 6519,
+        "population_2020" : 5951,
+        "population" : 5870,
+        "square_mileage" : 445.1
+    },
+    "Montevallo, Shelby County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Montevallo",
+        "state" : "Alabama",
+        "FIPS" : "01-50312",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type" : "City",
+        "population_2010" : 6323,
+        "population_2020" : 7229,
+        "population" : 8366,
+        "square_mileage" : 574.2
+    },
+    "Montgomery, Montgomery County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Montgomery",
+        "state" : "Alabama",
+        "FIPS" : "01-51000",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type" : "Class 3 City",
+        "population_2010" : 205764,
+        "population_2020" : 200603,
+        "population" : 206636,
+        "square_mileage" : 1257.1
+    },
+    "Moody, St. Clair County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Moody",
+        "state" : "Alabama",
+        "FIPS" : "01-51096",
+        "counties" : [
+            "St. Clair County"
+        ],
+        "type" : "City",
+        "population_2010" : 11726,
+        "population_2020" : 13170,
+        "population" : 15031,
+        "square_mileage" : 539.8
+    },
+    "Mooresville, Limestone County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Mooresville",
+        "state" : "Alabama",
+        "FIPS" : "01-51264",
+        "counties" : [
+            "Limestone County"
+        ],
+        "type" : "Town",
+        "population_2010" : 53,
+        "population_2020" : 47,
+        "population" : 46,
+        "square_mileage" : 391.7
+    },
+    "Morris, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Morris",
+        "state" : "Alabama",
+        "FIPS" : "01-51456",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1859,
+        "population_2020" : 2259,
+        "population" : 2746,
+        "square_mileage" : 745.5
+    },
+    "Mosses, Lowndes County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Mosses",
+        "state" : "Alabama",
+        "FIPS" : "01-51520",
+        "counties" : [
+            "Lowndes County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1029,
+        "population_2020" : 834,
+        "population" : 765,
+        "square_mileage" : 175.9
+    },
+    "Moulton, Lawrence County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Moulton",
+        "state" : "Alabama",
+        "FIPS" : "01-51600",
+        "counties" : [
+            "Lawrence County"
+        ],
+        "type" : "City",
+        "population_2010" : 3471,
+        "population_2020" : 3398,
+        "population" : 3510,
+        "square_mileage" : 567.3
+    },
+    "Moundville, Hale County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Moundville",
+        "state" : "Alabama",
+        "FIPS" : "01-51648",
+        "counties" : [
+            "Hale County",
+            "Tuscaloosa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 2427,
+        "population_2020" : 3024,
+        "population" : 3753,
+        "square_mileage" : 658.8
+    },
+    "Mount Vernon, Mobile County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Mount Vernon",
+        "state" : "Alabama",
+        "FIPS" : "01-52608",
+        "counties" : [
+            "Mobile County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1574,
+        "population_2020" : 1354,
+        "population" : 1287,
+        "square_mileage" : 259.4
+    },
+    "Mountain Brook, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Mountain Brook",
+        "state" : "Alabama",
+        "FIPS" : "01-51696",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "City",
+        "population_2010" : 20413,
+        "population_2020" : 22461,
+        "population" : 25236,
+        "square_mileage" : 1756.1
+    },
+    "Mulga, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Mulga",
+        "state" : "Alabama",
+        "FIPS" : "01-52776",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "Town",
+        "population_2010" : 836,
+        "population_2020" : 784,
+        "population" : 787,
+        "square_mileage" : 1264.5
+    },
+    "Munford, Talladega County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Munford",
+        "state" : "Alabama",
+        "FIPS" : "01-52848",
+        "counties" : [
+            "Talladega County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1292,
+        "population_2020" : 1351,
+        "population" : 1462,
+        "square_mileage" : 611.3
+    },
+    "Muscle Shoals, Colbert County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Muscle Shoals",
+        "state" : "Alabama",
+        "FIPS" : "01-53016",
+        "counties" : [
+            "Colbert County"
+        ],
+        "type" : "City",
+        "population_2010" : 13146,
+        "population_2020" : 16275,
+        "population" : 20091,
+        "square_mileage" : 1048.0
+    },
+    "Myrtlewood, Marengo County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Myrtlewood",
+        "state" : "Alabama",
+        "FIPS" : "01-53112",
+        "counties" : [
+            "Marengo County"
+        ],
+        "type" : "Town",
+        "population_2010" : 130,
+        "population_2020" : 70,
+        "population" : 53,
+        "square_mileage" : 27.0
+    },
+    "Napier Field, Dale County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Napier Field",
+        "state" : "Alabama",
+        "FIPS" : "01-53256",
+        "counties" : [
+            "Dale County"
+        ],
+        "type" : "Town",
+        "population_2010" : 354,
+        "population_2020" : 409,
+        "population" : 477,
+        "square_mileage" : 1573.1
+    },
+    "Natural Bridge, Winston County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Natural Bridge",
+        "state" : "Alabama",
+        "FIPS" : "01-53376",
+        "counties" : [
+            "Winston County"
+        ],
+        "type" : "Town",
+        "population_2010" : 37,
+        "population_2020" : 32,
+        "population" : 31,
+        "square_mileage" : 74.4
+    },
+    "Nauvoo, Walker County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Nauvoo",
+        "state" : "Alabama",
+        "FIPS" : "01-53400",
+        "counties" : [
+            "Walker County",
+            "Winston County"
+        ],
+        "type" : "Town",
+        "population_2010" : 221,
+        "population_2020" : 185,
+        "population" : 173,
+        "square_mileage" : 186.9
+    },
+    "Nectar, Blount County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Nectar",
+        "state" : "Alabama",
+        "FIPS" : "01-53448",
+        "counties" : [
+            "Blount County"
+        ],
+        "type" : "Town",
+        "population_2010" : 345,
+        "population_2020" : 379,
+        "population" : 425,
+        "square_mileage" : 209.4
+    },
+    "Needham, Choctaw County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Needham",
+        "state" : "Alabama",
+        "FIPS" : "01-53472",
+        "counties" : [
+            "Choctaw County"
+        ],
+        "type" : "Town",
+        "population_2010" : 94,
+        "population_2020" : 73,
+        "population" : 65,
+        "square_mileage" : 128.1
+    },
+    "New Brockton, Coffee County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "New Brockton",
+        "state" : "Alabama",
+        "FIPS" : "01-53856",
+        "counties" : [
+            "Coffee County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1146,
+        "population_2020" : 1428,
+        "population" : 1773,
+        "square_mileage" : 178.7
+    },
+    "New Hope, Madison County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "New Hope",
+        "state" : "Alabama",
+        "FIPS" : "01-54168",
+        "counties" : [
+            "Madison County"
+        ],
+        "type" : "City",
+        "population_2010" : 2810,
+        "population_2020" : 2889,
+        "population" : 3088,
+        "square_mileage" : 333.6
+    },
+    "New Site, Tallapoosa County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "New Site",
+        "state" : "Alabama",
+        "FIPS" : "01-54432",
+        "counties" : [
+            "Tallapoosa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 773,
+        "population_2020" : 773,
+        "population" : 810,
+        "square_mileage" : 78.3
+    },
+    "Newbern, Hale County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Newbern",
+        "state" : "Alabama",
+        "FIPS" : "01-53784",
+        "counties" : [
+            "Hale County"
+        ],
+        "type" : "Town",
+        "population_2010" : 186,
+        "population_2020" : 133,
+        "population" : 114,
+        "square_mileage" : 114.7
+    },
+    "Newton, Dale County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Newton",
+        "state" : "Alabama",
+        "FIPS" : "01-54480",
+        "counties" : [
+            "Dale County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1511,
+        "population_2020" : 1607,
+        "population" : 1760,
+        "square_mileage" : 112.8
+    },
+    "Newville, Henry County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Newville",
+        "state" : "Alabama",
+        "FIPS" : "01-54600",
+        "counties" : [
+            "Henry County"
+        ],
+        "type" : "Town",
+        "population_2010" : 539,
+        "population_2020" : 544,
+        "population" : 574,
+        "square_mileage" : 135.3
+    },
+    "North Courtland, Lawrence County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "North Courtland",
+        "state" : "Alabama",
+        "FIPS" : "01-55044",
+        "counties" : [
+            "Lawrence County"
+        ],
+        "type" : "Town",
+        "population_2010" : 632,
+        "population_2020" : 483,
+        "population" : 429,
+        "square_mileage" : 743.1
+    },
+    "North Johns, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "North Johns",
+        "state" : "Alabama",
+        "FIPS" : "01-55152",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "Town",
+        "population_2010" : 145,
+        "population_2020" : 127,
+        "population" : 122,
+        "square_mileage" : 635.0
+    },
+    "Northport, Tuscaloosa County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Northport",
+        "state" : "Alabama",
+        "FIPS" : "01-55200",
+        "counties" : [
+            "Tuscaloosa County"
+        ],
+        "type" : "City",
+        "population_2010" : 23330,
+        "population_2020" : 31125,
+        "population" : 41003,
+        "square_mileage" : 1858.2
+    },
+    "Notasulga, Macon County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Notasulga",
+        "state" : "Alabama",
+        "FIPS" : "01-55440",
+        "counties" : [
+            "Macon County",
+            "Lee County"
+        ],
+        "type" : "Town",
+        "population_2010" : 965,
+        "population_2020" : 914,
+        "population" : 923,
+        "square_mileage" : 66.2
+    },
+    "Oak Grove, Talladega County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Oak Grove",
+        "state" : "Alabama",
+        "FIPS" : "01-55752",
+        "counties" : [
+            "Talladega County"
+        ],
+        "type" : "Town",
+        "population_2010" : 528,
+        "population_2020" : 564,
+        "population" : 620,
+        "square_mileage" : 316.9
+    },
+    "Oak Hill, Wilcox County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Oak Hill",
+        "state" : "Alabama",
+        "FIPS" : "01-55848",
+        "counties" : [
+            "Wilcox County"
+        ],
+        "type" : "Town",
+        "population_2010" : 26,
+        "population_2020" : 14,
+        "population" : 11,
+        "square_mileage" : 25.0
+    },
+    "Oakman, Walker County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Oakman",
+        "state" : "Alabama",
+        "FIPS" : "01-55992",
+        "counties" : [
+            "Walker County"
+        ],
+        "type" : "Town",
+        "population_2010" : 789,
+        "population_2020" : 771,
+        "population" : 795,
+        "square_mileage" : 250.3
+    },
+    "Odenville, St. Clair County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Odenville",
+        "state" : "Alabama",
+        "FIPS" : "01-56400",
+        "counties" : [
+            "St. Clair County"
+        ],
+        "type" : "Town",
+        "population_2010" : 3585,
+        "population_2020" : 4969,
+        "population" : 6778,
+        "square_mileage" : 366.4
+    },
+    "Ohatchee, Calhoun County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Ohatchee",
+        "state" : "Alabama",
+        "FIPS" : "01-56472",
+        "counties" : [
+            "Calhoun County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1170,
+        "population_2020" : 1157,
+        "population" : 1203,
+        "square_mileage" : 196.1
+    },
+    "Oneonta, Blount County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Oneonta",
+        "state" : "Alabama",
+        "FIPS" : "01-57000",
+        "counties" : [
+            "Blount County"
+        ],
+        "type" : "City",
+        "population_2010" : 6567,
+        "population_2020" : 6938,
+        "population" : 7563,
+        "square_mileage" : 457.4
+    },
+    "Onycha, Covington County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Onycha",
+        "state" : "Alabama",
+        "FIPS" : "01-57024",
+        "counties" : [
+            "Covington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 184,
+        "population_2020" : 167,
+        "population" : 164,
+        "square_mileage" : 211.4
+    },
+    "Opelika, Lee County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Opelika",
+        "state" : "Alabama",
+        "FIPS" : "01-57048",
+        "counties" : [
+            "Lee County"
+        ],
+        "type" : "City",
+        "population_2010" : 26477,
+        "population_2020" : 30995,
+        "population" : 36546,
+        "square_mileage" : 520.1
+    },
+    "Opp, Covington County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Opp",
+        "state" : "Alabama",
+        "FIPS" : "01-57120",
+        "counties" : [
+            "Covington County"
+        ],
+        "type" : "City",
+        "population_2010" : 6659,
+        "population_2020" : 6771,
+        "population" : 7181,
+        "square_mileage" : 286.2
+    },
+    "Orange Beach, Baldwin County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Orange Beach",
+        "state" : "Alabama",
+        "FIPS" : "01-57144",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type" : "City",
+        "population_2010" : 5441,
+        "population_2020" : 8095,
+        "population" : 11817,
+        "square_mileage" : 550.7
+    },
+    "Orrville, Dallas County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Orrville",
+        "state" : "Alabama",
+        "FIPS" : "01-57240",
+        "counties" : [
+            "Dallas County"
+        ],
+        "type" : "Town",
+        "population_2010" : 204,
+        "population_2020" : 150,
+        "population" : 130,
+        "square_mileage" : 144.2
+    },
+    "Owens Cross Roads, Madison County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Owens Cross Roads",
+        "state" : "Alabama",
+        "FIPS" : "01-57504",
+        "counties" : [
+            "Madison County"
+        ],
+        "type" : "City",
+        "population_2010" : 1521,
+        "population_2020" : 2594,
+        "population" : 4368,
+        "square_mileage" : 312.5
+    },
+    "Oxford, Calhoun County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Oxford",
+        "state" : "Alabama",
+        "FIPS" : "01-57576",
+        "counties" : [
+            "Calhoun County",
+            "Talladega County"
+        ],
+        "type" : "City",
+        "population_2010" : 21348,
+        "population_2020" : 22069,
+        "population" : 23682,
+        "square_mileage" : 719.6
+    },
+    "Ozark, Dale County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Ozark",
+        "state" : "Alabama",
+        "FIPS" : "01-57648",
+        "counties" : [
+            "Dale County"
+        ],
+        "type" : "City",
+        "population_2010" : 14907,
+        "population_2020" : 14368,
+        "population" : 14686,
+        "square_mileage" : 421.5
+    },
+    "Paint Rock, Jackson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Paint Rock",
+        "state" : "Alabama",
+        "FIPS" : "01-57696",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type" : "Town",
+        "population_2010" : 210,
+        "population_2020" : 182,
+        "population" : 174,
+        "square_mileage" : 423.3
+    },
+    "Parrish, Walker County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Parrish",
+        "state" : "Alabama",
+        "FIPS" : "01-58272",
+        "counties" : [
+            "Walker County"
+        ],
+        "type" : "Town",
+        "population_2010" : 982,
+        "population_2020" : 982,
+        "population" : 1029,
+        "square_mileage" : 469.9
+    },
+    "Pelham, Shelby County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Pelham",
+        "state" : "Alabama",
+        "FIPS" : "01-58848",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type" : "City",
+        "population_2010" : 21352,
+        "population_2020" : 24318,
+        "population" : 28057,
+        "square_mileage" : 623.2
+    },
+    "Pell City, St. Clair County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Pell City",
+        "state" : "Alabama",
+        "FIPS" : "01-58896",
+        "counties" : [
+            "St. Clair County"
+        ],
+        "type" : "City",
+        "population_2010" : 12695,
+        "population_2020" : 12939,
+        "population" : 13745,
+        "square_mileage" : 522.8
+    },
+    "Pennington, Choctaw County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Pennington",
+        "state" : "Alabama",
+        "FIPS" : "01-58968",
+        "counties" : [
+            "Choctaw County"
+        ],
+        "type" : "Town",
+        "population_2010" : 221,
+        "population_2020" : 329,
+        "population" : 481,
+        "square_mileage" : 167.9
+    },
+    "Perdido Beach, Baldwin County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Perdido Beach",
+        "state" : "Alabama",
+        "FIPS" : "01-59088",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type" : "Town",
+        "population_2010" : 581,
+        "population_2020" : 555,
+        "population" : 564,
+        "square_mileage" : 447.6
+    },
+    "Petrey, Crenshaw County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Petrey",
+        "state" : "Alabama",
+        "FIPS" : "01-59328",
+        "counties" : [
+            "Crenshaw County"
+        ],
+        "type" : "Town",
+        "population_2010" : 58,
+        "population_2020" : 67,
+        "population" : 78,
+        "square_mileage" : 91.8
+    },
+    "Phenix City, Russell County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Phenix City",
+        "state" : "Alabama",
+        "FIPS" : "01-59472",
+        "counties" : [
+            "Russell County",
+            "Lee County"
+        ],
+        "type" : "City",
+        "population_2010" : 32822,
+        "population_2020" : 38816,
+        "population" : 46144,
+        "square_mileage" : 1398.8
+    },
+    "Phil Campbell, Franklin County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Phil Campbell",
+        "state" : "Alabama",
+        "FIPS" : "01-59496",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1148,
+        "population_2020" : 992,
+        "population" : 945,
+        "square_mileage" : 243.7
+    },
+    "Pickensville, Pickens County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Pickensville",
+        "state" : "Alabama",
+        "FIPS" : "01-59592",
+        "counties" : [
+            "Pickens County"
+        ],
+        "type" : "Town",
+        "population_2010" : 608,
+        "population_2020" : 557,
+        "population" : 551,
+        "square_mileage" : 72.1
+    },
+    "Piedmont, Calhoun County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Piedmont",
+        "state" : "Alabama",
+        "FIPS" : "01-59640",
+        "counties" : [
+            "Calhoun County",
+            "Cherokee County"
+        ],
+        "type" : "City",
+        "population_2010" : 4878,
+        "population_2020" : 4787,
+        "population" : 4953,
+        "square_mileage" : 488.0
+    },
+    "Pike Road, Montgomery County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Pike Road",
+        "state" : "Alabama",
+        "FIPS" : "01-59760",
+        "counties" : [
+            "Montgomery County"
+        ],
+        "type" : "Town",
+        "population_2010" : 5406,
+        "population_2020" : 9439,
+        "population" : 16319,
+        "square_mileage" : 298.3
+    },
+    "Pinckard, Dale County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Pinckard",
+        "state" : "Alabama",
+        "FIPS" : "01-59832",
+        "counties" : [
+            "Dale County"
+        ],
+        "type" : "Town",
+        "population_2010" : 647,
+        "population_2020" : 582,
+        "population" : 569,
+        "square_mileage" : 109.2
+    },
+    "Pine Apple, Wilcox County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Pine Apple",
+        "state" : "Alabama",
+        "FIPS" : "01-59880",
+        "counties" : [
+            "Wilcox County"
+        ],
+        "type" : "Town",
+        "population_2010" : 132,
+        "population_2020" : 143,
+        "population" : 159,
+        "square_mileage" : 46.1
+    },
+    "Pine Hill, Wilcox County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Pine Hill",
+        "state" : "Alabama",
+        "FIPS" : "01-60240",
+        "counties" : [
+            "Wilcox County"
+        ],
+        "type" : "Town",
+        "population_2010" : 975,
+        "population_2020" : 758,
+        "population" : 679,
+        "square_mileage" : 198.4
+    },
+    "Pine Level, Autauga County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Pine Level",
+        "state" : "Alabama",
+        "FIPS" : "01-60264",
+        "counties" : [
+            "Autauga County"
+        ],
+        "type" : "Town",
+        "population_2010" : 4183,
+        "population_2020" : 4885,
+        "population" : 5749,
+        "square_mileage" : 25.22
+    },
+    "Pine Ridge, DeKalb County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Pine Ridge",
+        "state" : "Alabama",
+        "FIPS" : "01-60372",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type" : "Town",
+        "population_2010" : 282,
+        "population_2020" : 263,
+        "population" : 263,
+        "square_mileage" : 202.3
+    },
+    "Pinson, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Pinson",
+        "state" : "Alabama",
+        "FIPS" : "01-60648",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "City",
+        "population_2010" : 7163,
+        "population_2020" : 7215,
+        "population" : 7601,
+        "square_mileage" : 714.4
+    },
+    "Pisgah, Jackson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Pisgah",
+        "state" : "Alabama",
+        "FIPS" : "01-60720",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type" : "Town",
+        "population_2010" : 722,
+        "population_2020" : 681,
+        "population" : 686,
+        "square_mileage" : 141.9
+    },
+    "Pleasant Grove, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Pleasant Grove",
+        "state" : "Alabama",
+        "FIPS" : "01-61008",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "City",
+        "population_2010" : 10110,
+        "population_2020" : 9544,
+        "population" : 9621,
+        "square_mileage" : 965.0
+    },
+    "Pleasant Groves, Jackson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Pleasant Groves",
+        "state" : "Alabama",
+        "FIPS" : "01-61038",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type" : "Town",
+        "population_2010" : 420,
+        "population_2020" : 426,
+        "population" : 451,
+        "square_mileage" : 116.7
+    },
+    "Pollard, Escambia County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Pollard",
+        "state" : "Alabama",
+        "FIPS" : "01-61536",
+        "counties" : [
+            "Escambia County"
+        ],
+        "type" : "Town",
+        "population_2010" : 137,
+        "population_2020" : 128,
+        "population" : 128,
+        "square_mileage" : 115.3
+    },
+    "Powell, DeKalb County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Powell",
+        "state" : "Alabama",
+        "FIPS" : "01-62075",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type" : "Town",
+        "population_2010" : 955,
+        "population_2020" : 901,
+        "population" : 908,
+        "square_mileage" : 181.7
+    },
+    "Prattville, Autauga County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Prattville",
+        "state" : "Alabama",
+        "FIPS" : "01-62328",
+        "counties" : [
+            "Autauga County",
+            "Elmore County"
+        ],
+        "type" : "City",
+        "population_2010" : 33960,
+        "population_2020" : 37781,
+        "population" : 42807,
+        "square_mileage" : 1149.8
+    },
+    "Priceville, Morgan County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Priceville",
+        "state" : "Alabama",
+        "FIPS" : "01-62472",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type" : "Town",
+        "population_2010" : 2658,
+        "population_2020" : 3512,
+        "population" : 4587,
+        "square_mileage" : 671.5
+    },
+    "Prichard, Mobile County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Prichard",
+        "state" : "Alabama",
+        "FIPS" : "01-62496",
+        "counties" : [
+            "Mobile County"
+        ],
+        "type" : "City",
+        "population_2010" : 22659,
+        "population_2020" : 19322,
+        "population" : 18269,
+        "square_mileage" : 764.0
+    },
+    "Providence, Marengo County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Providence",
+        "state" : "Alabama",
+        "FIPS" : "01-62688",
+        "counties" : [
+            "Marengo County"
+        ],
+        "type" : "Town",
+        "population_2010" : 223,
+        "population_2020" : 167,
+        "population" : 147,
+        "square_mileage" : 95.4
+    },
+    "Ragland, St. Clair County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Ragland",
+        "state" : "Alabama",
+        "FIPS" : "01-63216",
+        "counties" : [
+            "St. Clair County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1639,
+        "population_2020" : 1693,
+        "population" : 1816,
+        "square_mileage" : 100.6
+    },
+    "Rainbow City, Etowah County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Rainbow City",
+        "state" : "Alabama",
+        "FIPS" : "01-63288",
+        "counties" : [
+            "Etowah County"
+        ],
+        "type" : "City",
+        "population_2010" : 9602,
+        "population_2020" : 10191,
+        "population" : 11146,
+        "square_mileage" : 400.3
+    },
+    "Rainsville, DeKalb County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Rainsville",
+        "state" : "Alabama",
+        "FIPS" : "01-63336",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type" : "City",
+        "population_2010" : 4948,
+        "population_2020" : 5505,
+        "population" : 6238,
+        "square_mileage" : 267.8
+    },
+    "Ranburne, Cleburne County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Ranburne",
+        "state" : "Alabama",
+        "FIPS" : "01-63408",
+        "counties" : [
+            "Cleburne County"
+        ],
+        "type" : "Town",
+        "population_2010" : 409,
+        "population_2020" : 422,
+        "population" : 452,
+        "square_mileage" : 265.4
+    },
+    "Red Bay, Franklin County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Red Bay",
+        "state" : "Alabama",
+        "FIPS" : "01-63576",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type" : "City",
+        "population_2010" : 3158,
+        "population_2020" : 3232,
+        "population" : 3443,
+        "square_mileage" : 331.8
+    },
+    "Red Level, Covington County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Red Level",
+        "state" : "Alabama",
+        "FIPS" : "01-63768",
+        "counties" : [
+            "Covington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 487,
+        "population_2020" : 432,
+        "population" : 418,
+        "square_mileage" : 225.0
+    },
+    "Reece City, Etowah County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Reece City",
+        "state" : "Alabama",
+        "FIPS" : "01-63984",
+        "counties" : [
+            "Etowah County"
+        ],
+        "type" : "Town",
+        "population_2010" : 653,
+        "population_2020" : 615,
+        "population" : 619,
+        "square_mileage" : 172.8
+    },
+    "Reform, Pickens County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Reform",
+        "state" : "Alabama",
+        "FIPS" : "01-64104",
+        "counties" : [
+            "Pickens County"
+        ],
+        "type" : "City",
+        "population_2010" : 1702,
+        "population_2020" : 1520,
+        "population" : 1479,
+        "square_mileage" : 189.8
+    },
+    "Rehobeth, Houston County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Rehobeth",
+        "state" : "Alabama",
+        "FIPS" : "01-64152",
+        "counties" : [
+            "Houston County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1297,
+        "population_2020" : 1791,
+        "population" : 2435,
+        "square_mileage" : 236.3
+    },
+    "Repton, Conecuh County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Repton",
+        "state" : "Alabama",
+        "FIPS" : "01-64368",
+        "counties" : [
+            "Conecuh County"
+        ],
+        "type" : "Town",
+        "population_2010" : 282,
+        "population_2020" : 235,
+        "population" : 219,
+        "square_mileage" : 244.8
+    },
+    "Ridgeville, Etowah County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Ridgeville",
+        "state" : "Alabama",
+        "FIPS" : "01-64656",
+        "counties" : [
+            "Etowah County"
+        ],
+        "type" : "Town",
+        "population_2010" : 112,
+        "population_2020" : 83,
+        "population" : 72,
+        "square_mileage" : 101.2
+    },
+    "River Falls, Covington County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "River Falls",
+        "state" : "Alabama",
+        "FIPS" : "01-64776",
+        "counties" : [
+            "Covington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 526,
+        "population_2020" : 479,
+        "population" : 472,
+        "square_mileage" : 70.0
+    },
+    "Riverside, St. Clair County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Riverside",
+        "state" : "Alabama",
+        "FIPS" : "01-64920",
+        "counties" : [
+            "St. Clair County"
+        ],
+        "type" : "Town",
+        "population_2010" : 2208,
+        "population_2020" : 2227,
+        "population" : 2348,
+        "square_mileage" : 256.9
+    },
+    "Riverview, Escambia County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Riverview",
+        "state" : "Alabama",
+        "FIPS" : "01-65016",
+        "counties" : [
+            "Escambia County"
+        ],
+        "type" : "Town",
+        "population_2010" : 184,
+        "population_2020" : 163,
+        "population" : 158,
+        "square_mileage" : 112.4
+    },
+    "Roanoke, Randolph County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Roanoke",
+        "state" : "Alabama",
+        "FIPS" : "01-65040",
+        "counties" : [
+            "Randolph County"
+        ],
+        "type" : "City",
+        "population_2010" : 6074,
+        "population_2020" : 5311,
+        "population" : 5099,
+        "square_mileage" : 283.6
+    },
+    "Robertsdale, Baldwin County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Robertsdale",
+        "state" : "Alabama",
+        "FIPS" : "01-65208",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type" : "City",
+        "population_2010" : 5276,
+        "population_2020" : 6708,
+        "population" : 8471,
+        "square_mileage" : 1230.8
+    },
+    "Rockford, Coosa County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Rockford",
+        "state" : "Alabama",
+        "FIPS" : "01-65472",
+        "counties" : [
+            "Coosa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 477,
+        "population_2020" : 349,
+        "population" : 303,
+        "square_mileage" : 105.4
+    },
+    "Rogersville, Lauderdale County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Rogersville",
+        "state" : "Alabama",
+        "FIPS" : "01-66216",
+        "counties" : [
+            "Lauderdale County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1257,
+        "population_2020" : 1286,
+        "population" : 1370,
+        "square_mileage" : 424.4
+    },
+    "Rosa, Blount County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Rosa",
+        "state" : "Alabama",
+        "FIPS" : "01-66408",
+        "counties" : [
+            "Blount County"
+        ],
+        "type" : "Town",
+        "population_2010" : 316,
+        "population_2020" : 376,
+        "population" : 449,
+        "square_mileage" : 99.7
+    },
+    "Russellville, Franklin County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Russellville",
+        "state" : "Alabama",
+        "FIPS" : "01-67056",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type" : "City",
+        "population_2010" : 9830,
+        "population_2020" : 10855,
+        "population" : 12229,
+        "square_mileage" : 810.1
+    },
+    "Rutledge, Crenshaw County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Rutledge",
+        "state" : "Alabama",
+        "FIPS" : "01-67176",
+        "counties" : [
+            "Crenshaw County"
+        ],
+        "type" : "Town",
+        "population_2010" : 467,
+        "population_2020" : 351,
+        "population" : 309,
+        "square_mileage" : 59.9
+    },
+    "St. Florian, Lauderdale County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "St. Florian",
+        "state" : "Alabama",
+        "FIPS" : "01-67536",
+        "counties" : [
+            "Lauderdale County"
+        ],
+        "type" : "Town",
+        "population_2010" : 413,
+        "population_2020" : 584,
+        "population" : 812,
+        "square_mileage" : 159.1
+    },
+    "Samson, Geneva County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Samson",
+        "state" : "Alabama",
+        "FIPS" : "01-67800",
+        "counties" : [
+            "Geneva County"
+        ],
+        "type" : "City",
+        "population_2010" : 1940,
+        "population_2020" : 1874,
+        "population" : 1918,
+        "square_mileage" : 517.7
+    },
+    "Sand Rock, Cherokee County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Sand Rock",
+        "state" : "Alabama",
+        "FIPS" : "01-67920",
+        "counties" : [
+            "Cherokee County",
+            "DeKalb County"
+        ],
+        "type" : "Town",
+        "population_2010" : 560,
+        "population_2020" : 591,
+        "population" : 644,
+        "square_mileage" : 135.6
+    },
+    "Sanford, Covington County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Sanford",
+        "state" : "Alabama",
+        "FIPS" : "01-68016",
+        "counties" : [
+            "Covington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 241,
+        "population_2020" : 257,
+        "population" : 282,
+        "square_mileage" : 61.5
+    },
+    "Saraland, Mobile County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Saraland",
+        "state" : "Alabama",
+        "FIPS" : "01-68160",
+        "counties" : [
+            "Mobile County"
+        ],
+        "type" : "City",
+        "population_2010" : 13405,
+        "population_2020" : 16171,
+        "population" : 19537,
+        "square_mileage" : 697.6
+    },
+    "Sardis City, Etowah County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Sardis City",
+        "state" : "Alabama",
+        "FIPS" : "01-68280",
+        "counties" : [
+            "Etowah County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1704,
+        "population_2020" : 1814,
+        "population" : 1988,
+        "square_mileage" : 231.1
+    },
+    "Satsuma, Mobile County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Satsuma",
+        "state" : "Alabama",
+        "FIPS" : "01-68352",
+        "counties" : [
+            "Mobile County"
+        ],
+        "type" : "City",
+        "population_2010" : 6168,
+        "population_2020" : 6749,
+        "population" : 7551,
+        "square_mileage" : 897.5
+    },
+    "Scottsboro, Jackson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Scottsboro",
+        "state" : "Alabama",
+        "FIPS" : "01-68736",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type" : "City",
+        "population_2010" : 14770,
+        "population_2020" : 15578,
+        "population" : 16960,
+        "square_mileage" : 307.6
+    },
+    "Section, Jackson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Section",
+        "state" : "Alabama",
+        "FIPS" : "01-69000",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type" : "Town",
+        "population_2010" : 770,
+        "population_2020" : 756,
+        "population" : 782,
+        "square_mileage" : 165.4
+    },
+    "Selma, Dallas County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Selma",
+        "state" : "Alabama",
+        "FIPS" : "01-69120",
+        "counties" : [
+            "Dallas County"
+        ],
+        "type" : "City",
+        "population_2010" : 20756,
+        "population_2020" : 17971,
+        "population" : 17149,
+        "square_mileage" : 1301.3
+    },
+    "Sheffield, Colbert County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Sheffield",
+        "state" : "Alabama",
+        "FIPS" : "01-69648",
+        "counties" : [
+            "Colbert County"
+        ],
+        "type" : "City",
+        "population_2010" : 9039,
+        "population_2020" : 9403,
+        "population" : 10136,
+        "square_mileage" : 1476.1
+    },
+    "Shiloh, DeKalb County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Shiloh",
+        "state" : "Alabama",
+        "FIPS" : "01-69840",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type" : "Town",
+        "population_2010" : 274,
+        "population_2020" : 321,
+        "population" : 379,
+        "square_mileage" : 187.7
+    },
+    "Shorter, Macon County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Shorter",
+        "state" : "Alabama",
+        "FIPS" : "01-70128",
+        "counties" : [
+            "Macon County"
+        ],
+        "type" : "Town",
+        "population_2010" : 474,
+        "population_2020" : 385,
+        "population" : 354,
+        "square_mileage" : 84.8
+    },
+    "Silas, Choctaw County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Silas",
+        "state" : "Alabama",
+        "FIPS" : "01-70416",
+        "counties" : [
+            "Choctaw County"
+        ],
+        "type" : "Town",
+        "population_2010" : 452,
+        "population_2020" : 377,
+        "population" : 352,
+        "square_mileage" : 72.4
+    },
+    "Silverhill, Baldwin County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Silverhill",
+        "state" : "Alabama",
+        "FIPS" : "01-70536",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type" : "Town",
+        "population_2010" : 706,
+        "population_2020" : 768,
+        "population" : 855,
+        "square_mileage" : 640.0
+    },
+    "Sipsey, Walker County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Sipsey",
+        "state" : "Alabama",
+        "FIPS" : "01-70704",
+        "counties" : [
+            "Walker County"
+        ],
+        "type" : "Town",
+        "population_2010" : 437,
+        "population_2020" : 363,
+        "population" : 338,
+        "square_mileage" : 756.3
+    },
+    "Skyline, Jackson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Skyline",
+        "state" : "Alabama",
+        "FIPS" : "01-70896",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type" : "Town",
+        "population_2010" : 851,
+        "population_2020" : 834,
+        "population" : 862,
+        "square_mileage" : 209.0
+    },
+    "Slocomb, Geneva County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Slocomb",
+        "state" : "Alabama",
+        "FIPS" : "01-71040",
+        "counties" : [
+            "Geneva County"
+        ],
+        "type" : "City",
+        "population_2010" : 1980,
+        "population_2020" : 2082,
+        "population" : 2262,
+        "square_mileage" : 219.4
+    },
+    "Smiths Station, Lee County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Smiths Station",
+        "state" : "Alabama",
+        "FIPS" : "01-71190",
+        "counties" : [
+            "Lee County"
+        ],
+        "type" : "City",
+        "population_2010" : 4926,
+        "population_2020" : 5384,
+        "population" : 6019,
+        "square_mileage" : 817.0
+    },
+    "Snead, Blount County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Snead",
+        "state" : "Alabama",
+        "FIPS" : "01-71280",
+        "counties" : [
+            "Blount County"
+        ],
+        "type" : "Town",
+        "population_2010" : 835,
+        "population_2020" : 1032,
+        "population" : 1272,
+        "square_mileage" : 196.2
+    },
+    "Somerville, Morgan County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Somerville",
+        "state" : "Alabama",
+        "FIPS" : "01-71496",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type" : "Town",
+        "population_2010" : 724,
+        "population_2020" : 796,
+        "population" : 894,
+        "square_mileage" : 290.5
+    },
+    "South Vinemont, Cullman County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "South Vinemont",
+        "state" : "Alabama",
+        "FIPS" : "01-71900",
+        "counties" : [
+            "Cullman County"
+        ],
+        "type" : "Town",
+        "population_2010" : 749,
+        "population_2020" : 558,
+        "population" : 489,
+        "square_mileage" : 634.1
+    },
+    "Southside, Etowah County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Southside",
+        "state" : "Alabama",
+        "FIPS" : "01-71832",
+        "counties" : [
+            "Etowah County",
+            "Calhoun County"
+        ],
+        "type" : "City",
+        "population_2010" : 8412,
+        "population_2020" : 9426,
+        "population" : 10739,
+        "square_mileage" : 496.6
+    },
+    "Spanish Fort, Baldwin County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Spanish Fort",
+        "state" : "Alabama",
+        "FIPS" : "01-71976",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type" : "City",
+        "population_2010" : 6798,
+        "population_2020" : 10049,
+        "population" : 14577,
+        "square_mileage" : 350.0
+    },
+    "Springville, St. Clair County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Springville",
+        "state" : "Alabama",
+        "FIPS" : "01-72600",
+        "counties" : [
+            "St. Clair County"
+        ],
+        "type" : "City",
+        "population_2010" : 4080,
+        "population_2020" : 4786,
+        "population" : 5652,
+        "square_mileage" : 537.8
+    },
+    "Steele, St. Clair County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Steele",
+        "state" : "Alabama",
+        "FIPS" : "01-72888",
+        "counties" : [
+            "St. Clair County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1043,
+        "population_2020" : 992,
+        "population" : 1005,
+        "square_mileage" : 147.8
+    },
+    "Stevenson, Jackson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Stevenson",
+        "state" : "Alabama",
+        "FIPS" : "01-73080",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type" : "City",
+        "population_2010" : 2046,
+        "population_2020" : 1955,
+        "population" : 1987,
+        "square_mileage" : 253.2
+    },
+    "Sulligent, Lamar County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Sulligent",
+        "state" : "Alabama",
+        "FIPS" : "01-73728",
+        "counties" : [
+            "Lamar County"
+        ],
+        "type" : "City",
+        "population_2010" : 1927,
+        "population_2020" : 1879,
+        "population" : 1936,
+        "square_mileage" : 240.0
+    },
+    "Sumiton, Walker County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Sumiton",
+        "state" : "Alabama",
+        "FIPS" : "01-73848",
+        "counties" : [
+            "Walker County",
+            "Jefferson County"
+        ],
+        "type" : "City",
+        "population_2010" : 2520,
+        "population_2020" : 2444,
+        "population" : 2509,
+        "square_mileage" : 468.2
+    },
+    "Summerdale, Baldwin County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Summerdale",
+        "state" : "Alabama",
+        "FIPS" : "01-73872",
+        "counties" : [
+            "Baldwin County"
+        ],
+        "type" : "Town",
+        "population_2010" : 862,
+        "population_2020" : 1468,
+        "population" : 2468,
+        "square_mileage" : 151.5
+    },
+    "Susan Moore, Blount County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Susan Moore",
+        "state" : "Alabama",
+        "FIPS" : "01-74160",
+        "counties" : [
+            "Blount County"
+        ],
+        "type" : "Town",
+        "population_2010" : 763,
+        "population_2020" : 787,
+        "population" : 843,
+        "square_mileage" : 150.5
+    },
+    "Sweet Water, Marengo County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Sweet Water",
+        "state" : "Alabama",
+        "FIPS" : "01-74304",
+        "counties" : [
+            "Marengo County"
+        ],
+        "type" : "Town",
+        "population_2010" : 258,
+        "population_2020" : 228,
+        "population" : 220,
+        "square_mileage" : 112.9
+    },
+    "Sylacauga, Talladega County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Sylacauga",
+        "state" : "Alabama",
+        "FIPS" : "01-74352",
+        "counties" : [
+            "Talladega County"
+        ],
+        "type" : "City",
+        "population_2010" : 12749,
+        "population_2020" : 12578,
+        "population" : 13062,
+        "square_mileage" : 645.4
+    },
+    "Sylvan Springs, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Sylvan Springs",
+        "state" : "Alabama",
+        "FIPS" : "01-74424",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1542,
+        "population_2020" : 1653,
+        "population" : 1821,
+        "square_mileage" : 190.2
+    },
+    "Sylvania, DeKalb County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Sylvania",
+        "state" : "Alabama",
+        "FIPS" : "01-74400",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1837,
+        "population_2020" : 1790,
+        "population" : 1843,
+        "square_mileage" : 211.3
+    },
+    "Talladega Springs, Talladega County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Talladega Springs",
+        "state" : "Alabama",
+        "FIPS" : "01-74616",
+        "counties" : [
+            "Talladega County"
+        ],
+        "type" : "Town",
+        "population_2010" : 166,
+        "population_2020" : 144,
+        "population" : 138,
+        "square_mileage" : 117.1
+    },
+    "Talladega, Talladega County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Talladega",
+        "state" : "Alabama",
+        "FIPS" : "01-74592",
+        "counties" : [
+            "Talladega County"
+        ],
+        "type" : "City",
+        "population_2010" : 15676,
+        "population_2020" : 15861,
+        "population" : 16763,
+        "square_mileage" : 661.4
+    },
+    "Tallassee, Elmore County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Tallassee",
+        "state" : "Alabama",
+        "FIPS" : "01-74688",
+        "counties" : [
+            "Elmore County",
+            "Tallapoosa County"
+        ],
+        "type" : "City",
+        "population_2010" : 4819,
+        "population_2020" : 4763,
+        "population" : 4952,
+        "square_mileage" : 492.6
+    },
+    "Tarrant, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Tarrant",
+        "state" : "Alabama",
+        "FIPS" : "01-74976",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "City",
+        "population_2010" : 6397,
+        "population_2020" : 6124,
+        "population" : 6231,
+        "square_mileage" : 962.9
+    },
+    "Taylor, Houston County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Taylor",
+        "state" : "Alabama",
+        "FIPS" : "01-75096",
+        "counties" : [
+            "Houston County",
+            "Geneva County"
+        ],
+        "type" : "Town",
+        "population_2010" : 2375,
+        "population_2020" : 2262,
+        "population" : 2294,
+        "square_mileage" : 307.3
+    },
+    "Thomaston, Marengo County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Thomaston",
+        "state" : "Alabama",
+        "FIPS" : "01-75936",
+        "counties" : [
+            "Marengo County"
+        ],
+        "type" : "Town",
+        "population_2010" : 417,
+        "population_2020" : 326,
+        "population" : 293,
+        "square_mileage" : 162.2
+    },
+    "Thomasville, Clarke County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Thomasville",
+        "state" : "Alabama",
+        "FIPS" : "01-75960",
+        "counties" : [
+            "Clarke County"
+        ],
+        "type" : "City",
+        "population_2010" : 4209,
+        "population_2020" : 3649,
+        "population" : 3485,
+        "square_mileage" : 418.0
+    },
+    "Thorsby, Chilton County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Thorsby",
+        "state" : "Alabama",
+        "FIPS" : "01-76080",
+        "counties" : [
+            "Chilton County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1980,
+        "population_2020" : 2064,
+        "population" : 2228,
+        "square_mileage" : 402.3
+    },
+    "Town Creek, Lawrence County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Town Creek",
+        "state" : "Alabama",
+        "FIPS" : "01-76584",
+        "counties" : [
+            "Lawrence County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1100,
+        "population_2020" : 1052,
+        "population" : 1070,
+        "square_mileage" : 392.5
+    },
+    "Toxey, Choctaw County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Toxey",
+        "state" : "Alabama",
+        "FIPS" : "01-76632",
+        "counties" : [
+            "Choctaw County"
+        ],
+        "type" : "Town",
+        "population_2010" : 137,
+        "population_2020" : 145,
+        "population" : 158,
+        "square_mileage" : 213.2
+    },
+    "Trafford, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Trafford",
+        "state" : "Alabama",
+        "FIPS" : "01-76680",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "Town",
+        "population_2010" : 646,
+        "population_2020" : 613,
+        "population" : 620,
+        "square_mileage" : 251.2
+    },
+    "Triana, Madison County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Triana",
+        "state" : "Alabama",
+        "FIPS" : "01-76824",
+        "counties" : [
+            "Madison County"
+        ],
+        "type" : "Town",
+        "population_2010" : 496,
+        "population_2020" : 2890,
+        "population" : 14310,
+        "square_mileage" : 2312.0
+    },
+    "Trinity, Morgan County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Trinity",
+        "state" : "Alabama",
+        "FIPS" : "01-76872",
+        "counties" : [
+            "Morgan County"
+        ],
+        "type" : "Town",
+        "population_2010" : 2095,
+        "population_2020" : 2526,
+        "population" : 3051,
+        "square_mileage" : 572.8
+    },
+    "Troy, Pike County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Troy",
+        "state" : "Alabama",
+        "FIPS" : "01-76920",
+        "counties" : [
+            "Pike County"
+        ],
+        "type" : "City",
+        "population_2010" : 18033,
+        "population_2020" : 17727,
+        "population" : 18364,
+        "square_mileage" : 641.6
+    },
+    "Trussville, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Trussville",
+        "state" : "Alabama",
+        "FIPS" : "01-76944",
+        "counties" : [
+            "Jefferson County",
+            "St. Clair County"
+        ],
+        "type" : "City",
+        "population_2010" : 19933,
+        "population_2020" : 26123,
+        "population" : 33871,
+        "square_mileage" : 790.9
+    },
+    "Tuscaloosa, Tuscaloosa County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Tuscaloosa",
+        "state" : "Alabama",
+        "FIPS" : "01-77256",
+        "counties" : [
+            "Tuscaloosa County"
+        ],
+        "type" : "City",
+        "population_2010" : 90468,
+        "population_2020" : 99600,
+        "population" : 111954,
+        "square_mileage" : 1653.7
+    },
+    "Tuscumbia, Colbert County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Tuscumbia",
+        "state" : "Alabama",
+        "FIPS" : "01-77280",
+        "counties" : [
+            "Colbert County"
+        ],
+        "type" : "City",
+        "population_2010" : 8423,
+        "population_2020" : 9054,
+        "population" : 9996,
+        "square_mileage" : 1034.7
+    },
+    "Tuskegee, Macon County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Tuskegee",
+        "state" : "Alabama",
+        "FIPS" : "01-77304",
+        "counties" : [
+            "Macon County"
+        ],
+        "type" : "City",
+        "population_2010" : 9865,
+        "population_2020" : 9395,
+        "population" : 9526,
+        "square_mileage" : 583.9
+    },
+    "Twin, Marion County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Twin",
+        "state" : "Alabama",
+        "FIPS" : "01-77352",
+        "counties" : [
+            "Marion County"
+        ],
+        "type" : "Town",
+        "population_2010" : 399,
+        "population_2020" : 359,
+        "population" : 351,
+        "square_mileage" : 106.5
+    },
+    "Union Grove, Marshall County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Union Grove",
+        "state" : "Alabama",
+        "FIPS" : "01-77784",
+        "counties" : [
+            "Marshall County"
+        ],
+        "type" : "Town",
+        "population_2010" : 77,
+        "population_2020" : 67,
+        "population" : 64,
+        "square_mileage" : 119.6
+    },
+    "Union Springs, Bullock County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Union Springs",
+        "state" : "Alabama",
+        "FIPS" : "01-77880",
+        "counties" : [
+            "Bullock County"
+        ],
+        "type" : "City",
+        "population_2010" : 3980,
+        "population_2020" : 3358,
+        "population" : 3155,
+        "square_mileage" : 506.5
+    },
+    "Union, Greene County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Union",
+        "state" : "Alabama",
+        "FIPS" : "01-77616",
+        "counties" : [
+            "Greene County"
+        ],
+        "type" : "Town",
+        "population_2010" : 237,
+        "population_2020" : 180,
+        "population" : 159,
+        "square_mileage" : 219.5
+    },
+    "Uniontown, Perry County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Uniontown",
+        "state" : "Alabama",
+        "FIPS" : "01-77904",
+        "counties" : [
+            "Perry County"
+        ],
+        "type" : "City",
+        "population_2010" : 1775,
+        "population_2020" : 2107,
+        "population" : 2512,
+        "square_mileage" : 1584.2
+    },
+    "Valley, Chambers County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Valley",
+        "state" : "Alabama",
+        "FIPS" : "01-78204",
+        "counties" : [
+            "Chambers County"
+        ],
+        "type" : "City",
+        "population_2010" : 9524,
+        "population_2020" : 10529,
+        "population" : 11872,
+        "square_mileage" : 954.6
+    },
+    "Valley Grande, Dallas County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Valley Grande",
+        "state" : "Alabama",
+        "FIPS" : "01-78232",
+        "counties" : [
+            "Dallas County"
+        ],
+        "type" : "City",
+        "population_2010" : 4020,
+        "population_2020" : 4190,
+        "population" : 4523,
+        "square_mileage" : 125.0
+    },
+    "Valley Head, DeKalb County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Valley Head",
+        "state" : "Alabama",
+        "FIPS" : "01-78240",
+        "counties" : [
+            "DeKalb County"
+        ],
+        "type" : "Town",
+        "population_2010" : 558,
+        "population_2020" : 577,
+        "population" : 619,
+        "square_mileage" : 166.3
+    },
+    "Vance, Tuscaloosa County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Vance",
+        "state" : "Alabama",
+        "FIPS" : "01-78264",
+        "counties" : [
+            "Tuscaloosa County",
+            "Bibb County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1529,
+        "population_2020" : 2092,
+        "population" : 2820,
+        "square_mileage" : 205.5
+    },
+    "Vernon, Lamar County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Vernon",
+        "state" : "Alabama",
+        "FIPS" : "01-78480",
+        "counties" : [
+            "Lamar County"
+        ],
+        "type" : "City",
+        "population_2010" : 2000,
+        "population_2020" : 1921,
+        "population" : 1959,
+        "square_mileage" : 326.7
+    },
+    "Vestavia Hills, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Vestavia Hills",
+        "state" : "Alabama",
+        "FIPS" : "01-78552",
+        "counties" : [
+            "Jefferson County",
+            "Shelby County"
+        ],
+        "type" : "City",
+        "population_2010" : 34033,
+        "population_2020" : 39102,
+        "population" : 45425,
+        "square_mileage" : 2014.5
+    },
+    "Vina, Franklin County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Vina",
+        "state" : "Alabama",
+        "FIPS" : "01-78984",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type" : "Town",
+        "population_2010" : 358,
+        "population_2020" : 325,
+        "population" : 319,
+        "square_mileage" : 67.7
+    },
+    "Vincent, Shelby County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Vincent",
+        "state" : "Alabama",
+        "FIPS" : "01-79008",
+        "counties" : [
+            "Shelby County",
+            "St. Clair County",
+            "Talladega County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1988,
+        "population_2020" : 1982,
+        "population" : 2073,
+        "square_mileage" : 101.3
+    },
+    "Vredenburgh, Monroe County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Vredenburgh",
+        "state" : "Alabama",
+        "FIPS" : "01-79272",
+        "counties" : [
+            "Monroe County"
+        ],
+        "type" : "Town",
+        "population_2010" : 312,
+        "population_2020" : 222,
+        "population" : 190,
+        "square_mileage" : 148.0
+    },
+    "Wadley, Randolph County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Wadley",
+        "state" : "Alabama",
+        "FIPS" : "01-79344",
+        "counties" : [
+            "Randolph County"
+        ],
+        "type" : "Town",
+        "population_2010" : 751,
+        "population_2020" : 659,
+        "population" : 634,
+        "square_mileage" : 451.4
+    },
+    "Waldo, Talladega County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Waldo",
+        "state" : "Alabama",
+        "FIPS" : "01-79488",
+        "counties" : [
+            "Talladega County"
+        ],
+        "type" : "Town",
+        "population_2010" : 283,
+        "population_2020" : 258,
+        "population" : 254,
+        "square_mileage" : 91.8
+    },
+    "Walnut Grove, Etowah County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Walnut Grove",
+        "state" : "Alabama",
+        "FIPS" : "01-79728",
+        "counties" : [
+            "Etowah County"
+        ],
+        "type" : "Town",
+        "population_2010" : 698,
+        "population_2020" : 773,
+        "population" : 873,
+        "square_mileage" : 153.7
+    },
+    "Warrior, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Warrior",
+        "state" : "Alabama",
+        "FIPS" : "01-79944",
+        "counties" : [
+            "Jefferson County",
+            "Blount County"
+        ],
+        "type" : "City",
+        "population_2010" : 3176,
+        "population_2020" : 3224,
+        "population" : 3415,
+        "square_mileage" : 330.0
+    },
+    "Waterloo, Lauderdale County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Waterloo",
+        "state" : "Alabama",
+        "FIPS" : "01-80064",
+        "counties" : [
+            "Lauderdale County"
+        ],
+        "type" : "Town",
+        "population_2010" : 203,
+        "population_2020" : 178,
+        "population" : 171,
+        "square_mileage" : 237.3
+    },
+    "Waverly, Chambers County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Waverly",
+        "state" : "Alabama",
+        "FIPS" : "01-80256",
+        "counties" : [
+            "Chambers County",
+            "Lee County"
+        ],
+        "type" : "Town",
+        "population_2010" : 145,
+        "population_2020" : 159,
+        "population" : 178,
+        "square_mileage" : 58.5
+    },
+    "Weaver, Calhoun County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Weaver",
+        "state" : "Alabama",
+        "FIPS" : "01-80352",
+        "counties" : [
+            "Calhoun County"
+        ],
+        "type" : "City",
+        "population_2010" : 3038,
+        "population_2020" : 3339,
+        "population" : 3748,
+        "square_mileage" : 962.2
+    },
+    "Webb, Houston County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Webb",
+        "state" : "Alabama",
+        "FIPS" : "01-80376",
+        "counties" : [
+            "Houston County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1430,
+        "population_2020" : 1270,
+        "population" : 1231,
+        "square_mileage" : 111.4
+    },
+    "Wedowee, Randolph County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Wedowee",
+        "state" : "Alabama",
+        "FIPS" : "01-80496",
+        "counties" : [
+            "Randolph County"
+        ],
+        "type" : "Town",
+        "population_2010" : 823,
+        "population_2020" : 737,
+        "population" : 718,
+        "square_mileage" : 211.2
+    },
+    "West Blocton, Bibb County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "West Blocton",
+        "state" : "Alabama",
+        "FIPS" : "01-80928",
+        "counties" : [
+            "Bibb County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1240,
+        "population_2020" : 1217,
+        "population" : 1259,
+        "square_mileage" : 266.3
+    },
+    "West Jefferson, Jefferson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "West Jefferson",
+        "state" : "Alabama",
+        "FIPS" : "01-81336",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "Town",
+        "population_2010" : 338,
+        "population_2020" : 417,
+        "population" : 513,
+        "square_mileage" : 448.4
+    },
+    "West Point, Cullman County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "West Point",
+        "state" : "Alabama",
+        "FIPS" : "01-81528",
+        "counties" : [
+            "Cullman County"
+        ],
+        "type" : "Town",
+        "population_2010" : 586,
+        "population_2020" : 584,
+        "population" : 611,
+        "square_mileage" : 170.8
+    },
+    "Westover, Shelby County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Westover",
+        "state" : "Alabama",
+        "FIPS" : "01-81504",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type" : "City",
+        "population_2010" : 1275,
+        "population_2020" : 1766,
+        "population" : 2407,
+        "square_mileage" : 95.9
+    },
+    "Wetumpka, Elmore County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Wetumpka",
+        "state" : "Alabama",
+        "FIPS" : "01-81720",
+        "counties" : [
+            "Elmore County"
+        ],
+        "type" : "City",
+        "population_2010" : 6528,
+        "population_2020" : 7220,
+        "population" : 8144,
+        "square_mileage" : 714.1
+    },
+    "White Hall, Lowndes County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "White Hall",
+        "state" : "Alabama",
+        "FIPS" : "01-81912",
+        "counties" : [
+            "Lowndes County"
+        ],
+        "type" : "Town",
+        "population_2010" : 858,
+        "population_2020" : 806,
+        "population" : 810,
+        "square_mileage" : 52.7
+    },
+    "Wilsonville, Shelby County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Wilsonville",
+        "state" : "Alabama",
+        "FIPS" : "01-82848",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1827,
+        "population_2020" : 1857,
+        "population" : 1969,
+        "square_mileage" : 193.0
+    },
+    "Wilton, Shelby County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Wilton",
+        "state" : "Alabama",
+        "FIPS" : "01-82872",
+        "counties" : [
+            "Shelby County"
+        ],
+        "type" : "Town",
+        "population_2010" : 687,
+        "population_2020" : 587,
+        "population" : 556,
+        "square_mileage" : 592.9
+    },
+    "Winfield, Marion County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Winfield",
+        "state" : "Alabama",
+        "FIPS" : "01-82992",
+        "counties" : [
+            "Marion County",
+            "Fayette County"
+        ],
+        "type" : "City",
+        "population_2010" : 4717,
+        "population_2020" : 4845,
+        "population" : 5175,
+        "square_mileage" : 280.4
+    },
+    "Woodland, Randolph County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Woodland",
+        "state" : "Alabama",
+        "FIPS" : "01-83400",
+        "counties" : [
+            "Randolph County"
+        ],
+        "type" : "Town",
+        "population_2010" : 184,
+        "population_2020" : 221,
+        "population" : 266,
+        "square_mileage" : 141.7
+    },
+    "Woodstock, Bibb County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Woodstock",
+        "state" : "Alabama",
+        "FIPS" : "01-83640",
+        "counties" : [
+            "Bibb County",
+            "Tuscaloosa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1428,
+        "population_2020" : 1472,
+        "population" : 1576,
+        "square_mileage" : 207.9
+    },
+    "Woodville, Jackson County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Woodville",
+        "state" : "Alabama",
+        "FIPS" : "01-83664",
+        "counties" : [
+            "Jackson County"
+        ],
+        "type" : "Town",
+        "population_2010" : 746,
+        "population_2020" : 746,
+        "population" : 782,
+        "square_mileage" : 112.7
+    },
+    "Yellow Bluff, Wilcox County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "Yellow Bluff",
+        "state" : "Alabama",
+        "FIPS" : "01-83976",
+        "counties" : [
+            "Wilcox County"
+        ],
+        "type" : "Town",
+        "population_2010" : 188,
+        "population_2020" : 208,
+        "population" : 235,
+        "square_mileage" : 452.2
+    },
+    "York, Sumter County, Alabama" : {
+        "fullName" : "",
+        "commonName" : "York",
+        "state" : "Alabama",
+        "FIPS" : "01-84096",
+        "counties" : [
+            "Sumter County"
+        ],
+        "type" : "City",
+        "population_2010" : 2538,
+        "population_2020" : 2414,
+        "population" : 2446,
+        "square_mileage" : 351.4
+    }
+}

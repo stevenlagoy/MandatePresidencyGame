@@ -1,0 +1,249 @@
+{
+    "Boulder City, Clark County, Nevada" : {
+        "name" : "Boulder City",
+        "state" : "Nevada",
+        "FIPS" : "32-06500",
+        "counties" : [
+            "Clark County"
+        ],
+        "type" : "City",
+        "population_2010" : 15023,
+        "population_2020" : 14885,
+        "population" : 16190,
+        "square_mileage" : 208.27
+    },
+    "Caliente, Lincoln County, Nevada" : {
+        "name" : "Caliente",
+        "state" : "Nevada",
+        "FIPS" : "32-08500",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type" : "City",
+        "population_2010" : 1130,
+        "population_2020" : 990,
+        "population" : 994,
+        "square_mileage" : 53.02
+    },
+    "Carlin, Elko County, Nevada" : {
+        "name" : "Carlin",
+        "state" : "Nevada",
+        "FIPS" : "32-08900",
+        "counties" : [
+            "Elko County"
+        ],
+        "type" : "City",
+        "population_2010" : 2368,
+        "population_2020" : 2050,
+        "population" : 2044,
+        "square_mileage" : 10.44
+    },
+    "Carson City, None, Nevada" : {
+        "name" : "Carson City",
+        "state" : "Nevada",
+        "FIPS" : "None",
+        "counties" : [
+            "None"
+        ],
+        "type" : "Independent City",
+        "population_2010" : 55274,
+        "population_2020" : 58639,
+        "population" : 66937,
+        "square_mileage" : 144.53
+    },
+    "Elko, Elko County, Nevada" : {
+        "name" : "Elko",
+        "state" : "Nevada",
+        "FIPS" : "32-22500",
+        "counties" : [
+            "Elko County"
+        ],
+        "type" : "City",
+        "population_2010" : 18297,
+        "population_2020" : 20564,
+        "population" : 24509,
+        "square_mileage" : 17.85
+    },
+    "Ely, White Pine County, Nevada" : {
+        "name" : "Ely",
+        "state" : "Nevada",
+        "FIPS" : "32-23500",
+        "counties" : [
+            "White Pine County"
+        ],
+        "type" : "City",
+        "population_2010" : 4255,
+        "population_2020" : 3924,
+        "population" : 4070,
+        "square_mileage" : 7.63
+    },
+    "Fallon, Churchill County, Nevada" : {
+        "name" : "Fallon",
+        "state" : "Nevada",
+        "FIPS" : "32-24100",
+        "counties" : [
+            "Churchill County"
+        ],
+        "type" : "City",
+        "population_2010" : 8606,
+        "population_2020" : 9327,
+        "population" : 10816,
+        "square_mileage" : 3.72
+    },
+    "Fernley, Lyon County, Nevada" : {
+        "name" : "Fernley",
+        "state" : "Nevada",
+        "FIPS" : "32-24900",
+        "counties" : [
+            "Lyon County"
+        ],
+        "type" : "City",
+        "population_2010" : 19368,
+        "population_2020" : 22895,
+        "population" : 28390,
+        "square_mileage" : 121.31
+    },
+    "Henderson, Clark County, Nevada" : {
+        "name" : "Henderson",
+        "state" : "Nevada",
+        "FIPS" : "32-31900",
+        "counties" : [
+            "Clark County"
+        ],
+        "type" : "City",
+        "population_2010" : 257729,
+        "population_2020" : 317610,
+        "population" : 407473,
+        "square_mileage" : 106.23
+    },
+    "Las Vegas, Clark County, Nevada" : {
+        "name" : "Las Vegas",
+        "state" : "Nevada",
+        "FIPS" : "32-40000",
+        "counties" : [
+            "Clark County"
+        ],
+        "type" : "City",
+        "population_2010" : 583756,
+        "population_2020" : 641903,
+        "population" : 752458,
+        "square_mileage" : 141.83
+    },
+    "Lovelock, Pershing County, Nevada" : {
+        "name" : "Lovelock",
+        "state" : "Nevada",
+        "FIPS" : "32-43000",
+        "counties" : [
+            "Pershing County"
+        ],
+        "type" : "City",
+        "population_2010" : 1894,
+        "population_2020" : 1805,
+        "population" : 1913,
+        "square_mileage" : 0.86
+    },
+    "Mesquite, Clark County, Nevada" : {
+        "name" : "Mesquite",
+        "state" : "Nevada",
+        "FIPS" : "32-46000",
+        "counties" : [
+            "Clark County"
+        ],
+        "type" : "City",
+        "population_2010" : 15276,
+        "population_2020" : 20471,
+        "population" : 28235,
+        "square_mileage" : 31.76
+    },
+    "North Las Vegas, Clark County, Nevada" : {
+        "name" : "North Las Vegas",
+        "state" : "Nevada",
+        "FIPS" : "32-51800",
+        "counties" : [
+            "Clark County"
+        ],
+        "type" : "City",
+        "population_2010" : 216961,
+        "population_2020" : 262527,
+        "population" : 331760,
+        "square_mileage" : 101.28
+    },
+    "Reno, Washoe County, Nevada" : {
+        "name" : "Reno",
+        "state" : "Nevada",
+        "FIPS" : "32-60600",
+        "counties" : [
+            "Washoe County"
+        ],
+        "type" : "City",
+        "population_2010" : 225221,
+        "population_2020" : 264165,
+        "population" : 325534,
+        "square_mileage" : 108.77
+    },
+    "Sparks, Washoe County, Nevada" : {
+        "name" : "Sparks",
+        "state" : "Nevada",
+        "FIPS" : "32-68400",
+        "counties" : [
+            "Washoe County"
+        ],
+        "type" : "City",
+        "population_2010" : 90264,
+        "population_2020" : 108445,
+        "population" : 136248,
+        "square_mileage" : 36.44
+    },
+    "Wells, Elko County, Nevada" : {
+        "name" : "Wells",
+        "state" : "Nevada",
+        "FIPS" : "32-83000",
+        "counties" : [
+            "Elko County"
+        ],
+        "type" : "City",
+        "population_2010" : 1292,
+        "population_2020" : 1237,
+        "population" : 1315,
+        "square_mileage" : 6.9
+    },
+    "West Wendover, Elko County, Nevada" : {
+        "name" : "West Wendover",
+        "state" : "Nevada",
+        "FIPS" : "32-83730",
+        "counties" : [
+            "Elko County"
+        ],
+        "type" : "City",
+        "population_2010" : 4410,
+        "population_2020" : 4512,
+        "population" : 5018,
+        "square_mileage" : 7.48
+    },
+    "Winnemucca, Humboldt County, Nevada" : {
+        "name" : "Winnemucca",
+        "state" : "Nevada",
+        "FIPS" : "32-84800",
+        "counties" : [
+            "Humboldt County"
+        ],
+        "type" : "City",
+        "population_2010" : 7396,
+        "population_2020" : 8431,
+        "population" : 10159,
+        "square_mileage" : 9.78
+    },
+    "Yerington, Lyon County, Nevada" : {
+        "name" : "Yerington",
+        "state" : "Nevada",
+        "FIPS" : "32-85400",
+        "counties" : [
+            "Lyon County"
+        ],
+        "type" : "City",
+        "population_2010" : 3048,
+        "population_2020" : 3121,
+        "population" : 3473,
+        "square_mileage" : 29.46
+    }
+}

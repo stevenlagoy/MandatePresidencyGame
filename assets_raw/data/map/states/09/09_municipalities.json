@@ -1,0 +1,2199 @@
+{
+    "Andover, Capitol Planning Region, Connecticut" : {
+        "name" : "Andover",
+        "state" : "Connecticut",
+        "FIPS" : "09-01080",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 3303,
+        "population_2020" : 3151,
+        "population" : 3154,
+        "square_mileage" : 15.46
+    },
+    "Ansonia, Naugatuck Valley Planning Region, Connecticut" : {
+        "name" : "Ansonia",
+        "state" : "Connecticut",
+        "FIPS" : "09-01150",
+        "counties" : [
+            "Naugatuck Valley Planning Region"
+        ],
+        "type" : "City",
+        "population_2010" : 19249,
+        "population_2020" : 18918,
+        "population" : 19323,
+        "square_mileage" : 6.03
+    },
+    "Ashford, Northeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Ashford",
+        "state" : "Connecticut",
+        "FIPS" : "09-01430",
+        "counties" : [
+            "Northeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 4317,
+        "population_2020" : 4191,
+        "population" : 4245,
+        "square_mileage" : 38.79
+    },
+    "Avon, Capitol Planning Region, Connecticut" : {
+        "name" : "Avon",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 18098,
+        "population_2020" : 18932,
+        "population" : 20208,
+        "square_mileage" : 23.12
+    },
+    "Barkhamsted, Northwest Hills Planning Region, Connecticut" : {
+        "name" : "Barkhamsted",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northwest Hills Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 3799,
+        "population_2020" : 3647,
+        "population" : 3666,
+        "square_mileage" : 36.22
+    },
+    "Beacon Falls, Naugatuck Valley Planning Region, Connecticut" : {
+        "name" : "Beacon Falls",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Naugatuck Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 6049,
+        "population_2020" : 6000,
+        "population" : 6167,
+        "square_mileage" : 9.78
+    },
+    "Berlin, Capitol Planning Region, Connecticut" : {
+        "name" : "Berlin",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 19866,
+        "population_2020" : 20175,
+        "population" : 21083,
+        "square_mileage" : 26.45
+    },
+    "Bethany, South Central Connecticut Planning Region, Connecticut" : {
+        "name" : "Bethany",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "South Central Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 5563,
+        "population_2020" : 5297,
+        "population" : 5296,
+        "square_mileage" : 20.97
+    },
+    "Bethel, Western Connecticut Planning Region, Connecticut" : {
+        "name" : "Bethel",
+        "state" : "Connecticut",
+        "FIPS" : "09-04790",
+        "counties" : [
+            "Western Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 18584,
+        "population_2020" : 20358,
+        "population" : 22485,
+        "square_mileage" : 16.79
+    },
+    "Bethlehem, Naugatuck Valley Planning Region, Connecticut" : {
+        "name" : "Bethlehem",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Naugatuck Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 3607,
+        "population_2020" : 3385,
+        "population" : 3352,
+        "square_mileage" : 19.36
+    },
+    "Bloomfield, Capitol Planning Region, Connecticut" : {
+        "name" : "Bloomfield",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 20486,
+        "population_2020" : 21535,
+        "population" : 23068,
+        "square_mileage" : 26.01
+    },
+    "Bolton, Capitol Planning Region, Connecticut" : {
+        "name" : "Bolton",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 4980,
+        "population_2020" : 4858,
+        "population" : 4937,
+        "square_mileage" : 14.41
+    },
+    "Bozrah, Southeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Bozrah",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Southeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 2627,
+        "population_2020" : 2429,
+        "population" : 2382,
+        "square_mileage" : 19.97
+    },
+    "Branford, South Central Connecticut Planning Region, Connecticut" : {
+        "name" : "Branford",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "South Central Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 28026,
+        "population_2020" : 28273,
+        "population" : 29407,
+        "square_mileage" : 21.98
+    },
+    "Bridgeport, Greater Bridgeport Planning Region, Connecticut" : {
+        "name" : "Bridgeport",
+        "state" : "Connecticut",
+        "FIPS" : "09-08000",
+        "counties" : [
+            "Greater Bridgeport Planning Region"
+        ],
+        "type" : "City",
+        "population_2010" : 144229,
+        "population_2020" : 148654,
+        "population" : 156983,
+        "square_mileage" : 16.0
+    },
+    "Bridgewater, Western Connecticut Planning Region, Connecticut" : {
+        "name" : "Bridgewater",
+        "state" : "Connecticut",
+        "FIPS" : "09-08140",
+        "counties" : [
+            "Western Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 1727,
+        "population_2020" : 1662,
+        "population" : 1674,
+        "square_mileage" : 16.23
+    },
+    "Bristol, Naugatuck Valley Planning Region, Connecticut" : {
+        "name" : "Bristol",
+        "state" : "Connecticut",
+        "FIPS" : "09-08420",
+        "counties" : [
+            "Naugatuck Valley Planning Region"
+        ],
+        "type" : "City",
+        "population_2010" : 60477,
+        "population_2020" : 60833,
+        "population" : 63143,
+        "square_mileage" : 26.51
+    },
+    "Brookfield, Western Connecticut Planning Region, Connecticut" : {
+        "name" : "Brookfield",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Western Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 16452,
+        "population_2020" : 17528,
+        "population" : 18961,
+        "square_mileage" : 19.8
+    },
+    "Brooklyn, Northeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Brooklyn",
+        "state" : "Connecticut",
+        "FIPS" : "09-09120",
+        "counties" : [
+            "Northeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 8210,
+        "population_2020" : 8450,
+        "population" : 8914,
+        "square_mileage" : 28.97
+    },
+    "Burlington, Northwest Hills Planning Region, Connecticut" : {
+        "name" : "Burlington",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northwest Hills Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 9301,
+        "population_2020" : 9519,
+        "population" : 10002,
+        "square_mileage" : 29.8
+    },
+    "Canaan, Northwest Hills Planning Region, Connecticut" : {
+        "name" : "Canaan",
+        "state" : "Connecticut",
+        "FIPS" : "09-10870",
+        "counties" : [
+            "Northwest Hills Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 1234,
+        "population_2020" : 1080,
+        "population" : 1023,
+        "square_mileage" : 32.95
+    },
+    "Canterbury, Northeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Canterbury",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 5132,
+        "population_2020" : 5045,
+        "population" : 5154,
+        "square_mileage" : 39.9
+    },
+    "Canton, Capitol Planning Region, Connecticut" : {
+        "name" : "Canton",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 10292,
+        "population_2020" : 10124,
+        "population" : 10347,
+        "square_mileage" : 24.57
+    },
+    "Chaplin, Northeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Chaplin",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 2305,
+        "population_2020" : 2151,
+        "population" : 2122,
+        "square_mileage" : 19.43
+    },
+    "Cheshire, Naugatuck Valley Planning Region, Connecticut" : {
+        "name" : "Cheshire",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Naugatuck Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 29261,
+        "population_2020" : 28733,
+        "population" : 29331,
+        "square_mileage" : 32.91
+    },
+    "Chester, Lower Connecticut River Valley Planning Region, Connecticut" : {
+        "name" : "Chester",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Lower Connecticut River Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 3994,
+        "population_2020" : 3749,
+        "population" : 3713,
+        "square_mileage" : 16.03
+    },
+    "Clinton, Lower Connecticut River Valley Planning Region, Connecticut" : {
+        "name" : "Clinton",
+        "state" : "Connecticut",
+        "FIPS" : "09-15420",
+        "counties" : [
+            "Lower Connecticut River Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 13260,
+        "population_2020" : 13185,
+        "population" : 13576,
+        "square_mileage" : 16.28
+    },
+    "Colchester, Southeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Colchester",
+        "state" : "Connecticut",
+        "FIPS" : "09-15840",
+        "counties" : [
+            "Southeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 16068,
+        "population_2020" : 15555,
+        "population" : 15725,
+        "square_mileage" : 49.06
+    },
+    "Colebrook, Northwest Hills Planning Region, Connecticut" : {
+        "name" : "Colebrook",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northwest Hills Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 1485,
+        "population_2020" : 1361,
+        "population" : 1327,
+        "square_mileage" : 31.47
+    },
+    "Columbia, Capitol Planning Region, Connecticut" : {
+        "name" : "Columbia",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 5485,
+        "population_2020" : 5272,
+        "population" : 5304,
+        "square_mileage" : 21.36
+    },
+    "Cornwall, Northwest Hills Planning Region, Connecticut" : {
+        "name" : "Cornwall",
+        "state" : "Connecticut",
+        "FIPS" : "09-17170",
+        "counties" : [
+            "Northwest Hills Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 1420,
+        "population_2020" : 1567,
+        "population" : 1740,
+        "square_mileage" : 46.01
+    },
+    "Coventry, Capitol Planning Region, Connecticut" : {
+        "name" : "Coventry",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 12435,
+        "population_2020" : 12235,
+        "population" : 12507,
+        "square_mileage" : 37.72
+    },
+    "Cromwell, Lower Connecticut River Valley Planning Region, Connecticut" : {
+        "name" : "Cromwell",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Lower Connecticut River Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 14005,
+        "population_2020" : 14225,
+        "population" : 14866,
+        "square_mileage" : 12.39
+    },
+    "Danbury, Western Connecticut Planning Region, Connecticut" : {
+        "name" : "Danbury",
+        "state" : "Connecticut",
+        "FIPS" : "09-18430",
+        "counties" : [
+            "Western Connecticut Planning Region"
+        ],
+        "type" : "City",
+        "population_2010" : 80893,
+        "population_2020" : 86518,
+        "population" : 93860,
+        "square_mileage" : 42.11
+    },
+    "Darien, Western Connecticut Planning Region, Connecticut" : {
+        "name" : "Darien",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Western Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 20732,
+        "population_2020" : 21499,
+        "population" : 22803,
+        "square_mileage" : 12.86
+    },
+    "Deep River, Lower Connecticut River Valley Planning Region, Connecticut" : {
+        "name" : "Deep River",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Lower Connecticut River Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 4629,
+        "population_2020" : 4415,
+        "population" : 4419,
+        "square_mileage" : 13.55
+    },
+    "Derby, Naugatuck Valley Planning Region, Connecticut" : {
+        "name" : "Derby",
+        "state" : "Connecticut",
+        "FIPS" : "09-19480",
+        "counties" : [
+            "Naugatuck Valley Planning Region"
+        ],
+        "type" : "City",
+        "population_2010" : 12902,
+        "population_2020" : 12325,
+        "population" : 12349,
+        "square_mileage" : 4.98
+    },
+    "Durham, Lower Connecticut River Valley Planning Region, Connecticut" : {
+        "name" : "Durham",
+        "state" : "Connecticut",
+        "FIPS" : "09-20740",
+        "counties" : [
+            "Lower Connecticut River Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 7388,
+        "population_2020" : 7152,
+        "population" : 7230,
+        "square_mileage" : 23.6
+    },
+    "East Granby, Capitol Planning Region, Connecticut" : {
+        "name" : "East Granby",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 5148,
+        "population_2020" : 5214,
+        "population" : 5438,
+        "square_mileage" : 17.48
+    },
+    "East Haddam, Lower Connecticut River Valley Planning Region, Connecticut" : {
+        "name" : "East Haddam",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Lower Connecticut River Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 9126,
+        "population_2020" : 8875,
+        "population" : 9000,
+        "square_mileage" : 54.33
+    },
+    "East Hampton, Lower Connecticut River Valley Planning Region, Connecticut" : {
+        "name" : "East Hampton",
+        "state" : "Connecticut",
+        "FIPS" : "09-22420",
+        "counties" : [
+            "Lower Connecticut River Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 12959,
+        "population_2020" : 12717,
+        "population" : 12976,
+        "square_mileage" : 35.59
+    },
+    "East Hartford, Capitol Planning Region, Connecticut" : {
+        "name" : "East Hartford",
+        "state" : "Connecticut",
+        "FIPS" : "09-22700",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 51252,
+        "population_2020" : 51045,
+        "population" : 52618,
+        "square_mileage" : 18.02
+    },
+    "East Haven, South Central Connecticut Planning Region, Connecticut" : {
+        "name" : "East Haven",
+        "state" : "Connecticut",
+        "FIPS" : "09-22980",
+        "counties" : [
+            "South Central Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 29257,
+        "population_2020" : 27923,
+        "population" : 27960,
+        "square_mileage" : 12.26
+    },
+    "East Lyme, Southeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "East Lyme",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Southeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 19159,
+        "population_2020" : 18693,
+        "population" : 18998,
+        "square_mileage" : 34.03
+    },
+    "East Windsor, Capitol Planning Region, Connecticut" : {
+        "name" : "East Windsor",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 11162,
+        "population_2020" : 11190,
+        "population" : 11588,
+        "square_mileage" : 26.29
+    },
+    "Eastford, Northeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Eastford",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 1749,
+        "population_2020" : 1649,
+        "population" : 1638,
+        "square_mileage" : 28.89
+    },
+    "Easton, Greater Bridgeport Planning Region, Connecticut" : {
+        "name" : "Easton",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Greater Bridgeport Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 7490,
+        "population_2020" : 7605,
+        "population" : 7946,
+        "square_mileage" : 27.42
+    },
+    "Ellington, Capitol Planning Region, Connecticut" : {
+        "name" : "Ellington",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 15602,
+        "population_2020" : 16426,
+        "population" : 17615,
+        "square_mileage" : 34.05
+    },
+    "Enfield, Capitol Planning Region, Connecticut" : {
+        "name" : "Enfield",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 44654,
+        "population_2020" : 42141,
+        "population" : 41883,
+        "square_mileage" : 33.38
+    },
+    "Essex, Lower Connecticut River Valley Planning Region, Connecticut" : {
+        "name" : "Essex",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Lower Connecticut River Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 6683,
+        "population_2020" : 6733,
+        "population" : 6996,
+        "square_mileage" : 10.36
+    },
+    "Fairfield, Greater Bridgeport Planning Region, Connecticut" : {
+        "name" : "Fairfield",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Greater Bridgeport Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 59404,
+        "population_2020" : 61512,
+        "population" : 65175,
+        "square_mileage" : 30.03
+    },
+    "Farmington, Capitol Planning Region, Connecticut" : {
+        "name" : "Farmington",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 25340,
+        "population_2020" : 26712,
+        "population" : 28672,
+        "square_mileage" : 28.06
+    },
+    "Franklin, Southeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Franklin",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Southeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 1922,
+        "population_2020" : 1863,
+        "population" : 1885,
+        "square_mileage" : 19.51
+    },
+    "Glastonbury, Capitol Planning Region, Connecticut" : {
+        "name" : "Glastonbury",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 34427,
+        "population_2020" : 35159,
+        "population" : 36887,
+        "square_mileage" : 51.37
+    },
+    "Goshen, Northwest Hills Planning Region, Connecticut" : {
+        "name" : "Goshen",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northwest Hills Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 2976,
+        "population_2020" : 3150,
+        "population" : 3391,
+        "square_mileage" : 43.66
+    },
+    "Granby, Capitol Planning Region, Connecticut" : {
+        "name" : "Granby",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 11282,
+        "population_2020" : 10903,
+        "population" : 11010,
+        "square_mileage" : 40.69
+    },
+    "Greenwich, Western Connecticut Planning Region, Connecticut" : {
+        "name" : "Greenwich",
+        "state" : "Connecticut",
+        "FIPS" : "09-33690",
+        "counties" : [
+            "Western Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 61171,
+        "population_2020" : 63518,
+        "population" : 67436,
+        "square_mileage" : 47.83
+    },
+    "Griswold, Southeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Griswold",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Southeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 11951,
+        "population_2020" : 11402,
+        "population" : 11414,
+        "square_mileage" : 34.95
+    },
+    "Groton, Southeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Groton",
+        "state" : "Connecticut",
+        "FIPS" : "09-34180",
+        "counties" : [
+            "Southeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 40115,
+        "population_2020" : 38411,
+        "population" : 38546,
+        "square_mileage" : 31.3
+    },
+    "Guilford, South Central Connecticut Planning Region, Connecticut" : {
+        "name" : "Guilford",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "South Central Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 22375,
+        "population_2020" : 22073,
+        "population" : 22604,
+        "square_mileage" : 47.05
+    },
+    "Haddam, Lower Connecticut River Valley Planning Region, Connecticut" : {
+        "name" : "Haddam",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Lower Connecticut River Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 8346,
+        "population_2020" : 8452,
+        "population" : 8815,
+        "square_mileage" : 44.03
+    },
+    "Hamden, South Central Connecticut Planning Region, Connecticut" : {
+        "name" : "Hamden",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "South Central Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 60960,
+        "population_2020" : 61169,
+        "population" : 63383,
+        "square_mileage" : 32.78
+    },
+    "Hampton, Northeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Hampton",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 1863,
+        "population_2020" : 1728,
+        "population" : 1698,
+        "square_mileage" : 25.0
+    },
+    "Hartford, Capitol Planning Region, Connecticut" : {
+        "name" : "Hartford",
+        "state" : "Connecticut",
+        "FIPS" : "09-37000",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "City",
+        "population_2010" : 124775,
+        "population_2020" : 121054,
+        "population" : 122560,
+        "square_mileage" : 17.31
+    },
+    "Hartland, Northwest Hills Planning Region, Connecticut" : {
+        "name" : "Hartland",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northwest Hills Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 2114,
+        "population_2020" : 1901,
+        "population" : 1831,
+        "square_mileage" : 33.03
+    },
+    "Harwinton, Northwest Hills Planning Region, Connecticut" : {
+        "name" : "Harwinton",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northwest Hills Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 5642,
+        "population_2020" : 5484,
+        "population" : 5559,
+        "square_mileage" : 30.75
+    },
+    "Hebron, Capitol Planning Region, Connecticut" : {
+        "name" : "Hebron",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 9686,
+        "population_2020" : 9098,
+        "population" : 9014,
+        "square_mileage" : 36.9
+    },
+    "Kent, Northwest Hills Planning Region, Connecticut" : {
+        "name" : "Kent",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northwest Hills Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 2979,
+        "population_2020" : 3019,
+        "population" : 3150,
+        "square_mileage" : 48.47
+    },
+    "Killingly, Northeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Killingly",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 17370,
+        "population_2020" : 17752,
+        "population" : 18634,
+        "square_mileage" : 48.52
+    },
+    "Killingworth, Lower Connecticut River Valley Planning Region, Connecticut" : {
+        "name" : "Killingworth",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Lower Connecticut River Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 6525,
+        "population_2020" : 6174,
+        "population" : 6147,
+        "square_mileage" : 35.33
+    },
+    "Lebanon, Southeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Lebanon",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Southeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 7308,
+        "population_2020" : 7142,
+        "population" : 7267,
+        "square_mileage" : 54.11
+    },
+    "Ledyard, Southeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Ledyard",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Southeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 15051,
+        "population_2020" : 15413,
+        "population" : 16202,
+        "square_mileage" : 38.14
+    },
+    "Lisbon, Southeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Lisbon",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Southeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 4338,
+        "population_2020" : 4195,
+        "population" : 4238,
+        "square_mileage" : 16.26
+    },
+    "Litchfield, Northwest Hills Planning Region, Connecticut" : {
+        "name" : "Litchfield",
+        "state" : "Connecticut",
+        "FIPS" : "09-43300",
+        "counties" : [
+            "Northwest Hills Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 8466,
+        "population_2020" : 8192,
+        "population" : 8279,
+        "square_mileage" : 56.06
+    },
+    "Lyme, Lower Connecticut River Valley Planning Region, Connecticut" : {
+        "name" : "Lyme",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Lower Connecticut River Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 2406,
+        "population_2020" : 2352,
+        "population" : 2394,
+        "square_mileage" : 31.85
+    },
+    "Madison, South Central Connecticut Planning Region, Connecticut" : {
+        "name" : "Madison",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "South Central Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 18269,
+        "population_2020" : 17691,
+        "population" : 17888,
+        "square_mileage" : 36.2
+    },
+    "Manchester, Capitol Planning Region, Connecticut" : {
+        "name" : "Manchester",
+        "state" : "Connecticut",
+        "FIPS" : "09-44690",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 58241,
+        "population_2020" : 59713,
+        "population" : 62822,
+        "square_mileage" : 27.26
+    },
+    "Mansfield, Capitol Planning Region, Connecticut" : {
+        "name" : "Mansfield",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 26543,
+        "population_2020" : 25892,
+        "population" : 26311,
+        "square_mileage" : 44.46
+    },
+    "Marlborough, Capitol Planning Region, Connecticut" : {
+        "name" : "Marlborough",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 6404,
+        "population_2020" : 6133,
+        "population" : 6155,
+        "square_mileage" : 23.28
+    },
+    "Meriden, South Central Connecticut Planning Region, Connecticut" : {
+        "name" : "Meriden",
+        "state" : "Connecticut",
+        "FIPS" : "09-46450",
+        "counties" : [
+            "South Central Connecticut Planning Region"
+        ],
+        "type" : "City",
+        "population_2010" : 60868,
+        "population_2020" : 60850,
+        "population" : 62889,
+        "square_mileage" : 23.75
+    },
+    "Middlebury, Naugatuck Valley Planning Region, Connecticut" : {
+        "name" : "Middlebury",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Naugatuck Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 7575,
+        "population_2020" : 7574,
+        "population" : 7829,
+        "square_mileage" : 17.75
+    },
+    "Middlefield, Lower Connecticut River Valley Planning Region, Connecticut" : {
+        "name" : "Middlefield",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Lower Connecticut River Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 4425,
+        "population_2020" : 4217,
+        "population" : 4218,
+        "square_mileage" : 12.7
+    },
+    "Middletown, Lower Connecticut River Valley Planning Region, Connecticut" : {
+        "name" : "Middletown",
+        "state" : "Connecticut",
+        "FIPS" : "09-47290",
+        "counties" : [
+            "Lower Connecticut River Valley Planning Region"
+        ],
+        "type" : "City",
+        "population_2010" : 47648,
+        "population_2020" : 47717,
+        "population" : 49376,
+        "square_mileage" : 40.9
+    },
+    "Milford, South Central Connecticut Planning Region, Connecticut" : {
+        "name" : "Milford",
+        "state" : "Connecticut",
+        "FIPS" : "09-47515",
+        "counties" : [
+            "South Central Connecticut Planning Region"
+        ],
+        "type" : "City",
+        "population_2010" : 52759,
+        "population_2020" : 52044,
+        "population" : 53293,
+        "square_mileage" : 22.56
+    },
+    "Monroe, Greater Bridgeport Planning Region, Connecticut" : {
+        "name" : "Monroe",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Greater Bridgeport Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 19479,
+        "population_2020" : 18825,
+        "population" : 19009,
+        "square_mileage" : 26.13
+    },
+    "Montville, Southeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Montville",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Southeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 19571,
+        "population_2020" : 18387,
+        "population" : 18220,
+        "square_mileage" : 42.02
+    },
+    "Morris, Northwest Hills Planning Region, Connecticut" : {
+        "name" : "Morris",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northwest Hills Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 2388,
+        "population_2020" : 2256,
+        "population" : 2244,
+        "square_mileage" : 17.19
+    },
+    "Naugatuck, Naugatuck Valley Planning Region, Connecticut" : {
+        "name" : "Naugatuck",
+        "state" : "Connecticut",
+        "FIPS" : "09-49880",
+        "counties" : [
+            "Naugatuck Valley Planning Region"
+        ],
+        "type" : "Borough",
+        "population_2010" : 31862,
+        "population_2020" : 31519,
+        "population" : 32338,
+        "square_mileage" : 16.39
+    },
+    "New Britain, Capitol Planning Region, Connecticut" : {
+        "name" : "New Britain",
+        "state" : "Connecticut",
+        "FIPS" : "09-50370",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "City",
+        "population_2010" : 73206,
+        "population_2020" : 74135,
+        "population" : 77316,
+        "square_mileage" : 13.34
+    },
+    "New Canaan, Western Connecticut Planning Region, Connecticut" : {
+        "name" : "New Canaan",
+        "state" : "Connecticut",
+        "FIPS" : "09-50576",
+        "counties" : [
+            "Western Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 19738,
+        "population_2020" : 20622,
+        "population" : 21992,
+        "square_mileage" : 22.13
+    },
+    "New Fairfield, Western Connecticut Planning Region, Connecticut" : {
+        "name" : "New Fairfield",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Western Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 13881,
+        "population_2020" : 13579,
+        "population" : 13826,
+        "square_mileage" : 20.46
+    },
+    "New Hartford, Northwest Hills Planning Region, Connecticut" : {
+        "name" : "New Hartford",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northwest Hills Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 6970,
+        "population_2020" : 6658,
+        "population" : 6671,
+        "square_mileage" : 37.03
+    },
+    "New Haven, South Central Connecticut Planning Region, Connecticut" : {
+        "name" : "New Haven",
+        "state" : "Connecticut",
+        "FIPS" : "09-52000",
+        "counties" : [
+            "South Central Connecticut Planning Region"
+        ],
+        "type" : "City",
+        "population_2010" : 129779,
+        "population_2020" : 134023,
+        "population" : 141731,
+        "square_mileage" : 18.85
+    },
+    "New London, Southeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "New London",
+        "state" : "Connecticut",
+        "FIPS" : "09-52280",
+        "counties" : [
+            "Southeastern Connecticut Planning Region"
+        ],
+        "type" : "City",
+        "population_2010" : 27620,
+        "population_2020" : 27367,
+        "population" : 28110,
+        "square_mileage" : 5.54
+    },
+    "New Milford, Western Connecticut Planning Region, Connecticut" : {
+        "name" : "New Milford",
+        "state" : "Connecticut",
+        "FIPS" : "09-52560",
+        "counties" : [
+            "Western Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 28142,
+        "population_2020" : 28115,
+        "population" : 29044,
+        "square_mileage" : 61.59
+    },
+    "Newington, Capitol Planning Region, Connecticut" : {
+        "name" : "Newington",
+        "state" : "Connecticut",
+        "FIPS" : "09-52210",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 30562,
+        "population_2020" : 30536,
+        "population" : 31547,
+        "square_mileage" : 13.18
+    },
+    "Newtown, Western Connecticut Planning Region, Connecticut" : {
+        "name" : "Newtown",
+        "state" : "Connecticut",
+        "FIPS" : "09-52910",
+        "counties" : [
+            "Western Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 27560,
+        "population_2020" : 27173,
+        "population" : 27816,
+        "square_mileage" : 57.76
+    },
+    "Norfolk, Northwest Hills Planning Region, Connecticut" : {
+        "name" : "Norfolk",
+        "state" : "Connecticut",
+        "FIPS" : "09-53400",
+        "counties" : [
+            "Northwest Hills Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 1709,
+        "population_2020" : 1588,
+        "population" : 1562,
+        "square_mileage" : 45.31
+    },
+    "North Branford, South Central Connecticut Planning Region, Connecticut" : {
+        "name" : "North Branford",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "South Central Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 14407,
+        "population_2020" : 13544,
+        "population" : 13427,
+        "square_mileage" : 24.92
+    },
+    "North Canaan, Northwest Hills Planning Region, Connecticut" : {
+        "name" : "North Canaan",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northwest Hills Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 3315,
+        "population_2020" : 3211,
+        "population" : 3247,
+        "square_mileage" : 19.45
+    },
+    "North Haven, South Central Connecticut Planning Region, Connecticut" : {
+        "name" : "North Haven",
+        "state" : "Connecticut",
+        "FIPS" : "09-54940",
+        "counties" : [
+            "South Central Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 24093,
+        "population_2020" : 24253,
+        "population" : 25187,
+        "square_mileage" : 20.77
+    },
+    "North Stonington, Southeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "North Stonington",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Southeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 5297,
+        "population_2020" : 5149,
+        "population" : 5220,
+        "square_mileage" : 54.31
+    },
+    "Norwalk, Western Connecticut Planning Region, Connecticut" : {
+        "name" : "Norwalk",
+        "state" : "Connecticut",
+        "FIPS" : "09-55990",
+        "counties" : [
+            "Western Connecticut Planning Region"
+        ],
+        "type" : "City",
+        "population_2010" : 85603,
+        "population_2020" : 91184,
+        "population" : 98625,
+        "square_mileage" : 22.81
+    },
+    "Norwich, Southeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Norwich",
+        "state" : "Connecticut",
+        "FIPS" : "09-56200",
+        "counties" : [
+            "Southeastern Connecticut Planning Region"
+        ],
+        "type" : "City",
+        "population_2010" : 40493,
+        "population_2020" : 40125,
+        "population" : 41216,
+        "square_mileage" : 28.33
+    },
+    "Old Lyme, Lower Connecticut River Valley Planning Region, Connecticut" : {
+        "name" : "Old Lyme",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Lower Connecticut River Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 7603,
+        "population_2020" : 7628,
+        "population" : 7903,
+        "square_mileage" : 23.1
+    },
+    "Old Saybrook, Lower Connecticut River Valley Planning Region, Connecticut" : {
+        "name" : "Old Saybrook",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Lower Connecticut River Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 10242,
+        "population_2020" : 10481,
+        "population" : 11012,
+        "square_mileage" : 15.04
+    },
+    "Orange, South Central Connecticut Planning Region, Connecticut" : {
+        "name" : "Orange",
+        "state" : "Connecticut",
+        "FIPS" : "09-57670",
+        "counties" : [
+            "South Central Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 13956,
+        "population_2020" : 14280,
+        "population" : 15002,
+        "square_mileage" : 17.19
+    },
+    "Oxford, Naugatuck Valley Planning Region, Connecticut" : {
+        "name" : "Oxford",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Naugatuck Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 12683,
+        "population_2020" : 12706,
+        "population" : 13151,
+        "square_mileage" : 32.89
+    },
+    "Plainfield, Northeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Plainfield",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 15405,
+        "population_2020" : 14973,
+        "population" : 15178,
+        "square_mileage" : 42.27
+    },
+    "Plainville, Capitol Planning Region, Connecticut" : {
+        "name" : "Plainville",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 17716,
+        "population_2020" : 17525,
+        "population" : 17980,
+        "square_mileage" : 9.76
+    },
+    "Plymouth, Naugatuck Valley Planning Region, Connecticut" : {
+        "name" : "Plymouth",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Naugatuck Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 12243,
+        "population_2020" : 11671,
+        "population" : 11677,
+        "square_mileage" : 21.72
+    },
+    "Pomfret, Northeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Pomfret",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 4247,
+        "population_2020" : 4266,
+        "population" : 4424,
+        "square_mileage" : 40.3
+    },
+    "Portland, Lower Connecticut River Valley Planning Region, Connecticut" : {
+        "name" : "Portland",
+        "state" : "Connecticut",
+        "FIPS" : "09-61870",
+        "counties" : [
+            "Lower Connecticut River Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 9508,
+        "population_2020" : 9384,
+        "population" : 9613,
+        "square_mileage" : 23.4
+    },
+    "Preston, Southeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Preston",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Southeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 4726,
+        "population_2020" : 4788,
+        "population" : 4995,
+        "square_mileage" : 30.9
+    },
+    "Prospect, Naugatuck Valley Planning Region, Connecticut" : {
+        "name" : "Prospect",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Naugatuck Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 9405,
+        "population_2020" : 9401,
+        "population" : 9715,
+        "square_mileage" : 14.32
+    },
+    "Putnam, Northeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Putnam",
+        "state" : "Connecticut",
+        "FIPS" : "09-62640",
+        "counties" : [
+            "Northeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 9584,
+        "population_2020" : 9224,
+        "population" : 9288,
+        "square_mileage" : 20.29
+    },
+    "Redding, Western Connecticut Planning Region, Connecticut" : {
+        "name" : "Redding",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Western Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 9158,
+        "population_2020" : 8765,
+        "population" : 8793,
+        "square_mileage" : 31.5
+    },
+    "Ridgefield, Western Connecticut Planning Region, Connecticut" : {
+        "name" : "Ridgefield",
+        "state" : "Connecticut",
+        "FIPS" : "09-63900",
+        "counties" : [
+            "Western Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 24638,
+        "population_2020" : 25033,
+        "population" : 26168,
+        "square_mileage" : 34.43
+    },
+    "Rocky Hill, Capitol Planning Region, Connecticut" : {
+        "name" : "Rocky Hill",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 19709,
+        "population_2020" : 20845,
+        "population" : 22428,
+        "square_mileage" : 13.45
+    },
+    "Roxbury, Northwest Hills Planning Region, Connecticut" : {
+        "name" : "Roxbury",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northwest Hills Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 2262,
+        "population_2020" : 2260,
+        "population" : 2335,
+        "square_mileage" : 26.23
+    },
+    "Salem, Southeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Salem",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Southeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 4151,
+        "population_2020" : 4213,
+        "population" : 4401,
+        "square_mileage" : 28.95
+    },
+    "Salisbury, Northwest Hills Planning Region, Connecticut" : {
+        "name" : "Salisbury",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northwest Hills Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 3741,
+        "population_2020" : 4194,
+        "population" : 4715,
+        "square_mileage" : 57.32
+    },
+    "Scotland, Northeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Scotland",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 1726,
+        "population_2020" : 1576,
+        "population" : 1533,
+        "square_mileage" : 18.61
+    },
+    "Seymour, Naugatuck Valley Planning Region, Connecticut" : {
+        "name" : "Seymour",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Naugatuck Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 16540,
+        "population_2020" : 16748,
+        "population" : 17465,
+        "square_mileage" : 14.57
+    },
+    "Sharon, Northwest Hills Planning Region, Connecticut" : {
+        "name" : "Sharon",
+        "state" : "Connecticut",
+        "FIPS" : "09-67890",
+        "counties" : [
+            "Northwest Hills Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 2782,
+        "population_2020" : 2680,
+        "population" : 2700,
+        "square_mileage" : 58.7
+    },
+    "Shelton, Naugatuck Valley Planning Region, Connecticut" : {
+        "name" : "Shelton",
+        "state" : "Connecticut",
+        "FIPS" : "09-68100",
+        "counties" : [
+            "Naugatuck Valley Planning Region"
+        ],
+        "type" : "City",
+        "population_2010" : 39559,
+        "population_2020" : 40869,
+        "population" : 43232,
+        "square_mileage" : 30.57
+    },
+    "Sherman, Western Connecticut Planning Region, Connecticut" : {
+        "name" : "Sherman",
+        "state" : "Connecticut",
+        "FIPS" : "09-68240",
+        "counties" : [
+            "Western Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 3581,
+        "population_2020" : 3527,
+        "population" : 3608,
+        "square_mileage" : 21.8
+    },
+    "Simsbury, Capitol Planning Region, Connecticut" : {
+        "name" : "Simsbury",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 23511,
+        "population_2020" : 24517,
+        "population" : 26109,
+        "square_mileage" : 33.88
+    },
+    "Somers, Capitol Planning Region, Connecticut" : {
+        "name" : "Somers",
+        "state" : "Connecticut",
+        "FIPS" : "09-69150",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 11444,
+        "population_2020" : 10255,
+        "population" : 9857,
+        "square_mileage" : 28.34
+    },
+    "South Windsor, Capitol Planning Region, Connecticut" : {
+        "name" : "South Windsor",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 25709,
+        "population_2020" : 26918,
+        "population" : 28750,
+        "square_mileage" : 27.96
+    },
+    "Southbury, Naugatuck Valley Planning Region, Connecticut" : {
+        "name" : "Southbury",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Naugatuck Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 19904,
+        "population_2020" : 19879,
+        "population" : 20531,
+        "square_mileage" : 39.06
+    },
+    "Southington, Capitol Planning Region, Connecticut" : {
+        "name" : "Southington",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 43069,
+        "population_2020" : 43501,
+        "population" : 45283,
+        "square_mileage" : 35.99
+    },
+    "Sprague, Southeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Sprague",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Southeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 2984,
+        "population_2020" : 2967,
+        "population" : 3055,
+        "square_mileage" : 13.21
+    },
+    "Stafford, Capitol Planning Region, Connecticut" : {
+        "name" : "Stafford",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 12087,
+        "population_2020" : 11472,
+        "population" : 11445,
+        "square_mileage" : 57.96
+    },
+    "Stamford, Western Connecticut Planning Region, Connecticut" : {
+        "name" : "Stamford",
+        "state" : "Connecticut",
+        "FIPS" : "09-73000",
+        "counties" : [
+            "Western Connecticut Planning Region"
+        ],
+        "type" : "City",
+        "population_2010" : 122643,
+        "population_2020" : 135470,
+        "population" : 150567,
+        "square_mileage" : 37.75
+    },
+    "Sterling, Northeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Sterling",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 3830,
+        "population_2020" : 3578,
+        "population" : 3532,
+        "square_mileage" : 27.23
+    },
+    "Stonington, Southeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Stonington",
+        "state" : "Connecticut",
+        "FIPS" : "09-73700",
+        "counties" : [
+            "Southeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 18545,
+        "population_2020" : 18335,
+        "population" : 18804,
+        "square_mileage" : 38.69
+    },
+    "Stratford, Greater Bridgeport Planning Region, Connecticut" : {
+        "name" : "Stratford",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Greater Bridgeport Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 51384,
+        "population_2020" : 52355,
+        "population" : 54837,
+        "square_mileage" : 17.59
+    },
+    "Suffield, Capitol Planning Region, Connecticut" : {
+        "name" : "Suffield",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 15735,
+        "population_2020" : 15752,
+        "population" : 16296,
+        "square_mileage" : 42.21
+    },
+    "Thomaston, Naugatuck Valley Planning Region, Connecticut" : {
+        "name" : "Thomaston",
+        "state" : "Connecticut",
+        "FIPS" : "09-75660",
+        "counties" : [
+            "Naugatuck Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 7887,
+        "population_2020" : 7442,
+        "population" : 7396,
+        "square_mileage" : 12.01
+    },
+    "Thompson, Northeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Thompson",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 9458,
+        "population_2020" : 9189,
+        "population" : 9312,
+        "square_mileage" : 46.94
+    },
+    "Tolland, Capitol Planning Region, Connecticut" : {
+        "name" : "Tolland",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 15052,
+        "population_2020" : 14563,
+        "population" : 14717,
+        "square_mileage" : 39.71
+    },
+    "Torrington, Northwest Hills Planning Region, Connecticut" : {
+        "name" : "Torrington",
+        "state" : "Connecticut",
+        "FIPS" : "09-76500",
+        "counties" : [
+            "Northwest Hills Planning Region"
+        ],
+        "type" : "City",
+        "population_2010" : 36383,
+        "population_2020" : 35515,
+        "population" : 36107,
+        "square_mileage" : 39.79
+    },
+    "Trumbull, Greater Bridgeport Planning Region, Connecticut" : {
+        "name" : "Trumbull",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Greater Bridgeport Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 36018,
+        "population_2020" : 36827,
+        "population" : 38669,
+        "square_mileage" : 23.29
+    },
+    "Union, Northeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Union",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 854,
+        "population_2020" : 785,
+        "population" : 767,
+        "square_mileage" : 28.71
+    },
+    "Vernon, Capitol Planning Region, Connecticut" : {
+        "name" : "Vernon",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 29179,
+        "population_2020" : 30215,
+        "population" : 32015,
+        "square_mileage" : 17.73
+    },
+    "Voluntown, Northeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Voluntown",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 2603,
+        "population_2020" : 2570,
+        "population" : 2633,
+        "square_mileage" : 38.92
+    },
+    "Wallingford, South Central Connecticut Planning Region, Connecticut" : {
+        "name" : "Wallingford",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "South Central Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 45135,
+        "population_2020" : 44396,
+        "population" : 45372,
+        "square_mileage" : 39.02
+    },
+    "Warren, Northwest Hills Planning Region, Connecticut" : {
+        "name" : "Warren",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northwest Hills Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 1461,
+        "population_2020" : 1351,
+        "population" : 1325,
+        "square_mileage" : 26.31
+    },
+    "Washington, Northwest Hills Planning Region, Connecticut" : {
+        "name" : "Washington",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northwest Hills Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 3578,
+        "population_2020" : 3646,
+        "population" : 3819,
+        "square_mileage" : 38.19
+    },
+    "Waterbury, Naugatuck Valley Planning Region, Connecticut" : {
+        "name" : "Waterbury",
+        "state" : "Connecticut",
+        "FIPS" : "09-80000",
+        "counties" : [
+            "Naugatuck Valley Planning Region"
+        ],
+        "type" : "City",
+        "population_2010" : 110366,
+        "population_2020" : 114403,
+        "population" : 121308,
+        "square_mileage" : 28.57
+    },
+    "Waterford, Southeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Waterford",
+        "state" : "Connecticut",
+        "FIPS" : "09-80210",
+        "counties" : [
+            "Southeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 19517,
+        "population_2020" : 19571,
+        "population" : 20270,
+        "square_mileage" : 32.75
+    },
+    "Watertown, Naugatuck Valley Planning Region, Connecticut" : {
+        "name" : "Watertown",
+        "state" : "Connecticut",
+        "FIPS" : "09-80420",
+        "counties" : [
+            "Naugatuck Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 22514,
+        "population_2020" : 22105,
+        "population" : 22563,
+        "square_mileage" : 29.15
+    },
+    "West Hartford, Capitol Planning Region, Connecticut" : {
+        "name" : "West Hartford",
+        "state" : "Connecticut",
+        "FIPS" : "09-82660",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 63268,
+        "population_2020" : 64083,
+        "population" : 66841,
+        "square_mileage" : 21.98
+    },
+    "West Haven, South Central Connecticut Planning Region, Connecticut" : {
+        "name" : "West Haven",
+        "state" : "Connecticut",
+        "FIPS" : "09-82800",
+        "counties" : [
+            "South Central Connecticut Planning Region"
+        ],
+        "type" : "City",
+        "population_2010" : 55564,
+        "population_2020" : 55584,
+        "population" : 57473,
+        "square_mileage" : 10.84
+    },
+    "Westbrook, Lower Connecticut River Valley Planning Region, Connecticut" : {
+        "name" : "Westbrook",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Lower Connecticut River Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 6938,
+        "population_2020" : 6769,
+        "population" : 6879,
+        "square_mileage" : 15.72
+    },
+    "Weston, Western Connecticut Planning Region, Connecticut" : {
+        "name" : "Weston",
+        "state" : "Connecticut",
+        "FIPS" : "09-83360",
+        "counties" : [
+            "Western Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 10179,
+        "population_2020" : 10354,
+        "population" : 10832,
+        "square_mileage" : 19.8
+    },
+    "Westport, Western Connecticut Planning Region, Connecticut" : {
+        "name" : "Westport",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Western Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 26391,
+        "population_2020" : 27141,
+        "population" : 28617,
+        "square_mileage" : 20.01
+    },
+    "Wethersfield, Capitol Planning Region, Connecticut" : {
+        "name" : "Wethersfield",
+        "state" : "Connecticut",
+        "FIPS" : "09-84970",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 26668,
+        "population_2020" : 27298,
+        "population" : 28686,
+        "square_mileage" : 12.39
+    },
+    "Willington, Capitol Planning Region, Connecticut" : {
+        "name" : "Willington",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 6041,
+        "population_2020" : 5566,
+        "population" : 5446,
+        "square_mileage" : 33.27
+    },
+    "Wilton, Western Connecticut Planning Region, Connecticut" : {
+        "name" : "Wilton",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Western Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 18062,
+        "population_2020" : 18503,
+        "population" : 19455,
+        "square_mileage" : 26.95
+    },
+    "Winchester, Northwest Hills Planning Region, Connecticut" : {
+        "name" : "Winchester",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northwest Hills Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 11242,
+        "population_2020" : 10224,
+        "population" : 9920,
+        "square_mileage" : 32.28
+    },
+    "Windham, Southeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Windham",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Southeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 25268,
+        "population_2020" : 24425,
+        "population" : 24668,
+        "square_mileage" : 27.07
+    },
+    "Windsor, Capitol Planning Region, Connecticut" : {
+        "name" : "Windsor",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 29044,
+        "population_2020" : 29492,
+        "population" : 30816,
+        "square_mileage" : 29.63
+    },
+    "Windsor Locks, Capitol Planning Region, Connecticut" : {
+        "name" : "Windsor Locks",
+        "state" : "Connecticut",
+        "FIPS" : "09-87140",
+        "counties" : [
+            "Capitol Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 12498,
+        "population_2020" : 12613,
+        "population" : 13122,
+        "square_mileage" : 9.03
+    },
+    "Wolcott, Naugatuck Valley Planning Region, Connecticut" : {
+        "name" : "Wolcott",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Naugatuck Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 16680,
+        "population_2020" : 16142,
+        "population" : 16315,
+        "square_mileage" : 20.43
+    },
+    "Woodbridge, South Central Connecticut Planning Region, Connecticut" : {
+        "name" : "Woodbridge",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "South Central Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 8990,
+        "population_2020" : 9087,
+        "population" : 9464,
+        "square_mileage" : 18.83
+    },
+    "Woodbury, Naugatuck Valley Planning Region, Connecticut" : {
+        "name" : "Woodbury",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Naugatuck Valley Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 9975,
+        "population_2020" : 9723,
+        "population" : 9875,
+        "square_mileage" : 36.47
+    },
+    "Woodstock, Northeastern Connecticut Planning Region, Connecticut" : {
+        "name" : "Woodstock",
+        "state" : "Connecticut",
+        "FIPS" : "None",
+        "counties" : [
+            "Northeastern Connecticut Planning Region"
+        ],
+        "type" : "Town",
+        "population_2010" : 7964,
+        "population_2020" : 8221,
+        "population" : 8691,
+        "square_mileage" : 60.54
+    }
+}

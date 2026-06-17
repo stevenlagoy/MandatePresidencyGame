@@ -1,0 +1,509 @@
+{
+    "Barrington, Bristol County, Rhode Island" : {
+        "name" : "Barrington",
+        "state" : "Rhode Island",
+        "FIPS" : "44-05140",
+        "counties" : [
+            "Bristol County"
+        ],
+        "type" : "Town",
+        "population_2010" : 16310,
+        "population_2020" : 17153,
+        "population" : 18221,
+        "square_mileage" : 8.22
+    },
+    "Bristol, Bristol County, Rhode Island" : {
+        "name" : "Bristol",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Bristol County"
+        ],
+        "type" : "Town",
+        "population_2010" : 22954,
+        "population_2020" : 22493,
+        "population" : 22729,
+        "square_mileage" : 9.82
+    },
+    "Burrillville, Providence County, Rhode Island" : {
+        "name" : "Burrillville",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Providence County"
+        ],
+        "type" : "Town",
+        "population_2010" : 15955,
+        "population_2020" : 16158,
+        "population" : 16706,
+        "square_mileage" : 55.03
+    },
+    "Central Falls, Providence County, Rhode Island" : {
+        "name" : "Central Falls",
+        "state" : "Rhode Island",
+        "FIPS" : "44-14140",
+        "counties" : [
+            "Providence County"
+        ],
+        "type" : "City",
+        "population_2010" : 19376,
+        "population_2020" : 22583,
+        "population" : 25950,
+        "square_mileage" : 1.2
+    },
+    "Charlestown, Washington County, Rhode Island" : {
+        "name" : "Charlestown",
+        "state" : "Rhode Island",
+        "FIPS" : "44-14320",
+        "counties" : [
+            "Washington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 7827,
+        "population_2020" : 7997,
+        "population" : 8320,
+        "square_mileage" : 36.45
+    },
+    "Coventry, Kent County, Rhode Island" : {
+        "name" : "Coventry",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Kent County"
+        ],
+        "type" : "Town",
+        "population_2010" : 35014,
+        "population_2020" : 35688,
+        "population" : 37065,
+        "square_mileage" : 59.05
+    },
+    "Cranston, Providence County, Rhode Island" : {
+        "name" : "Cranston",
+        "state" : "Rhode Island",
+        "FIPS" : "44-19180",
+        "counties" : [
+            "Providence County"
+        ],
+        "type" : "City",
+        "population_2010" : 80387,
+        "population_2020" : 82934,
+        "population" : 86884,
+        "square_mileage" : 28.34
+    },
+    "Cumberland, Providence County, Rhode Island" : {
+        "name" : "Cumberland",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Providence County"
+        ],
+        "type" : "Town",
+        "population_2010" : 33506,
+        "population_2020" : 36405,
+        "population" : 39617,
+        "square_mileage" : 26.45
+    },
+    "East Greenwich, Kent County, Rhode Island" : {
+        "name" : "East Greenwich",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Kent County"
+        ],
+        "type" : "Town",
+        "population_2010" : 13146,
+        "population_2020" : 14312,
+        "population" : 15598,
+        "square_mileage" : 16.39
+    },
+    "East Providence, Providence County, Rhode Island" : {
+        "name" : "East Providence",
+        "state" : "Rhode Island",
+        "FIPS" : "44-22960",
+        "counties" : [
+            "Providence County"
+        ],
+        "type" : "City",
+        "population_2010" : 47037,
+        "population_2020" : 47139,
+        "population" : 48379,
+        "square_mileage" : 13.24
+    },
+    "Exeter, Washington County, Rhode Island" : {
+        "name" : "Exeter",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 6425,
+        "population_2020" : 6460,
+        "population" : 6645,
+        "square_mileage" : 57.47
+    },
+    "Foster, Providence County, Rhode Island" : {
+        "name" : "Foster",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Providence County"
+        ],
+        "type" : "Town",
+        "population_2010" : 4606,
+        "population_2020" : 4469,
+        "population" : 4485,
+        "square_mileage" : 50.8
+    },
+    "Glocester, Providence County, Rhode Island" : {
+        "name" : "Glocester",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Providence County"
+        ],
+        "type" : "Town",
+        "population_2010" : 9746,
+        "population_2020" : 9974,
+        "population" : 10389,
+        "square_mileage" : 54.18
+    },
+    "Hopkinton, Washington County, Rhode Island" : {
+        "name" : "Hopkinton",
+        "state" : "Rhode Island",
+        "FIPS" : "44-35200",
+        "counties" : [
+            "Washington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 8188,
+        "population_2020" : 8398,
+        "population" : 8761,
+        "square_mileage" : 42.95
+    },
+    "Jamestown, Newport County, Rhode Island" : {
+        "name" : "Jamestown",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Newport County"
+        ],
+        "type" : "Town",
+        "population_2010" : 5405,
+        "population_2020" : 5559,
+        "population" : 5811,
+        "square_mileage" : 9.45
+    },
+    "Johnston, Providence County, Rhode Island" : {
+        "name" : "Johnston",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Providence County"
+        ],
+        "type" : "Town",
+        "population_2010" : 28769,
+        "population_2020" : 29568,
+        "population" : 30892,
+        "square_mileage" : 23.43
+    },
+    "Lincoln, Providence County, Rhode Island" : {
+        "name" : "Lincoln",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Providence County"
+        ],
+        "type" : "Town",
+        "population_2010" : 21105,
+        "population_2020" : 22529,
+        "population" : 24196,
+        "square_mileage" : 18.12
+    },
+    "Little Compton, Newport County, Rhode Island" : {
+        "name" : "Little Compton",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Newport County"
+        ],
+        "type" : "Town",
+        "population_2010" : 3492,
+        "population_2020" : 3616,
+        "population" : 3798,
+        "square_mileage" : 20.52
+    },
+    "Middletown, Newport County, Rhode Island" : {
+        "name" : "Middletown",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Newport County"
+        ],
+        "type" : "Town",
+        "population_2010" : 16150,
+        "population_2020" : 17075,
+        "population" : 18209,
+        "square_mileage" : 12.72
+    },
+    "Narragansett, Washington County, Rhode Island" : {
+        "name" : "Narragansett",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 15868,
+        "population_2020" : 14532,
+        "population" : 14039,
+        "square_mileage" : 13.89
+    },
+    "Newport, Newport County, Rhode Island" : {
+        "name" : "Newport",
+        "state" : "Rhode Island",
+        "FIPS" : "44-49960",
+        "counties" : [
+            "Newport County"
+        ],
+        "type" : "City",
+        "population_2010" : 24672,
+        "population_2020" : 25163,
+        "population" : 26146,
+        "square_mileage" : 7.67
+    },
+    "New Shoreham, Washington County, Rhode Island" : {
+        "name" : "New Shoreham",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1051,
+        "population_2020" : 1410,
+        "population" : 1826,
+        "square_mileage" : 9.08
+    },
+    "North Kingstown, Washington County, Rhode Island" : {
+        "name" : "North Kingstown",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 26486,
+        "population_2020" : 27732,
+        "population" : 29364,
+        "square_mileage" : 43.14
+    },
+    "North Providence, Providence County, Rhode Island" : {
+        "name" : "North Providence",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Providence County"
+        ],
+        "type" : "Town",
+        "population_2010" : 32078,
+        "population_2020" : 34114,
+        "population" : 36536,
+        "square_mileage" : 5.62
+    },
+    "North Smithfield, Providence County, Rhode Island" : {
+        "name" : "North Smithfield",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Providence County"
+        ],
+        "type" : "Town",
+        "population_2010" : 11967,
+        "population_2020" : 12588,
+        "population" : 13374,
+        "square_mileage" : 23.8
+    },
+    "Pawtucket, Providence County, Rhode Island" : {
+        "name" : "Pawtucket",
+        "state" : "Rhode Island",
+        "FIPS" : "44-54640",
+        "counties" : [
+            "Providence County"
+        ],
+        "type" : "City",
+        "population_2010" : 71148,
+        "population_2020" : 75604,
+        "population" : 80925,
+        "square_mileage" : 8.68
+    },
+    "Portsmouth, Newport County, Rhode Island" : {
+        "name" : "Portsmouth",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Newport County"
+        ],
+        "type" : "Town",
+        "population_2010" : 17389,
+        "population_2020" : 17871,
+        "population" : 18671,
+        "square_mileage" : 22.98
+    },
+    "Providence, Providence County, Rhode Island" : {
+        "name" : "Providence",
+        "state" : "Rhode Island",
+        "FIPS" : "44-59000",
+        "counties" : [
+            "Providence County"
+        ],
+        "type" : "City",
+        "population_2010" : 178042,
+        "population_2020" : 190934,
+        "population" : 205761,
+        "square_mileage" : 18.4
+    },
+    "Richmond, Washington County, Rhode Island" : {
+        "name" : "Richmond",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 7708,
+        "population_2020" : 8020,
+        "population" : 8453,
+        "square_mileage" : 40.29
+    },
+    "Scituate, Providence County, Rhode Island" : {
+        "name" : "Scituate",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Providence County"
+        ],
+        "type" : "Town",
+        "population_2010" : 10329,
+        "population_2020" : 10384,
+        "population" : 10681,
+        "square_mileage" : 48.16
+    },
+    "Smithfield, Providence County, Rhode Island" : {
+        "name" : "Smithfield",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Providence County"
+        ],
+        "type" : "Town",
+        "population_2010" : 21430,
+        "population_2020" : 22118,
+        "population" : 23178,
+        "square_mileage" : 26.31
+    },
+    "South Kingstown, Washington County, Rhode Island" : {
+        "name" : "South Kingstown",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Washington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 30639,
+        "population_2020" : 31931,
+        "population" : 33696,
+        "square_mileage" : 56.45
+    },
+    "Tiverton, Newport County, Rhode Island" : {
+        "name" : "Tiverton",
+        "state" : "Rhode Island",
+        "FIPS" : "44-70700",
+        "counties" : [
+            "Newport County"
+        ],
+        "type" : "Town",
+        "population_2010" : 15780,
+        "population_2020" : 16359,
+        "population" : 17198,
+        "square_mileage" : 29.05
+    },
+    "Warren, Bristol County, Rhode Island" : {
+        "name" : "Warren",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Bristol County"
+        ],
+        "type" : "Town",
+        "population_2010" : 10611,
+        "population_2020" : 11147,
+        "population" : 11832,
+        "square_mileage" : 6.12
+    },
+    "Warwick, Kent County, Rhode Island" : {
+        "name" : "Warwick",
+        "state" : "Rhode Island",
+        "FIPS" : "44-74300",
+        "counties" : [
+            "Kent County"
+        ],
+        "type" : "City",
+        "population_2010" : 82672,
+        "population_2020" : 82823,
+        "population" : 84982,
+        "square_mileage" : 35.04
+    },
+    "Westerly, Washington County, Rhode Island" : {
+        "name" : "Westerly",
+        "state" : "Rhode Island",
+        "FIPS" : "44-76820",
+        "counties" : [
+            "Washington County"
+        ],
+        "type" : "Town",
+        "population_2010" : 22787,
+        "population_2020" : 23359,
+        "population" : 24360,
+        "square_mileage" : 29.52
+    },
+    "West Greenwich, Kent County, Rhode Island" : {
+        "name" : "West Greenwich",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Kent County"
+        ],
+        "type" : "Town",
+        "population_2010" : 6135,
+        "population_2020" : 6528,
+        "population" : 6994,
+        "square_mileage" : 50.26
+    },
+    "West Warwick, Kent County, Rhode Island" : {
+        "name" : "West Warwick",
+        "state" : "Rhode Island",
+        "FIPS" : "None",
+        "counties" : [
+            "Kent County"
+        ],
+        "type" : "Town",
+        "population_2010" : 29191,
+        "population_2020" : 31012,
+        "population" : 33189,
+        "square_mileage" : 7.79
+    },
+    "Woonsocket, Providence County, Rhode Island" : {
+        "name" : "Woonsocket",
+        "state" : "Rhode Island",
+        "FIPS" : "44-80780",
+        "counties" : [
+            "Providence County"
+        ],
+        "type" : "City",
+        "population_2010" : 41186,
+        "population_2020" : 43240,
+        "population" : 45875,
+        "square_mileage" : 7.74
+    }
+}

@@ -1,0 +1,1185 @@
+{
+    "Apache Junction, Pinal County, Arizona" : {
+        "name" : "Apache Junction",
+        "state" : "Arizona",
+        "FIPS" : "04-02830",
+        "counties" : [
+            "Pinal County"
+        ],
+        "type" : "City",
+        "population_2010" : 35840,
+        "population_2020" : 38499,
+        "population" : 44963,
+        "square_mileage" : 1097.8
+    },
+    "Avondale, Maricopa County, Arizona" : {
+        "name" : "Avondale",
+        "state" : "Arizona",
+        "FIPS" : "04-04720",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "City",
+        "population_2010" : 76238,
+        "population_2020" : 89334,
+        "population" : 111506,
+        "square_mileage" : 1889.5
+    },
+    "Benson, Cochise County, Arizona" : {
+        "name" : "Benson",
+        "state" : "Arizona",
+        "FIPS" : "04-05770",
+        "counties" : [
+            "Cochise County"
+        ],
+        "type" : "City",
+        "population_2010" : 5105,
+        "population_2020" : 5355,
+        "population" : 6147,
+        "square_mileage" : 128.6
+    },
+    "Bisbee, Cochise County, Arizona" : {
+        "name" : "Bisbee",
+        "state" : "Arizona",
+        "FIPS" : "04-06260",
+        "counties" : [
+            "Cochise County"
+        ],
+        "type" : "City",
+        "population_2010" : 5575,
+        "population_2020" : 4923,
+        "population" : 5038,
+        "square_mileage" : 950.4
+    },
+    "Buckeye, Maricopa County, Arizona" : {
+        "name" : "Buckeye",
+        "state" : "Arizona",
+        "FIPS" : "04-07940",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "City",
+        "population_2010" : 50876,
+        "population_2020" : 91502,
+        "population" : 172552,
+        "square_mileage" : 232.8
+    },
+    "Bullhead City, Mohave County, Arizona" : {
+        "name" : "Bullhead City",
+        "state" : "Arizona",
+        "FIPS" : "04-08220",
+        "counties" : [
+            "Mohave County"
+        ],
+        "type" : "City",
+        "population_2010" : 39540,
+        "population_2020" : 41348,
+        "population" : 47357,
+        "square_mileage" : 696.4
+    },
+    "Camp Verde, Yavapai County, Arizona" : {
+        "name" : "Camp Verde",
+        "state" : "Arizona",
+        "FIPS" : "04-09690",
+        "counties" : [
+            "Yavapai County"
+        ],
+        "type" : "Town",
+        "population_2010" : 10873,
+        "population_2020" : 12147,
+        "population" : 14609,
+        "square_mileage" : 286.8
+    },
+    "Carefree, Maricopa County, Arizona" : {
+        "name" : "Carefree",
+        "state" : "Arizona",
+        "FIPS" : "04-10180",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 3363,
+        "population_2020" : 3690,
+        "population" : 4378,
+        "square_mileage" : 418.8
+    },
+    "Casa Grande, Pinal County, Arizona" : {
+        "name" : "Casa Grande",
+        "state" : "Arizona",
+        "FIPS" : "04-10530",
+        "counties" : [
+            "Pinal County"
+        ],
+        "type" : "City",
+        "population_2010" : 48571,
+        "population_2020" : 53658,
+        "population" : 63989,
+        "square_mileage" : 484.0
+    },
+    "Cave Creek, Maricopa County, Arizona" : {
+        "name" : "Cave Creek",
+        "state" : "Arizona",
+        "FIPS" : "04-11300",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 5015,
+        "population_2020" : 4892,
+        "population" : 5338,
+        "square_mileage" : 129.7
+    },
+    "Chandler, Maricopa County, Arizona" : {
+        "name" : "Chandler",
+        "state" : "Arizona",
+        "FIPS" : "04-12000",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "City",
+        "population_2010" : 236123,
+        "population_2020" : 275987,
+        "population" : 343796,
+        "square_mileage" : 4226.4
+    },
+    "Chino Valley, Yavapai County, Arizona" : {
+        "name" : "Chino Valley",
+        "state" : "Arizona",
+        "FIPS" : "04-12840",
+        "counties" : [
+            "Yavapai County"
+        ],
+        "type" : "Town",
+        "population_2010" : 10817,
+        "population_2020" : 13020,
+        "population" : 16606,
+        "square_mileage" : 208.6
+    },
+    "Clarkdale, Yavapai County, Arizona" : {
+        "name" : "Clarkdale",
+        "state" : "Arizona",
+        "FIPS" : "04-13890",
+        "counties" : [
+            "Yavapai County"
+        ],
+        "type" : "Town",
+        "population_2010" : 4097,
+        "population_2020" : 4424,
+        "population" : 5187,
+        "square_mileage" : 434.6
+    },
+    "Clifton, Greenlee County, Arizona" : {
+        "name" : "Clifton",
+        "state" : "Arizona",
+        "FIPS" : "04-14380",
+        "counties" : [
+            "Greenlee County"
+        ],
+        "type" : "Town",
+        "population_2010" : 3311,
+        "population_2020" : 3933,
+        "population" : 4963,
+        "square_mileage" : 269.0
+    },
+    "Colorado City, Mohave County, Arizona" : {
+        "name" : "Colorado City",
+        "state" : "Arizona",
+        "FIPS" : "04-14870",
+        "counties" : [
+            "Mohave County"
+        ],
+        "type" : "Town",
+        "population_2010" : 4821,
+        "population_2020" : 2478,
+        "population" : 1951,
+        "square_mileage" : 269.3
+    },
+    "Coolidge, Pinal County, Arizona" : {
+        "name" : "Coolidge",
+        "state" : "Arizona",
+        "FIPS" : "04-15500",
+        "counties" : [
+            "Pinal County"
+        ],
+        "type" : "City",
+        "population_2010" : 11825,
+        "population_2020" : 13218,
+        "population" : 15904,
+        "square_mileage" : 173.3
+    },
+    "Cottonwood, Yavapai County, Arizona" : {
+        "name" : "Cottonwood",
+        "state" : "Arizona",
+        "FIPS" : "04-16410",
+        "counties" : [
+            "Yavapai County"
+        ],
+        "type" : "City",
+        "population_2010" : 11265,
+        "population_2020" : 12029,
+        "population" : 13987,
+        "square_mileage" : 724.6
+    },
+    "Dewey-Humboldt, Yavapai County, Arizona" : {
+        "name" : "Dewey-Humboldt",
+        "state" : "Arizona",
+        "FIPS" : "04-19145",
+        "counties" : [
+            "Yavapai County"
+        ],
+        "type" : "Town",
+        "population_2010" : 3894,
+        "population_2020" : 4326,
+        "population" : 5181,
+        "square_mileage" : 230.2
+    },
+    "Douglas, Cochise County, Arizona" : {
+        "name" : "Douglas",
+        "state" : "Arizona",
+        "FIPS" : "04-20050",
+        "counties" : [
+            "Cochise County"
+        ],
+        "type" : "City",
+        "population_2010" : 17378,
+        "population_2020" : 16534,
+        "population" : 17744,
+        "square_mileage" : 1656.7
+    },
+    "Duncan, Greenlee County, Arizona" : {
+        "name" : "Duncan",
+        "state" : "Arizona",
+        "FIPS" : "04-20750",
+        "counties" : [
+            "Greenlee County"
+        ],
+        "type" : "Town",
+        "population_2010" : 696,
+        "population_2020" : 694,
+        "population" : 769,
+        "square_mileage" : 322.8
+    },
+    "Eagar, Apache County, Arizona" : {
+        "name" : "Eagar",
+        "state" : "Arizona",
+        "FIPS" : "04-20960",
+        "counties" : [
+            "Apache County"
+        ],
+        "type" : "Town",
+        "population_2010" : 4885,
+        "population_2020" : 4395,
+        "population" : 4550,
+        "square_mileage" : 379.5
+    },
+    "El Mirage, Maricopa County, Arizona" : {
+        "name" : "El Mirage",
+        "state" : "Arizona",
+        "FIPS" : "04-22220",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "City",
+        "population_2010" : 31797,
+        "population_2020" : 35805,
+        "population" : 43324,
+        "square_mileage" : 3616.7
+    },
+    "Eloy, Pinal County, Arizona" : {
+        "name" : "Eloy",
+        "state" : "Arizona",
+        "FIPS" : "04-22360",
+        "counties" : [
+            "Pinal County"
+        ],
+        "type" : "City",
+        "population_2010" : 16631,
+        "population_2020" : 15635,
+        "population" : 16648,
+        "square_mileage" : 137.7
+    },
+    "Flagstaff, Coconino County, Arizona" : {
+        "name" : "Flagstaff",
+        "state" : "Arizona",
+        "FIPS" : "04-23620",
+        "counties" : [
+            "Coconino County"
+        ],
+        "type" : "City",
+        "population_2010" : 65870,
+        "population_2020" : 76831,
+        "population" : 95551,
+        "square_mileage" : 1163.6
+    },
+    "Florence, Pinal County, Arizona" : {
+        "name" : "Florence",
+        "state" : "Arizona",
+        "FIPS" : "04-23760",
+        "counties" : [
+            "Pinal County"
+        ],
+        "type" : "Town",
+        "population_2010" : 25536,
+        "population_2020" : 26785,
+        "population" : 30745,
+        "square_mileage" : 427.7
+    },
+    "Fountain Hills, Maricopa County, Arizona" : {
+        "name" : "Fountain Hills",
+        "state" : "Arizona",
+        "FIPS" : "04-25300",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 22489,
+        "population_2020" : 23820,
+        "population" : 27535,
+        "square_mileage" : 1174.6
+    },
+    "Fredonia, Coconino County, Arizona" : {
+        "name" : "Fredonia",
+        "state" : "Arizona",
+        "FIPS" : "04-25720",
+        "counties" : [
+            "Coconino County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1314,
+        "population_2020" : 1323,
+        "population" : 1475,
+        "square_mileage" : 149.0
+    },
+    "Gila Bend, Maricopa County, Arizona" : {
+        "name" : "Gila Bend",
+        "state" : "Arizona",
+        "FIPS" : "04-27050",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1922,
+        "population_2020" : 1892,
+        "population" : 2077,
+        "square_mileage" : 29.4
+    },
+    "Gilbert, Maricopa County, Arizona" : {
+        "name" : "Gilbert",
+        "state" : "Arizona",
+        "FIPS" : "04-27400",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 208453,
+        "population_2020" : 267918,
+        "population" : 361017,
+        "square_mileage" : 3907.2
+    },
+    "Glendale, Maricopa County, Arizona" : {
+        "name" : "Glendale",
+        "state" : "Arizona",
+        "FIPS" : "04-27820",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "City",
+        "population_2010" : 226721,
+        "population_2020" : 248325,
+        "population" : 294232,
+        "square_mileage" : 4031.3
+    },
+    "Globe, Gila County, Arizona" : {
+        "name" : "Globe",
+        "state" : "Arizona",
+        "FIPS" : "04-28030",
+        "counties" : [
+            "Gila County"
+        ],
+        "type" : "City",
+        "population_2010" : 7532,
+        "population_2020" : 7249,
+        "population" : 7839,
+        "square_mileage" : 397.0
+    },
+    "Goodyear, Maricopa County, Arizona" : {
+        "name" : "Goodyear",
+        "state" : "Arizona",
+        "FIPS" : "04-28380",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "City",
+        "population_2010" : 65275,
+        "population_2020" : 95294,
+        "population" : 144225,
+        "square_mileage" : 498.1
+    },
+    "Guadalupe, Maricopa County, Arizona" : {
+        "name" : "Guadalupe",
+        "state" : "Arizona",
+        "FIPS" : "04-30270",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 5523,
+        "population_2020" : 5322,
+        "population" : 5760,
+        "square_mileage" : 6652.5
+    },
+    "Hayden, Gila County, Arizona" : {
+        "name" : "Hayden",
+        "state" : "Arizona",
+        "FIPS" : "04-32020",
+        "counties" : [
+            "Gila County"
+        ],
+        "type" : "Town",
+        "population_2010" : 662,
+        "population_2020" : 512,
+        "population" : 485,
+        "square_mileage" : 403.1
+    },
+    "Holbrook, Navajo County, Arizona" : {
+        "name" : "Holbrook",
+        "state" : "Arizona",
+        "FIPS" : "04-33280",
+        "counties" : [
+            "Navajo County"
+        ],
+        "type" : "City",
+        "population_2010" : 5053,
+        "population_2020" : 4858,
+        "population" : 5250,
+        "square_mileage" : 280.2
+    },
+    "Huachuca City, Cochise County, Arizona" : {
+        "name" : "Huachuca City",
+        "state" : "Arizona",
+        "FIPS" : "04-34120",
+        "counties" : [
+            "Cochise County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1853,
+        "population_2020" : 1626,
+        "population" : 1658,
+        "square_mileage" : 574.6
+    },
+    "Jerome, Yavapai County, Arizona" : {
+        "name" : "Jerome",
+        "state" : "Arizona",
+        "FIPS" : "04-36290",
+        "counties" : [
+            "Yavapai County"
+        ],
+        "type" : "Town",
+        "population_2010" : 444,
+        "population_2020" : 464,
+        "population" : 531,
+        "square_mileage" : 587.3
+    },
+    "Kearny, Pinal County, Arizona" : {
+        "name" : "Kearny",
+        "state" : "Arizona",
+        "FIPS" : "04-37200",
+        "counties" : [
+            "Pinal County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1950,
+        "population_2020" : 1741,
+        "population" : 1794,
+        "square_mileage" : 644.8
+    },
+    "Kingman, Mohave County, Arizona" : {
+        "name" : "Kingman",
+        "state" : "Arizona",
+        "FIPS" : "04-37620",
+        "counties" : [
+            "Mohave County"
+        ],
+        "type" : "City",
+        "population_2010" : 28068,
+        "population_2020" : 32689,
+        "population" : 40605,
+        "square_mileage" : 870.5
+    },
+    "Lake Havasu City, Mohave County, Arizona" : {
+        "name" : "Lake Havasu City",
+        "state" : "Arizona",
+        "FIPS" : "04-39370",
+        "counties" : [
+            "Mohave County"
+        ],
+        "type" : "City",
+        "population_2010" : 52527,
+        "population_2020" : 57144,
+        "population" : 67367,
+        "square_mileage" : 1233.1
+    },
+    "Litchfield Park, Maricopa County, Arizona" : {
+        "name" : "Litchfield Park",
+        "state" : "Arizona",
+        "FIPS" : "04-41330",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "City",
+        "population_2010" : 5476,
+        "population_2020" : 6847,
+        "population" : 9012,
+        "square_mileage" : 2087.5
+    },
+    "Mammoth, Pinal County, Arizona" : {
+        "name" : "Mammoth",
+        "state" : "Arizona",
+        "FIPS" : "04-43990",
+        "counties" : [
+            "Pinal County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1426,
+        "population_2020" : 1076,
+        "population" : 1006,
+        "square_mileage" : 40.9
+    },
+    "Marana, Pima County, Arizona" : {
+        "name" : "Marana",
+        "state" : "Arizona",
+        "FIPS" : "04-44270",
+        "counties" : [
+            "Pima County"
+        ],
+        "type" : "Town",
+        "population_2010" : 34961,
+        "population_2020" : 51908,
+        "population" : 79859,
+        "square_mileage" : 428.6
+    },
+    "Maricopa, Pinal County, Arizona" : {
+        "name" : "Maricopa",
+        "state" : "Arizona",
+        "FIPS" : "04-44410",
+        "counties" : [
+            "Pinal County"
+        ],
+        "type" : "City",
+        "population_2010" : 43482,
+        "population_2020" : 58125,
+        "population" : 81069,
+        "square_mileage" : 1368.9
+    },
+    "Mesa, Maricopa County, Arizona" : {
+        "name" : "Mesa",
+        "state" : "Arizona",
+        "FIPS" : "04-46000",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "City",
+        "population_2010" : 439041,
+        "population_2020" : 504258,
+        "population" : 619560,
+        "square_mileage" : 3635.6
+    },
+    "Miami, Gila County, Arizona" : {
+        "name" : "Miami",
+        "state" : "Arizona",
+        "FIPS" : "04-46350",
+        "counties" : [
+            "Gila County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1837,
+        "population_2020" : 1541,
+        "population" : 1529,
+        "square_mileage" : 1731.5
+    },
+    "Nogales, Santa Cruz County, Arizona" : {
+        "name" : "Nogales",
+        "state" : "Arizona",
+        "FIPS" : "04-49640",
+        "counties" : [
+            "Santa Cruz County"
+        ],
+        "type" : "City",
+        "population_2010" : 20837,
+        "population_2020" : 19770,
+        "population" : 21178,
+        "square_mileage" : 949.6
+    },
+    "Oro Valley, Pima County, Arizona" : {
+        "name" : "Oro Valley",
+        "state" : "Arizona",
+        "FIPS" : "04-51600",
+        "counties" : [
+            "Pima County"
+        ],
+        "type" : "Town",
+        "population_2010" : 41011,
+        "population_2020" : 47070,
+        "population" : 57801,
+        "square_mileage" : 1349.9
+    },
+    "Page, Coconino County, Arizona" : {
+        "name" : "Page",
+        "state" : "Arizona",
+        "FIPS" : "04-51810",
+        "counties" : [
+            "Coconino County"
+        ],
+        "type" : "City",
+        "population_2010" : 7247,
+        "population_2020" : 7440,
+        "population" : 8410,
+        "square_mileage" : 194.9
+    },
+    "Paradise Valley, Maricopa County, Arizona" : {
+        "name" : "Paradise Valley",
+        "state" : "Arizona",
+        "FIPS" : "04-52930",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 12820,
+        "population_2020" : 12658,
+        "population" : 13926,
+        "square_mileage" : 823.0
+    },
+    "Parker, La Paz County, Arizona" : {
+        "name" : "Parker",
+        "state" : "Arizona",
+        "FIPS" : "04-53070",
+        "counties" : [
+            "La Paz County"
+        ],
+        "type" : "Town",
+        "population_2010" : 3083,
+        "population_2020" : 3417,
+        "population" : 4085,
+        "square_mileage" : 155.5
+    },
+    "Patagonia, Santa Cruz County, Arizona" : {
+        "name" : "Patagonia",
+        "state" : "Arizona",
+        "FIPS" : "04-53490",
+        "counties" : [
+            "Santa Cruz County"
+        ],
+        "type" : "Town",
+        "population_2010" : 913,
+        "population_2020" : 804,
+        "population" : 821,
+        "square_mileage" : 623.3
+    },
+    "Payson, Gila County, Arizona" : {
+        "name" : "Payson",
+        "state" : "Arizona",
+        "FIPS" : "04-53700",
+        "counties" : [
+            "Gila County"
+        ],
+        "type" : "Town",
+        "population_2010" : 15301,
+        "population_2020" : 16351,
+        "population" : 19024,
+        "square_mileage" : 845.0
+    },
+    "Peoria, Maricopa County, Arizona" : {
+        "name" : "Peoria",
+        "state" : "Arizona",
+        "FIPS" : "04-54050",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "City",
+        "population_2010" : 154065,
+        "population_2020" : 190985,
+        "population" : 249576,
+        "square_mileage" : 1084.6
+    },
+    "Phoenix, Maricopa County, Arizona" : {
+        "name" : "Phoenix",
+        "state" : "Arizona",
+        "FIPS" : "04-55000",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "City",
+        "population_2010" : 1445632,
+        "population_2020" : 1608139,
+        "population" : 1927835,
+        "square_mileage" : 3104.5
+    },
+    "Pima, Graham County, Arizona" : {
+        "name" : "Pima",
+        "state" : "Arizona",
+        "FIPS" : "04-55560",
+        "counties" : [
+            "Graham County"
+        ],
+        "type" : "Town",
+        "population_2010" : 2387,
+        "population_2020" : 2847,
+        "population" : 3604,
+        "square_mileage" : 390.0
+    },
+    "Pinetop-Lakeside, Navajo County, Arizona" : {
+        "name" : "Pinetop-Lakeside",
+        "state" : "Arizona",
+        "FIPS" : "04-55980",
+        "counties" : [
+            "Navajo County"
+        ],
+        "type" : "Town",
+        "population_2010" : 4282,
+        "population_2020" : 4030,
+        "population" : 4294,
+        "square_mileage" : 361.4
+    },
+    "Prescott, Yavapai County, Arizona" : {
+        "name" : "Prescott",
+        "state" : "Arizona",
+        "FIPS" : "04-57380",
+        "counties" : [
+            "Yavapai County"
+        ],
+        "type" : "City",
+        "population_2010" : 39843,
+        "population_2020" : 45827,
+        "population" : 56369,
+        "square_mileage" : 1019.1
+    },
+    "Prescott Valley, Yavapai County, Arizona" : {
+        "name" : "Prescott Valley",
+        "state" : "Arizona",
+        "FIPS" : "04-57450",
+        "counties" : [
+            "Yavapai County"
+        ],
+        "type" : "Town",
+        "population_2010" : 38822,
+        "population_2020" : 46785,
+        "population" : 59730,
+        "square_mileage" : 1156.0
+    },
+    "Quartzsite, La Paz County, Arizona" : {
+        "name" : "Quartzsite",
+        "state" : "Arizona",
+        "FIPS" : "04-58010",
+        "counties" : [
+            "La Paz County"
+        ],
+        "type" : "Town",
+        "population_2010" : 3677,
+        "population_2020" : 2413,
+        "population" : 2104,
+        "square_mileage" : 66.5
+    },
+    "Queen Creek, Maricopa County, Arizona" : {
+        "name" : "Queen Creek",
+        "state" : "Arizona",
+        "FIPS" : "04-58150",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 26361,
+        "population_2020" : 59519,
+        "population" : 149651,
+        "square_mileage" : 1476.2
+    },
+    "Safford, Graham County, Arizona" : {
+        "name" : "Safford",
+        "state" : "Arizona",
+        "FIPS" : "04-62000",
+        "counties" : [
+            "Graham County"
+        ],
+        "type" : "City",
+        "population_2010" : 9566,
+        "population_2020" : 10129,
+        "population" : 11706,
+        "square_mileage" : 1092.7
+    },
+    "Sahuarita, Pima County, Arizona" : {
+        "name" : "Sahuarita",
+        "state" : "Arizona",
+        "FIPS" : "04-62140",
+        "counties" : [
+            "Pima County"
+        ],
+        "type" : "Town",
+        "population_2010" : 25259,
+        "population_2020" : 34134,
+        "population" : 48074,
+        "square_mileage" : 1077.1
+    },
+    "San Luis, Yuma County, Arizona" : {
+        "name" : "San Luis",
+        "state" : "Arizona",
+        "FIPS" : "04-63470",
+        "counties" : [
+            "Yuma County"
+        ],
+        "type" : "City",
+        "population_2010" : 25505,
+        "population_2020" : 35257,
+        "population" : 50690,
+        "square_mileage" : 1036.1
+    },
+    "Scottsdale, Maricopa County, Arizona" : {
+        "name" : "Scottsdale",
+        "state" : "Arizona",
+        "FIPS" : "04-65000",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "City",
+        "population_2010" : 217385,
+        "population_2020" : 241361,
+        "population" : 288925,
+        "square_mileage" : 1311.7
+    },
+    "Sedona, Yavapai County, Arizona" : {
+        "name" : "Sedona",
+        "state" : "Arizona",
+        "FIPS" : "04-65350",
+        "counties" : [
+            "Yavapai County"
+        ],
+        "type" : "City",
+        "population_2010" : 10031,
+        "population_2020" : 9684,
+        "population" : 10494,
+        "square_mileage" : 530.3
+    },
+    "Show Low, Navajo County, Arizona" : {
+        "name" : "Show Low",
+        "state" : "Arizona",
+        "FIPS" : "04-66470",
+        "counties" : [
+            "Navajo County"
+        ],
+        "type" : "City",
+        "population_2010" : 10660,
+        "population_2020" : 11732,
+        "population" : 13951,
+        "square_mileage" : 179.1
+    },
+    "Sierra Vista, Cochise County, Arizona" : {
+        "name" : "Sierra Vista",
+        "state" : "Arizona",
+        "FIPS" : "04-66820",
+        "counties" : [
+            "Cochise County"
+        ],
+        "type" : "City",
+        "population_2010" : 43888,
+        "population_2020" : 45308,
+        "population" : 51418,
+        "square_mileage" : 297.6
+    },
+    "Snowflake, Navajo County, Arizona" : {
+        "name" : "Snowflake",
+        "state" : "Arizona",
+        "FIPS" : "04-67800",
+        "counties" : [
+            "Navajo County"
+        ],
+        "type" : "Town",
+        "population_2010" : 5590,
+        "population_2020" : 6104,
+        "population" : 7216,
+        "square_mileage" : 180.9
+    },
+    "Somerton, Yuma County, Arizona" : {
+        "name" : "Somerton",
+        "state" : "Arizona",
+        "FIPS" : "04-68080",
+        "counties" : [
+            "Yuma County"
+        ],
+        "type" : "City",
+        "population_2010" : 14287,
+        "population_2020" : 14197,
+        "population" : 15688,
+        "square_mileage" : 1952.8
+    },
+    "South Tucson, Pima County, Arizona" : {
+        "name" : "South Tucson",
+        "state" : "Arizona",
+        "FIPS" : "04-68850",
+        "counties" : [
+            "Pima County"
+        ],
+        "type" : "City",
+        "population_2010" : 5652,
+        "population_2020" : 4613,
+        "population" : 4505,
+        "square_mileage" : 4478.6
+    },
+    "Springerville, Apache County, Arizona" : {
+        "name" : "Springerville",
+        "state" : "Arizona",
+        "FIPS" : "04-68990",
+        "counties" : [
+            "Apache County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1961,
+        "population_2020" : 1717,
+        "population" : 1748,
+        "square_mileage" : 149.3
+    },
+    "St. Johns, Apache County, Arizona" : {
+        "name" : "St. Johns",
+        "state" : "Arizona",
+        "FIPS" : "04-62362",
+        "counties" : [
+            "Apache County"
+        ],
+        "type" : "City",
+        "population_2010" : 3480,
+        "population_2020" : 3417,
+        "population" : 3745,
+        "square_mileage" : 131.9
+    },
+    "Star Valley, Gila County, Arizona" : {
+        "name" : "Star Valley",
+        "state" : "Arizona",
+        "FIPS" : "04-69480",
+        "counties" : [
+            "Gila County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1970,
+        "population_2020" : 2484,
+        "population" : 3293,
+        "square_mileage" : 68.7
+    },
+    "Superior, Pinal County, Arizona" : {
+        "name" : "Superior",
+        "state" : "Arizona",
+        "FIPS" : "04-71300",
+        "counties" : [
+            "Pinal County"
+        ],
+        "type" : "Town",
+        "population_2010" : 2837,
+        "population_2020" : 2407,
+        "population" : 2404,
+        "square_mileage" : 1228.1
+    },
+    "Surprise, Maricopa County, Arizona" : {
+        "name" : "Surprise",
+        "state" : "Arizona",
+        "FIPS" : "04-71510",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "City",
+        "population_2010" : 117517,
+        "population_2020" : 143148,
+        "population" : 184366,
+        "square_mileage" : 1297.8
+    },
+    "Taylor, Navajo County, Arizona" : {
+        "name" : "Taylor",
+        "state" : "Arizona",
+        "FIPS" : "04-72420",
+        "counties" : [
+            "Navajo County"
+        ],
+        "type" : "Town",
+        "population_2010" : 4112,
+        "population_2020" : 3995,
+        "population" : 4348,
+        "square_mileage" : 122.3
+    },
+    "Tempe, Maricopa County, Arizona" : {
+        "name" : "Tempe",
+        "state" : "Arizona",
+        "FIPS" : "04-73000",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "City",
+        "population_2010" : 161719,
+        "population_2020" : 180587,
+        "population" : 217117,
+        "square_mileage" : 4521.5
+    },
+    "Thatcher, Graham County, Arizona" : {
+        "name" : "Thatcher",
+        "state" : "Arizona",
+        "FIPS" : "04-73420",
+        "counties" : [
+            "Graham County"
+        ],
+        "type" : "Town",
+        "population_2010" : 4865,
+        "population_2020" : 5231,
+        "population" : 6114,
+        "square_mileage" : 792.6
+    },
+    "Tolleson, Maricopa County, Arizona" : {
+        "name" : "Tolleson",
+        "state" : "Arizona",
+        "FIPS" : "04-74190",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "City",
+        "population_2010" : 6545,
+        "population_2020" : 7216,
+        "population" : 8592,
+        "square_mileage" : 1259.3
+    },
+    "Tombstone, Cochise County, Arizona" : {
+        "name" : "Tombstone",
+        "state" : "Arizona",
+        "FIPS" : "04-74400",
+        "counties" : [
+            "Cochise County"
+        ],
+        "type" : "City",
+        "population_2010" : 1380,
+        "population_2020" : 1308,
+        "population" : 1400,
+        "square_mileage" : 141.4
+    },
+    "Tucson, Pima County, Arizona" : {
+        "name" : "Tucson",
+        "state" : "Arizona",
+        "FIPS" : "04-77000",
+        "counties" : [
+            "Pima County"
+        ],
+        "type" : "City",
+        "population_2010" : 520116,
+        "population_2020" : 542629,
+        "population" : 620443,
+        "square_mileage" : 2251.7
+    },
+    "Tusayan, Coconino County, Arizona" : {
+        "name" : "Tusayan",
+        "state" : "Arizona",
+        "FIPS" : "04-77490",
+        "counties" : [
+            "Coconino County"
+        ],
+        "type" : "Town",
+        "population_2010" : 558,
+        "population_2020" : 603,
+        "population" : 707,
+        "square_mileage" : 35.8
+    },
+    "Wellton, Yuma County, Arizona" : {
+        "name" : "Wellton",
+        "state" : "Arizona",
+        "FIPS" : "04-81480",
+        "counties" : [
+            "Yuma County"
+        ],
+        "type" : "Town",
+        "population_2010" : 2882,
+        "population_2020" : 2375,
+        "population" : 2332,
+        "square_mileage" : 82.2
+    },
+    "Wickenburg, Maricopa County, Arizona" : {
+        "name" : "Wickenburg",
+        "state" : "Arizona",
+        "FIPS" : "04-82740",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 6363,
+        "population_2020" : 7474,
+        "population" : 9347,
+        "square_mileage" : 289.0
+    },
+    "Willcox, Cochise County, Arizona" : {
+        "name" : "Willcox",
+        "state" : "Arizona",
+        "FIPS" : "04-83090",
+        "counties" : [
+            "Cochise County"
+        ],
+        "type" : "City",
+        "population_2010" : 3757,
+        "population_2020" : 3213,
+        "population" : 3225,
+        "square_mileage" : 522.4
+    },
+    "Williams, Coconino County, Arizona" : {
+        "name" : "Williams",
+        "state" : "Arizona",
+        "FIPS" : "04-83160",
+        "counties" : [
+            "Coconino County"
+        ],
+        "type" : "City",
+        "population_2010" : 3023,
+        "population_2020" : 3202,
+        "population" : 3701,
+        "square_mileage" : 73.1
+    },
+    "Winkelman, Gila County, Arizona" : {
+        "name" : "Winkelman",
+        "state" : "Arizona",
+        "FIPS" : "04-83790",
+        "counties" : [
+            "Gila County"
+        ],
+        "type" : "Town",
+        "population_2010" : 353,
+        "population_2020" : 296,
+        "population" : 294,
+        "square_mileage" : 384.4
+    },
+    "Winslow, Navajo County, Arizona" : {
+        "name" : "Winslow",
+        "state" : "Arizona",
+        "FIPS" : "04-83930",
+        "counties" : [
+            "Navajo County"
+        ],
+        "type" : "City",
+        "population_2010" : 9655,
+        "population_2020" : 9005,
+        "population" : 9539,
+        "square_mileage" : 693.2
+    },
+    "Youngtown, Maricopa County, Arizona" : {
+        "name" : "Youngtown",
+        "state" : "Arizona",
+        "FIPS" : "04-85400",
+        "counties" : [
+            "Maricopa County"
+        ],
+        "type" : "Town",
+        "population_2010" : 6156,
+        "population_2020" : 7056,
+        "population" : 8656,
+        "square_mileage" : 4735.6
+    },
+    "Yuma, Yuma County, Arizona" : {
+        "name" : "Yuma",
+        "state" : "Arizona",
+        "FIPS" : "04-85540",
+        "counties" : [
+            "Yuma County"
+        ],
+        "type" : "City",
+        "population_2010" : 93064,
+        "population_2020" : 95548,
+        "population" : 108011,
+        "square_mileage" : 791.8
+    }
+}

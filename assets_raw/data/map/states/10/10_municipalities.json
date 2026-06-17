@@ -1,0 +1,746 @@
+{
+    "Arden, New Castle County, Delaware" : {
+        "name" : "Arden",
+        "state" : "Delaware",
+        "FIPS" : "10-01400",
+        "counties" : [
+            "New Castle County"
+        ],
+        "type" : "Village",
+        "population_2010" : 439,
+        "population_2020" : 430,
+        "population" : 473,
+        "square_mileage" : 1726.9
+    },
+    "Ardencroft, New Castle County, Delaware" : {
+        "name" : "Ardencroft",
+        "state" : "Delaware",
+        "FIPS" : "10-01530",
+        "counties" : [
+            "New Castle County"
+        ],
+        "type" : "Village",
+        "population_2010" : 231,
+        "population_2020" : 226,
+        "population" : 248,
+        "square_mileage" : 2539.3
+    },
+    "Ardentown, New Castle County, Delaware" : {
+        "name" : "Ardentown",
+        "state" : "Delaware",
+        "FIPS" : "10-01660",
+        "counties" : [
+            "New Castle County"
+        ],
+        "type" : "Village",
+        "population_2010" : 264,
+        "population_2020" : 255,
+        "population" : 278,
+        "square_mileage" : 1089.7
+    },
+    "Bellefonte, New Castle County, Delaware" : {
+        "name" : "Bellefonte",
+        "state" : "Delaware",
+        "FIPS" : "10-04650",
+        "counties" : [
+            "New Castle County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1193,
+        "population_2020" : 1225,
+        "population" : 1392,
+        "square_mileage" : 6920.9
+    },
+    "Bethany Beach, Sussex County, Delaware" : {
+        "name" : "Bethany Beach",
+        "state" : "Delaware",
+        "FIPS" : "10-05690",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1060,
+        "population_2020" : 954,
+        "population" : 993,
+        "square_mileage" : 831.0
+    },
+    "Bethel, Sussex County, Delaware" : {
+        "name" : "Bethel",
+        "state" : "Delaware",
+        "FIPS" : "10-05820",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "Town",
+        "population_2010" : 171,
+        "population_2020" : 239,
+        "population" : 349,
+        "square_mileage" : 543.2
+    },
+    "Blades, Sussex County, Delaware" : {
+        "name" : "Blades",
+        "state" : "Delaware",
+        "FIPS" : "10-06730",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1241,
+        "population_2020" : 1179,
+        "population" : 1271,
+        "square_mileage" : 2120.5
+    },
+    "Bowers, Kent County, Delaware" : {
+        "name" : "Bowers",
+        "state" : "Delaware",
+        "FIPS" : "10-07250",
+        "counties" : [
+            "Kent County"
+        ],
+        "type" : "Town",
+        "population_2010" : 335,
+        "population_2020" : 278,
+        "population" : 276,
+        "square_mileage" : 893.9
+    },
+    "Bridgeville, Sussex County, Delaware" : {
+        "name" : "Bridgeville",
+        "state" : "Delaware",
+        "FIPS" : "10-08680",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "Town",
+        "population_2010" : 2048,
+        "population_2020" : 2568,
+        "population" : 3405,
+        "square_mileage" : 532.7
+    },
+    "Camden, Kent County, Delaware" : {
+        "name" : "Camden",
+        "state" : "Delaware",
+        "FIPS" : "10-10760",
+        "counties" : [
+            "Kent County"
+        ],
+        "type" : "Town",
+        "population_2010" : 3464,
+        "population_2020" : 3715,
+        "population" : 4356,
+        "square_mileage" : 991.7
+    },
+    "Cheswold, Kent County, Delaware" : {
+        "name" : "Cheswold",
+        "state" : "Delaware",
+        "FIPS" : "10-14660",
+        "counties" : [
+            "Kent County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1380,
+        "population_2020" : 1923,
+        "population" : 2799,
+        "square_mileage" : 1046.2
+    },
+    "Clayton, Kent County, Delaware" : {
+        "name" : "Clayton",
+        "state" : "Delaware",
+        "FIPS" : "10-15440",
+        "counties" : [
+            "Kent County",
+            "New Castle County"
+        ],
+        "type" : "Town",
+        "population_2010" : 2918,
+        "population_2020" : 3961,
+        "population" : 5629,
+        "square_mileage" : 2033.4
+    },
+    "Dagsboro, Sussex County, Delaware" : {
+        "name" : "Dagsboro",
+        "state" : "Delaware",
+        "FIPS" : "10-18950",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "Town",
+        "population_2010" : 805,
+        "population_2020" : 870,
+        "population" : 1026,
+        "square_mileage" : 605.0
+    },
+    "Delaware City, New Castle County, Delaware" : {
+        "name" : "Delaware City",
+        "state" : "Delaware",
+        "FIPS" : "10-19730",
+        "counties" : [
+            "New Castle County"
+        ],
+        "type" : "City",
+        "population_2010" : 1695,
+        "population_2020" : 1885,
+        "population" : 2271,
+        "square_mileage" : 1012.9
+    },
+    "Delmar, Sussex County, Delaware" : {
+        "name" : "Delmar",
+        "state" : "Delaware",
+        "FIPS" : "10-20380",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1597,
+        "population_2020" : 2027,
+        "population" : 2716,
+        "square_mileage" : 1066.3
+    },
+    "Dewey Beach, Sussex County, Delaware" : {
+        "name" : "Dewey Beach",
+        "state" : "Delaware",
+        "FIPS" : "10-20900",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "Town",
+        "population_2010" : 341,
+        "population_2020" : 353,
+        "population" : 403,
+        "square_mileage" : 1066.5
+    },
+    "Dover, Kent County, Delaware" : {
+        "name" : "Dover",
+        "state" : "Delaware",
+        "FIPS" : "10-21200",
+        "counties" : [
+            "Kent County"
+        ],
+        "type" : "City",
+        "population_2010" : 36047,
+        "population_2020" : 39403,
+        "population" : 46857,
+        "square_mileage" : 1664.8
+    },
+    "Ellendale, Sussex County, Delaware" : {
+        "name" : "Ellendale",
+        "state" : "Delaware",
+        "FIPS" : "10-24020",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "Town",
+        "population_2010" : 381,
+        "population_2020" : 487,
+        "population" : 656,
+        "square_mileage" : 1145.9
+    },
+    "Elsmere, New Castle County, Delaware" : {
+        "name" : "Elsmere",
+        "state" : "Delaware",
+        "FIPS" : "10-24540",
+        "counties" : [
+            "New Castle County"
+        ],
+        "type" : "Town",
+        "population_2010" : 6131,
+        "population_2020" : 6229,
+        "population" : 7026,
+        "square_mileage" : 6311.0
+    },
+    "Farmington, Kent County, Delaware" : {
+        "name" : "Farmington",
+        "state" : "Delaware",
+        "FIPS" : "10-25840",
+        "counties" : [
+            "Kent County"
+        ],
+        "type" : "Town",
+        "population_2010" : 110,
+        "population_2020" : 92,
+        "population" : 92,
+        "square_mileage" : 1260.3
+    },
+    "Felton, Kent County, Delaware" : {
+        "name" : "Felton",
+        "state" : "Delaware",
+        "FIPS" : "10-26620",
+        "counties" : [
+            "Kent County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1298,
+        "population_2020" : 1316,
+        "population" : 1482,
+        "square_mileage" : 1682.9
+    },
+    "Fenwick Island, Sussex County, Delaware" : {
+        "name" : "Fenwick Island",
+        "state" : "Delaware",
+        "FIPS" : "10-26880",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "Town",
+        "population_2010" : 379,
+        "population_2020" : 343,
+        "population" : 358,
+        "square_mileage" : 1036.3
+    },
+    "Frankford, Sussex County, Delaware" : {
+        "name" : "Frankford",
+        "state" : "Delaware",
+        "FIPS" : "10-28310",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "Town",
+        "population_2010" : 847,
+        "population_2020" : 790,
+        "population" : 841,
+        "square_mileage" : 1083.7
+    },
+    "Frederica, Kent County, Delaware" : {
+        "name" : "Frederica",
+        "state" : "Delaware",
+        "FIPS" : "10-28440",
+        "counties" : [
+            "Kent County"
+        ],
+        "type" : "Town",
+        "population_2010" : 774,
+        "population_2020" : 1073,
+        "population" : 1554,
+        "square_mileage" : 616.3
+    },
+    "Georgetown, Sussex County, Delaware" : {
+        "name" : "Georgetown",
+        "state" : "Delaware",
+        "FIPS" : "10-29090",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "Town",
+        "population_2010" : 6422,
+        "population_2020" : 7134,
+        "population" : 8587,
+        "square_mileage" : 1420.5
+    },
+    "Greenwood, Sussex County, Delaware" : {
+        "name" : "Greenwood",
+        "state" : "Delaware",
+        "FIPS" : "10-31560",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "Town",
+        "population_2010" : 973,
+        "population_2020" : 990,
+        "population" : 1118,
+        "square_mileage" : 1246.9
+    },
+    "Harrington, Kent County, Delaware" : {
+        "name" : "Harrington",
+        "state" : "Delaware",
+        "FIPS" : "10-33120",
+        "counties" : [
+            "Kent County"
+        ],
+        "type" : "City",
+        "population_2010" : 3562,
+        "population_2020" : 3774,
+        "population" : 4386,
+        "square_mileage" : 1385.5
+    },
+    "Hartly, Kent County, Delaware" : {
+        "name" : "Hartly",
+        "state" : "Delaware",
+        "FIPS" : "10-33250",
+        "counties" : [
+            "Kent County"
+        ],
+        "type" : "Town",
+        "population_2010" : 74,
+        "population_2020" : 73,
+        "population" : 81,
+        "square_mileage" : 1280.7
+    },
+    "Henlopen Acres, Sussex County, Delaware" : {
+        "name" : "Henlopen Acres",
+        "state" : "Delaware",
+        "FIPS" : "10-33900",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "Town",
+        "population_2010" : 122,
+        "population_2020" : 139,
+        "population" : 171,
+        "square_mileage" : 545.1
+    },
+    "Houston, Kent County, Delaware" : {
+        "name" : "Houston",
+        "state" : "Delaware",
+        "FIPS" : "10-36760",
+        "counties" : [
+            "Kent County"
+        ],
+        "type" : "Town",
+        "population_2010" : 374,
+        "population_2020" : 381,
+        "population" : 431,
+        "square_mileage" : 994.8
+    },
+    "Kenton, Kent County, Delaware" : {
+        "name" : "Kenton",
+        "state" : "Delaware",
+        "FIPS" : "10-39100",
+        "counties" : [
+            "Kent County"
+        ],
+        "type" : "Town",
+        "population_2010" : 261,
+        "population_2020" : 215,
+        "population" : 212,
+        "square_mileage" : 1221.6
+    },
+    "Laurel, Sussex County, Delaware" : {
+        "name" : "Laurel",
+        "state" : "Delaware",
+        "FIPS" : "10-41310",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "Town",
+        "population_2010" : 3708,
+        "population_2020" : 3865,
+        "population" : 4439,
+        "square_mileage" : 1397.3
+    },
+    "Leipsic, Kent County, Delaware" : {
+        "name" : "Leipsic",
+        "state" : "Delaware",
+        "FIPS" : "10-41700",
+        "counties" : [
+            "Kent County"
+        ],
+        "type" : "Town",
+        "population_2010" : 183,
+        "population_2020" : 178,
+        "population" : 195,
+        "square_mileage" : 599.3
+    },
+    "Lewes, Sussex County, Delaware" : {
+        "name" : "Lewes",
+        "state" : "Delaware",
+        "FIPS" : "10-41830",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "City",
+        "population_2010" : 2747,
+        "population_2020" : 3303,
+        "population" : 4231,
+        "square_mileage" : 787.9
+    },
+    "Little Creek, Kent County, Delaware" : {
+        "name" : "Little Creek",
+        "state" : "Delaware",
+        "FIPS" : "10-42870",
+        "counties" : [
+            "Kent County"
+        ],
+        "type" : "Town",
+        "population_2010" : 224,
+        "population_2020" : 195,
+        "population" : 199,
+        "square_mileage" : 1969.7
+    },
+    "Magnolia, Kent County, Delaware" : {
+        "name" : "Magnolia",
+        "state" : "Delaware",
+        "FIPS" : "10-44430",
+        "counties" : [
+            "Kent County"
+        ],
+        "type" : "Town",
+        "population_2010" : 225,
+        "population_2020" : 277,
+        "population" : 362,
+        "square_mileage" : 1413.3
+    },
+    "Middletown, New Castle County, Delaware" : {
+        "name" : "Middletown",
+        "state" : "Delaware",
+        "FIPS" : "10-47030",
+        "counties" : [
+            "New Castle County"
+        ],
+        "type" : "Town",
+        "population_2010" : 18871,
+        "population_2020" : 23192,
+        "population" : 30242,
+        "square_mileage" : 1856.0
+    },
+    "Milford, Sussex County, Delaware" : {
+        "name" : "Milford",
+        "state" : "Delaware",
+        "FIPS" : "10-47420",
+        "counties" : [
+            "Sussex County",
+            "Kent County"
+        ],
+        "type" : "City",
+        "population_2010" : 9559,
+        "population_2020" : 11190,
+        "population" : 14028,
+        "square_mileage" : 1135.7
+    },
+    "Millsboro, Sussex County, Delaware" : {
+        "name" : "Millsboro",
+        "state" : "Delaware",
+        "FIPS" : "10-47940",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "Town",
+        "population_2010" : 3877,
+        "population_2020" : 6863,
+        "population" : 12771,
+        "square_mileage" : 1343.1
+    },
+    "Millville, Sussex County, Delaware" : {
+        "name" : "Millville",
+        "state" : "Delaware",
+        "FIPS" : "10-48200",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "Town",
+        "population_2010" : 544,
+        "population_2020" : 1825,
+        "population" : 8762,
+        "square_mileage" : 715.1
+    },
+    "Milton, Sussex County, Delaware" : {
+        "name" : "Milton",
+        "state" : "Delaware",
+        "FIPS" : "10-48330",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "Town",
+        "population_2010" : 2576,
+        "population_2020" : 3291,
+        "population" : 4434,
+        "square_mileage" : 1842.7
+    },
+    "New Castle, New Castle County, Delaware" : {
+        "name" : "New Castle",
+        "state" : "Delaware",
+        "FIPS" : "10-50800",
+        "counties" : [
+            "New Castle County"
+        ],
+        "type" : "City",
+        "population_2010" : 5285,
+        "population_2020" : 5551,
+        "population" : 6411,
+        "square_mileage" : 1596.0
+    },
+    "Newark, New Castle County, Delaware" : {
+        "name" : "Newark",
+        "state" : "Delaware",
+        "FIPS" : "10-50670",
+        "counties" : [
+            "New Castle County"
+        ],
+        "type" : "City",
+        "population_2010" : 31454,
+        "population_2020" : 30601,
+        "population" : 33505,
+        "square_mileage" : 3246.1
+    },
+    "Newport, New Castle County, Delaware" : {
+        "name" : "Newport",
+        "state" : "Delaware",
+        "FIPS" : "10-51190",
+        "counties" : [
+            "New Castle County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1055,
+        "population_2020" : 910,
+        "population" : 923,
+        "square_mileage" : 1952.8
+    },
+    "Ocean View, Sussex County, Delaware" : {
+        "name" : "Ocean View",
+        "state" : "Delaware",
+        "FIPS" : "10-53920",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1882,
+        "population_2020" : 2636,
+        "population" : 3855,
+        "square_mileage" : 950.6
+    },
+    "Odessa, New Castle County, Delaware" : {
+        "name" : "Odessa",
+        "state" : "Delaware",
+        "FIPS" : "10-54050",
+        "counties" : [
+            "New Castle County"
+        ],
+        "type" : "Town",
+        "population_2010" : 364,
+        "population_2020" : 366,
+        "population" : 410,
+        "square_mileage" : 721.9
+    },
+    "Rehoboth Beach, Sussex County, Delaware" : {
+        "name" : "Rehoboth Beach",
+        "state" : "Delaware",
+        "FIPS" : "10-60290",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "City",
+        "population_2010" : 1327,
+        "population_2020" : 1108,
+        "population" : 1102,
+        "square_mileage" : 943.0
+    },
+    "Seaford, Sussex County, Delaware" : {
+        "name" : "Seaford",
+        "state" : "Delaware",
+        "FIPS" : "10-64320",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "City",
+        "population_2010" : 6928,
+        "population_2020" : 7957,
+        "population" : 9826,
+        "square_mileage" : 1562.6
+    },
+    "Selbyville, Sussex County, Delaware" : {
+        "name" : "Selbyville",
+        "state" : "Delaware",
+        "FIPS" : "10-64840",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "Town",
+        "population_2010" : 2167,
+        "population_2020" : 2878,
+        "population" : 4011,
+        "square_mileage" : 803.5
+    },
+    "Slaughter Beach, Sussex County, Delaware" : {
+        "name" : "Slaughter Beach",
+        "state" : "Delaware",
+        "FIPS" : "10-67050",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "Town",
+        "population_2010" : 207,
+        "population_2020" : 218,
+        "population" : 252,
+        "square_mileage" : 153.6
+    },
+    "Smyrna, Kent County, Delaware" : {
+        "name" : "Smyrna",
+        "state" : "Delaware",
+        "FIPS" : "10-67310",
+        "counties" : [
+            "Kent County",
+            "New Castle County"
+        ],
+        "type" : "Town",
+        "population_2010" : 10023,
+        "population_2020" : 12883,
+        "population" : 17448,
+        "square_mileage" : 2065.6
+    },
+    "South Bethany, Sussex County, Delaware" : {
+        "name" : "South Bethany",
+        "state" : "Delaware",
+        "FIPS" : "10-67700",
+        "counties" : [
+            "Sussex County"
+        ],
+        "type" : "Town",
+        "population_2010" : 449,
+        "population_2020" : 451,
+        "population" : 505,
+        "square_mileage" : 896.6
+    },
+    "Townsend, New Castle County, Delaware" : {
+        "name" : "Townsend",
+        "state" : "Delaware",
+        "FIPS" : "10-72510",
+        "counties" : [
+            "New Castle County"
+        ],
+        "type" : "Town",
+        "population_2010" : 2049,
+        "population_2020" : 2717,
+        "population" : 3781,
+        "square_mileage" : 2622.6
+    },
+    "Viola, Kent County, Delaware" : {
+        "name" : "Viola",
+        "state" : "Delaware",
+        "FIPS" : "10-74330",
+        "counties" : [
+            "Kent County"
+        ],
+        "type" : "Town",
+        "population_2010" : 157,
+        "population_2020" : 140,
+        "population" : 145,
+        "square_mileage" : 791.0
+    },
+    "Wilmington, New Castle County, Delaware" : {
+        "name" : "Wilmington",
+        "state" : "Delaware",
+        "FIPS" : "10-77580",
+        "counties" : [
+            "New Castle County"
+        ],
+        "type" : "City",
+        "population_2010" : 70851,
+        "population_2020" : 70898,
+        "population" : 79130,
+        "square_mileage" : 6507.4
+    },
+    "Woodside, Kent County, Delaware" : {
+        "name" : "Woodside",
+        "state" : "Delaware",
+        "FIPS" : "10-80830",
+        "counties" : [
+            "Kent County"
+        ],
+        "type" : "Town",
+        "population_2010" : 181,
+        "population_2020" : 190,
+        "population" : 219,
+        "square_mileage" : 1131.0
+    },
+    "Wyoming, Kent County, Delaware" : {
+        "name" : "Wyoming",
+        "state" : "Delaware",
+        "FIPS" : "10-81350",
+        "counties" : [
+            "Kent County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1313,
+        "population_2020" : 1680,
+        "population" : 2266,
+        "square_mileage" : 1604.6
+    }
+}

@@ -1,0 +1,3663 @@
+{
+    "Aberdeen, Grays Harbor County, Washington" : {
+        "name" : "Aberdeen",
+        "state" : "Washington",
+        "FIPS" : "53-00100",
+        "counties" : [
+            "Grays Harbor County"
+        ],
+        "type" : "First Class",
+        "population_2010" : 16896,
+        "population_2020" : 17013,
+        "population" : 18107,
+        "square_mileage" : 10.87
+    },
+    "Airway Heights, Spokane County, Washington" : {
+        "name" : "Airway Heights",
+        "state" : "Washington",
+        "FIPS" : "53-00905",
+        "counties" : [
+            "Spokane County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 6114,
+        "population_2020" : 10757,
+        "population" : 18942,
+        "square_mileage" : 6.01
+    },
+    "Albion, Whitman County, Washington" : {
+        "name" : "Albion",
+        "state" : "Washington",
+        "FIPS" : "53-01010",
+        "counties" : [
+            "Whitman County"
+        ],
+        "type" : "Town",
+        "population_2010" : 579,
+        "population_2020" : 550,
+        "population" : 563,
+        "square_mileage" : 0.39
+    },
+    "Algona, King County, Washington" : {
+        "name" : "Algona",
+        "state" : "Washington",
+        "FIPS" : "53-01290",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 3014,
+        "population_2020" : 3290,
+        "population" : 3712,
+        "square_mileage" : 1.29
+    },
+    "Almira, Lincoln County, Washington" : {
+        "name" : "Almira",
+        "state" : "Washington",
+        "FIPS" : "53-01500",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type" : "Town",
+        "population_2010" : 284,
+        "population_2020" : 318,
+        "population" : 366,
+        "square_mileage" : 0.51
+    },
+    "Anacortes, Skagit County, Washington" : {
+        "name" : "Anacortes",
+        "state" : "Washington",
+        "FIPS" : "53-01990",
+        "counties" : [
+            "Skagit County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 15778,
+        "population_2020" : 17637,
+        "population" : 20264,
+        "square_mileage" : 11.7
+    },
+    "Arlington, Snohomish County, Washington" : {
+        "name" : "Arlington",
+        "state" : "Washington",
+        "FIPS" : "53-02585",
+        "counties" : [
+            "Snohomish County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 17926,
+        "population_2020" : 19868,
+        "population" : 22679,
+        "square_mileage" : 9.81
+    },
+    "Asotin, Asotin County, Washington" : {
+        "name" : "Asotin",
+        "state" : "Washington",
+        "FIPS" : "53-03075",
+        "counties" : [
+            "Asotin County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1251,
+        "population_2020" : 1204,
+        "population" : 1242,
+        "square_mileage" : 1.14
+    },
+    "Auburn, King County, Washington" : {
+        "name" : "Auburn",
+        "state" : "Washington",
+        "FIPS" : "53-03180",
+        "counties" : [
+            "King County",
+            "Pierce County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 70180,
+        "population_2020" : 87256,
+        "population" : 109211,
+        "square_mileage" : 29.58
+    },
+    "Bainbridge Island, Kitsap County, Washington" : {
+        "name" : "Bainbridge Island",
+        "state" : "Washington",
+        "FIPS" : "53-03736",
+        "counties" : [
+            "Kitsap County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 23025,
+        "population_2020" : 24825,
+        "population" : 27755,
+        "square_mileage" : 27.61
+    },
+    "Battle Ground, Clark County, Washington" : {
+        "name" : "Battle Ground",
+        "state" : "Washington",
+        "FIPS" : "53-04475",
+        "counties" : [
+            "Clark County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 17571,
+        "population_2020" : 20743,
+        "population" : 24877,
+        "square_mileage" : 8.54
+    },
+    "Beaux Arts Village, King County, Washington" : {
+        "name" : "Beaux Arts Village",
+        "state" : "Washington",
+        "FIPS" : "53-04895",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Town",
+        "population_2010" : 299,
+        "population_2020" : 317,
+        "population" : 350,
+        "square_mileage" : 0.08
+    },
+    "Bellevue, King County, Washington" : {
+        "name" : "Bellevue",
+        "state" : "Washington",
+        "FIPS" : "53-05210",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 122363,
+        "population_2020" : 151854,
+        "population" : 189766,
+        "square_mileage" : 33.46
+    },
+    "Bellingham, Whatcom County, Washington" : {
+        "name" : "Bellingham",
+        "state" : "Washington",
+        "FIPS" : "53-05280",
+        "counties" : [
+            "Whatcom County"
+        ],
+        "type" : "First Class",
+        "population_2010" : 80885,
+        "population_2020" : 91482,
+        "population" : 106062,
+        "square_mileage" : 28.14
+    },
+    "Benton City, Benton County, Washington" : {
+        "name" : "Benton City",
+        "state" : "Washington",
+        "FIPS" : "53-05560",
+        "counties" : [
+            "Benton County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 3038,
+        "population_2020" : 3479,
+        "population" : 4073,
+        "square_mileage" : 2.47
+    },
+    "Bingen, Klickitat County, Washington" : {
+        "name" : "Bingen",
+        "state" : "Washington",
+        "FIPS" : "53-06085",
+        "counties" : [
+            "Klickitat County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 712,
+        "population_2020" : 778,
+        "population" : 879,
+        "square_mileage" : 0.62
+    },
+    "Black Diamond, King County, Washington" : {
+        "name" : "Black Diamond",
+        "state" : "Washington",
+        "FIPS" : "53-06330",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 4153,
+        "population_2020" : 4697,
+        "population" : 5446,
+        "square_mileage" : 6.55
+    },
+    "Blaine, Whatcom County, Washington" : {
+        "name" : "Blaine",
+        "state" : "Washington",
+        "FIPS" : "53-06505",
+        "counties" : [
+            "Whatcom County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 4684,
+        "population_2020" : 5884,
+        "population" : 7429,
+        "square_mileage" : 5.58
+    },
+    "Bonney Lake, Pierce County, Washington" : {
+        "name" : "Bonney Lake",
+        "state" : "Washington",
+        "FIPS" : "53-07170",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 17374,
+        "population_2020" : 22487,
+        "population" : 29132,
+        "square_mileage" : 8.22
+    },
+    "Bothell, King County, Washington" : {
+        "name" : "Bothell",
+        "state" : "Washington",
+        "FIPS" : "53-07380",
+        "counties" : [
+            "King County",
+            "Snohomish County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 33505,
+        "population_2020" : 48161,
+        "population" : 68673,
+        "square_mileage" : 13.64
+    },
+    "Bremerton, Kitsap County, Washington" : {
+        "name" : "Bremerton",
+        "state" : "Washington",
+        "FIPS" : "53-07695",
+        "counties" : [
+            "Kitsap County"
+        ],
+        "type" : "First Class",
+        "population_2010" : 37729,
+        "population_2020" : 43505,
+        "population" : 51207,
+        "square_mileage" : 28.43
+    },
+    "Brewster, Okanogan County, Washington" : {
+        "name" : "Brewster",
+        "state" : "Washington",
+        "FIPS" : "53-07835",
+        "counties" : [
+            "Okanogan County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 2370,
+        "population_2020" : 1983,
+        "population" : 1874,
+        "square_mileage" : 1.15
+    },
+    "Bridgeport, Douglas County, Washington" : {
+        "name" : "Bridgeport",
+        "state" : "Washington",
+        "FIPS" : "53-07870",
+        "counties" : [
+            "Douglas County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 2409,
+        "population_2020" : 2141,
+        "population" : 2098,
+        "square_mileage" : 1.07
+    },
+    "Brier, Snohomish County, Washington" : {
+        "name" : "Brier",
+        "state" : "Washington",
+        "FIPS" : "53-07940",
+        "counties" : [
+            "Snohomish County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 6087,
+        "population_2020" : 6560,
+        "population" : 7332,
+        "square_mileage" : 2.2
+    },
+    "Buckley, Pierce County, Washington" : {
+        "name" : "Buckley",
+        "state" : "Washington",
+        "FIPS" : "53-08570",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 4354,
+        "population_2020" : 5114,
+        "population" : 6108,
+        "square_mileage" : 3.86
+    },
+    "Bucoda, Thurston County, Washington" : {
+        "name" : "Bucoda",
+        "state" : "Washington",
+        "FIPS" : "53-08605",
+        "counties" : [
+            "Thurston County"
+        ],
+        "type" : "Town",
+        "population_2010" : 562,
+        "population_2020" : 600,
+        "population" : 666,
+        "square_mileage" : 0.58
+    },
+    "Burien, King County, Washington" : {
+        "name" : "Burien",
+        "state" : "Washington",
+        "FIPS" : "53-08850",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 33313,
+        "population_2020" : 52066,
+        "population" : 80667,
+        "square_mileage" : 10.04
+    },
+    "Burlington, Skagit County, Washington" : {
+        "name" : "Burlington",
+        "state" : "Washington",
+        "FIPS" : "53-08920",
+        "counties" : [
+            "Skagit County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 8388,
+        "population_2020" : 9152,
+        "population" : 10324,
+        "square_mileage" : 4.28
+    },
+    "Camas, Clark County, Washington" : {
+        "name" : "Camas",
+        "state" : "Washington",
+        "FIPS" : "53-09480",
+        "counties" : [
+            "Clark County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 19355,
+        "population_2020" : 26065,
+        "population" : 34979,
+        "square_mileage" : 14.08
+    },
+    "Carbonado, Pierce County, Washington" : {
+        "name" : "Carbonado",
+        "state" : "Washington",
+        "FIPS" : "53-09970",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type" : "Town",
+        "population_2010" : 610,
+        "population_2020" : 734,
+        "population" : 894,
+        "square_mileage" : 0.42
+    },
+    "Carnation, King County, Washington" : {
+        "name" : "Carnation",
+        "state" : "Washington",
+        "FIPS" : "53-10215",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1786,
+        "population_2020" : 2158,
+        "population" : 2637,
+        "square_mileage" : 1.16
+    },
+    "Cashmere, Chelan County, Washington" : {
+        "name" : "Cashmere",
+        "state" : "Washington",
+        "FIPS" : "53-10495",
+        "counties" : [
+            "Chelan County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 3063,
+        "population_2020" : 3248,
+        "population" : 3587,
+        "square_mileage" : 1.16
+    },
+    "Castle Rock, Cowlitz County, Washington" : {
+        "name" : "Castle Rock",
+        "state" : "Washington",
+        "FIPS" : "53-10565",
+        "counties" : [
+            "Cowlitz County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1982,
+        "population_2020" : 2446,
+        "population" : 3042,
+        "square_mileage" : 2.1
+    },
+    "Cathlamet, Washingtonhkiakum County, Washington" : {
+        "name" : "Cathlamet",
+        "state" : "Washington",
+        "FIPS" : "53-10635",
+        "counties" : [
+            "Wahkiakum County"
+        ],
+        "type" : "Town",
+        "population_2010" : 532,
+        "population_2020" : 560,
+        "population" : 615,
+        "square_mileage" : 0.51
+    },
+    "Centralia, Lewis County, Washington" : {
+        "name" : "Centralia",
+        "state" : "Washington",
+        "FIPS" : "53-11160",
+        "counties" : [
+            "Lewis County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 16336,
+        "population_2020" : 18183,
+        "population" : 20823,
+        "square_mileage" : 7.62
+    },
+    "Chehalis, Lewis County, Washington" : {
+        "name" : "Chehalis",
+        "state" : "Washington",
+        "FIPS" : "53-11475",
+        "counties" : [
+            "Lewis County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 7259,
+        "population_2020" : 7439,
+        "population" : 8016,
+        "square_mileage" : 5.81
+    },
+    "Chelan, Chelan County, Washington" : {
+        "name" : "Chelan",
+        "state" : "Washington",
+        "FIPS" : "53-11615",
+        "counties" : [
+            "Chelan County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 3890,
+        "population_2020" : 4222,
+        "population" : 4744,
+        "square_mileage" : 6.69
+    },
+    "Cheney, Spokane County, Washington" : {
+        "name" : "Cheney",
+        "state" : "Washington",
+        "FIPS" : "53-11825",
+        "counties" : [
+            "Spokane County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 10590,
+        "population_2020" : 13255,
+        "population" : 16684,
+        "square_mileage" : 4.34
+    },
+    "Chewelah, Stevens County, Washington" : {
+        "name" : "Chewelah",
+        "state" : "Washington",
+        "FIPS" : "53-12140",
+        "counties" : [
+            "Stevens County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 2607,
+        "population_2020" : 2470,
+        "population" : 2522,
+        "square_mileage" : 2.95
+    },
+    "Clarkston, Asotin County, Washington" : {
+        "name" : "Clarkston",
+        "state" : "Washington",
+        "FIPS" : "53-12630",
+        "counties" : [
+            "Asotin County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 7229,
+        "population_2020" : 7161,
+        "population" : 7536,
+        "square_mileage" : 2.06
+    },
+    "Cle Elum, Kittitas County, Washington" : {
+        "name" : "Cle Elum",
+        "state" : "Washington",
+        "FIPS" : "53-12945",
+        "counties" : [
+            "Kittitas County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1872,
+        "population_2020" : 2157,
+        "population" : 2537,
+        "square_mileage" : 4.49
+    },
+    "Clyde Hill, King County, Washington" : {
+        "name" : "Clyde Hill",
+        "state" : "Washington",
+        "FIPS" : "53-13365",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 2984,
+        "population_2020" : 3126,
+        "population" : 3422,
+        "square_mileage" : 1.06
+    },
+    "Colfax, Whitman County, Washington" : {
+        "name" : "Colfax",
+        "state" : "Washington",
+        "FIPS" : "53-13785",
+        "counties" : [
+            "Whitman County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 2805,
+        "population_2020" : 2782,
+        "population" : 2930,
+        "square_mileage" : 3.78
+    },
+    "College Place, Washingtonlla Walla County, Washington" : {
+        "name" : "College Place",
+        "state" : "Washington",
+        "FIPS" : "53-13855",
+        "counties" : [
+            "Walla Walla County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 8765,
+        "population_2020" : 9902,
+        "population" : 11470,
+        "square_mileage" : 3.0
+    },
+    "Colton, Whitman County, Washington" : {
+        "name" : "Colton",
+        "state" : "Washington",
+        "FIPS" : "53-13890",
+        "counties" : [
+            "Whitman County"
+        ],
+        "type" : "Town",
+        "population_2010" : 418,
+        "population_2020" : 401,
+        "population" : 413,
+        "square_mileage" : 0.62
+    },
+    "Colville, Stevens County, Washington" : {
+        "name" : "Colville",
+        "state" : "Washington",
+        "FIPS" : "53-14170",
+        "counties" : [
+            "Stevens County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 4673,
+        "population_2020" : 4917,
+        "population" : 5400,
+        "square_mileage" : 3.08
+    },
+    "Conconully, Okanogan County, Washington" : {
+        "name" : "Conconully",
+        "state" : "Washington",
+        "FIPS" : "53-14310",
+        "counties" : [
+            "Okanogan County"
+        ],
+        "type" : "Town",
+        "population_2010" : 210,
+        "population_2020" : 193,
+        "population" : 193,
+        "square_mileage" : 0.21
+    },
+    "Concrete, Skagit County, Washington" : {
+        "name" : "Concrete",
+        "state" : "Washington",
+        "FIPS" : "53-14380",
+        "counties" : [
+            "Skagit County"
+        ],
+        "type" : "Town",
+        "population_2010" : 710,
+        "population_2020" : 801,
+        "population" : 927,
+        "square_mileage" : 1.17
+    },
+    "Connell, Franklin County, Washington" : {
+        "name" : "Connell",
+        "state" : "Washington",
+        "FIPS" : "53-14485",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 4209,
+        "population_2020" : 5441,
+        "population" : 7041,
+        "square_mileage" : 7.69
+    },
+    "Cosmopolis, Grays Harbor County, Washington" : {
+        "name" : "Cosmopolis",
+        "state" : "Washington",
+        "FIPS" : "53-14870",
+        "counties" : [
+            "Grays Harbor County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1649,
+        "population_2020" : 1638,
+        "population" : 1727,
+        "square_mileage" : 1.39
+    },
+    "Coulee City, Grant County, Washington" : {
+        "name" : "Coulee City",
+        "state" : "Washington",
+        "FIPS" : "53-15080",
+        "counties" : [
+            "Grant County"
+        ],
+        "type" : "Town",
+        "population_2010" : 562,
+        "population_2020" : 549,
+        "population" : 572,
+        "square_mileage" : 0.92
+    },
+    "Coulee Dam, Okanogan County, Washington" : {
+        "name" : "Coulee Dam",
+        "state" : "Washington",
+        "FIPS" : "53-15115",
+        "counties" : [
+            "Okanogan County",
+            "Douglas County",
+            "Grant County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1098,
+        "population_2020" : 1211,
+        "population" : 1377,
+        "square_mileage" : 0.72
+    },
+    "Coupeville, Island County, Washington" : {
+        "name" : "Coupeville",
+        "state" : "Washington",
+        "FIPS" : "53-15185",
+        "counties" : [
+            "Island County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1831,
+        "population_2020" : 1942,
+        "population" : 2145,
+        "square_mileage" : 1.27
+    },
+    "Covington, King County, Washington" : {
+        "name" : "Covington",
+        "state" : "Washington",
+        "FIPS" : "53-15290",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 17575,
+        "population_2020" : 20777,
+        "population" : 24946,
+        "square_mileage" : 5.93
+    },
+    "Creston, Lincoln County, Washington" : {
+        "name" : "Creston",
+        "state" : "Washington",
+        "FIPS" : "53-15710",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type" : "Town",
+        "population_2010" : 236,
+        "population_2020" : 213,
+        "population" : 211,
+        "square_mileage" : 0.41
+    },
+    "Cusick, Pend Oreille County, Washington" : {
+        "name" : "Cusick",
+        "state" : "Washington",
+        "FIPS" : "53-16340",
+        "counties" : [
+            "Pend Oreille County"
+        ],
+        "type" : "Town",
+        "population_2010" : 207,
+        "population_2020" : 153,
+        "population" : 135,
+        "square_mileage" : 0.51
+    },
+    "Darrington, Snohomish County, Washington" : {
+        "name" : "Darrington",
+        "state" : "Washington",
+        "FIPS" : "53-16690",
+        "counties" : [
+            "Snohomish County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1347,
+        "population_2020" : 1462,
+        "population" : 1643,
+        "square_mileage" : 1.73
+    },
+    "Davenport, Lincoln County, Washington" : {
+        "name" : "Davenport",
+        "state" : "Washington",
+        "FIPS" : "53-16795",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type" : "Second Class",
+        "population_2010" : 1734,
+        "population_2020" : 1703,
+        "population" : 1782,
+        "square_mileage" : 1.67
+    },
+    "Dayton, Columbia County, Washington" : {
+        "name" : "Dayton",
+        "state" : "Washington",
+        "FIPS" : "53-16970",
+        "counties" : [
+            "Columbia County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 2526,
+        "population_2020" : 2448,
+        "population" : 2538,
+        "square_mileage" : 1.44
+    },
+    "Deer Park, Spokane County, Washington" : {
+        "name" : "Deer Park",
+        "state" : "Washington",
+        "FIPS" : "53-17320",
+        "counties" : [
+            "Spokane County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 3652,
+        "population_2020" : 4383,
+        "population" : 5327,
+        "square_mileage" : 6.89
+    },
+    "Des Moines, King County, Washington" : {
+        "name" : "Des Moines",
+        "state" : "Washington",
+        "FIPS" : "53-17635",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 29673,
+        "population_2020" : 32888,
+        "population" : 37541,
+        "square_mileage" : 6.41
+    },
+    "DuPont, Pierce County, Washington" : {
+        "name" : "DuPont",
+        "state" : "Washington",
+        "FIPS" : "53-18965",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 8199,
+        "population_2020" : 10151,
+        "population" : 12660,
+        "square_mileage" : 5.82
+    },
+    "Duvall, King County, Washington" : {
+        "name" : "Duvall",
+        "state" : "Washington",
+        "FIPS" : "53-19035",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 6695,
+        "population_2020" : 8034,
+        "population" : 9764,
+        "square_mileage" : 2.45
+    },
+    "East Wenatchee, Douglas County, Washington" : {
+        "name" : "East Wenatchee",
+        "state" : "Washington",
+        "FIPS" : "53-20155",
+        "counties" : [
+            "Douglas County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 13190,
+        "population_2020" : 14158,
+        "population" : 15777,
+        "square_mileage" : 3.79
+    },
+    "Eatonville, Pierce County, Washington" : {
+        "name" : "Eatonville",
+        "state" : "Washington",
+        "FIPS" : "53-20260",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type" : "Town",
+        "population_2010" : 2758,
+        "population_2020" : 2845,
+        "population" : 3080,
+        "square_mileage" : 1.83
+    },
+    "Edgewood, Pierce County, Washington" : {
+        "name" : "Edgewood",
+        "state" : "Washington",
+        "FIPS" : "53-20645",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 9387,
+        "population_2020" : 12327,
+        "population" : 16175,
+        "square_mileage" : 8.39
+    },
+    "Edmonds, Snohomish County, Washington" : {
+        "name" : "Edmonds",
+        "state" : "Washington",
+        "FIPS" : "53-20750",
+        "counties" : [
+            "Snohomish County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 39709,
+        "population_2020" : 42853,
+        "population" : 47944,
+        "square_mileage" : 8.92
+    },
+    "Electric City, Grant County, Washington" : {
+        "name" : "Electric City",
+        "state" : "Washington",
+        "FIPS" : "53-21030",
+        "counties" : [
+            "Grant County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 968,
+        "population_2020" : 956,
+        "population" : 1004,
+        "square_mileage" : 1.99
+    },
+    "Ellensburg, Kittitas County, Washington" : {
+        "name" : "Ellensburg",
+        "state" : "Washington",
+        "FIPS" : "53-21240",
+        "counties" : [
+            "Kittitas County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 18174,
+        "population_2020" : 18666,
+        "population" : 20146,
+        "square_mileage" : 1.99
+    },
+    "Elma, Grays Harbor County, Washington" : {
+        "name" : "Elma",
+        "state" : "Washington",
+        "FIPS" : "53-21450",
+        "counties" : [
+            "Grays Harbor County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 3107,
+        "population_2020" : 3438,
+        "population" : 3920,
+        "square_mileage" : 2.55
+    },
+    "Elmer City, Okanogan County, Washington" : {
+        "name" : "Elmer City",
+        "state" : "Washington",
+        "FIPS" : "53-21485",
+        "counties" : [
+            "Okanogan County"
+        ],
+        "type" : "Town",
+        "population_2010" : 238,
+        "population_2020" : 239,
+        "population" : 254,
+        "square_mileage" : 0.24
+    },
+    "Endicott, Whitman County, Washington" : {
+        "name" : "Endicott",
+        "state" : "Washington",
+        "FIPS" : "53-21730",
+        "counties" : [
+            "Whitman County"
+        ],
+        "type" : "Town",
+        "population_2010" : 289,
+        "population_2020" : 312,
+        "population" : 349,
+        "square_mileage" : 0.3
+    },
+    "Entiat, Chelan County, Washington" : {
+        "name" : "Entiat",
+        "state" : "Washington",
+        "FIPS" : "53-22010",
+        "counties" : [
+            "Chelan County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1112,
+        "population_2020" : 1326,
+        "population" : 1603,
+        "square_mileage" : 2.18
+    },
+    "Enumclaw, King County, Washington" : {
+        "name" : "Enumclaw",
+        "state" : "Washington",
+        "FIPS" : "53-22045",
+        "counties" : [
+            "King County",
+            "Pierce County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 10669,
+        "population_2020" : 12543,
+        "population" : 14993,
+        "square_mileage" : 5.17
+    },
+    "Ephrata, Grant County, Washington" : {
+        "name" : "Ephrata",
+        "state" : "Washington",
+        "FIPS" : "53-22080",
+        "counties" : [
+            "Grant County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 7664,
+        "population_2020" : 8477,
+        "population" : 9661,
+        "square_mileage" : 10.44
+    },
+    "Everett, Snohomish County, Washington" : {
+        "name" : "Everett",
+        "state" : "Washington",
+        "FIPS" : "53-22640",
+        "counties" : [
+            "Snohomish County"
+        ],
+        "type" : "First Class",
+        "population_2010" : 103019,
+        "population_2020" : 110629,
+        "population" : 123321,
+        "square_mileage" : 33.19
+    },
+    "Everson, Whatcom County, Washington" : {
+        "name" : "Everson",
+        "state" : "Washington",
+        "FIPS" : "53-22745",
+        "counties" : [
+            "Whatcom County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 2483,
+        "population_2020" : 2888,
+        "population" : 3423,
+        "square_mileage" : 1.35
+    },
+    "Fairfield, Spokane County, Washington" : {
+        "name" : "Fairfield",
+        "state" : "Washington",
+        "FIPS" : "53-22990",
+        "counties" : [
+            "Spokane County"
+        ],
+        "type" : "Town",
+        "population_2010" : 612,
+        "population_2020" : 589,
+        "population" : 608,
+        "square_mileage" : 0.62
+    },
+    "Farmington, Whitman County, Washington" : {
+        "name" : "Farmington",
+        "state" : "Washington",
+        "FIPS" : "53-23340",
+        "counties" : [
+            "Whitman County"
+        ],
+        "type" : "Town",
+        "population_2010" : 146,
+        "population_2020" : 131,
+        "population" : 129,
+        "square_mileage" : 0.36
+    },
+    "Federal Way, King County, Washington" : {
+        "name" : "Federal Way",
+        "state" : "Washington",
+        "FIPS" : "53-23515",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 89306,
+        "population_2020" : 101030,
+        "population" : 117154,
+        "square_mileage" : 22.3
+    },
+    "Ferndale, Whatcom County, Washington" : {
+        "name" : "Ferndale",
+        "state" : "Washington",
+        "FIPS" : "53-23620",
+        "counties" : [
+            "Whatcom County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 11415,
+        "population_2020" : 15048,
+        "population" : 19812,
+        "square_mileage" : 7.03
+    },
+    "Fife, Pierce County, Washington" : {
+        "name" : "Fife",
+        "state" : "Washington",
+        "FIPS" : "53-23795",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 9173,
+        "population_2020" : 10999,
+        "population" : 13359,
+        "square_mileage" : 5.76
+    },
+    "Fircrest, Pierce County, Washington" : {
+        "name" : "Fircrest",
+        "state" : "Washington",
+        "FIPS" : "53-23970",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 6497,
+        "population_2020" : 7156,
+        "population" : 8130,
+        "square_mileage" : 1.58
+    },
+    "Forks, Clallam County, Washington" : {
+        "name" : "Forks",
+        "state" : "Washington",
+        "FIPS" : "53-24810",
+        "counties" : [
+            "Clallam County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 3532,
+        "population_2020" : 3335,
+        "population" : 3398,
+        "square_mileage" : 4.12
+    },
+    "Friday Harbor, San Juan County, Washington" : {
+        "name" : "Friday Harbor",
+        "state" : "Washington",
+        "FIPS" : "53-25615",
+        "counties" : [
+            "San Juan County"
+        ],
+        "type" : "Town",
+        "population_2010" : 2162,
+        "population_2020" : 2613,
+        "population" : 3194,
+        "square_mileage" : 2.18
+    },
+    "Garfield, Whitman County, Washington" : {
+        "name" : "Garfield",
+        "state" : "Washington",
+        "FIPS" : "53-26140",
+        "counties" : [
+            "Whitman County"
+        ],
+        "type" : "Town",
+        "population_2010" : 597,
+        "population_2020" : 562,
+        "population" : 571,
+        "square_mileage" : 0.94
+    },
+    "George, Grant County, Washington" : {
+        "name" : "George",
+        "state" : "Washington",
+        "FIPS" : "53-26455",
+        "counties" : [
+            "Grant County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 501,
+        "population_2020" : 809,
+        "population" : 1297,
+        "square_mileage" : 1.38
+    },
+    "Gig Harbor, Pierce County, Washington" : {
+        "name" : "Gig Harbor",
+        "state" : "Washington",
+        "FIPS" : "53-26735",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 7126,
+        "population_2020" : 12029,
+        "population" : 20225,
+        "square_mileage" : 5.9
+    },
+    "Gold Bar, Snohomish County, Washington" : {
+        "name" : "Gold Bar",
+        "state" : "Washington",
+        "FIPS" : "53-27365",
+        "counties" : [
+            "Snohomish County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 2075,
+        "population_2020" : 2403,
+        "population" : 2838,
+        "square_mileage" : 1.06
+    },
+    "Goldendale, Klickitat County, Washington" : {
+        "name" : "Goldendale",
+        "state" : "Washington",
+        "FIPS" : "53-27435",
+        "counties" : [
+            "Klickitat County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 3407,
+        "population_2020" : 3453,
+        "population" : 3692,
+        "square_mileage" : 2.96
+    },
+    "Grand Coulee, Grant County, Washington" : {
+        "name" : "Grand Coulee",
+        "state" : "Washington",
+        "FIPS" : "53-27855",
+        "counties" : [
+            "Grant County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 988,
+        "population_2020" : 972,
+        "population" : 1018,
+        "square_mileage" : 1.26
+    },
+    "Grandview, Yakima County, Washington" : {
+        "name" : "Grandview",
+        "state" : "Washington",
+        "FIPS" : "53-27925",
+        "counties" : [
+            "Yakima County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 10862,
+        "population_2020" : 10907,
+        "population" : 11586,
+        "square_mileage" : 6.44
+    },
+    "Granger, Yakima County, Washington" : {
+        "name" : "Granger",
+        "state" : "Washington",
+        "FIPS" : "53-27960",
+        "counties" : [
+            "Yakima County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 3246,
+        "population_2020" : 3624,
+        "population" : 4160,
+        "square_mileage" : 1.73
+    },
+    "Granite Falls, Snohomish County, Washington" : {
+        "name" : "Granite Falls",
+        "state" : "Washington",
+        "FIPS" : "53-27995",
+        "counties" : [
+            "Snohomish County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 3364,
+        "population_2020" : 4450,
+        "population" : 5877,
+        "square_mileage" : 2.19
+    },
+    "Hamilton, Skagit County, Washington" : {
+        "name" : "Hamilton",
+        "state" : "Washington",
+        "FIPS" : "53-29255",
+        "counties" : [
+            "Skagit County"
+        ],
+        "type" : "Town",
+        "population_2010" : 301,
+        "population_2020" : 299,
+        "population" : 315,
+        "square_mileage" : 1.2
+    },
+    "Harrah, Yakima County, Washington" : {
+        "name" : "Harrah",
+        "state" : "Washington",
+        "FIPS" : "53-29710",
+        "counties" : [
+            "Yakima County"
+        ],
+        "type" : "Town",
+        "population_2010" : 630,
+        "population_2020" : 585,
+        "population" : 590,
+        "square_mileage" : 0.27
+    },
+    "Harrington, Lincoln County, Washington" : {
+        "name" : "Harrington",
+        "state" : "Washington",
+        "FIPS" : "53-29745",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 424,
+        "population_2020" : 429,
+        "population" : 458,
+        "square_mileage" : 0.39
+    },
+    "Hartline, Grant County, Washington" : {
+        "name" : "Hartline",
+        "state" : "Washington",
+        "FIPS" : "53-29920",
+        "counties" : [
+            "Grant County"
+        ],
+        "type" : "Town",
+        "population_2010" : 151,
+        "population_2020" : 180,
+        "population" : 218,
+        "square_mileage" : 0.33
+    },
+    "Hatton, Adams County, Washington" : {
+        "name" : "Hatton",
+        "state" : "Washington",
+        "FIPS" : "53-30060",
+        "counties" : [
+            "Adams County"
+        ],
+        "type" : "Town",
+        "population_2010" : 101,
+        "population_2020" : 79,
+        "population" : 72,
+        "square_mileage" : 0.37
+    },
+    "Hoquiam, Grays Harbor County, Washington" : {
+        "name" : "Hoquiam",
+        "state" : "Washington",
+        "FIPS" : "53-32300",
+        "counties" : [
+            "Grays Harbor County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 8726,
+        "population_2020" : 8776,
+        "population" : 9333,
+        "square_mileage" : 9.54
+    },
+    "Hunts Point, King County, Washington" : {
+        "name" : "Hunts Point",
+        "state" : "Washington",
+        "FIPS" : "53-32755",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Town",
+        "population_2010" : 394,
+        "population_2020" : 457,
+        "population" : 540,
+        "square_mileage" : 0.31
+    },
+    "Ilwaco, Pacific County, Washington" : {
+        "name" : "Ilwaco",
+        "state" : "Washington",
+        "FIPS" : "53-33000",
+        "counties" : [
+            "Pacific County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 936,
+        "population_2020" : 1087,
+        "population" : 1287,
+        "square_mileage" : 2.07
+    },
+    "Index, Snohomish County, Washington" : {
+        "name" : "Index",
+        "state" : "Washington",
+        "FIPS" : "53-33175",
+        "counties" : [
+            "Snohomish County"
+        ],
+        "type" : "Town",
+        "population_2010" : 178,
+        "population_2020" : 155,
+        "population" : 150,
+        "square_mileage" : 0.23
+    },
+    "Ione, Pend Oreille County, Washington" : {
+        "name" : "Ione",
+        "state" : "Washington",
+        "FIPS" : "53-33560",
+        "counties" : [
+            "Pend Oreille County"
+        ],
+        "type" : "Town",
+        "population_2010" : 447,
+        "population_2020" : 428,
+        "population" : 440,
+        "square_mileage" : 0.53
+    },
+    "Issaquah, King County, Washington" : {
+        "name" : "Issaquah",
+        "state" : "Washington",
+        "FIPS" : "53-33805",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 30434,
+        "population_2020" : 40051,
+        "population" : 52651,
+        "square_mileage" : 12.13
+    },
+    "Kahlotus, Franklin County, Washington" : {
+        "name" : "Kahlotus",
+        "state" : "Washington",
+        "FIPS" : "53-34575",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 193,
+        "population_2020" : 147,
+        "population" : 132,
+        "square_mileage" : 0.38
+    },
+    "Kalama, Cowlitz County, Washington" : {
+        "name" : "Kalama",
+        "state" : "Washington",
+        "FIPS" : "53-34645",
+        "counties" : [
+            "Cowlitz County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 2344,
+        "population_2020" : 2959,
+        "population" : 3752,
+        "square_mileage" : 3.57
+    },
+    "Kelso, Cowlitz County, Washington" : {
+        "name" : "Kelso",
+        "state" : "Washington",
+        "FIPS" : "53-35065",
+        "counties" : [
+            "Cowlitz County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 11925,
+        "population_2020" : 12720,
+        "population" : 14109,
+        "square_mileage" : 8.14
+    },
+    "Kenmore, King County, Washington" : {
+        "name" : "Kenmore",
+        "state" : "Washington",
+        "FIPS" : "53-35170",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 20460,
+        "population_2020" : 23914,
+        "population" : 28452,
+        "square_mileage" : 6.15
+    },
+    "Kennewick, Benton County, Washington" : {
+        "name" : "Kennewick",
+        "state" : "Washington",
+        "FIPS" : "53-35275",
+        "counties" : [
+            "Benton County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 73917,
+        "population_2020" : 83921,
+        "population" : 97585,
+        "square_mileage" : 27.45
+    },
+    "Kent, King County, Washington" : {
+        "name" : "Kent",
+        "state" : "Washington",
+        "FIPS" : "53-35415",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 92411,
+        "population_2020" : 136588,
+        "population" : 200087,
+        "square_mileage" : 33.75
+    },
+    "Kettle Falls, Stevens County, Washington" : {
+        "name" : "Kettle Falls",
+        "state" : "Washington",
+        "FIPS" : "53-35485",
+        "counties" : [
+            "Stevens County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1595,
+        "population_2020" : 1636,
+        "population" : 1764,
+        "square_mileage" : 1.08
+    },
+    "Kirkland, King County, Washington" : {
+        "name" : "Kirkland",
+        "state" : "Washington",
+        "FIPS" : "53-35940",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 48787,
+        "population_2020" : 92175,
+        "population" : 176428,
+        "square_mileage" : 17.81
+    },
+    "Kittitas, Kittitas County, Washington" : {
+        "name" : "Kittitas",
+        "state" : "Washington",
+        "FIPS" : "53-36045",
+        "counties" : [
+            "Kittitas County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1381,
+        "population_2020" : 1438,
+        "population" : 1567,
+        "square_mileage" : 0.78
+    },
+    "Krupp, Grant County, Washington" : {
+        "name" : "Krupp",
+        "state" : "Washington",
+        "FIPS" : "53-36395",
+        "counties" : [
+            "Grant County"
+        ],
+        "type" : "Town",
+        "population_2010" : 48,
+        "population_2020" : 49,
+        "population" : 53,
+        "square_mileage" : 0.58
+    },
+    "La Center, Clark County, Washington" : {
+        "name" : "La Center",
+        "state" : "Washington",
+        "FIPS" : "53-36710",
+        "counties" : [
+            "Clark County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 2800,
+        "population_2020" : 3424,
+        "population" : 4226,
+        "square_mileage" : 2.59
+    },
+    "La Conner, Skagit County, Washington" : {
+        "name" : "La Conner",
+        "state" : "Washington",
+        "FIPS" : "53-36780",
+        "counties" : [
+            "Skagit County"
+        ],
+        "type" : "Town",
+        "population_2010" : 891,
+        "population_2020" : 965,
+        "population" : 1083,
+        "square_mileage" : 0.4
+    },
+    "Lacey, Thurston County, Washington" : {
+        "name" : "Lacey",
+        "state" : "Washington",
+        "FIPS" : "53-36745",
+        "counties" : [
+            "Thurston County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 42393,
+        "population_2020" : 53526,
+        "population" : 67875,
+        "square_mileage" : 17.2
+    },
+    "LaCrosse, Whitman County, Washington" : {
+        "name" : "LaCrosse",
+        "state" : "Washington",
+        "FIPS" : "53-36850",
+        "counties" : [
+            "Whitman County"
+        ],
+        "type" : "Town",
+        "population_2010" : 313,
+        "population_2020" : 297,
+        "population" : 304,
+        "square_mileage" : 0.85
+    },
+    "Lake Forest Park, King County, Washington" : {
+        "name" : "Lake Forest Park",
+        "state" : "Washington",
+        "FIPS" : "53-37270",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 12598,
+        "population_2020" : 13630,
+        "population" : 15278,
+        "square_mileage" : 3.52
+    },
+    "Lake Stevens, Snohomish County, Washington" : {
+        "name" : "Lake Stevens",
+        "state" : "Washington",
+        "FIPS" : "53-37900",
+        "counties" : [
+            "Snohomish County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 28069,
+        "population_2020" : 35630,
+        "population" : 45389,
+        "square_mileage" : 9.17
+    },
+    "Lakewood, Pierce County, Washington" : {
+        "name" : "Lakewood",
+        "state" : "Washington",
+        "FIPS" : "53-38038",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 58163,
+        "population_2020" : 63612,
+        "population" : 71884,
+        "square_mileage" : 17.06
+    },
+    "Lamont, Whitman County, Washington" : {
+        "name" : "Lamont",
+        "state" : "Washington",
+        "FIPS" : "53-38215",
+        "counties" : [
+            "Whitman County"
+        ],
+        "type" : "Town",
+        "population_2010" : 81,
+        "population_2020" : 79,
+        "population" : 82,
+        "square_mileage" : 0.29
+    },
+    "Langley, Island County, Washington" : {
+        "name" : "Langley",
+        "state" : "Washington",
+        "FIPS" : "53-38355",
+        "counties" : [
+            "Island County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1035,
+        "population_2020" : 1147,
+        "population" : 1309,
+        "square_mileage" : 1.01
+    },
+    "Latah, Spokane County, Washington" : {
+        "name" : "Latah",
+        "state" : "Washington",
+        "FIPS" : "53-38495",
+        "counties" : [
+            "Spokane County"
+        ],
+        "type" : "Town",
+        "population_2010" : 193,
+        "population_2020" : 185,
+        "population" : 190,
+        "square_mileage" : 0.32
+    },
+    "Leavenworth, Chelan County, Washington" : {
+        "name" : "Leavenworth",
+        "state" : "Washington",
+        "FIPS" : "53-38845",
+        "counties" : [
+            "Chelan County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1965,
+        "population_2020" : 2263,
+        "population" : 2661,
+        "square_mileage" : 1.45
+    },
+    "Liberty Lake, Spokane County, Washington" : {
+        "name" : "Liberty Lake",
+        "state" : "Washington",
+        "FIPS" : "53-39335",
+        "counties" : [
+            "Spokane County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 7591,
+        "population_2020" : 12003,
+        "population" : 18821,
+        "square_mileage" : 6.25
+    },
+    "Lind, Adams County, Washington" : {
+        "name" : "Lind",
+        "state" : "Washington",
+        "FIPS" : "53-39510",
+        "counties" : [
+            "Adams County"
+        ],
+        "type" : "Town",
+        "population_2010" : 564,
+        "population_2020" : 535,
+        "population" : 547,
+        "square_mileage" : 1.11
+    },
+    "Long Beach, Pacific County, Washington" : {
+        "name" : "Long Beach",
+        "state" : "Washington",
+        "FIPS" : "53-40070",
+        "counties" : [
+            "Pacific County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1392,
+        "population_2020" : 1688,
+        "population" : 2069,
+        "square_mileage" : 1.38
+    },
+    "Longview, Cowlitz County, Washington" : {
+        "name" : "Longview",
+        "state" : "Washington",
+        "FIPS" : "53-40245",
+        "counties" : [
+            "Cowlitz County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 36648,
+        "population_2020" : 37818,
+        "population" : 40953,
+        "square_mileage" : 14.8
+    },
+    "Lyman, Skagit County, Washington" : {
+        "name" : "Lyman",
+        "state" : "Washington",
+        "FIPS" : "53-40770",
+        "counties" : [
+            "Skagit County"
+        ],
+        "type" : "Town",
+        "population_2010" : 438,
+        "population_2020" : 423,
+        "population" : 437,
+        "square_mileage" : 0.67
+    },
+    "Lynden, Whatcom County, Washington" : {
+        "name" : "Lynden",
+        "state" : "Washington",
+        "FIPS" : "53-40805",
+        "counties" : [
+            "Whatcom County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 11951,
+        "population_2020" : 15749,
+        "population" : 20729,
+        "square_mileage" : 5.44
+    },
+    "Lynnwood, Snohomish County, Washington" : {
+        "name" : "Lynnwood",
+        "state" : "Washington",
+        "FIPS" : "53-40840",
+        "counties" : [
+            "Snohomish County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 35836,
+        "population_2020" : 38568,
+        "population" : 43063,
+        "square_mileage" : 7.88
+    },
+    "Mabton, Yakima County, Washington" : {
+        "name" : "Mabton",
+        "state" : "Washington",
+        "FIPS" : "53-40980",
+        "counties" : [
+            "Yakima County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 2286,
+        "population_2020" : 1959,
+        "population" : 1877,
+        "square_mileage" : 0.84
+    },
+    "Malden, Whitman County, Washington" : {
+        "name" : "Malden",
+        "state" : "Washington",
+        "FIPS" : "53-42275",
+        "counties" : [
+            "Whitman County"
+        ],
+        "type" : "Town",
+        "population_2010" : 203,
+        "population_2020" : 216,
+        "population" : 239,
+        "square_mileage" : 0.66
+    },
+    "Mansfield, Douglas County, Washington" : {
+        "name" : "Mansfield",
+        "state" : "Washington",
+        "FIPS" : "53-42800",
+        "counties" : [
+            "Douglas County"
+        ],
+        "type" : "Town",
+        "population_2010" : 320,
+        "population_2020" : 326,
+        "population" : 350,
+        "square_mileage" : 0.32
+    },
+    "Maple Valley, King County, Washington" : {
+        "name" : "Maple Valley",
+        "state" : "Washington",
+        "FIPS" : "53-43150",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 22684,
+        "population_2020" : 28013,
+        "population" : 34862,
+        "square_mileage" : 6.0
+    },
+    "Marcus, Stevens County, Washington" : {
+        "name" : "Marcus",
+        "state" : "Washington",
+        "FIPS" : "53-43395",
+        "counties" : [
+            "Stevens County"
+        ],
+        "type" : "Town",
+        "population_2010" : 183,
+        "population_2020" : 216,
+        "population" : 259,
+        "square_mileage" : 0.22
+    },
+    "Marysville, Snohomish County, Washington" : {
+        "name" : "Marysville",
+        "state" : "Washington",
+        "FIPS" : "53-43955",
+        "counties" : [
+            "Snohomish County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 60020,
+        "population_2020" : 70714,
+        "population" : 84671,
+        "square_mileage" : 20.75
+    },
+    "Mattawa, Grant County, Washington" : {
+        "name" : "Mattawa",
+        "state" : "Washington",
+        "FIPS" : "53-44165",
+        "counties" : [
+            "Grant County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 4437,
+        "population_2020" : 3335,
+        "population" : 2967,
+        "square_mileage" : 0.92
+    },
+    "McCleary, Grays Harbor County, Washington" : {
+        "name" : "McCleary",
+        "state" : "Washington",
+        "FIPS" : "53-41225",
+        "counties" : [
+            "Grays Harbor County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1653,
+        "population_2020" : 1997,
+        "population" : 2440,
+        "square_mileage" : 2.05
+    },
+    "Medical Lake, Spokane County, Washington" : {
+        "name" : "Medical Lake",
+        "state" : "Washington",
+        "FIPS" : "53-44690",
+        "counties" : [
+            "Spokane County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 5060,
+        "population_2020" : 4874,
+        "population" : 5032,
+        "square_mileage" : 3.37
+    },
+    "Medina, King County, Washington" : {
+        "name" : "Medina",
+        "state" : "Washington",
+        "FIPS" : "53-44725",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 2969,
+        "population_2020" : 2915,
+        "population" : 3049,
+        "square_mileage" : 1.44
+    },
+    "Mercer Island, King County, Washington" : {
+        "name" : "Mercer Island",
+        "state" : "Washington",
+        "FIPS" : "53-45005",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 22699,
+        "population_2020" : 25748,
+        "population" : 29920,
+        "square_mileage" : 6.38
+    },
+    "Mesa, Franklin County, Washington" : {
+        "name" : "Mesa",
+        "state" : "Washington",
+        "FIPS" : "53-45180",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 489,
+        "population_2020" : 385,
+        "population" : 351,
+        "square_mileage" : 1.66
+    },
+    "Metaline, Pend Oreille County, Washington" : {
+        "name" : "Metaline",
+        "state" : "Washington",
+        "FIPS" : "53-45285",
+        "counties" : [
+            "Pend Oreille County"
+        ],
+        "type" : "Town",
+        "population_2010" : 173,
+        "population_2020" : 162,
+        "population" : 164,
+        "square_mileage" : 0.31
+    },
+    "Metaline Falls, Pend Oreille County, Washington" : {
+        "name" : "Metaline Falls",
+        "state" : "Washington",
+        "FIPS" : "53-45320",
+        "counties" : [
+            "Pend Oreille County"
+        ],
+        "type" : "Town",
+        "population_2010" : 238,
+        "population_2020" : 272,
+        "population" : 318,
+        "square_mileage" : 0.2
+    },
+    "Mill Creek, Snohomish County, Washington" : {
+        "name" : "Mill Creek",
+        "state" : "Washington",
+        "FIPS" : "53-45865",
+        "counties" : [
+            "Snohomish County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 18244,
+        "population_2020" : 20926,
+        "population" : 24528,
+        "square_mileage" : 4.64
+    },
+    "Millwood, Spokane County, Washington" : {
+        "name" : "Millwood",
+        "state" : "Washington",
+        "FIPS" : "53-45985",
+        "counties" : [
+            "Spokane County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1786,
+        "population_2020" : 1881,
+        "population" : 2067,
+        "square_mileage" : 0.7
+    },
+    "Milton, Pierce County, Washington" : {
+        "name" : "Milton",
+        "state" : "Washington",
+        "FIPS" : "53-46020",
+        "counties" : [
+            "Pierce County",
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 6968,
+        "population_2020" : 8697,
+        "population" : 10921,
+        "square_mileage" : 2.78
+    },
+    "Monroe, Snohomish County, Washington" : {
+        "name" : "Monroe",
+        "state" : "Washington",
+        "FIPS" : "53-46685",
+        "counties" : [
+            "Snohomish County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 17304,
+        "population_2020" : 19699,
+        "population" : 22955,
+        "square_mileage" : 6.1
+    },
+    "Montesano, Grays Harbor County, Washington" : {
+        "name" : "Montesano",
+        "state" : "Washington",
+        "FIPS" : "53-46895",
+        "counties" : [
+            "Grays Harbor County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 3976,
+        "population_2020" : 4138,
+        "population" : 4508,
+        "square_mileage" : 10.38
+    },
+    "Morton, Lewis County, Washington" : {
+        "name" : "Morton",
+        "state" : "Washington",
+        "FIPS" : "53-47175",
+        "counties" : [
+            "Lewis County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1126,
+        "population_2020" : 1036,
+        "population" : 1038,
+        "square_mileage" : 0.82
+    },
+    "Moses Lake, Grant County, Washington" : {
+        "name" : "Moses Lake",
+        "state" : "Washington",
+        "FIPS" : "53-47245",
+        "counties" : [
+            "Grant County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 20366,
+        "population_2020" : 25146,
+        "population" : 31290,
+        "square_mileage" : 17.95
+    },
+    "Mossyrock, Lewis County, Washington" : {
+        "name" : "Mossyrock",
+        "state" : "Washington",
+        "FIPS" : "53-47315",
+        "counties" : [
+            "Lewis County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 759,
+        "population_2020" : 768,
+        "population" : 820,
+        "square_mileage" : 0.69
+    },
+    "Mount Vernon, Skagit County, Washington" : {
+        "name" : "Mount Vernon",
+        "state" : "Washington",
+        "FIPS" : "53-47560",
+        "counties" : [
+            "Skagit County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 31743,
+        "population_2020" : 35219,
+        "population" : 40234,
+        "square_mileage" : 12.3
+    },
+    "Mountlake Terrace, Snohomish County, Washington" : {
+        "name" : "Mountlake Terrace",
+        "state" : "Washington",
+        "FIPS" : "53-47490",
+        "counties" : [
+            "Snohomish County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 19909,
+        "population_2020" : 21286,
+        "population" : 23651,
+        "square_mileage" : 4.06
+    },
+    "Moxee, Yakima County, Washington" : {
+        "name" : "Moxee",
+        "state" : "Washington",
+        "FIPS" : "53-47665",
+        "counties" : [
+            "Yakima County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 3308,
+        "population_2020" : 4326,
+        "population" : 5655,
+        "square_mileage" : 2.37
+    },
+    "Mukilteo, Snohomish County, Washington" : {
+        "name" : "Mukilteo",
+        "state" : "Washington",
+        "FIPS" : "53-47735",
+        "counties" : [
+            "Snohomish County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 20254,
+        "population_2020" : 21538,
+        "population" : 23836,
+        "square_mileage" : 6.26
+    },
+    "Naches, Yakima County, Washington" : {
+        "name" : "Naches",
+        "state" : "Washington",
+        "FIPS" : "53-47805",
+        "counties" : [
+            "Yakima County"
+        ],
+        "type" : "Town",
+        "population_2010" : 795,
+        "population_2020" : 1084,
+        "population" : 1471,
+        "square_mileage" : 0.87
+    },
+    "Napavine, Lewis County, Washington" : {
+        "name" : "Napavine",
+        "state" : "Washington",
+        "FIPS" : "53-47980",
+        "counties" : [
+            "Lewis County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1766,
+        "population_2020" : 1888,
+        "population" : 2098,
+        "square_mileage" : 2.89
+    },
+    "Nespelem, Okanogan County, Washington" : {
+        "name" : "Nespelem",
+        "state" : "Washington",
+        "FIPS" : "53-48540",
+        "counties" : [
+            "Okanogan County"
+        ],
+        "type" : "Town",
+        "population_2010" : 236,
+        "population_2020" : 180,
+        "population" : 161,
+        "square_mileage" : 0.19
+    },
+    "Newcastle, King County, Washington" : {
+        "name" : "Newcastle",
+        "state" : "Washington",
+        "FIPS" : "53-48645",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 10380,
+        "population_2020" : 13017,
+        "population" : 16411,
+        "square_mileage" : 4.45
+    },
+    "Newport, Pend Oreille County, Washington" : {
+        "name" : "Newport",
+        "state" : "Washington",
+        "FIPS" : "53-48820",
+        "counties" : [
+            "Pend Oreille County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 2126,
+        "population_2020" : 2114,
+        "population" : 2230,
+        "square_mileage" : 1.47
+    },
+    "Nooksack, Whatcom County, Washington" : {
+        "name" : "Nooksack",
+        "state" : "Washington",
+        "FIPS" : "53-49275",
+        "counties" : [
+            "Whatcom County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1338,
+        "population_2020" : 1471,
+        "population" : 1669,
+        "square_mileage" : 0.87
+    },
+    "Normandy Park, King County, Washington" : {
+        "name" : "Normandy Park",
+        "state" : "Washington",
+        "FIPS" : "53-49415",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 6335,
+        "population_2020" : 6771,
+        "population" : 7522,
+        "square_mileage" : 2.49
+    },
+    "North Bend, King County, Washington" : {
+        "name" : "North Bend",
+        "state" : "Washington",
+        "FIPS" : "53-49485",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 5731,
+        "population_2020" : 7461,
+        "population" : 9715,
+        "square_mileage" : 4.35
+    },
+    "North Bonneville, Skamania County, Washington" : {
+        "name" : "North Bonneville",
+        "state" : "Washington",
+        "FIPS" : "53-49555",
+        "counties" : [
+            "Skamania County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 956,
+        "population_2020" : 1397,
+        "population" : 2024,
+        "square_mileage" : 2.53
+    },
+    "Northport, Stevens County, Washington" : {
+        "name" : "Northport",
+        "state" : "Washington",
+        "FIPS" : "53-50045",
+        "counties" : [
+            "Stevens County"
+        ],
+        "type" : "Town",
+        "population_2010" : 295,
+        "population_2020" : 297,
+        "population" : 316,
+        "square_mileage" : 0.57
+    },
+    "Oak Harbor, Island County, Washington" : {
+        "name" : "Oak Harbor",
+        "state" : "Washington",
+        "FIPS" : "53-50360",
+        "counties" : [
+            "Island County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 22075,
+        "population_2020" : 24622,
+        "population" : 28242,
+        "square_mileage" : 9.65
+    },
+    "Oakesdale, Whitman County, Washington" : {
+        "name" : "Oakesdale",
+        "state" : "Washington",
+        "FIPS" : "53-50325",
+        "counties" : [
+            "Whitman County"
+        ],
+        "type" : "Town",
+        "population_2010" : 422,
+        "population_2020" : 395,
+        "population" : 400,
+        "square_mileage" : 1.04
+    },
+    "Oakville, Grays Harbor County, Washington" : {
+        "name" : "Oakville",
+        "state" : "Washington",
+        "FIPS" : "53-50430",
+        "counties" : [
+            "Grays Harbor County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 684,
+        "population_2020" : 715,
+        "population" : 781,
+        "square_mileage" : 0.55
+    },
+    "Ocean Shores, Grays Harbor County, Washington" : {
+        "name" : "Ocean Shores",
+        "state" : "Washington",
+        "FIPS" : "53-50570",
+        "counties" : [
+            "Grays Harbor County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 5569,
+        "population_2020" : 6715,
+        "population" : 8193,
+        "square_mileage" : 8.52
+    },
+    "Odessa, Lincoln County, Washington" : {
+        "name" : "Odessa",
+        "state" : "Washington",
+        "FIPS" : "53-50745",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type" : "Town",
+        "population_2010" : 910,
+        "population_2020" : 896,
+        "population" : 939,
+        "square_mileage" : 0.81
+    },
+    "Okanogan, Okanogan County, Washington" : {
+        "name" : "Okanogan",
+        "state" : "Washington",
+        "FIPS" : "53-50920",
+        "counties" : [
+            "Okanogan County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 2552,
+        "population_2020" : 2379,
+        "population" : 2404,
+        "square_mileage" : 2.01
+    },
+    "Olympia, Thurston County, Washington" : {
+        "name" : "Olympia",
+        "state" : "Washington",
+        "FIPS" : "53-51300",
+        "counties" : [
+            "Thurston County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 46478,
+        "population_2020" : 55605,
+        "population" : 67411,
+        "square_mileage" : 18.22
+    },
+    "Omak, Okanogan County, Washington" : {
+        "name" : "Omak",
+        "state" : "Washington",
+        "FIPS" : "53-51340",
+        "counties" : [
+            "Okanogan County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 4845,
+        "population_2020" : 4860,
+        "population" : 5159,
+        "square_mileage" : 3.86
+    },
+    "Oroville, Okanogan County, Washington" : {
+        "name" : "Oroville",
+        "state" : "Washington",
+        "FIPS" : "53-51970",
+        "counties" : [
+            "Okanogan County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1686,
+        "population_2020" : 1795,
+        "population" : 1988,
+        "square_mileage" : 1.69
+    },
+    "Orting, Pierce County, Washington" : {
+        "name" : "Orting",
+        "state" : "Washington",
+        "FIPS" : "53-52005",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 6746,
+        "population_2020" : 9041,
+        "population" : 12080,
+        "square_mileage" : 2.71
+    },
+    "Othello, Adams County, Washington" : {
+        "name" : "Othello",
+        "state" : "Washington",
+        "FIPS" : "53-52215",
+        "counties" : [
+            "Adams County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 7364,
+        "population_2020" : 8549,
+        "population" : 10116,
+        "square_mileage" : 4.0
+    },
+    "Pacific, King County, Washington" : {
+        "name" : "Pacific",
+        "state" : "Washington",
+        "FIPS" : "53-52495",
+        "counties" : [
+            "King County",
+            "Pierce County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 6606,
+        "population_2020" : 7235,
+        "population" : 8184,
+        "square_mileage" : 2.42
+    },
+    "Palouse, Whitman County, Washington" : {
+        "name" : "Palouse",
+        "state" : "Washington",
+        "FIPS" : "53-52950",
+        "counties" : [
+            "Whitman County"
+        ],
+        "type" : "Second Class",
+        "population_2010" : 998,
+        "population_2020" : 1015,
+        "population" : 1088,
+        "square_mileage" : 1.05
+    },
+    "Pasco, Franklin County, Washington" : {
+        "name" : "Pasco",
+        "state" : "Washington",
+        "FIPS" : "53-53545",
+        "counties" : [
+            "Franklin County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 59781,
+        "population_2020" : 77108,
+        "population" : 99595,
+        "square_mileage" : 33.96
+    },
+    "Pateros, Okanogan County, Washington" : {
+        "name" : "Pateros",
+        "state" : "Washington",
+        "FIPS" : "53-53720",
+        "counties" : [
+            "Okanogan County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 667,
+        "population_2020" : 593,
+        "population" : 581,
+        "square_mileage" : 0.51
+    },
+    "Pe Ell, Lewis County, Washington" : {
+        "name" : "Pe Ell",
+        "state" : "Washington",
+        "FIPS" : "53-53930",
+        "counties" : [
+            "Lewis County"
+        ],
+        "type" : "Town",
+        "population_2010" : 632,
+        "population_2020" : 642,
+        "population" : 688,
+        "square_mileage" : 0.59
+    },
+    "Pomeroy, Garfield County, Washington" : {
+        "name" : "Pomeroy",
+        "state" : "Washington",
+        "FIPS" : "53-55120",
+        "counties" : [
+            "Garfield County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1425,
+        "population_2020" : 1389,
+        "population" : 1446,
+        "square_mileage" : 1.78
+    },
+    "Port Angeles, Clallam County, Washington" : {
+        "name" : "Port Angeles",
+        "state" : "Washington",
+        "FIPS" : "53-55365",
+        "counties" : [
+            "Clallam County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 19038,
+        "population_2020" : 19960,
+        "population" : 21863,
+        "square_mileage" : 10.71
+    },
+    "Port Orchard, Kitsap County, Washington" : {
+        "name" : "Port Orchard",
+        "state" : "Washington",
+        "FIPS" : "53-55785",
+        "counties" : [
+            "Kitsap County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 11157,
+        "population_2020" : 15587,
+        "population" : 21635,
+        "square_mileage" : 9.64
+    },
+    "Port Townsend, Jefferson County, Washington" : {
+        "name" : "Port Townsend",
+        "state" : "Washington",
+        "FIPS" : "53-55855",
+        "counties" : [
+            "Jefferson County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 9113,
+        "population_2020" : 10148,
+        "population" : 11625,
+        "square_mileage" : 6.94
+    },
+    "Poulsbo, Kitsap County, Washington" : {
+        "name" : "Poulsbo",
+        "state" : "Washington",
+        "FIPS" : "53-55995",
+        "counties" : [
+            "Kitsap County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 9200,
+        "population_2020" : 11975,
+        "population" : 15591,
+        "square_mileage" : 4.74
+    },
+    "Prescott, Washingtonlla Walla County, Washington" : {
+        "name" : "Prescott",
+        "state" : "Washington",
+        "FIPS" : "53-56240",
+        "counties" : [
+            "Walla Walla County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 318,
+        "population_2020" : 372,
+        "population" : 443,
+        "square_mileage" : 0.4
+    },
+    "Prosser, Benton County, Washington" : {
+        "name" : "Prosser",
+        "state" : "Washington",
+        "FIPS" : "53-56450",
+        "counties" : [
+            "Benton County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 5714,
+        "population_2020" : 6062,
+        "population" : 6697,
+        "square_mileage" : 4.66
+    },
+    "Pullman, Whitman County, Washington" : {
+        "name" : "Pullman",
+        "state" : "Washington",
+        "FIPS" : "53-56625",
+        "counties" : [
+            "Whitman County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 29799,
+        "population_2020" : 32901,
+        "population" : 37447,
+        "square_mileage" : 10.93
+    },
+    "Puyallup, Pierce County, Washington" : {
+        "name" : "Puyallup",
+        "state" : "Washington",
+        "FIPS" : "53-56695",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 37022,
+        "population_2020" : 42973,
+        "population" : 50846,
+        "square_mileage" : 14.14
+    },
+    "Quincy, Grant County, Washington" : {
+        "name" : "Quincy",
+        "state" : "Washington",
+        "FIPS" : "53-57115",
+        "counties" : [
+            "Grant County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 6750,
+        "population_2020" : 7543,
+        "population" : 8664,
+        "square_mileage" : 6.05
+    },
+    "Rainier, Thurston County, Washington" : {
+        "name" : "Rainier",
+        "state" : "Washington",
+        "FIPS" : "53-57220",
+        "counties" : [
+            "Thurston County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1794,
+        "population_2020" : 2369,
+        "population" : 3124,
+        "square_mileage" : 1.74
+    },
+    "Raymond, Pacific County, Washington" : {
+        "name" : "Raymond",
+        "state" : "Washington",
+        "FIPS" : "53-57430",
+        "counties" : [
+            "Pacific County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 2882,
+        "population_2020" : 3081,
+        "population" : 3423,
+        "square_mileage" : 4.09
+    },
+    "Reardan, Lincoln County, Washington" : {
+        "name" : "Reardan",
+        "state" : "Washington",
+        "FIPS" : "53-57465",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type" : "Town",
+        "population_2010" : 571,
+        "population_2020" : 637,
+        "population" : 731,
+        "square_mileage" : 0.5
+    },
+    "Redmond, King County, Washington" : {
+        "name" : "Redmond",
+        "state" : "Washington",
+        "FIPS" : "53-57535",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 54144,
+        "population_2020" : 73256,
+        "population" : 98726,
+        "square_mileage" : 16.57
+    },
+    "Renton, King County, Washington" : {
+        "name" : "Renton",
+        "state" : "Washington",
+        "FIPS" : "53-57745",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 90927,
+        "population_2020" : 106785,
+        "population" : 127533,
+        "square_mileage" : 23.47
+    },
+    "Republic, Ferry County, Washington" : {
+        "name" : "Republic",
+        "state" : "Washington",
+        "FIPS" : "53-57850",
+        "counties" : [
+            "Ferry County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1073,
+        "population_2020" : 992,
+        "population" : 997,
+        "square_mileage" : 1.42
+    },
+    "Richland, Benton County, Washington" : {
+        "name" : "Richland",
+        "state" : "Washington",
+        "FIPS" : "53-58235",
+        "counties" : [
+            "Benton County"
+        ],
+        "type" : "First Class",
+        "population_2010" : 48058,
+        "population_2020" : 60560,
+        "population" : 76667,
+        "square_mileage" : 39.23
+    },
+    "Ridgefield, Clark County, Washington" : {
+        "name" : "Ridgefield",
+        "state" : "Washington",
+        "FIPS" : "53-58410",
+        "counties" : [
+            "Clark County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 4763,
+        "population_2020" : 10319,
+        "population" : 23520,
+        "square_mileage" : 7.34
+    },
+    "Ritzville, Adams County, Washington" : {
+        "name" : "Ritzville",
+        "state" : "Washington",
+        "FIPS" : "53-58725",
+        "counties" : [
+            "Adams County"
+        ],
+        "type" : "Second Class",
+        "population_2010" : 1673,
+        "population_2020" : 1767,
+        "population" : 1946,
+        "square_mileage" : 1.75
+    },
+    "Riverside, Okanogan County, Washington" : {
+        "name" : "Riverside",
+        "state" : "Washington",
+        "FIPS" : "53-58795",
+        "counties" : [
+            "Okanogan County"
+        ],
+        "type" : "Town",
+        "population_2010" : 280,
+        "population_2020" : 329,
+        "population" : 393,
+        "square_mileage" : 0.89
+    },
+    "Rock Island, Douglas County, Washington" : {
+        "name" : "Rock Island",
+        "state" : "Washington",
+        "FIPS" : "53-59180",
+        "counties" : [
+            "Douglas County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 788,
+        "population_2020" : 1279,
+        "population" : 2061,
+        "square_mileage" : 1.13
+    },
+    "Rockford, Spokane County, Washington" : {
+        "name" : "Rockford",
+        "state" : "Washington",
+        "FIPS" : "53-59145",
+        "counties" : [
+            "Spokane County"
+        ],
+        "type" : "Town",
+        "population_2010" : 470,
+        "population_2020" : 522,
+        "population" : 597,
+        "square_mileage" : 0.66
+    },
+    "Rosalia, Whitman County, Washington" : {
+        "name" : "Rosalia",
+        "state" : "Washington",
+        "FIPS" : "53-59775",
+        "counties" : [
+            "Whitman County"
+        ],
+        "type" : "Town",
+        "population_2010" : 550,
+        "population_2020" : 598,
+        "population" : 673,
+        "square_mileage" : 0.63
+    },
+    "Roslyn, Kittitas County, Washington" : {
+        "name" : "Roslyn",
+        "state" : "Washington",
+        "FIPS" : "53-60055",
+        "counties" : [
+            "Kittitas County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 893,
+        "population_2020" : 950,
+        "population" : 1052,
+        "square_mileage" : 4.39
+    },
+    "Roy, Pierce County, Washington" : {
+        "name" : "Roy",
+        "state" : "Washington",
+        "FIPS" : "53-60160",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 793,
+        "population_2020" : 816,
+        "population" : 882,
+        "square_mileage" : 0.48
+    },
+    "Royal City, Grant County, Washington" : {
+        "name" : "Royal City",
+        "state" : "Washington",
+        "FIPS" : "53-60230",
+        "counties" : [
+            "Grant County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 2140,
+        "population_2020" : 1776,
+        "population" : 1670,
+        "square_mileage" : 1.16
+    },
+    "Ruston, Pierce County, Washington" : {
+        "name" : "Ruston",
+        "state" : "Washington",
+        "FIPS" : "53-60510",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 749,
+        "population_2020" : 1055,
+        "population" : 1476,
+        "square_mileage" : 0.26
+    },
+    "Sammamish, King County, Washington" : {
+        "name" : "Sammamish",
+        "state" : "Washington",
+        "FIPS" : "53-61115",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 45780,
+        "population_2020" : 67455,
+        "population" : 98514,
+        "square_mileage" : 20.42
+    },
+    "SeaTac, King County, Washington" : {
+        "name" : "SeaTac",
+        "state" : "Washington",
+        "FIPS" : "53-62288",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 26909,
+        "population_2020" : 31454,
+        "population" : 37425,
+        "square_mileage" : 10.06
+    },
+    "Seattle, King County, Washington" : {
+        "name" : "Seattle",
+        "state" : "Washington",
+        "FIPS" : "53-63000",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "First Class",
+        "population_2010" : 608660,
+        "population_2020" : 737015,
+        "population" : 902366,
+        "square_mileage" : 83.83
+    },
+    "Sedro-Woolley, Skagit County, Washington" : {
+        "name" : "Sedro-Woolley",
+        "state" : "Washington",
+        "FIPS" : "53-63210",
+        "counties" : [
+            "Skagit County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 10540,
+        "population_2020" : 12421,
+        "population" : 14876,
+        "square_mileage" : 4.31
+    },
+    "Selah, Yakima County, Washington" : {
+        "name" : "Selah",
+        "state" : "Washington",
+        "FIPS" : "53-63280",
+        "counties" : [
+            "Yakima County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 7147,
+        "population_2020" : 8153,
+        "population" : 9516,
+        "square_mileage" : 4.58
+    },
+    "Sequim, Clallam County, Washington" : {
+        "name" : "Sequim",
+        "state" : "Washington",
+        "FIPS" : "53-63385",
+        "counties" : [
+            "Clallam County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 6606,
+        "population_2020" : 8024,
+        "population" : 9849,
+        "square_mileage" : 6.32
+    },
+    "Shelton, Mason County, Washington" : {
+        "name" : "Shelton",
+        "state" : "Washington",
+        "FIPS" : "53-63735",
+        "counties" : [
+            "Mason County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 9834,
+        "population_2020" : 10371,
+        "population" : 11408,
+        "square_mileage" : 5.82
+    },
+    "Shoreline, King County, Washington" : {
+        "name" : "Shoreline",
+        "state" : "Washington",
+        "FIPS" : "53-63960",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 53007,
+        "population_2020" : 58608,
+        "population" : 66777,
+        "square_mileage" : 11.64
+    },
+    "Skykomish, King County, Washington" : {
+        "name" : "Skykomish",
+        "state" : "Washington",
+        "FIPS" : "53-64855",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Town",
+        "population_2010" : 198,
+        "population_2020" : 161,
+        "population" : 150,
+        "square_mileage" : 0.31
+    },
+    "Snohomish, Snohomish County, Washington" : {
+        "name" : "Snohomish",
+        "state" : "Washington",
+        "FIPS" : "53-65170",
+        "counties" : [
+            "Snohomish County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 9098,
+        "population_2020" : 10126,
+        "population" : 11596,
+        "square_mileage" : 3.52
+    },
+    "Snoqualmie, King County, Washington" : {
+        "name" : "Snoqualmie",
+        "state" : "Washington",
+        "FIPS" : "53-65205",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 10670,
+        "population_2020" : 14121,
+        "population" : 18657,
+        "square_mileage" : 7.18
+    },
+    "Soap Lake, Grant County, Washington" : {
+        "name" : "Soap Lake",
+        "state" : "Washington",
+        "FIPS" : "53-65345",
+        "counties" : [
+            "Grant County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1514,
+        "population_2020" : 1691,
+        "population" : 1942,
+        "square_mileage" : 1.54
+    },
+    "South Bend, Pacific County, Washington" : {
+        "name" : "South Bend",
+        "state" : "Washington",
+        "FIPS" : "53-65625",
+        "counties" : [
+            "Pacific County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1637,
+        "population_2020" : 1746,
+        "population" : 1937,
+        "square_mileage" : 1.64
+    },
+    "South Cle Elum, Kittitas County, Washington" : {
+        "name" : "South Cle Elum",
+        "state" : "Washington",
+        "FIPS" : "53-65765",
+        "counties" : [
+            "Kittitas County"
+        ],
+        "type" : "Town",
+        "population_2010" : 532,
+        "population_2020" : 559,
+        "population" : 613,
+        "square_mileage" : 0.4
+    },
+    "South Prairie, Pierce County, Washington" : {
+        "name" : "South Prairie",
+        "state" : "Washington",
+        "FIPS" : "53-66045",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type" : "Town",
+        "population_2010" : 434,
+        "population_2020" : 373,
+        "population" : 358,
+        "square_mileage" : 0.38
+    },
+    "Spangle, Spokane County, Washington" : {
+        "name" : "Spangle",
+        "state" : "Washington",
+        "FIPS" : "53-66290",
+        "counties" : [
+            "Spokane County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 278,
+        "population_2020" : 280,
+        "population" : 298,
+        "square_mileage" : 0.35
+    },
+    "Spokane, Spokane County, Washington" : {
+        "name" : "Spokane",
+        "state" : "Washington",
+        "FIPS" : "53-67000",
+        "counties" : [
+            "Spokane County"
+        ],
+        "type" : "First Class",
+        "population_2010" : 208916,
+        "population_2020" : 228989,
+        "population" : 259194,
+        "square_mileage" : 68.76
+    },
+    "Spokane Valley, Spokane County, Washington" : {
+        "name" : "Spokane Valley",
+        "state" : "Washington",
+        "FIPS" : "53-67167",
+        "counties" : [
+            "Spokane County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 89755,
+        "population_2020" : 102976,
+        "population" : 120728,
+        "square_mileage" : 37.72
+    },
+    "Sprague, Lincoln County, Washington" : {
+        "name" : "Sprague",
+        "state" : "Washington",
+        "FIPS" : "53-67175",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 446,
+        "population_2020" : 495,
+        "population" : 566,
+        "square_mileage" : 1.05
+    },
+    "Springdale, Stevens County, Washington" : {
+        "name" : "Springdale",
+        "state" : "Washington",
+        "FIPS" : "53-67210",
+        "counties" : [
+            "Stevens County"
+        ],
+        "type" : "Town",
+        "population_2010" : 285,
+        "population_2020" : 234,
+        "population" : 219,
+        "square_mileage" : 1.13
+    },
+    "St. John, Whitman County, Washington" : {
+        "name" : "St. John",
+        "state" : "Washington",
+        "FIPS" : "53-60860",
+        "counties" : [
+            "Whitman County"
+        ],
+        "type" : "Town",
+        "population_2010" : 543,
+        "population_2020" : 599,
+        "population" : 681,
+        "square_mileage" : 0.67
+    },
+    "Stanwood, Snohomish County, Washington" : {
+        "name" : "Stanwood",
+        "state" : "Washington",
+        "FIPS" : "53-67455",
+        "counties" : [
+            "Snohomish County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 6231,
+        "population_2020" : 7705,
+        "population" : 9600,
+        "square_mileage" : 2.93
+    },
+    "Starbuck, Columbia County, Washington" : {
+        "name" : "Starbuck",
+        "state" : "Washington",
+        "FIPS" : "53-67490",
+        "counties" : [
+            "Columbia County"
+        ],
+        "type" : "Town",
+        "population_2010" : 129,
+        "population_2020" : 119,
+        "population" : 119,
+        "square_mileage" : 0.2
+    },
+    "Steilacoom, Pierce County, Washington" : {
+        "name" : "Steilacoom",
+        "state" : "Washington",
+        "FIPS" : "53-67770",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type" : "Town",
+        "population_2010" : 5985,
+        "population_2020" : 6727,
+        "population" : 7762,
+        "square_mileage" : 2.01
+    },
+    "Stevenson, Skamania County, Washington" : {
+        "name" : "Stevenson",
+        "state" : "Washington",
+        "FIPS" : "53-67875",
+        "counties" : [
+            "Skamania County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1465,
+        "population_2020" : 1491,
+        "population" : 1599,
+        "square_mileage" : 1.93
+    },
+    "Sultan, Snohomish County, Washington" : {
+        "name" : "Sultan",
+        "state" : "Washington",
+        "FIPS" : "53-68260",
+        "counties" : [
+            "Snohomish County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 4651,
+        "population_2020" : 5146,
+        "population" : 5866,
+        "square_mileage" : 3.27
+    },
+    "Sumas, Whatcom County, Washington" : {
+        "name" : "Sumas",
+        "state" : "Washington",
+        "FIPS" : "53-68330",
+        "counties" : [
+            "Whatcom County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1319,
+        "population_2020" : 1583,
+        "population" : 1924,
+        "square_mileage" : 1.47
+    },
+    "Sumner, Pierce County, Washington" : {
+        "name" : "Sumner",
+        "state" : "Washington",
+        "FIPS" : "53-68435",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 9451,
+        "population_2020" : 10621,
+        "population" : 12253,
+        "square_mileage" : 7.53
+    },
+    "Sunnyside, Yakima County, Washington" : {
+        "name" : "Sunnyside",
+        "state" : "Washington",
+        "FIPS" : "53-68750",
+        "counties" : [
+            "Yakima County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 15858,
+        "population_2020" : 16375,
+        "population" : 17741,
+        "square_mileage" : 7.53
+    },
+    "Tacoma, Pierce County, Washington" : {
+        "name" : "Tacoma",
+        "state" : "Washington",
+        "FIPS" : "53-70000",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type" : "First Class",
+        "population_2010" : 198397,
+        "population_2020" : 219346,
+        "population" : 249908,
+        "square_mileage" : 49.71
+    },
+    "Tekoa, Whitman County, Washington" : {
+        "name" : "Tekoa",
+        "state" : "Washington",
+        "FIPS" : "53-70560",
+        "counties" : [
+            "Whitman County"
+        ],
+        "type" : "Second Class",
+        "population_2010" : 778,
+        "population_2020" : 817,
+        "population" : 896,
+        "square_mileage" : 1.23
+    },
+    "Tenino, Thurston County, Washington" : {
+        "name" : "Tenino",
+        "state" : "Washington",
+        "FIPS" : "53-70630",
+        "counties" : [
+            "Thurston County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1695,
+        "population_2020" : 1870,
+        "population" : 2127,
+        "square_mileage" : 1.46
+    },
+    "Tieton, Yakima County, Washington" : {
+        "name" : "Tieton",
+        "state" : "Washington",
+        "FIPS" : "53-71400",
+        "counties" : [
+            "Yakima County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1191,
+        "population_2020" : 1389,
+        "population" : 1650,
+        "square_mileage" : 0.86
+    },
+    "Toledo, Lewis County, Washington" : {
+        "name" : "Toledo",
+        "state" : "Washington",
+        "FIPS" : "53-71785",
+        "counties" : [
+            "Lewis County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 725,
+        "population_2020" : 631,
+        "population" : 610,
+        "square_mileage" : 0.39
+    },
+    "Tonasket, Okanogan County, Washington" : {
+        "name" : "Tonasket",
+        "state" : "Washington",
+        "FIPS" : "53-71890",
+        "counties" : [
+            "Okanogan County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1032,
+        "population_2020" : 1103,
+        "population" : 1225,
+        "square_mileage" : 0.94
+    },
+    "Toppenish, Yakima County, Washington" : {
+        "name" : "Toppenish",
+        "state" : "Washington",
+        "FIPS" : "53-71960",
+        "counties" : [
+            "Yakima County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 8949,
+        "population_2020" : 8854,
+        "population" : 9309,
+        "square_mileage" : 2.14
+    },
+    "Tukwila, King County, Washington" : {
+        "name" : "Tukwila",
+        "state" : "Washington",
+        "FIPS" : "53-72625",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 19107,
+        "population_2020" : 21798,
+        "population" : 25443,
+        "square_mileage" : 9.19
+    },
+    "Tumwater, Thurston County, Washington" : {
+        "name" : "Tumwater",
+        "state" : "Washington",
+        "FIPS" : "53-72905",
+        "counties" : [
+            "Thurston County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 17371,
+        "population_2020" : 25350,
+        "population" : 36677,
+        "square_mileage" : 17.5
+    },
+    "Twisp, Okanogan County, Washington" : {
+        "name" : "Twisp",
+        "state" : "Washington",
+        "FIPS" : "53-73080",
+        "counties" : [
+            "Okanogan County"
+        ],
+        "type" : "Town",
+        "population_2010" : 919,
+        "population_2020" : 992,
+        "population" : 1110,
+        "square_mileage" : 1.17
+    },
+    "Union Gap, Yakima County, Washington" : {
+        "name" : "Union Gap",
+        "state" : "Washington",
+        "FIPS" : "53-73290",
+        "counties" : [
+            "Yakima County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 6047,
+        "population_2020" : 6568,
+        "population" : 7384,
+        "square_mileage" : 5.58
+    },
+    "Uniontown, Whitman County, Washington" : {
+        "name" : "Uniontown",
+        "state" : "Washington",
+        "FIPS" : "53-73360",
+        "counties" : [
+            "Whitman County"
+        ],
+        "type" : "Town",
+        "population_2010" : 294,
+        "population_2020" : 389,
+        "population" : 514,
+        "square_mileage" : 0.92
+    },
+    "University Place, Pierce County, Washington" : {
+        "name" : "University Place",
+        "state" : "Washington",
+        "FIPS" : "53-73465",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 31144,
+        "population_2020" : 34866,
+        "population" : 40105,
+        "square_mileage" : 8.34
+    },
+    "Vader, Lewis County, Washington" : {
+        "name" : "Vader",
+        "state" : "Washington",
+        "FIPS" : "53-73780",
+        "counties" : [
+            "Lewis County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 621,
+        "population_2020" : 629,
+        "population" : 672,
+        "square_mileage" : 0.93
+    },
+    "Vancouver, Clark County, Washington" : {
+        "name" : "Vancouver",
+        "state" : "Washington",
+        "FIPS" : "53-74060",
+        "counties" : [
+            "Clark County"
+        ],
+        "type" : "First Class",
+        "population_2010" : 161791,
+        "population_2020" : 190915,
+        "population" : 228884,
+        "square_mileage" : 48.74
+    },
+    "Waitsburg, Washingtonlla Walla County, Washington" : {
+        "name" : "Waitsburg",
+        "state" : "Washington",
+        "FIPS" : "53-75565",
+        "counties" : [
+            "Walla Walla County"
+        ],
+        "type" : "Unclassified City",
+        "population_2010" : 1217,
+        "population_2020" : 1166,
+        "population" : 1200,
+        "square_mileage" : 1.16
+    },
+    "Walla Walla, Washingtonlla Walla County, Washington" : {
+        "name" : "Walla Walla",
+        "state" : "Washington",
+        "FIPS" : "53-75775",
+        "counties" : [
+            "Walla Walla County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 31731,
+        "population_2020" : 34060,
+        "population" : 37955,
+        "square_mileage" : 13.85
+    },
+    "Wapato, Yakima County, Washington" : {
+        "name" : "Wapato",
+        "state" : "Washington",
+        "FIPS" : "53-76125",
+        "counties" : [
+            "Yakima County"
+        ],
+        "type" : "Second Class",
+        "population_2010" : 4997,
+        "population_2020" : 4607,
+        "population" : 4621,
+        "square_mileage" : 1.16
+    },
+    "Warden, Grant County, Washington" : {
+        "name" : "Warden",
+        "state" : "Washington",
+        "FIPS" : "53-76160",
+        "counties" : [
+            "Grant County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 2692,
+        "population_2020" : 2449,
+        "population" : 2436,
+        "square_mileage" : 2.93
+    },
+    "Washougal, Clark County, Washington" : {
+        "name" : "Washougal",
+        "state" : "Washington",
+        "FIPS" : "53-76405",
+        "counties" : [
+            "Clark County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 14095,
+        "population_2020" : 17039,
+        "population" : 20833,
+        "square_mileage" : 5.95
+    },
+    "Washtucna, Adams County, Washington" : {
+        "name" : "Washtucna",
+        "state" : "Washington",
+        "FIPS" : "53-76440",
+        "counties" : [
+            "Adams County"
+        ],
+        "type" : "Town",
+        "population_2010" : 208,
+        "population_2020" : 211,
+        "population" : 226,
+        "square_mileage" : 0.66
+    },
+    "Waterville, Douglas County, Washington" : {
+        "name" : "Waterville",
+        "state" : "Washington",
+        "FIPS" : "53-76510",
+        "counties" : [
+            "Douglas County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1138,
+        "population_2020" : 1134,
+        "population" : 1198,
+        "square_mileage" : 0.87
+    },
+    "Waverly, Spokane County, Washington" : {
+        "name" : "Waverly",
+        "state" : "Washington",
+        "FIPS" : "53-76720",
+        "counties" : [
+            "Spokane County"
+        ],
+        "type" : "Town",
+        "population_2010" : 107,
+        "population_2020" : 121,
+        "population" : 140,
+        "square_mileage" : 0.41
+    },
+    "Wenatchee, Chelan County, Washington" : {
+        "name" : "Wenatchee",
+        "state" : "Washington",
+        "FIPS" : "53-77105",
+        "counties" : [
+            "Chelan County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 31925,
+        "population_2020" : 35308,
+        "population" : 40238,
+        "square_mileage" : 10.58
+    },
+    "West Richland, Benton County, Washington" : {
+        "name" : "West Richland",
+        "state" : "Washington",
+        "FIPS" : "53-77665",
+        "counties" : [
+            "Benton County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 11811,
+        "population_2020" : 16295,
+        "population" : 22356,
+        "square_mileage" : 22.12
+    },
+    "Westport, Grays Harbor County, Washington" : {
+        "name" : "Westport",
+        "state" : "Washington",
+        "FIPS" : "53-77630",
+        "counties" : [
+            "Grays Harbor County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 2099,
+        "population_2020" : 2213,
+        "population" : 2434,
+        "square_mileage" : 3.69
+    },
+    "White Salmon, Klickitat County, Washington" : {
+        "name" : "White Salmon",
+        "state" : "Washington",
+        "FIPS" : "53-78330",
+        "counties" : [
+            "Klickitat County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 2224,
+        "population_2020" : 2485,
+        "population" : 2854,
+        "square_mileage" : 1.54
+    },
+    "Wilbur, Lincoln County, Washington" : {
+        "name" : "Wilbur",
+        "state" : "Washington",
+        "FIPS" : "53-78680",
+        "counties" : [
+            "Lincoln County"
+        ],
+        "type" : "Town",
+        "population_2010" : 884,
+        "population_2020" : 895,
+        "population" : 956,
+        "square_mileage" : 1.32
+    },
+    "Wilkeson, Pierce County, Washington" : {
+        "name" : "Wilkeson",
+        "state" : "Washington",
+        "FIPS" : "53-78925",
+        "counties" : [
+            "Pierce County"
+        ],
+        "type" : "Town",
+        "population_2010" : 477,
+        "population_2020" : 499,
+        "population" : 546,
+        "square_mileage" : 0.47
+    },
+    "Wilson Creek, Grant County, Washington" : {
+        "name" : "Wilson Creek",
+        "state" : "Washington",
+        "FIPS" : "53-79135",
+        "counties" : [
+            "Grant County"
+        ],
+        "type" : "Town",
+        "population_2010" : 205,
+        "population_2020" : 204,
+        "population" : 215,
+        "square_mileage" : 0.97
+    },
+    "Winlock, Lewis County, Washington" : {
+        "name" : "Winlock",
+        "state" : "Washington",
+        "FIPS" : "53-79275",
+        "counties" : [
+            "Lewis County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1339,
+        "population_2020" : 1472,
+        "population" : 1670,
+        "square_mileage" : 1.29
+    },
+    "Winthrop, Okanogan County, Washington" : {
+        "name" : "Winthrop",
+        "state" : "Washington",
+        "FIPS" : "53-79380",
+        "counties" : [
+            "Okanogan County"
+        ],
+        "type" : "Town",
+        "population_2010" : 394,
+        "population_2020" : 504,
+        "population" : 646,
+        "square_mileage" : 0.93
+    },
+    "Woodinville, King County, Washington" : {
+        "name" : "Woodinville",
+        "state" : "Washington",
+        "FIPS" : "53-79590",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 10938,
+        "population_2020" : 13069,
+        "population" : 15827,
+        "square_mileage" : 5.62
+    },
+    "Woodland, Cowlitz County, Washington" : {
+        "name" : "Woodland",
+        "state" : "Washington",
+        "FIPS" : "53-79625",
+        "counties" : [
+            "Cowlitz County",
+            "Clark County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 5509,
+        "population_2020" : 6531,
+        "population" : 7859,
+        "square_mileage" : 4.11
+    },
+    "Woodway, Snohomish County, Washington" : {
+        "name" : "Woodway",
+        "state" : "Washington",
+        "FIPS" : "53-79835",
+        "counties" : [
+            "Snohomish County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 1307,
+        "population_2020" : 1318,
+        "population" : 1404,
+        "square_mileage" : 1.17
+    },
+    "Yacolt, Clark County, Washington" : {
+        "name" : "Yacolt",
+        "state" : "Washington",
+        "FIPS" : "53-79975",
+        "counties" : [
+            "Clark County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1566,
+        "population_2020" : 1668,
+        "population" : 1848,
+        "square_mileage" : 0.58
+    },
+    "Yakima, Yakima County, Washington" : {
+        "name" : "Yakima",
+        "state" : "Washington",
+        "FIPS" : "53-80010",
+        "counties" : [
+            "Yakima County"
+        ],
+        "type" : "First Class",
+        "population_2010" : 91196,
+        "population_2020" : 96968,
+        "population" : 107308,
+        "square_mileage" : 27.81
+    },
+    "Yarrow Point, King County, Washington" : {
+        "name" : "Yarrow Point",
+        "state" : "Washington",
+        "FIPS" : "53-80150",
+        "counties" : [
+            "King County"
+        ],
+        "type" : "Town",
+        "population_2010" : 1001,
+        "population_2020" : 1134,
+        "population" : 1316,
+        "square_mileage" : 0.37
+    },
+    "Yelm, Thurston County, Washington" : {
+        "name" : "Yelm",
+        "state" : "Washington",
+        "FIPS" : "53-80220",
+        "counties" : [
+            "Thurston County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 6848,
+        "population_2020" : 10617,
+        "population" : 16314,
+        "square_mileage" : 5.71
+    },
+    "Zillah, Yakima County, Washington" : {
+        "name" : "Zillah",
+        "state" : "Washington",
+        "FIPS" : "53-80500",
+        "counties" : [
+            "Yakima County"
+        ],
+        "type" : "Code City",
+        "population_2010" : 2964,
+        "population_2020" : 3179,
+        "population" : 3540,
+        "square_mileage" : 1.82
+    }
+}
