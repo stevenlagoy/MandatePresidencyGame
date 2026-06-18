@@ -37,7 +37,7 @@ class CensusDivision(
         if (_censusRegion != null) censusRegion = _censusRegion
     }
 
-    override fun toJson() = super.toJson().merge(
+    override fun toJson(): JSONObject = super.toJson().merge(
         JSONObject("censusRegion", censusRegion),
         JSONObject("states", states.map { it.fullName })
     )

@@ -4,7 +4,6 @@ import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.Jsonic
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
-import javax.script.ScriptEngine.ENGINE
 
 class FinancialProfile(
     engine: Engine,

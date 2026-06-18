@@ -5,7 +5,6 @@ import com.stevenlagoy.presidency.characters.attributes.experiences.Experience;
 import com.stevenlagoy.presidency.characters.attributes.experiences.ExperienceHistory;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
-import kotlin.Triple;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;

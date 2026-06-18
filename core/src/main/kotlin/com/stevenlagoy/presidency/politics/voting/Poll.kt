@@ -1,4 +1,3 @@
 package com.stevenlagoy.presidency.politics.voting
 
-class Poll {
-}
+class Poll

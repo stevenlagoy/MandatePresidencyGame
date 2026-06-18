@@ -2,5 +2,4 @@ package com.stevenlagoy.presidency.characters.attributes.finances
 
 class Debt(
     value: Double,
-) : Liability(LiabilityType.Debt, value) {
-}
+) : Liability(LiabilityType.Debt, value)

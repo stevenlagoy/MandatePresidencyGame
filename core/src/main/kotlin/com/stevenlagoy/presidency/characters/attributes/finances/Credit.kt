@@ -6,5 +6,4 @@ class Credit(
     timeManager: TimeManager,
     assetType: AssetType,
     value: Double,
-) : Asset(timeManager, assetType, value) {
-}
+) : Asset(timeManager, assetType, value)

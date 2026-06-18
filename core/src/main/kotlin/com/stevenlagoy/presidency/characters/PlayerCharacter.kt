@@ -53,5 +53,4 @@ class PlayerCharacter(
     issuePositions,
     partyAffiliation,
     candidacy,
-) {
-}
+)

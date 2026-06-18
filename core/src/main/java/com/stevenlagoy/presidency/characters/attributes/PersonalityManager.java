@@ -6,7 +6,6 @@ import com.stevenlagoy.presidency.core.Manager;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
-import java.util.Set;
 
 /**
  * <h1>PERSONALITY MANAGER</h1>

@@ -4,7 +4,6 @@ import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.characters.PoliticalActor
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.demographics.Bloc
-import com.stevenlagoy.presidency.politics.Government
 import kotlin.uuid.ExperimentalUuidApi
 
 @OptIn(ExperimentalUuidApi::class)
@@ -42,7 +41,7 @@ class CongressionalDistrict(
         if (_state != null) state = _state
     }
 
-    override fun toJson() = super.toJson().merge(
+    override fun toJson(): JSONObject = super.toJson().merge(
         JSONObject("state", state.fullName),
         JSONObject("districtNumber", districtNumber),
         JSONObject("representative", representative?.name?.indexedName)

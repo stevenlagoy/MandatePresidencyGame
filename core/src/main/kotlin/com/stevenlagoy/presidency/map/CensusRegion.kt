@@ -31,7 +31,7 @@ class CensusRegion(
         fromJson(json)
     }
 
-    override fun toJson() = super.toJson().merge(
+    override fun toJson(): JSONObject = super.toJson().merge(
         JSONObject("censusDivisions", censusDivisions.map { it.name })
     )
 

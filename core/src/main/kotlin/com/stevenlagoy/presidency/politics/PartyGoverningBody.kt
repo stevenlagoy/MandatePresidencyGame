@@ -11,4 +11,4 @@ class PartyGoverningBody(
     var chairPerson: PoliticalActor? = null,
     var boardMembers: Set<PoliticalActor>? = null,
     var registrees: Set<PoliticalActor>? = null,
-) {}
+)

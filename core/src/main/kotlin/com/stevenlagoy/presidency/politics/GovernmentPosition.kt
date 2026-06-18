@@ -8,5 +8,4 @@ class GovernmentPosition(
     var constituency: MapEntity,
     var federalLevel: FederalLevel,
     var holder: PoliticalActor
-) {
-}
+)

@@ -6,7 +6,7 @@ import java.time.Period
 import kotlin.math.pow
 
 // Amortized loan
-class Loan(
+data class Loan(
     val lender: FinancialEntity,
     val borrower: FinancialEntity,
     val principal: Double,

@@ -13,7 +13,6 @@ import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.demographics.Demographics
 import com.stevenlagoy.presidency.map.Municipality
 import java.time.LocalDate
-import kotlin.jvm.optionals.getOrNull
 import kotlin.uuid.ExperimentalUuidApi
 import kotlin.uuid.Uuid
 
