@@ -1,10 +1,10 @@
 {
     "FIPS" : "74400",
-    "full_name" : "Palmyra Atoll",
-    "common_name" : "Palmyra Atoll",
+    "fullName" : "Palmyra Atoll",
+    "commonName" : "Palmyra Atoll",
     "state" : "U.S. Minor Outlying Islands",
-    "county_seat" : null,
+    "countySeat" : null,
     "population" : 0,
-    "land_area" : 4.6,
+    "squareMileage" : 4.6,
     "descriptors" : []
 }

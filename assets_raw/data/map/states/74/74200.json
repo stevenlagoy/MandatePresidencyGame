@@ -1,10 +1,10 @@
 {
     "FIPS" : "74200",
-    "full_name" : "Johnston Atoll",
-    "common_name" : "Johnston Atoll",
+    "fullName" : "Johnston Atoll",
+    "commonName" : "Johnston Atoll",
     "state" : "U.S. Minor Outlying Islands",
-    "county_seat" : null,
+    "countySeat" : null,
     "population" : 315,
-    "land_area" : 2.67,
+    "squareMileage" : 2.67,
     "descriptors" : []
 }

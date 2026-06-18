@@ -1,6 +1,6 @@
 {
     "Alamogordo, Otero County, New Mexico" : {
-        "name" : "Alamogordo",
+        "fullName" : "Alamogordo",
         "state" : "New Mexico",
         "FIPS" : "35-01780",
         "counties" : [
@@ -13,7 +13,7 @@
         "square_mileage" : 21.39
     },
     "Albuquerque, Bernalillo County, New Mexico" : {
-        "name" : "Albuquerque",
+        "fullName" : "Albuquerque",
         "state" : "New Mexico",
         "FIPS" : "35-02000",
         "counties" : [
@@ -26,7 +26,7 @@
         "square_mileage" : 187.27
     },
     "Angel Fire, Colfax County, New Mexico" : {
-        "name" : "Angel Fire",
+        "fullName" : "Angel Fire",
         "state" : "New Mexico",
         "FIPS" : "35-03400",
         "counties" : [
@@ -39,7 +39,7 @@
         "square_mileage" : 28.81
     },
     "Anthony, Do\u00f1a Ana County, New Mexico" : {
-        "name" : "Anthony",
+        "fullName" : "Anthony",
         "state" : "New Mexico",
         "FIPS" : "35-03820",
         "counties" : [
@@ -52,7 +52,7 @@
         "square_mileage" : 2.7
     },
     "Artesia, Eddy County, New Mexico" : {
-        "name" : "Artesia",
+        "fullName" : "Artesia",
         "state" : "New Mexico",
         "FIPS" : "35-05220",
         "counties" : [
@@ -65,7 +65,7 @@
         "square_mileage" : 11.33
     },
     "Aztec, San Juan County, New Mexico" : {
-        "name" : "Aztec",
+        "fullName" : "Aztec",
         "state" : "New Mexico",
         "FIPS" : "35-05780",
         "counties" : [
@@ -78,7 +78,7 @@
         "square_mileage" : 17.06
     },
     "Bayard, Grant County, New Mexico" : {
-        "name" : "Bayard",
+        "fullName" : "Bayard",
         "state" : "New Mexico",
         "FIPS" : "35-06270",
         "counties" : [
@@ -91,7 +91,7 @@
         "square_mileage" : 0.95
     },
     "Belen, Valencia County, New Mexico" : {
-        "name" : "Belen",
+        "fullName" : "Belen",
         "state" : "New Mexico",
         "FIPS" : "35-06480",
         "counties" : [
@@ -104,7 +104,7 @@
         "square_mileage" : 18.96
     },
     "Bernalillo, Sandoval County, New Mexico" : {
-        "name" : "Bernalillo",
+        "fullName" : "Bernalillo",
         "state" : "New Mexico",
         "FIPS" : "35-06970",
         "counties" : [
@@ -117,7 +117,7 @@
         "square_mileage" : 4.89
     },
     "Bloomfield, San Juan County, New Mexico" : {
-        "name" : "Bloomfield",
+        "fullName" : "Bloomfield",
         "state" : "New Mexico",
         "FIPS" : "35-07880",
         "counties" : [
@@ -130,7 +130,7 @@
         "square_mileage" : 18.55
     },
     "Bosque Farms, Valencia County, New Mexico" : {
-        "name" : "Bosque Farms",
+        "fullName" : "Bosque Farms",
         "state" : "New Mexico",
         "FIPS" : "35-08580",
         "counties" : [
@@ -143,7 +143,7 @@
         "square_mileage" : 3.94
     },
     "Capitan, Lincoln County, New Mexico" : {
-        "name" : "Capitan",
+        "fullName" : "Capitan",
         "state" : "New Mexico",
         "FIPS" : "35-11800",
         "counties" : [
@@ -156,7 +156,7 @@
         "square_mileage" : 3.26
     },
     "Carlsbad, Eddy County, New Mexico" : {
-        "name" : "Carlsbad",
+        "fullName" : "Carlsbad",
         "state" : "New Mexico",
         "FIPS" : "35-12150",
         "counties" : [
@@ -169,7 +169,7 @@
         "square_mileage" : 31.52
     },
     "Carrizozo, Lincoln County, New Mexico" : {
-        "name" : "Carrizozo",
+        "fullName" : "Carrizozo",
         "state" : "New Mexico",
         "FIPS" : "35-12500",
         "counties" : [
@@ -182,7 +182,7 @@
         "square_mileage" : 8.36
     },
     "Causey, Roosevelt County, New Mexico" : {
-        "name" : "Causey",
+        "fullName" : "Causey",
         "state" : "New Mexico",
         "FIPS" : "35-12850",
         "counties" : [
@@ -195,7 +195,7 @@
         "square_mileage" : 3.75
     },
     "Chama, Rio Arriba County, New Mexico" : {
-        "name" : "Chama",
+        "fullName" : "Chama",
         "state" : "New Mexico",
         "FIPS" : "35-13970",
         "counties" : [
@@ -208,7 +208,7 @@
         "square_mileage" : 2.59
     },
     "Cimarron, Colfax County, New Mexico" : {
-        "name" : "Cimarron",
+        "fullName" : "Cimarron",
         "state" : "New Mexico",
         "FIPS" : "35-15440",
         "counties" : [
@@ -221,7 +221,7 @@
         "square_mileage" : 2.12
     },
     "Clayton, Union County, New Mexico" : {
-        "name" : "Clayton",
+        "fullName" : "Clayton",
         "state" : "New Mexico",
         "FIPS" : "35-15720",
         "counties" : [
@@ -234,7 +234,7 @@
         "square_mileage" : 7.77
     },
     "Cloudcroft, Otero County, New Mexico" : {
-        "name" : "Cloudcroft",
+        "fullName" : "Cloudcroft",
         "state" : "New Mexico",
         "FIPS" : "35-16280",
         "counties" : [
@@ -247,7 +247,7 @@
         "square_mileage" : 1.64
     },
     "Clovis, Curry County, New Mexico" : {
-        "name" : "Clovis",
+        "fullName" : "Clovis",
         "state" : "New Mexico",
         "FIPS" : "35-16420",
         "counties" : [
@@ -260,7 +260,7 @@
         "square_mileage" : 23.63
     },
     "Columbus, Luna County, New Mexico" : {
-        "name" : "Columbus",
+        "fullName" : "Columbus",
         "state" : "New Mexico",
         "FIPS" : "35-17050",
         "counties" : [
@@ -273,7 +273,7 @@
         "square_mileage" : 4.67
     },
     "Corona, Lincoln County, New Mexico" : {
-        "name" : "Corona",
+        "fullName" : "Corona",
         "state" : "New Mexico",
         "FIPS" : "35-17680",
         "counties" : [
@@ -286,7 +286,7 @@
         "square_mileage" : 1.03
     },
     "Corrales, Sandoval County, New Mexico" : {
-        "name" : "Corrales",
+        "fullName" : "Corrales",
         "state" : "New Mexico",
         "FIPS" : "35-17960",
         "counties" : [
@@ -299,7 +299,7 @@
         "square_mileage" : 10.79
     },
     "Cuba, Sandoval County, New Mexico" : {
-        "name" : "Cuba",
+        "fullName" : "Cuba",
         "state" : "New Mexico",
         "FIPS" : "35-19150",
         "counties" : [
@@ -312,7 +312,7 @@
         "square_mileage" : 3.26
     },
     "Deming, Luna County, New Mexico" : {
-        "name" : "Deming",
+        "fullName" : "Deming",
         "state" : "New Mexico",
         "FIPS" : "35-20270",
         "counties" : [
@@ -325,7 +325,7 @@
         "square_mileage" : 16.72
     },
     "Des Moines, Union County, New Mexico" : {
-        "name" : "Des Moines",
+        "fullName" : "Des Moines",
         "state" : "New Mexico",
         "FIPS" : "35-20480",
         "counties" : [
@@ -338,7 +338,7 @@
         "square_mileage" : 0.87
     },
     "Dexter, Chaves County, New Mexico" : {
-        "name" : "Dexter",
+        "fullName" : "Dexter",
         "state" : "New Mexico",
         "FIPS" : "35-20620",
         "counties" : [
@@ -351,7 +351,7 @@
         "square_mileage" : 0.73
     },
     "Dora, Roosevelt County, New Mexico" : {
-        "name" : "Dora",
+        "fullName" : "Dora",
         "state" : "New Mexico",
         "FIPS" : "35-21180",
         "counties" : [
@@ -364,7 +364,7 @@
         "square_mileage" : 2.63
     },
     "Eagle Nest, Colfax County, New Mexico" : {
-        "name" : "Eagle Nest",
+        "fullName" : "Eagle Nest",
         "state" : "New Mexico",
         "FIPS" : "35-22020",
         "counties" : [
@@ -377,7 +377,7 @@
         "square_mileage" : 4.48
     },
     "Edgewood, Santa Fe County, New Mexico" : {
-        "name" : "Edgewood",
+        "fullName" : "Edgewood",
         "state" : "New Mexico",
         "FIPS" : "35-22380",
         "counties" : [
@@ -390,7 +390,7 @@
         "square_mileage" : 56.8
     },
     "Elephant Butte, Sierra County, New Mexico" : {
-        "name" : "Elephant Butte",
+        "fullName" : "Elephant Butte",
         "state" : "New Mexico",
         "FIPS" : "35-22720",
         "counties" : [
@@ -403,7 +403,7 @@
         "square_mileage" : 4.18
     },
     "Elida, Roosevelt County, New Mexico" : {
-        "name" : "Elida",
+        "fullName" : "Elida",
         "state" : "New Mexico",
         "FIPS" : "35-23000",
         "counties" : [
@@ -416,7 +416,7 @@
         "square_mileage" : 1.02
     },
     "Encino, Torrance County, New Mexico" : {
-        "name" : "Encino",
+        "fullName" : "Encino",
         "state" : "New Mexico",
         "FIPS" : "35-24610",
         "counties" : [
@@ -429,7 +429,7 @@
         "square_mileage" : 1.99
     },
     "Espa\u00f1ola, Rio Arriba County, New Mexico" : {
-        "name" : "Espa\u00f1ola",
+        "fullName" : "Espa\u00f1ola",
         "state" : "New Mexico",
         "FIPS" : "35-25170",
         "counties" : [
@@ -443,7 +443,7 @@
         "square_mileage" : 8.22
     },
     "Estancia, Torrance County, New Mexico" : {
-        "name" : "Estancia",
+        "fullName" : "Estancia",
         "state" : "New Mexico",
         "FIPS" : "35-25380",
         "counties" : [
@@ -456,7 +456,7 @@
         "square_mileage" : 6.17
     },
     "Eunice, Lea County, New Mexico" : {
-        "name" : "Eunice",
+        "fullName" : "Eunice",
         "state" : "New Mexico",
         "FIPS" : "35-25450",
         "counties" : [
@@ -469,7 +469,7 @@
         "square_mileage" : 4.09
     },
     "Farmington, San Juan County, New Mexico" : {
-        "name" : "Farmington",
+        "fullName" : "Farmington",
         "state" : "New Mexico",
         "FIPS" : "35-25800",
         "counties" : [
@@ -482,7 +482,7 @@
         "square_mileage" : 34.46
     },
     "Floyd, Roosevelt County, New Mexico" : {
-        "name" : "Floyd",
+        "fullName" : "Floyd",
         "state" : "New Mexico",
         "FIPS" : "35-26570",
         "counties" : [
@@ -495,7 +495,7 @@
         "square_mileage" : 3.05
     },
     "Folsom, Union County, New Mexico" : {
-        "name" : "Folsom",
+        "fullName" : "Folsom",
         "state" : "New Mexico",
         "FIPS" : "35-26780",
         "counties" : [
@@ -508,7 +508,7 @@
         "square_mileage" : 0.65
     },
     "Fort Sumner, De Baca County, New Mexico" : {
-        "name" : "Fort Sumner",
+        "fullName" : "Fort Sumner",
         "state" : "New Mexico",
         "FIPS" : "35-27340",
         "counties" : [
@@ -521,7 +521,7 @@
         "square_mileage" : 3.32
     },
     "Gallup, McKinley County, New Mexico" : {
-        "name" : "Gallup",
+        "fullName" : "Gallup",
         "state" : "New Mexico",
         "FIPS" : "35-28460",
         "counties" : [
@@ -534,7 +534,7 @@
         "square_mileage" : 20.19
     },
     "Grady, Curry County, New Mexico" : {
-        "name" : "Grady",
+        "fullName" : "Grady",
         "state" : "New Mexico",
         "FIPS" : "35-30210",
         "counties" : [
@@ -547,7 +547,7 @@
         "square_mileage" : 0.27
     },
     "Grants, Cibola County, New Mexico" : {
-        "name" : "Grants",
+        "fullName" : "Grants",
         "state" : "New Mexico",
         "FIPS" : "35-30490",
         "counties" : [
@@ -560,7 +560,7 @@
         "square_mileage" : 14.91
     },
     "Grenville, Union County, New Mexico" : {
-        "name" : "Grenville",
+        "fullName" : "Grenville",
         "state" : "New Mexico",
         "FIPS" : "35-30770",
         "counties" : [
@@ -573,7 +573,7 @@
         "square_mileage" : 0.38
     },
     "Hagerman, Chaves County, New Mexico" : {
-        "name" : "Hagerman",
+        "fullName" : "Hagerman",
         "state" : "New Mexico",
         "FIPS" : "35-31330",
         "counties" : [
@@ -586,7 +586,7 @@
         "square_mileage" : 1.36
     },
     "Hatch, Do\u00f1a Ana County, New Mexico" : {
-        "name" : "Hatch",
+        "fullName" : "Hatch",
         "state" : "New Mexico",
         "FIPS" : "35-31820",
         "counties" : [
@@ -599,7 +599,7 @@
         "square_mileage" : 3.01
     },
     "Hobbs, Lea County, New Mexico" : {
-        "name" : "Hobbs",
+        "fullName" : "Hobbs",
         "state" : "New Mexico",
         "FIPS" : "35-32520",
         "counties" : [
@@ -612,7 +612,7 @@
         "square_mileage" : 26.4
     },
     "Hope, Eddy County, New Mexico" : {
-        "name" : "Hope",
+        "fullName" : "Hope",
         "state" : "New Mexico",
         "FIPS" : "35-33290",
         "counties" : [
@@ -625,7 +625,7 @@
         "square_mileage" : 1.22
     },
     "House, Quay County, New Mexico" : {
-        "name" : "House",
+        "fullName" : "House",
         "state" : "New Mexico",
         "FIPS" : "35-33710",
         "counties" : [
@@ -638,7 +638,7 @@
         "square_mileage" : 0.91
     },
     "Hurley, Grant County, New Mexico" : {
-        "name" : "Hurley",
+        "fullName" : "Hurley",
         "state" : "New Mexico",
         "FIPS" : "35-33850",
         "counties" : [
@@ -651,7 +651,7 @@
         "square_mileage" : 1.02
     },
     "Jal, Lea County, New Mexico" : {
-        "name" : "Jal",
+        "fullName" : "Jal",
         "state" : "New Mexico",
         "FIPS" : "35-35040",
         "counties" : [
@@ -664,7 +664,7 @@
         "square_mileage" : 4.82
     },
     "Jemez Springs, Sandoval County, New Mexico" : {
-        "name" : "Jemez Springs",
+        "fullName" : "Jemez Springs",
         "state" : "New Mexico",
         "FIPS" : "35-35320",
         "counties" : [
@@ -677,7 +677,7 @@
         "square_mileage" : 4.8
     },
     "Kirtland, San Juan County, New Mexico" : {
-        "name" : "Kirtland",
+        "fullName" : "Kirtland",
         "state" : "New Mexico",
         "FIPS" : "35-36230",
         "counties" : [
@@ -690,7 +690,7 @@
         "square_mileage" : 1.7
     },
     "Lake Arthur, Chaves County, New Mexico" : {
-        "name" : "Lake Arthur",
+        "fullName" : "Lake Arthur",
         "state" : "New Mexico",
         "FIPS" : "35-37840",
         "counties" : [
@@ -703,7 +703,7 @@
         "square_mileage" : 0.53
     },
     "Las Cruces, Do\u00f1a Ana County, New Mexico" : {
-        "name" : "Las Cruces",
+        "fullName" : "Las Cruces",
         "state" : "New Mexico",
         "FIPS" : "35-39380",
         "counties" : [
@@ -716,7 +716,7 @@
         "square_mileage" : 76.93
     },
     "Las Vegas, San Miguel County, New Mexico" : {
-        "name" : "Las Vegas",
+        "fullName" : "Las Vegas",
         "state" : "New Mexico",
         "FIPS" : "35-39940",
         "counties" : [
@@ -729,7 +729,7 @@
         "square_mileage" : 7.82
     },
     "Logan, Quay County, New Mexico" : {
-        "name" : "Logan",
+        "fullName" : "Logan",
         "state" : "New Mexico",
         "FIPS" : "35-42040",
         "counties" : [
@@ -742,7 +742,7 @@
         "square_mileage" : 10.6
     },
     "Lordsburg, Hidalgo County, New Mexico" : {
-        "name" : "Lordsburg",
+        "fullName" : "Lordsburg",
         "state" : "New Mexico",
         "FIPS" : "35-42180",
         "counties" : [
@@ -754,22 +754,22 @@
         "population" : 2184,
         "square_mileage" : 8.43
     },
-    "Los Alamos County, City&#8211;County, New Mexico" : {
-        "name" : "Los Alamos County",
+    "Los Alamos, Los Alamos County, New Mexico" : {
+        "fullName" : "Los Alamos County",
         "state" : "New Mexico",
         "FIPS" : "None",
         "counties" : [
             "City&#8211;County",
             "(Council&#8211;Manager) \u00a7"
         ],
-        "type" : "County",
+        "type" : "Incorporated City-County",
         "population_2010" : 17950,
         "population_2020" : 19419,
         "population" : 21579,
         "square_mileage" : 109.17
     },
     "Los Lunas, Valencia County, New Mexico" : {
-        "name" : "Los Lunas",
+        "fullName" : "Los Lunas",
         "state" : "New Mexico",
         "FIPS" : "35-43370",
         "counties" : [
@@ -782,7 +782,7 @@
         "square_mileage" : 18.73
     },
     "Los Ranchos de Albuquerque, Bernalillo County, New Mexico" : {
-        "name" : "Los Ranchos de Albuquerque",
+        "fullName" : "Los Ranchos de Albuquerque",
         "state" : "New Mexico",
         "FIPS" : "35-43930",
         "counties" : [
@@ -795,7 +795,7 @@
         "square_mileage" : 4.45
     },
     "Loving, Eddy County, New Mexico" : {
-        "name" : "Loving",
+        "fullName" : "Loving",
         "state" : "New Mexico",
         "FIPS" : "35-44420",
         "counties" : [
@@ -808,7 +808,7 @@
         "square_mileage" : 1.21
     },
     "Lovington, Lea County, New Mexico" : {
-        "name" : "Lovington",
+        "fullName" : "Lovington",
         "state" : "New Mexico",
         "FIPS" : "35-44490",
         "counties" : [
@@ -821,7 +821,7 @@
         "square_mileage" : 11.2
     },
     "Magdalena, Socorro County, New Mexico" : {
-        "name" : "Magdalena",
+        "fullName" : "Magdalena",
         "state" : "New Mexico",
         "FIPS" : "35-46310",
         "counties" : [
@@ -834,7 +834,7 @@
         "square_mileage" : 6.22
     },
     "Maxwell, Colfax County, New Mexico" : {
-        "name" : "Maxwell",
+        "fullName" : "Maxwell",
         "state" : "New Mexico",
         "FIPS" : "35-47080",
         "counties" : [
@@ -847,7 +847,7 @@
         "square_mileage" : 0.47
     },
     "Melrose, Curry County, New Mexico" : {
-        "name" : "Melrose",
+        "fullName" : "Melrose",
         "state" : "New Mexico",
         "FIPS" : "35-47570",
         "counties" : [
@@ -860,7 +860,7 @@
         "square_mileage" : 1.69
     },
     "Mesilla, Do\u00f1a Ana County, New Mexico" : {
-        "name" : "Mesilla",
+        "fullName" : "Mesilla",
         "state" : "New Mexico",
         "FIPS" : "35-48060",
         "counties" : [
@@ -873,7 +873,7 @@
         "square_mileage" : 5.68
     },
     "Milan, Cibola County, New Mexico" : {
-        "name" : "Milan",
+        "fullName" : "Milan",
         "state" : "New Mexico",
         "FIPS" : "35-48620",
         "counties" : [
@@ -886,7 +886,7 @@
         "square_mileage" : 4.34
     },
     "Moriarty, Torrance County, New Mexico" : {
-        "name" : "Moriarty",
+        "fullName" : "Moriarty",
         "state" : "New Mexico",
         "FIPS" : "35-50160",
         "counties" : [
@@ -899,7 +899,7 @@
         "square_mileage" : 6.94
     },
     "Mosquero, Harding County, New Mexico" : {
-        "name" : "Mosquero",
+        "fullName" : "Mosquero",
         "state" : "New Mexico",
         "FIPS" : "35-50300",
         "counties" : [
@@ -913,7 +913,7 @@
         "square_mileage" : 1.0
     },
     "Mountainair, Torrance County, New Mexico" : {
-        "name" : "Mountainair",
+        "fullName" : "Mountainair",
         "state" : "New Mexico",
         "FIPS" : "35-50370",
         "counties" : [
@@ -926,7 +926,7 @@
         "square_mileage" : 1.58
     },
     "Pecos, San Miguel County, New Mexico" : {
-        "name" : "Pecos",
+        "fullName" : "Pecos",
         "state" : "New Mexico",
         "FIPS" : "35-55620",
         "counties" : [
@@ -939,7 +939,7 @@
         "square_mileage" : 1.78
     },
     "Peralta, Valencia County, New Mexico" : {
-        "name" : "Peralta",
+        "fullName" : "Peralta",
         "state" : "New Mexico",
         "FIPS" : "35-56180",
         "counties" : [
@@ -952,7 +952,7 @@
         "square_mileage" : 4.44
     },
     "Portales, Roosevelt County, New Mexico" : {
-        "name" : "Portales",
+        "fullName" : "Portales",
         "state" : "New Mexico",
         "FIPS" : "35-59260",
         "counties" : [
@@ -965,7 +965,7 @@
         "square_mileage" : 7.95
     },
     "Questa, Taos County, New Mexico" : {
-        "name" : "Questa",
+        "fullName" : "Questa",
         "state" : "New Mexico",
         "FIPS" : "35-60870",
         "counties" : [
@@ -978,7 +978,7 @@
         "square_mileage" : 5.11
     },
     "Raton, Colfax County, New Mexico" : {
-        "name" : "Raton",
+        "fullName" : "Raton",
         "state" : "New Mexico",
         "FIPS" : "35-62060",
         "counties" : [
@@ -991,7 +991,7 @@
         "square_mileage" : 7.96
     },
     "Red River, Taos County, New Mexico" : {
-        "name" : "Red River",
+        "fullName" : "Red River",
         "state" : "New Mexico",
         "FIPS" : "35-62200",
         "counties" : [
@@ -1004,7 +1004,7 @@
         "square_mileage" : 1.02
     },
     "Reserve, Catron County, New Mexico" : {
-        "name" : "Reserve",
+        "fullName" : "Reserve",
         "state" : "New Mexico",
         "FIPS" : "35-62620",
         "counties" : [
@@ -1017,7 +1017,7 @@
         "square_mileage" : 0.56
     },
     "Rio Communities, Valencia County, New Mexico" : {
-        "name" : "Rio Communities",
+        "fullName" : "Rio Communities",
         "state" : "New Mexico",
         "FIPS" : "35-63145",
         "counties" : [
@@ -1030,7 +1030,7 @@
         "square_mileage" : 7.7
     },
     "Rio Rancho, Bernalillo County, New Mexico" : {
-        "name" : "Rio Rancho",
+        "fullName" : "Rio Rancho",
         "state" : "New Mexico",
         "FIPS" : "35-63460",
         "counties" : [
@@ -1044,7 +1044,7 @@
         "square_mileage" : 103.36
     },
     "Roswell, Chaves County, New Mexico" : {
-        "name" : "Roswell",
+        "fullName" : "Roswell",
         "state" : "New Mexico",
         "FIPS" : "35-64930",
         "counties" : [
@@ -1057,7 +1057,7 @@
         "square_mileage" : 29.72
     },
     "Roy, Harding County, New Mexico" : {
-        "name" : "Roy",
+        "fullName" : "Roy",
         "state" : "New Mexico",
         "FIPS" : "35-65070",
         "counties" : [
@@ -1070,7 +1070,7 @@
         "square_mileage" : 2.04
     },
     "Ruidoso, Lincoln County, New Mexico" : {
-        "name" : "Ruidoso",
+        "fullName" : "Ruidoso",
         "state" : "New Mexico",
         "FIPS" : "35-65210",
         "counties" : [
@@ -1083,7 +1083,7 @@
         "square_mileage" : 16.13
     },
     "Ruidoso Downs, Lincoln County, New Mexico" : {
-        "name" : "Ruidoso Downs",
+        "fullName" : "Ruidoso Downs",
         "state" : "New Mexico",
         "FIPS" : "35-65280",
         "counties" : [
@@ -1096,7 +1096,7 @@
         "square_mileage" : 3.79
     },
     "San Jon, Quay County, New Mexico" : {
-        "name" : "San Jon",
+        "fullName" : "San Jon",
         "state" : "New Mexico",
         "FIPS" : "35-68150",
         "counties" : [
@@ -1109,7 +1109,7 @@
         "square_mileage" : 2.93
     },
     "San Ysidro, Sandoval County, New Mexico" : {
-        "name" : "San Ysidro",
+        "fullName" : "San Ysidro",
         "state" : "New Mexico",
         "FIPS" : "35-71020",
         "counties" : [
@@ -1122,7 +1122,7 @@
         "square_mileage" : 2.34
     },
     "Santa Clara, Grant County, New Mexico" : {
-        "name" : "Santa Clara",
+        "fullName" : "Santa Clara",
         "state" : "New Mexico",
         "FIPS" : "35-70270",
         "counties" : [
@@ -1135,7 +1135,7 @@
         "square_mileage" : 1.99
     },
     "Santa Fe, Santa Fe County, New Mexico" : {
-        "name" : "Santa Fe",
+        "fullName" : "Santa Fe",
         "state" : "New Mexico",
         "FIPS" : "35-70500",
         "counties" : [
@@ -1148,7 +1148,7 @@
         "square_mileage" : 52.23
     },
     "Santa Rosa, Guadalupe County, New Mexico" : {
-        "name" : "Santa Rosa",
+        "fullName" : "Santa Rosa",
         "state" : "New Mexico",
         "FIPS" : "35-70670",
         "counties" : [
@@ -1161,7 +1161,7 @@
         "square_mileage" : 5.0
     },
     "Silver City, Grant County, New Mexico" : {
-        "name" : "Silver City",
+        "fullName" : "Silver City",
         "state" : "New Mexico",
         "FIPS" : "35-73260",
         "counties" : [
@@ -1174,7 +1174,7 @@
         "square_mileage" : 10.12
     },
     "Socorro, Socorro County, New Mexico" : {
-        "name" : "Socorro",
+        "fullName" : "Socorro",
         "state" : "New Mexico",
         "FIPS" : "35-73540",
         "counties" : [
@@ -1187,7 +1187,7 @@
         "square_mileage" : 14.45
     },
     "Springer, Colfax County, New Mexico" : {
-        "name" : "Springer",
+        "fullName" : "Springer",
         "state" : "New Mexico",
         "FIPS" : "35-74800",
         "counties" : [
@@ -1200,7 +1200,7 @@
         "square_mileage" : 2.2
     },
     "Sunland Park, Do\u00f1a Ana County, New Mexico" : {
-        "name" : "Sunland Park",
+        "fullName" : "Sunland Park",
         "state" : "New Mexico",
         "FIPS" : "35-75640",
         "counties" : [
@@ -1213,7 +1213,7 @@
         "square_mileage" : 13.58
     },
     "Taos, Taos County, New Mexico" : {
-        "name" : "Taos",
+        "fullName" : "Taos",
         "state" : "New Mexico",
         "FIPS" : "35-76200",
         "counties" : [
@@ -1226,7 +1226,7 @@
         "square_mileage" : 6.02
     },
     "Taos Ski Valley, Taos County, New Mexico" : {
-        "name" : "Taos Ski Valley",
+        "fullName" : "Taos Ski Valley",
         "state" : "New Mexico",
         "FIPS" : "35-76480",
         "counties" : [
@@ -1239,7 +1239,7 @@
         "square_mileage" : 2.85
     },
     "Tatum, Lea County, New Mexico" : {
-        "name" : "Tatum",
+        "fullName" : "Tatum",
         "state" : "New Mexico",
         "FIPS" : "35-76620",
         "counties" : [
@@ -1252,7 +1252,7 @@
         "square_mileage" : 1.59
     },
     "Texico, Curry County, New Mexico" : {
-        "name" : "Texico",
+        "fullName" : "Texico",
         "state" : "New Mexico",
         "FIPS" : "35-77250",
         "counties" : [
@@ -1265,7 +1265,7 @@
         "square_mileage" : 0.83
     },
     "Tijeras, Bernalillo County, New Mexico" : {
-        "name" : "Tijeras",
+        "fullName" : "Tijeras",
         "state" : "New Mexico",
         "FIPS" : "35-77880",
         "counties" : [
@@ -1278,7 +1278,7 @@
         "square_mileage" : 1.13
     },
     "Truth or Consequences, Sierra County, New Mexico" : {
-        "name" : "Truth or Consequences",
+        "fullName" : "Truth or Consequences",
         "state" : "New Mexico",
         "FIPS" : "35-79840",
         "counties" : [
@@ -1291,7 +1291,7 @@
         "square_mileage" : 28.0
     },
     "Tucumcari, Quay County, New Mexico" : {
-        "name" : "Tucumcari",
+        "fullName" : "Tucumcari",
         "state" : "New Mexico",
         "FIPS" : "35-79910",
         "counties" : [
@@ -1304,7 +1304,7 @@
         "square_mileage" : 9.51
     },
     "Tularosa, Otero County, New Mexico" : {
-        "name" : "Tularosa",
+        "fullName" : "Tularosa",
         "state" : "New Mexico",
         "FIPS" : "35-79980",
         "counties" : [
@@ -1317,7 +1317,7 @@
         "square_mileage" : 2.82
     },
     "Vaughn, Guadalupe County, New Mexico" : {
-        "name" : "Vaughn",
+        "fullName" : "Vaughn",
         "state" : "New Mexico",
         "FIPS" : "35-82570",
         "counties" : [
@@ -1330,7 +1330,7 @@
         "square_mileage" : 5.6
     },
     "Virden, Hidalgo County, New Mexico" : {
-        "name" : "Virden",
+        "fullName" : "Virden",
         "state" : "New Mexico",
         "FIPS" : "35-83200",
         "counties" : [
@@ -1343,7 +1343,7 @@
         "square_mileage" : 0.21
     },
     "Wagon Mound, Mora County, New Mexico" : {
-        "name" : "Wagon Mound",
+        "fullName" : "Wagon Mound",
         "state" : "New Mexico",
         "FIPS" : "35-83340",
         "counties" : [
@@ -1356,7 +1356,7 @@
         "square_mileage" : 1.01
     },
     "Willard, Torrance County, New Mexico" : {
-        "name" : "Willard",
+        "fullName" : "Willard",
         "state" : "New Mexico",
         "FIPS" : "35-85160",
         "counties" : [
@@ -1369,7 +1369,7 @@
         "square_mileage" : 0.92
     },
     "Williamsburg, Sierra County, New Mexico" : {
-        "name" : "Williamsburg",
+        "fullName" : "Williamsburg",
         "state" : "New Mexico",
         "FIPS" : "35-85300",
         "counties" : [

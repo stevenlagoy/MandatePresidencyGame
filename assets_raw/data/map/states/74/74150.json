@@ -1,10 +1,10 @@
 {
     "FIPS" : "74150",
-    "full_name" : "Jarvis Island",
-    "common_name" : "Jarvis Island",
+    "fullName" : "Jarvis Island",
+    "commonName" : "Jarvis Island",
     "state" : "U.S. Minor Outlying Islands",
-    "county_seat" : null,
+    "countySeat" : null,
     "population" : 0,
-    "land_area" : 1.7,
+    "squareMileage" : 1.7,
     "descriptors" : []
 }

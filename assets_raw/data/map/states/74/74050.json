@@ -1,10 +1,10 @@
 {
     "FIPS" : "74050",
-    "full_name" : "Baker Island",
-    "common_name" : "Baker Island",
+    "fullName" : "Baker Island",
+    "commonName" : "Baker Island",
     "state" : "U.S. Minor Outlying Islands",
-    "county_seat" : null,
+    "countySeat" : null,
     "population" : 0,
-    "land_area" : 0.81,
+    "squareMileage" : 0.81,
     "descriptors" : []
 }

@@ -1,10 +1,10 @@
 {
     "FIPS" : "74100",
-    "full_name" : "Howland Island",
-    "common_name" : "Howland Island",
+    "fullName" : "Howland Island",
+    "commonName" : "Howland Island",
     "state" : "U.S. Minor Outlying Islands",
-    "county_seat" : null,
+    "countySeat" : null,
     "population" : 0,
-    "land_area" : 1.0,
+    "squareMileage" : 1.0,
     "descriptors" : []
 }

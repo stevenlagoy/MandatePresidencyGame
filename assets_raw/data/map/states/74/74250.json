@@ -1,10 +1,10 @@
 {
     "FIPS" : "74250",
-    "full_name" : "Kingman Reef",
-    "common_name" : "Kingman Reef",
+    "fullName" : "Kingman Reef",
+    "commonName" : "Kingman Reef",
     "state" : "U.S. Minor Outlying Islands",
-    "county_seat" : null,
+    "countySeat" : null,
     "population" : 0,
-    "land_area" : 0.012,
+    "squareMileage" : 0.012,
     "descriptors" : []
 }

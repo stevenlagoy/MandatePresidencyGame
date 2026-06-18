@@ -6,7 +6,7 @@
         "counties" : [
             "Grays Harbor County"
         ],
-        "type" : "First Class",
+        "type" : "First Class City",
         "population_2010" : 16896,
         "population_2020" : 17013,
         "population" : 18107,
@@ -176,7 +176,7 @@
         "counties" : [
             "Whatcom County"
         ],
-        "type" : "First Class",
+        "type" : "First Class City",
         "population_2010" : 80885,
         "population_2020" : 91482,
         "population" : 106062,
@@ -268,7 +268,7 @@
         "counties" : [
             "Kitsap County"
         ],
-        "type" : "First Class",
+        "type" : "First Class City",
         "population_2010" : 37729,
         "population_2020" : 43505,
         "population" : 51207,
@@ -751,7 +751,7 @@
         "counties" : [
             "Lincoln County"
         ],
-        "type" : "Second Class",
+        "type" : "Second Class City",
         "population_2010" : 1734,
         "population_2020" : 1703,
         "population" : 1782,
@@ -986,7 +986,7 @@
         "counties" : [
             "Snohomish County"
         ],
-        "type" : "First Class",
+        "type" : "First Class City",
         "population_2010" : 103019,
         "population_2020" : 110629,
         "population" : 123321,
@@ -2366,7 +2366,7 @@
         "counties" : [
             "Whitman County"
         ],
-        "type" : "Second Class",
+        "type" : "Second Class City",
         "population_2010" : 998,
         "population_2020" : 1015,
         "population" : 1088,
@@ -2626,7 +2626,7 @@
         "counties" : [
             "Benton County"
         ],
-        "type" : "First Class",
+        "type" : "First Class City",
         "population_2010" : 48058,
         "population_2020" : 60560,
         "population" : 76667,
@@ -2652,7 +2652,7 @@
         "counties" : [
             "Adams County"
         ],
-        "type" : "Second Class",
+        "type" : "Second Class City",
         "population_2010" : 1673,
         "population_2020" : 1767,
         "population" : 1946,
@@ -2795,7 +2795,7 @@
         "counties" : [
             "King County"
         ],
-        "type" : "First Class",
+        "type" : "First Class City",
         "population_2010" : 608660,
         "population_2020" : 737015,
         "population" : 902366,
@@ -2977,7 +2977,7 @@
         "counties" : [
             "Spokane County"
         ],
-        "type" : "First Class",
+        "type" : "First Class City",
         "population_2010" : 208916,
         "population_2020" : 228989,
         "population" : 259194,
@@ -3146,7 +3146,7 @@
         "counties" : [
             "Pierce County"
         ],
-        "type" : "First Class",
+        "type" : "First Class City",
         "population_2010" : 198397,
         "population_2020" : 219346,
         "population" : 249908,
@@ -3159,7 +3159,7 @@
         "counties" : [
             "Whitman County"
         ],
-        "type" : "Second Class",
+        "type" : "Second Class City",
         "population_2010" : 778,
         "population_2020" : 817,
         "population" : 896,
@@ -3328,7 +3328,7 @@
         "counties" : [
             "Clark County"
         ],
-        "type" : "First Class",
+        "type" : "First Class City",
         "population_2010" : 161791,
         "population_2020" : 190915,
         "population" : 228884,
@@ -3367,7 +3367,7 @@
         "counties" : [
             "Yakima County"
         ],
-        "type" : "Second Class",
+        "type" : "Second Class City",
         "population_2010" : 4997,
         "population_2020" : 4607,
         "population" : 4621,
@@ -3615,7 +3615,7 @@
         "counties" : [
             "Yakima County"
         ],
-        "type" : "First Class",
+        "type" : "First Class City",
         "population_2010" : 91196,
         "population_2020" : 96968,
         "population" : 107308,

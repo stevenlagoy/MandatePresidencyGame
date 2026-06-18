@@ -1,10 +1,10 @@
 {
     "FIPS" : "74300",
-    "full_name" : "Midway Atoll",
-    "common_name" : "Midway Atoll",
+    "fullName" : "Midway Atoll",
+    "commonName" : "Midway Atoll",
     "state" : "U.S. Minor Outlying Islands",
-    "county_seat" : "Sand Island",
+    "countySeat" : "Sand Island",
     "population" : 40,
-    "land_area" : 5.98,
+    "squareMileage" : 5.98,
     "descriptors" : []
 }

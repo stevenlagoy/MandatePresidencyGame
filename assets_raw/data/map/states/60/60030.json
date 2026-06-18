@@ -1,11 +1,11 @@
 {
     "descriptors" : [],
     "FIPS" : "60030",
-    "full_name" : "Rose Atoll",
-    "common_name" : "Motu O Manu",
+    "fullName" : "Rose Atoll",
+    "commonName" : "Motu O Manu",
     "state" : "American Samoa",
-    "county_seat" : null,
+    "countySeat" : null,
     "population" : 0,
-    "land_area" : 0.05,
+    "squareMileage" : 0.05,
     "color" : "#42EF42"
 }

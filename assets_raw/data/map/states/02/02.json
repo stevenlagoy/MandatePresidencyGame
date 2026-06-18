@@ -1,9 +1,9 @@
 {
     "FIPS" : "02",
     "population" : 733391,
-    "land_area" : 665384,
-    "common_name" : "Alaska",
-    "full_name" : "State of Alaska",
+    "squareMileage" : 665384,
+    "commonName" : "Alaska",
+    "fullName" : "State of Alaska",
     "map_color" : "#323AFF",
     "flag_loc" : "alaska_flag.png",
     "abbreviation" : "AK",
