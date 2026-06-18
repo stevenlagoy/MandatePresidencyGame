@@ -28,6 +28,7 @@ fun main(args: Array<String>) {
         System.err.println("Usage: MapCompiler <inputDir> <outputDir>")
         System.err.println("  inputDir:  directory containing counties.png, terrain.png, urban.png")
         System.err.println("  outputDir: directory to write compiled .bin files")
+        System.err.println("Got: ${args.joinToString(" ")}")
         exitProcess(1)
     }
 
