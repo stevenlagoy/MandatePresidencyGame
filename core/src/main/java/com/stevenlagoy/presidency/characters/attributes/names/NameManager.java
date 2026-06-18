@@ -236,7 +236,7 @@ public class NameManager extends Manager {
             else if (value instanceof List<?>) {
                 // This is a nested structure
                 // If key is a valid bloc, add it to a new bloc set
-                Bloc bloc = engine.DEMOGRAPHICS_MANAGER.matchBlocName(key);
+                Bloc bloc = engine.DEMOGRAPHICS_MANAGER.matchBloc(key).orElse(null);
                 Set<Bloc> updatedBlocs = new HashSet<>(currentBlocs);
                 updatedBlocs.add(bloc);
                 // Recurse with updated bloc set
@@ -641,7 +641,7 @@ public class NameManager extends Manager {
                 engine,
                 context.demographics.getGeneration(),
                 context.demographics.getReligion(),
-                Objects.requireNonNull(engine.DEMOGRAPHICS_MANAGER.matchBlocName("Anglo")),
+                Objects.requireNonNull(engine.DEMOGRAPHICS_MANAGER.matchBloc("Anglo")).orElseThrow(),
                 context.demographics.getPresentation()
             ),
             context.age,
@@ -716,7 +716,7 @@ public class NameManager extends Manager {
         // Get targets including ancestor blocs
         Set<Bloc> targets = new HashSet<>();
         for (Bloc bloc : context.demographics.getBlocs()) {
-            targets.addAll(bloc.getAncestors());
+            targets.addAll(bloc.getAncestorBlocs());
         }
 
         Set<Set<Bloc>> combinations = CollectionUtils.combinations(targets);
