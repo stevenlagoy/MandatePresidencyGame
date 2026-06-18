@@ -136,7 +136,7 @@ public class CharacterManager extends Manager {
         ageDistribution = new HashMap<>();
         for (Object blocObj : json.getAsList()) {
             if (blocObj instanceof JSONObject blocJson) {
-                Bloc key = engine.DEMOGRAPHICS_MANAGER.matchBlocName(blocJson.getKey());
+                Bloc key = engine.DEMOGRAPHICS_MANAGER.matchBloc(blocJson.getKey()).orElseThrow();
                 Map<Integer, Double> distribution = new HashMap<>();
                 for (Object dataObj : blocJson.getAsList()) {
                     if (dataObj instanceof JSONObject dataJson) {

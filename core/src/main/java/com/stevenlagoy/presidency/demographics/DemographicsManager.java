@@ -131,14 +131,17 @@ public class DemographicsManager extends Manager {
                         // Value is a percentage of individuals
                         percentage = numValue.doubleValue();
                     }
-                    bloc = new Bloc(blocName, category, percentage, Collections.emptySet(), parent, Collections.emptyList());
+                    bloc = new Bloc(engine, blocName, category, percentage, Collections.emptySet(), parent, Collections.emptyList());
                     blocs.add(bloc);
                 }
-                else if (value instanceof JSONObject valueJson) {
-                    // Recursive case: nested blocs
-                    bloc = new Bloc(blocName, category, 0.0, Collections.emptySet(), parent, Collections.emptyList());
-                    bloc.getSubBlocs().addAll(createBlocs(category, bloc, valueJson));
-                    blocs.add(bloc);
+                else if (value instanceof List<?> valueList) {
+                    if (valueList.get(0) instanceof JSONObject) {
+                        JSONObject valueJson = new JSONObject("", valueList);
+                        // Recursive case: nested blocs
+                        bloc = new Bloc(engine, blocName, category, 0.0, Collections.emptySet(), parent, Collections.emptyList());
+                        bloc.getSubBlocs().addAll(createBlocs(category, bloc, valueJson));
+                        blocs.add(bloc);
+                    }
                 }
             }
         }
@@ -157,16 +160,20 @@ public class DemographicsManager extends Manager {
         return populationPyramid.get(blocs[0]); // Should find the average combination of the blocs and return the pyramid for that combination
     }
 
-    public @Nullable Bloc matchBlocName(@NotNull String name) {
+    public @NotNull Optional<Bloc> matchBloc(@NotNull String name) {
         requireState(ManagerState.ACTIVE, ManagerState.PAUSED, ManagerState.DEGRADED, ManagerState.INITIALIZING);
         for (List<Bloc> blocList : demographicBlocs.values()) {
-            for (Bloc bloc : blocList) {
-                if (bloc.getName().equals(name))
-                    return bloc;
+            for (Bloc rootBloc : blocList) {
+                if (rootBloc.getName().equals(name))
+                    return Optional.of(rootBloc);
+                for (Bloc descendantBloc : rootBloc.getDescendantBlocs()) {
+                    if (descendantBloc.getName().equals(name))
+                        return Optional.of(descendantBloc);
+                }
             }
         }
         onDegraded(new IllegalArgumentException("The Bloc name \"" + name + "\" is non-existent and could not be matched."));
-        return null;
+        return Optional.empty();
     }
 
     public Demographics getCommonDemographics() {
@@ -215,9 +222,7 @@ public class DemographicsManager extends Manager {
                 RandomUtils.chance(MALE_MAN_PRESENTATION_PERCENT) ? "Man" :
                 "Nonbinary";
         };
-        Bloc presentationBloc = matchBlocName(presentationBlocName);
-        assert(presentationBloc != null);
-        return presentationBloc;
+        return matchBloc(presentationBlocName).orElseThrow();
     }
 
     public @NotNull Demographics selectRandomDemographics() {
@@ -332,14 +337,14 @@ public class DemographicsManager extends Manager {
 
     public Bloc getGenerationForBirthday(@NotNull LocalDate birthday) {
         if (birthday.getYear() < 1883) return null;
-        else if (birthday.getYear() < 1900) return matchBlocName("Lost Generation");
-        else if (birthday.getYear() < 1927) return matchBlocName("Greatest Generation");
-        else if (birthday.getYear() < 1945) return matchBlocName("Silent Generation");
-        else if (birthday.getYear() < 1964) return matchBlocName("Baby Boomer");
-        else if (birthday.getYear() < 1980) return matchBlocName("Generation X");
-        else if (birthday.getYear() < 1996) return matchBlocName("Millennial");
-        else if (birthday.getYear() < 2012) return matchBlocName("Generation Z");
-        else if (birthday.getYear() < 2024) return matchBlocName("Generation Alpha");
-        else return matchBlocName("Generation Beta");
+        else if (birthday.getYear() < 1900) return matchBloc("Lost Generation").orElseThrow();
+        else if (birthday.getYear() < 1927) return matchBloc("Greatest Generation").orElseThrow();
+        else if (birthday.getYear() < 1945) return matchBloc("Silent Generation").orElseThrow();
+        else if (birthday.getYear() < 1964) return matchBloc("Baby Boomer").orElseThrow();
+        else if (birthday.getYear() < 1980) return matchBloc("Generation X").orElseThrow();
+        else if (birthday.getYear() < 1996) return matchBloc("Millennial").orElseThrow();
+        else if (birthday.getYear() < 2012) return matchBloc("Generation Z").orElseThrow();
+        else if (birthday.getYear() < 2024) return matchBloc("Generation Alpha").orElseThrow();
+        else return matchBloc("Generation Beta").orElseThrow();
     }
 }

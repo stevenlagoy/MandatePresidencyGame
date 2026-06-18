@@ -24,10 +24,10 @@ class Demographics (
         presentationBlocName: String
     ) : this(
         engine,
-        engine.DEMOGRAPHICS_MANAGER.matchBlocName(generationBlocName)!!,
-        engine.DEMOGRAPHICS_MANAGER.matchBlocName(religionBlocName)!!,
-        engine.DEMOGRAPHICS_MANAGER.matchBlocName(raceEthnicityBlocName)!!,
-        engine.DEMOGRAPHICS_MANAGER.matchBlocName(presentationBlocName)!!,
+        engine.DEMOGRAPHICS_MANAGER.matchBloc(generationBlocName).orElseThrow(),
+        engine.DEMOGRAPHICS_MANAGER.matchBloc(religionBlocName).orElseThrow(),
+        engine.DEMOGRAPHICS_MANAGER.matchBloc(raceEthnicityBlocName).orElseThrow(),
+        engine.DEMOGRAPHICS_MANAGER.matchBloc(presentationBlocName).orElseThrow(),
     )
 
     var generation = generation
@@ -90,10 +90,10 @@ class Demographics (
     ))
 
     override fun fromJson(json: JSONObject) = this.apply {
-        generation = engine.DEMOGRAPHICS_MANAGER.matchBlocName(json.get("generation") as String)!!
-        religion = engine.DEMOGRAPHICS_MANAGER.matchBlocName(json.get("religion") as String)!!
-        raceEthnicity = engine.DEMOGRAPHICS_MANAGER.matchBlocName(json.get("race_ethnicity") as String)!!
-        presentation = engine.DEMOGRAPHICS_MANAGER.matchBlocName(json.get("presentation") as String)!!
+        generation = engine.DEMOGRAPHICS_MANAGER.matchBloc(json.get("generation") as String).orElseThrow()
+        religion = engine.DEMOGRAPHICS_MANAGER.matchBloc(json.get("religion") as String).orElseThrow()
+        raceEthnicity = engine.DEMOGRAPHICS_MANAGER.matchBloc(json.get("race_ethnicity") as String).orElseThrow()
+        presentation = engine.DEMOGRAPHICS_MANAGER.matchBloc(json.get("presentation") as String).orElseThrow()
     }
 
 }
