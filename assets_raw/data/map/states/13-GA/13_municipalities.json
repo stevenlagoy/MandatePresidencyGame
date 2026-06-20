@@ -1,0 +1,7009 @@
+{
+    "Abbeville, Wilcox County, Georgia" : {
+        "name" : "Abbeville",
+        "state" : "13000",
+        "FIPS" : "13-00184",
+        "counties" : [
+            "13315"
+        ],
+        "type" : "City",
+        "population_2010" : 2908,
+        "population_2020" : 2685,
+        "population" : 2748,
+        "square_mileage" : 877.5
+    },
+    "Acworth, Cobb County, Georgia" : {
+        "name" : "Acworth",
+        "state" : "13000",
+        "FIPS" : "13-00408",
+        "counties" : [
+            "13067"
+        ],
+        "type" : "City",
+        "population_2010" : 20425,
+        "population_2020" : 22440,
+        "population" : 25930,
+        "square_mileage" : 2723.3
+    },
+    "Adairsville, Bartow County, Georgia" : {
+        "name" : "Adairsville",
+        "state" : "13000",
+        "FIPS" : "13-00436",
+        "counties" : [
+            "13015"
+        ],
+        "type" : "City",
+        "population_2010" : 4648,
+        "population_2020" : 4878,
+        "population" : 5449,
+        "square_mileage" : 535.5
+    },
+    "Adel, Cook County, Georgia" : {
+        "name" : "Adel",
+        "state" : "13000",
+        "FIPS" : "13-00576",
+        "counties" : [
+            "13075"
+        ],
+        "type" : "City",
+        "population_2010" : 5334,
+        "population_2020" : 5571,
+        "population" : 6202,
+        "square_mileage" : 691.2
+    },
+    "Adrian, Emanuel County, Georgia" : {
+        "name" : "Adrian",
+        "state" : "13000",
+        "FIPS" : "13-00660",
+        "counties" : [
+            "13107"
+        ],
+        "type" : "City",
+        "population_2010" : 664,
+        "population_2020" : 552,
+        "population" : 530,
+        "square_mileage" : 402.9
+    },
+    "Ailey, Montgomery County, Georgia" : {
+        "name" : "Ailey",
+        "state" : "13000",
+        "FIPS" : "13-00828",
+        "counties" : [
+            "13209"
+        ],
+        "type" : "City",
+        "population_2010" : 432,
+        "population_2020" : 519,
+        "population" : 643,
+        "square_mileage" : 258.2
+    },
+    "Alamo, Wheeler County, Georgia" : {
+        "name" : "Alamo",
+        "state" : "13000",
+        "FIPS" : "13-00996",
+        "counties" : [
+            "13309"
+        ],
+        "type" : "City",
+        "population_2010" : 2797,
+        "population_2020" : 771,
+        "population" : 495,
+        "square_mileage" : 393.4
+    },
+    "Alapaha, Berrien County, Georgia" : {
+        "name" : "Alapaha",
+        "state" : "13000",
+        "FIPS" : "13-01024",
+        "counties" : [
+            "13019"
+        ],
+        "type" : "Town",
+        "population_2010" : 668,
+        "population_2020" : 481,
+        "population" : 427,
+        "square_mileage" : 467.0
+    },
+    "Albany, Dougherty County, Georgia" : {
+        "name" : "Albany",
+        "state" : "13000",
+        "FIPS" : "13-01052",
+        "counties" : [
+            "13095"
+        ],
+        "type" : "City",
+        "population_2010" : 77434,
+        "population_2020" : 69647,
+        "population" : 70108,
+        "square_mileage" : 1263.3
+    },
+    "Aldora, Lamar County, Georgia" : {
+        "name" : "Aldora",
+        "state" : "13000",
+        "FIPS" : "13-01248",
+        "counties" : [
+            "13171"
+        ],
+        "type" : "Town",
+        "population_2010" : 103,
+        "population_2020" : 0,
+        "population" : 0,
+        "square_mileage" : 0.0
+    },
+    "Allenhurst, Liberty County, Georgia" : {
+        "name" : "Allenhurst",
+        "state" : "13000",
+        "FIPS" : "13-01472",
+        "counties" : [
+            "13179"
+        ],
+        "type" : "City",
+        "population_2010" : 695,
+        "population_2020" : 816,
+        "population" : 993,
+        "square_mileage" : 741.8
+    },
+    "Allentown, Bleckley County, Georgia" : {
+        "name" : "Allentown",
+        "state" : "13000",
+        "FIPS" : "13-01500",
+        "counties" : [
+            "13023"
+        ],
+        "type" : "Town",
+        "population_2010" : 169,
+        "population_2020" : 195,
+        "population" : 234,
+        "square_mileage" : 63.5
+    },
+    "Alma, Bacon County, Georgia" : {
+        "name" : "Alma",
+        "state" : "13000",
+        "FIPS" : "13-01612",
+        "counties" : [
+            "13005"
+        ],
+        "type" : "City",
+        "population_2010" : 3466,
+        "population_2020" : 3433,
+        "population" : 3682,
+        "square_mileage" : 621.9
+    },
+    "Alpharetta, Fulton County, Georgia" : {
+        "name" : "Alpharetta",
+        "state" : "13000",
+        "FIPS" : "13-01696",
+        "counties" : [
+            "13121"
+        ],
+        "type" : "City",
+        "population_2010" : 57551,
+        "population_2020" : 65818,
+        "population" : 78432,
+        "square_mileage" : 2445.9
+    },
+    "Alston, Montgomery County, Georgia" : {
+        "name" : "Alston",
+        "state" : "13000",
+        "FIPS" : "13-01808",
+        "counties" : [
+            "13209"
+        ],
+        "type" : "Town",
+        "population_2010" : 159,
+        "population_2020" : 178,
+        "population" : 209,
+        "square_mileage" : 62.5
+    },
+    "Alto, Banks County, Georgia" : {
+        "name" : "Alto",
+        "state" : "13000",
+        "FIPS" : "13-01948",
+        "counties" : [
+            "13011"
+        ],
+        "type" : "Town",
+        "population_2010" : 1172,
+        "population_2020" : 970,
+        "population" : 928,
+        "square_mileage" : 873.9
+    },
+    "Ambrose, Coffee County, Georgia" : {
+        "name" : "Ambrose",
+        "state" : "13000",
+        "FIPS" : "13-02060",
+        "counties" : [
+            "13069"
+        ],
+        "type" : "City",
+        "population_2010" : 380,
+        "population_2020" : 327,
+        "population" : 320,
+        "square_mileage" : 107.2
+    },
+    "Americus, Sumter County, Georgia" : {
+        "name" : "Americus",
+        "state" : "13000",
+        "FIPS" : "13-02116",
+        "counties" : [
+            "13261"
+        ],
+        "type" : "City",
+        "population_2010" : 17041,
+        "population_2020" : 16230,
+        "population" : 16952,
+        "square_mileage" : 1444.0
+    },
+    "Andersonville, Sumter County, Georgia" : {
+        "name" : "Andersonville",
+        "state" : "13000",
+        "FIPS" : "13-02256",
+        "counties" : [
+            "13261"
+        ],
+        "type" : "City",
+        "population_2010" : 255,
+        "population_2020" : 237,
+        "population" : 244,
+        "square_mileage" : 171.7
+    },
+    "Arabi, Crisp County, Georgia" : {
+        "name" : "Arabi",
+        "state" : "13000",
+        "FIPS" : "13-02564",
+        "counties" : [
+            "13081"
+        ],
+        "type" : "Town",
+        "population_2010" : 586,
+        "population_2020" : 447,
+        "population" : 409,
+        "square_mileage" : 70.8
+    },
+    "Aragon, Polk County, Georgia" : {
+        "name" : "Aragon",
+        "state" : "13000",
+        "FIPS" : "13-02592",
+        "counties" : [
+            "13233"
+        ],
+        "type" : "City",
+        "population_2010" : 1249,
+        "population_2020" : 1440,
+        "population" : 1727,
+        "square_mileage" : 1285.7
+    },
+    "Arcade, Jackson County, Georgia" : {
+        "name" : "Arcade",
+        "state" : "13000",
+        "FIPS" : "13-02648",
+        "counties" : [
+            "13157"
+        ],
+        "type" : "City",
+        "population_2010" : 1786,
+        "population_2020" : 1884,
+        "population" : 2112,
+        "square_mileage" : 223.5
+    },
+    "Argyle, Clinch County, Georgia" : {
+        "name" : "Argyle",
+        "state" : "13000",
+        "FIPS" : "13-02844",
+        "counties" : [
+            "13065"
+        ],
+        "type" : "Town",
+        "population_2010" : 212,
+        "population_2020" : 190,
+        "population" : 191,
+        "square_mileage" : 110.5
+    },
+    "Arlington, Calhoun County, Georgia" : {
+        "name" : "Arlington",
+        "state" : "13000",
+        "FIPS" : "13-02928",
+        "counties" : [
+            "13037"
+        ],
+        "type" : "City",
+        "population_2010" : 1479,
+        "population_2020" : 1209,
+        "population" : 1149,
+        "square_mileage" : 293.4
+    },
+    "Arnoldsville, Oglethorpe County, Georgia" : {
+        "name" : "Arnoldsville",
+        "state" : "13000",
+        "FIPS" : "13-03124",
+        "counties" : [
+            "13221"
+        ],
+        "type" : "City",
+        "population_2010" : 357,
+        "population_2020" : 431,
+        "population" : 536,
+        "square_mileage" : 253.5
+    },
+    "Ashburn, Turner County, Georgia" : {
+        "name" : "Ashburn",
+        "state" : "13000",
+        "FIPS" : "13-03236",
+        "counties" : [
+            "13287"
+        ],
+        "type" : "City",
+        "population_2010" : 4152,
+        "population_2020" : 4291,
+        "population" : 4741,
+        "square_mileage" : 909.1
+    },
+    "Athens, Clarke County, Georgia" : {
+        "name" : "Athens",
+        "state" : "13000",
+        "FIPS" : "13-03440",
+        "counties" : [
+            "13059"
+        ],
+        "type" : "Consolidated City-County",
+        "population_2010" : 115452,
+        "population_2020" : 127315,
+        "population" : 147530,
+        "square_mileage" : 1094.1
+    },
+    "Atlanta, Fulton County, Georgia" : {
+        "name" : "Atlanta",
+        "state" : "13000",
+        "FIPS" : "13-04000",
+        "counties" : [
+            "13121"
+        ],
+        "type" : "City",
+        "population_2010" : 420003,
+        "population_2020" : 498715,
+        "population" : 612277,
+        "square_mileage" : 3745.5
+    },
+    "Attapulgus, Decatur County, Georgia" : {
+        "name" : "Attapulgus",
+        "state" : "13000",
+        "FIPS" : "13-04084",
+        "counties" : [
+            "13087"
+        ],
+        "type" : "City",
+        "population_2010" : 449,
+        "population_2020" : 454,
+        "population" : 494,
+        "square_mileage" : 567.5
+    },
+    "Auburn, Barrow County, Georgia" : {
+        "name" : "Auburn",
+        "state" : "13000",
+        "FIPS" : "13-04140",
+        "counties" : [
+            "13013"
+        ],
+        "type" : "City",
+        "population_2010" : 6887,
+        "population_2020" : 7495,
+        "population" : 8599,
+        "square_mileage" : 1162.0
+    },
+    "Augusta, Richmond County, Georgia" : {
+        "name" : "Augusta",
+        "state" : "13000",
+        "FIPS" : "13-04204",
+        "counties" : [
+            "13245"
+        ],
+        "type" : "Consolidated City-County",
+        "population_2010" : 195844,
+        "population_2020" : 202081,
+        "population" : 223021,
+        "square_mileage" : 668.1
+    },
+    "Austell, Cobb County, Georgia" : {
+        "name" : "Austell",
+        "state" : "13000",
+        "FIPS" : "13-04252",
+        "counties" : [
+            "13067"
+        ],
+        "type" : "City",
+        "population_2010" : 6581,
+        "population_2020" : 7713,
+        "population" : 9371,
+        "square_mileage" : 1292.0
+    },
+    "Avalon, Stephens County, Georgia" : {
+        "name" : "Avalon",
+        "state" : "13000",
+        "FIPS" : "13-04392",
+        "counties" : [
+            "13257"
+        ],
+        "type" : "Town",
+        "population_2010" : 213,
+        "population_2020" : 233,
+        "population" : 268,
+        "square_mileage" : 131.6
+    },
+    "Avera, Jefferson County, Georgia" : {
+        "name" : "Avera",
+        "state" : "13000",
+        "FIPS" : "13-04448",
+        "counties" : [
+            "13163"
+        ],
+        "type" : "City",
+        "population_2010" : 246,
+        "population_2020" : 223,
+        "population" : 226,
+        "square_mileage" : 343.1
+    },
+    "Avondale Estates, DeKalb County, Georgia" : {
+        "name" : "Avondale Estates",
+        "state" : "13000",
+        "FIPS" : "13-04644",
+        "counties" : [
+            "13089"
+        ],
+        "type" : "City",
+        "population_2010" : 2960,
+        "population_2020" : 3567,
+        "population" : 4432,
+        "square_mileage" : 3128.9
+    },
+    "Baconton, Mitchell County, Georgia" : {
+        "name" : "Baconton",
+        "state" : "13000",
+        "FIPS" : "13-04840",
+        "counties" : [
+            "13205"
+        ],
+        "type" : "City",
+        "population_2010" : 915,
+        "population_2020" : 856,
+        "population" : 884,
+        "square_mileage" : 439.0
+    },
+    "Bainbridge, Decatur County, Georgia" : {
+        "name" : "Bainbridge",
+        "state" : "13000",
+        "FIPS" : "13-04896",
+        "counties" : [
+            "13087"
+        ],
+        "type" : "City",
+        "population_2010" : 12697,
+        "population_2020" : 14468,
+        "population" : 17192,
+        "square_mileage" : 769.6
+    },
+    "Baldwin, Banks County, Georgia" : {
+        "name" : "Baldwin",
+        "state" : "13000",
+        "FIPS" : "13-04980",
+        "counties" : [
+            "13011"
+        ],
+        "type" : "City",
+        "population_2010" : 3279,
+        "population_2020" : 3629,
+        "population" : 4217,
+        "square_mileage" : 739.1
+    },
+    "Ball Ground, Cherokee County, Georgia" : {
+        "name" : "Ball Ground",
+        "state" : "13000",
+        "FIPS" : "13-05036",
+        "counties" : [
+            "13057"
+        ],
+        "type" : "City",
+        "population_2010" : 1433,
+        "population_2020" : 2560,
+        "population" : 4669,
+        "square_mileage" : 440.6
+    },
+    "Barnesville, Lamar County, Georgia" : {
+        "name" : "Barnesville",
+        "state" : "13000",
+        "FIPS" : "13-05344",
+        "counties" : [
+            "13171"
+        ],
+        "type" : "City",
+        "population_2010" : 6755,
+        "population_2020" : 6292,
+        "population" : 6477,
+        "square_mileage" : 1036.6
+    },
+    "Bartow, Jefferson County, Georgia" : {
+        "name" : "Bartow",
+        "state" : "13000",
+        "FIPS" : "13-05680",
+        "counties" : [
+            "13163"
+        ],
+        "type" : "Town",
+        "population_2010" : 286,
+        "population_2020" : 186,
+        "population" : 157,
+        "square_mileage" : 164.6
+    },
+    "Barwick, Brooks County, Georgia" : {
+        "name" : "Barwick",
+        "state" : "13000",
+        "FIPS" : "13-05708",
+        "counties" : [
+            "13027"
+        ],
+        "type" : "City",
+        "population_2010" : 386,
+        "population_2020" : 363,
+        "population" : 376,
+        "square_mileage" : 504.2
+    },
+    "Baxley, Appling County, Georgia" : {
+        "name" : "Baxley",
+        "state" : "13000",
+        "FIPS" : "13-06016",
+        "counties" : [
+            "13001"
+        ],
+        "type" : "City",
+        "population_2010" : 4400,
+        "population_2020" : 4942,
+        "population" : 5807,
+        "square_mileage" : 589.7
+    },
+    "Bellville, Evans County, Georgia" : {
+        "name" : "Bellville",
+        "state" : "13000",
+        "FIPS" : "13-06688",
+        "counties" : [
+            "13109"
+        ],
+        "type" : "City",
+        "population_2010" : 123,
+        "population_2020" : 127,
+        "population" : 140,
+        "square_mileage" : 128.3
+    },
+    "Berkeley Lake, Gwinnett County, Georgia" : {
+        "name" : "Berkeley Lake",
+        "state" : "13000",
+        "FIPS" : "13-07248",
+        "counties" : [
+            "13135"
+        ],
+        "type" : "City",
+        "population_2010" : 1574,
+        "population_2020" : 2054,
+        "population" : 2730,
+        "square_mileage" : 1901.9
+    },
+    "Berlin, Colquitt County, Georgia" : {
+        "name" : "Berlin",
+        "state" : "13000",
+        "FIPS" : "13-07304",
+        "counties" : [
+            "13071"
+        ],
+        "type" : "Town",
+        "population_2010" : 551,
+        "population_2020" : 511,
+        "population" : 525,
+        "square_mileage" : 690.5
+    },
+    "Bethlehem, Barrow County, Georgia" : {
+        "name" : "Bethlehem",
+        "state" : "13000",
+        "FIPS" : "13-07612",
+        "counties" : [
+            "13013"
+        ],
+        "type" : "Town",
+        "population_2010" : 601,
+        "population_2020" : 715,
+        "population" : 879,
+        "square_mileage" : 306.9
+    },
+    "Between, Walton County, Georgia" : {
+        "name" : "Between",
+        "state" : "13000",
+        "FIPS" : "13-07640",
+        "counties" : [
+            "13297"
+        ],
+        "type" : "Town",
+        "population_2010" : 296,
+        "population_2020" : 402,
+        "population" : 554,
+        "square_mileage" : 340.7
+    },
+    "Bishop, Oconee County, Georgia" : {
+        "name" : "Bishop",
+        "state" : "13000",
+        "FIPS" : "13-08200",
+        "counties" : [
+            "13219"
+        ],
+        "type" : "Town",
+        "population_2010" : 224,
+        "population_2020" : 332,
+        "population" : 497,
+        "square_mileage" : 425.6
+    },
+    "Blackshear, Pierce County, Georgia" : {
+        "name" : "Blackshear",
+        "state" : "13000",
+        "FIPS" : "13-08284",
+        "counties" : [
+            "13229"
+        ],
+        "type" : "City",
+        "population_2010" : 3445,
+        "population_2020" : 3506,
+        "population" : 3832,
+        "square_mileage" : 804.1
+    },
+    "Blairsville, Union County, Georgia" : {
+        "name" : "Blairsville",
+        "state" : "13000",
+        "FIPS" : "13-08480",
+        "counties" : [
+            "13291"
+        ],
+        "type" : "City",
+        "population_2010" : 652,
+        "population_2020" : 616,
+        "population" : 640,
+        "square_mileage" : 555.0
+    },
+    "Blakely, Early County, Georgia" : {
+        "name" : "Blakely",
+        "state" : "13000",
+        "FIPS" : "13-08536",
+        "counties" : [
+            "13099"
+        ],
+        "type" : "City",
+        "population_2010" : 5068,
+        "population_2020" : 5371,
+        "population" : 6043,
+        "square_mileage" : 306.0
+    },
+    "Bloomingdale, Chatham County, Georgia" : {
+        "name" : "Bloomingdale",
+        "state" : "13000",
+        "FIPS" : "13-08844",
+        "counties" : [
+            "13051"
+        ],
+        "type" : "City",
+        "population_2010" : 2713,
+        "population_2020" : 2790,
+        "population" : 3072,
+        "square_mileage" : 218.5
+    },
+    "Blue Ridge, Fannin County, Georgia" : {
+        "name" : "Blue Ridge",
+        "state" : "13000",
+        "FIPS" : "13-08928",
+        "counties" : [
+            "13111"
+        ],
+        "type" : "City",
+        "population_2010" : 1290,
+        "population_2020" : 1253,
+        "population" : 1326,
+        "square_mileage" : 526.5
+    },
+    "Bluffton, Clay County, Georgia" : {
+        "name" : "Bluffton",
+        "state" : "13000",
+        "FIPS" : "13-08956",
+        "counties" : [
+            "13061"
+        ],
+        "type" : "Town",
+        "population_2010" : 103,
+        "population_2020" : 113,
+        "population" : 130,
+        "square_mileage" : 70.2
+    },
+    "Blythe, Burke County, Georgia" : {
+        "name" : "Blythe",
+        "state" : "13000",
+        "FIPS" : "13-09040",
+        "counties" : [
+            "13033"
+        ],
+        "type" : "City",
+        "population_2010" : 721,
+        "population_2020" : 744,
+        "population" : 821,
+        "square_mileage" : 263.8
+    },
+    "Bogart, Clarke County, Georgia" : {
+        "name" : "Bogart",
+        "state" : "13000",
+        "FIPS" : "13-09068",
+        "counties" : [
+            "13059"
+        ],
+        "type" : "Town",
+        "population_2010" : 1034,
+        "population_2020" : 1326,
+        "population" : 1736,
+        "square_mileage" : 559.5
+    },
+    "Boston, Thomas County, Georgia" : {
+        "name" : "Boston",
+        "state" : "13000",
+        "FIPS" : "13-09460",
+        "counties" : [
+            "13275"
+        ],
+        "type" : "City",
+        "population_2010" : 1315,
+        "population_2020" : 1207,
+        "population" : 1231,
+        "square_mileage" : 536.4
+    },
+    "Bostwick, Morgan County, Georgia" : {
+        "name" : "Bostwick",
+        "state" : "13000",
+        "FIPS" : "13-09488",
+        "counties" : [
+            "13211"
+        ],
+        "type" : "Town",
+        "population_2010" : 365,
+        "population_2020" : 378,
+        "population" : 418,
+        "square_mileage" : 121.2
+    },
+    "Bowdon, Carroll County, Georgia" : {
+        "name" : "Bowdon",
+        "state" : "13000",
+        "FIPS" : "13-09544",
+        "counties" : [
+            "13045"
+        ],
+        "type" : "City",
+        "population_2010" : 2040,
+        "population_2020" : 2161,
+        "population" : 2431,
+        "square_mileage" : 635.6
+    },
+    "Bowersville, Hart County, Georgia" : {
+        "name" : "Bowersville",
+        "state" : "13000",
+        "FIPS" : "13-09656",
+        "counties" : [
+            "13147"
+        ],
+        "type" : "Town",
+        "population_2010" : 365,
+        "population_2020" : 444,
+        "population" : 556,
+        "square_mileage" : 144.2
+    },
+    "Bowman, Elbert County, Georgia" : {
+        "name" : "Bowman",
+        "state" : "13000",
+        "FIPS" : "13-09712",
+        "counties" : [
+            "13105"
+        ],
+        "type" : "City",
+        "population_2010" : 862,
+        "population_2020" : 872,
+        "population" : 949,
+        "square_mileage" : 279.5
+    },
+    "Braselton, Barrow County, Georgia" : {
+        "name" : "Braselton",
+        "state" : "13000",
+        "FIPS" : "13-10076",
+        "counties" : [
+            "13013"
+        ],
+        "type" : "Town",
+        "population_2010" : 7511,
+        "population_2020" : 13403,
+        "population" : 24414,
+        "square_mileage" : 1080.0
+    },
+    "Braswell, Paulding County, Georgia" : {
+        "name" : "Braswell",
+        "state" : "13000",
+        "FIPS" : "13-10104",
+        "counties" : [
+            "13223"
+        ],
+        "type" : "City",
+        "population_2010" : 379,
+        "population_2020" : 355,
+        "population" : 367,
+        "square_mileage" : 112.7
+    },
+    "Bremen, Carroll County, Georgia" : {
+        "name" : "Bremen",
+        "state" : "13000",
+        "FIPS" : "13-10132",
+        "counties" : [
+            "13045"
+        ],
+        "type" : "City",
+        "population_2010" : 6227,
+        "population_2020" : 7185,
+        "population" : 8622,
+        "square_mileage" : 684.9
+    },
+    "Brinson, Decatur County, Georgia" : {
+        "name" : "Brinson",
+        "state" : "13000",
+        "FIPS" : "13-10608",
+        "counties" : [
+            "13087"
+        ],
+        "type" : "Town",
+        "population_2010" : 215,
+        "population_2020" : 217,
+        "population" : 236,
+        "square_mileage" : 106.4
+    },
+    "Bronwood, Terrell County, Georgia" : {
+        "name" : "Bronwood",
+        "state" : "13000",
+        "FIPS" : "13-10860",
+        "counties" : [
+            "13273"
+        ],
+        "type" : "Town",
+        "population_2010" : 225,
+        "population_2020" : 334,
+        "population" : 500,
+        "square_mileage" : 422.8
+    },
+    "Brookhaven, DeKalb County, Georgia" : {
+        "name" : "Brookhaven",
+        "state" : "13000",
+        "FIPS" : "13-10944",
+        "counties" : [
+            "13089"
+        ],
+        "type" : "City",
+        "population_2010" : 49312,
+        "population_2020" : 55161,
+        "population" : 64617,
+        "square_mileage" : 4702.6
+    },
+    "Brooklet, Bulloch County, Georgia" : {
+        "name" : "Brooklet",
+        "state" : "13000",
+        "FIPS" : "13-11000",
+        "counties" : [
+            "13031"
+        ],
+        "type" : "City",
+        "population_2010" : 1395,
+        "population_2020" : 1704,
+        "population" : 2141,
+        "square_mileage" : 517.9
+    },
+    "Brooks, Fayette County, Georgia" : {
+        "name" : "Brooks",
+        "state" : "13000",
+        "FIPS" : "13-11056",
+        "counties" : [
+            "13113"
+        ],
+        "type" : "Town",
+        "population_2010" : 524,
+        "population_2020" : 568,
+        "population" : 650,
+        "square_mileage" : 132.4
+    },
+    "Broxton, Coffee County, Georgia" : {
+        "name" : "Broxton",
+        "state" : "13000",
+        "FIPS" : "13-11504",
+        "counties" : [
+            "13069"
+        ],
+        "type" : "City",
+        "population_2010" : 1189,
+        "population_2020" : 1060,
+        "population" : 1061,
+        "square_mileage" : 327.2
+    },
+    "Brunswick, Glynn County, Georgia" : {
+        "name" : "Brunswick",
+        "state" : "13000",
+        "FIPS" : "13-11560",
+        "counties" : [
+            "13127"
+        ],
+        "type" : "City",
+        "population_2010" : 15383,
+        "population_2020" : 15210,
+        "population" : 16293,
+        "square_mileage" : 891.0
+    },
+    "Buchanan, Haralson County, Georgia" : {
+        "name" : "Buchanan",
+        "state" : "13000",
+        "FIPS" : "13-11616",
+        "counties" : [
+            "13143"
+        ],
+        "type" : "City",
+        "population_2010" : 1104,
+        "population_2020" : 938,
+        "population" : 912,
+        "square_mileage" : 633.8
+    },
+    "Buckhead, Morgan County, Georgia" : {
+        "name" : "Buckhead",
+        "state" : "13000",
+        "FIPS" : "13-11672",
+        "counties" : [
+            "13211"
+        ],
+        "type" : "Town",
+        "population_2010" : 171,
+        "population_2020" : 194,
+        "population" : 230,
+        "square_mileage" : 245.6
+    },
+    "Buena Vista, Marion County, Georgia" : {
+        "name" : "Buena Vista",
+        "state" : "13000",
+        "FIPS" : "13-11728",
+        "counties" : [
+            "13197"
+        ],
+        "type" : "City",
+        "population_2010" : 2173,
+        "population_2020" : 1585,
+        "population" : 1415,
+        "square_mileage" : 489.2
+    },
+    "Buford, Gwinnett County, Georgia" : {
+        "name" : "Buford",
+        "state" : "13000",
+        "FIPS" : "13-11784",
+        "counties" : [
+            "13135"
+        ],
+        "type" : "City",
+        "population_2010" : 12225,
+        "population_2020" : 17144,
+        "population" : 24323,
+        "square_mileage" : 1007.9
+    },
+    "Butler, Taylor County, Georgia" : {
+        "name" : "Butler",
+        "state" : "13000",
+        "FIPS" : "13-12120",
+        "counties" : [
+            "13269"
+        ],
+        "type" : "City",
+        "population_2010" : 1972,
+        "population_2020" : 1881,
+        "population" : 1967,
+        "square_mileage" : 578.8
+    },
+    "Byromville, Dooly County, Georgia" : {
+        "name" : "Byromville",
+        "state" : "13000",
+        "FIPS" : "13-12232",
+        "counties" : [
+            "13093"
+        ],
+        "type" : "Town",
+        "population_2010" : 546,
+        "population_2020" : 422,
+        "population" : 389,
+        "square_mileage" : 1172.2
+    },
+    "Byron, Houston County, Georgia" : {
+        "name" : "Byron",
+        "state" : "13000",
+        "FIPS" : "13-12260",
+        "counties" : [
+            "13153"
+        ],
+        "type" : "City",
+        "population_2010" : 4512,
+        "population_2020" : 5702,
+        "population" : 7372,
+        "square_mileage" : 660.7
+    },
+    "Cadwell, Laurens County, Georgia" : {
+        "name" : "Cadwell",
+        "state" : "13000",
+        "FIPS" : "13-12344",
+        "counties" : [
+            "13175"
+        ],
+        "type" : "Town",
+        "population_2010" : 528,
+        "population_2020" : 381,
+        "population" : 338,
+        "square_mileage" : 304.8
+    },
+    "Cairo, Grady County, Georgia" : {
+        "name" : "Cairo",
+        "state" : "13000",
+        "FIPS" : "13-12400",
+        "counties" : [
+            "13131"
+        ],
+        "type" : "City",
+        "population_2010" : 9607,
+        "population_2020" : 10179,
+        "population" : 11450,
+        "square_mileage" : 1050.5
+    },
+    "Calhoun, Gordon County, Georgia" : {
+        "name" : "Calhoun",
+        "state" : "13000",
+        "FIPS" : "13-12456",
+        "counties" : [
+            "13129"
+        ],
+        "type" : "City",
+        "population_2010" : 15650,
+        "population_2020" : 16949,
+        "population" : 19376,
+        "square_mileage" : 1135.2
+    },
+    "Camak, Warren County, Georgia" : {
+        "name" : "Camak",
+        "state" : "13000",
+        "FIPS" : "13-12512",
+        "counties" : [
+            "13301"
+        ],
+        "type" : "Town",
+        "population_2010" : 138,
+        "population_2020" : 141,
+        "population" : 155,
+        "square_mileage" : 178.5
+    },
+    "Camilla, Mitchell County, Georgia" : {
+        "name" : "Camilla",
+        "state" : "13000",
+        "FIPS" : "13-12624",
+        "counties" : [
+            "13205"
+        ],
+        "type" : "City",
+        "population_2010" : 5360,
+        "population_2020" : 5187,
+        "population" : 5476,
+        "square_mileage" : 835.3
+    },
+    "Canon, Franklin County, Georgia" : {
+        "name" : "Canon",
+        "state" : "13000",
+        "FIPS" : "13-12932",
+        "counties" : [
+            "13119"
+        ],
+        "type" : "City",
+        "population_2010" : 804,
+        "population_2020" : 643,
+        "population" : 603,
+        "square_mileage" : 206.1
+    },
+    "Canton, Cherokee County, Georgia" : {
+        "name" : "Canton",
+        "state" : "13000",
+        "FIPS" : "13-12988",
+        "counties" : [
+            "13057"
+        ],
+        "type" : "City",
+        "population_2010" : 22958,
+        "population_2020" : 32973,
+        "population" : 47845,
+        "square_mileage" : 1773.7
+    },
+    "Carl, Barrow County, Georgia" : {
+        "name" : "Carl",
+        "state" : "13000",
+        "FIPS" : "13-13184",
+        "counties" : [
+            "13013"
+        ],
+        "type" : "Town",
+        "population_2010" : 255,
+        "population_2020" : 209,
+        "population" : 199,
+        "square_mileage" : 193.5
+    },
+    "Carlton, Madison County, Georgia" : {
+        "name" : "Carlton",
+        "state" : "13000",
+        "FIPS" : "13-13212",
+        "counties" : [
+            "13195"
+        ],
+        "type" : "City",
+        "population_2010" : 260,
+        "population_2020" : 263,
+        "population" : 286,
+        "square_mileage" : 260.4
+    },
+    "Carnesville, Franklin County, Georgia" : {
+        "name" : "Carnesville",
+        "state" : "13000",
+        "FIPS" : "13-13352",
+        "counties" : [
+            "13119"
+        ],
+        "type" : "City",
+        "population_2010" : 577,
+        "population_2020" : 713,
+        "population" : 905,
+        "square_mileage" : 272.1
+    },
+    "Carrollton, Carroll County, Georgia" : {
+        "name" : "Carrollton",
+        "state" : "13000",
+        "FIPS" : "13-13492",
+        "counties" : [
+            "13045"
+        ],
+        "type" : "City",
+        "population_2010" : 24388,
+        "population_2020" : 26738,
+        "population" : 30848,
+        "square_mileage" : 1199.6
+    },
+    "Cartersville, Bartow County, Georgia" : {
+        "name" : "Cartersville",
+        "state" : "13000",
+        "FIPS" : "13-13688",
+        "counties" : [
+            "13015"
+        ],
+        "type" : "City",
+        "population_2010" : 19731,
+        "population_2020" : 23187,
+        "population" : 28231,
+        "square_mileage" : 795.4
+    },
+    "Cave Spring, Floyd County, Georgia" : {
+        "name" : "Cave Spring",
+        "state" : "13000",
+        "FIPS" : "13-14108",
+        "counties" : [
+            "13115"
+        ],
+        "type" : "City",
+        "population_2010" : 1200,
+        "population_2020" : 1174,
+        "population" : 1249,
+        "square_mileage" : 289.9
+    },
+    "Cecil, Cook County, Georgia" : {
+        "name" : "Cecil",
+        "state" : "13000",
+        "FIPS" : "13-14192",
+        "counties" : [
+            "13075"
+        ],
+        "type" : "Town",
+        "population_2010" : 286,
+        "population_2020" : 284,
+        "population" : 305,
+        "square_mileage" : 295.8
+    },
+    "Cedartown, Polk County, Georgia" : {
+        "name" : "Cedartown",
+        "state" : "13000",
+        "FIPS" : "13-14500",
+        "counties" : [
+            "13233"
+        ],
+        "type" : "City",
+        "population_2010" : 9750,
+        "population_2020" : 10190,
+        "population" : 11349,
+        "square_mileage" : 1172.6
+    },
+    "Centerville, Houston County, Georgia" : {
+        "name" : "Centerville",
+        "state" : "13000",
+        "FIPS" : "13-14920",
+        "counties" : [
+            "13153"
+        ],
+        "type" : "City",
+        "population_2010" : 7148,
+        "population_2020" : 8228,
+        "population" : 9855,
+        "square_mileage" : 2088.3
+    },
+    "Centralhatchee, Heard County, Georgia" : {
+        "name" : "Centralhatchee",
+        "state" : "13000",
+        "FIPS" : "13-15026",
+        "counties" : [
+            "13149"
+        ],
+        "type" : "Town",
+        "population_2010" : 408,
+        "population_2020" : 348,
+        "population" : 339,
+        "square_mileage" : 106.1
+    },
+    "Chamblee, DeKalb County, Georgia" : {
+        "name" : "Chamblee",
+        "state" : "13000",
+        "FIPS" : "13-15172",
+        "counties" : [
+            "13089"
+        ],
+        "type" : "City",
+        "population_2010" : 9892,
+        "population_2020" : 30164,
+        "population" : 118538,
+        "square_mileage" : 9485.5
+    },
+    "Chatsworth, Murray County, Georgia" : {
+        "name" : "Chatsworth",
+        "state" : "13000",
+        "FIPS" : "13-15508",
+        "counties" : [
+            "13213"
+        ],
+        "type" : "City",
+        "population_2010" : 3531,
+        "population_2020" : 4299,
+        "population" : 5387,
+        "square_mileage" : 808.1
+    },
+    "Chattahoochee Hills, Fulton County, Georgia" : {
+        "name" : "Chattahoochee Hills",
+        "state" : "13000",
+        "FIPS" : "13-15552",
+        "counties" : [
+            "13121"
+        ],
+        "type" : "City",
+        "population_2010" : 2378,
+        "population_2020" : 2950,
+        "population" : 3755,
+        "square_mileage" : 58.8
+    },
+    "Chauncey, Dodge County, Georgia" : {
+        "name" : "Chauncey",
+        "state" : "13000",
+        "FIPS" : "13-15648",
+        "counties" : [
+            "13091"
+        ],
+        "type" : "City",
+        "population_2010" : 342,
+        "population_2020" : 289,
+        "population" : 280,
+        "square_mileage" : 167.1
+    },
+    "Chester, Dodge County, Georgia" : {
+        "name" : "Chester",
+        "state" : "13000",
+        "FIPS" : "13-15900",
+        "counties" : [
+            "13091"
+        ],
+        "type" : "Town",
+        "population_2010" : 1596,
+        "population_2020" : 525,
+        "population" : 350,
+        "square_mileage" : 603.4
+    },
+    "Chickamauga, Walker County, Georgia" : {
+        "name" : "Chickamauga",
+        "state" : "13000",
+        "FIPS" : "13-15984",
+        "counties" : [
+            "13295"
+        ],
+        "type" : "City",
+        "population_2010" : 3101,
+        "population_2020" : 2917,
+        "population" : 3022,
+        "square_mileage" : 1135.0
+    },
+    "Clarkesville, Habersham County, Georgia" : {
+        "name" : "Clarkesville",
+        "state" : "13000",
+        "FIPS" : "13-16460",
+        "counties" : [
+            "13137"
+        ],
+        "type" : "City",
+        "population_2010" : 1733,
+        "population_2020" : 1911,
+        "population" : 2214,
+        "square_mileage" : 776.8
+    },
+    "Clarkston, DeKalb County, Georgia" : {
+        "name" : "Clarkston",
+        "state" : "13000",
+        "FIPS" : "13-16544",
+        "counties" : [
+            "13089"
+        ],
+        "type" : "City",
+        "population_2010" : 7554,
+        "population_2020" : 14756,
+        "population" : 29936,
+        "square_mileage" : 13537.6
+    },
+    "Claxton, Evans County, Georgia" : {
+        "name" : "Claxton",
+        "state" : "13000",
+        "FIPS" : "13-16600",
+        "counties" : [
+            "13109"
+        ],
+        "type" : "City",
+        "population_2010" : 2746,
+        "population_2020" : 2602,
+        "population" : 2709,
+        "square_mileage" : 1495.4
+    },
+    "Clayton, Rabun County, Georgia" : {
+        "name" : "Clayton",
+        "state" : "13000",
+        "FIPS" : "13-16656",
+        "counties" : [
+            "13241"
+        ],
+        "type" : "City",
+        "population_2010" : 2047,
+        "population_2020" : 2003,
+        "population" : 2130,
+        "square_mileage" : 612.5
+    },
+    "Clermont, Hall County, Georgia" : {
+        "name" : "Clermont",
+        "state" : "13000",
+        "FIPS" : "13-16796",
+        "counties" : [
+            "13139"
+        ],
+        "type" : "Town",
+        "population_2010" : 875,
+        "population_2020" : 1021,
+        "population" : 1236,
+        "square_mileage" : 343.8
+    },
+    "Cleveland, White County, Georgia" : {
+        "name" : "Cleveland",
+        "state" : "13000",
+        "FIPS" : "13-16824",
+        "counties" : [
+            "13311"
+        ],
+        "type" : "City",
+        "population_2010" : 3410,
+        "population_2020" : 3514,
+        "population" : 3875,
+        "square_mileage" : 912.7
+    },
+    "Climax, Decatur County, Georgia" : {
+        "name" : "Climax",
+        "state" : "13000",
+        "FIPS" : "13-16908",
+        "counties" : [
+            "13087"
+        ],
+        "type" : "City",
+        "population_2010" : 280,
+        "population_2020" : 276,
+        "population" : 295,
+        "square_mileage" : 345.0
+    },
+    "Cobbtown, Tattnall County, Georgia" : {
+        "name" : "Cobbtown",
+        "state" : "13000",
+        "FIPS" : "13-17272",
+        "counties" : [
+            "13267"
+        ],
+        "type" : "City",
+        "population_2010" : 351,
+        "population_2020" : 341,
+        "population" : 361,
+        "square_mileage" : 509.0
+    },
+    "Cochran, Bleckley County, Georgia" : {
+        "name" : "Cochran",
+        "state" : "13000",
+        "FIPS" : "13-17328",
+        "counties" : [
+            "13023"
+        ],
+        "type" : "City",
+        "population_2010" : 5150,
+        "population_2020" : 5026,
+        "population" : 5336,
+        "square_mileage" : 1095.0
+    },
+    "Cohutta, Whitfield County, Georgia" : {
+        "name" : "Cohutta",
+        "state" : "13000",
+        "FIPS" : "13-17496",
+        "counties" : [
+            "13313"
+        ],
+        "type" : "Town",
+        "population_2010" : 661,
+        "population_2020" : 764,
+        "population" : 918,
+        "square_mileage" : 161.9
+    },
+    "Colbert, Madison County, Georgia" : {
+        "name" : "Colbert",
+        "state" : "13000",
+        "FIPS" : "13-17552",
+        "counties" : [
+            "13195"
+        ],
+        "type" : "City",
+        "population_2010" : 592,
+        "population_2020" : 630,
+        "population" : 711,
+        "square_mileage" : 617.6
+    },
+    "College Park, Clayton County, Georgia" : {
+        "name" : "College Park",
+        "state" : "13000",
+        "FIPS" : "13-17776",
+        "counties" : [
+            "13063"
+        ],
+        "type" : "City",
+        "population_2010" : 13942,
+        "population_2020" : 13930,
+        "population" : 15030,
+        "square_mileage" : 1383.3
+    },
+    "Collins, Tattnall County, Georgia" : {
+        "name" : "Collins",
+        "state" : "13000",
+        "FIPS" : "13-17832",
+        "counties" : [
+            "13267"
+        ],
+        "type" : "City",
+        "population_2010" : 584,
+        "population_2020" : 540,
+        "population" : 553,
+        "square_mileage" : 529.4
+    },
+    "Colquitt, Miller County, Georgia" : {
+        "name" : "Colquitt",
+        "state" : "13000",
+        "FIPS" : "13-18000",
+        "counties" : [
+            "13201"
+        ],
+        "type" : "City",
+        "population_2010" : 1992,
+        "population_2020" : 2001,
+        "population" : 2167,
+        "square_mileage" : 243.1
+    },
+    "Columbus, Muscogee County, Georgia" : {
+        "name" : "Columbus",
+        "state" : "13000",
+        "FIPS" : "13-19000",
+        "counties" : [
+            "13215"
+        ],
+        "type" : "Consolidated City-County",
+        "population_2010" : 189885,
+        "population_2020" : 206922,
+        "population" : 237643,
+        "square_mileage" : 956.2
+    },
+    "Comer, Madison County, Georgia" : {
+        "name" : "Comer",
+        "state" : "13000",
+        "FIPS" : "13-19084",
+        "counties" : [
+            "13195"
+        ],
+        "type" : "City",
+        "population_2010" : 1126,
+        "population_2020" : 1512,
+        "population" : 2061,
+        "square_mileage" : 466.7
+    },
+    "Commerce, Jackson County, Georgia" : {
+        "name" : "Commerce",
+        "state" : "13000",
+        "FIPS" : "13-19112",
+        "counties" : [
+            "13157"
+        ],
+        "type" : "City",
+        "population_2010" : 6544,
+        "population_2020" : 7387,
+        "population" : 8714,
+        "square_mileage" : 630.8
+    },
+    "Concord, Pike County, Georgia" : {
+        "name" : "Concord",
+        "state" : "13000",
+        "FIPS" : "13-19168",
+        "counties" : [
+            "13231"
+        ],
+        "type" : "Town",
+        "population_2010" : 375,
+        "population_2020" : 378,
+        "population" : 410,
+        "square_mileage" : 461.0
+    },
+    "Conyers, Rockdale County, Georgia" : {
+        "name" : "Conyers",
+        "state" : "13000",
+        "FIPS" : "13-19336",
+        "counties" : [
+            "13247"
+        ],
+        "type" : "City",
+        "population_2010" : 15195,
+        "population_2020" : 17305,
+        "population" : 20554,
+        "square_mileage" : 1484.1
+    },
+    "Coolidge, Thomas County, Georgia" : {
+        "name" : "Coolidge",
+        "state" : "13000",
+        "FIPS" : "13-19392",
+        "counties" : [
+            "13275"
+        ],
+        "type" : "City",
+        "population_2010" : 525,
+        "population_2020" : 528,
+        "population" : 572,
+        "square_mileage" : 643.9
+    },
+    "Cordele, Crisp County, Georgia" : {
+        "name" : "Cordele",
+        "state" : "13000",
+        "FIPS" : "13-19616",
+        "counties" : [
+            "13081"
+        ],
+        "type" : "City",
+        "population_2010" : 11147,
+        "population_2020" : 10220,
+        "population" : 10414,
+        "square_mileage" : 1007.9
+    },
+    "Cornelia, Habersham County, Georgia" : {
+        "name" : "Cornelia",
+        "state" : "13000",
+        "FIPS" : "13-19728",
+        "counties" : [
+            "13137"
+        ],
+        "type" : "City",
+        "population_2010" : 4160,
+        "population_2020" : 4503,
+        "population" : 5146,
+        "square_mileage" : 1142.9
+    },
+    "Covington, Newton County, Georgia" : {
+        "name" : "Covington",
+        "state" : "13000",
+        "FIPS" : "13-20064",
+        "counties" : [
+            "13217"
+        ],
+        "type" : "City",
+        "population_2010" : 13118,
+        "population_2020" : 14192,
+        "population" : 16211,
+        "square_mileage" : 918.0
+    },
+    "Crawford, Oglethorpe County, Georgia" : {
+        "name" : "Crawford",
+        "state" : "13000",
+        "FIPS" : "13-20288",
+        "counties" : [
+            "13221"
+        ],
+        "type" : "City",
+        "population_2010" : 832,
+        "population_2020" : 821,
+        "population" : 878,
+        "square_mileage" : 707.8
+    },
+    "Crawfordville, Taliaferro County, Georgia" : {
+        "name" : "Crawfordville",
+        "state" : "13000",
+        "FIPS" : "13-20316",
+        "counties" : [
+            "13265"
+        ],
+        "type" : "City",
+        "population_2010" : 534,
+        "population_2020" : 479,
+        "population" : 481,
+        "square_mileage" : 153.5
+    },
+    "Culloden, Monroe County, Georgia" : {
+        "name" : "Culloden",
+        "state" : "13000",
+        "FIPS" : "13-20848",
+        "counties" : [
+            "13207"
+        ],
+        "type" : "City",
+        "population_2010" : 175,
+        "population_2020" : 200,
+        "population" : 238,
+        "square_mileage" : 256.4
+    },
+    "Cumming, Forsyth County, Georgia" : {
+        "name" : "Cumming",
+        "state" : "13000",
+        "FIPS" : "13-20932",
+        "counties" : [
+            "13117"
+        ],
+        "type" : "City",
+        "population_2010" : 5430,
+        "population_2020" : 7318,
+        "population" : 10010,
+        "square_mileage" : 1201.6
+    },
+    "Cusseta, Chattahoochee County, Georgia" : {
+        "name" : "Cusseta",
+        "state" : "13000",
+        "FIPS" : "13-21017",
+        "counties" : [
+            "13053"
+        ],
+        "type" : "Consolidated City-County",
+        "population_2010" : 11267,
+        "population_2020" : 9565,
+        "population" : 9293,
+        "square_mileage" : 38.5
+    },
+    "Cuthbert, Randolph County, Georgia" : {
+        "name" : "Cuthbert",
+        "state" : "13000",
+        "FIPS" : "13-21072",
+        "counties" : [
+            "13243"
+        ],
+        "type" : "City",
+        "population_2010" : 3873,
+        "population_2020" : 3143,
+        "population" : 2974,
+        "square_mileage" : 1030.5
+    },
+    "Dacula, Gwinnett County, Georgia" : {
+        "name" : "Dacula",
+        "state" : "13000",
+        "FIPS" : "13-21184",
+        "counties" : [
+            "13135"
+        ],
+        "type" : "City",
+        "population_2010" : 4442,
+        "population_2020" : 6882,
+        "population" : 10760,
+        "square_mileage" : 1387.5
+    },
+    "Dahlonega, Lumpkin County, Georgia" : {
+        "name" : "Dahlonega",
+        "state" : "13000",
+        "FIPS" : "13-21240",
+        "counties" : [
+            "13187"
+        ],
+        "type" : "City",
+        "population_2010" : 5242,
+        "population_2020" : 7537,
+        "population" : 10948,
+        "square_mileage" : 877.4
+    },
+    "Daisy, Evans County, Georgia" : {
+        "name" : "Daisy",
+        "state" : "13000",
+        "FIPS" : "13-21268",
+        "counties" : [
+            "13109"
+        ],
+        "type" : "City",
+        "population_2010" : 129,
+        "population_2020" : 159,
+        "population" : 201,
+        "square_mileage" : 182.8
+    },
+    "Dallas, Paulding County, Georgia" : {
+        "name" : "Dallas",
+        "state" : "13000",
+        "FIPS" : "13-21324",
+        "counties" : [
+            "13223"
+        ],
+        "type" : "City",
+        "population_2010" : 11544,
+        "population_2020" : 14042,
+        "population" : 17582,
+        "square_mileage" : 1989.0
+    },
+    "Dalton, Whitfield County, Georgia" : {
+        "name" : "Dalton",
+        "state" : "13000",
+        "FIPS" : "13-21380",
+        "counties" : [
+            "13313"
+        ],
+        "type" : "City",
+        "population_2010" : 33128,
+        "population_2020" : 34417,
+        "population" : 38169,
+        "square_mileage" : 1675.6
+    },
+    "Damascus, Early County, Georgia" : {
+        "name" : "Damascus",
+        "state" : "13000",
+        "FIPS" : "13-21436",
+        "counties" : [
+            "13099"
+        ],
+        "type" : "City",
+        "population_2010" : 254,
+        "population_2020" : 212,
+        "population" : 204,
+        "square_mileage" : 120.5
+    },
+    "Danielsville, Madison County, Georgia" : {
+        "name" : "Danielsville",
+        "state" : "13000",
+        "FIPS" : "13-21632",
+        "counties" : [
+            "13195"
+        ],
+        "type" : "City",
+        "population_2010" : 560,
+        "population_2020" : 654,
+        "population" : 792,
+        "square_mileage" : 447.9
+    },
+    "Danville, Twiggs County, Georgia" : {
+        "name" : "Danville",
+        "state" : "13000",
+        "FIPS" : "13-21688",
+        "counties" : [
+            "13289"
+        ],
+        "type" : "Town",
+        "population_2010" : 238,
+        "population_2020" : 165,
+        "population" : 144,
+        "square_mileage" : 208.9
+    },
+    "Darien, McIntosh County, Georgia" : {
+        "name" : "Darien",
+        "state" : "13000",
+        "FIPS" : "13-21716",
+        "counties" : [
+            "13191"
+        ],
+        "type" : "City",
+        "population_2010" : 1975,
+        "population_2020" : 1460,
+        "population" : 1313,
+        "square_mileage" : 69.6
+    },
+    "Dasher, Lowndes County, Georgia" : {
+        "name" : "Dasher",
+        "state" : "13000",
+        "FIPS" : "13-21744",
+        "counties" : [
+            "13185"
+        ],
+        "type" : "Town",
+        "population_2010" : 912,
+        "population_2020" : 890,
+        "population" : 945,
+        "square_mileage" : 196.0
+    },
+    "Davisboro, Washington County, Georgia" : {
+        "name" : "Davisboro",
+        "state" : "13000",
+        "FIPS" : "13-21800",
+        "counties" : [
+            "13303"
+        ],
+        "type" : "City",
+        "population_2010" : 2010,
+        "population_2020" : 1832,
+        "population" : 1860,
+        "square_mileage" : 600.7
+    },
+    "Dawson, Terrell County, Georgia" : {
+        "name" : "Dawson",
+        "state" : "13000",
+        "FIPS" : "13-21912",
+        "counties" : [
+            "13273"
+        ],
+        "type" : "City",
+        "population_2010" : 4540,
+        "population_2020" : 4414,
+        "population" : 4674,
+        "square_mileage" : 1177.1
+    },
+    "Dawsonville, Dawson County, Georgia" : {
+        "name" : "Dawsonville",
+        "state" : "13000",
+        "FIPS" : "13-21940",
+        "counties" : [
+            "13085"
+        ],
+        "type" : "City",
+        "population_2010" : 2536,
+        "population_2020" : 3720,
+        "population" : 5509,
+        "square_mileage" : 454.2
+    },
+    "Dearing, McDuffie County, Georgia" : {
+        "name" : "Dearing",
+        "state" : "13000",
+        "FIPS" : "13-22024",
+        "counties" : [
+            "13189"
+        ],
+        "type" : "Town",
+        "population_2010" : 549,
+        "population_2020" : 529,
+        "population" : 557,
+        "square_mileage" : 645.1
+    },
+    "Decatur, DeKalb County, Georgia" : {
+        "name" : "Decatur",
+        "state" : "13000",
+        "FIPS" : "13-22052",
+        "counties" : [
+            "13089"
+        ],
+        "type" : "City",
+        "population_2010" : 19335,
+        "population_2020" : 24928,
+        "population" : 32787,
+        "square_mileage" : 5837.9
+    },
+    "Deepstep, Washington County, Georgia" : {
+        "name" : "Deepstep",
+        "state" : "13000",
+        "FIPS" : "13-22108",
+        "counties" : [
+            "13303"
+        ],
+        "type" : "Town",
+        "population_2010" : 131,
+        "population_2020" : 117,
+        "population" : 117,
+        "square_mileage" : 144.4
+    },
+    "Demorest, Habersham County, Georgia" : {
+        "name" : "Demorest",
+        "state" : "13000",
+        "FIPS" : "13-22304",
+        "counties" : [
+            "13137"
+        ],
+        "type" : "City",
+        "population_2010" : 1823,
+        "population_2020" : 2022,
+        "population" : 2353,
+        "square_mileage" : 902.7
+    },
+    "Denton, Jeff Davis County, Georgia" : {
+        "name" : "Denton",
+        "state" : "13000",
+        "FIPS" : "13-22388",
+        "counties" : [
+            "13161"
+        ],
+        "type" : "City",
+        "population_2010" : 269,
+        "population_2020" : 250,
+        "population" : 257,
+        "square_mileage" : 164.5
+    },
+    "De Soto, Sumter County, Georgia" : {
+        "name" : "De Soto",
+        "state" : "13000",
+        "FIPS" : "13-22472",
+        "counties" : [
+            "13261"
+        ],
+        "type" : "City",
+        "population_2010" : 195,
+        "population_2020" : 124,
+        "population" : 104,
+        "square_mileage" : 151.2
+    },
+    "Dexter, Laurens County, Georgia" : {
+        "name" : "Dexter",
+        "state" : "13000",
+        "FIPS" : "13-22752",
+        "counties" : [
+            "13175"
+        ],
+        "type" : "Town",
+        "population_2010" : 575,
+        "population_2020" : 655,
+        "population" : 778,
+        "square_mileage" : 850.6
+    },
+    "Dillard, Rabun County, Georgia" : {
+        "name" : "Dillard",
+        "state" : "13000",
+        "FIPS" : "13-22976",
+        "counties" : [
+            "13241"
+        ],
+        "type" : "City",
+        "population_2010" : 339,
+        "population_2020" : 337,
+        "population" : 362,
+        "square_mileage" : 192.6
+    },
+    "Doerun, Colquitt County, Georgia" : {
+        "name" : "Doerun",
+        "state" : "13000",
+        "FIPS" : "13-23284",
+        "counties" : [
+            "13071"
+        ],
+        "type" : "City",
+        "population_2010" : 774,
+        "population_2020" : 738,
+        "population" : 771,
+        "square_mileage" : 590.4
+    },
+    "Donalsonville, Seminole County, Georgia" : {
+        "name" : "Donalsonville",
+        "state" : "13000",
+        "FIPS" : "13-23368",
+        "counties" : [
+            "13253"
+        ],
+        "type" : "City",
+        "population_2010" : 2650,
+        "population_2020" : 2833,
+        "population" : 3208,
+        "square_mileage" : 713.6
+    },
+    "Dooling, Dooly County, Georgia" : {
+        "name" : "Dooling",
+        "state" : "13000",
+        "FIPS" : "13-23480",
+        "counties" : [
+            "13093"
+        ],
+        "type" : "Town",
+        "population_2010" : 154,
+        "population_2020" : 68,
+        "population" : 49,
+        "square_mileage" : 147.8
+    },
+    "Doraville, DeKalb County, Georgia" : {
+        "name" : "Doraville",
+        "state" : "13000",
+        "FIPS" : "13-23536",
+        "counties" : [
+            "13089"
+        ],
+        "type" : "City",
+        "population_2010" : 8330,
+        "population_2020" : 10623,
+        "population" : 13841,
+        "square_mileage" : 2967.3
+    },
+    "Douglas, Coffee County, Georgia" : {
+        "name" : "Douglas",
+        "state" : "13000",
+        "FIPS" : "13-23872",
+        "counties" : [
+            "13069"
+        ],
+        "type" : "City",
+        "population_2010" : 11589,
+        "population_2020" : 11722,
+        "population" : 12756,
+        "square_mileage" : 875.4
+    },
+    "Douglasville, Douglas County, Georgia" : {
+        "name" : "Douglasville",
+        "state" : "13000",
+        "FIPS" : "13-23900",
+        "counties" : [
+            "13097"
+        ],
+        "type" : "City",
+        "population_2010" : 30961,
+        "population_2020" : 34650,
+        "population" : 40605,
+        "square_mileage" : 1542.7
+    },
+    "Dublin, Laurens County, Georgia" : {
+        "name" : "Dublin",
+        "state" : "13000",
+        "FIPS" : "13-24376",
+        "counties" : [
+            "13175"
+        ],
+        "type" : "City",
+        "population_2010" : 16201,
+        "population_2020" : 16074,
+        "population" : 17259,
+        "square_mileage" : 1037.7
+    },
+    "Dudley, Laurens County, Georgia" : {
+        "name" : "Dudley",
+        "state" : "13000",
+        "FIPS" : "13-24488",
+        "counties" : [
+            "13175"
+        ],
+        "type" : "City",
+        "population_2010" : 571,
+        "population_2020" : 593,
+        "population" : 657,
+        "square_mileage" : 173.9
+    },
+    "Duluth, Gwinnett County, Georgia" : {
+        "name" : "Duluth",
+        "state" : "13000",
+        "FIPS" : "13-24600",
+        "counties" : [
+            "13135"
+        ],
+        "type" : "City",
+        "population_2010" : 26600,
+        "population_2020" : 31873,
+        "population" : 39420,
+        "square_mileage" : 3190.5
+    },
+    "Dunwoody, DeKalb County, Georgia" : {
+        "name" : "Dunwoody",
+        "state" : "13000",
+        "FIPS" : "13-24768",
+        "counties" : [
+            "13089"
+        ],
+        "type" : "City",
+        "population_2010" : 46267,
+        "population_2020" : 51683,
+        "population" : 60479,
+        "square_mileage" : 3994.0
+    },
+    "Du Pont, Clinch County, Georgia" : {
+        "name" : "Du Pont",
+        "state" : "13000",
+        "FIPS" : "13-24796",
+        "counties" : [
+            "13065"
+        ],
+        "type" : "Town",
+        "population_2010" : 120,
+        "population_2020" : 134,
+        "population" : 157,
+        "square_mileage" : 171.8
+    },
+    "East Dublin, Laurens County, Georgia" : {
+        "name" : "East Dublin",
+        "state" : "13000",
+        "FIPS" : "13-25300",
+        "counties" : [
+            "13175"
+        ],
+        "type" : "City",
+        "population_2010" : 2441,
+        "population_2020" : 2492,
+        "population" : 2729,
+        "square_mileage" : 630.9
+    },
+    "East Ellijay, Gilmer County, Georgia" : {
+        "name" : "East Ellijay",
+        "state" : "13000",
+        "FIPS" : "13-25356",
+        "counties" : [
+            "13123"
+        ],
+        "type" : "City",
+        "population_2010" : 546,
+        "population_2020" : 650,
+        "population" : 800,
+        "square_mileage" : 191.2
+    },
+    "Eastman, Dodge County, Georgia" : {
+        "name" : "Eastman",
+        "state" : "13000",
+        "FIPS" : "13-25552",
+        "counties" : [
+            "13091"
+        ],
+        "type" : "City",
+        "population_2010" : 4962,
+        "population_2020" : 5658,
+        "population" : 6727,
+        "square_mileage" : 1043.9
+    },
+    "East Point, Fulton County, Georgia" : {
+        "name" : "East Point",
+        "state" : "13000",
+        "FIPS" : "13-25720",
+        "counties" : [
+            "13121"
+        ],
+        "type" : "City",
+        "population_2010" : 33712,
+        "population_2020" : 38358,
+        "population" : 45528,
+        "square_mileage" : 2614.7
+    },
+    "Eatonton, Putnam County, Georgia" : {
+        "name" : "Eatonton",
+        "state" : "13000",
+        "FIPS" : "13-26084",
+        "counties" : [
+            "13237"
+        ],
+        "type" : "City",
+        "population_2010" : 6764,
+        "population_2020" : 6480,
+        "population" : 6795,
+        "square_mileage" : 315.9
+    },
+    "Echols County, Echols County, Georgia" : {
+        "name" : "13101",
+        "state" : "13000",
+        "FIPS" : "13-26156",
+        "counties" : [
+            "13101"
+        ],
+        "type" : "Consolidated City Unified Government",
+        "population_2010" : 4034,
+        "population_2020" : 3697,
+        "population" : 3766,
+        "square_mileage" : 8.9
+    },
+    "Edge Hill, Glascock County, Georgia" : {
+        "name" : "Edge Hill",
+        "state" : "13000",
+        "FIPS" : "13-26224",
+        "counties" : [
+            "13125"
+        ],
+        "type" : "City",
+        "population_2010" : 24,
+        "population_2020" : 22,
+        "population" : 22,
+        "square_mileage" : 122.2
+    },
+    "Edison, Calhoun County, Georgia" : {
+        "name" : "Edison",
+        "state" : "13000",
+        "FIPS" : "13-26448",
+        "counties" : [
+            "13037"
+        ],
+        "type" : "City",
+        "population_2010" : 1531,
+        "population_2020" : 1230,
+        "population" : 1157,
+        "square_mileage" : 525.6
+    },
+    "Elberton, Elbert County, Georgia" : {
+        "name" : "Elberton",
+        "state" : "13000",
+        "FIPS" : "13-26616",
+        "counties" : [
+            "13105"
+        ],
+        "type" : "City",
+        "population_2010" : 4653,
+        "population_2020" : 4640,
+        "population" : 5000,
+        "square_mileage" : 976.8
+    },
+    "Ellaville, Schley County, Georgia" : {
+        "name" : "Ellaville",
+        "state" : "13000",
+        "FIPS" : "13-26980",
+        "counties" : [
+            "13249"
+        ],
+        "type" : "City",
+        "population_2010" : 1812,
+        "population_2020" : 1595,
+        "population" : 1584,
+        "square_mileage" : 504.7
+    },
+    "Ellenton, Colquitt County, Georgia" : {
+        "name" : "Ellenton",
+        "state" : "13000",
+        "FIPS" : "13-27008",
+        "counties" : [
+            "13071"
+        ],
+        "type" : "Town",
+        "population_2010" : 281,
+        "population_2020" : 210,
+        "population" : 190,
+        "square_mileage" : 265.8
+    },
+    "Ellijay, Gilmer County, Georgia" : {
+        "name" : "Ellijay",
+        "state" : "13000",
+        "FIPS" : "13-27092",
+        "counties" : [
+            "13123"
+        ],
+        "type" : "City",
+        "population_2010" : 1619,
+        "population_2020" : 1862,
+        "population" : 2229,
+        "square_mileage" : 526.0
+    },
+    "Emerson, Bartow County, Georgia" : {
+        "name" : "Emerson",
+        "state" : "13000",
+        "FIPS" : "13-27344",
+        "counties" : [
+            "13015"
+        ],
+        "type" : "City",
+        "population_2010" : 1470,
+        "population_2020" : 1415,
+        "population" : 1488,
+        "square_mileage" : 193.8
+    },
+    "Enigma, Berrien County, Georgia" : {
+        "name" : "Enigma",
+        "state" : "13000",
+        "FIPS" : "13-27596",
+        "counties" : [
+            "13019"
+        ],
+        "type" : "Town",
+        "population_2010" : 1278,
+        "population_2020" : 1058,
+        "population" : 1013,
+        "square_mileage" : 325.5
+    },
+    "Ephesus, Heard County, Georgia" : {
+        "name" : "Ephesus",
+        "state" : "13000",
+        "FIPS" : "13-27708",
+        "counties" : [
+            "13149"
+        ],
+        "type" : "City",
+        "population_2010" : 327,
+        "population_2020" : 471,
+        "population" : 685,
+        "square_mileage" : 156.0
+    },
+    "Eton, Murray County, Georgia" : {
+        "name" : "Eton",
+        "state" : "13000",
+        "FIPS" : "13-27932",
+        "counties" : [
+            "13213"
+        ],
+        "type" : "Town",
+        "population_2010" : 910,
+        "population_2020" : 824,
+        "population" : 833,
+        "square_mileage" : 681.0
+    },
+    "Euharlee, Bartow County, Georgia" : {
+        "name" : "Euharlee",
+        "state" : "13000",
+        "FIPS" : "13-27988",
+        "counties" : [
+            "13015"
+        ],
+        "type" : "City",
+        "population_2010" : 4136,
+        "population_2020" : 4268,
+        "population" : 4710,
+        "square_mileage" : 809.9
+    },
+    "Fairburn, Fulton County, Georgia" : {
+        "name" : "Fairburn",
+        "state" : "13000",
+        "FIPS" : "13-28380",
+        "counties" : [
+            "13121"
+        ],
+        "type" : "City",
+        "population_2010" : 12950,
+        "population_2020" : 16483,
+        "population" : 21441,
+        "square_mileage" : 978.2
+    },
+    "Fairmount, Gordon County, Georgia" : {
+        "name" : "Fairmount",
+        "state" : "13000",
+        "FIPS" : "13-28492",
+        "counties" : [
+            "13129"
+        ],
+        "type" : "City",
+        "population_2010" : 720,
+        "population_2020" : 772,
+        "population" : 876,
+        "square_mileage" : 431.3
+    },
+    "Fargo, Clinch County, Georgia" : {
+        "name" : "Fargo",
+        "state" : "13000",
+        "FIPS" : "13-28744",
+        "counties" : [
+            "13065"
+        ],
+        "type" : "City",
+        "population_2010" : 321,
+        "population_2020" : 250,
+        "population" : 231,
+        "square_mileage" : 91.2
+    },
+    "Fayetteville, Fayette County, Georgia" : {
+        "name" : "Fayetteville",
+        "state" : "13000",
+        "FIPS" : "13-28968",
+        "counties" : [
+            "13113"
+        ],
+        "type" : "City",
+        "population_2010" : 15945,
+        "population_2020" : 18957,
+        "population" : 23297,
+        "square_mileage" : 1740.8
+    },
+    "Fitzgerald, Ben Hill County, Georgia" : {
+        "name" : "Fitzgerald",
+        "state" : "13000",
+        "FIPS" : "13-29528",
+        "counties" : [
+            "13017"
+        ],
+        "type" : "City",
+        "population_2010" : 9053,
+        "population_2020" : 9006,
+        "population" : 9688,
+        "square_mileage" : 1016.5
+    },
+    "Flemington, Liberty County, Georgia" : {
+        "name" : "Flemington",
+        "state" : "13000",
+        "FIPS" : "13-30088",
+        "counties" : [
+            "13179"
+        ],
+        "type" : "City",
+        "population_2010" : 743,
+        "population_2020" : 825,
+        "population" : 961,
+        "square_mileage" : 180.5
+    },
+    "Flovilla, Butts County, Georgia" : {
+        "name" : "Flovilla",
+        "state" : "13000",
+        "FIPS" : "13-30312",
+        "counties" : [
+            "13035"
+        ],
+        "type" : "City",
+        "population_2010" : 653,
+        "population_2020" : 643,
+        "population" : 687,
+        "square_mileage" : 328.1
+    },
+    "Flowery Branch, Hall County, Georgia" : {
+        "name" : "Flowery Branch",
+        "state" : "13000",
+        "FIPS" : "13-30340",
+        "counties" : [
+            "13139"
+        ],
+        "type" : "City",
+        "population_2010" : 5679,
+        "population_2020" : 9391,
+        "population" : 15719,
+        "square_mileage" : 1485.9
+    },
+    "Folkston, Charlton County, Georgia" : {
+        "name" : "Folkston",
+        "state" : "13000",
+        "FIPS" : "13-30424",
+        "counties" : [
+            "13049"
+        ],
+        "type" : "City",
+        "population_2010" : 2502,
+        "population_2020" : 4464,
+        "population" : 8130,
+        "square_mileage" : 1065.4
+    },
+    "Forest Park, Clayton County, Georgia" : {
+        "name" : "Forest Park",
+        "state" : "13000",
+        "FIPS" : "13-30536",
+        "counties" : [
+            "13063"
+        ],
+        "type" : "City",
+        "population_2010" : 18468,
+        "population_2020" : 19932,
+        "population" : 22728,
+        "square_mileage" : 2147.8
+    },
+    "Forsyth, Monroe County, Georgia" : {
+        "name" : "Forsyth",
+        "state" : "13000",
+        "FIPS" : "13-30732",
+        "counties" : [
+            "13207"
+        ],
+        "type" : "City",
+        "population_2010" : 3788,
+        "population_2020" : 4384,
+        "population" : 5273,
+        "square_mileage" : 744.3
+    },
+    "Fort Gaines, Clay County, Georgia" : {
+        "name" : "Fort Gaines",
+        "state" : "13000",
+        "FIPS" : "13-30816",
+        "counties" : [
+            "13061"
+        ],
+        "type" : "City",
+        "population_2010" : 1107,
+        "population_2020" : 995,
+        "population" : 1001,
+        "square_mileage" : 208.2
+    },
+    "Fort Oglethorpe, Catoosa County, Georgia" : {
+        "name" : "Fort Oglethorpe",
+        "state" : "13000",
+        "FIPS" : "13-30956",
+        "counties" : [
+            "13047"
+        ],
+        "type" : "City",
+        "population_2010" : 9263,
+        "population_2020" : 10423,
+        "population" : 12265,
+        "square_mileage" : 750.4
+    },
+    "Fort Valley, Peach County, Georgia" : {
+        "name" : "Fort Valley",
+        "state" : "13000",
+        "FIPS" : "13-31096",
+        "counties" : [
+            "13225"
+        ],
+        "type" : "City",
+        "population_2010" : 9815,
+        "population_2020" : 8780,
+        "population" : 8808,
+        "square_mileage" : 1172.2
+    },
+    "Franklin, Heard County, Georgia" : {
+        "name" : "Franklin",
+        "state" : "13000",
+        "FIPS" : "13-31292",
+        "counties" : [
+            "13149"
+        ],
+        "type" : "City",
+        "population_2010" : 993,
+        "population_2020" : 950,
+        "population" : 995,
+        "square_mileage" : 284.4
+    },
+    "Franklin Springs, Franklin County, Georgia" : {
+        "name" : "Franklin Springs",
+        "state" : "13000",
+        "FIPS" : "13-31320",
+        "counties" : [
+            "13119"
+        ],
+        "type" : "City",
+        "population_2010" : 952,
+        "population_2020" : 1155,
+        "population" : 1443,
+        "square_mileage" : 529.8
+    },
+    "Funston, Colquitt County, Georgia" : {
+        "name" : "Funston",
+        "state" : "13000",
+        "FIPS" : "13-31684",
+        "counties" : [
+            "13071"
+        ],
+        "type" : "Town",
+        "population_2010" : 449,
+        "population_2020" : 402,
+        "population" : 404,
+        "square_mileage" : 352.6
+    },
+    "Gainesville, Hall County, Georgia" : {
+        "name" : "Gainesville",
+        "state" : "13000",
+        "FIPS" : "13-31908",
+        "counties" : [
+            "13139"
+        ],
+        "type" : "City",
+        "population_2010" : 33804,
+        "population_2020" : 42296,
+        "population" : 54222,
+        "square_mileage" : 1324.6
+    },
+    "Garden City, Chatham County, Georgia" : {
+        "name" : "Garden City",
+        "state" : "13000",
+        "FIPS" : "13-32048",
+        "counties" : [
+            "13051"
+        ],
+        "type" : "City",
+        "population_2010" : 8778,
+        "population_2020" : 10289,
+        "population" : 12501,
+        "square_mileage" : 751.0
+    },
+    "Garfield, Emanuel County, Georgia" : {
+        "name" : "Garfield",
+        "state" : "13000",
+        "FIPS" : "13-32188",
+        "counties" : [
+            "13107"
+        ],
+        "type" : "City",
+        "population_2010" : 201,
+        "population_2020" : 257,
+        "population" : 336,
+        "square_mileage" : 325.3
+    },
+    "Gay, Meriwether County, Georgia" : {
+        "name" : "Gay",
+        "state" : "13000",
+        "FIPS" : "13-32384",
+        "counties" : [
+            "13199"
+        ],
+        "type" : "Town",
+        "population_2010" : 89,
+        "population_2020" : 110,
+        "population" : 140,
+        "square_mileage" : 127.9
+    },
+    "Geneva, Talbot County, Georgia" : {
+        "name" : "Geneva",
+        "state" : "13000",
+        "FIPS" : "13-32412",
+        "counties" : [
+            "13263"
+        ],
+        "type" : "Town",
+        "population_2010" : 105,
+        "population_2020" : 75,
+        "population" : 66,
+        "square_mileage" : 94.9
+    },
+    "Georgetown, Quitman County, Georgia" : {
+        "name" : "Georgetown",
+        "state" : "13000",
+        "FIPS" : "13-32482",
+        "counties" : [
+            "13239"
+        ],
+        "type" : "Consolidated City-County",
+        "population_2010" : 2513,
+        "population_2020" : 2235,
+        "population" : 2234,
+        "square_mileage" : 14.8
+    },
+    "Gibson, Glascock County, Georgia" : {
+        "name" : "Gibson",
+        "state" : "13000",
+        "FIPS" : "13-32748",
+        "counties" : [
+            "13125"
+        ],
+        "type" : "City",
+        "population_2010" : 663,
+        "population_2020" : 630,
+        "population" : 657,
+        "square_mileage" : 617.6
+    },
+    "Gillsville, Banks County, Georgia" : {
+        "name" : "Gillsville",
+        "state" : "13000",
+        "FIPS" : "13-32860",
+        "counties" : [
+            "13011"
+        ],
+        "type" : "City",
+        "population_2010" : 235,
+        "population_2020" : 306,
+        "population" : 406,
+        "square_mileage" : 270.8
+    },
+    "Girard, Burke County, Georgia" : {
+        "name" : "Girard",
+        "state" : "13000",
+        "FIPS" : "13-32916",
+        "counties" : [
+            "13033"
+        ],
+        "type" : "Town",
+        "population_2010" : 156,
+        "population_2020" : 184,
+        "population" : 225,
+        "square_mileage" : 58.2
+    },
+    "Glennville, Tattnall County, Georgia" : {
+        "name" : "Glennville",
+        "state" : "13000",
+        "FIPS" : "13-33336",
+        "counties" : [
+            "13267"
+        ],
+        "type" : "City",
+        "population_2010" : 3569,
+        "population_2020" : 3834,
+        "population" : 4357,
+        "square_mileage" : 585.3
+    },
+    "Glenwood, Wheeler County, Georgia" : {
+        "name" : "Glenwood",
+        "state" : "13000",
+        "FIPS" : "13-33392",
+        "counties" : [
+            "13309"
+        ],
+        "type" : "City",
+        "population_2010" : 747,
+        "population_2020" : 850,
+        "population" : 1009,
+        "square_mileage" : 271.6
+    },
+    "Good Hope, Walton County, Georgia" : {
+        "name" : "Good Hope",
+        "state" : "13000",
+        "FIPS" : "13-33896",
+        "counties" : [
+            "13297"
+        ],
+        "type" : "Town",
+        "population_2010" : 274,
+        "population_2020" : 339,
+        "population" : 430,
+        "square_mileage" : 184.2
+    },
+    "Gordon, Wilkinson County, Georgia" : {
+        "name" : "Gordon",
+        "state" : "13000",
+        "FIPS" : "13-33980",
+        "counties" : [
+            "13319"
+        ],
+        "type" : "City",
+        "population_2010" : 2017,
+        "population_2020" : 1783,
+        "population" : 1776,
+        "square_mileage" : 331.4
+    },
+    "Graham, Appling County, Georgia" : {
+        "name" : "Graham",
+        "state" : "13000",
+        "FIPS" : "13-34260",
+        "counties" : [
+            "13001"
+        ],
+        "type" : "City",
+        "population_2010" : 291,
+        "population_2020" : 263,
+        "population" : 266,
+        "square_mileage" : 151.1
+    },
+    "Grantville, Coweta County, Georgia" : {
+        "name" : "Grantville",
+        "state" : "13000",
+        "FIPS" : "13-34428",
+        "counties" : [
+            "13077"
+        ],
+        "type" : "City",
+        "population_2010" : 3041,
+        "population_2020" : 3103,
+        "population" : 3398,
+        "square_mileage" : 556.1
+    },
+    "Gray, Jones County, Georgia" : {
+        "name" : "Gray",
+        "state" : "13000",
+        "FIPS" : "13-34512",
+        "counties" : [
+            "13169"
+        ],
+        "type" : "City",
+        "population_2010" : 3276,
+        "population_2020" : 3436,
+        "population" : 3837,
+        "square_mileage" : 885.6
+    },
+    "Grayson, Gwinnett County, Georgia" : {
+        "name" : "Grayson",
+        "state" : "13000",
+        "FIPS" : "13-34596",
+        "counties" : [
+            "13135"
+        ],
+        "type" : "City",
+        "population_2010" : 2666,
+        "population_2020" : 4730,
+        "population" : 8559,
+        "square_mileage" : 1915.0
+    },
+    "Greensboro, Greene County, Georgia" : {
+        "name" : "Greensboro",
+        "state" : "13000",
+        "FIPS" : "13-34876",
+        "counties" : [
+            "13133"
+        ],
+        "type" : "City",
+        "population_2010" : 3359,
+        "population_2020" : 3648,
+        "population" : 4179,
+        "square_mileage" : 542.1
+    },
+    "Greenville, Meriwether County, Georgia" : {
+        "name" : "Greenville",
+        "state" : "13000",
+        "FIPS" : "13-35016",
+        "counties" : [
+            "13199"
+        ],
+        "type" : "City",
+        "population_2010" : 876,
+        "population_2020" : 794,
+        "population" : 803,
+        "square_mileage" : 339.3
+    },
+    "Griffin, Spalding County, Georgia" : {
+        "name" : "Griffin",
+        "state" : "13000",
+        "FIPS" : "13-35324",
+        "counties" : [
+            "13255"
+        ],
+        "type" : "City",
+        "population_2010" : 23643,
+        "population_2020" : 23478,
+        "population" : 25224,
+        "square_mileage" : 1701.0
+    },
+    "Grovetown, Columbia County, Georgia" : {
+        "name" : "Grovetown",
+        "state" : "13000",
+        "FIPS" : "13-35716",
+        "counties" : [
+            "13073"
+        ],
+        "type" : "City",
+        "population_2010" : 11216,
+        "population_2020" : 15577,
+        "population" : 21901,
+        "square_mileage" : 3231.7
+    },
+    "Gumbranch, Liberty County, Georgia" : {
+        "name" : "Gumbranch",
+        "state" : "13000",
+        "FIPS" : "13-35800",
+        "counties" : [
+            "13179"
+        ],
+        "type" : "City",
+        "population_2010" : 264,
+        "population_2020" : 235,
+        "population" : 235,
+        "square_mileage" : 293.8
+    },
+    "Guyton, Effingham County, Georgia" : {
+        "name" : "Guyton",
+        "state" : "13000",
+        "FIPS" : "13-35884",
+        "counties" : [
+            "13103"
+        ],
+        "type" : "City",
+        "population_2010" : 1684,
+        "population_2020" : 2289,
+        "population" : 3155,
+        "square_mileage" : 715.3
+    },
+    "Hagan, Evans County, Georgia" : {
+        "name" : "Hagan",
+        "state" : "13000",
+        "FIPS" : "13-36024",
+        "counties" : [
+            "13109"
+        ],
+        "type" : "City",
+        "population_2010" : 996,
+        "population_2020" : 959,
+        "population" : 1009,
+        "square_mileage" : 470.1
+    },
+    "Hahira, Lowndes County, Georgia" : {
+        "name" : "Hahira",
+        "state" : "13000",
+        "FIPS" : "13-36052",
+        "counties" : [
+            "13185"
+        ],
+        "type" : "City",
+        "population_2010" : 2737,
+        "population_2020" : 3384,
+        "population" : 4295,
+        "square_mileage" : 1364.5
+    },
+    "Hamilton, Harris County, Georgia" : {
+        "name" : "Hamilton",
+        "state" : "13000",
+        "FIPS" : "13-36220",
+        "counties" : [
+            "13145"
+        ],
+        "type" : "City",
+        "population_2010" : 1016,
+        "population_2020" : 1680,
+        "population" : 2812,
+        "square_mileage" : 507.6
+    },
+    "Hampton, Henry County, Georgia" : {
+        "name" : "Hampton",
+        "state" : "13000",
+        "FIPS" : "13-36276",
+        "counties" : [
+            "13151"
+        ],
+        "type" : "City",
+        "population_2010" : 6987,
+        "population_2020" : 8368,
+        "population" : 10345,
+        "square_mileage" : 1491.6
+    },
+    "Hapeville, Fulton County, Georgia" : {
+        "name" : "Hapeville",
+        "state" : "13000",
+        "FIPS" : "13-36472",
+        "counties" : [
+            "13121"
+        ],
+        "type" : "City",
+        "population_2010" : 6373,
+        "population_2020" : 6553,
+        "population" : 7214,
+        "square_mileage" : 2719.1
+    },
+    "Haralson, Coweta County, Georgia" : {
+        "name" : "Haralson",
+        "state" : "13000",
+        "FIPS" : "13-36528",
+        "counties" : [
+            "13077"
+        ],
+        "type" : "Town",
+        "population_2010" : 166,
+        "population_2020" : 172,
+        "population" : 190,
+        "square_mileage" : 215.0
+    },
+    "Harlem, Columbia County, Georgia" : {
+        "name" : "Harlem",
+        "state" : "13000",
+        "FIPS" : "13-36696",
+        "counties" : [
+            "13073"
+        ],
+        "type" : "City",
+        "population_2010" : 2666,
+        "population_2020" : 3571,
+        "population" : 4858,
+        "square_mileage" : 790.0
+    },
+    "Harrison, Washington County, Georgia" : {
+        "name" : "Harrison",
+        "state" : "13000",
+        "FIPS" : "13-36920",
+        "counties" : [
+            "13303"
+        ],
+        "type" : "Town",
+        "population_2010" : 489,
+        "population_2020" : 339,
+        "population" : 295,
+        "square_mileage" : 198.2
+    },
+    "Hartwell, Hart County, Georgia" : {
+        "name" : "Hartwell",
+        "state" : "13000",
+        "FIPS" : "13-37144",
+        "counties" : [
+            "13147"
+        ],
+        "type" : "City",
+        "population_2010" : 4469,
+        "population_2020" : 4470,
+        "population" : 4827,
+        "square_mileage" : 878.2
+    },
+    "Hawkinsville, Pulaski County, Georgia" : {
+        "name" : "Hawkinsville",
+        "state" : "13000",
+        "FIPS" : "13-37396",
+        "counties" : [
+            "13235"
+        ],
+        "type" : "City",
+        "population_2010" : 4589,
+        "population_2020" : 3980,
+        "population" : 3917,
+        "square_mileage" : 789.7
+    },
+    "Hazlehurst, Jeff Davis County, Georgia" : {
+        "name" : "Hazlehurst",
+        "state" : "13000",
+        "FIPS" : "13-37564",
+        "counties" : [
+            "13161"
+        ],
+        "type" : "City",
+        "population_2010" : 4226,
+        "population_2020" : 4088,
+        "population" : 4315,
+        "square_mileage" : 864.3
+    },
+    "Helen, White County, Georgia" : {
+        "name" : "Helen",
+        "state" : "13000",
+        "FIPS" : "13-37788",
+        "counties" : [
+            "13311"
+        ],
+        "type" : "City",
+        "population_2010" : 510,
+        "population_2020" : 531,
+        "population" : 590,
+        "square_mileage" : 244.7
+    },
+    "Hephzibah, Richmond County, Georgia" : {
+        "name" : "Hephzibah",
+        "state" : "13000",
+        "FIPS" : "13-38040",
+        "counties" : [
+            "13245"
+        ],
+        "type" : "City",
+        "population_2010" : 4011,
+        "population_2020" : 3830,
+        "population" : 4007,
+        "square_mileage" : 198.3
+    },
+    "Hiawassee, Towns County, Georgia" : {
+        "name" : "Hiawassee",
+        "state" : "13000",
+        "FIPS" : "13-38124",
+        "counties" : [
+            "13281"
+        ],
+        "type" : "Town",
+        "population_2010" : 880,
+        "population_2020" : 981,
+        "population" : 1146,
+        "square_mileage" : 591.0
+    },
+    "Higgston, Montgomery County, Georgia" : {
+        "name" : "Higgston",
+        "state" : "13000",
+        "FIPS" : "13-38348",
+        "counties" : [
+            "13209"
+        ],
+        "type" : "Town",
+        "population_2010" : 323,
+        "population_2020" : 314,
+        "population" : 333,
+        "square_mileage" : 99.7
+    },
+    "Hiltonia, Screven County, Georgia" : {
+        "name" : "Hiltonia",
+        "state" : "13000",
+        "FIPS" : "13-38920",
+        "counties" : [
+            "13251"
+        ],
+        "type" : "City",
+        "population_2010" : 342,
+        "population_2020" : 310,
+        "population" : 314,
+        "square_mileage" : 180.2
+    },
+    "Hinesville, Liberty County, Georgia" : {
+        "name" : "Hinesville",
+        "state" : "13000",
+        "FIPS" : "13-38964",
+        "counties" : [
+            "13179"
+        ],
+        "type" : "City",
+        "population_2010" : 33437,
+        "population_2020" : 34891,
+        "population" : 38817,
+        "square_mileage" : 1712.9
+    },
+    "Hiram, Paulding County, Georgia" : {
+        "name" : "Hiram",
+        "state" : "13000",
+        "FIPS" : "13-39076",
+        "counties" : [
+            "13223"
+        ],
+        "type" : "City",
+        "population_2010" : 3546,
+        "population_2020" : 4929,
+        "population" : 6936,
+        "square_mileage" : 1273.6
+    },
+    "Hoboken, Brantley County, Georgia" : {
+        "name" : "Hoboken",
+        "state" : "13000",
+        "FIPS" : "13-39216",
+        "counties" : [
+            "13025"
+        ],
+        "type" : "City",
+        "population_2010" : 528,
+        "population_2020" : 480,
+        "population" : 486,
+        "square_mileage" : 139.9
+    },
+    "Hogansville, Troup County, Georgia" : {
+        "name" : "Hogansville",
+        "state" : "13000",
+        "FIPS" : "13-39244",
+        "counties" : [
+            "13285"
+        ],
+        "type" : "City",
+        "population_2010" : 3060,
+        "population_2020" : 3267,
+        "population" : 3696,
+        "square_mileage" : 474.9
+    },
+    "Holly Springs, Cherokee County, Georgia" : {
+        "name" : "Holly Springs",
+        "state" : "13000",
+        "FIPS" : "13-39524",
+        "counties" : [
+            "13057"
+        ],
+        "type" : "City",
+        "population_2010" : 9189,
+        "population_2020" : 16213,
+        "population" : 29154,
+        "square_mileage" : 2467.7
+    },
+    "Homeland, Charlton County, Georgia" : {
+        "name" : "Homeland",
+        "state" : "13000",
+        "FIPS" : "13-39692",
+        "counties" : [
+            "13049"
+        ],
+        "type" : "City",
+        "population_2010" : 910,
+        "population_2020" : 886,
+        "population" : 939,
+        "square_mileage" : 358.7
+    },
+    "Homer, Banks County, Georgia" : {
+        "name" : "Homer",
+        "state" : "13000",
+        "FIPS" : "13-39720",
+        "counties" : [
+            "13011"
+        ],
+        "type" : "Town",
+        "population_2010" : 1141,
+        "population_2020" : 1264,
+        "population" : 1470,
+        "square_mileage" : 131.3
+    },
+    "Homerville, Clinch County, Georgia" : {
+        "name" : "Homerville",
+        "state" : "13000",
+        "FIPS" : "13-39748",
+        "counties" : [
+            "13065"
+        ],
+        "type" : "City",
+        "population_2010" : 2456,
+        "population_2020" : 2344,
+        "population" : 2452,
+        "square_mileage" : 671.6
+    },
+    "Hoschton, Jackson County, Georgia" : {
+        "name" : "Hoschton",
+        "state" : "13000",
+        "FIPS" : "13-40056",
+        "counties" : [
+            "13157"
+        ],
+        "type" : "City",
+        "population_2010" : 1377,
+        "population_2020" : 2666,
+        "population" : 5350,
+        "square_mileage" : 1033.3
+    },
+    "Hull, Madison County, Georgia" : {
+        "name" : "Hull",
+        "state" : "13000",
+        "FIPS" : "13-40532",
+        "counties" : [
+            "13195"
+        ],
+        "type" : "City",
+        "population_2010" : 198,
+        "population_2020" : 230,
+        "population" : 277,
+        "square_mileage" : 718.8
+    },
+    "Ideal, Macon County, Georgia" : {
+        "name" : "Ideal",
+        "state" : "13000",
+        "FIPS" : "13-40812",
+        "counties" : [
+            "13193"
+        ],
+        "type" : "City",
+        "population_2010" : 499,
+        "population_2020" : 407,
+        "population" : 386,
+        "square_mileage" : 357.0
+    },
+    "Ila, Madison County, Georgia" : {
+        "name" : "Ila",
+        "state" : "13000",
+        "FIPS" : "13-40840",
+        "counties" : [
+            "13195"
+        ],
+        "type" : "City",
+        "population_2010" : 337,
+        "population_2020" : 350,
+        "population" : 388,
+        "square_mileage" : 454.5
+    },
+    "Iron City, Seminole County, Georgia" : {
+        "name" : "Iron City",
+        "state" : "13000",
+        "FIPS" : "13-41344",
+        "counties" : [
+            "13253"
+        ],
+        "type" : "Town",
+        "population_2010" : 310,
+        "population_2020" : 312,
+        "population" : 338,
+        "square_mileage" : 390.0
+    },
+    "Irwinton, Wilkinson County, Georgia" : {
+        "name" : "Irwinton",
+        "state" : "13000",
+        "FIPS" : "13-41400",
+        "counties" : [
+            "13319"
+        ],
+        "type" : "City",
+        "population_2010" : 589,
+        "population_2020" : 531,
+        "population" : 535,
+        "square_mileage" : 169.1
+    },
+    "Ivey, Wilkinson County, Georgia" : {
+        "name" : "Ivey",
+        "state" : "13000",
+        "FIPS" : "13-41540",
+        "counties" : [
+            "13319"
+        ],
+        "type" : "Town",
+        "population_2010" : 981,
+        "population_2020" : 1037,
+        "population" : 1165,
+        "square_mileage" : 406.7
+    },
+    "Jackson, Butts County, Georgia" : {
+        "name" : "Jackson",
+        "state" : "13000",
+        "FIPS" : "13-41596",
+        "counties" : [
+            "13035"
+        ],
+        "type" : "City",
+        "population_2010" : 5045,
+        "population_2020" : 5557,
+        "population" : 6434,
+        "square_mileage" : 892.0
+    },
+    "Jacksonville, Telfair County, Georgia" : {
+        "name" : "Jacksonville",
+        "state" : "13000",
+        "FIPS" : "13-41708",
+        "counties" : [
+            "13271"
+        ],
+        "type" : "Town",
+        "population_2010" : 140,
+        "population_2020" : 111,
+        "population" : 104,
+        "square_mileage" : 101.8
+    },
+    "Jakin, Early County, Georgia" : {
+        "name" : "Jakin",
+        "state" : "13000",
+        "FIPS" : "13-41792",
+        "counties" : [
+            "13099"
+        ],
+        "type" : "City",
+        "population_2010" : 155,
+        "population_2020" : 131,
+        "population" : 127,
+        "square_mileage" : 105.6
+    },
+    "Jasper, Pickens County, Georgia" : {
+        "name" : "Jasper",
+        "state" : "13000",
+        "FIPS" : "13-41932",
+        "counties" : [
+            "13227"
+        ],
+        "type" : "City",
+        "population_2010" : 3684,
+        "population_2020" : 4084,
+        "population" : 4751,
+        "square_mileage" : 477.1
+    },
+    "Jefferson, Jackson County, Georgia" : {
+        "name" : "Jefferson",
+        "state" : "13000",
+        "FIPS" : "13-41988",
+        "counties" : [
+            "13157"
+        ],
+        "type" : "City",
+        "population_2010" : 9432,
+        "population_2020" : 13233,
+        "population" : 18782,
+        "square_mileage" : 610.7
+    },
+    "Jeffersonville, Twiggs County, Georgia" : {
+        "name" : "Jeffersonville",
+        "state" : "13000",
+        "FIPS" : "13-42100",
+        "counties" : [
+            "13289"
+        ],
+        "type" : "City",
+        "population_2010" : 1035,
+        "population_2020" : 977,
+        "population" : 1015,
+        "square_mileage" : 266.9
+    },
+    "Jenkinsburg, Butts County, Georgia" : {
+        "name" : "Jenkinsburg",
+        "state" : "13000",
+        "FIPS" : "13-42156",
+        "counties" : [
+            "13035"
+        ],
+        "type" : "City",
+        "population_2010" : 370,
+        "population_2020" : 391,
+        "population" : 439,
+        "square_mileage" : 315.3
+    },
+    "Jersey, Walton County, Georgia" : {
+        "name" : "Jersey",
+        "state" : "13000",
+        "FIPS" : "13-42184",
+        "counties" : [
+            "13297"
+        ],
+        "type" : "Town",
+        "population_2010" : 137,
+        "population_2020" : 146,
+        "population" : 165,
+        "square_mileage" : 187.2
+    },
+    "Jesup, Wayne County, Georgia" : {
+        "name" : "Jesup",
+        "state" : "13000",
+        "FIPS" : "13-42268",
+        "counties" : [
+            "13305"
+        ],
+        "type" : "City",
+        "population_2010" : 10214,
+        "population_2020" : 9809,
+        "population" : 10302,
+        "square_mileage" : 597.7
+    },
+    "Johns Creek, Fulton County, Georgia" : {
+        "name" : "Johns Creek",
+        "state" : "13000",
+        "FIPS" : "13-42425",
+        "counties" : [
+            "13121"
+        ],
+        "type" : "City",
+        "population_2010" : 76728,
+        "population_2020" : 82453,
+        "population" : 93717,
+        "square_mileage" : 2683.1
+    },
+    "Jonesboro, Clayton County, Georgia" : {
+        "name" : "Jonesboro",
+        "state" : "13000",
+        "FIPS" : "13-42604",
+        "counties" : [
+            "13063"
+        ],
+        "type" : "City",
+        "population_2010" : 4724,
+        "population_2020" : 4235,
+        "population" : 4254,
+        "square_mileage" : 1694.0
+    },
+    "Junction City, Talbot County, Georgia" : {
+        "name" : "Junction City",
+        "state" : "13000",
+        "FIPS" : "13-42800",
+        "counties" : [
+            "13263"
+        ],
+        "type" : "Town",
+        "population_2010" : 177,
+        "population_2020" : 138,
+        "population" : 128,
+        "square_mileage" : 58.7
+    },
+    "Kennesaw, Cobb County, Georgia" : {
+        "name" : "Kennesaw",
+        "state" : "13000",
+        "FIPS" : "13-43192",
+        "counties" : [
+            "13067"
+        ],
+        "type" : "City",
+        "population_2010" : 29783,
+        "population_2020" : 33036,
+        "population" : 38451,
+        "square_mileage" : 3499.6
+    },
+    "Keysville, Burke County, Georgia" : {
+        "name" : "Keysville",
+        "state" : "13000",
+        "FIPS" : "13-43360",
+        "counties" : [
+            "13033"
+        ],
+        "type" : "City",
+        "population_2010" : 332,
+        "population_2020" : 300,
+        "population" : 303,
+        "square_mileage" : 285.7
+    },
+    "Kingsland, Camden County, Georgia" : {
+        "name" : "Kingsland",
+        "state" : "13000",
+        "FIPS" : "13-43640",
+        "counties" : [
+            "13039"
+        ],
+        "type" : "City",
+        "population_2010" : 15946,
+        "population_2020" : 18337,
+        "population" : 21945,
+        "square_mileage" : 429.2
+    },
+    "Kingston, Bartow County, Georgia" : {
+        "name" : "Kingston",
+        "state" : "13000",
+        "FIPS" : "13-43668",
+        "counties" : [
+            "13015"
+        ],
+        "type" : "City",
+        "population_2010" : 637,
+        "population_2020" : 722,
+        "population" : 854,
+        "square_mileage" : 573.0
+    },
+    "Kite, Johnson County, Georgia" : {
+        "name" : "Kite",
+        "state" : "13000",
+        "FIPS" : "13-43892",
+        "counties" : [
+            "13167"
+        ],
+        "type" : "Town",
+        "population_2010" : 241,
+        "population_2020" : 160,
+        "population" : 136,
+        "square_mileage" : 197.5
+    },
+    "LaFayette, Walker County, Georgia" : {
+        "name" : "LaFayette",
+        "state" : "13000",
+        "FIPS" : "13-44312",
+        "counties" : [
+            "13295"
+        ],
+        "type" : "City",
+        "population_2010" : 7121,
+        "population_2020" : 6888,
+        "population" : 7269,
+        "square_mileage" : 843.1
+    },
+    "LaGrange, Troup County, Georgia" : {
+        "name" : "LaGrange",
+        "state" : "13000",
+        "FIPS" : "13-44340",
+        "counties" : [
+            "13285"
+        ],
+        "type" : "City",
+        "population_2010" : 29588,
+        "population_2020" : 30858,
+        "population" : 34317,
+        "square_mileage" : 781.0
+    },
+    "Lake City, Clayton County, Georgia" : {
+        "name" : "Lake City",
+        "state" : "13000",
+        "FIPS" : "13-44508",
+        "counties" : [
+            "13063"
+        ],
+        "type" : "City",
+        "population_2010" : 2612,
+        "population_2020" : 2952,
+        "population" : 3486,
+        "square_mileage" : 1595.7
+    },
+    "Lakeland, Lanier County, Georgia" : {
+        "name" : "Lakeland",
+        "state" : "13000",
+        "FIPS" : "13-44592",
+        "counties" : [
+            "13173"
+        ],
+        "type" : "City",
+        "population_2010" : 3366,
+        "population_2020" : 2875,
+        "population" : 2804,
+        "square_mileage" : 930.4
+    },
+    "Lake Park, Lowndes County, Georgia" : {
+        "name" : "Lake Park",
+        "state" : "13000",
+        "FIPS" : "13-44704",
+        "counties" : [
+            "13185"
+        ],
+        "type" : "City",
+        "population_2010" : 733,
+        "population_2020" : 932,
+        "population" : 1211,
+        "square_mileage" : 670.5
+    },
+    "Lavonia, Franklin County, Georgia" : {
+        "name" : "Lavonia",
+        "state" : "13000",
+        "FIPS" : "13-45460",
+        "counties" : [
+            "13119"
+        ],
+        "type" : "City",
+        "population_2010" : 2156,
+        "population_2020" : 2143,
+        "population" : 2304,
+        "square_mileage" : 468.9
+    },
+    "Lawrenceville, Gwinnett County, Georgia" : {
+        "name" : "Lawrenceville",
+        "state" : "13000",
+        "FIPS" : "13-45488",
+        "counties" : [
+            "13135"
+        ],
+        "type" : "City",
+        "population_2010" : 28546,
+        "population_2020" : 30629,
+        "population" : 34774,
+        "square_mileage" : 2287.5
+    },
+    "Leary, Calhoun County, Georgia" : {
+        "name" : "Leary",
+        "state" : "13000",
+        "FIPS" : "13-45600",
+        "counties" : [
+            "13037"
+        ],
+        "type" : "City",
+        "population_2010" : 618,
+        "population_2020" : 524,
+        "population" : 509,
+        "square_mileage" : 163.2
+    },
+    "Leesburg, Lee County, Georgia" : {
+        "name" : "Leesburg",
+        "state" : "13000",
+        "FIPS" : "13-45768",
+        "counties" : [
+            "13177"
+        ],
+        "type" : "City",
+        "population_2010" : 2896,
+        "population_2020" : 3480,
+        "population" : 4314,
+        "square_mileage" : 704.5
+    },
+    "Lenox, Cook County, Georgia" : {
+        "name" : "Lenox",
+        "state" : "13000",
+        "FIPS" : "13-45936",
+        "counties" : [
+            "13075"
+        ],
+        "type" : "Town",
+        "population_2010" : 873,
+        "population_2020" : 752,
+        "population" : 737,
+        "square_mileage" : 473.0
+    },
+    "Leslie, Sumter County, Georgia" : {
+        "name" : "Leslie",
+        "state" : "13000",
+        "FIPS" : "13-46020",
+        "counties" : [
+            "13261"
+        ],
+        "type" : "City",
+        "population_2010" : 409,
+        "population_2020" : 344,
+        "population" : 332,
+        "square_mileage" : 194.4
+    },
+    "Lexington, Oglethorpe County, Georgia" : {
+        "name" : "Lexington",
+        "state" : "13000",
+        "FIPS" : "13-46188",
+        "counties" : [
+            "13221"
+        ],
+        "type" : "City",
+        "population_2010" : 228,
+        "population_2020" : 203,
+        "population" : 203,
+        "square_mileage" : 369.1
+    },
+    "Lilburn, Gwinnett County, Georgia" : {
+        "name" : "Lilburn",
+        "state" : "13000",
+        "FIPS" : "13-46356",
+        "counties" : [
+            "13135"
+        ],
+        "type" : "City",
+        "population_2010" : 11596,
+        "population_2020" : 14502,
+        "population" : 18583,
+        "square_mileage" : 2294.6
+    },
+    "Lilly, Dooly County, Georgia" : {
+        "name" : "Lilly",
+        "state" : "13000",
+        "FIPS" : "13-46384",
+        "counties" : [
+            "13093"
+        ],
+        "type" : "City",
+        "population_2010" : 213,
+        "population_2020" : 129,
+        "population" : 105,
+        "square_mileage" : 215.0
+    },
+    "Lincolnton, Lincoln County, Georgia" : {
+        "name" : "Lincolnton",
+        "state" : "13000",
+        "FIPS" : "13-46552",
+        "counties" : [
+            "13181"
+        ],
+        "type" : "City",
+        "population_2010" : 1566,
+        "population_2020" : 1480,
+        "population" : 1538,
+        "square_mileage" : 421.7
+    },
+    "Lithonia, DeKalb County, Georgia" : {
+        "name" : "Lithonia",
+        "state" : "13000",
+        "FIPS" : "13-46860",
+        "counties" : [
+            "13089"
+        ],
+        "type" : "City",
+        "population_2010" : 1924,
+        "population_2020" : 2662,
+        "population" : 3730,
+        "square_mileage" : 2991.0
+    },
+    "Locust Grove, Henry County, Georgia" : {
+        "name" : "Locust Grove",
+        "state" : "13000",
+        "FIPS" : "13-47140",
+        "counties" : [
+            "13151"
+        ],
+        "type" : "City",
+        "population_2010" : 5402,
+        "population_2020" : 8947,
+        "population" : 15001,
+        "square_mileage" : 838.5
+    },
+    "Loganville, Gwinnett County, Georgia" : {
+        "name" : "Loganville",
+        "state" : "13000",
+        "FIPS" : "13-47196",
+        "counties" : [
+            "13135"
+        ],
+        "type" : "City",
+        "population_2010" : 10458,
+        "population_2020" : 14127,
+        "population" : 19365,
+        "square_mileage" : 1924.7
+    },
+    "Lone Oak, Meriwether County, Georgia" : {
+        "name" : "Lone Oak",
+        "state" : "13000",
+        "FIPS" : "13-47252",
+        "counties" : [
+            "13199"
+        ],
+        "type" : "Town",
+        "population_2010" : 92,
+        "population_2020" : 114,
+        "population" : 145,
+        "square_mileage" : 183.9
+    },
+    "Lookout Mountain, Walker County, Georgia" : {
+        "name" : "Lookout Mountain",
+        "state" : "13000",
+        "FIPS" : "13-47336",
+        "counties" : [
+            "13295"
+        ],
+        "type" : "City",
+        "population_2010" : 1602,
+        "population_2020" : 1641,
+        "population" : 1802,
+        "square_mileage" : 616.9
+    },
+    "Louisville, Jefferson County, Georgia" : {
+        "name" : "Louisville",
+        "state" : "13000",
+        "FIPS" : "13-47560",
+        "counties" : [
+            "13163"
+        ],
+        "type" : "City",
+        "population_2010" : 2493,
+        "population_2020" : 2381,
+        "population" : 2492,
+        "square_mileage" : 659.6
+    },
+    "Lovejoy, Clayton County, Georgia" : {
+        "name" : "Lovejoy",
+        "state" : "13000",
+        "FIPS" : "13-47616",
+        "counties" : [
+            "13063"
+        ],
+        "type" : "City",
+        "population_2010" : 6422,
+        "population_2020" : 10122,
+        "population" : 16107,
+        "square_mileage" : 3893.1
+    },
+    "Ludowici, Long County, Georgia" : {
+        "name" : "Ludowici",
+        "state" : "13000",
+        "FIPS" : "13-47784",
+        "counties" : [
+            "13183"
+        ],
+        "type" : "City",
+        "population_2010" : 1703,
+        "population_2020" : 1590,
+        "population" : 1639,
+        "square_mileage" : 682.4
+    },
+    "Lula, Banks County, Georgia" : {
+        "name" : "Lula",
+        "state" : "13000",
+        "FIPS" : "13-47896",
+        "counties" : [
+            "13011"
+        ],
+        "type" : "City",
+        "population_2010" : 2758,
+        "population_2020" : 2822,
+        "population" : 3096,
+        "square_mileage" : 653.2
+    },
+    "Lumber City, Telfair County, Georgia" : {
+        "name" : "Lumber City",
+        "state" : "13000",
+        "FIPS" : "13-47952",
+        "counties" : [
+            "13271"
+        ],
+        "type" : "City",
+        "population_2010" : 1328,
+        "population_2020" : 967,
+        "population" : 863,
+        "square_mileage" : 501.0
+    },
+    "Lumpkin, Stewart County, Georgia" : {
+        "name" : "Lumpkin",
+        "state" : "13000",
+        "FIPS" : "13-47980",
+        "counties" : [
+            "13259"
+        ],
+        "type" : "City",
+        "population_2010" : 2741,
+        "population_2020" : 891,
+        "population" : 593,
+        "square_mileage" : 563.9
+    },
+    "Luthersville, Meriwether County, Georgia" : {
+        "name" : "Luthersville",
+        "state" : "13000",
+        "FIPS" : "13-48008",
+        "counties" : [
+            "13199"
+        ],
+        "type" : "City",
+        "population_2010" : 874,
+        "population_2020" : 776,
+        "population" : 775,
+        "square_mileage" : 245.6
+    },
+    "Lyerly, Chattooga County, Georgia" : {
+        "name" : "Lyerly",
+        "state" : "13000",
+        "FIPS" : "13-48092",
+        "counties" : [
+            "13055"
+        ],
+        "type" : "Town",
+        "population_2010" : 540,
+        "population_2020" : 454,
+        "population" : 439,
+        "square_mileage" : 605.3
+    },
+    "Lyons, Toombs County, Georgia" : {
+        "name" : "Lyons",
+        "state" : "13000",
+        "FIPS" : "13-48232",
+        "counties" : [
+            "13279"
+        ],
+        "type" : "City",
+        "population_2010" : 4367,
+        "population_2020" : 4239,
+        "population" : 4484,
+        "square_mileage" : 517.0
+    },
+    "Mableton, Cobb County, Georgia" : {
+        "name" : "Mableton",
+        "state" : "13000",
+        "FIPS" : "13-48288",
+        "counties" : [
+            "13067"
+        ],
+        "type" : "City",
+        "population_2010" : 37115,
+        "population_2020" : 40834,
+        "population" : 47235,
+        "square_mileage" : 1120.0
+    },
+    "Macon, Bibb County, Georgia" : {
+        "name" : "Macon",
+        "state" : "13000",
+        "FIPS" : "13-49008",
+        "counties" : [
+            "13021"
+        ],
+        "type" : "Consolidated City-County",
+        "population_2010" : 155447,
+        "population_2020" : 157346,
+        "population" : 171311,
+        "square_mileage" : 630.0
+    },
+    "Madison, Morgan County, Georgia" : {
+        "name" : "Madison",
+        "state" : "13000",
+        "FIPS" : "13-49196",
+        "counties" : [
+            "13211"
+        ],
+        "type" : "City",
+        "population_2010" : 3979,
+        "population_2020" : 4447,
+        "population" : 5206,
+        "square_mileage" : 510.6
+    },
+    "Manassas, Tattnall County, Georgia" : {
+        "name" : "Manassas",
+        "state" : "13000",
+        "FIPS" : "13-49504",
+        "counties" : [
+            "13267"
+        ],
+        "type" : "City",
+        "population_2010" : 94,
+        "population_2020" : 59,
+        "population" : 49,
+        "square_mileage" : 76.6
+    },
+    "Manchester, Meriwether County, Georgia" : {
+        "name" : "Manchester",
+        "state" : "13000",
+        "FIPS" : "13-49532",
+        "counties" : [
+            "13199"
+        ],
+        "type" : "City",
+        "population_2010" : 4230,
+        "population_2020" : 3584,
+        "population" : 3478,
+        "square_mileage" : 447.4
+    },
+    "Mansfield, Newton County, Georgia" : {
+        "name" : "Mansfield",
+        "state" : "13000",
+        "FIPS" : "13-49616",
+        "counties" : [
+            "13217"
+        ],
+        "type" : "City",
+        "population_2010" : 410,
+        "population_2020" : 442,
+        "population" : 504,
+        "square_mileage" : 421.0
+    },
+    "Marietta, Cobb County, Georgia" : {
+        "name" : "Marietta",
+        "state" : "13000",
+        "FIPS" : "13-49756",
+        "counties" : [
+            "13067"
+        ],
+        "type" : "City",
+        "population_2010" : 56579,
+        "population_2020" : 60972,
+        "population" : 69446,
+        "square_mileage" : 2641.8
+    },
+    "Marshallville, Macon County, Georgia" : {
+        "name" : "Marshallville",
+        "state" : "13000",
+        "FIPS" : "13-49924",
+        "counties" : [
+            "13193"
+        ],
+        "type" : "City",
+        "population_2010" : 1448,
+        "population_2020" : 1048,
+        "population" : 932,
+        "square_mileage" : 335.9
+    },
+    "Martin, Franklin County, Georgia" : {
+        "name" : "Martin",
+        "state" : "13000",
+        "FIPS" : "13-50008",
+        "counties" : [
+            "13119"
+        ],
+        "type" : "Town",
+        "population_2010" : 381,
+        "population_2020" : 336,
+        "population" : 334,
+        "square_mileage" : 133.9
+    },
+    "Maxeys, Oglethorpe County, Georgia" : {
+        "name" : "Maxeys",
+        "state" : "13000",
+        "FIPS" : "13-50260",
+        "counties" : [
+            "13221"
+        ],
+        "type" : "Town",
+        "population_2010" : 224,
+        "population_2020" : 198,
+        "population" : 197,
+        "square_mileage" : 83.2
+    },
+    "Maysville, Banks County, Georgia" : {
+        "name" : "Maysville",
+        "state" : "13000",
+        "FIPS" : "13-50484",
+        "counties" : [
+            "13011"
+        ],
+        "type" : "Town",
+        "population_2010" : 1798,
+        "population_2020" : 1867,
+        "population" : 2070,
+        "square_mileage" : 438.3
+    },
+    "McCaysville, Fannin County, Georgia" : {
+        "name" : "McCaysville",
+        "state" : "13000",
+        "FIPS" : "13-48428",
+        "counties" : [
+            "13111"
+        ],
+        "type" : "City",
+        "population_2010" : 1056,
+        "population_2020" : 1149,
+        "population" : 1318,
+        "square_mileage" : 741.3
+    },
+    "McDonough, Henry County, Georgia" : {
+        "name" : "McDonough",
+        "state" : "13000",
+        "FIPS" : "13-48624",
+        "counties" : [
+            "13151"
+        ],
+        "type" : "City",
+        "population_2010" : 22084,
+        "population_2020" : 29051,
+        "population" : 38890,
+        "square_mileage" : 2285.7
+    },
+    "McIntyre, Wilkinson County, Georgia" : {
+        "name" : "McIntyre",
+        "state" : "13000",
+        "FIPS" : "13-48848",
+        "counties" : [
+            "13319"
+        ],
+        "type" : "Town",
+        "population_2010" : 650,
+        "population_2020" : 575,
+        "population" : 573,
+        "square_mileage" : 111.0
+    },
+    "McRae–Helena, Telfair County, Georgia" : {
+        "name" : "McRae–Helena",
+        "state" : "13000",
+        "FIPS" : "13-49100",
+        "counties" : [
+            "13271"
+        ],
+        "type" : "City",
+        "population_2010" : 8623,
+        "population_2020" : 6253,
+        "population" : 5566,
+        "square_mileage" : 971.0
+    },
+    "Meansville, Pike County, Georgia" : {
+        "name" : "Meansville",
+        "state" : "13000",
+        "FIPS" : "13-50596",
+        "counties" : [
+            "13231"
+        ],
+        "type" : "City",
+        "population_2010" : 182,
+        "population_2020" : 266,
+        "population" : 393,
+        "square_mileage" : 521.6
+    },
+    "Meigs, Mitchell County, Georgia" : {
+        "name" : "Meigs",
+        "state" : "13000",
+        "FIPS" : "13-50680",
+        "counties" : [
+            "13205"
+        ],
+        "type" : "City",
+        "population_2010" : 1035,
+        "population_2020" : 928,
+        "population" : 932,
+        "square_mileage" : 594.9
+    },
+    "Menlo, Chattooga County, Georgia" : {
+        "name" : "Menlo",
+        "state" : "13000",
+        "FIPS" : "13-50848",
+        "counties" : [
+            "13055"
+        ],
+        "type" : "City",
+        "population_2010" : 474,
+        "population_2020" : 480,
+        "population" : 523,
+        "square_mileage" : 615.4
+    },
+    "Metter, Candler County, Georgia" : {
+        "name" : "Metter",
+        "state" : "13000",
+        "FIPS" : "13-51072",
+        "counties" : [
+            "13043"
+        ],
+        "type" : "City",
+        "population_2010" : 4130,
+        "population_2020" : 4004,
+        "population" : 4232,
+        "square_mileage" : 521.4
+    },
+    "Midville, Burke County, Georgia" : {
+        "name" : "Midville",
+        "state" : "13000",
+        "FIPS" : "13-51240",
+        "counties" : [
+            "13033"
+        ],
+        "type" : "City",
+        "population_2010" : 269,
+        "population_2020" : 385,
+        "population" : 557,
+        "square_mileage" : 193.5
+    },
+    "Midway, Liberty County, Georgia" : {
+        "name" : "Midway",
+        "state" : "13000",
+        "FIPS" : "13-51352",
+        "counties" : [
+            "13179"
+        ],
+        "type" : "City",
+        "population_2010" : 2121,
+        "population_2020" : 2141,
+        "population" : 2327,
+        "square_mileage" : 335.1
+    },
+    "Milan, Dodge County, Georgia" : {
+        "name" : "Milan",
+        "state" : "13000",
+        "FIPS" : "13-51408",
+        "counties" : [
+            "13091"
+        ],
+        "type" : "City",
+        "population_2010" : 700,
+        "population_2020" : 613,
+        "population" : 607,
+        "square_mileage" : 197.1
+    },
+    "Milledgeville, Baldwin County, Georgia" : {
+        "name" : "Milledgeville",
+        "state" : "13000",
+        "FIPS" : "13-51492",
+        "counties" : [
+            "13009"
+        ],
+        "type" : "City",
+        "population_2010" : 17715,
+        "population_2020" : 17070,
+        "population" : 17969,
+        "square_mileage" : 836.4
+    },
+    "Millen, Jenkins County, Georgia" : {
+        "name" : "Millen",
+        "state" : "13000",
+        "FIPS" : "13-51520",
+        "counties" : [
+            "13165"
+        ],
+        "type" : "City",
+        "population_2010" : 3120,
+        "population_2020" : 2966,
+        "population" : 3094,
+        "square_mileage" : 828.5
+    },
+    "Milner, Lamar County, Georgia" : {
+        "name" : "Milner",
+        "state" : "13000",
+        "FIPS" : "13-51604",
+        "counties" : [
+            "13171"
+        ],
+        "type" : "City",
+        "population_2010" : 610,
+        "population_2020" : 772,
+        "population" : 999,
+        "square_mileage" : 386.0
+    },
+    "Milton, Fulton County, Georgia" : {
+        "name" : "Milton",
+        "state" : "13000",
+        "FIPS" : "13-51670",
+        "counties" : [
+            "13121"
+        ],
+        "type" : "City",
+        "population_2010" : 32661,
+        "population_2020" : 41296,
+        "population" : 53413,
+        "square_mileage" : 1072.1
+    },
+    "Mitchell, Glascock County, Georgia" : {
+        "name" : "Mitchell",
+        "state" : "13000",
+        "FIPS" : "13-51968",
+        "counties" : [
+            "13125"
+        ],
+        "type" : "Town",
+        "population_2010" : 199,
+        "population_2020" : 153,
+        "population" : 140,
+        "square_mileage" : 103.4
+    },
+    "Molena, Pike County, Georgia" : {
+        "name" : "Molena",
+        "state" : "13000",
+        "FIPS" : "13-52108",
+        "counties" : [
+            "13231"
+        ],
+        "type" : "City",
+        "population_2010" : 368,
+        "population_2020" : 392,
+        "population" : 443,
+        "square_mileage" : 226.6
+    },
+    "Monroe, Walton County, Georgia" : {
+        "name" : "Monroe",
+        "state" : "13000",
+        "FIPS" : "13-52192",
+        "counties" : [
+            "13297"
+        ],
+        "type" : "City",
+        "population_2010" : 13234,
+        "population_2020" : 14756,
+        "population" : 17243,
+        "square_mileage" : 975.9
+    },
+    "Montezuma, Macon County, Georgia" : {
+        "name" : "Montezuma",
+        "state" : "13000",
+        "FIPS" : "13-52304",
+        "counties" : [
+            "13193"
+        ],
+        "type" : "City",
+        "population_2010" : 3460,
+        "population_2020" : 3047,
+        "population" : 3027,
+        "square_mileage" : 668.2
+    },
+    "Monticello, Jasper County, Georgia" : {
+        "name" : "Monticello",
+        "state" : "13000",
+        "FIPS" : "13-52416",
+        "counties" : [
+            "13159"
+        ],
+        "type" : "City",
+        "population_2010" : 2657,
+        "population_2020" : 2541,
+        "population" : 2661,
+        "square_mileage" : 791.6
+    },
+    "Montrose, Laurens County, Georgia" : {
+        "name" : "Montrose",
+        "state" : "13000",
+        "FIPS" : "13-52500",
+        "counties" : [
+            "13175"
+        ],
+        "type" : "Town",
+        "population_2010" : 215,
+        "population_2020" : 203,
+        "population" : 211,
+        "square_mileage" : 126.1
+    },
+    "Moreland, Coweta County, Georgia" : {
+        "name" : "Moreland",
+        "state" : "13000",
+        "FIPS" : "13-52668",
+        "counties" : [
+            "13077"
+        ],
+        "type" : "Town",
+        "population_2010" : 399,
+        "population_2020" : 382,
+        "population" : 400,
+        "square_mileage" : 419.8
+    },
+    "Morgan, Calhoun County, Georgia" : {
+        "name" : "Morgan",
+        "state" : "13000",
+        "FIPS" : "13-52696",
+        "counties" : [
+            "13037"
+        ],
+        "type" : "City",
+        "population_2010" : 1861,
+        "population_2020" : 1741,
+        "population" : 1797,
+        "square_mileage" : 1329.0
+    },
+    "Morganton, Fannin County, Georgia" : {
+        "name" : "Morganton",
+        "state" : "13000",
+        "FIPS" : "13-52724",
+        "counties" : [
+            "13111"
+        ],
+        "type" : "City",
+        "population_2010" : 303,
+        "population_2020" : 285,
+        "population" : 295,
+        "square_mileage" : 343.4
+    },
+    "Morrow, Clayton County, Georgia" : {
+        "name" : "Morrow",
+        "state" : "13000",
+        "FIPS" : "13-53004",
+        "counties" : [
+            "13063"
+        ],
+        "type" : "City",
+        "population_2010" : 6445,
+        "population_2020" : 6569,
+        "population" : 7187,
+        "square_mileage" : 1943.5
+    },
+    "Morven, Brooks County, Georgia" : {
+        "name" : "Morven",
+        "state" : "13000",
+        "FIPS" : "13-53032",
+        "counties" : [
+            "13027"
+        ],
+        "type" : "City",
+        "population_2010" : 565,
+        "population_2020" : 506,
+        "population" : 508,
+        "square_mileage" : 294.2
+    },
+    "Moultrie, Colquitt County, Georgia" : {
+        "name" : "Moultrie",
+        "state" : "13000",
+        "FIPS" : "13-53060",
+        "counties" : [
+            "13071"
+        ],
+        "type" : "City",
+        "population_2010" : 14268,
+        "population_2020" : 14638,
+        "population" : 16089,
+        "square_mileage" : 895.8
+    },
+    "Mountain City, Rabun County, Georgia" : {
+        "name" : "Mountain City",
+        "state" : "13000",
+        "FIPS" : "13-53116",
+        "counties" : [
+            "13241"
+        ],
+        "type" : "Town",
+        "population_2010" : 1088,
+        "population_2020" : 904,
+        "population" : 867,
+        "square_mileage" : 496.7
+    },
+    "Mountain Park, Cherokee County, Georgia" : {
+        "name" : "Mountain Park",
+        "state" : "13000",
+        "FIPS" : "13-53186",
+        "counties" : [
+            "13057"
+        ],
+        "type" : "City",
+        "population_2010" : 547,
+        "population_2020" : 583,
+        "population" : 659,
+        "square_mileage" : 1240.4
+    },
+    "Mount Airy, Habersham County, Georgia" : {
+        "name" : "Mount Airy",
+        "state" : "13000",
+        "FIPS" : "13-53284",
+        "counties" : [
+            "13137"
+        ],
+        "type" : "Town",
+        "population_2010" : 1284,
+        "population_2020" : 1391,
+        "population" : 1591,
+        "square_mileage" : 539.1
+    },
+    "Mount Vernon, Montgomery County, Georgia" : {
+        "name" : "Mount Vernon",
+        "state" : "13000",
+        "FIPS" : "13-53508",
+        "counties" : [
+            "13209"
+        ],
+        "type" : "City",
+        "population_2010" : 2451,
+        "population_2020" : 1990,
+        "population" : 1884,
+        "square_mileage" : 490.1
+    },
+    "Mount Zion, Carroll County, Georgia" : {
+        "name" : "Mount Zion",
+        "state" : "13000",
+        "FIPS" : "13-53620",
+        "counties" : [
+            "13045"
+        ],
+        "type" : "City",
+        "population_2010" : 1696,
+        "population_2020" : 1766,
+        "population" : 1962,
+        "square_mileage" : 182.1
+    },
+    "Nahunta, Brantley County, Georgia" : {
+        "name" : "Nahunta",
+        "state" : "13000",
+        "FIPS" : "13-54124",
+        "counties" : [
+            "13025"
+        ],
+        "type" : "City",
+        "population_2010" : 1053,
+        "population_2020" : 1013,
+        "population" : 1065,
+        "square_mileage" : 360.5
+    },
+    "Nashville, Berrien County, Georgia" : {
+        "name" : "Nashville",
+        "state" : "13000",
+        "FIPS" : "13-54264",
+        "counties" : [
+            "13019"
+        ],
+        "type" : "City",
+        "population_2010" : 4939,
+        "population_2020" : 4974,
+        "population" : 5396,
+        "square_mileage" : 1069.7
+    },
+    "Nelson, Cherokee County, Georgia" : {
+        "name" : "Nelson",
+        "state" : "13000",
+        "FIPS" : "13-54572",
+        "counties" : [
+            "13057"
+        ],
+        "type" : "City",
+        "population_2010" : 1314,
+        "population_2020" : 1145,
+        "population" : 1130,
+        "square_mileage" : 789.7
+    },
+    "Newborn, Newton County, Georgia" : {
+        "name" : "Newborn",
+        "state" : "13000",
+        "FIPS" : "13-54656",
+        "counties" : [
+            "13217"
+        ],
+        "type" : "Town",
+        "population_2010" : 696,
+        "population_2020" : 676,
+        "population" : 715,
+        "square_mileage" : 425.2
+    },
+    "Newington, Screven County, Georgia" : {
+        "name" : "Newington",
+        "state" : "13000",
+        "FIPS" : "13-54992",
+        "counties" : [
+            "13251"
+        ],
+        "type" : "Town",
+        "population_2010" : 274,
+        "population_2020" : 290,
+        "population" : 326,
+        "square_mileage" : 358.0
+    },
+    "Newnan, Coweta County, Georgia" : {
+        "name" : "Newnan",
+        "state" : "13000",
+        "FIPS" : "13-55020",
+        "counties" : [
+            "13077"
+        ],
+        "type" : "City",
+        "population_2010" : 33039,
+        "population_2020" : 42549,
+        "population" : 55910,
+        "square_mileage" : 2322.5
+    },
+    "Newton, Baker County, Georgia" : {
+        "name" : "Newton",
+        "state" : "13000",
+        "FIPS" : "13-55244",
+        "counties" : [
+            "13007"
+        ],
+        "type" : "City",
+        "population_2010" : 654,
+        "population_2020" : 602,
+        "population" : 615,
+        "square_mileage" : 206.9
+    },
+    "Nicholls, Coffee County, Georgia" : {
+        "name" : "Nicholls",
+        "state" : "13000",
+        "FIPS" : "13-55440",
+        "counties" : [
+            "13069"
+        ],
+        "type" : "City",
+        "population_2010" : 2798,
+        "population_2020" : 3147,
+        "population" : 3702,
+        "square_mileage" : 1719.7
+    },
+    "Nicholson, Jackson County, Georgia" : {
+        "name" : "Nicholson",
+        "state" : "13000",
+        "FIPS" : "13-55468",
+        "counties" : [
+            "13157"
+        ],
+        "type" : "City",
+        "population_2010" : 1696,
+        "population_2020" : 1808,
+        "population" : 2043,
+        "square_mileage" : 452.0
+    },
+    "Norcross, Gwinnett County, Georgia" : {
+        "name" : "Norcross",
+        "state" : "13000",
+        "FIPS" : "13-55776",
+        "counties" : [
+            "13135"
+        ],
+        "type" : "City",
+        "population_2010" : 9116,
+        "population_2020" : 17209,
+        "population" : 33488,
+        "square_mileage" : 3708.8
+    },
+    "Norman Park, Colquitt County, Georgia" : {
+        "name" : "Norman Park",
+        "state" : "13000",
+        "FIPS" : "13-55860",
+        "counties" : [
+            "13071"
+        ],
+        "type" : "City",
+        "population_2010" : 972,
+        "population_2020" : 963,
+        "population" : 1033,
+        "square_mileage" : 313.7
+    },
+    "North High Shoals, Oconee County, Georgia" : {
+        "name" : "North High Shoals",
+        "state" : "13000",
+        "FIPS" : "13-56308",
+        "counties" : [
+            "13219"
+        ],
+        "type" : "Town",
+        "population_2010" : 652,
+        "population_2020" : 552,
+        "population" : 535,
+        "square_mileage" : 225.3
+    },
+    "Norwood, Warren County, Georgia" : {
+        "name" : "Norwood",
+        "state" : "13000",
+        "FIPS" : "13-56560",
+        "counties" : [
+            "13301"
+        ],
+        "type" : "City",
+        "population_2010" : 239,
+        "population_2020" : 202,
+        "population" : 196,
+        "square_mileage" : 249.4
+    },
+    "Nunez, Emanuel County, Georgia" : {
+        "name" : "Nunez",
+        "state" : "13000",
+        "FIPS" : "13-56644",
+        "counties" : [
+            "13107"
+        ],
+        "type" : "City",
+        "population_2010" : 147,
+        "population_2020" : 134,
+        "population" : 136,
+        "square_mileage" : 101.5
+    },
+    "Oak Park, Emanuel County, Georgia" : {
+        "name" : "Oak Park",
+        "state" : "13000",
+        "FIPS" : "13-57232",
+        "counties" : [
+            "13107"
+        ],
+        "type" : "Town",
+        "population_2010" : 484,
+        "population_2020" : 512,
+        "population" : 575,
+        "square_mileage" : 72.4
+    },
+    "Oakwood, Hall County, Georgia" : {
+        "name" : "Oakwood",
+        "state" : "13000",
+        "FIPS" : "13-57260",
+        "counties" : [
+            "13139"
+        ],
+        "type" : "City",
+        "population_2010" : 3970,
+        "population_2020" : 4822,
+        "population" : 6030,
+        "square_mileage" : 954.9
+    },
+    "Ochlocknee, Thomas County, Georgia" : {
+        "name" : "Ochlocknee",
+        "state" : "13000",
+        "FIPS" : "13-57372",
+        "counties" : [
+            "13275"
+        ],
+        "type" : "Town",
+        "population_2010" : 676,
+        "population_2020" : 672,
+        "population" : 723,
+        "square_mileage" : 722.6
+    },
+    "Ocilla, Irwin County, Georgia" : {
+        "name" : "Ocilla",
+        "state" : "13000",
+        "FIPS" : "13-57428",
+        "counties" : [
+            "13155"
+        ],
+        "type" : "City",
+        "population_2010" : 3414,
+        "population_2020" : 3498,
+        "population" : 3841,
+        "square_mileage" : 1371.8
+    },
+    "Oconee, Washington County, Georgia" : {
+        "name" : "Oconee",
+        "state" : "13000",
+        "FIPS" : "13-57456",
+        "counties" : [
+            "13303"
+        ],
+        "type" : "City",
+        "population_2010" : 252,
+        "population_2020" : 197,
+        "population" : 183,
+        "square_mileage" : 151.5
+    },
+    "Odum, Wayne County, Georgia" : {
+        "name" : "Odum",
+        "state" : "13000",
+        "FIPS" : "13-57540",
+        "counties" : [
+            "13305"
+        ],
+        "type" : "Town",
+        "population_2010" : 504,
+        "population_2020" : 463,
+        "population" : 472,
+        "square_mileage" : 238.7
+    },
+    "Offerman, Pierce County, Georgia" : {
+        "name" : "Offerman",
+        "state" : "13000",
+        "FIPS" : "13-57568",
+        "counties" : [
+            "13229"
+        ],
+        "type" : "City",
+        "population_2010" : 441,
+        "population_2020" : 450,
+        "population" : 493,
+        "square_mileage" : 142.0
+    },
+    "Oglethorpe, Macon County, Georgia" : {
+        "name" : "Oglethorpe",
+        "state" : "13000",
+        "FIPS" : "13-57736",
+        "counties" : [
+            "13193"
+        ],
+        "type" : "City",
+        "population_2010" : 1328,
+        "population_2020" : 995,
+        "population" : 901,
+        "square_mileage" : 500.0
+    },
+    "Oliver, Screven County, Georgia" : {
+        "name" : "Oliver",
+        "state" : "13000",
+        "FIPS" : "13-58100",
+        "counties" : [
+            "13251"
+        ],
+        "type" : "City",
+        "population_2010" : 239,
+        "population_2020" : 210,
+        "population" : 208,
+        "square_mileage" : 225.8
+    },
+    "Omega, Colquitt County, Georgia" : {
+        "name" : "Omega",
+        "state" : "13000",
+        "FIPS" : "13-58184",
+        "counties" : [
+            "13071"
+        ],
+        "type" : "City",
+        "population_2010" : 1221,
+        "population_2020" : 1318,
+        "population" : 1503,
+        "square_mileage" : 740.4
+    },
+    "Orchard Hill, Spalding County, Georgia" : {
+        "name" : "Orchard Hill",
+        "state" : "13000",
+        "FIPS" : "13-58296",
+        "counties" : [
+            "13255"
+        ],
+        "type" : "Town",
+        "population_2010" : 209,
+        "population_2020" : 219,
+        "population" : 244,
+        "square_mileage" : 608.3
+    },
+    "Oxford, Newton County, Georgia" : {
+        "name" : "Oxford",
+        "state" : "13000",
+        "FIPS" : "13-58744",
+        "counties" : [
+            "13217"
+        ],
+        "type" : "City",
+        "population_2010" : 2134,
+        "population_2020" : 2308,
+        "population" : 2636,
+        "square_mileage" : 1073.5
+    },
+    "Palmetto, Coweta County, Georgia" : {
+        "name" : "Palmetto",
+        "state" : "13000",
+        "FIPS" : "13-58884",
+        "counties" : [
+            "13077"
+        ],
+        "type" : "City",
+        "population_2010" : 4488,
+        "population_2020" : 5071,
+        "population" : 5986,
+        "square_mileage" : 445.6
+    },
+    "Parrott, Terrell County, Georgia" : {
+        "name" : "Parrott",
+        "state" : "13000",
+        "FIPS" : "13-59416",
+        "counties" : [
+            "13273"
+        ],
+        "type" : "Town",
+        "population_2010" : 158,
+        "population_2020" : 120,
+        "population" : 109,
+        "square_mileage" : 153.8
+    },
+    "Patterson, Pierce County, Georgia" : {
+        "name" : "Patterson",
+        "state" : "13000",
+        "FIPS" : "13-59500",
+        "counties" : [
+            "13229"
+        ],
+        "type" : "City",
+        "population_2010" : 730,
+        "population_2020" : 749,
+        "population" : 823,
+        "square_mileage" : 297.2
+    },
+    "Pavo, Brooks County, Georgia" : {
+        "name" : "Pavo",
+        "state" : "13000",
+        "FIPS" : "13-59556",
+        "counties" : [
+            "13027"
+        ],
+        "type" : "City",
+        "population_2010" : 627,
+        "population_2020" : 622,
+        "population" : 668,
+        "square_mileage" : 353.4
+    },
+    "Peachtree City, Fayette County, Georgia" : {
+        "name" : "Peachtree City",
+        "state" : "13000",
+        "FIPS" : "13-59724",
+        "counties" : [
+            "13113"
+        ],
+        "type" : "City",
+        "population_2010" : 34364,
+        "population_2020" : 38244,
+        "population" : 44626,
+        "square_mileage" : 1558.4
+    },
+    "Peachtree Corners, Gwinnett County, Georgia" : {
+        "name" : "Peachtree Corners",
+        "state" : "13000",
+        "FIPS" : "13-59735",
+        "counties" : [
+            "13135"
+        ],
+        "type" : "City",
+        "population_2010" : 30059,
+        "population_2020" : 42243,
+        "population" : 60051,
+        "square_mileage" : 2640.2
+    },
+    "Pearson, Atkinson County, Georgia" : {
+        "name" : "Pearson",
+        "state" : "13000",
+        "FIPS" : "13-59808",
+        "counties" : [
+            "13003"
+        ],
+        "type" : "City",
+        "population_2010" : 2117,
+        "population_2020" : 1821,
+        "population" : 1783,
+        "square_mileage" : 543.6
+    },
+    "Pelham, Mitchell County, Georgia" : {
+        "name" : "Pelham",
+        "state" : "13000",
+        "FIPS" : "13-59976",
+        "counties" : [
+            "13205"
+        ],
+        "type" : "City",
+        "population_2010" : 3898,
+        "population_2020" : 3507,
+        "population" : 3531,
+        "square_mileage" : 863.8
+    },
+    "Pembroke, Bryan County, Georgia" : {
+        "name" : "Pembroke",
+        "state" : "13000",
+        "FIPS" : "13-60004",
+        "counties" : [
+            "13029"
+        ],
+        "type" : "City",
+        "population_2010" : 2196,
+        "population_2020" : 2513,
+        "population" : 2996,
+        "square_mileage" : 331.5
+    },
+    "Pendergrass, Jackson County, Georgia" : {
+        "name" : "Pendergrass",
+        "state" : "13000",
+        "FIPS" : "13-60032",
+        "counties" : [
+            "13157"
+        ],
+        "type" : "City",
+        "population_2010" : 422,
+        "population_2020" : 1692,
+        "population" : 8578,
+        "square_mileage" : 564.0
+    },
+    "Perry, Houston County, Georgia" : {
+        "name" : "Perry",
+        "state" : "13000",
+        "FIPS" : "13-60340",
+        "counties" : [
+            "13153"
+        ],
+        "type" : "City",
+        "population_2010" : 13839,
+        "population_2020" : 20624,
+        "population" : 31017,
+        "square_mileage" : 787.8
+    },
+    "Pinehurst, Dooly County, Georgia" : {
+        "name" : "Pinehurst",
+        "state" : "13000",
+        "FIPS" : "13-60984",
+        "counties" : [
+            "13093"
+        ],
+        "type" : "City",
+        "population_2010" : 455,
+        "population_2020" : 309,
+        "population" : 266,
+        "square_mileage" : 401.0
+    },
+    "Pine Lake, DeKalb County, Georgia" : {
+        "name" : "Pine Lake",
+        "state" : "13000",
+        "FIPS" : "13-61040",
+        "counties" : [
+            "13089"
+        ],
+        "type" : "City",
+        "population_2010" : 730,
+        "population_2020" : 752,
+        "population" : 829,
+        "square_mileage" : 3008.0
+    },
+    "Pine Mountain, Harris County, Georgia" : {
+        "name" : "Pine Mountain",
+        "state" : "13000",
+        "FIPS" : "13-61124",
+        "counties" : [
+            "13145"
+        ],
+        "type" : "Town",
+        "population_2010" : 1304,
+        "population_2020" : 1216,
+        "population" : 1253,
+        "square_mileage" : 422.2
+    },
+    "Pineview, Wilcox County, Georgia" : {
+        "name" : "Pineview",
+        "state" : "13000",
+        "FIPS" : "13-61320",
+        "counties" : [
+            "13315"
+        ],
+        "type" : "Town",
+        "population_2010" : 523,
+        "population_2020" : 454,
+        "population" : 447,
+        "square_mileage" : 232.8
+    },
+    "Pitts, Wilcox County, Georgia" : {
+        "name" : "Pitts",
+        "state" : "13000",
+        "FIPS" : "13-61544",
+        "counties" : [
+            "13315"
+        ],
+        "type" : "City",
+        "population_2010" : 320,
+        "population_2020" : 252,
+        "population" : 234,
+        "square_mileage" : 315.0
+    },
+    "Plains, Sumter County, Georgia" : {
+        "name" : "Plains",
+        "state" : "13000",
+        "FIPS" : "13-61628",
+        "counties" : [
+            "13261"
+        ],
+        "type" : "City",
+        "population_2010" : 776,
+        "population_2020" : 573,
+        "population" : 515,
+        "square_mileage" : 707.4
+    },
+    "Plainville, Gordon County, Georgia" : {
+        "name" : "Plainville",
+        "state" : "13000",
+        "FIPS" : "13-61684",
+        "counties" : [
+            "13129"
+        ],
+        "type" : "City",
+        "population_2010" : 313,
+        "population_2020" : 356,
+        "population" : 422,
+        "square_mileage" : 494.4
+    },
+    "Pooler, Chatham County, Georgia" : {
+        "name" : "Pooler",
+        "state" : "13000",
+        "FIPS" : "13-62104",
+        "counties" : [
+            "13051"
+        ],
+        "type" : "City",
+        "population_2010" : 19140,
+        "population_2020" : 25711,
+        "population" : 35067,
+        "square_mileage" : 874.8
+    },
+    "Portal, Bulloch County, Georgia" : {
+        "name" : "Portal",
+        "state" : "13000",
+        "FIPS" : "13-62216",
+        "counties" : [
+            "13031"
+        ],
+        "type" : "Town",
+        "population_2010" : 638,
+        "population_2020" : 638,
+        "population" : 689,
+        "square_mileage" : 302.4
+    },
+    "Porterdale, Newton County, Georgia" : {
+        "name" : "Porterdale",
+        "state" : "13000",
+        "FIPS" : "13-62244",
+        "counties" : [
+            "13217"
+        ],
+        "type" : "City",
+        "population_2010" : 1429,
+        "population_2020" : 1799,
+        "population" : 2318,
+        "square_mileage" : 775.4
+    },
+    "Port Wentworth, Chatham County, Georgia" : {
+        "name" : "Port Wentworth",
+        "state" : "13000",
+        "FIPS" : "13-62328",
+        "counties" : [
+            "13051"
+        ],
+        "type" : "City",
+        "population_2010" : 5359,
+        "population_2020" : 10878,
+        "population" : 23158,
+        "square_mileage" : 661.3
+    },
+    "Poulan, Worth County, Georgia" : {
+        "name" : "Poulan",
+        "state" : "13000",
+        "FIPS" : "13-62496",
+        "counties" : [
+            "13321"
+        ],
+        "type" : "City",
+        "population_2010" : 851,
+        "population_2020" : 760,
+        "population" : 762,
+        "square_mileage" : 455.1
+    },
+    "Powder Springs, Cobb County, Georgia" : {
+        "name" : "Powder Springs",
+        "state" : "13000",
+        "FIPS" : "13-62524",
+        "counties" : [
+            "13067"
+        ],
+        "type" : "City",
+        "population_2010" : 13940,
+        "population_2020" : 16887,
+        "population" : 21073,
+        "square_mileage" : 2355.2
+    },
+    "Pulaski, Candler County, Georgia" : {
+        "name" : "Pulaski",
+        "state" : "13000",
+        "FIPS" : "13-63000",
+        "counties" : [
+            "13043"
+        ],
+        "type" : "Town",
+        "population_2010" : 266,
+        "population_2020" : 211,
+        "population" : 197,
+        "square_mileage" : 263.8
+    },
+    "Quitman, Brooks County, Georgia" : {
+        "name" : "Quitman",
+        "state" : "13000",
+        "FIPS" : "13-63224",
+        "counties" : [
+            "13027"
+        ],
+        "type" : "City",
+        "population_2010" : 3850,
+        "population_2020" : 4064,
+        "population" : 4559,
+        "square_mileage" : 984.0
+    },
+    "Ranger, Gordon County, Georgia" : {
+        "name" : "Ranger",
+        "state" : "13000",
+        "FIPS" : "13-63560",
+        "counties" : [
+            "13129"
+        ],
+        "type" : "Town",
+        "population_2010" : 131,
+        "population_2020" : 107,
+        "population" : 102,
+        "square_mileage" : 130.5
+    },
+    "Ray City, Berrien County, Georgia" : {
+        "name" : "Ray City",
+        "state" : "13000",
+        "FIPS" : "13-63728",
+        "counties" : [
+            "13019"
+        ],
+        "type" : "City",
+        "population_2010" : 1090,
+        "population_2020" : 956,
+        "population" : 947,
+        "square_mileage" : 1074.2
+    },
+    "Rayle, Wilkes County, Georgia" : {
+        "name" : "Rayle",
+        "state" : "13000",
+        "FIPS" : "13-63756",
+        "counties" : [
+            "13317"
+        ],
+        "type" : "Town",
+        "population_2010" : 199,
+        "population_2020" : 158,
+        "population" : 148,
+        "square_mileage" : 154.9
+    },
+    "Rebecca, Turner County, Georgia" : {
+        "name" : "Rebecca",
+        "state" : "13000",
+        "FIPS" : "13-63840",
+        "counties" : [
+            "13287"
+        ],
+        "type" : "City",
+        "population_2010" : 187,
+        "population_2020" : 208,
+        "population" : 243,
+        "square_mileage" : 263.3
+    },
+    "Register, Bulloch County, Georgia" : {
+        "name" : "Register",
+        "state" : "13000",
+        "FIPS" : "13-64372",
+        "counties" : [
+            "13031"
+        ],
+        "type" : "Town",
+        "population_2010" : 175,
+        "population_2020" : 157,
+        "population" : 158,
+        "square_mileage" : 203.9
+    },
+    "Reidsville, Tattnall County, Georgia" : {
+        "name" : "Reidsville",
+        "state" : "13000",
+        "FIPS" : "13-64512",
+        "counties" : [
+            "13267"
+        ],
+        "type" : "City",
+        "population_2010" : 4944,
+        "population_2020" : 2515,
+        "population" : 1916,
+        "square_mileage" : 332.2
+    },
+    "Remerton, Lowndes County, Georgia" : {
+        "name" : "Remerton",
+        "state" : "13000",
+        "FIPS" : "13-64596",
+        "counties" : [
+            "13185"
+        ],
+        "type" : "City",
+        "population_2010" : 1123,
+        "population_2020" : 1334,
+        "population" : 1638,
+        "square_mileage" : 6670.0
+    },
+    "Rentz, Laurens County, Georgia" : {
+        "name" : "Rentz",
+        "state" : "13000",
+        "FIPS" : "13-64680",
+        "counties" : [
+            "13175"
+        ],
+        "type" : "Town",
+        "population_2010" : 295,
+        "population_2020" : 312,
+        "population" : 351,
+        "square_mileage" : 297.1
+    },
+    "Resaca, Gordon County, Georgia" : {
+        "name" : "Resaca",
+        "state" : "13000",
+        "FIPS" : "13-64736",
+        "counties" : [
+            "13129"
+        ],
+        "type" : "Town",
+        "population_2010" : 544,
+        "population_2020" : 1142,
+        "population" : 2539,
+        "square_mileage" : 407.9
+    },
+    "Rest Haven, Gwinnett County, Georgia" : {
+        "name" : "Rest Haven",
+        "state" : "13000",
+        "FIPS" : "13-64792",
+        "counties" : [
+            "13135"
+        ],
+        "type" : "Town",
+        "population_2010" : 62,
+        "population_2020" : 45,
+        "population" : 40,
+        "square_mileage" : 128.6
+    },
+    "Reynolds, Taylor County, Georgia" : {
+        "name" : "Reynolds",
+        "state" : "13000",
+        "FIPS" : "13-64876",
+        "counties" : [
+            "13269"
+        ],
+        "type" : "Town",
+        "population_2010" : 1086,
+        "population_2020" : 926,
+        "population" : 902,
+        "square_mileage" : 465.3
+    },
+    "Rhine, Dodge County, Georgia" : {
+        "name" : "Rhine",
+        "state" : "13000",
+        "FIPS" : "13-64932",
+        "counties" : [
+            "13091"
+        ],
+        "type" : "Town",
+        "population_2010" : 394,
+        "population_2020" : 295,
+        "population" : 267,
+        "square_mileage" : 94.2
+    },
+    "Riceboro, Liberty County, Georgia" : {
+        "name" : "Riceboro",
+        "state" : "13000",
+        "FIPS" : "13-64960",
+        "counties" : [
+            "13179"
+        ],
+        "type" : "City",
+        "population_2010" : 809,
+        "population_2020" : 615,
+        "population" : 561,
+        "square_mileage" : 55.8
+    },
+    "Richland, Stewart County, Georgia" : {
+        "name" : "Richland",
+        "state" : "13000",
+        "FIPS" : "13-65016",
+        "counties" : [
+            "13259"
+        ],
+        "type" : "City",
+        "population_2010" : 1473,
+        "population_2020" : 1370,
+        "population" : 1409,
+        "square_mileage" : 428.1
+    },
+    "Richmond Hill, Bryan County, Georgia" : {
+        "name" : "Richmond Hill",
+        "state" : "13000",
+        "FIPS" : "13-65044",
+        "counties" : [
+            "13029"
+        ],
+        "type" : "City",
+        "population_2010" : 9281,
+        "population_2020" : 16633,
+        "population" : 30448,
+        "square_mileage" : 1151.9
+    },
+    "Riddleville, Washington County, Georgia" : {
+        "name" : "Riddleville",
+        "state" : "13000",
+        "FIPS" : "13-65156",
+        "counties" : [
+            "13303"
+        ],
+        "type" : "Town",
+        "population_2010" : 96,
+        "population_2020" : 80,
+        "population" : 77,
+        "square_mileage" : 103.9
+    },
+    "Rincon, Effingham County, Georgia" : {
+        "name" : "Rincon",
+        "state" : "13000",
+        "FIPS" : "13-65296",
+        "counties" : [
+            "13103"
+        ],
+        "type" : "Town",
+        "population_2010" : 8836,
+        "population_2020" : 10934,
+        "population" : 13887,
+        "square_mileage" : 1234.1
+    },
+    "Ringgold, Catoosa County, Georgia" : {
+        "name" : "Ringgold",
+        "state" : "13000",
+        "FIPS" : "13-65324",
+        "counties" : [
+            "13047"
+        ],
+        "type" : "City",
+        "population_2010" : 3580,
+        "population_2020" : 3414,
+        "population" : 3569,
+        "square_mileage" : 718.7
+    },
+    "Riverdale, Clayton County, Georgia" : {
+        "name" : "Riverdale",
+        "state" : "13000",
+        "FIPS" : "13-65464",
+        "counties" : [
+            "13063"
+        ],
+        "type" : "City",
+        "population_2010" : 15134,
+        "population_2020" : 15129,
+        "population" : 16329,
+        "square_mileage" : 3339.7
+    },
+    "Roberta, Crawford County, Georgia" : {
+        "name" : "Roberta",
+        "state" : "13000",
+        "FIPS" : "13-65856",
+        "counties" : [
+            "13079"
+        ],
+        "type" : "City",
+        "population_2010" : 1007,
+        "population_2020" : 813,
+        "population" : 767,
+        "square_mileage" : 675.8
+    },
+    "Rochelle, Wilcox County, Georgia" : {
+        "name" : "Rochelle",
+        "state" : "13000",
+        "FIPS" : "13-66024",
+        "counties" : [
+            "13315"
+        ],
+        "type" : "City",
+        "population_2010" : 1174,
+        "population_2020" : 1167,
+        "population" : 1255,
+        "square_mileage" : 611.0
+    },
+    "Rockmart, Polk County, Georgia" : {
+        "name" : "Rockmart",
+        "state" : "13000",
+        "FIPS" : "13-66276",
+        "counties" : [
+            "13233"
+        ],
+        "type" : "City",
+        "population_2010" : 4199,
+        "population_2020" : 4730,
+        "population" : 5571,
+        "square_mileage" : 838.7
+    },
+    "Rocky Ford, Screven County, Georgia" : {
+        "name" : "Rocky Ford",
+        "state" : "13000",
+        "FIPS" : "13-66444",
+        "counties" : [
+            "13251"
+        ],
+        "type" : "Town",
+        "population_2010" : 144,
+        "population_2020" : 167,
+        "population" : 201,
+        "square_mileage" : 138.0
+    },
+    "Rome, Floyd County, Georgia" : {
+        "name" : "Rome",
+        "state" : "13000",
+        "FIPS" : "13-66668",
+        "counties" : [
+            "13115"
+        ],
+        "type" : "City",
+        "population_2010" : 36303,
+        "population_2020" : 37713,
+        "population" : 41822,
+        "square_mileage" : 1220.1
+    },
+    "Roopville, Carroll County, Georgia" : {
+        "name" : "Roopville",
+        "state" : "13000",
+        "FIPS" : "13-66696",
+        "counties" : [
+            "13045"
+        ],
+        "type" : "Town",
+        "population_2010" : 218,
+        "population_2020" : 231,
+        "population" : 260,
+        "square_mileage" : 292.4
+    },
+    "Rossville, Walker County, Georgia" : {
+        "name" : "Rossville",
+        "state" : "13000",
+        "FIPS" : "13-67256",
+        "counties" : [
+            "13295"
+        ],
+        "type" : "City",
+        "population_2010" : 4105,
+        "population_2020" : 3980,
+        "population" : 4207,
+        "square_mileage" : 2198.9
+    },
+    "Roswell, Fulton County, Georgia" : {
+        "name" : "Roswell",
+        "state" : "13000",
+        "FIPS" : "13-67284",
+        "counties" : [
+            "13121"
+        ],
+        "type" : "City",
+        "population_2010" : 88346,
+        "population_2020" : 92833,
+        "population" : 103799,
+        "square_mileage" : 2279.8
+    },
+    "Royston, Franklin County, Georgia" : {
+        "name" : "Royston",
+        "state" : "13000",
+        "FIPS" : "13-67452",
+        "counties" : [
+            "13119"
+        ],
+        "type" : "City",
+        "population_2010" : 2582,
+        "population_2020" : 2649,
+        "population" : 2912,
+        "square_mileage" : 783.7
+    },
+    "Rutledge, Morgan County, Georgia" : {
+        "name" : "Rutledge",
+        "state" : "13000",
+        "FIPS" : "13-67760",
+        "counties" : [
+            "13211"
+        ],
+        "type" : "City",
+        "population_2010" : 781,
+        "population_2020" : 871,
+        "population" : 1018,
+        "square_mileage" : 266.4
+    },
+    "St. Marys, Camden County, Georgia" : {
+        "name" : "St. Marys",
+        "state" : "13000",
+        "FIPS" : "13-67984",
+        "counties" : [
+            "13039"
+        ],
+        "type" : "City",
+        "population_2010" : 17121,
+        "population_2020" : 18256,
+        "population" : 20632,
+        "square_mileage" : 811.0
+    },
+    "Sale City, Mitchell County, Georgia" : {
+        "name" : "Sale City",
+        "state" : "13000",
+        "FIPS" : "13-68096",
+        "counties" : [
+            "13205"
+        ],
+        "type" : "Town",
+        "population_2010" : 380,
+        "population_2020" : 354,
+        "population" : 364,
+        "square_mileage" : 193.4
+    },
+    "Sandersville, Washington County, Georgia" : {
+        "name" : "Sandersville",
+        "state" : "13000",
+        "FIPS" : "13-68208",
+        "counties" : [
+            "13303"
+        ],
+        "type" : "City",
+        "population_2010" : 5912,
+        "population_2020" : 5813,
+        "population" : 6203,
+        "square_mileage" : 457.0
+    },
+    "Sandy Springs, Fulton County, Georgia" : {
+        "name" : "Sandy Springs",
+        "state" : "13000",
+        "FIPS" : "13-68516",
+        "counties" : [
+            "13121"
+        ],
+        "type" : "City",
+        "population_2010" : 93853,
+        "population_2020" : 108080,
+        "population" : 129493,
+        "square_mileage" : 2871.4
+    },
+    "Santa Claus, Toombs County, Georgia" : {
+        "name" : "Santa Claus",
+        "state" : "13000",
+        "FIPS" : "13-68600",
+        "counties" : [
+            "13279"
+        ],
+        "type" : "City",
+        "population_2010" : 165,
+        "population_2020" : 204,
+        "population" : 259,
+        "square_mileage" : 1133.3
+    },
+    "Sardis, Burke County, Georgia" : {
+        "name" : "Sardis",
+        "state" : "13000",
+        "FIPS" : "13-68740",
+        "counties" : [
+            "13033"
+        ],
+        "type" : "City",
+        "population_2010" : 999,
+        "population_2020" : 995,
+        "population" : 1071,
+        "square_mileage" : 641.9
+    },
+    "Sasser, Terrell County, Georgia" : {
+        "name" : "Sasser",
+        "state" : "13000",
+        "FIPS" : "13-68796",
+        "counties" : [
+            "13273"
+        ],
+        "type" : "Town",
+        "population_2010" : 279,
+        "population_2020" : 287,
+        "population" : 316,
+        "square_mileage" : 367.9
+    },
+    "Savannah, Chatham County, Georgia" : {
+        "name" : "Savannah",
+        "state" : "13000",
+        "FIPS" : "13-69000",
+        "counties" : [
+            "13051"
+        ],
+        "type" : "City",
+        "population_2010" : 136286,
+        "population_2020" : 147780,
+        "population" : 169094,
+        "square_mileage" : 1432.7
+    },
+    "Scotland, Telfair County, Georgia" : {
+        "name" : "Scotland",
+        "state" : "13000",
+        "FIPS" : "13-69336",
+        "counties" : [
+            "13271"
+        ],
+        "type" : "City",
+        "population_2010" : 366,
+        "population_2020" : 173,
+        "population" : 128,
+        "square_mileage" : 124.5
+    },
+    "Screven, Wayne County, Georgia" : {
+        "name" : "Screven",
+        "state" : "13000",
+        "FIPS" : "13-69448",
+        "counties" : [
+            "13305"
+        ],
+        "type" : "City",
+        "population_2010" : 766,
+        "population_2020" : 769,
+        "population" : 832,
+        "square_mileage" : 357.7
+    },
+    "Senoia, Coweta County, Georgia" : {
+        "name" : "Senoia",
+        "state" : "13000",
+        "FIPS" : "13-69672",
+        "counties" : [
+            "13077"
+        ],
+        "type" : "City",
+        "population_2010" : 3307,
+        "population_2020" : 5016,
+        "population" : 7677,
+        "square_mileage" : 937.6
+    },
+    "Shady Dale, Jasper County, Georgia" : {
+        "name" : "Shady Dale",
+        "state" : "13000",
+        "FIPS" : "13-69784",
+        "counties" : [
+            "13159"
+        ],
+        "type" : "Town",
+        "population_2010" : 249,
+        "population_2020" : 252,
+        "population" : 274,
+        "square_mileage" : 286.4
+    },
+    "Sharon, Taliaferro County, Georgia" : {
+        "name" : "Sharon",
+        "state" : "13000",
+        "FIPS" : "13-69896",
+        "counties" : [
+            "13265"
+        ],
+        "type" : "City",
+        "population_2010" : 140,
+        "population_2020" : 104,
+        "population" : 94,
+        "square_mileage" : 133.3
+    },
+    "Sharpsburg, Coweta County, Georgia" : {
+        "name" : "Sharpsburg",
+        "state" : "13000",
+        "FIPS" : "13-69980",
+        "counties" : [
+            "13077"
+        ],
+        "type" : "Town",
+        "population_2010" : 341,
+        "population_2020" : 327,
+        "population" : 343,
+        "square_mileage" : 554.2
+    },
+    "Shellman, Randolph County, Georgia" : {
+        "name" : "Shellman",
+        "state" : "13000",
+        "FIPS" : "13-70120",
+        "counties" : [
+            "13243"
+        ],
+        "type" : "City",
+        "population_2010" : 1083,
+        "population_2020" : 861,
+        "population" : 805,
+        "square_mileage" : 266.6
+    },
+    "Shiloh, Harris County, Georgia" : {
+        "name" : "Shiloh",
+        "state" : "13000",
+        "FIPS" : "13-70428",
+        "counties" : [
+            "13145"
+        ],
+        "type" : "City",
+        "population_2010" : 445,
+        "population_2020" : 402,
+        "population" : 406,
+        "square_mileage" : 178.7
+    },
+    "Siloam, Greene County, Georgia" : {
+        "name" : "Siloam",
+        "state" : "13000",
+        "FIPS" : "13-70932",
+        "counties" : [
+            "13133"
+        ],
+        "type" : "Town",
+        "population_2010" : 282,
+        "population_2020" : 194,
+        "population" : 168,
+        "square_mileage" : 160.3
+    },
+    "Sky Valley, Rabun County, Georgia" : {
+        "name" : "Sky Valley",
+        "state" : "13000",
+        "FIPS" : "13-71282",
+        "counties" : [
+            "13241"
+        ],
+        "type" : "City",
+        "population_2010" : 272,
+        "population_2020" : 593,
+        "population" : 1387,
+        "square_mileage" : 195.1
+    },
+    "Smithville, Lee County, Georgia" : {
+        "name" : "Smithville",
+        "state" : "13000",
+        "FIPS" : "13-71464",
+        "counties" : [
+            "13177"
+        ],
+        "type" : "City",
+        "population_2010" : 575,
+        "population_2020" : 593,
+        "population" : 654,
+        "square_mileage" : 233.5
+    },
+    "Smyrna, Cobb County, Georgia" : {
+        "name" : "Smyrna",
+        "state" : "13000",
+        "FIPS" : "13-71492",
+        "counties" : [
+            "13067"
+        ],
+        "type" : "City",
+        "population_2010" : 51271,
+        "population_2020" : 55663,
+        "population" : 63749,
+        "square_mileage" : 3626.3
+    },
+    "Snellville, Gwinnett County, Georgia" : {
+        "name" : "Snellville",
+        "state" : "13000",
+        "FIPS" : "13-71604",
+        "counties" : [
+            "13135"
+        ],
+        "type" : "City",
+        "population_2010" : 18242,
+        "population_2020" : 20573,
+        "population" : 24252,
+        "square_mileage" : 1968.7
+    },
+    "Social Circle, Newton County, Georgia" : {
+        "name" : "Social Circle",
+        "state" : "13000",
+        "FIPS" : "13-71660",
+        "counties" : [
+            "13217"
+        ],
+        "type" : "City",
+        "population_2010" : 4262,
+        "population_2020" : 5974,
+        "population" : 8472,
+        "square_mileage" : 375.3
+    },
+    "Soperton, Treutlen County, Georgia" : {
+        "name" : "Soperton",
+        "state" : "13000",
+        "FIPS" : "13-71772",
+        "counties" : [
+            "13283"
+        ],
+        "type" : "City",
+        "population_2010" : 3115,
+        "population_2020" : 2889,
+        "population" : 2966,
+        "square_mileage" : 656.6
+    },
+    "South Fulton, Fulton County, Georgia" : {
+        "name" : "South Fulton",
+        "state" : "13000",
+        "FIPS" : "13-72122",
+        "counties" : [
+            "13121"
+        ],
+        "type" : "City",
+        "population_2010" : 0,
+        "population_2020" : 107436,
+        "population" : 544698,
+        "square_mileage" : 1260.7
+    },
+    "Sparks, Cook County, Georgia" : {
+        "name" : "Sparks",
+        "state" : "13000",
+        "FIPS" : "13-72556",
+        "counties" : [
+            "13075"
+        ],
+        "type" : "Town",
+        "population_2010" : 2052,
+        "population_2020" : 2043,
+        "population" : 2199,
+        "square_mileage" : 522.5
+    },
+    "Sparta, Hancock County, Georgia" : {
+        "name" : "Sparta",
+        "state" : "13000",
+        "FIPS" : "13-72584",
+        "counties" : [
+            "13141"
+        ],
+        "type" : "City",
+        "population_2010" : 1400,
+        "population_2020" : 1357,
+        "population" : 1434,
+        "square_mileage" : 745.6
+    },
+    "Springfield, Effingham County, Georgia" : {
+        "name" : "Springfield",
+        "state" : "13000",
+        "FIPS" : "13-72780",
+        "counties" : [
+            "13103"
+        ],
+        "type" : "City",
+        "population_2010" : 2852,
+        "population_2020" : 2703,
+        "population" : 2814,
+        "square_mileage" : 979.3
+    },
+    "Stapleton, Jefferson County, Georgia" : {
+        "name" : "Stapleton",
+        "state" : "13000",
+        "FIPS" : "13-73004",
+        "counties" : [
+            "13163"
+        ],
+        "type" : "City",
+        "population_2010" : 438,
+        "population_2020" : 402,
+        "population" : 410,
+        "square_mileage" : 231.0
+    },
+    "Statesboro, Bulloch County, Georgia" : {
+        "name" : "Statesboro",
+        "state" : "13000",
+        "FIPS" : "13-73256",
+        "counties" : [
+            "13031"
+        ],
+        "type" : "City",
+        "population_2010" : 28422,
+        "population_2020" : 33438,
+        "population" : 40748,
+        "square_mileage" : 2476.9
+    },
+    "Statham, Barrow County, Georgia" : {
+        "name" : "Statham",
+        "state" : "13000",
+        "FIPS" : "13-73312",
+        "counties" : [
+            "13013"
+        ],
+        "type" : "City",
+        "population_2010" : 2408,
+        "population_2020" : 2813,
+        "population" : 3409,
+        "square_mileage" : 799.1
+    },
+    "Stillmore, Emanuel County, Georgia" : {
+        "name" : "Stillmore",
+        "state" : "13000",
+        "FIPS" : "13-73620",
+        "counties" : [
+            "13107"
+        ],
+        "type" : "City",
+        "population_2010" : 532,
+        "population_2020" : 439,
+        "population" : 419,
+        "square_mileage" : 142.1
+    },
+    "Stockbridge, Henry County, Georgia" : {
+        "name" : "Stockbridge",
+        "state" : "13000",
+        "FIPS" : "13-73704",
+        "counties" : [
+            "13151"
+        ],
+        "type" : "City",
+        "population_2010" : 25636,
+        "population_2020" : 28973,
+        "population" : 34209,
+        "square_mileage" : 2176.8
+    },
+    "Stone Mountain, DeKalb County, Georgia" : {
+        "name" : "Stone Mountain",
+        "state" : "13000",
+        "FIPS" : "13-73816",
+        "counties" : [
+            "13089"
+        ],
+        "type" : "City",
+        "population_2010" : 5802,
+        "population_2020" : 6703,
+        "population" : 8051,
+        "square_mileage" : 3942.9
+    },
+    "Stonecrest, DeKalb County, Georgia" : {
+        "name" : "Stonecrest",
+        "state" : "13000",
+        "FIPS" : "13-73784",
+        "counties" : [
+            "13089"
+        ],
+        "type" : "City",
+        "population_2010" : 0,
+        "population_2020" : 59194,
+        "population" : 300112,
+        "square_mileage" : 1582.6
+    },
+    "Sugar Hill, Gwinnett County, Georgia" : {
+        "name" : "Sugar Hill",
+        "state" : "13000",
+        "FIPS" : "13-74180",
+        "counties" : [
+            "13135"
+        ],
+        "type" : "City",
+        "population_2010" : 18522,
+        "population_2020" : 25076,
+        "population" : 34443,
+        "square_mileage" : 2365.7
+    },
+    "Summertown, Emanuel County, Georgia" : {
+        "name" : "Summertown",
+        "state" : "13000",
+        "FIPS" : "13-74348",
+        "counties" : [
+            "13107"
+        ],
+        "type" : "City",
+        "population_2010" : 160,
+        "population_2020" : 121,
+        "population" : 110,
+        "square_mileage" : 153.2
+    },
+    "Summerville, Chattooga County, Georgia" : {
+        "name" : "Summerville",
+        "state" : "13000",
+        "FIPS" : "13-74376",
+        "counties" : [
+            "13055"
+        ],
+        "type" : "City",
+        "population_2010" : 4534,
+        "population_2020" : 4435,
+        "population" : 4716,
+        "square_mileage" : 1106.0
+    },
+    "Sumner, Worth County, Georgia" : {
+        "name" : "Sumner",
+        "state" : "13000",
+        "FIPS" : "13-74432",
+        "counties" : [
+            "13321"
+        ],
+        "type" : "Town",
+        "population_2010" : 427,
+        "population_2020" : 445,
+        "population" : 495,
+        "square_mileage" : 245.9
+    },
+    "Sunny Side, Spalding County, Georgia" : {
+        "name" : "Sunny Side",
+        "state" : "13000",
+        "FIPS" : "13-74572",
+        "counties" : [
+            "13255"
+        ],
+        "type" : "City",
+        "population_2010" : 134,
+        "population_2020" : 203,
+        "population" : 310,
+        "square_mileage" : 1015.0
+    },
+    "Surrency, Appling County, Georgia" : {
+        "name" : "Surrency",
+        "state" : "13000",
+        "FIPS" : "13-74852",
+        "counties" : [
+            "13001"
+        ],
+        "type" : "Town",
+        "population_2010" : 201,
+        "population_2020" : 194,
+        "population" : 204,
+        "square_mileage" : 251.9
+    },
+    "Suwanee, Gwinnett County, Georgia" : {
+        "name" : "Suwanee",
+        "state" : "13000",
+        "FIPS" : "13-74936",
+        "counties" : [
+            "13135"
+        ],
+        "type" : "City",
+        "population_2010" : 15355,
+        "population_2020" : 20786,
+        "population" : 28547,
+        "square_mileage" : 1910.5
+    },
+    "Swainsboro, Emanuel County, Georgia" : {
+        "name" : "Swainsboro",
+        "state" : "13000",
+        "FIPS" : "13-74964",
+        "counties" : [
+            "13107"
+        ],
+        "type" : "City",
+        "population_2010" : 7277,
+        "population_2020" : 7425,
+        "population" : 8130,
+        "square_mileage" : 590.2
+    },
+    "Sycamore, Turner County, Georgia" : {
+        "name" : "Sycamore",
+        "state" : "13000",
+        "FIPS" : "13-75104",
+        "counties" : [
+            "13287"
+        ],
+        "type" : "City",
+        "population_2010" : 711,
+        "population_2020" : 692,
+        "population" : 733,
+        "square_mileage" : 699.0
+    },
+    "Sylvania, Screven County, Georgia" : {
+        "name" : "Sylvania",
+        "state" : "13000",
+        "FIPS" : "13-75160",
+        "counties" : [
+            "13251"
+        ],
+        "type" : "City",
+        "population_2010" : 2956,
+        "population_2020" : 2634,
+        "population" : 2636,
+        "square_mileage" : 522.6
+    },
+    "Sylvester, Worth County, Georgia" : {
+        "name" : "Sylvester",
+        "state" : "13000",
+        "FIPS" : "13-75188",
+        "counties" : [
+            "13321"
+        ],
+        "type" : "City",
+        "population_2010" : 6188,
+        "population_2020" : 5644,
+        "population" : 5732,
+        "square_mileage" : 914.7
+    },
+    "Talbotton, Talbot County, Georgia" : {
+        "name" : "Talbotton",
+        "state" : "13000",
+        "FIPS" : "13-75244",
+        "counties" : [
+            "13263"
+        ],
+        "type" : "City",
+        "population_2010" : 970,
+        "population_2020" : 742,
+        "population" : 679,
+        "square_mileage" : 239.4
+    },
+    "Talking Rock, Pickens County, Georgia" : {
+        "name" : "Talking Rock",
+        "state" : "13000",
+        "FIPS" : "13-75272",
+        "counties" : [
+            "13227"
+        ],
+        "type" : "Town",
+        "population_2010" : 64,
+        "population_2020" : 91,
+        "population" : 131,
+        "square_mileage" : 61.1
+    },
+    "Tallapoosa, Haralson County, Georgia" : {
+        "name" : "Tallapoosa",
+        "state" : "13000",
+        "FIPS" : "13-75300",
+        "counties" : [
+            "13143"
+        ],
+        "type" : "City",
+        "population_2010" : 3170,
+        "population_2020" : 3227,
+        "population" : 3527,
+        "square_mileage" : 321.7
+    },
+    "Tallulah Falls, Habersham County, Georgia" : {
+        "name" : "Tallulah Falls",
+        "state" : "13000",
+        "FIPS" : "13-75328",
+        "counties" : [
+            "13137"
+        ],
+        "type" : "Town",
+        "population_2010" : 168,
+        "population_2020" : 199,
+        "population" : 244,
+        "square_mileage" : 24.6
+    },
+    "Talmo, Jackson County, Georgia" : {
+        "name" : "Talmo",
+        "state" : "13000",
+        "FIPS" : "13-75412",
+        "counties" : [
+            "13157"
+        ],
+        "type" : "Town",
+        "population_2010" : 180,
+        "population_2020" : 257,
+        "population" : 371,
+        "square_mileage" : 123.0
+    },
+    "Tarrytown, Montgomery County, Georgia" : {
+        "name" : "Tarrytown",
+        "state" : "13000",
+        "FIPS" : "13-75496",
+        "counties" : [
+            "13209"
+        ],
+        "type" : "Town",
+        "population_2010" : 87,
+        "population_2020" : 66,
+        "population" : 60,
+        "square_mileage" : 76.7
+    },
+    "Taylorsville, Bartow County, Georgia" : {
+        "name" : "Taylorsville",
+        "state" : "13000",
+        "FIPS" : "13-75664",
+        "counties" : [
+            "13015"
+        ],
+        "type" : "Town",
+        "population_2010" : 210,
+        "population_2020" : 252,
+        "population" : 312,
+        "square_mileage" : 169.1
+    },
+    "Temple, Carroll County, Georgia" : {
+        "name" : "Temple",
+        "state" : "13000",
+        "FIPS" : "13-75832",
+        "counties" : [
+            "13045"
+        ],
+        "type" : "City",
+        "population_2010" : 4228,
+        "population_2020" : 5089,
+        "population" : 6317,
+        "square_mileage" : 748.4
+    },
+    "Tennille, Washington County, Georgia" : {
+        "name" : "Tennille",
+        "state" : "13000",
+        "FIPS" : "13-75888",
+        "counties" : [
+            "13303"
+        ],
+        "type" : "City",
+        "population_2010" : 1539,
+        "population_2020" : 1469,
+        "population" : 1537,
+        "square_mileage" : 829.9
+    },
+    "Thomaston, Upson County, Georgia" : {
+        "name" : "Thomaston",
+        "state" : "13000",
+        "FIPS" : "13-76168",
+        "counties" : [
+            "13293"
+        ],
+        "type" : "City",
+        "population_2010" : 9170,
+        "population_2020" : 9816,
+        "population" : 11125,
+        "square_mileage" : 1030.0
+    },
+    "Thomasville, Thomas County, Georgia" : {
+        "name" : "Thomasville",
+        "state" : "13000",
+        "FIPS" : "13-76224",
+        "counties" : [
+            "13275"
+        ],
+        "type" : "City",
+        "population_2010" : 18413,
+        "population_2020" : 18881,
+        "population" : 20745,
+        "square_mileage" : 1262.9
+    },
+    "Thomson, McDuffie County, Georgia" : {
+        "name" : "Thomson",
+        "state" : "13000",
+        "FIPS" : "13-76280",
+        "counties" : [
+            "13189"
+        ],
+        "type" : "City",
+        "population_2010" : 6778,
+        "population_2020" : 6814,
+        "population" : 7383,
+        "square_mileage" : 1552.2
+    },
+    "Thunderbolt, Chatham County, Georgia" : {
+        "name" : "Thunderbolt",
+        "state" : "13000",
+        "FIPS" : "13-76364",
+        "counties" : [
+            "13051"
+        ],
+        "type" : "Town",
+        "population_2010" : 2668,
+        "population_2020" : 2556,
+        "population" : 2680,
+        "square_mileage" : 2130.0
+    },
+    "Tifton, Tift County, Georgia" : {
+        "name" : "Tifton",
+        "state" : "13000",
+        "FIPS" : "13-76476",
+        "counties" : [
+            "13277"
+        ],
+        "type" : "City",
+        "population_2010" : 16350,
+        "population_2020" : 17045,
+        "population" : 18950,
+        "square_mileage" : 1364.7
+    },
+    "Tiger, Rabun County, Georgia" : {
+        "name" : "Tiger",
+        "state" : "13000",
+        "FIPS" : "13-76504",
+        "counties" : [
+            "13241"
+        ],
+        "type" : "Town",
+        "population_2010" : 408,
+        "population_2020" : 422,
+        "population" : 467,
+        "square_mileage" : 508.4
+    },
+    "Tignall, Wilkes County, Georgia" : {
+        "name" : "Tignall",
+        "state" : "13000",
+        "FIPS" : "13-76532",
+        "counties" : [
+            "13317"
+        ],
+        "type" : "Town",
+        "population_2010" : 546,
+        "population_2020" : 485,
+        "population" : 484,
+        "square_mileage" : 176.4
+    },
+    "Toccoa, Stephens County, Georgia" : {
+        "name" : "Toccoa",
+        "state" : "13000",
+        "FIPS" : "13-76756",
+        "counties" : [
+            "13257"
+        ],
+        "type" : "City",
+        "population_2010" : 8491,
+        "population_2020" : 9133,
+        "population" : 10388,
+        "square_mileage" : 961.4
+    },
+    "Toomsboro, Wilkinson County, Georgia" : {
+        "name" : "Toomsboro",
+        "state" : "13000",
+        "FIPS" : "13-76952",
+        "counties" : [
+            "13319"
+        ],
+        "type" : "Town",
+        "population_2010" : 472,
+        "population_2020" : 383,
+        "population" : 362,
+        "square_mileage" : 205.9
+    },
+    "Trenton, Dade County, Georgia" : {
+        "name" : "Trenton",
+        "state" : "13000",
+        "FIPS" : "13-77372",
+        "counties" : [
+            "13083"
+        ],
+        "type" : "City",
+        "population_2010" : 2301,
+        "population_2020" : 2195,
+        "population" : 2295,
+        "square_mileage" : 681.7
+    },
+    "Trion, Chattooga County, Georgia" : {
+        "name" : "Trion",
+        "state" : "13000",
+        "FIPS" : "13-77540",
+        "counties" : [
+            "13055"
+        ],
+        "type" : "Town",
+        "population_2010" : 1827,
+        "population_2020" : 1960,
+        "population" : 2225,
+        "square_mileage" : 511.7
+    },
+    "Tucker, DeKalb County, Georgia" : {
+        "name" : "Tucker",
+        "state" : "13000",
+        "FIPS" : "13-77652",
+        "counties" : [
+            "13089"
+        ],
+        "type" : "City",
+        "population_2010" : 27581,
+        "population_2020" : 37005,
+        "population" : 50416,
+        "square_mileage" : 1831.6
+    },
+    "Tunnel Hill, Whitfield County, Georgia" : {
+        "name" : "Tunnel Hill",
+        "state" : "13000",
+        "FIPS" : "13-77736",
+        "counties" : [
+            "13313"
+        ],
+        "type" : "City",
+        "population_2010" : 856,
+        "population_2020" : 963,
+        "population" : 1133,
+        "square_mileage" : 601.9
+    },
+    "Turin, Coweta County, Georgia" : {
+        "name" : "Turin",
+        "state" : "13000",
+        "FIPS" : "13-77764",
+        "counties" : [
+            "13077"
+        ],
+        "type" : "Town",
+        "population_2010" : 274,
+        "population_2020" : 347,
+        "population" : 449,
+        "square_mileage" : 215.5
+    },
+    "Twin City, Emanuel County, Georgia" : {
+        "name" : "Twin City",
+        "state" : "13000",
+        "FIPS" : "13-77988",
+        "counties" : [
+            "13107"
+        ],
+        "type" : "City",
+        "population_2010" : 1742,
+        "population_2020" : 1642,
+        "population" : 1703,
+        "square_mileage" : 459.9
+    },
+    "Tybee Island, Chatham County, Georgia" : {
+        "name" : "Tybee Island",
+        "state" : "13000",
+        "FIPS" : "13-78036",
+        "counties" : [
+            "13051"
+        ],
+        "type" : "City",
+        "population_2010" : 2990,
+        "population_2020" : 3114,
+        "population" : 3460,
+        "square_mileage" : 1336.5
+    },
+    "Tyrone, Fayette County, Georgia" : {
+        "name" : "Tyrone",
+        "state" : "13000",
+        "FIPS" : "13-78044",
+        "counties" : [
+            "13113"
+        ],
+        "type" : "Town",
+        "population_2010" : 6879,
+        "population_2020" : 7658,
+        "population" : 8938,
+        "square_mileage" : 614.1
+    },
+    "Ty Ty, Tift County, Georgia" : {
+        "name" : "Ty Ty",
+        "state" : "13000",
+        "FIPS" : "13-78100",
+        "counties" : [
+            "13277"
+        ],
+        "type" : "City",
+        "population_2010" : 725,
+        "population_2020" : 641,
+        "population" : 638,
+        "square_mileage" : 821.8
+    },
+    "Unadilla, Dooly County, Georgia" : {
+        "name" : "Unadilla",
+        "state" : "13000",
+        "FIPS" : "13-78156",
+        "counties" : [
+            "13093"
+        ],
+        "type" : "City",
+        "population_2010" : 3796,
+        "population_2020" : 3118,
+        "population" : 2971,
+        "square_mileage" : 516.2
+    },
+    "Union City, Fulton County, Georgia" : {
+        "name" : "Union City",
+        "state" : "13000",
+        "FIPS" : "13-78324",
+        "counties" : [
+            "13121"
+        ],
+        "type" : "City",
+        "population_2010" : 19456,
+        "population_2020" : 26738,
+        "population" : 37231,
+        "square_mileage" : 1399.2
+    },
+    "Union Point, Greene County, Georgia" : {
+        "name" : "Union Point",
+        "state" : "13000",
+        "FIPS" : "13-78380",
+        "counties" : [
+            "13133"
+        ],
+        "type" : "City",
+        "population_2010" : 1617,
+        "population_2020" : 1597,
+        "population" : 1709,
+        "square_mileage" : 845.0
+    },
+    "Uvalda, Montgomery County, Georgia" : {
+        "name" : "Uvalda",
+        "state" : "13000",
+        "FIPS" : "13-78744",
+        "counties" : [
+            "13209"
+        ],
+        "type" : "City",
+        "population_2010" : 598,
+        "population_2020" : 439,
+        "population" : 393,
+        "square_mileage" : 232.3
+    },
+    "Valdosta, Lowndes County, Georgia" : {
+        "name" : "Valdosta",
+        "state" : "13000",
+        "FIPS" : "13-78800",
+        "counties" : [
+            "13185"
+        ],
+        "type" : "City",
+        "population_2010" : 54518,
+        "population_2020" : 55378,
+        "population" : 60441,
+        "square_mileage" : 1545.6
+    },
+    "Varnell, Whitfield County, Georgia" : {
+        "name" : "Varnell",
+        "state" : "13000",
+        "FIPS" : "13-78996",
+        "counties" : [
+            "13313"
+        ],
+        "type" : "City",
+        "population_2010" : 1744,
+        "population_2020" : 2179,
+        "population" : 2790,
+        "square_mileage" : 648.5
+    },
+    "Vernonburg, Chatham County, Georgia" : {
+        "name" : "Vernonburg",
+        "state" : "13000",
+        "FIPS" : "13-79164",
+        "counties" : [
+            "13051"
+        ],
+        "type" : "Town",
+        "population_2010" : 122,
+        "population_2020" : 139,
+        "population" : 165,
+        "square_mileage" : 397.1
+    },
+    "Vidette, Burke County, Georgia" : {
+        "name" : "Vidette",
+        "state" : "13000",
+        "FIPS" : "13-79416",
+        "counties" : [
+            "13033"
+        ],
+        "type" : "City",
+        "population_2010" : 112,
+        "population_2020" : 103,
+        "population" : 105,
+        "square_mileage" : 106.2
+    },
+    "Vienna, Dooly County, Georgia" : {
+        "name" : "Vienna",
+        "state" : "13000",
+        "FIPS" : "13-79444",
+        "counties" : [
+            "13093"
+        ],
+        "type" : "City",
+        "population_2010" : 4011,
+        "population_2020" : 2928,
+        "population" : 2615,
+        "square_mileage" : 535.3
+    },
+    "Vidalia, Montgomery County, Georgia" : {
+        "name" : "Vidalia",
+        "state" : "13000",
+        "FIPS" : "13-79388",
+        "counties" : [
+            "13209"
+        ],
+        "type" : "City",
+        "population_2010" : 10473,
+        "population_2020" : 10785,
+        "population" : 11886,
+        "square_mileage" : 624.5
+    },
+    "Villa Rica, Carroll County, Georgia" : {
+        "name" : "Villa Rica",
+        "state" : "13000",
+        "FIPS" : "13-79528",
+        "counties" : [
+            "13045"
+        ],
+        "type" : "City",
+        "population_2010" : 13956,
+        "population_2020" : 16970,
+        "population" : 21242,
+        "square_mileage" : 1191.7
+    },
+    "Waco, Haralson County, Georgia" : {
+        "name" : "Waco",
+        "state" : "13000",
+        "FIPS" : "13-79808",
+        "counties" : [
+            "13143"
+        ],
+        "type" : "City",
+        "population_2010" : 516,
+        "population_2020" : 536,
+        "population" : 594,
+        "square_mileage" : 291.3
+    },
+    "Wadley, Jefferson County, Georgia" : {
+        "name" : "Wadley",
+        "state" : "13000",
+        "FIPS" : "13-79864",
+        "counties" : [
+            "13163"
+        ],
+        "type" : "City",
+        "population_2010" : 2061,
+        "population_2020" : 1643,
+        "population" : 1539,
+        "square_mileage" : 360.3
+    },
+    "Waleska, Cherokee County, Georgia" : {
+        "name" : "Waleska",
+        "state" : "13000",
+        "FIPS" : "13-79948",
+        "counties" : [
+            "13057"
+        ],
+        "type" : "City",
+        "population_2010" : 644,
+        "population_2020" : 921,
+        "population" : 1331,
+        "square_mileage" : 630.8
+    },
+    "Walnut Grove, Walton County, Georgia" : {
+        "name" : "Walnut Grove",
+        "state" : "13000",
+        "FIPS" : "13-80228",
+        "counties" : [
+            "13297"
+        ],
+        "type" : "Town",
+        "population_2010" : 1330,
+        "population_2020" : 1322,
+        "population" : 1421,
+        "square_mileage" : 433.4
+    },
+    "Walthourville, Liberty County, Georgia" : {
+        "name" : "Walthourville",
+        "state" : "13000",
+        "FIPS" : "13-80256",
+        "counties" : [
+            "13179"
+        ],
+        "type" : "City",
+        "population_2010" : 4111,
+        "population_2020" : 3680,
+        "population" : 3693,
+        "square_mileage" : 981.3
+    },
+    "Warm Springs, Meriwether County, Georgia" : {
+        "name" : "Warm Springs",
+        "state" : "13000",
+        "FIPS" : "13-80480",
+        "counties" : [
+            "13199"
+        ],
+        "type" : "City",
+        "population_2010" : 425,
+        "population_2020" : 465,
+        "population" : 536,
+        "square_mileage" : 344.4
+    },
+    "Warner Robins, Houston County, Georgia" : {
+        "name" : "Warner Robins",
+        "state" : "13000",
+        "FIPS" : "13-80508",
+        "counties" : [
+            "13153"
+        ],
+        "type" : "City",
+        "population_2010" : 66588,
+        "population_2020" : 80308,
+        "population" : 99851,
+        "square_mileage" : 2289.9
+    },
+    "Warrenton, Warren County, Georgia" : {
+        "name" : "Warrenton",
+        "state" : "13000",
+        "FIPS" : "13-80592",
+        "counties" : [
+            "13301"
+        ],
+        "type" : "City",
+        "population_2010" : 1937,
+        "population_2020" : 1744,
+        "population" : 1757,
+        "square_mileage" : 917.9
+    },
+    "Warwick, Worth County, Georgia" : {
+        "name" : "Warwick",
+        "state" : "13000",
+        "FIPS" : "13-80676",
+        "counties" : [
+            "13321"
+        ],
+        "type" : "City",
+        "population_2010" : 423,
+        "population_2020" : 504,
+        "population" : 620,
+        "square_mileage" : 622.2
+    },
+    "Washington, Wilkes County, Georgia" : {
+        "name" : "53000",
+        "state" : "13000",
+        "FIPS" : "13-80704",
+        "counties" : [
+            "13317"
+        ],
+        "type" : "City",
+        "population_2010" : 4134,
+        "population_2020" : 3754,
+        "population" : 3802,
+        "square_mileage" : 487.5
+    },
+    "Watkinsville, Oconee County, Georgia" : {
+        "name" : "Watkinsville",
+        "state" : "13000",
+        "FIPS" : "13-80788",
+        "counties" : [
+            "13219"
+        ],
+        "type" : "Town",
+        "population_2010" : 2832,
+        "population_2020" : 2896,
+        "population" : 3176,
+        "square_mileage" : 885.6
+    },
+    "Waverly Hall, Harris County, Georgia" : {
+        "name" : "Waverly Hall",
+        "state" : "13000",
+        "FIPS" : "13-80844",
+        "counties" : [
+            "13145"
+        ],
+        "type" : "Town",
+        "population_2010" : 735,
+        "population_2020" : 638,
+        "population" : 628,
+        "square_mileage" : 191.0
+    },
+    "Waycross, Ware County, Georgia" : {
+        "name" : "Waycross",
+        "state" : "13000",
+        "FIPS" : "13-80956",
+        "counties" : [
+            "13299"
+        ],
+        "type" : "City",
+        "population_2010" : 14649,
+        "population_2020" : 13942,
+        "population" : 14556,
+        "square_mileage" : 1190.6
+    },
+    "Waynesboro, Burke County, Georgia" : {
+        "name" : "Waynesboro",
+        "state" : "13000",
+        "FIPS" : "13-80984",
+        "counties" : [
+            "13033"
+        ],
+        "type" : "City",
+        "population_2010" : 5766,
+        "population_2020" : 5799,
+        "population" : 6285,
+        "square_mileage" : 1069.9
+    },
+    "Webster County, Webster County, Georgia" : {
+        "name" : "13307",
+        "state" : "13000",
+        "FIPS" : "13-81128",
+        "counties" : [
+            "13307"
+        ],
+        "type" : "Consolidated City Unified Government",
+        "population_2010" : 2799,
+        "population_2020" : 2348,
+        "population" : 2265,
+        "square_mileage" : 11.2
+    },
+    "West Point, Harris County, Georgia" : {
+        "name" : "West Point",
+        "state" : "13000",
+        "FIPS" : "13-82132",
+        "counties" : [
+            "13145"
+        ],
+        "type" : "City",
+        "population_2010" : 3474,
+        "population_2020" : 3719,
+        "population" : 4215,
+        "square_mileage" : 332.9
+    },
+    "Whigham, Grady County, Georgia" : {
+        "name" : "Whigham",
+        "state" : "13000",
+        "FIPS" : "13-82412",
+        "counties" : [
+            "13131"
+        ],
+        "type" : "City",
+        "population_2010" : 471,
+        "population_2020" : 428,
+        "population" : 434,
+        "square_mileage" : 365.8
+    },
+    "White, Bartow County, Georgia" : {
+        "name" : "White",
+        "state" : "13000",
+        "FIPS" : "13-82468",
+        "counties" : [
+            "13015"
+        ],
+        "type" : "City",
+        "population_2010" : 670,
+        "population_2020" : 661,
+        "population" : 707,
+        "square_mileage" : 688.5
+    },
+    "White Plains, Greene County, Georgia" : {
+        "name" : "White Plains",
+        "state" : "13000",
+        "FIPS" : "13-82692",
+        "counties" : [
+            "13133"
+        ],
+        "type" : "City",
+        "population_2010" : 284,
+        "population_2020" : 239,
+        "population" : 231,
+        "square_mileage" : 51.2
+    },
+    "Whitesburg, Carroll County, Georgia" : {
+        "name" : "Whitesburg",
+        "state" : "13000",
+        "FIPS" : "13-82720",
+        "counties" : [
+            "13045"
+        ],
+        "type" : "Town",
+        "population_2010" : 588,
+        "population_2020" : 596,
+        "population" : 650,
+        "square_mileage" : 215.2
+    },
+    "Willacoochee, Atkinson County, Georgia" : {
+        "name" : "Willacoochee",
+        "state" : "13000",
+        "FIPS" : "13-82972",
+        "counties" : [
+            "13003"
+        ],
+        "type" : "City",
+        "population_2010" : 1391,
+        "population_2020" : 1240,
+        "population" : 1241,
+        "square_mileage" : 324.6
+    },
+    "Williamson, Pike County, Georgia" : {
+        "name" : "Williamson",
+        "state" : "13000",
+        "FIPS" : "13-83084",
+        "counties" : [
+            "13231"
+        ],
+        "type" : "City",
+        "population_2010" : 352,
+        "population_2020" : 681,
+        "population" : 1365,
+        "square_mileage" : 1154.2
+    },
+    "Winder, Barrow County, Georgia" : {
+        "name" : "Winder",
+        "state" : "13000",
+        "FIPS" : "13-83420",
+        "counties" : [
+            "13013"
+        ],
+        "type" : "City",
+        "population_2010" : 14099,
+        "population_2020" : 18338,
+        "population" : 24305,
+        "square_mileage" : 1477.7
+    },
+    "Winterville, Clarke County, Georgia" : {
+        "name" : "Winterville",
+        "state" : "13000",
+        "FIPS" : "13-83728",
+        "counties" : [
+            "13059"
+        ],
+        "type" : "City",
+        "population_2010" : 1122,
+        "population_2020" : 1201,
+        "population" : 1361,
+        "square_mileage" : 458.4
+    },
+    "Woodbine, Camden County, Georgia" : {
+        "name" : "Woodbine",
+        "state" : "13000",
+        "FIPS" : "13-83868",
+        "counties" : [
+            "13039"
+        ],
+        "type" : "City",
+        "population_2010" : 1412,
+        "population_2020" : 1062,
+        "population" : 964,
+        "square_mileage" : 423.1
+    },
+    "Woodbury, Meriwether County, Georgia" : {
+        "name" : "Woodbury",
+        "state" : "13000",
+        "FIPS" : "13-83896",
+        "counties" : [
+            "13199"
+        ],
+        "type" : "City",
+        "population_2010" : 961,
+        "population_2020" : 908,
+        "population" : 943,
+        "square_mileage" : 447.3
+    },
+    "Woodland, Talbot County, Georgia" : {
+        "name" : "Woodland",
+        "state" : "13000",
+        "FIPS" : "13-83952",
+        "counties" : [
+            "13263"
+        ],
+        "type" : "City",
+        "population_2010" : 408,
+        "population_2020" : 305,
+        "population" : 276,
+        "square_mileage" : 386.1
+    },
+    "Woodstock, Cherokee County, Georgia" : {
+        "name" : "Woodstock",
+        "state" : "13000",
+        "FIPS" : "13-84176",
+        "counties" : [
+            "13057"
+        ],
+        "type" : "City",
+        "population_2010" : 23896,
+        "population_2020" : 35065,
+        "population" : 51943,
+        "square_mileage" : 3142.0
+    },
+    "Woodville, Greene County, Georgia" : {
+        "name" : "Woodville",
+        "state" : "13000",
+        "FIPS" : "13-84260",
+        "counties" : [
+            "13133"
+        ],
+        "type" : "City",
+        "population_2010" : 321,
+        "population_2020" : 264,
+        "population" : 252,
+        "square_mileage" : 54.0
+    },
+    "Woolsey, Fayette County, Georgia" : {
+        "name" : "Woolsey",
+        "state" : "13000",
+        "FIPS" : "13-84288",
+        "counties" : [
+            "13113"
+        ],
+        "type" : "Town",
+        "population_2010" : 158,
+        "population_2020" : 206,
+        "population" : 274,
+        "square_mileage" : 251.2
+    },
+    "Wrens, Jefferson County, Georgia" : {
+        "name" : "Wrens",
+        "state" : "13000",
+        "FIPS" : "13-84456",
+        "counties" : [
+            "13163"
+        ],
+        "type" : "City",
+        "population_2010" : 2187,
+        "population_2020" : 2217,
+        "population" : 2416,
+        "square_mileage" : 708.3
+    },
+    "Wrightsville, Johnson County, Georgia" : {
+        "name" : "Wrightsville",
+        "state" : "13000",
+        "FIPS" : "13-84512",
+        "counties" : [
+            "13167"
+        ],
+        "type" : "City",
+        "population_2010" : 2195,
+        "population_2020" : 3449,
+        "population" : 5471,
+        "square_mileage" : 979.8
+    },
+    "Yatesville, Upson County, Georgia" : {
+        "name" : "Yatesville",
+        "state" : "13000",
+        "FIPS" : "13-84708",
+        "counties" : [
+            "13293"
+        ],
+        "type" : "Town",
+        "population_2010" : 357,
+        "population_2020" : 394,
+        "population" : 457,
+        "square_mileage" : 458.1
+    },
+    "Young Harris, Towns County, Georgia" : {
+        "name" : "Young Harris",
+        "state" : "13000",
+        "FIPS" : "13-84960",
+        "counties" : [
+            "13281"
+        ],
+        "type" : "City",
+        "population_2010" : 899,
+        "population_2020" : 1098,
+        "population" : 1379,
+        "square_mileage" : 1035.8
+    },
+    "Zebulon, Pike County, Georgia" : {
+        "name" : "Zebulon",
+        "state" : "13000",
+        "FIPS" : "13-85128",
+        "counties" : [
+            "13231"
+        ],
+        "type" : "City",
+        "population_2010" : 1174,
+        "population_2020" : 1225,
+        "population" : 1363,
+        "square_mileage" : 274.7
+    }
+}

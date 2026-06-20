@@ -1,0 +1,32 @@
+{
+    "FIPS" : "33",
+    "commonName" : "New Hampshire",
+    "fullName" : "State of New Hampshire",
+    "map_color" : "#99FF32",
+    "flag_loc" : "new_hampshire_flag.png",
+    "population" : 1377529,
+    "squareMileage" : 9349,
+    "abbreviation" : "NH",
+    "motto" : "new_hampshire_motto",
+    "nickname" : "new_hampshire_nickname",
+    "capital" : "Concord",
+    "federal_court_circuit" : 1,
+    "censusDivision" : "New England",
+    "descriptors" : [
+        "NEW_HAMPSHIRE",
+        "NORTHEAST",
+        "NEW_ENGLAND"
+    ],
+    "counties" : [
+        "33001",
+        "33003",
+        "33005",
+        "33007",
+        "33009",
+        "33011",
+        "33013",
+        "33015",
+        "33017",
+        "33019"
+    ]
+}

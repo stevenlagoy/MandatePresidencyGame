@@ -1,0 +1,1289 @@
+{
+    "Afton, Lincoln County, Wyoming" : {
+        "name" : "Afton",
+        "state" : "56000",
+        "FIPS" : "56-00245",
+        "counties" : [
+            "56023"
+        ],
+        "type" : "Town",
+        "population_2010" : 1911,
+        "population_2020" : 2172,
+        "population" : 2468,
+        "square_mileage" : 4.18
+    },
+    "Albin, Laramie County, Wyoming" : {
+        "name" : "Albin",
+        "state" : "56000",
+        "FIPS" : "56-00825",
+        "counties" : [
+            "56021"
+        ],
+        "type" : "Town",
+        "population_2010" : 181,
+        "population_2020" : 169,
+        "population" : 167,
+        "square_mileage" : 0.15
+    },
+    "Alpine, Lincoln County, Wyoming" : {
+        "name" : "Alpine",
+        "state" : "56000",
+        "FIPS" : "56-01695",
+        "counties" : [
+            "56023"
+        ],
+        "type" : "Town",
+        "population_2010" : 828,
+        "population_2020" : 1220,
+        "population" : 1741,
+        "square_mileage" : 0.7
+    },
+    "Baggs, Carbon County, Wyoming" : {
+        "name" : "Baggs",
+        "state" : "56000",
+        "FIPS" : "56-04740",
+        "counties" : [
+            "56007"
+        ],
+        "type" : "Town",
+        "population_2010" : 440,
+        "population_2020" : 411,
+        "population" : 406,
+        "square_mileage" : 0.51
+    },
+    "Bairoil, Sweetwater County, Wyoming" : {
+        "name" : "Bairoil",
+        "state" : "56000",
+        "FIPS" : "56-04885",
+        "counties" : [
+            "56037"
+        ],
+        "type" : "Town",
+        "population_2010" : 106,
+        "population_2020" : 68,
+        "population" : 55,
+        "square_mileage" : 1.41
+    },
+    "Bar Nunn, Natrona County, Wyoming" : {
+        "name" : "Bar Nunn",
+        "state" : "56000",
+        "FIPS" : "56-05245",
+        "counties" : [
+            "56025"
+        ],
+        "type" : "Town",
+        "population_2010" : 2213,
+        "population_2020" : 2981,
+        "population" : 3908,
+        "square_mileage" : 2.1
+    },
+    "Basin, Big Horn County, Wyoming" : {
+        "name" : "Basin",
+        "state" : "56000",
+        "FIPS" : "56-05320",
+        "counties" : [
+            "56003"
+        ],
+        "type" : "Town",
+        "population_2010" : 1285,
+        "population_2020" : 1288,
+        "population" : 1334,
+        "square_mileage" : 2.4
+    },
+    "Bear River, Uinta County, Wyoming" : {
+        "name" : "Bear River",
+        "state" : "56000",
+        "FIPS" : "56-05625",
+        "counties" : [
+            "56041"
+        ],
+        "type" : "Town",
+        "population_2010" : 518,
+        "population_2020" : 522,
+        "population" : 543,
+        "square_mileage" : 1.9
+    },
+    "Big Piney, Sublette County, Wyoming" : {
+        "name" : "Big Piney",
+        "state" : "56000",
+        "FIPS" : "56-07060",
+        "counties" : [
+            "56035"
+        ],
+        "type" : "Town",
+        "population_2010" : 552,
+        "population_2020" : 395,
+        "population" : 334,
+        "square_mileage" : 0.45
+    },
+    "Buffalo, Johnson County, Wyoming" : {
+        "name" : "Buffalo",
+        "state" : "56000",
+        "FIPS" : "56-10685",
+        "counties" : [
+            "56019"
+        ],
+        "type" : "City",
+        "population_2010" : 4585,
+        "population_2020" : 4415,
+        "population" : 4447,
+        "square_mileage" : 4.46
+    },
+    "Burlington, Big Horn County, Wyoming" : {
+        "name" : "Burlington",
+        "state" : "56000",
+        "FIPS" : "56-11120",
+        "counties" : [
+            "56003"
+        ],
+        "type" : "Town",
+        "population_2010" : 288,
+        "population_2020" : 314,
+        "population" : 346,
+        "square_mileage" : 1.01
+    },
+    "Burns, Laramie County, Wyoming" : {
+        "name" : "Burns",
+        "state" : "56000",
+        "FIPS" : "56-11265",
+        "counties" : [
+            "56021"
+        ],
+        "type" : "Town",
+        "population_2010" : 301,
+        "population_2020" : 356,
+        "population" : 417,
+        "square_mileage" : 3.05
+    },
+    "Byron, Big Horn County, Wyoming" : {
+        "name" : "Byron",
+        "state" : "56000",
+        "FIPS" : "56-11700",
+        "counties" : [
+            "56003"
+        ],
+        "type" : "Town",
+        "population_2010" : 593,
+        "population_2020" : 562,
+        "population" : 560,
+        "square_mileage" : 0.91
+    },
+    "Casper, Natrona County, Wyoming" : {
+        "name" : "Casper",
+        "state" : "56000",
+        "FIPS" : "56-13150",
+        "counties" : [
+            "56025"
+        ],
+        "type" : "City",
+        "population_2010" : 55316,
+        "population_2020" : 59038,
+        "population" : 63948,
+        "square_mileage" : 26.9
+    },
+    "Cheyenne, Laramie County, Wyoming" : {
+        "name" : "Cheyenne",
+        "state" : "56000",
+        "FIPS" : "56-13900",
+        "counties" : [
+            "56021"
+        ],
+        "type" : "City",
+        "population_2010" : 59466,
+        "population_2020" : 65132,
+        "population" : 71927,
+        "square_mileage" : 24.52
+    },
+    "Chugwater, Platte County, Wyoming" : {
+        "name" : "Chugwater",
+        "state" : "56000",
+        "FIPS" : "56-14165",
+        "counties" : [
+            "56031"
+        ],
+        "type" : "Town",
+        "population_2010" : 212,
+        "population_2020" : 175,
+        "population" : 160,
+        "square_mileage" : 3.06
+    },
+    "Clearmont, Sheridan County, Wyoming" : {
+        "name" : "Clearmont",
+        "state" : "56000",
+        "FIPS" : "56-15325",
+        "counties" : [
+            "56033"
+        ],
+        "type" : "Town",
+        "population_2010" : 142,
+        "population_2020" : 116,
+        "population" : 105,
+        "square_mileage" : 0.16
+    },
+    "Cody, Park County, Wyoming" : {
+        "name" : "Cody",
+        "state" : "56000",
+        "FIPS" : "56-15760",
+        "counties" : [
+            "56029"
+        ],
+        "type" : "City",
+        "population_2010" : 9520,
+        "population_2020" : 10028,
+        "population" : 10758,
+        "square_mileage" : 10.2
+    },
+    "Cokeville, Lincoln County, Wyoming" : {
+        "name" : "Cokeville",
+        "state" : "56000",
+        "FIPS" : "56-15905",
+        "counties" : [
+            "56023"
+        ],
+        "type" : "Town",
+        "population_2010" : 535,
+        "population_2020" : 502,
+        "population" : 497,
+        "square_mileage" : 1.18
+    },
+    "Cowley, Big Horn County, Wyoming" : {
+        "name" : "Cowley",
+        "state" : "56000",
+        "FIPS" : "56-17645",
+        "counties" : [
+            "56003"
+        ],
+        "type" : "Town",
+        "population_2010" : 655,
+        "population_2020" : 762,
+        "population" : 882,
+        "square_mileage" : 0.84
+    },
+    "Dayton, Sheridan County, Wyoming" : {
+        "name" : "Dayton",
+        "state" : "56000",
+        "FIPS" : "56-19385",
+        "counties" : [
+            "56033"
+        ],
+        "type" : "Town",
+        "population_2010" : 757,
+        "population_2020" : 822,
+        "population" : 902,
+        "square_mileage" : 0.53
+    },
+    "Deaver, Big Horn County, Wyoming" : {
+        "name" : "Deaver",
+        "state" : "56000",
+        "FIPS" : "56-19530",
+        "counties" : [
+            "56003"
+        ],
+        "type" : "Town",
+        "population_2010" : 178,
+        "population_2020" : 154,
+        "population" : 145,
+        "square_mileage" : 1.01
+    },
+    "Diamondville, Lincoln County, Wyoming" : {
+        "name" : "Diamondville",
+        "state" : "56000",
+        "FIPS" : "56-20110",
+        "counties" : [
+            "56023"
+        ],
+        "type" : "Town",
+        "population_2010" : 737,
+        "population_2020" : 520,
+        "population" : 437,
+        "square_mileage" : 1.17
+    },
+    "Dixon, Carbon County, Wyoming" : {
+        "name" : "Dixon",
+        "state" : "56000",
+        "FIPS" : "56-20690",
+        "counties" : [
+            "56007"
+        ],
+        "type" : "Town",
+        "population_2010" : 97,
+        "population_2020" : 74,
+        "population" : 65,
+        "square_mileage" : 0.13
+    },
+    "Douglas, Converse County, Wyoming" : {
+        "name" : "Douglas",
+        "state" : "56000",
+        "FIPS" : "56-21125",
+        "counties" : [
+            "56009"
+        ],
+        "type" : "City",
+        "population_2010" : 6120,
+        "population_2020" : 6386,
+        "population" : 6804,
+        "square_mileage" : 4.58
+    },
+    "Dubois, Fremont County, Wyoming" : {
+        "name" : "Dubois",
+        "state" : "56000",
+        "FIPS" : "56-21415",
+        "counties" : [
+            "56013"
+        ],
+        "type" : "Town",
+        "population_2010" : 971,
+        "population_2020" : 911,
+        "population" : 902,
+        "square_mileage" : 3.42
+    },
+    "East Thermopolis, Hot Springs County, Wyoming" : {
+        "name" : "East Thermopolis",
+        "state" : "56000",
+        "FIPS" : "56-22720",
+        "counties" : [
+            "56017"
+        ],
+        "type" : "Town",
+        "population_2010" : 254,
+        "population_2020" : 229,
+        "population" : 221,
+        "square_mileage" : 0.18
+    },
+    "Edgerton, Natrona County, Wyoming" : {
+        "name" : "Edgerton",
+        "state" : "56000",
+        "FIPS" : "56-23155",
+        "counties" : [
+            "56025"
+        ],
+        "type" : "Town",
+        "population_2010" : 195,
+        "population_2020" : 153,
+        "population" : 136,
+        "square_mileage" : 0.25
+    },
+    "Elk Mountain, Carbon County, Wyoming" : {
+        "name" : "Elk Mountain",
+        "state" : "56000",
+        "FIPS" : "56-24025",
+        "counties" : [
+            "56007"
+        ],
+        "type" : "Town",
+        "population_2010" : 191,
+        "population_2020" : 150,
+        "population" : 133,
+        "square_mileage" : 0.28
+    },
+    "Encampment, Carbon County, Wyoming" : {
+        "name" : "Encampment",
+        "state" : "56000",
+        "FIPS" : "56-24750",
+        "counties" : [
+            "56007"
+        ],
+        "type" : "Town",
+        "population_2010" : 450,
+        "population_2020" : 452,
+        "population" : 469,
+        "square_mileage" : 1.6
+    },
+    "Evanston, Uinta County, Wyoming" : {
+        "name" : "Evanston",
+        "state" : "56000",
+        "FIPS" : "56-25620",
+        "counties" : [
+            "56041"
+        ],
+        "type" : "City",
+        "population_2010" : 12359,
+        "population_2020" : 11747,
+        "population" : 11730,
+        "square_mileage" : 10.27
+    },
+    "Evansville, Natrona County, Wyoming" : {
+        "name" : "Evansville",
+        "state" : "56000",
+        "FIPS" : "56-25765",
+        "counties" : [
+            "56025"
+        ],
+        "type" : "Town",
+        "population_2010" : 2544,
+        "population_2020" : 2746,
+        "population" : 2999,
+        "square_mileage" : 3.54
+    },
+    "Fort Laramie, Goshen County, Wyoming" : {
+        "name" : "Fort Laramie",
+        "state" : "56000",
+        "FIPS" : "56-28230",
+        "counties" : [
+            "56015"
+        ],
+        "type" : "Town",
+        "population_2010" : 230,
+        "population_2020" : 206,
+        "population" : 198,
+        "square_mileage" : 0.27
+    },
+    "Frannie, Big Horn County, Wyoming" : {
+        "name" : "Frannie",
+        "state" : "56000",
+        "FIPS" : "56-29825",
+        "counties" : [
+            "56003"
+        ],
+        "type" : "Town",
+        "population_2010" : 157,
+        "population_2020" : 145,
+        "population" : 142,
+        "square_mileage" : 0.44
+    },
+    "Gillette, Campbell County, Wyoming" : {
+        "name" : "Gillette",
+        "state" : "56000",
+        "FIPS" : "56-31855",
+        "counties" : [
+            "56005"
+        ],
+        "type" : "City",
+        "population_2010" : 29087,
+        "population_2020" : 33403,
+        "population" : 38261,
+        "square_mileage" : 18.97
+    },
+    "Glendo, Platte County, Wyoming" : {
+        "name" : "Glendo",
+        "state" : "56000",
+        "FIPS" : "56-32290",
+        "counties" : [
+            "56031"
+        ],
+        "type" : "Town",
+        "population_2010" : 205,
+        "population_2020" : 237,
+        "population" : 273,
+        "square_mileage" : 0.53
+    },
+    "Glenrock, Converse County, Wyoming" : {
+        "name" : "Glenrock",
+        "state" : "56000",
+        "FIPS" : "56-32435",
+        "counties" : [
+            "56009"
+        ],
+        "type" : "Town",
+        "population_2010" : 2576,
+        "population_2020" : 2420,
+        "population" : 2398,
+        "square_mileage" : 2.28
+    },
+    "Granger, Sweetwater County, Wyoming" : {
+        "name" : "Granger",
+        "state" : "56000",
+        "FIPS" : "56-32870",
+        "counties" : [
+            "56037"
+        ],
+        "type" : "Town",
+        "population_2010" : 139,
+        "population_2020" : 98,
+        "population" : 82,
+        "square_mileage" : 2.53
+    },
+    "Green River, Sweetwater County, Wyoming" : {
+        "name" : "Green River",
+        "state" : "56000",
+        "FIPS" : "56-33740",
+        "counties" : [
+            "56037"
+        ],
+        "type" : "City",
+        "population_2010" : 12515,
+        "population_2020" : 11825,
+        "population" : 11762,
+        "square_mileage" : 13.72
+    },
+    "Greybull, Big Horn County, Wyoming" : {
+        "name" : "Greybull",
+        "state" : "56000",
+        "FIPS" : "56-33885",
+        "counties" : [
+            "56003"
+        ],
+        "type" : "Town",
+        "population_2010" : 1847,
+        "population_2020" : 1651,
+        "population" : 1584,
+        "square_mileage" : 1.81
+    },
+    "Guernsey, Platte County, Wyoming" : {
+        "name" : "Guernsey",
+        "state" : "56000",
+        "FIPS" : "56-34320",
+        "counties" : [
+            "56031"
+        ],
+        "type" : "Town",
+        "population_2010" : 1147,
+        "population_2020" : 1130,
+        "population" : 1156,
+        "square_mileage" : 1.02
+    },
+    "Hanna, Carbon County, Wyoming" : {
+        "name" : "Hanna",
+        "state" : "56000",
+        "FIPS" : "56-35335",
+        "counties" : [
+            "56007"
+        ],
+        "type" : "Town",
+        "population_2010" : 841,
+        "population_2020" : 683,
+        "population" : 619,
+        "square_mileage" : 2.04
+    },
+    "Hartville, Platte County, Wyoming" : {
+        "name" : "Hartville",
+        "state" : "56000",
+        "FIPS" : "56-35625",
+        "counties" : [
+            "56031"
+        ],
+        "type" : "Town",
+        "population_2010" : 62,
+        "population_2020" : 64,
+        "population" : 68,
+        "square_mileage" : 0.25
+    },
+    "Hudson, Fremont County, Wyoming" : {
+        "name" : "Hudson",
+        "state" : "56000",
+        "FIPS" : "56-38960",
+        "counties" : [
+            "56013"
+        ],
+        "type" : "Town",
+        "population_2010" : 458,
+        "population_2020" : 431,
+        "population" : 428,
+        "square_mileage" : 0.43
+    },
+    "Hulett, Crook County, Wyoming" : {
+        "name" : "Hulett",
+        "state" : "56000",
+        "FIPS" : "56-39105",
+        "counties" : [
+            "56011"
+        ],
+        "type" : "Town",
+        "population_2010" : 383,
+        "population_2020" : 309,
+        "population" : 279,
+        "square_mileage" : 0.87
+    },
+    "Jackson, Teton County, Wyoming" : {
+        "name" : "Jackson",
+        "state" : "56000",
+        "FIPS" : "56-40120",
+        "counties" : [
+            "56039"
+        ],
+        "type" : "Town",
+        "population_2010" : 9577,
+        "population_2020" : 10760,
+        "population" : 12116,
+        "square_mileage" : 2.91
+    },
+    "Kaycee, Johnson County, Wyoming" : {
+        "name" : "Kaycee",
+        "state" : "56000",
+        "FIPS" : "56-41353",
+        "counties" : [
+            "56019"
+        ],
+        "type" : "Town",
+        "population_2010" : 263,
+        "population_2020" : 247,
+        "population" : 245,
+        "square_mileage" : 0.4
+    },
+    "Kemmerer, Lincoln County, Wyoming" : {
+        "name" : "Kemmerer",
+        "state" : "56000",
+        "FIPS" : "56-42005",
+        "counties" : [
+            "56023"
+        ],
+        "type" : "City",
+        "population_2010" : 2656,
+        "population_2020" : 2415,
+        "population" : 2343,
+        "square_mileage" : 7.8
+    },
+    "Kirby, Hot Springs County, Wyoming" : {
+        "name" : "Kirby",
+        "state" : "56000",
+        "FIPS" : "56-42730",
+        "counties" : [
+            "56017"
+        ],
+        "type" : "Town",
+        "population_2010" : 92,
+        "population_2020" : 76,
+        "population" : 70,
+        "square_mileage" : 0.15
+    },
+    "La Barge, Lincoln County, Wyoming" : {
+        "name" : "La Barge",
+        "state" : "56000",
+        "FIPS" : "56-43455",
+        "counties" : [
+            "56023"
+        ],
+        "type" : "Town",
+        "population_2010" : 551,
+        "population_2020" : 394,
+        "population" : 333,
+        "square_mileage" : 0.97
+    },
+    "LaGrange, Goshen County, Wyoming" : {
+        "name" : "LaGrange",
+        "state" : "56000",
+        "FIPS" : "56-43745",
+        "counties" : [
+            "56015"
+        ],
+        "type" : "Town",
+        "population_2010" : 448,
+        "population_2020" : 372,
+        "population" : 341,
+        "square_mileage" : 0.41
+    },
+    "Lander, Fremont County, Wyoming" : {
+        "name" : "Lander",
+        "state" : "56000",
+        "FIPS" : "56-44760",
+        "counties" : [
+            "56013"
+        ],
+        "type" : "City",
+        "population_2010" : 7487,
+        "population_2020" : 7546,
+        "population" : 7843,
+        "square_mileage" : 4.66
+    },
+    "Laramie, Albany County, Wyoming" : {
+        "name" : "Laramie",
+        "state" : "56000",
+        "FIPS" : "56-45050",
+        "counties" : [
+            "56001"
+        ],
+        "type" : "City",
+        "population_2010" : 30816,
+        "population_2020" : 31407,
+        "population" : 32903,
+        "square_mileage" : 17.74
+    },
+    "Lingle, Goshen County, Wyoming" : {
+        "name" : "Lingle",
+        "state" : "56000",
+        "FIPS" : "56-46790",
+        "counties" : [
+            "56015"
+        ],
+        "type" : "Town",
+        "population_2010" : 468,
+        "population_2020" : 403,
+        "population" : 378,
+        "square_mileage" : 0.31
+    },
+    "Lost Springs, Converse County, Wyoming" : {
+        "name" : "Lost Springs",
+        "state" : "56000",
+        "FIPS" : "56-47805",
+        "counties" : [
+            "56009"
+        ],
+        "type" : "Town",
+        "population_2010" : 4,
+        "population_2020" : 6,
+        "population" : 9,
+        "square_mileage" : 0.09
+    },
+    "Lovell, Big Horn County, Wyoming" : {
+        "name" : "Lovell",
+        "state" : "56000",
+        "FIPS" : "56-47950",
+        "counties" : [
+            "56003"
+        ],
+        "type" : "Town",
+        "population_2010" : 2360,
+        "population_2020" : 2243,
+        "population" : 2240,
+        "square_mileage" : 1.1
+    },
+    "Lusk, Niobrara County, Wyoming" : {
+        "name" : "Lusk",
+        "state" : "56000",
+        "FIPS" : "56-48530",
+        "counties" : [
+            "56027"
+        ],
+        "type" : "Town",
+        "population_2010" : 1567,
+        "population_2020" : 1541,
+        "population" : 1575,
+        "square_mileage" : 2.07
+    },
+    "Lyman, Uinta County, Wyoming" : {
+        "name" : "Lyman",
+        "state" : "56000",
+        "FIPS" : "56-48675",
+        "counties" : [
+            "56041"
+        ],
+        "type" : "Town",
+        "population_2010" : 2115,
+        "population_2020" : 2135,
+        "population" : 2222,
+        "square_mileage" : 1.71
+    },
+    "Manderson, Big Horn County, Wyoming" : {
+        "name" : "Manderson",
+        "state" : "56000",
+        "FIPS" : "56-49980",
+        "counties" : [
+            "56003"
+        ],
+        "type" : "Town",
+        "population_2010" : 114,
+        "population_2020" : 88,
+        "population" : 77,
+        "square_mileage" : 0.85
+    },
+    "Manville, Niobrara County, Wyoming" : {
+        "name" : "Manville",
+        "state" : "56000",
+        "FIPS" : "56-50270",
+        "counties" : [
+            "56027"
+        ],
+        "type" : "Town",
+        "population_2010" : 95,
+        "population_2020" : 92,
+        "population" : 93,
+        "square_mileage" : 0.27
+    },
+    "Marbleton, Sublette County, Wyoming" : {
+        "name" : "Marbleton",
+        "state" : "56000",
+        "FIPS" : "56-50415",
+        "counties" : [
+            "56035"
+        ],
+        "type" : "Town",
+        "population_2010" : 1094,
+        "population_2020" : 861,
+        "population" : 766,
+        "square_mileage" : 0.86
+    },
+    "Medicine Bow, Carbon County, Wyoming" : {
+        "name" : "Medicine Bow",
+        "state" : "56000",
+        "FIPS" : "56-51575",
+        "counties" : [
+            "56007"
+        ],
+        "type" : "Town",
+        "population_2010" : 284,
+        "population_2020" : 245,
+        "population" : 230,
+        "square_mileage" : 3.46
+    },
+    "Meeteetse, Park County, Wyoming" : {
+        "name" : "Meeteetse",
+        "state" : "56000",
+        "FIPS" : "56-51720",
+        "counties" : [
+            "56029"
+        ],
+        "type" : "Town",
+        "population_2010" : 327,
+        "population_2020" : 309,
+        "population" : 307,
+        "square_mileage" : 0.87
+    },
+    "Midwest, Natrona County, Wyoming" : {
+        "name" : "Midwest",
+        "state" : "56000",
+        "FIPS" : "56-52445",
+        "counties" : [
+            "56025"
+        ],
+        "type" : "Town",
+        "population_2010" : 404,
+        "population_2020" : 285,
+        "population" : 239,
+        "square_mileage" : 0.43
+    },
+    "Mills, Natrona County, Wyoming" : {
+        "name" : "Mills",
+        "state" : "56000",
+        "FIPS" : "56-53460",
+        "counties" : [
+            "56025"
+        ],
+        "type" : "Town",
+        "population_2010" : 3461,
+        "population_2020" : 4034,
+        "population" : 4675,
+        "square_mileage" : 2.15
+    },
+    "Moorcroft, Crook County, Wyoming" : {
+        "name" : "Moorcroft",
+        "state" : "56000",
+        "FIPS" : "56-54185",
+        "counties" : [
+            "56011"
+        ],
+        "type" : "Town",
+        "population_2010" : 1009,
+        "population_2020" : 946,
+        "population" : 936,
+        "square_mileage" : 1.26
+    },
+    "Mountain View, Uinta County, Wyoming" : {
+        "name" : "Mountain View",
+        "state" : "56000",
+        "FIPS" : "56-55345",
+        "counties" : [
+            "56041"
+        ],
+        "type" : "Town",
+        "population_2010" : 1286,
+        "population_2020" : 1278,
+        "population" : 1315,
+        "square_mileage" : 0.84
+    },
+    "Newcastle, Weston County, Wyoming" : {
+        "name" : "Newcastle",
+        "state" : "56000",
+        "FIPS" : "56-56215",
+        "counties" : [
+            "56045"
+        ],
+        "type" : "City",
+        "population_2010" : 3532,
+        "population_2020" : 3374,
+        "population" : 3381,
+        "square_mileage" : 2.55
+    },
+    "Opal, Lincoln County, Wyoming" : {
+        "name" : "Opal",
+        "state" : "56000",
+        "FIPS" : "56-57810",
+        "counties" : [
+            "56023"
+        ],
+        "type" : "Town",
+        "population_2010" : 96,
+        "population_2020" : 64,
+        "population" : 52,
+        "square_mileage" : 0.39
+    },
+    "Pavillion, Fremont County, Wyoming" : {
+        "name" : "Pavillion",
+        "state" : "56000",
+        "FIPS" : "56-60130",
+        "counties" : [
+            "56013"
+        ],
+        "type" : "Town",
+        "population_2010" : 231,
+        "population_2020" : 230,
+        "population" : 237,
+        "square_mileage" : 0.21
+    },
+    "Pine Bluffs, Laramie County, Wyoming" : {
+        "name" : "Pine Bluffs",
+        "state" : "56000",
+        "FIPS" : "56-61435",
+        "counties" : [
+            "56021"
+        ],
+        "type" : "Town",
+        "population_2010" : 1129,
+        "population_2020" : 1172,
+        "population" : 1244,
+        "square_mileage" : 3.22
+    },
+    "Pinedale, Sublette County, Wyoming" : {
+        "name" : "Pinedale",
+        "state" : "56000",
+        "FIPS" : "56-61580",
+        "counties" : [
+            "56035"
+        ],
+        "type" : "Town",
+        "population_2010" : 2030,
+        "population_2020" : 2005,
+        "population" : 2055,
+        "square_mileage" : 2.15
+    },
+    "Pine Haven, Crook County, Wyoming" : {
+        "name" : "Pine Haven",
+        "state" : "56000",
+        "FIPS" : "56-61610",
+        "counties" : [
+            "56011"
+        ],
+        "type" : "Town",
+        "population_2010" : 490,
+        "population_2020" : 493,
+        "population" : 512,
+        "square_mileage" : 1.31
+    },
+    "Powell, Park County, Wyoming" : {
+        "name" : "Powell",
+        "state" : "56000",
+        "FIPS" : "56-62450",
+        "counties" : [
+            "56029"
+        ],
+        "type" : "City",
+        "population_2010" : 6314,
+        "population_2020" : 6419,
+        "population" : 6713,
+        "square_mileage" : 4.24
+    },
+    "Ranchester, Sheridan County, Wyoming" : {
+        "name" : "Ranchester",
+        "state" : "56000",
+        "FIPS" : "56-63755",
+        "counties" : [
+            "56033"
+        ],
+        "type" : "Town",
+        "population_2010" : 855,
+        "population_2020" : 1064,
+        "population" : 1301,
+        "square_mileage" : 0.61
+    },
+    "Rawlins, Carbon County, Wyoming" : {
+        "name" : "Rawlins",
+        "state" : "56000",
+        "FIPS" : "56-63900",
+        "counties" : [
+            "56007"
+        ],
+        "type" : "City",
+        "population_2010" : 9259,
+        "population_2020" : 8221,
+        "population" : 7856,
+        "square_mileage" : 8.24
+    },
+    "Riverside, Carbon County, Wyoming" : {
+        "name" : "Riverside",
+        "state" : "56000",
+        "FIPS" : "56-66075",
+        "counties" : [
+            "56007"
+        ],
+        "type" : "Town",
+        "population_2010" : 52,
+        "population_2020" : 66,
+        "population" : 82,
+        "square_mileage" : 0.27
+    },
+    "Riverton, Fremont County, Wyoming" : {
+        "name" : "Riverton",
+        "state" : "56000",
+        "FIPS" : "56-66220",
+        "counties" : [
+            "56013"
+        ],
+        "type" : "City",
+        "population_2010" : 10615,
+        "population_2020" : 10682,
+        "population" : 11091,
+        "square_mileage" : 9.86
+    },
+    "Rock River, Albany County, Wyoming" : {
+        "name" : "Rock River",
+        "state" : "56000",
+        "FIPS" : "56-67090",
+        "counties" : [
+            "56001"
+        ],
+        "type" : "Town",
+        "population_2010" : 245,
+        "population_2020" : 211,
+        "population" : 198,
+        "square_mileage" : 2.33
+    },
+    "Rock Springs, Sweetwater County, Wyoming" : {
+        "name" : "Rock Springs",
+        "state" : "56000",
+        "FIPS" : "56-67235",
+        "counties" : [
+            "56037"
+        ],
+        "type" : "City",
+        "population_2010" : 23036,
+        "population_2020" : 23526,
+        "population" : 24682,
+        "square_mileage" : 19.34
+    },
+    "Rolling Hills, Converse County, Wyoming" : {
+        "name" : "Rolling Hills",
+        "state" : "56000",
+        "FIPS" : "56-67440",
+        "counties" : [
+            "56009"
+        ],
+        "type" : "Town",
+        "population_2010" : 440,
+        "population_2020" : 427,
+        "population" : 432,
+        "square_mileage" : 0.66
+    },
+    "Saratoga, Carbon County, Wyoming" : {
+        "name" : "Saratoga",
+        "state" : "56000",
+        "FIPS" : "56-68685",
+        "counties" : [
+            "56007"
+        ],
+        "type" : "Town",
+        "population_2010" : 1690,
+        "population_2020" : 1702,
+        "population" : 1768,
+        "square_mileage" : 3.4
+    },
+    "Sheridan, Sheridan County, Wyoming" : {
+        "name" : "Sheridan",
+        "state" : "56000",
+        "FIPS" : "56-69845",
+        "counties" : [
+            "56033"
+        ],
+        "type" : "City",
+        "population_2010" : 17444,
+        "population_2020" : 18737,
+        "population" : 20392,
+        "square_mileage" : 10.93
+    },
+    "Shoshoni, Fremont County, Wyoming" : {
+        "name" : "Shoshoni",
+        "state" : "56000",
+        "FIPS" : "56-70570",
+        "counties" : [
+            "56013"
+        ],
+        "type" : "Town",
+        "population_2010" : 649,
+        "population_2020" : 471,
+        "population" : 401,
+        "square_mileage" : 3.58
+    },
+    "Sinclair, Carbon County, Wyoming" : {
+        "name" : "Sinclair",
+        "state" : "56000",
+        "FIPS" : "56-71150",
+        "counties" : [
+            "56007"
+        ],
+        "type" : "Town",
+        "population_2010" : 433,
+        "population_2020" : 374,
+        "population" : 351,
+        "square_mileage" : 2.43
+    },
+    "Star Valley Ranch, Lincoln County, Wyoming" : {
+        "name" : "Star Valley Ranch",
+        "state" : "56000",
+        "FIPS" : "56-73180",
+        "counties" : [
+            "56023"
+        ],
+        "type" : "Town",
+        "population_2010" : 1503,
+        "population_2020" : 1866,
+        "population" : 2278,
+        "square_mileage" : 2.7
+    },
+    "Sundance, Crook County, Wyoming" : {
+        "name" : "Sundance",
+        "state" : "56000",
+        "FIPS" : "56-74195",
+        "counties" : [
+            "56011"
+        ],
+        "type" : "Town",
+        "population_2010" : 1182,
+        "population_2020" : 1032,
+        "population" : 976,
+        "square_mileage" : 3.05
+    },
+    "Superior, Sweetwater County, Wyoming" : {
+        "name" : "Superior",
+        "state" : "56000",
+        "FIPS" : "56-74775",
+        "counties" : [
+            "56037"
+        ],
+        "type" : "Town",
+        "population_2010" : 336,
+        "population_2020" : 184,
+        "population" : 138,
+        "square_mileage" : 1.09
+    },
+    "Ten Sleep, Washakie County, Wyoming" : {
+        "name" : "Ten Sleep",
+        "state" : "56000",
+        "FIPS" : "56-75790",
+        "counties" : [
+            "56043"
+        ],
+        "type" : "Town",
+        "population_2010" : 260,
+        "population_2020" : 246,
+        "population" : 245,
+        "square_mileage" : 0.18
+    },
+    "Thayne, Lincoln County, Wyoming" : {
+        "name" : "Thayne",
+        "state" : "56000",
+        "FIPS" : "56-76370",
+        "counties" : [
+            "56023"
+        ],
+        "type" : "Town",
+        "population_2010" : 366,
+        "population_2020" : 380,
+        "population" : 403,
+        "square_mileage" : 1.39
+    },
+    "Thermopolis, Hot Springs County, Wyoming" : {
+        "name" : "Thermopolis",
+        "state" : "56000",
+        "FIPS" : "56-76515",
+        "counties" : [
+            "56017"
+        ],
+        "type" : "Town",
+        "population_2010" : 3009,
+        "population_2020" : 2725,
+        "population" : 2637,
+        "square_mileage" : 2.38
+    },
+    "Torrington, Goshen County, Wyoming" : {
+        "name" : "Torrington",
+        "state" : "56000",
+        "FIPS" : "56-77530",
+        "counties" : [
+            "56015"
+        ],
+        "type" : "City",
+        "population_2010" : 6501,
+        "population_2020" : 6119,
+        "population" : 6071,
+        "square_mileage" : 4.62
+    },
+    "Upton, Weston County, Wyoming" : {
+        "name" : "Upton",
+        "state" : "56000",
+        "FIPS" : "56-79125",
+        "counties" : [
+            "56045"
+        ],
+        "type" : "Town",
+        "population_2010" : 1100,
+        "population_2020" : 898,
+        "population" : 816,
+        "square_mileage" : 2.96
+    },
+    "Van Tassell, Niobrara County, Wyoming" : {
+        "name" : "Van Tassell",
+        "state" : "56000",
+        "FIPS" : "56-79705",
+        "counties" : [
+            "56027"
+        ],
+        "type" : "Town",
+        "population_2010" : 15,
+        "population_2020" : 22,
+        "population" : 31,
+        "square_mileage" : 1.83
+    },
+    "Wamsutter, Sweetwater County, Wyoming" : {
+        "name" : "Wamsutter",
+        "state" : "56000",
+        "FIPS" : "56-81300",
+        "counties" : [
+            "56037"
+        ],
+        "type" : "Town",
+        "population_2010" : 451,
+        "population_2020" : 203,
+        "population" : 142,
+        "square_mileage" : 1.45
+    },
+    "Wheatland, Platte County, Wyoming" : {
+        "name" : "Wheatland",
+        "state" : "56000",
+        "FIPS" : "56-83040",
+        "counties" : [
+            "56031"
+        ],
+        "type" : "Town",
+        "population_2010" : 3627,
+        "population_2020" : 3588,
+        "population" : 3681,
+        "square_mileage" : 4.1
+    },
+    "Worland, Washakie County, Wyoming" : {
+        "name" : "Worland",
+        "state" : "56000",
+        "FIPS" : "56-84925",
+        "counties" : [
+            "56043"
+        ],
+        "type" : "City",
+        "population_2010" : 5487,
+        "population_2020" : 4773,
+        "population" : 4504,
+        "square_mileage" : 4.56
+    },
+    "Wright, Campbell County, Wyoming" : {
+        "name" : "Wright",
+        "state" : "56000",
+        "FIPS" : "56-85015",
+        "counties" : [
+            "56005"
+        ],
+        "type" : "Town",
+        "population_2010" : 1807,
+        "population_2020" : 1644,
+        "population" : 1595,
+        "square_mileage" : 2.85
+    },
+    "Yoder, Goshen County, Wyoming" : {
+        "name" : "Yoder",
+        "state" : "56000",
+        "FIPS" : "56-86665",
+        "counties" : [
+            "56015"
+        ],
+        "type" : "Town",
+        "population_2010" : 151,
+        "population_2020" : 131,
+        "population" : 123,
+        "square_mileage" : 0.21
+    }
+}

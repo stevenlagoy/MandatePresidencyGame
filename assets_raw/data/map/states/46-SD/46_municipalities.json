@@ -1,0 +1,4041 @@
+{
+    "Sioux Falls, Minnehaha County, South Dakota" : {
+        "name" : "Sioux Falls",
+        "state" : "46000",
+        "FIPS" : "46-59020",
+        "counties" : [
+            "46099",
+            "46083"
+        ],
+        "type" : "City",
+        "population_2010" : 192517,
+        "population_2020" : 192517,
+        "population" : 207480,
+        "square_mileage" : 0.0
+    },
+    "Rapid City, Pennington County, South Dakota" : {
+        "name" : "Rapid City",
+        "state" : "46000",
+        "FIPS" : "46-52980",
+        "counties" : [
+            "46103"
+        ],
+        "type" : "City",
+        "population_2010" : 74703,
+        "population_2020" : 74703,
+        "population" : 80509,
+        "square_mileage" : 0.0
+    },
+    "Aberdeen, Brown County, South Dakota" : {
+        "name" : "Aberdeen",
+        "state" : "46000",
+        "FIPS" : "46-00100",
+        "counties" : [
+            "46013"
+        ],
+        "type" : "City",
+        "population_2010" : 28495,
+        "population_2020" : 28495,
+        "population" : 30710,
+        "square_mileage" : 0.0
+    },
+    "Brookings, Brookings County, South Dakota" : {
+        "name" : "Brookings",
+        "state" : "46000",
+        "FIPS" : "46-07580",
+        "counties" : [
+            "46011"
+        ],
+        "type" : "City",
+        "population_2010" : 23377,
+        "population_2020" : 23377,
+        "population" : 25194,
+        "square_mileage" : 0.0
+    },
+    "Watertown, Codington County, South Dakota" : {
+        "name" : "Watertown",
+        "state" : "46000",
+        "FIPS" : "46-69300",
+        "counties" : [
+            "46029"
+        ],
+        "type" : "City",
+        "population_2010" : 22655,
+        "population_2020" : 22655,
+        "population" : 24416,
+        "square_mileage" : 0.0
+    },
+    "Yankton, Yankton County, South Dakota" : {
+        "name" : "Yankton",
+        "state" : "46000",
+        "FIPS" : "46-73060",
+        "counties" : [
+            "46135"
+        ],
+        "type" : "City",
+        "population_2010" : 15411,
+        "population_2020" : 15411,
+        "population" : 16609,
+        "square_mileage" : 0.0
+    },
+    "Mitchell, Davison County, South Dakota" : {
+        "name" : "Mitchell",
+        "state" : "46000",
+        "FIPS" : "46-43100",
+        "counties" : [
+            "46035"
+        ],
+        "type" : "City",
+        "population_2010" : 15660,
+        "population_2020" : 15660,
+        "population" : 16877,
+        "square_mileage" : 0.0
+    },
+    "Huron, Beadle County, South Dakota" : {
+        "name" : "Huron",
+        "state" : "46000",
+        "FIPS" : "46-31060",
+        "counties" : [
+            "46005"
+        ],
+        "type" : "City",
+        "population_2010" : 14263,
+        "population_2020" : 14263,
+        "population" : 15372,
+        "square_mileage" : 0.0
+    },
+    "Box Elder, Pennington County, South Dakota" : {
+        "name" : "Box Elder",
+        "state" : "46000",
+        "FIPS" : "46-06620",
+        "counties" : [
+            "46103",
+            "46093"
+        ],
+        "type" : "City",
+        "population_2010" : 11746,
+        "population_2020" : 11746,
+        "population" : 12659,
+        "square_mileage" : 0.0
+    },
+    "Spearfish, Lawrence County, South Dakota" : {
+        "name" : "Spearfish",
+        "state" : "46000",
+        "FIPS" : "46-60020",
+        "counties" : [
+            "46081"
+        ],
+        "type" : "City",
+        "population_2010" : 12193,
+        "population_2020" : 12193,
+        "population" : 13141,
+        "square_mileage" : 0.0
+    },
+    "Pierre, Hughes County, South Dakota" : {
+        "name" : "Pierre",
+        "state" : "46000",
+        "FIPS" : "46-49600",
+        "counties" : [
+            "46065"
+        ],
+        "type" : "City",
+        "population_2010" : 14091,
+        "population_2020" : 14091,
+        "population" : 15186,
+        "square_mileage" : 0.0
+    },
+    "Vermillion, Clay County, South Dakota" : {
+        "name" : "Vermillion",
+        "state" : "46000",
+        "FIPS" : "46-66700",
+        "counties" : [
+            "46027"
+        ],
+        "type" : "City",
+        "population_2010" : 11695,
+        "population_2020" : 11695,
+        "population" : 12604,
+        "square_mileage" : 0.0
+    },
+    "Brandon, Minnehaha County, South Dakota" : {
+        "name" : "Brandon",
+        "state" : "46000",
+        "FIPS" : "46-06840",
+        "counties" : [
+            "46099"
+        ],
+        "type" : "City",
+        "population_2010" : 11048,
+        "population_2020" : 11048,
+        "population" : 11907,
+        "square_mileage" : 0.0
+    },
+    "Harrisburg, Lincoln County, South Dakota" : {
+        "name" : "Harrisburg",
+        "state" : "46000",
+        "FIPS" : "46-27260",
+        "counties" : [
+            "46083"
+        ],
+        "type" : "City",
+        "population_2010" : 6732,
+        "population_2020" : 6732,
+        "population" : 7255,
+        "square_mileage" : 0.0
+    },
+    "Tea, Lincoln County, South Dakota" : {
+        "name" : "Tea",
+        "state" : "46000",
+        "FIPS" : "46-63100",
+        "counties" : [
+            "46083"
+        ],
+        "type" : "City",
+        "population_2010" : 5598,
+        "population_2020" : 5598,
+        "population" : 6033,
+        "square_mileage" : 0.0
+    },
+    "Sturgis, Meade County, South Dakota" : {
+        "name" : "Sturgis",
+        "state" : "46000",
+        "FIPS" : "46-62100",
+        "counties" : [
+            "46093"
+        ],
+        "type" : "City",
+        "population_2010" : 7020,
+        "population_2020" : 7020,
+        "population" : 7566,
+        "square_mileage" : 0.0
+    },
+    "Madison, Lake County, South Dakota" : {
+        "name" : "Madison",
+        "state" : "46000",
+        "FIPS" : "46-40220",
+        "counties" : [
+            "46079"
+        ],
+        "type" : "City",
+        "population_2010" : 6191,
+        "population_2020" : 6191,
+        "population" : 6672,
+        "square_mileage" : 0.0
+    },
+    "Belle Fourche, Butte County, South Dakota" : {
+        "name" : "Belle Fourche",
+        "state" : "46000",
+        "FIPS" : "46-04380",
+        "counties" : [
+            "46019"
+        ],
+        "type" : "City",
+        "population_2010" : 5617,
+        "population_2020" : 5617,
+        "population" : 6054,
+        "square_mileage" : 0.0
+    },
+    "Dell Rapids, Minnehaha County, South Dakota" : {
+        "name" : "Dell Rapids",
+        "state" : "46000",
+        "FIPS" : "46-15980",
+        "counties" : [
+            "46099"
+        ],
+        "type" : "City",
+        "population_2010" : 3996,
+        "population_2020" : 3996,
+        "population" : 4307,
+        "square_mileage" : 0.0
+    },
+    "Hot Springs, Fall River County, South Dakota" : {
+        "name" : "Hot Springs",
+        "state" : "46000",
+        "FIPS" : "46-30220",
+        "counties" : [
+            "46047"
+        ],
+        "type" : "City",
+        "population_2010" : 3395,
+        "population_2020" : 3395,
+        "population" : 3659,
+        "square_mileage" : 0.0
+    },
+    "Hartford, Minnehaha County, South Dakota" : {
+        "name" : "Hartford",
+        "state" : "46000",
+        "FIPS" : "46-27540",
+        "counties" : [
+            "46099"
+        ],
+        "type" : "City",
+        "population_2010" : 3354,
+        "population_2020" : 3354,
+        "population" : 3615,
+        "square_mileage" : 0.0
+    },
+    "Milbank, Grant County, South Dakota" : {
+        "name" : "Milbank",
+        "state" : "46000",
+        "FIPS" : "46-42260",
+        "counties" : [
+            "46051"
+        ],
+        "type" : "City",
+        "population_2010" : 3544,
+        "population_2020" : 3544,
+        "population" : 3819,
+        "square_mileage" : 0.0
+    },
+    "Mobridge, Walworth County, South Dakota" : {
+        "name" : "Mobridge",
+        "state" : "46000",
+        "FIPS" : "46-43180",
+        "counties" : [
+            "46129"
+        ],
+        "type" : "City",
+        "population_2010" : 3261,
+        "population_2020" : 3261,
+        "population" : 3514,
+        "square_mileage" : 0.0
+    },
+    "North Sioux City, Union County, South Dakota" : {
+        "name" : "North Sioux City",
+        "state" : "46000",
+        "FIPS" : "46-45700",
+        "counties" : [
+            "46127"
+        ],
+        "type" : "City",
+        "population_2010" : 3042,
+        "population_2020" : 3042,
+        "population" : 3278,
+        "square_mileage" : 0.0
+    },
+    "Lead, Lawrence County, South Dakota" : {
+        "name" : "Lead",
+        "state" : "46000",
+        "FIPS" : "46-36220",
+        "counties" : [
+            "46081"
+        ],
+        "type" : "City",
+        "population_2010" : 2982,
+        "population_2020" : 2982,
+        "population" : 3214,
+        "square_mileage" : 0.0
+    },
+    "Summerset, Meade County, South Dakota" : {
+        "name" : "Summerset",
+        "state" : "46000",
+        "FIPS" : "46-62155",
+        "counties" : [
+            "46093"
+        ],
+        "type" : "City",
+        "population_2010" : 2972,
+        "population_2020" : 2972,
+        "population" : 3203,
+        "square_mileage" : 0.0
+    },
+    "Canton, Lincoln County, South Dakota" : {
+        "name" : "Canton",
+        "state" : "46000",
+        "FIPS" : "46-09500",
+        "counties" : [
+            "46083"
+        ],
+        "type" : "City",
+        "population_2010" : 3066,
+        "population_2020" : 3066,
+        "population" : 3304,
+        "square_mileage" : 0.0
+    },
+    "Winner, Tripp County, South Dakota" : {
+        "name" : "Winner",
+        "state" : "46000",
+        "FIPS" : "46-72180",
+        "counties" : [
+            "46123"
+        ],
+        "type" : "City",
+        "population_2010" : 2921,
+        "population_2020" : 2921,
+        "population" : 3148,
+        "square_mileage" : 0.0
+    },
+    "Lennox, Lincoln County, South Dakota" : {
+        "name" : "Lennox",
+        "state" : "46000",
+        "FIPS" : "46-36380",
+        "counties" : [
+            "46083"
+        ],
+        "type" : "City",
+        "population_2010" : 2423,
+        "population_2020" : 2423,
+        "population" : 2611,
+        "square_mileage" : 0.0
+    },
+    "Chamberlain, Brule County, South Dakota" : {
+        "name" : "Chamberlain",
+        "state" : "46000",
+        "FIPS" : "46-11220",
+        "counties" : [
+            "46015"
+        ],
+        "type" : "City",
+        "population_2010" : 2473,
+        "population_2020" : 2473,
+        "population" : 2665,
+        "square_mileage" : 0.0
+    },
+    "Sisseton, Roberts County, South Dakota" : {
+        "name" : "Sisseton",
+        "state" : "46000",
+        "FIPS" : "46-59260",
+        "counties" : [
+            "46109"
+        ],
+        "type" : "City",
+        "population_2010" : 2479,
+        "population_2020" : 2479,
+        "population" : 2672,
+        "square_mileage" : 0.0
+    },
+    "Volga, Brookings County, South Dakota" : {
+        "name" : "Volga",
+        "state" : "46000",
+        "FIPS" : "46-67700",
+        "counties" : [
+            "46011"
+        ],
+        "type" : "City",
+        "population_2010" : 2113,
+        "population_2020" : 2113,
+        "population" : 2277,
+        "square_mileage" : 0.0
+    },
+    "Flandreau, Moody County, South Dakota" : {
+        "name" : "Flandreau",
+        "state" : "46000",
+        "FIPS" : "46-21540",
+        "counties" : [
+            "46101"
+        ],
+        "type" : "City",
+        "population_2010" : 2372,
+        "population_2020" : 2372,
+        "population" : 2556,
+        "square_mileage" : 0.0
+    },
+    "Fort Pierre, Stanley County, South Dakota" : {
+        "name" : "Fort Pierre",
+        "state" : "46000",
+        "FIPS" : "46-22260",
+        "counties" : [
+            "46117"
+        ],
+        "type" : "City",
+        "population_2010" : 2115,
+        "population_2020" : 2115,
+        "population" : 2279,
+        "square_mileage" : 0.0
+    },
+    "Redfield, Spink County, South Dakota" : {
+        "name" : "Redfield",
+        "state" : "46000",
+        "FIPS" : "46-53460",
+        "counties" : [
+            "46115"
+        ],
+        "type" : "City",
+        "population_2010" : 2214,
+        "population_2020" : 2214,
+        "population" : 2386,
+        "square_mileage" : 0.0
+    },
+    "Beresford, Union County, South Dakota" : {
+        "name" : "Beresford",
+        "state" : "46000",
+        "FIPS" : "46-04980",
+        "counties" : [
+            "46127",
+            "46083"
+        ],
+        "type" : "City",
+        "population_2010" : 2180,
+        "population_2020" : 2180,
+        "population" : 2349,
+        "square_mileage" : 0.0
+    },
+    "Elk Point, Union County, South Dakota" : {
+        "name" : "Elk Point",
+        "state" : "46000",
+        "FIPS" : "46-18620",
+        "counties" : [
+            "46127"
+        ],
+        "type" : "City",
+        "population_2010" : 2149,
+        "population_2020" : 2149,
+        "population" : 2316,
+        "square_mileage" : 0.0
+    },
+    "Springfield, Bon Homme County, South Dakota" : {
+        "name" : "Springfield",
+        "state" : "46000",
+        "FIPS" : "46-60660",
+        "counties" : [
+            "46009"
+        ],
+        "type" : "City",
+        "population_2010" : 1914,
+        "population_2020" : 1914,
+        "population" : 2063,
+        "square_mileage" : 0.0
+    },
+    "Custer, Custer County, South Dakota" : {
+        "name" : "Custer",
+        "state" : "46000",
+        "FIPS" : "46-15140",
+        "counties" : [
+            "46033"
+        ],
+        "type" : "City",
+        "population_2010" : 1919,
+        "population_2020" : 1919,
+        "population" : 2068,
+        "square_mileage" : 0.0
+    },
+    "Webster, Day County, South Dakota" : {
+        "name" : "Webster",
+        "state" : "46000",
+        "FIPS" : "46-69780",
+        "counties" : [
+            "46037"
+        ],
+        "type" : "City",
+        "population_2010" : 1728,
+        "population_2020" : 1728,
+        "population" : 1862,
+        "square_mileage" : 0.0
+    },
+    "Parkston, Hutchinson County, South Dakota" : {
+        "name" : "Parkston",
+        "state" : "46000",
+        "FIPS" : "46-48460",
+        "counties" : [
+            "46067"
+        ],
+        "type" : "City",
+        "population_2010" : 1567,
+        "population_2020" : 1567,
+        "population" : 1689,
+        "square_mileage" : 0.0
+    },
+    "Wagner, Charles Mix County, South Dakota" : {
+        "name" : "Wagner",
+        "state" : "46000",
+        "FIPS" : "46-68020",
+        "counties" : [
+            "46023"
+        ],
+        "type" : "City",
+        "population_2010" : 1490,
+        "population_2020" : 1490,
+        "population" : 1606,
+        "square_mileage" : 0.0
+    },
+    "Crooks, Minnehaha County, South Dakota" : {
+        "name" : "Crooks",
+        "state" : "46000",
+        "FIPS" : "46-14740",
+        "counties" : [
+            "46099"
+        ],
+        "type" : "City",
+        "population_2010" : 1362,
+        "population_2020" : 1362,
+        "population" : 1468,
+        "square_mileage" : 0.0
+    },
+    "Deadwood, Lawrence County, South Dakota" : {
+        "name" : "Deadwood",
+        "state" : "46000",
+        "FIPS" : "46-15700",
+        "counties" : [
+            "46081"
+        ],
+        "type" : "City",
+        "population_2010" : 1156,
+        "population_2020" : 1156,
+        "population" : 1246,
+        "square_mileage" : 0.0
+    },
+    "Groton, Brown County, South Dakota" : {
+        "name" : "Groton",
+        "state" : "46000",
+        "FIPS" : "46-26340",
+        "counties" : [
+            "46013"
+        ],
+        "type" : "City",
+        "population_2010" : 1380,
+        "population_2020" : 1380,
+        "population" : 1487,
+        "square_mileage" : 0.0
+    },
+    "Baltic, Minnehaha County, South Dakota" : {
+        "name" : "Baltic",
+        "state" : "46000",
+        "FIPS" : "46-03380",
+        "counties" : [
+            "46099"
+        ],
+        "type" : "City",
+        "population_2010" : 1246,
+        "population_2020" : 1246,
+        "population" : 1343,
+        "square_mileage" : 0.0
+    },
+    "Salem, McCook County, South Dakota" : {
+        "name" : "Salem",
+        "state" : "46000",
+        "FIPS" : "46-57340",
+        "counties" : [
+            "46087"
+        ],
+        "type" : "City",
+        "population_2010" : 1325,
+        "population_2020" : 1325,
+        "population" : 1428,
+        "square_mileage" : 0.0
+    },
+    "Freeman, Hutchinson County, South Dakota" : {
+        "name" : "Freeman",
+        "state" : "46000",
+        "FIPS" : "46-23020",
+        "counties" : [
+            "46067"
+        ],
+        "type" : "City",
+        "population_2010" : 1329,
+        "population_2020" : 1329,
+        "population" : 1432,
+        "square_mileage" : 0.0
+    },
+    "Miller, Hand County, South Dakota" : {
+        "name" : "Miller",
+        "state" : "46000",
+        "FIPS" : "46-42460",
+        "counties" : [
+            "46059"
+        ],
+        "type" : "City",
+        "population_2010" : 1349,
+        "population_2020" : 1349,
+        "population" : 1454,
+        "square_mileage" : 0.0
+    },
+    "Parker, Turner County, South Dakota" : {
+        "name" : "Parker",
+        "state" : "46000",
+        "FIPS" : "46-48380",
+        "counties" : [
+            "46125"
+        ],
+        "type" : "City",
+        "population_2010" : 1194,
+        "population_2020" : 1194,
+        "population" : 1287,
+        "square_mileage" : 0.0
+    },
+    "Eagle Butte, Dewey County, South Dakota" : {
+        "name" : "Eagle Butte",
+        "state" : "46000",
+        "FIPS" : "46-17620",
+        "counties" : [
+            "46041",
+            "46137"
+        ],
+        "type" : "City",
+        "population_2010" : 1258,
+        "population_2020" : 1258,
+        "population" : 1356,
+        "square_mileage" : 0.0
+    },
+    "Gregory, Gregory County, South Dakota" : {
+        "name" : "Gregory",
+        "state" : "46000",
+        "FIPS" : "46-26180",
+        "counties" : [
+            "46053"
+        ],
+        "type" : "City",
+        "population_2010" : 1221,
+        "population_2020" : 1221,
+        "population" : 1316,
+        "square_mileage" : 0.0
+    },
+    "Platte, Charles Mix County, South Dakota" : {
+        "name" : "Platte",
+        "state" : "46000",
+        "FIPS" : "46-50260",
+        "counties" : [
+            "46023"
+        ],
+        "type" : "City",
+        "population_2010" : 1296,
+        "population_2020" : 1296,
+        "population" : 1397,
+        "square_mileage" : 0.0
+    },
+    "Clear Lake, Deuel County, South Dakota" : {
+        "name" : "Clear Lake",
+        "state" : "46000",
+        "FIPS" : "46-12640",
+        "counties" : [
+            "46039"
+        ],
+        "type" : "City",
+        "population_2010" : 1218,
+        "population_2020" : 1218,
+        "population" : 1313,
+        "square_mileage" : 0.0
+    },
+    "Britton, Marshall County, South Dakota" : {
+        "name" : "Britton",
+        "state" : "46000",
+        "FIPS" : "46-07380",
+        "counties" : [
+            "46091"
+        ],
+        "type" : "City",
+        "population_2010" : 1215,
+        "population_2020" : 1215,
+        "population" : 1309,
+        "square_mileage" : 0.0
+    },
+    "Garretson, Minnehaha County, South Dakota" : {
+        "name" : "Garretson",
+        "state" : "46000",
+        "FIPS" : "46-23820",
+        "counties" : [
+            "46099"
+        ],
+        "type" : "City",
+        "population_2010" : 1228,
+        "population_2020" : 1228,
+        "population" : 1323,
+        "square_mileage" : 0.0
+    },
+    "Clark, Clark County, South Dakota" : {
+        "name" : "Clark",
+        "state" : "46000",
+        "FIPS" : "46-12180",
+        "counties" : [
+            "46025"
+        ],
+        "type" : "City",
+        "population_2010" : 1148,
+        "population_2020" : 1148,
+        "population" : 1237,
+        "square_mileage" : 0.0
+    },
+    "Aurora, Brookings County, South Dakota" : {
+        "name" : "Aurora",
+        "state" : "46000",
+        "FIPS" : "46-02780",
+        "counties" : [
+            "46011"
+        ],
+        "type" : "City",
+        "population_2010" : 1047,
+        "population_2020" : 1047,
+        "population" : 1128,
+        "square_mileage" : 0.0
+    },
+    "Lemmon, Perkins County, South Dakota" : {
+        "name" : "Lemmon",
+        "state" : "46000",
+        "FIPS" : "46-36340",
+        "counties" : [
+            "46105"
+        ],
+        "type" : "City",
+        "population_2010" : 1160,
+        "population_2020" : 1160,
+        "population" : 1250,
+        "square_mileage" : 0.0
+    },
+    "Mission, Todd County, South Dakota" : {
+        "name" : "Mission",
+        "state" : "46000",
+        "FIPS" : "46-42940",
+        "counties" : [
+            "46121"
+        ],
+        "type" : "City",
+        "population_2010" : 1156,
+        "population_2020" : 1156,
+        "population" : 1246,
+        "square_mileage" : 0.0
+    },
+    "Tyndall, Bon Homme County, South Dakota" : {
+        "name" : "Tyndall",
+        "state" : "46000",
+        "FIPS" : "46-64860",
+        "counties" : [
+            "46009"
+        ],
+        "type" : "City",
+        "population_2010" : 1057,
+        "population_2020" : 1057,
+        "population" : 1139,
+        "square_mileage" : 0.0
+    },
+    "Gettysburg, Potter County, South Dakota" : {
+        "name" : "Gettysburg",
+        "state" : "46000",
+        "FIPS" : "46-24260",
+        "counties" : [
+            "46107"
+        ],
+        "type" : "City",
+        "population_2010" : 1104,
+        "population_2020" : 1104,
+        "population" : 1190,
+        "square_mileage" : 0.0
+    },
+    "De Smet, Kingsbury County, South Dakota" : {
+        "name" : "De Smet",
+        "state" : "46000",
+        "FIPS" : "46-16260",
+        "counties" : [
+            "46077"
+        ],
+        "type" : "City",
+        "population_2010" : 1056,
+        "population_2020" : 1056,
+        "population" : 1138,
+        "square_mileage" : 0.0
+    },
+    "Piedmont, Meade County, South Dakota" : {
+        "name" : "Piedmont",
+        "state" : "46000",
+        "FIPS" : "46-49500",
+        "counties" : [
+            "46093"
+        ],
+        "type" : "City",
+        "population_2010" : 971,
+        "population_2020" : 971,
+        "population" : 1046,
+        "square_mileage" : 0.0
+    },
+    "Whitewood, Lawrence County, South Dakota" : {
+        "name" : "Whitewood",
+        "state" : "46000",
+        "FIPS" : "46-71580",
+        "counties" : [
+            "46081"
+        ],
+        "type" : "City",
+        "population_2010" : 879,
+        "population_2020" : 879,
+        "population" : 947,
+        "square_mileage" : 0.0
+    },
+    "Centerville, Turner County, South Dakota" : {
+        "name" : "Centerville",
+        "state" : "46000",
+        "FIPS" : "46-11060",
+        "counties" : [
+            "46125"
+        ],
+        "type" : "City",
+        "population_2010" : 918,
+        "population_2020" : 918,
+        "population" : 989,
+        "square_mileage" : 0.0
+    },
+    "Hill City, Pennington County, South Dakota" : {
+        "name" : "Hill City",
+        "state" : "46000",
+        "FIPS" : "46-29100",
+        "counties" : [
+            "46103"
+        ],
+        "type" : "City",
+        "population_2010" : 872,
+        "population_2020" : 872,
+        "population" : 940,
+        "square_mileage" : 0.0
+    },
+    "Ipswich, Edmunds County, South Dakota" : {
+        "name" : "Ipswich",
+        "state" : "46000",
+        "FIPS" : "46-31860",
+        "counties" : [
+            "46045"
+        ],
+        "type" : "City",
+        "population_2010" : 928,
+        "population_2020" : 928,
+        "population" : 1000,
+        "square_mileage" : 0.0
+    },
+    "Arlington, Kingsbury County, South Dakota" : {
+        "name" : "Arlington",
+        "state" : "46000",
+        "FIPS" : "46-02180",
+        "counties" : [
+            "46077",
+            "46011"
+        ],
+        "type" : "City",
+        "population_2010" : 915,
+        "population_2020" : 915,
+        "population" : 986,
+        "square_mileage" : 0.0
+    },
+    "Martin, Bennett County, South Dakota" : {
+        "name" : "Martin",
+        "state" : "46000",
+        "FIPS" : "46-41100",
+        "counties" : [
+            "46007"
+        ],
+        "type" : "City",
+        "population_2010" : 938,
+        "population_2020" : 938,
+        "population" : 1011,
+        "square_mileage" : 0.0
+    },
+    "Worthing, Lincoln County, South Dakota" : {
+        "name" : "Worthing",
+        "state" : "46000",
+        "FIPS" : "46-72820",
+        "counties" : [
+            "46083"
+        ],
+        "type" : "City",
+        "population_2010" : 927,
+        "population_2020" : 927,
+        "population" : 999,
+        "square_mileage" : 0.0
+    },
+    "Marion, Turner County, South Dakota" : {
+        "name" : "Marion",
+        "state" : "46000",
+        "FIPS" : "46-40860",
+        "counties" : [
+            "46125"
+        ],
+        "type" : "City",
+        "population_2010" : 849,
+        "population_2020" : 849,
+        "population" : 915,
+        "square_mileage" : 0.0
+    },
+    "Valley Springs, Minnehaha County, South Dakota" : {
+        "name" : "Valley Springs",
+        "state" : "46000",
+        "FIPS" : "46-66260",
+        "counties" : [
+            "46099"
+        ],
+        "type" : "City",
+        "population_2010" : 885,
+        "population_2020" : 885,
+        "population" : 954,
+        "square_mileage" : 0.0
+    },
+    "Howard, Miner County, South Dakota" : {
+        "name" : "Howard",
+        "state" : "46000",
+        "FIPS" : "46-30460",
+        "counties" : [
+            "46097"
+        ],
+        "type" : "City",
+        "population_2010" : 848,
+        "population_2020" : 848,
+        "population" : 914,
+        "square_mileage" : 0.0
+    },
+    "Viborg, Turner County, South Dakota" : {
+        "name" : "Viborg",
+        "state" : "46000",
+        "FIPS" : "46-67020",
+        "counties" : [
+            "46125"
+        ],
+        "type" : "City",
+        "population_2010" : 814,
+        "population_2020" : 814,
+        "population" : 877,
+        "square_mileage" : 0.0
+    },
+    "Faulkton, Faulk County, South Dakota" : {
+        "name" : "Faulkton",
+        "state" : "46000",
+        "FIPS" : "46-21260",
+        "counties" : [
+            "46049"
+        ],
+        "type" : "City",
+        "population_2010" : 826,
+        "population_2020" : 826,
+        "population" : 890,
+        "square_mileage" : 0.0
+    },
+    "Scotland, Bon Homme County, South Dakota" : {
+        "name" : "Scotland",
+        "state" : "46000",
+        "FIPS" : "46-57940",
+        "counties" : [
+            "46009"
+        ],
+        "type" : "City",
+        "population_2010" : 785,
+        "population_2020" : 785,
+        "population" : 846,
+        "square_mileage" : 0.0
+    },
+    "Elkton, Brookings County, South Dakota" : {
+        "name" : "Elkton",
+        "state" : "46000",
+        "FIPS" : "46-18700",
+        "counties" : [
+            "46011"
+        ],
+        "type" : "City",
+        "population_2010" : 755,
+        "population_2020" : 755,
+        "population" : 814,
+        "square_mileage" : 0.0
+    },
+    "Wessington Springs, Jerauld County, South Dakota" : {
+        "name" : "Wessington Springs",
+        "state" : "46000",
+        "FIPS" : "46-70220",
+        "counties" : [
+            "46073"
+        ],
+        "type" : "City",
+        "population_2010" : 771,
+        "population_2020" : 771,
+        "population" : 831,
+        "square_mileage" : 0.0
+    },
+    "Alcester, Union County, South Dakota" : {
+        "name" : "Alcester",
+        "state" : "46000",
+        "FIPS" : "46-00700",
+        "counties" : [
+            "46127"
+        ],
+        "type" : "City",
+        "population_2010" : 820,
+        "population_2020" : 820,
+        "population" : 884,
+        "square_mileage" : 0.0
+    },
+    "Estelline, Hamlin County, South Dakota" : {
+        "name" : "Estelline",
+        "state" : "46000",
+        "FIPS" : "46-19980",
+        "counties" : [
+            "46057"
+        ],
+        "type" : "City",
+        "population_2010" : 749,
+        "population_2020" : 749,
+        "population" : 807,
+        "square_mileage" : 0.0
+    },
+    "Plankinton, Aurora County, South Dakota" : {
+        "name" : "Plankinton",
+        "state" : "46000",
+        "FIPS" : "46-50020",
+        "counties" : [
+            "46003"
+        ],
+        "type" : "City",
+        "population_2010" : 781,
+        "population_2020" : 781,
+        "population" : 842,
+        "square_mileage" : 0.0
+    },
+    "Edgemont, Fall River County, South Dakota" : {
+        "name" : "Edgemont",
+        "state" : "46000",
+        "FIPS" : "46-18300",
+        "counties" : [
+            "46047"
+        ],
+        "type" : "City",
+        "population_2010" : 725,
+        "population_2020" : 725,
+        "population" : 781,
+        "square_mileage" : 0.0
+    },
+    "Eureka, McPherson County, South Dakota" : {
+        "name" : "Eureka",
+        "state" : "46000",
+        "FIPS" : "46-20180",
+        "counties" : [
+            "46089"
+        ],
+        "type" : "City",
+        "population_2010" : 813,
+        "population_2020" : 813,
+        "population" : 876,
+        "square_mileage" : 0.0
+    },
+    "Philip, Haakon County, South Dakota" : {
+        "name" : "Philip",
+        "state" : "46000",
+        "FIPS" : "46-49300",
+        "counties" : [
+            "46055"
+        ],
+        "type" : "City",
+        "population_2010" : 759,
+        "population_2020" : 759,
+        "population" : 818,
+        "square_mileage" : 0.0
+    },
+    "Castlewood, Hamlin County, South Dakota" : {
+        "name" : "Castlewood",
+        "state" : "46000",
+        "FIPS" : "46-10500",
+        "counties" : [
+            "46057"
+        ],
+        "type" : "City",
+        "population_2010" : 698,
+        "population_2020" : 698,
+        "population" : 752,
+        "square_mileage" : 0.0
+    },
+    "Armour, Douglas County, South Dakota" : {
+        "name" : "Armour",
+        "state" : "46000",
+        "FIPS" : "46-02260",
+        "counties" : [
+            "46043"
+        ],
+        "type" : "City",
+        "population_2010" : 698,
+        "population_2020" : 698,
+        "population" : 752,
+        "square_mileage" : 0.0
+    },
+    "Lake Andes, Charles Mix County, South Dakota" : {
+        "name" : "Lake Andes",
+        "state" : "46000",
+        "FIPS" : "46-35100",
+        "counties" : [
+            "46023"
+        ],
+        "type" : "City",
+        "population_2010" : 710,
+        "population_2020" : 710,
+        "population" : 765,
+        "square_mileage" : 0.0
+    },
+    "Colton, Minnehaha County, South Dakota" : {
+        "name" : "Colton",
+        "state" : "46000",
+        "FIPS" : "46-13380",
+        "counties" : [
+            "46099"
+        ],
+        "type" : "City",
+        "population_2010" : 738,
+        "population_2020" : 738,
+        "population" : 795,
+        "square_mileage" : 0.0
+    },
+    "Colman, Moody County, South Dakota" : {
+        "name" : "Colman",
+        "state" : "46000",
+        "FIPS" : "46-13220",
+        "counties" : [
+            "46101"
+        ],
+        "type" : "City",
+        "population_2010" : 634,
+        "population_2020" : 634,
+        "population" : 683,
+        "square_mileage" : 0.0
+    },
+    "Wall, Pennington County, South Dakota" : {
+        "name" : "Wall",
+        "state" : "46000",
+        "FIPS" : "46-68380",
+        "counties" : [
+            "46103"
+        ],
+        "type" : "City",
+        "population_2010" : 699,
+        "population_2020" : 699,
+        "population" : 753,
+        "square_mileage" : 0.0
+    },
+    "Alexandria, Hanson County, South Dakota" : {
+        "name" : "Alexandria",
+        "state" : "46000",
+        "FIPS" : "46-00820",
+        "counties" : [
+            "46061"
+        ],
+        "type" : "City",
+        "population_2010" : 649,
+        "population_2020" : 649,
+        "population" : 699,
+        "square_mileage" : 0.0
+    },
+    "Highmore, Hyde County, South Dakota" : {
+        "name" : "Highmore",
+        "state" : "46000",
+        "FIPS" : "46-28980",
+        "counties" : [
+            "46069"
+        ],
+        "type" : "City",
+        "population_2010" : 682,
+        "population_2020" : 682,
+        "population" : 735,
+        "square_mileage" : 0.0
+    },
+    "Woonsocket, Sanborn County, South Dakota" : {
+        "name" : "Woonsocket",
+        "state" : "46000",
+        "FIPS" : "46-72700",
+        "counties" : [
+            "46111"
+        ],
+        "type" : "City",
+        "population_2010" : 631,
+        "population_2020" : 631,
+        "population" : 680,
+        "square_mileage" : 0.0
+    },
+    "Onida, Sully County, South Dakota" : {
+        "name" : "Onida",
+        "state" : "46000",
+        "FIPS" : "46-47180",
+        "counties" : [
+            "46119"
+        ],
+        "type" : "City",
+        "population_2010" : 666,
+        "population_2020" : 666,
+        "population" : 718,
+        "square_mileage" : 0.0
+    },
+    "Canistota, McCook County, South Dakota" : {
+        "name" : "Canistota",
+        "state" : "46000",
+        "FIPS" : "46-09300",
+        "counties" : [
+            "46087"
+        ],
+        "type" : "City",
+        "population_2010" : 631,
+        "population_2020" : 631,
+        "population" : 680,
+        "square_mileage" : 0.0
+    },
+    "Lake Norden, Hamlin County, South Dakota" : {
+        "name" : "Lake Norden",
+        "state" : "46000",
+        "FIPS" : "46-35460",
+        "counties" : [
+            "46057"
+        ],
+        "type" : "City",
+        "population_2010" : 554,
+        "population_2020" : 554,
+        "population" : 597,
+        "square_mileage" : 0.0
+    },
+    "Menno, Hutchinson County, South Dakota" : {
+        "name" : "Menno",
+        "state" : "46000",
+        "FIPS" : "46-41980",
+        "counties" : [
+            "46067"
+        ],
+        "type" : "City",
+        "population_2010" : 614,
+        "population_2020" : 614,
+        "population" : 662,
+        "square_mileage" : 0.0
+    },
+    "New Underwood, Pennington County, South Dakota" : {
+        "name" : "New Underwood",
+        "state" : "46000",
+        "FIPS" : "46-45060",
+        "counties" : [
+            "46103"
+        ],
+        "type" : "City",
+        "population_2010" : 590,
+        "population_2020" : 590,
+        "population" : 636,
+        "square_mileage" : 0.0
+    },
+    "Avon, Bon Homme County, South Dakota" : {
+        "name" : "Avon",
+        "state" : "46000",
+        "FIPS" : "46-02900",
+        "counties" : [
+            "46009"
+        ],
+        "type" : "City",
+        "population_2010" : 586,
+        "population_2020" : 586,
+        "population" : 632,
+        "square_mileage" : 0.0
+    },
+    "Selby, Walworth County, South Dakota" : {
+        "name" : "Selby",
+        "state" : "46000",
+        "FIPS" : "46-58140",
+        "counties" : [
+            "46129"
+        ],
+        "type" : "City",
+        "population_2010" : 610,
+        "population_2020" : 610,
+        "population" : 657,
+        "square_mileage" : 0.0
+    },
+    "Lake Preston, Kingsbury County, South Dakota" : {
+        "name" : "Lake Preston",
+        "state" : "46000",
+        "FIPS" : "46-35500",
+        "counties" : [
+            "46077"
+        ],
+        "type" : "City",
+        "population_2010" : 589,
+        "population_2020" : 589,
+        "population" : 635,
+        "square_mileage" : 0.0
+    },
+    "Burke, Gregory County, South Dakota" : {
+        "name" : "Burke",
+        "state" : "46000",
+        "FIPS" : "46-08700",
+        "counties" : [
+            "46053"
+        ],
+        "type" : "City",
+        "population_2010" : 575,
+        "population_2020" : 575,
+        "population" : 620,
+        "square_mileage" : 0.0
+    },
+    "Newell, Butte County, South Dakota" : {
+        "name" : "Newell",
+        "state" : "46000",
+        "FIPS" : "46-44860",
+        "counties" : [
+            "46019"
+        ],
+        "type" : "City",
+        "population_2010" : 584,
+        "population_2020" : 584,
+        "population" : 629,
+        "square_mileage" : 0.0
+    },
+    "Kimball, Brule County, South Dakota" : {
+        "name" : "Kimball",
+        "state" : "46000",
+        "FIPS" : "46-33980",
+        "counties" : [
+            "46015"
+        ],
+        "type" : "City",
+        "population_2010" : 572,
+        "population_2020" : 572,
+        "population" : 616,
+        "square_mileage" : 0.0
+    },
+    "Humboldt, Minnehaha County, South Dakota" : {
+        "name" : "Humboldt",
+        "state" : "46000",
+        "FIPS" : "46-30900",
+        "counties" : [
+            "46099"
+        ],
+        "type" : "City",
+        "population_2010" : 579,
+        "population_2020" : 579,
+        "population" : 624,
+        "square_mileage" : 0.0
+    },
+    "Tripp, Hutchinson County, South Dakota" : {
+        "name" : "Tripp",
+        "state" : "46000",
+        "FIPS" : "46-64020",
+        "counties" : [
+            "46067"
+        ],
+        "type" : "City",
+        "population_2010" : 575,
+        "population_2020" : 575,
+        "population" : 620,
+        "square_mileage" : 0.0
+    },
+    "Corsica, Douglas County, South Dakota" : {
+        "name" : "Corsica",
+        "state" : "46000",
+        "FIPS" : "46-13980",
+        "counties" : [
+            "46043"
+        ],
+        "type" : "City",
+        "population_2010" : 561,
+        "population_2020" : 561,
+        "population" : 605,
+        "square_mileage" : 0.0
+    },
+    "White, Brookings County, South Dakota" : {
+        "name" : "White",
+        "state" : "46000",
+        "FIPS" : "46-70940",
+        "counties" : [
+            "46011"
+        ],
+        "type" : "City",
+        "population_2010" : 537,
+        "population_2020" : 537,
+        "population" : 579,
+        "square_mileage" : 0.0
+    },
+    "McLaughlin, Corson County, South Dakota" : {
+        "name" : "McLaughlin",
+        "state" : "46000",
+        "FIPS" : "46-40020",
+        "counties" : [
+            "46031"
+        ],
+        "type" : "City",
+        "population_2010" : 569,
+        "population_2020" : 569,
+        "population" : 613,
+        "square_mileage" : 0.0
+    },
+    "Timber Lake, Dewey County, South Dakota" : {
+        "name" : "Timber Lake",
+        "state" : "46000",
+        "FIPS" : "46-63620",
+        "counties" : [
+            "46041"
+        ],
+        "type" : "City",
+        "population_2010" : 509,
+        "population_2020" : 509,
+        "population" : 549,
+        "square_mileage" : 0.0
+    },
+    "Kadoka, Jackson County, South Dakota" : {
+        "name" : "Kadoka",
+        "state" : "46000",
+        "FIPS" : "46-33180",
+        "counties" : [
+            "46071"
+        ],
+        "type" : "City",
+        "population_2010" : 543,
+        "population_2020" : 543,
+        "population" : 585,
+        "square_mileage" : 0.0
+    },
+    "White River, Mellette County, South Dakota" : {
+        "name" : "White River",
+        "state" : "46000",
+        "FIPS" : "46-71340",
+        "counties" : [
+            "46095"
+        ],
+        "type" : "City",
+        "population_2010" : 533,
+        "population_2020" : 533,
+        "population" : 574,
+        "square_mileage" : 0.0
+    },
+    "Bridgewater, McCook County, South Dakota" : {
+        "name" : "Bridgewater",
+        "state" : "46000",
+        "FIPS" : "46-07180",
+        "counties" : [
+            "46087"
+        ],
+        "type" : "City",
+        "population_2010" : 511,
+        "population_2020" : 511,
+        "population" : 551,
+        "square_mileage" : 0.0
+    },
+    "Dupree, Ziebach County, South Dakota" : {
+        "name" : "Dupree",
+        "state" : "46000",
+        "FIPS" : "46-17420",
+        "counties" : [
+            "46137"
+        ],
+        "type" : "City",
+        "population_2010" : 494,
+        "population_2020" : 494,
+        "population" : 532,
+        "square_mileage" : 0.0
+    },
+    "Bryant, Hamlin County, South Dakota" : {
+        "name" : "Bryant",
+        "state" : "46000",
+        "FIPS" : "46-08060",
+        "counties" : [
+            "46057"
+        ],
+        "type" : "City",
+        "population_2010" : 471,
+        "population_2020" : 471,
+        "population" : 508,
+        "square_mileage" : 0.0
+    },
+    "Waubay, Day County, South Dakota" : {
+        "name" : "Waubay",
+        "state" : "46000",
+        "FIPS" : "46-69340",
+        "counties" : [
+            "46037"
+        ],
+        "type" : "City",
+        "population_2010" : 473,
+        "population_2020" : 473,
+        "population" : 510,
+        "square_mileage" : 0.0
+    },
+    "Emery, Hanson County, South Dakota" : {
+        "name" : "Emery",
+        "state" : "46000",
+        "FIPS" : "46-19420",
+        "counties" : [
+            "46061"
+        ],
+        "type" : "City",
+        "population_2010" : 484,
+        "population_2020" : 484,
+        "population" : 522,
+        "square_mileage" : 0.0
+    },
+    "Bowdle, Edmunds County, South Dakota" : {
+        "name" : "Bowdle",
+        "state" : "46000",
+        "FIPS" : "46-06540",
+        "counties" : [
+            "46045"
+        ],
+        "type" : "City",
+        "population_2010" : 470,
+        "population_2020" : 470,
+        "population" : 507,
+        "square_mileage" : 0.0
+    },
+    "St. Francis, Todd County, South Dakota" : {
+        "name" : "St. Francis",
+        "state" : "46000",
+        "FIPS" : "46-57140",
+        "counties" : [
+            "46121"
+        ],
+        "type" : "City",
+        "population_2010" : 469,
+        "population_2020" : 469,
+        "population" : 505,
+        "square_mileage" : 0.0
+    },
+    "Presho, Lyman County, South Dakota" : {
+        "name" : "Presho",
+        "state" : "46000",
+        "FIPS" : "46-51820",
+        "counties" : [
+            "46085"
+        ],
+        "type" : "City",
+        "population_2010" : 472,
+        "population_2020" : 472,
+        "population" : 509,
+        "square_mileage" : 0.0
+    },
+    "Murdo, Jones County, South Dakota" : {
+        "name" : "Murdo",
+        "state" : "46000",
+        "FIPS" : "46-44260",
+        "counties" : [
+            "46075"
+        ],
+        "type" : "City",
+        "population_2010" : 475,
+        "population_2020" : 475,
+        "population" : 512,
+        "square_mileage" : 0.0
+    },
+    "Montrose, McCook County, South Dakota" : {
+        "name" : "Montrose",
+        "state" : "46000",
+        "FIPS" : "46-43500",
+        "counties" : [
+            "46087"
+        ],
+        "type" : "City",
+        "population_2010" : 468,
+        "population_2020" : 468,
+        "population" : 504,
+        "square_mileage" : 0.0
+    },
+    "Wolsey, Beadle County, South Dakota" : {
+        "name" : "Wolsey",
+        "state" : "46000",
+        "FIPS" : "46-72540",
+        "counties" : [
+            "46005"
+        ],
+        "type" : "City",
+        "population_2010" : 459,
+        "population_2020" : 459,
+        "population" : 495,
+        "square_mileage" : 0.0
+    },
+    "Mount Vernon, Davison County, South Dakota" : {
+        "name" : "Mount Vernon",
+        "state" : "46000",
+        "FIPS" : "46-44100",
+        "counties" : [
+            "46035"
+        ],
+        "type" : "City",
+        "population_2010" : 461,
+        "population_2020" : 461,
+        "population" : 497,
+        "square_mileage" : 0.0
+    },
+    "Warner, Brown County, South Dakota" : {
+        "name" : "Warner",
+        "state" : "46000",
+        "FIPS" : "46-68740",
+        "counties" : [
+            "46013"
+        ],
+        "type" : "City",
+        "population_2010" : 485,
+        "population_2020" : 485,
+        "population" : 523,
+        "square_mileage" : 0.0
+    },
+    "Jefferson, Union County, South Dakota" : {
+        "name" : "Jefferson",
+        "state" : "46000",
+        "FIPS" : "46-32700",
+        "counties" : [
+            "46127"
+        ],
+        "type" : "City",
+        "population_2010" : 475,
+        "population_2020" : 475,
+        "population" : 512,
+        "square_mileage" : 0.0
+    },
+    "Hayti, Hamlin County, South Dakota" : {
+        "name" : "Hayti",
+        "state" : "46000",
+        "FIPS" : "46-27820",
+        "counties" : [
+            "46057"
+        ],
+        "type" : "City",
+        "population_2010" : 393,
+        "population_2020" : 393,
+        "population" : 424,
+        "square_mileage" : 0.0
+    },
+    "Irene, Clay County, South Dakota" : {
+        "name" : "Irene",
+        "state" : "46000",
+        "FIPS" : "46-31940",
+        "counties" : [
+            "46027",
+            "46125",
+            "46135"
+        ],
+        "type" : "City",
+        "population_2010" : 422,
+        "population_2020" : 422,
+        "population" : 455,
+        "square_mileage" : 0.0
+    },
+    "Wilmot, Roberts County, South Dakota" : {
+        "name" : "Wilmot",
+        "state" : "46000",
+        "FIPS" : "46-71980",
+        "counties" : [
+            "46109"
+        ],
+        "type" : "City",
+        "population_2010" : 432,
+        "population_2020" : 432,
+        "population" : 466,
+        "square_mileage" : 0.0
+    },
+    "Big Stone City, Grant County, South Dakota" : {
+        "name" : "Big Stone City",
+        "state" : "46000",
+        "FIPS" : "46-05540",
+        "counties" : [
+            "46051"
+        ],
+        "type" : "City",
+        "population_2010" : 412,
+        "population_2020" : 412,
+        "population" : 444,
+        "square_mileage" : 0.0
+    },
+    "Leola, McPherson County, South Dakota" : {
+        "name" : "Leola",
+        "state" : "46000",
+        "FIPS" : "46-36460",
+        "counties" : [
+            "46089"
+        ],
+        "type" : "City",
+        "population_2010" : 434,
+        "population_2020" : 434,
+        "population" : 468,
+        "square_mileage" : 0.0
+    },
+    "Herreid, Campbell County, South Dakota" : {
+        "name" : "Herreid",
+        "state" : "46000",
+        "FIPS" : "46-28340",
+        "counties" : [
+            "46021"
+        ],
+        "type" : "City",
+        "population_2010" : 416,
+        "population_2020" : 416,
+        "population" : 448,
+        "square_mileage" : 0.0
+    },
+    "Tabor, Bon Homme County, South Dakota" : {
+        "name" : "Tabor",
+        "state" : "46000",
+        "FIPS" : "46-62820",
+        "counties" : [
+            "46009"
+        ],
+        "type" : "City",
+        "population_2010" : 407,
+        "population_2020" : 407,
+        "population" : 439,
+        "square_mileage" : 0.0
+    },
+    "White Lake, Aurora County, South Dakota" : {
+        "name" : "White Lake",
+        "state" : "46000",
+        "FIPS" : "46-71180",
+        "counties" : [
+            "46003"
+        ],
+        "type" : "City",
+        "population_2010" : 394,
+        "population_2020" : 394,
+        "population" : 425,
+        "square_mileage" : 0.0
+    },
+    "Oacoma, Lyman County, South Dakota" : {
+        "name" : "Oacoma",
+        "state" : "46000",
+        "FIPS" : "46-46180",
+        "counties" : [
+            "46085"
+        ],
+        "type" : "City",
+        "population_2010" : 386,
+        "population_2020" : 386,
+        "population" : 416,
+        "square_mileage" : 0.0
+    },
+    "Hurley, Turner County, South Dakota" : {
+        "name" : "Hurley",
+        "state" : "46000",
+        "FIPS" : "46-30980",
+        "counties" : [
+            "46125"
+        ],
+        "type" : "City",
+        "population_2010" : 379,
+        "population_2020" : 379,
+        "population" : 408,
+        "square_mileage" : 0.0
+    },
+    "Hermosa, Custer County, South Dakota" : {
+        "name" : "Hermosa",
+        "state" : "46000",
+        "FIPS" : "46-28300",
+        "counties" : [
+            "46033"
+        ],
+        "type" : "City",
+        "population_2010" : 382,
+        "population_2020" : 382,
+        "population" : 412,
+        "square_mileage" : 0.0
+    },
+    "Gayville, Yankton County, South Dakota" : {
+        "name" : "Gayville",
+        "state" : "46000",
+        "FIPS" : "46-23900",
+        "counties" : [
+            "46135"
+        ],
+        "type" : "City",
+        "population_2010" : 382,
+        "population_2020" : 382,
+        "population" : 412,
+        "square_mileage" : 0.0
+    },
+    "Rosholt, Roberts County, South Dakota" : {
+        "name" : "Rosholt",
+        "state" : "46000",
+        "FIPS" : "46-56340",
+        "counties" : [
+            "46109"
+        ],
+        "type" : "City",
+        "population_2010" : 379,
+        "population_2020" : 379,
+        "population" : 408,
+        "square_mileage" : 0.0
+    },
+    "Hoven, Potter County, South Dakota" : {
+        "name" : "Hoven",
+        "state" : "46000",
+        "FIPS" : "46-30300",
+        "counties" : [
+            "46107"
+        ],
+        "type" : "City",
+        "population_2010" : 379,
+        "population_2020" : 379,
+        "population" : 408,
+        "square_mileage" : 0.0
+    },
+    "Ethan, Davison County, South Dakota" : {
+        "name" : "Ethan",
+        "state" : "46000",
+        "FIPS" : "46-20060",
+        "counties" : [
+            "46035"
+        ],
+        "type" : "City",
+        "population_2010" : 365,
+        "population_2020" : 365,
+        "population" : 393,
+        "square_mileage" : 0.0
+    },
+    "Faith, Meade County, South Dakota" : {
+        "name" : "Faith",
+        "state" : "46000",
+        "FIPS" : "46-20980",
+        "counties" : [
+            "46093"
+        ],
+        "type" : "City",
+        "population_2010" : 367,
+        "population_2020" : 367,
+        "population" : 396,
+        "square_mileage" : 0.0
+    },
+    "Buffalo, Harding County, South Dakota" : {
+        "name" : "Buffalo",
+        "state" : "46000",
+        "FIPS" : "46-08140",
+        "counties" : [
+            "46063"
+        ],
+        "type" : "City",
+        "population_2010" : 346,
+        "population_2020" : 346,
+        "population" : 373,
+        "square_mileage" : 0.0
+    },
+    "Wakonda, Clay County, South Dakota" : {
+        "name" : "Wakonda",
+        "state" : "46000",
+        "FIPS" : "46-68100",
+        "counties" : [
+            "46027"
+        ],
+        "type" : "City",
+        "population_2010" : 347,
+        "population_2020" : 347,
+        "population" : 374,
+        "square_mileage" : 0.0
+    },
+    "Colome, Tripp County, South Dakota" : {
+        "name" : "Colome",
+        "state" : "46000",
+        "FIPS" : "46-13300",
+        "counties" : [
+            "46123"
+        ],
+        "type" : "City",
+        "population_2010" : 331,
+        "population_2020" : 331,
+        "population" : 357,
+        "square_mileage" : 0.0
+    },
+    "Blunt, Hughes County, South Dakota" : {
+        "name" : "Blunt",
+        "state" : "46000",
+        "FIPS" : "46-06180",
+        "counties" : [
+            "46065"
+        ],
+        "type" : "City",
+        "population_2010" : 342,
+        "population_2020" : 342,
+        "population" : 369,
+        "square_mileage" : 0.0
+    },
+    "Florence, Codington County, South Dakota" : {
+        "name" : "Florence",
+        "state" : "46000",
+        "FIPS" : "46-21820",
+        "counties" : [
+            "46029"
+        ],
+        "type" : "City",
+        "population_2010" : 337,
+        "population_2020" : 337,
+        "population" : 363,
+        "square_mileage" : 0.0
+    },
+    "Hudson, Lincoln County, South Dakota" : {
+        "name" : "Hudson",
+        "state" : "46000",
+        "FIPS" : "46-30740",
+        "counties" : [
+            "46083"
+        ],
+        "type" : "City",
+        "population_2010" : 311,
+        "population_2020" : 311,
+        "population" : 335,
+        "square_mileage" : 0.0
+    },
+    "Stickney, Aurora County, South Dakota" : {
+        "name" : "Stickney",
+        "state" : "46000",
+        "FIPS" : "46-61700",
+        "counties" : [
+            "46003"
+        ],
+        "type" : "City",
+        "population_2010" : 321,
+        "population_2020" : 321,
+        "population" : 346,
+        "square_mileage" : 0.0
+    },
+    "Veblen, Marshall County, South Dakota" : {
+        "name" : "Veblen",
+        "state" : "46000",
+        "FIPS" : "46-66540",
+        "counties" : [
+            "46091"
+        ],
+        "type" : "City",
+        "population_2010" : 317,
+        "population_2020" : 317,
+        "population" : 342,
+        "square_mileage" : 0.0
+    },
+    "Chancellor, Turner County, South Dakota" : {
+        "name" : "Chancellor",
+        "state" : "46000",
+        "FIPS" : "46-11380",
+        "counties" : [
+            "46125"
+        ],
+        "type" : "City",
+        "population_2010" : 300,
+        "population_2020" : 300,
+        "population" : 323,
+        "square_mileage" : 0.0
+    },
+    "Bison, Perkins County, South Dakota" : {
+        "name" : "Bison",
+        "state" : "46000",
+        "FIPS" : "46-05620",
+        "counties" : [
+            "46105"
+        ],
+        "type" : "City",
+        "population_2010" : 302,
+        "population_2020" : 302,
+        "population" : 325,
+        "square_mileage" : 0.0
+    },
+    "Iroquois, Kingsbury County, South Dakota" : {
+        "name" : "Iroquois",
+        "state" : "46000",
+        "FIPS" : "46-32020",
+        "counties" : [
+            "46077",
+            "46005"
+        ],
+        "type" : "City",
+        "population_2010" : 292,
+        "population_2020" : 292,
+        "population" : 315,
+        "square_mileage" : 0.0
+    },
+    "Kennebec, Lyman County, South Dakota" : {
+        "name" : "Kennebec",
+        "state" : "46000",
+        "FIPS" : "46-33580",
+        "counties" : [
+            "46085"
+        ],
+        "type" : "City",
+        "population_2010" : 281,
+        "population_2020" : 281,
+        "population" : 303,
+        "square_mileage" : 0.0
+    },
+    "Roscoe, Edmunds County, South Dakota" : {
+        "name" : "Roscoe",
+        "state" : "46000",
+        "FIPS" : "46-55820",
+        "counties" : [
+            "46045"
+        ],
+        "type" : "City",
+        "population_2010" : 269,
+        "population_2020" : 269,
+        "population" : 290,
+        "square_mileage" : 0.0
+    },
+    "Langford, Marshall County, South Dakota" : {
+        "name" : "Langford",
+        "state" : "46000",
+        "FIPS" : "46-35820",
+        "counties" : [
+            "46091"
+        ],
+        "type" : "City",
+        "population_2010" : 283,
+        "population_2020" : 283,
+        "population" : 305,
+        "square_mileage" : 0.0
+    },
+    "Summit, Roberts County, South Dakota" : {
+        "name" : "Summit",
+        "state" : "46000",
+        "FIPS" : "46-62220",
+        "counties" : [
+            "46109"
+        ],
+        "type" : "City",
+        "population_2010" : 288,
+        "population_2020" : 288,
+        "population" : 310,
+        "square_mileage" : 0.0
+    },
+    "Bristol, Day County, South Dakota" : {
+        "name" : "Bristol",
+        "state" : "46000",
+        "FIPS" : "46-07300",
+        "counties" : [
+            "46037"
+        ],
+        "type" : "City",
+        "population_2010" : 288,
+        "population_2020" : 288,
+        "population" : 310,
+        "square_mileage" : 0.0
+    },
+    "Willow Lake, Clark County, South Dakota" : {
+        "name" : "Willow Lake",
+        "state" : "46000",
+        "FIPS" : "46-71940",
+        "counties" : [
+            "46025"
+        ],
+        "type" : "City",
+        "population_2010" : 255,
+        "population_2020" : 255,
+        "population" : 275,
+        "square_mileage" : 0.0
+    },
+    "Henry, Codington County, South Dakota" : {
+        "name" : "Henry",
+        "state" : "46000",
+        "FIPS" : "46-28140",
+        "counties" : [
+            "46029"
+        ],
+        "type" : "City",
+        "population_2010" : 256,
+        "population_2020" : 256,
+        "population" : 276,
+        "square_mileage" : 0.0
+    },
+    "Keystone, Pennington County, South Dakota" : {
+        "name" : "Keystone",
+        "state" : "46000",
+        "FIPS" : "46-33820",
+        "counties" : [
+            "46103"
+        ],
+        "type" : "City",
+        "population_2010" : 240,
+        "population_2020" : 240,
+        "population" : 259,
+        "square_mileage" : 0.0
+    },
+    "Bonesteel, Gregory County, South Dakota" : {
+        "name" : "Bonesteel",
+        "state" : "46000",
+        "FIPS" : "46-06220",
+        "counties" : [
+            "46053"
+        ],
+        "type" : "City",
+        "population_2010" : 258,
+        "population_2020" : 258,
+        "population" : 278,
+        "square_mileage" : 0.0
+    },
+    "Egan, Moody County, South Dakota" : {
+        "name" : "Egan",
+        "state" : "46000",
+        "FIPS" : "46-18460",
+        "counties" : [
+            "46101"
+        ],
+        "type" : "City",
+        "population_2010" : 241,
+        "population_2020" : 241,
+        "population" : 260,
+        "square_mileage" : 0.0
+    },
+    "Trent, Moody County, South Dakota" : {
+        "name" : "Trent",
+        "state" : "46000",
+        "FIPS" : "46-63940",
+        "counties" : [
+            "46101"
+        ],
+        "type" : "City",
+        "population_2010" : 206,
+        "population_2020" : 206,
+        "population" : 222,
+        "square_mileage" : 0.0
+    },
+    "Pukwana, Brule County, South Dakota" : {
+        "name" : "Pukwana",
+        "state" : "46000",
+        "FIPS" : "46-52220",
+        "counties" : [
+            "46015"
+        ],
+        "type" : "City",
+        "population_2010" : 233,
+        "population_2020" : 233,
+        "population" : 251,
+        "square_mileage" : 0.0
+    },
+    "Gary, Deuel County, South Dakota" : {
+        "name" : "Gary",
+        "state" : "46000",
+        "FIPS" : "46-23860",
+        "counties" : [
+            "46039"
+        ],
+        "type" : "City",
+        "population_2010" : 240,
+        "population_2020" : 240,
+        "population" : 259,
+        "square_mileage" : 0.0
+    },
+    "Pickstown, Charles Mix County, South Dakota" : {
+        "name" : "Pickstown",
+        "state" : "46000",
+        "FIPS" : "46-49460",
+        "counties" : [
+            "46023"
+        ],
+        "type" : "City",
+        "population_2010" : 230,
+        "population_2020" : 230,
+        "population" : 248,
+        "square_mileage" : 0.0
+    },
+    "New Effington, Roberts County, South Dakota" : {
+        "name" : "New Effington",
+        "state" : "46000",
+        "FIPS" : "46-44820",
+        "counties" : [
+            "46109"
+        ],
+        "type" : "City",
+        "population_2010" : 234,
+        "population_2020" : 234,
+        "population" : 252,
+        "square_mileage" : 0.0
+    },
+    "Pollock, Campbell County, South Dakota" : {
+        "name" : "Pollock",
+        "state" : "46000",
+        "FIPS" : "46-51260",
+        "counties" : [
+            "46021"
+        ],
+        "type" : "City",
+        "population_2010" : 224,
+        "population_2020" : 224,
+        "population" : 241,
+        "square_mileage" : 0.0
+    },
+    "Alpena, Jerauld County, South Dakota" : {
+        "name" : "Alpena",
+        "state" : "46000",
+        "FIPS" : "46-01020",
+        "counties" : [
+            "46073"
+        ],
+        "type" : "City",
+        "population_2010" : 212,
+        "population_2020" : 212,
+        "population" : 228,
+        "square_mileage" : 0.0
+    },
+    "Bruce, Brookings County, South Dakota" : {
+        "name" : "Bruce",
+        "state" : "46000",
+        "FIPS" : "46-07740",
+        "counties" : [
+            "46011"
+        ],
+        "type" : "City",
+        "population_2010" : 210,
+        "population_2020" : 210,
+        "population" : 226,
+        "square_mileage" : 0.0
+    },
+    "Nisland, Butte County, South Dakota" : {
+        "name" : "Nisland",
+        "state" : "46000",
+        "FIPS" : "46-45180",
+        "counties" : [
+            "46019"
+        ],
+        "type" : "City",
+        "population_2010" : 206,
+        "population_2020" : 206,
+        "population" : 222,
+        "square_mileage" : 0.0
+    },
+    "Frederick, Brown County, South Dakota" : {
+        "name" : "Frederick",
+        "state" : "46000",
+        "FIPS" : "46-22860",
+        "counties" : [
+            "46013"
+        ],
+        "type" : "City",
+        "population_2010" : 215,
+        "population_2020" : 215,
+        "population" : 232,
+        "square_mileage" : 0.0
+    },
+    "Tulare, Spink County, South Dakota" : {
+        "name" : "Tulare",
+        "state" : "46000",
+        "FIPS" : "46-64300",
+        "counties" : [
+            "46115"
+        ],
+        "type" : "City",
+        "population_2010" : 211,
+        "population_2020" : 211,
+        "population" : 227,
+        "square_mileage" : 0.0
+    },
+    "Wessington, Beadle County, South Dakota" : {
+        "name" : "Wessington",
+        "state" : "46000",
+        "FIPS" : "46-70140",
+        "counties" : [
+            "46005",
+            "46059"
+        ],
+        "type" : "City",
+        "population_2010" : 197,
+        "population_2020" : 197,
+        "population" : 212,
+        "square_mileage" : 0.0
+    },
+    "Doland, Spink County, South Dakota" : {
+        "name" : "Doland",
+        "state" : "46000",
+        "FIPS" : "46-16820",
+        "counties" : [
+            "46115"
+        ],
+        "type" : "City",
+        "population_2010" : 199,
+        "population_2020" : 199,
+        "population" : 214,
+        "square_mileage" : 0.0
+    },
+    "Toronto, Deuel County, South Dakota" : {
+        "name" : "Toronto",
+        "state" : "46000",
+        "FIPS" : "46-63740",
+        "counties" : [
+            "46039"
+        ],
+        "type" : "City",
+        "population_2010" : 196,
+        "population_2020" : 196,
+        "population" : 211,
+        "square_mileage" : 0.0
+    },
+    "Mellette, Spink County, South Dakota" : {
+        "name" : "Mellette",
+        "state" : "46000",
+        "FIPS" : "46-41860",
+        "counties" : [
+            "46115"
+        ],
+        "type" : "City",
+        "population_2010" : 199,
+        "population_2020" : 199,
+        "population" : 214,
+        "square_mileage" : 0.0
+    },
+    "South Shore, Codington County, South Dakota" : {
+        "name" : "South Shore",
+        "state" : "46000",
+        "FIPS" : "46-59940",
+        "counties" : [
+            "46029"
+        ],
+        "type" : "City",
+        "population_2010" : 189,
+        "population_2020" : 189,
+        "population" : 204,
+        "square_mileage" : 0.0
+    },
+    "Hecla, Brown County, South Dakota" : {
+        "name" : "Hecla",
+        "state" : "46000",
+        "FIPS" : "46-27980",
+        "counties" : [
+            "46013"
+        ],
+        "type" : "City",
+        "population_2010" : 193,
+        "population_2020" : 193,
+        "population" : 208,
+        "square_mileage" : 0.0
+    },
+    "Mission Hill, Yankton County, South Dakota" : {
+        "name" : "Mission Hill",
+        "state" : "46000",
+        "FIPS" : "46-42980",
+        "counties" : [
+            "46135"
+        ],
+        "type" : "City",
+        "population_2010" : 190,
+        "population_2020" : 190,
+        "population" : 205,
+        "square_mileage" : 0.0
+    },
+    "Roslyn, Day County, South Dakota" : {
+        "name" : "Roslyn",
+        "state" : "46000",
+        "FIPS" : "46-56380",
+        "counties" : [
+            "46037"
+        ],
+        "type" : "City",
+        "population_2010" : 181,
+        "population_2020" : 181,
+        "population" : 195,
+        "square_mileage" : 0.0
+    },
+    "Peever, Roberts County, South Dakota" : {
+        "name" : "Peever",
+        "state" : "46000",
+        "FIPS" : "46-48940",
+        "counties" : [
+            "46109"
+        ],
+        "type" : "City",
+        "population_2010" : 180,
+        "population_2020" : 180,
+        "population" : 194,
+        "square_mileage" : 0.0
+    },
+    "Wentworth, Lake County, South Dakota" : {
+        "name" : "Wentworth",
+        "state" : "46000",
+        "FIPS" : "46-70020",
+        "counties" : [
+            "46079"
+        ],
+        "type" : "City",
+        "population_2010" : 181,
+        "population_2020" : 181,
+        "population" : 195,
+        "square_mileage" : 0.0
+    },
+    "Kranzburg, Codington County, South Dakota" : {
+        "name" : "Kranzburg",
+        "state" : "46000",
+        "FIPS" : "46-34340",
+        "counties" : [
+            "46029"
+        ],
+        "type" : "City",
+        "population_2010" : 163,
+        "population_2020" : 163,
+        "population" : 176,
+        "square_mileage" : 0.0
+    },
+    "Monroe, Turner County, South Dakota" : {
+        "name" : "Monroe",
+        "state" : "46000",
+        "FIPS" : "46-43380",
+        "counties" : [
+            "46125"
+        ],
+        "type" : "City",
+        "population_2010" : 159,
+        "population_2020" : 159,
+        "population" : 171,
+        "square_mileage" : 0.0
+    },
+    "Ramona, Lake County, South Dakota" : {
+        "name" : "Ramona",
+        "state" : "46000",
+        "FIPS" : "46-52860",
+        "counties" : [
+            "46079"
+        ],
+        "type" : "City",
+        "population_2010" : 159,
+        "population_2020" : 159,
+        "population" : 171,
+        "square_mileage" : 0.0
+    },
+    "St. Lawrence, Hand County, South Dakota" : {
+        "name" : "St. Lawrence",
+        "state" : "46000",
+        "FIPS" : "46-57180",
+        "counties" : [
+            "46059"
+        ],
+        "type" : "City",
+        "population_2010" : 163,
+        "population_2020" : 163,
+        "population" : 176,
+        "square_mileage" : 0.0
+    },
+    "Hosmer, Edmunds County, South Dakota" : {
+        "name" : "Hosmer",
+        "state" : "46000",
+        "FIPS" : "46-30140",
+        "counties" : [
+            "46045"
+        ],
+        "type" : "City",
+        "population_2010" : 164,
+        "population_2020" : 164,
+        "population" : 177,
+        "square_mileage" : 0.0
+    },
+    "Letcher, Sanborn County, South Dakota" : {
+        "name" : "Letcher",
+        "state" : "46000",
+        "FIPS" : "46-36620",
+        "counties" : [
+            "46111"
+        ],
+        "type" : "City",
+        "population_2010" : 159,
+        "population_2020" : 159,
+        "population" : 171,
+        "square_mileage" : 0.0
+    },
+    "Volin, Yankton County, South Dakota" : {
+        "name" : "Volin",
+        "state" : "46000",
+        "FIPS" : "46-67780",
+        "counties" : [
+            "46135"
+        ],
+        "type" : "City",
+        "population_2010" : 158,
+        "population_2020" : 158,
+        "population" : 170,
+        "square_mileage" : 0.0
+    },
+    "Columbia, Brown County, South Dakota" : {
+        "name" : "Columbia",
+        "state" : "46000",
+        "FIPS" : "46-13420",
+        "counties" : [
+            "46013"
+        ],
+        "type" : "City",
+        "population_2010" : 160,
+        "population_2020" : 160,
+        "population" : 172,
+        "square_mileage" : 0.0
+    },
+    "Isabel, Dewey County, South Dakota" : {
+        "name" : "Isabel",
+        "state" : "46000",
+        "FIPS" : "46-32140",
+        "counties" : [
+            "46041"
+        ],
+        "type" : "City",
+        "population_2010" : 145,
+        "population_2020" : 145,
+        "population" : 156,
+        "square_mileage" : 0.0
+    },
+    "Buffalo Gap, Custer County, South Dakota" : {
+        "name" : "Buffalo Gap",
+        "state" : "46000",
+        "FIPS" : "46-08340",
+        "counties" : [
+            "46033"
+        ],
+        "type" : "City",
+        "population_2010" : 131,
+        "population_2020" : 131,
+        "population" : 141,
+        "square_mileage" : 0.0
+    },
+    "Delmont, Douglas County, South Dakota" : {
+        "name" : "Delmont",
+        "state" : "46000",
+        "FIPS" : "46-16060",
+        "counties" : [
+            "46043"
+        ],
+        "type" : "City",
+        "population_2010" : 153,
+        "population_2020" : 153,
+        "population" : 165,
+        "square_mileage" : 0.0
+    },
+    "Dimock, Hutchinson County, South Dakota" : {
+        "name" : "Dimock",
+        "state" : "46000",
+        "FIPS" : "46-16620",
+        "counties" : [
+            "46067"
+        ],
+        "type" : "City",
+        "population_2010" : 137,
+        "population_2020" : 137,
+        "population" : 148,
+        "square_mileage" : 0.0
+    },
+    "Geddes, Charles Mix County, South Dakota" : {
+        "name" : "Geddes",
+        "state" : "46000",
+        "FIPS" : "46-23980",
+        "counties" : [
+            "46023"
+        ],
+        "type" : "City",
+        "population_2010" : 156,
+        "population_2020" : 156,
+        "population" : 168,
+        "square_mileage" : 0.0
+    },
+    "Goodwin, Deuel County, South Dakota" : {
+        "name" : "Goodwin",
+        "state" : "46000",
+        "FIPS" : "46-24820",
+        "counties" : [
+            "46039"
+        ],
+        "type" : "City",
+        "population_2010" : 147,
+        "population_2020" : 147,
+        "population" : 158,
+        "square_mileage" : 0.0
+    },
+    "Conde, Spink County, South Dakota" : {
+        "name" : "Conde",
+        "state" : "46000",
+        "FIPS" : "46-13700",
+        "counties" : [
+            "46115"
+        ],
+        "type" : "City",
+        "population_2010" : 142,
+        "population_2020" : 142,
+        "population" : 153,
+        "square_mileage" : 0.0
+    },
+    "Spencer, McCook County, South Dakota" : {
+        "name" : "Spencer",
+        "state" : "46000",
+        "FIPS" : "46-60060",
+        "counties" : [
+            "46087"
+        ],
+        "type" : "City",
+        "population_2010" : 136,
+        "population_2020" : 136,
+        "population" : 147,
+        "square_mileage" : 0.0
+    },
+    "Artesian, Sanborn County, South Dakota" : {
+        "name" : "Artesian",
+        "state" : "46000",
+        "FIPS" : "46-02380",
+        "counties" : [
+            "46111"
+        ],
+        "type" : "City",
+        "population_2010" : 129,
+        "population_2020" : 129,
+        "population" : 139,
+        "square_mileage" : 0.0
+    },
+    "Badger, Kingsbury County, South Dakota" : {
+        "name" : "Badger",
+        "state" : "46000",
+        "FIPS" : "46-03060",
+        "counties" : [
+            "46077"
+        ],
+        "type" : "City",
+        "population_2010" : 129,
+        "population_2020" : 129,
+        "population" : 139,
+        "square_mileage" : 0.0
+    },
+    "Northville, Spink County, South Dakota" : {
+        "name" : "Northville",
+        "state" : "46000",
+        "FIPS" : "46-45740",
+        "counties" : [
+            "46115"
+        ],
+        "type" : "City",
+        "population_2010" : 139,
+        "population_2020" : 139,
+        "population" : 150,
+        "square_mileage" : 0.0
+    },
+    "Frankfort, Spink County, South Dakota" : {
+        "name" : "Frankfort",
+        "state" : "46000",
+        "FIPS" : "46-22580",
+        "counties" : [
+            "46115"
+        ],
+        "type" : "City",
+        "population_2010" : 134,
+        "population_2020" : 134,
+        "population" : 144,
+        "square_mileage" : 0.0
+    },
+    "Astoria, Deuel County, South Dakota" : {
+        "name" : "Astoria",
+        "state" : "46000",
+        "FIPS" : "46-02580",
+        "counties" : [
+            "46039"
+        ],
+        "type" : "City",
+        "population_2010" : 132,
+        "population_2020" : 132,
+        "population" : 142,
+        "square_mileage" : 0.0
+    },
+    "Cavour, Beadle County, South Dakota" : {
+        "name" : "Cavour",
+        "state" : "46000",
+        "FIPS" : "46-10620",
+        "counties" : [
+            "46005"
+        ],
+        "type" : "City",
+        "population_2010" : 128,
+        "population_2020" : 128,
+        "population" : 138,
+        "square_mileage" : 0.0
+    },
+    "Carthage, Miner County, South Dakota" : {
+        "name" : "Carthage",
+        "state" : "46000",
+        "FIPS" : "46-10220",
+        "counties" : [
+            "46097"
+        ],
+        "type" : "City",
+        "population_2010" : 127,
+        "population_2020" : 127,
+        "population" : 137,
+        "square_mileage" : 0.0
+    },
+    "Reliance, Lyman County, South Dakota" : {
+        "name" : "Reliance",
+        "state" : "46000",
+        "FIPS" : "46-54020",
+        "counties" : [
+            "46085"
+        ],
+        "type" : "City",
+        "population_2010" : 128,
+        "population_2020" : 128,
+        "population" : 138,
+        "square_mileage" : 0.0
+    },
+    "Oelrichs, Fall River County, South Dakota" : {
+        "name" : "Oelrichs",
+        "state" : "46000",
+        "FIPS" : "46-46500",
+        "counties" : [
+            "46047"
+        ],
+        "type" : "City",
+        "population_2010" : 117,
+        "population_2020" : 117,
+        "population" : 126,
+        "square_mileage" : 0.0
+    },
+    "Pierpont, Day County, South Dakota" : {
+        "name" : "Pierpont",
+        "state" : "46000",
+        "FIPS" : "46-49540",
+        "counties" : [
+            "46037"
+        ],
+        "type" : "City",
+        "population_2010" : 129,
+        "population_2020" : 129,
+        "population" : 139,
+        "square_mileage" : 0.0
+    },
+    "Java, Walworth County, South Dakota" : {
+        "name" : "Java",
+        "state" : "46000",
+        "FIPS" : "46-32460",
+        "counties" : [
+            "46129"
+        ],
+        "type" : "City",
+        "population_2010" : 121,
+        "population_2020" : 121,
+        "population" : 130,
+        "square_mileage" : 0.0
+    },
+    "Brandt, Deuel County, South Dakota" : {
+        "name" : "Brandt",
+        "state" : "46000",
+        "FIPS" : "46-06940",
+        "counties" : [
+            "46039"
+        ],
+        "type" : "City",
+        "population_2010" : 114,
+        "population_2020" : 114,
+        "population" : 123,
+        "square_mileage" : 0.0
+    },
+    "Oldham, Kingsbury County, South Dakota" : {
+        "name" : "Oldham",
+        "state" : "46000",
+        "FIPS" : "46-46780",
+        "counties" : [
+            "46077"
+        ],
+        "type" : "City",
+        "population_2010" : 121,
+        "population_2020" : 121,
+        "population" : 130,
+        "square_mileage" : 0.0
+    },
+    "Lesterville, Yankton County, South Dakota" : {
+        "name" : "Lesterville",
+        "state" : "46000",
+        "FIPS" : "46-36540",
+        "counties" : [
+            "46135"
+        ],
+        "type" : "City",
+        "population_2010" : 115,
+        "population_2020" : 115,
+        "population" : 124,
+        "square_mileage" : 0.0
+    },
+    "Yale, Beadle County, South Dakota" : {
+        "name" : "Yale",
+        "state" : "46000",
+        "FIPS" : "46-73020",
+        "counties" : [
+            "46005"
+        ],
+        "type" : "City",
+        "population_2010" : 112,
+        "population_2020" : 112,
+        "population" : 121,
+        "square_mileage" : 0.0
+    },
+    "Midland, Haakon County, South Dakota" : {
+        "name" : "Midland",
+        "state" : "46000",
+        "FIPS" : "46-42140",
+        "counties" : [
+            "46055"
+        ],
+        "type" : "City",
+        "population_2010" : 112,
+        "population_2020" : 112,
+        "population" : 121,
+        "square_mileage" : 0.0
+    },
+    "Central City, Lawrence County, South Dakota" : {
+        "name" : "Central City",
+        "state" : "46000",
+        "FIPS" : "46-11140",
+        "counties" : [
+            "46081"
+        ],
+        "type" : "City",
+        "population_2010" : 93,
+        "population_2020" : 93,
+        "population" : 100,
+        "square_mileage" : 0.0
+    },
+    "McIntosh, Corson County, South Dakota" : {
+        "name" : "McIntosh",
+        "state" : "46000",
+        "FIPS" : "46-39940",
+        "counties" : [
+            "46031"
+        ],
+        "type" : "City",
+        "population_2010" : 111,
+        "population_2020" : 111,
+        "population" : 120,
+        "square_mileage" : 0.0
+    },
+    "Glenham, Walworth County, South Dakota" : {
+        "name" : "Glenham",
+        "state" : "46000",
+        "FIPS" : "46-24620",
+        "counties" : [
+            "46129"
+        ],
+        "type" : "City",
+        "population_2010" : 112,
+        "population_2020" : 112,
+        "population" : 121,
+        "square_mileage" : 0.0
+    },
+    "Pringle, Custer County, South Dakota" : {
+        "name" : "Pringle",
+        "state" : "46000",
+        "FIPS" : "46-51940",
+        "counties" : [
+            "46033"
+        ],
+        "type" : "City",
+        "population_2010" : 109,
+        "population_2020" : 109,
+        "population" : 117,
+        "square_mileage" : 0.0
+    },
+    "Claremont, Brown County, South Dakota" : {
+        "name" : "Claremont",
+        "state" : "46000",
+        "FIPS" : "46-12100",
+        "counties" : [
+            "46013"
+        ],
+        "type" : "City",
+        "population_2010" : 108,
+        "population_2020" : 108,
+        "population" : 116,
+        "square_mileage" : 0.0
+    },
+    "Hitchcock, Beadle County, South Dakota" : {
+        "name" : "Hitchcock",
+        "state" : "46000",
+        "FIPS" : "46-29500",
+        "counties" : [
+            "46005"
+        ],
+        "type" : "City",
+        "population_2010" : 112,
+        "population_2020" : 112,
+        "population" : 121,
+        "square_mileage" : 0.0
+    },
+    "Stockholm, Grant County, South Dakota" : {
+        "name" : "Stockholm",
+        "state" : "46000",
+        "FIPS" : "46-61740",
+        "counties" : [
+            "46051"
+        ],
+        "type" : "City",
+        "population_2010" : 102,
+        "population_2020" : 102,
+        "population" : 110,
+        "square_mileage" : 0.0
+    },
+    "Ashton, Spink County, South Dakota" : {
+        "name" : "Ashton",
+        "state" : "46000",
+        "FIPS" : "46-02540",
+        "counties" : [
+            "46115"
+        ],
+        "type" : "City",
+        "population_2010" : 108,
+        "population_2020" : 108,
+        "population" : 116,
+        "square_mileage" : 0.0
+    },
+    "Fairfax, Gregory County, South Dakota" : {
+        "name" : "Fairfax",
+        "state" : "46000",
+        "FIPS" : "46-20380",
+        "counties" : [
+            "46053"
+        ],
+        "type" : "City",
+        "population_2010" : 96,
+        "population_2020" : 96,
+        "population" : 103,
+        "square_mileage" : 0.0
+    },
+    "Cresbard, Faulk County, South Dakota" : {
+        "name" : "Cresbard",
+        "state" : "46000",
+        "FIPS" : "46-14580",
+        "counties" : [
+            "46049"
+        ],
+        "type" : "City",
+        "population_2010" : 96,
+        "population_2020" : 96,
+        "population" : 103,
+        "square_mileage" : 0.0
+    },
+    "Sinai, Brookings County, South Dakota" : {
+        "name" : "Sinai",
+        "state" : "46000",
+        "FIPS" : "46-58900",
+        "counties" : [
+            "46011"
+        ],
+        "type" : "City",
+        "population_2010" : 99,
+        "population_2020" : 99,
+        "population" : 107,
+        "square_mileage" : 0.0
+    },
+    "Harrold, Hughes County, South Dakota" : {
+        "name" : "Harrold",
+        "state" : "46000",
+        "FIPS" : "46-27420",
+        "counties" : [
+            "46065"
+        ],
+        "type" : "City",
+        "population_2010" : 101,
+        "population_2020" : 101,
+        "population" : 109,
+        "square_mileage" : 0.0
+    },
+    "Hazel, Hamlin County, South Dakota" : {
+        "name" : "Hazel",
+        "state" : "46000",
+        "FIPS" : "46-27940",
+        "counties" : [
+            "46057"
+        ],
+        "type" : "City",
+        "population_2010" : 102,
+        "population_2020" : 102,
+        "population" : 110,
+        "square_mileage" : 0.0
+    },
+    "Revillo, Grant County, South Dakota" : {
+        "name" : "Revillo",
+        "state" : "46000",
+        "FIPS" : "46-54220",
+        "counties" : [
+            "46051"
+        ],
+        "type" : "City",
+        "population_2010" : 99,
+        "population_2020" : 99,
+        "population" : 107,
+        "square_mileage" : 0.0
+    },
+    "Canova, Miner County, South Dakota" : {
+        "name" : "Canova",
+        "state" : "46000",
+        "FIPS" : "46-09420",
+        "counties" : [
+            "46097"
+        ],
+        "type" : "City",
+        "population_2010" : 89,
+        "population_2020" : 89,
+        "population" : 96,
+        "square_mileage" : 0.0
+    },
+    "Wallace, Codington County, South Dakota" : {
+        "name" : "Wallace",
+        "state" : "46000",
+        "FIPS" : "46-68420",
+        "counties" : [
+            "46029"
+        ],
+        "type" : "City",
+        "population_2010" : 91,
+        "population_2020" : 91,
+        "population" : 98,
+        "square_mileage" : 0.0
+    },
+    "Eden, Marshall County, South Dakota" : {
+        "name" : "Eden",
+        "state" : "46000",
+        "FIPS" : "46-18180",
+        "counties" : [
+            "46091"
+        ],
+        "type" : "City",
+        "population_2010" : 94,
+        "population_2020" : 94,
+        "population" : 101,
+        "square_mileage" : 0.0
+    },
+    "Brentford, Spink County, South Dakota" : {
+        "name" : "Brentford",
+        "state" : "46000",
+        "FIPS" : "46-07060",
+        "counties" : [
+            "46115"
+        ],
+        "type" : "City",
+        "population_2010" : 88,
+        "population_2020" : 88,
+        "population" : 95,
+        "square_mileage" : 0.0
+    },
+    "Dallas, Gregory County, South Dakota" : {
+        "name" : "Dallas",
+        "state" : "46000",
+        "FIPS" : "46-15300",
+        "counties" : [
+            "46053"
+        ],
+        "type" : "City",
+        "population_2010" : 89,
+        "population_2020" : 89,
+        "population" : 96,
+        "square_mileage" : 0.0
+    },
+    "Fulton, Hanson County, South Dakota" : {
+        "name" : "Fulton",
+        "state" : "46000",
+        "FIPS" : "46-23220",
+        "counties" : [
+            "46061"
+        ],
+        "type" : "City",
+        "population_2010" : 87,
+        "population_2020" : 87,
+        "population" : 94,
+        "square_mileage" : 0.0
+    },
+    "Westport, Brown County, South Dakota" : {
+        "name" : "Westport",
+        "state" : "46000",
+        "FIPS" : "46-70540",
+        "counties" : [
+            "46013"
+        ],
+        "type" : "City",
+        "population_2010" : 88,
+        "population_2020" : 88,
+        "population" : 95,
+        "square_mileage" : 0.0
+    },
+    "Akaska, Walworth County, South Dakota" : {
+        "name" : "Akaska",
+        "state" : "46000",
+        "FIPS" : "46-00540",
+        "counties" : [
+            "46129"
+        ],
+        "type" : "City",
+        "population_2010" : 77,
+        "population_2020" : 77,
+        "population" : 83,
+        "square_mileage" : 0.0
+    },
+    "Claire City, Roberts County, South Dakota" : {
+        "name" : "Claire City",
+        "state" : "46000",
+        "FIPS" : "46-12020",
+        "counties" : [
+            "46109"
+        ],
+        "type" : "City",
+        "population_2010" : 82,
+        "population_2020" : 82,
+        "population" : 88,
+        "square_mileage" : 0.0
+    },
+    "Fruitdale, Butte County, South Dakota" : {
+        "name" : "Fruitdale",
+        "state" : "46000",
+        "FIPS" : "46-23140",
+        "counties" : [
+            "46019"
+        ],
+        "type" : "City",
+        "population_2010" : 73,
+        "population_2020" : 73,
+        "population" : 79,
+        "square_mileage" : 0.0
+    },
+    "Herrick, Gregory County, South Dakota" : {
+        "name" : "Herrick",
+        "state" : "46000",
+        "FIPS" : "46-28420",
+        "counties" : [
+            "46053"
+        ],
+        "type" : "City",
+        "population_2010" : 74,
+        "population_2020" : 74,
+        "population" : 80,
+        "square_mileage" : 0.0
+    },
+    "Sherman, Minnehaha County, South Dakota" : {
+        "name" : "Sherman",
+        "state" : "46000",
+        "FIPS" : "46-58580",
+        "counties" : [
+            "46099"
+        ],
+        "type" : "City",
+        "population_2010" : 81,
+        "population_2020" : 81,
+        "population" : 87,
+        "square_mileage" : 0.0
+    },
+    "Batesland, Oglala Lakota County, South Dakota" : {
+        "name" : "Batesland",
+        "state" : "46000",
+        "FIPS" : "46-03860",
+        "counties" : [
+            "46102"
+        ],
+        "type" : "City",
+        "population_2010" : 100,
+        "population_2020" : 100,
+        "population" : 108,
+        "square_mileage" : 0.0
+    },
+    "Bushnell, Brookings County, South Dakota" : {
+        "name" : "Bushnell",
+        "state" : "46000",
+        "FIPS" : "46-08820",
+        "counties" : [
+            "46011"
+        ],
+        "type" : "City",
+        "population_2010" : 71,
+        "population_2020" : 71,
+        "population" : 77,
+        "square_mileage" : 0.0
+    },
+    "Dante, Charles Mix County, South Dakota" : {
+        "name" : "Dante",
+        "state" : "46000",
+        "FIPS" : "46-15420",
+        "counties" : [
+            "46023"
+        ],
+        "type" : "City",
+        "population_2010" : 75,
+        "population_2020" : 75,
+        "population" : 81,
+        "square_mileage" : 0.0
+    },
+    "Ravinia, Charles Mix County, South Dakota" : {
+        "name" : "Ravinia",
+        "state" : "46000",
+        "FIPS" : "46-53220",
+        "counties" : [
+            "46023"
+        ],
+        "type" : "City",
+        "population_2010" : 71,
+        "population_2020" : 71,
+        "population" : 77,
+        "square_mileage" : 0.0
+    },
+    "Corona, Roberts County, South Dakota" : {
+        "name" : "Corona",
+        "state" : "46000",
+        "FIPS" : "46-13940",
+        "counties" : [
+            "46109"
+        ],
+        "type" : "City",
+        "population_2010" : 69,
+        "population_2020" : 69,
+        "population" : 74,
+        "square_mileage" : 0.0
+    },
+    "Utica, Yankton County, South Dakota" : {
+        "name" : "Utica",
+        "state" : "46000",
+        "FIPS" : "46-65780",
+        "counties" : [
+            "46135"
+        ],
+        "type" : "City",
+        "population_2010" : 70,
+        "population_2020" : 70,
+        "population" : 75,
+        "square_mileage" : 0.0
+    },
+    "Agar, Sully County, South Dakota" : {
+        "name" : "Agar",
+        "state" : "46000",
+        "FIPS" : "46-00460",
+        "counties" : [
+            "46119"
+        ],
+        "type" : "City",
+        "population_2010" : 68,
+        "population_2020" : 68,
+        "population" : 73,
+        "square_mileage" : 0.0
+    },
+    "Andover, Day County, South Dakota" : {
+        "name" : "Andover",
+        "state" : "46000",
+        "FIPS" : "46-01500",
+        "counties" : [
+            "46037"
+        ],
+        "type" : "City",
+        "population_2010" : 66,
+        "population_2020" : 66,
+        "population" : 71,
+        "square_mileage" : 0.0
+    },
+    "Camp Crook, Harding County, South Dakota" : {
+        "name" : "Camp Crook",
+        "state" : "46000",
+        "FIPS" : "46-09260",
+        "counties" : [
+            "46063"
+        ],
+        "type" : "City",
+        "population_2010" : 60,
+        "population_2020" : 60,
+        "population" : 65,
+        "square_mileage" : 0.0
+    },
+    "Fairburn, Custer County, South Dakota" : {
+        "name" : "Fairburn",
+        "state" : "46000",
+        "FIPS" : "46-20340",
+        "counties" : [
+            "46033"
+        ],
+        "type" : "City",
+        "population_2010" : 60,
+        "population_2020" : 60,
+        "population" : 65,
+        "square_mileage" : 0.0
+    },
+    "Bradley, Clark County, South Dakota" : {
+        "name" : "Bradley",
+        "state" : "46000",
+        "FIPS" : "46-06660",
+        "counties" : [
+            "46025"
+        ],
+        "type" : "City",
+        "population_2010" : 65,
+        "population_2020" : 65,
+        "population" : 70,
+        "square_mileage" : 0.0
+    },
+    "Fairview, Lincoln County, South Dakota" : {
+        "name" : "Fairview",
+        "state" : "46000",
+        "FIPS" : "46-20780",
+        "counties" : [
+            "46083"
+        ],
+        "type" : "City",
+        "population_2010" : 61,
+        "population_2020" : 61,
+        "population" : 66,
+        "square_mileage" : 0.0
+    },
+    "Mound City, Campbell County, South Dakota" : {
+        "name" : "Mound City",
+        "state" : "46000",
+        "FIPS" : "46-44020",
+        "counties" : [
+            "46021"
+        ],
+        "type" : "City",
+        "population_2010" : 69,
+        "population_2020" : 69,
+        "population" : 74,
+        "square_mileage" : 0.0
+    },
+    "Strandburg, Grant County, South Dakota" : {
+        "name" : "Strandburg",
+        "state" : "46000",
+        "FIPS" : "46-61980",
+        "counties" : [
+            "46051"
+        ],
+        "type" : "City",
+        "population_2010" : 63,
+        "population_2020" : 63,
+        "population" : 68,
+        "square_mileage" : 0.0
+    },
+    "Interior, Jackson County, South Dakota" : {
+        "name" : "Interior",
+        "state" : "46000",
+        "FIPS" : "46-31620",
+        "counties" : [
+            "46071"
+        ],
+        "type" : "City",
+        "population_2010" : 65,
+        "population_2020" : 65,
+        "population" : 70,
+        "square_mileage" : 0.0
+    },
+    "Olivet, Hutchinson County, South Dakota" : {
+        "name" : "Olivet",
+        "state" : "46000",
+        "FIPS" : "46-46900",
+        "counties" : [
+            "46067"
+        ],
+        "type" : "City",
+        "population_2010" : 64,
+        "population_2020" : 64,
+        "population" : 69,
+        "square_mileage" : 0.0
+    },
+    "Wasta, Pennington County, South Dakota" : {
+        "name" : "Wasta",
+        "state" : "46000",
+        "FIPS" : "46-69140",
+        "counties" : [
+            "46103"
+        ],
+        "type" : "City",
+        "population_2010" : 65,
+        "population_2020" : 65,
+        "population" : 70,
+        "square_mileage" : 0.0
+    },
+    "La Bolt, Grant County, South Dakota" : {
+        "name" : "La Bolt",
+        "state" : "46000",
+        "FIPS" : "46-34540",
+        "counties" : [
+            "46051"
+        ],
+        "type" : "City",
+        "population_2010" : 66,
+        "population_2020" : 66,
+        "population" : 71,
+        "square_mileage" : 0.0
+    },
+    "Quinn, Pennington County, South Dakota" : {
+        "name" : "Quinn",
+        "state" : "46000",
+        "FIPS" : "46-52500",
+        "counties" : [
+            "46103"
+        ],
+        "type" : "City",
+        "population_2010" : 63,
+        "population_2020" : 63,
+        "population" : 68,
+        "square_mileage" : 0.0
+    },
+    "Stratford, Brown County, South Dakota" : {
+        "name" : "Stratford",
+        "state" : "46000",
+        "FIPS" : "46-62020",
+        "counties" : [
+            "46013"
+        ],
+        "type" : "City",
+        "population_2010" : 57,
+        "population_2020" : 57,
+        "population" : 61,
+        "square_mileage" : 0.0
+    },
+    "Brant Lake, Hand County, South Dakota" : {
+        "name" : "Brant Lake",
+        "state" : "46000",
+        "FIPS" : "46-07040",
+        "counties" : [
+            "46059"
+        ],
+        "type" : "City",
+        "population_2010" : 56,
+        "population_2020" : 56,
+        "population" : 60,
+        "square_mileage" : 0.0
+    },
+    "Raymond, Clark County, South Dakota" : {
+        "name" : "Raymond",
+        "state" : "46000",
+        "FIPS" : "46-53260",
+        "counties" : [
+            "46025"
+        ],
+        "type" : "City",
+        "population_2010" : 53,
+        "population_2020" : 53,
+        "population" : 57,
+        "square_mileage" : 0.0
+    },
+    "Davis, Turner County, South Dakota" : {
+        "name" : "Davis",
+        "state" : "46000",
+        "FIPS" : "46-15540",
+        "counties" : [
+            "46125"
+        ],
+        "type" : "City",
+        "population_2010" : 54,
+        "population_2020" : 54,
+        "population" : 58,
+        "square_mileage" : 0.0
+    },
+    "Ree Heights, Hand County, South Dakota" : {
+        "name" : "Ree Heights",
+        "state" : "46000",
+        "FIPS" : "46-53940",
+        "counties" : [
+            "46059"
+        ],
+        "type" : "City",
+        "population_2010" : 59,
+        "population_2020" : 59,
+        "population" : 64,
+        "square_mileage" : 0.0
+    },
+    "New Witten, Tripp County, South Dakota" : {
+        "name" : "New Witten",
+        "state" : "46000",
+        "FIPS" : "46-45100",
+        "counties" : [
+            "46123"
+        ],
+        "type" : "City",
+        "population_2010" : 54,
+        "population_2020" : 54,
+        "population" : 58,
+        "square_mileage" : 0.0
+    },
+    "Vienna, Clark County, South Dakota" : {
+        "name" : "Vienna",
+        "state" : "46000",
+        "FIPS" : "46-67220",
+        "counties" : [
+            "46025"
+        ],
+        "type" : "City",
+        "population_2010" : 49,
+        "population_2020" : 49,
+        "population" : 53,
+        "square_mileage" : 0.0
+    },
+    "Turton, Spink County, South Dakota" : {
+        "name" : "Turton",
+        "state" : "46000",
+        "FIPS" : "46-64540",
+        "counties" : [
+            "46115"
+        ],
+        "type" : "City",
+        "population_2010" : 55,
+        "population_2020" : 55,
+        "population" : 59,
+        "square_mileage" : 0.0
+    },
+    "Orient, Faulk County, South Dakota" : {
+        "name" : "Orient",
+        "state" : "46000",
+        "FIPS" : "46-47460",
+        "counties" : [
+            "46049"
+        ],
+        "type" : "City",
+        "population_2010" : 51,
+        "population_2020" : 51,
+        "population" : 55,
+        "square_mileage" : 0.0
+    },
+    "Ortley, Roberts County, South Dakota" : {
+        "name" : "Ortley",
+        "state" : "46000",
+        "FIPS" : "46-47660",
+        "counties" : [
+            "46109"
+        ],
+        "type" : "City",
+        "population_2010" : 50,
+        "population_2020" : 50,
+        "population" : 54,
+        "square_mileage" : 0.0
+    },
+    "Nunda, Lake County, South Dakota" : {
+        "name" : "Nunda",
+        "state" : "46000",
+        "FIPS" : "46-46060",
+        "counties" : [
+            "46079"
+        ],
+        "type" : "City",
+        "population_2010" : 46,
+        "population_2020" : 46,
+        "population" : 50,
+        "square_mileage" : 0.0
+    },
+    "Lane, Jerauld County, South Dakota" : {
+        "name" : "Lane",
+        "state" : "46000",
+        "FIPS" : "46-35780",
+        "counties" : [
+            "46073"
+        ],
+        "type" : "City",
+        "population_2010" : 47,
+        "population_2020" : 47,
+        "population" : 51,
+        "square_mileage" : 0.0
+    },
+    "Twin Brooks, Grant County, South Dakota" : {
+        "name" : "Twin Brooks",
+        "state" : "46000",
+        "FIPS" : "46-64700",
+        "counties" : [
+            "46051"
+        ],
+        "type" : "City",
+        "population_2010" : 47,
+        "population_2020" : 47,
+        "population" : 51,
+        "square_mileage" : 0.0
+    },
+    "Grenville, Day County, South Dakota" : {
+        "name" : "Grenville",
+        "state" : "46000",
+        "FIPS" : "46-26220",
+        "counties" : [
+            "46037"
+        ],
+        "type" : "City",
+        "population_2010" : 48,
+        "population_2020" : 48,
+        "population" : 52,
+        "square_mileage" : 0.0
+    },
+    "Lake City, Marshall County, South Dakota" : {
+        "name" : "Lake City",
+        "state" : "46000",
+        "FIPS" : "46-35220",
+        "counties" : [
+            "46091"
+        ],
+        "type" : "City",
+        "population_2010" : 45,
+        "population_2020" : 45,
+        "population" : 48,
+        "square_mileage" : 0.0
+    },
+    "Morristown, Corson County, South Dakota" : {
+        "name" : "Morristown",
+        "state" : "46000",
+        "FIPS" : "46-43860",
+        "counties" : [
+            "46031"
+        ],
+        "type" : "City",
+        "population_2010" : 47,
+        "population_2020" : 47,
+        "population" : 51,
+        "square_mileage" : 0.0
+    },
+    "Belvidere, Jackson County, South Dakota" : {
+        "name" : "Belvidere",
+        "state" : "46000",
+        "FIPS" : "46-04620",
+        "counties" : [
+            "46071"
+        ],
+        "type" : "City",
+        "population_2010" : 46,
+        "population_2020" : 46,
+        "population" : 50,
+        "square_mileage" : 0.0
+    },
+    "Draper, Jones County, South Dakota" : {
+        "name" : "Draper",
+        "state" : "46000",
+        "FIPS" : "46-17020",
+        "counties" : [
+            "46075"
+        ],
+        "type" : "City",
+        "population_2010" : 46,
+        "population_2020" : 46,
+        "population" : 50,
+        "square_mileage" : 0.0
+    },
+    "Ward, Moody County, South Dakota" : {
+        "name" : "Ward",
+        "state" : "46000",
+        "FIPS" : "46-68660",
+        "counties" : [
+            "46101"
+        ],
+        "type" : "City",
+        "population_2010" : 34,
+        "population_2020" : 34,
+        "population" : 37,
+        "square_mileage" : 0.0
+    },
+    "Wood, Mellette County, South Dakota" : {
+        "name" : "Wood",
+        "state" : "46000",
+        "FIPS" : "46-72620",
+        "counties" : [
+            "46095"
+        ],
+        "type" : "City",
+        "population_2010" : 41,
+        "population_2020" : 41,
+        "population" : 44,
+        "square_mileage" : 0.0
+    },
+    "Naples, Clark County, South Dakota" : {
+        "name" : "Naples",
+        "state" : "46000",
+        "FIPS" : "46-44620",
+        "counties" : [
+            "46025"
+        ],
+        "type" : "City",
+        "population_2010" : 38,
+        "population_2020" : 38,
+        "population" : 41,
+        "square_mileage" : 0.0
+    },
+    "Erwin, Kingsbury County, South Dakota" : {
+        "name" : "Erwin",
+        "state" : "46000",
+        "FIPS" : "46-19860",
+        "counties" : [
+            "46077"
+        ],
+        "type" : "City",
+        "population_2010" : 40,
+        "population_2020" : 40,
+        "population" : 43,
+        "square_mileage" : 0.0
+    },
+    "Tolstoy, Potter County, South Dakota" : {
+        "name" : "Tolstoy",
+        "state" : "46000",
+        "FIPS" : "46-63700",
+        "counties" : [
+            "46107"
+        ],
+        "type" : "City",
+        "population_2010" : 35,
+        "population_2020" : 35,
+        "population" : 38,
+        "square_mileage" : 0.0
+    },
+    "Dolton, Turner County, South Dakota" : {
+        "name" : "Dolton",
+        "state" : "46000",
+        "FIPS" : "46-16860",
+        "counties" : [
+            "46125"
+        ],
+        "type" : "City",
+        "population_2010" : 34,
+        "population_2020" : 34,
+        "population" : 37,
+        "square_mileage" : 0.0
+    },
+    "Garden City, Clark County, South Dakota" : {
+        "name" : "Garden City",
+        "state" : "46000",
+        "FIPS" : "46-23460",
+        "counties" : [
+            "46025"
+        ],
+        "type" : "City",
+        "population_2010" : 33,
+        "population_2020" : 33,
+        "population" : 36,
+        "square_mileage" : 0.0
+    },
+    "Altamont, Deuel County, South Dakota" : {
+        "name" : "Altamont",
+        "state" : "46000",
+        "FIPS" : "46-01140",
+        "counties" : [
+            "46039"
+        ],
+        "type" : "City",
+        "population_2010" : 32,
+        "population_2020" : 32,
+        "population" : 34,
+        "square_mileage" : 0.0
+    },
+    "Lebanon, Potter County, South Dakota" : {
+        "name" : "Lebanon",
+        "state" : "46000",
+        "FIPS" : "46-36260",
+        "counties" : [
+            "46107"
+        ],
+        "type" : "City",
+        "population_2010" : 33,
+        "population_2020" : 33,
+        "population" : 36,
+        "square_mileage" : 0.0
+    },
+    "Broadland, Beadle County, South Dakota" : {
+        "name" : "Broadland",
+        "state" : "46000",
+        "FIPS" : "46-07420",
+        "counties" : [
+            "46005"
+        ],
+        "type" : "City",
+        "population_2010" : 27,
+        "population_2020" : 27,
+        "population" : 29,
+        "square_mileage" : 0.0
+    },
+    "Long Lake, McPherson County, South Dakota" : {
+        "name" : "Long Lake",
+        "state" : "46000",
+        "FIPS" : "46-38860",
+        "counties" : [
+            "46089"
+        ],
+        "type" : "City",
+        "population_2010" : 27,
+        "population_2020" : 27,
+        "population" : 29,
+        "square_mileage" : 0.0
+    },
+    "Vilas, Miner County, South Dakota" : {
+        "name" : "Vilas",
+        "state" : "46000",
+        "FIPS" : "46-67340",
+        "counties" : [
+            "46097"
+        ],
+        "type" : "City",
+        "population_2010" : 29,
+        "population_2020" : 29,
+        "population" : 31,
+        "square_mileage" : 0.0
+    },
+    "Virgil, Beadle County, South Dakota" : {
+        "name" : "Virgil",
+        "state" : "46000",
+        "FIPS" : "46-67500",
+        "counties" : [
+            "46005"
+        ],
+        "type" : "City",
+        "population_2010" : 16,
+        "population_2020" : 16,
+        "population" : 17,
+        "square_mileage" : 0.0
+    },
+    "Seneca, Faulk County, South Dakota" : {
+        "name" : "Seneca",
+        "state" : "46000",
+        "FIPS" : "46-58180",
+        "counties" : [
+            "46049"
+        ],
+        "type" : "City",
+        "population_2010" : 22,
+        "population_2020" : 22,
+        "population" : 24,
+        "square_mileage" : 0.0
+    },
+    "Chelsea, Faulk County, South Dakota" : {
+        "name" : "Chelsea",
+        "state" : "46000",
+        "FIPS" : "46-11500",
+        "counties" : [
+            "46049"
+        ],
+        "type" : "City",
+        "population_2010" : 19,
+        "population_2020" : 19,
+        "population" : 20,
+        "square_mileage" : 0.0
+    },
+    "Marvin, Grant County, South Dakota" : {
+        "name" : "Marvin",
+        "state" : "46000",
+        "FIPS" : "46-41220",
+        "counties" : [
+            "46051"
+        ],
+        "type" : "City",
+        "population_2010" : 19,
+        "population_2020" : 19,
+        "population" : 20,
+        "square_mileage" : 0.0
+    },
+    "Hetland, Kingsbury County, South Dakota" : {
+        "name" : "Hetland",
+        "state" : "46000",
+        "FIPS" : "46-28460",
+        "counties" : [
+            "46077"
+        ],
+        "type" : "City",
+        "population_2010" : 20,
+        "population_2020" : 20,
+        "population" : 22,
+        "square_mileage" : 0.0
+    },
+    "Rockham, Faulk County, South Dakota" : {
+        "name" : "Rockham",
+        "state" : "46000",
+        "FIPS" : "46-55540",
+        "counties" : [
+            "46049"
+        ],
+        "type" : "City",
+        "population_2010" : 22,
+        "population_2020" : 22,
+        "population" : 24,
+        "square_mileage" : 0.0
+    },
+    "Farmer, Hanson County, South Dakota" : {
+        "name" : "Farmer",
+        "state" : "46000",
+        "FIPS" : "46-21060",
+        "counties" : [
+            "46061"
+        ],
+        "type" : "City",
+        "population_2010" : 15,
+        "population_2020" : 15,
+        "population" : 16,
+        "square_mileage" : 0.0
+    },
+    "Onaka, Faulk County, South Dakota" : {
+        "name" : "Onaka",
+        "state" : "46000",
+        "FIPS" : "46-46980",
+        "counties" : [
+            "46049"
+        ],
+        "type" : "City",
+        "population_2010" : 13,
+        "population_2020" : 13,
+        "population" : 14,
+        "square_mileage" : 0.0
+    },
+    "Bancroft, Kingsbury County, South Dakota" : {
+        "name" : "Bancroft",
+        "state" : "46000",
+        "FIPS" : "46-03420",
+        "counties" : [
+            "46077"
+        ],
+        "type" : "City",
+        "population_2010" : 13,
+        "population_2020" : 13,
+        "population" : 14,
+        "square_mileage" : 0.0
+    },
+    "Wetonka, McPherson County, South Dakota" : {
+        "name" : "Wetonka",
+        "state" : "46000",
+        "FIPS" : "46-70740",
+        "counties" : [
+            "46089"
+        ],
+        "type" : "City",
+        "population_2010" : 16,
+        "population_2020" : 16,
+        "population" : 17,
+        "square_mileage" : 0.0
+    },
+    "Cottonwood, Jackson County, South Dakota" : {
+        "name" : "Cottonwood",
+        "state" : "46000",
+        "FIPS" : "46-14220",
+        "counties" : [
+            "46071"
+        ],
+        "type" : "City",
+        "population_2010" : 12,
+        "population_2020" : 12,
+        "population" : 13,
+        "square_mileage" : 0.0
+    },
+    "Albee, Grant County, South Dakota" : {
+        "name" : "Albee",
+        "state" : "46000",
+        "FIPS" : "46-00620",
+        "counties" : [
+            "46051"
+        ],
+        "type" : "City",
+        "population_2010" : 7,
+        "population_2020" : 7,
+        "population" : 8,
+        "square_mileage" : 0.0
+    },
+    "Artas, Campbell County, South Dakota" : {
+        "name" : "Artas",
+        "state" : "46000",
+        "FIPS" : "46-02340",
+        "counties" : [
+            "46021"
+        ],
+        "type" : "City",
+        "population_2010" : 7,
+        "population_2020" : 7,
+        "population" : 8,
+        "square_mileage" : 0.0
+    },
+    "White Rock, Roberts County, South Dakota" : {
+        "name" : "White Rock",
+        "state" : "46000",
+        "FIPS" : "46-71380",
+        "counties" : [
+            "46109"
+        ],
+        "type" : "City",
+        "population_2010" : 6,
+        "population_2020" : 6,
+        "population" : 6,
+        "square_mileage" : 0.0
+    },
+    "Butler, Day County, South Dakota" : {
+        "name" : "Butler",
+        "state" : "46000",
+        "FIPS" : "46-08860",
+        "counties" : [
+            "46037"
+        ],
+        "type" : "City",
+        "population_2010" : 4,
+        "population_2020" : 4,
+        "population" : 4,
+        "square_mileage" : 0.0
+    },
+    "Lowry, Walworth County, South Dakota" : {
+        "name" : "Lowry",
+        "state" : "46000",
+        "FIPS" : "46-39260",
+        "counties" : [
+            "46129"
+        ],
+        "type" : "City",
+        "population_2010" : 10,
+        "population_2020" : 10,
+        "population" : 11,
+        "square_mileage" : 0.0
+    },
+    "Verdon, Brown County, South Dakota" : {
+        "name" : "Verdon",
+        "state" : "46000",
+        "FIPS" : "46-66660",
+        "counties" : [
+            "46013"
+        ],
+        "type" : "City",
+        "population_2010" : 3,
+        "population_2020" : 3,
+        "population" : 3,
+        "square_mileage" : 0.0
+    },
+    "Hillsview, McPherson County, South Dakota" : {
+        "name" : "Hillsview",
+        "state" : "46000",
+        "FIPS" : "46-29340",
+        "counties" : [
+            "46089"
+        ],
+        "type" : "City",
+        "population_2010" : 2,
+        "population_2020" : 2,
+        "population" : 2,
+        "square_mileage" : 0.0
+    }
+}
