@@ -1,3 +1,68 @@
 {
-
+    "San Juan, Puerto Rico" : {
+        "name" : "San Juan",
+        "state" : "72",
+        "FIPS" : "72-",
+        "counties" : [
+            "72127"
+        ],
+        "type" : "Autonomous Municipality",
+        "population" : 342259,
+        "squareMileage" : 77.0
+    },
+    "Maleza Baja, Aguadilla, Puerto Rico" : {
+        "name" : "Maleza Baja",
+        "state" : "72",
+        "FIPS" : "72-",
+        "counties" : [
+            "72005"
+        ],
+        "type" : "Barrio",
+        "population" : 1887,
+        "squareMileage" : 2.28
+    },
+    "Vieques, Puerto Rico" : {
+        "name" : "Vieques",
+        "state" : "72",
+        "FIPS" : "72-",
+        "counties" : [
+            "72147"
+        ],
+        "type" : "Autonomous Municipality",
+        "population" : 8249,
+        "squareMileage" : 52.0
+    },
+    "Machos, Ceiba, Puerto Rico" : {
+        "name" : "Machos",
+        "state" : "72",
+        "FIPS" : "72-",
+        "counties" : [
+            "72037"
+        ],
+        "type" : "Barrio",
+        "population" : 3567,
+        "squareMileage" : 11.73
+    },
+    "Flamenco, Culebra, Puerto Rico" : {
+        "name" : "Flamenco",
+        "state" : "72",
+        "FIPS" : "72-",
+        "counties" : [
+            "72049"
+        ],
+        "type" : "Barrio",
+        "population" : 1048,
+        "squareMileage" : 76.77
+    },
+    "Santurce, San Juan, Puerto Rico" : {
+        "name" : "Santurce",
+        "state" : "72",
+        "FIPS" : "72-",
+        "counties" : [
+            "72127"
+        ],
+        "type" : "Barrio",
+        "population" : 69469,
+        "squareMileage" : 8.70
+    }
 }

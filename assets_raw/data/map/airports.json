@@ -3,7 +3,7 @@
 		"fullName" : "Hartsfield–Jackson Atlanta International Airport",
 		"commonName" : "Hartsfield–Jackson Atlanta",
 		"IATA" : "ATL",
-		"location" : "Atlanta, GA",
+		"location" : "13-04000",
 		"size" : "large",
 		"enplanement" : 52511402
 	},
@@ -11,7 +11,7 @@
 		"fullName" : "Dallas Fort Worth International Airport",
 		"commonName" : "Dallas Fort Worth",
 		"IATA" : "DFW",
-		"location" : "Dallas, TX",
+		"location" : "48-19000",
 		"size" : "large",
 		"enplanement" : 42351316
 	},
@@ -19,7 +19,7 @@
 		"fullName" : "Denver International Airport",
 		"commonName" : "Denver",
 		"IATA" : "DEN",
-		"location" : "Denver, CO",
+		"location" : "08-20000",
 		"size" : "large",
 		"enplanement" : 40012895
 	},
@@ -27,7 +27,7 @@
 		"fullName" : "O'Hare International Airport",
 		"commonName" : "O'Hare",
 		"IATA" : "ORD",
-		"location" : "Chicago, IL",
+		"location" : "17-14000",
 		"size" : "large",
 		"enplanement" : 38575693
 	},
@@ -115,7 +115,7 @@
 		"fullName" : "George Bush Intercontinental Airport",
 		"commonName" : "George Bush Intercontinental",
 		"IATA" : "IAH",
-		"location" : "Houston, TX",
+		"location" : "48-35000",
 		"size" : "large",
 		"enplanement" : 23349157
 	},
@@ -131,7 +131,7 @@
 		"fullName" : "Minneapolis–Saint Paul International Airport",
 		"commonName" : "Minneapolis–Saint Paul",
 		"IATA" : "MSP",
-		"location" : "Minneapolis-St. Paul",
+		"location" : "Minneapolis, MN",
 		"size" : "large",
 		"enplanement" : 18361942
 	},
@@ -187,7 +187,7 @@
 		"fullName" : "Dulles International Airport",
 		"commonName" : "Dulles",
 		"IATA" : "IAD",
-		"location" : "Washington, D.C., VA",
+		"location" : "Washington, DC",
 		"size" : "large",
 		"enplanement" : 13002433
 	},
@@ -203,7 +203,7 @@
 		"fullName" : "Ronald Reagan Washington National Airport",
 		"commonName" : "Ronald Reagan Washington National",
 		"IATA" : "DCA",
-		"location" : "Washington, D.C., VA",
+		"location" : "Washington, DC",
 		"size" : "large",
 		"enplanement" : 12750892
 	},
@@ -227,7 +227,7 @@
 		"fullName" : "Austin–Bergstrom International Airport",
 		"commonName" : "Austin–Bergstrom",
 		"IATA" : "AUS",
-		"location" : "Austin, TX",
+		"location" : "48-05000",
 		"size" : "large",
 		"enplanement" : 10676243
 	},
@@ -259,7 +259,7 @@
 		"fullName" : "Dallas Love Field",
 		"commonName" : "Dallas Love Field",
 		"IATA" : "DAL",
-		"location" : "Dallas, TX",
+		"location" : "48-19000",
 		"size" : "medium",
 		"enplanement" : 8652838
 	},
@@ -283,7 +283,7 @@
 		"fullName" : "William P. Hobby Airport",
 		"commonName" : "William P. Hobby",
 		"IATA" : "HOU",
-		"location" : "Houston, TX",
+		"location" : "48-35000",
 		"size" : "medium",
 		"enplanement" : 7116020
 	},
@@ -347,7 +347,7 @@
 		"fullName" : "San Antonio International Airport",
 		"commonName" : "San Antonio",
 		"IATA" : "SAT",
-		"location" : "San Antonio, TX",
+		"location" : "48-65000",
 		"size" : "medium",
 		"enplanement" : 5465994
 	},
@@ -387,7 +387,7 @@
 		"fullName" : "Cincinnati/Northern Kentucky International Airport",
 		"commonName" : "Cincinnati/Northern Kentucky",
 		"IATA" : "CVG",
-		"location" : "Cincinnati, KY",
+		"location" : "Cincinnati, OH",
 		"size" : "medium",
 		"enplanement" : 4500414
 	},
@@ -787,7 +787,7 @@
 		"fullName" : "City of Colorado Springs Municipal Airport",
 		"commonName" : "City of Colorado Springs Municipal",
 		"IATA" : "COS",
-		"location" : "Colorado Springs, Colorado",
+		"location" : "08-16000",
 		"size" : "small",
 		"enplanement" : 941917
 	},
@@ -1033,7 +1033,7 @@
 	},
 	"MFR" : {
 		"fullName" : "Rogue Valley International–Medford Airport",
-		"commonName" : "Rogue Valley –Medford",
+		"commonName" : "Rogue Valley–Medford",
 		"IATA" : "MFR",
 		"location" : "Medford, Oregon",
 		"size" : "small",
@@ -1275,7 +1275,7 @@
 		"fullName" : "Peoria International Airport",
 		"commonName" : "Peoria",
 		"IATA" : "PIA",
-		"location" : "Peoria, Illinois",
+		"location" : "17-59000",
 		"size" : "small",
 		"enplanement" : 315482
 	},
@@ -1363,7 +1363,7 @@
 		"fullName" : "Quad Cities International Airport",
 		"commonName" : "Quad Cities",
 		"IATA" : "MLI",
-		"location" : "Moline, Illinois",
+		"location" : "17-49867",
 		"size" : "small",
 		"enplanement" : 272481
 	},
@@ -1395,7 +1395,7 @@
 		"fullName" : "Grand Junction Regional Airport",
 		"commonName" : "Grand Junction Regional",
 		"IATA" : "GJT",
-		"location" : "Grand Junction, Colorado",
+		"location" : "08-31660",
 		"size" : "small",
 		"enplanement" : 252290
 	},
@@ -1403,7 +1403,7 @@
 		"fullName" : "Aspen/Pitkin County Airport",
 		"commonName" : "Aspen/Pitkin County",
 		"IATA" : "ASE",
-		"location" : "Aspen, Colorado",
+		"location" : "08-03620",
 		"size" : "small",
 		"enplanement" : 248781
 	},
@@ -1443,7 +1443,7 @@
 		"fullName" : "Eagle County Regional Airport",
 		"commonName" : "Eagle County Regional",
 		"IATA" : "EGE",
-		"location" : "Eagle, Colorado",
+		"location" : "08-22200",
 		"size" : "small",
 		"enplanement" : 201752
 	},
@@ -1459,7 +1459,7 @@
 		"fullName" : "Durango–La Plata County Airport",
 		"commonName" : "Durango–La Plata County",
 		"IATA" : "DRO",
-		"location" : "Durango, Colorado",
+		"location" : "08-22035",
 		"size" : "small",
 		"enplanement" : 200245
 	},
@@ -1483,7 +1483,7 @@
 		"fullName" : "Montrose Regional Airport",
 		"commonName" : "Montrose Regional",
 		"IATA" : "MTJ",
-		"location" : "Montrose, Colorado",
+		"location" : "08-51745",
 		"size" : "small",
 		"enplanement" : 188355
 	},
@@ -1539,7 +1539,7 @@
 		"fullName" : "Central Illinois Regional Airport at Bloomington-Normal",
 		"commonName" : "Central Illinois Regional  at Bloomington-Normal",
 		"IATA" : "BMI",
-		"location" : "Bloomington, Illinois",
+		"location" : "17-06613",
 		"size" : "small",
 		"enplanement" : 164672
 	},
@@ -1595,7 +1595,7 @@
 		"fullName" : "Yampa Valley Airport",
 		"commonName" : "Yampa Valley",
 		"IATA" : "HDN",
-		"location" : "Hayden, Colorado",
+		"location" : "08-35070",
 		"size" : "small",
 		"enplanement" : 150142
 	},
@@ -1603,7 +1603,7 @@
 		"fullName" : "MidAmerica St. Louis Airport",
 		"commonName" : "MidAmerica St. Louis",
 		"IATA" : "BLV",
-		"location" : "Belleville, Illinois",
+		"location" : "17-04845",
 		"size" : "small",
 		"enplanement" : 147421
 	},
@@ -1699,7 +1699,7 @@
 		"fullName" : "Chicago Rockford International Airport",
 		"commonName" : "Chicago Rockford",
 		"IATA" : "RFD",
-		"location" : "Rockford, Illinois",
+		"location" : "17-65000",
 		"size" : "small",
 		"enplanement" : 120494
 	},
@@ -1963,7 +1963,7 @@
 		"fullName" : "University of Illinois - Willard Airport",
 		"commonName" : "University of Illinois - Willard",
 		"IATA" : "CMI",
-		"location" : "Champaign, Illinois",
+		"location" : "17-12385",
 		"size" : "small",
 		"enplanement" : 70184
 	},
@@ -2003,7 +2003,7 @@
 		"fullName" : "Deadhorse Airport",
 		"commonName" : "Deadhorse",
 		"IATA" : "SCC",
-		"location" : "Deadhorse, Alaska",
+		"location" : "Prudhoe Bay, Alaska",
 		"size" : "small",
 		"enplanement" : 64245
 	},
@@ -2067,7 +2067,7 @@
 		"fullName" : "Martha's Vineyard Airport",
 		"commonName" : "Martha's Vineyard",
 		"IATA" : "MVY",
-		"location" : "Vineyard Haven, Massachusetts",
+		"location" : "Tisbury, Massachusetts",
 		"size" : "small",
 		"enplanement" : 52605
 	},
@@ -2075,7 +2075,7 @@
 		"fullName" : "Abraham Lincoln Capital Airport",
 		"commonName" : "Abraham Lincoln Capital",
 		"IATA" : "SPI",
-		"location" : "Springfield, Illinois",
+		"location" : "17-72000",
 		"size" : "small",
 		"enplanement" : 50513
 	},
@@ -2251,7 +2251,7 @@
 		"fullName" : "Gunnison–Crested Butte Regional Airport",
 		"commonName" : "Gunnison–Crested Butte Regional",
 		"IATA" : "GUC",
-		"location" : "Gunnison, Colorado",
+		"location" : "08-33640",
 		"size" : "small",
 		"enplanement" : 38783
 	},
@@ -2315,7 +2315,7 @@
 		"fullName" : "Wiley Post–Will Rogers Memorial Airport",
 		"commonName" : "Wiley Post–Will Rogers Memorial",
 		"IATA" : "BRW",
-		"location" : "Utqiagvik, Alaska",
+		"location" : "Utqiaġvik, Alaska",
 		"size" : "small",
 		"enplanement" : 31898
 	},
@@ -2379,7 +2379,7 @@
 		"fullName" : "Cape Cod Gateway Airport",
 		"commonName" : "Cape Cod Gateway",
 		"IATA" : "HYA",
-		"location" : "Hyannis, Massachusetts",
+		"location" : "Barnstable, Massachusetts",
 		"size" : "small",
 		"enplanement" : 28341
 	},
@@ -2715,7 +2715,7 @@
 		"fullName" : "Block Island State Airport",
 		"commonName" : "Block Island State",
 		"IATA" : "BID",
-		"location" : "Block Island",
+		"location" : "New Shoreham, Rhode Island",
 		"size" : "small",
 		"enplanement" : 16809
 	},
@@ -2817,7 +2817,7 @@
 	},
 	"SIG" : {
 		"fullName" : "Fernando Luis Ribas Dominicci Airport",
-		"commonName" : "Fernando Luis Ribas Dominicci",
+		"commonName" : "Isla Grande",
 		"IATA" : "SIG",
 		"location" : "San Juan, Puerto Rico",
 		"size" : "small",
@@ -2875,7 +2875,7 @@
 		"fullName" : "San Luis Valley Regional Airport",
 		"commonName" : "San Luis Valley Regional",
 		"IATA" : "ALS",
-		"location" : "Alamosa, Colorado",
+		"location" : "08-01090",
 		"size" : "small",
 		"enplanement" : 11987
 	},
@@ -2883,7 +2883,7 @@
 		"fullName" : "Decatur Airport",
 		"commonName" : "Decatur",
 		"IATA" : "DEC",
-		"location" : "Decatur, Illinois",
+		"location" : "17-18823",
 		"size" : "small",
 		"enplanement" : 11216
 	},
@@ -2907,7 +2907,7 @@
 		"fullName" : "Veterans Airport of Southern Illinois",
 		"commonName" : "Veterans  of Southern Illinois",
 		"IATA" : "MWA",
-		"location" : "Marion, Illinois",
+		"location" : "17-46916",
 		"size" : "small",
 		"enplanement" : 10558
 	},
@@ -2963,7 +2963,7 @@
 		"fullName" : "Waynesville–St. Robert Regional Airport",
 		"commonName" : "Waynesville–St. Robert Regional",
 		"IATA" : "TBN",
-		"location" : "Fort Leonard Wood",
+		"location" : "St. Robert, Missouri",
 		"size" : "small",
 		"enplanement" : 7717
 	},

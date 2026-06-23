@@ -1,3 +1,114 @@
 {
-    
+    "Fayetteville, Cumberland County, North Carolina" : {
+        "name" : "Fayetteville",
+        "state" : "37",
+        "FIPS" : "37-22920",
+        "counties" : [
+            "37051"
+        ],
+        "type" : "City",
+        "population" : 209749,
+        "squareMileage" : 150.08
+    },
+    "Durham, Durham County, North Carolina" : {
+        "name" : "Durham",
+        "state" : "37",
+        "FIPS" : "37-19000",
+        "counties" : [
+            "37063",
+            "37135",
+            "37183"
+        ],
+        "type" : "City",
+        "population" : 304014,
+        "squareMileage" : 116.19
+    },
+    "Asheville, Buncombe County, North Carolina" : {
+        "name" : "Asheville",
+        "state" : "37",
+        "FIPS" : "37-02140",
+        "counties" : [
+            "37021"
+        ],
+        "type" : "City",
+        "population" : 98270,
+        "squareMileage" : 45.85
+    },
+    "Charlotte, Mecklenburg County, North Carolina" : {
+        "name" : "Charlotte",
+        "state" : "37",
+        "FIPS" : "37-12000",
+        "counties" : [
+            "37119"
+        ],
+        "type" : "City",
+        "population" : 964784,
+        "squareMileage" : 312.00
+    },
+    "Whiteville, Columbus County, North Carolina" : {
+        "name" : "Whiteville",
+        "state" : "37",
+        "FIPS" : "37-73660",
+        "counties" : [
+            "37047"
+        ],
+        "type" : "City",
+        "population" : 4766,
+        "squareMileage" : 5.56
+    },
+    "Raleigh, Wake County, North Carolina" : {
+        "name" : "Raleigh",
+        "state" : "37",
+        "FIPS" : "37-55000",
+        "counties" : [
+            "37183"
+        ],
+        "type" : "City",
+        "population" : 516807,
+        "squareMileage" : 149.61
+    },
+    "Greenboro, Guilford County, North Carolina" : {
+        "name" : "Greenboro",
+        "state" : "37",
+        "FIPS" : "37-28000",
+        "counties" : [
+            "37081"
+        ],
+        "type" : "City",
+        "population" : 307381,
+        "squareMileage" : 136.65
+    },
+    "Wilmington, New Hanover County, North Carolina" : {
+        "name" : "Wilmington",
+        "state" : "37",
+        "FIPS" : "37-74440",
+        "counties" : [
+            "37129"
+        ],
+        "type" : "City",
+        "population" : 122698,
+        "squareMileage" : 52.97
+    },
+    "New Bern, Craven County, North Carolina" : {
+        "name" : "New Bern",
+        "state" : "37",
+        "FIPS" : "37-46340",
+        "counties" : [
+            "37049"
+        ],
+        "type" : "City",
+        "population" : 31291,
+        "squareMileage" : 29.95
+    },
+    "Greenville, Pitt County, North Carolina" : {
+        "name" : "Greenville",
+        "state" : "37",
+        "FIPS" : "37-28080",
+        "counties" : [
+            "37147"
+        ],
+        "type" : "City",
+        "population" : 87521,
+        "squareMileage" : 38.20
+    }
 }

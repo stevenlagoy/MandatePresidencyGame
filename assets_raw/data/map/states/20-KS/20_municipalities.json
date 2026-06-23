@@ -1,3 +1,68 @@
 {
-    
+    "Colby, Thomas County, Kansas" : {
+        "name" : "Colby",
+        "state" : "20",
+        "FIPS" : "20-14650",
+        "counties" : [
+            "20193"
+        ],
+        "type" : "Second Class City",
+        "population" : 5570,
+        "squareMileage" : 3.58
+    },
+    "Wichita, Sedgwick County, Kansas" : {
+        "name" : "Wichita",
+        "state" : "20",
+        "FIPS" : "20-79000",
+        "counties" : [
+            "20173"
+        ],
+        "type" : "First Class City",
+        "population" : 400991,
+        "squareMileage" : 166.52
+    },
+    "Manhattan, Riley County, Kansas" : {
+        "name" : "Manhattan",
+        "state" : "20",
+        "FIPS" : "20-44250",
+        "counties" : [
+            "20161"
+        ],
+        "type" : "First Class City",
+        "population" : 54100,
+        "squareMileage" : 19.91
+    },
+    "Garden City, Finney County, Kansas" : {
+        "name" : "Garden City",
+        "state" : "20",
+        "FIPS" : "20-25325",
+        "counties" : [
+            "20055"
+        ],
+        "type" : "First Class City",
+        "population" : 28151,
+        "squareMileage" : 10.93
+    },
+    "Salina, Saline County, Kansas" : {
+        "name" : "Salina",
+        "state" : "20",
+        "FIPS" : "20-62700",
+        "counties" : [
+            "20169"
+        ],
+        "type" : "First Class City",
+        "population" : 46889,
+        "squareMileage" : 25.73
+    },
+    "Hays, Ellis County, Kansas" : {
+        "name" : "Hays",
+        "state" : "20",
+        "FIPS" : "20-31100",
+        "counties" : [
+            "20051"
+        ],
+        "type" : "First Class City",
+        "population" : 21116,
+        "squareMileage" : 8.48
+    }
 }

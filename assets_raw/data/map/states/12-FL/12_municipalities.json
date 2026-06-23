@@ -1,7 +1,7 @@
 {
     "Alachua, Alachua County, Florida" : {
         "name" : "Alachua",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-00375",
         "counties" : [
             "12001"
@@ -10,11 +10,11 @@
         "population_2010" : 10574,
         "population_2020" : 10574,
         "population" : 12251,
-        "square_mileage" : 36.2
+        "squareMileage" : 36.2
     },
     "Alford, Jackson County, Florida" : {
         "name" : "Alford",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-00625",
         "counties" : [
             "12063"
@@ -23,11 +23,11 @@
         "population_2010" : 484,
         "population_2020" : 484,
         "population" : 561,
-        "square_mileage" : 1.1
+        "squareMileage" : 1.1
     },
     "Altamonte Springs, Seminole County, Florida" : {
         "name" : "Altamonte Springs",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-00950",
         "counties" : [
             "12117"
@@ -36,11 +36,11 @@
         "population_2010" : 46231,
         "population_2020" : 46231,
         "population" : 53562,
-        "square_mileage" : 9.1
+        "squareMileage" : 9.1
     },
     "Altha, Calhoun County, Florida" : {
         "name" : "Altha",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-01000",
         "counties" : [
             "12013"
@@ -49,11 +49,11 @@
         "population_2010" : 496,
         "population_2020" : 496,
         "population" : 575,
-        "square_mileage" : 1.3
+        "squareMileage" : 1.3
     },
     "Anna Maria, Manatee County, Florida" : {
         "name" : "Anna Maria",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-01475",
         "counties" : [
             "12081"
@@ -62,11 +62,11 @@
         "population_2010" : 968,
         "population_2020" : 968,
         "population" : 1122,
-        "square_mileage" : 0.74
+        "squareMileage" : 0.74
     },
     "Apalachicola, Franklin County, Florida" : {
         "name" : "Apalachicola",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-01625",
         "counties" : [
             "12037"
@@ -75,11 +75,11 @@
         "population_2010" : 2341,
         "population_2020" : 2341,
         "population" : 2712,
-        "square_mileage" : 1.9
+        "squareMileage" : 1.9
     },
     "Apopka, Orange County, Florida" : {
         "name" : "Apopka",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-01700",
         "counties" : [
             "12095"
@@ -88,11 +88,11 @@
         "population_2010" : 54873,
         "population_2020" : 54873,
         "population" : 63575,
-        "square_mileage" : 34.6
+        "squareMileage" : 34.6
     },
     "Arcadia, DeSoto County, Florida" : {
         "name" : "Arcadia",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-01750",
         "counties" : [
             "12027"
@@ -101,11 +101,11 @@
         "population_2010" : 7420,
         "population_2020" : 7420,
         "population" : 8597,
-        "square_mileage" : 4.4
+        "squareMileage" : 4.4
     },
     "Archer, Alachua County, Florida" : {
         "name" : "Archer",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-01775",
         "counties" : [
             "12001"
@@ -114,11 +114,11 @@
         "population_2010" : 1140,
         "population_2020" : 1140,
         "population" : 1321,
-        "square_mileage" : 6.4
+        "squareMileage" : 6.4
     },
     "Astatula, Lake County, Florida" : {
         "name" : "Astatula",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-02250",
         "counties" : [
             "12069"
@@ -127,11 +127,11 @@
         "population_2010" : 1889,
         "population_2020" : 1889,
         "population" : 2189,
-        "square_mileage" : 3.1
+        "squareMileage" : 3.1
     },
     "Atlantic Beach, Duval County, Florida" : {
         "name" : "Atlantic Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-02400",
         "counties" : [
             "12031"
@@ -140,11 +140,11 @@
         "population_2010" : 13513,
         "population_2020" : 13513,
         "population" : 15656,
-        "square_mileage" : 3.7
+        "squareMileage" : 3.7
     },
     "Atlantis, Palm Beach County, Florida" : {
         "name" : "Atlantis",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-02500",
         "counties" : [
             "12099"
@@ -153,11 +153,11 @@
         "population_2010" : 2142,
         "population_2020" : 2142,
         "population" : 2482,
-        "square_mileage" : 1.4
+        "squareMileage" : 1.4
     },
     "Auburndale, Polk County, Florida" : {
         "name" : "Auburndale",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-02550",
         "counties" : [
             "12105"
@@ -166,11 +166,11 @@
         "population_2010" : 15616,
         "population_2020" : 15616,
         "population" : 18092,
-        "square_mileage" : 13.6
+        "squareMileage" : 13.6
     },
     "Aventura, Miami-Dade County, Florida" : {
         "name" : "Aventura",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-02681",
         "counties" : [
             "12086"
@@ -179,11 +179,11 @@
         "population_2010" : 40242,
         "population_2020" : 40242,
         "population" : 46623,
-        "square_mileage" : 2.6
+        "squareMileage" : 2.6
     },
     "Avon Park, Highlands County, Florida" : {
         "name" : "Avon Park",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-02750",
         "counties" : [
             "12055"
@@ -192,11 +192,11 @@
         "population_2010" : 9658,
         "population_2020" : 9658,
         "population" : 11190,
-        "square_mileage" : 10.1
+        "squareMileage" : 10.1
     },
     "Bal Harbour, Miami-Dade County, Florida" : {
         "name" : "Bal Harbour",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-03275",
         "counties" : [
             "12086"
@@ -205,11 +205,11 @@
         "population_2010" : 3093,
         "population_2020" : 3093,
         "population" : 3583,
-        "square_mileage" : 0.38
+        "squareMileage" : 0.38
     },
     "Baldwin, Duval County, Florida" : {
         "name" : "Baldwin",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-03250",
         "counties" : [
             "12031"
@@ -218,11 +218,11 @@
         "population_2010" : 1396,
         "population_2020" : 1396,
         "population" : 1617,
-        "square_mileage" : 2.0
+        "squareMileage" : 2.0
     },
     "Bartow, Polk County, Florida" : {
         "name" : "Bartow",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-03675",
         "counties" : [
             "12105"
@@ -231,11 +231,11 @@
         "population_2010" : 19309,
         "population_2020" : 19309,
         "population" : 22371,
-        "square_mileage" : 46.3
+        "squareMileage" : 46.3
     },
     "Bascom, Jackson County, Florida" : {
         "name" : "Bascom",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-03725",
         "counties" : [
             "12063"
@@ -244,11 +244,11 @@
         "population_2010" : 87,
         "population_2020" : 87,
         "population" : 101,
-        "square_mileage" : 0.24
+        "squareMileage" : 0.24
     },
     "Bay Harbor Islands, Miami-Dade County, Florida" : {
         "name" : "Bay Harbor Islands",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-03975",
         "counties" : [
             "12086"
@@ -257,11 +257,11 @@
         "population_2010" : 5922,
         "population_2020" : 5922,
         "population" : 6861,
-        "square_mileage" : 0.4
+        "squareMileage" : 0.4
     },
     "Bay Lake, Orange County, Florida" : {
         "name" : "Bay Lake",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-04150",
         "counties" : [
             "12095"
@@ -270,11 +270,11 @@
         "population_2010" : 29,
         "population_2020" : 29,
         "population" : 34,
-        "square_mileage" : 21.5
+        "squareMileage" : 21.5
     },
     "Bell, Gilchrist County, Florida" : {
         "name" : "Bell",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-04975",
         "counties" : [
             "12041"
@@ -283,11 +283,11 @@
         "population_2010" : 518,
         "population_2020" : 518,
         "population" : 600,
-        "square_mileage" : 1.6
+        "squareMileage" : 1.6
     },
     "Belle Glade, Palm Beach County, Florida" : {
         "name" : "Belle Glade",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-05200",
         "counties" : [
             "12099"
@@ -296,11 +296,11 @@
         "population_2010" : 16698,
         "population_2020" : 16698,
         "population" : 19346,
-        "square_mileage" : 7.0
+        "squareMileage" : 7.0
     },
     "Belle Isle, Orange County, Florida" : {
         "name" : "Belle Isle",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-05300",
         "counties" : [
             "12095"
@@ -309,11 +309,11 @@
         "population_2010" : 7032,
         "population_2020" : 7032,
         "population" : 8147,
-        "square_mileage" : 2.4
+        "squareMileage" : 2.4
     },
     "Belleair, Pinellas County, Florida" : {
         "name" : "Belleair",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-05075",
         "counties" : [
             "12103"
@@ -322,11 +322,11 @@
         "population_2010" : 4273,
         "population_2020" : 4273,
         "population" : 4951,
-        "square_mileage" : 1.7
+        "squareMileage" : 1.7
     },
     "Belleair Beach, Pinellas County, Florida" : {
         "name" : "Belleair Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-05100",
         "counties" : [
             "12103"
@@ -335,11 +335,11 @@
         "population_2010" : 1633,
         "population_2020" : 1633,
         "population" : 1892,
-        "square_mileage" : 0.48
+        "squareMileage" : 0.48
     },
     "Belleair Bluffs, Pinellas County, Florida" : {
         "name" : "Belleair Bluffs",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-05125",
         "counties" : [
             "12103"
@@ -348,11 +348,11 @@
         "population_2010" : 2311,
         "population_2020" : 2311,
         "population" : 2677,
-        "square_mileage" : 0.46
+        "squareMileage" : 0.46
     },
     "Belleair Shore, Pinellas County, Florida" : {
         "name" : "Belleair Shore",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-05150",
         "counties" : [
             "12103"
@@ -361,11 +361,11 @@
         "population_2010" : 73,
         "population_2020" : 73,
         "population" : 85,
-        "square_mileage" : 0.06
+        "squareMileage" : 0.06
     },
     "Belleview, Marion County, Florida" : {
         "name" : "Belleview",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-05375",
         "counties" : [
             "12083"
@@ -374,11 +374,11 @@
         "population_2010" : 5413,
         "population_2020" : 5413,
         "population" : 6271,
-        "square_mileage" : 3.9
+        "squareMileage" : 3.9
     },
     "Beverly Beach, Floridaagler County, Florida" : {
         "name" : "Beverly Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-06100",
         "counties" : [
             "12035"
@@ -387,11 +387,11 @@
         "population_2010" : 474,
         "population_2020" : 474,
         "population" : 549,
-        "square_mileage" : 0.34
+        "squareMileage" : 0.34
     },
     "Biscayne Park, Miami-Dade County, Florida" : {
         "name" : "Biscayne Park",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-06600",
         "counties" : [
             "12086"
@@ -400,11 +400,11 @@
         "population_2010" : 3117,
         "population_2020" : 3117,
         "population" : 3611,
-        "square_mileage" : 0.62
+        "squareMileage" : 0.62
     },
     "Blountstown, Calhoun County, Florida" : {
         "name" : "Blountstown",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-06925",
         "counties" : [
             "12013"
@@ -413,11 +413,11 @@
         "population_2010" : 2266,
         "population_2020" : 2266,
         "population" : 2625,
-        "square_mileage" : 3.2
+        "squareMileage" : 3.2
     },
     "Boca Raton, Palm Beach County, Florida" : {
         "name" : "Boca Raton",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-07300",
         "counties" : [
             "12099"
@@ -426,11 +426,11 @@
         "population_2010" : 97422,
         "population_2020" : 97422,
         "population" : 112871,
-        "square_mileage" : 29.2
+        "squareMileage" : 29.2
     },
     "Bonifay, Holmes County, Florida" : {
         "name" : "Bonifay",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-07450",
         "counties" : [
             "12059"
@@ -439,11 +439,11 @@
         "population_2010" : 2759,
         "population_2020" : 2759,
         "population" : 3197,
-        "square_mileage" : 4.7
+        "squareMileage" : 4.7
     },
     "Bonita Springs, Lee County, Florida" : {
         "name" : "Bonita Springs",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-07525",
         "counties" : [
             "12071"
@@ -452,11 +452,11 @@
         "population_2010" : 53644,
         "population_2020" : 53644,
         "population" : 62151,
-        "square_mileage" : 38.4
+        "squareMileage" : 38.4
     },
     "Bowling Green, Hardee County, Florida" : {
         "name" : "Bowling Green",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-07775",
         "counties" : [
             "12049"
@@ -465,11 +465,11 @@
         "population_2010" : 2405,
         "population_2020" : 2405,
         "population" : 2786,
-        "square_mileage" : 1.3
+        "squareMileage" : 1.3
     },
     "Boynton Beach, Palm Beach County, Florida" : {
         "name" : "Boynton Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-07875",
         "counties" : [
             "12099"
@@ -478,11 +478,11 @@
         "population_2010" : 80380,
         "population_2020" : 80380,
         "population" : 93126,
-        "square_mileage" : 16.2
+        "squareMileage" : 16.2
     },
     "Bradenton, Manatee County, Florida" : {
         "name" : "Bradenton",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-07950",
         "counties" : [
             "12081"
@@ -491,11 +491,11 @@
         "population_2010" : 55698,
         "population_2020" : 55698,
         "population" : 64530,
-        "square_mileage" : 14.3
+        "squareMileage" : 14.3
     },
     "Bradenton Beach, Manatee County, Florida" : {
         "name" : "Bradenton Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-07975",
         "counties" : [
             "12081"
@@ -504,11 +504,11 @@
         "population_2010" : 908,
         "population_2020" : 908,
         "population" : 1052,
-        "square_mileage" : 0.52
+        "squareMileage" : 0.52
     },
     "Branford, Suwannee County, Florida" : {
         "name" : "Branford",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-08175",
         "counties" : [
             "12121"
@@ -517,11 +517,11 @@
         "population_2010" : 711,
         "population_2020" : 711,
         "population" : 824,
-        "square_mileage" : 1.1
+        "squareMileage" : 1.1
     },
     "Briny Breezes, Palm Beach County, Florida" : {
         "name" : "Briny Breezes",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-08575",
         "counties" : [
             "12099"
@@ -530,11 +530,11 @@
         "population_2010" : 502,
         "population_2020" : 502,
         "population" : 582,
-        "square_mileage" : 0.06
+        "squareMileage" : 0.06
     },
     "Bristol, Liberty County, Florida" : {
         "name" : "Bristol",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-08600",
         "counties" : [
             "12077"
@@ -543,11 +543,11 @@
         "population_2010" : 918,
         "population_2020" : 918,
         "population" : 1064,
-        "square_mileage" : 1.6
+        "squareMileage" : 1.6
     },
     "Bronson, Levy County, Florida" : {
         "name" : "Bronson",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-08700",
         "counties" : [
             "12075"
@@ -556,11 +556,11 @@
         "population_2010" : 1140,
         "population_2020" : 1140,
         "population" : 1321,
-        "square_mileage" : 4.3
+        "squareMileage" : 4.3
     },
     "Brooker, Bradford County, Florida" : {
         "name" : "Brooker",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-08725",
         "counties" : [
             "12007"
@@ -569,11 +569,11 @@
         "population_2010" : 322,
         "population_2020" : 322,
         "population" : 373,
-        "square_mileage" : 0.53
+        "squareMileage" : 0.53
     },
     "Brooksville, Hernando County, Florida" : {
         "name" : "Brooksville",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-08800",
         "counties" : [
             "12053"
@@ -582,11 +582,11 @@
         "population_2010" : 8890,
         "population_2020" : 8890,
         "population" : 10300,
-        "square_mileage" : 11.2
+        "squareMileage" : 11.2
     },
     "Bunnell, Floridaagler County, Florida" : {
         "name" : "Bunnell",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-09550",
         "counties" : [
             "12035"
@@ -595,11 +595,11 @@
         "population_2010" : 3276,
         "population_2020" : 3276,
         "population" : 3795,
-        "square_mileage" : 139.8
+        "squareMileage" : 139.8
     },
     "Bushnell, Sumter County, Florida" : {
         "name" : "Bushnell",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-09625",
         "counties" : [
             "12119"
@@ -608,11 +608,11 @@
         "population_2010" : 3047,
         "population_2020" : 3047,
         "population" : 3530,
-        "square_mileage" : 12.4
+        "squareMileage" : 12.4
     },
     "Callahan, Nassau County, Florida" : {
         "name" : "Callahan",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-09700",
         "counties" : [
             "12089"
@@ -621,11 +621,11 @@
         "population_2010" : 1526,
         "population_2020" : 1526,
         "population" : 1768,
-        "square_mileage" : 1.8
+        "squareMileage" : 1.8
     },
     "Callaway, Bay County, Florida" : {
         "name" : "Callaway",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-09725",
         "counties" : [
             "12005"
@@ -634,11 +634,11 @@
         "population_2010" : 13045,
         "population_2020" : 13045,
         "population" : 15114,
-        "square_mileage" : 9.4
+        "squareMileage" : 9.4
     },
     "Campbellton, Jackson County, Florida" : {
         "name" : "Campbellton",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-09900",
         "counties" : [
             "12063"
@@ -647,11 +647,11 @@
         "population_2010" : 191,
         "population_2020" : 191,
         "population" : 221,
-        "square_mileage" : 2.6
+        "squareMileage" : 2.6
     },
     "Cape Canaveral, Brevard County, Florida" : {
         "name" : "Cape Canaveral",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-10250",
         "counties" : [
             "12009"
@@ -660,11 +660,11 @@
         "population_2010" : 9972,
         "population_2020" : 9972,
         "population" : 11553,
-        "square_mileage" : 2.2
+        "squareMileage" : 2.2
     },
     "Cape Coral, Lee County, Florida" : {
         "name" : "Cape Coral",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-10275",
         "counties" : [
             "12071"
@@ -673,11 +673,11 @@
         "population_2010" : 194016,
         "population_2020" : 194016,
         "population" : 224782,
-        "square_mileage" : 106.0
+        "squareMileage" : 106.0
     },
     "Carrabelle, Franklin County, Florida" : {
         "name" : "Carrabelle",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-10725",
         "counties" : [
             "12037"
@@ -686,11 +686,11 @@
         "population_2010" : 2606,
         "population_2020" : 2606,
         "population" : 3019,
-        "square_mileage" : 4.8
+        "squareMileage" : 4.8
     },
     "Caryville, Washington County, Florida" : {
         "name" : "Caryville",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-10975",
         "counties" : [
             "12133"
@@ -699,11 +699,11 @@
         "population_2010" : 301,
         "population_2020" : 301,
         "population" : 349,
-        "square_mileage" : 3.0
+        "squareMileage" : 3.0
     },
     "Casselberry, Seminole County, Florida" : {
         "name" : "Casselberry",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-11050",
         "counties" : [
             "12117"
@@ -712,11 +712,11 @@
         "population_2010" : 28794,
         "population_2020" : 28794,
         "population" : 33360,
-        "square_mileage" : 7.0
+        "squareMileage" : 7.0
     },
     "Cedar Key, Levy County, Florida" : {
         "name" : "Cedar Key",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-11225",
         "counties" : [
             "12075"
@@ -725,11 +725,11 @@
         "population_2010" : 687,
         "population_2020" : 687,
         "population" : 796,
-        "square_mileage" : 1.0
+        "squareMileage" : 1.0
     },
     "Center Hill, Sumter County, Florida" : {
         "name" : "Center Hill",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-11325",
         "counties" : [
             "12119"
@@ -738,11 +738,11 @@
         "population_2010" : 846,
         "population_2020" : 846,
         "population" : 980,
-        "square_mileage" : 6.1
+        "squareMileage" : 6.1
     },
     "Century, Escambia County, Florida" : {
         "name" : "Century",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-11362",
         "counties" : [
             "12033"
@@ -751,11 +751,11 @@
         "population_2010" : 1713,
         "population_2020" : 1713,
         "population" : 1985,
-        "square_mileage" : 3.2
+        "squareMileage" : 3.2
     },
     "Chattahoochee, Gadsden County, Florida" : {
         "name" : "Chattahoochee",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-11800",
         "counties" : [
             "12039"
@@ -764,11 +764,11 @@
         "population_2010" : 2955,
         "population_2020" : 2955,
         "population" : 3424,
-        "square_mileage" : 5.6
+        "squareMileage" : 5.6
     },
     "Chiefland, Levy County, Florida" : {
         "name" : "Chiefland",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-11925",
         "counties" : [
             "12075"
@@ -777,11 +777,11 @@
         "population_2010" : 2316,
         "population_2020" : 2316,
         "population" : 2683,
-        "square_mileage" : 6.8
+        "squareMileage" : 6.8
     },
     "Chipley, Washington County, Florida" : {
         "name" : "Chipley",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-11975",
         "counties" : [
             "12133"
@@ -790,11 +790,11 @@
         "population_2010" : 3660,
         "population_2020" : 3660,
         "population" : 4240,
-        "square_mileage" : 4.2
+        "squareMileage" : 4.2
     },
     "Cinco Bayou, Okaloosa County, Florida" : {
         "name" : "Cinco Bayou",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-12325",
         "counties" : [
             "12091"
@@ -803,11 +803,11 @@
         "population_2010" : 457,
         "population_2020" : 457,
         "population" : 529,
-        "square_mileage" : 0.17
+        "squareMileage" : 0.17
     },
     "Clearwater, Pinellas County, Florida" : {
         "name" : "Clearwater",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-12875",
         "counties" : [
             "12103"
@@ -816,11 +816,11 @@
         "population_2010" : 117292,
         "population_2020" : 117292,
         "population" : 135892,
-        "square_mileage" : 26.1
+        "squareMileage" : 26.1
     },
     "Clermont, Lake County, Florida" : {
         "name" : "Clermont",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-12925",
         "counties" : [
             "12069"
@@ -829,11 +829,11 @@
         "population_2010" : 43021,
         "population_2020" : 43021,
         "population" : 49843,
-        "square_mileage" : 18.0
+        "squareMileage" : 18.0
     },
     "Clewiston, Hendry County, Florida" : {
         "name" : "Clewiston",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-13000",
         "counties" : [
             "12051"
@@ -842,11 +842,11 @@
         "population_2010" : 7327,
         "population_2020" : 7327,
         "population" : 8489,
-        "square_mileage" : 4.5
+        "squareMileage" : 4.5
     },
     "Cloud Lake, Palm Beach County, Florida" : {
         "name" : "Cloud Lake",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-13050",
         "counties" : [
             "12099"
@@ -855,11 +855,11 @@
         "population_2010" : 134,
         "population_2020" : 134,
         "population" : 155,
-        "square_mileage" : 0.05
+        "squareMileage" : 0.05
     },
     "Cocoa, Brevard County, Florida" : {
         "name" : "Cocoa",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-13150",
         "counties" : [
             "12009"
@@ -868,11 +868,11 @@
         "population_2010" : 19041,
         "population_2020" : 19041,
         "population" : 22060,
-        "square_mileage" : 13.5
+        "squareMileage" : 13.5
     },
     "Cocoa Beach, Brevard County, Florida" : {
         "name" : "Cocoa Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-13175",
         "counties" : [
             "12009"
@@ -881,11 +881,11 @@
         "population_2010" : 11354,
         "population_2020" : 11354,
         "population" : 13154,
-        "square_mileage" : 4.7
+        "squareMileage" : 4.7
     },
     "Coconut Creek, Broward County, Florida" : {
         "name" : "Coconut Creek",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-13275",
         "counties" : [
             "12011"
@@ -894,11 +894,11 @@
         "population_2010" : 57833,
         "population_2020" : 57833,
         "population" : 67004,
-        "square_mileage" : 11.2
+        "squareMileage" : 11.2
     },
     "Coleman, Sumter County, Florida" : {
         "name" : "Coleman",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-13400",
         "counties" : [
             "12119"
@@ -907,11 +907,11 @@
         "population_2010" : 642,
         "population_2020" : 642,
         "population" : 744,
-        "square_mileage" : 2.2
+        "squareMileage" : 2.2
     },
     "Cooper City, Broward County, Florida" : {
         "name" : "Cooper City",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-14125",
         "counties" : [
             "12011"
@@ -920,11 +920,11 @@
         "population_2010" : 34401,
         "population_2020" : 34401,
         "population" : 39856,
-        "square_mileage" : 8.0
+        "squareMileage" : 8.0
     },
     "Coral Gables, Miami-Dade County, Florida" : {
         "name" : "Coral Gables",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-14250",
         "counties" : [
             "12086"
@@ -933,11 +933,11 @@
         "population_2010" : 49248,
         "population_2020" : 49248,
         "population" : 57058,
-        "square_mileage" : 12.9
+        "squareMileage" : 12.9
     },
     "Coral Springs, Broward County, Florida" : {
         "name" : "Coral Springs",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-14400",
         "counties" : [
             "12011"
@@ -946,11 +946,11 @@
         "population_2010" : 134394,
         "population_2020" : 134394,
         "population" : 155706,
-        "square_mileage" : 22.9
+        "squareMileage" : 22.9
     },
     "Cottondale, Jackson County, Florida" : {
         "name" : "Cottondale",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-14850",
         "counties" : [
             "12063"
@@ -959,11 +959,11 @@
         "population_2010" : 848,
         "population_2020" : 848,
         "population" : 982,
-        "square_mileage" : 3.3
+        "squareMileage" : 3.3
     },
     "Crescent City, Putnam County, Florida" : {
         "name" : "Crescent City",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-15375",
         "counties" : [
             "12107"
@@ -972,11 +972,11 @@
         "population_2010" : 1654,
         "population_2020" : 1654,
         "population" : 1916,
-        "square_mileage" : 2.1
+        "squareMileage" : 2.1
     },
     "Crestview, Okaloosa County, Florida" : {
         "name" : "Crestview",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-15475",
         "counties" : [
             "12091"
@@ -985,11 +985,11 @@
         "population_2010" : 27134,
         "population_2020" : 27134,
         "population" : 31437,
-        "square_mileage" : 16.6
+        "squareMileage" : 16.6
     },
     "Cross City, Dixie County, Florida" : {
         "name" : "Cross City",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-15575",
         "counties" : [
             "12029"
@@ -998,11 +998,11 @@
         "population_2010" : 1689,
         "population_2020" : 1689,
         "population" : 1957,
-        "square_mileage" : 1.8
+        "squareMileage" : 1.8
     },
     "Crystal River, Citrus County, Florida" : {
         "name" : "Crystal River",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-15775",
         "counties" : [
             "12017"
@@ -1011,11 +1011,11 @@
         "population_2010" : 3396,
         "population_2020" : 3396,
         "population" : 3935,
-        "square_mileage" : 7.5
+        "squareMileage" : 7.5
     },
     "Cutler Bay, Miami-Dade County, Florida" : {
         "name" : "Cutler Bay",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-15968",
         "counties" : [
             "12086"
@@ -1024,11 +1024,11 @@
         "population_2010" : 45425,
         "population_2020" : 45425,
         "population" : 52628,
-        "square_mileage" : 9.9
+        "squareMileage" : 9.9
     },
     "Dade City, Pasco County, Florida" : {
         "name" : "Dade City",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-16125",
         "counties" : [
             "12101"
@@ -1037,11 +1037,11 @@
         "population_2010" : 7275,
         "population_2020" : 7275,
         "population" : 8429,
-        "square_mileage" : 6.2
+        "squareMileage" : 6.2
     },
     "Dania Beach, Broward County, Florida" : {
         "name" : "Dania Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-16335",
         "counties" : [
             "12011"
@@ -1050,11 +1050,11 @@
         "population_2010" : 31723,
         "population_2020" : 31723,
         "population" : 36754,
-        "square_mileage" : 7.8
+        "squareMileage" : 7.8
     },
     "Davenport, Polk County, Florida" : {
         "name" : "Davenport",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-16450",
         "counties" : [
             "12105"
@@ -1063,11 +1063,11 @@
         "population_2010" : 9043,
         "population_2020" : 9043,
         "population" : 10477,
-        "square_mileage" : 3.7
+        "squareMileage" : 3.7
     },
     "Davie, Broward County, Florida" : {
         "name" : "Davie",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-16475",
         "counties" : [
             "12011"
@@ -1076,11 +1076,11 @@
         "population_2010" : 105691,
         "population_2020" : 105691,
         "population" : 122451,
-        "square_mileage" : 34.9
+        "squareMileage" : 34.9
     },
     "Daytona Beach, Volusia County, Florida" : {
         "name" : "Daytona Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-16525",
         "counties" : [
             "12127"
@@ -1089,11 +1089,11 @@
         "population_2010" : 72647,
         "population_2020" : 72647,
         "population" : 84167,
-        "square_mileage" : 65.6
+        "squareMileage" : 65.6
     },
     "Daytona Beach Shores, Volusia County, Florida" : {
         "name" : "Daytona Beach Shores",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-16550",
         "counties" : [
             "12127"
@@ -1102,11 +1102,11 @@
         "population_2010" : 5179,
         "population_2020" : 5179,
         "population" : 6000,
-        "square_mileage" : 0.85
+        "squareMileage" : 0.85
     },
     "DeBary, Volusia County, Florida" : {
         "name" : "DeBary",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-16675",
         "counties" : [
             "12127"
@@ -1115,11 +1115,11 @@
         "population_2010" : 22260,
         "population_2020" : 22260,
         "population" : 25790,
-        "square_mileage" : 19.0
+        "squareMileage" : 19.0
     },
     "Deerfield Beach, Broward County, Florida" : {
         "name" : "Deerfield Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-16725",
         "counties" : [
             "12011"
@@ -1128,11 +1128,11 @@
         "population_2010" : 86859,
         "population_2020" : 86859,
         "population" : 100633,
-        "square_mileage" : 14.9
+        "squareMileage" : 14.9
     },
     "DeFuniak Springs, Walton County, Florida" : {
         "name" : "DeFuniak Springs",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-16800",
         "counties" : [
             "12131"
@@ -1141,11 +1141,11 @@
         "population_2010" : 5919,
         "population_2020" : 5919,
         "population" : 6858,
-        "square_mileage" : 14.0
+        "squareMileage" : 14.0
     },
     "DeLand, Volusia County, Florida" : {
         "name" : "DeLand",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-16875",
         "counties" : [
             "12127"
@@ -1154,11 +1154,11 @@
         "population_2010" : 37351,
         "population_2020" : 37351,
         "population" : 43274,
-        "square_mileage" : 19.0
+        "squareMileage" : 19.0
     },
     "Delray Beach, Palm Beach County, Florida" : {
         "name" : "Delray Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-17100",
         "counties" : [
             "12099"
@@ -1167,11 +1167,11 @@
         "population_2010" : 66846,
         "population_2020" : 66846,
         "population" : 77446,
-        "square_mileage" : 15.9
+        "squareMileage" : 15.9
     },
     "Deltona, Volusia County, Florida" : {
         "name" : "Deltona",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-17200",
         "counties" : [
             "12127"
@@ -1180,11 +1180,11 @@
         "population_2010" : 93692,
         "population_2020" : 93692,
         "population" : 108549,
-        "square_mileage" : 37.3
+        "squareMileage" : 37.3
     },
     "Destin, Okaloosa County, Florida" : {
         "name" : "Destin",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-17325",
         "counties" : [
             "12091"
@@ -1193,11 +1193,11 @@
         "population_2010" : 13931,
         "population_2020" : 13931,
         "population" : 16140,
-        "square_mileage" : 7.7
+        "squareMileage" : 7.7
     },
     "Doral, Miami-Dade County, Florida" : {
         "name" : "Doral",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-17935",
         "counties" : [
             "12086"
@@ -1206,11 +1206,11 @@
         "population_2010" : 75874,
         "population_2020" : 75874,
         "population" : 87906,
-        "square_mileage" : 13.8
+        "squareMileage" : 13.8
     },
     "Dundee, Polk County, Florida" : {
         "name" : "Dundee",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-18550",
         "counties" : [
             "12105"
@@ -1219,11 +1219,11 @@
         "population_2010" : 5235,
         "population_2020" : 5235,
         "population" : 6065,
-        "square_mileage" : 10.5
+        "squareMileage" : 10.5
     },
     "Dunedin, Pinellas County, Florida" : {
         "name" : "Dunedin",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-18575",
         "counties" : [
             "12103"
@@ -1232,11 +1232,11 @@
         "population_2010" : 36068,
         "population_2020" : 36068,
         "population" : 41788,
-        "square_mileage" : 10.4
+        "squareMileage" : 10.4
     },
     "Dunnellon, Marion County, Florida" : {
         "name" : "Dunnellon",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-18675",
         "counties" : [
             "12083"
@@ -1245,11 +1245,11 @@
         "population_2010" : 1928,
         "population_2020" : 1928,
         "population" : 2234,
-        "square_mileage" : 8.8
+        "squareMileage" : 8.8
     },
     "Eagle Lake, Polk County, Florida" : {
         "name" : "Eagle Lake",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-18875",
         "counties" : [
             "12105"
@@ -1258,11 +1258,11 @@
         "population_2010" : 3008,
         "population_2020" : 3008,
         "population" : 3485,
-        "square_mileage" : 2.0
+        "squareMileage" : 2.0
     },
     "Eatonville, Orange County, Florida" : {
         "name" : "Eatonville",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-19650",
         "counties" : [
             "12095"
@@ -1271,11 +1271,11 @@
         "population_2010" : 2349,
         "population_2020" : 2349,
         "population" : 2721,
-        "square_mileage" : 0.99
+        "squareMileage" : 0.99
     },
     "Ebro, Washington County, Florida" : {
         "name" : "Ebro",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-19725",
         "counties" : [
             "12133"
@@ -1284,11 +1284,11 @@
         "population_2010" : 237,
         "population_2020" : 237,
         "population" : 275,
-        "square_mileage" : 4.7
+        "squareMileage" : 4.7
     },
     "Edgewater, Volusia County, Florida" : {
         "name" : "Edgewater",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-19825",
         "counties" : [
             "12127"
@@ -1297,11 +1297,11 @@
         "population_2010" : 23097,
         "population_2020" : 23097,
         "population" : 26760,
-        "square_mileage" : 24.6
+        "squareMileage" : 24.6
     },
     "Edgewood, Orange County, Florida" : {
         "name" : "Edgewood",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-19900",
         "counties" : [
             "12095"
@@ -1310,11 +1310,11 @@
         "population_2010" : 2685,
         "population_2020" : 2685,
         "population" : 3111,
-        "square_mileage" : 1.2
+        "squareMileage" : 1.2
     },
     "El Portal, Miami-Dade County, Florida" : {
         "name" : "El Portal",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-20650",
         "counties" : [
             "12086"
@@ -1323,11 +1323,11 @@
         "population_2010" : 1986,
         "population_2020" : 1986,
         "population" : 2301,
-        "square_mileage" : 0.42
+        "squareMileage" : 0.42
     },
     "Estero, Lee County, Florida" : {
         "name" : "Estero",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-21150",
         "counties" : [
             "12071"
@@ -1336,11 +1336,11 @@
         "population_2010" : 36939,
         "population_2020" : 36939,
         "population" : 42797,
-        "square_mileage" : 24.4
+        "squareMileage" : 24.4
     },
     "Esto, Holmes County, Florida" : {
         "name" : "Esto",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-21250",
         "counties" : [
             "12059"
@@ -1349,11 +1349,11 @@
         "population_2010" : 341,
         "population_2020" : 341,
         "population" : 395,
-        "square_mileage" : 2.2
+        "squareMileage" : 2.2
     },
     "Eustis, Lake County, Florida" : {
         "name" : "Eustis",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-21350",
         "counties" : [
             "12069"
@@ -1362,11 +1362,11 @@
         "population_2010" : 23189,
         "population_2020" : 23189,
         "population" : 26866,
-        "square_mileage" : 10.9
+        "squareMileage" : 10.9
     },
     "Everglades City, Collier County, Florida" : {
         "name" : "Everglades City",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-21425",
         "counties" : [
             "12021"
@@ -1375,11 +1375,11 @@
         "population_2010" : 352,
         "population_2020" : 352,
         "population" : 408,
-        "square_mileage" : 0.92
+        "squareMileage" : 0.92
     },
     "Fanning Springs, Levy County, Florida" : {
         "name" : "Fanning Springs",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-21850",
         "counties" : [
             "12075",
@@ -1389,11 +1389,11 @@
         "population_2010" : 1182,
         "population_2020" : 1182,
         "population" : 1369,
-        "square_mileage" : 4.9
+        "squareMileage" : 4.9
     },
     "Fellsmere, Indian River County, Florida" : {
         "name" : "Fellsmere",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-22100",
         "counties" : [
             "12061"
@@ -1402,11 +1402,11 @@
         "population_2010" : 4834,
         "population_2020" : 4834,
         "population" : 5601,
-        "square_mileage" : 57.6
+        "squareMileage" : 57.6
     },
     "Fernandina Beach, Nassau County, Florida" : {
         "name" : "Fernandina Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-22175",
         "counties" : [
             "12089"
@@ -1415,11 +1415,11 @@
         "population_2010" : 13052,
         "population_2020" : 13052,
         "population" : 15122,
-        "square_mileage" : 11.8
+        "squareMileage" : 11.8
     },
     "Flagler Beach, Floridaagler County, Florida" : {
         "name" : "Flagler Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-22550",
         "counties" : [
             "12035"
@@ -1428,11 +1428,11 @@
         "population_2010" : 5160,
         "population_2020" : 5160,
         "population" : 5978,
-        "square_mileage" : 3.6
+        "squareMileage" : 3.6
     },
     "Florida City, Miami-Dade County, Florida" : {
         "name" : "Florida City",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-22975",
         "counties" : [
             "12086"
@@ -1441,11 +1441,11 @@
         "population_2010" : 13085,
         "population_2020" : 13085,
         "population" : 15160,
-        "square_mileage" : 6.0
+        "squareMileage" : 6.0
     },
     "Fort Lauderdale, Broward County, Florida" : {
         "name" : "Fort Lauderdale",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-24000",
         "counties" : [
             "12011"
@@ -1454,11 +1454,11 @@
         "population_2010" : 182760,
         "population_2020" : 182760,
         "population" : 211741,
-        "square_mileage" : 34.6
+        "squareMileage" : 34.6
     },
     "Fort Meade, Polk County, Florida" : {
         "name" : "Fort Meade",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-24100",
         "counties" : [
             "12105"
@@ -1467,11 +1467,11 @@
         "population_2010" : 5100,
         "population_2020" : 5100,
         "population" : 5909,
-        "square_mileage" : 8.2
+        "squareMileage" : 8.2
     },
     "Fort Myers, Lee County, Florida" : {
         "name" : "Fort Myers",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-24125",
         "counties" : [
             "12071"
@@ -1480,11 +1480,11 @@
         "population_2010" : 86395,
         "population_2020" : 86395,
         "population" : 100095,
-        "square_mileage" : 39.8
+        "squareMileage" : 39.8
     },
     "Fort Myers Beach, Lee County, Florida" : {
         "name" : "Fort Myers Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-24150",
         "counties" : [
             "12071"
@@ -1493,11 +1493,11 @@
         "population_2010" : 5582,
         "population_2020" : 5582,
         "population" : 6467,
-        "square_mileage" : 2.8
+        "squareMileage" : 2.8
     },
     "Fort Pierce, St. Lucie County, Florida" : {
         "name" : "Fort Pierce",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-24300",
         "counties" : [
             "12111"
@@ -1506,11 +1506,11 @@
         "population_2010" : 47297,
         "population_2020" : 47297,
         "population" : 54797,
-        "square_mileage" : 23.8
+        "squareMileage" : 23.8
     },
     "Fort Walton Beach, Okaloosa County, Florida" : {
         "name" : "Fort Walton Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-24475",
         "counties" : [
             "12091"
@@ -1519,11 +1519,11 @@
         "population_2010" : 20922,
         "population_2020" : 20922,
         "population" : 24240,
-        "square_mileage" : 7.6
+        "squareMileage" : 7.6
     },
     "Fort White, Columbia County, Florida" : {
         "name" : "Fort White",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-24500",
         "counties" : [
             "12023"
@@ -1532,11 +1532,11 @@
         "population_2010" : 618,
         "population_2020" : 618,
         "population" : 716,
-        "square_mileage" : 2.4
+        "squareMileage" : 2.4
     },
     "Freeport, Walton County, Florida" : {
         "name" : "Freeport",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-24825",
         "counties" : [
             "12131"
@@ -1545,11 +1545,11 @@
         "population_2010" : 5861,
         "population_2020" : 5861,
         "population" : 6790,
-        "square_mileage" : 18.9
+        "squareMileage" : 18.9
     },
     "Frostproof, Polk County, Florida" : {
         "name" : "Frostproof",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-24900",
         "counties" : [
             "12105"
@@ -1558,11 +1558,11 @@
         "population_2010" : 3273,
         "population_2020" : 3273,
         "population" : 3792,
-        "square_mileage" : 10.7
+        "squareMileage" : 10.7
     },
     "Fruitland Park, Lake County, Florida" : {
         "name" : "Fruitland Park",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-24975",
         "counties" : [
             "12069"
@@ -1571,11 +1571,11 @@
         "population_2010" : 8325,
         "population_2020" : 8325,
         "population" : 9645,
-        "square_mileage" : 7.0
+        "squareMileage" : 7.0
     },
     "Gainesville, Alachua County, Florida" : {
         "name" : "Gainesville",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-25175",
         "counties" : [
             "12001"
@@ -1584,11 +1584,11 @@
         "population_2010" : 141085,
         "population_2020" : 141085,
         "population" : 163458,
-        "square_mileage" : 63.2
+        "squareMileage" : 63.2
     },
     "Glen Ridge, Palm Beach County, Florida" : {
         "name" : "Glen Ridge",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-26050",
         "counties" : [
             "12099"
@@ -1597,11 +1597,11 @@
         "population_2010" : 217,
         "population_2020" : 217,
         "population" : 251,
-        "square_mileage" : 0.17
+        "squareMileage" : 0.17
     },
     "Glen St. Mary, Baker County, Florida" : {
         "name" : "Glen St. Mary",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-26075",
         "counties" : [
             "12003"
@@ -1610,11 +1610,11 @@
         "population_2010" : 463,
         "population_2020" : 463,
         "population" : 536,
-        "square_mileage" : 0.46
+        "squareMileage" : 0.46
     },
     "Golden Beach, Miami-Dade County, Florida" : {
         "name" : "Golden Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-26250",
         "counties" : [
             "12086"
@@ -1623,11 +1623,11 @@
         "population_2010" : 961,
         "population_2020" : 961,
         "population" : 1113,
-        "square_mileage" : 0.33
+        "squareMileage" : 0.33
     },
     "Golf, Palm Beach County, Florida" : {
         "name" : "Golf",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-26550",
         "counties" : [
             "12099"
@@ -1636,11 +1636,11 @@
         "population_2010" : 255,
         "population_2020" : 255,
         "population" : 295,
-        "square_mileage" : 0.82
+        "squareMileage" : 0.82
     },
     "Graceville, Jackson County, Florida" : {
         "name" : "Graceville",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-27000",
         "counties" : [
             "12063"
@@ -1649,11 +1649,11 @@
         "population_2010" : 2153,
         "population_2020" : 2153,
         "population" : 2494,
-        "square_mileage" : 4.3
+        "squareMileage" : 4.3
     },
     "Grand Ridge, Jackson County, Florida" : {
         "name" : "Grand Ridge",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-27175",
         "counties" : [
             "12063"
@@ -1662,11 +1662,11 @@
         "population_2010" : 882,
         "population_2020" : 882,
         "population" : 1022,
-        "square_mileage" : 4.3
+        "squareMileage" : 4.3
     },
     "Grant-Valkaria, Brevard County, Florida" : {
         "name" : "Grant-Valkaria",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-27256",
         "counties" : [
             "12009"
@@ -1675,11 +1675,11 @@
         "population_2010" : 4509,
         "population_2020" : 4509,
         "population" : 5224,
-        "square_mileage" : 27.2
+        "squareMileage" : 27.2
     },
     "Green Cove Springs, Clay County, Florida" : {
         "name" : "Green Cove Springs",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-27400",
         "counties" : [
             "12019"
@@ -1688,11 +1688,11 @@
         "population_2010" : 9786,
         "population_2020" : 9786,
         "population" : 11338,
-        "square_mileage" : 7.5
+        "squareMileage" : 7.5
     },
     "Greenacres, Palm Beach County, Florida" : {
         "name" : "Greenacres",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-27322",
         "counties" : [
             "12099"
@@ -1701,11 +1701,11 @@
         "population_2010" : 43990,
         "population_2020" : 43990,
         "population" : 50966,
-        "square_mileage" : 5.9
+        "squareMileage" : 5.9
     },
     "Greensboro, Gadsden County, Florida" : {
         "name" : "Greensboro",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-27550",
         "counties" : [
             "12039"
@@ -1714,11 +1714,11 @@
         "population_2010" : 461,
         "population_2020" : 461,
         "population" : 534,
-        "square_mileage" : 2.3
+        "squareMileage" : 2.3
     },
     "Greenville, Madison County, Florida" : {
         "name" : "Greenville",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-27575",
         "counties" : [
             "12079"
@@ -1727,11 +1727,11 @@
         "population_2010" : 746,
         "population_2020" : 746,
         "population" : 864,
-        "square_mileage" : 1.3
+        "squareMileage" : 1.3
     },
     "Greenwood, Jackson County, Florida" : {
         "name" : "Greenwood",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-27600",
         "counties" : [
             "12063"
@@ -1740,11 +1740,11 @@
         "population_2010" : 539,
         "population_2020" : 539,
         "population" : 624,
-        "square_mileage" : 4.6
+        "squareMileage" : 4.6
     },
     "Gretna, Gadsden County, Florida" : {
         "name" : "Gretna",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-27650",
         "counties" : [
             "12039"
@@ -1753,11 +1753,11 @@
         "population_2010" : 1357,
         "population_2020" : 1357,
         "population" : 1572,
-        "square_mileage" : 8.6
+        "squareMileage" : 8.6
     },
     "Groveland, Lake County, Florida" : {
         "name" : "Groveland",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-27800",
         "counties" : [
             "12069"
@@ -1766,11 +1766,11 @@
         "population_2010" : 18505,
         "population_2020" : 18505,
         "population" : 21439,
-        "square_mileage" : 19.7
+        "squareMileage" : 19.7
     },
     "Gulf Breeze, Santa Rosa County, Florida" : {
         "name" : "Gulf Breeze",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-28000",
         "counties" : [
             "12113"
@@ -1779,11 +1779,11 @@
         "population_2010" : 6302,
         "population_2020" : 6302,
         "population" : 7301,
-        "square_mileage" : 4.7
+        "squareMileage" : 4.7
     },
     "Gulf Stream, Palm Beach County, Florida" : {
         "name" : "Gulf Stream",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-28275",
         "counties" : [
             "12099"
@@ -1792,11 +1792,11 @@
         "population_2010" : 880,
         "population_2020" : 880,
         "population" : 1020,
-        "square_mileage" : 0.79
+        "squareMileage" : 0.79
     },
     "Gulfport, Pinellas County, Florida" : {
         "name" : "Gulfport",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-28175",
         "counties" : [
             "12103"
@@ -1805,11 +1805,11 @@
         "population_2010" : 11783,
         "population_2020" : 11783,
         "population" : 13651,
-        "square_mileage" : 2.8
+        "squareMileage" : 2.8
     },
     "Haines City, Polk County, Florida" : {
         "name" : "Haines City",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-28400",
         "counties" : [
             "12105"
@@ -1818,11 +1818,11 @@
         "population_2010" : 26669,
         "population_2020" : 26669,
         "population" : 30898,
-        "square_mileage" : 18.8
+        "squareMileage" : 18.8
     },
     "Hallandale Beach, Broward County, Florida" : {
         "name" : "Hallandale Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-28452",
         "counties" : [
             "12011"
@@ -1831,11 +1831,11 @@
         "population_2010" : 41217,
         "population_2020" : 41217,
         "population" : 47753,
-        "square_mileage" : 4.2
+        "squareMileage" : 4.2
     },
     "Hampton, Bradford County, Florida" : {
         "name" : "Hampton",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-28575",
         "counties" : [
             "12007"
@@ -1844,11 +1844,11 @@
         "population_2010" : 432,
         "population_2020" : 432,
         "population" : 501,
-        "square_mileage" : 1.1
+        "squareMileage" : 1.1
     },
     "Havana, Gadsden County, Florida" : {
         "name" : "Havana",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-29150",
         "counties" : [
             "12039"
@@ -1857,11 +1857,11 @@
         "population_2010" : 1707,
         "population_2020" : 1707,
         "population" : 1978,
-        "square_mileage" : 2.8
+        "squareMileage" : 2.8
     },
     "Haverhill, Palm Beach County, Florida" : {
         "name" : "Haverhill",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-29200",
         "counties" : [
             "12099"
@@ -1870,11 +1870,11 @@
         "population_2010" : 2187,
         "population_2020" : 2187,
         "population" : 2534,
-        "square_mileage" : 0.63
+        "squareMileage" : 0.63
     },
     "Hawthorne, Alachua County, Florida" : {
         "name" : "Hawthorne",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-29275",
         "counties" : [
             "12001"
@@ -1883,11 +1883,11 @@
         "population_2010" : 1478,
         "population_2020" : 1478,
         "population" : 1712,
-        "square_mileage" : 7.4
+        "squareMileage" : 7.4
     },
     "Hialeah, Miami-Dade County, Florida" : {
         "name" : "Hialeah",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-30000",
         "counties" : [
             "12086"
@@ -1896,11 +1896,11 @@
         "population_2010" : 223109,
         "population_2020" : 223109,
         "population" : 258489,
-        "square_mileage" : 21.6
+        "squareMileage" : 21.6
     },
     "Hialeah Gardens, Miami-Dade County, Florida" : {
         "name" : "Hialeah Gardens",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-30025",
         "counties" : [
             "12086"
@@ -1909,11 +1909,11 @@
         "population_2010" : 23068,
         "population_2020" : 23068,
         "population" : 26726,
-        "square_mileage" : 3.2
+        "squareMileage" : 3.2
     },
     "High Springs, Alachua County, Florida" : {
         "name" : "High Springs",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-30525",
         "counties" : [
             "12001"
@@ -1922,11 +1922,11 @@
         "population_2010" : 6215,
         "population_2020" : 6215,
         "population" : 7201,
-        "square_mileage" : 21.8
+        "squareMileage" : 21.8
     },
     "Highland Beach, Palm Beach County, Florida" : {
         "name" : "Highland Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-30200",
         "counties" : [
             "12099"
@@ -1935,11 +1935,11 @@
         "population_2010" : 4295,
         "population_2020" : 4295,
         "population" : 4976,
-        "square_mileage" : 0.54
+        "squareMileage" : 0.54
     },
     "Highland Park, Polk County, Florida" : {
         "name" : "Highland Park",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-30325",
         "counties" : [
             "12105"
@@ -1948,11 +1948,11 @@
         "population_2010" : 264,
         "population_2020" : 264,
         "population" : 306,
-        "square_mileage" : 0.55
+        "squareMileage" : 0.55
     },
     "Hillcrest Heights, Polk County, Florida" : {
         "name" : "Hillcrest Heights",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-30700",
         "counties" : [
             "12105"
@@ -1961,11 +1961,11 @@
         "population_2010" : 243,
         "population_2020" : 243,
         "population" : 282,
-        "square_mileage" : 0.16
+        "squareMileage" : 0.16
     },
     "Hilliard, Nassau County, Florida" : {
         "name" : "Hilliard",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-30750",
         "counties" : [
             "12089"
@@ -1974,11 +1974,11 @@
         "population_2010" : 2967,
         "population_2020" : 2967,
         "population" : 3437,
-        "square_mileage" : 5.5
+        "squareMileage" : 5.5
     },
     "Hillsboro Beach, Broward County, Florida" : {
         "name" : "Hillsboro Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-30850",
         "counties" : [
             "12011"
@@ -1987,11 +1987,11 @@
         "population_2010" : 1987,
         "population_2020" : 1987,
         "population" : 2302,
-        "square_mileage" : 0.37
+        "squareMileage" : 0.37
     },
     "Holly Hill, Volusia County, Florida" : {
         "name" : "Holly Hill",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-31350",
         "counties" : [
             "12127"
@@ -2000,11 +2000,11 @@
         "population_2010" : 12958,
         "population_2020" : 12958,
         "population" : 15013,
-        "square_mileage" : 4.0
+        "squareMileage" : 4.0
     },
     "Hollywood, Broward County, Florida" : {
         "name" : "Hollywood",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-32000",
         "counties" : [
             "12011"
@@ -2013,11 +2013,11 @@
         "population_2010" : 153067,
         "population_2020" : 153067,
         "population" : 177340,
-        "square_mileage" : 27.3
+        "squareMileage" : 27.3
     },
     "Holmes Beach, Manatee County, Florida" : {
         "name" : "Holmes Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-32150",
         "counties" : [
             "12081"
@@ -2026,11 +2026,11 @@
         "population_2010" : 3010,
         "population_2020" : 3010,
         "population" : 3487,
-        "square_mileage" : 1.7
+        "squareMileage" : 1.7
     },
     "Homestead, Miami-Dade County, Florida" : {
         "name" : "Homestead",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-32275",
         "counties" : [
             "12086"
@@ -2039,11 +2039,11 @@
         "population_2010" : 80737,
         "population_2020" : 80737,
         "population" : 93540,
-        "square_mileage" : 15.1
+        "squareMileage" : 15.1
     },
     "Horseshoe Beach, Dixie County, Florida" : {
         "name" : "Horseshoe Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-32650",
         "counties" : [
             "12029"
@@ -2052,11 +2052,11 @@
         "population_2010" : 165,
         "population_2020" : 165,
         "population" : 191,
-        "square_mileage" : 0.47
+        "squareMileage" : 0.47
     },
     "Howey-in-the-Hills, Lake County, Florida" : {
         "name" : "Howey-in-the-Hills",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-32775",
         "counties" : [
             "12069"
@@ -2065,11 +2065,11 @@
         "population_2010" : 1643,
         "population_2020" : 1643,
         "population" : 1904,
-        "square_mileage" : 3.2
+        "squareMileage" : 3.2
     },
     "Hypoluxo, Palm Beach County, Florida" : {
         "name" : "Hypoluxo",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-33150",
         "counties" : [
             "12099"
@@ -2078,11 +2078,11 @@
         "population_2010" : 2687,
         "population_2020" : 2687,
         "population" : 3113,
-        "square_mileage" : 0.57
+        "squareMileage" : 0.57
     },
     "Indialantic, Brevard County, Florida" : {
         "name" : "Indialantic",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-33375",
         "counties" : [
             "12009"
@@ -2091,11 +2091,11 @@
         "population_2010" : 3010,
         "population_2020" : 3010,
         "population" : 3487,
-        "square_mileage" : 0.97
+        "squareMileage" : 0.97
     },
     "Indian Creek, Miami-Dade County, Florida" : {
         "name" : "Indian Creek",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-33425",
         "counties" : [
             "12086"
@@ -2104,11 +2104,11 @@
         "population_2010" : 84,
         "population_2020" : 84,
         "population" : 97,
-        "square_mileage" : 0.43
+        "squareMileage" : 0.43
     },
     "Indian Harbour Beach, Brevard County, Florida" : {
         "name" : "Indian Harbour Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-33450",
         "counties" : [
             "12009"
@@ -2117,11 +2117,11 @@
         "population_2010" : 9019,
         "population_2020" : 9019,
         "population" : 10449,
-        "square_mileage" : 2.1
+        "squareMileage" : 2.1
     },
     "Indian River Shores, Indian River County, Florida" : {
         "name" : "Indian River Shores",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-33600",
         "counties" : [
             "12061"
@@ -2130,11 +2130,11 @@
         "population_2010" : 4241,
         "population_2020" : 4241,
         "population" : 4914,
-        "square_mileage" : 5.1
+        "squareMileage" : 5.1
     },
     "Indian Rocks Beach, Pinellas County, Florida" : {
         "name" : "Indian Rocks Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-33625",
         "counties" : [
             "12103"
@@ -2143,11 +2143,11 @@
         "population_2010" : 4286,
         "population_2020" : 4286,
         "population" : 4966,
-        "square_mileage" : 0.85
+        "squareMileage" : 0.85
     },
     "Indian Shores, Pinellas County, Florida" : {
         "name" : "Indian Shores",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-33675",
         "counties" : [
             "12103"
@@ -2156,11 +2156,11 @@
         "population_2010" : 1190,
         "population_2020" : 1190,
         "population" : 1379,
-        "square_mileage" : 0.33
+        "squareMileage" : 0.33
     },
     "Indiantown, Martin County, Florida" : {
         "name" : "Indiantown",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-33700",
         "counties" : [
             "12085"
@@ -2169,11 +2169,11 @@
         "population_2010" : 6560,
         "population_2020" : 6560,
         "population" : 7600,
-        "square_mileage" : 14.2
+        "squareMileage" : 14.2
     },
     "Inglis, Levy County, Florida" : {
         "name" : "Inglis",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-33800",
         "counties" : [
             "12075"
@@ -2182,11 +2182,11 @@
         "population_2010" : 1476,
         "population_2020" : 1476,
         "population" : 1710,
-        "square_mileage" : 3.4
+        "squareMileage" : 3.4
     },
     "Interlachen, Putnam County, Florida" : {
         "name" : "Interlachen",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-33900",
         "counties" : [
             "12107"
@@ -2195,11 +2195,11 @@
         "population_2010" : 1441,
         "population_2020" : 1441,
         "population" : 1670,
-        "square_mileage" : 6.1
+        "squareMileage" : 6.1
     },
     "Inverness, Citrus County, Florida" : {
         "name" : "Inverness",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-33950",
         "counties" : [
             "12017"
@@ -2208,11 +2208,11 @@
         "population_2010" : 7543,
         "population_2020" : 7543,
         "population" : 8739,
-        "square_mileage" : 8.3
+        "squareMileage" : 8.3
     },
     "Islamorada, Monroe County, Florida" : {
         "name" : "Islamorada",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-34132",
         "counties" : [
             "12087"
@@ -2221,11 +2221,11 @@
         "population_2010" : 7107,
         "population_2020" : 7107,
         "population" : 8234,
-        "square_mileage" : 6.4
+        "squareMileage" : 6.4
     },
     "Jacksonville, Duval County, Florida" : {
         "name" : "Jacksonville",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-35000",
         "counties" : [
             "12031"
@@ -2234,11 +2234,11 @@
         "population_2010" : 949611,
         "population_2020" : 949611,
         "population" : 1100196,
-        "square_mileage" : 747.3
+        "squareMileage" : 747.3
     },
     "Jacksonville Beach, Duval County, Florida" : {
         "name" : "Jacksonville Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-35050",
         "counties" : [
             "12031"
@@ -2247,11 +2247,11 @@
         "population_2010" : 23830,
         "population_2020" : 23830,
         "population" : 27609,
-        "square_mileage" : 7.3
+        "squareMileage" : 7.3
     },
     "Jacob City, Jackson County, Florida" : {
         "name" : "Jacob City",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-35200",
         "counties" : [
             "12063"
@@ -2260,11 +2260,11 @@
         "population_2010" : 217,
         "population_2020" : 217,
         "population" : 251,
-        "square_mileage" : 3.0
+        "squareMileage" : 3.0
     },
     "Jasper, Hamilton County, Florida" : {
         "name" : "Jasper",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-35375",
         "counties" : [
             "12047"
@@ -2273,11 +2273,11 @@
         "population_2010" : 3621,
         "population_2020" : 3621,
         "population" : 4195,
-        "square_mileage" : 2.4
+        "squareMileage" : 2.4
     },
     "Jay, Santa Rosa County, Florida" : {
         "name" : "Jay",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-35425",
         "counties" : [
             "12113"
@@ -2286,11 +2286,11 @@
         "population_2010" : 524,
         "population_2020" : 524,
         "population" : 607,
-        "square_mileage" : 1.7
+        "squareMileage" : 1.7
     },
     "Jennings, Hamilton County, Florida" : {
         "name" : "Jennings",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-35525",
         "counties" : [
             "12047"
@@ -2299,11 +2299,11 @@
         "population_2010" : 749,
         "population_2020" : 749,
         "population" : 868,
-        "square_mileage" : 2.7
+        "squareMileage" : 2.7
     },
     "Juno Beach, Palm Beach County, Florida" : {
         "name" : "Juno Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-35850",
         "counties" : [
             "12099"
@@ -2312,11 +2312,11 @@
         "population_2010" : 3858,
         "population_2020" : 3858,
         "population" : 4470,
-        "square_mileage" : 2.0
+        "squareMileage" : 2.0
     },
     "Jupiter, Palm Beach County, Florida" : {
         "name" : "Jupiter",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-35875",
         "counties" : [
             "12099"
@@ -2325,11 +2325,11 @@
         "population_2010" : 61047,
         "population_2020" : 61047,
         "population" : 70728,
-        "square_mileage" : 21.6
+        "squareMileage" : 21.6
     },
     "Jupiter Inlet Colony, Palm Beach County, Florida" : {
         "name" : "Jupiter Inlet Colony",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-35900",
         "counties" : [
             "12099"
@@ -2338,11 +2338,11 @@
         "population_2010" : 405,
         "population_2020" : 405,
         "population" : 469,
-        "square_mileage" : 0.16
+        "squareMileage" : 0.16
     },
     "Jupiter Island, Martin County, Florida" : {
         "name" : "Jupiter Island",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-35925",
         "counties" : [
             "12085"
@@ -2351,11 +2351,11 @@
         "population_2010" : 804,
         "population_2020" : 804,
         "population" : 931,
-        "square_mileage" : 2.7
+        "squareMileage" : 2.7
     },
     "Kenneth City, Pinellas County, Florida" : {
         "name" : "Kenneth City",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-36175",
         "counties" : [
             "12103"
@@ -2364,11 +2364,11 @@
         "population_2010" : 5047,
         "population_2020" : 5047,
         "population" : 5847,
-        "square_mileage" : 0.71
+        "squareMileage" : 0.71
     },
     "Key Biscayne, Miami-Dade County, Florida" : {
         "name" : "Key Biscayne",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-36300",
         "counties" : [
             "12086"
@@ -2377,11 +2377,11 @@
         "population_2010" : 14809,
         "population_2020" : 14809,
         "population" : 17157,
-        "square_mileage" : 1.2
+        "squareMileage" : 1.2
     },
     "Key Colony Beach, Monroe County, Florida" : {
         "name" : "Key Colony Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-36325",
         "counties" : [
             "12087"
@@ -2390,11 +2390,11 @@
         "population_2010" : 790,
         "population_2020" : 790,
         "population" : 915,
-        "square_mileage" : 0.44
+        "squareMileage" : 0.44
     },
     "Key West, Monroe County, Florida" : {
         "name" : "Key West",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-36550",
         "counties" : [
             "12087"
@@ -2403,11 +2403,11 @@
         "population_2010" : 26444,
         "population_2020" : 26444,
         "population" : 30637,
-        "square_mileage" : 5.6
+        "squareMileage" : 5.6
     },
     "Keystone Heights, Clay County, Florida" : {
         "name" : "Keystone Heights",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-36475",
         "counties" : [
             "12019"
@@ -2416,11 +2416,11 @@
         "population_2010" : 1446,
         "population_2020" : 1446,
         "population" : 1675,
-        "square_mileage" : 1.1
+        "squareMileage" : 1.1
     },
     "Kissimmee, Osceola County, Florida" : {
         "name" : "Kissimmee",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-36950",
         "counties" : [
             "12097"
@@ -2429,11 +2429,11 @@
         "population_2010" : 79226,
         "population_2020" : 79226,
         "population" : 91789,
-        "square_mileage" : 21.5
+        "squareMileage" : 21.5
     },
     "LaBelle, Hendry County, Florida" : {
         "name" : "LaBelle",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-37225",
         "counties" : [
             "12051"
@@ -2442,11 +2442,11 @@
         "population_2010" : 4966,
         "population_2020" : 4966,
         "population" : 5753,
-        "square_mileage" : 14.5
+        "squareMileage" : 14.5
     },
     "LaCrosse, Alachua County, Florida" : {
         "name" : "LaCrosse",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-37300",
         "counties" : [
             "12001"
@@ -2455,11 +2455,11 @@
         "population_2010" : 316,
         "population_2020" : 316,
         "population" : 366,
-        "square_mileage" : 4.6
+        "squareMileage" : 4.6
     },
     "Lady Lake, Lake County, Florida" : {
         "name" : "Lady Lake",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-37375",
         "counties" : [
             "12069"
@@ -2468,11 +2468,11 @@
         "population_2010" : 15970,
         "population_2020" : 15970,
         "population" : 18502,
-        "square_mileage" : 8.3
+        "squareMileage" : 8.3
     },
     "Lake Alfred, Polk County, Florida" : {
         "name" : "Lake Alfred",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-37525",
         "counties" : [
             "12105"
@@ -2481,11 +2481,11 @@
         "population_2010" : 6374,
         "population_2020" : 6374,
         "population" : 7385,
-        "square_mileage" : 9.3
+        "squareMileage" : 9.3
     },
     "Lake Buena Vista, Orange County, Florida" : {
         "name" : "Lake Buena Vista",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-37625",
         "counties" : [
             "12095"
@@ -2494,11 +2494,11 @@
         "population_2010" : 24,
         "population_2020" : 24,
         "population" : 28,
-        "square_mileage" : 3.0
+        "squareMileage" : 3.0
     },
     "Lake Butler, Union County, Florida" : {
         "name" : "Lake Butler",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-37650",
         "counties" : [
             "12125"
@@ -2507,11 +2507,11 @@
         "population_2010" : 1986,
         "population_2020" : 1986,
         "population" : 2301,
-        "square_mileage" : 2.3
+        "squareMileage" : 2.3
     },
     "Lake City, Columbia County, Florida" : {
         "name" : "Lake City",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-37775",
         "counties" : [
             "12023"
@@ -2520,11 +2520,11 @@
         "population_2010" : 12329,
         "population_2020" : 12329,
         "population" : 14284,
-        "square_mileage" : 11.8
+        "squareMileage" : 11.8
     },
     "Lake Clarke Shores, Palm Beach County, Florida" : {
         "name" : "Lake Clarke Shores",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-37800",
         "counties" : [
             "12099"
@@ -2533,11 +2533,11 @@
         "population_2010" : 3564,
         "population_2020" : 3564,
         "population" : 4129,
-        "square_mileage" : 0.92
+        "squareMileage" : 0.92
     },
     "Lake Hamilton, Polk County, Florida" : {
         "name" : "Lake Hamilton",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-37975",
         "counties" : [
             "12105"
@@ -2546,11 +2546,11 @@
         "population_2010" : 1537,
         "population_2020" : 1537,
         "population" : 1781,
-        "square_mileage" : 3.1
+        "squareMileage" : 3.1
     },
     "Lake Helen, Volusia County, Florida" : {
         "name" : "Lake Helen",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-38025",
         "counties" : [
             "12127"
@@ -2559,11 +2559,11 @@
         "population_2010" : 2842,
         "population_2020" : 2842,
         "population" : 3293,
-        "square_mileage" : 4.6
+        "squareMileage" : 4.6
     },
     "Lake Mary, Seminole County, Florida" : {
         "name" : "Lake Mary",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-38425",
         "counties" : [
             "12117"
@@ -2572,11 +2572,11 @@
         "population_2010" : 16798,
         "population_2020" : 16798,
         "population" : 19462,
-        "square_mileage" : 9.1
+        "squareMileage" : 9.1
     },
     "Lake Park, Palm Beach County, Florida" : {
         "name" : "Lake Park",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-38600",
         "counties" : [
             "12099"
@@ -2585,11 +2585,11 @@
         "population_2010" : 9047,
         "population_2020" : 9047,
         "population" : 10482,
-        "square_mileage" : 2.1
+        "squareMileage" : 2.1
     },
     "Lake Placid, Highlands County, Florida" : {
         "name" : "Lake Placid",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-38625",
         "counties" : [
             "12055"
@@ -2598,11 +2598,11 @@
         "population_2010" : 2360,
         "population_2020" : 2360,
         "population" : 2734,
-        "square_mileage" : 4.7
+        "squareMileage" : 4.7
     },
     "Lake Wales, Polk County, Florida" : {
         "name" : "Lake Wales",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-38950",
         "counties" : [
             "12105"
@@ -2611,11 +2611,11 @@
         "population_2010" : 16361,
         "population_2020" : 16361,
         "population" : 18955,
-        "square_mileage" : 18.8
+        "squareMileage" : 18.8
     },
     "Lake Worth Beach, Palm Beach County, Florida" : {
         "name" : "Lake Worth Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-39081",
         "counties" : [
             "12099"
@@ -2624,11 +2624,11 @@
         "population_2010" : 42219,
         "population_2020" : 42219,
         "population" : 48914,
-        "square_mileage" : 5.9
+        "squareMileage" : 5.9
     },
     "Lakeland, Polk County, Florida" : {
         "name" : "Lakeland",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-38250",
         "counties" : [
             "12105"
@@ -2637,11 +2637,11 @@
         "population_2010" : 112641,
         "population_2020" : 112641,
         "population" : 130503,
-        "square_mileage" : 66.2
+        "squareMileage" : 66.2
     },
     "Lantana, Palm Beach County, Florida" : {
         "name" : "Lantana",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-39375",
         "counties" : [
             "12099"
@@ -2650,11 +2650,11 @@
         "population_2010" : 11504,
         "population_2020" : 11504,
         "population" : 13328,
-        "square_mileage" : 2.4
+        "squareMileage" : 2.4
     },
     "Largo, Pinellas County, Florida" : {
         "name" : "Largo",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-39425",
         "counties" : [
             "12103"
@@ -2663,11 +2663,11 @@
         "population_2010" : 82485,
         "population_2020" : 82485,
         "population" : 95565,
-        "square_mileage" : 18.5
+        "squareMileage" : 18.5
     },
     "Lauderdale Lakes, Broward County, Florida" : {
         "name" : "Lauderdale Lakes",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-39525",
         "counties" : [
             "12011"
@@ -2676,11 +2676,11 @@
         "population_2010" : 35954,
         "population_2020" : 35954,
         "population" : 41655,
-        "square_mileage" : 3.7
+        "squareMileage" : 3.7
     },
     "Lauderdale-by-the-Sea, Broward County, Florida" : {
         "name" : "Lauderdale-by-the-Sea",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-39475",
         "counties" : [
             "12011"
@@ -2689,11 +2689,11 @@
         "population_2010" : 6198,
         "population_2020" : 6198,
         "population" : 7181,
-        "square_mileage" : 0.88
+        "squareMileage" : 0.88
     },
     "Lauderhill, Broward County, Florida" : {
         "name" : "Lauderhill",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-39550",
         "counties" : [
             "12011"
@@ -2702,11 +2702,11 @@
         "population_2010" : 74482,
         "population_2020" : 74482,
         "population" : 86293,
-        "square_mileage" : 8.5
+        "squareMileage" : 8.5
     },
     "Laurel Hill, Okaloosa County, Florida" : {
         "name" : "Laurel Hill",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-39650",
         "counties" : [
             "12091"
@@ -2715,11 +2715,11 @@
         "population_2010" : 584,
         "population_2020" : 584,
         "population" : 677,
-        "square_mileage" : 4.2
+        "squareMileage" : 4.2
     },
     "Lawtey, Bradford County, Florida" : {
         "name" : "Lawtey",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-39700",
         "counties" : [
             "12007"
@@ -2728,11 +2728,11 @@
         "population_2010" : 636,
         "population_2020" : 636,
         "population" : 737,
-        "square_mileage" : 1.5
+        "squareMileage" : 1.5
     },
     "Layton, Monroe County, Florida" : {
         "name" : "Layton",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-39725",
         "counties" : [
             "12087"
@@ -2741,11 +2741,11 @@
         "population_2010" : 210,
         "population_2020" : 210,
         "population" : 243,
-        "square_mileage" : 0.16
+        "squareMileage" : 0.16
     },
     "Lazy Lake, Broward County, Florida" : {
         "name" : "Lazy Lake",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-39750",
         "counties" : [
             "12011"
@@ -2754,11 +2754,11 @@
         "population_2010" : 33,
         "population_2020" : 33,
         "population" : 38,
-        "square_mileage" : 0.02
+        "squareMileage" : 0.02
     },
     "Lee, Madison County, Florida" : {
         "name" : "Lee",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-39850",
         "counties" : [
             "12079"
@@ -2767,11 +2767,11 @@
         "population_2010" : 375,
         "population_2020" : 375,
         "population" : 434,
-        "square_mileage" : 2.4
+        "squareMileage" : 2.4
     },
     "Leesburg, Lake County, Florida" : {
         "name" : "Leesburg",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-39875",
         "counties" : [
             "12069"
@@ -2780,11 +2780,11 @@
         "population_2010" : 27000,
         "population_2020" : 27000,
         "population" : 31282,
-        "square_mileage" : 38.4
+        "squareMileage" : 38.4
     },
     "Lighthouse Point, Broward County, Florida" : {
         "name" : "Lighthouse Point",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-40450",
         "counties" : [
             "12011"
@@ -2793,11 +2793,11 @@
         "population_2010" : 10486,
         "population_2020" : 10486,
         "population" : 12149,
-        "square_mileage" : 2.3
+        "squareMileage" : 2.3
     },
     "Live Oak, Suwannee County, Florida" : {
         "name" : "Live Oak",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-40875",
         "counties" : [
             "12121"
@@ -2806,11 +2806,11 @@
         "population_2010" : 6735,
         "population_2020" : 6735,
         "population" : 7803,
-        "square_mileage" : 7.6
+        "squareMileage" : 7.6
     },
     "Longboat Key, Manatee County, Florida" : {
         "name" : "Longboat Key",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-41150",
         "counties" : [
             "12081",
@@ -2820,11 +2820,11 @@
         "population_2010" : 7505,
         "population_2020" : 7505,
         "population" : 8695,
-        "square_mileage" : 4.1
+        "squareMileage" : 4.1
     },
     "Longwood, Seminole County, Florida" : {
         "name" : "Longwood",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-41250",
         "counties" : [
             "12117"
@@ -2833,11 +2833,11 @@
         "population_2010" : 15087,
         "population_2020" : 15087,
         "population" : 17479,
-        "square_mileage" : 5.5
+        "squareMileage" : 5.5
     },
     "Loxahatchee Groves, Palm Beach County, Florida" : {
         "name" : "Loxahatchee Groves",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-41577",
         "counties" : [
             "12099"
@@ -2846,11 +2846,11 @@
         "population_2010" : 3355,
         "population_2020" : 3355,
         "population" : 3887,
-        "square_mileage" : 12.5
+        "squareMileage" : 12.5
     },
     "Lynn Haven, Bay County, Florida" : {
         "name" : "Lynn Haven",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-41825",
         "counties" : [
             "12005"
@@ -2859,11 +2859,11 @@
         "population_2010" : 18695,
         "population_2020" : 18695,
         "population" : 21660,
-        "square_mileage" : 10.5
+        "squareMileage" : 10.5
     },
     "Macclenny, Baker County, Florida" : {
         "name" : "Macclenny",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-41950",
         "counties" : [
             "12003"
@@ -2872,11 +2872,11 @@
         "population_2010" : 7304,
         "population_2020" : 7304,
         "population" : 8462,
-        "square_mileage" : 4.9
+        "squareMileage" : 4.9
     },
     "Madeira Beach, Pinellas County, Florida" : {
         "name" : "Madeira Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-42400",
         "counties" : [
             "12103"
@@ -2885,11 +2885,11 @@
         "population_2010" : 3895,
         "population_2020" : 3895,
         "population" : 4513,
-        "square_mileage" : 0.98
+        "squareMileage" : 0.98
     },
     "Madison, Madison County, Florida" : {
         "name" : "Madison",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-42425",
         "counties" : [
             "12079"
@@ -2898,11 +2898,11 @@
         "population_2010" : 2912,
         "population_2020" : 2912,
         "population" : 3374,
-        "square_mileage" : 2.6
+        "squareMileage" : 2.6
     },
     "Maitland, Orange County, Florida" : {
         "name" : "Maitland",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-42575",
         "counties" : [
             "12095"
@@ -2911,11 +2911,11 @@
         "population_2010" : 19543,
         "population_2020" : 19543,
         "population" : 22642,
-        "square_mileage" : 5.4
+        "squareMileage" : 5.4
     },
     "Malabar, Brevard County, Florida" : {
         "name" : "Malabar",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-42625",
         "counties" : [
             "12009"
@@ -2924,11 +2924,11 @@
         "population_2010" : 2949,
         "population_2020" : 2949,
         "population" : 3417,
-        "square_mileage" : 10.7
+        "squareMileage" : 10.7
     },
     "Malone, Jackson County, Florida" : {
         "name" : "Malone",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-42650",
         "counties" : [
             "12063"
@@ -2937,11 +2937,11 @@
         "population_2010" : 1959,
         "population_2020" : 1959,
         "population" : 2270,
-        "square_mileage" : 3.0
+        "squareMileage" : 3.0
     },
     "Manalapan, Palm Beach County, Florida" : {
         "name" : "Manalapan",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-42700",
         "counties" : [
             "12099"
@@ -2950,11 +2950,11 @@
         "population_2010" : 419,
         "population_2020" : 419,
         "population" : 485,
-        "square_mileage" : 0.45
+        "squareMileage" : 0.45
     },
     "Mangonia Park, Palm Beach County, Florida" : {
         "name" : "Mangonia Park",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-42900",
         "counties" : [
             "12099"
@@ -2963,11 +2963,11 @@
         "population_2010" : 2142,
         "population_2020" : 2142,
         "population" : 2482,
-        "square_mileage" : 0.75
+        "squareMileage" : 0.75
     },
     "Marathon, Monroe County, Florida" : {
         "name" : "Marathon",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-43000",
         "counties" : [
             "12087"
@@ -2976,11 +2976,11 @@
         "population_2010" : 9689,
         "population_2020" : 9689,
         "population" : 11225,
-        "square_mileage" : 8.4
+        "squareMileage" : 8.4
     },
     "Marco Island, Collier County, Florida" : {
         "name" : "Marco Island",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-43083",
         "counties" : [
             "12021"
@@ -2989,11 +2989,11 @@
         "population_2010" : 15760,
         "population_2020" : 15760,
         "population" : 18259,
-        "square_mileage" : 12.2
+        "squareMileage" : 12.2
     },
     "Margate, Broward County, Florida" : {
         "name" : "Margate",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-43125",
         "counties" : [
             "12011"
@@ -3002,11 +3002,11 @@
         "population_2010" : 58712,
         "population_2020" : 58712,
         "population" : 68022,
-        "square_mileage" : 8.8
+        "squareMileage" : 8.8
     },
     "Marianna, Jackson County, Florida" : {
         "name" : "Marianna",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-43175",
         "counties" : [
             "12063"
@@ -3015,11 +3015,11 @@
         "population_2010" : 6245,
         "population_2020" : 6245,
         "population" : 7235,
-        "square_mileage" : 18.6
+        "squareMileage" : 18.6
     },
     "Marineland, Floridaagler County, Florida" : {
         "name" : "Marineland",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-43250",
         "counties" : [
             "12035",
@@ -3029,11 +3029,11 @@
         "population_2010" : 15,
         "population_2020" : 15,
         "population" : 17,
-        "square_mileage" : 0.21
+        "squareMileage" : 0.21
     },
     "Mary Esther, Okaloosa County, Florida" : {
         "name" : "Mary Esther",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-43375",
         "counties" : [
             "12091"
@@ -3042,11 +3042,11 @@
         "population_2010" : 3982,
         "population_2020" : 3982,
         "population" : 4613,
-        "square_mileage" : 1.5
+        "squareMileage" : 1.5
     },
     "Mascotte, Lake County, Florida" : {
         "name" : "Mascotte",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-43425",
         "counties" : [
             "12069"
@@ -3055,11 +3055,11 @@
         "population_2010" : 6609,
         "population_2020" : 6609,
         "population" : 7657,
-        "square_mileage" : 12.4
+        "squareMileage" : 12.4
     },
     "Mayo, Lafayette County, Florida" : {
         "name" : "Mayo",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-43575",
         "counties" : [
             "12067"
@@ -3068,11 +3068,11 @@
         "population_2010" : 1055,
         "population_2020" : 1055,
         "population" : 1222,
-        "square_mileage" : 0.9
+        "squareMileage" : 0.9
     },
     "McIntosh, Marion County, Florida" : {
         "name" : "McIntosh",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-42150",
         "counties" : [
             "12083"
@@ -3081,11 +3081,11 @@
         "population_2010" : 463,
         "population_2020" : 463,
         "population" : 536,
-        "square_mileage" : 0.71
+        "squareMileage" : 0.71
     },
     "Medley, Miami-Dade County, Florida" : {
         "name" : "Medley",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-43900",
         "counties" : [
             "12086"
@@ -3094,11 +3094,11 @@
         "population_2010" : 1056,
         "population_2020" : 1056,
         "population" : 1223,
-        "square_mileage" : 5.1
+        "squareMileage" : 5.1
     },
     "Melbourne, Brevard County, Florida" : {
         "name" : "Melbourne",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-43975",
         "counties" : [
             "12009"
@@ -3107,11 +3107,11 @@
         "population_2010" : 84678,
         "population_2020" : 84678,
         "population" : 98106,
-        "square_mileage" : 44.1
+        "squareMileage" : 44.1
     },
     "Melbourne Beach, Brevard County, Florida" : {
         "name" : "Melbourne Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-44000",
         "counties" : [
             "12009"
@@ -3120,11 +3120,11 @@
         "population_2010" : 3231,
         "population_2020" : 3231,
         "population" : 3743,
-        "square_mileage" : 0.99
+        "squareMileage" : 0.99
     },
     "Melbourne Village, Brevard County, Florida" : {
         "name" : "Melbourne Village",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-44075",
         "counties" : [
             "12009"
@@ -3133,11 +3133,11 @@
         "population_2010" : 681,
         "population_2020" : 681,
         "population" : 789,
-        "square_mileage" : 0.58
+        "squareMileage" : 0.58
     },
     "Mexico Beach, Bay County, Florida" : {
         "name" : "Mexico Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-44300",
         "counties" : [
             "12005"
@@ -3146,11 +3146,11 @@
         "population_2010" : 916,
         "population_2020" : 916,
         "population" : 1061,
-        "square_mileage" : 2.3
+        "squareMileage" : 2.3
     },
     "Miami, Miami-Dade County, Florida" : {
         "name" : "Miami",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-45000",
         "counties" : [
             "12086"
@@ -3159,11 +3159,11 @@
         "population_2010" : 442241,
         "population_2020" : 442241,
         "population" : 512370,
-        "square_mileage" : 36.0
+        "squareMileage" : 36.0
     },
     "Miami Beach, Miami-Dade County, Florida" : {
         "name" : "Miami Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-45025",
         "counties" : [
             "12086"
@@ -3172,11 +3172,11 @@
         "population_2010" : 82890,
         "population_2020" : 82890,
         "population" : 96034,
-        "square_mileage" : 7.7
+        "squareMileage" : 7.7
     },
     "Miami Gardens, Miami-Dade County, Florida" : {
         "name" : "Miami Gardens",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-45060",
         "counties" : [
             "12086"
@@ -3185,11 +3185,11 @@
         "population_2010" : 111640,
         "population_2020" : 111640,
         "population" : 129343,
-        "square_mileage" : 18.2
+        "squareMileage" : 18.2
     },
     "Miami Lakes, Miami-Dade County, Florida" : {
         "name" : "Miami Lakes",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-45100",
         "counties" : [
             "12086"
@@ -3198,11 +3198,11 @@
         "population_2010" : 30467,
         "population_2020" : 30467,
         "population" : 35298,
-        "square_mileage" : 5.7
+        "squareMileage" : 5.7
     },
     "Miami Shores, Miami-Dade County, Florida" : {
         "name" : "Miami Shores",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-45175",
         "counties" : [
             "12086"
@@ -3211,11 +3211,11 @@
         "population_2010" : 11567,
         "population_2020" : 11567,
         "population" : 13401,
-        "square_mileage" : 2.5
+        "squareMileage" : 2.5
     },
     "Miami Springs, Miami-Dade County, Florida" : {
         "name" : "Miami Springs",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-45200",
         "counties" : [
             "12086"
@@ -3224,11 +3224,11 @@
         "population_2010" : 13859,
         "population_2020" : 13859,
         "population" : 16057,
-        "square_mileage" : 2.9
+        "squareMileage" : 2.9
     },
     "Micanopy, Alachua County, Florida" : {
         "name" : "Micanopy",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-45225",
         "counties" : [
             "12001"
@@ -3237,11 +3237,11 @@
         "population_2010" : 648,
         "population_2020" : 648,
         "population" : 751,
-        "square_mileage" : 1.0
+        "squareMileage" : 1.0
     },
     "Midway, Gadsden County, Florida" : {
         "name" : "Midway",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-45475",
         "counties" : [
             "12039"
@@ -3250,11 +3250,11 @@
         "population_2010" : 3537,
         "population_2020" : 3537,
         "population" : 4098,
-        "square_mileage" : 9.6
+        "squareMileage" : 9.6
     },
     "Milton, Santa Rosa County, Florida" : {
         "name" : "Milton",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-45750",
         "counties" : [
             "12113"
@@ -3263,11 +3263,11 @@
         "population_2010" : 10197,
         "population_2020" : 10197,
         "population" : 11814,
-        "square_mileage" : 5.6
+        "squareMileage" : 5.6
     },
     "Minneola, Lake County, Florida" : {
         "name" : "Minneola",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-45900",
         "counties" : [
             "12069"
@@ -3276,11 +3276,11 @@
         "population_2010" : 13843,
         "population_2020" : 13843,
         "population" : 16038,
-        "square_mileage" : 11.1
+        "squareMileage" : 11.1
     },
     "Miramar, Broward County, Florida" : {
         "name" : "Miramar",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-45975",
         "counties" : [
             "12011"
@@ -3289,11 +3289,11 @@
         "population_2010" : 134721,
         "population_2020" : 134721,
         "population" : 156085,
-        "square_mileage" : 28.9
+        "squareMileage" : 28.9
     },
     "Monticello, Jefferson County, Florida" : {
         "name" : "Monticello",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-46500",
         "counties" : [
             "12065"
@@ -3302,11 +3302,11 @@
         "population_2010" : 2589,
         "population_2020" : 2589,
         "population" : 3000,
-        "square_mileage" : 4.0
+        "squareMileage" : 4.0
     },
     "Montverde, Lake County, Florida" : {
         "name" : "Montverde",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-46525",
         "counties" : [
             "12069"
@@ -3315,11 +3315,11 @@
         "population_2010" : 1655,
         "population_2020" : 1655,
         "population" : 1917,
-        "square_mileage" : 1.7
+        "squareMileage" : 1.7
     },
     "Moore Haven, Glades County, Florida" : {
         "name" : "Moore Haven",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-46550",
         "counties" : [
             "12043"
@@ -3328,11 +3328,11 @@
         "population_2010" : 1566,
         "population_2020" : 1566,
         "population" : 1814,
-        "square_mileage" : 1.1
+        "squareMileage" : 1.1
     },
     "Mount Dora, Lake County, Florida" : {
         "name" : "Mount Dora",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-47050",
         "counties" : [
             "12069"
@@ -3341,11 +3341,11 @@
         "population_2010" : 16341,
         "population_2020" : 16341,
         "population" : 18932,
-        "square_mileage" : 8.0
+        "squareMileage" : 8.0
     },
     "Mulberry, Polk County, Florida" : {
         "name" : "Mulberry",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-47200",
         "counties" : [
             "12105"
@@ -3354,11 +3354,11 @@
         "population_2010" : 3952,
         "population_2020" : 3952,
         "population" : 4579,
-        "square_mileage" : 6.2
+        "squareMileage" : 6.2
     },
     "Naples, Collier County, Florida" : {
         "name" : "Naples",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-47625",
         "counties" : [
             "12021"
@@ -3367,11 +3367,11 @@
         "population_2010" : 19115,
         "population_2020" : 19115,
         "population" : 22146,
-        "square_mileage" : 12.3
+        "squareMileage" : 12.3
     },
     "Neptune Beach, Duval County, Florida" : {
         "name" : "Neptune Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-48100",
         "counties" : [
             "12031"
@@ -3380,11 +3380,11 @@
         "population_2010" : 7217,
         "population_2020" : 7217,
         "population" : 8361,
-        "square_mileage" : 2.3
+        "squareMileage" : 2.3
     },
     "New Port Richey, Pasco County, Florida" : {
         "name" : "New Port Richey",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-48500",
         "counties" : [
             "12101"
@@ -3393,11 +3393,11 @@
         "population_2010" : 16728,
         "population_2020" : 16728,
         "population" : 19381,
-        "square_mileage" : 4.5
+        "squareMileage" : 4.5
     },
     "New Smyrna Beach, Volusia County, Florida" : {
         "name" : "New Smyrna Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-48625",
         "counties" : [
             "12127"
@@ -3406,11 +3406,11 @@
         "population_2010" : 30142,
         "population_2020" : 30142,
         "population" : 34922,
-        "square_mileage" : 37.7
+        "squareMileage" : 37.7
     },
     "Newberry, Alachua County, Florida" : {
         "name" : "Newberry",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-48200",
         "counties" : [
             "12001"
@@ -3419,11 +3419,11 @@
         "population_2010" : 7342,
         "population_2020" : 7342,
         "population" : 8506,
-        "square_mileage" : 57.6
+        "squareMileage" : 57.6
     },
     "Niceville, Okaloosa County, Florida" : {
         "name" : "Niceville",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-48750",
         "counties" : [
             "12091"
@@ -3432,11 +3432,11 @@
         "population_2010" : 15772,
         "population_2020" : 15772,
         "population" : 18273,
-        "square_mileage" : 13.1
+        "squareMileage" : 13.1
     },
     "Noma, Holmes County, Florida" : {
         "name" : "Noma",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-48900",
         "counties" : [
             "12059"
@@ -3445,11 +3445,11 @@
         "population_2010" : 208,
         "population_2020" : 208,
         "population" : 241,
-        "square_mileage" : 1.1
+        "squareMileage" : 1.1
     },
     "North Bay Village, Miami-Dade County, Florida" : {
         "name" : "North Bay Village",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-49225",
         "counties" : [
             "12086"
@@ -3458,11 +3458,11 @@
         "population_2010" : 8159,
         "population_2020" : 8159,
         "population" : 9453,
-        "square_mileage" : 0.37
+        "squareMileage" : 0.37
     },
     "North Lauderdale, Broward County, Florida" : {
         "name" : "North Lauderdale",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-49425",
         "counties" : [
             "12011"
@@ -3471,11 +3471,11 @@
         "population_2010" : 44794,
         "population_2020" : 44794,
         "population" : 51897,
-        "square_mileage" : 4.6
+        "squareMileage" : 4.6
     },
     "North Miami, Miami-Dade County, Florida" : {
         "name" : "North Miami",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-49450",
         "counties" : [
             "12086"
@@ -3484,11 +3484,11 @@
         "population_2010" : 60191,
         "population_2020" : 60191,
         "population" : 69736,
-        "square_mileage" : 8.4
+        "squareMileage" : 8.4
     },
     "North Miami Beach, Miami-Dade County, Florida" : {
         "name" : "North Miami Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-49475",
         "counties" : [
             "12086"
@@ -3497,11 +3497,11 @@
         "population_2010" : 43676,
         "population_2020" : 43676,
         "population" : 50602,
-        "square_mileage" : 4.8
+        "squareMileage" : 4.8
     },
     "North Palm Beach, Palm Beach County, Florida" : {
         "name" : "North Palm Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-49600",
         "counties" : [
             "12099"
@@ -3510,11 +3510,11 @@
         "population_2010" : 13162,
         "population_2020" : 13162,
         "population" : 15249,
-        "square_mileage" : 3.3
+        "squareMileage" : 3.3
     },
     "North Port, Sarasota County, Florida" : {
         "name" : "North Port",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-49675",
         "counties" : [
             "12115"
@@ -3523,11 +3523,11 @@
         "population_2010" : 74793,
         "population_2020" : 74793,
         "population" : 86653,
-        "square_mileage" : 99.4
+        "squareMileage" : 99.4
     },
     "North Redington Beach, Pinellas County, Florida" : {
         "name" : "North Redington Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-49725",
         "counties" : [
             "12103"
@@ -3536,11 +3536,11 @@
         "population_2010" : 1495,
         "population_2020" : 1495,
         "population" : 1732,
-        "square_mileage" : 0.26
+        "squareMileage" : 0.26
     },
     "Oak Hill, Volusia County, Florida" : {
         "name" : "Oak Hill",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-50450",
         "counties" : [
             "12127"
@@ -3549,11 +3549,11 @@
         "population_2010" : 1986,
         "population_2020" : 1986,
         "population" : 2301,
-        "square_mileage" : 6.7
+        "squareMileage" : 6.7
     },
     "Oakland, Orange County, Florida" : {
         "name" : "Oakland",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-50525",
         "counties" : [
             "12095"
@@ -3562,11 +3562,11 @@
         "population_2010" : 3516,
         "population_2020" : 3516,
         "population" : 4074,
-        "square_mileage" : 2.3
+        "squareMileage" : 2.3
     },
     "Oakland Park, Broward County, Florida" : {
         "name" : "Oakland Park",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-50575",
         "counties" : [
             "12011"
@@ -3575,11 +3575,11 @@
         "population_2010" : 44229,
         "population_2020" : 44229,
         "population" : 51243,
-        "square_mileage" : 7.5
+        "squareMileage" : 7.5
     },
     "Ocala, Marion County, Florida" : {
         "name" : "Ocala",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-50750",
         "counties" : [
             "12083"
@@ -3588,11 +3588,11 @@
         "population_2010" : 63591,
         "population_2020" : 63591,
         "population" : 73675,
-        "square_mileage" : 47.3
+        "squareMileage" : 47.3
     },
     "Ocean Breeze, Martin County, Florida" : {
         "name" : "Ocean Breeze",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-50875",
         "counties" : [
             "12085"
@@ -3601,11 +3601,11 @@
         "population_2010" : 301,
         "population_2020" : 301,
         "population" : 349,
-        "square_mileage" : 0.17
+        "squareMileage" : 0.17
     },
     "Ocean Ridge, Palm Beach County, Florida" : {
         "name" : "Ocean Ridge",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-50950",
         "counties" : [
             "12099"
@@ -3614,11 +3614,11 @@
         "population_2010" : 1830,
         "population_2020" : 1830,
         "population" : 2120,
-        "square_mileage" : 0.76
+        "squareMileage" : 0.76
     },
     "Ocoee, Orange County, Florida" : {
         "name" : "Ocoee",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-51075",
         "counties" : [
             "12095"
@@ -3627,11 +3627,11 @@
         "population_2010" : 47295,
         "population_2020" : 47295,
         "population" : 54795,
-        "square_mileage" : 15.6
+        "squareMileage" : 15.6
     },
     "Okeechobee, Okeechobee County, Florida" : {
         "name" : "Okeechobee",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-51200",
         "counties" : [
             "12093"
@@ -3640,11 +3640,11 @@
         "population_2010" : 5254,
         "population_2020" : 5254,
         "population" : 6087,
-        "square_mileage" : 4.1
+        "squareMileage" : 4.1
     },
     "Oldsmar, Pinellas County, Florida" : {
         "name" : "Oldsmar",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-51350",
         "counties" : [
             "12103"
@@ -3653,11 +3653,11 @@
         "population_2010" : 14898,
         "population_2020" : 14898,
         "population" : 17260,
-        "square_mileage" : 8.9
+        "squareMileage" : 8.9
     },
     "Opa-locka, Miami-Dade County, Florida" : {
         "name" : "Opa-locka",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-51650",
         "counties" : [
             "12086"
@@ -3666,11 +3666,11 @@
         "population_2010" : 16463,
         "population_2020" : 16463,
         "population" : 19074,
-        "square_mileage" : 4.3
+        "squareMileage" : 4.3
     },
     "Orange City, Volusia County, Florida" : {
         "name" : "Orange City",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-51825",
         "counties" : [
             "12127"
@@ -3679,11 +3679,11 @@
         "population_2010" : 12632,
         "population_2020" : 12632,
         "population" : 14635,
-        "square_mileage" : 7.8
+        "squareMileage" : 7.8
     },
     "Orange Park, Clay County, Florida" : {
         "name" : "Orange Park",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-52125",
         "counties" : [
             "12019"
@@ -3692,11 +3692,11 @@
         "population_2010" : 9089,
         "population_2020" : 9089,
         "population" : 10530,
-        "square_mileage" : 3.6
+        "squareMileage" : 3.6
     },
     "Orchid, Indian River County, Florida" : {
         "name" : "Orchid",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-52175",
         "counties" : [
             "12061"
@@ -3705,11 +3705,11 @@
         "population_2010" : 516,
         "population_2020" : 516,
         "population" : 598,
-        "square_mileage" : 1.2
+        "squareMileage" : 1.2
     },
     "Orlando, Orange County, Florida" : {
         "name" : "Orlando",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-53000",
         "counties" : [
             "12095"
@@ -3718,11 +3718,11 @@
         "population_2010" : 307573,
         "population_2020" : 307573,
         "population" : 356347,
-        "square_mileage" : 110.6
+        "squareMileage" : 110.6
     },
     "Ormond Beach, Volusia County, Florida" : {
         "name" : "Ormond Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-53150",
         "counties" : [
             "12127"
@@ -3731,11 +3731,11 @@
         "population_2010" : 43475,
         "population_2020" : 43475,
         "population" : 50369,
-        "square_mileage" : 34.7
+        "squareMileage" : 34.7
     },
     "Otter Creek, Levy County, Florida" : {
         "name" : "Otter Creek",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-53500",
         "counties" : [
             "12075"
@@ -3744,11 +3744,11 @@
         "population_2010" : 108,
         "population_2020" : 108,
         "population" : 125,
-        "square_mileage" : 1.4
+        "squareMileage" : 1.4
     },
     "Oviedo, Seminole County, Florida" : {
         "name" : "Oviedo",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-53575",
         "counties" : [
             "12117"
@@ -3757,11 +3757,11 @@
         "population_2010" : 40059,
         "population_2020" : 40059,
         "population" : 46411,
-        "square_mileage" : 15.5
+        "squareMileage" : 15.5
     },
     "Pahokee, Palm Beach County, Florida" : {
         "name" : "Pahokee",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-53800",
         "counties" : [
             "12099"
@@ -3770,11 +3770,11 @@
         "population_2010" : 5524,
         "population_2020" : 5524,
         "population" : 6400,
-        "square_mileage" : 5.3
+        "squareMileage" : 5.3
     },
     "Palatka, Putnam County, Florida" : {
         "name" : "Palatka",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-53875",
         "counties" : [
             "12107"
@@ -3783,11 +3783,11 @@
         "population_2010" : 10446,
         "population_2020" : 10446,
         "population" : 12102,
-        "square_mileage" : 9.8
+        "squareMileage" : 9.8
     },
     "Palm Bay, Brevard County, Florida" : {
         "name" : "Palm Bay",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-54000",
         "counties" : [
             "12009"
@@ -3796,11 +3796,11 @@
         "population_2010" : 119760,
         "population_2020" : 119760,
         "population" : 138751,
-        "square_mileage" : 86.4
+        "squareMileage" : 86.4
     },
     "Palm Beach, Palm Beach County, Florida" : {
         "name" : "Palm Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-54025",
         "counties" : [
             "12099"
@@ -3809,11 +3809,11 @@
         "population_2010" : 9245,
         "population_2020" : 9245,
         "population" : 10711,
-        "square_mileage" : 3.8
+        "squareMileage" : 3.8
     },
     "Palm Beach Gardens, Palm Beach County, Florida" : {
         "name" : "Palm Beach Gardens",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-54075",
         "counties" : [
             "12099"
@@ -3822,11 +3822,11 @@
         "population_2010" : 59182,
         "population_2020" : 59182,
         "population" : 68567,
-        "square_mileage" : 58.7
+        "squareMileage" : 58.7
     },
     "Palm Beach Shores, Palm Beach County, Florida" : {
         "name" : "Palm Beach Shores",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-54150",
         "counties" : [
             "12099"
@@ -3835,11 +3835,11 @@
         "population_2010" : 1330,
         "population_2020" : 1330,
         "population" : 1541,
-        "square_mileage" : 0.29
+        "squareMileage" : 0.29
     },
     "Palm Coast, Floridaagler County, Florida" : {
         "name" : "Palm Coast",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-54200",
         "counties" : [
             "12035"
@@ -3848,11 +3848,11 @@
         "population_2010" : 89258,
         "population_2020" : 89258,
         "population" : 103412,
-        "square_mileage" : 95.4
+        "squareMileage" : 95.4
     },
     "Palm Shores, Brevard County, Florida" : {
         "name" : "Palm Shores",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-54425",
         "counties" : [
             "12009"
@@ -3861,11 +3861,11 @@
         "population_2010" : 1200,
         "population_2020" : 1200,
         "population" : 1390,
-        "square_mileage" : 0.6
+        "squareMileage" : 0.6
     },
     "Palm Springs, Palm Beach County, Florida" : {
         "name" : "Palm Springs",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-54450",
         "counties" : [
             "12099"
@@ -3874,11 +3874,11 @@
         "population_2010" : 26890,
         "population_2020" : 26890,
         "population" : 31154,
-        "square_mileage" : 4.2
+        "squareMileage" : 4.2
     },
     "Palmetto, Manatee County, Florida" : {
         "name" : "Palmetto",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-54250",
         "counties" : [
             "12081"
@@ -3887,11 +3887,11 @@
         "population_2010" : 13323,
         "population_2020" : 13323,
         "population" : 15436,
-        "square_mileage" : 5.4
+        "squareMileage" : 5.4
     },
     "Palmetto Bay, Miami-Dade County, Florida" : {
         "name" : "Palmetto Bay",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-54275",
         "counties" : [
             "12086"
@@ -3900,11 +3900,11 @@
         "population_2010" : 24439,
         "population_2020" : 24439,
         "population" : 28314,
-        "square_mileage" : 8.3
+        "squareMileage" : 8.3
     },
     "Panama City, Bay County, Florida" : {
         "name" : "Panama City",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-54700",
         "counties" : [
             "12005"
@@ -3913,11 +3913,11 @@
         "population_2010" : 32939,
         "population_2020" : 32939,
         "population" : 38162,
-        "square_mileage" : 35.1
+        "squareMileage" : 35.1
     },
     "Panama City Beach, Bay County, Florida" : {
         "name" : "Panama City Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-54725",
         "counties" : [
             "12005"
@@ -3926,11 +3926,11 @@
         "population_2010" : 18094,
         "population_2020" : 18094,
         "population" : 20963,
-        "square_mileage" : 19.3
+        "squareMileage" : 19.3
     },
     "Parker, Bay County, Florida" : {
         "name" : "Parker",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-55075",
         "counties" : [
             "12005"
@@ -3939,11 +3939,11 @@
         "population_2010" : 4010,
         "population_2020" : 4010,
         "population" : 4646,
-        "square_mileage" : 1.9
+        "squareMileage" : 1.9
     },
     "Parkland, Broward County, Florida" : {
         "name" : "Parkland",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-55125",
         "counties" : [
             "12011"
@@ -3952,11 +3952,11 @@
         "population_2010" : 34670,
         "population_2020" : 34670,
         "population" : 40168,
-        "square_mileage" : 12.5
+        "squareMileage" : 12.5
     },
     "Paxton, Walton County, Florida" : {
         "name" : "Paxton",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-55475",
         "counties" : [
             "12131"
@@ -3965,11 +3965,11 @@
         "population_2010" : 556,
         "population_2020" : 556,
         "population" : 644,
-        "square_mileage" : 3.7
+        "squareMileage" : 3.7
     },
     "Pembroke Park, Broward County, Florida" : {
         "name" : "Pembroke Park",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-55750",
         "counties" : [
             "12011"
@@ -3978,11 +3978,11 @@
         "population_2010" : 6260,
         "population_2020" : 6260,
         "population" : 7253,
-        "square_mileage" : 1.4
+        "squareMileage" : 1.4
     },
     "Pembroke Pines, Broward County, Florida" : {
         "name" : "Pembroke Pines",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-55775",
         "counties" : [
             "12011"
@@ -3991,11 +3991,11 @@
         "population_2010" : 171178,
         "population_2020" : 171178,
         "population" : 198323,
-        "square_mileage" : 32.7
+        "squareMileage" : 32.7
     },
     "Penney Farms, Clay County, Florida" : {
         "name" : "Penney Farms",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-55875",
         "counties" : [
             "12019"
@@ -4004,11 +4004,11 @@
         "population_2010" : 821,
         "population_2020" : 821,
         "population" : 951,
-        "square_mileage" : 1.5
+        "squareMileage" : 1.5
     },
     "Pensacola, Escambia County, Florida" : {
         "name" : "Pensacola",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-55925",
         "counties" : [
             "12033"
@@ -4017,11 +4017,11 @@
         "population_2010" : 54312,
         "population_2020" : 54312,
         "population" : 62925,
-        "square_mileage" : 22.7
+        "squareMileage" : 22.7
     },
     "Perry, Taylor County, Florida" : {
         "name" : "Perry",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-56150",
         "counties" : [
             "12123"
@@ -4030,11 +4030,11 @@
         "population_2010" : 6898,
         "population_2020" : 6898,
         "population" : 7992,
-        "square_mileage" : 9.4
+        "squareMileage" : 9.4
     },
     "Pierson, Volusia County, Florida" : {
         "name" : "Pierson",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-56425",
         "counties" : [
             "12127"
@@ -4043,11 +4043,11 @@
         "population_2010" : 1542,
         "population_2020" : 1542,
         "population" : 1787,
-        "square_mileage" : 10.2
+        "squareMileage" : 10.2
     },
     "Pinecrest, Miami-Dade County, Florida" : {
         "name" : "Pinecrest",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-56625",
         "counties" : [
             "12086"
@@ -4056,11 +4056,11 @@
         "population_2010" : 18388,
         "population_2020" : 18388,
         "population" : 21304,
-        "square_mileage" : 7.5
+        "squareMileage" : 7.5
     },
     "Pinellas Park, Pinellas County, Florida" : {
         "name" : "Pinellas Park",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-56975",
         "counties" : [
             "12103"
@@ -4069,11 +4069,11 @@
         "population_2010" : 53093,
         "population_2020" : 53093,
         "population" : 61512,
-        "square_mileage" : 16.1
+        "squareMileage" : 16.1
     },
     "Plant City, Hillsborough County, Florida" : {
         "name" : "Plant City",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-57550",
         "counties" : [
             "12057"
@@ -4082,11 +4082,11 @@
         "population_2010" : 39764,
         "population_2020" : 39764,
         "population" : 46070,
-        "square_mileage" : 27.6
+        "squareMileage" : 27.6
     },
     "Plantation, Broward County, Florida" : {
         "name" : "Plantation",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-57450",
         "counties" : [
             "12011"
@@ -4095,11 +4095,11 @@
         "population_2010" : 91750,
         "population_2020" : 91750,
         "population" : 106299,
-        "square_mileage" : 21.8
+        "squareMileage" : 21.8
     },
     "Polk City, Polk County, Florida" : {
         "name" : "Polk City",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-57950",
         "counties" : [
             "12105"
@@ -4108,11 +4108,11 @@
         "population_2010" : 2713,
         "population_2020" : 2713,
         "population" : 3143,
-        "square_mileage" : 4.5
+        "squareMileage" : 4.5
     },
     "Pomona Park, Putnam County, Florida" : {
         "name" : "Pomona Park",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-58025",
         "counties" : [
             "12107"
@@ -4121,11 +4121,11 @@
         "population_2010" : 784,
         "population_2020" : 784,
         "population" : 908,
-        "square_mileage" : 3.0
+        "squareMileage" : 3.0
     },
     "Pompano Beach, Broward County, Florida" : {
         "name" : "Pompano Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-58050",
         "counties" : [
             "12011"
@@ -4134,11 +4134,11 @@
         "population_2010" : 112046,
         "population_2020" : 112046,
         "population" : 129814,
-        "square_mileage" : 24.0
+        "squareMileage" : 24.0
     },
     "Ponce de Leon, Holmes County, Florida" : {
         "name" : "Ponce de Leon",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-58175",
         "counties" : [
             "12059"
@@ -4147,11 +4147,11 @@
         "population_2010" : 504,
         "population_2020" : 504,
         "population" : 584,
-        "square_mileage" : 5.0
+        "squareMileage" : 5.0
     },
     "Ponce Inlet, Volusia County, Florida" : {
         "name" : "Ponce Inlet",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-58200",
         "counties" : [
             "12127"
@@ -4160,11 +4160,11 @@
         "population_2010" : 3364,
         "population_2020" : 3364,
         "population" : 3897,
-        "square_mileage" : 4.5
+        "squareMileage" : 4.5
     },
     "Port Orange, Volusia County, Florida" : {
         "name" : "Port Orange",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-58575",
         "counties" : [
             "12127"
@@ -4173,11 +4173,11 @@
         "population_2010" : 62596,
         "population_2020" : 62596,
         "population" : 72522,
-        "square_mileage" : 26.8
+        "squareMileage" : 26.8
     },
     "Port Richey, Pasco County, Florida" : {
         "name" : "Port Richey",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-58600",
         "counties" : [
             "12101"
@@ -4186,11 +4186,11 @@
         "population_2010" : 3052,
         "population_2020" : 3052,
         "population" : 3536,
-        "square_mileage" : 2.2
+        "squareMileage" : 2.2
     },
     "Port St. Joe, Gulf County, Florida" : {
         "name" : "Port St. Joe",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-58675",
         "counties" : [
             "12045"
@@ -4199,11 +4199,11 @@
         "population_2010" : 3357,
         "population_2020" : 3357,
         "population" : 3889,
-        "square_mileage" : 9.4
+        "squareMileage" : 9.4
     },
     "Port St. Lucie, St. Lucie County, Florida" : {
         "name" : "Port St. Lucie",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-58715",
         "counties" : [
             "12111"
@@ -4212,11 +4212,11 @@
         "population_2010" : 204851,
         "population_2020" : 204851,
         "population" : 237335,
-        "square_mileage" : 119.2
+        "squareMileage" : 119.2
     },
     "Punta Gorda, Charlotte County, Florida" : {
         "name" : "Punta Gorda",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-59200",
         "counties" : [
             "12015"
@@ -4225,11 +4225,11 @@
         "population_2010" : 19471,
         "population_2020" : 19471,
         "population" : 22559,
-        "square_mileage" : 15.5
+        "squareMileage" : 15.5
     },
     "Quincy, Gadsden County, Florida" : {
         "name" : "Quincy",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-59325",
         "counties" : [
             "12039"
@@ -4238,11 +4238,11 @@
         "population_2010" : 7970,
         "population_2020" : 7970,
         "population" : 9234,
-        "square_mileage" : 11.6
+        "squareMileage" : 11.6
     },
     "Raiford, Union County, Florida" : {
         "name" : "Raiford",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-59400",
         "counties" : [
             "12125"
@@ -4251,11 +4251,11 @@
         "population_2010" : 224,
         "population_2020" : 224,
         "population" : 260,
-        "square_mileage" : 0.55
+        "squareMileage" : 0.55
     },
     "Reddick, Marion County, Florida" : {
         "name" : "Reddick",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-59675",
         "counties" : [
             "12083"
@@ -4264,11 +4264,11 @@
         "population_2010" : 449,
         "population_2020" : 449,
         "population" : 520,
-        "square_mileage" : 1.3
+        "squareMileage" : 1.3
     },
     "Redington Beach, Pinellas County, Florida" : {
         "name" : "Redington Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-59725",
         "counties" : [
             "12103"
@@ -4277,11 +4277,11 @@
         "population_2010" : 1376,
         "population_2020" : 1376,
         "population" : 1594,
-        "square_mileage" : 0.36
+        "squareMileage" : 0.36
     },
     "Redington Shores, Pinellas County, Florida" : {
         "name" : "Redington Shores",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-59750",
         "counties" : [
             "12103"
@@ -4290,11 +4290,11 @@
         "population_2010" : 2176,
         "population_2020" : 2176,
         "population" : 2521,
-        "square_mileage" : 0.33
+        "squareMileage" : 0.33
     },
     "Riviera Beach, Palm Beach County, Florida" : {
         "name" : "Riviera Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-60975",
         "counties" : [
             "12099"
@@ -4303,11 +4303,11 @@
         "population_2010" : 37604,
         "population_2020" : 37604,
         "population" : 43567,
-        "square_mileage" : 8.3
+        "squareMileage" : 8.3
     },
     "Rockledge, Brevard County, Florida" : {
         "name" : "Rockledge",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-61500",
         "counties" : [
             "12009"
@@ -4316,11 +4316,11 @@
         "population_2010" : 27678,
         "population_2020" : 27678,
         "population" : 32067,
-        "square_mileage" : 13.2
+        "squareMileage" : 13.2
     },
     "Royal Palm Beach, Palm Beach County, Florida" : {
         "name" : "Royal Palm Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-62100",
         "counties" : [
             "12099"
@@ -4329,11 +4329,11 @@
         "population_2010" : 38932,
         "population_2020" : 38932,
         "population" : 45106,
-        "square_mileage" : 11.3
+        "squareMileage" : 11.3
     },
     "Safety Harbor, Pinellas County, Florida" : {
         "name" : "Safety Harbor",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-62425",
         "counties" : [
             "12103"
@@ -4342,11 +4342,11 @@
         "population_2010" : 17072,
         "population_2020" : 17072,
         "population" : 19779,
-        "square_mileage" : 4.9
+        "squareMileage" : 4.9
     },
     "San Antonio, Pasco County, Florida" : {
         "name" : "San Antonio",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-63375",
         "counties" : [
             "12101"
@@ -4355,11 +4355,11 @@
         "population_2010" : 1297,
         "population_2020" : 1297,
         "population" : 1503,
-        "square_mileage" : 1.4
+        "squareMileage" : 1.4
     },
     "Sanford, Seminole County, Florida" : {
         "name" : "Sanford",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-63650",
         "counties" : [
             "12117"
@@ -4368,11 +4368,11 @@
         "population_2010" : 61051,
         "population_2020" : 61051,
         "population" : 70732,
-        "square_mileage" : 23.6
+        "squareMileage" : 23.6
     },
     "Sanibel, Lee County, Florida" : {
         "name" : "Sanibel",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-63700",
         "counties" : [
             "12071"
@@ -4381,11 +4381,11 @@
         "population_2010" : 6382,
         "population_2020" : 6382,
         "population" : 7394,
-        "square_mileage" : 16.2
+        "squareMileage" : 16.2
     },
     "Sarasota, Sarasota County, Florida" : {
         "name" : "Sarasota",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-64175",
         "counties" : [
             "12115"
@@ -4394,11 +4394,11 @@
         "population_2010" : 54842,
         "population_2020" : 54842,
         "population" : 63539,
-        "square_mileage" : 14.7
+        "squareMileage" : 14.7
     },
     "Satellite Beach, Brevard County, Florida" : {
         "name" : "Satellite Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-64400",
         "counties" : [
             "12009"
@@ -4407,11 +4407,11 @@
         "population_2010" : 11226,
         "population_2020" : 11226,
         "population" : 13006,
-        "square_mileage" : 2.9
+        "squareMileage" : 2.9
     },
     "Sea Ranch Lakes, Broward County, Florida" : {
         "name" : "Sea Ranch Lakes",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-64725",
         "counties" : [
             "12011"
@@ -4420,11 +4420,11 @@
         "population_2010" : 540,
         "population_2020" : 540,
         "population" : 626,
-        "square_mileage" : 0.17
+        "squareMileage" : 0.17
     },
     "Sebastian, Indian River County, Florida" : {
         "name" : "Sebastian",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-64825",
         "counties" : [
             "12061"
@@ -4433,11 +4433,11 @@
         "population_2010" : 25054,
         "population_2020" : 25054,
         "population" : 29027,
-        "square_mileage" : 15.8
+        "squareMileage" : 15.8
     },
     "Sebring, Highlands County, Florida" : {
         "name" : "Sebring",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-64875",
         "counties" : [
             "12055"
@@ -4446,11 +4446,11 @@
         "population_2010" : 10729,
         "population_2020" : 10729,
         "population" : 12430,
-        "square_mileage" : 10.1
+        "squareMileage" : 10.1
     },
     "Seminole, Pinellas County, Florida" : {
         "name" : "Seminole",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-64975",
         "counties" : [
             "12103"
@@ -4459,11 +4459,11 @@
         "population_2010" : 19364,
         "population_2020" : 19364,
         "population" : 22435,
-        "square_mileage" : 5.2
+        "squareMileage" : 5.2
     },
     "Sewall's Point, Martin County, Florida" : {
         "name" : "Sewall's Point",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-65225",
         "counties" : [
             "12085"
@@ -4472,11 +4472,11 @@
         "population_2010" : 1991,
         "population_2020" : 1991,
         "population" : 2307,
-        "square_mileage" : 1.2
+        "squareMileage" : 1.2
     },
     "Shalimar, Okaloosa County, Florida" : {
         "name" : "Shalimar",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-65425",
         "counties" : [
             "12091"
@@ -4485,11 +4485,11 @@
         "population_2010" : 737,
         "population_2020" : 737,
         "population" : 854,
-        "square_mileage" : 0.29
+        "squareMileage" : 0.29
     },
     "Sneads, Jackson County, Florida" : {
         "name" : "Sneads",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-66725",
         "counties" : [
             "12063"
@@ -4498,11 +4498,11 @@
         "population_2010" : 1699,
         "population_2020" : 1699,
         "population" : 1968,
-        "square_mileage" : 4.4
+        "squareMileage" : 4.4
     },
     "Sopchoppy, Wakulla County, Florida" : {
         "name" : "Sopchoppy",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-66925",
         "counties" : [
             "12129"
@@ -4511,11 +4511,11 @@
         "population_2010" : 426,
         "population_2020" : 426,
         "population" : 494,
-        "square_mileage" : 1.7
+        "squareMileage" : 1.7
     },
     "South Bay, Palm Beach County, Florida" : {
         "name" : "South Bay",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-67175",
         "counties" : [
             "12099"
@@ -4524,11 +4524,11 @@
         "population_2010" : 4860,
         "population_2020" : 4860,
         "population" : 5631,
-        "square_mileage" : 2.9
+        "squareMileage" : 2.9
     },
     "South Daytona, Volusia County, Florida" : {
         "name" : "South Daytona",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-67325",
         "counties" : [
             "12127"
@@ -4537,11 +4537,11 @@
         "population_2010" : 12865,
         "population_2020" : 12865,
         "population" : 14905,
-        "square_mileage" : 3.7
+        "squareMileage" : 3.7
     },
     "South Miami, Miami-Dade County, Florida" : {
         "name" : "South Miami",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-67550",
         "counties" : [
             "12086"
@@ -4550,11 +4550,11 @@
         "population_2010" : 12026,
         "population_2020" : 12026,
         "population" : 13933,
-        "square_mileage" : 2.3
+        "squareMileage" : 2.3
     },
     "South Palm Beach, Palm Beach County, Florida" : {
         "name" : "South Palm Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-67650",
         "counties" : [
             "12099"
@@ -4563,11 +4563,11 @@
         "population_2010" : 1471,
         "population_2020" : 1471,
         "population" : 1704,
-        "square_mileage" : 0.11
+        "squareMileage" : 0.11
     },
     "South Pasadena, Pinellas County, Florida" : {
         "name" : "South Pasadena",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-67675",
         "counties" : [
             "12103"
@@ -4576,11 +4576,11 @@
         "population_2010" : 5353,
         "population_2020" : 5353,
         "population" : 6202,
-        "square_mileage" : 0.61
+        "squareMileage" : 0.61
     },
     "Southwest Ranches, Broward County, Florida" : {
         "name" : "Southwest Ranches",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-68135",
         "counties" : [
             "12011"
@@ -4589,11 +4589,11 @@
         "population_2010" : 7607,
         "population_2020" : 7607,
         "population" : 8813,
-        "square_mileage" : 13.0
+        "squareMileage" : 13.0
     },
     "Springfield, Bay County, Florida" : {
         "name" : "Springfield",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-68275",
         "counties" : [
             "12005"
@@ -4602,11 +4602,11 @@
         "population_2010" : 8075,
         "population_2020" : 8075,
         "population" : 9356,
-        "square_mileage" : 4.2
+        "squareMileage" : 4.2
     },
     "St. Augustine, St. Johns County, Florida" : {
         "name" : "St. Augustine",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-62500",
         "counties" : [
             "12109"
@@ -4615,11 +4615,11 @@
         "population_2010" : 14329,
         "population_2020" : 14329,
         "population" : 16601,
-        "square_mileage" : 9.5
+        "squareMileage" : 9.5
     },
     "St. Augustine Beach, St. Johns County, Florida" : {
         "name" : "St. Augustine Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-62525",
         "counties" : [
             "12109"
@@ -4628,11 +4628,11 @@
         "population_2010" : 6803,
         "population_2020" : 6803,
         "population" : 7882,
-        "square_mileage" : 2.1
+        "squareMileage" : 2.1
     },
     "St. Cloud, Osceola County, Florida" : {
         "name" : "St. Cloud",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-62625",
         "counties" : [
             "12097"
@@ -4641,11 +4641,11 @@
         "population_2010" : 58964,
         "population_2020" : 58964,
         "population" : 68314,
-        "square_mileage" : 25.5
+        "squareMileage" : 25.5
     },
     "St. Leo, Pasco County, Florida" : {
         "name" : "St. Leo",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-62775",
         "counties" : [
             "12101"
@@ -4654,11 +4654,11 @@
         "population_2010" : 2362,
         "population_2020" : 2362,
         "population" : 2737,
-        "square_mileage" : 1.1
+        "squareMileage" : 1.1
     },
     "St. Lucie Village, St. Lucie County, Florida" : {
         "name" : "St. Lucie Village",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-62800",
         "counties" : [
             "12111"
@@ -4667,11 +4667,11 @@
         "population_2010" : 613,
         "population_2020" : 613,
         "population" : 710,
-        "square_mileage" : 0.9
+        "squareMileage" : 0.9
     },
     "St. Marks, Wakulla County, Florida" : {
         "name" : "St. Marks",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-62825",
         "counties" : [
             "12129"
@@ -4680,11 +4680,11 @@
         "population_2010" : 274,
         "population_2020" : 274,
         "population" : 317,
-        "square_mileage" : 2.0
+        "squareMileage" : 2.0
     },
     "St. Pete Beach, Pinellas County, Florida" : {
         "name" : "St. Pete Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-62885",
         "counties" : [
             "12103"
@@ -4693,11 +4693,11 @@
         "population_2010" : 8879,
         "population_2020" : 8879,
         "population" : 10287,
-        "square_mileage" : 2.1
+        "squareMileage" : 2.1
     },
     "St. Petersburg, Pinellas County, Florida" : {
         "name" : "St. Petersburg",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-63000",
         "counties" : [
             "12103"
@@ -4706,11 +4706,11 @@
         "population_2010" : 258308,
         "population_2020" : 258308,
         "population" : 299269,
-        "square_mileage" : 61.8
+        "squareMileage" : 61.8
     },
     "Starke, Bradford County, Florida" : {
         "name" : "Starke",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-68525",
         "counties" : [
             "12007"
@@ -4719,11 +4719,11 @@
         "population_2010" : 5796,
         "population_2020" : 5796,
         "population" : 6715,
-        "square_mileage" : 7.2
+        "squareMileage" : 7.2
     },
     "Stuart, Martin County, Florida" : {
         "name" : "Stuart",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-68875",
         "counties" : [
             "12085"
@@ -4732,11 +4732,11 @@
         "population_2010" : 17425,
         "population_2020" : 17425,
         "population" : 20188,
-        "square_mileage" : 7.0
+        "squareMileage" : 7.0
     },
     "Sunny Isles Beach, Miami-Dade County, Florida" : {
         "name" : "Sunny Isles Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-69555",
         "counties" : [
             "12086"
@@ -4745,11 +4745,11 @@
         "population_2010" : 22342,
         "population_2020" : 22342,
         "population" : 25885,
-        "square_mileage" : 1.0
+        "squareMileage" : 1.0
     },
     "Sunrise, Broward County, Florida" : {
         "name" : "Sunrise",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-69700",
         "counties" : [
             "12011"
@@ -4758,11 +4758,11 @@
         "population_2010" : 97335,
         "population_2020" : 97335,
         "population" : 112770,
-        "square_mileage" : 16.2
+        "squareMileage" : 16.2
     },
     "Surfside, Miami-Dade County, Florida" : {
         "name" : "Surfside",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-70075",
         "counties" : [
             "12086"
@@ -4771,11 +4771,11 @@
         "population_2010" : 5689,
         "population_2020" : 5689,
         "population" : 6591,
-        "square_mileage" : 0.56
+        "squareMileage" : 0.56
     },
     "Sweetwater, Miami-Dade County, Florida" : {
         "name" : "Sweetwater",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-70345",
         "counties" : [
             "12086"
@@ -4784,11 +4784,11 @@
         "population_2010" : 19363,
         "population_2020" : 19363,
         "population" : 22434,
-        "square_mileage" : 2.2
+        "squareMileage" : 2.2
     },
     "Tallahassee, Leon County, Florida" : {
         "name" : "Tallahassee",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-70600",
         "counties" : [
             "12073"
@@ -4797,11 +4797,11 @@
         "population_2010" : 196169,
         "population_2020" : 196169,
         "population" : 227277,
-        "square_mileage" : 100.9
+        "squareMileage" : 100.9
     },
     "Tamarac, Broward County, Florida" : {
         "name" : "Tamarac",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-70675",
         "counties" : [
             "12011"
@@ -4810,11 +4810,11 @@
         "population_2010" : 71897,
         "population_2020" : 71897,
         "population" : 83298,
-        "square_mileage" : 11.6
+        "squareMileage" : 11.6
     },
     "Tampa, Hillsborough County, Florida" : {
         "name" : "Tampa",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-71000",
         "counties" : [
             "12057"
@@ -4823,11 +4823,11 @@
         "population_2010" : 384959,
         "population_2020" : 384959,
         "population" : 446004,
-        "square_mileage" : 114.0
+        "squareMileage" : 114.0
     },
     "Tarpon Springs, Pinellas County, Florida" : {
         "name" : "Tarpon Springs",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-71150",
         "counties" : [
             "12103"
@@ -4836,11 +4836,11 @@
         "population_2010" : 25117,
         "population_2020" : 25117,
         "population" : 29100,
-        "square_mileage" : 9.1
+        "squareMileage" : 9.1
     },
     "Tavares, Lake County, Florida" : {
         "name" : "Tavares",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-71225",
         "counties" : [
             "12069"
@@ -4849,11 +4849,11 @@
         "population_2010" : 19003,
         "population_2020" : 19003,
         "population" : 22016,
-        "square_mileage" : 12.2
+        "squareMileage" : 12.2
     },
     "Temple Terrace, Hillsborough County, Florida" : {
         "name" : "Temple Terrace",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-71400",
         "counties" : [
             "12057"
@@ -4862,11 +4862,11 @@
         "population_2010" : 26690,
         "population_2020" : 26690,
         "population" : 30922,
-        "square_mileage" : 7.3
+        "squareMileage" : 7.3
     },
     "Tequesta, Palm Beach County, Florida" : {
         "name" : "Tequesta",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-71525",
         "counties" : [
             "12099"
@@ -4875,11 +4875,11 @@
         "population_2010" : 6158,
         "population_2020" : 6158,
         "population" : 7135,
-        "square_mileage" : 1.8
+        "squareMileage" : 1.8
     },
     "Titusville, Brevard County, Florida" : {
         "name" : "Titusville",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-71900",
         "counties" : [
             "12009"
@@ -4888,11 +4888,11 @@
         "population_2010" : 48789,
         "population_2020" : 48789,
         "population" : 56526,
-        "square_mileage" : 29.2
+        "squareMileage" : 29.2
     },
     "Treasure Island, Pinellas County, Florida" : {
         "name" : "Treasure Island",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-72325",
         "counties" : [
             "12103"
@@ -4901,11 +4901,11 @@
         "population_2010" : 6584,
         "population_2020" : 6584,
         "population" : 7628,
-        "square_mileage" : 1.5
+        "squareMileage" : 1.5
     },
     "Trenton, Gilchrist County, Florida" : {
         "name" : "Trenton",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-72350",
         "counties" : [
             "12041"
@@ -4914,11 +4914,11 @@
         "population_2010" : 2015,
         "population_2020" : 2015,
         "population" : 2335,
-        "square_mileage" : 3.4
+        "squareMileage" : 3.4
     },
     "Umatilla, Lake County, Florida" : {
         "name" : "Umatilla",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-73025",
         "counties" : [
             "12069"
@@ -4927,11 +4927,11 @@
         "population_2010" : 3685,
         "population_2020" : 3685,
         "population" : 4269,
-        "square_mileage" : 3.6
+        "squareMileage" : 3.6
     },
     "Valparaiso, Okaloosa County, Florida" : {
         "name" : "Valparaiso",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-73675",
         "counties" : [
             "12091"
@@ -4940,11 +4940,11 @@
         "population_2010" : 4752,
         "population_2020" : 4752,
         "population" : 5506,
-        "square_mileage" : 11.8
+        "squareMileage" : 11.8
     },
     "Venice, Sarasota County, Florida" : {
         "name" : "Venice",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-73900",
         "counties" : [
             "12115"
@@ -4953,11 +4953,11 @@
         "population_2010" : 25463,
         "population_2020" : 25463,
         "population" : 29501,
-        "square_mileage" : 15.9
+        "squareMileage" : 15.9
     },
     "Vernon, Washington County, Florida" : {
         "name" : "Vernon",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-74125",
         "counties" : [
             "12133"
@@ -4966,11 +4966,11 @@
         "population_2010" : 732,
         "population_2020" : 732,
         "population" : 848,
-        "square_mileage" : 4.8
+        "squareMileage" : 4.8
     },
     "Vero Beach, Indian River County, Florida" : {
         "name" : "Vero Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-74150",
         "counties" : [
             "12061"
@@ -4979,11 +4979,11 @@
         "population_2010" : 16354,
         "population_2020" : 16354,
         "population" : 18947,
-        "square_mileage" : 11.4
+        "squareMileage" : 11.4
     },
     "Virginia Gardens, Miami-Dade County, Florida" : {
         "name" : "Virginia Gardens",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-74575",
         "counties" : [
             "12086"
@@ -4992,11 +4992,11 @@
         "population_2010" : 2364,
         "population_2020" : 2364,
         "population" : 2739,
-        "square_mileage" : 0.29
+        "squareMileage" : 0.29
     },
     "Waldo, Alachua County, Florida" : {
         "name" : "Waldo",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-74925",
         "counties" : [
             "12001"
@@ -5005,11 +5005,11 @@
         "population_2010" : 846,
         "population_2020" : 846,
         "population" : 980,
-        "square_mileage" : 2.2
+        "squareMileage" : 2.2
     },
     "Wauchula, Hardee County, Florida" : {
         "name" : "Wauchula",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-75375",
         "counties" : [
             "12049"
@@ -5018,11 +5018,11 @@
         "population_2010" : 4900,
         "population_2020" : 4900,
         "population" : 5677,
-        "square_mileage" : 3.3
+        "squareMileage" : 3.3
     },
     "Wausau, Washington County, Florida" : {
         "name" : "Wausau",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-75450",
         "counties" : [
             "12133"
@@ -5031,11 +5031,11 @@
         "population_2010" : 371,
         "population_2020" : 371,
         "population" : 430,
-        "square_mileage" : 1.2
+        "squareMileage" : 1.2
     },
     "Webster, Sumter County, Florida" : {
         "name" : "Webster",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-75600",
         "counties" : [
             "12119"
@@ -5044,11 +5044,11 @@
         "population_2010" : 778,
         "population_2020" : 778,
         "population" : 901,
-        "square_mileage" : 1.6
+        "squareMileage" : 1.6
     },
     "Welaka, Putnam County, Florida" : {
         "name" : "Welaka",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-75750",
         "counties" : [
             "12107"
@@ -5057,11 +5057,11 @@
         "population_2010" : 714,
         "population_2020" : 714,
         "population" : 827,
-        "square_mileage" : 1.5
+        "squareMileage" : 1.5
     },
     "Wellington, Palm Beach County, Florida" : {
         "name" : "Wellington",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-75812",
         "counties" : [
             "12099"
@@ -5070,11 +5070,11 @@
         "population_2010" : 61637,
         "population_2020" : 61637,
         "population" : 71411,
-        "square_mileage" : 45.0
+        "squareMileage" : 45.0
     },
     "West Melbourne, Brevard County, Florida" : {
         "name" : "West Melbourne",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-76500",
         "counties" : [
             "12009"
@@ -5083,11 +5083,11 @@
         "population_2010" : 25924,
         "population_2020" : 25924,
         "population" : 30035,
-        "square_mileage" : 10.7
+        "squareMileage" : 10.7
     },
     "West Miami, Miami-Dade County, Florida" : {
         "name" : "West Miami",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-76525",
         "counties" : [
             "12086"
@@ -5096,11 +5096,11 @@
         "population_2010" : 7233,
         "population_2020" : 7233,
         "population" : 8380,
-        "square_mileage" : 0.71
+        "squareMileage" : 0.71
     },
     "West Palm Beach, Palm Beach County, Florida" : {
         "name" : "West Palm Beach",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-76600",
         "counties" : [
             "12099"
@@ -5109,11 +5109,11 @@
         "population_2010" : 117415,
         "population_2020" : 117415,
         "population" : 136034,
-        "square_mileage" : 53.8
+        "squareMileage" : 53.8
     },
     "West Park, Broward County, Florida" : {
         "name" : "West Park",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-76658",
         "counties" : [
             "12011"
@@ -5122,11 +5122,11 @@
         "population_2010" : 15130,
         "population_2020" : 15130,
         "population" : 17529,
-        "square_mileage" : 2.2
+        "squareMileage" : 2.2
     },
     "Westlake, Palm Beach County, Florida" : {
         "name" : "Westlake",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-76417",
         "counties" : [
             "12099"
@@ -5135,11 +5135,11 @@
         "population_2010" : 906,
         "population_2020" : 906,
         "population" : 1050,
-        "square_mileage" : 6.4
+        "squareMileage" : 6.4
     },
     "Weston, Broward County, Florida" : {
         "name" : "Weston",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-76582",
         "counties" : [
             "12011"
@@ -5148,11 +5148,11 @@
         "population_2010" : 68107,
         "population_2020" : 68107,
         "population" : 78907,
-        "square_mileage" : 24.6
+        "squareMileage" : 24.6
     },
     "Westville, Holmes County, Florida" : {
         "name" : "Westville",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-76975",
         "counties" : [
             "12059"
@@ -5161,11 +5161,11 @@
         "population_2010" : 261,
         "population_2020" : 261,
         "population" : 302,
-        "square_mileage" : 7.2
+        "squareMileage" : 7.2
     },
     "Wewahitchka, Gulf County, Florida" : {
         "name" : "Wewahitchka",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-77100",
         "counties" : [
             "12045"
@@ -5174,11 +5174,11 @@
         "population_2010" : 2074,
         "population_2020" : 2074,
         "population" : 2403,
-        "square_mileage" : 6.7
+        "squareMileage" : 6.7
     },
     "White Springs, Hamilton County, Florida" : {
         "name" : "White Springs",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-77400",
         "counties" : [
             "12047"
@@ -5187,11 +5187,11 @@
         "population_2010" : 740,
         "population_2020" : 740,
         "population" : 857,
-        "square_mileage" : 1.8
+        "squareMileage" : 1.8
     },
     "Wildwood, Sumter County, Florida" : {
         "name" : "Wildwood",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-77675",
         "counties" : [
             "12119"
@@ -5200,11 +5200,11 @@
         "population_2010" : 15730,
         "population_2020" : 15730,
         "population" : 18224,
-        "square_mileage" : 56.3
+        "squareMileage" : 56.3
     },
     "Williston, Levy County, Florida" : {
         "name" : "Williston",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-77825",
         "counties" : [
             "12075"
@@ -5213,11 +5213,11 @@
         "population_2010" : 2976,
         "population_2020" : 2976,
         "population" : 3448,
-        "square_mileage" : 6.8
+        "squareMileage" : 6.8
     },
     "Wilton Manors, Broward County, Florida" : {
         "name" : "Wilton Manors",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-78000",
         "counties" : [
             "12011"
@@ -5226,11 +5226,11 @@
         "population_2010" : 11426,
         "population_2020" : 11426,
         "population" : 13238,
-        "square_mileage" : 2.0
+        "squareMileage" : 2.0
     },
     "Windermere, Orange County, Florida" : {
         "name" : "Windermere",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-78050",
         "counties" : [
             "12095"
@@ -5239,11 +5239,11 @@
         "population_2010" : 3030,
         "population_2020" : 3030,
         "population" : 3510,
-        "square_mileage" : 1.9
+        "squareMileage" : 1.9
     },
     "Winter Garden, Orange County, Florida" : {
         "name" : "Winter Garden",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-78250",
         "counties" : [
             "12095"
@@ -5252,11 +5252,11 @@
         "population_2010" : 46964,
         "population_2020" : 46964,
         "population" : 54411,
-        "square_mileage" : 16.3
+        "squareMileage" : 16.3
     },
     "Winter Haven, Polk County, Florida" : {
         "name" : "Winter Haven",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-78275",
         "counties" : [
             "12105"
@@ -5265,11 +5265,11 @@
         "population_2010" : 49219,
         "population_2020" : 49219,
         "population" : 57024,
-        "square_mileage" : 32.5
+        "squareMileage" : 32.5
     },
     "Winter Park, Orange County, Florida" : {
         "name" : "Winter Park",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-78300",
         "counties" : [
             "12095"
@@ -5278,11 +5278,11 @@
         "population_2010" : 29795,
         "population_2020" : 29795,
         "population" : 34520,
-        "square_mileage" : 8.8
+        "squareMileage" : 8.8
     },
     "Winter Springs, Seminole County, Florida" : {
         "name" : "Winter Springs",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-78325",
         "counties" : [
             "12117"
@@ -5291,11 +5291,11 @@
         "population_2010" : 38342,
         "population_2020" : 38342,
         "population" : 44422,
-        "square_mileage" : 14.9
+        "squareMileage" : 14.9
     },
     "Worthington Springs, Union County, Florida" : {
         "name" : "Worthington Springs",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-78775",
         "counties" : [
             "12125"
@@ -5304,11 +5304,11 @@
         "population_2010" : 378,
         "population_2020" : 378,
         "population" : 438,
-        "square_mileage" : 0.96
+        "squareMileage" : 0.96
     },
     "Yankeetown, Levy County, Florida" : {
         "name" : "Yankeetown",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-78925",
         "counties" : [
             "12075"
@@ -5317,11 +5317,11 @@
         "population_2010" : 588,
         "population_2020" : 588,
         "population" : 681,
-        "square_mileage" : 7.7
+        "squareMileage" : 7.7
     },
     "Zephyrhills, Pasco County, Florida" : {
         "name" : "Zephyrhills",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-79225",
         "counties" : [
             "12101"
@@ -5330,11 +5330,11 @@
         "population_2010" : 17194,
         "population_2020" : 17194,
         "population" : 19921,
-        "square_mileage" : 9.5
+        "squareMileage" : 9.5
     },
     "Zolfo Springs, Hardee County, Florida" : {
         "name" : "Zolfo Springs",
-        "state" : "12000",
+        "state" : "12",
         "FIPS" : "12-79250",
         "counties" : [
             "12049"
@@ -5343,6 +5343,28 @@
         "population_2010" : 1737,
         "population_2020" : 1737,
         "population" : 2012,
-        "square_mileage" : 1.7
+        "squareMileage" : 1.7
+    },
+    "Solana, Charlotte County, Florida" : {
+        "name" : "Solana",
+        "state" : "12",
+        "FIPS" : "12-66875",
+        "counties" : [
+            "12015"
+        ],
+        "type" : "Census-Designated Place",
+        "population" : 671,
+        "squareMileage" : 1.64
+    },
+    "Memphis, Manatee County, Florida" : {
+        "name" : "Memphis",
+        "state" : "12",
+        "FIPS" : "12-44175",
+        "counties" : [
+            "12081"
+        ],
+        "type" : "Census-Designated Place",
+        "population" : 9024,
+        "squareMileage" : 3.68
     }
 }

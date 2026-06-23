@@ -1,7 +1,40 @@
 {
+    "Little Rock, Pulaski County, Arkansas" : {
+        "name" : "Little Rock",
+        "state" : "05",
+        "FIPS" : "05-41000",
+        "counties" : [
+            "05119"
+        ],
+        "type" : "First Class City",
+        "population" : 206427,
+        "squareMileage" : 123.00
+    },
+    "Fort Smith, Sebastian County, Arkansas" : {
+        "name" : "Fort Smith",
+        "state" : "05",
+        "FIPS" : "05-",
+        "counties" : [
+            "05131"
+        ],
+        "type" : "First Class City",
+        "population" : 89142,
+        "squareMileage" : 68.23
+    },
+    "Texarkana, Miller County, Arkansas" : {
+        "name" : "Texarkana",
+        "state" : "05",
+        "FIPS" : "05-68810",
+        "counties" : [
+            "05091"
+        ],
+        "type" : "First Class City",
+        "population" : 29387,
+        "squareMileage" : 42.20
+    },
     "Tuckerman, Jackson County, Arkansas" : {
         "name" : "Tuckerman",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-70100",
         "counties" : [
             "05067"
@@ -14,7 +47,7 @@
     },
     "Tull, Grant County, Arkansas" : {
         "name" : "Tull",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-70220",
         "counties" : [
             "05053"
@@ -27,7 +60,7 @@
     },
     "Tupelo, Jackson County, Arkansas" : {
         "name" : "Tupelo",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-70340",
         "counties" : [
             "05067"
@@ -40,7 +73,7 @@
     },
     "Turrell, Crittenden County, Arkansas" : {
         "name" : "Turrell",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-70430",
         "counties" : [
             "05035"
@@ -53,7 +86,7 @@
     },
     "Twin Groves, Faulkner County, Arkansas" : {
         "name" : "Twin Groves",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-70540",
         "counties" : [
             "05045"
@@ -66,7 +99,7 @@
     },
     "Tyronza, Poinsett County, Arkansas" : {
         "name" : "Tyronza",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-70700",
         "counties" : [
             "05111"
@@ -79,7 +112,7 @@
     },
     "Ulm, Prairie County, Arkansas" : {
         "name" : "Ulm",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-70760",
         "counties" : [
             "05117"
@@ -92,7 +125,7 @@
     },
     "Valley Springs, Boone County, Arkansas" : {
         "name" : "Valley Springs",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-71390",
         "counties" : [
             "05009"
@@ -105,7 +138,7 @@
     },
     "Van Buren, Crawford County, Arkansas" : {
         "name" : "Van Buren",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-71480",
         "counties" : [
             "05033"
@@ -118,7 +151,7 @@
     },
     "Vandervoort, Polk County, Arkansas" : {
         "name" : "Vandervoort",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-71510",
         "counties" : [
             "05113"
@@ -131,7 +164,7 @@
     },
     "Victoria, Mississippi County, Arkansas" : {
         "name" : "Victoria",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-71900",
         "counties" : [
             "05093"
@@ -144,7 +177,7 @@
     },
     "Vilonia, Faulkner County, Arkansas" : {
         "name" : "Vilonia",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-71960",
         "counties" : [
             "05045"
@@ -157,7 +190,7 @@
     },
     "Viola, Fulton County, Arkansas" : {
         "name" : "Viola",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-72140",
         "counties" : [
             "05049"
@@ -170,7 +203,7 @@
     },
     "Wabbaseka, Jefferson County, Arkansas" : {
         "name" : "Wabbaseka",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-72230",
         "counties" : [
             "05069"
@@ -183,7 +216,7 @@
     },
     "Waldenburg, Poinsett County, Arkansas" : {
         "name" : "Waldenburg",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-72320",
         "counties" : [
             "05111"
@@ -196,7 +229,7 @@
     },
     "Waldo, Columbia County, Arkansas" : {
         "name" : "Waldo",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-72350",
         "counties" : [
             "05027"
@@ -209,7 +242,7 @@
     },
     "Waldron, Scott County, Arkansas" : {
         "name" : "Waldron",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-72380",
         "counties" : [
             "05127"
@@ -222,7 +255,7 @@
     },
     "Walnut Ridge, Lawrence County, Arkansas" : {
         "name" : "Walnut Ridge",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-72890",
         "counties" : [
             "05075"
@@ -235,7 +268,7 @@
     },
     "Ward, Lonoke County, Arkansas" : {
         "name" : "Ward",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-73130",
         "counties" : [
             "05085"
@@ -248,7 +281,7 @@
     },
     "Warren, Bradley County, Arkansas" : {
         "name" : "Warren",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-73310",
         "counties" : [
             "05011"
@@ -261,7 +294,7 @@
     },
     "Washington, Hempstead County, Arkansas" : {
         "name" : "53000",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-73370",
         "counties" : [
             "05057"
@@ -274,7 +307,7 @@
     },
     "Watson, Desha County, Arkansas" : {
         "name" : "Watson",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-73550",
         "counties" : [
             "05041"
@@ -287,7 +320,7 @@
     },
     "Weiner, Poinsett County, Arkansas" : {
         "name" : "Weiner",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-73940",
         "counties" : [
             "05111"
@@ -300,7 +333,7 @@
     },
     "Weldon, Jackson County, Arkansas" : {
         "name" : "Weldon",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-74000",
         "counties" : [
             "05067"
@@ -313,7 +346,7 @@
     },
     "West Fork, Washington County, Arkansas" : {
         "name" : "West Fork",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-74360",
         "counties" : [
             "05143"
@@ -326,7 +359,7 @@
     },
     "West Memphis, Crittenden County, Arkansas" : {
         "name" : "West Memphis",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-74540",
         "counties" : [
             "05035"
@@ -339,7 +372,7 @@
     },
     "West Point, White County, Arkansas" : {
         "name" : "West Point",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-74660",
         "counties" : [
             "05145"
@@ -352,7 +385,7 @@
     },
     "Western Grove, Newton County, Arkansas" : {
         "name" : "Western Grove",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-74330",
         "counties" : [
             "05101"
@@ -365,7 +398,7 @@
     },
     "Wheatley, St. Francis County, Arkansas" : {
         "name" : "Wheatley",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-74840",
         "counties" : [
             "05123"
@@ -378,7 +411,7 @@
     },
     "Whelen Springs, Clark County, Arkansas" : {
         "name" : "Whelen Springs",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-74930",
         "counties" : [
             "05019"
@@ -391,7 +424,7 @@
     },
     "White Hall, Jefferson County, Arkansas" : {
         "name" : "White Hall",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-75170",
         "counties" : [
             "05069"
@@ -404,7 +437,7 @@
     },
     "Wickes, Polk County, Arkansas" : {
         "name" : "Wickes",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-75500",
         "counties" : [
             "05113"
@@ -417,7 +450,7 @@
     },
     "Widener, St. Francis County, Arkansas" : {
         "name" : "Widener",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-75560",
         "counties" : [
             "05123"
@@ -430,7 +463,7 @@
     },
     "Wiederkehr Village, Franklin County, Arkansas" : {
         "name" : "Wiederkehr Village",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-75570",
         "counties" : [
             "05047"
@@ -443,7 +476,7 @@
     },
     "Williford, Sharp County, Arkansas" : {
         "name" : "Williford",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-75740",
         "counties" : [
             "05135"
@@ -456,7 +489,7 @@
     },
     "Willisville, Nevada County, Arkansas" : {
         "name" : "Willisville",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-75770",
         "counties" : [
             "05099"
@@ -469,7 +502,7 @@
     },
     "Wilmar, Drew County, Arkansas" : {
         "name" : "Wilmar",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-75860",
         "counties" : [
             "05043"
@@ -482,7 +515,7 @@
     },
     "Wilmot, Ashley County, Arkansas" : {
         "name" : "Wilmot",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-75890",
         "counties" : [
             "05003"
@@ -495,7 +528,7 @@
     },
     "Wilson, Mississippi County, Arkansas" : {
         "name" : "Wilson",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-75920",
         "counties" : [
             "05093"
@@ -508,7 +541,7 @@
     },
     "Wilton, Little River County, Arkansas" : {
         "name" : "Wilton",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-75980",
         "counties" : [
             "05081"
@@ -521,7 +554,7 @@
     },
     "Winchester, Drew County, Arkansas" : {
         "name" : "Winchester",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-76010",
         "counties" : [
             "05043"
@@ -534,7 +567,7 @@
     },
     "Winslow, Washington County, Arkansas" : {
         "name" : "Winslow",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-76190",
         "counties" : [
             "05143"
@@ -547,7 +580,7 @@
     },
     "Winthrop, Little River County, Arkansas" : {
         "name" : "Winthrop",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-76250",
         "counties" : [
             "05081"
@@ -560,7 +593,7 @@
     },
     "Wooster, Faulkner County, Arkansas" : {
         "name" : "Wooster",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-76820",
         "counties" : [
             "05045"
@@ -573,7 +606,7 @@
     },
     "Wrightsville, Pulaski County, Arkansas" : {
         "name" : "Wrightsville",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-76970",
         "counties" : [
             "05119"
@@ -586,7 +619,7 @@
     },
     "Wynne, Cross County, Arkansas" : {
         "name" : "Wynne",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-77090",
         "counties" : [
             "05037"
@@ -599,7 +632,7 @@
     },
     "Yellville, Marion County, Arkansas" : {
         "name" : "Yellville",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-77330",
         "counties" : [
             "05089"
@@ -612,7 +645,7 @@
     },
     "Zinc, Boone County, Arkansas" : {
         "name" : "Zinc",
-        "state" : "05000",
+        "state" : "05",
         "FIPS" : "05-77600",
         "counties" : [
             "05009"

@@ -1,3 +1,13 @@
 {
-    
+    "Hagåtña, Guam" : {
+        "name" : "Hagåtña",
+        "state" : "66",
+        "FIPS" : "66-",
+        "counties" : [
+            "66010"
+        ],
+        "type" : "Village",
+        "population" : 943,
+        "squareMileage" : 1.0
+    }
 }

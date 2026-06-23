@@ -1,3 +1,68 @@
 {
-    
+    "Newport, Lincoln County, Oregon" : {
+        "name" : "Newport",
+        "state" : "41",
+        "FIPS" : "41-52450",
+        "counties" : [
+            "41041"
+        ],
+        "type" : "City",
+        "population" : 10256,
+        "squareMileage" : 11.72
+    },
+    "Boardman, Morrow County, Oregon" : {
+        "name" : "Boardman",
+        "state" : "41",
+        "FIPS" : "41-07200",
+        "counties" : [
+            "41049"
+        ],
+        "type" : "City",
+        "population" : 3828,
+        "squareMileage" : 4.43
+    },
+    "Seaside, Clatsop County, Oregon" : {
+        "name" : "Seaside",
+        "state" : "41",
+        "FIPS" : "41-65950",
+        "counties" : [
+            "41007"
+        ],
+        "type" : "City",
+        "population" : 7115,
+        "squareMileage" : 4.05
+    },
+    "Astoria, Clatsop County, Oregon" : {
+        "name" : "Astoria",
+        "state" : "41",
+        "FIPS" : "41-03150",
+        "counties" : [
+            "41007"
+        ],
+        "type" : "City",
+        "population" : 10181,
+        "squareMileage" : 9.95
+    },
+    "Portland, Multnomah County, Oregon" : {
+        "name" : "Portland",
+        "state" : "41",
+        "FIPS" : "41-59000",
+        "counties" : [
+            "41051"
+        ],
+        "type" : "City",
+        "population" : 635109,
+        "squareMileage" : 145.00
+    },
+    "North Bend, Coos County, Oregon" : {
+        "name" : "North Bend",
+        "state" : "41",
+        "FIPS" : "41-53000",
+        "counties" : [
+            "41011"
+        ],
+        "type" : "City",
+        "population" : 10317,
+        "squareMileage" : 5.09
+    }
 }
