@@ -3,7 +3,7 @@ package com.stevenlagoy.presidency.politics.voting
 import com.stevenlagoy.presidency.demographics.Bloc
 import com.stevenlagoy.presidency.politics.Party
 
-abstract class VoterAccessRule(
+sealed class VoterAccessRule(
     var franchise: List<Bloc> = emptyList(),
     var votingIsPartyRegistration: Boolean = false,
     var disallowDoubleParticipation: Boolean = false

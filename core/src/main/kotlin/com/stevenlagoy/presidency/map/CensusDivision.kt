@@ -37,6 +37,10 @@ class CensusDivision(
         if (_censusRegion != null) censusRegion = _censusRegion
     }
 
+    fun addState(state: State) {
+        states = (states.toMutableSet() + state).toSet()
+    }
+
     override fun toJson(): JSONObject = super.toJson().merge(
         JSONObject("censusRegion", censusRegion),
         JSONObject("states", states.map { it.fullName })
@@ -44,8 +48,8 @@ class CensusDivision(
 
     override fun fromJson(json: JSONObject) = this.apply {
         super.fromJson(json)
-        val _censusRegion = engine.MAP_MANAGER.matchCensusRegion(json.get("censusRegion", String::class.java))
+        val _censusRegion = engine.MAP_MANAGER.matchCensusRegion(json.requireString("censusRegion"))
         if (_censusRegion.isPresent) censusRegion = _censusRegion.get()
-        states = json.get("states", List::class.java).map { engine.MAP_MANAGER.matchState(it as String) }.filter { it.isPresent }.map { it.get() }.toSet()
+        states = json.findArray("states") { emptyList<String>() }!!.map { engine.MAP_MANAGER.matchState(it as String) }.filter { it.isPresent }.map { it.get() }.toSet()
     }
 }

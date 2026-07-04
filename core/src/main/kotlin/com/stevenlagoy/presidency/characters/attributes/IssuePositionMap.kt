@@ -1,24 +1,35 @@
 package com.stevenlagoy.presidency.characters.attributes
 
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.jsonic.Jsonic
+import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.politics.IssuePosition
 
 class IssuePositionMap(
     val positions: MutableMap<IssuePosition, StanceValue>
-) : Jsonic<IssuePositionMap> {
+) : JSONSerializable<IssuePositionMap> {
 
-    class StanceValue(
-        trueStance: IssuePosition,
-        salience: Double,
-        publicStance: IssuePosition,
-    )
+    data class StanceValue(
+        var trueStance: IssuePosition,
+        var salience: Double,
+        var publicStance: IssuePosition,
+    ) : JSONSerializable<StanceValue> {
 
-    override fun toJson(): JSONObject? {
-        TODO("Not yet implemented")
+        override fun toJson() = JSONObject(hashCode().toString(), listOf(
+            JSONObject("trueStance", trueStance.title),
+            JSONObject("salience", salience),
+            JSONObject("publicStance", publicStance.title),
+        ))
+
+        override fun fromJson(json: JSONObject) = apply {
+            // TODO politics manager should help
+        }
     }
 
-    override fun fromJson(json: JSONObject?): IssuePositionMap? {
-        TODO("Not yet implemented")
+    override fun toJson() = JSONObject(hashCode().toString(), listOf(
+        JSONObject("positions", positions.map { JSONObject(it.key.title, it.value.toJson()) })
+    ))
+
+    override fun fromJson(json: JSONObject) = apply {
+        
     }
 }

@@ -63,22 +63,22 @@ open class PoliticalActor(
 
     override fun fromJson(json: JSONObject) = this.apply {
         super.fromJson(json)
-        alignment.fromJson(json.get("alignment") as JSONObject)
-        partyAffiliation = engine.POLITICS_MANAGER.PARTY_MANAGER.matchParty(json.get("party_affiliation_id", String::class.java)).get()
-        skills.fromJson(json.get("skills") as JSONObject)
-        personality.fromJson(json.get("personality") as JSONObject)
-        ExperienceHistory(engine, json.get("experiences", JSONObject::class.java))
-        issuePositions.fromJson(json.get("issue_positions") as JSONObject)
-        candidacy = Candidacy(engine, json.get("candidacy") as JSONObject)
+        alignment.fromJson(json.requireJson("alignment") as JSONObject)
+        partyAffiliation = engine.POLITICS_MANAGER.PARTY_MANAGER.matchParty(json.requireString("partyAffiliation", "party_affiliation_id")).get()
+        skills.fromJson(json.requireJson("skills"))
+        personality.fromJson(json.requireJson("personality"))
+        ExperienceHistory(engine, json.requireJson("experiences"))
+        issuePositions.fromJson(json.requireJson("issuePositions", "positions", "issue_positions"))
+        candidacy = Candidacy(engine, json.requireJson("candidacy"))
     }
 
     override fun toJson() = JSONObject(id.toString(), listOf(
         JSONObject("alignment", alignment.toJson()),
-        JSONObject("party_affiliation_id", partyAffiliation?.name),
+        JSONObject("partyAffiliation", partyAffiliation?.name),
         JSONObject("skills", skills.toJson()),
         JSONObject("personality", personality.toJson()),
         JSONObject("experiences", experiences.toJson()),
-        JSONObject("issue_positions", issuePositions.toJson()),
+        JSONObject("issuePositions", issuePositions.toJson()),
         JSONObject("candidacy", candidacy?.toJson()),
     ))
 

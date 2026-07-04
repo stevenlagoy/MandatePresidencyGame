@@ -1,8 +1,7 @@
 package com.stevenlagoy.presidency.characters.attributes
 
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.jsonic.Jsonic
-import kotlin.collections.mapOf
+import com.stevenlagoy.jsonic.JSONSerializable
 
 data class CharacterAppearance(
     var sex:                 Sex = Sex.FEMALE,
@@ -58,22 +57,142 @@ data class CharacterAppearance(
     var mouthForward:        Double = 0.5,
     var mouthHeight:         Double = 0.5,
     var mouthWidth:          Double = 0.5,
-    val mouthOpenness:       Double = 0.5,
-    val hairStyle:           String = "Wavy",
-    val hairColor:           String = "Brown",
-    val beardStyle:          String = "No Beard",
-    val beardColor:          String = "Brown",
-    val skinColor:           String = "White",
-    val muscularity:         Double = 0.5,
-    val shoulderWidthInches: Double = 15.0,
-) : Jsonic<CharacterAppearance>
+    var mouthOpenness:       Double = 0.5,
+    var hairStyle:           String = "Wavy",
+    var hairColor:           String = "Brown",
+    var beardStyle:          String = "No Beard",
+    var beardColor:          String = "Brown",
+    var skinColor:           String = "White",
+    var muscularity:         Double = 0.5,
+    var shoulderWidthInches: Double = 15.0,
+) : JSONSerializable<CharacterAppearance>
 {
 
-    override fun toJson() = JSONObject(hashCode().toString(), mapOf(
-        "age" to age,
+    override fun toJson() = JSONObject(hashCode().toString(), listOf(
+        JSONObject("sex",                 sex.toString()),
+        JSONObject("age",                 age),
+        JSONObject("weightLbs",           weightLbs),
+        JSONObject("heightInches",        heightInches),
+        JSONObject("bustInches",          bustInches),
+        JSONObject("headHeight",          headHeight),
+        JSONObject("headWidth",           headWidth),
+        JSONObject("headLength",          headLength),
+        JSONObject("neckLength",          neckLength),
+        JSONObject("neckWidth",           neckWidth),
+        JSONObject("complexion",          complexion),
+        JSONObject("earAngle",            earAngle),
+        JSONObject("earBend",             earBend),
+        JSONObject("earShape",            earShape),
+        JSONObject("earSize",             earShape),
+        JSONObject("cheekDefinition",     cheekDefinition),
+        JSONObject("cheekForward",        cheekForward),
+        JSONObject("cheekHeight",         cheekHeight),
+        JSONObject("chinDefinition",      chinDefinition),
+        JSONObject("chinForward",         chinForward),
+        JSONObject("chinHeight",          chinHeight),
+        JSONObject("chinWidth",           chinWidth),
+        JSONObject("foreheadHeight",      foreheadHeight),
+        JSONObject("foreheadAngle",       foreheadAngle),
+        JSONObject("browAngle",           browAngle),
+        JSONObject("browForward",         browForward),
+        JSONObject("browWidth",           browWidth),
+        JSONObject("jawDefinition",       jawDefinition),
+        JSONObject("jawForward",          jawForward),
+        JSONObject("jawHeight",           jawHeight),
+        JSONObject("jawWidth",            jawWidth),
+        JSONObject("templeDefinition",    templeDefinition),
+        JSONObject("eyeAngle",            eyeAngle),
+        JSONObject("eyeColor",            eyeColor),
+        JSONObject("eyeForward",          eyeForward),
+        JSONObject("interEyeDistance",    interEyeDistance),
+        JSONObject("eyeHeight",           eyeHeight),
+        JSONObject("eyeSize",             eyeSize),
+        JSONObject("eyeOpenness",         eyeOpenness),
+        JSONObject("eyebrowFullness",     eyebrowFullness),
+        JSONObject("noseForward",         noseForward),
+        JSONObject("noseHeight",          noseHeight),
+        JSONObject("noseLength",          noseLength),
+        JSONObject("noseSize",            noseSize),
+        JSONObject("noseBridgeForward",   noseBridgeForward),
+        JSONObject("noseAngle",           noseAngle),
+        JSONObject("nostrilHeight",       nostrilHeight),
+        JSONObject("nostrilWidth",        nostrilWidth),
+        JSONObject("lipFullness",         lipFullness),
+        JSONObject("lipSize",             lipSize),
+        JSONObject("mouthForward",        mouthForward),
+        JSONObject("mouthHeight",         mouthHeight),
+        JSONObject("mouthWidth",          mouthWidth),
+        JSONObject("mouthOpenness",       mouthOpenness),
+        JSONObject("hairStyle",           hairStyle),
+        JSONObject("hairColor",           hairColor),
+        JSONObject("beardStyle",          beardStyle),
+        JSONObject("beardColor",          beardColor),
+        JSONObject("skinColor",           skinColor),
+        JSONObject("muscularity",         muscularity),
+        JSONObject("shoulderWidthInches", shoulderWidthInches),
     ))
 
     override fun fromJson(json: JSONObject) = this.apply {
-        this.age = json.get("age") as Double
+        sex                 = Sex.valueOf(json.requireString("sex"))
+        age                 = json.requireDouble("age")
+        weightLbs           = json.requireDouble("weightLbs")
+        heightInches        = json.requireDouble("heightInches")
+        bustInches          = json.requireDouble("bustInches")
+        headHeight          = json.requireDouble("headHeight")
+        headWidth           = json.requireDouble("headWidth")
+        headLength          = json.requireDouble("headLength")
+        neckLength          = json.requireDouble("neckLength")
+        neckWidth           = json.requireDouble("neckWidth")
+        complexion          = json.requireDouble("complexion")
+        earAngle            = json.requireDouble("earAngle")
+        earBend             = json.requireDouble("earBend")
+        earShape            = json.requireDouble("earShape")
+        earSize             = json.requireDouble("earSize")
+        cheekDefinition     = json.requireDouble("cheekDefinition")
+        cheekForward        = json.requireDouble("cheekForward")
+        cheekHeight         = json.requireDouble("cheekHeight")
+        chinDefinition      = json.requireDouble("chinDefinition")
+        chinForward         = json.requireDouble("chinForward")
+        chinHeight          = json.requireDouble("chinHeight")
+        chinWidth           = json.requireDouble("chinWidth")
+        foreheadHeight      = json.requireDouble("foreheadHeight")
+        foreheadAngle       = json.requireDouble("foreheadAngle")
+        browAngle           = json.requireDouble("browAngle")
+        browForward         = json.requireDouble("browForward")
+        browWidth           = json.requireDouble("browWidth")
+        jawDefinition       = json.requireDouble("jawDefinition")
+        jawForward          = json.requireDouble("jawForward")
+        jawHeight           = json.requireDouble("jawHeight")
+        jawWidth            = json.requireDouble("jawWidth")
+        templeDefinition    = json.requireDouble("templeDefinition")
+        eyeAngle            = json.requireDouble("eyeAngle")
+        eyeColor            = json.requireString("eyeColor")
+        eyeForward          = json.requireDouble("eyeForward")
+        interEyeDistance    = json.requireDouble("interEyeDistance")
+        eyeHeight           = json.requireDouble("eyeHeight")
+        eyeSize             = json.requireDouble("eyeSize")
+        eyeOpenness         = json.requireDouble("eyeOpenness")
+        eyebrowFullness     = json.requireDouble("eyebrowFullness")
+        noseForward         = json.requireDouble("noseForward")
+        noseHeight          = json.requireDouble("noseHeight")
+        noseLength          = json.requireDouble("noseLength")
+        noseSize            = json.requireDouble("noseSize")
+        noseBridgeForward   = json.requireDouble("noseBridgeForward")
+        noseAngle           = json.requireDouble("noseAngle")
+        nostrilHeight       = json.requireDouble("nostrilHeight")
+        nostrilWidth        = json.requireDouble("nostrilWidth")
+        lipFullness         = json.requireDouble("lipFullness")
+        lipSize             = json.requireDouble("lipSize")
+        mouthForward        = json.requireDouble("mouthForward")
+        mouthHeight         = json.requireDouble("mouthHeight")
+        mouthWidth          = json.requireDouble("mouthWidth")
+        mouthOpenness       = json.requireDouble("mouthOpenness")
+        hairStyle           = json.requireString("hairStyle")
+        hairColor           = json.requireString("hairColor")
+        beardStyle          = json.requireString("beardStyle")
+        beardColor          = json.requireString("beardColor")
+        skinColor           = json.requireString("skinColor")
+        muscularity         = json.requireDouble("muscularity")
+        shoulderWidthInches = json.requireDouble("shoulderWidthInches")
     }
 }

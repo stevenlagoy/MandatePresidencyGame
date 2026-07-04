@@ -6,19 +6,21 @@ import com.stevenlagoy.presidency.map.Municipality
 
 class Railway(
     engine: Engine,
-    name: String,
-    connections: List<Municipality>,
+    name: String = "",
+    connections: List<Municipality> = listOf(),
 ) : Route(engine, name, connections) {
 
-    constructor(engine: Engine, json: JSONObject) : this(engine, "", listOf())
+    constructor(engine: Engine, json: JSONObject) : this(engine) {
+        fromJson(json)
+    }
 
     override fun toJson() = JSONObject(name, listOf(
         JSONObject("name", name),
         JSONObject("connections", connections.map { it.fullName })
     ))
 
-    override fun fromJson(json: JSONObject?): Railway? {
-        TODO("Not yet implemented")
+    override fun fromJson(json: JSONObject) = this.apply {
+        super.fromJson(json)
     }
 
 

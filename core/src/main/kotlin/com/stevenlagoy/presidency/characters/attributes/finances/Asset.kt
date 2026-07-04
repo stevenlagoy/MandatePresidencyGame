@@ -1,5 +1,6 @@
 package com.stevenlagoy.presidency.characters.attributes.finances
 
+import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.core.TimeManager
 import java.time.LocalDate
 import java.time.Period
@@ -11,7 +12,7 @@ abstract class Asset(
     var marketValue: Double? = null,
     val depreciationPerAnnum: Double? = null,
     val depreciationPeriod: Period? = null,
-) {
+) : JSONSerializable<Asset> {
     var nextDepreciationDate: LocalDate? = if (depreciationPeriod == null) null else timeManager.currentDate.toLocalDate().plus(depreciationPeriod)
         private set
 
@@ -30,4 +31,14 @@ abstract class Asset(
         return bookValue
     }
 
+    enum class AssetType {
+        CashAsset,
+        StockHolding,
+        BondHolding,
+        LoanReceivable,
+        BusinessEquity,
+        RealEstate,
+        Building,
+        Vehicle,
+    }
 }

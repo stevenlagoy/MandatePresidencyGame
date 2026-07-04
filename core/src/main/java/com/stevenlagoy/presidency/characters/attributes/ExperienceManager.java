@@ -1,7 +1,6 @@
 package com.stevenlagoy.presidency.characters.attributes;
 
 import com.stevenlagoy.jsonic.JSONObject;
-import com.stevenlagoy.jsonic.JSONProcessor;
 import com.stevenlagoy.presidency.characters.attributes.experiences.Experience;
 import com.stevenlagoy.presidency.characters.attributes.experiences.ExperienceHistory;
 import com.stevenlagoy.presidency.core.Engine;
@@ -13,6 +12,7 @@ import com.stevenlagoy.presidency.util.TimeUtils;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.io.IOException;
 import java.time.LocalDate;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -81,32 +81,40 @@ public class ExperienceManager extends Manager {
 
     private void readExperiences() {
         requireState(ManagerState.INITIALIZING);
-        JSONObject experiencesJson = JSONProcessor.processJson(FilePaths.EXPERIENCES);
-        for (Object obj : experiencesJson.getAsList()) {
-            if (obj instanceof JSONObject experienceJson) {
-                experiences.add(new Experience(engine, experienceJson));
+        try {
+            JSONObject experiencesJson = new JSONObject(FilePaths.EXPERIENCES);
+            for (Object obj : experiencesJson.requireArray()) {
+                if (obj instanceof JSONObject experienceJson) {
+                    experiences.add(new Experience(engine, experienceJson));
+                }
             }
+            resolveConnections();
+        } catch (IOException e) {
+            onError(e);
         }
-        resolveConnections();
     }
 
     private void resolveConnections() {
         requireState(ManagerState.INITIALIZING);
-        JSONObject experiencesJson = JSONProcessor.processJson(FilePaths.EXPERIENCES);
-        for (Object obj : experiencesJson.getAsList()) {
-            if (obj instanceof JSONObject experienceJson) {
-                Experience experience = matchExperience(experienceJson.getKey()).orElseThrow();
-                for (Object connectionObj : experienceJson.get("connections", List.class)) {
-                    if (connectionObj instanceof JSONObject connection) {
-                        try {
-                            experience.getConnections().put(matchExperience(connection.getKey()).orElseThrow(), connection.getAsNumber().doubleValue());
-                        } catch (Exception e) {
-                            Logger.error("Could not make connection '%s' for experience '%s': %s. Check keys in %s.", connection.getKey(), experience.getLabel(), e.getMessage(), FilePaths.EXPERIENCES);
+        try {
+            JSONObject experiencesJson = new JSONObject(FilePaths.EXPERIENCES);
+            for (Object obj : experiencesJson.requireArray()) {
+                if (obj instanceof JSONObject experienceJson) {
+                    Experience experience = matchExperience(experienceJson.getKey()).orElseThrow();
+                    for (Object connectionObj : experienceJson.requireArray("connections")) {
+                        if (connectionObj instanceof JSONObject connection) {
+                            try {
+                                experience.getConnections().put(matchExperience(connection.getKey()).orElseThrow(), connection.requireNumber().doubleValue());
+                            } catch (Exception e) {
+                                Logger.error("Could not make connection '%s' for experience '%s': %s. Check keys in %s.", connection.getKey(), experience.getLabel(), e.getMessage(), FilePaths.EXPERIENCES);
+                            }
                         }
+                        else throw new RuntimeException("Encountered an unexpected value in " + FilePaths.EXPERIENCES);
                     }
-                    else throw new RuntimeException("Encountered an unexpected value in " + FilePaths.EXPERIENCES);
                 }
             }
+        } catch (IOException e) {
+            onError(e);
         }
     }
 

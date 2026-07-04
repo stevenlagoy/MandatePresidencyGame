@@ -1,7 +1,7 @@
 package com.stevenlagoy.presidency.demographics
 
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.jsonic.Jsonic
+import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.util.Logger
@@ -12,7 +12,7 @@ class Demographics (
     religion: Bloc,
     raceEthnicity: Bloc,
     presentation: Bloc
-) : Jsonic<Demographics>, EngineBound(engine) {
+) : JSONSerializable<Demographics>, EngineBound(engine) {
 
     constructor(other: Demographics) : this(other.engine, other.generation, other.religion, other.raceEthnicity, other.presentation)
 
@@ -90,10 +90,10 @@ class Demographics (
     ))
 
     override fun fromJson(json: JSONObject) = this.apply {
-        generation = engine.DEMOGRAPHICS_MANAGER.matchBloc(json.get("generation") as String).orElseThrow()
-        religion = engine.DEMOGRAPHICS_MANAGER.matchBloc(json.get("religion") as String).orElseThrow()
-        raceEthnicity = engine.DEMOGRAPHICS_MANAGER.matchBloc(json.get("race_ethnicity") as String).orElseThrow()
-        presentation = engine.DEMOGRAPHICS_MANAGER.matchBloc(json.get("presentation") as String).orElseThrow()
+        generation = engine.DEMOGRAPHICS_MANAGER.matchBloc(json.requireString("generation")).orElseThrow()
+        religion = engine.DEMOGRAPHICS_MANAGER.matchBloc(json.requireString("religion")).orElseThrow()
+        raceEthnicity = engine.DEMOGRAPHICS_MANAGER.matchBloc(json.requireString("race_ethnicity")).orElseThrow()
+        presentation = engine.DEMOGRAPHICS_MANAGER.matchBloc(json.requireString("presentation")).orElseThrow()
     }
 
 }

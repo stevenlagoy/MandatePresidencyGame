@@ -9,11 +9,14 @@ class JudicialBranch(
     override val pastElectionResults: MutableList<ElectionResult> = mutableListOf(),
     override val partyControlFactors: List<(party: Party) -> Double> = emptyList(),
 ) : GovernmentBranch() {
-    override fun toJson(): JSONObject? {
-        TODO("Not yet implemented")
-    }
 
-    override fun fromJson(json: JSONObject?): GovernmentBranch? {
-        TODO("Not yet implemented")
+    override fun toJson() = JSONObject(hashCode().toString(), listOf(
+        JSONObject("partiesPresent", partiesPresent.map { it.name }),
+        JSONObject("pastElectionResults", pastElectionResults.map { it.toJson() }),
+        JSONObject("partyControlFactors") // TODO
+    ))
+
+    override fun fromJson(json: JSONObject) = apply {
+        // TODO
     }
 }

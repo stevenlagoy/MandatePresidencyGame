@@ -1,12 +1,12 @@
 package com.stevenlagoy.presidency.core.linearvalue
 
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.jsonic.Jsonic
+import com.stevenlagoy.jsonic.JSONSerializable
 
 class Modifier(
     baseEffect: Double = 0.0,
     decayFunction: DecayFunction = DecayFunction { 1.0 },
-) : Jsonic<Modifier> {
+) : JSONSerializable<Modifier> {
 
     var baseEffect: Double = baseEffect
         internal set
@@ -26,7 +26,7 @@ class Modifier(
     ))
 
     override fun fromJson(json: JSONObject) = this.apply {
-        baseEffect = json.get("baseEffect", Number::class.java).toDouble()
-        decayFunction = json.get("decayFunction", DecayFunction::class.java)
+        baseEffect = json.requireDouble("baseEffect")
+        // TODO decayFunction
     }
 }

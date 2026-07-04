@@ -6,24 +6,25 @@ import com.stevenlagoy.presidency.map.Municipality
 
 class Seaport(
     engine: Engine,
-    name: String,
-    val location: Municipality,
-    connections: List<Municipality>,
+    name: String = "",
+    location: Municipality? = null,
+    connections: List<Municipality> = listOf(),
 ) : Route(engine, name, connections) {
 
-    constructor(engine: Engine, json: JSONObject) : this (
-        engine,
-        json.get("name", String::class.java),
-        engine.MAP_MANAGER.matchMunicipality(json.get("location", String::class.java)).get(),
-        (json.get("connections", List::class.java) as List<String>).map { engine.MAP_MANAGER.matchMunicipality(it).orElse(null) },
-    )
+    var location: Municipality? = location
+        internal set
+
+    constructor(engine: Engine, json: JSONObject) : this (engine) {
+        fromJson(json)
+    }
 
     override fun toJson() = JSONObject(name, listOf(
         JSONObject("name", name),
     ))
 
-    override fun fromJson(json: JSONObject?): Route? {
-        TODO("Not yet implemented")
+    override fun fromJson(json: JSONObject) = this.apply {
+        super.fromJson(json)
+        location = engine.MAP_MANAGER.matchMunicipality(json.requireString("location")).orElseThrow { IllegalArgumentException("Could not find location for seaport $name") }
     }
 
 }

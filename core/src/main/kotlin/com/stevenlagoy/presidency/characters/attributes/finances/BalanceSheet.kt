@@ -1,6 +1,7 @@
 package com.stevenlagoy.presidency.characters.attributes.finances
 
 import com.stevenlagoy.jsonic.JSONObject
+import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.characters.attributes.Goal
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
@@ -8,28 +9,25 @@ import java.time.LocalDate
 
 class BalanceSheet(
     engine: Engine,
-) : EngineBound(engine) {
+    var discretionaryFunds: Double = 0.0,
+    var dedicatedFunds: MutableMap<Goal, Double> = mutableMapOf(),
+    var assets: MutableList<Asset> = mutableListOf(),
+    var liabilities: MutableList<Liability> = mutableListOf(),
+    var records: MutableList<AccountRecord> = mutableListOf(),
+) : JSONSerializable<BalanceSheet>, EngineBound(engine) {
 
-    constructor(engine: Engine, json: JSONObject) : this(engine)
-
-    data class AccountRecord(
-        val date: LocalDate,
-        val totalAssets: Double,
-        val totalLiabilities: Double
-    ) { val netWorth = totalAssets - totalLiabilities }
-
-    var discretionaryFunds = 0.0
-    var dedicatedFunds = mutableMapOf<Goal, Double>()
-    var assets = mutableListOf<Asset>()
     val totalAssets: Double
         get() = discretionaryFunds + dedicatedFunds.values.sum() + assets.sumOf { it.marketValue ?: 0.0 }
-    var liabilities = mutableListOf<Liability>()
+
     val totalLiabilities: Double
         get() = liabilities.sumOf { it.value }
-    var records = mutableListOf<AccountRecord>()
 
     val netWorth: Double
         get() = totalAssets - totalLiabilities
+
+    constructor(engine: Engine, json: JSONObject) : this(engine) {
+        fromJson(json)
+    }
 
     fun getNetChange(since: LocalDate): Double {
         val earliestRecordSince = records
@@ -45,4 +43,21 @@ class BalanceSheet(
             totalLiabilities
         ))
     }
+
+    override fun toJson() = JSONObject(hashCode().toString(), listOf(
+        JSONObject("discretionaryFunds", discretionaryFunds),
+        JSONObject("dedicatedFunds", dedicatedFunds),
+        JSONObject("assets", assets.map { it.toJson() }),
+        JSONObject("liabilities", liabilities.map { it.toJson() }),
+
+    ))
+
+    override fun fromJson(json: JSONObject) = apply {
+    }
+
+    data class AccountRecord(
+        val date: LocalDate,
+        val totalAssets: Double,
+        val totalLiabilities: Double
+    ) { val netWorth = totalAssets - totalLiabilities }
 }

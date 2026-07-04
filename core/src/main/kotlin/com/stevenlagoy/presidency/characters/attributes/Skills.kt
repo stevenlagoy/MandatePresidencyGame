@@ -1,7 +1,7 @@
 package com.stevenlagoy.presidency.characters.attributes
 
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.jsonic.Jsonic
+import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.core.linearvalue.LinearValue
 
 /**
@@ -18,7 +18,7 @@ data class Skills(
     val legislative: LinearValue = LinearValue(0, 100, 50),
     val executive: LinearValue = LinearValue(0, 100, 50),
     val judicial: LinearValue = LinearValue(0, 100, 50),
-) : Jsonic<Skills>
+) : JSONSerializable<Skills>
 {
 
     val aptitude: Double
@@ -30,7 +30,9 @@ data class Skills(
         LinearValue(0, 100, judicial)
     )
 
-    constructor(json: JSONObject) : this() { fromJson(json) }
+    constructor(json: JSONObject) : this() {
+        fromJson(json)
+    }
 
     override fun toJson() = JSONObject(this.hashCode().toString(), listOf(
         JSONObject("legislative", legislative.toJson()),
@@ -39,9 +41,9 @@ data class Skills(
     ))
 
     override fun fromJson(json: JSONObject) = this.apply {
-        legislative.fromJson(json.get("legislative", JSONObject::class.java))
-        executive.fromJson(json.get("executive", JSONObject::class.java))
-        judicial.fromJson(json.get("judicial", JSONObject::class.java))
+        legislative.fromJson(json.requireJson("legislative"))
+        executive.fromJson(json.requireJson("executive"))
+        judicial.fromJson(json.requireJson("judicial"))
     }
 
 }

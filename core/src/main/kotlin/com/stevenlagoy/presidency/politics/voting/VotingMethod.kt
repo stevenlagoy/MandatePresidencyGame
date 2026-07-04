@@ -1,6 +1,6 @@
 package com.stevenlagoy.presidency.politics.voting
 
-abstract class VotingMethod {
+sealed class VotingMethod {
 
     class Primary : VotingMethod()
 

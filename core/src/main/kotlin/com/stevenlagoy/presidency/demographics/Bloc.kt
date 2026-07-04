@@ -1,7 +1,7 @@
 package com.stevenlagoy.presidency.demographics
 
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.jsonic.Jsonic
+import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.characters.Citizen
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
@@ -30,7 +30,7 @@ class Bloc (
     members: Collection<Citizen> = setOf(),
     superBloc: Bloc? = null,
     subBlocs: MutableList<Bloc> = mutableListOf(),
-) : Jsonic<Bloc>, EngineBound(engine) {
+) : JSONSerializable<Bloc>, EngineBound(engine) {
 
     var name: String = name
         internal set
@@ -86,11 +86,11 @@ class Bloc (
     ))
 
     override fun fromJson(json: JSONObject) = this.apply {
-        name = json.get("name", String::class.java)
-        category = DemographicCategory.valueOf(json.get("category", String::class.java).uppercase().replace(Regex("[^A-Z]"), "_"))
-        superBloc = engine.DEMOGRAPHICS_MANAGER.matchBloc(json.get("superBloc", String::class.java)).orElseThrow()
+        name = json.requireString("name")
+        category = DemographicCategory.valueOf(json.requireString("category").uppercase().replace(Regex("[^A-Z]"), "_"))
+        superBloc = engine.DEMOGRAPHICS_MANAGER.matchBloc(json.requireString("superBloc")).orElseThrow()
         subBlocs.clear()
-        subBlocs.addAll(json.get("subBlocs", List::class.java).map { engine.DEMOGRAPHICS_MANAGER.matchBloc(it as String) }.filter { it.isPresent }.map { it.get() })
+        subBlocs.addAll(json.requireArray("subBlocs").map { engine.DEMOGRAPHICS_MANAGER.matchBloc(it as String) }.filter { it.isPresent }.map { it.get() })
     }
 
 }

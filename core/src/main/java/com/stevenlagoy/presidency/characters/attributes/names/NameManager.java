@@ -1,7 +1,6 @@
 package com.stevenlagoy.presidency.characters.attributes.names;
 
 import com.stevenlagoy.jsonic.JSONObject;
-import com.stevenlagoy.jsonic.JSONProcessor;
 import com.stevenlagoy.presidency.characters.attributes.Family;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
@@ -15,6 +14,7 @@ import com.stevenlagoy.presidency.util.RandomUtils;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.io.IOException;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -182,32 +182,48 @@ public class NameManager extends Manager {
     // Instance Methods
 
     private void readGivenNamesData() {
-        JSONObject json = JSONProcessor.processJson(FilePaths.GIVEN_NAMES);
-        givenNamesDistribution.putAll(processNamesStructure(json));
+        try {
+            JSONObject json = new JSONObject(FilePaths.GIVEN_NAMES);
+            givenNamesDistribution.putAll(processNamesStructure(json));
+        } catch (IOException e) {
+            onError(e);
+        }
     }
 
     private void readFamilyNamesData() {
-        JSONObject json = JSONProcessor.processJson(FilePaths.FAMILY_NAMES);
-        familyNamesDistribution.putAll(processNamesStructure(json));
+        try {
+            JSONObject json = new JSONObject(FilePaths.FAMILY_NAMES);
+            familyNamesDistribution.putAll(processNamesStructure(json));
+        } catch (IOException e) {
+            onError(e);
+        }
     }
 
     private void readGenerationNamesData() {
-        JSONObject json = JSONProcessor.processJson(FilePaths.GENERATION_NAMES);
-        generationNamesDistribution.putAll(processNamesStructure(json));
+        try {
+            JSONObject json = new JSONObject(FilePaths.GENERATION_NAMES);
+            generationNamesDistribution.putAll(processNamesStructure(json));
+        } catch (IOException e) {
+            onError(e);
+        }
     }
 
     private void readNicknamesData() {
-        JSONObject json = JSONProcessor.processJson(FilePaths.NICKNAMES);
-        nicknames.clear();
-        for (Object obj : json.getAsList()) {
-            if (!(obj instanceof JSONObject entry)) continue;
-            String key = entry.getKey();
-            List<?> value = entry.getAsList();
-            List<String> names = new ArrayList<>();
-            for (Object nickname : value) {
-                names.add((String) nickname);
+        try {
+            JSONObject json = new JSONObject(FilePaths.NICKNAMES);
+            nicknames.clear();
+            for (Object obj : json.requireArray()) {
+                if (!(obj instanceof JSONObject entry)) continue;
+                String key = entry.getKey();
+                List<?> value = entry.requireArray();
+                List<String> names = new ArrayList<>();
+                for (Object nickname : value) {
+                    names.add((String) nickname);
+                }
+                nicknames.put(key, names);
             }
-            nicknames.put(key, names);
+        } catch (IOException e) {
+            onError(e);
         }
     }
 
@@ -219,7 +235,7 @@ public class NameManager extends Manager {
         if (currentBlocs == null) currentBlocs = new HashSet<>();
         Map<Set<Bloc>, Map<String, Double>> distributions = new HashMap<>();
 
-        for (Object obj : json.getAsList()) {
+        for (Object obj : json.requireArray()) {
             if (!(obj instanceof JSONObject entry)) continue;
 
             String key = entry.getKey();

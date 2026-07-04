@@ -2,7 +2,7 @@ package com.stevenlagoy.presidency.politics.voting
 
 import com.stevenlagoy.presidency.politics.Issue
 
-abstract class ResolutionRule {
+sealed class ResolutionRule {
 
     abstract fun resolve(tabulated: List<TabulationRule.IssueResult>): List<Issue>
 

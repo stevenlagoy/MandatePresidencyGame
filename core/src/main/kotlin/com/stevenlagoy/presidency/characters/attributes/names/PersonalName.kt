@@ -1,7 +1,7 @@
 package com.stevenlagoy.presidency.characters.attributes.names
 
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.jsonic.Jsonic
+import com.stevenlagoy.jsonic.JSONSerializable
 
 /**
  * Model the personal name of a Character, with options for several forms of name, traditional or
@@ -24,7 +24,7 @@ abstract class PersonalName(
     open var nickname: String? = null,
     open var suffixes: List<String> = listOf(),
     open var displayOptions: Set<DisplayOption> = setOf(),
-) : Jsonic<PersonalName>, Comparable<PersonalName>
+) : JSONSerializable<PersonalName>, Comparable<PersonalName>
 {
 
     /** Options for displaying the name in different styles. */
@@ -91,11 +91,11 @@ abstract class PersonalName(
 
     // REPRESENTATION METHODS ---------------------------------------------------------------------
 
-    override fun fromJson(json: JSONObject) = this.apply {
-        honorific = json.get("honorific") as String
-        nickname = json.get("nickname") as String?
-        suffixes = json.get("suffixes") as List<String>
-        displayOptions = json.get("display_options") as Set<DisplayOption>
+    override fun fromJson(json: JSONObject) = apply {
+        honorific = json.requireString("honorific")
+        nickname = json.requireString("nickname")
+        suffixes = json.requireArray("suffixes").filterIsInstance<String>()
+        displayOptions = json.requireArray("display_options").map { DisplayOption.valueOf((it as String).uppercase().replace(Regex("[^A-Z0-9]"), "_")) }.toSet()
     }
 
     override fun toJson() = JSONObject(indexedName, listOf(

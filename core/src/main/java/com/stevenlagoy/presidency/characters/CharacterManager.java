@@ -1,7 +1,6 @@
 package com.stevenlagoy.presidency.characters;
 
 import com.stevenlagoy.jsonic.JSONObject;
-import com.stevenlagoy.jsonic.JSONProcessor;
 import com.stevenlagoy.presidency.characters.attributes.*;
 import com.stevenlagoy.presidency.characters.attributes.experiences.ExperienceHistory;
 import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
@@ -19,8 +18,8 @@ import com.stevenlagoy.presidency.util.RandomUtils;
 import com.stevenlagoy.presidency.util.TimeUtils;
 import kotlin.uuid.Uuid;
 import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
 
+import java.io.IOException;
 import java.time.LocalDate;
 import java.util.*;
 
@@ -110,7 +109,7 @@ public class CharacterManager extends Manager {
 
     @Override
     protected void doFromJson(@NotNull JSONObject json) {
-        getSubManagers().forEach(manager -> manager.fromJson(json.get(manager.getClass().getSimpleName(), JSONObject.class)));
+        getSubManagers().forEach(manager -> manager.fromJson(json.requireJson(manager.getClass().getSimpleName())));
     }
 
     // Instance Methods
@@ -119,34 +118,42 @@ public class CharacterManager extends Manager {
 
     private void readBirthdateDistributionData() {
         requireState(ManagerState.INITIALIZING);
-        JSONObject json = JSONProcessor.processJson(FilePaths.BIRTHDATE_POPULARITIES);
-        birthdateDistribution = new HashMap<>();
-        for (Object dateObj : json.getAsList()) {
-            if (dateObj instanceof JSONObject dateJson) {
-                String date = dateJson.getKey();
-                double value = dateJson.getAsNumber().doubleValue();
-                birthdateDistribution.put(date, value);
+        try {
+            JSONObject json = new JSONObject(FilePaths.BIRTHDATE_POPULARITIES);
+            birthdateDistribution = new HashMap<>();
+            for (Object dateObj : json.requireArray()) {
+                if (dateObj instanceof JSONObject dateJson) {
+                    String date = dateJson.getKey();
+                    double value = dateJson.requireDouble();
+                    birthdateDistribution.put(date, value);
+                }
             }
+        } catch (IOException e) {
+            onError(e);
         }
     }
 
     private void readAgeDistributionData() {
         requireState(ManagerState.INITIALIZING);
-        JSONObject json = JSONProcessor.processJson(FilePaths.BIRTHYEAR_PERCENTAGES);
-        ageDistribution = new HashMap<>();
-        for (Object blocObj : json.getAsList()) {
-            if (blocObj instanceof JSONObject blocJson) {
-                Bloc key = engine.DEMOGRAPHICS_MANAGER.matchBloc(blocJson.getKey()).orElseThrow();
-                Map<Integer, Double> distribution = new HashMap<>();
-                for (Object dataObj : blocJson.getAsList()) {
-                    if (dataObj instanceof JSONObject dataJson) {
-                        int year = Integer.parseInt(dataJson.getKey());
-                        double value = dataJson.getAsNumber().doubleValue();
-                        distribution.put(year, value);
+        try {
+            JSONObject json = new JSONObject(FilePaths.BIRTHYEAR_PERCENTAGES);
+            ageDistribution = new HashMap<>();
+            for (Object blocObj : json.requireArray()) {
+                if (blocObj instanceof JSONObject blocJson) {
+                    Bloc key = engine.DEMOGRAPHICS_MANAGER.matchBloc(blocJson.getKey()).orElseThrow();
+                    Map<Integer, Double> distribution = new HashMap<>();
+                    for (Object dataObj : blocJson.requireArray()) {
+                        if (dataObj instanceof JSONObject dataJson) {
+                            int year = Integer.parseInt(dataJson.getKey());
+                            double value = dataJson.requireDouble();
+                            distribution.put(year, value);
+                        }
                     }
+                    ageDistribution.put(key, distribution);
                 }
-                ageDistribution.put(key, distribution);
             }
+        } catch (IOException e) {
+            onError(e);
         }
     }
 
@@ -169,14 +176,14 @@ public class CharacterManager extends Manager {
         return citizens.size();
     }
 
-    public @Nullable Citizen matchCitizenById(String id) throws IllegalArgumentException {
+    public @NotNull Optional<Citizen> matchCitizenById(String id) throws IllegalArgumentException {
         requireOperational();
         return matchCitizenById(Uuid.Companion.parse(id));
     }
 
-    public @Nullable Citizen matchCitizenById(Uuid id) {
+    public @NotNull Optional<Citizen> matchCitizenById(Uuid id) {
         requireOperational();
-        return citizens.stream().filter(citizen -> citizen.getId().equals(id)).findFirst().orElse(null);
+        return citizens.stream().filter(citizen -> citizen.getId().equals(id)).findFirst();
     }
 
     /** Context for the creation of citizens and related attributes. */

@@ -2,6 +2,8 @@
 package com.stevenlagoy.presidency.util
 
 import java.time.LocalDate
+import java.time.LocalDateTime
+import java.time.ZoneId
 import java.time.ZonedDateTime
 import java.time.temporal.ChronoUnit
 import java.util.*
@@ -276,4 +278,19 @@ fun yearsBetween(startDate: LocalDate, endDate: LocalDate): Int {
 
 fun daysBetween(startDate: LocalDate, endDate: LocalDate): Int {
     return ChronoUnit.DAYS.between(startDate, endDate).toInt()
+}
+
+/**
+ * @param date ISO 8601 format date `YYYY-MM-DDThh:mm:ssTZD`
+ */
+fun zonedDateTimeFromString(date: String): ZonedDateTime {
+    val year = date.substring(0, 4).toInt()
+    val month = date.substring(5, 7).toInt()
+    val dayOfMonth = date.substring(8, 10).toInt()
+    val hour = date.substring(12, 14).toInt()
+    val minute = date.substring(15, 17).toInt()
+    val second = date.substring(18, 20).toInt()
+    val timeZone = ZoneId.of(date.substring(20, 23))
+    val dateTime = LocalDateTime.of(year, month, dayOfMonth, hour, minute, second)
+    return ZonedDateTime.of(dateTime, timeZone)
 }

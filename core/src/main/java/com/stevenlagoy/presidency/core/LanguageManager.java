@@ -1,11 +1,11 @@
 package com.stevenlagoy.presidency.core;
 
 import com.stevenlagoy.jsonic.JSONObject;
-import com.stevenlagoy.jsonic.JSONProcessor;
 import com.stevenlagoy.presidency.util.FilePaths;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
+import java.io.IOException;
 import java.nio.file.Path;
 import java.util.HashMap;
 import java.util.List;
@@ -113,7 +113,7 @@ public final class LanguageManager extends Manager {
     @Override
     public void doFromJson(@NotNull JSONObject json) {
         try {
-            gameLanguage = Language.valueOf(json.get("gameLanguage", String.class));
+            gameLanguage = Language.valueOf(json.requireString("gameLanguage"));
         } catch (IllegalArgumentException e) {
             onDegraded(e);
             gameLanguage = Language.defaultLanguage;
@@ -180,13 +180,18 @@ public final class LanguageManager extends Manager {
 
         Path localizationFile = Path.of(String.format("%s/%s/%s%s", FilePaths.LOCALIZATION_RESOURCES, language,
                 language, FilePaths.SYSTEM_TEXT_LOC));
-        JSONObject localizationData = JSONProcessor.processJson(localizationFile);
 
-        for (Object entry : localizationData.getAsList()) {
-            if (entry instanceof JSONObject entryJson) {
-                local.put(entryJson.getKey(), entryJson.getAsString());
+        try {
+            JSONObject localizationData = new JSONObject(localizationFile);
+
+            for (Object entry : localizationData.requireArray()) {
+                if (entry instanceof JSONObject entryJson) {
+                    local.put(entryJson.getKey(), entryJson.requireString());
+                }
             }
+            localizations.put(language, local);
+        } catch (IOException e) {
+            onError(e);
         }
-        localizations.put(language, local);
     }
 }

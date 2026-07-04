@@ -1,7 +1,7 @@
 package com.stevenlagoy.presidency.characters.attributes.experiences
 
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.jsonic.Jsonic
+import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.util.*
@@ -11,28 +11,20 @@ import java.util.*
 class ExperienceHistory(
     engine: Engine,
     val experiences: TreeSet<ExperienceEntry> = TreeSet(),
-) : Jsonic<ExperienceHistory>, EngineBound(engine) {
+) : JSONSerializable<ExperienceHistory>, EngineBound(engine) {
 
     class ExperienceEntry(
         engine: Engine,
-        val experience: Experience,
-        val startDate: LocalDate,
-        var endDate: LocalDate?,
-    ) : Comparable<ExperienceEntry>, Jsonic<ExperienceEntry>, EngineBound(engine) {
+        _experience: Experience? = null,
+        startDate: LocalDate = engine.TIME_MANAGER.currentDate.toLocalDate(),
+        var endDate: LocalDate? = null,
+    ) : Comparable<ExperienceEntry>, JSONSerializable<ExperienceEntry>, EngineBound(engine) {
 
-        constructor(engine: Engine, experience: Experience, startDate: LocalDate, tenureYears: Int) : this(
-            engine,
-            experience,
-            startDate,
-            startDate.plusYears(tenureYears.toLong())
-        )
+        lateinit var experience: Experience
+            internal set
 
-        constructor(engine: Engine, json: JSONObject) : this(
-            engine,
-            engine.CHARACTER_MANAGER.EXPERIENCE_MANAGER.matchExperience(json.get("experience", String::class.java)).get(),
-            LocalDate.parse(json.get("startDate", String::class.java)),
-            json.get("endDate", String::class.java)?.let { LocalDate.parse(it) }
-        )
+        var startDate: LocalDate = startDate
+            internal set
 
         val tenureYears: Double
             get() {
@@ -42,6 +34,21 @@ class ExperienceHistory(
 
         val skillsDeveloped: Triple<Double, Double, Double>
             get() = experience.yearlySkills * tenureYears
+
+        init {
+            if (_experience == null) experience = _experience
+        }
+
+        constructor(engine: Engine, experience: Experience, startDate: LocalDate, tenureYears: Int) : this(
+            engine,
+            experience,
+            startDate,
+            startDate.plusYears(tenureYears.toLong())
+        )
+
+        constructor(engine: Engine, json: JSONObject) : this(engine) {
+            fromJson(json)
+        }
 
         override fun compareTo(other: ExperienceEntry): Int {
             return this.startDate.compareTo(other.startDate) * 2 + (this.endDate?.compareTo(other.endDate ?: engine.TIME_MANAGER.currentDate.toLocalDate()) ?: 0)
@@ -54,6 +61,7 @@ class ExperienceHistory(
         ))
 
         override fun fromJson(json: JSONObject) = this.apply {
+            TODO()
         }
     }
 
@@ -61,7 +69,7 @@ class ExperienceHistory(
 
     constructor(ENGINE: Engine, json: JSONObject) : this(
         ENGINE,
-        TreeSet(json.get("experiences", List::class.java).map { ExperienceEntry(ENGINE, it as JSONObject) }),
+        TreeSet(json.requireArray("experiences").map { ExperienceEntry(ENGINE, it as JSONObject) }),
     )
 
     fun add(experience: Experience, startDate: LocalDate, endDate: LocalDate?) {
@@ -93,7 +101,7 @@ class ExperienceHistory(
 
     override fun toJson() = JSONObject(this.javaClass.simpleName, experiences.map { it.toJson() })
 
-    override fun fromJson(json: JSONObject?): ExperienceHistory? {
+    override fun fromJson(json: JSONObject): ExperienceHistory {
         TODO("Not yet implemented")
     }
 }

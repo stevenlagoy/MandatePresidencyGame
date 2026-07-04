@@ -49,8 +49,9 @@ public abstract class BaseScreen implements Screen {
 
     @Override
     public void render(float delta) {
+        Gdx.gl.glEnable(GL20.GL_DEPTH_TEST);
         Gdx.gl.glClearColor(0, 0, 0, 1);
-        Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+        Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT | GL20.GL_DEPTH_BUFFER_BIT);
         renderBackground(delta);
         stage.act(delta);
         stage.draw();

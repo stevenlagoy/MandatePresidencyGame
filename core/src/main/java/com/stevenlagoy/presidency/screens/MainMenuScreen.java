@@ -14,6 +14,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.TextButton;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Scaling;
 import com.stevenlagoy.presidency.GameRoot;
+import org.jetbrains.annotations.NotNull;
 
 public class MainMenuScreen extends BaseScreen {
 
@@ -31,7 +32,7 @@ public class MainMenuScreen extends BaseScreen {
     }
 
     @Override
-    protected void buildUI(Table root, Skin skin) {
+    protected void buildUI(@NotNull Table root, @NotNull Skin skin) {
         background = new Texture("textures/backgrounds/background.png");
         logoTexture = new Texture("textures/logos/game_logo.png");
 

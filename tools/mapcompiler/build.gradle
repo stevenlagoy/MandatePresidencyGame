@@ -4,12 +4,8 @@ plugins {
   id 'org.jetbrains.kotlin.jvm'
 }
 
-group = 'con.stevenlagoy.presidency'
+group = 'com.stevenlagoy.presidency'
 version = 'unspecified'
-
-application {
-  mainClass = 'com.stevenlagoy.presidency.tools.mapcompiler.MapCompilerKt'
-}
 
 repositories {
   mavenCentral()

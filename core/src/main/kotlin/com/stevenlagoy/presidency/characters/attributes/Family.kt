@@ -1,7 +1,7 @@
 package com.stevenlagoy.presidency.characters.attributes
 
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.jsonic.Jsonic
+import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.characters.Citizen
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
@@ -14,7 +14,7 @@ class Family(
     var father: Citizen? = null,
     var spouse: Citizen? = null,
     val children: MutableSet<Citizen> = mutableSetOf(),
-) : Jsonic<Family>, EngineBound(engine) {
+) : JSONSerializable<Family>, EngineBound(engine) {
 
     val parents = setOf(mother, father).filterNotNull()
 
@@ -45,6 +45,9 @@ class Family(
         }
     }
 
+    val sideSize: Int
+        get() = (mother?.family?.sideSize ?: 0) + (father?.family?.sideSize ?: 0) + (spouse?.family?.sideSize ?: 0) + children.sumOf { it.family.sideSize }
+
     override fun fromJson(json: JSONObject) = this
 
     override fun toJson() = JSONObject(hashCode().toString(), listOf(
@@ -53,20 +56,4 @@ class Family(
         JSONObject("children", children.map { it.id }),
     ))
 
-    fun getSideSize(): Int {
-        return (mother?.family?.getSideSize() ?: 0) + (father?.family?.getSideSize() ?: 0) + (spouse?.family?.getSideSize() ?: 0) + children.sumOf { it.family.getSideSize() }
-    }
-
-    fun getFamilyPlan()= FamilyManager.FamilyPlan(
-        mother != null,
-        mother?.family?.getSideSize() ?: 0,
-        father != null,
-        father?.family?.getSideSize() ?: 0,
-        siblings.size,
-        siblings.sumOf { it.family.getSideSize() },
-        spouse != null,
-        spouse?.family?.getSideSize() ?: 0,
-        children.size,
-        children.sumOf { it.family.getSideSize() },
-    )
 }

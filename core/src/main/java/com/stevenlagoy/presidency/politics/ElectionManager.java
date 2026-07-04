@@ -51,9 +51,9 @@ public class ElectionManager extends Manager {
     @Override
     protected void doFromJson(@NotNull JSONObject json) {
         elections.clear();
-        for (Object electionObj : json.get("elections", List.class)) {
+        for (Object electionObj : json.requireArray("elections")) {
             if (electionObj instanceof JSONObject electionJson) {
-                elections.add(new Election(electionJson));
+                elections.add(new Election(engine, electionJson));
             }
         }
     }
@@ -70,7 +70,7 @@ public class ElectionManager extends Manager {
 
     public @NotNull Election createElection(@NotNull GovernmentPosition targetPosition) {
         requireState(ManagerState.ACTIVE);
-        Election election = new Election(targetPosition);
+        Election election = new Election(engine, targetPosition);
         elections.add(election);
         return election;
     }

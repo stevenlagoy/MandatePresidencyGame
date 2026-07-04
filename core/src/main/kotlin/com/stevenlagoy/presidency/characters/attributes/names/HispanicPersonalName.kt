@@ -48,11 +48,11 @@ class HispanicPersonalName(
 
     override fun copy(other: PersonalName) {
         this.honorific = other.honorific
-        this.nickname = other.nickname
-        this.suffixes = other.suffixes
+        this.nickname  = other.nickname
+        this.suffixes  = other.suffixes
         this.displayOptions = other.displayOptions
         if (other is HispanicPersonalName) {
-            this.givenName = other.givenName
+            this.givenName    = other.givenName
             this.paternalName = other.paternalName
             this.maternalName = other.maternalName
         }
@@ -60,17 +60,15 @@ class HispanicPersonalName(
 
     override fun compareTo(other: PersonalName) = indexedName.compareTo(other.indexedName)
 
-    override fun toJson() = JSONObject(indexedName, listOf(
-        *((super.toJson().value as List<JSONObject>).toTypedArray()),
-        JSONObject("given_name",      givenName),
-        JSONObject("paternal_name",   paternalName),
-        JSONObject("maternal_name",   maternalName),
-    ))
+    override fun toJson() = super.toJson().merge(
+        JSONObject("given_name", givenName),
+        JSONObject("paternal_name", paternalName),
+        JSONObject("maternal_name", maternalName),
+    )
 
-    override fun fromJson(json: JSONObject) = this.apply {
-        super.fromJson(json)
-        givenName      = json.get("given_name")      as String
-        paternalName   = json.get("paternal_name")   as String
-        maternalName   = json.get("maternal_name")   as String
+    override fun fromJson(json: JSONObject) = super.fromJson(json).apply {
+        givenName    = json.requireString("given_name")
+        paternalName = json.requireString("paternal_name")
+        maternalName = json.requireString("maternal_name")
     }
 }

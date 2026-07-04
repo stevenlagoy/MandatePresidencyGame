@@ -28,7 +28,7 @@ public class GameRoot extends Game {
 
         screenManager = new ScreenManager(this);
 
-        setScreen(new MainMenuScreen(this));
+        setScreen(screenManager.get(MainMenuScreen.class, () -> new MainMenuScreen(this)));
     }
 
     public AssetManager getAssets() {
@@ -59,9 +59,8 @@ public class GameRoot extends Game {
 
     @Override
     public void dispose() {
-        if (screen != null) screen.dispose();
-        assets.dispose();
         screenManager.disposeAll();
+        assets.dispose();
     }
 
 }

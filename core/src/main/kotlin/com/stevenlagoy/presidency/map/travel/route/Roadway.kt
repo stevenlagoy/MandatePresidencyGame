@@ -6,24 +6,33 @@ import com.stevenlagoy.presidency.map.Municipality
 
 class Roadway(
     engine: Engine,
-    name: String,
-    val code: String,
-    val designation: RoadwayDesignation,
-    connections: List<Municipality>,
+    name: String = "",
+    code: String = "",
+    designation: RoadwayDesignation = RoadwayDesignation.LOCAL_ROADWAY,
+    connections: List<Municipality> = listOf(),
 ) : Route(engine, name, connections) {
 
-    constructor(engine: Engine, json: JSONObject) : this(
-        engine,
-        json.get("name", String::class.java),
-        json.get("code", String::class.java),
-        engine.MAP_MANAGER.ROUTE_MANAGER.matchRoadwayDesignation(json.get("designation", String::class.java)).get(),
-        json.get("connections", List::class.java).map { engine.MAP_MANAGER.matchMunicipality(it as String).orElse(null) },
-    )
+    var code: String = code
+        internal set
 
-    data class RoadwayDesignation(
-        val name: String, // US_highway_major, US_highway_minor, interstate_major, interstate_primary, interstate_auxiliary, state_highway, expressway, local_roadway, street
-        val speed: Double,
-    )
+    var designation: RoadwayDesignation = designation
+        internal set
+
+    constructor(engine: Engine, json: JSONObject) : this(engine) {
+        fromJson(json)
+    }
+
+    enum class RoadwayDesignation(val speed: Double) {
+        US_HIGHWAY_MAJOR(65.0),
+        US_HIGHWAY_MINOR(60.0),
+        INTERSTATE_MAJOR(75.0),
+        INTERSTATE_PRIMARY(70.0),
+        INTERSTATE_AUXILIARY(65.0),
+        STATE_HIGHWAY(70.0),
+        EXPRESSWAY(65.0),
+        LOCAL_ROADWAY(55.0),
+        STREET(35.0),
+    }
 
     override fun toJson() = JSONObject(code, listOf(
         JSONObject("name", name),
@@ -33,6 +42,8 @@ class Roadway(
     ))
 
     override fun fromJson(json: JSONObject) = this.apply {
-
+        super.fromJson(json)
+        code = json.requireString("code")
+        designation = RoadwayDesignation.valueOf(json.requireString("designation").uppercase().replace(Regex("[^A-Z]"), "_"))
     }
 }

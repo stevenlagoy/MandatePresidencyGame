@@ -94,7 +94,7 @@ public class TimeManager extends Manager {
     @Override
     protected void doFromJson(@NotNull JSONObject json) {
         try {
-            currentGameDate = json.get("currentGameDate", ZonedDateTime.class);
+            currentGameDate = TimeUtils.zonedDateTimeFromString(json.requireString("currentGameDate"));
         } catch (IllegalArgumentException | ClassCastException e) {
             onDegraded(e);
             currentGameDate = ZonedDateTime.of(startDate.toLocalDate(), startDate.toLocalTime(), startDate.getZone());

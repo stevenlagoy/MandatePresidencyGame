@@ -10,9 +10,7 @@ import com.stevenlagoy.presidency.map.Municipality
 import com.stevenlagoy.presidency.politics.Party
 import com.stevenlagoy.presidency.politics.PoliticalAlignment
 import java.time.LocalDate
-import kotlin.uuid.ExperimentalUuidApi
 
-@OptIn(ExperimentalUuidApi::class)
 class PlayerCharacter(
     engine: Engine,
     sex: Sex,
@@ -25,8 +23,6 @@ class PlayerCharacter(
     location: Municipality,
     residence: Municipality,
     financialProfile: FinancialProfile?,
-    roles: MutableList<Role>,
-    education: Education,
     alignment: PoliticalAlignment,
     partyAffiliation: Party?,
     skills: Skills,

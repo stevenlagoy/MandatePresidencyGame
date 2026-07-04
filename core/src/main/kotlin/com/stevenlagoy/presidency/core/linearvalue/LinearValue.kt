@@ -1,13 +1,13 @@
 package com.stevenlagoy.presidency.core.linearvalue
 
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.jsonic.Jsonic
+import com.stevenlagoy.jsonic.JSONSerializable
 
 class LinearValue(
     min: Double,
     max: Double,
     var base: Double = min,
-) : Jsonic<LinearValue> {
+) : JSONSerializable<LinearValue> {
 
     var min: Double = min
         internal set
@@ -62,12 +62,12 @@ class LinearValue(
     ))
 
     override fun fromJson(json: JSONObject) = this.apply {
-        min = json.get("min", Number::class.java).toDouble()
-        max = json.get("max", Number::class.java).toDouble()
-        base = json.get("base", Number::class.java).toDouble()
+        min = json.requireDouble("min")
+        max = json.requireDouble("max")
+        base = json.requireDouble("base")
         additiveModifiers.clear()
-        additiveModifiers.addAll(json.get("additiveModifiers", List::class.java).filterIsInstance<JSONObject>().map { Modifier(it) })
+        additiveModifiers.addAll(json.requireArray("additiveModifiers").filterIsInstance<JSONObject>().map { Modifier(it) })
         multiplicativeModifiers.clear()
-        multiplicativeModifiers.addAll(json.get("multiplicativeModifiers", List::class.java).filterIsInstance<JSONObject>().map { Modifier(it) })
+        multiplicativeModifiers.addAll(json.requireArray("multiplicativeModifiers").filterIsInstance<JSONObject>().map { Modifier(it) })
     }
 }

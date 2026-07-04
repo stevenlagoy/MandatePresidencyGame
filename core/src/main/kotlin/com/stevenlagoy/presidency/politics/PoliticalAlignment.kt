@@ -1,7 +1,7 @@
 package com.stevenlagoy.presidency.politics
 
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.jsonic.Jsonic
+import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.core.linearvalue.LinearValue
 
 data class PoliticalAlignment(
@@ -14,7 +14,7 @@ data class PoliticalAlignment(
     val sovereignty: LinearValue = LinearValue(-100, 100, 0), // Federalism        -- Centralism
     val conflict:    LinearValue = LinearValue(-100, 100, 0), // Pacifism          -- Militarism
     val solidarity:  LinearValue = LinearValue(-100, 100, 0), // Universalism      -- Particularism
-) : Jsonic<PoliticalAlignment> {
+) : JSONSerializable<PoliticalAlignment> {
 
     /** Turn the 8 alignment axes into one axis: `(left/progressive/lib--right/conservative/auth)` */
     fun toOneAxis() = listOf(diplomacy, society, governance, economy, tradition, religion, sovereignty, conflict, solidarity).map { it.currentValue }.average()
@@ -39,14 +39,14 @@ data class PoliticalAlignment(
     ))
 
     override fun fromJson(json: JSONObject) = this.apply {
-        diplomacy.fromJson(json.get("diplomacy", JSONObject::class.java))
-        society.fromJson(json.get("society", JSONObject::class.java))
-        governance.fromJson(json.get("government", JSONObject::class.java))
-        economy.fromJson(json.get("economy", JSONObject::class.java))
-        tradition.fromJson(json.get("tradition", JSONObject::class.java))
-        religion.fromJson(json.get("religion", JSONObject::class.java))
-        sovereignty.fromJson(json.get("sovereignty", JSONObject::class.java))
-        conflict.fromJson(json.get("conflict", JSONObject::class.java))
-        solidarity.fromJson(json.get("solidarity", JSONObject::class.java))
+        diplomacy.fromJson(json.requireJson("diplomacy"))
+        society.fromJson(json.requireJson("society"))
+        governance.fromJson(json.requireJson("government"))
+        economy.fromJson(json.requireJson("economy"))
+        tradition.fromJson(json.requireJson("tradition"))
+        religion.fromJson(json.requireJson("religion"))
+        sovereignty.fromJson(json.requireJson("sovereignty"))
+        conflict.fromJson(json.requireJson("conflict"))
+        solidarity.fromJson(json.requireJson("solidarity"))
     }
 }

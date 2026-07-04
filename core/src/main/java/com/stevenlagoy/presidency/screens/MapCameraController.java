@@ -1,5 +1,6 @@
 package com.stevenlagoy.presidency.screens;
 
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.InputAdapter;
 import com.badlogic.gdx.graphics.PerspectiveCamera;
@@ -9,7 +10,7 @@ import com.badlogic.gdx.math.Vector3;
 public class MapCameraController extends InputAdapter {
 
     private static final float MIN_DISTANCE = 10f;
-    private static final float MAX_DISTANCE = 400f;
+    private static final float MAX_DISTANCE = 4000f;
     private static final float MIN_PITCH = 15f;
     private static final float MAX_PITCH = 85f;
 
@@ -53,8 +54,8 @@ public class MapCameraController extends InputAdapter {
     }
 
     private void updateCamera() {
-        float azimuthRad = azimuthDeg * MathUtils.radiansToDegrees;
-        float pitchRad = pitchDeg * MathUtils.radiansToDegrees;
+        float azimuthRad = azimuthDeg * MathUtils.degreesToRadians;
+        float pitchRad = pitchDeg * MathUtils.degreesToRadians;
         float horizontalDist = distance * MathUtils.cos(pitchRad);
 
         camera.position.set(
@@ -71,15 +72,17 @@ public class MapCameraController extends InputAdapter {
     public boolean touchDown(int screenX, int screenY, int pointer, int button) {
         lastX = screenX;
         lastY = screenY;
-        if (button == Input.Buttons.RIGHT) {
-            panning = true;
-            return true;
-        }
-        if (button == Input.Buttons.MIDDLE) {
-            rotating = true;
-            return true;
-        }
-        return false;
+        return switch (button) {
+            case Input.Buttons.RIGHT -> {
+                panning = true;
+                yield true;
+            }
+            case Input.Buttons.MIDDLE -> {
+                rotating = true;
+                yield true;
+            }
+            default -> false;
+        };
     }
 
     @Override
@@ -94,6 +97,32 @@ public class MapCameraController extends InputAdapter {
     }
 
     @Override
+    public boolean keyDown(int keycode) {
+        return switch (keycode) {
+            case Input.Keys.ESCAPE -> {
+                Gdx.app.exit();
+                yield true;
+            }
+            case Input.Keys.UP, Input.Keys.DOWN -> {
+                panning = true;
+                yield true;
+            }
+            default -> false;
+        };
+    }
+
+    @Override
+    public boolean keyUp(int keycode) {
+        if (keycode == Input.Keys.UP) {
+            panning = false;
+        }
+        if (keycode == Input.Keys.DOWN) {
+            panning = false;
+        }
+        return false;
+    }
+
+    @Override
     public boolean touchDragged(int screenX, int screenY, int pointer) {
         int dx = screenX - lastX;
         int dy = screenY - lastY;
@@ -102,7 +131,7 @@ public class MapCameraController extends InputAdapter {
         boolean result = false;
 
         if (panning) {
-            pan(dx, dy);
+            pan(dx, -dy);
             result = true;
         }
         if (rotating) {
@@ -120,7 +149,7 @@ public class MapCameraController extends InputAdapter {
     }
 
     private void pan(int dx, int dy) {
-        float azimuthRad = azimuthDeg * MathUtils.radiansToDegrees;
+        float azimuthRad = azimuthDeg * MathUtils.degreesToRadians;
         float scale = distance * PAN_SPEED;
 
         float rightX = MathUtils.cos(azimuthRad);

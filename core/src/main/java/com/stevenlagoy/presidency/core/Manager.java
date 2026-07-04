@@ -1,7 +1,7 @@
 package com.stevenlagoy.presidency.core;
 
 import com.stevenlagoy.jsonic.JSONObject;
-import com.stevenlagoy.jsonic.Jsonic;
+import com.stevenlagoy.jsonic.JSONSerializable;
 import com.stevenlagoy.presidency.util.Logger;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
@@ -26,7 +26,7 @@ import java.util.stream.Stream;
  * instances, allow searching objects, and methods for saving and loading state. May also have
  * submanagers which deal with one element of the system or a subsystem.
  */
-public abstract class Manager extends EngineBound implements Jsonic<Manager> {
+public abstract class Manager extends EngineBound implements JSONSerializable<Manager> {
 
     /** Possible internal States of a Manager. */
     public enum ManagerState {
@@ -276,7 +276,7 @@ public abstract class Manager extends EngineBound implements Jsonic<Manager> {
         if (!getSubManagers().isEmpty()) {
             List<JSONObject> subManagerJsons = getSubManagers().stream().map(Manager::toJson).toList();
             if (json.getValue() != null)
-                json.setValue(Stream.concat(((List<JSONObject>) json.getAsList()).stream(), subManagerJsons.stream()).toList()); // Stream concat because these are immutable lists
+                json.setValue(Stream.concat(((List<JSONObject>) json.requireArray()).stream(), subManagerJsons.stream()).toList()); // Stream concat because these are immutable lists
             else json.setValue(subManagerJsons);
         }
         transitionTo(prevState);
@@ -287,7 +287,7 @@ public abstract class Manager extends EngineBound implements Jsonic<Manager> {
     public final @NotNull Manager fromJson(@NotNull JSONObject json) {
         ManagerState prevState = getState();
         transitionTo(ManagerState.LOADING);
-        getSubManagers().forEach(manager -> manager.fromJson(json.get(manager.getClass().getSimpleName(), JSONObject.class)));
+        getSubManagers().forEach(manager -> manager.fromJson(json.requireJson(manager.getClass().getSimpleName())));
         doFromJson(json);
         transitionTo(prevState);
         return this;

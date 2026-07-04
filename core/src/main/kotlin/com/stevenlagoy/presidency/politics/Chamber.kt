@@ -5,28 +5,41 @@ import com.stevenlagoy.presidency.characters.PoliticalActor
 import com.stevenlagoy.presidency.map.HasPolitics
 import com.stevenlagoy.presidency.politics.voting.Election
 
-import com.stevenlagoy.jsonic.Jsonic
-
 class Chamber(
-    val chamberName: String,
-    val memberTitle: String,
-    val federalLevel: FederalLevel,
-    val isUpperChamber: Boolean = false,
-    val termLength: Int,
+    chamberName: String,
+    memberTitle: String,
+    federalLevel: FederalLevel,
+    isUpperChamber: Boolean = false,
+    termLength: Int,
     var nextElection: Election,
-    override val pastElectionResults: MutableList<ElectionResult>,
-    val seats: Int, // May be vacancies, so members.size does not always match seats
+    pastElectionResults: MutableList<ElectionResult>,
+    seats: Int,
     var members: MutableList<PoliticalActor>,
-) : HasPolitics, Jsonic<Chamber> {
+) : HasPolitics {
 
-    fun replaceMember(oldMember: PoliticalActor, newMember: PoliticalActor) {
-        members.remove(oldMember)
-        members.add(newMember)
-    }
+    var chamberName = chamberName
+        internal set
 
-    override val partiesPresent: MutableSet<Party> get() = members.mapNotNull { it.partyAffiliation }.toMutableSet()
+    var memberTitle = memberTitle
+        internal set
 
-    fun isPartyMajority(party: Party): Boolean = members.count { it.partyAffiliation == party } > (seats / 2.0)
+    var federalLevel = federalLevel
+        internal set
+
+    var isUpperChamber = isUpperChamber
+        internal set
+
+    var termLength = termLength
+        internal set
+
+    override var pastElectionResults = pastElectionResults
+        internal set
+
+    var seats = seats // May be vacancies, so members.size does not always match number of seats
+        internal set
+
+    override val partiesPresent: MutableSet<Party>
+        get() = members.mapNotNull { it.partyAffiliation }.toMutableSet()
 
     override val partyControlFactors: List<(party: Party) -> Double> = listOf(
         // Proportion of seats
@@ -39,16 +52,31 @@ class Chamber(
         },
     )
 
-    override fun toJson() = JSONObject(chamberName, mapOf(
-        "chamber_name" to chamberName,
-        "member_title" to memberTitle,
-        "federal_level" to federalLevel.toString(),
-        "is_upper_chamber" to isUpperChamber,
-        "term_length" to termLength,
-        "seats" to seats,
-        "members" to members.map { it.toString() }
+    fun replaceMember(oldMember: PoliticalActor, newMember: PoliticalActor) {
+        members.remove(oldMember)
+        members.add(newMember)
+    }
+
+    fun isPartyMajority(party: Party): Boolean = members.count { it.partyAffiliation == party } > (seats / 2.0)
+
+    override fun toJson() = JSONObject(chamberName, listOf(
+        JSONObject("chamberName", chamberName),
+        JSONObject("memberTitle", memberTitle),
+        JSONObject("federalLevel", federalLevel.toString()),
+        JSONObject("isUpperChamber", isUpperChamber),
+        JSONObject("termLength", termLength),
+        JSONObject("seats", seats),
+        JSONObject("members", members.map { it.toString() }),
     ))
 
-    override fun fromJson(json: JSONObject) = this.apply {
+    override fun fromJson(json: JSONObject) = apply {
+        chamberName = json.requireString("chamberName", "chamber_name")
+        memberTitle = json.requireString("memberTitle", "member_title")
+        federalLevel = FederalLevel.valueOf(json.requireString("federalLevel", "federal_level"))
+        isUpperChamber = json.requireBoolean("isUpperChamber")
+        termLength = json.requireInt("termLength")
+        pastElectionResults.clear()
+        pastElectionResults.addAll(json.requireArray("pastElectionResults", "past_election_results").filterIsInstance<JSONObject>().map { ElectionResult(it) })
+        seats = json.requireInt("seats")
     }
 }

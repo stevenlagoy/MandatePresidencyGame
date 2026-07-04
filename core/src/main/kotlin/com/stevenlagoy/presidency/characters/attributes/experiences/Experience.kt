@@ -6,7 +6,6 @@ import com.stevenlagoy.presidency.core.EngineBound
 import kotlin.jvm.optionals.getOrNull
 
 /**
- * @property tier [ExperienceTier] of this experience
  * @property capacity How much of a PoliticalActor's working ability a certain experience requires. The sum of any concurrent experiences must sum to 1.0 or less.
  * @property minTenure Minimum amount of time a PoliticalActor may have this experience.
  * @property avgTenure The average amount of time a PoliticalActor will have this experience.
@@ -37,49 +36,54 @@ class Experience(
     constructor(engine: Engine, json: JSONObject) : this(
         engine,
         json.key,
-        json.get("name", String::class.java),
-        json.get("track", String::class.java),
-        (json.get("capacity") as Number).toDouble(),
-        (json.get("tenure_years", List::class.java).find {
+        json.requireString("name"),
+        json.requireString("track"),
+        json.requireDouble("capacity"),
+        (json.requireArray("tenure_years").find {
             (it as JSONObject).key == "min"
-        } as JSONObject).asNumber.toDouble(),
-        (json.get("tenure_years", List::class.java).find {
+        } as JSONObject).requireDouble(),
+        (json.requireArray("tenure_years").find {
             (it as JSONObject).key == "avg"
-        } as JSONObject).asNumber.toDouble(),
-        (json.get("tenure_years", List::class.java).find {
+        } as JSONObject).requireDouble(),
+        (json.requireArray("tenure_years").find {
             (it as JSONObject).key == "max"
-        } as JSONObject).asNumber.toDouble(),
-        json.get("repeatable") as Boolean,
-        json.get("prerequisites", List::class.java).map { engine.CHARACTER_MANAGER.EXPERIENCE_MANAGER.matchExperience(it as String).let { opt ->
+        } as JSONObject).requireDouble(),
+        json.requireBoolean("repeatable"),
+        json.requireArray("prerequisites").map { engine.CHARACTER_MANAGER.EXPERIENCE_MANAGER.matchExperience(it as String).let { opt ->
             if (opt.isEmpty) {
                 println(opt)
             }
             opt.get()
         } },
-        when (json.get("prerequisiteLogic", String::class.java)) {
+        when (json.requireString("prerequisiteLogic")) {
             "any" -> PrerequisiteLogic.ANY
             "all" -> PrerequisiteLogic.ALL
             else  -> PrerequisiteLogic.ANY
         },
-        json.get("base_chance", Number::class.java).toDouble(),
-        json.get("min_age", Number::class.java).toInt(),
-        json.get("max_age", Number::class.java).toInt(),
+        json.requireDouble("base_chance"),
+        json.requireInt("min_age"),
+        json.requireInt("max_age"),
         Triple(
-            (json.get("yearly_skills", List::class.java).find {
+            (json.requireArray("yearly_skills").find {
                 (it as JSONObject).key == "legislative"
-            } as JSONObject).asNumber.toDouble(),
-            (json.get("yearly_skills", List::class.java).find {
+            } as JSONObject).requireDouble(),
+            (json.requireArray("yearly_skills").find {
                 (it as JSONObject).key == "executive"
-            } as JSONObject).asNumber.toDouble(),
-            (json.get("yearly_skills", List::class.java).find {
+            } as JSONObject).requireDouble(),
+            (json.requireArray("yearly_skills").find {
                 (it as JSONObject).key == "judicial"
-            } as JSONObject).asNumber.toDouble(),
+            } as JSONObject).requireDouble(),
         ),
-        json.get("description", String::class.java),
-        json.get("connections", List::class.java).associate {
-            engine.CHARACTER_MANAGER.EXPERIENCE_MANAGER.matchExperience((it as JSONObject).key).getOrNull() to it.asNumber.toDouble()
+        json.requireString("description"),
+        json.requireArray("connections").associate {
+            engine.CHARACTER_MANAGER.EXPERIENCE_MANAGER.matchExperience((it as JSONObject).key).getOrNull() to it.requireDouble()
         }.toMutableMap()
     )
 
     fun prerequisitsMet(priors: Collection<Experience>) = prerequisiteLogic.evaluate(priors, prerequisites)
+
+    enum class PrerequisiteLogic(val evaluate: (Collection<Experience>, Collection<Experience>) -> Boolean) {
+        ANY(fun(priors: Collection<Experience>, prerequisites: Collection<Experience>) = prerequisites.isEmpty() || prerequisites.find { it in priors } != null),
+        ALL(fun(priors: Collection<Experience>, prerequisites: Collection<Experience>) = prerequisites.isEmpty() || prerequisites.find { it !in priors } == null),
+    }
 }

@@ -1,9 +1,8 @@
 package com.stevenlagoy.presidency.politics.voting
 
 import com.stevenlagoy.presidency.politics.Issue
-import kotlin.collections.iterator
 
-abstract class TabulationRule {
+sealed class TabulationRule {
     abstract fun tabulate(results: Map<VotingReturn, Int>): List<IssueResult>
 
     data class IssueResult(

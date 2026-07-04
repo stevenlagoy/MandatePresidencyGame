@@ -3,9 +3,7 @@ package com.stevenlagoy.presidency.map
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.demographics.Bloc
-import com.stevenlagoy.presidency.politics.ElectionResult
 import com.stevenlagoy.presidency.politics.Government
-import com.stevenlagoy.presidency.politics.Party
 import com.stevenlagoy.presidency.util.parseHex
 
 class County(
@@ -37,6 +35,9 @@ class County(
     government,
 ), HasFIPS {
 
+    val qualifiedName: String
+        get() = "$commonName, ${state.commonName}"
+
     override var FIPS: String = FIPS
         internal set
 
@@ -66,22 +67,35 @@ class County(
         if (_state != null) state = _state
     }
 
+    internal fun addMunicipality(municipality: Municipality) {
+        municipalities = (municipalities.toMutableSet() + municipality).toSet()
+    }
+
     override fun toJson() = super.toJson().merge(
         JSONObject("FIPS", FIPS),
         JSONObject("state", state.fullName),
-        JSONObject("municipalities", municipalities.map { it.fullName }),
+        JSONObject("municipalities", municipalities.map { it.FIPS }),
         JSONObject("color", color),
         JSONObject("type", type),
-    )!!
+    )
 
     override fun fromJson(json: JSONObject) = this.apply {
         super.fromJson(json)
-        FIPS = json.get("FIPS", String::class.java)
-        val _state = engine.MAP_MANAGER.matchState(json.get("state", String::class.java))
+        FIPS = json.requireString("FIPS")
+        val _state = engine.MAP_MANAGER.matchState(json.requireString("state"))
         if (_state.isPresent) state = _state.get()
-        municipalities = json.get("municipalities", List::class.java).map { engine.MAP_MANAGER.matchMunicipality(it as String) }.filter { it.isPresent }.map { it.get() }.toSet()
-        color = parseHex(json.get("color", String::class.java))
-        type = CountyType.valueOf(json.get("type", String::class.java))
+        municipalities = if (json.hasKey("municipalities"))
+            json.requireArray("municipalities").asSequence().filterIsInstance<String>().map { engine.MAP_MANAGER.matchMunicipality(it) }.filter { it.isPresent }.map { it.get() }.toSet()
+            else setOf()
+        color = parseHex(json.requireString("color"))
+        type = if (json.hasKey("type"))
+            CountyType.valueOf(json.requireString("type").uppercase().replace(Regex("[^A-Z0-9]"), "_"))
+            else if (_state.isPresent) when(_state.get().commonName) {
+                "Louisiana" -> CountyType.PARISH
+                "Alaska" -> CountyType.BOROUGH
+                "Connecticut" -> CountyType.PLANNING_REGION
+                else -> CountyType.COUNTY
+            } else CountyType.COUNTY
     }
 
     enum class CountyType {

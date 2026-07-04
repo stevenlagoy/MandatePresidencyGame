@@ -4,6 +4,8 @@ import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.demographics.Bloc
 import com.stevenlagoy.presidency.politics.Government
+import kotlin.jvm.optionals.getOrElse
+import kotlin.jvm.optionals.getOrNull
 
 abstract class SoverignArea(
     engine: Engine,
@@ -49,18 +51,15 @@ abstract class SoverignArea(
     ))
 
     override fun fromJson(json: JSONObject) = this.apply {
-        fullName      = json.get("fullName", String::class.java)
-        commonName    = json.get("commonName", String::class.java)
-        squareMileage = json.get("squareMileage", Number::class.java).toDouble()
-        population    = json.get("population", Number::class.java).toInt()
+        fullName      = json.requireString("fullName", "full_name", "name")
+        commonName    = json.requireString("commonName", "common_name", "name")
+        squareMileage = json.findDouble("squareMileage", "landArea", "square_mileage", "land_area").getOrElse { 0.0 }
+        population    = json.findInt("population") { 0 }!!
         demographics  = emptyMap()
-        capital       = engine.MAP_MANAGER.matchMunicipality(json.get("capital", String::class.java)).orElseThrow()
-        descriptors   = if (json.get("descriptors") != null)
-            json.get("descriptors", List::class.java).map { engine.MAP_MANAGER.matchDescriptor(it as String) }
-                .filter { it.isPresent }.map { it.get() }.toSet()
-            else emptySet()
+        capital       = engine.MAP_MANAGER.matchMunicipality(json.findString(listOf("capital", "countySeat", "county_seat")) { "" }!!).getOrNull()
+        descriptors   = json.findArray("descriptors") { emptyList<String>() }!!.map { engine.MAP_MANAGER.matchDescriptor(it as String) }.filter { it.isPresent }.map { it.get() }.toSet()
         if (government != null)
-            government?.fromJson(json.get("government", JSONObject::class.java))
-            else Government(engine, json.get("government", JSONObject::class.java))
+            government!!.fromJson(json.requireJson("government"))
+        else government = Government(engine, json.requireJson("government"))
     }
 }

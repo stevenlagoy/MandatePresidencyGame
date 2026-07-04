@@ -1,7 +1,7 @@
 package com.stevenlagoy.presidency.map
 
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.jsonic.Jsonic
+import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.demographics.Bloc
@@ -20,7 +20,7 @@ abstract class MapEntity(
     /** Set of descriptors of which this map entity is a member. */
     var descriptors: Set<Descriptor>,
     region: RegionData?,
-): Jsonic<MapEntity>, EngineBound(engine) {
+): JSONSerializable<MapEntity>, EngineBound(engine) {
     init {
         require(population >= 0) { "Population must be non-negative" }
         require(squareMileage >= 0.0) { "Area must be non-negative" }
@@ -54,23 +54,16 @@ abstract class MapEntity(
     override fun toJson() = JSONObject(name, listOf(
         JSONObject("name",           name),
         JSONObject("population",     population),
-        JSONObject("square_mileage", squareMileage),
+        JSONObject("squareMileage", squareMileage),
         JSONObject("descriptors",    descriptors.map { it.name }.toList()),
         JSONObject("demographics",   demographics),
     ))
 
     override fun fromJson(json: JSONObject) = this.apply {
-        try {
-            name          = json.get("name", String::class.java)
-            population    = json.get("population", Number::class.java).toInt()
-            demographics   = emptyMap() // From DemographicsManager
-            squareMileage = json.get("square_mileage", Number::class.java).toDouble()
-            descriptors   = if (json.get("descriptors") != null)
-                json.get("descriptors", List::class.java).map { engine.MAP_MANAGER.matchDescriptor(it as String) }
-                    .filter { it.isPresent }.map { it.get() }.toSet()
-                else emptySet()
-        } catch (e: Exception) {
-            println(json)
-        }
+        name          = json.requireString("name")
+        population    = json.findInt("population") { 0 }!!
+        demographics  = emptyMap() // From DemographicsManager
+        squareMileage = json.findDouble("squareMileage") { 0.0 }!!
+        descriptors   = json.findArray("descriptors") { emptyList<String>() }!!.asSequence().filterIsInstance<String>().map { engine.MAP_MANAGER.matchDescriptor(it) }.filter { it.isPresent }.map { it.get() }.toSet()
     }
 }

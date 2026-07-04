@@ -37,8 +37,9 @@ class CensusRegion(
 
     override fun fromJson(json: JSONObject) = this.apply {
         super.fromJson(json)
-        censusDivisions = json.get("censusDivisions", List::class.java).map {
-            val division = CensusDivision(engine, it as JSONObject)
+        censusDivisions = json.requireArray("censusDivisions").filterIsInstance<JSONObject>().map {
+            val division = CensusDivision(engine, it)
+            division.censusRegion = this
             engine.MAP_MANAGER.censusDivisions.add(division)
             division
         }.toSet()

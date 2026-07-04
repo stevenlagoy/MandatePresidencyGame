@@ -1,9 +1,6 @@
 package com.stevenlagoy.presidency.characters.attributes
 
-import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.jsonic.Jsonic
-
-enum class Education(val value: Int) : Jsonic<Education> {
+enum class Education(val value: Int) {
 
     /** `0`: Early Childhood Education: For children younger than three years through Preschool or Kindergarten. */
     EARLY_CHILDHOOD(0),
@@ -32,18 +29,4 @@ enum class Education(val value: Int) : Jsonic<Education> {
     /** `8`: Doctorate or Equivalent: Advanced research qualification, usually with submission and defense of a substantive dissertation. */
     DOCTORAL(8);
 
-    companion object {
-        private val BY_VALUE = entries.associateBy(Education::value)
-        @JvmStatic
-        fun fromValue(value: Int): Education? = BY_VALUE[value]
-    }
-
-    fun educationFromString(name: String): Education? =
-        entries.find { it.name.equals(name, ignoreCase = true) }
-
-    override fun toJson() = JSONObject("education", value)
-
-    override fun fromJson(json: JSONObject): Education? {
-        return Education.fromValue(json.get("education") as Int)
-    }
 }

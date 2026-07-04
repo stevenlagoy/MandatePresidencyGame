@@ -1,7 +1,6 @@
 package com.stevenlagoy.presidency.map.travel.route;
 
 import com.stevenlagoy.jsonic.JSONObject;
-import com.stevenlagoy.jsonic.JSONProcessor;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.map.CensusDivision;
@@ -11,6 +10,7 @@ import com.stevenlagoy.presidency.map.State;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
+import java.io.IOException;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
@@ -50,7 +50,6 @@ public class RouteManager extends Manager {
 
     @Override
     protected void doInit() {
-        readRoadwayTypes();
         readRoadways();
         readAirports();
         readSeaports();
@@ -81,50 +80,75 @@ public class RouteManager extends Manager {
 
     // Read and Create
 
-    private void readRoadwayTypes() {
-        JSONObject json = JSONProcessor.processJson(ROADWAY_DESIGNATIONS);
-        for (Object obj : json.getAsList()) {
-            if (obj instanceof JSONObject designationJson) {
-                String name = designationJson.getKey();
-                int speed = designationJson.getAsNumber().intValue();
-                roadwayDesignations.add(new Roadway.RoadwayDesignation(name, speed));
-            }
-        }
-    }
-
     private void readRoadways() {
-        JSONObject json = JSONProcessor.processJson(ROADWAYS);
-        for (Object obj : json.getAsList()) {
-            if (obj instanceof JSONObject roadwayJson) {
-                roadways.add(new Roadway(engine, roadwayJson));
+        try {
+            JSONObject json = new JSONObject(ROADWAYS);
+            for (Object roadwayObj : json.requireArray()) {
+                if (roadwayObj instanceof JSONObject roadwayJson) {
+                    try {
+                        roadways.add(new Roadway(engine, roadwayJson));
+                    }
+                    catch (IllegalArgumentException e) {
+                        onDegraded(e);
+                    }
+                }
             }
+        } catch (IOException e) {
+            onError(e);
         }
     }
 
     private void readAirports() {
-        JSONObject json = JSONProcessor.processJson(AIRPORTS);
-        for (Object obj : json.getAsList()) {
-            if (obj instanceof JSONObject airportJson) {
-                airports.add(new Airport(engine, airportJson));
+        try {
+            JSONObject json = new JSONObject(AIRPORTS);
+            for (Object obj : json.requireArray()) {
+                if (obj instanceof JSONObject airportJson) {
+                    try {
+                        airports.add(new Airport(engine, airportJson));
+                    }
+                    catch (IllegalArgumentException e) {
+                        onDegraded(e);
+                    }
+                }
             }
+        } catch (IOException e) {
+            onError(e);
         }
     }
 
     private void readRailways() {
-        JSONObject json = JSONProcessor.processJson(RAILWAYS);
-        for (Object obj : json.getAsList()) {
-            if (obj instanceof JSONObject railwayJson) {
-                railways.add(new Railway(engine, railwayJson));
+        try {
+            JSONObject json = new JSONObject(RAILWAYS);
+            for (Object obj : json.requireArray()) {
+                if (obj instanceof JSONObject railwayJson) {
+                    try {
+                        railways.add(new Railway(engine, railwayJson));
+                    }
+                    catch (IllegalArgumentException e) {
+                        onDegraded(e);
+                    }
+                }
             }
+        } catch (IOException e) {
+            onError(e);
         }
     }
 
     private void readSeaports() {
-        JSONObject json = JSONProcessor.processJson(SEAPORTS);
-        for (Object obj : json.getAsList()) {
-            if (obj instanceof JSONObject seaportJson) {
-                seaports.add(new Seaport(engine, seaportJson));
+        try {
+            JSONObject json = new JSONObject(SEAPORTS);
+            for (Object obj : json.requireArray()) {
+                if (obj instanceof JSONObject seaportJson) {
+                    try {
+                        seaports.add(new Seaport(engine, seaportJson));
+                    }
+                    catch (IllegalArgumentException e) {
+                        onDegraded(e);
+                    }
+                }
             }
+        } catch (IOException e) {
+            onError(e);
         }
     }
 
@@ -142,11 +166,6 @@ public class RouteManager extends Manager {
             }
         }
         return connections;
-    }
-
-    public @NotNull Optional<Roadway.RoadwayDesignation> matchRoadwayDesignation(@NotNull String designationName) {
-        requireState(ManagerState.ACTIVE, ManagerState.PAUSED, ManagerState.DEGRADED, ManagerState.INITIALIZING);
-        return roadwayDesignations.stream().filter(designation -> designation.getName().equals(designationName)).findFirst();
     }
 
     public @NotNull Optional<Roadway> matchRoadway(@NotNull String nameOrCode) {

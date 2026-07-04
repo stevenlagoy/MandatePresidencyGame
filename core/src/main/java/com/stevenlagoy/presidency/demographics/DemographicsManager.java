@@ -1,7 +1,6 @@
 package com.stevenlagoy.presidency.demographics;
 
 import com.stevenlagoy.jsonic.JSONObject;
-import com.stevenlagoy.jsonic.JSONProcessor;
 import com.stevenlagoy.presidency.characters.Citizen;
 import com.stevenlagoy.presidency.characters.attributes.Sex;
 import com.stevenlagoy.presidency.core.Engine;
@@ -12,6 +11,7 @@ import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.io.IOException;
 import java.time.LocalDate;
 import java.util.*;
 
@@ -93,15 +93,19 @@ public class DemographicsManager extends Manager {
 
     private void readBlocData() {
         requireState(ManagerState.INITIALIZING);
-        demographicBlocs = new HashMap<>();
-        JSONObject json = JSONProcessor.processJson(FilePaths.BLOCS);
-        for (Object categoryObject : json.getAsList()) {
-            if (categoryObject instanceof JSONObject categoryJson) {
-                String key = categoryJson.getKey();
-                DemographicCategory category = DemographicCategory.valueOf(key.toUpperCase().replaceAll("[^a-zA-Z]+","_"));
-                List<Bloc> blocs = createBlocs(category, categoryJson.getAsObject());
-                demographicBlocs.put(category, blocs);
+        try {
+            demographicBlocs = new HashMap<>();
+            JSONObject json = new JSONObject(FilePaths.BLOCS);
+            for (Object categoryObject : json.requireArray()) {
+                if (categoryObject instanceof JSONObject categoryJson) {
+                    String key = categoryJson.getKey();
+                    DemographicCategory category = DemographicCategory.valueOf(key.toUpperCase().replaceAll("[^a-zA-Z]+","_"));
+                    List<Bloc> blocs = createBlocs(category, categoryJson.requireJson());
+                    demographicBlocs.put(category, blocs);
+                }
             }
+        } catch (IOException e) {
+            onError(e);
         }
     }
 
@@ -114,7 +118,7 @@ public class DemographicsManager extends Manager {
         requireState(ManagerState.INITIALIZING);
         List<Bloc> blocs = new ArrayList<>();
 
-        for (Object keyObj : structure.getAsList()) {
+        for (Object keyObj : structure.requireArray()) {
             if (keyObj instanceof JSONObject keyJson) {
                 String blocName = keyJson.getKey();
                 Object value = keyJson.getValue();
@@ -150,9 +154,13 @@ public class DemographicsManager extends Manager {
 
     private void readPopulationPyramidData() {
         requireState(ManagerState.INITIALIZING);
-        populationPyramid = new HashMap<>();
-        JSONObject json = JSONProcessor.processJson(FilePaths.BIRTHYEAR_PERCENTAGES);
-        populationPyramid.put(null, null); // TODO
+        try {
+            populationPyramid = new HashMap<>();
+            JSONObject json = new JSONObject(FilePaths.BIRTHYEAR_PERCENTAGES);
+            populationPyramid.put(null, null); // TODO
+        } catch (IOException e) {
+            onError(e);
+        }
     }
 
     public @NotNull Map<Integer, Double> getPopulationPyramid(@NotNull Bloc... blocs) {

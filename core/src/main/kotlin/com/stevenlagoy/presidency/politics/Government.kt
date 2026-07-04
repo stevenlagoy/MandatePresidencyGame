@@ -1,7 +1,6 @@
 package com.stevenlagoy.presidency.politics
 
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.jsonic.Jsonic
 import com.stevenlagoy.presidency.characters.attributes.finances.BalanceSheet
 import com.stevenlagoy.presidency.characters.attributes.finances.CashAccount
 import com.stevenlagoy.presidency.characters.attributes.finances.FinancialEntity
@@ -23,12 +22,12 @@ class Government(
     val judicialBranch: JudicialBranch = JudicialBranch(),
     override val pastElectionResults: MutableList<ElectionResult> = mutableListOf(),
     override val balanceSheet: BalanceSheet = BalanceSheet(engine),
-    override val cashAccount: CashAccount = CashAccount(),
-) : FinancialEntity, HasPolitics, Jsonic<Government>, EngineBound(engine)
-{
-    constructor(engine: Engine, json: JSONObject) : this(
-        engine
-    )
+    override val cashAccount: CashAccount = CashAccount(engine),
+) : FinancialEntity, HasPolitics, EngineBound(engine) {
+
+    constructor(engine: Engine, json: JSONObject) : this(engine) {
+        fromJson(json)
+    }
 
     override val partiesPresent: MutableSet<Party>
         get() = (executiveBranch.partiesPresent + legislativeBranch.partiesPresent + judicialBranch.partiesPresent).toMutableSet()
@@ -46,11 +45,11 @@ class Government(
         )},
     )
 
-    override fun toJson() = JSONObject(title, mapOf(
-        "title" to title,
-        "executive_branch" to executiveBranch.toJson(),
-        "legislative_branch" to legislativeBranch.toJson(),
-        "judicial_branch" to judicialBranch.toJson(),
+    override fun toJson() = JSONObject(title, listOf(
+        JSONObject("title", title),
+        JSONObject("executiveBranch", executiveBranch.toJson()),
+        JSONObject("legislativeBranch", legislativeBranch.toJson()),
+        JSONObject("judicialBranch", judicialBranch.toJson()),
     ))
 
     override fun fromJson(json: JSONObject) = this.apply {}

@@ -32,11 +32,15 @@ class ExecutiveBranch(
         },
     )
 
-    override fun toJson(): JSONObject? {
-        TODO("Not yet implemented")
-    }
+    override fun toJson() = super.toJson().merge(
+        JSONObject("executives", executives.map { it.name.indexedName }),
+        JSONObject("chiefExecutive", chiefExecutive?.name?.indexedName),
+        JSONObject("chiefExecutiveTitle", chiefExecutiveTitle),
+        JSONObject("deputyExecutive", deputyExecutive?.name?.indexedName),
+        JSONObject("deputyExecutiveTitle", deputyExecutiveTitle),
+    )
 
-    override fun fromJson(json: JSONObject?): GovernmentBranch? {
-        TODO("Not yet implemented")
+    override fun fromJson(json: JSONObject) = apply {
+
     }
 }

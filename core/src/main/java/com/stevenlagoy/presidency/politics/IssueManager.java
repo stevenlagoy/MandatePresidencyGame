@@ -6,6 +6,7 @@ import com.stevenlagoy.presidency.core.Manager;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
+import java.util.Optional;
 
 public class IssueManager extends Manager {
 
@@ -40,5 +41,9 @@ public class IssueManager extends Manager {
     @Override
     protected void doFromJson(@NotNull JSONObject json) {
 
+    }
+
+    public @NotNull Optional<Issue> matchIssue(String title) {
+        return Optional.empty();
     }
 }
