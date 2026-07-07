@@ -55,12 +55,21 @@
     "Vermont Progressive Party" : {
         "full_name" : "Vermont Progressive Party",
         "adjective" : "Progressive",
-        "shortening" : "Prog",
+        "shortening" : "VT Prog.",
         "demonym" : "Progressive",
         "colors" : ["red"],
         "symbols" : ["hermit thrush", "deer"],
         "headquarters" : "Montpelier, VT",
         "membership" : 44743
+    },
+    "Conservative Party of New York State" : {
+        "full_name" : "Conservative Party of New York State",
+        "colors" : ["orange", "navy"],
+        "headquarters" : "Brooklyn, NY",
+        "symbols" : ["torch"],
+        "membership" : 163314,
+        "adjective" : "Conservative",
+        "shortening" : "NY Cons."
     },
     "Forward Party" : {
         "full_name" : "Forward Party",
@@ -184,7 +193,6 @@
     "Independent Party of Oregon" : {},
     "Peace and Freedom Party" : {},
     "Colorado Center Party" : {},
-    "Conservative Party of New York State" : {},
     "Independent Party of Louisiana" : {},
     "United Kansas" : {},
     "Approval Voting Party" : {},
