@@ -1,0 +1,80 @@
+{
+    "FIPS" : "54",
+    "commonName" : "West Virginia",
+    "fullName" : "State of West Virginia",
+    "map_color" : "#FF8A32",
+    "flag_loc" : "west_virginia_flag.png",
+    "population" : 1793716,
+    "squareMileage" : 24230,
+    "abbreviation" : "WV",
+    "demonym" : "West Virginian",
+    "motto" : "Montani semper liberi",
+    "nickname" : "Mountain State",
+    "capital" : "Charleston",
+    "federal_court_circuit" : 4,
+    "censusDivision" : "South Atlantic",
+    "descriptors" : [
+        "WEST_VIRGINIA",
+        "SOUTH",
+        "SOUTH_ATLANTIC"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "executiveBranch" : {
+            "positions" : {
+                "" : {
+                    "title" : ""
+                }
+            }
+        },
+        "legislativeBranch" : {
+            "title" : "",
+            "chambers" : {
+                "" : {
+                    "name" : "",
+                    "isUpperChamber" : true,
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                },
+                "" : {
+                    "name" : "",
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                }
+            }
+        },
+        "judicialBranch" : {
+            "title" : "",
+            "supreme_court" : {
+                "fullName" : "",
+                "commonName" : "",
+                "basis" : "",
+                "judges" : 0,
+                "appellate_courts" : {
+                    "" : {
+                        "fullName" : "",
+                        "basis" : "",
+                        "judges" : 0,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    }
+                }
+            }
+        }
+    }
+}

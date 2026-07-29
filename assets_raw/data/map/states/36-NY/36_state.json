@@ -1,0 +1,80 @@
+{
+    "FIPS" : "36",
+    "commonName" : "New York",
+    "fullName" : "State of New York",
+    "map_color" : "#FF4832",
+    "flag_loc" : "new_york_flag.png",
+    "population" : 20201249,
+    "squareMileage" : 54555,
+    "abbreviation" : "NY",
+    "demonym" : "New Yorker",
+    "motto" : "Excelsior",
+    "nickname" : "Empire State",
+    "capital" : "Albany",
+    "federal_court_circuit" : 2,
+    "censusDivision" : "Mid-Atlantic",
+    "descriptors" : [
+        "NEW_YORK",
+        "NORTHEAST",
+        "MID-ATLANTIC"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "executiveBranch" : {
+            "positions" : {
+                "" : {
+                    "title" : ""
+                }
+            }
+        },
+        "legislativeBranch" : {
+            "title" : "",
+            "chambers" : {
+                "" : {
+                    "name" : "",
+                    "isUpperChamber" : true,
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                },
+                "" : {
+                    "name" : "",
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                }
+            }
+        },
+        "judicialBranch" : {
+            "title" : "",
+            "supreme_court" : {
+                "fullName" : "",
+                "commonName" : "",
+                "basis" : "",
+                "judges" : 0,
+                "appellate_courts" : {
+                    "" : {
+                        "fullName" : "",
+                        "basis" : "",
+                        "judges" : 0,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    }
+                }
+            }
+        }
+    }
+}

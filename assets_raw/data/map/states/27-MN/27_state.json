@@ -1,0 +1,80 @@
+{
+    "FIPS" : "27",
+    "commonName" : "Minnesota",
+    "fullName" : "State of Minnesota",
+    "map_color" : "#32FF65",
+    "flag_loc" : "minnesota_flag.png",
+    "population" : 5706494,
+    "squareMileage" : 86936,
+    "abbreviation" : "MN",
+    "demonym" : "Minnesotan",
+    "motto" : "L'Étoile du Nord",
+    "nickname" : "North Star State",
+    "capital" : "Saint Paul",
+    "federal_court_circuit" : 8,
+    "censusDivision" : "West North Central",
+    "descriptors" : [
+        "MINNESOTA",
+        "MIDWEST",
+        "WEST_NORTH_CENTRAL"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "executiveBranch" : {
+            "positions" : {
+                "" : {
+                    "title" : ""
+                }
+            }
+        },
+        "legislativeBranch" : {
+            "title" : "",
+            "chambers" : {
+                "" : {
+                    "name" : "",
+                    "isUpperChamber" : true,
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                },
+                "" : {
+                    "name" : "",
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                }
+            }
+        },
+        "judicialBranch" : {
+            "title" : "",
+            "supreme_court" : {
+                "fullName" : "",
+                "commonName" : "",
+                "basis" : "",
+                "judges" : 0,
+                "appellate_courts" : {
+                    "" : {
+                        "fullName" : "",
+                        "basis" : "",
+                        "judges" : 0,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    }
+                }
+            }
+        }
+    }
+}

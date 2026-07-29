@@ -1,0 +1,77 @@
+{
+    "FIPS" : "72",
+    "commonName" : "Puerto Rico",
+    "fullName" : "Commonwealth of Puerto Rico",
+    "map_color" : "#FF3248",
+    "flag_loc" : "puerto_rico_flag.png",
+    "population" : 3285874,
+    "squareMileage" : 5325,
+    "abbreviation" : "PR",
+    "demonym" : "Perto Rican",
+    "motto" : "Joannes Est Nomen Ejus",
+    "nickname" : "La Isla del Encanto",
+    "capital" : "San Juan",
+    "federal_court_circuit" : 1,
+    "descriptors" : [
+        "PUERTO_RICO"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "executiveBranch" : {
+            "positions" : {
+                "" : {
+                    "title" : ""
+                }
+            }
+        },
+        "legislativeBranch" : {
+            "title" : "",
+            "chambers" : {
+                "" : {
+                    "name" : "",
+                    "isUpperChamber" : true,
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                },
+                "" : {
+                    "name" : "",
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                }
+            }
+        },
+        "judicialBranch" : {
+            "title" : "",
+            "supreme_court" : {
+                "fullName" : "",
+                "commonName" : "",
+                "basis" : "",
+                "judges" : 0,
+                "appellate_courts" : {
+                    "" : {
+                        "fullName" : "",
+                        "basis" : "",
+                        "judges" : 0,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    }
+                }
+            }
+        }
+    }
+}

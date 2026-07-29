@@ -1,0 +1,294 @@
+{
+    "FIPS" : "06",
+    "commonName" : "California",
+    "fullName" : "State of California",
+    "map_color" : "#DAFF32",
+    "flag_loc" : "california_flag.png",
+    "population" : 39538223,
+    "squareMileage" : 163695,
+    "abbreviation" : "CA",
+    "demonym" : "Californian",
+    "motto" : "Eureka",
+    "nickname" : "Golden State",
+    "capital" : "Sacramento",
+    "federal_court_circuit" : 9,
+    "censusDivision" : "Pacific",
+    "descriptors" : [
+        "CALIFORNIA",
+        "WEST",
+        "PACIFIC"
+    ],
+    "government" : {
+        "name" : "Government of California",
+        "constituency" : "California",
+        "federalLevel" : "state",
+        "constitution" : "Constituion of California",
+        "executiveBranch" : {
+            "positions" : {
+                "california_governor" : {
+                    "title" : "Governor of California",
+                    "termLength" : 4,
+                    "termLimit" : 2
+                },
+                "california_lieutenant_governor" : {
+                    "title" : "Lieutenant Governor of California",
+                    "termLength" : 4,
+                    "termLimit" : 2
+                },
+                "california_secretary_of_state" : {
+                    "title" : "Secretary of State of California",
+                    "termLength" : 4,
+                    "termLimit" : 2
+                },
+                "california_attorney_general" : {
+                    "title" : "Attorney General of California",
+                    "termLength" : 4,
+                    "termLimit" : 2
+                },
+                "california_state_treasurer" : {
+                    "title" : "State Treasuerer of California",
+                    "termLength" : 4,
+                    "termLimit" : 2
+                },
+                "california_state_controller" : {
+                    "title" : "State Controller of California",
+                    "termLength" : 4,
+                    "termLimit" : 2
+                },
+                "california_state_superintendant_of_public_instruction" : {
+                    "title" : "State Superintendant of Public Instruction of California",
+                    "termLength" : 4,
+                    "termLimit" : 2
+                },
+                "california_insurance_commissioner" : {
+                    "title" : "Insurance Commissioner of California",
+                    "termLength" : 4,
+                    "termLimit" : 2
+                }
+            }
+        },
+        "legislativeBranch" : {
+            "title" : "California State Legislature",
+            "chambers" : {
+                "california_senate" : {
+                    "name" : "California State Senate",
+                    "isUpperChamber" : true,
+                    "termLength" : 4,
+                    "termLimit" : 3,
+                    "nextElectionDate" : "07 November 2028",
+                    "seats" : 40,
+                    "positions" : {
+                        "california_state_senator" : {
+                            "title" : "California State Senator"
+                        },
+                        "california_senate_president" : {
+                            "title" : "President of the California State Senate",
+                            "coincident" : "california_lieutenant_governor"
+                        },
+                        "california_senate_president_pro_tempore" : {
+                            "title" : "President pro tempore of the California State Senate",
+                            "coincident" : "california_state_senator"
+                        },
+                        "california_senate_majority_leader" : {
+                            "title" : "Majority Leader of the California State Senate",
+                            "coincident" : "california_state_senator"
+                        },
+                        "california_senate_assistant_majority_leader" : {
+                            "title" : "Assistant Majority Leader of the California State Senate",
+                            "count" : 2,
+                            "coincident" : "california_state_senator"
+                        },
+                        "california_senate_democratic_caucus_chair" : {
+                            "title" : "Chair of the Democratic Caucus for the California State Senate",
+                            "coincident" : "california_state_senator"
+                        },
+                        "california_senate_majority_whip" : {
+                            "title" : "Majority Whip of the California State Senate",
+                            "coincident" : "california_state_senator"
+                        },
+                        "california_senate_assistant_majority_whip" : {
+                            "title" : "Assistant Majority Whip of the California State Senate",,
+                            "coincident" : "california_state_senator",
+                            "count" : 4
+                        },
+                        "california_senate_minority_leader" : {
+                            "title" : "Minority Leader of the California State Senate",
+                            "coincident" : "california_state_senator"
+                        },
+                        "california_senate_secretary" : {
+                            "title" : "Secretary of the California State Senate"
+                        },
+                        "california_senate_seargant_at_arms" : {
+                            "title" : "Seargant-at-Arms of the California State Senate"
+                        },
+                        "california_senate_chaplain" : {
+                            "title" : "Chaplain of the California State Senate"
+                        }
+                    }
+                },
+                "california_state_assembly" : {
+                    "name" : "California State Assembly",
+                    "termLength" : 2,
+                    "termLimit" : 6,
+                    "nextElectionDate" : "07 November 2028",
+                    "seats" : 80,
+                    "positions" : {
+                        "california_assemblymember" : {
+                            "title" : "California Assemblymember"
+                        },
+                        "california_assembly_speaker" : {
+                            "title" : "Speaker of the California State Assembly",
+                            "coincident" : "california_assemblymember"
+                        },
+                        "california_assembly_speaker_pro_tempore" : {
+                            "title" : "Speaker pro tempore of the California State Assembly",
+                            "coincident" : "california_assemblymember"
+                        },
+                        "california_assembly_majority_leader" : {
+                            "title" : "Majority Leader of the California State Assembly",
+                            "coincident" : "california_assemblymember"
+                        },
+                        "california_assembly_assistant_majority_leader" : {
+                            "title" : "Assistant Majority Leader of the California State Assembly",
+                            "coincident" : "california_assemblymember"
+                        },
+                        "california_assembly_assistant_majority_leader_policy_research" : {
+                            "title" : "Assistant Majority Leader for Policy and Research of the California State Assembly",
+                            "coincident" : "california_assemblymember"
+                        },
+                        "california_assembly_majority_whip" : {
+                            "title" : "Majority Whip of the California State Assembly",
+                            "coincident" : "california_assemblymember"
+                        },
+                        "california_assembly_assistant_majority_whip" : {
+                            "title" : "Assistant Majority Whip of the California State Assembly",
+                            "coincident" : "california_assemblymember",
+                            "count" : 2
+                        },
+                        "california_assembly_democratic_caucus_chair" : {
+                            "title" : "Chair of the Democratic Caucus for the California State Assembly",
+                            "coincident" : "california_assemblymember"
+                        },
+                        "california_assembly_republican_leader" : {
+                            "title" : "Republican Leader of the California State Assembly",
+                            "coincident" : "california_assemblymember"
+                        },
+                        "california_assembly_republican_floor_leader" : {
+                            "title" : "Republican Floor Leader of the California State Assembly",
+                            "coincident" : "california_assemblymember"
+                        },
+                        "california_assembly_republican_caucus_chair" : {
+                            "title" : "Chair of the Republican Caucus for the California State Assembly",
+                            "coincident" : "california_assemblymember"
+                        },
+                        "california_assembly_republican_deputy_floor_leader" : {
+                            "title" : "Republican Deputy Floor Leader of the California State Assembly",
+                            "coincident" : "california_assemblymember"
+                        },
+                        "california_assembly_republican_deputy_leader_fiscal" : {
+                            "title" : "Republican Deputy Floor Leader (Fiscal) of the California State Assembly",
+                            "coincident" : "california_assemblymember"
+                        },
+                        "california_assembly_republican_deputy_leader_policy" : {
+                            "title" : "Republican Deputy Floor Leader (Policy) of the California State Assembly",
+                            "coincident" : "california_assemblymember"
+                        },
+                        "california_assembly_republican_deputy_leader_operations" : {
+                            "title" : "Republican Deputy Floor Leader (Operations) of the California State Assembly",
+                            "coincident" : "california_assemblymember"
+                        },
+                        "california_assembly_republican_deputy_leader_external" : {
+                            "title" : "Republican Deputy Floor Leader (External Relations) of the California State Assembly",
+                            "coincident" : "california_assemblymember"
+                        },
+                        "california_assembly_republican_chief_whip" : {
+                            "title" : "Republican Chief Whip of the California State Assembly",
+                            "coincident" : "california_assemblymember"
+                        },
+                        "california_assembly_republican_deputy_whip" : {
+                            "title" : "Republican Deputy Whip of the California State Assembly",
+                            "coincident" : "california_assemblymember",
+                            "count" : 2
+                        },
+                        "california_assembly_chief_clerk" : {
+                            "title" : "Chief Clerk of the California State Assembly"
+                        },
+                        "california_assembly_seargant_at_arms" : {
+                            "title" : "Seargant-at-Arms of the California State Assembly"
+                        },
+                        "california_assembly_chaplain" : {
+                            "title" : "Chaplain of the California State Assembly"
+                        }
+                    }
+                }
+            }
+        },
+        "judicialBranch" : {
+            "title" : "Judiciary of California",
+            "supreme_court" : {
+                "fullName" : "Supreme Court of California",
+                "commonName" : "California Supreme Court",
+                "basis" : "San Francisco, San Francisco, California",
+                "judges" : 7,
+                "appellate_courts" : {
+                    "california_court_of_appeal_first_district" : {
+                        "fullName" : "California Court of Appeal for the First District",
+                        "basis" : "San Francisco, San Francisco, California",
+                        "judges" : 20,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    },
+                    "california_court_of_appeal_second_district" : {
+                        "fullName" : "California Court of Appeal for the Second District",
+                        "basis" : "Los Angeles, Los Angeles County, California",
+                        "judges" : 32,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    },
+                    "california_court_of_appeal_third_district" : {
+                        "fullName" : "California Court of Appeal for the Third District",
+                        "basis" : "Sacramento, Sacramento County, California",
+                        "judges" : 11,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    },
+                    "california_court_of_appeal_fourth_district_division_one" : {
+                        "fullName" : "California Court of Appeal for the Fourth District (Division One)",
+                        "basis" : "San Diego, San Diego County, California",
+                        "judges" : 10,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    },
+                    "california_court_of_appeal_fourth_district_division_two" : {
+                        "fullName" : "California Court of Appeal for the Fourth District (Division Two)",
+                        "basis" : "Riverside, Riverside County, California",
+                        "judges" : 7,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    },
+                    "california_court_of_appeal_fourth_district_division_three" : {
+                        "fullName" : "California Court of Appeal for the Fourth District (Division Three)",
+                        "basis" : "Santa Ana, Orange County, California",
+                        "judges" : 8,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    },
+                    "california_court_of_appeal_fifth_district" : {
+                        "fullName" : "California Court of Appeal for the Fifth District",
+                        "basis" : "Fresno, Fresno County, California",
+                        "judges" : 10,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    },
+                    "california_court_of_appeal_sixth_district" : {
+                        "fullName" : "California Court of Appeal for the Sixth District",
+                        "basis" : "San Jose, Santa Clara County, California",
+                        "judges" : 7,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    }
+                }
+            }
+        }
+    }
+}

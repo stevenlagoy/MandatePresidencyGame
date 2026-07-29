@@ -1,0 +1,77 @@
+{
+    "FIPS" : "78",
+    "commonName" : "U.S. Virgin Islands",
+    "fullName" : "Virgin Islands of the United States",
+    "map_color" : "#4132FF",
+    "flag_loc" : "virgin_islands_flag.png",
+    "population" : 106290,
+    "squareMileage" : 733,
+    "abbreviation" : "VI",
+    "demonym" : "U.S. Virgin Islander",
+    "motto" : "United in Pride and Hope",
+    "nickname" : "Virgin Islands",
+    "capital" : "Charlotte Amalie",
+    "federal_court_circuit" : 3,
+    "descriptors" : [
+        "VIRGIN_ISLANDS"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "executiveBranch" : {
+            "positions" : {
+                "" : {
+                    "title" : ""
+                }
+            }
+        },
+        "legislativeBranch" : {
+            "title" : "",
+            "chambers" : {
+                "" : {
+                    "name" : "",
+                    "isUpperChamber" : true,
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                },
+                "" : {
+                    "name" : "",
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                }
+            }
+        },
+        "judicialBranch" : {
+            "title" : "",
+            "supreme_court" : {
+                "fullName" : "",
+                "commonName" : "",
+                "basis" : "",
+                "judges" : 0,
+                "appellate_courts" : {
+                    "" : {
+                        "fullName" : "",
+                        "basis" : "",
+                        "judges" : 0,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    }
+                }
+            }
+        }
+    }
+}

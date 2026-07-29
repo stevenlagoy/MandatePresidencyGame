@@ -1,0 +1,80 @@
+{
+    "FIPS" : "56",
+    "commonName" : "Wyoming",
+    "fullName" : "State of Wyoming",
+    "map_color" : "#FF328A",
+    "flag_loc" : "wyoming_flag.png",
+    "population" : 576851,
+    "squareMileage" : 97813,
+    "abbreviation" : "WY",
+    "demonym" : "Wyomingite",
+    "motto" : "Equal Rights",
+    "nickname" : "Equality State",
+    "capital" : "Cheyenne",
+    "federal_court_circuit" : 10,
+    "censusDivision" : "Mountain",
+    "descriptors" : [
+        "WYOMING",
+        "WEST",
+        "MOUNTAIN"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "executiveBranch" : {
+            "positions" : {
+                "" : {
+                    "title" : ""
+                }
+            }
+        },
+        "legislativeBranch" : {
+            "title" : "",
+            "chambers" : {
+                "" : {
+                    "name" : "",
+                    "isUpperChamber" : true,
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                },
+                "" : {
+                    "name" : "",
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                }
+            }
+        },
+        "judicialBranch" : {
+            "title" : "",
+            "supreme_court" : {
+                "fullName" : "",
+                "commonName" : "",
+                "basis" : "",
+                "judges" : 0,
+                "appellate_courts" : {
+                    "" : {
+                        "fullName" : "",
+                        "basis" : "",
+                        "judges" : 0,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    }
+                }
+            }
+        }
+    }
+}

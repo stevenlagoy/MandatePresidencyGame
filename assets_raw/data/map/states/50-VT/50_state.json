@@ -1,0 +1,80 @@
+{
+    "FIPS" : "50",
+    "commonName" : "Vermont",
+    "fullName" : "State of Vermont",
+    "map_color" : "#8332FF",
+    "flag_loc" : "vermont_flag.png",
+    "population" : 643077,
+    "squareMileage" : 9616,
+    "abbreviation" : "VT",
+    "demonym" : "Vermonter",
+    "motto" : "Freedom and Unity / Stella quarta decima fulgeat",
+    "nickname" : "Green Mountain State",
+    "capital" : "Montpelier",
+    "federal_court_circuit" : 2,
+    "censusDivision" : "New England",
+    "descriptors" : [
+        "VERMONT",
+        "NORTHEAST",
+        "NEW_ENGLAND"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "executiveBranch" : {
+            "positions" : {
+                "" : {
+                    "title" : ""
+                }
+            }
+        },
+        "legislativeBranch" : {
+            "title" : "",
+            "chambers" : {
+                "" : {
+                    "name" : "",
+                    "isUpperChamber" : true,
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                },
+                "" : {
+                    "name" : "",
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                }
+            }
+        },
+        "judicialBranch" : {
+            "title" : "",
+            "supreme_court" : {
+                "fullName" : "",
+                "commonName" : "",
+                "basis" : "",
+                "judges" : 0,
+                "appellate_courts" : {
+                    "" : {
+                        "fullName" : "",
+                        "basis" : "",
+                        "judges" : 0,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    }
+                }
+            }
+        }
+    }
+}

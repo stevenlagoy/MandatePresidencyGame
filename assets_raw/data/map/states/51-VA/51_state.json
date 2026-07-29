@@ -1,0 +1,80 @@
+{
+    "FIPS" : "51",
+    "commonName" : "Virginia",
+    "fullName" : "Commonwealth of Virginia",
+    "map_color" : "#32FFFF",
+    "flag_loc" : "virginia_flag.png",
+    "population" : 8631393,
+    "squareMileage" : 42775,
+    "abbreviation" : "VA",
+    "demonym" : "Virginian",
+    "motto" : "Sic semper tyrannis",
+    "nickname" : "Old Dominion State",
+    "capital" : "Richmond",
+    "federal_court_circuit" : 4,
+    "censusDivision" : "South Atlantic",
+    "descriptors" : [
+        "VIRGINIA",
+        "SOUTH",
+        "SOUTH_ATLANTIC"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "executiveBranch" : {
+            "positions" : {
+                "" : {
+                    "title" : ""
+                }
+            }
+        },
+        "legislativeBranch" : {
+            "title" : "",
+            "chambers" : {
+                "" : {
+                    "name" : "",
+                    "isUpperChamber" : true,
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                },
+                "" : {
+                    "name" : "",
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                }
+            }
+        },
+        "judicialBranch" : {
+            "title" : "",
+            "supreme_court" : {
+                "fullName" : "",
+                "commonName" : "",
+                "basis" : "",
+                "judges" : 0,
+                "appellate_courts" : {
+                    "" : {
+                        "fullName" : "",
+                        "basis" : "",
+                        "judges" : 0,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    }
+                }
+            }
+        }
+    }
+}

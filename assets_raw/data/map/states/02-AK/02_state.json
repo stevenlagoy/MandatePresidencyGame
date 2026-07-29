@@ -1,0 +1,177 @@
+{
+    "FIPS" : "02",
+    "population" : 733391,
+    "squareMileage" : 665384,
+    "commonName" : "Alaska",
+    "fullName" : "State of Alaska",
+    "map_color" : "#323AFF",
+    "flag_loc" : "alaska_flag.png",
+    "abbreviation" : "AK",
+    "demonym" : "Alaskan",
+    "motto" : "North to the Future",
+    "nickname" : "The Last Frontier",
+    "capital" : "Juneau",
+    "federal_court_circuit" : 9,
+    "censusDivision" : "Pacific",
+    "descriptors" : [
+        "ALASKA",
+        "WEST",
+        "PACIFIC"
+    ],
+    "government" : {
+        "name" : "Government of Alaska",
+        "constituency" : "Alaska",
+        "federalLevel" : "state",
+        "constitution" : "Constitution of Alaska",
+        "executiveBranch" : {
+            "positions" : {
+                "alaska_governor" : {
+                    "title" : "Governor of Alaska",
+                    "termLength" : 4
+                },
+                "alaska_lieutenant_governor" : {
+                    "title" : "Lieutenant Governor of Alaska",
+                    "termLength" : 4
+                },
+                "alaska_administration_commissioner" : {
+                    "title" : "Commissioner of the Alaska Department of Administration"
+                },
+                "alaska_education_commissioner" : {
+                    "title" : "Commissioner of the Alaska Department of Education and Early Development"
+                },
+                "alaska_fish_and_game_commissioner" : {
+                    "title" : "Commissioner of the Alaska Department of Fish and Game"
+                },
+                "alaska_attorney_general" : {
+                    "title" : "Attorney General of Alaska"
+                },
+                "alaska_chief_of_staff" : {
+                    "title" : "Alaska Chief of Staff"
+                },
+                "alaska_environmental_conservation_commissioner" : {
+                    "title" : "Commissioner of the Alaska Department of Environmental Conservation"
+                },
+                "alaska_health_commissioner" : {
+                    "title" : "Commissioner of the Alaska Department of Health"
+                },
+                "alaska_adjutant_general" : {
+                    "title" : "Adjutant General of the Alaska National Guard"
+                },
+                "alaska_revenue_commissioner" : {
+                    "title" : "Commissioner of the Alaska Department of Revenue"
+                },
+                "alaska_corrections_commissioner" : {
+                    "title" : "Commissioner of the Alaska Department of Corrections"
+                },
+                "alaska_family_and_community_services_commissioner" : {
+                    "title" : "Commissioner of the Alaska Department of Family and Community Services"
+                },
+                "alaska_labor_and_workplace_commissioner" : {
+                    "title" : "Commissioner of the Alaska Department of Labor and Workplace Development"
+                },
+                "alaska_natural_resources_commissioner" : {
+                    "title" : "Commissioner of the Alaska Department of Natural Resources"
+                },
+                "alaska_transportation_and_public_facilities_commissioner" : {
+                    "title" : "Commissioner of the Alaska Department of Transportation and Public Facilities"
+                },
+                "alaska_university_regent" : {
+                    "title" : "Regent of the University of Alaska",
+                    "count" : 10,
+                    "termLength" : 8
+                },
+                "alaska_public_safety_commissioner" : {
+                    "title" : "Commissioner of the Alaska Department of Public Safety"
+                },
+                "alaska_comptroller" : {
+                    "title" : "Alaska Comptroller"
+                },
+                "alaska_director_of_agriculture" : {
+                    "title" : "Alaska Director of Agriculture"
+                },
+                "alaska_director_of_insurance" : {
+                    "title" : "Alaska Director of Insurance"
+                },
+                "alaska_regulatory_commissioner" : {
+                    "title" : "Alaska Regulatory Commissioner",
+                    "count" : 5
+                }
+            }
+        },
+        "legislativeBranch" : {
+            "title" : "Alaska State Legislature",
+            "chambers" : {
+                "alaska_senate" : {
+                    "name" : "Alaska Senate",
+                    "isUpperChamber" : true,
+                    "termLength" : 4,
+                    "nextElectionDate" : "07 November 2028",
+                    "seats" : 20,
+                    "positions" : {
+                        "alaska_senator" : {
+                            "title" : "Alaska State Senator"
+                        },
+                        "alaska_senate_president" : {
+                            "title" : "President of the Alaska Senate"
+                        },
+                        "alaska_senate_majority_leader" : {
+                            "title" : "Majority Leader of the Alaska Senate"
+                        },
+                        "alaska_senate_minority_leader" : {
+                            "title" : "Minority Leader of the Alaska Senate"
+                        }
+                    }
+                },
+                "alaska_house_of_representatives" : {
+                    "name" : "Alaska House of Representatives",
+                    "termLength" : 2,
+                    "nextElectionDate" : "07 November 2028",
+                    "seats" : 40,
+                    "positions" : {
+                        "alaska_representative" : {
+                            "title" : "Alaska State Representative"
+                        },
+                        "alaska_speaker_of_the_house" : {
+                            "title" : "Speaker of the Alaska House of Representatives"
+                        },
+                        "alaska_house_majority_leader" : {
+                            "title" : "Majority Leader of the Alaska House of Representatives"
+                        },
+                        "alaska_house_majority_whip" : {
+                            "title" : "Majority Whip of the Alaska House of Representatives"
+                        },
+                        "alaska_house_minority_leader" : {
+                            "title" : "Minority Leader of the Alaska House of Representatives"
+                        },
+                        "alaska_house_minority_whip" : {
+                            "title" : "Minority Whip of the Alaska House of Representatives"
+                        }
+                    }
+                }
+            }
+        },
+        "judicialBranch" : {
+            "title" : "Judiciary of Alaska",
+            "supreme_court" : {
+                "fullName" : "Supreme Court of the State of Alaska",
+                "commonName" : "Alaska Supreme Court",
+                "basis" : "Anchorage, Anchorage, Alaska",
+                "judges" : 5,
+                "appellate_courts" : {
+                    "alaska_court_of_appeals" : {
+                        "fullName" : "Alaska Court of Appeals",
+                        "basis" : "Anchorage, Anchorage, Alaska",
+                        "judges" : 4,
+                        "termLength" : 2,
+                        "nextElectionDate" : "07 November 2028",
+                        "superior_courts" : {
+                            "count" : 4,
+                            "judges" : 45,
+                            "district_court_count" : 20
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

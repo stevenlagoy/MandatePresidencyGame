@@ -1,0 +1,80 @@
+{
+    "FIPS" : "25",
+    "commonName" : "Massachusetts",
+    "fullName" : "Commonwealth of Massachusetts",
+    "map_color" : "#32FFD3",
+    "flag_loc" : "massachusetts_flag.png",
+    "population" : 7029917,
+    "squareMileage" : 10554,
+    "abbreviation" : "MA",
+    "demonym" : "Massachusettsan",
+    "motto" : "Ense petit placidam sub libertate quietem",
+    "nickname" : "Bay State",
+    "capital" : "Boston",
+    "federal_court_circuit" : 1,
+    "censusDivision" : "New England",
+    "descriptors" : [
+        "MASSACHUSETTS",
+        "NORTHEAST",
+        "NEW_ENGLAND"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "executiveBranch" : {
+            "positions" : {
+                "" : {
+                    "title" : ""
+                }
+            }
+        },
+        "legislativeBranch" : {
+            "title" : "",
+            "chambers" : {
+                "" : {
+                    "name" : "",
+                    "isUpperChamber" : true,
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                },
+                "" : {
+                    "name" : "",
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                }
+            }
+        },
+        "judicialBranch" : {
+            "title" : "",
+            "supreme_court" : {
+                "fullName" : "",
+                "commonName" : "",
+                "basis" : "",
+                "judges" : 0,
+                "appellate_courts" : {
+                    "" : {
+                        "fullName" : "",
+                        "basis" : "",
+                        "judges" : 0,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "FIPS" : "35",
+    "commonName" : "New Mexico",
+    "fullName" : "State of New Mexico",
+    "map_color" : "#FF32A0",
+    "flag_loc" : "new_mexico_flag.png",
+    "population" : 2117522,
+    "squareMileage" : 121590,
+    "abbreviation" : "NM",
+    "demonym" : "New Mexican",
+    "motto" : "Cescit enudo",
+    "nickname" : "The Land of Enchantment",
+    "capital" : "Santa Fe",
+    "censusDivision" : "Mountain",
+    "descriptors" : [
+        "NEW_MEXICO",
+        "WEST",
+        "MOUNTAIN"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "executiveBranch" : {
+            "positions" : {
+                "" : {
+                    "title" : ""
+                }
+            }
+        },
+        "legislativeBranch" : {
+            "title" : "",
+            "chambers" : {
+                "" : {
+                    "name" : "",
+                    "isUpperChamber" : true,
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                },
+                "" : {
+                    "name" : "",
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                }
+            }
+        },
+        "judicialBranch" : {
+            "title" : "",
+            "supreme_court" : {
+                "fullName" : "",
+                "commonName" : "",
+                "basis" : "",
+                "judges" : 0,
+                "appellate_courts" : {
+                    "" : {
+                        "fullName" : "",
+                        "basis" : "",
+                        "judges" : 0,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    }
+                }
+            }
+        }
+    }
+}

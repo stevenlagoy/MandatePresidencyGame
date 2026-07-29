@@ -1,0 +1,80 @@
+{
+    "FIPS" : "24",
+    "commonName" : "Maryland",
+    "fullName" : "State of Maryland",
+    "map_color" : "#6DFF32",
+    "flag_loc" : "maryland_flag.png",
+    "population" : 6177224,
+    "squareMileage" : 12406,
+    "abbreviation" : "MD",
+    "demonym" : "Marylander",
+    "motto" : "Fatti maschi, parole femmine",
+    "nickname" : "Old Line State",
+    "capital" : "Annapolis",
+    "federal_court_circuit" : 4,
+    "censusDivision" : "South Atlantic",
+    "descriptors" : [
+        "MARYLAND",
+        "SOUTH",
+        "SOUTH_ATLANTIC"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "executiveBranch" : {
+            "positions" : {
+                "" : {
+                    "title" : ""
+                }
+            }
+        },
+        "legislativeBranch" : {
+            "title" : "",
+            "chambers" : {
+                "" : {
+                    "name" : "",
+                    "isUpperChamber" : true,
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                },
+                "" : {
+                    "name" : "",
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                }
+            }
+        },
+        "judicialBranch" : {
+            "title" : "",
+            "supreme_court" : {
+                "fullName" : "",
+                "commonName" : "",
+                "basis" : "",
+                "judges" : 0,
+                "appellate_courts" : {
+                    "" : {
+                        "fullName" : "",
+                        "basis" : "",
+                        "judges" : 0,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "FIPS" : "41",
+    "commonName" : "Oregon",
+    "fullName" : "State of Oregon",
+    "map_color" : "#FF3274",
+    "flag_loc" : "oregon_flag.png",
+    "population" : 4237256,
+    "squareMileage" : 98379,
+    "abbreviation" : "OR",
+    "demonym" : "Oregonian",
+    "motto" : "Alis volat propriis",
+    "nickname" : "Beaver State",
+    "capital" : "Salem",
+    "federal_court_circuit" : 9,
+    "censusDivision" : "Pacific",
+    "descriptors" : [
+        "OREGON",
+        "WEST",
+        "PACIFIC"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "executiveBranch" : {
+            "positions" : {
+                "" : {
+                    "title" : ""
+                }
+            }
+        },
+        "legislativeBranch" : {
+            "title" : "",
+            "chambers" : {
+                "" : {
+                    "name" : "",
+                    "isUpperChamber" : true,
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                },
+                "" : {
+                    "name" : "",
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                }
+            }
+        },
+        "judicialBranch" : {
+            "title" : "",
+            "supreme_court" : {
+                "fullName" : "",
+                "commonName" : "",
+                "basis" : "",
+                "judges" : 0,
+                "appellate_courts" : {
+                    "" : {
+                        "fullName" : "",
+                        "basis" : "",
+                        "judges" : 0,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "FIPS" : "32",
+    "commonName" : "Nevada",
+    "fullName" : "State of Nevada",
+    "map_color" : "#32FFBD",
+    "flag_loc" : "nevada_flag.png",
+    "population" : 3104614,
+    "squareMileage" : 110572,
+    "abbreviation" : "NV",
+    "motto" : "All for our country",
+    "nickname" : "Silver State",
+    "capital" : "Carson City",
+    "federal_court_circuit" : 9,
+    "censusDivision" : "Mountain",
+    "descriptors" : [
+        "NEVADA",
+        "WEST",
+        "MOUNTAIN"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "executiveBranch" : {
+            "positions" : {
+                "" : {
+                    "title" : ""
+                }
+            }
+        },
+        "legislativeBranch" : {
+            "title" : "",
+            "chambers" : {
+                "" : {
+                    "name" : "",
+                    "isUpperChamber" : true,
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                },
+                "" : {
+                    "name" : "",
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                }
+            }
+        },
+        "judicialBranch" : {
+            "title" : "",
+            "supreme_court" : {
+                "fullName" : "",
+                "commonName" : "",
+                "basis" : "",
+                "judges" : 0,
+                "appellate_courts" : {
+                    "" : {
+                        "fullName" : "",
+                        "basis" : "",
+                        "judges" : 0,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    }
+                }
+            }
+        }
+    }
+}

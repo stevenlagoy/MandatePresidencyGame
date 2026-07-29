@@ -1,0 +1,35 @@
+{
+    "78010" : {
+        "FIPS" : "78010",
+        "fullName" : "Saint Croix",
+        "commonName" : "St. Croix",
+        "state" : "U.S. Virgin Islands",
+        "countySeat" : "Christiansted",
+        "population" : 41004,
+        "squareMileage" : 84,
+        "descriptors" : [],
+        "color" : "#9332C5"
+    },
+    "78020" : {
+        "FIPS" : "78020",
+        "fullName" : "Saint John",
+        "commonName" : "St. John",
+        "state" : "U.S. Virgin Islands",
+        "countySeat" : "Cruz Bay",
+        "population" : 3881,
+        "squareMileage" : 20,
+        "descriptors" : [],
+        "color" : "#C209E3"
+    },
+    "78030" : {
+        "FIPS" : "78030",
+        "fullName" : "Saint Thomas",
+        "commonName" : "St. Thomas",
+        "state" : "U.S. Virgin Islands",
+        "countySeat" : "Charlotte Amalie",
+        "population" : 42261,
+        "squareMileage" : 32.0,
+        "descriptors" : [],
+        "color" : "#9B2E86"
+    }
+}

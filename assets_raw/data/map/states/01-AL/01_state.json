@@ -1,0 +1,218 @@
+{
+    "FIPS" : "01",
+    "fullName" : "State of Alabama",
+    "commonName" : "Alabama",
+    "flagFile" : "alabama_flag.png",
+    "abbreviation" : "AL",
+    "demonym" : "Alabamian",
+    "nickname" : "Yellowhammer State",
+    "motto" : "Audemus jura nostra defendere",
+    "capital" : "Montgomery, Montgomery County, AL",
+    "federal_court_circuit" : 11,
+    "censusDivison" : "East South Central",
+    "descriptors" : [
+        "ALABAMA",
+        "SOUTH",
+        "EAST_SOUTH_CENTRAL"
+    ],
+    "government" : {
+        "name" : "Government of Alabama",
+        "constituency" : "Alabama",
+        "federalLevel" : "state",
+        "constitution" : "Constitution of the State of Alabama",
+        "executiveBranch" : {
+            "chiefExecutiveTitle" : "Governor of Alabama",
+            "deputyExecutiveTitle" : "Lieutenant Governor of Alabama",
+            "nextElectionDate" : "07 November 2028",
+            "executivePositions" : {
+                "alabama_governor" : {
+                    "title" : "Governor of Alabama",
+                    "termLength" : 4,
+                    "termLimit" : 2
+                },
+                "alabama_lieutenant_governor" : {
+                    "title" : "Lieutenant Governor of Alabama",
+                    "termLength" : 4
+                },
+                "alabama_attorney_general" : {
+                    "title" : "Attorney General of Alabama",
+                    "termLength" : 4
+                },
+                "alabama_auditor" : {
+                    "title" : "State Auditor of Alabama",
+                    "termLength" : 4
+                },
+                "alabama_secretary_of_state" : {
+                    "title" : "Secretary of State of Alabama",
+                    "termLength" : 4
+                },
+                "alabama_treasurer" : {
+                    "title" : "State Treasurer of Alabama",
+                    "termLength" : 4
+                },
+                "alabama_superintendent_of_education" : {
+                    "title" : "Alabama Superintendent of Education",
+                    "termLength" : 4
+                },
+                "alabama_commissioner_of_agriculture_and_industries" : {
+                    "title" : "Alabama Commissioner of Agriculture and Industries",
+                    "termLength" : 4
+                },
+                "alabama_administrator_of_the_alcoholic_beverage_control_board" : {
+                    "title": "Administrator of the Alcoholic Beverage Control Board"
+                },
+                "alabama_secretary_of_the_department_of_early_childhood_education" : {
+                    "title": "Secretary of the Alabama Department of Early Childhood Education"
+                },
+                "alabama_secretary_of_commerce" : {
+                    "title": "Secretary of Commerce"
+                },
+                "alabama_commissioner_of_the_department_of_conservation_and_natural_resources" : {
+                    "title": "Commissioner of the Department of Conservation and Natural Resources"
+                },
+                "alabama_commissioner_of_the_department_of_corrections" : {
+                    "title": "Commissioner of the Department of Corrections"
+                },
+                "alabama_director_of_economic_and_community_affairs" : {
+                    "title": "Director of the Alabama Department of Economic and Community Affairs"
+                },
+                "alabama_director_of_the_emergency_management_agency" : {
+                    "title": "Director of the Emergency Management Agency"
+                },
+                "alabama_director_of_finance" : {
+                    "title": "Director of Finance"
+                },
+                "alabama_commissioner_of_human_resources" : {
+                    "title": "Commissioner of the Department of Human Resources"
+                },
+                "alabama_commissioner_of_insurance" : {
+                    "title": "Commissioner of Insurance"
+                },
+                "alabama_director_of_information_technology" : {
+                    "title": "Director of the Office of Information Technology"
+                },
+                "alabama_secretary_of_workforce" : {
+                    "title": "Secretary of the Department of Workforce"
+                },
+                "alabama_secretary_of_law_enforcement" : {
+                    "title": "Secretary of Law Enforcement"
+                },
+                "alabama_commissioner_of_medicaid_agency" : {
+                    "title": "Commissioner of the Alabama Medicaid Agency"
+                },
+                "alabama_commissioner_of_department_of_mental_health" : {
+                    "title": "Commissioner of the Alabama Department of Mental Health"
+                },
+                "alabama_superintendant_of_state_banking_department" : {
+                    "title": "Superintendent of State Banking Department"
+                },
+                "alabama_commissioner_of_department_of_revenue" : {
+                    "title": "Commissioner of the Department of Revenue"
+                },
+                "alabama_director_of_transportation" : {
+                    "title": "Director of the Department of Transportation"
+                },
+                "alabama_adjutant_general_of_national_guard" : {
+                    "title": "Adjutant General of the Alabama National Guard"
+                },
+                "alabama_director_of_minority_affairs" : {
+                    "title": "Director of Minority Affairs"
+                },
+                "alabama_commissioner_of_senior_services" : {
+                    "title": "Commissioner of the Department of Senior Services"
+                },
+                "alabama_secretary_of_information_technology" : {
+                    "title": "Secretary of Information Technology"
+                }
+            }
+        },
+        "legislativeBranch" : {
+            "title" : "Alabama Legislature",
+            "chambers" : {
+                "alabama_senate" : {
+                    "name" : "Alabama State Senate",
+                    "isUpperChamber" : true,
+                    "termLength" : 4,
+                    "nextElectionDate" : "05 November 2030",
+                    "seats" : 35,
+                    "positions" : {
+                        "alabama_state_senator" : {
+                            "title" : "Alabama State Senator"
+                        },
+                        "alabama_senate_president" : {
+                            "title" : "President and Presiding Officer of the Alabama State Senate"
+                        },
+                        "alabama_president_pro_tempore" : {
+                            "title" : "President Pro Tempore of the Alabama State Senate"
+                        },
+                        "alabama_senate_secretary" : {
+                            "title" : "Secretary of the Alabama State Senate"
+                        },
+                        "alabama_senate_majority_leader" : {
+                            "title" : "Alabama State Senate Majority Leader"
+                        },
+                        "alabama_senate_minority_leader" : {
+                            "title" : "Alabama State Senate Minority Leader"
+                        }
+                    }
+                },
+                "alabama_house_of_representatives" : {
+                    "name" : "Alabama House of Representatives",
+                    "termLength" : 4,
+                    "nextElectionDate" : "05 November 2030",
+                    "seats" : 105,
+                    "positions" : {
+                        "alabama_state_representative" : {
+                            "title" : "Alabama State Representative"
+                        },
+                        "alabama_state_speaker_of_the_house" : {
+                            "title" : "Speaker of the Alabama House of Representatives"
+                        },
+                        "alabama_house_speaker_pro_tempore" : {
+                            "title" : "Speaker Pro Tempore of the Alabama House of Representatives"
+                        },
+                        "alabama_clerk_of_the_house" : {
+                            "title" : "Clerk of the Alabama House of Representatives"
+                        }
+                    }
+                }
+            }
+        },
+        "judicialBranch" : {
+            "title" : "Judiciary of Alabama",
+            "supreme_court" : {
+                "fullName" : "Supreme Court of Alabama",
+                "commonName" : "Alabama Supreme Court",
+                "basis" : "Montgomery, Montgomery County, Alabama",
+                "judges" : 9,
+                "appellate_courts" : {
+                    "alabama_court_of_civil_appeals" : {
+                        "fullName" : "Alabama Court of Civil Appeals",
+                        "basis" : "Montgomery, Montgomery County, Alabama",
+                        "judges" : 5,
+                        "termLength" : 6,
+                        "nextElectionDate" : "02 November 2027"
+                    },
+                    "alabama_court_of_criminal_appeals" : {
+                        "fullName" : "Alabama Court of Criminal Appeals",
+                        "basis" : "Montgomery, Montgomery County, Alabama",
+                        "judges" : 5,
+                        "termLength" : 6,
+                        "nextElectionDate" : "02 November 2027",
+                        "circuit_courts" : {
+                            "count" : 41,
+                            "districtCourtsCount" : 67,
+                            "municipalCourtsCount" : 273,
+                            "probateCourtsCount" : 68
+                        }
+                    },
+                    "alabama_court_of_the_judiciary" : {
+                        "fullName" : "Alabama Court of the Judiciary",
+                        "basis" : "Montgomery, Montgomery County, Alabama",
+                        "judges" : 9
+                    }
+                }
+            }
+        }
+    }
+}

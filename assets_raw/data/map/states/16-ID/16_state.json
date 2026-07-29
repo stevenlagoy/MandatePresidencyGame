@@ -1,0 +1,80 @@
+{
+    "FIPS" : "16",
+    "commonName" : "Idaho",
+    "fullName" : "State of Idaho",
+    "map_color" : "#3250FF",
+    "flag_loc" : "idaho_flag.png",
+    "population" : 1839106,
+    "squareMileage" : 83569,
+    "abbreviation" : "ID",
+    "demonym" : "Idahoan",
+    "motto" : "Esto perpetua",
+    "nickname" : "Gem State",
+    "capital" : "Boise",
+    "federal_court_circuit" : 9,
+    "censusDivision" : "Mountain",
+    "descriptors" : [
+        "IDAHO",
+        "WEST",
+        "MOUNTAIN"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "executiveBranch" : {
+            "positions" : {
+                "" : {
+                    "title" : ""
+                }
+            }
+        },
+        "legislativeBranch" : {
+            "title" : "",
+            "chambers" : {
+                "" : {
+                    "name" : "",
+                    "isUpperChamber" : true,
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                },
+                "" : {
+                    "name" : "",
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                }
+            }
+        },
+        "judicialBranch" : {
+            "title" : "",
+            "supreme_court" : {
+                "fullName" : "",
+                "commonName" : "",
+                "basis" : "",
+                "judges" : 0,
+                "appellate_courts" : {
+                    "" : {
+                        "fullName" : "",
+                        "basis" : "",
+                        "judges" : 0,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    }
+                }
+            }
+        }
+    }
+}
