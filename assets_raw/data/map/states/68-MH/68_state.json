@@ -1,0 +1,74 @@
+{
+    "FIPS" : "68",
+    "commonName" : "Marshall Islands",
+    "fullName" : "Republic of the Marshall Islands",
+    "map_color" : "#000000",
+    "flag_loc" : "marshall_islands_flag.png",
+    "population" : 42418,
+    "squareMileage" : 70,
+    "abbreviation" : "MH",
+    "demonym" : "Marshall Islander",
+    "motto" : "Jepilpilin ke ejukaan",
+    "nickname" : "",
+    "capital" : "Majuro",
+    "descriptors" : [],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "executiveBranch" : {
+            "positions" : {
+                "" : {
+                    "title" : ""
+                }
+            }
+        },
+        "legislativeBranch" : {
+            "title" : "",
+            "chambers" : {
+                "" : {
+                    "name" : "",
+                    "isUpperChamber" : true,
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                },
+                "" : {
+                    "name" : "",
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                }
+            }
+        },
+        "judicialBranch" : {
+            "title" : "",
+            "supreme_court" : {
+                "fullName" : "",
+                "commonName" : "",
+                "basis" : "",
+                "judges" : 0,
+                "appellate_courts" : {
+                    "" : {
+                        "fullName" : "",
+                        "basis" : "",
+                        "judges" : 0,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    }
+                }
+            }
+        }
+    }
+}

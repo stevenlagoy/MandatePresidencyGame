@@ -1,0 +1,74 @@
+{
+    "FIPS" : "64",
+    "commonName" : "Micronesia",
+    "fullName" : "Federated States of Micronesia",
+    "map_color" : "#000000",
+    "flag_loc" : "micronesia_flag.png",
+    "population" : 104468,
+    "squareMileage" : 271,
+    "abbreviation" : "FM",
+    "demonym" : "Micronesian",
+    "motto" : "Peace, Unity, Liberty",
+    "nickname" : "",
+    "capital" : "Palikir",
+    "descriptors" : [],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "executiveBranch" : {
+            "positions" : {
+                "" : {
+                    "title" : ""
+                }
+            }
+        },
+        "legislativeBranch" : {
+            "title" : "",
+            "chambers" : {
+                "" : {
+                    "name" : "",
+                    "isUpperChamber" : true,
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                },
+                "" : {
+                    "name" : "",
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                }
+            }
+        },
+        "judicialBranch" : {
+            "title" : "",
+            "supreme_court" : {
+                "fullName" : "",
+                "commonName" : "",
+                "basis" : "",
+                "judges" : 0,
+                "appellate_courts" : {
+                    "" : {
+                        "fullName" : "",
+                        "basis" : "",
+                        "judges" : 0,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    }
+                }
+            }
+        }
+    }
+}
