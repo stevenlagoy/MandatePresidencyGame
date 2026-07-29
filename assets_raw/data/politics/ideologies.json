@@ -1,7 +1,10 @@
 {
     "democratic_socialists" : {
-        "name" : "Democratic Socialists",
-        "description" : "The most progressive elements of the Democratic Party operate on political policies which are explicitly anti-capitalist and draw on the tradition of earlier labor movements, revived by the growth of the Democratic Socialists of America during the 2010s. Democratic socialists often operate within the Democratic Party but have ideological independence as the left wing of the party.",
+        "names" : [
+            "Democratic Socialists",
+            "Left Populists"
+        ],
+        "description" : "The most progressive elements of the Democratic Party operate on political policies which are explicitly anti-capitalist and draw on the tradition of earlier labor movements, revived by the growth of the Democratic Socialists of America during the 2010s. Democratic socialists often operate within the Democratic Party but have ideological independence as the left wing of the party. Members of this wing see the capitalist market economy as fundamentally flawed, viewing the public good as the primary mandate of power.",
         "alignment" : {
             "diplomacy"   : -30,
             "society"     : -65,
@@ -18,9 +21,53 @@
             "Party for Socialism and Liberation"
         ]
     },
+    "progressive_democrats" : {
+        "names" : [
+            "Progressive Democrats",
+            "Progressives"
+        ],
+        "description": "Progressive Democrats prioritize social democracy, egalitarianism, reform and democratization of political organs, environmentalism, and non-interventionism. Though the priorities of the progressive wing of the Democratic party are constantly shifting, they are today aligned with Democratic Socialists, Abundence Democrats, and Greens, with a young, middle-class voterbase. This group emphasizes regulated reform and cooperation between the public and private sectors.",
+        "alignment" : {
+            "diplomacy"   :  0,
+            "society"     :  0,
+            "governance"  :  0,
+            "economy"     :  0,
+            "tradition"   :  0,
+            "religion"    :  0,
+            "sovereignty" :  0,
+            "conflict"    :  0,
+            "solidarity"  :  0
+        },
+        "parties" : [
+            "Democratic Party"
+        ]
+    },
+    "abundance_democrats" : {
+        "names" : [
+            "Abundance Democrats"
+        ],
+        "description" : "Centering on the core ideas of Abundence, a 2025 book by Ezra Klein and Derek Thompson, the abundence agenda focuses on reforming governance to promote economic growith, lower consumer costs, and build critical infrastructre. Associated with policies and movements like YIMBYism, deregulationism, and technocracy, abundence democrats focus on results in a way which is appealing to the young center-left and reform factions of US politics.",
+        "alignment" : {
+            "diplomacy"   :  0,
+            "society"     :  0,
+            "governance"  :  0,
+            "economy"     :  0,
+            "tradition"   :  0,
+            "religion"    :  0,
+            "sovereignty" :  0,
+            "conflict"    :  0,
+            "solidarity"  :  0
+        },
+        "parties" : [
+            "Democratic Party"
+        ]
+    },
     "greens" : {
-        "name": "Greens",
-        "description" : "Growing from the environmental movement of the 1970s and gaining momentum through the 1990s and 2000s, the eco-left green movement intersects with the progressive left but espouses an eco-forward policy platform with a focus on sustainability and environmental stewardship.",
+        "names": [
+            "Greens",
+            "Eco-Left"
+        ],
+        "description" : "Growing from the environmental movement of the 1970s and gaining momentum through the 1990s and 2000s, the eco-left green movement intersects with the progressive left but espouses an eco-forward policy platform with a focus on sustainability and environmental stewardship. This party is most popular among young, coastal, white Americans.",
         "alignment" : {
             "diplomacy"   : -35,
             "society"     :  10,
@@ -38,7 +85,12 @@
         ]
     },
     "new_democrats" : {
-        "name" : "New Democrats",
+        "names" : [
+            "New Democrats",
+            "Reform Democrats",
+            "Third Way Democrats",
+            "Clintonites"
+        ],
         "description" : "Emerging in the 1980s as a reaction to the decline of Great Society liberalism, the Democratic Leadership Council formalized the New Democrats as a synthesis of liberal market economics with social liberalism. New Democrats are moderate liberals and are seen as the Democratic Party establishment.",
         "alignment" : {
             "diplomacy"   : -50,
@@ -56,7 +108,11 @@
         ]
     },
     "social_liberals" : {
-        "name" : "Social Liberals",
+        "names" : [
+            "Liberals",
+            "Social Liberals",
+            "Democratic Liberals"
+        ],
         "description" : "The dominant ideology of mid-20th century Democratic politics, associated with the New Deal and Great Society coalitions, social liberals are committed to civil rights, social programs, and regulated capitalism. Social liberals form the core center-left Democratic Party constituency.",
         "alignment" : {
             "diplomacy"   : -40,
@@ -74,7 +130,11 @@
         ]
     },
     "labor_democrats" : {
-        "name" : "Labor Democrats",
+        "names" : [
+            "Labor Democrats",
+            "Labor Left",
+            "Leftist Unionists"
+        ],
         "description" : "Rooted in industrial unionism and the New Deal coalition, Labor Democrats promote the organized labor movement and bread-and-butter economic politics. Less ideologically attached to the national party, Labor Democrats have diminished as right-wing populism attracts working-class voters to other ideologies.",
         "alignment" : {
             "diplomacy"   : -10,
@@ -89,7 +149,10 @@
         }
     },
     "religious_leftists" : {
-        "name" : "Religious Leftists",
+        "names" : [
+            "Religious Leftists",
+            "Social Gospel Liberals"
+        ],
         "description" : "Based in the religious tradition of the civil rights movement and figures like Rev. Martin Luther King Jr. and Reinhold Niebuhr, Religious Leftists combine religiousity with progressive social commitments. Religious Leftism is more common among older voters and members of traditionally Black churches, and are considered strongly Democratic.",
         "alignment" : {
             "diplomacy"   : -25,
@@ -107,7 +170,9 @@
         ]
     },
     "tech_leftists" : {
-        "name" : "Tech Leftists",
+        "names" : [
+            "Tech Leftists"
+        ],
         "description" : "A relatively new alignment emerging from the dominance of the tech industry in American economic and cultural life since the early 2000s, combining social liberalism and globalism with a focus on technological market solutions accompanied by trust in corporate power. Though predominantly Democratic, Tech Leftists sit uneasily with the traditional left and are known to tip towards Libertarianism or Fiscal Conservatism.",
         "alignment" : {
             "diplomacy"   : -45,
@@ -125,7 +190,10 @@
         ]
     },
     "blue_dogs" : {
-        "name" : "Blue Dogs",
+        "names" : [
+            "Blue Dogs",
+            "Blue Dog Democrats"
+        ],
         "description" : "Largely a product of recalibration in Democratic Party appeal to socially conservative regions in the 1990s, Blue Dogs are explicitly positioned to the right of the national party on fiscal and social issues. Blue Dog Democrats are often the only competitive left-leaning candidates in rural and Southern constituencies.",
         "alignment" : {
             "diplomacy"   : -25,
@@ -133,7 +201,7 @@
             "governance"  :  15,
             "economy"     :  25,
             "tradition"   :  15,
-            "religion"    :  15,
+            "religion"    :  20,
             "sovereignty" :  10,
             "conflict"    :  30,
             "solidarity"  : -10
@@ -144,7 +212,9 @@
         ]
     },
     "classical_liberals" : {
-        "name" : "Classical Liberals",
+        "names" : [
+            "Classical Liberals"
+        ],
         "description" : "Representing the liberal tradition which became the default system of Western democracy in the post-war era, Classical Liberals are committed to individual rights, free markets, preservation of institutions, and international order. Classical liberalism is essentially the centrist ideology of the United States and has no strong home, instead splitting votes between parties cycle-to-cycle.",
         "alignment" : {
             "diplomacy"   : -30,
@@ -160,7 +230,9 @@
         "parties" : []
     },
     "fiscal_conservatives" : {
-        "name" : "Fiscal Conservatives",
+        "names" : [
+            "Fiscal Conservatives"
+        ],
         "description" : "The traditional business wing of the Republican Party, Fiscal Conservatives are rooted in opposition to federal economic interventionism and are associated with the Chamber of Commerce, Wall Street, and country-club Republicanism. Fiscal Conservatism was the dominant party ideology from the 1950s to the 1990s, and still form a core base for the Republican party, though they are not necessarily populist nor nationalist.",
         "alignment" : {
             "diplomacy"   : -20,
@@ -178,7 +250,9 @@
         ]
     },
     "agrarian_conservatives" : {
-        "name" : "Agrarian Conservatives",
+        "names" : [
+            "Agrarian Conservatives"
+        ],
         "description" : "One of the oldest American political traditions, Agrarian Conservatives center rural community, land, and self-sufficiency as political values. Solidly Republican today, rural agrarian voters often overlap with the business establishment and religious right.",
         "alignment" : {
             "diplomacy"   :  30,
@@ -196,7 +270,9 @@
         ]
     },
     "neoconservatives" : {
-        "name" : "Neoconservatives",
+        "names" : [
+            "Neoconservatives"
+        ],
         "description" : "Originating among a rightward shift by some liberal intellectuals in the 1960s and 1970s, the neoconservative movement was solidified as the dominant Republican ideology through the 2010s. Neoconservatives support free-market globalism and an interventionist approach to foreign policy.",
         "alignment" : {
             "diplomacy"   : -40,
@@ -214,7 +290,9 @@
         ]
     },
     "libartarians" : {
-        "name" : "Libertarians",
+        "names" : [
+            "Libertarians"
+        ],
         "description" : "Beginning in the 1960s and solidifying in the public consciousness throughout the 2000s and 2010s, Libertarians advocate for minimal government intervention across economic and social domains in favor of personal freedoms. Libertarians are often anti-establishment, but do vote alongside fiscal conservatives and neoconservatives on many issues.",
         "alignment" : {
             "diplomacy"   :  20,
@@ -233,7 +311,9 @@
         ]
     },
     "techno_populists" : {
-        "name" : "Techno-Populists",
+        "names" : [
+            "Techno-Populists"
+        ],
         "description" : "A very recent tendency emerging among the post-liberal intellectual right, Techno-Populists combine rejection of liberal democratic proceduralism with enthusiasm for technological acceleration and concentrated power. Only adjacent to traditional Republicanism but deeply anti-establishment, Techno-Populism is associated with post-democratic neoreactionary currents.",
         "alignment" : {
             "diplomacy"   :  30,
@@ -251,7 +331,9 @@
         ]
     },
     "social_conservatives" : {
-        "name" : "Social Conservatives",
+        "names" : [
+            "Social Conservatives"
+        ],
         "description" : "Emerging as a political force in the late 1970s through organizations like the Moral Majority, Social Conservatives are mobilized around right-wing evangelicalism and opposition to abortion, same-sex marriage, and secularism in public institutions. Social Conservatives are solidly Republican and are organized through long-standing grassroots ideological infrastructure.",
         "alignment" : {
             "diplomacy"   :  10,
@@ -270,7 +352,9 @@
         ]
     },
     "national_conservatives" : {
-        "name" : "National Conservatives",
+        "names" : [
+            "National Conservatives"
+        ],
         "description" : "Experiencing rapid growth in the 2010s and 2020s, National Conservatives synthesize economic nationalism, immigration restrictionism, and anti-establishmentarianism, with roots in Buchananite paleoconservatism of the 1990s developing through the Make America Great Again movement to form a new coalition. National Conservatism trades traditional conservatism's internationalism for a civilizational nationalism prioritizing preservation of cultural itentity and traditional social values.",
         "alignment" : {
             "diplomacy"   :  45,
@@ -288,7 +372,9 @@
         ]
     },
     "paleoconservatives" : {
-        "name" : "Paleoconservatives",
+        "names" : [
+            "Paleoconservatives"
+        ],
         "description" : "Predating the Neoconservative ascendency, the Paleoconservative movement emphasizes cultural continuity, isolationism, immigraiton restrictivism, and trade protectionism. Paleoconservatives have diminished since 2010 but exist as an intellectually traditionalist wing of the Republican Party.",
         "alignment" : {
             "diplomacy"   :  50,
