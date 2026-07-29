@@ -16,7 +16,7 @@ states_data = {
     },
     '05': {
         'abbreviation': 'AR',
-        'name': 'Ar20',
+        'name': 'Arkansas',
         'neighbors': ['28', '29', '40', '48', '22', '47',],
     },
     '06': {
