@@ -1,0 +1,83 @@
+{
+    "69-00000" : {
+        "FIPS" : "69-00000",
+        "fullName" : "Municipality subdivision not defined",
+        "commonName" : "Municipality subdivision not defined",
+        "county" : "69100",
+        "type" : "Undefined (00)",
+        "color" : "#3b67f5",
+        "squareMileage" : 208.137
+    },
+    "69-14270" : {
+        "FIPS" : "69-14270",
+        "fullName" : "District 6",
+        "commonName" : "6",
+        "county" : "69120",
+        "type" : "District (28)",
+        "color" : "#336cd3",
+        "squareMileage" : 42.307
+    },
+    "69-14075" : {
+        "FIPS" : "69-14075",
+        "fullName" : "District 4",
+        "commonName" : "4",
+        "county" : "69085",
+        "type" : "District (28)",
+        "color" : "#6065ea",
+        "squareMileage" : 61.935
+    },
+    "69-14290" : {
+        "FIPS" : "69-14290",
+        "fullName" : "District 7",
+        "commonName" : "7",
+        "county" : "69100",
+        "type" : "District (28)",
+        "color" : "#2d85e0",
+        "squareMileage" : 32.863
+    },
+    "69-13750" : {
+        "FIPS" : "69-13750",
+        "fullName" : "District 1",
+        "commonName" : "1",
+        "county" : "69110",
+        "type" : "District (28)",
+        "color" : "#518ecd",
+        "squareMileage" : 10.031
+    },
+    "69-13900" : {
+        "FIPS" : "69-13900",
+        "fullName" : "District 2",
+        "commonName" : "2",
+        "county" : "69110",
+        "type" : "District (28)",
+        "color" : "#5766ed",
+        "squareMileage" : 1.655
+    },
+    "69-14200" : {
+        "FIPS" : "69-14200",
+        "fullName" : "District 5",
+        "commonName" : "5",
+        "county" : "69110",
+        "type" : "District (28)",
+        "color" : "#388ef0",
+        "squareMileage" : 9.379
+    },
+    "69-14050" : {
+        "FIPS" : "69-14050",
+        "fullName" : "District 3",
+        "commonName" : "3",
+        "county" : "69110",
+        "type" : "District (28)",
+        "color" : "#5d74c3",
+        "squareMileage" : 9.595
+    },
+    "69-14150" : {
+        "FIPS" : "69-14150",
+        "fullName" : "District 4",
+        "commonName" : "4",
+        "county" : "69110",
+        "type" : "District (28)",
+        "color" : "#5f7bcf",
+        "squareMileage" : 15.315
+    }
+}
