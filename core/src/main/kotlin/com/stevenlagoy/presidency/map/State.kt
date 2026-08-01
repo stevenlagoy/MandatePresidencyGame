@@ -23,6 +23,7 @@ class State (
     counties: Set<County> = emptySet(),
     _censusDivision: CensusDivision? = null,
     type: StateType = StateType.SOVERIGN_STATE_COMMONWEALTH
+    // specify which type(s) of county subdivisions are allowed // val allowedCountySubdivisions: List<KClass<CountySubdivisions>> = mutableListOf()
 ) : SoverignArea(
     engine,
     fullName,
