@@ -1,0 +1,250 @@
+    sex: Sex,
+    birthday: LocalDate,
+    demographics: Demographics,
+    family: Family,
+    appearance: CharacterAppearance,
+    name: PersonalName,
+    origin: Municipality,
+    location: Municipality,
+    residence: Municipality,
+    financialProfile: FinancialProfile?,
+    val experiences: ExperienceHistory,
+    val skills: Skills,
+    val personality: Personality,
+    var alignment: PoliticalAlignment,
+    val issuePositions: IssuePositionMap,
+    var partyAffiliation: Party?
+
+sex: Male
+birthday: 04 August 1961
+demographics:
+	generation: Generation X,
+    religion: Protestant,
+    raceEthnicity: African American,
+    presentation: Man
+family:
+	mother: Ann Dunham
+	father: Barack Obama
+	spouse: Michelle Robinson
+	children: Malia Obama, Sasha Obama
+name: WesternPersonalName
+	firstName: Barack
+	middleName: Hussein
+	lastName: Obama
+	ordinal: II
+	honorific: Mr.
+origin: Honolulu, Honolulu County, Hawaii
+residence: Washington, District of Columbia, District of Columbia
+experiences:
+	Undergraduate Study
+		Occidental College
+		1979 to 1981
+	Bachelor of Science in Political Science
+		Columbia University
+		1981 to 1983
+	Financial researcher
+		Business International Corporation
+		1983-1984
+	Project coordinator
+		New York Public Interest Research Group
+		1985
+	Community organizer
+		Developing Communities Project
+		June 1985 - May 1988
+	Consultant
+		Camaliel Foundation
+		1985-1988
+	Juris Doctor
+		Harvard Law School
+		1988-1991
+	Editor
+		Harvard Law Review
+		1989-1990
+	President
+		Harvard Law Review
+		1990-1991
+	Research assistant
+		Laurence Tribe
+		1990-1991
+	Summer associate
+		Sidley Austin
+		1989
+	Summer associate
+		Hopkins & Sutter
+		1990
+	Author
+		Dreams from My Father
+		1990-1995
+	Professor of constitutional law
+		University of Chicago Law School
+		1992-1996
+	Senior Lecturer
+		University of Chicago Law School
+		1996-2004
+	Director
+		Project Vote
+		April 1992 - October 1992
+	Director
+		Woods Fund of Chicago
+		1994 - 2002
+	Director
+		Joyce Foundation
+		1994 - 2002
+	Chairman
+		Chicago Annenberg Challenge
+		1995 - 1999
+	Director
+		Chicago Annenberg Challenge
+		1999-2002
+	State Senator
+		Illinois's 13th District
+		1996-1998
+	State Senator
+		Illinois's 13th District
+		1998-2002
+	State Senator
+		Illinois's 13th District
+		2002-2004
+	Chairman
+		Illinois Senate Health and Human Services Committee
+		2003-2004
+	Senator
+		US Senator for Illinois
+		2005 - 2008
+	Member
+		Congressional Black Caucus
+		2005 - 2008
+	Committee member
+		Senate Committee for Foreign Relations
+		2005-2006
+	Committee member
+		Senate Committee for Environment and Public Works
+		2005-2007
+	Committee member
+		Senate Committee for Veterans' Affairs
+		2005-2006
+	Committee member
+		Senate Committee for Health, Education, Labor and Pensions
+		2007-2008
+	Chairman
+		Senate subcommittee on European Affairs
+		2007-2008
+	Candidate for the Presidency
+		Democratic Party
+		2007-2008
+	Candidate for the Presidency
+		Democratic Party
+		2011-2012
+	President of the United States
+		1st Obama Administration
+		2009-2012
+	Candidate for the Presidency
+		Democratic Party
+		2011-2012
+	President of the United States
+		2nd Obama Administration
+		2013-2017
+	Co-Founder
+		Obama Foundation
+		2014-today
+Skills
+	Legislative: ~95
+	Executive: ~85
+	Judicial: ~90
+Alignment
+IssuePositions
+PartyAffiliation: Democratic Party (New Democrats)
+
+
+
+
+Joe Biden:
+Bachelor of Arts in History and Political Science
+	University of Delaware
+	1961-1965
+Juris Doctor
+	Syracuse University College of Law
+	1966-1968
+Law Clerk
+	William Prickett
+	1968
+Public Defender
+	Wilmington, Delaware
+	1969
+Attorney
+	Sid Balick
+	1969
+Attorney
+	Biden and Walsh
+	1969
+Property manager
+	1969
+City Councilman
+	New Castle
+	1970-1973
+US Senator
+	Junior senator for Delaware
+	1972-2009
+Candidate for the presidency
+	Democratic party
+	1987
+Adjunct Professor on Constitutional Law
+	Widener University School of Law
+	1991 - 2008
+Ranking minority member
+	Senate Judiciary Committee
+	1981 - 1987
+Chairman
+	Senate Judiciary Committee
+	1987-1995
+Ranking minority member
+	Senate Judiciary Committee
+	1995-1997
+Ranking minority member
+	Senate Foreign Relations Committee
+	1997-2001
+Chairman
+	Senate Foreign Relations Committee
+	2001-2003
+Ranking minority Member
+	Senate Foreign Relations Committee
+	2003-2007
+Chairman
+	Senate Foreign Relations Committee
+	2007-2009
+Candidate for the presidency
+	Democratic party
+	2007
+Running mate for the presidency
+	Democratic party, Barack Obama
+	2008
+Vice President of the United States
+	1st Obama Administration
+	2009-2012
+Running mate for the presidency
+	Democratic Party, Barack Obama
+	2011-2012
+Vice President of the United States
+	2nd Obama Administration
+	2013-2017
+Honorary professor
+	University of Pennsylvania
+	2017-2019
+Founder
+	Penn Biden Center for Diplomacy and Global Engagement
+	2017-2019
+Candidate for the presidency
+	Democratic Party
+	2019-2020
+President of the United States
+	Biden Administration
+	2021-2025
+Candidate for the Presidency
+	Democratic party
+	2023-2024
+Founder
+	Joseph R. Biden Jr. Presidential Library
+	2025-today
+Talent
+	Creative Artists Agency
+	2025-today
