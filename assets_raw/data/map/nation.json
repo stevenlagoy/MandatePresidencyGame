@@ -1,10 +1,69 @@
 {
-    "fullName" : "United States of America",
     "commonName" : "United States",
-    "flagFile" : "united_states_flag.png",
+    "fullName" : "United States of America",
     "abbreviation" : "USA",
-    "motto" : "In God We Trust",
-    "capital" : "11-50000",
+    "demonymicNoun" : "American",
+    "demonymicPluralNoun" : "Americans",
+    "demonymicAdjective" : "American",
+    "symbols" : {
+        "flag" : {
+            "name" : "Flag of the United States",
+            "description" : "Thirteen horizontal stripes, alternating red and white, with a large blue rectangle in the canton bearing fifty small, white, five-pointed stars arranged in nine offset horizonal rows, where rows of six stars alternate with rows of five stars.",
+            "symbolism" : "White is said to signify purity and innocence, red is said to signify hardiness and valor, and blue is said to signify vigilance, perseverance, and justice. Thirteen horizonal stripes represent the 13 original colonies, and fifty stars in constellation represent the fifty states of the Union.",
+            "adoptionDate" : "14 June 1777",
+            "file" : "united_states_flag.png"
+        },
+        "oath of allegiance" : {
+            "name" : "Pledge of Allegiance",
+            "oath" : "I pledge allegiance to the Flag of the United States of America, and to the Republic for which it stands, one nation under God, indivisible, with liberty and justice for all.",
+            "adoptionDate" : "14 June 1954"
+        },
+        "seal" : {
+            "name" : "Great Seal of the United States",
+            "description" : "Obverse: the national coat of arms of the United States. Reverse: a truncated pyramid topped by an Eye of Providence, with the year 1776 noted in Roman numerals at the base of the pyramid, above the words *Annuit cœptis* and below the words *Novus ordo seclorum*.",
+            "fileObverse" : "united_states_seal_obverse.png",
+            "fileReverse" : "united_states_seal_reverse.png"
+        },
+        "coat of arms" : {
+            "name" : "Coat of Arms of the United States",
+            "heraldicDescription" : "Arms: Paleways of 13 pieces, argent and gules; a chief, azure; the escutcheon on the breast of the American eagle displayed proper, holding in its dexter talon and olive branch, and in his sinister a bundle of 13 arrows, all proper, in his beak a scroll, enscribed with this motto: \"*E pluribus unum*.\" Crest: over the head of the eagle, which appears above the escutcheon, a glory, or, breaking through a cloud, proper, and surrounding 13 stars, forming a constellation argent on an azure field.",
+            "file" : "united_states_coa.png"
+        },
+        "mammal" : "American bison",
+        "anthem" : "\"The Star-Spangled Banner\"",
+        "mottos" : [
+            {
+                "motto" : "In God We Trust",
+                "adoptionDate" : "30 July 1956"
+            },
+            {
+                "motto" : "*E pluribus unum*",
+                "translation" : "Out of many, one",
+                "language" : "Latin"
+            },
+            {
+                "motto" : "*Annuit cœptis*",
+                "translation" : "He has favored our undertakings",
+                "language" : "Latin"
+            },
+            {
+                "motto" : "*Novus ordo seclorum*",
+                "translation" : "A new order of the ages",
+                "language" : "Latin"
+            }
+        ],
+        "floral emblem" : "rose",
+        "march" : "\"The Stars and Stripes Forever\"",
+        "tree" : "oak",
+        "bird" : "bald eagle",
+        "personifications" : [
+            "Uncle Sam",
+            "Lady Liberty",
+            "Columbia"
+        ],
+        "creed" : "I believe in the United States of America, as a government of the people, by the people, for the people; whose just powers are derived from the consent of the governed; a democracy in a republic; a sovereign Nation of many sovereign States; a perfect union, one and inseparable; established upon those principles of freedom, equality, justice, and humanity for which American patriots sacrificed their lives and fortunes. I therefore believe it is my duty to my country to love it, to support its Constitution, to obey its laws, to respect its flag, and to defend it against all enemies."
+    },
+    "capital" : "Washington, DC",
     "government" : {
         "name" : "Government of the United States",
         "constituency" : "United States",
@@ -901,6 +960,528 @@
                             }
                         }
                     }
+                }
+            }
+        }
+    },
+    "military" : {
+        "name" : "United States Armed Forces",
+        "founded" : "14 June 1775",
+        "headquarters" : "The Pentagon, Arlington County, VA",
+        "commanderInChief" : {
+            "coincident" : "POTUS",
+            "title" : "Commander-in-Chief"
+        },
+        "serviceBranches" : {
+            "army" : {
+                "name" : "United States Army",
+                "founded" : "03 June 1784",
+                "headquarters" : "The Pentagon, Arlington County, VA",
+                "leadership" : {
+                    "army_secretary" : {
+                        "title" : "Secretary of the Army"
+                    },
+                    "army_chief_of_staff" : {
+                        "title" : "Chief of Staff of the Army"
+                    },
+                    "army_vice_chief_of_staff" : {
+                        "title" : "Vice Chief of Staff of the Army"
+                    },
+                    "army_chief_warrant_officer" : {
+                        "title" : "Chief Warrant Officer of the Army"
+                    },
+                    "army_sergeant_major" : {
+                        "title" : "Sergeant Major of the Army"
+                    }
+                },
+                "ranks" : {
+                    "army_general" : {
+                        "title" : "General of the Army",
+                        "abbreviation" : "GA",
+                        "NATO_code" : "OF-10"
+                    },
+                    "general" : {
+                        "title" : "General",
+                        "abbreviation" : "GEN",
+                        "NATO_code" : "OF-9"
+                    },
+                    "lieutenant_general" : {
+                        "title" : "Lieutenant general",
+                        "abbreviation" : "LTG",
+                        "NATO_code" : "OF-8"
+                    },
+                    "major_general" : {
+                        "title" : "Major general",
+                        "abbreviation" : "MG",
+                        "NATO_code" : "OF-7"
+                    },
+                    "brigadier_general" : {
+                        "title" : "Brigadier general",
+                        "abbreviation" : "BG",
+                        "NATO_code" : "OF-6"
+                    },
+                    "colonel" : {
+                        "title" : "Colonel",
+                        "abbreviation" : "COL",
+                        "NATO_code" : "OF-5"
+                    },
+                    "lieutenant_colonel" : {
+                        "title" : "Lieutenant colonel",
+                        "abbreviation" : "LTC",
+                        "NATO_code" : "OF-4"
+                    },
+                    "major" : {
+                        "title" : "Major",
+                        "abbreviation" : "MAJ",
+                        "NATO_code" : "OF-3"
+                    },
+                    "captain" : {
+                        "title" : "Captain",
+                        "abbreviation" : "CPT",
+                        "NATO_code" : "OF-2"
+                    },
+                    "first_lieutenant" : {
+                        "title" : "First lieutenant",
+                        "abbreviation" : "1LT",
+                        "NATO_code" : "OF-1"
+                    },
+                    "second_lieutenant" : {
+                        "title" : "Second lieutenant",
+                        "abbreviation" : "2LT",
+                        "NATO_code" : "OF-1"
+                    },
+                    "chief_warrant_officer_5" : {
+                        "title" : "Chief warrant officer 5",
+                        "abbreviation" : "CW5",
+                        "NATO_code" : "WO-5"
+                    },
+                    "chief_warrant_officer_4" : {
+                        "title" : "Chief warrant officer 4",
+                        "abbreviation" : "CW4",
+                        "NATO_code" : "WO-4"
+                    },
+                    "chief_warrant_officer_3" : {
+                        "title" : "Chief warrant officer 3",
+                        "abbreviation" : "CW3",
+                        "NATO_code" : "WO-3"
+                    },
+                    "chief_warrant_officer_2" : {
+                        "title" : "Chief warrant officer 2",
+                        "abbreviation" : "CW2",
+                        "NATO_code" : "WO-2"
+                    },
+                    "warrant_officer_1" : {
+                        "title" : "Warrant officer 1",
+                        "abbreviation" : "WO1",
+                        "NATO_code" : "WO-1"
+                    },
+                    "senior_enlisted_advisor_to_the_chairman" : {
+                        "title" : "Senior enlisted advisor to the chairman",
+                        "abbreviation" : "SEAC",
+                        "NATO_code" : "OR-9"
+                    },
+                    "army_sergeant_major" : {
+                        "title" : "Sergeant major of the Army",
+                        "abbreviation" : "SMA",
+                        "NATO_code" : "OR-9"
+                    }, "senior_enlisted_advisor_to_the_chief_of_the_national_guard_bureau" : {
+                        "title" : "Senior enlisted advisor to the chief of the National Guard Bureau",
+                        "abbreviation" : "SEA",
+                        "NATO_code" : "OR-9"
+                    },
+                    "command_sergeant_major" : {
+                        "title" : "Command sergeant major",
+                        "abbreviation" : "CSM",
+                        "NATO_code" : "OR-9"
+                    },
+                    "sergeant_major" : {
+                        "title" : "Sergeant major",
+                        "abbreviation" : "SGM",
+                        "NATO_code" : "OR-9"
+                    },
+                    "first_sergeant" : {
+                        "title" : "First sergeant",
+                        "abbreviation" : "1SG",
+                        "NATO_code" : "OR-8"
+                    },
+                    "master_sergeant" : {
+                        "title" : "Master sergeant",
+                        "abbreviation" : "MSG",
+                        "NATO_code" : "OR-8"
+                    },
+                    "sergeant_first_class" : {
+                        "title" : "Sergeant first class",
+                        "abbreviation" : "SFC",
+                        "NATO_code" : "OR-7"
+                    },
+                    "staff_sergeant" : {
+                        "title" : "Staff sergeant",
+                        "abbreviation" : "SSG",
+                        "NATO_code" : "OR-6"
+                    },
+                    "sergeant" : {
+                        "title" : "Sergeant",
+                        "abbreviation" : "SGT",
+                        "NATO_code" : "OR-5"
+                    },
+                    "corporal" : {
+                        "title" : "Corporal",
+                        "abbreviation" : "CPL",
+                        "NATO_code" : "OR-4"
+                    },
+                    "army_specialist" : {
+                        "title" : "Specialist",
+                        "abbreviation" : "SPC",
+                        "NATO_code" : "OR-4"
+                    },
+                    "private_first_class" : {
+                        "title" : "Private first class",
+                        "abbreviation" : "PFC",
+                        "NATO_code" : "OR-3"
+                    },
+                    "private_2" : {
+                        "title" : "Private",
+                        "abbreviation" : "PV2",
+                        "NATO_code" : "OR-2"
+                    },
+                    "private_1" : {
+                        "title" : "Private",
+                        "abbreviation" : "PV1",
+                        "NATO_code" : "OR-1"
+                    }
+                },
+                "symbols" : {
+                    "mottos" : [
+                        {
+                            "motto" : "This We'll Defend"
+                        }
+                    ],
+                    "flags" : [
+                        {
+                            "name" : "Flag of the United States Army",
+                            "description" : "A blue replica of the War Office Seal  set on a white field. Beneath the seal is a broad scarlet scroll bearing the inscription in white letters, \"UNITED STATES ARMY.\" Beneath the scroll in blue sans serif Arabic numerals is \"1775.\"",
+                            "symbolism" : "1775 represents the year in which General George Washington was appointed as General of the Continental Army.",
+                            "adoptionDate" : "12 June 1956",
+                            "file" : "army_flag.png"
+                        },
+                        {
+                            "name" : "Field Flag of the United States Army",
+                            "description" : "A white replica of the War Office Seal set on a blue field. Beneath the seal is a broad white scroll bearing the inscription in scarlet letters, \"UNITED STATES ARMY.\" Beneath the scroll, in white sans serif Arabid numberals, is \"1775.\"",
+                            "symbolism" : "1775 represents the year in which General George Washington was appointed as General of the Continental Army.",
+                            "adoptionDate" : "12 April 1962",
+                            "file" : "army_field_flag.png"
+                        }
+                    ],
+                    "march" : "\"The Army Goes Rolling Along\"",
+                    "mascot" : "Army Mules",
+                    "colors" : {
+                        "black" : "#030000",
+                        "gold" : "#FFD530",
+                        "white" : "#FFFFFF"
+                    }
+                }
+            },
+            "marineCorps" : {
+                "name" : "United States Marine Corps",
+                "founded" : "11 July 1798",
+                "headquarters" : "The Pentagon, Arlington County, VA",
+                "leadership" : {
+                    "navy_secretary" :{
+                        "title" : "Secretary of the Navy"
+                    },
+                    "marines_commandant" : {
+                        "title" : "Commandant of the Marine Corps"
+                    },
+                    "marines_assistant_commandant" : {
+                        "title" : "Assistant Commandant of the Marine Corps"
+                    },
+                    "marines_sergeant_major" : {
+                        "title" : "Sergeant Major of the Marine Coprs"
+                    }
+                },
+                "ranks" : {
+                    "general" : {
+                        "title" : "General",
+                        "abbreviation" : "Gen",
+                        "NATO_code" : "OF-9"
+                    },
+                    "lieutenant_general" : {
+                        "title" : "Lieutenant general",
+                        "abbreviation" : "LtGen",
+                        "NATO_code" : "OF-8"
+                    },
+                    "major_general" : {
+                        "title" : "Major general",
+                        "abbreviation" : "MajGen",
+                        "NATO_code" : "OF-7"
+                    },
+                    "brigadier_general" : {
+                        "title" : "Brigadier general",
+                        "abbreviation" : "BGen",
+                        "NATO_code" : "OF-6"
+                    },
+                    "colonel" : {
+                        "title" : "Colonel",
+                        "abbreviation" : "Col",
+                        "NATO_code" : "OF-5"
+                    },
+                    "lieutenant_colonel" : {
+                        "title" : "Lieutenant colonel",
+                        "abbreviation" : "LtCol",
+                        "NATO_code" : "OF-4"
+                    },
+                    "major" : {
+                        "title" : "Major",
+                        "abbreviation" : "Maj",
+                        "NATO_code" : "OF-3"
+                    },
+                    "captian" : {
+                        "title" : "Captain",
+                        "abbreviation" : "Capt",
+                        "NATO_code" : "OF-2"
+                    },
+                    "first_lieutenant" : {
+                        "title" : "First lieutenant",
+                        "abbreviation" : "1stLt",
+                        "NATO_code" : "OF-1"
+                    },
+                    "second_lieutenant" : {
+                        "title" : "Second lieutenant",
+                        "abbreviation" : "2ndLt",
+                        "NATO_code" : "OF-1"
+                    },
+                    "chief_warrant_officer_5" : {
+                        "title" : "Chief warrant officer 5",
+                        "abbreviation" : "CWO5",
+                        "NATO_code" : "WO-5"
+                    },
+                    "chief_warrant_officer_4" : {
+                        "title" : "Chief warrant officer 4",
+                        "abbreviation" : "CWO4",
+                        "NATO_code" : "WO-4"
+                    },
+                    "chief_warrant_officer_3" : {
+                        "title" : "Chief warrant officer 3",
+                        "abbreviation" : "CWO3",
+                        "NATO_code" : "WO-3"
+                    },
+                    "chief_warrant_officer_2" : {
+                        "title" : "Chief warrant officer 2",
+                        "abbreviation" : "CWO2",
+                        "NATO_code" : "WO-2"
+                    },
+                    "warrant_officer_1" : {
+                        "title" : "Warrant officer 1",
+                        "abbreviation" : "WO",
+                        "NATO_code" : "WO-1"
+                    },
+                    "senior_enlisted_advisor_to_the_chairman" : {
+                        "title" : "Senior Enlisted Advisor to the Chairman",
+                        "abbreviation" : "SEAC",
+                        "NATO_code" : "OR-9"
+                    },
+                    "sergeant_major_of_the_marine_corps" : {
+                        "title" : "Sergeant Major of the Marine Corps",
+                        "abbreviation" : "SMMC",
+                        "NATO_code" : "OR-9"
+                    },
+                    "sergeant_major" : {
+                        "title" : "Sergeant major",
+                        "abbreviation" : "SgtMaj",
+                        "NATO_code" : "OR-9"
+                    },
+                    "master_gunnery_sergeant" : {
+                        "title" : "Master gunnery sergeant",
+                        "abbreviation" : "MGySgt",
+                        "NATO_code" : "OR-9"
+                    },
+                    "first_sergeant" : {
+                        "title" : "First sergeant",
+                        "abbreviation" : "1stSgt",
+                        "NATO_code" : "OR-9"
+                    },
+                    "master_sergeant" : {
+                        "title" : "Master sergeant",
+                        "abbreviation" : "MSgt",
+                        "NATO_code" : "OR-8"
+                    },
+                    "gunnery_sergeant" : {
+                        "title" : "Gunnery sergeant",
+                        "abbreviation" : "GySgt",
+                        "NATO_code" : "OR-7"
+                    },
+                    "staff_sergeant" : {
+                        "title" : "Staff sergeant",
+                        "abbreviation" : "SSgt",
+                        "NATO_code" : "OR-6"
+                    },
+                    "sergeant" : {
+                        "title" : "Sergeant",
+                        "abbreviation" : "Sgt",
+                        "NATO_code" : "OR-5"
+                    },
+                    "corporal" : {
+                        "title" : "Corporal",
+                        "abbreviation" : "Cpl",
+                        "NATO_code" : "OR-4"
+                    },
+                    "lance_corporal" : {
+                        "title" : "Lance corporal",
+                        "abbreviation" : "LCpl",
+                        "NATO_code" : "OR-3"
+                    },
+                    "private_first_class" : {
+                        "title" : "Private first class",
+                        "abbreviation" : "PFC",
+                        "NATO_code" : "OR-2"
+                    },
+                    "private" : {
+                        "title" : "Private",
+                        "abbreviation" : "Pvt",
+                        "NATO_code" : "OR-1"
+                    }
+                },
+                "symbols" : {
+                    "flag" : {
+                        "name" : "Flag of the United States Marine Coprs",
+                        "description" : "A centered Eagle, Globe, and Anchor on a scarlet background, with a streaming banner underneath bearing the words \"UNITED STATES MARINE COPRS\" in scarlet lettering.",
+                        "symbolism" : "The Corps emblem in gray and gold represents power on land, sea, and air. The design references the Continental Marines and the United Kingdom's Royal Marines.",
+                        "adoptionDate" : "18 January 1936",
+                        "file" : "marines_flag.png"
+                    },
+                    "seal" : {
+                        "name" : "Seal of the United States Marine Coprs",
+                        "description" : "Standing upon the western hemisphere of the terrestrial globe containing the lines of latitude and topographical outlines of North, Central, and South America, an American bald eagle with wings displayed horizontally and inverted holding his beak in a scroll inscribed with the motto \"SEMPER FIDELIS\", all bronze. Behind the western hemisphere a foul anchor bend sinister-wise with stock, arms, and flukes in slight perspective, all bronze, on a scarlet background and within a dark blue band edged in gold circumscribed by a gold rope rim and inscribed \"DEPARTMENT OF THE NAVY • UNITED STATES MARINE CORPS\" in gold letters.",
+                        "file" : "marines_seal.png"
+                    },
+                    "emblem" : {
+                        "name" : "Eagle, Globe, and Anchor",
+                        "description" : "Globe in silver showing the continents of the Western Hemisphere intersected by a fouled anchor with silver rope, and surmounted by a spread eagle, all in gold. In the eagle's beak a ribbon bearing \"Semper Fidelis.\"",
+                        "file" : "ega_emblem.png"
+                    },
+                    "nicknames" : [
+                        "Jarheads",
+                        "Devil Dogs",
+                        "Teufels Hunde",
+                        "Leathernecks"
+                    ],
+                    "mottos" : [
+                        {
+                            "motto" : "*Semper fidelis*",
+                            "translation" : "Always faithful",
+                            "language" : "Latin"
+                        },
+                        {
+                            "motto" : "*Semper Fi*",
+                            "translation" : "Always faithful",
+                            "language" : "Latin"
+                        }
+                    ],
+                    "colors" : {
+                        "scarlet" : "#CC0000",
+                        "gold" : "#CC9900"
+                    },
+                    "march" : "\"Semper Fidelis\"",
+                    "mascot" : "English bulldog",
+                    "song" : "\"The Marine's Hymn\""
+                }
+            },
+            "navy" : {
+                "name" : "United States Navy",
+                "founded" : "27 March 1794",
+                "headquarters" : "The Pentagon, Arlington County, VA",
+                "leadership" : {
+                    "navy_secretary" : {
+                        "title" : "Secretary of the Navy"
+                    },
+                    "chief_of_naval_operations" : {
+                        "title" : "Chief of Naval Operations"
+                    },
+                    "vice_chief_of_naval_operations" : {
+                        "title" : "Vice Chief of Naval Operations"
+                    },
+                    "navy_master_chief_petty_officer" : {
+                        "title" : "Master Chief Petty Officer of the Navy"
+                    }
+                },
+                "ranks" : {},
+                "symbols" : {
+                    "mottos" : [
+                        {
+                            "motto" : "*Semper Fortis*",
+                            "translation" : "Always Courageous",
+                            "language" : "Latin"
+                        },
+                        {
+                            "motto" : "*Non sibi sed patriae*",
+                            "translation" : "Not for self but for country",
+                            "language" : "Latin"
+                        }
+                    ],
+                    "flags" : [
+                        {
+                            "name" : "Flag of the United States Navy",
+                            "description" : "Dark blue field. In the center of the flag is the inner pictoral portion of the seal of the Department of the Navy in its proper colors within a circular yellow rope edging above a yellow scroll inscribed \"UNITED STATES NAVY\" in dark blue letters.",
+                            "symbolism" : "The seal of the Department of the Navy represents naval heritage, readiness, and power on the seas. Gold rope represents tradition and cohesion."
+                        },
+                        {
+                            "name" : "Union Jack of the United States",
+                            "description" : "50 white five-pointed stars defacing a blue field in 9 rows, alternating between 6 and 5 stars (top to bottom), or 11 rows alternating between 5 and 4 stars (left to right).",
+                            "symbolism" : "Essentially the canton of the national flag, the jack represents the 50 states representing the Union."
+                        },
+                        {
+                            "name" : "First Navy Jack",
+                            "description" : "13 horizontal stripes of alternating red and white, charged with a rattlesnake and inscribed on the lowest white stripe: \"DONT TREAD ON ME.\"",
+                            "symbolism" : "A historic maritime flag, the First Navy Jack symbolizes American independence, unity, and readiness to strike against tyrrany. The rattlesnake referrs to Benjamin Franklin's 1754 \"Join, or Die\" cartoon, while the motto is a warning to those who would encroach upon liberty or oppress freedom. The First Navy Jack replaces the Union Jack on the oldest navy-held ship with continual commission."
+                        }
+                    ],
+                    "march" : "\"Anchors Aweigh\"",
+                    "colors" : {
+                        "blue" : "#022A3A",
+                        "gold": "#E8B00F"
+                    }
+                }
+            },
+            "airForce" : {
+                "name" : "United States Air Force",
+                "founded" : "18 September 1947",
+                "headquarters" : "The Pentagon, Arlington County, VA",
+                "leadership" : {
+
+                },
+                "ranks" : {
+
+                },
+                "symbols" : {
+
+                }
+            },
+            "spaceForce" : {
+                "name" : "United States Space Force",
+                "founded" : "20 December 2019",
+                "headquarters" : "The Pentagon, Arlington County, VA",
+                "leadership" : {
+
+                },
+                "ranks" : {
+
+                },
+                "symbols" : {
+
+                }
+            },
+            "coastGuard" : {
+                "name" : "United States Coast Guard",
+                "founded" : "",
+                "headquarters" : "",
+                "leadership" : {
+
+                },
+                "ranks" : {
+
+                },
+                "symbols" : {
+
                 }
             }
         }
