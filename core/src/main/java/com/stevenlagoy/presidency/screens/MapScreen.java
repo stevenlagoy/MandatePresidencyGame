@@ -7,6 +7,7 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.PerspectiveCamera;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.VertexAttributes;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g3d.*;
 import com.badlogic.gdx.graphics.g3d.attributes.ColorAttribute;
 import com.badlogic.gdx.graphics.g3d.attributes.TextureAttribute;
@@ -22,7 +23,8 @@ import org.jetbrains.annotations.NotNull;
 
 public class MapScreen extends BaseScreen {
 
-    private static final float PLANE_SIZE = 500f;
+    private static final float PLANE_WIDTH = 522.24f;
+    private static final float PLANE_HEIGHT = 286.72f;
 
     private PerspectiveCamera camera;
     private Environment environment;
@@ -61,6 +63,8 @@ public class MapScreen extends BaseScreen {
 
     private void setupCamera() {
         camera = new PerspectiveCamera(67, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
+        camera.viewportWidth = 16f;
+        camera.viewportHeight = 9f;
         camera.near = 1f;
         camera.far = 1000f;
     }
@@ -71,20 +75,21 @@ public class MapScreen extends BaseScreen {
         environment = new Environment();
         environment.set(ColorAttribute.createAmbientLight(0.9f, 0.9f, 0.9f, 1f));
 
-        groundTexture = new Texture(Gdx.files.internal("textures/checkerboard.png"));
+        groundTexture = new Texture(Gdx.files.internal("textures/backgrounds/background.png"));
         groundTexture.setFilter(Texture.TextureFilter.Linear, Texture.TextureFilter.Linear);
 
         Material material = new Material(TextureAttribute.createDiffuse(groundTexture));
+//        Material material = new Material(ColorAttribute.createDiffuse(0f, 1f, 0f, 1f)); // Green
 
         ModelBuilder modelBuilder = new ModelBuilder();
         groundModel = modelBuilder.createRect(
-            -PLANE_SIZE, 0, -PLANE_SIZE,
-             PLANE_SIZE, 0, -PLANE_SIZE,
-             PLANE_SIZE, 0,  PLANE_SIZE,
-            -PLANE_SIZE, 0,  PLANE_SIZE,
+            -PLANE_WIDTH, 0, -PLANE_HEIGHT,
+            -PLANE_WIDTH, 0,  PLANE_HEIGHT,
+             PLANE_WIDTH, 0,  PLANE_HEIGHT,
+             PLANE_WIDTH, 0,  -PLANE_HEIGHT,
             0, 1, 0,
             material,
-            VertexAttributes.Usage.Position | VertexAttributes.Usage.Normal | VertexAttributes.Usage.TextureCoordinates
+            VertexAttributes.Usage.Position | VertexAttributes.Usage.Normal
         );
         groundInstance = new ModelInstance(groundModel);
     }
@@ -99,7 +104,7 @@ public class MapScreen extends BaseScreen {
 
     @Override
     protected void renderBackground(float delta) {
-        Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+        Gdx.gl.glDisable(GL20.GL_CULL_FACE);
         modelBatch.begin(camera);
         modelBatch.render(groundInstance, environment);
         modelBatch.end();
@@ -110,7 +115,7 @@ public class MapScreen extends BaseScreen {
         super.resize(width, height);
         camera.viewportWidth = width;
         camera.viewportHeight = height;
-        camera.update();
+        camera.update(true);
     }
 
     @Override
