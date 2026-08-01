@@ -2,76 +2,83 @@
     "FIPS" : "42",
     "commonName" : "Pennsylvania",
     "fullName" : "Commonwealth of Pennsylvania",
-    "map_color" : "#32FFE9",
-    "flag_loc" : "pennsylvania_flag.png",
-    "population" : 13002700,
-    "squareMileage" : 46054,
+    "flagFile" : "pennsylvania_flag.png",
     "abbreviation" : "PA",
     "demonyn" : "Pennsylvanian",
-    "motto" : "Virtue, Liberty and Independence",
     "nickname" : "Keystone State",
+    "motto" : "Virtue, Liberty and Independence",
     "capital" : "Harrisburg",
-    "federal_court_circuit" : 3,
+    "federalCourtCircuit" : 3,
     "censusDivision" : "Mid-Atlantic",
     "descriptors" : [
         "PENNSYLVANIA",
         "NORTHEAST",
         "MID-ATLANTIC"
     ],
+    "allowedSubdivisionTypes" : [
+        "Civil Township",
+        "City",
+        "Census-Designated Place"
+    ],
+    "allowedPlaceTypes" : [
+        "Census-Designated Place"
+    ],
     "government" : {
         "name" : "",
         "constituency" : "",
         "federalLevel" : "",
         "constitution" : "",
-        "executiveBranch" : {
-            "positions" : {
-                "" : {
-                    "title" : ""
-                }
-            }
-        },
-        "legislativeBranch" : {
-            "title" : "",
-            "chambers" : {
-                "" : {
-                    "name" : "",
-                    "isUpperChamber" : true,
-                    "termLength" : 0,
-                    "nextElectionDate" : "",
-                    "seats" : 0,
-                    "positions" : {
-                        "" : {
-                            "title" : ""
-                        }
-                    }
-                },
-                "" : {
-                    "name" : "",
-                    "termLength" : 0,
-                    "nextElectionDate" : "",
-                    "seats" : 0,
-                    "positions" : {
-                        "" : {
-                            "title" : ""
-                        }
-                    }
-                }
-            }
-        },
-        "judicialBranch" : {
-            "title" : "",
-            "supreme_court" : {
-                "fullName" : "",
-                "commonName" : "",
-                "basis" : "",
-                "judges" : 0,
-                "appellate_courts" : {
+        "branches" : {
+            "executiveBranch" : {
+                "positions" : {
                     "" : {
-                        "fullName" : "",
-                        "basis" : "",
-                        "judges" : 0,
+                        "title" : ""
+                    }
+                }
+            },
+            "legislativeBranch" : {
+                "title" : "",
+                "chambers" : {
+                    "" : {
+                        "name" : "",
+                        "isUpperChamber" : true,
                         "termLength" : 0,
-                        "nextElectionDate" : ""
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    },
+                    "" : {
+                        "name" : "",
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    }
+                }
+            },
+            "judicialBranch" : {
+                "title" : "",
+                "supreme_court" : {
+                    "fullName" : "",
+                    "commonName" : "",
+                    "basis" : "",
+                    "judges" : 0,
+                    "appellate_courts" : {
+                        "" : {
+                            "fullName" : "",
+                            "basis" : "",
+                            "judges" : 0,
+                            "termLength" : 0,
+                            "nextElectionDate" : ""
+                        }
                     }
                 }
             }

@@ -2,76 +2,83 @@
     "FIPS" : "36",
     "commonName" : "New York",
     "fullName" : "State of New York",
-    "map_color" : "#FF4832",
-    "flag_loc" : "new_york_flag.png",
-    "population" : 20201249,
-    "squareMileage" : 54555,
+    "flagFile" : "new_york_flag.png",
     "abbreviation" : "NY",
     "demonym" : "New Yorker",
-    "motto" : "Excelsior",
     "nickname" : "Empire State",
+    "motto" : "Excelsior",
     "capital" : "Albany",
-    "federal_court_circuit" : 2,
+    "federalCourtCircuit" : 2,
     "censusDivision" : "Mid-Atlantic",
     "descriptors" : [
         "NEW_YORK",
         "NORTHEAST",
         "MID-ATLANTIC"
     ],
+    "allowedSubdivisionTypes" : [
+        "Civil Township",
+        "City",
+        "Census-Designated Place"
+    ],
+    "allowedPlaceTypes" : [
+        "Census-Designated Place"
+    ],
     "government" : {
         "name" : "",
         "constituency" : "",
         "federalLevel" : "",
         "constitution" : "",
-        "executiveBranch" : {
-            "positions" : {
-                "" : {
-                    "title" : ""
-                }
-            }
-        },
-        "legislativeBranch" : {
-            "title" : "",
-            "chambers" : {
-                "" : {
-                    "name" : "",
-                    "isUpperChamber" : true,
-                    "termLength" : 0,
-                    "nextElectionDate" : "",
-                    "seats" : 0,
-                    "positions" : {
-                        "" : {
-                            "title" : ""
-                        }
-                    }
-                },
-                "" : {
-                    "name" : "",
-                    "termLength" : 0,
-                    "nextElectionDate" : "",
-                    "seats" : 0,
-                    "positions" : {
-                        "" : {
-                            "title" : ""
-                        }
-                    }
-                }
-            }
-        },
-        "judicialBranch" : {
-            "title" : "",
-            "supreme_court" : {
-                "fullName" : "",
-                "commonName" : "",
-                "basis" : "",
-                "judges" : 0,
-                "appellate_courts" : {
+        "branches" : {
+            "executiveBranch" : {
+                "positions" : {
                     "" : {
-                        "fullName" : "",
-                        "basis" : "",
-                        "judges" : 0,
+                        "title" : ""
+                    }
+                }
+            },
+            "legislativeBranch" : {
+                "title" : "",
+                "chambers" : {
+                    "" : {
+                        "name" : "",
+                        "isUpperChamber" : true,
                         "termLength" : 0,
-                        "nextElectionDate" : ""
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    },
+                    "" : {
+                        "name" : "",
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    }
+                }
+            },
+            "judicialBranch" : {
+                "title" : "",
+                "supreme_court" : {
+                    "fullName" : "",
+                    "commonName" : "",
+                    "basis" : "",
+                    "judges" : 0,
+                    "appellate_courts" : {
+                        "" : {
+                            "fullName" : "",
+                            "basis" : "",
+                            "judges" : 0,
+                            "termLength" : 0,
+                            "nextElectionDate" : ""
+                        }
                     }
                 }
             }

@@ -2,76 +2,82 @@
     "FIPS" : "48",
     "commonName" : "Texas",
     "fullName" : "State of Texas",
-    "map_color" : "#32FF7B",
-    "flag_loc" : "texas_flag.png",
-    "population" : 29145505,
-    "squareMileage" : 268596,
+    "flagFile" : "texas_flag.png",
     "abbreviation" : "TX",
     "demonym" : "Texan",
-    "motto" : "Friendship",
     "nickname" : "Lone Star State",
+    "motto" : "Friendship",
     "capital" : "Austin",
-    "federal_court_circuit" : 5,
+    "federalCourtCircuit" : 5,
     "censusDivision" : "West South Central",
     "descriptors" : [
         "TEXAS",
         "SOUTH",
         "WEST_SOUTH_CENTRAL"
     ],
+    "allowedSubdivisionTypes" : [
+        "Census County Division"
+    ],
+    "allowedPlaceTypes" : [
+        "City",
+        "Census-Designated Place"
+    ],
     "government" : {
         "name" : "",
         "constituency" : "",
         "federalLevel" : "",
         "constitution" : "",
-        "executiveBranch" : {
-            "positions" : {
-                "" : {
-                    "title" : ""
-                }
-            }
-        },
-        "legislativeBranch" : {
-            "title" : "",
-            "chambers" : {
-                "" : {
-                    "name" : "",
-                    "isUpperChamber" : true,
-                    "termLength" : 0,
-                    "nextElectionDate" : "",
-                    "seats" : 0,
-                    "positions" : {
-                        "" : {
-                            "title" : ""
-                        }
-                    }
-                },
-                "" : {
-                    "name" : "",
-                    "termLength" : 0,
-                    "nextElectionDate" : "",
-                    "seats" : 0,
-                    "positions" : {
-                        "" : {
-                            "title" : ""
-                        }
-                    }
-                }
-            }
-        },
-        "judicialBranch" : {
-            "title" : "",
-            "supreme_court" : {
-                "fullName" : "",
-                "commonName" : "",
-                "basis" : "",
-                "judges" : 0,
-                "appellate_courts" : {
+        "branches" : {
+            "executiveBranch" : {
+                "positions" : {
                     "" : {
-                        "fullName" : "",
-                        "basis" : "",
-                        "judges" : 0,
+                        "title" : ""
+                    }
+                }
+            },
+            "legislativeBranch" : {
+                "title" : "",
+                "chambers" : {
+                    "" : {
+                        "name" : "",
+                        "isUpperChamber" : true,
                         "termLength" : 0,
-                        "nextElectionDate" : ""
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    },
+                    "" : {
+                        "name" : "",
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    }
+                }
+            },
+            "judicialBranch" : {
+                "title" : "",
+                "supreme_court" : {
+                    "fullName" : "",
+                    "commonName" : "",
+                    "basis" : "",
+                    "judges" : 0,
+                    "appellate_courts" : {
+                        "" : {
+                            "fullName" : "",
+                            "basis" : "",
+                            "judges" : 0,
+                            "termLength" : 0,
+                            "nextElectionDate" : ""
+                        }
                     }
                 }
             }

@@ -2,76 +2,82 @@
     "FIPS" : "28",
     "commonName" : "Mississippi",
     "fullName" : "State of Mississippi",
-    "map_color" : "#32FF3A",
-    "flag_loc" : "mississippi_flag.png",
-    "population" : 2961279,
-    "squareMileage" : 48432,
+    "flagFile" : "mississippi_flag.png",
     "abbreviation" : "MS",
     "demonym" : "Mississippian",
-    "motto" : "Virtute et armis",
     "nickname" : "Magnolia State",
+    "motto" : "Virtute et armis",
     "capital" : "Jackson",
-    "federal_court_circuit" : 5,
+    "federalCourtCircuit" : 5,
     "censusDivision" : "East South Central",
     "descriptors" : [
         "MISSISSIPPI",
         "SOUTH",
         "EAST_SOUTH_CENTRAL"
     ],
+    "allowedSubdivisionTypes" : [
+        "Supervisors' District",
+        "City"
+    ],
+    "allowedPlaceTypes" : [
+        "Census-Designated Place"
+    ],
     "government" : {
         "name" : "",
         "constituency" : "",
         "federalLevel" : "",
         "constitution" : "",
-        "executiveBranch" : {
-            "positions" : {
-                "" : {
-                    "title" : ""
-                }
-            }
-        },
-        "legislativeBranch" : {
-            "title" : "",
-            "chambers" : {
-                "" : {
-                    "name" : "",
-                    "isUpperChamber" : true,
-                    "termLength" : 0,
-                    "nextElectionDate" : "",
-                    "seats" : 0,
-                    "positions" : {
-                        "" : {
-                            "title" : ""
-                        }
-                    }
-                },
-                "" : {
-                    "name" : "",
-                    "termLength" : 0,
-                    "nextElectionDate" : "",
-                    "seats" : 0,
-                    "positions" : {
-                        "" : {
-                            "title" : ""
-                        }
-                    }
-                }
-            }
-        },
-        "judicialBranch" : {
-            "title" : "",
-            "supreme_court" : {
-                "fullName" : "",
-                "commonName" : "",
-                "basis" : "",
-                "judges" : 0,
-                "appellate_courts" : {
+        "branches" : {
+            "executiveBranch" : {
+                "positions" : {
                     "" : {
-                        "fullName" : "",
-                        "basis" : "",
-                        "judges" : 0,
+                        "title" : ""
+                    }
+                }
+            },
+            "legislativeBranch" : {
+                "title" : "",
+                "chambers" : {
+                    "" : {
+                        "name" : "",
+                        "isUpperChamber" : true,
                         "termLength" : 0,
-                        "nextElectionDate" : ""
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    },
+                    "" : {
+                        "name" : "",
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    }
+                }
+            },
+            "judicialBranch" : {
+                "title" : "",
+                "supreme_court" : {
+                    "fullName" : "",
+                    "commonName" : "",
+                    "basis" : "",
+                    "judges" : 0,
+                    "appellate_courts" : {
+                        "" : {
+                            "fullName" : "",
+                            "basis" : "",
+                            "judges" : 0,
+                            "termLength" : 0,
+                            "nextElectionDate" : ""
+                        }
                     }
                 }
             }

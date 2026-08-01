@@ -1,22 +1,71 @@
 {
     "FIPS" : "02",
-    "population" : 733391,
-    "squareMileage" : 665384,
     "commonName" : "Alaska",
     "fullName" : "State of Alaska",
-    "map_color" : "#323AFF",
-    "flag_loc" : "alaska_flag.png",
     "abbreviation" : "AK",
-    "demonym" : "Alaskan",
-    "motto" : "North to the Future",
-    "nickname" : "The Last Frontier",
+    "demonymicNoun" : "Alaskan",
+    "demonymicNounPlural" : "Alaskans",
+    "demonymicAdjective" : "Alaskan",
+    "symbols" : {
+        "nicknames" : [
+            "The Last Frontier",
+            "Land of the Midnight Sun",
+            "Land of the Noonday Moon",
+            "Seward's Folly"
+        ],
+        "flag" : {
+            "name" : "Flag of Alaska",
+            "usage" : [
+                "civil",
+                "state"
+            ],
+            "description" : "Eight gold stars, in the shape of the Big Dipper on a dark blue field. The North Star is larger than the other 7.",
+            "symbolism" : "Navy represents the evening sky, sea, mountain lakes, and wild flowers. Gold represents the wealth of the land of Alaska. Ursa Major, the Great Bear, is the most conspicuous constellation in the northern sky. The North Star is a constant waypoint for Alaska's outdoorsmen and represents Alaska itself as the northernmost state.",
+            "file" : "alaska_flag.png"
+        },
+        "seal" : {
+            "name" : "Seal of the State of Alaska",
+            "description" : "At top, rays of the northern lights above mountains. Below, a smelter representing mining, a train representing railroads, and ships representing transportation by sea. At bottom, trees representing timber, and a farmer with horse and three shocks of wheat representing agriculture. Along the perimeter, a fish and seal representing fishing and seal rookeries.",
+            "file" : "alaska_state_seal.png"
+        },
+        "mottos" : [
+            {
+                "motto" : "North to the Future",
+                "adoptionDate" : "01 January 1967"
+            }
+        ],
+        "flower" : "forget-me-not",
+        "tree" : "Sitka spruce",
+        "bird" : "willow ptarmigan",
+        "dog" : "Alaskan Malamute",
+        "fish" : "king salmon",
+        "insect" : "four-spot skimmer dragonfly",
+        "land mammal" : "moose",
+        "marine mammal" : "bowhead whale",
+        "fossil" : "woolly mammoth",
+        "gem" : "jade",
+        "mineral" : "gold",
+        "song" : "\"Alaska's Flag\"",
+        "sport" : "dog sledding",
+        "bolt-action rifle" : "Pre-1964 Winchester Model 70",
+        "quarter" : "State quarter featuring grizzly bear with salmon and North Star. Caption: \"The Great Land.\""
+    },
     "capital" : "Juneau",
-    "federal_court_circuit" : 9,
+    "federalCourtCircuit" : 9,
     "censusDivision" : "Pacific",
     "descriptors" : [
         "ALASKA",
         "WEST",
         "PACIFIC"
+    ],
+    "allowedSubdivisionTypes" : [
+        "Census Subarea",
+        "Consolidated City-County"
+    ],
+    "allowedPlaceTypes" : [
+        "City",
+        "Town",
+        "Census-Designated Place"
     ],
     "government" : {
         "name" : "Government of Alaska",

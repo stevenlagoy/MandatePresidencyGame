@@ -2,76 +2,83 @@
     "FIPS" : "44",
     "commonName" : "Rhode Island",
     "fullName" : "State of Rhode Island",
-    "map_color" : "#6D32FF",
-    "flag_loc" : "rhode_island_flag.png",
-    "population" : 1097379,
-    "squareMileage" : 1545,
+    "flagFile" : "rhode_island_flag.png",
     "abbreviation" : "RI",
     "demonym" : "Rhode Islander",
-    "motto" : "Hope",
     "nickname" : "Ocean State",
+    "motto" : "Hope",
     "capital" : "Providence",
-    "federal_court_circuit" : 1,
+    "federalCourtCircuit" : 1,
     "censusDivision" : "New England",
     "descriptors" : [
         "RHODE_ISLAND",
         "NORTHEAST",
         "NEW_ENGLAND"
     ],
+    "allowedSubdivisionTypes" : [
+        "New England Town",
+        "City",
+        "Census-Designated Place"
+    ],
+    "allowedPlaceTypes" : [
+        "Census-Designated Place"
+    ],
     "government" : {
         "name" : "",
         "constituency" : "",
         "federalLevel" : "",
         "constitution" : "",
-        "executiveBranch" : {
-            "positions" : {
-                "" : {
-                    "title" : ""
-                }
-            }
-        },
-        "legislativeBranch" : {
-            "title" : "",
-            "chambers" : {
-                "" : {
-                    "name" : "",
-                    "isUpperChamber" : true,
-                    "termLength" : 0,
-                    "nextElectionDate" : "",
-                    "seats" : 0,
-                    "positions" : {
-                        "" : {
-                            "title" : ""
-                        }
-                    }
-                },
-                "" : {
-                    "name" : "",
-                    "termLength" : 0,
-                    "nextElectionDate" : "",
-                    "seats" : 0,
-                    "positions" : {
-                        "" : {
-                            "title" : ""
-                        }
-                    }
-                }
-            }
-        },
-        "judicialBranch" : {
-            "title" : "",
-            "supreme_court" : {
-                "fullName" : "",
-                "commonName" : "",
-                "basis" : "",
-                "judges" : 0,
-                "appellate_courts" : {
+        "branches" : {
+            "executiveBranch" : {
+                "positions" : {
                     "" : {
-                        "fullName" : "",
-                        "basis" : "",
-                        "judges" : 0,
+                        "title" : ""
+                    }
+                }
+            },
+            "legislativeBranch" : {
+                "title" : "",
+                "chambers" : {
+                    "" : {
+                        "name" : "",
+                        "isUpperChamber" : true,
                         "termLength" : 0,
-                        "nextElectionDate" : ""
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    },
+                    "" : {
+                        "name" : "",
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    }
+                }
+            },
+            "judicialBranch" : {
+                "title" : "",
+                "supreme_court" : {
+                    "fullName" : "",
+                    "commonName" : "",
+                    "basis" : "",
+                    "judges" : 0,
+                    "appellate_courts" : {
+                        "" : {
+                            "fullName" : "",
+                            "basis" : "",
+                            "judges" : 0,
+                            "termLength" : 0,
+                            "nextElectionDate" : ""
+                        }
                     }
                 }
             }

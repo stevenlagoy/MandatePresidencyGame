@@ -4,8 +4,6 @@
     "fullName" : "Commonwealth of Kentucky",
     "map_color" : "#F032FF",
     "flag_loc" : "kentucky_flag.png",
-    "population" : 4505836,
-    "squareMileage" : 40408,
     "abbreviation" : "KY",
     "demonym" : "Kentuckian",
     "motto" : "United we stand, divided we fall / Deo gratiam habeamus",
@@ -17,6 +15,15 @@
         "KENTUCKY",
         "SOUTH",
         "EAST_SOUTH_CENTRAL"
+    ],
+    "allowedSubdivisionTypes" : [
+        "Census County Division"
+    ],
+    "allowedPlaceTypes" : [
+        "County Balance",
+        "Consolidated City-County",
+        "City",
+        "Census-Designated Place"
     ],
     "government" : {
         "name" : "",

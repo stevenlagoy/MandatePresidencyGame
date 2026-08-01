@@ -18,6 +18,10 @@
         "SOTUH",
         "SOUTH_ATLANTIC"
     ],
+    "countySubdivisionCategory" : "MCD",
+    "allowed_subdivision_types" : [
+        "City"
+    ],
     "government" : {
         "name" : "",
         "constituency" : "",
