@@ -1,38 +1,34 @@
-package com.stevenlagoy.presidency.politics
+package com.stevenlagoy.presidency.politics.government
 
 import com.stevenlagoy.jsonic.JSONObject
+import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.characters.attributes.finances.BalanceSheet
 import com.stevenlagoy.presidency.characters.attributes.finances.CashAccount
 import com.stevenlagoy.presidency.characters.attributes.finances.FinancialEntity
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
-import com.stevenlagoy.presidency.map.HasPolitics
-import com.stevenlagoy.presidency.politics.branches.ExecutiveBranch
-import com.stevenlagoy.presidency.politics.branches.JudicialBranch
-import com.stevenlagoy.presidency.politics.branches.LegislativeBranch
+import com.stevenlagoy.presidency.map.HasPartyPresence
+import com.stevenlagoy.presidency.politics.ElectionResult
+import com.stevenlagoy.presidency.politics.Party
 
 /**
  * @property pastElectionResults Elections for positions not covered by any branch. Use branch electoral history for other purposes.
  */
 class Government(
     engine: Engine,
-    val title: String = "",
+    val name: String = "",
     val executiveBranch: ExecutiveBranch = ExecutiveBranch(),
     val legislativeBranch: LegislativeBranch = LegislativeBranch(),
     val judicialBranch: JudicialBranch = JudicialBranch(),
-    override val pastElectionResults: MutableList<ElectionResult> = mutableListOf(),
+    val pastElectionResults: MutableList<ElectionResult> = mutableListOf(),
     override val balanceSheet: BalanceSheet = BalanceSheet(engine),
     override val cashAccount: CashAccount = CashAccount(engine),
-) : FinancialEntity, HasPolitics, EngineBound(engine) {
+) : FinancialEntity, HasPartyPresence, EngineBound(engine), JSONSerializable<Government> {
 
-    constructor(engine: Engine, json: JSONObject) : this(engine) {
-        fromJson(json)
-    }
-
-    override val partiesPresent: MutableSet<Party>
+    override val partiesPresent: Set<Party>
         get() = (executiveBranch.partiesPresent + legislativeBranch.partiesPresent + judicialBranch.partiesPresent).toMutableSet()
 
-    override val partyControlFactors: List<(party: Party) -> Double> = listOf(
+    override val partyCloutFactors: Set<(party: Party) -> Double> = setOf(
         // Executive branch
         { party -> 0.35 * executiveBranch.getPartyControl(party) },
         // Legislative branch
@@ -45,13 +41,19 @@ class Government(
         )},
     )
 
-    override fun toJson() = JSONObject(title, listOf(
-        JSONObject("title", title),
+    constructor(engine: Engine, json: JSONObject) : this(engine) {
+        fromJson(json)
+    }
+
+    override fun toJson() = JSONObject(name, listOf(
+        JSONObject("title", name),
         JSONObject("executiveBranch", executiveBranch.toJson()),
         JSONObject("legislativeBranch", legislativeBranch.toJson()),
         JSONObject("judicialBranch", judicialBranch.toJson()),
     ))
 
-    override fun fromJson(json: JSONObject) = this.apply {}
+    override fun fromJson(json: JSONObject) = apply {
+
+    }
 
 }

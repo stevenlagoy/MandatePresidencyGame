@@ -1,8 +1,7 @@
-package com.stevenlagoy.presidency.politics.branches
+package com.stevenlagoy.presidency.politics.government
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.politics.ElectionResult
-import com.stevenlagoy.presidency.politics.Chamber
 import com.stevenlagoy.presidency.politics.Party
 
 class LegislativeBranch(

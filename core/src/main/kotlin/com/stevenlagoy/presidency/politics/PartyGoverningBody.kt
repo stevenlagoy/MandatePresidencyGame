@@ -5,6 +5,7 @@ import com.stevenlagoy.presidency.map.MapEntity
 import com.stevenlagoy.presidency.map.Municipality
 
 class PartyGoverningBody(
+    val name: String,
     val party: Party,
     var location: MapEntity,
     var headquarters: Municipality,

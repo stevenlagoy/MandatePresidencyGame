@@ -1,9 +1,9 @@
-package com.stevenlagoy.presidency.politics.branches
+package com.stevenlagoy.presidency.politics.government
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.characters.PoliticalActor
-import com.stevenlagoy.presidency.politics.ElectionResult
 import com.stevenlagoy.presidency.politics.Party
+import com.stevenlagoy.presidency.politics.election.Election
 
 class ExecutiveBranch(
     val executives: MutableList<PoliticalActor> = mutableListOf(),
@@ -11,13 +11,13 @@ class ExecutiveBranch(
     val chiefExecutiveTitle: String? = null,
     var deputyExecutive: PoliticalActor? = null,
     val deputyExecutiveTitle: String? = null,
-    override val pastElectionResults: MutableList<ElectionResult> = mutableListOf()
+    override val pastElections: MutableSet<Election> = mutableSetOf()
 ) : GovernmentBranch() {
 
     override val partiesPresent: MutableSet<Party>
         get() = setOfNotNull(chiefExecutive?.partyAffiliation, deputyExecutive?.partyAffiliation).toMutableSet()
 
-    override val partyControlFactors: List<(party: Party) -> Double> = listOf(
+    override val partyControlFactors: Set<(party: Party) -> Double> = setOf(
         // Each executive
         { party -> 0.5 *
             (executives.count { it.partyAffiliation == party }.toDouble() / executives.size)
@@ -40,7 +40,7 @@ class ExecutiveBranch(
         JSONObject("deputyExecutiveTitle", deputyExecutiveTitle),
     )
 
-    override fun fromJson(json: JSONObject) = apply {
-
+    override fun fromJson(json: JSONObject) = super.fromJson(json).apply {
+        // TODO
     }
 }

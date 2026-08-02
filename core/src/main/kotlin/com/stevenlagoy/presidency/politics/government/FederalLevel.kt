@@ -1,4 +1,4 @@
-package com.stevenlagoy.presidency.politics
+package com.stevenlagoy.presidency.politics.government
 
 enum class FederalLevel {
     LOCAL,

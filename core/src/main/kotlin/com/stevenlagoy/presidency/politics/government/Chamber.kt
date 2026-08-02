@@ -1,9 +1,11 @@
-package com.stevenlagoy.presidency.politics
+package com.stevenlagoy.presidency.politics.government
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.characters.PoliticalActor
 import com.stevenlagoy.presidency.map.HasPolitics
-import com.stevenlagoy.presidency.politics.voting.Election
+import com.stevenlagoy.presidency.politics.ElectionResult
+import com.stevenlagoy.presidency.politics.Party
+import com.stevenlagoy.presidency.politics.election.Election
 
 class Chamber(
     chamberName: String,
@@ -76,7 +78,9 @@ class Chamber(
         isUpperChamber = json.requireBoolean("isUpperChamber")
         termLength = json.requireInt("termLength")
         pastElectionResults.clear()
-        pastElectionResults.addAll(json.requireArray("pastElectionResults", "past_election_results").filterIsInstance<JSONObject>().map { ElectionResult(it) })
+        pastElectionResults.addAll(json.requireArray("pastElectionResults", "past_election_results").filterIsInstance<JSONObject>().map {
+            ElectionResult(it)
+        })
         seats = json.requireInt("seats")
     }
 }
