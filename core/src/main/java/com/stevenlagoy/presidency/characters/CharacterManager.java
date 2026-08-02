@@ -176,12 +176,17 @@ public class CharacterManager extends Manager {
         return citizens.size();
     }
 
-    public @NotNull Optional<Citizen> matchCitizenById(String id) throws IllegalArgumentException {
+    public @NotNull Optional<Citizen> matchCitizenByIndexedName(@NotNull String name) {
+        requireOperational();
+        return citizens.stream().filter(citizen -> citizen.getName().getIndexedName().equals(name)).findFirst();
+    }
+
+    public @NotNull Optional<Citizen> matchCitizenById(@NotNull String id) throws IllegalArgumentException {
         requireOperational();
         return matchCitizenById(Uuid.Companion.parse(id));
     }
 
-    public @NotNull Optional<Citizen> matchCitizenById(Uuid id) {
+    public @NotNull Optional<Citizen> matchCitizenById(@NotNull Uuid id) {
         requireOperational();
         return citizens.stream().filter(citizen -> citizen.getId().equals(id)).findFirst();
     }

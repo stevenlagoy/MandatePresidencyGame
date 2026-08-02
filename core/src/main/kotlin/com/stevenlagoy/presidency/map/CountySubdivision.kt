@@ -1,6 +1,6 @@
 package com.stevenlagoy.presidency.map
 
-import com.stevenlagoy.presidency.politics.Government
+import com.stevenlagoy.presidency.politics.government.Government
 
 /**
  * County Subdivisions are subdivisions of the 2nd-degree subdivisions (county-equivalents) of the

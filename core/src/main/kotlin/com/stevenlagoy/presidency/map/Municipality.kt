@@ -3,7 +3,7 @@ package com.stevenlagoy.presidency.map
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.demographics.Bloc
-import com.stevenlagoy.presidency.politics.Government
+import com.stevenlagoy.presidency.politics.government.Government
 import com.stevenlagoy.presidency.util.parseHex
 import kotlin.uuid.ExperimentalUuidApi
 

@@ -3,7 +3,7 @@ package com.stevenlagoy.presidency.map
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.demographics.Bloc
-import com.stevenlagoy.presidency.politics.Government
+import com.stevenlagoy.presidency.politics.government.Government
 
 class State (
     engine: Engine,
@@ -18,7 +18,7 @@ class State (
     descriptors: Set<Descriptor> = emptySet(),
     region: RegionData? = null,
     capital: Municipality? = null,
-    government: Government? = null,
+    government: Government = Government(engine),
     var motto: String? = null,
     counties: Set<County> = emptySet(),
     _censusDivision: CensusDivision? = null,
@@ -33,8 +33,8 @@ class State (
     demographics,
     descriptors,
     region,
+    government,
     capital,
-    government
 ), HasFIPS {
 
     override var FIPS: String = FIPS

@@ -10,7 +10,7 @@ import java.io.RandomAccessFile
  * Lightweight region descriptor loaded from a compiled .bin file.
  * This is the runtime equivalent of the compiler's CompiledRegion —
  * it holds everything from the region table but NOT the run data,
- * which is read on demand via [MapBinaryLoader.loadRuns].
+ * which is read on demand via `MapBinaryLoader.loadRuns`.
  *
  * All coordinates are in source-image pixel space.
  */
