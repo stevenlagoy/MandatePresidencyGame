@@ -5,15 +5,22 @@ import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
 import org.jetbrains.annotations.NotNull;
 
+import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
+import java.util.Set;
 
 public class IssueManager extends Manager {
+
+    // Instance Fields
+
+    private final @NotNull Set<Issue> issues;
 
     // Constructors
 
     public IssueManager(@NotNull Engine engine, @NotNull Manager superManager) {
         super(engine, superManager);
+        issues = new HashSet<>();
     }
 
     // Manager Methods
@@ -43,7 +50,22 @@ public class IssueManager extends Manager {
 
     }
 
+    public @NotNull Set<Issue> getIssues() {
+        return issues;
+    }
+
     public @NotNull Optional<Issue> matchIssue(String title) {
+        return issues.stream().filter(issue -> issue.getTitle().equals(title)).findFirst();
+    }
+
+    public @NotNull Optional<IssuePosition> matchIssuePosition(String title) {
+        for (Issue issue : issues) {
+            for (IssuePosition position : issue.getPositions()) {
+                if (position.getTitle().equals(title)) {
+                    return Optional.of(position);
+                }
+            }
+        }
         return Optional.empty();
     }
 }
