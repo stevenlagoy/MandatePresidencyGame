@@ -103,9 +103,7 @@ tasks.register('copyRawAssets', Copy) {
   from "${rootDir}/assets_raw"
   into "${rootDir}/assets"
   exclude "maps/**" // Don't copy raw map PNG files - MapCompiler creates binaries
-
-  inputs.dir("${rootDir}/assets_raw")
-  outputs.dir("${rootDir}/assets")
+  exclude "**/*.md" // Don't copy metadata
 }
 
 tasks.register('compileMapAssets', JavaExec) {
