@@ -69,6 +69,7 @@ tasks.named("packTextures") {
 }
 
 rootProject.tasks.named("compileMapAssets") {
+  dependsOn rootProject.tasks.named("copyRawAssets")
 }
 
 jar {

@@ -105,21 +105,73 @@ tasks.register('copyRawAssets', Copy) {
   exclude "maps/**" // Don't copy raw map PNG files - MapCompiler creates binaries
   exclude "**/*.md" // Don't copy metadata
 }
+tasks.named('copyRawAssets') {
+  includeEmptyDirs = false
+}
 
-tasks.register('compileMapAssets', JavaExec) {
+
+import org.gradle.api.tasks.*
+import org.gradle.work.ChangeType
+import org.gradle.work.Incremental
+import org.gradle.work.InputChanges
+
+import javax.inject.Inject
+
+abstract class CompileMapAssets extends DefaultTask {
+
+  @InputFiles
+  @Incremental
+  @PathSensitive(PathSensitivity.RELATIVE)
+  abstract ConfigurableFileCollection getMapPngs()
+
+  // Task reruns if the compiler's own code changes, not just a PNG
+  @Classpath
+  abstract ConfigurableFileCollection getCompilerClasspath()
+
+  @Internal
+  abstract DirectoryProperty getInputDir()
+
+  @OutputDirectory
+  abstract DirectoryProperty getOutputDir()
+
+  @Inject
+  abstract ExecOperations getExecOperations()
+
+  @TaskAction
+  void compile(InputChanges inputChanges) {
+    List<String> changedFileNames = []
+
+    inputChanges.getFileChanges(mapPngs).each { change ->
+      if (change.changeType != ChangeType.REMOVED) {
+        changedFileNames << change.file.name
+      }
+    }
+
+    if (changedFileNames.isEmpty()) {
+      logger.lifecycle("No changed map PNGs; skipping map compilation")
+      return
+    }
+
+    logger.lifecycle("Compiling changed map layers: ${changedFileNames.join(', ')}")
+
+    def result = execOperations.javaexec {
+      classpath = compilerClasspath
+      mainClass.set('com.stevenlagoy.presidency.tools.mapcompiler.MapCompilerKt')
+      args = [inputDir.get().asFile.absolutePath, outputDir.get().asFile.absolutePath] + changedFileNames
+    }
+    result.assertNormalExitValue()
+  }
+}
+
+tasks.register('compileMapAssets', CompileMapAssets) {
   group = 'assets'
-  description = 'Processes source map PNGs into runtime binary files'
+  description = 'Processes changed source map PNGs into runtime binary files'
 
-  inputs.files(fileTree('assets_raw/maps') {
-    include '*.png'
-  })
-  outputs.dir(file('assets/maps'))
+  mapPngs.from(fileTree("${rootDir}/assets_raw/maps") { include '*.png' })
+  inputDir.set(file("${rootDir}/assets_raw/maps"))
+  outputDir.set(file("${rootDir}/assets/maps"))
+  compilerClasspath.from(project(':tools:mapcompiler').sourceSets.main.runtimeClasspath)
 
-  dependsOn project(':tools:mapcompiler').tasks.named('compileJava')
-  classpath = project(':tools:mapcompiler').sourceSets.main.runtimeClasspath
-  mainClass = 'com.stevenlagoy.presidency.tools.mapcompiler.MapCompilerKt'
-  args = [
-    file('assets_raw/maps').absolutePath,
-    file('assets/maps').absolutePath
-  ]
+  dependsOn project(':tools:mapcompiler').tasks.named('classes')
+  mustRunAfter tasks.named('copyRawAssets')
 }
