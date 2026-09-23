@@ -44,3 +44,4 @@
 - https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_nicknames
 - https://en.wikipedia.org/wiki/50_State_quarters
 - https://en.wikipedia.org/wiki/List_of_U.S._state_and_territory_mottos
+- https://en.wikipedia.org/wiki/List_of_U.S._states_by_date_of_admission_to_the_Union
