@@ -1,6 +1,6 @@
 package com.stevenlagoy.presidency.characters.attributes
 
-import com.stevenlagoy.presidency.politics.FederalLevel
+import com.stevenlagoy.presidency.politics.government.FederalLevel
 
 enum class Role(val level: FederalLevel?, val title: String) {
     PARTY_LEADER                (null,                 "Party Leader"),

@@ -1,0 +1,87 @@
+{
+    "FIPS" : "30",
+    "commonName" : "Montana",
+    "fullName" : "State of Montana",
+    "flagFile" : "montana_flag.png",
+    "abbreviation" : "MT",
+    "type" : "state",
+    "demonym" : "Montanan",
+    "nickname" : "Treasure State",
+    "motto" : "Oro y plata",
+    "capital" : "Helena",
+    "federalCourtCircuit" : 9,
+    "censusDivision" : "Mountain",
+    "descriptors" : [
+        "MONTANA",
+        "WEST",
+        "MOUNTAIN"
+    ],
+    "allowedSubdivisionTypes" : [
+        "Census County Division"
+    ],
+    "allowedPlaceTypes" : [
+        "City",
+        "Census-Designated Place"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "branches" : {
+            "executiveBranch" : {
+                "positions" : {
+                    "" : {
+                        "title" : ""
+                    }
+                }
+            },
+            "legislativeBranch" : {
+                "title" : "",
+                "chambers" : {
+                    "" : {
+                        "name" : "",
+                        "isUpperChamber" : true,
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    },
+                    "" : {
+                        "name" : "",
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    }
+                }
+            },
+            "judicialBranch" : {
+                "title" : "",
+                "supreme_court" : {
+                    "fullName" : "",
+                    "commonName" : "",
+                    "basis" : "",
+                    "judges" : 0,
+                    "appellate_courts" : {
+                        "" : {
+                            "fullName" : "",
+                            "basis" : "",
+                            "judges" : 0,
+                            "termLength" : 0,
+                            "nextElectionDate" : ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "FIPS" : "55",
+    "commonName" : "Wisconsin",
+    "fullName" : "State of Wisconsin",
+    "flagFile" : "wisconsin_flag.png",
+    "abbreviation" : "WI",
+    "type" : "state",
+    "demonym" : "Wisconsinite",
+    "nickname" : "Badger State",
+    "motto" : "Forward",
+    "capital" : "Madison",
+    "federalCourtCircuit" : 7,
+    "censusDivision" : "East North Central",
+    "descriptors" : [
+        "WISCONSIN",
+        "MIDWEST",
+        "WEST_NORTH_CENTRAL"
+    ],
+    "allowedSubdivisionTypes" : [
+        "Civil Township",
+        "City",
+        "Census-Designated Place"
+    ],
+    "allowedPlaceTypes" : [
+        "Census-Designated Place"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "branches" : {
+            "executiveBranch" : {
+                "positions" : {
+                    "" : {
+                        "title" : ""
+                    }
+                }
+            },
+            "legislativeBranch" : {
+                "title" : "",
+                "chambers" : {
+                    "" : {
+                        "name" : "",
+                        "isUpperChamber" : true,
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    },
+                    "" : {
+                        "name" : "",
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    }
+                }
+            },
+            "judicialBranch" : {
+                "title" : "",
+                "supreme_court" : {
+                    "fullName" : "",
+                    "commonName" : "",
+                    "basis" : "",
+                    "judges" : 0,
+                    "appellate_courts" : {
+                        "" : {
+                            "fullName" : "",
+                            "basis" : "",
+                            "judges" : 0,
+                            "termLength" : 0,
+                            "nextElectionDate" : ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

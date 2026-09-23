@@ -1,0 +1,88 @@
+{
+    "FIPS" : "23",
+    "commonName" : "Maine",
+    "fullName" : "State of Maine",
+    "flagFile" : "maine_flag.png",
+    "abbreviation" : "ME",
+    "type" : "state",
+    "demonym" : "Mainer",
+    "nickname" : "Pine Tree State",
+    "motto" : "Dirigo",
+    "capital" : "Augusta",
+    "federalCourtCircuit" : 1,
+    "censusDivision" : "New England",
+    "descriptors" : [
+        "MAINE",
+        "NORTHEAST",
+        "NEW_ENGLAND"
+    ],
+    "allowedSubdivisionTypes" : [
+        "New England Town",
+        "City",
+        "Census-Designated Place"
+    ],
+    "allowedPlaceTypes" : [
+        "Census-Designated Place"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "branches" : {
+            "executiveBranch" : {
+                "positions" : {
+                    "" : {
+                        "title" : ""
+                    }
+                }
+            },
+            "legislativeBranch" : {
+                "title" : "",
+                "chambers" : {
+                    "" : {
+                        "name" : "",
+                        "isUpperChamber" : true,
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    },
+                    "" : {
+                        "name" : "",
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    }
+                }
+            },
+            "judicialBranch" : {
+                "title" : "",
+                "supreme_court" : {
+                    "fullName" : "",
+                    "commonName" : "",
+                    "basis" : "",
+                    "judges" : 0,
+                    "appellate_courts" : {
+                        "" : {
+                            "fullName" : "",
+                            "basis" : "",
+                            "judges" : 0,
+                            "termLength" : 0,
+                            "nextElectionDate" : ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

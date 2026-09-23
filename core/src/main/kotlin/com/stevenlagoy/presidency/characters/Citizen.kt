@@ -1,7 +1,7 @@
 package com.stevenlagoy.presidency.characters
 
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.jsonic.Jsonic
+import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.characters.attributes.CharacterAppearance
 import com.stevenlagoy.presidency.characters.attributes.Family
 import com.stevenlagoy.presidency.characters.attributes.Sex
@@ -9,16 +9,15 @@ import com.stevenlagoy.presidency.characters.attributes.finances.FinancialProfil
 import com.stevenlagoy.presidency.characters.attributes.names.PersonalName
 import com.stevenlagoy.presidency.characters.attributes.names.WesternPersonalName
 import com.stevenlagoy.presidency.core.Engine
+import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.demographics.Demographics
-import com.stevenlagoy.presidency.map.Municipality
+import com.stevenlagoy.presidency.map.entities.Place
 import java.time.LocalDate
-import java.util.UUID
 import kotlin.uuid.ExperimentalUuidApi
 import kotlin.uuid.Uuid
 
 /**
  * Base class for any kind of in-game character
- * @property ENGINE
  * @property id
  * @property name
  * @property birthday
@@ -33,18 +32,18 @@ import kotlin.uuid.Uuid
  */
 @OptIn(ExperimentalUuidApi::class)
 open class Citizen(
-    val ENGINE: Engine,
+    engine: Engine,
     val sex: Sex = Sex.FEMALE,
     birthday: LocalDate = LocalDate.of(1970, 1, 1),
-    val demographics: Demographics = ENGINE.DEMOGRAPHICS_MANAGER.commonDemographics,
-    val family: Family = Family(ENGINE),
+    val demographics: Demographics = engine.DEMOGRAPHICS_MANAGER.commonDemographics,
+    val family: Family = Family(engine),
     val appearance: CharacterAppearance = CharacterAppearance(),
     val name: PersonalName = WesternPersonalName(),
-    var origin: Municipality = ENGINE.MAP_MANAGER.mostPopulatedMunicipality,
-    var location: Municipality = origin,
-    var residence: Municipality = location,
+    var origin: Place = engine.MAP_MANAGER.mostPopulousPlace,
+    var location: Place = origin,
+    var residence: Place = location,
     var financialProfile: FinancialProfile? = null,
-) : Jsonic<Citizen> {
+) : JSONSerializable<Citizen>, EngineBound(engine) {
 
     companion object {
         /** Minimum age of a Character. */
@@ -57,26 +56,30 @@ open class Citizen(
 
     var birthday: LocalDate = birthday
         set(value) {
-            val years = ENGINE.TIME_MANAGER.yearsAgo(value)
+            val years = engine.TIME_MANAGER.yearsAgo(value)
             field = when {
-                years > MAX_AGE -> ENGINE.TIME_MANAGER.dateYearsAgo(MAX_AGE.toLong())
-                years < MIN_AGE -> ENGINE.TIME_MANAGER.currentDate.toLocalDate()
+                years > MAX_AGE -> engine.TIME_MANAGER.dateYearsAgo(MAX_AGE.toLong())
+                years < MIN_AGE -> engine.TIME_MANAGER.currentDate.toLocalDate()
                 else -> value
             }
         }
 
-    val age: Int get() = ENGINE.TIME_MANAGER.yearsAgo(birthday)
+    val age: Int get() = engine.TIME_MANAGER.yearsAgo(birthday)
+
+    constructor(engine: Engine, json: JSONObject) : this(engine) {
+        fromJson(json)
+    }
 
     override fun fromJson(json: JSONObject) = this.apply {
-        name.fromJson(json.get("name") as JSONObject)
-        birthday = LocalDate.parse(json.get("birthday") as String)
-        demographics.fromJson(json.get("demographics") as JSONObject)
-        appearance.fromJson(json.get("appearance") as JSONObject)
-        family.fromJson(json.get("family") as JSONObject)
-        origin = ENGINE.MAP_MANAGER.getMunicipalityByUniqueName(json.get("origin_municipality") as String)!!
-        location = ENGINE.MAP_MANAGER.getMunicipalityByUniqueName(json.get("location_municipality") as String)!!
-        residence = ENGINE.MAP_MANAGER.getMunicipalityByUniqueName(json.get("residence_municipality") as String)!!
-        financialProfile = FinancialProfile(ENGINE, json.get("financial_profile") as JSONObject)
+        name.fromJson(json.requireJson("name"))
+        birthday = LocalDate.parse(json.requireString("birthday"))
+        demographics.fromJson(json.requireJson("demographics"))
+        appearance.fromJson(json.requireJson("appearance"))
+        family.fromJson(json.requireJson("family"))
+        origin = engine.MAP_MANAGER.matchPlace(json.requireString("originMunicipality", "origin_municipality")).get()
+        location = engine.MAP_MANAGER.matchPlace(json.requireString("locationMunicipality", "location_municipality")).get()
+        residence = engine.MAP_MANAGER.matchPlace(json.requireString("residenceMunicipality", "residence_municipality")).get()
+        financialProfile = FinancialProfile(engine, json.requireJson("financialProfile", "financial_profile"))
     }
 
     override fun toJson() = JSONObject(id.toString(), listOf(
@@ -85,9 +88,9 @@ open class Citizen(
         JSONObject("demographics", demographics.toJson()),
         JSONObject("appearance", appearance.toJson()),
         JSONObject("family", family.toJson()),
-        JSONObject("origin_municipality", origin.uniqueName),
-        JSONObject("location_municipality", location.uniqueName),
-        JSONObject("residence_municipality", residence.uniqueName),
-        JSONObject("financial_profile", financialProfile?.toJson())
+        JSONObject("originMunicipality", origin.fullName),
+        JSONObject("locationMunicipality", location.fullName),
+        JSONObject("residenceMunicipality", residence.fullName),
+        JSONObject("financialProfile", financialProfile?.toJson())
     ))
 }

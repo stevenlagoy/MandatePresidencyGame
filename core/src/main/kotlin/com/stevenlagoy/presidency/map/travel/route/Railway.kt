@@ -2,23 +2,25 @@ package com.stevenlagoy.presidency.map.travel.route
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.core.Engine
-import com.stevenlagoy.presidency.map.Municipality
+import com.stevenlagoy.presidency.map.entities.MapEntity
 
 class Railway(
-    ENGINE: Engine,
-    name: String,
-    connections: List<Municipality>,
-) : Route(ENGINE, name, connections) {
+    engine: Engine,
+    name: String = "",
+    connections: List<MapEntity> = listOf(),
+) : Route(engine, name, connections) {
 
-    constructor(ENGINE: Engine, json: JSONObject) : this(ENGINE, "", listOf())
+    constructor(engine: Engine, json: JSONObject) : this(engine) {
+        fromJson(json)
+    }
 
     override fun toJson() = JSONObject(name, listOf(
         JSONObject("name", name),
-        JSONObject("connections", connections.map { it.uniqueName })
+        JSONObject("connections", connections.map { it.name })
     ))
 
-    override fun fromJson(json: JSONObject?): Railway? {
-        TODO("Not yet implemented")
+    override fun fromJson(json: JSONObject) = this.apply {
+        super.fromJson(json)
     }
 
 

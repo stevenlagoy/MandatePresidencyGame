@@ -1,0 +1,88 @@
+{
+    "FIPS" : "50",
+    "commonName" : "Vermont",
+    "fullName" : "State of Vermont",
+    "flagFile" : "vermont_flag.png",
+    "abbreviation" : "VT",
+    "type" : "state",
+    "demonym" : "Vermonter",
+    "nickname" : "Green Mountain State",
+    "motto" : "Freedom and Unity / Stella quarta decima fulgeat",
+    "capital" : "Montpelier",
+    "federalCourtCircuit" : 2,
+    "censusDivision" : "New England",
+    "descriptors" : [
+        "VERMONT",
+        "NORTHEAST",
+        "NEW_ENGLAND"
+    ],
+    "allowedSubdivisionTypes" : [
+        "New England Town",
+        "City",
+        "Census-Designated Place"
+    ],
+    "allowedPlaceTypes" : [
+        "Census-Designated Place"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "branches" : {
+            "executiveBranch" : {
+                "positions" : {
+                    "" : {
+                        "title" : ""
+                    }
+                }
+            },
+            "legislativeBranch" : {
+                "title" : "",
+                "chambers" : {
+                    "" : {
+                        "name" : "",
+                        "isUpperChamber" : true,
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    },
+                    "" : {
+                        "name" : "",
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    }
+                }
+            },
+            "judicialBranch" : {
+                "title" : "",
+                "supreme_court" : {
+                    "fullName" : "",
+                    "commonName" : "",
+                    "basis" : "",
+                    "judges" : 0,
+                    "appellate_courts" : {
+                        "" : {
+                            "fullName" : "",
+                            "basis" : "",
+                            "judges" : 0,
+                            "termLength" : 0,
+                            "nextElectionDate" : ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

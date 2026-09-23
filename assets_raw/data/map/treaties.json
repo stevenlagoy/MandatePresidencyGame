@@ -1,0 +1,3396 @@
+{
+    "quinnipiacSettled" : {
+        "name" : "Quinnipiac settlement",
+        "dateEffective" : "14 April 1638",
+        "description" : "A group of London merchants and their families heard of the area around the Quinnipiac River and settled the area, calling it Quinnipiac or Quinipiek."
+    },
+    "quinnipiacRenamedNewHaven" : {
+        "name" : "Quinnipiac settlement renamed to New Haven",
+        "dateEffective" : "01 September 1640",
+        "description" : "The plantation general court of the Quinnipiac settlement renamed the town to New Haven Plantation."
+    },
+    "wepowaugeSettled" : {
+        "name" : "Wepowauge settlement",
+        "dateEffective" : "12 February 1639",
+        "description" : "The settlement at Wepowauge (later Milford) was formed by a land grant to English settlers from the Paugusset."
+    },
+    "menunkatuckSettled" : {
+        "name" : "Menunkatuck settlement",
+        "dateEffective" : "29 September 1639",
+        "description" : "The settlement at Menunkatuck (later Guilford) was formed by a land grant to English settlers from the Quinnipiac."
+    },
+    "rippowamSettled" : {
+        "name" : "Rippowam settlement",
+        "dateEffective" : "1640",
+        "description" : "Settlers from New Haven established Rippowam (later Stamford) on the North Fork of Long Island."
+    },
+    "southdoldSettled" : {
+        "name" : "Southold settlement",
+        "dateEffective" : "1640",
+        "description" : "Settlers from New Haven established Southdold on the North Fork of Long Island."
+    },
+    "greenwichPurchase" : {
+        "name" : "Greenwich purchase",
+        "dateEffective" : "1640",
+        "description" : "New Haven purchased the land for Greenwich from the Siwanoy Indians."
+    },
+    "newHavenColonyFormed" : {
+        "name" : "Formation of New Haven Colony",
+        "dateEffective" : "23 October 1643",
+        "description" : "New Haven Plantation, Stamford, Southhold, Milford, and Guilford were combined to form the New Haven Colony."
+    },
+    "newHavenColonyJoinsNewEnglandConfederation" : {
+        "name" : "New Haven Colony joins the New England Confederation",
+        "dateEffective" : "19 May 1643"
+    },
+    "branfordSettled" : {
+        "name" : "Branford settlement",
+        "dateEffective" : "1644",
+        "description" : "Settlers from Wethersfield, Connecticut Colony settled Branford and joined the New Haven Colony."
+    },
+    ""
+
+
+
+
+
+
+
+
+
+
+
+    "declarationOfIndependence" : {
+        "name" : "Declaration of Independence",
+        "dateEffective" : "04 July 1776",
+        "description" : "On 04 July 1776, the Thirteen Colonies of the Kingdom of Great Britain in North America delcared their collective independence as the United States of America. The Declaration was ratified by the Second Continental Congress, with delegates from each of the thirteen colonies signing the declaration. The declaration was received by King George III, who declared that the colonies had committed an act of high treason against The Crown, and proclaimed the colonies to be in rebellion on 23 August 1775.",
+        "parties" : [
+            "Colony of Connecticut",
+            "Lower Colonies on the Delaware",
+            "Province of Georgia",
+            "Province of Maryland",
+            "Province of Massachusetts Bay",
+            "Province of New Hampshire",
+            "Province of New Jersey",
+            "Province of New York",
+            "Province of North Carolina",
+            "Province of Pennsylvania",
+            "Colony of Rhode Island and Providence Plantations",
+            "Province of South Carolina",
+            "Colony of Virginia",
+            "Kingdom of Great Britain",
+            "Thirteen Colonies"
+        ],
+        "transfers" : [
+            {
+                "areas" : [
+                    "Colony of Connecticut"
+                ],
+                "from" : "Colony of Connecticut",
+                "to" : "State of Connecticut",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : [
+                    "Lower Colonies on the Delaware"
+                ],
+                "from" : "Lower Colonies on the Delaware",
+                "to" : "The Counties of New Castle, Kent and Sussex upon Delaware",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : [
+                    "Province of Georgia"
+                ],
+                "from" : "Province of Georgia",
+                "to" : "State of Georgia",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : [
+                    "Province of Maryland"
+                ],
+                "from" : "Province of Maryland",
+                "to" : "State of Maryland",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : [
+                    "Province of Massachusetts Bay"
+                ],
+                "from" : "Province of Massachusetts Bay",
+                "to" : "State of Massachusetts Bay",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : [
+                    "Province of New Hampshire"
+                ],
+                "from" : "Province of New Hampshire",
+                "to" : "State of New Hampshire",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : [
+                    "Province of New Jersey"
+                ],
+                "from" : "Province of New Jersey",
+                "to" : "State of New Jersey",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : [
+                    "Province of New York"
+                ],
+                "from" : "Province of New York",
+                "to" : "State of New York",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : [
+                    "Province of North Carolina"
+                ],
+                "from" : "Province of North Carolina",
+                "to" : "State of North Carolina",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : [
+                    "Province of Pennsylvania"
+                ],
+                "from" : "Province of Pennsylvania",
+                "to" : "State of Pennsylvania",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : [
+                    "Colony of Rhode Island and Providence Plantations"
+                ],
+                "from" : "Colony of Rhode Island and Providence Plantations",
+                "to" : "State of Rhode Island and Providence Plantations",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : [
+                    "Province of South Carolina"
+                ],
+                "from" : "Province of South Carolina",
+                "to" : "State of South Carolina",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : [
+                    "Colony of Virginia"
+                ],
+                "from" : "Colony of Virginia",
+                "to" : "Commonwealth of Virginia",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : [
+                    "Thirteen Colonies"
+                ],
+                "from" : "Kingdom of Great Britain",
+                "to" : "United States of America",
+                "type" : "rebellion"
+            }
+        ],
+        "creates" : [
+            "State of Connecticut",
+            "The Counties of New Castle, Kent and Sussex upon Delaware",
+            "State of Georgia",
+            "State of Maryland",
+            "State of Massachusetts Bay",
+            "State of New Hampshire",
+            "State of New Jersey",
+            "State of New York",
+            "State of North Carolina",
+            "State of Pennsylvania",
+            "State of Rhode Island and Providence Plantations",
+            "State of South Carolina",
+            "Commonwealth of Virginia",
+            "United States of America"
+        ]
+    },
+    "delawareConstitution1776" : {
+        "name" : "Delaware Constitution of 1776",
+        "dateEffective" : "20 September 1776",
+        "description" : "The Delaware Constitution of 1776 was the first document establishing the state government of Delaware. Following the declaration of independence of the Lower Colonies on the Delaware and reorganization as the Counties of New Castle, Kent and Sussex upon Delaware, ten members from each county met in a State Constitutional Convention on 27 August 1776. George Read and Thomas McKean contributed majorly to the constitution, which was enacted on 20 September 1776. After this, the convention dissolved. Among the changes made in the Constitution were the new name, \"The Delaware State,\" the creation of the General Assembly of Delaware, the creation of the executive office of the President, and the creation of the state judiciary which would follow English Common Law.",
+        "parties" : [
+            "The Counties of New Castle, Kent and Sussex upon Delaware"
+        ],
+        "transfers" : [
+            {
+                "areas" : [
+                    "The Counties of New Castle, Kent and Sussex upon Delaware"
+                ],
+                "from" : "The Counties of New Castle, Kent and Sussex upon Delaware",
+                "to" : "The Delaware State",
+                "type" : "reorganization"
+            }
+        ],
+        "creates" : [
+            "The Delaware State"
+        ]
+    },
+    "pennsylvaniaConstitution1776" : {
+        "name" : "Pennsylvania Constitution of 1776",
+        "dateEffective" : "28 September 1776",
+        "description" : "The Pennsylvania Constitution of 1776 was created to prevent the creation of an aristocratic class within the newly independent State of Pennsylvania based on the ideas of Thomas Paine's *Common Sense*. The constitutional convention met in Philadelphia and chose Benjamin Franklin as president and Colonel George Ross as vice president. The constitution was completed on 28 September 1776. The constitution has been called the most democratic document in North America, and contained several radical innovations. Voting was extended to all taxpayers (including African Americans), a unicameral, popularly-elected annual legislature was put in place, a Council of Census was elected to evaluate the state government, and several other resolutions inspired by the colonists' complaints against the British Crown were included.",
+        "parties" : [
+            "State of Pennsylvania"
+        ],
+        "transfers" : [
+            {
+                "areas" : [
+                    "State of Pennsylvania"
+                ],
+                "from" : "State of Pennsylvania",
+                "to" : "Commonwealth of Pennsylvania",
+                "type" : "reorganization"
+            }
+        ],
+        "creates" : [
+            "Commonwealth of Pennsylvania"
+        ]
+    },
+    "declarationOfNewConnecticut" : {
+        "name" : "Declaration of Independence of New Connecticut",
+        "dateEffective" : "17 January 1777",
+        "description" : "New Connecticut was declared by delegates from 28 towns within the New Hampshire Grants of New York on 15 January 1777 or 17 January 1777. New Connecticut was not recognized by any foreign power, but was soon reorganized as the Vermont Republic and eventually admitted to the Union as the State of Vermont.",
+        "parties" : [
+            "State of New York",
+            "New Connecticut"
+        ],
+        "transfers" : [
+            {
+                "areas" : [
+                    "New Hampshire Grants"
+                ],
+                "from" : "New York",
+                "to" : "New Connecticut",
+                "type" : "rebellion"
+            }
+        ],
+        "creates" : [
+            "New Connecticut"
+        ]
+    },
+    "newConnecticutRenamedVermont" : {
+        "name" : "New Connecticut is renamed Vermont",
+        "dateEffective" : "04 June 1777",
+        "description" : "The recently-declared and unrecognized New Connecticut is renamed as the Vermont Republic.",
+        "parties" : [
+            "New Connecticut"
+        ],
+        "transfers" : [
+            {
+                "areas" : [
+                    "New Connecticut"
+                ],
+                "from" : "New Connecticut",
+                "to" : "Vermont Republic",
+                "type" : "reorganization"
+            }
+        ],
+        "creates" : [
+            "Vermont Republic"
+        ]
+    },
+    "vermontClaimsEastUnion" : {
+        "name" : "The Vermont Republic claims the East Union of New Hampshire",
+        "dateEffective" : "11 June 1788",
+        "description" : "16 towns on the western New Hampshire border petitioned to join the Vermont Republic, concerned that New Hampshire had focused too much on the coastal region. This claim was unrecognized by the New Hampshrie government.",
+        "parties" : [
+            "Vermont Republic",
+            "State of New Hampshire"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["East Union"],
+                "from" : "New Hampshire",
+                "to" : "Vermont Republic",
+                "type" : "claim"
+            }
+        ]
+    },
+    "vermontRescindsEastUnion" : {
+        "name" : "The Vermont Republic rescinds annexation of the East Union",
+        "dateEffective" : "21 October 1778",
+        "description" : "The Continental Congress pressured the Vermont Republic to rescind their claim to the East Union of New Hampshire, later declaring on 12 February 1779 that the East Union was always illegitimate.",
+        "parties" : [
+            "Vermont Republic",
+            "State of New Hampshire",
+            "United States of America"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["East Union"],
+                "from" : "Vermont Republic",
+                "to" : "New Hampshire",
+                "type" : "abandon claim"
+            }
+        ]
+    },
+    "massachusettsConstitution1780" : {
+        "name" : "Constitution of the Commonwealth of Massachusetts",
+        "dateEffective": "25 October 1780",
+        "description" : "In 1779, the Massachusetts Constitutional Convention began to draft a new constitution for the state. John Adams authored a draft on 30 October 1779 which was presented 15 June 1780 and ratified 25 October 1780 by the convention. It was the last state constitution to be written among the first thirteeen states, and was structured as a list of articles. This became a model for the United States Constitution seven years later. It declared the rights of citizens of the commonwealth, framed a government with a gubernatorial executive, bicameral legislature, and an independent judiciary, with a focus on the separation of powers between these entities.",
+        "parties" : [
+            "State of Massachusetts Bay"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["State of Massachusetts Bay"],
+                "from" : "State of Massachusetts Bay",
+                "to" : "Commonwealth of Massachusetts",
+                "type" : "reorganization"
+            }
+        ],
+        "creates" : [
+            "Commonwealth of Massachusetts"
+        ]
+    },
+    "articlesOfConfederation" : {
+        "name" : "Articles of Confederation",
+        "dateEffective" : "01 March 1781",
+        "description" : "",
+        "parties" : [
+            "State of Connecticut",
+            "The Delaware State",
+            "State of Georgia",
+            "State of Maryland",
+            "Commonwealth of Massachusetts",
+            "State of New Hampshire",
+            "State of New Jersey",
+            "State of New York",
+            "State of North Carolina",
+            "Commonwealth of Pennsylvania",
+            "State of Rhode Island and Providence Plantations",
+            "State of South Carolina",
+            "Commonwealth of Virginia",
+            "United States of America",
+            "Province of Quebec"
+        ],
+        "transfers" : [
+            {
+                "areas": [
+                    "State of Connecticut"
+                ],
+                "from": "State of Connecticut",
+                "to": "United States of America",
+                "type": "federalism"
+            },
+            {
+                "areas" : [
+                    "The Delaware State"
+                ],
+                "from": "The Delaware State",
+                "to": "United States of America",
+                "type": "federalism"
+            },
+            {
+                "areas" : [
+                    "State of Georgia"
+                ],
+                "from": "State of Georgia",
+                "to": "United States of America",
+                "type": "federalism"
+            },
+            {
+                "areas" : [
+                    "State of Maryland"
+                ],
+                "from": "State of Maryland",
+                "to": "United States of America",
+                "type": "federalism"
+            },
+            {
+                "areas" : [
+                    "Commonwealth of Massachusetts"
+                ],
+                "from": "Commonwealth of Massachusetts",
+                "to": "United States of America",
+                "type": "federalism"
+            },
+            {
+                "areas" : [
+                    "State of New Hampshire"
+                ],
+                "from": "State of New Hampshire",
+                "to": "United States of America",
+                "type": "federalism"
+            },
+            {
+                "areas" : [
+                    "State of New Jersey"
+                ],
+                "from": "State of New Jersey",
+                "to": "United States of America",
+                "type": "federalism"
+            },
+            {
+                "areas" : [
+                    "State of New York"
+                ],
+                "from": "State of New York",
+                "to": "United States of America",
+                "type": "federalism"
+            },
+            {
+                "areas" : [
+                    "State of North Carolina"
+                ],
+                "from": "State of North Carolina",
+                "to": "United States of America",
+                "type": "federalism"
+            },
+            {
+                "areas" : [
+                    "Commonwealth of Pennsylvania"
+                ],
+                "from": "Commonwealth of Pennsylvania",
+                "to": "United States of America",
+                "type": "federalism"
+            },
+            {
+                "areas" : [
+                    "State of Rhode Island and Providence Plantations"
+                ],
+                "from": "State of Rhode Island and Providence Plantations",
+                "to": "United States of America",
+                "type": "federalism"
+            },
+            {
+                "areas" : [
+                    "State of South Carolina"
+                ],
+                "from": "State of South Carolina",
+                "to": "United States of America",
+                "type": "federalism"
+            },
+            {
+                "areas" : [
+                    "Commonwealth of Virginia"
+                ],
+                "from": "Commonwealth of Virginia",
+                "to": "United States of America",
+                "type": "federalism"
+            }
+        ]
+    },
+    "vermontClaimsEastUnion2" : {
+        "name" : "The Vermont Republic claims the East Union of New Hampshire",
+        "dateEffective" : "05 April 1781",
+        "description" : "",
+        "parties" : [
+            "Vermont Republic",
+            "State of New Hampshire"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["East Union"],
+                "from" : "New Hampshire",
+                "to" : "Vermont Republic",
+                "type" : "claim"
+            }
+        ]
+    },
+    "vermontClaimsWestUnion" : {
+        "name" : "The Vermont Republic claims the West Union of New York",
+        "dateEffective" : "16 June 1781",
+        "description" : "",
+        "parties" : [
+            "Vermont Republic",
+            "State of New York"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["West Union"],
+                "from" : "State of New York",
+                "to" : "Vermont Republic",
+                "type" : "claim"
+            }
+        ]
+    },
+    "vermontAbandonsEastUnionAndWestUnion" : {
+        "name" : "The Vermont Republic abandons its claim on the East Union and West Union",
+        "dateEffective" : "23 February 1782",
+        "description" : "",
+        "parties" : [
+            "Vermont Republic",
+            "State of New Hampshire",
+            "State of New York"
+        ],
+        "transfers" : [
+            {
+                "areas" : [
+                    "East Union"
+                ],
+                "from" : "Vermont Republic",
+                "to" : "New Hampshire",
+                "type" : "abandon claim"
+            },
+            {
+                "areas" : [
+                    "West Union"
+                ],
+                "from" : "Vermont Republic",
+                "to" : "New York",
+                "type" : "abandon claim"
+            }
+        ]
+    },
+    "newYorkCedesErieTriangle" : {
+        "name" : "New York cedes its western claim to the federal government",
+        "dateEffective" : "29 October 1782",
+        "description" : "",
+        "parties" : [
+            "New York",
+            "United States of America"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Erie Triangle"],
+                "from" : "New York",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : [
+                    "New York western claim"
+                ],
+                "from" : "New York",
+                "to" : "United States of America",
+                "type" : "transfer claim"
+            }
+        ]
+    },
+    "westmorelandCountyDeclaredPennsylvania" : {
+        "name" : "Connecticut's claim to Westmoreland County assigned to Pennsylvania by the Congress of the Confederation",
+        "dateEffective" : "30 December 1782",
+        "description" : "In an attempt to end the Pennamite–Yankee War, the Congress of the Confederation unanimously declared that the region of the Wyoming Valley claimed by Connecticut as Westmoreland County was part of Pennsylvania. As compensation, Connecticut was granted a claim to the Western Reserve of Ohio. Pennsylvania would refuse to confirm private land titles of settlers from Connecticut within the land, leading to the Second Pennamite–Yankee War, and the declaration of the State of Westmoreland in 1784. Connecticut would retain thier claim until 1786, when Pennsylvania confirmed the land titles and created Luzerne County.",
+        "parties" : [
+            "United States of America",
+            "Commonwealth of Pennsylvania",
+            "State of Connecticut"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Western Reserve"],
+                "from" : null,
+                "to" : "State of Connecticut",
+                "type" : "territory"
+            }
+        ]
+    },
+    "virginiaCedesNorthwestClaim" : {
+        "name" : "Virginia cedes its claim northwest of the Ohio River to the federal government",
+        "dateEffective" : "01 March 1784",
+        "description" : "",
+        "parties" : [
+            "Commonwealth of Virginia",
+            "United States of America"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Virginia northwestern claim"],
+                "from" : "Virginia",
+                "to" : "United States of America",
+                "type" : "transfer claim"
+            }
+        ]
+    },
+    "pennsylvaniaVirginiaBorderAgreement" : {
+        "name" : "Pennsylvania and Virginia agree to a border between the states",
+        "dateEffective" : "01 April 1784",
+        "description" : "Pennsylvania and Virginia agree to a border continuing the Mason-Dixon Line to a point five degrees west of the Delaware River, then north. The agreement was approved by Virginia on 23 June 1783 and by Pennsylvania on 01 April 1784.",
+        "parties" : [
+            "Commonwealth of Pennsylvania",
+            "Commonwealth of Virginia"
+        ],
+        "transfers" : [
+            {
+                "areas" : [
+                    "Pennsylvania western claim"
+                ],
+                "from" : "Commonwealth of Virginia",
+                "to" : "Commonwealth of Pennsylvania",
+                "type" : "cession"
+            }
+        ]
+    },
+    "treatyOfParis1783" : {
+        "name" : "Treaty of Paris (1783)",
+        "dateEffective" : "12 May 1784",
+        "description" : "In the Treaty of Paris, representatives of King George III and the United States officially negotiated the end of the rebellionary War. British North America would cease to claim the Thirteen Colonies, which would be recognized as the free, soverign, and independent United States of America. Boundaries between the remaining territory of British North America were defined, but some ambiguities would not be resolved until later treaties would establish final borders. Great Britain also ceded much of its western territory in the Ohio Valley to the United States, expanding the claims of the US into the Northwest Territory. This treaty, along with the Treaties of Versailles, marked the end of the First British Empire and the ascendency of the United States as a soverign nation.",
+        "parties" : [
+            "Kingdom of Great Britain",
+            "United States of America",
+            "State of Connecticut",
+            "The Delaware State",
+            "State of Georgia",
+            "State of Maryland",
+            "Commonwealth of Massachusetts",
+            "State of New Hampshire",
+            "State of New Jersey",
+            "State of New York",
+            "State of North Carolina",
+            "Commonwealth of Pennsylvania",
+            "State of Rhode Island and Providence Plantations",
+            "State of South Carolina",
+            "Commonwealth of Virginia"
+        ],
+        "transfers" : [
+            {
+                "areas" : [
+                    "Thirteen Colonies",
+                    "Ohio Valley",
+                    "West Florida northern extension"
+                ],
+                "from" : "Kingdom of Great Britain",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : [
+                    "Aroostook claim",
+                    "Indian Stream lands"
+                ],
+                "from" : null,
+                "to" : "United States of America",
+                "type" : "claim"
+            },
+            {
+                "areas" : [
+                    "Aroostook claim",
+                    "Indian Stream lands"
+                ],
+                "from" : null,
+                "to" : "Kingdom of Great Britain",
+                "type" : "claim"
+            }
+        ]
+    },
+    "treatiesOfVersailles1783" : {
+        "name" : "Treaties of Versailles (1783)",
+        "dateEffective" : "25 November 1783",
+        "description" : "A component of the Peace of Paris, the Treaties of Versailles were signed among the colonial powers in North America. In this treaty, continental British colonies south of the United States were ceded to the Kingdom of Spain, and some minor territories in Africa and Europe were given to the Kingdom of France and the Kingdom of Spain.",
+        "parties" : [
+            "Kingdom of Great Britain",
+            "Kingdom of France",
+            "Kingdom of Spain",
+            "Republic of the Seven United Netherlands"
+        ],
+        "transfers" : [
+            {
+                "areas" : [
+                    "West Florida",
+                    "East Florida"
+                ],
+                "from" : "Kingdom of Great Britain",
+                "to" : "Kingdom of Spain",
+                "type" : "cession"
+            },
+            {
+                "areas" : [
+                    "West Florida northern extension"
+                ],
+                "from" : null,
+                "to" : "Kingdom of Spain",
+                "type" : "claim"
+            }
+        ]
+    },
+    "declarationOfFranklin" : {
+        "name" : "Declaration of Independence of the State of Franklin",
+        "dateEffective" : "23 August 1784",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "State of North Carolina",
+            "State of Franklin"
+        ],
+        "transfers" : [
+            {
+                "areas" : [
+                    "Wayne County, NC",
+                    "Washington County, NC",
+                    "Sullivan County, NC",
+                    "Spencer County, NC",
+                    "Greene County, NC",
+                    "Caswell County, NC",
+                    "Sevier County, NC",
+                    "Blount County, NC"
+                ],
+                "from" : "State of North Carolina",
+                "to" : "State of Franklin",
+                "type" : "rebellion"
+            }
+        ],
+        "creates" : [
+            "State of Franklin"
+        ]
+    },
+    "massachusettsCedesWesternClaim" : {
+        "name" : "Massachusetts cedes its western claim to the federal government",
+        "dateEffective" : "19 April 1785",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "Commonwealth of Massachusetts"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Massachusetts western claim"],
+                "from" : "Commonwealth of Massachusetts",
+                "to" : "United States of America",
+                "type" : "cession"
+            }
+        ]
+    },
+    "connecticutCedesWesternClaim" : {
+        "name" : "Connecticut cedes its western claim (except for the Western Reserve) to the federal government",
+        "dateEffective" : "14 September 1786",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "State of Connecticut"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Connecticut western claim"],
+                "from" : "State of Connecticut",
+                "to" : "United States of America",
+                "type" : "cession"
+            }
+        ]
+    },
+    "massachusettsAbandonsWesternNewYorkClaim" : {
+        "name" : "Massachusetts abandons its claim to western New York",
+        "dateEffective" : "16 December 1786",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "Commonwealth of Massachusetts"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Massachusetts New York claim"],
+                "from" : "Commonwealth of Massachusetts",
+                "to" : null,
+                "type" : "abandon claim"
+            }
+        ]
+    },
+    "northwestTerritoryCreated" : {
+        "name" : "Creation of the Territory Northwest of the River Ohio",
+        "dateEffective" : "13 July 1787",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "Northwest Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Northwest Territory"],
+                "from" : "United States of America",
+                "to" : "Northwest Territory",
+                "type" : "territory"
+            },
+            {
+                "areas" : ["Western Reserve"],
+                "from" : "United States of America",
+                "to" : "Northwest Territory",
+                "type" : "territorial claim"
+            }
+        ],
+        "creates" : [
+            "Northwest Territory"
+        ]
+    },
+    "southCarolinaCedesWesternClaim" : {
+        "name" : "South Carolina cedes its western claim to the federal government",
+        "dateEffective" : "09 August 1787",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "State of South Carolina"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["South Carolina western claim"],
+                "from" : "State of South Carolina",
+                "to" : "United States of America",
+                "type" : "cession"
+            }
+        ]
+    },
+    "delawareRatifiesConstitution" : {
+        "name" : "Delaware ratifies the Constitution",
+        "dateEffective" : "07 December 1787",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "The Delaware State"
+        ]
+    },
+    "pennsylvaniaRatifiesConstitution" : {
+        "name" : "Pennsylvania ratifies the Constitution",
+        "dateEffective" : "12 December 1787",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "Commonwealth of Pennsylvania"
+        ]
+    },
+    "newJerseyRatifiesConstitution" : {
+        "name" : "New Jersey ratifies the Constitution",
+        "dateEffective" : "18 December 1787",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "State of New Jersey"
+        ]
+    },
+    "georgiaRatifiesConstitution" : {
+        "name" : "Georgia ratifies the Constitution",
+        "dateEffective" : "02 January 1788",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "State of Georgia"
+        ]
+    },
+    "connecticutRatifiesConstitution" : {
+        "name" : "Connecticut ratifies the Constitution",
+        "dateEffective" : "09 January 1788",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "State of Connecticut"
+        ]
+    },
+    "massachusettsRatifiesConstitution" : {
+        "name" : "Massachusetts ratifies the Constitution",
+        "dateEffective" : "06 February 1788",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "Commonwealth of Massachusetts"
+        ]
+    },
+    "marylandRatifiesConstitution" : {
+        "name" : "Maryland ratifies the Constitution",
+        "dateEffective" : "28 April 1788",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "State of Maryland"
+        ]
+    },
+    "southCarolinaRatifiesConstitution" : {
+        "name" : "South Carolina ratifies the Constitution",
+        "dateEffective" : "23 May 1788",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "State of South Carolina"
+        ]
+    },
+    "newHampshireRatifiesConstitution" : {
+        "name" : "New Hampshire ratifies the Constitution",
+        "dateEffective" : "21 June 1788",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "State of New Hampshire"
+        ]
+    },
+    "virginiaRatifiesConstitution" : {
+        "name" : "Virginia ratifies the Constitution",
+        "dateEffective" : "25 June 1788",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "Commonwealth of Virginia"
+        ]
+    },
+    "newYorkRatifiesConstitution" : {
+        "name" : "New York ratifies the Constitution",
+        "dateEffective" : "26 July 1788",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "State of New York"
+        ]
+    },
+    "marylandCedesFederalDistrictTerritory" : {
+        "name" : "An act to cede to Congress a district of ten miles square in this state for the seat of government of the United States",
+        "dateEffective" : "23 December 1788",
+        "description" : "Maryland cedes an area to the federal government for the purpose of establishing a seat of government in a federal territory. After the borders were set, Maryland formally ceded the specific parcel on 19 December 1791.",
+        "parties" : [
+            "United States of America",
+            "State of Maryland"
+        ]
+    },
+    "franklinPledgesAllegianceToNorthCarolina" : {
+        "name" : "The State of Franklin pledges allegance to North Carolina and dissolves",
+        "dateEffective" : "01 February 1789",
+        "description" : "",
+        "parties" : [
+            "State of Franklin",
+            "State of North Carolina"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["State of Franklin"],
+                "from" : "State of Franklin",
+                "to" : "State of North Carolina",
+                "type" : "annexation"
+            }
+        ]
+    },
+    "northwestTerritoryReorganized" : {
+        "name" : "The Northwest Territory is reorganized under the Constitution",
+        "dateEffective" : "07 August 1789",
+        "description" : "",
+        "parties" : [
+            "Northwest Territory",
+            "United States of America"
+        ]
+    },
+    "northCarolinaRatifiesConstitution" : {
+        "name" : "North Carolina ratifies the Constitution",
+        "dateEffective" : "21 November 1789",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "State of North Carolina"
+        ]
+    },
+    "virginiaCedesFederalTerritoryLand" : {
+        "name" : "Virginia cedes an area of ten square miles along the Potomac to the federal government to be used as the location of a national capital",
+        "dateEffective" : "03 December 1789",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "State of Virginia"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Arlington County"],
+                "from" : "Virginia",
+                "to" : "United States",
+                "type" : "cession"
+            }
+        ]
+    },
+    "northCarolinaCedesSouthwestTerritory" : {
+        "name" : "North Carolina cedes its claim west of the Great Smoky Mountains to the federal government",
+        "dateEffective" : "26 May 1790",
+        "description" : "",
+        "parties" : [
+            "State of North Carolina",
+            "United States of America"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Southwest Territory"],
+                "from" : "North Carolina",
+                "to" : "United States",
+                "type" : "cession"
+            }
+        ]
+    },
+    "southwestTerritoryCreated" : {
+        "name" : "Creation of the Territory South of the River Ohio",
+        "dateEffective" : "26 May 1790",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "Southwest Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Southwest Territory"],
+                "from" : "United States of America",
+                "to" : "Southwest Territory",
+                "type" : "territory"
+            }
+        ],
+        "creates" : [
+            "Southwest Territory"
+        ]
+    },
+    "rhodeIslandRatifiesConstitution" : {
+        "name" : "Rhode Island ratifies the Constitution",
+        "dateEffective" : "29 May 1790",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "State of Rhode Island"
+        ]
+    },
+    "residenceAct" : {
+        "name" : "Residence Act",
+        "dateEffective" : "09 July 1790",
+        "description" : "Congress passed the Residence Act, approving the creation of a national capital on the Potomac River in a location selected by president George Washington."
+    },
+    "vermontAdmittedToUnion" : {
+        "name" : "Vermont is admitted as the fourtheenth state of the Union",
+        "dateEffective" : "04 March 1791",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "Vermont Republic"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Vermont Republic"],
+                "from" : "Vermont Republic",
+                "to" : "State of Vermont",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : ["State of Vermont"],
+                "from" : "State of Vermont",
+                "to" : "United States of America",
+                "type" : "federalism"
+            }
+        ],
+        "creates" : [
+            "State of Vermont"
+        ]
+    },
+    "federalDistrictFormedFromMarylandAndVirginia" : {
+        "name" : "A federal district is formed from a diamond ceded by Maryland and Virginia",
+        "dateEffective" : "30 March 1791",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "State of Maryland",
+            "Commonwealth of Virginia"
+        ]
+    },
+    "marylandOfficiallyCedesFederalDistrict" : {
+        "name" : "Maryland officially cedes land along the Potomac to the federal government for the Federal District",
+        "dateEffective" : "19 December 1791",
+        "description" : "",
+        "parties" : [
+            "United States of America"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Georgetown, MD"],
+                "from" : "Maryland",
+                "to" : "United States of America",
+                "type" : "cession"
+            }
+        ]
+    },
+    "pennsylvaniaPurchasesErieTriangle" : {
+        "name" : "Pennsylvania purchases the Erie Triangle from the federal government",
+        "dateEffective" : "03 March 1792",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "Commonwealth of Pennsylvania"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Erie Triangle"],
+                "from" : "United States of America",
+                "to" : "Commonwealth of Pennsylvania",
+                "type" : "cession"
+            }
+        ]
+    },
+    "kentuckyAdmittedToUnion" : {
+        "name" : "Kentucky is admitted as the fifteenth state of the Union",
+        "dateEffective" : "01 June 1792",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "Commonwealth of Virginia",
+            "Commonwealth of Kentucky"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Kentucky"],
+                "from" : "Commonwealth of Virginia",
+                "to" : "Commonwealth of Kentucky",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Commonwealth of Kentucky"],
+                "from" : "Commonwealth of Kentucky",
+                "to" : "United States of America",
+                "type" : "federalism"
+            }
+        ],
+        "creates" : [
+            "Commonwealth of Kentucky"
+        ]
+    },
+    "delawareConstitution1792" : {
+        "name" : "Delaware Constitution of 1792",
+        "dateEffective" : "12 June 1792",
+        "description" : "",
+        "parties" : [
+            "The Delaware State"
+        ],
+        "transfers" : [
+            {
+                "areas" : [
+                    "The Delaware State"
+                ],
+                "from" : "The Delaware State",
+                "to" : "State of Delaware",
+                "type" : "reorganization"
+            }
+        ],
+        "creates" : [
+            "State of Delaware"
+        ]
+    },
+    "pinckneysTreaty" : {
+        "name" : "Pinckney's Treaty",
+        "dateEffective" : "02 August 1796",
+        "description" : "Pinckney's Treaty, also called the Treaty of San Lorenzo or the Treaty of Madrid, was signed between the United States and the Kingdom of Spain to define the border between the US and Spanish Flordia, ending the first stage of the West Florida Controversy. Named for Thomas Pinckney, who negotiated with Spanish representative Don Manuel de Godoy, the treaty defined the boundaries of the United States around Spanish Florida and Spanish Louisiana, created rules for dealing with native peoples in Florida and Georgia, and ensured mutual defense of vessels on the Mississippi River and Gulf of Mexico.",
+        "parties" : [
+            "United States of America",
+            "Kingdom of Spain"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Northern West Florida"],
+                "from" : "West Florida",
+                "to" : "United States",
+                "type" : "cession"
+            }
+        ]
+    },
+    "tennesseeAdmittedToUnion" : {
+        "name" : "Tennessee is admitted as the sixteenth state, formed from the Southwest Territory",
+        "dateEffective" : "01 June 1796",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "Southwest Territory",
+            "State of Tennessee"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Southwest Territory"],
+                "from" : "Southwest Territory",
+                "to" : "State of Tennessee",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : ["State of Tennessee"],
+                "from" : "State of Tennessee",
+                "to" : "United States of America",
+                "type" : "federalism"
+            }
+        ],
+        "creates" : [
+            "State of Tennessee"
+        ]
+    },
+    "mississippiOrganicAct" : {
+        "name" : "Mississippi Territory organic act",
+        "dateEffective" : "07 April 1798",
+        "description" : "The federal government authorizes the creation of the Mississippi Territory in the land ceded from Spanish West Florida and the Georgia western claim. Georiga would continue to claim this land until the Compact of 1802, beginning the Yazoo land scandal.",
+        "parties" : [
+            "United States of America",
+            "Territory of Misssissippi"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Northern West Florida"],
+                "from" : "United States",
+                "to" : "Territory of Mississippi",
+                "type" : "territory"
+            },
+            {
+                "areas" : ["Yazoo Lands"],
+                "from" : "United States",
+                "to" : "Territory of Mississippi",
+                "type" : "territorial claim"
+            }
+        ],
+        "creates" : [
+            "Territory of Misssissippi"
+        ]
+    },
+    "stCroixRiverCommission" : {
+        "name" : "Commissioners agree on the source of the St. Croix River, setting the border of the District of Maine and British North America",
+        "dateEffective" : "25 October 1798",
+        "description" : "The far eastern border between British North America and the United States was defined by the St. Croix River, with a northward line from its source being the boundary between the Colony of New Brunswick and the District of Maine, held by the Commonwealth of Connecticut. In October 1798, commissioners from both nations agreed on the source of the river, establishing the final eastern boundary. The northern boundary would remain in periodic dispute until 1842.",
+        "parties" : [
+            "United States of America",
+            "Kingdom of Great Britain",
+            "Commonwealth of Massachusetts",
+            "British North America",
+            "Colony of New Brunswick"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["St. Croix River headwaters eastern claim"],
+                "from" : "Commonwealth of Massachusetts",
+                "to" : "Colony of New Brunswick",
+                "type" : "cession"
+            }
+        ]
+    },
+    "connecticutCedesWesternReserve" : {
+        "name" : "Connecticut cedes its claim to the Western Reserve",
+        "dateEffective" : "30 May 1800",
+        "description" : "On 28 May 1800, the federal government passed an act accepting the cession of the Western Reserve from Connecticut. On 30 May 1800, Connecticut approved the cession and ceased its administration in all land west of Pennsylvania. After this, the ceded territory was *de facto* administered by the Northwest Territory.",
+        "parties" : [
+            "United States of America",
+            "State of Connecticut",
+            "Northwest Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Western Reserve"],
+                "from" : "State of Connecticut",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Western Reserve"],
+                "from" : "United States of America",
+                "to" : "Northwest Territory",
+                "type" : "territory"
+            }
+        ]
+    },
+    "inidanaTerritoryCreated" : {
+        "name" : "An act to divide the territory of the United States northwest of the Ohio, into two separate governments",
+        "dateEffective" : "04 July 1800",
+        "description" : "The Northwest Territory is divided on a line from the mouth of the Kentucky River to Fort Recovery and then north, with the western portion becoming the Indiana Territory",
+        "parties" : [
+            "United States of America",
+            "Northwest Territory",
+            "Indiana Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Indiana Territory"],
+                "from" : "Northwest Territory",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Indiana Territory"],
+                "from" : "United States of America",
+                "to" : "Indiana Territory",
+                "type" : "territory"
+            }
+        ],
+        "creates" : [
+            "Indiana Territory"
+        ]
+    },
+    "federalDistrictOrganized" : {
+        "name" : "An act concerning the District of Columbia",
+        "dateEffective" : "27 February 1801",
+        "description" : "Following the relocation of Congress to the federal district between Maryland and Virginia on 17 November 1800, the district was organized as the District of Columbia.",
+        "parties" : [
+            "United States of America"
+        ]
+    },
+    "compactOf1802" : {
+        "name" : "Articles of Agreement and Cession (Compact of 1802)",
+        "dateEffective" : "24 April 1802",
+        "description" : "Following the authorization of negotiations between the federal government and the State of Georgia to resolve the Yazoo land scandal, the federal government paid 1.25 million dollars to Georgia in exchange for the cession of the state's western claim. The government also promised to extinguish American Indian land titles within Georiga. This was the final of the post-colonial land cessions by the original 13 states. At the same time, the federal government confirmed to Georiga the western region ceded by South Carolina which had been claimed by the state.",
+        "parties" : [
+            "State of Georiga",
+            "United States of America"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Yazoo Lands"],
+                "from" : "State of Georiga",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Northern Georiga strip"],
+                "from" : "United States of America",
+                "to" : "Georgia",
+                "type" : "territory"
+            }
+        ]
+    },
+    "yazooLandsGrantedToMississippiTerritory" : {
+        "name" : "An act regulating the grants of land, and providing for the disposal of the lands of the United States, south of the state of Tennessee",
+        "dateEffective" : "16 June 1802",
+        "description" : "Following the Compact of 1802, the federal government allowed for the lands ceded from Georiga to be granted to the Mississippi Territory. This would be completed on 27 March 1804."
+    },
+    "ohioAdmittedToUnion" : {
+        "name" : "An act to enable the people of the eastern division of the territory northwest of the river Ohio to form a constitution and state government, and for the admission of such state into the Union, on equal footing with the original States, and for other purposes",
+        "dateEffective" : "01 March 1803",
+        "description" : "The southern half of the Northwest Territory and a sliver of the Indiana Territory are admitted as the seventeenth state, Ohio. The remainder of the Northwest Territory is annexed into the Indiana Territory. The western border is a line north from the mouth of the Great Miami River. The northern border is a line east from the southern tip of Lake Michigan, though the ohio constitution created a line from the southern tip of Lake Michigan to the northernmost cape of Maumee Bay, eventually leading to the Toledo War. President Thomas Jefferson signed the act approving Ohio's boundaries and constitution on 19 February 1803, but Congress did not pass a formal resolution to admit the state until 1953, at which time the date of statehood was set retroactively to 01 March 1803.",
+        "parties" : [
+            "United States of America",
+            "Northwestern Territory",
+            "Indiana Territory",
+            "State of Ohio"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Northern Northwest Territory", "West Maumee triangle"],
+                "from" : "Northwest Territory",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Northern Northwest Territory", "West Maumee triangle"],
+                "from" : "United States of America",
+                "to" : "Indiana Territory",
+                "type" : "territory"
+            },
+            {
+                "areas" : ["Indiana sliver"],
+                "from" : "Indiana Territory",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Indiana sliver"],
+                "from" : "United States of America",
+                "to" : "Northwest Territory",
+                "type" : "territory"
+            },
+            {
+                "areas" : ["Northwest Territory"],
+                "from" : "Northwest Territory",
+                "to" : "State of Ohio",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : ["State of Ohio"],
+                "from" : "State of Ohio",
+                "to" : "United States of America",
+                "type" : "federalism"
+            },
+            {
+                "areas" : ["Toledo Strip"],
+                "from" : null,
+                "to" : "State of Ohio",
+                "type" : "claim"
+            }
+        ],
+        "creates" : [
+            "State of Ohio"
+        ]
+    },
+    "southwickJogCededByConnecticut" : {
+        "name" : "The Southwick Jog is ceded from Connecticut to Massachusetts",
+        "dateEffective" : "30 November 1803",
+        "discription" : "Putting an end to long-standing border disagreements between Connecticut and Massachusetts, the Southwick Jog is ceded from Connecticut to Massachusetts. The final commissioners report was delivered on 30 November 1803, but no dates of government approval are known.",
+        "parties" : [
+            "State of Connecticut",
+            "Commonwealth of Massachusetts"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Southwick Jog"],
+                "from" : "State of Connecticut",
+                "to" : "Commonwealth of Massachusetts",
+                "type" : "cession"
+            }
+        ]
+    },
+    "spanishLouisianaConveyal" : {
+        "name" : "Transfer of Spanish Southern Louisiana to French New Orleans",
+        "dateEffective" : "30 November 1803",
+        "description" : "Part of the Louisiana Purchase, Spanish officials officials formally conveyed the colonial lands of Southern Lousiana and their administration to France.",
+        "parties" : [
+            "Kingdom of Spain",
+            "Spanish Lower Louisiana",
+            "French Republic",
+            "French New Orleans"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Lower Louisiana"],
+                "from" : "Kingdom of Spain",
+                "to" : "French Republic",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Lower Louisiana"],
+                "from" : "French Republic",
+                "to" : "French New Orleans",
+                "type" : "territory"
+            }
+        ]
+    },
+    "louisianaPurchase" : {
+        "name" : "Louisiana Purchase",
+        "dateEffective" : "20 December 1803",
+        "description" : "Directed by President Thomas Jefferson and negotated by James Monroe and Robert R. Livingston, the United States was on 11 April 1803 offered the aquisition of French Louisiana from the French First Republic for 80 million francs or 15 million dollars, including the cancellation of 20 million francs or 3.75 million dollars in French debt owed to US citizens. Occuring during the War of the Third Coalition, First Consul of France Napoleon Bonaparte adandoned plans to expand France's empire in the New World and did not wish to return the territory to Spain, instead deciding to sell the entire territory for cash to a neutral third party in the United States. The American negotiators, though only authorized to purchase the proximity of New Orleans for up to 10 million dollars, accepted the deal 19 days after it was offered. Britain, preferring the US hold the territory to France or another hostile continental power, allowed the deal to continue. President Jefferson and his cabinet debated the constitutionality of the deal for several months between July 1803 and October 1803, but decided against beginning the process of constitutional amendment to justify the purchase. Meanwhile in Congress, many Jeffersonians and most Federalists (mostly economic interests from New England) opposed the purchase, led by House Majority Leader John Randolph, but were unable to deny the purchase by a margin of two votes. Ultimately, the Senate consented to ratify the treaty with a vote of 24 to 7 on 20 October 1803, and authorized Jefferson to take possession of the territory and establish a temporary military government the following day. On 31 October 1803, Congress provided for local civil government as continuence of French and Spanish order in the territory, and plans were made for missions to explore and chart the territory. Throughout negotiation, the Kingdom of Spain had protested the purchase, arguing that France had promised not to alienate the territory to a third party and hadn't fulfilled their obligations under the Third Treaty of San Ildefonso to have all European powers recognize the King of Eturia. Madison responded by noting that the Spanish government had rescinded their right to negotiate over the territory to France before negotiations opened. Finally, on 30 November 1803, Spanish officials formally conveyed the colonial lands and their administration to France. Three weeks later on 20 December 1803, France turned over the historic colonial capital of New Orleans at the Cabildo, with the American flag being raised over Jackson Square. On 09 March 1804 and 10 March 1804, the Three Flags Day ceremony was conduced in St. Louis to transfer ownership of Upper Louisiana from Spain to France and then from France to the United States. The Louisiana Purchase extended the soverignty of the United States across the Missouri River, nearly doubling the nominal size of the country and leading to the creation of fifteen US states, corresponding today to 26% of the area of the contiguous United States.",
+        "parties" : [
+            "French Republic",
+            "French New Orleans",
+            "United States of America"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["French New Orleans"],
+                "from" : "French Republic",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Neutral Ground"],
+                "from" : null,
+                "to" : "United States of America",
+                "type" : "claim"
+            }
+        ]
+    },
+    "threeFlagsCeremonySpainFrance" : {
+        "name" : "Three Flags Day ceremony of Spain and France",
+        "dateEffective" : "09 March 1804",
+        "description" : "Part of the Louisiana Purchase, Spain transfered ownership of Upper Louisiana to France. The following day, France would transfer the territory to the United States.",
+        "parties" : [
+            "Kingdom of Spain",
+            "Spanish Upper Louisiana",
+            "French Republic"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Upper Louisiana"],
+                "from" : "Kingdom of Spain",
+                "to" : "French Republic"
+            }
+        ]
+    },
+    "threeFlagsCeremonyFranceUS" : {
+        "name" : "Three Flags Day ceremony of France and the United States",
+        "dateEffective" : "10 March 1804",
+        "description" : "Part of the Louisiana Purchase, France transferred ownership of Upper Louisiana to the United States.",
+        "parties" : [
+            "French Republic",
+            "United States of America"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Upper Louisiana"],
+                "from" : "French Republic",
+                "to" : "United States of America"
+            }
+        ]
+    },
+    "yazooLandsCededToMississippiTerritory" : {
+        "name" : "An act supplementary to the act intituled \"An act regarding grants of land, and providing for the disposal of the lands of the United States, south of the state of Tennessee\"",
+        "dateEffective" : "27 March 1804",
+        "description" : "The Yazoo Lands between Tennessee and the Mississippi Territory previously ceded by Georiga were assigned to the Mississippi Territory.",
+        "parties" : [
+            "United States of America",
+            "Mississippi Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Yazoo Lands"],
+                "from" : "United States of America",
+                "to" : "Territory of Mississippi",
+                "type" : "territory"
+            }
+        ]
+    },
+    "orleansTerritoryOrganizedFromLouisianaPurchase" : {
+        "name" : "An act erecting Louisiana into two territories, and providing for the temporary government thereof",
+        "dateEffective" : "01 October 1804",
+        "description" : "Following the confirmation and transfer of the Louisiana Purchase, the Orleans Territory was organized from Lower Louisiana and the unorganized District of Louisiana was placed under the jurisdiction of the Indiana Territory",
+        "parties" : [
+            "United States of America",
+            "Indiana Territory",
+            "Territory of Orleans"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Orleans District"],
+                "from" : "United States of America",
+                "to" : "Territory of Orleans",
+                "type" : "territory"
+            },
+            {
+                "areas" : ["Louisiana District"],
+                "from" : "United States of America",
+                "to" : "Indiana Territory",
+                "type" : "territory"
+            }
+        ],
+        "creates" : [
+            "Territory of Orleans"
+        ]
+    },
+    "michiganTerritoryOrganized" : {
+        "name" : "An act to divide the Indiana Territory into two separate governments",
+        "dateEffective" : "30 June 1805",
+        "description" : "The Indiana Territory is divided along a line east from the southern tip of Lake Michigan and north from the lake's northern tip. The section north and east is organized as the Michigan Territory.",
+        "parties" : [
+            "United States of America",
+            "Indiana Territory",
+            "Michigan Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Lower Michigan peninsula", "Indiana northern tier", "Toledo Strip"],
+                "from" : "Indiana Territory",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Lower Michigan peninsula", "Indiana northern tier", "Toledo Strip"],
+                "from" : "United States of America",
+                "to" : "Michigan Territory",
+                "type" : "territory"
+            }
+        ],
+        "creates" : [
+            "Michigan Territory"
+        ]
+    },
+    "louisianaTerritoryOrganized" : {
+        "name" : "An act further providing for the government of the District of Louisiana",
+        "dateEffective" : "04 July 1805",
+        "description" : "The District of Louisiana, previously under the jurisdiction of the Indiana Territory, is organized as the Louisiana Territory",
+        "parties" : [
+            "United States of America",
+            "Indiana Territory",
+            "Louisiana Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Louisiana District"],
+                "from" : "Indiana Territory",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Louisiana District"],
+                "from" : "United States of America",
+                "to" : "Louisiana Territory",
+                "type" : "territory"
+            }
+        ],
+        "creates" : [
+            "Louisiana Territory"
+        ]
+    },
+    "illinoisTerritoryOrganized" : {
+        "name" : "An act for dividing the Indiana Territory into two separate governments",
+        "dateEffective" : "01 March 1809",
+        "description" : "The Illinois Country, previously under the jurisdiction of the Indiana Territory, is organized as the Illinois Territory. A line between the Wabash River and Post Vincennes and then due north divided the Indiana Territory in the east (including a portion of the Upper Peninsula and Door Peninsula) from the new Illinois Territory in the west.",
+        "parties" : [
+            "United States of America",
+            "Indiana Territory",
+            "Illinois Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Illinois Country"],
+                "from" : "Indiana Territory",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Illinois Country"],
+                "from" : "United States of America",
+                "to" : "Illinois Territory",
+                "type" : "territory"
+            }
+        ],
+        "creates" : [
+            "Illinois Territory"
+        ]
+    },
+    "declarationOfWestFlorida" : {
+        "name" : "Declaration of Independence of West Florida",
+        "dateEffective" : "26 September 1810",
+        "description" : "A portion of Spanish West Florida in the area claimed by the United States west of the Pearl River declares its independence as the State of Florida.",
+        "parties" : [
+            "Republic of West Florida",
+            "Spanish West Florida",
+            "Kingdom of Spain"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Baton Rouge district"],
+                "from" : "Spanish West Florida",
+                "to" : "Republic of West Florida",
+                "type" : "rebellion"
+            },
+            {
+                "areas" : ["Mobile district"],
+                "from" : null,
+                "to" : "Republic of West Florida",
+                "type" : "claim"
+            }
+        ],
+        "creates" : [
+            "Republic of West Florida"
+        ]
+    },
+    "presidentalProclamation1810" : {
+        "name" : "Presidential Proclamation, 1810",
+        "dateEffective" : "27 October 1810",
+        "description" : "A part of the West Florida Controversy, Congress debated a course of action for the portion of West Florida claimed by the US as part of the Louisiana Purchase. During this time, several American filibuster excursions had attempted to claim the land for the United States, and a short-lived independent republic of mostly anglo-American tories had been proclaimed west of the Pearl River. On 27 October 1810, President James Madison proclaimed that the United States should move to take possession of West Florida between the Mississippi and Perdido rivers.",
+        "parties" : [
+            "United States of America",
+            "Spanish West Florida",
+            "Kingdom of Spain",
+            "Republic of West Florida"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Perdido West Florida"],
+                "from" : null,
+                "to" : "United States of America",
+                "type" : "claim"
+            }
+        ]
+    },
+    "unitedStatesEnforcesWestFloridaClaim" : {
+        "name" : "Annexation of West Florida",
+        "dateEffective" : "10 December 1810",
+        "description" : "Following the Presidential Proclamation of 1810, William C. C. Claiborne and American forces were sent to take possession of West Florida between the Mississippi River and Perdido River. They entered the Republic of West Florida capital, St. Francisville, on 06 December 1810, and Baton Rouge on 10 December 1810, after which the Republic of West Florida, which had existed for less than two and a half months, promptly surrendered. ",
+        "parties" : [
+            "United States of America",
+            "Republic of West Florida",
+            "Spanish West Florida",
+            "Kingdom of Spain"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Republic of West Florida"],
+                "from" : "Republic of West Florida",
+                "to" : "United States of America",
+                "type" : "occupation"
+            }
+        ]
+    },
+    "congressJointResolutionOnWestFloridaRepublic" : {
+        "name" : "Joint resolution of Congress concerning the West Florida Republic",
+        "dateEffective" : "15 January 1811",
+        "description" : "Following the American occupation of West Florida between the Mississippi River and Perdido River, claimed by Spanish West Florida and the independent Republic of West Florida, Congress passed a joint resolution on 15 January 1811 to provide for temporary occupation of the disputed territory subject to further negotiation. At this time, the Republic of West Florida was dissolved completely.",
+        "parties" : [
+            "United States of America",
+            "Republic of West Florida",
+            "Spanish West Florida",
+            "Kingdom of Spain"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Republic of West Florida"],
+                "from" : "Republic fo West Florida",
+                "to" : "United States of America",
+                "type" : "annexation"
+            }
+        ]
+    },
+    "congressAuthorizationOfWestFloridaAnnexation" : {
+        "name" : "Congress authorizes annexation of the remainder of Spanish land west of the Perdido River",
+        "dateEffective" : "12 February 1812",
+        "description" : "Congress authorized President James Madison in secret to take possession of all of Florida west of the Perdido River, including the use of military and naval forces as necessary. Historians today say this action is an early sign of the emergence of American imperialism and expeditionism.",
+        "parties" : [
+            "United States of America",
+            "Spanish West Florida",
+            "Kingdom of Spain"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Perdido West Florida"],
+                "from" : "Kingdom of Spain",
+                "to" : "United States of America",
+                "type" : "occupation"
+            }
+        ]
+    },
+    "batonRougeDistrictIncorporatedToOrleansTerritory" : {
+        "name" : "The Baton Rouge district of West Florida is authorized by Congress to be incorporated to the Orleans Territory, soon to become the State of Louisiana",
+        "dateEffective" : "14 April 1812",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "Territory of Orleans"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Baton Rouge district"],
+                "from" : "United States of America",
+                "to" : "Territory of Orleans",
+                "type" : "territory"
+            }
+        ]
+    },
+    "louisianaAdmittedToUnion" : {
+        "name" : "An act to enable the people of the Territory of Orleans to form a constitution and state government, and for the admission of such state into the Union, on equal footing with the original states, and for other purposes",
+        "dateEffective" : "30 April 1812",
+        "description" : "The Orleans Territory, the southernmost section of the Louisiana Purchase, is allowed to form a state government and constitution, and is admitted as the eighteenth state, Louisiana. Some portions of the Orleans Territory, including the recently occupied Baton Rouge district and the northwestern frontier of the territory, are exceptions to this.",
+        "parties" : [
+            "United States of America",
+            "Territory of Orleans",
+            "State of Louisiana"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Louisiana"],
+                "from" : "Territory of Orleans",
+                "to" : "State of Louisiana",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["State of Louisiana"],
+                "from" : "State of Louisiana",
+                "to" : "United States of America",
+                "type" : "federalism"
+            },
+            {
+                "areas" : ["Orleans frontier"],
+                "from" : "Territory of Orleans",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Orleans frontier"],
+                "from" : "United States of America",
+                "to" : "Louisiana Territory",
+                "type" : "territory"
+            }
+        ],
+        "creates" : [
+            "State of Louisiana"
+        ]
+    },
+    "mobileDistrictAssignedToMississippiTerritory" : {
+        "name" : "An act to enlarge the boundaries of the Mississippi Territory",
+        "dateEffective" : "14 May 1812",
+        "description" : "With West Florida occupied, Congress assigned the Mobile district between the Pearl River and Perdido River to the Mississippi Territory.",
+        "parties" : [
+            "United States of America",
+            "Mississippi Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Mobile district"],
+                "from" : "United States of America",
+                "to" : "Mississippi Territory",
+                "type" : "territory"
+            }
+        ]
+    },
+    "batonRougeDistrictAddedToLouisiana" : {
+        "name" : "Baton Rouge district added to Louisiana",
+        "dateEffective" : "04 August 1812",
+        "description" : "The Baton Rouge district was added to the new State of Louisiana, as authorized by Congress on 14 April 1812. After this, all land of the former Orleans Territory was organized under other states or territories.",
+        "parties" : [
+            "United States of America",
+            "Territory of Orleans",
+            "State of Louisiana"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Baton Rouge district"],
+                "from" : "Territory of Orleans",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Baton Rouge district"],
+                "from" : "United States of America",
+                "to" : "State of Louisiana",
+                "type" : "territory"
+            }
+        ]
+    },
+    "louisianaTerritoryReorganizedAsMissouriTerritory" : {
+        "name" : "An act providing for the government of the Territory of Missouri",
+        "dateEffective" : "07 December 1812",
+        "description" : "After the admittance of the State of Louisiana, the Louisiana Territory was reorganized as the Missouri Territory.",
+        "parties" : [
+            "United States of America",
+            "Louisiana Territory",
+            "Missouri Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Louisiana Territory"],
+                "from" : "Louisiana Territory",
+                "to" : "Missouri Territory",
+                "type" : "reorganization"
+            }
+        ],
+        "creates" : [
+            "Missouri Territory"
+        ]
+    },
+    "indianaAdmittedToUnion" : {
+        "name" : "An act to enable the people of the Indiana Territory to form a constitution and state government, and for the admission of such state into the Union on an equal footing with the original states",
+        "dateEffective" : "11 December 1816",
+        "description" : "Most of the Indiana Territory with parts of the Illinois Territory and Michigan Territory were admitted as the nineteenth state, Indiana. The Indiana northern tier was ceded from the Michigan Territory, and some land near the Wabash River was exchanged with the Illinois Territory. The portion of the Indiana Territory on the Upper Peninsula and Door Peninsula became unorganized.",
+        "parties" : [
+            "United States of America",
+            "State of Indiana",
+            "Indiana Territory",
+            "Illinois Territory",
+            "Michigan Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Indiana northern tier"],
+                "from" : "Michigan Territory",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Indiana northern tier"],
+                "from" : "United States of America",
+                "to" : "Indiana Territory",
+                "type" : "territory"
+            },
+            {
+                "areas" : ["Lower Wabash exchange", "Indiana Door Peninsula", "Indiana Upper Peninsula"],
+                "from" : "Indiana Territory",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Lower Wabash exchange"],
+                "from" : "United States of America",
+                "to" : "Illinois Territory",
+                "type" : "territory"
+            },
+            {
+                "areas" : ["Upper Wabash exchange"],
+                "from" : "Illinois Territory",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Upper Wabash exchange"],
+                "from" : "United States of America",
+                "to" : "Indiana Territory",
+                "type" : "territory"
+            },
+            {
+                "areas" : ["Indiana Territory"],
+                "from" : "Indiana Territory",
+                "to" : "State of Indiana",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : ["State of Indiana"],
+                "from" : "State of Indiana",
+                "to" : "United States of America",
+                "type" : "federalism"
+            }
+        ],
+        "creates" : [
+            "State of Indiana"
+        ]
+    },
+    "alabamaTerritoryOrganizedFromMississippiTerritory" : {
+        "name" : "An act to establish a separate territorial government for the eastern part of the Mississippi Territory",
+        "dateEffective" : "03 March 1817",
+        "description" : "The Alabama Territory is organized by dividing the Mississippi Territory in half. Two approximately equal-sized parts similar in size to Georiga were created by dividing the territory along a straight line between Washington County to the Gulf of Mexico, after which the line continued generally north at an angle to keep the divisions roughly equal until it meets and follows the Tennessee River.",
+        "parties" : [
+            "United States of America",
+            "Mississippi Territory",
+            "Alabama Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Alabama Territory"],
+                "from" : "Mississippi Territory",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Alabama Territory"],
+                "from" : "United States of America",
+                "to" : "Alabama Territory",
+                "type" : "territory"
+            }
+        ],
+        "creates" : [
+            "Alabama Territory"
+        ]
+    },
+    "mississippiAdmittedToUnion" : {
+        "name" : "An act to enable the people of the western part of the Mississippi Territory to form a constitution and state government, and for the admission of such state into the union, on an equal footing with the original states",
+        "dateEffective" : "10 December 1817",
+        "description" : "Following the division of the Mississippi Territory in half to create the Alabama Territory, the remainder of the Mississippi Territory is admitted as the twentieth state, Mississippi. At this time, the southern panhandle of the state was still technically occupied from Spanish West Florida.",
+        "parties" : [
+            "United States of America",
+            "Mississippi Territory",
+            "State of Mississippi"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Mississippi Territory"],
+                "from" : "Mississippi Territory",
+                "to" : "State of Mississippi",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : ["State of Mississippi"],
+                "from" : "State of Mississippi",
+                "to" : "United States of America",
+                "type" : "federalism"
+            }
+        ],
+        "creates" : [
+            "State of Mississippi"
+        ]
+    },
+    "fortStMarksIncursion" : {
+        "name" : "Capture of Fort St. Marks by Andrew Jackson's army",
+        "dateEffective" : "07 April 1818",
+        "description" : "As part of the First Seminole War, which began sometime in 1814, Colonel Andrew Jackson gathered about four thousand regulars, volunteers, militia, and friendly native allies to begin an excursion into Spanish East Florida. Setting out from Fort Scott and entering Florida on 15 March 1818, they followed the Apalachiola River and constructed Fort Gadsden before burning the Red Stick village at Tallahasee and taking two Native American prisoners. By 06 April 1818, Jackson's army had reached Fort St. Marks, which they seized from the Spanish the following day.",
+        "parties" : [
+            "United States of America",
+            "Spanish Empire",
+            "Spanish East Florida"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Fort St. Marks"],
+                "from" : "Spanish East Florida",
+                "to" : "United States of America",
+                "type" : "occupation"
+            }
+        ]
+    },
+    "fortBarrancasAndPensacolaIncursion" : {
+        "name" : "Capture of Fort Barrancas and Pensacola by Andrew Jackson's army",
+        "dateEffective" : "28 May 1818",
+        "description" : "Following the capture of Fort St. Marks, General Andrew Jackson left Fort Gadsden with one thousand men on 07 May 1818 towards Pensacola, the capital of Spanish West Florida. Upon reaching the city on 23 May 1818, the Spanish governor and 175-man garrison retreated to Fort Barrancas. After a few-day-long siege, the Spanish surrendered Fort Barrancas on 28 May 1818.",
+        "parties" : [
+            "United States of America",
+            "Spanish Empire",
+            "Spanish West Florida"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Fort Barrancas", "Pensacola, Florida"],
+                "from" : "Spanish West Florida",
+                "to" : "United States of America",
+                "type" : "occupation"
+            }
+        ]
+    },
+    "treatyOfGhent" : {
+        "name" : "Treaty of Ghent",
+        "dateEffective" : "30 June 1818",
+        "description" : "Ending the War of 1812 between the United States and the United Kingdom, the Treaty of Ghent included the exchanging for a few islands in the Maritimes.",
+        "parties" : [
+            "United States of America",
+            "United Kingdom of Great Britain and Ireland",
+            "Commonwealth of Massachusetts"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Moose Island"],
+                "from" : "United Kingdom of Great Britain and Ireland",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Moose Island"],
+                "from" : "United States of America",
+                "to" : "Commonwealth of Massachusetts",
+                "type" : "territory"
+            },
+            {
+                "areas" : ["Campobello Island", "Deer Island", "Grand Manan"],
+                "from" : "United States of America",
+                "to" : "United Kingdom of Great Britain and Ireland",
+                "type" : "cession"
+            }
+        ]
+    },
+    "illinoisAdmittedToUnion" : {
+        "name" : "An act to enable the people of the Illinois Territory to form a constitution and state government, and for the admission of such state into the Union on an equal footing with the original states",
+        "dateEffective" : "03 December 1818",
+        "description" : "The half of the Illinois Territory south of 42°30′ was admitted as the twenty-first state, Illinois. The remaining part of the Illinois Territory and the portions of Door Peninsula and the Upper Peninsula which had been a part of the Indiana Territory were assigned to the Michigan Territory",
+        "parties" : [
+            "United States of America",
+            "Illinois Territory",
+            "Michigan Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Upper Illinois territory"],
+                "from" : "Illinois Territory",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Upper Illinois territory", "Indiana Door Peninsula", "Indiana Upper Peninsula"],
+                "from" : "United States of America",
+                "to" : "Michigan Territory",
+                "type" : "territory"
+            },
+            {
+                "areas" : ["Illinois Territory"],
+                "from" : "Illinois Territory",
+                "to" : "State of Illinois",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : ["State of Illinois"],
+                "from" : "State of Illinois",
+                "to" : "United States of America",
+                "type" : "federalism"
+            }
+        ],
+        "creates" : ["State of Illinois"]
+    },
+    "treatyOf1818" : {
+        "name" : "Treaty of 1818",
+        "dateEffective" : "30 January 1819",
+        "description" : "The Treaty of 1818 (also called the \"Convention respecting fisheries, boundary and the restoration of slaves,\" the London Convention, the Anglo-American Convention of 1818, or the Convention of 1818) was signed between the United States and the United Kingdom to resolve boundary issues, allow for joint occupation and settlement in the Oregon Country, and regulated fishing and commerce between the counties, among other purposes.",
+        "parties" : [
+            "United States of America",
+            "United Kingdom of Great Britain and Ireland",
+            "Missouri Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Northern border pocket"],
+                "from" : "United Kingdom of Great Britain and Ireland",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Northern border pocket"],
+                "from" : "United States of America",
+                "to" : "Missouri Territory",
+                "type" : "territory"
+            },
+            {
+                "areas" : ["Northern border reach"],
+                "from" : "United States of America",
+                "to" : "United Kingdom of Great Britain and Ireland",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Oregon Country"],
+                "from" : null,
+                "to" : "United Kingdom of Great Britain and Ireland",
+                "type" : "condominium"
+            },
+            {
+                "areas" : ["Oregon Country"],
+                "from" : null,
+                "to" : "United States of America",
+                "type" : "condominium"
+            }
+        ]
+    },
+    "arkansawTerritoryOrganizedFromMissouriTerritory" : {
+        "name" : "An act establishing a separate territorial government in the southern part of the Territory of Missouri",
+        "dateEffective" : "04 July 1819",
+        "description" : "The Missouri Territory is divided by a line starting where the Mississippi River meets 36° north, and from there west to the St. Francis River, following it to 36°30′ north, then west. The area south of this line is organized as the Arkansaw Territory",
+        "parties" : [
+            "United States of America",
+            "Missouri Territory",
+            "Arkansaw Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Arkansaw territory"],
+                "from" : "Missouri Territory",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Arkansaw territory"],
+                "from" : "United States of America",
+                "to" : "Arkansaw Territory",
+                "type" : "territory"
+            }
+        ],
+        "creates" : ["Arkansaw Territory"]
+    },
+    "alabamaAdmittedToUnion" : {
+        "name" : "An act to enable the people of the Alabama Territory to form a constitution and state government, and for the admission of such state into the Union on an equal footing with the original states",
+        "dateEffective" : "14 December 1819",
+        "description" : "The Alabama Territory was admitted as the twenty-second state, Alabama. The southern panhandle of the state, like in Mississippi, was still technically occupied from Spanish West Florida at this time, but negotiations of the Adams–Onís Treaty had been underway since the beginning of 1819.",
+        "parties" : [
+            "United States of America",
+            "Mississippi Territory",
+            "State of Mississippi"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Mississippi Territory"],
+                "from" : "Mississippi Territory",
+                "to" : "State of Mississippi",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : ["State of Mississippi"],
+                "from" : "State of Mississippi",
+                "to" : "United States of America",
+                "type" : "federalism"
+            }
+        ],
+        "creates" : [
+            "State of Mississippi"
+        ]
+    },
+    "maineAdmittedToUnion" : {
+        "name" : "An act for the admission of the State of Maine into the Union",
+        "dateEffective" : "15 March 1820",
+        "description" : "The District of Maine, which was a part of Massachusetts, was admitted as the twenty-third state, Maine. This was part of the Missouri Compromise, in which Missouri would be admitted as a slave state and Maine as a free state to keep the balance of power between Northern and Southern influences.",
+        "parties" : [
+            "United States of America",
+            "Commonwealth of Massachusetts",
+            "State of Maine"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["District of Maine"],
+                "from" : "Commonwealth of Massachusetts",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["District of Maine"],
+                "from" : "United States of America",
+                "to" : "State of Maine",
+                "type" : "territory"
+            },
+            {
+                "areas" : ["State of Maine"],
+                "from" : "State of Maine",
+                "to" : "United States of America",
+                "type" : "federalism"
+            }
+        ],
+        "creates" : ["State of Maine"]
+    },
+    "arkansasTerritoryRenamed" : {
+        "name" : "An act relative to the Arkansas Territory",
+        "dateEffective" : "21 April 1820",
+        "parties" : [
+            "United States of America",
+            "Arkansas Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Arkansaw Territory"],
+                "from" : "Arkansaw Territory",
+                "to" : "Arkansas Territory",
+                "type" : "reorganization"
+            }
+        ],
+        "creates" : [
+            "Arkansas Territory"
+        ]
+    },
+    "adamsOnisTreaty" : {
+        "name" : "Adams–Onís Treaty",
+        "dateEffective" : "22 February 1821",
+        "description" : "The Adams–Onís Treaty resolved the West Florida Controversy and the Florida invasion during the First Seminole War. The United States aquired the remaining land of Spanish West Florida, which had been invaded based on a claim stemming from the Louisiana Purchase, and Spanish East Florida, which had been the site of some incursions in the First Seminole War. Signed 22 February 1819 by John Quincy Adams, the United States agreed to renounce claims to Spanish Texas in exchange for the transfer of East and West Florida, while the Spanish withdrew claims to the Oregon Country. The treaty came into effect on 22 February 1821.",
+        "parties" : [
+            "United States of America",
+            "Spanish Empire",
+            "Spanish West Florida",
+            "Spanish East Florida",
+            "Spanish Texas"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Baton Rouge district", "Mobile district", "Spanish northern reaches"],
+                "from" : "Spanish Empire",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Spanish West Florida", "Spanish East Florida"],
+                "from" : "Spanish Empire",
+                "to" : "United States",
+                "type" : "claim"
+            },
+            {
+                "areas" : ["United States southern reaches"],
+                "from" : "United States of America",
+                "to" : "Spanish Empire",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Texas"],
+                "from" : "United States of America",
+                "to" : null,
+                "type" : "renounce claim"
+            },
+            {
+                "areas" : ["Oregon Country", "Neutral Ground"],
+                "from" : "Spanish Empire",
+                "to" : null,
+                "type" : "renounce claim"
+            }
+        ]
+    },
+    "eastFloridaTransferred" : {
+        "name" : "Spanish East Florida is formally transferred to the United States",
+        "dateEffective" : "10 July 1821",
+        "description" : "As negotiated in the Adams–Onís Treaty, Spanish East Florida was transferred to the United States by Spain on 10 July 1821.",
+        "parties" : [
+            "Spanish Empire",
+            "United States of America",
+            "Spanish East Florida"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Spanish East Florida"],
+                "from": "Spanish Empire",
+                "to" : "United States of America"
+            }
+        ]
+    },
+    "westFloridaTransferred" : {
+        "name" : "Spanish West Florida is formally transferred to the United States",
+        "dateEffective" : "17 July 1821",
+        "description" : "As negotiated in the Adams–Onís Treaty, Spanish West Florida was transferred to the United States by Spain on 17 July 1821.",
+        "parties" : [
+            "Spanish Empire",
+            "United States of America",
+            "Spanish West Florida"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Spanish West Florida"],
+                "from": "Spanish Empire",
+                "to" : "United States of America"
+            }
+        ]
+    },
+    "missouriAdmittedToUnion" : {
+        "name" : "An act to authorize the people of the Missouri Territory to form a constitution and state government, and for the admission of such state into the Union on an equal footing with the original states, and to prohibit slavery in certain territories",
+        "dateEffective" : "10 August 1821",
+        "description" : "The southeastern corner of the Missouri Territory was admitted as the twenty-fourth state, Missouri. This was part of the Missouri Compromise, in which Missouri would be admitted as a slave state and Maine as a free state to keep the balance of power between Northern and Southern influences. The remaining part of the Missouri Territory became unorganized.",
+        "parties" : [
+            "United States of America",
+            "Missouri Territory",
+            "State of Missorui"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Upper Missouri territory"],
+                "from" : "Missouri Territory",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Missouri Territory"],
+                "from" : "Missouri Territory",
+                "to" : "State of Missouri",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : ["State of Missouri"],
+                "from" : "State of Missouri",
+                "to" : "United States of America",
+                "type" : "federalism"
+            }
+        ],
+        "creates" : ["State of Missouri"]
+    },
+    "floridaTerritoryOrganized" : {
+        "name" : "An act for the establishment of a territorial government in Florida",
+        "dateEffective" : "30 March 1822",
+        "description" : "With the completion of the transfer of East Florida and West Florida from Spain to the United States, Congress authorized the organization of the Florida Territory.",
+        "parties" : [
+            "United States of America",
+            "Florida Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Florida"],
+                "from" : "United States of America",
+                "to" : "Florida Territory",
+                "type" : "territory"
+            }
+        ],
+        "creates" : [
+            "Florida Territory"
+        ]
+    },
+    "moveArkansasTerritoryWesternBorder1" : {
+        "name" : "An act to fix the western boundary line of the Territory of Arkansas, and for other purposes",
+        "dateEffective" : "26 May 1824",
+        "description" : "The western border of the Arkansas Territory was moved eastwards to a line south from a point 40 miles west of the new state of Missouri's western border. Territory which was previously in the Arkansas Territory becomes unorganized.",
+        "parties" : [
+            "United States of America",
+            "Arkansas Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Western Arkansas Territory"],
+                "from" : "Arkansas Territory",
+                "to" : "United States",
+                "type" : "cession"
+            }
+        ]
+    },
+    "russianAmericaSouthernBoundaryAgreement" : {
+        "name" : "Russian America southern boundary agreements",
+        "dateEffective" : "11 January 1825",
+        "description" : "The boundary between Russian America and the Oregon Country was set at 54°40′ north in two separate treaties between Russia and the United States and Russia and the United Kingdom.",
+        "parties" : [
+            "United States of America",
+            "United Kingdom of Great Britain and Ireland",
+            "Russian Empire",
+            "Russian America"
+        ]
+    },
+    "moveArkansasTerritoryWesternBorder2" : {
+        "name" : "Cede western land of the Arkansas Territory to the Cherokee",
+        "dateEffective" : "28 May 1828",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "Arkansas Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Arkansas Cherokee cession"],
+                "from" : "Arkansas Territory",
+                "to" : "United States of America",
+                "type" : "cession"
+            }
+        ]
+    },
+    "treatyOfGhentArbitration" : {
+        "name" : "First Treaty of Ghent Arbitration",
+        "dateEffective" : "10 January 1831",
+        "description" : "As per the terms of the Treaty of Ghent, the United States and United Kingdom appealed to King William I of the Netherlands to arbitrate the disputed border between Maine and British North America. The King, finding reconciling the treaty with the maps too difficult, drew a new compromise line favorable to the United Kingdom instead. The United Kingdom accepted it, but the United States rejected it.",
+        "parties" : [
+            "United States of America",
+            "United Kingdom of Great Britain and Ireland",
+            "Kingdom of the Netherlands"
+        ]
+    },
+    "declarationOfIndianStreamRepublic" : {
+        "name" : "Declaration of Independence of the Republic of Indian Stream",
+        "dateEffective" : "09 July 1832",
+        "description" : "A region of New Hampshire north of the Connecticut Lakes, disputed between the United Kingdom and the United States, declared independence as the Republic of Indian Stream.",
+        "parties" : [
+            "Republic of Indian Stream"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Indian Stream lands"],
+                "from" : null,
+                "to" : "Republic of Indian Stream",
+                "type" : "rebellion"
+            }
+        ]
+    },
+    "michiganTerritoryExpansion" : {
+        "name" : "An act to attach the territory of the United States west of the Mississippi river, and north of the state of Missouri, to the Territory of Michigan",
+        "dateEffective" : "28 June 1834",
+        "description" : "A large region of unorganized territory north of Missouri stretching from the Mississippi River to the Missouri River and White Earth River was assigned to the Michigan Territory.",
+        "parties" : [
+            "United States of America",
+            "Michigan Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Iowa Territory"],
+                "from" : "United States of America",
+                "to" : "Michigan Territory",
+                "type" : "territory"
+            }
+        ]
+    },
+    "indianStreamRepublicRecognizesNewHampshire" : {
+        "name" : "Republic of Indian Stream recognizes jurisdiction of New Hampshire",
+        "dateEffective" : "05 August 1835",
+        "description" : "Threatened with invasion by the sheriff of Coös County, New Hampshire, the assembly of the Republic of Indian Stream capitulated to New Hampshire and ceased to operate independently the following day. The dispute over the land between the United States and United Kingdom was not resolved until the Webster–Ashburton Treaty.",
+        "parties" : [
+            "United States of America",
+            "Republic of Indian Stream",
+            "State of New Hampshire"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Republic of Indian Stream"],
+                "from" : "Republic of Indian Stream",
+                "to" : "State of New Hampshire",
+                "type" : "annexation"
+            }
+        ]
+    },
+    "arkansasAdmittedToUnion" : {
+        "name" : "An act for the admission of the State of Arkansas into the Union, and to provide for the due execution of the laws of the United States, within the same, and for other purposes",
+        "dateEffective" : "15 June 1836",
+        "description" : "The Arkansas Territory was admitted as the twenty-fifth state, Arkansas.",
+        "parties" : [
+            "United States of America",
+            "Arkansas Territory",
+            "State of Arkansas"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Arkansas Territory"],
+                "from" : "Arkansas Territory",
+                "to" : "State of Arkansas",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : ["State of Arkansas"],
+                "from" : "State of Arkansas",
+                "to" : "United States of America",
+                "type" : "federalism"
+            }
+        ],
+        "creates" : ["State of Arkansas"]
+    },
+    "ohioNorthernSurvey" : {
+        "name" : "An act to settle and establish the northern boundary line of the State of Ohio",
+        "dateEffective" : "23 June 1836",
+        "description" : "The survey of the northern border of the State of Ohio, including the Toledo Strip, was approved. The disputed region between Ohio and Michigan had gradually come under more tension since 1820, with various attempts at federal land surveys in the area leading to inconclusive results. In 1833, Congress rejected Michigan's request for a state constitutional convention because of the dispute, leading to calls for an unauthorized convention in the territory by Michigan Governor Stevens T. Mason. In February 1835, Ohio set up county governments in the Toledo Strip and named the county after incumbent Governor Robert Lucas. Six days later, Michigan responded with the Pains and Penalties Act, making it a criminal offense with harsh penalties for Ohioans to carry out the duties of government within the Strip. Brigadier General Joseph W. Brown of the Third U.S. Brigade brought the Michigan state militia into the Strip, beginning the Toledo War. On 31 March 1835, Governor Lucas and General John Bell led six hundred fully armed Ohio militiamen to Perrysburg, Ohio, ten miles southwest of Toledo. At the same time, Governor Mason and General Brown arrived to occupy the city of Toledo with around one thousand armed men to prevent the border from being marked. At this point, President Andrew Jackson and Attorney General Benjamin Butler calculated that keeping the Toledo Strip as part of Ohio would be politically advantageous for his party and declined to take the issue to the Supreme Court, instead sending two representatives to arbitrate the conflict. On April 7, a re-survey was recommended to mark the Harris Line, claimed by Ohio. The Ohio militia, thinking peace had been achieved, disbanded and began to hold elections in the region as required by Ohio law. Mason, however, refused the deal and continued preparing for armed conflict. The elections were contentious, with Ohio officials harrassed by Michigan authorities and residents threatened with arrest if they participated. A Michigan sherriff indeed arrested two Ohio partisans under the Pains and Penalties Act. Lucas sent surveyors to mark the Harris line, who were attacked by 50 to 60 members of General Brown's militia in the Battle of Phillips Corners. Nine Ohioans were taken prisoner in a sabbath-day retreat. The Ohio legislature passed an act further establishing Ohio's authority in the Strip, including making Toledo the capital of Lucas County with a Court of Common Pleas and a budget of $300,000 to implement Ohio state law; Michigan responded with a budget of $315,000 for its militia in the area. Despite the lack of an enabling act of Congress, Michigan drafted a state constitution with provisions for a functional state government. In Ohio, ten thousand volunteers called the \"Ohio million\" joined the militia and travelled north. For the next several months, partisans on both sides engaged in skirmishes, retaliatory battles in the courts, and espionage on opposing county sherriffs. On 15 July 1835, Deputy Sherrif Joseph Wood of Monroe County, Michigan, was stabbed non-lethally by the son of Major Benjamin Stickney durring an arrest.",
+        "parties" : [
+            "State of Ohio",
+            "Michigan Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Toledo Strip"],
+                "from" : "Michigan Territory",
+                "to" : "Ohio",
+                "type" : "survey clarification"
+            },
+            {
+                "areas" : ["Toledo Strip"],
+                "from" : "State of Ohio",
+                "to" : "Michigan",
+                "type" : "claim"
+            },
+            {
+                "areas" : ["Toledo Strip"],
+                "from" : "State of Ohio",
+                "to" : "Michigan",
+                "type" : "occupation"
+            }
+        ]
+    },
+    "wisconsinTerritoryOrganized" : {
+        "name" : "An act establishing the territorial government of Wisconsin",
+        "dateEffective" : "03 July 1836",
+        "description" : "The Wisconsin Territory was organized from the western portion of the Michigan Territory. The Michigan peninsula and most of the Upper Peninsula remained in the Michigan Territory in anticipation of the admittance of Michigan as a state.",
+        "parties" : [
+            "United States of America",
+            "Michigan Territory",
+            "Wisconsin Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Wisconsin", "Iowa Territory"],
+                "from" : "Michigan Territory",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Wisconsin", "Iowa Territory"],
+                "from" : "United States of America",
+                "to" : "Wisconsin Territory",
+                "type" : "territory"
+            }
+        ],
+        "creates" : ["Wisconsin Territory"]
+    },
+    "michiganAbandonsToledoStrip" : {
+        "name" : "Frostbitten Convention",
+        "dateEffective" : "14 December 1836",
+        "description" : "In August 1835, Jackson removed Mason as Michigan's territorial governor and appinted John S. Horner. As the replacement governor was inbound, Stevens T. Mason ordered one thousand militiament to enter Toledo and prevent the Court of Common Pleas from joining. The judges held a midnight court before retreating south to Ohio forces. Governor Horner was extremely unpopular in Michigan and was soon voted out of the office, with Mason being again elected as governor. Jackson signed a bill allowing Michigan's admission into the Union as a free state on the condition that they cede the Toledo Strip to Ohio. In exchange, Michigan would be granted most of the Upper Peninsula, an offer which was rejected by a special commission in Ann Arbor. Due to the high expenses of the militia, Michigan soon faced near bankruptcy and realized they would be ineligable for benefits from the 1836 surplus. This led to the acceptance of Congress's terms by a second convention in Ann Arbor on 14 December 1836, which was itself not without contention. Congress questioned the convention's legality but accepted the results of this \"Frostbitten Convention,\" marking the end of the Toledo War.",
+        "parties" : [
+            "United States",
+            "State of Ohio",
+            "Michigan Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Toledo Strip"],
+                "from" : "Michigan",
+                "to" : "Ohio",
+                "type" : "liberation"
+            },
+            {
+                "areas" : ["Toledo Strip"],
+                "from" : "Michigan",
+                "to" : null,
+                "type" : "abandon claim"
+            }
+        ]
+    },
+    "michiganAdmittedToUnion" : {
+        "name" : "An act to establish the northern boundary line of the State of Ohio, and to provide for the admission of the State of Michigan into the Union upon the conditions therein expressed",
+        "dateEffective" : "15 June 1836",
+        "description" : "The Michigan Territory was admitted as the twenty-sixth state, Michigan. Michigan had applied to have a state constitutional convention in 1933 but had been rejected because of their ongoing conflict with the State of Ohio over the Toledo Strip. In December 1836, the Frostbitten Convention accepted Congress's terms and abandoned the Toledo Strip in exchange for land in the Upper Peninsula.",
+        "parties" : [
+            "United States of America",
+            "Michigan Territory",
+            "State of Michigan"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Michigan Territory"],
+                "from" : "Michigan Territory",
+                "to" : "State of Michigan",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : ["State of Michigan"],
+                "from" : "State of Michigan",
+                "to" : "United States of America",
+                "type" : "federalism"
+            }
+        ],
+        "creates" : ["State of Michigan"]
+    },
+    "plattePurchase" : {
+        "name" : "Platte Purchase",
+        "dateEffective" : "28 March 1837",
+        "description" : "The Platte Purchase was obtained from several nations including the Potawatomi, Iowa, Missouria, Otoe, Sauk, and Meskwaki. This land was ceded to Missouri, extending its northern border west to the Missouri River.",
+        "parties" : [
+            "United States of America",
+            "State of Missouri"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Platte Purchase"],
+                "from" : "United States of America",
+                "to" : "State of Missouri",
+                "type" : "territory"
+            }
+        ]
+    },
+    "iowaTerritoryOrganized" : {
+        "name" : "An act to divide the Territory of Wisconsin and to establish the territorial government of Iowa",
+        "dateEffective" : "03 July 1838",
+        "description" : "The Iowa Territory was organized from the Wisconsin Territory west of the Mississippi River",
+        "parties" : [
+            "United States of America",
+            "Wisconsin Territory",
+            "Iowa Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Iowa Territory"],
+                "from" : "Wisconsin Territory",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Iowa Territory"],
+                "from" : "United States of America",
+                "to" : "Iowa Territory",
+                "type" : "territory"
+            }
+        ],
+        "creates" : ["Iowa Territory"]
+    },
+    "missouriClaimsIowaBorderTerritory" : {
+        "name" : "Missouri claims an area north of its border with the Iowa Territory",
+        "dateEffective" : "11 February 1839",
+        "description" : "Based on a combination of survey misunderstandings, a misreading of Native American treaties, and unclear wording in the Missouri Constitution, The State of Missouri claimed a northern border line nine and a half miles north of the southern border line claimed by the Iowa Territory.",
+        "parties" : [
+            "State of Missouri",
+            "Iowa Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Honey War Missouri claim"],
+                "from" : null,
+                "to" : "State of Missouri",
+                "type" : "claim"
+            },
+            {
+                "areas" : ["Honey War Iowa claim"],
+                "from" : null,
+                "to" : "Iowa Territory",
+                "type" : "claim"
+            }
+        ]
+    },
+    "websterAshburtonTreaty" : {
+        "name" : "Webster–Ashburton Treaty",
+        "dateEffective" : "13 October 1842",
+        "description" : "After several decades of border issues between the United States and British North America, the Webster–Ashburton Treaty was negotiated in Washington, D.C. by Daniel Webster and Lord Ashburton and signed by President John Tyler. The treaty resolved border conflicts which had caused skirmishes between Americans and New Brunswickers in the Aroostook War in 1838 and 1839. This included the settlement of the Maine–New Brunswick international border, the international border between Lake Superior and the Lake of the Woods, confirmation of the southern boundary of the Province of Quebec, reaffirmation of the 49th parallel westerward through the Rocky Mountains, shared use of the Great Lakes, and a committment to ending the intercontinental slave trade.",
+        "parties" : [
+            "United Kingdom of Great Britain and Ireland",
+            "Province of Quebec",
+            "Province of New Brunswick",
+            "United States of America",
+            "State of Maine",
+            "State of New Hampshire",
+            "Wisconsin Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Northern Aroostook claim", "North Superior reach"],
+                "from" : "United States of America",
+                "to" : "United Kingdom of Great Britain and Ireland",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Southern Aroostook claim", "Indian Stream lands", "South Superior reach", "Sugar Island"],
+                "from" : "United Kingdom of Great Britain and Ireland",
+                "to" : "United States of America",
+                "type" : "cession"
+            }
+        ]
+    },
+    "floridaAdmittedToUnion" : {
+        "name" : "An act for the admission of the States of Iowa and Florida into the Union",
+        "dateEffective" : "03 March 1845",
+        "description" : "The Florida Territory was admitted as the twenty-seventh state, Florida.",
+        "parties" : [
+            "United States of America",
+            "Florida Territory",
+            "State of Florida"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Florida Territory"],
+                "from" : "Florida Territory",
+                "to" : "State of Florida",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : ["State of Florida"],
+                "from" : "State of Florida",
+                "to" : "United States of America",
+                "type" : "federalism"
+            }
+        ],
+        "creates" : ["State of Florida"]
+    },
+    "texasRepublicAnnexed" : {
+        "name" : "Joint Resolution for annexing Texas to the United States",
+        "dateEffective" : "29 December 1845",
+        "description" : "Part of the platform of President James K. Polk was the annexation of Texas, which had declared itself an independent republic from Mexico in 1836. Texas claimed land north of the Rio Grande, but only controlled land north of the Nueces River. The United States inherited this border dispute upon the annexation of the Republic of Texas. This would lead to the Mexican–American War the next year.",
+        "parties" : [
+            "Republic of Texas",
+            "United States of America",
+            "Centralist Republic of Mexico",
+            "State of Texas"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Republic of Texas"],
+                "from" : "Republic of Texas",
+                "to" : "United States of America",
+                "type" : "annexation"
+            },
+            {
+                "areas" : ["Texas territory"],
+                "from" : "United States of America",
+                "to" : "State of Texas",
+                "type" : "territory"
+            },
+            {
+                "areas" : ["Texas territory"],
+                "from" : null,
+                "to" : "Centralist Republic of Mexico",
+                "type" : "claim"
+            }
+        ],
+        "creates" : [
+            "State of Texas"
+        ]
+    },
+    "texasAdmittedToUnion" : {
+        "name" : "Joint Resolution for the admission of the State of Texas into the Union",
+        "dateEffective" : "19 February 1846",
+        "description" : "Following the annexation of Texas a few months prior, Texas formally handed over soverignty in a ceremony in February 1846, becoming the twenty-eighth state. Mexico's claim to Texas would remain, leading to the Mexican–American War a few months later.",
+        "parties" : [
+            "State of Texas",
+            "United States of America"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["State of Texas"],
+                "from" : "State of Texas",
+                "to" : "United States of America",
+                "type" : "federalism"
+            }
+        ]
+    },
+    "thorntonAffair" : {
+        "name" : "Thornton Affair",
+        "dateEffective" : "25 April 1846",
+        "description" : "The Thornton Affair involved 2000 Mexican cavalry attack and rout a 70-man US patrol in contested territory between the Rio Grande and Nueces River. This was a primary justification for President James K. Polk's call to Congress to declare the Mexican–American War.",
+        "parties" : [
+            "United States of America",
+            "Second Federal Republic of Mexico"
+        ]
+    },
+    "battleOfPaloAlto" : {
+        "name" : "Battle of Palo Alto",
+        "dateEffective" : "08 May 1846",
+        "description" : "A few days after the Thornton Affair, Mexican artillery at Matamoros opened fire on Fort Texas for 160 hours while gathering forces. On 08 May 1846, General Zachary Taylor and 2,400 troops arrived to relieve the fort and were intercepted by General Arista and 3,400 Mexican troops north of the Rio Grande. In response to the American \"flying artillery\", the Mexicans retreated during the night.",
+        "parties" : [
+            "United States of America",
+            "Second Federal Republic of Mexico"
+        ]
+    },
+    "battleOfResacaDeLaPalma" : {
+        "name" : "Battle of Resaca de la Palma",
+        "dateEffective" : "09 May 1846",
+        "description" : "After the Mexican retreat in the Battle of Palo Alto, they took position on the far side of a dry riverbed. Hand-to-hand combat occured the following day, and the US Cavalry captured the Mexican artillery. The  Mexicans began to retreat and were routed as they were forced to abandon their artillery and baggage. Further casualties were inflicted at Fort Brown and at the Rio Grande during the retreat, resulting in a major American victory and the end of the Texas campaign.",
+        "parties" : [
+            "United States of America",
+            "Second Federal Republic of Mexico"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Rio Grande Texas"],
+                "from" : "Second Federal Republic of Mexico",
+                "to" : "United States of America",
+                "type" : "occupation"
+            }
+        ]
+    },
+    "declarationOfMexicanAmericanWar" : {
+        "name" : "Declaration of the Mexican–American War",
+        "dateEffective" : "13 May 1846",
+        "description" : "After hearing of the Thornton Affiar, President Polk said in a message to Congress: \"The cup of forbearance had been exhausted even before the recent information from the frontier of the Del Norte. But now, after reiterated menaces, Mexico has passed the boundary of the United States, has invaded our territory and shed American blood upon the American soil. She has proclaimed that hostilities have commenced, and that the two nations are now at war.\" Despite protests by Whig members of Congress, the declaration of war was approved on 13 May 1846.",
+        "parties" : [
+            "United States of America",
+            "Second Federal Republic of Mexico"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Santa Fe de Nuevo México", "Alta California"],
+                "from" : null,
+                "to" : "United States of America",
+                "type" : "claim"
+            }
+        ]
+    },
+    "newMexicoCampaign" : {
+        "name" : "New Mexico Campaign",
+        "dateEffective" : "15 August 1846",
+        "description" : "After the declaration of the Mexican–American War on 13 May 1846, Army General Stephen W. Kearny led the 1700-strong Army of the West from Fort Leavenworth, Kansas in June 1846 into New Mexico. Encountering no resistance, they entered Santa Fe on 15 August 1846 and claimed the New Mexico Territory for the United States. On 18 August 1846, Kearny declared himself the military governor and established a civilian government for the territory.",
+        "parties" : [
+            "United States of America",
+            "Second Federal Republic of Mexico"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Provisionary New Mexico territory"],
+                "from" : "Second Federal Republic of Mexico",
+                "to" : "United States of America",
+                "type" : "occupation"
+            }
+        ]
+    },
+    "taosRevolt" : {
+        "name" : "Taos Revolt",
+        "dateEffective" : "19 January 1847",
+        "description" : "After the departure of General Kearny from Santa Fe, dissenters began plotting an uprising against the occupying American forces. The revolt began in Don Fernando de Taos, led by Pablo Montoya and Tomás Romero. The military governor of the territory, Charles Bent, was killed on the same day.",
+        "parties" : [
+            "United States of America",
+            "Second Federal Republic of Mexico",
+            "Taos Revolters"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Don Fernando de Taos", "Arroyo Hondo", "Taos Pueblo", "Santa Cruz de la Cañada", "La Joya", "El Embudo", "Santa Gertrudis de lo de Mora"],
+                "from": "United States of America",
+                "to" : "Taos Revolters",
+                "type" : "rebellion"
+            }
+        ]
+    },
+    "battleOfCanada" : {
+        "name" : "Battle of Cañada",
+        "dateEffective" : "24 January 1847",
+        "description" : "Colonal Price led 353 soldiers north from Santa Fe to counter the Taos Revolt. They met along the road to Santa Cruz de la Cañada, where three strong houses at the base of a hill were held by the revolters. With artillery and an uphill cavalry charge, the Americans were able to dislodge the rebel positions. Some leaders of the revolt were killed or captured, and the rebels returned to Taos.",
+        "parties" : [
+            "United States of America",
+            "Second Federal Republic of Mexico",
+            "Taos Revolters"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Santa Cruz de la Cañada"],
+                "from" : "Taos Revolters",
+                "to" : "United States of America",
+                "type" : "occupation"
+            }
+        ]
+    },
+    "battleOfEmbudoPass" : {
+        "name" : "Battle of Embudo Pass",
+        "dateEffective" : "29 January 1847",
+        "description" : "Following the Battle of Cañada, Colonel Price advanced up the Rio del Norte to Luceros, where his forces were reinforced. On 29 January 1847, Price marched to La Joya, where a force of eighty insurgents were emposted. Captain John H. K. Burgwin discovered the insurgents at El Embudo in strong defensive positions. Several flanking maneuvers forced the revolters into retreat to El Embudo, where they surrendered.",
+        "parties" : [
+            "United States of America",
+            "Second Federal Republic of Mexico",
+            "Taos Revolters"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["La Joya", "El Embudo"],
+                "from" : "Taos Revolters",
+                "to" : "United States of America",
+                "type" : "occupation"
+            }
+        ]
+    },
+    "siegeOfPuebloDeTaos" : {
+        "name" : "Siege of Pueblo de Taos",
+        "dateEffective" : "05 February 1847",
+        "description" : "After the defeat of revolters at the Battle of Cañada and Battle of Embudo Pass, Corporal Price and his forces moved to Pueblo de Taos, the center of insurgent activity. American forces throughout the Sangre de Cristo Mountains, including Taos Mountain, encountered and dispatched revolters. The rebels had strongly fortified Pueblo de Taos, which Price countered with a two-and-a-half hour artillery battery. Dragoons and mounted soldiers were placed around the insurgent encampment to prevent escape to the mountains. After another two hours of battery, a storming was ordered on the church. After some difficulty, the church was captured and artillery began to fire grapeshot through the fortifications, at which time the rebels abandoned the western part of the town. The following day, the rebels surrendered their leader, Tomás Romero. After this, two small skirmishes occured at the Battle of Red River Canyon, the Las Vegas Affiar, and the Battle of Cienega Creek, but organized resistance to American occupation was eliminated.",
+        "parties" : [
+            "United States of America",
+            "Second Federal Republic of Mexico",
+            "Taos Revolters"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Taos Revolters"],
+                "from" : "Taos Revolters",
+                "to" : "United States of America",
+                "type" : "annexation"
+            }
+        ]
+    },
+    "bearFlagRevolt" : {
+        "name" : "Bear Flag Revolt",
+        "dateEffective" : "14 June 1846",
+        "description" : "33 rebels, mostly American pioneers, within Mexican-owned Alta California staged a revolt and siezed the garrison at Sonoma Barracks north of San Francisco Bay. They proclaimed the California Republic and raised the \"Bear Flag\" over Sonoma. Soon after, United States Army Captain John C. Frémont would arrive to support the rebels.",
+        "parties" : [
+            "United States of America",
+            "California Republic",
+            "Second Federal Republic of Mexico"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Sonoma County"],
+                "from" : "Second Federal Republic of Mexico",
+                "to" : "California Republic",
+                "type" : "rebellion"
+            },
+            {
+                "areas" : ["Alta California"],
+                "from" : null,
+                "to" : "California Republic",
+                "type" : "claim"
+            }
+        ]
+    },
+    "battleOfMonterey" : {
+        "name" : "Battle of Monterey",
+        "dateEffective" : "07 July 1846",
+        "description" : "Upon the beginning of the Mexican–American War, the USS Savannah*, USS *Cyane*, and USS *Levant* were already in the Monterey harbor. Commodore John Drake Sloat ordered the Pacific Squadron to capture ports in northern Alta California, including the capital city of Monterey. The three ships captured the city without firing a shot.",
+        "parties" : [
+            "United States of America",
+            "Second Federal Republic of Mexico"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Monterey, CA"],
+                "from" : "Second Federal Republic of Mexico",
+                "to" : "United States of America",
+                "type" : "occupation"
+            }
+        ]
+    },
+    "unitedStatesControlsSonoma" : {
+        "name" : "United States flag is raised over Sonoma Barracks",
+        "dateEffective" : "09 July 1846",
+        "description" : "Following the proclamation of the California Republic in Sonoma, Alta California, the United States arrived to support the rebellion. On 05 July 1846, the Republic's military of one to two hundred men were subsumed into the US California Batallion. On 09 July 1846, US Navy Lieutenant Joseph Revere raised the United States flag over the Sonoma Barracks and Sutter's Fort, marking the end of the Bear Flag Revolt and the Republic of California",
+        "parties" : [
+            "United States of America",
+            "California Republic",
+            "Second Federal Republic of Mexico"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["California Republic"],
+                "from" : "California Republic",
+                "to" : "United States of America",
+                "type" : "annexation"
+            }
+        ]
+    },
+    "battleOfYerbaBuena" : {
+        "name" : "Battle of Yerba Buena",
+        "dateEffective" : "09 July 1846",
+        "description" : "On 09 July 1846, the USS *Portsmouth* berthed at Sausalito captured Yerba Buena, near modern San Francisco, without firing a shot.",
+        "parties" : [
+            "United States of America",
+            "Second Federal Republic of Mexico"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Yerba Buena"],
+                "from" : "Second Federal Republic of Mexico",
+                "to" : "United States of America",
+                "type" : "occupation"
+            }
+        ]
+    },
+    "oregonTreaty" : {
+        "name" : "Oregon Treaty",
+        "dateEffective" : "17 July 1846",
+        "description" : "The Oregon Treaty established the 49th parallel between the Lake of the Woods and the Pacific as the continental border of British and American holdings, ending the sharing of the Oregon Country. The treaty specified that a strait between Vancouver Island and the continent should be the maritime border, but did not name any one strait, leading to a dispute over the San Juan Islands.",
+        "parties" : [
+            "United States of America",
+            "United Kingdom of Great Britain and Ireland",
+            "Oregon Country"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Oregon Country"],
+                "from" : "Oregon Country",
+                "to" : "United States of America",
+                "type" : "annexation"
+            },
+            {
+                "areas" : ["Columbia District"],
+                "from" : "United States of America",
+                "to" : "United Kingdom of Great Britain and Ireland",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["San Juan Islands"],
+                "from" : "United States of America",
+                "to" : "United Kingdom of Great Britain and Ireland",
+                "type" : "claim"
+            }
+        ]
+    },
+    "captureOfSanDiego" : {
+        "name" : "Capture of San Diego",
+        "dateEffective" : "29 July 1846",
+        "description" : "John C. Frémont under the orders of Commodore Stockton moved his batallion to San Diego, landing on 29 July 1846 and raising the US flag over the city.",
+        "parties" : [
+            "United States of America",
+            "Second Federal Republic of Mexico"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["San Diego"],
+                "from" : "Second Federal Republic of Mexico",
+                "to" : "United States of America",
+                "type" : "occupation"
+            }
+        ]
+    },
+    "captureOfLosAngeles" : {
+        "name" : "Capture of Los Angeles",
+        "dateEffective" : "13 August 1846",
+        "description" : "Commodore Robert F. Stockton, commander of the Pacific Squadron, entered Los Angeles unopposed and took control of the city.",
+        "parties" : [
+            "United States of America",
+            "Second Federal Republic of Mexico"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Los Angeles"],
+                "from" : "Second Federal Republic of Mexico",
+                "to" : "United States of America",
+                "type" : "occupation"
+            }
+        ]
+    },
+    "californiaAnnexationProclamation" : {
+        "name" : "Proclamation of the annexation of California into the United States",
+        "dateEffective" : "17 August 1846",
+        "description" : "Following the capture of Monterey, Yerba Buena (soon to be renamed San Francisco), San Diego, and Los Angeles, Commodore Stockton issued a proclamation that California was a part of the United States on 17 August 1846",
+        "parties" : [
+            "United States of America",
+            "Second Federal Republic of Mexico"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Alta California"],
+                "from" : "Second Federal Republic of Mexico",
+                "to" : "United States of America",
+                "type" : "occupation"
+            }
+        ]
+    },
+    "siegeOfLosAngeles" : {
+        "name" : "Siege of Los Angeles",
+        "dateEffective" : "23 September 1846",
+        "description" : "Upon Commodore Stockton"
+    },
+
+
+
+
+
+
+
+    "iowaAdmittedToUnion" : {
+        "name" : "An act for the admission of the State of Iowa into the Union",
+        "dateEffective" : "28 December 1846",
+        "description" : "The portion of the Iowa Territory south of 43°30′ north and east of the Big Sioux River was admitted as the twenty-ninth state, Iowa. The border conflict with Missouri was not resolved at this time.",
+        "parties" : [
+            "United States of America",
+            "Iowa Territory",
+            "State of Iowa"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Minnesota territory"],
+                "from" : "Iowa Territory",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Iowa Territory"],
+                "from" : "Iowa Territory",
+                "to" : "State of Iowa",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : ["State of Iowa"],
+                "from" : "State of Iowa",
+                "to" : "United States of America",
+                "type" : "federalism"
+            }
+        ],
+        "creates" : ["State of Iowa"]
+    },
+    "alexandriaCountyRetrocededToVirginia" : {
+        "name" : "District of Columbia retrocession",
+        "dateEffective" : "20 March 1847",
+        "description" : "The State of Virginia had ceded Alexandria County to the federal government to be used for the federal district. Residents of Arlington had long debated about the disenfranchisement that came with citizenship of the district, and percieved Congress to be negligent to the District of Columbia, and petitioned for the land to be retroceded to Virginia in 1847. The remaining part of the District was east of the Potomac, about 68 square miles in area.",
+        "parties" : [
+            "United States of America",
+            "District of Columbia",
+            "Commonwealth of Virginia"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Arlington County"],
+                "from" : "District of Columbia",
+                "to" : "State of Virginia",
+                "type" : "territory"
+            }
+        ]
+    },
+    "wisconsinAdmittedToUnion" : {
+        "name" : "An act to enable the people of Wisconsin Territory to form a constitution and state government, and for the admission of such state into the Union",
+        "dateEffective" : "29 May 1848",
+        "description" : "The southern part of the Wisconsin Territory was admitted as the thirtieth state, Wisconsin. The remaining section of the Wisconsin territory retained a civil government with a delegate to the House of Representatives.",
+        "parties" : [
+            "United States of America",
+            "Wisconsin Territory",
+            "State of Wisconsin"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Wisconsin"],
+                "from" : "Wisconsin Territory",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Wisconsin"],
+                "from" : "United States of America",
+                "to" : "State of Wisconsin",
+                "type" : "territory"
+            },
+            {
+                "areas" : ["State of Wisconsin"],
+                "from" : "State of Wisconsin",
+                "to" : "United States of America",
+                "type" : "federalism"
+            }
+        ],
+        "creates" : ["State of Wisconsin"]
+    },
+    "treatyOfGuadalupeHidalgo" : {
+        "name" : "Treaty of Guadalupe Hidalgo",
+        "dateEffective" : "30 May 1848",
+        "description" : "The Treaty of Guadalupe Hidalgo ended the Mexican–American War. Signed on 02 February 1848 in the town of Guadalupe Hidalgo near Mexico City. After the Mexican army was defeated and the capital captured in September 1847, Mexico entered negotiations with the US envoy, Nicholas Trist. Mexico ceded 55% of its territory, with the US acquiring land that would make up seven states. Mexico also relinquished claims to Texas and recognized the Rio Grande as its southern boundary. The US government paid Mexico 15 million dollars and paid debts owed to American citizens by the Mexican government, and allowed for either relocation or full civil rights of citizens in the annexed territory. Ratifications were exchanged on 30 May 1848, and the treaty was proclaimed on 04 July 1848. In the Senate, the Whig party opposed the war and rejected manifest destiny. Despite this opposition, the Senate ratified the treaty with a vote of 38 to 16. The land gained would be increased with the Gadsden Purchase of 1853.",
+        "parties" : [
+            "United States of America",
+            "Second Federal Republic of Mexico"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Santa Fe de Nuevo México", "Alta California", "Texas"],
+                "from" : "Second Federal Republic of Mexico",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["East Gadsden"],
+                "from" : null,
+                "to" : "Second Federal Republic of Mexico",
+                "type" : "claim"
+            }
+        ]
+    },
+    "oregonTerritoryOrganized" : {
+        "name" : "An act to establish the territorial government of Oregon",
+        "dateEffective" : "14 August 1848",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "Oregon Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Oregon territory"],
+                "from" : "United States of America",
+                "to" : "Oregon Territory",
+                "type" : "territory"
+            }
+        ],
+        "creates" : ["Oregon Territory"]
+    },
+    "honeyWarResolved" : {
+        "name" : "The Supreme Court resolves the border of Missouri and Iowa",
+        "dateEffective" : "13 February 1849",
+        "description" : "The Supreme Court resolved the Honey War between Iowa and Missouri, using the Sullivan Line as the interstate border. This line is a jog roughly splitting the disputed area, and was the line which existed before the dispute. This status quo was accepted by both states.",
+        "parties" : [
+            "State of Missouri",
+            "State of Iowa"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Honey War Missouri claim"],
+                "from" : "State of Missouri",
+                "to" : null,
+                "type" : "abandon claim"
+            },
+            {
+                "areas" : ["Honey War Iowa claim"],
+                "from" : "State of Iowa",
+                "to" : null,
+                "type" : "abandon claim"
+            }
+        ]
+    },
+    "minnestoaTerritoryOrganized" : {
+        "name" : "An act to establish the territorial government of Minnesota",
+        "dateEffective" : "03 March 1849",
+        "description" : "All of the land operating *de facto* as the Wisconsin Territory, as well as unorganized territory east of the Missouri River and White Earth River, are organized as the Minnesota Territory",
+        "parties" : [
+            "United States of America",
+            "Wisconsin Territory",
+            "Minnesota Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Wisconsin Territory"],
+                "from" : "Wisconsin Territory",
+                "to" : "Minnesota Territory",
+                "type" : "reorganization"
+            },
+            {
+                "areas" : ["Minnesota territory"],
+                "from" : "United States of America",
+                "to" : "Minnesota Territory",
+                "type" : "territory"
+            }
+        ],
+        "creates" : ["Minnesota Territory"]
+    },
+    "deseretFormation" : {
+        "name" : "Formation of the State of Deseret",
+        "dateEffective" : "12 March 1849",
+        "description" : "Settlers in the southwest claim a portion of the land taken in the Mexican-American War as the State of Deseret, led by leaders of the Church of Jesus Christ of Latter-day Saints (Mormon Church). These settlers' petition to be admitted to the United States as a state was rejected by Congress.",
+        "parties" : [
+            "United States of America",
+            "State of Deseret"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Provisional Deseret"],
+                "from" : null,
+                "to" : "State of Deseret",
+                "type" : "claim"
+            }
+        ],
+        "creates" : ["State of Deseret"]
+    },
+    "louisianaTexasBorderShifted" : {
+        "name" : "*United States v. Louisiana*",
+        "dateEffective" : "24 November 1849",
+        "description" : "",
+        "parties" : [
+            "United States of America",
+            "State of Texas",
+            "State of Louisiana"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Sabine River west bank"],
+                "from" : "State of Texas",
+                "to" : "State of Louisiana",
+                "type" : "cession"
+            }
+        ]
+    },
+    "californiaAdmitted" : {
+        "name" : "An act for the admission of the State of California into the Union",
+        "dateEffective" : "09 September 1850",
+        "description" : "The western portion of the Mexican Cession was admitted as the thirty-first state, California. "
+    },
+    "utahTerritoryOrganized" : {
+        "name" : "An act to establish a territorial government for Utah",
+        "dateEffective" : "09 September 1850",
+        "description" : ""
+    },
+    "ukCedesHorseshoeReefRock" : {
+        "name" : "Treaty on the Canadian Boundary, with the United Kingdom",
+        "dateEffective" : "09 December 1850",
+        "description" : "The United Kingdom ceded a very small area of underwater rock for a lighthouse near Buffalo. The lighthouse was named for nearby Horseshoe Reef.",
+        "parties" : [
+            "United Kingdom of Great Britain and Ireland",
+            "United States of America",
+            "State of New York"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Horseshoe Reef rock"],
+                "from" : "United Kingdom of Great Britain and Ireland",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Horseshoe Reef rock"],
+                "from" : "United States of America",
+                "to" : "State of New York",
+                "type" : "territory"
+            }
+        ]
+    },
+    "texasWesternClaimNewMexicoTerritoryOrganized" : {
+        "name" : "An act proposing to the State of Texas the establishment of her northern and western boundaries, the relinquishment by the said state of all territory claimed by her exterior to said boundaires, and of all her claims upon the United States, and to establish a territorial government for New Mexico",
+        "dateEffective" : "13 December 1850",
+        "description" : "The federal government purchased Texas' western claim and organized the New Mexico Territory from part of the land.",
+        "parties" : [
+            "United States of America",
+            "State of Texas",
+            "New Mexico Territory",
+            "Utah Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Texas western claim"],
+                "from" : "State of Texas",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["New Mexico territory"],
+                "from" : "United States of America",
+                "to" : "New Mexico Territory",
+                "type" : "territory"
+            },
+            {
+                "areas" : ["Utah territory"],
+                "from" : "United States of America",
+                "to" : "Utah Territory",
+                "type" : "territory"
+            }
+        ]
+    },
+    "dissolutionOfDeseret" : {
+        "name" : "Dissolution of the State of Deseret",
+        "dateEffective" : "05 April 1851",
+        "description" : "After the creation of the Utah Territory, the State of Deseret dissolved itself. On 03 February 1851, Brigham Young, 2nd President of the Church of Jesus Christ of Latter Day Saints, would be inaugurated as the first territorial Governor of Utah.",
+        "parties" : [
+            "State of Deseret"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["State of Deseret"],
+                "from" : "State of Deseret",
+                "to" : null,
+                "type" : "dissolution"
+            }
+        ]
+    },
+    "washingtonTerritoryOrganized" : {
+        "name" : "An act to establish the territorial government of Washington",
+        "dateEffective" : "02 March 1853",
+        "description" : "The half of the Oregon Territory north of 46° and the Columbia River was organized as the Washington Territory.",
+        "parties" : [
+            "United States of America",
+            "Oregon Territory",
+            "Washington Territory"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Washington territory"],
+                "from" : "Oregon Territory",
+                "to" : "United States of America",
+                "type" : "cession"
+            },
+            {
+                "areas" : ["Washington territory"],
+                "from" : "United States of America",
+                "to" : "Washington Territory",
+                "type" : "territory"
+            }
+        ],
+        "creates" : ["Washington Territory"]
+    },
+    "kansasNebraskaAct" : {
+        "name" : "Kansas–Nebraska Act",
+        "dateEffective" : "30 May 1854",
+        "description" : ""
+    },
+
+
+
+    "creationOfGreerCounty" : {
+        "name" : "Creation of Greer County, Texas",
+        "dateEffective" : "February 8 1860",
+        "description" : "An innacuraccy in the Adams–Onís Treaty of 1819 led to a conflicting interpretation of which river fork should be considered the \"Red River\" to determine the northern border of Texas. The State of Texas claimed Greer County based on the North Fork, while the United States claimed the land based on the South Fork. This would be resolved by the Supreme Court in 1896.",
+        "parties" : [
+            "State of Texas"
+        ],
+        "transfers" : [
+            {
+                "areas" : ["Greer County, Texas"],
+                "from" : null,
+                "to" : "State of Texas",
+                "type" : "claim"
+            }
+        ]
+    },
+    "" : {
+        "name" : "",
+        "dateEffective" : "",
+        "description" : "",
+        "parties" : [
+
+        ],
+        "transfers" : [
+            {
+                "areas" : [],
+                "from" : "",
+                "to" : "",
+                "type" : ""
+            }
+        ],
+        "creates" : []
+    }
+}

@@ -10,7 +10,9 @@ fun Path.listFiles(extension: IOUtils.FileExtension = IOUtils.FileExtension.ALL)
     val stream = Files.newDirectoryStream(this)
     for (path in stream) {
         if (path == null || path.fileName == null) continue
-        if (!Files.isDirectory(path) && extension.isType(path) && !FilePaths.IGNORED_PATHS.contains(path)) {
+        if (!Files.isDirectory(path) && extension.isType(path)
+//            && !FilePaths.IGNORED_PATHS.contains(path)
+        ) {
             pathSet.add(resolve(path.fileName))
         }
     }

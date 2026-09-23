@@ -7,7 +7,7 @@ import com.stevenlagoy.presidency.demographics.Demographics;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.Set;
+import java.util.List;
 
 /**
  * <h1>APPEARANCE MANAGER</h1>
@@ -34,8 +34,8 @@ public class AppearanceManager extends Manager {
 
     @Override
     @Contract(pure = true)
-    public @NotNull Set<Manager> getSubManagers() {
-        return Set.of();
+    public @NotNull List<Manager> getSubManagers() {
+        return List.of();
     }
 
     @Override

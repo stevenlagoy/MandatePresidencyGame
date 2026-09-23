@@ -1,28 +1,24 @@
 package com.stevenlagoy.presidency.characters;
 
 import com.stevenlagoy.jsonic.JSONObject;
-import com.stevenlagoy.jsonic.JSONProcessor;
 import com.stevenlagoy.presidency.characters.attributes.*;
+import com.stevenlagoy.presidency.characters.attributes.experiences.ExperienceHistory;
 import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
 import com.stevenlagoy.presidency.characters.attributes.names.PersonalName;
 import com.stevenlagoy.presidency.core.Engine;
+import com.stevenlagoy.presidency.core.EngineBound;
 import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.demographics.Bloc;
 import com.stevenlagoy.presidency.demographics.Demographics;
-import com.stevenlagoy.presidency.map.Municipality;
-import com.stevenlagoy.presidency.util.CollectionUtils;
-import com.stevenlagoy.presidency.util.FilePaths;
-import com.stevenlagoy.presidency.util.RandomUtils;
-import com.stevenlagoy.presidency.util.TimeUtils;
+import com.stevenlagoy.presidency.map.entities.Place;
+import com.stevenlagoy.presidency.politics.PoliticalAlignment;
+import com.stevenlagoy.presidency.util.*;
 import kotlin.uuid.Uuid;
 import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
 
+import java.io.IOException;
 import java.time.LocalDate;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * <h1>CHARACTER MANAGER</h1>
@@ -65,6 +61,7 @@ public class CharacterManager extends Manager {
     public final AppearanceManager APPEARANCE_MANAGER;
     public final PersonalityManager PERSONALITY_MANAGER;
     public final FamilyManager FAMILY_MANAGER;
+    public final ExperienceManager EXPERIENCE_MANAGER;
 
     // Constructors
 
@@ -75,6 +72,7 @@ public class CharacterManager extends Manager {
         APPEARANCE_MANAGER  = new AppearanceManager(engine, this);
         PERSONALITY_MANAGER = new PersonalityManager(engine, this);
         FAMILY_MANAGER      = new FamilyManager(engine, this);
+        EXPERIENCE_MANAGER  = new ExperienceManager(engine, this);
         for (Manager manager : getSubManagers()) {
             if (manager.getState().equals(ManagerState.ERROR)) {
                 onError(new Exception(manager.getClass().getSimpleName() + " could not be constructed."));
@@ -85,8 +83,8 @@ public class CharacterManager extends Manager {
     // Manager Methods
 
     @Override
-    public @NotNull Set<Manager> getSubManagers() {
-        return Set.of(NAME_MANAGER, SKILLS_MANAGER, APPEARANCE_MANAGER, PERSONALITY_MANAGER, FAMILY_MANAGER);
+    public @NotNull List<Manager> getSubManagers() {
+        return List.of(NAME_MANAGER, SKILLS_MANAGER, APPEARANCE_MANAGER, PERSONALITY_MANAGER, FAMILY_MANAGER, EXPERIENCE_MANAGER);
     }
 
     @Override
@@ -108,7 +106,6 @@ public class CharacterManager extends Manager {
 
     @Override
     protected void doFromJson(@NotNull JSONObject json) {
-        getSubManagers().forEach(manager -> manager.fromJson(json.get(manager.getClass().getSimpleName(), JSONObject.class)));
     }
 
     // Instance Methods
@@ -117,34 +114,42 @@ public class CharacterManager extends Manager {
 
     private void readBirthdateDistributionData() {
         requireState(ManagerState.INITIALIZING);
-        JSONObject json = JSONProcessor.processJson(FilePaths.BIRTHDATE_POPULARITIES);
-        birthdateDistribution = new HashMap<>();
-        for (Object dateObj : json.getAsList()) {
-            if (dateObj instanceof JSONObject dateJson) {
-                String date = dateJson.getKey();
-                double value = dateJson.getAsNumber().doubleValue();
-                birthdateDistribution.put(date, value);
+        try {
+            JSONObject json = new JSONObject(FilePath.BIRTHDATE_POPULARITIES.path);
+            birthdateDistribution = new HashMap<>();
+            for (Object dateObj : json.requireArray()) {
+                if (dateObj instanceof JSONObject dateJson) {
+                    String date = dateJson.getKey();
+                    double value = dateJson.requireDouble();
+                    birthdateDistribution.put(date, value);
+                }
             }
+        } catch (IOException e) {
+            onError(e);
         }
     }
 
     private void readAgeDistributionData() {
         requireState(ManagerState.INITIALIZING);
-        JSONObject json = JSONProcessor.processJson(FilePaths.BIRTHYEAR_PERCENTAGES);
-        ageDistribution = new HashMap<>();
-        for (Object blocObj : json.getAsList()) {
-            if (blocObj instanceof JSONObject blocJson) {
-                Bloc key = ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName(blocJson.getKey());
-                Map<Integer, Double> distribution = new HashMap<>();
-                for (Object dataObj : blocJson.getAsList()) {
-                    if (dataObj instanceof JSONObject dataJson) {
-                        int year = Integer.parseInt(dataJson.getKey());
-                        double value = dataJson.getAsNumber().doubleValue();
-                        distribution.put(year, value);
+        try {
+            JSONObject json = new JSONObject(FilePath.BIRTHYEAR_PERCENTAGES.path);
+            ageDistribution = new HashMap<>();
+            for (Object blocObj : json.requireArray()) {
+                if (blocObj instanceof JSONObject blocJson) {
+                    Bloc key = engine.DEMOGRAPHICS_MANAGER.matchBloc(blocJson.getKey()).orElseThrow();
+                    Map<Integer, Double> distribution = new HashMap<>();
+                    for (Object dataObj : blocJson.requireArray()) {
+                        if (dataObj instanceof JSONObject dataJson) {
+                            int year = Integer.parseInt(dataJson.getKey());
+                            double value = dataJson.requireDouble();
+                            distribution.put(year, value);
+                        }
                     }
+                    ageDistribution.put(key, distribution);
                 }
-                ageDistribution.put(key, distribution);
             }
+        } catch (IOException e) {
+            onError(e);
         }
     }
 
@@ -167,41 +172,45 @@ public class CharacterManager extends Manager {
         return citizens.size();
     }
 
-    public @Nullable Citizen matchCitizenById(String id) throws IllegalArgumentException {
+    public @NotNull Optional<Citizen> matchCitizenByIndexedName(@NotNull String name) {
+        requireOperational();
+        return citizens.stream().filter(citizen -> citizen.getName().getIndexedName().equals(name)).findFirst();
+    }
+
+    public @NotNull Optional<Citizen> matchCitizenById(@NotNull String id) throws IllegalArgumentException {
         requireOperational();
         return matchCitizenById(Uuid.Companion.parse(id));
     }
 
-    public @Nullable Citizen matchCitizenById(Uuid id) {
+    public @NotNull Optional<Citizen> matchCitizenById(@NotNull Uuid id) {
         requireOperational();
-        return citizens.stream().filter(citizen -> citizen.getId().equals(id)).findFirst().orElse(null);
+        return citizens.stream().filter(citizen -> citizen.getId().equals(id)).findFirst();
     }
 
     /** Context for the creation of citizens and related attributes. */
-    public static class CitizenContext {
+    public static class CitizenContext extends EngineBound {
         // Originally made this a record, but immutability was inconvenient for filling in fields
-        Engine ENGINE;
         Sex sex;
         Demographics demographics;
         LocalDate birthday;
         Family family;
         CharacterAppearance appearance;
         PersonalName name;
-        Municipality origin;
-        Municipality residence;
+        Place origin;
+        Place residence;
 
         public CitizenContext(
-            @NotNull Engine ENGINE,
+            @NotNull Engine engine,
             Sex sex,
             Demographics demographics,
             LocalDate birthday,
             Family family,
             CharacterAppearance appearance,
             PersonalName name,
-            Municipality origin,
-            Municipality residence
+            Place origin,
+            Place residence
         ) {
-            this.ENGINE = ENGINE;
+            super(engine);
             this.sex = sex;
             this.demographics = demographics;
             this.birthday = birthday;
@@ -212,8 +221,8 @@ public class CharacterManager extends Manager {
             this.residence = residence;
         }
 
-        public CitizenContext(@NotNull Engine ENGINE, @NotNull Citizen citizen) { this(
-            ENGINE,
+        public CitizenContext(@NotNull Engine engine, @NotNull Citizen citizen) { this(
+            engine,
             citizen.getSex(),
             citizen.getDemographics(),
             citizen.getBirthday(),
@@ -225,20 +234,36 @@ public class CharacterManager extends Manager {
         ); }
 
         public int getAge() {
-            return ENGINE.TIME_MANAGER.yearsAgo(birthday);
+            return engine.TIME_MANAGER.yearsAgo(birthday);
+        }
+
+        public static @NotNull CitizenContext emptyContext(@NotNull Engine engine) {
+            return new CitizenContext(engine, null, null, null, null, null, null, null, null);
         }
     }
 
+    public @NotNull Citizen buildCitizen() {
+        return buildCitizen(true);
+    }
+
+    public @NotNull Citizen buildCitizen(boolean addToCharactersList) {
+        return buildCitizen(CitizenContext.emptyContext(this.engine), addToCharactersList);
+    }
+
     public @NotNull Citizen buildCitizen(@NotNull CitizenContext context) {
+        return buildCitizen(context, true);
+    }
+
+    public @NotNull Citizen buildCitizen(@NotNull CitizenContext context, boolean addToCharactersList) {
         requireOperational();
 
         if (context.sex == null) {
             context.sex = selectSex();
         }
         if (context.demographics == null) {
-            Demographics selectedDemographics = ENGINE.DEMOGRAPHICS_MANAGER.selectDemographics();
+            Demographics selectedDemographics = engine.DEMOGRAPHICS_MANAGER.selectDemographics();
             if (context.birthday != null) {
-                selectedDemographics.setGeneration(ENGINE.DEMOGRAPHICS_MANAGER.getGenerationForBirthday(context.birthday));
+                selectedDemographics.setGeneration(engine.DEMOGRAPHICS_MANAGER.getGenerationForBirthday(context.birthday));
             }
             context.demographics = selectedDemographics;
         }
@@ -250,25 +275,25 @@ public class CharacterManager extends Manager {
             // context.family = FAMILY_MANAGER.planFamily(context);
         }
         if (context.appearance == null) {
-            context.appearance = APPEARANCE_MANAGER.generateAppearance(context.demographics, ENGINE.TIME_MANAGER.yearsAgo(context.birthday));
+            context.appearance = APPEARANCE_MANAGER.generateAppearance(context.demographics, engine.TIME_MANAGER.yearsAgo(context.birthday));
         }
         if (context.name == null) {
             // This will be done later, after building the family
-            // context.name = NAME_MANAGER.buildPersonalName(new NameManager.NameContext(context.demographics, ENGINE.TIME_MANAGER.yearsAgo(context.birthday), null));
+            // context.name = NAME_MANAGER.buildPersonalName(new NameManager.NameContext(context.demographics, engine.TIME_MANAGER.yearsAgo(context.birthday), null));
         }
         if (context.origin == null) {
-            context.origin = ENGINE.MAP_MANAGER.selectMunicipality(context.demographics);
+            context.origin = engine.MAP_MANAGER.selectPlace(context.demographics);
         }
         if (context.residence == null) {
-            context.residence = ENGINE.MAP_MANAGER.selectMunicipality(context.demographics);
+            context.residence = engine.MAP_MANAGER.selectPlace(context.demographics);
         }
 
         Citizen citizen = new Citizen(
-            ENGINE,
+            engine,
             context.sex,
             context.birthday,
             context.demographics,
-            context.family != null ? context.family : new Family(ENGINE, null, null, null, new HashSet<>()), // Built afterward
+            context.family != null ? context.family : new Family(engine, null, null, null, new HashSet<>()), // Built afterward
             context.appearance,
             context.name != null ? context.name : NAME_MANAGER.emptyName(context.demographics, context.getAge(), context.family),
             context.origin,
@@ -308,7 +333,7 @@ public class CharacterManager extends Manager {
 
     private @NotNull Map<Integer, Double> getAgeDistribution(@NotNull Set<Bloc> blocs) {
         requireOperational();
-        if (blocs.isEmpty()) blocs = ENGINE.DEMOGRAPHICS_MANAGER.getCommonDemographics().getBlocs();
+        if (blocs.isEmpty()) blocs = engine.DEMOGRAPHICS_MANAGER.getCommonDemographics().getBlocs();
         final Map<Integer, Double> distributionsSum = new HashMap<>();
         double totalPercentages = 0.0;
         // Add together all bloc distributions
@@ -330,7 +355,7 @@ public class CharacterManager extends Manager {
             assert selected != null;
             age = selected;
         } while (age < Citizen.MIN_AGE || age > Citizen.MAX_AGE);
-        int year = ENGINE.TIME_MANAGER.dateYearsAgo(age).getYear();
+        int year = engine.TIME_MANAGER.dateYearsAgo(age).getYear();
 
         // Select day and month
         int month, day;
@@ -342,5 +367,34 @@ public class CharacterManager extends Manager {
         } while (day == 28 && month == 2 && !TimeUtils.isLeapYear(year));
 
         return LocalDate.of(year, month, day);
+    }
+
+    public @NotNull PoliticalActor buildPoliticalActor() {
+        Citizen citizen = buildCitizen(false);
+        ExperienceHistory experiences = EXPERIENCE_MANAGER.buildExperienceHistory(citizen.getBirthday().plusYears(18));
+        Skills skills = SKILLS_MANAGER.generateSkills();
+        Personality personality = new Personality();
+        PoliticalAlignment alignment = new PoliticalAlignment();
+        IssuePositionMap issuePositions = new IssuePositionMap(new HashMap<>());
+        return new PoliticalActor(
+            engine,
+            citizen.getSex(),
+            citizen.getBirthday(),
+            citizen.getDemographics(),
+            citizen.getFamily(),
+            citizen.getAppearance(),
+            citizen.getName(),
+            citizen.getOrigin(),
+            citizen.getLocation(),
+            citizen.getResidence(),
+            citizen.getFinancialProfile(),
+            experiences,
+            skills,
+            personality,
+            alignment,
+            issuePositions,
+            null,
+            null
+        );
     }
 }

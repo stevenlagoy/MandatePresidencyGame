@@ -52,32 +52,30 @@ class WesternPersonalName(
 
     override fun copy(other: PersonalName) {
         this.honorific = other.honorific
-        this.nickname = other.nickname
-        this.suffixes = other.suffixes
+        this.nickname  = other.nickname
+        this.suffixes  = other.suffixes
         this.displayOptions = other.displayOptions
         if (other is WesternPersonalName) {
-            this.firstName = other.firstName
+            this.firstName  = other.firstName
             this.middleName = other.middleName
-            this.lastName = other.lastName
-            this.ordinal = other.ordinal
+            this.lastName   = other.lastName
+            this.ordinal    = other.ordinal
         }
     }
 
     override fun compareTo(other: PersonalName) = indexedName.compareTo(other.indexedName)
 
-    override fun toJson() = JSONObject(indexedName, listOf(
-        *((super.toJson().value as List<JSONObject>).toTypedArray()),
-        JSONObject("first_name",      firstName),
-        JSONObject("middle_name",     middleName),
-        JSONObject("last_name",       lastName),
-        JSONObject("ordinal",         ordinal),
-    ))
+    override fun toJson() = super.toJson().merge(
+        JSONObject("first_name", firstName),
+        JSONObject("middle_name", middleName),
+        JSONObject("last_name", lastName),
+        JSONObject("ordinal", ordinal),
+    )
 
-    override fun fromJson(json: JSONObject) = this.apply {
-        super.fromJson(json)
-        firstName      = json.get("first_name")      as String
-        middleName     = json.get("middle_name")     as String
-        lastName       = json.get("last_name")       as String
-        ordinal        = json.get("ordinal")         as String
+    override fun fromJson(json: JSONObject) = super.fromJson(json).apply {
+        firstName      = json.requireString("first_name")
+        middleName     = json.requireString("middle_name")
+        lastName       = json.requireString("last_name")
+        ordinal        = json.requireString("ordinal")
     }
 }

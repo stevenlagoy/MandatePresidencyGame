@@ -1,0 +1,26 @@
+{
+    "1501": {
+        "name": "Hawaii's 1st congressional district",
+        "state": "Hawaii",
+        "districtNumber": 1,
+        "officeID": "HI01",
+        "geoID": "1501",
+        "color": "#12c90f",
+        "descriptors": [
+            "HAWAII"
+        ],
+        "congressionalSession": 119
+    },
+    "1502": {
+        "name": "Hawaii's 2nd congressional district",
+        "state": "Hawaii",
+        "districtNumber": 2,
+        "officeID": "HI02",
+        "geoID": "1502",
+        "color": "#6858de",
+        "descriptors": [
+            "HAWAII"
+        ],
+        "congressionalSession": 119
+    }
+}

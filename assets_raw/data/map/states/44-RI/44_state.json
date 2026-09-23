@@ -1,0 +1,88 @@
+{
+    "FIPS" : "44",
+    "commonName" : "Rhode Island",
+    "fullName" : "State of Rhode Island",
+    "flagFile" : "rhode_island_flag.png",
+    "abbreviation" : "RI",
+    "type" : "state",
+    "demonym" : "Rhode Islander",
+    "nickname" : "Ocean State",
+    "motto" : "Hope",
+    "capital" : "Providence",
+    "federalCourtCircuit" : 1,
+    "censusDivision" : "New England",
+    "descriptors" : [
+        "RHODE_ISLAND",
+        "NORTHEAST",
+        "NEW_ENGLAND"
+    ],
+    "allowedSubdivisionTypes" : [
+        "New England Town",
+        "City",
+        "Census-Designated Place"
+    ],
+    "allowedPlaceTypes" : [
+        "Census-Designated Place"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "branches" : {
+            "executiveBranch" : {
+                "positions" : {
+                    "" : {
+                        "title" : ""
+                    }
+                }
+            },
+            "legislativeBranch" : {
+                "title" : "",
+                "chambers" : {
+                    "" : {
+                        "name" : "",
+                        "isUpperChamber" : true,
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    },
+                    "" : {
+                        "name" : "",
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    }
+                }
+            },
+            "judicialBranch" : {
+                "title" : "",
+                "supreme_court" : {
+                    "fullName" : "",
+                    "commonName" : "",
+                    "basis" : "",
+                    "judges" : 0,
+                    "appellate_courts" : {
+                        "" : {
+                            "fullName" : "",
+                            "basis" : "",
+                            "judges" : 0,
+                            "termLength" : 0,
+                            "nextElectionDate" : ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

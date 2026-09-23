@@ -6,7 +6,7 @@ import java.time.Period
 import kotlin.math.pow
 
 // Amortized loan
-class Loan(
+data class Loan(
     val lender: FinancialEntity,
     val borrower: FinancialEntity,
     val principal: Double,
@@ -29,7 +29,7 @@ class Loan(
 
     fun disburse(date: LocalDate): Boolean {
         return Transaction(to=borrower, from=lender, principal, date).execute()
-            && lender.balanceSheet.assets.add(Credit(timeManager,AssetType.LoanReceivable, totalLoanPayment))
+            && lender.balanceSheet.assets.add(Credit(timeManager, Asset.AssetType.LoanReceivable, totalLoanPayment))
             && borrower.balanceSheet.liabilities.add(Debt(totalLoanPayment))
     }
 

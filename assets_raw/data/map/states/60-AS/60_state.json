@@ -1,0 +1,92 @@
+{
+    "FIPS" : "60",
+    "commonName" : "American Samoa",
+    "fullName" : "Unincorporated Territory of American Samoa",
+    "abbreviation" : "AS",
+    "type" : "territory",
+    "demonymicNoun" : "American Samoan",
+    "demonymicNounPlural" : "American Samoans",
+    "demonymicAdjective" : "American Samoan",
+    "symbols" : {
+        "flag" : {
+            "name" : "Flag of American Samoa",
+            "file" : "american_samoa_flag.png"
+        },
+        "mottos" : [
+            {
+                "motto" : "Samoa, Muamua Le Atua",
+                "meaning" : "Samoa, Let God Be First",
+                "language" : "Samoan"
+            }
+        ],
+        "nicknames" : [
+            "Motu o Fiafiaga",
+            "Islands of Paradise",
+            "Football Islands"
+        ]
+    },
+    "capital" : "Pago Pago",
+    "federal_court_circuit" : 9,
+    "descriptors" : [
+        "SAMOA"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "executiveBranch" : {
+            "positions" : {
+                "" : {
+                    "title" : ""
+                }
+            }
+        },
+        "legislativeBranch" : {
+            "title" : "",
+            "chambers" : {
+                "" : {
+                    "name" : "",
+                    "isUpperChamber" : true,
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                },
+                "" : {
+                    "name" : "",
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                }
+            }
+        },
+        "judicialBranch" : {
+            "title" : "",
+            "supreme_court" : {
+                "fullName" : "",
+                "commonName" : "",
+                "basis" : "",
+                "judges" : 0,
+                "appellate_courts" : {
+                    "" : {
+                        "fullName" : "",
+                        "basis" : "",
+                        "judges" : 0,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    }
+                }
+            }
+        }
+    }
+}

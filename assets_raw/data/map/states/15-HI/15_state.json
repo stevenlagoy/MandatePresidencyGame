@@ -1,0 +1,90 @@
+{
+    "FIPS" : "15",
+    "commonName" : "Hawaii",
+    "fullName" : "State of Hawaii",
+    "abbreviation" : "HI",
+    "type" : "state",
+    "demonymicNoun" : "Hawaii resident",
+    "demonymicNounPlural" : "Hawaiian residents",
+    "demonymicAdjective" : "Hawiian",
+    "symbols" : {
+        "flagFile" : "hawaii_flag.png",
+        "nickname" : "Aloha State",
+        "motto" : "Ua Mau ke Ea o ka ‘Āina i ka Pono",
+    },
+    "capital" : "Honolulu",
+    "federalCourtCircuit" : 9,
+    "censusDivision" : "Pacific",
+    "descriptors" : [
+        "HAWAII",
+        "WEST",
+        "PACIFIC"
+    ],
+    "allowedSubdivisionTypes" : [
+        "Census County Division"
+    ],
+    "allowedPlaceTypes" : [
+        "Census-Designated Place"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "branches" : {
+            "executiveBranch" : {
+                "positions" : {
+                    "" : {
+                        "title" : ""
+                    }
+                }
+            },
+            "legislativeBranch" : {
+                "title" : "",
+                "chambers" : {
+                    "" : {
+                        "name" : "",
+                        "isUpperChamber" : true,
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    },
+                    "" : {
+                        "name" : "",
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    }
+                }
+            },
+            "judicialBranch" : {
+                "title" : "",
+                "supreme_court" : {
+                    "fullName" : "",
+                    "commonName" : "",
+                    "basis" : "",
+                    "judges" : 0,
+                    "appellate_courts" : {
+                        "" : {
+                            "fullName" : "",
+                            "basis" : "",
+                            "judges" : 0,
+                            "termLength" : 0,
+                            "nextElectionDate" : ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

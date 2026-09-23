@@ -1,20 +1,18 @@
 package com.stevenlagoy.presidency.characters.attributes.names;
 
 import com.stevenlagoy.jsonic.JSONObject;
-import com.stevenlagoy.jsonic.JSONProcessor;
 import com.stevenlagoy.presidency.characters.attributes.Family;
 import com.stevenlagoy.presidency.core.Engine;
+import com.stevenlagoy.presidency.core.EntityManager;
 import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.demographics.Bloc;
 import com.stevenlagoy.presidency.demographics.Demographics;
-import com.stevenlagoy.presidency.map.MapEntity;
-import com.stevenlagoy.presidency.util.CollectionUtils;
-import com.stevenlagoy.presidency.util.FilePaths;
-import com.stevenlagoy.presidency.util.Logger;
-import com.stevenlagoy.presidency.util.RandomUtils;
+import com.stevenlagoy.presidency.map.entities.MapEntity;
+import com.stevenlagoy.presidency.util.*;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.io.IOException;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -35,7 +33,7 @@ import java.util.stream.Collectors;
  *
  * @author Steven LaGoy
  */
-public class NameManager extends Manager {
+public class NameManager extends EntityManager<PersonalName, String> {
 
     // Constants
 
@@ -148,11 +146,6 @@ public class NameManager extends Manager {
     // Manager Methods
 
     @Override
-    public @NotNull Set<Manager> getSubManagers() {
-        return Set.of();
-    }
-
-    @Override
     protected void doInit() {
         readGivenNamesData();
         readFamilyNamesData();
@@ -168,12 +161,18 @@ public class NameManager extends Manager {
         nicknames.clear();
     }
 
+    @Override
+    protected @Nullable String keyOf(@NotNull PersonalName entity) {
+        return entity.getIndexedName();
+    }
+
     // Serialization Methods
 
     @Override
     protected @NotNull JSONObject doToJson() {
         return new JSONObject(getClass().getSimpleName());
     }
+
 
     @Override
     protected void doFromJson(@NotNull JSONObject json) {
@@ -182,32 +181,48 @@ public class NameManager extends Manager {
     // Instance Methods
 
     private void readGivenNamesData() {
-        JSONObject json = JSONProcessor.processJson(FilePaths.GIVEN_NAMES);
-        givenNamesDistribution.putAll(processNamesStructure(json));
+        try {
+            JSONObject json = new JSONObject(FilePath.GIVEN_NAMES.path);
+            givenNamesDistribution.putAll(processNamesStructure(json));
+        } catch (IOException e) {
+            onError(e);
+        }
     }
 
     private void readFamilyNamesData() {
-        JSONObject json = JSONProcessor.processJson(FilePaths.FAMILY_NAMES);
-        familyNamesDistribution.putAll(processNamesStructure(json));
+        try {
+            JSONObject json = new JSONObject(FilePath.FAMILY_NAMES.path);
+            familyNamesDistribution.putAll(processNamesStructure(json));
+        } catch (IOException e) {
+            onError(e);
+        }
     }
 
     private void readGenerationNamesData() {
-        JSONObject json = JSONProcessor.processJson(FilePaths.GENERATION_NAMES);
-        generationNamesDistribution.putAll(processNamesStructure(json));
+        try {
+            JSONObject json = new JSONObject(FilePath.DECADE_NAMES.path);
+            generationNamesDistribution.putAll(processNamesStructure(json));
+        } catch (IOException e) {
+            onError(e);
+        }
     }
 
     private void readNicknamesData() {
-        JSONObject json = JSONProcessor.processJson(FilePaths.NICKNAMES);
-        nicknames.clear();
-        for (Object obj : json.getAsList()) {
-            if (!(obj instanceof JSONObject entry)) continue;
-            String key = entry.getKey();
-            List<?> value = entry.getAsList();
-            List<String> names = new ArrayList<>();
-            for (Object nickname : value) {
-                names.add((String) nickname);
+        try {
+            JSONObject json = new JSONObject(FilePath.NICKNAMES.path);
+            nicknames.clear();
+            for (Object obj : json.requireArray()) {
+                if (!(obj instanceof JSONObject entry)) continue;
+                String key = entry.getKey();
+                List<?> value = entry.requireArray();
+                List<String> names = new ArrayList<>();
+                for (Object nickname : value) {
+                    names.add((String) nickname);
+                }
+                nicknames.put(key, names);
             }
-            nicknames.put(key, names);
+        } catch (IOException e) {
+            onError(e);
         }
     }
 
@@ -219,7 +234,7 @@ public class NameManager extends Manager {
         if (currentBlocs == null) currentBlocs = new HashSet<>();
         Map<Set<Bloc>, Map<String, Double>> distributions = new HashMap<>();
 
-        for (Object obj : json.getAsList()) {
+        for (Object obj : json.requireArray()) {
             if (!(obj instanceof JSONObject entry)) continue;
 
             String key = entry.getKey();
@@ -236,7 +251,7 @@ public class NameManager extends Manager {
             else if (value instanceof List<?>) {
                 // This is a nested structure
                 // If key is a valid bloc, add it to a new bloc set
-                Bloc bloc = ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName(key);
+                Bloc bloc = engine.DEMOGRAPHICS_MANAGER.matchBloc(key).orElse(null);
                 Set<Bloc> updatedBlocs = new HashSet<>(currentBlocs);
                 updatedBlocs.add(bloc);
                 // Recurse with updated bloc set
@@ -638,10 +653,10 @@ public class NameManager extends Manager {
         // Select a Western name
         String westernName = selectGivenName(new NameContext(
             new Demographics(
-                ENGINE,
+                engine,
                 context.demographics.getGeneration(),
                 context.demographics.getReligion(),
-                Objects.requireNonNull(ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName("Anglo")),
+                Objects.requireNonNull(engine.DEMOGRAPHICS_MANAGER.matchBloc("Anglo")).orElseThrow(),
                 context.demographics.getPresentation()
             ),
             context.age,
@@ -716,7 +731,7 @@ public class NameManager extends Manager {
         // Get targets including ancestor blocs
         Set<Bloc> targets = new HashSet<>();
         for (Bloc bloc : context.demographics.getBlocs()) {
-            targets.addAll(bloc.getAncestors());
+            targets.addAll(bloc.getAncestorBlocs());
         }
 
         Set<Set<Bloc>> combinations = CollectionUtils.combinations(targets);

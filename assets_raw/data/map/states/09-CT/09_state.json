@@ -1,0 +1,176 @@
+{
+    "FIPS" : "09",
+    "commonName" : "Connecticut",
+    "fullName" : "State of Connecticut",
+    "abbreviation" : "CT",
+    "type" : "state",
+    "demonymicNoun" : "Connecticuter",
+    "demonymicPluralNoun" : "Connecticuters",
+    "demonymicAdjective" : "Connecticuter",
+    "symbols" : {
+        "nicknames" : [
+            "Constitution State",
+            "Nutmeg State",
+            "Provision State",
+            "Freestone State",
+            "Blue Law State",
+            "Land of Steady Habits"
+        ],
+        "flag" : {
+            "name" : "Flag of Connecticut",
+            "description" : "Azure blue, charged with an argent white shield of rococo design, having in the center three grape vinces, supported and bearing fruit in natural colors. THe bordure to the shield is gold on the interior and silver on the exterior, adorned with natural-colored clusters of white oak leaves bearing acorns. Below the shield is a white streamer, cleft on each end, bordered by a band of gold within fine brown lines, and upon the streamer in dark blue block letters is the motto \"QUI TRANSTULIT SUSTINET\".",
+            "symbolism" : "The design comes from the seal of Saybrook Colony. The three grapevines represent the three oldest settlements of Windsor, Wethersfield, and Hartford, or the three settlements of Connecticut Colony, Saybrook Colony, and New Haven Colony. The grapes themselves represent providence and faith. The leaves and acorns represent antiquity. The banner has the motto of Connecticut, meaning \"He who transplated sustains,\" which connects to the symbolism of the grape vines.",
+            "file" : "connecticut_flag.png"
+        },
+        "coat_of_arms" : {
+            "name" : "Coat of arms of Connecticut",
+            "description" : "An argent white shield of rococo design, having in the center three grape vinces, supported and bearing fruit in natural colors. THe bordure to the shield is gold on the interior and silver on the exterior, adorned with natural-colored clusters of white oak leaves bearing acorns. Below the shield is a white streamer, cleft on each end, bordered by a band of gold within fine brown lines, and upon the streamer in dark blue block letters is the motto \"QUI TRANSTULIT SUSTINET\".",
+            "symbolism" : "The design comes from the seal of Saybrook Colony. The three grapevines represent the three oldest settlements of Windsor, Wethersfield, and Hartford, or the three settlements of Connecticut Colony, Saybrook Colony, and New Haven Colony. The grapes themselves represent providence and faith. The leaves and acorns represent antiquity. The banner has the motto of Connecticut, meaning \"He who transplated sustains,\" which connects to the symbolism of the grape vines."
+        },
+        "seal" : {
+            "name" : "Great Seal of the State of Connecticut",
+            "description" : "Three grape vines, supported and bearing fruit in natural colors. Below, a blue streamer, cleft on each end, reading \"QUI TRANSTULIT SUSTINET.\" On the border of the seal is written \"SIGILLUM REIPUBLICÆ CONNECTICUTENSIS.\"",
+            "symbolism" : "The design comes from the seal of Saybrook Colony. The three grapevines represent the three oldest settlements of Windsor, Wethersfield, and Hartford, or the three settlements of Connecticut Colony, Saybrook Colony, and New Haven Colony. The grapes themselves represent providence and faith. The banner has the motto of Connecticut, meaning \"He who transplated sustains,\" which connects to the symbolism of the grape vines. The text on the border means \"Seal of the State of Connecticut.\"",
+            "file" : "connecticut_great_seal.png"
+        },
+        "mottoes" : [
+            {
+                "motto" : "*Qui transtulit sustinet*",
+                "translation" : "He who transplanted sustains",
+                "language" : "Latin"
+            }
+        ],
+        "children's state flower" : "Michaela Petit's Four-O'Clocks",
+        "flower" : "mountain laurel",
+        "tree" : "Charter Oak",
+        "bird" : "American robin",
+        "dog" : "Siberian husky",
+        "dinosaur" : "*Dilophosaurus*",
+        "fish" : "American shad",
+        "insect" : "European mantis",
+        "animal" : "sperm whale",
+        "shellfish" : "eastern oyster",
+        "fossil" : "*Eubrontes giganteus",
+        "mineral" : "garnet",
+        "aircraft" : "F4U Corsair",
+        "pioneering aircraft" : "Gustave Whitehead's No. 21",
+        "candy" : "pollipop",
+        "cantata" : "\"The Nutmeg\"",
+        "composer" : "Charles Ives",
+        "flagship and tall ship ambassador" : "Freedom Schooner *Amistad*",
+        "folk dance" : "square dance",
+        "food" : "pizza",
+        "hero" : "Nathan Hale",
+        "heroine" : "Prudence Crandall",
+        "poet laureate" : "Poet Laureate of Connecticut",
+        "polka" : "*Ballroom polka*",
+        "ship" : "USS *Nautilus* (SSN-571)",
+        "song" : "*Yankee Doodle*",
+        "second song" : "*Beautiful Connecticut Waltz*",
+        "tartan" : "Connecticut state tartan",
+        "troubadour" : "Connecticut State Troubadour",
+        "quarter" : "State quarter featuring the Charter Oak."
+    },
+
+    "motto" : "Qui transtulit sustinet",
+    "capital" : "Hartford",
+    "federalCourtCircuit" : 2,
+    "censusDivision" : "New England",
+    "descriptors" : [
+        "CONNECTICUT",
+        "NORTHEAST",
+        "NEW_ENGLAND"
+    ],
+    "allowedSubdivisionTypes" : [
+        "New England Town",
+        "Unorganized Water"
+    ],
+    "placeTypes" : [
+        {
+            "placeCategory" : "City",
+            "name" : "Consolidated City-Town",
+            "count" : 19
+        },
+        {
+            "placeCategory" : "Town",
+            "name" : "Consolidated Borough-Town",
+            "count" : 1
+        },
+        {
+            "placeCategory" : "City",
+            "name" : "City",
+            "count" : 19
+        },
+        {
+            "placeCategory" : "Census-Designated Place",
+            "name" : "CDP"
+        },
+        "Census-Designated Place",
+        "City",
+        "Town",
+        "Borough",
+        "County Balance",
+        "Census-Designated Place"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "branches" : {
+            "executiveBranch" : {
+                "positions" : {
+                    "" : {
+                        "title" : ""
+                    }
+                }
+            },
+            "legislativeBranch" : {
+                "title" : "",
+                "chambers" : {
+                    "" : {
+                        "name" : "",
+                        "isUpperChamber" : true,
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    },
+                    "" : {
+                        "name" : "",
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    }
+                }
+            },
+            "judicialBranch" : {
+                "title" : "",
+                "supreme_court" : {
+                    "fullName" : "",
+                    "commonName" : "",
+                    "basis" : "",
+                    "judges" : 0,
+                    "appellate_courts" : {
+                        "" : {
+                            "fullName" : "",
+                            "basis" : "",
+                            "judges" : 0,
+                            "termLength" : 0,
+                            "nextElectionDate" : ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

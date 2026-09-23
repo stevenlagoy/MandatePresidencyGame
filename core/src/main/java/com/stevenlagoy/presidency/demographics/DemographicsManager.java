@@ -1,17 +1,17 @@
 package com.stevenlagoy.presidency.demographics;
 
 import com.stevenlagoy.jsonic.JSONObject;
-import com.stevenlagoy.jsonic.JSONProcessor;
 import com.stevenlagoy.presidency.characters.Citizen;
 import com.stevenlagoy.presidency.characters.attributes.Sex;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
-import com.stevenlagoy.presidency.util.FilePaths;
+import com.stevenlagoy.presidency.util.FilePath;
 import com.stevenlagoy.presidency.util.RandomUtils;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.io.IOException;
 import java.time.LocalDate;
 import java.util.*;
 
@@ -34,7 +34,7 @@ public class DemographicsManager extends Manager {
     // Constants
 
     /** Used to convert counts in the Blocs data file into percentages. */
-    public static final long GAME_START_VOTERS = 341_275_500; // 1 Feb 2025
+    public static final long   GAME_START_VOTERS = 341_275_500; // 1 Feb 2025
     public static final double FEMALE_WOMAN_PRESENTATION_PERCENT = 0.99;
     public static final double FEMALE_NONBINARY_PRESENTATION_PERCENT = 0.075;
     public static final double FEMALE_MAN_PRESENTATION_PERCENT = 0.025;
@@ -62,8 +62,8 @@ public class DemographicsManager extends Manager {
 
     @Override
     @Contract(pure = true)
-    public @NotNull Set<Manager> getSubManagers() {
-        return Set.of();
+    public @NotNull List<Manager> getSubManagers() {
+        return List.of();
     }
 
     @Override
@@ -93,15 +93,19 @@ public class DemographicsManager extends Manager {
 
     private void readBlocData() {
         requireState(ManagerState.INITIALIZING);
-        demographicBlocs = new HashMap<>();
-        JSONObject json = JSONProcessor.processJson(FilePaths.BLOCS);
-        for (Object categoryObject : json.getAsList()) {
-            if (categoryObject instanceof JSONObject categoryJson) {
-                String key = categoryJson.getKey();
-                DemographicCategory category = DemographicCategory.valueOf(key.toUpperCase().replaceAll("[^a-zA-Z]+","_"));
-                List<Bloc> blocs = createBlocs(category, categoryJson.getAsObject());
-                demographicBlocs.put(category, blocs);
+        try {
+            demographicBlocs = new HashMap<>();
+            JSONObject json = new JSONObject(FilePath.BLOCS.path);
+            for (Object categoryObject : json.requireArray()) {
+                if (categoryObject instanceof JSONObject categoryJson) {
+                    String key = categoryJson.getKey();
+                    DemographicCategory category = DemographicCategory.valueOf(key.toUpperCase().replaceAll("[^a-zA-Z]+","_"));
+                    List<Bloc> blocs = createBlocs(category, categoryJson);
+                    demographicBlocs.put(category, blocs);
+                }
             }
+        } catch (IOException e) {
+            onError(e);
         }
     }
 
@@ -114,7 +118,7 @@ public class DemographicsManager extends Manager {
         requireState(ManagerState.INITIALIZING);
         List<Bloc> blocs = new ArrayList<>();
 
-        for (Object keyObj : structure.getAsList()) {
+        for (Object keyObj : structure.requireArray()) {
             if (keyObj instanceof JSONObject keyJson) {
                 String blocName = keyJson.getKey();
                 Object value = keyJson.getValue();
@@ -131,14 +135,17 @@ public class DemographicsManager extends Manager {
                         // Value is a percentage of individuals
                         percentage = numValue.doubleValue();
                     }
-                    bloc = new Bloc(blocName, category, percentage, Collections.emptySet(), parent, Collections.emptyList());
+                    bloc = new Bloc(engine, blocName, category, percentage, Collections.emptySet(), parent, Collections.emptyList());
                     blocs.add(bloc);
                 }
-                else if (value instanceof JSONObject valueJson) {
-                    // Recursive case: nested blocs
-                    bloc = new Bloc(blocName, category, 0.0, Collections.emptySet(), parent, Collections.emptyList());
-                    bloc.getSubBlocs().addAll(createBlocs(category, bloc, valueJson));
-                    blocs.add(bloc);
+                else if (value instanceof List<?> valueList) {
+                    if (valueList.get(0) instanceof JSONObject) {
+                        JSONObject valueJson = new JSONObject("", valueList);
+                        // Recursive case: nested blocs
+                        bloc = new Bloc(engine, blocName, category, 0.0, Collections.emptySet(), parent, Collections.emptyList());
+                        bloc.getSubBlocs().addAll(createBlocs(category, bloc, valueJson));
+                        blocs.add(bloc);
+                    }
                 }
             }
         }
@@ -147,9 +154,13 @@ public class DemographicsManager extends Manager {
 
     private void readPopulationPyramidData() {
         requireState(ManagerState.INITIALIZING);
-        populationPyramid = new HashMap<>();
-        JSONObject json = JSONProcessor.processJson(FilePaths.BIRTHYEAR_PERCENTAGES);
-        populationPyramid.put(null, null); // TODO
+        try {
+            populationPyramid = new HashMap<>();
+            JSONObject json = new JSONObject(FilePath.BIRTHYEAR_PERCENTAGES.path);
+            populationPyramid.put(null, null); // TODO
+        } catch (IOException e) {
+            onError(e);
+        }
     }
 
     public @NotNull Map<Integer, Double> getPopulationPyramid(@NotNull Bloc... blocs) {
@@ -157,21 +168,25 @@ public class DemographicsManager extends Manager {
         return populationPyramid.get(blocs[0]); // Should find the average combination of the blocs and return the pyramid for that combination
     }
 
-    public @Nullable Bloc matchBlocName(@NotNull String name) {
+    public @NotNull Optional<Bloc> matchBloc(@NotNull String name) {
         requireState(ManagerState.ACTIVE, ManagerState.PAUSED, ManagerState.DEGRADED, ManagerState.INITIALIZING);
         for (List<Bloc> blocList : demographicBlocs.values()) {
-            for (Bloc bloc : blocList) {
-                if (bloc.getName().equals(name))
-                    return bloc;
+            for (Bloc rootBloc : blocList) {
+                if (rootBloc.getName().equals(name))
+                    return Optional.of(rootBloc);
+                for (Bloc descendantBloc : rootBloc.getDescendantBlocs()) {
+                    if (descendantBloc.getName().equals(name))
+                        return Optional.of(descendantBloc);
+                }
             }
         }
         onDegraded(new IllegalArgumentException("The Bloc name \"" + name + "\" is non-existent and could not be matched."));
-        return null;
+        return Optional.empty();
     }
 
     public Demographics getCommonDemographics() {
         requireOperational();
-        return new Demographics(ENGINE, "Millennial", "White Catholic", "English", "Woman");
+        return new Demographics(engine, "Millennial", "White Catholic", "English", "Woman");
     }
 
     public @Nullable Bloc getCommonBloc(@NotNull DemographicCategory category) {
@@ -186,7 +201,7 @@ public class DemographicsManager extends Manager {
         generation = selectBloc(DemographicCategory.GENERATION, Set.of(presentation));
         raceEthnicity = selectBloc(DemographicCategory.RACE_ETHNICITY, Set.of(presentation, generation));
         religion = selectBloc(DemographicCategory.RELIGION, Set.of(presentation, generation, raceEthnicity));
-        return new Demographics(ENGINE, generation, religion, raceEthnicity, presentation);
+        return new Demographics(engine, generation, religion, raceEthnicity, presentation);
     }
 
     public @NotNull Bloc selectBloc(@NotNull DemographicCategory category, @NotNull Set<Bloc> alreadySelected) {
@@ -215,15 +230,13 @@ public class DemographicsManager extends Manager {
                 RandomUtils.chance(MALE_MAN_PRESENTATION_PERCENT) ? "Man" :
                 "Nonbinary";
         };
-        Bloc presentationBloc = matchBlocName(presentationBlocName);
-        assert(presentationBloc != null);
-        return presentationBloc;
+        return matchBloc(presentationBlocName).orElseThrow();
     }
 
     public @NotNull Demographics selectRandomDemographics() {
         requireOperational();
         return new Demographics(
-            ENGINE,
+            engine,
             selectRandomBloc(DemographicCategory.GENERATION),
             selectRandomBloc(DemographicCategory.RELIGION),
             selectRandomBloc(DemographicCategory.RACE_ETHNICITY),
@@ -241,7 +254,7 @@ public class DemographicsManager extends Manager {
     // TODO Instead of picking one bloc and then populating the rest normally, this should use bloc overlaps to find the most underrepresented
     public @NotNull Demographics selectUnderrepresentedDemographics() {
         requireOperational();
-        if (ENGINE.CHARACTER_MANAGER.getNumCitizens() == 0) return getCommonDemographics();
+        if (engine.CHARACTER_MANAGER.getNumCitizens() == 0) return getCommonDemographics();
         List<Bloc> allBlocs = new ArrayList<>();
         demographicBlocs.values().forEach(allBlocs::addAll);
         Bloc underrepresentedBloc = selectUnderrepresentedBloc(allBlocs);
@@ -274,7 +287,7 @@ public class DemographicsManager extends Manager {
             default :
                 return selectDemographics();
         }
-        return new Demographics(ENGINE, generation, religion, raceEthnicity, presentation);
+        return new Demographics(engine, generation, religion, raceEthnicity, presentation);
     }
 
     public @NotNull Bloc selectUnderrepresentedBloc(@NotNull List<Bloc> blocs) {
@@ -312,10 +325,10 @@ public class DemographicsManager extends Manager {
         // Returns ratio of actual character membership to expected membership
         // <1 if underrepresented, >1 if overrepresented, =1 if perfectly represented
         try {
-            if (ENGINE.CHARACTER_MANAGER.getNumCitizens() == 0)
+            if (engine.CHARACTER_MANAGER.getNumCitizens() == 0)
                 return 1.0f; // if there are no characters, every bloc is perfectly represented
             double expectedRepresentation = bloc.getPercentageMembership();
-            double actualRepresentation = bloc.getMembers().size() * 1.0f / ENGINE.CHARACTER_MANAGER.getNumCitizens();
+            double actualRepresentation = bloc.getMembers().size() * 1.0f / engine.CHARACTER_MANAGER.getNumCitizens();
             return (actualRepresentation / expectedRepresentation);
         }
         catch (ArithmeticException e) {
@@ -332,14 +345,14 @@ public class DemographicsManager extends Manager {
 
     public Bloc getGenerationForBirthday(@NotNull LocalDate birthday) {
         if (birthday.getYear() < 1883) return null;
-        else if (birthday.getYear() < 1900) return matchBlocName("Lost Generation");
-        else if (birthday.getYear() < 1927) return matchBlocName("Greatest Generation");
-        else if (birthday.getYear() < 1945) return matchBlocName("Silent Generation");
-        else if (birthday.getYear() < 1964) return matchBlocName("Baby Boomer");
-        else if (birthday.getYear() < 1980) return matchBlocName("Generation X");
-        else if (birthday.getYear() < 1996) return matchBlocName("Millennial");
-        else if (birthday.getYear() < 2012) return matchBlocName("Generation Z");
-        else if (birthday.getYear() < 2024) return matchBlocName("Generation Alpha");
-        else return matchBlocName("Generation Beta");
+        else if (birthday.getYear() < 1900) return matchBloc("Lost Generation").orElseThrow();
+        else if (birthday.getYear() < 1927) return matchBloc("Greatest Generation").orElseThrow();
+        else if (birthday.getYear() < 1945) return matchBloc("Silent Generation").orElseThrow();
+        else if (birthday.getYear() < 1964) return matchBloc("Baby Boomer").orElseThrow();
+        else if (birthday.getYear() < 1980) return matchBloc("Generation X").orElseThrow();
+        else if (birthday.getYear() < 1996) return matchBloc("Millennial").orElseThrow();
+        else if (birthday.getYear() < 2012) return matchBloc("Generation Z").orElseThrow();
+        else if (birthday.getYear() < 2024) return matchBloc("Generation Alpha").orElseThrow();
+        else return matchBloc("Generation Beta").orElseThrow();
     }
 }

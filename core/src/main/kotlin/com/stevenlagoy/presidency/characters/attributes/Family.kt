@@ -1,24 +1,20 @@
 package com.stevenlagoy.presidency.characters.attributes
 
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.jsonic.Jsonic
+import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.characters.Citizen
 import com.stevenlagoy.presidency.core.Engine
+import com.stevenlagoy.presidency.core.EngineBound
 import kotlin.uuid.ExperimentalUuidApi
 
 @OptIn(ExperimentalUuidApi::class)
-data class Family(
-    val ENGINE: Engine,
+class Family(
+    engine: Engine,
     var mother: Citizen? = null,
     var father: Citizen? = null,
     var spouse: Citizen? = null,
     val children: MutableSet<Citizen> = mutableSetOf(),
-) : Jsonic<Family> {
-
-    init {
-        assert(mother?.sex == Sex.FEMALE || mother?.sex == Sex.INTERSEX) { "Mother's sex must be female or intersex" }
-        assert(father?.sex == Sex.MALE || father?.sex == Sex.INTERSEX) { "Father's sex must be male or intersex" }
-    }
+) : JSONSerializable<Family>, EngineBound(engine) {
 
     val parents = setOf(mother, father).filterNotNull()
 
@@ -34,6 +30,11 @@ data class Family(
 
     val grandchildren: Set<Citizen> get() = children.flatMap { it.family.children }.toSet()
 
+    init {
+        require(mother?.sex == Sex.FEMALE || mother?.sex == Sex.INTERSEX) { "Mother's sex must be female or intersex" }
+        require(father?.sex == Sex.MALE || father?.sex == Sex.INTERSEX) { "Father's sex must be male or intersex" }
+    }
+
     fun copy(other: Family) {
         this.mother = other.mother
         this.father = other.father
@@ -44,6 +45,9 @@ data class Family(
         }
     }
 
+    val sideSize: Int
+        get() = (mother?.family?.sideSize ?: 0) + (father?.family?.sideSize ?: 0) + (spouse?.family?.sideSize ?: 0) + children.sumOf { it.family.sideSize }
+
     override fun fromJson(json: JSONObject) = this
 
     override fun toJson() = JSONObject(hashCode().toString(), listOf(
@@ -52,20 +56,4 @@ data class Family(
         JSONObject("children", children.map { it.id }),
     ))
 
-    fun getSideSize(): Int {
-        return (mother?.family?.getSideSize() ?: 0) + (father?.family?.getSideSize() ?: 0) + (spouse?.family?.getSideSize() ?: 0) + children.sumOf { it.family.getSideSize() }
-    }
-
-    fun getFamilyPlan()= FamilyManager.FamilyPlan(
-        mother != null,
-        mother?.family?.getSideSize() ?: 0,
-        father != null,
-        father?.family?.getSideSize() ?: 0,
-        siblings.size,
-        siblings.sumOf { it.family.getSideSize() },
-        spouse != null,
-        spouse?.family?.getSideSize() ?: 0,
-        children.size,
-        children.sumOf { it.family.getSideSize() },
-    )
 }

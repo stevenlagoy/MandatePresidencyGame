@@ -8,13 +8,12 @@ import java.text.SimpleDateFormat;
 
 public final class Logger {
 
-    private Logger() {
-    }
+    private Logger() {}
 
     public static void log(@NotNull String logline) {
         try {
-            File logFile = new File(FilePaths.LOG_FILE.toString());
-            logFile.createNewFile(); // Does nothing if already exists
+            File logFile = new File(FilePath.LOG.toString());
+            var ignored = logFile.createNewFile();
             PrintWriter logWriter = new PrintWriter(new FileWriter(logFile, true));
 
             logline = logline.replace("\n", " | ").replace("\r", "");
@@ -41,16 +40,16 @@ public final class Logger {
      */
     public static void error(@NotNull String errorline) {
         try {
-            File errorFile = new File(FilePaths.ERROR_FILE.toString());
-            errorFile.createNewFile(); // Does nothing if already exists
+            File errorFile = new File(FilePath.ERROR_LOG.toString());
+            var ignored = errorFile.createNewFile();
             PrintWriter errorWriter = new PrintWriter(new FileWriter(errorFile, true));
 
             errorline = errorline.replace("\n", " | ").replace("\r", "");
             errorWriter.printf("%s : %s%n", getDate(), errorline);
-            IOUtils.stdout.printf("%s : %s%n", getDate(), errorline);
+            IOUtils.stderr.printf("%s : %s%n", getDate(), errorline);
             errorWriter.close();
         } catch (IOException e) {
-            IOUtils.stdout.println(e);
+            IOUtils.stderr.println(e);
             System.exit(-1);
         }
     }
@@ -67,8 +66,8 @@ public final class Logger {
      */
     public static void error(Exception logE) {
         try {
-            File errorFile = new File(FilePaths.ERROR_FILE.toString());
-            errorFile.createNewFile(); // does nothing if already exists
+            File errorFile = new File(FilePath.ERROR_LOG.toString());
+            var ignored = errorFile.createNewFile();
             PrintWriter errorWriter = new PrintWriter(new FileWriter(errorFile, true));
 
             StringWriter sw = new StringWriter();
@@ -76,11 +75,10 @@ public final class Logger {
             // Handle any carriage return characters
             String stackTrace = sw.toString().replace("\t", " -> ").replace("\n", "").replace("\r", "");
             errorWriter.printf("%s : %s %n", getDate(), stackTrace);
-            IOUtils.stdout.printf("%s : %s %n", getDate(), stackTrace);
+            IOUtils.stderr.printf("%s : %s %n", getDate(), stackTrace);
             errorWriter.close();
-            return;
         } catch (IOException e) {
-            IOUtils.stdout.println(e);
+            IOUtils.stderr.println(e);
             System.exit(-1);
         }
     }
@@ -94,17 +92,16 @@ public final class Logger {
      */
     public static void error(String context, String errorline) {
         try {
-            File errorFile = new File(FilePaths.ERROR_FILE.toString());
-            errorFile.createNewFile(); // does nothing if already exists
+            File errorFile = new File(FilePath.ERROR_LOG.toString());
+            var ignored = errorFile.createNewFile();
             PrintWriter errorWriter = new PrintWriter(new FileWriter(errorFile, true));
 
             errorline = errorline.replace("\n", " | ").replace("\r", "");
             errorWriter.printf("%s : %s: %s%n", getDate(), context.toUpperCase(), errorline);
-            IOUtils.stdout.printf("%s : %s: %s%n", getDate(), context.toUpperCase(), errorline);
+            IOUtils.stderr.printf("%s : %s: %s%n", getDate(), context.toUpperCase(), errorline);
             errorWriter.close();
-            return;
         } catch (IOException e) {
-            IOUtils.stdout.println(e);
+            IOUtils.stderr.println(e);
             System.exit(-1);
         }
     }
@@ -119,8 +116,8 @@ public final class Logger {
      */
     public static void error(String context, String errorline, Exception logE) {
         try {
-            File errorFile = new File(FilePaths.ERROR_FILE.toString());
-            errorFile.createNewFile(); // does nothing if already exists
+            File errorFile = new File(FilePath.ERROR_LOG.toString());
+            var ignored = errorFile.createNewFile();
             PrintWriter logWriter = new PrintWriter(new FileWriter(errorFile, true));
 
             StringWriter sw = new StringWriter();
@@ -128,11 +125,10 @@ public final class Logger {
             String stackTrace = sw.toString().replace("\t", " -> ").replace("\n", "").replace("\r", "");
             errorline = errorline.replace("\n", " | ").replace("\r", "");
             logWriter.printf("%s : %s: %s @ %s%n", getDate(), context.toUpperCase(), errorline, stackTrace);
-            IOUtils.stdout.printf("%s : %s: %s @ %s%n", getDate(), context.toUpperCase(), errorline, stackTrace);
+            IOUtils.stderr.printf("%s : %s: %s @ %s%n", getDate(), context.toUpperCase(), errorline, stackTrace);
             logWriter.close();
-            return;
         } catch (IOException e) {
-            IOUtils.stdout.println(e);
+            IOUtils.stderr.println(e);
             System.exit(-1);
         }
     }
@@ -152,8 +148,8 @@ public final class Logger {
     public static boolean clearErrorFile() {
         boolean successFlag = true;
         try {
-            File errorFile = new File(FilePaths.ERROR_FILE.toString());
-            errorFile.createNewFile();
+            File errorFile = new File(FilePath.ERROR_LOG.toString());
+            var ignored = errorFile.createNewFile();
             FileOutputStream errorStream = new FileOutputStream(errorFile, false);
             errorStream.close();
         } catch (IOException e) {

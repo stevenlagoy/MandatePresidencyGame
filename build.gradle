@@ -46,25 +46,35 @@ configure(subprojects) {
 
   apply plugin: 'org.jetbrains.kotlin.jvm'
 
-  // From https://lyze.dev/2021/04/29/libGDX-Internal-Assets-List/
-  // The article can be helpful when using assets.txt in your project.
-  tasks.register('generateAssetList') {
-    inputs.dir("${project.rootDir}/assets/")
-    // projectFolder/assets
-    File assetsFolder = new File("${project.rootDir}/assets/")
-    // projectFolder/assets/assets.txt
-    File assetsFile = new File(assetsFolder, "assets.txt")
-    // delete that file in case we've already created it
-    assetsFile.delete()
+  if (project.path != ':tools:mapcompiler') {
 
-    // iterate through all files inside that folder
-    // convert it to a relative path
-    // and append it to the file assets.txt
-    fileTree(assetsFolder).collect { assetsFolder.relativePath(it) }.sort().each {
-      assetsFile.append(it + "\n")
+    // From https://lyze.dev/2021/04/29/libGDX-Internal-Assets-List/
+    // The article can be helpful when using assets.txt in your project.
+    tasks.register('generateAssetList') {
+      inputs.dir("${project.rootDir}/assets/")
+      // projectFolder/assets
+      File assetsFolder = new File("${project.rootDir}/assets/")
+      // projectFolder/assets/assets.txt
+      File assetsFile = new File(assetsFolder, "assets.txt")
+      // delete that file in case we've already created it
+      assetsFile.delete()
+
+      // iterate through all files inside that folder
+      // convert it to a relative path
+      // and append it to the file assets.txt
+      fileTree(assetsFolder).collect { assetsFolder.relativePath(it) }.sort().each {
+        assetsFile.append(it + "\n")
+      }
+    }
+    processResources.dependsOn 'generateAssetList'
+
+    rootProject.afterEvaluate {
+      tasks.matching { it.name == 'processResources' }.configureEach {
+        dependsOn rootProject.tasks.named('copyRawAssets')
+        dependsOn rootProject.tasks.named('compileMapAssets')
+      }
     }
   }
-  processResources.dependsOn 'generateAssetList'
 
   compileJava {
     options.incremental = true
@@ -90,7 +100,78 @@ tasks.register('cleanAssets', Delete) {
 }
 
 tasks.register('copyRawAssets', Copy) {
-  dependsOn tasks.named("cleanAssets")
   from "${rootDir}/assets_raw"
   into "${rootDir}/assets"
+  exclude "maps/**" // Don't copy raw map PNG files - MapCompiler creates binaries
+  exclude "**/*.md" // Don't copy metadata
+}
+tasks.named('copyRawAssets') {
+  includeEmptyDirs = false
+}
+
+
+import org.gradle.api.tasks.*
+import org.gradle.work.ChangeType
+import org.gradle.work.Incremental
+import org.gradle.work.InputChanges
+
+import javax.inject.Inject
+
+abstract class CompileMapAssets extends DefaultTask {
+
+  @InputFiles
+  @Incremental
+  @PathSensitive(PathSensitivity.RELATIVE)
+  abstract ConfigurableFileCollection getMapPngs()
+
+  // Task reruns if the compiler's own code changes, not just a PNG
+  @Classpath
+  abstract ConfigurableFileCollection getCompilerClasspath()
+
+  @Internal
+  abstract DirectoryProperty getInputDir()
+
+  @OutputDirectory
+  abstract DirectoryProperty getOutputDir()
+
+  @Inject
+  abstract ExecOperations getExecOperations()
+
+  @TaskAction
+  void compile(InputChanges inputChanges) {
+    List<String> changedFileNames = []
+
+    inputChanges.getFileChanges(mapPngs).each { change ->
+      if (change.changeType != ChangeType.REMOVED) {
+        changedFileNames << change.file.name
+      }
+    }
+
+    if (changedFileNames.isEmpty()) {
+      logger.lifecycle("No changed map PNGs; skipping map compilation")
+      return
+    }
+
+    logger.lifecycle("Compiling changed map layers: ${changedFileNames.join(', ')}")
+
+    def result = execOperations.javaexec {
+      classpath = compilerClasspath
+      mainClass.set('com.stevenlagoy.presidency.tools.mapcompiler.MapCompilerKt')
+      args = [inputDir.get().asFile.absolutePath, outputDir.get().asFile.absolutePath] + changedFileNames
+    }
+    result.assertNormalExitValue()
+  }
+}
+
+tasks.register('compileMapAssets', CompileMapAssets) {
+  group = 'assets'
+  description = 'Processes changed source map PNGs into runtime binary files'
+
+  mapPngs.from(fileTree("${rootDir}/assets_raw/maps") { include '*.png' })
+  inputDir.set(file("${rootDir}/assets_raw/maps"))
+  outputDir.set(file("${rootDir}/assets/maps"))
+  compilerClasspath.from(project(':tools:mapcompiler').sourceSets.main.runtimeClasspath)
+
+  dependsOn project(':tools:mapcompiler').tasks.named('classes')
+  mustRunAfter tasks.named('copyRawAssets')
 }

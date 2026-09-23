@@ -39,12 +39,13 @@ public class FamilyTest {
             int _return = ENGINE.CHARACTER_MANAGER.FAMILY_MANAGER.chooseFamilySize();
             returns.merge(_return, 1, Integer::sum);
         }
-        System.out.println(returns.toString());
+        System.out.println(returns);
         returns.forEach((familySize, occurrences) -> {
             System.out.printf("%s\t - %s\t(%.3f%%)\t", familySize, occurrences, (float) occurrences / iterations * 100);
             for (int i = 0; i < occurrences; i += iterations / 100) System.out.print("#");
             System.out.println();
         });
+        assert(returns.keySet().stream().max(Comparator.naturalOrder()).isPresent());
         int maxKey = returns.keySet().stream().max(Comparator.naturalOrder()).get();
         assert(maxKey <= 36);
     }

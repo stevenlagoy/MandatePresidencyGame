@@ -1,0 +1,88 @@
+{
+    "FIPS" : "37",
+    "commonName" : "North Carolina",
+    "fullName" : "State of North Carolina",
+    "flagFile" : "north_carolina_flag.png",
+    "abbreviation" : "NC",
+    "type" : "state",
+    "demonym" : "North Carolinian",
+    "nickname" : "Tar Heel State",
+    "motto" : "Esse quam videri",
+    "capital" : "Raleigh",
+    "federalCourtCircuit" : 4,
+    "censusDivision" : "South Atlantic",
+    "descriptors" : [
+        "NORTH_CAROLINA",
+        "SOUTH",
+        "SOUTH_ATLANTIC"
+    ],
+    "allowedSubdivisionTypes" : [
+        "Civil Township",
+        "City",
+        "Census-Designated Place"
+    ],
+    "allowedPlaceTypes" : [
+        "Census-Designated Place"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "branches" : {
+            "executiveBranch" : {
+                "positions" : {
+                    "" : {
+                        "title" : ""
+                    }
+                }
+            },
+            "legislativeBranch" : {
+                "title" : "",
+                "chambers" : {
+                    "" : {
+                        "name" : "",
+                        "isUpperChamber" : true,
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    },
+                    "" : {
+                        "name" : "",
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    }
+                }
+            },
+            "judicialBranch" : {
+                "title" : "",
+                "supreme_court" : {
+                    "fullName" : "",
+                    "commonName" : "",
+                    "basis" : "",
+                    "judges" : 0,
+                    "appellate_courts" : {
+                        "" : {
+                            "fullName" : "",
+                            "basis" : "",
+                            "judges" : 0,
+                            "termLength" : 0,
+                            "nextElectionDate" : ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

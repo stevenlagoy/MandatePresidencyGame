@@ -1,7 +1,10 @@
 @file:JvmName("RandomUtils")
 package com.stevenlagoy.presidency.util
 
+import kotlin.math.exp
+import kotlin.math.ln
 import kotlin.math.max
+import kotlin.math.sin
 import kotlin.random.Random
 
 fun Random.chance(chance: Double): Boolean {
@@ -99,3 +102,95 @@ fun Random.probabilisticCount(probability: Double): Int {
 }
 @JvmOverloads
 fun probabilisticCount(probability: Double, random: Random = Random.Default) = random.probabilisticCount(probability)
+
+@JvmOverloads
+fun skewedDistribution(average: Double, min: Double = 0.0, max: Double = 1.0): (Double) -> Double {
+    require(average in min..max) { "Must satisfy min <= average <= max" }
+    val concentration = 6.0 // Higher = sharper / taller peak
+    // Normalize mode to [0, 1]
+    val mode = (average - min) / (max - min)
+    // Derive Beta shape parameters from desired mode
+    val alpha = mode * (concentration - 2.0) + 1.0
+    val beta = (1.0 - mode) * (concentration - 2.0) + 1.0
+    fun logGamma(x: Double): Double {
+        // Lanczos approximation
+        val g = 7
+        val c = doubleArrayOf(
+            0.9999999999998099,
+            676.5203681218851, -1259.1392167224028,
+            771.3234287776531, -176.6150291621406,
+            12.507343278686905, -0.13857109526572012,
+            9.984369578019572E-6, 1.5056327351493116e-7
+        )
+        var x = x
+        if (x < -0.5) return ln(Math.PI / sin(Math.PI * x)) - logGamma(1.0 - x)
+        x -= 1.0
+        var a = c[0]
+        val t = x + g + 0.5
+        for (i in 1..g + 1) a += c[i] / (x + i)
+        return 0.5 * ln(2.0 * Math.PI) + (x + 0.5) * ln(t) - t + ln(a)
+    }
+
+    val logBeta = logGamma(alpha) + logGamma(beta) - logGamma(alpha + beta)
+    // Compute PDF value at mode for normalization (so peak = 1.0)
+    val logPeakUnscaled = (alpha - 1.0) * ln(mode) + (beta - 1.0) * ln(1.0 - mode) - logBeta
+    val peakUnscaled = exp(logPeakUnscaled)
+    return { x: Double ->
+        if (x <= min || x >= max) { 0.0 }
+        else {
+            val t = (x - min) / (max - min) // Map to [0, 1]
+            val logPDF = (alpha - 1.0) * ln(t) + (beta - 1.0) * ln(1.0 - t) - logBeta
+            exp(logPDF) / peakUnscaled // Normalize so peak = 1.0
+        }
+    }
+}
+
+/**
+ * Sample a value from the given probability density function over [min, max] using rejection sampling.
+ * The PDF does not need to be normalized, but does need to be non-negative with [PDFMax] as an upper bound on its output over the domain.
+ *
+ * @param PDF    Function mapping a Double in [min, max] to a non-negative density.
+ * @param min    Lower bound of the domain
+ * @param max    Upper bound of the domain
+ * @param PDFMax Upper bound on the PDF's output. Defaults to 1.0 for normalized peaks (as given by [skewedDistribution]).
+ */
+fun Random.samplePDF(
+    PDF: (Double) -> Double,
+    min: Double,
+    max: Double,
+    PDFMax: Double = 1.0,
+) : Double {
+    while (true) {
+        val x = nextDouble(min, max)
+        val y = nextDouble(PDFMax)
+        if (y < PDF(x) || PDF(x).isNaN()) return x
+    }
+}
+@JvmOverloads @JvmName("randSamplePDF")
+fun samplePDF(
+    PDF: (Double) -> Double,
+    min: Double,
+    max: Double,
+    PDFMax: Double = 1.0,
+    random: Random = Random.Default
+) = random.samplePDF(PDF, min, max, PDFMax)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

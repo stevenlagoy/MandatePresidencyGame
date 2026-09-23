@@ -1,0 +1,88 @@
+{
+    "FIPS" : "22",
+    "commonName" : "Louisiana",
+    "fullName" : "State of Louisiana",
+    "flagFile" : "louisiana_flag.png",
+    "abbreviation" : "LA",
+    "type" : "state",
+    "demonym" : "Louisianian",
+    "nickname" : "Pelican State",
+    "motto" : "Union, justice, and confidence",
+    "capital" : "Baton Rouge",
+    "federalCourtCircuit" : 5,
+    "censusDivision" : "West South Central",
+    "descriptors" : [
+        "LOUISIANA",
+        "SOUTH",
+        "WEST_SOUTH_CENTRAL"
+    ],
+    "allowedSubdivisionTypes" : [
+        "Parish Governing District",
+        "City",
+        "Census-Designated Place"
+    ],
+    "allowedPlaceTypes" : [
+        "Census-Designated Place"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "branches" : {
+            "executiveBranch" : {
+                "positions" : {
+                    "" : {
+                        "title" : ""
+                    }
+                }
+            },
+            "legislativeBranch" : {
+                "title" : "",
+                "chambers" : {
+                    "" : {
+                        "name" : "",
+                        "isUpperChamber" : true,
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    },
+                    "" : {
+                        "name" : "",
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    }
+                }
+            },
+            "judicialBranch" : {
+                "title" : "",
+                "supreme_court" : {
+                    "fullName" : "",
+                    "commonName" : "",
+                    "basis" : "",
+                    "judges" : 0,
+                    "appellate_courts" : {
+                        "" : {
+                            "fullName" : "",
+                            "basis" : "",
+                            "judges" : 0,
+                            "termLength" : 0,
+                            "nextElectionDate" : ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

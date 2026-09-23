@@ -1,0 +1,1840 @@
+{
+    "Burlington, Chittenden County, Vermont" : {
+        "name" : "Burlington",
+        "state" : "50000",
+        "FIPS" : "50-10675",
+        "counties" : [
+            "50007"
+        ],
+        "type" : "City",
+        "population_2010" : 44743,
+        "population_2020" : 44743,
+        "population" : 45373,
+        "square_mileage" : 15.49
+    },
+    "South Burlington, Chittenden County, Vermont" : {
+        "name" : "South Burlington",
+        "state" : "50000",
+        "FIPS" : "50-66175",
+        "counties" : [
+            "50007"
+        ],
+        "type" : "City",
+        "population_2010" : 20292,
+        "population_2020" : 20292,
+        "population" : 20578,
+        "square_mileage" : 29.58
+    },
+    "Colchester, Chittenden County, Vermont" : {
+        "name" : "Colchester",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50007"
+        ],
+        "type" : "Town",
+        "population_2010" : 17524,
+        "population_2020" : 17524,
+        "population" : 17771,
+        "square_mileage" : 58.57
+    },
+    "Rutland City, Rutland County, Vermont" : {
+        "name" : "Rutland City",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50021"
+        ],
+        "type" : "City",
+        "population_2010" : 15807,
+        "population_2020" : 15807,
+        "population" : 16030,
+        "square_mileage" : 7.68
+    },
+    "Bennington, Bennington County, Vermont" : {
+        "name" : "Bennington",
+        "state" : "50000",
+        "FIPS" : "50-04750",
+        "counties" : [
+            "50003"
+        ],
+        "type" : "Town",
+        "population_2010" : 15333,
+        "population_2020" : 15333,
+        "population" : 15549,
+        "square_mileage" : 42.5
+    },
+    "Brattleboro, Windham County, Vermont" : {
+        "name" : "Brattleboro",
+        "state" : "50000",
+        "FIPS" : "50-07975",
+        "counties" : [
+            "50025"
+        ],
+        "type" : "Town",
+        "population_2010" : 12184,
+        "population_2020" : 12184,
+        "population" : 12356,
+        "square_mileage" : 32.41
+    },
+    "Essex, Chittenden County, Vermont" : {
+        "name" : "Essex",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50007"
+        ],
+        "type" : "Town",
+        "population_2010" : 11540,
+        "population_2020" : 11540,
+        "population" : 11703,
+        "square_mileage" : 39.32
+    },
+    "Milton, Chittenden County, Vermont" : {
+        "name" : "Milton",
+        "state" : "50000",
+        "FIPS" : "50-45175",
+        "counties" : [
+            "50007"
+        ],
+        "type" : "Town",
+        "population_2010" : 10723,
+        "population_2020" : 10723,
+        "population" : 10874,
+        "square_mileage" : 60.89
+    },
+    "Hartford, Windsor County, Vermont" : {
+        "name" : "Hartford",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50027"
+        ],
+        "type" : "Town",
+        "population_2010" : 10686,
+        "population_2020" : 10686,
+        "population" : 10837,
+        "square_mileage" : 45.88
+    },
+    "Essex Junction, Chittenden County, Vermont" : {
+        "name" : "Essex Junction",
+        "state" : "50000",
+        "FIPS" : "50-24400",
+        "counties" : [
+            "50007"
+        ],
+        "type" : "City",
+        "population_2010" : 10590,
+        "population_2020" : 10590,
+        "population" : 10739,
+        "square_mileage" : 4.74
+    },
+    "Williston, Chittenden County, Vermont" : {
+        "name" : "Williston",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50007"
+        ],
+        "type" : "Town",
+        "population_2010" : 10103,
+        "population_2020" : 10103,
+        "population" : 10245,
+        "square_mileage" : 30.58
+    },
+    "Middlebury, Addison County, Vermont" : {
+        "name" : "Middlebury",
+        "state" : "50000",
+        "FIPS" : "50-44275",
+        "counties" : [
+            "50001"
+        ],
+        "type" : "Town",
+        "population_2010" : 9152,
+        "population_2020" : 9152,
+        "population" : 9281,
+        "square_mileage" : 39.22
+    },
+    "Springfield, Windsor County, Vermont" : {
+        "name" : "Springfield",
+        "state" : "50000",
+        "FIPS" : "50-69475",
+        "counties" : [
+            "50027"
+        ],
+        "type" : "Town",
+        "population_2010" : 9062,
+        "population_2020" : 9062,
+        "population" : 9190,
+        "square_mileage" : 49.44
+    },
+    "Barre City, Washington County, Vermont" : {
+        "name" : "Barre City",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50023"
+        ],
+        "type" : "City",
+        "population_2010" : 8491,
+        "population_2020" : 8491,
+        "population" : 8611,
+        "square_mileage" : 3.98
+    },
+    "Montpelier, Washington County, Vermont" : {
+        "name" : "Montpelier",
+        "state" : "50000",
+        "FIPS" : "50-46000",
+        "counties" : [
+            "50023"
+        ],
+        "type" : "City",
+        "population_2010" : 8074,
+        "population_2020" : 8074,
+        "population" : 8188,
+        "square_mileage" : 10.25
+    },
+    "Winooski, Chittenden County, Vermont" : {
+        "name" : "Winooski",
+        "state" : "50000",
+        "FIPS" : "50-85150",
+        "counties" : [
+            "50007"
+        ],
+        "type" : "City",
+        "population_2010" : 7997,
+        "population_2020" : 7997,
+        "population" : 8110,
+        "square_mileage" : 1.51
+    },
+    "Barre Town, Washington County, Vermont" : {
+        "name" : "Barre Town",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50023"
+        ],
+        "type" : "Town",
+        "population_2010" : 7923,
+        "population_2020" : 7923,
+        "population" : 8035,
+        "square_mileage" : 30.72
+    },
+    "Shelburne, Chittenden County, Vermont" : {
+        "name" : "Shelburne",
+        "state" : "50000",
+        "FIPS" : "50-64225",
+        "counties" : [
+            "50007"
+        ],
+        "type" : "Town",
+        "population_2010" : 7717,
+        "population_2020" : 7717,
+        "population" : 7826,
+        "square_mileage" : 45.07
+    },
+    "St. Johnsbury, Caledonia County, Vermont" : {
+        "name" : "St. Johnsbury",
+        "state" : "50000",
+        "FIPS" : "50-62125",
+        "counties" : [
+            "50005"
+        ],
+        "type" : "Town",
+        "population_2010" : 7364,
+        "population_2020" : 7364,
+        "population" : 7468,
+        "square_mileage" : 36.74
+    },
+    "St. Albans Town, Franklin County, Vermont" : {
+        "name" : "St. Albans Town",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50011"
+        ],
+        "type" : "Town",
+        "population_2010" : 6988,
+        "population_2020" : 6988,
+        "population" : 7086,
+        "square_mileage" : 60.53
+    },
+    "St. Albans City, Franklin County, Vermont" : {
+        "name" : "St. Albans City",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50011"
+        ],
+        "type" : "City",
+        "population_2010" : 6887,
+        "population_2020" : 6887,
+        "population" : 6984,
+        "square_mileage" : 2.03
+    },
+    "Swanton Town, Franklin County, Vermont" : {
+        "name" : "Swanton Town",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50011"
+        ],
+        "type" : "Town",
+        "population_2010" : 6701,
+        "population_2020" : 6701,
+        "population" : 6795,
+        "square_mileage" : 61.67
+    },
+    "Northfield, Washington County, Vermont" : {
+        "name" : "Northfield",
+        "state" : "50000",
+        "FIPS" : "50-50200",
+        "counties" : [
+            "50023"
+        ],
+        "type" : "Town",
+        "population_2010" : 5918,
+        "population_2020" : 5918,
+        "population" : 6001,
+        "square_mileage" : 43.63
+    },
+    "Lyndon, Caledonia County, Vermont" : {
+        "name" : "Lyndon",
+        "state" : "50000",
+        "FIPS" : "50-41650",
+        "counties" : [
+            "50005"
+        ],
+        "type" : "Town",
+        "population_2010" : 5491,
+        "population_2020" : 5491,
+        "population" : 5568,
+        "square_mileage" : 39.82
+    },
+    "Morristown, Lamoille County, Vermont" : {
+        "name" : "Morristown",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50015"
+        ],
+        "type" : "Town",
+        "population_2010" : 5434,
+        "population_2020" : 5434,
+        "population" : 5511,
+        "square_mileage" : 51.68
+    },
+    "Waterbury, Washington County, Vermont" : {
+        "name" : "Waterbury",
+        "state" : "50000",
+        "FIPS" : "50-76900",
+        "counties" : [
+            "50023"
+        ],
+        "type" : "Town",
+        "population_2010" : 5331,
+        "population_2020" : 5331,
+        "population" : 5406,
+        "square_mileage" : 49.76
+    },
+    "Stowe, Lamoille County, Vermont" : {
+        "name" : "Stowe",
+        "state" : "50000",
+        "FIPS" : "50-70525",
+        "counties" : [
+            "50015"
+        ],
+        "type" : "Town",
+        "population" : 5223,
+        "square_mileage" : 72.76
+    },
+    "Jericho, Chittenden County, Vermont" : {
+        "name" : "Jericho",
+        "state" : "50000",
+        "FIPS" : "50-36625",
+        "counties" : [
+            "50007"
+        ],
+        "type" : "Town",
+        "population_2010" : 5104,
+        "population_2020" : 5104,
+        "population" : 5176,
+        "square_mileage" : 35.55
+    },
+    "Georgia, Franklin County, Vermont" : {
+        "name" : "Georgia",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50011"
+        ],
+        "type" : "Town",
+        "population_2010" : 4845,
+        "population_2020" : 4845,
+        "population" : 4913,
+        "square_mileage" : 45.22
+    },
+    "Randolph, Orange County, Vermont" : {
+        "name" : "Randolph",
+        "state" : "50000",
+        "FIPS" : "50-58000",
+        "counties" : [
+            "50017"
+        ],
+        "type" : "Town",
+        "population_2010" : 4774,
+        "population_2020" : 4774,
+        "population" : 4841,
+        "square_mileage" : 48.2
+    },
+    "Derby, Orleans County, Vermont" : {
+        "name" : "Derby",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50019"
+        ],
+        "type" : "Town",
+        "population_2010" : 4579,
+        "population_2020" : 4579,
+        "population" : 4643,
+        "square_mileage" : 57.6
+    },
+    "Castleton, Rutland County, Vermont" : {
+        "name" : "Castleton",
+        "state" : "50000",
+        "FIPS" : "50-11875",
+        "counties" : [
+            "50021"
+        ],
+        "type" : "Town",
+        "population_2010" : 4458,
+        "population_2020" : 4458,
+        "population" : 4521,
+        "square_mileage" : 42.35
+    },
+    "Newport City, Orleans County, Vermont" : {
+        "name" : "Newport City",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50019"
+        ],
+        "type" : "City",
+        "population" : 4455,
+        "square_mileage" : 0.0
+    },
+    "Richmond, Chittenden County, Vermont" : {
+        "name" : "Richmond",
+        "state" : "50000",
+        "FIPS" : "50-59200",
+        "counties" : [
+            "50007"
+        ],
+        "type" : "Town",
+        "population_2010" : 4167,
+        "population_2020" : 4167,
+        "population" : 4226,
+        "square_mileage" : 32.75
+    },
+    "Rutland Town, Rutland County, Vermont" : {
+        "name" : "Rutland Town",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50021"
+        ],
+        "type" : "Town",
+        "population_2010" : 3924,
+        "population_2020" : 3924,
+        "population" : 3979,
+        "square_mileage" : 19.34
+    },
+    "Charlotte, Chittenden County, Vermont" : {
+        "name" : "Charlotte",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50007"
+        ],
+        "type" : "Town",
+        "population_2010" : 3783,
+        "population_2020" : 3783,
+        "population" : 3836,
+        "square_mileage" : 50.36
+    },
+    "Norwich, Windsor County, Vermont" : {
+        "name" : "Norwich",
+        "state" : "50000",
+        "FIPS" : "50-52825",
+        "counties" : [
+            "50027"
+        ],
+        "type" : "Town",
+        "population_2010" : 3612,
+        "population_2020" : 3612,
+        "population" : 3663,
+        "square_mileage" : 44.68
+    },
+    "Windsor, Windsor County, Vermont" : {
+        "name" : "Windsor",
+        "state" : "50000",
+        "FIPS" : "50-85000",
+        "counties" : [
+            "50027"
+        ],
+        "type" : "Town",
+        "population_2010" : 3559,
+        "population_2020" : 3559,
+        "population" : 3609,
+        "square_mileage" : 19.75
+    },
+    "Johnson, Lamoille County, Vermont" : {
+        "name" : "Johnson",
+        "state" : "50000",
+        "FIPS" : "50-37000",
+        "counties" : [
+            "50015"
+        ],
+        "type" : "Town",
+        "population_2010" : 3491,
+        "population_2020" : 3491,
+        "population" : 3540,
+        "square_mileage" : 45.09
+    },
+    "Hartland, Windsor County, Vermont" : {
+        "name" : "Hartland",
+        "state" : "50000",
+        "FIPS" : "50-32350",
+        "counties" : [
+            "50027"
+        ],
+        "type" : "Town",
+        "population_2010" : 3446,
+        "population_2020" : 3446,
+        "population" : 3495,
+        "square_mileage" : 45.2
+    },
+    "Underhill, Chittenden County, Vermont" : {
+        "name" : "Underhill",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50007"
+        ],
+        "type" : "Town",
+        "population_2010" : 3129,
+        "population_2020" : 3129,
+        "population" : 3173,
+        "square_mileage" : 51.4
+    },
+    "Hyde Park, Lamoille County, Vermont" : {
+        "name" : "Hyde Park",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50015"
+        ],
+        "type" : "Town",
+        "population_2010" : 3020,
+        "population_2020" : 3020,
+        "population" : 3063,
+        "square_mileage" : 43.96
+    },
+    "Westminster Town, Windham County, Vermont" : {
+        "name" : "Westminster Town",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50025"
+        ],
+        "type" : "Town",
+        "population_2010" : 3016,
+        "population_2020" : 3016,
+        "population" : 3058,
+        "square_mileage" : 46.09
+    },
+    "Chester, Windsor County, Vermont" : {
+        "name" : "Chester",
+        "state" : "50000",
+        "FIPS" : "50-13600",
+        "counties" : [
+            "50027"
+        ],
+        "type" : "Town",
+        "population_2010" : 3005,
+        "population_2020" : 3005,
+        "population" : 3047,
+        "square_mileage" : 55.94
+    },
+    "Woodstock, Windsor County, Vermont" : {
+        "name" : "Woodstock",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50027"
+        ],
+        "type" : "Town",
+        "population_2010" : 2920,
+        "population_2020" : 2920,
+        "population" : 2961,
+        "square_mileage" : 39.02
+    },
+    "Barton, Orleans County, Vermont" : {
+        "name" : "Barton",
+        "state" : "50000",
+        "FIPS" : "50-03475",
+        "counties" : [
+            "50019"
+        ],
+        "type" : "Town",
+        "population_2010" : 2872,
+        "population_2020" : 2872,
+        "population" : 2912,
+        "square_mileage" : 44.88
+    },
+    "Berlin, Washington County, Vermont" : {
+        "name" : "Berlin",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50023"
+        ],
+        "type" : "Town",
+        "population_2010" : 2849,
+        "population_2020" : 2849,
+        "population" : 2889,
+        "square_mileage" : 36.94
+    },
+    "Enosburgh, Franklin County, Vermont" : {
+        "name" : "Enosburgh",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50011"
+        ],
+        "type" : "Town",
+        "population_2010" : 2810,
+        "population_2020" : 2810,
+        "population" : 2850,
+        "square_mileage" : 48.72
+    },
+    "Thetford, Orange County, Vermont" : {
+        "name" : "Thetford",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50017"
+        ],
+        "type" : "Town",
+        "population_2010" : 2775,
+        "population_2020" : 2775,
+        "population" : 2814,
+        "square_mileage" : 44.43
+    },
+    "Fair Haven, Rutland County, Vermont" : {
+        "name" : "Fair Haven",
+        "state" : "50000",
+        "FIPS" : "50-25450",
+        "counties" : [
+            "50021"
+        ],
+        "type" : "Town",
+        "population_2010" : 2736,
+        "population_2020" : 2736,
+        "population" : 2775,
+        "square_mileage" : 18.15
+    },
+    "Putney, Windham County, Vermont" : {
+        "name" : "Putney",
+        "state" : "50000",
+        "FIPS" : "50-57625",
+        "counties" : [
+            "50025"
+        ],
+        "type" : "Town",
+        "population_2010" : 2617,
+        "population_2020" : 2617,
+        "population" : 2654,
+        "square_mileage" : 26.83
+    },
+    "Vergennes, Addison County, Vermont" : {
+        "name" : "Vergennes",
+        "state" : "50000",
+        "FIPS" : "50-74650",
+        "counties" : [
+            "50001"
+        ],
+        "type" : "City",
+        "population_2010" : 2553,
+        "population_2020" : 2553,
+        "population" : 2589,
+        "square_mileage" : 2.51
+    },
+    "Arlington, Bennington County, Vermont" : {
+        "name" : "Arlington",
+        "state" : "50000",
+        "FIPS" : "50-01375",
+        "counties" : [
+            "50003"
+        ],
+        "type" : "Town",
+        "population_2010" : 2457,
+        "population_2020" : 2457,
+        "population" : 2492,
+        "square_mileage" : 42.43
+    },
+    "Richford, Franklin County, Vermont" : {
+        "name" : "Richford",
+        "state" : "50000",
+        "FIPS" : "50-59050",
+        "counties" : [
+            "50011"
+        ],
+        "type" : "Town",
+        "population_2010" : 2346,
+        "population_2020" : 2346,
+        "population" : 2379,
+        "square_mileage" : 43.29
+    },
+    "Newbury Town, Orange County, Vermont" : {
+        "name" : "Newbury Town",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50017"
+        ],
+        "type" : "Town",
+        "population_2010" : 2293,
+        "population_2020" : 2293,
+        "population" : 2325,
+        "square_mileage" : 64.81
+    },
+    "West Rutland, Rutland County, Vermont" : {
+        "name" : "West Rutland",
+        "state" : "50000",
+        "FIPS" : "50-82375",
+        "counties" : [
+            "50021"
+        ],
+        "type" : "Town",
+        "population_2010" : 2214,
+        "population_2020" : 2214,
+        "population" : 2245,
+        "square_mileage" : 17.98
+    },
+    "Ludlow Town, Windsor County, Vermont" : {
+        "name" : "Ludlow Town",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50027"
+        ],
+        "type" : "Town",
+        "population_2010" : 2172,
+        "population_2020" : 2172,
+        "population" : 2203,
+        "square_mileage" : 35.7
+    },
+    "Dorset, Bennington County, Vermont" : {
+        "name" : "Dorset",
+        "state" : "50000",
+        "FIPS" : "50-17650",
+        "counties" : [
+            "50003"
+        ],
+        "type" : "Town",
+        "population_2010" : 2133,
+        "population_2020" : 2133,
+        "population" : 2163,
+        "square_mileage" : 47.88
+    },
+    "Guilford, Windham County, Vermont" : {
+        "name" : "Guilford",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50025"
+        ],
+        "type" : "Town",
+        "population_2010" : 2120,
+        "population_2020" : 2120,
+        "population" : 2150,
+        "square_mileage" : 39.96
+    },
+    "Grand Isle, Grand Isle County, Vermont" : {
+        "name" : "Grand Isle",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50013"
+        ],
+        "type" : "Town",
+        "population_2010" : 2086,
+        "population_2020" : 2086,
+        "population" : 2115,
+        "square_mileage" : 35.13
+    },
+    "Westford, Chittenden County, Vermont" : {
+        "name" : "Westford",
+        "state" : "50000",
+        "FIPS" : "50-80275",
+        "counties" : [
+            "50007"
+        ],
+        "type" : "Town",
+        "population_2010" : 2062,
+        "population_2020" : 2062,
+        "population" : 2091,
+        "square_mileage" : 39.29
+    },
+    "Warren, Washington County, Vermont" : {
+        "name" : "Warren",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50023"
+        ],
+        "type" : "Town",
+        "population_2010" : 1977,
+        "population_2020" : 1977,
+        "population" : 2005,
+        "square_mileage" : 39.98
+    },
+    "Huntington, Chittenden County, Vermont" : {
+        "name" : "Huntington",
+        "state" : "50000",
+        "FIPS" : "50-34525",
+        "counties" : [
+            "50007"
+        ],
+        "type" : "Town",
+        "population_2010" : 1934,
+        "population_2020" : 1934,
+        "population" : 1961,
+        "square_mileage" : 38.04
+    },
+    "Dummerston, Windham County, Vermont" : {
+        "name" : "Dummerston",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50025"
+        ],
+        "type" : "Town",
+        "population_2010" : 1865,
+        "population_2020" : 1865,
+        "population" : 1891,
+        "square_mileage" : 30.83
+    },
+    "Dover, Windham County, Vermont" : {
+        "name" : "Dover",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50025"
+        ],
+        "type" : "Town",
+        "population_2010" : 1798,
+        "population_2020" : 1798,
+        "population" : 1823,
+        "square_mileage" : 35.33
+    },
+    "Proctor, Rutland County, Vermont" : {
+        "name" : "Proctor",
+        "state" : "50000",
+        "FIPS" : "50-57246",
+        "counties" : [
+            "50021"
+        ],
+        "type" : "Town",
+        "population_2010" : 1763,
+        "population_2020" : 1763,
+        "population" : 1788,
+        "square_mileage" : 7.6
+    },
+    "Moretown, Washington County, Vermont" : {
+        "name" : "Moretown",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50023"
+        ],
+        "type" : "Town",
+        "population_2010" : 1753,
+        "population_2020" : 1753,
+        "population" : 1778,
+        "square_mileage" : 40.21
+    },
+    "Troy, Orleans County, Vermont" : {
+        "name" : "Troy",
+        "state" : "50000",
+        "FIPS" : "50-73450",
+        "counties" : [
+            "50019"
+        ],
+        "type" : "Town",
+        "population_2010" : 1722,
+        "population_2020" : 1722,
+        "population" : 1746,
+        "square_mileage" : 36.05
+    },
+    "South Hero, Grand Isle County, Vermont" : {
+        "name" : "South Hero",
+        "state" : "50000",
+        "FIPS" : "50-66925",
+        "counties" : [
+            "50013"
+        ],
+        "type" : "Town",
+        "population_2010" : 1674,
+        "population_2020" : 1674,
+        "population" : 1698,
+        "square_mileage" : 47.49
+    },
+    "Barnet, Caledonia County, Vermont" : {
+        "name" : "Barnet",
+        "state" : "50000",
+        "FIPS" : "50-02800",
+        "counties" : [
+            "50005"
+        ],
+        "type" : "Town",
+        "population_2010" : 1663,
+        "population_2020" : 1663,
+        "population" : 1686,
+        "square_mileage" : 43.58
+    },
+    "Burke, Caledonia County, Vermont" : {
+        "name" : "Burke",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50005"
+        ],
+        "type" : "Town",
+        "population_2010" : 1651,
+        "population_2020" : 1651,
+        "population" : 1674,
+        "square_mileage" : 34.03
+    },
+    "Newfane, Windham County, Vermont" : {
+        "name" : "Newfane",
+        "state" : "50000",
+        "FIPS" : "50-48400",
+        "counties" : [
+            "50025"
+        ],
+        "type" : "Town",
+        "population" : 1645,
+        "square_mileage" : 43.43
+    },
+    "Marshfield, Washington County, Vermont" : {
+        "name" : "Marshfield",
+        "state" : "50000",
+        "FIPS" : "50-05658",
+        "counties" : [
+            "50023"
+        ],
+        "type" : "Town",
+        "population" : 1583,
+        "square_mileage" : 43.4
+    },
+    "Sharon, Windsor County, Vermont" : {
+        "name" : "Sharon",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50027"
+        ],
+        "type" : "Town",
+        "population_2010" : 1560,
+        "population_2020" : 1560,
+        "population" : 1582,
+        "square_mileage" : 40.16
+    },
+    "Newport Town, Orleans County, Vermont" : {
+        "name" : "Newport Town",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50019"
+        ],
+        "type" : "Town",
+        "population_2010" : 1526,
+        "population_2020" : 1526,
+        "population" : 1547,
+        "square_mileage" : 43.52
+    },
+    "Corinth, Orange County, Vermont" : {
+        "name" : "Corinth",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50017"
+        ],
+        "type" : "Town",
+        "population_2010" : 1455,
+        "population_2020" : 1455,
+        "population" : 1475,
+        "square_mileage" : 48.55
+    },
+    "Pawlet, Rutland County, Vermont" : {
+        "name" : "Pawlet",
+        "state" : "50000",
+        "FIPS" : "50-54175",
+        "counties" : [
+            "50021"
+        ],
+        "type" : "Town",
+        "population_2010" : 1424,
+        "population_2020" : 1424,
+        "population" : 1444,
+        "square_mileage" : 42.9
+    },
+    "Killington, Rutland County, Vermont" : {
+        "name" : "Killington",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50021"
+        ],
+        "type" : "Town",
+        "population_2010" : 1407,
+        "population_2020" : 1407,
+        "population" : 1427,
+        "square_mileage" : 46.86
+    },
+    "Mount Holly, Rutland County, Vermont" : {
+        "name" : "Mount Holly",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50021"
+        ],
+        "type" : "Town",
+        "population_2010" : 1385,
+        "population_2020" : 1385,
+        "population" : 1405,
+        "square_mileage" : 49.57
+    },
+    "Fayston, Washington County, Vermont" : {
+        "name" : "Fayston",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50023"
+        ],
+        "type" : "Town",
+        "population_2010" : 1364,
+        "population_2020" : 1364,
+        "population" : 1383,
+        "square_mileage" : 36.45
+    },
+    "Fletcher, Franklin County, Vermont" : {
+        "name" : "Fletcher",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50011"
+        ],
+        "type" : "Town",
+        "population_2010" : 1346,
+        "population_2020" : 1346,
+        "population" : 1365,
+        "square_mileage" : 38.0
+    },
+    "Whitingham, Windham County, Vermont" : {
+        "name" : "Whitingham",
+        "state" : "50000",
+        "FIPS" : "50-83875",
+        "counties" : [
+            "50025"
+        ],
+        "type" : "Town",
+        "population_2010" : 1344,
+        "population_2020" : 1344,
+        "population" : 1363,
+        "square_mileage" : 38.87
+    },
+    "Eden, Lamoille County, Vermont" : {
+        "name" : "Eden",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50015"
+        ],
+        "type" : "Town",
+        "population_2010" : 1338,
+        "population_2020" : 1338,
+        "population" : 1357,
+        "square_mileage" : 64.29
+    },
+    "Lincoln, Addison County, Vermont" : {
+        "name" : "Lincoln",
+        "state" : "50000",
+        "FIPS" : "50-40000",
+        "counties" : [
+            "50001"
+        ],
+        "type" : "Town",
+        "population_2010" : 1323,
+        "population_2020" : 1323,
+        "population" : 1342,
+        "square_mileage" : 44.6
+    },
+    "Townshend, Windham County, Vermont" : {
+        "name" : "Townshend",
+        "state" : "50000",
+        "FIPS" : "50-73225",
+        "counties" : [
+            "50025"
+        ],
+        "type" : "Town",
+        "population_2010" : 1291,
+        "population_2020" : 1291,
+        "population" : 1309,
+        "square_mileage" : 42.67
+    },
+    "Bakersfield, Franklin County, Vermont" : {
+        "name" : "Bakersfield",
+        "state" : "50000",
+        "FIPS" : "50-02425",
+        "counties" : [
+            "50011"
+        ],
+        "type" : "Town",
+        "population_2010" : 1273,
+        "population_2020" : 1273,
+        "population" : 1291,
+        "square_mileage" : 44.63
+    },
+    "Shoreham, Addison County, Vermont" : {
+        "name" : "Shoreham",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50001"
+        ],
+        "type" : "Town",
+        "population_2010" : 1260,
+        "population_2020" : 1260,
+        "population" : 1278,
+        "square_mileage" : 46.39
+    },
+    "Brookfield, Orange County, Vermont" : {
+        "name" : "Brookfield",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50017"
+        ],
+        "type" : "Town",
+        "population_2010" : 1244,
+        "population_2020" : 1244,
+        "population" : 1262,
+        "square_mileage" : 41.15
+    },
+    "Chittenden, Rutland County, Vermont" : {
+        "name" : "Chittenden",
+        "state" : "50000",
+        "FIPS" : "50-14275",
+        "counties" : [
+            "50021"
+        ],
+        "type" : "Town",
+        "population_2010" : 1237,
+        "population_2020" : 1237,
+        "population" : 1254,
+        "square_mileage" : 73.8
+    },
+    "Chelsea, Orange County, Vermont" : {
+        "name" : "Chelsea",
+        "state" : "50000",
+        "FIPS" : "50-13450",
+        "counties" : [
+            "50017"
+        ],
+        "type" : "Town",
+        "population_2010" : 1233,
+        "population_2020" : 1233,
+        "population" : 1250,
+        "square_mileage" : 39.94
+    },
+    "Bridport, Addison County, Vermont" : {
+        "name" : "Bridport",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50001"
+        ],
+        "type" : "Town",
+        "population_2010" : 1225,
+        "population_2020" : 1225,
+        "population" : 1242,
+        "square_mileage" : 46.31
+    },
+    "Wells, Rutland County, Vermont" : {
+        "name" : "Wells",
+        "state" : "50000",
+        "FIPS" : "50-77875",
+        "counties" : [
+            "50021"
+        ],
+        "type" : "Town",
+        "population_2010" : 1214,
+        "population_2020" : 1214,
+        "population" : 1231,
+        "square_mileage" : 22.99
+    },
+    "Cornwall, Addison County, Vermont" : {
+        "name" : "Cornwall",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50001"
+        ],
+        "type" : "Town",
+        "population_2010" : 1207,
+        "population_2020" : 1207,
+        "population" : 1224,
+        "square_mileage" : 28.61
+    },
+    "Montgomery, Franklin County, Vermont" : {
+        "name" : "Montgomery",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50011"
+        ],
+        "type" : "Town",
+        "population_2010" : 1184,
+        "population_2020" : 1184,
+        "population" : 1201,
+        "square_mileage" : 56.7
+    },
+    "Ryegate, Caledonia County, Vermont" : {
+        "name" : "Ryegate",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50005"
+        ],
+        "type" : "Town",
+        "population_2010" : 1165,
+        "population_2020" : 1165,
+        "population" : 1181,
+        "square_mileage" : 36.77
+    },
+    "Mendon, Rutland County, Vermont" : {
+        "name" : "Mendon",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50021"
+        ],
+        "type" : "Town",
+        "population_2010" : 1149,
+        "population_2020" : 1149,
+        "population" : 1165,
+        "square_mileage" : 38.09
+    },
+    "Glover, Orleans County, Vermont" : {
+        "name" : "Glover",
+        "state" : "50000",
+        "FIPS" : "50-28000",
+        "counties" : [
+            "50019"
+        ],
+        "type" : "Town",
+        "population_2010" : 1114,
+        "population_2020" : 1114,
+        "population" : 1130,
+        "square_mileage" : 38.61
+    },
+    "Rochester, Windsor County, Vermont" : {
+        "name" : "Rochester",
+        "state" : "50000",
+        "FIPS" : "50-60025",
+        "counties" : [
+            "50027"
+        ],
+        "type" : "Town",
+        "population_2010" : 1099,
+        "population_2020" : 1099,
+        "population" : 1114,
+        "square_mileage" : 57.38
+    },
+    "Strafford, Orange County, Vermont" : {
+        "name" : "Strafford",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50017"
+        ],
+        "type" : "Town",
+        "population_2010" : 1094,
+        "population_2020" : 1094,
+        "population" : 1109,
+        "square_mileage" : 44.3
+    },
+    "Orange, Orange County, Vermont" : {
+        "name" : "Orange",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50017"
+        ],
+        "type" : "Town",
+        "population_2010" : 1048,
+        "population_2020" : 1048,
+        "population" : 1063,
+        "square_mileage" : 39.01
+    },
+    "Washington, Orange County, Vermont" : {
+        "name" : "53000",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50017"
+        ],
+        "type" : "Town",
+        "population_2010" : 1032,
+        "population_2020" : 1032,
+        "population" : 1047,
+        "square_mileage" : 38.87
+    },
+    "Jamaica, Windham County, Vermont" : {
+        "name" : "Jamaica",
+        "state" : "50000",
+        "FIPS" : "50-36100",
+        "counties" : [
+            "50025"
+        ],
+        "type" : "Town",
+        "population_2010" : 1005,
+        "population_2020" : 1005,
+        "population" : 1019,
+        "square_mileage" : 49.46
+    },
+    "Leicester, Addison County, Vermont" : {
+        "name" : "Leicester",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50001"
+        ],
+        "type" : "Town",
+        "population_2010" : 990,
+        "population_2020" : 990,
+        "population" : 1004,
+        "square_mileage" : 21.78
+    },
+    "Groton, Caledonia County, Vermont" : {
+        "name" : "Groton",
+        "state" : "50000",
+        "FIPS" : "50-30475",
+        "counties" : [
+            "50005"
+        ],
+        "type" : "Town",
+        "population_2010" : 984,
+        "population_2020" : 984,
+        "population" : 998,
+        "square_mileage" : 54.96
+    },
+    "Benson, Rutland County, Vermont" : {
+        "name" : "Benson",
+        "state" : "50000",
+        "FIPS" : "50-05125",
+        "counties" : [
+            "50021"
+        ],
+        "type" : "Town",
+        "population_2010" : 974,
+        "population_2020" : 974,
+        "population" : 988,
+        "square_mileage" : 45.52
+    },
+    "Walden, Caledonia County, Vermont" : {
+        "name" : "Walden",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50005"
+        ],
+        "type" : "Town",
+        "population_2010" : 956,
+        "population_2020" : 956,
+        "population" : 969,
+        "square_mileage" : 38.94
+    },
+    "Pomfret, Windsor County, Vermont" : {
+        "name" : "Pomfret",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50027"
+        ],
+        "type" : "Town",
+        "population_2010" : 916,
+        "population_2020" : 916,
+        "population" : 929,
+        "square_mileage" : 39.47
+    },
+    "Bridgewater, Windsor County, Vermont" : {
+        "name" : "Bridgewater",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50027"
+        ],
+        "type" : "Town",
+        "population_2010" : 903,
+        "population_2020" : 903,
+        "population" : 916,
+        "square_mileage" : 49.54
+    },
+    "Lowell, Orleans County, Vermont" : {
+        "name" : "Lowell",
+        "state" : "50000",
+        "FIPS" : "50-40450",
+        "counties" : [
+            "50019"
+        ],
+        "type" : "Town",
+        "population_2010" : 887,
+        "population_2020" : 887,
+        "population" : 899,
+        "square_mileage" : 56.08
+    },
+    "Wardsboro, Windham County, Vermont" : {
+        "name" : "Wardsboro",
+        "state" : "50000",
+        "FIPS" : "50-76150",
+        "counties" : [
+            "50025"
+        ],
+        "type" : "Town",
+        "population_2010" : 869,
+        "population_2020" : 869,
+        "population" : 881,
+        "square_mileage" : 29.23
+    },
+    "Weybridge, Addison County, Vermont" : {
+        "name" : "Weybridge",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50001"
+        ],
+        "type" : "Town",
+        "population_2010" : 814,
+        "population_2020" : 814,
+        "population" : 825,
+        "square_mileage" : 17.61
+    },
+    "Middletown Springs, Rutland County, Vermont" : {
+        "name" : "Middletown Springs",
+        "state" : "50000",
+        "FIPS" : "50-44725",
+        "counties" : [
+            "50021"
+        ],
+        "type" : "Town",
+        "population_2010" : 794,
+        "population_2020" : 794,
+        "population" : 805,
+        "square_mileage" : 22.32
+    },
+    "Halifax, Windham County, Vermont" : {
+        "name" : "Halifax",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50025"
+        ],
+        "type" : "Town",
+        "population_2010" : 771,
+        "population_2020" : 771,
+        "population" : 782,
+        "square_mileage" : 39.81
+    },
+    "Ripton, Addison County, Vermont" : {
+        "name" : "Ripton",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50001"
+        ],
+        "type" : "Town",
+        "population_2010" : 739,
+        "population_2020" : 739,
+        "population" : 749,
+        "square_mileage" : 49.86
+    },
+    "Stockbridge, Windsor County, Vermont" : {
+        "name" : "Stockbridge",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50027"
+        ],
+        "type" : "Town",
+        "population_2010" : 718,
+        "population_2020" : 718,
+        "population" : 728,
+        "square_mileage" : 46.17
+    },
+    "Readsboro, Bennington County, Vermont" : {
+        "name" : "Readsboro",
+        "state" : "50000",
+        "FIPS" : "50-58525",
+        "counties" : [
+            "50003"
+        ],
+        "type" : "Town",
+        "population_2010" : 702,
+        "population_2020" : 702,
+        "population" : 712,
+        "square_mileage" : 36.48
+    },
+    "Reading, Windsor County, Vermont" : {
+        "name" : "Reading",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50027"
+        ],
+        "type" : "Town",
+        "population_2010" : 687,
+        "population_2020" : 687,
+        "population" : 697,
+        "square_mileage" : 41.65
+    },
+    "Sheffield, Caledonia County, Vermont" : {
+        "name" : "Sheffield",
+        "state" : "50000",
+        "FIPS" : "50-64000",
+        "counties" : [
+            "50005"
+        ],
+        "type" : "Town",
+        "population_2010" : 682,
+        "population_2020" : 682,
+        "population" : 692,
+        "square_mileage" : 32.77
+    },
+    "Vershire, Orange County, Vermont" : {
+        "name" : "Vershire",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50017"
+        ],
+        "type" : "Town",
+        "population_2010" : 672,
+        "population_2020" : 672,
+        "population" : 681,
+        "square_mileage" : 36.54
+    },
+    "Grafton, Windham County, Vermont" : {
+        "name" : "Grafton",
+        "state" : "50000",
+        "FIPS" : "50-28825",
+        "counties" : [
+            "50025"
+        ],
+        "type" : "Town",
+        "population_2010" : 645,
+        "population_2020" : 645,
+        "population" : 654,
+        "square_mileage" : 38.37
+    },
+    "Morgan, Orleans County, Vermont" : {
+        "name" : "Morgan",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50019"
+        ],
+        "type" : "Town",
+        "population_2010" : 638,
+        "population_2020" : 638,
+        "population" : 647,
+        "square_mileage" : 33.82
+    },
+    "Weston, Windsor County, Vermont" : {
+        "name" : "Weston",
+        "state" : "50000",
+        "FIPS" : "50-81925",
+        "counties" : [
+            "50027"
+        ],
+        "type" : "Town",
+        "population_2010" : 623,
+        "population_2020" : 623,
+        "population" : 632,
+        "square_mileage" : 35.17
+    },
+    "Newark, Caledonia County, Vermont" : {
+        "name" : "Newark",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50005"
+        ],
+        "type" : "Town",
+        "population_2010" : 584,
+        "population_2020" : 584,
+        "population" : 592,
+        "square_mileage" : 37.21
+    },
+    "Andover, Windsor County, Vermont" : {
+        "name" : "Andover",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50027"
+        ],
+        "type" : "Town",
+        "population_2010" : 568,
+        "population_2020" : 568,
+        "population" : 576,
+        "square_mileage" : 28.78
+    },
+    "Jay, Orleans County, Vermont" : {
+        "name" : "Jay",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50019"
+        ],
+        "type" : "Town",
+        "population_2010" : 551,
+        "population_2020" : 551,
+        "population" : 559,
+        "square_mileage" : 33.97
+    },
+    "Brookline, Windham County, Vermont" : {
+        "name" : "Brookline",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50025"
+        ],
+        "type" : "Town",
+        "population_2010" : 540,
+        "population_2020" : 540,
+        "population" : 548,
+        "square_mileage" : 12.9
+    },
+    "Peru, Bennington County, Vermont" : {
+        "name" : "Peru",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50003"
+        ],
+        "type" : "Town",
+        "population_2010" : 531,
+        "population_2020" : 531,
+        "population" : 538,
+        "square_mileage" : 37.34
+    },
+    "Isle La Motte, Grand Isle County, Vermont" : {
+        "name" : "Isle La Motte",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50013"
+        ],
+        "type" : "Town",
+        "population_2010" : 488,
+        "population_2020" : 488,
+        "population" : 495,
+        "square_mileage" : 16.66
+    },
+    "Waltham, Addison County, Vermont" : {
+        "name" : "Waltham",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50001"
+        ],
+        "type" : "Town",
+        "population_2010" : 446,
+        "population_2020" : 446,
+        "population" : 452,
+        "square_mileage" : 9.06
+    },
+    "Whiting, Addison County, Vermont" : {
+        "name" : "Whiting",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50001"
+        ],
+        "type" : "Town",
+        "population_2010" : 405,
+        "population_2020" : 405,
+        "population" : 411,
+        "square_mileage" : 13.7
+    },
+    "Athens, Windham County, Vermont" : {
+        "name" : "Athens",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50025"
+        ],
+        "type" : "Town",
+        "population_2010" : 380,
+        "population_2020" : 380,
+        "population" : 385,
+        "square_mileage" : 13.12
+    },
+    "Hancock, Addison County, Vermont" : {
+        "name" : "Hancock",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50001"
+        ],
+        "type" : "Town",
+        "population_2010" : 359,
+        "population_2020" : 359,
+        "population" : 364,
+        "square_mileage" : 38.13
+    },
+    "Westmore, Orleans County, Vermont" : {
+        "name" : "Westmore",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50019"
+        ],
+        "type" : "Town",
+        "population_2010" : 357,
+        "population_2020" : 357,
+        "population" : 362,
+        "square_mileage" : 37.39
+    },
+    "Granville, Addison County, Vermont" : {
+        "name" : "Granville",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50001"
+        ],
+        "type" : "Town",
+        "population_2010" : 301,
+        "population_2020" : 301,
+        "population" : 305,
+        "square_mileage" : 51.51
+    },
+    "Guildhall, Essex County, Vermont" : {
+        "name" : "Guildhall",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50009"
+        ],
+        "type" : "Town",
+        "population_2010" : 262,
+        "population_2020" : 262,
+        "population" : 266,
+        "square_mileage" : 33.09
+    },
+    "Baltimore, Windsor County, Vermont" : {
+        "name" : "Baltimore",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50027"
+        ],
+        "type" : "Town",
+        "population_2010" : 229,
+        "population_2020" : 229,
+        "population" : 232,
+        "square_mileage" : 4.66
+    },
+    "Maidstone, Essex County, Vermont" : {
+        "name" : "Maidstone",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50009"
+        ],
+        "type" : "Town",
+        "population_2010" : 211,
+        "population_2020" : 211,
+        "population" : 214,
+        "square_mileage" : 32.3
+    },
+    "Stannard, Caledonia County, Vermont" : {
+        "name" : "Stannard",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50005"
+        ],
+        "type" : "Town",
+        "population_2010" : 208,
+        "population_2020" : 208,
+        "population" : 211,
+        "square_mileage" : 12.51
+    },
+    "Goshen, Addison County, Vermont" : {
+        "name" : "Goshen",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50001"
+        ],
+        "type" : "Town",
+        "population_2010" : 172,
+        "population_2020" : 172,
+        "population" : 174,
+        "square_mileage" : 20.81
+    },
+    "Searsburg, Bennington County, Vermont" : {
+        "name" : "Searsburg",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50003"
+        ],
+        "type" : "Town",
+        "population_2010" : 126,
+        "population_2020" : 126,
+        "population" : 128,
+        "square_mileage" : 21.57
+    },
+    "Lemington, Essex County, Vermont" : {
+        "name" : "Lemington",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50009"
+        ],
+        "type" : "Town",
+        "population_2010" : 87,
+        "population_2020" : 87,
+        "population" : 88,
+        "square_mileage" : 35.52
+    },
+    "Victory, Essex County, Vermont" : {
+        "name" : "Victory",
+        "state" : "50000",
+        "FIPS" : "50-",
+        "counties" : [
+            "50009"
+        ],
+        "type" : "Town",
+        "population_2010" : 70,
+        "population_2020" : 70,
+        "population" : 71,
+        "square_mileage" : 43.0
+    }
+}

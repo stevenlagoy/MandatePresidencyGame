@@ -2,37 +2,48 @@ package com.stevenlagoy.presidency.map.travel.route
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.core.Engine
-import com.stevenlagoy.presidency.map.Municipality
+import com.stevenlagoy.presidency.map.entities.MapEntity
 
 class Roadway(
-    ENGINE: Engine,
-    name: String,
-    val code: String,
-    val designation: RoadwayDesignation,
-    connections: List<Municipality>,
-) : Route(ENGINE, name, connections) {
+    engine: Engine,
+    name: String = "",
+    code: String = "",
+    designation: RoadwayDesignation = RoadwayDesignation.LOCAL_ROADWAY,
+    connections: List<MapEntity> = listOf(),
+) : Route(engine, name, connections) {
 
-    constructor(ENGINE: Engine, json: JSONObject) : this(
-        ENGINE,
-        json.get("name", String::class.java),
-        json.get("code", String::class.java),
-        ENGINE.MAP_MANAGER.ROUTE_MANAGER.matchRoadwayDesignation(json.get("designation", String::class.java)).get(),
-        (json.get("connections", List::class.java) as List<String>).map { ENGINE.MAP_MANAGER.matchMunicipalityByName(it).orElse(null) },
-    )
+    var code: String = code
+        internal set
 
-    data class RoadwayDesignation(
-        val name: String, // US_highway_major, US_highway_minor, interstate_major, interstate_primary, interstate_auxiliary, state_highway, expressway, local_roadway, street
-        val speed: Double,
-    )
+    var designation: RoadwayDesignation = designation
+        internal set
+
+    constructor(engine: Engine, json: JSONObject) : this(engine) {
+        fromJson(json)
+    }
+
+    enum class RoadwayDesignation(val speed: Double) {
+        US_HIGHWAY_MAJOR(65.0),
+        US_HIGHWAY_MINOR(60.0),
+        INTERSTATE_MAJOR(75.0),
+        INTERSTATE_PRIMARY(70.0),
+        INTERSTATE_AUXILIARY(65.0),
+        STATE_HIGHWAY(70.0),
+        EXPRESSWAY(65.0),
+        LOCAL_ROADWAY(55.0),
+        STREET(35.0),
+    }
 
     override fun toJson() = JSONObject(code, listOf(
         JSONObject("name", name),
         JSONObject("code", code),
         JSONObject("designation", designation.name),
-        JSONObject("connections", connections.map { it.uniqueName })
+        JSONObject("connections", connections.map { it.name })
     ))
 
     override fun fromJson(json: JSONObject) = this.apply {
-
+        super.fromJson(json)
+        code = json.requireString("code")
+        designation = RoadwayDesignation.valueOf(json.requireString("designation").uppercase().replace(Regex("[^A-Z]"), "_"))
     }
 }

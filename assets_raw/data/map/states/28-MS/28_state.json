@@ -1,0 +1,87 @@
+{
+    "FIPS" : "28",
+    "commonName" : "Mississippi",
+    "fullName" : "State of Mississippi",
+    "flagFile" : "mississippi_flag.png",
+    "abbreviation" : "MS",
+    "type" : "state",
+    "demonym" : "Mississippian",
+    "nickname" : "Magnolia State",
+    "motto" : "Virtute et armis",
+    "capital" : "Jackson",
+    "federalCourtCircuit" : 5,
+    "censusDivision" : "East South Central",
+    "descriptors" : [
+        "MISSISSIPPI",
+        "SOUTH",
+        "EAST_SOUTH_CENTRAL"
+    ],
+    "allowedSubdivisionTypes" : [
+        "Supervisors' District",
+        "City"
+    ],
+    "allowedPlaceTypes" : [
+        "Census-Designated Place"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "branches" : {
+            "executiveBranch" : {
+                "positions" : {
+                    "" : {
+                        "title" : ""
+                    }
+                }
+            },
+            "legislativeBranch" : {
+                "title" : "",
+                "chambers" : {
+                    "" : {
+                        "name" : "",
+                        "isUpperChamber" : true,
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    },
+                    "" : {
+                        "name" : "",
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    }
+                }
+            },
+            "judicialBranch" : {
+                "title" : "",
+                "supreme_court" : {
+                    "fullName" : "",
+                    "commonName" : "",
+                    "basis" : "",
+                    "judges" : 0,
+                    "appellate_courts" : {
+                        "" : {
+                            "fullName" : "",
+                            "basis" : "",
+                            "judges" : 0,
+                            "termLength" : 0,
+                            "nextElectionDate" : ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

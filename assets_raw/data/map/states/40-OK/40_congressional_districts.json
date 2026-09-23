@@ -1,0 +1,62 @@
+{
+    "4001": {
+        "name": "Oklahoma's 1st congressional district",
+        "state": "Oklahoma",
+        "districtNumber": 1,
+        "officeID": "OK01",
+        "geoID": "4001",
+        "color": "#ebde25",
+        "descriptors": [
+            "OKLAHOMA"
+        ],
+        "congressionalSession": 119
+    },
+    "4002": {
+        "name": "Oklahoma's 2nd congressional district",
+        "state": "Oklahoma",
+        "districtNumber": 2,
+        "officeID": "OK02",
+        "geoID": "4002",
+        "color": "#db3aa3",
+        "descriptors": [
+            "OKLAHOMA"
+        ],
+        "congressionalSession": 119
+    },
+    "4003": {
+        "name": "Oklahoma's 3rd congressional district",
+        "state": "Oklahoma",
+        "districtNumber": 3,
+        "officeID": "OK03",
+        "geoID": "4003",
+        "color": "#8727cb",
+        "descriptors": [
+            "OKLAHOMA"
+        ],
+        "congressionalSession": 119
+    },
+    "4004": {
+        "name": "Oklahoma's 4th congressional district",
+        "state": "Oklahoma",
+        "districtNumber": 4,
+        "officeID": "OK04",
+        "geoID": "4004",
+        "color": "#12a1cc",
+        "descriptors": [
+            "OKLAHOMA"
+        ],
+        "congressionalSession": 119
+    },
+    "4005": {
+        "name": "Oklahoma's 5th congressional district",
+        "state": "Oklahoma",
+        "districtNumber": 5,
+        "officeID": "OK05",
+        "geoID": "4005",
+        "color": "#d3ae68",
+        "descriptors": [
+            "OKLAHOMA"
+        ],
+        "congressionalSession": 119
+    }
+}

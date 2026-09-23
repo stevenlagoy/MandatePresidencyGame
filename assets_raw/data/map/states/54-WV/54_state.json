@@ -1,0 +1,88 @@
+{
+    "FIPS" : "54",
+    "commonName" : "West Virginia",
+    "fullName" : "State of West Virginia",
+    "flagFile" : "west_virginia_flag.png",
+    "abbreviation" : "WV",
+    "type" : "state",
+    "demonym" : "West Virginian",
+    "nickname" : "Mountain State",
+    "motto" : "Montani semper liberi",
+    "capital" : "Charleston",
+    "federalCourtCircuit" : 4,
+    "censusDivision" : "South Atlantic",
+    "descriptors" : [
+        "WEST_VIRGINIA",
+        "SOUTH",
+        "SOUTH_ATLANTIC"
+    ],
+    "allowedSubdivisionTypes" : [
+        "Magisterial District",
+        "City",
+        "Census-Designated Place"
+    ],
+    "allowedPlaceTypes" : [
+        "Census-Designated Place"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "branches" : {
+            "executiveBranch" : {
+                "positions" : {
+                    "" : {
+                        "title" : ""
+                    }
+                }
+            },
+            "legislativeBranch" : {
+                "title" : "",
+                "chambers" : {
+                    "" : {
+                        "name" : "",
+                        "isUpperChamber" : true,
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    },
+                    "" : {
+                        "name" : "",
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    }
+                }
+            },
+            "judicialBranch" : {
+                "title" : "",
+                "supreme_court" : {
+                    "fullName" : "",
+                    "commonName" : "",
+                    "basis" : "",
+                    "judges" : 0,
+                    "appellate_courts" : {
+                        "" : {
+                            "fullName" : "",
+                            "basis" : "",
+                            "judges" : 0,
+                            "termLength" : 0,
+                            "nextElectionDate" : ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

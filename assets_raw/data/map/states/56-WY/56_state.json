@@ -1,0 +1,102 @@
+{
+    "FIPS" : "56",
+    "commonName" : "Wyoming",
+    "fullName" : "State of Wyoming",
+    "abbreviation" : "WY",
+    "type" : "state",
+    "demonymicNoun" : "Wyomingite",
+    "demonymicNounPlural" : "Wyomingites",
+    "demonymicAdjective" : "Wyomingite",
+    "symbols" : {
+        "flag" : {
+            "name" : "Flag of Wyoming",
+            "file" : "wyoming_flag.png"
+        },
+        "mottos" : [
+            {
+                "motto" : "Equal Rights"
+            }
+        ],
+        "nicknames" : [
+            "Equality State",
+            "Cowboy State",
+            "Forever West"
+        ]
+    },
+    "capital" : "Cheyenne",
+    "federalCourtCircuit" : 10,
+    "censusDivision" : "Mountain",
+    "descriptors" : [
+        "WYOMING",
+        "WEST",
+        "MOUNTAIN"
+    ],
+    "allowedSubdivisionTypes" : [
+        "Census County Division"
+    ],
+    "allowedPlaceTypes" : [
+        "City",
+        "Census-Designated Place"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "branches" : {
+            "executiveBranch" : {
+                "positions" : {
+                    "" : {
+                        "title" : ""
+                    }
+                }
+            },
+            "legislativeBranch" : {
+                "title" : "",
+                "chambers" : {
+                    "" : {
+                        "name" : "",
+                        "isUpperChamber" : true,
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    },
+                    "" : {
+                        "name" : "",
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    }
+                }
+            },
+            "judicialBranch" : {
+                "title" : "",
+                "supreme_court" : {
+                    "fullName" : "",
+                    "commonName" : "",
+                    "basis" : "",
+                    "judges" : 0,
+                    "appellate_courts" : {
+                        "" : {
+                            "fullName" : "",
+                            "basis" : "",
+                            "judges" : 0,
+                            "termLength" : 0,
+                            "nextElectionDate" : ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

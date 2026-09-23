@@ -1,16 +1,16 @@
 package com.stevenlagoy.presidency.core;
 
 import com.stevenlagoy.jsonic.JSONObject;
-import com.stevenlagoy.jsonic.JSONProcessor;
-import com.stevenlagoy.presidency.util.FilePaths;
+import com.stevenlagoy.presidency.util.FilePath;
+import com.stevenlagoy.presidency.util.IOUtils;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
+import java.io.IOException;
 import java.nio.file.Path;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 /**
  * <h1>LANGUAGE MANAGER</h1>
@@ -52,6 +52,15 @@ public final class LanguageManager extends Manager {
                     return lang;
             throw new IllegalArgumentException("Invalid language name: " + name);
         }
+        public @NotNull Path getLocalizationsDirectoryPath() {
+            return FilePath._LOCALIZATION.resolve(this.toString());
+        }
+        public @NotNull Path getDescriptionLocalizationsPath() {
+            return getLocalizationsDirectoryPath().resolve(String.format("%s_descriptions%s", this, IOUtils.FileExtension.JSON));
+        }
+        public @NotNull Path getSystemTextLocalizationsPath() {
+            return getLocalizationsDirectoryPath().resolve(String.format("%s_system_text%s", this, IOUtils.FileExtension.JSON));
+        }
 
         public static final Language defaultLanguage = Language.EN;
     }
@@ -76,8 +85,8 @@ public final class LanguageManager extends Manager {
 
     @Override
     @Contract(pure = true)
-    public @NotNull Set<Manager> getSubManagers() {
-        return Set.of();
+    public @NotNull List<Manager> getSubManagers() {
+        return List.of();
     }
 
     @Override
@@ -114,7 +123,7 @@ public final class LanguageManager extends Manager {
     @Override
     public void doFromJson(@NotNull JSONObject json) {
         try {
-            gameLanguage = Language.valueOf(json.get("gameLanguage", String.class));
+            gameLanguage = Language.valueOf(json.requireString("gameLanguage"));
         } catch (IllegalArgumentException e) {
             onDegraded(e);
             gameLanguage = Language.defaultLanguage;
@@ -179,15 +188,18 @@ public final class LanguageManager extends Manager {
 
         HashMap<String, String> local = new HashMap<>();
 
-        Path localizationFile = Path.of(String.format("%s/%s/%s%s", FilePaths.LOCALIZATION_RESOURCES, language,
-                language, FilePaths.SYSTEM_TEXT_LOC));
-        JSONObject localizationData = JSONProcessor.processJson(localizationFile);
+        Path localizationFile = language.getSystemTextLocalizationsPath();
+        try {
+            JSONObject localizationData = new JSONObject(localizationFile);
 
-        for (Object entry : localizationData.getAsList()) {
-            if (entry instanceof JSONObject entryJson) {
-                local.put(entryJson.getKey(), entryJson.getAsString());
+            for (Object entry : localizationData.requireArray()) {
+                if (entry instanceof JSONObject entryJson) {
+                    local.put(entryJson.getKey(), entryJson.requireString());
+                }
             }
+            localizations.put(language, local);
+        } catch (IOException e) {
+            onError(e);
         }
-        localizations.put(language, local);
     }
 }

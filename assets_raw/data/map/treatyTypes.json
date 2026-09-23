@@ -1,0 +1,70 @@
+{
+    "status quo" : {
+        "originalHolderAbandonsClaim" : false,
+        "originalHolderCedesTerritory" : false,
+        "newHolderInheritsClaims" : true,
+        "originalHolderRetainsTerritory" : true,
+        "newHolderMustNotExist" : false,
+        "newHolderGainsClaim" : true,
+        "originalHolderCeasesToExist" : false
+    },
+    "reorganization" : {
+        "originalHolderAbandonsClaim" : true,
+        "originalHolderCedesTerritory" : true,
+        "originalHolderCeasesToExist" : true,
+        "newHolderInheritsClaims" : true
+    },
+    "rebellion" : {
+        "originalHolderAbandonsClaim" : false
+    },
+    "claim" : {
+        "originalHolderRetainsTerritory" : true
+    },
+    "abandon claim" : {
+        "originalHolderAbandonsClaim" : true,
+        "newHolderMustNotExist" : true
+    },
+    "transfer claim" : {
+        "originalHolderAbandonsClaim" : true,
+        "newHolderGainsClaim" : true
+    },
+    "federalism" : {
+        "originalHolderAbandonsClaim" : false,
+        "originalHolderRetainsTerritory" : true,
+        "newHolderGainsClaim" : true
+    },
+    "cession" : {
+        "originalHolderAbandonsClaim" : true,
+        "originalHolderCedesTerritory" : true,
+        "newHolderInheritsClaims" : true,
+        "description" : "The original holder cedes its claim and administration of the land as well as any attached claims to the new holder. The original holder may later reassert a claim to the land."
+    },
+    "territory" : {
+        "originalHolderAbandonsClaim" : false,
+        "originalHolderRetainsTerritory" : true,
+        "newHolderGainsClaim" : true,
+        "description" : "Establishes a territory, administered under a territorial government under the government granting the territory."
+    },
+    "annexation" : {
+        "originalHolderAbandonsClaim" : true,
+        "originalHolderCedesTerritory" : true,
+        "newHolderInheritsClaims" : true,
+        "originalHolderCeasesToExist" : true,
+        "description" : "Annexing a rebellious area results in an occupation"
+    },
+    "territorial claim" : {
+        "description" : "Grants a claim to a territorial land held by another state or country. The granter must hold a claim, and does not lose this claim through the grant."
+    },
+    "occupation" : {
+        "description" : "A claim is enforced through military invasion of the territory. The original holder retains a claim but no longer administers the area."
+    },
+    "liberation" : {
+
+    },
+    "condominium" : {
+        "description" : "Two nations agree to share administration of a territory. Both nations retain a claim to the area."
+    },
+    "survey clarification" : {
+        "description" : "A survey revealed that an area held by the original holder should have been held by the new holder instead."
+    }
+}

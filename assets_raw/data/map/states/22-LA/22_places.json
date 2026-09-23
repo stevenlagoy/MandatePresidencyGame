@@ -1,0 +1,3954 @@
+{
+    "Abbeville, Vermilion Parish, Louisiana" : {
+        "name" : "Abbeville",
+        "state" : "22000",
+        "FIPS" : "22-00100",
+        "counties" : [
+            "22113"
+        ],
+        "type" : "City",
+        "population_2010" : 12257,
+        "population_2020" : 11186,
+        "population" : 10280,
+        "square_mileage" : 6.05
+    },
+    "Abita Springs, St. Tammany Parish, Louisiana" : {
+        "name" : "Abita Springs",
+        "state" : "22000",
+        "FIPS" : "22-00240",
+        "counties" : [
+            "22103"
+        ],
+        "type" : "Town",
+        "population_2010" : 2365,
+        "population_2020" : 2631,
+        "population" : 2782,
+        "square_mileage" : 4.59
+    },
+    "Addis, West Baton Rouge Parish, Louisiana" : {
+        "name" : "Addis",
+        "state" : "22000",
+        "FIPS" : "22-00415",
+        "counties" : [
+            "22121"
+        ],
+        "type" : "Town",
+        "population_2010" : 3593,
+        "population_2020" : 6731,
+        "population" : 11845,
+        "square_mileage" : 4.2
+    },
+    "Albany, Livingston Parish, Louisiana" : {
+        "name" : "Albany",
+        "state" : "22000",
+        "FIPS" : "22-00835",
+        "counties" : [
+            "22063"
+        ],
+        "type" : "Town",
+        "population_2010" : 1088,
+        "population_2020" : 1235,
+        "population" : 1326,
+        "square_mileage" : 1.34
+    },
+    "Alexandria, Rapides Parish, Louisiana" : {
+        "name" : "Alexandria",
+        "state" : "22000",
+        "FIPS" : "22-00975",
+        "counties" : [
+            "22079"
+        ],
+        "type" : "City",
+        "population_2010" : 47723,
+        "population_2020" : 46180,
+        "population" : 44125,
+        "square_mileage" : 28.49
+    },
+    "Amite City, Tangipahoa Parish, Louisiana" : {
+        "name" : "Amite City",
+        "state" : "22000",
+        "FIPS" : "22-01885",
+        "counties" : [
+            "22105"
+        ],
+        "type" : "Town",
+        "population_2010" : 4141,
+        "population_2020" : 4005,
+        "population" : 3825,
+        "square_mileage" : 3.88
+    },
+    "Anacoco, Vernon Parish, Louisiana" : {
+        "name" : "Anacoco",
+        "state" : "22000",
+        "FIPS" : "22-01920",
+        "counties" : [
+            "22115"
+        ],
+        "type" : "Village",
+        "population_2010" : 869,
+        "population_2020" : 851,
+        "population" : 820,
+        "square_mileage" : 3.08
+    },
+    "Angie, Washington Parish, Louisiana" : {
+        "name" : "Angie",
+        "state" : "22000",
+        "FIPS" : "22-02165",
+        "counties" : [
+            "22117"
+        ],
+        "type" : "Village",
+        "population_2010" : 251,
+        "population_2020" : 258,
+        "population" : 257,
+        "square_mileage" : 1.53
+    },
+    "Arcadia, Bienville Parish, Louisiana" : {
+        "name" : "Arcadia",
+        "state" : "22000",
+        "FIPS" : "22-02655",
+        "counties" : [
+            "22013"
+        ],
+        "type" : "Town",
+        "population_2010" : 2919,
+        "population_2020" : 2746,
+        "population" : 2574,
+        "square_mileage" : 3.65
+    },
+    "Arnaudville, St. Landry Parish, Louisiana" : {
+        "name" : "Arnaudville",
+        "state" : "22000",
+        "FIPS" : "22-03110",
+        "counties" : [
+            "22097"
+        ],
+        "type" : "Town",
+        "population_2010" : 1057,
+        "population_2020" : 1009,
+        "population" : 955,
+        "square_mileage" : 0.69
+    },
+    "Ashland, Natchitoches Parish, Louisiana" : {
+        "name" : "Ashland",
+        "state" : "22000",
+        "FIPS" : "22-03145",
+        "counties" : [
+            "22069"
+        ],
+        "type" : "Village",
+        "population_2010" : 269,
+        "population_2020" : 194,
+        "population" : 155,
+        "square_mileage" : 26.99
+    },
+    "Athens, Claiborne Parish, Louisiana" : {
+        "name" : "Athens",
+        "state" : "22000",
+        "FIPS" : "22-03320",
+        "counties" : [
+            "22027"
+        ],
+        "type" : "Village",
+        "population_2010" : 249,
+        "population_2020" : 237,
+        "population" : 224,
+        "square_mileage" : 3.5
+    },
+    "Atlanta, Winn Parish, Louisiana" : {
+        "name" : "Atlanta",
+        "state" : "22000",
+        "FIPS" : "22-03390",
+        "counties" : [
+            "22127"
+        ],
+        "type" : "Village",
+        "population_2010" : 163,
+        "population_2020" : 149,
+        "population" : 137,
+        "square_mileage" : 1.08
+    },
+    "Baker, East Baton Rouge Parish, Louisiana" : {
+        "name" : "Baker",
+        "state" : "22000",
+        "FIPS" : "22-03985",
+        "counties" : [
+            "22033"
+        ],
+        "type" : "City",
+        "population_2010" : 13895,
+        "population_2020" : 12455,
+        "population" : 11316,
+        "square_mileage" : 8.4
+    },
+    "Baldwin, St. Mary Parish, Louisiana" : {
+        "name" : "Baldwin",
+        "state" : "22000",
+        "FIPS" : "22-04020",
+        "counties" : [
+            "22101"
+        ],
+        "type" : "Town",
+        "population_2010" : 2436,
+        "population_2020" : 1762,
+        "population" : 1414,
+        "square_mileage" : 3.22
+    },
+    "Ball, Rapides Parish, Louisiana" : {
+        "name" : "Ball",
+        "state" : "22000",
+        "FIPS" : "22-04055",
+        "counties" : [
+            "22079"
+        ],
+        "type" : "Town",
+        "population_2010" : 4000,
+        "population_2020" : 3961,
+        "population" : 3845,
+        "square_mileage" : 7.95
+    },
+    "Basile, Acadia Parish, Louisiana" : {
+        "name" : "Basile",
+        "state" : "22000",
+        "FIPS" : "22-04580",
+        "counties" : [
+            "22001"
+        ],
+        "type" : "Town",
+        "population_2010" : 1821,
+        "population_2020" : 1214,
+        "population" : 935,
+        "square_mileage" : 1.16
+    },
+    "Baskin, Franklin Parish, Louisiana" : {
+        "name" : "Baskin",
+        "state" : "22000",
+        "FIPS" : "22-04615",
+        "counties" : [
+            "22041"
+        ],
+        "type" : "Village",
+        "population_2010" : 254,
+        "population_2020" : 210,
+        "population" : 182,
+        "square_mileage" : 1.33
+    },
+    "Bastrop, Morehouse Parish, Louisiana" : {
+        "name" : "Bastrop",
+        "state" : "22000",
+        "FIPS" : "22-04685",
+        "counties" : [
+            "22067"
+        ],
+        "type" : "City",
+        "population_2010" : 11365,
+        "population_2020" : 9691,
+        "population" : 8535,
+        "square_mileage" : 8.56
+    },
+    "Baton Rouge, East Baton Rouge Parish, Louisiana" : {
+        "name" : "Baton Rouge",
+        "state" : "22000",
+        "FIPS" : "22-05000",
+        "counties" : [
+            "22033"
+        ],
+        "type" : "Consolidated City-Parish",
+        "population_2010" : 229493,
+        "population_2020" : 227470,
+        "population" : 220972,
+        "square_mileage" : 86.32
+    },
+    "Belcher, Caddo Parish, Louisiana" : {
+        "name" : "Belcher",
+        "state" : "22000",
+        "FIPS" : "22-05945",
+        "counties" : [
+            "22017"
+        ],
+        "type" : "Village",
+        "population_2010" : 263,
+        "population_2020" : 248,
+        "population" : 233,
+        "square_mileage" : 1.57
+    },
+    "Benton, Bossier Parish, Louisiana" : {
+        "name" : "Benton",
+        "state" : "22000",
+        "FIPS" : "22-06925",
+        "counties" : [
+            "22015"
+        ],
+        "type" : "Town",
+        "population_2010" : 1948,
+        "population_2020" : 2048,
+        "population" : 2075,
+        "square_mileage" : 2.16
+    },
+    "Bernice, Union Parish, Louisiana" : {
+        "name" : "Bernice",
+        "state" : "22000",
+        "FIPS" : "22-07030",
+        "counties" : [
+            "22111"
+        ],
+        "type" : "Town",
+        "population_2010" : 1689,
+        "population_2020" : 1356,
+        "population" : 1152,
+        "square_mileage" : 3.23
+    },
+    "Berwick, St. Mary Parish, Louisiana" : {
+        "name" : "Berwick",
+        "state" : "22000",
+        "FIPS" : "22-07100",
+        "counties" : [
+            "22101"
+        ],
+        "type" : "Town",
+        "population_2010" : 4946,
+        "population_2020" : 4771,
+        "population" : 4549,
+        "square_mileage" : 5.9
+    },
+    "Bienville, Bienville Parish, Louisiana" : {
+        "name" : "Bienville",
+        "state" : "22000",
+        "FIPS" : "22-07205",
+        "counties" : [
+            "22013"
+        ],
+        "type" : "Village",
+        "population_2010" : 218,
+        "population_2020" : 191,
+        "population" : 171,
+        "square_mileage" : 11.04
+    },
+    "Blanchard, Caddo Parish, Louisiana" : {
+        "name" : "Blanchard",
+        "state" : "22000",
+        "FIPS" : "22-07730",
+        "counties" : [
+            "22017"
+        ],
+        "type" : "Town",
+        "population_2010" : 2899,
+        "population_2020" : 3538,
+        "population" : 4030,
+        "square_mileage" : 3.49
+    },
+    "Bogalusa, Washington Parish, Louisiana" : {
+        "name" : "Bogalusa",
+        "state" : "22000",
+        "FIPS" : "22-08150",
+        "counties" : [
+            "22117"
+        ],
+        "type" : "City",
+        "population_2010" : 12232,
+        "population_2020" : 10659,
+        "population" : 9514,
+        "square_mileage" : 9.51
+    },
+    "Bonita, Morehouse Parish, Louisiana" : {
+        "name" : "Bonita",
+        "state" : "22000",
+        "FIPS" : "22-08535",
+        "counties" : [
+            "22067"
+        ],
+        "type" : "Village",
+        "population_2010" : 284,
+        "population_2020" : 170,
+        "population" : 125,
+        "square_mileage" : 1.35
+    },
+    "Bossier City, Bossier Parish, Louisiana" : {
+        "name" : "Bossier City",
+        "state" : "22000",
+        "FIPS" : "22-08920",
+        "counties" : [
+            "22015"
+        ],
+        "type" : "City",
+        "population_2010" : 61315,
+        "population_2020" : 62701,
+        "population" : 62268,
+        "square_mileage" : 43.8
+    },
+    "Boyce, Rapides Parish, Louisiana" : {
+        "name" : "Boyce",
+        "state" : "22000",
+        "FIPS" : "22-09165",
+        "counties" : [
+            "22079"
+        ],
+        "type" : "Town",
+        "population_2010" : 1004,
+        "population_2020" : 888,
+        "population" : 800,
+        "square_mileage" : 0.46
+    },
+    "Breaux Bridge, St. Martin Parish, Louisiana" : {
+        "name" : "Breaux Bridge",
+        "state" : "22000",
+        "FIPS" : "22-09340",
+        "counties" : [
+            "22099"
+        ],
+        "type" : "City",
+        "population_2010" : 8139,
+        "population_2020" : 7513,
+        "population" : 6956,
+        "square_mileage" : 7.72
+    },
+    "Broussard, Louisianafayette Parish, Louisiana" : {
+        "name" : "Broussard",
+        "state" : "22000",
+        "FIPS" : "22-10075",
+        "counties" : [
+            "22055"
+        ],
+        "type" : "City",
+        "population_2010" : 8197,
+        "population_2020" : 13417,
+        "population" : 20232,
+        "square_mileage" : 17.89
+    },
+    "Brusly, West Baton Rouge Parish, Louisiana" : {
+        "name" : "Brusly",
+        "state" : "22000",
+        "FIPS" : "22-10600",
+        "counties" : [
+            "22121"
+        ],
+        "type" : "Town",
+        "population_2010" : 2589,
+        "population_2020" : 2578,
+        "population" : 2512,
+        "square_mileage" : 2.21
+    },
+    "Bryceland, Bienville Parish, Louisiana" : {
+        "name" : "Bryceland",
+        "state" : "22000",
+        "FIPS" : "22-10705",
+        "counties" : [
+            "22013"
+        ],
+        "type" : "Village",
+        "population_2010" : 108,
+        "population_2020" : 87,
+        "population" : 74,
+        "square_mileage" : 2.33
+    },
+    "Bunkie, Avoyelles Parish, Louisiana" : {
+        "name" : "Bunkie",
+        "state" : "22000",
+        "FIPS" : "22-10950",
+        "counties" : [
+            "22009"
+        ],
+        "type" : "City",
+        "population_2010" : 4171,
+        "population_2020" : 3346,
+        "population" : 2842,
+        "square_mileage" : 3.02
+    },
+    "Calvin, Winn Parish, Louisiana" : {
+        "name" : "Calvin",
+        "state" : "22000",
+        "FIPS" : "22-11930",
+        "counties" : [
+            "22127"
+        ],
+        "type" : "Village",
+        "population_2010" : 238,
+        "population_2020" : 242,
+        "population" : 239,
+        "square_mileage" : 2.29
+    },
+    "Campti, Natchitoches Parish, Louisiana" : {
+        "name" : "Campti",
+        "state" : "22000",
+        "FIPS" : "22-12280",
+        "counties" : [
+            "22069"
+        ],
+        "type" : "Town",
+        "population_2010" : 1056,
+        "population_2020" : 887,
+        "population" : 774,
+        "square_mileage" : 1.04
+    },
+    "Cankton, St. Landry Parish, Louisiana" : {
+        "name" : "Cankton",
+        "state" : "22000",
+        "FIPS" : "22-12420",
+        "counties" : [
+            "22097"
+        ],
+        "type" : "Village",
+        "population_2010" : 484,
+        "population_2020" : 583,
+        "population" : 657,
+        "square_mileage" : 2.04
+    },
+    "Carencro, Louisianafayette Parish, Louisiana" : {
+        "name" : "Carencro",
+        "state" : "22000",
+        "FIPS" : "22-12665",
+        "counties" : [
+            "22055"
+        ],
+        "type" : "City",
+        "population_2010" : 7526,
+        "population_2020" : 9272,
+        "population" : 10647,
+        "square_mileage" : 7.86
+    },
+    "Castor, Bienville Parish, Louisiana" : {
+        "name" : "Castor",
+        "state" : "22000",
+        "FIPS" : "22-13260",
+        "counties" : [
+            "22013"
+        ],
+        "type" : "Village",
+        "population_2010" : 258,
+        "population_2020" : 230,
+        "population" : 208,
+        "square_mileage" : 1.19
+    },
+    "Central, East Baton Rouge Parish, Louisiana" : {
+        "name" : "Central",
+        "state" : "22000",
+        "FIPS" : "22-13960",
+        "counties" : [
+            "22033"
+        ],
+        "type" : "City",
+        "population_2010" : 26864,
+        "population_2020" : 29565,
+        "population" : 31002,
+        "square_mileage" : 62.26
+    },
+    "Chataignier, Evangeline Parish, Louisiana" : {
+        "name" : "Chataignier",
+        "state" : "22000",
+        "FIPS" : "22-14450",
+        "counties" : [
+            "22039"
+        ],
+        "type" : "Village",
+        "population_2010" : 364,
+        "population_2020" : 259,
+        "population" : 206,
+        "square_mileage" : 0.63
+    },
+    "Chatham, Jackson Parish, Louisiana" : {
+        "name" : "Chatham",
+        "state" : "22000",
+        "FIPS" : "22-14485",
+        "counties" : [
+            "22049"
+        ],
+        "type" : "Town",
+        "population_2010" : 557,
+        "population_2020" : 491,
+        "population" : 441,
+        "square_mileage" : 0.99
+    },
+    "Cheneyville, Rapides Parish, Louisiana" : {
+        "name" : "Cheneyville",
+        "state" : "22000",
+        "FIPS" : "22-14660",
+        "counties" : [
+            "22079"
+        ],
+        "type" : "Town",
+        "population_2010" : 625,
+        "population_2020" : 468,
+        "population" : 383,
+        "square_mileage" : 1.02
+    },
+    "Choudrant, Lincoln Parish, Louisiana" : {
+        "name" : "Choudrant",
+        "state" : "22000",
+        "FIPS" : "22-15290",
+        "counties" : [
+            "22061"
+        ],
+        "type" : "Village",
+        "population_2010" : 845,
+        "population_2020" : 989,
+        "population" : 1089,
+        "square_mileage" : 4.23
+    },
+    "Church Point, Acadia Parish, Louisiana" : {
+        "name" : "Church Point",
+        "state" : "22000",
+        "FIPS" : "22-15465",
+        "counties" : [
+            "22001"
+        ],
+        "type" : "Town",
+        "population_2010" : 4560,
+        "population_2020" : 4179,
+        "population" : 3851,
+        "square_mileage" : 2.89
+    },
+    "Clarence, Natchitoches Parish, Louisiana" : {
+        "name" : "Clarence",
+        "state" : "22000",
+        "FIPS" : "22-15745",
+        "counties" : [
+            "22069"
+        ],
+        "type" : "Village",
+        "population_2010" : 499,
+        "population_2020" : 326,
+        "population" : 249,
+        "square_mileage" : 1.57
+    },
+    "Clarks, Caldwell Parish, Louisiana" : {
+        "name" : "Clarks",
+        "state" : "22000",
+        "FIPS" : "22-15780",
+        "counties" : [
+            "22021"
+        ],
+        "type" : "Village",
+        "population_2010" : 1017,
+        "population_2020" : 1052,
+        "population" : 1053,
+        "square_mileage" : 0.96
+    },
+    "Clayton, Concordia Parish, Louisiana" : {
+        "name" : "Clayton",
+        "state" : "22000",
+        "FIPS" : "22-15850",
+        "counties" : [
+            "22029"
+        ],
+        "type" : "Town",
+        "population_2010" : 711,
+        "population_2020" : 584,
+        "population" : 503,
+        "square_mileage" : 1.58
+    },
+    "Clinton, East Feliciana Parish, Louisiana" : {
+        "name" : "Clinton",
+        "state" : "22000",
+        "FIPS" : "22-15990",
+        "counties" : [
+            "22037"
+        ],
+        "type" : "Town",
+        "population_2010" : 1653,
+        "population_2020" : 1340,
+        "population" : 1145,
+        "square_mileage" : 2.74
+    },
+    "Colfax, Grant Parish, Louisiana" : {
+        "name" : "Colfax",
+        "state" : "22000",
+        "FIPS" : "22-16375",
+        "counties" : [
+            "22043"
+        ],
+        "type" : "Town",
+        "population_2010" : 1558,
+        "population_2020" : 1428,
+        "population" : 1316,
+        "square_mileage" : 1.49
+    },
+    "Collinston, Morehouse Parish, Louisiana" : {
+        "name" : "Collinston",
+        "state" : "22000",
+        "FIPS" : "22-16655",
+        "counties" : [
+            "22067"
+        ],
+        "type" : "Village",
+        "population_2010" : 287,
+        "population_2020" : 274,
+        "population" : 259,
+        "square_mileage" : 1.13
+    },
+    "Columbia, Caldwell Parish, Louisiana" : {
+        "name" : "Columbia",
+        "state" : "22000",
+        "FIPS" : "22-16830",
+        "counties" : [
+            "22021"
+        ],
+        "type" : "Town",
+        "population_2010" : 390,
+        "population_2020" : 277,
+        "population" : 220,
+        "square_mileage" : 0.76
+    },
+    "Converse, Sabine Parish, Louisiana" : {
+        "name" : "Converse",
+        "state" : "22000",
+        "FIPS" : "22-17215",
+        "counties" : [
+            "22085"
+        ],
+        "type" : "Village",
+        "population_2010" : 440,
+        "population_2020" : 379,
+        "population" : 336,
+        "square_mileage" : 2.18
+    },
+    "Cottonport, Avoyelles Parish, Louisiana" : {
+        "name" : "Cottonport",
+        "state" : "22000",
+        "FIPS" : "22-17880",
+        "counties" : [
+            "22009"
+        ],
+        "type" : "Town",
+        "population_2010" : 2006,
+        "population_2020" : 2023,
+        "population" : 1989,
+        "square_mileage" : 2.01
+    },
+    "Cotton Valley, Webster Parish, Louisiana" : {
+        "name" : "Cotton Valley",
+        "state" : "22000",
+        "FIPS" : "22-17915",
+        "counties" : [
+            "22119"
+        ],
+        "type" : "Town",
+        "population_2010" : 1009,
+        "population_2020" : 787,
+        "population" : 658,
+        "square_mileage" : 2.63
+    },
+    "Coushatta, Red River Parish, Louisiana" : {
+        "name" : "Coushatta",
+        "state" : "22000",
+        "FIPS" : "22-18055",
+        "counties" : [
+            "22081"
+        ],
+        "type" : "Town",
+        "population_2010" : 1964,
+        "population_2020" : 1752,
+        "population" : 1587,
+        "square_mileage" : 3.34
+    },
+    "Covington, St. Tammany Parish, Louisiana" : {
+        "name" : "Covington",
+        "state" : "22000",
+        "FIPS" : "22-18125",
+        "counties" : [
+            "22103"
+        ],
+        "type" : "City",
+        "population_2010" : 8765,
+        "population_2020" : 11564,
+        "population" : 14096,
+        "square_mileage" : 8.02
+    },
+    "Creola, Grant Parish, Louisiana" : {
+        "name" : "Creola",
+        "state" : "22000",
+        "FIPS" : "22-18295",
+        "counties" : [
+            "22043"
+        ],
+        "type" : "Village",
+        "population_2010" : 213,
+        "population_2020" : 242,
+        "population" : 260,
+        "square_mileage" : 0.41
+    },
+    "Crowley, Acadia Parish, Louisiana" : {
+        "name" : "Crowley",
+        "state" : "22000",
+        "FIPS" : "22-18650",
+        "counties" : [
+            "22001"
+        ],
+        "type" : "City",
+        "population_2010" : 13265,
+        "population_2020" : 11710,
+        "population" : 10536,
+        "square_mileage" : 5.85
+    },
+    "Cullen, Webster Parish, Louisiana" : {
+        "name" : "Cullen",
+        "state" : "22000",
+        "FIPS" : "22-18790",
+        "counties" : [
+            "22119"
+        ],
+        "type" : "Town",
+        "population_2010" : 1163,
+        "population_2020" : 716,
+        "population" : 531,
+        "square_mileage" : 1.15
+    },
+    "Delcambre, Iberia Parish, Louisiana" : {
+        "name" : "Delcambre",
+        "state" : "22000",
+        "FIPS" : "22-20155",
+        "counties" : [
+            "22045"
+        ],
+        "type" : "Town",
+        "population_2010" : 1866,
+        "population_2020" : 1793,
+        "population" : 1705,
+        "square_mileage" : 1.17
+    },
+    "Delhi, Richland Parish, Louisiana" : {
+        "name" : "Delhi",
+        "state" : "22000",
+        "FIPS" : "22-20190",
+        "counties" : [
+            "22083"
+        ],
+        "type" : "Town",
+        "population_2010" : 2919,
+        "population_2020" : 2622,
+        "population" : 2385,
+        "square_mileage" : 2.87
+    },
+    "Delta, Madison Parish, Louisiana" : {
+        "name" : "Delta",
+        "state" : "22000",
+        "FIPS" : "22-20330",
+        "counties" : [
+            "22065"
+        ],
+        "type" : "Village",
+        "population_2010" : 284,
+        "population_2020" : 232,
+        "population" : 199,
+        "square_mileage" : 4.44
+    },
+    "Denham Springs, Livingston Parish, Louisiana" : {
+        "name" : "Denham Springs",
+        "state" : "22000",
+        "FIPS" : "22-20435",
+        "counties" : [
+            "22063"
+        ],
+        "type" : "City",
+        "population_2010" : 10215,
+        "population_2020" : 9286,
+        "population" : 8513,
+        "square_mileage" : 7.29
+    },
+    "DeQuincy, Calcasieu Parish, Louisiana" : {
+        "name" : "DeQuincy",
+        "state" : "22000",
+        "FIPS" : "22-20575",
+        "counties" : [
+            "22019"
+        ],
+        "type" : "City",
+        "population_2010" : 3235,
+        "population_2020" : 3144,
+        "population" : 3013,
+        "square_mileage" : 3.2
+    },
+    "DeRidder, Beauregard Parish, Louisiana" : {
+        "name" : "DeRidder",
+        "state" : "22000",
+        "FIPS" : "22-20610",
+        "counties" : [
+            "22011"
+        ],
+        "type" : "City",
+        "population_2010" : 10578,
+        "population_2020" : 9852,
+        "population" : 9175,
+        "square_mileage" : 9.29
+    },
+    "Dixie Inn, Webster Parish, Louisiana" : {
+        "name" : "Dixie Inn",
+        "state" : "22000",
+        "FIPS" : "22-21135",
+        "counties" : [
+            "22119"
+        ],
+        "type" : "Village",
+        "population_2010" : 273,
+        "population_2020" : 293,
+        "population" : 301,
+        "square_mileage" : 0.48
+    },
+    "Dodson, Winn Parish, Louisiana" : {
+        "name" : "Dodson",
+        "state" : "22000",
+        "FIPS" : "22-21170",
+        "counties" : [
+            "22127"
+        ],
+        "type" : "Village",
+        "population_2010" : 337,
+        "population_2020" : 294,
+        "population" : 263,
+        "square_mileage" : 2.25
+    },
+    "Donaldsonville, Ascension Parish, Louisiana" : {
+        "name" : "Donaldsonville",
+        "state" : "22000",
+        "FIPS" : "22-21240",
+        "counties" : [
+            "22005"
+        ],
+        "type" : "City",
+        "population_2010" : 7436,
+        "population_2020" : 6695,
+        "population" : 6100,
+        "square_mileage" : 3.78
+    },
+    "Downsville, Lincoln Parish, Louisiana" : {
+        "name" : "Downsville",
+        "state" : "22000",
+        "FIPS" : "22-21450",
+        "counties" : [
+            "22061"
+        ],
+        "type" : "Village",
+        "population_2010" : 141,
+        "population_2020" : 120,
+        "population" : 106,
+        "square_mileage" : 0.74
+    },
+    "Doyline, Webster Parish, Louisiana" : {
+        "name" : "Doyline",
+        "state" : "22000",
+        "FIPS" : "22-21590",
+        "counties" : [
+            "22119"
+        ],
+        "type" : "Village",
+        "population_2010" : 818,
+        "population_2020" : 674,
+        "population" : 582,
+        "square_mileage" : 3.33
+    },
+    "Dry Prong, Grant Parish, Louisiana" : {
+        "name" : "Dry Prong",
+        "state" : "22000",
+        "FIPS" : "22-21765",
+        "counties" : [
+            "22043"
+        ],
+        "type" : "Village",
+        "population_2010" : 436,
+        "population_2020" : 455,
+        "population" : 459,
+        "square_mileage" : 1.39
+    },
+    "Dubach, Lincoln Parish, Louisiana" : {
+        "name" : "Dubach",
+        "state" : "22000",
+        "FIPS" : "22-21800",
+        "counties" : [
+            "22061"
+        ],
+        "type" : "Town",
+        "population_2010" : 961,
+        "population_2020" : 908,
+        "population" : 854,
+        "square_mileage" : 1.82
+    },
+    "Dubberly, Webster Parish, Louisiana" : {
+        "name" : "Dubberly",
+        "state" : "22000",
+        "FIPS" : "22-21835",
+        "counties" : [
+            "22119"
+        ],
+        "type" : "Village",
+        "population_2010" : 273,
+        "population_2020" : 250,
+        "population" : 230,
+        "square_mileage" : 3.94
+    },
+    "Duson, Acadia Parish, Louisiana" : {
+        "name" : "Duson",
+        "state" : "22000",
+        "FIPS" : "22-22255",
+        "counties" : [
+            "22001"
+        ],
+        "type" : "Town",
+        "population_2010" : 1716,
+        "population_2020" : 1326,
+        "population" : 1103,
+        "square_mileage" : 3.01
+    },
+    "East Hodge, Jackson Parish, Louisiana" : {
+        "name" : "East Hodge",
+        "state" : "22000",
+        "FIPS" : "22-22465",
+        "counties" : [
+            "22049"
+        ],
+        "type" : "Village",
+        "population_2010" : 289,
+        "population_2020" : 204,
+        "population" : 162,
+        "square_mileage" : 0.23
+    },
+    "Edgefield, Red River Parish, Louisiana" : {
+        "name" : "Edgefield",
+        "state" : "22000",
+        "FIPS" : "22-22850",
+        "counties" : [
+            "22081"
+        ],
+        "type" : "Village",
+        "population_2010" : 218,
+        "population_2020" : 204,
+        "population" : 191,
+        "square_mileage" : 0.25
+    },
+    "Elizabeth, Allen Parish, Louisiana" : {
+        "name" : "Elizabeth",
+        "state" : "22000",
+        "FIPS" : "22-23235",
+        "counties" : [
+            "22003"
+        ],
+        "type" : "Village",
+        "population_2010" : 532,
+        "population_2020" : 417,
+        "population" : 350,
+        "square_mileage" : 1.65
+    },
+    "Elton, Jefferson Davis Parish, Louisiana" : {
+        "name" : "Elton",
+        "state" : "22000",
+        "FIPS" : "22-23620",
+        "counties" : [
+            "22053"
+        ],
+        "type" : "Town",
+        "population_2010" : 1128,
+        "population_2020" : 992,
+        "population" : 890,
+        "square_mileage" : 1.66
+    },
+    "Epps, West Carroll Parish, Louisiana" : {
+        "name" : "Epps",
+        "state" : "22000",
+        "FIPS" : "22-24145",
+        "counties" : [
+            "22123"
+        ],
+        "type" : "Village",
+        "population_2010" : 854,
+        "population_2020" : 358,
+        "population" : 230,
+        "square_mileage" : 0.97
+    },
+    "Erath, Vermilion Parish, Louisiana" : {
+        "name" : "Erath",
+        "state" : "22000",
+        "FIPS" : "22-24180",
+        "counties" : [
+            "22113"
+        ],
+        "type" : "Town",
+        "population_2010" : 2114,
+        "population_2020" : 2028,
+        "population" : 1926,
+        "square_mileage" : 1.76
+    },
+    "Eros, Jackson Parish, Louisiana" : {
+        "name" : "Eros",
+        "state" : "22000",
+        "FIPS" : "22-24215",
+        "counties" : [
+            "22049"
+        ],
+        "type" : "Town",
+        "population_2010" : 155,
+        "population_2020" : 130,
+        "population" : 113,
+        "square_mileage" : 1.0
+    },
+    "Estherwood, Acadia Parish, Louisiana" : {
+        "name" : "Estherwood",
+        "state" : "22000",
+        "FIPS" : "22-24460",
+        "counties" : [
+            "22001"
+        ],
+        "type" : "Village",
+        "population_2010" : 889,
+        "population_2020" : 694,
+        "population" : 581,
+        "square_mileage" : 1.86
+    },
+    "Eunice, Acadia Parish, Louisiana" : {
+        "name" : "Eunice",
+        "state" : "22000",
+        "FIPS" : "22-24565",
+        "counties" : [
+            "22001"
+        ],
+        "type" : "City",
+        "population_2010" : 10398,
+        "population_2020" : 9422,
+        "population" : 8620,
+        "square_mileage" : 5.14
+    },
+    "Evergreen, Avoyelles Parish, Louisiana" : {
+        "name" : "Evergreen",
+        "state" : "22000",
+        "FIPS" : "22-24775",
+        "counties" : [
+            "22009"
+        ],
+        "type" : "Town",
+        "population_2010" : 310,
+        "population_2020" : 215,
+        "population" : 169,
+        "square_mileage" : 1.02
+    },
+    "Farmerville, Union Parish, Louisiana" : {
+        "name" : "Farmerville",
+        "state" : "22000",
+        "FIPS" : "22-25160",
+        "counties" : [
+            "22111"
+        ],
+        "type" : "Town",
+        "population_2010" : 3860,
+        "population_2020" : 3366,
+        "population" : 3006,
+        "square_mileage" : 5.78
+    },
+    "Fenton, Jefferson Davis Parish, Louisiana" : {
+        "name" : "Fenton",
+        "state" : "22000",
+        "FIPS" : "22-25335",
+        "counties" : [
+            "22053"
+        ],
+        "type" : "Village",
+        "population_2010" : 379,
+        "population_2020" : 226,
+        "population" : 165,
+        "square_mileage" : 0.49
+    },
+    "Ferriday, Concordia Parish, Louisiana" : {
+        "name" : "Ferriday",
+        "state" : "22000",
+        "FIPS" : "22-25440",
+        "counties" : [
+            "22029"
+        ],
+        "type" : "Town",
+        "population_2010" : 3511,
+        "population_2020" : 3189,
+        "population" : 2922,
+        "square_mileage" : 1.63
+    },
+    "Fisher, Sabine Parish, Louisiana" : {
+        "name" : "Fisher",
+        "state" : "22000",
+        "FIPS" : "22-25615",
+        "counties" : [
+            "22085"
+        ],
+        "type" : "Village",
+        "population_2010" : 230,
+        "population_2020" : 197,
+        "population" : 174,
+        "square_mileage" : 0.62
+    },
+    "Florien, Sabine Parish, Louisiana" : {
+        "name" : "Florien",
+        "state" : "22000",
+        "FIPS" : "22-25860",
+        "counties" : [
+            "22085"
+        ],
+        "type" : "Village",
+        "population_2010" : 633,
+        "population_2020" : 553,
+        "population" : 494,
+        "square_mileage" : 2.23
+    },
+    "Folsom, St. Tammany Parish, Louisiana" : {
+        "name" : "Folsom",
+        "state" : "22000",
+        "FIPS" : "22-26140",
+        "counties" : [
+            "22103"
+        ],
+        "type" : "Village",
+        "population_2010" : 716,
+        "population_2020" : 769,
+        "population" : 792,
+        "square_mileage" : 1.91
+    },
+    "Fordoche, Pointe Coupee Parish, Louisiana" : {
+        "name" : "Fordoche",
+        "state" : "22000",
+        "FIPS" : "22-26280",
+        "counties" : [
+            "22077"
+        ],
+        "type" : "Town",
+        "population_2010" : 928,
+        "population_2020" : 910,
+        "population" : 877,
+        "square_mileage" : 2.43
+    },
+    "Forest, West Carroll Parish, Louisiana" : {
+        "name" : "Forest",
+        "state" : "22000",
+        "FIPS" : "22-26350",
+        "counties" : [
+            "22123"
+        ],
+        "type" : "Village",
+        "population_2010" : 355,
+        "population_2020" : 304,
+        "population" : 268,
+        "square_mileage" : 1.67
+    },
+    "Forest Hill, Rapides Parish, Louisiana" : {
+        "name" : "Forest Hill",
+        "state" : "22000",
+        "FIPS" : "22-26420",
+        "counties" : [
+            "22079"
+        ],
+        "type" : "Village",
+        "population_2010" : 818,
+        "population_2020" : 605,
+        "population" : 491,
+        "square_mileage" : 3.76
+    },
+    "Franklin, St. Mary Parish, Louisiana" : {
+        "name" : "Franklin",
+        "state" : "22000",
+        "FIPS" : "22-27155",
+        "counties" : [
+            "22101"
+        ],
+        "type" : "City",
+        "population_2010" : 7660,
+        "population_2020" : 6728,
+        "population" : 6035,
+        "square_mileage" : 9.92
+    },
+    "Franklinton, Washington Parish, Louisiana" : {
+        "name" : "Franklinton",
+        "state" : "22000",
+        "FIPS" : "22-27190",
+        "counties" : [
+            "22117"
+        ],
+        "type" : "Town",
+        "population_2010" : 3857,
+        "population_2020" : 3662,
+        "population" : 3454,
+        "square_mileage" : 4.37
+    },
+    "French Settlement, Livingston Parish, Louisiana" : {
+        "name" : "French Settlement",
+        "state" : "22000",
+        "FIPS" : "22-27435",
+        "counties" : [
+            "22063"
+        ],
+        "type" : "Village",
+        "population_2010" : 1116,
+        "population_2020" : 1073,
+        "population" : 1021,
+        "square_mileage" : 2.73
+    },
+    "Georgetown, Grant Parish, Louisiana" : {
+        "name" : "Georgetown",
+        "state" : "22000",
+        "FIPS" : "22-28660",
+        "counties" : [
+            "22043"
+        ],
+        "type" : "Town",
+        "population_2010" : 327,
+        "population_2020" : 277,
+        "population" : 243,
+        "square_mileage" : 1.3
+    },
+    "Gibsland, Bienville Parish, Louisiana" : {
+        "name" : "Gibsland",
+        "state" : "22000",
+        "FIPS" : "22-28835",
+        "counties" : [
+            "22013"
+        ],
+        "type" : "Town",
+        "population_2010" : 979,
+        "population_2020" : 773,
+        "population" : 651,
+        "square_mileage" : 2.63
+    },
+    "Gilbert, Franklin Parish, Louisiana" : {
+        "name" : "Gilbert",
+        "state" : "22000",
+        "FIPS" : "22-28940",
+        "counties" : [
+            "22041"
+        ],
+        "type" : "Village",
+        "population_2010" : 521,
+        "population_2020" : 449,
+        "population" : 398,
+        "square_mileage" : 1.05
+    },
+    "Gilliam, Caddo Parish, Louisiana" : {
+        "name" : "Gilliam",
+        "state" : "22000",
+        "FIPS" : "22-29010",
+        "counties" : [
+            "22017"
+        ],
+        "type" : "Village",
+        "population_2010" : 164,
+        "population_2020" : 123,
+        "population" : 101,
+        "square_mileage" : 2.37
+    },
+    "Glenmora, Rapides Parish, Louisiana" : {
+        "name" : "Glenmora",
+        "state" : "22000",
+        "FIPS" : "22-29220",
+        "counties" : [
+            "22079"
+        ],
+        "type" : "Town",
+        "population_2010" : 1342,
+        "population_2020" : 1087,
+        "population" : 929,
+        "square_mileage" : 1.73
+    },
+    "Golden Meadow, Louisianafourche Parish, Louisiana" : {
+        "name" : "Golden Meadow",
+        "state" : "22000",
+        "FIPS" : "22-29640",
+        "counties" : [
+            "22057"
+        ],
+        "type" : "Town",
+        "population_2010" : 2101,
+        "population_2020" : 1761,
+        "population" : 1535,
+        "square_mileage" : 2.45
+    },
+    "Goldonna, Natchitoches Parish, Louisiana" : {
+        "name" : "Goldonna",
+        "state" : "22000",
+        "FIPS" : "22-29745",
+        "counties" : [
+            "22069"
+        ],
+        "type" : "Village",
+        "population_2010" : 430,
+        "population_2020" : 428,
+        "population" : 417,
+        "square_mileage" : 13.07
+    },
+    "Gonzales, Ascension Parish, Louisiana" : {
+        "name" : "Gonzales",
+        "state" : "22000",
+        "FIPS" : "22-29850",
+        "counties" : [
+            "22005"
+        ],
+        "type" : "City",
+        "population_2010" : 9781,
+        "population_2020" : 12231,
+        "population" : 14224,
+        "square_mileage" : 9.14
+    },
+    "Grambling, Lincoln Parish, Louisiana" : {
+        "name" : "Grambling",
+        "state" : "22000",
+        "FIPS" : "22-30515",
+        "counties" : [
+            "22061"
+        ],
+        "type" : "City",
+        "population_2010" : 4949,
+        "population_2020" : 5239,
+        "population" : 5335,
+        "square_mileage" : 5.9
+    },
+    "Gramercy, St. James Parish, Louisiana" : {
+        "name" : "Gramercy",
+        "state" : "22000",
+        "FIPS" : "22-30550",
+        "counties" : [
+            "22093"
+        ],
+        "type" : "Town",
+        "population_2010" : 3613,
+        "population_2020" : 2932,
+        "population" : 2507,
+        "square_mileage" : 2.01
+    },
+    "Grand Cane, DeSoto Parish, Louisiana" : {
+        "name" : "Grand Cane",
+        "state" : "22000",
+        "FIPS" : "22-30690",
+        "counties" : [
+            "22031"
+        ],
+        "type" : "Village",
+        "population_2010" : 242,
+        "population_2020" : 217,
+        "population" : 197,
+        "square_mileage" : 1.13
+    },
+    "Grand Coteau, St. Landry Parish, Louisiana" : {
+        "name" : "Grand Coteau",
+        "state" : "22000",
+        "FIPS" : "22-30760",
+        "counties" : [
+            "22097"
+        ],
+        "type" : "Town",
+        "population_2010" : 947,
+        "population_2020" : 776,
+        "population" : 667,
+        "square_mileage" : 2.42
+    },
+    "Grand Isle, Jefferson Parish, Louisiana" : {
+        "name" : "Grand Isle",
+        "state" : "22000",
+        "FIPS" : "22-30830",
+        "counties" : [
+            "22051"
+        ],
+        "type" : "Town",
+        "population_2010" : 1296,
+        "population_2020" : 1005,
+        "population" : 838,
+        "square_mileage" : 6.4
+    },
+    "Grayson, Caldwell Parish, Louisiana" : {
+        "name" : "Grayson",
+        "state" : "22000",
+        "FIPS" : "22-31250",
+        "counties" : [
+            "22021"
+        ],
+        "type" : "Village",
+        "population_2010" : 532,
+        "population_2020" : 449,
+        "population" : 393,
+        "square_mileage" : 1.27
+    },
+    "Greensburg, St. Helena Parish, Louisiana" : {
+        "name" : "Greensburg",
+        "state" : "22000",
+        "FIPS" : "22-31565",
+        "counties" : [
+            "22091"
+        ],
+        "type" : "Town",
+        "population_2010" : 718,
+        "population_2020" : 629,
+        "population" : 563,
+        "square_mileage" : 2.52
+    },
+    "Greenwood, Caddo Parish, Louisiana" : {
+        "name" : "Greenwood",
+        "state" : "22000",
+        "FIPS" : "22-31705",
+        "counties" : [
+            "22017"
+        ],
+        "type" : "Town",
+        "population_2010" : 3219,
+        "population_2020" : 3166,
+        "population" : 3059,
+        "square_mileage" : 8.99
+    },
+    "Gretna, Jefferson Parish, Louisiana" : {
+        "name" : "Gretna",
+        "state" : "22000",
+        "FIPS" : "22-31915",
+        "counties" : [
+            "22051"
+        ],
+        "type" : "City",
+        "population_2010" : 17736,
+        "population_2020" : 17814,
+        "population" : 17467,
+        "square_mileage" : 4.04
+    },
+    "Grosse Tete, Iberville Parish, Louisiana" : {
+        "name" : "Grosse Tete",
+        "state" : "22000",
+        "FIPS" : "22-32020",
+        "counties" : [
+            "22047"
+        ],
+        "type" : "Village",
+        "population_2010" : 647,
+        "population_2020" : 548,
+        "population" : 481,
+        "square_mileage" : 1.47
+    },
+    "Gueydan, Vermilion Parish, Louisiana" : {
+        "name" : "Gueydan",
+        "state" : "22000",
+        "FIPS" : "22-32055",
+        "counties" : [
+            "22113"
+        ],
+        "type" : "Town",
+        "population_2010" : 1398,
+        "population_2020" : 1165,
+        "population" : 1012,
+        "square_mileage" : 0.91
+    },
+    "Hall Summit, Red River Parish, Louisiana" : {
+        "name" : "Hall Summit",
+        "state" : "22000",
+        "FIPS" : "22-32650",
+        "counties" : [
+            "22081"
+        ],
+        "type" : "Village",
+        "population_2010" : 300,
+        "population_2020" : 268,
+        "population" : 243,
+        "square_mileage" : 1.67
+    },
+    "Hammond, Tangipahoa Parish, Louisiana" : {
+        "name" : "Hammond",
+        "state" : "22000",
+        "FIPS" : "22-32755",
+        "counties" : [
+            "22105"
+        ],
+        "type" : "City",
+        "population_2010" : 20019,
+        "population_2020" : 19584,
+        "population" : 18853,
+        "square_mileage" : 14.04
+    },
+    "Harahan, Jefferson Parish, Louisiana" : {
+        "name" : "Harahan",
+        "state" : "22000",
+        "FIPS" : "22-32930",
+        "counties" : [
+            "22051"
+        ],
+        "type" : "City",
+        "population_2010" : 9277,
+        "population_2020" : 9116,
+        "population" : 8803,
+        "square_mileage" : 2.02
+    },
+    "Harrisonburg, Catahoula Parish, Louisiana" : {
+        "name" : "Harrisonburg",
+        "state" : "22000",
+        "FIPS" : "22-33210",
+        "counties" : [
+            "22025"
+        ],
+        "type" : "Village",
+        "population_2010" : 348,
+        "population_2020" : 277,
+        "population" : 234,
+        "square_mileage" : 0.97
+    },
+    "Haughton, Bossier Parish, Louisiana" : {
+        "name" : "Haughton",
+        "state" : "22000",
+        "FIPS" : "22-33420",
+        "counties" : [
+            "22015"
+        ],
+        "type" : "Town",
+        "population_2010" : 3454,
+        "population_2020" : 4539,
+        "population" : 5513,
+        "square_mileage" : 5.71
+    },
+    "Haynesville, Claiborne Parish, Louisiana" : {
+        "name" : "Haynesville",
+        "state" : "22000",
+        "FIPS" : "22-33525",
+        "counties" : [
+            "22027"
+        ],
+        "type" : "Town",
+        "population_2010" : 2327,
+        "population_2020" : 2039,
+        "population" : 1826,
+        "square_mileage" : 4.83
+    },
+    "Heflin, Webster Parish, Louisiana" : {
+        "name" : "Heflin",
+        "state" : "22000",
+        "FIPS" : "22-33735",
+        "counties" : [
+            "22119"
+        ],
+        "type" : "Village",
+        "population_2010" : 244,
+        "population_2020" : 213,
+        "population" : 190,
+        "square_mileage" : 1.91
+    },
+    "Henderson, St. Martin Parish, Louisiana" : {
+        "name" : "Henderson",
+        "state" : "22000",
+        "FIPS" : "22-33875",
+        "counties" : [
+            "22099"
+        ],
+        "type" : "Town",
+        "population_2010" : 1674,
+        "population_2020" : 1617,
+        "population" : 1543,
+        "square_mileage" : 2.99
+    },
+    "Hessmer, Avoyelles Parish, Louisiana" : {
+        "name" : "Hessmer",
+        "state" : "22000",
+        "FIPS" : "22-34015",
+        "counties" : [
+            "22009"
+        ],
+        "type" : "Village",
+        "population_2010" : 802,
+        "population_2020" : 772,
+        "population" : 735,
+        "square_mileage" : 0.83
+    },
+    "Hodge, Jackson Parish, Louisiana" : {
+        "name" : "Hodge",
+        "state" : "22000",
+        "FIPS" : "22-35100",
+        "counties" : [
+            "22049"
+        ],
+        "type" : "Village",
+        "population_2010" : 470,
+        "population_2020" : 382,
+        "population" : 327,
+        "square_mileage" : 0.97
+    },
+    "Homer, Claiborne Parish, Louisiana" : {
+        "name" : "Homer",
+        "state" : "22000",
+        "FIPS" : "22-35870",
+        "counties" : [
+            "22027"
+        ],
+        "type" : "Town",
+        "population_2010" : 3237,
+        "population_2020" : 2747,
+        "population" : 2412,
+        "square_mileage" : 4.65
+    },
+    "Hornbeck, Vernon Parish, Louisiana" : {
+        "name" : "Hornbeck",
+        "state" : "22000",
+        "FIPS" : "22-36045",
+        "counties" : [
+            "22115"
+        ],
+        "type" : "Town",
+        "population_2010" : 480,
+        "population_2020" : 430,
+        "population" : 391,
+        "square_mileage" : 1.15
+    },
+    "Hosston, Caddo Parish, Louisiana" : {
+        "name" : "Hosston",
+        "state" : "22000",
+        "FIPS" : "22-36150",
+        "counties" : [
+            "22017"
+        ],
+        "type" : "Village",
+        "population_2010" : 318,
+        "population_2020" : 244,
+        "population" : 202,
+        "square_mileage" : 2.66
+    },
+    "Houma, Terrebonne Parish, Louisiana" : {
+        "name" : "Houma",
+        "state" : "22000",
+        "FIPS" : "22-36255",
+        "counties" : [
+            "22109"
+        ],
+        "type" : "Consolidated City-Parish",
+        "population_2010" : 33727,
+        "population_2020" : 33406,
+        "population" : 32436,
+        "square_mileage" : 14.47
+    },
+    "Ida, Caddo Parish, Louisiana" : {
+        "name" : "Ida",
+        "state" : "22000",
+        "FIPS" : "22-36885",
+        "counties" : [
+            "22017"
+        ],
+        "type" : "Village",
+        "population_2010" : 221,
+        "population_2020" : 217,
+        "population" : 209,
+        "square_mileage" : 1.28
+    },
+    "Independence, Tangipahoa Parish, Louisiana" : {
+        "name" : "Independence",
+        "state" : "22000",
+        "FIPS" : "22-37025",
+        "counties" : [
+            "22105"
+        ],
+        "type" : "Town",
+        "population_2010" : 1665,
+        "population_2020" : 1635,
+        "population" : 1578,
+        "square_mileage" : 2.41
+    },
+    "Iota, Acadia Parish, Louisiana" : {
+        "name" : "Iota",
+        "state" : "22000",
+        "FIPS" : "22-37410",
+        "counties" : [
+            "22001"
+        ],
+        "type" : "Town",
+        "population_2010" : 1500,
+        "population_2020" : 1304,
+        "population" : 1162,
+        "square_mileage" : 1.27
+    },
+    "Iowa, Calcasieu Parish, Louisiana" : {
+        "name" : "19000",
+        "state" : "22000",
+        "FIPS" : "22-37445",
+        "counties" : [
+            "22019"
+        ],
+        "type" : "Town",
+        "population_2010" : 2996,
+        "population_2020" : 3436,
+        "population" : 3721,
+        "square_mileage" : 3.17
+    },
+    "Jackson, East Feliciana Parish, Louisiana" : {
+        "name" : "Jackson",
+        "state" : "22000",
+        "FIPS" : "22-37830",
+        "counties" : [
+            "22037"
+        ],
+        "type" : "Town",
+        "population_2010" : 3842,
+        "population_2020" : 3990,
+        "population" : 4007,
+        "square_mileage" : 4.46
+    },
+    "Jamestown, Bienville Parish, Louisiana" : {
+        "name" : "Jamestown",
+        "state" : "22000",
+        "FIPS" : "22-37935",
+        "counties" : [
+            "22013"
+        ],
+        "type" : "Town",
+        "population_2010" : 139,
+        "population_2020" : 100,
+        "population" : 80,
+        "square_mileage" : 1.75
+    },
+    "Jeanerette, Iberia Parish, Louisiana" : {
+        "name" : "Jeanerette",
+        "state" : "22000",
+        "FIPS" : "22-38075",
+        "counties" : [
+            "22045"
+        ],
+        "type" : "City",
+        "population_2010" : 5530,
+        "population_2020" : 4813,
+        "population" : 4293,
+        "square_mileage" : 2.31
+    },
+    "Jean Lafitte, Jefferson Parish, Louisiana" : {
+        "name" : "Jean Lafitte",
+        "state" : "22000",
+        "FIPS" : "22-38092",
+        "counties" : [
+            "22051"
+        ],
+        "type" : "Town",
+        "population_2010" : 1903,
+        "population_2020" : 1809,
+        "population" : 1708,
+        "square_mileage" : 5.85
+    },
+    "Jena, LaSalle Parish, Louisiana" : {
+        "name" : "Jena",
+        "state" : "22000",
+        "FIPS" : "22-38285",
+        "counties" : [
+            "22059"
+        ],
+        "type" : "Town",
+        "population_2010" : 3398,
+        "population_2020" : 4155,
+        "population" : 4741,
+        "square_mileage" : 5.5
+    },
+    "Jennings, Jefferson Davis Parish, Louisiana" : {
+        "name" : "Jennings",
+        "state" : "22000",
+        "FIPS" : "22-38355",
+        "counties" : [
+            "22053"
+        ],
+        "type" : "City",
+        "population_2010" : 10383,
+        "population_2020" : 9837,
+        "population" : 9266,
+        "square_mileage" : 10.41
+    },
+    "Jonesboro, Jackson Parish, Louisiana" : {
+        "name" : "Jonesboro",
+        "state" : "22000",
+        "FIPS" : "22-38670",
+        "counties" : [
+            "22049"
+        ],
+        "type" : "Town",
+        "population_2010" : 4704,
+        "population_2020" : 4106,
+        "population" : 3669,
+        "square_mileage" : 4.85
+    },
+    "Jonesville, Catahoula Parish, Louisiana" : {
+        "name" : "Jonesville",
+        "state" : "22000",
+        "FIPS" : "22-38775",
+        "counties" : [
+            "22025"
+        ],
+        "type" : "Town",
+        "population_2010" : 2265,
+        "population_2020" : 1728,
+        "population" : 1427,
+        "square_mileage" : 1.92
+    },
+    "Junction City, Claiborne Parish, Louisiana" : {
+        "name" : "Junction City",
+        "state" : "22000",
+        "FIPS" : "22-38985",
+        "counties" : [
+            "22027"
+        ],
+        "type" : "Village",
+        "population_2010" : 582,
+        "population_2020" : 437,
+        "population" : 358,
+        "square_mileage" : 1.23
+    },
+    "Kaplan, Vermilion Parish, Louisiana" : {
+        "name" : "Kaplan",
+        "state" : "22000",
+        "FIPS" : "22-39055",
+        "counties" : [
+            "22113"
+        ],
+        "type" : "City",
+        "population_2010" : 4600,
+        "population_2020" : 4352,
+        "population" : 4095,
+        "square_mileage" : 2.33
+    },
+    "Keachi, DeSoto Parish, Louisiana" : {
+        "name" : "Keachi",
+        "state" : "22000",
+        "FIPS" : "22-39085",
+        "counties" : [
+            "22031"
+        ],
+        "type" : "Town",
+        "population_2010" : 295,
+        "population_2020" : 243,
+        "population" : 210,
+        "square_mileage" : 5.03
+    },
+    "Kenner, Jefferson Parish, Louisiana" : {
+        "name" : "Kenner",
+        "state" : "22000",
+        "FIPS" : "22-39475",
+        "counties" : [
+            "22051"
+        ],
+        "type" : "City",
+        "population_2010" : 66702,
+        "population_2020" : 66448,
+        "population" : 64777,
+        "square_mileage" : 14.88
+    },
+    "Kentwood, Tangipahoa Parish, Louisiana" : {
+        "name" : "Kentwood",
+        "state" : "22000",
+        "FIPS" : "22-39545",
+        "counties" : [
+            "22105"
+        ],
+        "type" : "Town",
+        "population_2010" : 2198,
+        "population_2020" : 2145,
+        "population" : 2061,
+        "square_mileage" : 7.11
+    },
+    "Kilbourne, West Carroll Parish, Louisiana" : {
+        "name" : "Kilbourne",
+        "state" : "22000",
+        "FIPS" : "22-39650",
+        "counties" : [
+            "22123"
+        ],
+        "type" : "Village",
+        "population_2010" : 416,
+        "population_2020" : 351,
+        "population" : 307,
+        "square_mileage" : 1.39
+    },
+    "Killian, Livingston Parish, Louisiana" : {
+        "name" : "Killian",
+        "state" : "22000",
+        "FIPS" : "22-39685",
+        "counties" : [
+            "22063"
+        ],
+        "type" : "Town",
+        "population_2010" : 1206,
+        "population_2020" : 1177,
+        "population" : 1131,
+        "square_mileage" : 10.88
+    },
+    "Kinder, Allen Parish, Louisiana" : {
+        "name" : "Kinder",
+        "state" : "22000",
+        "FIPS" : "22-39755",
+        "counties" : [
+            "22003"
+        ],
+        "type" : "Town",
+        "population_2010" : 2477,
+        "population_2020" : 2170,
+        "population" : 1943,
+        "square_mileage" : 5.53
+    },
+    "Krotz Springs, St. Landry Parish, Louisiana" : {
+        "name" : "Krotz Springs",
+        "state" : "22000",
+        "FIPS" : "22-40280",
+        "counties" : [
+            "22097"
+        ],
+        "type" : "Town",
+        "population_2010" : 1198,
+        "population_2020" : 904,
+        "population" : 742,
+        "square_mileage" : 1.73
+    },
+    "Lafayette, Louisianafayette Parish, Louisiana" : {
+        "name" : "Lafayette",
+        "state" : "22000",
+        "FIPS" : "22-40735",
+        "counties" : [
+            "22055"
+        ],
+        "type" : "Consolidated City-Parish",
+        "population_2010" : 120623,
+        "population_2020" : 121374,
+        "population" : 119159,
+        "square_mileage" : 55.82
+    },
+    "Lake Arthur, Jefferson Davis Parish, Louisiana" : {
+        "name" : "Lake Arthur",
+        "state" : "22000",
+        "FIPS" : "22-41050",
+        "counties" : [
+            "22053"
+        ],
+        "type" : "Town",
+        "population_2010" : 2738,
+        "population_2020" : 2595,
+        "population" : 2445,
+        "square_mileage" : 1.85
+    },
+    "Lake Charles, Calcasieu Parish, Louisiana" : {
+        "name" : "Lake Charles",
+        "state" : "22000",
+        "FIPS" : "22-41155",
+        "counties" : [
+            "22019"
+        ],
+        "type" : "City",
+        "population_2010" : 71993,
+        "population_2020" : 84872,
+        "population" : 93961,
+        "square_mileage" : 45.65
+    },
+    "Lake Providence, East Carroll Parish, Louisiana" : {
+        "name" : "Lake Providence",
+        "state" : "22000",
+        "FIPS" : "22-41400",
+        "counties" : [
+            "22035"
+        ],
+        "type" : "Town",
+        "population_2010" : 3991,
+        "population_2020" : 3587,
+        "population" : 3264,
+        "square_mileage" : 3.6
+    },
+    "Lecompte, Rapides Parish, Louisiana" : {
+        "name" : "Lecompte",
+        "state" : "22000",
+        "FIPS" : "22-42800",
+        "counties" : [
+            "22079"
+        ],
+        "type" : "Town",
+        "population_2010" : 1227,
+        "population_2020" : 845,
+        "population" : 661,
+        "square_mileage" : 1.06
+    },
+    "Leesville, Vernon Parish, Louisiana" : {
+        "name" : "Leesville",
+        "state" : "22000",
+        "FIPS" : "22-43010",
+        "counties" : [
+            "22115"
+        ],
+        "type" : "City",
+        "population_2010" : 6612,
+        "population_2020" : 5649,
+        "population" : 4981,
+        "square_mileage" : 7.65
+    },
+    "Leonville, St. Landry Parish, Louisiana" : {
+        "name" : "Leonville",
+        "state" : "22000",
+        "FIPS" : "22-43395",
+        "counties" : [
+            "22097"
+        ],
+        "type" : "Town",
+        "population_2010" : 1084,
+        "population_2020" : 868,
+        "population" : 737,
+        "square_mileage" : 2.73
+    },
+    "Lillie, Union Parish, Louisiana" : {
+        "name" : "Lillie",
+        "state" : "22000",
+        "FIPS" : "22-43920",
+        "counties" : [
+            "22111"
+        ],
+        "type" : "Village",
+        "population_2010" : 118,
+        "population_2020" : 111,
+        "population" : 104,
+        "square_mileage" : 1.93
+    },
+    "Lisbon, Claiborne Parish, Louisiana" : {
+        "name" : "Lisbon",
+        "state" : "22000",
+        "FIPS" : "22-44235",
+        "counties" : [
+            "22027"
+        ],
+        "type" : "Village",
+        "population_2010" : 185,
+        "population_2020" : 173,
+        "population" : 162,
+        "square_mileage" : 13.12
+    },
+    "Livingston, Livingston Parish, Louisiana" : {
+        "name" : "Livingston",
+        "state" : "22000",
+        "FIPS" : "22-44655",
+        "counties" : [
+            "22063"
+        ],
+        "type" : "Town",
+        "population_2010" : 1769,
+        "population_2020" : 1877,
+        "population" : 1915,
+        "square_mileage" : 3.22
+    },
+    "Livonia, Pointe Coupee Parish, Louisiana" : {
+        "name" : "Livonia",
+        "state" : "22000",
+        "FIPS" : "22-44690",
+        "counties" : [
+            "22077"
+        ],
+        "type" : "Town",
+        "population_2010" : 1442,
+        "population_2020" : 1212,
+        "population" : 1058,
+        "square_mileage" : 1.89
+    },
+    "Lockport, Louisianafourche Parish, Louisiana" : {
+        "name" : "Lockport",
+        "state" : "22000",
+        "FIPS" : "22-44900",
+        "counties" : [
+            "22057"
+        ],
+        "type" : "Town",
+        "population_2010" : 2578,
+        "population_2020" : 2490,
+        "population" : 2376,
+        "square_mileage" : 1.13
+    },
+    "Logansport, DeSoto Parish, Louisiana" : {
+        "name" : "Logansport",
+        "state" : "22000",
+        "FIPS" : "22-45040",
+        "counties" : [
+            "22031"
+        ],
+        "type" : "Town",
+        "population_2010" : 1555,
+        "population_2020" : 1340,
+        "population" : 1188,
+        "square_mileage" : 3.4
+    },
+    "Longstreet, DeSoto Parish, Louisiana" : {
+        "name" : "Longstreet",
+        "state" : "22000",
+        "FIPS" : "22-45460",
+        "counties" : [
+            "22031"
+        ],
+        "type" : "Village",
+        "population_2010" : 157,
+        "population_2020" : 115,
+        "population" : 93,
+        "square_mileage" : 2.05
+    },
+    "Loreauville, Iberia Parish, Louisiana" : {
+        "name" : "Loreauville",
+        "state" : "22000",
+        "FIPS" : "22-45670",
+        "counties" : [
+            "22045"
+        ],
+        "type" : "Village",
+        "population_2010" : 887,
+        "population_2020" : 658,
+        "population" : 535,
+        "square_mileage" : 0.45
+    },
+    "Lucky, Bienville Parish, Louisiana" : {
+        "name" : "Lucky",
+        "state" : "22000",
+        "FIPS" : "22-46370",
+        "counties" : [
+            "22013"
+        ],
+        "type" : "Village",
+        "population_2010" : 272,
+        "population_2020" : 251,
+        "population" : 232,
+        "square_mileage" : 8.17
+    },
+    "Lutcher, St. James Parish, Louisiana" : {
+        "name" : "Lutcher",
+        "state" : "22000",
+        "FIPS" : "22-46720",
+        "counties" : [
+            "22093"
+        ],
+        "type" : "Town",
+        "population_2010" : 3559,
+        "population_2020" : 3133,
+        "population" : 2814,
+        "square_mileage" : 3.37
+    },
+    "McNary, Rapides Parish, Louisiana" : {
+        "name" : "McNary",
+        "state" : "22000",
+        "FIPS" : "22-47315",
+        "counties" : [
+            "22079"
+        ],
+        "type" : "Village",
+        "population_2010" : 211,
+        "population_2020" : 201,
+        "population" : 190,
+        "square_mileage" : 1.84
+    },
+    "Madisonville, St. Tammany Parish, Louisiana" : {
+        "name" : "Madisonville",
+        "state" : "22000",
+        "FIPS" : "22-47560",
+        "counties" : [
+            "22103"
+        ],
+        "type" : "Town",
+        "population_2010" : 748,
+        "population_2020" : 850,
+        "population" : 914,
+        "square_mileage" : 2.53
+    },
+    "Mamou, Evangeline Parish, Louisiana" : {
+        "name" : "Mamou",
+        "state" : "22000",
+        "FIPS" : "22-48085",
+        "counties" : [
+            "22039"
+        ],
+        "type" : "Town",
+        "population_2010" : 3242,
+        "population_2020" : 2936,
+        "population" : 2685,
+        "square_mileage" : 1.41
+    },
+    "Mandeville, St. Tammany Parish, Louisiana" : {
+        "name" : "Mandeville",
+        "state" : "22000",
+        "FIPS" : "22-48225",
+        "counties" : [
+            "22103"
+        ],
+        "type" : "City",
+        "population_2010" : 11560,
+        "population_2020" : 13192,
+        "population" : 14229,
+        "square_mileage" : 7.12
+    },
+    "Mangham, Richland Parish, Louisiana" : {
+        "name" : "Mangham",
+        "state" : "22000",
+        "FIPS" : "22-48260",
+        "counties" : [
+            "22083"
+        ],
+        "type" : "Village",
+        "population_2010" : 672,
+        "population_2020" : 624,
+        "population" : 580,
+        "square_mileage" : 1.11
+    },
+    "Mansfield, DeSoto Parish, Louisiana" : {
+        "name" : "Mansfield",
+        "state" : "22000",
+        "FIPS" : "22-48365",
+        "counties" : [
+            "22031"
+        ],
+        "type" : "City",
+        "population_2010" : 5001,
+        "population_2020" : 4714,
+        "population" : 4425,
+        "square_mileage" : 3.65
+    },
+    "Mansura, Avoyelles Parish, Louisiana" : {
+        "name" : "Mansura",
+        "state" : "22000",
+        "FIPS" : "22-48400",
+        "counties" : [
+            "22009"
+        ],
+        "type" : "Town",
+        "population_2010" : 1419,
+        "population_2020" : 1320,
+        "population" : 1228,
+        "square_mileage" : 2.85
+    },
+    "Many, Sabine Parish, Louisiana" : {
+        "name" : "Many",
+        "state" : "22000",
+        "FIPS" : "22-48470",
+        "counties" : [
+            "22085"
+        ],
+        "type" : "Town",
+        "population_2010" : 2853,
+        "population_2020" : 2571,
+        "population" : 2344,
+        "square_mileage" : 3.41
+    },
+    "Maringouin, Iberville Parish, Louisiana" : {
+        "name" : "Maringouin",
+        "state" : "22000",
+        "FIPS" : "22-48610",
+        "counties" : [
+            "22047"
+        ],
+        "type" : "Town",
+        "population_2010" : 1098,
+        "population_2020" : 891,
+        "population" : 762,
+        "square_mileage" : 0.74
+    },
+    "Marion, Union Parish, Louisiana" : {
+        "name" : "Marion",
+        "state" : "22000",
+        "FIPS" : "22-48645",
+        "counties" : [
+            "22111"
+        ],
+        "type" : "Town",
+        "population_2010" : 765,
+        "population_2020" : 623,
+        "population" : 534,
+        "square_mileage" : 3.21
+    },
+    "Marksville, Avoyelles Parish, Louisiana" : {
+        "name" : "Marksville",
+        "state" : "22000",
+        "FIPS" : "22-48750",
+        "counties" : [
+            "22009"
+        ],
+        "type" : "City",
+        "population_2010" : 5702,
+        "population_2020" : 5065,
+        "population" : 4575,
+        "square_mileage" : 4.81
+    },
+    "Martin, Red River Parish, Louisiana" : {
+        "name" : "Martin",
+        "state" : "22000",
+        "FIPS" : "22-48925",
+        "counties" : [
+            "22081"
+        ],
+        "type" : "Village",
+        "population_2010" : 594,
+        "population_2020" : 524,
+        "population" : 471,
+        "square_mileage" : 11.55
+    },
+    "Maurice, Vermilion Parish, Louisiana" : {
+        "name" : "Maurice",
+        "state" : "22000",
+        "FIPS" : "22-49240",
+        "counties" : [
+            "22113"
+        ],
+        "type" : "Village",
+        "population_2010" : 964,
+        "population_2020" : 2118,
+        "population" : 4580,
+        "square_mileage" : 2.78
+    },
+    "Melville, St. Landry Parish, Louisiana" : {
+        "name" : "Melville",
+        "state" : "22000",
+        "FIPS" : "22-49730",
+        "counties" : [
+            "22097"
+        ],
+        "type" : "Town",
+        "population_2010" : 1041,
+        "population_2020" : 759,
+        "population" : 612,
+        "square_mileage" : 1.26
+    },
+    "Mermentau, Acadia Parish, Louisiana" : {
+        "name" : "Mermentau",
+        "state" : "22000",
+        "FIPS" : "22-49870",
+        "counties" : [
+            "22001"
+        ],
+        "type" : "Village",
+        "population_2010" : 661,
+        "population_2020" : 516,
+        "population" : 432,
+        "square_mileage" : 2.13
+    },
+    "Mer Rouge, Morehouse Parish, Louisiana" : {
+        "name" : "Mer Rouge",
+        "state" : "22000",
+        "FIPS" : "22-49905",
+        "counties" : [
+            "22067"
+        ],
+        "type" : "Village",
+        "population_2010" : 628,
+        "population_2020" : 491,
+        "population" : 411,
+        "square_mileage" : 1.17
+    },
+    "Merryville, Beauregard Parish, Louisiana" : {
+        "name" : "Merryville",
+        "state" : "22000",
+        "FIPS" : "22-50010",
+        "counties" : [
+            "22011"
+        ],
+        "type" : "Town",
+        "population_2010" : 1103,
+        "population_2020" : 967,
+        "population" : 866,
+        "square_mileage" : 9.79
+    },
+    "Minden, Webster Parish, Louisiana" : {
+        "name" : "Minden",
+        "state" : "22000",
+        "FIPS" : "22-50885",
+        "counties" : [
+            "22119"
+        ],
+        "type" : "City",
+        "population_2010" : 13082,
+        "population_2020" : 11928,
+        "population" : 10956,
+        "square_mileage" : 15.04
+    },
+    "Monroe, Ouachita Parish, Louisiana" : {
+        "name" : "Monroe",
+        "state" : "22000",
+        "FIPS" : "22-51410",
+        "counties" : [
+            "22073"
+        ],
+        "type" : "City",
+        "population_2010" : 48815,
+        "population_2020" : 47702,
+        "population" : 45886,
+        "square_mileage" : 29.66
+    },
+    "Montgomery, Grant Parish, Louisiana" : {
+        "name" : "Montgomery",
+        "state" : "22000",
+        "FIPS" : "22-51620",
+        "counties" : [
+            "22043"
+        ],
+        "type" : "Town",
+        "population_2010" : 730,
+        "population_2020" : 622,
+        "population" : 548,
+        "square_mileage" : 2.07
+    },
+    "Montpelier, St. Helena Parish, Louisiana" : {
+        "name" : "Montpelier",
+        "state" : "22000",
+        "FIPS" : "22-51690",
+        "counties" : [
+            "22091"
+        ],
+        "type" : "Village",
+        "population_2010" : 266,
+        "population_2020" : 196,
+        "population" : 159,
+        "square_mileage" : 1.87
+    },
+    "Mooringsport, Caddo Parish, Louisiana" : {
+        "name" : "Mooringsport",
+        "state" : "22000",
+        "FIPS" : "22-51830",
+        "counties" : [
+            "22017"
+        ],
+        "type" : "Town",
+        "population_2010" : 793,
+        "population_2020" : 748,
+        "population" : 703,
+        "square_mileage" : 1.29
+    },
+    "Moreauville, Avoyelles Parish, Louisiana" : {
+        "name" : "Moreauville",
+        "state" : "22000",
+        "FIPS" : "22-51970",
+        "counties" : [
+            "22009"
+        ],
+        "type" : "Village",
+        "population_2010" : 929,
+        "population_2020" : 984,
+        "population" : 1003,
+        "square_mileage" : 3.03
+    },
+    "Morgan City, St. Martin Parish, Louisiana" : {
+        "name" : "Morgan City",
+        "state" : "22000",
+        "FIPS" : "22-52040",
+        "counties" : [
+            "22099"
+        ],
+        "type" : "City",
+        "population_2010" : 12404,
+        "population_2020" : 11472,
+        "population" : 10635,
+        "square_mileage" : 5.98
+    },
+    "Morganza, Pointe Coupee Parish, Louisiana" : {
+        "name" : "Morganza",
+        "state" : "22000",
+        "FIPS" : "22-52075",
+        "counties" : [
+            "22077"
+        ],
+        "type" : "Village",
+        "population_2010" : 610,
+        "population_2020" : 525,
+        "population" : 465,
+        "square_mileage" : 1.21
+    },
+    "Morse, Acadia Parish, Louisiana" : {
+        "name" : "Morse",
+        "state" : "22000",
+        "FIPS" : "22-52320",
+        "counties" : [
+            "22001"
+        ],
+        "type" : "Village",
+        "population_2010" : 812,
+        "population_2020" : 599,
+        "population" : 486,
+        "square_mileage" : 1.4
+    },
+    "Mound, Madison Parish, Louisiana" : {
+        "name" : "Mound",
+        "state" : "22000",
+        "FIPS" : "22-52565",
+        "counties" : [
+            "22065"
+        ],
+        "type" : "Village",
+        "population_2010" : 19,
+        "population_2020" : 12,
+        "population" : 9,
+        "square_mileage" : 0.52
+    },
+    "Mount Lebanon, Bienville Parish, Louisiana" : {
+        "name" : "Mount Lebanon",
+        "state" : "22000",
+        "FIPS" : "22-52740",
+        "counties" : [
+            "22013"
+        ],
+        "type" : "Town",
+        "population_2010" : 83,
+        "population_2020" : 66,
+        "population" : 56,
+        "square_mileage" : 4.03
+    },
+    "Napoleonville, Assumption Parish, Louisiana" : {
+        "name" : "Napoleonville",
+        "state" : "22000",
+        "FIPS" : "22-53370",
+        "counties" : [
+            "22007"
+        ],
+        "type" : "Village",
+        "population_2010" : 660,
+        "population_2020" : 540,
+        "population" : 464,
+        "square_mileage" : 0.17
+    },
+    "Natchez, Natchitoches Parish, Louisiana" : {
+        "name" : "Natchez",
+        "state" : "22000",
+        "FIPS" : "22-53510",
+        "counties" : [
+            "22069"
+        ],
+        "type" : "Village",
+        "population_2010" : 597,
+        "population_2020" : 489,
+        "population" : 420,
+        "square_mileage" : 1.03
+    },
+    "Natchitoches, Natchitoches Parish, Louisiana" : {
+        "name" : "Natchitoches",
+        "state" : "22000",
+        "FIPS" : "22-53545",
+        "counties" : [
+            "22069"
+        ],
+        "type" : "City",
+        "population_2010" : 18323,
+        "population_2020" : 18039,
+        "population" : 17442,
+        "square_mileage" : 22.69
+    },
+    "Newellton, Tensas Parish, Louisiana" : {
+        "name" : "Newellton",
+        "state" : "22000",
+        "FIPS" : "22-53930",
+        "counties" : [
+            "22107"
+        ],
+        "type" : "Town",
+        "population_2010" : 1187,
+        "population_2020" : 886,
+        "population" : 723,
+        "square_mileage" : 0.76
+    },
+    "New Iberia, Iberia Parish, Louisiana" : {
+        "name" : "New Iberia",
+        "state" : "22000",
+        "FIPS" : "22-54035",
+        "counties" : [
+            "22045"
+        ],
+        "type" : "City",
+        "population_2010" : 30617,
+        "population_2020" : 28555,
+        "population" : 26618,
+        "square_mileage" : 11.14
+    },
+    "New Llano, Vernon Parish, Louisiana" : {
+        "name" : "New Llano",
+        "state" : "22000",
+        "FIPS" : "22-54175",
+        "counties" : [
+            "22115"
+        ],
+        "type" : "Town",
+        "population_2010" : 2504,
+        "population_2020" : 2213,
+        "population" : 1993,
+        "square_mileage" : 2.67
+    },
+    "New Orleans, Orleans Parish, Louisiana" : {
+        "name" : "New Orleans",
+        "state" : "22000",
+        "FIPS" : "22-55000",
+        "counties" : [
+            "22071"
+        ],
+        "type" : "Consolidated City-Parish",
+        "population_2010" : 343829,
+        "population_2020" : 383997,
+        "population" : 407245,
+        "square_mileage" : 169.49
+    },
+    "New Roads, Pointe Coupee Parish, Louisiana" : {
+        "name" : "New Roads",
+        "state" : "22000",
+        "FIPS" : "22-55105",
+        "counties" : [
+            "22077"
+        ],
+        "type" : "City",
+        "population_2010" : 4831,
+        "population_2020" : 4549,
+        "population" : 4267,
+        "square_mileage" : 4.58
+    },
+    "Noble, Sabine Parish, Louisiana" : {
+        "name" : "Noble",
+        "state" : "22000",
+        "FIPS" : "22-55420",
+        "counties" : [
+            "22085"
+        ],
+        "type" : "Village",
+        "population_2010" : 252,
+        "population_2020" : 200,
+        "population" : 169,
+        "square_mileage" : 1.03
+    },
+    "North Hodge, Jackson Parish, Louisiana" : {
+        "name" : "North Hodge",
+        "state" : "22000",
+        "FIPS" : "22-55910",
+        "counties" : [
+            "22049"
+        ],
+        "type" : "Village",
+        "population_2010" : 388,
+        "population_2020" : 296,
+        "population" : 244,
+        "square_mileage" : 0.68
+    },
+    "Norwood, East Feliciana Parish, Louisiana" : {
+        "name" : "Norwood",
+        "state" : "22000",
+        "FIPS" : "22-56295",
+        "counties" : [
+            "22037"
+        ],
+        "type" : "Village",
+        "population_2010" : 322,
+        "population_2020" : 279,
+        "population" : 248,
+        "square_mileage" : 4.08
+    },
+    "Oakdale, Allen Parish, Louisiana" : {
+        "name" : "Oakdale",
+        "state" : "22000",
+        "FIPS" : "22-56540",
+        "counties" : [
+            "22003"
+        ],
+        "type" : "City",
+        "population_2010" : 7780,
+        "population_2020" : 6692,
+        "population" : 5925,
+        "square_mileage" : 5.19
+    },
+    "Oak Grove, West Carroll Parish, Louisiana" : {
+        "name" : "Oak Grove",
+        "state" : "22000",
+        "FIPS" : "22-56820",
+        "counties" : [
+            "22123"
+        ],
+        "type" : "Town",
+        "population_2010" : 1727,
+        "population_2020" : 1441,
+        "population" : 1253,
+        "square_mileage" : 1.72
+    },
+    "Oak Ridge, Morehouse Parish, Louisiana" : {
+        "name" : "Oak Ridge",
+        "state" : "22000",
+        "FIPS" : "22-57205",
+        "counties" : [
+            "22067"
+        ],
+        "type" : "Village",
+        "population_2010" : 144,
+        "population_2020" : 124,
+        "population" : 110,
+        "square_mileage" : 0.99
+    },
+    "Oberlin, Allen Parish, Louisiana" : {
+        "name" : "Oberlin",
+        "state" : "22000",
+        "FIPS" : "22-57450",
+        "counties" : [
+            "22003"
+        ],
+        "type" : "Town",
+        "population_2010" : 1770,
+        "population_2020" : 1402,
+        "population" : 1182,
+        "square_mileage" : 4.38
+    },
+    "Oil City, Caddo Parish, Louisiana" : {
+        "name" : "Oil City",
+        "state" : "22000",
+        "FIPS" : "22-57590",
+        "counties" : [
+            "22017"
+        ],
+        "type" : "Town",
+        "population_2010" : 1008,
+        "population_2020" : 901,
+        "population" : 817,
+        "square_mileage" : 1.78
+    },
+    "Olla, LaSalle Parish, Louisiana" : {
+        "name" : "Olla",
+        "state" : "22000",
+        "FIPS" : "22-57905",
+        "counties" : [
+            "22059"
+        ],
+        "type" : "Town",
+        "population_2010" : 1385,
+        "population_2020" : 1295,
+        "population" : 1209,
+        "square_mileage" : 3.93
+    },
+    "Opelousas, St. Landry Parish, Louisiana" : {
+        "name" : "Opelousas",
+        "state" : "22000",
+        "FIPS" : "22-58045",
+        "counties" : [
+            "22097"
+        ],
+        "type" : "City",
+        "population_2010" : 16634,
+        "population_2020" : 15786,
+        "population" : 14886,
+        "square_mileage" : 9.67
+    },
+    "Palmetto, St. Landry Parish, Louisiana" : {
+        "name" : "Palmetto",
+        "state" : "22000",
+        "FIPS" : "22-58780",
+        "counties" : [
+            "22097"
+        ],
+        "type" : "Village",
+        "population_2010" : 164,
+        "population_2020" : 92,
+        "population" : 66,
+        "square_mileage" : 0.89
+    },
+    "Parks, St. Martin Parish, Louisiana" : {
+        "name" : "Parks",
+        "state" : "22000",
+        "FIPS" : "22-59165",
+        "counties" : [
+            "22099"
+        ],
+        "type" : "Village",
+        "population_2010" : 653,
+        "population_2020" : 640,
+        "population" : 617,
+        "square_mileage" : 0.85
+    },
+    "Patterson, St. Mary Parish, Louisiana" : {
+        "name" : "Patterson",
+        "state" : "22000",
+        "FIPS" : "22-59340",
+        "counties" : [
+            "22101"
+        ],
+        "type" : "City",
+        "population_2010" : 6112,
+        "population_2020" : 5931,
+        "population" : 5678,
+        "square_mileage" : 2.52
+    },
+    "Pearl River, St. Tammany Parish, Louisiana" : {
+        "name" : "Pearl River",
+        "state" : "22000",
+        "FIPS" : "22-59445",
+        "counties" : [
+            "22103"
+        ],
+        "type" : "Town",
+        "population_2010" : 2506,
+        "population_2020" : 2565,
+        "population" : 2549,
+        "square_mileage" : 3.73
+    },
+    "Pine Prairie, Evangeline Parish, Louisiana" : {
+        "name" : "Pine Prairie",
+        "state" : "22000",
+        "FIPS" : "22-60495",
+        "counties" : [
+            "22039"
+        ],
+        "type" : "Village",
+        "population_2010" : 1610,
+        "population_2020" : 1490,
+        "population" : 1382,
+        "square_mileage" : 1.61
+    },
+    "Pineville, Rapides Parish, Louisiana" : {
+        "name" : "Pineville",
+        "state" : "22000",
+        "FIPS" : "22-60530",
+        "counties" : [
+            "22079"
+        ],
+        "type" : "City",
+        "population_2010" : 14555,
+        "population_2020" : 14384,
+        "population" : 13944,
+        "square_mileage" : 12.6
+    },
+    "Pioneer, West Carroll Parish, Louisiana" : {
+        "name" : "Pioneer",
+        "state" : "22000",
+        "FIPS" : "22-60565",
+        "counties" : [
+            "22123"
+        ],
+        "type" : "Village",
+        "population_2010" : 156,
+        "population_2020" : 149,
+        "population" : 141,
+        "square_mileage" : 1.09
+    },
+    "Plain Dealing, Bossier Parish, Louisiana" : {
+        "name" : "Plain Dealing",
+        "state" : "22000",
+        "FIPS" : "22-60670",
+        "counties" : [
+            "22015"
+        ],
+        "type" : "Town",
+        "population_2010" : 1015,
+        "population_2020" : 893,
+        "population" : 802,
+        "square_mileage" : 1.58
+    },
+    "Plaquemine, Iberville Parish, Louisiana" : {
+        "name" : "Plaquemine",
+        "state" : "22000",
+        "FIPS" : "22-60880",
+        "counties" : [
+            "22047"
+        ],
+        "type" : "City",
+        "population_2010" : 7119,
+        "population_2020" : 6269,
+        "population" : 5632,
+        "square_mileage" : 2.92
+    },
+    "Plaucheville, Avoyelles Parish, Louisiana" : {
+        "name" : "Plaucheville",
+        "state" : "22000",
+        "FIPS" : "22-60985",
+        "counties" : [
+            "22009"
+        ],
+        "type" : "Village",
+        "population_2010" : 248,
+        "population_2020" : 221,
+        "population" : 200,
+        "square_mileage" : 1.51
+    },
+    "Pleasant Hill, Sabine Parish, Louisiana" : {
+        "name" : "Pleasant Hill",
+        "state" : "22000",
+        "FIPS" : "22-61055",
+        "counties" : [
+            "22085"
+        ],
+        "type" : "Village",
+        "population_2010" : 723,
+        "population_2020" : 617,
+        "population" : 544,
+        "square_mileage" : 1.62
+    },
+    "Pollock, Grant Parish, Louisiana" : {
+        "name" : "Pollock",
+        "state" : "22000",
+        "FIPS" : "22-61580",
+        "counties" : [
+            "22043"
+        ],
+        "type" : "Town",
+        "population_2010" : 469,
+        "population_2020" : 394,
+        "population" : 344,
+        "square_mileage" : 7.84
+    },
+    "Ponchatoula, Tangipahoa Parish, Louisiana" : {
+        "name" : "Ponchatoula",
+        "state" : "22000",
+        "FIPS" : "22-61615",
+        "counties" : [
+            "22105"
+        ],
+        "type" : "City",
+        "population_2010" : 6559,
+        "population_2020" : 7822,
+        "population" : 8742,
+        "square_mileage" : 4.73
+    },
+    "Port Allen, West Baton Rouge Parish, Louisiana" : {
+        "name" : "Port Allen",
+        "state" : "22000",
+        "FIPS" : "22-61790",
+        "counties" : [
+            "22121"
+        ],
+        "type" : "City",
+        "population_2010" : 5180,
+        "population_2020" : 4939,
+        "population" : 4672,
+        "square_mileage" : 2.84
+    },
+    "Port Barre, St. Landry Parish, Louisiana" : {
+        "name" : "Port Barre",
+        "state" : "22000",
+        "FIPS" : "22-61825",
+        "counties" : [
+            "22097"
+        ],
+        "type" : "Town",
+        "population_2010" : 2055,
+        "population_2020" : 1751,
+        "population" : 1541,
+        "square_mileage" : 1.08
+    },
+    "Port Vincent, Livingston Parish, Louisiana" : {
+        "name" : "Port Vincent",
+        "state" : "22000",
+        "FIPS" : "22-62105",
+        "counties" : [
+            "22063"
+        ],
+        "type" : "Village",
+        "population_2010" : 741,
+        "population_2020" : 646,
+        "population" : 577,
+        "square_mileage" : 1.7
+    },
+    "Powhatan, Natchitoches Parish, Louisiana" : {
+        "name" : "Powhatan",
+        "state" : "22000",
+        "FIPS" : "22-62245",
+        "counties" : [
+            "22069"
+        ],
+        "type" : "Village",
+        "population_2010" : 135,
+        "population_2020" : 101,
+        "population" : 83,
+        "square_mileage" : 0.54
+    },
+    "Provencal, Natchitoches Parish, Louisiana" : {
+        "name" : "Provencal",
+        "state" : "22000",
+        "FIPS" : "22-62770",
+        "counties" : [
+            "22069"
+        ],
+        "type" : "Village",
+        "population_2010" : 611,
+        "population_2020" : 528,
+        "population" : 469,
+        "square_mileage" : 2.46
+    },
+    "Quitman, Jackson Parish, Louisiana" : {
+        "name" : "Quitman",
+        "state" : "22000",
+        "FIPS" : "22-63120",
+        "counties" : [
+            "22049"
+        ],
+        "type" : "Village",
+        "population_2010" : 181,
+        "population_2020" : 160,
+        "population" : 144,
+        "square_mileage" : 0.93
+    },
+    "Rayne, Acadia Parish, Louisiana" : {
+        "name" : "Rayne",
+        "state" : "22000",
+        "FIPS" : "22-63645",
+        "counties" : [
+            "22001"
+        ],
+        "type" : "City",
+        "population_2010" : 7953,
+        "population_2020" : 7236,
+        "population" : 6637,
+        "square_mileage" : 3.79
+    },
+    "Rayville, Richland Parish, Louisiana" : {
+        "name" : "Rayville",
+        "state" : "22000",
+        "FIPS" : "22-63680",
+        "counties" : [
+            "22083"
+        ],
+        "type" : "Town",
+        "population_2010" : 3695,
+        "population_2020" : 3347,
+        "population" : 3061,
+        "square_mileage" : 2.31
+    },
+    "Reeves, Allen Parish, Louisiana" : {
+        "name" : "Reeves",
+        "state" : "22000",
+        "FIPS" : "22-64100",
+        "counties" : [
+            "22003"
+        ],
+        "type" : "Village",
+        "population_2010" : 232,
+        "population_2020" : 221,
+        "population" : 209,
+        "square_mileage" : 2.42
+    },
+    "Richmond, Madison Parish, Louisiana" : {
+        "name" : "Richmond",
+        "state" : "22000",
+        "FIPS" : "22-64590",
+        "counties" : [
+            "22065"
+        ],
+        "type" : "Village",
+        "population_2010" : 577,
+        "population_2020" : 511,
+        "population" : 461,
+        "square_mileage" : 1.66
+    },
+    "Richwood, Ouachita Parish, Louisiana" : {
+        "name" : "Richwood",
+        "state" : "22000",
+        "FIPS" : "22-64660",
+        "counties" : [
+            "22073"
+        ],
+        "type" : "Town",
+        "population_2010" : 3392,
+        "population_2020" : 3881,
+        "population" : 4195,
+        "square_mileage" : 2.52
+    },
+    "Ridgecrest, Concordia Parish, Louisiana" : {
+        "name" : "Ridgecrest",
+        "state" : "22000",
+        "FIPS" : "22-64765",
+        "counties" : [
+            "22029"
+        ],
+        "type" : "Town",
+        "population_2010" : 694,
+        "population_2020" : 583,
+        "population" : 509,
+        "square_mileage" : 0.43
+    },
+    "Ringgold, Bienville Parish, Louisiana" : {
+        "name" : "Ringgold",
+        "state" : "22000",
+        "FIPS" : "22-64905",
+        "counties" : [
+            "22013"
+        ],
+        "type" : "Town",
+        "population_2010" : 1495,
+        "population_2020" : 1379,
+        "population" : 1276,
+        "square_mileage" : 2.32
+    },
+    "Robeline, Natchitoches Parish, Louisiana" : {
+        "name" : "Robeline",
+        "state" : "22000",
+        "FIPS" : "22-65325",
+        "counties" : [
+            "22069"
+        ],
+        "type" : "Village",
+        "population_2010" : 174,
+        "population_2020" : 117,
+        "population" : 91,
+        "square_mileage" : 1.19
+    },
+    "Rodessa, Caddo Parish, Louisiana" : {
+        "name" : "Rodessa",
+        "state" : "22000",
+        "FIPS" : "22-65710",
+        "counties" : [
+            "22017"
+        ],
+        "type" : "Village",
+        "population_2010" : 270,
+        "population_2020" : 192,
+        "population" : 153,
+        "square_mileage" : 1.2
+    },
+    "Rosedale, Iberville Parish, Louisiana" : {
+        "name" : "Rosedale",
+        "state" : "22000",
+        "FIPS" : "22-66060",
+        "counties" : [
+            "22047"
+        ],
+        "type" : "Village",
+        "population_2010" : 793,
+        "population_2020" : 664,
+        "population" : 578,
+        "square_mileage" : 7.78
+    },
+    "Roseland, Tangipahoa Parish, Louisiana" : {
+        "name" : "Roseland",
+        "state" : "22000",
+        "FIPS" : "22-66165",
+        "counties" : [
+            "22105"
+        ],
+        "type" : "Town",
+        "population_2010" : 1123,
+        "population_2020" : 880,
+        "population" : 738,
+        "square_mileage" : 2.08
+    },
+    "Rosepine, Vernon Parish, Louisiana" : {
+        "name" : "Rosepine",
+        "state" : "22000",
+        "FIPS" : "22-66200",
+        "counties" : [
+            "22115"
+        ],
+        "type" : "Town",
+        "population_2010" : 1692,
+        "population_2020" : 1519,
+        "population" : 1381,
+        "square_mileage" : 2.43
+    },
+    "Ruston, Lincoln Parish, Louisiana" : {
+        "name" : "Ruston",
+        "state" : "22000",
+        "FIPS" : "22-66655",
+        "counties" : [
+            "22061"
+        ],
+        "type" : "City",
+        "population_2010" : 21859,
+        "population_2020" : 22166,
+        "population" : 21881,
+        "square_mileage" : 21.14
+    },
+    "St. Francisville, West Feliciana Parish, Louisiana" : {
+        "name" : "St. Francisville",
+        "state" : "22000",
+        "FIPS" : "22-67215",
+        "counties" : [
+            "22125"
+        ],
+        "type" : "Town",
+        "population_2010" : 1765,
+        "population_2020" : 1557,
+        "population" : 1400,
+        "square_mileage" : 1.83
+    },
+    "St. Gabriel, Iberville Parish, Louisiana" : {
+        "name" : "St. Gabriel",
+        "state" : "22000",
+        "FIPS" : "22-67250",
+        "counties" : [
+            "22047"
+        ],
+        "type" : "City",
+        "population_2010" : 6677,
+        "population_2020" : 6433,
+        "population" : 6128,
+        "square_mileage" : 29.66
+    },
+    "St. Joseph, Tensas Parish, Louisiana" : {
+        "name" : "St. Joseph",
+        "state" : "22000",
+        "FIPS" : "22-67495",
+        "counties" : [
+            "22107"
+        ],
+        "type" : "Town",
+        "population_2010" : 1176,
+        "population_2020" : 831,
+        "population" : 659,
+        "square_mileage" : 0.89
+    },
+    "St. Martinville, St. Martin Parish, Louisiana" : {
+        "name" : "St. Martinville",
+        "state" : "22000",
+        "FIPS" : "22-67600",
+        "counties" : [
+            "22099"
+        ],
+        "type" : "City",
+        "population_2010" : 6114,
+        "population_2020" : 5379,
+        "population" : 4830,
+        "square_mileage" : 3.05
+    },
+    "Saline, Bienville Parish, Louisiana" : {
+        "name" : "Saline",
+        "state" : "22000",
+        "FIPS" : "22-67880",
+        "counties" : [
+            "22013"
+        ],
+        "type" : "Village",
+        "population_2010" : 277,
+        "population_2020" : 265,
+        "population" : 251,
+        "square_mileage" : 1.19
+    },
+    "Sarepta, Webster Parish, Louisiana" : {
+        "name" : "Sarepta",
+        "state" : "22000",
+        "FIPS" : "22-68125",
+        "counties" : [
+            "22119"
+        ],
+        "type" : "Town",
+        "population_2010" : 891,
+        "population_2020" : 717,
+        "population" : 610,
+        "square_mileage" : 1.63
+    },
+    "Scott, Louisianafayette Parish, Louisiana" : {
+        "name" : "Scott",
+        "state" : "22000",
+        "FIPS" : "22-68475",
+        "counties" : [
+            "22055"
+        ],
+        "type" : "City",
+        "population_2010" : 8614,
+        "population_2020" : 8119,
+        "population" : 7621,
+        "square_mileage" : 11.71
+    },
+    "Shongaloo, Webster Parish, Louisiana" : {
+        "name" : "Shongaloo",
+        "state" : "22000",
+        "FIPS" : "22-69455",
+        "counties" : [
+            "22119"
+        ],
+        "type" : "Village",
+        "population_2010" : 182,
+        "population_2020" : 151,
+        "population" : 131,
+        "square_mileage" : 7.9
+    },
+    "Shreveport, Bossier Parish, Louisiana" : {
+        "name" : "Shreveport",
+        "state" : "22000",
+        "FIPS" : "22-70000",
+        "counties" : [
+            "22015"
+        ],
+        "type" : "City",
+        "population_2010" : 199311,
+        "population_2020" : 187593,
+        "population" : 175928,
+        "square_mileage" : 107.8
+    },
+    "Sibley, Webster Parish, Louisiana" : {
+        "name" : "Sibley",
+        "state" : "22000",
+        "FIPS" : "22-70175",
+        "counties" : [
+            "22119"
+        ],
+        "type" : "Town",
+        "population_2010" : 1218,
+        "population_2020" : 1127,
+        "population" : 1045,
+        "square_mileage" : 3.89
+    },
+    "Sicily Island, Catahoula Parish, Louisiana" : {
+        "name" : "Sicily Island",
+        "state" : "22000",
+        "FIPS" : "22-70245",
+        "counties" : [
+            "22025"
+        ],
+        "type" : "Village",
+        "population_2010" : 526,
+        "population_2020" : 366,
+        "population" : 288,
+        "square_mileage" : 0.57
+    },
+    "Sikes, Winn Parish, Louisiana" : {
+        "name" : "Sikes",
+        "state" : "22000",
+        "FIPS" : "22-70385",
+        "counties" : [
+            "22127"
+        ],
+        "type" : "Village",
+        "population_2010" : 119,
+        "population_2020" : 112,
+        "population" : 105,
+        "square_mileage" : 1.56
+    },
+    "Simmesport, Avoyelles Parish, Louisiana" : {
+        "name" : "Simmesport",
+        "state" : "22000",
+        "FIPS" : "22-70525",
+        "counties" : [
+            "22009"
+        ],
+        "type" : "Town",
+        "population_2010" : 2161,
+        "population_2020" : 1468,
+        "population" : 1141,
+        "square_mileage" : 2.19
+    },
+    "Simpson, Vernon Parish, Louisiana" : {
+        "name" : "Simpson",
+        "state" : "22000",
+        "FIPS" : "22-70595",
+        "counties" : [
+            "22115"
+        ],
+        "type" : "Village",
+        "population_2010" : 638,
+        "population_2020" : 585,
+        "population" : 539,
+        "square_mileage" : 8.12
+    },
+    "Simsboro, Lincoln Parish, Louisiana" : {
+        "name" : "Simsboro",
+        "state" : "22000",
+        "FIPS" : "22-70630",
+        "counties" : [
+            "22061"
+        ],
+        "type" : "Village",
+        "population_2010" : 841,
+        "population_2020" : 803,
+        "population" : 760,
+        "square_mileage" : 3.48
+    },
+    "Slaughter, East Feliciana Parish, Louisiana" : {
+        "name" : "Slaughter",
+        "state" : "22000",
+        "FIPS" : "22-70770",
+        "counties" : [
+            "22037"
+        ],
+        "type" : "Town",
+        "population_2010" : 997,
+        "population_2020" : 1035,
+        "population" : 1039,
+        "square_mileage" : 5.47
+    },
+    "Slidell, St. Tammany Parish, Louisiana" : {
+        "name" : "Slidell",
+        "state" : "22000",
+        "FIPS" : "22-70805",
+        "counties" : [
+            "22103"
+        ],
+        "type" : "City",
+        "population_2010" : 27068,
+        "population_2020" : 28781,
+        "population" : 29407,
+        "square_mileage" : 15.04
+    },
+    "Sorrento, Ascension Parish, Louisiana" : {
+        "name" : "Sorrento",
+        "state" : "22000",
+        "FIPS" : "22-71225",
+        "counties" : [
+            "22005"
+        ],
+        "type" : "Town",
+        "population_2010" : 1401,
+        "population_2020" : 1514,
+        "population" : 1566,
+        "square_mileage" : 3.65
+    },
+    "South Mansfield, DeSoto Parish, Louisiana" : {
+        "name" : "South Mansfield",
+        "state" : "22000",
+        "FIPS" : "22-71820",
+        "counties" : [
+            "22031"
+        ],
+        "type" : "Village",
+        "population_2010" : 346,
+        "population_2020" : 333,
+        "population" : 317,
+        "square_mileage" : 0.68
+    },
+    "Spearsville, Union Parish, Louisiana" : {
+        "name" : "Spearsville",
+        "state" : "22000",
+        "FIPS" : "22-72170",
+        "counties" : [
+            "22111"
+        ],
+        "type" : "Village",
+        "population_2010" : 137,
+        "population_2020" : 126,
+        "population" : 116,
+        "square_mileage" : 2.37
+    },
+    "Springfield, Livingston Parish, Louisiana" : {
+        "name" : "Springfield",
+        "state" : "22000",
+        "FIPS" : "22-72415",
+        "counties" : [
+            "22063"
+        ],
+        "type" : "Town",
+        "population_2010" : 487,
+        "population_2020" : 427,
+        "population" : 383,
+        "square_mileage" : 1.41
+    },
+    "Springhill, Webster Parish, Louisiana" : {
+        "name" : "Springhill",
+        "state" : "22000",
+        "FIPS" : "22-72485",
+        "counties" : [
+            "22119"
+        ],
+        "type" : "City",
+        "population_2010" : 5269,
+        "population_2020" : 4801,
+        "population" : 4408,
+        "square_mileage" : 6.21
+    },
+    "Stanley, DeSoto Parish, Louisiana" : {
+        "name" : "Stanley",
+        "state" : "22000",
+        "FIPS" : "22-72800",
+        "counties" : [
+            "22031"
+        ],
+        "type" : "Village",
+        "population_2010" : 107,
+        "population_2020" : 132,
+        "population" : 152,
+        "square_mileage" : 2.17
+    },
+    "Sterlington, Ouachita Parish, Louisiana" : {
+        "name" : "Sterlington",
+        "state" : "22000",
+        "FIPS" : "22-73255",
+        "counties" : [
+            "22073"
+        ],
+        "type" : "Town",
+        "population_2010" : 1594,
+        "population_2020" : 1980,
+        "population" : 2290,
+        "square_mileage" : 2.83
+    },
+    "Stonewall, DeSoto Parish, Louisiana" : {
+        "name" : "Stonewall",
+        "state" : "22000",
+        "FIPS" : "22-73395",
+        "counties" : [
+            "22031"
+        ],
+        "type" : "Town",
+        "population_2010" : 1814,
+        "population_2020" : 2273,
+        "population" : 2648,
+        "square_mileage" : 8.51
+    },
+    "Sulphur, Calcasieu Parish, Louisiana" : {
+        "name" : "Sulphur",
+        "state" : "22000",
+        "FIPS" : "22-73640",
+        "counties" : [
+            "22019"
+        ],
+        "type" : "City",
+        "population_2010" : 20410,
+        "population_2020" : 21809,
+        "population" : 22365,
+        "square_mileage" : 11.22
+    },
+    "Sun, St. Tammany Parish, Louisiana" : {
+        "name" : "Sun",
+        "state" : "22000",
+        "FIPS" : "22-73955",
+        "counties" : [
+            "22103"
+        ],
+        "type" : "Village",
+        "population_2010" : 470,
+        "population_2020" : 392,
+        "population" : 341,
+        "square_mileage" : 4.27
+    },
+    "Sunset, St. Landry Parish, Louisiana" : {
+        "name" : "Sunset",
+        "state" : "22000",
+        "FIPS" : "22-74060",
+        "counties" : [
+            "22097"
+        ],
+        "type" : "Town",
+        "population_2010" : 2897,
+        "population_2020" : 2909,
+        "population" : 2852,
+        "square_mileage" : 3.23
+    },
+    "Tallulah, Madison Parish, Louisiana" : {
+        "name" : "Tallulah",
+        "state" : "22000",
+        "FIPS" : "22-74690",
+        "counties" : [
+            "22065"
+        ],
+        "type" : "City",
+        "population_2010" : 7335,
+        "population_2020" : 6286,
+        "population" : 5553,
+        "square_mileage" : 2.78
+    },
+    "Tangipahoa, Tangipahoa Parish, Louisiana" : {
+        "name" : "Tangipahoa",
+        "state" : "22000",
+        "FIPS" : "22-74760",
+        "counties" : [
+            "22105"
+        ],
+        "type" : "Village",
+        "population_2010" : 748,
+        "population_2020" : 425,
+        "population" : 305,
+        "square_mileage" : 1.01
+    },
+    "Thibodaux, Louisianafourche Parish, Louisiana" : {
+        "name" : "Thibodaux",
+        "state" : "22000",
+        "FIPS" : "22-75425",
+        "counties" : [
+            "22057"
+        ],
+        "type" : "City",
+        "population_2010" : 14566,
+        "population_2020" : 15948,
+        "population" : 16658,
+        "square_mileage" : 6.79
+    },
+    "Tickfaw, Tangipahoa Parish, Louisiana" : {
+        "name" : "Tickfaw",
+        "state" : "22000",
+        "FIPS" : "22-75670",
+        "counties" : [
+            "22105"
+        ],
+        "type" : "Village",
+        "population_2010" : 694,
+        "population_2020" : 635,
+        "population" : 585,
+        "square_mileage" : 1.61
+    },
+    "Tullos, LaSalle Parish, Louisiana" : {
+        "name" : "Tullos",
+        "state" : "22000",
+        "FIPS" : "22-76615",
+        "counties" : [
+            "22059"
+        ],
+        "type" : "Town",
+        "population_2010" : 385,
+        "population_2020" : 304,
+        "population" : 256,
+        "square_mileage" : 1.58
+    },
+    "Turkey Creek, Evangeline Parish, Louisiana" : {
+        "name" : "Turkey Creek",
+        "state" : "22000",
+        "FIPS" : "22-76685",
+        "counties" : [
+            "22039"
+        ],
+        "type" : "Village",
+        "population_2010" : 441,
+        "population_2020" : 394,
+        "population" : 357,
+        "square_mileage" : 2.48
+    },
+    "Urania, LaSalle Parish, Louisiana" : {
+        "name" : "Urania",
+        "state" : "22000",
+        "FIPS" : "22-77490",
+        "counties" : [
+            "22059"
+        ],
+        "type" : "Town",
+        "population_2010" : 1313,
+        "population_2020" : 698,
+        "population" : 487,
+        "square_mileage" : 1.37
+    },
+    "Varnado, Washington Parish, Louisiana" : {
+        "name" : "Varnado",
+        "state" : "22000",
+        "FIPS" : "22-77910",
+        "counties" : [
+            "22117"
+        ],
+        "type" : "Village",
+        "population_2010" : 1461,
+        "population_2020" : 330,
+        "population" : 183,
+        "square_mileage" : 0.85
+    },
+    "Vidalia, Concordia Parish, Louisiana" : {
+        "name" : "Vidalia",
+        "state" : "22000",
+        "FIPS" : "22-78470",
+        "counties" : [
+            "22029"
+        ],
+        "type" : "Town",
+        "population_2010" : 4299,
+        "population_2020" : 4027,
+        "population" : 3765,
+        "square_mileage" : 2.59
+    },
+    "Vienna, Lincoln Parish, Louisiana" : {
+        "name" : "Vienna",
+        "state" : "22000",
+        "FIPS" : "22-78540",
+        "counties" : [
+            "22061"
+        ],
+        "type" : "Town",
+        "population_2010" : 386,
+        "population_2020" : 483,
+        "population" : 562,
+        "square_mileage" : 3.47
+    },
+    "Ville Platte, Evangeline Parish, Louisiana" : {
+        "name" : "Ville Platte",
+        "state" : "22000",
+        "FIPS" : "22-78715",
+        "counties" : [
+            "22039"
+        ],
+        "type" : "City",
+        "population_2010" : 7430,
+        "population_2020" : 6303,
+        "population" : 5534,
+        "square_mileage" : 4.02
+    },
+    "Vinton, Calcasieu Parish, Louisiana" : {
+        "name" : "Vinton",
+        "state" : "22000",
+        "FIPS" : "22-78820",
+        "counties" : [
+            "22019"
+        ],
+        "type" : "Town",
+        "population_2010" : 3212,
+        "population_2020" : 3400,
+        "population" : 3462,
+        "square_mileage" : 5.11
+    },
+    "Vivian, Caddo Parish, Louisiana" : {
+        "name" : "Vivian",
+        "state" : "22000",
+        "FIPS" : "22-78890",
+        "counties" : [
+            "22017"
+        ],
+        "type" : "Town",
+        "population_2010" : 3671,
+        "population_2020" : 3073,
+        "population" : 2677,
+        "square_mileage" : 5.52
+    },
+    "Walker, Livingston Parish, Louisiana" : {
+        "name" : "Walker",
+        "state" : "22000",
+        "FIPS" : "22-79240",
+        "counties" : [
+            "22063"
+        ],
+        "type" : "Town",
+        "population_2010" : 6138,
+        "population_2020" : 6374,
+        "population" : 6401,
+        "square_mileage" : 6.59
+    },
+    "Washington, St. Landry Parish, Louisiana" : {
+        "name" : "53000",
+        "state" : "22000",
+        "FIPS" : "22-79870",
+        "counties" : [
+            "22097"
+        ],
+        "type" : "Town",
+        "population_2010" : 964,
+        "population_2020" : 742,
+        "population" : 616,
+        "square_mileage" : 0.83
+    },
+    "Waterproof, Tensas Parish, Louisiana" : {
+        "name" : "Waterproof",
+        "state" : "22000",
+        "FIPS" : "22-79940",
+        "counties" : [
+            "22107"
+        ],
+        "type" : "Town",
+        "population_2010" : 688,
+        "population_2020" : 541,
+        "population" : 454,
+        "square_mileage" : 0.7
+    },
+    "Welsh, Jefferson Davis Parish, Louisiana" : {
+        "name" : "Welsh",
+        "state" : "22000",
+        "FIPS" : "22-80430",
+        "counties" : [
+            "22053"
+        ],
+        "type" : "Town",
+        "population_2010" : 3226,
+        "population_2020" : 3333,
+        "population" : 3335,
+        "square_mileage" : 6.32
+    },
+    "Westlake, Calcasieu Parish, Louisiana" : {
+        "name" : "Westlake",
+        "state" : "22000",
+        "FIPS" : "22-80815",
+        "counties" : [
+            "22019"
+        ],
+        "type" : "City",
+        "population_2010" : 4568,
+        "population_2020" : 4781,
+        "population" : 4828,
+        "square_mileage" : 3.69
+    },
+    "West Monroe, Ouachita Parish, Louisiana" : {
+        "name" : "West Monroe",
+        "state" : "22000",
+        "FIPS" : "22-80955",
+        "counties" : [
+            "22073"
+        ],
+        "type" : "City",
+        "population_2010" : 13065,
+        "population_2020" : 13103,
+        "population" : 12834,
+        "square_mileage" : 8.03
+    },
+    "Westwego, Jefferson Parish, Louisiana" : {
+        "name" : "Westwego",
+        "state" : "22000",
+        "FIPS" : "22-81165",
+        "counties" : [
+            "22051"
+        ],
+        "type" : "City",
+        "population_2010" : 8534,
+        "population_2020" : 8568,
+        "population" : 8398,
+        "square_mileage" : 3.12
+    },
+    "White Castle, Iberville Parish, Louisiana" : {
+        "name" : "White Castle",
+        "state" : "22000",
+        "FIPS" : "22-81375",
+        "counties" : [
+            "22047"
+        ],
+        "type" : "Town",
+        "population_2010" : 1883,
+        "population_2020" : 1722,
+        "population" : 1585,
+        "square_mileage" : 0.73
+    },
+    "Wilson, East Feliciana Parish, Louisiana" : {
+        "name" : "Wilson",
+        "state" : "22000",
+        "FIPS" : "22-82215",
+        "counties" : [
+            "22037"
+        ],
+        "type" : "Village",
+        "population_2010" : 595,
+        "population_2020" : 348,
+        "population" : 253,
+        "square_mileage" : 2.71
+    },
+    "Winnfield, Winn Parish, Louisiana" : {
+        "name" : "Winnfield",
+        "state" : "22000",
+        "FIPS" : "22-82460",
+        "counties" : [
+            "22127"
+        ],
+        "type" : "City",
+        "population_2010" : 4840,
+        "population_2020" : 4153,
+        "population" : 3672,
+        "square_mileage" : 3.64
+    },
+    "Winnsboro, Franklin Parish, Louisiana" : {
+        "name" : "Winnsboro",
+        "state" : "22000",
+        "FIPS" : "22-82495",
+        "counties" : [
+            "22041"
+        ],
+        "type" : "Town",
+        "population_2010" : 4910,
+        "population_2020" : 4862,
+        "population" : 4720,
+        "square_mileage" : 4.0
+    },
+    "Wisner, Franklin Parish, Louisiana" : {
+        "name" : "Wisner",
+        "state" : "22000",
+        "FIPS" : "22-82565",
+        "counties" : [
+            "22041"
+        ],
+        "type" : "Town",
+        "population_2010" : 964,
+        "population_2020" : 771,
+        "population" : 654,
+        "square_mileage" : 0.8
+    },
+    "Woodworth, Rapides Parish, Louisiana" : {
+        "name" : "Woodworth",
+        "state" : "22000",
+        "FIPS" : "22-83125",
+        "counties" : [
+            "22079"
+        ],
+        "type" : "Town",
+        "population_2010" : 1096,
+        "population_2020" : 1762,
+        "population" : 2606,
+        "square_mileage" : 8.88
+    },
+    "Youngsville, Lafayette Parish, Louisiana" : {
+        "name" : "Youngsville",
+        "state" : "22000",
+        "FIPS" : "22-83335",
+        "counties" : [
+            "22055"
+        ],
+        "type" : "City",
+        "population_2010" : 8105,
+        "population_2020" : 15929,
+        "population" : 29738,
+        "square_mileage" : 12.19
+    },
+    "Zachary, East Baton Rouge Parish, Louisiana" : {
+        "name" : "Zachary",
+        "state" : "22000",
+        "FIPS" : "22-83405",
+        "counties" : [
+            "22033"
+        ],
+        "type" : "City",
+        "population_2010" : 14960,
+        "population_2020" : 19316,
+        "population" : 23097,
+        "square_mileage" : 26.14
+    },
+    "Zwolle, Sabine Parish, Louisiana" : {
+        "name" : "Zwolle",
+        "state" : "22000",
+        "FIPS" : "22-83685",
+        "counties" : [
+            "22085"
+        ],
+        "type" : "Town",
+        "population_2010" : 1759,
+        "population_2020" : 1638,
+        "population" : 1525,
+        "square_mileage" : 4.56
+    }
+}

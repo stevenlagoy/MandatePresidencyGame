@@ -1,10 +1,11 @@
 @file:JvmName("TimeUtils")
 package com.stevenlagoy.presidency.util
 
-import java.time.LocalDate
-import java.time.ZonedDateTime
+import java.time.*
+import java.time.temporal.ChronoUnit
 import java.util.*
 import kotlin.math.abs
+
 
 /** Minimum safe year to use with date util methods. */
 const val MIN_SAFE_YEAR = 1583
@@ -237,7 +238,7 @@ fun dateFormatToOrdinal(dateFormat: String): Int {
         return -1
     }
 
-    if (month < 1 || month > 12 || day < 1 || day > 31) {
+    if (month !in 1..12 || day !in 1..31) {
         Logger.error(
             "INVALID DATE FORMAT", String.format(
                 "The date \"%s\" is invalid. Months must be between 1 and 12, and days must be between 1 and 31.",
@@ -270,5 +271,26 @@ fun millisecondsBetween(startDate: ZonedDateTime, endDate: ZonedDateTime): Long 
 }
 
 fun yearsBetween(startDate: LocalDate, endDate: LocalDate): Int {
-    return abs(startDate.getYear() - endDate.getYear())
+    return abs(startDate.year - endDate.year)
 }
+
+fun daysBetween(startDate: LocalDate, endDate: LocalDate): Int {
+    return ChronoUnit.DAYS.between(startDate, endDate).toInt()
+}
+
+/**
+ * @param date ISO 8601 format date `YYYY-MM-DDThh:mm:ssTZD`
+ */
+fun zonedDateTimeFromString(date: String): ZonedDateTime {
+    val year = date.substring(0, 4).toInt()
+    val month = date.substring(5, 7).toInt()
+    val dayOfMonth = date.substring(8, 10).toInt()
+    val hour = date.substring(12, 14).toInt()
+    val minute = date.substring(15, 17).toInt()
+    val second = date.substring(18, 20).toInt()
+    val timeZone = ZoneId.of(date.substring(20, 23))
+    val dateTime = LocalDateTime.of(year, month, dayOfMonth, hour, minute, second)
+    return ZonedDateTime.of(dateTime, timeZone)
+}
+
+fun Period.toTotalDays(): Long = (this.toTotalMonths() * (365.25/12) + this.days).toLong()

@@ -1,0 +1,88 @@
+{
+    "FIPS" : "24",
+    "commonName" : "Maryland",
+    "fullName" : "State of Maryland",
+    "flagFile" : "maryland_flag.png",
+    "abbreviation" : "MD",
+    "type" : "state",
+    "demonym" : "Marylander",
+    "nickname" : "Old Line State",
+    "motto" : "Fatti maschi, parole femmine",
+    "capital" : "Annapolis",
+    "federalCourtCircuit" : 4,
+    "censusDivision" : "South Atlantic",
+    "descriptors" : [
+        "MARYLAND",
+        "SOUTH",
+        "SOUTH_ATLANTIC"
+    ],
+    "allowedSubdivisionTypes" : [
+        "Election District",
+        "City",
+        "Census-Designated Place"
+    ],
+    "allowedPlaceTypes" : [
+        "Census-Designated Place"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "branches" : {
+            "executiveBranch" : {
+                "positions" : {
+                    "" : {
+                        "title" : ""
+                    }
+                }
+            },
+            "legislativeBranch" : {
+                "title" : "",
+                "chambers" : {
+                    "" : {
+                        "name" : "",
+                        "isUpperChamber" : true,
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    },
+                    "" : {
+                        "name" : "",
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    }
+                }
+            },
+            "judicialBranch" : {
+                "title" : "",
+                "supreme_court" : {
+                    "fullName" : "",
+                    "commonName" : "",
+                    "basis" : "",
+                    "judges" : 0,
+                    "appellate_courts" : {
+                        "" : {
+                            "fullName" : "",
+                            "basis" : "",
+                            "judges" : 0,
+                            "termLength" : 0,
+                            "nextElectionDate" : ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

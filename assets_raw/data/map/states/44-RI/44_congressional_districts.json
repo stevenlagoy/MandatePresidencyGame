@@ -1,0 +1,26 @@
+{
+    "4401": {
+        "name": "Rhode Island's 1st congressional district",
+        "state": "Rhode Island",
+        "districtNumber": 1,
+        "officeID": "RI01",
+        "geoID": "4401",
+        "color": "#2319d6",
+        "descriptors": [
+            "RHODE ISLAND"
+        ],
+        "congressionalSession": 119
+    },
+    "4402": {
+        "name": "Rhode Island's 2nd congressional district",
+        "state": "Rhode Island",
+        "districtNumber": 2,
+        "officeID": "RI02",
+        "geoID": "4402",
+        "color": "#37e21d",
+        "descriptors": [
+            "RHODE ISLAND"
+        ],
+        "congressionalSession": 119
+    }
+}

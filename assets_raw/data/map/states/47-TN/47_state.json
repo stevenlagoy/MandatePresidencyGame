@@ -1,0 +1,88 @@
+{
+    "FIPS" : "47",
+    "commonName" : "Tennessee",
+    "fullName" : "State of Tennessee",
+    "flagFile" : "tennessee_flag.png",
+    "abbreviation" : "TN",
+    "type" : "state",
+    "demonym" : "Tennessean",
+    "nickname" : "Volunteer State",
+    "motto" : "Agriculture and Commerce",
+    "capital" : "Nashville",
+    "federalCourtCircuit" : 6,
+    "censusDivision" : "East South Central",
+    "descriptors" : [
+        "TENNESSEE",
+        "SOUTH",
+        "EAST_SOUTH_CENTRAL"
+    ],
+    "allowedSubdivisionTypes" : [
+        "County Commissioner District",
+        "City",
+        "Census-Designated Place"
+    ],
+    "allowedPlaceTypes" : [
+        "Census-Designated Place"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "branches" : {
+            "executiveBranch" : {
+                "positions" : {
+                    "" : {
+                        "title" : ""
+                    }
+                }
+            },
+            "legislativeBranch" : {
+                "title" : "",
+                "chambers" : {
+                    "" : {
+                        "name" : "",
+                        "isUpperChamber" : true,
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    },
+                    "" : {
+                        "name" : "",
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    }
+                }
+            },
+            "judicialBranch" : {
+                "title" : "",
+                "supreme_court" : {
+                    "fullName" : "",
+                    "commonName" : "",
+                    "basis" : "",
+                    "judges" : 0,
+                    "appellate_courts" : {
+                        "" : {
+                            "fullName" : "",
+                            "basis" : "",
+                            "judges" : 0,
+                            "termLength" : 0,
+                            "nextElectionDate" : ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

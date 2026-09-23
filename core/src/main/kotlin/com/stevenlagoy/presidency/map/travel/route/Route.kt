@@ -1,15 +1,32 @@
 package com.stevenlagoy.presidency.map.travel.route
 
-import com.stevenlagoy.jsonic.Jsonic
+import com.stevenlagoy.jsonic.JSONObject
+import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.core.Engine
-import com.stevenlagoy.presidency.map.Municipality
+import com.stevenlagoy.presidency.core.EngineBound
+import com.stevenlagoy.presidency.map.entities.MapEntity
 
 abstract class Route(
-    val ENGINE: Engine,
-    val name: String,
-    open val connections: List<Municipality>
-) : Jsonic<Route> {
+    engine: Engine,
+    name: String,
+    connections: List<MapEntity>
+) : JSONSerializable<Route>, EngineBound(engine) {
 
-    fun connects(to: Municipality) = connections.contains(to);
+    var name = name
+        internal set
 
+    open var connections: List<MapEntity> = connections
+        internal set
+
+    fun connects(to: MapEntity) = connections.contains(to)
+
+    override fun fromJson(json: JSONObject) = this.apply {
+        name = json.requireString("name", "fullName")
+        connections = json.requireArray("connections").mapNotNull { engine.MAP_MANAGER.matchPlace(it as String).orElseThrow { IllegalArgumentException("Could not match municipality $it for route $name") } }
+    }
+
+    override fun toJson() = JSONObject(hashCode().toString(), listOf(
+        JSONObject("name", name),
+        JSONObject("connections", connections.map { it.name })
+    ))
 }

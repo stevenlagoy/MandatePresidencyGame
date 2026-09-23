@@ -1,0 +1,50 @@
+{
+    "3201": {
+        "name": "Nevada's 1st congressional district",
+        "state": "Nevada",
+        "districtNumber": 1,
+        "officeID": "NV01",
+        "geoID": "3201",
+        "color": "#7329e9",
+        "descriptors": [
+            "NEVADA"
+        ],
+        "congressionalSession": 119
+    },
+    "3202": {
+        "name": "Nevada's 2nd congressional district",
+        "state": "Nevada",
+        "districtNumber": 2,
+        "officeID": "NV02",
+        "geoID": "3202",
+        "color": "#de7c1b",
+        "descriptors": [
+            "NEVADA"
+        ],
+        "congressionalSession": 119
+    },
+    "3203": {
+        "name": "Nevada's 3rd congressional district",
+        "state": "Nevada",
+        "districtNumber": 3,
+        "officeID": "NV03",
+        "geoID": "3203",
+        "color": "#32d2b2",
+        "descriptors": [
+            "NEVADA"
+        ],
+        "congressionalSession": 119
+    },
+    "3204": {
+        "name": "Nevada's 4th congressional district",
+        "state": "Nevada",
+        "districtNumber": 4,
+        "officeID": "NV04",
+        "geoID": "3204",
+        "color": "#22d795",
+        "descriptors": [
+            "NEVADA"
+        ],
+        "congressionalSession": 119
+    }
+}

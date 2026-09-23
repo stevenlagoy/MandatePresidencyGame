@@ -11,7 +11,6 @@ import java.time.LocalTime;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.util.List;
-import java.util.Set;
 
 /**
  * <h1>TIME MANAGER</h1>
@@ -65,8 +64,8 @@ public class TimeManager extends Manager {
 
     @Override
     @Contract(pure = true)
-    public @NotNull Set<Manager> getSubManagers() {
-        return Set.of();
+    public @NotNull List<Manager> getSubManagers() {
+        return List.of();
     }
 
     /** Initialize and Activate this DateManager. */
@@ -95,7 +94,7 @@ public class TimeManager extends Manager {
     @Override
     protected void doFromJson(@NotNull JSONObject json) {
         try {
-            currentGameDate = json.get("currentGameDate", ZonedDateTime.class);
+            currentGameDate = TimeUtils.zonedDateTimeFromString(json.requireString("currentGameDate"));
         } catch (IllegalArgumentException | ClassCastException e) {
             onDegraded(e);
             currentGameDate = ZonedDateTime.of(startDate.toLocalDate(), startDate.toLocalTime(), startDate.getZone());
@@ -165,91 +164,81 @@ public class TimeManager extends Manager {
     /**
      * Increments the current game date by one second.
      */
-    public boolean incrementSecond() {
+    public void incrementSecond() {
         requireState(ManagerState.ACTIVE);
         currentGameDate = currentGameDate.plusSeconds(1);
-        return isPastEndDate();
     }
 
     /**
      * Increments the current game date by a quarter minute (15 secs).
      */
-    public boolean incrementQuarterMinute() {
+    public void incrementQuarterMinute() {
         requireState(ManagerState.ACTIVE);
         currentGameDate = currentGameDate.plusSeconds(15);
-        return isPastEndDate();
     }
 
     /**
      * Increments the current game date by half a minute (30 secs).
      */
-    public boolean incrementHalfMinute() {
+    public void incrementHalfMinute() {
         requireState(ManagerState.ACTIVE);
         currentGameDate = currentGameDate.plusSeconds(30);
-        return isPastEndDate();
     }
 
     /**
      * Increments the current game date by one minute (60 secs).
      */
-    public boolean incrementMinute() {
+    public void incrementMinute() {
         requireState(ManagerState.ACTIVE);
         currentGameDate = currentGameDate.plusMinutes(1);
-        return isPastEndDate();
     }
 
     /**
      * Increments the current game date by a quarter-hour (15 mins).
      */
-    public boolean incrementQuarterHour() {
+    public void incrementQuarterHour() {
         requireState(ManagerState.ACTIVE);
         currentGameDate = currentGameDate.plusMinutes(15);
-        return isPastEndDate();
     }
 
     /**
      * Increments the current game date by half an hour (30 mins).
      */
-    public boolean incrementHalfHour() {
+    public void incrementHalfHour() {
         requireState(ManagerState.ACTIVE);
         currentGameDate = currentGameDate.plusMinutes(30);
-        return isPastEndDate();
     }
 
     /**
      * Increments the current game date by one hour (60 mins).
      */
-    public boolean incrementHour() {
+    public void incrementHour() {
         requireState(ManagerState.ACTIVE);
         currentGameDate = currentGameDate.plusHours(1);
-        return isPastEndDate();
     }
 
     /**
      * Increments the current game date by a quarter day (6 hours).
      */
-    public boolean incrementQuarterDay() {
+    public void incrementQuarterDay() {
         requireState(ManagerState.ACTIVE);
         currentGameDate = currentGameDate.plusHours(6);
-        return isPastEndDate();
     }
 
     /**
      * Increments the current game date by half a day (12 hours).
      */
-    public boolean incrementHalfDay() {
+    public void incrementHalfDay() {
         requireState(ManagerState.ACTIVE);
         currentGameDate = currentGameDate.plusHours(12);
-        return isPastEndDate();
     }
 
     /**
      * Increments the current game date by one day (24 hours).
      */
-    public boolean incrementDay() {
+    public void incrementDay() {
         requireState(ManagerState.ACTIVE);
         currentGameDate = currentGameDate.plusDays(1);
-        return isPastEndDate();
     }
 
     public boolean isPastEndDate() {
@@ -282,6 +271,11 @@ public class TimeManager extends Manager {
     public int yearsAgo(@NotNull LocalDate date) {
         requireOperational();
         return TimeUtils.yearsBetween(date, currentGameDate.toLocalDate());
+    }
+
+    public int daysAgo(@NotNull LocalDate date) {
+        requireOperational();
+        return TimeUtils.daysBetween(date, currentGameDate.toLocalDate());
     }
 
     /**

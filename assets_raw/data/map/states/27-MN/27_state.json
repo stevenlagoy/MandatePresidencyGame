@@ -1,0 +1,87 @@
+{
+    "FIPS" : "27",
+    "commonName" : "Minnesota",
+    "fullName" : "State of Minnesota",
+    "flagFile" : "minnesota_flag.png",
+    "abbreviation" : "MN",
+    "type" : "state",
+    "demonym" : "Minnesotan",
+    "nickname" : "North Star State",
+    "motto" : "L'Étoile du Nord",
+    "capital" : "Saint Paul",
+    "federalCourtCircuit" : 8,
+    "censusDivision" : "West North Central",
+    "descriptors" : [
+        "MINNESOTA",
+        "MIDWEST",
+        "WEST_NORTH_CENTRAL"
+    ],
+    "allowedSubdivisionTypes" : [
+        "Civil Township",
+        "City"
+    ],
+    "allowedPlaceTypes" : [
+        "Census-Designated Place"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "branches" : {
+            "executiveBranch" : {
+                "positions" : {
+                    "" : {
+                        "title" : ""
+                    }
+                }
+            },
+            "legislativeBranch" : {
+                "title" : "",
+                "chambers" : {
+                    "" : {
+                        "name" : "",
+                        "isUpperChamber" : true,
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    },
+                    "" : {
+                        "name" : "",
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    }
+                }
+            },
+            "judicialBranch" : {
+                "title" : "",
+                "supreme_court" : {
+                    "fullName" : "",
+                    "commonName" : "",
+                    "basis" : "",
+                    "judges" : 0,
+                    "appellate_courts" : {
+                        "" : {
+                            "fullName" : "",
+                            "basis" : "",
+                            "judges" : 0,
+                            "termLength" : 0,
+                            "nextElectionDate" : ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

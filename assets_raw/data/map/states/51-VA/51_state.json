@@ -1,0 +1,88 @@
+{
+    "FIPS" : "51",
+    "commonName" : "Virginia",
+    "fullName" : "Commonwealth of Virginia",
+    "flagFile" : "virginia_flag.png",
+    "abbreviation" : "VA",
+    "type" : "state",
+    "demonym" : "Virginian",
+    "nickname" : "Old Dominion State",
+    "motto" : "Sic semper tyrannis",
+    "capital" : "Richmond",
+    "federalCourtCircuit" : 4,
+    "censusDivision" : "South Atlantic",
+    "descriptors" : [
+        "VIRGINIA",
+        "SOUTH",
+        "SOUTH_ATLANTIC"
+    ],
+    "allowedSubdivisionTypes" : [
+        "Magisterial District",
+        "City",
+        "Census-Designated Place"
+    ],
+    "allowedPlaceTypes" : [
+        "Census-Designated Place"
+    ],
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "branches" : {
+            "executiveBranch" : {
+                "positions" : {
+                    "" : {
+                        "title" : ""
+                    }
+                }
+            },
+            "legislativeBranch" : {
+                "title" : "",
+                "chambers" : {
+                    "" : {
+                        "name" : "",
+                        "isUpperChamber" : true,
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    },
+                    "" : {
+                        "name" : "",
+                        "termLength" : 0,
+                        "nextElectionDate" : "",
+                        "seats" : 0,
+                        "positions" : {
+                            "" : {
+                                "title" : ""
+                            }
+                        }
+                    }
+                }
+            },
+            "judicialBranch" : {
+                "title" : "",
+                "supreme_court" : {
+                    "fullName" : "",
+                    "commonName" : "",
+                    "basis" : "",
+                    "judges" : 0,
+                    "appellate_courts" : {
+                        "" : {
+                            "fullName" : "",
+                            "basis" : "",
+                            "judges" : 0,
+                            "termLength" : 0,
+                            "nextElectionDate" : ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

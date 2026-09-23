@@ -1,0 +1,38 @@
+{
+    "3101": {
+        "name": "Nebraska's 1st congressional district",
+        "state": "Nebraska",
+        "districtNumber": 1,
+        "officeID": "NE01",
+        "geoID": "3101",
+        "color": "#48db79",
+        "descriptors": [
+            "NEBRASKA"
+        ],
+        "congressionalSession": 119
+    },
+    "3102": {
+        "name": "Nebraska's 2nd congressional district",
+        "state": "Nebraska",
+        "districtNumber": 2,
+        "officeID": "NE02",
+        "geoID": "3102",
+        "color": "#f01b82",
+        "descriptors": [
+            "NEBRASKA"
+        ],
+        "congressionalSession": 119
+    },
+    "3103": {
+        "name": "Nebraska's 3rd congressional district",
+        "state": "Nebraska",
+        "districtNumber": 3,
+        "officeID": "NE03",
+        "geoID": "3103",
+        "color": "#5fd2cc",
+        "descriptors": [
+            "NEBRASKA"
+        ],
+        "congressionalSession": 119
+    }
+}

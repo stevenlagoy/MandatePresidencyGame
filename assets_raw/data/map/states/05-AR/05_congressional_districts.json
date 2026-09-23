@@ -1,0 +1,50 @@
+{
+    "0501": {
+        "name": "Arkansas's 1st congressional district",
+        "state": "Arkansas",
+        "districtNumber": 1,
+        "officeID": "AR01",
+        "geoID": "0501",
+        "color": "#7750e3",
+        "descriptors": [
+            "ARKANSAS"
+        ],
+        "congressionalSession": 119
+    },
+    "0502": {
+        "name": "Arkansas's 2nd congressional district",
+        "state": "Arkansas",
+        "districtNumber": 2,
+        "officeID": "AR02",
+        "geoID": "0502",
+        "color": "#55d7ce",
+        "descriptors": [
+            "ARKANSAS"
+        ],
+        "congressionalSession": 119
+    },
+    "0503": {
+        "name": "Arkansas's 3rd congressional district",
+        "state": "Arkansas",
+        "districtNumber": 3,
+        "officeID": "AR03",
+        "geoID": "0503",
+        "color": "#40eda8",
+        "descriptors": [
+            "ARKANSAS"
+        ],
+        "congressionalSession": 119
+    },
+    "0504": {
+        "name": "Arkansas's 4th congressional district",
+        "state": "Arkansas",
+        "districtNumber": 4,
+        "officeID": "AR04",
+        "geoID": "0504",
+        "color": "#6ae83c",
+        "descriptors": [
+            "ARKANSAS"
+        ],
+        "congressionalSession": 119
+    }
+}

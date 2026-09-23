@@ -1,5 +1,7 @@
 package com.stevenlagoy.presidency.util;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.DirectoryStream;
@@ -77,6 +79,11 @@ public final class IOUtils {
         public boolean isType(Path path) {
             return path.toString().toLowerCase().endsWith(extension);
         }
+
+        @Override
+        public String toString() {
+            return extension;
+        }
     }
 
     /** Standard input from System.in. @see IOUtil#createScanner(InputStream) */
@@ -90,35 +97,31 @@ public final class IOUtils {
     static {
         PrintWriter pw;
         try {
-            pw = IOUtils.createWriter(FilePaths.OUTPUT_FILE.toFile());
+            pw = IOUtils.createWriter(FilePath.OUTPUT.toFile());
         } catch (IOException e) {
-            e.printStackTrace();
+            Logger.error(e);
             pw = new PrintWriter(System.out, true); // fallback to stdout
         }
         logout = pw;
     }
 
     public static Scanner createScanner(InputStream inputStream) {
-        return new Scanner(inputStream, StandardCharsets.UTF_8.name());
+        return new Scanner(inputStream, StandardCharsets.UTF_8);
     }
 
-    public static Scanner createScanner(File file) throws FileNotFoundException {
-        return new Scanner(file, StandardCharsets.UTF_8.name());
+    public static Scanner createScanner(File file) throws IOException {
+        return new Scanner(file, StandardCharsets.UTF_8);
     }
 
     public static PrintWriter createWriter(OutputStream outputStream) {
-        try {
-            return new PrintWriter(new OutputStreamWriter(outputStream, StandardCharsets.UTF_8.name()), true);
-        } catch (UnsupportedEncodingException e) {
-            return new PrintWriter(new OutputStreamWriter(outputStream), true);
-        }
+        return new PrintWriter(new OutputStreamWriter(outputStream, StandardCharsets.UTF_8), true);
     }
 
     public static PrintWriter createWriter(File file) throws IOException {
         // Ensure parent directories exist
         File parent = file.getParentFile();
         if (parent != null && !parent.exists()) {
-            parent.mkdirs();
+            if (!parent.mkdirs()) throw new IOException("Could not create needed directories for the given file.");
         }
         return createWriter(file, false);
     }
@@ -137,39 +140,29 @@ public final class IOUtils {
 
     /**
      * Returns a Set of Paths for all the files in the specified directory.
-     * @param dir
-     *            The path to the directory to list the files within
      *
+     * @param dir The path to the directory to list the files within
      * @return A Set of Paths to each file within the directory
-     *
-     * @throws IOException
-     *                     If the directory path is invalid or unable to be located
-     *
+     * @throws IOException If the directory path is invalid or unable to be located
      * @see com.stevenlagoy.presidency.util.IOUtils.FileExtension#ALL
      */
-    public static Set<Path> listFiles(Path dir) throws IOException {
+    public static @NotNull Set<Path> listFiles(@NotNull Path dir) throws IOException {
         return listFiles(dir, FileExtension.ALL);
     }
 
-    /**
-     * Returns a Set of Paths for all the files in the specificed directory with the
-     * given extension.
-     *
-     * @param dir
-     *                  The path to the directory to list the files within.
-     * @param extension
-     *                  A FileOperations.FileExtension to filter the Path results
-     *                  by.
-     *
-     * @return A Set of Paths to each file within the directory with the extension.
-     *
-     * @throws IOException
-     *                     If the directory path is invalid or unable to be located.
-     */
-    public static Set<Path> listFiles(Path dir, FileExtension extension) throws IOException {
-        if (dir == null)
-            throw new IllegalArgumentException("Path may not be null");
+    public static @NotNull Set<Path> listFiles(@NotNull FilePath dir) throws IOException {
+        return listFiles(dir.path);
+    }
 
+    /**
+     * Returns a Set of Paths for all the files in the specificed directory with the given extension.
+     *
+     * @param dir The path to the directory to list the files within.
+     * @param extension A FileOperations.FileExtension to filter the Path results by.
+     * @return A Set of Paths to each file within the directory with the extension.
+     * @throws IOException If the directory path is invalid or unable to be located.
+     */
+    public static @NotNull Set<Path> listFiles(@NotNull Path dir, FileExtension extension) throws IOException {
         Set<Path> pathSet = new HashSet<>();
         dir = dir.normalize();
         DirectoryStream<Path> stream = Files.newDirectoryStream(dir);
@@ -177,7 +170,7 @@ public final class IOUtils {
             if (path == null || path.getFileName() == null)
                 continue;
             Path filename = path.getFileName();
-            if (!Files.isDirectory(path) && !FilePaths.IGNORED_PATHS.contains(path)
+            if (!Files.isDirectory(path) // && !IGNORED_PATHS.contains(path)
                     && (filename.toString().endsWith(extension.extension)
                             || filename.toString().endsWith(extension.extension.toUpperCase()))) {
                 pathSet.add(dir.resolve(filename));
@@ -187,26 +180,48 @@ public final class IOUtils {
         return pathSet;
     }
 
+    public static @NotNull Set<Path> listFiles(@NotNull FilePath dir, FileExtension extension) throws IOException {
+        return listFiles(dir.path, extension);
+    }
+
+    public static @NotNull Set<Path> listDirectories(@NotNull Path dir) throws IOException {
+        Set<Path> pathSet = new HashSet<>();
+        dir = dir.normalize();
+        DirectoryStream<Path> stream = Files.newDirectoryStream(dir);
+        for (Path path : stream) {
+            if (path == null || path.getFileName() == null)
+                continue;
+            Path filename = path.getFileName();
+            if (Files.isDirectory(path)
+//                && !FilePaths.IGNORED_PATHS.contains(path)
+            ) {
+                pathSet.add(dir.resolve(filename));
+            }
+        }
+        stream.close();
+        return pathSet;
+    }
+
+    public static @NotNull Set<Path> listDirectories(@NotNull FilePath dir) throws IOException {
+        return listDirectories(dir.path);
+    }
+
     /**
-     * Empties a directory of all files. Searches only the directory itself, not any
-     * subdirectories (non-recursive).
+     * Empties a directory of all files. Searches only the directory itself, not any subdirectories (non-recursive).
      *
      * @param dir The directory to empty.
-     * @throws IOException When the directory is invalid or inaccessable, or lack
-     *                     permissions to delete a file.
+     * @throws IOException When the directory is invalid or inaccessable, or lack permissions to delete a file.
      */
     public static void emptyFiles(Path dir) throws IOException {
         emptyFiles(dir, FileExtension.ALL);
     }
 
     /**
-     * Empties a directory of all files with the given extension. Searches only the
-     * directory itself, not any subdirectories (non-recursive).
+     * Empties a directory of all files with the given extension. Searches only the directory itself, not any subdirectories (non-recursive).
      *
-     * @param dir       The directory to empty.
+     * @param dir The directory to empty.
      * @param extension The extension to target.
-     * @throws IOException When the directory is invalid or inaccessable, or lack
-     *                     permissions to delete a file.
+     * @throws IOException When the directory is invalid or inaccessable, or lack permissions to delete a file.
      */
     public static void emptyFiles(Path dir, FileExtension extension) throws IOException {
         Set<Path> paths = listFiles(dir, extension);
@@ -240,11 +255,10 @@ public final class IOUtils {
     /**
      * Writes a String line to a file with the given directory, name, and extension.
      *
-     * @param filename    String name of the file to create / write to
-     * @param extension   Extension of the file.
-     * @param destination Path to the Directory which will contain the created /
-     *                    written file.
-     * @param content     String to write into the file.
+     * @param filename String name of the file to create / write to
+     * @param extension Extension of the file.
+     * @param destination Path to the Directory which will contain the created / written file.
+     * @param content String to write into the file.
      * @throws IOException When the file cannot be found or created
      * @see #writeFile(String, FileExtension, Path, List)
      */

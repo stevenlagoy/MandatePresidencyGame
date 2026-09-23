@@ -1,22 +1,19 @@
 package com.stevenlagoy.presidency.map.travel.route;
 
 import com.stevenlagoy.jsonic.JSONObject;
-import com.stevenlagoy.jsonic.JSONProcessor;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
-import com.stevenlagoy.presidency.map.CensusDivision;
-import com.stevenlagoy.presidency.map.CensusRegion;
-import com.stevenlagoy.presidency.map.Municipality;
-import com.stevenlagoy.presidency.map.State;
+import com.stevenlagoy.presidency.map.entities.MapEntity;
+import com.stevenlagoy.presidency.util.FilePath;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
+import java.io.IOException;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
-
-import static com.stevenlagoy.presidency.util.FilePaths.*;
 
 public class RouteManager extends Manager {
 
@@ -43,13 +40,12 @@ public class RouteManager extends Manager {
 
     @Override
     @Contract(pure = true)
-    public @NotNull Set<Manager> getSubManagers() {
-        return Set.of();
+    public @NotNull List<Manager> getSubManagers() {
+        return List.of();
     }
 
     @Override
-    protected void doInit() throws Exception {
-        readRoadwayTypes();
+    protected void doInit() {
         readRoadways();
         readAirports();
         readSeaports();
@@ -78,52 +74,81 @@ public class RouteManager extends Manager {
 
     // Instance Methods
 
-    // Read and Create
-
-    private void readRoadwayTypes() {
-        JSONObject json = JSONProcessor.processJson(ROADWAY_DESIGNATIONS);
-        for (Object obj : json.getAsList()) {
-            if (obj instanceof JSONObject designationJson) {
-                String name = designationJson.getKey();
-                int speed = designationJson.getAsNumber().intValue();
-                roadwayDesignations.add(new Roadway.RoadwayDesignation(name, speed));
-            }
-        }
+    public static double getDirectDistance(MapEntity source, MapEntity destination) {
+        return 0.0;
     }
 
+    // Read and Create
+
     private void readRoadways() {
-        JSONObject json = JSONProcessor.processJson(ROADWAYS);
-        for (Object obj : json.getAsList()) {
-            if (obj instanceof JSONObject roadwayJson) {
-                roadways.add(new Roadway(ENGINE, roadwayJson));
+        try {
+            JSONObject json = new JSONObject(FilePath.ROADWAYS.path);
+            for (Object roadwayObj : json.requireArray()) {
+                if (roadwayObj instanceof JSONObject roadwayJson) {
+                    try {
+                        roadways.add(new Roadway(engine, roadwayJson));
+                    }
+                    catch (IllegalArgumentException e) {
+                        onDegraded(e);
+                    }
+                }
             }
+        } catch (IOException e) {
+            onError(e);
         }
     }
 
     private void readAirports() {
-        JSONObject json = JSONProcessor.processJson(AIRPORTS);
-        for (Object obj : json.getAsList()) {
-            if (obj instanceof JSONObject airportJson) {
-                airports.add(new Airport(ENGINE, airportJson));
+        try {
+            JSONObject json = new JSONObject(FilePath.AIRPORTS.path);
+            for (Object obj : json.requireArray()) {
+                if (obj instanceof JSONObject airportJson) {
+                    try {
+                        airports.add(new Airport(engine, airportJson));
+                    }
+                    catch (IllegalArgumentException e) {
+                        onDegraded(e);
+                    }
+                }
             }
+        } catch (IOException e) {
+            onError(e);
         }
     }
 
     private void readRailways() {
-        JSONObject json = JSONProcessor.processJson(RAILWAYS);
-        for (Object obj : json.getAsList()) {
-            if (obj instanceof JSONObject railwayJson) {
-                railways.add(new Railway(ENGINE, railwayJson));
+        try {
+            JSONObject json = new JSONObject(FilePath.RAILWAYS.path);
+            for (Object obj : json.requireArray()) {
+                if (obj instanceof JSONObject railwayJson) {
+                    try {
+                        railways.add(new Railway(engine, railwayJson));
+                    }
+                    catch (IllegalArgumentException e) {
+                        onDegraded(e);
+                    }
+                }
             }
+        } catch (IOException e) {
+            onError(e);
         }
     }
 
     private void readSeaports() {
-        JSONObject json = JSONProcessor.processJson(SEAPORTS);
-        for (Object obj : json.getAsList()) {
-            if (obj instanceof JSONObject seaportJson) {
-                seaports.add(new Seaport(ENGINE, seaportJson));
+        try {
+            JSONObject json = new JSONObject(FilePath.SEAPORTS.path);
+            for (Object obj : json.requireArray()) {
+                if (obj instanceof JSONObject seaportJson) {
+                    try {
+                        seaports.add(new Seaport(engine, seaportJson));
+                    }
+                    catch (IllegalArgumentException e) {
+                        onDegraded(e);
+                    }
+                }
             }
+        } catch (IOException e) {
+            onError(e);
         }
     }
 
@@ -133,7 +158,7 @@ public class RouteManager extends Manager {
         return roadways;
     }
 
-    public @NotNull Set<Roadway> getRoadwaysConnecting(Municipality source, Municipality destination) {
+    public @NotNull Set<Roadway> getRoadwaysConnecting(MapEntity source, MapEntity destination) {
         Set<Roadway> connections = new HashSet<>();
         for (Roadway roadway : roadways) {
             if(roadway.connects(source) && roadway.connects(destination)) {
@@ -141,11 +166,6 @@ public class RouteManager extends Manager {
             }
         }
         return connections;
-    }
-
-    public @NotNull Optional<Roadway.RoadwayDesignation> matchRoadwayDesignation(@NotNull String designationName) {
-        requireState(ManagerState.ACTIVE, ManagerState.PAUSED, ManagerState.DEGRADED, ManagerState.INITIALIZING);
-        return roadwayDesignations.stream().filter(designation -> designation.getName().equals(designationName)).findFirst();
     }
 
     public @NotNull Optional<Roadway> matchRoadway(@NotNull String nameOrCode) {
@@ -163,34 +183,6 @@ public class RouteManager extends Manager {
 
     public @NotNull Set<Airport> getAirports(@NotNull Airport.AirportSize size) {
         return getAirports().stream().filter(airport -> airport.getSize().equals(size)).collect(Collectors.toSet());
-    }
-
-    public @NotNull Set<Airport> getAirportsInRegion(@NotNull CensusRegion region) {
-        Set<Airport> res = new HashSet<>();
-        region.getDivisions().forEach(division -> res.addAll(getAirportsInDivision(division)));
-        return res;
-    }
-
-    public @NotNull Set<Airport> getAirportsInRegion(@NotNull CensusRegion region, @NotNull Airport.AirportSize size) {
-        return getAirportsInRegion(region).stream().filter(airport -> airport.getSize().equals(size)).collect(Collectors.toSet());
-    }
-
-    public @NotNull Set<Airport> getAirportsInDivision(@NotNull CensusDivision division) {
-        Set<Airport> res = new HashSet<>();
-        division.getStates().forEach(state -> res.addAll(getAirportsInState(state)));
-        return res;
-    }
-
-    public @NotNull Set<Airport> getAirportsInDivision(@NotNull CensusDivision division, @NotNull Airport.AirportSize size) {
-        return getAirportsInDivision(division).stream().filter(airport -> airport.getSize().equals(size)).collect(Collectors.toSet());
-    }
-
-    public @NotNull Set<Airport> getAirportsInState(@NotNull State state) {
-        return airports.stream().filter(airport -> airport.getLocation().getState().equals(state)).collect(Collectors.toSet());
-    }
-
-    public @NotNull Set<Airport> getAirportsInState(@NotNull State state, @NotNull Airport.AirportSize size) {
-        return getAirportsInState(state).stream().filter(airport -> airport.getSize().equals(size)).collect(Collectors.toSet());
     }
 
     // Seaports

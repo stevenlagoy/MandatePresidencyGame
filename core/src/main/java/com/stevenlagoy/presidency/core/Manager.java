@@ -1,16 +1,17 @@
 package com.stevenlagoy.presidency.core;
 
 import com.stevenlagoy.jsonic.JSONObject;
-import com.stevenlagoy.jsonic.Jsonic;
+import com.stevenlagoy.jsonic.JSONSerializable;
 import com.stevenlagoy.presidency.util.Logger;
+import com.stevenlagoy.presidency.util.MatchingException;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.*;
 import java.util.stream.Stream;
 
 /**
@@ -26,7 +27,7 @@ import java.util.stream.Stream;
  * instances, allow searching objects, and methods for saving and loading state. May also have
  * submanagers which deal with one element of the system or a subsystem.
  */
-public abstract class Manager implements Jsonic<Manager> {
+public abstract class Manager extends EngineBound implements JSONSerializable<Manager> {
 
     /** Possible internal States of a Manager. */
     public enum ManagerState {
@@ -92,7 +93,7 @@ public abstract class Manager implements Jsonic<Manager> {
          * @return {@code true} if the state is operational ({@link #ACTIVE}, {@link #PAUSED},
          * {@link #DEGRADED}), {@code false} otherwise.
          */
-        public boolean isOperational() {
+        public final boolean isOperational() {
             return this == ACTIVE || this == PAUSED || this == DEGRADED;
         }
 
@@ -101,7 +102,7 @@ public abstract class Manager implements Jsonic<Manager> {
          * @param next State being transitioned into.
          * @return {@code true} if this state may transition to the next state, {@code false} otherwise.
          */
-        public boolean canTransitionTo(@NotNull ManagerState next) {
+        public final boolean canTransitionTo(@NotNull ManagerState next) {
             return switch (this) {
                 case INACTIVE -> next == INITIALIZING || next == CLEANING_UP;
                 case INITIALIZING, PAUSED, SAVING, LOADING -> next == ACTIVE || next == DEGRADED || next == ERROR;
@@ -115,12 +116,12 @@ public abstract class Manager implements Jsonic<Manager> {
 
     // Instance Fields
 
-    /** Owning engine for this manager. */
-    protected final @NotNull Engine ENGINE;
     /** Manager which owns this manager. If null, this is the root manager (Engine). */
     public final @Nullable Manager superManager;
     /** Current state of this manager. */
     private @NotNull ManagerState state = ManagerState.INACTIVE;
+
+    private final @NotNull Set<Exception> problems;
 
     // Constructors
 
@@ -131,8 +132,9 @@ public abstract class Manager implements Jsonic<Manager> {
     protected Manager(Engine engine) { this(engine, engine); }
     /** Create a new Manager with the given driving engine and super manager. */
     protected Manager(@NotNull Engine engine, @Nullable Manager superManager) {
-        ENGINE = engine;
+        super(engine);
         this.superManager = superManager;
+        this.problems = new HashSet<>();
     }
 
     // Public lifecycle API
@@ -145,6 +147,7 @@ public abstract class Manager implements Jsonic<Manager> {
         transitionTo(ManagerState.INITIALIZING);
         try {
             doInit();
+            engine.registerManager(this);
             getSubManagers().forEach(Manager::init);
             transitionTo(ManagerState.ACTIVE);
         }
@@ -178,36 +181,79 @@ public abstract class Manager implements Jsonic<Manager> {
 
     /** Unpause this manager by moving to the {@link ManagerState#ACTIVE} state. */
     public final void unpause() {
-        transitionTo(ManagerState.ACTIVE); // ERROR cannot transition to ACTIVE
+        transitionTo(ManagerState.ACTIVE);
+    }
+
+    public final void report(RuntimeException e) {
+        onDegraded(e);
+    }
+
+    // Exception Handling
+
+    public final void recover() {
+        Runnable restart = () -> {
+            JSONObject state = this.toJson();
+            this.cleanup();
+            this.init();
+            this.fromJson(state);
+        };
+
+        List<Exception> unresolved = new ArrayList<>();
+        for (Exception problem : problems) {
+            if (problem instanceof MatchingException matchingProblem) {
+                try {
+                    Object result = matchingProblem.matchingMethod.call();
+                    if (result instanceof Optional && ((Optional<?>) result).isEmpty()) {
+                        unresolved.add(problem);
+                        restart.run();
+                    }
+                }
+                catch (Exception e) {
+                    unresolved.add(e);
+                }
+            }
+            else {
+                unresolved.add(problem);
+            }
+        }
+        problems.clear();
+        problems.addAll(unresolved);
+
     }
 
     /** Handle a noncritical exception which has caused this manager to become degraded. */
     protected void onDegraded(Exception e) {
         if (state != ManagerState.DEGRADED) transitionTo(ManagerState.DEGRADED);
+        problems.add(e);
         Logger.error(e);
     }
+
     /** Handle a critical exception which has caused this manager to crash. */
     protected void onError(Exception e) {
         if (state != ManagerState.ERROR) transitionTo(ManagerState.ERROR);
+        problems.add(e);
         Logger.error(e);
     }
 
     // Subclass Hooks
 
-    /** Get all the direct submanagers of this Manager. */
+    /**
+     * Get all the direct submanagers of this Manager. Ensure their order reflects dependencies between the managers,
+     * that is, if Submanager A depends on Submanager B, then B is listed before A.
+     */
     @Contract(pure = true)
-    public abstract @NotNull Set<Manager> getSubManagers();
+    public abstract @NotNull List<Manager> getSubManagers();
 
     /** Get all the descendent submanagers of this Manager, that is, direct submanagers and all of their descendents. */
     @Contract(pure = true)
-    public @NotNull Set<Manager> getAllSubManagers() {
+    public final @NotNull Set<Manager> getAllSubManagers() {
         Set<Manager> subManagers = new HashSet<>(getSubManagers());
         getSubManagers().forEach(manager -> subManagers.addAll(manager.getAllSubManagers()));
         return subManagers;
     }
 
     /** Complete manager-subclass-specific initialization logic. Should not call {@link #init()} or {@code doInit()} on any Managers (including submanagers). */
-    protected abstract void doInit() throws Exception;
+    protected abstract void doInit();
     /** Complete manager-subclass-specific cleanup logic. Should not call {@link #cleanup()} or {@code doCleanup()} on any Managers (including submanagers). */
     protected abstract void doCleanup();
 
@@ -219,7 +265,7 @@ public abstract class Manager implements Jsonic<Manager> {
     // State Access
 
     /** Get the internal state of the Manager. */
-    public @NotNull ManagerState getState() { return state; }
+    public final @NotNull ManagerState getState() { return state; }
 
     public void printState() {
         Logger.log("%s is in state %s at %s", getClass().getSimpleName(), state, Engine.getInstance().getProgramTime());
@@ -275,7 +321,7 @@ public abstract class Manager implements Jsonic<Manager> {
         if (!getSubManagers().isEmpty()) {
             List<JSONObject> subManagerJsons = getSubManagers().stream().map(Manager::toJson).toList();
             if (json.getValue() != null)
-                json.setValue(Stream.concat(((List<JSONObject>) json.getAsList()).stream(), subManagerJsons.stream()).toList()); // Stream concat because these are immutable lists
+                json.setValue(Stream.concat(((List<JSONObject>) json.requireArray()).stream(), subManagerJsons.stream()).toList()); // Stream concat because these are immutable lists
             else json.setValue(subManagerJsons);
         }
         transitionTo(prevState);
@@ -285,8 +331,9 @@ public abstract class Manager implements Jsonic<Manager> {
     @Override
     public final @NotNull Manager fromJson(@NotNull JSONObject json) {
         ManagerState prevState = getState();
+        cleanup();
         transitionTo(ManagerState.LOADING);
-        getSubManagers().forEach(manager -> manager.fromJson(json.get(manager.getClass().getSimpleName(), JSONObject.class)));
+        getSubManagers().forEach(manager -> manager.fromJson(json.requireJson(manager.getClass().getSimpleName())));
         doFromJson(json);
         transitionTo(prevState);
         return this;

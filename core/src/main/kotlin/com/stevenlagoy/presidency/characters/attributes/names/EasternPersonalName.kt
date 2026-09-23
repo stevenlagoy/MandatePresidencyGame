@@ -50,32 +50,30 @@ class EasternPersonalName(
 
     override fun copy(other: PersonalName) {
         this.honorific = other.honorific
-        this.nickname = other.nickname
-        this.suffixes = other.suffixes
+        this.nickname  = other.nickname
+        this.suffixes  = other.suffixes
         this.displayOptions = other.displayOptions
         if (other is EasternPersonalName) {
-            this.familyName = other.familyName
+            this.familyName     = other.familyName
             this.generationName = other.generationName
-            this.givenName = other.givenName
-            this.westernName = other.westernName
+            this.givenName      = other.givenName
+            this.westernName    = other.westernName
         }
     }
 
     override fun compareTo(other: PersonalName) = indexedName.compareTo(other.indexedName)
 
-    override fun toJson() = JSONObject(indexedName, listOf(
-        *((super.toJson().value as List<JSONObject>).toTypedArray()),
-        JSONObject("family_name",     familyName),
-        JSONObject("generation_name", generationName),
-        JSONObject("given_name",      givenName),
-        JSONObject("western_name",    westernName),
-    ))
+    override fun toJson() = super.toJson().merge(
+        JSONObject("familyName", familyName),
+        JSONObject("generationName", generationName),
+        JSONObject("givenName", givenName),
+        JSONObject("westernName", westernName),
+    )
 
-    override fun fromJson(json: JSONObject) = this.apply {
-        super.fromJson(json)
-        familyName     = json.get("family_name")     as String
-        generationName = json.get("generation_name") as String
-        givenName      = json.get("given_name")      as String
-        westernName    = json.get("western_name")    as String
+    override fun fromJson(json: JSONObject) = super.fromJson(json).apply {
+        familyName     = json.requireString("family_name", "familyName")
+        generationName = json.requireString("generation_name", "generationName")
+        givenName      = json.requireString("given_name", "givenName")
+        westernName    = json.requireString("western_name", "westernName")
     }
 }

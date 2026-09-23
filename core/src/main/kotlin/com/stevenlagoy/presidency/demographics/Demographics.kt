@@ -1,32 +1,33 @@
 package com.stevenlagoy.presidency.demographics
 
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.jsonic.Jsonic
+import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.core.Engine
+import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.util.Logger
 
 class Demographics (
-    val ENGINE: Engine,
+    engine: Engine,
     generation: Bloc,
     religion: Bloc,
     raceEthnicity: Bloc,
     presentation: Bloc
-) : Jsonic<Demographics> {
+) : JSONSerializable<Demographics>, EngineBound(engine) {
 
-    constructor(other: Demographics) : this(other.ENGINE, other.generation, other.religion, other.raceEthnicity, other.presentation)
+    constructor(other: Demographics) : this(other.engine, other.generation, other.religion, other.raceEthnicity, other.presentation)
 
     constructor(
-        ENGINE: Engine,
+        engine: Engine,
         generationBlocName: String,
         religionBlocName: String,
         raceEthnicityBlocName: String,
         presentationBlocName: String
     ) : this(
-        ENGINE,
-        ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName(generationBlocName)!!,
-        ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName(religionBlocName)!!,
-        ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName(raceEthnicityBlocName)!!,
-        ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName(presentationBlocName)!!,
+        engine,
+        engine.DEMOGRAPHICS_MANAGER.matchBloc(generationBlocName).orElseThrow(),
+        engine.DEMOGRAPHICS_MANAGER.matchBloc(religionBlocName).orElseThrow(),
+        engine.DEMOGRAPHICS_MANAGER.matchBloc(raceEthnicityBlocName).orElseThrow(),
+        engine.DEMOGRAPHICS_MANAGER.matchBloc(presentationBlocName).orElseThrow(),
     )
 
     var generation = generation
@@ -89,10 +90,10 @@ class Demographics (
     ))
 
     override fun fromJson(json: JSONObject) = this.apply {
-        generation = ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName(json.get("generation") as String)!!
-        religion = ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName(json.get("religion") as String)!!
-        raceEthnicity = ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName(json.get("race_ethnicity") as String)!!
-        presentation = ENGINE.DEMOGRAPHICS_MANAGER.matchBlocName(json.get("presentation") as String)!!
+        generation = engine.DEMOGRAPHICS_MANAGER.matchBloc(json.requireString("generation")).orElseThrow()
+        religion = engine.DEMOGRAPHICS_MANAGER.matchBloc(json.requireString("religion")).orElseThrow()
+        raceEthnicity = engine.DEMOGRAPHICS_MANAGER.matchBloc(json.requireString("race_ethnicity")).orElseThrow()
+        presentation = engine.DEMOGRAPHICS_MANAGER.matchBloc(json.requireString("presentation")).orElseThrow()
     }
 
 }

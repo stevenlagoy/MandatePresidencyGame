@@ -1,0 +1,81 @@
+{
+    "FIPS" : "74",
+    "fullName" : "United States Minor Outlying Islands",
+    "commonName" : "U.S. Minor Outlying Islands",
+    "abbreviation" : "UM",
+    "type" : "territory",
+    "demonymicNoun" : "United States Minor Outlying Islander",
+    "demonymicNounPlural" : "United States Minor Outlying Islanders",
+    "demonymicAdjective" : "United States Minor Outlying Island",
+    "symbols" : {
+        "flag" : {
+            "name" : "United States Flag",
+            "file" : "united_states_flag.png"
+        },
+        "mottos" : [
+            {
+                "motto" : "In God We Trust"
+            }
+        ]
+    },
+    "capital" : "Washington, DC",
+    "government" : {
+        "name" : "",
+        "constituency" : "",
+        "federalLevel" : "",
+        "constitution" : "",
+        "executiveBranch" : {
+            "positions" : {
+                "" : {
+                    "title" : ""
+                }
+            }
+        },
+        "legislativeBranch" : {
+            "title" : "",
+            "chambers" : {
+                "" : {
+                    "name" : "",
+                    "isUpperChamber" : true,
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                },
+                "" : {
+                    "name" : "",
+                    "termLength" : 0,
+                    "nextElectionDate" : "",
+                    "seats" : 0,
+                    "positions" : {
+                        "" : {
+                            "title" : ""
+                        }
+                    }
+                }
+            }
+        },
+        "judicialBranch" : {
+            "title" : "",
+            "supreme_court" : {
+                "fullName" : "",
+                "commonName" : "",
+                "basis" : "",
+                "judges" : 0,
+                "appellate_courts" : {
+                    "" : {
+                        "fullName" : "",
+                        "basis" : "",
+                        "judges" : 0,
+                        "termLength" : 0,
+                        "nextElectionDate" : ""
+                    }
+                }
+            }
+        }
+    }
+}

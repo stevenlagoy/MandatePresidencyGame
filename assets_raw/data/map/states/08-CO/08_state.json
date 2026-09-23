@@ -1,0 +1,213 @@
+{
+    "FIPS" : "08",
+    "commonName" : "Colorado",
+    "fullName" : "State of Colorado",
+    "abbreviation" : "CO",
+    "type" : "state",
+    "demonymicNoun" : "Coloradan",
+    "demonymicPluralNoun" : "Coloradans",
+    "demonymicAdjective" : "Coloradan",
+    "symbols" : {
+        "nicknames" : [
+            "Centennial State",
+            "Colorful Colorado",
+            "Highest State",
+            "Ski Country USA",
+            "Mother of Rivers",
+            "Switzerland of America",
+            "Rocky Mountain State",
+            "Buffalo Plains State",
+            "Columbine State",
+            "Lead State",
+            "Rocky Mountain Empire",
+            "Silver State"
+        ],
+        "flag" : {
+            "name" : "Flag of Colorado",
+            "description" : "Three horizontal stripes of blue, white, and blue. On top of these stripes sits a circular red \"C\", filled with a golden disk.",
+            "symbolism" : "Blue represents the sky, gold represents abundent sunshine, white represents the snowcapped Rocky Mountains, and red represents the ruddy earth. Gold and white also represent gold and silver mining industries. The \"C\" shape represents the name of the state.",
+            "file" : "colorado_flag.png"
+        },
+        "seal" : {
+            "name" : "Great Seal of the State of Colorado",
+            "description" : "A corded red circle with the words \"STATE OF COLORADO\" and the year \"1876\", and six stars. Inside, a blue circle with the state Coat of Arms.",
+            "file" : "colorado_great_seal.png"
+        },
+        "coat_of_arms" : {
+            "name" : "Coat of Arms of the State of Colorado",
+            "description" : "At top, the Eye of Providence radiating golden rays above a Roman fasces of birch or elm rods with a battle axe, bound in a red, white, and blue ribbon displaying the words \"Union and Constitution\"; center, a heraldic shield bearing a red sky, three snow-capped mountains, and three clouds above them, and below this a miner's pick and sledge hammer crossed on golden ground; below all, a white scroll with the motto \"Nil Sine Numine.\"",
+            "symbolism" : "The Eye of Providence or all-seeing eye represents the will and omnipresence of God. The fasces represents strength in union as well as the authority of leaders, and the ribbons around it represent the union of people, states, and nation. Mountains represent the geography of the state, and the pick and sledge represent the gold and silver mining industries. The ribbon contains the state motto.",
+            "file" : "colorado_coa.png"
+        },
+        "mottos" : [
+            {
+                "motto" : "*Nil sine numine*",
+                "translation" : "Nothing without providence",
+                "language" : "Latin"
+            }
+        ],
+        "amphibian" : "eestern tiger salamander",
+        "bird" : "lark bunting",
+        "cactus" : "claret cup cactus",
+        "fish" : "greenback cutthroat trout",
+        "flower" : "Rocky Mountain columbine",
+        "grass" : "blue grama grass",
+        "insect" : "Colorado hairstreak butterfly",
+        "mammal" : "Rocky Mountain bighorn sheep",
+        "mushroom" : "the emperor",
+        "pets" : "Colorado shelter pets",
+        "reptile" : "western painted turtle",
+        "tree" : "Colorado blue spruce",
+        "fossil" : "stegosaurus",
+        "gemstone" : "aquamarine",
+        "mineral" : "rhodochrosite",
+        "rock" : "Yule Marble",
+        "soil" : "Seitz soil",
+        "folk dance" : "square dance",
+        "songs" : [
+            "\"Where the Columbines Grow\"",
+            "\"Rocky Mountain High\""
+        ],
+        "summer sport" : "pack burro racing",
+        "tartan" : "Colorado state tartan",
+        "winter sport" : "skiing and snowboarding",
+        "state highways" : "Colorado state highway routes",
+        "scenic byways" : "Colorado Scenic and Historic Byway routes",
+        "license plate" : "Colorado passenger automobile registration plate",
+        "screw frigate" : "USS *Colorado*",
+        "armored cruiser" : "USS *Colorado* (ACR-7)",
+        "battleship" : "USS *Colorado* (BB-45)",
+        "nuclear submarine" : "USS *Colorado* (SSN-788)",
+        "U.S. postage stamp" : "2026 Colorado statehood sesquicentennial postage stamp",
+        "quarter" : "State quarter featuring Longs Peak and banner with text, \"Colorful Colorado.\""
+    },
+    "capital" : "Denver",
+    "admissionDate" : "01 August 1876",
+    "federalCourtCircuit" : 10,
+    "censusDivision" : "Mountain",
+    "descriptors" : [
+        "COLORADO",
+        "WEST",
+        "MOUNTAIN"
+    ],
+    "allowedSubdivisionTypes" : [
+        "Census County Division"
+    ],
+    "placeTypes" : [
+        {
+            "placeCategory" : "Consolidated City-County",
+            "name" : "Consolidated city and county",
+            "count" : 2
+        },
+        {
+            "placeCategory" : "City",
+            "name" : "Home rule city",
+            "count" : 62
+        },
+        {
+            "placeCategory" : "Town",
+            "name" : "Home rule town",
+            "count" : 41
+        },
+        {
+            "placeCategory" : "City",
+            "name" : "Statutory city",
+            "populationRequirement" : 2000,
+            "count" : 11,
+            "automaticStatusChange" : false
+        },
+        {
+            "placeCategory" : "Town",
+            "name" : "Statutory town",
+            "populationRequirement" : 500,
+            "count" : 155,
+            "automaticStatusChange" : false
+        },
+        {
+            "placeCategory" : "Town",
+            "name" : "Territorial charter municipality",
+            "count" : 1
+        },
+        {
+            "placeCategory" : "Census-Designated Place",
+            "name" : "CDP"
+        }
+    ],
+    "government" : {
+        "name" : "Government of Colorado",
+        "constitution" : "Constitution of the State of Colorado",
+        "branches" : {
+            "executiveBranch" : {
+                "positions" : {
+                    "governor" : {
+                        "title" : "Governor of Colorado"
+                    },
+                    "lieutenant_governor" : {
+                        "title" : "Lieutenant Governor of Colorado"
+                    },
+                    "secretary_of_state" : {
+                        "title" : "Secretary of State of Colorado"
+                    },
+                    "attorney_general" : {
+                        "title" : "Attorney General of Colorado"
+                    },
+                    "state_treasurer" : {
+                        "title" : "Treasurer of the State of Colorado"
+                    }
+                }
+            },
+            "legislativeBranch" : {
+                "title" : "Colorado General Assembly",
+                "chambers" : {
+                    "senate" : {
+                        "name" : "Colorado State Senate",
+                        "isUpperChamber" : true,
+                        "termLength" : 4,
+                        "nextElectionDate" : "03 November 2026",
+                        "seats" : 35,
+                        "positions" : {
+                            "state_senator" : {
+                                "title" : "Colorado State Senator"
+                            },
+                            "state_senate_president" : {
+                                "title" : "President of the Colorado State Senate"
+                            }
+                        }
+                    },
+                    "house_of_representatives" : {
+                        "name" : "Colorado House of Representatives",
+                        "termLength" : 2,
+                        "nextElectionDate" : "03 November 2026",
+                        "seats" : 65,
+                        "positions" : {
+                            "state_representative" : {
+                                "title" : "Colorado State Representative"
+                            },
+                            "house_speaker" : {
+                                "title" : "Speaker of the Colorado House of Representatives"
+                            }
+                        }
+                    }
+                }
+            },
+            "judicialBranch" : {
+                "title" : "",
+                "supreme_court" : {
+                    "fullName" : "",
+                    "commonName" : "",
+                    "basis" : "",
+                    "judges" : 0,
+                    "appellate_courts" : {
+                        "" : {
+                            "fullName" : "",
+                            "basis" : "",
+                            "judges" : 0,
+                            "termLength" : 0,
+                            "nextElectionDate" : ""
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
