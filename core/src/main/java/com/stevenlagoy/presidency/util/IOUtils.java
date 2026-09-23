@@ -79,6 +79,11 @@ public final class IOUtils {
         public boolean isType(Path path) {
             return path.toString().toLowerCase().endsWith(extension);
         }
+
+        @Override
+        public String toString() {
+            return extension;
+        }
     }
 
     /** Standard input from System.in. @see IOUtil#createScanner(InputStream) */
@@ -92,7 +97,7 @@ public final class IOUtils {
     static {
         PrintWriter pw;
         try {
-            pw = IOUtils.createWriter(FilePaths.OUTPUT_FILE.toFile());
+            pw = IOUtils.createWriter(FilePath.OUTPUT.toFile());
         } catch (IOException e) {
             Logger.error(e);
             pw = new PrintWriter(System.out, true); // fallback to stdout
@@ -141,8 +146,12 @@ public final class IOUtils {
      * @throws IOException If the directory path is invalid or unable to be located
      * @see com.stevenlagoy.presidency.util.IOUtils.FileExtension#ALL
      */
-    public static Set<Path> listFiles(Path dir) throws IOException {
+    public static @NotNull Set<Path> listFiles(@NotNull Path dir) throws IOException {
         return listFiles(dir, FileExtension.ALL);
+    }
+
+    public static @NotNull Set<Path> listFiles(@NotNull FilePath dir) throws IOException {
+        return listFiles(dir.path);
     }
 
     /**
@@ -161,7 +170,7 @@ public final class IOUtils {
             if (path == null || path.getFileName() == null)
                 continue;
             Path filename = path.getFileName();
-            if (!Files.isDirectory(path) && !FilePaths.IGNORED_PATHS.contains(path)
+            if (!Files.isDirectory(path) // && !IGNORED_PATHS.contains(path)
                     && (filename.toString().endsWith(extension.extension)
                             || filename.toString().endsWith(extension.extension.toUpperCase()))) {
                 pathSet.add(dir.resolve(filename));
@@ -169,6 +178,10 @@ public final class IOUtils {
         }
         stream.close();
         return pathSet;
+    }
+
+    public static @NotNull Set<Path> listFiles(@NotNull FilePath dir, FileExtension extension) throws IOException {
+        return listFiles(dir.path, extension);
     }
 
     public static @NotNull Set<Path> listDirectories(@NotNull Path dir) throws IOException {
@@ -179,12 +192,18 @@ public final class IOUtils {
             if (path == null || path.getFileName() == null)
                 continue;
             Path filename = path.getFileName();
-            if (Files.isDirectory(path) && !FilePaths.IGNORED_PATHS.contains(path)) {
+            if (Files.isDirectory(path)
+//                && !FilePaths.IGNORED_PATHS.contains(path)
+            ) {
                 pathSet.add(dir.resolve(filename));
             }
         }
         stream.close();
         return pathSet;
+    }
+
+    public static @NotNull Set<Path> listDirectories(@NotNull FilePath dir) throws IOException {
+        return listDirectories(dir.path);
     }
 
     /**

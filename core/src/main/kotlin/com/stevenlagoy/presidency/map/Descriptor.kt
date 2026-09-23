@@ -5,6 +5,7 @@ import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.demographics.Bloc
+import com.stevenlagoy.presidency.map.entities.MapEntity
 
 class Descriptor (
     engine: Engine,

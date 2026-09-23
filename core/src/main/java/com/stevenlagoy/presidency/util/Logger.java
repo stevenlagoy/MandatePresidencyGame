@@ -12,7 +12,7 @@ public final class Logger {
 
     public static void log(@NotNull String logline) {
         try {
-            File logFile = new File(FilePaths.LOG_FILE.toString());
+            File logFile = new File(FilePath.LOG.toString());
             var ignored = logFile.createNewFile();
             PrintWriter logWriter = new PrintWriter(new FileWriter(logFile, true));
 
@@ -40,7 +40,7 @@ public final class Logger {
      */
     public static void error(@NotNull String errorline) {
         try {
-            File errorFile = new File(FilePaths.ERROR_FILE.toString());
+            File errorFile = new File(FilePath.ERROR_LOG.toString());
             var ignored = errorFile.createNewFile();
             PrintWriter errorWriter = new PrintWriter(new FileWriter(errorFile, true));
 
@@ -66,7 +66,7 @@ public final class Logger {
      */
     public static void error(Exception logE) {
         try {
-            File errorFile = new File(FilePaths.ERROR_FILE.toString());
+            File errorFile = new File(FilePath.ERROR_LOG.toString());
             var ignored = errorFile.createNewFile();
             PrintWriter errorWriter = new PrintWriter(new FileWriter(errorFile, true));
 
@@ -92,7 +92,7 @@ public final class Logger {
      */
     public static void error(String context, String errorline) {
         try {
-            File errorFile = new File(FilePaths.ERROR_FILE.toString());
+            File errorFile = new File(FilePath.ERROR_LOG.toString());
             var ignored = errorFile.createNewFile();
             PrintWriter errorWriter = new PrintWriter(new FileWriter(errorFile, true));
 
@@ -116,7 +116,7 @@ public final class Logger {
      */
     public static void error(String context, String errorline, Exception logE) {
         try {
-            File errorFile = new File(FilePaths.ERROR_FILE.toString());
+            File errorFile = new File(FilePath.ERROR_LOG.toString());
             var ignored = errorFile.createNewFile();
             PrintWriter logWriter = new PrintWriter(new FileWriter(errorFile, true));
 
@@ -148,7 +148,7 @@ public final class Logger {
     public static boolean clearErrorFile() {
         boolean successFlag = true;
         try {
-            File errorFile = new File(FilePaths.ERROR_FILE.toString());
+            File errorFile = new File(FilePath.ERROR_LOG.toString());
             var ignored = errorFile.createNewFile();
             FileOutputStream errorStream = new FileOutputStream(errorFile, false);
             errorStream.close();
