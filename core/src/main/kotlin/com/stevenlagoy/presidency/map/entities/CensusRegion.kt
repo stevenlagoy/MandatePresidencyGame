@@ -1,20 +1,22 @@
-package com.stevenlagoy.presidency.map
+package com.stevenlagoy.presidency.map.entities
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.demographics.Bloc
+import com.stevenlagoy.presidency.map.Descriptor
+import com.stevenlagoy.presidency.map.MapRegion
 
 class CensusRegion(
-    ENGINE: Engine,
+    engine: Engine,
     name: String = "",
     squareMileage: Double = 0.0,
     population: Int = 0,
     demographics: Map<Bloc, Double> = emptyMap(),
     descriptors: Set<Descriptor> = emptySet(),
-    region: RegionData? = null,
+    region: MapRegion? = null,
     censusDivisions: Set<CensusDivision> = emptySet(),
 ) : MapEntity(
-    ENGINE,
+    engine,
     name,
     squareMileage,
     population,
@@ -40,7 +42,6 @@ class CensusRegion(
         censusDivisions = json.requireArray("censusDivisions").filterIsInstance<JSONObject>().map {
             val division = CensusDivision(engine, it)
             division.censusRegion = this
-            engine.MAP_MANAGER.censusDivisions.add(division)
             division
         }.toSet()
     }

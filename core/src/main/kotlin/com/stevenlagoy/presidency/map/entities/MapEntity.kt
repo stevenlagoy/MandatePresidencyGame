@@ -1,10 +1,14 @@
-package com.stevenlagoy.presidency.map
+package com.stevenlagoy.presidency.map.entities
 
+import com.badlogic.gdx.graphics.Color
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.demographics.Bloc
+import com.stevenlagoy.presidency.map.Descriptor
+import com.stevenlagoy.presidency.map.MapRegion
+import com.stevenlagoy.presidency.util.parseGdxColor
 import kotlin.math.roundToInt
 
 /**
@@ -19,7 +23,8 @@ abstract class MapEntity(
     demographics: Map<Bloc, Double> = emptyMap(),
     /** Set of descriptors of which this map entity is a member. */
     descriptors: Set<Descriptor> = emptySet(),
-    region: RegionData? = null,
+    region: MapRegion? = null,
+    colors: Set<Color> = emptySet()
 ): JSONSerializable<MapEntity>, EngineBound(engine) {
 
     /** Uniquely identifying name of this map entity. */
@@ -44,12 +49,11 @@ abstract class MapEntity(
     var descriptors: Set<Descriptor> = descriptors
         internal set
 
-    var region: RegionData? = region
+    var region: MapRegion? = region
         internal set
 
-    fun isPixelWithin(x: Long, y: Long): Boolean {
-        return false // TODO
-    }
+    open var colors: Set<Color> = colors
+        internal set
 
     init {
         require(population >= 0) { "Population must be non-negative" }
@@ -57,6 +61,10 @@ abstract class MapEntity(
     }
 
     constructor(engine: Engine, json: JSONObject) : this(engine) { fromJson(json) }
+
+    fun isPixelWithin(x: Long, y: Long): Boolean {
+        return false // TODO
+    }
 
     internal fun addDescriptor(newDescriptor: Descriptor) {
         descriptors = descriptors + newDescriptor
@@ -72,13 +80,15 @@ abstract class MapEntity(
     /** Get the number of people living in this map entity who identify with the given bloc. */
     fun getDemographicPopulation(bloc: Bloc): Int = (getDemographicPercentage(bloc) * population).roundToInt()
 
-    override fun toJson() = JSONObject(name, listOf(
-        JSONObject("name",              name),
-        JSONObject("squareMileage",     squareMileage),
-        JSONObject("population",        population),
-        JSONObject("demographics",      demographics),
-        JSONObject("descriptors",       descriptors.map { it.name }.toList()),
-    ))
+    override fun toJson() = JSONObject(
+        name, listOf(
+            JSONObject("name", name),
+            JSONObject("squareMileage", squareMileage),
+            JSONObject("population", population),
+            JSONObject("demographics", demographics),
+            JSONObject("descriptors", descriptors.map { it.name }.toList()),
+        )
+    )
 
     override fun fromJson(json: JSONObject) = this.apply {
         name          = json.requireString("name")
@@ -87,5 +97,6 @@ abstract class MapEntity(
         squareMileage = json.findDouble("squareMileage") { 0.0 }!!
         demographics  = emptyMap()
         descriptors   = json.findArray("descriptors") { emptyList<String>() }!!.asSequence().filterIsInstance<String>().map { engine.MAP_MANAGER.matchDescriptor(it) }.filter { it.isPresent }.map { it.get() }.toSet()
+        colors        = json.findArray("colors") { emptyList<Color>() }!!.asSequence().filterIsInstance<String>().map { parseGdxColor(it) }.toSet()
     }
 }

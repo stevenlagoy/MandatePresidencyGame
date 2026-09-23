@@ -1,27 +1,29 @@
-package com.stevenlagoy.presidency.map
+package com.stevenlagoy.presidency.map.entities
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.characters.PoliticalActor
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.Manager
 import com.stevenlagoy.presidency.demographics.Bloc
+import com.stevenlagoy.presidency.map.Descriptor
+import com.stevenlagoy.presidency.map.RegionData
 import kotlin.jvm.optionals.getOrNull
 import kotlin.uuid.ExperimentalUuidApi
 
 @OptIn(ExperimentalUuidApi::class)
 class CongressionalDistrict(
-    ENGINE: Engine,
+    engine: Engine,
     name: String = "",
     squareMileage: Double = 0.0,
     population: Int = 0,
     demographics: Map<Bloc, Double> = mapOf(),
     descriptors: Set<Descriptor> = setOf(),
     region: RegionData? = null,
-    _state: State? = null,
+    _state: StateEquivalent? = null,
     var districtNumber: Int = 0,
     var representative: PoliticalActor? = null,
 ) : MapEntity(
-    ENGINE,
+    engine,
     name,
     squareMileage,
     population,
@@ -30,7 +32,7 @@ class CongressionalDistrict(
     region,
 ) {
 
-    lateinit var state: State
+    lateinit var state: StateEquivalent
         internal set
 
     val officeID: String

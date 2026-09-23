@@ -1,11 +1,14 @@
-package com.stevenlagoy.presidency.map
+package com.stevenlagoy.presidency.map.entities
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.demographics.Bloc
+import com.stevenlagoy.presidency.map.Descriptor
+import com.stevenlagoy.presidency.map.HasFIPS
+import com.stevenlagoy.presidency.map.RegionData
 import com.stevenlagoy.presidency.politics.government.Government
 
-class State (
+open class StateEquivalent (
     engine: Engine,
     FIPS: String = "",
     fullName: String = "",
@@ -17,12 +20,13 @@ class State (
     demographics: Map<Bloc, Double> = emptyMap(),
     descriptors: Set<Descriptor> = emptySet(),
     region: RegionData? = null,
-    capital: Municipality? = null,
+    _capital: Place? = null,
     government: Government = Government(engine),
     var motto: String? = null,
     counties: Set<County> = emptySet(),
     _censusDivision: CensusDivision? = null,
-    type: StateType = StateType.SOVERIGN_STATE_COMMONWEALTH
+    type: StateType = StateType.STATE,
+    val subdivisionScheme: SubdivisionScheme = SubdivisionScheme.MCD,
     // specify which type(s) of county subdivisions are allowed // val allowedCountySubdivisions: List<KClass<CountySubdivisions>> = mutableListOf()
 ) : SoverignArea(
     engine,
@@ -33,18 +37,18 @@ class State (
     demographics,
     descriptors,
     region,
+    _capital,
     government,
-    capital,
 ), HasFIPS {
 
     override var FIPS: String = FIPS
         internal set
 
-    var counties: Set<County> = counties.toSet()
+    var countyEquivalents: Set<CountyEquivalent> = counties.toSet()
         internal set
 
-    val municipalities: Set<Municipality>
-        get() = counties.flatMap { it.municipalities }.toSet()
+    val municipalities: Set<Place>
+        get() = countyEquivalents.flatMap { it.places }.toSet()
 
     var type: StateType = type
         internal set
@@ -52,16 +56,22 @@ class State (
     var censusDivision: CensusDivision? = null
         internal set
 
+    val censusRegion: CensusRegion?
+        get() = censusDivision?.censusRegion
+
+    val nation: Nation = Nation
+
     constructor(engine: Engine, json: JSONObject) : this(engine) {
         fromJson(json)
     }
 
     init {
         if (_censusDivision != null) censusDivision = _censusDivision
+        if (_capital != null) capital = _capital
     }
 
-    internal fun addCounty(county: County) {
-        counties = (counties.toMutableSet() + county).toSet()
+    internal fun addCountyEquivalent(countyEquivalent: CountyEquivalent) {
+        countyEquivalents = (countyEquivalents.toMutableSet() + countyEquivalent).toSet()
     }
 
     override fun toJson(): JSONObject = super.toJson().merge(
@@ -69,7 +79,7 @@ class State (
         JSONObject("abbreviation", abbreviation),
         JSONObject("nickname", nickname),
         JSONObject("motto", motto),
-        JSONObject("counties", counties.map { it.fullName }),
+        JSONObject("counties", countyEquivalents.map { it.qualifiedName }),
         JSONObject("censusDivision", censusDivision?.name),
         JSONObject("type", type),
     )
@@ -80,15 +90,18 @@ class State (
         abbreviation = json.requireString("abbreviation")
         nickname = json.requireString("nickname")
         motto = json.requireString("motto")
-        counties = json.findArray("counties") { emptyList<String>() }!!.asSequence().filterIsInstance<String>().map { engine.MAP_MANAGER.matchCounty(it) }.filter { it.isPresent }.map { it.get() }.toSet()
-        val _censusDivision = engine.MAP_MANAGER.matchCensusDivision(json.findString(listOf("censusDivision", "census_division", "division")) { "" } )
+        countyEquivalents = json.findArray("counties") { emptyList<String>() }!!.asSequence().filterIsInstance<String>().map { engine.MAP_MANAGER.matchCountyEquivalent(it) }.filter { it.isPresent }.map { it.get() }.toSet()
+        val _censusDivision = engine.MAP_MANAGER.matchCensusDivision(json.findString(listOf("censusDivision", "census_division", "division")) { "" }!! )
         if (_censusDivision.isPresent) censusDivision = _censusDivision.get()
-        type = StateType.valueOf(json.findString("type") { "State" }!!)
+        type = StateType.entries.find { it.label == json.findString("type") { "state" }!! }!!
     }
 
-    enum class StateType {
-        SOVERIGN_STATE_COMMONWEALTH,
-        FEDERAL_DISTRICT,
-        TERRITORY,
+    enum class StateType(val label: String) {
+        STATE("state"),
+        COMMONWEALTH("commonwealth"),
+        FEDERAL_DISTRICT("federal district"),
+        TERRITORY("territory"),
     }
+
+    enum class SubdivisionScheme { CCD, MCD }
 }

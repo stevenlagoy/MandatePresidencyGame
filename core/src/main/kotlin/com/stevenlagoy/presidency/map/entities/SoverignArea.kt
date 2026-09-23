@@ -1,11 +1,14 @@
-package com.stevenlagoy.presidency.map
+package com.stevenlagoy.presidency.map.entities
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.demographics.Bloc
-import com.stevenlagoy.presidency.politics.ElectionResult
-import com.stevenlagoy.presidency.politics.government.Government
+import com.stevenlagoy.presidency.map.Descriptor
+import com.stevenlagoy.presidency.map.HasGovernment
+import com.stevenlagoy.presidency.map.RegionData
 import com.stevenlagoy.presidency.politics.Party
+import com.stevenlagoy.presidency.politics.elections.Election
+import com.stevenlagoy.presidency.politics.government.Government
 
 /**
  * SoverignArea defines an area which has some amount of home rule over a certain geographic area
@@ -23,9 +26,9 @@ abstract class SoverignArea(
     descriptors: Set<Descriptor> = emptySet(),
     region: RegionData? = null,
     // HasGovernment
+    _capital: Place? = null,
     government: Government = Government(engine),
-    _capital: Municipality? = null,
-    override val electionResults: MutableSet<ElectionResult> = mutableSetOf(),
+    override val elections: MutableSet<Election> = mutableSetOf(),
     override val partiesPresent: MutableSet<Party> = mutableSetOf(),
     override val partyCloutFactors: MutableSet<(party: Party) -> Double> = mutableSetOf(),
 ) : MapEntity(engine, fullName, squareMileage, population, demographics, descriptors, region), HasGovernment {
@@ -45,7 +48,7 @@ abstract class SoverignArea(
         internal set
 
     /** Municipality which serves as the capital of this soverign area. Other names may be used for the same concept, like county seats. */
-    override lateinit var capital: Municipality
+    override lateinit var capital: Place
 
     init {
         if (_capital != null) capital = _capital
