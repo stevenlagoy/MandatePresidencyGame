@@ -1,13 +1,11 @@
 @file:JvmName("TimeUtils")
 package com.stevenlagoy.presidency.util
 
-import java.time.LocalDate
-import java.time.LocalDateTime
-import java.time.ZoneId
-import java.time.ZonedDateTime
+import java.time.*
 import java.time.temporal.ChronoUnit
 import java.util.*
 import kotlin.math.abs
+
 
 /** Minimum safe year to use with date util methods. */
 const val MIN_SAFE_YEAR = 1583
@@ -294,3 +292,5 @@ fun zonedDateTimeFromString(date: String): ZonedDateTime {
     val dateTime = LocalDateTime.of(year, month, dayOfMonth, hour, minute, second)
     return ZonedDateTime.of(dateTime, timeZone)
 }
+
+fun Period.toTotalDays(): Long = (this.toTotalMonths() * (365.25/12) + this.days).toLong()
