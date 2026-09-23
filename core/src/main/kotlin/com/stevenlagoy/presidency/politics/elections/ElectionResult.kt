@@ -1,6 +1,6 @@
-package com.stevenlagoy.presidency.politics.election
+package com.stevenlagoy.presidency.politics.elections
 
-import com.stevenlagoy.presidency.map.MapEntity
+import com.stevenlagoy.presidency.map.entities.MapEntity
 import com.stevenlagoy.presidency.politics.Campaign
 import com.stevenlagoy.presidency.politics.Party
 

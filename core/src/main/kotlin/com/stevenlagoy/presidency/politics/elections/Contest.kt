@@ -1,13 +1,12 @@
-package com.stevenlagoy.presidency.politics.election
+package com.stevenlagoy.presidency.politics.elections
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
-import com.stevenlagoy.presidency.map.MapEntity
-import com.stevenlagoy.presidency.map.Nation
+import com.stevenlagoy.presidency.map.entities.MapEntity
+import com.stevenlagoy.presidency.map.entities.Nation
 import com.stevenlagoy.presidency.politics.Issue
-import com.stevenlagoy.presidency.politics.IssuePosition
 import com.stevenlagoy.presidency.politics.PartyGoverningBody
 import com.stevenlagoy.presidency.politics.government.Government
 import java.time.LocalDateTime
@@ -48,7 +47,7 @@ open class Contest(
         return currentDate.isAfter(pollsCloseDate) && (if (allowMailInVotes) currentDate.isAfter(mailInReceiptEnd) else true) && (if (allowOverseasVotes) currentDate.isAfter(overseasReceiptEnd) else true)
     }
 
-    fun getWinningPositions(): List<IssuePosition> = resolutionRule.resolve(tabulationRule.tabulate(results))
+    fun getWinningPositions(): List<Issue.IssuePosition> = resolutionRule.resolve(tabulationRule.tabulate(results))
 
     override fun fromJson(json: JSONObject) = apply {
         allowEarlyVoting = json.requireBoolean("allowEarlyVoting")

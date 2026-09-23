@@ -1,9 +1,9 @@
-package com.stevenlagoy.presidency.politics.election
+package com.stevenlagoy.presidency.politics.elections
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.characters.PoliticalActor
 import com.stevenlagoy.presidency.core.Engine
-import com.stevenlagoy.presidency.map.MapEntity
+import com.stevenlagoy.presidency.map.entities.MapEntity
 import com.stevenlagoy.presidency.politics.Campaign
 import com.stevenlagoy.presidency.politics.Issue
 import com.stevenlagoy.presidency.politics.government.GovernmentPosition

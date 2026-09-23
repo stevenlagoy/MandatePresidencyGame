@@ -1,4 +1,4 @@
-package com.stevenlagoy.presidency.politics.election
+package com.stevenlagoy.presidency.politics.elections
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.JSONSerializable

@@ -1,13 +1,7 @@
-package com.stevenlagoy.presidency.politics.election
+package com.stevenlagoy.presidency.politics.elections
 
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.presidency.politics.Issue
-import com.stevenlagoy.presidency.politics.IssuePosition
-import com.stevenlagoy.presidency.politics.election.TabulationRule.Approval
-import com.stevenlagoy.presidency.politics.election.TabulationRule.FirstPreference
-import com.stevenlagoy.presidency.politics.election.TabulationRule.RankedChoice
-import com.stevenlagoy.presidency.politics.election.TabulationRule.STAR
-import com.stevenlagoy.presidency.politics.election.TabulationRule.Score
+import com.stevenlagoy.presidency.politics.Issue.IssuePosition
 import com.stevenlagoy.presidency.util.replaceAllRegex
 
 /**

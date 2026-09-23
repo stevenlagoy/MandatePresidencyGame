@@ -1,7 +1,7 @@
-package com.stevenlagoy.presidency.politics.election
+package com.stevenlagoy.presidency.politics.elections
 
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.presidency.politics.IssuePosition
+import com.stevenlagoy.presidency.politics.Issue
 import com.stevenlagoy.presidency.util.replaceAllRegex
 
 /**
@@ -30,7 +30,7 @@ sealed class TabulationRule {
     }
 
     data class IssueResult(
-        val issue: IssuePosition,
+        val issue: Issue.IssuePosition,
         val percentage: Double
     )
 
@@ -79,12 +79,12 @@ sealed class TabulationRule {
         override fun getName() = this::class.simpleName!!
 
         override fun tabulate(results: Map<Ballot, Int>): List<IssueResult> {
-            val eliminated = mutableSetOf<IssuePosition>()
+            val eliminated = mutableSetOf<Issue.IssuePosition>()
             val allIssues = results.keys.firstOrNull()?.`return`?.keys ?: return emptyList()
             val rankedResult = mutableListOf<IssueResult>()
             val totalResults = results.values.sum().toDouble()
             while (eliminated.size < allIssues.size) {
-                val topPreferences = mutableMapOf<IssuePosition, Int>()
+                val topPreferences = mutableMapOf<Issue.IssuePosition, Int>()
                 results.forEach { (result, occurrence) ->
                     val topKey = result.`return`
                         .asSequence()
@@ -109,7 +109,7 @@ sealed class TabulationRule {
         override fun getName() = "${this::class.simpleName!!} ($scoreRange)"
 
         override fun tabulate(results: Map<Ballot, Int>): List<IssueResult> {
-            val totalIssueScores = mutableMapOf<IssuePosition, Double>()
+            val totalIssueScores = mutableMapOf<Issue.IssuePosition, Double>()
             for ((result, occurrence) in results) {
                 for ((issuePosition, score) in result.`return`) {
                     totalIssueScores.merge(issuePosition, score * occurrence.toDouble(), Double::plus)
@@ -137,7 +137,7 @@ sealed class TabulationRule {
                 .toMutableMap()
 
             for ((result, occurrence) in results) {
-                var bestIssue: IssuePosition? = null
+                var bestIssue: Issue.IssuePosition? = null
                 var bestScore = Int.MIN_VALUE
 
                 for (issuePosition in finalists.keys) {
