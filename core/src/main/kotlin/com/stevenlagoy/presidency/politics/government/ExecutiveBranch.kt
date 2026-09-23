@@ -3,7 +3,7 @@ package com.stevenlagoy.presidency.politics.government
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.characters.PoliticalActor
 import com.stevenlagoy.presidency.politics.Party
-import com.stevenlagoy.presidency.politics.election.Election
+import com.stevenlagoy.presidency.politics.elections.Election
 
 class ExecutiveBranch(
     val executives: MutableList<PoliticalActor> = mutableListOf(),
