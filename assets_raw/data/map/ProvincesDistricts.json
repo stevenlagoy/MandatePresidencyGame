@@ -1,0 +1,1402 @@
+{
+    "#A80CBE" : {
+        "color" : "#A80CBE",
+        "name" : "Alaska",
+        "state" : "Alaska",
+        "districts" : [],
+        "description" : "The State of Alaska."
+    },
+    "#228C88" : {
+        "color" : "#228C88",
+        "name" : "Northern British Columbia",
+        "state" : null,
+        "districts" : ["British Columbia", "Canada 2026", "Oregon Country"],
+        "description" : "Section of modern British Columbia north of 54°40′ N, established in 1825 as the border between Russian North America and the Oregon Country."
+    },
+    "#228CFF" : {
+        "color" : "#228CFF",
+        "name" : "Central British Columbia",
+        "state" : null,
+        "districts" : ["British Columbia", "Canada 2026", "Oregon Country"],
+        "description" : "Most of modern British Columbia which was administered jointly by the US and UK as the Oregon Country."
+    },
+    "#C3BF12" : {
+        "color" : "#C3BF12",
+        "name" : "Central Washington",
+        "state" : "Washington",
+        "districts" : ["Oregon Country", "Washington State"],
+        "description" : "Most of the State of Washington."
+    },
+    "#C3BF5D" : {
+        "color" : "#C3BF5D",
+        "name" : "San Juan Islands",
+        "state" : "Washington",
+        "districts" : ["Oregon Country", "Washington State"],
+        "description" : "The San Juan Islands, which were disputed between the US and UK from 1846 to 1871."
+    },
+    "#2217FF" : {
+        "color" : "#2217FF",
+        "name" : "Central Oregon",
+        "state" : "Oregon",
+        "districts" : ["Oregon Country", "Oregon State"],
+        "description" : "Most of the State of Oregon."
+    },
+    "#2246FF" : {
+        "color" : "#2246FF",
+        "name" : "Southern Oregon",
+        "state" : "Oregon",
+        "districts" : ["Oregon State"],
+        "description" : "Parts of southern Oregon not included in the Oregon Country."
+    },
+    "#18FF9E" : {
+        "color" : "#18FF9E",
+        "name" : "Hawaiian Islands",
+        "state" : "Hawaii",
+        "districts" : ["Hawaii State"],
+        "description" : "The Hawaiian Islands."
+    },
+    "#2F8A82" : {
+        "color" : "#2F8A82",
+        "name" : "Guam",
+        "state" : "Guam",
+        "districts" : ["Guam Territory", "Mariana Islands"],
+        "description" : ""
+    },
+    "#3476F0" : {
+        "color" : "#3476F0",
+        "name" : "Northern Mariana Islands",
+        "state" : "Northern Mariana Islands",
+        "districts" : ["Northern Mariana Islands", "Mariana Islands"],
+        "description" : ""
+    },
+    "#A101FF" : {
+        "color" : "#A101FF",
+        "name" : "Western California",
+        "state" : "California",
+        "districts" : ["California State"],
+        "description" : "Northern and western California."
+    },
+    "#7401FF" : {
+        "color" : "#7401FF",
+        "name" : "Eastern California",
+        "state" : "California",
+        "districts" : ["California State"],
+        "description" : "Eastern and southern California."
+    },
+    "#6501FF" : {
+        "color" : "#6501FF",
+        "name" : "Oregon Country California",
+        "state" : "California",
+        "districts" : ["California State", "Oregon Country"],
+        "description" : "Some small parts of northern California included in the Oregon Country."
+    },
+    "#79AF8C" : {
+        "color" : "#79AF8C",
+        "name" : "Northern Nevada",
+        "state" : "Mevada",
+        "districts" : ["Nevada State"],
+        "description" : "Parts of northern Nevada included in the Oregon Country."
+    },
+    "#79AF25" : {
+        "color" : "#79AF25",
+        "name" : "Central Nevada",
+        "state" : "Nevada",
+        "districts" : ["Nevada State"],
+        "description" : "Area of Nevada organized as the Nevada Territory from the Utah Territory in 1861."
+    },
+    "#9BAF25" : {
+        "color" : "#9BAF25",
+        "name" : "Southern Nevada",
+        "state" : "Nevada",
+        "districts" : ["Nevada State"],
+        "description" : "Southern area of Nevada ceded from the Arizona Territory."
+    },
+    "#FFFF78" : {
+        "color" : "#FFFF78",
+        "name" : "Western North Dakota",
+        "state" : "North Dakota",
+        "districts" : ["North Dakota State"],
+        "description" : "Western portion of North Dakota."
+    },
+    "#FF9378" : {
+        "color" : "#FF9378",
+        "name" : "Central North Dakota",
+        "state" : "North Dakota",
+        "districts" : ["North Dakota State"],
+        "description" : "Central portion of North Dakota."
+    },
+    "#AEFF1A" : {
+        "color" : "#AEFF1A",
+        "name" : "",
+        "state" : "North Dakota",
+        "districts" : ["North Dakota State"],
+        "description" : "Area of northern North Dakota."
+    },
+    "#FFFF1A" : {
+        "color" : "#FFFF1A",
+        "name" : "Eastern North Dakota",
+        "state" : "North Dakota",
+        "districts" : ["North Dakota State"],
+        "description" : "Eastern portion of North Dakota."
+    },
+    "#1051FF" : {
+        "color" : "#1051FF",
+        "name" : "Eastern Montana",
+        "state" : "Montana",
+        "districts" : ["Montana State"],
+        "description" : "Eastern portion of Montana."
+    },
+    "#D918A5" : {
+        "color" : "#D918A5",
+        "name" : "Southern Idaho",
+        "state" : "Idaho",
+        "districts" : ["Idaho State"],
+        "description" : "Area in the southeast of Idaho."
+    },
+    "#AE04A5" : {
+        "color" : "#AE04A5",
+        "name" : "Northern Idaho",
+        "state" : "Idaho",
+        "districts" : ["Idaho State"],
+        "description" : "Northern panhandle of Idaho."
+    },
+    "#8004E4" : {
+        "color" : "#8004E4",
+        "name" : "Central Idaho",
+        "state" : "Idaho",
+        "districts" : ["Idaho State"],
+        "description" : "Most of the state of Idaho."
+    },
+    "#7320DE" : {
+        "color" : "#7320DE",
+        "name" : "Central Kansas",
+        "state" : "Kansas",
+        "districts" : ["Kansas State"],
+        "description" : "Most of the state of Kansas."
+    },
+    "#EF5265" : {
+        "color" : "#EF5265",
+        "name" : "Northern Texas",
+        "state" : "Texas",
+        "districts" : ["Texas State"],
+        "description" : "Northern area of Texas."
+    },
+    "#EF5981" : {
+        "color" : "#EF5981",
+        "name" : "Central Texas",
+        "state" : "Texas",
+        "districts" : ["Texas State"],
+        "description" : "Most of the state of Texas."
+    },
+    "#EF6581" : {
+        "color" : "#EF6581",
+        "name" : "Texas-New Mexico Strip South",
+        "state" : "Texas",
+        "districts" : ["Texas State"],
+        "description" : "Southern part of the strip of land on the Texas-New Mexico border."
+    },
+    "#EF7C81" : {
+        "color" : "#EF7C81",
+        "name" : "Texas-New Mexico Strip North",
+        "state" : "Texas",
+        "districts" : ["Texas State"],
+        "description" : "Northern part of the strip of land on the Texas-New Mexico border."
+    },
+    "#85C265" : {
+        "color" : "#85C265",
+        "name" : "Okalhoma Panhandle",
+        "state" : "Oklahoma",
+        "districts" : ["Oklahoma State"],
+        "description" : "Oklahoma panhandle."
+    },
+    "#FFBC36" : {
+        "color" : "#FFBC36",
+        "name" : "Northern Arizona",
+        "state" : "Arizona",
+        "districts" : ["Arizona State"],
+        "description" : "Northern portion of Arizona."
+    },
+    "#FF9B36" : {
+        "color" : "#FF9B36",
+        "name" : "North Southern Arizona",
+        "state" : "Arizona",
+        "districts" : ["Arizona State"],
+        "description" : "North part of the southern portion of Arizona, not included in the Gadsden Purchase."
+    },
+    "#FF8436" : {
+        "color" : "#FF8436",
+        "name" : "Arizona Gadsden Purchase",
+        "state" : "Arizona",
+        "districts" : ["Arizona State", "Gadsden Purchase"],
+        "description" : "Southern area of Arizona included in the Gadsden Purchase."
+    },
+    "#1317FF" : {
+        "color" : "#1317FF",
+        "name" : "Central Utah",
+        "state" : "Utah",
+        "districts" : ["Utah State"],
+        "description" : "Most of the state of Utah."
+    },
+    "#5200FF" : {
+        "color" : "#5200FF",
+        "name" : "Northern Utah",
+        "state" : "Utah",
+        "districts" : ["Utah State"],
+        "description" : "Area of northern Utah included in the Oregon Country."
+    },
+    "#1352FF" : {
+        "color" : "#1352FF",
+        "name" : "Eastern Utah",
+        "state" : "Utah",
+        "districts" : ["Utah State"],
+        "description" : "Eastern portion of the state of Utah."
+    },
+    "#22CBFF" : {
+        "color" : "#22CBFF",
+        "name" : "Arkansas",
+        "state" : "Arkansas",
+        "districts" : ["Arkansas State"],
+        "description" : "State of Arkansas"
+    },
+    "#FF3A8F" : {
+        "color" : "#FF3A8F",
+        "name" : "Southern East Florida",
+        "state" : "Florida",
+        "districts" : ["Florda State", "East Florida"],
+        "description" : "Southern part of East Florida."
+    },
+    "#D43AD1" : {
+        "color" : "#D43AD1",
+        "name" : "Northern East Florida",
+        "state" : "Florida",
+        "districts" : ["Florida State", "East Florida"],
+        "description" : "Northern part of East Florida."
+    },
+    "#D52B78" : {
+        "color" : "#D52B78",
+        "name" : "Floridian West Florida",
+        "state" : "Florida",
+        "districts" : ["Florida State", "West Florida"],
+        "description" : "Eastern part of West Florida, part of the modern state of Florida."
+    },
+    "#2CDE25" : {
+        "color" : "#2CDE25",
+        "name" : "Central Missouri",
+        "state" : "Missouri",
+        "districts" : ["Missouri State"],
+        "description" : "Most of the state of Missouri."
+    },
+    "#5DDE74" : {
+        "color" : "#5DDE74",
+        "name" : "Southern Platte Purchase",
+        "state" : "Missouri",
+        "districts" : ["Missouri State", "Platte Purchase"],
+        "description" : "Southern part of the Platte Purchase."
+    },
+    "#8CDE74" : {
+        "color" : "#8CDE74",
+        "name" : "Northern Platte Purchase",
+        "state" : "Missouri",
+        "districts" : ["Missouri State", "Platte Purchase", "Missouri Northern Rank"],
+        "description" : "Northern part of the Platte Purchase, disputed between Missouri and Iowa during the Honey War."
+    },
+    "#88DE25" : {
+        "color" : "#88DE25",
+        "name" : "Northern Missouri",
+        "state" : "Missouri",
+        "districts" : ["Missouri State", "Missouri Northern Rank"],
+        "description" : "Northern part of Missouri, disputed between Missouri and Iowa during the Honey War."
+    },
+    "#CC5269" : {
+        "color" : "#CC5269",
+        "name" : "Southern Iowa",
+        "state" : "Iowa",
+        "districts" : ["Iowa State"],
+        "description" : "Southern part of Iowa, disputed between Missouri and Iowa during the Honey War."
+    },
+    "#CC0B69" : {
+        "color" : "#CC0B69",
+        "name" : "Central Iowa",
+        "state" : "Iowa",
+        "districts" : ["Iowa State"],
+        "description" : "Most of the state of Iowa."
+    },
+    "#AE7C81" : {
+        "color" : "#AE7C81",
+        "name" : "Texas New Orleans Territory",
+        "state" : "Texas",
+        "districts" : ["Texas State", "New Orleans Territory"],
+        "description" : "Area of Texas north of the Sabine River included in the New Orleans Territory."
+    },
+    "#4217FF" : {
+        "color" : "#4217FF",
+        "name" : "Southern Oregon Country",
+        "state" : "Oregon",
+        "districts" : ["Oregon State", "Oregon Country", "Deseret"],
+        "description" : "Southern part of Oregon included in the Oregon Country and claimed by Deseret."
+    },
+    "#4E46FF" : {
+        "color" : "#4E46FF",
+        "name" : "Southern Oregon Pit River",
+        "state" : "Oregon",
+        "districts" : ["Oregon State"],
+        "description" : "Southern part of Oregon in the Pit River watershed, not included in the Oregon Country and not claimed by Deseret."
+    },
+    "#224671" : {
+        "color" : "#224671",
+        "name" : "Southern Oregon Deseret",
+        "state" : "Oregon",
+        "districts" : ["Oregon State", "Deseret"],
+        "description" : "Southern part of Oregon not in the Oregon Country and claimed by Deseret."
+    },
+    "#3CFF6D" : {
+        "color" : "#3CFF6D",
+        "name" : "Western South Dakota",
+        "state" : "South Dakota",
+        "districts" : ["South Dakota State"],
+        "description" : "Western portion of South Dakota."
+    },
+    "#3C8F6D" : {
+        "color" : "#3C8F6D",
+        "name" : "Eastern South Dakota",
+        "state" : "South Dakota",
+        "districts" : ["South Dakota State"],
+        "description" : "Eastern portion of South Dakota."
+    },
+    "#3CFF05" : {
+        "color" : "#3CFF05",
+        "name" : "Northern South Dakota Corner",
+        "state" : "South Dakota",
+        "districts" : ["South Dakota State"],
+        "description" : "Northeastern corner of South Dakota."
+    },
+    "#AA09DA" : {
+        "color" : "#AA09DA",
+        "name" : "Southern Minnesota",
+        "state" : "Minnesota",
+        "districts" : ["Minnesota State"],
+        "description" : "Southern part of the state of Minnesota west of the Mississippi River and within the Mississippi watershed."
+    },
+    "#AA098C" : {
+        "color" : "#AA098C",
+        "name" : "Eastern Minnesota",
+        "state" : "Minnesota",
+        "districts" : ["Minnesota State"],
+        "description" : "Eastern part of the state of Minnesota east and north of the Mississippi River."
+    },
+    "#D55D8C" : {
+        "color" : "#D55D8C",
+        "name" : "Minnesota Iron Range",
+        "state" : "Minnesota",
+        "districts" : ["Minnesota State"],
+        "description" : "Portion of northeast Minnesota on the Lake Superior shore."
+    },
+    "#AA42DA" : {
+        "color" : "#AA42DA",
+        "name" : "Western Minnesota",
+        "state" : "Minnesota",
+        "districts" : ["Minnesota State"],
+        "description" : "Western portion of Minnesota outside the Mississippi watershed."
+    },
+    "#FF9900" : {
+        "color" : "#FF9900",
+        "name" : "Thunder Bay",
+        "state" : null,
+        "districts" : ["Canada", "Ontario Province"],
+        "description" : "Area around Thunder Bay which was once claimed by the United States following independence."
+    },
+    "#1DE502" : {
+        "color" : "#1DE502",
+        "name" : "Central Wisconsin",
+        "state" : "Wisconsin",
+        "districts" : ["Wisconsin State"],
+        "description" : "Most of the state of Wisconsin."
+    },
+    "#5DE565" : {
+        "color" : "#5DE565",
+        "name" : "Wisconsin Michigan First Claim",
+        "state" : "Wisconsin",
+        "districts" : ["Wisconsin State"],
+        "description" : "Area on the border of Wisconsin and Michigan which was claimed by Michigan."
+    },
+    "#5DFF4A" : {
+        "color" : "#5DFF4A",
+        "name" : "Wisconsin Michigan Second Claim",
+        "state" : "Wisconsin",
+        "districts" : ["Wisconsin State"],
+        "description" : "Area on the border of Wisconsin and Michigan which was claimed by Michigan."
+    },
+    "#7CE502" : {
+        "color" : "#7CE502",
+        "name" : "Door Peninsula",
+        "state" : "Wisconsin",
+        "districts" : ["Wisconsin State"],
+        "description" : "Most of the Door Peninsula in Wisconsin."
+    },
+    "#1DE555" : {
+        "color" : "#1DE555",
+        "name" : "Southern Wisconsin",
+        "state" : "Wisconsin",
+        "districts" : ["Wisconsin State"],
+        "description" : "Southern part of Wisconsin."
+    },
+    "#1DE574" : {
+        "color" : "#1DE574",
+        "name" : "Wisconsin Southern Lake Michigan",
+        "state" : "Wisconsin",
+        "districts" : ["Wisconsin State"],
+        "description" : "Southern portion of Lake Michigan in Wisconsin."
+    },
+    "#37FFFF" : {
+        "color" : "#37FFFF",
+        "name" : "Central Nebraska",
+        "state" : "Nebraska",
+        "districts" : ["Nebraska State"],
+        "description" : "Most of the state of Nebraska."
+    },
+    "#37FF9F" : {
+        "color" : "#37FF9F",
+        "name" : "Nebraska Niobara",
+        "state" : "Nebraska",
+        "districts" : ["Nebraska State"],
+        "description" : "Part of Nebraska north of the Niobara River."
+    },
+    "#37FFAE" : {
+        "color" : "#37FFAE",
+        "name" : "Western Nebraska",
+        "state" : "Nebraska",
+        "districts" : ["Nebraska State"],
+        "description" : "Western part of Nebraska."
+    },
+    "#73207C" : {
+        "color" : "#73207C",
+        "name" : "Southern Kansas",
+        "state" : "Kansas",
+        "districts" : ["Kansas State"],
+        "description" : "Southern part of Kansas."
+    },
+    "#732088" : {
+        "color" : "#732088",
+        "name" : "Southwestern Kansas",
+        "state" : "Kansas",
+        "districts" : ["Kansas State"],
+        "description" : "Southwestern corner of Kansas."
+    },
+    "#79AF5D" : {
+        "color" : "#79AF5D",
+        "name" : "Eastern Nevada West",
+        "state" : "Nevada",
+        "districts" : ["Nevada State"],
+        "description" : "Western portion of the eastern annex of Nevada."
+    },
+    "#79AF97" : {
+        "color" : "#79AF97",
+        "name" : "Eastern Nevada East",
+        "state" : "Nevada",
+        "districts" : ["Nevada State"],
+        "description" : "Eastern portion of the eastern annex of Nevada."
+    },
+    "#79AFA7" : {
+        "color" : "#",
+        "name" : "Eastern Nevada Northwest",
+        "state" : "Nevada",
+        "districts" : ["Nevada State"],
+        "description" : "Northwestern portion of the eastern annex of Nevada."
+    },
+    "#33AFA7" : {
+        "color" : "#33AFA7",
+        "name" : "Eastern Nevada Northeast",
+        "state" : "Nevada",
+        "districts" : ["Nevada State"],
+        "description" : "Northeastern portion of the eastern annex of Nevada."
+    },
+    "#DEFF1E" : {
+        "color" : "#DEFF1E",
+        "name" : "Central Kentucky",
+        "state" : "Kentucky",
+        "districts" : ["Kentucky State"],
+        "description" : "Most of the state of Kentucky."
+    },
+    "#79F127" : {
+        "color" : "#79F127",
+        "name" : "Western Kentucky",
+        "state" : "Kentucky",
+        "districts" : ["Kentucky State"],
+        "description" : "Western part of Kentucky."
+    },
+    "#FF9336" : {
+        "color" : "#FF9336",
+        "name" : "Arizona Mexican Dispute",
+        "state" : "Arizona",
+        "districts" : ["Arizona State"],
+        "description" : "Area of Arizona disputed between the United States and Mexico after the Mexican-American War."
+    },
+    "#FF9969" : {
+        "color" : "#FF9969",
+        "name" : "Louisiana Purchase Northern Reach",
+        "state" : null,
+        "districts" : ["Canada"],
+        "description" : "Northern portion of the Louisiana Purchase today inside Canada."
+    },
+    "#D81B57" : {
+        "color" : "#D81B57",
+        "name" : "Central Ohio",
+        "state" : "Ohio",
+        "districts" : ["Ohio State"],
+        "description" : "Most of the state of Ohio."
+    },
+    "#E03722" : {
+        "color" : "#E03722",
+        "name" : "Central Indiana",
+        "state" : "Indiana",
+        "districts" : ["Indiana State"],
+        "description" : "Most of the state of Indiana."
+    },
+    "#D87C57" : {
+        "color" : "#D87C57",
+        "name" : "Western Reserve",
+        "state" : "Ohio",
+        "districts" : ["Ohio State"],
+        "description" : "Area of northeast Ohio claimed as the Connecticut Western Reserve."
+    },
+    "#D84E57" : {
+        "color" : "#D84E57",
+        "name" : "Northwestern Ohio",
+        "state" : "Ohio",
+        "districts" : ["Ohio State"],
+        "description" : "Northwestern area of Ohio, not including the Toledo Strip."
+    },
+    "#D87C84" : {
+        "color" : "#D87C84",
+        "name" : "Toledo Strip",
+        "state" : "Ohio",
+        "districts" : ["Ohio State"],
+        "description" : "Strip of land in Ohio containing Toledo, which was contested between Ohio and Michigan during the Toledo War."
+    },
+    "#E03759" : {
+        "color" : "#E03759",
+        "name" : "Southeastern Indiana",
+        "state" : "Indiana",
+        "districts" : ["Indiana State"],
+        "description" : "Area of southeastern Indiana on the Ohio border, forming a triangle from the mouth of the Kentucky River to the location of the historic Fort Recovery."
+    },
+    "#E08422" : {
+        "color" : "#E08422",
+        "name" : "Northern Indiana",
+        "state" : "Indiana",
+        "districts" : ["Indiana State"],
+        "description" : "Most of northern Indiana."
+    },
+    "#C68465" : {
+        "color" : "#C68465",
+        "name" : "Indiana Northern Rank",
+        "state" : "Indiana",
+        "districts" : ["Indiana State"],
+        "description" : "Very northern portion of Indiana, bordering with Michigan."
+    },
+    "#AA3769" : {
+        "color" : "#AA3769",
+        "name" : "Indiana Exchange",
+        "state" : "Indiana",
+        "districts" : ["Indiana State"],
+        "description" : "Area of Indiana exchanged with Illinois upon Indiana's statehood."
+    },
+    "#AE69FF" : {
+        "color" : "#AE69FF",
+        "name" : "Illinois Exchange",
+        "state" : "Illinois",
+        "districts" : ["Illinois State"],
+        "description" : "Area of Illinois exchanged with Indiana upon Indiana's statehood."
+    },
+    "#3AE774" : {
+        "color" : "#3AE774",
+        "name" : "Central West Virginia",
+        "state" : "West Virginia",
+        "districts" : ["West Virginia State"],
+        "description" : "Most of West Virginia."
+    },
+    "#CF701F" : {
+        "color" : "#CF701F",
+        "name" : "Central Vermont",
+        "state" : "Vermont",
+        "districts" : ["Vermont State"],
+        "description" : "Most of the state of Vermont."
+    },
+    "#CF709F" : {
+        "color" : "#CF709F",
+        "name" : "Southern Vermont",
+        "state" : "Vermont",
+        "districts" : ["Vermont State"],
+        "description" : "Southern part of Vermont, at once point claimed by the Plymouth Bay Colony."
+    },
+    "#BE4E5D" : {
+        "color" : "#BE4E5D",
+        "name" : "New York West Union",
+        "state" : "New York",
+        "districts" : ["New York State"],
+        "description" : "Area of eastern New York claimed as the West Union by the Vermont Republic."
+    },
+    "#FF462B" : {
+        "color" : "#FF462B",
+        "name" : "New Hampshire East Union North",
+        "state" : "New Hampshire",
+        "districts" : ["New Hampshire State"],
+        "description" : "Area of western New Hampshire claimed as the East Union by the Vermont Republic."
+    },
+    "#FF8071" : {
+        "color" : "#FF8071",
+        "name" : "New Hampshire East Union South",
+        "state" : "New Hampshire",
+        "districts" : ["New Hampshire State"],
+        "description" : "Area of western New Hampshire claimed as the East Union by the Vermont Republic, and by the Plymouth Bay Colony."
+    },
+    "#FF784C" : {
+        "color" : "#FF784C",
+        "name" : "Indian Stream",
+        "state" : "New Hampshire",
+        "districts" : ["New Hampshire State"],
+        "description" : "Northern tip of New Hampshire once disputed between Great Britain and the United States, and claimed independence as the Indian Stream Republic."
+    },
+    "#FF364C" : {
+        "color" : "#FF364C",
+        "name" : "Central New Hampshire",
+        "state" : "New Hampshire",
+        "districts" : ["New Hampshire State"],
+        "description" : "Most of the state of New Hampshire."
+    },
+    "#FF004C" : {
+        "color" : "#FF004C",
+        "name" : "Coastal New Hampshire North",
+        "state" : "New Hampshire",
+        "districts" : ["New Hampshire State"],
+        "description" : "Area of New Hampshire granted under the original colonial charter of New Hampshire."
+    },
+    "#FF4A4C" : {
+        "color" : "#FF4A4C",
+        "name" : "Coastal New Hampshire South",
+        "state" : "New Hampshire",
+        "districts" : ["New Hampshire State"],
+        "description" : "Area of New Hampshire under the original colonial charter which was claimed by the Massachusetts Bay Colony."
+    },
+    "#FF884C" : {
+        "color" : "#FF884C",
+        "name" : "Southern New Hampshire",
+        "state" : "New Hampshire",
+        "districts" : ["New Hampshire State"],
+        "description" : "Area of New Hampshire once claimed by the Plymouth Bay Colony."
+    },
+    "#1ECE2E" : {
+        "color" : "#1ECE2E",
+        "name" : "Central Louisiana",
+        "state" : "Louisiana",
+        "districts" : ["Louisiana State"],
+        "description" : "Most of the state of Louisiana."
+    },
+    "#6DCE61" : {
+        "color" : "#6DCE61",
+        "name" : "Western Louisiana",
+        "state" : "Louisiana",
+        "districts" : ["Louisiana State"],
+        "description" : "Western part of Louisiana, west of the Calcasieu River and Red River."
+    },
+    "#65CE2E" : {
+        "color" : "#65CE2E",
+        "name" : "Baton Rouge District",
+        "state" : "Louisiana",
+        "districts" : ["Louisiana State"],
+        "description" : "Area of the state of Louisiana east of the Mississippi River, sometimes called the Florida Parishes."
+    },
+    "#C48C0B" : {
+        "color" : "#C48C0B",
+        "name" : "Coastal Mississippi",
+        "state" : "Mississippi",
+        "districts" : ["Mississippi State"],
+        "description" : "Coastal area of the state of Mississippi."
+    },
+    "#B51503" : {
+        "color" : "#B51503",
+        "name" : "Mobile District",
+        "state" : "Alabama",
+        "districts" : ["Alabama State"],
+        "description" : "Coastal area of the state of Alabama around Mobile."
+    },
+    "#FF2005" : {
+        "color" : "#FF2005",
+        "name" : "Southern Alabama",
+        "state" : "Alabama",
+        "districts" : ["Alabama State"],
+        "description" : "Southern portion of Alabama."
+    },
+    "#FF331F" : {
+        "color" : "#FF331F",
+        "name" : "Central Alabama",
+        "state" : "Alabama",
+        "districts" : ["Alabama State"],
+        "description" : "Central portion of Alabama."
+    },
+    "#FF2061" : {
+        "color" : "#FF2061",
+        "name" : "Northern Alabama",
+        "state" : "Alabama",
+        "districts" : ["Alabama State"],
+        "description" : "Northern portion of Alabama."
+    },
+    "#FEBA0E" : {
+        "color" : "#FEBA0E",
+        "name" : "Southern Mississippi",
+        "state" : "Mississippi",
+        "districts" : ["Mississippi State"],
+        "description" : "Southern portion of Mississippi."
+    },
+    "#FEBA55" : {
+        "color" : "#FEBA55",
+        "name" : "Central Mississippi",
+        "state" : "Mississippi",
+        "districts" : ["Mississippi State"],
+        "description" : "Central portion of Mississippi."
+    },
+    "#FEBA69" : {
+        "color" : "#FEBA69",
+        "name" : "Northern Mississippi",
+        "state" : "Mississippi",
+        "districts" : ["Mississippi State"],
+        "description" : "Northern portion of Mississippi."
+    },
+    "#FEFC88" : {
+        "color" : "#FEFC88",
+        "name" : "Mississippi Northern Rank",
+        "state" : "Mississippi",
+        "districts" : ["Mississippi State"],
+        "description" : "Northernmost area of Mississippi."
+    },
+    "#FF5961" : {
+        "color" : "#FF5961",
+        "name" : "Alabama Northern Rank South",
+        "state" : "Alabama",
+        "districts" : ["Alabama State"],
+        "description" : "Northernmost area of Alabama south of the Tennessee River."
+    },
+    "#FF618F" : {
+        "color" : "#FF618F",
+        "name" : "Alabama Northern Rank North",
+        "state" : "Alabama",
+        "districts" : ["Alabama State"],
+        "description" : "Northernmost area of Alabama north of the Tennessee River not including the area around Huntsville."
+    },
+    "#FF528F" : {
+        "color" : "#FF528F",
+        "name" : "Huntsville District",
+        "state" : "Alabama",
+        "districts" : ["Alabama State"],
+        "description" : "Area of north Alabama south of Huntsville and north of the Tennessee River."
+    },
+    "#008800" : {
+        "color" : "#008800",
+        "name" : "Central South Carolina",
+        "state" : "South Carolina",
+        "districts" : ["South Carolina State"],
+        "description" : "Most of the state of South Carolina."
+    },
+    "#2BEE37" : {
+        "color" : "#2BEE37",
+        "name" : "Northern South Carolina",
+        "state" : "South Carolina",
+        "districts" : ["South Carolina State"],
+        "description" : "Northern part of South Carolina."
+    },
+    "#52EE74" : {
+        "color" : "#52EE74",
+        "name" : "South Carolina Northern Triangle",
+        "state" : "South Carolina",
+        "districts" : ["South Carolina State"],
+        "description" : "Small area of land in northern South Carolina."
+    },
+    "#5B2D7C" : {
+        "color" : "#5B2D7C",
+        "name" : "Southern North Carolina",
+        "state" : "North Carolina",
+        "districts" : ["North Carolina State"],
+        "description" : "Southern part of North Carolina."
+    },
+    "#5B2DDB" : {
+        "color" : "#5B2DDB",
+        "name" : "Central North Carolina",
+        "state" : "North Carolina",
+        "districts" : ["North Carolina State"],
+        "description" : "Central portion of North Carolina."
+    },
+    "#5B65FF" : {
+        "color" : "#5B65FF",
+        "name" : "Northern North Carolina",
+        "state" : "North Carolina",
+        "districts" : ["North Carolina State"],
+        "description" : "Northern part of North Carolina."
+    },
+    "#1C90F4" : {
+        "color" : "#1C90F4",
+        "name" : "Central Virginia",
+        "state" : "Virginia",
+        "districts" : ["Virginia State"],
+        "description" : "Most of the state of Virginia."
+    },
+    "#1C65F4" : {
+        "color" : "#1C65F4",
+        "name" : "Western Virginia",
+        "state" : "Virginia",
+        "districts" : ["Virginia State"],
+        "description" : "Western part of the state of Virginia."
+    },
+    "#29ADDB" : {
+        "color" : "#29ADDB",
+        "name" : "Arlington Virginia",
+        "state" : "Virginia",
+        "districts" : ["Virginia State"],
+        "description" : "Arlington, Virginia, which was once part of the District of Columbia."
+    },
+    "#1097FF" : {
+        "color" : "#1097FF",
+        "name" : "Western Montana",
+        "state" : "Montana",
+        "districts" : ["Montana State"],
+        "description" : "Western portion of Montana."
+    },
+    "#105161" : {
+        "color" : "#105161",
+        "name" : "Northwestern Montana",
+        "state" : "Montana",
+        "districts" : ["Montana State"],
+        "description" : "Area of land in the northwestern part of Montana."
+    },
+    "#1078FF" : {
+        "color" : "#1078FF",
+        "name" : "Westernmost Montana",
+        "state" : "Montana",
+        "districts" : ["Montana State"],
+        "description" : "Area in the far western part of Montana."
+    },
+    "#1071FF" : {
+        "color" : "#1071FF",
+        "name" : "Lost Dakota",
+        "state" : "Montana",
+        "districts" : ["Montana State"],
+        "description" : "Very small area at the southernmost point in Montana which was briefly part of the Dakota Territory after creation of the Montana Territory."
+    },
+    "#12FF0F" : {
+        "color" : "#12FF0F",
+        "name" : "American Samoa",
+        "state" : "American Samoa",
+        "districts" : ["American Samoa"],
+        "description" : "American Samoa"
+    },
+    "#22FF12" : {
+        "color" : "#22FF12",
+        "name" : "Puerto Rico",
+        "state" : "Puerto Rico",
+        "districts" : ["Puerto Rico"],
+        "description" : "Puerto Rico"
+    },
+    "#9B2E86" : {
+        "color" : "#9B2E86",
+        "name" : "U.S. Virgin Islands",
+        "state" : "U.S. Virgin Islands",
+        "districts" : ["U.S. Virgin Islands"],
+        "description" : "U.S. Virgin Islands"
+    },
+    "#59BAF4" : {
+        "color" : "#59BAF4",
+        "name" : "Bermuda",
+        "state" : null,
+        "districts" : [],
+        "description" : "Island of Bermuda, once part of the Virginia Colony."
+    },
+    "#FF78A8" : {
+        "color" : "#FF78A8",
+        "name" : "Central Ontario",
+        "state" : null,
+        "districts" : ["Canada", "Ontario Province"],
+        "description" : "Central portion of the province of Ontario."
+    },
+    "#88BAEC" : {
+        "color" : "#88BAEC",
+        "name" : "Southern Ontario",
+        "state" : null,
+        "districts" : ["Canada", "Ontario Province"],
+        "description" : "Southern portion of the province of Ontario."
+    },
+    "#2AC68C" : {
+        "color" : "#2AC68C",
+        "name" : "Southernmost Ontario",
+        "state" : null,
+        "districts" : ["Canada", "Ontario Province"],
+        "description" : "Southernmost part of Ontario and Pelee Island."
+    },
+    "#2280FF" : {
+        "color" : "#2280FF",
+        "name" : "Illinois Northern Rank",
+        "state" : "Illinois",
+        "districts" : ["Illinois State"],
+        "description" : "Northernmost part of Illinois."
+    },
+    "#" : {
+        "color" : "#",
+        "name" : "Illinois",
+        "state" : "Illinois",
+        "districts" : ["Illinois State"],
+        "description" : "Illinois"
+    },
+    "#" : {
+        "color" : "#",
+        "name" : "Illinois",
+        "state" : "Illinois",
+        "districts" : ["Illinois State"],
+        "description" : "Illinois"
+    },
+    "#" : {
+        "color" : "#",
+        "name" : "Illinois",
+        "state" : "Illinois",
+        "districts" : ["Illinois State"],
+        "description" : "Illinois"
+    },
+    "#" : {
+        "color" : "#",
+        "name" : "Illinois",
+        "state" : "Illinois",
+        "districts" : ["Illinois State"],
+        "description" : "Illinois"
+    },
+    "#" : {
+        "color" : "#",
+        "name" : "Illinois",
+        "state" : "Illinois",
+        "districts" : ["Illinois State"],
+        "description" : "Illinois"
+    },
+    "#FF6D43" : {
+        "color" : "#FF6D43",
+        "name" : "New Bunswick",
+        "state" : null,
+        "districts" : ["New Brunswick Province"],
+        "description" : "New Brunswick"
+    },
+    "#7C6D8C" : {
+        "color" : "#7C6D8C",
+        "name" : "Nova Scotia",
+        "state" : null,
+        "districts" : ["Nova Scotia Province"],
+        "description" : "Nova Scotia"
+    },
+    "#7C6DFF" : {
+        "color" : "#7C6DFF",
+        "name" : "Prince Edward Island",
+        "state" : null,
+        "districts" : ["Prince Edward Island Province"],
+        "description" : "Prince Edward Island"
+    },
+    "#FF46A8" : {
+        "color" : "#FF46A8",
+        "name" : "Albany District",
+        "state" : "New York",
+        "districts" : ["New York State", "New Netherland"],
+        "description" : "Upstate New York along the Hudson River, around the city of Albany."
+    },
+    "#FF1DA8" : {
+        "color" : "#FF1DA8",
+        "name" : "Central Upstate New York",
+        "state" : "New York",
+        "districts" : ["New York State"],
+        "description" : "Most of upstate New York."
+    },
+    "#524AEC" : {
+        "color" : "#524AEC",
+        "name" : "Western Massachusetts",
+        "state" : "Massachusetts",
+        "districts" : ["Massachusetts State"],
+        "description" : "Western Massachusetts, west of the Connecticut River."
+    },
+    "#07BAEC" : {
+        "color" : "#07BAEC",
+        "name" : "Central Massachusetts",
+        "state" : "Massachusetts",
+        "districts" : ["Massachusetts State"],
+        "description" : "Massachusetts east of the Connecticut River and north of the Plymouth Bay region."
+    },
+    "#2774D5" : {
+        "color" : "#2774D5",
+        "name" : "Plymouth Bay Region",
+        "state" : "Massachusetts",
+        "districts" : ["Massachusetts State"],
+        "description" : "Area of Massachusetts historically in the Plymouth Bay Colony region."
+    },
+    "#3AF29A" : {
+        "color" : "#3AF29A",
+        "name" : "Massachusetts Islands",
+        "state" : "Massachusetts",
+        "districts" : ["Massachusetts State"],
+        "description" : "Islands to the south of Massachusetts, including the Buzzards Bay Islands, Martha's Vineyard, and Nantucket."
+    },
+    "#80AEAE" : {
+        "color" : "#80AEAE",
+        "name" : "Massachusetts Exchange",
+        "state" : "Massachusetts",
+        "districts" : ["Massachusetts State"],
+        "description" : "Area of land in Massachusetts recieved from Rhode Island in a land exchange."
+    },
+    "#6980EC" : {
+        "color" : "#6980EC",
+        "name" : "Massachusetts Marrimack",
+        "state" : "Massachusetts",
+        "districts" : ["Massachusetts State"],
+        "description" : "Area of Massachusetts around the Merrimack River."
+    },
+    "#B61DE1" : {
+        "color" : "#B61DE1",
+        "name" : "Boston Corner",
+        "state" : "New York",
+        "districts" : ["New York State"],
+        "description" : "Triangle of land near the Massachusetts-Connecticut-New York tripoint which was ceded from Massachusetts to New York."
+    },
+    "#0094FF" : {
+        "color" : "#0094FF",
+        "name" : "Connecticut Survey Line",
+        "state" : "Massachusetts",
+        "districts" : ["Massachusetts State"],
+        "description" : "Small region of land on the Connecticut-Massachusetts border which was once claimed by Connecticut under a survey line."
+    },
+    "#4CB200" : {
+        "color" : "#4CB200",
+        "name" : "Western Connecticut",
+        "state" : "Connecticut",
+        "districts" : ["Connecticut State"],
+        "description" : "Western portion of Connecticut, west of the Connecticut River."
+    },
+    "#4CFF00" : {
+        "color" : "#4CFF00",
+        "name" : "Eastern Connecticut",
+        "state" : "Connecticut",
+        "districts" : ["Connecticut State"],
+        "description" : "Eastern portion of Connecticut, east of the Connecticut River."
+    },
+    "#B92B49" : {
+        "color" : "#B92B49",
+        "name" : "Central Rhode Island",
+        "state" : "Rhode Island",
+        "districts" : ["Rhode Island State"],
+        "description" : "Most of the state of Rhode Island."
+    },
+    "#37B768" : {
+        "color" : "#37B768",
+        "name" : "Northwestern Connecticut",
+        "state" : "Connecticut",
+        "districts" : ["Connecticut State"],
+        "description" : "Northern part of western Connecticut on the border with Massachusetts."
+    },
+    "#4CFF93" : {
+        "color" : "#4CFF93",
+        "name" : "Northeastern Connecticut",
+        "state" : "Connecticut",
+        "districts" : ["Connecticut State"],
+        "description" : "Northern part of eastern Connecticut on the border with Massachusetts."
+    },
+    "#B246FF" : {
+        "color" : "#B246FF",
+        "name" : "Woodstock, Somers, and Enfield",
+        "state" : "Connecticut",
+        "districts" : ["Connecticut State"],
+        "description" : "Towns of Woodstock, Somers, and Enfield, settled by Massachusetts and ceded to Connecticut."
+    },
+    "#00943A" : {
+        "color" : "#00943A",
+        "name" : "South Long Meadow",
+        "state" : "Massachusetts",
+        "districts" : ["Massachusetts State"],
+        "description" : "Southern part of Long Meadow Town, Massachusetts. Claimed by Connecticut under the 1695 survey line."
+    },
+    "#379372" : {
+        "color" : "#379372",
+        "name" : "Suffield",
+        "state" : "Connecticut",
+        "districts" : ["Connecticut State"],
+        "description" : "Most of the town of Suffield, settled by Massachusetts and ceded to Connecticut."
+    },
+    "#B271FF" : {
+        "color" : "#B271FF",
+        "name" : "East Southwick Jog",
+        "state" : "Connecticut",
+        "districts" : ["Connecticut State"],
+        "description" : "Eastern part of the Southwick Jog, which was divided between Connecticut and Massachusetts. This area is today part of Suffield Town, Connecticut."
+    },
+    "#B21FFF" : {
+        "color" : "#B21FFF",
+        "name" : "West Southwick Jog",
+        "state" : "Massachusetts",
+        "districts" : ["Massachusetts State"],
+        "description" : "Western part of the Southwick Jog, which was divided between Connecticut and Massachusetts. This area is today part of Southwick Town, Massachusetts."
+    },
+    "#B200FF" : {
+        "color" : "#B200FF",
+        "name" : "Stonington",
+        "state" : "Connecticut",
+        "districts" : ["Connecticut State"],
+        "description" : "Stonington, settled by Massachusetts from 1658-1665, then ceded to Connecticut. Today constitutes Stonington Town and North Stonington Town."
+    },
+    "#28CF74" : {
+        "color" : "#28CF74",
+        "name" : "West Saybrook",
+        "state" : "Connecticut",
+        "districts" : ["Connecticut State", "Saybrook Colony"],
+        "description" : "Part of Saybrook Colony west of the Connecticut River."
+    },
+    "#00D159" : {
+        "color" : "#00D159",
+        "name" : "East Saybrook",
+        "state" : "Connecticut",
+        "districts" : ["Connecticut State", "Saybrook Colony"],
+        "description" : "Part of Saybrook Colony east of the Connecticut River."
+    },
+    "#FFD800" : {
+        "color" : "#FFD800",
+        "name" : "New Haven",
+        "state" : "Connecticut",
+        "districts" : ["Connecticut State", "New Haven Colony"],
+        "description" : "Central area of New Haven Colony in Connecticut."
+    },
+    "#C225BA" : {
+        "color" : "#C225BA",
+        "name" : "South Oblong",
+        "state" : "New York",
+        "districts" : ["New York State", "The Oblong"],
+        "description" : "Southern portion of a strip of land ceded from Connecticut to New York in 1731."
+    },
+    "#8C25BA" : {
+        "color" : "#8C25BA",
+        "name" : "North Oblong",
+        "state" : "New York",
+        "districts" : ["New York State", "The Oblong"],
+        "description" : "Northern portion of a strip of land ceded from Connecticut to New York in 1731."
+    },
+    "#CD5B21" : {
+        "color" : "#CD5B21",
+        "name" : "Block Island and Narrangasett Bay Islands",
+        "state" : "Rhode Island",
+        "districts" : ["Rhode Island State"],
+        "description" : "Block Island south of mainland Rhode Island, and the islands of Narrangasett Bay."
+    },
+    "#CD7446" : {
+        "color" : "#CD7446",
+        "name" : "Eastern Rhode Island",
+        "state" : "Rhode Island",
+        "districts" : ["Rhode Island State"],
+        "description" : "Eastern part of Rhode Island."
+    },
+    "#CD7478" : {
+        "color" : "#CD7478",
+        "name" : "East Providence",
+        "state" : "Rhode Island",
+        "districts" : ["Rhode Island State"],
+        "description" : "Town of East Providence, Rhode Island, exchanged from Massachusetts to Rhode Island in 1862."
+    },
+    "#FF4E52" : {
+        "color" : "#FF4E52",
+        "name" : "Erie Triangle",
+        "state" : "Pennsylvania",
+        "districts" : ["Pennsylvania State"],
+        "description" : "Area of land in the northwest of Pennsylvania on the Lake Erie coast."
+    },
+    "#AD971F" : {
+        "color" : "#AD971F",
+        "name" : "Eastern Pennsylvania",
+        "state" : "Pennsylvania",
+        "districts" : ["Pennsylvania State"],
+        "description" : "Eastern portion of Pennsylvania between the Delaware River and Susquehanna River."
+    },
+    "#0B7E8F" : {
+        "color" : "#0B7E8F",
+        "name" : "New Castle County",
+        "state" : "Delaware",
+        "districts" : ["Delaware State"],
+        "description" : "The northern county of Delaware."
+    },
+    "#04B48C" : {
+        "color" : "#04B48C",
+        "name" : "Kent County",
+        "state" : "Delaware",
+        "districts" : ["Delaware State"],
+        "description" : "The middle county of Delaware."
+    },
+    "#084F61" : {
+        "color" : "#084F61",
+        "name" : "Sussex County",
+        "state" : "Delaware",
+        "districts" : ["Delaware State"],
+        "description" : "The southern county of Delaware."
+    },
+    "#F939A2" : {
+        "color" : "#F939A2",
+        "name" : "Manhattan",
+        "state" : "New York",
+        "districts" : ["New York State", "New Netherland"],
+        "description" : ""
+    },
+    "#3D9B8C" : {
+        "color" : "#3D9B8C",
+        "name" : "Staten Island",
+        "state" : "New York",
+        "districts" : ["New York State", "New Netherland"],
+        "description" : ""
+    },
+    "#69971F" : {
+        "color" : "#69971F",
+        "name" : "Northern Pennsylvania",
+        "state" : "Pennsylvania",
+        "districts" : ["Pennsylvania State"],
+        "description" : "Northern part of Pennsylvania, east of French Creek and the Allegany River, once claimed by Connecticut."
+    },
+    "#69741F" : {
+        "color" : "#69741F",
+        "name" : "Northwest Pennsylvania",
+        "state" : "Pennsylvania",
+        "districts" : ["Pennsylvania State"],
+        "description" : "Area in northwestern Pennsylvania, west of French Creek and the Allegany River and not including the Erie Triangle, once claimed by Connecticut and Virginia."
+    },
+    "#883121" : {
+        "color" : "#883121",
+        "name" : "North Philadelphia",
+        "state" : "Pennsylvania",
+        "districts" : ["Pennsylvania State", "Philadelphia County"],
+        "description" : "Northern part of the city of Philadelphia, Pennsylvania."
+    },
+    "#D93121" : {
+        "color" : "#D93121",
+        "name" : "South Philadelphia",
+        "state" : "Pennsylvania",
+        "districts" : ["Pennsylvania State"],
+        "description" : "Southern part of the city of Philadelphia, Pennsylvania."
+    },
+    "#FF0D48" : {
+        "color" : "#FF0D48",
+        "name" : "Southern Maryland",
+        "state" : "Maryland",
+        "districts" : ["Maryland State"],
+        "description" : "Southern portion of the state of Maryland."
+    },
+    "#FF4248" : {
+        "color" : "#FF4248",
+        "name" : "Northern Maryland",
+        "state" : "Maryland",
+        "districts" : ["Maryland State"],
+        "description" : "Northern portion of the state of Maryland."
+    },
+    "#B0514D" : {
+        "color" : "#B0514D",
+        "name" : "Kent Island",
+        "state" : "Maryland",
+        "districts" : ["Maryland State"],
+        "description" : ""
+    },
+    "#C2B51A" : {
+        "color" : "#C2B51A",
+        "name" : "Northern Washington DC",
+        "state" : "District of Columbia",
+        "districts" : ["District of Columbia"],
+        "description" : "Northern part of the District of Columbia."
+    },
+    "#78B51A" : {
+        "color" : "#78B51A",
+        "name" : "Southern Washington DC",
+        "state" : "District of Columbia",
+        "districts" : ["District of Columbia"],
+        "description" : "Southern part of the District of Columbia."
+    },
+    "#A34FBF" : {
+        "color" : "#A34FBF",
+        "name" : "Eastern Long Island",
+        "state" : "New York",
+        "districts" : ["New York State"],
+        "description" : "Eastern part of Long Island, New York."
+    },
+    "#0771B6" : {
+        "color" : "#0771B6",
+        "name" : "Southern Quebec",
+        "state" : null,
+        "districts" : ["Quebec Province"],
+        "description" : "Area of Quebec south of the St. Lawrence River."
+    },
+    "#" : {
+        "color" : "#",
+        "name" : "",
+        "state" : "",
+        "districts" : [" State"],
+        "description" : ""
+    },
+    "#" : {
+        "color" : "#",
+        "name" : "",
+        "state" : "",
+        "districts" : [" State"],
+        "description" : ""
+    },
+    "#" : {
+        "color" : "#",
+        "name" : "",
+        "state" : "",
+        "districts" : [" State"],
+        "description" : ""
+    },
+    "#" : {
+        "color" : "#",
+        "name" : "",
+        "state" : "",
+        "districts" : [" State"],
+        "description" : ""
+    },
+    "#" : {
+        "color" : "#",
+        "name" : "",
+        "state" : "",
+        "districts" : [" State"],
+        "description" : ""
+    },
+    "#" : {
+        "color" : "#",
+        "name" : "",
+        "state" : "",
+        "districts" : [" State"],
+        "description" : ""
+    },
+    "#" : {
+        "color" : "#",
+        "name" : "",
+        "state" : "",
+        "districts" : [" State"],
+        "description" : ""
+    },
+    "#" : {
+        "color" : "#",
+        "name" : "",
+        "state" : "",
+        "districts" : [" State"],
+        "description" : ""
+    },
+    "#" : {
+        "color" : "#",
+        "name" : "",
+        "state" : "",
+        "districts" : [" State"],
+        "description" : ""
+    },
+    "#" : {
+        "color" : "#",
+        "name" : "",
+        "state" : "",
+        "districts" : [" State"],
+        "description" : ""
+    },
+    "#" : {
+        "color" : "#",
+        "name" : "",
+        "state" : "",
+        "districts" : [" State"],
+        "description" : ""
+    }
+}
