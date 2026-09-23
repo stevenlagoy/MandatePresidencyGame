@@ -285,3 +285,11 @@ states_data = {
         'neighbors': ['72',],
     },
 }
+
+states_abbreviations = {
+    state['name']: state['abbreviation'] for state in states_data.values()
+}
+
+abbreviations_states = {
+    state['abbreviation']: state['name'] for state in states_data.values()
+}

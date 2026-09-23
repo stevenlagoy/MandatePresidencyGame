@@ -1,7 +1,4 @@
-import csv
-import json
 import random
-from io import StringIO
 
 urban_areas_data = {
     "00037": {
