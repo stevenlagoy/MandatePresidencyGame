@@ -3,7 +3,7 @@ package com.stevenlagoy.presidency.map
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.politics.Party
-import com.stevenlagoy.presidency.politics.election.Election
+import com.stevenlagoy.presidency.politics.elections.Election
 
 interface HasPolitics : JSONSerializable<HasPolitics> {
     val partiesPresent: MutableSet<Party>

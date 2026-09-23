@@ -2,22 +2,24 @@ package com.stevenlagoy.presidency.politics.government
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.characters.PoliticalActor
+import com.stevenlagoy.presidency.core.Engine
+import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.map.HasPolitics
-import com.stevenlagoy.presidency.politics.ElectionResult
 import com.stevenlagoy.presidency.politics.Party
-import com.stevenlagoy.presidency.politics.election.Election
+import com.stevenlagoy.presidency.politics.elections.Election
 
 class Chamber(
+    engine: Engine,
     chamberName: String,
     memberTitle: String,
     federalLevel: FederalLevel,
     isUpperChamber: Boolean = false,
     termLength: Int,
     var nextElection: Election,
-    pastElectionResults: MutableList<ElectionResult>,
+    pastElections: MutableSet<Election>,
     seats: Int,
-    var members: MutableList<PoliticalActor>,
-) : HasPolitics {
+    var members: MutableSet<PoliticalActor>,
+) : HasPolitics, EngineBound(engine) {
 
     var chamberName = chamberName
         internal set
@@ -34,7 +36,7 @@ class Chamber(
     var termLength = termLength
         internal set
 
-    override var pastElectionResults = pastElectionResults
+    override var pastElections = pastElections
         internal set
 
     var seats = seats // May be vacancies, so members.size does not always match number of seats
@@ -43,7 +45,7 @@ class Chamber(
     override val partiesPresent: MutableSet<Party>
         get() = members.mapNotNull { it.partyAffiliation }.toMutableSet()
 
-    override val partyControlFactors: List<(party: Party) -> Double> = listOf(
+    override val partyControlFactors: Set<(Party) -> Double> = setOf(
         // Proportion of seats
         { party -> 0.75 *
             (members.count { it.partyAffiliation == party }.toDouble() / seats)
@@ -77,9 +79,9 @@ class Chamber(
         federalLevel = FederalLevel.valueOf(json.requireString("federalLevel", "federal_level"))
         isUpperChamber = json.requireBoolean("isUpperChamber")
         termLength = json.requireInt("termLength")
-        pastElectionResults.clear()
-        pastElectionResults.addAll(json.requireArray("pastElectionResults", "past_election_results").filterIsInstance<JSONObject>().map {
-            ElectionResult(it)
+        pastElections.clear()
+        pastElections.addAll(json.requireArray("pastElectionResults", "past_election_results").filterIsInstance<JSONObject>().map {
+            Election(engine, it)
         })
         seats = json.requireInt("seats")
     }

@@ -2,7 +2,7 @@ package com.stevenlagoy.presidency.characters.attributes
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.JSONSerializable
-import com.stevenlagoy.presidency.politics.IssuePosition
+import com.stevenlagoy.presidency.politics.Issue.IssuePosition
 
 class IssuePositionMap(
     val positions: MutableMap<IssuePosition, StanceValue>
@@ -30,6 +30,6 @@ class IssuePositionMap(
     ))
 
     override fun fromJson(json: JSONObject) = apply {
-        
+
     }
 }

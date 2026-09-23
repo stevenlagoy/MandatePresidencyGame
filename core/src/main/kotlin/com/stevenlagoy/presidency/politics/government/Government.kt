@@ -8,19 +8,16 @@ import com.stevenlagoy.presidency.characters.attributes.finances.FinancialEntity
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.map.HasPartyPresence
-import com.stevenlagoy.presidency.politics.ElectionResult
+import com.stevenlagoy.presidency.politics.elections.Election
 import com.stevenlagoy.presidency.politics.Party
 
-/**
- * @property pastElectionResults Elections for positions not covered by any branch. Use branch electoral history for other purposes.
- */
 class Government(
     engine: Engine,
     val name: String = "",
     val executiveBranch: ExecutiveBranch = ExecutiveBranch(),
     val legislativeBranch: LegislativeBranch = LegislativeBranch(),
     val judicialBranch: JudicialBranch = JudicialBranch(),
-    val pastElectionResults: MutableList<ElectionResult> = mutableListOf(),
+    val pastElections: MutableList<Election> = mutableListOf(),
     override val balanceSheet: BalanceSheet = BalanceSheet(engine),
     override val cashAccount: CashAccount = CashAccount(engine),
 ) : FinancialEntity, HasPartyPresence, EngineBound(engine), JSONSerializable<Government> {

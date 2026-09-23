@@ -1,8 +1,8 @@
 package com.stevenlagoy.presidency.politics
 
 import com.stevenlagoy.presidency.characters.PoliticalActor
-import com.stevenlagoy.presidency.map.MapEntity
-import com.stevenlagoy.presidency.map.State
+import com.stevenlagoy.presidency.map.entities.MapEntity
+import com.stevenlagoy.presidency.map.entities.StateEquivalent
 import com.stevenlagoy.presidency.politics.conventions.Convention
 import java.io.File
 import kotlin.uuid.ExperimentalUuidApi
@@ -27,6 +27,6 @@ class Party(
 
     var nationalGoverningBody: PartyGoverningBody? = null
     val headquarters = nationalGoverningBody?.headquarters
-    var stateGoverningBodies: Map<State, PartyGoverningBody> = mapOf()
+    var stateGoverningBodies: Map<StateEquivalent, PartyGoverningBody> = mapOf()
     var localGoverningBodies: Map<MapEntity, PartyGoverningBody> = mapOf()
 }

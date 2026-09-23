@@ -3,7 +3,7 @@ package com.stevenlagoy.presidency.politics;
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
-import com.stevenlagoy.presidency.politics.election.ElectionManager;
+import com.stevenlagoy.presidency.politics.elections.ElectionManager;
 import com.stevenlagoy.presidency.politics.government.GovernmentManager;
 import org.jetbrains.annotations.NotNull;
 

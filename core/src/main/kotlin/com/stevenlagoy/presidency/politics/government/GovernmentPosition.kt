@@ -5,8 +5,8 @@ import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.characters.PoliticalActor
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
-import com.stevenlagoy.presidency.map.MapEntity
-import com.stevenlagoy.presidency.map.Nation
+import com.stevenlagoy.presidency.map.entities.MapEntity
+import com.stevenlagoy.presidency.map.entities.Nation
 import kotlin.uuid.ExperimentalUuidApi
 
 @OptIn(ExperimentalUuidApi::class)

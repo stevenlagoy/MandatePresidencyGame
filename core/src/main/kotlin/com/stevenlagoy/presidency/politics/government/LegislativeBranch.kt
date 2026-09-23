@@ -1,21 +1,21 @@
 package com.stevenlagoy.presidency.politics.government
 
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.presidency.politics.ElectionResult
+import com.stevenlagoy.presidency.politics.elections.Election
 import com.stevenlagoy.presidency.politics.Party
 
 class LegislativeBranch(
     val title: String = "",
     val chambers: Set<Chamber> = emptySet(),
     override val partiesPresent: MutableSet<Party> = mutableSetOf(),
-    override val pastElectionResults: MutableList<ElectionResult> = mutableListOf()
+    override val pastElections: MutableSet<Election> = mutableSetOf(),
 ) : GovernmentBranch() {
 
     val upperChamber: Chamber? get() = chambers.find { it.isUpperChamber }
 
     fun isPartyMajority(party: Party): Boolean = chambers.all { it.isPartyMajority(party) }
 
-    override val partyControlFactors: List<(party: Party) -> Double> = listOf(
+    override val partyControlFactors: Set<(party: Party) -> Double> = setOf(
         // Each chamber
         { party -> 0.8 *
             (chambers.fold(0.0) { acc, it -> acc + it.getPartyControl(party) } / chambers.size)

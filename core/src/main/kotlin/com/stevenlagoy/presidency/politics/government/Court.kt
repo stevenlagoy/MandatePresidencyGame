@@ -3,14 +3,14 @@ package com.stevenlagoy.presidency.politics.government
 import com.stevenlagoy.presidency.characters.PoliticalActor
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
-import com.stevenlagoy.presidency.map.Municipality
+import com.stevenlagoy.presidency.map.entities.Place
 
 class Court(
     engine: Engine,
     fullName: String = "",
     commonName: String = "",
     citation: String = "",
-    _basis: Municipality? = null,
+    _basis: Place? = null,
     val judges: MutableList<PoliticalActor?> = mutableListOf(),
     apellateCourt: Court? = null,
     lowerCourts: Set<Court> = emptySet(),
@@ -31,7 +31,7 @@ class Court(
     /**
      * Location in which this court is based.
      */
-    lateinit var basis: Municipality
+    lateinit var basis: Place
         internal set
 
     /**

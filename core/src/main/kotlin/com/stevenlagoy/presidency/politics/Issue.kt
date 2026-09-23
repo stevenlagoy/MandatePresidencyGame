@@ -28,4 +28,31 @@ open class Issue(
         subissues = json.findJson("subissues").get().let { it.requireArray().mapNotNull { issue -> engine.POLITICS_MANAGER.ISSUE_MANAGER.matchIssue(issue as String).getOrNull() }}.toSet()
     }
 
+    class IssuePosition (
+        engine: Engine,
+        var issue: Issue,
+        var title: String = "",
+        var description: String = title,
+        var alignment: PoliticalAlignment = PoliticalAlignment(),
+    ) : JSONSerializable<IssuePosition>, EngineBound(engine) {
+
+        constructor(engine: Engine, issue: Issue, json: JSONObject) : this(engine, issue) {
+            fromJson(json)
+        }
+
+        override fun toJson() = JSONObject(title, listOf(
+            JSONObject("issue", issue.title),
+            JSONObject("title", title),
+            JSONObject("description", description),
+            alignment.toJson().apply { key = "alignment" },
+        ))
+
+        override fun fromJson(json: JSONObject) = apply  {
+            issue = engine.POLITICS_MANAGER.ISSUE_MANAGER.matchIssue(json.requireString("issue")).get()
+            title = json.requireString("title")
+            description = json.requireString("description")
+            alignment.fromJson(json.requireJson("alignment"))
+        }
+
+    }
 }

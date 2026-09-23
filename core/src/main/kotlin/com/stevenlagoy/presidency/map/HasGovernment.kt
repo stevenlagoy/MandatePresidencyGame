@@ -2,8 +2,9 @@ package com.stevenlagoy.presidency.map
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.core.Engine
+import com.stevenlagoy.presidency.map.entities.Place
 import com.stevenlagoy.presidency.politics.Party
-import com.stevenlagoy.presidency.politics.election.Election
+import com.stevenlagoy.presidency.politics.elections.Election
 import com.stevenlagoy.presidency.politics.government.Government
 
 /**
@@ -15,7 +16,7 @@ import com.stevenlagoy.presidency.politics.government.Government
  */
 interface HasGovernment : HasPartyPresence {
     val government: Government
-    var capital: Municipality
+    var capital: Place
     override val partiesPresent: MutableSet<Party>
     override val partyCloutFactors: Set<(party: Party) -> Double>
     val elections: MutableSet<Election>
@@ -34,7 +35,7 @@ interface HasGovernment : HasPartyPresence {
 
     fun populateFromJson(json: JSONObject, engine: Engine) {
         if (json.hasKey("government")) government.fromJson(json.requireJson("government"))
-        capital = engine.MAP_MANAGER.matchMunicipality(json.findString(listOf("capital", "countySeat", "county_seat")) { "" }!!).get()
+        capital = engine.MAP_MANAGER.matchPlace(json.findString(listOf("capital", "countySeat", "county_seat")) { "" }!!).get()
         elections.clear()
         json.requireJson("elections").forEach { entry -> elections.add(Election(engine, entry as JSONObject)) }
         partiesPresent.clear()

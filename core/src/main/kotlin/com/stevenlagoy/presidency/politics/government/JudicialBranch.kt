@@ -2,7 +2,7 @@ package com.stevenlagoy.presidency.politics.government
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.politics.Party
-import com.stevenlagoy.presidency.politics.election.Election
+import com.stevenlagoy.presidency.politics.elections.Election
 
 class JudicialBranch(
     override val partiesPresent: MutableSet<Party> = mutableSetOf(),
