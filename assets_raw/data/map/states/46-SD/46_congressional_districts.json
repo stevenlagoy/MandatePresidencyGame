@@ -1,11 +1,14 @@
 {
-    "4600" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "South Dakota's at-large congressional district",
-        "state" : "South Dakota",
-        "districtNumber" : 0,
-        "officeID" : "4600",
-        "descriptors" : []
+    "4600": {
+        "name": "South Dakota's at-large congressional district",
+        "state": "South Dakota",
+        "districtNumber": 0,
+        "officeID": "SD00",
+        "geoID": "4600",
+        "color": "#d472a6",
+        "descriptors": [
+            "SOUTH DAKOTA"
+        ],
+        "congressionalSession": 119
     }
 }

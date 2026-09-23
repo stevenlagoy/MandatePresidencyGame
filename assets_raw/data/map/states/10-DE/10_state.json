@@ -2,9 +2,81 @@
     "FIPS" : "10",
     "commonName" : "Delaware",
     "fullName" : "State of Delaware",
-    "flagFile" : "delaware_flag.png",
     "abbreviation" : "DE",
-    "demonym" : "Delawarean",
+    "type" : "state",
+    "demonymicNoun" : "Delawarean",
+    "demonymicPluralNoun" : "Delawareans",
+    "demonymicAdjective" : "Delawarean",
+    "symbols" : {
+        "nicknames" : [
+            "The First State",
+            "Small Wonder",
+            "Blue Hen State",
+            "Diamond State",
+            "Corporate Capital",
+            "Chemical Capital of the World",
+            "Peach State"
+        ],
+        "flag" : {
+            "name" : "Flag of Delaware",
+            "description" : "A background of colonial blue surrounding a diamond of buff in which diamond is placed the correct coat of arms of the State. The words, \"December 7, 1787,\" inscribed underneath.",
+            "symbolism" : "Blue and buff are the colors of the uniform of General George Washington. The design inside the diamond is the coat of arms of Delaware. The date is the day on which Delaware became the first state to ratify the United States Constitution.",
+            "file" : "delaware_flag.png"
+        },
+        "seal" : {
+            "name" : "Great seal of the state of Delaware",
+            "description" : "The Coat of arms of Delaware with \"GREAT SEAL OF THE STATE OF DELAWARE\" around the border, as well as the years \"1704,\" \"1776,\" and \"1787.\"",
+            "symbolism" : "The year 1704 represents the establishment of the General Assembly of the Lower Counties on the Delaware Bay. The year 1776 represents Separation Day, when the colonial General Assembly declared Delaware an independent state. The year 1787 represents Delaware Day, when the state ratified the United States Constitution.",
+            "file" : "delaware_seal.png"
+        },
+        "coat_of_arms" : {
+            "name" : "Coat of arms of the State of Delaware",
+            "description" : "A shield or emblazoned: Party per fess, or and argent, the first charged with a garb (wheat sheaf) in bend dexter and an ear of maize (Indian Corn) in bend sinister, both proper; the second charged with an ox statant, ruminating, proper; fess, wavy azure, supporters on the dexter a husbandman with a hilling hoe, on the sinister a rifleman armed and accoutered at ease. Crest, on a wreath azure and argent, a ship under full sail, proper. Below a banner argent bordered azure with the words \"LIBERTY AND INDEPENDENCE\" engraved thereon azure.",
+            "symbolism" : "The coat of arms is a shield of horizontal orange, blue, and white stripes. The orange strip has a sheaf of wheat, coming from the seal of Sussex County and signifying agricultural vitality, as well as an ear of corn coming from the seal of Kent County and symbolizing the state's agricultural economy. The blue stripe represents the Delaware River. The white stripe has an ox standing on grass representing animal husbandry. Above the shield is a ship, a symbol of New Castle County shipbuilding and Delaware coastal commerce. The farmer with hoe on the left represents farming. The militiaman with musket on the right represents the importance of the citizen-soldier to maintenance of American liberties. The banner at the bottom has the state motto, \"Liberty and Independence,\" provided by the Order of the Cincinnati after the Revolutionary War.",
+            "file" : "delaware_coa.png"
+        },
+        "mottos" : [
+            {
+                "motto" : "Liberty and Independence"
+            }
+        ],
+        "fruit" : "strawberry",
+        "bird" : "Delaware Blue Hen",
+        "bug" : "lady bug",
+        "tree" : "American holly",
+        "flower" : "peach blossom",
+        "fish" : "weakfish",
+        "herb" : "sweet goldenrod",
+        "butterfly" : "eastern tiger swallowtail",
+        "marine animal" : "horseshoe crab",
+        "macroinvertibrate" : "stonefly",
+        "wildlife animal" : "grey fox",
+        "sea turtle" : "loggerhead turtle",
+        "dog" : "rescue dogs",
+        "dragonfly" : "blue dasher",
+        "migratory bird" : "red knot",
+        "sea shell" : "channeled whelk",
+        "dinosaur" : "dryptosauridae",
+        "mineral" : "sillimanite",
+        "fossil" : "belemnite",
+        "soil" : "Greenwich loam",
+        "song" : "\"Our Delaware\"",
+        "colors" : [
+            "colonial blue",
+            "buff"
+        ],
+        "dessert" : "peach pie",
+        "beverage" : "milk",
+        "cocktail" : "orange crush",
+        "star" : "TYC 3429-697-1",
+        "tall ship" : "*Kalmar Nyckel*",
+        "sport" : "bicycling",
+        "historical aircraft" : "Bellanca Cruisair",
+        "licence plate" : "Delaware license plate",
+        "quarter" : "State quarter featuring Caesar Rodney on horseback and caption, \"The First State.\"",
+        "attack submarine" : "USS *Delaware* (SSN-791)"
+    },
+
     "nickname" : "First State",
     "motto" : "Liberty and independence",
     "capital" : "Dover",
@@ -18,47 +90,110 @@
     "allowedSubdivisionTypes" : [
         "Census County Division"
     ],
-    "allowedPlaceTypes" : [
-        "City",
-        "Town",
-        "Census-Designated Place"
+    "placeTypes" : [
+        {
+            "placeCategory" : "City",
+            "name" : "City",
+            "count" : 10
+        },
+        {
+            "placeCategory" : "Town",
+            "name" : "Town",
+            "count" : 44
+        },
+        {
+            "placeCategory" : "Village",
+            "name" : "Village",
+            "count" : 3
+        },
+        {
+            "placeCategory" : "Census-Designated Place",
+            "name" : "CDP"
+        }
     ],
     "government" : {
-        "name" : "",
-        "constituency" : "",
-        "federalLevel" : "",
-        "constitution" : "",
+        "name" : "Government of Delaware",
+        "constitution" : "Constitution of the State of Delaware",
         "branches" : {
             "executiveBranch" : {
                 "positions" : {
-                    "" : {
-                        "title" : ""
+                    "governor" : {
+                        "title" : "Governor of Delaware"
+                    },
+                    "lieutenant_governor" : {
+                        "title" : "Lieutenant Governor of Delaware"
+                    },
+                    "attorney_general" : {
+                        "title" : "Attorney General of Delaware"
+                    },
+                    "treasurer" : {
+                        "title" : "Delaware State Treasurer"
+                    },
+                    "auditor" : {
+                        "title" : "Auditor of Accounts of Delaware"
+                    },
+                    "insurance_commissioner" : {
+                        "title" : "Delaware Insurance Commissioner"
                     }
                 }
             },
             "legislativeBranch" : {
-                "title" : "",
+                "title" : "Delaware General Assembly",
                 "chambers" : {
-                    "" : {
-                        "name" : "",
+                    "senate" : {
+                        "name" : "Delaware Senate",
                         "isUpperChamber" : true,
-                        "termLength" : 0,
+                        "termLength" : 4,
                         "nextElectionDate" : "",
-                        "seats" : 0,
+                        "seats" : 21,
                         "positions" : {
-                            "" : {
-                                "title" : ""
+                            "state_senator" : {
+                                "title" : "Delaware State Senator"
+                            },
+                            "senate_president" : {
+                                "title" : "President of the Delaware State Senate",
+                                "coincident" : "lieutenant_governor"
+                            },
+                            "senate_president_pro_tempore" : {
+                                "title" : "President Pro Tempore of the Delaware State Senate"
+                            },
+                            "majority_leader" : {
+                                "title" : "Majority Leader of the Delaware State Senate"
+                            },
+                            "minority_leader" : {
+                                "title" : "Minority Leader of the Delaware State Senate"
+                            },
+                            "majority_whip" : {
+                                "title" : "Majority Whip of the Delaware State Senate"
+                            },
+                            "minority_whip" : {
+                                "title" : "Minority Whip of the Delaware State Senate"
                             }
                         }
                     },
-                    "" : {
-                        "name" : "",
-                        "termLength" : 0,
+                    "house_of_representatives" : {
+                        "name" : "Delaware State House of Representatives",
+                        "termLength" : 2,
                         "nextElectionDate" : "",
-                        "seats" : 0,
+                        "seats" : 41,
                         "positions" : {
-                            "" : {
-                                "title" : ""
+                            "state_representative" : {
+                                "title" : "Delaware State Representative"
+                            },
+                            "house_speaker" : {
+                                "title" : "Speaker of the Delaware State House of Representatives"
+                            },
+                            "majority_leader" : {
+                                "title" : "Majority Leader of the Delaware State House of Representatives"
+                            },
+                            "minority_leader" : {
+                                "title" : "Minority Leader of the Delaware State House of Representatives"
+                            },
+                            "majority_whip" : {
+                                "title" : "Majority Whip of the Delaware State House of Representatives"
+                            },
+                            "minority_whip" : {
+                                "title" : "Minority Whip of the Delaware State House of Representatives"
                             }
                         }
                     }

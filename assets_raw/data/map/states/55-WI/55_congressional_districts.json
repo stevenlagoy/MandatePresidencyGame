@@ -1,74 +1,98 @@
 {
-    "5501" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Wisconsin's 1st congressional district",
-        "state" : "Wisconsin",
-        "districtNumber" : 1,
-        "officeID" : "5501",
-        "descriptors" : []
+    "5501": {
+        "name": "Wisconsin's 1st congressional district",
+        "state": "Wisconsin",
+        "districtNumber": 1,
+        "officeID": "WI01",
+        "geoID": "5501",
+        "color": "#df5343",
+        "descriptors": [
+            "WISCONSIN"
+        ],
+        "congressionalSession": 119
     },
-    "5502" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Wisconsin's 2nd congressional district",
-        "state" : "Wisconsin",
-        "districtNumber" : 2,
-        "officeID" : "5502",
-        "descriptors" : []
+    "5502": {
+        "name": "Wisconsin's 2nd congressional district",
+        "state": "Wisconsin",
+        "districtNumber": 2,
+        "officeID": "WI02",
+        "geoID": "5502",
+        "color": "#8ce069",
+        "descriptors": [
+            "WISCONSIN"
+        ],
+        "congressionalSession": 119
     },
-    "5503" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Wisconsin's 3rd congressional district",
-        "state" : "Wisconsin",
-        "districtNumber" : 3,
-        "officeID" : "5503",
-        "descriptors" : []
+    "5503": {
+        "name": "Wisconsin's 3rd congressional district",
+        "state": "Wisconsin",
+        "districtNumber": 3,
+        "officeID": "WI03",
+        "geoID": "5503",
+        "color": "#7c18ce",
+        "descriptors": [
+            "WISCONSIN"
+        ],
+        "congressionalSession": 119
     },
-    "5504" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Wisconsin's 4th congressional district",
-        "state" : "Wisconsin",
-        "districtNumber" : 4,
-        "officeID" : "5504",
-        "descriptors" : []
+    "5504": {
+        "name": "Wisconsin's 4th congressional district",
+        "state": "Wisconsin",
+        "districtNumber": 4,
+        "officeID": "WI04",
+        "geoID": "5504",
+        "color": "#d12844",
+        "descriptors": [
+            "WISCONSIN"
+        ],
+        "congressionalSession": 119
     },
-    "5505" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Wisconsin's 5th congressional district",
-        "state" : "Wisconsin",
-        "districtNumber" : 5,
-        "officeID" : "5505",
-        "descriptors" : []
+    "5505": {
+        "name": "Wisconsin's 5th congressional district",
+        "state": "Wisconsin",
+        "districtNumber": 5,
+        "officeID": "WI05",
+        "geoID": "5505",
+        "color": "#49a8df",
+        "descriptors": [
+            "WISCONSIN"
+        ],
+        "congressionalSession": 119
     },
-    "5506" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Wisconsin's 6th congressional district",
-        "state" : "Wisconsin",
-        "districtNumber" : 6,
-        "officeID" : "5506",
-        "descriptors" : []
+    "5506": {
+        "name": "Wisconsin's 6th congressional district",
+        "state": "Wisconsin",
+        "districtNumber": 6,
+        "officeID": "WI06",
+        "geoID": "5506",
+        "color": "#c539f0",
+        "descriptors": [
+            "WISCONSIN"
+        ],
+        "congressionalSession": 119
     },
-    "5507" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Wisconsin's 7th congressional district",
-        "state" : "Wisconsin",
-        "districtNumber" : 7,
-        "officeID" : "5507",
-        "descriptors" : []
+    "5507": {
+        "name": "Wisconsin's 7th congressional district",
+        "state": "Wisconsin",
+        "districtNumber": 7,
+        "officeID": "WI07",
+        "geoID": "5507",
+        "color": "#d84c5d",
+        "descriptors": [
+            "WISCONSIN"
+        ],
+        "congressionalSession": 119
     },
-    "5508" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Wisconsin's 8th congressional district",
-        "state" : "Wisconsin",
-        "districtNumber" : 8,
-        "officeID" : "5508",
-        "descriptors" : []
+    "5508": {
+        "name": "Wisconsin's 8th congressional district",
+        "state": "Wisconsin",
+        "districtNumber": 8,
+        "officeID": "WI08",
+        "geoID": "5508",
+        "color": "#d07352",
+        "descriptors": [
+            "WISCONSIN"
+        ],
+        "congressionalSession": 119
     }
 }

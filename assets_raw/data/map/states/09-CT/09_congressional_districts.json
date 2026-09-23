@@ -1,47 +1,74 @@
 {
-    "0901" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Connecticut's 1st congressional district",
-        "state" : "Connecticut",
-        "districtNumber" : 1,
-        "officeID" : "0901",
-        "descriptors" : []
+    "0901": {
+        "name": "Connecticut's 1st congressional district",
+        "state": "Connecticut",
+        "districtNumber": 1,
+        "officeID": "CT01",
+        "geoID": "0901",
+        "color": "#7720e2",
+        "descriptors": [
+            "CONNECTICUT"
+        ],
+        "congressionalSession": 119
     },
-    "0902" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Connecticut's 2nd congressional district",
-        "state" : "Connecticut",
-        "districtNumber" : 2,
-        "officeID" : "0902",
-        "descriptors" : []
+    "0902": {
+        "name": "Connecticut's 2nd congressional district",
+        "state": "Connecticut",
+        "districtNumber": 2,
+        "officeID": "CT02",
+        "geoID": "0902",
+        "color": "#9be436",
+        "descriptors": [
+            "CONNECTICUT"
+        ],
+        "congressionalSession": 119
     },
-    "0903" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Connecticut's 3rd congressional district",
-        "state" : "Connecticut",
-        "districtNumber" : 3,
-        "officeID" : "0903",
-        "descriptors" : []
+    "0903": {
+        "name": "Connecticut's 3rd congressional district",
+        "state": "Connecticut",
+        "districtNumber": 3,
+        "officeID": "CT03",
+        "geoID": "0903",
+        "color": "#dfd044",
+        "descriptors": [
+            "CONNECTICUT"
+        ],
+        "congressionalSession": 119
     },
-    "0904" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Connecticut's 4th congressional district",
-        "state" : "Connecticut",
-        "districtNumber" : 4,
-        "officeID" : "0904",
-        "descriptors" : []
+    "0904": {
+        "name": "Connecticut's 4th congressional district",
+        "state": "Connecticut",
+        "districtNumber": 4,
+        "officeID": "CT04",
+        "geoID": "0904",
+        "color": "#ca21ec",
+        "descriptors": [
+            "CONNECTICUT"
+        ],
+        "congressionalSession": 119
     },
-    "0905" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Connecticut's 5th congressional district",
+    "0905": {
+        "name": "Connecticut's 5th congressional district",
+        "state": "Connecticut",
+        "districtNumber": 5,
+        "officeID": "CT05",
+        "geoID": "0905",
+        "color": "#7dd0ba",
+        "descriptors": [
+            "CONNECTICUT"
+        ],
+        "congressionalSession": 119
+    },
+    "09ZZ": {
+        "name" : "Congressional District not defined",
         "state" : "Connecticut",
-        "districtNumber" : 5,
-        "officeID" : "0905",
-        "descriptors" : []
+        "districtNumber" : 0,
+        "officeID" : "CTZZ",
+        "geoID" : "09ZZ",
+        "color" : "#19B3CB",
+        "descriptors": [
+            "CONNECTICUT"
+        ],
+        "congressionalSession" : 119
     }
 }

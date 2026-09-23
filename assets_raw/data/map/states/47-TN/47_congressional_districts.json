@@ -1,83 +1,110 @@
 {
-    "4701" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Tennessee's 1st congressional district",
-        "state" : "Tennessee",
-        "districtNumber" : 1,
-        "officeID" : "4701",
-        "descriptors" : []
+    "4701": {
+        "name": "Tennessee's 1st congressional district",
+        "state": "Tennessee",
+        "districtNumber": 1,
+        "officeID": "TN01",
+        "geoID": "4701",
+        "color": "#2bc963",
+        "descriptors": [
+            "TENNESSEE"
+        ],
+        "congressionalSession": 119
     },
-    "4702" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Tennessee's 2nd congressional district",
-        "state" : "Tennessee",
-        "districtNumber" : 2,
-        "officeID" : "4702",
-        "descriptors" : []
+    "4702": {
+        "name": "Tennessee's 2nd congressional district",
+        "state": "Tennessee",
+        "districtNumber": 2,
+        "officeID": "TN02",
+        "geoID": "4702",
+        "color": "#6ed018",
+        "descriptors": [
+            "TENNESSEE"
+        ],
+        "congressionalSession": 119
     },
-    "4703" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Tennessee's 3rd congressional district",
-        "state" : "Tennessee",
-        "districtNumber" : 3,
-        "officeID" : "4703",
-        "descriptors" : []
+    "4703": {
+        "name": "Tennessee's 3rd congressional district",
+        "state": "Tennessee",
+        "districtNumber": 3,
+        "officeID": "TN03",
+        "geoID": "4703",
+        "color": "#3429d0",
+        "descriptors": [
+            "TENNESSEE"
+        ],
+        "congressionalSession": 119
     },
-    "4704" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Tennessee's 4th congressional district",
-        "state" : "Tennessee",
-        "districtNumber" : 4,
-        "officeID" : "4704",
-        "descriptors" : []
+    "4704": {
+        "name": "Tennessee's 4th congressional district",
+        "state": "Tennessee",
+        "districtNumber": 4,
+        "officeID": "TN04",
+        "geoID": "4704",
+        "color": "#ea15ee",
+        "descriptors": [
+            "TENNESSEE"
+        ],
+        "congressionalSession": 119
     },
-    "4705" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Tennessee's 5th congressional district",
-        "state" : "Tennessee",
-        "districtNumber" : 5,
-        "officeID" : "4705",
-        "descriptors" : []
+    "4705": {
+        "name": "Tennessee's 5th congressional district",
+        "state": "Tennessee",
+        "districtNumber": 5,
+        "officeID": "TN05",
+        "geoID": "4705",
+        "color": "#de6876",
+        "descriptors": [
+            "TENNESSEE"
+        ],
+        "congressionalSession": 119
     },
-    "4706" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Tennessee's 6th congressional district",
-        "state" : "Tennessee",
-        "districtNumber" : 6,
-        "officeID" : "4706",
-        "descriptors" : []
+    "4706": {
+        "name": "Tennessee's 6th congressional district",
+        "state": "Tennessee",
+        "districtNumber": 6,
+        "officeID": "TN06",
+        "geoID": "4706",
+        "color": "#2328d2",
+        "descriptors": [
+            "TENNESSEE"
+        ],
+        "congressionalSession": 119
     },
-    "4707" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Tennessee's 7th congressional district",
-        "state" : "Tennessee",
-        "districtNumber" : 7,
-        "officeID" : "4707",
-        "descriptors" : []
+    "4707": {
+        "name": "Tennessee's 7th congressional district",
+        "state": "Tennessee",
+        "districtNumber": 7,
+        "officeID": "TN07",
+        "geoID": "4707",
+        "color": "#34e846",
+        "descriptors": [
+            "TENNESSEE"
+        ],
+        "congressionalSession": 119
     },
-    "4708" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Tennessee's 8th congressional district",
-        "state" : "Tennessee",
-        "districtNumber" : 8,
-        "officeID" : "4708",
-        "descriptors" : []
+    "4708": {
+        "name": "Tennessee's 8th congressional district",
+        "state": "Tennessee",
+        "districtNumber": 8,
+        "officeID": "TN08",
+        "geoID": "4708",
+        "color": "#e2101e",
+        "descriptors": [
+            "TENNESSEE"
+        ],
+        "congressionalSession": 119
     },
-    "4709" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Tennessee's 9th congressional district",
-        "state" : "Tennessee",
-        "districtNumber" : 9,
-        "officeID" : "4709",
-        "descriptors" : []
+    "4709": {
+        "name": "Tennessee's 9th congressional district",
+        "state": "Tennessee",
+        "districtNumber": 9,
+        "officeID": "TN09",
+        "geoID": "4709",
+        "color": "#d768aa",
+        "descriptors": [
+            "TENNESSEE"
+        ],
+        "congressionalSession": 119
     }
 }

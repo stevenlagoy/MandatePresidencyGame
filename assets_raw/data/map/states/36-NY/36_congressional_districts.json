@@ -1,236 +1,314 @@
 {
-    "3601" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 1st congressional district",
-        "state" : "New York",
-        "districtNumber" : 1,
-        "officeID" : "3601",
-        "descriptors" : []
+    "3601": {
+        "name": "New York's 1st congressional district",
+        "state": "New York",
+        "districtNumber": 1,
+        "officeID": "NY01",
+        "geoID": "3601",
+        "color": "#c81e48",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3610" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 10th congressional district",
-        "state" : "New York",
-        "districtNumber" : 10,
-        "officeID" : "3610",
-        "descriptors" : []
+    "3610": {
+        "name": "New York's 10th congressional district",
+        "state": "New York",
+        "districtNumber": 10,
+        "officeID": "NY10",
+        "geoID": "3610",
+        "color": "#ac4ccc",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3611" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 11th congressional district",
-        "state" : "New York",
-        "districtNumber" : 11,
-        "officeID" : "3611",
-        "descriptors" : []
+    "3611": {
+        "name": "New York's 11th congressional district",
+        "state": "New York",
+        "districtNumber": 11,
+        "officeID": "NY11",
+        "geoID": "3611",
+        "color": "#e78365",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3612" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 12th congressional district",
-        "state" : "New York",
-        "districtNumber" : 12,
-        "officeID" : "3612",
-        "descriptors" : []
+    "3612": {
+        "name": "New York's 12th congressional district",
+        "state": "New York",
+        "districtNumber": 12,
+        "officeID": "NY12",
+        "geoID": "3612",
+        "color": "#be3ae2",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3613" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 13th congressional district",
-        "state" : "New York",
-        "districtNumber" : 13,
-        "officeID" : "3613",
-        "descriptors" : []
+    "3613": {
+        "name": "New York's 13th congressional district",
+        "state": "New York",
+        "districtNumber": 13,
+        "officeID": "NY13",
+        "geoID": "3613",
+        "color": "#dcb879",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3614" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 14th congressional district",
-        "state" : "New York",
-        "districtNumber" : 14,
-        "officeID" : "3614",
-        "descriptors" : []
+    "3614": {
+        "name": "New York's 14th congressional district",
+        "state": "New York",
+        "districtNumber": 14,
+        "officeID": "NY14",
+        "geoID": "3614",
+        "color": "#101dd1",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3615" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 15th congressional district",
-        "state" : "New York",
-        "districtNumber" : 15,
-        "officeID" : "3615",
-        "descriptors" : []
+    "3615": {
+        "name": "New York's 15th congressional district",
+        "state": "New York",
+        "districtNumber": 15,
+        "officeID": "NY15",
+        "geoID": "3615",
+        "color": "#d9a431",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3616" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 16th congressional district",
-        "state" : "New York",
-        "districtNumber" : 16,
-        "officeID" : "3616",
-        "descriptors" : []
+    "3616": {
+        "name": "New York's 16th congressional district",
+        "state": "New York",
+        "districtNumber": 16,
+        "officeID": "NY16",
+        "geoID": "3616",
+        "color": "#e175d4",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3617" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 17th congressional district",
-        "state" : "New York",
-        "districtNumber" : 17,
-        "officeID" : "3617",
-        "descriptors" : []
+    "3617": {
+        "name": "New York's 17th congressional district",
+        "state": "New York",
+        "districtNumber": 17,
+        "officeID": "NY17",
+        "geoID": "3617",
+        "color": "#de4032",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3618" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 18th congressional district",
-        "state" : "New York",
-        "districtNumber" : 18,
-        "officeID" : "3618",
-        "descriptors" : []
+    "3618": {
+        "name": "New York's 18th congressional district",
+        "state": "New York",
+        "districtNumber": 18,
+        "officeID": "NY18",
+        "geoID": "3618",
+        "color": "#dfc15e",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3619" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 19th congressional district",
-        "state" : "New York",
-        "districtNumber" : 19,
-        "officeID" : "3619",
-        "descriptors" : []
+    "3619": {
+        "name": "New York's 19th congressional district",
+        "state": "New York",
+        "districtNumber": 19,
+        "officeID": "NY19",
+        "geoID": "3619",
+        "color": "#38d340",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3602" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 2nd congressional district",
-        "state" : "New York",
-        "districtNumber" : 2,
-        "officeID" : "3602",
-        "descriptors" : []
+    "3602": {
+        "name": "New York's 2nd congressional district",
+        "state": "New York",
+        "districtNumber": 2,
+        "officeID": "NY02",
+        "geoID": "3602",
+        "color": "#54a3cb",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3620" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 20th congressional district",
-        "state" : "New York",
-        "districtNumber" : 20,
-        "officeID" : "3620",
-        "descriptors" : []
+    "3620": {
+        "name": "New York's 20th congressional district",
+        "state": "New York",
+        "districtNumber": 20,
+        "officeID": "NY20",
+        "geoID": "3620",
+        "color": "#cf6e36",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3621" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 21st congressional district",
-        "state" : "New York",
-        "districtNumber" : 21,
-        "officeID" : "3621",
-        "descriptors" : []
+    "3621": {
+        "name": "New York's 21st congressional district",
+        "state": "New York",
+        "districtNumber": 21,
+        "officeID": "NY21",
+        "geoID": "3621",
+        "color": "#ca69b7",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3622" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 22nd congressional district",
-        "state" : "New York",
-        "districtNumber" : 22,
-        "officeID" : "3622",
-        "descriptors" : []
+    "3622": {
+        "name": "New York's 22nd congressional district",
+        "state": "New York",
+        "districtNumber": 22,
+        "officeID": "NY22",
+        "geoID": "3622",
+        "color": "#ca2ee9",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3623" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 23rd congressional district",
-        "state" : "New York",
-        "districtNumber" : 23,
-        "officeID" : "3623",
-        "descriptors" : []
+    "3623": {
+        "name": "New York's 23rd congressional district",
+        "state": "New York",
+        "districtNumber": 23,
+        "officeID": "NY23",
+        "geoID": "3623",
+        "color": "#eb8a3b",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3624" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 24th congressional district",
-        "state" : "New York",
-        "districtNumber" : 24,
-        "officeID" : "3624",
-        "descriptors" : []
+    "3624": {
+        "name": "New York's 24th congressional district",
+        "state": "New York",
+        "districtNumber": 24,
+        "officeID": "NY24",
+        "geoID": "3624",
+        "color": "#3ca9d1",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3625" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 25th congressional district",
-        "state" : "New York",
-        "districtNumber" : 25,
-        "officeID" : "3625",
-        "descriptors" : []
+    "3625": {
+        "name": "New York's 25th congressional district",
+        "state": "New York",
+        "districtNumber": 25,
+        "officeID": "NY25",
+        "geoID": "3625",
+        "color": "#d63dd3",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3626" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 26th congressional district",
-        "state" : "New York",
-        "districtNumber" : 26,
-        "officeID" : "3626",
-        "descriptors" : []
+    "3626": {
+        "name": "New York's 26th congressional district",
+        "state": "New York",
+        "districtNumber": 26,
+        "officeID": "NY26",
+        "geoID": "3626",
+        "color": "#7c99ce",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3603" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 3rd congressional district",
-        "state" : "New York",
-        "districtNumber" : 3,
-        "officeID" : "3603",
-        "descriptors" : []
+    "3603": {
+        "name": "New York's 3rd congressional district",
+        "state": "New York",
+        "districtNumber": 3,
+        "officeID": "NY03",
+        "geoID": "3603",
+        "color": "#9e53e0",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3604" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 4th congressional district",
-        "state" : "New York",
-        "districtNumber" : 4,
-        "officeID" : "3604",
-        "descriptors" : []
+    "3604": {
+        "name": "New York's 4th congressional district",
+        "state": "New York",
+        "districtNumber": 4,
+        "officeID": "NY04",
+        "geoID": "3604",
+        "color": "#22ace2",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3605" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 5th congressional district",
-        "state" : "New York",
-        "districtNumber" : 5,
-        "officeID" : "3605",
-        "descriptors" : []
+    "3605": {
+        "name": "New York's 5th congressional district",
+        "state": "New York",
+        "districtNumber": 5,
+        "officeID": "NY05",
+        "geoID": "3605",
+        "color": "#4670d8",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3606" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 6th congressional district",
-        "state" : "New York",
-        "districtNumber" : 6,
-        "officeID" : "3606",
-        "descriptors" : []
+    "3606": {
+        "name": "New York's 6th congressional district",
+        "state": "New York",
+        "districtNumber": 6,
+        "officeID": "NY06",
+        "geoID": "3606",
+        "color": "#6644cb",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3607" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 7th congressional district",
-        "state" : "New York",
-        "districtNumber" : 7,
-        "officeID" : "3607",
-        "descriptors" : []
+    "3607": {
+        "name": "New York's 7th congressional district",
+        "state": "New York",
+        "districtNumber": 7,
+        "officeID": "NY07",
+        "geoID": "3607",
+        "color": "#dd2427",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3608" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 8th congressional district",
-        "state" : "New York",
-        "districtNumber" : 8,
-        "officeID" : "3608",
-        "descriptors" : []
+    "3608": {
+        "name": "New York's 8th congressional district",
+        "state": "New York",
+        "districtNumber": 8,
+        "officeID": "NY08",
+        "geoID": "3608",
+        "color": "#5b58e6",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     },
-    "3609" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New York's 9th congressional district",
-        "state" : "New York",
-        "districtNumber" : 9,
-        "officeID" : "3609",
-        "descriptors" : []
+    "3609": {
+        "name": "New York's 9th congressional district",
+        "state": "New York",
+        "districtNumber": 9,
+        "officeID": "NY09",
+        "geoID": "3609",
+        "color": "#6fca0e",
+        "descriptors": [
+            "NEW YORK"
+        ],
+        "congressionalSession": 119
     }
 }

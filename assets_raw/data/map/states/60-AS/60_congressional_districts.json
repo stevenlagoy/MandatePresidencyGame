@@ -1,11 +1,14 @@
 {
-    "6098" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "American Samoa's at-large congressional district",
-        "state" : "American Samoa",
-        "districtNumber" : 98,
-        "officeID" : "6098",
-        "descriptors" : []
+    "6098": {
+        "name": "American Samoa's at-large congressional district",
+        "state": "American Samoa",
+        "districtNumber": 98,
+        "officeID": "AS98",
+        "geoID": "6098",
+        "color": "#7495ca",
+        "descriptors": [
+            "AMERICAN SAMOA"
+        ],
+        "congressionalSession": 119
     }
 }

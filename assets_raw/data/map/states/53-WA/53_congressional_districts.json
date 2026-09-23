@@ -1,92 +1,122 @@
 {
-    "5301" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Washington's 1st congressional district",
-        "state" : "Washington",
-        "districtNumber" : 1,
-        "officeID" : "5301",
-        "descriptors" : []
+    "5301": {
+        "name": "Washington's 1st congressional district",
+        "state": "Washington",
+        "districtNumber": 1,
+        "officeID": "WA01",
+        "geoID": "5301",
+        "color": "#c1e531",
+        "descriptors": [
+            "WASHINGTON"
+        ],
+        "congressionalSession": 119
     },
-    "5310" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Washington's 10th congressional district",
-        "state" : "Washington",
-        "districtNumber" : 10,
-        "officeID" : "5310",
-        "descriptors" : []
+    "5310": {
+        "name": "Washington's 10th congressional district",
+        "state": "Washington",
+        "districtNumber": 10,
+        "officeID": "WA10",
+        "geoID": "5310",
+        "color": "#7ada0d",
+        "descriptors": [
+            "WASHINGTON"
+        ],
+        "congressionalSession": 119
     },
-    "5302" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Washington's 2nd congressional district",
-        "state" : "Washington",
-        "districtNumber" : 2,
-        "officeID" : "5302",
-        "descriptors" : []
+    "5302": {
+        "name": "Washington's 2nd congressional district",
+        "state": "Washington",
+        "districtNumber": 2,
+        "officeID": "WA02",
+        "geoID": "5302",
+        "color": "#7dee79",
+        "descriptors": [
+            "WASHINGTON"
+        ],
+        "congressionalSession": 119
     },
-    "5303" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Washington's 3rd congressional district",
-        "state" : "Washington",
-        "districtNumber" : 3,
-        "officeID" : "5303",
-        "descriptors" : []
+    "5303": {
+        "name": "Washington's 3rd congressional district",
+        "state": "Washington",
+        "districtNumber": 3,
+        "officeID": "WA03",
+        "geoID": "5303",
+        "color": "#e0b07e",
+        "descriptors": [
+            "WASHINGTON"
+        ],
+        "congressionalSession": 119
     },
-    "5304" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Washington's 4th congressional district",
-        "state" : "Washington",
-        "districtNumber" : 4,
-        "officeID" : "5304",
-        "descriptors" : []
+    "5304": {
+        "name": "Washington's 4th congressional district",
+        "state": "Washington",
+        "districtNumber": 4,
+        "officeID": "WA04",
+        "geoID": "5304",
+        "color": "#512de0",
+        "descriptors": [
+            "WASHINGTON"
+        ],
+        "congressionalSession": 119
     },
-    "5305" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Washington's 5th congressional district",
-        "state" : "Washington",
-        "districtNumber" : 5,
-        "officeID" : "5305",
-        "descriptors" : []
+    "5305": {
+        "name": "Washington's 5th congressional district",
+        "state": "Washington",
+        "districtNumber": 5,
+        "officeID": "WA05",
+        "geoID": "5305",
+        "color": "#c8b554",
+        "descriptors": [
+            "WASHINGTON"
+        ],
+        "congressionalSession": 119
     },
-    "5306" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Washington's 6th congressional district",
-        "state" : "Washington",
-        "districtNumber" : 6,
-        "officeID" : "5306",
-        "descriptors" : []
+    "5306": {
+        "name": "Washington's 6th congressional district",
+        "state": "Washington",
+        "districtNumber": 6,
+        "officeID": "WA06",
+        "geoID": "5306",
+        "color": "#66ce46",
+        "descriptors": [
+            "WASHINGTON"
+        ],
+        "congressionalSession": 119
     },
-    "5307" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Washington's 7th congressional district",
-        "state" : "Washington",
-        "districtNumber" : 7,
-        "officeID" : "5307",
-        "descriptors" : []
+    "5307": {
+        "name": "Washington's 7th congressional district",
+        "state": "Washington",
+        "districtNumber": 7,
+        "officeID": "WA07",
+        "geoID": "5307",
+        "color": "#e6756d",
+        "descriptors": [
+            "WASHINGTON"
+        ],
+        "congressionalSession": 119
     },
-    "5308" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Washington's 8th congressional district",
-        "state" : "Washington",
-        "districtNumber" : 8,
-        "officeID" : "5308",
-        "descriptors" : []
+    "5308": {
+        "name": "Washington's 8th congressional district",
+        "state": "Washington",
+        "districtNumber": 8,
+        "officeID": "WA08",
+        "geoID": "5308",
+        "color": "#e66d71",
+        "descriptors": [
+            "WASHINGTON"
+        ],
+        "congressionalSession": 119
     },
-    "5309" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Washington's 9th congressional district",
-        "state" : "Washington",
-        "districtNumber" : 9,
-        "officeID" : "5309",
-        "descriptors" : []
+    "5309": {
+        "name": "Washington's 9th congressional district",
+        "state": "Washington",
+        "districtNumber": 9,
+        "officeID": "WA09",
+        "geoID": "5309",
+        "color": "#e36c48",
+        "descriptors": [
+            "WASHINGTON"
+        ],
+        "congressionalSession": 119
     }
 }

@@ -3,6 +3,7 @@
     "commonName" : "Arkansas",
     "fullName" : "State of Arkansas",
     "abbreviation" : "AR",
+    "type" : "state",
     "demonymicNoun" : "Arkansan",
     "demonymicPluralNoun" : "Arkansans",
     "demonymicAdjective" : "Arkansan",
@@ -71,6 +72,7 @@
         "battleship" : "USS Arkansas (CGN-41)"
     },
     "capital" : "Little Rock",
+    "admissionDate" : "15 June 1836",
     "federal_court_circuit" : 8,
     "censusDivision" : "West South Central",
     "descriptors" : [
@@ -81,10 +83,29 @@
     "allowedSubdivisionTypes" : [
         "Civil Township"
     ],
-    "allowedPlaceTypes" : [
-        "City",
-        "Town",
-        "Census-Designated Place"
+    "placeTypes" : [
+        {
+            "placeCategory" : "City",
+            "name" : "City (first class)",
+            "populationRequirement" : 2500,
+            "automaticStatusChange" : false
+        },
+        {
+            "placeCategory" : "City",
+            "name" : "City (second class)",
+            "populationRequirement" : 500,
+            "automaticStatusChange" : false
+        },
+        {
+            "placeCategory" : "Town",
+            "name" : "town",
+            "populationRequirement" : 0,
+            "automaticStatusChange" : false
+        },
+        {
+            "placeCategory" : "Census-Designated Place",
+            "name" : "CDP"
+        }
     ],
     "government" : {
         "name" : "Government of Arkansas",

@@ -2,11 +2,77 @@
     "FIPS" : "12",
     "commonName" : "Florida",
     "fullName" : "State of Florida",
-    "flagFile" : "florida_flag.png",
     "abbreviation" : "FL",
-    "demonym" : "Floridian",
-    "nickname" : "Sunshine State",
-    "motto" : "In God we trust",
+    "type" : "state",
+    "demonymicNoun" : "Floridian",
+    "demonymicNounPlural" : "Floridians",
+    "demonymicAdjective" : "Floridian",
+    "symbols" : {
+        "nicknames" : [
+            "Sunshine State",
+            "Everglade State",
+            "Citrus State",
+            "Alligator State",
+            "Flower State",
+            "Gulf State",
+            "Orange State",
+            "Palm Tree State",
+            "Peninsular State",
+            "Gunshine State",
+            "Plywood State"
+        ],
+        "seal" : {
+            "name" : "Great Seal of the State of Florida",
+            "description" : "A shoreline on which a Seminole woman is spreading flowers. Two Sabal palms are growing. In the background, a steamboat sails before a sun breaks the horizon, with rays of sunlight extending into the sky. The seal is encircled with the words \"Great Seal of the State of Florida,\" and \"In God We Trust.\"",
+            "file" : "florida_seal.png"
+        },
+        "flag" : {
+            "name" : "Flag of Florida",
+            "description" : "A red saltire on a white background, with the state seal superimposed on the center.",
+            "symbolism" : "There is no conclusive evidence for any origin for the flag. Suggestions for the symbolism of the red saltire include: the Confederate battle flag, the Cross of Burgundy used by colonial Spain, or the flag of Alabama.",
+            "file" : "florida_flag.png"
+        },
+        "mottos" : [
+            {
+                "motto" : "In God We Trust"
+            }
+        ],
+        "state day" : "Pascua Florida",
+        "flower" : "orange blossom",
+        "tree" : "sabal palm",
+        "wildflower" : "tickseed",
+        "animal" : "Florida panther",
+        "bird" : "northern mockingbird",
+        "butterfly" : "zebra longwing",
+        "fresh water fish" : "Florida largemouth bass",
+        "salt water fish" : "Atlantic sailfish",
+        "heritage cattle breed" : "Florida Cracker cattle",
+        "horse" : "Florida Cracker Horse",
+        "marine mammal" : "Florida manatee",
+        "salt water mammal" : "common bottlenose dolphin",
+        "reptile" : "American alligator",
+        "salt water reptile" : "loggerhead sea turtle",
+        "shell" : "horse conch",
+        "tortoise" : "gopher tortoise",
+        "gem" : "moonstone",
+        "soil" : "Myakka soil",
+        "stone" : "agatized coral",
+        "anthem" : "\"Florida (Where the Sawgrass Meets the Sky)\"",
+        "beverage" : "orange juice",
+        "dessert" : "strawberry shortcake",
+        "festival" : "\"El Festival de la Calle Ocho\"",
+        "fruit" : "orange",
+        "citrus archive" : "Florida Citrus Archives",
+        "pie" : "Key line pie",
+        "play" : "*Cross and Sword*",
+        "rodeo" : "Silver Spurs Rodeo",
+        "railroad museums" : [
+            "Gold Coast Railroad Museum",
+            "Florida Gulf Coast Railroad Museum"
+        ],
+        "song" : "Old Folks at Home",
+        "quarter" : "State quarter featuring Spanish galleon, Sabal palmetto, and Space Shuttle, with caption \"Gateway to Discovery.\""
+    },
     "capital" : "Tallahassee",
     "federalCourtCircuit" : 11,
     "censusDivision" : "South Atlantic",
@@ -18,58 +84,104 @@
     "allowedSubdivisionTypes" : [
         "Census County Division"
     ],
-    "allowedPlaceTypes" : [
-        "City",
-        "Town",
-        "Village",
-        "Census-Designated Place"
+    "placeTypes" : [
+        {
+            "placeCategory" : "City",
+            "name" : "City",
+            "count" : 266
+        },
+        {
+            "placeCategory" : "Consolidated City-County",
+            "name" : "Consolidated City-County",
+            "count" : 1
+        },
+        {
+            "placeCategory" : "Town",
+            "name" : "Town",
+            "count" : 123
+        },
+        {
+            "placeCategory" : "Village",
+            "name" : "Village",
+            "count" : 21
+        },
+        {
+            "placeCategory" : "Census-Designated Place",
+            "name" : "CDP"
+        }
     ],
     "government" : {
-        "name" : "",
-        "constituency" : "",
-        "federalLevel" : "",
-        "constitution" : "",
+        "name" : "Government of Florida",
+        "constitution" : "Constitution of the State of Florida",
         "branches" : {
             "executiveBranch" : {
                 "positions" : {
-                    "" : {
-                        "title" : ""
+                    "governor" : {
+                        "title" : "Governor of Florida"
+                    },
+                    "lieutenant_governor" : {
+                        "title" : "Lieutenant Governor of Florida"
                     }
                 }
             },
             "legislativeBranch" : {
-                "title" : "",
+                "title" : "Florida Legislature",
                 "chambers" : {
-                    "" : {
-                        "name" : "",
+                    "senate" : {
+                        "name" : "Florida Senate",
                         "isUpperChamber" : true,
-                        "termLength" : 0,
-                        "nextElectionDate" : "",
-                        "seats" : 0,
+                        "termLength" : 4,
+                        "termLimit" : 2,
+                        "nextElectionDate" : "03 November 2026",
+                        "seats" : 40,
                         "positions" : {
-                            "" : {
-                                "title" : ""
+                            "state_senator" : {
+                                "title" : "Florida State Senator"
+                            },
+                            "senate_president" : {
+                                "title" : "President of the Florida Senate"
+                            },
+                            "senate_president_pro_tempore" : {
+                                "title" : "President pro tempore of the Florida Senate"
+                            },
+                            "majority_leader" : {
+                                "title" : "Majority Leader of the Florida Senate"
+                            },
+                            "minority_leader" : {
+                                "title" : "Minority Leader of the Florida Senate"
                             }
                         }
                     },
-                    "" : {
-                        "name" : "",
-                        "termLength" : 0,
-                        "nextElectionDate" : "",
-                        "seats" : 0,
+                    "house_of_representatives" : {
+                        "name" : "Florida House of Representatives",
+                        "termLength" : 2,
+                        "consecutiveTermLimit" : 4,
+                        "nextElectionDate" : "03 November 2026",
+                        "seats" : 120,
                         "positions" : {
-                            "" : {
-                                "title" : ""
+                            "florida_state_representative" : {
+                                "title" : "Florida State Representative"
+                            },
+                            "speaker" : {
+                                "title" : "Speaker of the Florida House of Representatives"
+                            },
+                            "speaker_pro_tempore" : {
+                                "title" : "Speaker pro tempore of the Florida House of Representatives"
+                            },
+                            "majority_leader" : {
+                                "title" : "Majority Leader of the Florida House of Representatives"
+                            },
+                            "minority_leader" : {
+                                "title" : "Minority Leader of the Florida House of Representatives"
                             }
                         }
                     }
                 }
             },
             "judicialBranch" : {
-                "title" : "",
+                "title" : "Judiciary of Florida",
                 "supreme_court" : {
-                    "fullName" : "",
-                    "commonName" : "",
+                    "fullName" : "Supreme Court of Florida",
                     "basis" : "",
                     "judges" : 0,
                     "appellate_courts" : {

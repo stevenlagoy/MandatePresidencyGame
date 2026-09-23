@@ -1,11 +1,14 @@
 {
-    "1198" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "District of Columbia's at-large congressional district",
-        "state" : "District of Columbia",
-        "districtNumber" : 98,
-        "officeID" : "1198",
-        "descriptors" : []
+    "1198": {
+        "name": "District of Columbia's at-large congressional district",
+        "state": "District of Columbia",
+        "districtNumber": 98,
+        "officeID": "DC98",
+        "geoID": "1198",
+        "color": "#5b8dd7",
+        "descriptors": [
+            "DISTRICT OF COLUMBIA"
+        ],
+        "congressionalSession": 119
     }
 }

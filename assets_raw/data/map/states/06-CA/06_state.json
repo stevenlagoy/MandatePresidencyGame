@@ -3,6 +3,7 @@
     "commonName" : "California",
     "fullName" : "State of California",
     "abbreviation" : "CA",
+    "type" : "state",
     "demonymicNoun" : "Californian",
     "demonymicPluralNoun" : "Californians",
     "demonymicAdjective" : "Californian",
@@ -28,6 +29,7 @@
         ],
         "nicknames" : [
             "The Golden State",
+            "Cali",
             "El Dorado State"
         ],
         "song" : "\"I Love You, California\"",
@@ -90,10 +92,24 @@
     "allowedSubdivisionTypes" : [
         "Census County Division"
     ],
-    "allowedPlaceTypes" : [
-        "City",
-        "Town",
-        "Census-Designated Place"
+    "placeTypes" : [
+        {
+            "placeCategory" : "Consolidated City-County",
+            "name" : "consolidated city-county",
+            "count" : 1
+        },
+        {
+            "placeCategory" : "City",
+            "name" : "city"
+        },
+        {
+            "placeCategory" : "Town",
+            "name" : "town"
+        },
+        {
+            "placeCategory" : "Census-Designated Place",
+            "name" : "CDP"
+        }
     ],
     "government" : {
         "name" : "Government of California",

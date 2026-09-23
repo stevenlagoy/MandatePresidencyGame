@@ -1,155 +1,218 @@
 {
-    "1701" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Illinois's 1st congressional district",
-        "state" : "Illinois",
-        "districtNumber" : 1,
-        "officeID" : "1701",
-        "descriptors" : []
+    "1701": {
+        "name": "Illinois's 1st congressional district",
+        "state": "Illinois",
+        "districtNumber": 1,
+        "officeID": "IL01",
+        "geoID": "1701",
+        "color": "#34dbd3",
+        "descriptors": [
+            "ILLINOIS"
+        ],
+        "congressionalSession": 119
     },
-    "1710" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Illinois's 10th congressional district",
-        "state" : "Illinois",
-        "districtNumber" : 10,
-        "officeID" : "1710",
-        "descriptors" : []
+    "1710": {
+        "name": "Illinois's 10th congressional district",
+        "state": "Illinois",
+        "districtNumber": 10,
+        "officeID": "IL10",
+        "geoID": "1710",
+        "color": "#68deab",
+        "descriptors": [
+            "ILLINOIS"
+        ],
+        "congressionalSession": 119
     },
-    "1711" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Illinois's 11th congressional district",
-        "state" : "Illinois",
-        "districtNumber" : 11,
-        "officeID" : "1711",
-        "descriptors" : []
+    "1711": {
+        "name": "Illinois's 11th congressional district",
+        "state": "Illinois",
+        "districtNumber": 11,
+        "officeID": "IL11",
+        "geoID": "1711",
+        "color": "#bfef31",
+        "descriptors": [
+            "ILLINOIS"
+        ],
+        "congressionalSession": 119
     },
-    "1712" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Illinois's 12th congressional district",
-        "state" : "Illinois",
-        "districtNumber" : 12,
-        "officeID" : "1712",
-        "descriptors" : []
+    "1712": {
+        "name": "Illinois's 12th congressional district",
+        "state": "Illinois",
+        "districtNumber": 12,
+        "officeID": "IL12",
+        "geoID": "1712",
+        "color": "#9524d6",
+        "descriptors": [
+            "ILLINOIS"
+        ],
+        "congressionalSession": 119
     },
-    "1713" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Illinois's 13th congressional district",
-        "state" : "Illinois",
-        "districtNumber" : 13,
-        "officeID" : "1713",
-        "descriptors" : []
+    "1713": {
+        "name": "Illinois's 13th congressional district",
+        "state": "Illinois",
+        "districtNumber": 13,
+        "officeID": "IL13",
+        "geoID": "1713",
+        "color": "#e87086",
+        "descriptors": [
+            "ILLINOIS"
+        ],
+        "congressionalSession": 119
     },
-    "1714" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Illinois's 14th congressional district",
-        "state" : "Illinois",
-        "districtNumber" : 14,
-        "officeID" : "1714",
-        "descriptors" : []
+    "1714": {
+        "name": "Illinois's 14th congressional district",
+        "state": "Illinois",
+        "districtNumber": 14,
+        "officeID": "IL14",
+        "geoID": "1714",
+        "color": "#4ee6b6",
+        "descriptors": [
+            "ILLINOIS"
+        ],
+        "congressionalSession": 119
     },
-    "1715" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Illinois's 15th congressional district",
-        "state" : "Illinois",
-        "districtNumber" : 15,
-        "officeID" : "1715",
-        "descriptors" : []
+    "1715": {
+        "name": "Illinois's 15th congressional district",
+        "state": "Illinois",
+        "districtNumber": 15,
+        "officeID": "IL15",
+        "geoID": "1715",
+        "color": "#cb7394",
+        "descriptors": [
+            "ILLINOIS"
+        ],
+        "congressionalSession": 119
     },
-    "1716" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Illinois's 16th congressional district",
-        "state" : "Illinois",
-        "districtNumber" : 16,
-        "officeID" : "1716",
-        "descriptors" : []
+    "1716": {
+        "name": "Illinois's 16th congressional district",
+        "state": "Illinois",
+        "districtNumber": 16,
+        "officeID": "IL16",
+        "geoID": "1716",
+        "color": "#2e58cd",
+        "descriptors": [
+            "ILLINOIS"
+        ],
+        "congressionalSession": 119
     },
-    "1717" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Illinois's 17th congressional district",
-        "state" : "Illinois",
-        "districtNumber" : 17,
-        "officeID" : "1717",
-        "descriptors" : []
+    "1717": {
+        "name": "Illinois's 17th congressional district",
+        "state": "Illinois",
+        "districtNumber": 17,
+        "officeID": "IL17",
+        "geoID": "1717",
+        "color": "#b682d6",
+        "descriptors": [
+            "ILLINOIS"
+        ],
+        "congressionalSession": 119
     },
-    "1702" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Illinois's 2nd congressional district",
-        "state" : "Illinois",
-        "districtNumber" : 2,
-        "officeID" : "1702",
-        "descriptors" : []
+    "1702": {
+        "name": "Illinois's 2nd congressional district",
+        "state": "Illinois",
+        "districtNumber": 2,
+        "officeID": "IL02",
+        "geoID": "1702",
+        "color": "#70ebc2",
+        "descriptors": [
+            "ILLINOIS"
+        ],
+        "congressionalSession": 119
     },
-    "1703" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Illinois's 3rd congressional district",
-        "state" : "Illinois",
-        "districtNumber" : 3,
-        "officeID" : "1703",
-        "descriptors" : []
+    "1703": {
+        "name": "Illinois's 3rd congressional district",
+        "state": "Illinois",
+        "districtNumber": 3,
+        "officeID": "IL03",
+        "geoID": "1703",
+        "color": "#ca8b6d",
+        "descriptors": [
+            "ILLINOIS"
+        ],
+        "congressionalSession": 119
     },
-    "1704" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Illinois's 4th congressional district",
-        "state" : "Illinois",
-        "districtNumber" : 4,
-        "officeID" : "1704",
-        "descriptors" : []
+    "1704": {
+        "name": "Illinois's 4th congressional district",
+        "state": "Illinois",
+        "districtNumber": 4,
+        "officeID": "IL04",
+        "geoID": "1704",
+        "color": "#df7fd1",
+        "descriptors": [
+            "ILLINOIS"
+        ],
+        "congressionalSession": 119
     },
-    "1705" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Illinois's 5th congressional district",
-        "state" : "Illinois",
-        "districtNumber" : 5,
-        "officeID" : "1705",
-        "descriptors" : []
+    "1705": {
+        "name": "Illinois's 5th congressional district",
+        "state": "Illinois",
+        "districtNumber": 5,
+        "officeID": "IL05",
+        "geoID": "1705",
+        "color": "#efec52",
+        "descriptors": [
+            "ILLINOIS"
+        ],
+        "congressionalSession": 119
     },
-    "1706" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Illinois's 6th congressional district",
-        "state" : "Illinois",
-        "districtNumber" : 6,
-        "officeID" : "1706",
-        "descriptors" : []
+    "1706": {
+        "name": "Illinois's 6th congressional district",
+        "state": "Illinois",
+        "districtNumber": 6,
+        "officeID": "IL06",
+        "geoID": "1706",
+        "color": "#51b2dc",
+        "descriptors": [
+            "ILLINOIS"
+        ],
+        "congressionalSession": 119
     },
-    "1707" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Illinois's 7th congressional district",
-        "state" : "Illinois",
-        "districtNumber" : 7,
-        "officeID" : "1707",
-        "descriptors" : []
+    "1707": {
+        "name": "Illinois's 7th congressional district",
+        "state": "Illinois",
+        "districtNumber": 7,
+        "officeID": "IL07",
+        "geoID": "1707",
+        "color": "#e5861a",
+        "descriptors": [
+            "ILLINOIS"
+        ],
+        "congressionalSession": 119
     },
-    "1708" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Illinois's 8th congressional district",
-        "state" : "Illinois",
-        "districtNumber" : 8,
-        "officeID" : "1708",
-        "descriptors" : []
+    "1708": {
+        "name": "Illinois's 8th congressional district",
+        "state": "Illinois",
+        "districtNumber": 8,
+        "officeID": "IL08",
+        "geoID": "1708",
+        "color": "#d8de39",
+        "descriptors": [
+            "ILLINOIS"
+        ],
+        "congressionalSession": 119
     },
-    "1709" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Illinois's 9th congressional district",
+    "1709": {
+        "name": "Illinois's 9th congressional district",
+        "state": "Illinois",
+        "districtNumber": 9,
+        "officeID": "IL09",
+        "geoID": "1709",
+        "color": "#ece450",
+        "descriptors": [
+            "ILLINOIS"
+        ],
+        "congressionalSession": 119
+    },
+    "17ZZ" : {
+        "name" : "Congressional Districts not defined",
         "state" : "Illinois",
-        "districtNumber" : 9,
-        "officeID" : "1709",
-        "descriptors" : []
+        "districtNumber" : 0,
+        "officeID" : "ILZZ",
+        "geoID" : "17ZZ",
+        "color" : "#e27e37",
+        "descriptors" : [
+            "ILLINOIS"
+        ],
+        "congressionalSession" : 119
     }
 }

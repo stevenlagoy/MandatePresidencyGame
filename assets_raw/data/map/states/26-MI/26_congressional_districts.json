@@ -1,119 +1,158 @@
 {
-    "2601" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Michigan's 1st congressional district",
-        "state" : "Michigan",
-        "districtNumber" : 1,
-        "officeID" : "2601",
-        "descriptors" : []
+    "2601": {
+        "name": "Michigan's 1st congressional district",
+        "state": "Michigan",
+        "districtNumber": 1,
+        "officeID": "MI01",
+        "geoID": "2601",
+        "color": "#60e8a0",
+        "descriptors": [
+            "MICHIGAN"
+        ],
+        "congressionalSession": 119
     },
-    "2610" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Michigan's 10th congressional district",
-        "state" : "Michigan",
-        "districtNumber" : 10,
-        "officeID" : "2610",
-        "descriptors" : []
+    "2610": {
+        "name": "Michigan's 10th congressional district",
+        "state": "Michigan",
+        "districtNumber": 10,
+        "officeID": "MI10",
+        "geoID": "2610",
+        "color": "#827ad8",
+        "descriptors": [
+            "MICHIGAN"
+        ],
+        "congressionalSession": 119
     },
-    "2611" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Michigan's 11th congressional district",
-        "state" : "Michigan",
-        "districtNumber" : 11,
-        "officeID" : "2611",
-        "descriptors" : []
+    "2611": {
+        "name": "Michigan's 11th congressional district",
+        "state": "Michigan",
+        "districtNumber": 11,
+        "officeID": "MI11",
+        "geoID": "2611",
+        "color": "#8cd811",
+        "descriptors": [
+            "MICHIGAN"
+        ],
+        "congressionalSession": 119
     },
-    "2612" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Michigan's 12th congressional district",
-        "state" : "Michigan",
-        "districtNumber" : 12,
-        "officeID" : "2612",
-        "descriptors" : []
+    "2612": {
+        "name": "Michigan's 12th congressional district",
+        "state": "Michigan",
+        "districtNumber": 12,
+        "officeID": "MI12",
+        "geoID": "2612",
+        "color": "#0fe895",
+        "descriptors": [
+            "MICHIGAN"
+        ],
+        "congressionalSession": 119
     },
-    "2613" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Michigan's 13th congressional district",
-        "state" : "Michigan",
-        "districtNumber" : 13,
-        "officeID" : "2613",
-        "descriptors" : []
+    "2613": {
+        "name": "Michigan's 13th congressional district",
+        "state": "Michigan",
+        "districtNumber": 13,
+        "officeID": "MI13",
+        "geoID": "2613",
+        "color": "#a8c93d",
+        "descriptors": [
+            "MICHIGAN"
+        ],
+        "congressionalSession": 119
     },
-    "2602" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Michigan's 2nd congressional district",
-        "state" : "Michigan",
-        "districtNumber" : 2,
-        "officeID" : "2602",
-        "descriptors" : []
+    "2602": {
+        "name": "Michigan's 2nd congressional district",
+        "state": "Michigan",
+        "districtNumber": 2,
+        "officeID": "MI02",
+        "geoID": "2602",
+        "color": "#c554d4",
+        "descriptors": [
+            "MICHIGAN"
+        ],
+        "congressionalSession": 119
     },
-    "2603" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Michigan's 3rd congressional district",
-        "state" : "Michigan",
-        "districtNumber" : 3,
-        "officeID" : "2603",
-        "descriptors" : []
+    "2603": {
+        "name": "Michigan's 3rd congressional district",
+        "state": "Michigan",
+        "districtNumber": 3,
+        "officeID": "MI03",
+        "geoID": "2603",
+        "color": "#e563c0",
+        "descriptors": [
+            "MICHIGAN"
+        ],
+        "congressionalSession": 119
     },
-    "2604" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Michigan's 4th congressional district",
-        "state" : "Michigan",
-        "districtNumber" : 4,
-        "officeID" : "2604",
-        "descriptors" : []
+    "2604": {
+        "name": "Michigan's 4th congressional district",
+        "state": "Michigan",
+        "districtNumber": 4,
+        "officeID": "MI04",
+        "geoID": "2604",
+        "color": "#96df80",
+        "descriptors": [
+            "MICHIGAN"
+        ],
+        "congressionalSession": 119
     },
-    "2605" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Michigan's 5th congressional district",
-        "state" : "Michigan",
-        "districtNumber" : 5,
-        "officeID" : "2605",
-        "descriptors" : []
+    "2605": {
+        "name": "Michigan's 5th congressional district",
+        "state": "Michigan",
+        "districtNumber": 5,
+        "officeID": "MI05",
+        "geoID": "2605",
+        "color": "#eb3889",
+        "descriptors": [
+            "MICHIGAN"
+        ],
+        "congressionalSession": 119
     },
-    "2606" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Michigan's 6th congressional district",
-        "state" : "Michigan",
-        "districtNumber" : 6,
-        "officeID" : "2606",
-        "descriptors" : []
+    "2606": {
+        "name": "Michigan's 6th congressional district",
+        "state": "Michigan",
+        "districtNumber": 6,
+        "officeID": "MI06",
+        "geoID": "2606",
+        "color": "#4c26e2",
+        "descriptors": [
+            "MICHIGAN"
+        ],
+        "congressionalSession": 119
     },
-    "2607" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Michigan's 7th congressional district",
-        "state" : "Michigan",
-        "districtNumber" : 7,
-        "officeID" : "2607",
-        "descriptors" : []
+    "2607": {
+        "name": "Michigan's 7th congressional district",
+        "state": "Michigan",
+        "districtNumber": 7,
+        "officeID": "MI07",
+        "geoID": "2607",
+        "color": "#e0ab27",
+        "descriptors": [
+            "MICHIGAN"
+        ],
+        "congressionalSession": 119
     },
-    "2608" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Michigan's 8th congressional district",
-        "state" : "Michigan",
-        "districtNumber" : 8,
-        "officeID" : "2608",
-        "descriptors" : []
+    "2608": {
+        "name": "Michigan's 8th congressional district",
+        "state": "Michigan",
+        "districtNumber": 8,
+        "officeID": "MI08",
+        "geoID": "2608",
+        "color": "#cde565",
+        "descriptors": [
+            "MICHIGAN"
+        ],
+        "congressionalSession": 119
     },
-    "2609" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Michigan's 9th congressional district",
-        "state" : "Michigan",
-        "districtNumber" : 9,
-        "officeID" : "2609",
-        "descriptors" : []
+    "2609": {
+        "name": "Michigan's 9th congressional district",
+        "state": "Michigan",
+        "districtNumber": 9,
+        "officeID": "MI09",
+        "geoID": "2609",
+        "color": "#3415d2",
+        "descriptors": [
+            "MICHIGAN"
+        ],
+        "congressionalSession": 119
     }
 }

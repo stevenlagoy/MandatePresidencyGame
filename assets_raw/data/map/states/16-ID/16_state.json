@@ -1,10 +1,17 @@
 {
     "FIPS" : "16",
     "commonName" : "Idaho",
+    "abbreviation" : "ID",
+    "type" : "state",
+    "demonymicNoun" : "Idahoan",
+    "demonymicPluralNoun" : "Idahoan",
+    "demonymicAdjective" : "Idahoan",
+
+
+
+
     "fullName" : "State of Idaho",
     "flagFile" : "idaho_flag.png",
-    "abbreviation" : "ID",
-    "demonym" : "Idahoan",
     "nickname" : "Gem State",
     "motto" : "Esto perpetua",
     "capital" : "Boise",

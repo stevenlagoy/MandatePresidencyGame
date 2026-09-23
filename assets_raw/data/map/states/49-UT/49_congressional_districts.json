@@ -1,38 +1,50 @@
 {
-    "4901" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Utah's 1st congressional district",
-        "state" : "Utah",
-        "districtNumber" : 1,
-        "officeID" : "4901",
-        "descriptors" : []
+    "4901": {
+        "name": "Utah's 1st congressional district",
+        "state": "Utah",
+        "districtNumber": 1,
+        "officeID": "UT01",
+        "geoID": "4901",
+        "color": "#2640d4",
+        "descriptors": [
+            "UTAH"
+        ],
+        "congressionalSession": 119
     },
-    "4902" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Utah's 2nd congressional district",
-        "state" : "Utah",
-        "districtNumber" : 2,
-        "officeID" : "4902",
-        "descriptors" : []
+    "4902": {
+        "name": "Utah's 2nd congressional district",
+        "state": "Utah",
+        "districtNumber": 2,
+        "officeID": "UT02",
+        "geoID": "4902",
+        "color": "#cd75ad",
+        "descriptors": [
+            "UTAH"
+        ],
+        "congressionalSession": 119
     },
-    "4903" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Utah's 3rd congressional district",
-        "state" : "Utah",
-        "districtNumber" : 3,
-        "officeID" : "4903",
-        "descriptors" : []
+    "4903": {
+        "name": "Utah's 3rd congressional district",
+        "state": "Utah",
+        "districtNumber": 3,
+        "officeID": "UT03",
+        "geoID": "4903",
+        "color": "#4fd4c4",
+        "descriptors": [
+            "UTAH"
+        ],
+        "congressionalSession": 119
     },
-    "4904" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Utah's 4th congressional district",
-        "state" : "Utah",
-        "districtNumber" : 4,
-        "officeID" : "4904",
-        "descriptors" : []
+    "4904": {
+        "name": "Utah's 4th congressional district",
+        "state": "Utah",
+        "districtNumber": 4,
+        "officeID": "UT04",
+        "geoID": "4904",
+        "color": "#cb47b5",
+        "descriptors": [
+            "UTAH"
+        ],
+        "congressionalSession": 119
     }
 }

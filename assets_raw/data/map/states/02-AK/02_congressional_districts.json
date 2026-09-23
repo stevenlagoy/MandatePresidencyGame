@@ -1,11 +1,14 @@
 {
-    "0200" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Alaska's at-large congressional district",
-        "state" : "Alaska",
-        "districtNumber" : 0,
-        "officeID" : "0200",
-        "descriptors" : []
+    "0200": {
+        "name": "Alaska's at-large congressional district",
+        "state": "Alaska",
+        "districtNumber": 0,
+        "officeID": "AK00",
+        "geoID": "0200",
+        "color": "#9bd321",
+        "descriptors": [
+            "ALASKA"
+        ],
+        "congressionalSession": 119
     }
 }

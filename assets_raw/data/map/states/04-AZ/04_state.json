@@ -3,6 +3,7 @@
     "commonName" : "Arizona",
     "fullName" : "State of Arizona",
     "abbreviation" : "AZ",
+    "type" : "state",
     "demonymicNoun" : "Arizonan",
     "demonymicNounPlural" : "Arizonans",
     "demonymicAdjective" : "Arizonan",
@@ -76,10 +77,29 @@
     "allowedSubdivisionTypes" : [
         "Census County Division"
     ],
-    "allowedPlaceTypes" : [
-        "City",
-        "Town",
-        "Census-Designated Place"
+    "placeTypes" : [
+        {
+            "placeCategory" : "City",
+            "name" : "city",
+            "populationRequirement" : 3000,
+            "automaticStatusChange" : false
+        },
+        {
+            "placeCategory" : "Town",
+            "name" : "town",
+            "populationRequirement" : 1500,
+            "automaticStatusChange" : false
+        },
+        {
+            "placeCategory" : "Town",
+            "name" : "special town",
+            "populationRequirement" : 500,
+            "automaticStatusChange" : false
+        },
+        {
+            "placeCategory" : "Census-Designated Place",
+            "name" : "CDP"
+        }
     ],
     "government" : {
         "name" : "Government of Arizona",

@@ -1,38 +1,50 @@
 {
-    "2801" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Mississippi's 1st congressional district",
-        "state" : "Mississippi",
-        "districtNumber" : 1,
-        "officeID" : "2801",
-        "descriptors" : []
+    "2801": {
+        "name": "Mississippi's 1st congressional district",
+        "state": "Mississippi",
+        "districtNumber": 1,
+        "officeID": "MS01",
+        "geoID": "2801",
+        "color": "#a929dc",
+        "descriptors": [
+            "MISSISSIPPI"
+        ],
+        "congressionalSession": 119
     },
-    "2802" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Mississippi's 2nd congressional district",
-        "state" : "Mississippi",
-        "districtNumber" : 2,
-        "officeID" : "2802",
-        "descriptors" : []
+    "2802": {
+        "name": "Mississippi's 2nd congressional district",
+        "state": "Mississippi",
+        "districtNumber": 2,
+        "officeID": "MS02",
+        "geoID": "2802",
+        "color": "#9914ca",
+        "descriptors": [
+            "MISSISSIPPI"
+        ],
+        "congressionalSession": 119
     },
-    "2803" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Mississippi's 3rd congressional district",
-        "state" : "Mississippi",
-        "districtNumber" : 3,
-        "officeID" : "2803",
-        "descriptors" : []
+    "2803": {
+        "name": "Mississippi's 3rd congressional district",
+        "state": "Mississippi",
+        "districtNumber": 3,
+        "officeID": "MS03",
+        "geoID": "2803",
+        "color": "#bcd073",
+        "descriptors": [
+            "MISSISSIPPI"
+        ],
+        "congressionalSession": 119
     },
-    "2804" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Mississippi's 4th congressional district",
-        "state" : "Mississippi",
-        "districtNumber" : 4,
-        "officeID" : "2804",
-        "descriptors" : []
+    "2804": {
+        "name": "Mississippi's 4th congressional district",
+        "state": "Mississippi",
+        "districtNumber": 4,
+        "officeID": "MS04",
+        "geoID": "2804",
+        "color": "#edcf4b",
+        "descriptors": [
+            "MISSISSIPPI"
+        ],
+        "congressionalSession": 119
     }
 }

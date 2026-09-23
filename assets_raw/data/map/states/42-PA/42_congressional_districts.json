@@ -1,155 +1,206 @@
 {
-    "4201" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Pennsylvania's 1st congressional district",
-        "state" : "Pennsylvania",
-        "districtNumber" : 1,
-        "officeID" : "4201",
-        "descriptors" : []
+    "4201": {
+        "name": "Pennsylvania's 1st congressional district",
+        "state": "Pennsylvania",
+        "districtNumber": 1,
+        "officeID": "PA01",
+        "geoID": "4201",
+        "color": "#c8c337",
+        "descriptors": [
+            "PENNSYLVANIA"
+        ],
+        "congressionalSession": 119
     },
-    "4210" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Pennsylvania's 10th congressional district",
-        "state" : "Pennsylvania",
-        "districtNumber" : 10,
-        "officeID" : "4210",
-        "descriptors" : []
+    "4210": {
+        "name": "Pennsylvania's 10th congressional district",
+        "state": "Pennsylvania",
+        "districtNumber": 10,
+        "officeID": "PA10",
+        "geoID": "4210",
+        "color": "#dfb257",
+        "descriptors": [
+            "PENNSYLVANIA"
+        ],
+        "congressionalSession": 119
     },
-    "4211" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Pennsylvania's 11th congressional district",
-        "state" : "Pennsylvania",
-        "districtNumber" : 11,
-        "officeID" : "4211",
-        "descriptors" : []
+    "4211": {
+        "name": "Pennsylvania's 11th congressional district",
+        "state": "Pennsylvania",
+        "districtNumber": 11,
+        "officeID": "PA11",
+        "geoID": "4211",
+        "color": "#59cad7",
+        "descriptors": [
+            "PENNSYLVANIA"
+        ],
+        "congressionalSession": 119
     },
-    "4212" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Pennsylvania's 12th congressional district",
-        "state" : "Pennsylvania",
-        "districtNumber" : 12,
-        "officeID" : "4212",
-        "descriptors" : []
+    "4212": {
+        "name": "Pennsylvania's 12th congressional district",
+        "state": "Pennsylvania",
+        "districtNumber": 12,
+        "officeID": "PA12",
+        "geoID": "4212",
+        "color": "#81dc50",
+        "descriptors": [
+            "PENNSYLVANIA"
+        ],
+        "congressionalSession": 119
     },
-    "4213" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Pennsylvania's 13th congressional district",
-        "state" : "Pennsylvania",
-        "districtNumber" : 13,
-        "officeID" : "4213",
-        "descriptors" : []
+    "4213": {
+        "name": "Pennsylvania's 13th congressional district",
+        "state": "Pennsylvania",
+        "districtNumber": 13,
+        "officeID": "PA13",
+        "geoID": "4213",
+        "color": "#42e66b",
+        "descriptors": [
+            "PENNSYLVANIA"
+        ],
+        "congressionalSession": 119
     },
-    "4214" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Pennsylvania's 14th congressional district",
-        "state" : "Pennsylvania",
-        "districtNumber" : 14,
-        "officeID" : "4214",
-        "descriptors" : []
+    "4214": {
+        "name": "Pennsylvania's 14th congressional district",
+        "state": "Pennsylvania",
+        "districtNumber": 14,
+        "officeID": "PA14",
+        "geoID": "4214",
+        "color": "#7ae731",
+        "descriptors": [
+            "PENNSYLVANIA"
+        ],
+        "congressionalSession": 119
     },
-    "4215" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Pennsylvania's 15th congressional district",
-        "state" : "Pennsylvania",
-        "districtNumber" : 15,
-        "officeID" : "4215",
-        "descriptors" : []
+    "4215": {
+        "name": "Pennsylvania's 15th congressional district",
+        "state": "Pennsylvania",
+        "districtNumber": 15,
+        "officeID": "PA15",
+        "geoID": "4215",
+        "color": "#8953d0",
+        "descriptors": [
+            "PENNSYLVANIA"
+        ],
+        "congressionalSession": 119
     },
-    "4216" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Pennsylvania's 16th congressional district",
-        "state" : "Pennsylvania",
-        "districtNumber" : 16,
-        "officeID" : "4216",
-        "descriptors" : []
+    "4216": {
+        "name": "Pennsylvania's 16th congressional district",
+        "state": "Pennsylvania",
+        "districtNumber": 16,
+        "officeID": "PA16",
+        "geoID": "4216",
+        "color": "#e17e14",
+        "descriptors": [
+            "PENNSYLVANIA"
+        ],
+        "congressionalSession": 119
     },
-    "4217" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Pennsylvania's 17th congressional district",
-        "state" : "Pennsylvania",
-        "districtNumber" : 17,
-        "officeID" : "4217",
-        "descriptors" : []
+    "4217": {
+        "name": "Pennsylvania's 17th congressional district",
+        "state": "Pennsylvania",
+        "districtNumber": 17,
+        "officeID": "PA17",
+        "geoID": "4217",
+        "color": "#ed3bb8",
+        "descriptors": [
+            "PENNSYLVANIA"
+        ],
+        "congressionalSession": 119
     },
-    "4202" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Pennsylvania's 2nd congressional district",
-        "state" : "Pennsylvania",
-        "districtNumber" : 2,
-        "officeID" : "4202",
-        "descriptors" : []
+    "4202": {
+        "name": "Pennsylvania's 2nd congressional district",
+        "state": "Pennsylvania",
+        "districtNumber": 2,
+        "officeID": "PA02",
+        "geoID": "4202",
+        "color": "#4feed1",
+        "descriptors": [
+            "PENNSYLVANIA"
+        ],
+        "congressionalSession": 119
     },
-    "4203" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Pennsylvania's 3rd congressional district",
-        "state" : "Pennsylvania",
-        "districtNumber" : 3,
-        "officeID" : "4203",
-        "descriptors" : []
+    "4203": {
+        "name": "Pennsylvania's 3rd congressional district",
+        "state": "Pennsylvania",
+        "districtNumber": 3,
+        "officeID": "PA03",
+        "geoID": "4203",
+        "color": "#e985a8",
+        "descriptors": [
+            "PENNSYLVANIA"
+        ],
+        "congressionalSession": 119
     },
-    "4204" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Pennsylvania's 4th congressional district",
-        "state" : "Pennsylvania",
-        "districtNumber" : 4,
-        "officeID" : "4204",
-        "descriptors" : []
+    "4204": {
+        "name": "Pennsylvania's 4th congressional district",
+        "state": "Pennsylvania",
+        "districtNumber": 4,
+        "officeID": "PA04",
+        "geoID": "4204",
+        "color": "#875aef",
+        "descriptors": [
+            "PENNSYLVANIA"
+        ],
+        "congressionalSession": 119
     },
-    "4205" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Pennsylvania's 5th congressional district",
-        "state" : "Pennsylvania",
-        "districtNumber" : 5,
-        "officeID" : "4205",
-        "descriptors" : []
+    "4205": {
+        "name": "Pennsylvania's 5th congressional district",
+        "state": "Pennsylvania",
+        "districtNumber": 5,
+        "officeID": "PA05",
+        "geoID": "4205",
+        "color": "#85e0f0",
+        "descriptors": [
+            "PENNSYLVANIA"
+        ],
+        "congressionalSession": 119
     },
-    "4206" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Pennsylvania's 6th congressional district",
-        "state" : "Pennsylvania",
-        "districtNumber" : 6,
-        "officeID" : "4206",
-        "descriptors" : []
+    "4206": {
+        "name": "Pennsylvania's 6th congressional district",
+        "state": "Pennsylvania",
+        "districtNumber": 6,
+        "officeID": "PA06",
+        "geoID": "4206",
+        "color": "#d5e387",
+        "descriptors": [
+            "PENNSYLVANIA"
+        ],
+        "congressionalSession": 119
     },
-    "4207" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Pennsylvania's 7th congressional district",
-        "state" : "Pennsylvania",
-        "districtNumber" : 7,
-        "officeID" : "4207",
-        "descriptors" : []
+    "4207": {
+        "name": "Pennsylvania's 7th congressional district",
+        "state": "Pennsylvania",
+        "districtNumber": 7,
+        "officeID": "PA07",
+        "geoID": "4207",
+        "color": "#d6c766",
+        "descriptors": [
+            "PENNSYLVANIA"
+        ],
+        "congressionalSession": 119
     },
-    "4208" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Pennsylvania's 8th congressional district",
-        "state" : "Pennsylvania",
-        "districtNumber" : 8,
-        "officeID" : "4208",
-        "descriptors" : []
+    "4208": {
+        "name": "Pennsylvania's 8th congressional district",
+        "state": "Pennsylvania",
+        "districtNumber": 8,
+        "officeID": "PA08",
+        "geoID": "4208",
+        "color": "#edb621",
+        "descriptors": [
+            "PENNSYLVANIA"
+        ],
+        "congressionalSession": 119
     },
-    "4209" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Pennsylvania's 9th congressional district",
-        "state" : "Pennsylvania",
-        "districtNumber" : 9,
-        "officeID" : "4209",
-        "descriptors" : []
+    "4209": {
+        "name": "Pennsylvania's 9th congressional district",
+        "state": "Pennsylvania",
+        "districtNumber": 9,
+        "officeID": "PA09",
+        "geoID": "4209",
+        "color": "#5ec3d0",
+        "descriptors": [
+            "PENNSYLVANIA"
+        ],
+        "congressionalSession": 119
     }
 }

@@ -1,11 +1,14 @@
 {
-    "5600" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Wyoming's at-large congressional district",
-        "state" : "Wyoming",
-        "districtNumber" : 0,
-        "officeID" : "5600",
-        "descriptors" : []
+    "5600": {
+        "name": "Wyoming's at-large congressional district",
+        "state": "Wyoming",
+        "districtNumber": 0,
+        "officeID": "WY00",
+        "geoID": "5600",
+        "color": "#68b8c8",
+        "descriptors": [
+            "WYOMING"
+        ],
+        "congressionalSession": 119
     }
 }

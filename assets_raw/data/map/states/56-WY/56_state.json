@@ -2,11 +2,27 @@
     "FIPS" : "56",
     "commonName" : "Wyoming",
     "fullName" : "State of Wyoming",
-    "flagFile" : "wyoming_flag.png",
     "abbreviation" : "WY",
-    "demonym" : "Wyomingite",
-    "nickname" : "Equality State",
-    "motto" : "Equal Rights",
+    "type" : "state",
+    "demonymicNoun" : "Wyomingite",
+    "demonymicNounPlural" : "Wyomingites",
+    "demonymicAdjective" : "Wyomingite",
+    "symbols" : {
+        "flag" : {
+            "name" : "Flag of Wyoming",
+            "file" : "wyoming_flag.png"
+        },
+        "mottos" : [
+            {
+                "motto" : "Equal Rights"
+            }
+        ],
+        "nicknames" : [
+            "Equality State",
+            "Cowboy State",
+            "Forever West"
+        ]
+    },
     "capital" : "Cheyenne",
     "federalCourtCircuit" : 10,
     "censusDivision" : "Mountain",

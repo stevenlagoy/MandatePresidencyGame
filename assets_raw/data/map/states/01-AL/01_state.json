@@ -3,6 +3,7 @@
     "commonName" : "Alabama",
     "fullName" : "State of Alabama",
     "abbreviation" : "AL",
+    "type" : "state",
     "demonymicNoun" : "Alabamian",
     "demonymicPluralNoun" : "Alabamians",
     "demonymicAdjective" : "Alabamian",
@@ -98,6 +99,7 @@
         "battleship" : "USS *Alabama* (BB-60)"
     },
     "capital" : "Montgomery, Montgomery County, AL",
+    "admissionDate" : "14 December 1819",
     "federalCourtCircuit" : 11,
     "censusDivison" : "East South Central",
     "descriptors" : [
@@ -108,10 +110,69 @@
     "allowedSubdivisionTypes" : [
         "Census County Division"
     ],
-    "allowedPlaceTypes" : [
-        "City",
-        "Town",
-        "Census-Designated Place"
+    "placeTypes" : [
+        {
+            "placeCategory" : "City",
+            "name" : "Class 1 municipality",
+            "populationRequirement1970" : 300000,
+            "automaticStatusChange" : false,
+            "count" : 1
+        },
+        {
+            "placeCategory" : "City",
+            "name" : "Class 2 city",
+            "populationRequirement1970" : 175000,
+            "automaticStatusChange" : false,
+            "count" : 1
+        },
+        {
+            "placeCategory" : "City",
+            "name" : "Class 3 city",
+            "populationRequirement1970" : 100000,
+            "automaticStatusChange" : false,
+            "count" : 2
+        },
+        {
+            "placeCategory" : "City",
+            "name" : "Class 4 city",
+            "populationRequirement1970" : 50000,
+            "automaticStatusChange" : false,
+            "count" : 2
+        },
+        {
+            "placeCategory" : "City",
+            "name" : "Class 5 city",
+            "populationRequirement1970" : 25000,
+            "automaticStatusChange" : false
+        },
+        {
+            "placeCategory" : "City",
+            "name" : "Class 6 city",
+            "populationRequirement1970" : 12000,
+            "automaticStatusChange" : false
+        },
+        {
+            "placeCategory" : "City",
+            "name" : "Class 7 city",
+            "populationRequirement1970" : 6000,
+            "automaticStatusChange" : false
+        },
+        {
+            "placeCategory" : "City",
+            "name" : "Class 8 city",
+            "populationRequirement" : 2000,
+            "automaticStatusChange" : true
+        },
+        {
+            "placeCategory" : "Town",
+            "name" : "Class 8 town",
+            "populationRequirement" : 0,
+            "automaticStatusChange" : true
+        },
+        {
+            "placeCategory" : "Census-Designated Place",
+            "name" : "CDP"
+        }
     ],
     "government" : {
         "name" : "Government of Alabama",

@@ -1,29 +1,38 @@
 {
-    "3501" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New Mexico's 1st congressional district",
-        "state" : "New Mexico",
-        "districtNumber" : 1,
-        "officeID" : "3501",
-        "descriptors" : []
+    "3501": {
+        "name": "New Mexico's 1st congressional district",
+        "state": "New Mexico",
+        "districtNumber": 1,
+        "officeID": "NM01",
+        "geoID": "3501",
+        "color": "#a559d8",
+        "descriptors": [
+            "NEW MEXICO"
+        ],
+        "congressionalSession": 119
     },
-    "3502" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New Mexico's 2nd congressional district",
-        "state" : "New Mexico",
-        "districtNumber" : 2,
-        "officeID" : "3502",
-        "descriptors" : []
+    "3502": {
+        "name": "New Mexico's 2nd congressional district",
+        "state": "New Mexico",
+        "districtNumber": 2,
+        "officeID": "NM02",
+        "geoID": "3502",
+        "color": "#2edac0",
+        "descriptors": [
+            "NEW MEXICO"
+        ],
+        "congressionalSession": 119
     },
-    "3503" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New Mexico's 3rd congressional district",
-        "state" : "New Mexico",
-        "districtNumber" : 3,
-        "officeID" : "3503",
-        "descriptors" : []
+    "3503": {
+        "name": "New Mexico's 3rd congressional district",
+        "state": "New Mexico",
+        "districtNumber": 3,
+        "officeID": "NM03",
+        "geoID": "3503",
+        "color": "#de9946",
+        "descriptors": [
+            "NEW MEXICO"
+        ],
+        "congressionalSession": 119
     }
 }

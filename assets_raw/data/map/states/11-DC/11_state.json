@@ -2,12 +2,58 @@
     "FIPS" : "11",
     "commonName" : "District of Columbia",
     "fullName" : "District of Columbia",
-    "map_color" : "#C432FF",
-    "flag_loc" : "district_of_columbia_flag.png",
-    "population" : 689545,
-    "squareMileage" : 68,
     "abbreviation" : "DC",
-    "demonym" : "Washingtonian",
+    "type" : "federal district",
+    "demonymicNoun" : "Washingtonian",
+    "demonymicPluralNoun" : "Washingtonian",
+    "demonymicAdjective" : "Washingtonian",
+    "symbols" : {
+        "nicknames" : [
+            "Nation's Capital",
+            "DMV",
+            "Inside the Beltway"
+        ],
+        "flag" : {
+            "name" : "Flag of the District of Columbia",
+            "description" : "White field with two red horizontal bars and three red stars above the bars.",
+            "symbolism" : "The design of the flag comes from the Washington family, and was used extensively on George Washington's Mount Vernon plantation. For many years, the District of Columbia had no official District flag, but this changed in 1938 when a Congressionally-appointed commission selected a flag with minimal local input. At the time of the flag's adoption, it was viewed as a symbol of the District's lack of self-governance. Today, however, the flag is considered among the best city flags in the nation and has become a cultural phenomenon among D.C. locals.",
+            "file" : "dc_flag.png"
+        },
+        "seal" : {
+            "name" : "Great Seal of the District of Columbia",
+            "description" : "George Washington on a pedestal, with a sword in his right hand and a fasces with axe in his left hand. Standing on the ground to the right is a blindfolded woman with the Constitution in her left hand and a wreath in her right. On her right is an American bald eagle with agricultural products behind it. In the background is the Potomac River and the Untied States Capital to the right, and a train and sun on the left. Beneath all is written \"1871\" in a wreath, with \"JUSTITIA OMNIBUS\" on a scroll underneath.",
+            "symbolism" : "George Washington was the first president of the United States and the namesake of Washington, D.C. The sword represents the power of the the nation and the federal government, while the fasces represents the collective power of the people and state. The blindfolded woman is Justice, who holds a wreath symbolizing fairness and the rule of law. The eagle symbolizes the nation, and agricultural products represent farming and agriculture. The train and sun in the background represent progress, industry, and modernization. The year 1871 marks when the District of Columbia was organized into a territorial government. *Justitia Omnibus* is the motto of the District.",
+            "file" : "dc_seal.png"
+        },
+        "coat_of_arms" : {
+            "name" : "Historical Coat of Arms of the District of Columbia",
+            "description" : "Columbia seated with liberty pole in right hand and the Constitution in left hand. To the right, a shield with cameo of George Washington, and to the left, an American bald eagle with the national crest. In the background, the United States Capital on the right and a train on the left. Below, the year \"1871\" and a ribbon with the motto \"JUSTITIA OMNIBUS.\"",
+            "symbolism" : "The lady Columbia is a personification of the new world and the nation of America, and symbolizes independence, liberty, and freedom. The liberty pole consists of a spear topped with a Phrygian cap, symbolizing liberty and freedom from tyrrany. The Constitution similarly represents the rule of law. The shield and cameo of George Washington demonstrates his importance to the founding of the nation and the namesake of the national capital. The bald eagle represents the federal government, as does the Capital building in the background. The train represents progress, industry, and modernization. The year 1871 marks when the District of Columbia was organized into a territorial government. *Justitia Omnibus* is the motto of the District.",
+            "file" : "dc_historical_coa.png"
+        },
+        "mottos" : [
+            {
+                "motto" : "*Justitia Omnibus*",
+                "translation" : "Justice for All",
+                "language" : "Latin"
+            }
+        ],
+        "bird" : "wood thrush",
+        "crustacean" : "Hay's spring amphipod",
+        "dinosaur" : "Capitalsaurus",
+        "fish" : "American shad",
+        "flower" : "'American Beauty' rose",
+        "fruit" : "cherry",
+        "mammal" : "big brown bat",
+        "tree" : "scarlet oak",
+        "rock" : "Potomac bluestone",
+        "beverege" : "Rickey",
+        "dance" : "hand dancing",
+        "march" : "\"Our Nation's Capitol\"",
+        "music" : "Go-go",
+        "song" : "\"Washington\"",
+        "quarter" : "District of Columbia quarter featuring Duke Ellington seated at a grand piano, with caption \"Justice for all.\""
+    },
     "motto" : "Justitia Omnibus",
     "nickname" : "National Capital",
     "capital" : "Washington",
@@ -19,44 +65,56 @@
         "SOUTH_ATLANTIC"
     ],
     "countySubdivisionCategory" : "MCD",
-    "allowed_subdivision_types" : [
-        "City"
+    "placeTypes" : [
+        {
+            "placeCategory" : "City",
+            "name" : "City",
+            "count" : 1
+        }
     ],
     "government" : {
-        "name" : "",
-        "constituency" : "",
-        "federalLevel" : "",
-        "constitution" : "",
+        "name" : "Government of the District of Columbia",
+        "constitution" : "District of Columbia Home Rule Act",
         "executiveBranch" : {
             "positions" : {
-                "" : {
-                    "title" : ""
+                "mayor" : {
+                    "title" : "Mayor of the District of Columbia"
+                },
+                "deputy_mayor_for_education" : {
+                    "title" : "Deputy Mayor for Education"
+                },
+
+                "deputy_mayor_for_health_and_human_services" : {
+                    "title" : "Deputy Mayor for Health and Human Services"
+                },
+
+                "deputy_mayor_for_planning_and_economic_development" : {
+                    "title" : "Deputy Mayor for Planning and Economic Development"
+                },
+
+                "deputy_mayor_for_public_safety_and_justice" : {
+                    "title" : "Deputy Mayor for Public Safety and Justice"
+                },
+
+                "deputy_mayor_for_operations_and_infrastructure" : {
+                    "title" : "Deputy Mayor for Operations and Infrastructure"
                 }
             }
         },
         "legislativeBranch" : {
-            "title" : "",
+            "title" : "Council of the District of Columbia",
             "chambers" : {
-                "" : {
-                    "name" : "",
-                    "isUpperChamber" : true,
-                    "termLength" : 0,
-                    "nextElectionDate" : "",
-                    "seats" : 0,
+                "council_of_the_district_of_columbia" : {
+                    "name" : "Council of the District of Columbia",
+                    "termLength" : 4,
+                    "nextElectionDate" : "03 November 2026",
+                    "seats" : 13,
                     "positions" : {
-                        "" : {
-                            "title" : ""
-                        }
-                    }
-                },
-                "" : {
-                    "name" : "",
-                    "termLength" : 0,
-                    "nextElectionDate" : "",
-                    "seats" : 0,
-                    "positions" : {
-                        "" : {
-                            "title" : ""
+                        "ward_council_member" : {
+                            "title" : "Ward Member of the Council of the District of Columbia"
+                        },
+                        "at_large_council_member" : {
+                            "title" : "At-large Member of the Council of the District of Columbia"
                         }
                     }
                 }

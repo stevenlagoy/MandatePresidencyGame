@@ -1,137 +1,182 @@
 {
-    "3901" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Ohio's 1st congressional district",
-        "state" : "Ohio",
-        "districtNumber" : 1,
-        "officeID" : "3901",
-        "descriptors" : []
+    "3901": {
+        "name": "Ohio's 1st congressional district",
+        "state": "Ohio",
+        "districtNumber": 1,
+        "officeID": "OH01",
+        "geoID": "3901",
+        "color": "#13e26a",
+        "descriptors": [
+            "OHIO"
+        ],
+        "congressionalSession": 119
     },
-    "3910" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Ohio's 10th congressional district",
-        "state" : "Ohio",
-        "districtNumber" : 10,
-        "officeID" : "3910",
-        "descriptors" : []
+    "3910": {
+        "name": "Ohio's 10th congressional district",
+        "state": "Ohio",
+        "districtNumber": 10,
+        "officeID": "OH10",
+        "geoID": "3910",
+        "color": "#374bdd",
+        "descriptors": [
+            "OHIO"
+        ],
+        "congressionalSession": 119
     },
-    "3911" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Ohio's 11th congressional district",
-        "state" : "Ohio",
-        "districtNumber" : 11,
-        "officeID" : "3911",
-        "descriptors" : []
+    "3911": {
+        "name": "Ohio's 11th congressional district",
+        "state": "Ohio",
+        "districtNumber": 11,
+        "officeID": "OH11",
+        "geoID": "3911",
+        "color": "#0cbece",
+        "descriptors": [
+            "OHIO"
+        ],
+        "congressionalSession": 119
     },
-    "3912" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Ohio's 12th congressional district",
-        "state" : "Ohio",
-        "districtNumber" : 12,
-        "officeID" : "3912",
-        "descriptors" : []
+    "3912": {
+        "name": "Ohio's 12th congressional district",
+        "state": "Ohio",
+        "districtNumber": 12,
+        "officeID": "OH12",
+        "geoID": "3912",
+        "color": "#2def94",
+        "descriptors": [
+            "OHIO"
+        ],
+        "congressionalSession": 119
     },
-    "3913" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Ohio's 13th congressional district",
-        "state" : "Ohio",
-        "districtNumber" : 13,
-        "officeID" : "3913",
-        "descriptors" : []
+    "3913": {
+        "name": "Ohio's 13th congressional district",
+        "state": "Ohio",
+        "districtNumber": 13,
+        "officeID": "OH13",
+        "geoID": "3913",
+        "color": "#51e8c2",
+        "descriptors": [
+            "OHIO"
+        ],
+        "congressionalSession": 119
     },
-    "3914" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Ohio's 14th congressional district",
-        "state" : "Ohio",
-        "districtNumber" : 14,
-        "officeID" : "3914",
-        "descriptors" : []
+    "3914": {
+        "name": "Ohio's 14th congressional district",
+        "state": "Ohio",
+        "districtNumber": 14,
+        "officeID": "OH14",
+        "geoID": "3914",
+        "color": "#9eec83",
+        "descriptors": [
+            "OHIO"
+        ],
+        "congressionalSession": 119
     },
-    "3915" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Ohio's 15th congressional district",
-        "state" : "Ohio",
-        "districtNumber" : 15,
-        "officeID" : "3915",
-        "descriptors" : []
+    "3915": {
+        "name": "Ohio's 15th congressional district",
+        "state": "Ohio",
+        "districtNumber": 15,
+        "officeID": "OH15",
+        "geoID": "3915",
+        "color": "#366bdc",
+        "descriptors": [
+            "OHIO"
+        ],
+        "congressionalSession": 119
     },
-    "3902" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Ohio's 2nd congressional district",
-        "state" : "Ohio",
-        "districtNumber" : 2,
-        "officeID" : "3902",
-        "descriptors" : []
+    "3902": {
+        "name": "Ohio's 2nd congressional district",
+        "state": "Ohio",
+        "districtNumber": 2,
+        "officeID": "OH02",
+        "geoID": "3902",
+        "color": "#a2ef44",
+        "descriptors": [
+            "OHIO"
+        ],
+        "congressionalSession": 119
     },
-    "3903" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Ohio's 3rd congressional district",
-        "state" : "Ohio",
-        "districtNumber" : 3,
-        "officeID" : "3903",
-        "descriptors" : []
+    "3903": {
+        "name": "Ohio's 3rd congressional district",
+        "state": "Ohio",
+        "districtNumber": 3,
+        "officeID": "OH03",
+        "geoID": "3903",
+        "color": "#99cc57",
+        "descriptors": [
+            "OHIO"
+        ],
+        "congressionalSession": 119
     },
-    "3904" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Ohio's 4th congressional district",
-        "state" : "Ohio",
-        "districtNumber" : 4,
-        "officeID" : "3904",
-        "descriptors" : []
+    "3904": {
+        "name": "Ohio's 4th congressional district",
+        "state": "Ohio",
+        "districtNumber": 4,
+        "officeID": "OH04",
+        "geoID": "3904",
+        "color": "#d0e25a",
+        "descriptors": [
+            "OHIO"
+        ],
+        "congressionalSession": 119
     },
-    "3905" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Ohio's 5th congressional district",
-        "state" : "Ohio",
-        "districtNumber" : 5,
-        "officeID" : "3905",
-        "descriptors" : []
+    "3905": {
+        "name": "Ohio's 5th congressional district",
+        "state": "Ohio",
+        "districtNumber": 5,
+        "officeID": "OH05",
+        "geoID": "3905",
+        "color": "#bf11d2",
+        "descriptors": [
+            "OHIO"
+        ],
+        "congressionalSession": 119
     },
-    "3906" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Ohio's 6th congressional district",
-        "state" : "Ohio",
-        "districtNumber" : 6,
-        "officeID" : "3906",
-        "descriptors" : []
+    "3906": {
+        "name": "Ohio's 6th congressional district",
+        "state": "Ohio",
+        "districtNumber": 6,
+        "officeID": "OH06",
+        "geoID": "3906",
+        "color": "#5aef75",
+        "descriptors": [
+            "OHIO"
+        ],
+        "congressionalSession": 119
     },
-    "3907" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Ohio's 7th congressional district",
-        "state" : "Ohio",
-        "districtNumber" : 7,
-        "officeID" : "3907",
-        "descriptors" : []
+    "3907": {
+        "name": "Ohio's 7th congressional district",
+        "state": "Ohio",
+        "districtNumber": 7,
+        "officeID": "OH07",
+        "geoID": "3907",
+        "color": "#9d16e0",
+        "descriptors": [
+            "OHIO"
+        ],
+        "congressionalSession": 119
     },
-    "3908" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Ohio's 8th congressional district",
-        "state" : "Ohio",
-        "districtNumber" : 8,
-        "officeID" : "3908",
-        "descriptors" : []
+    "3908": {
+        "name": "Ohio's 8th congressional district",
+        "state": "Ohio",
+        "districtNumber": 8,
+        "officeID": "OH08",
+        "geoID": "3908",
+        "color": "#31cb29",
+        "descriptors": [
+            "OHIO"
+        ],
+        "congressionalSession": 119
     },
-    "3909" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Ohio's 9th congressional district",
-        "state" : "Ohio",
-        "districtNumber" : 9,
-        "officeID" : "3909",
-        "descriptors" : []
+    "3909": {
+        "name": "Ohio's 9th congressional district",
+        "state": "Ohio",
+        "districtNumber": 9,
+        "officeID": "OH09",
+        "geoID": "3909",
+        "color": "#23d413",
+        "descriptors": [
+            "OHIO"
+        ],
+        "congressionalSession": 119
     }
 }

@@ -2,11 +2,99 @@
     "FIPS" : "13",
     "commonName" : "Georgia",
     "fullName" : "State of Georgia",
-    "flagFile" : "georgia_flag.png",
     "abbreviation" : "GA",
-    "demonym" : "Georgian",
-    "nickname" : "Peach State",
-    "motto" : "Wisdom, Justice, Moderation",
+    "type" : "state",
+    "demonymicNoun" : "Georgian",
+    "demonymicNounPlural" : "Georgian",
+    "demonymicAdjective" : "Georgian",
+    "symbols" : {
+        "nicknames" : [
+            "Peach State",
+            "Empire State of the South",
+            "Goober State",
+            "State of Adventure",
+            "Cracker State"
+        ],
+        "flag" : {
+            "name" : "Flag of Georgia",
+            "description" : "Three horizontal stripes alternating red, white, red; in the canton, 13 white stars encircling the state's coat of arms on a blue field.",
+            "symbolism" : "The design is based on the First National Flag of the Confederacy, nicknamed the \"Stars and Bars.\" The thirteen stars represent the original thirteen colonies.",
+            "file" : "georgia_flag.png"
+        },
+        "coat of amrs" : {
+            "name" : "Coat of Arms of the State of Georgia",
+            "description" : "An arch with three columns, with the words \"Wisdom, Justice, Moderation\" inscribed on scrolls wrapped around the columns. A Georgia Militiaman stands between the second and third columns holding a drawn sword in his right hand.",
+            "symbolism" : "The arch symbolizes the Constitution of Georgia, and the three columns represent the three branches of government: legislative, executive, and judicial. The militiaman represents the citizen-soldier's defense of the state Constitution.",
+            "file" : "georgia_coa.png"
+        },
+        "seal" : {
+            "name" : "Great Seal of the State of Georgia",
+            "description" : "On the obverse is centered the coat of arms of the state, surrounded by a border with the words, \"State of Georgia, 1776.\" On the reverse is an image of Georgia's coast, with a ship bearing American flag arriving to take aboard tobacco and cotton, symbolizing export trade. A second, smaller boat represents internal traffic. On the left is a man plowing and a flock of sheep, representing agriculture. The motto \"Agriculture and COmmerce, 1776\" is inscribed around the outside of the image.",
+            "file" : "georgia_seal.png"
+        },
+        "mottos" : [
+            {
+                "motto" : "Wisdom, Justice, Moderation"
+            }
+        ],
+        "flagFile" : "georgia_flag.png",
+        "motto" : "Wisdom, Justice, Moderation",
+        "creed" : "Accepting, as I do, the principles upon which Georgia was founded, not for self but others; -- its Democratic form of Government, based on 'Wisdom, Justice and Moderation'; --its natural resources; -- its Educational, Social and Religious advantages, making it a most desirable place to live -- I will strive to be a pure upright Citizen, rejecting the evils -- loving and emulating the good.\nI further believe it is my duty to defend it against all enemies, to honor and obey its laws, to apply the Golden Rule in all my dealings with my fellow Citizens.\nI feel a sense of pride in the history and heroic deeds accomplished by my forebears, and shall endeavor to so live that my State will be proud of me for doing my bit to make my State a better Commonwealth for future generations.",
+        "song" : "\"Georgia on My Mind\"",
+        "crop" : "peanut",
+        "flower" : "sweetbay magnolia",
+        "fruit" : "peach",
+        "grape" : "muscadine grape",
+        "nut" : "pecan",
+        "tree" : "southern live oak",
+        "vegetable" : "Vidalia sweet onion",
+        "wildflower" : "azalea",
+        "amphibian" : "American green tree frog",
+        "bird" : "brown thrasher",
+        "butterfly" : "eastern tiger swallowtail",
+        "cold water game fish" : "southern Appalachian brook trout",
+        "crustacean" : "white shrimp",
+        "dog" : "\"Adoptable Dog\"",
+        "fish" : "largemouth bass",
+        "game bird" : "bobwhite quail",
+        "insect" : "honeybee",
+        "mammal" : "white-tailed deer",
+        "marine mammal" : "North American right whale",
+        "reptile" : "gopher tortoise",
+        "riverine sport fish" : "shoal bass",
+        "salt water fish" : "red drum",
+        "fossil" : "shark tooth",
+        "gem" : "quartz",
+        "mineral" : "staurolite",
+        "seashell" : "knobbed whelk",
+        "art museum" : "Georgia Museum of Art",
+        "atlas" : "The Atlas of Georgia",
+        "ballet company" : "Atlanta Ballet",
+        "beef barbecue championship cook-off" : "The Hawkinsville Civitan Club's \"Shoot the Bull\" barbecue championship",
+        "botanical garden" : "State Botanical Garden of Georgia",
+        "center for character education" : "National Museum of the Mighty Eighth Air Force",
+        "first mural city" : "Colquitt, Miller County, Georgia",
+        "folk dance" : "square dance",
+        "folk festival" : "Georgia Folk Festival",
+        "folk life play" : "*Swamp Gravy*",
+        "frontier and southeastern Indian interpretive center" : "Funk Heritage Center",
+        "historic drama" : "*The Reach of Song*",
+        "historical civil rights museum" : "Ralph Mark Gilbert Civil Rights Museum",
+        "musical theater" : "Jekyll Island Musical Theatre Festival",
+        "peanut monument" : "Ashburn, Turner County, Georgia",
+        "poet laureate" : "Poet Laureate of Georgia",
+        "pork cook-off" : "The Dooly County Chamber of Commerce's \"Slosheye Trail Big Pig Jig\"",
+        "'possum" : "Pogo 'Possum",
+        "prepared food" : "grits",
+        "railroad museum" : "The Central of Georgia Railroad Shops Complex",
+        "school" : "Plains High School",
+        "soap box derby" : "Southeast Georgia Soap Box Derby",
+        "tartan" : "Georgia Tartan",
+        "theater" : "Springer Opera House",
+        "transportation history museum" : "Southeastern Railway Museum",
+        "waltz" : "\"Our Georgia\"",
+        "quarter" : "State quarter featuring peach, live oak sprigs, and state outline (missing Dade County) with text: \"Wisdom, Justice, Moderation.\""
+    },
     "capital" : "Atlanta",
     "federalCourtCircuit" : 11,
     "censusDivision" : "South Atlantic",
@@ -19,66 +107,214 @@
         "Census County Division",
         "County Balance"
     ],
-    "allowedPlaceTypes" : [
-        "City",
-        "Town",
-        "Census-Designated Place"
+    "placeTypes" : [
+        {
+            "placeCategory" : "City",
+            "name" : "City"
+        },
+        {
+            "placeCategory" : "Consolidated City-County",
+            "name" : "Consolidated City-County"
+        },
+        {
+            "placeCategory" : "Consolidated City-County",
+            "name" : "Unified Government",
+            "count" : 2
+        },
+        {
+            "placeCategory" : "County Balance",
+            "name" : "Consolidated City",
+            "count" : 2
+        },
+        {
+            "placeCategory" : "Town",
+            "name" : "Town"
+        },
+        {
+            "placeCategory" : "Census-Designated Place",
+            "name" : "CDP"
+        }
     ],
     "government" : {
-        "name" : "",
-        "constituency" : "",
-        "federalLevel" : "",
-        "constitution" : "",
+        "name" : "State Government of Georgia",
+        "constitution" : "Constitution of Georgia",
         "branches" : {
             "executiveBranch" : {
                 "positions" : {
-                    "" : {
-                        "title" : ""
+                    "governor" : {
+                        "title" : "Governor of Georgia"
+                    },
+                    "lieutenant_governor" : {
+                        "title" : "Lieutenant Governor of Georgia"
+                    },
+                    "attorney_general" : {
+                        "title" : "Attorney General of Georgia"
+                    },
+                    "secretary_of_state" : {
+                        "title" : "Secretary of State of Georgia"
+                    },
+                    "state_school_superintendent" :  {
+                        "title" : "Georgia State School Superintendent"
+                    },
+                    "insurance_commissioner" : {
+                        "title" : "Georgia Insurance Commissioner"
+                    },
+                    "agriculture_commissioner" :  {
+                        "title" : "Georgia Agriculture Commissioner"
+                    },
+                    "labor_commissioner" : {
+                        "title" : "Georgia Labor Commissioner"
+                    },
+                    "public_service_commission_chairman" :  {
+                        "title" : "Chairman of the Georgia Public Service Commission"
+                    },
+                    "public_service_commission_vice_chairman" : {
+                        "title" : "Vice-Chairman of the Georgia Public Service Commission"
+                    },
+                    "public_service_commissioner" : {
+                        "title" : "Georgia Public Service Commissioner"
+                    },
+                    "state_auditor" : {
+                        "title" : "Georgia State Auditor"
+                    },
+                    "state_treasurer" : {
+                        "title" : "Georgia State Treasurer"
+                    },
+                    "commissioner_of_natural_resources" : {
+                        "title" : "Georgia Commissioner of Natural Resources"
                     }
                 }
             },
             "legislativeBranch" : {
-                "title" : "",
+                "title" : "Georgia General Assembly",
                 "chambers" : {
-                    "" : {
-                        "name" : "",
+                    "senate" : {
+                        "name" : "Georgia Senate",
                         "isUpperChamber" : true,
-                        "termLength" : 0,
-                        "nextElectionDate" : "",
-                        "seats" : 0,
+                        "termLength" : 2,
+                        "nextElectionDate" : "03 November 2026",
+                        "seats" : 56,
                         "positions" : {
-                            "" : {
-                                "title" : ""
+                            "georgia_senator" : {
+                                "title" : "Georgia State Senator"
+                            },
+                            "georgia_senate_president" : {
+                                "title": "President of the Georgia State Senate",
+                                "coincident" : "lieutenant_governor"
+                            },
+                            "georgia_senate_president_pro_tempore" : {
+                                "title" : "President pro tempore of the Georgia State Senate"
+                            },
+                            "georgia_senate_majority_leader" : {
+                                "title" : "Majority leader of the Georgia State Senate"
+                            },
+                            "georgia_senate_majority_whip" : {
+                                "title" : "Majority whip of the Georgia State Senate"
+                            },
+                            "georgia_senate_majority_caucus_chairman" : {
+                                "title" : "Majority caucus chairman of the Georgia State Senate"
+                            },
+                            "georgia_senate_majority_caucus_vice_chairman" : {
+                                "title" : "Majority caucus vice-chairman of the Georgia State Senate"
+                            },
+                            "georgia_senate_majority_caucus_secretary" : {
+                                "title" : "Majority caucus secretary of the Georgia State Senate"
+                            },
+                            "georgia_senate_minority_leader" : {
+                                "title" : "Minority leader of the Georgia State Senate"
+                            },
+                            "georgia_senate_minority_whip" : {
+                                "title" : "Minority whip of the Georgia State Senate"
+                            },
+                            "georgia_senate_minority_caucus_chair" : {
+                                "title" : "Minority caucus chair of the Georgia State Senate"
+                            },
+                            "georgia_senate_minority_caucus_vice_chair" : {
+                                "title" : "Minority caucus vice-chair of the Georgia State Senate"
+                            },
+                            "georgia_senate_minority_caucus_vice_chair_of_finance" : {
+                                "title" : "Minority caucus vice-chair of finance of the Georgia State Senate"
+                            },
+                            "georgia_senate_minority_caucus_secretary" : {
+                                "title" : "Minority caucus secretary of the Georgia State Senate"
                             }
                         }
                     },
-                    "" : {
-                        "name" : "",
-                        "termLength" : 0,
-                        "nextElectionDate" : "",
-                        "seats" : 0,
+                    "house_of_representatives" : {
+                        "name" : "Georgia House of Representatives",
+                        "termLength" : 2,
+                        "nextElectionDate" : "03 November 2026",
+                        "seats" : 180,
                         "positions" : {
-                            "" : {
-                                "title" : ""
+                            "georgia_representative" : {
+                                "title" : "Georgia State Representative"
+                            },
+                            "georgia_house_speaker" : {
+                                "title" : "Speaker of the Georgia House of Representatives"
+                            },
+                            "georgia_house_speaker_pro_tempore" : {
+                                "title" : "Speaker pro tempore of the Georgia House of Representatives"
+                            },
+                            "georgia_house_majority_leader" : {
+                                "title" : "Majority Leader of the Georgia House of Representatives"
+                            },
+                            "georgia_house_majority_whip" : {
+                                "title" : "Majority Whip of the Georgia House of Representatives"
+                            },
+                            "georgia_house_majority_caucus_chairman" : {
+                                "title" : "Majority Caucus Chairman of the Georgia House of Representatives"
+                            },
+                            "georgia_house_majority_caucus_vice_chairman" : {
+                                "title" : "Majority Caucus Vice-Chairman of the Georgia House of Representatives"
+                            },
+                            "georgia_house_majority_caucus_secretary_treasurer" : {
+                                "title" : "Majority Caucus Secretary/Treasurer of the Georgia House of Representatives"
+                            },
+                            "georgia_house_majority_caucus_cheif_deputy_whip" : {
+                                "title" : "Majority Caucus Chief Deputy Whip of the Georgia House of Representatives"
+                            },
+                            "georgia_house_minority_leader" : {
+                                "title" : "Minority Leader of the Georgia House of Representatives"
+                            },
+                            "georgia_house_minority_whip" : {
+                                "title" : "Minority Whip of the Georgia House of Representatives"
+                            },
+                            "georgia_house_minority_caucus_chairman" : {
+                                "title" : "Minority Caucus Chairman of the Georgia House of Representatives"
+                            },
+                            "georgia_house_minority_caucus_vice_chairman" : {
+                                "title" : "Minority Caucus Vice-Chairman of the Georgia House of Representatives"
+                            },
+                            "georgia_house_minority_caucus_secretary" : {
+                                "title" : "Minority Caucus Secretary of the Georgia House of Representatives"
+                            },
+                            "georgia_house_minority_caucus_treasurer" : {
+                                "title" : "Minority Caucus Treasurer of the Georgia House of Representatives"
+                            },
+                            "georgia_house_minority_caucus_chief_deputy_whip" : {
+                                "title" : "Minority Caucus Chief Deputy Whip of the Georgia House of Representatives"
                             }
                         }
                     }
                 }
             },
             "judicialBranch" : {
-                "title" : "",
+                "title" : "Judiciary of Georgia",
                 "supreme_court" : {
-                    "fullName" : "",
-                    "commonName" : "",
-                    "basis" : "",
-                    "judges" : 0,
+                    "fullName" : "Supreme Court of Georgia",
+                    "basis" : "Atlanta, Fulton County, Georgia",
+                    "judges" : 9,
                     "appellate_courts" : {
-                        "" : {
-                            "fullName" : "",
-                            "basis" : "",
-                            "judges" : 0,
-                            "termLength" : 0,
+                        "court_of_appeals" : {
+                            "fullName" : "Georgia Court of Appeals",
+                            "basis" : "Atlanta, Fulton County, Georgia",
+                            "judges" : 15,
+                            "termLength" : 6,
                             "nextElectionDate" : ""
+                        },
+                        "superior_courts" : {
+                            "fullanme" : "Georgia Superior Court",
+                            "count" : 49
                         }
                     }
                 }

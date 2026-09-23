@@ -3,6 +3,7 @@
     "commonName" : "Alaska",
     "fullName" : "State of Alaska",
     "abbreviation" : "AK",
+    "type" : "state",
     "demonymicNoun" : "Alaskan",
     "demonymicNounPlural" : "Alaskans",
     "demonymicAdjective" : "Alaskan",
@@ -62,10 +63,39 @@
         "Census Subarea",
         "Consolidated City-County"
     ],
-    "allowedPlaceTypes" : [
-        "City",
-        "Town",
-        "Census-Designated Place"
+    "placeTypes" : [
+        {
+            "placeCategory" : "Consolidated City-County",
+            "name" : "unified home rule municipality",
+            "populationRequirement" : 400,
+            "count" : 4,
+            "automaticStatusChange" : false
+        },
+        {
+            "placeCategory" : "City",
+            "name" : "home rule city",
+            "populationRequirement" : 400,
+            "count" : 10,
+            "automaticStatusChange" : false
+        },
+        {
+            "placeCategory" : "City",
+            "name" : "general law first class city",
+            "populationRequirement" : 400,
+            "count" : 19,
+            "automaticStatusChange" : false
+        },
+        {
+            "placeCategory" : "City",
+            "name" : "general law second class city",
+            "populationRequirement" : 0,
+            "count" : 116,
+            "automaticStatusChange" : false
+        },
+        {
+            "placeCategory" : "Census-Designated Place",
+            "name" : "CDP"
+        }
     ],
     "government" : {
         "name" : "Government of Alaska",

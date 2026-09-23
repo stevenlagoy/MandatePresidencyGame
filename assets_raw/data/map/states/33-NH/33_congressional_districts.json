@@ -1,20 +1,38 @@
 {
-    "3301" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New Hampshire's 1st congressional district",
-        "state" : "New Hampshire",
-        "districtNumber" : 1,
-        "officeID" : "3301",
-        "descriptors" : []
+    "3301": {
+        "name": "New Hampshire's 1st congressional district",
+        "state": "New Hampshire",
+        "districtNumber": 1,
+        "officeID": "NH01",
+        "geoID": "3301",
+        "color": "#8aec81",
+        "descriptors": [
+            "NEW HAMPSHIRE"
+        ],
+        "congressionalSession": 119
     },
-    "3302" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "New Hampshire's 2nd congressional district",
-        "state" : "New Hampshire",
-        "districtNumber" : 2,
-        "officeID" : "3302",
-        "descriptors" : []
+    "3302": {
+        "name": "New Hampshire's 2nd congressional district",
+        "state": "New Hampshire",
+        "districtNumber": 2,
+        "officeID": "NH02",
+        "geoID": "3302",
+        "color": "#3481df",
+        "descriptors": [
+            "NEW HAMPSHIRE"
+        ],
+        "congressionalSession": 119
+    },
+    "33ZZ": {
+        "name": "Congressional Districts not defined",
+        "state": "New Hampshire",
+        "districtNumber": 0,
+        "officeID": "NHZZ",
+        "geoID": "33ZZ",
+        "color": "#b9ea74",
+        "descriptors": [
+            "NEW HAMPSHIRE"
+        ],
+        "congressionalSession": 119
     }
 }

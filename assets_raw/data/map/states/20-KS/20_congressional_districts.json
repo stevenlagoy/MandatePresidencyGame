@@ -1,38 +1,50 @@
 {
-    "2001" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Kansas's 1st congressional district",
-        "state" : "Kansas",
-        "districtNumber" : 1,
-        "officeID" : "2001",
-        "descriptors" : []
+    "2001": {
+        "name": "Kansas's 1st congressional district",
+        "state": "Kansas",
+        "districtNumber": 1,
+        "officeID": "KS01",
+        "geoID": "2001",
+        "color": "#7ec960",
+        "descriptors": [
+            "KANSAS"
+        ],
+        "congressionalSession": 119
     },
-    "2002" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Kansas's 2nd congressional district",
-        "state" : "Kansas",
-        "districtNumber" : 2,
-        "officeID" : "2002",
-        "descriptors" : []
+    "2002": {
+        "name": "Kansas's 2nd congressional district",
+        "state": "Kansas",
+        "districtNumber": 2,
+        "officeID": "KS02",
+        "geoID": "2002",
+        "color": "#7cc95b",
+        "descriptors": [
+            "KANSAS"
+        ],
+        "congressionalSession": 119
     },
-    "2003" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Kansas's 3rd congressional district",
-        "state" : "Kansas",
-        "districtNumber" : 3,
-        "officeID" : "2003",
-        "descriptors" : []
+    "2003": {
+        "name": "Kansas's 3rd congressional district",
+        "state": "Kansas",
+        "districtNumber": 3,
+        "officeID": "KS03",
+        "geoID": "2003",
+        "color": "#d940e1",
+        "descriptors": [
+            "KANSAS"
+        ],
+        "congressionalSession": 119
     },
-    "2004" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Kansas's 4th congressional district",
-        "state" : "Kansas",
-        "districtNumber" : 4,
-        "officeID" : "2004",
-        "descriptors" : []
+    "2004": {
+        "name": "Kansas's 4th congressional district",
+        "state": "Kansas",
+        "districtNumber": 4,
+        "officeID": "KS04",
+        "geoID": "2004",
+        "color": "#de6761",
+        "descriptors": [
+            "KANSAS"
+        ],
+        "congressionalSession": 119
     }
 }

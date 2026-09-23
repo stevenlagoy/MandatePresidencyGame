@@ -1,20 +1,26 @@
 {
-    "1601" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Idaho's 1st congressional district",
-        "state" : "Idaho",
-        "districtNumber" : 1,
-        "officeID" : "1601",
-        "descriptors" : []
+    "1601": {
+        "name": "Idaho's 1st congressional district",
+        "state": "Idaho",
+        "districtNumber": 1,
+        "officeID": "ID01",
+        "geoID": "1601",
+        "color": "#9354dc",
+        "descriptors": [
+            "IDAHO"
+        ],
+        "congressionalSession": 119
     },
-    "1602" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Idaho's 2nd congressional district",
-        "state" : "Idaho",
-        "districtNumber" : 2,
-        "officeID" : "1602",
-        "descriptors" : []
+    "1602": {
+        "name": "Idaho's 2nd congressional district",
+        "state": "Idaho",
+        "districtNumber": 2,
+        "officeID": "ID02",
+        "geoID": "1602",
+        "color": "#5c66e7",
+        "descriptors": [
+            "IDAHO"
+        ],
+        "congressionalSession": 119
     }
 }

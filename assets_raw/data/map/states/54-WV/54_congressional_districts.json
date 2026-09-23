@@ -1,20 +1,26 @@
 {
-    "5401" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "West Virginia's 1st congressional district",
-        "state" : "West Virginia",
-        "districtNumber" : 1,
-        "officeID" : "5401",
-        "descriptors" : []
+    "5401": {
+        "name": "West Virginia's 1st congressional district",
+        "state": "West Virginia",
+        "districtNumber": 1,
+        "officeID": "WV01",
+        "geoID": "5401",
+        "color": "#148ac9",
+        "descriptors": [
+            "WEST VIRGINIA"
+        ],
+        "congressionalSession": 119
     },
-    "5402" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "West Virginia's 2nd congressional district",
-        "state" : "West Virginia",
-        "districtNumber" : 2,
-        "officeID" : "5402",
-        "descriptors" : []
+    "5402": {
+        "name": "West Virginia's 2nd congressional district",
+        "state": "West Virginia",
+        "districtNumber": 2,
+        "officeID": "WV02",
+        "geoID": "5402",
+        "color": "#2652d5",
+        "descriptors": [
+            "WEST VIRGINIA"
+        ],
+        "congressionalSession": 119
     }
 }

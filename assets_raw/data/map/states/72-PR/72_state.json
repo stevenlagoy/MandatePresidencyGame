@@ -2,15 +2,29 @@
     "FIPS" : "72",
     "commonName" : "Puerto Rico",
     "fullName" : "Commonwealth of Puerto Rico",
-    "map_color" : "#FF3248",
-    "flag_loc" : "puerto_rico_flag.png",
-    "population" : 3285874,
-    "squareMileage" : 5325,
     "abbreviation" : "PR",
-    "demonym" : "Perto Rican",
-    "motto" : "Joannes Est Nomen Ejus",
-    "nickname" : "La Isla del Encanto",
-    "capital" : "San Juan",
+    "type" : "territory",
+    "demonymicNoun" : "Puerto Rican",
+    "demonymicNounPlural" : "Puerto Ricans",
+    "demonymicAdjective" : "Puerto Rican",
+    "symbols" : {
+        "flag" : {
+            "name" : "Flag of the Commonwealth of Puerto Rico",
+            "file" : "puerto_rico_flag.png"
+        },
+        "mottos" : [
+            {
+                "motto" : "Joannes est nomen ejus",
+                "meaning" : "John is his name",
+                "language" : "Latin"
+            }
+        ],
+        "nicknames" : [
+            "Isla del Encanto",
+            "Borinquen"
+        ]
+    },
+    "capital" : "San Juan, Puerto Rico",
     "federal_court_circuit" : 1,
     "descriptors" : [
         "PUERTO_RICO"

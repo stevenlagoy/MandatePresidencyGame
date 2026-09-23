@@ -1,101 +1,134 @@
 {
-    "5101" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Virginia's 1st congressional district",
-        "state" : "Virginia",
-        "districtNumber" : 1,
-        "officeID" : "5101",
-        "descriptors" : []
+    "5101": {
+        "name": "Virginia's 1st congressional district",
+        "state": "Virginia",
+        "districtNumber": 1,
+        "officeID": "VA01",
+        "geoID": "5101",
+        "color": "#3bc9e6",
+        "descriptors": [
+            "VIRGINIA"
+        ],
+        "congressionalSession": 119
     },
-    "5110" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Virginia's 10th congressional district",
-        "state" : "Virginia",
-        "districtNumber" : 10,
-        "officeID" : "5110",
-        "descriptors" : []
+    "5110": {
+        "name": "Virginia's 10th congressional district",
+        "state": "Virginia",
+        "districtNumber": 10,
+        "officeID": "VA10",
+        "geoID": "5110",
+        "color": "#d5a27c",
+        "descriptors": [
+            "VIRGINIA"
+        ],
+        "congressionalSession": 119
     },
-    "5111" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Virginia's 11th congressional district",
-        "state" : "Virginia",
-        "districtNumber" : 11,
-        "officeID" : "5111",
-        "descriptors" : []
+    "5111": {
+        "name": "Virginia's 11th congressional district",
+        "state": "Virginia",
+        "districtNumber": 11,
+        "officeID": "VA11",
+        "geoID": "5111",
+        "color": "#44caad",
+        "descriptors": [
+            "VIRGINIA"
+        ],
+        "congressionalSession": 119
     },
-    "5102" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Virginia's 2nd congressional district",
-        "state" : "Virginia",
-        "districtNumber" : 2,
-        "officeID" : "5102",
-        "descriptors" : []
+    "5102": {
+        "name": "Virginia's 2nd congressional district",
+        "state": "Virginia",
+        "districtNumber": 2,
+        "officeID": "VA02",
+        "geoID": "5102",
+        "color": "#8124d8",
+        "descriptors": [
+            "VIRGINIA"
+        ],
+        "congressionalSession": 119
     },
-    "5103" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Virginia's 3rd congressional district",
-        "state" : "Virginia",
-        "districtNumber" : 3,
-        "officeID" : "5103",
-        "descriptors" : []
+    "5103": {
+        "name": "Virginia's 3rd congressional district",
+        "state": "Virginia",
+        "districtNumber": 3,
+        "officeID": "VA03",
+        "geoID": "5103",
+        "color": "#16d730",
+        "descriptors": [
+            "VIRGINIA"
+        ],
+        "congressionalSession": 119
     },
-    "5104" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Virginia's 4th congressional district",
-        "state" : "Virginia",
-        "districtNumber" : 4,
-        "officeID" : "5104",
-        "descriptors" : []
+    "5104": {
+        "name": "Virginia's 4th congressional district",
+        "state": "Virginia",
+        "districtNumber": 4,
+        "officeID": "VA04",
+        "geoID": "5104",
+        "color": "#43ea96",
+        "descriptors": [
+            "VIRGINIA"
+        ],
+        "congressionalSession": 119
     },
-    "5105" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Virginia's 5th congressional district",
-        "state" : "Virginia",
-        "districtNumber" : 5,
-        "officeID" : "5105",
-        "descriptors" : []
+    "5105": {
+        "name": "Virginia's 5th congressional district",
+        "state": "Virginia",
+        "districtNumber": 5,
+        "officeID": "VA05",
+        "geoID": "5105",
+        "color": "#9f2bd1",
+        "descriptors": [
+            "VIRGINIA"
+        ],
+        "congressionalSession": 119
     },
-    "5106" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Virginia's 6th congressional district",
-        "state" : "Virginia",
-        "districtNumber" : 6,
-        "officeID" : "5106",
-        "descriptors" : []
+    "5106": {
+        "name": "Virginia's 6th congressional district",
+        "state": "Virginia",
+        "districtNumber": 6,
+        "officeID": "VA06",
+        "geoID": "5106",
+        "color": "#e6c924",
+        "descriptors": [
+            "VIRGINIA"
+        ],
+        "congressionalSession": 119
     },
-    "5107" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Virginia's 7th congressional district",
-        "state" : "Virginia",
-        "districtNumber" : 7,
-        "officeID" : "5107",
-        "descriptors" : []
+    "5107": {
+        "name": "Virginia's 7th congressional district",
+        "state": "Virginia",
+        "districtNumber": 7,
+        "officeID": "VA07",
+        "geoID": "5107",
+        "color": "#26d5c3",
+        "descriptors": [
+            "VIRGINIA"
+        ],
+        "congressionalSession": 119
     },
-    "5108" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Virginia's 8th congressional district",
-        "state" : "Virginia",
-        "districtNumber" : 8,
-        "officeID" : "5108",
-        "descriptors" : []
+    "5108": {
+        "name": "Virginia's 8th congressional district",
+        "state": "Virginia",
+        "districtNumber": 8,
+        "officeID": "VA08",
+        "geoID": "5108",
+        "color": "#ac75d9",
+        "descriptors": [
+            "VIRGINIA"
+        ],
+        "congressionalSession": 119
     },
-    "5109" : {
-        "population" : 0,
-        "squareMileage" : 0.0,
-        "name" : "Virginia's 9th congressional district",
-        "state" : "Virginia",
-        "districtNumber" : 9,
-        "officeID" : "5109",
-        "descriptors" : []
+    "5109": {
+        "name": "Virginia's 9th congressional district",
+        "state": "Virginia",
+        "districtNumber": 9,
+        "officeID": "VA09",
+        "geoID": "5109",
+        "color": "#7ed772",
+        "descriptors": [
+            "VIRGINIA"
+        ],
+        "congressionalSession": 119
     }
 }

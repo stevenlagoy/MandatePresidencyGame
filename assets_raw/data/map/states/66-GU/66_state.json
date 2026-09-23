@@ -2,14 +2,28 @@
     "FIPS" : "66",
     "commonName" : "Guam",
     "fullName" : "Unincorporated Territory of Guam",
-    "map_color" : "#5732FF",
-    "flag_loc" : "guam_flag.png",
-    "population" : 169231,
-    "squareMileage" : 571,
     "abbreviation" : "GU",
-    "demonym" : "Guamanian",
-    "motto" : "Where America's Day Begins",
-    "nickname" : "Tånó y Chamoru",
+    "type" : "territory",
+    "demonymicNoun" : "Guamanian",
+    "demonymicNounPlural" : "Guamanians",
+    "demonymicAdjective" : "Guamanian",
+    "symbols" : {
+        "flag" : {
+            "name" : "Flag of Guam",
+            "file" : "guam_flag.png"
+        },
+        "mottos" : [
+            {
+                "motto" : "Where America's Day Begins"
+            }
+        ],
+        "nicknames" : [
+            "Tånó y Chamoru",
+            "Tano y Chamorro",
+            "Hub of the Pacific",
+            "Gateway to Micronesia"
+        ]
+    },
     "capital" : "Hagåtña",
     "federal_court_circuit" : 9,
     "descriptors" : [
