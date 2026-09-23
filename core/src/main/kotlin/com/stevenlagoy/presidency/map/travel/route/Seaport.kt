@@ -2,16 +2,16 @@ package com.stevenlagoy.presidency.map.travel.route
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.core.Engine
-import com.stevenlagoy.presidency.map.Municipality
+import com.stevenlagoy.presidency.map.entities.MapEntity
 
 class Seaport(
     engine: Engine,
     name: String = "",
-    location: Municipality? = null,
-    connections: List<Municipality> = listOf(),
+    location: MapEntity? = null,
+    connections: List<MapEntity> = listOf(),
 ) : Route(engine, name, connections) {
 
-    var location: Municipality? = location
+    var location: MapEntity? = location
         internal set
 
     constructor(engine: Engine, json: JSONObject) : this (engine) {
@@ -24,7 +24,7 @@ class Seaport(
 
     override fun fromJson(json: JSONObject) = this.apply {
         super.fromJson(json)
-        location = engine.MAP_MANAGER.matchMunicipality(json.requireString("location")).orElseThrow { IllegalArgumentException("Could not find location for seaport $name") }
+        location = engine.MAP_MANAGER.matchPlace(json.requireString("location")).orElseThrow { IllegalArgumentException("Could not find location for seaport $name") }
     }
 
 }

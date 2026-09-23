@@ -3,25 +3,21 @@ package com.stevenlagoy.presidency.map.travel
 import com.stevenlagoy.presidency.characters.Citizen
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
+import com.stevenlagoy.presidency.map.entities.MapEntity
 import com.stevenlagoy.presidency.map.MapManager
-import com.stevenlagoy.presidency.map.Municipality
-import com.stevenlagoy.presidency.map.travel.vehicle.AirVehicle
-import com.stevenlagoy.presidency.map.travel.vehicle.RailVehicle
-import com.stevenlagoy.presidency.map.travel.vehicle.RoadVehicle
-import com.stevenlagoy.presidency.map.travel.vehicle.Vehicle
-import com.stevenlagoy.presidency.map.travel.vehicle.WaterVehicle
+import com.stevenlagoy.presidency.map.travel.vehicle.*
 
 class Travel(
     engine: Engine,
-    val travellersDestinations: MutableMap<Citizen, Municipality>,
+    val travellersDestinations: MutableMap<Citizen, MapEntity>,
     val availableVehicles: MutableList<Vehicle>,
     val legs: MutableList<TravelLeg>,
 ) : EngineBound(engine) {
 
     abstract class TravelLeg(
         engine: Engine,
-        val source: Municipality,
-        val destination: Municipality,
+        val source: MapEntity,
+        val destination: MapEntity,
         val travellers: MutableSet<Citizen>,
         open val vehicle: Vehicle
     ) : EngineBound(engine) {
@@ -32,8 +28,8 @@ class Travel(
 
     class RoadLeg(
         engine: Engine,
-        source: Municipality,
-        destination: Municipality,
+        source: MapEntity,
+        destination: MapEntity,
         travellers: MutableSet<Citizen>,
         override val vehicle: RoadVehicle
     ) : TravelLeg(engine, source, destination, travellers, vehicle) {
@@ -42,8 +38,8 @@ class Travel(
 
     class RailLeg(
         engine: Engine,
-        source: Municipality,
-        destination: Municipality,
+        source: MapEntity,
+        destination: MapEntity,
         travellers: MutableSet<Citizen>,
         override val vehicle: RailVehicle,
     ) : TravelLeg(engine, source, destination, travellers, vehicle) {
@@ -52,8 +48,8 @@ class Travel(
 
     class AirLeg(
         engine: Engine,
-        source: Municipality,
-        destination: Municipality,
+        source: MapEntity,
+        destination: MapEntity,
         travellers: MutableSet<Citizen>,
         override val vehicle: AirVehicle
     ) : TravelLeg(engine, source, destination, travellers, vehicle) {
@@ -62,8 +58,8 @@ class Travel(
 
     class WaterLeg(
         engine: Engine,
-        source: Municipality,
-        destination: Municipality,
+        source: MapEntity,
+        destination: MapEntity,
         travellers: MutableSet<Citizen>,
         override val vehicle: WaterVehicle
     ) : TravelLeg(engine, source, destination, travellers, vehicle) {

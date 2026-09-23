@@ -2,14 +2,14 @@ package com.stevenlagoy.presidency.map.travel.route
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.core.Engine
-import com.stevenlagoy.presidency.map.Municipality
+import com.stevenlagoy.presidency.map.entities.MapEntity
 
 class Roadway(
     engine: Engine,
     name: String = "",
     code: String = "",
     designation: RoadwayDesignation = RoadwayDesignation.LOCAL_ROADWAY,
-    connections: List<Municipality> = listOf(),
+    connections: List<MapEntity> = listOf(),
 ) : Route(engine, name, connections) {
 
     var code: String = code
@@ -38,7 +38,7 @@ class Roadway(
         JSONObject("name", name),
         JSONObject("code", code),
         JSONObject("designation", designation.name),
-        JSONObject("connections", connections.map { it.fullName })
+        JSONObject("connections", connections.map { it.name })
     ))
 
     override fun fromJson(json: JSONObject) = this.apply {
