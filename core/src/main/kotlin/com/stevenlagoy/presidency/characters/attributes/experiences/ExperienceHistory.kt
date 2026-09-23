@@ -36,7 +36,7 @@ class ExperienceHistory(
             get() = experience.yearlySkills * tenureYears
 
         init {
-            if (_experience == null) experience = _experience
+            if (_experience != null) experience = _experience
         }
 
         constructor(engine: Engine, experience: Experience, startDate: LocalDate, tenureYears: Int) : this(

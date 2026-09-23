@@ -674,7 +674,7 @@
         },
         "description" : "Senior enlisted leadership role with responsibility for training, discipline, and unit readiness.",
         "connections" : {
-            "senior_military_officer" : 0.6,
+            "senior_military_officer" : 1.6,
             "entry_law_enforcement" : 1.4
         },
         "overlaps" : [
@@ -735,8 +735,8 @@
         },
         "description" : "Colonel, General, or Admiral in command of large military units with strategic and administrative responsibilities.",
         "connections" : {
-            "secretary_of_defense" : 0.8,
-            "national_security_advisor" : 0.9
+            "secretary_of_defense" : 1.8,
+            "national_security_advisor" : 1.9
         },
         "overlaps" : [
         ]
@@ -828,7 +828,7 @@
         },
         "description" : "Government-appointed defense attorney representing indigent clients in criminal cases.",
         "connections" : {
-            "prosecutor" : 0.8,
+            "prosecutor" : 1.8,
             "state_judge" : 1.2,
             "partner_attorney" : 1.1
         },
@@ -1147,8 +1147,8 @@
         "connections" : {
             "state_senator" : 1.8,
             "us_representative" : 1.4,
-            "state_secretary_of_state" : 0.9,
-            "state_treasurer" : 0.8
+            "state_secretary_of_state" : 1.9,
+            "state_treasurer" : 1.8
         },
         "overlaps" : [
         ]
@@ -1572,7 +1572,7 @@
         },
         "description" : "Presidentially-appointed judge on a federal district or circuit court of appeals.",
         "connections" : {
-            "supreme_court_justice" : 0.4
+            "supreme_court_justice" : 1.4
         },
         "overlaps" : [
         ]
@@ -1948,7 +1948,7 @@
         },
         "description" : "C-suite executive (CEO, CFO, COO) of a large company with public visibility and board accountability.",
         "connections" : {
-            "cabinet_secretary" : 0.8
+            "cabinet_secretary" : 1.8
         },
         "overlaps" : [
         ]
@@ -2176,7 +2176,7 @@
         "connections" : {
             "governor" : 1.2,
             "state_treasurer" : 1.3,
-            "us_representative" : 0.9
+            "us_representative" : 1.1
         },
         "overlaps" : [
         ]
@@ -2425,7 +2425,7 @@
         },
         "description" : "Appointed professional administrator managing day-to-day operations of a city.",
         "connections" : {
-            "mayor_mid" : 0.9
+            "mayor_mid" : 1.9
         },
         "overlaps" : [
         ]
@@ -2488,7 +2488,7 @@
         },
         "description" : "Investor allocating capital to early-stage companies or leveraged buyouts.",
         "connections" : {
-            "cabinet_secretary" : 0.7
+            "cabinet_secretary" : 1.7
         },
         "overlaps" : [
         ]
@@ -2519,7 +2519,7 @@
         "description" : "Print, broadcast, or digital journalist covering local, national, or political news.",
         "connections" : {
             "senior_journalist" : 1.6,
-            "entry_think_tank" : 0.8
+            "entry_think_tank" : 1.8
         },
         "overlaps" : [
             "entry_think_tank"
@@ -2578,8 +2578,8 @@
         },
         "description" : "Television anchor, talk show host, or radio personality with significant public profile.",
         "connections" : {
-            "us_representative" : 1.0,
-            "us_senator" : 0.8
+            "us_representative" : 1.8,
+            "us_senator" : 1.2
         },
         "overlaps" : [
         ]
@@ -2731,8 +2731,8 @@
         },
         "description" : "Chief, Sheriff, or Directory of a city, county, or federal law enforcement and investigative agency.",
         "connections" : {
-            "mayor_mid" : 0.8,
-            "county_commissioner" : 1.2
+            "mayor_mid" : 1.2,
+            "county_commissioner" : 1.8
         },
         "overlaps" : [
         ]
@@ -2887,9 +2887,9 @@
         },
         "description" : "Licensed medical doctor practicing medicine in a hospital, clinic, or private practice.",
         "connections" : {
-            "us_representative" : 0.8,
-            "state_senator" : 0.7,
-            "public_health_official" : 1.2
+            "us_representative" : 1.7,
+            "state_senator" : 1.2,
+            "public_health_official" : 1.8
         },
         "overlaps" : [
             "medical_researcher"
@@ -2984,8 +2984,8 @@
         },
         "description" : "U.S. Ambassador to a foreign nation or international organization, presidentially appointed.",
         "connections" : {
-            "cabinet_secretary" : 1.0,
-            "secretary_of_state_us" : 1.4
+            "cabinet_secretary" : 1.4,
+            "secretary_of_state_us" : 1.2
         },
         "overlaps" : [
         ]
@@ -3019,7 +3019,7 @@
         "connections" : {
             "governor" : 1.3,
             "us_senator" : 1.1,
-            "lieutenant_governor" : 1.0
+            "lieutenant_governor" : 1.1
         },
         "overlaps" : [
         ]
@@ -3053,7 +3053,7 @@
         "connections" : {
             "governor" : 1.4,
             "lieutenant_governor" : 1.2,
-            "us_representative" : 1.0
+            "us_representative" : 1.1
         },
         "overlaps" : [
         ]
@@ -3120,7 +3120,7 @@
         "connections" : {
             "governor" : 1.3,
             "us_representative" : 1.2,
-            "secretary_of_agriculture" : 1.0
+            "secretary_of_agriculture" : 1.1
         },
         "overlaps" : [
         ]
@@ -3152,8 +3152,8 @@
         },
         "description" : "Head of the U.S. Department of Justice and the nation's chief law enforcement officer, appointed by the president to oversee federal prosecutors.",
         "connections" : {
-            "governor" : 0.8,
-            "us_senator" : 0.9
+            "governor" : 1.8,
+            "us_senator" : 1.9
         },
         "overlaps" : [
         ]
@@ -3479,7 +3479,7 @@
         "connections" : {
             "white_house_chief_of_staff" : 1.4,
             "senior_policy_advisor" : 1.5,
-            "state_representative" : 1.0
+            "state_representative" : 1.1
         },
         "overlaps" : [
         ]
@@ -3512,8 +3512,8 @@
         },
         "description" : "The President's top aide, managing all White House operations, access to the Oval Office, coordination of cabinet agencies, and direction of political strategy for the executive office.",
         "connections" : {
-            "cabinet_secretary" : 1.2,
-            "us_senator" : 0.9
+            "cabinet_secretary" : 1.9,
+            "us_senator" : 1.2
         },
         "overlaps" : [
         ]
@@ -3584,7 +3584,7 @@
         "description" : "Elected or appointed chair of a state political party, directing party strategy, fundraising, candidate recruitment, platform development, and relations with the national party.",
         "connections" : {
             "us_representative" : 1.1,
-            "state_senator" : 1.0,
+            "state_senator" : 1.2,
             "campaign_manager" : 1.3
         },
         "overlaps" : [
@@ -3619,8 +3619,8 @@
         "connections" : {
             "governor" : 1.4,
             "us_senator" : 1.3,
-            "cabinet_secretary" : 1.0,
-            "vice_president" : 0.5
+            "cabinet_secretary" : 1.4,
+            "vice_president" : 1.5
         },
         "overlaps" : [
         ]
@@ -3654,7 +3654,7 @@
         "connections" : {
             "city_council_member" : 1.5,
             "state_representative" : 1.1,
-            "mayor_small" : 1.0
+            "mayor_small" : 1.2
         },
         "overlaps" : [
             "county_party_chair"
@@ -3687,8 +3687,8 @@
         },
         "description" : "Professional advocate or government relations specialist representing corporations, trade associations, or nonprofits and their interests to government bodies.",
         "connections" : {
-            "entry_political_consultant" : 1.5,
-            "state_representative" : 0.8
+            "entry_political_consultant" : 1.8,
+            "state_representative" : 1.5
         },
         "overlaps" : [
         ]
@@ -3719,9 +3719,9 @@
         },
         "description" : "Elected chief law enforcement officer of a county, responsible for jails, serving court orders, and enforcing law in unincorporated areas.",
         "connections" : {
-            "state_representative" : 1.3,
+            "state_representative" : 1.8,
             "county_commissioner" : 1.4,
-            "us_representative" : 0.8
+            "us_representative" : 1.3
         },
         "overlaps" : [
         ]
@@ -3752,7 +3752,7 @@
         "connections" : {
             "entry_nonprofit_worker" : 1.5,
             "community_organizer" : 1.4,
-            "city_council_member" : 1.0
+            "city_council_member" : 1.2
         },
         "overlaps" : [
         ]
@@ -3811,9 +3811,9 @@
         },
         "description" : "Ordained minister, pastor, rabbi, imim, priest, or other faith community leader, leading a significant congregation.",
         "connections" : {
-            "community_organizer" : 1.6,
-            "city_council_member" : 1.2,
-            "state_representative" : 0.8
+            "community_organizer" : 1.8,
+            "city_council_member" : 1.6,
+            "state_representative" : 1.2
         },
         "overlaps" : [
             "community_organizer",
@@ -3876,8 +3876,8 @@
         },
         "description" : "Political analyst, commentator, or pundit in regular news outlets.",
         "connections" : {
-            "media_personality" : 1.4,
-            "state_representative" : 0.8
+            "media_personality" : 1.8,
+            "state_representative" : 1.4
         },
         "overlaps" : [
             "university_professor",

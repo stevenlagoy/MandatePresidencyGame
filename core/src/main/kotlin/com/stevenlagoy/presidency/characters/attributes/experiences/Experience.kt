@@ -39,15 +39,15 @@ class Experience(
         json.requireString("name"),
         json.requireString("track"),
         json.requireDouble("capacity"),
-        (json.requireArray("tenure_years").find {
+        (json.requireArray("tenure_years", "tenureYears").find {
             (it as JSONObject).key == "min"
-        } as JSONObject).requireDouble(),
-        (json.requireArray("tenure_years").find {
+        } as JSONObject).requireNumber().toDouble(),
+        (json.requireArray("tenure_years", "tenureYears").find {
             (it as JSONObject).key == "avg"
-        } as JSONObject).requireDouble(),
-        (json.requireArray("tenure_years").find {
+        } as JSONObject).requireNumber().toDouble(),
+        (json.requireArray("tenure_years", "tenureYears").find {
             (it as JSONObject).key == "max"
-        } as JSONObject).requireDouble(),
+        } as JSONObject).requireNumber().toDouble(),
         json.requireBoolean("repeatable"),
         json.requireArray("prerequisites").map { engine.CHARACTER_MANAGER.EXPERIENCE_MANAGER.matchExperience(it as String).let { opt ->
             if (opt.isEmpty) {
@@ -55,7 +55,7 @@ class Experience(
             }
             opt.get()
         } },
-        when (json.requireString("prerequisiteLogic")) {
+        when (json.requireString("prerequisiteLogic", "prerequisite_logic")) {
             "any" -> PrerequisiteLogic.ANY
             "all" -> PrerequisiteLogic.ALL
             else  -> PrerequisiteLogic.ANY
@@ -66,17 +66,17 @@ class Experience(
         Triple(
             (json.requireArray("yearly_skills").find {
                 (it as JSONObject).key == "legislative"
-            } as JSONObject).requireDouble(),
+            } as JSONObject).requireNumber().toDouble(),
             (json.requireArray("yearly_skills").find {
                 (it as JSONObject).key == "executive"
-            } as JSONObject).requireDouble(),
+            } as JSONObject).requireNumber().toDouble(),
             (json.requireArray("yearly_skills").find {
                 (it as JSONObject).key == "judicial"
-            } as JSONObject).requireDouble(),
+            } as JSONObject).requireNumber().toDouble(),
         ),
         json.requireString("description"),
         json.requireArray("connections").associate {
-            engine.CHARACTER_MANAGER.EXPERIENCE_MANAGER.matchExperience((it as JSONObject).key).getOrNull() to it.requireDouble()
+            engine.CHARACTER_MANAGER.EXPERIENCE_MANAGER.matchExperience((it as JSONObject).key).getOrNull() to it.requireNumber().toDouble()
         }.toMutableMap()
     )
 
