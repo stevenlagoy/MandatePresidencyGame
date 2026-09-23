@@ -4,12 +4,10 @@ import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.presidency.characters.CharacterManager;
 import com.stevenlagoy.presidency.demographics.DemographicsManager;
 import com.stevenlagoy.presidency.map.MapManager;
+import com.stevenlagoy.presidency.map.MapManager2;
 import com.stevenlagoy.presidency.politics.EventManager;
 import com.stevenlagoy.presidency.politics.PoliticsManager;
-import com.stevenlagoy.presidency.util.FilePaths;
-import com.stevenlagoy.presidency.util.IOUtils;
-import com.stevenlagoy.presidency.util.Logger;
-import com.stevenlagoy.presidency.util.NumberUtils;
+import com.stevenlagoy.presidency.util.*;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
@@ -17,7 +15,9 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * <h1>ENGINE</h1>
@@ -36,6 +36,10 @@ import java.util.List;
 public final class Engine extends Manager {
 
     private static Engine instance = null;
+    /**
+     * Retrieve the current Engine instance
+     * @return Engine instance
+     */
     public static Engine getInstance() {
         return instance;
     }
@@ -43,7 +47,7 @@ public final class Engine extends Manager {
     // Constants
 
     /**
-     * Difficulty values impact player-facing calculations, impacting the difficulty of the game.
+     * Difficulty values impact player-facing calculations, which determines the difficulty of the game.
      */
     public enum Difficulty {
 
@@ -76,7 +80,7 @@ public final class Engine extends Manager {
     public final TimeManager TIME_MANAGER;
     public final EventManager EVENT_MANAGER;
     public final DemographicsManager DEMOGRAPHICS_MANAGER;
-    public final MapManager MAP_MANAGER;
+    public final MapManager2 MAP_MANAGER;
     public final PoliticsManager POLITICS_MANAGER;
     public final CharacterManager CHARACTER_MANAGER;
 
@@ -153,7 +157,7 @@ public final class Engine extends Manager {
         TIME_MANAGER         = new TimeManager(this, this);
         EVENT_MANAGER        = new EventManager(this, this);
         DEMOGRAPHICS_MANAGER = new DemographicsManager(this, this);
-        MAP_MANAGER          = new MapManager(this, this);
+        MAP_MANAGER          = new MapManager2(this, this);
         POLITICS_MANAGER     = new PoliticsManager(this, this);
         CHARACTER_MANAGER    = new CharacterManager(this, this);
         for (Manager manager : getSubManagers()) {
@@ -166,10 +170,31 @@ public final class Engine extends Manager {
 
     // Manager Methods
 
+    private final Map<Class<? extends Manager>, Manager> managerRegistry = new HashMap<>();
+
     @Override
     @Contract(pure = true)
     public @NotNull List<Manager> getSubManagers() {
         return List.of(LANGUAGE_MANAGER, TIME_MANAGER, EVENT_MANAGER, DEMOGRAPHICS_MANAGER, MAP_MANAGER, POLITICS_MANAGER, CHARACTER_MANAGER);
+    }
+
+    /**
+     * Register a manager with this engine. The previously registered manager of the same class
+     * will be displaced, if one is present.
+     * @param manager Manager to register
+     */
+    public void registerManager(@NotNull Manager manager) {
+        managerRegistry.put(manager.getClass(), manager);
+    }
+
+    /**
+     * Get the currently-registered manager for a specific manager class.
+     * @param managerClass Class of the manager to retrieve from the registry
+     * @return Registered manager of the given class
+     * @param <T> Any Manager implementation
+     */
+    public @NotNull <T extends Manager> T getManager(@NotNull Class<T> managerClass) {
+        return managerClass.cast(managerRegistry.get(managerClass));
     }
 
     @Override
@@ -232,7 +257,7 @@ public final class Engine extends Manager {
 
         // Write to save file with name, or to stdout if unsuccessful.
         try {
-            PrintWriter saveWriter = IOUtils.createWriter(FilePaths.SAVES_DIR.resolve(fileName + IOUtils.FileExtension.JSON.extension).toFile());
+            PrintWriter saveWriter = IOUtils.createWriter(FilePath._SAVES.resolve(fileName + IOUtils.FileExtension.JSON.extension).toFile());
             saveWriter.print(saveString);
             saveWriter.close(); // Flush and close
         }

@@ -5,7 +5,7 @@ import com.stevenlagoy.presidency.characters.Citizen;
 import com.stevenlagoy.presidency.characters.attributes.Sex;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
-import com.stevenlagoy.presidency.util.FilePaths;
+import com.stevenlagoy.presidency.util.FilePath;
 import com.stevenlagoy.presidency.util.RandomUtils;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
@@ -34,7 +34,7 @@ public class DemographicsManager extends Manager {
     // Constants
 
     /** Used to convert counts in the Blocs data file into percentages. */
-    public static final long GAME_START_VOTERS = 341_275_500; // 1 Feb 2025
+    public static final long   GAME_START_VOTERS = 341_275_500; // 1 Feb 2025
     public static final double FEMALE_WOMAN_PRESENTATION_PERCENT = 0.99;
     public static final double FEMALE_NONBINARY_PRESENTATION_PERCENT = 0.075;
     public static final double FEMALE_MAN_PRESENTATION_PERCENT = 0.025;
@@ -95,12 +95,12 @@ public class DemographicsManager extends Manager {
         requireState(ManagerState.INITIALIZING);
         try {
             demographicBlocs = new HashMap<>();
-            JSONObject json = new JSONObject(FilePaths.BLOCS);
+            JSONObject json = new JSONObject(FilePath.BLOCS.path);
             for (Object categoryObject : json.requireArray()) {
                 if (categoryObject instanceof JSONObject categoryJson) {
                     String key = categoryJson.getKey();
                     DemographicCategory category = DemographicCategory.valueOf(key.toUpperCase().replaceAll("[^a-zA-Z]+","_"));
-                    List<Bloc> blocs = createBlocs(category, categoryJson.requireJson());
+                    List<Bloc> blocs = createBlocs(category, categoryJson);
                     demographicBlocs.put(category, blocs);
                 }
             }
@@ -156,7 +156,7 @@ public class DemographicsManager extends Manager {
         requireState(ManagerState.INITIALIZING);
         try {
             populationPyramid = new HashMap<>();
-            JSONObject json = new JSONObject(FilePaths.BIRTHYEAR_PERCENTAGES);
+            JSONObject json = new JSONObject(FilePath.BIRTHYEAR_PERCENTAGES.path);
             populationPyramid.put(null, null); // TODO
         } catch (IOException e) {
             onError(e);

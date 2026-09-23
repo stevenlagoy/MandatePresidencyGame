@@ -58,9 +58,9 @@ public class IssueManager extends Manager {
         return issues.stream().filter(issue -> issue.getTitle().equals(title)).findFirst();
     }
 
-    public @NotNull Optional<IssuePosition> matchIssuePosition(String title) {
+    public @NotNull Optional<Issue.IssuePosition> matchIssuePosition(String title) {
         for (Issue issue : issues) {
-            for (IssuePosition position : issue.getPositions()) {
+            for (Issue.IssuePosition position : issue.getPositions()) {
                 if (position.getTitle().equals(title)) {
                     return Optional.of(position);
                 }

@@ -1,7 +1,8 @@
 package com.stevenlagoy.presidency.core;
 
 import com.stevenlagoy.jsonic.JSONObject;
-import com.stevenlagoy.presidency.util.FilePaths;
+import com.stevenlagoy.presidency.util.FilePath;
+import com.stevenlagoy.presidency.util.IOUtils;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
@@ -50,6 +51,15 @@ public final class LanguageManager extends Manager {
                 if (lang.name.equals(name))
                     return lang;
             throw new IllegalArgumentException("Invalid language name: " + name);
+        }
+        public @NotNull Path getLocalizationsDirectoryPath() {
+            return FilePath._LOCALIZATION.resolve(this.toString());
+        }
+        public @NotNull Path getDescriptionLocalizationsPath() {
+            return getLocalizationsDirectoryPath().resolve(String.format("%s_descriptions%s", this, IOUtils.FileExtension.JSON));
+        }
+        public @NotNull Path getSystemTextLocalizationsPath() {
+            return getLocalizationsDirectoryPath().resolve(String.format("%s_system_text%s", this, IOUtils.FileExtension.JSON));
         }
 
         public static final Language defaultLanguage = Language.EN;
@@ -178,9 +188,7 @@ public final class LanguageManager extends Manager {
 
         HashMap<String, String> local = new HashMap<>();
 
-        Path localizationFile = Path.of(String.format("%s/%s/%s%s", FilePaths.LOCALIZATION_RESOURCES, language,
-                language, FilePaths.SYSTEM_TEXT_LOC));
-
+        Path localizationFile = language.getSystemTextLocalizationsPath();
         try {
             JSONObject localizationData = new JSONObject(localizationFile);
 

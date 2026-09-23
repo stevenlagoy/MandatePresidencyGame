@@ -5,10 +5,7 @@ import com.stevenlagoy.presidency.characters.attributes.experiences.Experience;
 import com.stevenlagoy.presidency.characters.attributes.experiences.ExperienceHistory;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
-import com.stevenlagoy.presidency.util.FilePaths;
-import com.stevenlagoy.presidency.util.Logger;
-import com.stevenlagoy.presidency.util.RandomUtils;
-import com.stevenlagoy.presidency.util.TimeUtils;
+import com.stevenlagoy.presidency.util.*;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -82,7 +79,7 @@ public class ExperienceManager extends Manager {
     private void readExperiences() {
         requireState(ManagerState.INITIALIZING);
         try {
-            JSONObject experiencesJson = new JSONObject(FilePaths.EXPERIENCES);
+            JSONObject experiencesJson = new JSONObject(FilePath.EXPERINECES.path);
             for (Object obj : experiencesJson.requireArray()) {
                 if (obj instanceof JSONObject experienceJson) {
                     experiences.add(new Experience(engine, experienceJson));
@@ -97,7 +94,7 @@ public class ExperienceManager extends Manager {
     private void resolveConnections() {
         requireState(ManagerState.INITIALIZING);
         try {
-            JSONObject experiencesJson = new JSONObject(FilePaths.EXPERIENCES);
+            JSONObject experiencesJson = new JSONObject(FilePath.EXPERINECES.path);
             for (Object obj : experiencesJson.requireArray()) {
                 if (obj instanceof JSONObject experienceJson) {
                     Experience experience = matchExperience(experienceJson.getKey()).orElseThrow();
@@ -106,10 +103,10 @@ public class ExperienceManager extends Manager {
                             try {
                                 experience.getConnections().put(matchExperience(connection.getKey()).orElseThrow(), connection.requireNumber().doubleValue());
                             } catch (Exception e) {
-                                Logger.error("Could not make connection '%s' for experience '%s': %s. Check keys in %s.", connection.getKey(), experience.getLabel(), e.getMessage(), FilePaths.EXPERIENCES);
+                                Logger.error("Could not make connection '%s' for experience '%s': %s. Check keys in %s.", connection.getKey(), experience.getLabel(), e.getMessage(), FilePath.EXPERINECES);
                             }
                         }
-                        else throw new RuntimeException("Encountered an unexpected value in " + FilePaths.EXPERIENCES);
+                        else throw new RuntimeException("Encountered an unexpected value in " + FilePath.EXPERINECES);
                     }
                 }
             }

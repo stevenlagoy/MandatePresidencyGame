@@ -3,14 +3,15 @@ package com.stevenlagoy.presidency.core;
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.JSONSerializable;
 import com.stevenlagoy.presidency.util.Logger;
+import com.stevenlagoy.presidency.util.MatchingException;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.*;
 import java.util.stream.Stream;
 
 /**
@@ -120,6 +121,8 @@ public abstract class Manager extends EngineBound implements JSONSerializable<Ma
     /** Current state of this manager. */
     private @NotNull ManagerState state = ManagerState.INACTIVE;
 
+    private final @NotNull Set<Exception> problems;
+
     // Constructors
 
     /** Create a new root manager (Engine). */
@@ -131,6 +134,7 @@ public abstract class Manager extends EngineBound implements JSONSerializable<Ma
     protected Manager(@NotNull Engine engine, @Nullable Manager superManager) {
         super(engine);
         this.superManager = superManager;
+        this.problems = new HashSet<>();
     }
 
     // Public lifecycle API
@@ -143,6 +147,7 @@ public abstract class Manager extends EngineBound implements JSONSerializable<Ma
         transitionTo(ManagerState.INITIALIZING);
         try {
             doInit();
+            engine.registerManager(this);
             getSubManagers().forEach(Manager::init);
             transitionTo(ManagerState.ACTIVE);
         }
@@ -176,17 +181,57 @@ public abstract class Manager extends EngineBound implements JSONSerializable<Ma
 
     /** Unpause this manager by moving to the {@link ManagerState#ACTIVE} state. */
     public final void unpause() {
-        transitionTo(ManagerState.ACTIVE); // ERROR cannot transition to ACTIVE
+        transitionTo(ManagerState.ACTIVE);
+    }
+
+    public final void report(RuntimeException e) {
+        onDegraded(e);
+    }
+
+    // Exception Handling
+
+    public final void recover() {
+        Runnable restart = () -> {
+            JSONObject state = this.toJson();
+            this.cleanup();
+            this.init();
+            this.fromJson(state);
+        };
+
+        List<Exception> unresolved = new ArrayList<>();
+        for (Exception problem : problems) {
+            if (problem instanceof MatchingException matchingProblem) {
+                try {
+                    Object result = matchingProblem.matchingMethod.call();
+                    if (result instanceof Optional && ((Optional<?>) result).isEmpty()) {
+                        unresolved.add(problem);
+                        restart.run();
+                    }
+                }
+                catch (Exception e) {
+                    unresolved.add(e);
+                }
+            }
+            else {
+                unresolved.add(problem);
+            }
+        }
+        problems.clear();
+        problems.addAll(unresolved);
+
     }
 
     /** Handle a noncritical exception which has caused this manager to become degraded. */
     protected void onDegraded(Exception e) {
         if (state != ManagerState.DEGRADED) transitionTo(ManagerState.DEGRADED);
+        problems.add(e);
         Logger.error(e);
     }
+
     /** Handle a critical exception which has caused this manager to crash. */
     protected void onError(Exception e) {
         if (state != ManagerState.ERROR) transitionTo(ManagerState.ERROR);
+        problems.add(e);
         Logger.error(e);
     }
 
@@ -286,6 +331,7 @@ public abstract class Manager extends EngineBound implements JSONSerializable<Ma
     @Override
     public final @NotNull Manager fromJson(@NotNull JSONObject json) {
         ManagerState prevState = getState();
+        cleanup();
         transitionTo(ManagerState.LOADING);
         getSubManagers().forEach(manager -> manager.fromJson(json.requireJson(manager.getClass().getSimpleName())));
         doFromJson(json);

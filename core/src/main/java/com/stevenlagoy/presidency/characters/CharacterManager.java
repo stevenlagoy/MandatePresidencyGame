@@ -10,12 +10,9 @@ import com.stevenlagoy.presidency.core.EngineBound;
 import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.demographics.Bloc;
 import com.stevenlagoy.presidency.demographics.Demographics;
-import com.stevenlagoy.presidency.map.Municipality;
+import com.stevenlagoy.presidency.map.entities.Place;
 import com.stevenlagoy.presidency.politics.PoliticalAlignment;
-import com.stevenlagoy.presidency.util.CollectionUtils;
-import com.stevenlagoy.presidency.util.FilePaths;
-import com.stevenlagoy.presidency.util.RandomUtils;
-import com.stevenlagoy.presidency.util.TimeUtils;
+import com.stevenlagoy.presidency.util.*;
 import kotlin.uuid.Uuid;
 import org.jetbrains.annotations.NotNull;
 
@@ -109,7 +106,6 @@ public class CharacterManager extends Manager {
 
     @Override
     protected void doFromJson(@NotNull JSONObject json) {
-        getSubManagers().forEach(manager -> manager.fromJson(json.requireJson(manager.getClass().getSimpleName())));
     }
 
     // Instance Methods
@@ -119,7 +115,7 @@ public class CharacterManager extends Manager {
     private void readBirthdateDistributionData() {
         requireState(ManagerState.INITIALIZING);
         try {
-            JSONObject json = new JSONObject(FilePaths.BIRTHDATE_POPULARITIES);
+            JSONObject json = new JSONObject(FilePath.BIRTHDATE_POPULARITIES.path);
             birthdateDistribution = new HashMap<>();
             for (Object dateObj : json.requireArray()) {
                 if (dateObj instanceof JSONObject dateJson) {
@@ -136,7 +132,7 @@ public class CharacterManager extends Manager {
     private void readAgeDistributionData() {
         requireState(ManagerState.INITIALIZING);
         try {
-            JSONObject json = new JSONObject(FilePaths.BIRTHYEAR_PERCENTAGES);
+            JSONObject json = new JSONObject(FilePath.BIRTHYEAR_PERCENTAGES.path);
             ageDistribution = new HashMap<>();
             for (Object blocObj : json.requireArray()) {
                 if (blocObj instanceof JSONObject blocJson) {
@@ -200,8 +196,8 @@ public class CharacterManager extends Manager {
         Family family;
         CharacterAppearance appearance;
         PersonalName name;
-        Municipality origin;
-        Municipality residence;
+        Place origin;
+        Place residence;
 
         public CitizenContext(
             @NotNull Engine engine,
@@ -211,8 +207,8 @@ public class CharacterManager extends Manager {
             Family family,
             CharacterAppearance appearance,
             PersonalName name,
-            Municipality origin,
-            Municipality residence
+            Place origin,
+            Place residence
         ) {
             super(engine);
             this.sex = sex;
@@ -286,10 +282,10 @@ public class CharacterManager extends Manager {
             // context.name = NAME_MANAGER.buildPersonalName(new NameManager.NameContext(context.demographics, engine.TIME_MANAGER.yearsAgo(context.birthday), null));
         }
         if (context.origin == null) {
-            context.origin = engine.MAP_MANAGER.selectMunicipality(context.demographics);
+            context.origin = engine.MAP_MANAGER.selectPlace(context.demographics);
         }
         if (context.residence == null) {
-            context.residence = engine.MAP_MANAGER.selectMunicipality(context.demographics);
+            context.residence = engine.MAP_MANAGER.selectPlace(context.demographics);
         }
 
         Citizen citizen = new Citizen(

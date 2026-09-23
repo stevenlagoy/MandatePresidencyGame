@@ -3,14 +3,12 @@ package com.stevenlagoy.presidency.characters.attributes.names;
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.presidency.characters.attributes.Family;
 import com.stevenlagoy.presidency.core.Engine;
+import com.stevenlagoy.presidency.core.EntityManager;
 import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.demographics.Bloc;
 import com.stevenlagoy.presidency.demographics.Demographics;
-import com.stevenlagoy.presidency.map.MapEntity;
-import com.stevenlagoy.presidency.util.CollectionUtils;
-import com.stevenlagoy.presidency.util.FilePaths;
-import com.stevenlagoy.presidency.util.Logger;
-import com.stevenlagoy.presidency.util.RandomUtils;
+import com.stevenlagoy.presidency.map.entities.MapEntity;
+import com.stevenlagoy.presidency.util.*;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -35,7 +33,7 @@ import java.util.stream.Collectors;
  *
  * @author Steven LaGoy
  */
-public class NameManager extends Manager {
+public class NameManager extends EntityManager<PersonalName, String> {
 
     // Constants
 
@@ -148,11 +146,6 @@ public class NameManager extends Manager {
     // Manager Methods
 
     @Override
-    public @NotNull List<Manager> getSubManagers() {
-        return List.of();
-    }
-
-    @Override
     protected void doInit() {
         readGivenNamesData();
         readFamilyNamesData();
@@ -168,12 +161,18 @@ public class NameManager extends Manager {
         nicknames.clear();
     }
 
+    @Override
+    protected @Nullable String keyOf(@NotNull PersonalName entity) {
+        return entity.getIndexedName();
+    }
+
     // Serialization Methods
 
     @Override
     protected @NotNull JSONObject doToJson() {
         return new JSONObject(getClass().getSimpleName());
     }
+
 
     @Override
     protected void doFromJson(@NotNull JSONObject json) {
@@ -183,7 +182,7 @@ public class NameManager extends Manager {
 
     private void readGivenNamesData() {
         try {
-            JSONObject json = new JSONObject(FilePaths.GIVEN_NAMES);
+            JSONObject json = new JSONObject(FilePath.GIVEN_NAMES.path);
             givenNamesDistribution.putAll(processNamesStructure(json));
         } catch (IOException e) {
             onError(e);
@@ -192,7 +191,7 @@ public class NameManager extends Manager {
 
     private void readFamilyNamesData() {
         try {
-            JSONObject json = new JSONObject(FilePaths.FAMILY_NAMES);
+            JSONObject json = new JSONObject(FilePath.FAMILY_NAMES.path);
             familyNamesDistribution.putAll(processNamesStructure(json));
         } catch (IOException e) {
             onError(e);
@@ -201,7 +200,7 @@ public class NameManager extends Manager {
 
     private void readGenerationNamesData() {
         try {
-            JSONObject json = new JSONObject(FilePaths.GENERATION_NAMES);
+            JSONObject json = new JSONObject(FilePath.DECADE_NAMES.path);
             generationNamesDistribution.putAll(processNamesStructure(json));
         } catch (IOException e) {
             onError(e);
@@ -210,7 +209,7 @@ public class NameManager extends Manager {
 
     private void readNicknamesData() {
         try {
-            JSONObject json = new JSONObject(FilePaths.NICKNAMES);
+            JSONObject json = new JSONObject(FilePath.NICKNAMES.path);
             nicknames.clear();
             for (Object obj : json.requireArray()) {
                 if (!(obj instanceof JSONObject entry)) continue;
