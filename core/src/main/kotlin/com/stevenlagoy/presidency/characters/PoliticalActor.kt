@@ -8,7 +8,7 @@ import com.stevenlagoy.presidency.characters.attributes.names.PersonalName
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.linearvalue.Modifier
 import com.stevenlagoy.presidency.demographics.Demographics
-import com.stevenlagoy.presidency.map.Municipality
+import com.stevenlagoy.presidency.map.entities.Place
 import com.stevenlagoy.presidency.politics.Party
 import com.stevenlagoy.presidency.politics.PoliticalAlignment
 import java.time.LocalDate
@@ -25,9 +25,9 @@ open class PoliticalActor(
     family: Family,
     appearance: CharacterAppearance,
     name: PersonalName,
-    origin: Municipality,
-    location: Municipality,
-    residence: Municipality,
+    origin: Place,
+    location: Place,
+    residence: Place,
     financialProfile: FinancialProfile?,
     val experiences: ExperienceHistory,
     val skills: Skills,
