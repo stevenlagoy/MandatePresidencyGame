@@ -11,7 +11,7 @@ import com.stevenlagoy.presidency.characters.attributes.names.WesternPersonalNam
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.demographics.Demographics
-import com.stevenlagoy.presidency.map.Municipality
+import com.stevenlagoy.presidency.map.entities.Place
 import java.time.LocalDate
 import kotlin.uuid.ExperimentalUuidApi
 import kotlin.uuid.Uuid
@@ -39,9 +39,9 @@ open class Citizen(
     val family: Family = Family(engine),
     val appearance: CharacterAppearance = CharacterAppearance(),
     val name: PersonalName = WesternPersonalName(),
-    var origin: Municipality = engine.MAP_MANAGER.mostPopulatedMunicipality,
-    var location: Municipality = origin,
-    var residence: Municipality = location,
+    var origin: Place = engine.MAP_MANAGER.mostPopulousPlace,
+    var location: Place = origin,
+    var residence: Place = location,
     var financialProfile: FinancialProfile? = null,
 ) : JSONSerializable<Citizen>, EngineBound(engine) {
 
@@ -66,15 +66,19 @@ open class Citizen(
 
     val age: Int get() = engine.TIME_MANAGER.yearsAgo(birthday)
 
+    constructor(engine: Engine, json: JSONObject) : this(engine) {
+        fromJson(json)
+    }
+
     override fun fromJson(json: JSONObject) = this.apply {
         name.fromJson(json.requireJson("name"))
         birthday = LocalDate.parse(json.requireString("birthday"))
         demographics.fromJson(json.requireJson("demographics"))
         appearance.fromJson(json.requireJson("appearance"))
         family.fromJson(json.requireJson("family"))
-        origin = engine.MAP_MANAGER.matchMunicipality(json.requireString("originMunicipality", "origin_municipality")).get()
-        location = engine.MAP_MANAGER.matchMunicipality(json.requireString("locationMunicipality", "location_municipality")).get()
-        residence = engine.MAP_MANAGER.matchMunicipality(json.requireString("residenceMunicipality", "residence_municipality")).get()
+        origin = engine.MAP_MANAGER.matchPlace(json.requireString("originMunicipality", "origin_municipality")).get()
+        location = engine.MAP_MANAGER.matchPlace(json.requireString("locationMunicipality", "location_municipality")).get()
+        residence = engine.MAP_MANAGER.matchPlace(json.requireString("residenceMunicipality", "residence_municipality")).get()
         financialProfile = FinancialProfile(engine, json.requireJson("financialProfile", "financial_profile"))
     }
 
