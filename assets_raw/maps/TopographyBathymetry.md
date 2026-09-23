@@ -47,6 +47,7 @@ including Puerto Rico and the US Virgin Islands, Belize, and Guatemala.
 
 - `#008000` = Land elevation of -134m
 - `#FFFFFF` = Land elevation of 6132m
+- `#CFFFFF` = Unclassified land (land outside of US mainland, Alaska, Canada, and Mexico)
 
 ### Data Sources
 
