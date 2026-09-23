@@ -24,7 +24,7 @@ public class GameRoot extends Game {
 
         prefs = Gdx.app.getPreferences("mandate-prefs");
 
-        engine = new Engine();
+        engine = new Engine(true);
 
         screenManager = new ScreenManager(this);
 

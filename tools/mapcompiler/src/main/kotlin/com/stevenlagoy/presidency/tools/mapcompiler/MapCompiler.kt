@@ -10,24 +10,15 @@ import kotlin.system.measureTimeMillis
  *
  * Usage: MapCompiled <inputDir> <outputDir>
  *
- * Expects the following files in inputDir:
- * - Counties.png   : Unique color per county, black (0xFF000000) for no county
- * - Terrain.png    : Unique color per terrain type
- * - Urban.png      : Unique color per urban area, black (0xFF000000) for non-urban
- *
  * Images must be pre-padded to 5224x28672 (512x102 tiles wide, 512x56 tiles tall).
  * Use scripts/pad_maps.sh or ImageMagick to pad before running this tool.
- *
- * Produces in outputDir:
- * - counties.bin
- * - terrain.bin
- * - urban.bin
  */
 fun main(args: Array<String>) {
-    if (args.size != 2) {
-        System.err.println("Usage: MapCompiler <inputDir> <outputDir>")
-        System.err.println("  inputDir:  directory containing counties.png, terrain.png, urban.png")
+    if (args.size < 2) {
+        System.err.println("Usage: MapCompiler <inputDir> <outputDir> [changedFileName ...]")
+        System.err.println("  inputDir:  directory containing base map files")
         System.err.println("  outputDir: directory to write compiled .bin files")
+        System.err.println("  changedFileName: optional filenames to restrict processing to")
         System.err.println("Got: ${args.joinToString(" ")}")
         exitProcess(1)
     }
@@ -40,9 +31,24 @@ fun main(args: Array<String>) {
         require(it.isDirectory) { "Could not create output directory: ${it.absolutePath}" }
     }
 
+    val requestedFileNames = args.drop(2).toSet()
+
+    val layersToProcess = if (requestedFileNames.isEmpty()) {
+        LayerType.entries
+    } else {
+        LayerType.entries.filter { it.filename in requestedFileNames }
+    }
+
+    if (requestedFileNames.isNotEmpty() && layersToProcess.size < requestedFileNames.size) {
+        val matchedNames = layersToProcess.map { it.filename }.toSet()
+        val unmatched = requestedFileNames - matchedNames
+        System.err.println("WARNING: no LayerType matches these requested files, skipping: $unmatched")
+    }
+
     println("Mandate Map Compiler")
     println("Input:  ${inputDir.absolutePath}")
     println("Output: ${outputDir.absolutePath}")
+    println("Layers: ${layersToProcess.joinToString(", ") { it.filename }}")
     println()
 
     val config = CompilerConfig(
@@ -54,7 +60,7 @@ fun main(args: Array<String>) {
     )
 
     val totalTime = measureTimeMillis {
-        for (layer in LayerType.entries) {
+        for (layer in layersToProcess) {
             val inputFile  = inputDir.resolve(layer.filename)
             val outputFile = outputDir.resolve(layer.outputFilename)
 
