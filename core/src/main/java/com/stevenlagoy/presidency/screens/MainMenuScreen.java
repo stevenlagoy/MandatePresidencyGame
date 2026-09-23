@@ -69,8 +69,9 @@ public class MainMenuScreen extends BaseScreen {
         newGame.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
-                game.getEngine().init();
-                game.getScreenManager().show(MapScreen.class, () -> new MapScreen(game));
+//                game.getEngine().init();
+                game.getScreenManager().show(DebugScreen.class, () -> new DebugScreen(game));
+//                game.getScreenManager().show(MapScreen.class, () -> new MapScreen(game));
             }
         });
 
