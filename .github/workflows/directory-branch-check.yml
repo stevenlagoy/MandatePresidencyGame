@@ -1,0 +1,54 @@
+name: Enforce Branch-Directory Mapping
+
+on:
+  push:
+    paths:
+      - 'core/src/main/java/com/stevenlagoy/presidency/map/**'
+      - 'core/src/main/kotlin/com/stevenlagoy/presidency/map/**'
+      - 'core/src/test/java/com/stevenlagoy/presidency/map/**'
+      - 'core/src/test/kotlin/com/stevenlagoy/presidency/map/**'
+      - 'core/src/main/java/com/stevenlagoy/presidency/characters/**'
+      - 'core/src/main/kotlin/com/stevenlagoy/presidency/characters/**'
+      - 'core/src/test/java/com/stevenlagoy/presidency/characters/**'
+      - 'core/src/test/kotlin/com/stevenlagoy/presidency/characters/**'
+      - 'core/src/main/java/com/stevenlagoy/presidency/politics/**'
+      - 'core/src/main/kotlin/com/stevenlagoy/presidency/politics/**'
+      - 'core/src/test/java/com/stevenlagoy/presidency/politics/**'
+      - 'core/src/test/kotlin/com/stevenlagoy/presidency/politics/**'
+
+jobs:
+  validate-paths:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2 # Compare current commit with previous
+
+      - name: Get modified files
+        id: files
+        run: echo "CHANGED_FILES=$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | tr '\n' ' ')" >> $GITHUB_ENV
+
+      - name: Validate branch rules
+        run : |
+          CURRENT_BRANCH="${{ github.ref_name }}"
+
+          # Check for `map` directory violations
+          if [[ "$CHANGED_FILES" =~ "com/stevenlagoy/presidency/map/" ]] && [ "$CURRENT_BRANCH" != "feature/map" ] && [ "$CURRENT_BRANCH" != "main" ]; then
+            echo "ERROR: Changes to 'map/' are only allowed on 'feature/map' or 'main'."
+            exit 1
+          fi
+
+          # Check for `citizens` directory violations
+          if [[ "$CHANGED_FILES" =~ "com/stevenlagoy/presidency/citizens/" ]] && [ "$CURRENT_BRANCH" != "feature/citizens" ] && [ "$CURRENT_BRANCH" != "main" ]; then
+            echo "ERROR: Changes to 'citizens/' are only allowed on 'feature/citizens' or 'main'."
+            exit 1
+          fi
+
+          # Check for `politics` directory violations
+          if [[ "$CHANGED_FILES" =~ "com/stevenlagoy/presidency/politics/" ]] && [ "$CURRENT_BRANCH" != "feature/politics" ] && [ "$CURRENT_BRANCH" != "main" ]; then
+            echo "ERROR: Changes to 'politics/' are only allowed on 'feature/politics' or 'main'."
+            exit 1
+          fi
+
+          echo "All directory changes match branch rules."
