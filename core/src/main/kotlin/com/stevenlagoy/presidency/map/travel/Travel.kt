@@ -1,10 +1,11 @@
 package com.stevenlagoy.presidency.map.travel
 
-import com.stevenlagoy.presidency.characters.Citizen
+import com.stevenlagoy.presidency.citizens.Citizen
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.map.entities.MapEntity
 import com.stevenlagoy.presidency.map.MapManager
+import com.stevenlagoy.presidency.map.travel.route.RouteManager
 import com.stevenlagoy.presidency.map.travel.vehicle.*
 
 class Travel(
@@ -33,7 +34,7 @@ class Travel(
         travellers: MutableSet<Citizen>,
         override val vehicle: RoadVehicle
     ) : TravelLeg(engine, source, destination, travellers, vehicle) {
-        override val distance: Double = MapManager.getRoadDistance(source, destination)
+        override val distance: Double = engine.getManager(RouteManager::class.java).getRoadDistance(source, destination)
     }
 
     class RailLeg(

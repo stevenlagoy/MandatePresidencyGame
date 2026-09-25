@@ -101,7 +101,7 @@ public class MapManager3 extends Manager {
         UNIVERSITY_MANAGER = new UniversityManager(engine, this);
         DESCRIPTOR_MANAGER = new DescriptorManager(engine, this);
 
-        nation = Nation.INSTANCE;
+        nation = Nation.Companion.create(engine);
         congressionalDistrictsIndex = new HashMap<>();
         countySubdivisionsIndex = new HashMap<>();
         historicalProvincesIndex = new HashMap<>();

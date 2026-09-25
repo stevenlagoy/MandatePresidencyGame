@@ -2,7 +2,7 @@ package com.stevenlagoy.presidency.politics;
 
 import java.util.ArrayList;
 import java.util.List;
-import com.stevenlagoy.presidency.characters.Citizen;
+import com.stevenlagoy.presidency.citizens.Citizen;
 
 public class GatherIntel extends Operation {
     public static List<Operation> instances = new ArrayList<>();

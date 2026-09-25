@@ -4,8 +4,10 @@ import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.map.HasGovernment
 import kotlin.jvm.optionals.getOrNull
 
-object Nation: SoverignArea(
-    Engine.getInstance(),
+class Nation private constructor(
+    engine: Engine,
+): SoverignArea(
+    engine,
     "United States of America",
     "United States",
     0.0,
@@ -19,6 +21,10 @@ object Nation: SoverignArea(
     Engine.getInstance().POLITICS_MANAGER.PARTY_MANAGER.parties,
     mutableSetOf()
 ), HasGovernment {
+
+    companion object {
+        fun create(engine: Engine): Nation = Nation(engine)
+    }
 
     var stateEquivalents: Set<StateEquivalent> = emptySet()
         internal set

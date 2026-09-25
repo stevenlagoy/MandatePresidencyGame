@@ -1,7 +1,7 @@
 package com.stevenlagoy.presidency.politics.government
 
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.presidency.characters.PoliticalActor
+import com.stevenlagoy.presidency.citizens.PoliticalActor
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.map.HasPolitics

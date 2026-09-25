@@ -58,8 +58,6 @@ public class CountyEquivalentManager extends EntityManager<CountyEquivalent, Str
                         switch (type.toLowerCase().replaceAll("[^a-z]", " ")) {
                             case "federal district" :
                                 register(engine.getManager(MapManager3.class).getNation().getCapital().getCountyEquivalent());
-                                engine.getManager(MapManager3.class).
-                                break;
                             case "independent city" :
                                 // These will be made later when places are created
                                 String independentCityName = String.format("%s, %s", countyJson.requireString("fullName", "commonName", "name"), countyJson.requireString("state", "territory"));

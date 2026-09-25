@@ -1,9 +1,8 @@
 package com.stevenlagoy.presidency.core;
 
 import com.stevenlagoy.jsonic.JSONObject;
-import com.stevenlagoy.presidency.characters.CharacterManager;
+import com.stevenlagoy.presidency.citizens.CharacterManager;
 import com.stevenlagoy.presidency.demographics.DemographicsManager;
-import com.stevenlagoy.presidency.map.MapManager;
 import com.stevenlagoy.presidency.map.MapManager2;
 import com.stevenlagoy.presidency.politics.EventManager;
 import com.stevenlagoy.presidency.politics.PoliticsManager;

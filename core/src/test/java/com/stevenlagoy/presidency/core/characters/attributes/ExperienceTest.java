@@ -1,8 +1,8 @@
 package com.stevenlagoy.presidency.core.characters.attributes;
 
-import com.stevenlagoy.presidency.characters.attributes.ExperienceManager;
-import com.stevenlagoy.presidency.characters.attributes.experiences.Experience;
-import com.stevenlagoy.presidency.characters.attributes.experiences.ExperienceHistory;
+import com.stevenlagoy.presidency.citizens.attributes.ExperienceManager;
+import com.stevenlagoy.presidency.citizens.attributes.experiences.Experience;
+import com.stevenlagoy.presidency.citizens.attributes.experiences.ExperienceHistory;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
 import org.junit.jupiter.api.Test;

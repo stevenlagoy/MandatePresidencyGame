@@ -19,21 +19,18 @@ public class RouteManager extends Manager {
 
     // Instance Fields
 
-    private final @NotNull Set<Roadway.RoadwayDesignation> roadwayDesignations;
-    private final @NotNull Set<Roadway> roadways;
-    private final @NotNull Set<Airport> airports;
-    private final @NotNull Set<Railway> railways;
-    private final @NotNull Set<Seaport> seaports;
-
-    // Constructors
+    // Submanagers
+    private final AirportManager AIRPORT_MANAGER;
+    private final RailwayManager RAILWAY_MANAGER;
+    private final RoadwayManager ROADWAY_MANAGER;
+    private final SeaportManager SEAPORT_MANAGER;
 
     public RouteManager(@NotNull Engine engine, @NotNull Manager superManager) {
         super(engine, superManager);
-        roadwayDesignations = new HashSet<>();
-        roadways = new HashSet<>();
-        airports = new HashSet<>();
-        railways = new HashSet<>();
-        seaports = new HashSet<>();
+        AIRPORT_MANAGER = new AirportManager(engine, this);
+        RAILWAY_MANAGER = new RailwayManager(engine, this);
+        ROADWAY_MANAGER = new RoadwayManager(engine, this);
+        SEAPORT_MANAGER = new SeaportManager(engine, this);
     }
 
     // Manager Methods
@@ -41,24 +38,20 @@ public class RouteManager extends Manager {
     @Override
     @Contract(pure = true)
     public @NotNull List<Manager> getSubManagers() {
-        return List.of();
+        return List.of(
+            AIRPORT_MANAGER,
+            RAILWAY_MANAGER,
+            ROADWAY_MANAGER,
+            SEAPORT_MANAGER
+        );
     }
 
     @Override
     protected void doInit() {
-        readRoadways();
-        readAirports();
-        readSeaports();
-        readRailways();
     }
 
     @Override
     protected void doCleanup() {
-        roadwayDesignations.clear();
-        roadways.clear();
-        airports.clear();
-        railways.clear();
-        seaports.clear();
     }
 
     // Serialization Methods
@@ -76,125 +69,6 @@ public class RouteManager extends Manager {
 
     public static double getDirectDistance(MapEntity source, MapEntity destination) {
         return 0.0;
-    }
-
-    // Read and Create
-
-    private void readRoadways() {
-        try {
-            JSONObject json = new JSONObject(FilePath.ROADWAYS.path);
-            for (Object roadwayObj : json.requireArray()) {
-                if (roadwayObj instanceof JSONObject roadwayJson) {
-                    try {
-                        roadways.add(new Roadway(engine, roadwayJson));
-                    }
-                    catch (IllegalArgumentException e) {
-                        onDegraded(e);
-                    }
-                }
-            }
-        } catch (IOException e) {
-            onError(e);
-        }
-    }
-
-    private void readAirports() {
-        try {
-            JSONObject json = new JSONObject(FilePath.AIRPORTS.path);
-            for (Object obj : json.requireArray()) {
-                if (obj instanceof JSONObject airportJson) {
-                    try {
-                        airports.add(new Airport(engine, airportJson));
-                    }
-                    catch (IllegalArgumentException e) {
-                        onDegraded(e);
-                    }
-                }
-            }
-        } catch (IOException e) {
-            onError(e);
-        }
-    }
-
-    private void readRailways() {
-        try {
-            JSONObject json = new JSONObject(FilePath.RAILWAYS.path);
-            for (Object obj : json.requireArray()) {
-                if (obj instanceof JSONObject railwayJson) {
-                    try {
-                        railways.add(new Railway(engine, railwayJson));
-                    }
-                    catch (IllegalArgumentException e) {
-                        onDegraded(e);
-                    }
-                }
-            }
-        } catch (IOException e) {
-            onError(e);
-        }
-    }
-
-    private void readSeaports() {
-        try {
-            JSONObject json = new JSONObject(FilePath.SEAPORTS.path);
-            for (Object obj : json.requireArray()) {
-                if (obj instanceof JSONObject seaportJson) {
-                    try {
-                        seaports.add(new Seaport(engine, seaportJson));
-                    }
-                    catch (IllegalArgumentException e) {
-                        onDegraded(e);
-                    }
-                }
-            }
-        } catch (IOException e) {
-            onError(e);
-        }
-    }
-
-    // Roadways
-
-    public @NotNull Set<Roadway> getRoadways() {
-        return roadways;
-    }
-
-    public @NotNull Set<Roadway> getRoadwaysConnecting(MapEntity source, MapEntity destination) {
-        Set<Roadway> connections = new HashSet<>();
-        for (Roadway roadway : roadways) {
-            if(roadway.connects(source) && roadway.connects(destination)) {
-                connections.add(roadway);
-            }
-        }
-        return connections;
-    }
-
-    public @NotNull Optional<Roadway> matchRoadway(@NotNull String nameOrCode) {
-        requireOperational();
-        Optional<Roadway> res = roadways.stream().filter(roadway -> roadway.getName().equals(nameOrCode)).findFirst();
-        if (res.isEmpty()) res = roadways.stream().filter(roadway -> roadway.getCode().equals(nameOrCode)).findFirst();
-        return res;
-    }
-
-    // Airports
-
-    public @NotNull Set<Airport> getAirports() {
-        return airports;
-    }
-
-    public @NotNull Set<Airport> getAirports(@NotNull Airport.AirportSize size) {
-        return getAirports().stream().filter(airport -> airport.getSize().equals(size)).collect(Collectors.toSet());
-    }
-
-    // Seaports
-
-    public @NotNull Set<Seaport> getSeaports() {
-        return seaports;
-    }
-
-    // Railways
-
-    public @NotNull Set<Railway> getRailways() {
-        return railways;
     }
 
 }

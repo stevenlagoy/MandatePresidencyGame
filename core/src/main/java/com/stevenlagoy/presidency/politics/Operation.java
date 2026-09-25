@@ -1,6 +1,6 @@
 package com.stevenlagoy.presidency.politics;
 
-import com.stevenlagoy.presidency.characters.Citizen;
+import com.stevenlagoy.presidency.citizens.Citizen;
 
 import java.util.*;
 

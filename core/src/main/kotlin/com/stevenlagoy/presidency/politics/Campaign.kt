@@ -1,7 +1,7 @@
 package com.stevenlagoy.presidency.politics
 
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.presidency.characters.PoliticalActor
+import com.stevenlagoy.presidency.citizens.PoliticalActor
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.politics.government.GovernmentPosition
 import kotlin.jvm.optionals.getOrNull
