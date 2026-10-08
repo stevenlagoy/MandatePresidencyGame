@@ -1,4 +1,4 @@
-package com.stevenlagoy.presidency.citizens.attributes.finances
+package com.stevenlagoy.presidency.economy
 
 import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.core.TimeManager

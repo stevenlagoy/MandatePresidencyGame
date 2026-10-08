@@ -2,6 +2,7 @@ package com.stevenlagoy.presidency.citizens.attributes.finances
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.core.TimeManager
+import com.stevenlagoy.presidency.economy.Asset
 
 class Credit(
     timeManager: TimeManager,

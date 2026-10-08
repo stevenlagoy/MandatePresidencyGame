@@ -1,4 +1,4 @@
-package com.stevenlagoy.presidency.citizens.attributes.finances
+package com.stevenlagoy.presidency.economy
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.JSONSerializable

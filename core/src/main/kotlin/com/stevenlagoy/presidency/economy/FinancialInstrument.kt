@@ -1,4 +1,4 @@
-package com.stevenlagoy.presidency.citizens.attributes.finances
+package com.stevenlagoy.presidency.economy
 
 open class FinancialInstrument(
     val issuer: FinancialEntity,
