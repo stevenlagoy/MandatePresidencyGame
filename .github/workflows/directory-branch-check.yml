@@ -15,6 +15,10 @@ on:
       - 'core/src/main/kotlin/com/stevenlagoy/presidency/politics/**'
       - 'core/src/test/java/com/stevenlagoy/presidency/politics/**'
       - 'core/src/test/kotlin/com/stevenlagoy/presidency/politics/**'
+      - 'core/src/main/java/com/stevenlagoy/presidency/economy/**'
+      - 'core/src/main/kotlin/com/stevenlagoy/presidency/economy/**'
+      - 'core/src/test/java/com/stevenlagoy/presidency/economy/**'
+      - 'core/src/test/kotlin/com/stevenlagoy/presidency/economy/**'
 
 jobs:
   validate-paths:
@@ -48,6 +52,12 @@ jobs:
           # Check for `politics` directory violations
           if [[ "$CHANGED_FILES" =~ "com/stevenlagoy/presidency/politics/" ]] && [ "$CURRENT_BRANCH" != "feature/politics" ] && [ "$CURRENT_BRANCH" != "main" ]; then
             echo "ERROR: Changes to 'politics/' are only allowed on 'feature/politics' or 'main'."
+            exit 1
+          fi
+
+          # Check for `economy` directory violations
+          if [[ "$CHANGED_FILES" =~ "com/stevenlagoy/presidency/economy/" ]] && [ "$CURRENT_BRANCH" != "feature/economy" ] && [ "$CURRENT_BRANCH" != "main" ]; then
+            echo "ERROR: Changes to 'economy/' are only allowed on 'feature/economy' or 'main'."
             exit 1
           fi
 

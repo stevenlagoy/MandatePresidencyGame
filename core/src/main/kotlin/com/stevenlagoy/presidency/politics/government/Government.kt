@@ -4,7 +4,7 @@ import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.citizens.attributes.finances.BalanceSheet
 import com.stevenlagoy.presidency.citizens.attributes.finances.CashAccount
-import com.stevenlagoy.presidency.citizens.attributes.finances.FinancialEntity
+import com.stevenlagoy.presidency.economy.FinancialEntity
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.map.HasPartyPresence
