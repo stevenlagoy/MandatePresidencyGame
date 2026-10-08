@@ -1,6 +1,5 @@
 package com.stevenlagoy.presidency.economy
 
-import com.stevenlagoy.presidency.citizens.attributes.finances.FundType
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
 import java.time.LocalDate

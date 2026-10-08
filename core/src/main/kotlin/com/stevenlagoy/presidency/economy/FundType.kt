@@ -1,4 +1,4 @@
-package com.stevenlagoy.presidency.citizens.attributes.finances
+package com.stevenlagoy.presidency.economy
 
 enum class FundType {
     DISCRETIONARY,

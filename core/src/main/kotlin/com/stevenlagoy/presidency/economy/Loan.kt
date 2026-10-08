@@ -1,10 +1,6 @@
 package com.stevenlagoy.presidency.economy
 
-import com.stevenlagoy.presidency.citizens.attributes.finances.Credit
-import com.stevenlagoy.presidency.citizens.attributes.finances.Debt
 import com.stevenlagoy.presidency.core.Engine
-import com.stevenlagoy.presidency.core.EngineBound
-import com.stevenlagoy.presidency.core.TimeManager
 import java.time.LocalDate
 import java.time.Period
 import kotlin.math.pow

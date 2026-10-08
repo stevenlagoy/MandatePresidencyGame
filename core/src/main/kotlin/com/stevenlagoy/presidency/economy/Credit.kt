@@ -1,9 +1,7 @@
-package com.stevenlagoy.presidency.citizens.attributes.finances
+package com.stevenlagoy.presidency.economy
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.core.Engine
-import com.stevenlagoy.presidency.core.TimeManager
-import com.stevenlagoy.presidency.economy.Asset
 
 class Credit(
     engine: Engine,
