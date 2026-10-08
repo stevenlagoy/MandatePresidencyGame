@@ -1,14 +1,15 @@
 package com.stevenlagoy.presidency.citizens.attributes.finances
 
 import com.stevenlagoy.jsonic.JSONObject
+import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.TimeManager
 import com.stevenlagoy.presidency.economy.Asset
 
 class Credit(
-    timeManager: TimeManager,
+    engine: Engine,
     assetType: AssetType,
     value: Double,
-) : Asset(timeManager, assetType, value) {
+) : Asset(engine, assetType, value) {
 
     override fun toJson(): JSONObject {
         TODO("Not yet implemented")
