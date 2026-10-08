@@ -135,6 +135,11 @@ public abstract class Manager extends EngineBound implements JSONSerializable<Ma
         super(engine);
         this.superManager = superManager;
         this.problems = new HashSet<>();
+        for (Manager manager : getSubManagers()) {
+            if (manager.getState().equals(ManagerState.ERROR)) {
+                onError(new Exception(manager.getClass().getSimpleName() + " could not be constructed."));
+            }
+        }
     }
 
     // Public lifecycle API

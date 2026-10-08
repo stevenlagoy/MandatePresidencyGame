@@ -56,6 +56,7 @@ public class CharacterManager extends Manager {
     /** List of tracked Character instances. */
     private final Set<Citizen> citizens = new HashSet<>();
 
+    // Submanagers
     public final NameManager NAME_MANAGER;
     public final SkillsManager SKILLS_MANAGER;
     public final AppearanceManager APPEARANCE_MANAGER;
@@ -73,11 +74,6 @@ public class CharacterManager extends Manager {
         PERSONALITY_MANAGER = new PersonalityManager(engine, this);
         FAMILY_MANAGER      = new FamilyManager(engine, this);
         EXPERIENCE_MANAGER  = new ExperienceManager(engine, this);
-        for (Manager manager : getSubManagers()) {
-            if (manager.getState().equals(ManagerState.ERROR)) {
-                onError(new Exception(manager.getClass().getSimpleName() + " could not be constructed."));
-            }
-        }
     }
 
     // Manager Methods
