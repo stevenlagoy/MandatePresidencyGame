@@ -3,6 +3,7 @@ package com.stevenlagoy.presidency.economy
 import com.stevenlagoy.presidency.citizens.attributes.finances.Credit
 import com.stevenlagoy.presidency.citizens.attributes.finances.Debt
 import com.stevenlagoy.presidency.core.Engine
+import com.stevenlagoy.presidency.util.daysBetween
 import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.core.TimeManager
 import java.time.LocalDate
@@ -31,7 +32,8 @@ class Loan(
      * seize and sell the collateral asset to recover their money.
      */
     val collateral: Asset? = null,
-) : FinancialInstrument(engine, lender, borrower, principal) {
+    date: LocalDate,
+) : FinancialInstrument(engine, lender, borrower, principal, date) {
 
     val totalInstallments: Double = (term.toTotalMonths() / paymentFrequency.toTotalMonths()).toDouble()
 
@@ -43,10 +45,22 @@ class Loan(
 
     val totalLoanPayment: Double = amortizedPayment * totalInstallments
 
+    val paymentHistory: List<LoanPayment> = listOf()
+
     fun disburse(date: LocalDate): Boolean {
         return Transaction(engine, receiver=borrower, sender=lender, amount=principal, date).execute()
             && lender.balanceSheet.assets.add(Credit(engine, Asset.AssetType.LoanReceivable, totalLoanPayment))
-            && borrower.balanceSheet.liabilities.add(Debt(totalLoanPayment))
+            && borrower.balanceSheet.liabilities.add(Debt(engine, totalLoanPayment, date))
+    }
+
+    data class LoanPayment(
+        /** Was this payment completed when it came due or before? */
+        val transaction: Transaction,
+        val scheduledDate: LocalDate,
+    ) {
+        val paymentDate = transaction.date
+        val daysLate: Int = daysBetween(scheduledDate, paymentDate) * if (paymentDate.isBefore(scheduledDate)) -1 else 1
+        val onTime: Boolean = daysLate <= 0
     }
 
 }

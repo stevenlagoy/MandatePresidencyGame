@@ -18,6 +18,8 @@ class Bank(
 
     val loansIssued: Set<Loan> = setOf()
 
+    override val financialInstruments: Set<FinancialInstrument> = setOf()
 
+    override val monthlyCreditLimit: Double = 0.0
 
 }

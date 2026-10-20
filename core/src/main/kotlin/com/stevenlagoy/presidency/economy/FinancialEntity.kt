@@ -9,4 +9,6 @@ import com.stevenlagoy.presidency.citizens.attributes.finances.CashAccount
 interface FinancialEntity {
     val balanceSheet: BalanceSheet
     val cashAccount: CashAccount
+    val financialInstruments: Set<FinancialInstrument>
+    val monthlyCreditLimit: Double
 }

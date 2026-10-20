@@ -29,6 +29,8 @@ const val leapYearDuration = 366 * dayDuration
 const val yearDuration = 365 * dayDuration
 /** Number of days in a year. TODO Think about leap years  */
 const val daysInYear = 366
+/** Number of days in a week. */
+const val daysInWeek = 7
 
 /** The epoch, 1970. */
 const val epochYear = 1970
