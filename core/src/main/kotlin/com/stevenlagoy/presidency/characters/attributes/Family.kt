@@ -46,14 +46,17 @@ class Family(
     }
 
     val sideSize: Int
-        get() = (mother?.family?.sideSize ?: 0) + (father?.family?.sideSize ?: 0) + (spouse?.family?.sideSize ?: 0) + children.sumOf { it.family.sideSize }
+        get() = (mother?.family?.sideSize ?: 0) + (father?.family?.sideSize ?: 0) + (spouse?.family?.sideSize
+            ?: 0) + children.sumOf { it.family.sideSize }
 
     override fun fromJson(json: JSONObject) = this
 
-    override fun toJson() = JSONObject(hashCode().toString(), listOf(
-        JSONObject("parents", parents.map { it.id }),
-        JSONObject("spouse", spouse?.id),
-        JSONObject("children", children.map { it.id }),
-    ))
+    override fun toJson() = JSONObject(
+        hashCode().toString(), listOf(
+            JSONObject("parents", parents.map { it.id }),
+            JSONObject("spouse", spouse?.id),
+            JSONObject("children", children.map { it.id }),
+        )
+    )
 
 }

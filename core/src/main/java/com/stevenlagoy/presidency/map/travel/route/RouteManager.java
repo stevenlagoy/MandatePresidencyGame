@@ -39,13 +39,14 @@ public class RouteManager extends Manager {
     // Manager Methods
 
     @Override
-    @Contract(pure = true)
+    @Contract(pure=true)
     public @NotNull List<Manager> getSubManagers() {
         return List.of();
     }
 
     @Override
     protected void doInit() {
+        readRoadwayDesignations();
         readRoadways();
         readAirports();
         readSeaports();
@@ -80,6 +81,11 @@ public class RouteManager extends Manager {
 
     // Read and Create
 
+    private void readRoadwayDesignations() {
+        roadwayDesignations.add(Roadway.RoadwayDesignation.EXPRESSWAY);
+        // TODO
+    }
+
     private void readRoadways() {
         try {
             JSONObject json = new JSONObject(FilePath.ROADWAYS.path);
@@ -93,7 +99,8 @@ public class RouteManager extends Manager {
                     }
                 }
             }
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             onError(e);
         }
     }
@@ -111,7 +118,8 @@ public class RouteManager extends Manager {
                     }
                 }
             }
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             onError(e);
         }
     }
@@ -129,7 +137,8 @@ public class RouteManager extends Manager {
                     }
                 }
             }
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             onError(e);
         }
     }
@@ -147,7 +156,8 @@ public class RouteManager extends Manager {
                     }
                 }
             }
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             onError(e);
         }
     }
@@ -161,7 +171,7 @@ public class RouteManager extends Manager {
     public @NotNull Set<Roadway> getRoadwaysConnecting(MapEntity source, MapEntity destination) {
         Set<Roadway> connections = new HashSet<>();
         for (Roadway roadway : roadways) {
-            if(roadway.connects(source) && roadway.connects(destination)) {
+            if (roadway.connects(source) && roadway.connects(destination)) {
                 connections.add(roadway);
             }
         }

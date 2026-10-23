@@ -30,8 +30,8 @@ class IndependentCity(
     override val qualifiedName: String
         get() = super<CountyEquivalent>.qualifiedName
 
-    private val _subdivisions = mutableListOf<CountySubdivision>()
-    override val countySubdivisions get() = _subdivisions
+    private val _places = mutableSetOf<Place>()
+    override val places: Set<Place> get() = _places
 
     init {
         if (_stateEquivalent != null) stateEquivalent = _stateEquivalent
@@ -45,7 +45,7 @@ class IndependentCity(
             StateEquivalent.SubdivisionScheme.MCD -> subdivision is CountySubdivision.MinorCivilDivision
         }
         require(ok) { "${subdivision::class.simpleName} is not valid in a ${stateEquivalent.subdivisionScheme} state (${stateEquivalent.name}" }
-        _subdivisions += subdivision
+        addSubdivision(subdivision)
     }
 
     override fun toJson(): JSONObject {

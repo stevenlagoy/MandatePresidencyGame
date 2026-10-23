@@ -18,9 +18,9 @@ import java.util.stream.Stream;
  * An EntityManager is responsible for tracking entities of one specific type, including owning,
  * storing, and responding to queries for them. EntityManagers are leaves in the Manager hierarchy
  * tree and may not have submanagers.
+ *
  * @param <T> Type of the entities tracked by this EntityManager
  * @param <K> Type of the primary lookup key of the entity type
- *
  * @author Steven LaGoy
  */
 public abstract class EntityManager<T, K> extends Manager implements Iterable<T> {
@@ -79,6 +79,7 @@ public abstract class EntityManager<T, K> extends Manager implements Iterable<T>
     /**
      * Register an entity for tracking by this manager. After this, the manager will be an owner of
      * the entity.
+     *
      * @param entity Entity to track
      */
     public void register(@NotNull T entity) {
@@ -90,6 +91,7 @@ public abstract class EntityManager<T, K> extends Manager implements Iterable<T>
     /**
      * Unregister an entity for tracking by this manager. After this, the manager will not be an
      * owner of the entity.
+     *
      * @param entity Entity to stop tracking
      */
     protected void unregister(@NotNull T entity) {
@@ -119,34 +121,27 @@ public abstract class EntityManager<T, K> extends Manager implements Iterable<T>
     // Query
 
     public @NotNull Set<T> getAll() {
-        requireOperational();
         return entities;
     }
 
     public int count() {
-        requireOperational();
         return entities.size();
     }
 
     public @NotNull Optional<T> matchByKey(@NotNull K key) {
-        requireOperational();
         return Optional.ofNullable(index.get(key));
     }
 
     public @NotNull Set<T> matchWhere(@NotNull Predicate<T> predicate) {
-        requireOperational();
         return entities.stream().filter(predicate).collect(Collectors.toSet());
     }
 
     public @NotNull Optional<T> matchFirstWhere(@NotNull Predicate<T> predicate) {
-        requireOperational();
         return entities.stream().filter(predicate).findFirst();
     }
 
     public @NotNull T requireWhere(@NotNull Predicate<T> predicate, @NotNull Supplier<String> failureMessageSupplier) throws MatchingException {
-        return matchFirstWhere(predicate).orElseThrow(
-            () -> new MatchingException(failureMessageSupplier.get(), () -> matchFirstWhere(predicate))
-        );
+        return matchFirstWhere(predicate).orElseThrow(() -> new MatchingException(failureMessageSupplier.get(), () -> matchFirstWhere(predicate)));
     }
 
     // Selection
@@ -170,4 +165,5 @@ public abstract class EntityManager<T, K> extends Manager implements Iterable<T>
     protected @NotNull String entityLabel() {
         return getClass().getSimpleName().replaceFirst("Manager$", "");
     }
+
 }

@@ -8,7 +8,10 @@ import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.demographics.Bloc;
 import com.stevenlagoy.presidency.demographics.Demographics;
 import com.stevenlagoy.presidency.map.entities.MapEntity;
-import com.stevenlagoy.presidency.util.*;
+import com.stevenlagoy.presidency.util.CollectionUtils;
+import com.stevenlagoy.presidency.util.FilePath;
+import com.stevenlagoy.presidency.util.Logger;
+import com.stevenlagoy.presidency.util.RandomUtils;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -20,74 +23,121 @@ import java.util.stream.Collectors;
  * <h1>NAME MANAGER</h1>
  * {@code ~/characters/attributes/names/NameManager.java}
  * <p>
- *     <b>Author:  </b> Steven LaGoy            <br>
- *     <b>Created: </b> 01 June 2025 at 1:04 AM <br>
- *     <b>Modified:</b> 04 June 2026            <br>
+ * <b>Author:  </b> Steven LaGoy            <br>
+ * <b>Created: </b> 01 June 2025 at 1:04 AM <br>
+ * <b>Modified:</b> 04 June 2026            <br>
  * </p>
- *
+ * <p>
  * NameManager is responsible for creating and maintaining information about {@link PersonalName} attributes.
  *
+ * @author Steven LaGoy
  * @implNote PersonalName is an abstract class with several concretions. This class violates the open-closed principle as specific name forms (concretions)
  * must each have separate implementation details. At this time, this is considered acceptable because the number of possible name forms is not
  * expected to increase quickly enough to warrant a more abstract strategy-pattern solution to concrete name class construction.
- *
- * @author Steven LaGoy
  */
 public class NameManager extends EntityManager<PersonalName, String> {
 
     // Constants
 
     // Percentages for Western-style names
-    /** Percentage of people with multiple first names. Percentage for three first names is this value squared, and so on. */
+    /**
+     * Percentage of people with multiple first names. Percentage for three first names is this value squared, and so on.
+     */
     public static final float multipleFirstNamesPercent = 0.01f;
-    /** Percentage of people who have one or more middle names. */
+    /**
+     * Percentage of people who have one or more middle names.
+     */
     public static final float middleNamePercent = 0.90f;
-    /** Percentage of people who prefer their middle name over first name. */
+    /**
+     * Percentage of people who prefer their middle name over first name.
+     */
     public static final float preferMiddleNamePercent = 0.10f;
-    /** Percentage of people with multiple middle names. Percentage for three middle names is this value squared, and so on. */
+    /**
+     * Percentage of people with multiple middle names. Percentage for three middle names is this value squared, and so on.
+     */
     public static final float multipleMiddleNamesPercent = 0.05f;
-    /** Percentage of people who include their middle name in their common name. */
+    /**
+     * Percentage of people who include their middle name in their common name.
+     */
     public static final float includeMiddleNameInCommonPercent = 0.15f;
-    /** Percentage of people who commonly use a nickname. */
+    /**
+     * Percentage of people who commonly use a nickname.
+     */
     public static final float nicknamePercent = 0.33f;
-    /** Percentage of people with a nickname whose nickname is based on their middle name. */
+    /**
+     * Percentage of people with a nickname whose nickname is based on their middle name.
+     */
     public static final float nicknameFromMiddleNamePercent = 0.10f;
-    /** Percentage of people with a nickname based on the abbreviations of their names, like Thomas James -> TJ. */
+    /**
+     * Percentage of people with a nickname based on the abbreviations of their names, like Thomas James -> TJ.
+     */
     public static final float nicknameFromAbbreviationPercent = 0.15f;
-    /** Percentage controlling length of nicknames based on abbreviations. This is the chance for each additional letter to be included. */
+    /**
+     * Percentage controlling length of nicknames based on abbreviations. This is the chance for each additional letter to be included.
+     */
     public static final float nicknameFromAbbreviationLengthPercent = 0.6f;
-    /** Percentage of people who commonly use a nickname which is not based on one of their given names. */
+    /**
+     * Percentage of people who commonly use a nickname which is not based on one of their given names.
+     */
     public static final float nicknameNotFromGivenNamesPercent = 0.05f;
-    /** Percentage of people who have a double-barreled surname or multiple surnames. */
+    /**
+     * Percentage of people who have a double-barreled surname or multiple surnames.
+     */
     public static final float doubleBarrelledSurnamePercent = 0.055f;
-    /** Percentage of people with multiple surnames who hyphenate one or more of those surnames. */
+    /**
+     * Percentage of people with multiple surnames who hyphenate one or more of those surnames.
+     */
     public static final float hyphenatedSurnamePercent = 0.30f;
-    /** Percentage of people with the Senior ordination. */
+    /**
+     * Percentage of people with the Senior ordination.
+     */
     public static final float srOrdinationPercent = 0.04f;
-    /** Percentage of people with the Junior ordination. */
+    /**
+     * Percentage of people with the Junior ordination.
+     */
     public static final float jrOrdinationPercent = 0.08f;
-    /** Percentage of people with the I ordination. */
+    /**
+     * Percentage of people with the I ordination.
+     */
     public static final float iOrdinationPercent = 0.005f;
-    /** Percentage of people with the II ordination. */
+    /**
+     * Percentage of people with the II ordination.
+     */
     public static final float iiOrdinationPercent = 0.025f;
-    /** Percentage of people with the III ordination. */
+    /**
+     * Percentage of people with the III ordination.
+     */
     public static final float iiiOrdinationPercent = 0.02f;
-    /** Percentage of people with the MD suffix. */
+    /**
+     * Percentage of people with the MD suffix.
+     */
     public static final float mdSuffixPercent = 0.001f;
-    /** Percentage of people with the PhD suffix. */
+    /**
+     * Percentage of people with the PhD suffix.
+     */
     public static final float phdSuffixPercent = 0.0075f;
-    /** Percentage of people with the Esq suffix. */
+    /**
+     * Percentage of people with the Esq suffix.
+     */
     public static final float esqSuffixPercent = 0.0025f;
-    /** Percentage of people who commonly abbreviate their first name(s). */
+    /**
+     * Percentage of people who commonly abbreviate their first name(s).
+     */
     public static final float abbreviateFirstNamesPercent = 0.06f;
-    /** Percentage of people who commonly abbreviate their middle name(s). */
+    /**
+     * Percentage of people who commonly abbreviate their middle name(s).
+     */
     public static final float abbreviateMiddleNamesPercent = 0.38f;
-    /** Percentage of people who commonly abbreviate all their given names. */
+    /**
+     * Percentage of people who commonly abbreviate all their given names.
+     */
     public static final float abbreviateBothNamesPercent = 0.08f;
 
     public static final float manMrHonorificPercent = 0.85f;
     public static final float womanMsHonorificPercent = 0.30f;
-    /** Percentage of woman who are not Ms. who are Mrs. */
+    /**
+     * Percentage of woman who are not Ms. who are Mrs.
+     */
     public static final float womanMrsHonorificPercent = 0.80f;
     public static final float drHonorificPercent = 0.12f;
     public static final float nonBinaryMxHonorificPercent = 0.10f;
@@ -95,30 +145,41 @@ public class NameManager extends EntityManager<PersonalName, String> {
     public static final float nonBinaryMsHonorificPercent = 0.20f;
 
     // Percentages for Hispanic-style names
-    /** Percentage of Hispanic people who have a Hispanic-style name. */
+    /**
+     * Percentage of Hispanic people who have a Hispanic-style name.
+     */
     public static final float hispanicHispanicNamePercent = 0.80f;
-    /** Percentage of Hispanic people with multiple forenames. Percentage for three forenames is this value squared, and so on. */
+    /**
+     * Percentage of Hispanic people with multiple forenames. Percentage for three forenames is this value squared, and so on.
+     */
     public static final float hispanicMultipleForenamesPercent = 0.25f;
-    /** Odds that one part of a hispanic surname is composite. */
+    /**
+     * Odds that one part of a hispanic surname is composite.
+     */
     public static final float hispanicCompositeSurnamePercent = 0.33f;
-    /** Possible conjoiners for composite surnames */
-    public static final Map<String, Set<String>> hispanicCompositeSurnameConjoiners = Map.of(
-        "Brazilian", Set.of(" ", " e ", "-", " de "), // Also do, da, dos, das
-        "Portuguese", Set.of(" ", " e ", "-", " de "),
-        "Galician", Set.of(" ", " e ", "-", " de "),
-        "Catalan", Set.of(" ", " i ", "-", " d'"),
-        "Basque", Set.of(" ", " eta ", "-", " de "),
-        "Hispanic", Set.of(" ", " y ", "-", " de ") // Catch-all
+    /**
+     * Possible conjoiners for composite surnames
+     */
+    public static final Map<String, Set<String>> hispanicCompositeSurnameConjoiners = Map.of("Brazilian", Set.of(" ", " e ", "-", " de "), // Also do, da, dos, das
+        "Portuguese", Set.of(" ", " e ", "-", " de "), "Galician", Set.of(" ", " e ", "-", " de "), "Catalan", Set.of(" ", " i ", "-", " d'"), "Basque", Set.of(" ", " eta ", "-", " de "), "Hispanic", Set.of(" ", " y ", "-", " de ") // Catch-all
     );
 
     // Percentages for Eastern-style names
-    /** Percentage of Asian people who have an Eastern-style name. */
+    /**
+     * Percentage of Asian people who have an Eastern-style name.
+     */
     public static final float asianEasternNamePercent = 0.30f;
-    /** Percentage of people with a generation name. */
+    /**
+     * Percentage of people with a generation name.
+     */
     public static final float generationNamePercent = 0.60f;
-    /** Percentage of people with an additional Western-style name. */
+    /**
+     * Percentage of people with an additional Western-style name.
+     */
     public static final float westernNamePercent = 0.50f;
-    /** Percentage of people who place their western name before their traditional name. */
+    /**
+     * Percentage of people who place their western name before their traditional name.
+     */
     public static final float westernNameFirstPercent = 0.33f;
 
     // Percentages for Native-American-style names
@@ -137,10 +198,10 @@ public class NameManager extends EntityManager<PersonalName, String> {
 
     public NameManager(@NotNull Engine engine, @NotNull Manager superManager) {
         super(engine, superManager);
-        givenNamesDistribution      = new HashMap<>();
-        familyNamesDistribution     = new HashMap<>();
+        givenNamesDistribution = new HashMap<>();
+        familyNamesDistribution = new HashMap<>();
         generationNamesDistribution = new HashMap<>();
-        nicknames                   = new HashMap<>();
+        nicknames = new HashMap<>();
     }
 
     // Manager Methods
@@ -184,7 +245,8 @@ public class NameManager extends EntityManager<PersonalName, String> {
         try {
             JSONObject json = new JSONObject(FilePath.GIVEN_NAMES.path);
             givenNamesDistribution.putAll(processNamesStructure(json));
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             onError(e);
         }
     }
@@ -193,7 +255,8 @@ public class NameManager extends EntityManager<PersonalName, String> {
         try {
             JSONObject json = new JSONObject(FilePath.FAMILY_NAMES.path);
             familyNamesDistribution.putAll(processNamesStructure(json));
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             onError(e);
         }
     }
@@ -202,7 +265,8 @@ public class NameManager extends EntityManager<PersonalName, String> {
         try {
             JSONObject json = new JSONObject(FilePath.DECADE_NAMES.path);
             generationNamesDistribution.putAll(processNamesStructure(json));
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             onError(e);
         }
     }
@@ -221,7 +285,8 @@ public class NameManager extends EntityManager<PersonalName, String> {
                 }
                 nicknames.put(key, names);
             }
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             onError(e);
         }
     }
@@ -269,10 +334,11 @@ public class NameManager extends EntityManager<PersonalName, String> {
 
     /**
      * Builder pattern to create a complete Personal Name based on context values
+     *
      * @param demographics Demographics of the person being given a name
-     * @param age Age of a person being given a name
-     * @param family Family of a person being given a name
-     * @param location Location of a person being given a name
+     * @param age          Age of a person being given a name
+     * @param family       Family of a person being given a name
+     * @param location     Location of a person being given a name
      * @return Complete Personal Name instance catered to the passed information
      */
     public @NotNull PersonalName buildPersonalName(@NotNull Demographics demographics, int age, @NotNull Family family, @NotNull MapEntity location) {
@@ -285,6 +351,7 @@ public class NameManager extends EntityManager<PersonalName, String> {
 
     /**
      * Builder pattern to create a complete Personal Name based on Name Context
+     *
      * @param context Name Context for a person being given a name
      * @return Complete Personal Name instance catered to the Name Context
      */
@@ -297,10 +364,12 @@ public class NameManager extends EntityManager<PersonalName, String> {
         if (nameForm.equals(HispanicPersonalName.class)) {
             name = new HispanicPersonalName();
             name = fillHispanicPersonalNameFields(name, context);
-        } else if (nameForm.equals(EasternPersonalName.class)) {
+        }
+        else if (nameForm.equals(EasternPersonalName.class)) {
             name = new EasternPersonalName();
             name = fillEasternPersonalNameFields(name, context);
-        } else { // Default case: Western Personal Name
+        }
+        else { // Default case: Western Personal Name
             name = new WesternPersonalName();
             name = fillWesternPersonalNameFields(name, context);
         }
@@ -311,6 +380,7 @@ public class NameManager extends EntityManager<PersonalName, String> {
 
     /**
      * Select a name form (concretion of PersonalName) based on demographic context
+     *
      * @param context Context object containing demographic information.
      * @return Concrete class extending PersonalName
      */
@@ -354,12 +424,12 @@ public class NameManager extends EntityManager<PersonalName, String> {
             name.setHonorific("Dr.");
         }
         switch (context.demographics.getPresentation().getName()) {
-            case "Man" :
+            case "Man":
                 if (RandomUtils.chance(manMrHonorificPercent)) {
                     name.setHonorific("Mr.");
                 }
                 break;
-            case "Woman" :
+            case "Woman":
                 if (RandomUtils.chance(womanMsHonorificPercent)) {
                     name.setHonorific("Ms.");
                 }
@@ -367,7 +437,7 @@ public class NameManager extends EntityManager<PersonalName, String> {
                     name.setHonorific("Mrs.");
                 }
                 break;
-            case "Non-Binary" :
+            case "Non-Binary":
                 if (RandomUtils.chance(nonBinaryMxHonorificPercent)) {
                     name.setHonorific("Mx.");
                 }
@@ -651,17 +721,7 @@ public class NameManager extends EntityManager<PersonalName, String> {
             return;
         }
         // Select a Western name
-        String westernName = selectGivenName(new NameContext(
-            new Demographics(
-                engine,
-                context.demographics.getGeneration(),
-                context.demographics.getReligion(),
-                Objects.requireNonNull(engine.DEMOGRAPHICS_MANAGER.matchBloc("Anglo")).orElseThrow(),
-                context.demographics.getPresentation()
-            ),
-            context.age,
-            context.family
-        ));
+        String westernName = selectGivenName(new NameContext(new Demographics(engine, context.demographics.getGeneration(), context.demographics.getReligion(), Objects.requireNonNull(engine.DEMOGRAPHICS_MANAGER.matchBloc("Anglo")).orElseThrow(), context.demographics.getPresentation()), context.age, context.family));
         name.setWesternName(westernName);
     }
 
@@ -706,7 +766,8 @@ public class NameManager extends EntityManager<PersonalName, String> {
             nameBuilder.append(selected);
             try {
                 nameBuilder.append(conjoinerStream.next());
-            } catch (NoSuchElementException e) { // Ran out - fallback with first conjoiner
+            }
+            catch (NoSuchElementException e) { // Ran out - fallback with first conjoiner
                 nameBuilder.append(conjoinerPattern[0]);
             }
         }
@@ -749,4 +810,5 @@ public class NameManager extends EntityManager<PersonalName, String> {
 
         return namesDistribution.get(bestCombination);
     }
+
 }

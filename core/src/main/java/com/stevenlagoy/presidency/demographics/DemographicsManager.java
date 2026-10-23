@@ -19,11 +19,11 @@ import java.util.*;
  * <h1>DEMOGRAPHICS MANAGER</h1>
  * {@code ~/demographics/DemographicsManager.java}
  * <p>
- *     <b>Author:  </b> Steven LaGoy                <br>
- *     <b>Created: </b> 10 December 2024 at 8:21 PM <br>
- *     <b>Modified:</b> 11 April 2026               <br>
+ * <b>Author:  </b> Steven LaGoy                <br>
+ * <b>Created: </b> 10 December 2024 at 8:21 PM <br>
+ * <b>Modified:</b> 11 April 2026               <br>
  * </p>
- *
+ * <p>
  * DemographicsManager is responsible for tracking bloc and demographic data, or any
  * population-based state which is detached from individual Character instances.
  *
@@ -33,8 +33,10 @@ public class DemographicsManager extends Manager {
 
     // Constants
 
-    /** Used to convert counts in the Blocs data file into percentages. */
-    public static final long   GAME_START_VOTERS = 341_275_500; // 1 Feb 2025
+    /**
+     * Used to convert counts in the Blocs data file into percentages.
+     */
+    public static final long GAME_START_VOTERS = 341_275_500; // 1 Feb 2025
     public static final double FEMALE_WOMAN_PRESENTATION_PERCENT = 0.99;
     public static final double FEMALE_NONBINARY_PRESENTATION_PERCENT = 0.075;
     public static final double FEMALE_MAN_PRESENTATION_PERCENT = 0.025;
@@ -61,7 +63,7 @@ public class DemographicsManager extends Manager {
     // Manager Methods
 
     @Override
-    @Contract(pure = true)
+    @Contract(pure=true)
     public @NotNull List<Manager> getSubManagers() {
         return List.of();
     }
@@ -99,12 +101,13 @@ public class DemographicsManager extends Manager {
             for (Object categoryObject : json.requireArray()) {
                 if (categoryObject instanceof JSONObject categoryJson) {
                     String key = categoryJson.getKey();
-                    DemographicCategory category = DemographicCategory.valueOf(key.toUpperCase().replaceAll("[^a-zA-Z]+","_"));
+                    DemographicCategory category = DemographicCategory.valueOf(key.toUpperCase().replaceAll("[^a-zA-Z]+", "_"));
                     List<Bloc> blocs = createBlocs(category, categoryJson);
                     demographicBlocs.put(category, blocs);
                 }
             }
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             onError(e);
         }
     }
@@ -158,7 +161,8 @@ public class DemographicsManager extends Manager {
             populationPyramid = new HashMap<>();
             JSONObject json = new JSONObject(FilePath.BIRTHYEAR_PERCENTAGES.path);
             populationPyramid.put(null, null); // TODO
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             onError(e);
         }
     }
@@ -172,11 +176,9 @@ public class DemographicsManager extends Manager {
         requireState(ManagerState.ACTIVE, ManagerState.PAUSED, ManagerState.DEGRADED, ManagerState.INITIALIZING);
         for (List<Bloc> blocList : demographicBlocs.values()) {
             for (Bloc rootBloc : blocList) {
-                if (rootBloc.getName().equals(name))
-                    return Optional.of(rootBloc);
+                if (rootBloc.getName().equals(name)) return Optional.of(rootBloc);
                 for (Bloc descendantBloc : rootBloc.getDescendantBlocs()) {
-                    if (descendantBloc.getName().equals(name))
-                        return Optional.of(descendantBloc);
+                    if (descendantBloc.getName().equals(name)) return Optional.of(descendantBloc);
                 }
             }
         }
@@ -211,37 +213,25 @@ public class DemographicsManager extends Manager {
             weights.put(bloc, bloc.getPercentageMembership());
         }
         Bloc selected = RandomUtils.weightedSelect(weights);
-        assert(selected != null);
+        assert (selected != null);
         return selected;
     }
 
     public @NotNull Bloc selectPresentationForSex(@NotNull Sex sex) {
-        String presentationBlocName = switch(sex) {
+        String presentationBlocName = switch (sex) {
             case FEMALE ->
-                RandomUtils.chance(FEMALE_WOMAN_PRESENTATION_PERCENT) ? "Woman" :
-                RandomUtils.chance(FEMALE_MAN_PRESENTATION_PERCENT) ? "Man" :
-                "Nonbinary";
+                RandomUtils.chance(FEMALE_WOMAN_PRESENTATION_PERCENT) ? "Woman" : RandomUtils.chance(FEMALE_MAN_PRESENTATION_PERCENT) ? "Man" : "Nonbinary";
             case INTERSEX ->
-                RandomUtils.chance(INTERSEX_WOMAN_PRESENTATION_PERCENT) ? "Woman" :
-                RandomUtils.chance(INTERSEX_MAN_PRESENTATION_PERCENT) ? "Man" :
-                "Nonbinary";
+                RandomUtils.chance(INTERSEX_WOMAN_PRESENTATION_PERCENT) ? "Woman" : RandomUtils.chance(INTERSEX_MAN_PRESENTATION_PERCENT) ? "Man" : "Nonbinary";
             case MALE ->
-                RandomUtils.chance(MALE_WOMAN_PRESENTATION_PERCENT) ? "Woman" :
-                RandomUtils.chance(MALE_MAN_PRESENTATION_PERCENT) ? "Man" :
-                "Nonbinary";
+                RandomUtils.chance(MALE_WOMAN_PRESENTATION_PERCENT) ? "Woman" : RandomUtils.chance(MALE_MAN_PRESENTATION_PERCENT) ? "Man" : "Nonbinary";
         };
         return matchBloc(presentationBlocName).orElseThrow();
     }
 
     public @NotNull Demographics selectRandomDemographics() {
         requireOperational();
-        return new Demographics(
-            engine,
-            selectRandomBloc(DemographicCategory.GENERATION),
-            selectRandomBloc(DemographicCategory.RELIGION),
-            selectRandomBloc(DemographicCategory.RACE_ETHNICITY),
-            selectRandomBloc(DemographicCategory.PRESENTATION)
-        );
+        return new Demographics(engine, selectRandomBloc(DemographicCategory.GENERATION), selectRandomBloc(DemographicCategory.RELIGION), selectRandomBloc(DemographicCategory.RACE_ETHNICITY), selectRandomBloc(DemographicCategory.PRESENTATION));
     }
 
     public @NotNull Bloc selectRandomBloc(@NotNull DemographicCategory category) {
@@ -260,31 +250,31 @@ public class DemographicsManager extends Manager {
         Bloc underrepresentedBloc = selectUnderrepresentedBloc(allBlocs);
         Bloc generation, religion, raceEthnicity, presentation;
         switch (underrepresentedBloc.getCategory()) {
-            case GENERATION :
-                generation    = underrepresentedBloc;
-                religion      = selectBloc(DemographicCategory.RELIGION,       Set.of(generation));
+            case GENERATION:
+                generation = underrepresentedBloc;
+                religion = selectBloc(DemographicCategory.RELIGION, Set.of(generation));
                 raceEthnicity = selectBloc(DemographicCategory.RACE_ETHNICITY, Set.of(generation, religion));
-                presentation  = selectBloc(DemographicCategory.PRESENTATION,   Set.of(generation, religion, raceEthnicity));
+                presentation = selectBloc(DemographicCategory.PRESENTATION, Set.of(generation, religion, raceEthnicity));
                 break;
-            case RELIGION :
-                religion      = underrepresentedBloc;
-                generation    = selectBloc(DemographicCategory.GENERATION,     Set.of(religion));
+            case RELIGION:
+                religion = underrepresentedBloc;
+                generation = selectBloc(DemographicCategory.GENERATION, Set.of(religion));
                 raceEthnicity = selectBloc(DemographicCategory.RACE_ETHNICITY, Set.of(religion, generation));
-                presentation  = selectBloc(DemographicCategory.PRESENTATION,   Set.of(religion, generation, raceEthnicity));
+                presentation = selectBloc(DemographicCategory.PRESENTATION, Set.of(religion, generation, raceEthnicity));
                 break;
-            case RACE_ETHNICITY :
+            case RACE_ETHNICITY:
                 raceEthnicity = underrepresentedBloc;
-                generation    = selectBloc(DemographicCategory.GENERATION,   Set.of(raceEthnicity));
-                religion      = selectBloc(DemographicCategory.RELIGION,     Set.of(raceEthnicity, generation));
-                presentation  = selectBloc(DemographicCategory.PRESENTATION, Set.of(raceEthnicity, generation, religion));
+                generation = selectBloc(DemographicCategory.GENERATION, Set.of(raceEthnicity));
+                religion = selectBloc(DemographicCategory.RELIGION, Set.of(raceEthnicity, generation));
+                presentation = selectBloc(DemographicCategory.PRESENTATION, Set.of(raceEthnicity, generation, religion));
                 break;
-            case PRESENTATION :
-                presentation  = underrepresentedBloc;
-                generation    = selectBloc(DemographicCategory.GENERATION,     Set.of(presentation));
-                religion      = selectBloc(DemographicCategory.RELIGION,       Set.of(presentation, generation));
+            case PRESENTATION:
+                presentation = underrepresentedBloc;
+                generation = selectBloc(DemographicCategory.GENERATION, Set.of(presentation));
+                religion = selectBloc(DemographicCategory.RELIGION, Set.of(presentation, generation));
                 raceEthnicity = selectBloc(DemographicCategory.RACE_ETHNICITY, Set.of(presentation, generation, religion));
                 break;
-            default :
+            default:
                 return selectDemographics();
         }
         return new Demographics(engine, generation, religion, raceEthnicity, presentation);
@@ -298,9 +288,7 @@ public class DemographicsManager extends Manager {
         for (Bloc bloc : blocs) {
             if (bloc.getSubBlocs().isEmpty()) {
                 double representationRatio = determineRepresentationRatio(bloc);
-                if (representationRatio < underrepresentedValue ||
-                    (representationRatio == underrepresentedValue &&
-                        bloc.getPercentageMembership() > underrepresentedBloc.getPercentageMembership())) {
+                if (representationRatio < underrepresentedValue || (representationRatio == underrepresentedValue && bloc.getPercentageMembership() > underrepresentedBloc.getPercentageMembership())) {
                     underrepresentedBloc = bloc;
                     underrepresentedValue = representationRatio;
                 }
@@ -308,9 +296,7 @@ public class DemographicsManager extends Manager {
             else {
                 Bloc candidate = selectUnderrepresentedBloc(bloc.getSubBlocs());
                 double candidateRatio = determineRepresentationRatio(candidate);
-                if (Double.isNaN(underrepresentedValue) || candidateRatio < underrepresentedValue ||
-                    (candidateRatio == underrepresentedValue &&
-                        bloc.getPercentageMembership() > underrepresentedBloc.getPercentageMembership())) {
+                if (Double.isNaN(underrepresentedValue) || candidateRatio < underrepresentedValue || (candidateRatio == underrepresentedValue && bloc.getPercentageMembership() > underrepresentedBloc.getPercentageMembership())) {
                     underrepresentedBloc = candidate;
                     underrepresentedValue = candidateRatio;
                 }
@@ -355,4 +341,5 @@ public class DemographicsManager extends Manager {
         else if (birthday.getYear() < 2024) return matchBloc("Generation Alpha").orElseThrow();
         else return matchBloc("Generation Beta").orElseThrow();
     }
+
 }

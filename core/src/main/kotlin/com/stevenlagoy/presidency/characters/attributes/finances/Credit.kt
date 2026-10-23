@@ -16,5 +16,5 @@ class Credit(
     override fun fromJson(json: JSONObject): Asset {
         TODO("Not yet implemented")
     }
-    
+
 }

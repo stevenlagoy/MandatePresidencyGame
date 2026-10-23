@@ -63,8 +63,7 @@ public final class ScriptConsole {
             for (SnippetEvent event : events) {
                 if (event.status() == Snippet.Status.REJECTED) {
                     result.append("Rejected: ").append(statement).append("\n");
-                    shell.diagnostics(event.snippet())
-                        .forEach(d -> result.append(d.getMessage(null)).append("\n"));
+                    shell.diagnostics(event.snippet()).forEach(d -> result.append(d.getMessage(null)).append("\n"));
                 }
                 else if (event.exception() != null) {
                     result.append("Exception: ").append(event.exception().getMessage()).append("\n");
@@ -79,4 +78,5 @@ public final class ScriptConsole {
         }
         return result.isEmpty() ? "(no value)" : result.toString().strip();
     }
+
 }

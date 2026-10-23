@@ -5,7 +5,7 @@ import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.demographics.Bloc
 import com.stevenlagoy.presidency.map.Descriptor
 import com.stevenlagoy.presidency.map.HasGovernment
-import com.stevenlagoy.presidency.map.RegionData
+import com.stevenlagoy.presidency.map.MapRegion
 import com.stevenlagoy.presidency.politics.Party
 import com.stevenlagoy.presidency.politics.elections.Election
 import com.stevenlagoy.presidency.politics.government.Government
@@ -24,10 +24,10 @@ abstract class SoverignArea(
     population: Int = 0,
     demographics: Map<Bloc, Double> = emptyMap(),
     descriptors: Set<Descriptor> = emptySet(),
-    region: RegionData? = null,
+    region: MapRegion? = null,
     // HasGovernment
     _capital: Place? = null,
-    government: Government = Government(engine),
+    _government: Government? = null,
     override val elections: MutableSet<Election> = mutableSetOf(),
     override val partiesPresent: MutableSet<Party> = mutableSetOf(),
     override val partyCloutFactors: MutableSet<(party: Party) -> Double> = mutableSetOf(),
@@ -44,7 +44,7 @@ abstract class SoverignArea(
         internal set
 
     /** Government of this soverign area, consisting of executive, legislative, and judicial branches. */
-    override var government: Government = government
+    override lateinit var government: Government
         internal set
 
     /** Municipality which serves as the capital of this soverign area. Other names may be used for the same concept, like county seats. */
@@ -52,6 +52,7 @@ abstract class SoverignArea(
 
     init {
         if (_capital != null) capital = _capital
+        if (_government != null) government = _government
     }
 
     override fun toJson() = super.toJson().merge(
@@ -63,7 +64,7 @@ abstract class SoverignArea(
     override fun fromJson(json: JSONObject) = apply {
         super.fromJson(json)
         populateFromJson(json, engine)
-        fullName      = json.requireString("fullName", "full_name", "name")
-        commonName    = json.requireString("commonName", "common_name", "name")
+        fullName = json.requireString("fullName", "full_name", "name")
+        commonName = json.requireString("commonName", "common_name", "name")
     }
 }

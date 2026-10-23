@@ -7,6 +7,7 @@ import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.util.*
 import java.time.LocalDate
 import java.util.*
+import kotlin.math.min
 
 class ExperienceHistory(
     engine: Engine,
@@ -51,21 +52,28 @@ class ExperienceHistory(
         }
 
         override fun compareTo(other: ExperienceEntry): Int {
-            return this.startDate.compareTo(other.startDate) * 2 + (this.endDate?.compareTo(other.endDate ?: engine.TIME_MANAGER.currentDate.toLocalDate()) ?: 0)
+            return this.startDate.compareTo(other.startDate) * 2 + (this.endDate?.compareTo(
+                other.endDate ?: engine.TIME_MANAGER.currentDate.toLocalDate()
+            ) ?: 0)
         }
 
-        override fun toJson() = JSONObject(experience.label, listOf(
-            JSONObject("experience", experience.name),
-            JSONObject("startDate", startDate.toString()),
-            JSONObject("endDate", endDate?.toString()),
-        ))
+        override fun toJson() = JSONObject(
+            experience.label, listOf(
+                JSONObject("experience", experience.name),
+                JSONObject("startDate", startDate.toString()),
+                JSONObject("endDate", endDate?.toString()),
+            )
+        )
 
         override fun fromJson(json: JSONObject) = this.apply {
             TODO()
         }
     }
 
-    constructor (ENGINE: Engine, experiences: Collection<ExperienceEntry>) : this(ENGINE, TreeSet<ExperienceEntry>(experiences))
+    constructor (ENGINE: Engine, experiences: Collection<ExperienceEntry>) : this(
+        ENGINE,
+        TreeSet<ExperienceEntry>(experiences)
+    )
 
     constructor(ENGINE: Engine, json: JSONObject) : this(
         ENGINE,
@@ -90,7 +98,7 @@ class ExperienceHistory(
             val latestDate = experiences.last().endDate ?: engine.TIME_MANAGER.currentDate.toLocalDate()
             val totalYears = daysBetween(earliestDate, latestDate).toDouble() / daysInYear
             val totalOccupiedYears = experiences.fold(0.0) { acc, experience -> acc + experience.tenureYears }
-            return totalOccupiedYears
+            return min(totalOccupiedYears, totalYears)
         }
 
     fun getExperiencesBefore(date: LocalDate) = experiences.filter { it.startDate.isBefore(date) }

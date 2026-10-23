@@ -33,11 +33,7 @@ public class StateEquivalentManager extends EntityManager<StateEquivalent, Strin
             // Get data paths
             Set<Path> stateEquivalentsFiles = new HashSet<>();
             for (Path stateDir : IOUtils.listDirectories(FilePath._STATES)) {
-                stateEquivalentsFiles.addAll(
-                    IOUtils.listFiles(stateDir).stream().filter(path ->
-                        path.toString().contains(stateEquivalentFileMarker)
-                    ).collect(Collectors.toSet())
-                );
+                stateEquivalentsFiles.addAll(IOUtils.listFiles(stateDir).stream().filter(path -> path.toString().contains(stateEquivalentFileMarker)).collect(Collectors.toSet()));
             }
             // Create State Equivalents
             for (Path stateEquivalentFile : stateEquivalentsFiles) {
@@ -79,23 +75,17 @@ public class StateEquivalentManager extends EntityManager<StateEquivalent, Strin
 
     public @NotNull Set<StateEquivalent> matchStateEquivalents(@NotNull String nameOrFIPS) {
         if (nameOrFIPS.isBlank()) return Collections.emptySet();
-        return entities.stream().filter(state ->
-            state.getName().equals(nameOrFIPS) ||
-                state.getFullName().equals(nameOrFIPS) ||
-                state.getFIPS().equals(nameOrFIPS)
-        ).collect(Collectors.toSet());
+        return entities.stream().filter(state -> state.getName().equals(nameOrFIPS) || state.getFullName().equals(nameOrFIPS) || state.getFIPS().equals(nameOrFIPS)).collect(Collectors.toSet());
     }
 
     public @NotNull Optional<StateEquivalent> matchStateEquivalent(@NotNull String nameOrFIPS) {
         if (nameOrFIPS.isBlank()) return Optional.empty();
         if (index.containsKey(nameOrFIPS)) return Optional.of(index.get(nameOrFIPS));
-        return entities.stream().filter(state ->
-            state.getName().equals(nameOrFIPS) ||
-                state.getFullName().equals(nameOrFIPS)
-        ).findFirst();
+        return entities.stream().filter(state -> state.getName().equals(nameOrFIPS) || state.getFullName().equals(nameOrFIPS)).findFirst();
     }
 
     public @NotNull StateEquivalent requireStateEquivalent(@NotNull String nameOrFIPS) throws MatchingException {
         return matchStateEquivalent(nameOrFIPS).orElseThrow(() -> new MatchingException(String.format("Could not find required state equivalent with name or FIPS: %s", nameOrFIPS), () -> this.matchStateEquivalent(nameOrFIPS)));
     }
+
 }

@@ -18,8 +18,7 @@ data class Skills(
     val legislative: LinearValue = LinearValue(0, 100, 50),
     val executive: LinearValue = LinearValue(0, 100, 50),
     val judicial: LinearValue = LinearValue(0, 100, 50),
-) : JSONSerializable<Skills>
-{
+) : JSONSerializable<Skills> {
 
     val aptitude: Double
         get() = legislative.base + executive.base + judicial.base
@@ -34,11 +33,13 @@ data class Skills(
         fromJson(json)
     }
 
-    override fun toJson() = JSONObject(this.hashCode().toString(), listOf(
-        JSONObject("legislative", legislative.toJson()),
-        JSONObject("executive", executive.toJson()),
-        JSONObject("judicial", judicial.toJson()),
-    ))
+    override fun toJson() = JSONObject(
+        this.hashCode().toString(), listOf(
+            JSONObject("legislative", legislative.toJson()),
+            JSONObject("executive", executive.toJson()),
+            JSONObject("judicial", judicial.toJson()),
+        )
+    )
 
     override fun fromJson(json: JSONObject) = this.apply {
         legislative.fromJson(json.requireJson("legislative"))

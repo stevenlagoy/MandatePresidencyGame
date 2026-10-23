@@ -13,11 +13,11 @@ import java.util.List;
  * <h1>APPEARANCE MANAGER</h1>
  * {@code ~/characters/attributes/AppearanceManager.java}
  * <p>
- *     <b>Author:  </b> Steven LaGoy            <br>
- *     <b>Created: </b> 01 June 2026 at 5:15 PM <br>
- *     <b>Modified:</b> 02 June 2026            <br>
+ * <b>Author:  </b> Steven LaGoy            <br>
+ * <b>Created: </b> 01 June 2026 at 5:15 PM <br>
+ * <b>Modified:</b> 02 June 2026            <br>
  * </p>
- *
+ * <p>
  * AppearanceManager is responsible for creating {@link CharacterAppearance} attributes.
  *
  * @author Steven LaGoy
@@ -33,7 +33,7 @@ public class AppearanceManager extends Manager {
     // Manager Methods
 
     @Override
-    @Contract(pure = true)
+    @Contract(pure=true)
     public @NotNull List<Manager> getSubManagers() {
         return List.of();
     }
@@ -62,4 +62,5 @@ public class AppearanceManager extends Manager {
     public @NotNull CharacterAppearance generateAppearance(@NotNull Demographics demographics, int age) {
         return new CharacterAppearance();
     }
+
 }

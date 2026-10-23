@@ -14,21 +14,27 @@ open class Issue(
     var subissues: Set<Issue>? = null,
 ) : JSONSerializable<Issue>, EngineBound(engine) {
 
-    override fun toJson() = JSONObject(title, listOf(
-        JSONObject("title", title),
-        JSONObject("description", description),
-        JSONObject("positions", positions.map { it.toJson() }),
-        JSONObject("subissues", subissues?.map { it.title })
-    ))
+    override fun toJson() = JSONObject(
+        title, listOf(
+            JSONObject("title", title),
+            JSONObject("description", description),
+            JSONObject("positions", positions.map { it.toJson() }),
+            JSONObject("subissues", subissues?.map { it.title })
+        )
+    )
 
     override fun fromJson(json: JSONObject) = apply {
         title = json.requireString("title")
         description = json.requireString("description")
-        positions = json.requireJson("positions").requireArray().map { IssuePosition(engine, this, it as JSONObject) }.toSet()
-        subissues = json.findJson("subissues").get().let { it.requireArray().mapNotNull { issue -> engine.POLITICS_MANAGER.ISSUE_MANAGER.matchIssue(issue as String).getOrNull() }}.toSet()
+        positions =
+            json.requireJson("positions").requireArray().map { IssuePosition(engine, this, it as JSONObject) }.toSet()
+        subissues = json.findJson("subissues").get().let {
+            it.requireArray()
+                .mapNotNull { issue -> engine.POLITICS_MANAGER.ISSUE_MANAGER.matchIssue(issue as String).getOrNull() }
+        }.toSet()
     }
 
-    class IssuePosition (
+    class IssuePosition(
         engine: Engine,
         var issue: Issue,
         var title: String = "",
@@ -40,14 +46,16 @@ open class Issue(
             fromJson(json)
         }
 
-        override fun toJson() = JSONObject(title, listOf(
-            JSONObject("issue", issue.title),
-            JSONObject("title", title),
-            JSONObject("description", description),
-            alignment.toJson().apply { key = "alignment" },
-        ))
+        override fun toJson() = JSONObject(
+            title, listOf(
+                JSONObject("issue", issue.title),
+                JSONObject("title", title),
+                JSONObject("description", description),
+                alignment.toJson().apply { key = "alignment" },
+            )
+        )
 
-        override fun fromJson(json: JSONObject) = apply  {
+        override fun fromJson(json: JSONObject) = apply {
             issue = engine.POLITICS_MANAGER.ISSUE_MANAGER.matchIssue(json.requireString("issue")).get()
             title = json.requireString("title")
             description = json.requireString("description")

@@ -2,7 +2,7 @@ package com.stevenlagoy.presidency.map
 
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.map.entities.MapEntity
-import java.util.TimeZone
+import java.util.*
 
 /**
  * The tz database partitions the world into regions where local clocks all
@@ -13,5 +13,4 @@ class TimeZoneRegion(
     engine: Engine,
     val identifier: String,
     val timeZone: TimeZone,
-) : MapEntity(engine, identifier) {
-}
+) : MapEntity(engine, identifier)

@@ -11,8 +11,12 @@ import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.demographics.Bloc;
 import com.stevenlagoy.presidency.demographics.Demographics;
 import com.stevenlagoy.presidency.map.entities.Place;
+import com.stevenlagoy.presidency.map.entities.PlaceManager;
 import com.stevenlagoy.presidency.politics.PoliticalAlignment;
-import com.stevenlagoy.presidency.util.*;
+import com.stevenlagoy.presidency.util.CollectionUtils;
+import com.stevenlagoy.presidency.util.FilePath;
+import com.stevenlagoy.presidency.util.RandomUtils;
+import com.stevenlagoy.presidency.util.TimeUtils;
 import kotlin.uuid.Uuid;
 import org.jetbrains.annotations.NotNull;
 
@@ -24,11 +28,11 @@ import java.util.*;
  * <h1>CHARACTER MANAGER</h1>
  * {@code ~/characters/CharacterManager.java}
  * <p>
- *     <b>Author:  </b> Steven LaGoy            <br>
- *     <b>Created: </b> 01 June 2025 at 1:04 AM <br>
- *     <b>Modified:</b> 04 June 2026            <br>
+ * <b>Author:  </b> Steven LaGoy            <br>
+ * <b>Created: </b> 01 June 2025 at 1:04 AM <br>
+ * <b>Modified:</b> 04 June 2026            <br>
  * </p>
- *
+ * <p>
  * CharacterManager is responsible for creating and maintaining information about {@link Citizen},
  * {@link PoliticalActor}, and {@link PlayerCharacter}.
  *
@@ -38,11 +42,17 @@ public class CharacterManager extends Manager {
 
     // Constants
 
-    /** Percentage of people who are female. */
+    /**
+     * Percentage of people who are female.
+     */
     public static final double femalePercentage = 0.507;
-    /** Percentage of people who are intersex, per <a href="https://pubmed.ncbi.nlm.nih.gov/12476264/">NIH</a>. */
+    /**
+     * Percentage of people who are intersex, per <a href="https://pubmed.ncbi.nlm.nih.gov/12476264/">NIH</a>.
+     */
     public static final double intersexPercentage = 0.00018;
-    /** Percentage of people who are male. */
+    /**
+     * Percentage of people who are male.
+     */
     public static final double malePercentage = 1 - femalePercentage - intersexPercentage;
 
     // Instance Fields
@@ -50,10 +60,14 @@ public class CharacterManager extends Manager {
     private Map<String, Double> birthdateDistribution;
     private Map<Bloc, Map<Integer, Double>> ageDistribution;
 
-    /** The player candidate character. */
+    /**
+     * The player candidate character.
+     */
     private PlayerCharacter playerCharacter;
 
-    /** List of tracked Character instances. */
+    /**
+     * List of tracked Character instances.
+     */
     private final Set<Citizen> citizens = new HashSet<>();
 
     public final NameManager NAME_MANAGER;
@@ -67,12 +81,12 @@ public class CharacterManager extends Manager {
 
     public CharacterManager(@NotNull Engine engine, @NotNull Manager superManager) {
         super(engine, superManager);
-        NAME_MANAGER        = new NameManager(engine, this);
-        SKILLS_MANAGER      = new SkillsManager(engine, this);
-        APPEARANCE_MANAGER  = new AppearanceManager(engine, this);
+        NAME_MANAGER = new NameManager(engine, this);
+        SKILLS_MANAGER = new SkillsManager(engine, this);
+        APPEARANCE_MANAGER = new AppearanceManager(engine, this);
         PERSONALITY_MANAGER = new PersonalityManager(engine, this);
-        FAMILY_MANAGER      = new FamilyManager(engine, this);
-        EXPERIENCE_MANAGER  = new ExperienceManager(engine, this);
+        FAMILY_MANAGER = new FamilyManager(engine, this);
+        EXPERIENCE_MANAGER = new ExperienceManager(engine, this);
         for (Manager manager : getSubManagers()) {
             if (manager.getState().equals(ManagerState.ERROR)) {
                 onError(new Exception(manager.getClass().getSimpleName() + " could not be constructed."));
@@ -124,7 +138,8 @@ public class CharacterManager extends Manager {
                     birthdateDistribution.put(date, value);
                 }
             }
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             onError(e);
         }
     }
@@ -148,7 +163,8 @@ public class CharacterManager extends Manager {
                     ageDistribution.put(key, distribution);
                 }
             }
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             onError(e);
         }
     }
@@ -187,8 +203,11 @@ public class CharacterManager extends Manager {
         return citizens.stream().filter(citizen -> citizen.getId().equals(id)).findFirst();
     }
 
-    /** Context for the creation of citizens and related attributes. */
+    /**
+     * Context for the creation of citizens and related attributes.
+     */
     public static class CitizenContext extends EngineBound {
+
         // Originally made this a record, but immutability was inconvenient for filling in fields
         Sex sex;
         Demographics demographics;
@@ -199,17 +218,7 @@ public class CharacterManager extends Manager {
         Place origin;
         Place residence;
 
-        public CitizenContext(
-            @NotNull Engine engine,
-            Sex sex,
-            Demographics demographics,
-            LocalDate birthday,
-            Family family,
-            CharacterAppearance appearance,
-            PersonalName name,
-            Place origin,
-            Place residence
-        ) {
+        public CitizenContext(@NotNull Engine engine, Sex sex, Demographics demographics, LocalDate birthday, Family family, CharacterAppearance appearance, PersonalName name, Place origin, Place residence) {
             super(engine);
             this.sex = sex;
             this.demographics = demographics;
@@ -221,17 +230,9 @@ public class CharacterManager extends Manager {
             this.residence = residence;
         }
 
-        public CitizenContext(@NotNull Engine engine, @NotNull Citizen citizen) { this(
-            engine,
-            citizen.getSex(),
-            citizen.getDemographics(),
-            citizen.getBirthday(),
-            citizen.getFamily(),
-            citizen.getAppearance(),
-            citizen.getName(),
-            citizen.getOrigin(),
-            citizen.getResidence()
-        ); }
+        public CitizenContext(@NotNull Engine engine, @NotNull Citizen citizen) {
+            this(engine, citizen.getSex(), citizen.getDemographics(), citizen.getBirthday(), citizen.getFamily(), citizen.getAppearance(), citizen.getName(), citizen.getOrigin(), citizen.getResidence());
+        }
 
         public int getAge() {
             return engine.TIME_MANAGER.yearsAgo(birthday);
@@ -240,6 +241,7 @@ public class CharacterManager extends Manager {
         public static @NotNull CitizenContext emptyContext(@NotNull Engine engine) {
             return new CitizenContext(engine, null, null, null, null, null, null, null, null);
         }
+
     }
 
     public @NotNull Citizen buildCitizen() {
@@ -282,25 +284,14 @@ public class CharacterManager extends Manager {
             // context.name = NAME_MANAGER.buildPersonalName(new NameManager.NameContext(context.demographics, engine.TIME_MANAGER.yearsAgo(context.birthday), null));
         }
         if (context.origin == null) {
-            context.origin = engine.MAP_MANAGER.selectPlace(context.demographics);
+            context.origin = engine.getManager(PlaceManager.class).selectRandom(); // (context.demographics);
         }
         if (context.residence == null) {
-            context.residence = engine.MAP_MANAGER.selectPlace(context.demographics);
+            context.residence = engine.getManager(PlaceManager.class).selectRandom(); // (context.demographics);
         }
 
-        Citizen citizen = new Citizen(
-            engine,
-            context.sex,
-            context.birthday,
-            context.demographics,
-            context.family != null ? context.family : new Family(engine, null, null, null, new HashSet<>()), // Built afterward
-            context.appearance,
-            context.name != null ? context.name : NAME_MANAGER.emptyName(context.demographics, context.getAge(), context.family),
-            context.origin,
-            context.residence,
-            context.residence,
-            null
-        );
+        Citizen citizen = new Citizen(engine, context.sex, context.birthday, context.demographics, context.family != null ? context.family : new Family(engine, null, null, null, new HashSet<>()), // Built afterward
+            context.appearance, context.name != null ? context.name : NAME_MANAGER.emptyName(context.demographics, context.getAge(), context.family), context.origin, context.residence, context.residence, null);
         if (context.family == null) {
             context.family = FAMILY_MANAGER.buildFamily(citizen, FAMILY_MANAGER.planFamily(citizen));
             // Copy it in
@@ -315,12 +306,8 @@ public class CharacterManager extends Manager {
     }
 
     public @NotNull Sex selectSex() {
-        Sex selected = RandomUtils.weightedSelect(Map.of(
-            Sex.FEMALE, femalePercentage,
-            Sex.INTERSEX, intersexPercentage,
-            Sex.MALE, malePercentage
-        ));
-        assert(selected != null);
+        Sex selected = RandomUtils.weightedSelect(Map.of(Sex.FEMALE, femalePercentage, Sex.INTERSEX, intersexPercentage, Sex.MALE, malePercentage));
+        assert (selected != null);
         return selected;
     }
 
@@ -376,25 +363,7 @@ public class CharacterManager extends Manager {
         Personality personality = new Personality();
         PoliticalAlignment alignment = new PoliticalAlignment();
         IssuePositionMap issuePositions = new IssuePositionMap(new HashMap<>());
-        return new PoliticalActor(
-            engine,
-            citizen.getSex(),
-            citizen.getBirthday(),
-            citizen.getDemographics(),
-            citizen.getFamily(),
-            citizen.getAppearance(),
-            citizen.getName(),
-            citizen.getOrigin(),
-            citizen.getLocation(),
-            citizen.getResidence(),
-            citizen.getFinancialProfile(),
-            experiences,
-            skills,
-            personality,
-            alignment,
-            issuePositions,
-            null,
-            null
-        );
+        return new PoliticalActor(engine, citizen.getSex(), citizen.getBirthday(), citizen.getDemographics(), citizen.getFamily(), citizen.getAppearance(), citizen.getName(), citizen.getOrigin(), citizen.getLocation(), citizen.getResidence(), citizen.getFinancialProfile(), experiences, skills, personality, alignment, issuePositions, null, null);
     }
+
 }

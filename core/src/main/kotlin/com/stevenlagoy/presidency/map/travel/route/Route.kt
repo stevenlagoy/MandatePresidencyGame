@@ -5,6 +5,7 @@ import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.map.entities.MapEntity
+import com.stevenlagoy.presidency.map.entities.PlaceManager
 
 abstract class Route(
     engine: Engine,
@@ -22,11 +23,16 @@ abstract class Route(
 
     override fun fromJson(json: JSONObject) = this.apply {
         name = json.requireString("name", "fullName")
-        connections = json.requireArray("connections").mapNotNull { engine.MAP_MANAGER.matchPlace(it as String).orElseThrow { IllegalArgumentException("Could not match municipality $it for route $name") } }
+        connections = json.requireArray("connections").mapNotNull {
+            engine.getManager(PlaceManager::class.java).matchPlace(it as String)
+                .orElseThrow { IllegalArgumentException("Could not match municipality $it for route $name") }
+        }
     }
 
-    override fun toJson() = JSONObject(hashCode().toString(), listOf(
-        JSONObject("name", name),
-        JSONObject("connections", connections.map { it.name })
-    ))
+    override fun toJson() = JSONObject(
+        hashCode().toString(), listOf(
+            JSONObject("name", name),
+            JSONObject("connections", connections.map { it.name })
+        )
+    )
 }

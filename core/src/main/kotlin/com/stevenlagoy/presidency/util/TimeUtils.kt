@@ -1,4 +1,5 @@
 @file:JvmName("TimeUtils")
+
 package com.stevenlagoy.presidency.util
 
 import java.time.*
@@ -9,29 +10,37 @@ import kotlin.math.abs
 
 /** Minimum safe year to use with date util methods. */
 const val MIN_SAFE_YEAR = 1583
+
 /** Maximum safe year to use with date util methods. */
 const val MAX_SAFE_YEAR = 292_278_994
 
 /** Duration in milliseconds of one second.  */
 const val secondDuration = 1000L
+
 /** Duration in milliseconds of one minute.  */
 const val minuteDuration = secondDuration * 60
+
 /** Duration in milliseconds of one hour.  */
 const val hourDuration = minuteDuration * 60
+
 /** Duration in milliseconds of one day.  */
 const val dayDuration = hourDuration * 24
+
 /** Duration in milliseconds of one week.  */
 const val weekDuration = dayDuration * 7
 // there is no single month duration because months vary in length
 /** Duration in milliseconds of one leap year.  */
 const val leapYearDuration = 366 * dayDuration
+
 /** Duration in milliseconds of one standard year.  */
 const val yearDuration = 365 * dayDuration
+
 /** Number of days in a year. TODO Think about leap years  */
 const val daysInYear = 366
 
 /** The epoch, 1970. */
 const val epochYear = 1970
+
 /** Milliseconds since the year zero corresponding to the epoch. */
 const val epochMillis = epochYear * yearDuration
 
@@ -43,33 +52,40 @@ val monthsDurationsDays = intArrayOf(
     31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31,
     31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31
 )
+
 /**
  * Duration in milliseconds of each month between January 2027 and January 2029.
  * Index by ordinal month value.
  */
 val monthsDurationsMillis = monthsDurationsDays.map { it * dayDuration }.toLongArray()
+
 /** Name of each day. Lookup from LANG_system_text.  */
 val dayNames = arrayOf("monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday")
+
 /** Three-letter abbreviation of each day. Lookup from LANG_system_text.  */
 val day3Abbreviations = arrayOf(
     "mon_abbreviation", "tue_abbreviation", "wed_abbreviation",
     "thu_abbreviation", "fri_abbreviation", "sat_abbreviation", "sun_abbreviation"
 )
+
 /** Two-letter abbreviation of each day. Lookup from LANG_system_text.  */
 val day2Abbreviations = arrayOf(
     "mo_abbreviation", "tu_abbreviation", "we_abbreviation",
     "th_abbreviation", "fr_abbreviation", "sa_abbreviation", "su_abbreviation"
 )
+
 /** One-letter initialization of each day. Lookup from LANG_system_text.  */
 val dayInitializations = arrayOf(
     "mon_initial", "tue_initial", "wed_initial", "thu_initial",
     "fri_initial", "sat_initial", "sun_initial"
 )
+
 /** Name of each month. Lookup from LANG_system_text.  */
 val monthNames = arrayOf(
     "january", "february", "march", "april", "may", "june",
     "july", "august", "september", "october", "november", "december"
 )
+
 /** Abbreviation of each month. Lookup from LANG_system_text.  */
 val monthAbbreviations = arrayOf(
     "jan_abbreviation", "feb_abbreviation", "mar_abbreviation",
@@ -77,6 +93,7 @@ val monthAbbreviations = arrayOf(
     "jul_abbreviation", "aug_abbreviation", "sep_abbreviation",
     "oct_abbreviation", "nov_abbreviation", "dec_abbreviation"
 )
+
 /** Number of each year between 2027 and 2029.  */
 val yearNumbers = arrayOf("2027", "2028", "2029")
 
@@ -293,4 +310,4 @@ fun zonedDateTimeFromString(date: String): ZonedDateTime {
     return ZonedDateTime.of(dateTime, timeZone)
 }
 
-fun Period.toTotalDays(): Long = (this.toTotalMonths() * (365.25/12) + this.days).toLong()
+fun Period.toTotalDays(): Long = (this.toTotalMonths() * (365.25 / 12) + this.days).toLong()

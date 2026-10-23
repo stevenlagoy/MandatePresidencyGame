@@ -13,11 +13,11 @@ import java.util.List;
  * <h1>SKILLS MANAGER</h1>
  * {@code ~/characters/attributes/SkillsManager.java}
  * <p>
- *     <b>Author:  </b> Steven LaGoy            <br>
- *     <b>Created: </b> 01 June 2026 at 5:14 PM <br>
- *     <b>Modified:</b> 02 June 2026            <br>
+ * <b>Author:  </b> Steven LaGoy            <br>
+ * <b>Created: </b> 01 June 2026 at 5:14 PM <br>
+ * <b>Modified:</b> 02 June 2026            <br>
  * </p>
- *
+ * <p>
  * The SkillsManager allows for creation of {@link Skills} attributes
  * {@link com.stevenlagoy.presidency.characters.PoliticalActor}.
  *
@@ -34,7 +34,7 @@ public class SkillsManager extends Manager {
     // Manager Methods
 
     @Override
-    @Contract(pure = true)
+    @Contract(pure=true)
     public @NotNull List<Manager> getSubManagers() {
         return List.of();
     }
@@ -62,15 +62,12 @@ public class SkillsManager extends Manager {
 
     public @NotNull Skills generateSkills() {
         requireState(ManagerState.ACTIVE);
-        return new Skills(
-            RandomUtils.nextInt(0, 100),
-            RandomUtils.nextInt(0, 100),
-            RandomUtils.nextInt(0, 100)
-        );
+        return new Skills(RandomUtils.nextInt(0, 100), RandomUtils.nextInt(0, 100), RandomUtils.nextInt(0, 100));
     }
 
     public @NotNull Skills getAverageSkills() {
         requireOperational();
         return new Skills();
     }
+
 }

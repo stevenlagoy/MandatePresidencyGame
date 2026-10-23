@@ -22,11 +22,11 @@ sealed class ResolutionRule {
         val type = ruleString.split(Regex("\\s+")).first()
         val params = ruleString.split(Regex("\\s+")).drop(1).map { it.replaceAllRegex("\\(\\)", "") }
         return when (type) {
-            "plurality"        -> Plurality(params[0].toInt())
+            "plurality" -> Plurality(params[0].toInt())
             "firstpastthepost" -> FirstPastThePost()
-            "threshold"        -> Threshold(params[0].toDouble(), params[1].toDouble())
-            "majority"         -> Majority()
-            else               -> FirstPastThePost()
+            "threshold" -> Threshold(params[0].toDouble(), params[1].toDouble())
+            "majority" -> Majority()
+            else -> FirstPastThePost()
         }
     }
 
@@ -37,7 +37,8 @@ sealed class ResolutionRule {
     open class Plurality(val topN: Int = 1) : ResolutionRule() {
         override fun getName() = "${this::class.simpleName!!} ($topN)"
 
-        override fun resolve(tabulated: List<TabulationRule.IssueResult>): List<IssuePosition> = tabulated.take(topN).map { it.issue }
+        override fun resolve(tabulated: List<TabulationRule.IssueResult>): List<IssuePosition> =
+            tabulated.take(topN).map { it.issue }
     }
 
     /**
@@ -54,8 +55,7 @@ sealed class ResolutionRule {
     open class Threshold(
         val qualifyingThreshold: Double = 0.15,
         val winnerTakeAllThreshold: Double = 0.5
-    ) : ResolutionRule()
-    {
+    ) : ResolutionRule() {
         init {
             if (qualifyingThreshold < 0.0) throw IllegalArgumentException("Qualify threshold cannot be negative")
             if (qualifyingThreshold > 1.0) throw IllegalArgumentException("Qualify threshold cannot be greater than 100% (1.0)")

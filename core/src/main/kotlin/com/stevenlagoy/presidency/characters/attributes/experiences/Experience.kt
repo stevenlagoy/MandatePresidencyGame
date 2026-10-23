@@ -49,16 +49,18 @@ class Experience(
             (it as JSONObject).key == "max"
         } as JSONObject).requireNumber().toDouble(),
         json.requireBoolean("repeatable"),
-        json.requireArray("prerequisites").map { engine.CHARACTER_MANAGER.EXPERIENCE_MANAGER.matchExperience(it as String).let { opt ->
-            if (opt.isEmpty) {
-                println(opt)
+        json.requireArray("prerequisites").map {
+            engine.CHARACTER_MANAGER.EXPERIENCE_MANAGER.matchExperience(it as String).let { opt ->
+                if (opt.isEmpty) {
+                    println(opt)
+                }
+                opt.get()
             }
-            opt.get()
-        } },
+        },
         when (json.requireString("prerequisiteLogic", "prerequisite_logic")) {
             "any" -> PrerequisiteLogic.ANY
             "all" -> PrerequisiteLogic.ALL
-            else  -> PrerequisiteLogic.ANY
+            else -> PrerequisiteLogic.ANY
         },
         json.requireDouble("base_chance"),
         json.requireInt("min_age"),
@@ -76,14 +78,17 @@ class Experience(
         ),
         json.requireString("description"),
         json.requireArray("connections").associate {
-            engine.CHARACTER_MANAGER.EXPERIENCE_MANAGER.matchExperience((it as JSONObject).key).getOrNull() to it.requireNumber().toDouble()
+            engine.CHARACTER_MANAGER.EXPERIENCE_MANAGER.matchExperience((it as JSONObject).key)
+                .getOrNull() to it.requireNumber().toDouble()
         }.toMutableMap()
     )
 
     fun prerequisitsMet(priors: Collection<Experience>) = prerequisiteLogic.evaluate(priors, prerequisites)
 
     enum class PrerequisiteLogic(val evaluate: (Collection<Experience>, Collection<Experience>) -> Boolean) {
-        ANY(fun(priors: Collection<Experience>, prerequisites: Collection<Experience>) = prerequisites.isEmpty() || prerequisites.find { it in priors } != null),
-        ALL(fun(priors: Collection<Experience>, prerequisites: Collection<Experience>) = prerequisites.isEmpty() || prerequisites.find { it !in priors } == null),
+        ANY(fun(priors: Collection<Experience>, prerequisites: Collection<Experience>) =
+            prerequisites.isEmpty() || prerequisites.find { it in priors } != null),
+        ALL(fun(priors: Collection<Experience>, prerequisites: Collection<Experience>) =
+            prerequisites.isEmpty() || prerequisites.find { it !in priors } == null),
     }
 }

@@ -37,20 +37,24 @@ class BalanceSheet(
     }
 
     fun createRecord() {
-        records.add(AccountRecord(
-            engine.TIME_MANAGER.currentDate.toLocalDate(),
-            totalAssets,
-            totalLiabilities
-        ))
+        records.add(
+            AccountRecord(
+                engine.TIME_MANAGER.currentDate.toLocalDate(),
+                totalAssets,
+                totalLiabilities
+            )
+        )
     }
 
-    override fun toJson() = JSONObject(hashCode().toString(), listOf(
-        JSONObject("discretionaryFunds", discretionaryFunds),
-        JSONObject("dedicatedFunds", dedicatedFunds),
-        JSONObject("assets", assets.map { it.toJson() }),
-        JSONObject("liabilities", liabilities.map { it.toJson() }),
+    override fun toJson() = JSONObject(
+        hashCode().toString(), listOf(
+            JSONObject("discretionaryFunds", discretionaryFunds),
+            JSONObject("dedicatedFunds", dedicatedFunds),
+            JSONObject("assets", assets.map { it.toJson() }),
+            JSONObject("liabilities", liabilities.map { it.toJson() }),
 
-    ))
+            )
+    )
 
     override fun fromJson(json: JSONObject) = apply {
     }
@@ -59,5 +63,7 @@ class BalanceSheet(
         val date: LocalDate,
         val totalAssets: Double,
         val totalLiabilities: Double
-    ) { val netWorth = totalAssets - totalLiabilities }
+    ) {
+        val netWorth = totalAssets - totalLiabilities
+    }
 }

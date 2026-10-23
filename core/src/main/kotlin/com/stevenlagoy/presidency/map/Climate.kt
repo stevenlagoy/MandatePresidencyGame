@@ -23,7 +23,12 @@ data class Climate(
         temperatureFahrenheitFromShade(winterMeanTemperature)
     )
 
-    constructor(precipitation: Float, summerMeanTemperature: Float, vegetation: Float, winterMeanTemperature: Float) : this(
+    constructor(
+        precipitation: Float,
+        summerMeanTemperature: Float,
+        vegetation: Float,
+        winterMeanTemperature: Float
+    ) : this(
         (precipitation * 255).toInt(),
         (summerMeanTemperature * 255).toInt(),
         (vegetation * 255).toInt(),
@@ -38,7 +43,9 @@ data class Climate(
         fun temperatureCelsiusFromShade(shade: Int): Double {
             return (shade / 255) * 60.0 - 20.0
         }
-        fun temperatureFahrenheitFromShade(shade: Int): Double = degreesCelsiusToFahrenheit(temperatureCelsiusFromShade(shade))
+
+        fun temperatureFahrenheitFromShade(shade: Int): Double =
+            degreesCelsiusToFahrenheit(temperatureCelsiusFromShade(shade))
     }
 
     enum class Precipitation(
@@ -46,17 +53,19 @@ data class Climate(
         val maxAnnualInches: Int,
         val shade: Int,
     ) {
-        DESERT     ( 0,  8, 0x20),
-        SEMI_ARID  ( 8, 15, 0x40),
-        SUB_MESIC  (15, 30, 0x60),
-        MESIC      (30, 50, 0x80),
-        HUMID      (50, 65, 0xA0),
+        DESERT(0, 8, 0x20),
+        SEMI_ARID(8, 15, 0x40),
+        SUB_MESIC(15, 30, 0x60),
+        MESIC(30, 50, 0x80),
+        HUMID(50, 65, 0xA0),
         SUPER_HUMID(65, 80, 0xC0),
-        PERHUMID   (80, Int.MAX_VALUE, 0xE0);
+        PERHUMID(80, Int.MAX_VALUE, 0xE0);
+
         init {
             require(minAnnualInches >= 0 && maxAnnualInches >= 0) { "Annual inches of rainfall must be a positive number" }
             require(minAnnualInches <= maxAnnualInches) { "Minimum annual inches of rainfall must be less than the maximum annual inches" }
         }
+
         companion object {
             val colorChannel: Color = Color.BLUE
             fun fromShade(shade: Int): Precipitation {
@@ -74,19 +83,21 @@ data class Climate(
         val maxTreeCoverage: Int,
         val shade: Int,
     ) {
-        BARREN     ( 0,   2, 0x1F),
-        SCRUB      ( 2,   6, 0x3F),
-        PLAIN      ( 6,  15, 0x5F),
-        SAVANNA    (15,  25, 0x7F),
-        WOODLAND   (25,  40, 0x9F),
-        TIMBERLAND (40,  55, 0xBF),
-        FOREST     (55,  65, 0xDF),
+        BARREN(0, 2, 0x1F),
+        SCRUB(2, 6, 0x3F),
+        PLAIN(6, 15, 0x5F),
+        SAVANNA(15, 25, 0x7F),
+        WOODLAND(25, 40, 0x9F),
+        TIMBERLAND(40, 55, 0xBF),
+        FOREST(55, 65, 0xDF),
         DEEP_FOREST(65, 100, 0xFF);
+
         init {
             require(minTreeCoverage in 0..100) { "Minimum tree coverage must be between 0 and 100" }
             require(maxTreeCoverage in 0..100) { "Maximum tree coverage must be between 0 and 100" }
             require(minTreeCoverage <= maxTreeCoverage) { "Minimum tree coverage must be less than the maximum tree coverage" }
         }
+
         companion object {
             val colorChannel: Color = Color.GREEN
             fun fromShade(shade: Int): Vegetation {

@@ -5,7 +5,10 @@ import com.stevenlagoy.presidency.characters.attributes.experiences.Experience;
 import com.stevenlagoy.presidency.characters.attributes.experiences.ExperienceHistory;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
-import com.stevenlagoy.presidency.util.*;
+import com.stevenlagoy.presidency.util.FilePath;
+import com.stevenlagoy.presidency.util.Logger;
+import com.stevenlagoy.presidency.util.RandomUtils;
+import com.stevenlagoy.presidency.util.TimeUtils;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -18,11 +21,11 @@ import java.util.stream.Collectors;
  * <h1>EXPERIENCE MANAGER</h1>
  * {@code ~/characters/attribtues/ExperienceManager.java}
  * <p>
- *     <b>Author:  </b> Steven LaGoy             <br>
- *     <b>Created: </b> 09 June 2025 at 12:48 AM <br>
- *     <b>Modified:</b> 09 June 2026             <br>
+ * <b>Author:  </b> Steven LaGoy             <br>
+ * <b>Created: </b> 09 June 2025 at 12:48 AM <br>
+ * <b>Modified:</b> 09 June 2026             <br>
  * </p>
- *
+ * <p>
  * ExperienceManager is responsible for creating and tracking Experiences and ExperienceHistories.
  *
  * @author Steven LaGoy
@@ -86,7 +89,8 @@ public class ExperienceManager extends Manager {
                 }
             }
             resolveConnections();
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             onError(e);
         }
     }
@@ -102,7 +106,8 @@ public class ExperienceManager extends Manager {
                         if (connectionObj instanceof JSONObject connection) {
                             try {
                                 experience.getConnections().put(matchExperience(connection.getKey()).orElseThrow(), connection.requireNumber().doubleValue());
-                            } catch (Exception e) {
+                            }
+                            catch (Exception e) {
                                 Logger.error("Could not make connection '%s' for experience '%s': %s. Check keys in %s.", connection.getKey(), experience.getLabel(), e.getMessage(), FilePath.EXPERINECES);
                             }
                         }
@@ -110,7 +115,8 @@ public class ExperienceManager extends Manager {
                     }
                 }
             }
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             onError(e);
         }
     }
@@ -119,7 +125,8 @@ public class ExperienceManager extends Manager {
         requireState(ManagerState.ACTIVE, ManagerState.PAUSED, ManagerState.DEGRADED, ManagerState.INITIALIZING);
         Optional<Experience> res;
         res = experiences.stream().filter(experience -> experience.getLabel().equalsIgnoreCase(experienceName)).findFirst();
-        if (res.isEmpty()) res = experiences.stream().filter(experience -> experience.getName().replace(" ", "_").equalsIgnoreCase(experienceName.replace(" ", "_"))).findFirst();
+        if (res.isEmpty())
+            res = experiences.stream().filter(experience -> experience.getName().replace(" ", "_").equalsIgnoreCase(experienceName.replace(" ", "_"))).findFirst();
         return res;
     }
 
@@ -179,13 +186,11 @@ public class ExperienceManager extends Manager {
         boolean foundRootExperience = false;
         for (ExperienceHistory.ExperienceEntry experienceEntry : experienceHistory.getExperiences().descendingSet()) {
             experience = experienceEntry.getExperience();
-            while (!experience.prerequisitsMet(
-                experienceHistory.getExperiencesBefore(experienceEntry.getStartDate()).stream().map(ExperienceHistory.ExperienceEntry::getExperience).collect(Collectors.toSet())
-            )) {
+            while (!experience.prerequisitsMet(experienceHistory.getExperiencesBefore(experienceEntry.getStartDate()).stream().map(ExperienceHistory.ExperienceEntry::getExperience).collect(Collectors.toSet()))) {
                 foundRootExperience = true;
                 // Choose a prerequisite
                 experience = RandomUtils.randSelect(experience.getPrerequisites());
-                assert(experience != null); // Can only be null in the case there are no prerequisites, which is impossible by the loop condition
+                assert (experience != null); // Can only be null in the case there are no prerequisites, which is impossible by the loop condition
             }
             if (foundRootExperience) break;
         }
@@ -196,7 +201,7 @@ public class ExperienceManager extends Manager {
         boolean foundGap = false;
         for (ExperienceHistory.ExperienceEntry experienceEntry : experienceHistory.getExperiences()) {
             nextStartDate = experienceEntry.getStartDate();
-            assert(prevEndDate != null); // The only null end date should be the final experienceEntry, so this state is impossible
+            assert (prevEndDate != null); // The only null end date should be the final experienceEntry, so this state is impossible
             if (TimeUtils.yearsBetween(prevEndDate, nextStartDate) > maxGapYearsBetweenExperiences * 2) {
                 foundGap = true;
                 break;
@@ -237,7 +242,7 @@ public class ExperienceManager extends Manager {
                 }
             }
             experience = RandomUtils.weightedSelect(liklihoods);
-            assert(experience != null);
+            assert (experience != null);
         }
         // Choose a tenure length which does not overlap with the next experience
         double minTenure = experience.getMinTenure(), maxTenure = experience.getMaxTenure();

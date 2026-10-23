@@ -42,36 +42,15 @@ public class CitizenManager extends EntityManager<Citizen, Uuid> {
     // Query
 
     public @NotNull Set<Citizen> matchByName(@NotNull String name) {
-        return matchWhere(citizen ->
-            citizen.getName().getIndexedName().equals(name) ||
-            citizen.getName().getCommonName().equals(name) ||
-            citizen.getName().getBiographicalName().equals(name) ||
-            citizen.getName().getFormalName().equals(name) ||
-            citizen.getName().getInformalName().equals(name) ||
-            citizen.getName().getLegalName().equals(name)
-        );
+        return matchWhere(citizen -> citizen.getName().getIndexedName().equals(name) || citizen.getName().getCommonName().equals(name) || citizen.getName().getBiographicalName().equals(name) || citizen.getName().getFormalName().equals(name) || citizen.getName().getInformalName().equals(name) || citizen.getName().getLegalName().equals(name));
     }
 
     public @NotNull Optional<Citizen> matchFirstByName(@NotNull String name) {
-        return matchFirstWhere(citizen ->
-            citizen.getName().getIndexedName().equals(name) ||
-            citizen.getName().getCommonName().equals(name) ||
-            citizen.getName().getBiographicalName().equals(name) ||
-            citizen.getName().getFormalName().equals(name) ||
-            citizen.getName().getInformalName().equals(name) ||
-            citizen.getName().getLegalName().equals(name)
-        );
+        return matchFirstWhere(citizen -> citizen.getName().getIndexedName().equals(name) || citizen.getName().getCommonName().equals(name) || citizen.getName().getBiographicalName().equals(name) || citizen.getName().getFormalName().equals(name) || citizen.getName().getInformalName().equals(name) || citizen.getName().getLegalName().equals(name));
     }
 
     public @NotNull Citizen requireByName(@NotNull String name) throws MatchingException {
-        return requireWhere(citizen ->
-            citizen.getName().getIndexedName().equals(name) ||
-            citizen.getName().getCommonName().equals(name) ||
-            citizen.getName().getBiographicalName().equals(name) ||
-            citizen.getName().getFormalName().equals(name) ||
-            citizen.getName().getInformalName().equals(name) ||
-            citizen.getName().getLegalName().equals(name),
-            () -> "Failed to match citizen by name: " + name
-        );
+        return requireWhere(citizen -> citizen.getName().getIndexedName().equals(name) || citizen.getName().getCommonName().equals(name) || citizen.getName().getBiographicalName().equals(name) || citizen.getName().getFormalName().equals(name) || citizen.getName().getInformalName().equals(name) || citizen.getName().getLegalName().equals(name), () -> "Failed to match citizen by name: " + name);
     }
+
 }

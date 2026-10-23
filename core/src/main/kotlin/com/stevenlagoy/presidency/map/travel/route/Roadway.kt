@@ -34,16 +34,19 @@ class Roadway(
         STREET(35.0),
     }
 
-    override fun toJson() = JSONObject(code, listOf(
-        JSONObject("name", name),
-        JSONObject("code", code),
-        JSONObject("designation", designation.name),
-        JSONObject("connections", connections.map { it.name })
-    ))
+    override fun toJson() = JSONObject(
+        code, listOf(
+            JSONObject("name", name),
+            JSONObject("code", code),
+            JSONObject("designation", designation.name),
+            JSONObject("connections", connections.map { it.name })
+        )
+    )
 
     override fun fromJson(json: JSONObject) = this.apply {
         super.fromJson(json)
         code = json.requireString("code")
-        designation = RoadwayDesignation.valueOf(json.requireString("designation").uppercase().replace(Regex("[^A-Z]"), "_"))
+        designation =
+            RoadwayDesignation.valueOf(json.requireString("designation").uppercase().replace(Regex("[^A-Z]"), "_"))
     }
 }

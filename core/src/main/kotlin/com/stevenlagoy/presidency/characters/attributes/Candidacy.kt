@@ -29,19 +29,21 @@ class Candidacy(
         fromJson(json)
     }
 
-    override fun toJson() = JSONObject("$electionId", listOf(
-        JSONObject("electionId", electionId.toString()),
-        JSONObject("status", status.toString()),
-        JSONObject("declarationDate", declarationDate.toString()),
-        JSONObject("withdrawalDate", withdrawalDate?.toString()),
-        JSONObject("campaignFinance", campaignFinance.toString()),
-    ))
+    override fun toJson() = JSONObject(
+        "$electionId", listOf(
+            JSONObject("electionId", electionId.toString()),
+            JSONObject("status", status.toString()),
+            JSONObject("declarationDate", declarationDate.toString()),
+            JSONObject("withdrawalDate", withdrawalDate?.toString()),
+            JSONObject("campaignFinance", campaignFinance.toString()),
+        )
+    )
 
     override fun fromJson(json: JSONObject) = apply {
-        electionId      = Uuid.parse(json.requireString("electionId"))
-        status          = CandidacyStatus.valueOf(json.requireString("status").uppercase().replace(Regex("[^A-Z0-9]"), "_"))
+        electionId = Uuid.parse(json.requireString("electionId"))
+        status = CandidacyStatus.valueOf(json.requireString("status").uppercase().replace(Regex("[^A-Z0-9]"), "_"))
         declarationDate = LocalDate.parse(json.requireString("declarationDate"))
-        withdrawalDate  = LocalDate.parse(json.requireString("withdrawalDate"))
+        withdrawalDate = LocalDate.parse(json.requireString("withdrawalDate"))
         campaignFinance = FinancialProfile(engine, json.requireJson("campaignFinance"))
     }
 

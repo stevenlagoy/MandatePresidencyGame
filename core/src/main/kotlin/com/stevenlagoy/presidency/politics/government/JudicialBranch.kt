@@ -13,8 +13,10 @@ class JudicialBranch(
     var courts: List<Court> = listOf()
         internal set
 
-    override fun toJson() = JSONObject(hashCode().toString(), listOf(
-    ))
+    override fun toJson() = JSONObject(
+        hashCode().toString(), listOf(
+        )
+    )
 
     override fun fromJson(json: JSONObject) = super.fromJson(json).apply {
         // TODO

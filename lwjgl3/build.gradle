@@ -55,7 +55,7 @@ tasks.register('packTextures', JavaExec) {
 }
 
 run {
-  workingDir = rootProject.file('assets').path
+  workingDir = rootProject.file('.').path
   if (os.contains('mac')) jvmArgs += "-XstartOnFirstThread"
 }
 tasks.named("run") {

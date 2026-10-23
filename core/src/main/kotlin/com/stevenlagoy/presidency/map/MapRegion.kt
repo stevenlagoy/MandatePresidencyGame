@@ -12,21 +12,21 @@ import com.stevenlagoy.presidency.util.argbToRgba
  * Instances are created by MapLayer and should not be constructed directly.
  */
 class MapRegion internal constructor(
-    val id:           Int,
-    color:        Int, // ARGB color acting as join key
-    val minX:         Int,
-    val minY:         Int,
-    val maxX:         Int,
-    val maxY:         Int,
-    val centroidX:    Float,
-    val centroidY:    Float,
-    val pixelCount:   Long,
+    val id: Int,
+    color: Int, // ARGB color acting as join key
+    val minX: Int,
+    val minY: Int,
+    val maxX: Int,
+    val maxY: Int,
+    val centroidX: Float,
+    val centroidY: Float,
+    val pixelCount: Long,
     private val runs: List<PixelRun>
 ) {
 
     val color: Color = Color(argbToRgba(color))
 
-    val boundingWidth:  Int get() = maxX - minX + 1
+    val boundingWidth: Int get() = maxX - minX + 1
     val boundingHeight: Int get() = maxY - minY + 1
 
     /**
@@ -38,8 +38,8 @@ class MapRegion internal constructor(
         if (imageY !in minY..maxY) return false
         return runs.any { run ->
             run.row == imageY &&
-            imageX >= run.colStart &&
-            imageX < run.colStart + run.length
+                imageX >= run.colStart &&
+                imageX < run.colStart + run.length
         }
     }
 
@@ -68,7 +68,7 @@ class MapRegion internal constructor(
         pixmap.blending = com.badlogic.gdx.graphics.Pixmap.Blending.None
         pixmap.setColor(rgbaColor)
         for (run in runs) {
-            val y  = (run.row * scaleY).toInt()
+            val y = (run.row * scaleY).toInt()
             val x0 = (run.colStart * scaleX).toInt()
             val x1 = ((run.colStart + run.length) * scaleX).toInt()
             if (x1 > x0) pixmap.drawLine(x0, y, x1, y)

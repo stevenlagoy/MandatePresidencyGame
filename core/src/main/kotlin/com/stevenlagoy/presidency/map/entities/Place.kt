@@ -46,7 +46,8 @@ open class Place(
 
     val commonName: String = name
 
-    val fullName: String = String.format(type.nameTemplate(container.countyEquivalent.stateEquivalent.abbreviation), name)
+    val fullName: String =
+        String.format(type.nameTemplate(container.countyEquivalent.stateEquivalent.abbreviation), name)
 
     open val qualifiedName: String get() = "$name, ${container.countyEquivalent.qualifiedName}"
 

@@ -30,9 +30,11 @@ class CashAccount(
         return (balances[fundType] ?: 0.0) - amount
     }
 
-    override fun toJson() = JSONObject(hashCode().toString(), listOf(
-        JSONObject("balances", balances.map { it.key.toString() to it.value }),
-    ))
+    override fun toJson() = JSONObject(
+        hashCode().toString(), listOf(
+            JSONObject("balances", balances.map { it.key.toString() to it.value }),
+        )
+    )
 
     override fun fromJson(json: JSONObject) = this.apply {
         // TODO

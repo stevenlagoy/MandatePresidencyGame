@@ -24,45 +24,59 @@ abstract class PersonalName(
     open var nickname: String? = null,
     open var suffixes: List<String> = listOf(),
     open var displayOptions: Set<DisplayOption> = setOf(),
-) : JSONSerializable<PersonalName>, Comparable<PersonalName>
-{
+) : JSONSerializable<PersonalName>, Comparable<PersonalName> {
 
     /** Options for displaying the name in different styles. */
     enum class DisplayOption {
         /** Abbreviate the first name(s) */
         ABBREVIATE_FIRST,
+
         /** Abbreviate the middle name(s) */
         ABBREVIATE_MIDDLE,
+
         /** Prefer the middle name over the first name */
         PREFER_MIDDLE,
+
         /** Include the middle name in the common name */
         INCLUDE_MIDDLE,
+
         /** Place the Western name before the Traditional name */
         WESTERN_FIRST,
+
         /** Place the Traditional name before the Western name */
         TRADITIONAL_FIRST,
+
         /** The generational name is latent, not clan-based */
         LATENT_GENERATION,
+
         /** Place the maternal surname before the paternal surname */
         MATERNAL_FIRST,
+
         /** Include the additional Western name */
         INCLUDE_WESTERN,
+
         /** Include the nickname */
         INCLUDE_NICKNAME,
+
         /** Include the ordinal */
         INCLUDE_ORDINAL,
+
         /** Include the honorific(s) */
         INCLUDE_HONORIFIC,
+
         /** Include the suffix(es) */
         INCLUDE_SUFFIX,
+
         /** Prefer just the maternal name over both apellidos */
         PREFER_MATERNAL,
+
         /** Prefer just the paternal name over both apellidos */
         PREFER_PATERNAL;
     }
 
     /** Abbreviate names by returning the uppercase form of the first letter in each name. */
-    fun abbreviate(names: String) = names.split(" ").fold("") { res, name -> res + name.find { it.isLetter() }?.uppercaseChar() }
+    fun abbreviate(names: String) =
+        names.split(" ").fold("") { res, name -> res + name.find { it.isLetter() }?.uppercaseChar() }
 
     abstract val preferredGiven: String
 
@@ -85,7 +99,7 @@ abstract class PersonalName(
 
     abstract val initials: String
 
-    protected fun String.normalize() = this.replace(Regex("(\\s*\"\"\\s*)|\\s+|,\\s*$")," ").trim()
+    protected fun String.normalize() = this.replace(Regex("(\\s*\"\"\\s*)|\\s+|,\\s*$"), " ").trim()
 
     abstract fun copy(other: PersonalName)
 
@@ -95,15 +109,18 @@ abstract class PersonalName(
         honorific = json.requireString("honorific")
         nickname = json.requireString("nickname")
         suffixes = json.requireArray("suffixes").filterIsInstance<String>()
-        displayOptions = json.requireArray("display_options").map { DisplayOption.valueOf((it as String).uppercase().replace(Regex("[^A-Z0-9]"), "_")) }.toSet()
+        displayOptions = json.requireArray("display_options")
+            .map { DisplayOption.valueOf((it as String).uppercase().replace(Regex("[^A-Z0-9]"), "_")) }.toSet()
     }
 
-    override fun toJson() = JSONObject(indexedName, listOf(
-        JSONObject("honorific", honorific),
-        JSONObject("nickname", nickname),
-        JSONObject("suffixes", suffixes),
-        JSONObject("display_options", displayOptions),
-    ))
+    override fun toJson() = JSONObject(
+        indexedName, listOf(
+            JSONObject("honorific", honorific),
+            JSONObject("nickname", nickname),
+            JSONObject("suffixes", suffixes),
+            JSONObject("display_options", displayOptions),
+        )
+    )
 
     // OBJECT METHODS -----------------------------------------------------------------------------
 

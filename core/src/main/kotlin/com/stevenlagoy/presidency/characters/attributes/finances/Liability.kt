@@ -8,10 +8,12 @@ abstract class Liability(
     var value: Double = 0.0,
 ) : JSONSerializable<Liability> {
 
-    override fun toJson() = JSONObject(hashCode().toString(), listOf(
-        JSONObject("liabilityType", liabilityType.toString()),
-        JSONObject("value", value)
-    ))
+    override fun toJson() = JSONObject(
+        hashCode().toString(), listOf(
+            JSONObject("liabilityType", liabilityType.toString()),
+            JSONObject("value", value)
+        )
+    )
 
     override fun fromJson(json: JSONObject) = apply {
         liabilityType = LiabilityType.valueOf(json.requireString("liabilityType").uppercase())

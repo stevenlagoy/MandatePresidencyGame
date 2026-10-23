@@ -28,7 +28,7 @@ data class Loan(
     val totalLoanPayment: Double = amortizedPayment * totalInstallments
 
     fun disburse(date: LocalDate): Boolean {
-        return Transaction(to=borrower, from=lender, principal, date).execute()
+        return Transaction(to = borrower, from = lender, principal, date).execute()
             && lender.balanceSheet.assets.add(Credit(timeManager, Asset.AssetType.LoanReceivable, totalLoanPayment))
             && borrower.balanceSheet.liabilities.add(Debt(totalLoanPayment))
     }

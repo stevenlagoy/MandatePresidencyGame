@@ -11,11 +11,13 @@ data class Ideology(
     var parties = mutableSetOf<Party>()
     var interestGroups = mutableSetOf<InterestGroup>()
 
-    override fun toJson() = JSONObject(name, listOf(
-        JSONObject("name", name),
-        JSONObject("description", description),
-        JSONObject("alignment", alignment),
-    ))
+    override fun toJson() = JSONObject(
+        name, listOf(
+            JSONObject("name", name),
+            JSONObject("description", description),
+            JSONObject("alignment", alignment),
+        )
+    )
 
     override fun fromJson(json: JSONObject) = this.apply {
         name = json.requireString("name")

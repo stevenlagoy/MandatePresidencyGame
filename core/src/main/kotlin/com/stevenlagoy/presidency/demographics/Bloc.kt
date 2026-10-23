@@ -22,7 +22,7 @@ import com.stevenlagoy.presidency.politics.Party
  *
  * @author Steven LaGoy
  */
-class Bloc (
+class Bloc(
     engine: Engine,
     name: String = "",
     category: DemographicCategory = DemographicCategory.NONE,
@@ -78,19 +78,22 @@ class Bloc (
 
     // REPRESENTATION METHODS ---------------------------------------------------------------------
 
-    override fun toJson() = JSONObject(name, mapOf(
-        "name" to name,
-        "category" to category,
-        "superBloc" to superBloc,
-        "subBlocs" to subBlocs,
-    ))
+    override fun toJson() = JSONObject(
+        name, mapOf(
+            "name" to name,
+            "category" to category,
+            "superBloc" to superBloc,
+            "subBlocs" to subBlocs,
+        )
+    )
 
     override fun fromJson(json: JSONObject) = this.apply {
         name = json.requireString("name")
         category = DemographicCategory.valueOf(json.requireString("category").uppercase().replace(Regex("[^A-Z]"), "_"))
         superBloc = engine.DEMOGRAPHICS_MANAGER.matchBloc(json.requireString("superBloc")).orElseThrow()
         subBlocs.clear()
-        subBlocs.addAll(json.requireArray("subBlocs").map { engine.DEMOGRAPHICS_MANAGER.matchBloc(it as String) }.filter { it.isPresent }.map { it.get() })
+        subBlocs.addAll(json.requireArray("subBlocs").map { engine.DEMOGRAPHICS_MANAGER.matchBloc(it as String) }
+            .filter { it.isPresent }.map { it.get() })
     }
 
 }

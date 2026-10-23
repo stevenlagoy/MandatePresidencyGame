@@ -6,7 +6,7 @@ import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.politics.Issue
 
-class Ballot (
+class Ballot(
     engine: Engine,
     var `return`: Map<Issue.IssuePosition, Int> = emptyMap()
 ) : JSONSerializable<Ballot>, EngineBound(engine) {

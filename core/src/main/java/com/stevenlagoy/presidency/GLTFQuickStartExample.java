@@ -24,20 +24,19 @@ import net.mgsx.gltf.scene3d.scene.SceneManager;
 import net.mgsx.gltf.scene3d.scene.SceneSkybox;
 import net.mgsx.gltf.scene3d.utils.IBLBuilder;
 
-public class GLTFQuickStartExample extends ApplicationAdapter implements InputProcessor
-{
+public class GLTFQuickStartExample extends ApplicationAdapter implements InputProcessor {
 
-	private SceneManager sceneManager;
-	private SceneAsset sceneAsset;
-	private Scene playerScene;
-	private PerspectiveCamera camera;
-	private Cubemap diffuseCubemap;
-	private Cubemap environmentCubemap;
-	private Cubemap specularCubemap;
-	private Texture brdfLUT;
-	private float time;
-	private SceneSkybox skybox;
-	private DirectionalLightEx light;
+    private SceneManager sceneManager;
+    private SceneAsset sceneAsset;
+    private Scene playerScene;
+    private PerspectiveCamera camera;
+    private Cubemap diffuseCubemap;
+    private Cubemap environmentCubemap;
+    private Cubemap specularCubemap;
+    private Texture brdfLUT;
+    private float time;
+    private SceneSkybox skybox;
+    private DirectionalLightEx light;
     private FirstPersonCameraController cameraController;
 
     // Player Movement
@@ -55,20 +54,20 @@ public class GLTFQuickStartExample extends ApplicationAdapter implements InputPr
     private float angleAroundPlayer = 0f;
     private float angleBehindPlayer = 0f;
 
-	@Override
-	public void create() {
+    @Override
+    public void create() {
 
-		// create scene
-		sceneAsset = new GLTFLoader().load(Gdx.files.internal("models/suzanne.gltf"));
-		playerScene = new Scene(sceneAsset.scene);
-		sceneManager = new SceneManager();
-		sceneManager.addScene(playerScene);
+        // create scene
+        sceneAsset = new GLTFLoader().load(Gdx.files.internal("models/suzanne.gltf"));
+        playerScene = new Scene(sceneAsset.scene);
+        sceneManager = new SceneManager();
+        sceneManager.addScene(playerScene);
 
-		// setup camera (The BoomBox model is very small so you may need to adapt camera settings for your scene)
-		camera = new PerspectiveCamera(60f, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
-		camera.near = 1f;
-		camera.far = 200;
-		sceneManager.setCamera(camera);
+        // setup camera (The BoomBox model is very small so you may need to adapt camera settings for your scene)
+        camera = new PerspectiveCamera(60f, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
+        camera.near = 1f;
+        camera.far = 200;
+        sceneManager.setCamera(camera);
         camera.position.set(0, 0, 4f);
 
         // Allow mouse movement outside the window bounds
@@ -80,33 +79,33 @@ public class GLTFQuickStartExample extends ApplicationAdapter implements InputPr
         cameraController.downKey = Keys.Q;
         // Gdx.input.setInputProcessor(cameraController);
 
-		// setup light
-		light = new DirectionalLightEx();
-		light.direction.set(1, -3, 1).nor();
-		light.color.set(Color.WHITE);
-		sceneManager.environment.add(light);
+        // setup light
+        light = new DirectionalLightEx();
+        light.direction.set(1, -3, 1).nor();
+        light.color.set(Color.WHITE);
+        sceneManager.environment.add(light);
 
-		// setup quick IBL (image based lighting)
-		IBLBuilder iblBuilder = IBLBuilder.createOutdoor(light);
-		environmentCubemap = iblBuilder.buildEnvMap(1024);
-		diffuseCubemap = iblBuilder.buildIrradianceMap(256);
-		specularCubemap = iblBuilder.buildRadianceMap(10);
-		iblBuilder.dispose();
+        // setup quick IBL (image based lighting)
+        IBLBuilder iblBuilder = IBLBuilder.createOutdoor(light);
+        environmentCubemap = iblBuilder.buildEnvMap(1024);
+        diffuseCubemap = iblBuilder.buildIrradianceMap(256);
+        specularCubemap = iblBuilder.buildRadianceMap(10);
+        iblBuilder.dispose();
 
-		// This texture is provided by the library, no need to have it in your assets.
-		brdfLUT = new Texture(Gdx.files.classpath("net/mgsx/gltf/shaders/brdfLUT.png"));
+        // This texture is provided by the library, no need to have it in your assets.
+        brdfLUT = new Texture(Gdx.files.classpath("net/mgsx/gltf/shaders/brdfLUT.png"));
 
-		sceneManager.setAmbientLight(1f);
-		sceneManager.environment.set(new PBRTextureAttribute(PBRTextureAttribute.BRDFLUTTexture, brdfLUT));
-		sceneManager.environment.set(PBRCubemapAttribute.createSpecularEnv(specularCubemap));
-		sceneManager.environment.set(PBRCubemapAttribute.createDiffuseEnv(diffuseCubemap));
+        sceneManager.setAmbientLight(1f);
+        sceneManager.environment.set(new PBRTextureAttribute(PBRTextureAttribute.BRDFLUTTexture, brdfLUT));
+        sceneManager.environment.set(PBRCubemapAttribute.createSpecularEnv(specularCubemap));
+        sceneManager.environment.set(PBRCubemapAttribute.createDiffuseEnv(diffuseCubemap));
 
-		// setup skybox
-		skybox = new SceneSkybox(environmentCubemap);
-		sceneManager.setSkyBox(skybox);
+        // setup skybox
+        skybox = new SceneSkybox(environmentCubemap);
+        sceneManager.setSkyBox(skybox);
 
         buildBoxes();
-	}
+    }
 
     private void buildBoxes() {
         ModelBuilder modelBuilder = new ModelBuilder();
@@ -116,8 +115,7 @@ public class GLTFQuickStartExample extends ApplicationAdapter implements InputPr
             for (int z = 0; z < 100; z += 10) {
                 Material material = new Material();
                 material.set(PBRColorAttribute.createBaseColorFactor(Color.RED));
-                MeshPartBuilder builder = modelBuilder.part(x + ", " + z, GL20.GL_TRIANGLES,
-                    VertexAttributes.Usage.Position | VertexAttributes.Usage.Normal, material);
+                MeshPartBuilder builder = modelBuilder.part(x + ", " + z, GL20.GL_TRIANGLES, VertexAttributes.Usage.Position | VertexAttributes.Usage.Normal, material);
                 BoxShapeBuilder.build(builder, x, 0, z, 1f, 1f, 1f);
             }
         }
@@ -126,15 +124,15 @@ public class GLTFQuickStartExample extends ApplicationAdapter implements InputPr
         sceneManager.addScene(new Scene(model));
     }
 
-	@Override
-	public void resize(int width, int height) {
-		sceneManager.updateViewport(width, height);
-	}
+    @Override
+    public void resize(int width, int height) {
+        sceneManager.updateViewport(width, height);
+    }
 
-	@Override
-	public void render() {
-		float deltaTime = Gdx.graphics.getDeltaTime();
-		time += deltaTime;
+    @Override
+    public void render() {
+        float deltaTime = Gdx.graphics.getDeltaTime();
+        time += deltaTime;
 
         // cameraController.update();
         // playerScene.modelInstance.transform.rotate(Vector3.Y, 10f * deltaTime);
@@ -142,17 +140,17 @@ public class GLTFQuickStartExample extends ApplicationAdapter implements InputPr
         processInput(deltaTime);
         updateCamera();
 
-		// animate camera
-		// camera.position.setFromSpherical(MathUtils.PI/4, time * .3f).scl(.02f);
-		// camera.up.set(Vector3.Y);
-		// camera.lookAt(Vector3.Zero);
-		// camera.update();
+        // animate camera
+        // camera.position.setFromSpherical(MathUtils.PI/4, time * .3f).scl(.02f);
+        // camera.up.set(Vector3.Y);
+        // camera.lookAt(Vector3.Zero);
+        // camera.update();
 
-		// render
-		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT | GL20.GL_DEPTH_BUFFER_BIT);
-		sceneManager.update(deltaTime);
-		sceneManager.render();
-	}
+        // render
+        Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT | GL20.GL_DEPTH_BUFFER_BIT);
+        sceneManager.update(deltaTime);
+        sceneManager.render();
+    }
 
     private void updateCamera() {
         float horizontalDistance = calculateHorizontalDistance(distanceFromPlayer);
@@ -184,11 +182,11 @@ public class GLTFQuickStartExample extends ApplicationAdapter implements InputPr
 
     private void calculateAngleAroundPlayer() {
         switch (cameraMode) {
-            case FREE_LOOK :
+            case FREE_LOOK:
                 float angleChange = Gdx.input.getDeltaX() * Settings.CAMERA_ANGLE_AROUND_PLAYER_FACTOR;
                 angleAroundPlayer -= angleChange;
                 break;
-            case BEHIND_PLAYER :
+            case BEHIND_PLAYER:
                 angleAroundPlayer = angleBehindPlayer;
                 break;
         }
@@ -259,16 +257,16 @@ public class GLTFQuickStartExample extends ApplicationAdapter implements InputPr
         moveTranslation.set(0, 0, 0);
     }
 
-	@Override
-	public void dispose() {
-		sceneManager.dispose();
-		sceneAsset.dispose();
-		environmentCubemap.dispose();
-		diffuseCubemap.dispose();
-		specularCubemap.dispose();
-		brdfLUT.dispose();
-		skybox.dispose();
-	}
+    @Override
+    public void dispose() {
+        sceneManager.dispose();
+        sceneAsset.dispose();
+        environmentCubemap.dispose();
+        diffuseCubemap.dispose();
+        specularCubemap.dispose();
+        brdfLUT.dispose();
+        skybox.dispose();
+    }
 
     @Override
     public boolean keyDown(int keycode) {
@@ -286,35 +284,36 @@ public class GLTFQuickStartExample extends ApplicationAdapter implements InputPr
     }
 
     @Override
-    public boolean touchDown(int screenX,int screenY,int pointer,int button) {
+    public boolean touchDown(int screenX, int screenY, int pointer, int button) {
         return false;
     }
 
     @Override
-    public boolean touchUp(int screenX,int screenY,int pointer,int button) {
+    public boolean touchUp(int screenX, int screenY, int pointer, int button) {
         return false;
     }
 
     @Override
-    public boolean touchCancelled(int screenX,int screenY,int pointer,int button) {
+    public boolean touchCancelled(int screenX, int screenY, int pointer, int button) {
         return false;
     }
 
     @Override
-    public boolean touchDragged(int screenX,int screenY,int pointer) {
+    public boolean touchDragged(int screenX, int screenY, int pointer) {
         return false;
     }
 
     @Override
-    public boolean mouseMoved(int screenX,int screenY) {
+    public boolean mouseMoved(int screenX, int screenY) {
         return false;
     }
 
     @Override
-    public boolean scrolled(float amountX,float amountY) {
+    public boolean scrolled(float amountX, float amountY) {
         float zoomLevel = amountY * Settings.CAMERA_ZOOM_LEVEL_FACTOR;
         distanceFromPlayer += zoomLevel;
         distanceFromPlayer = Math.min(Math.max(distanceFromPlayer, Settings.CAMERA_MIN_DISTANCE_FROM_PLAYER), Settings.CAMERA_MAX_DISTANCE_FROM_PLAYER);
         return false;
     }
+
 }

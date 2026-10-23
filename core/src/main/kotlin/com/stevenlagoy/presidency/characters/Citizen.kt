@@ -12,6 +12,7 @@ import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.demographics.Demographics
 import com.stevenlagoy.presidency.map.entities.Place
+import com.stevenlagoy.presidency.map.entities.PlaceManager
 import java.time.LocalDate
 import kotlin.uuid.ExperimentalUuidApi
 import kotlin.uuid.Uuid
@@ -39,7 +40,7 @@ open class Citizen(
     val family: Family = Family(engine),
     val appearance: CharacterAppearance = CharacterAppearance(),
     val name: PersonalName = WesternPersonalName(),
-    var origin: Place = engine.MAP_MANAGER.mostPopulousPlace,
+    var origin: Place = engine.getManager(PlaceManager::class.java).maxByOrNull { it.population }!!,
     var location: Place = origin,
     var residence: Place = location,
     var financialProfile: FinancialProfile? = null,
@@ -48,6 +49,7 @@ open class Citizen(
     companion object {
         /** Minimum age of a Character. */
         const val MIN_AGE = 0
+
         /** Maximum age of a Character. */
         const val MAX_AGE = 120
     }
@@ -76,21 +78,26 @@ open class Citizen(
         demographics.fromJson(json.requireJson("demographics"))
         appearance.fromJson(json.requireJson("appearance"))
         family.fromJson(json.requireJson("family"))
-        origin = engine.MAP_MANAGER.matchPlace(json.requireString("originMunicipality", "origin_municipality")).get()
-        location = engine.MAP_MANAGER.matchPlace(json.requireString("locationMunicipality", "location_municipality")).get()
-        residence = engine.MAP_MANAGER.matchPlace(json.requireString("residenceMunicipality", "residence_municipality")).get()
+        origin = engine.getManager(PlaceManager::class.java)
+            .matchPlace(json.requireString("originMunicipality", "origin_municipality")).get()
+        location = engine.getManager(PlaceManager::class.java)
+            .matchPlace(json.requireString("locationMunicipality", "location_municipality")).get()
+        residence = engine.getManager(PlaceManager::class.java)
+            .matchPlace(json.requireString("residenceMunicipality", "residence_municipality")).get()
         financialProfile = FinancialProfile(engine, json.requireJson("financialProfile", "financial_profile"))
     }
 
-    override fun toJson() = JSONObject(id.toString(), listOf(
-        JSONObject("name", name.toJson()),
-        JSONObject("birthday", birthday.toString()),
-        JSONObject("demographics", demographics.toJson()),
-        JSONObject("appearance", appearance.toJson()),
-        JSONObject("family", family.toJson()),
-        JSONObject("originMunicipality", origin.fullName),
-        JSONObject("locationMunicipality", location.fullName),
-        JSONObject("residenceMunicipality", residence.fullName),
-        JSONObject("financialProfile", financialProfile?.toJson())
-    ))
+    override fun toJson() = JSONObject(
+        id.toString(), listOf(
+            JSONObject("name", name.toJson()),
+            JSONObject("birthday", birthday.toString()),
+            JSONObject("demographics", demographics.toJson()),
+            JSONObject("appearance", appearance.toJson()),
+            JSONObject("family", family.toJson()),
+            JSONObject("originMunicipality", origin.fullName),
+            JSONObject("locationMunicipality", location.fullName),
+            JSONObject("residenceMunicipality", residence.fullName),
+            JSONObject("financialProfile", financialProfile?.toJson())
+        )
+    )
 }

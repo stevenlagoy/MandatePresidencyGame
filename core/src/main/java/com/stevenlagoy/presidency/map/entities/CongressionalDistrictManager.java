@@ -27,4 +27,5 @@ public class CongressionalDistrictManager extends EntityManager<CongressionalDis
     protected @Nullable String keyOf(@NotNull CongressionalDistrict entity) {
         return entity.getOfficeID();
     }
+
 }

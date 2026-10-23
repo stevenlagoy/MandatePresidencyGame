@@ -11,11 +11,11 @@ import java.util.List;
  * <h1>PERSONALITY MANAGER</h1>
  * {@code ~/characters/PersonalityManager.java}
  * <p>
- *     <b>Author:  </b> Steven LaGoy            <br>
- *     <b>Created: </b> 01 June 2026 at 5:22 PM <br>
- *     <b>Modified:</b> 02 June 2026            <br>
+ * <b>Author:  </b> Steven LaGoy            <br>
+ * <b>Created: </b> 01 June 2026 at 5:22 PM <br>
+ * <b>Modified:</b> 02 June 2026            <br>
  * </p>
- *
+ * <p>
  * PersonalityManager is responsible for creating {@link Personality} attributes for
  * {@link com.stevenlagoy.presidency.characters.PoliticalActor} instances.
  *
@@ -61,4 +61,5 @@ public class PersonalityManager extends Manager {
         requireState(ManagerState.ACTIVE);
         return new Personality();
     }
+
 }

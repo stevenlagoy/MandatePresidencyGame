@@ -64,7 +64,12 @@ open class PoliticalActor(
     override fun fromJson(json: JSONObject) = this.apply {
         super.fromJson(json)
         alignment.fromJson(json.requireJson("alignment") as JSONObject)
-        partyAffiliation = engine.POLITICS_MANAGER.PARTY_MANAGER.matchParty(json.requireString("partyAffiliation", "party_affiliation_id")).get()
+        partyAffiliation = engine.POLITICS_MANAGER.PARTY_MANAGER.matchParty(
+            json.requireString(
+                "partyAffiliation",
+                "party_affiliation_id"
+            )
+        ).get()
         skills.fromJson(json.requireJson("skills"))
         personality.fromJson(json.requireJson("personality"))
         ExperienceHistory(engine, json.requireJson("experiences"))
@@ -72,15 +77,17 @@ open class PoliticalActor(
         candidacy = Candidacy(engine, json.requireJson("candidacy"))
     }
 
-    override fun toJson() = JSONObject(id.toString(), listOf(
-        JSONObject("alignment", alignment.toJson()),
-        JSONObject("partyAffiliation", partyAffiliation?.name),
-        JSONObject("skills", skills.toJson()),
-        JSONObject("personality", personality.toJson()),
-        JSONObject("experiences", experiences.toJson()),
-        JSONObject("issuePositions", issuePositions.toJson()),
-        JSONObject("candidacy", candidacy?.toJson()),
-    ))
+    override fun toJson() = JSONObject(
+        id.toString(), listOf(
+            JSONObject("alignment", alignment.toJson()),
+            JSONObject("partyAffiliation", partyAffiliation?.name),
+            JSONObject("skills", skills.toJson()),
+            JSONObject("personality", personality.toJson()),
+            JSONObject("experiences", experiences.toJson()),
+            JSONObject("issuePositions", issuePositions.toJson()),
+            JSONObject("candidacy", candidacy?.toJson()),
+        )
+    )
 
     companion object {
         const val MIN_AGE = 18

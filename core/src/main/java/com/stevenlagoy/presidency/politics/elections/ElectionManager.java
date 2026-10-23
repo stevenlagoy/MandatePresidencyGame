@@ -45,9 +45,7 @@ public class ElectionManager extends Manager {
 
     @Override
     protected @NotNull JSONObject doToJson() {
-        return new JSONObject(getClass().getSimpleName(), List.of(
-            new JSONObject("elections", elections.stream().map(Election::toJson))
-        ));
+        return new JSONObject(getClass().getSimpleName(), List.of(new JSONObject("elections", elections.stream().map(Election::toJson))));
     }
 
     @Override
@@ -80,4 +78,5 @@ public class ElectionManager extends Manager {
         elections.add(election);
         return election;
     }
+
 }

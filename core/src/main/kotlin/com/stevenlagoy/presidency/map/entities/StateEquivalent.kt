@@ -5,10 +5,10 @@ import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.demographics.Bloc
 import com.stevenlagoy.presidency.map.Descriptor
 import com.stevenlagoy.presidency.map.HasFIPS
-import com.stevenlagoy.presidency.map.RegionData
+import com.stevenlagoy.presidency.map.MapRegion
 import com.stevenlagoy.presidency.politics.government.Government
 
-open class StateEquivalent (
+open class StateEquivalent(
     engine: Engine,
     FIPS: String = "",
     fullName: String = "",
@@ -19,7 +19,7 @@ open class StateEquivalent (
     population: Int = 0,
     demographics: Map<Bloc, Double> = emptyMap(),
     descriptors: Set<Descriptor> = emptySet(),
-    region: RegionData? = null,
+    region: MapRegion? = null,
     _capital: Place? = null,
     government: Government = Government(engine),
     var motto: String? = null,
@@ -90,8 +90,11 @@ open class StateEquivalent (
         abbreviation = json.requireString("abbreviation")
         nickname = json.requireString("nickname")
         motto = json.requireString("motto")
-        countyEquivalents = json.findArray("counties") { emptyList<String>() }!!.asSequence().filterIsInstance<String>().map { engine.MAP_MANAGER.matchCountyEquivalent(it) }.filter { it.isPresent }.map { it.get() }.toSet()
-        val _censusDivision = engine.MAP_MANAGER.matchCensusDivision(json.findString(listOf("censusDivision", "census_division", "division")) { "" }!! )
+        countyEquivalents = json.findArray("counties") { emptyList<String>() }!!.asSequence().filterIsInstance<String>()
+            .map { engine.getManager(CountyEquivalentManager::class.java).matchCountyEquivalent(it) }
+            .filter { it.isPresent }.map { it.get() }.toSet()
+        val _censusDivision = engine.getManager(CensusDivisionManager::class.java)
+            .matchByKey(json.findString(listOf("censusDivision", "census_division", "division")) { "" }!!)
         if (_censusDivision.isPresent) censusDivision = _censusDivision.get()
         type = StateType.entries.find { it.label == json.findString("type") { "state" }!! }!!
     }

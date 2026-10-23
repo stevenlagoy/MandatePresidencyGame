@@ -5,7 +5,7 @@ import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.EntityManager;
 import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.map.HasFIPS;
-import com.stevenlagoy.presidency.map.MapManager3;
+import com.stevenlagoy.presidency.map.MapManager;
 import com.stevenlagoy.presidency.util.FilePath;
 import com.stevenlagoy.presidency.util.IOUtils;
 import com.stevenlagoy.presidency.util.MatchingException;
@@ -35,11 +35,7 @@ public class CountyEquivalentManager extends EntityManager<CountyEquivalent, Str
             // Get data paths
             Set<Path> countyEquivalentsFiles = new HashSet<>();
             for (Path stateDir : IOUtils.listDirectories(FilePath._STATES)) {
-                countyEquivalentsFiles.addAll(
-                    IOUtils.listFiles(stateDir).stream().filter(path ->
-                        path.toString().contains(countyEquivalentsFileMarker)
-                    ).collect(Collectors.toSet())
-                );
+                countyEquivalentsFiles.addAll(IOUtils.listFiles(stateDir).stream().filter(path -> path.toString().contains(countyEquivalentsFileMarker)).collect(Collectors.toSet()));
             }
             // Create County Equivalents
             for (Path countyEquivalentsFile : countyEquivalentsFiles) {
@@ -56,21 +52,22 @@ public class CountyEquivalentManager extends EntityManager<CountyEquivalent, Str
                         String type = countyJson.findString("type", () -> "county");
                         assert type != null; // Can never be null because the supplier returns non-null
                         switch (type.toLowerCase().replaceAll("[^a-z]", " ")) {
-                            case "federal district" :
-                                register(engine.getManager(MapManager3.class).getNation().getCapital().getCountyEquivalent());
-                                engine.getManager(MapManager3.class).
+                            case "federal district":
+                                String federalDistrictName = String.format("%s, %s", countyJson.requireString("fullName", "commonName", "name"), countyJson.requireString("state", "territory"));
+                                register(engine.getManager(MapManager.class).getNation().getCapital().getCountyEquivalent());
+                                engine.getManager(MapManager.class).getIndependentCityJsons().put(federalDistrictName, countyJson);
                                 break;
-                            case "independent city" :
+                            case "independent city":
                                 // These will be made later when places are created
                                 String independentCityName = String.format("%s, %s", countyJson.requireString("fullName", "commonName", "name"), countyJson.requireString("state", "territory"));
-                                engine.getManager(MapManager3.class).getIndependentCityJsons().put(independentCityName, countyJson);
+                                engine.getManager(MapManager.class).getIndependentCityJsons().put(independentCityName, countyJson);
                                 break;
-                            case "county" :
-                            case "parish" :
-                            case "borough" :
-                            case "planning region" :
-                            case "consolidated city county" :
-                            default :
+                            case "county":
+                            case "parish":
+                            case "borough":
+                            case "planning region":
+                            case "consolidated city county":
+                            default:
                                 register(new County(engine, countyJson));
                                 break;
                         }
@@ -98,20 +95,13 @@ public class CountyEquivalentManager extends EntityManager<CountyEquivalent, Str
 
     public @NotNull Set<CountyEquivalent> matchCountyEquivalents(@NotNull String nameOrFIPS) {
         if (nameOrFIPS.isBlank()) return Collections.emptySet();
-        return entities.stream().filter(county ->
-            county.getName().equals(nameOrFIPS) ||
-                county.getQualifiedName().equals(nameOrFIPS) ||
-                (county instanceof County && ((County) county).getFIPS().equals(nameOrFIPS))
-        ).collect(Collectors.toSet());
+        return entities.stream().filter(county -> county.getName().equals(nameOrFIPS) || county.getQualifiedName().equals(nameOrFIPS) || (county instanceof County && ((County) county).getFIPS().equals(nameOrFIPS))).collect(Collectors.toSet());
     }
 
     public @NotNull Optional<CountyEquivalent> matchCountyEquivalent(@NotNull String nameOrFIPS) {
         if (nameOrFIPS.isBlank()) return Optional.empty();
         if (index.containsKey(nameOrFIPS)) return Optional.of(index.get(nameOrFIPS));
-        return entities.stream().filter(county ->
-            county.getName().equals(nameOrFIPS) ||
-                county.getQualifiedName().equals(nameOrFIPS)
-        ).findFirst();
+        return entities.stream().filter(county -> county.getName().equals(nameOrFIPS) || county.getQualifiedName().equals(nameOrFIPS)).findFirst();
     }
 
     public @NotNull CountyEquivalent requireCountyEquivalent(@NotNull String nameOrFIPS) throws MatchingException {
@@ -143,4 +133,5 @@ public class CountyEquivalentManager extends EntityManager<CountyEquivalent, Str
     public @NotNull CountyEquivalent requireCountyEquivalent(@NotNull String countyEquivalentName, @NotNull String stateEquivalentNameOrFIPS) throws MatchingException {
         return matchCountyEquivalent(countyEquivalentName, stateEquivalentNameOrFIPS).orElseThrow(() -> new MatchingException(String.format("Could not find required county equivalent in %s with name: %s", stateEquivalentNameOrFIPS, countyEquivalentName), () -> this.matchCountyEquivalent(countyEquivalentName, stateEquivalentNameOrFIPS)));
     }
+
 }

@@ -7,6 +7,7 @@ import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.demographics.Bloc
 import com.stevenlagoy.presidency.map.Descriptor
+import com.stevenlagoy.presidency.map.DescriptorManager
 import com.stevenlagoy.presidency.map.MapRegion
 import com.stevenlagoy.presidency.util.parseGdxColor
 import kotlin.math.roundToInt
@@ -25,7 +26,7 @@ abstract class MapEntity(
     descriptors: Set<Descriptor> = emptySet(),
     region: MapRegion? = null,
     colors: Set<Color> = emptySet()
-): JSONSerializable<MapEntity>, EngineBound(engine) {
+) : JSONSerializable<MapEntity>, EngineBound(engine) {
 
     /** Uniquely identifying name of this map entity. */
     open var name: String = name
@@ -60,7 +61,9 @@ abstract class MapEntity(
         require(squareMileage >= 0.0) { "Area must be non-negative" }
     }
 
-    constructor(engine: Engine, json: JSONObject) : this(engine) { fromJson(json) }
+    constructor(engine: Engine, json: JSONObject) : this(engine) {
+        fromJson(json)
+    }
 
     fun isPixelWithin(x: Long, y: Long): Boolean {
         return false // TODO
@@ -91,12 +94,18 @@ abstract class MapEntity(
     )
 
     override fun fromJson(json: JSONObject) = this.apply {
-        name          = json.requireString("name")
-        population    = json.findInt("population") { 0 }!!
-        demographics  = emptyMap() // From DemographicsManager
+        name = json.requireString("name")
+        population = json.findInt("population") { 0 }!!
+        demographics = emptyMap() // From DemographicsManager
         squareMileage = json.findDouble("squareMileage") { 0.0 }!!
-        demographics  = emptyMap()
-        descriptors   = json.findArray("descriptors") { emptyList<String>() }!!.asSequence().filterIsInstance<String>().map { engine.MAP_MANAGER.matchDescriptor(it) }.filter { it.isPresent }.map { it.get() }.toSet()
-        colors        = json.findArray("colors") { emptyList<Color>() }!!.asSequence().filterIsInstance<String>().map { parseGdxColor(it) }.toSet()
+        demographics = emptyMap()
+        descriptors =
+            json.findArray("descriptors") { emptyList<String>() }!!.asSequence().filterIsInstance<String>().map {
+                engine.getManager(
+                    DescriptorManager::class.java
+                ).matchByKey(it)
+            }.filter { it.isPresent }.map { it.get() }.toSet()
+        colors = json.findArray("colors") { emptyList<Color>() }!!.asSequence().filterIsInstance<String>()
+            .map { parseGdxColor(it) }.toSet()
     }
 }

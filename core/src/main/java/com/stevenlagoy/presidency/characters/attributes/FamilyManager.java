@@ -22,11 +22,11 @@ import java.util.Set;
  * <h1>FAMILY MANAGER</h1>
  * {@code ~/characters/attributes/FamilyManager.java}
  * <p>
- *     <b>Author:  </b> Steven LaGoy            <br>
- *     <b>Created: </b> 02 June 2026 at 2:46 PM <br>
- *     <b>Modified:</b> 04 June 2026            <br>
+ * <b>Author:  </b> Steven LaGoy            <br>
+ * <b>Created: </b> 02 June 2026 at 2:46 PM <br>
+ * <b>Modified:</b> 04 June 2026            <br>
  * </p>
- *
+ * <p>
  * FamilyManager is responsible for creating {@link Family} attributes.
  *
  * @author Steven LaGoy
@@ -42,9 +42,13 @@ public class FamilyManager extends Manager {
     public static final float eachChildPercent = 0.80f;
     // Should be based on age
     public static final float marriedPercent = 0.80f;
-    /** Via <a href="https://usafacts.org/articles/what-is-the-state-of-gay-marriage-in-the-us/">USA Facts</a>*/
+    /**
+     * Via <a href="https://usafacts.org/articles/what-is-the-state-of-gay-marriage-in-the-us/">USA Facts</a>
+     */
     public static final float wlwMarriagePercent = 0.013f;
-    /** Via <a href="https://usafacts.org/articles/what-is-the-state-of-gay-marriage-in-the-us/">USA Facts</a>*/
+    /**
+     * Via <a href="https://usafacts.org/articles/what-is-the-state-of-gay-marriage-in-the-us/">USA Facts</a>
+     */
     public static final float mlmMarriagePercent = 0.013f;
     public static final int minGenerationGapYears = 20; // Minimum number of years between generations
     public static final int maxGenerationGapYears = 50; // Maximum number of years between generations
@@ -67,7 +71,7 @@ public class FamilyManager extends Manager {
     // Manager Methods
 
     @Override
-    @Contract(pure = true)
+    @Contract(pure=true)
     public @NotNull List<Manager> getSubManagers() {
         return List.of();
     }
@@ -93,18 +97,9 @@ public class FamilyManager extends Manager {
 
     // Creational Methods
 
-    public record FamilyPlan(
-        boolean hasMother,
-        int mothersSide,
-        boolean hasFather,
-        int fathersSide,
-        int siblings,
-        int allSiblingsSides,
-        boolean hasSpouse,
-        int spousesSide,
-        int children,
-        int allChildrensSides
-    ) {}
+    public record FamilyPlan(boolean hasMother, int mothersSide, boolean hasFather, int fathersSide, int siblings,
+                             int allSiblingsSides, boolean hasSpouse, int spousesSide, int children,
+                             int allChildrensSides) {}
 
     private @NotNull FamilyPlan coreFamilyPlan(boolean hasMother, boolean hasFather, int siblings, boolean hasSpouse, int children) {
         return new FamilyPlan(hasMother, 0, hasFather, 0, siblings, 0, hasSpouse, 0, children, 0);
@@ -156,47 +151,51 @@ public class FamilyManager extends Manager {
         if (children > 6) children = 6;
         int siblings = hasMother && hasFather ? RandomUtils.probabilisticCount(eachChildPercent) : 0;
         if (siblings > 6) siblings = 6;
-        int coreFamilySize = (hasMother?1:0) + (hasFather?1:0) + (hasSpouse?1:0) + children + siblings;
+        int coreFamilySize = (hasMother ? 1 : 0) + (hasFather ? 1 : 0) + (hasSpouse ? 1 : 0) + children + siblings;
         while (coreFamilySize > numberMembers) {
-            if (siblings > 0) { siblings--; coreFamilySize--; }
-            else if (children > 0) { children--; coreFamilySize--; }
-            else if (hasSpouse) { hasSpouse = false; coreFamilySize--; }
-            else if (hasFather) { hasFather = false; coreFamilySize--; }
-            else if (hasMother) { hasMother = false; coreFamilySize--; }
+            if (siblings > 0) {
+                siblings--;
+                coreFamilySize--;
+            }
+            else if (children > 0) {
+                children--;
+                coreFamilySize--;
+            }
+            else if (hasSpouse) {
+                hasSpouse = false;
+                coreFamilySize--;
+            }
+            else if (hasFather) {
+                hasFather = false;
+                coreFamilySize--;
+            }
+            else if (hasMother) {
+                hasMother = false;
+                coreFamilySize--;
+            }
         }
         if (coreFamilySize == numberMembers) return coreFamilyPlan(hasMother, hasFather, siblings, hasSpouse, children);
 
         // Extended family
         int remaining = numberMembers - coreFamilySize;
-        float mothersSidePercent       = hasMother    ? RandomUtils.randNextPercent() * mothersSideMaxPercentOfFamily       : 0;
-        float fathersSidePercent       = hasFather    ? RandomUtils.randNextPercent() * fathersSideMaxPercentOfFamily       : 0;
-        float allSiblingsSidesPercent  = siblings > 0 ? RandomUtils.randNextPercent() * allSiblingsSidesMaxPercentOfFamily  : 0;
-        float spousesSidePercent       = hasSpouse    ? RandomUtils.randNextPercent() * spousesSideMaxPercentOfFamily       : 0;
+        float mothersSidePercent = hasMother ? RandomUtils.randNextPercent() * mothersSideMaxPercentOfFamily : 0;
+        float fathersSidePercent = hasFather ? RandomUtils.randNextPercent() * fathersSideMaxPercentOfFamily : 0;
+        float allSiblingsSidesPercent = siblings > 0 ? RandomUtils.randNextPercent() * allSiblingsSidesMaxPercentOfFamily : 0;
+        float spousesSidePercent = hasSpouse ? RandomUtils.randNextPercent() * spousesSideMaxPercentOfFamily : 0;
         float allChildrensSidesPercent = children > 0 ? RandomUtils.randNextPercent() * allChildrensSidesMaxPercentOfFamily : 0;
         float totalPercent = mothersSidePercent + fathersSidePercent + allSiblingsSidesPercent + spousesSidePercent + allChildrensSidesPercent;
         if (totalPercent < 1.0f) allChildrensSidesPercent += 1.0f - totalPercent;
         else if (totalPercent > 1.0f) allSiblingsSidesPercent -= totalPercent - 1.0f;
-        int mothersSide       = (int) (remaining * mothersSidePercent);
-        int fathersSide       = (int) (remaining * fathersSidePercent);
-        int allSiblingsSides  = (int) (remaining * allSiblingsSidesPercent);
-        int spousesSide       = (int) (remaining * spousesSidePercent);
+        int mothersSide = (int) (remaining * mothersSidePercent);
+        int fathersSide = (int) (remaining * fathersSidePercent);
+        int allSiblingsSides = (int) (remaining * allSiblingsSidesPercent);
+        int spousesSide = (int) (remaining * spousesSidePercent);
         int allChildrensSides = (int) (remaining * allChildrensSidesPercent);
         int total = coreFamilySize + mothersSide + fathersSide + allSiblingsSides + spousesSide + allChildrensSides;
         if (total < numberMembers) allChildrensSides += numberMembers - total; // Rounding loss
         else if (total > numberMembers) allSiblingsSides -= total - numberMembers; // Never
 
-        return new FamilyPlan(
-            hasMother,
-            mothersSide,
-            hasFather,
-            fathersSide,
-            siblings,
-            allSiblingsSides,
-            hasSpouse,
-            spousesSide,
-            children,
-            allChildrensSides
-        );
+        return new FamilyPlan(hasMother, mothersSide, hasFather, fathersSide, siblings, allSiblingsSides, hasSpouse, spousesSide, children, allChildrensSides);
     }
 
     public @NotNull Family buildFamily(@NotNull Citizen citizen) {
@@ -229,7 +228,8 @@ public class FamilyManager extends Manager {
             Citizen sibling;
             if (citizen.getFamily().getMother() != null) sibling = addChild(citizen.getFamily().getMother());
             else if (citizen.getFamily().getFather() != null) sibling = addChild(citizen.getFamily().getFather());
-            else throw new IllegalArgumentException("A family plan must include one or more parents to include siblings");
+            else
+                throw new IllegalArgumentException("A family plan must include one or more parents to include siblings");
             buildFamily(sibling, planFamily(sibling, siblingSide, false, true, true));
         }
 
@@ -251,9 +251,10 @@ public class FamilyManager extends Manager {
 
     /**
      * Add a new citizen as the given citizen's mother.
+     *
      * @param citizen Citizen for whom to add a mother.
-     * @throws IllegalArgumentException When the passed citizen already has a mother.
      * @return The new citizen who is the mother of the passed citizen.
+     * @throws IllegalArgumentException When the passed citizen already has a mother.
      */
     public @NotNull Citizen buildMother(@NotNull Citizen citizen) {
         requireState(ManagerState.ACTIVE);
@@ -263,9 +264,10 @@ public class FamilyManager extends Manager {
 
     /**
      * Add a new citizen as the given citizen's father.
+     *
      * @param citizen Citizen for whom to add a father.
-     * @throws IllegalArgumentException When the passed citizen already has a father.
      * @return The new citizen who is the father of the passed citizen.
+     * @throws IllegalArgumentException When the passed citizen already has a father.
      */
     public @NotNull Citizen buildFather(@NotNull Citizen citizen) {
         requireState(ManagerState.ACTIVE);
@@ -275,17 +277,21 @@ public class FamilyManager extends Manager {
 
     /**
      * Add a new citizen as a parent of the given sex for the given citizen.
+     *
      * @param citizen Citizen for whom to add a parent.
-     * @param sex Sex of the new parent.
-     * @throws IllegalArgumentException When there is an existing parent with conflicting sex.
+     * @param sex     Sex of the new parent.
      * @return The new citizen who is a parent for the passed citizen.
+     * @throws IllegalArgumentException When there is an existing parent with conflicting sex.
      */
     public @NotNull Citizen buildParent(@NotNull Citizen citizen, @NotNull Sex sex) {
         requireState(ManagerState.ACTIVE);
 
-        if (sex == Sex.FEMALE && citizen.getFamily().getMother() != null) throw new IllegalArgumentException("Citizen already has a mother");
-        if (sex == Sex.MALE && citizen.getFamily().getFather() != null) throw new IllegalArgumentException("Citizen already has a father");
-        if (citizen.getFamily().getParents().size() == 2) throw new IllegalArgumentException("Citizen already has two parents");
+        if (sex == Sex.FEMALE && citizen.getFamily().getMother() != null)
+            throw new IllegalArgumentException("Citizen already has a mother");
+        if (sex == Sex.MALE && citizen.getFamily().getFather() != null)
+            throw new IllegalArgumentException("Citizen already has a father");
+        if (citizen.getFamily().getParents().size() == 2)
+            throw new IllegalArgumentException("Citizen already has two parents");
 
         // Choose a birth year in generation range
         int generationGapYears = RandomUtils.nextInt(minGenerationGapYears, maxGenerationGapYears);
@@ -302,21 +308,18 @@ public class FamilyManager extends Manager {
 
         Family family = new Family(engine, null, null, null, Set.of(citizen));
 
-        CharacterManager.CitizenContext parentContext = new CharacterManager.CitizenContext(
-            engine, sex, parentDemographics, parentBirthday, family, null, null, null, null
-        );
+        CharacterManager.CitizenContext parentContext = new CharacterManager.CitizenContext(engine, sex, parentDemographics, parentBirthday, family, null, null, null, null);
 
         Citizen parent = engine.CHARACTER_MANAGER.buildCitizen(parentContext);
         switch (sex) {
-            case FEMALE :
+            case FEMALE:
                 citizen.getFamily().setMother(parent);
                 break;
             case MALE:
                 citizen.getFamily().setFather(parent);
                 break;
             case INTERSEX:
-                if (citizen.getFamily().getMother() == null)
-                    citizen.getFamily().setMother(parent);
+                if (citizen.getFamily().getMother() == null) citizen.getFamily().setMother(parent);
                 else citizen.getFamily().setFather(parent);
                 break;
         }
@@ -326,7 +329,8 @@ public class FamilyManager extends Manager {
     public @NotNull Citizen addChild(@NotNull Citizen citizen) {
         requireState(ManagerState.ACTIVE);
 
-        if (citizen.getAge() < 18) throw new IllegalArgumentException("Citizens must be 18 years old or older to have a child");
+        if (citizen.getAge() < 18)
+            throw new IllegalArgumentException("Citizens must be 18 years old or older to have a child");
 
         // Choose a birth year in generation range
         int generationGapYears = RandomUtils.nextInt(minGenerationGapYears, maxGenerationGapYears);
@@ -335,30 +339,26 @@ public class FamilyManager extends Manager {
         LocalDate childBirthday = citizen.getBirthday().plusYears(generationGapYears).plusDays(dayOffset);
 
         Bloc generationBloc = engine.DEMOGRAPHICS_MANAGER.getGenerationForBirthday(childBirthday);
-        Bloc presentationBloc = engine.DEMOGRAPHICS_MANAGER.selectBloc(
-            DemographicCategory.PRESENTATION, Set.of(citizen.getDemographics().getReligion(), citizen.getDemographics().getRaceEthnicity(), generationBloc)
-        );
+        Bloc presentationBloc = engine.DEMOGRAPHICS_MANAGER.selectBloc(DemographicCategory.PRESENTATION, Set.of(citizen.getDemographics().getReligion(), citizen.getDemographics().getRaceEthnicity(), generationBloc));
         Demographics childDemographics = new Demographics(engine, generationBloc, citizen.getDemographics().getReligion(), citizen.getDemographics().getRaceEthnicity(), presentationBloc);
 
-        boolean citizenIsMother = citizen.getSex() == Sex.FEMALE ||
-            (citizen.getFamily().getSpouse() != null && citizen.getFamily().getSpouse().getSex() == Sex.MALE) ||
-            (citizen.getSex() == Sex.INTERSEX && citizen.getDemographics().getPresentation().getName().equals("Female"));
+        boolean citizenIsMother = citizen.getSex() == Sex.FEMALE || (citizen.getFamily().getSpouse() != null && citizen.getFamily().getSpouse().getSex() == Sex.MALE) || (citizen.getSex() == Sex.INTERSEX && citizen.getDemographics().getPresentation().getName().equals("Female"));
         Family family = new Family(engine, citizenIsMother ? citizen : citizen.getFamily().getSpouse(), citizenIsMother ? citizen.getFamily().getSpouse() : citizen, null, new HashSet<>());
 
-        CharacterManager.CitizenContext childContext = new CharacterManager.CitizenContext(
-            engine, null, childDemographics, childBirthday, family, null, null, null, null
-        );
+        CharacterManager.CitizenContext childContext = new CharacterManager.CitizenContext(engine, null, childDemographics, childBirthday, family, null, null, null, null);
 
         Citizen child = engine.CHARACTER_MANAGER.buildCitizen(childContext);
         citizen.getFamily().getChildren().add(child);
-        if (citizen.getFamily().getSpouse() != null) citizen.getFamily().getSpouse().getFamily().getChildren().add(child);
+        if (citizen.getFamily().getSpouse() != null)
+            citizen.getFamily().getSpouse().getFamily().getChildren().add(child);
         return child;
     }
 
     public @NotNull Citizen addSpouse(@NotNull Citizen citizen) {
         requireState(ManagerState.ACTIVE);
 
-        if (citizen.getAge() < 18) throw new IllegalArgumentException("Citizens must be 18 years old or older to have a spouse");
+        if (citizen.getAge() < 18)
+            throw new IllegalArgumentException("Citizens must be 18 years old or older to have a spouse");
 
         Sex partnerSex = switch (citizen.getSex()) {
             case MALE -> RandomUtils.chance(mlmMarriagePercent) ? Sex.MALE : Sex.FEMALE;
@@ -368,16 +368,14 @@ public class FamilyManager extends Manager {
         if (RandomUtils.chance(CharacterManager.intersexPercentage)) partnerSex = Sex.INTERSEX;
 
         // Choose a birth year
-        int ageGapYears = RandomUtils.nextInt(-maxSpouseAgeGapYears/2, maxSpouseAgeGapYears/2);
+        int ageGapYears = RandomUtils.nextInt(-maxSpouseAgeGapYears / 2, maxSpouseAgeGapYears / 2);
         // Choose a random date in the year following that date
         int dayOffset = RandomUtils.nextInt(0, TimeUtils.daysInYear);
         LocalDate spouseBirthday = citizen.getBirthday().plusYears(ageGapYears).plusDays(dayOffset);
 
         Family family = new Family(engine, null, null, citizen, new HashSet<>());
 
-        CharacterManager.CitizenContext spouseContext = new CharacterManager.CitizenContext(
-            engine, partnerSex, null, spouseBirthday, family, null, null, null, citizen.getResidence()
-        );
+        CharacterManager.CitizenContext spouseContext = new CharacterManager.CitizenContext(engine, partnerSex, null, spouseBirthday, family, null, null, null, citizen.getResidence());
 
         Citizen spouse = engine.CHARACTER_MANAGER.buildCitizen(spouseContext);
         citizen.getFamily().setSpouse(spouse);
@@ -390,4 +388,5 @@ public class FamilyManager extends Manager {
         if (familySize > 48) familySize = 48;
         return familySize;
     }
+
 }

@@ -50,8 +50,11 @@ class CensusDivision(
 
     override fun fromJson(json: JSONObject) = this.apply {
         super.fromJson(json)
-        val _censusRegion = engine.MAP_MANAGER.matchCensusRegion(json.requireString("censusRegion"))
+        val _censusRegion =
+            engine.getManager(CensusRegionManager::class.java).matchByKey(json.requireString("censusRegion"))
         if (_censusRegion.isPresent) censusRegion = _censusRegion.get()
-        states = json.findArray("states") { emptyList<String>() }!!.map { engine.MAP_MANAGER.matchStateEquivalent(it as String) }.filter { it.isPresent }.map { it.get() }.toSet()
+        states = json.findArray("states") { emptyList<String>() }!!
+            .map { engine.getManager(StateEquivalentManager::class.java).matchStateEquivalent(it as String) }
+            .filter { it.isPresent }.map { it.get() }.toSet()
     }
 }

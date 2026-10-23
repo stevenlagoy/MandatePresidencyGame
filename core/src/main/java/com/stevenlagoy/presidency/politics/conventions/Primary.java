@@ -5,9 +5,11 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
-public record Primary(@NotNull List<Primary> instances, boolean isClosed, @NotNull Party associatedParty) implements Convention {
+public record Primary(@NotNull List<Primary> instances, boolean isClosed,
+                      @NotNull Party associatedParty) implements Convention {
 
-    public void convene(){
+    public void convene() {
         // TODO
     }
+
 }

@@ -13,10 +13,14 @@ abstract class Asset(
     val depreciationPerAnnum: Double? = null,
     val depreciationPeriod: Period? = null,
 ) : JSONSerializable<Asset> {
-    var nextDepreciationDate: LocalDate? = if (depreciationPeriod == null) null else timeManager.currentDate.toLocalDate().plus(depreciationPeriod)
+    var nextDepreciationDate: LocalDate? =
+        if (depreciationPeriod == null) null else timeManager.currentDate.toLocalDate().plus(depreciationPeriod)
         private set
 
-    val deprecationPerPeriod: Double? = if (depreciationPerAnnum == null || depreciationPeriod == null) null else depreciationPerAnnum * (Period.ofYears(1).toTotalMonths() / depreciationPeriod.toTotalMonths()).toDouble()
+    val deprecationPerPeriod: Double? =
+        if (depreciationPerAnnum == null || depreciationPeriod == null) null else depreciationPerAnnum * (Period.ofYears(
+            1
+        ).toTotalMonths() / depreciationPeriod.toTotalMonths()).toDouble()
 
     var bookValue = bookValue
         get() = depreciateBookValue()

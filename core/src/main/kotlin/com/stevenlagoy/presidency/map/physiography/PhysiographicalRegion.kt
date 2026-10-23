@@ -6,5 +6,4 @@ import com.stevenlagoy.presidency.map.entities.MapEntity
 class PhysiographicalRegion(
     engine: Engine,
     name: String
-) : MapEntity(engine, name) {
-}
+) : MapEntity(engine, name)

@@ -7,7 +7,6 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.PerspectiveCamera;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.VertexAttributes;
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g3d.*;
 import com.badlogic.gdx.graphics.g3d.attributes.ColorAttribute;
 import com.badlogic.gdx.graphics.g3d.attributes.TextureAttribute;
@@ -31,7 +30,7 @@ public class MapScreen extends BaseScreen {
     private ModelBatch modelBatch;
     private Model groundModel;
     private ModelInstance groundInstance;
-    private Texture  groundTexture;
+    private Texture groundTexture;
     private MapCameraController cameraController;
 
     public MapScreen(GameRoot game) {
@@ -43,11 +42,7 @@ public class MapScreen extends BaseScreen {
         setupCamera();
         setupScene();
 
-        cameraController = new MapCameraController(
-            camera,
-            new Vector3(0, 0, 0),
-            0f, 45f, 150f
-        );
+        cameraController = new MapCameraController(camera, new Vector3(0, 0, 0), 0f, 45f, 150f);
 
         TextButton resetButton = new TextButton("Reset View", skin);
         resetButton.addListener(new ClickListener() {
@@ -79,24 +74,16 @@ public class MapScreen extends BaseScreen {
         groundTexture.setFilter(Texture.TextureFilter.Linear, Texture.TextureFilter.Linear);
 
         Material material = new Material(TextureAttribute.createDiffuse(groundTexture));
-//        Material material = new Material(ColorAttribute.createDiffuse(0f, 1f, 0f, 1f)); // Green
+        //        Material material = new Material(ColorAttribute.createDiffuse(0f, 1f, 0f, 1f)); // Green
 
         ModelBuilder modelBuilder = new ModelBuilder();
-        groundModel = modelBuilder.createRect(
-            -PLANE_WIDTH, 0, -PLANE_HEIGHT,
-            -PLANE_WIDTH, 0,  PLANE_HEIGHT,
-             PLANE_WIDTH, 0,  PLANE_HEIGHT,
-             PLANE_WIDTH, 0,  -PLANE_HEIGHT,
-            0, 1, 0,
-            material,
-            VertexAttributes.Usage.Position | VertexAttributes.Usage.Normal
-        );
+        groundModel = modelBuilder.createRect(-PLANE_WIDTH, 0, -PLANE_HEIGHT, -PLANE_WIDTH, 0, PLANE_HEIGHT, PLANE_WIDTH, 0, PLANE_HEIGHT, PLANE_WIDTH, 0, -PLANE_HEIGHT, 0, 1, 0, material, VertexAttributes.Usage.Position | VertexAttributes.Usage.Normal);
         groundInstance = new ModelInstance(groundModel);
     }
 
     @Override
     protected InputProcessor getInputProcessor() {
-        InputMultiplexer multiplexer = new  InputMultiplexer();
+        InputMultiplexer multiplexer = new InputMultiplexer();
         multiplexer.addProcessor(stage);
         multiplexer.addProcessor(cameraController);
         return multiplexer;
@@ -125,4 +112,5 @@ public class MapScreen extends BaseScreen {
         groundModel.dispose();
         groundTexture.dispose();
     }
+
 }

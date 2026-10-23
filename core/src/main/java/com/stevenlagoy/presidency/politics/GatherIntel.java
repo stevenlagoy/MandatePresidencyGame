@@ -1,10 +1,12 @@
 package com.stevenlagoy.presidency.politics;
 
-import java.util.ArrayList;
-import java.util.List;
 import com.stevenlagoy.presidency.characters.Citizen;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class GatherIntel extends Operation {
+
     public static List<Operation> instances = new ArrayList<>();
 
     private int aggressiveness;
@@ -43,4 +45,5 @@ public class GatherIntel extends Operation {
     public void setSecrecy(int secrecy) {
         this.secrecy = secrecy;
     }
+
 }

@@ -1,8 +1,8 @@
 package com.stevenlagoy.presidency.politics.government
 
 import com.stevenlagoy.jsonic.JSONObject
-import com.stevenlagoy.presidency.politics.elections.Election
 import com.stevenlagoy.presidency.politics.Party
+import com.stevenlagoy.presidency.politics.elections.Election
 
 class LegislativeBranch(
     val title: String = "",
@@ -17,19 +17,23 @@ class LegislativeBranch(
 
     override val partyControlFactors: Set<(party: Party) -> Double> = setOf(
         // Each chamber
-        { party -> 0.8 *
-            (chambers.fold(0.0) { acc, it -> acc + it.getPartyControl(party) } / chambers.size)
+        { party ->
+            0.8 *
+                (chambers.fold(0.0) { acc, it -> acc + it.getPartyControl(party) } / chambers.size)
         },
         // Bonus for upper chamber
-        { party -> 0.2 *
-            (upperChamber?.getPartyControl(party) ?: 0.0)
+        { party ->
+            0.2 *
+                (upperChamber?.getPartyControl(party) ?: 0.0)
         }
     )
 
-    override fun toJson() = JSONObject(title, mapOf(
-        "title" to title,
-        "chambers" to chambers.map { it.toJson() },
-    ))
+    override fun toJson() = JSONObject(
+        title, mapOf(
+            "title" to title,
+            "chambers" to chambers.map { it.toJson() },
+        )
+    )
 
     override fun fromJson(json: JSONObject) = this.apply {
 
