@@ -1,0 +1,139 @@
+{
+    "Nation Now" : {
+        "name" : "Nation Now",
+        "focus" : "government and politics",
+        "headquarters" : "New York City, New York",
+        "alignment" : "far left"
+    },
+    "Humana" : {
+        "name" : "Humana",
+        "focus" : "policy and culture",
+        "headquarters" : "New York City, New York",
+        "alignment" : "left"
+    },
+    "Pop!" : {
+        "name" : "Pop!",
+        "focus" : "culture",
+        "headquarters" : "New York City, New York",
+        "alignment" : "left"
+    },
+    "New York Record" : {
+        "name" : "New York Record",
+        "abbreviation" : "NYR",
+        "focus" : "general, politics",
+        "headquarters" : "New York City, New York",
+        "alignment" : "left"
+    },
+    "San Francisco Times" : {
+        "name" : "San Francisco Times",
+        "abbreviation" : "SF Times",
+        "focus" : "general, politics",
+        "headquarters" : "San Francisco, California",
+        "alignment" : "moderate left"
+    },
+    "National Citizen Radio" : {
+        "name" : "National Citizen Radio",
+        "abbreviation" : "NCR",
+        "medium" : "radio",
+        "focus" : "government",
+        "headquarters" : "Washington, District of Columbia",
+        "alignment" : "moderate left"
+    },
+    "Cascadia Radio" : {
+        "name" : "Cascadia Radio",
+        "headquarters" : "Seattle, Washington",
+        "medium" : "radio",
+        "focus" : "politics",
+        "alignment" : "moderate left"
+    },
+    "American News Network" : {
+        "name" : "American News Network",
+        "abbreviaiton" : "ANN",
+        "preferAbbreviation" : true,
+        "focus" : "general",
+        "headquarters" : "Atlanta, Georgia",
+        "alignment" : "moderate left"
+    },
+    "Daily Sun Chicago" : {
+        "name" : "Daily Sun Chicago",
+        "focus" : "investigative journalism",
+        "headquarters" : "Chicago",
+        "alignment" : "center"
+    },
+    "Liberty Broadcasting System" : {
+        "name" : "Liberty Broadcasting System",
+        "abbreviation" : "LBS",
+        "preferAbbreviation" : true,
+        "headquarters" : "Manhattan, New York"
+    },
+    "Eras" : {
+        "name" : "Eras",
+        "focus" : "celebrity",
+        "alignment" : "center",
+        "headquarters" : "New York City, New York"
+    },
+    "ResGeneral" : {
+        "name" : "ResGeneral",
+        "headquarters" : "Arlington, Virginia",
+        "focus" : "nonpartisan politics and policy, fact-checking",
+        "alignment" : "center"
+    },
+    "Associated Press" : {
+        "name" : "The Associated Press",
+        "abbreviation" : "AP",
+        "focus" : "objective government",
+        "headquarters" : "New York City, New York",
+        "alignment" : "independent"
+    },
+    "BisNews" : {
+        "name" : "BisNews",
+        "focus" : "business and economics",
+        "headquarters" : "Jersey City, New Jersey",
+        "alignment" : "center"
+    },
+    "Wall Street Ledger" : {
+        "name" : "Wall Street Ledger",
+        "abbreviation" : "WSL",
+        "focus" : "business, policy",
+        "alignment" : "moderate right",
+        "headquarters" : "New York City, New York"
+    },
+    "Christian Times" : {
+        "name" : "Christian Times",
+        "focus" : "religion",
+        "alignment" : "moderate right",
+        "headquarters" : "Springfield, Illinois"
+    },
+    "Boston Shouter" : {
+        "name" : "Boston Shouter",
+        "alignment" : "right",
+        "headquarters" : "Boston, Massachusetts",
+        "focus" : "politics and culture"
+    },
+    "Defense Group Times" : {
+        "name" : "Defense Group Times",
+        "alignment" : "right",
+        "focus" : "military",
+        "headquarters" : "Alexandria, Virginia"
+    },
+    "Wolf News Channel" : {
+        "name" : "Wolf News Channel",
+        "abbreviation" : "Wolf",
+        "preferAbbreviation" : true,
+        "alignment" : "right",
+        "headquarters" : "New York City, New York"
+    },
+    "Philadelphia Post" : {
+        "name" : "Philadelphia Post",
+        "alignment" : "right",
+        "headquarters" : "Philadelphia, Pennsylvania",
+        "focus" : "politics, culture"
+    },
+    "Axle USA" : {
+        "name" : "Axle USA",
+        "abbreviation" : "AUSA",
+        "headquarters" : "Phoenix, Arizona",
+        "alignment" : "far right",
+        "focus" : "politics and government"
+    }
+}

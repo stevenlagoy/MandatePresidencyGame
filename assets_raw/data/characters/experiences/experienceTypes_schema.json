@@ -1,0 +1,90 @@
+{
+    "root" : {
+        "type" : "object",
+        "required_keys" : {},
+        "optional_keys": {},
+        "aliases" : [],
+        "keys_format" : "*",
+        "keys" : {
+            "*": {
+                "type": "object",
+                "keys": {
+                    "name" : {
+                        "required": true,
+                        "type" : "string",
+                        "format": "*"
+                    },
+                    "track" : {
+                        "required": true,
+                        "type": "string",
+                        "possible_values": ["academic"]
+                    },
+                    "tenure_years" : {
+                        "required": true,
+                        "type": "object",
+                        "keys": {
+                            "min": {
+                                "type": "integer",
+                                "min": 0,
+                                "max": 120,
+                                "aliases": [
+                                    "minimum",
+                                    "min_tenure",
+                                    "minTenure",
+                                    "minimum_tenure",
+                                    "minimumTenure",
+                                    "min_tenure_years",
+                                    "minTenureYears",
+                                    "minimum_tenure_years",
+                                    "minimumTenureYears"
+                                ]
+                            },
+                            "avg": {
+                                "type": "integer",
+                                "min": 0,
+                                "max": 120,
+                                "aliases": [
+                                    "average",
+                                    "avg_tenure",
+                                    "avgTenure",
+                                    "average_tenure",
+                                    "averageTenure",
+                                    "avg_tenure_years",
+                                    "avgTenureYears",
+                                    "average_tenure_years",
+                                    "averageTenureYears"
+                                ]
+                            },
+                            "max": {
+                                "type": "integer",
+                                "min": 0,
+                                "max": 120,
+                                "aliases": [
+                                    "maximum",
+                                    "max_tenure",
+                                    "maxTenure",
+                                    "maximum_tenure",
+                                    "maximumTenure",
+                                    "max_tenure_years",
+                                    "maxTenureYears",
+                                    "maximum_tenure_years",
+                                    "maximumTenureYears"
+                                ]
+                            }
+                        }
+                    },
+                    "min_age" : {},
+                    "max_age" : {},
+                    "description": {}
+                },
+                "optional_keys": [],
+                "aliases": {
+                    "tenure_years": ["tenureYears", "tenure"],
+                    "min_age": ["minAge", "minimum_age", "minimumAge"],
+                    "max_age": ["maxAge", "maximum_age", "maximumAge"]
+                },
+                ""
+            }
+        }
+    }
+}
