@@ -8,6 +8,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.*;
+import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 import java.util.function.ToDoubleFunction;
@@ -130,6 +131,30 @@ public abstract class EntityManager<T, K> extends Manager implements Iterable<T>
 
     public @NotNull Optional<T> matchByKey(@NotNull K key) {
         return Optional.ofNullable(index.get(key));
+    }
+
+    /**
+     * Find a registered entity by comparing its key with a target key.
+     * @param key Target key for the desired entity
+     * @param keyTransformer Transformer which is applied to the target key and each entity's key for comparison
+     * @return Optional of a registered entity with a key matching the target key, after keyTransformer
+     *         is applied to each, or emtpy if no such entity is found.
+     */
+    public @NotNull Optional<T> matchByKey(@NotNull K key, @NotNull Function<K, K> keyTransformer) {
+        for (T entity : entities) {
+            if (keyTransformer.apply(key).equals(keyTransformer.apply(keyOf(entity)))) {
+                return Optional.ofNullable(index.get(key));
+            }
+        }
+        return Optional.empty();
+    }
+
+    public @NotNull T requireByKey(@NotNull K key) throws MatchingException {
+        return requireByKey(key, () -> "Failed to find a required object with key: " + key);
+    }
+
+    public @NotNull T requireByKey(@NotNull K key, @NotNull Supplier<String> failureMessageSupplier) throws MatchingException {
+        return Optional.ofNullable(index.get(key)).orElseThrow(() -> new MatchingException(failureMessageSupplier.get(), () -> matchByKey(key)));
     }
 
     public @NotNull Set<T> matchWhere(@NotNull Predicate<T> predicate) {
