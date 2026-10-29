@@ -390,8 +390,7 @@ private fun String.comparables(): List<String> = listOf(
     this.remove(Regex("""[^a-zA-Z]""")), // Remove everything except letters
     this.remove(Regex("""[^a-zA-Z]""")).lowercase(),
     this.lowercase().applySpecialReplacements(), // Special replacements (contractions, abbreviations, etc)
-    this.lowercase().applySpecialReplacements()
-        .remove(Regex("""\W""")), // Special replacements and remove non-word characters
+    this.lowercase().applySpecialReplacements().remove(Regex("""\W""")), // Special replacements and remove non-word characters
 ).distinct()
 
 /**

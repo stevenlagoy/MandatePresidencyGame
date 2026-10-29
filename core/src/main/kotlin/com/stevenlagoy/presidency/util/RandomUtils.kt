@@ -2,10 +2,13 @@
 
 package com.stevenlagoy.presidency.util
 
+import kotlin.math.PI
 import kotlin.math.exp
 import kotlin.math.ln
 import kotlin.math.max
+import kotlin.math.pow
 import kotlin.math.sin
+import kotlin.math.sqrt
 import kotlin.random.Random
 
 fun Random.chance(chance: Double): Boolean {
@@ -163,6 +166,8 @@ fun skewedDistribution(average: Double, min: Double = 0.0, max: Double = 1.0): (
     }
 }
 
+typealias PDF = (Double) -> Double
+
 /**
  * Sample a value from the given probability density function over [min, max] using rejection sampling.
  * The PDF does not need to be normalized, but does need to be non-negative with [PDFMax] as an upper bound on its output over the domain.
@@ -173,7 +178,7 @@ fun skewedDistribution(average: Double, min: Double = 0.0, max: Double = 1.0): (
  * @param PDFMax Upper bound on the PDF's output. Defaults to 1.0 for normalized peaks (as given by [skewedDistribution]).
  */
 fun Random.samplePDF(
-    PDF: (Double) -> Double,
+    PDF: PDF,
     min: Double,
     max: Double,
     PDFMax: Double = 1.0,
@@ -188,29 +193,83 @@ fun Random.samplePDF(
 @JvmOverloads
 @JvmName("randSamplePDF")
 fun samplePDF(
-    PDF: (Double) -> Double,
+    PDF: PDF,
     min: Double,
     max: Double,
     PDFMax: Double = 1.0,
     random: Random = Random.Default
 ) = random.samplePDF(PDF, min, max, PDFMax)
 
+@JvmOverloads
+fun normalPDF(mean: Double = 0.0, stdDev: Double = 1.0): PDF {
+    return { x: Double ->
+        val variance = stdDev.pow(2)
+        val coefficient = 1.0 / (stdDev * sqrt(2.0 * PI * variance))
+        val exponent = -((x - mean).pow(2)) / (2.0 * variance)
+        coefficient * exp(exponent)
+    }
+}
 
+fun continuousUniformPDF(a: Double, b: Double): PDF {
+    return continuousUniformPDF(a..b)
+}
 
+fun continuousUniformPDF(range: ClosedRange<Double>): (Double) -> Double {
+    return { x: Double ->
+        val height = 1.0 / (range.endInclusive - range.start)
+        if (x in range) height else 0.0
+    }
+}
 
+fun exponentialPDF(rate: Double): PDF {
+    return { x: Double ->
+        rate * exp(-rate * x)
+    }
+}
 
+@JvmOverloads
+fun lognormalPDF(mean: Double = 0.0, stdDev: Double = 1.0): PDF {
+    return { x: Double ->
+        val exponent = -(ln(x) - mean).pow(2) / (2.0 * stdDev.pow(2))
+        val denominator = x * stdDev * sqrt(2.0 * PI)
+        max(exp(exponent) / denominator, 0.0)
+    }
+}
 
+/**
+ * Lanczos approximation for the Log-Gamma function ln(Γ(x)).
+ */
+fun logGamma(x: Double): Double {
+    if (x < 0.5) {
+        return ln(PI) - ln(sin(PI * x)) - logGamma(1.0 - x)
+    }
+    val coefficients = doubleArrayOf(
+        0.9999999999998099, 676.5203681218851, -1259.1392167224028,
+        771.3234287776531, -176.6150291621406, 12.507343278686905,
+        -0.13857109526572012, 9.984369578019572E-6, 1.5056327351493116e-7
+    )
+    val g = 7.0
+    var sum = coefficients[0]
+    for (i in 1 until coefficients.size) {
+        sum += coefficients[i] / (x + i - 1)
+    }
+    val t = x + g - 0.5
+    return 0.5 * ln(2.0 * PI) + (x - 0.5) * ln(t) - t + ln(sum)
+}
 
+fun betaPDF(alpha: Double, beta: Double): PDF {
+    return { x: Double ->
+        val logNormalizingConstant = logGamma(alpha + beta) - (logGamma(alpha) + logGamma(beta))
+        val logKernel = (alpha - 1.0) * ln(x) + (beta - 1.0) * ln(1.0 - x)
+        max(exp(logNormalizingConstant + logKernel), 0.0)
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+fun triangularPDF(min: Double, avg: Double, max: Double): PDF {
+    return { x: Double -> when (x) {
+        !in min..max -> 0.0
+        min if x == avg -> 2.0 / (max - min) // Edge case where min and x are avg
+        in min..avg -> (2.0 * (x - min)) / ((max - min) * (avg - min))
+        else -> (2.0 * (max - x)) / ((max - min) * (max - avg))
+    }}
+}
