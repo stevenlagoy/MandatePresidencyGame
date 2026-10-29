@@ -135,7 +135,7 @@ public abstract class Manager extends EngineBound implements JSONSerializable<Ma
      * Create a new root manager (Engine).
      */
     @SuppressWarnings("all")
-    protected Manager() {this(null, null);} // Only called by the root manager component (Engine).
+    protected Manager() { this(null, null); } // Only called by the root manager component (Engine).
 
     /**
      * Create a new Manager with the given Engine as the driving engine and direct super manager.
