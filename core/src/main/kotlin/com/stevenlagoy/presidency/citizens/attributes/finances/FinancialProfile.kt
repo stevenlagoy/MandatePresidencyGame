@@ -23,10 +23,12 @@ class FinancialProfile(
         BalanceSheet(engine, json.requireJson("balance_sheet"))
     )
 
-    override fun toJson() = JSONObject(hashCode().toString(), listOf(
-        JSONObject("cashAccount", cashAccount.toJson()),
-        JSONObject("balanceSheet", balanceSheet.toJson())
-    ))
+    override fun toJson() = JSONObject(
+        hashCode().toString(), listOf(
+            JSONObject("cashAccount", cashAccount.toJson()),
+            JSONObject("balanceSheet", balanceSheet.toJson())
+        )
+    )
 
     override fun fromJson(json: JSONObject) = this.apply {
 

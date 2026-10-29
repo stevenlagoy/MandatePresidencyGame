@@ -75,7 +75,7 @@ public class PartyManager extends Manager {
     }
 
     public @NotNull Optional<PartyGoverningBody> matchPartyGoverningBody(@NotNull String bodyName) {
-        return partyGoverningBodies.stream().filter(body ->  body.getName().equals(bodyName)).findFirst();
+        return partyGoverningBodies.stream().filter(body -> body.getName().equals(bodyName)).findFirst();
     }
 
 }

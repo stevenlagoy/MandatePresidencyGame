@@ -19,16 +19,19 @@ class ExecutiveBranch(
 
     override val partyControlFactors: Set<(party: Party) -> Double> = setOf(
         // Each executive
-        { party -> 0.5 *
-            (executives.count { it.partyAffiliation == party }.toDouble() / executives.size)
+        { party ->
+            0.5 *
+                (executives.count { it.partyAffiliation == party }.toDouble() / executives.size)
         },
         // Bonus for chief executive
-        { party -> 0.4 *
-            (if (chiefExecutive?.partyAffiliation == party) 1.0 else 0.0)
+        { party ->
+            0.4 *
+                (if (chiefExecutive?.partyAffiliation == party) 1.0 else 0.0)
         },
         // Bonus for deputy executive
-        { party -> 0.1 *
-            (if (deputyExecutive?.partyAffiliation == party) 1.0 else 0.0)
+        { party ->
+            0.1 *
+                (if (deputyExecutive?.partyAffiliation == party) 1.0 else 0.0)
         },
     )
 

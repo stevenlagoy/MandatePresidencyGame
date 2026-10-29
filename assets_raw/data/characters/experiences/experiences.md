@@ -16,6 +16,9 @@ should describe a specific experience or a small category of similar experiences
 include data which is used to determine when a character might have the experience and for how
 long, as well as the impacts this has on the character.
 
+For experiences with prerequisites, the prerequisites must be listed in the file before the experience which
+depends on them. I.E. if A has prerequisite B, then B's data must come before A's in the file.
+
 ### Format
 
 "id" : {<br>

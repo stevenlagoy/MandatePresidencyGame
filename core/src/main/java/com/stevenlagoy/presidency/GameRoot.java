@@ -52,7 +52,7 @@ public class GameRoot extends Game {
     }
 
     private void loadCoreAssets() {
-        assets.load("uiskin.atlas",  TextureAtlas.class);
+        assets.load("uiskin.atlas", TextureAtlas.class);
         assets.load("uiskin.json", Skin.class);
         assets.finishLoading(); // Switch to LoadingScreen + assets.update() later
     }

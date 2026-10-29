@@ -2,7 +2,7 @@ package com.stevenlagoy.presidency.citizens
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.citizens.attributes.*
-import com.stevenlagoy.presidency.citizens.attributes.experiences.ExperienceHistory
+import com.stevenlagoy.presidency.citizens.attributes.experiences.PersonalExperienceHistory
 import com.stevenlagoy.presidency.citizens.attributes.finances.FinancialProfile
 import com.stevenlagoy.presidency.citizens.attributes.names.PersonalName
 import com.stevenlagoy.presidency.core.Engine
@@ -29,7 +29,7 @@ open class PoliticalActor(
     location: Place,
     residence: Place,
     financialProfile: FinancialProfile?,
-    val experiences: ExperienceHistory,
+    val experiences: PersonalExperienceHistory,
     val skills: Skills,
     val personality: Personality,
     var alignment: PoliticalAlignment,
@@ -64,10 +64,15 @@ open class PoliticalActor(
     override fun fromJson(json: JSONObject) = this.apply {
         super.fromJson(json)
         alignment.fromJson(json.requireJson("alignment") as JSONObject)
-        partyAffiliation = engine.POLITICS_MANAGER.PARTY_MANAGER.matchParty(json.requireString("partyAffiliation", "party_affiliation_id")).get()
+        partyAffiliation = engine.POLITICS_MANAGER.PARTY_MANAGER.matchParty(
+            json.requireString(
+                "partyAffiliation",
+                "party_affiliation_id"
+            )
+        ).get()
         skills.fromJson(json.requireJson("skills"))
         personality.fromJson(json.requireJson("personality"))
-        ExperienceHistory(engine, json.requireJson("experiences"))
+        PersonalExperienceHistory(engine, json.requireJson("experiences"))
         issuePositions.fromJson(json.requireJson("issuePositions", "positions", "issue_positions"))
         candidacy = Candidacy(engine, json.requireJson("candidacy"))
     }

@@ -36,7 +36,7 @@ public class RouteManager extends Manager {
     // Manager Methods
 
     @Override
-    @Contract(pure = true)
+    @Contract(pure=true)
     public @NotNull List<Manager> getSubManagers() {
         return List.of(
             AIRPORT_MANAGER,

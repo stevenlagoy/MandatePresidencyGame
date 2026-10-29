@@ -1,10 +1,6 @@
 package com.stevenlagoy.presidency.map
 
-import java.io.BufferedInputStream
-import java.io.DataInputStream
-import java.io.File
-import java.io.FileInputStream
-import java.io.RandomAccessFile
+import java.io.*
 
 /**
  * Lightweight region descriptor loaded from a compiled .bin file.
@@ -28,7 +24,7 @@ data class RegionData(
     val runOffset: Long,
     val runCount: Int,
 ) {
-    val boundingWidth:  Int get() = maxX - minX + 1
+    val boundingWidth: Int get() = maxX - minX + 1
     val boundingHeight: Int get() = maxY - minY + 1
 }
 
@@ -59,10 +55,10 @@ class MapIndex private constructor(
     private val sourceFile: File,
 ) {
     private val byColor: Map<Int, RegionData> = regions.associateBy { it.color }
-    private val byId: Map<Int, RegionData>    = regions.associateBy { it.id }
+    private val byId: Map<Int, RegionData> = regions.associateBy { it.id }
 
     fun regionByColor(argb: Int): RegionData? = byColor[argb]
-    fun regionById(id: Int): RegionData?      = byId[id]
+    fun regionById(id: Int): RegionData? = byId[id]
 
     /**
      * Loads and returns the pixel runs for [region] from disk.
@@ -75,9 +71,9 @@ class MapIndex private constructor(
         RandomAccessFile(sourceFile, "r").use { raf ->
             raf.seek(runSectionOffset + region.runOffset)
             return List(region.runCount) {
-                val row      = raf.readInt()
+                val row = raf.readInt()
                 val colStart = raf.readInt()
-                val length   = raf.readShort().toInt()
+                val length = raf.readShort().toInt()
                 raf.readShort() // padding
                 PixelRun(row, colStart, length)
             }
@@ -85,10 +81,10 @@ class MapIndex private constructor(
     }
 
     companion object {
-        private const val MAGIC          = "MMAP"
-        private const val SUPPORTED_VER  = 1
-        private const val HEADER_BYTES   = 19   // 4+2+1+4+4+4
-        private const val TABLE_ENTRY_B  = 48   // matches BinaryWriter
+        private const val MAGIC = "MMAP"
+        private const val SUPPORTED_VER = 1
+        private const val HEADER_BYTES = 19   // 4+2+1+4+4+4
+        private const val TABLE_ENTRY_B = 48   // matches BinaryWriter
 
         /**
          * Loads the header and region table from [file].
@@ -107,38 +103,38 @@ class MapIndex private constructor(
                     "Unsupported MMAP version $version in $file (expected $SUPPORTED_VER)"
                 }
 
-                val layerId      = din.readByte().toInt()
-                val imageWidth   = din.readInt()
-                val imageHeight  = din.readInt()
-                val regionCount  = din.readInt()
+                val layerId = din.readByte().toInt()
+                val imageWidth = din.readInt()
+                val imageHeight = din.readInt()
+                val regionCount = din.readInt()
 
                 // Region table
                 val regions = ArrayList<RegionData>(regionCount)
                 repeat(regionCount) {
                     regions += RegionData(
-                        id          = din.readInt(),
-                        color       = din.readInt(),
-                        minX        = din.readInt(),
-                        minY        = din.readInt(),
-                        maxX        = din.readInt(),
-                        maxY        = din.readInt(),
-                        centroidX   = din.readFloat(),
-                        centroidY   = din.readFloat(),
-                        pixelCount  = din.readLong(),
-                        runOffset   = din.readLong(),
-                        runCount    = din.readInt(),
+                        id = din.readInt(),
+                        color = din.readInt(),
+                        minX = din.readInt(),
+                        minY = din.readInt(),
+                        maxX = din.readInt(),
+                        maxY = din.readInt(),
+                        centroidX = din.readFloat(),
+                        centroidY = din.readFloat(),
+                        pixelCount = din.readLong(),
+                        runOffset = din.readLong(),
+                        runCount = din.readInt(),
                     )
                 }
 
                 val runSectionOffset = HEADER_BYTES.toLong() + regionCount.toLong() * TABLE_ENTRY_B
 
                 return MapIndex(
-                    imageWidth       = imageWidth,
-                    imageHeight      = imageHeight,
-                    layerId          = layerId,
-                    regions          = regions,
+                    imageWidth = imageWidth,
+                    imageHeight = imageHeight,
+                    layerId = layerId,
+                    regions = regions,
                     runSectionOffset = runSectionOffset,
-                    sourceFile       = file,
+                    sourceFile = file,
                 )
             }
         }

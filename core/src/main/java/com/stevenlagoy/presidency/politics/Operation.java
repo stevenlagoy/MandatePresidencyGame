@@ -5,6 +5,7 @@ import com.stevenlagoy.presidency.citizens.Citizen;
 import java.util.*;
 
 public class Operation {
+
     public static List<Operation> instances = new ArrayList<>();
 
     private Citizen operator;
@@ -44,4 +45,5 @@ public class Operation {
     public void resetAgents() {
         this.agents.clear();
     }
+
 }

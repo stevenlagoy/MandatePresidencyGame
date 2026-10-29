@@ -7,13 +7,15 @@ import com.stevenlagoy.presidency.citizens.attributes.finances.CashAccount
 import com.stevenlagoy.presidency.economy.FinancialEntity
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
+import com.stevenlagoy.presidency.map.HasGovernment
 import com.stevenlagoy.presidency.map.HasPartyPresence
-import com.stevenlagoy.presidency.politics.elections.Election
 import com.stevenlagoy.presidency.politics.Party
+import com.stevenlagoy.presidency.politics.elections.Election
 
 class Government(
     engine: Engine,
     val name: String = "",
+    private val _constituency: HasGovernment? = null,
     val executiveBranch: ExecutiveBranch = ExecutiveBranch(),
     val legislativeBranch: LegislativeBranch = LegislativeBranch(),
     val judicialBranch: JudicialBranch = JudicialBranch(),
@@ -33,21 +35,31 @@ class Government(
         // Judicial branch
         { party -> 0.1 * judicialBranch.getPartyControl(party) },
         // Trifecta
-        { party -> 0.25 * (
-            if (executiveBranch.getPartyInControl() == party && legislativeBranch.chambers.all { it.isPartyMajority(party) }) 1.0 else 0.0
-        )},
+        { party ->
+            0.25 * (
+                if (executiveBranch.getPartyInControl() == party && legislativeBranch.chambers.all {
+                        it.isPartyMajority(
+                            party
+                        )
+                    }) 1.0 else 0.0
+                )
+        },
     )
+
+    val constituency: HasGovernment get() = _constituency!!
 
     constructor(engine: Engine, json: JSONObject) : this(engine) {
         fromJson(json)
     }
 
-    override fun toJson() = JSONObject(name, listOf(
-        JSONObject("title", name),
-        JSONObject("executiveBranch", executiveBranch.toJson()),
-        JSONObject("legislativeBranch", legislativeBranch.toJson()),
-        JSONObject("judicialBranch", judicialBranch.toJson()),
-    ))
+    override fun toJson() = JSONObject(
+        name, listOf(
+            JSONObject("title", name),
+            JSONObject("executiveBranch", executiveBranch.toJson()),
+            JSONObject("legislativeBranch", legislativeBranch.toJson()),
+            JSONObject("judicialBranch", judicialBranch.toJson()),
+        )
+    )
 
     override fun fromJson(json: JSONObject) = apply {
 

@@ -8,11 +8,11 @@ sealed class VotingMethod {
 
     fun fromJson(json: JSONObject) = when (json.requireString("votingMethod".lowercase())) {
         "primary" -> Primary()
-        "caucus"  -> Caucus()
-        else      -> Primary()
+        "caucus" -> Caucus()
+        else -> Primary()
     }
 
     class Primary : VotingMethod()
 
-    class Caucus: VotingMethod()
+    class Caucus : VotingMethod()
 }

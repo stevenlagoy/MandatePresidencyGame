@@ -18,16 +18,18 @@ class GovernmentPosition(
     var holder: PoliticalActor? = null,
 ) : JSONSerializable<GovernmentPosition>, EngineBound(engine) {
 
-    override fun toJson() = JSONObject(title, listOf(
-        JSONObject("name", title),
-        JSONObject("constituency", constituency.name),
-        JSONObject("federalLevel", federalLevel.name),
-        JSONObject("holder", holder?.id.toString()),
-    ))
+    override fun toJson() = JSONObject(
+        title, listOf(
+            JSONObject("name", title),
+            JSONObject("constituency", constituency.name),
+            JSONObject("federalLevel", federalLevel.name),
+            JSONObject("holder", holder?.id.toString()),
+        )
+    )
 
     override fun fromJson(json: JSONObject) = apply {
         title = json.requireString("name")
-        constituency = engine.MAP_MANAGER.matchMapEntity(json.requireString("constituency")).orElseThrow()
+        constituency = Nation // engine.MAP_MANAGER.matchMapEntity(json.requireString("constituency")).orElseThrow()
         federalLevel = FederalLevel.valueOf(json.requireString("federalLevel"))
         holder = engine.CHARACTER_MANAGER.matchCitizenById(json.requireString("holder")).orElseThrow() as PoliticalActor
     }

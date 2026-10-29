@@ -16,59 +16,7 @@ public final class IOUtils {
 
     public enum FileExtension {
 
-        ALL(""),
-        AVI(".avi"),
-        BASH(".sh"),
-        BATCH(".bat"),
-        BINARY(".bin"),
-        BITMAP(".bmp"),
-        BLENDER(".blend"),
-        CLASS(".class"),
-        CMD(".cmd"),
-        CSV(".csv"),
-        DAE(".dae"),
-        DATABASE(".db"),
-        DDS(".dds"),
-        EXECUTABLE(".exe"),
-        FBX(".fbx"),
-        FLAC(".flac"),
-        FONT(".fnt"),
-        GIF(".gif"),
-        GNUZIP(".gz"),
-        HEIC(".heic"),
-        HTML(".html"),
-        ICON(".ico"),
-        IN(".in"),
-        INITIALIZATION(".ini"),
-        JAR(".jar"),
-        JAVA(".java"),
-        JPEG(".jpg"),
-        JSON(".json"),
-        LOG(".log"),
-        M4A(".m4a"),
-        MIDI(".mid"),
-        MP3(".mp3"),
-        MP4(".mp4"),
-        MPEG(".mpg"),
-        OBJ(".obj"),
-        OGG(".ogg"),
-        OTF(".otf"),
-        OUT(".out"),
-        PDF(".pdf"),
-        PNG(".png"),
-        SETTINGS(".set"),
-        SQL(".sql"),
-        SVG(".svg"),
-        SYSTEM(".sys"),
-        TAR(".tar"),
-        TARGA(".tga"),
-        TEXT(".txt"),
-        TIF(".tif"),
-        TTF(".ttf"),
-        WAVE(".wav"),
-        WINRAR(".rar"),
-        XML(".xml"),
-        ZIP(".zip");
+        ALL(""), AVI(".avi"), BASH(".sh"), BATCH(".bat"), BINARY(".bin"), BITMAP(".bmp"), BLENDER(".blend"), CLASS(".class"), CMD(".cmd"), CSV(".csv"), DAE(".dae"), DATABASE(".db"), DDS(".dds"), EXECUTABLE(".exe"), FBX(".fbx"), FLAC(".flac"), FONT(".fnt"), GIF(".gif"), GNUZIP(".gz"), HEIC(".heic"), HTML(".html"), ICON(".ico"), IN(".in"), INITIALIZATION(".ini"), JAR(".jar"), JAVA(".java"), JPEG(".jpg"), JSON(".json"), LOG(".log"), M4A(".m4a"), MIDI(".mid"), MP3(".mp3"), MP4(".mp4"), MPEG(".mpg"), OBJ(".obj"), OGG(".ogg"), OTF(".otf"), OUT(".out"), PDF(".pdf"), PNG(".png"), SETTINGS(".set"), SQL(".sql"), SVG(".svg"), SYSTEM(".sys"), TAR(".tar"), TARGA(".tga"), TEXT(".txt"), TIF(".tif"), TTF(".ttf"), WAVE(".wav"), WINRAR(".rar"), XML(".xml"), ZIP(".zip");
 
         public final String extension;
 
@@ -86,19 +34,29 @@ public final class IOUtils {
         }
     }
 
-    /** Standard input from System.in. @see IOUtil#createScanner(InputStream) */
+    /**
+     * Standard input from System.in. @see IOUtil#createScanner(InputStream)
+     */
     public static final Scanner stdin = IOUtils.createScanner(System.in);
-    /** Standard output to System.out. @see IOUtil#createWriter(OutputStream) */
+    /**
+     * Standard output to System.out. @see IOUtil#createWriter(OutputStream)
+     */
     public static final PrintWriter stdout = IOUtils.createWriter(System.out);
-    /** Standard output to System.err. @see IOUtil#createWriter(OutputStream) */
+    /**
+     * Standard output to System.err. @see IOUtil#createWriter(OutputStream)
+     */
     public static final PrintWriter stderr = IOUtils.createWriter(System.err);
-    /** Output to logs/output.txt */
+    /**
+     * Output to logs/output.txt
+     */
     public static final PrintWriter logout;
+
     static {
         PrintWriter pw;
         try {
             pw = IOUtils.createWriter(FilePath.OUTPUT.toFile());
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             Logger.error(e);
             pw = new PrintWriter(System.out, true); // fallback to stdout
         }
@@ -131,11 +89,11 @@ public final class IOUtils {
     }
 
     public static void closeQuietly(Closeable c) {
-        if (c != null)
-            try {
-                c.close();
-            } catch (IOException ignored) {
-            }
+        if (c != null) try {
+            c.close();
+        }
+        catch (IOException ignored) {
+        }
     }
 
     /**
@@ -157,7 +115,7 @@ public final class IOUtils {
     /**
      * Returns a Set of Paths for all the files in the specificed directory with the given extension.
      *
-     * @param dir The path to the directory to list the files within.
+     * @param dir       The path to the directory to list the files within.
      * @param extension A FileOperations.FileExtension to filter the Path results by.
      * @return A Set of Paths to each file within the directory with the extension.
      * @throws IOException If the directory path is invalid or unable to be located.
@@ -167,12 +125,10 @@ public final class IOUtils {
         dir = dir.normalize();
         DirectoryStream<Path> stream = Files.newDirectoryStream(dir);
         for (Path path : stream) {
-            if (path == null || path.getFileName() == null)
-                continue;
+            if (path == null || path.getFileName() == null) continue;
             Path filename = path.getFileName();
             if (!Files.isDirectory(path) // && !IGNORED_PATHS.contains(path)
-                    && (filename.toString().endsWith(extension.extension)
-                            || filename.toString().endsWith(extension.extension.toUpperCase()))) {
+                    && (filename.toString().endsWith(extension.extension) || filename.toString().endsWith(extension.extension.toUpperCase()))) {
                 pathSet.add(dir.resolve(filename));
             }
         }
@@ -189,11 +145,10 @@ public final class IOUtils {
         dir = dir.normalize();
         DirectoryStream<Path> stream = Files.newDirectoryStream(dir);
         for (Path path : stream) {
-            if (path == null || path.getFileName() == null)
-                continue;
+            if (path == null || path.getFileName() == null) continue;
             Path filename = path.getFileName();
             if (Files.isDirectory(path)
-//                && !FilePaths.IGNORED_PATHS.contains(path)
+                //                && !FilePaths.IGNORED_PATHS.contains(path)
             ) {
                 pathSet.add(dir.resolve(filename));
             }
@@ -219,7 +174,7 @@ public final class IOUtils {
     /**
      * Empties a directory of all files with the given extension. Searches only the directory itself, not any subdirectories (non-recursive).
      *
-     * @param dir The directory to empty.
+     * @param dir       The directory to empty.
      * @param extension The extension to target.
      * @throws IOException When the directory is invalid or inaccessable, or lack permissions to delete a file.
      */
@@ -229,12 +184,12 @@ public final class IOUtils {
         for (Path path : paths) {
             try {
                 Files.delete(path);
-            } catch (IOException e) {
+            }
+            catch (IOException e) {
                 ex = e;
             }
         }
-        if (ex != null)
-            throw ex;
+        if (ex != null) throw ex;
     }
 
     /**
@@ -247,23 +202,21 @@ public final class IOUtils {
     public static List<String> readFile(Path path) throws IOException {
         Scanner scanner = IOUtils.createScanner(path.toFile());
         List<String> result = new ArrayList<>();
-        while (scanner.hasNextLine())
-            result.add(scanner.nextLine());
+        while (scanner.hasNextLine()) result.add(scanner.nextLine());
         return result;
     }
 
     /**
      * Writes a String line to a file with the given directory, name, and extension.
      *
-     * @param filename String name of the file to create / write to
-     * @param extension Extension of the file.
+     * @param filename    String name of the file to create / write to
+     * @param extension   Extension of the file.
      * @param destination Path to the Directory which will contain the created / written file.
-     * @param content String to write into the file.
+     * @param content     String to write into the file.
      * @throws IOException When the file cannot be found or created
      * @see #writeFile(String, FileExtension, Path, List)
      */
-    public static void writeFile(String filename, FileExtension extension, Path destination, String content)
-            throws IOException {
+    public static void writeFile(String filename, FileExtension extension, Path destination, String content) throws IOException {
         writeFile(filename, extension, destination, Collections.singletonList(content));
     }
 
@@ -279,8 +232,7 @@ public final class IOUtils {
      * @throws IOException When the file cannot be found or created
      * @see #writeFile(File, List)
      */
-    public static void writeFile(String filename, FileExtension extension, Path destination, List<String> content)
-            throws IOException {
+    public static void writeFile(String filename, FileExtension extension, Path destination, List<String> content) throws IOException {
         Path filePath = destination.resolve(filename.split("\\.")[0] + extension.extension);
         File file = filePath.toFile();
         writeFile(file, content);

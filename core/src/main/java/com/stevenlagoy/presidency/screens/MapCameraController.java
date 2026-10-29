@@ -26,17 +26,14 @@ public class MapCameraController extends InputAdapter {
     private float distance;
 
     private final Vector3 initialTarget = new Vector3();
-    private final float initialAzimuth ;
+    private final float initialAzimuth;
     private final float initialPitch;
     private final float initialDistance;
 
     private int lastX, lastY;
     private boolean panning, rotating;
 
-    public MapCameraController(
-        PerspectiveCamera camera, Vector3 startTarget,
-        float startAzimuthDeg, float startPitchDeg, float startDistance
-    ) {
+    public MapCameraController(PerspectiveCamera camera, Vector3 startTarget, float startAzimuthDeg, float startPitchDeg, float startDistance) {
         this.camera = camera;
         this.initialTarget.set(startTarget);
         this.initialAzimuth = startAzimuthDeg;
@@ -58,11 +55,7 @@ public class MapCameraController extends InputAdapter {
         float pitchRad = pitchDeg * MathUtils.degreesToRadians;
         float horizontalDist = distance * MathUtils.cos(pitchRad);
 
-        camera.position.set(
-            target.x + horizontalDist * MathUtils.sin(azimuthRad),
-            target.y + distance * MathUtils.sin(pitchRad),
-            target.z + horizontalDist * MathUtils.cos(azimuthRad)
-        );
+        camera.position.set(target.x + horizontalDist * MathUtils.sin(azimuthRad), target.y + distance * MathUtils.sin(pitchRad), target.z + horizontalDist * MathUtils.cos(azimuthRad));
         camera.up.set(Vector3.Y);
         camera.lookAt(target);
         camera.update();
@@ -167,4 +160,5 @@ public class MapCameraController extends InputAdapter {
         pitchDeg = MathUtils.clamp(pitchDeg + dy * ROTATE_SPEED, MIN_PITCH, MAX_PITCH);
         updateCamera();
     }
+
 }

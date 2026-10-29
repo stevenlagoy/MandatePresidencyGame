@@ -1,4 +1,5 @@
 @file:JvmName("NumberUtils")
+
 package com.stevenlagoy.presidency.util
 
 import java.math.BigDecimal
@@ -22,6 +23,7 @@ fun Long.isPrime(): Boolean {
     primeCache[this] = res
     return res
 }
+
 fun Long.isComposite(): Boolean = !isPrime()
 
 fun Int.nextPrime(): Int = toLong().nextPrime().toInt()
@@ -36,7 +38,7 @@ fun Long.nextPrime(): Long {
 fun Int.toOrdinal(): String = toLong().toOrdinal()
 
 fun Long.toOrdinal(): String {
-    val index = when(abs(this) % 100) {
+    val index = when (abs(this) % 100) {
         in 11L..13L -> 0
         else -> if (abs(this) % 10 <= 3) abs(this) % 10 else 4
     }.toInt()
@@ -47,7 +49,7 @@ fun Long.toOrdinal(): String {
 fun List<Int>.groupIntoTuples(tupleSize: Int): List<Int> {
     val pad = (3 - size % 3) % 3
     val padded = List(pad) { 0 } + this
-    return padded.chunked(tupleSize).map{ (a, b, c) -> a * 100 + b * 10 + c * 1 }
+    return padded.chunked(tupleSize).map { (a, b, c) -> a * 100 + b * 10 + c * 1 }
 }
 
 private const val zero = "zero"
@@ -62,8 +64,30 @@ private const val illion = "illion"
 private val largeNumbers = listOf("", "m", "b", "tr", "quadr", "quint", "sext", "sept", "oct", "non")
 private val latinNames = mapOf(
     1 to listOf("", "un", "duo", "tre", "quattuor", "quin", "sex", "septen", "octo", "novem"),
-    10 to listOf("", "dec", "vigint", "trigint", "quadragint", "quinquagint", "sexagint", "septagint", "octogint", "nonagint"),
-    100 to listOf("", "cent", "ducent", "trecent", "quadringent", "quingent", "sescent", "septingent", "octingent", "nongent")
+    10 to listOf(
+        "",
+        "dec",
+        "vigint",
+        "trigint",
+        "quadragint",
+        "quinquagint",
+        "sexagint",
+        "septagint",
+        "octogint",
+        "nonagint"
+    ),
+    100 to listOf(
+        "",
+        "cent",
+        "ducent",
+        "trecent",
+        "quadringent",
+        "quingent",
+        "sescent",
+        "septingent",
+        "octingent",
+        "nongent"
+    )
 )
 private const val millin = "millin"
 // This will handle up to 10 ^ 10 ^ 6. Surely that's all you need!
@@ -71,22 +95,23 @@ private const val millin = "millin"
 private fun numberLessThanThousandToWords(number: Int): String {
     if (number == 0) return zero
     var res = ""
-    (listOf(0, 0, 0) + number.toString().split("").filter { it.isNotBlank() }.map { it.toInt() }).takeLast(3).forEachIndexed { p, d ->
-        when (p) {
-            2 -> res += (if (d > 0) numberNames[0][d] else if (res.isBlank()) numberNames[0][d] else "") + " "
-            1 -> res += numberNames[1][d] + (if(d > 0) "-" else "")
-            0 -> if (d > 0) res = numberNames[0][d] + " " + hundred + " " + res
+    (listOf(0, 0, 0) + number.toString().split("").filter { it.isNotBlank() }.map { it.toInt() }).takeLast(3)
+        .forEachIndexed { p, d ->
+            when (p) {
+                2 -> res += (if (d > 0) numberNames[0][d] else if (res.isBlank()) numberNames[0][d] else "") + " "
+                1 -> res += numberNames[1][d] + (if (d > 0) "-" else "")
+                0 -> if (d > 0) res = numberNames[0][d] + " " + hundred + " " + res
+            }
         }
-    }
     return res.trim()
 }
 
-private fun multipleOfThousandToWords(multipleOfThousand: Int) = when(multipleOfThousand) {
+private fun multipleOfThousandToWords(multipleOfThousand: Int) = when (multipleOfThousand) {
     0 -> ""
     1 -> thousand
-    in 2..10 -> "${largeNumbers[multipleOfThousand-1]}$illion"
+    in 2..10 -> "${largeNumbers[multipleOfThousand - 1]}$illion"
     else -> {
-        (multipleOfThousand-1).toLatinBase() + illion
+        (multipleOfThousand - 1).toLatinBase() + illion
     }
 }
 
@@ -173,18 +198,26 @@ fun Double.toWords(individualNumbers: Boolean = false) = toWords(toString(), ind
 
 fun BigDecimal.toWords(individualNumbers: Boolean = false) = toWords(toString(), individualNumbers)
 
-operator fun Triple<Double, Double, Double>.times(scale: Double) = Triple(this.first * scale, this.second * scale, this.third * scale)
+operator fun Triple<Double, Double, Double>.times(scale: Double) =
+    Triple(this.first * scale, this.second * scale, this.third * scale)
 
-operator fun Triple<Double, Double, Double>.plus(other: Triple<Double, Double, Double>) = Triple(this.first + other.first, this.second + other.second, this.third + other.third)
+operator fun Triple<Double, Double, Double>.plus(other: Triple<Double, Double, Double>) =
+    Triple(this.first + other.first, this.second + other.second, this.third + other.third)
 
 @JvmInline
 value class UnsignedFloat(val value: Float) {
-    init { require(value >= 0F) { "UnsignedFloat must be non-negative." } }
+    init {
+        require(value >= 0F) { "UnsignedFloat must be non-negative." }
+    }
 }
+
 val Float.unsigned: UnsignedFloat get() = UnsignedFloat(this)
 
 @JvmInline
 value class UnsignedDouble(val value: Double) {
-    init { require(value >= 0.0) { "UnsignedDouble must be non-negative." } }
+    init {
+        require(value >= 0.0) { "UnsignedDouble must be non-negative." }
+    }
 }
+
 val Double.unsigned: UnsignedDouble get() = UnsignedDouble(this)

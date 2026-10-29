@@ -1,4 +1,5 @@
 @file:JvmName("ColorUtils")
+
 package com.stevenlagoy.presidency.util
 
 import com.badlogic.gdx.graphics.Color

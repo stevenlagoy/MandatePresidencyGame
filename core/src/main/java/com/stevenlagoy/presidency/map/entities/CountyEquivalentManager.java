@@ -5,7 +5,7 @@ import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.EntityManager;
 import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.map.HasFIPS;
-import com.stevenlagoy.presidency.map.MapManager3;
+import com.stevenlagoy.presidency.map.MapManager;
 import com.stevenlagoy.presidency.util.FilePath;
 import com.stevenlagoy.presidency.util.IOUtils;
 import com.stevenlagoy.presidency.util.MatchingException;
@@ -56,12 +56,15 @@ public class CountyEquivalentManager extends EntityManager<CountyEquivalent, Str
                         String type = countyJson.findString("type", () -> "county");
                         assert type != null; // Can never be null because the supplier returns non-null
                         switch (type.toLowerCase().replaceAll("[^a-z]", " ")) {
-                            case "federal district" :
-                                register(engine.getManager(MapManager3.class).getNation().getCapital().getCountyEquivalent());
-                            case "independent city" :
+                            case "federal district":
+                                String federalDistrictName = String.format("%s, %s", countyJson.requireString("fullName", "commonName", "name"), countyJson.requireString("state", "territory"));
+                                register(engine.getManager(MapManager.class).getNation().getCapital().getCountyEquivalent());
+                                engine.getManager(MapManager.class).getIndependentCityJsons().put(federalDistrictName, countyJson);
+                                break;
+                            case "independent city":
                                 // These will be made later when places are created
                                 String independentCityName = String.format("%s, %s", countyJson.requireString("fullName", "commonName", "name"), countyJson.requireString("state", "territory"));
-                                engine.getManager(MapManager3.class).getIndependentCityJsons().put(independentCityName, countyJson);
+                                engine.getManager(MapManager.class).getIndependentCityJsons().put(independentCityName, countyJson);
                                 break;
                             case "county" :
                             case "parish" :

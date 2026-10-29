@@ -1,7 +1,7 @@
 package com.stevenlagoy.presidency.citizens
 
 import com.stevenlagoy.presidency.citizens.attributes.*
-import com.stevenlagoy.presidency.citizens.attributes.experiences.ExperienceHistory
+import com.stevenlagoy.presidency.citizens.attributes.experiences.PersonalExperienceHistory
 import com.stevenlagoy.presidency.citizens.attributes.finances.FinancialProfile
 import com.stevenlagoy.presidency.citizens.attributes.names.PersonalName
 import com.stevenlagoy.presidency.core.Engine
@@ -27,7 +27,7 @@ class PlayerCharacter(
     partyAffiliation: Party?,
     skills: Skills,
     personality: Personality,
-    experiences: ExperienceHistory,
+    experiences: PersonalExperienceHistory,
     issuePositions: IssuePositionMap,
     candidacy: Candidacy?
 ) : PoliticalActor(

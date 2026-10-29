@@ -20,7 +20,8 @@ public final class Logger {
             logWriter.printf("%s : %s%n", getDate(), logline);
             IOUtils.stdout.printf("%s : %s%n", getDate(), logline);
             logWriter.close();
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             IOUtils.stdout.println(e);
             System.exit(-1);
         }
@@ -48,7 +49,8 @@ public final class Logger {
             errorWriter.printf("%s : %s%n", getDate(), errorline);
             IOUtils.stderr.printf("%s : %s%n", getDate(), errorline);
             errorWriter.close();
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             IOUtils.stderr.println(e);
             System.exit(-1);
         }
@@ -77,7 +79,8 @@ public final class Logger {
             errorWriter.printf("%s : %s %n", getDate(), stackTrace);
             IOUtils.stderr.printf("%s : %s %n", getDate(), stackTrace);
             errorWriter.close();
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             IOUtils.stderr.println(e);
             System.exit(-1);
         }
@@ -86,7 +89,7 @@ public final class Logger {
     /**
      * Write the passed errorline to the standard error file, with the context string as a label.
      *
-     * @param context String for the label/context in which the log is being written. Will be put in full-capitals.
+     * @param context   String for the label/context in which the log is being written. Will be put in full-capitals.
      * @param errorline String to be written, explaining information about the event logged.
      * @see #error(String, String, Exception)
      */
@@ -100,7 +103,8 @@ public final class Logger {
             errorWriter.printf("%s : %s: %s%n", getDate(), context.toUpperCase(), errorline);
             IOUtils.stderr.printf("%s : %s: %s%n", getDate(), context.toUpperCase(), errorline);
             errorWriter.close();
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             IOUtils.stderr.println(e);
             System.exit(-1);
         }
@@ -110,9 +114,9 @@ public final class Logger {
      * Write the passed errorline to the standard error file, with the context string
      * as a label and with the passed Exception's stack trace also being written.
      *
-     * @param context String for the label/context in which the log is being written. Will be put in full-capitals.
+     * @param context   String for the label/context in which the log is being written. Will be put in full-capitals.
      * @param errorline String to be written, explaining information about the event logged.
-     * @param logE Exception to be written. The Exception.printStackTrace() method will be used.
+     * @param logE      Exception to be written. The Exception.printStackTrace() method will be used.
      */
     public static void error(String context, String errorline, Exception logE) {
         try {
@@ -127,7 +131,8 @@ public final class Logger {
             logWriter.printf("%s : %s: %s @ %s%n", getDate(), context.toUpperCase(), errorline, stackTrace);
             IOUtils.stderr.printf("%s : %s: %s @ %s%n", getDate(), context.toUpperCase(), errorline, stackTrace);
             logWriter.close();
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             IOUtils.stderr.println(e);
             System.exit(-1);
         }
@@ -152,7 +157,8 @@ public final class Logger {
             var ignored = errorFile.createNewFile();
             FileOutputStream errorStream = new FileOutputStream(errorFile, false);
             errorStream.close();
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             error("ERROR/LOG FILE NOT FOUND", "Somehow, the error file or log file was unable to be found.", e);
             successFlag = false;
         }

@@ -3,10 +3,13 @@ package com.stevenlagoy.presidency.core;
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.presidency.citizens.CharacterManager;
 import com.stevenlagoy.presidency.demographics.DemographicsManager;
-import com.stevenlagoy.presidency.map.MapManager2;
+import com.stevenlagoy.presidency.map.MapManager;
 import com.stevenlagoy.presidency.politics.EventManager;
 import com.stevenlagoy.presidency.politics.PoliticsManager;
-import com.stevenlagoy.presidency.util.*;
+import com.stevenlagoy.presidency.util.FilePath;
+import com.stevenlagoy.presidency.util.IOUtils;
+import com.stevenlagoy.presidency.util.Logger;
+import com.stevenlagoy.presidency.util.NumberUtils;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
@@ -35,6 +38,7 @@ import java.util.Map;
 public final class Engine extends Manager {
 
     private static Engine instance = null;
+
     /**
      * Retrieve the current Engine instance
      * @return Engine instance
@@ -66,8 +70,7 @@ public final class Engine extends Manager {
 
         public static @NotNull Difficulty level(int value) {
             for (Difficulty diff : Difficulty.values())
-                if (diff.value == value)
-                    return diff;
+                if (diff.value == value) return diff;
             throw new IllegalArgumentException("Invalid difficulty level: " + value);
         }
     }
@@ -79,7 +82,7 @@ public final class Engine extends Manager {
     public final TimeManager TIME_MANAGER;
     public final EventManager EVENT_MANAGER;
     public final DemographicsManager DEMOGRAPHICS_MANAGER;
-    public final MapManager2 MAP_MANAGER;
+    public final MapManager MAP_MANAGER;
     public final PoliticsManager POLITICS_MANAGER;
     public final CharacterManager CHARACTER_MANAGER;
 
@@ -156,7 +159,7 @@ public final class Engine extends Manager {
         TIME_MANAGER         = new TimeManager(this, this);
         EVENT_MANAGER        = new EventManager(this, this);
         DEMOGRAPHICS_MANAGER = new DemographicsManager(this, this);
-        MAP_MANAGER          = new MapManager2(this, this);
+        MAP_MANAGER          = new MapManager(this, this);
         POLITICS_MANAGER     = new PoliticsManager(this, this);
         CHARACTER_MANAGER    = new CharacterManager(this, this);
         for (Manager manager : getSubManagers()) {
@@ -164,7 +167,6 @@ public final class Engine extends Manager {
                 onError(new Exception(manager.getClass().getSimpleName() + " could not be constructed."));
             }
         }
-        Engine.instance = this;
     }
 
     // Manager Methods
@@ -172,7 +174,7 @@ public final class Engine extends Manager {
     private final Map<Class<? extends Manager>, Manager> managerRegistry = new HashMap<>();
 
     @Override
-    @Contract(pure = true)
+    @Contract(pure=true)
     public @NotNull List<Manager> getSubManagers() {
         return List.of(LANGUAGE_MANAGER, TIME_MANAGER, EVENT_MANAGER, DEMOGRAPHICS_MANAGER, MAP_MANAGER, POLITICS_MANAGER, CHARACTER_MANAGER);
     }
@@ -189,8 +191,8 @@ public final class Engine extends Manager {
     /**
      * Get the currently-registered manager for a specific manager class.
      * @param managerClass Class of the manager to retrieve from the registry
+     * @param <T>          Any Manager implementation
      * @return Registered manager of the given class
-     * @param <T> Any Manager implementation
      */
     public @NotNull <T extends Manager> T getManager(@NotNull Class<T> managerClass) {
         return managerClass.cast(managerRegistry.get(managerClass));
@@ -262,8 +264,7 @@ public final class Engine extends Manager {
         }
         catch (IOException e) {
             IOUtils.stdout.print(saveString);
-            Logger.error("EXCEPTION DURING SAVE WRITE",
-                    "An exception occurred while writing a save. The save data has been written to the standard output file.", e);
+            Logger.error("EXCEPTION DURING SAVE WRITE", "An exception occurred while writing a save. The save data has been written to the standard output file.", e);
         }
     }
 

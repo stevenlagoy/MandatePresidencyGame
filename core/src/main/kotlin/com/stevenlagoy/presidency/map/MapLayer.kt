@@ -1,9 +1,5 @@
 package com.stevenlagoy.presidency.map
 
-import com.stevenlagoy.presidency.map.MapIndex.Companion.HEADER_BYTES
-import com.stevenlagoy.presidency.map.MapIndex.Companion.MAGIC
-import com.stevenlagoy.presidency.map.MapIndex.Companion.SUPPORTED_VER
-import com.stevenlagoy.presidency.map.MapIndex.Companion.TABLE_ENTRY_B
 import java.io.BufferedInputStream
 import java.io.DataInputStream
 import java.io.File
@@ -18,16 +14,17 @@ import java.io.FileInputStream
  * can be made lazy without changing the public API.
  */
 class MapLayer private constructor(
-    val imageWidth:  Int,
+    val imageWidth: Int,
     val imageHeight: Int,
-    val layerId:     Int,
-    val regions:     List<MapRegion>,
+    val layerId: Int,
+    val regions: List<MapRegion>,
 ) {
-    private val byColor: Map<Int, MapRegion> = regions.associateBy { it.color }
-    private val byId:    Map<Int, MapRegion> = regions.associateBy { it.id }
+    private val byColor: Map<Int, MapRegion> = regions.associateBy { it.color.toIntBits() }
+    private val byId: Map<Int, MapRegion> = regions.associateBy { it.id }
 
     /** Returns the region whose source color matches [argb], or null. */
     fun regionByColor(argb: Int): MapRegion? = byColor[argb]
+
     /** Returns the region with the given sequential id, or null. */
     fun regionById(argb: Int): MapRegion? = byId[argb]
 
@@ -47,10 +44,10 @@ class MapLayer private constructor(
             .firstOrNull { it.contains(mapX, mapY) }
 
     companion object {
-        private const val MAGIC          = "MMAP"
-        private const val SUPPORTED_VER  = 1
-        private const val HEADER_BYTES   = 19   // 4+2+1+4+4+4
-        private const val TABLE_ENTRY_B  = 48   // matches BinaryWriter
+        private const val MAGIC = "MMAP"
+        private const val SUPPORTED_VER = 1
+        private const val HEADER_BYTES = 19   // 4+2+1+4+4+4
+        private const val TABLE_ENTRY_B = 48   // matches BinaryWriter
 
         /**
          * Loads the header and region table from [file].
@@ -59,7 +56,7 @@ class MapLayer private constructor(
          * @throws IllegalArgumentException if the file is not a valid MMAP binary.
          */
         fun load(file: File): MapLayer {
-                DataInputStream(BufferedInputStream(FileInputStream(file))).use { din ->
+            DataInputStream(BufferedInputStream(FileInputStream(file))).use { din ->
                 // Header
                 val magic = String(ByteArray(4) { din.readByte() })
                 require(magic == MAGIC) { "Not a valid MMAP file: $file" }
@@ -69,36 +66,36 @@ class MapLayer private constructor(
                     "Unsupported MMAP version $version in $file (expected $SUPPORTED_VER)"
                 }
 
-                val layerId      = din.readByte().toInt()
-                val imageWidth   = din.readInt()
-                val imageHeight  = din.readInt()
-                val regionCount  = din.readInt()
+                val layerId = din.readByte().toInt()
+                val imageWidth = din.readInt()
+                val imageHeight = din.readInt()
+                val regionCount = din.readInt()
 
                 // Region table
                 val regions = ArrayList<MapRegion>(regionCount)
                 repeat(regionCount) {
                     regions += MapRegion(
-                        id          = din.readInt(),
-                        color       = din.readInt(),
-                        minX        = din.readInt(),
-                        minY        = din.readInt(),
-                        maxX        = din.readInt(),
-                        maxY        = din.readInt(),
-                        centroidX   = din.readFloat(),
-                        centroidY   = din.readFloat(),
-                        pixelCount  = din.readLong(),
-                        runOffset   = din.readLong(),
-                        runCount    = din.readInt(),
+                        id = din.readInt(),
+                        color = din.readInt(),
+                        minX = din.readInt(),
+                        minY = din.readInt(),
+                        maxX = din.readInt(),
+                        maxY = din.readInt(),
+                        centroidX = din.readFloat(),
+                        centroidY = din.readFloat(),
+                        pixelCount = din.readLong(),
+                        runs = listOf(),
                     )
                 }
 
-                val runSectionOffset = HEADER_BYTES.toLong() + regionCount.toLong() * TABLE_ENTRY_B
+                HEADER_BYTES.toLong() + regionCount.toLong() * TABLE_ENTRY_B
 
                 return MapLayer(
-                    imageWidth       = imageWidth,
-                    imageHeight      = imageHeight,
-                    layerId          = layerId,
-                    regions          = regions.toList(),                )
+                    imageWidth = imageWidth,
+                    imageHeight = imageHeight,
+                    layerId = layerId,
+                    regions = regions.toList(),
+                )
             }
         }
     }

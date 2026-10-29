@@ -20,12 +20,12 @@ sealed class TabulationRule {
         val type = ruleString.split(Regex("\\s+")).first()
         val params = ruleString.split(Regex("\\s+")).drop(1).map { it.replaceAllRegex("\\(\\)", "") }
         return when (type) {
-            "approval"        -> Approval(params[0].toIntOrNull())
+            "approval" -> Approval(params[0].toIntOrNull())
             "firstpreference" -> FirstPreference()
-            "rankedchoice"    -> RankedChoice()
-            "score"           -> Score(params[0].split("..").let { (start, end) -> start.toInt()..end.toInt() })
-            "star"            -> STAR(params[1].split("..").let { (start, end) -> start.toInt()..end.toInt() }, params[0].toInt())
-            else              -> FirstPreference()
+            "rankedchoice" -> RankedChoice()
+            "score" -> Score(params[0].split("..").let { (start, end) -> start.toInt()..end.toInt() })
+            "star" -> STAR(params[1].split("..").let { (start, end) -> start.toInt()..end.toInt() }, params[0].toInt())
+            else -> FirstPreference()
         }
     }
 

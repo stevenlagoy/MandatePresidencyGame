@@ -22,10 +22,10 @@ public class MainMenuScreen extends BaseScreen {
     private Texture logoTexture;
     private BitmapFont buttonFont;
 
-    private static final Color BASE  = new Color(0.75f, 0.75f, 0.75f, 1f);
+    private static final Color BASE = new Color(0.75f, 0.75f, 0.75f, 1f);
     private static final Color HOVER = new Color(0.55f, 0.55f, 0.55f, 1f);
-    private static final Color DOWN  = new Color(0.90f, 0.90f, 0.90f, 1f);
-    private static final Color TEXT  = new Color(0.15f, 0.15f, 0.15f, 1f);
+    private static final Color DOWN = new Color(0.90f, 0.90f, 0.90f, 1f);
+    private static final Color TEXT = new Color(0.15f, 0.15f, 0.15f, 1f);
 
     public MainMenuScreen(GameRoot game) {
         super(game);
@@ -61,7 +61,7 @@ public class MainMenuScreen extends BaseScreen {
         TextButton.TextButtonStyle buttonStyle = new TextButton.TextButtonStyle();
         buttonStyle.font = buttonFont;
         buttonStyle.fontColor = TEXT;
-        buttonStyle.up   = skin.getDrawable("buttons/button");
+        buttonStyle.up = skin.getDrawable("buttons/button");
         buttonStyle.over = skin.getDrawable("buttons/button");
         buttonStyle.down = skin.getDrawable("buttons/button");
 
@@ -69,9 +69,9 @@ public class MainMenuScreen extends BaseScreen {
         newGame.addListener(new ClickListener() {
             @Override
             public void clicked(InputEvent event, float x, float y) {
-//                game.getEngine().init();
+                //                game.getEngine().init();
                 game.getScreenManager().show(DebugScreen.class, () -> new DebugScreen(game));
-//                game.getScreenManager().show(MapScreen.class, () -> new MapScreen(game));
+                //                game.getScreenManager().show(MapScreen.class, () -> new MapScreen(game));
             }
         });
 
@@ -112,15 +112,18 @@ public class MainMenuScreen extends BaseScreen {
             public void enter(InputEvent event, float x, float y, int pointer, Actor fromActor) {
                 btn.setColor(HOVER);
             }
+
             @Override
             public void exit(InputEvent event, float x, float y, int pointer, Actor toActor) {
                 btn.setColor(BASE);
             }
+
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
                 btn.setColor(DOWN);
                 return true;
             }
+
             @Override
             public void touchUp(InputEvent event, float x, float y, int pointer, int button) {
                 btn.setColor(HOVER);
@@ -145,4 +148,5 @@ public class MainMenuScreen extends BaseScreen {
         logoTexture.dispose();
         buttonFont.dispose();
     }
+
 }

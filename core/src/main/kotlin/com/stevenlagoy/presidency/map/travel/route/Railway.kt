@@ -14,10 +14,12 @@ class Railway(
         fromJson(json)
     }
 
-    override fun toJson() = JSONObject(name, listOf(
-        JSONObject("name", name),
-        JSONObject("connections", connections.map { it.name })
-    ))
+    override fun toJson() = JSONObject(
+        name, listOf(
+            JSONObject("name", name),
+            JSONObject("connections", connections.map { it.name })
+        )
+    )
 
     override fun fromJson(json: JSONObject) = this.apply {
         super.fromJson(json)

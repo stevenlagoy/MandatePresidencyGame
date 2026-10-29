@@ -7,7 +7,7 @@ import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.demographics.Bloc
 import com.stevenlagoy.presidency.map.entities.MapEntity
 
-class Descriptor (
+class Descriptor(
     engine: Engine,
     var name: String = "",
     var description: String = "",
@@ -19,12 +19,14 @@ class Descriptor (
         fromJson(json)
     }
 
-    override fun toJson() = JSONObject(name, listOf(
-        JSONObject("name", name),
-        JSONObject("description", description),
-        JSONObject("members", members.map { it.name }),
-        JSONObject("effects", effects)
-    ))
+    override fun toJson() = JSONObject(
+        name, listOf(
+            JSONObject("name", name),
+            JSONObject("description", description),
+            JSONObject("members", members.map { it.name }),
+            JSONObject("effects", effects)
+        )
+    )
 
     override fun fromJson(json: JSONObject) = this.apply {
         name = json.requireString("name")

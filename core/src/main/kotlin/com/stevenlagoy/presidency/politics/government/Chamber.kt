@@ -47,12 +47,14 @@ class Chamber(
 
     override val partyControlFactors: Set<(Party) -> Double> = setOf(
         // Proportion of seats
-        { party -> 0.75 *
-            (members.count { it.partyAffiliation == party }.toDouble() / seats)
+        { party ->
+            0.75 *
+                (members.count { it.partyAffiliation == party }.toDouble() / seats)
         },
         // Party majority
-        { party -> 0.25 *
-            if (isPartyMajority(party)) 1.0 else 0.0
+        { party ->
+            0.25 *
+                if (isPartyMajority(party)) 1.0 else 0.0
         },
     )
 
@@ -63,15 +65,17 @@ class Chamber(
 
     fun isPartyMajority(party: Party): Boolean = members.count { it.partyAffiliation == party } > (seats / 2.0)
 
-    override fun toJson() = JSONObject(chamberName, listOf(
-        JSONObject("chamberName", chamberName),
-        JSONObject("memberTitle", memberTitle),
-        JSONObject("federalLevel", federalLevel.toString()),
-        JSONObject("isUpperChamber", isUpperChamber),
-        JSONObject("termLength", termLength),
-        JSONObject("seats", seats),
-        JSONObject("members", members.map { it.toString() }),
-    ))
+    override fun toJson() = JSONObject(
+        chamberName, listOf(
+            JSONObject("chamberName", chamberName),
+            JSONObject("memberTitle", memberTitle),
+            JSONObject("federalLevel", federalLevel.toString()),
+            JSONObject("isUpperChamber", isUpperChamber),
+            JSONObject("termLength", termLength),
+            JSONObject("seats", seats),
+            JSONObject("members", members.map { it.toString() }),
+        )
+    )
 
     override fun fromJson(json: JSONObject) = apply {
         chamberName = json.requireString("chamberName", "chamber_name")
@@ -80,9 +84,10 @@ class Chamber(
         isUpperChamber = json.requireBoolean("isUpperChamber")
         termLength = json.requireInt("termLength")
         pastElections.clear()
-        pastElections.addAll(json.requireArray("pastElectionResults", "past_election_results").filterIsInstance<JSONObject>().map {
-            Election(engine, it)
-        })
+        pastElections.addAll(
+            json.requireArray("pastElectionResults", "past_election_results").filterIsInstance<JSONObject>().map {
+                Election(engine, it)
+            })
         seats = json.requireInt("seats")
     }
 }

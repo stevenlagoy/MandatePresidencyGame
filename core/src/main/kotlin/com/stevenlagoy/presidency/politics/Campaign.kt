@@ -4,6 +4,7 @@ import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.citizens.PoliticalActor
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.politics.government.GovernmentPosition
+import com.stevenlagoy.presidency.politics.government.GovernmentPositionManager
 import kotlin.jvm.optionals.getOrNull
 
 class Campaign(
@@ -28,7 +29,8 @@ class Campaign(
     /**
      * Single votable position representing a vote for this campaign.
      */
-    var candidacy: IssuePosition = IssuePosition(engine, this, title = "Vote ${candidates.values.joinToString(", ") { it.name.preferredFamily }}")
+    var candidacy: IssuePosition =
+        IssuePosition(engine, this, title = "Vote ${candidates.values.joinToString(", ") { it.name.preferredFamily }}")
         internal set
 
     init {
@@ -40,16 +42,29 @@ class Campaign(
     }
 
     override fun toJson() = super.toJson().merge(
-        JSONObject("candidates", candidates.map { (targetPosition, candidate) -> JSONObject(targetPosition.title, candidate.name.indexedName) }),
+        JSONObject(
+            "candidates",
+            candidates.map { (targetPosition, candidate) ->
+                JSONObject(
+                    targetPosition.title,
+                    candidate.name.indexedName
+                )
+            }),
         JSONObject("affiliatedParty", affiliatedParty?.name)
     )
 
     override fun fromJson(json: JSONObject) = apply {
         candidates = json.requireJson("campaigners").associate {
-            engine.POLITICS_MANAGER.GOVERNMENT_MANAGER.matchGovernmentPosition((it as JSONObject).key).get() to engine.CHARACTER_MANAGER.matchCitizenByIndexedName(it.requireString()).get() as PoliticalActor
+            engine.getManager(GovernmentPositionManager::class.java).matchByKey((it as JSONObject).key)
+                .get() to engine.CHARACTER_MANAGER.matchCitizenByIndexedName(it.requireString()).get() as PoliticalActor
         }
-        affiliatedParty = engine.POLITICS_MANAGER.PARTY_MANAGER.matchParty(json.requireString("affiliatedParty")).getOrNull()
-        candidacy = IssuePosition(engine, this, title = "Vote ${candidates.values.joinToString(", ") { it.name.preferredFamily }}")
+        affiliatedParty =
+            engine.POLITICS_MANAGER.PARTY_MANAGER.matchParty(json.requireString("affiliatedParty")).getOrNull()
+        candidacy = IssuePosition(
+            engine,
+            this,
+            title = "Vote ${candidates.values.joinToString(", ") { it.name.preferredFamily }}"
+        )
         positions = setOf(candidacy)
     }
 }

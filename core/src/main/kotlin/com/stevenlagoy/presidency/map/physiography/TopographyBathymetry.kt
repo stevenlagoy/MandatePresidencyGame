@@ -20,7 +20,9 @@ data class TopographyBathymetry(
         private val ocean200 = parseGdxColor("#00C0FF")
         private val oceanShallow = parseGdxColor("#00FFFF")
 
-        fun getIsBathymetric(color: Color): Boolean = color in listOf(oceanDeep, ocean2500, ocean500, ocean200, oceanShallow)
+        fun getIsBathymetric(color: Color): Boolean =
+            color in listOf(oceanDeep, ocean2500, ocean500, ocean200, oceanShallow)
+
         fun getIsTopographic(color: Color): Boolean = !getIsBathymetric(color)
 
         fun getHeight(color: Color): Int {

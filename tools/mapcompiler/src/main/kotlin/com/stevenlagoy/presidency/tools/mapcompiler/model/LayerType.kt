@@ -14,6 +14,12 @@ enum class LayerType(
     val emptyColor: Int?,
     val description: String,
 ) {
+    CLIMATE(
+        filename       = "Climate.png",
+        outputFilename = "climate.bin",
+        emptyColor     = 0xFF000000.toInt(), // Black
+        description    = "Climate layer with precipitation, temperature, and vegetation.",
+    ),
     CONGRESSIONAL_DISTRICTS(
         filename       = "CongressionalDistricts.png",
         outputFilename = "congressional_districts.bin",
@@ -44,11 +50,11 @@ enum class LayerType(
         emptyColor     = 0xFF000000.toInt(), // Black
         description    = "Physiographic regions and provinces layer"
     ),
-    PRECIPITATION(
-        filename       = "Precipitation.png",
-        outputFilename = "precipitation.bin",
+    PLACES(
+        filename       = "Places.png",
+        outputFilename = "places.bin",
         emptyColor     = 0xFF000000.toInt(), // Black
-        description    = "Precipitation layer"
+        description    = "Incorporations and Census-Designated Places layer"
     ),
     TIME_ZONES(
         filename       = "TimeZones.png",
@@ -61,11 +67,5 @@ enum class LayerType(
         outputFilename = "topography_bathymetry.bin",
         emptyColor     = null,
         description    = "Topography and bathymetry layer"
-    ),
-    PLACES(
-        filename       = "Places.png",
-        outputFilename = "places.bin",
-        emptyColor     = 0xFF000000.toInt(), // Black
-        description    = "Census places layer"
     ),
 }

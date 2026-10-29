@@ -21,12 +21,12 @@ public class DebugScreen extends BaseScreen {
     private BitmapFont rowFont;
     private BitmapFont detailFont;
 
-    private static final Color BASE       = new Color(0.75f, 0.75f, 0.75f, 1f);
-    private static final Color HOVER      = new Color(0.55f, 0.55f, 0.55f, 1f);
-    private static final Color DOWN       = new Color(0.90f, 0.90f, 0.90f, 1f);
-    private static final Color SELECTED   = new Color(0.35f, 0.65f, 0.95f, 1f);
+    private static final Color BASE = new Color(0.75f, 0.75f, 0.75f, 1f);
+    private static final Color HOVER = new Color(0.55f, 0.55f, 0.55f, 1f);
+    private static final Color DOWN = new Color(0.90f, 0.90f, 0.90f, 1f);
+    private static final Color SELECTED = new Color(0.35f, 0.65f, 0.95f, 1f);
     private static final Color LIGHT_TEXT = new Color(0.9f, 0.9f, 0.9f, 1f);
-    private static final Color DARK_TEXT  = new Color(0.2f, 0.2f, 0.2f, 1f);
+    private static final Color DARK_TEXT = new Color(0.2f, 0.2f, 0.2f, 1f);
 
     // Rows and selection tracking
     private final List<TextButton> rowButtons = new ArrayList<>();
@@ -59,7 +59,7 @@ public class DebugScreen extends BaseScreen {
         TextButton.TextButtonStyle buttonStyle = new TextButton.TextButtonStyle();
         buttonStyle.font = rowFont;
         buttonStyle.fontColor = DARK_TEXT;
-        buttonStyle.up   = skin.getDrawable("buttons/button");
+        buttonStyle.up = skin.getDrawable("buttons/button");
         buttonStyle.over = skin.getDrawable("buttons/button");
         buttonStyle.down = skin.getDrawable("buttons/button");
 
@@ -121,8 +121,8 @@ public class DebugScreen extends BaseScreen {
         detailTitleLabel = new Label("No manager selected", titleStyle);
         detailStateLabel = new Label("", plainStyle);
         detailSuperLabel = new Label("", plainStyle);
-        detailTimeLabel  = new Label("", plainStyle);
-        statusLabel      = new Label("", new Label.LabelStyle(detailFont, Color.FIREBRICK));
+        detailTimeLabel = new Label("", plainStyle);
+        statusLabel = new Label("", new Label.LabelStyle(detailFont, Color.FIREBRICK));
         statusLabel.setWrap(true);
 
         detailPanel.add(detailTitleLabel).row();
@@ -132,11 +132,11 @@ public class DebugScreen extends BaseScreen {
 
         Table actionRow = new Table();
         actionRow.defaults().padRight(10);
-        TextButton initBtn     = createActionButton("Init", buttonStyle);
-        TextButton pauseBtn    = createActionButton("Pause", buttonStyle);
-        TextButton unpauseBtn  = createActionButton("Unpause", buttonStyle);
-        TextButton cleanupBtn  = createActionButton("Cleanup", buttonStyle);
-        TextButton refreshBtn  = createActionButton("Refresh", buttonStyle);
+        TextButton initBtn = createActionButton("Init", buttonStyle);
+        TextButton pauseBtn = createActionButton("Pause", buttonStyle);
+        TextButton unpauseBtn = createActionButton("Unpause", buttonStyle);
+        TextButton cleanupBtn = createActionButton("Cleanup", buttonStyle);
+        TextButton refreshBtn = createActionButton("Refresh", buttonStyle);
 
         initBtn.addListener(new ClickListener() {
             @Override
@@ -253,10 +253,12 @@ public class DebugScreen extends BaseScreen {
             public void clicked(InputEvent event, float x, float y) {
                 selectManager(manager, row);
             }
+
             @Override
             public void enter(InputEvent event, float x, float y, int pointer, com.badlogic.gdx.scenes.scene2d.Actor fromActor) {
                 if (row != selectedButton) row.setColor(HOVER);
             }
+
             @Override
             public void exit(InputEvent event, float x, float y, int pointer, com.badlogic.gdx.scenes.scene2d.Actor toActor) {
                 if (row != selectedButton) row.setColor(BASE);
@@ -289,8 +291,7 @@ public class DebugScreen extends BaseScreen {
         }
         detailTitleLabel.setText(manager.getClass().getSimpleName());
         detailStateLabel.setText("State: " + manager.getState());
-        detailSuperLabel.setText("Super manager: " +
-            (manager.superManager == null ? "(root)" : manager.superManager.getClass().getSimpleName()));
+        detailSuperLabel.setText("Super manager: " + (manager.superManager == null ? "(root)" : manager.superManager.getClass().getSimpleName()));
         Engine engine = Engine.getInstance();
         if (engine != null) {
             detailTimeLabel.setText(String.format("Program time: %.2fs", engine.getProgramTime()));
@@ -337,15 +338,18 @@ public class DebugScreen extends BaseScreen {
             public void enter(InputEvent event, float x, float y, int pointer, com.badlogic.gdx.scenes.scene2d.Actor fromActor) {
                 if (btn != selectedButton) btn.setColor(HOVER);
             }
+
             @Override
             public void exit(InputEvent event, float x, float y, int pointer, com.badlogic.gdx.scenes.scene2d.Actor toActor) {
                 if (btn != selectedButton) btn.setColor(BASE);
             }
+
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
                 btn.setColor(DOWN);
                 return true;
             }
+
             @Override
             public void touchUp(InputEvent event, float x, float y, int pointer, int button) {
                 btn.setColor(HOVER);
@@ -362,4 +366,5 @@ public class DebugScreen extends BaseScreen {
         rowFont.dispose();
         detailFont.dispose();
     }
+
 }

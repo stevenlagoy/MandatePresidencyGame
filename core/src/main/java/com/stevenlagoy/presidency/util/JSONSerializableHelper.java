@@ -1,7 +1,9 @@
-package com.stevenlagoy.presidency.core;
+package com.stevenlagoy.presidency.util;
 
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.JSONSerializable;
+import com.stevenlagoy.presidency.core.Engine;
+import com.stevenlagoy.presidency.core.EngineBound;
 import org.jetbrains.annotations.NotNull;
 
 /**
@@ -43,8 +45,8 @@ public interface JSONSerializableHelper<T extends JSONSerializableHelper<T>> {
      * MyClass obj = new MyClass().fromJson(json, engine);
      * }</pre>
      *
-     * @param json a {@link JSONObject} containing key-value pairs corresponding
-     *             to fields of this object; may be partial
+     * @param json   a {@link JSONObject} containing key-value pairs corresponding
+     *               to fields of this object; may be partial
      * @param engine an {@link Engine} which will help with deserialization,
      *               especially when this object is composed of other
      *               {@link JSONSerializable} objects.

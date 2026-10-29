@@ -46,7 +46,7 @@ public class Basic3DTest implements ApplicationListener {
     }
 
     @Override
-    public void resize(int width,int height) {
+    public void resize(int width, int height) {
     }
 
     @Override

@@ -4,7 +4,7 @@ import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.EntityManager;
 import com.stevenlagoy.presidency.core.Manager;
-import com.stevenlagoy.presidency.map.MapManager3;
+import com.stevenlagoy.presidency.map.MapManager;
 import com.stevenlagoy.presidency.util.FilePath;
 import com.stevenlagoy.presidency.util.IOUtils;
 import com.stevenlagoy.presidency.util.MatchingException;
@@ -33,11 +33,7 @@ public class PlaceManager extends EntityManager<Place, String> {
             // Get data paths
             Set<Path> placesFiles = new HashSet<>();
             for (Path stateDir : IOUtils.listDirectories(FilePath._STATES)) {
-                placesFiles.addAll(
-                    IOUtils.listFiles(stateDir).stream().filter(path ->
-                        path.toString().contains(placesFileMarker)
-                    ).collect(Collectors.toSet())
-                );
+                placesFiles.addAll(IOUtils.listFiles(stateDir).stream().filter(path -> path.toString().contains(placesFileMarker)).collect(Collectors.toSet()));
             }
             // Create Places
             for (Path placesFile : placesFiles) {
@@ -49,7 +45,7 @@ public class PlaceManager extends EntityManager<Place, String> {
                     onDegraded(e);
                     continue;
                 }
-                Map<String, JSONObject> independentCityJsons = engine.getManager(MapManager3.class).getIndependentCityJsons();
+                Map<String, JSONObject> independentCityJsons = engine.getManager(MapManager.class).getIndependentCityJsons();
                 for (Object placeObj : placesJson) {
                     if (placeObj instanceof JSONObject placeJson) {
                         String placeName = String.format("%s %s", placeJson.requireString("fullName", "full_name", "commonName", "common_name", "name"), placeJson.requireString("state", "territory"));
@@ -142,23 +138,21 @@ public class PlaceManager extends EntityManager<Place, String> {
     }
 
     public @NotNull Set<Place> matchPlaces(@NotNull String placeName, @NotNull String countyEquivalentName, @NotNull String stateEquivalentName) {
-        if (placeName.isBlank() || countyEquivalentName.isBlank() || stateEquivalentName.isBlank()) return Collections.emptySet();
+        if (placeName.isBlank() || countyEquivalentName.isBlank() || stateEquivalentName.isBlank())
+            return Collections.emptySet();
         Optional<CountyEquivalent> countyEquivalent = engine.getManager(CountyEquivalentManager.class).matchCountyEquivalent(countyEquivalentName, stateEquivalentName);
-        return countyEquivalent.map(county -> entities.stream().filter(place ->
-            place.getName().equals(placeName) && place.getCountyEquivalent().equals(county)
-        ).collect(Collectors.toSet())).orElseGet(HashSet::new);
+        return countyEquivalent.map(county -> entities.stream().filter(place -> place.getName().equals(placeName) && place.getCountyEquivalent().equals(county)).collect(Collectors.toSet())).orElseGet(HashSet::new);
     }
 
     public @NotNull Optional<Place> matchPlace(@NotNull String placeName, @NotNull String countyEquivalentName, @NotNull String stateEquivalentName) {
-        if (placeName.isBlank() || countyEquivalentName.isBlank() || stateEquivalentName.isBlank()) return Optional.empty();
+        if (placeName.isBlank() || countyEquivalentName.isBlank() || stateEquivalentName.isBlank())
+            return Optional.empty();
         Optional<CountyEquivalent> countyEquivalent = engine.getManager(CountyEquivalentManager.class).matchCountyEquivalent(countyEquivalentName, stateEquivalentName);
-        return countyEquivalent.flatMap(county -> entities.stream().filter(place ->
-            place.getName().equals(placeName) && place.getCountyEquivalent().equals(county)
-        ).findFirst());
+        return countyEquivalent.flatMap(county -> entities.stream().filter(place -> place.getName().equals(placeName) && place.getCountyEquivalent().equals(county)).findFirst());
     }
 
     public @NotNull Place requirePlace(@NotNull String placeName, @NotNull String countyEquivalentName, @NotNull String stateEquivalentName) throws MatchingException {
-        return matchPlace(placeName, countyEquivalentName, stateEquivalentName).orElseThrow(() -> new MatchingException(String.format("Could not find required place in %s in %s with name: %s", countyEquivalentName, stateEquivalentName, placeName), () ->  matchPlace(placeName, countyEquivalentName, stateEquivalentName)));
+        return matchPlace(placeName, countyEquivalentName, stateEquivalentName).orElseThrow(() -> new MatchingException(String.format("Could not find required place in %s in %s with name: %s", countyEquivalentName, stateEquivalentName, placeName), () -> matchPlace(placeName, countyEquivalentName, stateEquivalentName)));
     }
 
 }

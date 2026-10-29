@@ -38,9 +38,11 @@ public class NameManager extends EntityManager<PersonalName, String> {
     /** Percentage of Native people who have a Native-style name. */
     public static final float nativeNativeNamePercent = 0.25f;
 
+    public enum NameForm { WESTERN, HISPANIC, EASTERN }
+
     // Factories
 
-    private final PersonalNameFactory personalNameFactory = new PersonalNameFactory(engine);
+    private final PersonalNameFactory personalNameFactory = new PersonalNameFactory(engine, this);
     private final WesternPersonalNameFactory westernPersonalNameFactory = new WesternPersonalNameFactory(engine, personalNameFactory);
     private final HispanicPersonalNameFactory hispanicPersonalNameFactory = new HispanicPersonalNameFactory(engine, personalNameFactory);
     private final EasternPersonalNameFactory easternPersonalNameFactory = new EasternPersonalNameFactory(engine, personalNameFactory);
@@ -188,6 +190,32 @@ public class NameManager extends EntityManager<PersonalName, String> {
         return distributions;
     }
 
+    public @NotNull PersonalNameFactory getPersonalNameFactory() {
+        return personalNameFactory;
+    }
+
+    public @NotNull EasternPersonalNameFactory getEasternPersonalNameFactory() {
+        return easternPersonalNameFactory;
+    }
+
+    public @NotNull WesternPersonalNameFactory getWesternPersonalNameFactory() {
+        return westernPersonalNameFactory;
+    }
+
+    public @NotNull HispanicPersonalNameFactory getHispanicPersonalNameFactory() {
+        return hispanicPersonalNameFactory;
+    }
+
+    public @NotNull PersonalName buildPersonalName(@NotNull PersonalNameFactory.NameContext context) {
+        PersonalName name = switch (personalNameFactory.selectNameForm(context)) {
+            case HISPANIC -> hispanicPersonalNameFactory.build(context);
+            case EASTERN  -> easternPersonalNameFactory.build(context);
+            case WESTERN  -> westernPersonalNameFactory.build(context);
+        };
+        personalNameFactory.decorate(name, context);
+        return name;
+    }
+
     // General selection --------------------------------------------------------------------------
 
     public @NotNull Map<String, Double> getGivenNamesDistribution(@NotNull PersonalNameFactory.NameContext context) {
@@ -226,7 +254,7 @@ public class NameManager extends EntityManager<PersonalName, String> {
         }
 
         // Pick one of the combinations with the most included Blocs
-        Set<Bloc> bestCombination = Collections.max(combinations, Comparator.comparingInt(Set::size));
+        Set<Bloc> bestCombination = Collections.max(validCombinations, Comparator.comparingInt(Set::size));
 
         return namesDistribution.get(bestCombination);
     }

@@ -3,6 +3,7 @@ package com.stevenlagoy.presidency.map.travel.route
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.map.entities.MapEntity
+import com.stevenlagoy.presidency.map.entities.PlaceManager
 
 class Airport(
     engine: Engine,
@@ -51,20 +52,23 @@ class Airport(
 //                engine.MAP_MANAGER.ROUTE_MANAGER.getAirportsInDivision(location!!.state.censusDivision!!, AirportSize.SMALL).map { it.location }
 //        }.filterNotNull()
 
-    override fun toJson() = JSONObject(IATA, listOf(
-        JSONObject("fullName", name),
-        JSONObject("commonName", commonName),
-        JSONObject("IATA", IATA),
-        JSONObject("location", location.name),
-        JSONObject("size", size.name),
-        JSONObject("enplanement", enplanement),
-    ))
+    override fun toJson() = JSONObject(
+        IATA, listOf(
+            JSONObject("fullName", name),
+            JSONObject("commonName", commonName),
+            JSONObject("IATA", IATA),
+            JSONObject("location", location.name),
+            JSONObject("size", size.name),
+            JSONObject("enplanement", enplanement),
+        )
+    )
 
     override fun fromJson(json: JSONObject) = this.apply {
         super.fromJson(json)
         commonName = json.requireString("commonName")
         IATA = json.requireString("IATA")
-        location = engine.MAP_MANAGER.matchPlace(json.requireString("location")).orElseThrow { IllegalArgumentException("Could not find location ${json.requireString("location")} for airport $name") }
+        location = engine.getManager(PlaceManager::class.java).matchPlace(json.requireString("location"))
+            .orElseThrow { IllegalArgumentException("Could not find location ${json.requireString("location")} for airport $name") }
         size = AirportSize.valueOf(json.requireString("size").uppercase().replace(Regex("[^A-Z]"), "_"))
         enplanement = json.requireInt("enplanement")
     }

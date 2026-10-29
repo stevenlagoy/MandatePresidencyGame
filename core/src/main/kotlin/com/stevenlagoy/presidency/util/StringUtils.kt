@@ -1,4 +1,5 @@
 @file:JvmName("StringUtils")
+
 package com.stevenlagoy.presidency.util
 
 import java.util.regex.Pattern
@@ -6,6 +7,7 @@ import java.util.regex.Pattern
 /* ---------- CORE HELPERS ------------ */
 
 fun String.normalize() = this.replace(Regex("\\s+"), "_").lowercase()
+
 @JvmName("stringNormalize")
 fun normalize(string: String) = string.normalize()
 
@@ -77,7 +79,8 @@ fun String.countUnquotedChar(target: Char): Int =
  *
  * @return index or -1 if not found
  */
-fun String.findFirstUnquotedChar(target: Char): Int = withIndex().indexOfFirst { (i, c) -> c == target && !isInString(i) }
+fun String.findFirstUnquotedChar(target: Char): Int =
+    withIndex().indexOfFirst { (i, c) -> c == target && !isInString(i) }
 
 /* ------------ SPLITTING --------------- */
 
@@ -183,11 +186,13 @@ fun String.replaceDigitsWithWords(): String =
  * Title-cases this string, optionally ignoring common articles.
  */
 fun String.titlecase(ignoreArticles: Boolean): String =
-    titlecase(if (ignoreArticles) setOf(
+    titlecase(
+        if (ignoreArticles) setOf(
             "a", "an", "and", "as", "at", "but", "by", "for", "in", "nor", "of",
             "off", "on", "or", "per", "so", "that", "the", "to", "until", "up",
             "via", "while", "with", "yet",
-    ) else emptySet())
+        ) else emptySet()
+    )
 
 /**
  * Title-cases words while optionally skipping [ignoredWords].
@@ -226,9 +231,10 @@ fun String.splitClauses(): List<String> =
 fun String.truncate(maxLength: Int): String {
     return when (length) {
         in 0..maxLength -> this
-        else -> this.substring(0..maxLength-3) + "..."
+        else -> this.substring(0..maxLength - 3) + "..."
     }
 }
+
 fun Any.truncate(maxLength: Int): String = toString().truncate(maxLength)
 
 /* ---------------- COMPARISON ---------------- */
@@ -424,7 +430,8 @@ fun String.fuzzyCompare(other: String): Double {
 }
 
 fun String.damerauLevenshtein(other: String): Int {
-    val n = this.length; val m = other.length
+    val n = this.length
+    val m = other.length
     val d = Array(n + 1) { IntArray(m + 1) }
     for (i in 0..n) d[i][0] = i
     for (j in 0..m) d[0][j] = j
@@ -461,7 +468,8 @@ fun String.metaphone() = this.lowercase().replace(Regex("""\p{P}"""), "").replac
     // Drop 'B' after 'M' at the end of the word.
     .replace(Regex("""mb(s|er|ed|ers|ing?)\b"""), "m$1")
     // 'C' transforms to 'X' if followed by 'IA' or 'H' (unless in latter case, it is part of '-SCH-', in which case it transforms to 'K'). 'C' transforms to 'S' if followed by 'I', 'E', or 'Y'. Otherwise, 'C' transforms to 'K'.
-    .replace("sch", "skh").replace(Regex("""c(ia)|c(h)"""), "x$1$2").replace(Regex("""c([iey])"""), "s$1").replace("c", "k")
+    .replace("sch", "skh").replace(Regex("""c(ia)|c(h)"""), "x$1$2").replace(Regex("""c([iey])"""), "s$1")
+    .replace("c", "k")
     // 'D' transforms to 'J' if followed by 'GE', 'GY', or 'GI'. Otherwise, 'D' transforms to 'T'.
     .replace(Regex("""d(ge|gy|gi)"""), "j$1").replace("d", "t")
     // Drop 'G' if followed by 'H' and 'H' is not at the end or before a vowel. Drop 'G' if followed by 'N' or 'NED' and is at the end.

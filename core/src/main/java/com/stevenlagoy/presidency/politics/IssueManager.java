@@ -68,4 +68,5 @@ public class IssueManager extends Manager {
         }
         return Optional.empty();
     }
+
 }

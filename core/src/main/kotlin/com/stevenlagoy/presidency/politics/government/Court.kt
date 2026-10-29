@@ -47,6 +47,8 @@ class Court(
         internal set
 
     init {
-        if (_basis != null) { basis = _basis }
+        if (_basis != null) {
+            basis = _basis
+        }
     }
 }

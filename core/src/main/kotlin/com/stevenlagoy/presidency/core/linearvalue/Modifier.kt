@@ -20,10 +20,12 @@ class Modifier(
 
     fun evaluate(): Double = baseEffect * decayFunction.evaluate()
 
-    override fun toJson() = JSONObject(hashCode().toString(), listOf(
-        JSONObject("baseEffect", baseEffect),
-        JSONObject("decayFunction", decayFunction.toString()), // TODO Idk if this works
-    ))
+    override fun toJson() = JSONObject(
+        hashCode().toString(), listOf(
+            JSONObject("baseEffect", baseEffect),
+            JSONObject("decayFunction", decayFunction.toString()), // TODO Idk if this works
+        )
+    )
 
     override fun fromJson(json: JSONObject) = this.apply {
         baseEffect = json.requireDouble("baseEffect")

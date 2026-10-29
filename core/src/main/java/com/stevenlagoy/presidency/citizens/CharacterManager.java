@@ -11,8 +11,12 @@ import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.demographics.Bloc;
 import com.stevenlagoy.presidency.demographics.Demographics;
 import com.stevenlagoy.presidency.map.entities.Place;
+import com.stevenlagoy.presidency.map.entities.PlaceManager;
 import com.stevenlagoy.presidency.politics.PoliticalAlignment;
-import com.stevenlagoy.presidency.util.*;
+import com.stevenlagoy.presidency.util.CollectionUtils;
+import com.stevenlagoy.presidency.util.FilePath;
+import com.stevenlagoy.presidency.util.RandomUtils;
+import com.stevenlagoy.presidency.util.TimeUtils;
 import kotlin.uuid.Uuid;
 import org.jetbrains.annotations.NotNull;
 
@@ -120,7 +124,8 @@ public class CharacterManager extends Manager {
                     birthdateDistribution.put(date, value);
                 }
             }
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             onError(e);
         }
     }
@@ -144,7 +149,8 @@ public class CharacterManager extends Manager {
                     ageDistribution.put(key, distribution);
                 }
             }
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             onError(e);
         }
     }
@@ -278,10 +284,10 @@ public class CharacterManager extends Manager {
             // context.name = NAME_MANAGER.buildPersonalName(new NameManager.NameContext(context.demographics, engine.TIME_MANAGER.yearsAgo(context.birthday), null));
         }
         if (context.origin == null) {
-            context.origin = engine.MAP_MANAGER.selectPlace(context.demographics);
+            context.origin = engine.getManager(PlaceManager.class).selectRandom(); // (context.demographics);
         }
         if (context.residence == null) {
-            context.residence = engine.MAP_MANAGER.selectPlace(context.demographics);
+            context.residence = engine.getManager(PlaceManager.class).selectRandom(); // (context.demographics);
         }
 
         Citizen citizen = new Citizen(
@@ -367,7 +373,7 @@ public class CharacterManager extends Manager {
 
     public @NotNull PoliticalActor buildPoliticalActor() {
         Citizen citizen = buildCitizen(false);
-        ExperienceHistory experiences = EXPERIENCE_MANAGER.buildExperienceHistory(citizen.getBirthday().plusYears(18));
+        PersonalExperienceHistory experiences = EXPERIENCE_MANAGER.buildExperienceHistory(citizen.getBirthday().plusYears(18));
         Skills skills = SKILLS_MANAGER.generateSkills();
         Personality personality = new Personality();
         PoliticalAlignment alignment = new PoliticalAlignment();

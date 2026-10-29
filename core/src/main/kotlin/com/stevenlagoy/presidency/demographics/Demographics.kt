@@ -6,7 +6,7 @@ import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.util.Logger
 
-class Demographics (
+class Demographics(
     engine: Engine,
     generation: Bloc,
     religion: Bloc,
@@ -14,7 +14,13 @@ class Demographics (
     presentation: Bloc
 ) : JSONSerializable<Demographics>, EngineBound(engine) {
 
-    constructor(other: Demographics) : this(other.engine, other.generation, other.religion, other.raceEthnicity, other.presentation)
+    constructor(other: Demographics) : this(
+        other.engine,
+        other.generation,
+        other.religion,
+        other.raceEthnicity,
+        other.presentation
+    )
 
     constructor(
         engine: Engine,
@@ -33,7 +39,11 @@ class Demographics (
     var generation = generation
         set(value) {
             if (value.category != DemographicCategory.GENERATION) {
-                Logger.error("INVALID BLOC GROUP", "The bloc \"${value.name}\" of type ${value.category} was assigned to a demographic category of type GENERATION.", Exception())
+                Logger.error(
+                    "INVALID BLOC GROUP",
+                    "The bloc \"${value.name}\" of type ${value.category} was assigned to a demographic category of type GENERATION.",
+                    Exception()
+                )
                 return
             }
             field = value
@@ -42,7 +52,11 @@ class Demographics (
     var religion = religion
         set(value) {
             if (value.category != DemographicCategory.RELIGION) {
-                Logger.error("INVALID BLOC GROUP", "The bloc \"${value.name}\" of type ${value.category} was assigned to a demographic category of type RELIGION.", Exception())
+                Logger.error(
+                    "INVALID BLOC GROUP",
+                    "The bloc \"${value.name}\" of type ${value.category} was assigned to a demographic category of type RELIGION.",
+                    Exception()
+                )
                 return
             }
             field = value
@@ -51,7 +65,11 @@ class Demographics (
     var raceEthnicity = raceEthnicity
         set(value) {
             if (value.category != DemographicCategory.RACE_ETHNICITY) {
-                Logger.error("INVALID BLOC GROUP", "The bloc \"${value.name}\" of type ${value.category} was assigned to a demographic category of type RACE_ETHNICITY.", Exception())
+                Logger.error(
+                    "INVALID BLOC GROUP",
+                    "The bloc \"${value.name}\" of type ${value.category} was assigned to a demographic category of type RACE_ETHNICITY.",
+                    Exception()
+                )
                 return
             }
             field = value
@@ -60,7 +78,11 @@ class Demographics (
     var presentation = presentation
         set(value) {
             if (value.category != DemographicCategory.PRESENTATION) {
-                Logger.error("INVALID BLOC GROUP", "The bloc \"${value.name}\" of type ${value.category} was assigned to a demographic category of type PRESENTATION.", Exception())
+                Logger.error(
+                    "INVALID BLOC GROUP",
+                    "The bloc \"${value.name}\" of type ${value.category} was assigned to a demographic category of type PRESENTATION.",
+                    Exception()
+                )
                 return
             }
             field = value
@@ -82,12 +104,14 @@ class Demographics (
         presentation: $presentation,
     ]""".trimIndent()
 
-    override fun toJson() = JSONObject(this.hashCode().toString(), mapOf(
-        "generation" to generation.name,
-        "religion" to religion.name,
-        "race_ethnicity" to raceEthnicity.name,
-        "presentation" to presentation.name,
-    ))
+    override fun toJson() = JSONObject(
+        this.hashCode().toString(), mapOf(
+            "generation" to generation.name,
+            "religion" to religion.name,
+            "race_ethnicity" to raceEthnicity.name,
+            "presentation" to presentation.name,
+        )
+    )
 
     override fun fromJson(json: JSONObject) = this.apply {
         generation = engine.DEMOGRAPHICS_MANAGER.matchBloc(json.requireString("generation")).orElseThrow()

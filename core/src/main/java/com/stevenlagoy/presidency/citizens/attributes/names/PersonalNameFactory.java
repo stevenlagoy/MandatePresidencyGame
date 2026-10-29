@@ -11,6 +11,8 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
+import static com.stevenlagoy.presidency.citizens.attributes.names.NameManager.NameForm.*;
+
 public class PersonalNameFactory extends Factory<PersonalName, PersonalNameFactory.NameContext> {
 
     // Constants
@@ -50,8 +52,17 @@ public class PersonalNameFactory extends Factory<PersonalName, PersonalNameFacto
     /** Percentage of people who commonly use a nickname which is not based on one of their given names. */
     public static final float nicknameNotFromGivenNamesPercent = 0.05f;
 
-    PersonalNameFactory(@NotNull Engine engine) {
+    // Instance Fields
+
+    private final NameManager nameManager;
+
+    PersonalNameFactory(@NotNull Engine engine, @NotNull NameManager nameManager) {
         super(engine);
+        this.nameManager = nameManager;
+    }
+
+    public @NotNull NameManager getNameManager() {
+        return nameManager;
     }
 
     /** Record class with context values for creating a PersonalName. */

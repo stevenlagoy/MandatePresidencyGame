@@ -6,7 +6,7 @@ import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.Manager
 import com.stevenlagoy.presidency.demographics.Bloc
 import com.stevenlagoy.presidency.map.Descriptor
-import com.stevenlagoy.presidency.map.RegionData
+import com.stevenlagoy.presidency.map.MapRegion
 import kotlin.jvm.optionals.getOrNull
 import kotlin.uuid.ExperimentalUuidApi
 
@@ -18,7 +18,7 @@ class CongressionalDistrict(
     population: Int = 0,
     demographics: Map<Bloc, Double> = mapOf(),
     descriptors: Set<Descriptor> = setOf(),
-    region: RegionData? = null,
+    region: MapRegion? = null,
     _state: StateEquivalent? = null,
     var districtNumber: Int = 0,
     var representative: PoliticalActor? = null,
@@ -54,11 +54,13 @@ class CongressionalDistrict(
 
     override fun fromJson(json: JSONObject) = this.apply {
         super.fromJson(json)
-        val _state = engine.MAP_MANAGER.matchState(json.requireString("state"))
+        val _state = engine.getManager(StateEquivalentManager::class.java).matchByKey(json.requireString("state"))
         if (_state.isPresent) state = _state.get()
         districtNumber = json.requireInt("districtNumber")
-        representative = if (json.hasKey("representative") && engine.CHARACTER_MANAGER.state == Manager.ManagerState.ACTIVE)
-            engine.CHARACTER_MANAGER.matchCitizenById(json.requireString("representative")).getOrNull() as PoliticalActor?
+        representative =
+            if (json.hasKey("representative") && engine.CHARACTER_MANAGER.state == Manager.ManagerState.ACTIVE)
+                engine.CHARACTER_MANAGER.matchCitizenById(json.requireString("representative"))
+                    .getOrNull() as PoliticalActor?
             else null
     }
 }

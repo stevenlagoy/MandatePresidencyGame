@@ -16,48 +16,44 @@ import java.util.Map;
  * <h1>LANGUAGE MANAGER</h1>
  * {@code ~/core/LanguageManager.java}
  * <p>
- *     <b>Author:  </b> Steven LaGoy   <br>
- *     <b>Created: </b> 26 August 2025 <br>
- *     <b>Modified:</b> 02 June 2026   <br>
+ * <b>Author:  </b> Steven LaGoy   <br>
+ * <b>Created: </b> 26 August 2025 <br>
+ * <b>Modified:</b> 02 June 2026   <br>
  * </p>
- *
+ * <p>
  * The LanguageManager tracks the current game language and provides localization for tags.
  */
 public final class LanguageManager extends Manager {
 
     // Static Variables
 
-    /** Possible languages in which to display game text. */
+    /**
+     * Possible languages in which to display game text.
+     */
     public enum Language {
 
-        EN("English"),
-        ZH("简体中文"),
-        RU("Русский"),
-        ES("Español"),
-        PT("Português"),
-        DE("Deutsch"),
-        FR("Français"),
-        JA("日本語"),
-        PL("Polski"),
-        TR("Türkçe");
+        EN("English"), ZH("简体中文"), RU("Русский"), ES("Español"), PT("Português"), DE("Deutsch"), FR("Français"), JA("日本語"), PL("Polski"), TR("Türkçe");
 
         public final String name;
+
         Language(String name) {
             this.name = name;
         }
 
         public static @NotNull Language fromName(String name) throws IllegalArgumentException {
             for (Language lang : Language.values())
-                if (lang.name.equals(name))
-                    return lang;
+                if (lang.name.equals(name)) return lang;
             throw new IllegalArgumentException("Invalid language name: " + name);
         }
+
         public @NotNull Path getLocalizationsDirectoryPath() {
             return FilePath._LOCALIZATION.resolve(this.toString());
         }
+
         public @NotNull Path getDescriptionLocalizationsPath() {
             return getLocalizationsDirectoryPath().resolve(String.format("%s_descriptions%s", this, IOUtils.FileExtension.JSON));
         }
+
         public @NotNull Path getSystemTextLocalizationsPath() {
             return getLocalizationsDirectoryPath().resolve(String.format("%s_system_text%s", this, IOUtils.FileExtension.JSON));
         }
@@ -67,14 +63,20 @@ public final class LanguageManager extends Manager {
 
     // Instance Fields
 
-    /** Current language of the game. */
+    /**
+     * Current language of the game.
+     */
     private @NotNull Language gameLanguage;
-    /** For each language, stores tag : sentence pairs for localization tags. */
+    /**
+     * For each language, stores tag : sentence pairs for localization tags.
+     */
     public final @NotNull Map<Language, Map<String, String>> localizations;
 
     // Constructor
 
-    /** Create an inactive LanguageManager with default values. */
+    /**
+     * Create an inactive LanguageManager with default values.
+     */
     public LanguageManager(@NotNull Engine engine, @NotNull Manager superManager) {
         super(engine, superManager);
         gameLanguage = Language.defaultLanguage;
@@ -84,7 +86,7 @@ public final class LanguageManager extends Manager {
     // Manager Methods
 
     @Override
-    @Contract(pure = true)
+    @Contract(pure=true)
     public @NotNull List<Manager> getSubManagers() {
         return List.of();
     }
@@ -115,16 +117,15 @@ public final class LanguageManager extends Manager {
 
     @Override
     protected @NotNull JSONObject doToJson() {
-        return new JSONObject(getClass().getSimpleName(), List.of(
-            new JSONObject("gameLanguage", gameLanguage.name)
-        ));
+        return new JSONObject(getClass().getSimpleName(), List.of(new JSONObject("gameLanguage", gameLanguage.name)));
     }
 
     @Override
     public void doFromJson(@NotNull JSONObject json) {
         try {
             gameLanguage = Language.valueOf(json.requireString("gameLanguage"));
-        } catch (IllegalArgumentException e) {
+        }
+        catch (IllegalArgumentException e) {
             onDegraded(e);
             gameLanguage = Language.defaultLanguage;
         }
@@ -148,6 +149,7 @@ public final class LanguageManager extends Manager {
     }
 
     // Localizations : Map of String to String
+
     /**
      * Get the localization for a given tag in the current game language.
      *
@@ -181,7 +183,9 @@ public final class LanguageManager extends Manager {
         return tag;
     }
 
-    /** Load the localizations for a given language. */
+    /**
+     * Load the localizations for a given language.
+     */
     public void loadLocalizations(Language language) {
         requireState(ManagerState.INITIALIZING, ManagerState.ACTIVE, ManagerState.PAUSED, ManagerState.DEGRADED);
         if (localizations.containsKey(language)) return;
@@ -198,8 +202,10 @@ public final class LanguageManager extends Manager {
                 }
             }
             localizations.put(language, local);
-        } catch (IOException e) {
+        }
+        catch (IOException e) {
             onError(e);
         }
     }
+
 }

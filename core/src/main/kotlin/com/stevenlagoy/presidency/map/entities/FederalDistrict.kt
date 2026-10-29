@@ -13,11 +13,11 @@ object FederalDistrict : StateEquivalent(
     override val countyEquivalent: CountyEquivalent get() = this
     override val stateEquivalent: StateEquivalent get() = this
 
-    private val _subdivisions = mutableListOf<CountySubdivision>()
-    override val countySubdivisions: List<CountySubdivision> get() = _subdivisions
+    private val _subdivisions = mutableSetOf<CountySubdivision>()
+    override val countySubdivisions: Set<CountySubdivision> get() = _subdivisions
 
     val city: Place
-        get() = engine.MAP_MANAGER.requirePlace("Washington, DC")
+        get() = engine.getManager(PlaceManager::class.java).requirePlace("Washington, DC")
 
     override val places: Set<Place> get() = setOf(city)
 }

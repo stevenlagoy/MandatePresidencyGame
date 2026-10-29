@@ -19,12 +19,13 @@ class LinearValue(
 
     val multiplicativeModifiers: MutableList<Modifier> = mutableListOf()
 
-    val currentValue: Double get() {
-        pruneExpired()
-        val addSum = additiveModifiers.sumOf { it.evaluate() }
-        val multProduct = multiplicativeModifiers.fold(1.0) { acc, mod -> acc * mod.evaluate() }
-        return base * multProduct + addSum
-    }
+    val currentValue: Double
+        get() {
+            pruneExpired()
+            val addSum = additiveModifiers.sumOf { it.evaluate() }
+            val multProduct = multiplicativeModifiers.fold(1.0) { acc, mod -> acc * mod.evaluate() }
+            return base * multProduct + addSum
+        }
 
     constructor(min: Int, max: Int, base: Int) : this(min.toDouble(), max.toDouble(), base.toDouble())
 
@@ -53,21 +54,25 @@ class LinearValue(
         }
     }
 
-    override fun toJson(): JSONObject = JSONObject(hashCode().toString(), listOf(
-        JSONObject("min", min),
-        JSONObject("max", max),
-        JSONObject("base", base),
-        JSONObject("additiveModifiers", additiveModifiers.map { it.toJson() }),
-        JSONObject("multiplicativeModifiers", multiplicativeModifiers.map { it.toJson() }),
-    ))
+    override fun toJson(): JSONObject = JSONObject(
+        hashCode().toString(), listOf(
+            JSONObject("min", min),
+            JSONObject("max", max),
+            JSONObject("base", base),
+            JSONObject("additiveModifiers", additiveModifiers.map { it.toJson() }),
+            JSONObject("multiplicativeModifiers", multiplicativeModifiers.map { it.toJson() }),
+        )
+    )
 
     override fun fromJson(json: JSONObject) = this.apply {
         min = json.requireDouble("min")
         max = json.requireDouble("max")
         base = json.requireDouble("base")
         additiveModifiers.clear()
-        additiveModifiers.addAll(json.requireArray("additiveModifiers").filterIsInstance<JSONObject>().map { Modifier(it) })
+        additiveModifiers.addAll(
+            json.requireArray("additiveModifiers").filterIsInstance<JSONObject>().map { Modifier(it) })
         multiplicativeModifiers.clear()
-        multiplicativeModifiers.addAll(json.requireArray("multiplicativeModifiers").filterIsInstance<JSONObject>().map { Modifier(it) })
+        multiplicativeModifiers.addAll(
+            json.requireArray("multiplicativeModifiers").filterIsInstance<JSONObject>().map { Modifier(it) })
     }
 }

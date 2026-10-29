@@ -4,29 +4,30 @@ import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.presidency.util.titlecase
 
 class EasternPersonalName(
-    var familyName:     String             = "",
-    var generationName: String?            = null,
-    var givenName:      String             = "",
-    var westernName:    String?            = null,
-    honorific:          String?            = null,
-    nickname:           String?           = null,
-    suffixes:           List<String>       = listOf(),
-    displayOptions:     Set<DisplayOption> = setOf(),
-) : PersonalName(honorific, null, suffixes, displayOptions)
-{
+    var familyName: String = "",
+    var generationName: String? = null,
+    var givenName: String = "",
+    var westernName: String? = null,
+    honorific: String? = null,
+    nickname: String? = null,
+    suffixes: List<String> = listOf(),
+    displayOptions: Set<DisplayOption> = setOf(),
+) : PersonalName(honorific, null, suffixes, displayOptions) {
 
     constructor(other: PersonalName) : this(
         "", null, "", null,
         other.honorific, other.nickname, other.suffixes, other.displayOptions
     ) {
         other as EasternPersonalName
-        this.familyName     = other.familyName
+        this.familyName = other.familyName
         this.generationName = other.generationName
-        this.givenName      = other.givenName
-        this.westernName    = other.westernName
+        this.givenName = other.givenName
+        this.westernName = other.westernName
     }
 
-    constructor(json: JSONObject) : this() { fromJson(json) }
+    constructor(json: JSONObject) : this() {
+        fromJson(json)
+    }
 
     val fullGiven: String get() = (generationName + givenName).titlecase().trim()
 
@@ -50,14 +51,14 @@ class EasternPersonalName(
 
     override fun copy(other: PersonalName) {
         this.honorific = other.honorific
-        this.nickname  = other.nickname
-        this.suffixes  = other.suffixes
+        this.nickname = other.nickname
+        this.suffixes = other.suffixes
         this.displayOptions = other.displayOptions
         if (other is EasternPersonalName) {
-            this.familyName     = other.familyName
+            this.familyName = other.familyName
             this.generationName = other.generationName
-            this.givenName      = other.givenName
-            this.westernName    = other.westernName
+            this.givenName = other.givenName
+            this.westernName = other.westernName
         }
     }
 
@@ -71,9 +72,9 @@ class EasternPersonalName(
     )
 
     override fun fromJson(json: JSONObject) = super.fromJson(json).apply {
-        familyName     = json.requireString("family_name", "familyName")
+        familyName = json.requireString("family_name", "familyName")
         generationName = json.requireString("generation_name", "generationName")
-        givenName      = json.requireString("given_name", "givenName")
-        westernName    = json.requireString("western_name", "westernName")
+        givenName = json.requireString("given_name", "givenName")
+        westernName = json.requireString("western_name", "westernName")
     }
 }

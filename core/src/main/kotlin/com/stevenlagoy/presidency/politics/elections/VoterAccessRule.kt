@@ -72,12 +72,13 @@ sealed class VoterAccessRule(
 
     fun toJson() = JSONObject("voterAccessRule", this::class.simpleName!!)
 
-    fun fromJson(json: JSONObject, party: Party): VoterAccessRule = when (json.requireString("voterAccessRule").lowercase()) {
-        "open"             -> Open()
-        "partiallyopen"    -> PartiallyOpen()
-        "openunaffiliated" -> OpenUnaffiliated(party)
-        "partiallyclosed"  -> PartiallyClosed(party)
-        "closed"           -> Closed(party)
-        else               -> throw IllegalArgumentException("Unknown voter access rule: $json")
-    }
+    fun fromJson(json: JSONObject, party: Party): VoterAccessRule =
+        when (json.requireString("voterAccessRule").lowercase()) {
+            "open" -> Open()
+            "partiallyopen" -> PartiallyOpen()
+            "openunaffiliated" -> OpenUnaffiliated(party)
+            "partiallyclosed" -> PartiallyClosed(party)
+            "closed" -> Closed(party)
+            else -> throw IllegalArgumentException("Unknown voter access rule: $json")
+        }
 }
