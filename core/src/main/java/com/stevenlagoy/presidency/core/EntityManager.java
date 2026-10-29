@@ -42,8 +42,7 @@ public abstract class EntityManager<T, K> extends Manager implements Iterable<T>
 
     @Override
     protected void doCleanup() {
-        entities.clear();
-        index.clear();
+        clearEntities();
     }
 
     // Serialization
@@ -66,6 +65,23 @@ public abstract class EntityManager<T, K> extends Manager implements Iterable<T>
         }
         return json;
     }
+
+    @Override
+    protected void doFromJson(@NotNull JSONObject json) {
+        for (Object obj : json.requireArray()) {
+            if (obj instanceof JSONObject objJson) {
+                register(entityFromJson(objJson));
+            }
+        }
+    }
+
+    /**
+     * Construct a new entity from the given JSONObject representation. May delegate to a constructor
+     * which accepts a JSONObject.
+     * @param json JSONObject representing the entity to be constructed.
+     * @return New entity with fields specified by the given JSONObject.
+     */
+    protected abstract @NotNull T entityFromJson(JSONObject json);
 
     // Entity Manager
 

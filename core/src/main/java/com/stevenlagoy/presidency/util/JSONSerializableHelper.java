@@ -1,7 +1,9 @@
-package com.stevenlagoy.presidency.core;
+package com.stevenlagoy.presidency.util;
 
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.jsonic.JSONSerializable;
+import com.stevenlagoy.presidency.core.Engine;
+import com.stevenlagoy.presidency.core.EngineBound;
 import org.jetbrains.annotations.NotNull;
 
 /**

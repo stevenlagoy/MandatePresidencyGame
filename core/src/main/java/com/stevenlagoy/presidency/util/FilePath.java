@@ -15,7 +15,7 @@ public enum FilePath {
             _DATA                       (_ASSETS, "data"),
                 _CHARACTERS                 (_DATA, "characters"),
                     _EXPERIENCES                (_CHARACTERS, "experiences"),
-                        EXPERINECES                 (_EXPERIENCES, "experiences", JSON),
+                        EXPERIENCE_TYPES            (_EXPERIENCES, "experienceTypes", JSON),
                     _NAMES                      (_CHARACTERS, "names"),
                         DECADE_NAMES                (_NAMES, "decade_names", JSON),
                         FAMILY_NAMES                (_NAMES, "family_names", JSON),

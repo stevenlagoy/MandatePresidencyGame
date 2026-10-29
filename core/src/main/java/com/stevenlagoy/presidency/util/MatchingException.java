@@ -22,5 +22,4 @@ public class MatchingException extends RuntimeException {
         MatchingException that = (MatchingException) o;
         return this.getMessage().equals(that.getMessage()) && Objects.equals(matchingMethod, that.matchingMethod);
     }
-
 }

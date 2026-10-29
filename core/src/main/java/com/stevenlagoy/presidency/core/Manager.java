@@ -294,7 +294,7 @@ public abstract class Manager extends EngineBound implements JSONSerializable<Ma
     /**
      * Complete manager-subclass-specific fromJson logic. Should not call {@link #fromJson(JSONObject)} or {@code doFromJson(JSONObject)} on any Managers (including submanagers).
      */
-    protected abstract void doFromJson(@NotNull JSONObject json); // Does not return, as we return self
+    protected abstract void doFromJson(@NotNull JSONObject json);
 
     // State Access
 

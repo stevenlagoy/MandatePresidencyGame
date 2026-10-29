@@ -4,8 +4,8 @@ import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.EntityManager;
 import com.stevenlagoy.presidency.core.Manager;
-import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
+import com.stevenlagoy.presidency.util.FilePath;import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;import java.io.IOException;
 
 class PersonalExperienceTypeManager extends EntityManager<PersonalExperienceType, String> {
 
@@ -15,10 +15,17 @@ class PersonalExperienceTypeManager extends EntityManager<PersonalExperienceType
 
     @Override
     protected void doInit() {
+        try {
+            fromJson(new JSONObject(FilePath.EXPERIENCE_TYPES.path));
+        }
+        catch (IOException e) {
+            onError(e);
+        }
     }
 
     @Override
-    protected void doFromJson(@NotNull JSONObject json) {
+    protected @NotNull PersonalExperienceType entityFromJson(JSONObject json) {
+        return new PersonalExperienceType(engine, json);
     }
 
     @Override
