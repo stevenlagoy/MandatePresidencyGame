@@ -2,7 +2,7 @@ package com.stevenlagoy.presidency.characters;
 
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.presidency.characters.attributes.*;
-import com.stevenlagoy.presidency.characters.attributes.experiences.ExperienceHistory;
+import com.stevenlagoy.presidency.characters.attributes.experiences.PersonalExperienceHistory;
 import com.stevenlagoy.presidency.characters.attributes.names.NameManager;
 import com.stevenlagoy.presidency.characters.attributes.names.PersonalName;
 import com.stevenlagoy.presidency.core.Engine;
@@ -358,7 +358,7 @@ public class CharacterManager extends Manager {
 
     public @NotNull PoliticalActor buildPoliticalActor() {
         Citizen citizen = buildCitizen(false);
-        ExperienceHistory experiences = EXPERIENCE_MANAGER.buildExperienceHistory(citizen.getBirthday().plusYears(18));
+        PersonalExperienceHistory experiences = EXPERIENCE_MANAGER.buildExperienceHistory(citizen.getBirthday().plusYears(18));
         Skills skills = SKILLS_MANAGER.generateSkills();
         Personality personality = new Personality();
         PoliticalAlignment alignment = new PoliticalAlignment();

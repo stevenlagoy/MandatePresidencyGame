@@ -1,8 +1,8 @@
 package com.stevenlagoy.presidency.core.characters.attributes;
 
 import com.stevenlagoy.presidency.characters.attributes.ExperienceManager;
-import com.stevenlagoy.presidency.characters.attributes.experiences.Experience;
-import com.stevenlagoy.presidency.characters.attributes.experiences.ExperienceHistory;
+import com.stevenlagoy.presidency.characters.attributes.experiences.PersonalExperienceType;
+import com.stevenlagoy.presidency.characters.attributes.experiences.PersonalExperienceHistory;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
 import org.junit.jupiter.api.Test;
@@ -41,21 +41,21 @@ public class ExperienceTest {
         experienceManager.init();
         Thread.sleep(2000);
         boolean foundPrerequisites = false, foundConnections = false;
-        for (Experience experience : experienceManager.getExperiences()) {
-            assert(!experience.getLabel().isBlank());
-            assert(!experience.getName().isBlank());
-            assert(!experience.getTrack().isBlank());
-            assert(experience.getCapacity() > 0.0);
-            assert(experience.getMinTenure() > 0.0);
-            assert(experience.getAvgTenure() > 0.0);
-            assert(experience.getMaxTenure() > 0.0);
-            foundPrerequisites = foundPrerequisites || !experience.getPrerequisites().isEmpty();
-            assert(experience.getMinAge() >= 18);
-            assert(experience.getYearlySkills().getFirst() >= 0.0);
-            assert(experience.getYearlySkills().getSecond() >= 0.0);
-            assert(experience.getYearlySkills().getThird() >= 0.0);
-            assert(!experience.getDescription().isBlank());
-            foundConnections = foundConnections || !experience.getConnections().isEmpty();
+        for (PersonalExperienceType personalExperienceType : experienceManager.getExperiences()) {
+            assert(!personalExperienceType.getLabel().isBlank());
+            assert(!personalExperienceType.getName().isBlank());
+            assert(!personalExperienceType.getTrack().isBlank());
+            assert(personalExperienceType.getCapacity() > 0.0);
+            assert(personalExperienceType.getMinTenure() > 0.0);
+            assert(personalExperienceType.getAvgTenure() > 0.0);
+            assert(personalExperienceType.getMaxTenure() > 0.0);
+            foundPrerequisites = foundPrerequisites || !personalExperienceType.getPrerequisites().isEmpty();
+            assert(personalExperienceType.getMinAge() >= 18);
+            assert(personalExperienceType.getYearlySkills().getFirst() >= 0.0);
+            assert(personalExperienceType.getYearlySkills().getSecond() >= 0.0);
+            assert(personalExperienceType.getYearlySkills().getThird() >= 0.0);
+            assert(!personalExperienceType.getDescription().isBlank());
+            foundConnections = foundConnections || !personalExperienceType.getConnections().isEmpty();
         }
         assertTrue(foundPrerequisites);
         assertTrue(foundConnections);
@@ -69,11 +69,11 @@ public class ExperienceTest {
         ExperienceManager experienceManager = engine.CHARACTER_MANAGER.EXPERIENCE_MANAGER;
         experienceManager.init();
         Thread.sleep(2000);
-        ExperienceHistory experienceHistory = experienceManager.buildExperienceHistory(LocalDate.of(1970, 1, 1));
+        PersonalExperienceHistory personalExperienceHistory = experienceManager.buildExperienceHistory(LocalDate.of(1970, 1, 1));
         assertEquals(Manager.ManagerState.ACTIVE, experienceManager.getState());
-        assertFalse(experienceHistory.getExperiences().isEmpty());
-        System.out.println(experienceHistory.toJson());
-        System.out.println(experienceHistory.getTotalSkillsDeveloped());
+        assertFalse(personalExperienceHistory.getExperiences().isEmpty());
+        System.out.println(personalExperienceHistory.toJson());
+        System.out.println(personalExperienceHistory.getTotalSkillsDeveloped());
     }
 
     @Test
@@ -89,10 +89,10 @@ public class ExperienceTest {
         long iterations = 100_000;
         double startTime = engine.getProgramTime();
         for (int i = 0; i < iterations; i++) {
-            ExperienceHistory experienceHistory = experienceManager.buildExperienceHistory(LocalDate.of(1970, 1, 1));
+            PersonalExperienceHistory personalExperienceHistory = experienceManager.buildExperienceHistory(LocalDate.of(1970, 1, 1));
             assertEquals(Manager.ManagerState.ACTIVE, experienceManager.getState());
-            assertFalse(experienceHistory.getExperiences().isEmpty());
-            var skills = experienceHistory.getTotalSkillsDeveloped();
+            assertFalse(personalExperienceHistory.getExperiences().isEmpty());
+            var skills = personalExperienceHistory.getTotalSkillsDeveloped();
             totalLegislative += skills.getFirst();
             totalExecutive   += skills.getSecond();
             totalJudicial    += skills.getThird();
@@ -112,11 +112,11 @@ public class ExperienceTest {
         ExperienceManager experienceManager = engine.CHARACTER_MANAGER.EXPERIENCE_MANAGER;
         experienceManager.init();
         Thread.sleep(2000);
-        ExperienceHistory experienceHistory = new ExperienceHistory(engine, List.of(new ExperienceHistory.ExperienceEntry(engine, experienceManager.matchExperience("supreme_court_justice").orElseThrow(), LocalDate.of(2010, 1, 1), null)));
-        experienceManager.fillExperienceHistory(LocalDate.of(1970, 1, 1), experienceHistory);
-        assertTrue(experienceHistory.getExperiences().size() > 5);
-        for (ExperienceHistory.ExperienceEntry experienceEntry : experienceHistory.getExperiences()) {
-            assertTrue(experienceEntry.getExperience().prerequisitsMet(experienceHistory.getExperiencesBefore(experienceEntry).stream().map(ExperienceHistory.ExperienceEntry::getExperience).collect(Collectors.toSet())));
+        PersonalExperienceHistory personalExperienceHistory = new PersonalExperienceHistory(engine, List.of(new PersonalExperienceHistory.ExperienceEntry(engine, experienceManager.matchExperience("supreme_court_justice").orElseThrow(), LocalDate.of(2010, 1, 1), null)));
+        experienceManager.fillExperienceHistory(LocalDate.of(1970, 1, 1), personalExperienceHistory);
+        assertTrue(personalExperienceHistory.getExperiences().size() > 5);
+        for (PersonalExperienceHistory.ExperienceEntry experienceEntry : personalExperienceHistory.getExperiences()) {
+            assertTrue(experienceEntry.getExperience().prerequisitsMet(personalExperienceHistory.getExperiencesBefore(experienceEntry).stream().map(PersonalExperienceHistory.ExperienceEntry::getExperience).collect(Collectors.toSet())));
         }
         assertEquals(Manager.ManagerState.ACTIVE, experienceManager.getState());
     }
