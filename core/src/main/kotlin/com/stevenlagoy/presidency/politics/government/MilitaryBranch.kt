@@ -1,4 +1,4 @@
-package com.stevenlagoy.presidency.characters.attributes.experiences
+package com.stevenlagoy.presidency.politics.government
 
 enum class MilitaryBranch {
     ARMY,
