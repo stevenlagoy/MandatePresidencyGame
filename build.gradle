@@ -3,7 +3,9 @@ buildscript {
   ext {
     gltfVersion = '2.3.0'
     kotlinVersion = '2.3.10'
+    testBalloonVersion = '1.2.0-RC'
   }
+
 
   repositories {
     mavenCentral()
@@ -15,6 +17,10 @@ buildscript {
   dependencies {
     classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
   }
+}
+
+plugins {
+  id 'de.infix.testBalloon' version "$testBalloonVersion"
 }
 
 allprojects {
@@ -84,6 +90,10 @@ configure(subprojects) {
 subprojects {
   version = "$projectVersion"
   ext.appName = 'MandatePresidencyGame'
+  dependencies {
+    testImplementation "de.infix.testBalloon:testBalloon-framework-core:$testBalloonVersion"
+    implementation "de.infix.testBalloon:testBalloon-integration-kotest-assertions:$testBalloonVersion"
+  }
   repositories {
     mavenCentral()
     // You may want to remove the following line if you have errors downloading dependencies.
