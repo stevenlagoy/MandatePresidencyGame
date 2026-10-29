@@ -32,7 +32,10 @@ gradle-app.setting
 /shared/build/
 
 # IDEs: IntelliJ IDEA / Android Studio
-.idea/
+.idea/**
+!.idea/runConfigurations/
+!.idea/codeStyles/
+!.idea/vcs.xml
 *.iml
 *.ipr
 *.ips
@@ -40,7 +43,10 @@ gradle-app.setting
 
 # IDEs: VS Code
 .vscode/
+!.vscode/extensions.json
 !.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
 
 # IDEs: Eclipse
 .classpath
@@ -66,7 +72,6 @@ nbproject/private/
 # Generated Assets
 assets/
 !assets/.gitkeep
-
 
 # OS Files: Windows
 Thumbs.db
@@ -111,3 +116,5 @@ docs/javadoc/
 /core/logs/
 /GIS/
 /logs/
+/tools/generated/
+/tools/raw/
