@@ -31,9 +31,10 @@ import java.util.stream.Collectors;
  * NameManager is responsible for creating and maintaining information about {@link PersonalName} attributes.
  *
  * @author Steven LaGoy
- * @implNote PersonalName is an abstract class with several concretions. This class violates the open-closed principle as specific name forms (concretions)
- * must each have separate implementation details. At this time, this is considered acceptable because the number of possible name forms is not
- * expected to increase quickly enough to warrant a more abstract strategy-pattern solution to concrete name class construction.
+ * @implNote PersonalName is an abstract class with several concretions. This class violates the open-closed
+ * principle as specific name forms (concretions) must each have separate implementation details. At this
+ * time, this is considered acceptable because the number of possible name forms is not expected to increase
+ * quickly enough to warrant a more abstract strategy-pattern solution to concrete name class construction.
  */
 public class NameManager extends EntityManager<PersonalName, String> {
 
