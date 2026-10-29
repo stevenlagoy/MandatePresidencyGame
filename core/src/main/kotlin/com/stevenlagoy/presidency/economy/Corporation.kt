@@ -14,4 +14,9 @@ class Corporation(
     val name: String,
     override val balanceSheet: BalanceSheet,
     override val cashAccount: CashAccount
-) : FinancialEntity, EngineBound(engine)
+) : FinancialEntity, EngineBound(engine) {
+
+    override val financialInstruments: Set<FinancialInstrument> = setOf()
+
+    override val monthlyCreditLimit: Double = 0.0
+}

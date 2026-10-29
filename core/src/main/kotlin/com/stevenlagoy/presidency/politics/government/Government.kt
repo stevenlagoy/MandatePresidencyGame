@@ -8,6 +8,7 @@ import com.stevenlagoy.presidency.economy.FinancialEntity
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.map.HasGovernment
+import com.stevenlagoy.presidency.economy.FinancialInstrument
 import com.stevenlagoy.presidency.map.HasPartyPresence
 import com.stevenlagoy.presidency.politics.Party
 import com.stevenlagoy.presidency.politics.elections.Election
@@ -47,6 +48,10 @@ class Government(
     )
 
     val constituency: HasGovernment get() = _constituency!!
+
+    override val financialInstruments: Set<FinancialInstrument> = setOf()
+
+    override val monthlyCreditLimit: Double = 0.0
 
     constructor(engine: Engine, json: JSONObject) : this(engine) {
         fromJson(json)
