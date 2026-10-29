@@ -1,7 +1,7 @@
 package com.stevenlagoy.presidency.core;
 
 import com.stevenlagoy.jsonic.JSONObject;
-import com.stevenlagoy.presidency.characters.CharacterManager;
+import com.stevenlagoy.presidency.citizens.CharacterManager;
 import com.stevenlagoy.presidency.demographics.DemographicsManager;
 import com.stevenlagoy.presidency.map.MapManager;
 import com.stevenlagoy.presidency.politics.EventManager;
@@ -25,11 +25,11 @@ import java.util.Map;
  * <h1>ENGINE</h1>
  * {@code ~/core/Engine.java}
  * <p>
- * <b>Author:  </b> Steven LaGoy                  <br>
- * <b>Created: </b> 26 September 2024 at 12:21 AM <br>
- * <b>Modified:</b> 02 June 2026                  <br>
+ *     <b>Author:  </b> Steven LaGoy                  <br>
+ *     <b>Created: </b> 26 September 2024 at 12:21 AM <br>
+ *     <b>Modified:</b> 02 June 2026                  <br>
  * </p>
- * <p>
+ *
  * Engine is the main driver of the game engine, facilitating the initialization and function of
  * the game by tracking critical details for game settings and other information.
  *
@@ -41,7 +41,6 @@ public final class Engine extends Manager {
 
     /**
      * Retrieve the current Engine instance
-     *
      * @return Engine instance
      */
     public static Engine getInstance() {
@@ -55,7 +54,11 @@ public final class Engine extends Manager {
      */
     public enum Difficulty {
 
-        LEVEL_1(1, "Aspiring Politician"), LEVEL_2(2, "Fledgling Politician"), LEVEL_3(3, "Hometown Hero"), LEVEL_4(4, "Career Politician"), LEVEL_5(5, "Political Machine");
+        LEVEL_1(1, "Aspiring Politician"),
+        LEVEL_2(2, "Fledgling Politician"),
+        LEVEL_3(3, "Hometown Hero"),
+        LEVEL_4(4, "Career Politician"),
+        LEVEL_5(5, "Political Machine");
 
         public final int value;
         public final String name;
@@ -89,9 +92,7 @@ public final class Engine extends Manager {
      */
     public final boolean DEBUG_MODE;
 
-    /**
-     * Current difficulty level of the game.
-     */
+    /** Current difficulty level of the game. */
     private @NotNull Difficulty gameDifficulty;
 
     /**
@@ -103,7 +104,6 @@ public final class Engine extends Manager {
     /**
      * Get the current elapsed program time in seconds. Equivalent to:
      * {@code (System.nanoTime() - Main.Engine().t_zero) / 1e-9;}
-     *
      * @return Elapsed program time in seconds
      */
     public double getProgramTime() {
@@ -130,7 +130,6 @@ public final class Engine extends Manager {
 
     /**
      * Create an Engine in normal (not debug) mode.
-     *
      * @see #Engine(boolean, Difficulty)
      */
     public Engine() {
@@ -139,7 +138,6 @@ public final class Engine extends Manager {
 
     /**
      * Create an engine in either normal or debug mode.
-     *
      * @param debug Whether to start the engine in debug mode.
      * @see #Engine(boolean, Difficulty)
      */
@@ -151,21 +149,19 @@ public final class Engine extends Manager {
      * Create an Engine with the given mode. Create but do not initialize all managers. If an error
      * is encountered while constructing a manager, {@link #getState()} will return
      * {@code ManagerState.ERROR}.
-     *
      * @param debug Start in debug mode when {@code true}, start in normal mode when {@code false}.
      */
     public Engine(boolean debug, @NotNull Difficulty difficulty) {
         t_zero = System.nanoTime();
-        Engine.instance = this;
         DEBUG_MODE = debug;
         this.gameDifficulty = difficulty;
-        LANGUAGE_MANAGER = new LanguageManager(this, this);
-        TIME_MANAGER = new TimeManager(this, this);
-        EVENT_MANAGER = new EventManager(this, this);
+        LANGUAGE_MANAGER     = new LanguageManager(this, this);
+        TIME_MANAGER         = new TimeManager(this, this);
+        EVENT_MANAGER        = new EventManager(this, this);
         DEMOGRAPHICS_MANAGER = new DemographicsManager(this, this);
-        POLITICS_MANAGER = new PoliticsManager(this, this);
-        MAP_MANAGER = new MapManager(this, this);
-        CHARACTER_MANAGER = new CharacterManager(this, this);
+        MAP_MANAGER          = new MapManager(this, this);
+        POLITICS_MANAGER     = new PoliticsManager(this, this);
+        CHARACTER_MANAGER    = new CharacterManager(this, this);
         for (Manager manager : getSubManagers()) {
             if (manager.getState().equals(ManagerState.ERROR)) {
                 onError(new Exception(manager.getClass().getSimpleName() + " could not be constructed."));
@@ -186,7 +182,6 @@ public final class Engine extends Manager {
     /**
      * Register a manager with this engine. The previously registered manager of the same class
      * will be displaced, if one is present.
-     *
      * @param manager Manager to register
      */
     public void registerManager(@NotNull Manager manager) {
@@ -195,7 +190,6 @@ public final class Engine extends Manager {
 
     /**
      * Get the currently-registered manager for a specific manager class.
-     *
      * @param managerClass Class of the manager to retrieve from the registry
      * @param <T>          Any Manager implementation
      * @return Registered manager of the given class

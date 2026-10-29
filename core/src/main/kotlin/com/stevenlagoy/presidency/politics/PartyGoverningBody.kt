@@ -1,6 +1,6 @@
 package com.stevenlagoy.presidency.politics
 
-import com.stevenlagoy.presidency.characters.PoliticalActor
+import com.stevenlagoy.presidency.citizens.PoliticalActor
 import com.stevenlagoy.presidency.map.entities.MapEntity
 import com.stevenlagoy.presidency.map.entities.Place
 

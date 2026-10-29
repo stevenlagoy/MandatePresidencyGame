@@ -12,6 +12,8 @@ public class EasternPersonalNameFactory extends Factory<EasternPersonalName, Per
 
     // Constants
 
+    /** Percentage of Asian people who have an Eastern-style name. */
+    public static final float asianEasternNamePercent = 0.30f;
     /** Percentage of people with a generation name. */
     public static final float generationNamePercent = 0.60f;
     /** Percentage of people with an additional Western-style name. */
@@ -80,7 +82,7 @@ public class EasternPersonalNameFactory extends Factory<EasternPersonalName, Per
     }
 
     private String selectGenerationName(@NotNull PersonalNameFactory.NameContext context) {
-        return RandomUtils.weightedSelect(personalNameFactory.getNameManager().getGenerationNamesDistribution(context));
+        return RandomUtils.weightedSelect(engine.getManager(NameManager.class).getGenerationNamesDistribution(context));
     }
 
 }

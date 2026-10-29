@@ -19,9 +19,9 @@ import java.util.stream.Stream;
  * An EntityManager is responsible for tracking entities of one specific type, including owning,
  * storing, and responding to queries for them. EntityManagers are leaves in the Manager hierarchy
  * tree and may not have submanagers.
- *
  * @param <T> Type of the entities tracked by this EntityManager
  * @param <K> Type of the primary lookup key of the entity type
+ *
  * @author Steven LaGoy
  */
 public abstract class EntityManager<T, K> extends Manager implements Iterable<T> {
@@ -96,10 +96,9 @@ public abstract class EntityManager<T, K> extends Manager implements Iterable<T>
     /**
      * Register an entity for tracking by this manager. After this, the manager will be an owner of
      * the entity.
-     *
      * @param entity Entity to track
      */
-    public void register(@NotNull T entity) {
+    public final void register(@NotNull T entity) {
         entities.add(entity);
         K key = keyOf(entity);
         if (key != null) index.put(key, entity);
@@ -108,10 +107,9 @@ public abstract class EntityManager<T, K> extends Manager implements Iterable<T>
     /**
      * Unregister an entity for tracking by this manager. After this, the manager will not be an
      * owner of the entity.
-     *
      * @param entity Entity to stop tracking
      */
-    protected void unregister(@NotNull T entity) {
+    protected final void unregister(@NotNull T entity) {
         entities.remove(entity);
         index.remove(keyOf(entity));
     }
@@ -119,7 +117,7 @@ public abstract class EntityManager<T, K> extends Manager implements Iterable<T>
     /**
      * Stop tracking all entities.
      */
-    protected void clearEntities() {
+    protected final void clearEntities() {
         entities.clear();
         index.clear();
     }
@@ -127,25 +125,28 @@ public abstract class EntityManager<T, K> extends Manager implements Iterable<T>
     // Iterable
 
     @Override
-    public @NotNull Iterator<T> iterator() {
+    public final @NotNull Iterator<T> iterator() {
         return entities.iterator();
     }
 
-    public @NotNull Stream<T> stream() {
+    public final @NotNull Stream<T> stream() {
         return entities.stream();
     }
 
     // Query
 
-    public @NotNull Set<T> getAll() {
+    public final @NotNull Set<T> getAll() {
+        requireOperational();
         return entities;
     }
 
-    public int count() {
+    public final int count() {
+        requireOperational();
         return entities.size();
     }
 
-    public @NotNull Optional<T> matchByKey(@NotNull K key) {
+    public final @NotNull Optional<T> matchByKey(@NotNull K key) {
+        requireOperational();
         return Optional.ofNullable(index.get(key));
     }
 
@@ -177,28 +178,86 @@ public abstract class EntityManager<T, K> extends Manager implements Iterable<T>
         return entities.stream().filter(predicate).collect(Collectors.toSet());
     }
 
-    public @NotNull Optional<T> matchFirstWhere(@NotNull Predicate<T> predicate) {
+    public final @NotNull Optional<T> matchFirstWhere(@NotNull Predicate<T> predicate) {
+        requireOperational();
         return entities.stream().filter(predicate).findFirst();
     }
 
-    public @NotNull T requireWhere(@NotNull Predicate<T> predicate, @NotNull Supplier<String> failureMessageSupplier) throws MatchingException {
-        return matchFirstWhere(predicate).orElseThrow(() -> new MatchingException(failureMessageSupplier.get(), () -> matchFirstWhere(predicate)));
+    public final @NotNull T requireWhere(@NotNull Predicate<T> predicate) throws MatchingException {
+        return requireWhere(predicate, () -> getClass().getSimpleName() + " failed to match a required object.");
+    }
+
+    public final @NotNull T requireWhere(@NotNull Predicate<T> predicate, @NotNull Supplier<String> failureMessageSupplier) throws MatchingException {
+        requireOperational();
+        return matchFirstWhere(predicate).orElseThrow(
+            () -> new MatchingException(failureMessageSupplier.get(), () -> matchFirstWhere(predicate))
+        );
+    }
+
+    public final @NotNull Set<T> matchWhereAll(@NotNull Collection<Predicate<T>> predicates) {
+        requireOperational();
+        return entities.stream().filter(
+            predicates.stream().reduce(Predicate::and).orElse(x -> true)
+        ).collect(Collectors.toSet());
+    }
+
+    public final @NotNull Optional<T> matchFirstWhereAll(@NotNull Collection<Predicate<T>> predicates) {
+        requireOperational();
+        return entities.stream().filter(
+            predicates.stream().reduce(Predicate::and).orElse(x -> true)
+        ).findFirst();
+    }
+
+    public final @NotNull T requireWhereAll(@NotNull Collection<Predicate<T>> predicates) throws MatchingException {
+        return requireWhereAll(predicates, () -> getClass().getSimpleName() + " failed to match a required object.");
+    }
+
+    public final @NotNull T requireWhereAll(@NotNull Collection<Predicate<T>> predicates, @NotNull Supplier<String> failureMessageSupplier) throws MatchingException {
+        requireOperational();
+        return matchFirstWhereAll(predicates).orElseThrow(
+            () -> new MatchingException(failureMessageSupplier.get(), () -> matchFirstWhereAll(predicates))
+        );
+    }
+
+    public final @NotNull Set<T> matchWhereAny(@NotNull Collection<Predicate<T>> predicates) {
+        requireOperational();
+        return entities.stream().filter(
+            predicates.stream().reduce(Predicate::or).orElse(x -> true)
+        ).collect(Collectors.toSet());
+    }
+
+    public final @NotNull Optional<T> matchFirstWhereAny(@NotNull Collection<Predicate<T>> predicates) {
+        requireOperational();
+        return entities.stream().filter(
+            predicates.stream().reduce(Predicate::or).orElse(x -> true)
+        ).findFirst();
+    }
+
+    public final @NotNull T requireWhereAny(@NotNull Collection<Predicate<T>> predicates) throws MatchingException {
+        return requireWhereAny(predicates, () -> getClass().getSimpleName() + " failed to match a required object.");
+    }
+
+    public final @NotNull T requireWhereAny(@NotNull Collection<Predicate<T>> predicates, @NotNull Supplier<String> failureMessageSupplier) throws MatchingException {
+        requireOperational();
+        return matchFirstWhereAny(predicates).orElseThrow(
+            () -> new MatchingException(failureMessageSupplier.get(), () -> matchFirstWhereAny(predicates))
+        );
     }
 
     // Selection
 
-    public @NotNull T selectWeighted(@NotNull ToDoubleFunction<T> weightFunction) {
+    public final @NotNull T selectWeighted(@NotNull ToDoubleFunction<T> weightFunction) {
         return selectWeighted(entities, weightFunction);
     }
 
-    public @NotNull T selectWeighted(@NotNull Collection<T> subset, @NotNull ToDoubleFunction<T> weightFunction) {
+    public final @NotNull T selectWeighted(@NotNull Collection<T> subset, @NotNull ToDoubleFunction<T> weightFunction) {
         requireOperational();
         Map<T, Double> weights = new HashMap<>();
         for (T entity : subset) weights.put(entity, weightFunction.applyAsDouble(entity));
         return Objects.requireNonNull(RandomUtils.weightedSelect(weights));
     }
 
-    public @NotNull T selectRandom() {
+    public final @NotNull T selectRandom() {
         requireOperational();
         return Objects.requireNonNull(RandomUtils.randSelect(new ArrayList<>(entities)));
     }
@@ -206,5 +265,4 @@ public abstract class EntityManager<T, K> extends Manager implements Iterable<T>
     protected @NotNull String entityLabel() {
         return getClass().getSimpleName().replaceFirst("Manager$", "");
     }
-
 }

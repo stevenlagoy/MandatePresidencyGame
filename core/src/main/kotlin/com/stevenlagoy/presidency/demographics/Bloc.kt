@@ -2,7 +2,7 @@ package com.stevenlagoy.presidency.demographics
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.JSONSerializable
-import com.stevenlagoy.presidency.characters.Citizen
+import com.stevenlagoy.presidency.citizens.Citizen
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.politics.Party

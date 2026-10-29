@@ -70,30 +70,37 @@ public class PersonalNameFactory extends Factory<PersonalName, PersonalNameFacto
 
     @Override
     public @NotNull PersonalName build(@NotNull NameContext context) {
-        return nameManager.buildPersonalName(context);
-    }
-
-    public void decorate(@NotNull PersonalName name, @NotNull NameContext context) {
+        Class<? extends PersonalName> nameForm = selectNameForm(context);
+        PersonalName name;
+        if (nameForm.equals(HispanicPersonalName.class)) {
+            name = new HispanicPersonalName();
+        }
+        else if (nameForm.equals(EasternPersonalName.class)) {
+            name = new EasternPersonalName();
+        }
+        else { // Default case: WesternPersonalName
+            name = new WesternPersonalName();
+        }
         fillHonorific(name, context);
         fillSuffixes(name, context);
+        return name;
     }
 
-    public @NotNull NameManager.NameForm selectNameForm(@NotNull NameContext context) {
+    private @NotNull Class<? extends PersonalName> selectNameForm(@NotNull NameContext context) {
         if (context.demographics.getRaceEthnicity().getAncestorNames().contains("Asian")) {
             if (RandomUtils.randNextPercent() <= asianEasternNamePercent) {
-                return EASTERN;
+                return EasternPersonalName.class;
             }
         }
         else if (context.demographics.getRaceEthnicity().getAncestorNames().contains("Hispanic / Latino")) {
             if (context.demographics.getRaceEthnicity().getAncestorNames().contains("Argentinian")) {
-                // Only the paternal apellido is inherited in the Argentinian custom
-                return WESTERN;
+                return WesternPersonalName.class; // Only the paternal apellido is inherited in the Argentinian custom
             }
             if (RandomUtils.randNextPercent() <= hispanicHispanicNamePercent) {
-                return HISPANIC;
+                return HispanicPersonalName.class;
             }
         }
-        return WESTERN;
+        return WesternPersonalName.class;
     }
 
     protected void fillNickname(@NotNull PersonalName name, @NotNull PersonalNameFactory.NameContext context) {
@@ -107,8 +114,8 @@ public class PersonalNameFactory extends Factory<PersonalName, PersonalNameFacto
             // Choose a given name as nickname
             String nickname = selectGivenName(context);
             // Determine whether to shorten that nickname
-            if (nameManager.getNicknames().containsKey(nickname) && RandomUtils.chance(nicknamePercent)) {
-                nickname = RandomUtils.randSelect(nameManager.getNicknames().get(nickname));
+            if (engine.getManager(NameManager.class).getNicknames().containsKey(nickname) && RandomUtils.chance(nicknamePercent)) {
+                nickname = RandomUtils.randSelect(engine.getManager(NameManager.class).getNicknames().get(nickname));
             }
             name.setNickname(nickname);
         }
@@ -118,8 +125,8 @@ public class PersonalNameFactory extends Factory<PersonalName, PersonalNameFacto
             String nickedMiddle;
             do {
                 nickedMiddle = RandomUtils.randSelect(((WesternPersonalName) name).getMiddleName().split("\\s+"));
-            } while (!nameManager.getNicknames().containsKey(nickedMiddle));
-            String nickname = RandomUtils.randSelect(nameManager.getNicknames().get(nickedMiddle));
+            } while (!engine.getManager(NameManager.class).getNicknames().containsKey(nickedMiddle));
+            String nickname = RandomUtils.randSelect(engine.getManager(NameManager.class).getNicknames().get(nickedMiddle));
             name.setNickname(nickname);
         }
         // Determine if nickname comes from initials
@@ -137,8 +144,8 @@ public class PersonalNameFactory extends Factory<PersonalName, PersonalNameFacto
                 String givenNames = name instanceof WesternPersonalName ? ((WesternPersonalName) name).getFirstName() : name instanceof HispanicPersonalName ? ((HispanicPersonalName) name).getGivenName() : null;
                 if (givenNames == null) return;
                 nickedFirst = RandomUtils.randSelect(givenNames.split("\\s+"));
-            } while (!nameManager.getNicknames().containsKey(nickedFirst));
-            String nickname = RandomUtils.randSelect(nameManager.getNicknames().get(nickedFirst));
+            } while (!engine.getManager(NameManager.class).getNicknames().containsKey(nickedFirst));
+            String nickname = RandomUtils.randSelect(engine.getManager(NameManager.class).getNicknames().get(nickedFirst));
             name.setNickname(nickname);
         }
     }
@@ -190,7 +197,7 @@ public class PersonalNameFactory extends Factory<PersonalName, PersonalNameFacto
     // Selection
 
     protected String selectGivenName(@NotNull PersonalNameFactory.NameContext context) {
-        return RandomUtils.weightedSelect(nameManager.getGivenNamesDistribution(context));
+        return RandomUtils.weightedSelect(engine.getManager(NameManager.class).getGivenNamesDistribution(context));
     }
 
     protected @NotNull String selectDistinctGivenNames(@NotNull PersonalNameFactory.NameContext context, int n) {
@@ -206,7 +213,7 @@ public class PersonalNameFactory extends Factory<PersonalName, PersonalNameFacto
     }
 
     protected String selectFamilyName(@NotNull PersonalNameFactory.NameContext context) {
-        return RandomUtils.weightedSelect(nameManager.getFamilyNamesDistribution(context));
+        return RandomUtils.weightedSelect(engine.getManager(NameManager.class).getFamilyNamesDistribution(context));
     }
 
     protected @NotNull String selectDistinctFamilyNames(@NotNull PersonalNameFactory.NameContext context, int n, String... conjoinerPattern) {

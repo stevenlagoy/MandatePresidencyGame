@@ -1,8 +1,8 @@
 package com.stevenlagoy.presidency.demographics;
 
 import com.stevenlagoy.jsonic.JSONObject;
-import com.stevenlagoy.presidency.characters.Citizen;
-import com.stevenlagoy.presidency.characters.attributes.Sex;
+import com.stevenlagoy.presidency.citizens.Citizen;
+import com.stevenlagoy.presidency.citizens.attributes.Sex;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.util.FilePath;
