@@ -29,6 +29,8 @@ public abstract class EntityManager<T, K> extends Manager implements Iterable<T>
     protected final Set<T> entities = new HashSet<>();
     protected final Map<K, T> index = new HashMap<>();
 
+    protected EntityFactory<T, ? extends EntityFactory.EntityContext<T>> factory;
+
     protected EntityManager(@NotNull Engine engine, @NotNull Manager superManager) {
         super(engine, superManager);
     }
@@ -43,6 +45,19 @@ public abstract class EntityManager<T, K> extends Manager implements Iterable<T>
     @Override
     protected void doCleanup() {
         clearEntities();
+    }
+
+    // Factory
+
+    public @NotNull EntityFactory<T, ? extends EntityFactory.EntityContext<T>> getFactory() {
+        return factory;
+    }
+
+    protected final void setFactory(@NotNull EntityFactory<T, ? extends EntityFactory.EntityContext<T>> factory) {
+        if (this.factory != null) {
+            throw new IllegalStateException("EntityFactory has already been set.");
+        }
+        this.factory = factory;
     }
 
     // Serialization

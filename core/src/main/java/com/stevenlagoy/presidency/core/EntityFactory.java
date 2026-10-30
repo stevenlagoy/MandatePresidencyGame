@@ -17,16 +17,16 @@ import java.util.function.Function;
  * @param <T> Type which is selected and/or created by this type.
  * @param <C> Context object which provides context needed for selection and/or creation of entities.
  */
-public abstract class EntityFactory<T, C extends EntityFactory.EntityContext> extends EngineBound {
+public abstract class EntityFactory<T, C extends EntityFactory.EntityContext<T>> extends EngineBound {
 
-    protected final EntityManager<T, ?> manager;
+    protected final EntityManager<?, ?> manager;
 
-    protected EntityFactory(@NotNull Engine engine, @NotNull EntityManager<T, ?> manager) {
+    protected EntityFactory(@NotNull Engine engine, @NotNull EntityManager<?, ?> manager) {
         super(engine);
         this.manager = manager;
     }
 
-    public static abstract class EntityContext extends EngineBound {
+    public static abstract class EntityContext<T> extends EngineBound {
 
         public EntityContext(@NotNull Engine engine) {
             super(engine);
@@ -34,7 +34,7 @@ public abstract class EntityFactory<T, C extends EntityFactory.EntityContext> ex
 
         abstract public @NotNull String getImputationFailureConditionsMessage() throws NoSuchFieldException;
 
-        private Map<Field, Function<EntityContext, ?>> completionCache = null;
+        private Map<Field, Function<EntityContext<T>, ?>> completionCache = null;
 
         /**
          * Reflect a subclass to find methods annotated with {@link CompletionMethodFor} and associate
@@ -42,12 +42,12 @@ public abstract class EntityFactory<T, C extends EntityFactory.EntityContext> ex
          * @return Mapping of fields to the methods which are defined to complete them in an {@code EntityContext}
          * subclass using the {@link CompletionMethodFor} annotation.
          */
-        protected final Map<Field, Function<EntityContext, ?>> fieldCompletionMethods() {
+        protected final Map<Field, Function<EntityContext<T>, ?>> fieldCompletionMethods() {
             if (completionCache != null) {
                 return completionCache;
             }
 
-            Map<Field, Function<EntityContext, ?>> map = new HashMap<>();
+            Map<Field, Function<EntityContext<T>, ?>> map = new HashMap<>();
             Class<?> clazz = this.getClass();
 
             // Loop over methods declared in subclass
@@ -60,7 +60,7 @@ public abstract class EntityFactory<T, C extends EntityFactory.EntityContext> ex
                         method.setAccessible(true);
 
                         // Wrap reflection invocation into a Function
-                        Function<EntityContext, ?> function = contextInstance -> {
+                        Function<EntityContext<T>, ?> function = contextInstance -> {
                             try {
                                 return method.invoke(contextInstance);
                             }
