@@ -1,14 +1,17 @@
 package com.stevenlagoy.presidency.citizens.attributes.names;
 
+import com.stevenlagoy.presidency.citizens.attributes.Family;
 import com.stevenlagoy.presidency.core.Engine;
-import com.stevenlagoy.presidency.core.Factory;
-import com.stevenlagoy.presidency.util.RandomUtils;
+import com.stevenlagoy.presidency.core.EntityFactory;
+import com.stevenlagoy.presidency.demographics.Demographics;
+import com.stevenlagoy.presidency.util.CompletionMethodFor;
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 import java.util.Map;
 import java.util.Set;
 
-public class HispanicPersonalNameFactory extends Factory<HispanicPersonalName, PersonalNameFactory.NameContext> {
+public class HispanicPersonalNameFactory extends EntityFactory<HispanicPersonalName, HispanicPersonalNameFactory.HispanicPersonalNameContext> {
 
     // Constants
     /** Percentage of Hispanic people who have a Hispanic-style name. */
@@ -27,61 +30,86 @@ public class HispanicPersonalNameFactory extends Factory<HispanicPersonalName, P
         "Hispanic", Set.of(" ", " y ", "-", " de ") // Catch-all
     );
 
-    // Instance Fields
+    public static class HispanicPersonalNameContext extends PersonalNameFactory.PersonalNameContext<HispanicPersonalName> {
 
-    private final PersonalNameFactory personalNameFactory;
+        public HispanicPersonalNameContext(
+            @NotNull Engine engine,
+            @NotNull Demographics demographics,
+            @NotNull Integer age,
+            @NotNull Family family
+        ) {
+            super(engine, demographics, age, family, HispanicPersonalName.class);
+        }
 
-    HispanicPersonalNameFactory(@NotNull Engine engine, @NotNull PersonalNameFactory personalNameFactory) {
-        super(engine);
-        this.personalNameFactory = personalNameFactory;
+        public HispanicPersonalNameContext(@NotNull Engine engine, @NotNull PersonalNameFactory.PersonalNameContext<PersonalName> superContext) {
+            this(engine, superContext.demographics, superContext.age, superContext.family);
+        }
+
+        @Override
+        @CompletionMethodFor("nameForm")
+        protected @Nullable Class<? extends PersonalName> selectNameForm() {
+            return HispanicPersonalName.class;
+        }
+    }
+
+    public HispanicPersonalNameFactory(@NotNull Engine engine, @NotNull PersonalNameManager manager) {
+        super(engine, manager);
     }
 
     @Override
-    public @NotNull HispanicPersonalName build(@NotNull PersonalNameFactory.NameContext context) {
-        HispanicPersonalName name = new HispanicPersonalName();
-        fillGivenName(name, context);
-        fillPaternalName(name, context);
-        fillMaternalName(name, context);
-        personalNameFactory.fillNickname(name, context);
-        return name;
+    protected @Nullable HispanicPersonalName doCreation(@NotNull HispanicPersonalNameFactory.HispanicPersonalNameContext context) {
+        return null;
     }
 
-    private void fillGivenName(@NotNull HispanicPersonalName name, @NotNull PersonalNameFactory.NameContext context) {
-        // Choose number of given names
-        int numberGivenNames = 1 + RandomUtils.probabilisticCount(hispanicMultipleForenamesPercent);
-        // Choose appropriate names
-        String givenName = personalNameFactory.selectDistinctGivenNames(context, numberGivenNames);
-        // Set
-        name.setGivenName(givenName);
+    @Override
+    protected @Nullable HispanicPersonalName doSelection(@NotNull HispanicPersonalNameFactory.HispanicPersonalNameContext context) throws UnsupportedOperationException {
+        throw new UnsupportedOperationException("Selection is invalid for type " + HispanicPersonalName.class.getSimpleName());
     }
 
-    private void fillPaternalName(@NotNull HispanicPersonalName name, @NotNull PersonalNameFactory.NameContext context) {
-        name.setPaternalName(selectApellido(context));
-    }
-
-    private void fillMaternalName(@NotNull HispanicPersonalName name, @NotNull PersonalNameFactory.NameContext context) {
-        name.setMaternalName(selectApellido(context));
-    }
-
-    private @NotNull String selectApellido(@NotNull PersonalNameFactory.NameContext context) {
-        // Choose number of family names in the apellido
-        int numberNames = 1 + RandomUtils.probabilisticCount(hispanicCompositeSurnamePercent);
-        // Choose conjoiners
-        Set<String> possibleConjoiners = hispanicCompositeSurnameConjoiners.get("Hispanic");
-        for (String blocName : context.demographics().getRaceEthnicity().getAncestorNames()) {
-            if (hispanicCompositeSurnameConjoiners.containsKey(blocName)) {
-                possibleConjoiners = hispanicCompositeSurnameConjoiners.get(blocName);
-                break;
-            }
-        }
-        String[] conjoiners = new String[numberNames];
-        for (int i = 0; i < numberNames; i++) {
-            conjoiners[i] = RandomUtils.randSelect(possibleConjoiners);
-        }
-        // Create apellido
-        return personalNameFactory.selectDistinctFamilyNames(context, numberNames, conjoiners);
-    }
-
-
+//    @Override
+//    public @NotNull HispanicPersonalName build(@NotNull PersonalNameFactory.NameContext context) {
+//        HispanicPersonalName name = new HispanicPersonalName();
+//        fillGivenName(name, context);
+//        fillPaternalName(name, context);
+//        fillMaternalName(name, context);
+//        personalNameFactory.fillNickname(name, context);
+//        return name;
+//    }
+//
+//    private void fillGivenName(@NotNull HispanicPersonalName name, @NotNull PersonalNameFactory.NameContext context) {
+//        // Choose number of given names
+//        int numberGivenNames = 1 + RandomUtils.probabilisticCount(hispanicMultipleForenamesPercent);
+//        // Choose appropriate names
+//        String givenName = personalNameFactory.selectDistinctGivenNames(context, numberGivenNames);
+//        // Set
+//        name.setGivenName(givenName);
+//    }
+//
+//    private void fillPaternalName(@NotNull HispanicPersonalName name, @NotNull PersonalNameFactory.NameContext context) {
+//        name.setPaternalName(selectApellido(context));
+//    }
+//
+//    private void fillMaternalName(@NotNull HispanicPersonalName name, @NotNull PersonalNameFactory.NameContext context) {
+//        name.setMaternalName(selectApellido(context));
+//    }
+//
+//    private @NotNull String selectApellido(@NotNull PersonalNameFactory.NameContext context) {
+//        // Choose number of family names in the apellido
+//        int numberNames = 1 + RandomUtils.probabilisticCount(hispanicCompositeSurnamePercent);
+//        // Choose conjoiners
+//        Set<String> possibleConjoiners = hispanicCompositeSurnameConjoiners.get("Hispanic");
+//        for (String blocName : context.demographics().getRaceEthnicity().getAncestorNames()) {
+//            if (hispanicCompositeSurnameConjoiners.containsKey(blocName)) {
+//                possibleConjoiners = hispanicCompositeSurnameConjoiners.get(blocName);
+//                break;
+//            }
+//        }
+//        String[] conjoiners = new String[numberNames];
+//        for (int i = 0; i < numberNames; i++) {
+//            conjoiners[i] = RandomUtils.randSelect(possibleConjoiners);
+//        }
+//        // Create apellido
+//        return personalNameFactory.selectDistinctFamilyNames(context, numberNames, conjoiners);
+//    }
 
 }
