@@ -1513,6 +1513,35 @@
         "overlaps" : [
         ]
     },
+    "state_supreme_court_chief_justice" : {
+        "name" : "State Supreme Court Chief Justice",
+        "track" : "judicial",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 6,
+            "avg" : 12,
+            "max" : 30
+        },
+        "repeatable" : true,
+        "prerequisites" : [
+            "state_judge"
+        ],
+        "prerequisite_logic" : "any",
+        "base_chance" : 1,
+        "min_age" : 38,
+        "max_age" : 100,
+        "yearly_skills" : {
+            "legislative" : 1.2,
+            "executive" : 0.4,
+            "judicial" : 3.9
+        },
+        "description" : "Chief Justice on the highest court in a state, deciding constitutional questions and setting binding precedent for all lower state courts.",
+        "connections" : {
+            "federal_judge" : 1.4
+        },
+        "overlaps" : [
+        ]
+    },
     "state_supreme_court_justice" : {
         "name" : "State Supreme Court Justice",
         "track" : "judicial",
@@ -1559,6 +1588,7 @@
             "law_clerk",
             "military_jag",
             "state_supreme_court_justice",
+            "state_supreme_court_chief_justice",
             "us_attorney"
         ],
         "prerequisite_logic" : "any",
@@ -1572,7 +1602,36 @@
         },
         "description" : "Presidentially-appointed judge on a federal district or circuit court of appeals.",
         "connections" : {
-            "supreme_court_justice" : 1.4
+            "supreme_court_justice" : 1.4,
+            "supreme_court_chief_justice" : 1.4
+        },
+        "overlaps" : [
+        ]
+    },
+    "supreme_court_chief_justice" : {
+        "name" : "U.S. Supreme Court Chief Justice",
+        "track" : "judicial",
+        "capacity" : 1,
+        "tenure_years" : {
+            "min" : 5,
+            "avg" : 20,
+            "max" : 120
+        },
+        "repeatable" : true,
+        "prerequisites" : [
+            "federal_judge"
+        ],
+        "prerequisite_logic" : "any",
+        "base_chance" : 1,
+        "min_age" : 40,
+        "max_age" : 100,
+        "yearly_skills" : {
+            "legislative" : 1.7,
+            "executive" : 0.7,
+            "judicial" : 4.3
+        },
+        "description" : "Chief Justice of the U.S. Supreme Court, with life tenure by presidential appointment and Senate confirmation.",
+        "connections" : {
         },
         "overlaps" : [
         ]
