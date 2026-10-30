@@ -1,4 +1,4 @@
-package com.stevenlagoy.presidency.characters.attributes.experiences;
+package com.stevenlagoy.presidency.citizens.attributes.experiences;
 
 import com.stevenlagoy.presidency.util.CompletionMethodFor;
 import com.stevenlagoy.presidency.core.Engine;
@@ -16,51 +16,28 @@ import java.util.Set;
 
 public class PersonalExperienceFactory extends EntityFactory<PersonalExperience, PersonalExperienceFactory.PersonalExperienceContext> {
 
-    public PersonalExperienceFactory(@NotNull Engine engine, @NotNull PersonalExperienceManager manager) {
-        super(engine, manager);
-    }
-
-    /*
-    To impute each piece of context, we need these pieces of other context:
-    type: startDate or endDate
-        If we have startDate
-            Determine what rereqs are met before
-        If we have endDate
-            Determine what prereqs are met before
-    startDate: type
-        Choose an appropriate tenure
-        Select a valid start date as close to that tenure as possible
-    endDate: type
-        Choose an appropriate tenure
-        Select a valid end date as close to that tenure as possible
-    isComplete: type, startDate, endDate
-        Determine if the tenure is sufficient to complete an experience of the type
-
-    This means we can impute as long as we have either type, start date, or end date
-     */
-
     /**
-     * Context for creating or selecting a PersonalExperience. One of the following is required for imputation:
+     * Context for creating or selecting a {@link PersonalExperience}. One of the following is required for imputation:
      * {@link #type}, {@link #startDate}, {@link #endDate}.
      */
-    public static class PersonalExperienceContext extends EntityFactory.EntityContext {
+    public static class PersonalExperienceContext extends EntityFactory.EntityContext<PersonalExperience> {
 
         /** Date of birth of a person who could have an experience with this context. */
-        private final @NotNull LocalDate birthDate;
+        protected final @NotNull LocalDate birthDate;
         /** Latest possible date for experiences, may be current date or date of death. */
-        private final @NotNull LocalDate latestDate;
+        protected final @NotNull LocalDate latestDate;
         /** Experience history of a person who could have an experience with this context. */
-        private final @NotNull PersonalExperienceHistory history;
+        protected final @NotNull PersonalExperienceHistory history;
         /** Type of the experience. */
-        private @Nullable PersonalExperienceType type;
+        protected @Nullable PersonalExperienceType type;
         /** Start date of the experience. */
-        private @Nullable LocalDate startDate;
+        protected @Nullable LocalDate startDate;
         /** End date of the experience. */
-        private @Nullable LocalDate endDate;
+        protected @Nullable LocalDate endDate;
         /** Sentinel value which indicates that the endDate is actually {@code null}. */
-        public static final LocalDate endDateNullSentinel = LocalDate.MIN;
+        protected static final LocalDate endDateNullSentinel = LocalDate.MIN;
         /** Whether the experience should be considered complete when added to a person's history. */
-        private @Nullable Boolean isComplete;
+        protected @Nullable Boolean isComplete;
 
         public PersonalExperienceContext(
             @NotNull Engine engine,
@@ -93,7 +70,7 @@ public class PersonalExperienceFactory extends EntityFactory<PersonalExperience,
         }
 
         @CompletionMethodFor("type")
-        private @Nullable PersonalExperienceType selectType() {
+        protected @Nullable PersonalExperienceType selectType() {
             PersonalExperienceType type = this.type;
             if (type == null) {
                 Set<PersonalExperienceType> possibleTypes = new HashSet<>();
@@ -104,7 +81,7 @@ public class PersonalExperienceFactory extends EntityFactory<PersonalExperience,
                     double startAge = TimeUtils.yearsBetween(birthDate, startDate);
                     possibleTypes.removeIf((candidate) -> candidate.getMinAge() > startAge);
                     LocalDate finalStartDate = startDate;
-                    possibleTypes.removeIf((candidate) -> !candidate.arePrerequisitesMet(history.getExperiencesBefore(finalStartDate)));
+                    possibleTypes.removeIf((candidate) -> !candidate.arePrerequisitesMet(history.getExperiencesStartingBefore(finalStartDate)));
                 }
                 else if (endDate != null) {
                     double endAge = TimeUtils.yearsBetween(birthDate, endDate);
@@ -129,7 +106,7 @@ public class PersonalExperienceFactory extends EntityFactory<PersonalExperience,
         }
 
         @CompletionMethodFor("startDate")
-        private @Nullable LocalDate selectStartDate() {
+        protected @Nullable LocalDate selectStartDate() {
             LocalDate startDate = this.startDate;
             if (startDate == null) {
                 if (type == null) return null; // Unable to impute
@@ -160,7 +137,7 @@ public class PersonalExperienceFactory extends EntityFactory<PersonalExperience,
         }
 
         @CompletionMethodFor("endDate")
-        private @Nullable LocalDate selectEndDate() {
+        protected @Nullable LocalDate selectEndDate() {
             LocalDate endDate = this.endDate;
             if (endDate == null) {
                 if (type == null) return null; // Unable to impute
@@ -169,13 +146,17 @@ public class PersonalExperienceFactory extends EntityFactory<PersonalExperience,
         }
 
         @CompletionMethodFor("isComplete")
-        private @Nullable Boolean determineIsComplete() {
+        protected @Nullable Boolean determineIsComplete() {
             Boolean isComplete = this.isComplete;
             if (isComplete == null) {
                 if (type == null || startDate == null || endDate == null) return null; // Unable to impute
             }
             return isComplete;
         }
+    }
+
+    public PersonalExperienceFactory(@NotNull Engine engine, @NotNull PersonalExperienceManager manager) {
+        super(engine, manager);
     }
 
     @Override

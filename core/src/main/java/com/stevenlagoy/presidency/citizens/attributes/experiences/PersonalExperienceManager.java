@@ -1,4 +1,4 @@
-package com.stevenlagoy.presidency.characters.attributes.experiences;
+package com.stevenlagoy.presidency.citizens.attributes.experiences;
 
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.presidency.core.Engine;
@@ -10,6 +10,7 @@ public class PersonalExperienceManager extends EntityManager<PersonalExperience,
 
     public PersonalExperienceManager(@NotNull Engine engine, @NotNull Manager superManager) {
         super(engine, superManager);
+        setFactory(new PersonalExperienceFactory(engine, this));
     }
 
     @Override
@@ -26,4 +27,10 @@ public class PersonalExperienceManager extends EntityManager<PersonalExperience,
     protected void doFromJson(@NotNull JSONObject json) {
 
     }
+
+    @Override
+    protected @NotNull PersonalExperience entityFromJson(JSONObject json) {
+        return new PersonalExperience(engine, json);
+    }
+
 }

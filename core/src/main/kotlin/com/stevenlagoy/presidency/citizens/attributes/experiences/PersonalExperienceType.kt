@@ -35,26 +35,26 @@ to be complete.
  * with the experience, how long it may last, who is eligable for the experience, and how it impacts the
  * Citizen who has an experience of that type.
  *
- * @property name Name identifying this experience type.
- * @property track Track this experience type can be found on, like Education, Judicial, Business, etc.
- * @property capacity How much of a PoliticalActor's working ability a certain experience requires. The
- *                    sum of any concurrent experiences must sum to 1.0 or less.
- * @property minTenureYears Minimum number of years a person may have this experience.
- * @property avgTenureYears Average number of years people who have this experience spend doing it.
- * @property maxTenureYears Maximum number of years a person may continually have this experience.
- * @property isRepeatable Whether multiple experiences of this type may be present in a Citizen's experience
- *                      history, even if the first instance was isComplete.
- * @property prerequisites Prior types of experiences required or essentially required for this experience
- *                         type to be applicable.
+ * @property name              Name identifying this experience type.
+ * @property track             Track this experience type can be found on, like Education, Judicial, Business, etc.
+ * @property capacity          How much of a PoliticalActor's working ability a certain experience requires.
+ *                             The sum of any concurrent experiences must be 1.0 or less.
+ * @property minTenureYears    Minimum number of years a person may have this experience.
+ * @property avgTenureYears    Average number of years people who have this experience spend doing it.
+ * @property maxTenureYears    Maximum number of years a person may continually have this experience.
+ * @property isRepeatable      Whether multiple experiences of this type may be present in a Citizen's
+ *                             experience history, even if the first instance was isComplete.
+ * @property prerequisites     Prior types of experiences required or essentially required for this experience
+ *                             type to be applicable.
  * @property prerequisiteLogic Logic for how prior experiences fulfil prerequisite requirements. (Dependency Injection)
- * @property baseChance Prior likelihood for an experience of this type to be present in a person's history.
- * @property minAge Minimum age a Citizen must be to begin an experience of this type.
- * @property maxAge Maximum age a Citizen may be while undergoing an expereince of this type.
- * @property yearlySkills Yearly additive impact on a Citizen's skills while undergoing an experience of this type.
- * @property description Description for this type, broadly describing associated responsibilities or learning.
- * @property connections Associative array of experience types and the impact that beginning an experience
- *                       of this type has upon that experience being selected in the future. Impacts are
- *                       additive among experience types' influences.
+ * @property baseChance        Prior likelihood for an experience of this type to be present in a person's history.
+ * @property minAge            Minimum age a Citizen must be to begin an experience of this type.
+ * @property maxAge            Maximum age a Citizen may be while undergoing an expereince of this type.
+ * @property yearlySkills      Yearly additive impact on a Citizen's skills while undergoing an experience of this type.
+ * @property description       Description for this type, broadly describing associated responsibilities or learning.
+ * @property connections       Associative array of experience types and the impact that beginning an
+ *                             experience of this type has upon that experience being selected in the future.
+ *                             Impacts are additive among experience types' influences.
  *
  * @see PersonalExperienceTypeManager
  * @see PersonalExperience
@@ -78,11 +78,11 @@ class PersonalExperienceType(
     connections: Map<PersonalExperienceType, Double> = mapOf(),
 ) : EngineBound(engine), JSONSerializable<PersonalExperienceType> {
 
-    constructor(engine: Engine, json: JSONObject) : this(engine) {
-        fromJson(
-            json
-        )
-    }
+    /**
+     * Constructor from a JSONObject representation of a `PersonalExerperienceType`.
+     * @see [fromJson]
+     */
+    constructor(engine: Engine, json: JSONObject) : this(engine) { fromJson(json) }
 
     var name: String = name
         internal set

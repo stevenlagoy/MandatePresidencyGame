@@ -1,4 +1,4 @@
-package com.stevenlagoy.presidency.characters.attributes.experiences;
+package com.stevenlagoy.presidency.citizens.attributes.experiences;
 
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.presidency.core.Engine;
