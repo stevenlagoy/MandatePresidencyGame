@@ -41,6 +41,10 @@ fun rollDice(diceSides: IntArray, random: Random = Random.Default) = random.roll
 @JvmOverloads
 fun nextInt(from: Int, until: Int, random: Random = Random.Default) = random.nextInt(from, until)
 
+@JvmOverloads
+@JvmName("randNextBoolean")
+fun nextBoolean(random: Random = Random.Default) = random.nextBoolean()
+
 /** Return a percentage between 0 and 1. */
 fun Random.nextPercent() = nextFloat()
 
@@ -65,6 +69,17 @@ fun <E> Random.select(vararg items: E) = select(items.toList())
 fun <E> Random.select(items: Collection<E>): E? {
     if (items.isEmpty()) return null
     return items.toList()[nextInt(0, items.size)]
+}
+
+/** Select and return n distinct items from the given values. */
+fun <E> Random.selectN(n: Int, vararg items: E) = selectN(n, items.toList())
+
+/** Select and return n distinct items from the given collection. If `n >= items.size`, returns a clone of [items]. */
+fun <E> Random.selectN(n: Int, items: Collection<E>): Collection<E> {
+    require(n > 0) { "n must be a positive integer"}
+    if (items.isEmpty()) return emptySet()
+    if (n >= items.size) return items.toSet()
+    return items.shuffled(this).subList(0, n).toSet()
 }
 
 @JvmOverloads
@@ -111,6 +126,27 @@ fun <E> Random.weightedSelect(items: Map<E, Number>): E? {
 
 @JvmOverloads
 fun <E> weightedSelect(items: Map<E, Number>, random: Random = Random.Default) = random.weightedSelect(items)
+
+fun <E> Random.weightedSelectN(n: Int, items: List<E>, weights: List<Number>) =
+    weightedSelectN(n, items.zip(weights) { item, weight -> item to weight }.toMap())
+
+@JvmOverloads
+fun <E> weightedSelectN(n: Int, items: List<E>, weights: List<Number>, random: Random = Random.Default) =
+    random.weightedSelectN(n, items, weights)
+
+fun <E> Random.weightedSelectN(n: Int, items: Map<E, Number>): Collection<E> {
+    require(n > 0) { "n must be a positive integer"}
+    if (items.isEmpty()) return emptySet()
+    if (n >= items.size) return items.keys.toSet()
+    val result = mutableSetOf<E>()
+    while (result.size < n) {
+        result.add(this.weightedSelect(items.filterNot { it.key in result })!!)
+    }
+    return result
+}
+
+@JvmOverloads
+fun <E> weightedSelectN(n: Int, items: Map<E, Number>, random: Random = Random.Default) = random.weightedSelectN(n, items)
 
 fun Random.probabilisticCount(probability: Double): Int {
     if (probability < 0.0) return 0
@@ -271,5 +307,5 @@ fun triangularPDF(min: Double, avg: Double, max: Double): PDF {
         min if x == avg -> 2.0 / (max - min) // Edge case where min and x are avg
         in min..avg -> (2.0 * (x - min)) / ((max - min) * (avg - min))
         else -> (2.0 * (max - x)) / ((max - min) * (max - avg))
-    }}
+    } }
 }
