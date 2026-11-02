@@ -11,6 +11,7 @@ public class HydrologicalFeatureManager extends EntityManager<HydrologicalFeatur
 
     public HydrologicalFeatureManager(@NotNull Engine engine, @NotNull Manager superManager) {
         super(engine, superManager);
+        setFactory(new HydrologicalFeatureFactory(engine, this));
     }
 
     // Manager Methods
@@ -23,6 +24,11 @@ public class HydrologicalFeatureManager extends EntityManager<HydrologicalFeatur
     @Override
     protected void doFromJson(@NotNull JSONObject json) {
 
+    }
+
+    @Override
+    protected @NotNull HydrologicalFeature entityFromJson(JSONObject json) {
+        return null;
     }
 
     @Override

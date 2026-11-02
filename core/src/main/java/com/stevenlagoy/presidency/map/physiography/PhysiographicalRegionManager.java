@@ -26,6 +26,11 @@ public class PhysiographicalRegionManager extends EntityManager<PhysiographicalR
     }
 
     @Override
+    protected @NotNull PhysiographicalRegion entityFromJson(JSONObject json) {
+        return new PhysiographicalRegion(engine, json);
+    }
+
+    @Override
     protected @Nullable String keyOf(@NotNull PhysiographicalRegion entity) {
         return entity.getName();
     }

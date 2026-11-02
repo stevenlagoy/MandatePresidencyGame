@@ -26,6 +26,11 @@ public class UniversityManager extends EntityManager<University, String> {
     }
 
     @Override
+    protected @NotNull University entityFromJson(JSONObject json) {
+        return new University(engine, json);
+    }
+
+    @Override
     protected @Nullable String keyOf(@NotNull University entity) {
         return entity.getFullName();
     }
