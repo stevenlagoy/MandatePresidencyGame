@@ -16,7 +16,7 @@ class Family(
     val children: MutableSet<Citizen> = mutableSetOf(),
 ) : JSONSerializable<Family>, EngineBound(engine) {
 
-    val parents = setOf(mother, father).filterNotNull()
+    val parents get() = setOf(mother, father).filterNotNull()
 
     val grandparents: Set<Citizen> get() = parents.flatMap { it.family.parents }.toSet()
 
