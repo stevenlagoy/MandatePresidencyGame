@@ -11,6 +11,18 @@ fun String.normalize() = this.replace(Regex("\\s+"), "_").lowercase()
 @JvmName("stringNormalize")
 fun normalize(string: String) = string.normalize()
 
+fun String.countMatches(target: String): Int {
+    if (target.isEmpty()) return 0
+    var count = 0
+    for (i in 0..this.length - target.length) {
+        if (target.substring(i, i + target.length) == target) count++
+    }
+    return count
+}
+
+@JvmName("stringCountMatches")
+fun countMatches(string: String, target: String): Int = string.countMatches(target)
+
 /**
  * Returns whether the character at [position] lies inside a double-quoted string.
  *
