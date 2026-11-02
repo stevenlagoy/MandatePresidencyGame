@@ -29,7 +29,7 @@ public abstract class EntityManager<T, K> extends Manager implements Iterable<T>
     protected final Set<T> entities = new HashSet<>();
     protected final Map<K, T> index = new HashMap<>();
 
-    protected EntityFactory<T, ? extends EntityFactory.EntityContext<T>> factory;
+    protected EntityFactory<T, ? extends EntityFactory.EntityContext<? extends T>> factory;
 
     protected EntityManager(@NotNull Engine engine, @NotNull Manager superManager) {
         super(engine, superManager);
@@ -49,11 +49,11 @@ public abstract class EntityManager<T, K> extends Manager implements Iterable<T>
 
     // Factory
 
-    public @NotNull EntityFactory<T, ? extends EntityFactory.EntityContext<T>> getFactory() {
+    public @NotNull EntityFactory<T, ? extends EntityFactory.EntityContext<? extends T>> getFactory() {
         return factory;
     }
 
-    protected final void setFactory(@NotNull EntityFactory<T, ? extends EntityFactory.EntityContext<T>> factory) {
+    protected final void setFactory(@NotNull EntityFactory<T, ? extends EntityFactory.EntityContext<? extends T>> factory) {
         if (this.factory != null) {
             throw new IllegalStateException("EntityFactory has already been set.");
         }
@@ -83,6 +83,7 @@ public abstract class EntityManager<T, K> extends Manager implements Iterable<T>
 
     @Override
     protected void doFromJson(@NotNull JSONObject json) {
+        clearEntities();
         for (Object obj : json.requireArray()) {
             if (obj instanceof JSONObject objJson) {
                 register(entityFromJson(objJson));
@@ -173,9 +174,12 @@ public abstract class EntityManager<T, K> extends Manager implements Iterable<T>
      *         is applied to each, or emtpy if no such entity is found.
      */
     public @NotNull Optional<T> matchByKey(@NotNull K key, @NotNull Function<K, K> keyTransformer) {
+        requireOperational();
+        K target = keyTransformer.apply(key);
         for (T entity : entities) {
-            if (keyTransformer.apply(key).equals(keyTransformer.apply(keyOf(entity)))) {
-                return Optional.ofNullable(index.get(key));
+            K entityKey = keyOf(entity);
+            if (entityKey != null && target.equals(keyTransformer.apply(entityKey))) {
+                return Optional.of(entity);
             }
         }
         return Optional.empty();
@@ -237,14 +241,14 @@ public abstract class EntityManager<T, K> extends Manager implements Iterable<T>
     public final @NotNull Set<T> matchWhereAny(@NotNull Collection<Predicate<T>> predicates) {
         requireOperational();
         return entities.stream().filter(
-            predicates.stream().reduce(Predicate::or).orElse(x -> true)
+            predicates.stream().reduce(Predicate::or).orElse(x -> false)
         ).collect(Collectors.toSet());
     }
 
     public final @NotNull Optional<T> matchFirstWhereAny(@NotNull Collection<Predicate<T>> predicates) {
         requireOperational();
         return entities.stream().filter(
-            predicates.stream().reduce(Predicate::or).orElse(x -> true)
+            predicates.stream().reduce(Predicate::or).orElse(x -> false)
         ).findFirst();
     }
 

@@ -149,11 +149,6 @@ public abstract class Manager extends EngineBound implements JSONSerializable<Ma
         super(engine);
         this.superManager = superManager;
         this.problems = new HashSet<>();
-        for (Manager manager : getSubManagers()) {
-            if (manager.getState().equals(ManagerState.ERROR)) {
-                onError(new Exception(manager.getClass().getSimpleName() + " could not be constructed."));
-            }
-        }
     }
 
     // Public lifecycle API
@@ -370,7 +365,6 @@ public abstract class Manager extends EngineBound implements JSONSerializable<Ma
     @Override
     public final @NotNull Manager fromJson(@NotNull JSONObject json) {
         ManagerState prevState = getState();
-        cleanup();
         transitionTo(ManagerState.LOADING);
         getSubManagers().forEach(manager -> manager.fromJson(json.requireJson(manager.getClass().getSimpleName())));
         doFromJson(json);

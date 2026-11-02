@@ -8,6 +8,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Function;
 
 /**
@@ -17,7 +18,7 @@ import java.util.function.Function;
  * @param <T> Type which is selected and/or created by this type.
  * @param <C> Context object which provides context needed for selection and/or creation of entities.
  */
-public abstract class EntityFactory<T, C extends EntityFactory.EntityContext<T>> extends EngineBound {
+public abstract class EntityFactory<T, C extends EntityFactory.EntityContext<? extends T>> extends EngineBound {
 
     protected final EntityManager<?, ?> manager;
 
@@ -36,11 +37,52 @@ public abstract class EntityFactory<T, C extends EntityFactory.EntityContext<T>>
 
         private Map<Field, Function<EntityContext<T>, ?>> completionCache = null;
 
+        /** Reflection results are cached per class rather than per instance. */
+        private static final Map<Class<?>, Map<Field, Method>> completionMethodsByClass = new ConcurrentHashMap<>();
+
         /**
-         * Reflect a subclass to find methods annotated with {@link CompletionMethodFor} and associate
-         * them with the field they complete.
+         * Reflect a context class and all of its superclasses to find methods annotated with
+         * {@link CompletionMethodFor} and associate them with the field they complete. The most specific
+         * method is used when a subclass overrides a completion method.
+         */
+        private static Map<Field, Method> scanCompletionMethods(Class<?> contextClass) {
+            Map<Field, Method> found = new HashMap<>();
+            for (
+                Class<?> clazz = contextClass;
+                clazz != null && clazz != EntityContext.class;
+                clazz = clazz.getSuperclass()
+            ) {
+                for (Method method : clazz.getDeclaredMethods()) {
+                    CompletionMethodFor annotation = method.getAnnotation(CompletionMethodFor.class);
+                    if (annotation == null) continue;
+                    // The completed field may be declared in this class or a superclass
+                    Field field = null;
+                    for (Class<?> owner = clazz; owner != null && field != null; owner = owner.getSuperclass()) {
+                        try {
+                            field = owner.getDeclaredField(annotation.value());
+                        }
+                        catch (NoSuchFieldException ignored) {} // Keep looking in superclasses
+                    }
+                    if (field == null) {
+                        throw new IllegalStateException(String.format(
+                            "Annotation @CompletionMethodFor(\"%s\") references a field that does not" +
+                                "exist in %s or its superclasses",
+                            annotation.value(), clazz.getSimpleName()
+                        ));
+                    }
+                    field.setAccessible(true);
+                    method.setAccessible(true);
+                    found.putIfAbsent(field, method);
+                }
+            }
+            return found;
+        }
+
+        /**
+         * Find methods annotated with {@link CompletionMethodFor} on this context's class hierarchy and
+         * associate them with the field they complete.
          * @return Mapping of fields to the methods which are defined to complete them in an {@code EntityContext}
-         * subclass using the {@link CompletionMethodFor} annotation.
+         * subclass using the {@link CompletionMethodFor} annotaiton.
          */
         protected final Map<Field, Function<EntityContext<T>, ?>> fieldCompletionMethods() {
             if (completionCache != null) {
@@ -48,38 +90,15 @@ public abstract class EntityFactory<T, C extends EntityFactory.EntityContext<T>>
             }
 
             Map<Field, Function<EntityContext<T>, ?>> map = new HashMap<>();
-            Class<?> clazz = this.getClass();
-
-            // Loop over methods declared in subclass
-            for (Method method : clazz.getDeclaredMethods()) {
-                if (method.isAnnotationPresent(CompletionMethodFor.class)) {
-                    String fieldName = method.getAnnotation(CompletionMethodFor.class).value();
-                    try {
-                        // Match annotation string to an actual Field object
-                        Field field = clazz.getDeclaredField(fieldName);
-                        method.setAccessible(true);
-
-                        // Wrap reflection invocation into a Function
-                        Function<EntityContext<T>, ?> function = contextInstance -> {
-                            try {
-                                return method.invoke(contextInstance);
-                            }
-                            catch (Exception e) {
-                                throw new RuntimeException(
-                                    "Failed to invoke completion method: " + method.getName(), e
-                                );
-                            }
-                        };
-                        map.put(field, function);
-                    }
-                    catch (NoSuchFieldException e) {
-                        throw new IllegalStateException(String.format(
-                            "Annotation @CompletionMethodFor(\"%s\") references a field that does not exist in %s",
-                            fieldName, clazz.getSimpleName()
-                        ), e);
-                    }
+            completionMethodsByClass.computeIfAbsent(this.getClass(), clazz -> scanCompletionMethods(clazz)).forEach((field, method) -> map.put(field, contextInstance -> {
+                try {
+                    return method.invoke(contextInstance);
                 }
-            }
+                catch (
+                    Exception e) {
+                    throw new RuntimeException("Failed to invoke completion method: " + method.getName(), e);
+                }
+            }));
             this.completionCache = Map.copyOf(map);
             return this.completionCache;
         }
@@ -87,7 +106,7 @@ public abstract class EntityFactory<T, C extends EntityFactory.EntityContext<T>>
         /**
          * Applies the functions returned by {@link #fieldCompletionMethods()} to any {@code null} fields
          * recursively until all possible fields have been filled.
-         * @return {@code frue} if all fields were filled using the present values, or {@code false} if
+         * @return {@code true} if all fields were filled using the present values, or {@code false} if
          * there was at least one field which could not be filled.
          * @throws IllegalAccessException If the fields which are keys in {@link #fieldCompletionMethods()}
          * were not accessible, or not assignable to the type returned by their mapped function value
@@ -119,14 +138,30 @@ public abstract class EntityFactory<T, C extends EntityFactory.EntityContext<T>>
         }
 
         public final void assertAllFieldsPresent() throws AssertionError {
-            for (Field field : this.getClass().getDeclaredFields()) {
+            // Only completable fields are required
+            for (Field field : fieldCompletionMethods().keySet()) {
                 try {
-                    assert field.get(this) != null;
+                    if (field.get(this) == null) {
+                        throw new AssertionError(
+                            "Field " + field.getName() + " is still null after imputation"
+                        );
+                    }
                 }
                 catch (IllegalAccessException e) {
-                    throw new AssertionError("Could not access a declared field.", e);
+                    throw new AssertionError("Could not access a completable field.", e);
                 }
             }
+        }
+
+        /** Replace any instances of null-sentinel values with {@code null}. */
+        public abstract void desentinelize();
+
+        /**
+         * Desentinelize one value, returning the original value if non-{@code null} and not equal to
+         * the sentinel, and returning {@code null} otherwise.
+         */
+        public <S> @Nullable S desentinelize(@Nullable S current, @NotNull S sentinel) {
+            return current != null && !current.equals(sentinel) ? current : null;
         }
     }
 
@@ -147,14 +182,15 @@ public abstract class EntityFactory<T, C extends EntityFactory.EntityContext<T>>
             throw new IllegalArgumentException("Something went wrong when creating an entity.", e);
         }
         context.assertAllFieldsPresent();
+        context.desentinelize();
         return this.doCreation(context);
     }
 
     /**
      * Create a new entity from the given context. Must return non-null, and may call the {@link #select(EntityContext)}
      * method to do this.
-     * @param context Context from which to create the entity. It is guaranteed that all values are non-null
-     *                when this method is called.
+     * @param context Context from which to create the entity. All completable fields have been imputed
+     *                before this method is called. Fields backed by a null sentinel are {@code null}.
      * @return An entity "matching" the context, depending on the entity's type and guarantees, or {@code null}
      * if the context is not valid to create an entity.
      */
@@ -175,17 +211,18 @@ public abstract class EntityFactory<T, C extends EntityFactory.EntityContext<T>>
             }
         }
         catch (IllegalAccessException | IllegalStateException | NoSuchFieldException e) {
-            throw new IllegalArgumentException("Something went wrong when creating an entity.", e);
+            throw new IllegalArgumentException("Something went wrong when selecting an entity.", e);
         }
         context.assertAllFieldsPresent();
+        context.desentinelize();
         return this.doSelection(context);
     }
 
     /**
      * Select an existing entity from the given context. May return {@code null} if the entity manager
      * has no registered entities or if selection is not allowed for this entity type.
-     * @param context Context to be used when selecting an entity. It is guaranteed that all values are non-null
-     *                when this method is called.
+     * @param context Context from which to create the entity. All completable fields have been imputed
+     *                before this method is called. Fields backed by a null sentinel are {@code null}.
      * @return An entity "matching" the context, depending on the entity's type and guarantees, or {@code null}
      * if there are no sepectable "matching" entities.
      * @throws UnsupportedOperationException If selection is not allowed for the type being selected.
