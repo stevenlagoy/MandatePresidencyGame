@@ -3,6 +3,7 @@ package com.stevenlagoy.presidency.citizens.attributes.names;
 import com.stevenlagoy.presidency.citizens.Citizen;
 import com.stevenlagoy.presidency.citizens.attributes.Education;
 import com.stevenlagoy.presidency.citizens.attributes.Family;
+import com.stevenlagoy.presidency.citizens.attributes.Presentation;
 import com.stevenlagoy.presidency.citizens.attributes.experiences.PersonalExperience;
 import com.stevenlagoy.presidency.citizens.attributes.experiences.PersonalExperienceHistory;
 import com.stevenlagoy.presidency.core.Engine;
@@ -19,7 +20,7 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class PersonalNameFactory extends EntityFactory<PersonalName, PersonalNameFactory.PersonalNameContext<PersonalName>> {
+public class PersonalNameFactory extends EntityFactory<PersonalName, PersonalNameFactory.PersonalNameContext<? extends PersonalName>> {
 
     // Constants
 
@@ -27,6 +28,9 @@ public class PersonalNameFactory extends EntityFactory<PersonalName, PersonalNam
     public static final float nameFormMatchesSiblingPercent = 0.90f;
     /** Percentage of people with a name form matching that of one of their parents, among people with parents. */
     public static final float nameFormMatchesParentPercent = 0.75f;
+    public static final float includeHonorificPercent = 0.35f;
+    public static final float includeSuffixPercent = 0.20f;
+
 
     /** Percentage of Native people who have a Native-style name. */
     public static final float nativeNativeNamePercent = 0.25f;
@@ -86,7 +90,7 @@ public class PersonalNameFactory extends EntityFactory<PersonalName, PersonalNam
     /**
      * Context for creating or selecting a {@link PersonalName}.
      */
-    public static class PersonalNameContext<N extends PersonalName> extends EntityFactory.EntityContext<N> {
+    public static abstract class PersonalNameContext<N extends PersonalName> extends EntityFactory.EntityContext<N> {
 
         protected final @NotNull Demographics demographics;
         protected final @NotNull Integer age;
@@ -96,6 +100,7 @@ public class PersonalNameFactory extends EntityFactory<PersonalName, PersonalNam
         protected @Nullable String honorific;
         protected static final String honorificNullSentinel = "";
         protected @Nullable List<String> suffixes;
+        protected @Nullable Set<PersonalName.DisplayOption> displayOptions;
 
         public PersonalNameContext(
             @NotNull Engine engine,
@@ -105,7 +110,8 @@ public class PersonalNameFactory extends EntityFactory<PersonalName, PersonalNam
             @NotNull PersonalExperienceHistory experiences,
             @Nullable Class<? extends PersonalName> nameForm,
             @Nullable String honorific,
-            @Nullable List<String> suffixes
+            @Nullable List<String> suffixes,
+            @Nullable Set<PersonalName.DisplayOption> displayOptions
         ) {
             super(engine);
             this.demographics = demographics;
@@ -115,6 +121,7 @@ public class PersonalNameFactory extends EntityFactory<PersonalName, PersonalNam
             this.nameForm = nameForm;
             this.honorific = honorific;
             this.suffixes = suffixes;
+            this.displayOptions = displayOptions;
         }
 
         @Override
@@ -136,7 +143,7 @@ public class PersonalNameFactory extends EntityFactory<PersonalName, PersonalNam
             } // No siblings
             // Try selecting a parent's name form
             if (nameForm == null && RandomUtils.chance(nameFormMatchesParentPercent)) {
-                List<Citizen> parents = family.getParents();
+                List<Citizen> parents = new ArrayList<>(family.getParents());
                 Collections.shuffle(parents);
                 nameForm = parents
                    .stream().findFirst()
@@ -181,7 +188,7 @@ public class PersonalNameFactory extends EntityFactory<PersonalName, PersonalNam
 
             Function<String, Boolean> hasExperienceMatching = name -> experiences
                 .stream().anyMatch(experience -> experience.getType()
-                .getName().contains(name));
+                .getName().toLowerCase().contains(name.toLowerCase()));
 
             // Chief Justice honorific
             if (hasExperienceMatching.apply("Chief Justice")) {
@@ -227,10 +234,11 @@ public class PersonalNameFactory extends EntityFactory<PersonalName, PersonalNam
                 }
             }
             // Ungranted honorifics
-            switch (demographics.getPresentation().getName()) {
-                case "Man" :
+            switch (Presentation.Companion.fromLabel(demographics.getPresentation().getName())) {
+                case MAN :
                     if (RandomUtils.chance(manMrHonorificPercent)) return mrHonorific;
-                case "Woman" :
+                    break;
+                case WOMAN :
                     boolean isMarried = family.getSpouse() != null;
                     if (isMarried) {
                         if (RandomUtils.chance(marriedWomanMrsHonorificPercent)) return mrsHonorific;
@@ -241,7 +249,7 @@ public class PersonalNameFactory extends EntityFactory<PersonalName, PersonalNam
                         if (RandomUtils.chance(unmarriedWomanMissHonorificPercent)) return missHonorific;
                     }
                     break;
-                case "Non-Binary" :
+                case NONBINARY :
                     if (RandomUtils.chance(nonBinaryMsHonorificPercent)) return msHonorific;
                     if (RandomUtils.chance(nonBinaryMrHonorificPercent)) return mrHonorific;
                     if (RandomUtils.chance(nonBinaryMxHonorificPercent)) return mxHonorific;
@@ -273,14 +281,33 @@ public class PersonalNameFactory extends EntityFactory<PersonalName, PersonalNam
                     if (RandomUtils.chance(mdSuffixPercent)) suffixes.add(mdSuffix);
                     else suffixes.add(m_d_Suffix);
                 }
-                if (experience.getType().getName().equals("Juris Doctor")) {
+                else if (experience.getType().getName().equals("Juris Doctor")) {
                     suffixes.add(esqSuffix);
                 }
-                if (RandomUtils.chance(doctorateDrHonorificPercent)) {
+                else if (RandomUtils.chance(doctorateDrHonorificPercent)) {
                     suffixes.add(phdSuffix);
                 }
             }
+            suffixes = new ArrayList<>(new LinkedHashSet<>(suffixes)); // Deduplicate
             return suffixes;
+        }
+
+        @CompletionMethodFor("displayOptions")
+        protected @Nullable Set<PersonalName.DisplayOption> selectDisplayOptions() {
+            if (displayOptions != null) return displayOptions;
+            displayOptions = new HashSet<>();
+            for (PersonalName.DisplayOption displayOption : getDisplayOptionsPercentages().keySet()) {
+                if (RandomUtils.chance(getDisplayOptionsPercentages().get(displayOption)))
+                    displayOptions.add(displayOption);
+            }
+            return displayOptions;
+        }
+
+        protected abstract @NotNull Map<PersonalName.DisplayOption, Float> getDisplayOptionsPercentages();
+
+        @Override
+        public void desentinelize() {
+            honorific = desentinelize(honorific, honorificNullSentinel);
         }
     }
 
@@ -298,24 +325,24 @@ public class PersonalNameFactory extends EntityFactory<PersonalName, PersonalNam
     }
 
     @Override
-    protected @Nullable PersonalName doCreation(@NotNull PersonalNameContext<PersonalName> context) {
+    protected @Nullable PersonalName doCreation(@NotNull PersonalNameContext<? extends PersonalName> context) {
         if (context.nameForm == WesternPersonalName.class) {
             WesternPersonalNameFactory.WesternPersonalNameContext childContext = new WesternPersonalNameFactory.WesternPersonalNameContext(engine, context);
             return westernPersonalNameFactory.create(childContext);
         }
         else if (context.nameForm == EasternPersonalName.class) {
             EasternPersonalNameFactory.EasternPersonalNameContext childContext = new EasternPersonalNameFactory.EasternPersonalNameContext(engine, context);
-            return easternPersonalNameFactory.doCreation(childContext);
+            return easternPersonalNameFactory.create(childContext);
         }
         else if (context.nameForm == HispanicPersonalName.class) {
             HispanicPersonalNameFactory.HispanicPersonalNameContext childContext = new HispanicPersonalNameFactory.HispanicPersonalNameContext(engine, context);
-            return hispanicPersonalNameFactory.doCreation(childContext);
+            return hispanicPersonalNameFactory.create(childContext);
         }
         throw new IllegalStateException("Unknown context nameForm: " + context.nameForm);
     }
 
     @Override
-    protected @Nullable PersonalName doSelection(@NotNull PersonalNameContext<PersonalName> context) throws UnsupportedOperationException {
+    protected @Nullable PersonalName doSelection(@NotNull PersonalNameContext<? extends PersonalName> context) throws UnsupportedOperationException {
         throw new UnsupportedOperationException("Selection is invalid for type " + PersonalName.class.getSimpleName());
     }
 }

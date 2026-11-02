@@ -30,53 +30,39 @@ abstract class PersonalName(
     enum class DisplayOption {
         /** Abbreviate the first name(s) */
         ABBREVIATE_FIRST,
-
         /** Abbreviate the middle name(s) */
         ABBREVIATE_MIDDLE,
-
         /** Prefer the middle name over the first name */
         PREFER_MIDDLE,
-
         /** Include the middle name in the common name */
         INCLUDE_MIDDLE,
-
         /** Place the Western name before the Traditional name */
         WESTERN_FIRST,
-
-        /** Place the Traditional name before the Western name */
-        TRADITIONAL_FIRST,
-
         /** The generational name is latent, not clan-based */
         LATENT_GENERATION,
-
         /** Place the maternal surname before the paternal surname */
         MATERNAL_FIRST,
-
         /** Include the additional Western name */
         INCLUDE_WESTERN,
-
         /** Include the nickname */
         INCLUDE_NICKNAME,
-
         /** Include the ordinal */
         INCLUDE_ORDINAL,
-
         /** Include the honorific(s) */
         INCLUDE_HONORIFIC,
-
         /** Include the suffix(es) */
         INCLUDE_SUFFIX,
-
         /** Prefer just the maternal name over both apellidos */
         PREFER_MATERNAL,
-
         /** Prefer just the paternal name over both apellidos */
         PREFER_PATERNAL;
     }
 
     /** Abbreviate names by returning the uppercase form of the first letter in each name. */
     fun abbreviate(names: String) =
-        names.split(" ").fold("") { res, name -> res + name.find { it.isLetter() }?.uppercaseChar() }
+        names.split(" ").mapNotNull {
+            name -> name.find { it.isLetter() }?.uppercase()
+        }.joinToString("")
 
     abstract val preferredGiven: String
 
@@ -124,7 +110,13 @@ abstract class PersonalName(
 
     // OBJECT METHODS -----------------------------------------------------------------------------
 
+    override fun toString() = biographicalName
+
     override fun hashCode() = toString().hashCode()
 
-    override fun equals(other: Any?) = this.hashCode() == other.hashCode()
+    override fun equals(other: Any?) = this === other || (
+        other is PersonalName &&
+        other::class == this::class &&
+        toString() == other.toString()
+    )
 }

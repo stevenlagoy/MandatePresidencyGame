@@ -6,6 +6,7 @@ import com.stevenlagoy.presidency.core.EntityManager;
 import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.demographics.Bloc;
 import com.stevenlagoy.presidency.demographics.DemographicCategory;
+import com.stevenlagoy.presidency.demographics.DemographicsManager;
 import com.stevenlagoy.presidency.util.*;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -67,6 +68,7 @@ public class PersonalNameManager extends EntityManager<PersonalName, String> {
 
     @Override
     protected void doCleanup() {
+        super.doCleanup();
         givenNamesDistribution.clear();
         familyNamesDistribution.clear();
         generationNamesDistribution.clear();
@@ -157,7 +159,7 @@ public class PersonalNameManager extends EntityManager<PersonalName, String> {
             else if (value instanceof List<?>) {
                 // This is a nested structure
                 // If key is a valid bloc, add it to a new bloc set
-                Bloc bloc = engine.DEMOGRAPHICS_MANAGER.matchBloc(key).orElse(null);
+                Bloc bloc = engine.getManager(DemographicsManager.class).matchBloc(key).orElse(null);
                 Set<Bloc> updatedBlocs = new HashSet<>(currentBlocs);
                 updatedBlocs.add(bloc);
                 // Recurse with updated bloc set
@@ -171,33 +173,23 @@ public class PersonalNameManager extends EntityManager<PersonalName, String> {
         return distributions;
     }
 
-//    public @NotNull PersonalName buildPersonalName(@NotNull PersonalNameFactory.NameContext context) {
-//        PersonalName name = switch (personalNameFactory.selectNameForm(context)) {
-//            case HISPANIC -> hispanicPersonalNameFactory.build(context);
-//            case EASTERN  -> easternPersonalNameFactory.build(context);
-//            case WESTERN  -> westernPersonalNameFactory.build(context);
-//        };
-//        personalNameFactory.decorate(name, context);
-//        return name;
-//    }
-
     // General selection --------------------------------------------------------------------------
 
-//    public @NotNull Map<String, Double> getGivenNamesDistribution(@NotNull PersonalNameFactory.NameContext context) {
-//        return getNamesDistributionForContext(context, givenNamesDistribution);
-//    }
-//
-//    public @NotNull Map<String, Double> getFamilyNamesDistribution(@NotNull PersonalNameFactory.NameContext context) {
-//        return getNamesDistributionForContext(context, familyNamesDistribution);
-//    }
-//
-//    public @NotNull Map<String, Double> getGenerationNamesDistribution(@NotNull PersonalNameFactory.NameContext context) {
-//        return getNamesDistributionForContext(context, generationNamesDistribution);
-//    }
-//
-//    public @NotNull Map<String, Set<String>> getNicknames() {
-//        return nicknames;
-//    }
+    public @NotNull Map<String, Double> getGivenNamesDistribution(@NotNull PersonalNameFactory.PersonalNameContext<?> context) {
+        return getNamesDistributionForContext(context, givenNamesDistribution);
+    }
+
+    public @NotNull Map<String, Double> getFamilyNamesDistribution(@NotNull PersonalNameFactory.PersonalNameContext<?> context) {
+        return getNamesDistributionForContext(context, familyNamesDistribution);
+    }
+
+    public @NotNull Map<String, Double> getGenerationNamesDistribution(@NotNull PersonalNameFactory.PersonalNameContext<?> context) {
+        return getNamesDistributionForContext(context, generationNamesDistribution);
+    }
+
+    public @NotNull Map<String, Set<String>> getNicknames() {
+        return nicknames;
+    }
 
     public @NotNull Set<String> getNicknamesForPresentation(@NotNull Bloc presentation) {
         if (!presentation.getCategory().equals(DemographicCategory.PRESENTATION)) return Collections.emptySet();
@@ -206,28 +198,26 @@ public class PersonalNameManager extends EntityManager<PersonalName, String> {
         // TODO the file mapping full names to nicknames should remain but be accessed differently
     }
 
-//    private @NotNull Map<String, Double> getNamesDistributionForContext(@NotNull PersonalNameFactory.NameContext context, @NotNull Map<Set<Bloc>, Map<String, Double>> namesDistribution) {
-//        Set<Set<Bloc>> realKeys = namesDistribution.keySet();
-//
-//        // Get targets including ancestor blocs
-//        Set<Bloc> targets = new HashSet<>();
-//        for (Bloc bloc : context.demographics.getBlocs()) {
-//            targets.addAll(bloc.getAncestorBlocs());
-//        }
-//
-//        Set<Set<Bloc>> combinations = CollectionUtils.combinations(targets);
-//        // Sort out invalid combinations
-//        Set<Set<Bloc>> validCombinations = combinations.stream().filter(realKeys::contains).collect(Collectors.toSet());
-//
-//        // Check that there is a valid combination
-//        if (validCombinations.isEmpty()) {
-//            Logger.error("NO VALID NAMES", String.format("Could not find any valid names with these target demographics: %s", targets));
-//            return new HashMap<>();
-//        }
-//
-//        // Pick one of the combinations with the most included Blocs
-//        Set<Bloc> bestCombination = Collections.max(validCombinations, Comparator.comparingInt(Set::size));
-//
-//        return namesDistribution.get(bestCombination);
-//    }
+    public @NotNull Map<String, Double> getNamesDistributionForContext(@NotNull PersonalNameFactory.PersonalNameContext<?> context, @NotNull Map<Set<Bloc>, Map<String, Double>> namesDistribution) {
+        Set<Set<Bloc>> realKeys = namesDistribution.keySet();
+
+        // Get targets including ancestor blocs
+        Set<Bloc> targets = new HashSet<>();
+        for (Bloc bloc : context.demographics.getBlocs()) {
+            targets.addAll(bloc.getAncestorBlocs());
+        }
+
+        // Key is usable when every block in it is a target
+        Set<Set<Bloc>> validCombinations = realKeys.stream().filter(targets::containsAll).collect(Collectors.toSet());
+        // Check that there is a valid combination
+        if (validCombinations.isEmpty()) {
+            Logger.error("NO VALID NAMES", String.format("Could not find any valid names with these target demographics: %s", targets));
+            return new HashMap<>();
+        }
+
+        // Pick one of the combinations with the most included Blocs
+        Set<Bloc> bestCombination = Collections.max(validCombinations, Comparator.comparingInt(Set::size));
+
+        return namesDistribution.get(bestCombination);
+    }
 }

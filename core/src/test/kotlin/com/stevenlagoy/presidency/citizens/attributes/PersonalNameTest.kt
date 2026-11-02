@@ -262,7 +262,8 @@ class PersonalNameTest {
         val westernName = "Sarah"
         val suffixes = listOf("Esq.")
         val displayOptions = setOf<DisplayOption>()
-        val name = EasternPersonalName(familyName, generationName, givenName, westernName, honorific, null, suffixes, displayOptions)
+        val name = EasternPersonalName(familyName, generationName, givenName, westernName, honorific,
+            suffixes, displayOptions)
 
         assertNotNull(name)
 
@@ -313,7 +314,8 @@ class PersonalNameTest {
         val suffixes = listOf("Esq.")
         val displayOptions = setOf<DisplayOption>()
 
-        val original = EasternPersonalName(familyName, generationName, givenName, westernName, honorific, null, suffixes, displayOptions)
+        val original = EasternPersonalName(familyName, generationName, givenName, westernName, honorific,
+            suffixes, displayOptions)
         val copied = EasternPersonalName(original)
 
         assertNotNull(copied)
@@ -345,7 +347,8 @@ class PersonalNameTest {
         val suffixes = listOf("Esq.")
         val displayOptions = setOf<DisplayOption>()
 
-        val original = EasternPersonalName(familyName, generationName, givenName, westernName, honorific, null, suffixes, displayOptions)
+        val original = EasternPersonalName(familyName, generationName, givenName, westernName, honorific,
+            suffixes, displayOptions)
         val reconstructed = EasternPersonalName(original.toJson())
 
         assertNotNull(reconstructed)
