@@ -2,9 +2,11 @@ package com.stevenlagoy.presidency.politics.government
 
 import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.JSONSerializable
+import com.stevenlagoy.presidency.citizens.CharacterManager
 import com.stevenlagoy.presidency.citizens.PoliticalActor
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
+import com.stevenlagoy.presidency.map.MapManager
 import com.stevenlagoy.presidency.map.entities.MapEntity
 import com.stevenlagoy.presidency.map.entities.Nation
 import kotlin.uuid.ExperimentalUuidApi
@@ -13,7 +15,7 @@ import kotlin.uuid.ExperimentalUuidApi
 class GovernmentPosition(
     engine: Engine,
     var title: String = "",
-    var constituency: MapEntity = Nation,
+    var constituency: MapEntity = engine.getManager(MapManager::class.java).nation,
     var federalLevel: FederalLevel = FederalLevel.FEDERAL,
     var holder: PoliticalActor? = null,
 ) : JSONSerializable<GovernmentPosition>, EngineBound(engine) {
@@ -29,9 +31,9 @@ class GovernmentPosition(
 
     override fun fromJson(json: JSONObject) = apply {
         title = json.requireString("name")
-        constituency = Nation // engine.MAP_MANAGER.matchMapEntity(json.requireString("constituency")).orElseThrow()
+        constituency = engine.getManager(MapManager::class.java).nation
         federalLevel = FederalLevel.valueOf(json.requireString("federalLevel"))
-        holder = engine.CHARACTER_MANAGER.matchCitizenById(json.requireString("holder")).orElseThrow() as PoliticalActor
+        holder = engine.getManager(CharacterManager::class.java).matchCitizenById(json.requireString("holder")).orElseThrow() as PoliticalActor
     }
 
 }

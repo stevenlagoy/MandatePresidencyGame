@@ -1,6 +1,7 @@
 package com.stevenlagoy.presidency.politics
 
 import com.stevenlagoy.jsonic.JSONObject
+import com.stevenlagoy.presidency.citizens.CharacterManager
 import com.stevenlagoy.presidency.citizens.PoliticalActor
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.politics.government.GovernmentPosition
@@ -56,10 +57,10 @@ class Campaign(
     override fun fromJson(json: JSONObject) = apply {
         candidates = json.requireJson("campaigners").associate {
             engine.getManager(GovernmentPositionManager::class.java).matchByKey((it as JSONObject).key)
-                .get() to engine.CHARACTER_MANAGER.matchCitizenByIndexedName(it.requireString()).get() as PoliticalActor
+                .get() to engine.getManager(CharacterManager::class.java).matchCitizenByIndexedName(it.requireString()).get() as PoliticalActor
         }
         affiliatedParty =
-            engine.POLITICS_MANAGER.PARTY_MANAGER.matchParty(json.requireString("affiliatedParty")).getOrNull()
+            engine.getManager(PartyManager::class.java).matchParty(json.requireString("affiliatedParty")).getOrNull()
         candidacy = IssuePosition(
             engine,
             this,

@@ -5,6 +5,7 @@ import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.citizens.attributes.Goal
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
+import com.stevenlagoy.presidency.core.TimeManager
 import com.stevenlagoy.presidency.economy.Asset
 import com.stevenlagoy.presidency.economy.Liability
 import java.time.LocalDate
@@ -41,7 +42,7 @@ class BalanceSheet(
     fun createRecord() {
         records.add(
             AccountRecord(
-                engine.TIME_MANAGER.currentDate.toLocalDate(),
+                engine.getManager(TimeManager::class.java).currentDate.toLocalDate(),
                 totalAssets,
                 totalLiabilities
             )

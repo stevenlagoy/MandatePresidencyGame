@@ -2,6 +2,7 @@ package com.stevenlagoy.presidency.citizens.attributes.finances
 
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
+import com.stevenlagoy.presidency.core.TimeManager
 import com.stevenlagoy.presidency.economy.Debt
 import com.stevenlagoy.presidency.economy.FinancialEntity
 import com.stevenlagoy.presidency.economy.Loan
@@ -37,7 +38,7 @@ class CreditScore(
          */
         fun FICOScore(engine: Engine, paymentHistory: Map<LocalDate, Int>, averageMonthlyCreditUtilization: Double, lengthOfHistory: Double, newCredit: Double, creditMix: Double): Double {
             // Payment History
-            fun yearsAgo(date: LocalDate): Double = engine.TIME_MANAGER.daysAgo(date).toDouble() / daysInYear
+            fun yearsAgo(date: LocalDate): Double = engine.getManager(TimeManager::class.java).daysAgo(date).toDouble() / daysInYear
             val filteredPaymentHistory = paymentHistory.filter { (date, daysLate) -> yearsAgo(date) <= yearsOfPaymentsConsidered && daysLate > latePaymentGraceDays }
             val totalOnTimePayments = paymentHistory.count { (_, daysLate) -> daysLate <= latePaymentGraceDays }
             val scaledPaymmentHistory = filteredPaymentHistory.map { (date, daysLate) -> (1.0 / yearsOfPaymentsConsidered) * yearsAgo(date) * daysLate }
@@ -68,7 +69,7 @@ class CreditScore(
         val allDebts = entity.balanceSheet.liabilities.filterIsInstance<Debt>()
         val debtsMonthly: MutableMap<Int, Double> = mutableMapOf() // Keys are months ago
         for (debt in allDebts) {
-            val monthsAgo = daysBetween(debt.dateIncurred, engine.TIME_MANAGER.currentDate.toLocalDate()) / daysInWeek * 4 // TODO: assuming a month is 4 weeks
+            val monthsAgo = daysBetween(debt.dateIncurred, engine.getManager(TimeManager::class.java).currentDate.toLocalDate()) / daysInWeek * 4 // TODO: assuming a month is 4 weeks
             if (monthsAgo !in 0..monthsOfCreditConsidered) continue
             if (monthsAgo !in debtsMonthly) debtsMonthly[monthsAgo] = 0.0
             debtsMonthly[monthsAgo] = debtsMonthly[monthsAgo]!! + debt.value
@@ -79,7 +80,7 @@ class CreditScore(
 
     fun evaluate(): Double {
         var creditScore = 0.0
-        val today = engine.TIME_MANAGER.currentDate
+        val today = engine.getManager(TimeManager::class.java).currentDate
 
         // Payment history
         val allLoans = entity.financialInstruments.filterIsInstance<Loan>()

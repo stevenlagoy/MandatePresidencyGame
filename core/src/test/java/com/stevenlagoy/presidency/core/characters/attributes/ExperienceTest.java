@@ -1,10 +1,12 @@
 package com.stevenlagoy.presidency.core.characters.attributes;
 
 import com.stevenlagoy.presidency.citizens.attributes.ExperienceManager;
-import com.stevenlagoy.presidency.citizens.attributes.experiences.PersonalExperienceType;
 import com.stevenlagoy.presidency.citizens.attributes.experiences.PersonalExperienceHistory;
+import com.stevenlagoy.presidency.citizens.attributes.experiences.PersonalExperienceManager;
+import com.stevenlagoy.presidency.citizens.attributes.experiences.PersonalExperienceType;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
+import com.stevenlagoy.presidency.core.TimeManager;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
@@ -18,7 +20,7 @@ public class ExperienceTest {
 
     @Test
     public void testGetExperiences() throws InterruptedException {
-        ExperienceManager experienceManager = new Engine().CHARACTER_MANAGER.EXPERIENCE_MANAGER;
+        PersonalExperienceManager experienceManager = engine.getManager(PersonalExperienceManager.class);
         experienceManager.init();
         Thread.sleep(2000);
         assertEquals(Manager.ManagerState.ACTIVE, experienceManager.getState());
@@ -27,7 +29,7 @@ public class ExperienceTest {
 
     @Test
     public void testGetFulfilledExperiences() throws InterruptedException {
-        ExperienceManager experienceManager = new Engine().CHARACTER_MANAGER.EXPERIENCE_MANAGER;
+        PersonalExperienceManager experienceManager = engine.getManager(PersonalExperienceManager.class);
         experienceManager.init();
         Thread.sleep(2000);
         assertTrue(experienceManager.getExperiences(new ArrayList<>()).size() > 5);
@@ -37,7 +39,7 @@ public class ExperienceTest {
 
     @Test
     public void validateExperience() throws InterruptedException {
-        ExperienceManager experienceManager = new Engine().CHARACTER_MANAGER.EXPERIENCE_MANAGER;
+        ExperienceManager experienceManager = engine.getManager(CharacterManager::class.java);
         experienceManager.init();
         Thread.sleep(2000);
         boolean foundPrerequisites = false, foundConnections = false;
@@ -65,8 +67,8 @@ public class ExperienceTest {
     @Test
     public void testBuildExperienceHistory() throws InterruptedException {
         Engine engine = new Engine();
-        engine.TIME_MANAGER.init();
-        ExperienceManager experienceManager = engine.CHARACTER_MANAGER.EXPERIENCE_MANAGER;
+        engine.getManager(TimeManager.class).init();
+        PersonalExperienceManager experienceManager = engine.getManager(PersonalExperienceManager.class);
         experienceManager.init();
         Thread.sleep(2000);
         PersonalExperienceHistory personalExperienceHistory = experienceManager.buildExperienceHistory(LocalDate.of(1970, 1, 1));
@@ -79,8 +81,8 @@ public class ExperienceTest {
     @Test
     public void testBuildManyExperienceHistories() throws InterruptedException {
         Engine engine = new Engine();
-        engine.TIME_MANAGER.init();
-        ExperienceManager experienceManager = engine.CHARACTER_MANAGER.EXPERIENCE_MANAGER;
+        engine.getManager(TimeManager.class).init();
+        PersonalExperienceManager experienceManager = engine.getManager(PersonalExperienceManager.class);
         experienceManager.init();
         Thread.sleep(2000);
         double totalLegislative = 0.0;
@@ -108,15 +110,15 @@ public class ExperienceTest {
     @Test
     public void testBuildExperienceHistoryWithGoalExperience() throws InterruptedException {
         Engine engine = new Engine();
-        engine.TIME_MANAGER.init();
-        ExperienceManager experienceManager = engine.CHARACTER_MANAGER.EXPERIENCE_MANAGER;
+        engine.getManager(TimeManager.class).init();
+        PersonalExperienceManager experienceManager = engine.getManager(PersonalExperienceManager.class);
         experienceManager.init();
         Thread.sleep(2000);
         PersonalExperienceHistory personalExperienceHistory = new PersonalExperienceHistory(engine, List.of(new PersonalExperienceHistory.ExperienceEntry(engine, experienceManager.matchExperience("supreme_court_justice").orElseThrow(), LocalDate.of(2010, 1, 1), null)));
         experienceManager.fillExperienceHistory(LocalDate.of(1970, 1, 1), personalExperienceHistory);
         assertTrue(personalExperienceHistory.getExperiences().size() > 5);
         for (PersonalExperienceHistory.ExperienceEntry experienceEntry : personalExperienceHistory.getExperiences()) {
-            assertTrue(experienceEntry.getExperience().prerequisitsMet(personalExperienceHistory.getExperiencesBefore(experienceEntry).stream().map(PersonalExperienceHistory.ExperienceEntry::getExperience).collect(Collectors.toSet())));
+            assertTrue(experienceEntry.getExperience().prerequisitsMet(personalExperienceHistory.getExperiencesStartingBefore(experienceEntry).stream().map(PersonalExperienceHistory.ExperienceEntry::getExperience).collect(Collectors.toSet())));
         }
         assertEquals(Manager.ManagerState.ACTIVE, experienceManager.getState());
     }

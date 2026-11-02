@@ -30,7 +30,7 @@ open class Issue(
             json.requireJson("positions").requireArray().map { IssuePosition(engine, this, it as JSONObject) }.toSet()
         subissues = json.findJson("subissues").get().let {
             it.requireArray()
-                .mapNotNull { issue -> engine.POLITICS_MANAGER.ISSUE_MANAGER.matchIssue(issue as String).getOrNull() }
+                .mapNotNull { issue -> engine.getManager(IssueManager::class.java).matchIssue(issue as String).getOrNull() }
         }.toSet()
     }
 
@@ -56,7 +56,7 @@ open class Issue(
         )
 
         override fun fromJson(json: JSONObject) = apply {
-            issue = engine.POLITICS_MANAGER.ISSUE_MANAGER.matchIssue(json.requireString("issue")).get()
+            issue = engine.getManager(IssueManager::class.java).matchIssue(json.requireString("issue")).get()
             title = json.requireString("title")
             description = json.requireString("description")
             alignment.fromJson(json.requireJson("alignment"))

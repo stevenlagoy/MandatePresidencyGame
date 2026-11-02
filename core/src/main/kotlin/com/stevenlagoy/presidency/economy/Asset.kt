@@ -18,7 +18,7 @@ abstract class Asset(
     val depreciationPerAnnum: Double? = null,
     val depreciationPeriod: Period? = null,
 ) : EngineBound(engine), JSONSerializable<Asset> {
-    var nextDepreciationDate: LocalDate? = if (depreciationPeriod == null) null else engine.TIME_MANAGER.currentDate.toLocalDate().plus(depreciationPeriod)
+    var nextDepreciationDate: LocalDate? = if (depreciationPeriod == null) null else engine.getManager(TimeManager::class.java).currentDate.toLocalDate().plus(depreciationPeriod)
         private set
 
     val deprecationPerPeriod: Double? = if (depreciationPerAnnum == null || depreciationPeriod == null) null else depreciationPerAnnum * (Period.ofYears(1).toTotalMonths() / depreciationPeriod.toTotalMonths()).toDouble()
@@ -27,7 +27,7 @@ abstract class Asset(
         get() = depreciateBookValue()
 
     fun depreciateBookValue(): Double {
-        if (nextDepreciationDate != null && engine.TIME_MANAGER.currentDate.toLocalDate() >= nextDepreciationDate) {
+        if (nextDepreciationDate != null && engine.getManager(TimeManager::class.java).currentDate.toLocalDate() >= nextDepreciationDate) {
             nextDepreciationDate = nextDepreciationDate?.plus(depreciationPeriod)
             val depreciationAmount = (depreciationPerAnnum ?: 0.0) * bookValue
             bookValue -= depreciationAmount

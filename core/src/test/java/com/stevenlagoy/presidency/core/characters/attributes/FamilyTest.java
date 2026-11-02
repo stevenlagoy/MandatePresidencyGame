@@ -1,5 +1,6 @@
 package com.stevenlagoy.presidency.core.characters.attributes;
 
+import com.stevenlagoy.presidency.citizens.attributes.FamilyManager;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.Manager;
 import org.junit.jupiter.api.AfterEach;
@@ -14,13 +15,13 @@ import static org.junit.jupiter.api.Assertions.fail;
 
 public class FamilyTest {
 
-    static final Engine ENGINE = new Engine();
+    static final Engine engine = new Engine();
 
     @BeforeEach
     public void initFamilyManager() {
-        if (ENGINE.CHARACTER_MANAGER.FAMILY_MANAGER.getState() != Manager.ManagerState.ACTIVE) {
-            ENGINE.CHARACTER_MANAGER.FAMILY_MANAGER.init();
-            if (ENGINE.CHARACTER_MANAGER.FAMILY_MANAGER.getState() != Manager.ManagerState.ACTIVE) {
+        if (engine.getManager(FamilyManager.class).getState() != Manager.ManagerState.ACTIVE) {
+            engine.getManager(FamilyManager.class).init();
+            if (engine.getManager(FamilyManager.class).getState() != Manager.ManagerState.ACTIVE) {
                 fail("Failed to initialize FamilyManager, necessary for testing");
             }
         }
@@ -28,7 +29,7 @@ public class FamilyTest {
 
     @AfterEach
     public void resetFamilyManager() {
-        ENGINE.CHARACTER_MANAGER.FAMILY_MANAGER.cleanup();
+        engine.getManager(FamilyManager.class).cleanup();
     }
 
     @Test
@@ -36,7 +37,7 @@ public class FamilyTest {
         Map<Integer, Integer> returns = new HashMap<>();
         int iterations = 10000;
         for (int i = 0; i < iterations; i++) {
-            int _return = ENGINE.CHARACTER_MANAGER.FAMILY_MANAGER.chooseFamilySize();
+            int _return = engine.getManager(FamilyManager.class).chooseFamilySize();
             returns.merge(_return, 1, Integer::sum);
         }
         System.out.println(returns);

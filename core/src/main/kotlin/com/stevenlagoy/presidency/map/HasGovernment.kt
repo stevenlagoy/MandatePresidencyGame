@@ -5,6 +5,7 @@ import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.map.entities.Place
 import com.stevenlagoy.presidency.map.entities.PlaceManager
 import com.stevenlagoy.presidency.politics.Party
+import com.stevenlagoy.presidency.politics.PartyManager
 import com.stevenlagoy.presidency.politics.elections.Election
 import com.stevenlagoy.presidency.politics.government.Government
 
@@ -45,7 +46,7 @@ interface HasGovernment : HasPartyPresence {
         partiesPresent.clear()
         json.requireArray("elections").forEach { entry ->
             partiesPresent.add(
-                engine.POLITICS_MANAGER.PARTY_MANAGER.matchParty(entry as String).get()
+                engine.getManager(PartyManager::class.java).matchParty(entry as String).get()
             )
         }
     }

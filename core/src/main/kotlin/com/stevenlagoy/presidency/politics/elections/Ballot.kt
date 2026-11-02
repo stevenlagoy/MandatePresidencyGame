@@ -5,6 +5,7 @@ import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.politics.Issue
+import com.stevenlagoy.presidency.politics.IssueManager
 
 class Ballot(
     engine: Engine,
@@ -19,7 +20,7 @@ class Ballot(
 
     override fun fromJson(json: JSONObject) = apply {
         `return` = json.requireJson().filterIsInstance<JSONObject>().associate {
-            engine.POLITICS_MANAGER.ISSUE_MANAGER.matchIssuePosition(it.key).get() to (it.value as Number).toInt()
+            engine.getManager(IssueManager::class.java).matchIssuePosition(it.key).get() to (it.value as Number).toInt()
         }.toMap()
     }
 }

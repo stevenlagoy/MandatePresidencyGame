@@ -2,14 +2,16 @@ package com.stevenlagoy.presidency.citizens;
 
 import com.stevenlagoy.jsonic.JSONObject;
 import com.stevenlagoy.presidency.citizens.attributes.*;
-import com.stevenlagoy.presidency.citizens.attributes.experiences.ExperienceHistory;
-import com.stevenlagoy.presidency.citizens.attributes.names.NameManager;
+import com.stevenlagoy.presidency.citizens.attributes.experiences.PersonalExperienceHistory;
 import com.stevenlagoy.presidency.citizens.attributes.names.PersonalName;
+import com.stevenlagoy.presidency.citizens.attributes.names.PersonalNameManager;
 import com.stevenlagoy.presidency.core.Engine;
 import com.stevenlagoy.presidency.core.EngineBound;
 import com.stevenlagoy.presidency.core.Manager;
+import com.stevenlagoy.presidency.core.TimeManager;
 import com.stevenlagoy.presidency.demographics.Bloc;
 import com.stevenlagoy.presidency.demographics.Demographics;
+import com.stevenlagoy.presidency.demographics.DemographicsManager;
 import com.stevenlagoy.presidency.map.entities.Place;
 import com.stevenlagoy.presidency.map.entities.PlaceManager;
 import com.stevenlagoy.presidency.politics.PoliticalAlignment;
@@ -61,7 +63,7 @@ public class CharacterManager extends Manager {
     private final Set<Citizen> citizens = new HashSet<>();
 
     // Submanagers
-    public final NameManager NAME_MANAGER;
+    public final PersonalNameManager NAME_MANAGER;
     public final SkillsManager SKILLS_MANAGER;
     public final AppearanceManager APPEARANCE_MANAGER;
     public final PersonalityManager PERSONALITY_MANAGER;
@@ -72,7 +74,7 @@ public class CharacterManager extends Manager {
 
     public CharacterManager(@NotNull Engine engine, @NotNull Manager superManager) {
         super(engine, superManager);
-        NAME_MANAGER        = new NameManager(engine, this);
+        NAME_MANAGER        = new PersonalNameManager(engine, this);
         SKILLS_MANAGER      = new SkillsManager(engine, this);
         APPEARANCE_MANAGER  = new AppearanceManager(engine, this);
         PERSONALITY_MANAGER = new PersonalityManager(engine, this);
@@ -137,7 +139,7 @@ public class CharacterManager extends Manager {
             ageDistribution = new HashMap<>();
             for (Object blocObj : json.requireArray()) {
                 if (blocObj instanceof JSONObject blocJson) {
-                    Bloc key = engine.DEMOGRAPHICS_MANAGER.matchBloc(blocJson.getKey()).orElseThrow();
+                    Bloc key = engine.getManager(DemographicsManager.class).matchBloc(blocJson.getKey()).orElseThrow();
                     Map<Integer, Double> distribution = new HashMap<>();
                     for (Object dataObj : blocJson.requireArray()) {
                         if (dataObj instanceof JSONObject dataJson) {
@@ -236,7 +238,7 @@ public class CharacterManager extends Manager {
         ); }
 
         public int getAge() {
-            return engine.TIME_MANAGER.yearsAgo(birthday);
+            return engine.getManager(TimeManager.class).yearsAgo(birthday);
         }
 
         public static @NotNull CitizenContext emptyContext(@NotNull Engine engine) {
@@ -263,9 +265,9 @@ public class CharacterManager extends Manager {
             context.sex = selectSex();
         }
         if (context.demographics == null) {
-            Demographics selectedDemographics = engine.DEMOGRAPHICS_MANAGER.selectDemographics();
+            Demographics selectedDemographics = engine.getManager(DemographicsManager.class).selectDemographics();
             if (context.birthday != null) {
-                selectedDemographics.setGeneration(engine.DEMOGRAPHICS_MANAGER.getGenerationForBirthday(context.birthday));
+                selectedDemographics.setGeneration(engine.getManager(DemographicsManager.class).getGenerationForBirthday(context.birthday));
             }
             context.demographics = selectedDemographics;
         }
@@ -277,11 +279,11 @@ public class CharacterManager extends Manager {
             // context.family = FAMILY_MANAGER.planFamily(context);
         }
         if (context.appearance == null) {
-            context.appearance = APPEARANCE_MANAGER.generateAppearance(context.demographics, engine.TIME_MANAGER.yearsAgo(context.birthday));
+            context.appearance = APPEARANCE_MANAGER.generateAppearance(context.demographics, engine.getManager(TimeManager.class).yearsAgo(context.birthday));
         }
         if (context.name == null) {
             // This will be done later, after building the family
-            // context.name = NAME_MANAGER.buildPersonalName(new NameManager.NameContext(context.demographics, engine.TIME_MANAGER.yearsAgo(context.birthday), null));
+            // context.name = NAME_MANAGER.buildPersonalName(new NameManager.NameContext(context.demographics, engine.getManager(TimeManager.class).yearsAgo(context.birthday), null));
         }
         if (context.origin == null) {
             context.origin = engine.getManager(PlaceManager.class).selectRandom(); // (context.demographics);
@@ -335,7 +337,7 @@ public class CharacterManager extends Manager {
 
     private @NotNull Map<Integer, Double> getAgeDistribution(@NotNull Set<Bloc> blocs) {
         requireOperational();
-        if (blocs.isEmpty()) blocs = engine.DEMOGRAPHICS_MANAGER.getCommonDemographics().getBlocs();
+        if (blocs.isEmpty()) blocs = engine.getManager(DemographicsManager.class).getCommonDemographics().getBlocs();
         final Map<Integer, Double> distributionsSum = new HashMap<>();
         double totalPercentages = 0.0;
         // Add together all bloc distributions
@@ -357,7 +359,7 @@ public class CharacterManager extends Manager {
             assert selected != null;
             age = selected;
         } while (age < Citizen.MIN_AGE || age > Citizen.MAX_AGE);
-        int year = engine.TIME_MANAGER.dateYearsAgo(age).getYear();
+        int year = engine.getManager(TimeManager.class).dateYearsAgo(age).getYear();
 
         // Select day and month
         int month, day;

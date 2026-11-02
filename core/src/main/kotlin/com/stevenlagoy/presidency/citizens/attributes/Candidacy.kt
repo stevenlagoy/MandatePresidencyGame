@@ -5,6 +5,7 @@ import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.citizens.attributes.finances.FinancialProfile
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
+import com.stevenlagoy.presidency.core.TimeManager
 import java.time.LocalDate
 import kotlin.uuid.ExperimentalUuidApi
 import kotlin.uuid.Uuid
@@ -14,7 +15,7 @@ class Candidacy(
     engine: Engine,
     var electionId: Uuid = Uuid.random(),
     var status: CandidacyStatus = CandidacyStatus.DECLARED,
-    declarationDate: LocalDate = engine.TIME_MANAGER.currentDate.toLocalDate(),
+    declarationDate: LocalDate = engine.getManager(TimeManager::class.java).currentDate.toLocalDate(),
     var withdrawalDate: LocalDate? = null,
     campaignFinance: FinancialProfile = FinancialProfile(engine),
 ) : JSONSerializable<Candidacy>, EngineBound(engine) {

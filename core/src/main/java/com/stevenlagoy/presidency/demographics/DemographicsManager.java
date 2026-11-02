@@ -1,9 +1,12 @@
 package com.stevenlagoy.presidency.demographics;
 
 import com.stevenlagoy.jsonic.JSONObject;
+import com.stevenlagoy.presidency.citizens.CharacterManager;
 import com.stevenlagoy.presidency.citizens.Citizen;
+import com.stevenlagoy.presidency.citizens.attributes.Presentation;
 import com.stevenlagoy.presidency.citizens.attributes.Sex;
 import com.stevenlagoy.presidency.core.Engine;
+import com.stevenlagoy.presidency.core.EntityManager;
 import com.stevenlagoy.presidency.core.Manager;
 import com.stevenlagoy.presidency.util.FilePath;
 import com.stevenlagoy.presidency.util.RandomUtils;
@@ -29,7 +32,7 @@ import java.util.*;
  *
  * @author Steven LaGoy
  */
-public class DemographicsManager extends Manager {
+public class DemographicsManager extends EntityManager<Demographics, String> {
 
     // Constants
 
@@ -63,12 +66,6 @@ public class DemographicsManager extends Manager {
     // Manager Methods
 
     @Override
-    @Contract(pure=true)
-    public @NotNull List<Manager> getSubManagers() {
-        return List.of();
-    }
-
-    @Override
     protected void doInit() {
         readBlocData();
         readPopulationPyramidData();
@@ -89,6 +86,16 @@ public class DemographicsManager extends Manager {
 
     @Override
     protected void doFromJson(@NotNull JSONObject json) {
+    }
+
+    @Override
+    protected @NotNull Demographics entityFromJson(JSONObject json) {
+        return null;
+    }
+
+    @Override
+    protected @Nullable String keyOf(@NotNull Demographics entity) {
+        return entity.toString();
     }
 
     // Instance Methods
@@ -188,7 +195,7 @@ public class DemographicsManager extends Manager {
 
     public Demographics getCommonDemographics() {
         requireOperational();
-        return new Demographics(engine, "Millennial", "White Catholic", "English", "Woman");
+        return new Demographics(engine, "Millennial", "White Catholic", "English", Presentation.WOMAN.getLabel());
     }
 
     public @Nullable Bloc getCommonBloc(@NotNull DemographicCategory category) {
@@ -220,11 +227,11 @@ public class DemographicsManager extends Manager {
     public @NotNull Bloc selectPresentationForSex(@NotNull Sex sex) {
         String presentationBlocName = switch (sex) {
             case FEMALE ->
-                RandomUtils.chance(FEMALE_WOMAN_PRESENTATION_PERCENT) ? "Woman" : RandomUtils.chance(FEMALE_MAN_PRESENTATION_PERCENT) ? "Man" : "Nonbinary";
+                RandomUtils.chance(FEMALE_WOMAN_PRESENTATION_PERCENT) ? Presentation.WOMAN.getLabel() : RandomUtils.chance(FEMALE_MAN_PRESENTATION_PERCENT) ? Presentation.MAN.getLabel() : Presentation.NONBINARY.getLabel();
             case INTERSEX ->
-                RandomUtils.chance(INTERSEX_WOMAN_PRESENTATION_PERCENT) ? "Woman" : RandomUtils.chance(INTERSEX_MAN_PRESENTATION_PERCENT) ? "Man" : "Nonbinary";
+                RandomUtils.chance(INTERSEX_WOMAN_PRESENTATION_PERCENT) ? Presentation.WOMAN.getLabel() : RandomUtils.chance(INTERSEX_MAN_PRESENTATION_PERCENT) ? Presentation.MAN.getLabel() : Presentation.NONBINARY.getLabel();
             case MALE ->
-                RandomUtils.chance(MALE_WOMAN_PRESENTATION_PERCENT) ? "Woman" : RandomUtils.chance(MALE_MAN_PRESENTATION_PERCENT) ? "Man" : "Nonbinary";
+                RandomUtils.chance(MALE_WOMAN_PRESENTATION_PERCENT) ? Presentation.WOMAN.getLabel() : RandomUtils.chance(MALE_MAN_PRESENTATION_PERCENT) ? Presentation.MAN.getLabel() : Presentation.NONBINARY.getLabel();
         };
         return matchBloc(presentationBlocName).orElseThrow();
     }
@@ -244,7 +251,7 @@ public class DemographicsManager extends Manager {
     // TODO Instead of picking one bloc and then populating the rest normally, this should use bloc overlaps to find the most underrepresented
     public @NotNull Demographics selectUnderrepresentedDemographics() {
         requireOperational();
-        if (engine.CHARACTER_MANAGER.getNumCitizens() == 0) return getCommonDemographics();
+        if (engine.getManager(CharacterManager.class).getNumCitizens() == 0) return getCommonDemographics();
         List<Bloc> allBlocs = new ArrayList<>();
         demographicBlocs.values().forEach(allBlocs::addAll);
         Bloc underrepresentedBloc = selectUnderrepresentedBloc(allBlocs);
@@ -311,10 +318,10 @@ public class DemographicsManager extends Manager {
         // Returns ratio of actual character membership to expected membership
         // <1 if underrepresented, >1 if overrepresented, =1 if perfectly represented
         try {
-            if (engine.CHARACTER_MANAGER.getNumCitizens() == 0)
+            if (engine.getManager(CharacterManager.class).getNumCitizens() == 0)
                 return 1.0f; // if there are no characters, every bloc is perfectly represented
             double expectedRepresentation = bloc.getPercentageMembership();
-            double actualRepresentation = bloc.getMembers().size() * 1.0f / engine.CHARACTER_MANAGER.getNumCitizens();
+            double actualRepresentation = bloc.getMembers().size() * 1.0f / engine.getManager(CharacterManager.class).getNumCitizens();
             return (actualRepresentation / expectedRepresentation);
         }
         catch (ArithmeticException e) {

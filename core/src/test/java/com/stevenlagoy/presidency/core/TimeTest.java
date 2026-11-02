@@ -15,13 +15,13 @@ import com.stevenlagoy.presidency.core.Manager.ManagerState;
 
 public final class TimeTest {
 
-    public static final Engine ENGINE = new Engine();
+    public static final Engine engine = new Engine();
 
     @BeforeEach
     public void initTimeManager() {
-        if (ENGINE.TIME_MANAGER.getState() != ManagerState.ACTIVE) {
-            ENGINE.TIME_MANAGER.init();
-            if (ENGINE.TIME_MANAGER.getState() != ManagerState.ACTIVE) {
+        if (engine.getManager(TimeManager.class).getState() != ManagerState.ACTIVE) {
+            engine.getManager(TimeManager.class).init();
+            if (engine.getManager(TimeManager.class).getState() != ManagerState.ACTIVE) {
                 fail("Failed to initialize TimeManager, necessary for testing.");
             }
         }
@@ -29,8 +29,8 @@ public final class TimeTest {
 
     @AfterEach
     public void resetTimeManager() {
-        ENGINE.TIME_MANAGER.cleanup();
-        ENGINE.TIME_MANAGER.init();
+        engine.getManager(TimeManager.class).cleanup();
+        engine.getManager(TimeManager.class).init();
     }
 
     @Test
@@ -127,119 +127,119 @@ public final class TimeTest {
 
     @Test
     public void testIncrementSecond() {
-        ZonedDateTime before = ENGINE.TIME_MANAGER.getCurrentDate();
-        ENGINE.TIME_MANAGER.incrementSecond();
-        ZonedDateTime after = ENGINE.TIME_MANAGER.getCurrentDate();
+        ZonedDateTime before = engine.getManager(TimeManager.class).getCurrentDate();
+        engine.getManager(TimeManager.class).incrementSecond();
+        ZonedDateTime after = engine.getManager(TimeManager.class).getCurrentDate();
         assertEquals(before.plusSeconds(1), after);
     }
 
     @Test
     public void testIncrementHalfMinute() {
-        ZonedDateTime before = ENGINE.TIME_MANAGER.getCurrentDate();
-        ENGINE.TIME_MANAGER.incrementHalfMinute();
-        ZonedDateTime after = ENGINE.TIME_MANAGER.getCurrentDate();
+        ZonedDateTime before = engine.getManager(TimeManager.class).getCurrentDate();
+        engine.getManager(TimeManager.class).incrementHalfMinute();
+        ZonedDateTime after = engine.getManager(TimeManager.class).getCurrentDate();
         assertEquals(before.plusSeconds(30), after);
     }
 
     @Test
     public void testIncrementMinute() {
-        ZonedDateTime before = ENGINE.TIME_MANAGER.getCurrentDate();
-        ENGINE.TIME_MANAGER.incrementMinute();
-        ZonedDateTime after = ENGINE.TIME_MANAGER.getCurrentDate();
+        ZonedDateTime before = engine.getManager(TimeManager.class).getCurrentDate();
+        engine.getManager(TimeManager.class).incrementMinute();
+        ZonedDateTime after = engine.getManager(TimeManager.class).getCurrentDate();
         assertEquals(before.plusMinutes(1), after);
     }
 
     @Test
     public void testIncrementQuarterHour() {
-        ZonedDateTime before = ENGINE.TIME_MANAGER.getCurrentDate();
-        ENGINE.TIME_MANAGER.incrementQuarterHour();
-        ZonedDateTime after = ENGINE.TIME_MANAGER.getCurrentDate();
+        ZonedDateTime before = engine.getManager(TimeManager.class).getCurrentDate();
+        engine.getManager(TimeManager.class).incrementQuarterHour();
+        ZonedDateTime after = engine.getManager(TimeManager.class).getCurrentDate();
         assertEquals(before.plusMinutes(15), after);
     }
 
     @Test
     public void testIncrementHalfHour() {
-        ZonedDateTime before = ENGINE.TIME_MANAGER.getCurrentDate();
-        ENGINE.TIME_MANAGER.incrementHalfHour();
-        ZonedDateTime after = ENGINE.TIME_MANAGER.getCurrentDate();
+        ZonedDateTime before = engine.getManager(TimeManager.class).getCurrentDate();
+        engine.getManager(TimeManager.class).incrementHalfHour();
+        ZonedDateTime after = engine.getManager(TimeManager.class).getCurrentDate();
         assertEquals(before.plusMinutes(30), after);
     }
 
     @Test
     public void testIncrementHour() {
-        ZonedDateTime before = ENGINE.TIME_MANAGER.getCurrentDate();
-        ENGINE.TIME_MANAGER.incrementHour();
-        ZonedDateTime after = ENGINE.TIME_MANAGER.getCurrentDate();
+        ZonedDateTime before = engine.getManager(TimeManager.class).getCurrentDate();
+        engine.getManager(TimeManager.class).incrementHour();
+        ZonedDateTime after = engine.getManager(TimeManager.class).getCurrentDate();
         assertEquals(before.plusHours(1), after);
     }
 
     @Test
     public void testIncrementQuarterDay() {
-        ZonedDateTime before = ENGINE.TIME_MANAGER.getCurrentDate();
-        ENGINE.TIME_MANAGER.incrementQuarterDay();
-        ZonedDateTime after = ENGINE.TIME_MANAGER.getCurrentDate();
+        ZonedDateTime before = engine.getManager(TimeManager.class).getCurrentDate();
+        engine.getManager(TimeManager.class).incrementQuarterDay();
+        ZonedDateTime after = engine.getManager(TimeManager.class).getCurrentDate();
         assertEquals(before.plusHours(6), after);
     }
 
     @Test
     public void testIncrementHalfDay() {
-        ZonedDateTime before = ENGINE.TIME_MANAGER.getCurrentDate();
-        ENGINE.TIME_MANAGER.incrementHalfDay();
-        ZonedDateTime after = ENGINE.TIME_MANAGER.getCurrentDate();
+        ZonedDateTime before = engine.getManager(TimeManager.class).getCurrentDate();
+        engine.getManager(TimeManager.class).incrementHalfDay();
+        ZonedDateTime after = engine.getManager(TimeManager.class).getCurrentDate();
         assertEquals(before.plusHours(12), after);
     }
 
     @Test
     public void testIncrementDay() {
-        ZonedDateTime before = ENGINE.TIME_MANAGER.getCurrentDate();
-        ENGINE.TIME_MANAGER.incrementDay();
-        ZonedDateTime after = ENGINE.TIME_MANAGER.getCurrentDate();
+        ZonedDateTime before = engine.getManager(TimeManager.class).getCurrentDate();
+        engine.getManager(TimeManager.class).incrementDay();
+        ZonedDateTime after = engine.getManager(TimeManager.class).getCurrentDate();
         assertEquals(before.plusDays(1), after);
     }
 
     @Test
     public void testIsPastEndDate() {
-        while (!ENGINE.TIME_MANAGER.isPastEndDate()) {
-            ENGINE.TIME_MANAGER.incrementDay();
+        while (!engine.getManager(TimeManager.class).isPastEndDate()) {
+            engine.getManager(TimeManager.class).incrementDay();
         }
-        assertTrue(ENGINE.TIME_MANAGER.isPastEndDate());
+        assertTrue(engine.getManager(TimeManager.class).isPastEndDate());
     }
 
     @Test
     public void testGetters() {
-        ENGINE.TIME_MANAGER.init(); // Init to make sure current date is start date
-        assertEquals(TimeManager.startDate.getYear(), ENGINE.TIME_MANAGER.getCurrentYear());
-        assertEquals(TimeManager.startDate.getMonthValue(), ENGINE.TIME_MANAGER.getCurrentMonth());
-        assertEquals(TimeManager.startDate.getDayOfMonth(), ENGINE.TIME_MANAGER.getCurrentDay());
-        assertNotNull(ENGINE.TIME_MANAGER.getFormattedCurrentDate());
-        assertNotNull(ENGINE.TIME_MANAGER.getFormattedCurrentTime());
+        engine.getManager(TimeManager.class).init(); // Init to make sure current date is start date
+        assertEquals(TimeManager.startDate.getYear(), engine.getManager(TimeManager.class).getCurrentYear());
+        assertEquals(TimeManager.startDate.getMonthValue(), engine.getManager(TimeManager.class).getCurrentMonth());
+        assertEquals(TimeManager.startDate.getDayOfMonth(), engine.getManager(TimeManager.class).getCurrentDay());
+        assertNotNull(engine.getManager(TimeManager.class).getFormattedCurrentDate());
+        assertNotNull(engine.getManager(TimeManager.class).getFormattedCurrentTime());
     }
 
     @Test
     public void testDetermineDate() {
-        LocalDate date2 = ENGINE.TIME_MANAGER.determineDate(5, 14);
-        assertEquals(LocalDate.of(ENGINE.TIME_MANAGER.getCurrentYear(), 5, 14), date2);
-        LocalDate date3 = ENGINE.TIME_MANAGER.determineDate(2028, 4, 2, 3);
+        LocalDate date2 = engine.getManager(TimeManager.class).determineDate(5, 14);
+        assertEquals(LocalDate.of(engine.getManager(TimeManager.class).getCurrentYear(), 5, 14), date2);
+        LocalDate date3 = engine.getManager(TimeManager.class).determineDate(2028, 4, 2, 3);
         assertEquals(LocalDate.of(2028, 4, 18), date3);
-        LocalDate date4 = ENGINE.TIME_MANAGER.determineDate(2026, 7, 5, -2);
+        LocalDate date4 = engine.getManager(TimeManager.class).determineDate(2026, 7, 5, -2);
         assertEquals(LocalDate.of(2026, 7, 24), date4);
     }
 
     @Test
     public void testDetermineDateInvalid() {
-        assertThrows(IllegalArgumentException.class, () -> ENGINE.TIME_MANAGER.determineDate(2027, 1, 1, 6));
+        assertThrows(IllegalArgumentException.class, () -> engine.getManager(TimeManager.class).determineDate(2027, 1, 1, 6));
     }
 
     @Test
     public void testDetermineDateRelative() {
-        LocalDate date1 = ENGINE.TIME_MANAGER.determineDateRelative(LocalDate.of(2026, 1, 15), 1, 1);
+        LocalDate date1 = engine.getManager(TimeManager.class).determineDateRelative(LocalDate.of(2026, 1, 15), 1, 1);
         assertEquals(LocalDate.of(2026, 1, 19), date1);
     }
 
     @Test
     @SuppressWarnings("all")
     public void testDetermineDateRelativeInvalid() {
-        assertThrows(IllegalArgumentException.class, () -> ENGINE.TIME_MANAGER.determineDateRelative(null, 0, 0));
+        assertThrows(IllegalArgumentException.class, () -> engine.getManager(TimeManager.class).determineDateRelative(null, 0, 0));
     }
 
     @Test
@@ -253,7 +253,7 @@ public final class TimeTest {
     @Test
     public void testMillisecondsAgo() {
         ZonedDateTime d = TimeManager.startDate.minusDays(1);
-        long ms = ENGINE.TIME_MANAGER.millisecondsAgo(d);
+        long ms = engine.getManager(TimeManager.class).millisecondsAgo(d);
         assertTrue(ms > 0);
     }
 
@@ -266,32 +266,32 @@ public final class TimeTest {
 
     @Test
     public void testYearsAgo() {
-        LocalDate past = LocalDate.of(ENGINE.TIME_MANAGER.getCurrentYear() - 3, 1, 1);
-        assertEquals(3, ENGINE.TIME_MANAGER.yearsAgo(past));
+        LocalDate past = LocalDate.of(engine.getManager(TimeManager.class).getCurrentYear() - 3, 1, 1);
+        assertEquals(3, engine.getManager(TimeManager.class).yearsAgo(past));
     }
 
     @Test
     public void testDetermineDateInvalidOrder() {
-        assertThrows(IllegalArgumentException.class, () -> ENGINE.TIME_MANAGER.determineDate(2027, 4, 2, 0));
+        assertThrows(IllegalArgumentException.class, () -> engine.getManager(TimeManager.class).determineDate(2027, 4, 2, 0));
     }
 
     @Test
     public void testDetermineDateRelativeInvalidOrder() {
-        assertThrows(IllegalArgumentException.class, () -> ENGINE.TIME_MANAGER.determineDateRelative(LocalDate.of(2027, 1, 1), 2, 0));
+        assertThrows(IllegalArgumentException.class, () -> engine.getManager(TimeManager.class).determineDateRelative(LocalDate.of(2027, 1, 1), 2, 0));
     }
 
     @Test
     public void testTimeManagerCleanup() {
-        ENGINE.TIME_MANAGER.cleanup();
-        assertEquals(ManagerState.INACTIVE, ENGINE.TIME_MANAGER.getState());
+        engine.getManager(TimeManager.class).cleanup();
+        assertEquals(ManagerState.INACTIVE, engine.getManager(TimeManager.class).getState());
     }
 
     @Test
     public void testTimeManagerToJson() {
-        JSONObject json = ENGINE.TIME_MANAGER.toJson();
+        JSONObject json = engine.getManager(TimeManager.class).toJson();
         String expectedKey = "time_manager";
         assertEquals(expectedKey, json.getKey());
-        ENGINE.TIME_MANAGER.fromJson(json);
-        assertEquals(ManagerState.ACTIVE, ENGINE.TIME_MANAGER.getState());
+        engine.getManager(TimeManager.class).fromJson(json);
+        assertEquals(ManagerState.ACTIVE, engine.getManager(TimeManager.class).getState());
     }
 }

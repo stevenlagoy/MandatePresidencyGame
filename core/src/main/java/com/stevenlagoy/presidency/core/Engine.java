@@ -16,10 +16,7 @@ import org.jetbrains.annotations.NotNull;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * <h1>ENGINE</h1>
@@ -78,13 +75,13 @@ public final class Engine extends Manager {
     // Instance Fields
 
     // Submanagers
-    public final LanguageManager LANGUAGE_MANAGER;
-    public final TimeManager TIME_MANAGER;
-    public final EventManager EVENT_MANAGER;
-    public final DemographicsManager DEMOGRAPHICS_MANAGER;
-    public final MapManager MAP_MANAGER;
-    public final PoliticsManager POLITICS_MANAGER;
-    public final CharacterManager CHARACTER_MANAGER;
+    private final LanguageManager LANGUAGE_MANAGER;
+    private final TimeManager TIME_MANAGER;
+    private final EventManager EVENT_MANAGER;
+    private final DemographicsManager DEMOGRAPHICS_MANAGER;
+    private final MapManager MAP_MANAGER;
+    private final PoliticsManager POLITICS_MANAGER;
+    private final CharacterManager CHARACTER_MANAGER;
 
     /**
      * Whether this Engine is running in debug mode. {@code true} means debug mode is active and
@@ -195,7 +192,13 @@ public final class Engine extends Manager {
      * @return Registered manager of the given class
      */
     public @NotNull <T extends Manager> T getManager(@NotNull Class<T> managerClass) {
-        return managerClass.cast(managerRegistry.get(managerClass));
+        try {
+            return Objects.requireNonNull(managerClass.cast(managerRegistry.get(managerClass)));
+        }
+        catch (NullPointerException e) {
+            Logger.error("Attempted to access an unknown manager from the Engine: " + managerClass.getSimpleName(), e);
+            throw e;
+        }
     }
 
     @Override

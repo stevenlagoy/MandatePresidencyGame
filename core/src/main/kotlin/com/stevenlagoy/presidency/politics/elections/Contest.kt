@@ -7,7 +7,9 @@ import com.stevenlagoy.presidency.core.EngineBound
 import com.stevenlagoy.presidency.map.entities.MapEntity
 import com.stevenlagoy.presidency.map.entities.Nation
 import com.stevenlagoy.presidency.politics.Issue
+import com.stevenlagoy.presidency.politics.IssueManager
 import com.stevenlagoy.presidency.politics.PartyGoverningBody
+import com.stevenlagoy.presidency.politics.PartyManager
 import com.stevenlagoy.presidency.politics.government.Government
 import com.stevenlagoy.presidency.politics.government.GovernmentManager
 import java.time.LocalDateTime
@@ -74,7 +76,7 @@ open class Contest(
             engine.getManager(GovernmentManager::class.java).matchByKey(json.requireString("managerialGovernment"))
                 .get()
         managerialParty =
-            engine.POLITICS_MANAGER.PARTY_MANAGER.matchPartyGoverningBody(json.requireString("managerialParty")).get()
+            engine.getManager(PartyManager::class.java).matchPartyGoverningBody(json.requireString("managerialParty")).get()
 
         voterAccessRule.fromJson(json, managerialParty!!.party)
         tabulationRule.fromJson(json)
@@ -85,7 +87,7 @@ open class Contest(
             .toMutableSet()
         issues = json.findJson("issues").get().let {
             it.requireArray()
-                .map { issue -> engine.POLITICS_MANAGER.ISSUE_MANAGER.matchIssue(issue as String).getOrNull() }
+                .map { issue -> engine.getManager(IssueManager::class.java).matchIssue(issue as String).getOrNull() }
         }.filterNotNull().toSet()
 //        results = json.findJson("results").get().let { it.requireArray().associate { json as JSONObject -> VotingReturn(engine, json.requireString("position")) }}.toSet() // TODO
     }

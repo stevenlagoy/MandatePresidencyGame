@@ -10,7 +10,9 @@ import com.stevenlagoy.presidency.citizens.attributes.names.PersonalName
 import com.stevenlagoy.presidency.citizens.attributes.names.WesternPersonalName
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
+import com.stevenlagoy.presidency.core.TimeManager
 import com.stevenlagoy.presidency.demographics.Demographics
+import com.stevenlagoy.presidency.demographics.DemographicsManager
 import com.stevenlagoy.presidency.map.entities.Place
 import com.stevenlagoy.presidency.map.entities.PlaceManager
 import java.time.LocalDate
@@ -36,7 +38,7 @@ open class Citizen(
     engine: Engine,
     val sex: Sex = Sex.FEMALE,
     birthday: LocalDate = LocalDate.of(1970, 1, 1),
-    val demographics: Demographics = engine.DEMOGRAPHICS_MANAGER.commonDemographics,
+    val demographics: Demographics = engine.getManager(DemographicsManager::class.java).commonDemographics,
     val family: Family = Family(engine),
     val appearance: CharacterAppearance = CharacterAppearance(),
     val name: PersonalName = WesternPersonalName(),
@@ -58,19 +60,17 @@ open class Citizen(
 
     var birthday: LocalDate = birthday
         set(value) {
-            val years = engine.TIME_MANAGER.yearsAgo(value)
+            val years = engine.getManager(TimeManager::class.java).yearsAgo(value)
             field = when {
-                years > MAX_AGE -> engine.TIME_MANAGER.dateYearsAgo(MAX_AGE.toLong())
-                years < MIN_AGE -> engine.TIME_MANAGER.currentDate.toLocalDate()
+                years > MAX_AGE -> engine.getManager(TimeManager::class.java).dateYearsAgo(MAX_AGE.toLong())
+                years < MIN_AGE -> engine.getManager(TimeManager::class.java).currentDate.toLocalDate()
                 else -> value
             }
         }
 
-    val age: Int get() = engine.TIME_MANAGER.yearsAgo(birthday)
+    val age: Int get() = engine.getManager(TimeManager::class.java).yearsAgo(birthday)
 
-    constructor(engine: Engine, json: JSONObject) : this(engine) {
-        fromJson(json)
-    }
+    constructor(engine: Engine, json: JSONObject) : this(engine) { fromJson(json) }
 
     override fun fromJson(json: JSONObject) = this.apply {
         name.fromJson(json.requireJson("name"))

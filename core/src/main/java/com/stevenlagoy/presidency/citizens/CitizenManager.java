@@ -26,12 +26,8 @@ public class CitizenManager extends EntityManager<Citizen, Uuid> {
     }
 
     @Override
-    protected void doFromJson(@NotNull JSONObject json) {
-        for (Object citizenObj : json.requireArray()) {
-            if (citizenObj instanceof JSONObject citizenJson) {
-                register(new Citizen(engine, citizenJson));
-            }
-        }
+    protected @NotNull Citizen entityFromJson(@NotNull JSONObject json) {
+        return new Citizen(engine, json);
     }
 
     @Override

@@ -10,6 +10,7 @@ import com.stevenlagoy.presidency.core.linearvalue.Modifier
 import com.stevenlagoy.presidency.demographics.Demographics
 import com.stevenlagoy.presidency.map.entities.Place
 import com.stevenlagoy.presidency.politics.Party
+import com.stevenlagoy.presidency.politics.PartyManager
 import com.stevenlagoy.presidency.politics.PoliticalAlignment
 import java.time.LocalDate
 import kotlin.math.E
@@ -64,7 +65,7 @@ open class PoliticalActor(
     override fun fromJson(json: JSONObject) = this.apply {
         super.fromJson(json)
         alignment.fromJson(json.requireJson("alignment") as JSONObject)
-        partyAffiliation = engine.POLITICS_MANAGER.PARTY_MANAGER.matchParty(
+        partyAffiliation = engine.getManager(PartyManager::class.java).matchParty(
             json.requireString(
                 "partyAffiliation",
                 "party_affiliation_id"

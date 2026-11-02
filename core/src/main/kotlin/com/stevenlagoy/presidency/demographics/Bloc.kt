@@ -90,9 +90,9 @@ class Bloc(
     override fun fromJson(json: JSONObject) = this.apply {
         name = json.requireString("name")
         category = DemographicCategory.valueOf(json.requireString("category").uppercase().replace(Regex("[^A-Z]"), "_"))
-        superBloc = engine.DEMOGRAPHICS_MANAGER.matchBloc(json.requireString("superBloc")).orElseThrow()
+        superBloc = engine.getManager(DemographicsManager::class.java).matchBloc(json.requireString("superBloc")).orElseThrow()
         subBlocs.clear()
-        subBlocs.addAll(json.requireArray("subBlocs").map { engine.DEMOGRAPHICS_MANAGER.matchBloc(it as String) }
+        subBlocs.addAll(json.requireArray("subBlocs").map { engine.getManager(DemographicsManager::class.java).matchBloc(it as String) }
             .filter { it.isPresent }.map { it.get() })
     }
 

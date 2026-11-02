@@ -1,6 +1,7 @@
 package com.stevenlagoy.presidency.map.entities
 
 import com.stevenlagoy.jsonic.JSONObject
+import com.stevenlagoy.presidency.citizens.CharacterManager
 import com.stevenlagoy.presidency.citizens.PoliticalActor
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.Manager
@@ -58,8 +59,8 @@ class CongressionalDistrict(
         if (_state.isPresent) state = _state.get()
         districtNumber = json.requireInt("districtNumber")
         representative =
-            if (json.hasKey("representative") && engine.CHARACTER_MANAGER.state == Manager.ManagerState.ACTIVE)
-                engine.CHARACTER_MANAGER.matchCitizenById(json.requireString("representative"))
+            if (json.hasKey("representative") && engine.getManager(CharacterManager::class.java).state == Manager.ManagerState.ACTIVE)
+                engine.getManager(CharacterManager::class.java).matchCitizenById(json.requireString("representative"))
                     .getOrNull() as PoliticalActor?
             else null
     }

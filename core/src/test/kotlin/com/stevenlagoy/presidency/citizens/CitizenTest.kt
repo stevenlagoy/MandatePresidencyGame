@@ -6,6 +6,7 @@ import com.stevenlagoy.presidency.citizens.attributes.Sex
 import com.stevenlagoy.presidency.citizens.attributes.names.WesternPersonalName
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.Manager
+import com.stevenlagoy.presidency.demographics.DemographicsManager
 import org.junit.jupiter.api.Assertions.assertNotNull
 import org.junit.jupiter.api.Assertions.assertNull
 import org.junit.jupiter.api.BeforeAll
@@ -45,7 +46,7 @@ class CitizenTest {
     fun `WHEN creating Citizen with all valid fields THEN construction succeeds and fields are correct`() {
         val sex = Sex.FEMALE
         val birthday = LocalDate.of(1970, 1, 1)
-        val demographics = engine.DEMOGRAPHICS_MANAGER.commonDemographics
+        val demographics = engine.getManager(DemographicsManager::class.java).commonDemographics
         val family = Family(engine, null, null, null, mutableSetOf())
         val appearance = CharacterAppearance()
         val name = WesternPersonalName()
