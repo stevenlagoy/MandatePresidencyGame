@@ -26,7 +26,7 @@ class HispanicPersonalName(
         fromJson(json)
     }
 
-    override val preferredGiven: String get() = if (nickname != null) nickname!! else givenName.split("\\s").first()
+    override val preferredGiven: String get() = if (nickname != null) nickname!! else givenName.trim().split("\\s").first()
 
     val apellidos: String get() = if (displayOptions.contains(DisplayOption.MATERNAL_FIRST)) "$maternalName $paternalName".trim() else "$paternalName $maternalName".trim()
 

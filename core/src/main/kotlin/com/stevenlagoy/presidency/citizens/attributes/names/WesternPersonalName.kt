@@ -2,11 +2,15 @@ package com.stevenlagoy.presidency.citizens.attributes.names
 
 import com.stevenlagoy.jsonic.JSONObject
 
+/**
+ * @property birthSurname Surname at birth, if different from current last name. Also called a "maiden name" for women.
+ */
 class WesternPersonalName(
     var firstName: String = "",
     var middleName: String? = null,
     var lastName: String = "",
     var ordinal: String? = null,
+    birthSurname: String? = null,
     honorific: String? = null,
     nickname: String? = null,
     suffixes: List<String> = listOf(),
@@ -14,7 +18,7 @@ class WesternPersonalName(
 ) : PersonalName(honorific, nickname, suffixes, displayOptions) {
 
     constructor(other: PersonalName) : this(
-        "", null, "", null,
+        "", null, "", null, null,
         other.honorific, other.nickname, other.suffixes, other.displayOptions,
     ) {
         other as WesternPersonalName
@@ -22,11 +26,15 @@ class WesternPersonalName(
         this.middleName = other.middleName
         this.lastName = other.lastName
         this.ordinal = other.ordinal
+        this.birthSurname = other.birthSurname
     }
 
     constructor(json: JSONObject) : this() {
         fromJson(json)
     }
+
+    var birthSurname: String? = birthSurname
+        get() = field.also { if (field == lastName) field = null }
 
     val preferredMiddle: String?
         get() = if (middleName != null && displayOptions.contains(DisplayOption.ABBREVIATE_MIDDLE)) abbreviate(
@@ -41,19 +49,19 @@ class WesternPersonalName(
             )
         ) preferredMiddle ?: "" else preferredFirst
 
-    override val preferredFamily = lastName.trim()
+    override val preferredFamily: String get() = lastName.trim()
 
-    override val legalName: String get() = "$firstName $middleName $lastName ${ordinal ?: ""}".normalize()
+    override val legalName: String get() = "$firstName ${middleName ?: ""} $lastName ${ordinal ?: ""}".normalize()
 
-    override val formalName: String get() = "${honorific ?: ""} $preferredFirst $preferredMiddle $lastName ${ordinal ?: ""}, $formattedSuffixes".normalize()
+    override val formalName: String get() = "${honorific ?: ""} $preferredFirst ${preferredMiddle ?: ""} $lastName ${ordinal ?: ""}, $formattedSuffixes".normalize()
 
-    override val biographicalName: String get() = "${honorific ?: ""} $firstName $middleName \"${nickname ?: ""}\" $lastName ${ordinal ?: ""}, $formattedSuffixes".normalize()
+    override val biographicalName: String get() = "${honorific ?: ""} $firstName ${middleName ?: ""} \"${nickname ?: ""}\" $lastName ${ordinal ?: ""}, $formattedSuffixes".normalize()
 
-    override val commonName: String get() = "$preferredFirst $preferredMiddle $lastName ${ordinal ?: ""}".normalize()
+    override val commonName: String get() = "$preferredFirst ${preferredMiddle ?: ""} $lastName ${ordinal ?: ""}".normalize()
 
     override val informalName: String get() = "$preferredGiven $lastName".normalize()
 
-    override val indexedName: String get() = "$lastName, $firstName $middleName".normalize()
+    override val indexedName: String get() = "$lastName, $firstName ${middleName ?: ""}".normalize()
 
     override val initials: String get() = abbreviate("$firstName ${middleName ?: ""} $lastName")
 
@@ -77,6 +85,7 @@ class WesternPersonalName(
         JSONObject("middle_name", middleName),
         JSONObject("last_name", lastName),
         JSONObject("ordinal", ordinal),
+        JSONObject("maiden_name", birthSurname),
     )
 
     override fun fromJson(json: JSONObject) = super.fromJson(json).apply {
@@ -84,5 +93,6 @@ class WesternPersonalName(
         middleName = json.requireString("middle_name")
         lastName = json.requireString("last_name")
         ordinal = json.requireString("ordinal")
+        birthSurname = json.requireString("maiden_name")
     }
 }

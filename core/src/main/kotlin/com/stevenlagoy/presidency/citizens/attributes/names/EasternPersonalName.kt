@@ -7,16 +7,16 @@ class EasternPersonalName(
     var familyName: String = "",
     var generationName: String? = null,
     var givenName: String = "",
-    var westernName: String? = null,
+    westernName: String? = null,
     honorific: String? = null,
-    nickname: String? = null,
     suffixes: List<String> = listOf(),
     displayOptions: Set<DisplayOption> = setOf(),
-) : PersonalName(honorific, null, suffixes, displayOptions) {
+) : PersonalName(honorific, westernName, suffixes, displayOptions) {
 
     constructor(other: PersonalName) : this(
         "", null, "", null,
-        other.honorific, other.nickname, other.suffixes, other.displayOptions
+        other.honorific,
+        other.suffixes, other.displayOptions
     ) {
         other as EasternPersonalName
         this.familyName = other.familyName
@@ -29,7 +29,13 @@ class EasternPersonalName(
         fromJson(json)
     }
 
-    val fullGiven: String get() = (generationName + givenName).titlecase().trim()
+    var westernName: String? = westernName
+
+    override var nickname
+        get() = westernName
+        set(value) { westernName = value }
+
+    val fullGiven: String get() = ((generationName ?: "") + givenName).titlecase().trim()
 
     override val preferredGiven: String get() = if (displayOptions.contains(DisplayOption.LATENT_GENERATION)) givenName.trim() else fullGiven
 
