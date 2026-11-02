@@ -4,6 +4,7 @@ import com.stevenlagoy.jsonic.JSONObject
 import com.stevenlagoy.jsonic.JSONSerializable
 import com.stevenlagoy.presidency.core.Engine
 import com.stevenlagoy.presidency.core.EngineBound
+import com.stevenlagoy.presidency.core.TimeManager
 import com.stevenlagoy.presidency.util.daysBetween
 import com.stevenlagoy.presidency.util.daysInYear
 import com.stevenlagoy.presidency.util.times
@@ -64,13 +65,13 @@ class PersonalExperience(
         }
 
     val tenureYears: Double
-        get() = daysBetween(startDate, endDate ?: engine.TIME_MANAGER.currentDate.toLocalDate()) * 1.0 / daysInYear
+        get() = daysBetween(startDate, endDate ?: engine.getManager(TimeManager::class.java).currentDate.toLocalDate()) * 1.0 / daysInYear
 
     val skillsDeveloped: Triple<Double, Double, Double>
         get() = type.yearlySkills * tenureYears
 
     init {
-        require(startDate == null || !startDate.isAfter(engine.TIME_MANAGER.currentDate.toLocalDate())) {
+        require(startDate == null || !startDate.isAfter(engine.getManager(TimeManager::class.java).currentDate.toLocalDate())) {
             "start date must not be in the future"
         }
         if (type != null) this.type = type

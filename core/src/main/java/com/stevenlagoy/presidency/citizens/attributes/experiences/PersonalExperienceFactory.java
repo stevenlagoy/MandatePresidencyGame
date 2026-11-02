@@ -63,7 +63,7 @@ public class PersonalExperienceFactory extends EntityFactory<PersonalExperience,
         public @NotNull String getImputationFailureConditionsMessage() throws NoSuchFieldException {
             return String.format(
                 "At least one of the following is required: %s, %s, %s.",
-                this.getClass().getDeclaredField("name").getName(),
+                this.getClass().getDeclaredField("type").getName(),
                 this.getClass().getDeclaredField("startDate").getName(),
                 this.getClass().getDeclaredField("endDate").getName()
             );
@@ -90,9 +90,12 @@ public class PersonalExperienceFactory extends EntityFactory<PersonalExperience,
                 else return null; // Unable to impute
                 if (startDate != null && endDate != null) {
                     double tenureYears = TimeUtils.yearsBetween(startDate, endDate);
-                    possibleTypes.removeIf((candidate) -> candidate.getMinTenureYears() < tenureYears);
+                    possibleTypes.removeIf((candidate) -> candidate.getMinTenureYears() > tenureYears);
                 }
                 Map<PersonalExperienceType, Double> weights = new HashMap<>();
+                for (PersonalExperienceType candidate : possibleTypes) {
+                    weights.put(candidate, candidate.getBaseChance());
+                }
                 for (PersonalExperience prior : history) {
                     prior.getType().getConnections().forEach((conn, weight) -> {
                         if (possibleTypes.contains(conn)) {
@@ -112,8 +115,7 @@ public class PersonalExperienceFactory extends EntityFactory<PersonalExperience,
                 if (type == null) return null; // Unable to impute
 
                 // Choose a tenure duration
-                double min = type.getMinTenureYears(), avg = type.getAvgTenureYears(), max = type.getMaxTenureYears();
-                double tenureYears = RandomUtils.randSamplePDF(RandomUtils.triangularPDF(min, avg, max), min, max, max);
+                double tenureYears = sampleTenureYears(type);
                 if (endDate != null) { // Have an end date but not a start date
                     LocalDate earliestPossible = history.getNearestEndDateBefore(endDate);
                     if (earliestPossible == null) earliestPossible = birthDate.plusYears(18L);
@@ -128,6 +130,7 @@ public class PersonalExperienceFactory extends EntityFactory<PersonalExperience,
                 }
                 else { // Both start and end date are null
                     // Choose the largest gap
+                    // TODO Complete this branch
                 }
                 // Choose an acceptable start date before the end date.
                 // Must agree with the max tenure specified by the type.
@@ -136,22 +139,33 @@ public class PersonalExperienceFactory extends EntityFactory<PersonalExperience,
             return startDate;
         }
 
+        private static double sampleTenureYears(@NotNull PersonalExperienceType type) {
+            double min = type.getMinTenureYears(), avg = type.getAvgTenureYears(), max = type.getMaxTenureYears();
+            return RandomUtils.randSamplePDF(RandomUtils.triangularPDF(min, avg, max), min, max, max);
+        }
+
         @CompletionMethodFor("endDate")
         protected @Nullable LocalDate selectEndDate() {
-            LocalDate endDate = this.endDate;
-            if (endDate == null) {
-                if (type == null) return null; // Unable to impute
-            }
+            if (endDate != null) return endDate;
+            if (type == null || startDate == null) return null; // Unable to impute
+            LocalDate selected = startDate.plusDays((long) (sampleTenureYears(type) * TimeUtils.daysInYear));
+            // Experiences which go after latest date are ongoing
+            endDate = selected.isAfter(latestDate) ? endDateNullSentinel : selected;
             return endDate;
         }
 
         @CompletionMethodFor("isComplete")
         protected @Nullable Boolean determineIsComplete() {
-            Boolean isComplete = this.isComplete;
-            if (isComplete == null) {
-                if (type == null || startDate == null || endDate == null) return null; // Unable to impute
-            }
+            if (isComplete != null) return isComplete;
+            if (endDate == null) return null; // Unable to impute
+            // Ongoing experiences or one ending after latest date is not complete
+            isComplete = !endDate.equals(endDateNullSentinel) && !endDate.isAfter(latestDate);
             return isComplete;
+        }
+
+        @Override
+        public void desentinelize() {
+            endDate = desentinelize(endDate, endDateNullSentinel);
         }
     }
 
@@ -161,7 +175,7 @@ public class PersonalExperienceFactory extends EntityFactory<PersonalExperience,
 
     @Override
     protected @Nullable PersonalExperience doCreation(@NotNull PersonalExperienceContext context) {
-        if (context.endDate == PersonalExperienceContext.endDateNullSentinel) context.endDate = null;
+        assert context.isComplete != null;
         return new PersonalExperience(engine, context.type, context.startDate, context.endDate, context.isComplete);
     }
 

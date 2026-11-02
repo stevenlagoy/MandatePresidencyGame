@@ -24,11 +24,6 @@ public class PersonalExperienceManager extends EntityManager<PersonalExperience,
     }
 
     @Override
-    protected void doFromJson(@NotNull JSONObject json) {
-
-    }
-
-    @Override
     protected @NotNull PersonalExperience entityFromJson(JSONObject json) {
         return new PersonalExperience(engine, json);
     }
