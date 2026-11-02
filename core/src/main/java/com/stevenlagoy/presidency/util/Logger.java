@@ -56,6 +56,19 @@ public final class Logger {
         }
     }
 
+    /**
+     * Write the passed errorline and exception to the standard error file.
+     *
+     * @param errorLine String to be written, explaining information about the event logged.
+     * @param logE Exception to be written. The Exception.printStackTrace() method will be used.
+     * @see #error(Exception)
+     * @see #error(String, String)
+     * @see #error(String, String, Exception)
+     */
+    public static void error(@NotNull String errorLine, Exception logE) {
+        error("%s - %s", errorLine, logE);
+    }
+
     public static void error(@NotNull String format, @Nullable Object... args) {
         error(String.format(format, args));
     }
